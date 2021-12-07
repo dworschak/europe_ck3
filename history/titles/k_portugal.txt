@@ -1,0 +1,864 @@
+﻿k_portugal = {
+	1185.12.6 = {holder=209500}	# Sancho I de Bourgogne
+	1212.3.26 = {holder=459560}	# Afonso II de Bourgogne
+	1223.3.25 = {holder=459562}	# Sancho II de Bourgogne
+	1248.1.3 = {holder=459520}	# Afonso III de Bourgogne
+	1279.4.18 = {holder=459510}	# Dinis Afonses de Bourgogne
+	1325.1.7 = {holder=459500}	# Afonso IV de Bourgogne
+	#######
+	# BOURGOGNE cont.
+	1357.05.28 = {holder=459501}
+	1367.01.18 = {holder=100200949}	# Fernando | BOURGOGNE %%
+	# AVIZ
+	1383.10.22 = {holder=100200950}	# João | AVIS %%
+	1433.08.14 = {holder=100025033}	# Duarte | AVIS %%
+	1438.06.09 = {holder=100025575}	# Afonso | AVIS %%
+	1481.08.28 = {holder=100025577}	# João | AVIS %%
+	1495.10.25 = {holder=100025617}	# Manoel | AVIS %%
+	1521.12.13 = {holder=100025625}	# João | AVIS %%
+	1557.06.11 = {holder=100025643}	# Sebastião | AVIS %%
+	1578.08.27 = {holder=100025678}	# Henrique | AVIS %%
+	# HABSBURG
+	1580.01.31 = {holder=100021110}	# FELIPE I | HABSBURG
+	1598.07.13 = {holder=100021123}	# FELIPE II | HABSBURG
+	1621.03.31 = {holder=100021128}	# FELIPE III | HABSBURG
+	# BRAGANCA
+	1640.12.15 = {holder=100033122}	# JOÃO IV | BRAGANZA
+	1656.11.06 = {holder=100033121}	# PEDRO II | BRAGANZA
+	1706.12.09 = {holder=100033000}	# JOÃO V | BRAGANZA
+	1750.07.31 = {holder=100033005}	# JOSÉ I | BRAGANZA
+	1777.02.24 = {holder=100033007}	# MARIA I | BRAGANZA
+	1816.03.20 = {holder=100033019}	# JOÃO VI | BRAGANZA
+	1826.03.10 = {holder=100033027}	# PEDRO IV | BRAGANZA
+	1826.05.02 = {holder=100033059}	# MIGUEL | BRAGANZA
+	1834.05.26 = {holder=100033030}	# MARIA II | BRAGANZA
+	# COBURG
+	1853.11.15 = {holder=100033033}	# PEDRO V | BRAGANZA
+	1861.11.11 = {holder=100033035}	# LUIS | BRAGANZA
+	1889.10.19 = {holder=100033037}	# CARLOS | BRAGANZA
+	1908.02.01 = {holder=100033041}	# MANOEL II | BRAGANZA
+	# BRAGANCA restoration
+	1932.07.02 = {holder=100033096}	# DUARTE | BRAGANZA
+	1976.12.24 = {holder=100033098}	# DUARTE | BRAGANZA
+}
+
+#########
+
+d_beja = {
+	761.1.1 = {
+		holder = 200035	# Abdallah Aslamid
+		liege = k_andalusia
+	}
+	789.1.1 = {holder=200034}	# Jalid Aslamid
+	820.1.1 = {holder=200033}	# Hashim Aslamid
+	840.1.1 = {holder=73968}	# Abd al-Aziz Aslamid
+	870.1.1 = {holder=73967}	# Aslam Aslamid
+	878.1.1 = {holder=0}
+	1142.1.1 = {holder=73203}	# Siddray Wazirid
+	1145.1.1 = {liege=0}
+	1147.10.25 = {
+		holder = 0
+		de_jure_liege = k_portugal
+	}
+}
+
+c_lisboa = {
+	867.1.1 = {change_development_level=9}
+	1066.1.1 = {change_development_level=12}
+	761.1.1 = {
+		holder = 200035	# Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+	789.1.1 = {holder=200034}	# Jalid Aslamid
+	820.1.1 = {holder=200033}	# Hashim Aslamid
+	840.1.1 = {holder=73968}	# Abd al-Aziz Aslamid
+	870.1.1 = {holder=73967}	# Aslam Aslamid
+	930.1.1 = {
+		holder = 3200	# Abd al-Rahman III Umayyad
+		liege = k_andalusia
+	}
+	961.10.15 = {holder=3202}	# al-Hakam II Umayyad
+	976.10.16 = {holder=3204}	# Hisham II Umayyad
+	1009.2.15 = {holder=73671}	# Muhammad II Umayyad
+	1009.11.1 = {holder=73675}	# Suleyman Umayyad
+	1010.5.10 = {holder=73671}	# Muhammad II Umayyad
+	1010.7.23 = {holder=3204}	# Hisham II Umayyad
+	1013.4.19 = {holder=73675}	# Suleyman Umayyad
+	1016.7.1 = {holder=73687}	# Ali Hammudid
+	1018.3.22 = {holder=73678}	# Abd al-Rahman IV Umayyad
+	1018.6.1 = {holder=73689}	# al-Qasim Hammudid
+	1021.1.1 = {holder=73690}	# Yahya Hammudid
+	1022.1.1 = {
+		holder = 200220	# Abd al-Aziz Saqlabid
+		liege = 0
+	}
+	1030.1.1 = {holder=200221}	# Abd al-Malik Saqlabid
+	1034.1.1 = {
+		holder = 45007	# Abdallah Aftasid
+		liege = d_badajoz
+	}
+	1045.1.1 = {holder=3900}	# Abu Bakr Aftasid
+	1060.1.1 = {holder=3901}	# Yahya Aftasid
+	1079.1.1 = {holder=3902}	# Muhammad Aftasid
+	1080.1.1 = {holder=45009}	# Abbas Aftasid
+	1094.1.1 = {
+		holder = 73205	# Yusuf Yusufid
+		liege = k_maghreb
+	}
+	1116.1.1 = {holder=73207}	# Ismai'l Ismailid
+	1142.1.1 = {
+		holder = 73203	# Siddray Wazirid
+		liege = d_beja
+	}
+	1147.10.25 = {
+		holder = 209503	# Afonso I de Bourgogne
+		liege = k_portugal
+	}
+	1185.12.6 = {holder=209500}	# Sancho I de Bourgogne
+	1212.3.26 = {holder=459560}	# Afonso II de Bourgogne
+	1223.3.25 = {holder=459562}	# Sancho II de Bourgogne
+	1248.1.3 = {holder=459520}	# Afonso III de Bourgogne
+	1279.4.18 = {holder=459510}	# Dinis Afonses de Bourgogne
+	1325.1.7 = {holder=459500}	# Afonso IV de Bourgogne
+	#######
+	# BOURGOGNE cont.
+	1357.05.28 = {holder=459501}
+	1367.01.18 = {holder=100200949}	# Fernando | BOURGOGNE %%
+	# AVIZ
+	1383.10.22 = {holder=100200950}	# João | AVIS %%
+	1433.08.14 = {holder=100025033}	# Duarte | AVIS %%
+	1438.06.09 = {holder=100025575}	# Afonso | AVIS %%
+	1481.08.28 = {holder=100025577}	# João | AVIS %%
+	1495.10.25 = {holder=100025617}	# Manoel | AVIS %%
+	1521.12.13 = {holder=100025625}	# João | AVIS %%
+	1557.06.11 = {holder=100025643}	# Sebastião | AVIS %%
+	1578.08.27 = {holder=100025678}	# Henrique | AVIS %%
+	# HABSBURG
+	1580.01.31 = {holder=100021110}	# FELIPE I | HABSBURG
+	1598.07.13 = {holder=100021123}	# FELIPE II | HABSBURG
+	1621.03.31 = {holder=100021128}	# FELIPE III | HABSBURG
+	# BRAGANCA
+	1640.12.15 = {holder=100033122}	# JOÃO IV | BRAGANZA
+	1656.11.06 = {holder=100033121}	# PEDRO II | BRAGANZA
+	1706.12.09 = {holder=100033000}	# JOÃO V | BRAGANZA
+	1750.07.31 = {holder=100033005}	# JOSÉ I | BRAGANZA
+	1777.02.24 = {holder=100033007}	# MARIA I | BRAGANZA
+	1816.03.20 = {holder=100033019}	# JOÃO VI | BRAGANZA
+	1826.03.10 = {holder=100033027}	# PEDRO IV | BRAGANZA
+	1826.05.02 = {holder=100033059}	# MIGUEL | BRAGANZA
+	1834.05.26 = {holder=100033030}	# MARIA II | BRAGANZA
+	# COBURG
+	1853.11.15 = {holder=100033033}	# PEDRO V | BRAGANZA
+	1861.11.11 = {holder=100033035}	# LUIS | BRAGANZA
+	1889.10.19 = {holder=100033037}	# CARLOS | BRAGANZA
+	1908.02.01 = {holder=100033041}	# MANOEL II | BRAGANZA
+	# BRAGANCA restoration
+	1932.07.02 = {holder=100033096}	# DUARTE | BRAGANZA
+	1976.12.24 = {holder=100033098}	# DUARTE | BRAGANZA
+	867.1.1 = {change_development_level=9}
+	1066.1.1 = {change_development_level=12}
+	761.1.1 = {
+		holder = 200035	# Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+	789.1.1 = {holder=200034}	# Jalid Aslamid
+	820.1.1 = {holder=200033}	# Hashim Aslamid
+	840.1.1 = {holder=73968}	# Abd al-Aziz Aslamid
+	870.1.1 = {holder=73967}	# Aslam Aslamid
+	930.1.1 = {
+		holder = 3200	# Abd al-Rahman III Umayyad
+		liege = k_andalusia
+	}
+	961.10.15 = {holder=3202}	# al-Hakam II Umayyad
+	976.10.16 = {holder=3204}	# Hisham II Umayyad
+	1009.2.15 = {holder=73671}	# Muhammad II Umayyad
+	1009.11.1 = {holder=73675}	# Suleyman Umayyad
+	1010.5.10 = {holder=73671}	# Muhammad II Umayyad
+	1010.7.23 = {holder=3204}	# Hisham II Umayyad
+	1013.4.19 = {holder=73675}	# Suleyman Umayyad
+	1016.7.1 = {holder=73687}	# Ali Hammudid
+	1018.3.22 = {holder=73678}	# Abd al-Rahman IV Umayyad
+	1018.6.1 = {holder=73689}	# al-Qasim Hammudid
+	1021.1.1 = {holder=73690}	# Yahya Hammudid
+	1022.1.1 = {
+		holder = 200220	# Abd al-Aziz Saqlabid
+		liege = 0
+	}
+	1030.1.1 = {holder=200221}	# Abd al-Malik Saqlabid
+	1034.1.1 = {
+		holder = 45007	# Abdallah Aftasid
+		liege = d_badajoz
+	}
+	1045.1.1 = {holder=3900}	# Abu Bakr Aftasid
+	1060.1.1 = {holder=3901}	# Yahya Aftasid
+	1079.1.1 = {holder=3902}	# Muhammad Aftasid
+	1080.1.1 = {holder=45009}	# Abbas Aftasid
+	1094.1.1 = {
+		holder = 73205	# Yusuf Yusufid
+		liege = k_maghreb
+	}
+	1116.1.1 = {holder=73207}	# Ismai'l Ismailid
+	1142.1.1 = {
+		holder = 73203	# Siddray Wazirid
+		liege = d_beja
+	}
+	1147.10.25 = {
+		holder = 209503	# Afonso I de Bourgogne
+		liege = k_portugal
+	}
+	1185.12.6 = {holder=209500}	# Sancho I de Bourgogne
+	1212.3.26 = {holder=459560}	# Afonso II de Bourgogne
+	1223.3.25 = {holder=459562}	# Sancho II de Bourgogne
+	1248.1.3 = {holder=459520}	# Afonso III de Bourgogne
+	1279.4.18 = {holder=459510}	# Dinis Afonses de Bourgogne
+	1325.1.7 = {holder=459500}	# Afonso IV de Bourgogne
+}
+b_santarem = {
+	1255.1.1 = {holder=142669}
+	1261.1.1 = {holder=142673}
+	1315.1.1 = {holder=142682}
+	1331.1.1 = {holder=142697}
+}
+b_setubal = {
+	1147.10.25 = {holder=142415}
+	1200.1.1 = {holder=142616}
+	1210.1.1 = {holder=142618}
+	1230.1.1 = {holder=142620}
+	1232.1.1 = {holder=142621}
+	1250.1.1 = {holder=142632}
+	1280.1.1 = {holder=142639}
+	1300.1.1 = {holder=142640}
+}
+c_alcacer_do_sal = {
+	761.1.1 = {
+		holder = 200035	# Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+	789.1.1 = {holder=200034}	# Jalid Aslamid
+	820.1.1 = {holder=200033}	# Hashim Aslamid
+	840.1.1 = {holder=73968}	# Abd al-Aziz Aslamid
+	845.1.1 = {
+		holder = 73964	# Zuhayr Balawid
+		liege = d_badajoz
+	}
+	852.1.1 = {holder=73966}	# Salama Balawid
+	915.1.1 = {
+		holder = 3200	# Abd al-Rahman III Umayyad
+		liege = k_andalusia
+	}
+	961.10.15 = {holder=3202}	# al-Hakam II Umayyad
+	976.10.16 = {holder=3204}	# Hisham II Umayyad
+	1009.2.15 = {holder=73671}	# Muhammad II Umayyad
+	1009.11.1 = {holder=73675}	# Suleyman Umayyad
+	1010.5.10 = {holder=73671}	# Muhammad II Umayyad
+	1010.7.23 = {holder=3204}	# Hisham II Umayyad
+	1013.4.19 = {holder=73675}	# Suleyman Umayyad
+	1016.7.1 = {holder=73687}	# Ali Hammudid
+	1018.3.22 = {holder=73678}	# Abd al-Rahman IV Umayyad
+	1018.6.1 = {holder=73689}	# al-Qasim Hammudid
+	1021.1.1 = {holder=73690}	# Yahya Hammudid
+	1022.1.1 = {
+		holder = 200220	# Abd al-Aziz Saqlabid
+		liege = 0
+	}
+	1030.1.1 = {holder=200221}	# Abd al-Malik Saqlabid
+	1034.1.1 = {
+		holder = 45007	# Abdallah Aftasid
+		liege = d_badajoz
+	}
+	1045.1.1 = {holder=3900}	# Abu Bakr Aftasid
+	1060.1.1 = {holder=3901}	# Yahya Aftasid
+	1063.1.1 = {holder=3902}	# Muhammad Aftasid
+	1080.1.1 = {holder=45009}	# Abbas Aftasid
+	1094.1.1 = {
+		holder = 73205	# Yusuf Yusufid
+		liege = k_maghreb
+	}
+	1116.1.1 = {holder=73207}	# Isma'il Isamilid
+	1142.1.1 = {
+		holder = 73203	# Siddray Wazirid
+		liege = d_beja
+	}
+	1147.10.25 = {liege=0}
+	1150.1.1 = {
+		holder = 224011	# Yazid Yazidid
+		liege = k_maghreb
+	}
+	1188.1.1 = {holder=224021}	# Bilal Tremecen
+	1199.1.1 = {holder=73609}	# Utman Tittawin
+	1213.1.1 = {holder=73610}	# Abdallah Utmanid
+	1217.10.18 = {
+		holder = 142547	# Afonso Hermiges de Bai�o
+		liege = k_portugal
+	}
+	1220.1.1 = {holder=142550}	# Afonso Lopes de Bai�o
+	1261.1.1 = {holder=142551}	# Fern�o Lopes de Bai�o
+	1262.1.1 = {holder=142552}	# Diogo Lopes de Bai�o
+	1263.1.1 = {holder=142561}	# Pero Pon�e de Bai�o
+	1272.1.1 = {holder=142572}	# Afonso Rodrigues de Bai�o
+	1286.1.1 = {holder=142574}	# Martim Afonses de Bai�o
+	1306.1.1 = {holder=142575}	# Rodrigo Afonses de Bai�o
+	1307.1.1 = {holder=142576}	# Geraldo Afonses de Bai�o
+	1308.1.1 = {holder=142584}	# Guiomar Martimes de Bai�o
+	1327.1.1 = {holder=142585}	# Aldon�a Martimes de Bai�o
+	1328.1.1 = {holder=142586}	# Mor Martimes de Bai�o
+}
+c_elvas = {
+	761.1.1 = {
+		holder = 200035	# Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+	789.1.1 = {holder=200034}	# Jalid Aslamid
+	820.1.1 = {holder=200033}	# Hashim Aslamid
+	840.1.1 = {holder=73968}	# Abd al-Aziz Aslamid
+	845.1.1 = {
+		holder = 73964	# Zuhayr Balawid
+		liege = d_badajoz
+	}
+	852.1.1 = {holder=73966}	# Salama Balawid
+	915.1.1 = {
+		holder = 3200	# Abd al-Rahman III Umayyad
+		liege = k_andalusia
+	}
+	961.10.15 = {holder=3202}	# al-Hakam II Umayyad
+	976.10.16 = {holder=3204}	# Hisham II Umayyad
+	1009.2.15 = {holder=73671}	# Muhammad II Umayyad
+	1009.11.1 = {holder=73675}	# Suleyman Umayyad
+	1010.5.10 = {holder=73671}	# Muhammad II Umayyad
+	1010.7.23 = {holder=3204}	# Hisham II Umayyad
+	1013.4.19 = {holder=73675}	# Suleyman Umayyad
+	1016.7.1 = {holder=73687}	# Ali Hammudid
+	1018.3.22 = {holder=73678}	# Abd al-Rahman IV Umayyad
+	1018.6.1 = {holder=73689}	# al-Qasim Hammudid
+	1021.1.1 = {holder=73690}	# Yahya Hammudid
+	1022.1.1 = {
+		holder = 200220	# Abd al-Aziz Saqlabid
+		liege = 0
+	}
+	1030.1.1 = {holder=200221}	# Abd al-Malik Saqlabid
+	1034.1.1 = {
+		holder = 45007	# Abdallah Aftasid
+		liege = d_badajoz
+	}
+	1045.1.1 = {holder=3900}	# Abu Bakr Aftasid
+	1060.1.1 = {holder=3901}	# Yahya Aftasid
+	1063.1.1 = {holder=3902}	# Muhammad Aftasid
+	1080.1.1 = {holder=45009}	# Abbas Aftasid
+	1094.1.1 = {
+		holder = 73205	# Yusuf Yusufid
+		liege = k_maghreb
+	}
+	1116.1.1 = {holder=73207}	# Isma'il Isamilid
+	1142.1.1 = {
+		holder = 73203	# Siddray Wazirid
+		liege = d_beja
+	}
+	1147.10.25 = {liege=0}
+	1150.1.1 = {
+		holder = 224011	# Yazid Yazidid
+		liege = k_maghreb
+	}
+	1188.1.1 = {holder=224021}	# Bilal Tremecen
+	1199.1.1 = {holder=73609}	# Utman Tittawin
+	1213.1.1 = {holder=73610}	# Abdallah Utmanid
+	1217.10.18 = {
+		holder = 142547	# Afonso Hermiges de Bai�o
+		liege = k_portugal
+	}
+	1220.1.1 = {holder=142550}	# Afonso Lopes de Bai�o
+	1261.1.1 = {holder=142551}	# Fern�o Lopes de Bai�o
+	1262.1.1 = {holder=142552}	# Diogo Lopes de Bai�o
+	1263.1.1 = {holder=142561}	# Pero Pon�e de Bai�o
+	1272.1.1 = {holder=142572}	# Afonso Rodrigues de Bai�o
+	1286.1.1 = {holder=142574}	# Martim Afonses de Bai�o
+	1306.1.1 = {holder=142575}	# Rodrigo Afonses de Bai�o
+	1307.1.1 = {holder=142576}	# Geraldo Afonses de Bai�o
+	1308.1.1 = {holder=142584}	# Guiomar Martimes de Bai�o
+	1327.1.1 = {holder=142585}	# Aldon�a Martimes de Bai�o
+	1328.1.1 = {holder=142586}	# Mor Martimes de Bai�o
+}
+c_evora = {
+}
+b_beja = {
+	1238.1.1 = {holder=142855}
+	1240.1.1 = {holder=142871}
+	1280.1.1 = {holder=142880}
+	1310.1.1 = {holder=142886}
+}
+c_moura = {
+	756.3.16 = {
+		holder = 73679	# Abd al-Rahman I Umayyad
+		liege = k_andalusia
+		government = clan_government
+	}
+	788.10.7 = {holder=73680}	# Hisham I Umayyad
+	796.6.12 = {holder=73681}	# al-Hakam I Umayyad
+	822.5.21 = {holder=73682}	# Abd al-Rahman II Umayyad
+	852.9.22 = {holder=73683}	# Muhammad I Umayyad
+	886.1.1 = {holder=73684}	# al-Mundir Umayyad
+	888.6.24 = {holder=73685}	# Abdallah Umayyad
+	912.10.15 = {holder=3200}	# Abd al-Rahman III Umayyad
+	961.10.15 = {holder=3202}	# al-Hakam II Umayyad
+	976.10.16 = {holder=3204}	# Hisham II Umayyad
+	1009.2.15 = {holder=73671}	# Muhammad II Umayyad
+	1009.11.1 = {holder=73675}	# Suleyman Umayyad
+	1010.5.10 = {holder=73671}	# Muhammad II Umayyad
+	1010.7.23 = {holder=3204}	# Hisham II Umayyad
+	1013.4.19 = {holder=73675}	# Suleyman Umayyad
+	1016.7.1 = {holder=73687}	# Ali Hammudid
+	1018.3.22 = {holder=73678}	# Abd al-Rahman IV Umayyad
+	1018.6.1 = {holder=73689}	# al-Qasim Hammudid
+	1021.1.1 = {holder=73690}	# Yahya Hammudid
+	1023.1.1 = {
+		holder = 200262	# Ahmad Yahsubid
+		liege = 0
+	}
+	1042.1.1 = {holder=200264}	# Muhammad Yahsubid
+	1051.1.1 = {holder=200266}	# Fath Yahsubid
+	1053.1.1 = {
+		holder = 3214
+		liege = d_sevilla
+	}
+	1069.1.15 = {holder=3214}	# Muhammad II Abbadid
+	1083.1.1 = {holder=73216}	# Abd al-Yabbar Abbadid
+	1091.1.1 = {
+		holder = 73222	# Sir Abu-Bakrid
+		liege = k_maghreb
+	}
+	1114.1.1 = {holder=73206}	# Ali Yusufid
+	1136.1.1 = {holder=73224}	# Ayyub Yaafarid
+	1148.1.1 = {holder=224020}	# Muhammad Ishbiliyid
+	1190.1.1 = {holder=73611}	# Yahya Utmanid
+	1212.1.1 = {holder=73612}	# Umar Utmanid
+	1234.1.1 = {
+		holder = 73632	# Su'ayb Mahfuzid
+		liege = 0
+	}
+	1262.1.1 = {
+		holder = 73130	# Pedro Guill�n de Guzm�n
+		liege = k_castille
+	}
+	1296.1.1 = {holder=458007}	# Alfonso P�rez de Guzm�n
+	1309.9.9 = {holder=458011}	# Juan Alfonso de Guzm�n
+}
+
+#########
+
+d_algarve = {
+	867.1.1 = {
+		holder = 73684	# al-Mundir Umayyad
+		liege = k_andalusia
+	}
+	886.1.1 = {holder=0}
+	1249.1.1 = {de_jure_liege=k_portugal}
+}
+
+c_faro = {
+	766.1.1 = {
+		holder = 200222	# Marwan Qashid
+		liege = k_andalusia
+		government = clan_government
+	}
+	799.1.1 = {holder=73681}	# al-Hakam I Umayyad
+	822.5.21 = {holder=73682}	# Abd al-Rahman II Umayyad
+	852.9.22 = {holder=73683}	# Muhammad I Umayyad
+	867.1.1 = {
+		holder = 73684	# al-Mundir Umayyad
+		liege = d_algarve
+	}
+	886.1.1 = {liege=k_andalusia}
+	888.6.24 = {holder=73685}	# Abdallah Umayyad
+	912.10.15 = {holder=3200}	# Abd al-Rahman III Umayyad
+	961.10.15 = {holder=3202}	# al-Hakam II Umayyad
+	976.10.16 = {holder=3204}	# Hisham II Umayyad
+	1009.2.15 = {holder=73671}	# Muhammad II Umayyad
+	1009.11.1 = {holder=73675}	# Suleyman Umayyad
+	1010.5.10 = {holder=73671}	# Muhammad II Umayyad
+	1010.7.23 = {holder=3204}	# Hisham II Umayyad
+	1013.4.19 = {holder=73675}	# Suleyman Umayyad
+	1016.7.1 = {holder=73687}	# Ali Hammudid
+	1051.1.1 = {
+		holder = 73255	# Abu-Bakr Ramimid
+		liege = d_sevilla
+	}
+	1069.1.15 = {holder=3214}	# Muhammad II Abbadid
+	1082.1.1 = {holder=73215}	# Rashid Abbadid
+	1091.1.1 = {
+		holder = 73223	# Ya'far Yafarid
+		liege = k_maghreb
+	}
+	1117.1.1 = {holder=73225}	# Ibrahim Yafarid
+	1135.1.1 = {holder=73208}	# Muhammad Ismailid
+	1149.1.1 = {holder=224009}	# Abd al-Aziz Muttawakilid
+	1172.1.1 = {holder=224021}	# Bilal Tremecen
+	1199.1.1 = {holder=73609}	# Utman Tittawin
+	1213.1.1 = {holder=73610}	# Abdallah Utmanid
+	1228.1.1 = {
+		holder = 73625	# Muhammad Hudid
+		liege = d_murcia
+	}
+	1238.1.1 = {
+		holder = 73632	# Su'ayb Mahfuzid
+		liege = 0
+	}
+	1249.1.1 = {
+		holder = 143071	# Pero Ourigues de Aboim
+		liege = k_portugal
+	}
+	1250.1.1 = {holder=142217}	# Jo�o Peres de Aboim I
+	1285.3.15 = {holder=142219}	# Pedro Jes de Aboim
+	1311.1.1 = {holder=142154}	# Jo�o Peres de Aboim II
+	1328.1.1 = {holder=459531}	# Maria Peres de Aboim
+	1330.1.31 = {holder=459532}	# Pedro de Sousa Arroches
+}
+c_silves = {
+	766.1.1 = {
+		holder = 200222	# Marwan Qashid
+		liege = k_andalusia
+		government = clan_government
+	}
+	799.1.1 = {holder=73681}	# al-Hakam I Umayyad
+	822.5.21 = {holder=73682}	# Abd al-Rahman II Umayyad
+	852.9.22 = {holder=73683}	# Muhammad I Umayyad
+	867.1.1 = {
+		holder = 73684	# al-Mundir Umayyad
+		liege = d_algarve
+	}
+	886.1.1 = {liege=k_andalusia}
+	888.6.24 = {holder=73685}	# Abdallah Umayyad
+	912.10.15 = {holder=3200}	# Abd al-Rahman III Umayyad
+	961.10.15 = {holder=3202}	# al-Hakam II Umayyad
+	976.10.16 = {holder=3204}	# Hisham II Umayyad
+	1009.2.15 = {holder=73671}	# Muhammad II Umayyad
+	1009.11.1 = {holder=73675}	# Suleyman Umayyad
+	1010.5.10 = {holder=73671}	# Muhammad II Umayyad
+	1010.7.23 = {holder=3204}	# Hisham II Umayyad
+	1013.4.19 = {holder=73675}	# Suleyman Umayyad
+	1016.7.1 = {holder=73687}	# Ali Hammudid
+	1018.3.22 = {holder=73678}	# Abd al-Rahman IV Umayyad
+	1018.6.1 = {holder=73689}	# al-Qasim Hammudid
+	1051.1.1 = {
+		holder = 73255	# Abu-Bakr Ramimid
+		liege = d_sevilla
+	}
+	1069.1.15 = {holder=3214}	# Muhammad II Abbadid
+	1082.1.1 = {holder=73215}	# Rashid Abbadid
+	1091.1.1 = {
+		holder = 73223	# Ya'far Yafarid
+		liege = k_maghreb
+	}
+	1117.1.1 = {holder=73225}	# Ibrahim Yafarid
+	1135.1.1 = {holder=73208}	# Muhammad Ismailid
+	1149.1.1 = {holder=224009}	# Abd al-Aziz Muttawakilid
+	1172.1.1 = {holder=224021}	# Bilal Tremecen
+	1199.1.1 = {holder=73609}	# Utman Tittawin
+	1213.1.1 = {holder=73610}	# Abdallah Utmanid
+	1228.1.1 = {
+		holder = 73625	# Muhammad Hudid
+		liege = d_murcia
+	}
+	1238.1.1 = {
+		holder = 73632	# Su'ayb Mahfuzid
+		liege = 0
+	}
+	1249.1.1 = {
+		holder = 143071	# Pero Ourigues de Aboim
+		liege = k_portugal
+	}
+	1250.1.1 = {holder=142217}	# Jo�o Peres de Aboim I
+	1285.3.15 = {holder=142219}	# Pedro Jes de Aboim
+	1311.1.1 = {holder=142154}	# Jo�o Peres de Aboim II
+	1328.1.1 = {holder=459531}	# Maria Peres de Aboim
+	1330.1.31 = {holder=459532}	# Pedro de Sousa Arroches
+}
+b_lagos = {
+	1242.1.1 = {holder=142718}
+	1250.1.1 = {holder=142736}
+	1270.1.1 = {holder=142741}
+	1310.1.1 = {holder=142743}
+}
+
+#########
+
+d_coimbra = {
+	800.1.1 = {liege=k_portugal}
+	711.1.1 = {de_jure_liege=k_spanish_galicia}
+	1109.6.30 = {de_jure_liege=k_portugal}
+}
+
+c_coimbra = {
+	800.1.1 = {liege=d_coimbra}
+	761.1.1 = {
+		holder = 200035	# Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+	789.1.1 = {holder=200034}	# Jalid Aslamid
+	820.1.1 = {holder=200033}	# Hashim Aslamid
+	840.1.1 = {holder=73968}	# Abd al-Aziz Aslamid
+	864.1.1 = {holder=73967}	# Aslam Aslamid
+	878.1.1 = {
+		holder = 73857	# Hermenegildo Guterres de Coimbra
+		liege = d_porto
+	}
+	920.1.1 = {holder=73862}	# Guterre Hermenegildes de Coimbra
+	933.1.1 = {holder=73863}	# Rodrigo Guterres de Coimbra
+	970.1.1 = {holder=70111}	# Paio Rodrigues de Coimbra
+	1005.1.1 = {holder=109622}	# Mendo II Bet�tez
+	1008.10.11 = {holder=109601}	# Alvito Nunes Vimaranes
+	1015.1.1 = {holder=109603}	# Nuno I Vimaranes
+	1028.1.1 = {holder=109604}	# Mendo II Vimaranes
+	1050.1.1 = {holder=109607}	# Nuno II Vimaranes
+	1066.1.1 = {
+		holder = 109610	# Sisnando Davides
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1071.1.18 = {liege=k_spanish_galicia}
+	1092.1.1 = {holder=108500}	# Alfonso VI Jimena
+	1097.4.9 = {
+		holder = 6531	# Henri de Bourgogne
+		liege = d_porto
+	}
+	1112.5.22 = {holder=207661}	# Teresa Alf�nsez Jimena
+	1128.6.24 = {holder=209503}	# Afonso I de Bourgogne
+	1139.7.29 = {liege=k_portugal}
+	1185.12.6 = {holder=209500}	# Sancho I de Bourgogne
+	1212.3.26 = {holder=459560}	# Afonso II de Bourgogne
+	1223.3.25 = {holder=459562}	# Sancho II de Bourgogne
+	1248.1.3 = {holder=459520}	# Afonso III de Bourgogne
+	1279.4.18 = {holder=459510}	# Dinis Afonses de Bourgogne
+	1325.1.7 = {holder=459500}	# Afonso IV de Bourgogne
+}
+c_aveiro = {
+	800.1.1 = {liege=d_coimbra}
+	761.1.1 = {
+		holder = 200035	# Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+	789.1.1 = {holder=200034}	# Jalid Aslamid
+	820.1.1 = {holder=200033}	# Hashim Aslamid
+	840.1.1 = {holder=73968}	# Abd al-Aziz Aslamid
+	864.1.1 = {holder=73967}	# Aslam Aslamid
+	878.1.1 = {
+		holder = 73857	# Hermenegildo Guterres de Coimbra
+		liege = d_porto
+	}
+	920.1.1 = {holder=73862}	# Guterre Hermenegildes de Coimbra
+	933.1.1 = {holder=73863}	# Rodrigo Guterres de Coimbra
+	970.1.1 = {holder=70111}	# Paio Rodrigues de Coimbra
+	1005.1.1 = {holder=109622}	# Mendo II Bet�tez
+	1008.10.11 = {holder=109601}	# Alvito Nunes Vimaranes
+	1015.1.1 = {holder=109603}	# Nuno I Vimaranes
+	1028.1.1 = {holder=109604}	# Mendo II Vimaranes
+	1050.1.1 = {holder=109607}	# Nuno II Vimaranes
+	1060.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=109610}	# Sisnando Davides
+	1071.1.18 = {liege=k_spanish_galicia}
+	1092.1.1 = {holder=108500}	# Alfonso VI Jimena
+	1097.4.9 = {
+		holder = 6531	# Henri de Bourgogne
+		liege = d_porto
+	}
+	1112.5.22 = {holder=207661}	# Teresa Alf�nsez Jimena
+	1128.6.24 = {holder=209503}	# Afonso I de Bourgogne
+	1139.7.29 = {liege=k_portugal}
+	1185.12.6 = {holder=209500}	# Sancho I de Bourgogne
+	1212.3.26 = {holder=459560}	# Afonso II de Bourgogne
+	1223.3.25 = {holder=459562}	# Sancho II de Bourgogne
+	1248.1.3 = {holder=459520}	# Afonso III de Bourgogne
+	1279.4.18 = {holder=459510}	# Dinis Afonses de Bourgogne
+	1325.1.7 = {holder=459500}	# Afonso IV de Bourgogne
+}
+c_castelo_branco = {
+	800.1.1 = {liege=d_coimbra}
+	758.1.1 = {
+		holder = 200032	# Suleyman Suleymanid
+		liege = k_andalusia
+		government = clan_government
+	}
+	789.1.1 = {holder=73680}	# Hisham I Umayyad
+	796.6.12 = {holder=73681}	# al-Hakam Umayyad
+	822.5.21 = {holder=73682}	# Abd ar-Rahman II Umayyad
+	852.9.22 = {
+		holder = 73972	# Jalid Jalidid
+		liege = d_badajoz
+	}
+	880.1.1 = {
+		holder = 142005	# Lucidio Vimaranes
+		liege = d_porto
+	}
+	922.1.1 = {holder=73865}	# Diogo de Guimaraez
+	924.1.1 = {holder=70249}	# Mendo I Bet�tez
+	950.7.24 = {holder=109620}	# Gon�alo Mendez Bet�tez
+	997.1.1 = {holder=109622}	# Mendo II Bet�tez
+	1008.10.11 = {holder=109601}	# Alvito Nunes Vimaranes
+	1015.1.1 = {holder=109603}	# Nuno I Vimaranes
+	1028.1.1 = {holder=142125}	# Gomes de Sousa
+	1060.1.1 = {
+		holder = 142165	# Egas Gomes de Sousa
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1071.1.18 = {liege=k_spanish_galicia}
+	1095.1.1 = {holder=142167}	# Mem Viegas de Sousa
+	1097.4.9 = {liege=d_porto}
+	1130.1.1 = {holder=142009}	# Gon�alo Mendes de Sousa I
+	1139.7.29 = {liege=k_portugal}
+	1190.3.25 = {holder=142010}	# Mendo Gon�ales de Sousa
+	1220.1.1 = {holder=142182}	# Gon�alo Mendes de Sousa II
+	1230.1.1 = {holder=142319}	# Mem Gon�ales de Sousa
+	1250.1.1 = {holder=142194}	# Mem Garcia de Sousa
+	1275.1.1 = {holder=142205}	# Gon�alo Mendes de Sousa III
+	1286.1.1 = {holder=142209}	# Teresa Mendes de Sousa
+	1292.1.1 = {holder=459551}	# In�s Louren�o de Valadares
+	1300.1.1 = {holder=459552}	# Martim Afonso Chichorro II
+	1323.1.1 = {holder=459554}	# Vasco Martins de Sousa Chichorro
+}
+c_viseu = {
+	800.1.1 = {liege=d_coimbra}
+	761.1.1 = {
+		holder = 200035	# Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+	789.1.1 = {holder=200034}	# Jalid Aslamid
+	820.1.1 = {holder=200033}	# Hashim Aslamid
+	840.1.1 = {holder=73968}	# Abd al-Aziz Aslamid
+	864.1.1 = {holder=73967}	# Aslam Aslamid
+	878.1.1 = {
+		holder = 73857	# Hermenegildo Guterres de Coimbra
+		liege = d_porto
+	}
+	920.1.1 = {holder=73862}	# Guterre Hermenegildes de Coimbra
+	933.1.1 = {holder=73863}	# Rodrigo Guterres de Coimbra
+	970.1.1 = {holder=70111}	# Paio Rodrigues de Coimbra
+	1005.1.1 = {holder=109622}	# Mendo II Bet�tez
+	1008.10.11 = {holder=109601}	# Alvito Nunes Vimaranes
+	1015.1.1 = {holder=109603}	# Nuno I Vimaranes
+	1028.1.1 = {holder=109604}	# Mendo II Vimaranes
+	1050.1.1 = {holder=109607}	# Nuno II Vimaranes
+	1060.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=109610}	# Sisnando Davides
+	1071.1.18 = {liege=k_spanish_galicia}
+	1092.1.1 = {holder=108500}	# Alfonso VI Jimena
+	1097.4.9 = {
+		holder = 6531	# Henri de Bourgogne
+		liege = d_porto
+	}
+	1112.5.22 = {holder=207661}	# Teresa Alf�nsez Jimena
+	1128.6.24 = {holder=209503}	# Afonso I de Bourgogne
+	1139.7.29 = {liege=k_portugal}
+	1185.12.6 = {holder=209500}	# Sancho I de Bourgogne
+	1212.3.26 = {holder=459560}	# Afonso II de Bourgogne
+	1223.3.25 = {holder=459562}	# Sancho II de Bourgogne
+	1248.1.3 = {holder=459520}	# Afonso III de Bourgogne
+	1279.4.18 = {holder=459510}	# Dinis Afonses de Bourgogne
+	1325.1.7 = {holder=459500}	# Afonso IV de Bourgogne
+}
+
+#########
+
+d_portucale = {
+	800.1.1 = {liege=k_portugal}
+}
+
+c_porto = {
+	800.1.1 = {liege=d_portucale}
+	765.1.1 = {
+		holder = 200045	# Abd al-Rahman Abdalramanid
+		liege = k_andalusia
+	}
+	791.1.1 = {holder=73680}	# Hisham I Umayyad
+	796.6.12 = {holder=73681}	# al-Hakam Umayyad
+	822.5.21 = {holder=73682}	# Abd ar-Rahman II Umayyad
+	852.9.22 = {holder=73683}	# Muhammad I Ummayyad
+	855.1.1 = {
+		holder = 70017	# Ordo�o I de Cantabria
+		liege = k_asturias
+	}
+	867.1.1 = {
+		liege = d_porto
+		holder = 142006	# Vimara Peres Vimaranes
+	}
+	873.1.1 = {holder=142005}	# Lucidio Vimaranes
+	922.1.1 = {holder=73865}	# Diogo de Guimaraes
+	924.1.1 = {holder=70249}	# Mendo I Bet�tez
+	950.7.24 = {holder=109620}	# Gon�alo Mendes Bet�tez
+	997.1.1 = {holder=109622}	# Mendo II Bet�tez
+	1008.10.11 = {holder=109601}	# Alvito Nunes Vimaranes
+	1015.1.1 = {holder=109603}	# Nuno I Vimaranes
+	1028.1.1 = {holder=109604}	# Mendo III Vimaranes
+	1050.1.1 = {holder=109607}	# Nuno II Vimaranes
+	1071.1.18 = {
+		holder = 109500	# Garcia II Jimena
+		liege = k_spanish_galicia
+	}
+	1071.2.1 = {holder=107500}	# Sancho II Jimena
+	1072.10.7 = {holder=108500}	# Alfonso VI Jimena
+	1097.4.9 = {
+		holder = 6531	# Henri de Bourgogne
+		liege = d_porto
+	}
+	1112.5.22 = {holder=207661}	# Teresa Alf�nsez Jimena
+	1128.6.24 = {holder=209503}	# Afonso I de Bourgogne
+	1139.7.29 = {liege=k_portugal}
+	1185.12.6 = {holder=209500}	# Sancho I de Bourgogne
+	1212.3.26 = {holder=459560}	# Afonso II de Bourgogne
+	1223.3.25 = {holder=459562}	# Sancho II de Bourgogne
+	1248.1.3 = {holder=459520}	# Afonso III de Bourgogne
+	1279.4.18 = {holder=459510}	# Dinis Afonses de Bourgogne
+	1298.1.1 = {holder=142310}	# Joao Afonses de Meneses, first count of Barcelos
+	1300.1.1 = {holder=142313}	# Martim Martines de Riba Vizela
+	1316.1.1 = {holder=142122}	# Pedro Dinises de Bourgogne
+}
+b_guimaraes = {
+	1066.1.1 = {holder=142465}
+	1110.1.1 = {holder=142472}
+	1151.1.1 = {holder=142475}
+	1166.1.1 = {holder=143094}
+	1170.1.1 = {holder=143096}
+	1220.1.1 = {holder=143098}
+	1251.1.1 = {holder=143100}
+	1301.1.1 = {holder=143102}
+	1321.1.1 = {holder=143104}
+}
+c_braganza = {
+	800.1.1 = {liege=d_portucale}
+	760.1.1 = {
+		holder = 200031	# Musa Musavid
+		liege = k_andalusia
+	}
+	790.1.1 = {holder=73680}	# Hisham I Umayyad
+	796.6.12 = {holder=73681}	# al-Hakam Umayyad
+	822.5.21 = {holder=73682}	# Abd ar-Rahman II Umayyad
+	852.9.22 = {holder=73683}	# Muhammad I Ummayyad
+	867.1.1 = {
+		holder = 142006	# Vimara Peres Vimaranes
+		liege = d_porto
+	}
+	873.1.1 = {holder=142005}	# Lucidio Vimaranes
+	922.1.1 = {holder=142004}	# Alvito Lucides Vimaranes
+	967.1.1 = {holder=109600}	# Nuno Alvites Vimaranes I
+	987.1.1 = {holder=109601}	# Alvito Nunes Vimaranes
+	1015.1.1 = {holder=109603}	# Nuno Alvites Vimaranes II
+	1028.1.1 = {holder=142587}	# Mendo Al�o de Bragan�a
+	1050.1.1 = {holder=142140}	# Fern�o Mendes de Bragan�a
+	1071.1.18 = {liege=k_spanish_galicia}
+	1097.4.9 = {liege=d_porto}
+	1100.1.1 = {holder=142141}	# Mem Fernandes de Bragan�a
+	1139.7.29 = {liege=k_portugal}
+	1147.1.1 = {holder=142021}	# Fern�o Mendes de Bragan�a
+	1160.1.1 = {holder=142012}	# Pedro Fernandes de Bragan�a
+	1190.1.1 = {holder=142013}	# Garcia Pires de Bragan�a I
+	1195.1.1 = {holder=142441}	# Pero Garcia de Bragan�a
+	1225.1.1 = {holder=142448}	# Garcia Pires de Bragan�a II
+	1246.1.1 = {holder=142457}	# Gon�alo Nunes de Bragan�a
+	1260.1.1 = {holder=209532}	# Nuno Pires de Chacim
+	1284.1.1 = {holder=142367}	# Heitor Nunes de Chacim
+	1304.1.1 = {holder=459512}	# Afonso Dinises de Albuquerque
+	1329.1.1 = {holder=459514}	# Jo�o Afonses de Albuquerque
+}

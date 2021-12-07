@@ -1,0 +1,197 @@
+@smErmine = 0.27
+
+
+12403 = { #Mansfeld 
+	pattern = "pattern_horizontal_stripes_01.dds"
+	color1 = "black"
+	color2 = "white"
+}
+
+
+1004011 = 12403 # Colloredo
+house_colloredo_mannsfeld = 12403 # Colloredo-Mannsfeld
+
+1004004 = {	# collo
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_flower.dds"
+		color1 = "red"
+		color2 = "white"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 }  }
+		mask = { 2 }
+	}
+	colored_emblem = {
+		texture = "ce_flower.dds"
+		color1 = "white"
+		color2 = "red"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 }  }
+		mask = { 1 }
+	}
+}
+
+1004003 = {	# khev
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "black"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_acorn.dds"
+		color1 = "yellow"
+		color2 = "black"
+		instance = { position = { 0.5 0.25 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_waves_05.dds"
+		color1 = "black"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.72 } scale = { 1 1 }  }
+	}	
+}
+
+1004006 = {	# Orsini-Rosenberg
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_flower.dds"
+		color1 = "red"
+		color2 = "white"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.47 } scale = { 0.6 0.6 }  }
+	}
+}
+
+1011658 = { # Nyary
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "red"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_lion_rampant_crown.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+		mask = { 1 }
+	}
+	colored_emblem = {
+		texture = "ce_flower.dds"
+		color1 = "white"
+		color2 = "red"
+		color3 = "yellow"
+		instance = { position = { 0.28 0.63 } scale = { 0.20 0.20 }  }
+		instance = { position = { 0.72 0.63 } scale = { 0.20 0.20 }  }
+		instance = { position = { 0.50 0.80 } scale = { 0.20 0.20 }  }
+	}
+}
+
+1011003 = { # ESTERHAZY	
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_griffin_rampant.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "black"
+		instance = { position = { 0.5 0.42 } scale = { 0.8 0.8 }  }
+	}	
+	colored_emblem = {
+		texture = "ce_crown_head.dds"
+		color1 = "yellow"
+		color2 = "black"
+		color3 = "black"
+		instance = { position = { 0.5 0.72 } scale = { 0.5 0.5 }  }
+	}
+}
+
+house_esterhazy_paul = { # ESTERHAZY-princely
+	pattern = "pattern_shield_03_small.dds"
+	color2 = "black"
+	
+	#parent = "1011003"
+	#sub = {
+    #    parent = 1011003
+    #    instance = { offset = { 0.5 0.0 } scale = { 0.5 0.5 }  } # top right
+    #    instance = { offset = { 0.0 0.5 } scale = { 0.5 0.5 }  } # bottom left
+    #}
+	#sub = {
+    #    parent = 1011658
+    #    instance = { offset = { 0.0 0.0 } scale = { 0.5 0.5 }  } # top left
+    #    instance = { offset = { 0.5 0.5 } scale = { 0.5 0.5 }  } # bottom right
+    #}
+	colored_emblem = {
+		texture = "ce_letter_l.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.4 } scale = { 0.35 0.35 }  }
+	}
+}
+
+1004001 = {
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "red"
+	color2 = "white"
+}
+
+sideways_eagle = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.42 } scale = { 0.8 0.8 } rotation = -40 }
+	}	
+}
+
+house_lobko_hasi = 1004001
+
+house_lobko_popel = {
+	#sub = {
+    #    parent = sideways_eagle
+    #    instance = { offset = { 0.5 0.0 } scale = { 0.5 0.5 }  } # top right
+    #    instance = { offset = { 0.0 0.5 } scale = { 0.5 0.5 }  } # bottom left
+    #}
+	#sub = {
+    #    parent = 1004001
+    #    instance = { offset = { 0.0 0.0 } scale = { 0.5 0.5 }  } # top left
+    #    instance = { offset = { 0.5 0.5 } scale = { 0.5 0.5 }  } # bottom right
+    #}
+}
+
+1013000 = {	# Schwarzenberg
+	pattern = "pattern_stripes_06.dds"
+	color1 = "blue"
+	color2 = "white"
+}
+
+1004002 = {	# Liechtenstein
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "yellow"
+	color2 = "red"
+}
+
+1011726 = {	# Serenyi
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "white"
+	color2 = "blue_light"
+	colored_emblem = {
+		texture = "ce_snake.dds"
+		color1 = "green"
+		color2 = "red"
+		instance = { position = { 0.3 0.5 } scale = { 0.6 0.9 } }
+	}
+	colored_emblem = {
+		texture = "ce_horse_rampant.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { position = { 0.7 0.22 } scale = { 0.35 0.35 } }
+	}
+	colored_emblem = {
+		texture = "ce_checkers_diagonal_6x3.dds"
+		color1 = "blue_light"
+		color2 = "white"
+		instance = { position = { 0.72 0.6 } scale = { 0.42 0.35 } }
+	}
+}

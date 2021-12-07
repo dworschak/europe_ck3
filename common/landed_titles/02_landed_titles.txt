@@ -1,0 +1,711 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+
+e_britannia = {
+	color = { 172 22 22 }
+	color2 = { 255 255 255 }
+	
+	capital = c_middlesex
+	
+	cultural_names = {
+		pictish = cn_pictavia
+		irish = cn_alba
+		gaelic = cn_alba
+	}
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture_group = culture_group:west_germanic_group
+					culture_group = culture_group:goidelic_group
+					culture_group = culture_group:brythonic_group
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+	
+	k_cornwall = {
+		color = { 204 153 10 }
+		color2 = { 220 220 0 }
+		
+		can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				has_culture_group = culture_group:brythonic_group
+			}
+		}
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:cornish
+				}
+				add = @correct_culture_primary_score
+			}
+			if = {
+				limit = {
+					OR = {
+						culture = culture:welsh
+						culture = culture:cumbrian
+						culture = culture:breton
+					}
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+
+		capital = c_cornwall
+	}
+}
+
+e_germany = {
+	color = { 190 200 190 }
+	color2 = { 220 220 20 }
+
+	capital = c_nassau
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:central_germanic_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_roman_empire = {
+	color = { 167 10 100 }
+	color2 = { 255 255 20 }
+	
+	capital = c_roma # Rome
+	definite_form = yes
+	
+}
+
+e_byzantium = {
+	color =  hsv{ 0.9 1 0.3 } #hsv{ 0.73 0.8 0.4 }  #hsv{ 0.77 0.8 0.6 } #{ 143 12 125 }
+	color2 = { 255 255 255 }
+	
+	capital = c_byzantion
+	
+	definite_form = yes
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:byzantine_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+	
+	k_saruhan = {
+		color = { 144 171 225 }
+	}
+	
+	k_trinacria = {
+		color = { 249 232 247 }
+
+		capital = c_palermo #	Palermo
+	}
+	
+	k_tekke = {
+		color = { 244 153 189 }
+	}
+	
+	k_trebizond = {
+		color = { 100 151 33 }
+		
+		capital = c_trebizond # Trebizond
+	}
+
+	k_ottoman = {
+		color = { 247 145 30 }
+	}
+
+	k_rum = {
+		color = { 144 182 161 }
+	}
+
+	k_mentese = {
+		color = { 60 130 20 }
+	}
+
+	k_karaman = {
+		color = { 120 41 92 }
+	}
+
+	k_germiyan = {
+		color = { 255 180 180 }
+	}
+
+	k_eretnid = {
+		color = { 253 182 182 }
+	}
+	
+	k_aydin = {
+		color = { 238 43 172 }
+	}
+
+	k_candar = {
+		color = { 238 79 182 }
+	}
+	
+	k_bosnia = {
+		color = { 16 125 74 }
+		color2 = { 255 255 255 }
+		
+		capital = c_rama # Visoki
+
+		#Titular: created by decision.
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:bosnian
+				}
+				add = @correct_culture_primary_score
+			}
+			if = {
+				limit = {
+					OR = {
+						culture = culture:croatian
+						culture = culture:serbian
+					}
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+	}
+	
+	k_armenian_principality = {
+		color = { 223 96 96 }
+		color2 = { 255 255 255 }
+		
+		capital = c_hayk # Ani
+		
+		de_jure_drift_disabled = yes
+		always_follows_primary_heir = yes
+		definite_form = yes
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:armenian
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+	}
+
+	k_old_armenia = {
+		color = { 223 96 96 }
+		color2 = { 255 255 255 }
+		
+		#Here to prevent Armenia's regnal numbers getting messed up, as Bagratid Armenia counted its kings starting with Ashok I, and otherwise he'd be Ashok IV.
+
+		capital = c_hayk # Ani
+		
+		can_create = { always = no } #For historical purposes only.
+		no_automatic_claims = yes	#Otherwise the Bagrationi end up with weird claims in 867.
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:armenian
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	}
+}
+
+e_italy = {
+	color = { 234 217 110 }
+	color2 = { 255 255 255 }
+	
+	capital = c_roma # Rome
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:italian
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+	
+	k_genoa = {
+		color = { 234 131 110 }
+		capital = c_genoa # Genoa
+		
+	}
+	
+	k_pisa = {
+		color = { 196 192 140 }
+		color2 = { 255 255 255 }
+		
+		capital = c_pisa # Pisa
+		
+	}
+
+	k_naples = {
+		color = { 218 217 242 }
+		capital = c_napoli # Napoli
+		
+	}
+}
+
+e_scandinavia = {
+	color = { 62 122 189 }
+	color2 = { 255 255 0 }
+	
+	capital = c_skane #Lund - Archbishop seat of Scandinavia
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:north_germanic_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_wendish_empire = {
+	color = { 130 20 50 }
+	color2 = { 200 0 0 }
+	
+	definite_form = yes
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:west_slavic_group
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+	
+	k_moravia = {
+		color = { 158 102 36 }
+		color2 = { 200 0 0 }
+
+		capital = c_brno # Brno
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:czech
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+#		allow = {
+#			k_bohemia = { has_holder = no }
+#		}
+	}
+
+	k_winideheim = {
+		color = { 158 102 36 }
+		color2 = { 200 0 0 }
+
+		capital = c_praha # Praha
+	}
+}
+
+e_russia = {	#Kievan Rus
+	color = { 50 150 55 }
+	color2 = { 255 255 255 }
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:east_slavic_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+	
+	cultural_names = {
+		norse = cn_gardariki
+		swedish = cn_gardariki
+		danish = cn_gardariki
+		norwegian = cn_gardariki
+	}
+}
+
+e_caspian-pontic_steppe = {
+	color = { 230 180 10 }
+	color2= { 255 255 255 }
+	
+	capital = c_itil # Itil
+	
+	k_magyar = {
+	color = { 187 70 70 }
+
+	definite_form = yes
+
+	de_jure_drift_disabled = yes
+
+	capital = c_visegrad # Pest
+	
+	}
+}
+
+e_volga-ural = {
+	color = { 94 83 70 }
+	color2 = { 255 255 255 }
+	
+	capital = c_bolghar
+}
+
+e_siberia = {
+	color = { 205 212 250 }
+	color2= { 255 255 255 }
+	
+	capital = c_tyumen
+}
+
+e_mongolia = {
+	color = { 90 90 240 }
+	color2= {255 255 255 }
+	
+	capital = c_karakorum
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:mongolic_group
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+}
+
+e_tartaria = {
+	color = { 205 5 5 }
+	color2 = { 255 255 255 }
+	
+	capital = c_turgay
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:turkic_group
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+}
+
+e_turan = {
+	color = { 175 237 135 }
+	color2= { 255 255 255 }
+	
+	capital = c_bukhara
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:turkic_group
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+}
+
+e_bactria = {
+	#Created by decision
+	color = { 51 185 206 }
+
+	#capital = c_balkh
+}
+
+e_persia = {
+	color = { 133 240 7 }
+	color2 = { 255 255 255 }
+	
+	capital = c_isfahan #	Esfahan
+	
+	definite_form = yes
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:persian
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+}
+
+e_carpathia = {
+	color = { 210 115 35 }
+	color2 = { 255 255 255 }
+	
+	capital = c_visegrad # Pest
+}
+	
+e_france = {
+	color = { 11 22 170 }
+	color2 = { 255 255 20 }
+	
+	capital = c_ile_de_france
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:french
+			}
+			add = @correct_culture_primary_score
+		}
+		if = {
+			limit = {
+				OR = {
+					culture = culture:norman
+					culture = culture:occitan
+				}
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+}
+
+e_spain = {
+	color = { 233 200 20 }
+	color2 = { 255 255 255 }
+	
+	capital = c_toledo # Toledo
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:iberian_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+	
+	k_asturias = {
+		color = { 80 0 140 }
+		color2 = { 255 255 255 }
+		
+		capital = c_asturias_de_oviedo
+		
+		can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				faith = { religion_tag = christianity_religion }
+			}
+		}
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture_group = culture_group:iberian_group
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+	}
+}
+
+e_maghreb = {
+	color = { 209 63 44 }
+	color2 = { 255 255 255 }
+	
+	capital = c_kairwan # Kairouan
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = culture:butr
+					culture = culture:baranis
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_arabia = {
+	color = { 32 150 85 }
+	color2 = { 255 255 255 }
+	
+	capital = c_damascus # Damascus
+	
+	definite_form = yes
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:arabic_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+	
+	k_israel = {
+		color = { 20 138 255 }
+
+		capital = c_jerusalem
+	}
+}
+
+e_abyssinia = {
+	color = { 181 133 68 }
+	color2 = { 255 255 255 }
+	
+	capital = c_lasta
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:east_african_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_ajuraan = {
+	color = { 218 86 25 }
+	color2 = { 255 255 255 }
+	
+	capital = c_mogadishu
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:somalian_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_kanem_bornu = {
+	color = { 55 230 250 }
+	color2 = { 255 255 255 }
+	
+	capital = c_kanem #	Manan
+}
+
+e_mali = {
+	color = { 225 223 0 }
+	color2 = { 255 255 255 }
+	
+	capital = c_niani #	Niani
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture_group = culture_group:west_african_group
+					culture_group = culture_group:sahelian_group
+					culture_group = culture_group:senegambian_group
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_guinea = {
+	color = { 175 173 90 }
+	color2 = { 255 255 255 }
+	
+	capital = c_temne
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture_group = culture_group:west_african_group
+					culture_group = culture_group:akan_group
+					culture_group = culture_group:yoruba_group
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_india = {					  # Titular, created by special decision only if entire India is united
+	color = { 255 110 0 }
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
+e_rajastan = {
+	color = { 255 100 0 }
+	color2 = { 255 255 255 }
+	
+	capital = c_kanyakubja # Kanyakubja
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:indo_aryan_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_bengal = {
+	color = { 0 120 40 }
+	color2 = { 255 255 20 }
+	
+	capital = c_laksmanavati # Laksmanavati
+	
+	definite_form = yes
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:bengali
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_deccan = {
+	color = { 190 20 50 }
+	color2 = { 200 0 0 }
+	
+	capital = c_kalyani
+	
+	definite_form = yes
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:dravidian_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_tibet = {
+	color = { 250 40 0 }
+	color2 = { 255 255 255 }
+	
+	capital = c_lhasa
+}

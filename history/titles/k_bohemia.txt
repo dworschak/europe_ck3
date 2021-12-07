@@ -1,0 +1,1063 @@
+﻿k_bohemia = {
+	200.1.1 = {
+		#de_jure_liege = e_germany
+	}
+	867.1.1 = {de_jure_liege=e_wendish_empire}
+	898.1.1 = {
+		#	liege = "e_hre"
+		de_jure_liege = e_hre
+	}
+	1045.1.1 = {liege=e_hre}
+	1198.9.1 = {holder=212855}
+	1212.1.1 = {
+		succession_laws = {
+	feudal_elective_succession_law
+}
+	}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	#####
+	1500.1.1 = {
+		remove_succession_laws = yes
+		succession_laws = {
+	male_only_law
+}
+	}
+	1800.1.1 = {de_jure_liege=e_austria}
+	1792.03.01 = {holder=100020020}	# FRANZ I
+	1835.03.02 = {holder=100020030}	# FERDINAND IV
+	1848.12.02 = {holder=100020043}	# FRANZ JOSEPH
+	1916.11.21 = {holder=100020066}	# KARL
+	1986.04.09 = {holder=100185596}
+}
+
+#########
+
+d_bohemia = {
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=8}
+	720.1.1 = {holder=168345}
+	745.1.1 = {holder=168346}
+	783.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	#	830.1.1 = {
+	#		liege = "k_moravia" # ahistorical - removed
+	#	}
+	833.1.1 = {holder=168350}
+	851.1.1 = {holder=168351}
+	873.1.1 = {holder=500}
+	894.1.1 = {
+		liege = "k_moravia"
+		holder = 502
+	}
+	907.7.4 = {liege=0}
+	915.1.1 = {holder=504}
+	921.1.1 = {holder=506}
+	935.1.1 = {holder=508}
+	955.8.10 = {liege=k_east_francia}
+	962.2.2 = {liege=e_hre}
+	972.1.1 = {holder=510}
+	999.1.1 = {holder=512}
+	1002.1.1 = {holder=168536}
+	1003.1.1 = {holder=514}
+	1012.1.1 = {holder=516}
+	1033.1.1 = {holder=514}
+	1034.1.1 = {holder=516}
+	1035.1.1 = {holder=518}
+	1055.1.1 = {holder=520}
+	1061.1.1 = {holder=522}
+	1092.1.14 = {holder=526}
+	1092.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1198.9.1 = {liege=k_bohemia}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+}
+
+c_praha = {
+	867.1.1 = {change_development_level=5}
+	1066.1.1 = {change_development_level=12}
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
+	}
+	745.1.1 = {holder=168346}
+	783.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	833.1.1 = {holder=168350}
+	851.1.1 = {holder=168351}
+	873.1.1 = {holder=500}
+	894.1.1 = {holder=502}
+	915.1.1 = {holder=504}
+	921.1.1 = {holder=506}
+	935.1.1 = {holder=508}
+	972.1.1 = {holder=510}
+	999.1.1 = {holder=512}
+	1004.1.1 = {holder=514}
+	1012.1.1 = {holder=516}
+	1033.1.1 = {holder=514}
+	1034.1.1 = {holder=516}
+	1035.1.1 = {holder=518}
+	1055.1.1 = {holder=520}
+	1061.1.1 = {holder=522}
+	1092.1.14 = {holder=526}
+	1092.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+}
+c_boleslav = {
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
+	}
+	745.1.1 = {holder=168346}
+	783.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	833.1.1 = {holder=168350}
+	851.1.1 = {holder=168351}
+	873.1.1 = {holder=500}
+	894.1.1 = {holder=502}
+	915.1.1 = {holder=504}
+	921.1.1 = {holder=506}
+	935.1.1 = {holder=508}
+	972.1.1 = {holder=510}
+	999.1.1 = {holder=512}
+	1004.1.1 = {holder=514}
+	1012.1.1 = {holder=516}
+	1033.1.1 = {holder=514}
+	1034.1.1 = {holder=516}
+	1035.1.1 = {holder=518}
+	1055.1.1 = {holder=520}
+	1061.1.1 = {holder=522}
+	1092.1.14 = {holder=526}
+	1092.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+}
+c_budweis = {
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
+		government = tribal_government
+	}
+	745.1.1 = {holder=168346}
+	783.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	833.1.1 = {holder=168350}
+	851.1.1 = {
+		#holder = 168351
+		holder = 168352
+	}
+	873.1.1 = {holder=500}
+	894.1.1 = {holder=502}
+	915.1.1 = {holder=504}
+	921.1.1 = {holder=506}
+	935.1.1 = {
+		holder = 508
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	972.1.1 = {holder=510}
+	999.1.1 = {holder=512}
+	1004.1.1 = {holder=514}
+	1012.1.1 = {holder=516}
+	1033.1.1 = {holder=514}
+	1034.1.1 = {holder=516}
+	1035.1.1 = {holder=518}
+	1055.1.1 = {holder=520}
+	1061.1.1 = {holder=522}
+	1066.1.1 = {holder=530}
+	1092.1.14 = {holder=526}
+	1092.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	#####
+	1600.1.1 = {liege=k_bohemia}
+	1670.01.01 = {holder=100185500}	# 1 JOHANN ADOLF | SCHWARZENBERG
+	1682.05.26 = {holder=100185505}	# 2 FERDINAND Wilhelm Eusebius | SCHWARZENBERG
+	1703.10.22 = {holder=100185511}	# 3 ADAM Franz Karl | SCHWARZENBERG
+	1732.06.11 = {holder=100185515}	# 4 JOSEPH | SCHWARZENBERG
+	1782.02.17 = {holder=100185517}	# 5 JOHANN Nepomuk | SCHWARZENBERG
+	1789.11.05 = {holder=100185519}	# 6 JOSEPH II | SCHWARZENBERG
+	1833.12.19 = {holder=100185525}	# 7 JOHANN ADOLF II | SCHWARZENBERG
+	1888.09.15 = {holder=100185527}	# 8 ADOLF JOSEPH | SCHWARZENBERG
+	1914.10.05 = {holder=100185531}	# 9 JOHANN II | SCHWARZENBERG
+	1938.10.01 = {holder=100185533}	#10 ADOLF | SCHWARZENBERG
+	1950.02.27 = {holder=100185552}	#11 JOSEPH | SCHWARZENBERG
+	1979.10.25 = {holder=100185592}	# Karl | SCHWARZENBERG
+	1986.04.09 = {holder=100185596}	# Karel | SCHWARZENBERG
+}
+c_caslav = {
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
+		government = tribal_government
+	}
+	745.1.1 = {holder=168346}
+	783.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	833.1.1 = {holder=168350}
+	851.1.1 = {holder=168351}
+	873.1.1 = {holder=500}
+	894.1.1 = {holder=502}
+	915.1.1 = {holder=504}
+	921.1.1 = {holder=506}
+	935.1.1 = {
+		holder = 508
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	972.1.1 = {holder=510}
+	999.1.1 = {holder=512}
+	1004.1.1 = {holder=514}
+	1012.1.1 = {holder=516}
+	1033.1.1 = {holder=514}
+	1034.1.1 = {holder=516}
+	1035.1.1 = {holder=518}
+	1055.1.1 = {holder=520}
+	1061.1.1 = {holder=522}
+	1092.1.14 = {holder=526}
+	1092.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	#####
+	1500.1.1 = {liege=k_bohemia}
+	# Stephan Wilhelm, 1st Prince Kinsky of Wchinitz and Tettau (1679-1749)
+	1700.01.01 = {holder=100185892}	# Stepan Vilém | KINSKY %%
+	# Philip Franz Joseph, 2nd Prince Kinsky of Wchinitz and Tettau (1700-1749)
+	1749.03.12 = {holder=100185896}	# Franz-Joseph | KINSKY %%
+	# Franz de Paula Ulrich, 3rd Prince Kinsky of Wchinitz and Tettau (1726-1792)
+	1752.09.23 = {holder=100185910}	# František | KINSKY %%
+	# Joseph, 4th Prince Kinsky of Wchinitz and Tettau (1751-1798)
+	1792.12.18 = {holder=100185912}	# Joseph Ernst | KINSKY %%
+	# Ferdinand, 5th Prince Kinsky of Wchinitz and Tettau (1781-1812)
+	1798.08.11 = {holder=100185918}	# Ferdinand | KINSKY %%
+	# Rudolf, 6th Prince Kinsky of Wchinitz and Tettau (1802-1836)
+	1812.11.03 = {holder=100185920}	# Rudolf | KINSKY %%
+	# Ferdinand Bonaventura, 7th Prince Kinsky of Wchinitz and Tettau (1834-1904)
+	1836.01.27 = {holder=100185924}	# Ferdinand Bonaventura | KINSKY %%
+	# Karl, 8th Prince Kinsky of Wchinitz and Tettau (1858-1919)
+	1904.01.02 = {holder=100185928}	# Karl | KINSKY %%
+	# Rudolf, 9th Prince Kinsky of Wchinitz and Tettau (1883-1930)
+	1919.12.11 = {holder=100185930}	# Rudolf | KINSKY %%
+	# Ulrich, 10th Prince Kinsky of Wchinitz and Tettau (1892-1938)
+	1930.03.13 = {holder=100185948}	# Ulrich | KINSKY %%
+	# Franz Ulrich, 11th Prince Kinsky of Wchinitz and Tettau (1936-2009)
+	1938.12.19 = {holder=100185961}	# Ulrich | KINSKY %%
+	# Karl, 12th Prince Kinsky of Wchinitz and Tettau (born 1967)
+	2009.04.02 = {holder=100185964}	# Karl | KINSKY %%
+}
+c_doudleby = {
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
+		government = tribal_government
+	}
+	745.1.1 = {holder=168346}
+	783.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	833.1.1 = {holder=168350}
+	851.1.1 = {
+		#holder = 168351
+		holder = 168352
+	}
+	873.1.1 = {holder=500}
+	894.1.1 = {holder=502}
+	915.1.1 = {holder=504}
+	921.1.1 = {holder=506}
+	935.1.1 = {
+		holder = 508
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	972.1.1 = {holder=510}
+	999.1.1 = {holder=512}
+	1004.1.1 = {holder=514}
+	1012.1.1 = {holder=516}
+	1033.1.1 = {holder=514}
+	1034.1.1 = {holder=516}
+	1035.1.1 = {holder=518}
+	1055.1.1 = {holder=520}
+	1061.1.1 = {holder=522}
+	1066.1.1 = {holder=530}
+	1092.1.14 = {holder=526}
+	1092.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+}
+c_elbogen = {
+}
+c_hradec = {
+	741.1.1 = {
+		liege = "d_bohemia"
+		holder = 187000
+		government = tribal_government
+	}
+	782.1.1 = {holder=146176}
+	801.1.1 = {holder=146177}
+	809.1.1 = {holder=187001}
+	846.8.15 = {holder=187002}
+	867.1.1 = {holder=168357}
+	907.7.4 = {liege=d_bohemia}
+	910.1.1 = {holder=168358}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	968.1.1 = {holder=168360}
+	981.3.18 = {holder=168363}
+	1061.1.1 = {holder=522}
+	#	1066.1.1 = {
+	#		holder = 534
+	#	}
+	1092.1.14 = {holder=526}
+	1092.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1198.9.1 = {liege=d_moravia}
+	1198.9.1 = {holder=212856}
+	1222.8.12 = {holder=212855}
+	1224.1.1 = {holder=96043}
+	1227.1.1 = {holder=96044}
+	1239.10.16 = {holder=96000}
+	1246.1.1 = {holder=96047}
+	1247.1.3 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	1333.1.1 = {holder=462614}
+	#####
+	1700.1.1 = {liege=k_bohemia}
+	1736.07.06 = {holder=100024853}	# RUDOLF Gf von Colloredo
+	1788.11.01 = {holder=100024866}	# FRANZ GUNDACKAR
+	1807.10.27 = {holder=100024874}	# RUDOLF Fst von Colloredo-Mannsfeld 
+	1843.12.28 = {holder=100024886}	# FRANZ Gundakar Fst von Colloredo-Mannsfeld 
+	1852.05.28 = {holder=100024901}	# JOSEPH Franz Hieronymus Fst von Colloredo-Mannsfeld 
+	1895.04.22 = {holder=100024906}	# JOSEPH Hieronymus Rudolf Ferdinand Franz Maria Fst von Colloredo-Mannsfeld 
+	1957.02.21 = {holder=100024916}	# JOSEPH Leopold Hieronymus Alexander Fst von Colloredo-Mannsfeld 
+	1990.01.30 = {holder=100024923}	# HIERONYMUS Medarus Alexander Felicianus Maria Fst von Colloredo- Mannsfeld 
+	1998.12.12 = {holder=100024928}	# HIERONYMUS Weikhard Maria Fst von Colloredo-Mannsfeld 
+}
+c_klattau = {
+	1700.1.1 = {liege=k_bohemia}
+	1713.04.30 = {holder=100023220}
+	1786.06.18 = {holder=100023200}	# Franz Ferdinand (* 1749; † 1827)
+	1827.08.27 = {holder=100023207}	# Johann Nepomuk Josef Norbert (* 1780; † 1834)
+	1834.09.24 = {holder=100023209}	# Ferdinand Joachim (* 1803; † 1859)
+	1859.03.31 = {holder=100023215}	# Karl Johann Nepomuk Ferdinand (* 1845; † 1921)
+	1921.11.09 = {holder=100024649}	# Karl Joseph (* 1897; † 1976)
+	1976.06.03 = {holder=100023245}	# Johannes Maximilian (* 1929; † 2012)
+	2012.10.20 = {holder=100025443}	# Johannes Markus (* 1960);
+}
+c_litomerice = {
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
+		government = tribal_government
+	}
+	731.1.1 = {holder=168346}
+	748.1.1 = {holder=168347}
+	764.1.1 = {holder=168348}
+	783.1.1 = {holder=168349}
+	804.1.1 = {holder=168350}
+	820.1.1 = {holder=168351}
+	851.1.1 = {holder=168344}
+	877.1.1 = {holder=500}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=522}
+	1092.1.14 = {holder=526}
+	1092.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+}
+c_plzen = {
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
+		government = tribal_government
+	}
+	738.1.1 = {holder=146174}
+	787.1.1 = {holder=146175}
+	801.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	833.1.1 = {holder=168350}
+	836.1.1 = {holder=168352}
+	870.1.1 = {holder=500}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=530}
+	1092.1.14 = {holder=526}
+	1092.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	#####
+	1500 = {liege=k_bohemia}
+	1690.01.01 = {holder=100185000}	# Ferdinand August | LOBKOWICZ %%
+	1715.10.03 = {holder=100185007}	# Philipp Hyazinth | LOBKOWICZ %%
+	1737.12.21 = {holder=100185010}	# Ferdinand | LOBKOWICZ %%
+	1739.01.22 = {holder=100185011}	# Ferdinand | LOBKOWICZ %%
+	1784.01.14 = {holder=100185013}	# Maximilian | LOBKOWICZ %%
+	1816.12.16 = {holder=100185019}	# Ferdinand Joseph | LOBKOWICZ %%
+	1868.12.18 = {holder=100185022}	# Moritz | LOBKOWICZ %%
+	1903.02.04 = {holder=100185024}	# Ferdinand | LOBKOWICZ %%
+	1938.12.22 = {holder=100185107}	# Jaroslav | LOBKOWICZ %%
+	1953.10.24 = {holder=100185111}	# Friedrich | LOBKOWICZ %%
+	1954.12.25 = {holder=100185113}	# Jaroslav | LOBKOWICZ %%
+	1985.05.07 = {holder=100185117}	# Jaroslav | LOBKOWICZ %%
+}
+c_prachin = {
+}
+c_zatec = {
+	867.1.1 = {change_development_level=4}
+	1066.1.1 = {change_development_level=10}
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
+		government = tribal_government
+	}
+	745.1.1 = {holder=168346}
+	783.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	833.1.1 = {holder=168350}
+	851.1.1 = {
+		#holder = 168351
+		holder = 168344
+	}
+	873.1.1 = {holder=500}
+	894.1.1 = {holder=502}
+	915.1.1 = {holder=504}
+	921.1.1 = {holder=506}
+	935.1.1 = {
+		holder = 508
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	972.1.1 = {holder=510}
+	999.1.1 = {holder=512}
+	1004.1.1 = {holder=514}
+	1012.1.1 = {holder=516}
+	1033.1.1 = {holder=514}
+	1034.1.1 = {holder=516}
+	1035.1.1 = {holder=518}
+	1055.1.1 = {holder=520}
+	1061.1.1 = {holder=522}
+	#to Vrsovid family - ahistorically too soon (should happein in 1092)
+	1066.1.1 = {holder=273032}
+	1083.11.11 = {holder=522}
+	1092.1.14 = {holder=273034}
+	1096.9.6 = {holder=530}
+	1100.12.22 = {holder=8504}
+	1107.5.1 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1117.12.1 = {holder=8504}
+	1120.8.16 = {holder=212861}
+	1125.4.12 = {holder=212872}
+	1140.2.14 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212560}
+	1178.1.1 = {holder=212850}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1230.12.15 = {holder=96000}
+	1253.9.23 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+}
+
+#########
+
+d_moravia = {
+	867.1.1 = {change_development_level=5}
+	1066.1.1 = {change_development_level=8}
+	801.1.1 = {change_development_level=5}
+	1001.1.1 = {change_development_level=8}
+	1101.1.1 = {change_development_level=11}
+	741.1.1 = {
+		liege = 0
+		holder = 187000
+	}
+	782.1.1 = {holder=146176}
+	801.1.1 = {holder=146177}
+	809.1.1 = {holder=187001}
+	830.1.1 = {
+		liege = "k_moravia"
+		de_jure_liege = k_moravia
+	}
+	846.8.15 = {holder=187002}
+	863.1.1 = {holder=187004}
+	871.12.1 = {holder=187007}
+	907.7.4 = {
+		holder = 0
+		liege = 0
+	}
+	1019.1.1 = {
+		liege = "e_hre"
+		de_jure_liege = k_bohemia
+	}
+	1019.1.1 = {holder=518}
+	1033.1.1 = {holder=0}
+	1189.3.25 = {holder=212057}
+	1191.9.9 = {holder=212875}
+	1192.1.9 = {holder=212855}
+	1198.9.1 = {liege=k_bohemia}
+	1198.9.1 = {holder=212856}
+	1222.8.12 = {holder=212855}
+	1224.1.1 = {holder=96043}
+	1227.1.1 = {holder=96044}
+	1239.10.16 = {holder=96000}
+	1246.1.1 = {holder=96047}
+	1247.1.3 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	1333.1.1 = {holder=462614}
+}
+
+c_olomouc = {
+	867.1.1 = {change_development_level=5}
+	1066.1.1 = {change_development_level=10}
+	741.1.1 = {
+		liege = "d_moravia"
+		holder = 187000
+	}
+	782.1.1 = {holder=146176}
+	801.1.1 = {holder=146177}
+	809.1.1 = {holder=187001}
+	846.8.15 = {holder=187002}
+	863.1.1 = {holder=187004}
+	871.12.1 = {holder=187007}
+	#907.7.4 = {
+	#	holder = 0
+	#}
+	1061.1.1 = {holder=212892}
+	1066.1.1 = {liege=d_bohemia}
+	1087.6.9 = {holder=8500}
+	1091.8.11 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1113.1.1 = {holder=96009}
+	1126.2.18 = {holder=96007}
+	1130.3.1 = {holder=212872}
+	1135.1.1 = {holder=96020}
+	1137.1.1 = {holder=96024}
+	1140.1.1 = {holder=212893}
+	1160.5.12 = {holder=212851}
+	1162.1.1 = {holder=212850}
+	1173.1.1 = {holder=212873}
+	1177.1.2 = {holder=212875}
+	1179.1.1 = {holder=212855}
+	1182.1.1 = {holder=212057}
+	1189.1.1 = {holder=212894}
+	1192.1.1 = {holder=212856}
+	1194.1.1 = {holder=212895}
+	1198.9.1 = {liege=d_moravia}
+	1200.1.1 = {holder=212856}
+	1222.8.12 = {holder=212855}
+	1224.1.1 = {holder=96043}
+	1227.1.1 = {holder=96044}
+	1239.10.16 = {holder=96000}
+	1246.1.1 = {holder=96047}
+	1247.1.3 = {holder=96001}
+	1269.1.1 = {holder=96052}
+	1318.7.26 = {holder=96053}
+}
+c_brno = {
+	741.1.1 = {
+		liege = "d_moravia"
+		holder = 187000
+	}
+	782.1.1 = {holder=146176}
+	801.1.1 = {holder=146177}
+	809.1.1 = {holder=187001}
+	830.1.1 = {liege=k_moravia}
+	846.8.15 = {holder=187002}
+	869.1.1 = {holder=187003}
+	871.1.1 = {holder=187004}
+	871.12.1 = {holder=187003}
+	894.1.1 = {holder=187006}
+	#907.7.4 = {
+	#	holder = 0
+	#}
+	1061.1.1 = {holder=526}
+	1066.1.1 = {liege=d_bohemia}
+	1092.9.6 = {holder=96012}
+	1097.1.1 = {holder=8504}
+	1101.1.1 = {holder=96012}
+	1113.3.27 = {holder=212861}
+	1115.1.1 = {holder=212872}
+	1123.1.1 = {holder=96009}
+	1125.1.1 = {holder=96004}
+	1129.1.1 = {holder=212872}
+	1130.1.1 = {holder=96004}
+	1156.1.2 = {holder=221522}
+	1162.1.2 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212875}
+	1177.1.1 = {holder=212057}
+	1189.1.1 = {holder=96005}
+	1192.1.1 = {holder=212856}
+	1194.1.1 = {holder=96006}
+	1198.9.1 = {
+		liege = "d_moravia"
+		holder = 212856
+	}
+	1222.8.12 = {holder=212855}
+	1224.1.1 = {holder=96043}
+	1227.1.1 = {holder=96044}
+	1239.10.16 = {holder=96000}
+	1246.1.1 = {holder=96047}
+	1247.1.3 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	1333.1.1 = {holder=462614}
+}
+c_jihlava = {
+	741.1.1 = {
+		liege = "d_moravia"
+		holder = 187000
+	}
+	782.1.1 = {holder=146176}
+	801.1.1 = {holder=146177}
+	809.1.1 = {holder=187001}
+	830.1.1 = {liege=k_moravia}
+	846.8.15 = {holder=187002}
+	869.1.1 = {holder=187003}
+	871.1.1 = {holder=187004}
+	871.12.1 = {holder=187003}
+	894.1.1 = {holder=187006}
+	#907.7.4 = {
+	#	holder = 0
+	#}
+	1061.1.1 = {holder=526}
+	1066.1.1 = {liege=d_bohemia}
+	1092.9.6 = {holder=96012}
+	1097.1.1 = {holder=8504}
+	1101.1.1 = {holder=96012}
+	1113.3.27 = {holder=212861}
+	1115.1.1 = {holder=212872}
+	1123.1.1 = {holder=96009}
+	1125.1.1 = {holder=96004}
+	1129.1.1 = {holder=212872}
+	1130.1.1 = {holder=96004}
+	1156.1.2 = {holder=221522}
+	1162.1.2 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212875}
+	1177.1.1 = {holder=212057}
+	1189.1.1 = {holder=96005}
+	1192.1.1 = {holder=212856}
+	1194.1.1 = {holder=96006}
+	1198.9.1 = {
+		liege = "d_moravia"
+		holder = 212856
+	}
+	1222.8.12 = {holder=212855}
+	1224.1.1 = {holder=96043}
+	1227.1.1 = {holder=96044}
+	1239.10.16 = {holder=96000}
+	1246.1.1 = {holder=96047}
+	1247.1.3 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	1333.1.1 = {holder=462614}
+}
+c_prerov = {
+	867.1.1 = {change_development_level=6}
+	1066.1.1 = {change_development_level=9}
+	741.1.1 = {
+		liege = "d_moravia"
+		holder = 187000
+	}
+	782.1.1 = {holder=146176}
+	801.1.1 = {holder=146177}
+	809.1.1 = {holder=187001}
+	830.1.1 = {liege=k_moravia}
+	846.8.15 = {holder=187002}
+	869.1.1 = {holder=187003}
+	871.1.1 = {holder=187004}
+	871.12.1 = {holder=187003}
+	894.1.1 = {holder=187006}
+	#907.7.4 = {
+	#	holder = 0
+	#}
+	1061.1.1 = {holder=212892}
+	1066.1.1 = {liege=d_bohemia}
+	1087.6.9 = {holder=8500}
+	1091.8.11 = {holder=96011}
+	1109.9.21 = {holder=212861}
+	1113.1.1 = {holder=96009}
+	1126.2.18 = {holder=96007}
+	1130.3.1 = {holder=212872}
+	1135.1.1 = {holder=96020}
+	1137.1.1 = {holder=96024}
+	1140.1.1 = {holder=212893}
+	1160.5.12 = {holder=212851}
+	1162.1.1 = {holder=212850}
+	1173.1.1 = {holder=212873}
+	1177.1.2 = {holder=212875}
+	1179.1.1 = {holder=212855}
+	1182.1.1 = {holder=212057}
+	1189.1.1 = {holder=212894}
+	1192.1.1 = {holder=212856}
+	1194.1.1 = {holder=212895}
+	1198.9.1 = {liege=d_moravia}
+	1200.1.1 = {holder=212856}
+	1222.8.12 = {holder=212855}
+	1224.1.1 = {holder=96043}
+	1227.1.1 = {holder=96044}
+	1239.10.16 = {holder=96000}
+	1246.1.1 = {holder=96047}
+	1247.1.3 = {holder=96001}
+	1269.1.1 = {holder=96052}
+	1318.7.26 = {holder=96053}
+	#####
+	1500.1.1 = {liege=k_bohemia}
+	1850.01.01 = {holder=100116835}
+	1868.04.26 = {holder=100116829}
+	1927.12.27 = {holder=100116828}
+	1957.04.26 = {holder=100116826}
+	1957.12.07 = {holder=100116818}
+	1993.03.15 = {holder=100116868}
+}
+c_znojmo = {
+	867.1.1 = {change_development_level=6}
+	1066.1.1 = {change_development_level=9}
+	731.1.1 = {
+		liege = "d_visegrad"
+		holder = 146137
+	}
+	751.1.1 = {liege=k_bavaria}
+	751.1.1 = {holder=190367}	#Anniulf
+	780.1.1 = {holder=146139}
+	785.1.1 = {holder=146140}
+	804.1.1 = {
+		liege = "d_moravia"
+		holder = 146177
+	}
+	809.1.1 = {holder=187001}
+	830.1.1 = {liege=k_moravia}
+	846.8.15 = {holder=187002}
+	869.1.1 = {holder=187003}
+	871.1.1 = {holder=187004}
+	871.12.1 = {holder=187003}
+	894.1.1 = {holder=187006}
+	1061.1.1 = {holder=526}
+	1066.1.1 = {liege=d_bohemia}
+	1092.9.6 = {holder=96012}
+	1097.1.1 = {holder=8504}
+	1101.1.1 = {holder=96012}
+	1113.3.27 = {holder=212861}
+	1115.1.1 = {holder=212872}
+	1123.1.1 = {holder=96009}
+	1125.1.1 = {holder=96004}
+	1129.1.1 = {holder=212872}
+	1130.1.1 = {holder=96004}
+	1156.1.2 = {holder=221522}
+	1162.1.2 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212875}
+	1177.1.1 = {holder=212057}
+	1189.1.1 = {holder=96005}
+	1192.1.1 = {holder=212856}
+	1194.1.1 = {holder=96006}
+	1198.9.1 = {
+		liege = "d_moravia"
+		holder = 212856
+	}
+	1222.8.12 = {holder=212855}
+	1224.1.1 = {holder=96043}
+	1227.1.1 = {holder=96044}
+	1239.10.16 = {holder=96000}
+	1246.1.1 = {holder=96047}
+	1247.1.3 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	1333.1.1 = {holder=462614}
+}
+
+#########
+
+d_schlesien = {
+}
+
+c_cieszyn = {
+	750.1.1 = {
+		holder = 194084
+		liege = d_upper_silesia
+		government = tribal_government
+	}
+	799.1.1 = {holder=194085}
+	830.1.1 = {liege=k_moravia}
+	830.1.1 = {holder=82313}
+	859.1.1 = {holder=82304}
+	902.1.1 = {holder=82315}
+	907.7.4 = {liege=d_bohemia}
+	932.1.1 = {holder=82316}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	942.1.1 = {holder=82317}
+	970.1.1 = {holder=82318}
+	985.1.1 = {liege=k_poland}
+	1000.1.1 = {holder=82319}
+	1020.1.1 = {holder=82320}
+	1050.1.1 = {holder=82321}
+	1058.11.28 = {holder=762}
+	1079.1.1 = {holder=764}
+	1102.6.4 = {holder=221515}
+	1138.10.28 = {holder=221531}
+	1146.5.1 = {holder=125973}
+	1163.1.1 = {holder=221530}
+	1173.1.1 = {holder=221532}
+	1201.3.22 = {holder=221530}
+	1201.12.7 = {holder=221537}
+	1202.1.1 = {holder=221550}
+	1211.5.16 = {holder=221555}
+	1230.5.13 = {holder=125944}
+	1246.10.22 = {holder=471724}
+	1282.8.27 = {holder=471722}
+	1313.5.14 = {holder=471720}
+	800.1.1 = {liege=d_upper_silesia}
+}
+c_opava = {
+	741.1.1 = {
+		liege = "d_moravia"
+		holder = 187000
+	}
+	782.1.1 = {holder=146176}
+	801.1.1 = {holder=146177}
+	809.1.1 = {holder=187001}
+	846.8.15 = {holder=187002}
+	863.1.1 = {holder=187004}
+	871.12.1 = {holder=187007}
+	#907.7.4 = {
+	#	holder = 0
+	#}
+	1061.1.1 = {holder=526}
+	1066.1.1 = {
+		liege = "d_bohemia"
+		holder = 528
+	}
+	1092.9.6 = {holder=96012}
+	1097.1.1 = {holder=8504}
+	1101.1.1 = {holder=96012}
+	1113.3.27 = {holder=212861}
+	1115.1.1 = {holder=212872}
+	1123.1.1 = {holder=96009}
+	1125.1.1 = {holder=96004}
+	1129.1.1 = {holder=212872}
+	1130.1.1 = {holder=96004}
+	1156.1.2 = {holder=221522}
+	1162.1.2 = {holder=212851}
+	1172.1.1 = {holder=212850}
+	1173.1.1 = {holder=212875}
+	1177.1.1 = {holder=212057}
+	1189.1.1 = {holder=96005}
+	1192.1.1 = {holder=212856}
+	1194.1.1 = {holder=96006}
+	1198.9.1 = {
+		liege = "d_moravia"
+		holder = 212856
+	}
+	1222.8.12 = {holder=212855}
+	1224.1.1 = {holder=96043}
+	1227.1.1 = {holder=96044}
+	1239.10.16 = {holder=96000}
+	1246.1.1 = {holder=96047}
+	1247.1.3 = {holder=96001}
+	1278.8.26 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=462720}
+	1306.12.1 = {holder=462024}
+	1307.7.4 = {holder=462720}
+	1310.1.1 = {holder=462610}
+	1333.1.1 = {holder=462614}
+}

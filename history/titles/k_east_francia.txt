@@ -1,0 +1,671 @@
+﻿k_east_francia = {
+	867.1.1 = {change_development_level=5}
+	1066.1.1 = {change_development_level=8}
+	769.1.1 = {name=EAST_FRANCIA}
+	771.12.4 = {holder=6392}	#Charlemagne
+	814.1.28 = {holder=90095}	#Louis I 'the Pious'
+	843.8.11 = {holder=90107}	#Ludwig 'the German'
+	867.1.1 = {de_jure_liege=e_germany}
+	876.8.28 = {holder=90105}	#Charles 'the Fat'
+	887.11.30 = {holder=7945}	#Arnulf of Carinthia
+	900.1.21 = {holder=7949}	#Ludwig 'the Child'
+	911.9.24 = {holder=7952}	#Konrad I
+	918.12.23 = {
+		holder = 1280	#Heinrich I
+		name = GERMANY
+		effect = {
+	set_global_variable = {
+	name = east_francia_renamed
+	value = yes
+}
+}
+	}
+	936.7.2 = {holder=1282}	#Otto I
+	962.2.2 = {de_jure_liege=e_hre}
+	973.5.7 = {holder=1286}	#Otto II
+	983.12.7 = {holder=1288}	#Otto III
+	1002.1.12 = {holder=1296}	#Heinrich II
+	1024.7.13 = {holder=0}	#Subsumed into HRE
+	#1024.7.13 = {
+	#	holder = 1312 #Konrad II
+	#	liege = "e_hre"
+	#	succession_laws = { feudal_elective_succession_law }
+	#}
+	#1039.6.4 = {
+	#	holder = 1314 #Heinrich III
+	#}
+	#1056.5.10 = {	
+	#	holder = 1316 #Heinrich IV
+	#}
+	#1106.7.8 = {
+	#	holder = 7901 #Heinrich V
+	#}
+	#1125.8.24 = {
+	#	holder = 30219 #Lothar III von Supplingburg
+	#}
+	#1152.2.15 = {
+	#	holder = 212501 #Friedrich I von Hohenstaufen
+	#}
+	#1190.6.10 = {
+	#	holder = 212507 #Heinrich VI von Hohenstaufen
+	#}
+	#1197.9.28 = {
+	#	holder = 212506 #Philip I von Hohenstaufen
+	#}
+	#1208.8.21 = {
+	#	holder = 212607 #Otto IV Welf
+	#}
+	#1212.12.5 = {
+	#	holder = 212513 #Friedrich II von Hohenstaufen
+	#}
+	#1250.12.13 = {
+	#	holder = 30760 #Konrad IV von Hohenstaufen
+	#}
+	#1254.5.21 = {
+	#	holder = 94003 #Willem Gerulfing (van Holland)
+	#}
+	#1256.1.28 = {
+	#	holder = 232682 #Richard of Cornwall (Plantagenet)
+	#}
+	#1272.4.2 = {
+	#	holder = 462021 #Rudolf I von Habsburg
+	#}
+	#1291.7.15 = {
+	#	holder = 462360 #Adolf von Nassau
+	#}
+	#1298.6.23 = {
+	#	holder = 462023 #Albrecht I von Habsburg
+	#}
+	#1308.5.1 = {
+	#	holder = 462611 #Heinrich VII von Luxemburg
+	#}
+	#1313.8.24 = {
+	#	holder = 462740 #Ludwig III von Wittelsbach
+	#}
+}
+
+#########
+
+d_west_franconia = {
+	867.1.1 = {change_development_level=8}
+	1066.1.1 = {change_development_level=11}
+	100.1.1 = {liege=k_east_francia}
+	637.1.1 = {liege=k_east_francia}
+	637.1.1 = {holder=190388}	#Hruodis
+	651.1.1 = {holder=190389}	#Hetan
+	677.1.1 = {holder=190390}	#Gozbert
+	697.1.1 = {holder=190391}	#Hetan
+	733.1.1 = {holder=190392}	#Thuringus
+	769.1.1 = {liege=k_france}
+	770.1.1 = {holder=190393}	#Ado
+	805.1.1 = {holder=0}
+	865.1.1 = {
+		holder = 42019	#Ludwig II
+		liege = k_east_francia
+	}
+	906.1.1 = {holder=7952}
+	918.12.23 = {holder=7953}
+	939.1.1 = {holder=1306}
+	955.8.10 = {holder=1308}
+	1004.11.30 = {holder=1312}
+	1024.7.13 = {liege=e_hre}
+	1039.6.4 = {holder=1314}
+	1056.5.10 = {holder=1316}
+	1106.7.8 = {holder=7901}
+	1125.5.23 = {holder=212495}
+	1147.1.22 = {holder=7903}
+	1152.2.15 = {holder=7535}
+	1153.1.1 = {holder=7536}
+	1160.6.24 = {holder=7537}
+	1161.6.20 = {holder=7557}
+	1165.1.1 = {holder=7537}
+	1183.8.23 = {holder=7557}
+	1200.10.25 = {holder=7542}
+	1230.9.9 = {holder=7543}
+	1249.5.9 = {holder=7544}
+	1251.1.1 = {holder=7545}
+	1259.1.1 = {holder=7547}
+	1284.4.2 = {holder=7548}
+	1288.1.1 = {holder=7551}
+	1305.2.25 = {holder=7555}
+	1320.6.5 = {holder=7556}
+	1328.6.9 = {holder=487017}
+}
+
+c_frankfurt = {
+	754.1.1 = {liege=k_france}
+	754.1.1 = {holder=190565}	#Lullus
+	856.2.4 = {
+		liege = k_east_francia
+		holder = 90098
+	}
+	863.6.4 = {
+		government = theocracy_government
+		holder = 168593
+	}
+	865.1.1 = {liege=d_west_franconia}
+	937.1.1 = {holder=163046}
+	954.10.1 = {holder=163047}
+	1051.6.11 = {holder=163048}
+	1059.1.1 = {liege=d_west_franconia}
+	1059.1.1 = {holder=20256}
+	1066.1.1 = {holder=30205}
+	1106.7.8 = {holder=7901}	#Heinrich V Salier
+	1125.5.23 = {holder=30719}	#Ruprecht von Nassau
+	1125.8.24 = {liege=e_hre}
+	1154.5.13 = {holder=30717}	#Ruprecht von Nassau
+	1159.4.1 = {holder=212370}	#Walram von Nassau
+	1197.7.5 = {holder=212372}	#Heinrich II von Nassau
+	1220.1.1 = {liege=d_thuringia}
+	1251.1.25 = {
+		holder = 30700	#Walram II von Nassau
+		liege = e_hre
+	}
+	1276.1.24 = {holder=462360}	#Adolf von Nassau
+	1298.6.23 = {holder=462362}	#Gerlach von Nassau
+}
+c_erbach = {
+	754.1.1 = {liege=k_france}
+	754.1.1 = {holder=190565}	#Lullus
+	856.2.4 = {
+		liege = k_east_francia
+		holder = 90098
+	}
+	863.6.4 = {
+		government = theocracy_government
+		holder = 168593
+	}
+	865.1.1 = {liege=d_west_franconia}
+	937.1.1 = {holder=163046}
+	954.10.1 = {holder=163047}
+	1051.6.11 = {holder=163048}
+	1059.1.1 = {liege=d_west_franconia}
+	1059.1.1 = {holder=20256}
+	1066.1.1 = {holder=167537}
+	1106.7.8 = {holder=7901}	#Heinrich V Salier
+	1125.5.23 = {holder=30719}	#Ruprecht von Nassau
+	1125.8.24 = {liege=e_hre}
+	1154.5.13 = {holder=30717}	#Ruprecht von Nassau
+	1159.4.1 = {holder=212370}	#Walram von Nassau
+	1197.7.5 = {holder=212372}	#Heinrich II von Nassau
+	1220.1.1 = {liege=d_thuringia}
+	1251.1.25 = {
+		holder = 30700	#Walram II von Nassau
+		liege = e_hre
+	}
+	1276.1.24 = {holder=462360}	#Adolf von Nassau
+	1298.6.23 = {holder=462362}	#Gerlach von Nassau
+}
+c_kaiserslautern = {
+	598.1.1 = {liege=d_west_franconia}
+	598.1.1 = {holder=190401}	#Chrodbert I
+	621.1.1 = {holder=190402}	#Lambert I
+	643.1.1 = {holder=190403}	#Chrodbert II
+	676.1.1 = {holder=190404}	#Lambert II
+	729.1.1 = {holder=91000}	#Robert I
+	760.1.1 = {holder=33327}	#Cancor I
+	771.1.1 = {holder=91003}	#Thuringbert
+	774.1.1 = {holder=91004}	#Robert II
+	810.1.1 = {holder=91005}	#Robert III
+	834.1.1 = {holder=190411}	#Guntrum
+	855.8.23 = {holder=144998}	#Lothair II
+	867.1.1 = {holder=161555}	#Werner Salian
+	869.8.8 = {holder=90104}	#Charles I the Bald
+	877.1.20 = {holder=42019}	#Louis I the Younger
+	882.1.20 = {holder=90105}	#Charles II the Fat
+	888.1.1 = {holder=7945}	#Arnulf of Carinthia
+	895.1.1 = {holder=144997}	#Zwentibold
+	900.8.13 = {holder=7949}	#Louis III the Child
+	911.9.20 = {holder=90111}	#Charles III the Simple
+	923.1.1 = {liege=d_upper_lorraine}
+	923.1.1 = {holder=7813}
+	939.10.2 = {holder=1292}
+	940.1.1 = {holder=144993}
+	944.1.1 = {holder=1306}
+	945.1.1 = {holder=20212}
+	1015.1.1 = {holder=20208}
+	1034.1.1 = {holder=20206}
+	1045.1.1 = {holder=20216}
+	1060.1.1 = {holder=20217}
+	1066.1.1 = {holder=70825}
+	1085.9.20 = {holder=7586}
+	1095.4.27 = {holder=7587}
+	1113.9.3 = {holder=7592}
+	1131.2.6 = {holder=7588}
+	1140.2.13 = {holder=212540}
+	1141.10.18 = {holder=7599}
+	1156.10.2 = {holder=212490}
+	1195.11.8 = {holder=212605}
+	1212.1.1 = {holder=7401}
+	1214.4.25 = {holder=212950}
+	1231.9.15 = {holder=462756}
+	1253.11.29 = {holder=462750}
+	1294.2.2 = {holder=462736}
+	1317.1.1 = {liege=e_hre}
+	1317.1.1 = {holder=462740}
+	1323.8.1 = {holder=462749}
+}
+c_mainz = {
+	867.1.1 = {change_development_level=10}
+	1066.1.1 = {change_development_level=16}
+	754.1.1 = {liege=k_france}
+	754.1.1 = {holder=190565}	#Lullus
+	856.2.4 = {
+		liege = k_east_francia
+		holder = 90098
+	}
+	863.6.4 = {
+		government = theocracy_government
+		holder = 168593
+	}
+	865.1.1 = {liege=d_west_franconia}
+	937.1.1 = {holder=163046}
+	954.10.1 = {holder=163047}
+	1051.6.11 = {holder=163048}
+	1059.1.1 = {liege=d_west_franconia}
+	1059.1.1 = {holder=20256}
+	1084.2.16 = {holder=7530}
+	1088.1.1 = {holder=7531}
+	1109.1.1 = {holder=7532}
+	1137.1.1 = {holder=7533}
+	1141.1.1 = {holder=7534}
+	1142.1.1 = {holder=7535}
+	1153.1.1 = {holder=7536}
+	1160.6.24 = {holder=7537}
+	1161.6.20 = {holder=7557}
+	1165.1.1 = {holder=7537}
+	1183.8.23 = {holder=7557}
+	1200.10.25 = {holder=7542}
+	1230.9.9 = {holder=7543}
+	1249.5.9 = {holder=7544}
+	1251.1.1 = {holder=7545}
+	1259.1.1 = {holder=7547}
+	1284.4.2 = {holder=7548}
+	1288.1.1 = {holder=7551}
+	1305.2.25 = {holder=7555}
+	1320.6.5 = {holder=7556}
+	1328.6.9 = {holder=487017}
+}
+c_speyer = {
+	867.1.1 = {change_development_level=9}
+	1066.1.1 = {change_development_level=13}
+	598.1.1 = {liege=d_west_franconia}
+	598.1.1 = {holder=190401}	#Chrodbert I
+	621.1.1 = {holder=190402}	#Lambert I
+	643.1.1 = {holder=190403}	#Chrodbert II
+	676.1.1 = {holder=190404}	#Lambert II
+	729.1.1 = {holder=91000}	#Robert I
+	760.1.1 = {holder=33327}	#Cancor I
+	771.1.1 = {holder=91003}	#Thuringbert
+	774.1.1 = {holder=91004}	#Robert II
+	810.1.1 = {holder=91005}	#Robert III
+	834.1.1 = {holder=190411}	#Guntrum
+	855.8.23 = {holder=144998}	#Lothair II
+	867.1.1 = {holder=161555}	#Werner Salian
+	869.8.8 = {holder=90104}	#Charles I the Bald
+	877.1.20 = {holder=42019}	#Louis I the Younger
+	882.1.20 = {holder=90105}	#Charles II the Fat
+	888.1.1 = {holder=7945}	#Arnulf of Carinthia
+	895.1.1 = {holder=144997}	#Zwentibold
+	900.8.13 = {holder=7949}	#Louis III the Child
+	911.9.20 = {holder=90111}	#Charles III the Simple
+	923.1.1 = {liege=d_upper_lorraine}
+	923.1.1 = {holder=7813}
+	939.10.2 = {holder=1292}
+	940.1.1 = {holder=144993}
+	944.1.1 = {holder=1306}
+	945.1.1 = {holder=20212}
+	1015.1.1 = {holder=20208}
+	1034.1.1 = {holder=20206}
+	1045.1.1 = {holder=20216}
+	1060.1.1 = {holder=20217}
+	1066.1.1 = {holder=33134}
+	1085.9.20 = {holder=7586}
+	1095.4.27 = {holder=7587}
+	1113.9.3 = {holder=7592}
+	1131.2.6 = {holder=7588}
+	1140.2.13 = {holder=212540}
+	1141.10.18 = {holder=7599}
+	1156.10.2 = {holder=212490}
+	1195.11.8 = {holder=212605}
+	1212.1.1 = {holder=7401}
+	1214.4.25 = {holder=212950}
+	1231.9.15 = {holder=462756}
+	1253.11.29 = {holder=462750}
+	1294.2.2 = {holder=462736}
+	1317.1.1 = {liege=e_hre}
+	1317.1.1 = {holder=462740}
+	1323.8.1 = {holder=462749}
+}
+c_worms = {
+	867.1.1 = {change_development_level=8}
+	1066.1.1 = {change_development_level=12}
+	598.1.1 = {liege=d_west_franconia}
+	598.1.1 = {holder=190401}	#Chrodbert I
+	621.1.1 = {holder=190402}	#Lambert I
+	643.1.1 = {holder=190403}	#Chrodbert II
+	676.1.1 = {holder=190404}	#Lambert II
+	729.1.1 = {holder=91000}	#Robert I
+	760.1.1 = {holder=33327}	#Cancor I
+	771.1.1 = {holder=91003}	#Thuringbert
+	774.1.1 = {holder=91004}	#Robert II
+	810.1.1 = {holder=91005}	#Robert III
+	834.1.1 = {holder=190411}	#Guntrum
+	855.8.23 = {holder=144998}	#Lothair II
+	867.1.1 = {holder=161555}	#Werner Salian
+	869.8.8 = {holder=90104}	#Charles I the Bald
+	877.1.20 = {holder=42019}	#Louis I the Younger
+	882.1.20 = {holder=90105}	#Charles II the Fat
+	888.1.1 = {holder=7945}	#Arnulf of Carinthia
+	895.1.1 = {holder=144997}	#Zwentibold
+	900.8.13 = {holder=7949}	#Louis III the Child
+	911.9.20 = {holder=90111}	#Charles III the Simple
+	923.1.1 = {liege=d_upper_lorraine}
+	923.1.1 = {holder=7813}
+	939.10.2 = {holder=1292}
+	940.1.1 = {holder=144993}
+	944.1.1 = {holder=1306}
+	945.1.1 = {holder=20212}
+	1015.1.1 = {holder=20208}
+	1034.1.1 = {holder=20206}
+	1045.1.1 = {holder=20216}
+	1060.1.1 = {holder=20217}
+	1066.1.1 = {holder=33134}
+	1085.9.20 = {holder=7586}
+	1095.4.27 = {holder=7587}
+	1113.9.3 = {holder=7592}
+	1131.2.6 = {holder=7588}
+	1140.2.13 = {holder=212540}
+	1141.10.18 = {holder=7599}
+	1156.10.2 = {holder=212490}
+	1195.11.8 = {holder=212605}
+	1212.1.1 = {holder=7401}
+	1214.4.25 = {holder=212950}
+	1231.9.15 = {holder=462756}
+	1253.11.29 = {holder=462750}
+	1294.2.2 = {holder=462736}
+	1317.1.1 = {liege=e_hre}
+	1317.1.1 = {holder=462740}
+	1323.8.1 = {holder=462749}
+}
+
+#########
+
+d_alsace = {
+	670.1.1 = {holder=161471}	#Eticho I Etichonen
+	682.1.1 = {holder=161472}	#Adalbert I Etichonen
+	722.12.11 = {holder=161473}	#Liutfred I Etichonen
+	739.1.1 = {holder=0}
+	875.1.1 = {holder=90102}	#Hugues Karling
+	895.1.2 = {holder=0}
+}
+
+c_strassburg = {
+	670.1.1 = {holder=161471}
+	682.1.1 = {holder=161472}
+	722.12.11 = {holder=161473}
+	739.1.1 = {holder=161475}
+	748.1.1 = {holder=161476}
+	780.1.1 = {
+	}
+	780.1.1 = {holder=161477}
+	800.1.1 = {holder=161478}
+	822.1.1 = {holder=161479}
+	842.1.1 = {liege=k_lotharingia}
+	898.1.1 = {holder=1326}
+	940.1.1 = {holder=1328}
+	972.12.18 = {holder=1330}
+	986.1.1 = {holder=144959}
+	1016.1.1 = {holder=1332}	#Hugo VI
+	1036.1.1 = {holder=1334}
+	1038.1.1 = {holder=1336}
+	1049.1.1 = {holder=1340}
+	1050.6.28 = {holder=1342}
+	1065.1.1 = {liege=e_hre}
+	1098.1.1 = {holder=161461}
+	1137.1.1 = {holder=161462}
+	1178.1.1 = {holder=161464}
+	1212.1.1 = {holder=161470}
+	1225.3.19 = {holder=30759}
+	1235.1.1 = {holder=30760}
+	1254.5.21 = {holder=30785}
+	1256.1.28 = {holder=232682}
+	1268.10.29 = {liege=e_hre}
+	1272.4.2 = {holder=462021}
+	1291.7.15 = {holder=462360}
+	1298.6.23 = {holder=462023}
+	1308.5.1 = {holder=462611}
+	1313.8.24 = {holder=462740}
+}
+c_colmar = {
+	598.1.1 = {liege=d_west_franconia}
+	598.1.1 = {holder=190401}	#Chrodbert I
+	621.1.1 = {holder=190402}	#Lambert I
+	643.1.1 = {holder=190403}	#Chrodbert II
+	676.1.1 = {holder=190404}	#Lambert II
+	729.1.1 = {holder=91000}	#Robert I
+	760.1.1 = {holder=33327}	#Cancor I
+	771.1.1 = {holder=91003}	#Thuringbert
+	774.1.1 = {holder=91004}	#Robert II
+	810.1.1 = {holder=91005}	#Robert III
+	834.1.1 = {holder=190411}	#Guntrum
+	855.8.23 = {holder=144998}	#Lothair II
+	867.1.1 = {
+		holder = 163095	#Count Luitfried
+		liege = k_lotharingia
+	}
+	869.8.8 = {holder=90104}	#Charles I the Bald
+	877.1.20 = {holder=42019}	#Louis I the Younger
+	882.1.20 = {holder=90105}	#Charles II the Fat
+	888.1.1 = {holder=7945}	#Arnulf of Carinthia
+	895.1.1 = {holder=144997}	#Zwentibold
+	900.8.13 = {holder=7949}	#Louis III the Child
+	911.9.20 = {holder=90111}	#Charles III the Simple
+	923.1.1 = {liege=d_upper_lorraine}
+	923.1.1 = {holder=7813}
+	939.10.2 = {holder=1292}
+	940.1.1 = {holder=144993}
+	944.1.1 = {holder=1306}
+	945.1.1 = {holder=20212}
+	1015.1.1 = {holder=20208}
+	1034.1.1 = {holder=20206}
+	1045.1.1 = {holder=20216}
+	1060.1.1 = {holder=20217}
+	1085.9.20 = {holder=7586}
+	1095.4.27 = {holder=7587}
+	1113.9.3 = {holder=7592}
+	1131.2.6 = {holder=7588}
+	1140.2.13 = {holder=212540}
+	1141.10.18 = {holder=7599}
+	1156.10.2 = {holder=212490}
+	1195.11.8 = {holder=212605}
+	1212.1.1 = {holder=7401}
+	1214.4.25 = {holder=212950}
+	1231.9.15 = {holder=462756}
+	1253.11.29 = {holder=462750}
+	1294.2.2 = {holder=462736}
+	1317.1.1 = {liege=e_hre}
+	1317.1.1 = {holder=462740}
+	1323.8.1 = {holder=462749}
+}
+c_sundgau = {
+	732.1.1 = {liege=d_swabia}
+	732.1.1 = {holder=190361}	#Hadrad
+	760.1.1 = {holder=190362}	#Rothard
+	796.1.1 = {holder=7985}	#Welf
+	820.1.1 = {
+		liege = "k_lotharingia"
+		holder = 161483
+	}
+	837.10.27 = {holder=163055}
+	864.1.1 = {holder=163095}
+	925.1.1 = {liege=d_swabia}
+	1057.1.1 = {holder=11000}	#Ludwig
+	1073.1.1 = {holder=20250}	#Thierry
+	1103.1.2 = {holder=7656}	#Friedrich
+	1160.8.19 = {holder=7658}	#Ludwig
+	1180.1.1 = {holder=34321}	#Ulrich
+	1194.1.1 = {holder=34325}	#Ludwig
+	1198.1.1 = {holder=7659}	#Friedrich
+	1234.1.1 = {holder=7661}	#Ulrich
+	1268.10.29 = {liege=e_hre}
+	1275.2.1 = {holder=462307}	#Theobald
+	1310.1.1 = {holder=462034}	#Ulrich
+	1324.11.3 = {holder=462020}
+}
+
+#########
+
+d_hesse = {
+}
+
+c_kassel = {
+	761.1.1 = {liege=d_angria}
+	761.1.1 = {holder=190463}	#Amelung
+	#782.1.1 = {
+	#	holder = 0
+	#}
+	844.1.1 = {
+		liege = "d_angria"
+		holder = 167757
+	}
+	889.1.1 = {holder=7908}
+	912.11.12 = {holder=1280}
+	936.7.2 = {holder=1282}
+	961.1.1 = {holder=1410}
+	963.3.27 = {holder=1412}
+	1011.2.9 = {holder=1414}
+	1059.6.29 = {holder=1418}
+	1106.1.2 = {holder=30219}
+	1137.12.4 = {holder=212602}
+	1139.10.20 = {holder=212908}
+	1142.1.1 = {holder=212600}
+	1180.9.16 = {liege=e_hre}
+	1195.8.6 = {holder=462801}
+	1213.12.13 = {holder=462802}
+	1235.1.1 = {liege=d_angria}
+	1252.1.1 = {holder=462803}
+	#Landgraves of Hesse
+	1263.1.1 = {holder=33391}
+	1308.12.21 = {holder=33394}
+	1328.1.17 = {holder=33401}
+}
+c_fulda = {
+	761.1.1 = {liege=d_angria}
+	761.1.1 = {holder=190463}	#Amelung
+	#782.1.1 = {
+	#	holder = 0
+	#}
+	844.1.1 = {
+		liege = "d_angria"
+		holder = 167757
+	}
+	889.1.1 = {holder=7908}
+	912.11.12 = {holder=1280}
+	936.7.2 = {holder=1282}
+	961.1.1 = {holder=1410}
+	963.3.27 = {holder=1412}
+	1011.2.9 = {holder=1414}
+	1059.6.29 = {holder=1416}
+	1066.1.1 = {holder=1316}
+	1072.3.28 = {holder=1418}
+	1106.1.2 = {holder=30219}
+	1137.12.4 = {holder=212602}
+	1139.10.20 = {holder=212908}
+	1142.1.1 = {holder=212600}
+	1180.9.16 = {liege=e_hre}
+	1195.8.6 = {holder=462801}
+	1213.12.13 = {holder=462802}
+	1235.1.1 = {liege=d_angria}
+	1252.1.1 = {holder=462803}
+	#Landgraves of Hesse
+	1263.1.1 = {holder=33391}
+	1308.12.21 = {holder=33394}
+	1328.1.17 = {holder=33401}
+}
+c_marburg = {
+	765.1.1 = {liege=d_east_franconia}
+	765.1.1 = {holder=33328}	#Heimerich
+	795.5.5 = {holder=190397}	#Heimerich
+	826.1.1 = {liege=k_east_francia}
+	826.1.1 = {holder=7946}
+	860.1.1 = {holder=7947}
+	906.1.1 = {liege=d_east_franconia}
+	1066.1.1 = {holder=1316}
+	1106.7.8 = {holder=7901}	#Heinrich V Salier
+	1125.5.23 = {holder=30719}	#Ruprecht von Nassau
+	1125.8.24 = {liege=e_hre}
+	1154.5.13 = {holder=30717}	#Ruprecht von Nassau
+	1159.4.1 = {holder=212370}	#Walram von Nassau
+	1197.7.5 = {holder=212372}	#Heinrich II von Nassau
+	1220.1.1 = {liege=d_thuringia}
+	1251.1.25 = {
+		holder = 30700	#Walram II von Nassau
+		liege = e_hre
+	}
+	1276.1.24 = {holder=462360}	#Adolf von Nassau
+	1298.6.23 = {holder=462362}	#Gerlach von Nassau
+}
+
+#########
+
+d_nassau = {
+	1806.08.30 = {holder=100037354}
+	1816.03.24 = {holder=100117836}
+	1839.08.30 = {holder=100192000}
+	# Fiktiver Übergang auf die morganatische Nebenlinie Merenberg
+	1866.09.21 = {holder=100070103}	# Nikolaus Merenberg
+	1905.09.17 = {holder=100092677}
+	1948.05.31 = {holder=100492677}
+}
+
+c_nassau = {
+	765.1.1 = {liege=d_east_franconia}
+	765.1.1 = {holder=33328}	#Heimerich
+	795.5.5 = {holder=190397}	#Heimerich
+	826.1.1 = {liege=k_east_francia}
+	826.1.1 = {holder=7946}
+	860.1.1 = {holder=7947}
+	906.1.1 = {liege=d_east_franconia}
+	1066.1.1 = {holder=franconian0002}
+	1094.1.1 = {holder=30721}
+	1106.7.8 = {holder=7901}	#Heinrich V Salier
+	1125.5.23 = {holder=30719}	#Ruprecht von Nassau
+	1125.8.24 = {liege=e_hre}
+	1154.5.13 = {holder=30717}	#Ruprecht von Nassau
+	1159.4.1 = {holder=212370}	#Walram von Nassau
+	1197.7.5 = {holder=212372}	#Heinrich II von Nassau
+	1220.1.1 = {liege=d_thuringia}
+	1251.1.25 = {
+		holder = 30700	#Walram II von Nassau
+		liege = e_hre
+	}
+	1276.1.24 = {holder=462360}	#Adolf von Nassau
+	1298.6.23 = {holder=462362}	#Gerlach von Nassau
+	#####
+	1765.01.16 = {holder=100192004}	# KARL CHRISTIAN
+	1788.11.28 = {holder=100070074}	# FRIEDRICH WILHELM
+	1816.01.09 = {holder=100117836}	# WILHELM
+	1839.08.30 = {holder=100192000}	# ADOLF
+	# Fiktiver Übergang auf die morganatische Nebenlinie Merenberg
+	1866.09.21 = {holder=100070103}	# Nikolaus Merenberg
+	1905.09.17 = {holder=100092677}
+	1948.05.31 = {holder=100492677}
+}
+c_hochst = {
+}
+b_limburg = {
+	1065.1.1 = {holder=33137}	# Walram I of Limburg
+}
+c_wiesbaden = {
+}
+b_katzenelnbogen = {
+	1097.1.1 = {holder=33252}
+	1108.1.1 = {holder=33253}
+	1160.1.1 = {holder=33254}
+	1179.1.1 = {holder=33255}
+	1219.1.1 = {holder=33256}
+	1245.1.1 = {holder=33257}
+	1276.1.1 = {holder=33258}
+	1331.1.1 = {holder=33259}
+}

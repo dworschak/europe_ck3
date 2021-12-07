@@ -1,0 +1,374 @@
+﻿k_libya = {
+	800.1.1 = {liege=e_arabian_empire}
+}
+
+#########
+
+d_tripolitania = {
+	800.1.1 = {liege=k_libya}
+	768.1.1 = {holder=210031}
+	866.1.1 = {
+		#liege = "k_africa" - should not be a vasal, but tributary
+		government = clan_government
+		holder = 273136	#Hawwara
+	}
+	866.10.10 = {holder=273137}
+	900.1.1 = {holder=273139}
+	940.1.1 = {holder=273140}
+	1052.1.1 = {holder=155184}
+	1066.1.1 = {
+		liege = 0
+		government = tribal_government
+		holder = 155185
+	}
+	1087.1.1 = {holder=155186}
+	1108.1.1 = {holder=155187}
+	1129.1.1 = {holder=155188}
+	1146.1.1 = {
+		liege = "k_sicily"
+		holder = 155136
+	}
+	1160.1.22 = {
+		liege = "k_maghreb"
+		holder = 33013
+	}
+	1172.1.1 = {
+		liege = "k_egypt"
+		holder = 155113
+	}
+	1187.10.15 = {liege=k_maghreb}
+	1192.1.1 = {liege=0}
+	1195.1.1 = {holder=32977}
+	1210.1.1 = {liege=k_maghreb}
+	1210.1.1 = {holder=33016}
+	1223.1.1 = {holder=33018}
+	1229.1.1 = {liege=k_africa}
+	1251.1.1 = {holder=33040}
+	1270.1.1 = {holder=33041}
+	1290.1.1 = {holder=33030}
+	1300.1.1 = {holder=33032}
+	1318.1.1 = {holder=33034}
+	1324.1.1 = {liege=0}
+	1324.1.1 = {holder=155237}
+	1327.1.1 = {holder=155238}
+	1348.1.1 = {holder=155239}
+}
+
+c_tripolitana = {
+	800.1.1 = {liege=d_tripolitania}
+	867.1.1 = {change_development_level=8}
+	1066.1.1 = {change_development_level=12}
+	768.1.1 = {
+		government = clan_government
+		liege = "d_tripolitania"
+	}
+	768.1.1 = {holder=210031}
+	866.1.1 = {
+		government = clan_government
+		holder = 273136	#Hawwara
+	}
+	866.10.10 = {holder=273137}
+	900.1.1 = {holder=273139}
+	940.1.1 = {holder=273140}
+	1052.1.1 = {holder=155184}
+	1058.1.1 = {holder=155130}
+	1068.1.1 = {holder=155131}
+	1078.1.1 = {holder=155132}
+	1090.1.1 = {holder=155133}
+	1115.1.1 = {holder=155134}
+	1146.1.1 = {holder=155136}
+	1160.1.22 = {holder=33013}
+	1172.1.1 = {holder=155113}
+	1195.1.1 = {holder=32977}
+	1210.1.1 = {holder=33016}
+	1223.1.1 = {holder=33018}
+	1251.1.1 = {holder=33040}
+	1270.1.1 = {holder=33041}
+	1290.1.1 = {holder=33030}
+	1300.1.1 = {holder=33032}
+	1318.1.1 = {holder=33034}
+	1324.1.1 = {holder=155237}
+	1327.1.1 = {holder=155238}
+	1348.1.1 = {holder=155239}
+}
+c_jafara = {
+	800.1.1 = {liege=d_tripolitania}
+	768.1.1 = {
+		government = clan_government
+		liege = d_tripolitania
+		holder = 210031
+	}
+	866.1.1 = {holder=273136}	#Hawwara
+	866.10.10 = {holder=273137}
+	900.1.1 = {holder=273139}
+	940.1.1 = {holder=273140}
+	1052.1.1 = {holder=155184}
+	1066.1.1 = {
+		government = tribal_government
+		holder = 155185
+	}
+	1087.1.1 = {holder=155186}
+	1108.1.1 = {holder=155187}
+	1129.1.1 = {holder=155188}
+	1146.1.1 = {holder=155136}
+	1160.1.22 = {holder=33013}
+	1172.1.1 = {holder=155113}
+	1195.1.1 = {holder=32977}
+	1210.1.1 = {holder=33016}
+	1223.1.1 = {holder=33018}
+	1251.1.1 = {holder=33040}
+	1270.1.1 = {holder=33041}
+	1290.1.1 = {holder=33030}
+	1300.1.1 = {holder=33032}
+	1318.1.1 = {holder=33034}
+	1324.1.1 = {holder=155237}
+	1327.1.1 = {holder=155238}
+	1348.1.1 = {holder=155239}
+}
+
+#########
+
+d_cyrenaica = {
+	800.1.1 = {liege=k_libya}
+	867.1.1 = {change_development_level=2}
+	1066.1.1 = {change_development_level=5}
+	767.1.1 = {
+		holder = 210034
+		liege = "k_africa"
+	}
+	788.1.1 = {holder=0}
+	#Suleimid
+	1050.1.1 = {
+		liege = 0
+		government = tribal_government
+		holder = 155199
+	}
+	1072.1.1 = {holder=155209}
+	#old history
+	1097.1.1 = {holder=155210}
+	1129.1.1 = {holder=155211}
+	1161.1.1 = {holder=155212}
+	1172.1.1 = {liege=k_egypt}
+	1172.1.1 = {holder=155113}
+	1182.1.1 = {holder=155212}
+	1193.1.1 = {holder=155213}
+	1225.1.1 = {holder=155214}
+	1264.1.1 = {holder=155215}
+	1289.1.1 = {holder=155200}
+	1321.1.1 = {holder=155201}
+	1337.1.1 = {holder=155202}
+}
+
+c_barqa = {
+	800.1.1 = {liege=d_cyrenaica}
+	867.1.1 = {change_development_level=7}
+	1066.1.1 = {change_development_level=10}
+	767.1.1 = {
+		holder = 210034
+		liege = "d_cyrenaica"
+	}
+	866.1.1 = {liege=k_egypt}
+	866.1.1 = {holder=163115}
+	1050.1.1 = {
+		liege = "d_cyrenaica"
+		holder = 155199
+	}
+	1072.1.1 = {holder=155209}
+	1097.1.1 = {holder=155210}
+	1129.1.1 = {holder=155211}
+	1161.1.1 = {holder=155212}
+	1193.1.1 = {holder=155213}
+	1225.1.1 = {holder=155214}
+	1264.1.1 = {holder=155215}
+	1289.1.1 = {holder=155200}
+	1321.1.1 = {holder=155201}
+	1337.1.1 = {holder=155202}
+}
+c_awjila = {
+	800.1.1 = {liege=d_cyrenaica}
+	767.1.1 = {
+		government = tribal_government
+		holder = 210034
+		liege = "d_cyrenaica"
+	}
+	866.1.1 = {liege=k_egypt}
+	866.1.1 = {holder=163115}
+	#Zegbid branch Suleimids
+	1052.1.1 = {
+		liege = d_cyrenaica
+		holder = 1229657
+	}
+	1062.1.1 = {holder=1229658}
+	#old history
+	1090.1.1 = {holder=155226}
+	1135.1.1 = {holder=155227}
+	1165.1.1 = {holder=155228}
+	1195.1.1 = {holder=155229}
+	1225.1.1 = {holder=155230}
+	1255.1.1 = {holder=155231}
+	1285.1.1 = {holder=155232}
+	1337.1.1 = {holder=155234}
+}
+c_derna = {
+	800.1.1 = {liege=d_cyrenaica}
+	767.1.1 = {
+		holder = 210034
+		liege = "d_cyrenaica"
+	}
+	866.1.1 = {liege=k_egypt}
+	866.1.1 = {holder=163115}
+	1050.1.1 = {
+		government = tribal_government
+		liege = "d_cyrenaica"
+		holder = 155199
+	}
+	1072.1.1 = {holder=155209}
+	1097.1.1 = {holder=155204}
+	1124.1.1 = {holder=155205}
+	1147.1.1 = {holder=155206}
+	1170.1.1 = {holder=155216}
+	1203.1.1 = {holder=155217}
+	1236.1.1 = {holder=155218}
+	1269.1.1 = {holder=155219}
+	1302.1.1 = {holder=155220}
+}
+c_tobruk = {
+	800.1.1 = {liege=d_cyrenaica}
+	767.1.1 = {
+		government = tribal_government
+		holder = 210034
+		liege = "d_cyrenaica"
+	}
+	866.1.1 = {liege=k_egypt}
+	866.1.1 = {holder=163115}
+	1066.1.1 = {liege=d_cyrenaica}
+	1066.1.1 = {holder=155203}
+	1101.1.1 = {holder=155204}
+	1124.1.1 = {holder=155205}
+	1147.1.1 = {holder=155207}
+	1174.1.1 = {holder=155221}
+	1207.1.1 = {holder=155222}
+	1240.1.1 = {holder=155223}
+	1273.1.1 = {holder=155224}
+	1306.1.1 = {holder=155225}
+}
+
+#########
+
+d_syrte = {
+	800.1.1 = {liege=k_libya}
+	864.1.1 = {
+		government = clan_government
+		liege = 0
+		holder = 273135
+	}
+	903.1.1 = {holder=0}
+}
+
+c_syrte = {
+	800.1.1 = {liege=d_syrte}
+	768.1.1 = {
+		government = clan_government
+		liege = d_tripolitania
+		holder = 210031
+	}
+	864.1.1 = {
+		liege = d_syrte
+		holder = 273135
+	}
+	# Debbabid branch of Suleimids
+	1050.1.1 = {
+		government = tribal_government
+		liege = d_cyrenaica
+		holder = 1229655
+	}
+	1060.1.1 = {holder=1229656}
+	#Old history
+	1093.1.1 = {
+		government = clan_government
+		holder = 155208
+	}
+	1105.1.1 = {holder=155226}
+	1135.1.1 = {holder=155227}
+	1165.1.1 = {holder=155228}
+	1195.1.1 = {holder=155229}
+	1225.1.1 = {holder=155230}
+	1255.1.1 = {holder=155231}
+	1285.1.1 = {holder=155232}
+	1337.1.1 = {holder=155234}
+}
+c_labda = {
+	800.1.1 = {liege=d_syrte}
+	768.1.1 = {
+		government = clan_government
+		liege = "d_tripolitania"
+	}
+	768.1.1 = {holder=210031}
+	866.1.1 = {holder=273136}	#Hawwara
+	866.10.10 = {holder=273137}
+	900.1.1 = {holder=273139}
+	940.1.1 = {holder=273140}
+	# Debbabid branch of Suleimids
+	1050.1.1 = {
+		government = tribal_government
+		liege = d_cyrenaica
+		holder = 1229655
+	}
+	1060.1.1 = {holder=1229656}
+	#Old history
+	1093.1.1 = {
+		government = clan_government
+		holder = 155133
+	}
+	1115.1.1 = {holder=155134}
+	1146.1.1 = {holder=155136}
+	1160.1.22 = {holder=33013}
+	1172.1.1 = {holder=155113}
+	1195.1.1 = {holder=32977}
+	1210.1.1 = {holder=33016}
+	1223.1.1 = {holder=33018}
+	1251.1.1 = {holder=33040}
+	1270.1.1 = {holder=33041}
+	1290.1.1 = {holder=33030}
+	1300.1.1 = {holder=33032}
+	1318.1.1 = {holder=33034}
+	1324.1.1 = {holder=155237}
+	1327.1.1 = {holder=155238}
+	1348.1.1 = {holder=155239}
+}
+c_waddan = {
+	800.1.1 = {liege=d_syrte}
+	768.1.1 = {
+		liege = "d_tripolitania"
+		government = tribal_government
+	}
+	768.1.1 = {holder=210031}
+	864.1.1 = {
+		liege = d_syrte
+		holder = 273135
+	}
+	#Zegbid branch Suleimids
+	1052.1.1 = {
+		liege = d_cyrenaica
+		holder = 1229657
+	}
+	1062.1.1 = {holder=1229658}
+	#old history
+	1090.1.1 = {holder=155186}
+	1108.1.1 = {holder=155187}
+	1129.1.1 = {holder=155188}
+	1146.1.1 = {holder=155136}
+	1160.1.22 = {holder=33013}
+	1172.1.1 = {holder=155113}
+	1195.1.1 = {holder=32977}
+	1210.1.1 = {holder=33016}
+	1223.1.1 = {holder=33018}
+	1251.1.1 = {holder=33040}
+	1270.1.1 = {holder=33041}
+	1290.1.1 = {holder=33030}
+	1300.1.1 = {holder=33032}
+	1318.1.1 = {holder=33034}
+	1324.1.1 = {holder=155237}
+	1327.1.1 = {holder=155238}
+	1348.1.1 = {holder=155239}
+}
