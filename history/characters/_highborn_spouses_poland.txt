@@ -235,6 +235,15 @@
 	2003.11.27={death=yes}
 }
 
+100103032={ # Ct         Henryk                    Wodzicki                                 (1813-1884)     - [SULKOWSKI]
+	name="Henryk Wodzicki"
+	#dynasty=0
+	religion=catholic culture=german
+	1813.12.02={birth=yes}
+	1838.07.15={add_spouse=100035675}	# Taida Karolina Sulkowski
+	1840.10.20={add_spouse=100035678}	# Therese Karoline Sulkowski
+	1884.10.20={death=yes}
+}
 100093856={ # Css        Celina                    Wodzicki                                 (1838-1912)     0 [POTOCKI]
 	name="Celina Wodzicki"
 	female=yes
@@ -247,6 +256,8 @@
 	name="Roman Wodzicki"
 	#dynasty=0
 	religion=catholic culture=polish
+	father=100103032
+	mother=100035675
 	1839.08.23={birth=yes}
 	1868.01.01={add_spouse=100111502}	# Tereza Potocki
 	1893.07.13={death=yes}
@@ -3032,22 +3043,6 @@
 	1865.01.30={birth=yes}  # Nacpolsk
 	1934.03.18={death=yes}  # Malinie
 }
-100096207={ #            Anna                      Denhoff                                  (1620-1651)     1 [LESZCZYNSKI]
-	name="Anna Denhoff"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1620.01.01={birth=yes}
-	1651.01.01={death=yes}
-}
-100101390={ #            Franciszek Teodor         Denhoff                                  (1674-1749)     - [POTOCKI]
-	name="Franciszek Teodor Denhoff"
-	#dynasty=0
-	religion=catholic culture=polish
-	1674.01.01={birth=yes}
-	1694.01.01={add_spouse=100114059}	# Katarzyna Potocki
-	1749.01.01={death=yes}  # EST.
-}
 100098019={ #            Anna                      Dobrzanski                               (1786-1819)     1 [LUBOMIRSKI]
 	name="Anna Dobrzanski"
 	female=yes
@@ -3226,7 +3221,7 @@
 	name="Kenna Jogailaitis"
 	female=yes
 	#dynasty=0
-	religion=catholic culture=pomeranian
+	religion=catholic culture=pommeranian
 	1350.01.01={birth=yes}
 	1368.04.27={death=yes}
 }
@@ -3234,7 +3229,7 @@
 	name="Jadwiga Jogailaitis"
 	female=yes
 	#dynasty=0
-	religion=catholic culture=pomeranian
+	religion=catholic culture=pommeranian
 	1374.01.01={birth=yes}  # EST.
 	1406.12.01={death=yes}
 }
@@ -4132,7 +4127,7 @@
 100086741={ # Ct         Stanislav                 z Labiszyn Latalski                      (1531-1598)     - [POMMERN]
 	name="Stanislav z Labiszyn Latalski"
 	#dynasty=0
-	religion=catholic culture=pomeranian
+	religion=catholic culture=pommeranian
 	1531.01.01={birth=yes}  # EST.
 	1556.01.01={add_spouse=100010390}	# Georgia Gryfita
 	1598.12.11={death=yes}
@@ -6681,7 +6676,7 @@
 100086751={ # Duke       Jerzy                     of Brieg                                 (1481-1521)     - [POMMERN]
 	name="Jerzy of Brieg"
 	#dynasty=0
-	religion=catholic culture=pomeranian
+	religion=catholic culture=pommeranian
 	1481.01.01={birth=yes}
 	1515.06.05={add_spouse=100010399}	# Anna Gryfita
 	1521.05.30={death=yes}
@@ -6706,7 +6701,7 @@
 	name="Maria of Poland"
 	female=yes
 	#dynasty=0
-	religion=catholic culture=pomeranian
+	religion=catholic culture=pommeranian
 	1410.01.01={birth=yes}
 	1454.02.18={death=yes}
 }
@@ -6822,15 +6817,6 @@
 	religion=catholic culture=german
 	1739.01.01={birth=yes}  # EST.
 	1770.01.01={death=yes}
-}
-100103032={ # Ct         Henryk                    Wodzicki                                 (1813-1884)     -
-	name="Henryk Wodzicki"
-	#dynasty=0
-	religion=catholic culture=german
-	1813.12.02={birth=yes}
-	1838.07.15={add_spouse=100035675}	# Taida Karolina Sulkowski
-	1840.10.20={add_spouse=100035678}	# Therese Karoline Sulkowski
-	1884.10.20={death=yes}
 }
 100085916={ #            Eleonora                  Cetner                                   (1731-1803)     0
 	name="Eleonora Cetner"

@@ -1089,13 +1089,6 @@
 			1469.08.04={birth=yes}
 			1528.12.07={death=yes}  # Weimar
 		}
-#1471.03.24={holder=100017401} # Ernst 
-#1486.08.26={holder=100017417} # 2a) Friedrich
-#1525.05.05={holder=100016257} # 5a) Johann
-#1532.08.16={holder=100016256} # 1b) Johann Friedrich I
-#1554.03.03={holder=100017427} # 1c) Johann Friedrich II
-#1595.05.09={holder=100017432} # 3d) Johann Kasimir
-#1633.07.16={holder=100017437} # 4d) Johann Ernst
 ### Wettin 3
 
 
@@ -2230,9 +2223,9 @@
 							mother=100063721	# Elizabeth Bowes-Lyon
 							trait=queen_liz
 							1926.04.21={birth=yes}
-							1952.02.06={ #// add_claim=k_ireland
+							1952.02.06={
 								add_claim=e_india
-								wealth=300}
+							}
 						}
 							100062025={ #// 1j) Charles Philip Arthur George, Prince of Wales, b.Buckingham Palace 14 Nov 1948; m.1st St.Paul's Cathedral 29 Jul 1981 (div 1996) Diana Frances Spencer (Park House, Sandringham 1 Jul 1961-k.in car wreck at Paris 31 Aug 1997); m.2d Windsor 9 Apr 2005 Mrs Camilla Rosemary Parker Bowles, née Shand, now styled H.R.H. the Duchess of Cornwall (b.London 17 Jul 1947)
 								name=Charles
@@ -2264,14 +2257,49 @@
 										mother=100088073	# Kate Middleton
 										2013.07.22={birth=yes}
 									}
-								100062030={ #// 2k) Henry Charles Albert David, b.Paddington 15 Sep 1984
+									100362529={ #// 2l) Charlotte Elizabeth Diana (b.2 May 2015)
+										name=Charlotte
+										female=yes
+										dynasty_house=house_mountbatten_windson
+										religion=anglican culture=english
+										father=100062028	# William Mountbatten-Windsor
+										mother=100088073	# Kate Middleton
+										2015.05.02={birth=yes}
+									}
+									100366329={ #// 3l) Louis Arthur Charles (b.23 Apr 2018)
+										name=Louis
+										dynasty_house=house_mountbatten_windson
+										religion=anglican culture=english
+										father=100062028	# William Mountbatten-Windsor
+										mother=100088073	# Kate Middleton
+										2018.04.23={birth=yes}
+									}
+								100062030={ #// 2k) Henry (Harry) Charles Albert David, cr 2018 Duke of Sussex, etc., b.Paddington, London 15 Sep 1984; m.Windsor 19 May 2018 Meghan Markle
 									name=Henry
 									dynasty_house=house_mountbatten_windson
 									religion=anglican culture=english
 									father=100062025	# Charles Mountbatten-Windsor
 									mother=100063729	# Diana Spencer-Churchill
 									1984.09.15={birth=yes}
+									2018.05.19={add_spouse=100388073}
 								}
+									100362029={ #// 1l) Archie Harrison (b.6 May 2019)
+										name=Archie
+										dynasty_house=house_mountbatten_windson
+										religion=anglican culture=english
+										father=100062030	# Henry Mountbatten-Windsor
+										mother=100388073	# Meghan Markle
+										2019.05.06={birth=yes}
+									}
+									100302229={ #// 2l) Lilibet Diana (b.Santa Barbara CA 4 Jun 2021)
+										name=Lilibet
+										female=yes
+										dynasty_house=house_mountbatten_windson
+										religion=anglican culture=english
+										father=100062030	# Henry Mountbatten-Windsor
+										mother=100388073	# Meghan Markle
+										2021.06.04={birth=yes}
+									}				
 							100062027={ #// 2j) Anne Elizabeth Alice Louise, cr 1987 Princess Royal, b.Clarence House 15 Aug 1950; m.1st Westminster Abbey 14 Nov 1973 (div 1992) Mark Antony Peter Phillips (b.Tetbury, Gloucs 22 Sep 1948); m.2d Crathie Church, nr Balmoral 12 Dec 1992 Sir Timothy James Hamilton Laurence (b.Camberwell, Surrey 1 Mar 1955)
 								name=Anne
 								female=yes
@@ -5233,6 +5261,8 @@
 										# m.2d Mühlheim 22 Jul 1977 Wolfgang Graf Deym von Stritetz (b.as Wolfgang König at Agram 10 Jan 1943
 										# m.3d Hachenburg 8 Aug 1988 (div 1989) Ulrich Schuhmacher (b.20 Jun 1953); 
 										# m.4th Sonsbeck 11 Nov 1996 Wolfgang Siegfried Döhring (b.Salpia 6 Mar 1941)
+										# Xenia -> Theo Clevan
+										# Xandra -> ???
 								name=Iris
 								female=yes
 								dynasty_house=house_wettin_albert

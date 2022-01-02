@@ -2221,17 +2221,8 @@
 									father=100001599	# Gottfried v. Hessen
 									mother=100086880	# Sylvia Traute Knispel
 									1946.04.29={birth=yes}
-									1971.07.01={add_spouse=100082730	# Rainer de Neufville
-										effect={
-											set_character_flag=no_marriage_event
-											spouse={
-												set_character_flag=no_marriage_event
-												remove_spouse=spouse
-												add_spouse_matrilineal=ROOT
-												clr_character_flag=no_marriage_event
-											}
-											clr_character_flag=no_marriage_event
-										}
+									1971.07.01={
+										add_matrilineal_spouse=100082730	# Rainer de Neufville
 									}
 								}
 									100001601={ #// Florian Alexander de Neufville v. Hessen (1972-    )

@@ -3718,7 +3718,6 @@
 				father=100000332	# Viktor Adolf zu Bentheim u.Steinfurt
 				mother=100005786	# Rosa Helene von Solms-Hohensolms-Lich
 				1936.07.03={birth=yes}
-				2013.01.01={death=yes}  # EST.
 			}
 			100000346={ #// 7c) Ferdinand Ludwig Franz (Münster 13 Aug 1938-Bornheim 19 Sep 2010); m.Burgsteinfurt 29 Dec 1970 Leonie Keller (b.Esslingen 24 Oct 1946)
 				name=Ferdinand
@@ -10661,6 +10660,15 @@
 								1951.10.20={birth=yes}
 								1977.07.30={add_spouse=100020070}	# Andrea v. Habsburg-Lothringen
 							}
+								100392061={ # F1. Maria PHILIPP Karl Friedrich Hubert Magnus, *Heilbronn-Neckargartach 6.9.1978; m.Paula Wolff (*1981)
+									name=Philipp
+									dynasty=1002101
+									religion=catholic culture=german
+									father=100192764	# Karl Eugen von Neipperg
+									mother=100020070	# Andrea v. Habsburg-Lothringen
+									1978.09.06={birth=yes}
+								}
+								# F2. Maria BENEDIKT Reinhard Michael Alois Leo, *Heilbronn-Neckargartach 11.4.1980
 								100192761={ #// F3. Maria DOMINIK Georg Christoph Johannes Pantaleon, *Warendorf 27.7.1981; m.Wallhausen 4 Aug 2012 Marie-Anna Pss zu Salm-Salm (b.Kitzingen 22 Feb 1986) $$
 									name=Dominik
 									dynasty=1002101
@@ -10670,6 +10678,7 @@
 									1981.07.27={birth=yes}
 									2012.08.04={add_spouse=100003945}	# Marie-Anna v. Salm-Salm
 								}
+								# F4. Maria HEMMA Nathalie Sophie Franziska Georgine, *Oelde 11.10.1983; m.Keni Specht
 								100192760={ #// F5. Maria KATHARINA Franziska Monika Elisabeth Georgina, *Rheda-Wiedenbrück 3.4.1986; m.Schwaigern 30 Aug 2012 (rel) Drahenice 1 Sep 2012 Wenzel Pr von Lobkowicz (b.München 4 Dec 1986) $$
 									name=Katharina
 									female=yes
@@ -16224,6 +16233,24 @@
 #ligne4
 
 #ligne5
+100302048={ #// F1. Henri de Belzunce, Marquis de Belzunce, d.Battle of Monte Cassino, on May 13, 1944; m.Marie-Thérèse de la Poëze d'Harambure
+	name=Henri
+	dynasty=1007052
+	religion=catholic culture=frankish
+	1910.01.01={birth=yes}	# EST.
+	1940.1.1={add_spouse=100082462}
+	1944.05.13={death=yes}
+}
+	100182048={ #// F1. Lætitia Marie Madeleine Susanne Valentine de Belzunce (b.2 Sep 1941); m.28 Jul 1965 Leopold Franz v. Habsburg-Lothringen (b.25 Oct 1942)
+		name=Laetitia
+		female=yes
+		dynasty=1007052
+		religion=catholic culture=frankish
+		father=100302048
+		mother=100082462
+		1941.09.02={birth=yes}
+	}
+
 100000203={ #// CHARLES Marie Raymond Prince de Ligne, Duc d'Arenberg, Duc d'Aerschot, *Enghien 1.4.1721, +Enghien 17.8.1778; m.Paris 18.6.1748 Gfn Louise Marguerite von der Marck, Gfn van Schleiden (*10.7.1730 +18.8.1820)
 	name=Charles
 	dynasty=1002040
@@ -16343,15 +16370,6 @@
 						1949.08.20={add_spouse=100082462}	# Marie-Thérèse de la Poëze d'Harambure
 						1992.09.13={death=yes}
 					}
-						100182048={ #// F1. Laetitia (b.2 Sep 1941); m.28 Jul 1965 Leopold Franz v. Habsburg-Lothringen (b.25 Oct 1942) %%
-							name=Laetitia
-							female=yes
-							dynasty=1007052
-							religion=catholic culture=frankish
-							father=100000222	# Erik Engelbert v. Arenberg
-							mother=100082462	# Marie-Thérèse de la Poëze d'Harambure
-							1941.09.02={birth=yes}
-						}
 					100000224={ #// 3d) Lydia Hedwig Eléonore Charlotte Marie Melchiorre Antoinette Joséphine (Brussels 1 Apr 1905-Lausanne 23 Jul 1977); m.Turin 30 Apr 1928 Filiberto Pr of Savoy, Duke of Genoa (Turin 10 Mar 1895-Lausanne 7 Sep 1990) $$
 						name=Lydia
 						female=yes

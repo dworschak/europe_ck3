@@ -2445,17 +2445,8 @@
 								father=100000025	# Eduard von Anhalt
 								mother=100087055	# Corinne Krönlein
 								1980.12.14={birth=yes}
-								2008.07.12={add_spouse=100080584	# Marc Bernath
-									effect={
-										set_character_flag=no_marriage_event
-										spouse={
-											set_character_flag=no_marriage_event
-											remove_spouse=spouse
-											add_spouse_matrilineal=ROOT
-											clr_character_flag=no_marriage_event
-										}
-										clr_character_flag=no_marriage_event
-									}
+								2008.07.12={
+									add_matrilineal_spouse=100080584	# Marc Bernath
 								}
 							}
 								100000082={ #// Julius Maxime Laszlo[23] (born 21 December 2010, Munich)[3]

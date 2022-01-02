@@ -628,7 +628,7 @@
 	name="Engelbert von Landsberg-Velen"
 	#dynasty=0
 	religion=catholic culture=german
-	1804.01.01={birth=yes}  # EST.
+	1796.03.10={birth=yes}
 	1829.01.20={add_spouse=100010596}	# Maximiliane Hermine von Hatzfeldt
 	1878.02.24={death=yes}
 }
@@ -1274,10 +1274,18 @@
 	1967.03.02={death=yes}  # Osgoode Ontario
 }
 
+100372024={ #            Alexander                 Kyd von Rebenburg                        (1832-1910)     - [-]
+	name="Alexander Kyd von Rebenburg"
+	#dynasty=0
+	religion=catholic culture=german
+	1832.01.01={birth=yes}
+	1910.01.01={death=yes}
+}
 100102024={ #            Alexander                 Kyd von Rebenburg                        (1861-1946)     - [MIKES]
 	name="Alexander Kyd von Rebenburg"
 	#dynasty=0
 	religion=catholic culture=german
+	father=100372024
 	1861.01.01={birth=yes}  # Graz
 	1887.04.23={add_spouse=100119587}	# Zsófia Mikes de Zabola
 	1946.07.28={death=yes}  # Graz
@@ -1287,6 +1295,7 @@
 	female=yes
 	#dynasty=0
 	religion=catholic culture=german
+	father=100372024
 	1861.04.27={birth=yes}  # Graz
 	1947.01.04={death=yes}  # Graz
 }
@@ -1295,6 +1304,8 @@
 	female=yes
 	#dynasty=0
 	religion=catholic culture=hungarian
+	father=100102024
+	mother=100119587
 	1890.07.15={birth=yes}  # Brassó
 	1976.01.06={death=yes}  # Balatonszemes
 }
@@ -5309,11 +5320,11 @@
 	1758.12.21={birth=yes}
 	1833.09.12={death=yes}
 }
-100102687={ # Edler      Roman                     Czjzek von Schmidaich                    (1908-1989)     - [THOLDALAGI]
+100102687={ # Edler      Roman                     Czjzek von Smidaich                      (1908-1989)     - [THOLDALAGI]
 	name="Roman Czjzek von Schmidaich"
 	#dynasty=0
 	religion=catholic culture=hungarian
-	1908.09.05={birth=yes}  # Trnavska
+	1908.09.05={birth=yes}  # german
 	1951.02.18={add_spouse=100119851}	# Éva Tholdalagi de Nagyertse et Gelencze
 	1989.05.21={death=yes}  # Wien
 }
