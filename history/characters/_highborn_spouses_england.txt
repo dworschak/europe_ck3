@@ -2437,10 +2437,10 @@
 
 100087957={ # Earl       Richard                   Meade                                    (1766-1805)     0 [THUN]
 	name="Richard Meade"
-	female=yes
 	#dynasty=0
 	religion=catholic culture=english
 	1766.05.10={birth=yes}
+	1793.10.06={add_spouse=100023795}
 	1805.09.03={death=yes}
 }
 100087958={ # Lady       Caroline                  Meade                                    (1791-1820)     1 [SZECHENYI]
@@ -2448,6 +2448,8 @@
 	female=yes
 	#dynasty=0
 	religion=catholic culture=english
+	father=100087957
+	mother=100023795
 	1791.01.01={birth=yes}
 	1820.08.29={death=yes}
 }
@@ -2456,8 +2458,10 @@
 	female=yes
 	#dynasty=0
 	religion=anglican culture=english
-	1792.01.01={birth=yes}
-	1872.01.01={death=yes}
+	father=100087957
+	mother=100023795
+	1792.05.02={birth=yes}
+	1872.08.29={death=yes}
 }
 100087960={ #            Jane Margaret             Meade Newman                             (1921-1995)     5 [FITZALAN]
 	name="Jane Margaret Meade Newman"
