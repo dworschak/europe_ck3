@@ -37,10 +37,21 @@
 	#	1947.1.1={
 	#		liege=e_brd_germany
 	#	}
-	1806.1.1 = {
-		holder = 100007809
-		law = succ_primogeniture
+	
+	#####
+	
+	1800.01.01 = {
+		remove_succession_laws = yes
+		succession_laws = {
+			male_only_law
+			single_heir_succession_law
+		}
 	}
+	
+	1800.2.2 = {de_jure_liege=e_germany}
+	1871.01.18={liege=e_germany}
+	
+	1806.1.1 = {holder = 100007809}
 	1825.10.13 = {holder=100007810}	# Ludwig I., 1825�1848	
 	1848.03.20 = {holder=100007811}	# Maximilian II. Joseph, 1848�1864
 	1864.03.10 = {holder=100007812}	# Ludwig II., 1864�1886 (1886 entm�ndigt)

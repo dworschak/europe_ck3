@@ -161,9 +161,9 @@ c_ile_de_france = {
 	1589.08.02 = {holder=100025411}	# HENRI IV | BOURBON
 	1610.05.14 = {holder=100208500}	# LOUIS XIII | BOURBON
 	1643.05.14 = {holder=100208502}	# LOUIS XIV | BOURBON
-	1715.09.01 = {holder=100208512}	# LOUIS XV
+	1715.09.01 = {holder=100026091}	# LOUIS XV
 	1774.05.10 = {holder=100208525}	# LOUIS XVI | BOURBON
-	1793.01.21 = {holder=100108530}	# LOUIS XVII
+	1793.01.21 = {holder=100025847}	# LOUIS XVII
 	1795.06.08 = {holder=0}
 	# BONAPARTE
 	1804.05.18 = {holder=100065054}	# NAPOLEON I | BONAPARTE
@@ -187,6 +187,7 @@ c_ile_de_france = {
 	1926.03.28 = {holder=100066658}	# JEAN III | ORLEANS
 	1940.08.25 = {holder=100066614}	# HENRI VI | ORLEANS
 	1999.06.19 = {holder=100066616}	# HENRI VII | ORLEANS
+	2019.01.21 = {holder=100066619}
 }
 c_amiens = {
 	840.1.1 = {
@@ -1066,6 +1067,14 @@ d_champagne = {
 		holder = 455500	# Philippe III
 		liege = "k_france"
 	}
+	
+	######
+	1800.1.1={liege=e_france}
+	
+	1852.01.01={holder=100065098}
+	1891.03.18={holder=100065099}
+	1926.05.03={holder=100065101}
+	1997.05.04={holder=100065104}
 }
 
 c_reims = {
@@ -1123,21 +1132,6 @@ c_reims = {
 	1324.1.1 = {holder=91185}	#Guillaume de Trie
 	1331.1.1 = {holder=91186}	#Jean II de Vienne
 }
-b_chatillon = {
-	980.1.1 = {holder=91190}
-	1020.1.1 = {holder=91189}
-	1050.1.1 = {holder=91188}
-	1080.1.1 = {holder=91187}
-	1100.1.1 = {holder=223600}
-	1135.1.6 = {holder=6702}
-	1148.6.19 = {holder=6700}
-	1170.1.1 = {holder=7482}
-	1219.1.1 = {holder=455774}
-	1248.4.9 = {holder=455775}
-	1261.1.4 = {holder=455786}
-	1289.3.12 = {holder=455787}
-	1317.4.6 = {holder=455790}
-}
 c_chalons = {
 	857.1.1 = {
 		holder = 303406	#Erchenrad bishop of Chalons in 857-868
@@ -1151,6 +1145,13 @@ c_chalons = {
 		holder = 398	#Philippe Ie de Champagne
 		government = feudal_government
 	}
+	
+	######
+	
+	1852.01.01={holder=100065098}
+	1891.03.18={holder=100065099}
+	1926.05.03={holder=100065101}
+	1997.05.04={holder=100065104}
 }
 c_meaux = {
 	#Should be Louis II, but he is currently holding an independant k_aquitaine in 867 (Aquitaine should be a part of West Francia at this time)
@@ -1879,4 +1880,111 @@ c_guines = {
 	1282.2.1 = {holder=32175}	#Baudouin IV
 	1293.1.1 = {holder=461746}	#Jean I de Brienne
 	1302.7.11 = {holder=455850}	#Raoul II
+}
+
+#########
+
+d_upper_lorraine = {
+	867.1.1 = {change_development_level=8}
+	1066.1.1 = {change_development_level=11}
+	903.1.1 = {holder=7961}	#Gebhard I Conradine
+	910.6.22 = {holder=7812}	#Reginar I
+	915.1.1 = {holder=7813}	#Giselbert I
+	939.10.2 = {holder=1292}	#Heinrich I
+	940.1.1 = {holder=144993}	#Otto I
+	942.1.1 = {liege=k_east_francia}
+	944.1.1 = {holder=1306}	#Konrad I
+	953.1.1 = {holder=1290}	#Bruno I
+	959.1.1 = {holder=11008}	#Friedrich I Wigeriche
+	978.5.18 = {holder=11004}	#Dietrich Wigeriche (22007)
+	1019.1.1 = {holder=11002}	#Friedrich II Wigeriche
+	1024.7.13 = {liege=e_hre}
+	1026.1.1 = {holder=7974}	#Friedrich III Wigeriche
+	1033.1.1 = {holder=11032}	#Gozelo Wigeriche (22007)
+	1044.4.19 = {holder=11030}	#Gottfried Wigeriche (22007)
+	1047.1.1 = {holder=6640}	#Adalbert Chatenois (667)
+	1048.11.11 = {holder=6642}	#Gerhard Chatenois (667)
+	1070.4.14 = {holder=6644}	#Dietrich Chatenois (667)
+	1115.12.30 = {holder=394999}	#Simon Chatenois (667)
+	1139.1.13 = {holder=212581}	#Matthias Chatenois (667)
+	1176.5.13 = {holder=212580}	#Simon Chatenois (667)
+	1206.4.1 = {holder=212583}	#Ferry Chatenois (667)
+	1207.4.7 = {holder=212594}	#Ferry Chatenois (667)
+	1213.10.8 = {holder=129005}	#Theobold Chatenois (667)
+	1220.1.2 = {holder=129006}	#Matthias Chatenois (667)
+	1251.2.9 = {holder=129008}	#Ferry Chatenois (667)
+	1302.12.31 = {holder=129010}	#Theobold Chatenois (667)
+	1312.5.13 = {holder=129013}	#Ferry Chatenois (667)
+	1328.8.23 = {holder=129014}	#Rudolf Chatenois (667)
+}
+
+c_nancy = {
+	732.1.1 = {liege=d_swabia}
+	732.1.1 = {holder=190361}	#Hadrad
+	760.1.1 = {holder=190362}	#Rothard
+	796.1.1 = {holder=7985}	#Welf
+	817.1.1 = {
+		liege = "k_lotharingia"
+		holder = 30227	#Lothair I
+	}
+	855.8.23 = {holder=144998}	#Lothair II
+	869.8.8 = {holder=90104}	#Charles I the Bald
+	877.6.10 = {holder=42019}	#Louis I the Younger
+	880.7.24 = {holder=31703}
+	890.1.2 = {holder=31704}
+	910.6.22 = {holder=31708}
+	923.1.1 = {liege=d_upper_lorraine}
+	930.1.2 = {holder=31709}
+	944.2.1 = {holder=31706}
+	963.6.1 = {holder=31707}
+	986.1.2 = {holder=6630}
+	1033.1.2 = {holder=6632}
+	1048.11.11 = {holder=6642}	#Gerhard Chatenois (667)
+	1070.4.14 = {holder=6644}	#Dietrich Chatenois (667)
+	1115.12.30 = {holder=394999}	#Simon Chatenois (667)
+	1139.1.13 = {holder=212581}	#Matthias Chatenois (667)
+	1176.5.13 = {holder=212580}	#Simon Chatenois (667)
+	1206.4.1 = {holder=212583}	#Ferry Chatenois (667)
+	1207.4.7 = {holder=212594}	#Ferry Chatenois (667)
+	1213.10.8 = {holder=129005}	#Theobold Chatenois (667)
+	1220.1.2 = {holder=129006}	#Matthias Chatenois (667)
+	1251.2.9 = {holder=129008}	#Ferry Chatenois (667)
+	1302.12.31 = {holder=129010}	#Theobold Chatenois (667)
+	1312.5.13 = {holder=129013}	#Ferry Chatenois (667)
+	1328.8.23 = {holder=129014}	#Rudolf Chatenois (667)
+}
+c_neufchateau = {
+	732.1.1 = {liege=d_swabia}
+	732.1.1 = {holder=190361}	#Hadrad
+	760.1.1 = {holder=190362}	#Rothard
+	796.1.1 = {holder=7985}	#Welf
+	817.1.1 = {
+		liege = "k_lotharingia"
+		holder = 30227	#Lothair I
+	}
+	855.8.23 = {holder=144998}	#Lothair II
+	869.8.8 = {holder=90104}	#Charles I the Bald
+	877.6.10 = {holder=42019}	#Louis I the Younger
+	880.7.24 = {holder=31703}
+	890.1.2 = {holder=31704}
+	910.6.22 = {holder=31708}
+	923.1.1 = {liege=d_upper_lorraine}
+	930.1.2 = {holder=31709}
+	944.2.1 = {holder=31706}
+	963.6.1 = {holder=31707}
+	986.1.2 = {holder=6630}
+	1033.1.2 = {holder=6632}
+	1048.11.11 = {holder=6642}	#Gerhard Chatenois (667)
+	1070.4.14 = {holder=6644}	#Dietrich Chatenois (667)
+	1115.12.30 = {holder=394999}	#Simon Chatenois (667)
+	1139.1.13 = {holder=212581}	#Matthias Chatenois (667)
+	1176.5.13 = {holder=212580}	#Simon Chatenois (667)
+	1206.4.1 = {holder=212583}	#Ferry Chatenois (667)
+	1207.4.7 = {holder=212594}	#Ferry Chatenois (667)
+	1213.10.8 = {holder=129005}	#Theobold Chatenois (667)
+	1220.1.2 = {holder=129006}	#Matthias Chatenois (667)
+	1251.2.9 = {holder=129008}	#Ferry Chatenois (667)
+	1302.12.31 = {holder=129010}	#Theobold Chatenois (667)
+	1312.5.13 = {holder=129013}	#Ferry Chatenois (667)
+	1328.8.23 = {holder=129014}	#Rudolf Chatenois (667)
 }

@@ -1,4 +1,6 @@
 ﻿k_hannover = {
+	1871.01.18={liege=e_germany}
+	
 	1760.10.25 = {holder=100001193}	# George | HANNOVER %%
 	1820.01.29 = {holder=100001194}	# George | HANNOVER %%
 	1830.06.26 = {holder=100001197}	# William | HANNOVER %%
@@ -14,7 +16,6 @@
 #########
 
 d_angria = {
-	800.1.1 = {liege=k_hannover}
 	700.1.1 = {
 		liege = k_saxony
 		de_jure_liege = k_saxony
@@ -47,42 +48,63 @@ d_angria = {
 	1260.10.7 = {holder=33336}
 	1282.1.1 = {holder=462101}
 	1298.5.24 = {holder=462100}
-	800.1.1 = {liege=k_saxony}
+	#####
+	1800.1.1 = {
+		de_jure_liege = k_hannover
+		liege = k_hannover
+	}
 }
 
-c_minden = {
+c_hannover = {
 	800.1.1 = {liege=d_angria}
-	761.1.1 = {holder=190457}	#Bruno
-	766.1.1 = {liege=d_angria}
+	761.1.1 = {liege=d_angria}
+	761.1.1 = {holder=190463}	#Amelung
 	#782.1.1 = {
 	#	holder = 0
 	#}
-	825.1.1 = {holder=7959}
-	844.1.1 = {liege=d_angria}
-	866.1.1 = {holder=144957}
-	880.2.2 = {holder=144955}
-	913.1.1 = {holder=106517}
-	960.1.24 = {holder=106518}
-	994.5.4 = {holder=10082}
-	1003.1.2 = {holder=106512}
-	1038.1.24 = {holder=106510}	#Ekbert I von Braunschweig
-	1066.1.1 = {holder=1416}
-	1068.1.1 = {holder=106515}	#Ekbert II von Braunschweig
-	1090.7.3 = {holder=112603}
-	1101.1.1 = {holder=30219}
+	844.1.1 = {
+		liege = "d_angria"
+		holder = 167757
+	}
+	889.1.1 = {holder=7908}
+	912.11.12 = {holder=1280}
+	936.7.2 = {holder=1282}
+	961.1.1 = {holder=1410}
+	963.3.27 = {holder=1412}
+	1011.2.9 = {holder=1414}
+	1059.6.29 = {holder=1416}
+	1066.1.1 = {holder=144202}
+	1072.3.28 = {holder=1418}
+	1106.1.2 = {holder=30219}
 	1137.12.4 = {holder=212602}
-	1139.10.20 = {holder=212600}
+	1139.10.20 = {holder=212908}
+	1142.1.1 = {holder=212600}
 	1180.9.16 = {liege=e_hre}
 	1195.8.6 = {holder=462801}
-	1213.12.13 = {
-		liege = d_angria
-		holder = 462802
-	}
+	1213.12.13 = {holder=462802}
 	1235.1.1 = {liege=d_angria}
 	1252.1.1 = {holder=462803}
-	1279.1.1 = {holder=462805}
-	1322.9.7 = {holder=462808}
+	#Landgraves of Hesse
+	1263.1.1 = {holder=33391}
+	1308.12.21 = {holder=33394}
+	1328.1.17 = {holder=33401}
 	800.1.1 = {liege=d_angria}
+}
+c_bentheim = {
+	1700.01.01 = {liege=k_hannover}
+	1817.08.20 = {holder=100000913}
+	1866.11.03 = {holder=100000914}
+	1890.09.28 = {holder=100000329}
+	1919.01.21 = {holder=100000332}
+	1961.06.04 = {holder=100000334}
+}
+b_bentheim = {
+	1205.1.1 = {holder=31066}
+	1209.2.13 = {holder=31798}
+	1248.5.9 = {holder=31799}
+	1279.1.1 = {holder=31800}
+	1307.6.25 = {holder=31801}
+	1333.7.21 = {holder=31802}
 }
 c_bremen = {
 	800.1.1 = {liege=d_angria}
@@ -120,40 +142,9 @@ c_bremen = {
 	1327.5.30 = {holder=420251}	#Burchard Grelle
 	800.1.1 = {liege=d_angria}
 }
-c_hannover = {
-	800.1.1 = {liege=d_angria}
-	761.1.1 = {liege=d_angria}
-	761.1.1 = {holder=190463}	#Amelung
-	#782.1.1 = {
-	#	holder = 0
-	#}
-	844.1.1 = {
-		liege = "d_angria"
-		holder = 167757
-	}
-	889.1.1 = {holder=7908}
-	912.11.12 = {holder=1280}
-	936.7.2 = {holder=1282}
-	961.1.1 = {holder=1410}
-	963.3.27 = {holder=1412}
-	1011.2.9 = {holder=1414}
-	1059.6.29 = {holder=1416}
-	1066.1.1 = {holder=144202}
-	1072.3.28 = {holder=1418}
-	1106.1.2 = {holder=30219}
-	1137.12.4 = {holder=212602}
-	1139.10.20 = {holder=212908}
-	1142.1.1 = {holder=212600}
-	1180.9.16 = {liege=e_hre}
-	1195.8.6 = {holder=462801}
-	1213.12.13 = {holder=462802}
-	1235.1.1 = {liege=d_angria}
-	1252.1.1 = {holder=462803}
-	#Landgraves of Hesse
-	1263.1.1 = {holder=33391}
-	1308.12.21 = {holder=33394}
-	1328.1.17 = {holder=33401}
-	800.1.1 = {liege=d_angria}
+c_diepholz = {
+}
+c_emsland = {
 }
 c_hildesheim = {
 	800.1.1 = {liege=d_angria}
@@ -301,40 +292,6 @@ c_stade = {
 	1327.5.30 = {holder=420251}	#Burchard Grelle
 	800.1.1 = {liege=d_holstein}
 }
-c_tecklenburg = {
-	800.1.1 = {liege=d_westfalen}
-	741.1.1 = {liege=d_westfalen}
-	741.1.1 = {holder=190462}	#Billung
-	844.1.1 = {
-		liege = "d_westfalen"
-		holder = 7959
-	}
-	860.1.1 = {holder=167784}
-	1057.1.1 = {holder=20224}	#Benno von Osnabruck
-	1067.12.3 = {holder=30335}	#Benno von LÃ¶hningen
-	1088.7.27 = {holder=30336}	#Markward von Corvey
-	1093.1.1 = {holder=30337}	#Wicho von Osnabruck
-	1101.4.21 = {holder=30338}	#Johann von Osnabruck
-	1110.7.13 = {holder=30339}	#Gottschalk von Diepholz
-	1113.1.1 = {holder=30352}
-	1150.2.4 = {holder=30351}
-	1156.11.22 = {holder=30350}
-	1202.8.8 = {holder=31803}
-	1263.9.11 = {holder=31805}
-	1279.1.1 = {holder=31806}
-	1285.1.1 = {holder=31807}
-	1307.5.3 = {holder=33285}
-	1328.5.4 = {holder=33288}
-	800.1.1 = {liege=d_westfalen}
-}
-b_bentheim = {
-	1205.1.1 = {holder=31066}
-	1209.2.13 = {holder=31798}
-	1248.5.9 = {holder=31799}
-	1279.1.1 = {holder=31800}
-	1307.6.25 = {holder=31801}
-	1333.7.21 = {holder=31802}
-}
 c_wolpe = {
 	800.1.1 = {liege=d_angria}
 	761.1.1 = {liege=d_angria}
@@ -385,7 +342,50 @@ c_wolpe = {
 
 #########
 
+d_brunswick = {
+}
+
+c_brunswick = {
+	761.1.1 = {holder=190457}	#Bruno
+	766.1.1 = {liege=d_ostfalen}
+	#782.1.1 = {
+	#	holder = 0
+	#}
+	825.1.1 = {holder=7959}
+	844.1.1 = {liege=d_ostfalen}
+	866.1.1 = {holder=144957}
+	880.2.2 = {holder=144955}
+	913.1.1 = {holder=106517}
+	960.1.24 = {holder=106518}
+	994.5.4 = {holder=10082}
+	1003.1.2 = {holder=106512}
+	1038.1.24 = {holder=106510}	#Ekbert I von Braunschweig
+	1066.1.1 = {holder=2015}
+	1068.1.1 = {holder=106515}	#Ekbert II von Braunschweig
+	1090.7.3 = {holder=112603}
+	1101.1.1 = {holder=30219}
+	1137.12.4 = {holder=212602}
+	1139.10.20 = {holder=212600}
+	1180.9.16 = {liege=e_hre}
+	1195.8.6 = {holder=462801}
+	1213.12.13 = {
+		liege = d_ostfalen
+		holder = 462802
+	}
+	1235.1.1 = {liege=d_ostfalen}
+	1252.1.1 = {holder=462803}
+	1279.1.1 = {holder=462805}
+	1322.9.7 = {holder=462808}
+	800.1.1 = {liege=d_ostfalen}
+	800.1.1 = {liege=d_ostfalen}
+}
+
+#########
+
 d_oldenburg = {
+
+	1871.1.1={liege=k_hannover}
+
 	1773.01.01 = {holder=100003241}	# FRIEDRICH AUGUST | OLDENBURG
 	1785.07.06 = {holder=100003242}	# WILHELM | OLDENBURG
 	1823.07.02 = {holder=100003247}	# PETER | OLDENBURG
@@ -447,7 +447,6 @@ c_cloppenburg = {
 #########
 
 d_ostfalen = {
-	800.1.1 = {liege=k_hannover}
 	700.1.1 = {
 		liege = k_saxony
 		de_jure_liege = k_saxony
@@ -483,7 +482,11 @@ d_ostfalen = {
 	1260.10.7 = {holder=33336}
 	1282.1.1 = {holder=462101}
 	1298.5.24 = {holder=462100}
-	800.1.1 = {liege=k_saxony}
+	#####
+	1800.1.1 = {
+		de_jure_liege = k_hannover
+		liege = k_hannover
+	}
 }
 
 c_luneburg = {
@@ -520,8 +523,6 @@ c_luneburg = {
 	1330.4.10 = {holder=462835}
 	800.1.1 = {liege=d_ostfalen}
 }
-c_braunschweig = {
-}
 c_dannenberg = {
 	800.1.1 = {liege=d_ostfalen}
 	867.1.1 = {change_development_level=6}
@@ -556,74 +557,37 @@ c_dannenberg = {
 	1330.4.10 = {holder=462835}
 	800.1.1 = {liege=d_ostfalen}
 }
-c_hamburg = {
-	800.1.1 = {liege=d_ostfalen}
-	867.1.1 = {change_development_level=8}
-	1066.1.1 = {change_development_level=12}
-	740.1.1 = {
-		holder = 190455	#Theoderic
-		liege = d_angria
-	}
-	#781.1.1 = {
+c_gottingen = {
+	800.1.1 = {liege=d_thuringia}
+	761.1.1 = {liege=d_ostfalen}
+	761.1.1 = {holder=190463}	#Amelung
+	#782.1.1 = {
 	#	holder = 0
 	#}
-	865.2.3 = {holder=163117}
-	1043.4.15 = {
-		government = theocracy_government
-		holder = 20251	#Adalbert Goseck
+	844.1.1 = {
+		liege = "d_ostfalen"
+		holder = 167757
 	}
-	1072.3.16 = {holder=30300}	#Liemar von Goslar
-	1101.5.16 = {holder=30301}	#Humbert von Bremen
-	1104.1.1 = {holder=30302}	#Friedrich von Bremen
-	1123.1.29 = {holder=30303}	#Adalbero von Bremen
-	1123.1.29 = {liege=e_hre}
-	1148.8.25 = {holder=30241}	##Hartwig Staden
-	1168.3.15 = {holder=30304}	#Baldewin von Bremen
-	1178.6.18 = {holder=30305}	#Bertram von Köln
-	1180.1.1 = {holder=30306}	#Siegfried Askanien
-	1184.10.24 = {holder=231040}	#Hartwig von Utlede
-	1207.11.3 = {holder=201548}	#Valdemar Knudsson of Denmark
-	1210.1.1 = {holder=30070}	#Gerhard von Oldenburg
-	1219.8.13 = {holder=30307}	#Gerhard von der Lippe
-	1224.1.1 = {liege=d_holstein}
-	1224.1.1 = {holder=212360}	#Adolf III
-	1225.1.3 = {holder=31752}	#Adolf IV
-	1261.7.8 = {holder=451975}	#Gerhard I
-	1290.12.21 = {holder=451945}	#Heinrich I
-	1304.8.5 = {holder=451940}	#Gerhard II
-	800.1.1 = {liege=d_ostfalen}
-}
-c_stendal = {
-	800.1.1 = {liege=d_ostfalen}
-	867.1.1 = {change_development_level=6}
-	1066.1.1 = {change_development_level=9}
-	740.1.1 = {
-		holder = 190455	#Theoderic
-		liege = d_angria
-	}
-	#781.1.1 = {
-	#	holder = 0
-	#}
-	825.1.1 = {holder=7959}
-	866.1.1 = {holder=7908}
+	889.1.1 = {holder=7908}
 	912.11.12 = {holder=1280}
 	936.7.2 = {holder=1282}
 	961.1.1 = {holder=1410}
 	963.3.27 = {holder=1412}
 	1011.2.9 = {holder=1414}
 	1059.6.29 = {holder=1416}
-	1066.1.1 = {holder=20247}
+	1066.1.1 = {holder=30209}
 	1072.3.28 = {holder=1418}
-	1088.1.1 = {holder=30219}
+	1106.1.2 = {holder=30219}
 	1137.12.4 = {holder=212602}
 	1139.10.20 = {holder=212908}
 	1142.1.1 = {holder=212600}
 	1180.9.16 = {liege=e_hre}
 	1195.8.6 = {holder=462801}
 	1213.12.13 = {holder=462802}
-	1220.1.1 = {liege=d_angria}
-	1252.1.1 = {holder=462832}
-	1277.1.1 = {holder=462834}
-	1330.4.10 = {holder=462835}
-	800.1.1 = {liege=d_ostfalen}
+	1235.1.1 = {liege=d_ostfalen}
+	1252.1.1 = {holder=462803}
+	#Landgraves of Hesse
+	1263.1.1 = {holder=33391}
+	1308.12.21 = {holder=33394}
+	1328.1.17 = {holder=33401}
 }

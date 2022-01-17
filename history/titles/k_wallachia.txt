@@ -1,11 +1,15 @@
 ﻿k_wallachia = {
-	800.1.1 = {liege=e_carpathia}
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=7}
+	
+	1822.01.01={holder=ghika_009}
+	1834.04.29={holder=ghika_011}
+	1842.01.01={holder=0}
 }
 
 #########
 
 d_muntenia = {
-	800.1.1 = {liege=k_wallachia}
 	860.1.1 = {
 		holder = bolghar_000001
 		liege = k_bulgaria
@@ -13,10 +17,45 @@ d_muntenia = {
 	898.12.30 = {holder=0}
 }
 
-c_bucuresti  = {
+c_bucuresti = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		holder = 70382	#Boris
+		liege = k_bulgaria
+		government = tribal_government
+	}
+	860.1.1 = {
+		#holder = 168067 #Gavril
+		holder = bolghar_000001	#Given to a fictious local Vlach for governmental neatness.
+		liege = d_muntenia
+	}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+		holder = 302104	#fictional Claudiu
+		liege = k_pechenegs
+	}
+	###Cumans rules from 1091 to 1241
+	1097.2.8 = {holder=302105}	#fictional Ciubar
+	1125.8.7 = {holder=302106}	#fictional Valeriu
+	1156.2.20 = {holder=302107}	#fictional Iacob
+	1184.5.9 = {holder=302108}	#fictional Tudor
+	###Post-Cuman rule
+	1241.1.1 = {holder=228027}
+	1248.1.1 = {holder=34800}
+	1277.1.1 = {holder=34801}
+	1290.1.1 = {holder=475560}
+	1300.1.2 = {holder=475550}
+	1332.1.1 = {holder=475553}
+	#####
+	1881.03.15 = {holder=100002240}	# Carol I
+	1914.10.10 = {holder=100002246}	# Ferdinand I
+	1927.07.20 = {holder=100002252}	# Michael I (1st)
+	1930.06.08 = {holder=100002247}	# Carol II
+	1940.09.06 = {holder=100002252}	# Michael I (2nd)
+	2017.12.05 = {holder=100002249}
 }
 c_braila = {
-	800.1.1 = {liege=d_muntenia}
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382	#Boris
@@ -49,7 +88,6 @@ c_braila = {
 	1332.1.1 = {holder=475553}
 }
 c_buzau = {
-	800.1.1 = {liege=d_muntenia}
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382	#Boris
@@ -82,7 +120,6 @@ c_buzau = {
 	1332.1.1 = {holder=475553}
 }
 c_calarasi = {
-	800.1.1 = {liege=d_muntenia}
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382	#Boris
@@ -114,7 +151,6 @@ c_calarasi = {
 	1332.1.1 = {holder=475553}
 }
 c_giurgiu = {
-	800.1.1 = {liege=d_muntenia}
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382	#Boris
@@ -290,7 +326,6 @@ d_transylvanian_alps = {
 }
 
 c_campulung = {
-	800.1.1 = {liege=d_transylvanian_alps}
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382	#Boris

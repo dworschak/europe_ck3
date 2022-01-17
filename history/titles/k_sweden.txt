@@ -38,6 +38,12 @@
 	1290.12.18 = {holder=450504}	# Birger Magnusson
 	1319.7.8 = {holder=450500}	# Magnus Eriksson
 	########
+	1980.1.1 = {
+		remove_succession_laws = yes
+		succession_laws = {
+	male_only
+}
+	}
 	## House of Bj�lbo
 	1356.10.17 = {holder=100201780}	# Erik XII Magnusson 							17 October 1356 � 20 June 1359 (rival king until 1359; joint-rule with father months before death) | BJALBO
 	1362.02.15 = {holder=100201781}	# H�kan Magnusson 								15 February 1362 � 15 February 1364 (joint-rule with father) | BJALBO
@@ -85,11 +91,67 @@
 	1907.12.08 = {holder=100012002}	# GUSTAF V | BERNADOTTE
 	1950.10.29 = {holder=100012057}	# GUSTAF VI ADOLF | BERNADOTTE
 	1973.09.15 = {holder=100012006}	# CARL XVI GUSTAF | BERNADOTTE
+	1980.1.1 = {
+		remove_succession_laws = yes
+		succession_laws = {
+	equal_law
+}
+	}
 }
 
 #########
 
-d_uppland = {
+d_svealand = {
+	600.1.1 = {
+		holder = 194032
+		government = tribal_government
+	}
+	650.1.1 = {holder=194031}
+	680.1.1 = {holder=194030}
+	700.1.1 = {holder=194029}
+	729.1.1 = {holder=194028}
+	761.1.1 = {holder=194004}
+	#845.1.1 = {
+	#	holder = 163109
+	#}
+	860.1.1 = {holder=163108}
+	880.1.1 = {holder=100500}
+	900.1.1 = {holder=100501}
+	932.1.1 = {holder=163106}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	950.1.1 = {holder=163107}
+	970.1.1 = {liege=k_sweden}
+	995.1.2 = {holder=100506}	# Olof Sk�tkonung
+	1022.1.7 = {holder=100508}	# Anund Jakob "Kolbr�nna"
+	1050.1.16 = {holder=100509}	# Emund den Gamle, aka "Emund Slemme"
+	1060.8.2 = {holder=100546}	# Erik the Heathen
+	1066.9.25 = {liege=0}
+	1067.12.20 = {
+		liege = "k_sweden"
+		holder = 100523	# Halsten
+	}
+	1070.12.1 = {holder=100526}	# H�kan R�de
+	1080.12.1 = {holder=100524}	# Inge the Older
+	1100.1.8 = {holder=100550}	# Filip, son of 100523 (Halsten)
+	1118.6.6 = {holder=100551}	# Inge the Younger, son of 100523 (Halsten)
+	1125.6.6 = {holder=100552}	# Ragnvald "Knaph�vde", possibly a son of 100524 (Inge the Older)
+	1126.6.6 = {holder=101531}	# Magnus Nilsson, son of Danish King Nils and Inge the Older's daughter Margareta
+	1134.6.4 = {holder=200600}	# Sverker the Older
+	1156.12.25 = {holder=200490}	# Erik "the Holy"
+	1160.6.6 = {holder=100553}	# Magnus Henriksson, son of Danish prince Henrik 'Skadel�r'
+	1161.6.6 = {holder=200602}	# Karl Sverkersson, son of Sverker the Older
+	1167.4.12 = {holder=200608}	# Kol Sverkersson, son of Sverker the Older
+	1173.1.1 = {holder=200500}	# Knut Eriksson
+	1195.1.1 = {holder=200604}	# Sverker den Yngre, son of 200602 - Karl Sverkersson
+	1208.1.31 = {holder=200504}	# Erik Knutsson, son of 200500, Knut Eriksson
+	1216.4.10 = {holder=200609}	# Johan, son of Sverker (200604)
+	1222.3.10 = {holder=200507}	# Erik 'den L�spe och Halte'
+	1229.11.29 = {holder=200508}	# Knut Holmgersson 'den L�nge'
+	1234.6.6 = {holder=200507}	# Erik 'den L�spe och Halte', reinstated
+	1250.2.2 = {holder=450506}	# Valdemar Birgersson
+	1275.7.22 = {holder=450502}	# Magnus 'Ladul�s'
+	1290.12.18 = {holder=450504}	# Birger Magnusson
+	1319.7.8 = {holder=450500}	# Magnus Eriksson
 }
 
 c_upland = {
@@ -135,38 +197,6 @@ c_upland = {
 	1275.7.22 = {holder=450502}	# Magnus 'Ladul�s'
 	1290.12.18 = {holder=450504}	# Birger Magnusson
 	1319.7.8 = {holder=450500}	# Magnus Eriksson
-}
-c_aland = {
-	761.1.1 = {
-		holder = 194060
-		liege = d_svealand
-		government = tribal_government
-	}
-	860.1.1 = {holder=6840}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1066.1.1 = {holder=20006}
-	1067.12.20 = {liege=0}
-	1089.1.1 = {holder=143136}
-	1139.1.1 = {holder=143137}
-	1158.1.1 = {
-		liege = "k_sweden"	# Erik the Holy's crusade
-		holder = 200017
-	}
-	1200.1.1 = {holder=200604}	# Sverker den Yngre, son of 200602 - Karl Sverkersson
-	1208.1.31 = {holder=200504}	# Erik Knutsson, son of 200500, Knut Eriksson
-	1216.4.10 = {holder=200609}	# Johan, son of Sverker (200604)
-	1222.3.10 = {holder=200507}	# Erik 'den L�spe och Halte'
-	1229.11.29 = {holder=200508}	# Knut Holmgersson 'den L�nge'
-	1234.6.6 = {holder=200507}	# Erik 'den L�spe och Halte', reinstated
-	1250.2.2 = {holder=450506}	# Valdemar Birgersson
-	1275.7.22 = {holder=450502}	# Magnus 'Ladul�s'
-	1290.12.18 = {holder=450504}	# Birger Magnusson
-	1302.1.1 = {
-		liege = "d_finland"
-		holder = 450607	# Valdemar Magnusson
-	}
-	1318.2.16 = {holder=450504}	# King Birger
-	1321.1.1 = {holder=450710}
 }
 c_gastrikland = {
 	761.1.1 = {
@@ -244,6 +274,79 @@ c_sodermannaland = {
 	##
 	1300.1.1 = {holder=450611}
 	1322.1.1 = {holder=450610}
+}
+
+#########
+
+d_aarjetje = {
+	867.1.1 = {
+		holder = 167728
+		government = tribal_government
+	}
+	1066.1.1 = {holder=0}
+}
+
+c_sjeltie = {
+	760.1.1 = {
+		holder = 194025
+		government = tribal_government
+	}
+	#770.1.1 = {
+	#	holder = 0
+	#}
+	867.1.1 = {holder=167728}
+	1066.1.1 = {holder=20015}
+	1070.1.1 = {holder=143142}
+	1140.1.1 = {holder=143143}
+	1187.1.1 = {holder=200001}
+	1220.1.1 = {holder=143144}
+	1270.1.1 = {holder=143145}
+	1310.1.1 = {liege=k_sweden}
+	1310.1.1 = {holder=487070}
+}
+c_jahkamahkke = {
+}
+c_pite = {
+	760.1.1 = {
+		holder = 194025
+		government = tribal_government
+	}
+	#770.1.1 = {
+	#	holder = 0
+	#}
+	867.1.1 = {
+		liege = d_aarjetje
+		holder = 167725
+	}
+	1066.1.1 = {holder=sami_000007}
+	1070.1.1 = {holder=143142}
+	1140.1.1 = {holder=143143}
+	1187.1.1 = {holder=200001}
+	1220.1.1 = {holder=143144}
+	1270.1.1 = {holder=143145}
+	1310.1.1 = {liege=k_sweden}
+	1310.1.1 = {holder=487070}
+}
+c_ubmejeiednuo = {
+	760.1.1 = {
+		holder = 194025
+		government = tribal_government
+	}
+	#770.1.1 = {
+	#	holder = 0
+	#}
+	867.1.1 = {
+		liege = d_aarjetje
+		holder = 167725
+	}
+	1066.1.1 = {holder=20015}
+	1070.1.1 = {holder=143142}
+	1140.1.1 = {holder=143143}
+	1187.1.1 = {holder=200001}
+	1220.1.1 = {holder=143144}
+	1270.1.1 = {holder=143145}
+	1310.1.1 = {liege=k_sweden}
+	1310.1.1 = {holder=487070}
 }
 
 #########
@@ -356,7 +459,64 @@ d_gotland = {
 	1285.1.1 = {holder=0}
 }
 
-c_gotland = {
+c_gutland = {
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=10}
+	760.1.1 = {
+		holder = 194007
+		government = tribal_government
+	}
+	790.1.1 = {holder=194046}
+	830.1.1 = {holder=194047}
+	842.1.1 = {holder=194048}
+	860.1.1 = {holder=41267}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {
+		liege = "d_gotland"
+		government = republic_government
+	}
+	#republic of Gotland
+	1066.1.1 = {holder=100536}	#Botstain af Stenkyrka
+	1072.1.1 = {holder=167316}	#Kettil Guldsmed
+	1076.1.1 = {holder=167331}	#Tolir Hejnum
+	1080.1.1 = {holder=167362}	#Dyre Straben
+	1084.1.1 = {holder=167345}	#Hakan Gildehusen
+	1088.1.1 = {holder=100536}	#Botstain af Stenkyrka
+	1092.1.1 = {holder=167318}	#Tjudmund Guldsmed
+	1097.1.1 = {
+		liege = "k_sweden"
+		holder = 100524	# Inge the Older
+	}
+	1100.1.8 = {holder=100550}	# Filip, son of 100523 (Halsten)
+	1118.6.6 = {holder=100551}	# Inge the Younger, son of 100523 (Halsten)
+	1125.6.6 = {holder=100552}	# Ragnvald "Knaph�vde", possibly a son of 100524 (Inge the Older)
+	1126.6.6 = {holder=101531}	# Magnus Nilsson, son of Danish King Nils and Inge the Older's daughter Margareta
+	1134.6.4 = {holder=200600}	# Sverker the Older
+	1156.12.25 = {holder=200490}	# Erik "the Holy"
+	1160.6.6 = {holder=100553}	# Magnus Henriksson, son of Danish prince Henrik 'Skadel�r'
+	# Republic of Gotland
+	1161.6.6 = {
+		de_jure_liege = d_gotland
+		liege = d_gotland
+		holder = 167352
+	}
+	1173.1.1 = {holder=167372}
+	1187.1.1 = {holder=167340}	#Sverker Hejnum
+	1189.1.1 = {holder=167372}	#Ragnvald Straben
+	1191.1.1 = {holder=167353}	#Sigurd Gildehusen
+	1193.1.1 = {holder=167306}	#Brynjolf af Stenkyrka
+	1195.1.1 = {holder=167324}	#Jedvard Guldsmed
+	1197.1.1 = {holder=167306}
+	1200.1.1 = {holder=167310}
+	1210.1.1 = {holder=194282}
+	1255.1.1 = {holder=194278}
+	1285.1.1 = {
+		de_jure_liege = d_smaland
+		liege = k_sweden
+		holder = 450502	# Magnus 'Ladul�s'
+	}
+	1290.12.18 = {holder=450504}	# Birger Magnusson
+	1319.7.8 = {holder=450500}	# Magnus Eriksson
 }
 
 #########
@@ -1222,4 +1382,54 @@ c_skara = {
 	1321.1.1 = {holder=242524}	# Erik
 	1322.1.1 = {holder=242525}	# Peder
 	1336.1.1 = {holder=242526}	# Gunnar
+}
+
+#########
+
+d_vuovdisamieana = {
+}
+
+c_biton = {
+	760.1.1 = {
+		holder = 194025
+		government = tribal_government
+	}
+	#770.1.1 = {
+	#	holder = 0
+	#}
+	867.1.1 = {
+		liege = d_aarjetje
+		holder = 167725
+	}
+	1066.1.1 = {holder=sami_000008}
+	1070.1.1 = {holder=143142}
+	1140.1.1 = {holder=143143}
+	1187.1.1 = {holder=200001}
+	1220.1.1 = {holder=143144}
+	1270.1.1 = {holder=143145}
+	1310.1.1 = {liege=k_sweden}
+	1310.1.1 = {holder=487070}
+}
+c_julevadno = {
+	867.1.1 = {
+		liege = 0
+		holder = sami_000013
+		government = tribal_government
+	}
+	1066.1.1 = {holder=sami_000014}
+}
+c_siggevara = {
+	867.1.1 = {
+		holder = sami_000003
+		government = tribal_government
+	}
+	1066.1.1 = {holder=sami_000005}
+}
+c_torne = {
+	867.1.1 = {
+		liege = 0
+		holder = sami_000013
+		government = tribal_government
+	}
+	1066.1.1 = {holder=sami_000014}
 }

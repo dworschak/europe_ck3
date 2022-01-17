@@ -1,14 +1,17 @@
 ﻿k_austria = {
 	#800.1.1={
-	#	liege=e_germania
+	#	liege=e_germany
 	#}
 	#1.1.1={
-	#	de_jure_liege=e_germania
+	#	de_jure_liege=e_germany
 	#}
 	1500.01.01 = {
 		succession_laws = {
-	male_only_law
-}
+			male_only_law
+		}
+	}
+	500.1.1 = {
+		de_jure_liege = e_hre
 	}
 	1800.1.1 = {
 		de_jure_liege = e_austria
@@ -156,57 +159,6 @@ c_vienna = {
 	1916.11.21 = {holder=100020066}	# KARL | HABSBURG
 	1922.04.01 = {holder=100020068}	# OTTO | HABSBURG
 	2011.07.04 = {holder=100020081}	# KARL | HABSBURG
-}
-c_amstetten = {
-	758.1.1 = {liege=k_bavaria}
-	758.1.1 = {holder=190374}	#Trozza
-	788.1.1 = {
-		liege = "k_bavaria"
-		holder = 6392	#Charlemagne
-	}
-	814.1.28 = {holder=30227}	#Lothair I
-	817.1.1 = {holder=90095}	#Louis I the Pious
-	829.1.1 = {holder=90107}	#Louis II the German
-	840.1.1 = {holder=167795}	#Wilhelm I
-	853.1.16 = {
-		holder = 167796	#Wilhelm II
-		liege = "d_bavaria"
-	}
-	871.1.1 = {holder=167797}	#Megingoz
-	884.1.1 = {holder=167800}	#Wilhelm III
-	893.1.1 = {holder=167801}	#Engelschalk I
-	895.1.1 = {liege=d_bavaria}
-	895.1.1 = {holder=7969}
-	907.1.1 = {holder=10097}
-	937.7.14 = {holder=7970}
-	938.1.1 = {holder=7971}
-	948.1.1 = {holder=1292}
-	955.1.1 = {holder=1294}
-	976.1.1 = {liege=d_osterreich}
-	976.1.1 = {holder=10084}
-	994.1.1 = {holder=7973}
-	1018.6.23 = {holder=10093}
-	1055.5.26 = {holder=7200}
-	1066.1.1 = {
-		liege = d_steyermark
-		holder = 260016
-	}
-	1075.6.10 = {holder=212548}
-	1095.10.12 = {holder=212546}
-	1136.1.31 = {holder=7685}
-	1141.10.18 = {holder=212540}
-	1177.1.13 = {holder=212530}
-	1194.12.31 = {holder=212532}
-	1198.4.16 = {holder=212533}
-	1230.7.28 = {holder=7698}
-	1246.6.15 = {holder=96047}
-	1247.1.3 = {holder=7520}
-	1250.10.4 = {holder=7524}
-	1251.1.1 = {holder=96001}
-	1278.8.26 = {holder=462021}
-	1282.1.1 = {holder=462023}
-	1308.5.1 = {holder=462025}
-	1330.2.14 = {holder=462020}
 }
 c_hohenau = {
 	758.1.1 = {liege=k_bavaria}
@@ -398,6 +350,8 @@ c_sankt_polten = {
 	1282.1.1 = {holder=462023}
 	1308.5.1 = {holder=462025}
 	1330.2.14 = {holder=462020}
+}
+c_waidhofen = {
 }
 c_zwettl = {
 }
@@ -598,6 +552,15 @@ d_krain = {
 	1295.10.1 = {holder=462714}
 	1310.3.28 = {holder=462720}
 	1335.4.2 = {holder=462035}
+	
+	1500.1.1={liege=k_austria}
+	1919.1.1={
+		de_jure_liege=k_slovenia
+		liege=e_jugoslavija
+	}
+	1990.1.1={
+		liege=k_slovenia
+	}
 }
 
 c_ljubljana = {
@@ -634,7 +597,11 @@ c_ljubljana = {
 	1295.10.1 = {holder=7634}
 	1304.9.7 = {holder=7635}
 	1323.4.24 = {holder=33496}
+	
 	#####
+	1500.1.1 = {liege=k_austria}
+	1918.1.1 = {liege=k_slovenia}
+	
 	1650.01.01 = {holder=100021920}	# Johann Weikhard | AUERSPERG %%
 	1677.11.11 = {holder=100021921}	# Johann Ferdinand | AUERSPERG %%
 	1705.08.06 = {holder=100021923}	# Franz Karl | AUERSPERG %%
@@ -731,9 +698,10 @@ c_kranj = {
 #########
 
 d_oberosterreich = {
+	1600.1.1 = {liege=k_austria}
 }
 
-c_linz = {
+c_schaunberg = {
 	867.1.1 = {change_development_level=8}
 	1066.1.1 = {change_development_level=12}
 	753.1.1 = {holder=190368}	#Fagulf
@@ -758,6 +726,23 @@ c_linz = {
 	1290.8.3 = {holder=144580}
 	1312.3.28 = {holder=144581}
 	1315.10.6 = {holder=487010}
+	#####
+	1600.1.1 = {liege=k_austria}
+	1765.11.18 = {holder=100094745}
+	1807.04.19 = {holder=100099321}
+	1833.09.21 = {holder=100093185}
+	1860.04.07 = {holder=100023002}
+	1872.06.09 = {holder=100023008}	# CAMILLO
+	1900.02.03 = {holder=100023017}	# ERNST RÜDIGER
+	1927.11.16 = {holder=100023019}	# ERNST RÜDIGER
+	1956.03.15 = {holder=100023021}	# HEINRICH
+	1997.01.30 = {holder=100023031}	# GEORG ADAM
+}
+c_hallstatt = {
+	1600.1.1 = {liege=k_austria}
+}
+c_innviertel = {
+	1600.1.1 = {liege=k_austria}
 }
 c_freistadt = {
 	758.1.1 = {liege=k_bavaria}
@@ -806,33 +791,36 @@ c_freistadt = {
 	1282.1.1 = {holder=462023}
 	1308.5.1 = {holder=462025}
 	1330.2.14 = {holder=462020}
+
+	######
+
+	1600.1.1 = {liege=k_austria}
+	1679.01.01 = {holder=100104033}
+	1702.02.20 = {holder=ungnad_008}
+	1781.12.30 = {holder=ungnad_007}
+	1784.02.18 = {holder=ungnad_009}
+	1820.01.01 = {holder=100101534}
+	1855.04.27 = {holder=ungnad_001}
+	1872.12.16 = {holder=ungnad_002}
+	1912.10.24 = {holder=ungnad_005}
+	1915.05.17 = {holder=ungnad_005}
+	1916.09.29 = {holder=100035949}
+	1962.04.28 = {holder=100004010}
+	1970.04.12 = {holder=100004013}
+	2009.01.02 = {holder=100004015}
 }
-c_hallstatt = {
-	800.1.1 = {liege=d_salzburg}
-}
-c_schaumberg = {
-	753.1.1 = {holder=190368}	#Fagulf
-	859.1.1 = {
-		holder = 163056
-		liege = "d_bavaria"
-	}
-	1066.1.1 = {
-		holder = 20259
-		liege = k_bavaria
-	}
-	1090.1.1 = {holder=33410}
-	1101.9.28 = {holder=93833}
-	1147.4.9 = {holder=93834}
-	1164.6.22 = {holder=144190}
-	1168.1.1 = {holder=212858}
-	1200.1.1 = {holder=144575}
-	1257.1.1 = {holder=144577}
-	1265.1.1 = {holder=125928}
-	1270.4.27 = {holder=144578}
-	1284.4.7 = {holder=144579}
-	1290.8.3 = {holder=144580}
-	1312.3.28 = {holder=144581}
-	1315.10.6 = {holder=487010}
+c_wels = {
+	1600.1.1 = {liege=k_austria}
+	1730.01.01 = {holder=100024080}
+	1744.12.11 = {holder=100024082}
+	1791.01.11 = {holder=100024090}
+	1820.07.28 = {holder=100024092}
+	1867.10.09 = {holder=100024093}
+	1877.02.13 = {holder=100024095}
+	1909.01.01 = {holder=100024097}
+	1917.01.01 = {holder=100024138}
+	1965.09.25 = {holder=100024139}
+	1997.08.29 = {holder=100024147}
 }
 
 #########
@@ -880,7 +868,7 @@ d_salzburg = {
 	1805.01.01 = {liege=k_austria}
 	1654.01.01 = {holder=100023583}	# 1654–1668: Guidobald 					von Thun und Hohenstein
 	1687.01.01 = {holder=100023584}	# 1687–1709: Johann Ernst 				von Thun und Hohenstein
-	1772.01.01 = {holder=100024998} # 1772–1812: Hieronymus 	 			von Colloredo
+	1772.01.01 = {holder=100024998}	# 1772–1812: Hieronymus 	 			von Colloredo
 	1812.01.01 = {holder=100311183}	# 1812–1814: Sigmund Christoph    	 	von Zeil und Trauchburg
 	1835.01.01 = {holder=100185574}	# 1835–1850: Friedrich Johannes Jacob 	von Schwarzenberg
 	1890.01.01 = {holder=100075072}	# 1890–1900: Johannes Evangelist 		Haller	
@@ -916,14 +904,14 @@ c_salzburg = {
 	#####
 	1654.01.01 = {holder=100023583}	# 1654–1668: Guidobald 					von Thun und Hohenstein
 	1687.01.01 = {holder=100023584}	# 1687–1709: Johann Ernst 				von Thun und Hohenstein
-	1772.01.01 = {holder=100024998} # 1772–1812: Hieronymus 	 			von Colloredo
+	1772.01.01 = {holder=100024998}	# 1772–1812: Hieronymus 	 			von Colloredo
 	1812.05.20 = {holder=100311183}	# 1812–1814: Sigmund Christoph    	 	von Zeil und Trauchburg
 	1835.01.01 = {holder=100185574}	# 1835–1850: Friedrich Johannes Jacob 	von Schwarzenberg
 	1890.01.01 = {holder=100075072}	# 1890–1900: Johannes Evangelist 		Haller	
 	1900.05.05 = {holder=100075071}	# 1900–1914: Johannes Baptist 			Katschthaler	
 	2014.01.07 = {holder=100094482}	# 2014-    : Franz 						Lackner
 }
-c_pongau = {
+c_pinzgau = {
 }
 
 #########
@@ -1000,58 +988,23 @@ c_graz = {
 	1308.5.1 = {holder=462025}
 	1330.2.14 = {holder=462035}
 }
-c_kammersberg = {
-	764.1.1 = {liege=k_bavaria}
-	764.1.1 = {holder=190567}	#Jesen
-	#Should be in east Francia from 840 onward
-	856.1.1 = {liege=d_carinthia}
-	863.1.1 = {holder=168302}
-	1000.4.14 = {liege=d_carinthia}
-	1000.4.14 = {holder=1618}
-	1039.1.1 = {holder=70622}
-	1076.6.16 = {holder=70623}
-	1090.5.12 = {holder=7674}
-	1122.12.4 = {holder=7681}
-	1123.1.1 = {holder=212997}
-	1134.1.1 = {holder=7682}
-	1144.1.1 = {holder=7683}
-	1161.10.12 = {holder=212995}
-	1181.10.4 = {holder=212990}
-	1201.1.1 = {holder=7517}
-	1256.1.4 = {holder=7519}
-	1269.10.27 = {holder=96001}
-	1278.8.26 = {holder=462021}
-	1286.1.1 = {holder=462711}
-	1295.10.1 = {holder=462714}
-	1310.3.28 = {holder=462720}
-	1335.4.2 = {holder=462035}
+c_celje = {
+	800.1.1 = {liege=k_austria}
+	1919.1.1={
+		de_jure_liege=d_krain
+	}
+	
+	1760.01.01 = {holder=100022500}
+	1802.01.24 = {holder=100022512}
+	1862.03.21 = {holder=100022515}
+	1876.04.28 = {holder=100022517}
+	1927.11.23 = {holder=100022542}
+	1968.02.03 = {holder=100022544}
+	1990.05.03 = {holder=100022551}
 }
-c_knittelfeld = {
-	764.1.1 = {liege=k_bavaria}
-	764.1.1 = {holder=190567}	#Jesen
-	#Should be in east Francia from 840 onward
-	856.1.1 = {liege=d_carinthia}
-	863.1.1 = {holder=168302}
-	1000.4.14 = {liege=d_carinthia}
-	1000.4.14 = {holder=1618}
-	1039.1.1 = {holder=70622}
-	1066.1.1 = {holder=1620}
-	1076.6.16 = {holder=70623}
-	1090.5.12 = {holder=7674}
-	1122.12.4 = {holder=7681}
-	1123.1.1 = {holder=212997}
-	1134.1.1 = {holder=7682}
-	1144.1.1 = {holder=7683}
-	1161.10.12 = {holder=212995}
-	1181.10.4 = {holder=212990}
-	1201.1.1 = {holder=7517}
-	1256.1.4 = {holder=7519}
-	1269.10.27 = {holder=96001}
-	1278.8.26 = {holder=462021}
-	1286.1.1 = {holder=462711}
-	1295.10.1 = {holder=462714}
-	1310.3.28 = {holder=462720}
-	1335.4.2 = {holder=462035}
+c_hartberg = {
+}
+c_judenburg = {
 }
 c_liebnitz = {
 	757.1.1 = {liege=k_bavaria}
@@ -1099,60 +1052,14 @@ c_liebnitz = {
 	1308.5.1 = {holder=462025}
 	1330.2.14 = {holder=462035}
 }
+c_liezen = {
+}
 c_maribor = {
 	800.1.1 = {liege=k_austria}
-	1760.01.01 = {holder=100022500}
-	1802.01.24 = {holder=100022512}
-	1862.03.21 = {holder=100022515}
-	1876.04.28 = {holder=100022517}
-	1927.11.23 = {holder=100022542}
-	1968.02.03 = {holder=100022544}
-	1990.05.03 = {holder=100022551}
-}
-c_murzzuschlag = {
-	757.1.1 = {liege=k_bavaria}
-	757.1.1 = {holder=190373}	#Huosi
-	788.1.1 = {
-		liege = "k_bavaria"
-		holder = 6392	#Charlemagne
+	
+	1919.1.1={
+		de_jure_liege=d_krain
 	}
-	814.1.28 = {holder=30227}	#Lothair I
-	817.1.1 = {holder=90095}	#Louis I the Pious
-	829.1.1 = {holder=90107}	#Louis II the German
-	840.1.1 = {holder=167795}	#Wilhelm I
-	853.1.16 = {
-		holder = 167798	#Engelschalk I
-		liege = "d_bavaria"
-	}
-	871.1.1 = {holder=167799}	#Poppo I
-	884.1.1 = {holder=167800}	#Wilhelm II
-	893.1.1 = {holder=167801}	#Engelschalk II
-	895.1.1 = {liege=k_bavaria}
-	895.1.1 = {holder=7969}
-	900.1.1 = {holder=32000}
-	907.1.2 = {holder=32001}
-	930.1.2 = {holder=32002}
-	976.1.2 = {holder=32003}
-	1020.5.3 = {holder=32005}
-	1025.5.1 = {holder=1620}
-	1065.1.1 = {liege=d_steyermark}
-	1075.3.29 = {holder=40719}
-	1082.1.1 = {holder=1615}
-	1122.11.28 = {holder=7677}
-	1129.10.24 = {holder=7678}
-	1164.12.13 = {holder=7680}
-	1192.5.8 = {holder=212530}
-	1194.12.31 = {holder=212532}
-	1198.4.16 = {holder=212533}
-	1230.7.28 = {holder=7698}
-	1246.6.15 = {holder=96047}
-	1247.1.3 = {holder=7520}
-	1250.10.4 = {holder=7524}
-	1251.1.1 = {holder=96001}
-	1278.8.26 = {holder=462021}
-	1282.1.1 = {holder=462023}
-	1308.5.1 = {holder=462025}
-	1330.2.14 = {holder=462035}
 }
 
 #########

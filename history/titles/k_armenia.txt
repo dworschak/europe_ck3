@@ -43,53 +43,7 @@
 
 #########
 
-d_greater_armenia = {
-	646.1.1 = {holder=145996}
-	653.1.1 = {holder=70454}
-	654.1.1 = {
-		holder = 145996
-		liege = k_armenia
-	}
-	655.1.1 = {holder=159871}
-	661.1.1 = {holder=70452}
-	684.1.1 = {holder=70448}
-	690.1.1 = {holder=159571}
-	693.8.29 = {holder=70447}
-	726.1.1 = {holder=41500}
-	745.1.1 = {holder=70451}
-	746.1.1 = {holder=41500}
-	749.1.1 = {holder=70451}
-	750.1.1 = {holder=70450}
-	754.1.1 = {holder=145998}
-	761.1.1 = {holder=41501}
-	775.4.15 = {holder=41502}
-	826.1.1 = {holder=41530}
-	851.1.1 = {holder=41504}
-	862.1.1 = {holder=41505}
-	#884 Armenia independant from Abbasid
-	#Kingdom of Vaspurakan in 908
-	890.1.1 = {holder=41506}
-	912.1.1 = {holder=41507}
-	928.1.1 = {holder=41508}
-	951.1.1 = {holder=41509}
-	977.1.1 = {holder=41510}
-	990.1.1 = {holder=41519}
-	1020.1.1 = {holder=41520}
-	#1021 end of Vaspurakan
-	1041.1.1 = {holder=41521}
-	1041.9.1 = {holder=41522}
-	1045.1.1 = {
-		holder = 0
-		liege = "e_byzantium"
-	}
-	1060.1.1 = {holder=41585}
-	1071.8.26 = {holder=0}
-	1191.1.1 = {
-		liege = "k_georgia"
-		holder = 232759
-	}
-	1223.1.1 = {holder=159206}
-	1247.1.1 = {holder=0}
+d_armenia = {
 }
 
 c_hayk = {
@@ -109,39 +63,6 @@ c_hayk = {
 		holder = 144046
 		liege = k_georgia
 	}
-	1132.1.1 = {holder=144047}
-	1168.1.1 = {holder=225025}
-	1191.1.1 = {
-		liege = "k_georgia"
-		holder = 232759
-	}
-	1202.1.1 = {holder=232760}
-	1202.7.1 = {
-		liege = d_greater_armenia
-		holder = 159207
-	}
-	1225.1.2 = {
-		liege = "d_erzerum"
-		holder = 34233
-	}
-	#placeholders
-	1230.1.1 = {holder=34398}
-	1250.1.1 = {holder=34399}
-	1280.1.1 = {holder=34400}
-	1300.1.1 = {holder=34401}
-}
-c_bagrewand = {
-	646.1.1 = {liege=d_greater_armenia}
-	714.1.1 = {holder=159875}
-	744.1.1 = {holder=159876}
-	785.1.1 = {holder=159878}
-	862.1.1 = {holder=41505}
-	1060.1.1 = {holder=41585}
-	1071.8.26 = {liege=d_erzerum}
-	1071.8.26 = {holder=144044}
-	1102.1.1 = {holder=144045}
-	#To Georgia
-	1124.1.1 = {holder=144046}
 	1132.1.1 = {holder=144047}
 	1168.1.1 = {holder=225025}
 	1191.1.1 = {
@@ -242,35 +163,43 @@ c_dvin = {
 	1336.4.10 = {holder=478000}
 	1336.7.24 = {holder=478030}
 }
-c_khachen = {
-	#VIIth century onwards : Arab rule
-	654.1.1 = {liege=e_arabia}
-	#821 : Principality of Khachen
-	821.1.1 = {
-		liege = 0
-		holder = 159973	#Sahak Sahl Smbatean
+c_lori = {
+	646.1.1 = {liege=d_greater_armenia}
+	646.1.1 = {holder=159918}
+	673.1.1 = {holder=70448}
+	690.1.1 = {holder=70447}
+	726.1.1 = {holder=41500}
+	749.1.1 = {holder=41501}
+	775.4.15 = {holder=41502}
+	826.1.1 = {holder=41504}
+	862.1.1 = {holder=41505}
+	1045.1.1 = {liege=0}
+	1066.1.1 = {holder=41513}
+	1070.1.1 = {holder=41336}
+	1071.8.26 = {liege=d_erzerum}
+	1071.8.26 = {holder=144044}
+	1102.1.1 = {holder=144045}
+	1124.1.1 = {holder=144046}
+	1132.1.1 = {holder=144047}
+	1168.1.1 = {holder=225025}
+	1191.1.1 = {
+		liege = "k_georgia"
+		holder = 232759
 	}
-	855.1.1 = {holder=159976}	#Smbat, grandson of Sahak Sahl Smbatean
-	#Vassal state of Bagratid Armenia
-	884.1.1 = {liege=k_armenia}
-	891.1.1 = {holder=159982}	#Sahak, son of Smbat
-	921.1.1 = {holder=159983}	#Grigor, son of Sahak
-	956.1.1 = {holder=159984}	#Atrnerseh, son of Grigor
-	996.1.1 = {holder=159985}	#Sahak, son of Atrnerseh
-	#1000 : Kingdom of Astrakh
-	1000.1.1 = {holder=159986}	#Smbat, son of Sahak
-	1030.1.1 = {holder=159239}	#Grigor, son of Smbat
-	#1045 : Bagratid Armenia dissolution
-	1045.1.1 = {liege=d_greater_armenia}
-	#1064 : Seljuk take Ani/Armenia
-	1064.1.1 = {liege=e_persia}
-	1080.1.1 = {holder=159241}	#Senekerim, son of Grigor
-	1094.1.1 = {holder=159235}	#Grigor, son of Senekerim
-	#1124 : Goes to Georgia
-	1124.1.1 = {liege=k_georgia}
-	1136.1.1 = {holder=159242}	#Senekerim, son of Grigor
-	1160.1.1 = {holder=159215}	#Mamkan, son of Senekerim
-	#1261 : End of KoA
+	1202.1.1 = {holder=232760}
+	1202.7.1 = {
+		liege = "d_greater_armenia"
+		holder = 159207
+	}
+	1225.1.2 = {
+		liege = "d_erzerum"
+		holder = 34233
+	}
+	#placeholders
+	1230.1.1 = {holder=34398}
+	1250.1.1 = {holder=34399}
+	1280.1.1 = {holder=34400}
+	1300.1.1 = {holder=34401}
 }
 c_suenik = {
 	646.1.1 = {
@@ -320,6 +249,91 @@ c_suenik = {
 	1316.12.16 = {holder=478006}
 	1318.1.1 = {holder=478006}
 	1328.1.1 = {holder=478033}
+}
+
+#########
+
+d_greater_armenia = {
+	646.1.1 = {holder=145996}
+	653.1.1 = {holder=70454}
+	654.1.1 = {
+		holder = 145996
+		liege = k_armenia
+	}
+	655.1.1 = {holder=159871}
+	661.1.1 = {holder=70452}
+	684.1.1 = {holder=70448}
+	690.1.1 = {holder=159571}
+	693.8.29 = {holder=70447}
+	726.1.1 = {holder=41500}
+	745.1.1 = {holder=70451}
+	746.1.1 = {holder=41500}
+	749.1.1 = {holder=70451}
+	750.1.1 = {holder=70450}
+	754.1.1 = {holder=145998}
+	761.1.1 = {holder=41501}
+	775.4.15 = {holder=41502}
+	826.1.1 = {holder=41530}
+	851.1.1 = {holder=41504}
+	862.1.1 = {holder=41505}
+	#884 Armenia independant from Abbasid
+	#Kingdom of Vaspurakan in 908
+	890.1.1 = {holder=41506}
+	912.1.1 = {holder=41507}
+	928.1.1 = {holder=41508}
+	951.1.1 = {holder=41509}
+	977.1.1 = {holder=41510}
+	990.1.1 = {holder=41519}
+	1020.1.1 = {holder=41520}
+	#1021 end of Vaspurakan
+	1041.1.1 = {holder=41521}
+	1041.9.1 = {holder=41522}
+	1045.1.1 = {
+		holder = 0
+		liege = "e_byzantium"
+	}
+	1060.1.1 = {holder=41585}
+	1071.8.26 = {holder=0}
+	1191.1.1 = {
+		liege = "k_georgia"
+		holder = 232759
+	}
+	1223.1.1 = {holder=159206}
+	1247.1.1 = {holder=0}
+}
+
+c_bagrewand = {
+	646.1.1 = {liege=d_greater_armenia}
+	714.1.1 = {holder=159875}
+	744.1.1 = {holder=159876}
+	785.1.1 = {holder=159878}
+	862.1.1 = {holder=41505}
+	1060.1.1 = {holder=41585}
+	1071.8.26 = {liege=d_erzerum}
+	1071.8.26 = {holder=144044}
+	1102.1.1 = {holder=144045}
+	#To Georgia
+	1124.1.1 = {holder=144046}
+	1132.1.1 = {holder=144047}
+	1168.1.1 = {holder=225025}
+	1191.1.1 = {
+		liege = "k_georgia"
+		holder = 232759
+	}
+	1202.1.1 = {holder=232760}
+	1202.7.1 = {
+		liege = d_greater_armenia
+		holder = 159207
+	}
+	1225.1.2 = {
+		liege = "d_erzerum"
+		holder = 34233
+	}
+	#placeholders
+	1230.1.1 = {holder=34398}
+	1250.1.1 = {holder=34399}
+	1280.1.1 = {holder=34400}
+	1300.1.1 = {holder=34401}
 }
 c_vanand = {
 	646.1.1 = {liege=d_greater_armenia}
@@ -468,6 +482,67 @@ c_mesopotamia = {
 	1280.1.1 = {holder=34258}
 	1290.1.1 = {holder=34259}
 	1320.1.1 = {holder=34260}
+}
+
+#########
+
+d_tao = {
+}
+
+c_tao = {
+	646.1.1 = {liege=d_greater_armenia}
+	646.1.1 = {holder=159918}
+	673.1.1 = {holder=70448}
+	690.1.1 = {holder=70447}
+	726.1.1 = {holder=41500}
+	749.1.1 = {holder=41538}
+	765.1.1 = {holder=41539}
+	780.1.1 = {liege=d_tao-klarjeti}
+	809.1.1 = {holder=41540}
+	826.1.29 = {holder=41541}
+	827.1.1 = {holder=41530}
+	851.1.1 = {holder=41531}
+	#1008 Unification of Georgia, k_georgia created
+	1064.1.1 = {holder=9957}
+	1102.1.1 = {holder=41550}
+	1122.1.1 = {holder=216524}
+	1180.1.1 = {holder=232764}
+	1204.1.2 = {holder=232765}
+	1226.1.2 = {holder=232766}
+	1229.1.2 = {holder=232767}
+	1231.1.2 = {holder=232769}
+	1250.1.1 = {holder=466750}
+	1306.1.1 = {holder=466752}
+	1334.1.2 = {holder=466753}
+}
+c_acampse = {
+	646.1.1 = {liege=d_greater_armenia}
+	646.1.1 = {holder=159918}
+	673.1.1 = {holder=70448}
+	690.1.1 = {holder=70447}
+	726.1.1 = {holder=41500}
+	749.1.1 = {holder=41538}
+	765.1.1 = {holder=41539}
+	780.1.1 = {liege=d_tao-klarjeti}
+	809.1.1 = {holder=41540}
+	826.1.29 = {holder=41541}
+	827.1.1 = {holder=41530}
+	851.1.1 = {holder=41531}
+	#1008 Unification of Georgia, k_georgia created
+	1064.1.1 = {liege=d_tao-klarjeti}
+	1064.1.1 = {holder=9957}
+	1102.1.1 = {holder=41550}
+	1122.1.1 = {holder=216524}
+	1180.1.1 = {holder=232764}
+	1204.1.2 = {holder=232765}
+	1226.1.2 = {holder=232766}
+	1229.1.2 = {holder=232767}
+	1231.1.2 = {holder=232769}
+	1250.1.1 = {holder=466750}
+	1306.1.1 = {holder=466752}
+	1334.1.2 = {holder=466753}
+}
+c_ardahan = {
 }
 
 #########

@@ -21,23 +21,6 @@
 	1058.11.28 = {
 		# Technically shouldn't happen until 1075, but it needs to happen before game start or Boleslaw loses a bunch of his vassals.
 		holder = 762	#Boleslaw II the Bold
-		effect = {
-	if = {
-	limit = {
-	exists = holder
-	has_dlc_feature = royal_court
-}
-	holder = {
-	set_court_language = language_high_german
-	if = {
-	limit = {
-	NOT = {knows_court_language_of=this}
-}
-	learn_court_language_of = this
-}
-}
-}
-}
 	}
 	1079.5.1 = {holder=764}	#Wladyslaw I Herman
 	1102.6.4 = {holder=170108}	#Zbigniew
@@ -46,6 +29,62 @@
 	1146.2.2 = {holder=125973}	#Boleslaw IV the Curly
 	1173.1.5 = {holder=221560}	#Mieszko III the Old
 	1177.4.21 = {holder=221520}	#Kazimierz II the Just
+	1191.1.1={holder=221560}
+	1191.7.1={holder=221520}
+	1194.5.5={holder=221524}
+	1198.1.1={holder=221560}
+	1199.1.1={holder=221524}
+	1202.1.1={holder=221560}
+	1202.3.13={holder=221570}
+	1206.1.1={holder=221524}
+	1210.1.1={holder=221550}
+	1211.5.16={holder=221524}
+	1227.11.23={holder=221570}
+	1229.1.1={holder=221525}
+	1232.1.1={holder=221537}
+	1238.3.19={holder=125905}
+	1241.4.9={holder=221525}
+	1243.1.1={holder=125982}
+	1279.12.7={holder=125984}
+	1288.9.30={holder=125909}
+	1290.6.24={holder=125977}
+	1296.2.8={holder=96002}
+	1305.6.21={holder=96003}
+	1306.8.4={holder=471510}
+	1333.3.2={holder=471500}
+
+	######
+	
+	1800.01.01={liege=e_russia}
+	1990.01.01={liege=0}
+
+	# JAGIELLON
+	1386.03.04={holder=100111850}	# Wladyslaw II | JOGAILAITIS
+	1434.06.01={holder=100111856}	# Wladyslaw III | JOGAILAITIS
+	1444.11.10={holder=100111857}	# Kazimierz IV | JOGAILAITIS
+	1492.06.07={holder=100111870}	# Jan I Olbracht | JOGAILAITIS
+	1501.06.17={holder=100111871}	# Aleksander I Jagiellonczyk | JOGAILAITIS
+	1506.08.19={holder=100111876}	# Zygmunt I Stary | JOGAILAITIS
+	1548.04.01={holder=100111883}	# Zygmunt II August | JOGAILAITIS
+
+	# ELECTIVE
+	1572.07.01={holder=100021176}	# Henryk 				Valois | VALOIS
+	1575.05.15={holder=100036639}	# Stefan 				Báthory | BATHORY
+	1586.12.12={holder=100012320}	# Zygmunt III 			Waza | VASA
+	1632.04.30={holder=100012321}	# Wladyslaw IV 			Waza | VASA
+	1648.05.20={holder=100012323}	# Jan II Kazimierz		Waza | VASA
+	1668.09.16={holder=0}			# Michal Korybut 		Wisniowiecki
+	# Jan III | Sobieski
+	# August II Mocny | Wettin
+	# Stanislaw I | Leszczynski
+	# August II Mocny | Wettin
+	# Stanislaw I | Leszczynski
+	# August III Sas | Wettin
+	# Stanislaw August | Poniatowski
+
+	# Fryderyk August I | Wettin
+
+	2010.08.06={holder=100036220}
 }
 
 #########
@@ -430,6 +469,16 @@ c_peresopnytsia = {
 #########
 
 d_greater_poland = {
+	1815.1.1={liege=k_prussia}
+	1946.1.1 = {liege=k_poland}
+	
+	1815.01.01 = {holder=100002153}	# Friedrich Wilhelm III. | HOHENZOLLERN
+	1840.06.07 = {holder=100002154}	# Friedrich Wilhelm IV. | HOHENZOLLERN
+	1861.01.02={holder=100002155}	# KAISER 	Wilhelm I. | HOHENZOLLERN
+	1888.03.09={holder=100002156}	# KAISER 	Friedrich III. | HOHENZOLLERN
+	1888.06.15={holder=100002158}	# KAISER 	Wilhelm II. | HOHENZOLLERN
+	1941.06.04={holder=100002159}	# (KAISER) 	WILHELM III. | HOHENZOLLERN
+	1946.1.1 = {holder=0}
 }
 
 c_poznan = {
