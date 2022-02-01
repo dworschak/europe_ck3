@@ -1,4 +1,111 @@
-﻿c_philomelium = {	#k_anatolia
+﻿c_tadjoura = {	#k_adal
+	866.1.1 = {
+		government = tribal_government
+		liege = 0
+		holder = 145665
+	}
+	1065.1.1 = {holder=145666}
+	1085.1.1 = {holder=145667}
+	#Shirazi (place holders from Kilwa)
+	1095.1.1 = {holder=34363}
+	1106.1.1 = {holder=34364}
+	1115.1.1 = {holder=34365}
+	1117.1.1 = {holder=34366}
+	1158.1.1 = {holder=34367}
+	1177.1.1 = {holder=34368}
+	1180.1.1 = {holder=34369}
+	1181.1.1 = {holder=34370}
+	1200.1.1 = {holder=34371}
+	1206.1.1 = {holder=34372}
+	1217.1.1 = {holder=34373}
+	1259.1.1 = {holder=34375}
+	# Walashma dynasty
+	1274.1.1 = {holder=32892}
+	1304.1.1 = {holder=32943}
+	1321.1.1 = {holder=32944}
+	1328.1.1 = {holder=32945}
+	1332.1.1 = {holder=32946}
+	1337.1.1 = {holder=32947}
+}
+
+k_africa = {	#k_africa
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=6}
+	#Muhallabids
+	768.1.1 = {
+		government = clan_government
+		holder = 210014
+	}
+	#768.1.1 = {
+	#	liege = "e_arabia"
+	#}
+	771.1.1 = {holder=210015}
+	771.1.6 = {holder=210014}
+	772.1.1 = {holder=210009}
+	787.1.1 = {holder=210010}
+	787.1.10 = {holder=210016}
+	791.1.1 = {holder=210017}
+	793.1.1 = {holder=210018}
+	#Aghlabids
+	800.1.1 = {holder=163140}
+	800.1.1 = {liege=0}
+	812.1.1 = {holder=163141}
+	817.1.1 = {holder=163142}
+	838.6.10 = {holder=163143}
+	841.1.1 = {holder=163144}
+	856.1.1 = {holder=163145}
+	863.1.1 = {holder=163146}
+	864.1.1 = {holder=163096}
+	875.1.1 = {holder=163147}
+	#Zirids
+	1045.1.1 = {holder=20935}
+	1062.1.1 = {
+		holder = 20825
+		effect = {
+	if = {
+	limit = {
+	exists = holder
+	has_dlc_feature = royal_court
+}
+	holder = {
+	set_court_language = language_arabic
+	if = {
+	limit = {
+	NOT = {knows_court_language_of=this}
+}
+	learn_court_language_of = this
+}
+}
+}
+}
+	}
+	1108.1.1 = {holder=3906}
+	1116.1.1 = {holder=3210}
+	1121.1.1 = {holder=3211}
+	1148.6.22 = {holder=0}
+	#Hafsids
+	1229.1.1 = {holder=33021}
+	1251.1.1 = {holder=33024}
+	1276.1.1 = {holder=33026}
+	1279.1.1 = {holder=33025}
+	1284.1.1 = {holder=33017}
+	1295.1.1 = {holder=33027}
+	1309.1.1 = {holder=33028}
+	1310.1.1 = {holder=33031}
+	1311.1.1 = {holder=33042}
+	1317.1.1 = {holder=33043}
+	1318.1.1 = {holder=33032}
+}
+
+d_uzlotroitsk = {	#k_algeria
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_uzlotroitsk = {	#k_algeria
+	800.1.1 = {liege=d_uzlotroitsk}
+}
+
+c_philomelium = {	#k_anatolia
 	330.1.1 = {liege=d_anatolia}
 	751.1.1 = {holder=145837}
 	860.1.1 = {holder=145114}
@@ -33,6 +140,38 @@
 	}
 	1312.1.1 = {holder=71880}
 	1316.1.1 = {holder=476300}
+}
+
+c_saoura = {	#k_anbiya
+	864.1.1 = {
+		government = tribal_government
+		holder = 273110
+	}
+	900.6.6 = {holder=273111}
+	922.6.6 = {holder=273115}
+	950.6.6 = {holder=273116}
+	975.6.6 = {holder=273117}
+	1012.6.6 = {holder=273118}
+	1051.6.6 = {
+		holder = 273119
+		liege = "k_maghreb"
+	}
+	1066.1.1 = {liege=d_taghaza}
+	1087.6.6 = {holder=tagelmust0001}
+	1104.6.6 = {holder=tagelmust0002}
+	1142.6.6 = {holder=tagelmust0004}
+	1164.6.6 = {holder=tagelmust0005}
+	1194.6.6 = {holder=tagelmust0006}
+}
+
+k_anbiya = {	#k_anbiya
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=6}
+	950.1.1 = {
+		holder = 273076
+		government = tribal_government
+	}
+	978.1.1 = {holder=0}
 }
 
 c_almader = {	#k_andalusia
@@ -297,23 +436,6 @@ c_mora = {	#k_andalusia
 	1312.9.7 = {holder=457500}	# Alfonso XI de Borgo�a
 }
 
-c_lena = {	#k_angara
-	#867
-	864.1.18 = {
-		liege = 0
-		holder = 303156	#fictional Sambuu Abazaj
-		government = tribal_government
-	}
-	891.9.13 = {holder=303157}	#fictional Tayisung Abazaj
-	#1066
-	1065.9.15 = {holder=303158}	#fictional Ariq Abazaj
-	1092.6.27 = {holder=303159}	#fictional Jorightu Abazaj
-	1125.7.11 = {holder=303160}	#fictional Gulichi Abazaj
-	1150.12.23 = {holder=303161}	#fictional Bars Abazaj
-	1159.1.27 = {holder=303162}	#fictional Tsokto Abazaj
-	1190.1.13 = {holder=303163}	#fictional Khotsa Abazaj
-}
-
 c_bratsk = {	#k_angara
 	#867
 	856.3.26 = {
@@ -329,27 +451,6 @@ c_bratsk = {	#k_angara
 	1135.7.22 = {holder=303177}	#fictional Sambuu Sono
 	1160.8.22 = {holder=303178}	#fictional Zamso Sono
 	1193.3.26 = {holder=303179}	#fictional Qoshila Sono
-}
-
-c_chuna = {	#k_angara
-	#Kirghiz khanate
-	840.1.2 = {liege=e_kirghiz_khanate}
-	#867
-	848.8.16 = {
-		holder = 303180	#fictional Batu Bajandaj
-		government = tribal_government
-	}
-	889.2.23 = {holder=303181}	#fictional Tsyren Bajandaj
-	#End of Kirghiz Khanate
-	925.1.2 = {liege=0}
-	#1066
-	1058.9.13 = {holder=303182}	#fictional Bair Bajandaj
-	1081.10.3 = {holder=303183}	#fictional Geleg Bajandaj
-	1103.4.16 = {holder=303184}	#fictional Joichi Bajandaj
-	1136.1.19 = {holder=303185}	#fictional Qayshan Bajandaj
-	1149.3.26 = {holder=303186}	#fictional Joichi Bajandaj
-	1178.8.22 = {holder=303187}	#fictional Manduulun Bajandaj
-	1201.2.13 = {holder=303188}	#fictional Tolui Bajandaj
 }
 
 c_kansk = {	#k_angara
@@ -393,6 +494,44 @@ c_krasnoyarsk = {	#k_angara
 	1184.1.16 = {holder=303196}	#fictional Guluun Bulagad
 }
 
+c_lena = {	#k_angara
+	#867
+	864.1.18 = {
+		liege = 0
+		holder = 303156	#fictional Sambuu Abazaj
+		government = tribal_government
+	}
+	891.9.13 = {holder=303157}	#fictional Tayisung Abazaj
+	#1066
+	1065.9.15 = {holder=303158}	#fictional Ariq Abazaj
+	1092.6.27 = {holder=303159}	#fictional Jorightu Abazaj
+	1125.7.11 = {holder=303160}	#fictional Gulichi Abazaj
+	1150.12.23 = {holder=303161}	#fictional Bars Abazaj
+	1159.1.27 = {holder=303162}	#fictional Tsokto Abazaj
+	1190.1.13 = {holder=303163}	#fictional Khotsa Abazaj
+}
+
+c_chuna = {	#k_angara
+	#Kirghiz khanate
+	840.1.2 = {liege=e_kirghiz_khanate}
+	#867
+	848.8.16 = {
+		holder = 303180	#fictional Batu Bajandaj
+		government = tribal_government
+	}
+	889.2.23 = {holder=303181}	#fictional Tsyren Bajandaj
+	#End of Kirghiz Khanate
+	925.1.2 = {liege=0}
+	#1066
+	1058.9.13 = {holder=303182}	#fictional Bair Bajandaj
+	1081.10.3 = {holder=303183}	#fictional Geleg Bajandaj
+	1103.4.16 = {holder=303184}	#fictional Joichi Bajandaj
+	1136.1.19 = {holder=303185}	#fictional Qayshan Bajandaj
+	1149.3.26 = {holder=303186}	#fictional Joichi Bajandaj
+	1178.8.22 = {holder=303187}	#fictional Manduulun Bajandaj
+	1201.2.13 = {holder=303188}	#fictional Tolui Bajandaj
+}
+
 c_kymyl_tey = {	#k_angara
 	#867
 	866.3.16 = {
@@ -409,14 +548,6 @@ c_kymyl_tey = {	#k_angara
 	1144.3.16 = {holder=303203}	#fictional Khotsa Khongodor
 	1166.11.2 = {holder=303204}	#fictional Osor Khongodor
 	1175.4.18 = {holder=303205}	#fictional Geleg Khongodor
-}
-
-k_armenian_principality = {	#k_armenia
-	862.1.1 = {
-		liege = e_arabia
-		holder = 41505
-	}
-	884.1.1 = {holder=0}	# Kings Restored
 }
 
 k_old_armenia = {	#k_armenia
@@ -442,6 +573,14 @@ k_old_armenia = {	#k_armenia
 	862.1.1 = {holder=0}
 }
 
+k_armenian_principality = {	#k_armenia
+	862.1.1 = {
+		liege = e_arabia
+		holder = 41505
+	}
+	884.1.1 = {holder=0}	# Kings Restored
+}
+
 c_knittelfeld = {	#k_austria
 	764.1.1 = {liege=k_bavaria}
 	764.1.1 = {holder=190567}	#Jesen
@@ -452,6 +591,58 @@ c_knittelfeld = {	#k_austria
 	1000.4.14 = {holder=1618}
 	1039.1.1 = {holder=70622}
 	1066.1.1 = {holder=1620}
+	1076.6.16 = {holder=70623}
+	1090.5.12 = {holder=7674}
+	1122.12.4 = {holder=7681}
+	1123.1.1 = {holder=212997}
+	1134.1.1 = {holder=7682}
+	1144.1.1 = {holder=7683}
+	1161.10.12 = {holder=212995}
+	1181.10.4 = {holder=212990}
+	1201.1.1 = {holder=7517}
+	1256.1.4 = {holder=7519}
+	1269.10.27 = {holder=96001}
+	1278.8.26 = {holder=462021}
+	1286.1.1 = {holder=462711}
+	1295.10.1 = {holder=462714}
+	1310.3.28 = {holder=462720}
+	1335.4.2 = {holder=462035}
+}
+
+c_schaumberg = {	#k_austria
+	753.1.1 = {holder=190368}	#Fagulf
+	859.1.1 = {
+		holder = 163056
+		liege = "d_bavaria"
+	}
+	1066.1.1 = {
+		holder = 20259
+		liege = k_bavaria
+	}
+	1090.1.1 = {holder=33410}
+	1101.9.28 = {holder=93833}
+	1147.4.9 = {holder=93834}
+	1164.6.22 = {holder=144190}
+	1168.1.1 = {holder=212858}
+	1200.1.1 = {holder=144575}
+	1257.1.1 = {holder=144577}
+	1265.1.1 = {holder=125928}
+	1270.4.27 = {holder=144578}
+	1284.4.7 = {holder=144579}
+	1290.8.3 = {holder=144580}
+	1312.3.28 = {holder=144581}
+	1315.10.6 = {holder=487010}
+}
+
+c_kammersberg = {	#k_austria
+	764.1.1 = {liege=k_bavaria}
+	764.1.1 = {holder=190567}	#Jesen
+	#Should be in east Francia from 840 onward
+	856.1.1 = {liege=d_carinthia}
+	863.1.1 = {holder=168302}
+	1000.4.14 = {liege=d_carinthia}
+	1000.4.14 = {holder=1618}
+	1039.1.1 = {holder=70622}
 	1076.6.16 = {holder=70623}
 	1090.5.12 = {holder=7674}
 	1122.12.4 = {holder=7681}
@@ -566,58 +757,6 @@ c_murzzuschlag = {	#k_austria
 	1282.1.1 = {holder=462023}
 	1308.5.1 = {holder=462025}
 	1330.2.14 = {holder=462035}
-}
-
-c_schaumberg = {	#k_austria
-	753.1.1 = {holder=190368}	#Fagulf
-	859.1.1 = {
-		holder = 163056
-		liege = "d_bavaria"
-	}
-	1066.1.1 = {
-		holder = 20259
-		liege = k_bavaria
-	}
-	1090.1.1 = {holder=33410}
-	1101.9.28 = {holder=93833}
-	1147.4.9 = {holder=93834}
-	1164.6.22 = {holder=144190}
-	1168.1.1 = {holder=212858}
-	1200.1.1 = {holder=144575}
-	1257.1.1 = {holder=144577}
-	1265.1.1 = {holder=125928}
-	1270.4.27 = {holder=144578}
-	1284.4.7 = {holder=144579}
-	1290.8.3 = {holder=144580}
-	1312.3.28 = {holder=144581}
-	1315.10.6 = {holder=487010}
-}
-
-c_kammersberg = {	#k_austria
-	764.1.1 = {liege=k_bavaria}
-	764.1.1 = {holder=190567}	#Jesen
-	#Should be in east Francia from 840 onward
-	856.1.1 = {liege=d_carinthia}
-	863.1.1 = {holder=168302}
-	1000.4.14 = {liege=d_carinthia}
-	1000.4.14 = {holder=1618}
-	1039.1.1 = {holder=70622}
-	1076.6.16 = {holder=70623}
-	1090.5.12 = {holder=7674}
-	1122.12.4 = {holder=7681}
-	1123.1.1 = {holder=212997}
-	1134.1.1 = {holder=7682}
-	1144.1.1 = {holder=7683}
-	1161.10.12 = {holder=212995}
-	1181.10.4 = {holder=212990}
-	1201.1.1 = {holder=7517}
-	1256.1.4 = {holder=7519}
-	1269.10.27 = {holder=96001}
-	1278.8.26 = {holder=462021}
-	1286.1.1 = {holder=462711}
-	1295.10.1 = {holder=462714}
-	1310.3.28 = {holder=462720}
-	1335.4.2 = {holder=462035}
 }
 
 k_badajoz = {	#k_badajoz
@@ -752,41 +891,13 @@ c_onega_BJA = {	#k_bjarmaland
 	1157.8.18 = {holder=302384}	#fictional Nenyts Dvinok
 }
 
-c_donji_kraji = {	#k_bosnia
-	800.1.1 = {liege=d_upper_bosnia}
+d_savalu = {	#k_borgu
+	867.1.1 = {change_development_level=0}
+	1066.1.1 = {change_development_level=2}
 }
 
-d_bulgaria = {	#k_bulgaria
-	330.1.1 = {liege=e_byzantium}
-	766.1.1 = {holder=145799}
-	865.1.1 = {
-		holder = 70383
-		liege = "k_bulgaria"
-	}
-	1060.1.1 = {holder=0}
-	1066.1.1 = {
-		holder = 90035	#Nikephoros Synadenos
-		liege = e_byzantium	#as Bulgarian theme
-	}
-	1081.10.18 = {
-		holder = 90093
-		liege = "e_byzantium"
-	}
-	1093.1.1 = {holder=90092}
-	1098.1.1 = {holder=232512}
-	1149.1.1 = {holder=215035}
-	1185.9.12 = {holder=215508}
-	1200.1.1 = {holder=215513}
-	1203.1.2 = {holder=215514}
-	1204.5.16 = {liege=0}
-	1204.5.16 = {holder=215517}
-	1215.1.1 = {holder=215514}
-	1230.3.9 = {holder=125715}
-	1268.1.1 = {holder=125726}
-	1297.1.1 = {holder=125728}
-	1318.1.1 = {holder=31440}	#Nicolo Orsini
-	1323.1.1 = {holder=31441}	#Giovanni II Orsini
-	1335.1.1 = {holder=31443}	#Nikephoros Orsini
+c_donji_kraji = {	#k_bosnia
+	800.1.1 = {liege=d_upper_bosnia}
 }
 
 c_pomoravlje = {	#k_bulgaria
@@ -830,6 +941,39 @@ c_pomoravlje = {	#k_bulgaria
 	1321.10.29 = {holder=34122}
 	1322.6.1 = {holder=468510}
 	1331.11.3 = {holder=468500}
+}
+
+d_bulgaria = {	#k_bulgaria
+	330.1.1 = {liege=e_byzantium}
+	766.1.1 = {holder=145799}
+	865.1.1 = {
+		holder = 70383
+		liege = "k_bulgaria"
+	}
+	1060.1.1 = {holder=0}
+	1066.1.1 = {
+		holder = 90035	#Nikephoros Synadenos
+		liege = e_byzantium	#as Bulgarian theme
+	}
+	1081.10.18 = {
+		holder = 90093
+		liege = "e_byzantium"
+	}
+	1093.1.1 = {holder=90092}
+	1098.1.1 = {holder=232512}
+	1149.1.1 = {holder=215035}
+	1185.9.12 = {holder=215508}
+	1200.1.1 = {holder=215513}
+	1203.1.2 = {holder=215514}
+	1204.5.16 = {liege=0}
+	1204.5.16 = {holder=215517}
+	1215.1.1 = {holder=215514}
+	1230.3.9 = {holder=125715}
+	1268.1.1 = {holder=125726}
+	1297.1.1 = {holder=125728}
+	1318.1.1 = {holder=31440}	#Nicolo Orsini
+	1323.1.1 = {holder=31441}	#Giovanni II Orsini
+	1335.1.1 = {holder=31443}	#Nikephoros Orsini
 }
 
 d_savoie = {	#k_burgundy
@@ -976,30 +1120,6 @@ c_vodica = {	#k_croatia
 	1336.1.1 = {holder=32652}
 }
 
-c_vhrbosna = {	#k_croatia
-	539.1.1 = {liege=d_rashka}
-	757.1.1 = {holder=146010}
-	786.1.1 = {holder=146009}
-	813.1.1 = {holder=167865}
-	841.1.1 = {holder=167866}
-	848.1.1 = {holder=167867}
-	892.1.1 = {holder=167868}
-	1066.1.1 = {liege=k_croatia}
-	1066.1.1 = {holder=182011}
-	1097.1.1 = {holder=93556}
-	1130.1.1 = {holder=93557}
-	1150.1.1 = {holder=93558}
-	1165.1.1 = {liege=d_bosna}
-	1165.1.1 = {holder=219500}
-	1172.3.4 = {holder=218800}
-	1204.1.1 = {holder=218801}
-	1232.1.1 = {holder=34145}
-	1249.3.1 = {holder=34148}
-	1287.1.1 = {holder=34149}
-	1295.1.1 = {holder=468810}
-	1314.1.13 = {holder=468800}
-}
-
 c_pagania = {	#k_croatia
 	867.1.1 = {change_development_level=8}
 	1066.1.1 = {change_development_level=11}
@@ -1028,6 +1148,30 @@ c_pagania = {	#k_croatia
 	1312.5.1 = {holder=32625}
 	1322.1.1 = {liege=d_bosna}
 	1322.1.1 = {holder=468800}
+}
+
+c_vhrbosna = {	#k_croatia
+	539.1.1 = {liege=d_rashka}
+	757.1.1 = {holder=146010}
+	786.1.1 = {holder=146009}
+	813.1.1 = {holder=167865}
+	841.1.1 = {holder=167866}
+	848.1.1 = {holder=167867}
+	892.1.1 = {holder=167868}
+	1066.1.1 = {liege=k_croatia}
+	1066.1.1 = {holder=182011}
+	1097.1.1 = {holder=93556}
+	1130.1.1 = {holder=93557}
+	1150.1.1 = {holder=93558}
+	1165.1.1 = {liege=d_bosna}
+	1165.1.1 = {holder=219500}
+	1172.3.4 = {holder=218800}
+	1204.1.1 = {holder=218801}
+	1232.1.1 = {holder=34145}
+	1249.3.1 = {holder=34148}
+	1287.1.1 = {holder=34149}
+	1295.1.1 = {holder=468810}
+	1314.1.13 = {holder=468800}
 }
 
 d_ragusa = {	#k_croatia
@@ -1091,12 +1235,12 @@ c_astana = {	#k_cuman
 	1202.9.14 = {holder=302628}	#fictional Bonyak Astan
 }
 
-d_kush_murun = {	#k_cumania
-	800.1.1 = {liege=k_cumania}
-}
-
 c_kush_murun = {	#k_cumania
 	800.1.1 = {liege=d_kush_murun}
+}
+
+d_kush_murun = {	#k_cumania
+	800.1.1 = {liege=k_cumania}
 }
 
 k_dacia = {	#k_dacia
@@ -1137,6 +1281,21 @@ c_dar_al-said = {	#k_darfur
 	1196.1.1 = {holder=daju0008}
 }
 
+c_jie_DZU = {	#k_dzungaria
+	#Uyghur Qocho kingdom
+	866.10.1 = {
+		holder = 302985	#fictional Adigh Urulchiq
+		liege = d_gurbantunggut
+	}
+	879.1.23 = {holder=302986}	#fictional Atral Urulchiq
+	1060.2.23 = {holder=302987}	#fictional MA_nglik Urulchiq
+	1082.8.13 = {holder=302989}	#fictional Qutlugh Urulchiq
+	1109.6.14 = {holder=302991}	#fictional KO_nC_ek Urulchiq
+	1139.4.5 = {holder=302992}	#fictional Sokal Urulchiq
+	1149.3.16 = {holder=302993}	#fictional Qutlugh Urulchiq
+	1191.2.14 = {holder=302994}	#fictional Barchuq Urulchiq
+}
+
 c_narym_DZU = {	#k_dzungaria
 	#Kirghiz khanate
 	840.1.2 = {liege=e_kirghiz_khanate}
@@ -1158,19 +1317,38 @@ c_narym_DZU = {	#k_dzungaria
 	1165.3.22 = {holder=303325}	#fictional Gurkhan Karakalpaks
 }
 
-c_jie_DZU = {	#k_dzungaria
-	#Uyghur Qocho kingdom
-	866.10.1 = {
-		holder = 302985	#fictional Adigh Urulchiq
-		liege = d_gurbantunggut
+c_osterland = {	#k_east_francia
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
 	}
-	879.1.23 = {holder=302986}	#fictional Atral Urulchiq
-	1060.2.23 = {holder=302987}	#fictional MA_nglik Urulchiq
-	1082.8.13 = {holder=302989}	#fictional Qutlugh Urulchiq
-	1109.6.14 = {holder=302991}	#fictional KO_nC_ek Urulchiq
-	1139.4.5 = {holder=302992}	#fictional Sokal Urulchiq
-	1149.3.16 = {holder=302993}	#fictional Qutlugh Urulchiq
-	1191.2.14 = {holder=302994}	#fictional Barchuq Urulchiq
+	738.1.1 = {holder=146174}
+	760.1.1 = {holder=146175}
+	801.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	830.1.1 = {
+		liege = d_meissen
+		#	holder = 0
+	}
+	857.1.1 = {holder=184007}
+	1062.1.1 = {
+		#holder = 7060
+		holder = 20265	# Dedo Wettin
+	}
+	1067.1.1 = {holder=106510}
+	1068.1.11 = {holder=106515}
+	1089.1.1 = {holder=7699}
+	1103.1.1 = {holder=7500}
+	1123.1.1 = {holder=212040}
+	1157.2.5 = {holder=212038}
+	1190.2.18 = {holder=212041}
+	1195.6.24 = {holder=212042}
+	1221.1.17 = {holder=7504}
+	1288.2.15 = {holder=7506}
+	1291.8.16 = {holder=7512}
+	1323.11.16 = {holder=462400}
+	800.1.1 = {liege=d_meissen}
 }
 
 c_vogtland = {	#k_east_francia
@@ -1274,40 +1452,6 @@ c_naumberg = {	#k_east_francia
 	1323.12.26 = {holder=462390}
 }
 
-c_osterland = {	#k_east_francia
-	720.1.1 = {
-		liege = "d_bohemia"
-		holder = 168345
-	}
-	738.1.1 = {holder=146174}
-	760.1.1 = {holder=146175}
-	801.1.1 = {holder=168347}
-	804.1.1 = {holder=168348}
-	820.1.1 = {holder=168349}
-	830.1.1 = {
-		liege = d_meissen
-		#	holder = 0
-	}
-	857.1.1 = {holder=184007}
-	1062.1.1 = {
-		#holder = 7060
-		holder = 20265	# Dedo Wettin
-	}
-	1067.1.1 = {holder=106510}
-	1068.1.11 = {holder=106515}
-	1089.1.1 = {holder=7699}
-	1103.1.1 = {holder=7500}
-	1123.1.1 = {holder=212040}
-	1157.2.5 = {holder=212038}
-	1190.2.18 = {holder=212041}
-	1195.6.24 = {holder=212042}
-	1221.1.17 = {holder=7504}
-	1288.2.15 = {holder=7506}
-	1291.8.16 = {holder=7512}
-	1323.11.16 = {holder=462400}
-	800.1.1 = {liege=d_meissen}
-}
-
 c_wolkenstein = {	#k_east_francia
 	756.1.1 = {
 		liege = d_thuringia
@@ -1328,6 +1472,61 @@ c_wolkenstein = {	#k_east_francia
 	1260.10.7 = {holder=462101}
 	1298.5.24 = {holder=462100}
 	800.1.1 = {liege=d_meissen}
+}
+
+c_al-gharbiya = {	#k_egypt
+	762.1.1 = {liege=k_egypt}
+	762.1.1 = {holder=210009}
+	866.1.1 = {liege=d_delta}
+	866.1.1 = {holder=163139}
+	877.1.1 = {liege=k_egypt}
+	996.10.13 = {holder=3092}
+	1021.2.12 = {holder=3094}
+	1036.6.13 = {holder=3096}
+	1094.1.10 = {holder=3100}
+	1101.1.1 = {holder=32905}
+	1130.1.1 = {holder=32907}
+	1149.1.1 = {holder=32908}
+	1154.1.1 = {holder=32909}
+	1160.1.1 = {holder=32910}
+	1171.1.1 = {holder=226000}
+	1193.3.4 = {holder=226050}
+	1198.11.29 = {holder=32922}
+	1200.1.1 = {holder=226052}
+	1218.8.1 = {holder=144079}
+	1238.1.1 = {holder=32926}
+	1240.1.1 = {holder=32925}
+	1249.11.22 = {holder=32927}
+	1250.1.1 = {holder=32928}
+	1250.3.1 = {holder=32930}
+	1257.1.1 = {holder=32931}
+	1259.1.1 = {holder=32932}
+	1260.10.24 = {holder=32933}
+	1277.7.1 = {holder=32934}
+	#1279.1.1 = {
+	#	holder = 32942
+	#}
+	1279.1.1 = {holder=32936}
+	1291.11.10 = {holder=32937}
+	1293.12.14 = {holder=485000}
+	1294.7.1 = {holder=32938}
+	1296.1.1 = {holder=32939}
+	1299.1.1 = {holder=485000}
+	1309.1.1 = {holder=32940}
+	1309.11.1 = {holder=485000}
+}
+
+c_nizhnezran = {	#k_egypt
+	800.1.1 = {liege=d_nizhnezran}
+}
+
+d_al-said = {	#k_egypt
+	762.1.1 = {liege=k_egypt}
+	762.1.1 = {holder=210022}
+	800.1.1 = {holder=0}
+	1220.1.1 = {holder=32925}
+	1225.1.1 = {holder=0}
+	1323.1.1 = {holder=485000}
 }
 
 c_al-buhaira = {	#k_egypt
@@ -1373,55 +1572,8 @@ c_al-buhaira = {	#k_egypt
 	1309.11.1 = {holder=485000}
 }
 
-c_al-gharbiya = {	#k_egypt
-	762.1.1 = {liege=k_egypt}
-	762.1.1 = {holder=210009}
-	866.1.1 = {liege=d_delta}
-	866.1.1 = {holder=163139}
-	877.1.1 = {liege=k_egypt}
-	996.10.13 = {holder=3092}
-	1021.2.12 = {holder=3094}
-	1036.6.13 = {holder=3096}
-	1094.1.10 = {holder=3100}
-	1101.1.1 = {holder=32905}
-	1130.1.1 = {holder=32907}
-	1149.1.1 = {holder=32908}
-	1154.1.1 = {holder=32909}
-	1160.1.1 = {holder=32910}
-	1171.1.1 = {holder=226000}
-	1193.3.4 = {holder=226050}
-	1198.11.29 = {holder=32922}
-	1200.1.1 = {holder=226052}
-	1218.8.1 = {holder=144079}
-	1238.1.1 = {holder=32926}
-	1240.1.1 = {holder=32925}
-	1249.11.22 = {holder=32927}
-	1250.1.1 = {holder=32928}
-	1250.3.1 = {holder=32930}
-	1257.1.1 = {holder=32931}
-	1259.1.1 = {holder=32932}
-	1260.10.24 = {holder=32933}
-	1277.7.1 = {holder=32934}
-	#1279.1.1 = {
-	#	holder = 32942
-	#}
-	1279.1.1 = {holder=32936}
-	1291.11.10 = {holder=32937}
-	1293.12.14 = {holder=485000}
-	1294.7.1 = {holder=32938}
-	1296.1.1 = {holder=32939}
-	1299.1.1 = {holder=485000}
-	1309.1.1 = {holder=32940}
-	1309.11.1 = {holder=485000}
-}
-
-d_al-said = {	#k_egypt
-	762.1.1 = {liege=k_egypt}
-	762.1.1 = {holder=210022}
-	800.1.1 = {holder=0}
-	1220.1.1 = {holder=32925}
-	1225.1.1 = {holder=0}
-	1323.1.1 = {holder=485000}
+k_epirus = {	#k_epirus
+	1066.1.1 = {holder=0}
 }
 
 c_nicopolis = {	#k_epirus
@@ -1443,10 +1595,6 @@ c_nicopolis = {	#k_epirus
 	1318.1.1 = {holder=31440}	#Nicolo Orsini
 	1323.1.1 = {holder=31441}	#Giovanni II Orsini
 	1335.1.1 = {holder=31443}	#Nikephoros Orsini
-}
-
-k_epirus = {	#k_epirus
-	1066.1.1 = {holder=0}
 }
 
 c_debar = {	#k_epirus
@@ -1630,24 +1778,28 @@ c_halych = {	#k_galicia-volhynia
 	1325.1.2 = {holder=472100}
 }
 
-c_belz = {	#k_galicia-volhynia
+c_terebovl = {	#k_galicia-volhynia
 	###Pre-Kievan Rus'
 	500.1.1 = {
 		liege = 0
 		government = tribal_government
 	}
-	862.1.1 = {holder=302146}	#fictional
-	903.8.15 = {holder=302169}	#fictional conquered by Volhynians
-	926.8.14 = {holder=302170}	#fictional
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	946.1.15 = {holder=302171}	#fictional
+	865.8.4 = {holder=302151}	#Fictional
 	###Kievan Rus'
-	992.4.10 = {
+	882.1.2 = {
+		holder = 40606
 		liege = d_kiev
-		holder = 302178	# fictional
 	}
-	1041.3.3 = {holder=302179}	# fictional
-	1062.3.3 = {holder=302180}	# fictional
+	912.1.2 = {holder=600}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	945.1.2 = {holder=602}
+	972.1.2 = {holder=604}
+	978.1.2 = {holder=608}
+	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
+	1016.1.2 = {holder=612}	#Yaroslav the Wise
+	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
+	1019.1.2 = {holder=612}	#Yaroslav the Wise
+	1054.2.20 = {holder=302195}	#Fictional Ivan Trembovliv
 	###Fragmentation of Kievan Rus'
 	1069.4.15 = {holder=626}
 	1073.1.2 = {holder=628}
@@ -1701,28 +1853,24 @@ c_belz = {	#k_galicia-volhynia
 	1325.1.2 = {holder=472100}
 }
 
-c_terebovl = {	#k_galicia-volhynia
+c_belz = {	#k_galicia-volhynia
 	###Pre-Kievan Rus'
 	500.1.1 = {
 		liege = 0
 		government = tribal_government
 	}
-	865.8.4 = {holder=302151}	#Fictional
-	###Kievan Rus'
-	882.1.2 = {
-		holder = 40606
-		liege = d_kiev
-	}
-	912.1.2 = {holder=600}
+	862.1.1 = {holder=302146}	#fictional
+	903.8.15 = {holder=302169}	#fictional conquered by Volhynians
+	926.8.14 = {holder=302170}	#fictional
 	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	945.1.2 = {holder=602}
-	972.1.2 = {holder=604}
-	978.1.2 = {holder=608}
-	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
-	1016.1.2 = {holder=612}	#Yaroslav the Wise
-	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
-	1019.1.2 = {holder=612}	#Yaroslav the Wise
-	1054.2.20 = {holder=302195}	#Fictional Ivan Trembovliv
+	946.1.15 = {holder=302171}	#fictional
+	###Kievan Rus'
+	992.4.10 = {
+		liege = d_kiev
+		holder = 302178	# fictional
+	}
+	1041.3.3 = {holder=302179}	# fictional
+	1062.3.3 = {holder=302180}	# fictional
 	###Fragmentation of Kievan Rus'
 	1069.4.15 = {holder=626}
 	1073.1.2 = {holder=628}
@@ -2082,6 +2230,29 @@ c_krasso = {	#k_hungary
 	1330.1.10 = {holder=470135}
 }
 
+d_bacs = {	#k_hungary
+	805.1.1 = {
+		liege = "k_bulgaria"
+		holder = 146172
+		government = tribal_government
+	}
+	808.1.1 = {holder=146173}
+	813.1.1 = {holder=194000}
+	830.1.1 = {holder=168071}
+	858.1.1 = {holder=168072}
+	884.1.1 = {holder=168073}
+	891.1.1 = {holder=168074}
+	895.1.1 = {
+		liege = "k_magyar"
+		holder = 0
+	}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1000.12.25 = {liege=k_hungary}
+	1299.1.1 = {holder=93794}
+	1301.1.1 = {holder=93796}
+	1325.1.1 = {holder=469500}
+}
+
 k_igbo_benue = {	#k_igbo_benue
 	800.1.1 = {liege=e_guinea}
 }
@@ -2166,6 +2337,48 @@ c_connacht = {	#k_ireland
 	1343.7.1 = {holder=83519}	#Toirrdelbach mac Aeda
 }
 
+c_pisa = {	#k_italy
+	867.1.1 = {change_development_level=8}
+	1066.1.1 = {change_development_level=11}
+	713.1.1 = {liege=k_italy}
+	713.1.1 = {holder=190278}	#Walperto
+	754.1.1 = {holder=190279}	#Alperto
+	773.1.1 = {holder=190280}	#Tachiperto
+	846.1.1 = {liege=d_toscana}
+	846.1.1 = {holder=168364}
+	1060.1.1 = {
+		holder = 180023	#Tedice III della Gheradesca
+		liege = d_pisa
+	}
+	1078.1.1 = {holder=180203}	#Gerardo Visconti
+	1084.1.1 = {holder=167486}	#Ugo Caetani
+	1100.1.1 = {holder=167508}	#Antonio Alliata
+	1115.1.1 = {holder=167407}	#Leonardo I d'Appiano
+	1140.1.1 = {holder=180025}	#Tedice V della Gheradesca
+	1157.1.1 = {holder=71168}	#Alberto Visconti
+	1174.1.1 = {holder=167443}	#Gregorio Caetani
+	1190.1.1 = {holder=167512}	#Dazio Alliata
+	1215.1.1 = {holder=167410}	#Jacopo II d'Appiano
+	1220.1.1 = {holder=180026}	#Tedice VI della Gherardesca
+	1222.1.1 = {holder=71166}	#Ubaldo Visconti
+	1230.1.1 = {holder=167453}	#Mattia Caetani
+	1260.1.1 = {holder=167514}	#Fillipo Alliata
+	1270.1.1 = {holder=167401}	#Jacopo III d'Appiano
+	1285.1.1 = {holder=73454}
+	1288.1.1 = {holder=73463}
+	1288.7.1 = {holder=73464}
+	1289.1.1 = {holder=73599}
+	1294.1.1 = {holder=73465}
+	1312.1.1 = {holder=462611}
+	1313.1.1 = {holder=73425}
+	1316.1.1 = {holder=180083}
+	1320.1.1 = {holder=180090}
+	1325.1.1 = {holder=462740}
+	1328.4.1 = {holder=73426}
+	1328.9.1 = {holder=462740}
+	1329.1.1 = {holder=180085}
+}
+
 d_pisa = {	#k_italy
 	#Associated patrician titles:
 	#b_alliata
@@ -2237,48 +2450,6 @@ d_pisa = {	#k_italy
 	#	holder = 463450
 	#	liege = 0
 	#}
-}
-
-c_pisa = {	#k_italy
-	867.1.1 = {change_development_level=8}
-	1066.1.1 = {change_development_level=11}
-	713.1.1 = {liege=k_italy}
-	713.1.1 = {holder=190278}	#Walperto
-	754.1.1 = {holder=190279}	#Alperto
-	773.1.1 = {holder=190280}	#Tachiperto
-	846.1.1 = {liege=d_toscana}
-	846.1.1 = {holder=168364}
-	1060.1.1 = {
-		holder = 180023	#Tedice III della Gheradesca
-		liege = d_pisa
-	}
-	1078.1.1 = {holder=180203}	#Gerardo Visconti
-	1084.1.1 = {holder=167486}	#Ugo Caetani
-	1100.1.1 = {holder=167508}	#Antonio Alliata
-	1115.1.1 = {holder=167407}	#Leonardo I d'Appiano
-	1140.1.1 = {holder=180025}	#Tedice V della Gheradesca
-	1157.1.1 = {holder=71168}	#Alberto Visconti
-	1174.1.1 = {holder=167443}	#Gregorio Caetani
-	1190.1.1 = {holder=167512}	#Dazio Alliata
-	1215.1.1 = {holder=167410}	#Jacopo II d'Appiano
-	1220.1.1 = {holder=180026}	#Tedice VI della Gherardesca
-	1222.1.1 = {holder=71166}	#Ubaldo Visconti
-	1230.1.1 = {holder=167453}	#Mattia Caetani
-	1260.1.1 = {holder=167514}	#Fillipo Alliata
-	1270.1.1 = {holder=167401}	#Jacopo III d'Appiano
-	1285.1.1 = {holder=73454}
-	1288.1.1 = {holder=73463}
-	1288.7.1 = {holder=73464}
-	1289.1.1 = {holder=73599}
-	1294.1.1 = {holder=73465}
-	1312.1.1 = {holder=462611}
-	1313.1.1 = {holder=73425}
-	1316.1.1 = {holder=180083}
-	1320.1.1 = {holder=180090}
-	1325.1.1 = {holder=462740}
-	1328.4.1 = {holder=73426}
-	1328.9.1 = {holder=462740}
-	1329.1.1 = {holder=180085}
 }
 
 k_italy = {	#k_italy
@@ -2392,6 +2563,32 @@ c_hadithat-ana = {	#k_jazira
 	1280.1.1 = {holder=93396}
 	1320.1.1 = {liege=d_baghdad}
 	1320.1.1 = {holder=93397}
+}
+
+k_jenne = {	#k_jenne
+	867.1.1 = {change_development_level=2}
+	1066.1.1 = {change_development_level=5}
+}
+
+c_niomi = {	#k_kaabu
+	867.1.1 = {change_development_level=1}
+	1066.1.1 = {change_development_level=3}
+	#Serer tribe
+	855.1.1 = {
+		government = tribal_government
+		holder = wolof0030
+	}
+	893.1.1 = {holder=wolof0031}
+	907.1.1 = {holder=wolof0032}
+	950.1.1 = {holder=wolof0033}
+	995.1.1 = {holder=wolof0034}
+	1040.1.1 = {holder=wolof0035}
+	1073.1.1 = {holder=wolof0036}
+	1109.1.1 = {holder=wolof0037}
+	1123.1.1 = {holder=wolof0038}
+	1169.1.1 = {holder=wolof0039}
+	1192.1.1 = {holder=wolof0040}
+	1233.1.1 = {holder=wolof0041}
 }
 
 d_kabul = {	#k_kabulistan
@@ -2601,6 +2798,24 @@ c_orenburg = {	#k_kimek
 	1199.6.23 = {holder=302784}	#fictional Tolun Imaek
 }
 
+c_koi-bagar = {	#k_kipchak
+	#867
+	843.1.19 = {
+		holder = 302726	#fictional Uzur Jazaiqj�rgis
+		liege = 0
+	}
+	870.4.13 = {holder=302729}	#fictional Tolun Jazaiqj�rgis
+	#1066
+	1060.7.19 = {
+		holder = 302790	#Koza Jaziqj�rgis
+		liege = d_kentarlau
+	}
+	1095.8.28 = {holder=302792}	#Gzi Jaziqj�rgis
+	1113.7.18 = {holder=302793}	#Koza Jaziqj�rgis
+	1143.9.11 = {holder=302794}	#TO_rtogul Jaziqj�rgis
+	1178.7.8 = {holder=302795}	#Bonyak Jaziqj�rgis
+}
+
 c_jiren_suat = {	#k_kipchak
 	#867
 	843.1.19 = {
@@ -2620,26 +2835,88 @@ c_jiren_suat = {	#k_kipchak
 	1178.7.8 = {holder=302795}	#Bonyak Jaziqj�rgis
 }
 
-c_koi-bagar = {	#k_kipchak
-	#867
-	843.1.19 = {
-		holder = 302726	#fictional Uzur Jazaiqj�rgis
-		liege = 0
-	}
-	870.4.13 = {holder=302729}	#fictional Tolun Jazaiqj�rgis
-	#1066
-	1060.7.19 = {
-		holder = 302790	#Koza Jaziqj�rgis
-		liege = d_kentarlau
-	}
-	1095.8.28 = {holder=302792}	#Gzi Jaziqj�rgis
-	1113.7.18 = {holder=302793}	#Koza Jaziqj�rgis
-	1143.9.11 = {holder=302794}	#TO_rtogul Jaziqj�rgis
-	1178.7.8 = {holder=302795}	#Bonyak Jaziqj�rgis
-}
-
 k_krete = {	#k_krete
 	1066.1.1 = {holder=0}
+}
+
+c_batakamsk = {	#k_kyrgyzstan
+	800.1.1 = {liege=d_batakamsk}
+}
+
+d_belgoratov = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+c_leninokarino = {	#k_kyrgyzstan
+	800.1.1 = {liege=d_leninokarino}
+}
+
+d_sturkuta = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+d_vyavodsk = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+d_leninokarino = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+c_belgoratov = {	#k_kyrgyzstan
+	800.1.1 = {liege=d_belgoratov}
+}
+
+d_stagorod = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+c_achitroitsk = {	#k_kyrgyzstan
+	800.1.1 = {liege=d_achitroitsk}
+}
+
+d_noyaysk = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+c_novoussosh = {	#k_kyrgyzstan
+	800.1.1 = {liege=d_novoussosh}
+}
+
+c_sturkuta = {	#k_kyrgyzstan
+	800.1.1 = {liege=d_sturkuta}
+}
+
+d_vyboglebsk = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+d_novoussosh = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+c_stagorod = {	#k_kyrgyzstan
+	800.1.1 = {liege=d_stagorod}
+}
+
+d_zheleznoriysk = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+d_achitroitsk = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+d_batakamsk = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+d_khipovets = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
+}
+
+d_kamyshchensk = {	#k_kyrgyzstan
+	800.1.1 = {liege=k_kyrgyzstan}
 }
 
 c_phiti = {	#k_lanka
@@ -2692,37 +2969,6 @@ c_phiti = {	#k_lanka
 	1325.1.1 = {holder=189146}
 }
 
-c_bartenstein = {	#k_lithuania
-	750.1.1 = {
-		holder = 194076
-		liege = d_prussia
-	}
-	799.1.1 = {holder=194077}
-	822.1.1 = {holder=194078}
-	867.1.1 = {holder=167744}
-	1066.1.1 = {holder=28022}
-	1120.1.1 = {holder=144672}
-	1170.1.1 = {holder=228019}
-	#Golden Bull of Rimini
-	1225.1.1 = {liege=d_teutonic_order}
-	1225.1.1 = {holder=30403}	#Hermann von Salza
-	1239.3.20 = {holder=30404}	#Konrad von Th�ringen
-	1240.7.24 = {holder=30405}	#Gerhard von Malberg
-	1244.1.1 = {holder=30406}	#Heinrich von Hohenlohe
-	1249.7.15 = {holder=30407}	#Gunther von W�llersleben
-	1252.5.4 = {holder=30408}	#Poppo von Osterna
-	1256.1.1 = {holder=30409}	#Anno von Sangershausen
-	1273.7.8 = {holder=30410}	#Hartmann von Heldrungen
-	1282.8.19 = {holder=30411}	#Burchard von Schwanden
-	1290.1.1 = {holder=30412}	#Konrad von Feuchtwangen
-	1296.7.4 = {holder=30413}	#Gottfried von Hohenlohe
-	1303.1.1 = {holder=30414}	#Siegfried von Feuchtwangen
-	1311.5.3 = {holder=30415}	#Karl von Trier
-	1324.2.11 = {holder=30416}	#Werner von Orseln
-	1330.11.18 = {holder=30417}	#Luther Welf
-	1335.4.18 = {holder=474000}	#Dietrich von Altenburg
-}
-
 d_lithuanians = {	#k_lithuania
 	750.1.1 = {
 		holder = 194113
@@ -2755,38 +3001,6 @@ d_lithuanians = {	#k_lithuania
 	1316.1.1 = {holder=473500}
 }
 
-c_osterode = {	#k_lithuania
-	750.1.1 = {
-		holder = 194076
-		liege = d_prussia
-		government = tribal_government
-	}
-	799.1.1 = {holder=194077}
-	822.1.1 = {holder=194078}
-	867.1.1 = {holder=167744}
-	1066.1.1 = {holder=28019}
-	1120.1.1 = {holder=144672}
-	1170.1.1 = {holder=228019}
-	#Golden Bull of Rimini
-	1225.1.1 = {liege=d_teutonic_order}
-	1225.1.1 = {holder=30403}	#Hermann von Salza
-	1239.3.20 = {holder=30404}	#Konrad von Th�ringen
-	1240.7.24 = {holder=30405}	#Gerhard von Malberg
-	1244.1.1 = {holder=30406}	#Heinrich von Hohenlohe
-	1249.7.15 = {holder=30407}	#Gunther von W�llersleben
-	1252.5.4 = {holder=30408}	#Poppo von Osterna
-	1256.1.1 = {holder=30409}	#Anno von Sangershausen
-	1273.7.8 = {holder=30410}	#Hartmann von Heldrungen
-	1282.8.19 = {holder=30411}	#Burchard von Schwanden
-	1290.1.1 = {holder=30412}	#Konrad von Feuchtwangen
-	1296.7.4 = {holder=30413}	#Gottfried von Hohenlohe
-	1303.1.1 = {holder=30414}	#Siegfried von Feuchtwangen
-	1311.5.3 = {holder=30415}	#Karl von Trier
-	1324.2.11 = {holder=30416}	#Werner von Orseln
-	1330.11.18 = {holder=30417}	#Luther Welf
-	1335.4.18 = {holder=474000}	#Dietrich von Altenburg
-}
-
 c_malbork = {	#k_lithuania
 	750.1.1 = {
 		holder = 194074
@@ -2799,38 +3013,6 @@ c_malbork = {	#k_lithuania
 	1066.1.1 = {holder=28015}
 	1120.1.1 = {holder=144671}
 	1170.1.1 = {holder=228016}
-	#Golden Bull of Rimini
-	1225.1.1 = {liege=d_teutonic_order}
-	1225.1.1 = {holder=30403}	#Hermann von Salza
-	1239.3.20 = {holder=30404}	#Konrad von Th�ringen
-	1240.7.24 = {holder=30405}	#Gerhard von Malberg
-	1244.1.1 = {holder=30406}	#Heinrich von Hohenlohe
-	1249.7.15 = {holder=30407}	#Gunther von W�llersleben
-	1252.5.4 = {holder=30408}	#Poppo von Osterna
-	1256.1.1 = {holder=30409}	#Anno von Sangershausen
-	1273.7.8 = {holder=30410}	#Hartmann von Heldrungen
-	1282.8.19 = {holder=30411}	#Burchard von Schwanden
-	1290.1.1 = {holder=30412}	#Konrad von Feuchtwangen
-	1296.7.4 = {holder=30413}	#Gottfried von Hohenlohe
-	1303.1.1 = {holder=30414}	#Siegfried von Feuchtwangen
-	1311.5.3 = {holder=30415}	#Karl von Trier
-	1324.2.11 = {holder=30416}	#Werner von Orseln
-	1330.11.18 = {holder=30417}	#Luther Welf
-	1335.4.18 = {holder=474000}	#Dietrich von Altenburg
-}
-
-c_wormditt = {	#k_lithuania
-	750.1.1 = {
-		holder = 194076
-		liege = d_prussia
-		government = tribal_government
-	}
-	799.1.1 = {holder=194077}
-	822.1.1 = {holder=194078}
-	867.1.1 = {holder=167744}
-	1066.1.1 = {holder=28019}
-	1120.1.1 = {holder=144672}
-	1170.1.1 = {holder=228019}
 	#Golden Bull of Rimini
 	1225.1.1 = {liege=d_teutonic_order}
 	1225.1.1 = {holder=30403}	#Hermann von Salza
@@ -2900,6 +3082,101 @@ c_torun = {	#k_lithuania
 	}
 	1120.1.1 = {holder=144671}
 	1170.1.1 = {holder=228016}
+	#Golden Bull of Rimini
+	1225.1.1 = {liege=d_teutonic_order}
+	1225.1.1 = {holder=30403}	#Hermann von Salza
+	1239.3.20 = {holder=30404}	#Konrad von Th�ringen
+	1240.7.24 = {holder=30405}	#Gerhard von Malberg
+	1244.1.1 = {holder=30406}	#Heinrich von Hohenlohe
+	1249.7.15 = {holder=30407}	#Gunther von W�llersleben
+	1252.5.4 = {holder=30408}	#Poppo von Osterna
+	1256.1.1 = {holder=30409}	#Anno von Sangershausen
+	1273.7.8 = {holder=30410}	#Hartmann von Heldrungen
+	1282.8.19 = {holder=30411}	#Burchard von Schwanden
+	1290.1.1 = {holder=30412}	#Konrad von Feuchtwangen
+	1296.7.4 = {holder=30413}	#Gottfried von Hohenlohe
+	1303.1.1 = {holder=30414}	#Siegfried von Feuchtwangen
+	1311.5.3 = {holder=30415}	#Karl von Trier
+	1324.2.11 = {holder=30416}	#Werner von Orseln
+	1330.11.18 = {holder=30417}	#Luther Welf
+	1335.4.18 = {holder=474000}	#Dietrich von Altenburg
+}
+
+c_bartenstein = {	#k_lithuania
+	750.1.1 = {
+		holder = 194076
+		liege = d_prussia
+	}
+	799.1.1 = {holder=194077}
+	822.1.1 = {holder=194078}
+	867.1.1 = {holder=167744}
+	1066.1.1 = {holder=28022}
+	1120.1.1 = {holder=144672}
+	1170.1.1 = {holder=228019}
+	#Golden Bull of Rimini
+	1225.1.1 = {liege=d_teutonic_order}
+	1225.1.1 = {holder=30403}	#Hermann von Salza
+	1239.3.20 = {holder=30404}	#Konrad von Th�ringen
+	1240.7.24 = {holder=30405}	#Gerhard von Malberg
+	1244.1.1 = {holder=30406}	#Heinrich von Hohenlohe
+	1249.7.15 = {holder=30407}	#Gunther von W�llersleben
+	1252.5.4 = {holder=30408}	#Poppo von Osterna
+	1256.1.1 = {holder=30409}	#Anno von Sangershausen
+	1273.7.8 = {holder=30410}	#Hartmann von Heldrungen
+	1282.8.19 = {holder=30411}	#Burchard von Schwanden
+	1290.1.1 = {holder=30412}	#Konrad von Feuchtwangen
+	1296.7.4 = {holder=30413}	#Gottfried von Hohenlohe
+	1303.1.1 = {holder=30414}	#Siegfried von Feuchtwangen
+	1311.5.3 = {holder=30415}	#Karl von Trier
+	1324.2.11 = {holder=30416}	#Werner von Orseln
+	1330.11.18 = {holder=30417}	#Luther Welf
+	1335.4.18 = {holder=474000}	#Dietrich von Altenburg
+}
+
+c_osterode = {	#k_lithuania
+	750.1.1 = {
+		holder = 194076
+		liege = d_prussia
+		government = tribal_government
+	}
+	799.1.1 = {holder=194077}
+	822.1.1 = {holder=194078}
+	867.1.1 = {holder=167744}
+	1066.1.1 = {holder=28019}
+	1120.1.1 = {holder=144672}
+	1170.1.1 = {holder=228019}
+	#Golden Bull of Rimini
+	1225.1.1 = {liege=d_teutonic_order}
+	1225.1.1 = {holder=30403}	#Hermann von Salza
+	1239.3.20 = {holder=30404}	#Konrad von Th�ringen
+	1240.7.24 = {holder=30405}	#Gerhard von Malberg
+	1244.1.1 = {holder=30406}	#Heinrich von Hohenlohe
+	1249.7.15 = {holder=30407}	#Gunther von W�llersleben
+	1252.5.4 = {holder=30408}	#Poppo von Osterna
+	1256.1.1 = {holder=30409}	#Anno von Sangershausen
+	1273.7.8 = {holder=30410}	#Hartmann von Heldrungen
+	1282.8.19 = {holder=30411}	#Burchard von Schwanden
+	1290.1.1 = {holder=30412}	#Konrad von Feuchtwangen
+	1296.7.4 = {holder=30413}	#Gottfried von Hohenlohe
+	1303.1.1 = {holder=30414}	#Siegfried von Feuchtwangen
+	1311.5.3 = {holder=30415}	#Karl von Trier
+	1324.2.11 = {holder=30416}	#Werner von Orseln
+	1330.11.18 = {holder=30417}	#Luther Welf
+	1335.4.18 = {holder=474000}	#Dietrich von Altenburg
+}
+
+c_wormditt = {	#k_lithuania
+	750.1.1 = {
+		holder = 194076
+		liege = d_prussia
+		government = tribal_government
+	}
+	799.1.1 = {holder=194077}
+	822.1.1 = {holder=194078}
+	867.1.1 = {holder=167744}
+	1066.1.1 = {holder=28019}
+	1120.1.1 = {holder=144672}
+	1170.1.1 = {holder=228019}
 	#Golden Bull of Rimini
 	1225.1.1 = {liege=d_teutonic_order}
 	1225.1.1 = {holder=30403}	#Hermann von Salza
@@ -3102,6 +3379,43 @@ k_lotharingia = {	#k_lotharingia
 	911.9.20 = {holder=90111}	#Charles III the Simple
 	923.1.1 = {holder=0}
 	962.2.2 = {de_jure_liege=e_hre}
+}
+
+c_tiris = {	#k_maghreb
+	835.1.1 = {
+		liege = d_adrar
+		holder = 273072
+		government = tribal_government
+	}
+	893.1.1 = {holder=273073}
+	918.1.1 = {holder=273123}
+	953.1.1 = {holder=273124}
+	999.1.1 = {holder=273077}
+	1003.1.1 = {holder=273079}
+	1019.1.1 = {holder=273078}
+	1038.1.1 = {holder=32963}	#Ibrahim Almoravid
+	1041.1.1 = {holder=32957}	#Umar Almoravid
+	1046.1.1 = {holder=32958}	#Yahya Almoravid
+	1057.1.1 = {holder=3853}	#Abu-Bakr Almoravid
+	#old history
+	1080.1.1 = {holder=161003}
+	1100.1.1 = {holder=161004}
+	1120.1.1 = {holder=161005}
+	1130.1.1 = {holder=161006}
+	1140.1.1 = {holder=161007}
+	1160.1.1 = {holder=161008}
+	1180.1.1 = {holder=161023}
+	1240.1.1 = {holder=161022}
+	1255.1.1 = {holder=161026}
+	1270.1.1 = {holder=161027}
+	1274.1.1 = {holder=161028}
+	1275.1.1 = {holder=161025}
+	1285.1.1 = {holder=161029}
+	1300.1.1 = {holder=161031}
+	1305.1.1 = {holder=161032}
+	1310.1.1 = {holder=161034}
+	1312.1.1 = {holder=161035}
+	1337.1.1 = {holder=161036}
 }
 
 c_karahataka = {	#k_maharastra
@@ -3350,54 +3664,6 @@ d_ephese = {	#k_nikaea
 	1310.1.1 = {holder=71870}
 }
 
-b_stolsheimen = {	#k_norway
-	1055.1.1 = {holder=norwegian.1002}
-}
-
-c_gauldala = {	#k_norway
-	760.1.1 = {
-		holder = 194013
-		government = tribal_government
-	}
-	#770.1.1 = {
-	#	holder = 0
-	#}
-	867.1.1 = {
-		#holder = 186004
-		holder = 280026
-	}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1047.1.1 = {
-		liege = k_norway
-		holder = 102531	# Harald Hardråde
-	}
-	1066.9.26 = {holder=102532}	# Magnus Haraldson
-	1069.4.28 = {holder=102534}	# Olof Haraldson
-	1093.1.1 = {holder=102577}	# Håkon Magnuson
-	1094.6.6 = {holder=202511}	# Magnus Barfot
-	1103.1.25 = {holder=222598}	# Olaf Magnusson
-	1115.12.22 = {holder=222597}	# Øystein Magnusson
-	1123.8.29 = {holder=222595}	# Sigurd Magnusson
-	1130.3.26 = {holder=222599}	# Magnus Sigurdsson - The Blind
-	1135.1.7 = {holder=202510}	# Harald Gille
-	1136.12.14 = {holder=202501}	# Sigurd Munn, son of Harald Gille, actually co-regent with 202514 and 202512
-	1155.6.10 = {holder=202514}	# Øystein, son of Harald Gille
-	1157.8.21 = {holder=202512}	# Inge Krokrygg, son of Harald Gille
-	1161.1.5 = {holder=202507}	# Håkon Herdebrei, son of Sigurd Munn
-	1162.7.7 = {holder=202051}	# Magnus Erlingsson
-	1184.6.15 = {holder=202500}	# Sverre Sigurdsson
-	1202.3.9 = {holder=202502}	# Håkon Sverreson
-	1204.1.1 = {holder=202508}	# Guttorm Sigurdsson
-	1204.8.11 = {holder=202032}	# Inge Bårdsson
-	1217.4.23 = {holder=202034}
-	1240.5.24 = {holder=202035}
-	1270.1.1 = {holder=6905}
-	1280.5.9 = {holder=6906}
-	1299.7.15 = {holder=452510}	# Håkon Magnusson
-	1319.5.8 = {holder=450500}	# Magnus Eriksson (Bjälbo)
-	1337.1.1 = {holder=450790}
-}
-
 c_jamtfir = {	#k_norway
 	760.1.1 = {
 		holder = 194021
@@ -3420,29 +3686,6 @@ c_jamtfir = {	#k_norway
 	1220.1.1 = {holder=194313}
 	1250.1.1 = {holder=450801}
 	1290.1.1 = {holder=450800}
-}
-
-c_vestisland = {	#k_norway
-	767.1.1 = {
-		holder = 194044
-		government = tribal_government
-	}
-	867.1.1 = {holder=168609}	#Aud the Deep-minded, early Icelandic settler and credited as the one who brought Christianity to Iceland
-	#935.1.1 = {
-	#	government = feudal_government	#Ahistorical, just for ease of bookmarks.
-	#}
-	1066.1.1 = {liege=d_iceland}
-	1066.1.1 = {holder=20580}
-	1088.1.1 = {holder=20581}
-	1120.1.1 = {holder=202026}
-	1133.1.1 = {holder=202024}
-	1197.1.1 = {holder=202028}
-	1222.11.7 = {holder=202012}
-	1235.9.1 = {holder=144647}
-	1268.1.12 = {holder=6905}
-	1280.5.9 = {holder=6906}
-	1299.7.15 = {holder=452510}
-	1319.5.8 = {holder=450500}
 }
 
 c_raniriki = {	#k_norway
@@ -3488,30 +3731,6 @@ c_raniriki = {	#k_norway
 	}
 	1319.7.8 = {holder=450500}	# Magnus Eriksson
 	1337.1.1 = {holder=450660}
-}
-
-c_harjadalen = {	#k_norway
-	760.1.1 = {
-		holder = 194021
-		government = tribal_government
-	}
-	#770.1.1 = {
-	#	holder = 0
-	#}
-	867.1.1 = {holder=186015}
-	1066.1.1 = {holder=102575}
-	1070.1.2 = {holder=143129}
-	1130.1.1 = {holder=143130}
-	1178.1.1 = {liege=d_jamtland}
-	1178.1.1 = {holder=202051}
-	1184.6.15 = {holder=202500}
-	1202.3.9 = {holder=202502}
-	1204.1.1 = {holder=202508}
-	1204.8.11 = {holder=202032}
-	1217.4.23 = {holder=202509}
-	1220.1.1 = {holder=194313}
-	1250.1.1 = {holder=450801}
-	1290.1.1 = {holder=450800}
 }
 
 c_agdeside = {	#k_norway
@@ -3575,6 +3794,101 @@ c_austisland = {	#k_norway
 	1280.5.9 = {holder=6906}
 	1299.7.15 = {holder=452510}
 	1319.5.8 = {holder=450500}
+}
+
+b_stolsheimen = {	#k_norway
+	1055.1.1 = {holder=norwegian.1002}
+}
+
+c_gauldala = {	#k_norway
+	760.1.1 = {
+		holder = 194013
+		government = tribal_government
+	}
+	#770.1.1 = {
+	#	holder = 0
+	#}
+	867.1.1 = {
+		#holder = 186004
+		holder = 280026
+	}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1047.1.1 = {
+		liege = k_norway
+		holder = 102531	# Harald Hardråde
+	}
+	1066.9.26 = {holder=102532}	# Magnus Haraldson
+	1069.4.28 = {holder=102534}	# Olof Haraldson
+	1093.1.1 = {holder=102577}	# Håkon Magnuson
+	1094.6.6 = {holder=202511}	# Magnus Barfot
+	1103.1.25 = {holder=222598}	# Olaf Magnusson
+	1115.12.22 = {holder=222597}	# Øystein Magnusson
+	1123.8.29 = {holder=222595}	# Sigurd Magnusson
+	1130.3.26 = {holder=222599}	# Magnus Sigurdsson - The Blind
+	1135.1.7 = {holder=202510}	# Harald Gille
+	1136.12.14 = {holder=202501}	# Sigurd Munn, son of Harald Gille, actually co-regent with 202514 and 202512
+	1155.6.10 = {holder=202514}	# Øystein, son of Harald Gille
+	1157.8.21 = {holder=202512}	# Inge Krokrygg, son of Harald Gille
+	1161.1.5 = {holder=202507}	# Håkon Herdebrei, son of Sigurd Munn
+	1162.7.7 = {holder=202051}	# Magnus Erlingsson
+	1184.6.15 = {holder=202500}	# Sverre Sigurdsson
+	1202.3.9 = {holder=202502}	# Håkon Sverreson
+	1204.1.1 = {holder=202508}	# Guttorm Sigurdsson
+	1204.8.11 = {holder=202032}	# Inge Bårdsson
+	1217.4.23 = {holder=202034}
+	1240.5.24 = {holder=202035}
+	1270.1.1 = {holder=6905}
+	1280.5.9 = {holder=6906}
+	1299.7.15 = {holder=452510}	# Håkon Magnusson
+	1319.5.8 = {holder=450500}	# Magnus Eriksson (Bjälbo)
+	1337.1.1 = {holder=450790}
+}
+
+c_vestisland = {	#k_norway
+	767.1.1 = {
+		holder = 194044
+		government = tribal_government
+	}
+	867.1.1 = {holder=168609}	#Aud the Deep-minded, early Icelandic settler and credited as the one who brought Christianity to Iceland
+	#935.1.1 = {
+	#	government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	#}
+	1066.1.1 = {liege=d_iceland}
+	1066.1.1 = {holder=20580}
+	1088.1.1 = {holder=20581}
+	1120.1.1 = {holder=202026}
+	1133.1.1 = {holder=202024}
+	1197.1.1 = {holder=202028}
+	1222.11.7 = {holder=202012}
+	1235.9.1 = {holder=144647}
+	1268.1.12 = {holder=6905}
+	1280.5.9 = {holder=6906}
+	1299.7.15 = {holder=452510}
+	1319.5.8 = {holder=450500}
+}
+
+c_harjadalen = {	#k_norway
+	760.1.1 = {
+		holder = 194021
+		government = tribal_government
+	}
+	#770.1.1 = {
+	#	holder = 0
+	#}
+	867.1.1 = {holder=186015}
+	1066.1.1 = {holder=102575}
+	1070.1.2 = {holder=143129}
+	1130.1.1 = {holder=143130}
+	1178.1.1 = {liege=d_jamtland}
+	1178.1.1 = {holder=202051}
+	1184.6.15 = {holder=202500}
+	1202.3.9 = {holder=202502}
+	1204.1.1 = {holder=202508}
+	1204.8.11 = {holder=202032}
+	1217.4.23 = {holder=202509}
+	1220.1.1 = {holder=194313}
+	1250.1.1 = {holder=450801}
+	1290.1.1 = {holder=450800}
 }
 
 c_nedenes = {	#k_norway
@@ -3668,6 +3982,10 @@ d_sennar = {	#k_nubia
 	1066.1.1 = {change_development_level=3}
 }
 
+c_dolgoleuz = {	#k_nubia
+	800.1.1 = {liege=d_dolgoleuz}
+}
+
 c_batn_al-hajar = {	#k_nubia
 	536.1.1 = {
 		liege = "d_nobatia"
@@ -3756,6 +4074,20 @@ c_wadi_el-milk = {	#k_nubia
 	1320.1.1 = {holder=34988}
 }
 
+c_tartas_SIB = {	#k_ob
+	#867
+	858.5.9 = {
+		holder = 302926	#fictional Uchva Avran
+		liege = 0
+		government = tribal_government
+	}
+	#1066
+	1064.2.9 = {holder=302927}	#fictional Tyutyuk Avran
+	1105.10.28 = {holder=302928}	#fictional Koksha Avran
+	1132.5.17 = {holder=302929}	#fictional Azeg Avran
+	1158.1.4 = {holder=302930}	#fictional Biur Avran
+}
+
 c_konda_ob = {	#k_ob
 	#Kirghiz khanate
 	840.1.2 = {liege=e_kirghiz_khanate}
@@ -3774,62 +4106,6 @@ c_konda_ob = {	#k_ob
 	1124.3.3 = {holder=302949}	#fictional Odeg Hokhot
 	1160.5.8 = {holder=302950}	#fictional Osh Hokhot
 	1178.9.9 = {holder=302951}	#fictional Oshmar Hokhot
-}
-
-c_tartas_SIB = {	#k_ob
-	#867
-	858.5.9 = {
-		holder = 302926	#fictional Uchva Avran
-		liege = 0
-		government = tribal_government
-	}
-	#1066
-	1064.2.9 = {holder=302927}	#fictional Tyutyuk Avran
-	1105.10.28 = {holder=302928}	#fictional Koksha Avran
-	1132.5.17 = {holder=302929}	#fictional Azeg Avran
-	1158.1.4 = {holder=302930}	#fictional Biur Avran
-}
-
-c_kos-buwak = {	#k_oghuz_il
-	762.1.1 = {
-		#holder = 188826
-		holder = 188825
-		liege = k_oghuz_il
-		government = tribal_government
-	}
-	850.1.1 = {holder=74031}
-	#1050 - Desht-i-Kipchak / Cumania
-	1066.1.1 = {
-		holder = 194447
-		liege = k_cuman
-	}
-	#1085.1.1 = {
-	#	holder = 93088
-	#}
-	#1097.1.1 = {
-	#	holder = 144099
-	#}
-	#1127.1.1 = {
-	#	holder = 144100
-	#}
-	#1156.1.1 = {
-	#	holder = 144101
-	#}
-	#1172.3.1 = {
-	#	holder = 230000
-	#}
-	#1200.1.1 = {
-	#	holder = 93052
-	#}
-	#1207.1.1 = {
-	#	holder = 93053
-	#}
-	#Mongols
-	1221.1.1 = {liege=e_mongol_empire}
-	1221.1.1 = {holder=93100}
-	1227.12.2 = {liege=e_golden_horde}
-	1260.1.1 = {holder=93101}
-	1300.1.1 = {holder=93102}
 }
 
 c_ak-dzulpas = {	#k_oghuz_il
@@ -3874,7 +4150,54 @@ c_ak-dzulpas = {	#k_oghuz_il
 	1300.1.1 = {holder=93102}
 }
 
+c_kos-buwak = {	#k_oghuz_il
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = tribal_government
+	}
+	850.1.1 = {holder=74031}
+	#1050 - Desht-i-Kipchak / Cumania
+	1066.1.1 = {
+		holder = 194447
+		liege = k_cuman
+	}
+	#1085.1.1 = {
+	#	holder = 93088
+	#}
+	#1097.1.1 = {
+	#	holder = 144099
+	#}
+	#1127.1.1 = {
+	#	holder = 144100
+	#}
+	#1156.1.1 = {
+	#	holder = 144101
+	#}
+	#1172.3.1 = {
+	#	holder = 230000
+	#}
+	#1200.1.1 = {
+	#	holder = 93052
+	#}
+	#1207.1.1 = {
+	#	holder = 93053
+	#}
+	#Mongols
+	1221.1.1 = {liege=e_mongol_empire}
+	1221.1.1 = {holder=93100}
+	1227.12.2 = {liege=e_golden_horde}
+	1260.1.1 = {holder=93101}
+	1300.1.1 = {holder=93102}
+}
+
 k_opolye = {	#k_opolye
+	867.1.1 = {change_development_level=1}
+	1066.1.1 = {change_development_level=3}
+}
+
+k_outer_ajuraan = {	#k_outer_ajuraan
 	867.1.1 = {change_development_level=1}
 	1066.1.1 = {change_development_level=3}
 }
@@ -4059,32 +4382,6 @@ c_kaliska = {	#k_poland
 	1185.12.21 = {holder=302025}	#Jaroslaw Ciolek, mostly ficitonal
 }
 
-d_wielkopolska = {	#k_poland
-	867.1.1 = {change_development_level=3}
-	1066.1.1 = {change_development_level=8}
-	###Piasts
-	800.1.1 = {
-		holder = 82233	#Piast
-		liege = 0
-		government = tribal_government
-	}
-	861.1.1 = {holder=82235}	#Siemowit
-	880.1.1 = {holder=82236}	#Lestek
-	930.1.1 = {holder=752}	#Siemomysl
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	960.1.2 = {holder=754}	#Mieszko I of Poland
-	992.5.25 = {holder=756}	#Boleslaw I the Brave
-	1025.4.18 = {liege=k_poland}
-	1025.6.17 = {holder=758}	#Mieszko II Lambert
-	1031.4.1 = {holder=766}	#Bezprym
-	1032.7.10 = {holder=758}	#Mieszko II Lambert (restored)
-	###After Polish capital is moved to Krakow
-	1034.5.11 = {
-		holder = 0
-		liege = 0
-	}
-}
-
 c_lubusz = {	#k_poland
 	###867 Polanian tribes
 	500.1.1 = {
@@ -4148,6 +4445,237 @@ c_gostyninska = {	#k_poland
 	1092.4.26 = {holder=302037}	#Wincenty Lis, semi-fictional
 	1121.9.30 = {holder=302039}	#Waclaw Lis, semi-fictional
 	1166.11.13 = {holder=302040}	#Bogumil Lis, semi-fictional
+}
+
+c_dobrzynska = {	#k_poland
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {holder=302064}
+	#888.12.26 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###Kazimierz I's succession
+	1058.11.28 = {
+		holder = 302004	#Mieszko, Boleslaw & Wladyslaw's brother
+		liege = k_poland
+	}
+	1065.1.28 = {
+		holder = 764	#Wladyslaw I Herman
+		liege = d_kuyavia
+	}
+	1102.6.4 = {holder=170108}	#Zbigniew
+	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
+}
+
+c_poznanska = {	#k_poland
+	867.1.1 = {change_development_level=2}
+	1066.1.1 = {change_development_level=9}
+	###Piasts
+	800.1.1 = {
+		holder = 82233	#Piast
+		liege = d_wielkopolska
+		government = tribal_government
+	}
+	861.1.1 = {holder=82235}	#Siemowit
+	880.1.1 = {holder=82236}	#Lestek
+	930.1.1 = {holder=752}	#Siemomysl
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	960.1.2 = {holder=754}	#Mieszko I of Poland
+	992.5.25 = {holder=756}	#Boleslaw I the Brave
+	1025.4.18 = {liege=k_poland}
+	1025.6.17 = {holder=758}	#Mieszko II Lambert
+	1031.4.1 = {holder=766}	#Bezprym
+	1032.7.10 = {holder=758}	#Mieszko II Lambert (restored)
+	###After Polish capital is moved to Krakow
+	1034.5.11 = {
+		holder = 302016	#Pawel Ciolek, mostly fictional
+		liege = k_poland
+	}
+	1063.4.9 = {holder=302017}	#Jan Ciolek, mostly fictional
+	1103.11.18 = {holder=302019}	#Pawel Ciolek, mostly fictional
+	1127.3.12 = {holder=302021}	#Jaroslaw Ciolek, mostly fictional
+	1165.2.22 = {holder=302022}	#Jan Ciolek, mostly fictional
+	1185.12.21 = {holder=302025}	#Jaroslaw Ciolek, mostly ficitonal
+}
+
+c_leczycka = {	#k_poland
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {holder=302065}
+	#912.8.23 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###Kazimierz I's succession
+	1058.11.28 = {
+		holder = 764	#Wladyslaw I Herman
+		liege = d_kuyavia
+	}
+	1102.6.4 = {holder=170108}	#Zbigniew
+	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
+}
+
+c_miliez = {	#k_poland
+	750.1.1 = {
+		holder = 194084
+		government = tribal_government
+	}
+	799.1.1 = {holder=194085}
+	822.1.1 = {holder=82291}
+	864.1.1 = {holder=82293}
+	912.1.1 = {holder=82294}
+	914.1.1 = {holder=82297}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	942.1.1 = {holder=82300}
+	965.1.1 = {holder=82301}
+	985.1.1 = {holder=82302}
+	1020.1.1 = {holder=82303}
+	1060.11.28 = {holder=96093}
+	1116.1.1 = {holder=96094}
+	1153.4.16 = {holder=96096}
+	1163.1.1 = {holder=221530}
+	1177.1.1 = {holder=125943}
+	1190.1.1 = {holder=221530}
+	1201.12.7 = {holder=221537}
+	1238.3.19 = {holder=125905}
+	1241.4.9 = {holder=471734}
+	1248.1.1 = {holder=125910}
+	1274.8.6 = {holder=125912}
+	1309.12.3 = {holder=125913}
+}
+
+c_gnieznienska = {	#k_poland
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=9}
+	###Piasts
+	800.1.1 = {
+		holder = 82233	#Piast
+		liege = d_wielkopolska
+		government = tribal_government
+	}
+	861.1.1 = {holder=82235}	#Siemowit
+	880.1.1 = {holder=82236}	#Lestek
+	930.1.1 = {holder=752}	#Siemomysl
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	960.1.2 = {holder=754}	#Mieszko I of Poland
+	992.5.25 = {holder=756}	#Boleslaw I the Brave
+	###Archbishops of Gniezno
+	999.1.1 = {holder=302011}	#Radzim Gaudenty
+	1022.1.2 = {holder=96071}	#Hipolit
+	1025.4.18 = {liege=k_poland}
+	1027.1.1 = {holder=302012}	#Bossuta Stefan
+	1028.3.7 = {holder=302013}	#Fictional
+	1075.1.2 = {holder=20393}	#Bogumil
+	1092.1.1 = {holder=96075}	#Marcin
+	1112.1.1 = {holder=302014}	#Heinrich
+	1124.1.1 = {holder=96076}	#Jakub
+	1148.9.23 = {holder=96077}	#Janislaw
+	1168.3.11 = {holder=302015}	#Zdzislaw
+}
+
+c_krakowska = {	#k_poland
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=12}
+	###Proto-Polish tribes
+	#Krakus and the Lechitic tribes
+	700.1.1 = {
+		holder = 82273	#Krakus I the legendary
+		liege = d_lesser_poland
+		government = tribal_government
+	}
+	725.1.1 = {holder=82274}	#Wanda the legendary
+	738.1.1 = {holder=302066}
+	778.1.1 = {holder=302067}
+	813.1.1 = {holder=302055}
+	829.5.13 = {holder=302056}
+	862.3.26 = {
+		holder = 302058
+		liege = 0
+	}
+	#914.9.15 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###Kazimierz I's succession
+	1058.11.28 = {
+		holder = 762	#Boleslaw II the Bold
+		liege = d_lesser_poland
+	}
+	1079.5.1 = {holder=764}	#Wladyslaw I Herman
+	1102.6.4 = {holder=170108}	#Zbigniew
+	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
+}
+
+c_lomzynska = {	#k_poland
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	849.6.6 = {holder=302063}
+	#901.12.12 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###After Kazimierz I's death
+	1058.11.28 = {
+		holder = 302026	#Zygmunt Ossowski, semi-fictional
+		liege = k_poland
+	}
+	1101.2.9 = {holder=302027}	#Marcin Ossowski, semi-fictional
+	1123.4.3 = {holder=302030}	#Zygmunt Ossowski, semi-fictional
+	1141.4.22 = {holder=302031}	#Andrzej Ossowski, semi-fictional
+	1186.7.27 = {holder=302033}	#Mateusz Ossowski, semi-fictional
+}
+
+c_tarnowska = {	#k_poland
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {holder=302061}
+	#892.3.14 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=96098}
+	1079.5.1 = {holder=764}	#Wladyslaw I Herman
+	1102.6.4 = {holder=170108}	#Zbigniew
+	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
+}
+
+d_wielkopolska = {	#k_poland
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=8}
+	###Piasts
+	800.1.1 = {
+		holder = 82233	#Piast
+		liege = 0
+		government = tribal_government
+	}
+	861.1.1 = {holder=82235}	#Siemowit
+	880.1.1 = {holder=82236}	#Lestek
+	930.1.1 = {holder=752}	#Siemomysl
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	960.1.2 = {holder=754}	#Mieszko I of Poland
+	992.5.25 = {holder=756}	#Boleslaw I the Brave
+	1025.4.18 = {liege=k_poland}
+	1025.6.17 = {holder=758}	#Mieszko II Lambert
+	1031.4.1 = {holder=766}	#Bezprym
+	1032.7.10 = {holder=758}	#Mieszko II Lambert (restored)
+	###After Polish capital is moved to Krakow
+	1034.5.11 = {
+		holder = 0
+		liege = 0
+	}
 }
 
 c_wielunska = {	#k_poland
@@ -4239,61 +4767,6 @@ c_sieradzka = {	#k_poland
 	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
 }
 
-c_dobrzynska = {	#k_poland
-	###Proto-Polish tribes
-	500.1.1 = {
-		liege = 0
-		government = tribal_government
-	}
-	867.1.1 = {holder=302064}
-	#888.12.26 = {
-	#	holder = 0
-	#}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	###Kazimierz I's succession
-	1058.11.28 = {
-		holder = 302004	#Mieszko, Boleslaw & Wladyslaw's brother
-		liege = k_poland
-	}
-	1065.1.28 = {
-		holder = 764	#Wladyslaw I Herman
-		liege = d_kuyavia
-	}
-	1102.6.4 = {holder=170108}	#Zbigniew
-	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
-}
-
-c_poznanska = {	#k_poland
-	867.1.1 = {change_development_level=2}
-	1066.1.1 = {change_development_level=9}
-	###Piasts
-	800.1.1 = {
-		holder = 82233	#Piast
-		liege = d_wielkopolska
-		government = tribal_government
-	}
-	861.1.1 = {holder=82235}	#Siemowit
-	880.1.1 = {holder=82236}	#Lestek
-	930.1.1 = {holder=752}	#Siemomysl
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	960.1.2 = {holder=754}	#Mieszko I of Poland
-	992.5.25 = {holder=756}	#Boleslaw I the Brave
-	1025.4.18 = {liege=k_poland}
-	1025.6.17 = {holder=758}	#Mieszko II Lambert
-	1031.4.1 = {holder=766}	#Bezprym
-	1032.7.10 = {holder=758}	#Mieszko II Lambert (restored)
-	###After Polish capital is moved to Krakow
-	1034.5.11 = {
-		holder = 302016	#Pawel Ciolek, mostly fictional
-		liege = k_poland
-	}
-	1063.4.9 = {holder=302017}	#Jan Ciolek, mostly fictional
-	1103.11.18 = {holder=302019}	#Pawel Ciolek, mostly fictional
-	1127.3.12 = {holder=302021}	#Jaroslaw Ciolek, mostly fictional
-	1165.2.22 = {holder=302022}	#Jan Ciolek, mostly fictional
-	1185.12.21 = {holder=302025}	#Jaroslaw Ciolek, mostly ficitonal
-}
-
 c_radomska = {	#k_poland
 	###Proto-Polish tribes
 	#Krakus and the Lechitic tribes
@@ -4323,55 +4796,6 @@ c_radomska = {	#k_poland
 	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
 }
 
-c_leczycka = {	#k_poland
-	###Proto-Polish tribes
-	500.1.1 = {
-		liege = 0
-		government = tribal_government
-	}
-	867.1.1 = {holder=302065}
-	#912.8.23 = {
-	#	holder = 0
-	#}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	###Kazimierz I's succession
-	1058.11.28 = {
-		holder = 764	#Wladyslaw I Herman
-		liege = d_kuyavia
-	}
-	1102.6.4 = {holder=170108}	#Zbigniew
-	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
-}
-
-c_miliez = {	#k_poland
-	750.1.1 = {
-		holder = 194084
-		government = tribal_government
-	}
-	799.1.1 = {holder=194085}
-	822.1.1 = {holder=82291}
-	864.1.1 = {holder=82293}
-	912.1.1 = {holder=82294}
-	914.1.1 = {holder=82297}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	942.1.1 = {holder=82300}
-	965.1.1 = {holder=82301}
-	985.1.1 = {holder=82302}
-	1020.1.1 = {holder=82303}
-	1060.11.28 = {holder=96093}
-	1116.1.1 = {holder=96094}
-	1153.4.16 = {holder=96096}
-	1163.1.1 = {holder=221530}
-	1177.1.1 = {holder=125943}
-	1190.1.1 = {holder=221530}
-	1201.12.7 = {holder=221537}
-	1238.3.19 = {holder=125905}
-	1241.4.9 = {holder=471734}
-	1248.1.1 = {holder=125910}
-	1274.8.6 = {holder=125912}
-	1309.12.3 = {holder=125913}
-}
-
 c_stezycka = {	#k_poland
 	###Proto-Polish tribes
 	500.1.1 = {
@@ -4394,91 +4818,7 @@ c_stezycka = {	#k_poland
 	1188.7.17 = {holder=302048}	#Konrad Kurowie, semi-fictional
 }
 
-c_gnieznienska = {	#k_poland
-	867.1.1 = {change_development_level=3}
-	1066.1.1 = {change_development_level=9}
-	###Piasts
-	800.1.1 = {
-		holder = 82233	#Piast
-		liege = d_wielkopolska
-		government = tribal_government
-	}
-	861.1.1 = {holder=82235}	#Siemowit
-	880.1.1 = {holder=82236}	#Lestek
-	930.1.1 = {holder=752}	#Siemomysl
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	960.1.2 = {holder=754}	#Mieszko I of Poland
-	992.5.25 = {holder=756}	#Boleslaw I the Brave
-	###Archbishops of Gniezno
-	999.1.1 = {holder=302011}	#Radzim Gaudenty
-	1022.1.2 = {holder=96071}	#Hipolit
-	1025.4.18 = {liege=k_poland}
-	1027.1.1 = {holder=302012}	#Bossuta Stefan
-	1028.3.7 = {holder=302013}	#Fictional
-	1075.1.2 = {holder=20393}	#Bogumil
-	1092.1.1 = {holder=96075}	#Marcin
-	1112.1.1 = {holder=302014}	#Heinrich
-	1124.1.1 = {holder=96076}	#Jakub
-	1148.9.23 = {holder=96077}	#Janislaw
-	1168.3.11 = {holder=302015}	#Zdzislaw
-}
-
-c_krakowska = {	#k_poland
-	867.1.1 = {change_development_level=3}
-	1066.1.1 = {change_development_level=12}
-	###Proto-Polish tribes
-	#Krakus and the Lechitic tribes
-	700.1.1 = {
-		holder = 82273	#Krakus I the legendary
-		liege = d_lesser_poland
-		government = tribal_government
-	}
-	725.1.1 = {holder=82274}	#Wanda the legendary
-	738.1.1 = {holder=302066}
-	778.1.1 = {holder=302067}
-	813.1.1 = {holder=302055}
-	829.5.13 = {holder=302056}
-	862.3.26 = {
-		holder = 302058
-		liege = 0
-	}
-	#914.9.15 = {
-	#	holder = 0
-	#}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	###Kazimierz I's succession
-	1058.11.28 = {
-		holder = 762	#Boleslaw II the Bold
-		liege = d_lesser_poland
-	}
-	1079.5.1 = {holder=764}	#Wladyslaw I Herman
-	1102.6.4 = {holder=170108}	#Zbigniew
-	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
-}
-
 c_zakroczymska = {	#k_poland
-	###Proto-Polish tribes
-	500.1.1 = {
-		liege = 0
-		government = tribal_government
-	}
-	849.6.6 = {holder=302063}
-	#901.12.12 = {
-	#	holder = 0
-	#}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	###After Kazimierz I's death
-	1058.11.28 = {
-		holder = 302026	#Zygmunt Ossowski, semi-fictional
-		liege = k_poland
-	}
-	1101.2.9 = {holder=302027}	#Marcin Ossowski, semi-fictional
-	1123.4.3 = {holder=302030}	#Zygmunt Ossowski, semi-fictional
-	1141.4.22 = {holder=302031}	#Andrzej Ossowski, semi-fictional
-	1186.7.27 = {holder=302033}	#Mateusz Ossowski, semi-fictional
-}
-
-c_lomzynska = {	#k_poland
 	###Proto-Polish tribes
 	500.1.1 = {
 		liege = 0
@@ -4527,23 +4867,6 @@ c_wschowska = {	#k_poland
 	1127.3.12 = {holder=302021}	#Jaroslaw Ciolek, mostly fictional
 	1165.2.22 = {holder=302022}	#Jan Ciolek, mostly fictional
 	1185.12.21 = {holder=302025}	#Jaroslaw Ciolek, mostly ficitonal
-}
-
-c_tarnowska = {	#k_poland
-	###Proto-Polish tribes
-	500.1.1 = {
-		liege = 0
-		government = tribal_government
-	}
-	867.1.1 = {holder=302061}
-	#892.3.14 = {
-	#	holder = 0
-	#}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1066.1.1 = {holder=96098}
-	1079.5.1 = {holder=764}	#Wladyslaw I Herman
-	1102.6.4 = {holder=170108}	#Zbigniew
-	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
 }
 
 c_cammin = {	#k_pomerania
@@ -4634,56 +4957,6 @@ c_mecklenburg = {	#k_pomerania
 	1329.1.27 = {holder=451980}	#Albrecht I Niklotid
 }
 
-c_pila = {	#k_pomerania
-	###867 Pommeranian tribes
-	500.1.1 = {
-		liege = 0
-		government = tribal_government
-	}
-	867.1.1 = {holder=302071}	#Lucjan Pyritzi
-	###1066
-	1066.1.1 = {
-		liege = d_pommerania
-		holder = 30524
-		government = feudal_government
-	}
-	1106.1.1 = {holder=221703}	#Swietopelk I
-	1122.1.1 = {holder=221700}	#Wartislaw I
-	1136.1.1 = {holder=221710}	#Bogislaw I
-	1187.3.18 = {holder=221712}	#Bogislaw II
-	1220.4.1 = {holder=451953}	#Barnim I
-	1278.2.14 = {holder=471660}	#Bogislaw
-	1294.1.1 = {holder=451950}	#Otton
-}
-
-c_berent = {	#k_pomerania
-	###867 tribal times
-	500.1.1 = {liege=0}
-	860.1.1 = {holder=302068}
-	###1066
-	1066.1.1 = {
-		holder = 30523
-		liege = d_pommerania
-	}
-	1092.1.1 = {holder=30524}	#Gwienomir
-	1106.1.1 = {holder=221703}	#Swietopelk I
-	1122.1.1 = {holder=221718}	#Ratibor I
-	1156.5.7 = {holder=221723}	#Swietopelk II
-	1175.1.20 = {holder=221719}	#Wratislaw I
-	1182.1.1 = {holder=221720}	#Bogislaw
-	1224.1.1 = {holder=221721}	#Ratibor II
-	1228.1.1 = {liege=d_pomerelia}
-	1228.1.1 = {holder=30452}	#Wartislaw I
-	1233.5.4 = {holder=30451}	#Swietopelk II
-	1266.1.10 = {holder=30453}	#Sambor II
-	1270.1.1 = {holder=30459}	#Wartislaw II
-	1271.1.1 = {holder=30458}	#Mszczuj II
-	1294.12.25 = {holder=30538}	#Swenzo
-	1308.1.1 = {holder=30540}	#Piotr
-	1308.11.13 = {liege=d_pommerania}
-	1327.1.1 = {holder=30541}	#Jasko
-}
-
 d_ostmark = {	#k_pomerania
 	867.1.1 = {change_development_level=2}
 	1066.1.1 = {change_development_level=8}
@@ -4738,6 +5011,56 @@ d_ostmark = {	#k_pomerania
 	1307.12.10 = {holder=33758}
 	1308.12.1 = {holder=7560}
 	1320.8.20 = {holder=462731}
+}
+
+c_pila = {	#k_pomerania
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {holder=302071}	#Lucjan Pyritzi
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30524
+		government = feudal_government
+	}
+	1106.1.1 = {holder=221703}	#Swietopelk I
+	1122.1.1 = {holder=221700}	#Wartislaw I
+	1136.1.1 = {holder=221710}	#Bogislaw I
+	1187.3.18 = {holder=221712}	#Bogislaw II
+	1220.4.1 = {holder=451953}	#Barnim I
+	1278.2.14 = {holder=471660}	#Bogislaw
+	1294.1.1 = {holder=451950}	#Otton
+}
+
+c_berent = {	#k_pomerania
+	###867 tribal times
+	500.1.1 = {liege=0}
+	860.1.1 = {holder=302068}
+	###1066
+	1066.1.1 = {
+		holder = 30523
+		liege = d_pommerania
+	}
+	1092.1.1 = {holder=30524}	#Gwienomir
+	1106.1.1 = {holder=221703}	#Swietopelk I
+	1122.1.1 = {holder=221718}	#Ratibor I
+	1156.5.7 = {holder=221723}	#Swietopelk II
+	1175.1.20 = {holder=221719}	#Wratislaw I
+	1182.1.1 = {holder=221720}	#Bogislaw
+	1224.1.1 = {holder=221721}	#Ratibor II
+	1228.1.1 = {liege=d_pomerelia}
+	1228.1.1 = {holder=30452}	#Wartislaw I
+	1233.5.4 = {holder=30451}	#Swietopelk II
+	1266.1.10 = {holder=30453}	#Sambor II
+	1270.1.1 = {holder=30459}	#Wartislaw II
+	1271.1.1 = {holder=30458}	#Mszczuj II
+	1294.12.25 = {holder=30538}	#Swenzo
+	1308.1.1 = {holder=30540}	#Piotr
+	1308.11.13 = {liege=d_pommerania}
+	1327.1.1 = {holder=30541}	#Jasko
 }
 
 k_pontic_steppe = {	#k_pontic_steppe
@@ -4851,31 +5174,58 @@ c_kangra = {	#k_punjab
 	1369.1.1 = {holder=katoch_63}
 }
 
+c_nakhorkassk = {	#k_qyzylstan
+	800.1.1 = {liege=d_nakhorkassk}
+}
+
+c_sterlinezh = {	#k_qyzylstan
+	800.1.1 = {liege=d_sterlinezh}
+}
+
+d_sterlinezh = {	#k_qyzylstan
+	800.1.1 = {liege=k_qyzylstan}
+}
+
+d_nakhorkassk = {	#k_qyzylstan
+	800.1.1 = {liege=k_qyzylstan}
+}
+
 1317.1.1 = {	#k_romagna
 	government = feudal_government
 	holder = 70678	# Aldobrandino II of Romagna
 	liege = d_romagna
 }
 
-1310.5.9 = {	#k_romagna
-	holder = 145033
-}
-
 1335.12.31 = {	#k_romagna
 	holder = 70709
-}
-
-1315.5.12 = {	#k_romagna
-	holder = 145034
 }
 
 1326.7.26 = {	#k_romagna
 	holder = 70700
 }
 
+1310.5.9 = {	#k_romagna
+	holder = 145033
+}
+
+1315.5.12 = {	#k_romagna
+	holder = 145034
+}
+
+k_sahara = {	#k_sahara
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=6}
+}
+
 k_sao = {	#k_sao
 	867.1.1 = {change_development_level=1}
 	1066.1.1 = {change_development_level=3}
+}
+
+k_sapmi = {	#k_sapmi
+	21.1.1 = {change_development_level=0}
+	1001.1.1 = {change_development_level=0}
+	1101.1.1 = {change_development_level=0}
 }
 
 c_jahkamakke = {	#k_sapmi
@@ -4898,42 +5248,6 @@ c_jahkamakke = {	#k_sapmi
 	1270.1.1 = {holder=143145}
 	1310.1.1 = {liege=k_sweden}
 	1310.1.1 = {holder=487070}
-}
-
-k_sapmi = {	#k_sapmi
-	21.1.1 = {change_development_level=0}
-	1001.1.1 = {change_development_level=0}
-	1101.1.1 = {change_development_level=0}
-}
-
-c_meissen = {	#k_saxony
-	720.1.1 = {
-		liege = "d_bohemia"
-		holder = 168345
-	}
-	738.1.1 = {holder=146174}
-	760.1.1 = {holder=146175}
-	801.1.1 = {holder=168347}
-	804.1.1 = {holder=168348}
-	820.1.1 = {holder=168349}
-	830.1.1 = {
-		liege = d_meissen
-		#	holder = 0
-	}
-	857.1.1 = {holder=184007}
-	1062.1.1 = {holder=7060}
-	1067.1.1 = {holder=106510}
-	1068.1.11 = {holder=106515}
-	1089.1.1 = {holder=7699}
-	1103.1.1 = {holder=7500}
-	1123.1.1 = {holder=212040}
-	1157.2.5 = {holder=212038}
-	1190.2.18 = {holder=212041}
-	1195.6.24 = {holder=212042}
-	1221.1.17 = {holder=7504}
-	1288.2.15 = {holder=7506}
-	1291.8.16 = {holder=7512}
-	1323.11.16 = {holder=462400}
 }
 
 d_meissen = {	#k_saxony
@@ -4977,8 +5291,42 @@ d_meissen = {	#k_saxony
 	1323.11.16 = {holder=462400}
 }
 
+c_meissen = {	#k_saxony
+	720.1.1 = {
+		liege = "d_bohemia"
+		holder = 168345
+	}
+	738.1.1 = {holder=146174}
+	760.1.1 = {holder=146175}
+	801.1.1 = {holder=168347}
+	804.1.1 = {holder=168348}
+	820.1.1 = {holder=168349}
+	830.1.1 = {
+		liege = d_meissen
+		#	holder = 0
+	}
+	857.1.1 = {holder=184007}
+	1062.1.1 = {holder=7060}
+	1067.1.1 = {holder=106510}
+	1068.1.11 = {holder=106515}
+	1089.1.1 = {holder=7699}
+	1103.1.1 = {holder=7500}
+	1123.1.1 = {holder=212040}
+	1157.2.5 = {holder=212038}
+	1190.2.18 = {holder=212041}
+	1195.6.24 = {holder=212042}
+	1221.1.17 = {holder=7504}
+	1288.2.15 = {holder=7506}
+	1291.8.16 = {holder=7512}
+	1323.11.16 = {holder=462400}
+}
+
 c_dithmarschen = {	#k_saxony
 	800.1.1 = {liege=d_holstein}
+}
+
+k_slovakia = {	#k_slovakia
+	1919.1.1 = {de_jure_liege=e_ceskoslovensko}
 }
 
 d_porto = {	#k_spanish_galicia
@@ -5034,40 +5382,6 @@ k_spanish_galicia = {	#k_spanish_galicia
 	1072.10.7 = {holder=108500}	# Alfonso VI Jimena
 	1109.6.30 = {holder=207500}	# Alfonso VII de Borgo�a
 	1111.9.17 = {holder=0}
-}
-
-c_dalarna = {	#k_sweden
-	760.1.1 = {
-		holder = 194015
-		government = tribal_government
-	}
-	#770.1.1 = {
-	#	holder = 0
-	#}
-	860.1.1 = {
-		liege = "d_svealand"
-		holder = 6837
-	}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1066.1.1 = {
-		liege = "k_sweden"
-		holder = 20005
-	}
-	1089.1.1 = {holder=100524}	# Inge the Older
-	1100.1.8 = {holder=100550}	# Filip, son of 100523 (Halsten)
-	1118.6.6 = {holder=100551}	# Inge the Younger, son of 100523 (Halsten)
-	1125.6.6 = {holder=100552}	# Ragnvald "Knaph�vde", possibly a son of 100524 (Inge the Older)
-	1126.6.6 = {holder=101531}	# Magnus Nilsson, son of Danish King Nils and Inge the Older's daughter Margareta
-	1134.6.4 = {holder=200600}	# Sverker the Older
-	1156.12.25 = {holder=200490}	# Erik "the Holy"
-	## Grip ancestors
-	1160.6.6 = {holder=194223}
-	1210.1.1 = {holder=194224}
-	1250.1.1 = {holder=194225}
-	1290.1.1 = {holder=194226}
-	1315.1.1 = {holder=450841}
-	1334.1.2 = {holder=450840}
-	##
 }
 
 c_narke = {	#k_sweden
@@ -5149,6 +5463,40 @@ c_varmland = {	#k_sweden
 	1337.1.1 = {holder=450680}
 }
 
+c_dalarna = {	#k_sweden
+	760.1.1 = {
+		holder = 194015
+		government = tribal_government
+	}
+	#770.1.1 = {
+	#	holder = 0
+	#}
+	860.1.1 = {
+		liege = "d_svealand"
+		holder = 6837
+	}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {
+		liege = "k_sweden"
+		holder = 20005
+	}
+	1089.1.1 = {holder=100524}	# Inge the Older
+	1100.1.8 = {holder=100550}	# Filip, son of 100523 (Halsten)
+	1118.6.6 = {holder=100551}	# Inge the Younger, son of 100523 (Halsten)
+	1125.6.6 = {holder=100552}	# Ragnvald "Knaph�vde", possibly a son of 100524 (Inge the Older)
+	1126.6.6 = {holder=101531}	# Magnus Nilsson, son of Danish King Nils and Inge the Older's daughter Margareta
+	1134.6.4 = {holder=200600}	# Sverker the Older
+	1156.12.25 = {holder=200490}	# Erik "the Holy"
+	## Grip ancestors
+	1160.6.6 = {holder=194223}
+	1210.1.1 = {holder=194224}
+	1250.1.1 = {holder=194225}
+	1290.1.1 = {holder=194226}
+	1315.1.1 = {holder=450841}
+	1334.1.2 = {holder=450840}
+	##
+}
+
 c_uzgend_KARA = {	#k_syr_darya
 	850.1.1 = {
 		liege = 0
@@ -5168,17 +5516,9 @@ c_uzgend_KARA = {	#k_syr_darya
 	1209.2.17 = {holder=302652}	#fictional Koza Shavgari
 }
 
-c_candragiri = {	#k_tamilakam
-	769.1.1 = {
-		liege = d_tondai_nadu
-		holder = 189072
-	}
-	846.1.1 = {holder=175070}
-	1020.1.1 = {
-		liege = k_tamilakam
-		holder = narayanavanam_yadava_ruler
-	}
-	#Held by Yadava rulers up until conquest by Vijayanagar in the 1370s.
+k_tahert = {	#k_tahert
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=6}
 }
 
 c_eranad = {	#k_tamilakam
@@ -5216,6 +5556,19 @@ c_eranad = {	#k_tamilakam
 	1268.1.1 = {holder=189136}
 	1308.1.1 = {holder=189137}
 	1327.1.1 = {holder=189138}
+}
+
+c_candragiri = {	#k_tamilakam
+	769.1.1 = {
+		liege = d_tondai_nadu
+		holder = 189072
+	}
+	846.1.1 = {holder=175070}
+	1020.1.1 = {
+		liege = k_tamilakam
+		holder = narayanavanam_yadava_ruler
+	}
+	#Held by Yadava rulers up until conquest by Vijayanagar in the 1370s.
 }
 
 c_muluvagil = {	#k_tamilakam
@@ -5303,6 +5656,62 @@ d_thessaly = {	#k_thessalonika
 	1317.11.19 = {holder=461510}	#Gugliemo
 }
 
+k_transoxiana = {	#k_transoxiana
+	867.1.1 = {change_development_level=5}
+	1066.1.1 = {change_development_level=8}
+	864.1.1 = {
+		holder = 163099
+		government = clan_government
+	}
+	1041.1.1 = {holder=3012}
+	1052.1.1 = {
+		holder = 3014
+		effect = {
+	if = {
+	limit = {
+	exists = holder
+	has_dlc_feature = royal_court
+}
+	holder = {
+	set_court_language = language_iranian
+	if = {
+	limit = {
+	NOT = {knows_court_language_of=this}
+}
+	learn_court_language_of = this
+}
+}
+}
+}
+	}
+	1066.1.1 = {liege=0}
+	## Karakhanids
+	1068.1.1 = {holder=3016}
+	1080.1.1 = {holder=3018}
+	1081.1.1 = {holder=3020}
+	1089.1.1 = {holder=3022}
+	1095.1.1 = {holder=3024}
+	1097.1.1 = {holder=144110}
+	1097.6.1 = {holder=144108}
+	1099.1.1 = {holder=144109}
+	1102.1.1 = {holder=144111}
+	1129.1.1 = {holder=144112}
+	1129.6.1 = {holder=144113}
+	1130.1.1 = {holder=144116}
+	1132.1.1 = {holder=144117}
+	1132.6.1 = {holder=144118}
+	## Kara-Khitan
+	1141.1.1 = {
+		holder = 188905	# Yelü-Dashi, Kara Khitan conquest
+		liege = e_kara_khitai
+	}
+	1143.1.1 = {holder=188907}	# Yelü-Yilie
+	1163.1.1 = {holder=188908}	# Pusuwan
+	1177.1.1 = {holder=188912}	# Yelü-Zhilugu
+	1211.1.1 = {holder=188914}	# Kuchlug (de facto)
+	1212.1.1 = {holder=0}
+}
+
 c_severin = {	#k_transylvania
 	800.1.1 = {liege=d_oltenia}
 	###Part of 1st Bulgarian Empire
@@ -5365,6 +5774,202 @@ c_xaitongmoin = {	#k_tsang
 	1320.1.1 = {holder=305318}
 	1340.1.1 = {holder=305319}
 	1360.1.1 = {holder=305320}
+}
+
+d_zlagda = {	#k_uzbekistan
+	800.1.1 = {liege=k_uzbekistan}
+}
+
+d_nyaylovsk = {	#k_uzbekistan
+	800.1.1 = {liege=k_uzbekistan}
+}
+
+d_roslabuga = {	#k_uzbekistan
+	800.1.1 = {liege=k_uzbekistan}
+}
+
+d_blagoveluk = {	#k_uzbekistan
+	800.1.1 = {liege=k_uzbekistan}
+}
+
+c_nyaylovsk = {	#k_uzbekistan
+	800.1.1 = {liege=d_nyaylovsk}
+}
+
+d_vybokarino = {	#k_uzbekistan
+	800.1.1 = {liege=k_uzbekistan}
+}
+
+c_zlagda = {	#k_uzbekistan
+	800.1.1 = {liege=d_zlagda}
+}
+
+d_timandzhik = {	#k_uzbekistan
+	800.1.1 = {liege=k_uzbekistan}
+}
+
+c_timandzhik = {	#k_uzbekistan
+	800.1.1 = {liege=d_timandzhik}
+}
+
+c_blagoveluk = {	#k_uzbekistan
+	800.1.1 = {liege=d_blagoveluk}
+}
+
+c_roslabuga = {	#k_uzbekistan
+	800.1.1 = {liege=d_roslabuga}
+}
+
+c_sevelavat = {	#k_vagabondia
+	800.1.1 = {liege=d_sevelavat}
+}
+
+c_belgotroitsk = {	#k_vagabondia
+	800.1.1 = {liege=d_belgotroitsk}
+}
+
+c_lyubenyev = {	#k_vagabondia
+	800.1.1 = {liege=d_lyubenyev}
+}
+
+d_tagambay = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+d_tyurga = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_voskrerapul = {	#k_vagabondia
+	800.1.1 = {liege=d_voskrerapul}
+}
+
+d_belgotroitsk = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+d_voskrerapul = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+d_beleyarsk = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+d_sevelavat = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_glalozhsk = {	#k_vagabondia
+	800.1.1 = {liege=d_glalozhsk}
+}
+
+c_batapovets = {	#k_vagabondia
+	800.1.1 = {liege=d_batapovets}
+}
+
+c_kobay = {	#k_vagabondia
+	800.1.1 = {liege=d_kobay}
+}
+
+c_prokotoust = {	#k_vagabondia
+	800.1.1 = {liege=d_prokotoust}
+}
+
+d_prokotoust = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_volgogarsk = {	#k_vagabondia
+	800.1.1 = {liege=d_volgogarsk}
+}
+
+d_kobay = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_aletkinsk = {	#k_vagabondia
+	800.1.1 = {liege=d_aletkinsk}
+}
+
+c_borishevsk = {	#k_vagabondia
+	800.1.1 = {liege=d_borishevsk}
+}
+
+d_gelezniki = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_tagambay = {	#k_vagabondia
+	800.1.1 = {liege=d_tagambay}
+}
+
+d_budyomas = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+d_tuakhtinsk = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+d_aletkinsk = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_budyochny = {	#k_vagabondia
+	800.1.1 = {liege=d_budyochny}
+}
+
+d_iskintsovo = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_tuakhtinsk = {	#k_vagabondia
+	800.1.1 = {liege=d_tuakhtinsk}
+}
+
+c_iskintsovo = {	#k_vagabondia
+	800.1.1 = {liege=d_iskintsovo}
+}
+
+d_borishevsk = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+d_volgogarsk = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+d_batapovets = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_budyomas = {	#k_vagabondia
+	800.1.1 = {liege=d_budyomas}
+}
+
+c_tyurga = {	#k_vagabondia
+	800.1.1 = {liege=d_tyurga}
+}
+
+c_beleyarsk = {	#k_vagabondia
+	800.1.1 = {liege=d_beleyarsk}
+}
+
+d_glalozhsk = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+d_lyubenyev = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
+}
+
+c_gelezniki = {	#k_vagabondia
+	800.1.1 = {liege=d_gelezniki}
+}
+
+d_budyochny = {	#k_vagabondia
+	800.1.1 = {liege=k_vagabondia}
 }
 
 k_venice = {	#k_venice

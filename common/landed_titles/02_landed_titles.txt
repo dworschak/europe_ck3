@@ -64,12 +64,16 @@ e_britannia = {
 	}
 }
 
+e_austria = {
+	color = { 236  236  236 }
+}
+
 e_germany = {
-	color = { 190 200 190 }
+	color = { 147 130 110 }
 	color2 = { 220 220 20 }
 
-	capital = c_nassau
-		
+	capital = c_frankfurt
+	
 	ai_primary_priority = {
 		if = {
 			limit = {
@@ -78,6 +82,19 @@ e_germany = {
 			add = @correct_culture_primary_score
 		}
 	}
+	
+	k_wurttemberg = {
+		color = { 111  162  128 }
+		color2 = { 220 220 0 }
+		
+		capital = c_wurttemberg
+	}
+	k_baden = {
+		color = { 118  229  215 }
+		color2 = { 220 220 0 }
+		
+		capital = c_baden
+	}	
 }
 
 e_roman_empire = {
@@ -562,6 +579,12 @@ e_arabia = {
 
 		capital = c_jerusalem
 	}
+	k_uae = {
+		color = { 1  2  3 }
+		color2 = { 220 220 0 }
+		
+		capital = c_julfar
+	}
 }
 
 e_abyssinia = {
@@ -708,4 +731,15 @@ e_tibet = {
 	color2 = { 255 255 255 }
 	
 	capital = c_lhasa
+}
+
+e_jugoslavija = {
+	color = { 37 128 174 }
+	
+	k_slovenia = {
+		color = { 65  91  126 }
+		color2 = { 255 255 255 }
+	
+		capital = c_ljubljana
+	}
 }

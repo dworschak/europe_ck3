@@ -81,6 +81,46 @@ liberia_001={
 ## LIBERIA
 
 
+## LIBYA
+gaddafi_001={
+	name="Muʿammar"
+	dynasty=gaddafi
+	religion=catholic culture=butr
+	1942.01.01={birth=yes}
+	2011.10.20={death=yes}
+}
+	gaddafi_002={
+		name="Saif al-Islam"
+		dynasty=gaddafi
+		religion=catholic culture=butr
+		father=gaddafi_001
+		1972.06.25={birth=yes}
+	}
+	gaddafi_003={
+		name="Al-Saadi"
+		dynasty=gaddafi
+		religion=catholic culture=butr
+		father=gaddafi_001
+		1973.05.26={birth=yes}
+	}
+	gaddafi_004={
+		name="Mutassim"
+		dynasty=gaddafi
+		religion=catholic culture=butr
+		father=gaddafi_001
+		1974.12.18={birth=yes}
+		2011.10.20={death=yes}
+	}
+	gaddafi_005={
+		name="Hannibal"
+		dynasty=gaddafi
+		religion=catholic culture=butr
+		father=gaddafi_001
+		1975.08.20={birth=yes}
+	}
+## LIBYA
+
+
 ## GUINEA
 guinea_010={
 	name="Alpha"
@@ -96,7 +136,7 @@ guinea_010={
 100203598={ # Ibrahim Keïta (b.29 Jan 1945) %%
 	name=Ibrahim
 	dynasty=10393
-	religion=sunni culture=manden
+	religion=ashari culture=manden
 	1945.01.29={birth=yes}
 }
 ## MALI
@@ -106,7 +146,7 @@ guinea_010={
 100075010={ # Mohammed Abdel Aziz (b.20 Dec 1956) %%
 	name=Mohammed
 	dynasty=10392
-	religion=sunni culture=hassaniyya
+	religion=ashari culture=hassaniyya
 	1956.12.20={birth=yes}
 }
 ## MAURITANIA
@@ -116,10 +156,283 @@ guinea_010={
 100075009={ # Alassane Ouattara (b.1942)
 	name=Alassane
 	dynasty=ouattara
-	religion=sunni culture=akan
+	religion=ashari culture=akan
 	1942.01.01={birth=yes}
 }
 ## IVORY COAST
 
 
+## ALGERIA
+bouteflika_000={ # Abdelaziz Bouteflika (b.2 Mar 1937) %%
+	name="Daddy"
+	dynasty=algeria_bouteflika
+	religion=ashari culture=maghrebi
+	1910.01.01={birth=yes}
+	1960.01.01={death=yes}
+}
+	bouteflika_001={ # Abdelaziz Bouteflika (b.2 Mar 1937) %%
+		name="Abdelaziz"
+		dynasty=algeria_bouteflika
+		religion=ashari culture=maghrebi
+		father=bouteflika_000
+		1937.03.02={birth=yes}
+		2021.09.19={death=yes}
+	}
+	bouteflika_002={ # Abdelaziz Bouteflika (b.2 Mar 1937) %%
+		name="Saïd"
+		dynasty=algeria_bouteflika
+		father=bouteflika_000
+		religion=ashari culture=maghrebi
+		1958.01.01={birth=yes}
+	}
+	## three half-sisters (Fatima, Yamina, and Aïcha)
+	## as well as four brothers (Abdelghani, Mustapha, Abderahim, and Saïd)
+	## and one sister (Latifa
+## ALGERIA
 
+
+## SUDAN
+100203529={ # Omar al-Bashir (b.1944); m.1970 Fatima Khalid (b.1950) %%
+	name=Omar
+	dynasty=10378
+	religion=ashari culture=sudanese
+	1944.01.01={birth=yes}
+	1970.01.01={add_spouse=100203530}	# Fatima Khalid
+	2011.07.09={add_claim=k_south_sudan}
+}
+100203530={ # Fatima Khalid (b.1950); m.1970 Omar al-Bashir (b.1944) %%
+	name=Fatima
+	dynasty=10379
+	religion=ashari culture=sudanese
+	female=yes
+	1950.01.01={birth=yes}
+}
+## SUDAN
+
+
+## NIGER
+100075060={ # Abdelaziz Issoufou (b.1950) %%
+	name=Abdelaziz
+	dynasty=1020001
+	religion=ashari culture=hausa
+	1950.01.01={birth=yes}
+}
+	100075061={ # A1. Malik (b.1985) %%
+		name=Malik
+		dynasty=1020001
+		religion=ashari culture=hausa
+		father=100075060	# Abdelaziz Issoufou
+		1985.01.01={birth=yes}
+	}
+	100075062={ # A2. Abdelaziz (b.1988) %%
+		name=Abdelaziz
+		dynasty=1020001
+		religion=ashari culture=hausa
+		father=100075060	# Abdelaziz Issoufou
+		1988.01.01={birth=yes}
+	}
+	100075063={ # A3. Aïssata (b.1996) %%
+		name=Aïssata
+		female=yes
+		dynasty=1020001
+		religion=ashari culture=hausa
+		father=100075060	# Abdelaziz Issoufou
+		1996.01.01={birth=yes}
+	}
+## NIGER
+
+
+## ERITREA
+100203548={ # Isaias Afwerki (b.2 Feb 1946); m.1968 Saba Haile (b.1950) %%
+	name=Isaias
+	dynasty=10382
+	religion=orthodox culture=tigray
+	1946.02.02={birth=yes}
+	1968.01.01={add_spouse=100203549}	# Saba Haile
+}
+100203549={ # Saba Haile (b.1950); m.1968 Isaias Afwerki (b.2 Feb 1946) %%
+	name=Saba
+	dynasty=10383
+	religion=orthodox culture=tigray
+	female=yes
+	1950.01.01={birth=yes}
+}
+	100203550={ # A1. Elsa (b.1980) %%
+		name=Elsa
+		dynasty=10382
+		religion=orthodox culture=tigray
+		father=100203548	# Isaias Afwerki
+		mother=100203549	# Saba Haile
+		female=yes
+		1980.01.01={birth=yes}
+	}
+	100203551={ # A2. Berhane (b.1984) %%
+		name=Berhane
+		dynasty=10382
+		religion=orthodox culture=tigray
+		father=100203548	# Isaias Afwerki
+		mother=100203549	# Saba Haile
+		1984.01.01={birth=yes}
+	}
+	100203552={ # A3. Abraham (b.1990) %%
+		name=Abraham
+		dynasty=10382
+		religion=orthodox culture=tigray
+		father=100203548	# Isaias Afwerki
+		mother=100203549	# Saba Haile
+		1990.01.01={birth=yes}
+	}
+## ERITREA
+
+
+## ETHIOPIA
+100203532={ # Haile Solomonic (23 Jul 1892-27 Aug 1975) %%
+	name=Haile
+	dynasty=10381
+	religion=orthodox culture=ethiopian
+	1892.07.23={birth=yes}
+	1975.08.27={death=yes}
+}
+	100203533={ # A1. Amha (27 Jul 1916-17 Feb 1997) %%
+		name=Amha
+		dynasty=10381
+		religion=orthodox culture=ethiopian
+		father=100203532	# Haile Solomonic
+		1916.07.27={birth=yes}
+		1997.02.17={death=yes}
+	}
+		100203534={ # B1. Zera Yacob (b.17 Aug 1953) %%
+			name="Zera Yacob"
+			dynasty=10381
+			religion=orthodox culture=ethiopian
+			father=100203533	# Amha Solomonic
+			1953.08.17={birth=yes}
+		}
+			100203535={ # C1. Lideta (b.1985) %%
+				name=Lideta
+				dynasty=10381
+				religion=orthodox culture=ethiopian
+				female=yes
+				father=100203534	# Zera Yacob Solomonic
+				1985.01.01={birth=yes}
+			}
+	100203536={ # A2. Makonnen (16 Oct 1923-13 May 1957) %%
+		name=Makonnen
+		dynasty=10381
+		religion=orthodox culture=ethiopian
+		father=100203532	# Haile Solomonic
+		1923.10.16={birth=yes}
+		1957.05.13={death=yes}
+	}
+		100203537={ # B1. Paul (b.1947) %%
+			name=Paul
+			dynasty=10381
+			religion=orthodox culture=ethiopian
+			father=100203536	# Makonnen Solomonic
+			1947.01.01={birth=yes}
+		}
+		100203538={ # B2. Mikael (b.1950) %%
+			name=Mikael
+			dynasty=10381
+			religion=orthodox culture=ethiopian
+			father=100203536	# Makonnen Solomonic
+			1950.01.01={birth=yes}
+		}
+			100203542={ # C1. Yokshan (b.1978) %%
+				name=Yokshan
+				dynasty=10381
+				religion=orthodox culture=ethiopian
+				father=100203538	# Mikael Solomonic
+				1978.01.01={birth=yes}
+			}
+			100203543={ # C2. Joel (b.1982) %%
+				name=Joel
+				dynasty=10381
+				religion=orthodox culture=ethiopian
+				father=100203538	# Mikael Solomonic
+				1982.01.01={birth=yes}
+			}
+		100203539={ # B3. Philip (b.1954) %%
+			name=Philip
+			dynasty=10381
+			religion=orthodox culture=ethiopian
+			father=100203536	# Makonnen Solomonic
+			1954.01.01={birth=yes}
+		}
+			100203544={ # C1. David (b.1992) %%
+				name=David
+				dynasty=10381
+				religion=orthodox culture=ethiopian
+				father=100203539	# Philip Solomonic
+				1992.01.01={birth=yes}
+			}
+			100203545={ # C2. Isaiah (b.1998) %%
+				name=Isaiah
+				dynasty=10381
+				religion=orthodox culture=ethiopian
+				father=100203539	# Philip Solomonic
+				1998.01.01={birth=yes}
+			}
+		100203540={ # B4. Baeda (b.1955) %%
+			name=Baeda
+			dynasty=10381
+			religion=orthodox culture=ethiopian
+			father=100203536	# Makonnen Solomonic
+			1955.01.01={birth=yes}
+		}
+		100203541={ # B5. Ermias (b.1956) %%
+			name=Ermias
+			dynasty=10381
+			religion=orthodox culture=ethiopian
+			father=100203536	# Makonnen Solomonic
+			1956.01.01={birth=yes}
+		}
+			100203546={ # C1. Christian (b.1992) %%
+				name=Christian
+				dynasty=10381
+				religion=orthodox culture=ethiopian
+				father=100203541	# Ermias Solomonic
+				trait=twin
+				1992.01.01={birth=yes}
+			}
+			100203547={ # C2. Rufael (b.1992) %%
+				name=Rufael
+				dynasty=10381
+				religion=orthodox culture=ethiopian
+				father=100203541	# Ermias Solomonic
+				trait=twin
+				1992.01.01={birth=yes}
+			}
+## ETHIOPIA
+
+
+## CAMEROON
+cameroon_biya_00={
+	name=Paul
+	dynasty=cameroon_biya
+	religion=catholic culture=igbo
+	1933.02.13={birth=yes}
+}
+	cameroon_biya_01={
+		name=Franck
+		dynasty=cameroon_biya
+		religion=catholic culture=igbo
+		father=cameroon_biya_00
+		1971.08.21={birth=yes}
+	}
+	cameroon_biya_02={
+		name=Paul
+		dynasty=cameroon_biya
+		religion=catholic culture=igbo
+		father=cameroon_biya_00
+		1996.01.01={birth=yes}
+	}
+	cameroon_biya_03={
+		name="Anasthasia Brenda"
+		female=yes
+		dynasty=cameroon_biya
+		religion=catholic culture=igbo
+		father=cameroon_biya_00
+		1998.01.01={birth=yes}
+	}
+## CAMEROON

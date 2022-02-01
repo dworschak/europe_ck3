@@ -16052,7 +16052,7 @@
 						1924.06.30={birth=yes}  # Wien
 						1949.09.21={death=yes}  # Graz
 					}
-			100023142={ #// C2. Maria, *Horn, NÖ 12.8.1858, +Wien 5.1.1938; m.Wien 20.4.1882 Gf Franz von Clam und Gallas (*Liberec (Reichenberg) 26.7.1854, +Friedland 20.1.1930) $$
+			100023142={ #// C2. Maria, *Horn, NÖ 12.8.1858, +Wien 5.1.1938; m.Wien 20.4.1882 Gf Franz von Clam und Gallas (*Reichenberg 26.7.1854, +Friedland 20.1.1930) $$
 				name=Maria
 				female=yes
 				dynasty=1004525
@@ -17192,7 +17192,7 @@
 
 
 ###		Starhemberg			1004013			100023000
-#starhemb3
+#starhemb2
 100023061={ #// Johannes III von Starhemberg, *ca 1412, +1474; 1m: N von Toerring; 2m: 1449 Elisabeth Agnes von Puechheim (+1455); 3m: 1459 Frn Agnes Elisabeth von Hohenberg (*1436, +5.5.1494); He had issue:
 	name=Johannes
 	dynasty=1004013
@@ -17353,16 +17353,7 @@
 							1682.07.27={add_spouse=100099563}	# GFN Dorothea von Schärffenberg
 							1689.01.01={death=yes}
 						}
-						100023863={ #// F5. [2m.] Franz Ottokar, *Wien 9.5.1662, +Stockholm 21.10.1699, bur Heiligen Geist Kapelle, Eferding; m.Wien 21.1.1687 Gfn Maria Cäcilia Clara von Rindsmaul (*Graz 2.1.1664, +Wien 17.8.1737); for their issue see HERE
-							name="Franz Ottokar"
-							dynasty=1004013
-							religion=catholic culture=bavarian
-							father=100023279	# Konrad v. Starhemberg
-							mother=100098723	# GFN Katharina Franziska Cavriani
-							1662.05.09={birth=yes}  # Wien
-							1687.01.21={add_spouse=100099901}	# GFN Maria Cäcilia von Rindsmaul
-							1699.10.21={death=yes}  # Stockholm
-						}
+						# starhemb3 -> F5. [2m.] Franz Ottokar, *Wien 9.5.1662, +Stockholm 21.10.1699, bur Heiligen Geist Kapelle, Eferding; m.Wien 21.1.1687 Gfn Maria Cäcilia Clara von Rindsmaul (*Graz 2.1.1664, +Wien 17.8.1737); for their issue see HERE
 						# starhemb4 -> F6. [2m.] Gundackar Thomas, *Wien 14/15.12.1663, +Wien 8.7.1745; 1m: St.Michael, Wien 13.1.1688 Maria Beatrix Franziska Gfn von Daun (*9.1.1665, +Wien 8.1.1701); 2m: St.Stephan, Wien 3.2.1707 Gfn Maria Josepha Jörger zu Tollet (*1668, +Wien 12.3.1746); for their issue see HERE
 					100024706={ #// E10. [2m.] Maria Euphrosine, *Wien 1617, +18.2.1683; m.14.8.1659 Ferdinand Gf Kollonich (+1695/97)
 						name="Maria Euphrosine"
@@ -17808,6 +17799,117 @@
 		1471.01.01={birth=yes}
 		1502.01.01={death=yes}
 	}
+#starhemb2
+
+
+#starhemb3
+100023863={ #// Franz Ottokar Graf von Starhemberg, *Wien 9.5.1662, +Stockholm 21.10.1699, bur Heiligen Geist Kapelle, Eferding; m.Wien 21.1.1687 Gfn Maria Cäcilia Clara von Rindsmaul (*Graz 2.1.1664, +Wien 17.8.1737)
+	name="Franz Ottokar"
+	dynasty=1004013
+	religion=catholic culture=bavarian
+	father=100023279	# Konrad v. Starhemberg
+	mother=100098723	# GFN Katharina Franziska Cavriani
+	1662.05.09={birth=yes}  # Wien
+	1687.01.21={add_spouse=100099901}	# GFN Maria Cäcilia von Rindsmaul
+	1699.10.21={death=yes}  # Stockholm
+}
+	100093109={ #// A1. Konrad Sigismund Quintus Anton, bap Wien 25.2.1689, +Matzen 28.9.1727; m.Alt-Ötting, Bayern 1.9.1710 Pss Maria Leopoldine zu Löwenstein-Wertheim-Rochefort (*Praha 26.5.1689, +Wien 24.8.1763)
+		name="Konrad"
+		dynasty=1004013
+		religion=catholic culture=german
+		father=100023863
+		mother=100099901
+		1689.01.01={birth=yes}
+		1710.09.01={add_spouse=100008276}	# Maria v. Löwenstein-Wertheim-Rochefort
+		1727.09.28={death=yes}  # Matzen
+	}
+		100094412={ #// B2. Maria Leopoldina Theresia, bap Wien 26.8.1712, +Wien 22.3.1800; m.Stephansdom, Wien 18.4.1731 Gf František Filip ze Šternberka (*Praha 21.8.1708, +Wien 9.1.1786)
+			name="Maria Leopoldina"
+			female=yes
+			dynasty=1004013
+			religion=catholic culture=german
+			father=100093109
+			mother=100008276
+			1712.08.26={birth=yes}  # Wien
+			1800.03.22={death=yes}  # Wien
+		}
+		#// B6. Johann Ernst Josef, *Regensburg 13.9.1716, +Wien 14.12.1786; m.6.4.1743 Maria Isabella Leopoldine (Theresia) Ungnadin Gfn von Weissenwolf (*17.11.1721, +Kloster Imbach 29.4.1780)
+		100094211={ #// B11. Maria Sophia Theresia Hedwigis Eva, *London 17.10.1722, +Strassbourg 12.12.1773; 1m: Renaix, Vlaanderen 28.7.1740 Fst Willem Hyazinth von Nassau-Siegen (*Bruxelles 18.2.1666, +Hadamar 18.2.1743); 2m: Bruhl bei Köln 25.8.1745 Ldgf Konstantin von Hessen-Rheinfels-Rotenburg (*Rotenburg 24.5.1716, +Schloss Wildeck bei Rotenburg 30.12.1778)
+			name="Maria Eva Sophia"
+			female=yes
+			dynasty=1004013
+			religion=catholic culture=german
+			father=100093109
+			mother=100008276
+			1722.10.17={birth=yes}	# London
+			1773.12.12={death=yes}  # Strassburg
+		}
+		100094745={ #// B12. Johann Georg Adam I Karl, -cr Fürst von Starhemberg 18.11.1765, *London 10.8.1724, +Wien 19.4.1808; 1m: Wien 13.11.1747 Gfn Maria Theresia Esther von Starhemberg (*2.2.1731, +Wien 12.10.1749); 2m: Antwerpen 1.7.1761 Pss Maria Franziska zu Salm-Salm (*28.10.1731, +Wien 5.9.1806)
+			name="Georg Adam"
+			dynasty=1004013
+			religion=catholic culture=german
+			father=100093109
+			mother=100008276
+			1724.08.10={birth=yes}  # London
+			1747.11.13={add_spouse=100023268}	# Maria v. Starhemberg
+			1761.06.01={add_spouse=100004163}	# Maria zu Salm
+			1807.04.19={death=yes}  # Wien
+		}
+			100099321={ #// C2. [2m.] Ludwig Joseph Maximilian 2.Fürst von Starhemberg, *Paris 12.3.1762, +Schloss Dürnstein 2.9.1833; m.Héverlé 21.9.1781 Pss et Dss Maria Louise d'Arenberg (*Bruxelles 29.1.1764, +Wien 1.3.1838)
+				name="Ludwig"
+				dynasty=1004013
+				religion=catholic culture=german
+				father=100094745
+				mother=100004163
+				1762.01.01={birth=yes}
+				1833.09.21={death=yes}
+			}
+				100080769={ #// D1. Marie Ernestine, *Bruxeles 8.10.1782, +château de Florennes, Namur 31.8.1832; m.Wien 1.10.1807 Duc Frédéric Auguste de Beaufort-Spontin (*Namur 14.9.1751, +Bruxeles 22.4.1817)
+					name="Ernestine"
+					female=yes
+					dynasty=1004013
+					religion=catholic culture=german
+					father=100099321
+					1782.10.09={birth=yes}  # Brussels
+					1832.08.31={death=yes}  # Florennes
+				}
+				100093185={ #// D2. Georg Adam II 3.Fürst von Starhemberg, *Bruxelles 1.8.1785, +Wien 7.4.1860; m.23.5.1842 Pss Aloisia von Auersperg (*17.4.1812, +Salzburg 16.11.1891)
+					name="Georg Adam"
+					dynasty=1004013
+					religion=catholic culture=german
+					father=100099321
+					1785.08.01={birth=yes}
+					1842.05.23={add_spouse=100021589}	# Aloisia Helene v. Auersperg
+					1860.04.07={death=yes}
+				}
+				100093187={ #// D3. Franziska Anna Marie, *Wien 6.1.1787, +Wien 21.12.1864; m.Twickenham 26.7.1803 Gf István Zichy de Zich et Vásonkeö (*13.4.1780, +8.6.1833)
+					name="Franziska Anna"
+					female=yes
+					dynasty=1004013
+					religion=catholic culture=german
+					father=100099321
+					1787.01.06={birth=yes}
+					1864.12.21={death=yes}
+				}
+				100082655={ #// D5. GEORG Friedrich Ludwig, *London 22.1.1801, +Igal, Hungary 24.3.1834; m.Bečov nad Teplou (Petschau), Bohemia 17.10.1828 Css Valérie de Beaufort-Spontin (*Bruxeles 11.10.1811, +Bruxeles 8.1.1887)
+					name="Georg"
+					dynasty=1004013
+					religion=catholic culture=german
+					father=100099321
+					1802.01.22={birth=yes}  # London
+					1828.10.27={add_spouse=100068368}	# Valerie de Beaufort-Spontin
+					1834.08.02={death=yes}  # Igal Hungary
+				}
+		100093837={ #// B13. Elisabeth Josepha (Maria), *12.10.1725, +27.6.1778; m.Wien 12.10.1749 Gf Károly Pál Pálffy ab Erdőd (*1697, +Bratislava 14.9.1774)
+			name="Elisabeth Josepha"
+			female=yes
+			dynasty=1004013
+			religion=catholic culture=german
+			father=100093109
+			mother=100008276
+			1725.10.12={birth=yes}
+			1778.06.27={death=yes}
+		}
 #starhemb3
 
 #starhemb4
@@ -17992,6 +18094,16 @@
 						1820.06.02={birth=yes}
 						1880.07.01={death=yes}
 					}
+	100023802={ #// A3. [1m.] Maria Maximiliana, *1692/93, +6.5.1714; m.1.XI.1703 Gf Gundemar Joseph von Starhemberg (*Linz 17.3.1679, +21.2.1743) $$
+		name=Maria
+		female=yes
+		dynasty=1004013
+		religion=catholic culture=bavarian
+		father=100024702	# Gundackar Thomas v. Starhemberg
+		mother=100081455	# GFN Maria Josepha Jörger von Tollet
+		1692.01.01={birth=yes}
+		1714.05.06={death=yes}
+	}
 	100023803={ #// A4. [1m.] Maria Theresia, *2.4.1694, +1738; m.26.11.1716 Ferdinand Bonaventura Ungnad Gf von Weissenwolff (*29.1.1693, +Wien 30.12.1781)
 		name="Maria Theresia"
 		female=yes
@@ -18011,16 +18123,6 @@
 		mother=100285890	# Maria Beatrix von Daun
 		1695.01.01={birth=yes}
 		1768.01.01={death=yes}
-	}
-	100023922={ #// A10. [1m.] Maria Dominika Eleonora Josefa Eustachia Theofilia, *20.12.1700, +Wien 28.2.1736; m.Wien 11.1.1735 Gf Johann Josef Wilhelm von Wurmbrand-Stuppach (*Graz 18.2.1670, +Wien 17.12.1750) $$
-		name="Maria Dominika"
-		female=yes
-		dynasty=1004013
-		religion=catholic culture=bavarian
-		father=100024702	# Gundackar Thomas v. Starhemberg
-		mother=100285890	# Maria Beatrix von Daun
-		1700.12.20={birth=yes}
-		1736.02.28={death=yes}  # Wien
 	}
 	100023868={ #// A7. [2m.] Maria Gabriele Isabelle Franziska Leonardina Eustachia, b.St.Stephan, Wien 28.11.1707, +Wien 8.11.1793; m.Hofpfarre, Wien 14.7.1727 Fst Rudolf Wenzel Josef I von Colloredo, Gf von Waldsee (*Praha 7.7.1706, +Wien 1.11.1788) $$
 		name="Maria Gabriele"
@@ -18042,15 +18144,15 @@
 		1708.02.02={birth=yes}
 		1740.05.26={death=yes}
 	}
-	100023802={ #// A3. [1m.] Maria Maximiliana, *1692/93, +6.5.1714; m.1.XI.1703 Gf Gundemar Joseph von Starhemberg (*Linz 17.3.1679, +21.2.1743) $$
-		name=Maria
+	100023922={ #// A10. [1m.] Maria Dominika Eleonora Josefa Eustachia Theofilia, *20.12.1700, +Wien 28.2.1736; m.Wien 11.1.1735 Gf Johann Josef Wilhelm von Wurmbrand-Stuppach (*Graz 18.2.1670, +Wien 17.12.1750) $$
+		name="Maria Dominika"
 		female=yes
 		dynasty=1004013
 		religion=catholic culture=bavarian
 		father=100024702	# Gundackar Thomas v. Starhemberg
-		mother=100081455	# GFN Maria Josepha Jörger von Tollet
-		1692.01.01={birth=yes}
-		1714.05.06={death=yes}
+		mother=100285890	# Maria Beatrix von Daun
+		1700.12.20={birth=yes}
+		1736.02.28={death=yes}  # Wien
 	}
 #starhemb4
 
@@ -18189,7 +18291,7 @@
 			1733.07.13={death=yes}  # Wien
 		}
 			100023268={ #// C1. Maria Theresia Esther, *2.2.1727, +Wien 12.10.1749; m.13.11.1747 Fst Johann Georg Adam I von Starhemberg (*London 10.8.1724, +Wien 19.4.1807)
-				name=Maria
+				name="Maria Theresia Esther"
 				female=yes
 				dynasty=1004013
 				religion=catholic culture=bavarian
@@ -18380,7 +18482,7 @@
 		1835.05.17={add_spouse=100120288}	# Klára Luzénszky de Luzsna et Reglicz
 		1859.10.03={death=yes}
 	}
-		100023002={ #// 1i) CAMILLO Rüdiger Gundackar, Fürst von Starhemberg (8 Sep 1804-9 Jun 1872); m.1st 1834 Guidobaldine von Steinmetz (d.19 Aug 1835); m.2nd 28 Aug 1838 Marie Leopoldine Gfn von Thurheim (4 Apr 1817-12 Mar 1886)
+		100023002={ #// 1i) CAMILLO Rüdiger Gundackar, 4. Fst von Starhemberg (8 Sep 1804-9 Jun 1872); m.1st 1834 Guidobaldine von Steinmetz (d.19 Aug 1835); m.2nd 28 Aug 1838 Marie Leopoldine Gfn von Thurheim (4 Apr 1817-12 Mar 1886)
 			name=Camillo
 			dynasty=1004013
 			religion=catholic culture=bavarian
@@ -18391,7 +18493,7 @@
 			1838.08.28={add_spouse=100084794}	# GFN Marie Leopoldine von Thurheim
 			1872.06.09={death=yes}
 		}
-			100023008={ #// 1j) CAMILLO Heinrich Fst von Starhemberg (Cilli 31 Jul 1835-Vienna 3 Feb 1900); m.Bad Ischl 6 Feb 1860 Sophie Gfn von Sickingen-Hohenburg (Prague 13 Aug 1842-Bad Ischl 23 May 1913)
+			100023008={ #// 1j) CAMILLO Heinrich, 5. Fst von Starhemberg (Cilli 31 Jul 1835-Vienna 3 Feb 1900); m.Bad Ischl 6 Feb 1860 Sophie Gfn von Sickingen-Hohenburg (Prague 13 Aug 1842-Bad Ischl 23 May 1913)
 				name=Camillo
 				dynasty=1004013
 				religion=catholic culture=bavarian
@@ -18411,7 +18513,7 @@
 					1860.11.24={birth=yes}  # Bergheim, Oberösterreich
 					1940.07.31={death=yes}  # Steyregg
 				}
-				100023017={ #// 2k) ERNST RÜDIGER Camillo Maria Fst von Starhemberg (Bergheim 30 Nov 1861-Schloß Auhof bei Linz 16 Nov 1927); m.Vienna 28 Jul 1898 Franziska Gfn Larisch von Moennich (Vienna 24 Oct 1875-Bad Darkau 27 Apr 1943) $$
+				100023017={ #// 2k) ERNST RÜDIGER Camillo Maria, 6. Fst von Starhemberg (Bergheim 30 Nov 1861-Schloß Auhof bei Linz 16 Nov 1927); m.Vienna 28 Jul 1898 Franziska Gfn Larisch von Moennich (Vienna 24 Oct 1875-Bad Darkau 27 Apr 1943) $$
 					name="Ernst Rüdiger"
 					dynasty=1004013
 					religion=catholic culture=bavarian
@@ -22616,12 +22718,12 @@
 		}
 	100023795={ #// 6b) Maria Karoline (1769-Vienna 8 Aug 1800); m.Sehuschitz 6 Oct 1793 Richard Meade, 2nd Earl of Clanwilliam (10 May 1766-Vienna 3 Sep 1805)
 		name="Maria Karoline"
+		female=yes
 		dynasty=1004005
 		religion=catholic culture=bavarian
 		father=100023667	# Franz v. Thun u.Hohenstein
 		mother=100093308	# GFN Marie Wilhelmine von Ulfeld
 		1769.01.01={birth=yes}
-		1793.10.06={add_spouse=100087957}	# EARL Richard Meade
 		1800.08.08={death=yes}
 	}
 #thun6
@@ -32822,7 +32924,7 @@
 							1971.02.07={birth=yes}
 							2003.02.21={add_spouse=100093928}	# Judith Wurm
 						}
-							100023159={ #// 1g) Emilia Sophie Esther Maria (b.Vienna 3 Jun 2003)
+							100023159={ #// 1g) Emilia Sophie Esther Maria (b.Vienna 3 Jun 2003)	
 								name=Emilia
 								female=yes
 								dynasty=1004000
@@ -32927,3 +33029,214 @@
 		}
 #windisch4
 #Windisch-Graetz|1004000|100022500-100022699
+
+
+##	UNGNAD
+100102783={ # Bss        Anna                      Ungnad von Weißenwolff                   (1573-1606)     1 [LEININGEN]
+	name="Anna Ungnad von Weißenwolff"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1573.01.01={birth=yes}
+	1606.01.01={death=yes}
+}
+100091171={ # Gfn        Maria Anna Franziska      Ungnad von Weißenwolff                   (1747-1822)     0 [ESTERHAZY]
+	name="Maria Anna Franziska Ungnad von Weißenwolff"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1747.02.02={birth=yes}
+	1822.06.26={death=yes}
+}
+100101244={ # Frn        Elisabeth                 Ungnad zu Sonnegg                        (1579-1631)     4 [STARHEMBERG]
+	name="Elisabeth Ungnad zu Sonnegg"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1579.01.01={birth=yes}  # Bleiburg Kärnten
+	1631.01.01={death=yes}  # Ortenburg Niederbayern
+}
+100087063={ #            Anna                      Ungnad von Sonneck                       (1533-1608)     1 [SCHLIK]
+	name="Anna Ungnad von Sonneck"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1533.01.01={birth=yes}  # EST.
+	1608.01.01={death=yes}  # EST.
+}
+100100661={ # Gfn        Anna                      von Ungnad                               (1569-1611)     1 [ERDODY]
+	name="Anna von Ungnad"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1569.01.01={birth=yes}
+	1611.01.01={death=yes}
+}
+
+ungnad_010={
+	name="David"
+	dynasty=1004515
+	religion=catholic culture=german
+	1604.01.01={birth=yes}
+	1672.01.01={death=yes}
+}
+	100103819={ # Maria Margaretha Ungnad von Weissenwolff (+1661); m.Franz Ernst Gf Schlick, *after 1623, +16.8.1675
+		name="Maria Margaretha"
+		female=yes
+		dynasty=1004515
+		religion=catholic culture=german
+		father=ungnad_010
+		1629.01.01={birth=yes}  # EST.
+		1661.01.01={death=yes}
+	}
+	100104033={ # Helmhard Christoph Ungnad Gf von Weissenwolff (*2.1.1634 +20.2.1702); m.Wien 23.1.1656 Maria Susanna v. Althann, *28.10.1636, +7.1.1661
+		name="Helmhard Christoph"
+		dynasty=1004515
+		religion=catholic culture=german
+		father=ungnad_010
+		1634.01.02={birth=yes}
+		1656.01.23={add_spouse=100022246}	# Maria Susanna v. Althann
+		1702.02.20={death=yes}
+	}
+		100103950={ # Maria Elisabeth Ungnad Gfn von Weissenwolf (*1656 +1689); m.1675 Michael Franz Ferdinand, *ca 1650, +1677
+			name="Maria Elisabeth"
+			female=yes
+			dynasty=1004515
+			religion=catholic culture=german
+			father=100104033
+			1656.12.01={birth=yes}
+			1689.01.01={death=yes}
+		}
+		ungnad_008={ # Ferdinand Bonaventura Ungnad Gf von Weissenwolff, *29.1.1693, +Wien 30.12.1781; m.26.11.1716 Maria Theresia von Starhemberg (*2.4.1694, +1738)
+			name="Ferdinand Bonaventura"
+			dynasty=1004515
+			religion=catholic culture=german
+			father=100104033
+			1693.01.29={birth=yes}
+			1716.11.26={add_spouse=100023803}	# Maria Theresia v. Starhemberg
+			1781.12.30={death=yes}  # Wien
+		}
+			100091170={ # Maria Elisabeth Ungnadin, Gfn von Weissenwolff, *21.3.1718 +Eisenstadt 25.2.1790; m.Wien 4.3.1737 Miklós Jozsef Fürst Esterházy von Galántha (*Wien 18.12.1714, +Wien 28.9.1790)
+				name="Maria Elisabeth"
+				female=yes
+				dynasty=1004515
+				religion=catholic culture=german
+				father=ungnad_008
+				1718.03.21={birth=yes}
+				1790.02.25={death=yes}  # Eisenstadt
+			}
+			ungnad_007={ # Guidobald Ungnad von Weissenwolff b. 27 März 1723 d. 1784; m.Josepha Frn Salza von Heidersdorf
+				name="Guidobald"
+				dynasty=1004515
+				religion=catholic culture=german
+				father=ungnad_008
+				1723.03.27={birth=yes}
+				1784.02.18={death=yes}
+			}
+				ungnad_009={
+					name="Ferdinand"
+					dynasty=1004515
+					religion=catholic culture=german
+					father=ungnad_007
+					1757.01.01={birth=yes}
+					1820.01.01={death=yes}	# EST.
+				}
+					100100724={ # Mária Anna Ungnad Gfn von Weissenwolff, *16.11.1795, +Rubein 3.5.1866; m.7.1.1812 Valentin Esterházy von Galántha (*Paris 26.3.1786, +Paris 3.4.1838) 
+						name="Mária Anna"
+						female=yes
+						dynasty=1004515
+						religion=catholic culture=german
+						father=ungnad_009
+						1795.11.16={birth=yes}
+						1866.05.03={death=yes}  # Rubein
+					}
+				100095574={ # Francisca Xaverie Ungnad von Weissenwolff (*3.12.1773, +7.10.1859); m.29.7.1798 Alois Václav, Fürst von Kaunitz und Rietberg, *19.6.1774, +15.11.1848
+					name="Francisca Xaverie"
+					female=yes
+					dynasty=1004515
+					religion=catholic culture=german
+					father=ungnad_007
+					1773.12.03={birth=yes}
+					1859.10.07={death=yes}
+				}
+				100101534={ # Johann Nepomuck Ungnad Gf von Weissenwolf (*11.5.1779, +27.4.1855); m.1815 Sophie Gabriele Gfn Breunner, *2.5.1794, +23.4.1847 
+					name="Johann Nepomuck"
+					dynasty=1004515
+					religion=catholic culture=german
+					father=ungnad_007
+					1779.05.11={birth=yes}
+					1815.01.01={add_spouse=100022150}	# Sophie Gabriele v. Breunner
+					1855.04.27={death=yes}
+				}
+				ungnad_006={ # Paul Hippolyt Ungnad von Weissenwolff b. 13 August 1780 d. 27 August 1848; m.Therese Stadnicka (*1790)
+					name="Paul Hippolyt"
+					dynasty=1004515
+					religion=catholic culture=german
+					father=ungnad_007
+					1780.08.13={birth=yes}
+					1848.08.27={death=yes}
+				}
+					ungnad_001={ # Guidobald Graf Ungnad von Weißenwolff († 1872), Herrschaftsbesitzer; m.Jadwiga Teofila Krasicka (*13.09.1839)
+						name="Guidobald"
+						dynasty=1004515
+						religion=catholic culture=german
+						father=ungnad_006
+						1817.12.17={birth=yes}
+						1872.12.16={death=yes}
+					}
+						ungnad_002={ # Konrad (Dubiecko 14 Jan 1855-Steyregg 24 Oct 1912); m.2 Aug 1879 Marietta v. Starhemberg (Bergheim, Oberösterreich 24 Nov 1860-Steyregg 31 Jul 1940) %%
+							name=Konrad
+							dynasty=1004515
+							religion=catholic culture=german
+							father=ungnad_001
+							1855.01.14={birth=yes}  # Dubiecko
+							1879.08.02={add_spouse=100023013}	# Marietta v. Starhemberg
+							1912.10.24={death=yes}  # Steyregg
+						}
+							100035952={ # A1. Irene (Steyregg 6 Sep 1880-Bad Ischl 1 Mar 1969); m.6 Oct 1910 László Szapáry de Muraszombath, Széchysziget et Szapár (Perkáta 16 May 1864-Wien 12 Oct 1939)
+								name=Irene
+								female=yes
+								dynasty=1004515
+								religion=catholic culture=german
+								father=ungnad_002	# Konrad Ungnad von Weißenwolff
+								mother=100023013	# Marietta v. Starhemberg
+								1880.09.06={birth=yes}  # Steyregg
+								1969.03.01={death=yes}  # Bad Ischl
+							}
+							100035949={ # A2. Henriette Ungnad Gfn von Weißenwolff (Schloß Steyregg 19 Sep 1883-Linz 28 Apr 1962); m.Schloß Steyregg 6 Jun 1905 Hugo Lamoral v. Thurn u.Taxis (Marienthal 1 Sep 1873-Wisniatyce am Sereth, Galicia 6 Sep 1915)
+								name=Henriette
+								female=yes
+								dynasty=1004515
+								religion=catholic culture=german
+								father=ungnad_002	# Konrad Ungnad von Weißenwolff
+								mother=100023013	# Marietta v. Starhemberg
+								1883.09.19={birth=yes}  # Steyregg
+								1962.04.28={death=yes}  # Linz
+							}
+							ungnad_005={ # PAUL Kamillo Konrad Hubert Ungnad von Weissenwolff, *Steyregg	March 01, 1886, +May 17, 1915 (29)
+								name="Paul"
+								dynasty=1004515
+								religion=catholic culture=german
+								father=ungnad_002
+								1886.03.01={birth=yes}
+								1915.05.17={death=yes}
+							}
+							ungnad_004={ # Nikolaus Gregor Ungnad von Weissenwolff b. 11 August 1895 d. 29 September 1916
+								name="Nikolaus"
+								dynasty=1004515
+								religion=catholic culture=german
+								father=ungnad_002
+								1895.08.11={birth=yes}
+								1916.09.29={death=yes}
+							}
+						ungnad_003={ # Maria Henriette, *1862
+							name="Maria Henriette"
+							female=yes
+							dynasty=1004515
+							religion=catholic culture=german
+							father=ungnad_001
+							1862.01.01={birth=yes}
+							1920.10.24={death=yes}  # EST.
+						}
+
+##	UNGNAD

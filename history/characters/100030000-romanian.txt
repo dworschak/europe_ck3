@@ -4,6 +4,13 @@
 ##  100030250		Wassilko	 			1003002	
 #########################################################
 
+## Familii boierești din Țara Românească și Moldova
+## 	Domnitoare	
+## 		Basarabi  • Brâncoveanu  • Callimachi  • Cantacuzino  • Cantemir  • Caradja  • Craiovești  • Ghica  • 
+##		Mavrocordat  • Movilă  • Mușat  • Sturdza
+## 	Boierești	
+## 		Băleanu  • Brătianu  • Cornescu  • Florescu  • Glogoveanu  • Golescu  • Juvara  • Hâjdău  • Miclescu  • Văcărescu
+
 
 ##  100030250		Wassilko	 			1003002
 100094978={ #//            Natalia                   Keșco                                   (1859-1941)     2 [OBRENOVIC]
@@ -1540,7 +1547,7 @@
 			religion=orthodox culture=vlach
 			father=100030053	# Alexander Cantacuzino
 			mother=100082450	# Elisaveta Daragan
-			1819.09.18={birth=yes}  # Staraia Vielika Russia
+			1819.09.18={birth=yes}  # Staraia Vielika, Russia
 			1845.12.23={death=yes}  # Venice
 		}
 #cantacuz3
@@ -2163,14 +2170,14 @@ ghika_001={ # Gheorghe
 		1816.01.01={death=yes}
 	}
 	
-sturdza_032{ # Дмитрий Иванович Стурдза
+sturdza_032={ # Дмитрий Иванович Стурдза
 	name=Dimitrie
 	dynasty=1003004
 	religion=orthodox culture=vlach
 	1560.01.01={birth=yes}	# EST.
 	1610.01.01={death=yes}	# EST.
 }
-	sturdza_031{ # Matei Sturza
+	sturdza_031={ # Matei Sturza
 		name=Matei
 		dynasty=1003004
 		religion=orthodox culture=vlach
@@ -2267,7 +2274,7 @@ sturdza_032{ # Дмитрий Иванович Стурдза
 								religion=orthodox culture=vlach
 								father=sturdza_001
 								1786.01.01={birth=yes}
-								1831.01={death=yes}
+								1831.01.01={death=yes}
 							}
 							sturdza_002={ # Michael Sturdza b. 24 April 1794 d. 8 May 1884; 1m: Elena Rosetti; 2m: Pss Smaragda Vogoridis (21 years younger)
 								name=Mihail
@@ -2368,71 +2375,131 @@ sturdza_032{ # Дмитрий Иванович Стурдза
 
 
 ## CANTEMIR | 1000005
-100035693={ # A1. Konstantin Cantemir, Hospodar of Moldavia (VI.1685-III.1693), *1627, +Jassy 24.3.1693; 1m: Anastasia Pss Ghika, dau.of Hospodar Gheorghe Ghika; 2m: 1670 Anna Bantos; 3m: Ruxandra Harasi
-	name=Konstantin
-	dynasty=1000005
-	religion=orthodox culture=russian
-	1627.01.01={birth=yes}
-	1660.01.01={add_spouse=ghika_003}
-	1693.03.24={death=yes}
-}
-	100035691={ # B1. [1m.] Antioh Cantemir, Hospodar of Moldavia (XII.1695-IX.1700)+(II.1705-VI.1707), +1726; m.Golia 1696 Catrina N
-		name=Antioh
+# Tudor Cantemir, apparently a peasant who became boyar; he had issue:
+	100035693={ # A1. Konstantin Cantemir, Hospodar of Moldavia (VI.1685-III.1693), *1627, +Jassy 24.3.1693; 1m: Anastasia Pss Ghika, dau.of Hospodar Gheorghe Ghika; 2m: 1670 Anna Bantos; 3m: Ruxandra Harasi
+		name=Konstantin
 		dynasty=1000005
 		religion=orthodox culture=russian
-		father=100035693	# Konstantin Kantemir
-		mother=ghika_003
-		1665.01.01={birth=yes}  # EST.
-		1726.01.01={death=yes}
+		1627.01.01={birth=yes}
+		1660.01.01={add_spouse=ghika_003}
+		1693.03.24={death=yes}
 	}
-		100035672={ # C3. Konstantin Cantemir, general-poruchik of the Russian army 25.12.1755, *1718, +1776; 1m: N, a Moldavian woman; 2m: Natalia Ivanovna Golovina; 3m: Sofia Bogdanovna Passek (+1783) $$
-			name=Konstantin
+		100035691={ # B1. [1m.] Antioh Cantemir, Hospodar of Moldavia (XII.1695-IX.1700)+(II.1705-VI.1707), +1726; m.Golia 1696 Catrina N
+			name=Antioh
 			dynasty=1000005
 			religion=orthodox culture=russian
-			father=100035691	# Antioh Kantemir
-			1683.01.01={birth=yes}  # EST.
-			1708.01.01={add_spouse=100020997}	# Natalia Golovin
-			1758.01.01={death=yes}  # EST.
+			father=100035693	# Konstantin Kantemir
+			mother=ghika_003
+			1665.01.01={birth=yes}  # EST.
+			1726.01.01={death=yes}
 		}
-	100036797={ # B2. [2m.] Dimitrie Kantemir, Hospodar of Moldavia (1693)+(XI.1710-VII.1711), the first Romanian historian, geographer, and composer, -cr Prince of the Russian Empire (Serene Highness) 31.7.1711, -cr Reichsfürst 1723, *Galati 26.10.1673, +Dmitrovka 21.8.1723;  $$
-				# 1m: Jassy 9.5.1699 Pss Cassandra Cantacuzene (*1682, +11.5.1713); 
-				# 2m: St.Petersburg 14.1.1717 Pss Anastasia Trubecka (*14.10.1700, +27.11.1755)
-		name=Dimitrie
-		dynasty=1000005
-		religion=orthodox culture=russian
-		father=100035693	# Konstantin Kantemir
-		1673.10.26={birth=yes}	# Galati
-		1707.01.01={add_spouse=100030136}	# Cassandra Cantacuzino
-		1717.10.14={add_spouse=100017509}	# Anastasia Trubetzkoy
-		1723.08.21={death=yes}	# Dmitrovka
-	}
-		100036798={ # C3. Pr Constantin, *1703, +19.1.1747; m.24.5.1724 Pss Anastasia Galitzine (*15.10.1698, +12.1.1746) $$
-			name=Konstantin
+			# C1. Anna; m.Radu Bassarab de Brancovan (+executed Istanbul 15.8.1714), son and heir of Constantin Brancovan, Voivode of Wallachia
+			# C2. Dimitrie, +1758
+			100035672={ # C3. Konstantin Cantemir, general-poruchik of the Russian army 25.12.1755, *1718, +1776; 1m: N, a Moldavian woman; 2m: Natalia Ivanovna Golovina; 3m: Sofia Bogdanovna Passek (+1783) $$
+				name=Konstantin
+				dynasty=1000005
+				religion=orthodox culture=russian
+				father=100035691	# Antioh Kantemir
+				1718.01.01={birth=yes}
+				1742.01.01={add_spouse=100020997}	# Natalia Golovin
+				1776.01.01={death=yes}
+			}
+				# D1. [3m.] Dimitrie Cantemir, colonel, he went mad and was confined to a fortress, *1749, +Kiev 17.5.1820
+				# D2. Maria; m.boyar Pantazi Campineanu; their issue took the name Cantemir-Campineanu
+		100036797={ # B2. [2m.] Dimitrie Kantemir, Hospodar of Moldavia (1693)+(XI.1710-VII.1711), the first Romanian historian, geographer, and composer, -cr Prince of the Russian Empire (Serene Highness) 31.7.1711, -cr Reichsfürst 1723, *Galati 26.10.1673, +Dmitrovka 21.8.1723;  $$
+					# 1m: Jassy 9.5.1699 Pss Cassandra Cantacuzene (*1682, +11.5.1713); 
+					# 2m: St.Petersburg 14.1.1717 Pss Anastasia Trubecka (*14.10.1700, +27.11.1755)
+			name=Dimitrie
 			dynasty=1000005
 			religion=orthodox culture=russian
-			father=100036797	# Dimitrie Kantemir
-			1698.01.01={birth=yes}
-			1723.01.01={add_spouse=100016149}	# Anastasia Golizyn
-			1747.01.19={death=yes}
+			father=100035693	# Konstantin Kantemir
+			1673.10.26={birth=yes}	# Galati
+			1707.01.01={add_spouse=100030136}	# Cassandra Cantacuzino
+			1717.10.14={add_spouse=100017509}	# Anastasia Trubetzkoy
+			1723.08.21={death=yes}	# Dmitrovka
 		}
-		100035614={ # C4. Pr Matvei, *1704, +1771; m.1734 Agrafena Pss Lobanov-Rostovsky (*20.6.1708, +5.1.1772) $$
-			name=Matvei
-			dynasty=1000005
-			religion=orthodox culture=russian
-			father=100036797	# Dimitrie Kantemir
-			mother=100017509	# Anastasia Trubetzkoy
-			1704.01.01={birth=yes}
-			1735.02.07={add_spouse=100019658}	# Agrafena Lobanov-Rostovsky
-			1771.10.30={death=yes}
-		}
-		100036799={ # C7. [2m.] Pss Ekaterina/Smaragda II, famed for her beauty, *19.11.1720, +Versailles 3.11.1761; m.St.Petersburg 6.11.1751 Pr Dmitri Mikhailovich Galitzine (*15.5.1721, +Vienna 19.9.1793) $$
-			name=Jekaterina
-			female=yes
-			dynasty=1000005
-			religion=orthodox culture=russian
-			father=100036797	# Dimitrie Kantemir
-			mother=100017509	# Anastasia Trubetzkoy
-			1720.11.04={birth=yes}
-			1761.11.02={death=yes}
-		}
+			# C1. [1m.] Pss Maria, mistress of Tsar Piotr I, *29.4.1700, +9.9.1754
+			# C2. Pss Ekaterina, dit Smaragda (Emerald), *1701, +1720
+			100036798={ # C3. Pr Constantin, *1703, +19.1.1747; m.24.5.1724 Pss Anastasia Galitzine (*15.10.1698, +12.1.1746) $$
+				name=Konstantin
+				dynasty=1000005
+				religion=orthodox culture=russian
+				father=100036797	# Dimitrie Kantemir
+				1698.01.01={birth=yes}
+				1723.01.01={add_spouse=100016149}	# Anastasia Golizyn
+				1747.01.19={death=yes}
+			}
+			100035614={ # C4. Pr Matvei, *1704, +1771; m.1734 Agrafena Pss Lobanov-Rostovsky (*20.6.1708, +5.1.1772) $$
+				name=Matvei
+				dynasty=1000005
+				religion=orthodox culture=russian
+				father=100036797	# Dimitrie Kantemir
+				mother=100017509	# Anastasia Trubetzkoy
+				1704.01.01={birth=yes}
+				1735.02.07={add_spouse=100019658}	# Agrafena Lobanov-Rostovsky
+				1771.10.30={death=yes}
+			}
+			# C5. Pr Sergei, brigadier, *1707, +1780
+				# D1. [by Avdotia Moiseevna] Elena Alfimova, *1744, +after 1772
+			# C6. Pr Antiokh, historian and poet, Russian ambassador in Paris and London, *Cantemir Palace, Constantinople 10.9.1708, +Paris 31.3.1744; he apparently left illegitimate issue while living abroad
+			100036799={ # C7. [2m.] Pss Ekaterina/Smaragda II, famed for her beauty, *19.11.1720, +Versailles 3.11.1761; m.St.Petersburg 6.11.1751 Pr Dmitri Mikhailovich Galitzine (*15.5.1721, +Vienna 19.9.1793) $$
+				name=Jekaterina
+				female=yes
+				dynasty=1000005
+				religion=orthodox culture=russian
+				father=100036797	# Dimitrie Kantemir
+				mother=100017509	# Anastasia Trubetzkoy
+				1720.11.04={birth=yes}
+				1761.11.02={death=yes}
+			}
+		# B3. Elisaveta; m.Mihai Ion Racovita, Hospodar of Moldavia
+		# B4. Ruxandra; m.Lupu Costachi, Great Spatar of Moldavia
+	# A2. Nestor Cantemir, *1635, +1683
+	# A3. Macrina Cantemir, +1677
 ## CANTEMIR | 1000005
+
+## MAVRO
+# George Mavrocordato n. 13 avril 1802, 16 août 1858 naissance: Athens (Greece), Attica (Greece), Kingdom of Greece
+	100100532={ # Pss        Helene                    Mavrocordato                             (1846-1924)     3 [DOHNA]
+		name="Helene Mavrocordato"
+		female=yes
+		#dynasty=0
+		religion=catholic culture=greek
+		1846.05.25={birth=yes}  # Athens
+		1924.01.03={death=yes}  # Weimar
+
+#Nicholas Mavrocordatos (1522–1570) from the island of Chios
+# Alexandra Mavrokordatou (1605–1684), spouse of the founder, intellectual and salonnière, mother of Alexander Mavrocordatos (1636–1709)
+	# Alexander Mavrocordatos (1636–1709), son of the founder and of Alexandra Mavrokordatou, styled prince ("Serene Highness") in 1699 by Leopold I, Holy Roman Emperor
+		# Nicholas Mavrocordatos, ruler of Wallachia (two times) and Moldavia (two times) (1670 – September 3, 1730)); 1m: Casandra Cantacuzino, 2m: Pulcheria Tzouki, 3m: Smaranda Stavropoleos
+			# Constantine Mavrocordatos (1711–1769), Nicholas' son, ruler of Moldavia (four times) and Wallachia (six times); m.Catherine Rosetti
+				# Alexander I Mavrokordatos "Delibey", ruler of Moldavia (1782–1785)
+				# Demetre Mavrocordato (1744-1814); m.Maria Sturdza
+					# Alexandru Mavrocordat, *1775
+						# Alexandru Mavrocordat, *1815; m.Pulcheria Lambrino (1814-1874)
+							# Dumitru / Demetre Mavrocordat *July 22, 1848, +September 14, 1919; m.Eliza Negruzzi
+								# Demetre Mavrocordato, *1884, +April 23, 1958; m.Emanuela Ioana Gradisteanu (*	August 14, 1890, +September 11, 1964)
+									100099082={ # Pss        Maria Despina             Mavrocordato                             (1917-1992)     1 [SAYN]
+										name="Maria Despina Mavrocordato"
+										female=yes
+										#dynasty=0
+										religion=catholic culture=vlach
+										1917.09.30={birth=yes}  # Jassy
+										2014.01.01={death=yes}
+									}
+			# Domnitza Sultana Mavrocordat, 17 Dec 1721 Bucuresti - Phanar
+			# Alexander Mavrokordatos, 12 Dec 1720 - 1790 Phanar
+				# Nicholas Mavrokordatos, ban of Wallachia
+					# Alexandros Mavrokordatos (1791–1865), Prime Minister of Greece (four times)
+			# John Mavrokordatos, Nicholas' son, ruler of Moldavia (1743–1747), *12 March 1712 – 29 July 1747 / 1757; 1m: Maria Giuliano, 2m: Sultana Manu: Birth: 1723.
+				# Alexander II Mavrokordatos "Firaris", ruler of Moldavia (1785–1786),  1 July 1754 – 8 February 1819
+				100096681={ # Pss        Ilinca                    Mavrocordato                             (1739-1814)     2 [CANTACUZINO]
+					name="Ilinca Mavrocordato"
+					female=yes
+					#dynasty=0
+					religion=orthodox culture=vlach
+					1739.01.01={birth=yes}	# EST.
+					1814.01.01={death=yes}	# EST.
+				}
+		# John Mavrocordatos (1684–1719), Alexander's son, ruler of Wallachia, caimacam of Moldavia
+## MAVRO
