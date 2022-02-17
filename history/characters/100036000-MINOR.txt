@@ -545,7 +545,7 @@
 		father=100035969	# François Jean des Roys d'Eschandelys
 		mother=100069328	# Marie de Polignac
 		1939.05.09={birth=yes}  # Paris
-		2020.01.01={birth=yes}
+		2020.01.01={death=yes}
 	}
 	#  Etienne 5.Marquis des Roys d'Eschandelys
 # DES ROY
@@ -1342,7 +1342,6 @@
 							dynasty=1008340
 							religion=catholic culture=german
 							father=100035871	# Franz-Lothar van Hoensbroech
-							mother=100025591	# Gabriele von Spee
 							1908.01.01={birth=yes}
 							1936.01.01={add_spouse=100035885}	# Felicitas v. Montgelas
 							1973.01.01={death=yes}
@@ -1362,7 +1361,6 @@
 							dynasty=1008340
 							religion=catholic culture=german
 							father=100035871	# Franz-Lothar van Hoensbroech
-							mother=100025591	# Gabriele von Spee
 							1909.01.01={birth=yes}
 							1994.01.01={death=yes}
 						}
@@ -1371,7 +1369,6 @@
 							dynasty=1008340
 							religion=catholic culture=german
 							father=100035871	# Franz-Lothar van Hoensbroech
-							mother=100025591	# Gabriele von Spee
 							1911.04.13={birth=yes}  # Münster
 							1939.10.19={add_spouse=100012551}	# Margarete zu Lynar
 							1941.07.17={death=yes}  # Narwik
@@ -1574,7 +1571,9 @@
 		father=100035854	# János Kendeffy de Malomvíz
 		mother=100117488	# Polexina Teleki de Szék
 		1795.01.04={birth=yes}
-		1829.01.01={add_spouse=100116920}	# Borbála Bethlen de Bethlen
+		1820.01.01={add_spouse=100116920}	# Borbála Bethlen de Bethlen
+		1830.01.01={remove_spouse=100116920}
+		1831.01.01={add_spouse=100119809}	# Rozália Jósika de Branyicska
 		1834.02.12={death=yes}
 	}
 		100035851={ # B1. Róza (14 Jun 1818-Hadad 17 Sep 1877); m.6 Mar 1834 Farkas Wesselényi de Hadad (Kolozsvár 3 Nov 1809-Kolozsvár 15 Oct 1870) %%
@@ -4211,14 +4210,14 @@
 				1867.01.01={add_spouse=100117557}	# Cecília Bánffy de Losoncz
 				1886.02.14={death=yes}  # Kolozsvár
 			}
-				100035436={ # D1. Dániel (b. ca.1868) %%
+				100035436={ # D1. Dániel (1879-Cluj 1914); m.Maria Gál de Hilib
 					name=Dániel
 					dynasty=1011812
 					religion=catholic culture=hungarian
 					father=100035448	# Dániel Zeyk de Zeykfalva
 					mother=100117557	# Cecília Bánffy de Losoncz
-					1868.01.01={birth=yes}  # EST.
-					1910.01.01={death=yes}  # EST.
+					1879.01.01={birth=yes}
+					1914.01.01={death=yes}	# Cluj
 				}
 					100035450={ # E1. Ilona (b.Mikefalva 26 Jun 1909); m.26 Jun 1932 László Bánffy de Losoncz (Marosgezse 11 Sep 1896-Kolozsvár 16 Dec 1974) %%
 						name=Ilona
@@ -4228,6 +4227,15 @@
 						father=100035436	# Dániel Zeyk de Zeykfalva
 						1909.06.26={birth=yes}  # Mikefalva
 						1984.01.01={death=yes}  # EST.
+					}
+					100098037={ # E2. Maria Zeyk de Zeykfalva (Mikefalva 10 Apr 1912-Salzburg 10 Oct 1974); m.Klausenburg 8 Feb 1941 (div 29 Apr 1957) Alexander Gf u.Hr zu Pappenheim (Iszka Szent-György 3 Mar 1905-Salzburg 6 Apr 1995)
+						name="Maria"
+						female=yes
+						dynasty=1011812
+						religion=catholic culture=hungarian
+						father=100035436	# Dániel Zeyk de Zeykfalva
+						1912.04.10={birth=yes}  # Mikefalva
+						1974.10.10={death=yes}  # Salzburg
 					}
 		100035447={ # B3. Borbála (Marosvásárhely 1807-Nagyenyed 21 Jan 1848); m.1831 Domokos Kemény de Magyargyerõmonostor (Marosvásárhely 1806-Pusztakamarás 12 Oct 1885) %%
 			name=Borbála
@@ -4239,7 +4247,7 @@
 			1807.01.01={birth=yes}  # Marosvásárhely
 			1848.01.21={death=yes}  # Nagyenyed
 		}
-		100035454={ # B4. Károly (b. ca.1810) %%
+		100035454={ # B4. Károly (November 19, 1810 - Aiud 23 April 1885) %%
 			name=Károly
 			dynasty=1011812
 			religion=catholic culture=hungarian
@@ -4342,7 +4350,7 @@
 	1750.06.25={birth=yes}
 	1781.03.21={death=yes}
 }
-	100035412={ # Pr Ivan Sergeyevich Meshchersky (b. 11 December 1775 - d. 17 March 1851) m. to Sophia Sergeyevna Vsevolojskaya (b. 19 January 1775 - d. 4 October 1848) $$
+	100035412={ # Pr Ivan Sergeyevich Meshchersky (b. 11 December 1775 - d. 17 March 1851); m.Sophia Sergeyevna Vsevolojskaya (b. 19 January 1775 - d. 4 October 1848) $$
 		name=Ivan
 		dynasty=1010038
 		religion=orthodox culture=russian
@@ -4491,7 +4499,7 @@
 		1777.04.07={death=yes}
 	}
 	100035404={ # A2. Grigori (1721-1773); m.1737 Anna Dolgorukov (1721-12 Dec 1773) %%
-		name=Grigori
+		name=Григорий 
 		dynasty=1010038
 		religion=orthodox culture=russian
 		father=100035406	# Semjon Meshchersky
@@ -4796,7 +4804,7 @@
 		}
 	# Natalia (1814-82), the maid of honor, the wife of Count I. P. Kutaisov; their son, Paul
 	100035385={ # Grigori (1818-88), Major; Married to Sofia Nikolaevna Naryshkina $$
-		name=Grigori
+		name=Григорий 
 		dynasty=1010047
 		religion=orthodox culture=russian
 		father=100035377	# Alexander Urusov
@@ -6832,7 +6840,6 @@
 						dynasty=1008026
 						religion=catholic culture=frisian
 						father=100036730	# Enno Cirksena
-						mother=100213057	# Anna v. Oldenburg-Gottorf
 						1584.01.01={birth=yes}
 						1616.02.28={death=yes}
 					}
@@ -7123,7 +7130,7 @@
 	1980.01.01={death=yes}  # EST.
 }
 
-100035610={ # ALEXANDER Joseph, 1st Prince Sulkowski, 1st Duke of Bieletz, Gf zu Reisen, Zduny, Kobylin u.Lissa (15 Mar 1695-Lissa 21/2 May 1762); m.1st 31 Oct 1728 Marie Franciszka Frn von Stain zu Jettingen (2 Feb 1712-Dresden 16 Nov 1741); m.2nd 1743 Css Anna Przebendowska (25 Jul 1721-1795)
+100035610={ #// ALEXANDER Joseph, 1st Prince Sulkowski, 1st Duke of Bieletz, Gf zu Reisen, Zduny, Kobylin u.Lissa (15 Mar 1695-Lissa 21/2 May 1762); m.1st 31 Oct 1728 Marie Franciszka Frn von Stain zu Jettingen (2 Feb 1712-Dresden 16 Nov 1741); m.2nd 1743 Css Anna Przebendowska (25 Jul 1721-1795)
 	name=Alexander
 	dynasty=1012009
 	religion=catholic culture=german
@@ -7132,7 +7139,7 @@
 	1743.01.01={add_spouse=100083308}	# CSS Anna Przebendowski
 	1762.05.21={death=yes}  # Lissa
 }
-	100035611={ # 1a) AUGUST, Duke of Bielsko (15 Nov 1729-7 Jan 1786); m.1766 Luise Mniszech (1751-1799)
+	100035611={ #// 1a) AUGUST, Duke of Bielsko (15 Nov 1729-7 Jan 1786); m.1766 Luise Mniszech (1751-1799)
 		name=August
 		dynasty=1012009
 		religion=catholic culture=polish
@@ -7142,7 +7149,7 @@
 		1766.01.01={add_spouse=100085320}	# Luise Mniszech
 		1786.01.07={death=yes}
 	}
-	100035684={ # 5a) Marianna (1731-1749) m.1747 Franciszek Jakub Szembek (1720-1765)
+	100035684={ #// 5a) Marianna (1731-1749) m.1747 Franciszek Jakub Szembek (1720-1765)
 		name=Marianna
 		female=yes
 		dynasty=1012009
@@ -7152,7 +7159,7 @@
 		1731.01.01={birth=yes}
 		1749.01.01={death=yes}
 	}
-	100035612={ # 2a) ALEXANDER Antoni, Duke of Bielsko (15 Oct 1731-21 Sep 1786); m. 1755 Eleonora Cetner (1731-1803)
+	100035612={ #// 2a) ALEXANDER Antoni, Duke of Bielsko (15 Oct 1731-21 Sep 1786); m.1755 Eleonora Cetner (1731-1803)
 		name=Alexander
 		dynasty=1012009
 		religion=catholic culture=polish
@@ -7162,7 +7169,7 @@
 		1755.01.01={add_spouse=100085916}	# Eleonora Cetner
 		1786.09.21={death=yes}
 	}
-	100035613={ # 3a) FRANCISZEK, Duke of Bielsko (29 Jan 1733-Vienna 22 Apr 1812); m.1st 13 Jan 1759 Css Marianne Strzemeska (d.Jan 1770); m.2nd 3 Apr 1774 Judyta Maria Wysocka Bazzardi-Montbelli (Utoszkowitz 11 Sep 1756-Vienna 2 Oct 1823)
+	100035613={ #// 3a) FRANCISZEK, Duke of Bielsko (29 Jan 1733-Vienna 22 Apr 1812); m.1st 13 Jan 1759 Css Marianne Strzemeska (d.Jan 1770); m.2nd 3 Apr 1774 Judyta Maria Wysocka Bazzardi-Montbelli (Utoszkowitz 11 Sep 1756-Vienna 2 Oct 1823)
 		name=Franciszek
 		dynasty=1012009
 		religion=catholic culture=polish
@@ -7173,7 +7180,7 @@
 		1774.04.03={add_spouse=100087918}	# Judyta Wysocka Bazzardi-Montbelli
 		1812.04.22={death=yes}  # Vienna
 	}
-		100035615={ # 2b) Juliane Franciszka (5 Mar 1776-18 Apr 1839); m.Joseph Lothar Clemens Gf von Metternich-Winneburg (14 Nov 1774-9 Dec 1830) $$
+		100035615={ #// 2b) Juliane Franciszka (5 Mar 1776-18 Apr 1839); m.Joseph Lothar Clemens Gf von Metternich-Winneburg (14 Nov 1774-9 Dec 1830) $$
 			name="Juliane Franciszka"
 			female=yes
 			dynasty=1012009
@@ -7183,7 +7190,7 @@
 			1776.03.05={birth=yes}
 			1839.04.18={death=yes}
 		}
-		100035616={ # 3b) JAN NEPOMUCEN Franciszek, Duke of Bielsko (Luschwitz 23 Jun 1777-6 Dec 1835); m.Mislowitz 16 Dec 1806 Luise Frn von Larisch (Osick, Galicia 17 Mar 1790-3 Mar 1848)
+		100035616={ #// 3b) JAN NEPOMUCEN Franciszek, Duke of Bielsko (Luschwitz 23 Jun 1777-6 Dec 1835); m.Mislowitz 16 Dec 1806 Luise Frn von Larisch (Osick, Galicia 17 Mar 1790-3 Mar 1848)
 			name="Jan Nepomucen"
 			dynasty=1012009
 			religion=catholic culture=polish
@@ -7193,7 +7200,7 @@
 			1806.12.16={add_spouse=100092738}	# FRN Luise von Larisch
 			1835.12.06={death=yes}
 		}
-			100035617={ # 1c) LUDWIK Jan Nepomucen, Duke of Bielsko (Bielsko 14 Mar 1814-Bielsko 18 Feb 1879); m.1st Pankola 2 Oct 1845 Anna Frn Dietrich von Landsee (19 Mar 1823-13 Feb 1852); m.2nd Albany, New York 3 Jun 1853 Maria Antonia Gemperle (Tübach 19 May 1832-Bielsko 5 Mar 1870)
+			100035617={ #// 1c) LUDWIK Jan Nepomucen, Duke of Bielsko (Bielsko 14 Mar 1814-Bielsko 18 Feb 1879); m.1st Pankola 2 Oct 1845 Anna Frn Dietrich von Landsee (19 Mar 1823-13 Feb 1852); m.2nd Albany, New York 3 Jun 1853 Maria Antonia Gemperle (Tübach 19 May 1832-Bielsko 5 Mar 1870)
 				name="Ludwik Nepomucen"
 				dynasty=1012009
 				religion=catholic culture=polish
@@ -7204,7 +7211,7 @@
 				1853.06.03={add_spouse=100094595}	# Maria Antonia Gemperle
 				1879.02.18={death=yes}  # Bielsko
 			}
-				100035618={ # 1d) JOSEPH Maria Ludwik, Duke of Bielsko (Vienna 2 Feb 1848-Vienna 17 Jan 1920); m.1st Bielsko 20 Jun 1868 (div 1879) Viktorie Lehman (1838-Vienna 29 Jan 1901); m.2nd Zürich 29 Jul 1881 Ida Jäger (Vienna 27 Jul 1847-1916)
+				100035618={ #// 1d) JOSEPH Maria Ludwik, Duke of Bielsko (Vienna 2 Feb 1848-Vienna 17 Jan 1920); m.1st Bielsko 20 Jun 1868 (div 1879) Viktorie Lehman (1838-Vienna 29 Jan 1901); m.2nd Zürich 29 Jul 1881 Ida Jäger (Vienna 27 Jul 1847-1916)
 					name=Joseph
 					dynasty=1012009
 					religion=catholic culture=polish
@@ -7216,7 +7223,7 @@
 					1881.07.29={add_spouse=100097390}	# Ida Jäger
 					1920.01.17={death=yes}  # Vienna
 				}
-					100035619={ # 1e) Ida Rosa (Zürich 5 Jul 1881-ca 1934); m.1st Budapest 28 Jan 1900 (div 1909) Alexander Tágány de Tágányi; m.2nd Pommerzig 21 Sep 1911 Bernard Gf von Schmettow (Dammitsch 25 Mar 1875-2 Mar 1949); m.3rd Ferguson 15 Apr 1918 Georg von Kunowski (Wiewiorczyn 15 Apr 1865-1940)
+					100035619={ #// 1e) Ida Rosa (Zürich 5 Jul 1881-ca 1934); m.1st Budapest 28 Jan 1900 (div 1909) Alexander Tágány de Tágányi; m.2nd Pommerzig 21 Sep 1911 Bernard Gf von Schmettow (Dammitsch 25 Mar 1875-2 Mar 1949); m.3rd Ferguson 15 Apr 1918 Georg von Kunowski (Wiewiorczyn 15 Apr 1865-1940)
 						name="Ida Rosa"
 						female=yes
 						dynasty=1012009
@@ -7226,7 +7233,7 @@
 						1881.07.05={birth=yes}  # Zürich
 						1934.01.01={death=yes}
 					}
-				100035620={ # 2d) Tayda (USA 14 Dec 1853-Innsbruck 2 Sep 1918); m. Bielitz 12 Feb 1877 Lothar Frhr von Unterrichter von Rechtenthal (26 May 1851-Vienna 14 Mar 1914)
+				100035620={ #// 2d) Tayda (USA 14 Dec 1853-Innsbruck 2 Sep 1918); m. Bielitz 12 Feb 1877 Lothar Frhr von Unterrichter von Rechtenthal (26 May 1851-Vienna 14 Mar 1914)
 					name=Tayda
 					female=yes
 					dynasty=1012009
@@ -7236,7 +7243,7 @@
 					1853.12.14={birth=yes}  # USA
 					1918.09.02={death=yes}  # Innsbruck
 				}
-				100035621={ # 4d) Alfred Adolf Johann (New Bremen USA 17 Nov 1855-Cracow 26 Dec 1913); m.Biala 20 Nov 1880 Charlotte Glaß (Biala 1850-1924)
+				100035621={ #// 4d) Alfred Adolf Johann (New Bremen USA 17 Nov 1855-Cracow 26 Dec 1913); m.Biala 20 Nov 1880 Charlotte Glaß (Biala 1850-1924)
 					name=Alfred
 					dynasty=1012009
 					religion=catholic culture=polish
@@ -7246,7 +7253,7 @@
 					1880.11.20={add_spouse=100102948}	# Charlotte Glaß
 					1913.12.26={death=yes}  # Cracow
 				}
-					100035622={ # 1e) Romana (Grodówice 1881-Sep 1969); m.Przemysl 4 Feb 1913 Karl Frhr Czecz von Lindenwald (Kozy 21 Sep 1881-Cracow 16 Feb 1927)
+					100035622={ #// 1e) Romana (Grodówice 1881-Sep 1969); m.Przemysl 4 Feb 1913 Karl Frhr Czecz von Lindenwald (Kozy 21 Sep 1881-Cracow 16 Feb 1927)
 						name=Romana
 						female=yes
 						dynasty=1012009
@@ -7256,7 +7263,7 @@
 						1881.01.01={birth=yes}  # Grodówice
 						1969.09.01={death=yes}
 					}
-					100035623={ # 2e) Maria Aleksandra (Grodówice 1882-Cracow 9 Sep 1970); m.Cracow 11 Jun 1912 Georg Gf Jaxa von Groß-Konary-Konarski (Vienna 18 Apr 1884-Grodówice 10 Oct 1936)
+					100035623={ #// 2e) Maria Aleksandra (Grodówice 1882-Cracow 9 Sep 1970); m.Cracow 11 Jun 1912 Georg Gf Jaxa von Groß-Konary-Konarski (Vienna 18 Apr 1884-Grodówice 10 Oct 1936)
 						name="Maria Aleksandra"
 						female=yes
 						dynasty=1012009
@@ -7266,7 +7273,7 @@
 						1882.01.01={birth=yes}  # Grodówice
 						1970.09.09={death=yes}  # Cracow
 					}
-				100035624={ # 5d) ALEXANDER Edmund, Duke of Bielsko (Harrisville [New Bremen?] USA 8 Dec 1856-Bielsko 2 Sep 1929); m.Ebenfurth, Lower Austria 18 May 1890 Maria Theresia Frn von Moser (Vienna 8 Jan 1872-Bielsko 17 Sep 1940)
+				100035624={ #// 5d) ALEXANDER Edmund, Duke of Bielsko (Harrisville [New Bremen?] USA 8 Dec 1856-Bielsko 2 Sep 1929); m.Ebenfurth, Lower Austria 18 May 1890 Maria Theresia Frn von Moser (Vienna 8 Jan 1872-Bielsko 17 Sep 1940)
 					name=Alexander
 					dynasty=1012009
 					religion=catholic culture=american
@@ -7276,7 +7283,7 @@
 					1890.05.18={add_spouse=100102978}	# FRN Maria Theresia von Moser
 					1929.09.02={death=yes}  # Bielsko
 				}
-					100035625={ # 1e) Wanda Maria Luise Priska Karola (Achau, Lower Austria 17 Jan 1892-Bozen 1 Oct 1948); m.Bielsko 1 Oct 1921 Otto Aufschnaitter von Huebenberg (Baden nr Vienna 15 Feb 1898-Bozen 6 Apr 1941)
+					100035625={ #// 1e) Wanda Maria Luise Priska Karola (Achau, Lower Austria 17 Jan 1892-Bozen 1 Oct 1948); m.Bielsko 1 Oct 1921 Otto Aufschnaitter von Huebenberg (Baden nr Vienna 15 Feb 1898-Bozen 6 Apr 1941)
 						name=Wanda
 						female=yes
 						dynasty=1012009
@@ -7286,7 +7293,7 @@
 						1892.01.17={birth=yes}  # Achau Lower Austria
 						1948.10.01={death=yes}  # Bozen
 					}
-					100035626={ # 2e) ALEXANDER Maria Karol Ludwik, Duke of Bielsko (Schloß Ebenfurth 15 Feb 1893-Leoben 27 Mar 1956); m.1st Seefeld, Lower Austria 24 Jun 1919 (div 1936) Feodora Gfn zu Hardegg auf Glatz (Debreczyn 27 Nov 1899-Vienna 1979); m.2nd Leoben 23 Mar 1936 Anna Mallinger (Leoben 27 May 1899-Leoben 20 Oct 1969)
+					100035626={ #// 2e) ALEXANDER Maria Karol Ludwik, Duke of Bielsko (Schloß Ebenfurth 15 Feb 1893-Leoben 27 Mar 1956); m.1st Seefeld, Lower Austria 24 Jun 1919 (div 1936) Feodora Gfn zu Hardegg auf Glatz (Debreczyn 27 Nov 1899-Vienna 1979); m.2nd Leoben 23 Mar 1936 Anna Mallinger (Leoben 27 May 1899-Leoben 20 Oct 1969)
 						name=Alexander
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7298,7 +7305,7 @@
 						1936.03.23={add_spouse=100102982}	# Anna Mallinger
 						1956.03.27={death=yes}  # Leoben
 					}
-						100035627={ # 1f) Alexandra (Bielsko 2 Oct 1923-19 Jun 1958)
+						100035627={ #// 1f) Alexandra (Bielsko 2 Oct 1923-19 Jun 1958)
 							name=Alexandra
 							female=yes
 							dynasty=1012009
@@ -7308,7 +7315,7 @@
 							1923.10.02={birth=yes}  # Bielsko
 							1958.06.19={death=yes}
 						}
-						100035628={ # 2f) Maria Hedwig (b.Vienna 27 Feb 1938)
+						100035628={ #// 2f) Maria Hedwig (b.Vienna 27 Feb 1938)
 							name="Maria Hedwig"
 							female=yes
 							dynasty=1012009
@@ -7318,7 +7325,7 @@
 							1938.02.27={birth=yes}  # Vienna
 							2015.01.01={death=yes}  # EST.
 						}
-						100035629={ # 3f) ALEXANDER Joseph, Duke of Bielsko (b.Vienna 23 Mar 1940); m.1st 1967 (div 1972) Liliana Szczygiel (b.Warsaw 15 Jan 1941); m.2nd 1973 Helena Rajewska (b.Cracow 4 Nov 1932)
+						100035629={ #// 3f) ALEXANDER Joseph, Duke of Bielsko (b.Vienna 23 Mar 1940); m.1st 1967 (div 1972) Liliana Szczygiel (b.Warsaw 15 Jan 1941); m.2nd 1973 Helena Rajewska (b.Cracow 4 Nov 1932)
 							name=Alexander
 							dynasty=1012009
 							religion=catholic culture=polish
@@ -7329,7 +7336,7 @@
 							1972.01.01={remove_spouse=100102983}
 							1973.01.01={add_spouse=100102984}	# Helena Rajewski
 						}
-					100035630={ # 3e) Maria Theresia (Achau 29 Jul 1894-27 Apr 1960); m.Ebenfurth 3 Jun 1914 Karl Gundaccar Frhr von Suttner (Stockern 6 Nov 1880-Stockern 7 May 1952)
+					100035630={ #// 3e) Maria Theresia (Achau 29 Jul 1894-27 Apr 1960); m.Ebenfurth 3 Jun 1914 Karl Gundaccar Frhr von Suttner (Stockern 6 Nov 1880-Stockern 7 May 1952)
 						name="Maria Theresia"
 						female=yes
 						dynasty=1012009
@@ -7339,7 +7346,7 @@
 						1894.07.29={birth=yes}  # Achau
 						1960.04.27={death=yes}
 					}
-					100035631={ # 4e) Maria Karola Aspasia (Achau 24 Dec 1895-12 Mar 1975)
+					100035631={ #// 4e) Maria Karola Aspasia (Achau 24 Dec 1895-12 Mar 1975)
 						name=Maria
 						female=yes
 						dynasty=1012009
@@ -7349,7 +7356,7 @@
 						1895.12.24={birth=yes}  # Achau
 						1975.03.12={death=yes}
 					}
-					100035632={ # 5e) Roman Edgar Maria Priskus Johann Baptist (Tannenmühle 18 Jun 1897-Vienna 21 Dec 1940); m.1st Vienna 14 Jul 1920 (div 1925) Maria Gfn zu Hardegg auf Glatz (Debreczyn 24 Feb 1901-Vienna 12 Aug 1987); m.2nd Vienna 7 Aug 1928 Bertha Neuhauser (Linz 18 Apr 1900-8 Jul 1989)
+					100035632={ #// 5e) Roman Edgar Maria Priskus Johann Baptist (Tannenmühle 18 Jun 1897-Vienna 21 Dec 1940); m.1st Vienna 14 Jul 1920 (div 1925) Maria Gfn zu Hardegg auf Glatz (Debreczyn 24 Feb 1901-Vienna 12 Aug 1987); m.2nd Vienna 7 Aug 1928 Bertha Neuhauser (Linz 18 Apr 1900-8 Jul 1989)
 						name=Roman
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7361,7 +7368,7 @@
 						1928.08.07={add_spouse=100102993}	# Bertha Neuhauser
 						1940.12.21={death=yes}  # Vienna
 					}
-						100035633={ # 1f) Romana Margarethe Eugenie Anna (Zakopane 4 Dec 1920-15 Apr 2004); m.Vienna 8 Aug 1947 Robert Karl Herzig (Mährisch Schönberg 14 Nov 1911-29 Nov 1987)
+						100035633={ #// 1f) Romana Margarethe Eugenie Anna (Zakopane 4 Dec 1920-15 Apr 2004); m.Vienna 8 Aug 1947 Robert Karl Herzig (Mährisch Schönberg 14 Nov 1911-29 Nov 1987)
 							name=Romana
 							female=yes
 							dynasty=1012009
@@ -7371,7 +7378,7 @@
 							1920.12.04={birth=yes}  # Zakopane
 							2004.04.15={death=yes}
 						}
-					100035634={ # 6e) Maria Priska Antoinette Thaida Mathilde (Achau 30 Sep 1902-12 Oct 1975); m.Vienna May 1925 Paul Menzel (Niskolyzy 24 Jan 1897-    )
+					100035634={ #// 6e) Maria Priska Antoinette Thaida Mathilde (Achau 30 Sep 1902-12 Oct 1975); m.Vienna May 1925 Paul Menzel (Niskolyzy 24 Jan 1897-    )
 						name=Maria
 						female=yes
 						dynasty=1012009
@@ -7381,7 +7388,7 @@
 						1902.09.30={birth=yes}  # Achau
 						1975.10.12={death=yes}
 					}
-				100035635={ # 6d) Stanislaw (Rorschach, Switzerland 5 Jun 1862-Tresternitz 18 Jan 1940); m.1st Marburg 28 Nov 1883 Paula Marenzi Frn von Marenzfeld-Scheneck (Marburg 7 May 1863-Tresternitz 19 May 1928); m.2nd Sophie Stollwerck (Köln 29 Jun 1870-Loope bei Köln Apr 1952)
+				100035635={ #// 6d) Stanislaw (Rorschach, Switzerland 5 Jun 1862-Tresternitz 18 Jan 1940); m.1st Marburg 28 Nov 1883 Paula Marenzi Frn von Marenzfeld-Scheneck (Marburg 7 May 1863-Tresternitz 19 May 1928); m.2nd Sophie Stollwerck (Köln 29 Jun 1870-Loope bei Köln Apr 1952)
 					name=Stanisław
 					dynasty=1012009
 					religion=catholic culture=polish
@@ -7392,7 +7399,7 @@
 					1929.05.19={add_spouse=100102997}	# Sophie Stollwerck
 					1940.01.18={death=yes}  # Tresternitz
 				}
-					100035636={ # 1e) Ludwik Maria (Warasdin, Croatia 2 Feb 1885-k.in air raid at Leipzig 4 Dec 1943); m.Klosterneuburg 10 Mar 1915 Anna Durré (Leipzig 21 Jun 1888-k.in air raid Leipzig 4 Dec 1943)
+					100035636={ #// 1e) Ludwik Maria (Warasdin, Croatia 2 Feb 1885-k.in air raid at Leipzig 4 Dec 1943); m.Klosterneuburg 10 Mar 1915 Anna Durré (Leipzig 21 Jun 1888-k.in air raid Leipzig 4 Dec 1943)
 						name=Ludwik
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7402,7 +7409,7 @@
 						1915.03.10={add_spouse=100102998}	# Anna Durré
 						1943.12.04={death=yes}  # k.in air raid at Leipzig
 					}
-					100035637={ # 2e) Stanislaw Maria (Marburg an der Drau 13 Jul 1886-3 Oct 1963); m.1st Los Angeles 28 Jul 1913 Maria Luisa Freese (Guyamas, Mexico 22 Mar 1891-Mexico City 25 Jun 1942); m.2nd Taxco de Alarcon 27 Jul 1947 Blanche Vincent de Thorulon (Paris 17 Dec 1883-3 May 1960)
+					100035637={ #// 2e) Stanislaw Maria (Marburg an der Drau 13 Jul 1886-3 Oct 1963); m.1st Los Angeles 28 Jul 1913 Maria Luisa Freese (Guyamas, Mexico 22 Mar 1891-Mexico City 25 Jun 1942); m.2nd Taxco de Alarcon 27 Jul 1947 Blanche Vincent de Thorulon (Paris 17 Dec 1883-3 May 1960)
 						name=Stanisław
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7413,7 +7420,7 @@
 						1947.07.27={add_spouse=100103000}	# Blanche Vincent de Thorulon
 						1963.10.03={death=yes}
 					}
-						100035638={ # 1f) Gloria Thaida Wanda Maria del Perpetuo Socorro Antonia (b.Graz 15 Jun 1917); m.Mexico City 15 Jun 1945 Konrad Elkisch (Charlottenburg 5 Sep 1902-    )
+						100035638={ #// 1f) Gloria Thaida Wanda Maria del Perpetuo Socorro Antonia (b.Graz 15 Jun 1917); m.Mexico City 15 Jun 1945 Konrad Elkisch (Charlottenburg 5 Sep 1902-    )
 							name=Gloria
 							female=yes
 							dynasty=1012009
@@ -7423,7 +7430,7 @@
 							1917.06.15={birth=yes}  # Graz
 							1992.01.01={death=yes}  # EST.
 						}
-					100035639={ # 3e) Alexander Maria (Marburg 19 Jul 1888-4 Sep 1970); m. Dornhofen bei Eggersdorf, Styria 20 Sep 1913 Margarita Lapp (Graz 20 Apr 1888-10 Sep 1964)
+					100035639={ #// 3e) Alexander Maria (Marburg 19 Jul 1888-4 Sep 1970); m. Dornhofen bei Eggersdorf, Styria 20 Sep 1913 Margarita Lapp (Graz 20 Apr 1888-10 Sep 1964)
 						name=Alexander
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7433,7 +7440,7 @@
 						1913.09.20={add_spouse=100103002}	# Margarita Lapp
 						1970.09.04={death=yes}
 					}
-					100035640={ # 4e) Antoni Maria Paul (Tresternitz 3 Jun 1896-24 Oct 1968); m.Elisabeth Weiler (25 Jul 1895-    )
+					100035640={ #// 4e) Antoni Maria Paul (Tresternitz 3 Jun 1896-24 Oct 1968); m.Elisabeth Weiler (25 Jul 1895-    )
 						name=Antoni
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7443,7 +7450,7 @@
 						1921.01.01={add_spouse=100103003}	# Elisabeth Weiler
 						1968.10.24={death=yes}
 					}
-				100035641={ # 7d) Paula (*Bielitz 1865); m.Vienna 3 Apr 1888 Carl Czetsch v.Lindenwald
+				100035641={ #// 7d) Paula (*Bielitz 1865); m.Vienna 3 Apr 1888 Carl Czetsch v.Lindenwald
 					name=Paula
 					female=yes
 					dynasty=1012009
@@ -7453,7 +7460,7 @@
 					1865.01.01={birth=yes}  # Bielitz
 					1940.01.01={death=yes}  # EST.
 				}
-				100035642={ # 8d) Gabriela (Bielsko 2 May 1866-Vienna 6 Dec 1945); m.Ebenfurth 16 Aug 1891 Adolf Frhr von Schmysingk gt Korff (Prague 16 Jun 1860-Vienna 13 May 1915)
+				100035642={ #// 8d) Gabriela (Bielsko 2 May 1866-Vienna 6 Dec 1945); m.Ebenfurth 16 Aug 1891 Adolf Frhr von Schmysingk gt Korff (Prague 16 Jun 1860-Vienna 13 May 1915)
 					name=Gabriela
 					female=yes
 					dynasty=1012009
@@ -7463,7 +7470,7 @@
 					1866.05.02={birth=yes}  # Bielsko
 					1945.12.06={death=yes}  # Vienna
 				}
-				100035644={ # 10d) Edgar (Bielsko 8 Jan 1868-Gmunden 6 Sep 1954); m.Grusbach 9 Oct 1902 Maria Gfn Khuen von Belasi (Grusbach 7 Sep 1880-Gmunden 28 Dec 1954)
+				100035644={ #// 10d) Edgar (Bielsko 8 Jan 1868-Gmunden 6 Sep 1954); m.Grusbach 9 Oct 1902 Maria Gfn Khuen von Belasi (Grusbach 7 Sep 1880-Gmunden 28 Dec 1954)
 					name=Edgar
 					dynasty=1012009
 					religion=catholic culture=polish
@@ -7473,7 +7480,7 @@
 					1902.10.09={add_spouse=100103007}	# GFN Maria Khuen von Belasi
 					1954.09.06={death=yes}  # Gmunden
 				}
-					100035645={ # 1e) Maria Emanuela (Szabadhegy 24 Aug 1903-14 Jul 1985); m.Gmunden 24 Sep 1930 Ludwig Wagner-Pammer Edler von Rudnickburg (Gutau 26 Feb 1892-    )
+					100035645={ #// 1e) Maria Emanuela (Szabadhegy 24 Aug 1903-14 Jul 1985); m.Gmunden 24 Sep 1930 Ludwig Wagner-Pammer Edler von Rudnickburg (Gutau 26 Feb 1892-    )
 						name="Maria Emanuela"
 						female=yes
 						dynasty=1012009
@@ -7483,7 +7490,7 @@
 						1903.08.24={birth=yes}  # Szabadhegy
 						1985.07.14={death=yes}
 					}
-					100035646={ # 2e) Edgar Karl Maria (Györ Szabadhegy 1 Dec 1905-8 Feb 1997); m.Schönbrunn 21 Nov 1931 Ilse Frn von Lichtenberg (Enns 8 Jul 1910-28 Oct 1999)
+					100035646={ #// 2e) Edgar Karl Maria (Györ Szabadhegy 1 Dec 1905-8 Feb 1997); m.Schönbrunn 21 Nov 1931 Ilse Frn von Lichtenberg (Enns 8 Jul 1910-28 Oct 1999)
 						name=Edgar
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7493,7 +7500,7 @@
 						1931.11.21={add_spouse=100103009}	# FRN Ilse von Lichtenberg
 						1997.02.08={death=yes}
 					}
-						100035228={ # 1f) Alice Maria Ernestine (Vienna 15 Jun 1933-16 Jan 2013); m.Toronto 22 Sep 1956 Peter Gf Mailáth von Székhely (Czérhátsurány 29 Oct 1929-29 Oct 2001) $$
+						100035228={ #// 1f) Alice Maria Ernestine (Vienna 15 Jun 1933-16 Jan 2013); m.Toronto 22 Sep 1956 Peter Gf Mailáth von Székhely (Czérhátsurány 29 Oct 1929-29 Oct 2001) $$
 							name=Alice
 							female=yes
 							dynasty=1012009
@@ -7503,7 +7510,7 @@
 							1933.06.15={birth=yes}  # Vienna
 							2013.01.16={death=yes}
 						}
-						100035648={ # 2f) Wanda Anna Maria (b.Linz 22 Dec 1935); m.Toronto 7 May 1960 Floris Baron van Wassenaer (b.Florence 18 Feb 1933)
+						100035648={ #// 2f) Wanda Anna Maria (b.Linz 22 Dec 1935); m.Toronto 7 May 1960 Floris Baron van Wassenaer (b.Florence 18 Feb 1933)
 							name=Wanda
 							female=yes
 							dynasty=1012009
@@ -7513,7 +7520,7 @@
 							1935.12.22={birth=yes}  # Linz
 							2012.01.01={death=yes}  # EST.
 						}
-						100035649={ # 3f) Eckehard Edgar (b.Linz 9 Apr 1939); m.1963 Dora Marguerite Hallet
+						100035649={ #// 3f) Eckehard Edgar (b.Linz 9 Apr 1939); m.1963 Dora Marguerite Hallet
 							name="Eckehard Edgar"
 							dynasty=1012009
 							religion=catholic culture=polish
@@ -7523,7 +7530,7 @@
 							1963.01.01={add_spouse=100103012}	# Dora Marguerite Hallet
 							2016.01.01={death=yes}  # EST.
 						}
-							100035650={ # 1g) Karol Edgar (b.1964); m.1992 Leslie Lindgren
+							100035650={ #// 1g) Karol Edgar (b.1964); m.1992 Leslie Lindgren
 								name="Karol Edgar"
 								dynasty=1012009
 								religion=catholic culture=polish
@@ -7532,7 +7539,7 @@
 								1964.01.01={birth=yes}
 								1992.01.01={add_spouse=100103013}	# Leslie Lindgren
 							}
-								100035651={ # 1h) Derek (b.1995)
+								100035651={ #// 1h) Derek (b.1995)
 									name=Derek
 									dynasty=1012009
 									religion=catholic culture=polish
@@ -7540,7 +7547,7 @@
 									mother=100103013	# Leslie Lindgren
 									1995.01.01={birth=yes}
 								}
-							100035652={ # 2g) Stephen Maurice (b.1966); m.18 Dec 1999 Andrea Allison Moore
+							100035652={ #// 2g) Stephen Maurice (b.1966); m.18 Dec 1999 Andrea Allison Moore
 								name="Stephen Maurice"
 								dynasty=1012009
 								religion=catholic culture=polish
@@ -7549,7 +7556,7 @@
 								1966.01.01={birth=yes}
 								1999.12.18={add_spouse=100103014}	# Andrea Allison Moore
 							}
-								100035653={ # 1h) Alexander (b.2003)
+								100035653={ #// 1h) Alexander (b.2003)
 									name=Alexander
 									dynasty=1012009
 									religion=catholic culture=polish
@@ -7557,7 +7564,7 @@
 									mother=100103014	# Andrea Allison Moore
 									2003.01.01={birth=yes}
 								}
-							100035654={ # 3g) Douglas Edwin (b.1969); m.25 Oct 1997 Michelle Sarah Hatt
+							100035654={ #// 3g) Douglas Edwin (b.1969); m.25 Oct 1997 Michelle Sarah Hatt
 								name="Douglas Edwin"
 								dynasty=1012009
 								religion=catholic culture=polish
@@ -7566,7 +7573,7 @@
 								1969.01.01={birth=yes}
 								1997.10.25={add_spouse=100103015}	# Michelle Sarah Hatt
 							}
-								100035655={ # 1h) Megan (b.1998)
+								100035655={ #// 1h) Megan (b.1998)
 									name=Megan
 									female=yes
 									dynasty=1012009
@@ -7575,7 +7582,7 @@
 									mother=100103015	# Michelle Sarah Hatt
 									1998.01.01={birth=yes}
 								}
-								100035656={ # 2h) Ryan (b.2002)
+								100035656={ #// 2h) Ryan (b.2002)
 									name=Ryan
 									dynasty=1012009
 									religion=catholic culture=polish
@@ -7583,7 +7590,7 @@
 									mother=100103015	# Michelle Sarah Hatt
 									2002.01.01={birth=yes}
 								}
-					100035657={ # 3e) Karol (Grusbach 19 Apr 1913-Heyder, Westfalen 9 Oct 1947); m.Gmunden 1942 Ruth Hauschild (Wiklitz bei Außig 1919-Oct 1954)
+					100035657={ #// 3e) Karol (Grusbach 19 Apr 1913-Heyder, Westfalen 9 Oct 1947); m.Gmunden 1942 Ruth Hauschild (Wiklitz bei Außig 1919-Oct 1954)
 						name=Karol
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7593,7 +7600,7 @@
 						1942.01.01={add_spouse=100103016}	# Ruth Hauschild
 						1947.10.09={death=yes}  # Heyder Westfalen
 					}
-						100035658={ # 1f) Björn (Wiklitz 15 Sep 1943-May 2002)
+						100035658={ #// 1f) Björn (Wiklitz 15 Sep 1943-May 2002)
 							name=Björn
 							dynasty=1012009
 							religion=catholic culture=polish
@@ -7602,7 +7609,7 @@
 							1943.09.15={birth=yes}  # Wiklitz
 							2002.05.01={death=yes}
 						}
-				100035643={ # 9d) Wanda (Bielsko 8 Jan 1868-Gmunden 25 Nov 1930); m.Vienna 25 Nov 1912 Raimund Frhr von Fugger (Schloß Kirchberg 2 May 1870-Laupheim 16 Aug 1948) $$
+				100035643={ #// 9d) Wanda (Bielsko 8 Jan 1868-Gmunden 25 Nov 1930); m.Vienna 25 Nov 1912 Raimund Frhr von Fugger (Schloß Kirchberg 2 May 1870-Laupheim 16 Aug 1948) $$
 					name=Wanda
 					female=yes
 					dynasty=1012009
@@ -7612,7 +7619,7 @@
 					1868.01.08={birth=yes}  # Bielsko
 					1930.11.25={death=yes}  # Gmunden
 				}
-				100035659={ # 11d) Viktor (Bielsko 17 Jan 1870-Gyönk 23 Sep 1945); m.1st Bucsany 31 Aug 1896 Aurelia Braumberger (Szatmer 21 Aug 1869-Graz 7 Jun 1912); m.2nd Budapest 26 Oct 1915 Paula de Szilassy (Budapest 2 Aug 1888-19__)
+				100035659={ #// 11d) Viktor (Bielsko 17 Jan 1870-Gyönk 23 Sep 1945); m.1st Bucsany 31 Aug 1896 Aurelia Braumberger (Szatmer 21 Aug 1869-Graz 7 Jun 1912); m.2nd Budapest 26 Oct 1915 Paula de Szilassy (Budapest 2 Aug 1888-19__)
 					name=Viktor
 					dynasty=1012009
 					religion=catholic culture=polish
@@ -7623,7 +7630,7 @@
 					1915.10.26={add_spouse=100103018}	# Paula de Szilassy
 					1945.09.23={death=yes}  # Gyönk
 				}
-					100035660={ # 1e) Valerie Alice (Kámaháza 28 Sep 1897-    ); m. Budapest 22 Aug 1921 Erich Frhr Unterrichter von Rechtenthal (Wiener-Neustadt 17 Jun 1891-Vienna 21 Aug 1972)
+					100035660={ #// 1e) Valerie Alice (Kámaháza 28 Sep 1897-    ); m. Budapest 22 Aug 1921 Erich Frhr Unterrichter von Rechtenthal (Wiener-Neustadt 17 Jun 1891-Vienna 21 Aug 1972)
 						name="Valerie Alice"
 						female=yes
 						dynasty=1012009
@@ -7633,7 +7640,7 @@
 						1897.09.28={birth=yes}  # Kámaháza
 						1972.01.01={death=yes}  # EST.
 					}
-					100035661={ # 2e) Maria (b.Budapest 14 Jan 1918); m.Budapest 27 Jun 1940 Peter von Mattyasovszky (b.Pécs 24 Sep 1913)
+					100035661={ #// 2e) Maria (b.Budapest 14 Jan 1918); m.Budapest 27 Jun 1940 Peter von Mattyasovszky (b.Pécs 24 Sep 1913)
 						name=Maria
 						female=yes
 						dynasty=1012009
@@ -7643,7 +7650,7 @@
 						1918.01.14={birth=yes}  # Budapest
 						1993.01.01={death=yes}  # EST.
 					}
-					100035662={ # 3e) Alfred (Debreczen 4 Jun 1919-Budapest 19 Jun 2002); m.Koloszvar 27 Jun 1942 Ingeborg von Brumovski (Szászregén 23 Jan 1921-Budapest 31 Mar 2003)
+					100035662={ #// 3e) Alfred (Debreczen 4 Jun 1919-Budapest 19 Jun 2002); m.Koloszvar 27 Jun 1942 Ingeborg von Brumovski (Szászregén 23 Jan 1921-Budapest 31 Mar 2003)
 						name=Alfred
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7653,7 +7660,7 @@
 						1942.06.27={add_spouse=100103021}	# Ingeborg von Brumowski
 						2002.06.19={death=yes}  # Budapest
 					}
-						100035663={ # 1f) Hubertus (b.Gyergyoszentmiklos 1 Apr 1943); m.1st 1969 Christine Barbara Joosten; m.2nd 2000 Evelyne Marie-France Sylvie Meunier
+						100035663={ #// 1f) Hubertus (b.Gyergyoszentmiklos 1 Apr 1943); m.1st 1969 Christine Barbara Joosten; m.2nd 2000 Evelyne Marie-France Sylvie Meunier
 							name=Hubertus
 							dynasty=1012009
 							religion=catholic culture=polish
@@ -7664,7 +7671,7 @@
 							1999.01.01={remove_spouse=100103022}
 							2000.01.01={add_spouse=100103023}	# Evelyne Marie-France Meunier
 						}
-							100035664={ # 1g) Nikolas Alexander (b.New York 2 May 1971); m.2001 Jan Gilgore
+							100035664={ #// 1g) Nikolas Alexander (b.New York 2 May 1971); m.2001 Jan Gilgore
 								name="Nikolas Alexander"
 								dynasty=1012009
 								religion=catholic culture=polish
@@ -7673,7 +7680,7 @@
 								1971.05.02={birth=yes}
 								2001.01.01={add_spouse=100103024}	# Jan Gilgore
 							}
-								100035665={ # 1h) Julia Katherine (b.New York 18 Jul 2001)
+								100035665={ #// 1h) Julia Katherine (b.New York 18 Jul 2001)
 									name="Julia Katherine"
 									female=yes
 									dynasty=1012009
@@ -7682,7 +7689,7 @@
 									mother=100103024	# Jan Gilgore
 									2001.07.18={birth=yes}
 								}
-								100035666={ # 2h)  Nikolas Alexander (b.Greenwich 22 Apr 2004)
+								100035666={ #// 2h)  Nikolas Alexander (b.Greenwich 22 Apr 2004)
 									name=XXX
 									dynasty=1012009
 									religion=catholic culture=english
@@ -7690,7 +7697,7 @@
 									mother=100103024	# Jan Gilgore
 									2004.04.22={birth=yes}  # Greenwich
 								}
-							100035667={ # 2g) Erica Elizabeth (b.New York 28 Apr 1974)
+							100035667={ #// 2g) Erica Elizabeth (b.New York 28 Apr 1974)
 								name="Erica Elizabeth"
 								female=yes
 								dynasty=1012009
@@ -7699,7 +7706,7 @@
 								mother=100103022	# Christine Barbara Joosten
 								1974.04.28={birth=yes}
 							}
-							100035668={ # 3g) Christopher Victor (b.Paris 9 Jan 1995)
+							100035668={ #// 3g) Christopher Victor (b.Paris 9 Jan 1995)
 								name="Christopher Victor"
 								dynasty=1012009
 								religion=catholic culture=frankish
@@ -7707,7 +7714,7 @@
 								mother=100103022	# Christine Barbara Joosten
 								1995.01.09={birth=yes}  # Paris
 							}
-						100035669={ # 2f) Viktor (b.1945); m.1971 Lynn Scarborough
+						100035669={ #// 2f) Viktor (b.1945); m.1971 Lynn Scarborough
 							name=Viktor
 							dynasty=1012009
 							religion=catholic culture=polish
@@ -7716,7 +7723,7 @@
 							1945.01.01={birth=yes}
 							1971.01.01={add_spouse=100103025}	# Lynn Scarborough
 						}
-							100035670={ # 1g) Peter Viktor (b.1972)
+							100035670={ #// 1g) Peter Viktor (b.1972)
 								name="Peter Viktor"
 								dynasty=1012009
 								religion=catholic culture=polish
@@ -7724,7 +7731,7 @@
 								mother=100103025	# Lynn Scarborough
 								1972.01.01={birth=yes}
 							}
-					100035671={ # 4e) Viktor (Budapest 6 Jul 1921-k.i.a.Bialystok 6 Jul 1944)
+					100035671={ #// 4e) Viktor (Budapest 6 Jul 1921-k.i.a.Bialystok 6 Jul 1944)
 						name=Viktor
 						dynasty=1012009
 						religion=catholic culture=hungarian
@@ -7733,7 +7740,7 @@
 						1921.07.06={birth=yes}  # Budapest
 						1944.07.06={death=yes}  # k.i.a.Bialystok
 					}
-	100035673={ # 4a) Antoni (11 Jun 1735-16 Jan 1796); m.1st 1766 (div 1781) Marianne Dzialyzska; m.2nd 13 Mar 1784 Css Karolina Bubna Littitz (18 Nov 1759-7 Jan 1831)
+	100035673={ #// 4a) Antoni (11 Jun 1735-16 Jan 1796); m.1st 1766 (div 1781) Marianne Dzialyzska; m.2nd 13 Mar 1784 Css Karolina Bubna Littitz (18 Nov 1759-7 Jan 1831)
 		name=Antoni
 		dynasty=1012009
 		religion=catholic culture=polish
@@ -7745,7 +7752,7 @@
 		1784.03.13={add_spouse=100103027}	# CSS Karolina Bubna Littitz
 		1796.01.16={death=yes}
 	}
-		100035674={ # 2b) Antoni Pal (31 Dec 1785-13 Apr 1836); m.Warsaw 14 Jan 1808 Ewa Kicka (28 Jun 1786-24 May 1824)
+		100035674={ #// 2b) Antoni Pal (31 Dec 1785-13 Apr 1836); m.Warsaw 14 Jan 1808 Ewa Kicka (28 Jun 1786-24 May 1824)
 			name="Antoni Pal"
 			dynasty=1012009
 			religion=catholic culture=polish
@@ -7755,7 +7762,7 @@
 			1808.01.14={add_spouse=100103028}	# Ewa Kicka
 			1836.04.13={death=yes}
 		}
-			100035675={ # 1c) Taida Karolina (10 Apr 1811-28 Sep 1839); m.15 Jul 1838 Ct Henryk Wodzicki (2 Dec 1813-20 Oct 1884)
+			100035675={ #// 1c) Taida Karolina (10 Apr 1811-28 Sep 1839); m.15 Jul 1838 Ct Henryk Wodzicki (2 Dec 1813-20 Oct 1884)
 				name="Taida Karolina"
 				female=yes
 				dynasty=1012009
@@ -7765,7 +7772,7 @@
 				1811.04.10={birth=yes}
 				1839.09.28={death=yes}
 			}
-			100035676={ # 2c) Helene Karoline (Warsaw 31 Dec 1812-23 Jan 1900); m.31 Jul 1833 Ct Henryk Potocki (1811-Koniecpol 7 Sep 1872) $$
+			100035676={ #// 2c) Helene Karoline (Warsaw 31 Dec 1812-23 Jan 1900); m.31 Jul 1833 Ct Henryk Potocki (1811-Koniecpol 7 Sep 1872) $$
 				name="Helene Karoline"
 				female=yes
 				dynasty=1012009
@@ -7775,7 +7782,7 @@
 				1812.12.31={birth=yes}  # Warsaw
 				1900.01.23={death=yes}
 			}
-			100035677={ # 2c) Ewa Karoline (Warsaw 22 Oct 1814-Warsaw 6 Jul 1881); m.Dresden 19 Mar 1838 Ct Wladyslaw Potocki (1815-1855) $$
+			100035677={ #// 2c) Ewa Karoline (Warsaw 22 Oct 1814-Warsaw 6 Jul 1881); m.Dresden 19 Mar 1838 Ct Wladyslaw Potocki (1815-1855) $$
 				name="Ewa Karoline"
 				female=yes
 				dynasty=1012009
@@ -7785,7 +7792,7 @@
 				1814.10.22={birth=yes}  # Warsaw
 				1881.07.06={death=yes}  # Warsaw
 			}
-			100035678={ # 3c) Therese Karoline (14 Dec 1815-Cracow 18 Apr 1889); m.Cracow 20 Oct 1840 Ct Henryk Wodzicki (2 Dec 1813-20 Oct 1884)
+			100035678={ #// 3c) Therese Karoline (14 Dec 1815-Cracow 18 Apr 1889); m.Cracow 20 Oct 1840 Ct Henryk Wodzicki (2 Dec 1813-20 Oct 1884)
 				name="Therese Karoline"
 				female=yes
 				dynasty=1012009
@@ -7795,7 +7802,7 @@
 				1815.12.14={birth=yes}
 				1889.04.18={death=yes}  # Cracow
 			}
-			100035679={ # 4c) August Antoni (13 Dec 1820-20 Nov 1882); m 23 Jan 1843 Maria Mycielska (23 Jul 1822-5 Sep 1891)
+			100035679={ #// 4c) August Antoni (13 Dec 1820-20 Nov 1882); m 23 Jan 1843 Maria Mycielska (23 Jul 1822-5 Sep 1891)
 				name="August Antoni"
 				dynasty=1012009
 				religion=catholic culture=polish
@@ -7805,7 +7812,7 @@
 				1843.01.23={add_spouse=100103033}	# Maria Mycielski
 				1882.11.20={death=yes}
 			}
-				100035680={ # 1d) Antoni Stanislaw (Rydzyna 6 Feb 1844-Munich 15 Jun 1909); m.1st Brussels 3 Sep 1872 Emma d'Alcantara (22 Sep 1852-28 Oct 1877); m.2nd Breslau 20 Aug 1898 Josephine Schmidt (Munich 9 Mar 1859-19__)
+				100035680={ #// 1d) Antoni Stanislaw (Rydzyna 6 Feb 1844-Munich 15 Jun 1909); m.1st Brussels 3 Sep 1872 Emma d'Alcantara (22 Sep 1852-28 Oct 1877); m.2nd Breslau 20 Aug 1898 Josephine Schmidt (Munich 9 Mar 1859-19__)
 					name="Antoni Stanislaw"
 					dynasty=1012009
 					religion=catholic culture=polish
@@ -7816,7 +7823,7 @@
 					1898.08.20={add_spouse=100103035}	# Josephine Schmidt
 					1909.06.15={death=yes}  # Munich
 				}
-					100035681={ # 1e) Aleksander (Rydzyna 18 Sep 1873-San Remo 10 May 1905); m.1st Poznan 20 Feb 1901 Css Angela Mycielska (Smogorzewo 20 Jul 1869-Galowo 1 Mar 1902); m.2nd Szaflary 1 Dec 1903 Maria Laura Uznanska (Szflary bei Zakopane 8 May 1885-19__)
+					100035681={ #// 1e) Aleksander (Rydzyna 18 Sep 1873-San Remo 10 May 1905); m.1st Poznan 20 Feb 1901 Css Angela Mycielska (Smogorzewo 20 Jul 1869-Galowo 1 Mar 1902); m.2nd Szaflary 1 Dec 1903 Maria Laura Uznanska (Szflary bei Zakopane 8 May 1885-19__)
 						name=Aleksander
 						dynasty=1012009
 						religion=catholic culture=polish
@@ -7827,7 +7834,7 @@
 						1903.12.01={add_spouse=100103037}	# Maria Laura Uznanski
 						1905.05.10={death=yes}  # San_Remo
 					}
-	100035685={ # 6a) Johanna (23 Jan 1736-1800) m.1750 Piotr Sapieha (Dresden 25 Jan 1701-Radin 23 Jan 1771) $$
+	100035685={ #// 6a) Johanna (23 Jan 1736-1800) m.1750 Piotr Sapieha (Dresden 25 Jan 1701-Radin 23 Jan 1771) $$
 		name=Johanna
 		female=yes
 		dynasty=1012009
@@ -7837,7 +7844,7 @@
 		1736.01.23={birth=yes}
 		1800.01.01={death=yes}
 	}
-	100035233={ # 7a) Josepha (22 May 1737-13 Jan 1756) m.14 Feb 1753 Count Ignacy Potocki (1715-1765) $$
+	100035233={ #// 7a) Josepha (22 May 1737-13 Jan 1756) m.14 Feb 1753 Count Ignacy Potocki (1715-1765) $$
 		name=Josepha
 		female=yes
 		dynasty=1012009
@@ -7847,7 +7854,7 @@
 		1737.05.22={birth=yes}
 		1756.01.13={death=yes}
 	}
-	100035229={ # 10a) Teresa Apolonia (17 Jan 1746-1818) m.1765 Jan Józef Wielopolski (d.1774) $$
+	100035229={ #// 10a) Teresa Apolonia (17 Jan 1746-1818) m.1765 Jan Józef Wielopolski (d.1774) $$
 		name="Teresa Apolonia"
 		female=yes
 		dynasty=1012009
@@ -12833,7 +12840,7 @@
 							religion=catholic culture=hungarian
 							father=100036564	# Friedrich Waldbott von Bassenheim
 							1882.01.19={birth=yes}  # Tolcsva
-							1920.08.30={add_spouse=100119207}	# Erzsébet Forgách de Ghymes et Gács
+							1920.08.30={add_spouse=forgach_0014}	# Erzsébet Forgách de Ghymes et Gács
 							1945.02.11={death=yes}  # Budapest
 						}
 						100036563={ # F2. Friedrich Heinrich (17 Sep 1889-16 Dec 1959); m.8 May 1920 Marie Alice v. Habsburg-Lothringen (15 Jan 1893-1 Jul 1962) %%
@@ -16014,7 +16021,7 @@
 	1868.02.21={death=yes}	# Chernigov
 }
 	100035425={ # Grigori Miloradovich (Chernigov 24 September 1834-Chernigov 13 August 1905)
-		name=Grigori
+		name=Григорий 
 		dynasty=1010028
 		religion=orthodox culture=russian
 		father=100035426	# Alexander Miloradovich
@@ -19353,35 +19360,24 @@
 		1971.12.12={birth=yes}	# Wien
 	}
 	
-#serenyi1
-# B2. Ferenc, +Svietlau 15.8.1621; m.Dorottya Jakussith de Orbova
-	# C7. Pál, cr Baron 16.6.1623, *1613, +24.4.1667; m.Mária Klára Tersztyánszky de Nádas
-		100100767={	#// D1. András, +1689; 1m: Érsekújvár 30.6.1652 Gfn Mária Magdolna Esterházy de Galántha (*Beckó 19.2.1633, +1672); 2m: Bss Mária Borbála Orlay
-			name="András Serényi de Kis-Serény"
-			#dynasty=0
-			religion=catholic culture=hungarian
-			1627.01.01={birth=yes}  # EST.
-			1652.06.30={add_spouse=100118527}	# Mária Magdolna Esterházy de Galántha
-			1689.01.01={death=yes}
-		}
-			# E2. [2m.] Farkas András, *Szakolcza 8.12.1685, +Zablat 17.12.1743; m.Gfn Krisztina Balassa de Gyarmat et Kékkeő (+1750)
-				100080104={	#// F1. Erzsébet, *10.3.1727, +9.1.1809; m.Gf Armand Serényi de Kisserény (*24.9.1715, +Brünn 14.2.1770)
-					name="Erzsébet Serényi de Kis-Serény"
-					female=yes
-					#dynasty=0
-					religion=catholic culture=hungarian
-					1727.03.10={birth=yes}
-					1809.01.09={death=yes}
-				}
-			100094194={	#// E3. [2m.] Anna Mária, *Zablat 23.7.1678, +Brünn 1729; m.Magyarbél 22.11.1693 Gf Zsigmond Csáky de Kőrősszegh et Adorján (*Medgyes 20.9.1665, +Buda 1738)
-				name="Anna Mária Serényi de Kis-Serény"
-				female=yes
-				#dynasty=0
-				religion=catholic culture=hungarian
-				father=100100767
-				1678.07.23={birth=yes}  # Zabláth
-				1729.01.01={death=yes}  # Brno
-			}
-	
-			
-#serenyi1
+
+## NICZKY
+100095109={ # Pál Gf Niczky de Niczk (*Ligvánd 23.5.1873, +Sopron 13.11.1932); m.Bratislava 2.6.1903 Margit Esterházy de Galántha (*Bratislava 14.3.1877, +Glabárpuszta 13.4.1947)
+	name="Pál"
+	dynasty=1011655
+	religion=catholic culture=hungarian
+	1873.05.22={birth=yes}  # Ligvánd
+	1903.06.02={add_spouse=100117396}	# Margit Esterházy de Galántha
+	1932.11.13={death=yes}  # Sopron
+}
+	100096701={ # Gf László Niczky de Niczk (*Sopron 12.3.1905, +Budapest 5.12.1992); m.Borzavár-Porva 7.3.1938 Mária Anna Pejacevic (*Felsoludány 4.1.1912, +Budapest 18.12.1972)
+		name="László"
+		religion=catholic culture=hungarian
+		dynasty=1011655
+		father=100095109
+		mother=100117396
+		1905.03.12={birth=yes}  # Sopron
+		1938.03.07={add_spouse=100136140}	# Mária Anna Pejacevic
+		1992.12.05={death=yes}  # Budapest
+	}
+## NICZKY

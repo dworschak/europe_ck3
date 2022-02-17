@@ -1431,7 +1431,7 @@
 							religion=catholic culture=german
 							father=100010682	# Johann Georg von Mansfeld
 							mother=100010731	# Katharina von Mansfeld
-							1550.01.01={birth=yes}
+							1546.05.01={birth=yes}	# EST.
 							1621.06.06={death=yes}
 						}
 						100010685={ #// F5. Dorothea, *1552/55, +1601; m.1581 Johann Christoph Gf zu Salm-Grumbach (*20.8.1555 +3.8.1585) $$
@@ -4990,20 +4990,22 @@
 							1697.01.01={add_spouse=100096341}	# GFN Maria von Waldstein
 							1747.01.01={death=yes}
 						}
-							100285883={ #// G1. Wenzel Ernst (17 Sep 1702-1753) %%
+							100285883={ #// G1. Wenzel Ernst (17 Sep 1702-22 Feb 1753) %%
 								name="Wenzel Ernst"
 								dynasty=1002078
 								religion=lutheran culture=german
 								father=100004545	# Johann Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 								mother=100096341	# GFN Maria von Waldstein
 								1702.09.17={birth=yes}
-								1753.01.01={death=yes}
+								1728.01.01={add_spouse=100022280}	# Maria Anna v. Althann
+								1753.02.22={death=yes}  # Wien
 							}
 								100004555={ #// H1. Wenzel Ernst (2 Jul 1733-17 Oct 1764); m.5 Feb 1763 Maria Ana Kinsky von Wchinitz u.Tettau (18 Jul 1744-13 Aug 1829) %%
 									name="Wenzel Ernst"
 									dynasty=1002078
 									religion=catholic culture=czech
 									father=100285883	# Wenzel Ernst Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
+									mother=100022280
 									1733.07.02={birth=yes}
 									1763.02.05={add_spouse=100185882}	# Maria Ana Kinsky von Wchinitz u.Tettau
 									1764.10.17={death=yes}
@@ -8731,7 +8733,7 @@
 		religion=catholic culture=german
 		father=100007675	# Dietrich zu Wied
 		mother=100095589	# GFN Anastasia zu Isenburg-Braunsberg-Wied
-		1426.01.01={birth=yes}
+		1430.01.01={birth=yes}
 		1454.01.01={add_spouse=100095754}	# Agnes von Virneburg
 		1487.08.31={death=yes}
 	}
@@ -8822,13 +8824,13 @@
 		religion=catholic culture=german
 		father=100007675	# Dietrich zu Wied
 		mother=100095589	# GFN Anastasia zu Isenburg-Braunsberg-Wied
-		1435.01.01={birth=yes}  # EST.
+		1440.01.01={birth=yes}  # EST.
 		1489.12.25={death=yes}
 	}
 		100091678={ #// B1. Anastasia, +before 24.4.1503; m.1492 Gf Heinrich VI von Waldeck (+28.5.1513)
 			name=Anastasia
 			female=yes
-			#dynasty=0
+			dynasty=1002066
 			religion=catholic culture=german
 			father=100391678	# Wilhelm zu Wied
 			1472.01.01={birth=yes}  # EST.

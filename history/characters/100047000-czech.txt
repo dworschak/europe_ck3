@@ -91,7 +91,7 @@
 						religion=catholic culture=czech
 						father=100103875	# Jan Karel Žákavec ze Žákavy
 						mother=100047945	# Salomena Maximiliana Wratislav z Mitrowicz
-						1611.01.01={birth=yes}
+						1650.01.01={birth=yes}
 						1680.01.01={add_spouse=100047950}	# Polyxena Kateřina Wratislav z Mitrowicz
 						1681.01.01={death=yes}
 					}
@@ -1276,7 +1276,7 @@
 				father=100048074	# Jan Wratislav z Mitrowicz
 				mother=100103996	# Eliška z Duben
 				1621.01.01={birth=yes}  # EST.
-				1611.01.01={add_spouse=100104003}	# Maximiliana Dominika Švihovská z Rýzmberka
+				1640.01.01={add_spouse=100104003}	# Maximiliana Dominika Švihovská z Rýzmberka
 				1660.01.01={death=yes}
 			}
 		100048084={ #// B6. Adam, *ca 1590, +12.4.1617; m.1607 Barbora Rutová z Dírné (+24.7.1624), dau.of Jan Rut z Dírné and Anna ze Sulevic
@@ -1603,7 +1603,7 @@
 		father=100047886	# Heinrich v. Schlik zu Bassano u.Weißkirchen
 		mother=100086077	# Hippolyta von Hohenlohe
 		1521.01.01={birth=yes}  # EST.
-		1545.01.01={add_spouse=100086097}	# Eliška z Vartemberka
+		1540.01.01={add_spouse=100086097}	# Eliška z Vartemberka
 		1575.01.01={death=yes}
 	}
 		100047895={ #// B12. Dorothea, *ca 1530, +1599; m.Gf Jetrich z Kunovic (+Brno 4.9.1582)
@@ -1622,10 +1622,9 @@
 			religion=catholic culture=czech
 			father=100047887	# Kaspar v. Schlik zu Bassano u.Weißkirchen
 			mother=100086097	# Eliška z Vartemberka
-			1533.01.01={birth=yes}  # EST.
-			1555.01.01={add_spouse=100092236}	# Barbara Schenk von Landsberg
+			1538.01.01={birth=yes}  # EST.
+			1570.01.01={add_spouse=100092236}	# Barbara Schenk von Landsberg
 			1606.01.14={add_spouse=100092540}	# GFN Maria von Schönburg-Waldenburg
-			1606.02.14={add_spouse=100092540}	# GFN Maria von Schönburg-Waldenburg
 			1611.12.18={death=yes}
 		}
 		100047888={ #// B1. Heinrich V, +24.2.1585; m.Anna Marie Ungnad von Sonneck
@@ -1645,9 +1644,8 @@
 				father=100047888	# Heinrich v. Schlik zu Bassano u.Weißkirchen
 				mother=100087063	# Anna Ungnad von Sonneck
 				1554.01.01={birth=yes}
-				1566.01.01={add_spouse=100092112}	# Marie von Schaumburg
+				1580.01.01={add_spouse=100092112}	# Marie von Schaumburg
 				1617.01.01={add_spouse=100092197}	# BGGFN Rosina Elisabeth von Dohna
-				1617.02.01={add_spouse=100092197}	# BGGFN Rosina Elisabeth von Dohna
 				1624.05.13={death=yes}
 			}
 		100047891={ #// B4. Anna Karoline; m.Kaspar Frhr Colonna von Fels (+1577)
@@ -4022,11 +4020,13 @@
 
 #sternbg4
 # B3. Zdeněk VI, Imperial councellor (císařský rada), Statholder in Bohemia (český místodržící), +1575; m.Kateřina Řepická ze Sudoměře (+after 1560)
-	100095725={ #// C1. Adam II starší, hejtman Nového Města pražského, dvorský sudí (1597-99), nejvyšší zemský sudí 1603, nejvyšší komorník Král.českého (1608-18), High Burggrave of Bohemia (nejvyšší purkrabí Král.českého) 1619, *ca 1575, +10.4.1623; 1m: Točník 20.7.1578 Frn Eva Popelovna z Lobkowicz (+30.7.1599); 2m: Bechyně 25.10.1605 Gfn Marie Maximiliane von Hohenzollern-Sigmaringen (*31.10.1583, +11.9.1649)
+	100095725={ #// C1. Adam II starší, hejtman Nového Města pražského, dvorský sudí (1597-99), nejvyšší zemský sudí 1603, nejvyšší komorník Král.českého (1608-18), High Burggrave of Bohemia (nejvyšší purkrabí Král.českého) 1619, *ca 1575, +10.4.1623;
+				# 1m: Točník 20.7.1578 Frn Eva Popelovna z Lobkowicz (+30.7.1599);
+				# 2m: Bechyně 25.10.1605 Gfn Marie Maximiliane von Hohenzollern-Sigmaringen (*31.10.1583, +11.9.1649)
 		name="Adam von Sternberg"
 		#dynasty=0
 		religion=catholic culture=german
-		1575.01.01={birth=yes}
+		1558.01.01={birth=yes}
 		1605.10.25={add_spouse=100002297}	# Maria Maximiliane v. Hohenzollern-Sigmaringen
 		1623.04.10={death=yes}
 	}
@@ -5049,6 +5049,78 @@
 			1602.01.01={add_spouse=100103794}	# Magdalena Sezimová z Ústí
 			1616.04.15={death=yes}
 		}
+		100047835={ #// C2. Lukrecie, +before 1602; m.Gf Jan Vilém ze Zierotína (+1608)
+			name=Lukrecie
+			female=yes
+			dynasty=1013009
+			religion=catholic culture=czech
+			father=100047787	# Jiří z Valdštejna
+			mother=100091530	# Eliška ze Žerotína
+			1585.01.01={birth=yes}  # EST.
+			1602.01.01={death=yes}  # before
+		}
+		100047836={ #// C4. Hanibal, *1576, +Hradec Králové 21.4.1637; 1m: Anna Kateřina Mirkovská ze Stropcic (+29.4.1624); 2m: 1625 Kateřina Maximiliana Micanová z Klinštejna (+17.2.1628)
+			name=Hanibal
+			dynasty=1013009
+			religion=catholic culture=czech
+			father=100047787	# Jiří z Valdštejna
+			mother=100091530	# Eliška ze Žerotína
+			1576.01.01={birth=yes}
+			1609.01.01={add_spouse=100103798}	# Anna Kateřina Mirkovská ze Stropcic
+			1625.01.01={add_spouse=100103799}	# Kateřina Maximiliana Micanová z Klinštejna
+			1637.04.21={death=yes}  # Hradec Králové
+		}
+			100047837={ #// D1. Vilém Kryštof, *ca 1610, +13.7.1685; 1m: 1635 Maria z Talmberka (+1650); 2m: 1651 Magdalena Zárubová z Hustíran (*3.4.1634, +19.2.1702)
+				name="Vilém Kryštof"
+				dynasty=1013009
+				religion=catholic culture=czech
+				father=100047836	# Hanibal z Valdštejna
+				mother=100103798	# Anna Kateřina Mirkovská ze Stropcic
+				1610.01.01={birth=yes}
+				1635.01.01={add_spouse=100103802}	# Maria z Talmberka
+				1651.01.01={add_spouse=100103803}	# Magdalena Zárubová z Hustíran
+				1685.07.13={death=yes}
+			}
+				100047838={ #// E1. [1m.] Barbora Terezie, +4.11.1719; m.1670 Gf Georg Friedrich von Oppersdorf (+1742)
+					name="Barbora Terezie"
+					female=yes
+					dynasty=1013009
+					religion=catholic culture=czech
+					father=100047837	# Vilém Kryštof z Valdštejna
+					mother=100103802	# Maria z Talmberka
+					1637.01.01={birth=yes}  # EST.
+					1719.11.04={death=yes}
+				}
+				100047839={ #// E2. [2m.] Maria Elisabeth Ludmilla, +1700; m.Leopold Friedrich Kottulinsky z Kotulína (+29.7.1730)
+					name=Maria
+					female=yes
+					dynasty=1013009
+					religion=catholic culture=czech
+					father=100047837	# Vilém Kryštof z Valdštejna
+					mother=100103802	# Maria z Talmberka
+					1639.01.01={birth=yes}  # EST.
+					1700.01.01={death=yes}
+				}
+			100047840={ #// D2. Elisabeth Kateřina, +17.2.1684; 1m: Johann Paul Müller von Ruppach (+after 10.5.1665); 2m: Bertold Vilém z Valdštejna (*10.6.1640, +31.8.1724)
+				name="Elisabeth Kateřina"
+				female=yes
+				dynasty=1013009
+				religion=catholic culture=czech
+				father=100047836	# Hanibal z Valdštejna
+				mother=100103799	# Kateřina Maximiliana Micanová z Klinštejna
+				1628.01.01={birth=yes}  # EST.
+				1684.02.17={death=yes}
+			}
+			100047841={ #// D5. Maria Magdalena Polyxena, *17.2.1628, +after 1656; m.1656 Paris Karl Lodron-Laterano und Castel Romano (+1687)
+				name=Maria
+				female=yes
+				dynasty=1013009
+				religion=catholic culture=czech
+				father=100047836	# Hanibal z Valdštejna
+				mother=100103799	# Kateřina Maximiliana Micanová z Klinštejna
+				1628.02.17={birth=yes}
+				1657.01.01={death=yes}
+			}
 		100047834={ #// B21. [3m.] Bartolomej, *1578, +3.4.1617; m.Mandaléna Bohdanecká z Hodkova (+Arnau 6.4.1654)
 			name=Bartolomej
 			dynasty=1013009
@@ -5056,81 +5128,9 @@
 			father=100047787	# Jiří z Valdštejna
 			mother=100091530	# Eliška ze Žerotína
 			1578.01.01={birth=yes}
-			1603.01.01={add_spouse=100103796}	# Mandaléna Bohdanecká z Hodkova
+			1600.01.01={add_spouse=100103796}	# Mandaléna Bohdanecká z Hodkova
 			1617.04.03={death=yes}
 		}
-			100047835={ #// C2. Lukrecie, +before 1602; m.Gf Jan Vilém ze Zierotína (+1608)
-				name=Lukrecie
-				female=yes
-				dynasty=1013009
-				religion=catholic culture=czech
-				father=100047834	# Bartolomej z Valdštejna
-				mother=100103796	# Mandaléna Bohdanecká z Hodkova
-				1574.01.01={birth=yes}  # EST.
-				1602.01.01={death=yes}  # before
-			}
-			100047836={ #// C4. Hanibal, *1576, +Hradec Králové 21.4.1637; 1m: Anna Kateřina Mirkovská ze Stropcic (+29.4.1624); 2m: 1625 Kateřina Maximiliana Micanová z Klinštejna (+17.2.1628)
-				name=Hanibal
-				dynasty=1013009
-				religion=catholic culture=czech
-				father=100047834	# Bartolomej z Valdštejna
-				mother=100103796	# Mandaléna Bohdanecká z Hodkova
-				1595.01.01={birth=yes}
-				1609.01.01={add_spouse=100103798}	# Anna Kateřina Mirkovská ze Stropcic
-				1625.01.01={add_spouse=100103799}	# Kateřina Maximiliana Micanová z Klinštejna
-				1637.04.21={death=yes}  # Hradec Králové
-			}
-				100047837={ #// D1. Vilém Kryštof, *ca 1610, +13.7.1685; 1m: 1635 Maria z Talmberka (+1650); 2m: 1651 Magdalena Zárubová z Hustíran (*3.4.1634, +19.2.1702)
-					name="Vilém Kryštof"
-					dynasty=1013009
-					religion=catholic culture=czech
-					father=100047836	# Hanibal z Valdštejna
-					mother=100103798	# Anna Kateřina Mirkovská ze Stropcic
-					1610.01.01={birth=yes}
-					1635.01.01={add_spouse=100103802}	# Maria z Talmberka
-					1651.01.01={add_spouse=100103803}	# Magdalena Zárubová z Hustíran
-					1685.07.13={death=yes}
-				}
-					100047838={ #// E1. [1m.] Barbora Terezie, +4.11.1719; m.1670 Gf Georg Friedrich von Oppersdorf (+1742)
-						name="Barbora Terezie"
-						female=yes
-						dynasty=1013009
-						religion=catholic culture=czech
-						father=100047837	# Vilém Kryštof z Valdštejna
-						mother=100103802	# Maria z Talmberka
-						1637.01.01={birth=yes}  # EST.
-						1719.11.04={death=yes}
-					}
-					100047839={ #// E2. [2m.] Maria Elisabeth Ludmilla, +1700; m.Leopold Friedrich Kottulinsky z Kotulína (+29.7.1730)
-						name=Maria
-						female=yes
-						dynasty=1013009
-						religion=catholic culture=czech
-						father=100047837	# Vilém Kryštof z Valdštejna
-						mother=100103802	# Maria z Talmberka
-						1639.01.01={birth=yes}  # EST.
-						1700.01.01={death=yes}
-					}
-				100047840={ #// D2. Elisabeth Kateřina, +17.2.1684; 1m: Johann Paul Müller von Ruppach (+after 10.5.1665); 2m: Bertold Vilém z Valdštejna (*10.6.1640, +31.8.1724)
-					name="Elisabeth Kateřina"
-					female=yes
-					dynasty=1013009
-					religion=catholic culture=czech
-					father=100047836	# Hanibal z Valdštejna
-					mother=100103799	# Kateřina Maximiliana Micanová z Klinštejna
-					1628.01.01={birth=yes}  # EST.
-					1684.02.17={death=yes}
-				}
-				100047841={ #// D5. Maria Magdalena Polyxena, *17.2.1628, +after 1656; m.1656 Paris Karl Lodron-Laterano und Castel Romano (+1687)
-					name=Maria
-					female=yes
-					dynasty=1013009
-					religion=catholic culture=czech
-					father=100047836	# Hanibal z Valdštejna
-					mother=100103799	# Kateřina Maximiliana Micanová z Klinštejna
-					1628.02.17={birth=yes}
-					1657.01.01={death=yes}
-				}
 			100047842={ #// C5. Jan Kryštof, 1632-cr Graf, *1608, +17.4.1655; m.Lidmila Kateřina Markéta Kunešová z Lukavec (+after 1655)
 				name="Jan Kryštof"
 				dynasty=1013009
@@ -7369,8 +7369,8 @@
 	name="Leopold Friedrich Kottulinsky z Kotulína"
 	#dynasty=0
 	religion=catholic culture=czech
-	1660.01.01={birth=yes}
-	1659.01.01={add_spouse=100047839}	# Maria z Valdštejna
+	1640.01.01={birth=yes}
+	1660.01.01={add_spouse=100047839}	# Maria z Valdštejna
 	1730.07.29={death=yes}
 }
 
@@ -12355,17 +12355,17 @@
 					father=100185727	# Leopold Josef Kinsky von Wchinitz u.Tettau
 					mother=100085728	# FRN Therese von Puteani
 					1815.06.24={birth=yes}
-					1842.08.17={add_spouse=100085734}	# IphigÃ©nia TerÃ©zia DadÃ¡nyi de GyÃ¼lvÃ©sz
+					1842.08.17={add_spouse=100085734}	# Iphigenia Terezia Dadányi de Gyülevész
 					1868.08.22={death=yes}
 				}
 					100185735={ #// 1f) Irene (Chlumetz 31 Oct 1843-Brixen 28 Sep 1903); m.Velky Barchov 19 Aug 1863 Antonín Baron Dory von Jobhahaza (Szentgal 17 Nov 1840-Budapest 14 Oct 1904)
 						name=Irene
+						female=yes
 						dynasty=1013001
 						religion=catholic culture=czech
 						father=100185733	# Jan-Baptist Kinsky von Wchinitz u.Tettau
-						mother=100085734	# IphigÃ©nia TerÃ©zia DadÃ¡nyi de GyÃ¼lvÃ©sz
+						mother=100085734	# Iphigenia Terezia Dadányi de Gyülevész
 						1843.10.31={birth=yes}
-						1863.08.19={add_spouse=100085736}	# BARON Anton Dõry de Jobaháza
 						1903.09.28={death=yes}
 					}
 					100185737={ #// 2f) Oktavian Zdenko Stanislaus Sigmund Jan (Vukovár 4 Nov 1844-Abbazia 5 Jan 1932); m.Budapest 11 Jun 1877 Georgine Gfn Festetics von Tolna (Ödenburg 1 Dec 1856-Abbazia 30 Nov 1934) $$
@@ -12373,7 +12373,7 @@
 						dynasty=1013001
 						religion=catholic culture=czech
 						father=100185733	# Jan-Baptist Kinsky von Wchinitz u.Tettau
-						mother=100085734	# IphigÃ©nia TerÃ©zia DadÃ¡nyi de GyÃ¼lvÃ©sz
+						mother=100085734	# Iphigenia Terezia Dadányi de Gyülevész
 						1844.11.04={birth=yes}
 						1877.06.11={add_spouse=100115350}	# Georgine Festetics de Tolna
 						1932.01.05={death=yes}
@@ -12594,7 +12594,7 @@
 						dynasty=1013001
 						religion=catholic culture=czech
 						father=100185733	# Jan-Baptist Kinsky von Wchinitz u.Tettau
-						mother=100085734	# IphigÃ©nia TerÃ©zia DadÃ¡nyi de GyÃ¼lvÃ©sz
+						mother=100085734	# Iphigenia Terezia Dadányi de Gyülevész
 						1847.04.14={birth=yes}
 						1869.09.17={death=yes}
 					}
@@ -12603,7 +12603,7 @@
 						dynasty=1013001
 						religion=catholic culture=czech
 						father=100185733	# Jan-Baptist Kinsky von Wchinitz u.Tettau
-						mother=100085734	# IphigÃ©nia TerÃ©zia DadÃ¡nyi de GyÃ¼lvÃ©sz
+						mother=100085734	# Iphigenia Terezia Dadányi de Gyülevész
 						1850.01.29={birth=yes}
 						1893.05.17={add_spouse=100085781}	# Ilona Csernovics de Macsa et Kisorosz
 						1896.05.12={death=yes}
@@ -12634,7 +12634,7 @@
 						dynasty=1013001
 						religion=catholic culture=czech
 						father=100185733	# Jan-Baptist Kinsky von Wchinitz u.Tettau
-						mother=100085734	# IphigÃ©nia TerÃ©zia DadÃ¡nyi de GyÃ¼lvÃ©sz
+						mother=100085734	# Iphigenia Terezia Dadányi de Gyülevész
 						1854.10.24={birth=yes}
 						1938.09.28={death=yes}
 					}
@@ -14939,7 +14939,7 @@
 						100185574={ #// 9f) Friedrich Jan Josef Cölestin, Cardinal 1842, Archbishop of Salzburg 1836, Archbishop of Prague 1850/85 (Wien 6 Apr 1809-Wien 27 Mar 1885)
 							name=Friedrich
 							dynasty=1013000
-							religion=catholic culture=czech
+							religion=catholic culture=bavarian
 							father=100185519	# Josef v. Schwarzenberg
 							mother=100000202	# Pauline Charlotte v. Arenberg
 							1809.04.06={birth=yes}

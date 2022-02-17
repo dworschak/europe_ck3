@@ -2078,10 +2078,10 @@
 }
 100083034={ # Marquis    Christian                 de Villeneuve-Escaplon                   (1852-1931)     0 [BONAPARTE]
 	name="Christian de Villeneuve-Escaplon"
-	female=yes
 	#dynasty=0
 	religion=catholic culture=frankish
 	1852.08.08={birth=yes}
+	1882.03.22={add_spouse=100065078}
 	1931.04.03={death=yes}
 }
 100102855={ # Cte        Romée Edouard             de Villeneuve-Esclapon                   (1905-2002)     - [SABRAN]
@@ -4006,6 +4006,13 @@
 	1724.07.31={death=yes}
 }
 
+lowborn_0389={ # Baron      Leopold                   Merode von Treslong                      (1811-1871)     - [DORY]
+	name="Leopold Merode von Treslong"
+	religion=catholic culture=hungarian
+	1811.09.06={birth=yes}  # Mödling
+	1859.09.12={add_spouse=dory_0127}	# Karolina
+	1871.12.01={death=yes}  # EST.
+}
 100104252={ # Cte        Fernand Maximilian        de Merode                                (1637-1684)     - [MERODE]
 	name="Fernand Maximilian de Merode"
 	#dynasty=0
@@ -11070,9 +11077,9 @@
 	name="N Chelaincourt de Borny"
 	#dynasty=0
 	religion=orthodox culture=russian
-	1789.01.01={birth=yes}
-	1819.01.01={add_spouse=100017907}	# Sophia Shcherbatov
-	1864.01.01={death=yes}
+	1780.01.01={birth=yes}	# EST.
+	1810.01.01={add_spouse=100017907}	# Sophia Shcherbatov
+	1850.01.01={death=yes}	# EST.
 }
 100091928={ # Cte        Jean                      Clérel de Tocqueville                    (1896-1974)     - [HARCOURT]
 	name="Jean Clérel de Tocqueville"
@@ -17782,3 +17789,10 @@
 	1690.07.12={death=yes}  # Coppet
 }
 
+100103668={ #    Baron      Alexandre                 Du Jarrys de la Roche                    (1826-1893)     - [SOMSICH]
+	name="Alexandre Du Jarrys de la Roche"
+	religion=catholic culture=hungarian
+	1826.03.02={birth=yes}  # Cap Hayti
+	1872.12.14={add_spouse=100120198}	# Antónia Somssich de Saárd
+	1893.08.06={death=yes}  # Straubing
+}
