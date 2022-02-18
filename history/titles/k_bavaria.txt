@@ -1,4 +1,6 @@
 ﻿k_bavaria = {
+	1830.01.01 = {change_development_level=20}	#mapfiller
+	2020.01.01 = {change_development_level=50}	#mapfiller
 	867.1.1 = {change_development_level=5}
 	1066.1.1 = {change_development_level=8}
 	548.1.1 = {holder=190178}	#Garibald I
@@ -37,21 +39,17 @@
 	#	1947.1.1={
 	#		liege=e_brd_germany
 	#	}
-	
 	#####
-	
 	1800.01.01 = {
 		remove_succession_laws = yes
 		succession_laws = {
-			male_only_law
+	male_only_law
 			single_heir_succession_law
-		}
+}
 	}
-	
 	1800.2.2 = {de_jure_liege=e_germany}
-	1871.01.18={liege=e_germany}
-	
-	1806.1.1 = {holder = 100007809}
+	1871.01.18 = {liege=e_germany}
+	1806.1.1 = {holder=100007809}
 	1825.10.13 = {holder=100007810}	# Ludwig I., 1825�1848	
 	1848.03.20 = {holder=100007811}	# Maximilian II. Joseph, 1848�1864
 	1864.03.10 = {holder=100007812}	# Ludwig II., 1864�1886 (1886 entm�ndigt)
@@ -110,9 +108,7 @@ d_bavaria = {
 	1317.1.1 = {holder=462740}
 }
 
-c_regensburg = {
-	867.1.1 = {change_development_level=10}
-	1066.1.1 = {change_development_level=14}
+c_munchen = {
 	548.1.1 = {holder=190178}	#Garibald I
 	591.1.1 = {holder=190179}	#Tassilo I
 	610.1.1 = {holder=190336}	#Garibald II
@@ -158,6 +154,7 @@ c_regensburg = {
 	1047.1.1 = {holder=30729}
 	1053.1.1 = {holder=1316}
 	1061.1.1 = {holder=112600}
+	1066.1.1 = {holder=33410}
 	1070.1.1 = {holder=1530}
 	1077.1.1 = {holder=1316}
 	1096.1.1 = {holder=1530}
@@ -510,7 +507,53 @@ c_ingolstadt = {
 	1294.2.2 = {holder=462736}
 	1317.1.12 = {holder=462740}
 }
-c_munchen = {
+c_passau = {
+	751.1.1 = {liege=k_bavaria}
+	751.1.1 = {holder=190367}	#Anniulf
+	788.1.1 = {
+		liege = "k_bavaria"
+		holder = 6392	#Charlemagne
+	}
+	814.1.28 = {holder=30227}	#Lothair I
+	817.1.1 = {holder=90095}	#Louis I the Pious
+	829.1.1 = {holder=90107}	#Louis II the German
+	864.1.1 = {
+		holder = 42018	#Carloman
+		liege = "d_bavaria"
+	}
+	867.1.1 = {holder=167802}	#Aribo
+	880.9.29 = {holder=42019}	#Louis III the Younger
+	882.1.21 = {holder=90105}	#Charles II the Fat
+	887.1.1 = {holder=7945}	#Arnulf of Carinthia
+	895.1.1 = {liege=d_bavaria}
+	895.1.1 = {holder=7969}
+	899.8.12 = {holder=7949}	#Louis IV the Child
+	907.1.1 = {holder=10097}
+	937.7.14 = {holder=7970}
+	938.1.1 = {holder=7971}
+	948.1.1 = {holder=1292}
+	955.1.1 = {holder=1294}
+	970.1.1 = {holder=31510}
+	984.10.7 = {holder=31511}
+	1020.6.13 = {holder=31512}
+	1050.6.18 = {holder=31513}
+	1060.5.18 = {holder=31515}
+	1078.8.7 = {holder=31514}
+	1080.10.15 = {holder=31524}
+	1099.4.14 = {holder=31516}
+	1146.8.4 = {holder=31518}
+	1158.11.13 = {holder=31520}
+	1185.9.15 = {holder=31522}
+	1185.10.21 = {holder=31529}
+	1204.5.25 = {holder=31530}
+	1225.12.26 = {holder=31533}
+	1259.1.2 = {holder=462757}
+	1290.2.3 = {holder=462758}
+	1310.12.10 = {holder=462760}
+}
+c_regensburg = {
+	867.1.1 = {change_development_level=10}
+	1066.1.1 = {change_development_level=14}
 	548.1.1 = {holder=190178}	#Garibald I
 	591.1.1 = {holder=190179}	#Tassilo I
 	610.1.1 = {holder=190336}	#Garibald II
@@ -556,7 +599,6 @@ c_munchen = {
 	1047.1.1 = {holder=30729}
 	1053.1.1 = {holder=1316}
 	1061.1.1 = {holder=112600}
-	1066.1.1 = {holder=33410}
 	1070.1.1 = {holder=1530}
 	1077.1.1 = {holder=1316}
 	1096.1.1 = {holder=1530}
@@ -572,50 +614,6 @@ c_munchen = {
 	1253.11.29 = {holder=462750}
 	1294.2.2 = {holder=462736}
 	1317.1.12 = {holder=462740}
-}
-c_passau = {
-	751.1.1 = {liege=k_bavaria}
-	751.1.1 = {holder=190367}	#Anniulf
-	788.1.1 = {
-		liege = "k_bavaria"
-		holder = 6392	#Charlemagne
-	}
-	814.1.28 = {holder=30227}	#Lothair I
-	817.1.1 = {holder=90095}	#Louis I the Pious
-	829.1.1 = {holder=90107}	#Louis II the German
-	864.1.1 = {
-		holder = 42018	#Carloman
-		liege = "d_bavaria"
-	}
-	867.1.1 = {holder=167802}	#Aribo
-	880.9.29 = {holder=42019}	#Louis III the Younger
-	882.1.21 = {holder=90105}	#Charles II the Fat
-	887.1.1 = {holder=7945}	#Arnulf of Carinthia
-	895.1.1 = {liege=d_bavaria}
-	895.1.1 = {holder=7969}
-	899.8.12 = {holder=7949}	#Louis IV the Child
-	907.1.1 = {holder=10097}
-	937.7.14 = {holder=7970}
-	938.1.1 = {holder=7971}
-	948.1.1 = {holder=1292}
-	955.1.1 = {holder=1294}
-	970.1.1 = {holder=31510}
-	984.10.7 = {holder=31511}
-	1020.6.13 = {holder=31512}
-	1050.6.18 = {holder=31513}
-	1060.5.18 = {holder=31515}
-	1078.8.7 = {holder=31514}
-	1080.10.15 = {holder=31524}
-	1099.4.14 = {holder=31516}
-	1146.8.4 = {holder=31518}
-	1158.11.13 = {holder=31520}
-	1185.9.15 = {holder=31522}
-	1185.10.21 = {holder=31529}
-	1204.5.25 = {holder=31530}
-	1225.12.26 = {holder=31533}
-	1259.1.2 = {holder=462757}
-	1290.2.3 = {holder=462758}
-	1310.12.10 = {holder=462760}
 }
 c_rothenburg = {
 	548.1.1 = {holder=190178}	#Garibald I

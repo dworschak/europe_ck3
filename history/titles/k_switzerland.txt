@@ -1,48 +1,12 @@
-﻿b_basel = {
-	#1066.1.1 = {
-	#	liege = "c_aargau"
-	#}
-	1072.1.1 = {holder=20288}	#Burchard von Neuenburg
-	#1107.4.12 = {
-	#	holder = 0
-	#}
-	1122.1.1 = {holder=32763}	#Berthold von Neuenburg
-	#1133.1.1 = {
-	#	holder = 0
-	#}
-	1263.1.1 = {holder=32775}	#Heinrich von Neuenburg
-	1275.1.1 = {holder=7548}
-	1296.1.1 = {holder=7555}
-	#1320.6.5 = {
-	#	holder = 0
-	#}
+﻿k_switzerland = {
+	1830.01.01 = {change_development_level=15}	#mapfiller
+	2020.01.01 = {change_development_level=30}	#mapfiller
 }
 
-c_aargau = {
-	800.1.1 = {liege=d_transjurania}
-	740.1.1 = {liege=d_swabia}
-	740.1.1 = {holder=161481}	#Hugo
-	#770.1.1 = {
-	#	holder = 0
-	#}
-	863.1.25 = {liege=d_dauphine}
-	864.1.1 = {holder=167848}
-	933.1.1 = {liege=k_burgundy}
-	1027.1.1 = {holder=11006}
-	1032.1.1 = {liege=e_hre}
-	1045.1.1 = {holder=20289}
-	1096.11.11 = {holder=11010}
-	1111.11.8 = {holder=213131}
-	1167.1.1 = {holder=213130}
-	1199.1.1 = {holder=213135}
-	1220.1.1 = {liege=d_upper_burgundy}
-	1232.4.10 = {holder=462044}
-	1239.12.13 = {holder=462021}
-	1278.8.26 = {liege=d_osterreich}
-	1282.1.1 = {liege=e_hre}
-	1291.7.15 = {liege=d_osterreich}
-	1291.7.15 = {holder=462048}
-	1315.1.28 = {holder=462050}
+#########
+
+d_transjurania = {
+	1500.1.1 = {liege=k_schweiz}
 }
 
 c_bern = {
@@ -72,7 +36,32 @@ c_bern = {
 	1301.3.29 = {holder=33637}
 	1322.10.31 = {holder=33638}
 }
-
+c_aargau = {
+	800.1.1 = {liege=d_transjurania}
+	740.1.1 = {liege=d_swabia}
+	740.1.1 = {holder=161481}	#Hugo
+	#770.1.1 = {
+	#	holder = 0
+	#}
+	863.1.25 = {liege=d_dauphine}
+	864.1.1 = {holder=167848}
+	933.1.1 = {liege=k_burgundy}
+	1027.1.1 = {holder=11006}
+	1032.1.1 = {liege=e_hre}
+	1045.1.1 = {holder=20289}
+	1096.11.11 = {holder=11010}
+	1111.11.8 = {holder=213131}
+	1167.1.1 = {holder=213130}
+	1199.1.1 = {holder=213135}
+	1220.1.1 = {liege=d_upper_burgundy}
+	1232.4.10 = {holder=462044}
+	1239.12.13 = {holder=462021}
+	1278.8.26 = {liege=d_osterreich}
+	1282.1.1 = {liege=e_hre}
+	1291.7.15 = {liege=d_osterreich}
+	1291.7.15 = {holder=462048}
+	1315.1.28 = {holder=462050}
+}
 c_geneva = {
 	760.1.1 = {
 		liege = "k_lotharingia"
@@ -106,6 +95,53 @@ c_geneva = {
 	1285.8.16 = {liege=d_savoie}
 	1308.5.22 = {holder=32750}
 	1320.11.25 = {holder=32754}
+}
+c_neuchatel = {
+	800.1.1 = {liege=d_transjurania}
+	760.1.1 = {
+		liege = "k_lotharingia"
+		holder = 91482	#FREDERIC, count of Transjuranie
+	}
+	855.1.1 = {
+		liege = "d_upper_burgundy"
+		holder = 7977
+	}
+	863.1.25 = {liege=d_dauphine}
+	864.1.1 = {holder=168154}
+	868.1.1 = {
+		holder = 7989
+		liege = "d_upper_burgundy"
+	}
+	876.1.1 = {holder=7984}
+	1032.9.5 = {
+		liege = "e_hre"
+		holder = 40560
+	}
+	1070.1.1 = {holder=32762}
+	1099.1.1 = {holder=212010}
+	1132.8.1 = {holder=212012}
+	1164.1.1 = {holder=212013}
+	1189.1.1 = {holder=212018}
+	1196.8.30 = {holder=32768}
+	1220.1.1 = {liege=d_upper_burgundy}
+	1225.8.1 = {holder=32769}
+	1257.3.14 = {
+		holder = 32770
+		liege = e_hre
+	}
+	1285.8.16 = {liege=d_savoie}
+	1309.8.29 = {holder=32771}
+}
+
+#########
+
+d_currezia = {
+	1500.1.1 = {liege=k_schweiz}
+	1220.1.1 = {
+		liege = e_hre
+		holder = 212382
+	}
+	1253.7.22 = {holder=0}
 }
 
 c_grisons = {
@@ -144,44 +180,6 @@ c_grisons = {
 	1327.7.5 = {holder=463140}
 	1337.1.1 = {holder=463140}
 }
-
-c_neuchatel = {
-	800.1.1 = {liege=d_transjurania}
-	760.1.1 = {
-		liege = "k_lotharingia"
-		holder = 91482	#FREDERIC, count of Transjuranie
-	}
-	855.1.1 = {
-		liege = "d_upper_burgundy"
-		holder = 7977
-	}
-	863.1.25 = {liege=d_dauphine}
-	864.1.1 = {holder=168154}
-	868.1.1 = {
-		holder = 7989
-		liege = "d_upper_burgundy"
-	}
-	876.1.1 = {holder=7984}
-	1032.9.5 = {
-		liege = "e_hre"
-		holder = 40560
-	}
-	1070.1.1 = {holder=32762}
-	1099.1.1 = {holder=212010}
-	1132.8.1 = {holder=212012}
-	1164.1.1 = {holder=212013}
-	1189.1.1 = {holder=212018}
-	1196.8.30 = {holder=32768}
-	1220.1.1 = {liege=d_upper_burgundy}
-	1225.8.1 = {holder=32769}
-	1257.3.14 = {
-		holder = 32770
-		liege = e_hre
-	}
-	1285.8.16 = {liege=d_savoie}
-	1309.8.29 = {holder=32771}
-}
-
 c_sankt_gallen = {
 	800.1.1 = {liege=d_currezia}
 	750.1.1 = {liege=d_swabia}
@@ -215,11 +213,9 @@ c_sankt_gallen = {
 	1313.12.13 = {holder=462029}
 	1326.1.1 = {holder=462020}
 }
-
 c_ticino = {
 	800.1.1 = {liege=d_currezia}
 }
-
 c_zurich = {
 	800.1.1 = {liege=d_currezia}
 	750.1.1 = {liege=d_swabia}
@@ -254,17 +250,22 @@ c_zurich = {
 	1291.7.15 = {liege=d_swiss}
 	1291.7.15 = {holder=462085}
 }
-
-d_currezia = {
-	1500.1.1 = {liege=k_schweiz}
-	1220.1.1 = {
-		liege = e_hre
-		holder = 212382
-	}
-	1253.7.22 = {holder=0}
+b_basel = {
+	#1066.1.1 = {
+	#	liege = "c_aargau"
+	#}
+	1072.1.1 = {holder=20288}	#Burchard von Neuenburg
+	#1107.4.12 = {
+	#	holder = 0
+	#}
+	1122.1.1 = {holder=32763}	#Berthold von Neuenburg
+	#1133.1.1 = {
+	#	holder = 0
+	#}
+	1263.1.1 = {holder=32775}	#Heinrich von Neuenburg
+	1275.1.1 = {holder=7548}
+	1296.1.1 = {holder=7555}
+	#1320.6.5 = {
+	#	holder = 0
+	#}
 }
-
-d_transjurania = {
-	1500.1.1 = {liege=k_schweiz}
-}
-
