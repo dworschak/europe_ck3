@@ -273,19 +273,150 @@ c_vladimir = {
 
 #########
 
+d_karachev = {
+	867.1.1 = {change_development_level=2}
+	1066.1.1 = {change_development_level=5}
+}
+
+c_karachev = {
+	###Pre Kievan Rus
+	799.1.1 = {
+		liege = 0
+		holder = 194146	#Iliya Vyatich
+		government = tribal_government
+	}
+	822.1.1 = {
+		holder = 160063	#Bojan Vyatich
+		liege = e_caspian-pontic_steppe
+	}
+	860.1.1 = {holder=6834}	#Zhavoronok Vyatich
+	###Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
+	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
+	972.1.2 = {holder=604}	#Yaropolk I
+	980.1.2 = {holder=608}	#Vladimir the Great
+	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
+	1016.1.2 = {holder=612}	#Yaroslav the Wise
+	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
+	1019.1.2 = {holder=612}	#Yaroslav the Wise
+	#Put under d_chernigov
+	1054.2.20 = {
+		holder = 302257	#Voislav Okansky, fictional
+		liege = d_chernigov
+	}
+	###Fragmentation of Kievan Rus' 1069.4.15
+	1080.11.29 = {holder=302258}	#Nikita Okansky, fictional
+	1094.1.2 = {holder=660}	#Oleg I Sviatoslavich
+	1097.1.2 = {holder=656}	#Davyd Sviatoslavich
+	1123.1.2 = {holder=662}	#Konstantin / Yaroslav Sviatoslavich of Kiev
+	1126.1.2 = {holder=222602}	#Vsevolod II Olgovich of Kiev
+	1139.1.2 = {holder=125045}	#Vladimir II Davydovich
+	1151.5.12 = {holder=302259}	#Ivan Kromsky, fictional
+	1184.6.1 = {holder=302260}	#Simeon Kromsky, fictional
+}
+c_kozelsk = {
+	###Pre Kievan Rus
+	799.1.1 = {
+		liege = 0
+		holder = 194146	#Iliya Vyatich
+		government = tribal_government
+	}
+	822.1.1 = {holder=302242}	#Dobromir Vyatich
+	861.1.1 = {holder=302243}	#Volodar Vyatich
+	###Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
+	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
+	972.1.2 = {holder=604}	#Yaropolk I
+	980.1.2 = {holder=608}	#Vladimir the Great
+	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
+	1016.1.2 = {holder=612}	#Yaroslav the Wise
+	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
+	1019.1.2 = {holder=612}	#Yaroslav the Wise
+	#Put under d_chernigov
+	1054.2.20 = {
+		holder = 302257	#Voislav Okansky, fictional
+		liege = d_chernigov
+	}
+	###Fragmentation of Kievan Rus' 1069.4.15
+	1080.11.29 = {holder=302258}	#Nikita Okansky, fictional
+	1094.1.2 = {holder=660}	#Oleg I Sviatoslavich
+	1097.1.2 = {holder=656}	#Davyd Sviatoslavich
+	1123.1.2 = {holder=662}	#Konstantin / Yaroslav Sviatoslavich of Kiev
+	1126.1.2 = {holder=222602}	#Vsevolod II Olgovich of Kiev
+	1139.1.2 = {holder=125045}	#Vladimir II Davydovich
+	1151.5.12 = {holder=302259}	#Ivan Kromsky, fictional
+	1184.6.1 = {holder=302260}	#Simeon Kromsky, fictional
+}
+c_sevsk = {
+	###Pre Kievan Rus
+	799.1.1 = {
+		liege = 0
+		holder = 194146	#Iliya Vyatich
+		government = tribal_government
+	}
+	822.1.1 = {
+		holder = 160063	#Bojan Vyatich
+		liege = e_caspian-pontic_steppe
+	}
+	860.1.1 = {holder=6834}	#Zhavoronok Vyatich
+	###Kievan Rus in 882
+	890.1.1 = {holder=160059}	#Vladislav Vyatich
+	900.1.1 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
+	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
+	972.1.2 = {holder=604}	#Yaropolk I
+	980.1.2 = {holder=608}	#Vladimir the Great
+	#988 Chernigov principality's startdate
+	988.1.2 = {
+		holder = 608	#Vladimir the Great
+		liege = d_chernigov
+	}
+	1015.7.15 = {holder=612}	#Yaroslav the Wise
+	1024.1.2 = {holder=618}	#Mstislav I the bold
+	1036.1.2 = {holder=612}	#Kievan rule
+	1054.1.2 = {holder=628}	#Sviatoslav II Yaroslavich of Kiev
+	1060.1.2 = {holder=658}
+	1073.1.2 = {holder=630}	#Vsevolod I of Kiev
+	1076.1.2 = {holder=666}	#Vladimir Monomakh
+	1077.1.2 = {holder=630}	#Vsevolod I of Kiev
+	1078.1.2 = {holder=660}	#Oleg I Sviatoslavich
+	1078.1.2 = {holder=666}	#Vladimir Monomakh
+	1094.1.2 = {holder=660}	#Oleg I Sviatoslavich
+	1097.1.2 = {holder=656}	#Davyd Sviatoslavich
+	1123.1.2 = {holder=662}	#Konstantin / Yaroslav Sviatoslavich of Kiev
+	1126.1.2 = {holder=222602}	#Vsevolod II Olgovich of Kiev
+	1139.1.2 = {holder=125045}	#Vladimir II Davydovich
+	1151.5.12 = {holder=125047}	#Iziaslav III Davidovich of Kiev
+	1157.1.2 = {holder=125046}	#Sviatoslav II Olgovich
+	1164.1.2 = {holder=222650}	#Sviatoslav III Vsevolodovich of Kiev
+	1176.1.2 = {holder=222600}	#Yaroslav II Vsevolodovich
+}
+
+#########
+
 d_nizhny_novgorod = {
 	800.1.1 = {liege=k_vladimir}
-	
-	1760.01.01={holder=100020360}
-	1794.05.09={holder=100020362}
-	1828.02.02={holder=100020367}
-	1860.06.26={holder=100020370}
-	1866.03.22={holder=100020417}
-	1873.04.01={holder=100020419}
-	1920.09.13={holder=100020425}
-	1950.01.06={holder=100020431}
-	1965.09.26={holder=100020433}
-	1982.12.04={holder=100020435}
+	1760.01.01 = {holder=100020360}
+	1794.05.09 = {holder=100020362}
+	1828.02.02 = {holder=100020367}
+	1860.06.26 = {holder=100020370}
+	1866.03.22 = {holder=100020417}
+	1873.04.01 = {holder=100020419}
+	1920.09.13 = {holder=100020425}
+	1950.01.06 = {holder=100020431}
+	1965.09.26 = {holder=100020433}
+	1982.12.04 = {holder=100020435}
 }
 
 c_nizhny_novgorod = {
@@ -333,19 +464,17 @@ c_nizhny_novgorod = {
 	1174.9.1 = {holder=222730}	#Yaropolk Rostislavich
 	1175.6.15 = {holder=222682}	#Mikhail Yuryevich
 	1176.6.20 = {holder=222670}	#Vsevolod III the Big Nest
-	
 	#####
-	
-	1760.01.01={holder=100020360}
-	1794.05.09={holder=100020362}
-	1828.02.02={holder=100020367}
-	1860.06.26={holder=100020370}
-	1866.03.22={holder=100020417}
-	1873.04.01={holder=100020419}
-	1920.09.13={holder=100020425}
-	1950.01.06={holder=100020431}
-	1965.09.26={holder=100020433}
-	1982.12.04={holder=100020435}
+	1760.01.01 = {holder=100020360}
+	1794.05.09 = {holder=100020362}
+	1828.02.02 = {holder=100020367}
+	1860.06.26 = {holder=100020370}
+	1866.03.22 = {holder=100020417}
+	1873.04.01 = {holder=100020419}
+	1920.09.13 = {holder=100020425}
+	1950.01.06 = {holder=100020431}
+	1965.09.26 = {holder=100020433}
+	1982.12.04 = {holder=100020435}
 }
 c_manturovo = {
 	800.1.1 = {liege=d_nizhny_novgorod}
@@ -444,6 +573,98 @@ c_plyos = {
 
 #########
 
+d_novosil = {
+	867.1.1 = {change_development_level=2}
+	1066.1.1 = {change_development_level=5}
+}
+
+c_novosil = {
+	###Pre Kievan Rus
+	809.3.16 = {
+		liege = 0
+		holder = 302227	#fictional Artyo Meshchersky
+		government = tribal_government
+	}
+	841.12.20 = {
+		holder = 302229	#fictional Inzhay Meshchersky
+		liege = e_caspian-pontic_steppe	#tributary
+	}
+	853.9.15 = {holder=302238}	#fictional Mikikor Meshchersky
+	###Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
+	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
+	972.1.2 = {holder=604}	#Yaropolk I
+	980.1.2 = {holder=608}	#Vladimir the Great
+	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
+	1016.1.2 = {holder=612}	#Yaroslav the Wise
+	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
+	1019.1.2 = {holder=612}	#Yaroslav the Wise
+	#Put under d_chernigov
+	1054.2.20 = {
+		holder = 302257	#Voislav Okansky, fictional
+		liege = d_chernigov
+	}
+	###Fragmentation of Kievan Rus' 1069.4.15
+	1080.11.29 = {holder=302258}	#Nikita Okansky, fictional
+	1094.1.2 = {holder=660}	#Oleg I Sviatoslavich
+	1097.1.2 = {holder=656}	#Davyd Sviatoslavich
+	1123.1.2 = {holder=662}	#Konstantin / Yaroslav Sviatoslavich of Kiev
+	1126.1.2 = {holder=222602}	#Vsevolod II Olgovich of Kiev
+	1139.1.2 = {holder=125045}	#Vladimir II Davydovich
+	1151.5.12 = {holder=302259}	#Ivan Kromsky, fictional
+	1184.6.1 = {holder=302260}	#Simeon Kromsky, fictional
+}
+c_odoyev = {
+	###Pre Kievan Rus
+	809.3.16 = {
+		liege = 0
+		holder = 302227	#fictional Artyo Meshchersky
+		government = tribal_government
+	}
+	841.12.20 = {
+		holder = 302229	#fictional Inzhay Meshchersky
+		liege = e_caspian-pontic_steppe	#tributary
+	}
+	853.9.15 = {holder=302238}	#fictional Mikikor Meshchersky
+	###Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
+	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
+	972.1.2 = {holder=604}	#Yaropolk I
+	980.1.2 = {holder=608}	#Vladimir the Great
+	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
+	1016.1.2 = {holder=612}	#Yaroslav the Wise
+	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
+	1019.1.2 = {holder=612}	#Yaroslav the Wise
+	#Put under d_chernigov
+	1054.2.20 = {
+		holder = 302257	#Voislav Okansky, fictional
+		liege = d_chernigov
+	}
+	1066.1.1 = {
+		holder = 302258	#Voislav Okansky's son, fictional
+		liege = d_chernigov
+	}
+	###Fragmentation of Kievan Rus' 1069.4.15
+	1080.11.29 = {holder=302258}	#Nikita Okansky, fictional
+	1094.1.2 = {holder=660}	#Oleg I Sviatoslavich
+	1097.1.2 = {holder=656}	#Davyd Sviatoslavich
+	1123.1.2 = {holder=662}	#Konstantin / Yaroslav Sviatoslavich of Kiev
+	1126.1.2 = {holder=222602}	#Vsevolod II Olgovich of Kiev
+	1139.1.2 = {holder=125045}	#Vladimir II Davydovich
+	1151.5.12 = {holder=302259}	#Ivan Kromsky, fictional
+	1184.6.1 = {holder=302260}	#Simeon Kromsky, fictional
+}
+
+#########
+
 d_ryazan = {
 	800.1.1 = {liege=k_vladimir}
 	#1078 Ryazan Principality started existing after splitting from Chernigov principality. However it wasn't independent yet, so we're not adding it, since a d_ can't be liege of another d_
@@ -457,6 +678,15 @@ d_ryazan = {
 	1145.1.2 = {holder=222742}	#Gleb Rostislavich
 	1178.1.2 = {holder=222745}	#Roman Glebovich
 	#1237 ravaged by Batu Khan of the Mongols, Ryazan (the city) is completely destroyed
+	#####
+	1740.01.01 = {holder=apraxin_0009}
+	1760.08.26 = {holder=apraxin_0012}
+	1827.02.08 = {holder=apraxin_0014}
+	1833.07.01 = {holder=apraxin_0017}
+	1898.01.19 = {holder=100017616}
+	1899.01.01 = {holder=100017612}
+	1921.04.21 = {holder=100017541}
+	1962.12.03 = {holder=100017544}
 }
 
 c_ryazan = {
@@ -501,6 +731,15 @@ c_ryazan = {
 	1143.1.2 = {holder=222744}	#Rostislav Yaroslavich
 	1145.1.2 = {holder=222742}	#Gleb Rostislavich
 	1178.1.2 = {holder=222745}	#Roman Glebovich
+	#####
+	1740.01.01 = {holder=apraxin_0009}
+	1760.08.26 = {holder=apraxin_0012}
+	1827.02.08 = {holder=apraxin_0014}
+	1833.07.01 = {holder=apraxin_0017}
+	1898.01.19 = {holder=100017616}
+	1899.01.01 = {holder=100017612}
+	1921.04.21 = {holder=100017541}
+	1962.12.03 = {holder=100017544}
 }
 c_murom = {
 	800.1.1 = {liege=d_ryazan}
