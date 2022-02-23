@@ -519,7 +519,7 @@
 			religion=orthodox culture=vlach
 			father=100030132	# Constantin Cantacuzino
 			mother=100092155	# Elena Bassaraba-Craiovescu
-			1641.01.01={birth=yes}
+			1641.01.01={birth=yes}	# EST.
 			1699.01.01={death=yes}
 		}
 			100030158={ #// C1. Constantin Brancovan, +15.8.1714
@@ -527,7 +527,7 @@
 				dynasty=1003001
 				religion=orthodox culture=vlach
 				mother=100030156	# Stanca Cantacuzino
-				1644.01.01={birth=yes}
+				1665.01.01={birth=yes}	# EST.
 				1714.08.15={death=yes}
 			}
 		100030159={ #// B3. Draghici, +1667; m.Pauna Boicescu
@@ -536,7 +536,7 @@
 			religion=orthodox culture=vlach
 			father=100030132	# Constantin Cantacuzino
 			mother=100092155	# Elena Bassaraba-Craiovescu
-			1642.01.01={birth=yes}
+			1642.01.01={birth=yes}	# EST.
 			1662.01.01={add_spouse=100093061}	# Pauna Boicescu
 			1667.01.01={death=yes}
 		}
@@ -2136,7 +2136,15 @@ ghika_0001={ # Gheorghe
 						1794.01.01={birth=yes}
 						1850.01.01={death=yes}
 					}
-						# Elena Ghica ((22 January 1828, Bucharest – 17 November 1888, Florence); m.duke Alexander Koltsov-Massalski
+						ghika_0035={ # Elena Ghica ((22 January 1828, Bucharest – 17 November 1888, Florence); m.duke Alexander Koltsov-Massalski
+							name=Elena
+							female=yes
+							dynasty=1003003
+							religion=orthodox culture=vlach
+							father=ghika_0010
+							1828.01.22={birth=yes}  # Bucharest
+							1888.11.17={death=yes}  # Florence
+						}
 					ghika_0011={ # (3m) Dimitrie ALEXANDRU II Ghica,  Prince of Wallachia from April 1834 to 7 October 1842 (1 May 1796[2] – January 1862)
 						name=Alexandru
 						dynasty=1003003
@@ -2415,7 +2423,7 @@ sturdza_0032={ # Дмитрий Иванович Стурдза
 			religion=orthodox culture=russian
 			father=100035693	# Konstantin Kantemir
 			1673.10.26={birth=yes}	# Galati
-			1707.01.01={add_spouse=100030136}	# Cassandra Cantacuzino
+			1699.05.09={add_spouse=100030136}	# Cassandra Cantacuzino
 			1717.10.14={add_spouse=100017509}	# Anastasia Trubetzkoy
 			1723.08.21={death=yes}	# Dmitrovka
 		}
@@ -2426,7 +2434,8 @@ sturdza_0032={ # Дмитрий Иванович Стурдза
 				dynasty=1000005
 				religion=orthodox culture=russian
 				father=100036797	# Dimitrie Kantemir
-				1698.01.01={birth=yes}
+				mother=100030136
+				1703.01.01={birth=yes}
 				1723.01.01={add_spouse=100016149}	# Anastasia Golizyn
 				1747.01.19={death=yes}
 			}
@@ -2435,7 +2444,7 @@ sturdza_0032={ # Дмитрий Иванович Стурдза
 				dynasty=1000005
 				religion=orthodox culture=russian
 				father=100036797	# Dimitrie Kantemir
-				mother=100017509	# Anastasia Trubetzkoy
+				mother=100030136
 				1704.01.01={birth=yes}
 				1735.02.07={add_spouse=100019658}	# Agrafena Lobanov-Rostovsky
 				1771.10.30={death=yes}
