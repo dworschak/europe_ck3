@@ -215,7 +215,7 @@
 			}
 				100030253={ #// D1. Nicolae (Lukawetz (Lucavat) 25 Mar 1868-Bad Reichenhall 2 Aug 1924); 
 							# 1m: 1892 Olga von Gherghely (Gherghel)
-							# 2m: Jetty Winkler (aka Gerda Walde ), a Jewish-born Viennese cabaret singer who was said to be the mistress of the Shah of Persia
+							# 2m: Jetty Winkler (aka Gerda Walde), a Jewish-born Viennese cabaret singer who was said to be the mistress of the Shah of Persia
 					name=Nicolae
 					dynasty=1003002
 					religion=orthodox culture=vlach
@@ -2128,7 +2128,7 @@ ghika_0001={ # Gheorghe
 						# Alexandrina Ghica
 					# Eufrosina
 					# Pulcheria
-					ghika_0010={ # Mihai
+					ghika_0010={ #// Mihai
 						name=Mihai
 						dynasty=1003003
 						religion=orthodox culture=vlach
@@ -2136,7 +2136,7 @@ ghika_0001={ # Gheorghe
 						1794.01.01={birth=yes}
 						1850.01.01={death=yes}
 					}
-						ghika_0035={ # Elena Ghica ((22 January 1828, Bucharest – 17 November 1888, Florence); m.duke Alexander Koltsov-Massalski
+						ghika_0035={ #// Elena Ghica ((22 January 1828, Bucharest – 17 November 1888, Florence); m.duke Alexander Koltsov-Massalski
 							name=Elena
 							female=yes
 							dynasty=1003003
@@ -2325,7 +2325,7 @@ sturdza_0032={ # Дмитрий Иванович Стурдза
 									name=Maria
 									female=yes
 									dynasty=1003004
-									religion=orthodox culture=frankish
+									religion=orthodox culture=french
 									father=sturdza_0002
 									1849.01.13={birth=yes}  # Paris
 									1905.02.28={death=yes}  # Monte Carlo
@@ -2479,38 +2479,271 @@ sturdza_0032={ # Дмитрий Иванович Стурдза
 		1924.01.03={death=yes}  # Weimar
 	}
 
-#Nicholas Mavrocordatos (1522–1570) from the island of Chios
-# Alexandra Mavrokordatou (1605–1684), spouse of the founder, intellectual and salonnière, mother of Alexander Mavrocordatos (1636–1709)
-	# Alexander Mavrocordatos (1636–1709), son of the founder and of Alexandra Mavrokordatou, styled prince ("Serene Highness") in 1699 by Leopold I, Holy Roman Emperor
-		# Nicholas Mavrocordatos, ruler of Wallachia (two times) and Moldavia (two times) (1670 – September 3, 1730)); 1m: Casandra Cantacuzino, 2m: Pulcheria Tzouki, 3m: Smaranda Stavropoleos
-			# Constantine Mavrocordatos (1711–1769), Nicholas' son, ruler of Moldavia (four times) and Wallachia (six times); m.Catherine Rosetti
-				# Alexander I Mavrokordatos "Delibey", ruler of Moldavia (1782–1785)
-				# Demetre Mavrocordato (1744-1814); m.Maria Sturdza
-					# Alexandru Mavrocordat, *1775
-						# Alexandru Mavrocordat, *1815; m.Pulcheria Lambrino (1814-1874)
-							# Dumitru / Demetre Mavrocordat *July 22, 1848, +September 14, 1919; m.Eliza Negruzzi
-								# Demetre Mavrocordato, *1884, +April 23, 1958; m.Emanuela Ioana Gradisteanu (*	August 14, 1890, +September 11, 1964)
-									100099082={ # Pss        Maria Despina             Mavrocordato                             (1917-1992)     1 [SAYN]
-										name="Maria Despina Mavrocordato"
+mavrokordatos_0001={ # Nikolaos Mavrocordatos, *1522, +1570; m.Alexandra Beglitzi (*1605, +1684)
+	name=Nikolaos
+	dynasty=mavrokordatos
+	religion=orthodox culture=greek
+	1522.01.01={birth=yes}
+	1635.01.01={add_spouse=lowborn_0794}	# Alexandra Beglitzi
+	1570.01.01={death=yes}
+}
+	mavrokordatos_0002={ # A1. Alexander Mavrocordatos, *1636, +23.12.1709; m.Sultana Chrysoscoleo
+		name=Alexander
+		dynasty=mavrokordatos
+		religion=orthodox culture=greek
+		father=mavrokordatos_0001	# Nikolaos
+		mother=lowborn_0794	# Alexandra Beglitzi
+		1636.01.01={birth=yes}
+		1669.01.01={add_spouse=lowborn_0795}	# Sultana Chrysoscoleo
+		1709.12.23={death=yes}
+	}
+		mavrokordatos_0003={ # B1. Nikolaos Mavrocordatos, ruler of Wallachia 2x and Moldavia 2x, *1670, +3.9.1730; 1m: Casandra Cantacuzino, 2m: Pulcheria Tzouki, 3m: Smaranda Stavropoleos
+			name=Nikolaos
+			dynasty=mavrokordatos
+			religion=orthodox culture=greek
+			father=mavrokordatos_0002	# Alexander
+			mother=lowborn_0795	# Sultana Chrysoscoleo
+			1670.01.01={birth=yes}
+			1696.01.01={add_spouse=lowborn_0800}	# Casandra Cantacuzino
+			1701.01.01={add_spouse=lowborn_0801}	# Pulcheria Tzouki
+			1706.01.01={add_spouse=lowborn_0802}	# Smaranda Stavropoleos
+			1730.09.03={death=yes}
+		}
+			mavrokordatos_0004={ # C1. Konstantinos Mavrocordatos, ruler of Moldavia 4x and Wallachia 6x, *27.2.1711, +23.11.1769; m.Catherine Rosetti (1712-1775)
+				name=Konstantinos
+				dynasty=mavrokordatos
+				religion=orthodox culture=greek
+				father=mavrokordatos_0003	# Nikolaos
+				mother=lowborn_0800	# Casandra Cantacuzino
+				1711.02.27={birth=yes}
+				1741.01.01={add_spouse=lowborn_0803}	# Catherine Rosetti
+				1769.11.23={death=yes}
+			}
+				mavrokordatos_0005={ # D1. Alexander I Mavrokordatos "Delibey", ruler of Moldavia (1782–1785), *1742, +27.3.1812
+					name=Alexander
+					dynasty=mavrokordatos
+					religion=orthodox culture=greek
+					father=mavrokordatos_0004	# Konstantinos
+					mother=lowborn_0803	# Catherine Rosetti
+					1742.01.01={birth=yes}  # 1782–1785 ) (
+					1812.03.27={death=yes}
+				}
+					mavrokordatos_0006={ # E1. Ralou Mavrocordat (29.10.1782 - Athina 29.3.1860)
+						name=Ralou
+						female=yes
+						dynasty=mavrokordatos
+						religion=orthodox culture=greek
+						father=mavrokordatos_0005	# Alexander
+						1782.10.29={birth=yes}
+						1860.03.29={death=yes}  # Athina
+					}
+				mavrokordatos_0007={ # D2. Demetre Mavrocordato (1744-1814); m.Maria Sturdza
+					name=Demetre
+					dynasty=mavrokordatos
+					religion=orthodox culture=greek
+					father=mavrokordatos_0004	# Konstantinos
+					mother=lowborn_0803	# Catherine Rosetti
+					1744.01.01={birth=yes}
+					1774.01.01={add_spouse=lowborn_0804}	# Maria Sturdza
+					1814.01.01={death=yes}
+				}
+					mavrokordatos_0008={ # E1. Alexandru Mavrocordat, *1775
+						name=Alexandru
+						dynasty=mavrokordatos
+						religion=orthodox culture=greek
+						father=mavrokordatos_0007	# Demetre
+						mother=lowborn_0804	# Maria Sturdza
+						1775.01.01={birth=yes}
+						1840.12.01={death=yes}  # EST.
+					}
+						mavrokordatos_0009={ # F1. Alexandru Mavrocordat, *1815; m.Pulcheria Lambrino (1814-1874)
+							name=Alexandru
+							dynasty=mavrokordatos
+							religion=orthodox culture=greek
+							father=mavrokordatos_0008	# Alexandru
+							1815.01.01={birth=yes}
+							1847.01.01={add_spouse=lowborn_0805}	# Pulcheria Lambrino
+							1880.12.01={death=yes}  # EST.
+						}
+							mavrokordatos_0010={ # G1. Demetre Mavrocordat *22.7.1848, +14.9.1919; m.Eliza Negruzzi
+								name=Demetre
+								dynasty=mavrokordatos
+								religion=orthodox culture=greek
+								father=mavrokordatos_0009	# Alexandru
+								mother=lowborn_0805	# Pulcheria Lambrino
+								1848.07.22={birth=yes}
+								1883.01.01={add_spouse=lowborn_0806}	# Eliza Negruzzi
+								1919.09.14={death=yes}
+							}
+								mavrokordatos_0011={ # H1. Demetre Mavrocordato, *1884, +23.4.1958; m.Emanuela Ioana Gradisteanu (*14.8.1890, +11.9.1964)
+									name=Demetre
+									dynasty=mavrokordatos
+									religion=orthodox culture=vlach
+									father=mavrokordatos_0010	# Demetre
+									mother=lowborn_0806	# Eliza Negruzzi
+									1884.01.01={birth=yes}
+									1913.01.01={add_spouse=lowborn_0807}	# Emanuela Ioana Gradisteanu
+									1958.04.23={death=yes}
+								}
+									100099082={
+										name="Maria Despina"
 										female=yes
-										#dynasty=0
+										dynasty=mavrokordatos
 										religion=catholic culture=vlach
+										father=mavrokordatos_0011
+										mother=lowborn_0807
 										1917.09.30={birth=yes}  # Jassy
 										2014.01.01={death=yes}
 									}
-			# Domnitza Sultana Mavrocordat, 17 Dec 1721 Bucuresti - Phanar
-			# Alexander Mavrokordatos, 12 Dec 1720 - 1790 Phanar
-				# Nicholas Mavrokordatos, ban of Wallachia
-					# Alexandros Mavrokordatos (1791–1865), Prime Minister of Greece (four times)
-			# John Mavrokordatos, Nicholas' son, ruler of Moldavia (1743–1747), *12 March 1712 – 29 July 1747 / 1757; 1m: Maria Giuliano, 2m: Sultana Manu: Birth: 1723.
-				# Alexander II Mavrokordatos "Firaris", ruler of Moldavia (1785–1786),  1 July 1754 – 8 February 1819
-				100096681={ # Pss        Ilinca                    Mavrocordato                             (1739-1814)     2 [CANTACUZINO]
-					name="Ilinca Mavrocordato"
+			mavrokordatos_0012={ # C2. Domnitza Sultana Mavrocordat, *17.12.1721 Bucuresti - Phanar
+				name="Domnitza Sultana"
+				female=yes
+				dynasty=mavrokordatos
+				religion=orthodox culture=greek
+				father=mavrokordatos_0003	# Nikolaos
+				mother=lowborn_0800	# Casandra Cantacuzino
+				1721.12.17={birth=yes}
+				1791.12.01={death=yes}  # EST.
+			}
+			mavrokordatos_0013={ # C3. Alexander Mavrokordatos, *12.12.1720, +1790; m.Smaragda Cantacouzena
+				name=Alexander
+				dynasty=mavrokordatos
+				religion=orthodox culture=greek
+				father=mavrokordatos_0003	# Nikolaos
+				mother=lowborn_0800	# Casandra Cantacuzino
+				1720.12.12={birth=yes}
+				1743.01.01={add_spouse=lowborn_0808}	# Smaragda Cantacouzena
+				1790.01.01={death=yes}
+			}
+				mavrokordatos_0014={ # D1. Nikolaos Mavrokordatos, ban of Wallachia (1744 - 1818); m.Smaragda Caradja
+					name=Nikolaos
+					dynasty=mavrokordatos
+					religion=orthodox culture=greek
+					father=mavrokordatos_0013	# Alexander
+					mother=lowborn_0808	# Smaragda Cantacouzena
+					1744.01.01={birth=yes}
+					1790.01.01={add_spouse=lowborn_0809}	# Smaragda Caradja
+					1818.01.01={death=yes}
+				}
+					mavrokordatos_0015={ # E1. Alexandros Mavrokordatos, 4xPrime Minister of Greece (*1791, +1865); m.Aegina 20.1.1830 Chariklia Argiropoulos (1808-1884)
+						name=Alexandros
+						dynasty=mavrokordatos
+						religion=orthodox culture=greek
+						father=mavrokordatos_0014	# Nikolaos
+						mother=lowborn_0809	# Smaragda Caradja
+						1791.01.01={birth=yes}
+						1830.01.20={add_spouse=lowborn_0810}	# Chariklia Argiropoulos
+						1865.01.01={death=yes}
+					}
+						mavrokordatos_0016={ # F1. Nikolaos (Hydra 1831 - 1837)
+							name=Nikolaos
+							dynasty=mavrokordatos
+							religion=orthodox culture=greek
+							father=mavrokordatos_0015	# Alexandros
+							mother=lowborn_0810	# Chariklia Argiropoulos
+							1831.01.01={birth=yes}  # Hydra
+							1837.01.01={death=yes}
+						}
+						mavrokordatos_0017={ # F2. Elpiniki (Nafplio 1833 - 1835)
+							name=Elpiniki
+							female=yes
+							dynasty=mavrokordatos
+							religion=orthodox culture=greek
+							father=mavrokordatos_0015	# Alexandros
+							mother=lowborn_0810	# Chariklia Argiropoulos
+							1833.01.01={birth=yes}  # Nafplio
+							1835.01.01={death=yes}
+						}
+						mavrokordatos_0018={ # F3. Kimon Mavrokordatos (Munich 1834 - 1837)
+							name=Kimon
+							dynasty=mavrokordatos
+							religion=orthodox culture=german
+							father=mavrokordatos_0015	# Alexandros
+							mother=lowborn_0810	# Chariklia Argiropoulos
+							1834.01.01={birth=yes}  # Munich
+							1837.01.01={death=yes}
+						}
+						mavrokordatos_0019={ # F4. Eleni Mavrokordatou (Munich 1836 - 1837)
+							name=Eleni
+							female=yes
+							dynasty=mavrokordatos
+							religion=orthodox culture=german
+							father=mavrokordatos_0015	# Alexandros
+							mother=lowborn_0810	# Chariklia Argiropoulos
+							1836.01.01={birth=yes}  # Munich
+							1837.01.01={death=yes}
+						}
+						mavrokordatos_0020={ # F5. Nikolaos Mavrokordatos (1837 - 31.1.1903); m.Eleni Bals
+							name=Nikolaos
+							dynasty=mavrokordatos
+							religion=orthodox culture=greek
+							father=mavrokordatos_0015	# Alexandros
+							mother=lowborn_0810	# Chariklia Argiropoulos
+							1837.01.01={birth=yes}
+							1903.01.31={death=yes}
+						}
+							# Sofia Mavrokordatou, wife of Alexandros Soutsos
+							# Hariklia Mavrokordatou, wife of Georgios Baltatzis
+							# George Mavrokordatos
+							# Alexandros Mavrokordatos
+						mavrokordatos_0021={ # F6. George Mavrokordatos (1839 - 1902), lawyer, ambassador and collector
+							name=George
+							female=yes
+							dynasty=mavrokordatos
+							religion=orthodox culture=greek
+							father=mavrokordatos_0015	# Alexandros
+							mother=lowborn_0810	# Chariklia Argiropoulos
+							1839.01.01={birth=yes}
+							1902.01.01={death=yes}
+						}
+					# Ekaterini Mavrokordatou , wife of Spyros Trikoupis and daughter of Nikolaos
+					# Efrosini Mavrokordatou, wife of Frederick von Reineck and daughter of Nikolaos
+			mavrokordatos_0022={ # C4. Ioannis Mavrokordatos, ruler of Moldavia, *12.3.1712 – 29.7.1757; 1m: Maria Giuliano, 2m: Sultana Manu: Birth: 1723.
+				name=Ioannes
+				dynasty=mavrokordatos
+				religion=orthodox culture=greek
+				father=mavrokordatos_0003	# Nikolaos
+				mother=lowborn_0800	# Casandra Cantacuzino
+				1712.03.12={birth=yes}
+				1738.01.01={add_spouse=lowborn_0811}	# Maria Giuliano
+				1750.01.01={add_spouse=lowborn_0812}	# Sultana Manu
+				1757.07.29={death=yes}
+			}
+				mavrokordatos_0023={ # D1. Alexander II Mavrokordatos "Firaris", ruler of Moldavia,  *1.7.1754, +8.2.1819
+					name=Alexander
+					dynasty=mavrokordatos
+					religion=orthodox culture=greek
+					father=mavrokordatos_0022	# John
+					mother=lowborn_0812
+					1782.01.01={birth=yes}  # EST.
+					1819.02.08={death=yes}
+				}
+				100096681={
+					name=Ilinca
 					female=yes
-					#dynasty=0
+					dynasty=mavrokordatos
 					religion=orthodox culture=vlach
+					father=mavrokordatos_0022	# John
+					mother=lowborn_0812
 					1739.01.01={birth=yes}	# EST.
 					1814.01.01={death=yes}	# EST.
 				}
-		# John Mavrocordatos (1684–1719), Alexander's son, ruler of Wallachia, caimacam of Moldavia
+		mavrokordatos_0024={ # B2. John Mavrocordatos, ruler of Wallachia, caimacam of Moldavia, *1684, +1719
+			name=John
+			dynasty=mavrokordatos
+			religion=orthodox culture=greek
+			father=mavrokordatos_0002	# Alexander
+			mother=lowborn_0795	# Sultana Chrysoscoleo
+			1684.01.01={birth=yes}
+			1719.01.01={death=yes}
+		}
 ## MAVRO
+
+
+
+
+
+
+
+
+

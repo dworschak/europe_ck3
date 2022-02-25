@@ -1,6 +1,12 @@
 ﻿k_hellas = {
 	1066.1.1 = {holder=0}
 	#####
+	1830.1.1 = {
+		succession_laws = {
+	feudal_elective_succession_law
+			male_only_law
+}
+	}
 	1832.05.27 = {holder=100007815}	# OTTO (WITTELSBACH)
 	1862.10.23 = {holder=100004950}	# GIORGIOS
 	1913.03.18 = {holder=100004951}	# KONSTANTINOS I
@@ -381,7 +387,7 @@ c_lesbos = {
 	1146.1.2 = {holder=215019}
 	1194.1.1 = {holder=34414}
 	1204.5.16 = {
-		liege=e_latin_empire
+		liege = e_latin_empire
 		holder = 205523
 	}
 	1205.6.1 = {holder=205525}
@@ -528,9 +534,40 @@ d_epirus = {
 	1318.1.1 = {holder=31440}	#Nicolo Orsini
 	1323.1.1 = {holder=31441}	#Giovanni II Orsini
 	1335.1.1 = {holder=31443}	#Nikephoros Orsini
+	#####
+	1820.1.1 = {liege=k_hellas}
+	1830.12.01 = {holder=ypsilantis_0013}
+	1858.12.01 = {holder=ypsilantis_0014}
+	1886.01.01 = {holder=ypsilantis_0017}
+	1935.12.01 = {holder=ypsilantis_0021}
+	1966.01.01 = {holder=ypsilantis_0022}
 }
 
-c_nicpolis = {
+c_nicopolis = {
+	330.1.1 = {liege=d_epirus}
+	764.1.1 = {holder=145800}
+	866.1.1 = {holder=145180}
+	#Kontostephanos dynasty
+	1060.1.1 = {holder=90093}
+	1093.1.1 = {holder=90092}
+	1098.1.1 = {holder=232512}
+	1149.1.1 = {holder=215035}
+	1189.1.1 = {holder=232514}
+	1204.5.16 = {holder=215517}
+	1215.1.1 = {holder=215514}
+	1230.3.9 = {holder=125715}
+	1268.1.1 = {holder=125726}
+	1297.1.1 = {holder=125728}
+	#from 1318 Orsini dynasty
+	1318.1.1 = {holder=31440}	#Nicolo Orsini
+	1323.1.1 = {holder=31441}	#Giovanni II Orsini
+	1335.1.1 = {holder=31443}	#Nikephoros Orsini
+	#####
+	1830.12.01 = {holder=ypsilantis_0013}
+	1858.12.01 = {holder=ypsilantis_0014}
+	1886.01.01 = {holder=ypsilantis_0017}
+	1935.12.01 = {holder=ypsilantis_0021}
+	1966.01.01 = {holder=ypsilantis_0022}
 }
 c_aetolia = {
 	330.1.1 = {liege=d_athens}
@@ -729,6 +766,9 @@ d_strymon = {
 	1282.12.11 = {
 	}
 	1332.2.13 = {holder=465530}
+	
+	#####
+	1820.1.1 = {liege=k_hellas}
 }
 
 c_mosynopolis = {
@@ -786,132 +826,6 @@ c_serres = {
 
 #########
 
-d_thessali = {
-}
-
-c_thessalia = {
-	330.1.1 = {liege=d_thessalonika}
-	751.1.1 = {holder=145816}
-	865.1.1 = {holder=145186}
-	1060.1.1 = {holder=41308}
-	1079.1.1 = {holder=1742}
-	1118.8.15 = {holder=223023}
-	1143.4.8 = {holder=215530}
-	1180.9.24 = {holder=215531}
-	1183.9.24 = {holder=215529}
-	1185.9.12 = {holder=215503}
-	1187.1.1 = {holder=215016}
-	1200.1.1 = {holder=215503}
-	1204.8.1 = {holder=31499}	#Uberto di Briandate
-	1209.1.2 = {holder=205528}	#Eustache van Vlaanderen
-	1215.1.1 = {
-		liege = "d_epirus"
-		holder = 215514
-	}
-	1224.1.1 = {liege=d_thessalonika}
-	1230.3.9 = {holder=215516}
-	1237.1.1 = {holder=125711}
-	1239.1.1 = {holder=215516}
-	1241.1.1 = {
-		liege = "d_epirus"
-		holder = 125715
-	}
-	1268.1.1 = {holder=125734}
-	1289.1.1 = {holder=125735}
-	1303.1.1 = {holder=125736}
-	1318.1.1 = {
-		liege = "d_thessalonika"
-		holder = 465210
-	}
-	1320.1.1 = {holder=465212}
-}
-c_demetrias = {
-	330.1.1 = {liege=d_athens}
-	767.1.1 = {holder=145805}
-	865.1.1 = {holder=145106}
-	1060.1.1 = {holder=20517}
-	1073.1.1 = {holder=34572}
-	1108.1.1 = {holder=34574}
-	1127.1.1 = {holder=34577}
-	1150.1.1 = {holder=34578}
-	1176.1.1 = {holder=215015}
-	1204.8.1 = {
-		liege = "d_thessalonika"
-		holder = 34582
-	}
-	1211.1.1 = {liege=d_athens}
-	1211.1.1 = {holder=31359}	#Nicolas I
-	1219.1.1 = {holder=31360}	#Bela
-	1240.1.1 = {holder=31362}	#Nicolas II
-	1294.1.1 = {holder=31363}	#Othon
-	1299.1.1 = {holder=31365}	#Nicolas III
-	1311.3.15 = {holder=31225}	#Roger
-	1312.1.1 = {holder=71753}	#Manfredo
-	1317.11.19 = {holder=461510}	#Gugliemo
-}
-c_neopatras = {
-	330.1.1 = {liege=d_athens}
-	767.1.1 = {holder=145805}
-	865.1.1 = {holder=145106}
-	1060.1.1 = {holder=20517}
-	1073.1.1 = {holder=34572}
-	1108.1.1 = {holder=34574}
-	1127.1.1 = {holder=34577}
-	1150.1.1 = {holder=34578}
-	1176.1.1 = {holder=215015}
-	1204.8.1 = {
-		liege = "d_thessalonika"
-		holder = 34582
-	}
-	1211.1.1 = {liege=d_athens}
-	1211.1.1 = {holder=31359}	#Nicolas I
-	1219.1.1 = {holder=31360}	#Bela
-	1240.1.1 = {holder=31362}	#Nicolas II
-	1294.1.1 = {holder=31363}	#Othon
-	1299.1.1 = {holder=31365}	#Nicolas III
-	1311.3.15 = {holder=31225}	#Roger
-	1312.1.1 = {holder=71753}	#Manfredo
-	1317.11.19 = {holder=461510}	#Gugliemo
-}
-c_thessaliotis = {
-	330.1.1 = {liege=d_thessalonika}
-	751.1.1 = {holder=145816}
-	865.1.1 = {holder=145186}
-	1060.1.1 = {holder=41308}
-	1079.1.1 = {holder=1742}
-	1118.8.15 = {holder=223023}
-	1143.4.8 = {holder=215530}
-	1180.9.24 = {holder=215531}
-	1183.9.24 = {holder=215529}
-	1185.9.12 = {holder=215503}
-	1187.1.1 = {holder=215016}
-	1200.1.1 = {holder=215503}
-	1204.8.1 = {holder=31499}	#Uberto di Briandate
-	1209.1.2 = {holder=205528}	#Eustache van Vlaanderen
-	1215.1.1 = {
-		liege = "d_epirus"
-		holder = 215514
-	}
-	1224.1.1 = {liege=d_thessalonika}
-	1230.3.9 = {holder=215516}
-	1237.1.1 = {holder=125711}
-	1239.1.1 = {holder=215516}
-	1241.1.1 = {
-		liege = "d_epirus"
-		holder = 125715
-	}
-	1268.1.1 = {holder=125734}
-	1289.1.1 = {holder=125735}
-	1303.1.1 = {holder=125736}
-	1318.1.1 = {
-		liege = "d_thessalonika"
-		holder = 465210
-	}
-	1320.1.1 = {holder=465212}
-}
-
-#########
-
 d_thessalonika = {
 	330.1.1 = {liege=e_byzantium}
 	754.1.1 = {holder=145814}
@@ -946,6 +860,9 @@ d_thessalonika = {
 	1282.12.11 = {holder=465521}
 	1295.5.1 = {holder=465501}
 	1320.10.12 = {holder=465530}
+	
+	#####
+	1820.1.1 = {liege=k_hellas}
 }
 
 c_thessalonika = {
@@ -1030,4 +947,166 @@ c_veria = {
 	1282.12.11 = {holder=465521}
 	1295.5.1 = {holder=465501}
 	1320.10.12 = {holder=465530}
+}
+
+#########
+
+d_thessaly = {
+	330.1.1 = {liege=e_byzantium}
+	733.1.1 = {holder=145802}
+	765.1.1 = {holder=145804}
+	788.1.1 = {holder=145805}
+	812.1.1 = {holder=145148}
+	820.1.1 = {holder=145149}
+	845.1.1 = {holder=145150}
+	1060.1.1 = {holder=41303}
+	1107.2.1 = {holder=34576}
+	1120.1.1 = {holder=34577}
+	1150.1.1 = {holder=34578}
+	1176.1.1 = {holder=215013}
+	1204.5.16 = {liege=0}
+	1204.8.1 = {liege=e_latin_empire}
+	1204.8.1 = {holder=31211}	#Othon I
+	1216.6.11 = {liege=0}
+	1225.1.1 = {holder=31216}	#Guy I
+	1263.1.1 = {holder=31217}	#Jean I
+	1280.1.1 = {holder=31218}	#Guillaume I
+	1287.1.1 = {holder=31223}	#Guy II
+	1308.10.5 = {holder=461733}	#Gauthier I
+	1311.3.15 = {holder=31225}	#Roger
+	1312.1.1 = {liege=k_trinacria}
+	1312.1.1 = {holder=71753}	#Manfredo
+	1317.11.19 = {holder=461510}	#Gugliemo
+	
+	#####
+	1820.1.1 = {liege=k_hellas}
+	
+	1830.01.01={holder=mavrokordatos_0015}
+	1865.01.01={holder=mavrokordatos_0020}
+}
+
+c_thessalia = {
+	330.1.1 = {liege=d_thessalonika}
+	751.1.1 = {holder=145816}
+	865.1.1 = {holder=145186}
+	1060.1.1 = {holder=41308}
+	1079.1.1 = {holder=1742}
+	1118.8.15 = {holder=223023}
+	1143.4.8 = {holder=215530}
+	1180.9.24 = {holder=215531}
+	1183.9.24 = {holder=215529}
+	1185.9.12 = {holder=215503}
+	1187.1.1 = {holder=215016}
+	1200.1.1 = {holder=215503}
+	1204.8.1 = {holder=31499}	#Uberto di Briandate
+	1209.1.2 = {holder=205528}	#Eustache van Vlaanderen
+	1215.1.1 = {
+		liege = "d_epirus"
+		holder = 215514
+	}
+	1224.1.1 = {liege=d_thessalonika}
+	1230.3.9 = {holder=215516}
+	1237.1.1 = {holder=125711}
+	1239.1.1 = {holder=215516}
+	1241.1.1 = {
+		liege = "d_epirus"
+		holder = 125715
+	}
+	1268.1.1 = {holder=125734}
+	1289.1.1 = {holder=125735}
+	1303.1.1 = {holder=125736}
+	1318.1.1 = {
+		liege = "d_thessalonika"
+		holder = 465210
+	}
+	1320.1.1 = {holder=465212}
+	
+	#####
+	
+	1830.01.01={holder=mavrokordatos_0015}
+	1865.01.01={holder=mavrokordatos_0020}
+}
+c_demetrias = {
+	330.1.1 = {liege=d_athens}
+	767.1.1 = {holder=145805}
+	865.1.1 = {holder=145106}
+	1060.1.1 = {holder=20517}
+	1073.1.1 = {holder=34572}
+	1108.1.1 = {holder=34574}
+	1127.1.1 = {holder=34577}
+	1150.1.1 = {holder=34578}
+	1176.1.1 = {holder=215015}
+	1204.8.1 = {
+		liege = "d_thessalonika"
+		holder = 34582
+	}
+	1211.1.1 = {liege=d_athens}
+	1211.1.1 = {holder=31359}	#Nicolas I
+	1219.1.1 = {holder=31360}	#Bela
+	1240.1.1 = {holder=31362}	#Nicolas II
+	1294.1.1 = {holder=31363}	#Othon
+	1299.1.1 = {holder=31365}	#Nicolas III
+	1311.3.15 = {holder=31225}	#Roger
+	1312.1.1 = {holder=71753}	#Manfredo
+	1317.11.19 = {holder=461510}	#Gugliemo
+}
+c_neopatras = {
+	330.1.1 = {liege=d_athens}
+	767.1.1 = {holder=145805}
+	865.1.1 = {holder=145106}
+	1060.1.1 = {holder=20517}
+	1073.1.1 = {holder=34572}
+	1108.1.1 = {holder=34574}
+	1127.1.1 = {holder=34577}
+	1150.1.1 = {holder=34578}
+	1176.1.1 = {holder=215015}
+	1204.8.1 = {
+		liege = "d_thessalonika"
+		holder = 34582
+	}
+	1211.1.1 = {liege=d_athens}
+	1211.1.1 = {holder=31359}	#Nicolas I
+	1219.1.1 = {holder=31360}	#Bela
+	1240.1.1 = {holder=31362}	#Nicolas II
+	1294.1.1 = {holder=31363}	#Othon
+	1299.1.1 = {holder=31365}	#Nicolas III
+	1311.3.15 = {holder=31225}	#Roger
+	1312.1.1 = {holder=71753}	#Manfredo
+	1317.11.19 = {holder=461510}	#Gugliemo
+}
+c_thessaliotis = {
+	330.1.1 = {liege=d_thessalonika}
+	751.1.1 = {holder=145816}
+	865.1.1 = {holder=145186}
+	1060.1.1 = {holder=41308}
+	1079.1.1 = {holder=1742}
+	1118.8.15 = {holder=223023}
+	1143.4.8 = {holder=215530}
+	1180.9.24 = {holder=215531}
+	1183.9.24 = {holder=215529}
+	1185.9.12 = {holder=215503}
+	1187.1.1 = {holder=215016}
+	1200.1.1 = {holder=215503}
+	1204.8.1 = {holder=31499}	#Uberto di Briandate
+	1209.1.2 = {holder=205528}	#Eustache van Vlaanderen
+	1215.1.1 = {
+		liege = "d_epirus"
+		holder = 215514
+	}
+	1224.1.1 = {liege=d_thessalonika}
+	1230.3.9 = {holder=215516}
+	1237.1.1 = {holder=125711}
+	1239.1.1 = {holder=215516}
+	1241.1.1 = {
+		liege = "d_epirus"
+		holder = 125715
+	}
+	1268.1.1 = {holder=125734}
+	1289.1.1 = {holder=125735}
+	1303.1.1 = {holder=125736}
+	1318.1.1 = {
+		liege = "d_thessalonika"
+		holder = 465210
+	}
+	1320.1.1 = {holder=465212}
 }

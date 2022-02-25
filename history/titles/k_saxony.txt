@@ -90,15 +90,17 @@ d_anhalt = {
 	867.1.1 = {de_jure_liege=k_east_francia}
 	#####
 	1700.1.1 = {de_jure_liege=k_saxony}
+	1800.1.1 = {liege=k_prussia}
 	1871.1.1 = {liege=e_germany}
-	1863.01.01 = {holder=100000002}	# Leopold
-	1871.05.22 = {holder=100000006}	# Friedrich I.
-	1904.01.24 = {holder=100000010}	# Friedrich II.
-	1918.04.22 = {holder=100000013}	# Eduard
-	1918.09.13 = {holder=100000017}	# Joachim Ernst
-	1947.02.18 = {holder=100000022}	# Friedrich
-	1963.10.09 = {holder=100000025}	# Julius Eduard
-	1990.1.1 = {law=cognatic_succession}
+	
+	1863.01.01={holder=100000002}	# Leopold
+	1871.05.22={holder=100000006}	# Friedrich I.
+	1904.01.24={holder=100000010}	# Friedrich II.
+	1918.04.22={holder=100000013}	# Eduard
+	1918.09.13={holder=100000017}	# Joachim Ernst
+	1947.02.18={holder=100000022}	# Friedrich
+	1963.10.09={holder=100000025}	# Julius Eduard
+	#1990.1.1 = {law=cognatic_succession}
 }
 
 c_dessau = {
@@ -122,6 +124,22 @@ c_dessau = {
 	1305.5.18 = {holder=33776}
 	1307.9.10 = {holder=144209}
 	1325.9.21 = {holder=33402}
+	
+	#####
+	
+	1600.01.01={holder=100000108}
+	1618.05.14={holder=100000137}
+	1660.09.15={holder=100000027}
+	1693.08.17={holder=100000142}
+	1747.04.09={holder=100000143}
+	1751.12.16={holder=100000144}
+	1817.08.09={holder=100000002}	# Leopold
+	1871.05.22={holder=100000006}	# Friedrich I.
+	1904.01.24={holder=100000010}	# Friedrich II.
+	1918.04.22={holder=100000013}	# Eduard
+	1918.09.13={holder=100000017}	# Joachim Ernst
+	1947.02.18={holder=100000022}	# Friedrich
+	1963.10.09={holder=100000025}	# Julius Eduard
 }
 c_blankenburg = {
 	800.1.1 = {liege=d_anhalt}
@@ -605,6 +623,8 @@ d_thuringia = {
 	1323.11.16 = {holder=462400}
 	#####
 	1700.1.1 = {de_jure_liege=k_saxony}
+	1700.1.1 = {liege=0}
+	1871.1.1 = {liege=e_germany}
 }
 
 c_naumburg = {
