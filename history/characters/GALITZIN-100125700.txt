@@ -1,22 +1,4 @@
-﻿100092972={ #            Aleksandra                Golizyn                                  (1793-1868)     3 [WOLKONSKY]
-	name="Aleksandra Golizyn"
-	female=yes
-	#dynasty=0
-	religion=orthodox culture=russian
-	1793.01.01={birth=yes}  # EST.
-	1868.01.01={death=yes}  # EST.
-}
-100084277={ #            Daria                     Golizyn                                  (1787-1810)     1 [DOLGORUKOV]
-	name="Daria Golizyn"
-	female=yes
-	#dynasty=0
-	religion=orthodox culture=russian
-	1787.06.02={birth=yes}
-	1810.10.23={death=yes}
-}
-
-
-#galitzin1
+﻿#galitzin1
 100015850={ #// C2. Pr Andrei, boyar 1638, governor of Siberia (1633-35), +22.9.1638; m.Euphemia Yurievna Piliamova-Saburova (+29.1.1641)
 	name=Андрей
 	dynasty=1010005
@@ -35,193 +17,7 @@
 		1642.01.01={add_spouse=100089640}	# PSS Tatiana Ivanovna Romodanovsky
 		1652.01.21={death=yes}
 	}
-		100015854={ #// E2. Pr Vasili Vasilievich Galitsyn, dit Le Grand Galitzine, great boyar 1676, head of the Posolski prikaz (1676-82), head of the Russian government (1682-89), exiled to Kargopol in 1689, *Moscow 1643, +Pinega 21.4.1714; 
-					# 1m: Pss Fedosia Vasilievna Dolgorukova (fl 1685); 
-					# 2m: Eudokia Ivanovna Streshneva (fl 1725)
-			name=Василий
-			dynasty=1010005
-			religion=orthodox culture=russian
-			father=100015852	# Wassili Golizyn
-			mother=100089640	# PSS Tatiana Ivanovna Romodanovsky
-			1643.01.01={birth=yes}	# Moscow
-			1665.01.01={add_spouse=100090657}	# Jewdokia Ivanovna Streshniev
-			1700.01.01={add_spouse=100015372}	# Feodosia Dolgorukov
-			1714.04.12={death=yes}	# Pinega
-		}
-			100015857={ #// A1. Pr Alexei dit Kislitsyn, boyar 1687, *1665, +1740; m.Maria Isaievna Kvashnina
-				name=Алексей
-				dynasty=1010005
-				religion=orthodox culture=russian
-				father=100015854	# Vasili Golizyn
-				mother=100090657	# Jewdokia Ivanovna Streshniev
-				1665.12.01={birth=yes}
-				1687.01.01={add_spouse=100087091}	# Maria Kvashnin
-				1740.12.01={death=yes}
-			}
-				100015859={ #// B1. Pr Mikhail "Kvasnik", clown of Empress Anna, *27.10.1687, +18.6.1775; 
-							# 1m: 1711 Marfa Maximovna Khvostova (*1694 +1721); 
-							# 2m: Ice Palace 6.2.1742 Avdotia Ivanovna Buzheninova (*1710 +1742), clowness of Empress Anna; 
-							# 3m: 1744 Agrafena Alexeievna Khvostova (*14.6.1723, +10.5.1750)
-					name=Михаил
-					dynasty=1010005
-					religion=orthodox culture=russian
-					father=100015857	# Aleksei Golizyn
-					mother=100087091	# Maria Kvashnin
-					1687.10.27={birth=yes}
-					1712.01.01={add_spouse=100081499}	# Maria Maksimovna Chvostov
-					1740.02.12={add_spouse=100081058}	# Jewdokia Buyeginov
-					1744.01.01={add_spouse=100081500}	# Agrafena Alekseievna Chvostov
-					1775.06.18={death=yes}
-				}
-					100015867={ #// C1. [1m.] Pss Elena, *Pinega 1712, +Moscow 1747; m.Ct Alexei Petrovich Apraxin (*1711 +1743) $$
-						name=Елена
-						female=yes
-						dynasty=1010005
-						religion=orthodox culture=russian
-						father=100015859	# Mikhail Golizyn
-						mother=100081499	# Maria Maksimovna Chvostov
-						1712.12.01={birth=yes}
-						1747.01.01={death=yes}
-					}
-					100015869={ #// C3. [2m.] Pr Andrei, *24.11.1740, +12.11.1777; m.20.7.1765 Anna Fadeievna Khitrovo (*24.7.1746, +22.7.1814)
-						name=Андрей
-						dynasty=1010005
-						religion=orthodox culture=russian
-						father=100015859	# Mikhail Golizyn
-						mother=100081058	# Jewdokia Buyeginov
-						1740.11.24={birth=yes}
-						1765.07.20={add_spouse=100081456}	# Anna Faddeievna Chitrovo
-						1777.11.12={death=yes}
-					}
-						100015871={ #// D3. Pss Elisaveta, *17.5.1766; m.Alexander Vasilievich Grushetsky
-							name=Елизавета
-							female=yes
-							dynasty=1010005
-							religion=orthodox culture=russian
-							father=100015869	# Andrei Golizyn
-							mother=100081456	# Anna Faddeievna Chitrovo
-							1766.05.17={birth=yes}
-							1837.01.01={death=yes}  # EST.
-						}
-						100015873={ #// D4. Pss Eudokia, *3.4.1768; m.Piotr Semyonovich Muravyov
-							name=Jewdokia
-							female=yes
-							dynasty=1010005
-							religion=orthodox culture=russian
-							father=100015869	# Andrei Golizyn
-							mother=100081456	# Anna Faddeievna Chitrovo
-							1768.04.03={birth=yes}
-							1813.01.01={death=yes}	# EST.
-						}
-						100015875={ #// D1. Pr Andrei, *30.5.1770, +II.1835; 1m: 2.1.1790 Varvara Alexeievna Redrikova (*1778, +19.3.1814); 2m: Anastasia Mikhailovna Nemtsova (+9.12.1838); all children were by 1m.
-							name=Андрей
-							dynasty=1010005
-							religion=orthodox culture=russian
-							father=100015869	# Andrei Golizyn
-							mother=100081456	# Anna Faddeievna Chitrovo
-							1770.05.30={birth=yes}
-							1790.01.02={add_spouse=100089603}	# Warwara Alekseievna Rodrikov
-							1835.02.01={death=yes}
-						}
-							100015879={ #// E2. Pss Elisaveta, *23.11.1805, +1827; m.Mikhail Ilyich Durnovo
-								name=Elisaveta
-								female=yes
-								dynasty=1010005
-								religion=orthodox culture=russian
-								father=100015875	# Andrei Golizyn
-								mother=100089603	# Warwara Alekseievna Rodrikov
-								1805.11.23={birth=yes}
-								1827.01.01={death=yes}
-							}
-							100015881={ #// E3. Pr Feodor, *Tver 22.12.1806, +St.Petersburg 18.5.1869; m.St.Petersburg 15.1.1827 Adelaida Petrovna Zagriazhskaya (*St.Petersburg 27.12.1805, +Baden-Baden 17.10.1882)
-								name=Fjodr
-								dynasty=1010005
-								religion=orthodox culture=russian
-								father=100015875	# Andrei Golizyn
-								mother=100089603	# Warwara Alekseievna Rodrikov
-								1806.12.22={birth=yes}
-								1869.05.18={death=yes}
-							}
-							100015882={ #// E4. Pss Maria, *26.10.1808, +8.11.1856; m.11.6.1828 Alexander Mikhailovich Bulatov (*1801 +1874)
-								name=Мария
-								female=yes
-								dynasty=1010005
-								religion=orthodox culture=russian
-								father=100015875	# Andrei Golizyn
-								mother=100089603	# Warwara Alekseievna Rodrikov
-								1808.10.26={birth=yes}
-								1856.11.08={death=yes}
-							}
-						100015884={ #// D2. Pr Vasili, *1775, +29.5.1853; m.Maria Alexandrovna Levashova
-							name=Василий
-							dynasty=1010005
-							religion=orthodox culture=russian
-							father=100015869	# Andrei Golizyn
-							mother=100081456	# Anna Faddeievna Chitrovo
-							1775.01.01={birth=yes}
-							1797.01.01={add_spouse=100087354}	# Maria Aleksandrovna Levachev
-							1853.05.29={death=yes}
-						}
-							100015886={ #// E2. Pss Anna, *3.11.1801, +18.5.1879; m.1826 Pr Nikolai Petrovich Gagarin (*6.12.1780, +29.6.1859)
-								name=Анна
-								female=yes
-								dynasty=1010005
-								religion=orthodox culture=russian
-								father=100015884	# Wassili Golizyn
-								mother=100087354	# Maria Aleksandrovna Levachev
-								1801.11.03={birth=yes}
-								1879.05.18={death=yes}
-							}
-							100015889={ #// E3. Pss Sofia, +1844; m.Vasili Sergeievich Mukhanov (*1790 +1835)
-								name=София
-								female=yes
-								dynasty=1010005
-								religion=orthodox culture=russian
-								father=100015884	# Wassili Golizyn
-								mother=100087354	# Maria Aleksandrovna Levachev
-								1804.01.01={birth=yes}
-								1844.01.01={death=yes}
-							}
-					100015891={ #// C6. [3m.] Pss Anna, *29.1.1748, +1813; m.1772 Fyodor Grigorievich Karin (*ca 1738, +ca 1800)
-						name=Анна
-						female=yes
-						dynasty=1010005
-						religion=orthodox culture=russian
-						father=100015859	# Mikhail Golizyn
-						mother=100081500	# Agrafena Alekseievna Chvostov
-						1748.01.29={birth=yes}
-						1813.01.01={death=yes}
-					}
-				100015893={ #// B2. Pr Vasili, *Pustozersk 1694, +14.3.1732; m.Pss Anna Mikhailovna Lobanova-Rostovskaya (*2.7.1702, +15.3.1764) $$
-					name=Василий
-					dynasty=1010005
-					religion=orthodox culture=russian
-					father=100015857	# Aleksei Golizyn
-					mother=100087091	# Maria Kvashnin
-					1694.01.01={birth=yes}
-					1719.01.01={add_spouse=100019630}	# Anna Mikhailovna Lobanov-Rostovsky
-					1732.03.14={death=yes}
-				}
-					100015895={ #// C1. Pr Mikhail, *10.1.1729, +1.4.1762 sp; m.12.9.1755 Anna Alexandrovna Golovina (*29.11.1732, +ca 1767) $$
-						name=Михаил
-						dynasty=1010005
-						religion=orthodox culture=russian
-						father=100015893	# Wassili Golizyn
-						mother=100019630	# Anna Mikhailovna Lobanov-Rostovsky
-						1729.01.10={birth=yes}
-						1755.09.12={add_spouse=100020990}	# Anna Golovin
-						1762.04.01={death=yes}
-					}
-			100015898={ #// 2c) Pss Irina, *1671, +27.4.1701; m.30.2.1685 Pr Yuri Yurievich Odoyevsky (*1672 +1722)
-				name=Ирина
-				female=yes
-				dynasty=1010005
-				religion=orthodox culture=russian
-				father=100015854	# Vasili Golizyn
-				mother=100090657	# Jewdokia Ivanovna Streshniev
-				1671.01.01={birth=yes}
-				1701.04.27={death=yes}
-			}
+		# galitzin2  -->  E2. Pr Vasili, great boyar 1676, head of the Russian government (1682-89), *Moscow 1643, +Pinega 21.4.1714; 1m: Pss Fedosia Vasilievna Dolgorukova; 2m: Eudokia Ivanovna Streshneva; for his issue see HERE
 		100015900={ #// 2b) Irina; m.1657 Pr Jurij Trubetzkoi (d.12 Jul 1679) $$
 			name=Ирина
 			female=yes
@@ -1459,6 +1255,413 @@
 #1855.02.01={holder=100125731} # 3g) Fjodr 
 #galitzin1
 
+#galitzin2
+100015854={ #// Pr Vasili Vasilievich Galitsyn, dit Le Grand Galitzine, great boyar 1676, head of the Posolski prikaz (1676-82), head of the Russian government (1682-89), exiled to Kargopol in 1689, *Moscow 1643, +Pinega 21.4.1714; 1m: Pss Fedosia Vasilievna Dolgorukova (fl 1685); 2m: Eudokia Ivanovna Streshneva (fl 1725)
+			# 1m: Pss Fedosia Vasilievna Dolgorukova (fl 1685); 
+			# 2m: Eudokia Ivanovna Streshneva (fl 1725)
+	name=Василий
+	dynasty=1010005
+	religion=orthodox culture=russian
+	father=100015852	# Wassili Golizyn
+	mother=100089640	# PSS Tatiana Ivanovna Romodanovsky
+	1643.01.01={birth=yes}	# Moscow
+	1665.01.01={add_spouse=100090657}	# Jewdokia Ivanovna Streshniev
+	1700.01.01={add_spouse=100015372}	# Feodosia Dolgorukov
+	1714.04.12={death=yes}	# Pinega
+}
+	100015857={ #// A1. Pr Alexei dit Kislitsyn, boyar 1687, *1665, +1740; m.Maria Isaievna Kvashnina
+		name=Алексей
+		dynasty=1010005
+		religion=orthodox culture=russian
+		father=100015854	# Vasili Golizyn
+		mother=100090657	# Jewdokia Ivanovna Streshniev
+		1665.12.01={birth=yes}
+		1687.01.01={add_spouse=100087091}	# Maria Kvashnin
+		1740.12.01={death=yes}
+	}
+		100015859={ #// B1. Pr Mikhail "Kvasnik", clown of Empress Anna, *27.10.1687, +18.6.1775; 
+					# 1m: 1711 Marfa Maximovna Khvostova (*1694 +1721); 
+					# 2m: Ice Palace 6.2.1742 Avdotia Ivanovna Buzheninova (*1710 +1742), clowness of Empress Anna; 
+					# 3m: 1744 Agrafena Alexeievna Khvostova (*14.6.1723, +10.5.1750)
+			name=Михаил
+			dynasty=1010005
+			religion=orthodox culture=russian
+			father=100015857	# Aleksei Golizyn
+			mother=100087091	# Maria Kvashnin
+			1687.10.27={birth=yes}
+			1712.01.01={add_spouse=100081499}	# Maria Maksimovna Chvostov
+			1740.02.12={add_spouse=100081058}	# Jewdokia Buyeginov
+			1744.01.01={add_spouse=100081500}	# Agrafena Alekseievna Chvostov
+			1775.06.18={death=yes}
+		}
+			100015867={ #// C1. [1m.] Pss Elena, *Pinega 1712, +Moscow 1747; m.Ct Alexei Petrovich Apraxin (*1711 +1743) $$
+				name=Елена
+				female=yes
+				dynasty=1010005
+				religion=orthodox culture=russian
+				father=100015859	# Mikhail Golizyn
+				mother=100081499	# Maria Maksimovna Chvostov
+				1712.12.01={birth=yes}
+				1747.01.01={death=yes}
+			}
+			100015869={ #// C3. [2m.] Pr Andrei, *24.11.1740, +12.11.1777; m.20.7.1765 Anna Fadeievna Khitrovo (*24.7.1746, +22.7.1814)
+				name=Андрей
+				dynasty=1010005
+				religion=orthodox culture=russian
+				father=100015859	# Mikhail Golizyn
+				mother=100081058	# Jewdokia Buyeginov
+				1740.11.24={birth=yes}
+				1765.07.20={add_spouse=100081456}	# Anna Faddeievna Chitrovo
+				1777.11.12={death=yes}
+			}
+				100015871={ #// D3. Pss Elisaveta, *17.5.1766; m.Alexander Vasilievich Grushetsky
+					name=Елизавета
+					female=yes
+					dynasty=1010005
+					religion=orthodox culture=russian
+					father=100015869	# Andrei Golizyn
+					mother=100081456	# Anna Faddeievna Chitrovo
+					1766.05.17={birth=yes}
+					1837.01.01={death=yes}  # EST.
+				}
+				100015873={ #// D4. Pss Eudokia, *3.4.1768; m.Piotr Semyonovich Muravyov
+					name=Jewdokia
+					female=yes
+					dynasty=1010005
+					religion=orthodox culture=russian
+					father=100015869	# Andrei Golizyn
+					mother=100081456	# Anna Faddeievna Chitrovo
+					1768.04.03={birth=yes}
+					1813.01.01={death=yes}	# EST.
+				}
+				100015875={ #// D1. Pr Andrei, *30.5.1770, +II.1835; 1m: 2.1.1790 Varvara Alexeievna Redrikova (*1778, +19.3.1814); 2m: Anastasia Mikhailovna Nemtsova (+9.12.1838); all children were by 1m.
+					name=Андрей
+					dynasty=1010005
+					religion=orthodox culture=russian
+					father=100015869	# Andrei Golizyn
+					mother=100081456	# Anna Faddeievna Chitrovo
+					1770.05.30={birth=yes}
+					1790.01.02={add_spouse=100089603}	# Warwara Alekseievna Rodrikov
+					1835.02.01={death=yes}
+				}
+					100015879={ #// E2. Pss Elisaveta, *23.11.1805, +1827; m.Mikhail Ilyich Durnovo
+						name=Elisaveta
+						female=yes
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=100015875	# Andrei Golizyn
+						mother=100089603	# Warwara Alekseievna Rodrikov
+						1805.11.23={birth=yes}
+						1827.01.01={death=yes}
+					}
+					galitzin_0001={ # Pr Feodor, *Tver 22.12.1806, +St.Petersburg 18.5.1869; m.St.Petersburg 15.1.1827 Adelaida Petrovna Zagriazhskaya (*St.Petersburg 27.12.1805, +Baden-Baden 17.10.1882)
+						name=Фёдор
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=100015875	# Andrei Golizyn
+						mother=100089603	# Warwara Alekseievna Rodrikov
+						1806.12.22={birth=yes}  # Tver
+						1827.01.15={add_spouse=lowborn_0956}	# Adelaida Petrovna Zagriazhskaya
+						1869.05.18={death=yes}  # Sankt Petersburg
+					}
+						galitzin_0002={ # F1. Pr Konstantin, *St.Petersburg 26.1.1832, +Moscow 31.8.1879; m.St.Petersburg 10.4.1860 Alexandra Valerianovna Knyazeva (*St.Petersburg 27.5.1838, +Moscow 6.12.1916)
+							name=Константин
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0001	# Фёдор
+							mother=lowborn_0956	# Adelaida Petrovna Zagriazhskaya
+							1832.01.26={birth=yes}  # Sankt Petersburg
+							1860.04.10={add_spouse=lowborn_0958}	# Alexandra Valerianovna Knyazeva
+							1879.08.31={death=yes}  # Moscow
+						}
+							galitzin_0003={ # G1. Pr Valerian, *Moscow 3.8.1869, +ca 1923; m.Moscow 25.4.1894 Pss Yulia Alexandrovna Urusova (*Kamenka 1868, +Brussels 11.11.1951)
+								name=Валерьян
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0002	# Константин
+								mother=lowborn_0958	# Alexandra Valerianovna Knyazeva
+								1869.08.03={birth=yes}  # Moscow
+								1894.04.25={add_spouse=lowborn_0962}	# Yulia Alexandrovna Urusova
+								1923.01.01={death=yes}
+							}
+								galitzin_0004={ # H1. Pr Konstantin, *Moscow 22.4.1899, +Brussels 24.5.1924
+									name=Константин
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0003	# Валерьян
+									mother=lowborn_0962	# Yulia Alexandrovna Urusova
+									1899.04.22={birth=yes}  # Moscow
+									1924.05.24={death=yes}  # Brussels
+								}
+								galitzin_0005={ # H2. Pss Anna, *Moscow 10.5.1896, +St. Gilles 10.1.1995; m.Turkey 15.10.1920 Vyacheslav Vsevolodovich Sakharov (*6.6.1891, +Brussels 5.5.1958)
+									name=Анна
+									female=yes
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0003	# Валерьян
+									mother=lowborn_0962	# Yulia Alexandrovna Urusova
+									1896.05.10={birth=yes}  # Moscow
+									1995.01.10={death=yes}  # Sankt Gilles
+								}
+								galitzin_0006={ # H3. Pss Olga, *Moscow 5.1.1898, +Athens 1923; m.Istanbul 1920 Ioannes Chrysotis
+									name=Ольга
+									female=yes
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0003	# Валерьян
+									mother=lowborn_0962	# Yulia Alexandrovna Urusova
+									1898.01.05={birth=yes}  # Moscow
+									1923.01.01={death=yes}  # Athens
+								}
+							galitzin_0007={ # G2. Pss Olga, *18.2.1861, +13.5.1901; m.Alexei Pavlovich Naumov (+4.12.1909)
+								name=Ольга
+								female=yes
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0002	# Константин
+								mother=lowborn_0958	# Alexandra Valerianovna Knyazeva
+								1861.02.18={birth=yes}
+								1901.05.13={death=yes}
+							}
+							galitzin_0008={ # G3. Pss Anastasia, *1867; m.Feodor Alexandrovich Efremov (*11.11.1861, +21.8.1896)
+								name=Анастасия
+								female=yes
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0002	# Константин
+								mother=lowborn_0958	# Alexandra Valerianovna Knyazeva
+								1867.01.01={birth=yes}
+								1937.12.01={death=yes}  # EST.
+							}
+							galitzin_0009={ # G4. Pss Alexandra, *1877; m.Konstantin Nikolaievich Mikhnevich
+								name=Александра
+								female=yes
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0002	# Константин
+								mother=lowborn_0958	# Alexandra Valerianovna Knyazeva
+								1877.01.01={birth=yes}
+								1947.12.01={death=yes}  # EST.
+							}
+						galitzin_0010={ # F2. Pr Vladimir, *3.12.1834, +1876; m.Nizhni Novgorod III.1852 Olleria Apollonovna Moiseeva
+							name=Владимир
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0001	# Фёдор
+							mother=lowborn_0956	# Adelaida Petrovna Zagriazhskaya
+							1834.12.03={birth=yes}
+							1852.03.01={add_spouse=lowborn_1003}	# Olleria Apollonovna Moiseeva
+							1876.01.01={death=yes}
+						}
+							galitzin_0011={ # G1. Pr Vladimir, *1862, +12.9.1884 sp
+								name=Владимир
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0010	# Владимир
+								mother=lowborn_1003	# Olleria Apollonovna Moiseeva
+								1862.01.01={birth=yes}
+								1884.09.12={death=yes}
+							}
+							galitzin_0012={ # G2. Pr Andrei, *1868, +executed 1922; m.Sofia Dmitrievna Kandaurova (*21.12.1874)
+								name=Андрей
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0010	# Владимир
+								mother=lowborn_1003	# Olleria Apollonovna Moiseeva
+								1868.01.01={birth=yes}
+								1895.01.01={add_spouse=lowborn_1008}	# Sofia Dmitrievna Kandaurova
+								1922.01.01={death=yes}
+							}
+								galitzin_0013={ # H1. Pr Nikolai, *Ostankino 20.1.1905, +New Zealand 1952
+									name=Николай
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0012	# Андрей
+									mother=lowborn_1008	# Sofia Dmitrievna Kandaurova
+									1905.01.20={birth=yes}  # Ostankino
+									1952.01.01={death=yes}  # New Zealand
+								}
+								galitzin_0014={ # H2. Pss Alexandra, *Ostankino 22.7.1896; m.Moscow 12.8.1916 Dmitri Nikolaievich Vatatzi (*Moscow 11.11.1891, +New York 7.2.1956)
+									name=Александра
+									female=yes
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0012	# Андрей
+									mother=lowborn_1008	# Sofia Dmitrievna Kandaurova
+									1896.07.22={birth=yes}  # Ostankino
+									1966.12.01={death=yes}  # EST.
+								}
+								galitzin_0015={ # H3. Pss Nina, *Ostankino 3.5.1898, +Moscow 1965; m.Kiev 1931 Pr Ivan Petrovich Urusov (+1944)
+									name=Нина
+									female=yes
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0012	# Андрей
+									mother=lowborn_1008	# Sofia Dmitrievna Kandaurova
+									1898.05.03={birth=yes}  # Ostankino
+									1965.01.01={death=yes}  # Moscow
+								}
+								galitzin_0016={ # H4. Pss Natalia, *Moscow 2.1.1904, +Moscow 1973; m.1922 Ct Vasili Kutaisov (*1907 +1968)
+									name=Наталья
+									female=yes
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0012	# Андрей
+									mother=lowborn_1008	# Sofia Dmitrievna Kandaurova
+									1904.01.02={birth=yes}  # Moscow
+									1973.01.01={death=yes}  # Moscow
+								}
+							galitzin_0017={ # G3. Pr Sergei, *1870, +executed 1922; m.Sonia Williams (*1872 +1917)
+								name=Сергей
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0010	# Владимир
+								mother=lowborn_1003	# Olleria Apollonovna Moiseeva
+								1870.01.01={birth=yes}
+								1896.01.01={add_spouse=lowborn_1012}	# Sonia Williams
+								1922.01.01={death=yes}
+							}
+								galitzin_0018={ # H1. Pss Lydia, +1940
+									name=Лидия
+									female=yes
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0017	# Сергей
+									mother=lowborn_1012	# Sonia Williams
+									1897.01.01={birth=yes}  # EST.
+									1940.01.01={death=yes}
+								}
+							galitzin_0019={ # G4. Pss Zenaida, +1911; m.Vasili Valerianovich Knyazev (*29.10.1853, +1918)
+								name=Зинаида
+								female=yes
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0010	# Владимир
+								mother=lowborn_1003	# Olleria Apollonovna Moiseeva
+								1871.01.01={birth=yes}  # EST.
+								1911.01.01={death=yes}
+							}
+						galitzin_0020={ # F3. Pr Alexander, *20.2.1836, +Moscow 1861 sp
+							name=Александр
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0001	# Фёдор
+							mother=lowborn_0956	# Adelaida Petrovna Zagriazhskaya
+							1836.02.20={birth=yes}
+							1861.01.01={death=yes}  # Moscow
+						}
+						galitzin_0021={ # F4. Pss Elisaveta, *17.12.1827; m.1854 Vladimir Mikhailovich Polivanov
+							name=Елизавета
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0001	# Фёдор
+							mother=lowborn_0956	# Adelaida Petrovna Zagriazhskaya
+							1827.12.17={birth=yes}
+							1897.12.01={death=yes}  # EST.
+						}
+						galitzin_0022={ # F5. Pss Sofia, *27.8.1830, +19.1.1893; m.1849 Alexander Petrovich Varentsov (*20.10.1818, +15.9.1895)
+							name=София
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0001	# Фёдор
+							mother=lowborn_0956	# Adelaida Petrovna Zagriazhskaya
+							1830.08.27={birth=yes}
+							1893.01.19={death=yes}
+						}
+						galitzin_0023={ # F6. Pss Lydia, *Moscow 17.11.1837, +Luktanovo 2.4.1889; m.Moscow 30.3.1858 Mikhail Alexandrovich Messing (*30.7.1837)
+							name=Лидия
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0001	# Фёдор
+							mother=lowborn_0956	# Adelaida Petrovna Zagriazhskaya
+							1837.11.17={birth=yes}  # Moscow
+							1889.04.02={death=yes}  # Luktanovo
+						}						
+					100015882={ #// E4. Pss Maria, *26.10.1808, +8.11.1856; m.11.6.1828 Alexander Mikhailovich Bulatov (*1801 +1874)
+						name=Мария
+						female=yes
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=100015875	# Andrei Golizyn
+						mother=100089603	# Warwara Alekseievna Rodrikov
+						1808.10.26={birth=yes}
+						1856.11.08={death=yes}
+					}
+				100015884={ #// D2. Pr Vasili, *1775, +29.5.1853; m.Maria Alexandrovna Levashova
+					name=Василий
+					dynasty=1010005
+					religion=orthodox culture=russian
+					father=100015869	# Andrei Golizyn
+					mother=100081456	# Anna Faddeievna Chitrovo
+					1775.01.01={birth=yes}
+					1797.01.01={add_spouse=100087354}	# Maria Aleksandrovna Levachev
+					1853.05.29={death=yes}
+				}
+					100015886={ #// E2. Pss Anna, *3.11.1801, +18.5.1879; m.1826 Pr Nikolai Petrovich Gagarin (*6.12.1780, +29.6.1859)
+						name=Анна
+						female=yes
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=100015884	# Wassili Golizyn
+						mother=100087354	# Maria Aleksandrovna Levachev
+						1801.11.03={birth=yes}
+						1879.05.18={death=yes}
+					}
+					100015889={ #// E3. Pss Sofia, +1844; m.Vasili Sergeievich Mukhanov (*1790 +1835)
+						name=София
+						female=yes
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=100015884	# Wassili Golizyn
+						mother=100087354	# Maria Aleksandrovna Levachev
+						1804.01.01={birth=yes}
+						1844.01.01={death=yes}
+					}
+			100015891={ #// C6. [3m.] Pss Anna, *29.1.1748, +1813; m.1772 Fyodor Grigorievich Karin (*ca 1738, +ca 1800)
+				name=Анна
+				female=yes
+				dynasty=1010005
+				religion=orthodox culture=russian
+				father=100015859	# Mikhail Golizyn
+				mother=100081500	# Agrafena Alekseievna Chvostov
+				1748.01.29={birth=yes}
+				1813.01.01={death=yes}
+			}
+		100015893={ #// B2. Pr Vasili, *Pustozersk 1694, +14.3.1732; m.Pss Anna Mikhailovna Lobanova-Rostovskaya (*2.7.1702, +15.3.1764) $$
+			name=Василий
+			dynasty=1010005
+			religion=orthodox culture=russian
+			father=100015857	# Aleksei Golizyn
+			mother=100087091	# Maria Kvashnin
+			1694.01.01={birth=yes}
+			1719.01.01={add_spouse=100019630}	# Anna Mikhailovna Lobanov-Rostovsky
+			1732.03.14={death=yes}
+		}
+			100015895={ #// C1. Pr Mikhail, *10.1.1729, +1.4.1762 sp; m.12.9.1755 Anna Alexandrovna Golovina (*29.11.1732, +ca 1767) $$
+				name=Михаил
+				dynasty=1010005
+				religion=orthodox culture=russian
+				father=100015893	# Wassili Golizyn
+				mother=100019630	# Anna Mikhailovna Lobanov-Rostovsky
+				1729.01.10={birth=yes}
+				1755.09.12={add_spouse=100020990}	# Anna Golovin
+				1762.04.01={death=yes}
+			}
+	100015898={ #// A3. Pss Irina, *1671, +27.4.1701, bur Trinity Monastery; m.30.2.1685 Pr Yuri Yurievich Odoyevsky (*1672 +1722)
+		name=Ирина
+		female=yes
+		dynasty=1010005
+		religion=orthodox culture=russian
+		father=100015854	# Vasili Golizyn
+		mother=100090657	# Jewdokia Ivanovna Streshniev
+		1671.01.01={birth=yes}
+		1701.04.27={death=yes}
+	}
+#galitzin2
+
 #galitzin3
 100015917={ #// Pr Alexei Borisovich Galitzine, steward, colonel, *4.2.1671, +4.3.1713; m.I.1684 Anna Ivanovna Sukina (*8.2.1672, +7.10.1738)
 	name=Алексей
@@ -2340,7 +2543,7 @@
 			father=100016150	# Mikhail Golizyn
 			mother=100020780	# Tatiana Kurakin
 			1729.08.15={birth=yes}
-			1764.02.13={add_spouse=100093972}	# PSS Jelisaveta Borisovna Yusupov
+			1764.02.13={add_spouse=yusupov_0017}	# PSS Jelisaveta Borisovna Yusupov
 			1770.02.23={death=yes}
 		}
 			# SECTION 9 
@@ -2349,7 +2552,7 @@
 				dynasty=1010005
 				religion=orthodox culture=russian
 				father=100016164	# Andrei Golizyn
-				mother=100093972	# PSS Jelisaveta Borisovna Yusupov
+				mother=yusupov_0017	# PSS Jelisaveta Borisovna Yusupov
 				1765.01.28={birth=yes}
 				1790.01.01={add_spouse=100018599}	# Praskovia Shuvalov
 				1812.08.31={death=yes}
@@ -2449,7 +2652,7 @@
 				dynasty=1010005
 				religion=orthodox culture=russian
 				father=100016164	# Andrei Golizyn
-				mother=100093972	# PSS Jelisaveta Borisovna Yusupov
+				mother=yusupov_0017	# PSS Jelisaveta Borisovna Yusupov
 				1766.05.15={birth=yes}  # St.Petersburg
 				1790.01.01={add_spouse=100084279}	# Anna Aleksandrovna Bagration of Georgia
 				1822.03.30={death=yes}  # St.Petersburg
@@ -2852,7 +3055,7 @@
 				dynasty=1010005
 				religion=orthodox culture=russian
 				father=100016164	# Andrei Golizyn
-				mother=100093972	# PSS Jelisaveta Borisovna Yusupov
+				mother=yusupov_0017	# PSS Jelisaveta Borisovna Yusupov
 				1767.07.29={birth=yes}
 				1791.01.01={add_spouse=100080193}	# Alexandra Petrovna Protasov
 				1800.03.31={death=yes}  # Alexianovka
