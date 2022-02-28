@@ -4885,64 +4885,16 @@
 	dynasty=1002078
 	religion=lutheran culture=german
 	1399.01.01={birth=yes}
-	1440.01.01={add_spouse=100095243}	# Hedwig von Zedlitz
+	1445.01.01={add_spouse=100095243}	# Hedwig von Zedlitz
 	1469.01.01={death=yes}
 }
-	100004547={ #// 2a) Kaspar von Schaffgotsch, zu Fischbach, etc, d.1534; m.Anna von Liebenthal (d.1527)
-		name=Kaspar
-		dynasty=1002078
-		religion=lutheran culture=german
-		father=100004532	# Johann Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-		mother=100095243	# Hedwig von Zedlitz
-		1450.01.01={birth=yes}
-		1534.01.01={death=yes}
-	}
-		100004548={ #// 1b) Balthasar, zu Langenau, d.1564; m.1549 Magdalena von Kittlitz (d.1588)
-			name=Balthasar
-			dynasty=1002078
-			religion=lutheran culture=german
-			father=100004547	# Kaspar Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-			1504.01.01={birth=yes}
-			1579.01.01={death=yes}
-		}
-			100004549={ #// 1c) Christoph Frhr Schaffgotsch zu Trachenberg (1552-1601); m.1st 1578 Magdalena von Schaffgotsch (1560-1587); m.2nd 1592 Eleonore Frn von Promnitz (1576-1611)
-				name=Christoph
-				dynasty=1002078
-				religion=lutheran culture=german
-				father=100004548	# Balthasar Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-				1552.01.01={birth=yes}
-				1578.01.01={add_spouse=100006100}	# Magdalena Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-				1592.01.01={add_spouse=100096373}	# FRN Eleonore von Promnitz
-				1601.01.01={death=yes}
-			}
-				100004550={ #// 1d) Hans Ulrich (1595-1635); m.1620 Barbara Agnes Pss von Liegnitz und Brieg (1593-1631) $$
-					name="Hans Ulrich"
-					dynasty=1002078
-					religion=lutheran culture=german
-					father=100004549	# Christoph Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-					mother=100096373	# FRN Eleonore von Promnitz
-					1595.01.01={birth=yes}
-					1620.01.01={add_spouse=100112442}	# Barbara legnicki
-					1635.01.01={death=yes}
-				}
-					100004551={ #// 1e) Christoph Leopold Gotthard Gf Schaffgotsch gt Semperfrei von und zu Kynast und Greiffenstein (1623-1703); m.1656 Agnes Frn von Racknitz (1634-1693)
-						name=Christoph
-						dynasty=1002078
-						religion=lutheran culture=german
-						father=100004550	# Hans Ulrich Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-						mother=100112442	# Barbara legnicki
-						1623.01.01={birth=yes}
-						1656.01.01={add_spouse=100096377}	# FRN Agnes von Racknitz
-						1703.01.01={death=yes}
-					}
-						# 1f) Johann Anton Gotthard (1675-1742); m.1st 1703 Maria Franziska Frn Serényi (1679-1707); m.2nd 1710 Anna Theresia Gfn Kolowrat-Krakowsky-Novohradsky (1690-1759); for him and his issue see Part 2, below
 	100004540={ #// 1a) Anton gt Reppel Gotsch, zu Schildau, etc, d.1508; m.Anna von Schönberg
 		name=Anton
 		dynasty=1002078
 		religion=lutheran culture=german
 		father=100004532	# Johann Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 		mother=100095243	# Hedwig von Zedlitz
-		1452.01.01={birth=yes}
+		1448.01.01={birth=yes}	# EST.
 		1473.01.01={add_spouse=100096210}	# Anna von Schönberg
 		1508.01.01={death=yes}
 	}
@@ -5041,6 +4993,54 @@
 								1721.05.11={birth=yes}
 								1789.11.11={death=yes}
 							}
+	100004547={ #// 2a) Kaspar von Schaffgotsch, zu Fischbach, etc, d.1534; m.Anna von Liebenthal (d.1527)
+		name=Kaspar
+		dynasty=1002078
+		religion=lutheran culture=german
+		father=100004532	# Johann Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
+		mother=100095243	# Hedwig von Zedlitz
+		1460.01.01={birth=yes}	# EST.
+		1534.01.01={death=yes}	# EST.
+	}
+		100004548={ #// 1b) Balthasar, zu Langenau, d.1564; m.1549 Magdalena von Kittlitz (d.1588)
+			name=Balthasar
+			dynasty=1002078
+			religion=lutheran culture=german
+			father=100004547	# Kaspar Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
+			1500.01.01={birth=yes}	# EST.
+			1579.01.01={death=yes}
+		}
+			100004549={ #// 1c) Christoph Frhr Schaffgotsch zu Trachenberg (1552-1601); m.1st 1578 Magdalena von Schaffgotsch (1560-1587); m.2nd 1592 Eleonore Frn von Promnitz (1576-1611)
+				name=Christoph
+				dynasty=1002078
+				religion=lutheran culture=german
+				father=100004548	# Balthasar Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
+				1552.01.01={birth=yes}
+				1578.01.01={add_spouse=100006100}	# Magdalena Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
+				1592.01.01={add_spouse=100096373}	# FRN Eleonore von Promnitz
+				1601.01.01={death=yes}
+			}
+				100004550={ #// 1d) Hans Ulrich (1595-1635); m.1620 Barbara Agnes Pss von Liegnitz und Brieg (1593-1631) $$
+					name="Hans Ulrich"
+					dynasty=1002078
+					religion=lutheran culture=german
+					father=100004549	# Christoph Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
+					mother=100096373	# FRN Eleonore von Promnitz
+					1595.01.01={birth=yes}
+					1620.01.01={add_spouse=100112442}	# Barbara legnicki
+					1635.01.01={death=yes}
+				}
+					100004551={ #// 1e) Christoph Leopold Gotthard Gf Schaffgotsch gt Semperfrei von und zu Kynast und Greiffenstein (1623-1703); m.1656 Agnes Frn von Racknitz (1634-1693)
+						name=Christoph
+						dynasty=1002078
+						religion=lutheran culture=german
+						father=100004550	# Hans Ulrich Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
+						mother=100112442	# Barbara legnicki
+						1623.01.01={birth=yes}
+						1656.01.01={add_spouse=100096377}	# FRN Agnes von Racknitz
+						1703.01.01={death=yes}
+					}
+						# 1f) Johann Anton Gotthard (1675-1742); m.1st 1703 Maria Franziska Frn Serényi (1679-1707); m.2nd 1710 Anna Theresia Gfn Kolowrat-Krakowsky-Novohradsky (1690-1759); for him and his issue see Part 2, below
 	100296371={ #// A3. Ulrich (1453-1543) %%
 		name=Ulrich
 		dynasty=1002078
