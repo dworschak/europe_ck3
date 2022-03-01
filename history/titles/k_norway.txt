@@ -4,24 +4,15 @@ k_norway = {
 	20.1.1 = {change_development_level=2}
 	1000.1.1 = {change_development_level=4}
 	1100.1.1 = {change_development_level=12}
-	872.1.1 = {
-		holder = 144000	#Harald Fairhair
-		effect = {set_capital_county=title:c_rogalandi}
-	}
+	872.1.1 = {holder=144000}	#Harald Fairhair
 	931.1.1 = {holder=102507}	# Eric Bloodaxe
 	934.1.1 = {holder=144001}	# Haakon the Good
 	961.1.1 = {holder=102508}	#Harald Greycloak
 	970.1.1 = {holder=101502}	#Harald Bluetooth
 	986.1.1 = {holder=101505}	#Sweyn Forkbeard
-	995.1.1 = {
-		holder = 144004	#Olof I
-		effect = {set_capital_county=title:c_trandheim}
-	}
+	995.1.1 = {holder=144004}	#Olof I
 	1000.1.1 = {holder=101505}	#Sweyn Forkbeard
-	1015.1.1 = {
-		holder = 102527	#Olof The Saint
-		effect = {set_capital_county=title:c_vingulmork}
-	}
+	1015.1.1 = {holder=102527}	#Olof The Saint
 	1028.1.1 = {holder=101510}	#Canut
 	1030.1.1 = {holder=101514}	#Svend II
 	1035.1.1 = {holder=102529}	#Magnus the Good
@@ -36,9 +27,6 @@ k_norway = {
 	1093.1.1 = {holder=102577}	# Håkon Magnuson
 	1094.6.6 = {holder=202511}	# Magnus Barfot
 	1103.1.25 = {holder=222598}	# Olaf Magnusson
-	1111.1.1 = {
-		effect = {set_capital_county=title:c_raniriki}
-	}
 	1115.12.22 = {holder=222597}	# Øystein Magnusson
 	1123.8.29 = {holder=222595}	# Sigurd Magnusson
 	1130.3.26 = {holder=222599}	# Magnus Sigurdsson - The Blind
@@ -52,24 +40,24 @@ k_norway = {
 	1202.3.9 = {holder=202502}	# Håkon Sverreson
 	1204.1.1 = {holder=202508}	# Guttorm Sigurdsson
 	1204.8.11 = {holder=202032}	# Inge Bårdsson
-	1217.4.23 = {
-		holder = 202509	# Håkon Håkonsson
-		effect = {set_capital_county=title:c_hordalandi}
-	}
+	1217.4.23 = {holder=202509}	# Håkon Håkonsson
 	1263.12.15 = {holder=6905}	# Magnus Lagaböter
 	1280.5.9 = {holder=6906}	# Erik 'Prästhatare' Magnusson
 	1299.7.15 = {holder=452510}	# Håkon Magnusson
 	1314.1.1 = {
-		effect = {set_capital_county=title:c_vingulmork}
+		effect = {
+	# The capital shifts to Oslo.
+	set_capital_county = title:c_vingulmork
+}
 	}
 	1319.5.8 = {holder=450500}	# Magnus Eriksson (Bjälbo)
 	# 1343.11.18 Håkon Magnusson
 	#####
 	1800.1.1 = {
 		succession_laws = {
-	feudal_elective_succession_law
+			feudal_elective_succession_law
 			male_only_law
-}
+		}
 	}
 	# BJÄLBO
 	1343.08.15 = {holder=100201781}	# Håkan | BJALBO %%

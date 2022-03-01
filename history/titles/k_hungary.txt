@@ -29,14 +29,32 @@ k_hungary = {
 		holder = 482
 		insert_title_history = k_magyar
 	}
-	#1038.1.1={
-	#	holder=497
+	#1038.1.1 = {
+	#	holder = 497
 	#}
 	1041.1.1 = {holder=20371}
 	1044.7.1 = {holder=497}
 	1046.1.1 = {holder=468}
 	1060.10.1 = {holder=470}
-	1063.12.1 = {holder=476}
+	1063.12.1 = {
+		holder = 476
+		effect = {
+	if = {
+	limit = {
+	exists = holder
+	has_dlc_feature = royal_court
+}
+	# Commented out for the mo due to issues with the Learn Language scheme & secondary languages.
+	#holder = {
+	#set_court_language = language_latin # Ceremonial, Liturgic, and Administrative language
+	#if = {
+	#limit = { NOT = { knows_court_language_of = this } }
+	#learn_court_language_of = this
+	#}
+	#}
+}
+}
+	}
 	1074.1.1 = {holder=472}
 	1077.4.25 = {holder=474}
 	1095.7.29 = {holder=480}
@@ -271,8 +289,8 @@ c_esztergom = {
 	}
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=20356}
@@ -386,8 +404,8 @@ c_szekesfehervar = {
 	}
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4438}
@@ -608,8 +626,8 @@ c_gyor = {
 	867.1.1 = {holder=187012}	#Kocel
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4411}
@@ -668,8 +686,8 @@ c_kolon = {
 	867.1.1 = {holder=187012}	#Kocel
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4410}
@@ -725,8 +743,8 @@ c_sopron = {
 	867.1.1 = {holder=187012}	#Kocel
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4410}
@@ -786,8 +804,8 @@ c_vas = {
 	867.1.1 = {holder=187012}	#Kocel
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4410}
@@ -837,8 +855,8 @@ c_veszprem = {
 	867.1.1 = {holder=187012}	#Kocel
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4435}
@@ -938,8 +956,8 @@ c_poszony = {
 	871.1.1 = {holder=187004}
 	871.12.1 = {holder=187003}
 	894.1.1 = {holder=187006}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4411}
@@ -1006,7 +1024,7 @@ c_bars = {
 	894.1.1 = {holder=187008}
 	902.1.1 = {
 		liege = "d_nyitra"
-		#	holder=0
+		#	holder = 0
 	}
 	1066.1.1 = {holder=4400}
 	1100.1.1 = {holder=480}
@@ -1074,13 +1092,13 @@ c_hont = {
 	813.1.1 = {holder=194000}
 	830.1.1 = {holder=168071}
 	850.1.1 = {holder=187003}	#Svatopluk
-	#858.1.1={
-	#	holder=168072
+	#858.1.1 = {
+	#	holder = 168072
 	#}
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=20356}
@@ -1145,8 +1163,8 @@ c_komarom = {
 	}
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4438}
@@ -1245,7 +1263,7 @@ c_nyitra = {
 	894.1.1 = {holder=187008}
 	902.1.1 = {
 		liege = "d_nyitra"
-		#	holder=0
+		#	holder = 0
 	}
 	1066.1.1 = {holder=472}
 	1100.1.1 = {holder=480}
@@ -1273,8 +1291,8 @@ c_orava = {
 	865.1.1 = {holder=273012}
 	902.12.1 = {holder=273013}
 	906.1.1 = {holder=273014}
-	#902.1.1={
-	#	holder=0
+	#902.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {holder=472}
 	1077.4.25 = {holder=219531}
@@ -1306,7 +1324,7 @@ c_trenscen = {
 	894.1.1 = {holder=187006}
 	902.1.1 = {
 		liege = "d_nyitra"
-		#	holder=0
+		#	holder = 0
 	}
 	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
 	1066.1.1 = {holder=472}
@@ -1365,7 +1383,7 @@ c_zolyom = {
 	894.1.1 = {holder=187008}
 	902.1.1 = {
 		liege = "d_nyitra"
-		#	holder=0
+		#	holder = 0
 	}
 	1066.1.1 = {holder=4400}
 	1100.1.1 = {holder=480}
@@ -1433,8 +1451,8 @@ c_somogy = {
 	867.1.1 = {holder=187012}	#Kocel
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4435}
@@ -1484,8 +1502,8 @@ c_baranya = {
 	867.1.1 = {holder=187012}	#Kocel
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4435}
@@ -1538,8 +1556,8 @@ c_tolna = {
 	867.1.1 = {holder=187012}	#Kocel
 	884.1.1 = {holder=168073}
 	891.1.1 = {holder=168074}
-	#895.1.1={
-	#	holder=0
+	#895.1.1 = {
+	#	holder = 0
 	#}
 	1066.1.1 = {liege=k_hungary}
 	1066.1.1 = {holder=4435}
@@ -1868,8 +1886,8 @@ c_ungvar = {
 	842.1.1 = {holder=74045}
 	867.1.1 = {holder=74046}
 	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1095.1.1 = {holder=219531}
 	1063.12.1 = {holder=20368}
+	1095.1.1 = {holder=219531}
 	1129.1.3 = {holder=93638}
 	1170.1.1 = {holder=219022}
 	1200.1.1 = {holder=93634}

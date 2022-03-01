@@ -8,7 +8,6 @@ k_libya = {
 #########
 
 d_tripolitania = {
-	800.1.1 = {liege=k_libya}
 	768.1.1 = {holder=210031}
 	866.1.1 = {
 		#liege = "k_africa" - should not be a vasal, but tributary
@@ -58,7 +57,6 @@ d_tripolitania = {
 }
 
 c_tripolitana = {
-	800.1.1 = {liege=d_tripolitania}
 	867.1.1 = {change_development_level=8}
 	1066.1.1 = {change_development_level=12}
 	768.1.1 = {
@@ -98,7 +96,6 @@ c_tripolitana = {
 	2011.10.20 = {holder=gaddafi_002}
 }
 c_jafara = {
-	800.1.1 = {liege=d_tripolitania}
 	768.1.1 = {
 		government = clan_government
 		liege = d_tripolitania
@@ -135,7 +132,6 @@ c_jafara = {
 #########
 
 d_cyrenaica = {
-	800.1.1 = {liege=k_libya}
 	867.1.1 = {change_development_level=2}
 	1066.1.1 = {change_development_level=5}
 	767.1.1 = {
@@ -166,7 +162,6 @@ d_cyrenaica = {
 }
 
 c_barqa = {
-	800.1.1 = {liege=d_cyrenaica}
 	867.1.1 = {change_development_level=7}
 	1066.1.1 = {change_development_level=10}
 	767.1.1 = {
@@ -191,7 +186,6 @@ c_barqa = {
 	1337.1.1 = {holder=155202}
 }
 c_awjila = {
-	800.1.1 = {liege=d_cyrenaica}
 	767.1.1 = {
 		government = tribal_government
 		holder = 210034
@@ -216,7 +210,6 @@ c_awjila = {
 	1337.1.1 = {holder=155234}
 }
 c_derna = {
-	800.1.1 = {liege=d_cyrenaica}
 	767.1.1 = {
 		holder = 210034
 		liege = "d_cyrenaica"
@@ -239,7 +232,6 @@ c_derna = {
 	1302.1.1 = {holder=155220}
 }
 c_tobruk = {
-	800.1.1 = {liege=d_cyrenaica}
 	767.1.1 = {
 		government = tribal_government
 		holder = 210034
@@ -339,10 +331,8 @@ c_germa = {
 	1335.1.1 = {holder=248763}
 }
 c_grovir = {
-	800.1.1 = {liege=d_grovir}
 }
 c_zareratov = {
-	800.1.1 = {liege=d_zareratov}
 }
 c_zawila = {
 	# Fezzan dynasties
@@ -431,7 +421,6 @@ c_ghat = {
 #########
 
 d_syrte = {
-	800.1.1 = {liege=k_libya}
 	864.1.1 = {
 		government = clan_government
 		liege = 0
@@ -441,7 +430,6 @@ d_syrte = {
 }
 
 c_syrte = {
-	800.1.1 = {liege=d_syrte}
 	768.1.1 = {
 		government = clan_government
 		liege = d_tripolitania
@@ -473,7 +461,6 @@ c_syrte = {
 	1337.1.1 = {holder=155234}
 }
 c_labda = {
-	800.1.1 = {liege=d_syrte}
 	768.1.1 = {
 		government = clan_government
 		liege = "d_tripolitania"
@@ -512,7 +499,6 @@ c_labda = {
 	1348.1.1 = {holder=155239}
 }
 c_waddan = {
-	800.1.1 = {liege=d_syrte}
 	768.1.1 = {
 		liege = "d_tripolitania"
 		government = tribal_government
