@@ -1170,14 +1170,6 @@
 	1956.01.01={remove_spouse=100069714}
 	1969.01.01={death=yes}  # EST.
 }
-100103425={ # Duc        Jacques                   de Bauffremont-Courtenay                 (1918-1993)     -
-	name="Jacques de Bauffremont-Curtenay de Bauffremont"
-	#dynasty=0
-	religion=catholic culture=french
-	1918.01.01={birth=yes}  # EST.
-	1943.01.01={add_spouse=100035766}	# Sybille de Chabannes
-	1993.01.01={death=yes}  # EST.
-}
 100092308={ # Cte        Henri                     de Chabrol-Tournoelle                    (1846-1921)     -
 	name="Henri de Chabrol-Tournoelle"
 	#dynasty=0
@@ -11301,14 +11293,6 @@ lowborn_0389={ # Baron      Leopold                   Merode von Treslong       
 	1707.03.01={add_spouse=100069584}	# Catherine Diane de Beauvau-Craon
 	1742.01.01={death=yes}
 }
-100088835={ # Cte        André                     Paskevich                                (1965-    )     - [ROCHEFOUCAULD]
-	name="André Paskevich"
-	#dynasty=0
-	religion=catholic culture=french
-	1965.01.01={birth=yes}
-	1990.12.15={add_spouse=100067472}	# Marie Caroline de La Rochefoucauld
-	2004.10.14={remove_spouse=100067472}
-}
 100091815={ # Marquess   Henry                     Petty-Fitzmaurice of Lansdowne           (1816-1866)     - [TALLEYRAND]
 	name="Henry Petty-Fitzmaurice of Lansdowne"
 	#dynasty=0
@@ -12743,10 +12727,19 @@ lowborn_0389={ # Baron      Leopold                   Merode von Treslong       
 100097239={ # Cte        Gabriel                   de Raymond-Modène                        (1772-1833)     - [SALTYKOV]
 	name="Gabriel de Raymond-Modène"
 	#dynasty=0
-	religion=orthodox culture=russian
+	religion=orthodox culture=french
 	1772.01.01={birth=yes}
 	1797.01.01={add_spouse=100017749}	# Jelisaveta Saltykov
 	1833.05.13={death=yes}
+}
+lowborn_1383={ # Css        Sophie                    de Raymond-Modène                        (1805-1884)     0 [SACHOVSKY]
+	name="Sophie de Raymond-Modène"
+	female=yes
+	religion=orthodox culture=french
+	father=100097239
+	mother=100017749
+	1805.03.30={birth=yes}
+	1884.04.15={death=yes}
 }
 100098112={ # Cts        Hedwige Christyn          de Ribeaucourt                           (1901-1988)     6 [HARCOURT]
 	name="Hedwige Christyn de Ribeaucourt"

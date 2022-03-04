@@ -1,6 +1,8 @@
 ﻿## Maintained by the Mapfiller tool
 
 k_vladimir = {
+	1830.01.01 = {change_development_level=25}	#mapfiller
+	2020.01.01 = {change_development_level=40}	#mapfiller
 }
 
 #########
@@ -29,55 +31,10 @@ d_opolye = {
 	1174.9.1 = {holder=222730}	#Yaropolk Rostislavich
 	1175.6.15 = {holder=222682}	#Mikhail Yuryevich
 	1176.6.20 = {holder=222670}	#Vsevolod III the Big Nest
+	#####
+	1600.01.01 = {liege=e_russia}
 }
 
-c_yaroslavl = {
-	#Pre-Kievan Rus
-	822.1.1 = {
-		liege = d_opolye
-		holder = 159711	#Nishkepaz Meryavid, fictional
-		government = tribal_government
-	}
-	860.1.1 = {holder=159713}	#Kezhevat Meryavid, fictional
-	#Kievan Rus' in 882
-	900.1.1 = {
-		holder = 40606	#Oleg the Seer
-		liege = k_ruthenia
-	}
-	912.1.1 = {holder=600}	#Igor I the Old
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	945.1.1 = {holder=601}	#Olga of Kiev
-	962.1.2 = {holder=602}	#Sviatoslav I the Brave
-	#Beginning (?) of (early) Rostov Principality
-	969.1.2 = {
-		holder = 608	#Vladimir the Great
-		liege = d_opolye
-	}
-	977.1.2 = {holder=604}	#Yaropolk I Sviatoslavich
-	978.1.2 = {holder=608}	#Vladimir the Great
-	1010.1.2 = {holder=624}	#Saint Boris Vladimirovich
-	#St Boris' death, Rostov doesn't have princes anymore
-	1015.7.24 = {
-		holder = 302261	#Yuri Timerovich, fictional
-		liege = k_ruthenia
-	}
-	1044.3.15 = {holder=302262}	#Koz'ma Timerovich, fictional
-	1054.1.1 = {liege=d_pereyaslavl}	# Vsevolod of Pereyaslavl
-	1063.2.2 = {holder=302263}	#Kirill Timerovich, fictional
-	#1069.4.15 our date for Fragmentation of Kievan Rus'
-	1069.4.15 = {liege=d_novgorod}
-	#1093 Vladimir Monomakh moves capital to Suzdal
-	1093.1.2 = {
-		holder = 666	#Vladimir Monomakh
-		liege = d_opolye
-	}
-	1108.1.2 = {holder=222672}	#Yuri "Dolgorukiy" Vladimirovich
-	1157.5.15 = {holder=222676}	#Saint Andrei Bogolyubsky Yuryevich
-	1174.6.29 = {holder=222682}	#Mikhail Yuryevich
-	1174.9.1 = {holder=222730}	#Yaropolk Rostislavich
-	1175.6.15 = {holder=222682}	#Mikhail Yuryevich
-	1176.6.20 = {holder=222670}	#Vsevolod III the Big Nest
-}
 c_moskva = {
 	###Pre Kievan Rus
 	809.3.16 = {
@@ -129,6 +86,50 @@ c_moskva = {
 	1175.6.15 = {holder=222682}	#Mikhail Yuryevich
 	1176.6.20 = {holder=222670}	#Vsevolod III the Big Nest
 }
+c_klin = {
+}
+c_mozhaysk = {
+	#Pre-Kievan Rus
+	867.1.1 = {
+		liege = 0
+		holder = 302224	#Alyok Goliad, fictional based on Goliad tribe
+		government = tribal_government
+	}
+	#Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
+	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
+	972.1.2 = {holder=604}	#Yaropolk I
+	980.1.2 = {holder=608}	#Vladimir the Great
+	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
+	1016.1.2 = {holder=612}	#Yaroslav the Wise
+	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
+	1019.1.2 = {holder=612}	#Yaroslav the Wise
+	#Death of Yaroslav the Wise, creation of Smolensk Principality
+	1054.2.20 = {
+		holder = 9132	#Viacheslav I Yaroslavich
+		liege = d_smolensk
+	}
+	1057.1.2 = {holder=638}	#Igor Yaroslavich
+	1060.1.2 = {holder=302258}
+	1073.1.2 = {holder=666}	#Valdimir Monomakh
+	1092.1.2 = {holder=222574}	#Mstislav I Vladimirovich (Monomakh)
+	1093.1.2 = {holder=125096}	#Iziaslav I Vladimirovich
+	1095.1.2 = {holder=656}	#Davyd Sviatoslavich
+	1097.1.2 = {holder=125097}	#Sviatoslav Vladimirovich (Monomakh)
+	1113.1.2 = {holder=125102}	#Viacheslav Vladimirovich (Monomakh)
+	1125.1.2 = {holder=222572}	#Rostislav Mstislavich
+	1160.1.2 = {holder=222577}	#Roman Rostislavich
+	1171.1.2 = {holder=222586}	#Yaropolk Romanovich
+	1172.1.2 = {holder=222577}	#Roman Rostislavich
+	1174.1.2 = {holder=222586}	#Yaropolk Romanovich
+	1175.1.2 = {holder=222582}	#Mstislav Rostislavich "The Brave"
+	1176.1.2 = {holder=222577}	#Roman Rostislavich
+	1180.1.2 = {holder=222570}	#David Rostislavich
+}
 c_suzdal = {
 	#Pre-Kievan Rus
 	822.1.1 = {
@@ -178,50 +179,6 @@ c_suzdal = {
 	1174.9.1 = {holder=222730}	#Yaropolk Rostislavich
 	1175.6.15 = {holder=222682}	#Mikhail Yuryevich
 	1176.6.20 = {holder=222670}	#Vsevolod III the Big Nest
-}
-c_tver = {
-	#Pre-Kievan Rus
-	822.1.1 = {
-		liege = d_opolye
-		holder = 159711	#Nishkepaz Meryavid, fictional
-		government = tribal_government
-	}
-	860.1.1 = {holder=159713}	#Kezhevat Meryavid, fictional
-	#Kievan Rus' in 882
-	900.1.1 = {
-		holder = 40606	#Oleg the Seer
-		liege = k_ruthenia
-	}
-	912.1.1 = {holder=600}	#Igor I the Old
-	945.1.1 = {holder=601}	#Olga of Kiev
-	962.1.2 = {holder=602}	#Sviatoslav I the Brave
-	969.1.2 = {holder=608}	#Vladimir the Great
-	977.1.2 = {holder=604}	#Yaropolk I Sviatoslavich
-	978.1.2 = {holder=608}	#Vladimir the Great
-	1010.1.2 = {holder=612}	#Yaroslav the Wise
-	1034.1.2 = {holder=634}	#Vladimir II Yaroslavich
-	1052.10.4 = {holder=626}	#Iziaslav I Yaroslavich
-	1054.2.20 = {holder=686}	#Mstislav I Iziaslavich
-	1066.1.1 = {
-		liege = d_novgorod
-		holder = 40600
-	}
-	1067.1.2 = {holder=654}	#Gleb I Sviatoslavich
-	1078.5.30 = {holder=652}	#Sviatopolk I Iziaslavich
-	1088.1.2 = {holder=222574}	#Mstislav II the Great Vladimirovich
-	1117.1.2 = {holder=222822}	#Vsevolod I Mstislavich
-	1132.1.2 = {holder=125113}	#Sviatopolk II
-	1132.7.2 = {holder=222822}	#Vsevolod I Mstislavich
-	1136.1.2 = {holder=222632}	#Sviatoslav II Olgovich
-	#####
-	1723.12.01 = {holder=putiatin_0107}
-	1754.01.01 = {holder=putiatin_0108}
-	1818.09.16 = {holder=putiatin_0109}
-	1830.01.01 = {holder=putiatin_0110}
-	1847.09.27 = {holder=putiatin_0118}
-	1889.07.10 = {holder=putiatin_0119}
-	1938.05.24 = {holder=putiatin_0120}
-	1966.02.26 = {holder=putiatin_0122}
 }
 c_vladimir = {
 	###Pre Kievan Rus
@@ -280,48 +237,9 @@ c_vladimir = {
 d_karachev = {
 	867.1.1 = {change_development_level=2}
 	1066.1.1 = {change_development_level=5}
+	1600.01.01 = {liege=e_russia}
 }
 
-c_karachev = {
-	###Pre Kievan Rus
-	799.1.1 = {
-		liege = 0
-		holder = 194146	#Iliya Vyatich
-		government = tribal_government
-	}
-	822.1.1 = {
-		holder = 160063	#Bojan Vyatich
-		liege = e_caspian-pontic_steppe
-	}
-	860.1.1 = {holder=6834}	#Zhavoronok Vyatich
-	###Kievan Rus in 882
-	882.1.2 = {
-		holder = 40606	#Oleg/Helgi the Seer
-		liege = k_ruthenia
-	}
-	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
-	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
-	972.1.2 = {holder=604}	#Yaropolk I
-	980.1.2 = {holder=608}	#Vladimir the Great
-	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
-	1016.1.2 = {holder=612}	#Yaroslav the Wise
-	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
-	1019.1.2 = {holder=612}	#Yaroslav the Wise
-	#Put under d_chernigov
-	1054.2.20 = {
-		holder = 302257	#Voislav Okansky, fictional
-		liege = d_chernigov
-	}
-	###Fragmentation of Kievan Rus' 1069.4.15
-	1080.11.29 = {holder=302258}	#Nikita Okansky, fictional
-	1094.1.2 = {holder=660}	#Oleg I Sviatoslavich
-	1097.1.2 = {holder=656}	#Davyd Sviatoslavich
-	1123.1.2 = {holder=662}	#Konstantin / Yaroslav Sviatoslavich of Kiev
-	1126.1.2 = {holder=222602}	#Vsevolod II Olgovich of Kiev
-	1139.1.2 = {holder=125045}	#Vladimir II Davydovich
-	1151.5.12 = {holder=302259}	#Ivan Kromsky, fictional
-	1184.6.1 = {holder=302260}	#Simeon Kromsky, fictional
-}
 c_kozelsk = {
 	###Pre Kievan Rus
 	799.1.1 = {
@@ -409,8 +327,20 @@ c_sevsk = {
 
 #########
 
+d_kostroma = {
+}
+
+c_kostroma = {
+}
+c_galich = {
+}
+c_vetluga = {
+}
+
+#########
+
 d_nizhny_novgorod = {
-	800.1.1 = {liege=k_vladimir}
+	1600.01.01 = {liege=e_russia}
 	1760.01.01 = {holder=100020360}
 	1794.05.09 = {holder=100020362}
 	1828.02.02 = {holder=100020367}
@@ -468,6 +398,7 @@ c_nizhny_novgorod = {
 	1175.6.15 = {holder=222682}	#Mikhail Yuryevich
 	1176.6.20 = {holder=222670}	#Vsevolod III the Big Nest
 	#####
+	1600.01.01 = {liege=e_russia}
 	1760.01.01 = {holder=100020360}
 	1794.05.09 = {holder=100020362}
 	1828.02.02 = {holder=100020367}
@@ -479,146 +410,15 @@ c_nizhny_novgorod = {
 	1965.09.26 = {holder=100020433}
 	1982.12.04 = {holder=100020435}
 }
-c_manturovo = {
-	#Pre-Kievan Rus
-	850.7.23 = {
-		liege = d_opolye
-		holder = 302225	#Ovtay Roavve, fictional
-		government = tribal_government
-	}
-	896.2.21 = {holder=302226}	#Kezhevat Meryavid, fictional
-	#Kievan Rus' in 882
-	900.1.1 = {liege=0}	#d_opolye has no holder anymore
-	904.1.1 = {
-		holder = 40606	#Oleg the Seer
-		liege = k_ruthenia
-	}
-	912.1.1 = {holder=600}	#Igor I the Old
-	945.1.1 = {holder=601}	#Olga of Kiev
-	962.1.2 = {holder=602}	#Sviatoslav I the Brave
-	#Beginning (?) of (early) Rostov Principality
-	969.1.2 = {
-		holder = 608	#Vladimir the Great
-		liege = d_opolye
-	}
-	977.1.2 = {holder=604}	#Yaropolk I Sviatoslavich
-	978.1.2 = {holder=608}	#Vladimir the Great
-	1010.1.2 = {holder=624}	#Saint Boris Vladimirovich
-	#St Boris' death, Rostov doesn't have princes anymore
-	1015.7.24 = {
-		holder = 302267	#Iakov Opolyesky, fictional
-		liege = d_novgorod
-	}
-	1043.5.24 = {holder=302268}	#Simeon Opolyesky, fictional
-	1072.7.3 = {holder=302269}	#Alexei Opolyesky, fictional
-	#1069.4.15 our date for Fragmentation of Kievan Rus'
-	1069.4.15 = {liege=d_novgorod}
-	#1093 Vladimir Monomakh moves capital to Suzdal
-	1093.1.2 = {
-		holder = 666	#Vladimir Monomakh
-		liege = d_opolye
-	}
-	1108.1.2 = {holder=222672}	#Yuri "Dolgorukiy" Vladimirovich
-	1157.5.15 = {holder=222676}	#Saint Andrei Bogolyubsky Yuryevich
-	1174.6.29 = {holder=222682}	#Mikhail Yuryevich
-	1174.9.1 = {holder=222730}	#Yaropolk Rostislavich
-	1175.6.15 = {holder=222682}	#Mikhail Yuryevich
-	1176.6.20 = {holder=222670}	#Vsevolod III the Big Nest
-}
-c_plyos = {
-	#Pre-Kievan Rus
-	822.1.1 = {
-		liege = d_opolye
-		holder = 159711	#Nishkepaz Meryavid, fictional
-		government = tribal_government
-	}
-	860.1.1 = {holder=159713}	#Kezhevat Meryavid, fictional
-	#Kievan Rus' in 882
-	900.1.1 = {
-		holder = 40606	#Oleg the Seer
-		liege = k_ruthenia
-	}
-	912.1.1 = {holder=600}	#Igor I the Old
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	945.1.1 = {holder=601}	#Olga of Kiev
-	962.1.2 = {holder=602}	#Sviatoslav I the Brave
-	#Beginning (?) of (early) Rostov Principality
-	969.1.2 = {
-		holder = 608	#Vladimir the Great
-		liege = d_opolye
-	}
-	977.1.2 = {holder=604}	#Yaropolk I Sviatoslavich
-	978.1.2 = {holder=608}	#Vladimir the Great
-	1010.1.2 = {holder=624}	#Saint Boris Vladimirovich
-	#St Boris' death, Rostov doesn't have princes anymore
-	1015.7.24 = {
-		holder = 302267	#Iakov Opolyesky, fictional
-		liege = d_novgorod
-	}
-	1043.5.24 = {holder=302268}	#Simeon Opolyesky, fictional
-	1072.7.3 = {holder=302269}	#Alexei Opolyesky, fictional
-	#1069.4.15 our date for Fragmentation of Kievan Rus'
-	1069.4.15 = {liege=d_novgorod}
-	#1093 Vladimir Monomakh moves capital to Suzdal
-	1093.1.2 = {
-		holder = 666	#Vladimir Monomakh
-		liege = d_opolye
-	}
-	1108.1.2 = {holder=222672}	#Yuri "Dolgorukiy" Vladimirovich
-	1157.5.15 = {holder=222676}	#Saint Andrei Bogolyubsky Yuryevich
-	1174.6.29 = {holder=222682}	#Mikhail Yuryevich
-	1174.9.1 = {holder=222730}	#Yaropolk Rostislavich
-	1175.6.15 = {holder=222682}	#Mikhail Yuryevich
-	1176.6.20 = {holder=222670}	#Vsevolod III the Big Nest
-}
 
 #########
 
 d_novosil = {
 	867.1.1 = {change_development_level=2}
 	1066.1.1 = {change_development_level=5}
+	1600.01.01 = {liege=e_russia}
 }
 
-c_novosil = {
-	###Pre Kievan Rus
-	809.3.16 = {
-		liege = 0
-		holder = 302227	#fictional Artyo Meshchersky
-		government = tribal_government
-	}
-	841.12.20 = {
-		holder = 302229	#fictional Inzhay Meshchersky
-		liege = e_caspian-pontic_steppe	#tributary
-	}
-	853.9.15 = {holder=302238}	#fictional Mikikor Meshchersky
-	###Kievan Rus in 882
-	882.1.2 = {
-		holder = 40606	#Oleg/Helgi the Seer
-		liege = k_ruthenia
-	}
-	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
-	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
-	972.1.2 = {holder=604}	#Yaropolk I
-	980.1.2 = {holder=608}	#Vladimir the Great
-	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
-	1016.1.2 = {holder=612}	#Yaroslav the Wise
-	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
-	1019.1.2 = {holder=612}	#Yaroslav the Wise
-	#Put under d_chernigov
-	1054.2.20 = {
-		holder = 302257	#Voislav Okansky, fictional
-		liege = d_chernigov
-	}
-	###Fragmentation of Kievan Rus' 1069.4.15
-	1080.11.29 = {holder=302258}	#Nikita Okansky, fictional
-	1094.1.2 = {holder=660}	#Oleg I Sviatoslavich
-	1097.1.2 = {holder=656}	#Davyd Sviatoslavich
-	1123.1.2 = {holder=662}	#Konstantin / Yaroslav Sviatoslavich of Kiev
-	1126.1.2 = {holder=222602}	#Vsevolod II Olgovich of Kiev
-	1139.1.2 = {holder=125045}	#Vladimir II Davydovich
-	1151.5.12 = {holder=302259}	#Ivan Kromsky, fictional
-	1184.6.1 = {holder=302260}	#Simeon Kromsky, fictional
-}
 c_odoyev = {
 	###Pre Kievan Rus
 	809.3.16 = {
@@ -673,6 +473,92 @@ c_odoyev = {
 
 #########
 
+d_oryol = {
+}
+
+c_karachev = {
+	###Pre Kievan Rus
+	799.1.1 = {
+		liege = 0
+		holder = 194146	#Iliya Vyatich
+		government = tribal_government
+	}
+	822.1.1 = {
+		holder = 160063	#Bojan Vyatich
+		liege = e_caspian-pontic_steppe
+	}
+	860.1.1 = {holder=6834}	#Zhavoronok Vyatich
+	###Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
+	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
+	972.1.2 = {holder=604}	#Yaropolk I
+	980.1.2 = {holder=608}	#Vladimir the Great
+	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
+	1016.1.2 = {holder=612}	#Yaroslav the Wise
+	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
+	1019.1.2 = {holder=612}	#Yaroslav the Wise
+	#Put under d_chernigov
+	1054.2.20 = {
+		holder = 302257	#Voislav Okansky, fictional
+		liege = d_chernigov
+	}
+	###Fragmentation of Kievan Rus' 1069.4.15
+	1080.11.29 = {holder=302258}	#Nikita Okansky, fictional
+	1094.1.2 = {holder=660}	#Oleg I Sviatoslavich
+	1097.1.2 = {holder=656}	#Davyd Sviatoslavich
+	1123.1.2 = {holder=662}	#Konstantin / Yaroslav Sviatoslavich of Kiev
+	1126.1.2 = {holder=222602}	#Vsevolod II Olgovich of Kiev
+	1139.1.2 = {holder=125045}	#Vladimir II Davydovich
+	1151.5.12 = {holder=302259}	#Ivan Kromsky, fictional
+	1184.6.1 = {holder=302260}	#Simeon Kromsky, fictional
+}
+c_novosil = {
+	###Pre Kievan Rus
+	809.3.16 = {
+		liege = 0
+		holder = 302227	#fictional Artyo Meshchersky
+		government = tribal_government
+	}
+	841.12.20 = {
+		holder = 302229	#fictional Inzhay Meshchersky
+		liege = e_caspian-pontic_steppe	#tributary
+	}
+	853.9.15 = {holder=302238}	#fictional Mikikor Meshchersky
+	###Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {holder=600}	#Igor/Helgi, son of Rurik
+	945.1.2 = {holder=602}	#Sviatoslav I, w/ some regency by St Olga
+	972.1.2 = {holder=604}	#Yaropolk I
+	980.1.2 = {holder=608}	#Vladimir the Great
+	1015.7.15 = {holder=610}	#Sviatopolk the Accursed
+	1016.1.2 = {holder=612}	#Yaroslav the Wise
+	1018.1.2 = {holder=610}	#Sviatopolk the Accursed
+	1019.1.2 = {holder=612}	#Yaroslav the Wise
+	#Put under d_chernigov
+	1054.2.20 = {
+		holder = 302257	#Voislav Okansky, fictional
+		liege = d_chernigov
+	}
+	###Fragmentation of Kievan Rus' 1069.4.15
+	1080.11.29 = {holder=302258}	#Nikita Okansky, fictional
+	1094.1.2 = {holder=660}	#Oleg I Sviatoslavich
+	1097.1.2 = {holder=656}	#Davyd Sviatoslavich
+	1123.1.2 = {holder=662}	#Konstantin / Yaroslav Sviatoslavich of Kiev
+	1126.1.2 = {holder=222602}	#Vsevolod II Olgovich of Kiev
+	1139.1.2 = {holder=125045}	#Vladimir II Davydovich
+	1151.5.12 = {holder=302259}	#Ivan Kromsky, fictional
+	1184.6.1 = {holder=302260}	#Simeon Kromsky, fictional
+}
+
+#########
+
 d_ryazan = {
 	#1078 Ryazan Principality started existing after splitting from Chernigov principality. However it wasn't independent yet, so we're not adding it, since a d_ can't be liege of another d_
 	#1097 Ryazan became independent
@@ -686,14 +572,7 @@ d_ryazan = {
 	1178.1.2 = {holder=222745}	#Roman Glebovich
 	#1237 ravaged by Batu Khan of the Mongols, Ryazan (the city) is completely destroyed
 	#####
-	1740.01.01 = {holder=apraxin_0009}
-	1760.08.26 = {holder=apraxin_0012}
-	1827.02.08 = {holder=apraxin_0014}
-	1833.07.01 = {holder=apraxin_0017}
-	1898.01.19 = {holder=100017616}
-	1899.01.01 = {holder=100017612}
-	1921.04.21 = {holder=100017541}
-	1962.12.03 = {holder=100017544}
+	1600.01.01 = {liege=e_russia}
 }
 
 c_ryazan = {
@@ -791,7 +670,27 @@ c_murom = {
 	1155.1.2 = {holder=222774}	#Vladimir Sviatoslavich
 	1161.1.2 = {holder=222772}	#Yuriy Vladimirovich
 	1174.1.2 = {holder=222775}	#Davyd Yuryevich
+	#####
+	1740.01.01 = {holder=apraxin_0009}
+	1760.08.26 = {holder=apraxin_0012}
+	1827.02.08 = {holder=apraxin_0014}
+	1833.07.01 = {holder=apraxin_0017}
+	1898.01.19 = {holder=100017616}
+	1899.01.01 = {holder=100017612}
+	1921.04.21 = {holder=100017541}
+	1962.12.03 = {holder=100017544}
 }
+
+#########
+
+d_tula = {
+	1600.01.01 = {liege=e_russia}
+	1835.01.01 = {holder=100015255}
+	1882.03.06 = {holder=100015257}
+	1888.02.15 = {holder=100015260}
+	1920.01.01 = {holder=0}
+}
+
 c_tula = {
 	###Pre Kievan Rus
 	809.3.16 = {
@@ -833,4 +732,82 @@ c_tula = {
 	1143.1.2 = {holder=222744}	#Rostislav Yaroslavich
 	1145.1.2 = {holder=222742}	#Gleb Rostislavich
 	1178.1.2 = {holder=222745}	#Roman Glebovich
+	#####
+	1835.01.01 = {holder=100015255}
+	1882.03.06 = {holder=100015257}
+	1888.02.15 = {holder=100015260}
+	1920.01.01 = {holder=0}
+}
+
+#########
+
+d_yaroslavl = {
+	1600.01.01 = {liege=e_russia}
+	1740.02.26 = {holder=100019348}
+	1791.03.26 = {holder=100019634}
+	1830.01.20 = {holder=100019635}
+	1848.10.26 = {holder=100019636}
+	1872.02.01 = {holder=100019628}
+	1897.01.01 = {holder=100019648}
+	1907.07.10 = {holder=100019652}
+	1976.02.18 = {holder=100019653}
+	2013.12.13 = {holder=100019654}
+}
+
+c_yaroslavl = {
+	#Pre-Kievan Rus
+	822.1.1 = {
+		liege = d_opolye
+		holder = 159711	#Nishkepaz Meryavid, fictional
+		government = tribal_government
+	}
+	860.1.1 = {holder=159713}	#Kezhevat Meryavid, fictional
+	#Kievan Rus' in 882
+	900.1.1 = {
+		holder = 40606	#Oleg the Seer
+		liege = k_ruthenia
+	}
+	912.1.1 = {holder=600}	#Igor I the Old
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	945.1.1 = {holder=601}	#Olga of Kiev
+	962.1.2 = {holder=602}	#Sviatoslav I the Brave
+	#Beginning (?) of (early) Rostov Principality
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+		liege = d_opolye
+	}
+	977.1.2 = {holder=604}	#Yaropolk I Sviatoslavich
+	978.1.2 = {holder=608}	#Vladimir the Great
+	1010.1.2 = {holder=624}	#Saint Boris Vladimirovich
+	#St Boris' death, Rostov doesn't have princes anymore
+	1015.7.24 = {
+		holder = 302261	#Yuri Timerovich, fictional
+		liege = k_ruthenia
+	}
+	1044.3.15 = {holder=302262}	#Koz'ma Timerovich, fictional
+	1054.1.1 = {liege=d_pereyaslavl}	# Vsevolod of Pereyaslavl
+	1063.2.2 = {holder=302263}	#Kirill Timerovich, fictional
+	#1069.4.15 our date for Fragmentation of Kievan Rus'
+	1069.4.15 = {liege=d_novgorod}
+	#1093 Vladimir Monomakh moves capital to Suzdal
+	1093.1.2 = {
+		holder = 666	#Vladimir Monomakh
+		liege = d_opolye
+	}
+	1108.1.2 = {holder=222672}	#Yuri "Dolgorukiy" Vladimirovich
+	1157.5.15 = {holder=222676}	#Saint Andrei Bogolyubsky Yuryevich
+	1174.6.29 = {holder=222682}	#Mikhail Yuryevich
+	1174.9.1 = {holder=222730}	#Yaropolk Rostislavich
+	1175.6.15 = {holder=222682}	#Mikhail Yuryevich
+	1176.6.20 = {holder=222670}	#Vsevolod III the Big Nest
+	#####
+	1740.02.26 = {holder=100019348}
+	1791.03.26 = {holder=100019634}
+	1830.01.20 = {holder=100019635}
+	1848.10.26 = {holder=100019636}
+	1872.02.01 = {holder=100019628}
+	1897.01.01 = {holder=100019648}
+	1907.07.10 = {holder=100019652}
+	1976.02.18 = {holder=100019653}
+	2013.12.13 = {holder=100019654}
 }
