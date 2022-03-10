@@ -1,4 +1,4 @@
-100094143={ #               Irmengard                 von Daun                                 (1400-1456)     1 [MANDERSCHEID]
+﻿100094143={ #               Irmengard                 von Daun                                 (1400-1456)     1 [MANDERSCHEID]
 	name="Irmengard von Daun"
 	female=yes
 	religion=catholic culture=german
@@ -340,8 +340,8 @@
 100095977={ #               Maria Franziska           Khuen von Belasi                         (1589-1672)     2 [PALFY]
 	name="Maria Franziska Khuen von Belasi"
 	female=yes
-	religion=catholic culture=hungarian
-	1589.01.01={birth=yes}
+	religion=catholic culture=german
+	1610.01.01={birth=yes}	# EST.
 	1672.05.02={death=yes}
 }
 100100846={ #    Frn        Susanna                   Khuen von Belasi                         (1610-1669)     2 [WALDBURG]
@@ -4608,6 +4608,13 @@ lowborn_0482={ # Gfn        Katharina                 von Aichelburg            
 	religion=catholic culture=german
 	1783.12.17={birth=yes}  # Riga
 	1857.07.09={death=yes}  # Paris
+}
+lowborn_0954={ # Gfn        Sophia                    von Benckendorff                         (1809-1875)     2 [LOPUCHIN]
+	name="Sophia von Benckendorff"
+	female=yes
+	religion=catholic culture=german
+	1809.01.01={birth=yes}  # EST.
+	1875.01.01={death=yes}
 }
 100095440={ #    Gfn        Anna                      von Benckendorff                         (1818-1900)     2 [APONYI]
 	name="Anna von Benckendorff"
@@ -14642,13 +14649,6 @@ lowborn_1137={ # Baron      Karl Gustav               von Mengden               
 	1728.02.16={birth=yes}
 	1779.01.28={death=yes}  # Sankt Pölten
 }
-lowborn_0631={ # Gf         Hubert Heinrich           Unverzagt de la Fontaine                 (1827-1897)     - [BERCHTOLD]
-	name="Hubert Heinrich Unverzagt de la Fontaine"
-	religion=catholic culture=german
-	1827.12.05={birth=yes}  # Hrotovice
-	1848.02.20={add_spouse=berchtold_0011}	# Ludmilla
-	1897.12.28={death=yes}  # Wien
-}
 
 100095750={ #    Gfn        Maria Josepha             von Verdenberg und Namiest               (1687-1745)     1 [HOHENZOLERN]
 	name="Maria Josepha von Verdenberg und Namiest"
@@ -17532,8 +17532,8 @@ lowborn_1028={ # Frhr       Николай                   Pilar von Pilchau  
 	1857.01.01={add_spouse=kleinmichel_0002}	# Elizaveta Petrovna
 	1886.01.26={death=yes}  # Nizza
 }
-lowborn_1426={ # Frn        Maria Albrecht            Rosa von Löwenstern                      (1820-1889)     4 [RAZUMOVSKY]
-	name="Maria Albrecht Rosa von Löwenstern"
+lowborn_1426={ # Frn        Maria Rosa                Albrecht von Löwenstern                  (1820-1889)     4 [RAZUMOVSKY]
+	name="Maria Rosa Albrecht von Löwenstern"
 	female=yes
 	religion=orthodox culture=russian
 	1820.10.05={birth=yes}  # Schwäbisch-Gmund
@@ -18335,3 +18335,45 @@ lowborn_0671={ #            Joseph Friedrich          von der Trenck            
 	2012.01.01={death=yes}  # EST.
 }
 
+lowborn_1548={ # King       Magnus                    of Livonia                               (1540-1583)     - [MARIJA]
+	name="Magnus of Livonia"
+	religion=orthodox culture=russian
+	1540.08.26={birth=yes}
+	1573.04.12={add_spouse=rurik_0071}	# Maria
+	1583.03.18={death=yes}
+}
+lowborn_1466={ #            Friedrich                 von Kameke                               (1711-1769)     - [MARIJA]
+	name="Friedrich von Kameke"
+	religion=orthodox culture=german
+	1711.01.01={birth=yes}
+	1741.01.01={add_spouse=golovkin_0009}	# Мария
+	1769.01.01={death=yes}
+}
+lowborn_1532={ #            Friederike-Henriette      von Kameke                               (1732-1792)     0 [PETR]
+	name="Friederike-Henriette von Kameke"
+	female=yes
+	religion=orthodox culture=german
+	1732.01.01={birth=yes}  # EST.
+	1792.12.01={death=yes}  # EST.
+}
+lowborn_1574={ #            Wilhelmina-Justina        von Mosheim                              (1743-1824)     2 [ALEKSANDR]
+	name="Wilhelmina-Justina von Mosheim"
+	female=yes
+	religion=orthodox culture=german
+	1743.01.01={birth=yes}  # EST.
+	1824.01.01={death=yes}
+}
+lowborn_3509={ #            B.                        von Schmettau                            (1727-1787)     - [NATALJA]
+	name="B. von Schmettau"
+	religion=orthodox culture=german
+	1727.01.01={birth=yes}  # EST.
+	1751.01.01={add_spouse=golovkin_0011}	# Наталья
+	1787.12.01={death=yes}  # EST.
+}
+lowborn_3471={ #            Cornelia                  von Stralen                              (1727-1795)     0 [IVAN]
+	name="Cornelia von Straien"
+	female=yes
+	religion=orthodox culture=german
+	1727.01.01={birth=yes}
+	1795.01.01={death=yes}
+}
