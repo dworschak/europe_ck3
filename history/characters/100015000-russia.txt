@@ -2,7 +2,6 @@
 ##	Абаза Abaza                                          1010200   26   1/   2 = 50,00%	    1
 ##	Апраксин Apraxin                                     1010013  123  14/  52 = 26,92%	   38
 ##	Барятинский Bariatinsky                              1010037  220  14/  74 = 18,92%	   60
-##	Белосельский-Белозерский                             1010036   46   2/  12 = 16,67%	   10
 ##	Бобринский Bobrinsky                                 1010010   98   9/  42 = 21,43%	   33
 ##	Бутурлин Buturlin                                    1010039  148  15/  50 = 30,00%	   35
 ##	Волконский Volkonsky                                 1010030  376  26/ 183 = 14,21%	  157
@@ -20794,7 +20793,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 							father=100017496	# Сергей Трубецко́й Trubetzkoy
 							mother=100087144	# Анна Ivanovna Ladyshensky
 							1760.07.14={birth=yes}
-							1785.01.01={add_spouse=100084493}	# Дарья Bagrationi-Gruzinsky ELDER
+							1785.01.01={add_spouse=bagrat_0011}	# Дарья Bagrationi-Gruzinsky ELDER
 							1817.02.19={death=yes}
 						}
 							100017176={ #// 1e) Sergei (29 Aug 1790-22 Nov 1860); m.Css Catherine de Laval de la Loubrerie (1800-14 Oct 1854)
@@ -20802,7 +20801,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 								dynasty=1010004
 								religion=orthodox culture=russian
 								father=100017175	# Пётр Трубецко́й Trubetzkoy
-								mother=100084493	# Дарья Bagrationi-Gruzinsky ELDER
+								mother=bagrat_0011	# Дарья Bagrationi-Gruzinsky ELDER
 								1790.08.29={birth=yes}
 								1815.01.01={add_spouse=100082532}	# CSS Catherine de Laval de la Loubrerie
 								1860.11.22={death=yes}
@@ -20852,7 +20851,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 								dynasty=1010004
 								religion=orthodox culture=russian
 								father=100017175	# Пётр Трубецко́й Trubetzkoy
-								mother=100084493	# Дарья Bagrationi-Gruzinsky ELDER
+								mother=bagrat_0011	# Дарья Bagrationi-Gruzinsky ELDER
 								1792.08.18={birth=yes}
 								1816.01.01={add_spouse=100089654}	# Luisa Rosciszewski
 								1853.04.14={death=yes}
@@ -21192,7 +21191,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 								dynasty=1010004
 								religion=orthodox culture=russian
 								father=100017175	# Пётр Трубецко́й Trubetzkoy
-								mother=100084493	# Дарья Bagrationi-Gruzinsky ELDER
+								mother=bagrat_0011	# Дарья Bagrationi-Gruzinsky ELDER
 								1793.01.06={birth=yes}
 								1818.01.01={add_spouse=100080520}	# Елизавета Николаевна Bakhmetev
 								1826.01.01={add_spouse=100084191}	# Kleopatra Ghika
@@ -21244,7 +21243,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 								dynasty=1010004
 								religion=orthodox culture=russian
 								father=100017175	# Пётр Трубецко́й Trubetzkoy
-								mother=100084493	# Дарья Bagrationi-Gruzinsky ELDER
+								mother=bagrat_0011	# Дарья Bagrationi-Gruzinsky ELDER
 								1794.01.01={birth=yes}
 								1865.01.01={death=yes}  # EST.
 							}
@@ -28720,15 +28719,15 @@ urusov_0019={ #// Pr Alexander Mikhailovich Urusov (1767-1857), Chief Chamberlai
 		}
 #	 	2. Anastasia Nikolaevna, wife breeder SI Maltsova
 #	 2. Dmitry Y, Yaroslavl district marshal of the nobility; married to Agrippina Nikolaevna Golubtsova
-#	 	1. Pavel and Nikolay, were killed in the fighting at Marienverde, where they raised a monument.
+#	 	1. Pavel and Nikolay, were killed in the fighting at Marienwerde, where they raised a monument.
 #	 3. Sergey (1772-1840), St. Petersburg Vice-Governor; Married to Ekaterina Ivanovna Kusova
 #	 4. Ivan Y. (d.1833), vice-governor of Yaroslavl
 # The younger branch Urusovo
 # URUSOV
 
 
-# KHITROVO
-100035477={ #// Никанор Chitrovo (*27 Apr 1791, +27 Jan 1855); m.1816 Екатерина Лопухин Lopukhin (+1858) %%
+## KHITROVO 1010050
+100035477={ #// Nikanor Chitrovo (*27 Apr 1791, +27 Jan 1855); m.1816 Ekaterina Lopuchin (+1858)
 	name=Никанор
 	dynasty=1010050
 	religion=orthodox culture=russian
@@ -28764,53 +28763,7 @@ urusov_0019={ #// Pr Alexander Mikhailovich Urusov (1767-1857), Chief Chamberlai
 			1866.05.31={birth=yes}
 			1942.01.01={death=yes}  # Leningrad
 		}
-# KHITROVO
-
-
-# VYAZEMSKY
-100035470={ #// Леонид Vyazemsky-Levashov (*Lotarevo, Tambov province 19 Aug 1848, +Lausanne 24 Nov 1909) %%
-	name=Леонид
-	dynasty=1010048
-	religion=orthodox culture=russian
-	1848.08.19={birth=yes}	# Lotarevo, Tambov province
-	1909.11.24={death=yes}	# Lausanne
-}
-	100035472={ #// A1. Борис (*26 Sep 1883, +k.by Bolsheviks 24 Aug 1917); m.27 Apr 1912 Елизавета Шереметев Sheremetev (*St.Petersburg 7 Jun 1893, +New York 20 Jun 1974) %%
-		name=Борис
-		dynasty=1010048
-		religion=orthodox culture=russian
-		father=100035470	# Леонид Vyazemsky-Levashov
-		1883.09.26={birth=yes}
-		1912.04.27={add_spouse=100016440}	# Елизавета Шереметев Sheremetev
-		1917.08.24={death=yes}  # k.by Bolsheviks
-	}
-	100035471={ #// A2. Дмитрий (*1884, +1917); m.29 Jul 1912 Александра Шувалов Shuvalov (*7 Oct 1893, +Bolzano 7 Feb 1968) %%
-		name=Дмитрий
-		dynasty=1010048
-		religion=orthodox culture=russian
-		father=100035470	# Леонид Vyazemsky-Levashov
-		1884.01.01={birth=yes}
-		1912.07.29={add_spouse=100018574}	# Александра Шувалов Shuvalov
-		1917.01.01={death=yes}
-	}
-	100035474={ #// A3. Владимир (*20 Apr 1889, +France 19 May 1960) %%
-		name=Владимир
-		dynasty=1010048
-		religion=orthodox culture=russian
-		father=100035470	# Леонид Vyazemsky-Levashov
-		1889.04.20={birth=yes}
-		1960.05.19={death=yes}  # France
-	}
-		100035473={ #// B1. Нина (*21 Sep 1913, +Ste.Geneviève-des-Bois 11 Aug 1991); m.4 Oct 1947 Алексей Татищев Tatishchev (*8 Oct 1908, +Suresnes 9 Mar 1975) %%
-			name=Нина
-			female=yes
-			dynasty=1010048
-			religion=orthodox culture=russian
-			father=100035474	# Владимир Vyazemsky-Levashov
-			1913.09.21={birth=yes}
-			1991.08.11={death=yes}  # Ste.Geneviève-des-Bois
-		}
-# VYAZEMSKY
+## KHITROVO 1010050
 
 
 ## CHERKASSKY 1010040
@@ -31006,7 +30959,7 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 			1944.01.01={birth=yes}
 		}
 			100035202={ #// H1. Boris Abaza, *Paris 1973
-				name=Boris
+				name=Борис
 				dynasty=1010200
 				religion=orthodox culture=russian
 				father=100035201	# Sergei Abaza
@@ -34012,7 +33965,7 @@ godunov_0001={ #// Pr Chet
 								1568.01.01={death=yes}
 							}
 								godunov_0049={ #// H2. Boris Fyodorovich Godunov, boyar, konyushi, Tsar of Russia, *1552, +23.4.1605; m.1570 Maria Grigorievna Skuratova-Belskaya (+murdered Moscow 10.6.1605), dau.of Malyuta Skuratov-Belskiy
-									name="Boris Fyodorovich"
+									name=Борис
 									dynasty=1010074
 									religion=orthodox culture=russian
 									father=godunov_0047	# Фёдор
@@ -34782,6 +34735,7 @@ vasilchikov_0001={ #// Vasily Alekseevich Vasilchikov (1754-1830); m.Ekaterina I
 		}
 ## VASILCHIKOV 1010075
 
+
 ## GOLOVKIN 1010051
 golovkin_0001={ #// Gavrila Golovkin (1660-1734); m.Domna Andreevna Divova
 	name=Гавриил
@@ -35216,4 +35170,113 @@ vjazemsky_0001={ #// Prochor
 				1777.01.01={birth=yes}  # EST.
 				1817.01.10={death=yes}
 			}
+
+# Дмитрий Егорович (1813—1850); m.Анна Николаевна Вельяминова
+	100035470={ #// Leonid Dmitrievich Vyazemsky (*Lotarevo 19 Aug 1848, +Lausanne 24 Nov 1909); m.1881 Maria Vladimirovna Levashova (1859-1938)
+		name=Леонид
+		dynasty=1010048
+		religion=orthodox culture=russian
+		1848.08.19={birth=yes}	# Lotarevo, Tambov province
+		1909.11.24={death=yes}	# Lausanne
+	}
+		100035472={ #// A1. Борис (*26 Sep 1883, +k.by Bolsheviks 24 Aug 1917); m.27 Apr 1912 Елизавета Шереметев Sheremetev (*St.Petersburg 7 Jun 1893, +New York 20 Jun 1974) %%
+			name=Борис
+			dynasty=1010048
+			religion=orthodox culture=russian
+			father=100035470	# Леонид Vyazemsky-Levashov
+			1883.09.26={birth=yes}
+			1912.04.27={add_spouse=100016440}	# Елизавета Шереметев Sheremetev
+			1917.08.24={death=yes}  # k.by Bolsheviks
+		}
+		100035471={ #// A2. Дмитрий (*1884, +1917); m.29 Jul 1912 Александра Шувалов Shuvalov (*7 Oct 1893, +Bolzano 7 Feb 1968) %%
+			name=Дмитрий
+			dynasty=1010048
+			religion=orthodox culture=russian
+			father=100035470	# Леонид Vyazemsky-Levashov
+			1884.01.01={birth=yes}
+			1912.07.29={add_spouse=100018574}	# Александра Шувалов Shuvalov
+			1917.01.01={death=yes}
+		}
+		# Lydia (28. Mai 1886 - 1. November 1948), Memoirenschreiberin, Ehefrau von Prinz Illarion Sergeevich Vasilchikov
+		100035474={ #// A3. Владимир (*20 Apr 1889, +France 19 May 1960); 1m: 1912 Sofia Ivanovna Vorontsova-Dashkova; 2m: 7.8.1959 Elena Margerita Karinskaya (*15.11.1899)
+			name=Владимир
+			dynasty=1010048
+			religion=orthodox culture=russian
+			father=100035470	# Леонид Vyazemsky-Levashov
+			1889.04.20={birth=yes}
+			1960.05.19={death=yes}  # France
+		}
+			100035473={ #// B1. Нина (*21 Sep 1913, +Ste.Geneviève-des-Bois 11 Aug 1991); m.4 Oct 1947 Алексей Татищев Tatishchev (*8 Oct 1908, +Suresnes 9 Mar 1975) %%
+				name=Нина
+				female=yes
+				dynasty=1010048
+				religion=orthodox culture=russian
+				father=100035474	# Владимир Vyazemsky-Levashov
+				1913.09.21={birth=yes}
+				1991.08.11={death=yes}  # Ste.Geneviève-des-Bois
+			}
+			# Ivan (12.12.1915 - 1.8.1964); m.Claire Mauriac, Tochter des Schriftstellers F. Mauriac
 ## VJAZEMSKY 1010076
+
+
+## YAGU 1010077
+yaguzhinsky_0001={ # Pavel Ivanovich Yaguzhinsky (Litauen 1683-6. (17.) Apr 1736, St. Petersburg ); 2m: Anna Chitrovo (+1751); 2m: 10 Nov 1723 Anna Gavrilovna Golovkina
+	name=Павел
+	dynasty=1010077
+	religion=orthodox culture=russian
+	1683.01.01={birth=yes}
+	1723.11.10={add_spouse=golovkin_0023}	# Анна
+	1736.04.17={death=yes}
+}
+	# NN Pawlowitsch (gest. 09.08.1724) wurde 1723 von seinem Vater zum Studium nach Deutschland geschickt, wo er starb.
+	100097870={ # Jekaterina (1713/14–1738), seit 1730 verheiratet mit V. A. Lopuchin (1711–1757).
+		name=Екатерина
+		female=yes
+		dynasty=1010077
+		religion=orthodox culture=russian
+		father=yaguzhinsky_0001
+		1713.01.01={birth=yes}
+		1738.10.18={death=yes}
+	}
+	100102452={ # Natalja (1716–1786) war mit Generalleutnant Fjodor Iwanowitsch Golowin (1704–1758) verheiratet.
+		name=Наталья
+		female=yes
+		dynasty=1010077
+		religion=orthodox culture=russian
+		father=yaguzhinsky_0001
+		1716.01.01={birth=yes}
+		1788.08.24={death=yes}
+	}
+	100093946={ # Praskovya (171_-1775); m.1738 Pr S. V. Gagarin (1713-1782)
+		name=Прасковья
+		female=yes
+		dynasty=1010077
+		religion=orthodox culture=russian
+		father=yaguzhinsky_0001
+		1718.01.01={birth=yes}	# EST.
+		1775.01.01={death=yes}
+	}
+	# Anastasia Pawlowna (1724 -?)
+	100097257={ # Sergej (1731-1806); 1m: Anastasia Iwanowna Shuvalova; 2m: Varvara Nikolaevna Saltykova (1749-1843)
+		name=Сергей
+		dynasty=1010077
+		religion=orthodox culture=russian
+		father=yaguzhinsky_0001
+		mother=golovkin_0023
+		1731.04.25={birth=yes}
+		1751.01.07={add_spouse=100018627}	# Анастасия Shuvalov
+		1774.01.01={add_spouse=100017765}	# Варвара Салтыков
+		1806.02.22={death=yes}
+	}
+	# Maria Pawlowna (1732-1755), Trauzeugin, wurde am 14. Februar 1748 mit dem Hofmarschall Graf Andrej Michailowitsch Efimowski (1717-1767) verheiratet.
+	100097020={ # Anna (1733-1801); m.1754 Gfn P. F. Apraksin
+		name=Анна
+		female=yes
+		dynasty=1010077
+		religion=orthodox culture=russian
+		father=yaguzhinsky_0001
+		mother=golovkin_0023
+		1733.01.01={birth=yes}
+		1801.01.03={death=yes}
+	}
+## YAGU 1010077

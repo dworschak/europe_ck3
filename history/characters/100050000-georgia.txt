@@ -1265,76 +1265,1023 @@
 #bagrat8 / King of Georgia (1762-1800)
 
 #bagrat10
-bagr_g_02={ # A2. [1m.] Vakhtang VI (Husain-Quli-khan), regent of Kartli (1703-09), King of Kartli (1716-24), reformer and writer, *15.9.1675, +Astrakhan 26.7.1737, bur Assumption Cathedral here; m.1696 Rusudani of Circassia (+Moscow 30.12.1740)
-	name=Vakhtang
-	dynasty_house=bagrat_gruzinsky_elder
-	religion=orthodox culture=russian
-	1675.01.01={birth=yes}
-	1737.01.01={death=yes}
+bagrat_0001={ #// Levan I (Shah-Quli-khan), *1658/60, +Isfahan 30.5.1709; 1m: Pss Tuta Gurieli (+Tbilisi 11.10.1678); 2m: 1680 Pss Tinatin Avalishvili (+1708)
+	name=Levan
+	dynasty=bagrat_gruzinsky_elder
+	religion=orthodox culture=georgian
+	1658.01.01={birth=yes}
+	1673.01.01={add_spouse=lowborn_0562}	# Tuta Gurieli
+	1680.01.01={add_spouse=lowborn_1212}	# Tinatin Avalishvili
+	1709.05.30={death=yes}  # Isfahan
 }
-	bagr_g_01={ # B1. Bakar I (Shah-Nawaz IV), King of Kartli (1716-19, 1723), general-poruchik, *Kutaisi 7.4.1700, +Moscow 1.2.1750, bur Donskoy Monastery; m.Pss Anna Eristavi of Aragvi (*1706, +12.5.1779)
-		name=Bakar
-		dynasty_house=bagrat_gruzinsky_elder
-		religion=orthodox culture=russian
-		father=bagr_g_02
-		1700.01.01={birth=yes}
-		1750.01.01={death=yes}
+	bagrat_0002={ #// A1. [1m.] Kaihosro I, King of Kartli (1709-11), *15.4.1674, +k.a.Kandahar 27.9.1711; m.Kethevan N (+Moscow 3.5.1730)
+		name=Kaihosro
+		dynasty=bagrat_gruzinsky_elder
+		religion=orthodox culture=georgian
+		father=bagrat_0001	# Levan
+		mother=lowborn_0562	# Tuta Gurieli
+		1674.04.15={birth=yes}
+		1699.01.01={add_spouse=lowborn_1335}	# Kethevan N
+		1711.09.27={death=yes}  # Kandahar
 	}
-		100284493={ # C1. Alexander, *1726, +Smolensk 1791; m.HSH Pss Daria Alexandrovna Menshikov (*1747, +1817), granddaughter of generalissimus Menshikov
-			name=Alexander
-			dynasty_house=bagrat_gruzinsky_elder
-			religion=orthodox culture=russian
-			father=bagr_g_01
-			1726.01.01={birth=yes}
-			1791.01.01={death=yes}
+		bagrat_0003={ #// B1. Anuka-begum; 1m: 1710 Husain Shah I of Persia (*1668, +murdered 1726 in Isfahan); 2m: Emir of Erevan
+			name=Anuka-begum
+			female=yes
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0002	# Kaihosro
+			mother=lowborn_1335	# Kethevan N
+			1699.01.01={birth=yes}  # EST.
+			1759.12.01={death=yes}  # EST.
 		}
-			100084493={ # D3. Pss Daria, +1796; m.Pr Pyotr Sergeievich Trubetskoy (*14.7.1770, +19.2.1807)
-				name=Daria
-				female=yes
-				dynasty_house=bagrat_gruzinsky_elder
-				religion=orthodox culture=russian
-				father=100284493	# Alexander Gruzinsky
-				1765.01.01={birth=yes}
-				1796.01.01={death=yes}
+		bagrat_0004={ #// B2. [illegitimate] David, *1710, +Moscow 28.10.1732, bur Donskoy Monastery; m.ca 1725 Mariam N
+			name=David
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0002	# Kaihosro
+			trait=bastard
+			1710.01.01={birth=yes}
+			1725.01.01={add_spouse=lowborn_1598}	# Mariam N
+			1732.10.28={death=yes}  # Moscow
+		}
+	bagrat_0005={ #// A2. [1m.] Vakhtang VI (Husain-Quli-khan), regent of Kartli (1703-09), King of Kartli (1716-24), reformer and writer, *15.9.1675, +Astrakhan 26.7.1737, bur Assumption Cathedral here; m.1696 Rusudani of Circassia (+Moscow 30.12.1740)
+		name=Vakhtang
+		dynasty=bagrat_gruzinsky_elder
+		religion=orthodox culture=georgian
+		father=bagrat_0001	# Levan
+		mother=lowborn_0562	# Tuta Gurieli
+		1675.09.15={birth=yes}  # Husain-Quli-khan ) reformer and writer (
+		1696.01.01={add_spouse=lowborn_1599}	# Rusudani of Circassia
+		1737.07.26={death=yes}  # Astrakhan
+	}
+		bagrat_0006={ #// B1. Bakar I (Shah-Nawaz IV), King of Kartli, general-poruchik, *Kutaisi 7.4.1700, +Moscow 1.2.1750, bur Donskoy Monastery; m.Pss Anna Eristavi of Aragvi (*1706, +12.5.1779)
+			name=Bakar
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0005	# Vakhtang
+			mother=lowborn_1599	# Rusudani of Circassia
+			1700.04.07={birth=yes}  # Kutaisi
+			1728.01.01={add_spouse=lowborn_1602}	# Anna Eristavi of Aragvi
+			1750.02.01={death=yes}  # Moscow
+		}
+			bagrat_0007={ #// C1. Alexander, *1726, +Smolensk 1791; m.HSH Pss Daria Alexandrovna Menshikov (*1747, +1817), granddaughter of generalissimus Menshikov
+				name=Alexander
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0006	# Bakar
+				mother=lowborn_1602	# Anna Eristavi of Aragvi
+				1726.01.01={birth=yes}
+				1759.01.01={add_spouse=lowborn_1603}	# Hsh Menshikov granddaughter of generalissimus Menshikov
+				1791.01.01={death=yes}  # Smolensk
 			}
-			100084279={ # D4. Pss Anna, *17.8.1760, +St.Petersburg 11.10.1842; 1m: Alexander Alexandrovich Galitsyn (*1768, +1789); 2m: 1790 Pr Boris Andreievich Galitsyn (*15.5.1766 +30.3.1822)
+				bagrat_0008={ #// D1. Pr George Bagration of Georgia, chamberlain, *1762, +Lyskovo V.1852; m.Varvara Nikolaievna Bakhmetev
+					name=George
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0007	# Alexander
+					mother=lowborn_1603	# Hsh Menshikov granddaughter of generalissimus Menshikov
+					1762.01.01={birth=yes}
+					1797.01.01={add_spouse=lowborn_1604}	# Varvara Nikolaievna Bakhmetev
+					1852.05.01={death=yes}  # Lyskovo
+				}
+					bagrat_0009={ #// E1. Pss Anna, *Moscow 31.1.1798, +Moscow 17.7.1889; m.Ct Alexander Petrovich Tolstoy (*St.Petersburg 28.1.1801, +Geneva 21.7.1873)
+						name=Анна
+						female=yes
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=russian
+						father=bagrat_0008	# George
+						mother=lowborn_1604	# Varvara Nikolaievna Bakhmetev
+						1798.01.31={birth=yes}  # Moscow
+						1889.07.17={death=yes}  # Moscow
+					}
+				bagrat_0010={ #// D2. Pr Alexander Bagration of Georgia, colonel, *3.10.1763, +St.Petersburg 19.4.1823
+					name=Alexander
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0007	# Alexander
+					mother=lowborn_1603	# Hsh Menshikov granddaughter of generalissimus Menshikov
+					1763.10.03={birth=yes}
+					1823.04.19={death=yes}  # Sankt Petersburg
+				}
+				bagrat_0011={ #// D3. Pss Daria, +1796; m.Pr Pyotr Sergeievich Trubetskoy (*14.7.1770, +19.2.1807)
+					name=Daria
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0007	# Alexander
+					mother=lowborn_1603	# Hsh Menshikov granddaughter of generalissimus Menshikov
+					1767.01.01={birth=yes}  # EST.
+					1796.01.01={death=yes}
+				}
+				bagrat_0012={ #// D4. Pss Anna, *17.8.1760, +St.Petersburg 11.10.1842; 1m: Alexander Alexandrovich Galitsyn (*1768, +1789); 2m: 1790 Pr Boris Andreievich Galitsyn (*15.5.1766 +30.3.1822)
+					name=Anna
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0007	# Alexander
+					mother=lowborn_1603	# Hsh Menshikov granddaughter of generalissimus Menshikov
+					1760.08.17={birth=yes}
+					1842.10.11={death=yes}  # Sankt Petersburg
+				}
+			bagrat_0013={ #// C2. Demetre, *Moscow 9.7.1727, +St.Petersburg 19.5.1745
+				name=Demetre
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=russian
+				father=bagrat_0006	# Bakar
+				mother=lowborn_1602	# Anna Eristavi of Aragvi
+				1727.07.09={birth=yes}  # Moscow
+				1745.05.19={death=yes}  # Sankt Petersburg
+			}
+			bagrat_0014={ #// C3. Stefanoz, *Moscow 28.11.1729, +Netherlands 13.4.1744
+				name=Stefanoz
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=russian
+				father=bagrat_0006	# Bakar
+				mother=lowborn_1602	# Anna Eristavi of Aragvi
+				1729.11.28={birth=yes}  # Moscow
+				1744.04.13={death=yes}  # Netherlands
+			}
+			bagrat_0015={ #// C4. Levan, *Moscow 6.9.1739, +Moscow 23.6.1763, bur Donskoy Monastery; m.1753 Pss Alexandra Yakovlevna Sibirsky (*1.4.1728, +Moscow 29.5.1793), descendant of Genghis Khan in a male line
+				name=Levan
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=russian
+				father=bagrat_0006	# Bakar
+				mother=lowborn_1602	# Anna Eristavi of Aragvi
+				1739.09.06={birth=yes}  # Moscow
+				1753.01.01={add_spouse=lowborn_1610}	# Alexandra Yakovlevna Sibirsky descendant of Genghis Khan in male line
+				1763.06.23={death=yes}  # Moscow
+			}
+				bagrat_0016={ #// D1. Pr Yakov Bagration of Georgia, *1757, +Moscow 31.5.1835; m.Pss Vera Petrovna Urusov (*1765, +Moscow 1.10.1835)
+					name=Yakov
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0015	# Levan
+					mother=lowborn_1610	# Alexandra Yakovlevna Sibirsky descendant of Genghis Khan in male line
+					1757.01.01={birth=yes}
+					1782.01.01={add_spouse=lowborn_1611}	# Vera Petrovna Urusov
+					1835.05.31={death=yes}  # Moscow
+				}
+					bagrat_0017={ #// E1. Pr Nikolay Bagration of Georgia, *5.5.1783, +26.2.1861
+						name=Nikolay
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0016	# Yakov
+						mother=lowborn_1611	# Vera Petrovna Urusov
+						1783.05.05={birth=yes}
+						1861.02.26={death=yes}
+					}
+						bagrat_0018={ #// F1. Pr Ivan Bagration of Georgia, *1831, +3.7.1898
+							name=Ivan
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0017	# Nikolay
+							1831.01.01={birth=yes}
+							1898.07.03={death=yes}
+						}
+						bagrat_0019={ #// F2. Pr Peter Bagration of Georgia, a painter, *1840, +1892
+							name=Peter
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0017	# Nikolay
+							1840.01.01={birth=yes}
+							1892.01.01={death=yes}
+						}
+						bagrat_0020={ #// F3. Pss Alexandra, +1889
+							name=Alexandra
+							female=yes
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0017	# Nikolay
+							1841.01.01={birth=yes}  # EST.
+							1889.01.01={death=yes}
+						}
+					bagrat_0021={ #// E2. Pr Peter Bagration of Georgia, *1785, +k.a.Borodino 26.8.1812
+						name=Peter
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0016	# Yakov
+						mother=lowborn_1611	# Vera Petrovna Urusov
+						1785.01.01={birth=yes}
+						1812.08.26={death=yes}  # Borodino
+					}
+					bagrat_0022={ #// E3. Pr Yakov Bagration of Georgia, *1.11.1793, +Moscow 5.3.1866
+						name=Yakov
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0016	# Yakov
+						mother=lowborn_1611	# Vera Petrovna Urusov
+						1793.11.01={birth=yes}
+						1866.03.05={death=yes}  # Moscow
+					}
+						bagrat_0023={ #// F1. [illegitimate] Ivan Nikulin, *1831, +1862; m.Lyubov Pavlovna Kositsky (*16.8.1827, +5.9.1868)
+							name=Ivan
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0022	# Yakov
+							trait=bastard
+							1831.01.01={birth=yes}
+							1857.01.01={add_spouse=lowborn_1612}	# Lyubov Pavlovna Kositsky
+							1862.01.01={death=yes}
+						}
+					bagrat_0024={ #// E4. Pr Sergey Bagration of Georgia, chamberlain 1841, hofmeister, *7.5.1798, +Moscow 9.1.1880
+						name=Sergey
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0016	# Yakov
+						mother=lowborn_1611	# Vera Petrovna Urusov
+						1798.05.07={birth=yes}
+						1880.01.09={death=yes}  # Moscow
+					}
+					bagrat_0025={ #// E5. Pr Alexander Bagration of Georgia, *1802, +2.6.1828
+						name=Alexander
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0016	# Yakov
+						mother=lowborn_1611	# Vera Petrovna Urusov
+						1802.01.01={birth=yes}
+						1828.06.02={death=yes}
+					}
+					bagrat_0026={ #// E6. Pss Alexandra, *1787, +Moscow 26.3.1853
+						name=Alexandra
+						female=yes
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0016	# Yakov
+						mother=lowborn_1611	# Vera Petrovna Urusov
+						1787.01.01={birth=yes}
+						1853.03.26={death=yes}  # Moscow
+					}
+					bagrat_0027={ #// E7. Pss Vera, *26.2.1801, +24.11.1860; m.Dmitry Pavlovich Levshin (*18.8.1804, +2.9.1851)
+						name=Vera
+						female=yes
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0016	# Yakov
+						mother=lowborn_1611	# Vera Petrovna Urusov
+						1801.02.26={birth=yes}
+						1860.11.24={death=yes}
+					}
+				bagrat_0028={ #// D2. Pr Lev Bagration of Georgia, *27.2.1764, +Moscow 7.5.1800, bur Donskoy Monastery; m.Praskovia Ignatievna Tatishchev (*1.10.1767, +20.11.1841)
+					name=Lev
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0015	# Levan
+					mother=lowborn_1610	# Alexandra Yakovlevna Sibirsky descendant of Genghis Khan in male line
+					1764.02.27={birth=yes}
+					1789.01.01={add_spouse=tatishchev_0168}	# Praskovia Ignatievna Tatishchev
+					1800.05.07={death=yes}  # Moscow
+				}
+					bagrat_0029={ #// E1. Pr Evgrafy, *7.3.1788, +Moscow 28.11.1794, bur Donskoy Monastery
+						name=Evgrafy
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0028	# Lev
+						mother=tatishchev_0168	# Praskovia Ignatievna Tatishchev
+						1788.03.07={birth=yes}
+						1794.11.28={death=yes}  # Moscow
+					}
+					bagrat_0030={ #// E2. Pss Sofia; m.Andrey Bogdanovich Priklonsky (*1772, +Moscow 5.4.1840)
+						name=Sofia
+						female=yes
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0028	# Lev
+						mother=tatishchev_0168	# Praskovia Ignatievna Tatishchev
+						1791.01.01={birth=yes}  # EST.
+						1851.12.01={death=yes}  # EST.
+					}
+					bagrat_0031={ #// E3. Pss Ekaterina; m.Nikolay Petrovich Shishkov (*27.11.1793, +17.3.1869)
+						name=Ekaterina
+						female=yes
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0028	# Lev
+						mother=tatishchev_0168	# Praskovia Ignatievna Tatishchev
+						1793.01.01={birth=yes}  # EST.
+						1853.12.01={death=yes}  # EST.
+					}
+					bagrat_0032={ #// E4. Pss Olga, *13.3.1800, +10.1.1850; 1m: Alexander Alexeievich Turchaninov; 2m: Alexander Adrianovich Anichkov (*31.7.1798, +1.2.1839)
+						name=Olga
+						female=yes
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0028	# Lev
+						mother=tatishchev_0168	# Praskovia Ignatievna Tatishchev
+						1800.03.13={birth=yes}
+						1850.01.10={death=yes}
+					}
+				bagrat_0033={ #// D3. Pss Anna, *1753, +Moscow 4.2.1812; m.Pr Alexander Petrovich Dadianov (*1753/54, +Moscow 26.1.1811)
+					name=Anna
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0015	# Levan
+					mother=lowborn_1610	# Alexandra Yakovlevna Sibirsky descendant of Genghis Khan in male line
+					1753.01.01={birth=yes}
+					1812.02.04={death=yes}  # Moscow
+				}
+				bagrat_0034={ #// D4. Pss Maria; m.Vasily Ivanovich Markov
+					name=Maria
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0015	# Levan
+					mother=lowborn_1610	# Alexandra Yakovlevna Sibirsky descendant of Genghis Khan in male line
+					1760.01.01={birth=yes}  # EST.
+					1820.12.01={death=yes}  # EST.
+				}
+			bagrat_0035={ #// C5. Pss Elisaveta, +1768; m.Pr Nikolay Ivanovich Odoyevsky (+1798), master of freemason lodge
+				name=Elisaveta
+				female=yes
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0006	# Bakar
+				mother=lowborn_1602	# Anna Eristavi of Aragvi
+				1740.01.01={birth=yes}  # EST.
+				1768.01.01={death=yes}
+			}
+			bagrat_0036={ #// C6. Pss Maria; m.Pr Shiosh Baratashvili
+				name=Maria
+				female=yes
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0006	# Bakar
+				mother=lowborn_1602	# Anna Eristavi of Aragvi
+				1742.01.01={birth=yes}  # EST.
+				1802.12.01={death=yes}  # EST.
+			}
+		bagrat_0037={ #// B2. Giorgi, *Gori 12.8.1712, +Moscow 19.12.1789, bur Donskoy Monastery; m.Pss Maria Yakovlevna Dolgorukov
+			name=Giorgi
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0005	# Vakhtang
+			mother=lowborn_1599	# Rusudani of Circassia
+			1712.08.12={birth=yes}  # Gori
+			1749.01.01={add_spouse=100015417}	# Maria Yakovlevna Dolgorukov
+			1789.12.19={death=yes}  # Moscow
+		}
+			bagrat_0038={ #// C1. Pr Vasily Bagration of Georgia, *Moscow 21.10.1750, +Moscow 15.7.1764
+				name=Василий
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=russian
+				father=bagrat_0037	# Giorgi
+				mother=100015417	# Maria Yakovlevna Dolgorukov
+				1750.10.21={birth=yes}  # Moscow
+				1764.07.15={death=yes}  # Moscow
+			}
+			bagrat_0039={ #// C2. Pr Yakov Bagration of Georgia, *Moscow 31.5.1751, +Moscow 10.1.1768
+				name=Яков
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=russian
+				father=bagrat_0037	# Giorgi
+				mother=100015417	# Maria Yakovlevna Dolgorukov
+				1751.05.31={birth=yes}  # Moscow
+				1768.01.10={death=yes}  # Moscow
+			}
+			bagrat_0040={ #// C3. Pss Anna Bagration of Georgia, *14.5.1754, +Moscow 12.5.1779, bur Donskoy Monastery; m.1770 Pr Alexey Borisovich Galitsyn (*30.6.1732, +9.11.1792)
 				name=Anna
 				female=yes
-				dynasty_house=bagrat_gruzinsky_elder
-				religion=orthodox culture=russian
-				father=100284493	# Alexander Gruzinsky
-				1760.08.17={birth=yes}
-				1842.10.11={death=yes}
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0037	# Giorgi
+				mother=100015417	# Maria Yakovlevna Dolgorukov
+				1754.05.14={birth=yes}
+				1779.05.12={death=yes}  # Moscow
 			}
-	100084495={ # B2. Giorgi, *Gori 12.8.1712, +Moscow 19.12.1789, bur Donskoy Monastery; m.Pss Maria Yakovlevna Dolgorukov
-		name="Giorgi"
-		dynasty_house=bagrat_gruzinsky_elder
-		religion=orthodox culture=russian
-		father=bagr_g_02
-		1712.08.12={birth=yes}
-		1754.01.01={add_spouse=100015417}	# Maria Dolgorukov
-		1789.12.19={death=yes}
-	}
-		100084494={ # C3. Pss Anna Bagration of Georgia, *14.5.1754, +Moscow 12.5.1779, bur Donskoy Monastery; m.1770 Pr Alexey Borisovich Galitsyn (*30.6.1732, +9.11.1792)
-			name=Anna
+		bagrat_0041={ #// B3. Thamar, *1696, +Tbilisi 12.4.1746, bur Mtskheta; m.Tbilisi 2.2.1712 Teimuraz II of Kartli-Kacheti (*1695 +8.1.1762)
+			name=Thamar
 			female=yes
-			dynasty_house=bagrat_gruzinsky_elder
-			religion=orthodox culture=russian
-			father=100084495	# Jegor Bagrationi-Gruzinsky
-			mother=100015417	# Maria Dolgorukov
-			1754.05.14={birth=yes}
-			1779.05.12={death=yes}
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0005	# Vakhtang
+			mother=lowborn_1599	# Rusudani of Circassia
+			1696.01.01={birth=yes}
+			1746.04.12={death=yes}  # Tbilisi
 		}
-		
-100085162={ # D1. Pr Peter Bagration dit "le Grand Bagration", general of infantry 1809, commander-in-chief of the Western Army 1812, *Kizlyar 1762/64, +from wounds at Sima 12.9.1812; m.Gatchina 2.9.1800 (div 1804) Css Ekaterina Pavlovna Skavronsky (*1783 +21.5.1857)
-	name="Peter Bagration"
-	#dynasty=0
-	religion=orthodox culture=russian
-	1763.01.01={birth=yes}
-	1800.09.02={add_spouse=100021951}	# Ekaterina Skowronski
-	1804.01.01={remove_spouse=100021951}
-	1812.09.12={death=yes}
-}
+		bagrat_0042={ #// B4. Anuka, *1698, +Tbilisi 1746; m.2.2.1712 Pr Vakhushti Abashidze (+Tbilisi 13.1.1746)
+			name=Anuka
+			female=yes
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0005	# Vakhtang
+			mother=lowborn_1599	# Rusudani of Circassia
+			1698.01.01={birth=yes}
+			1746.01.01={death=yes}  # Tbilisi
+		}
+		bagrat_0043={ #// B5. [illegitimate] Vakhushti, famous historian, *1696, +Moscow 1758, bur Donskoy Monastery; m.1716 Pss Mariam Abashidze
+			name=Vakhushti
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0005	# Vakhtang
+			trait=bastard
+			1696.01.01={birth=yes}
+			1716.01.01={add_spouse=lowborn_1646}	# Mariam Abashidze
+			1758.01.01={death=yes}  # Moscow
+		}
+			bagrat_0044={ #// C1. Vano, general-major, *12.7.1719, +Moscow 6.12.1784
+				name=Vano
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0043	# Vakhushti
+				mother=lowborn_1646	# Mariam Abashidze
+				1719.07.12={birth=yes}
+				1784.12.06={death=yes}  # Moscow
+			}
+			bagrat_0045={ #// C2. Demetre, *1728, +Moscow 1737, bur Epiphany Monastery
+				name=Demetre
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0043	# Vakhushti
+				mother=lowborn_1646	# Mariam Abashidze
+				1728.01.01={birth=yes}
+				1737.01.01={death=yes}  # Moscow
+			}
+			bagrat_0046={ #// C3. Alexandra, *Tbilisi 12.8.1721, +Moscow 8.4.1789
+				name=Alexandra
+				female=yes
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0043	# Vakhushti
+				mother=lowborn_1646	# Mariam Abashidze
+				1721.08.12={birth=yes}  # Tbilisi
+				1789.04.08={death=yes}  # Moscow
+			}
+		bagrat_0047={ #// B6. [illegitimate] Paata, *1720, +executed XII.1765
+			name=Paata
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0005	# Vakhtang
+			trait=bastard
+			1720.01.01={birth=yes}
+			1765.12.01={death=yes}
+		}
+		bagrat_0048={ #// B7. [illgeitimate] Tuta, *1699, +1745; 1m: Pr Papuna Eristavi of Racha; 2m: Pr Gedevan Eristavi of Racha
+			name=Tuta
+			female=yes
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0005	# Vakhtang
+			mother=lowborn_1599	# Rusudani of Circassia
+			1699.01.01={birth=yes}
+			1745.01.01={death=yes}
+		}
+	bagrat_0049={ #// A3. [1m.] Domente IV, catholicos, +Tbilisi I.1742
+		name=Domente
+		dynasty=bagrat_gruzinsky_elder
+		religion=orthodox culture=georgian
+		father=bagrat_0001	# Levan
+		mother=lowborn_0562	# Tuta Gurieli
+		1677.01.01={birth=yes}  # EST.
+		1742.01.01={death=yes}  # Tbilisi
+	}
+	bagrat_0050={ #// A4. [1m.] Khwaramze; m.Pr Sazverel Kakhaberidze
+		name=Khwaramze
+		female=yes
+		dynasty=bagrat_gruzinsky_elder
+		religion=orthodox culture=georgian
+		father=bagrat_0001	# Levan
+		mother=lowborn_0562	# Tuta Gurieli
+		1678.01.01={birth=yes}  # EST.
+		1738.12.01={death=yes}  # EST.
+	}
+	bagrat_0051={ #// A5. [2m.] Iesse I, King of Kartli (1714-16)+(1724-27), *1680, +1727; 1m: 1712 Pss Mariam Kaplanishvili (+ca 1714); 2m: 1715 Elene of Kacheti (*1687, +27.4.1750)
+		name=Iesse
+		dynasty=bagrat_gruzinsky_elder
+		religion=orthodox culture=georgian
+		father=bagrat_0001	# Levan
+		mother=lowborn_0562	# Tuta Gurieli
+		1680.01.01={birth=yes}
+		1712.01.01={add_spouse=lowborn_1654}	# Mariam Kaplanishvili
+		1715.01.01={add_spouse=lowborn_1662}	# Elene of Kacheti
+		1727.01.01={death=yes}
+	}
+		bagrat_0052={ #// B1. [1m.] Giorgi, *1713, +executed XII.1765 Tbilisi; m.ca 1742 Pss Thamar Tsitsishvili
+			name=Giorgi
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0051	# Iesse
+			mother=lowborn_1654	# Mariam Kaplanishvili
+			1713.01.01={birth=yes}
+			1742.01.01={add_spouse=lowborn_1669}	# Thamar Tsitsishvili
+			1765.12.01={death=yes}
+		}
+			bagrat_0053={ #// C1. Pr Demetre of Georgia, *14.10.1746, +Moscow 5.7.1826; m.1791 Pss Mariam Tsitsishvili (*1767, +Moscow 5.11.1808)
+				name=Demetre
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0052	# Giorgi
+				mother=lowborn_1669	# Thamar Tsitsishvili
+				1746.10.14={birth=yes}
+				1791.01.01={add_spouse=lowborn_1670}	# Mariam Tsitsishvili
+				1826.07.05={death=yes}  # Moscow
+			}
+				bagrat_0054={ #// D1. Pss Elisaveta of Georgia, +Moscow 19.10.1863; m.Pr Giorgi Avalishvili (+Moscow 3.6.1850)
+					name=Elisaveta
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0053	# Demetre
+					mother=lowborn_1670	# Mariam Tsitsishvili
+					1792.01.01={birth=yes}  # EST.
+					1863.10.19={death=yes}  # Moscow
+				}
+				bagrat_0055={ #// D2. Pss Anastasia of Georgia, *15.12.1796, +24.10.1857 sa
+					name=Anastasia
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0053	# Demetre
+					mother=lowborn_1670	# Mariam Tsitsishvili
+					1796.12.15={birth=yes}
+					1857.10.24={death=yes}
+				}
+			bagrat_0056={ #// C2. Rostom-Mirza, a Persian officer
+				name=Rostom-Mirza
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0052	# Giorgi
+				mother=lowborn_1669	# Thamar Tsitsishvili
+				1748.01.01={birth=yes}  # EST.
+				1808.12.01={death=yes}  # EST.
+			}
+				bagrat_0057={ #// D1. Pss Tinatin; m.Pr Vakhtang Palavandishvili (*1795)
+					name=Tinatin
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0056	# Rostom-Mirza
+					1772.01.01={birth=yes}  # EST.
+					1832.12.01={death=yes}  # EST.
+				}
+			bagrat_0058={ #// C3. Mariam; m.Azad Khan Afghan
+				name=Mariam
+				female=yes
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0052	# Giorgi
+				mother=lowborn_1669	# Thamar Tsitsishvili
+				1750.01.01={birth=yes}  # EST.
+				1810.12.01={death=yes}  # EST.
+			}
+		bagrat_0059={ #// B2. [1m.] Teimuraz, catholicos as Anton II, archbishop of Vladimir (1764-88), *1720, +29.2.1788, bur Mtskheta
+			name=Teimuraz
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0051	# Iesse
+			mother=lowborn_1662	# Elene of Kacheti
+			1720.01.01={birth=yes}
+			1788.02.29={death=yes}
+		}
+		bagrat_0060={ #// B3. [illegitimate] Archil (Abdula-beg), fl 1752 in Persia; m.Kethevan of Kacheti
+			name=Archil
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0051	# Iesse
+			trait=bastard
+			1706.01.01={birth=yes}  # EST.
+			1731.01.01={add_spouse=lowborn_1675}	# Kethevan of Kacheti
+			1766.12.01={death=yes}  # EST.
+		}
+			bagrat_0061={ #// C1. Arsen, +1812
+				name=Arsen
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0060	# Archil
+				mother=lowborn_1675	# Kethevan of Kacheti
+				1742.01.01={birth=yes}  # EST.
+				1812.01.01={death=yes}
+			}
+			bagrat_0062={ #// C2. Mariam; 1m: Azat-khan of Tebriz; 2m: Pr Revaz Andronikashvili
+				name=Mariam
+				female=yes
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0060	# Archil
+				mother=lowborn_1675	# Kethevan of Kacheti
+				1740.01.01={birth=yes}  # EST.
+				1800.12.01={death=yes}  # EST.
+			}
+		bagrat_0063={ #// B4. [illegitimate] Alexander (Ishaq-beg), subcolonel, *1705, +IX.1773; m.Darejan N
+			name=Alexander
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0051	# Iesse
+			trait=bastard
+			1705.01.01={birth=yes}  # Ishaq-beg ) subcolonel (
+			1731.01.01={add_spouse=lowborn_1678}	# Darejan N
+			1773.09.01={death=yes}
+		}
+			bagrat_0064={ #// C1. Pr Ivan Bagration, secund-major, *1.11.1730, +Moscow 27.10.1795, bur Vsesvyatskoye
+				name=Ivan
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0063	# Alexander
+				mother=lowborn_1678	# Darejan N
+				1730.11.01={birth=yes}
+				1795.10.27={death=yes}  # Moscow
+			}
+				bagrat_0065={ #// D1. Pr Peter Bagration dit "le Grand Bagration", general of infantry 1809, commander-in-chief of the Western Army 1812, *Kizlyar 1762/64, +from wounds at Sima 12.9.1812, bur Borodino Field; m.Gatchina 2.9.1800 (div 1804) Css Ekaterina Pavlovna Skavronsky (*1783 +21.5.1857)
+					name=Peter
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0064	# Ivan
+					1763.01.01={birth=yes}
+					1800.09.02={add_spouse=100021951}	# Ekaterina Pavlovna Skavronsky
+					1804.01.01={remove_spouse=100021951}
+					1812.09.12={death=yes}
+				}
+				bagrat_0066={ #// D2. Pr Alexander Bagration, *1771, +1820; m.Daria Borisovna, a Cossack woman
+					name=Alexander
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0064	# Ivan
+					1771.01.01={birth=yes}
+					1805.01.01={add_spouse=lowborn_1680}	# Daria Borisovna Cossack woman
+					1820.01.01={death=yes}
+				}
+					bagrat_0067={ #// E1. Pr Peter Bagration, chemist, *1806; m.Elisaveta Ivanovna Nasekin
+						name=Peter
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0066	# Alexander
+						mother=lowborn_1680	# Daria Borisovna Cossack woman
+						1806.01.01={birth=yes}
+						1863.01.01={add_spouse=lowborn_1681}	# Elisaveta Ivanovna Nasekin
+						1876.12.01={death=yes}  # EST.
+					}
+						bagrat_0068={ #// F1. Pss Elisaveta, *23.8.1864, +2.3.1894 sa
+							name=Elisaveta
+							female=yes
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0067	# Peter
+							mother=lowborn_1681	# Elisaveta Ivanovna Nasekin
+							1864.08.23={birth=yes}
+							1894.03.02={death=yes}
+						}
+					bagrat_0069={ #// E2. Pr Roman Bagration, *1809; 1m: Pss Zinaida Alexeievna Ukhtomsky; 2m: Varvara Lvovna Shchepochkin
+						name=Roman
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0066	# Alexander
+						mother=lowborn_1680	# Daria Borisovna Cossack woman
+						1809.01.01={birth=yes}
+						1835.01.01={add_spouse=lowborn_1682}	# Zinaida Alexeievna Ukhtomsky
+						1840.01.01={add_spouse=lowborn_1683}	# Varvara Lvovna Shchepochkin
+						1879.12.01={death=yes}  # EST.
+					}
+				bagrat_0070={ #// D3. Pr Roman Bagration, general-lieutenant, *1778, +Tbilisi 2.3.1834; m.Anna Semyonovna Ivanov (*1799, +1875)
+					name=Roman
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0064	# Ivan
+					1778.01.01={birth=yes}
+					1817.01.01={add_spouse=lowborn_1684}	# Anna Semyonovna Ivanov
+					1834.03.02={death=yes}  # Tbilisi
+				}
+					bagrat_0071={ #// E1. Pr Peter Bagration, general-lieutenant, governor of Courland, Livland, and Estland 1870, *24.9.1818, +17.1.1876; m.Anna Alexeievna Martynov (*13.8.1823, +27.6.1908)
+						name=Peter
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0070	# Roman
+						mother=lowborn_1684	# Anna Semyonovna Ivanov
+						1818.09.24={birth=yes}
+						1845.01.01={add_spouse=lowborn_1685}	# Anna Alexeievna Martynov
+						1876.01.17={death=yes}
+					}
+						bagrat_0072={ #// F1. Pss Evgenia, *30.10.1846, +St.Petersburg 19.9.1903
+							name=Evgenia
+							female=yes
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0071	# Peter
+							mother=lowborn_1685	# Anna Alexeievna Martynov
+							1846.10.30={birth=yes}
+							1903.09.19={death=yes}  # Sankt Petersburg
+						}
+						bagrat_0073={ #// F2. Pss Elisaveta, *1847, +ca 1868; m.ca 1864 Eric Georges de Goldbeck (+1876)
+							name=Elisaveta
+							female=yes
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0071	# Peter
+							mother=lowborn_1685	# Anna Alexeievna Martynov
+							1847.01.01={birth=yes}
+							1868.01.01={death=yes}
+						}
+					bagrat_0074={ #// E2. Pr Ivan Bagration, *1824, +k.a.1860
+						name=Ivan
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0070	# Roman
+						mother=lowborn_1684	# Anna Semyonovna Ivanov
+						1824.01.01={birth=yes}
+						1860.01.01={death=yes}
+					}
+					bagrat_0075={ #// E3. Pss Elisaveta Bagration, *1820, +St.Petersburg 27.7.1867; m.Baron Alexander Nikolaievich Bohlendorff (+St.Petersburg 17.11.1882)
+						name=Elisaveta
+						female=yes
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0070	# Roman
+						mother=lowborn_1684	# Anna Semyonovna Ivanov
+						1820.01.01={birth=yes}
+						1867.07.27={death=yes}  # Sankt Petersburg
+					}
+				bagrat_0076={ #// D4. Pr Grigory Bagration, *1789, +21.9.1830
+					name=Grigory
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0064	# Ivan
+					1789.01.01={birth=yes}
+					1830.09.21={death=yes}
+				}
+			bagrat_0077={ #// C2. Pr Tamaz Bagration, *1743, fl 1759
+				name=Tamaz
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0063	# Alexander
+				mother=lowborn_1678	# Darejan N
+				1743.01.01={birth=yes}
+				1765.12.01={death=yes}  # EST.
+			}
+			bagrat_0078={ #// C3. Pr Kirill Bagration, general-major 1797, senator 1800, *1749, +Moscow 19.4.1828, bur Donskoy Monastery; 1m: Pss Varvara Alexeievna Khovansky (*1769 +16.4.1788); 2m: Alexandra Ivanovna Golikov (*1778, +Moscow 18.2.1853)
+				name=Kirill
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0063	# Alexander
+				mother=lowborn_1678	# Darejan N
+				1749.01.01={birth=yes}
+				1785.01.01={add_spouse=100015145}	# Varvara Alexeievna Khovansky
+				1789.04.16={add_spouse=lowborn_1689}	# Alexandra Ivanovna Golikov
+				1828.04.19={death=yes}  # Moscow
+			}
+				bagrat_0079={ #// D1. [1m.] Pr Alexey Bagration, *1787, +1824; m.Zoe Mavrocordato-Vacarescu
+					name=Alexey
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0078	# Kirill
+					mother=100015145	# Varvara Alexeievna Khovansky
+					1787.01.01={birth=yes}
+					1817.01.01={add_spouse=lowborn_1690}	# Zoe Mavrocordato-Vacarescu
+					1824.01.01={death=yes}
+				}
+					bagrat_0080={ #// E1. Pr Konstantin Bagration, *16.11.1818, +11.7.1860 sp; m.ca 1847 Nina Savvishna Martynov (*22.1.1825)
+						name=Konstantin
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0079	# Alexey
+						mother=lowborn_1690	# Zoe Mavrocordato-Vacarescu
+						1818.11.16={birth=yes}
+						1847.01.01={add_spouse=lowborn_1691}	# Nina Savvishna Martynov
+						1860.07.11={death=yes}
+					}
+					bagrat_0081={ #// E2. Pr Alexander Bagration
+						name=Alexander
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0079	# Alexey
+						mother=lowborn_1690	# Zoe Mavrocordato-Vacarescu
+						1819.01.01={birth=yes}  # EST.
+						1879.12.01={death=yes}  # EST.
+					}
+						bagrat_0082={ #// F1. Pss Zoe Bagration, *1840, +14.5.1884 sa
+							name=Zoe
+							female=yes
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0081	# Alexander
+							1840.01.01={birth=yes}
+							1884.05.14={death=yes}
+						}
+					bagrat_0083={ #// E3. Pss Alexandra Bagration; 1m: Manuelo Boleano; 2m: Ct Pavel Dmitrievich Kiselyov (*7.1.1788, +Moscow 14.11.1872), general of infantry, minister of imperial domains, ambassador to France, etc.
+						name=Alexandra
+						female=yes
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0079	# Alexey
+						mother=lowborn_1690	# Zoe Mavrocordato-Vacarescu
+						1821.01.01={birth=yes}  # EST.
+						1881.12.01={death=yes}  # EST.
+					}
+				bagrat_0084={ #// D2. [1m.] Pr Alexander Bagration, *1788, +before 1838; m.Vera Alexandrovna Solntsev
+					name=Alexander
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0078	# Kirill
+					mother=100015145	# Varvara Alexeievna Khovansky
+					1788.01.01={birth=yes}
+					1822.01.01={add_spouse=lowborn_1694}	# Vera Alexandrovna Solntsev
+					1838.01.01={death=yes}  # before
+				}
+					bagrat_0085={ #// E1. Pr Peter Bagration, *1824, +1882; m.Elisaveta Pavlovna Rodzianko (*15.1.1832, +Yalta 19.12.1913)
+						name=Peter
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0084	# Alexander
+						mother=lowborn_1694	# Vera Alexandrovna Solntsev
+						1824.01.01={birth=yes}
+						1861.01.01={add_spouse=lowborn_1695}	# Elisaveta Pavlovna Rodzianko
+						1882.01.01={death=yes}
+					}
+						bagrat_0086={ #// F1. Pr Alexander Bagration, colonel, *18.7.1862, +1920 in prison sp; he was the last descendant of King Vakhtang V in a male line.
+							name=Alexander
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0085	# Peter
+							mother=lowborn_1695	# Elisaveta Pavlovna Rodzianko
+							1862.07.18={birth=yes}
+							1920.01.01={death=yes}
+						}
+						bagrat_0087={ #// F2. Pr Dmitry Bagration, general-lieutenant 1916, director of Red Cavalry School 1919, *13.6.1863, +21.10.1919; m.Vera Mikhailovna Zakharin (*1883, +1947)
+							name=Dmitry
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0085	# Peter
+							mother=lowborn_1695	# Elisaveta Pavlovna Rodzianko
+							1863.06.13={birth=yes}
+							1906.01.01={add_spouse=lowborn_1696}	# Vera Mikhailovna Zakharin
+							1919.10.21={death=yes}
+						}
+							bagrat_0088={ #// G1. Pss Nina Bagration, +1927
+								name=Nina
+								female=yes
+								dynasty=bagrat_gruzinsky_elder
+								religion=orthodox culture=georgian
+								father=bagrat_0087	# Dmitry
+								mother=lowborn_1696	# Vera Mikhailovna Zakharin
+								1907.01.01={birth=yes}  # EST.
+								1927.01.01={death=yes}
+							}
+						bagrat_0089={ #// F3. Pss Elisaveta Bagration, *1865, +1940
+							name=Elisaveta
+							female=yes
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0085	# Peter
+							mother=lowborn_1695	# Elisaveta Pavlovna Rodzianko
+							1865.01.01={birth=yes}
+							1940.01.01={death=yes}
+						}
+						bagrat_0090={ #// F4. Pss Vera Bagration, *1872, +1946
+							name=Vera
+							female=yes
+							dynasty=bagrat_gruzinsky_elder
+							religion=orthodox culture=georgian
+							father=bagrat_0085	# Peter
+							mother=lowborn_1695	# Elisaveta Pavlovna Rodzianko
+							1872.01.01={birth=yes}
+							1946.01.01={death=yes}
+						}
+					bagrat_0091={ #// E2. Pss Varvara Bagration, *1823; m.Andrey Ivanovich Wojciechowich (*1802, +1872)
+						name=Varvara
+						female=yes
+						dynasty=bagrat_gruzinsky_elder
+						religion=orthodox culture=georgian
+						father=bagrat_0084	# Alexander
+						mother=lowborn_1694	# Vera Alexandrovna Solntsev
+						1823.01.01={birth=yes}
+						1898.12.01={death=yes}  # EST.
+					}
+				bagrat_0092={ #// D3. [2m.] Pss Natalia Bagration, *17.1.1804, +1873; m.Pavel Petrovich Albedinsky
+					name=Natalia
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0078	# Kirill
+					mother=100015145	# Varvara Alexeievna Khovansky
+					1804.01.17={birth=yes}
+					1873.01.01={death=yes}
+				}
+				bagrat_0093={ #// D4. [2m.] Pss Anna Bagration, *31.1.1805, +Moscow 14.4.1875; m.1832 Nikolay Petrovich Godein (*7.6.1790, +Moscow 16.2.1856)
+					name=Anna
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0078	# Kirill
+					mother=100015145	# Varvara Alexeievna Khovansky
+					1805.01.31={birth=yes}
+					1875.04.14={death=yes}  # Moscow
+				}
+				bagrat_0094={ #// D5. [2m.] Pss Daria Bagration, *9.12.1809, +Moscow 6.4.1831 sa
+					name=Daria
+					female=yes
+					dynasty=bagrat_gruzinsky_elder
+					religion=orthodox culture=georgian
+					father=bagrat_0078	# Kirill
+					mother=100015145	# Varvara Alexeievna Khovansky
+					1809.12.09={birth=yes}
+					1831.04.06={death=yes}  # Moscow
+				}
+			bagrat_0095={ #// C4. Pss Anna Bagration, *1723, +Moscow 19.3.1780; m.before 1743 Pr Piotr Ivanovich Dadianov (*Moscow 15.6.1716, +Moscow 7.9.1780)
+				name=Anna
+				female=yes
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0063	# Alexander
+				mother=lowborn_1678	# Darejan N
+				1723.01.01={birth=yes}
+				1780.03.19={death=yes}  # Moscow
+			}
+			bagrat_0096={ #// C5. Pss Begum Bagration; m.Pr Andronikashvili
+				name=Begum
+				female=yes
+				dynasty=bagrat_gruzinsky_elder
+				religion=orthodox culture=georgian
+				father=bagrat_0063	# Alexander
+				mother=lowborn_1678	# Darejan N
+				1736.01.01={birth=yes}  # EST.
+				1796.12.01={death=yes}  # EST.
+			}
+		bagrat_0097={ #// B5. [illegitimate] a daughter; m.Pr Adisher Tsitsishvili
+			name=daughter
+			female=yes
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0051	# Iesse
+			trait=bastard
+			1706.01.01={birth=yes}  # EST.
+			1766.12.01={death=yes}  # EST.
+		}
+	bagrat_0098={ #// A6. [2m.] Simon, *9.11.1683, +St.Petersburg 27.1.1741; 1m: Pss Gulhan Eristavi of Aragvi (+Tbilisi 1717); 2m: Anna Petrovna Potapov (fl 1743)
+		name=Simon
+		dynasty=bagrat_gruzinsky_elder
+		religion=orthodox culture=georgian
+		father=bagrat_0001	# Levan
+		mother=lowborn_0562	# Tuta Gurieli
+		1683.11.09={birth=yes}
+		1709.01.01={add_spouse=lowborn_1703}	# Gulhan Eristavi of Aragvi
+		1718.01.01={add_spouse=lowborn_1704}	# Anna Petrovna Potapov
+		1741.01.27={death=yes}  # Sankt Petersburg
+	}
+		bagrat_0099={ #// B1. Demetre, *1729, +19.3.1745; m.Stepanida Matveievna Rzhevsky (*XI.1705, +10.2.1762)
+			name=Demetre
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0098	# Simon
+			mother=lowborn_1703	# Gulhan Eristavi of Aragvi
+			1729.01.01={birth=yes}
+			1743.01.01={add_spouse=lowborn_1215}	# Stepanida Matveievna Rzhevsky
+			1745.03.19={death=yes}
+		}
+		bagrat_0100={ #// B2. [illegitimate] Pr Nikolay Semyonov, *28.11.1729; m.Anna Alimov
+			name=Nikolay
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0098	# Simon
+			trait=bastard
+			1729.11.28={birth=yes}
+			1755.01.01={add_spouse=lowborn_1706}	# Anna Alimov
+			1799.12.01={death=yes}  # EST.
+		}
+	bagrat_0102={ #// A7. [illegitimate] Rustam, prefect of Isfahan 1709, governor of Kerman 1717, +k.a.Gulnabad 8.3.1722; m.dau.of 'Ali Khan Daghistani, vizir of Persia
+		name=Rustam
+		dynasty=bagrat_gruzinsky_elder
+		religion=orthodox culture=georgian
+		father=bagrat_0001	# Levan
+		trait=bastard
+		1693.01.01={birth=yes}  # EST.
+		1719.01.01={add_spouse=lowborn_1707}	# dau.of 'Ali Khan Daghistani vizir of Persia
+		1722.03.08={death=yes}  # Gulnabad
+	}
+	bagrat_0103={ #// A8. [illegitimate] Konstantine, +1744; m.ca 1725 Khwaramze
+		name=Konstantine
+		dynasty=bagrat_gruzinsky_elder
+		religion=orthodox culture=georgian
+		father=bagrat_0001	# Levan
+		trait=bastard
+		1693.01.01={birth=yes}  # EST.
+		1744.01.01={death=yes}
+	}
+	bagrat_0104={ #// A9. [illegitimate] Adarnase, general-lieutenant, *15.11.1707, +Moscow 31.3.1784, bur Donskoy Monastery; m.Pss Ana Amilakvari (*10.4.1720, +Moscow 6.3.1794, bur Donskoy Monastery)
+		name=Adarnase
+		dynasty=bagrat_gruzinsky_elder
+		religion=orthodox culture=georgian
+		father=bagrat_0001	# Levan
+		trait=bastard
+		1707.11.15={birth=yes}
+		1743.01.01={add_spouse=lowborn_1709}	# Ana Amilakvari
+		1784.03.31={death=yes}  # Moscow
+	}
+		bagrat_0105={ #// B1. Anton
+			name=Anton
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0104	# Adarnase
+			mother=lowborn_1709	# Ana Amilakvari
+			1744.01.01={birth=yes}  # EST.
+			1804.12.01={death=yes}  # EST.
+		}
+		bagrat_0106={ #// B2. Varvara
+			name=Varvara
+			female=yes
+			dynasty=bagrat_gruzinsky_elder
+			religion=orthodox culture=georgian
+			father=bagrat_0104	# Adarnase
+			mother=lowborn_1709	# Ana Amilakvari
+			1745.01.01={birth=yes}  # EST.
+			1805.12.01={death=yes}  # EST.
+		}
 #bagrat10
 
 #bagrat11
