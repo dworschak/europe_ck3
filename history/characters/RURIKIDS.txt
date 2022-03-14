@@ -497,9 +497,9 @@
 					# BELOSELSKY-BELOZERSKY
 #rurik11
 
-#rurik12
+#rurik12 > rurik8
 
-#rurik12
+#rurik12 > rurik8
 
 #rurik15 > rurik12
 rurik_0043={ #// Vasiliy II "the Blind", Great Pr of Moscow (1425-33)+(1434-62), *Moscow 10.3.1415, +Moscow 27.3.1462; m.Moscow 8.2.1433 Maria Yaroslavna of Borovsk (+4.7.1485), dau.of Yaroslav Vladimirovich Pr of Maloyaroslavets by Maria Feodorovna Koshkina; They had issue:
@@ -996,7 +996,6 @@ odoevsky_0070={ #// Pr Ivan, +after 1527
 	1440.01.01={birth=yes}  # EST.
 	1528.01.01={death=yes}
 }
-	
 	odoevsky_0001={ #// Prince Roman Ivanovich Odojevsky (+1552)
 		name=Roman
 		dynasty_house=rurik_odoevsky
@@ -4558,7 +4557,7 @@ obolensky_0001={ #// Prince Ivan Konstantinovich of Obolensk (fl 1380)
 			father=obolensky_0003	# Василий
 			mother=lowborn_1369	# Maria Feodorovna N
 			1418.01.01={birth=yes}  # EST.
-			1443.01.01={add_spouse=lowborn_1407}	# N Saburov à issue the Princes Jaroslavov-Obolensky
+			1443.01.01={add_spouse=godunov_0007}	# N Saburov à issue the Princes Jaroslavov-Obolensky
 			1487.10.04={death=yes}  # Novgorod
 		}
 		obolensky_0006={ #// 3b) Pjotr, d.1510 à Issue, the Princes Nagojev-Obolensky
@@ -4750,192 +4749,7 @@ obolensky_0001={ #// Prince Ivan Konstantinovich of Obolensk (fl 1380)
 				1426.01.01={birth=yes}  # EST.
 				1487.12.01={death=yes}  # EST.
 			}
-				obolensky_0059={ #// 1d) Wassili Tufjaka fl 1562; his sons took the name Tufjakin-Obolensky
-					name=Василий
-					dynasty_house=rurik_obolensky_tufjakin
-					religion=orthodox culture=russian
-					father=obolensky_0058	# Борис
-					1487.01.01={birth=yes}  # EST.
-					1562.12.01={death=yes}  # EST.
-				}
-					obolensky_0060={ #// 1e) Prince Mikhail Tufjakin-Obolensky, k.a.1576
-						name=Михаил
-						dynasty_house=rurik_obolensky_tufjakin
-						religion=orthodox culture=russian
-						father=obolensky_0059	# Василий
-						1512.01.01={birth=yes}  # EST.
-						1576.01.01={death=yes}
-					}
-						obolensky_0061={ #// 1f) Wassili; m.1st NN; m.2nd Matriona N
-							name=Василий
-							dynasty_house=rurik_obolensky_tufjakin
-							religion=orthodox culture=russian
-							father=obolensky_0060	# Михаил
-							1538.01.01={birth=yes}  # EST.
-							1598.12.01={death=yes}  # EST.
-						}
-							obolensky_0062={ #// 1g) Wassili
-								name=Василий
-								dynasty_house=rurik_obolensky_tufjakin
-								religion=orthodox culture=russian
-								father=obolensky_0061	# Василий
-								1562.01.01={birth=yes}  # EST.
-								1625.12.01={death=yes}  # EST.
-							}
-								obolensky_0063={ #// 1h) Grigori; m.1672 Agrafena Grigorievna Nastshokin
-									name=Григорий
-									dynasty_house=rurik_obolensky_tufjakin
-									religion=orthodox culture=russian
-									father=obolensky_0062	# Василий
-									1625.01.01={birth=yes}  # EST.
-									1672.01.01={add_spouse=lowborn_1499}	# Agrafena Grigorievna Nastshokin
-									1685.12.01={death=yes}  # EST.
-								}
-									obolensky_0064={ #// 1i) Fjedor (1678-d.after 1751); m.1706 Marfa Nikitichna Weljaminov (1684-    )
-										name=Фёдор
-										dynasty_house=rurik_obolensky_tufjakin
-										religion=orthodox culture=russian
-										father=obolensky_0063	# Григорий
-										mother=lowborn_1499	# Agrafena Grigorievna Nastshokin
-										1678.01.01={birth=yes}
-										1706.01.01={add_spouse=lowborn_1500}	# Marfa Nikitichna Weljaminov
-										1752.01.01={death=yes}
-									}
-										obolensky_0065={ #// 1j) Pjotr, d.after 1775; m.1st Praskovia Mikhailovna N; m.2nd by 1740 Jelena Andreievna Bojev
-											name=Пётр
-											dynasty_house=rurik_obolensky_tufjakin
-											religion=orthodox culture=russian
-											father=obolensky_0064	# Фёдор
-											mother=lowborn_1500	# Марфа Nikitichna Weljaminov
-											1707.01.01={birth=yes}  # EST.
-											1733.01.01={add_spouse=lowborn_1501}	# Praskovia Mikhailovna N
-											1740.01.01={add_spouse=lowborn_1502}	# Jelena Andreievna Bojev
-											1776.01.01={death=yes}
-										}
-											obolensky_0066={ #// 1k) Wladimir (1737-1772); m.Anna Ivanovna Kozlov (1743-    )
-												name=Владимир
-												dynasty_house=rurik_obolensky_tufjakin
-												religion=orthodox culture=russian
-												father=obolensky_0065	# Пётр
-												mother=lowborn_1501	# Praskovia Mikhailovna N
-												1737.01.01={birth=yes}
-												1766.01.01={add_spouse=lowborn_1503}	# Anna Ivanovna Kozlov
-												1772.01.01={death=yes}
-											}
-												obolensky_0067={ #// 1l) Warwara; m.Nikolai Alekseievich Shishkin
-													name=Варвара
-													female=yes
-													dynasty_house=rurik_obolensky_tufjakin
-													religion=orthodox culture=russian
-													father=obolensky_0066	# Владимир
-													mother=lowborn_1503	# Anna Ivanovna Kozlov
-													1770.01.01={birth=yes}  # EST.
-													1827.12.01={death=yes}  # EST.
-												}
-											obolensky_0068={ #// 2k) Ivan (1740-1804); m.Pss Maria Aleksandrovna Dolgoruky
-												name=Иван
-												dynasty_house=rurik_obolensky_tufjakin
-												religion=orthodox culture=russian
-												father=obolensky_0065	# Пётр
-												mother=lowborn_1501	# Praskovia Mikhailovna N
-												1740.01.01={birth=yes}
-												1768.01.01={add_spouse=lowborn_1505}	# Maria Aleksandrovna Dolgoruky
-												1804.01.01={death=yes}
-											}
-												obolensky_0069={ #// 1l) Pjotr (1769-20 Feb 1845); m.Jekaterina Ossipovna Horvath (10 Feb 1777-6 Mar 1802)
-													name=Пётр
-													dynasty_house=rurik_obolensky_tufjakin
-													religion=orthodox culture=russian
-													father=obolensky_0068	# Иван
-													mother=lowborn_1505	# Maria Aleksandrovna Dolgoruky
-													1769.01.01={birth=yes}
-													1800.01.01={add_spouse=lowborn_1506}	# Jekaterina Ossipovna Horvath
-													1845.02.20={death=yes}
-												}
-											obolensky_0070={ #// 3k) Jekaterina; m.Wassili Ushakov
-												name=Екатерина
-												female=yes
-												dynasty_house=rurik_obolensky_tufjakin
-												religion=orthodox culture=russian
-												father=obolensky_0065	# Пётр
-												mother=lowborn_1501	# Praskovia Mikhailovna N
-												1742.01.01={birth=yes}  # EST.
-												1802.12.01={death=yes}  # EST.
-											}
-											obolensky_0071={ #// 4k) Anastasia (1749-18 Mar 1813); m.Pjotr Svetshin
-												name=Анастасия
-												female=yes
-												dynasty_house=rurik_obolensky_tufjakin
-												religion=orthodox culture=russian
-												father=obolensky_0065	# Пётр
-												mother=lowborn_1501	# Praskovia Mikhailovna N
-												1749.01.01={birth=yes}
-												1813.03.18={death=yes}
-											}
-										obolensky_0072={ #// 2j) Sergei (1724-1758)
-											name=Сергей
-											dynasty_house=rurik_obolensky_tufjakin
-											religion=orthodox culture=russian
-											father=obolensky_0064	# Фёдор
-											mother=lowborn_1500	# Марфа Nikitichna Weljaminov
-											1724.01.01={birth=yes}
-											1758.01.01={death=yes}
-										}
-									obolensky_0073={ #// 2i) Mawra, d.25 May 1722; m.Pr Mikhail Stcherbatov
-										name=Мавра
-										female=yes
-										dynasty_house=rurik_obolensky_tufjakin
-										religion=orthodox culture=russian
-										father=obolensky_0063	# Григорий
-										mother=lowborn_1499	# Agrafena Grigorievna Nastshokin
-										1680.01.01={birth=yes}  # EST.
-										1722.05.25={death=yes}
-									}
-								obolensky_0074={ #// 2h) Fekla; m.1684 Ivan Kolytschev
-									name=Фёкла
-									female=yes
-									dynasty_house=rurik_obolensky_tufjakin
-									religion=orthodox culture=russian
-									father=obolensky_0062	# Василий
-									1583.01.01={birth=yes}  # EST.
-									1658.12.01={death=yes}  # EST.
-								}
-								obolensky_0075={ #// 3h) Matriona; m.1666 Ivan Weljaminov-Zernov (k.a.1678)
-									name=Матрёна
-									female=yes
-									dynasty_house=rurik_obolensky_tufjakin
-									religion=orthodox culture=russian
-									father=obolensky_0062	# Василий
-									1583.01.01={birth=yes}  # EST.
-									1667.12.01={death=yes}  # EST.
-								}
-					obolensky_0076={ #// 2e) Prince Wassili Tufjakin-Obolensky, d.1595
-						name=Василий
-						dynasty_house=rurik_obolensky_tufjakin
-						religion=orthodox culture=russian
-						father=obolensky_0059	# Василий
-						1525.01.01={birth=yes}  # EST.
-						1595.01.01={death=yes}
-					}
-						obolensky_0077={ #// 1f) Grigori, d.ca 1636; m.Jewdokia Artemievna N
-							name=Григорий
-							dynasty_house=rurik_obolensky_tufjakin
-							religion=orthodox culture=russian
-							father=obolensky_0076	# Василий
-							1567.01.01={birth=yes}  # EST.
-							1592.01.01={add_spouse=lowborn_1512}	# Jewdokia Artemievna N
-							1636.01.01={death=yes}
-						}
-							obolensky_0078={ #// 1g) Maria; m.Pr Pjotr Prosorovsky
-								name=Мария
-								female=yes
-								dynasty_house=rurik_obolensky_tufjakin
-								religion=orthodox culture=russian
-								father=obolensky_0077	# Григорий
-								mother=lowborn_1512	# Jewdokia Artemievna N
-								1592.01.01={birth=yes}  # EST.
-								1652.12.01={death=yes}  # EST.
-							}
+				#// TUFJAKIN  -->  1d) Wassili Tufjaka fl 1562; his sons took the name Tufjakin-Obolensky
 			obolensky_0079={ #// 4c) Dmitri
 				name=Дмитрий
 				dynasty_house=rurik_obolensky
@@ -8857,6 +8671,15 @@ obolensky_0001={ #// Prince Ivan Konstantinovich of Obolensk (fl 1380)
 			1700.01.01={birth=yes}
 			1761.04.05={death=yes}
 		}
+			100097107={ #// 1c) Ekaterina (1725-17 Apr 1801); m.Pr Sergei Chovansky
+				name=Екатерина
+				female=yes
+				dynasty_house=rurik_obolensky
+				religion=orthodox culture=russian
+				father=100016604	# Пётр Оболенский Obolensky
+				1731.01.01={birth=yes}
+				1801.04.17={death=yes}
+			}
 			100016861={ #// 2c) Nikolai (1728-after 1796); m.Pss Maria Belosselskya
 				name=Николай
 				dynasty_house=rurik_obolensky
@@ -9742,6 +9565,196 @@ obolensky_0001={ #// Prince Ivan Konstantinovich of Obolensk (fl 1380)
 		1709.01.01={death=yes}
 }
 #Part 2
+
+#tjufjakin
+obolensky_0059={ #// 1d) Wassili Tufjaka fl 1562; his sons took the name Tufjakin-Obolensky
+	name=Василий
+	dynasty_house=rurik_obolensky_tufjakin
+	religion=orthodox culture=russian
+	father=obolensky_0058	# Борис
+	1487.01.01={birth=yes}  # EST.
+	1562.12.01={death=yes}  # EST.
+}
+	obolensky_0060={ #// 1e) Prince Mikhail Tufjakin-Obolensky, k.a.22.Oct 1578 
+		name=Михаил
+		dynasty_house=rurik_obolensky_tufjakin
+		religion=orthodox culture=russian
+		father=obolensky_0059	# Василий
+		1530.01.01={birth=yes}  # EST.
+		1578.10.22={death=yes}
+	}
+		obolensky_0061={ #// 1f) Wassili; m.1st NN; m.2nd Matriona N
+			name=Василий
+			dynasty_house=rurik_obolensky_tufjakin
+			religion=orthodox culture=russian
+			father=obolensky_0060	# Михаил
+			1560.01.01={birth=yes}  # EST.
+			1620.01.01={death=yes}  # EST.
+		}
+			obolensky_0062={ #// 1g) Wassili
+				name=Василий
+				dynasty_house=rurik_obolensky_tufjakin
+				religion=orthodox culture=russian
+				father=obolensky_0061	# Василий
+				1590.01.01={birth=yes}  # EST.
+				1640.12.01={death=yes}  # EST.
+			}
+				obolensky_0063={ #// 1h) Grigori; m.1672 Agrafena Grigorievna Nastshokin
+					name=Григорий
+					dynasty_house=rurik_obolensky_tufjakin
+					religion=orthodox culture=russian
+					father=obolensky_0062	# Василий
+					1636.01.01={birth=yes}  # EST.
+					1672.01.01={add_spouse=lowborn_1499}	# Agrafena Grigorievna Nastshokin
+					1685.12.01={death=yes}  # EST.
+				}
+					obolensky_0064={ #// 1i) Fjedor (1678-d.after 1751); m.1706 Marfa Nikitichna Weljaminov (1684-    )
+						name=Фёдор
+						dynasty_house=rurik_obolensky_tufjakin
+						religion=orthodox culture=russian
+						father=obolensky_0063	# Григорий
+						mother=lowborn_1499	# Agrafena Grigorievna Nastshokin
+						1678.01.01={birth=yes}
+						1706.01.01={add_spouse=lowborn_1500}	# Marfa Nikitichna Weljaminov
+						1752.01.01={death=yes}
+					}
+						obolensky_0065={ #// 1j) Pjotr, d.after 1775; m.1st Praskovia Mikhailovna N; m.2nd by 1740 Jelena Andreievna Bojev
+							name=Пётр
+							dynasty_house=rurik_obolensky_tufjakin
+							religion=orthodox culture=russian
+							father=obolensky_0064	# Фёдор
+							mother=lowborn_1500	# Марфа Nikitichna Weljaminov
+							1707.01.01={birth=yes}  # EST.
+							1733.01.01={add_spouse=lowborn_1501}	# Praskovia Mikhailovna N
+							1740.01.01={add_spouse=lowborn_1502}	# Jelena Andreievna Bojev
+							1776.01.01={death=yes}
+						}
+							obolensky_0066={ #// 1k) Wladimir (1737-1772); m.Anna Ivanovna Kozlov (1743-    )
+								name=Владимир
+								dynasty_house=rurik_obolensky_tufjakin
+								religion=orthodox culture=russian
+								father=obolensky_0065	# Пётр
+								mother=lowborn_1501	# Praskovia Mikhailovna N
+								1737.01.01={birth=yes}
+								1766.01.01={add_spouse=lowborn_1503}	# Anna Ivanovna Kozlov
+								1772.01.01={death=yes}
+							}
+								obolensky_0067={ #// 1l) Warwara; m.Nikolai Alekseievich Shishkin
+									name=Варвара
+									female=yes
+									dynasty_house=rurik_obolensky_tufjakin
+									religion=orthodox culture=russian
+									father=obolensky_0066	# Владимир
+									mother=lowborn_1503	# Anna Ivanovna Kozlov
+									1770.01.01={birth=yes}  # EST.
+									1827.12.01={death=yes}  # EST.
+								}
+							obolensky_0068={ #// 2k) Ivan (1740-1804); m.Pss Maria Aleksandrovna Dolgoruky
+								name=Иван
+								dynasty_house=rurik_obolensky_tufjakin
+								religion=orthodox culture=russian
+								father=obolensky_0065	# Пётр
+								mother=lowborn_1501	# Praskovia Mikhailovna N
+								1740.01.01={birth=yes}
+								1768.01.01={add_spouse=lowborn_1505}	# Maria Aleksandrovna Dolgoruky
+								1804.01.01={death=yes}
+							}
+								obolensky_0069={ #// 1l) Pjotr (1769-20 Feb 1845); m.Jekaterina Ossipovna Horvath (10 Feb 1777-6 Mar 1802)
+									name=Пётр
+									dynasty_house=rurik_obolensky_tufjakin
+									religion=orthodox culture=russian
+									father=obolensky_0068	# Иван
+									mother=lowborn_1505	# Maria Aleksandrovna Dolgoruky
+									1769.01.01={birth=yes}
+									1800.01.01={add_spouse=lowborn_1506}	# Jekaterina Ossipovna Horvath
+									1845.02.20={death=yes}
+								}
+							obolensky_0070={ #// 3k) Jekaterina; m.Wassili Ushakov
+								name=Екатерина
+								female=yes
+								dynasty_house=rurik_obolensky_tufjakin
+								religion=orthodox culture=russian
+								father=obolensky_0065	# Пётр
+								mother=lowborn_1501	# Praskovia Mikhailovna N
+								1742.01.01={birth=yes}  # EST.
+								1802.12.01={death=yes}  # EST.
+							}
+							obolensky_0071={ #// 4k) Anastasia (1749-18 Mar 1813); m.Pjotr Svetshin
+								name=Анастасия
+								female=yes
+								dynasty_house=rurik_obolensky_tufjakin
+								religion=orthodox culture=russian
+								father=obolensky_0065	# Пётр
+								mother=lowborn_1501	# Praskovia Mikhailovna N
+								1749.01.01={birth=yes}
+								1813.03.18={death=yes}
+							}
+						obolensky_0072={ #// 2j) Sergei (1724-1758)
+							name=Сергей
+							dynasty_house=rurik_obolensky_tufjakin
+							religion=orthodox culture=russian
+							father=obolensky_0064	# Фёдор
+							mother=lowborn_1500	# Марфа Nikitichna Weljaminov
+							1724.01.01={birth=yes}
+							1758.01.01={death=yes}
+						}
+					obolensky_0073={ #// 2i) Mawra, d.25 May 1722; m.Pr Mikhail Stcherbatov
+						name=Мавра
+						female=yes
+						dynasty_house=rurik_obolensky_tufjakin
+						religion=orthodox culture=russian
+						father=obolensky_0063	# Григорий
+						mother=lowborn_1499	# Agrafena Grigorievna Nastshokin
+						1680.01.01={birth=yes}  # EST.
+						1722.05.25={death=yes}
+					}
+				obolensky_0074={ #// 2h) Fekla; m.1684 Ivan Kolytschev
+					name=Фёкла
+					female=yes
+					dynasty_house=rurik_obolensky_tufjakin
+					religion=orthodox culture=russian
+					father=obolensky_0062	# Василий
+					1638.01.01={birth=yes}  # EST.
+					1658.12.01={death=yes}  # EST.
+				}
+				obolensky_0075={ #// 3h) Matriona; m.1666 Ivan Weljaminov-Zernov (k.a.1678)
+					name=Матрёна
+					female=yes
+					dynasty_house=rurik_obolensky_tufjakin
+					religion=orthodox culture=russian
+					father=obolensky_0062	# Василий
+					1640.01.01={birth=yes}  # EST.
+					1667.12.01={death=yes}  # EST.
+				}
+	obolensky_0076={ #// 2e) Prince Wassili Tufjakin-Obolensky, d.1595
+		name=Василий
+		dynasty_house=rurik_obolensky_tufjakin
+		religion=orthodox culture=russian
+		father=obolensky_0059	# Василий
+		1525.01.01={birth=yes}  # EST.
+		1595.01.01={death=yes}
+	}
+		obolensky_0077={ #// 1f) Grigori, d.ca 1636; m.Jewdokia Artemievna N
+			name=Григорий
+			dynasty_house=rurik_obolensky_tufjakin
+			religion=orthodox culture=russian
+			father=obolensky_0076	# Василий
+			1567.01.01={birth=yes}  # EST.
+			1592.01.01={add_spouse=lowborn_1512}	# Jewdokia Artemievna N
+			1636.01.01={death=yes}
+		}
+			obolensky_0078={ #// 1g) Maria; m.Pr Pjotr Prosorovsky
+				name=Мария
+				female=yes
+				dynasty_house=rurik_obolensky_tufjakin
+				religion=orthodox culture=russian
+				father=obolensky_0077	# Григорий
+				mother=lowborn_1512	# Jewdokia Artemievna N
+				1592.01.01={birth=yes}  # EST.
+				1652.12.01={death=yes}  # EST.
+			}
+	# Тюфякин, Фёдор Васильевич
+#tjufjakin
 ## OBOLENSKY rurik_obolensky
 
 
@@ -20794,8 +20807,8 @@ kozelsky_0002={ #// A1. Roman
 										father=100021224	# Дмитрий Gorchakov
 										mother=100103210	# Вера Ivanovna Beck
 										1861.04.27={birth=yes}  # Sankt Petersburg
-										1885.07.03={add_spouse=100103215}	# PSS София Дмитриевна Golicyn
-										1895.01.01={remove_spouse=100103215}
+										1885.07.03={add_spouse=galitzin_0059}	# PSS София Дмитриевна Golicyn
+										1895.01.01={remove_spouse=galitzin_0059}
 										1896.01.01={add_spouse=100103226}	# CSS Анна Komarovsky
 										1927.01.01={death=yes}
 									}
@@ -31515,7 +31528,7 @@ gagarin_0001={ # Фёдор Андреевич Стародубский f:125202
 															mother=100017101	# Мария Голицын Golitsyn
 															1887.11.08={birth=yes}
 															1921.09.04={add_spouse=grabbe_0011}	# CSS Мария Граббе
-															1955.10.15={add_spouse=100081073}	# Анна Васильевна Burdulov
+															1955.10.15={add_spouse=lowborn_1662}	# Анна Васильевна Burdulov
 															1974.08.19={death=yes}
 														}
 															100015601={ #// 1m) Oleg (Ragusa 6 May 1922-missing 1945)

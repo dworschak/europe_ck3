@@ -1,4 +1,6 @@
-﻿#galitzin1
+﻿## Голицын
+
+#galitzin1
 100015850={ #// C2. Pr Andrei, boyar 1638, governor of Siberia (1633-35), +22.9.1638; m.Euphemia Yurievna Piliamova-Saburova (+29.1.1641)
 	name=Андрей
 	dynasty=1010005
@@ -17,7 +19,7 @@
 		1642.01.01={add_spouse=100089640}	# PSS Tatiana Ivanovna Romodanovsky
 		1652.01.21={death=yes}
 	}
-		# galitzin2  -->  E2. Pr Vasili, great boyar 1676, head of the Russian government (1682-89), *Moscow 1643, +Pinega 21.4.1714; 1m: Pss Fedosia Vasilievna Dolgorukova; 2m: Eudokia Ivanovna Streshneva; for his issue see HERE
+		#galitzin2  -->  E2. Pr Vasili, great boyar 1676, head of the Russian government (1682-89), *Moscow 1643, +Pinega 21.4.1714; 1m: Pss Fedosia Vasilievna Dolgorukova; 2m: Eudokia Ivanovna Streshneva; for his issue see HERE
 		100015900={ #// 2b) Irina; m.1657 Pr Jurij Trubetzkoi (d.12 Jul 1679) $$
 			name=Ирина
 			female=yes
@@ -2342,9 +2344,9 @@
 		1706.08.01={birth=yes}
 		1779.04.08={death=yes}
 	}
-# galitzin3
+#galitzin3
 
-# galitzin7
+#galitzin7
 100016141={ #// Pr Mikhail Andreievich Galitzine, boyar 1672, governor of Smolensk, Kiev, and Kursk, *1639, +25.9.1687; m.1663 Praskovia Nikitichna Kaftyreva (*28.10.1645, +1.11.1715)
 	name=Михаил
 	dynasty=1010005
@@ -2406,7 +2408,7 @@
 					1781.12.18={birth=yes}
 					1802.01.01={death=yes}
 				}
-				100016147={ #// 2e) Dmitri (26 Feb 1787-k.a.Borodino 22 Sep 1812)
+				100016147={ #// D1. Pr Dmitri, *26.12.1787, +k.a.Borodino 22.9.1812
 					name=Дмитрий
 					dynasty=1010005
 					religion=orthodox culture=russian
@@ -2414,17 +2416,383 @@
 					mother=100088661	# Maria Olsufiev
 					1787.02.26={birth=yes}
 					1812.09.22={death=yes}
-				}
-				100016148={ #// 3e) Mikhail (1796-1863)
+				}			
+				galitzin_0030={ #// D2. Pr Mikhail, chamberlain 1836, *Arkhangelskoye 7.10.1796, +Moscow 25.10.1863; m.St.Petersburg 30.1.1820 Pss Anna Nikolaievna Vyazemskaya (*Moscow 7.7.1796, +Moscow 21.5.1873)
 					name=Михаил
 					dynasty=1010005
 					religion=orthodox culture=russian
 					father=100016145	# Nikolai Golizyn
 					mother=100088661	# Maria Olsufiev
-					1796.01.01={birth=yes}
-					1863.01.01={death=yes}
+					1796.10.07={birth=yes}  # Arkhangelskoye
+					1820.01.30={add_spouse=lowborn_0587}	# Anna Nikolaievna Vyazemskaya
+					1863.10.25={death=yes}  # Moscow
 				}
-		100016149={ #// 3c) Anastasia (15 Oct 1698-12 Jan 1746); m.Pr Constantine Dmitrievich Kantemir (d.19 Jan 1747) $$
+					galitzin_0031={ #// E1. Pr Nikolai, chamberlain 1858, ober-hofmarshal 1865, senator, *St.Petersburg 8.11.1820, +St.Petersburg 22.3.1885; m.St.Petersburg 13.1.1849 Css Maria Sergeievna Sumarokova (*St.Petersburg 25.10.1830, +St.Petersburg 24.1.1892)
+						name=Николай
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=galitzin_0030	# Михаил
+						mother=lowborn_0587	# Anna Nikolaievna Vyazemskaya
+						1820.11.08={birth=yes}  # Sankt Petersburg
+						1849.01.13={add_spouse=lowborn_1064}	# Maria Sergeievna Sumarokova
+						1885.03.22={death=yes}  # Sankt Petersburg
+					}
+						galitzin_0032={ #// F1. Pr Mikhail, *St.Petersburg 3.10.1853, +St.Petersburg 27.5.1870
+							name=Михаил
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0031	# Николай
+							mother=lowborn_1064	# Maria Sergeievna Sumarokova
+							1853.10.03={birth=yes}  # Sankt Petersburg
+							1870.05.27={death=yes}  # Sankt Petersburg
+						}
+						galitzin_0033={ #// F2. Pss Alexandra, maid of honour, *Tsarskoye Selo 17.5.1857, +Paris 25.8.1937
+							name=Александра
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0031	# Николай
+							mother=lowborn_1064	# Maria Sergeievna Sumarokova
+							1857.05.17={birth=yes}  # Tsarskoye Selo
+							1937.08.25={death=yes}  # Paris
+						}
+						galitzin_0034={ #// F3. Pss Anna, *Pau 12.7.1859, +Beodra 14.2.1929; m.St.Petersburg 15.1.1884 Mikhail Vladimirovich Rodzyanko, Speaker of the 3rd and 4th State Dumas (*Tsopasnoye 6.2.1859, +Beodra 24.1.1924)
+							name=Анна
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0031	# Николай
+							mother=lowborn_1064	# Maria Sergeievna Sumarokova
+							1859.07.12={birth=yes}  # Pau
+							1929.02.14={death=yes}  # Beodra
+						}
+						galitzin_0035={ #// F4. Pss Maria, *St.Petersburg 26.3.1865, +Nice 18.6.1943; m.1903 Sergei Dmitrievich Sverbeyev (*12.6.1872, +k.a. Sea of Japan 26.5.1905)
+							name=Мария
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0031	# Николай
+							mother=lowborn_1064	# Maria Sergeievna Sumarokova
+							1865.03.26={birth=yes}  # Sankt Petersburg
+							1943.06.18={death=yes}  # Nice
+						}
+						galitzin_0036={ #// F5. Pss Elena, *St.Petersburg 27.9.1867, +Nice 7.4.1943; m.St.Petersburg 19.9.1897 Andrei Mikhailovich Khitrovo (*1873, +24.3.1900)
+							name=Елена
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0031	# Николай
+							mother=lowborn_1064	# Maria Sergeievna Sumarokova
+							1867.09.27={birth=yes}  # Sankt Petersburg
+							1943.04.07={death=yes}  # Nice
+						}
+						galitzin_0037={ #// F6. Pr Sergei, *Pavlovsk 3.7.1871, +X.1919
+							name=Сергей
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0031	# Николай
+							mother=lowborn_1064	# Maria Sergeievna Sumarokova
+							1871.07.03={birth=yes}  # Pavlovsk
+							1919.10.01={death=yes}
+						}
+					galitzin_0038={ #// E2. Pr Lev, *St.Petersburg 12.3.1822, +Tsarskoye Selo 19.8.1848
+						name=Лев
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=galitzin_0030	# Михаил
+						mother=lowborn_0587	# Anna Nikolaievna Vyazemskaya
+						1822.03.12={birth=yes}  # Sankt Petersburg
+						1848.08.19={death=yes}  # Tsarskoye Selo
+					}
+					galitzin_0039={ #// E3. Pr Dmitri, *Moscow 12.1.1827, +Bratsevo 6.8.1895; m.St.Petersburg 25.4.1856 Zenaida Vasilievna Ladomirskaya (*Moscow 5.5.1832, +Yalta 22.4.1895)
+						name=Дмитрий
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=galitzin_0030	# Михаил
+						mother=lowborn_0587	# Anna Nikolaievna Vyazemskaya
+						1827.01.12={birth=yes}  # Moscow
+						1856.04.25={add_spouse=lowborn_1344}	# Zenaida Vasilievna Ladomirskaya
+						1895.08.06={death=yes}  # Bratsevo
+					}
+						galitzin_0040={ #// F1. Pr Vasili, *St.Petersburg 27.2.1857, +executed Moscow 24.2.1926; m.Moscow 2.7.1880 Css Praskovia Mikhailovna Tolstaya (*Moscow 24.6.1858, +Moscow 5.10.1918)
+							name=Василий
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0039	# Дмитрий
+							mother=lowborn_1344	# Zenaida Vasilievna Ladomirskaya
+							1857.02.27={birth=yes}  # Sankt Petersburg
+							1880.07.02={add_spouse=lowborn_1407}	# Praskovia Mikhailovna Tolstaya
+							1926.02.24={death=yes}  # Moscow
+						}
+							galitzin_0041={ #// G1. Pr Mikhail, *St.Petersburg 17.11.1882, +in prison USSR 10.10.1939; m.Gremyach 26.7.1906 Lidia Andreievna Karpova
+								name=Михаил
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0040	# Василий
+								mother=lowborn_1407	# Praskovia Mikhailovna Tolstaya
+								1882.11.17={birth=yes}  # Sankt Petersburg
+								1906.07.26={add_spouse=lowborn_1469}	# Lidia Andreievna Karpova
+								1939.10.10={death=yes}  # in prison USSR
+							}
+								galitzin_0042={ #// H1. Pss Irina, *1907, +1959; m.N Losev
+									name=Ирина
+									female=yes
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0041	# Михаил
+									mother=lowborn_1469	# Lidia Andreievna Karpova
+									1907.01.01={birth=yes}
+									1959.01.01={death=yes}
+								}
+							galitzin_0043={ #// G2. Pr Dmitri, *Moscow 16.5.1886, +Ste-Genevieve-des-Bois 21.3.1951; 1m: Kiev 3.6.1913 (div) Euphemia Lazareva (*Tiflis 16.2.1893, +France 17.10.1944); 2m: Varna 31.8.1922 Anna Vasilievna Burdukova (*Vladikavkaz 12.12.1897, +Ste-Genevieve-des-Bois 14.4.1989)
+								name=Дмитрий
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0040	# Василий
+								mother=lowborn_1407	# Praskovia Mikhailovna Tolstaya
+								1886.05.16={birth=yes}  # Moscow
+								1913.06.03={add_spouse=lowborn_1609}	# Euphemia Lazareva
+								1921.01.01={remove_spouse=lowborn_1609}
+								1922.08.31={add_spouse=lowborn_1662}	# Anna Vasilievna Burdukova
+								1951.03.21={death=yes}  # Ste-Genevieve-des-Bois
+							}
+							galitzin_0044={ #// G3. Pr Nikolai, *Gremyach 14.3.1899, +Washington 22.6.1980; 1m: Paris 24.8.1922 (div) Lydia de Miller (*Chekhovo 8.2.1903, +Richmond 29.10.1978); 2m: Geneva 27.3.1950 Doroteia Belyaieva (*St.Petersburg 15.11.1899, +Washington 24.8.1962); 3m: Washington 21.2.1963 Olga Alexandrovna Orlova (*St.Remy-en-Provence 10.8.1923, +Washington III.1996)
+								name=Николай
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0040	# Василий
+								mother=lowborn_1407	# Praskovia Mikhailovna Tolstaya
+								1899.03.14={birth=yes}  # Gremyach
+								1922.08.24={add_spouse=lowborn_1693}	#  de Miller
+								1949.01.01={remove_spouse=lowborn_1693}
+								1950.03.27={add_spouse=lowborn_1710}	# Doroteia Belyaieva
+								1963.02.21={add_spouse=lowborn_1711}	# Olga Alexandrovna Orlova
+								1980.06.22={death=yes}  # Washington
+							}
+								galitzin_0045={ #// H1. [1m.] Pss Praskovia, *Neuilly 7.1.1925; m.New York 15.2.1947 Nikolai Alexeivich Derevitsky (*Krasnodar 23.3.1923)
+									name=Прасковья
+									female=yes
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0044	# Николай
+									mother=lowborn_1693	#  de Miller
+									1925.01.07={birth=yes}  # Neuilly
+									2000.01.01={death=yes}  # EST.
+								}
+							galitzin_0046={ #// G4. Pss Zenaida, *St.Petersburg 12.8.1881, +Paris 5.2.1928; m.Novgorod-Seversky 1902 Boris Alexandrovich Agapov (*7.2.1880, +Paris 17.10.1937)
+								name=Зинаида
+								female=yes
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0040	# Василий
+								mother=lowborn_1407	# Praskovia Mikhailovna Tolstaya
+								1881.08.12={birth=yes}  # Sankt Petersburg
+								1928.02.05={death=yes}  # Paris
+							}
+							galitzin_0047={ #// G5. Pss Maria, *Borovichi 18.5.1894, +Krasnoturinsk 2.8.1943; 1m: Moscow 1918 (div) Alexei Petrovich Derevitsky; 2m: 1928 Mikhail Ivanovich Domashkevich
+								name=Мария
+								female=yes
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0040	# Василий
+								mother=lowborn_1407	# Praskovia Mikhailovna Tolstaya
+								1894.05.18={birth=yes}  # Borovichi
+								1943.08.02={death=yes}  # Krasnoturinsk
+							}
+						galitzin_0048={ #// F2. Pr Dmitri, *10.1.1859, +27.1.1859
+							name=Дмитрий
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0039	# Дмитрий
+							mother=lowborn_1344	# Zenaida Vasilievna Ladomirskaya
+							1859.01.10={birth=yes}
+							1859.01.27={death=yes}
+						}
+						galitzin_0049={ #// F3. Pr Alexei, *Moscow 6.10.1871, +Bordighera 7.7.1927; m.Moscow 31.3.1896 Css Anastasia Vasilievna Gudovich (*Chernigov 3.9.1871, +Bordighera 21.10.1944)
+							name=Алексей
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0039	# Дмитрий
+							mother=lowborn_1344	# Zenaida Vasilievna Ladomirskaya
+							1871.10.06={birth=yes}  # Moscow
+							1896.03.31={add_spouse=lowborn_1722}	# Anastasia Vasilievna Gudovich
+							1927.07.07={death=yes}  # Bordighera
+						}
+							galitzin_0050={ #// G1. Pr Vasili, *St.Petersburg 13.12.1897, +Tbilisi 17.9.1982; m.Tula 1924 Vera Martinovna Lidak
+								name=Василий
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0049	# Алексей
+								mother=lowborn_1722	# Anastasia Vasilievna Gudovich
+								1897.12.13={birth=yes}  # Sankt Petersburg
+								1924.01.01={add_spouse=lowborn_1723}	# Vera Martinovna Lidak
+								1982.09.17={death=yes}  # Tbilisi
+							}
+							galitzin_0051={ #// G2. Pr Nikolai, *Moscow 28.4.1904, +Jordanville 25.2.1955; 1m: London 7.12.1936 (div) Mary Elizabeth Dulcibel Vaudrey-Baker-Mill (*1905); 2m: New York 21.2.1955 Elizabeth Taylor (*Springfield 16.9.1919)
+								name=Николай
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0049	# Алексей
+								mother=lowborn_1722	# Anastasia Vasilievna Gudovich
+								1904.04.28={birth=yes}  # Moscow
+								1936.12.07={add_spouse=lowborn_1724}	# Elizabeth Dulcibel Vaudrey-Baker-Mill
+								1955.02.21={add_spouse=lowborn_1725}	# Elizabeth Taylor
+								1955.02.25={death=yes}  # Jordanville
+							}
+								galitzin_0052={ #// H1. Pr Peter, *Pittsfield 14.12.1943
+									name=Пётр
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0051	# Николай
+									mother=lowborn_1724	# Елизавета Dulcibel Vaudrey-Baker-Mill
+									1943.12.14={birth=yes}  # Pittsfield
+									2013.01.01={death=yes}  # EST.
+								}
+							galitzin_0053={ #// G3. Pr Dmitri, *Moscow 22.4.1909, +Monza 3.3.1981; m.San Remo 8.3.1944 Marina Beppina De Ponti (*Treviso 24.7.1919)
+								name=Дмитрий
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0049	# Алексей
+								mother=lowborn_1722	# Anastasia Vasilievna Gudovich
+								1909.04.22={birth=yes}  # Moscow
+								1944.03.08={add_spouse=lowborn_1726}	# Marina Beppina De Ponti
+								1981.03.03={death=yes}  # Monza
+							}
+								galitzin_0054={ #// H1. Pr Alexis, *Milan 10.12.1954
+									name=Alexis
+									dynasty=1010005
+									religion=orthodox culture=italian
+									father=galitzin_0053	# Дмитрий
+									mother=lowborn_1726	# Марина Beppina De Ponti
+									1954.12.10={birth=yes}  # Milan
+									#YYYY.01.01={death=yes}
+								}
+								galitzin_0055={ #// H2. Pss Lydia, *San Remo 11.5.1945; m.Bordighera 9.4.1972 Salvatore Cammarota (*Rome 20.5.1947)
+									name=Лидия
+									female=yes
+									dynasty=1010005
+									religion=orthodox culture=russian
+									father=galitzin_0053	# Дмитрий
+									mother=lowborn_1726	# Марина Beppina De Ponti
+									1945.05.11={birth=yes}
+									#YYYY.01.01={death=yes}
+								}
+							galitzin_0056={ #// G4. Pss Anna, *St.Petersburg 24.1.1897, +Taverny 8.7.1977; m.Constantinople 3.10.1921 Alexander Nikolaievich Tcherepanov (*Poltava 7.8.1897, +Paris 17.5.1969)
+								name=Анна
+								female=yes
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0049	# Алексей
+								mother=lowborn_1722	# Anastasia Vasilievna Gudovich
+								1897.01.24={birth=yes}  # Sankt Petersburg
+								1977.07.08={death=yes}  # Taverny
+							}
+							galitzin_0057={ #// G5. Pss Elisaveta, *St.Petersburg 14.9.1900, +Chelles 5.1.1990; m.Paris 28.12.1934 Marie Joseph Regis Flachaire de Roustan (*Reims 19.8.1901, +La Tronche 28.6.1979)
+								name=Елизавета
+								female=yes
+								dynasty=1010005
+								religion=orthodox culture=russian
+								father=galitzin_0049	# Алексей
+								mother=lowborn_1722	# Anastasia Vasilievna Gudovich
+								1900.09.14={birth=yes}  # Sankt Petersburg
+								1990.01.05={death=yes}  # Chelles
+							}
+						galitzin_0058={ #// F4. Pss Anna, *Moscow 6.1.1860, +Moscow 17.4.1886
+							name=Анна
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0039	# Дмитрий
+							mother=lowborn_1344	# Zenaida Vasilievna Ladomirskaya
+							1860.01.06={birth=yes}  # Moscow
+							1886.04.17={death=yes}  # Moscow
+						}
+						galitzin_0059={ #// F5. Pss Sofia, *Nice 14.6.1863, +Paris 6.4.1930; m.Moscow 3.7.1885 (div 1898) Pr Sergei Dmitrievich Gorchakov (*St.Petersburg 27.4.1861, +Siberia 3.6.1927)
+							name=Sofia
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=french
+							father=galitzin_0039	# Дмитрий
+							mother=lowborn_1344	# Zenaida Vasilievna Ladomirskaya
+							1863.06.14={birth=yes}  # Nice
+							1930.04.06={death=yes}  # Paris
+						}
+					galitzin_0060={ #// E4. Pr Mikhail, general-major 1888, *Moscow 2.11.1830, +St.Petersburg 5.1.1890; m.Moscow 1866 Vera Feodorovna Holtzer (*1848, +14.4.1884)
+						name=Михаил
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=galitzin_0030	# Михаил
+						mother=lowborn_0587	# Anna Nikolaievna Vyazemskaya
+						1830.11.02={birth=yes}  # Moscow
+						1866.01.01={add_spouse=lowborn_1731}	# Vera Feodorovna Holtzer
+						1890.01.05={death=yes}  # Sankt Petersburg
+					}
+						galitzin_0061={ #// F1. Pr Dmitri, *V.1867, +6.9.1913; 1m: 1894 (div) Sophia von Meck (*10.9.1867); 2m: Maria Nikolaievna Shumovskaya
+							name=Дмитрий
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0060	# Михаил
+							mother=lowborn_1731	# Vera Feodorovna Holtzer
+							1867.05.01={birth=yes}
+							1894.01.01={add_spouse=lowborn_1732}	#  von Meck
+							1897.01.01={remove_spouse=lowborn_1732}
+							1898.01.01={add_spouse=lowborn_1733}	# Maria Nikolaievna Shumovskaya
+							1913.09.06={death=yes}
+						}
+						galitzin_0062={ #// F2. Pr Lev, *1871; 1m: Maria Vladimirovna Nikitina; 2m: Daria Ivanovna Saracheva
+							name=Лев
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0060	# Михаил
+							mother=lowborn_1731	# Vera Feodorovna Holtzer
+							1871.01.01={birth=yes}
+							1897.01.01={add_spouse=lowborn_1734}	# Maria Vladimirovna Nikitina
+							1902.01.01={add_spouse=lowborn_1735}	# Daria Ivanovna Saracheva
+							1941.01.01={death=yes}  # EST.
+						}
+						galitzin_0063={ #// F3. Pss Vera, *30.12.1869; m.Nikolai Amvrosievich Kotlyarevsky
+							name=Вера
+							female=yes
+							dynasty=1010005
+							religion=orthodox culture=russian
+							father=galitzin_0060	# Михаил
+							mother=lowborn_1731	# Vera Feodorovna Holtzer
+							1869.12.30={birth=yes}
+							1944.01.01={death=yes}  # EST.
+						}
+					galitzin_0064={ #// E5. Pss Ekaterina, *Moscow 12.7.1826, +Moscow 22.7.1826
+						name=Екатерина
+						female=yes
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=galitzin_0030	# Михаил
+						mother=lowborn_0587	# Anna Nikolaievna Vyazemskaya
+						1826.07.12={birth=yes}  # Moscow
+						1826.07.22={death=yes}  # Moscow
+					}
+					galitzin_0065={ #// E6. Pss Maria, *Moscow 9.5.1829, +Moscow 8.12.1883; m.Moscow 18.4.1854 Lev Nikolaievich Volkov (*25.7.1825, +Moscow 14.4.1884)
+						name=Мария
+						female=yes
+						dynasty=1010005
+						religion=orthodox culture=russian
+						father=galitzin_0030	# Михаил
+						mother=lowborn_0587	# Anna Nikolaievna Vyazemskaya
+						1829.05.09={birth=yes}  # Moscow
+						1883.12.08={death=yes}  # Moscow
+					}
+				galitzin_0066={ #// D3. Pss Maria, *15.9.1798, +1.8.1812
+					name=Мария
+					female=yes
+					dynasty=1010005
+					religion=orthodox culture=russian
+					father=100016145	# Nikolai Golizyn
+					mother=100088661	# Maria Olsufiev
+					1798.09.15={birth=yes}
+					1812.08.01={death=yes}
+				}
+			# C2. Pss Varvara, *4.5.1747, +1777; m.8.3.1766 Ivan Grigorievich Naumov
+			# C3. Pss Anna, *28.10.1748, +14.10.1780; m.1773 Andrei Yakovlevich Maslov
+		100016149={ #// B3. Pss Anastasia, *15.10.1698, +12.1.1746; m.24.5.1724 Pr Konstantin Dmitrievich Kantemir (+19.1.1747) $$
 			name=Анастасия
 			female=yes
 			dynasty=1010005
@@ -2873,7 +3241,7 @@
 								religion=orthodox culture=russian
 								father=100014804	# Alexander Golizyn
 								mother=vjazemsky_0010	# PSS Sofia Vladimirovna Vyazemsky
-								1894.10.28={birth=yes}  # Persia )
+								1894.10.28={birth=yes}  # Recht, Iran
 								1917.04.23={add_spouse=100102515}	# Elisaveta Arkadievna Klepovsky
 								1928.01.01={remove_spouse=100102515}
 								1936.08.12={add_spouse=100102516}	# Claire Benoist d'Azy
@@ -3960,7 +4328,7 @@
 		1681.01.01={birth=yes}
 		1713.01.01={death=yes}
 	}
-# galitzin7
+#galitzin7
 
 
 ##  SECTION 3
@@ -4539,7 +4907,7 @@
 
 ##  SECTION 5
 100015897={ #// Pr Dimitri Vladimirovich Golizyn (Yaropolitsi 29 Oct 1771-Paris 27 Mar 1844); m.Tatiana Vassilievna Wassiltchikov (Paris 7 Jan 1783-Moskwa 28 Jan 1841)
-	name=Dimitri
+	name=Dmitri
 	dynasty=1010005
 	religion=orthodox culture=russian
 	father=100016026	# Wladimir Golizyn
