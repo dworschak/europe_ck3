@@ -17216,8 +17216,8 @@
 ## 100110353	Zamoyski				1012001	
 
 
-## 100110000	Czartoryski				1012000	
-100102240={ #//            Pjotr Stjepanovich        Czartoryski                              (1675-1742)     - [BARIATINSKY]
+## Czartoryski 1012000
+100102240={ #            Pjotr Stjepanovich        Czartoryski                              (1675-1742)     - [BARIATINSKY]
 	name="Pjotr Stjepanovich Czartoryski"
 	#dynasty=0
 	religion=catholic culture=polish
@@ -17225,7 +17225,15 @@
 	1700.01.01={add_spouse=100019804}	# Anissia Bariatinsky
 	1742.01.01={death=yes}  # EST.
 }
+100292240={ #         Mikołaj                   Czartoryski                              (1764-1826)     - [SOLOMIRSKY]
+	name="Mikołaj Czartoryski"
+	religion=catholic culture=polish
+	1764.01.01={birth=yes}  # EST.
+	1788.01.01={add_spouse=tatishchev_0185}	# dau Ивановна Татищев
+	1826.01.01={death=yes}
+}
 
+#czartor2
 100110019={ #// Pr Mikołaj Jerzy Czartoryski, Castellan of Volynia, Voivode of Podolia 1655 and Volynia 1657, *1585, +12.3.1661; m.Klewan I.1617 Pss Izabella Korecka (+16.3.1669)
 	name=Mikołaj
 	dynasty=1012000
@@ -17326,7 +17334,7 @@
 						1768.03.15={birth=yes}  # Pulawy
 						1854.10.21={death=yes}  # Vienna
 					}
-					# czartor3 -> E3. Pr Adam Jerzy, Duke of Klewán and Zuków, Russian Foreign affair Minister, University of Wilno Curator, senator wojewoda Królestwa Polskiego 1815, Chairman of Rzad Narodowy prezes Rzadu Narodowego 1831, Chairman of Senat, awarded with White Eagle Order 1815, *Warszawa 14.1.1770, +Montfermeil nr Paris 15.7.1861; m.Radzyn 25.9.1817 Anna Pss Sapieha-Kodenska (*St.Germain-en-Laye 1798, +Montpellier 24.12.1864); for his issue see HERE
+					#czartor3  ->   E3. Pr Adam Jerzy, Duke of Klewán and Zuków, Russian Foreign affair Minister, University of Wilno Curator, senator wojewoda Królestwa Polskiego 1815, Chairman of Rzad Narodowy prezes Rzadu Narodowego 1831, Chairman of Senat, awarded with White Eagle Order 1815, *Warszawa 14.1.1770, +Montfermeil nr Paris 15.7.1861; m.Radzyn 25.9.1817 Anna Pss Sapieha-Kodenska (*St.Germain-en-Laye 1798, +Montpellier 24.12.1864); for his issue see HERE
 					100110043={ #// E4. Pr Konstanty Adam Aleksander Tadeusz, Colonell wojsk Ksiestwa Warszawskiego 1809, Kingdom of Poland brigade-general general brygady Królestwa Polskiego 1815, general adiutant cesarski 1815, *Warszawa 28.10.1773, +Vienna 23.4.1860; 1m: Nieborów 20.7.1802 Pss Angelika Radziwill (*3.10.1781 +16.9.1808); 2m: Vienna 20.3.1810 Maria Dzierzanowska (*1790, +Vienna 28.11.1842)
 						name=Konstanty
 						dynasty=1012000
@@ -17338,7 +17346,7 @@
 						1810.03.20={add_spouse=100098103}	# Maria Dzierzanowski
 						1860.04.23={death=yes}  # Vienna
 					}
-						 # czartor4 -> F1. [1m.] Pr Adam Konstanty, *Warszawa 24.4.1804, +Rokosowo 19.12.1880; 1m: Schmiedeberg 12.12.1832 Wanda Radziwillówna (*29.1.1813 +16.9.1845); 2m: Kórnik 16.2.1848 Elzbieta Gfn Dzialynska (*Poznan 16.8.1826, +Rokosowo 21.8.1896); for his issue see HERE
+						#czartor4  ->   F1. [1m.] Pr Adam Konstanty, *Warszawa 24.4.1804, +Rokosowo 19.12.1880; 1m: Schmiedeberg 12.12.1832 Wanda Radziwillówna (*29.1.1813 +16.9.1845); 2m: Kórnik 16.2.1848 Elzbieta Gfn Dzialynska (*Poznan 16.8.1826, +Rokosowo 21.8.1896); for his issue see HERE
 						100110140={ #// F2. [2m.] Pr Aleksander Romuald, *7.2.1811, +Wola Justowska 9.7.1886; m.Vienna 20.8.1840 Pss Marcelina Radziwillówna (*18.5.1817 +5.4.1894) $$
 							name="Aleksander Romuald"
 							dynasty=1012000
@@ -17388,7 +17396,7 @@
 							1822.04.09={birth=yes}  # Passy
 							1891.10.31={death=yes}  # Vienna
 						}
-						# czartor5 -> F5. [2m.] Pr Jerzy Konstanty, *Dresden 24.4.1828, +Vienna 23.12.1912; m.Vienna 2.5.1861 Maria Cermakova (*Prague 4.5.1835, +Vienna 27.4.1916); for his issue see HERE
+						#czartor5   ->  F5. [2m.] Pr Jerzy Konstanty, *Dresden 24.4.1828, +Vienna 23.12.1912; m.Vienna 2.5.1861 Maria Cermakova (*Prague 4.5.1835, +Vienna 27.4.1916); for his issue see HERE
 					100110068={ #// E6. Pss Zofia, *Warszawa 15.9.1778/80, +Florence 27.2.1837; m.Pulawy 20.5.1798 Pr Stanisław Kostka Zamoyski (*3.1.1775 +2.4.1856) $$
 						name=Zofia
 						female=yes
@@ -17580,20 +17588,10 @@
 				1708.01.01={birth=yes}  # EST.
 				1728.12.04={death=yes}  # Opole nr Lwow
 			}
-#1615.01.01={holder=100110019} # Pr Mikołaj Jerzy Czartoryski
-#1661.03.12={holder=100110021} # A2. Pr Michał Jerzy
-#1692.04.13={holder=100110022} # B1. [3m.] Pr Kazimierz
-#1741.08.31={holder=100110024} # C1. Pr Fryderyk Michał
-#1775.08.13={holder=100110034} # C2. Pr August Aleksander
-#1782.04.04={holder=100110037} # D1. Pr Adam Kazimierz
-#1823.03.19={holder=100110040} # E3. Pr Adam Jerzy
-#1861.07.15={holder=100110048} # F1. [1m.] Pr Adam Konstanty
-#1880.12.19={holder=100110140} # F2. [2m.] Pr Aleksander Romuald
-#1886.07.09={holder=100110142} # G1. Pr Marcel Adam Konstanty Michał Feliks
-#1909.11.25={holder=100110148} # F5. [2m.] Pr Jerzy Konstanty
+#czartor2
 
-# czartor3
-100110040={ #// 2a) Adam Jerzy Pr Czartoryski, Duke von Klewán and Zuków (Warsaw 14 Jan 1770-Montfermeil, nr Paris 15 Jul 1861); m.Radzyn 25 Sep 1817 Anna Pss Sapieha-Kodenska (1798-Montpellier 24 Dec 1864) $$
+#czartor3
+100110040={ #// Pr Adam Jerzy Czartoryski, Duke of Klewán and Zuków (ksiaze na Klewaniu i Zukowie), Russian Foreign Minister (rosyjski minister spraw zagranicznych) (1804-06), University of Vilna Curator (1801-05), senator wojewoda Królestwa Polskiego 1815, prezes Rzadu Narodowego 1831, *Warszawa 14.1.1770, +Montfermeil nr Paris 15.7.1861; m.Radzyn 25.9.1817 Anna Pss Sapieha-Kodenska (*St.Germain-en-Laye 1798, +Montpellier 24.12.1864)
 	name=Adam
 	dynasty=1012000
 	religion=catholic culture=polish
@@ -17603,7 +17601,7 @@
 	1817.09.25={add_spouse=100111454}	# Anna Zofia Sapieha
 	1861.07.15={death=yes}
 }
-	100110006={ #// 1b) Witold Pr Czartoryski, Duke von Klewán and Zuków (Pulawy 6 Jun 1824-Algiers 14 Nov 1865); m.Paris 30 Oct 1851 Marie Gfn Grocholska (29 Nov 1833-Krakow 9 May 1928) $$
+	100110006={ #// A1. Pr Witold Kazimierz Filip Jan, Duke of Klewán and Zuków (ksiaze na Klewaniu i Zukowie), *Pulawy 6.4.1826, +Algiers 14.11.1865; m.Paris 30.10.1851 Maria Gfn Grocholska (*29.11.1833, +Kraków 9.5.1928), dau.of Henryk Grocholski by Ksawera Brzozowska
 		name=Witold
 		dynasty=1012000
 		religion=catholic culture=polish
@@ -17613,7 +17611,7 @@
 		1851.10.30={add_spouse=100035161}	# Marie Grocholski
 		1865.11.14={death=yes}
 	}
-	100110008={ #// 2b) Władysław Pr Czartoryski, Duke von Klewán and Zuków (Warsaw 3 Jul 1828-Boulogne-sur-Seine 23 Jun 1894); m.1st Malmaison 1 Mar 1855 Marie Amparo Muñoz y Borbón Cdsa de Vista-Alegre (Madrid 17 Nov 1834-Paris 19 Aug 1864); m.2d Chantilly 15 Jan 1872 Marguerite Pss d'Orléans (Paris 16 Feb 1846- Paris 24 Oct 1893)
+	100110008={ #// A2. Pr Wladyslaw (Ladislaus), Duke of Klewán and Zuków (ksiaze na Klewaniu i Zukowie), founder of Czartoriski Museum, *Warszawa 3.7.1828, +Boulogne-sur-Mer 23.4.1894; 1m: Malmaison nr Paris 1.3.1855 Marie Amparo Muñoz y Borbón Cdsa de Vista-Alegre (*Madrid 17.11.1834, +Paris 19.8.1864), dau.of Fernando Munoz Cte de Rianzares i de Montmorot by Christine Pss of Spain; 2m: Chantilly 15.1.1872 Pss Marguerite d'Orléans (*16.2.1846 +24.10.1893)
 		name=Władysław
 		dynasty=1012000
 		religion=catholic culture=polish
@@ -17751,9 +17749,9 @@
 		1832.12.19={birth=yes}
 		1899.03.18={death=yes}
 	}
-# czartor3
+#czartor3
 
-# czartor4	
+#czartor4	
 100110048={ #// 1b) Adam Konstanty (Warsaw 24 Jun 1804-Rokosowo 19 Dec 1880); m.1st Schmiedeberg 12 Dec 1832 Wanda Pss Radziwill (Berlin 29 Jan 1813-Ruhberg bei Schmiedeberg 16 Sep 1845); m.2d Kórnik 16 Feb 1848 Elisabeth Gfn Dzialynska (Posen 16 Aug 1826-Rokosowo 21 Aug 1896)
 	name=Adam
 	dynasty=1012000
@@ -18335,9 +18333,9 @@
 				1919.10.21={birth=yes}
 				1999.01.01={death=yes}	# EST.
 }
-# czartor4
+#czartor4
 
-# czartor5
+#czartor5
 100110148={ #// 5b) Jerzy Konstanty (Dresden 24 Apr 1828-Vienna 23 Dec 1912); m.Vienna 2 May 1861 Maria Czermak (Prague 4 May 1835-Vienna 27 Jun 1916)
 	name=Jerzy
 	dynasty=1012000
@@ -18953,5 +18951,5 @@
 				mother=100110343	# Anna Zamoyski
 				1949.06.16={birth=yes}
 			}
-# czartor5
-## 100110000	Czartoryski				1012000	
+#czartor5
+## Czartoryski 1012000
