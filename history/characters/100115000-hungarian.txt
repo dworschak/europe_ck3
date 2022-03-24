@@ -2639,10 +2639,10 @@
 			name="István Dániel de Vargyas"
 			#dynasty=0
 			religion=catholic culture=hungarian
-			1710.01.01={birth=yes}
+			1710.01.01={birth=yes}	# EST.
 			1732.01.01={add_spouse=100116198}	# Judit Teleki de Szék
 			1740.01.01={add_spouse=100117122}	# Éva Bethlen de Bethlen
-			1788.01.01={death=yes}
+			1788.01.01={death=yes}	# EST.
 		}
 			# H1. Sándor; m.Klára Vitéz de Bikal
 				# I1. Károly, *1766, +ca 1816; m.Ágnes Gyarmathy de Érsekújvár
@@ -2670,7 +2670,7 @@
 			name="István Dániel de Vargyas"
 			#dynasty=0
 			religion=catholic culture=hungarian
-			1703.01.01={birth=yes}
+			1703.01.01={birth=yes}	# EST.
 			1743.01.01={add_spouse=100117595}	# Ágnes Bánffy de Losoncz
 			1788.01.01={death=yes}
 		}
@@ -2688,7 +2688,7 @@
 		name="Lõrinc Dániel de Vargyas"
 		#dynasty=0
 		religion=catholic culture=hungarian
-		1703.01.01={birth=yes}
+		1703.01.01={birth=yes}  # EST.
 		1723.01.01={add_spouse=100117299}	# Borbála Teleki de Szék
 		1778.01.01={death=yes}  # EST.
 	}
@@ -7693,7 +7693,7 @@ josika_0001={ # Dániel Jósika
 		mother=100084274	# Ilona Mikó de Hídvég
 		1700.01.01={birth=yes}  # EST.
 		1728.01.01={add_spouse=100117491}	# Éva Teleki de Szék
-		1750.01.01={add_spouse=100117795}	# Krisztina Bánffy de Losoncz
+		1760.01.01={add_spouse=100117795}	# Krisztina Bánffy de Losoncz
 		1769.01.01={death=yes}
 	}
 		100119694={	#// B1. [1m.] Katalin, *1749, +1822; m.Baron Simon Kemény de Magyargyeromonostor (*1736 +1789) $$
@@ -7712,7 +7712,7 @@ josika_0001={ # Dániel Jósika
 			dynasty=1011800
 			religion=catholic culture=hungarian
 			father=100119693	# Miklós Wass de Czeg
-			mother=100117491	# Éva Teleki de Szék
+			mother=100117795
 			1767.01.01={birth=yes}
 			1794.05.17={death=yes}  # Cege
 		}
@@ -21241,9 +21241,9 @@ banffy_0001={ # László Bánffy de Losoncz, fl 1368, +1427; 1m: Sára Bánffy d
 		father=banffy_0001	# László
 		mother=100328951	# Sára Bánffy de Alsólendva
 		1388.01.01={birth=yes}  # EST.
-		1413.01.01={add_spouse=lowborn_0099}	# Margit Tari
-		1426.01.01={add_spouse=lowborn_0049}	# Margit Jakcs de Kusaly
-		1458.01.01={death=yes}
+		1413.01.01={add_spouse=lowborn_0049}	# Margit Jakcs de Kusaly
+		1426.01.01={add_spouse=lowborn_0099}	# Margit Tari
+		1459.01.01={death=yes}
 	}
 		banffy_0003={ # B1. [1m.] László, +ca 1497
 			name=László
@@ -21793,8 +21793,8 @@ banffy_0001={ # László Bánffy de Losoncz, fl 1368, +1427; 1m: Sára Bánffy d
 			dynasty=1011432
 			religion=catholic culture=hungarian
 			father=banffy_0002	# István
-			mother=lowborn_0049	# Margit Jakcs de Kusaly
-			1413.01.01={birth=yes}  # EST.
+			mother=lowborn_0099
+			1427.01.01={birth=yes}  # EST.
 			1488.12.01={death=yes}  # EST.
 		}
 		banffy_0062={ # B8. Krisztina; m.János Jakcs de Kusaly
@@ -21803,8 +21803,8 @@ banffy_0001={ # László Bánffy de Losoncz, fl 1368, +1427; 1m: Sára Bánffy d
 			dynasty=1011432
 			religion=catholic culture=hungarian
 			father=banffy_0002	# István
-			mother=lowborn_0049	# Margit Jakcs de Kusaly
-			1413.01.01={birth=yes}  # EST.
+			mother=lowborn_0099
+			1429.01.01={birth=yes}  # EST.
 			1488.12.01={death=yes}  # EST.
 		}
 	banffy_0063={ # A2. [1m.] Miklós, fl 1415
