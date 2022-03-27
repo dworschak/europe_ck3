@@ -210,6 +210,15 @@
 			1462.06.27={birth=yes}
 			1515.01.01={death=yes}
 		}
+			100209762={ #// C3. Claude, Dss de Bretagne et de Berry, *Romorentin 1499, +Blois 1524, bur St.Denis; m.t-Germain-en-Laye 1514 King François I of France (*1494 +1547)
+				name=Claude
+				female=yes
+				dynasty_house=house_valois
+				religion=catholic culture=french
+				father=100200762
+				1499.01.01={birth=yes}
+				1524.01.01={death=yes}
+			}
 	100200763={ #// A7. Jean "le Bon", Cte d'Angoulême et de Perigord, *26.6.1404/1399 !roglo!, +Chateau de Coignac-en-Angoumois 30.4.1467, bur Angoulême Cathedral; m.31.8.1449 Marguerite de Rohan (+1497)
 		name=Jean
 		dynasty_house=house_valois
@@ -232,6 +241,7 @@
 				religion=catholic culture=french
 				father=100200764	# Charles de Valois
 				1494.09.12={birth=yes}
+				1514.01.01={add_spouse=100209762}
 				1530.01.01={add_spouse=100021105}	# Eleonore v. Habsburg
 				1547.03.31={death=yes}
 			}
@@ -240,7 +250,7 @@
 					dynasty_house=house_valois
 					religion=catholic culture=french
 					father=100200765	# François de Valois
-					mother=100021105	# Eleonore v. Habsburg
+					mother=100209762
 					1519.03.31={birth=yes}
 					1559.07.10={death=yes}
 				}
@@ -295,7 +305,7 @@
 					female=yes
 					religion=catholic culture=french
 					father=100200765	# François de Valois
-					mother=100021105	# Eleonore v. Habsburg
+					mother=100209762
 					1520.08.10={birth=yes}
 					1537.07.07={death=yes}
 				}

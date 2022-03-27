@@ -3,7 +3,7 @@
 ##  100002130-100009231		Leiningen-Westerburg              1002127	  80		 19/ 69 = 27,54%
 ##  100002451-100003667		Leiningen                         1002028	 105		 55/101 = 54,46%
 ##  100007050-100008798		Waldeck u.Pyrmont                 1002023	 158		 50/121 = 41,32%
-##  100008751-100008795		Fugger von Babenhausen            1002105	  45		 11/ 32 = 34,38%
+##  100008751-100008795		Fugger von Babenhausen    fugger_babenhausen  45		 11/ 32 = 34,38%
 ##  100008801-100008832		Leyen und zu Hohengero            1002108	  30		  7/ 18 = 38,89%
 ##  100008872-100009239		Dohna-Schlobitten                 1002121	 108		 13/ 83 = 15,66%
 ##  100010138-100210186		Mensdorff-Pouilly                 1002129	 120		 22/ 76 = 28,95%
@@ -9110,7 +9110,7 @@
 									1661.01.01={birth=yes}
 									1739.01.01={death=yes}
 								}
-						# fugger4 -> F2. Otto Heinrich Gf zu Kirchberg und Weissenhorn, *1592, +1644; 1m: 1612 Anna Marschall von Pappenheim (+1616); 2m: 1618 Maria Elisabeth Frn von Waldburg (+1660); for his issue see HERE
+						#fugger4 -> F2. Otto Heinrich Gf zu Kirchberg und Weissenhorn, *1592, +1644; 1m: 1612 Anna Marschall von Pappenheim (+1616); 2m: 1618 Maria Elisabeth Frn von Waldburg (+1660); for his issue see HERE
 						100011032={ #// F4. Maria, *1594, +1635; 1m: 1615 Hieronymus Fugger Gf zu Kirchberg und Weissenhorn (+1633); 2m: 1634 Paul zu Spaur und Flavon
 							name=Maria
 							female=yes
@@ -9311,16 +9311,7 @@
 										1737.01.01={add_spouse=100100995}	# GFN Maria Josepha Reich von Reichenstein
 										1758.01.01={death=yes}
 									}
-								100011046={ #// H4. Johann Jakob Alexander Sigismund, Herr zu Babenhausen, *1691, +1759; m.1716 Euphemia Gfn von Toerring (*1698 +1771); for his issue see HERE
-									name=Johann
-									dynasty=1002252
-									religion=catholic culture=german
-									father=100011042	# Johann Rudolf Fugger
-									mother=100011352	# Johanna Katharina v. Waldburg zu Wolfegg und Zeil
-									1691.01.01={birth=yes}
-									1716.01.01={add_spouse=100100997}	# GFN Euphemia zu Toerring
-									1759.01.01={death=yes}
-								}
+								#fugger5  -->   H4. Johann Jakob Alexander Sigismund, Herr zu Babenhausen, *1691, +1759; m.1716 Euphemia Gfn von Toerring (*1698 +1771); for his issue see HERE
 					100011050={ #// E4. Hieronymus Gf zu Kirchberg und Weissenhorn, *1584, +1633; m.1615 Maria Fugger (+1635) $$
 						name=Hieronymus
 						dynasty=1002252
@@ -9417,7 +9408,7 @@
 #fugger2
 100009780={ #// Franz Sigmund Joseph Fugger Graf zu Kirchberg und Weissenhorn, *1661, +1720; m.1691 Maria Anna Gfn von Muggenthal (*1666 +1721)
 	name=Franz
-	dynasty=1002251
+	dynasty_house=fugger_kirchberg
 	religion=catholic culture=german
 	father=100010965	# Albrecht Fugger
 	mother=100010429	# Maria Franziska Fugger von Kirchberg u.Weißenhorn
@@ -9427,7 +9418,7 @@
 }
 	100009785={ #// A1. Adam Franz Joseph Gf zu Kirchberg und Weissenhorn, *1695, +1761; m.1718 Maria Isabella Antonia Frn von Schönberg (*1693 +1762)
 		name=Adam
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100009780	# Franz Fugger von Kirchberg u.Weißenhorn
 		mother=100084334	# GFN Maria Anna von Muggenthal
@@ -9437,7 +9428,7 @@
 	}
 		100009799={ #// B3. Johann Nepomuck Clemens August, *1723, +1781; m.1749 Maria Anna Gfn von Welsperg (*1728 +1809)
 			name=Johann
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009785	# Adam Fugger von Kirchberg u.Weißenhorn
 			mother=100086466	# FRN Maria Isabella von Schönberg
@@ -9447,7 +9438,7 @@
 		}
 			100009853={ #// C1. Anton Joseph, *1750, +1790; 1m: Maximiliane Frn von Eptingen (*1762 +1783); 2m: 1784 Euphemia Gfn Fugger von Babenhausen (*1763 +1835)
 				name="Anton Joseph"
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009799	# Johann Fugger von Kirchberg u.Weißenhorn
 				mother=100090425	# GFN Maria Anna von Welsperg
@@ -9458,7 +9449,7 @@
 				100009944={ #// D2. [2m.] Anna Amalia, *1785, +1830; m.1810 Ulrich Merhart von Bernegg (+1852)
 					name="Anna Amalia"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009853	# Anton Joseph Fugger von Kirchberg u.Weißenhorn
 					mother=100093202	# GFN Euphemia Fugger von Babenhausen
@@ -9467,7 +9458,7 @@
 				}
 				100009856={ #// D1. [2m.] Johann Nepomuck Friedrich, *1787, +1846; 1m: 1808 Franziska Frn von Freyberg (*1788 +1818); 2m: 1819 Johanna Frn von Freyberg (*1791 +1867)
 					name=Johann
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009853	# Anton Joseph Fugger von Kirchberg u.Weißenhorn
 					mother=100093202	# GFN Euphemia Fugger von Babenhausen
@@ -9477,7 +9468,7 @@
 				}
 					100009857={ #// E1. RAYMUND Ignaz Johann Nepomuk Maria Gf Fugger von Kirchberg und zu Weißenhorn, *Oberkirchberg 29.6.1810, +Augsburg 5.4.1867; m.Öttingen 21.6.1842 Pss Bertha Johanna zu Oettingen-Oettingen u.Oettingen-Spielberg (*1.8.1818 +11.9.1890) $$
 						name=Raymund
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009856	# Johann Fugger von Kirchberg u.Weißenhorn
 						mother=100093205	# FRN Franziska von Freyberg
@@ -9487,7 +9478,7 @@
 					}
 						100009866={ #// F1. FRANZ Raymund Johann Aloys Gf Fugger von Kirchberg und zu Weißenhorn, *Oberkirchberg 2.8.1843, +Kirchberg 12.9.1901; m.(morganatically) Chicago 19.11.1868 Elisabeth Roth (*Nürnberg 2.2.1850, +Oberkirchberg 5.12.1900)
 							name=Franz
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009857	# Raymund Fugger von Kirchberg u.Weißenhorn
 							mother=100012383	# Bertha Johanna zu Oettingen-Spielberg
@@ -9497,7 +9488,7 @@
 						}
 							100009922={ #// G1. Raimund von Fugger, Frhr von Fugger, *Oberkirchberg 2.5.1870, +Laupheim 16.8.1949; m.Vienna 25.11.1912 Wanda Pss Sulkowska (*Bielitz 8.1.1868, +Gmunden 25.11.1930) $$
 								name=Raimund
-								dynasty=1002251
+								dynasty_house=fugger_kirchberg
 								religion=catholic culture=german
 								father=100009866	# Franz Fugger von Kirchberg u.Weißenhorn
 								mother=100094457	# Elisabeth Roth
@@ -9508,7 +9499,7 @@
 						100009931={ #// F4. Anna, *Oberkirchberg 10.5.1845, +München 3.7.1931; m.Augsburg 3.5.1875 Karl Frhr von Reitzenstein (*München 8.11.1841, +München 27.11.1917)
 							name=Anna
 							female=yes
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009857	# Raymund Fugger von Kirchberg u.Weißenhorn
 							mother=100012383	# Bertha Johanna zu Oettingen-Spielberg
@@ -9518,7 +9509,7 @@
 						100009932={ #// F5. Maria, *Oberkirchberg 8.6.1847, +Oberkirchberg 22.3.1920
 							name=Maria
 							female=yes
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009857	# Raymund Fugger von Kirchberg u.Weißenhorn
 							mother=100012383	# Bertha Johanna zu Oettingen-Spielberg
@@ -9527,7 +9518,7 @@
 						}
 						100009923={ #// F2. Karl, *Augsburg 21.10.1848, +Passau 11.8.1938; m.Regensburg 21.5.1895 Therese Schremmer (*3.3.1861, +Kreuzhof bei Forstenried, München 28.8.1915)
 							name=Karl
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009857	# Raymund Fugger von Kirchberg u.Weißenhorn
 							mother=100012383	# Bertha Johanna zu Oettingen-Spielberg
@@ -9536,7 +9527,7 @@
 						}
 						100009926={ #// F3. GEORG Karl Maria Hermann Raymund Gf Fugger von Kirchberg und zu Weißenhorn, *Augsburg 2.1.1850, +München 6.1.1909; m.München 18.1.1896 Amélie Gfn von Montgelas (*Berlin 4.3.1867, +München 22.3.1936) $$
 							name=Georg
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009857	# Raymund Fugger von Kirchberg u.Weißenhorn
 							mother=100012383	# Bertha Johanna zu Oettingen-Spielberg
@@ -9546,7 +9537,7 @@
 						}
 							100009928={ #// G1. JOHANNES Hartmann Antonius von Padua Gabriel Raymund Joseph Maria Gf Fugger von Kirchberg und zu Weißenhorn, renounced his rights in favor of his brother 1935, *Gries bei Bozen 9.4.1897, +Kolbermoor 22.2.1985; 1m: München 22.7.1926 (div 1937) Maria Billard (*München 11.7.1896, +München 23.8.1941); 2m: Grünwald bei München 14.4.1967 Edith Radsack (*Hamburg-Barmbek-Uhlenhorst 6.9.1906)
 								name=Johannes
-								dynasty=1002251
+								dynasty_house=fugger_kirchberg
 								religion=catholic culture=german
 								father=100009926	# Georg Fugger von Kirchberg u.Weißenhorn
 								mother=100036159	# Amalie v. Montgelas
@@ -9556,7 +9547,7 @@
 							}
 							100009929={ #// G3. CLEMENS Joseph Raymund Ludwig Maria Gf Fugger von Kirchberg und zu Weißenhorn, *München 22.11.1905, +Oberkirchberg 31.12.1968; m.Niederstotzingen 1.6.1929 Elisabeth Gfn von Meldeghem (*Igling, Bavaria 1.6.1907, +München 2.2.1990)
 								name=Clemens
-								dynasty=1002251
+								dynasty_house=fugger_kirchberg
 								religion=catholic culture=german
 								father=100009926	# Georg Fugger von Kirchberg u.Weißenhorn
 								mother=100036159	# Amalie v. Montgelas
@@ -9567,7 +9558,7 @@
 								100009930={ #// H2. Maria-Elisabeth Gudila, took the name "Thun-Hohenstein-Gfn Fugger von Kirchberg und zu Weißenhorn" 15.9.1969, *Augsburg 13.10.1948; m.Oberkirchberg 18.10.1969 Gf Jaroslav von Thun und Hohenstein (*23.3.1935) $$
 									name=Maria-Elisabeth
 									female=yes
-									dynasty=1002251
+									dynasty_house=fugger_kirchberg
 									religion=catholic culture=german
 									father=100009929	# Clemens Fugger von Kirchberg u.Weißenhorn
 									mother=100095979	# GFN Elisabeth von Meldeghem
@@ -9576,7 +9567,7 @@
 						100009933={ #// F6. Ida, *Oberkirchberg 4.7.1851, +München 8.3.1939
 							name=Ida
 							female=yes
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009857	# Raymund Fugger von Kirchberg u.Weißenhorn
 							mother=100012383	# Bertha Johanna zu Oettingen-Spielberg
@@ -9586,7 +9577,7 @@
 						100009934={ #// F7. Therese, *Oberkirchberg 1.9.1857, +München 25.7.1943; m.Augsburg 29.4.1889 Clemens Frhr von Mauchenheim gt Bechtolsheim (*München 15.9.1852, +München 4.7.1930)
 							name=Therese
 							female=yes
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009857	# Raymund Fugger von Kirchberg u.Weißenhorn
 							mother=100012383	# Bertha Johanna zu Oettingen-Spielberg
@@ -9596,7 +9587,7 @@
 						100009935={ #// F8. Sophie, *Augsburg 23.8.1861, +Berlin 18.9.1949
 							name=Sophie
 							female=yes
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009857	# Raymund Fugger von Kirchberg u.Weißenhorn
 							mother=100012383	# Bertha Johanna zu Oettingen-Spielberg
@@ -9606,7 +9597,7 @@
 					100009942={ #// E10. Emma, *1816, +1866; m.1835 Karl Gf von Normann-Ehrenfels (+1856)
 						name=Emma
 						female=yes
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009856	# Johann Fugger von Kirchberg u.Weißenhorn
 						mother=100093205	# FRN Franziska von Freyberg
@@ -9616,7 +9607,7 @@
 			100009950={ #// C5. Maria Aloysia, *Ober-Kirchberg, Württemberg 29.5.1754, +Innsbruck 7.9.1799; m.1784 Gf Emanuel Maximilian von Starhemberg (*26.9.1752, +Wien 10.11.1814) $$
 				name="Maria Aloysia"
 				female=yes
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009799	# Johann Fugger von Kirchberg u.Weißenhorn
 				mother=100090425	# GFN Maria Anna von Welsperg
@@ -9633,7 +9624,7 @@
 #fugger4
 100009787={ #// Otto Heinrich Fugger Graf zu Kirchberg und Weissenhorn, Herr zu Mickhausen, Grönenbach und Mattsies, *12.1.1592, +12.10.1644, bur Augsburg; 1m: 29.10.1612 Anna Marschall von Pappenheim (*ca 1584 +13.9.1616); 2m: Schloss Zeil 10.9.1618 Maria Elisabeth Frn von Waldburg zu Zeil (*1600, +Augsburg 22.7.1660) $$
 	name="Otto Heinrich"
-	dynasty=1002251
+	dynasty_house=fugger_kirchberg
 	religion=catholic culture=german
 	father=100011012	# Christoph Fugger
 	mother=100100958	# GFN Maria zu Schwarzenberg
@@ -9643,7 +9634,7 @@
 }
 	100009789={ #// A1. Bonaventura, Herr zu Kirchheim und Schmiechen, *30.6.1619, +13.12.1693, bur Augsburg; m.München 14.11.1649 Claudia Frn von Mercy (*1631 +1708)
 		name=Bonaventura
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100009787	# Otto Heinrich Fugger von Kirchberg u.Weißenhorn
 		mother=100011349	# Maria Elisabeth v. Waldburg zu Wolfegg und Zeil
@@ -9653,7 +9644,7 @@
 	}
 		100009936={ #// B2. Johann Maximilian Joseph, Herr zu Kirchheim, Schmiechen und Türkenfeld, *München 7.10.1661, +München 18.11.1731; m.München 21.6.1686 Maria Elisabeth Gfn von Lodron und Laterano (*1650 +11.4.1721)
 			name=Johann
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009789	# Bonaventura Fugger von Kirchberg u.Weißenhorn
 			mother=100099231	# FRN Claudia von Mercy
@@ -9664,7 +9655,7 @@
 			100009961={ #// C9. Maria Anna Josepha Antonia, *München 25.10.1688, +München 13.11.1714; m.25.7.1709 Gf Klemens Aloys von Rechberg zu Hohenrechberg und Donzdorf (*4.9.1682, +23.12.1732)
 				name=Maria
 				female=yes
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009936	# Johann Fugger von Kirchberg u.Weißenhorn
 				mother=100094588	# GFN Maria Elisabeth von Lodron-Laterano
@@ -9673,7 +9664,7 @@
 			}
 			100009940={ #// C6. Cajetan Joseph, Herr zu Kirchheim, Schmiechen und Türkenfeld, *München 16.9.1697, +26.3.1764, bur Kirchheim; m.München 19.2.1726 Maria Anna Frn vom Stain zum Rechtenstein (*1706 +1783)
 				name="Cajetan Joseph"
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009936	# Johann Fugger von Kirchberg u.Weißenhorn
 				mother=100094588	# GFN Maria Elisabeth von Lodron-Laterano
@@ -9683,7 +9674,7 @@
 			}
 				100009941={ #// D2. Joseph Dominicus, Herr zu Kirchheim, Schmiechen, und Türkenfeld, *27.1.1730, +Augsburg 30.3.1780; m.Mainz 21.9.1756 Amalia Frn von Hoheneck (*1740 +1807)
 					name="Joseph Dominicus"
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009940	# Cajetan Joseph Fugger von Kirchberg u.Weißenhorn
 					mother=100099818	# FRN Maria Anna vom Stain zum Rechtenstein
@@ -9694,7 +9685,7 @@
 					100009958={ #// E6. Sophia Maria, *Kirchheim 3.1.1762, +Trinet 13.11.1824; m.*Kirchheim 5.9.1808 Aloys Gf zu Spaur und Flavon (+1821)
 						name=Sophia
 						female=yes
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009941	# Joseph Dominicus Fugger von Kirchberg u.Weißenhorn
 						mother=100099869	# FRN Amalia von Hoheneck
@@ -9703,7 +9694,7 @@
 					}
 					100009943={ #// E2. Joseph Hugo, Herr zu Kirchheim und Schmiechen, *Kirchheim 15.5.1763, +Augsburg 3.5.1840; m.Amberg 15.8.1800 Gfn Antonia von Lamberg (*29.1.1780 +23.11.1848) $$
 						name="Joseph Hugo"
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009941	# Joseph Dominicus Fugger von Kirchberg u.Weißenhorn
 						mother=100099869	# FRN Amalia von Hoheneck
@@ -9713,7 +9704,7 @@
 					}
 						100009945={ #// F1. Maximilian Joseph, Herr zu Kirchheim, *München 29.3.1801, +München 8.12.1840
 							name=Maximilian
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009943	# Joseph Hugo Fugger von Kirchberg u.Weißenhorn
 							mother=100024812	# Antonia v. Lamberg
@@ -9723,7 +9714,7 @@
 						100009948={ #// F5. Sophie, *Augsburg 5.2.1806, +14.6.1882; m.München 15.5.1827 Karl Frhr von Lilien zu Waldau und Ilsenbach (*1796, +1843)
 							name=Sophie
 							female=yes
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009943	# Joseph Hugo Fugger von Kirchberg u.Weißenhorn
 							mother=100024812	# Antonia v. Lamberg
@@ -9733,7 +9724,7 @@
 						100009951={ #// F8. Therese, *Kirchheim 25.8.1816, +18.3.1856; m.Augsburg 20.10.1844 Karl Frhr von Imhoff (*1821, +1877)
 							name=Therese
 							female=yes
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009943	# Joseph Hugo Fugger von Kirchberg u.Weißenhorn
 							mother=100024812	# Antonia v. Lamberg
@@ -9743,7 +9734,7 @@
 						100009952={ #// F9. Maria Anna, *Kirchheim 30.11.1817, +Hainhofen 20.2.1898; m.Augsburg 29.11.1838 Karl Frhr von Rehlingen, Herr zu Hainhofen und Horgau (*1807 +1860)
 							name="Maria Anna"
 							female=yes
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009943	# Joseph Hugo Fugger von Kirchberg u.Weißenhorn
 							mother=100024812	# Antonia v. Lamberg
@@ -9752,7 +9743,7 @@
 						}
 					100009953={ #// E3. Philipp Karl Johann Nepomuck, Graf Fugger-Kirchheim-Hoheneck 30.9.1806, *Kirchheim 16.5.1764, +Aschaffenburg 28.3.1821; m.1790 Marie Eleonore Frn von Heddesdorff (*1772 +1825)
 						name=Philipp
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009941	# Joseph Dominicus Fugger von Kirchberg u.Weißenhorn
 						mother=100099869	# FRN Amalia von Hoheneck
@@ -9762,7 +9753,7 @@
 					}
 						100009956={ #// F3. Joseph Hugo, *Augsburg 9.12.1796, +München 17.2.1837; m.Achaffenburg 28.9.1820 Anna Maria Dessloch (*1802, +1880)
 							name="Joseph Hugo"
-							dynasty=1002251
+							dynasty_house=fugger_kirchberg
 							religion=catholic culture=german
 							father=100009953	# Philipp Fugger von Kirchberg u.Weißenhorn
 							mother=100100471	# FRN Marie Eleonore von Heddesdorff
@@ -9772,7 +9763,7 @@
 						}
 							100009957={ #// G1. Philipp Carl, Herr zu Kirchheim, *Achaffenburg 9.11.1820, +München 3.1.1878, bur Kirchheim; m.9.6.1866 Franziska Gfn von Tauffkirchen (*1841 +1885)
 								name="Philipp Carl"
-								dynasty=1002251
+								dynasty_house=fugger_kirchberg
 								religion=catholic culture=german
 								father=100009956	# Joseph Hugo Fugger von Kirchberg u.Weißenhorn
 								mother=100100633	# Anna Dessloch
@@ -9783,7 +9774,7 @@
 					100009959={ #// E10. Maria Charlotte, *Kirchheim 31.10.1775, +München 15.1.1848; m.München 26.12.1805 Karl Joseph Frhr von Lilien, Herr zu Waldau (*1766 +1840)
 						name="Maria Charlotte"
 						female=yes
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009941	# Joseph Dominicus Fugger von Kirchberg u.Weißenhorn
 						mother=100099869	# FRN Amalia von Hoheneck
@@ -9792,7 +9783,7 @@
 					}
 			100009960={ #// C7. Maximilian Joseph Franz, Herr zu Aufhausen, *München 6.1.1699, +München 11.5.1761; m.1725 Maria Anna Amalia Frn von Egloff (*1697 +1774)
 				name=Maximilian
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009936	# Johann Fugger von Kirchberg u.Weißenhorn
 				mother=100094588	# GFN Maria Elisabeth von Lodron-Laterano
@@ -9801,7 +9792,7 @@
 			}
 		100009962={ #// B3. Franz Guidobald, *München 3.3.1663, +Bonn 18.1.1731; m.München 24.11.1695 Anna Rebekka Dillherr Frn von Althen (+1742)
 			name="Franz Guidobald"
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009789	# Bonaventura Fugger von Kirchberg u.Weißenhorn
 			mother=100099231	# FRN Claudia von Mercy
@@ -9812,7 +9803,7 @@
 			100009963={ #// C1. Anna Rebecca, *ca 1696, +24.12.1731; m.Liege 10.2.1715 Nicolas Maximilien Edmond, Cte d'Arberg de Valangin, Marquis de Triceres (*1681, +28.11.1767)
 				name="Anna Rebecca"
 				female=yes
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009962	# Franz Guidobald Fugger von Kirchberg u.Weißenhorn
 				mother=100100688	# FRN Anna Rebekka von Althen
@@ -9821,7 +9812,7 @@
 			}
 	100009964={ #// A2. Sebastian, Herr zu Nordendorf, Wörth, Mattsies und Duttenstein , *7.12.1620, +Augsburg 20.7.1677; m.1656 Maria Claudia Hundbiss von Waltrams (+1702)
 		name=Sebastian
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100009787	# Otto Heinrich Fugger von Kirchberg u.Weißenhorn
 		mother=100011349	# Maria Elisabeth v. Waldburg zu Wolfegg und Zeil
@@ -9832,7 +9823,7 @@
 		100009982={ #// B7. Maria Theresia, *30.12.1657, +13.5.1729; m.24.1.1675 Sigmund Joseph Fugger Gf zu Kirchberg und Weissenhorn (*15.8.1654 +30.1.1696) $$
 			name="Maria Theresia"
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009964	# Sebastian Fugger von Kirchberg u.Weißenhorn
 			mother=100100693	# Maria Claudia Hundbiss von Waltrams
@@ -9842,7 +9833,7 @@
 		100009983={ #// B8. Maria Anna, *Mattsies 16.3.1659, +Waldsee 12.7.1725; m.20.2.1684 Johann Frhr von Waldburg Gf zu Wolfegg in Waldsee (*13.10.1661, +25.12.1724) $$
 			name="Maria Anna"
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009964	# Sebastian Fugger von Kirchberg u.Weißenhorn
 			mother=100100693	# Maria Claudia Hundbiss von Waltrams
@@ -9851,7 +9842,7 @@
 		}
 		100009965={ #// B2. Marquard Eustach, Herr zu Möhren, Wörth und Niederalfingen, *Eichstätt 13.12.1661, +Möhren 19.6.1732; m.18.7.1689 Anna Felizitas Franziska Fugger (*4.10.1668 +10.12.1725) $$
 			name="Marquard Eustach"
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009964	# Sebastian Fugger von Kirchberg u.Weißenhorn
 			mother=100100693	# Maria Claudia Hundbiss von Waltrams
@@ -9861,7 +9852,7 @@
 		}
 			100009966={ #// C1. Johann Karl Eustach Franz, Herr zu Nordendorf, Niederalfingen, Möhren mit Gundelsheim, *Augsburg 23.11.1709, +Nordendorf 12.1.1784; 1m: Wilten 9.5.1736 Anna Gfn Khuen von Belasi (*1720 +1770); 2m: Möhren 29.2.1772 Maria Anna Gfn von Arz von und zu Vasegg (*4.7.1747, +Augsburg 15.6.1822)
 				name=Johann
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009965	# Marquard Eustach Fugger von Kirchberg u.Weißenhorn
 				mother=100011031	# Marianna Fugger von Kirchberg u.Weißenhorn
@@ -9873,7 +9864,7 @@
 				100009970={ #// D7. [1m.] Maria Franziska, *20.4.1738, +Bettenreute 19.12.1776; m.1773 Joseph Karl Frhr von Rehlingen (+1795)
 					name="Maria Franziska"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009966	# Johann Fugger von Kirchberg u.Weißenhorn
 					mother=100100712	# GFN Anna Khuen von Belasi
@@ -9883,7 +9874,7 @@
 				100009972={ #// D16. [1m.] Maria Elisabeth, *Möhren 3.7.1756, +after 6.10.1787; m.10.10.1783 Franz Ignaz Frhr von Eptingen (+1792)
 					name="Maria Elisabeth"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009966	# Johann Fugger von Kirchberg u.Weißenhorn
 					mother=100100712	# GFN Anna Khuen von Belasi
@@ -9893,7 +9884,7 @@
 				100009973={ #// D17. [2m.] Maria Anna Luise, *Nordendorf 31.5.1774, +Trento 10.3.1852; m.18.6.1793 Gf Joseph Innocenz von Thun und Hohenstein (*20.12.1761 +20.8.1842) $$
 					name="Maria Anna"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009966	# Johann Fugger von Kirchberg u.Weißenhorn
 					mother=100100713	# GFN Maria Anna von Arz von und zu Vasegg
@@ -9902,7 +9893,7 @@
 				}
 				100009968={ #// D6. [2m.] Carl Anton, Herr von Nordendorf, Niederalfingen, Möhren, Mickhausen und Schwindegg, *Möhren 24.12.1776, +Nordendorf 13.6.1848; m.15.2.1798 Maria Ludovika Gfn Schenk von Catsell (*31.5.1778 +1850)
 					name="Carl Anton"
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009966	# Johann Fugger von Kirchberg u.Weißenhorn
 					mother=100100713	# GFN Maria Anna von Arz von und zu Vasegg
@@ -9913,7 +9904,7 @@
 					100009969={ #// E1. Maria Antonia, *Augsburg 5.5.1799, +Augsburg 25.12.1876
 						name="Maria Antonia"
 						female=yes
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009968	# Carl Anton Fugger von Kirchberg u.Weißenhorn
 						mother=100100715	# GFN Maria Ludovika Schenk von Catsell
@@ -9923,7 +9914,7 @@
 				100009974={ #// D18. [2m.] Maria Franziska, *Möhren 3.4.1779, +Charlottenburg bei Berlin 11.9.1859; m.Anders Djurberg
 					name="Maria Franziska"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009966	# Johann Fugger von Kirchberg u.Weißenhorn
 					mother=100100713	# GFN Maria Anna von Arz von und zu Vasegg
@@ -9933,7 +9924,7 @@
 				100009975={ #// D19. [2m.] Walburga Crescentia, *Nordendorf 19.8.1784, +Schweinfurt 7.8.1829; m.Dinkelsbühl 30.5.1817 Philipp Frhr von Gebsattel (+1827)
 					name="Walburga Crescentia"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009966	# Johann Fugger von Kirchberg u.Weißenhorn
 					mother=100100713	# GFN Maria Anna von Arz von und zu Vasegg
@@ -9943,7 +9934,7 @@
 			100009976={ #// C2. Maria Josepha, *Augsburg 28.12.1710, +13.6.1796; m.22.11.1728 Friedrich Joseph Bonaventura Gf von Welsperg zu Raitenau und Primör (+1745)
 				name="Maria Josepha"
 				female=yes
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009965	# Marquard Eustach Fugger von Kirchberg u.Weißenhorn
 				mother=100011031	# Marianna Fugger von Kirchberg u.Weißenhorn
@@ -9952,7 +9943,7 @@
 			}
 		100009978={ #// B4. Eustach Maria, Herr zu Nordendorf und Duttenstein, *Mattsies 8.9.1665, +25.5.1743; m.Wertingen 15.6.1699 Maria Eva Dorothea Marschallin von Pappenheim (+1739)
 			name=Eustach
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009964	# Sebastian Fugger von Kirchberg u.Weißenhorn
 			mother=100100693	# Maria Claudia Hundbiss von Waltrams
@@ -9963,7 +9954,7 @@
 			100009979={ #// C1. Maria Claudia, *1704; m.Johann Franz Gf von Toerring (*16.12.1700, +3.2.1744)
 				name="Maria Claudia"
 				female=yes
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009978	# Eustach Fugger von Kirchberg u.Weißenhorn
 				mother=100100730	# Maria Eva Marschall von Pappenheim
@@ -9973,7 +9964,7 @@
 			100009980={ #// C2. Maria Theresia, *Augsburg 14.11.1713, +21.4.1768; m.28.10.1731 Johann Maximilian Gf von Preysing (*10.1.1687, +12.5.1764)
 				name="Maria Theresia"
 				female=yes
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009978	# Eustach Fugger von Kirchberg u.Weißenhorn
 				mother=100100730	# Maria Eva Marschall von Pappenheim
@@ -9983,7 +9974,7 @@
 			100009981={ #// C3. Maria Antonia, *Augsburg 11.1.1719, +Augsburg 26.9.1780; m.Augsburg 16.1.1735 Joseph Maria Fugger Gf zu Kirchberg und Weissenhorn (*25.7.1714, +21.7.1764) $$
 				name="Maria Antonia"
 				female=yes
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009978	# Eustach Fugger von Kirchberg u.Weißenhorn
 				mother=100100730	# Maria Eva Marschall von Pappenheim
@@ -9993,7 +9984,7 @@
 		100009984={ #// B10. Maria Claudia Franziska, *Mattsies 13.1.1668, +Konstanz 13.10.1721; m.Augsburg 22.2.1689 Gf Ínigo Lamoral von Thurn und Valsassina-Taxis (*1653, +1.10.1713) $$
 			name=Maria
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009964	# Sebastian Fugger von Kirchberg u.Weißenhorn
 			mother=100100693	# Maria Claudia Hundbiss von Waltrams
@@ -10002,7 +9993,7 @@
 		}
 	100009985={ #// A4. Christian Froben, *München 10.8.1627, +München 21.1.1672; m.25.11.1660 Anna Elizabeta Ctsa Pallavicini (+1683)
 		name="Christian Froben"
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100009787	# Otto Heinrich Fugger von Kirchberg u.Weißenhorn
 		mother=100011349	# Maria Elisabeth v. Waldburg zu Wolfegg und Zeil
@@ -10013,7 +10004,7 @@
 	100010000={ #// A14. Maria Magdalena, *19.7.1628; m.1651 Joseph Gf von Tauffkirchen-Guttenburg (+1697)
 		name="Maria Magdalena"
 		female=yes
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100009787	# Otto Heinrich Fugger von Kirchberg u.Weißenhorn
 		mother=100011349	# Maria Elisabeth v. Waldburg zu Wolfegg und Zeil
@@ -10023,7 +10014,7 @@
 	100010429={ #// A15. Maria Franziska, *12.8.1629, +12.7.1673; m.Weissenhorn 8.8.1650 Albrecht Fugger Gf zu Kirchberg und Weissenhorn (*17.11.1624 +10.11.1692) $$
 		name="Maria Franziska"
 		female=yes
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100009787	# Otto Heinrich Fugger von Kirchberg u.Weißenhorn
 		mother=100011349	# Maria Elisabeth v. Waldburg zu Wolfegg und Zeil
@@ -10033,7 +10024,7 @@
 	100010430={ #// A16. Maria Renata, *München 31.7.1630, +23.9.1669; m.6.6.1659 Franz Ignaz von und zu Schwendi (*24.11.1628, +17.5.1686)
 		name="Maria Renata"
 		female=yes
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100009787	# Otto Heinrich Fugger von Kirchberg u.Weißenhorn
 		mother=100011349	# Maria Elisabeth v. Waldburg zu Wolfegg und Zeil
@@ -10042,7 +10033,7 @@
 	}
 	100009986={ #// A5. Johann Otto, Graf von Kirchberg und Weissenhorn, *München 15.8.1631, +Hambach bei Düsseldorf 26.7.1687; m.17.11.1667 Klara Dorothea Frn von Welsperg und Primör (*1647 +1711)
 		name="Johann Otto"
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100009787	# Otto Heinrich Fugger von Kirchberg u.Weißenhorn
 		mother=100011349	# Maria Elisabeth v. Waldburg zu Wolfegg und Zeil
@@ -10053,7 +10044,7 @@
 		100011031={ #// B1. Anna Felizitas Franziska, Erbin von Möhren, *Innsbruck 4.10.1668, +10.12.1725; m.18.7.1689 Marquard Eustach Fugger Gf zu Kirchberg und Weissenhorn (*13.12.1661, +19.6.1732) $$
 			name=Marianna
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009986	# Johann Otto Fugger von Kirchberg u.Weißenhorn
 			mother=100100752	# FRN Klara Dorothea Welsperg von Primör u.Raitenau
@@ -10062,7 +10053,7 @@
 		}
 	100009988={ #// A10. Paul, Herr zu Mickhausen und Duttenstein, *Augsburg 13.10.1637, +München 27.4.1701; 1m: 1666 Maria Claudia Hausmann Frn von Namedy (+12.8.1684); 2m: 1685 Marie Anne Catherine de Saint-Germain (*1651 +1729)
 		name=Paul
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100009787	# Otto Heinrich Fugger von Kirchberg u.Weißenhorn
 		mother=100011349	# Maria Elisabeth v. Waldburg zu Wolfegg und Zeil
@@ -10072,7 +10063,7 @@
 	}
 		100009989={ #// B2. Maximilian Paris Karl Joseph, Herr zu Mickhausen und 1/2 Schwindegg, *Augsburg 15.4.1674, +Augsburg 10.1.1705; m.12.3.1699 Isabella Theresia Gfn von Magnis (*1678 +1702)
 			name=Maximilian
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009988	# Paul Fugger von Kirchberg u.Weißenhorn
 			mother=100100768	# FRN Maria Claudia Hausmann von Namedy
@@ -10082,7 +10073,7 @@
 		}
 			100009990={ #// C1. Johann Ludwig, Herr zu Mickhausen und Schwindegg, *Kronstadt, Siebenbürgen 25.6.1700, +Schwindegg 17.12.1779; m.München 8.10.1723 Maria Anna Frn von Elsenheim zu Wolnzach (*1703 +1770)
 				name="Johann Ludwig"
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009989	# Maximilian Fugger von Kirchberg u.Weißenhorn
 				mother=100100777	# GFN Isabella Theresia von Magnis
@@ -10092,7 +10083,7 @@
 			}
 				100009991={ #// D1. Joseph Franz Xaver, Herr zu Mickhausen und Schwindegg, *Obertaufkirchen 18.9.1731, +Schwindegg 16.7.1804; m.München 4.4.1771 Maria Adelheid Gfn von Tauffkirchen zu Guttenberg auf Ybm (*22.10.1749 +1828)
 					name=Joseph
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009990	# Johann Ludwig Fugger von Kirchberg u.Weißenhorn
 					mother=100100778	# FRN Maria Anna von Elsenheim zu Wolnzach
@@ -10103,7 +10094,7 @@
 					100009992={ #// E3. Maria Anna, *Schwindegg 7.6.1773, +1823; m.19.9.1790 Joseph Ignaz Gf von Fränking Frhr von und zu Alten-Franking (*5.11.1764, +1829)
 						name="Maria Anna"
 						female=yes
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009991	# Joseph Fugger von Kirchberg u.Weißenhorn
 						mother=100100779	# GFN Maria Adelheid von Tauffkirchen zu Guttenberg auf Ybm
@@ -10113,7 +10104,7 @@
 					100009993={ #// E4. Maria Theresia, *7.6.1775, +München 3.9.1810; m.13.11.1796 Franz Xaver Gf von Freyen-Seyboltstorff (+1825)
 						name="Maria Theresia"
 						female=yes
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009991	# Joseph Fugger von Kirchberg u.Weißenhorn
 						mother=100100779	# GFN Maria Adelheid von Tauffkirchen zu Guttenberg auf Ybm
@@ -10123,7 +10114,7 @@
 				100009995={ #// D3. Maria Adelheid, *3.5.1733, +Trug bei Oberviechtach 10.5.1789; 1m: 13.9.1758 Joseph Maria Frhr von Packenreuth, Herr zu Sendling und Holzhausen (+1779); 2m: München 16.7.1780 Stanislaus Gf von Tauffkirchen (+1830)
 					name="Maria Adelheid"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009990	# Johann Ludwig Fugger von Kirchberg u.Weißenhorn
 					mother=100100778	# FRN Maria Anna von Elsenheim zu Wolnzach
@@ -10133,7 +10124,7 @@
 				100009996={ #// D5. Maria Karolina, *20.4.1743, +Jetzendorf, Oberbayern 5.11.1808; m.Schwindegg 2.2.1770 Max Gf von Lösch, Herr zu Hilgertshausen (*1745 +1829)
 					name="Maria Karolina"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009990	# Johann Ludwig Fugger von Kirchberg u.Weißenhorn
 					mother=100100778	# FRN Maria Anna von Elsenheim zu Wolnzach
@@ -10143,7 +10134,7 @@
 		100009998={ #// B8. Maria Katharina, *Augsburg 3.4.1675, +Zabor 15.6.1748; m.Düsseldorf 1704 Adam Veit Gf Lazansky z Bukowe (*25.5.1680 +14.5.1737)
 			name="Maria Katharina"
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009988	# Paul Fugger von Kirchberg u.Weißenhorn
 			mother=100100768	# FRN Maria Claudia Hausmann von Namedy
@@ -10153,7 +10144,7 @@
 		100009999={ #// B10. Maria Margareta, *Augsburg 4.4.1677, +Mengkofen 16.10.1724; m.1702 Franz Adam Joseph Frhr von Lerchenfeld (+1742)
 			name="Maria Margareta"
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009988	# Paul Fugger von Kirchberg u.Weißenhorn
 			mother=100100768	# FRN Maria Claudia Hausmann von Namedy
@@ -10162,7 +10153,7 @@
 		}
 		100009997={ #// B3. Pius Joseph, Herr zu Mickhausen und Schwindegg, *1680, +Mickhausen 14.2.1732; m.Günzburg 2.11.1705 Maria Anna Frn Vollmer von Riedern (*1686 +1754)
 			name="Pius Joseph"
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009988	# Paul Fugger von Kirchberg u.Weißenhorn
 			mother=100100768	# FRN Maria Claudia Hausmann von Namedy
@@ -10171,10 +10162,492 @@
 		}
 #fugger4
 
+#fugger5
+100011046={ #// JOHANN JAKOB Alexander Sigismund Rudolf Fugger Gf zu Kirchberg und Weissenhorn, zu Babenhausen, Herr zu Boos und Babenhausen, *Boos 3.10.1691, +Boos 23.4.1759; m.Babenhausen 16.6.1716 Maria Euphemia Gfn von Toerring-Stein (*München 17.4.1698, +Schloss Boos 30.3.1771); They had issue:
+	name="Johann Jakob"
+	dynasty=1002252
+	religion=catholic culture=german
+	father=100011042	# Johann Rudolf Fugger
+	mother=100011352	# Johanna Katharina v. Waldburg zu Wolfegg und Zeil
+	1691.01.01={birth=yes}
+	1716.01.01={add_spouse=100100997}	# GFN Euphemia zu Toerring
+	1759.01.01={death=yes}
+}
+	100294864={ #// A4. Anselm Victorian Jakob Raymund Johann Nepomuk, Gf zu Kirchberg und Weissenhorn, zu Babenhausen, *Babenhausen 14.8.1729, +Babenhausen 7.7.1793; m.Wolfegg 24.1.1762 Frn Maria Walpurgis von Waldburg Gfn zu Wolfegg (*5.7.1740, +27.11.1796)
+		name=Anselm
+		dynasty=1002252
+		religion=catholic culture=german
+		father=100011046
+		1729.08.14={birth=yes}
+		1793.07.07={death=yes}
+	}
+		100008751={ #// B2. ANSELM Maria Joseph Christoph Johann Baptist Johann Nepomuk Rupert Theodor Aloys Karl -cr Fürst Fugger von Babenhausen 1.8.1803, *Babenhausen 1.7.1766, +Babenhausen 20.11.1821; m.Mooshausen 15.10.1793 Gfn Maria Antonia von Waldburg zu Zeil und Wurzach (*Bad Wurzach 8.3.1774, +Babenhausen 5.10.1814)
+			name=Anselm
+			dynasty_house=fugger_babenhausen
+			religion=catholic culture=german
+			father=100294864	# Anselm Fugger von Babenhausen
+			1766.02.01={birth=yes}  # Babenhausen
+			1793.10.15={add_spouse=100009435}	# Maria Antonia v. Waldburg zu Zeil-Wurzach
+			1821.11.20={death=yes}  # Babenhausen
+		}
+			100008752={ #// 3a) Maria Josepha (Babenhausen 20 Jun 1798-Wurzach 9 May 1831); m.Wurzach 18 Dec 1821 Leopold Fst von Waldburg zu Zeil-Wurzach (d.Wurzach 26 Apr 1861) $$
+				name="Maria Josepha"
+				female=yes
+				dynasty_house=fugger_babenhausen
+				religion=catholic culture=german
+				father=100008751	# Anselm Fugger von Babenhausen
+				mother=100009435	# Maria Antonia v. Waldburg zu Zeil-Wurzach
+				1798.06.20={birth=yes}  # Babenhausen
+				1831.05.09={death=yes}  # Wurzach
+			}
+			100008753={ #// 4a) ANTON Anselm Fst Fugger von Babenhausen (Babenhausen 13 Jan 1800-Babenhausen 28 May 1836); m.Babenhausen 20 Oct 1825 Franziska Pss zu Hohenlohe-Bartenstein und Jagstberg (Schloßhaltenbergstetten 29 Aug 1807-Augsburg 27 Oct 1873) $$
+				name=Anton
+				dynasty_house=fugger_babenhausen
+				religion=catholic culture=german
+				father=100008751	# Anselm Fugger von Babenhausen
+				mother=100009435	# Maria Antonia v. Waldburg zu Zeil-Wurzach
+				1800.01.13={birth=yes}  # Babenhausen
+				1825.10.20={add_spouse=100002028}	# Franziska zu Hohenlohe-Bartenstein
+				1836.05.28={death=yes}  # Babenhausen
+			}
+				100008754={ #// 2b) LEOPOLD Karl Maria Fst Fugger von Babenhausen (Babenhausen 4 Oct 1827-Augsburg 10 Apr 1885); m.Salzburg 10 Jan 1857 Anna Gfn von Gatterburg (Salzburg 30 Jan 1838-Kalksburg 14 Jul 1903)
+					name=Leopold
+					dynasty_house=fugger_babenhausen
+					religion=catholic culture=german
+					father=100008753	# Anton Fugger von Babenhausen
+					mother=100002028	# Franziska zu Hohenlohe-Bartenstein
+					1827.10.04={birth=yes}  # Babenhausen
+					1857.01.10={add_spouse=100092002}	# GFN Anna von Gatterburg
+					1885.04.10={death=yes}  # Augsburg
+				}
+				100008755={ #// 3b) KARL Ludwig Maria Joseph Anselm Andreas Fst Fugger von Babenhausen (Babenhausen 4 Feb 1829-Babenhausen 12 May 1906); m.Klagenfurt 8 Oct 1855 Friederike Gfn Christallnigg (Klagenfurt 27 May 1832-Klagenfurt 17 Jun 1888)
+					name=Karl
+					dynasty_house=fugger_babenhausen
+					religion=catholic culture=german
+					father=100008753	# Anton Fugger von Babenhausen
+					mother=100002028	# Franziska zu Hohenlohe-Bartenstein
+					1829.02.04={birth=yes}  # Babenhausen
+					1855.10.08={add_spouse=100092739}	# GFN Friederike Christalnigg
+					1906.05.12={death=yes}  # Babenhausen
+				}
+					100008756={ #// 1c) Pauline (Klagenfurt 9 Jan 1857-Schloß Meiselberg 11 Aug 1886); m.Klagenfurt 9 Jan 1879 Janko Gf Vojkffy von Vojkovic (d.23 May 1897)
+						name=Pauline
+						female=yes
+						dynasty_house=fugger_babenhausen
+						religion=catholic culture=german
+						father=100008755	# Karl Fugger von Babenhausen
+						mother=100092739	# GFN Friederike Christalnigg
+						1857.01.09={birth=yes}  # Klagenfurt
+						1886.08.11={death=yes}  # Schloß Meiselberg
+					}
+					100008757={ #// 2c) Maria (Meiselberg 18 Aug 1858-Meiselberg 6 Mar 1927); m.Meiselberg 25 Jul 1880 Christoph Gf von Wydenbruck (d.Reichenhall 4 Oct 1917)
+						name=Maria
+						female=yes
+						dynasty_house=fugger_babenhausen
+						religion=catholic culture=german
+						father=100008755	# Karl Fugger von Babenhausen
+						mother=100092739	# GFN Friederike Christalnigg
+						1858.08.18={birth=yes}  # Meiselberg
+						1927.03.06={death=yes}  # Meiselberg
+					}
+					100008758={ #// 3c) KARL Georg Ferdinand Jakob Maria Fst Fugger von Babenhausen (Klagenfurt 15 Mar 1861-Klagenfurt 5 Jul 1925); m.Vienna 8 Jan 1887 Eleonore Pss zu Hohenlohe-Bartenstein (Bartenstein 4 Oct 1864-Vienna 1 Mar 1935) $$
+						name=Karl
+						dynasty_house=fugger_babenhausen
+						religion=catholic culture=german
+						father=100008755	# Karl Fugger von Babenhausen
+						mother=100092739	# GFN Friederike Christalnigg
+						1861.03.15={birth=yes}  # Klagenfurt
+						1887.01.08={add_spouse=100001999}	# Eleonore zu Hohenlohe-Bartenstein
+						1925.07.05={death=yes}  # Klagenfurt
+					}
+						100008759={ #// 1d) Friederike Maria Karoline Henriette Rosa Sabina Franziska Pauline (Klagenfurt 27 Oct 1887-Vienna 4 Jul 1949); m.Vienna 27 Oct 1908 Sir Adrian Carton de Wiart (Brussels 5 May 1880-Killinardrish, Ireland 5 Jun 1963)
+							name=Friederike
+							female=yes
+							dynasty_house=fugger_babenhausen
+							religion=catholic culture=german
+							father=100008758	# Karl Fugger von Babenhausen
+							mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
+							1887.10.27={birth=yes}  # Klagenfurt
+							1949.07.04={death=yes}  # Vienna
+						}
+						100008760={ #// 2d) GEORG Konstantin Heinrich Carl Fst Fugger von Babenhausen (Ödenburg 24 Jul 1889-Schloß Wellenburg 1 Aug 1934); m.Berlin 10 Feb 1914 Elisabeth Gfn von Plessen (Sierhagen 8 Jul 1891-Augsburg 26 Aug 1976)
+							name=Georg
+							dynasty_house=fugger_babenhausen
+							religion=catholic culture=german
+							father=100008758	# Karl Fugger von Babenhausen
+							mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
+							1889.07.24={birth=yes}  # Ödenburg
+							1914.02.10={add_spouse=100092744}	# GFN Elisabeth von Plessen
+							1934.08.01={death=yes}  # Schloß Wellenburg
+						}
+							100008761={ #// 1e) FRIEDRICH CARL Georg Maria Fst Fugger von Babenhausen (Potsdam 26 Nov 1914-Wellenburg 22 Dec 1979); m.Sturefors, Sweden 10 Oct 1942 Gunilla Gfn Bielke (Vist 8 Jul 1919-Mar 2015) $$
+								name=Friedrich
+								dynasty_house=fugger_babenhausen
+								religion=catholic culture=german
+								father=100008760	# Georg Fugger von Babenhausen
+								mother=100092744	# GFN Elisabeth von Plessen
+								1914.11.26={birth=yes}  # Potsdam
+								1942.10.10={add_spouse=100036921}	# Gunilla Bielke
+								1979.12.22={death=yes}  # Wellenburg
+							}
+								100008762={ #// 1f) Carl-Anton Maria, renounced his rights 23 Dec 1970 and took the name "Gf Fugger-Babenhausen de Polignac" (b.Babenhausen 10 Dec 1944); m.(civ) Biberbach 18 Aug 1975 (rel) Paris 20 Sep 1975 (div 1988) Hélène Pss de Polignac (b.Mouchamps 1 Oct 1944) $$
+									name=Carl-Anton
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100008761	# Friedrich Fugger von Babenhausen
+									mother=100036921	# Gunilla Bielke
+									1944.12.10={birth=yes}  # Babenhausen
+									1975.08.18={add_spouse=100069361}	# Hélène de Polignac
+									1988.01.01={remove_spouse=100069361}
+								}
+									100008763={ #// 1g) Marie-Yolande Jeanne Elisabeth Gräfin Fugger-Babenhausen de Polignac (b.Boulogne-Billancourt 9 Aug 1979); m.Chemillé 27 Sep 2008 Constantin Rinn of Smailholm
+										name=Marie-Yolande
+										female=yes
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=german
+										father=100008762	# Carl-Anton Fugger von Babenhausen
+										mother=100069361	# Hélène de Polignac
+										1979.08.09={birth=yes}  # Boulogne-Billancourt
+									}
+									100008764={ #// 2g) Pierre-Edmond Hector Gabriel Gf Fugger-Babenhausen de Polignac (b.Boulogne-Billancourt 12 Feb 1981)
+										name=Pierre-Edmond
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=german
+										father=100008762	# Carl-Anton Fugger von Babenhausen
+										mother=100069361	# Hélène de Polignac
+										1981.02.12={birth=yes}  # Boulogne-Billancourt
+									}
+								100008765={ #// 2f) HUBERTUS Viktor Fst Fugger von Babenhausen (b.Augsburg 23 Nov 1946); m.Öttingen (civ) 10 Oct 1977 (rel) 22 Oct 1977 Alexandra Pss zu Oettingen-Oettingen u.Oettingen-Spielberg (b.Öttingen 9 Oct 1948) $$
+									name=Hubertus
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100008761	# Friedrich Fugger von Babenhausen
+									mother=100036921	# Gunilla Bielke
+									1946.11.23={birth=yes}  # Augsburg
+									1977.10.10={add_spouse=100012358}	# Alexandra zu Oettingen-Spielberg
+								}
+									100008766={ #// 1g) Franziska Victoria Elisabeth Maria (b.Memmingen 12 Apr 1979); m.Buenos Aires 13 Dec 2003 Gonzalo Cazenave
+										name=Franziska
+										female=yes
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=german
+										father=100008765	# Hubertus Fugger von Babenhausen
+										mother=100012358	# Alexandra zu Oettingen-Spielberg
+										1979.04.12={birth=yes}  # Memmingen
+									}
+									100008767={ #// 2g) Leopold Sebastian Ferdinand Alois Maria (b.Augsburg 14 May 1980); m.Bad Wurzach 21 Jul 2007 (rel) Amorbach 25 Aug 2007 Annina Kammer (b.São Paulo 2 Sep 1978)
+										name=Leopold
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=german
+										father=100008765	# Hubertus Fugger von Babenhausen
+										mother=100012358	# Alexandra zu Oettingen-Spielberg
+										1980.05.14={birth=yes}  # Augsburg
+										2007.07.21={add_spouse=100092754}	# Annina Kammer
+									}
+										100008768={ #// 1h) Sophia Anastasia Celina Benedikta Maria (b.Vienna 3 May 2009)
+											name=Sophia
+											female=yes
+											dynasty_house=fugger_babenhausen
+											religion=catholic culture=german
+											father=100008767	# Leopold Fugger von Babenhausen
+											mother=100092754	# Annina Kammer
+											2009.05.03={birth=yes}  # Vienna
+										}
+										100008769={ #// 2h) Josepha Nicola Victoria Georgina Maria (b.22 Jan 2011)
+											name=Josepha
+											female=yes
+											dynasty_house=fugger_babenhausen
+											religion=catholic culture=german
+											father=100008767	# Leopold Fugger von Babenhausen
+											mother=100092754	# Annina Kammer
+											2011.01.22={birth=yes}
+										}
+										100008770={ #// 3h) Antonius (b.2013)
+											name=Antonius
+											dynasty_house=fugger_babenhausen
+											religion=catholic culture=german
+											father=100008767	# Leopold Fugger von Babenhausen
+											mother=100092754	# Annina Kammer
+											2013.01.01={birth=yes}
+										}
+									100008771={ #// 3g) Alexander Emanuel Josef Ernst Markus Maria (b.Augsburg 21 Nov 1981)
+										name=Alexander
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=german
+										father=100008765	# Hubertus Fugger von Babenhausen
+										mother=100012358	# Alexandra zu Oettingen-Spielberg
+										1981.11.21={birth=yes}  # Augsburg
+									}
+									100008772={ #// 4g) Anastasia Jasmin Katharina Maria (b.Palm Beach, Florida 2 Jul 1986)
+										name=Anastasia
+										female=yes
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=english
+										father=100008765	# Hubertus Fugger von Babenhausen
+										mother=100012358	# Alexandra zu Oettingen-Spielberg
+										1986.07.02={birth=yes}  # Palm Beach Florida
+									}
+									100008773={ #// 5g) Nikolaus Franz Anselm Dominikus Maria (b.28 Feb 1993)
+										name=Nikolaus
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=german
+										father=100008765	# Hubertus Fugger von Babenhausen
+										mother=100012358	# Alexandra zu Oettingen-Spielberg
+										1993.02.28={birth=yes}
+									}
+								100008774={ #// 3f) Markus Albrecht Maria (b.Augsburg 15 Mar 1950)
+									name=Markus
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100008761	# Friedrich Fugger von Babenhausen
+									mother=100036921	# Gunilla Bielke
+									1950.03.15={birth=yes}  # Augsburg
+								}
+								100008775={ #// 4f) Johannes Anselm Maria (b.Augsburg 20 Dec 1957); m.(civ) Babenhausen 10 Dec 1982 (rel) Trauchburg 15 Jan 1983 (div 2010) Marie Elisabeth Pss von Lobkowicz (b.South Bend, Indiana 2 Jan 1961); m.2nd Caroline Frn von Schacky auf Schönfeld (b.1965)
+									name=Johannes
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100008761	# Friedrich Fugger von Babenhausen
+									mother=100036921	# Gunilla Bielke
+									1957.12.20={birth=yes}  # Augsburg
+									1982.12.10={add_spouse=100185411}	# Miriam z Lobkowicz
+									2010.01.01={remove_spouse=100185411}
+									2011.01.01={add_spouse=100093276}	# FRN Caroline von Schacky auf Schönfeld
+								}
+									100008776={ #// 1g) Constantin Franziskus Anselm Maria (b.München 23 Jul 1986)
+										name=Constantin
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=german
+										father=100008775	# Johannes Fugger von Babenhausen
+										mother=100185411	# Miriam z Lobkowicz
+										1986.07.23={birth=yes}  # München
+									}
+									100008777={ #// 2g) Philipp Georg Rudolf Maria (b.Berlin 14 Nov 1988)
+										name=Philipp
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=german
+										father=100008775	# Johannes Fugger von Babenhausen
+										mother=100185411	# Miriam z Lobkowicz
+										1988.11.14={birth=yes}  # Berlin
+									}
+									100008778={ #// 3g) Georgina Marina Huberta Maria (b.Frankfurt 21 Jun 1995)
+										name=Georgina
+										female=yes
+										dynasty_house=fugger_babenhausen
+										religion=catholic culture=german
+										father=100008775	# Johannes Fugger von Babenhausen
+										mother=100185411	# Miriam z Lobkowicz
+										1995.06.21={birth=yes}  # Frankfurt
+									}
+								100008779={ #// 5f) Tatiana Elisabeth Sibylle Maria (b.Augsburg 20 Nov 1959); m.Babenhausen (civ) 20 Sep 1986 (rel) 13 Dec 1986 Hubertus Frhr Rukavina von Vidovgrad (b.Buenos Aires 17 Dec 1949)
+									name=Tatiana
+									female=yes
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100008761	# Friedrich Fugger von Babenhausen
+									mother=100036921	# Gunilla Bielke
+									1959.11.20={birth=yes}  # Augsburg
+								}
+							100008780={ #// 2e) Marie Louise Eleonore Elisabeth Caroline (Potsdam 8 Dec 1916-Augsburg 18 Sep 1993); m.Bergheim 27 Sep 1940 Wilhelm von Hagen (Belgard, Pomerania 2 Dec 1912-Gotenhafen 16 Mar 1945)
+								name=Marie
+								female=yes
+								dynasty_house=fugger_babenhausen
+								religion=catholic culture=german
+								father=100008760	# Georg Fugger von Babenhausen
+								mother=100092744	# GFN Elisabeth von Plessen
+								1916.12.08={birth=yes}  # Potsdam
+								1993.09.18={death=yes}  # Augsburg
+							}
+						100008781={ #// 3d) Sylvia-Maria (Enzersdorf 8 May 1892-Vienna 13 Apr 1949); m.Schloß Wellenburg 7 Jan 1925 Friedrich Gf zu Münster Frhr von Grothaus (Bad Homburg vor der Höhe 20 Jun 1891-Berlin 7 Jan 1942)
+							name=Sylvia-Maria
+							female=yes
+							dynasty_house=fugger_babenhausen
+							religion=catholic culture=german
+							father=100008758	# Karl Fugger von Babenhausen
+							mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
+							1892.05.08={birth=yes}  # Enzersdorf
+							1949.04.13={death=yes}  # Vienna
+						}
+						100008782={ #// 4d) Leopold Heinrich Carl Friedrich Maria (Oldenburg 18 Jul 1893-Hamburg 8 Jul 1966); m.Vienna 23 Feb 1924 (div 1936) Vera Gfn Czernin von und zu Chudenitz (München 4 Jun 1904-Kirkwood, Missouri 18 Sep 1959) $$
+							name=Leopold
+							dynasty_house=fugger_babenhausen
+							religion=catholic culture=german
+							father=100008758	# Karl Fugger von Babenhausen
+							mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
+							1893.07.18={birth=yes}  # Oldenburg
+							1924.02.23={add_spouse=100186247}	# Vera Czernin v.u.zu Chudenitz
+							1936.01.01={remove_spouse=100186247}
+							1966.07.08={death=yes}  # Hamburg
+						}
+							100008783={ #// 1e) Eleonore Vera Alexia Anna Maria (Babenhausen 31 Jan 1925-München 19 Dec 1992); m.1st Mittelberg, Kleines Walsertal am Vorarlberg 14 Feb 1946 (div 1959) Robert Joseph Bee (New York 2 Sep 1918 [1920?]-3 Dec 1994); m.2nd München (civ) 20 Jan 1961 (rel) 31 Jan 1961 Burchard Pr of Prussia (Potsdam 8 Jan 1917-Hof bei Salzburg 12 Aug 1988)
+								name=Eleonore
+								female=yes
+								dynasty_house=fugger_babenhausen
+								religion=catholic culture=german
+								father=100008782	# Leopold Fugger von Babenhausen
+								mother=100186247	# Vera Czernin v.u.zu Chudenitz
+								1925.01.31={birth=yes}  # Babenhausen
+								1992.12.19={death=yes}  # München
+							}
+								100008784={ #// 1f) Sylvia Rose Marie Elisabeth Bee, b.New York 1947
+									name=Sylvia
+									female=yes
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100094591	# Robert Joseph Bee
+									mother=100008783	# Eleonore Fugger von Babenhausen
+									1947.01.01={birth=yes}
+								}
+								100008785={ #// 2f) Robert Joseph Leonhard Rudolf Bee, b.New York 1948
+									name=Robert
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100094591	# Robert Joseph Bee
+									mother=100008783	# Eleonore Fugger von Babenhausen
+									1948.01.01={birth=yes}
+								}
+								100008786={ #// 3f) Victoria Ann Bee, b.New York 1951; m.München 1973 Pr Georg of Hannover (b.Salem 9 Dec 1949) $$
+									name=Victoria
+									female=yes
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100094591	# Robert Joseph Bee
+									mother=100008783	# Eleonore Fugger von Babenhausen
+									1951.01.01={birth=yes}
+								}
+							100008787={ #// 2e) Rudolf Carl Maria (Babenhausen 1 Jan 1927-Bombay 8 Mar 1984); m.1st Milan 8 Sep 1949 (div 1956) Maria Teresa Angela Crespi (b.Cremona 20 Jul 1922); m.2d Geneva 16 Nov 1958 (div 1965) Maria Leila Duarte (Karachi 8 Sep 1929-Lausanne 27 Jul 1999)
+								name=Rudolf
+								dynasty_house=fugger_babenhausen
+								religion=catholic culture=german
+								father=100008782	# Leopold Fugger von Babenhausen
+								mother=100186247	# Vera Czernin v.u.zu Chudenitz
+								1927.01.01={birth=yes}  # Babenhausen
+								1949.09.08={add_spouse=100081715}	# Maria Teresa Crespi
+								1956.01.01={remove_spouse=100081715}
+								1958.11.16={add_spouse=100095638}	# Maria Leila Duarte
+								1965.01.01={remove_spouse=100095638}
+								1984.03.08={death=yes}  # Bombay
+							}
+								100008788={ #// 1f) Maria Isabella (Milan 15 Jun 1950-Chamonix 8 Dec 1980); m.München 25 Sep 1971 Cte Vittorio Fracassi Ratti Mentone dei Marchesi di Torre Rassano (b.Turin 20 Dec 1940)
+									name="Maria Isabella"
+									female=yes
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100008787	# Rudolf Fugger von Babenhausen
+									mother=100081715	# Maria Teresa Crespi
+									1950.06.15={birth=yes}  # Milan
+									1980.12.08={death=yes}  # Chamonix
+								}
+								100008789={ #// 2f) Christiane Vera Rani (Geneva 18 Jan 1960-24 Apr 2009)
+									name=Christiane
+									female=yes
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100008787	# Rudolf Fugger von Babenhausen
+									mother=100095638	# Maria Leila Duarte
+									1960.01.18={birth=yes}  # Geneva
+									2009.04.24={death=yes}
+								}
+								100008790={ #// 3f) Patricia Elisabeth Sylvia Munira (Geneva 3 Aug 1961-15 May 2014); m.New York 21 Dec 2005 Gerald Held (b.München 19 Oct 1958)
+									name=Patricia
+									female=yes
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100008787	# Rudolf Fugger von Babenhausen
+									mother=100095638	# Maria Leila Duarte
+									1961.08.03={birth=yes}  # Geneva
+									2014.05.15={death=yes}
+								}
+								100008791={ #// 4f) Alexandra Maria Sophie (b.St.Gallen 1 Dec 1964)
+									name=Alexandra
+									female=yes
+									dynasty_house=fugger_babenhausen
+									religion=catholic culture=german
+									father=100008787	# Rudolf Fugger von Babenhausen
+									mother=100095638	# Maria Leila Duarte
+									1964.12.01={birth=yes}  # St.Gallen
+								}
+							100008792={ #// 3e) Rose Marie Therese (Babenhausen 26 Dec 1927-München 17 Sep 1999)
+								name=Rose
+								female=yes
+								dynasty_house=fugger_babenhausen
+								religion=catholic culture=german
+								father=100008782	# Leopold Fugger von Babenhausen
+								mother=100186247	# Vera Czernin v.u.zu Chudenitz
+								1927.12.26={birth=yes}  # Babenhausen
+								1999.09.17={death=yes}  # München
+							}
+							100008793={ #// 4e) Sylvia Theresia Karolina Maria (München 19 May 1931-Hamburg 11 Feb 1995); m.München (civ) 18 May 1961 (rel) 19 May 1961 (div 1981) Friedrich Kristinus (Vienna 28 Jul 1913-Hamburg 11 Feb 1995)
+								name=Sylvia
+								female=yes
+								dynasty_house=fugger_babenhausen
+								religion=catholic culture=german
+								father=100008782	# Leopold Fugger von Babenhausen
+								mother=100186247	# Vera Czernin v.u.zu Chudenitz
+								1931.05.19={birth=yes}  # München
+								1995.02.11={death=yes}  # Hamburg
+							}
+						100008794={ #// 5d) Maria Theresia Karolina Gigina (Vienna 1 Mar 1899-Starnberg 28 Jun 1994); m.Babenhausen 1 Aug 1921 Heinrich Fst von Hanau (Söcking 27 Dec 1900-München 12 Oct 1971) $$
+							name="Maria Theresia"
+							female=yes
+							dynasty_house=fugger_babenhausen
+							religion=catholic culture=german
+							father=100008758	# Karl Fugger von Babenhausen
+							mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
+							1899.03.01={birth=yes}  # Vienna
+							1994.06.28={death=yes}  # Starnberg
+						}
+				100008795={ #// 5b) Friedrich (Babenhausen 26 Nov 1836-München 5 Feb 1907); m.Vienna 24 Jun 1872 Maria Frn von Gudenus (Mühlbach 19 Oct 1848-München 4 May 1918) $$
+					name="Friedrich Anton"
+					dynasty_house=fugger_babenhausen
+					religion=catholic culture=german
+					father=100008753	# Anton Fugger von Babenhausen
+					mother=100002028	# Franziska zu Hohenlohe-Bartenstein
+					1836.11.26={birth=yes}  # Babenhausen
+					1872.06.24={add_spouse=100025544}	# Maria v. Gudenus
+					1907.02.05={death=yes}  # München
+				}
+		100093202={ #// B9. Maria Euphemia Walburga Josepha, *Babenhausen 29.11.1762, +Weissenhorn 1835; m.Weissenhorn 20.6.1784 Anton Fugger Gf zu Kirchberg und Weissenhorn (*1.3.1750, +Weissenhorn 8.2.1790)
+			name=Euphemia
+			female=yes
+			dynasty=1002252
+			religion=catholic culture=german
+			father=100294864	# Anselm Fugger von Babenhausen
+			1763.11.29={birth=yes}
+			1835.01.01={death=yes}
+		}
+		100294865={ #// B12. Maria Josepha Crescentia, *Babenhausen 2.8.1770, +Waldsee 27.12.1848; m.10.1.1791 Fst Joseph Anton von Waldburg zu Wolfegg und Waldsee (*21.2.1766, +3.4.1833)
+			name=Josepha
+			female=yes
+			dynasty=1002252
+			religion=catholic culture=german
+			father=100294864	# Anselm Fugger von Babenhausen
+			1770.08.02={birth=yes}  # Babenhausen
+			1848.12.27={death=yes}  # Waldsee
+		}
+		100008799={ #// B13. Maria Walburga Franziska Josepha Crescentia Aloysia Raphaela, *Babenhausen 23.10.1771, +Wurzach 18.6.1841; m.Babenhausen 15.10.1793 Erbgf Leopold von Waldburg zu Zeil-Wurzach (*21.6.1769, +Wurzach 18.6.1800)
+			name="Maria Walpurga"
+			female=yes
+			dynasty=1002252
+			religion=catholic culture=german
+			father=100294864	# Anselm Fugger von Babenhausen
+			1771.01.01={birth=yes}
+			1841.01.01={death=yes}
+		}
+#1796.02.01={holder=100008751} # ANSELM Maria Joseph Christoph Johann Baptist Johann Nepomuk Rupert Theodor Aloys Karl
+#1821.11.20={holder=100008753} # ANTON Anselm Fst Fugger von Babenhausen 
+#1836.05.28={holder=100008754} # LEOPOLD Karl Maria Fst Fugger von Babenhausen 
+#1885.04.10={holder=100008755} # KARL Ludwig Maria Joseph Anselm Andreas Fst Fugger von Babenhausen 
+#1906.05.12={holder=100008758} # KARL Georg Ferdinand Jakob Maria Fst Fugger von Babenhausen 
+#1925.07.05={holder=100008760} # GEORG Konstantin Heinrich Carl Fst Fugger von Babenhausen 
+#1934.08.01={holder=100008761} # FRIEDRICH CARL Georg Maria Fst Fugger von Babenhausen 
+#1979.12.22={holder=100008765} # HUBERTUS Viktor Fst Fugger von Babenhausen
+#fugger5
+
 #fugger6
 100010921={ #// Konstantin Fugger, *1569, +1627; m.1597 Anna Maria Frn Münich von Münchhausen
 	name=Konstantin
-	dynasty=1002251
+	dynasty_house=fugger_kirchberg
 	religion=catholic culture=german
 	father=100010847	# Johann Jakob Fugger
 	mother=100100813	# Sidonia de Colaus gt Wazler
@@ -10184,7 +10657,7 @@
 }
 	100009938={ #// A2. Franz Benno Gf von Kirchberg und Weissenhorn, *1603, +1652; m.1627 Engelburga Frn von Fränking (+1658)
 		name="Franz Benno"
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100010921	# Konstantin Fugger von Kirchberg u.Weißenhorn
 		mother=100084050	# FRN Anna von Münchhausen
@@ -10195,7 +10668,7 @@
 		100010789={ #// B8. Maria Theresia, *1630, +1697; m.Horaz Gf von und zu Arz
 			name="Maria Theresia"
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009938	# Franz Benno Fugger von Kirchberg u.Weißenhorn
 			mother=100094650	# FRN Engelburga von Fränking
@@ -10205,7 +10678,7 @@
 		100010792={ #// B11. Maria Eleonora, *1635, +1697; m.1657 Johann Franz Gf von Preysing (+1674)
 			name="Maria Eleonora"
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009938	# Franz Benno Fugger von Kirchberg u.Weißenhorn
 			mother=100094650	# FRN Engelburga von Fränking
@@ -10214,7 +10687,7 @@
 		}
 		100009946={ #// B2. Veit Adam, *1637, +1692; m.ca 1681 Maria Katharina Fugger Gfn von Kirchberg und Weissenhorn (*1644 +1694) $$
 			name="Veit Adam"
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009938	# Franz Benno Fugger von Kirchberg u.Weißenhorn
 			mother=100094650	# FRN Engelburga von Fränking
@@ -10224,7 +10697,7 @@
 		}
 		100009947={ #// B3. Moritz, *1639, +1711; m.1694 Maria Ursula Frn von Sandizell (*1668, +?)
 			name=Moritz
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009938	# Franz Benno Fugger von Kirchberg u.Weißenhorn
 			mother=100094650	# FRN Engelburga von Fränking
@@ -10234,7 +10707,7 @@
 		}
 			100009949={ #// C1. Adam Franz Joseph, *1710, +1750; m.1730 Anna Maximiliana Frn von Bernhausen (*1703 +1779)
 				name=Adam
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009947	# Moritz Fugger von Kirchberg u.Weißenhorn
 				mother=100100680	# FRN Maria Ursula von Sandizell
@@ -10245,7 +10718,7 @@
 				100009977={ #// D3. Maria Anna, *1731, +1807; m.1763 Judas Thaddäus Gf von Vieregge
 					name="Maria Anna"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009949	# Adam Fugger von Kirchberg u.Weißenhorn
 					mother=100100701	# FRN Anna Maximiliana von Bernhausen
@@ -10254,7 +10727,7 @@
 				}
 				100009954={ #// D2. Moritz Franz Xaver Max, *1733, +1783; m.1753 Maria Anna Theresia Gfn von Preysing (*1737 +1783)
 					name=Moritz
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009949	# Adam Fugger von Kirchberg u.Weißenhorn
 					mother=100100701	# FRN Anna Maximiliana von Bernhausen
@@ -10265,7 +10738,7 @@
 					100009971={ #// E5. Josepha Anna, *1764, +1846; m.1787 Sigismund Gf von Holnstein aus Bayern (+1804) $$
 						name="Josepha Anna"
 						female=yes
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009954	# Moritz Fugger von Kirchberg u.Weißenhorn
 						mother=100100718	# GFN Maria Anna von Preysing
@@ -10274,7 +10747,7 @@
 					}
 					100009967={ #// E4. Moritz Gabriel, *1768, +1816; m.1805 Maria Magdalena Frn von Pfetten (*1783 +1835)
 						name="Moritz Gabriel"
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009954	# Moritz Fugger von Kirchberg u.Weißenhorn
 						mother=100100718	# GFN Maria Anna von Preysing
@@ -10285,7 +10758,7 @@
 				100010788={ #// D4. Maria Josepha, *1736, +1782; m.1761 Johann Nepomuck Joseph Gf von Etzdorff (+1803)
 					name="Maria Josepha"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100009949	# Adam Fugger von Kirchberg u.Weißenhorn
 					mother=100100701	# FRN Anna Maximiliana von Bernhausen
@@ -10294,7 +10767,7 @@
 				}
 	100010793={ #// A3. Konstantin Gf von Kirchberg und Weissenhorn, *1604, +after 28.7.1695; 1m: 1629 Anna Elisabeth Frn von Alten- und Neuen-Fraunhofen (+1648); 2m: before 1650 Maria Elisabeth von und zu Bodman (+after 28.7.1695)
 		name=Konstantin
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100010921	# Konstantin Fugger von Kirchberg u.Weißenhorn
 		mother=100084050	# FRN Anna von Münchhausen
@@ -10305,7 +10778,7 @@
 		100010802={ #// B8. Maria Elisabetha, *1632, +1712; m.1652 Heinrich Theophil Gf von Fränking (+1714)
 			name="Maria Elisabetha"
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100010793	# Konstantin Fugger von Kirchberg u.Weißenhorn
 			mother=100100807	# FRN Anna Elisabeth von Alten- und Neuen-Fraunhofen
@@ -10314,7 +10787,7 @@
 		}
 		100010798={ #// B4. Karl Konstantin, *1640, +1701; m.1671 Maria Concordia Frn von Ulm auf Erbach (+1685)
 			name="Karl Konstantin"
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100010793	# Konstantin Fugger von Kirchberg u.Weißenhorn
 			mother=100100807	# FRN Anna Elisabeth von Alten- und Neuen-Fraunhofen
@@ -10324,7 +10797,7 @@
 		}
 			100010799={ #// C1. Maximilian Konstantin Anton, *1673, +1738; m.1702 Maria Anna Gfn Cratz von Scharffenstein (*1668, +1731)
 				name=Maximilian
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100010798	# Karl Konstantin Fugger von Kirchberg u.Weißenhorn
 				mother=100100814	# FRN Maria Concordia von Ulm zu Erbach
@@ -10335,7 +10808,7 @@
 			100010801={ #// C3. Mauritia, *1683; m.1715 Franz Quirin Frhr Widmann von Pruggberg (+1725)
 				name=Mauritia
 				female=yes
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100010798	# Karl Konstantin Fugger von Kirchberg u.Weißenhorn
 				mother=100100814	# FRN Maria Concordia von Ulm zu Erbach
@@ -10344,7 +10817,7 @@
 			}
 			100010800={ #// C2. Karl, *1685, +1755; m.1720 Maria Josepha Frn von Leyden (*1692, +1755)
 				name=Karl
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100010798	# Karl Konstantin Fugger von Kirchberg u.Weißenhorn
 				mother=100100814	# FRN Maria Concordia von Ulm zu Erbach
@@ -10354,7 +10827,7 @@
 			}
 	100010803={ #// A6. Johann Friedrich Gf von Kirchberg und Weissenhorn, *1609, +1669; 1m: 1633 Maria Jakobäa Frn von Gumppenberg (+1639); 2m: 1640 Maria Felicitas Frn von Pranckh (+1663)
 		name="Johann Friedrich"
-		dynasty=1002251
+		dynasty_house=fugger_kirchberg
 		religion=catholic culture=german
 		father=100010921	# Konstantin Fugger von Kirchberg u.Weißenhorn
 		mother=100084050	# FRN Anna von Münchhausen
@@ -10366,7 +10839,7 @@
 		100010814={ #// B4. Maria Katharina, *1644, +1694; m.1681 Veit Adam Fugger Gf von Kirchberg und Weissenhorn (+1692) $$
 			name="Maria Katharina"
 			female=yes
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100010803	# Johann Friedrich Fugger von Kirchberg u.Weißenhorn
 			mother=100100820	# FRN Maria Felicitas von Pranckh
@@ -10375,7 +10848,7 @@
 		}
 		100010804={ #// B2. Adam Konstantin, *1645, +1690; m.1672 Elisabeth Johanna Frn von Fränking (*1648 +1726)
 			name="Adam Konstantin"
-			dynasty=1002251
+			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100010803	# Johann Friedrich Fugger von Kirchberg u.Weißenhorn
 			mother=100100820	# FRN Maria Felicitas von Pranckh
@@ -10386,7 +10859,7 @@
 			100010813={ #// C4. Adelheid, *1673, +1743; m.1693 Alessandro Marchese Pallavicini (+1749) $$
 				name=Adelheid
 				female=yes
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100010804	# Adam Konstantin Fugger von Kirchberg u.Weißenhorn
 				mother=100100821	# FRN Elisabeth Johanna von Fränking
@@ -10395,7 +10868,7 @@
 			}
 			100010805={ #// C2. Maximilian Joseph, *1677, +1751; 1m: 1711 Ferdinande Anna Henriette de Glymes de Brabant (*1689 +1715); 2m: 1717 Marie Judith Gfn von Toerring-Jettenbach (*1690 +1755)
 				name="Maximilian Joseph"
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100010804	# Adam Konstantin Fugger von Kirchberg u.Weißenhorn
 				mother=100100821	# FRN Elisabeth Johanna von Fränking
@@ -10406,7 +10879,7 @@
 				100010810={ #// D8. Maria Anna Josepha Walburga, *Zinnenberg 21.5.1719, +Linz 11.1.1784; 1m: München 13.8.1741 Gf Friedrich zu Oettingen-Wallerstein (*10.6.1715 +16.7.1744); 2m: 1745 Ldgf Ludwig zu Fürstenberg (*Aschaffenburg 4.2.1705, +Linz 10.11.1759) $$
 					name="Maria Anna"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100010805	# Maximilian Joseph Fugger von Kirchberg u.Weißenhorn
 					mother=100100823	# GFN Marie Judith zu Toerring-Jettenbach
@@ -10415,7 +10888,7 @@
 				}
 				100010806={ #// D3. Ignaz Joseph Cajetan, *1720, +1791; 1m: 1752 Friederike Gfn zu Solms-Sonnenwalde (*1727 +1753); 2m: 1759 Johanna Gfn von Haimhausen (*1735 +1818)
 					name="Ignaz Joseph"
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100010805	# Maximilian Joseph Fugger von Kirchberg u.Weißenhorn
 					mother=100100823	# GFN Marie Judith zu Toerring-Jettenbach
@@ -10427,7 +10900,7 @@
 					100010807={ #// E6. Maria Josepha Antonia, *1766, +1837; m.1787 Maximilian Gf von Berchem (+1831)
 						name=Maria
 						female=yes
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100010806	# Ignaz Joseph Fugger von Kirchberg u.Weißenhorn
 						mother=100100825	# GFN Johanna von Haimhausen
@@ -10437,7 +10910,7 @@
 				100010811={ #// D9. Maria Anna, *1723; m.1745 Ferdinand Gf von Rheinstein und Tattenbach (+1802)
 					name="Maria Anna"
 					female=yes
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100010805	# Maximilian Joseph Fugger von Kirchberg u.Weißenhorn
 					mother=100100823	# GFN Marie Judith zu Toerring-Jettenbach
@@ -10446,7 +10919,7 @@
 				}
 				100010808={ #// D5. Ignaz Johann Nepomuck Felix, *1728, +1758; m.1753 Maria Viktoria Frn von Mayrhofen (*1730 +1757)
 					name=Ignaz
-					dynasty=1002251
+					dynasty_house=fugger_kirchberg
 					religion=catholic culture=german
 					father=100010805	# Maximilian Joseph Fugger von Kirchberg u.Weißenhorn
 					mother=100100823	# GFN Marie Judith zu Toerring-Jettenbach
@@ -10455,9 +10928,9 @@
 					1758.01.01={death=yes}
 				}
 					100010809={ #// E1. Maria Anna Viktoria, *1753, +1793; m.1772 Anton Gf von und zu Sandizell (+1803)
-						name=Maria
+						name="Maria Anna Viktoria"
 						female=yes
-						dynasty=1002251
+						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100010808	# Ignaz Fugger von Kirchberg u.Weißenhorn
 						mother=100100827	# FRN Maria Viktoria von Mayrhofen
@@ -10466,7 +10939,7 @@
 					}
 			100010812={ #// C3. Johann Friedrich Anton, *1683, +1750; 1m: 1716 Maria Josepha Corona Frn von Starzhausen (+1733); 2m: 1736 Johanna ELisabeth Gfn von Poymund und Payersberg (*1690 +1773)
 				name=Johann
-				dynasty=1002251
+				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100010804	# Adam Konstantin Fugger von Kirchberg u.Weißenhorn
 				mother=100100821	# FRN Elisabeth Johanna von Fränking
@@ -10476,466 +10949,6 @@
 				1750.01.01={death=yes}
 			}
 #fugger6
-
-100294864={ #// Anselm Fugger von Babenhausen (1729-1793) %%
-	name=Anselm
-	dynasty=1002105
-	religion=catholic culture=german
-	1729.01.01={birth=yes}
-	1793.01.01={death=yes}
-}
-	100294865={ #// A2. Josepha (Babenhausen 2 Aug 1770-Waldsee 27 Dec 1848); m.10 Jan 1791 Joseph v. Waldburg zu Wolfegg u.Waldsee (Waldsee 21 Feb 1766-Waldsee 3 Apr 1833) %%
-		name=Josepha
-		female=yes
-		dynasty=1002105
-		religion=catholic culture=german
-		father=100294864	# Anselm Fugger von Babenhausen
-		1770.08.02={birth=yes}  # Babenhausen
-		1848.12.27={death=yes}  # Waldsee
-	}
-	100008799={ #// A3. Maria Walpurga (1771-1841); m.15 Oct 1793 Leopold v. Waldburg zu Zeil-Wurzach (21 Jun 1769-Wurzach 18 Jun 1800) %%
-		name="Maria Walpurga"
-		female=yes
-		dynasty=1002105
-		religion=catholic culture=german
-		father=100294864	# Anselm Fugger von Babenhausen
-		1771.01.01={birth=yes}
-		1841.01.01={death=yes}
-	}
-	100008751={ #// ANSELM Maria Joseph Christoph Johann Baptist Johann Nepomuk Rupert Theodor Aloys Karl, cr 1803 Fst Fugger von Babenhausen (Babenhausen 1 Feb 1766-Babenhausen 20 Nov 1821); m.Mooshausen 15 Oct 1793 Maria Antonia Gfn von Waldburg zu Zeil-Wurzach (8 Mar 1774-5 Oct 1814) $$
-		name=Anselm
-		dynasty=1002105
-		religion=catholic culture=german
-		father=100294864	# Anselm Fugger von Babenhausen
-		1766.02.01={birth=yes}  # Babenhausen
-		1793.10.15={add_spouse=100009435}	# Maria Antonia v. Waldburg zu Zeil-Wurzach
-		1821.11.20={death=yes}  # Babenhausen
-	}
-		100008752={ #// 3a) Maria Josepha (Babenhausen 20 Jun 1798-Wurzach 9 May 1831); m.Wurzach 18 Dec 1821 Leopold Fst von Waldburg zu Zeil-Wurzach (d.Wurzach 26 Apr 1861) $$
-			name="Maria Josepha"
-			female=yes
-			dynasty=1002105
-			religion=catholic culture=german
-			father=100008751	# Anselm Fugger von Babenhausen
-			mother=100009435	# Maria Antonia v. Waldburg zu Zeil-Wurzach
-			1798.06.20={birth=yes}  # Babenhausen
-			1831.05.09={death=yes}  # Wurzach
-		}
-		100008753={ #// 4a) ANTON Anselm Fst Fugger von Babenhausen (Babenhausen 13 Jan 1800-Babenhausen 28 May 1836); m.Babenhausen 20 Oct 1825 Franziska Pss zu Hohenlohe-Bartenstein und Jagstberg (Schloßhaltenbergstetten 29 Aug 1807-Augsburg 27 Oct 1873) $$
-			name=Anton
-			dynasty=1002105
-			religion=catholic culture=german
-			father=100008751	# Anselm Fugger von Babenhausen
-			mother=100009435	# Maria Antonia v. Waldburg zu Zeil-Wurzach
-			1800.01.13={birth=yes}  # Babenhausen
-			1825.10.20={add_spouse=100002028}	# Franziska zu Hohenlohe-Bartenstein
-			1836.05.28={death=yes}  # Babenhausen
-		}
-			100008754={ #// 2b) LEOPOLD Karl Maria Fst Fugger von Babenhausen (Babenhausen 4 Oct 1827-Augsburg 10 Apr 1885); m.Salzburg 10 Jan 1857 Anna Gfn von Gatterburg (Salzburg 30 Jan 1838-Kalksburg 14 Jul 1903)
-				name=Leopold
-				dynasty=1002105
-				religion=catholic culture=german
-				father=100008753	# Anton Fugger von Babenhausen
-				mother=100002028	# Franziska zu Hohenlohe-Bartenstein
-				1827.10.04={birth=yes}  # Babenhausen
-				1857.01.10={add_spouse=100092002}	# GFN Anna von Gatterburg
-				1885.04.10={death=yes}  # Augsburg
-			}
-			100008755={ #// 3b) KARL Ludwig Maria Joseph Anselm Andreas Fst Fugger von Babenhausen (Babenhausen 4 Feb 1829-Babenhausen 12 May 1906); m.Klagenfurt 8 Oct 1855 Friederike Gfn Christallnigg (Klagenfurt 27 May 1832-Klagenfurt 17 Jun 1888)
-				name=Karl
-				dynasty=1002105
-				religion=catholic culture=german
-				father=100008753	# Anton Fugger von Babenhausen
-				mother=100002028	# Franziska zu Hohenlohe-Bartenstein
-				1829.02.04={birth=yes}  # Babenhausen
-				1855.10.08={add_spouse=100092739}	# GFN Friederike Christalnigg
-				1906.05.12={death=yes}  # Babenhausen
-			}
-				100008756={ #// 1c) Pauline (Klagenfurt 9 Jan 1857-Schloß Meiselberg 11 Aug 1886); m.Klagenfurt 9 Jan 1879 Janko Gf Vojkffy von Vojkovic (d.23 May 1897)
-					name=Pauline
-					female=yes
-					dynasty=1002105
-					religion=catholic culture=german
-					father=100008755	# Karl Fugger von Babenhausen
-					mother=100092739	# GFN Friederike Christalnigg
-					1857.01.09={birth=yes}  # Klagenfurt
-					1886.08.11={death=yes}  # Schloß Meiselberg
-				}
-				100008757={ #// 2c) Maria (Meiselberg 18 Aug 1858-Meiselberg 6 Mar 1927); m.Meiselberg 25 Jul 1880 Christoph Gf von Wydenbruck (d.Reichenhall 4 Oct 1917)
-					name=Maria
-					female=yes
-					dynasty=1002105
-					religion=catholic culture=german
-					father=100008755	# Karl Fugger von Babenhausen
-					mother=100092739	# GFN Friederike Christalnigg
-					1858.08.18={birth=yes}  # Meiselberg
-					1927.03.06={death=yes}  # Meiselberg
-				}
-				100008758={ #// 3c) KARL Georg Ferdinand Jakob Maria Fst Fugger von Babenhausen (Klagenfurt 15 Mar 1861-Klagenfurt 5 Jul 1925); m.Vienna 8 Jan 1887 Eleonore Pss zu Hohenlohe-Bartenstein (Bartenstein 4 Oct 1864-Vienna 1 Mar 1935) $$
-					name=Karl
-					dynasty=1002105
-					religion=catholic culture=german
-					father=100008755	# Karl Fugger von Babenhausen
-					mother=100092739	# GFN Friederike Christalnigg
-					1861.03.15={birth=yes}  # Klagenfurt
-					1887.01.08={add_spouse=100001999}	# Eleonore zu Hohenlohe-Bartenstein
-					1925.07.05={death=yes}  # Klagenfurt
-				}
-					100008759={ #// 1d) Friederike Maria Karoline Henriette Rosa Sabina Franziska Pauline (Klagenfurt 27 Oct 1887-Vienna 4 Jul 1949); m.Vienna 27 Oct 1908 Sir Adrian Carton de Wiart (Brussels 5 May 1880-Killinardrish, Ireland 5 Jun 1963)
-						name=Friederike
-						female=yes
-						dynasty=1002105
-						religion=catholic culture=german
-						father=100008758	# Karl Fugger von Babenhausen
-						mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
-						1887.10.27={birth=yes}  # Klagenfurt
-						1949.07.04={death=yes}  # Vienna
-					}
-					100008760={ #// 2d) GEORG Konstantin Heinrich Carl Fst Fugger von Babenhausen (Ödenburg 24 Jul 1889-Schloß Wellenburg 1 Aug 1934); m.Berlin 10 Feb 1914 Elisabeth Gfn von Plessen (Sierhagen 8 Jul 1891-Augsburg 26 Aug 1976)
-						name=Georg
-						dynasty=1002105
-						religion=catholic culture=german
-						father=100008758	# Karl Fugger von Babenhausen
-						mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
-						1889.07.24={birth=yes}  # Ödenburg
-						1914.02.10={add_spouse=100092744}	# GFN Elisabeth von Plessen
-						1934.08.01={death=yes}  # Schloß Wellenburg
-					}
-						100008761={ #// 1e) FRIEDRICH CARL Georg Maria Fst Fugger von Babenhausen (Potsdam 26 Nov 1914-Wellenburg 22 Dec 1979); m.Sturefors, Sweden 10 Oct 1942 Gunilla Gfn Bielke (Vist 8 Jul 1919-Mar 2015) $$
-							name=Friedrich
-							dynasty=1002105
-							religion=catholic culture=german
-							father=100008760	# Georg Fugger von Babenhausen
-							mother=100092744	# GFN Elisabeth von Plessen
-							1914.11.26={birth=yes}  # Potsdam
-							1942.10.10={add_spouse=100036921}	# Gunilla Bielke
-							1979.12.22={death=yes}  # Wellenburg
-						}
-							100008762={ #// 1f) Carl-Anton Maria, renounced his rights 23 Dec 1970 and took the name "Gf Fugger-Babenhausen de Polignac" (b.Babenhausen 10 Dec 1944); m.(civ) Biberbach 18 Aug 1975 (rel) Paris 20 Sep 1975 (div 1988) Hélène Pss de Polignac (b.Mouchamps 1 Oct 1944) $$
-								name=Carl-Anton
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100008761	# Friedrich Fugger von Babenhausen
-								mother=100036921	# Gunilla Bielke
-								1944.12.10={birth=yes}  # Babenhausen
-								1975.08.18={add_spouse=100069361}	# Hélène de Polignac
-								1988.01.01={remove_spouse=100069361}
-							}
-								100008763={ #// 1g) Marie-Yolande Jeanne Elisabeth Gräfin Fugger-Babenhausen de Polignac (b.Boulogne-Billancourt 9 Aug 1979); m.Chemillé 27 Sep 2008 Constantin Rinn of Smailholm
-									name=Marie-Yolande
-									female=yes
-									dynasty=1002105
-									religion=catholic culture=german
-									father=100008762	# Carl-Anton Fugger von Babenhausen
-									mother=100069361	# Hélène de Polignac
-									1979.08.09={birth=yes}  # Boulogne-Billancourt
-								}
-								100008764={ #// 2g) Pierre-Edmond Hector Gabriel Gf Fugger-Babenhausen de Polignac (b.Boulogne-Billancourt 12 Feb 1981)
-									name=Pierre-Edmond
-									dynasty=1002105
-									religion=catholic culture=german
-									father=100008762	# Carl-Anton Fugger von Babenhausen
-									mother=100069361	# Hélène de Polignac
-									1981.02.12={birth=yes}  # Boulogne-Billancourt
-								}
-							100008765={ #// 2f) HUBERTUS Viktor Fst Fugger von Babenhausen (b.Augsburg 23 Nov 1946); m.Öttingen (civ) 10 Oct 1977 (rel) 22 Oct 1977 Alexandra Pss zu Oettingen-Oettingen u.Oettingen-Spielberg (b.Öttingen 9 Oct 1948) $$
-								name=Hubertus
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100008761	# Friedrich Fugger von Babenhausen
-								mother=100036921	# Gunilla Bielke
-								1946.11.23={birth=yes}  # Augsburg
-								1977.10.10={add_spouse=100012358}	# Alexandra zu Oettingen-Spielberg
-							}
-								100008766={ #// 1g) Franziska Victoria Elisabeth Maria (b.Memmingen 12 Apr 1979); m.Buenos Aires 13 Dec 2003 Gonzalo Cazenave
-									name=Franziska
-									female=yes
-									dynasty=1002105
-									religion=catholic culture=german
-									father=100008765	# Hubertus Fugger von Babenhausen
-									mother=100012358	# Alexandra zu Oettingen-Spielberg
-									1979.04.12={birth=yes}  # Memmingen
-								}
-								100008767={ #// 2g) Leopold Sebastian Ferdinand Alois Maria (b.Augsburg 14 May 1980); m.Bad Wurzach 21 Jul 2007 (rel) Amorbach 25 Aug 2007 Annina Kammer (b.São Paulo 2 Sep 1978)
-									name=Leopold
-									dynasty=1002105
-									religion=catholic culture=german
-									father=100008765	# Hubertus Fugger von Babenhausen
-									mother=100012358	# Alexandra zu Oettingen-Spielberg
-									1980.05.14={birth=yes}  # Augsburg
-									2007.07.21={add_spouse=100092754}	# Annina Kammer
-								}
-									100008768={ #// 1h) Sophia Anastasia Celina Benedikta Maria (b.Vienna 3 May 2009)
-										name=Sophia
-										female=yes
-										dynasty=1002105
-										religion=catholic culture=german
-										father=100008767	# Leopold Fugger von Babenhausen
-										mother=100092754	# Annina Kammer
-										2009.05.03={birth=yes}  # Vienna
-									}
-									100008769={ #// 2h) Josepha Nicola Victoria Georgina Maria (b.22 Jan 2011)
-										name=Josepha
-										female=yes
-										dynasty=1002105
-										religion=catholic culture=german
-										father=100008767	# Leopold Fugger von Babenhausen
-										mother=100092754	# Annina Kammer
-										2011.01.22={birth=yes}
-									}
-									100008770={ #// 3h) Antonius (b.2013)
-										name=Antonius
-										dynasty=1002105
-										religion=catholic culture=german
-										father=100008767	# Leopold Fugger von Babenhausen
-										mother=100092754	# Annina Kammer
-										2013.01.01={birth=yes}
-									}
-								100008771={ #// 3g) Alexander Emanuel Josef Ernst Markus Maria (b.Augsburg 21 Nov 1981)
-									name=Alexander
-									dynasty=1002105
-									religion=catholic culture=german
-									father=100008765	# Hubertus Fugger von Babenhausen
-									mother=100012358	# Alexandra zu Oettingen-Spielberg
-									1981.11.21={birth=yes}  # Augsburg
-								}
-								100008772={ #// 4g) Anastasia Jasmin Katharina Maria (b.Palm Beach, Florida 2 Jul 1986)
-									name=Anastasia
-									female=yes
-									dynasty=1002105
-									religion=catholic culture=english
-									father=100008765	# Hubertus Fugger von Babenhausen
-									mother=100012358	# Alexandra zu Oettingen-Spielberg
-									1986.07.02={birth=yes}  # Palm Beach Florida
-								}
-								100008773={ #// 5g) Nikolaus Franz Anselm Dominikus Maria (b.28 Feb 1993)
-									name=Nikolaus
-									dynasty=1002105
-									religion=catholic culture=german
-									father=100008765	# Hubertus Fugger von Babenhausen
-									mother=100012358	# Alexandra zu Oettingen-Spielberg
-									1993.02.28={birth=yes}
-								}
-							100008774={ #// 3f) Markus Albrecht Maria (b.Augsburg 15 Mar 1950)
-								name=Markus
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100008761	# Friedrich Fugger von Babenhausen
-								mother=100036921	# Gunilla Bielke
-								1950.03.15={birth=yes}  # Augsburg
-							}
-							100008775={ #// 4f) Johannes Anselm Maria (b.Augsburg 20 Dec 1957); m.(civ) Babenhausen 10 Dec 1982 (rel) Trauchburg 15 Jan 1983 (div 2010) Marie Elisabeth Pss von Lobkowicz (b.South Bend, Indiana 2 Jan 1961); m.2nd Caroline Frn von Schacky auf Schönfeld (b.1965)
-								name=Johannes
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100008761	# Friedrich Fugger von Babenhausen
-								mother=100036921	# Gunilla Bielke
-								1957.12.20={birth=yes}  # Augsburg
-								1982.12.10={add_spouse=100185411}	# Miriam z Lobkowicz
-								2010.01.01={remove_spouse=100185411}
-								2011.01.01={add_spouse=100093276}	# FRN Caroline von Schacky auf Schönfeld
-							}
-								100008776={ #// 1g) Constantin Franziskus Anselm Maria (b.München 23 Jul 1986)
-									name=Constantin
-									dynasty=1002105
-									religion=catholic culture=german
-									father=100008775	# Johannes Fugger von Babenhausen
-									mother=100185411	# Miriam z Lobkowicz
-									1986.07.23={birth=yes}  # München
-								}
-								100008777={ #// 2g) Philipp Georg Rudolf Maria (b.Berlin 14 Nov 1988)
-									name=Philipp
-									dynasty=1002105
-									religion=catholic culture=german
-									father=100008775	# Johannes Fugger von Babenhausen
-									mother=100185411	# Miriam z Lobkowicz
-									1988.11.14={birth=yes}  # Berlin
-								}
-								100008778={ #// 3g) Georgina Marina Huberta Maria (b.Frankfurt 21 Jun 1995)
-									name=Georgina
-									female=yes
-									dynasty=1002105
-									religion=catholic culture=german
-									father=100008775	# Johannes Fugger von Babenhausen
-									mother=100185411	# Miriam z Lobkowicz
-									1995.06.21={birth=yes}  # Frankfurt
-								}
-							100008779={ #// 5f) Tatiana Elisabeth Sibylle Maria (b.Augsburg 20 Nov 1959); m.Babenhausen (civ) 20 Sep 1986 (rel) 13 Dec 1986 Hubertus Frhr Rukavina von Vidovgrad (b.Buenos Aires 17 Dec 1949)
-								name=Tatiana
-								female=yes
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100008761	# Friedrich Fugger von Babenhausen
-								mother=100036921	# Gunilla Bielke
-								1959.11.20={birth=yes}  # Augsburg
-							}
-						100008780={ #// 2e) Marie Louise Eleonore Elisabeth Caroline (Potsdam 8 Dec 1916-Augsburg 18 Sep 1993); m.Bergheim 27 Sep 1940 Wilhelm von Hagen (Belgard, Pomerania 2 Dec 1912-Gotenhafen 16 Mar 1945)
-							name=Marie
-							female=yes
-							dynasty=1002105
-							religion=catholic culture=german
-							father=100008760	# Georg Fugger von Babenhausen
-							mother=100092744	# GFN Elisabeth von Plessen
-							1916.12.08={birth=yes}  # Potsdam
-							1993.09.18={death=yes}  # Augsburg
-						}
-					100008781={ #// 3d) Sylvia-Maria (Enzersdorf 8 May 1892-Vienna 13 Apr 1949); m.Schloß Wellenburg 7 Jan 1925 Friedrich Gf zu Münster Frhr von Grothaus (Bad Homburg vor der Höhe 20 Jun 1891-Berlin 7 Jan 1942)
-						name=Sylvia-Maria
-						female=yes
-						dynasty=1002105
-						religion=catholic culture=german
-						father=100008758	# Karl Fugger von Babenhausen
-						mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
-						1892.05.08={birth=yes}  # Enzersdorf
-						1949.04.13={death=yes}  # Vienna
-					}
-					100008782={ #// 4d) Leopold Heinrich Carl Friedrich Maria (Oldenburg 18 Jul 1893-Hamburg 8 Jul 1966); m.Vienna 23 Feb 1924 (div 1936) Vera Gfn Czernin von und zu Chudenitz (München 4 Jun 1904-Kirkwood, Missouri 18 Sep 1959) $$
-						name=Leopold
-						dynasty=1002105
-						religion=catholic culture=german
-						father=100008758	# Karl Fugger von Babenhausen
-						mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
-						1893.07.18={birth=yes}  # Oldenburg
-						1924.02.23={add_spouse=100186247}	# Vera Czernin v.u.zu Chudenitz
-						1936.01.01={remove_spouse=100186247}
-						1966.07.08={death=yes}  # Hamburg
-					}
-						100008783={ #// 1e) Eleonore Vera Alexia Anna Maria (Babenhausen 31 Jan 1925-München 19 Dec 1992); m.1st Mittelberg, Kleines Walsertal am Vorarlberg 14 Feb 1946 (div 1959) Robert Joseph Bee (New York 2 Sep 1918 [1920?]-3 Dec 1994); m.2nd München (civ) 20 Jan 1961 (rel) 31 Jan 1961 Burchard Pr of Prussia (Potsdam 8 Jan 1917-Hof bei Salzburg 12 Aug 1988)
-							name=Eleonore
-							female=yes
-							dynasty=1002105
-							religion=catholic culture=german
-							father=100008782	# Leopold Fugger von Babenhausen
-							mother=100186247	# Vera Czernin v.u.zu Chudenitz
-							1925.01.31={birth=yes}  # Babenhausen
-							1992.12.19={death=yes}  # München
-						}
-							100008784={ #// 1f) Sylvia Rose Marie Elisabeth Bee, b.New York 1947
-								name=Sylvia
-								female=yes
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100094591	# Robert Joseph Bee
-								mother=100008783	# Eleonore Fugger von Babenhausen
-								1947.01.01={birth=yes}
-							}
-							100008785={ #// 2f) Robert Joseph Leonhard Rudolf Bee, b.New York 1948
-								name=Robert
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100094591	# Robert Joseph Bee
-								mother=100008783	# Eleonore Fugger von Babenhausen
-								1948.01.01={birth=yes}
-							}
-							100008786={ #// 3f) Victoria Ann Bee, b.New York 1951; m.München 1973 Pr Georg of Hannover (b.Salem 9 Dec 1949) $$
-								name=Victoria
-								female=yes
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100094591	# Robert Joseph Bee
-								mother=100008783	# Eleonore Fugger von Babenhausen
-								1951.01.01={birth=yes}
-							}
-						100008787={ #// 2e) Rudolf Carl Maria (Babenhausen 1 Jan 1927-Bombay 8 Mar 1984); m.1st Milan 8 Sep 1949 (div 1956) Maria Teresa Angela Crespi (b.Cremona 20 Jul 1922); m.2d Geneva 16 Nov 1958 (div 1965) Maria Leila Duarte (Karachi 8 Sep 1929-Lausanne 27 Jul 1999)
-							name=Rudolf
-							dynasty=1002105
-							religion=catholic culture=german
-							father=100008782	# Leopold Fugger von Babenhausen
-							mother=100186247	# Vera Czernin v.u.zu Chudenitz
-							1927.01.01={birth=yes}  # Babenhausen
-							1949.09.08={add_spouse=100081715}	# Maria Teresa Crespi
-							1956.01.01={remove_spouse=100081715}
-							1958.11.16={add_spouse=100095638}	# Maria Leila Duarte
-							1965.01.01={remove_spouse=100095638}
-							1984.03.08={death=yes}  # Bombay
-						}
-							100008788={ #// 1f) Maria Isabella (Milan 15 Jun 1950-Chamonix 8 Dec 1980); m.München 25 Sep 1971 Cte Vittorio Fracassi Ratti Mentone dei Marchesi di Torre Rassano (b.Turin 20 Dec 1940)
-								name="Maria Isabella"
-								female=yes
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100008787	# Rudolf Fugger von Babenhausen
-								mother=100081715	# Maria Teresa Crespi
-								1950.06.15={birth=yes}  # Milan
-								1980.12.08={death=yes}  # Chamonix
-							}
-							100008789={ #// 2f) Christiane Vera Rani (Geneva 18 Jan 1960-24 Apr 2009)
-								name=Christiane
-								female=yes
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100008787	# Rudolf Fugger von Babenhausen
-								mother=100095638	# Maria Leila Duarte
-								1960.01.18={birth=yes}  # Geneva
-								2009.04.24={death=yes}
-							}
-							100008790={ #// 3f) Patricia Elisabeth Sylvia Munira (Geneva 3 Aug 1961-15 May 2014); m.New York 21 Dec 2005 Gerald Held (b.München 19 Oct 1958)
-								name=Patricia
-								female=yes
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100008787	# Rudolf Fugger von Babenhausen
-								mother=100095638	# Maria Leila Duarte
-								1961.08.03={birth=yes}  # Geneva
-								2014.05.15={death=yes}
-							}
-							100008791={ #// 4f) Alexandra Maria Sophie (b.St.Gallen 1 Dec 1964)
-								name=Alexandra
-								female=yes
-								dynasty=1002105
-								religion=catholic culture=german
-								father=100008787	# Rudolf Fugger von Babenhausen
-								mother=100095638	# Maria Leila Duarte
-								1964.12.01={birth=yes}  # St.Gallen
-							}
-						100008792={ #// 3e) Rose Marie Therese (Babenhausen 26 Dec 1927-München 17 Sep 1999)
-							name=Rose
-							female=yes
-							dynasty=1002105
-							religion=catholic culture=german
-							father=100008782	# Leopold Fugger von Babenhausen
-							mother=100186247	# Vera Czernin v.u.zu Chudenitz
-							1927.12.26={birth=yes}  # Babenhausen
-							1999.09.17={death=yes}  # München
-						}
-						100008793={ #// 4e) Sylvia Theresia Karolina Maria (München 19 May 1931-Hamburg 11 Feb 1995); m.München (civ) 18 May 1961 (rel) 19 May 1961 (div 1981) Friedrich Kristinus (Vienna 28 Jul 1913-Hamburg 11 Feb 1995)
-							name=Sylvia
-							female=yes
-							dynasty=1002105
-							religion=catholic culture=german
-							father=100008782	# Leopold Fugger von Babenhausen
-							mother=100186247	# Vera Czernin v.u.zu Chudenitz
-							1931.05.19={birth=yes}  # München
-							1995.02.11={death=yes}  # Hamburg
-						}
-					100008794={ #// 5d) Maria Theresia Karolina Gigina (Vienna 1 Mar 1899-Starnberg 28 Jun 1994); m.Babenhausen 1 Aug 1921 Heinrich Fst von Hanau (Söcking 27 Dec 1900-München 12 Oct 1971) $$
-						name="Maria Theresia"
-						female=yes
-						dynasty=1002105
-						religion=catholic culture=german
-						father=100008758	# Karl Fugger von Babenhausen
-						mother=100001999	# Eleonore zu Hohenlohe-Bartenstein
-						1899.03.01={birth=yes}  # Vienna
-						1994.06.28={death=yes}  # Starnberg
-					}
-			100008795={ #// 5b) Friedrich (Babenhausen 26 Nov 1836-München 5 Feb 1907); m.Vienna 24 Jun 1872 Maria Frn von Gudenus (Mühlbach 19 Oct 1848-München 4 May 1918) $$
-				name="Friedrich Anton"
-				dynasty=1002105
-				religion=catholic culture=german
-				father=100008753	# Anton Fugger von Babenhausen
-				mother=100002028	# Franziska zu Hohenlohe-Bartenstein
-				1836.11.26={birth=yes}  # Babenhausen
-				1872.06.24={add_spouse=100025544}	# Maria v. Gudenus
-				1907.02.05={death=yes}  # München
-			}
-#1796.02.01={holder=100008751} # ANSELM Maria Joseph Christoph Johann Baptist Johann Nepomuk Rupert Theodor Aloys Karl
-#1821.11.20={holder=100008753} # 4a) ANTON Anselm Fst Fugger von Babenhausen 
-#1836.05.28={holder=100008754} # 2b) LEOPOLD Karl Maria Fst Fugger von Babenhausen 
-#1885.04.10={holder=100008755} # 3b) KARL Ludwig Maria Joseph Anselm Andreas Fst Fugger von Babenhausen 
-#1906.05.12={holder=100008758} # 3c) KARL Georg Ferdinand Jakob Maria Fst Fugger von Babenhausen 
-#1925.07.05={holder=100008760} # 2d) GEORG Konstantin Heinrich Carl Fst Fugger von Babenhausen 
-#1934.08.01={holder=100008761} # 1e) FRIEDRICH CARL Georg Maria Fst Fugger von Babenhausen 
-#1979.12.22={holder=100008762} # 1f) Carl-Anton Maria
 ## 100008750	Fugger v. BH		1002105	
 
 
