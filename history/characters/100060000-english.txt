@@ -14,29 +14,31 @@
 ##  100109500	Beauclerk		1009015		7 ST ALBANS
 ##  100104750	Gordon-Lennox	1009016		4 RICHMOND
 ##  100104300	Russell			1009017		8 BEDFORD
-#######################################################################################################
-##  100060050-100060199		Beauclerk                         1009015	 147		  6/123 = 4,88%
-##  100060225-100060272		Campbell                          1009004	  45		  4/ 53 = 7,55%
-##  100060300-100060486		Cavendish                         1009005	 178		 10/157 = 6,37%
-##  100060675-100060754		Egerton                           1009010	  76		  3/ 56 = 5,36%
-##  100060825-100061030		Fitzalan-Howard                   1009007	 202		  1/167 = 0,60%
-##  100061050-100061131		FitzGerald                        1009013	  81		  2/ 66 = 3,03%
-##  100061150-100061445		FitzRoy                           1009012	 292		 14/238 = 5,88%
-##  100061475-100061593		Gordon-Lennox                     1009016	 111		  5/ 81 = 6,17%
-##  100061650-100061769		Grosvenor                         1009014	 115		  9/131 = 6,87%
-##  100061850-100061925		Montagu                           1009011	  75		  1/ 74 = 1,35%
-##  100061951-100062012		Mountbatten                       1002120	  62		  8/ 31 = 25,81%
-##  100062075-100062253		Percy                             1009008	 177		  8/134 = 5,97%
-##  100062300-100062523		Russell                           1009017	 222		  6/167 = 3,59%
-##  100062525-100062840		Seymour                           1009006	 298		 10/243 = 4,12%
-##  100062850-100063232		Somerset                          1009009	 346		  8/267 = 3,00%
-##  100063351-100063464		Hamilton                          1009022	  60		  4/ 54 = 7,41%
-##  100063476-100063627		Innes-Ker                         1009019	  60		  3/ 57 = 5,26%
-##  100063651-100063717		Wellesley                         1009027	  65		  2/ 52 = 3,85%
-##  100063720-xx			Bowes-Lyon						  1009207
-##  100063730-xx			Manners							  1009031
-##  100063810-xx			BUCCLEUCH						  1009032
-#######################################################################################################
+#########################################################################################################
+##	Beauclerk                                            1009015  147   2/  70 =  2,86%	   68
+##	Campbell                                             1009004   45   2/  31 =  6,45%	   29
+##	Cavendish                                            1009005  178   4/  96 =  4,17%	   92
+##	Egerton                                              1009010   75   3/  40 =  7,50%	   37
+##	FitzGerald                                           1009013   81   3/  35 =  8,57%	   32
+##	FitzRoy                                              1009012  142   7/  66 = 10,61%	   59
+##	Fitzalan-Howard                                      1009007  102   0/  46 =  0,00%	   46
+##	Gordon-Lennox                                        1009016   99   0/  60 =  0,00%	   60
+##	Graham                                               1009023   54   1/  22 =  4,55%	   21
+##	Grosvenor                                            1009014  115   2/  64 =  3,13%	   62
+##	Hamilton                                             1009022   60   1/  32 =  3,13%	   31
+##	Innes-Ker                                            1009019   59   2/  37 =  5,41%	   35
+##	Knatchbull                                           1009209   35   1/  11 =  9,09%	   10
+##	Manners                                              1009031   80   2/  30 =  6,67%	   28
+##	Montagu                                              1009011   75   0/  49 =  0,00%	   49
+##	Montagu-Douglas-Scott                                1009032   65   2/  44 =  4,55%	   42
+##	Mountbatten                                house_mountbatten   15   3/   9 = 33,33%	    6
+##	Percy                                                1009008  177   6/  79 =  7,59%	   73
+##	Russell                                              1009017  222   4/ 132 =  3,03%	  128
+##	Seymour                                              1009006  189   5/ 100 =  5,00%	   95
+##	Somerset                                             1009009  306   5/ 140 =  3,57%	  135
+##	Spencer                                              1009025  190  12/  88 = 13,64%	   76
+##	Wellesley                                            1009027   65   1/  31 =  3,23%	   30
+#########################################################################################################
 
 
 ##  100063810-xx			BUCCLEUCH						  1009032
@@ -392,13 +394,12 @@
 		}
 			100063849={ #// 1c) Phyllis Anne Montagu-Douglas-Scott (London 3 Mar 1904-9 Mar 1978); m.London 14 Jun 1924 (div 1944) Thomas Pitt Hamilton Cholmondeley, 4th Lord Delamere (19 Aug 1900-13 Apr 1979)
 				name=Phyllis
+				female=yes
 				dynasty=1009032
 				religion=anglican culture=english
 				father=100063848	# George Montagu-Douglas-Scott
 				mother=100063776	# Elizabeth Manners
 				1904.03.03={birth=yes}  # London
-				1924.06.14={add_spouse=100103709}	# LORD Thomas Pitt Hamilton Cholmondeley
-				1944.01.01={remove_spouse=100103709}
 				1978.03.09={death=yes}
 			}
 			100063850={ #// 2c) Jeanetta Ruth Montagu-Douglas-Scott (Huntleyburn, Melrose 19 Nov 1906-6 Sep 1997); m.Melrose 20 Jan 1937 James William Stirling-Home-Drummond-Moray (b.8 Nov 1900)
@@ -3371,12 +3372,12 @@
 						}
 			100063464={ #// 7c) Cecil Frances (19 Jul 1795-7 Jul 1860); m.16 Feb 1816 William Howard, 3rd Earl of Wicklow (13 Feb 1788-22 Mar 1869)
 				name="Cecil Frances"
+				female=yes
 				dynasty=1009022
 				religion=catholic culture=irish
 				father=100063356	# John James Hamilton
 				mother=100085298	# LADY Cecil Hamilton
 				1795.07.19={birth=yes}
-				1816.02.16={add_spouse=100085360}	# EARL William Howard of Wicklow
 				1860.07.07={death=yes}
 			}
 #1716.03.22={holder=100063351} # James Hamilton
@@ -3954,11 +3955,11 @@
 
 
 ### (D) GORDON
-100061600={ #// George Gordon, 1st Duke of Gordon $$
+100061600={ #// 1j) GEORGE, 4th Marquess of Huntly, cr 1684 Duke of Gordon, Marquess of Huntly, Earl of Huntly and Enzie, etc. (1649-Leith 7 Dec 1716); m.Oct 1676 Lady Elizabeth Howard (d.Edinburgh 16 Jul 1732)
 	name=George
 	dynasty=1009024
 	religion=catholic culture=english
-	1643.01.01={birth=yes}
+	1649.01.01={birth=yes}
 	1676.10.01={add_spouse=100060839}	# Elizabeth Fitzalan-Howard
 	1716.12.07={death=yes}
 }
@@ -8935,7 +8936,7 @@
 			religion=anglican culture=english
 			father=100060055	# William Beauclerk
 			mother=100093715	# Charlotte Werden
-			1719.01.01={birth=yes}
+			1724.01.01={birth=yes}
 			1750.01.01={add_spouse=100086037}	# Elizabeth Jones
 			1775.08.30={death=yes}
 		}
@@ -8954,7 +8955,7 @@
 			religion=anglican culture=english
 			father=100060055	# William Beauclerk
 			mother=100093715	# Charlotte Werden
-			1721.01.01={birth=yes}
+			1725.01.01={birth=yes}	# EST.
 			1744.12.22={add_spouse=100083449}	# John Drummond of Stanmore
 			1793.03.07={death=yes}
 		}
@@ -8965,7 +8966,7 @@
 			religion=anglican culture=english
 			father=100060055	# William Beauclerk
 			mother=100093715	# Charlotte Werden
-			1721.01.01={birth=yes}
+			1730.01.01={birth=yes}	# EST.
 			1787.01.08={death=yes}
 		}
 	100060060={ #//  4a) Vere, cr 1750 Lord Vere of Hanworth (14 Jul 1699-London 2 Oct 1781); m.London 13 Apr 1736 Mary Chambers (d.London 21 Jan 1783)
@@ -9524,6 +9525,7 @@
 									name="Gianni Emrys"
 									dynasty=1009015
 									religion=anglican culture=english
+									trait=legitimized_bastard
 									father=100060115	# John William Beauclerk
 									mother=100093796	# Caroline Wilkinson
 									1979.01.01={birth=yes}
@@ -9533,14 +9535,16 @@
 									female=yes
 									dynasty=1009015
 									religion=anglican culture=english
+									trait=legitimized_bastard
 									father=100060115	# John William Beauclerk
 									mother=100093796	# Caroline Wilkinson
 									1979.01.01={birth=yes}
 								}
 								100060118={ #//  3h) Kiatsi Sopfia (b.12 Oct 1984)
-									name="Kiatsi Sopfia"
+									name="Kiatsi Sophia"
 									dynasty=1009015
 									religion=anglican culture=english
+									trait=legitimized_bastard
 									father=100060115	# John William Beauclerk
 									mother=100093796	# Caroline Wilkinson
 									1984.10.12={birth=yes}
@@ -9551,6 +9555,7 @@
 									dynasty=1009015
 									religion=anglican culture=english
 									father=100060115	# John William Beauclerk
+									mother=100093796	# Caroline Wilkinson
 									1998.05.06={birth=yes}
 								}
 							100060120={ #//  5g) Caroline Anne de Vere (b.19 Jul 1951); m.11 Jul 1970 (div 1986) Neil St.John ffrench Blake
@@ -24879,17 +24884,7 @@
 	1998.03.29={death=yes}
 }
 
-100061983={ #// 4d) Alexander Ludwig Georg Friedrich Emil (Darmstadt 15 Jul 1823-Darmstadt 15 Dec 1888); m.(morganatically) Breslau 28 Oct 1851 Julie von Hauke, cr Gfn von Battenberg 5 Nov 1851 and von Battenberg (Serene Highness) 26 Dec 1858 (Warsaw 12 Nov 1825-Schloß Heiligenberg 19 Sep 1895)
-	name=Alexander
-	dynasty=1002012
-	religion=lutheran culture=german
-	father=100001574	# Ludwig v. Hessen
-	mother=100000288	# Wilhelmine von Baden
-	trait=bastard	# only morganatic children!
-	1823.07.15={birth=yes}
-	1851.10.28={add_spouse=100084730}	# Julia Hauke
-	1888.12.15={death=yes}
-}
+# 4d) Alexander Ludwig Georg Friedrich Emil (Darmstadt 15 Jul 1823-Darmstadt 15 Dec 1888); m.(morganatically) Breslau 28 Oct 1851 Julie von Hauke, cr Gfn von Battenberg 5 Nov 1851 and von Battenberg (Serene Highness) 26 Dec 1858 (Warsaw 12 Nov 1825-Schloß Heiligenberg 19 Sep 1895)
 	100061984={ #// 1e) Marie Caroline von Battenberg (Geneva 15 Jul 1852-Schönberg 20 Jun 1923); m.Darmstadt 29 Apr 1871 Gustav Fst zu Erbach-Schönberg (Schönberg 17 Aug 1840-Darmstadt 29 Jan 1908) $$
 		name="Marie Caroline"
 		female=yes
@@ -25475,7 +25470,7 @@
 #### MINOR
 
 
-### TAYLOR
+### TAYLOR 10121
 100063347={ #// Timothy Verner Taylor (1963-    )
 	name="Timothy Verner"
 	dynasty=10121
@@ -25517,7 +25512,7 @@
 		mother=100063328	# Helen Windsor
 		2004.12.21={birth=yes}
 	}
-### TAYLOR
+### TAYLOR 10121
 
 
 ### LEVESON-GOWER

@@ -15170,6 +15170,7 @@
 								name=Geoffroy
 								dynasty=1007024
 								religion=catholic culture=french
+								trait=legitimized_bastard
 								father=100068418	# Anne François d'Harcourt
 								mother=100094171	# Thérèse de Goulaines
 								1952.12.08={birth=yes}  # Paris
@@ -15204,6 +15205,7 @@
 								name=Olivier
 								dynasty=1007024
 								religion=catholic culture=french
+								trait=legitimized_bastard
 								father=100068418	# Anne François d'Harcourt
 								mother=100094171	# Thérèse de Goulaines
 								1954.09.16={birth=yes}
@@ -15249,6 +15251,7 @@
 								female=yes
 								dynasty=1007024
 								religion=catholic culture=french
+								trait=legitimized_bastard
 								father=100068418	# Anne François d'Harcourt
 								mother=100094171	# Thérèse de Goulaines
 								1957.08.24={birth=yes}  # Paris
@@ -28258,13 +28261,14 @@
 						father=100066357	# Joachim Murat
 						mother=100036186	# Marie Cécile Ney d'Elchingen
 						1885.08.06={birth=yes}
-						1927.12.13={add_spouse=100089077}	# Louise Amélie Plantie
+						1922.02.20={add_spouse=100089077}	# Louise Amélie Plantie
 						1938.05.11={death=yes}
 					}
-						100066359={ #// 1e) JOACHIM Louis Napoléon, 7th Prince Murat (Neuilly 16 Jan 1920-k.a.La Gabriere-Linge 20 Jul 1944); m.Marseille 17 Aug 1940 (rel) 18 Aug 1940 Nicole Véra Claire Hélène Maurice Pastre (b.Paris 15 Dec 1921)
+						100066359={ #// 1e) JOACHIM Louis Napoléon, 7th Prince Murat (Neuilly 16 Jan 1920-k.a.La Gabriere-Linge 20 Jul 1944); m.Marseille 17 Aug 1940 (rel) 18 Aug 1940 Nicole Véra Claire Hélène Maurice Pastre (b.Paris 15 Dec 1921, +1992)
 							name=Joachim
 							dynasty=1007013
 							religion=catholic culture=french
+							trait=legitimized_bastard
 							father=100066358	# Joachim Murat
 							mother=100089077	# Louise Amélie Plantie
 							1920.01.16={birth=yes}
@@ -28280,7 +28284,7 @@
 								mother=100088844	# Nicole Véra Pastre
 								1941.05.14={birth=yes}
 							}
-							100066361={ #// 2f) Madeleine Marie Annonciade (Neuilly 13 Mar 1942-Longpont-sur-Orge 8 Oct 1990)
+							100066361={ #// 2f) Madeleine "Malcy" Marie Annonciade (Neuilly 13 Mar 1942-Longpont-sur-Orge 8 Oct 1990)
 								name=Madeleine
 								female=yes
 								dynasty=1007013
@@ -28348,6 +28352,7 @@
 							female=yes
 							dynasty=1007013
 							religion=catholic culture=french
+							trait=legitimized_bastard
 							father=100066358	# Joachim Murat
 							mother=100089077	# Louise Amélie Plantie
 							1921.09.03={birth=yes}
@@ -29460,7 +29465,7 @@
 																				mother=100089886	# Tatiana Santo Domingo
 																				2013.03.21={birth=yes}
 																			}
-																			100167342={ #// 2o) India (b.London 12 Apr 2015)
+																			100167342={ #// 2o) India Casiraghi (b.London 12 Apr 2015)
 																				name=India
 																				female=yes
 																				dynasty=10215
@@ -29469,7 +29474,15 @@
 																				mother=100089886	# Tatiana Santo Domingo
 																				2015.04.12={birth=yes}
 																			}
-																		100167343={ #// 2n) Charlotte Marie Pomeline Casiraghi (b.Princess Grace Clinic, Monte Carlo 3 Aug 1986)
+																			100164742={ #// 3o) Maximilian Casiraghi (b.2018)
+																				name=India
+																				dynasty=10215
+																				religion=catholic culture=french
+																				father=100167339	# Andrea Casiraghi
+																				mother=100089886	# Tatiana Santo Domingo
+																				2018.01.01={birth=yes}
+																			}
+																		100167343={ #// 2n) Charlotte Marie Pomeline Casiraghi (b.Princess Grace Clinic, Monte Carlo 3 Aug 1986); m.2019 Dimitri Rassam
 																			name=Charlotte
 																			female=yes
 																			dynasty=10215
@@ -29481,10 +29494,12 @@
 																			100096950={ #// 1o) Raphaël ...., b.Monaco 17 Dec 2013
 																				name="Raphaël Elmaleh"
 																				#dynasty=0
+																				trait=bastard
 																				religion=catholic culture=french
 																				mother=100167343	# Charlotte Casiraghi
 																				2013.12.17={birth=yes}
 																			}
+																			# Balthazar Rassam (b. 2018)
 																		100167345={ #// 3n) Pierre Rainier Stefano Casiraghi (b.Princess Grace Clinic, Monte Carlo 5 Sep 1987) $$
 																			name=Pierre
 																			dynasty=10215
@@ -29494,6 +29509,8 @@
 																			1987.09.05={birth=yes}
 																			2015.07.25={add_spouse=100071923}	# Beatrice Borromeo
 																		}
+																			# Stefano Casiraghi (b. 2017)
+																			# Francesco Casiraghi (b. 2018)
 																	100065741={ #// 2m) ALBERT II Alexandre Louis Pierre, Prince of Monaco (b.Monaco 14 Mar 1958); m.Monaco 1 Jul 2011 (rel) 2 Jul 2011 Charlene Lynette Wittstock (b.Bulawayo, South Africa 25 Jan 1978)
 																		name=Albert
 																		dynasty=1007012
@@ -29503,17 +29520,16 @@
 																		1958.03.14={birth=yes}
 																		2011.07.01={add_spouse=100093847}	# Charlene Wittstock
 																	}
-																		100065742={ #// 2n) Jacques Honoré Rainier, marquis des Baux (b.Monte Carlo 10 Dec 2014)
+																		100065742={ #// 1n) [illegitimate] Alexandre Grimaldi-Coste (b. 2003)
 																			name=Alexandre
 																			dynasty=1007012
-																			religion=catholic culture=dinka
 																			trait=bastard
+																			religion=catholic culture=french
 																			father=100065741	# Albert Grimaldi
-																			2003.08.24={birth=yes culture=french}
+																			2003.01.01={birth=yes}
 																		}
-																		100065743={ #// 1n) Gabriella Thérèse Marie, comtesse de Carladès (b.Monte Carlo 10 Dec 2014)
-																			name=Gabriella
-																			female=yes
+																		100065744={ #// 2n) Jacques Honoré Rainier, marquis des Baux (b.Monte Carlo 10 Dec 2014)
+																			name=Jacques
 																			dynasty=1007012
 																			religion=catholic culture=french
 																			trait=twin
@@ -29521,8 +29537,9 @@
 																			mother=100093847	# Charlene Wittstock
 																			2014.12.10={birth=yes}
 																		}
-																		100065744={ #// 2n) Jacques Honoré Rainier, marquis des Baux (b.Monte Carlo 10 Dec 2014)
-																			name=Jacques
+																		100065743={ #// 3n) Gabriella Thérèse Marie, comtesse de Carladès (b.Monte Carlo 10 Dec 2014)
+																			name=Gabriella
+																			female=yes
 																			dynasty=1007012
 																			religion=catholic culture=french
 																			trait=twin
@@ -29542,6 +29559,7 @@
 																		100167353={ #// 1n) Louis Robert Paul Ducruet (b.Princess Grace Clinic, Monte Carlo 26 Nov 1992)
 																			name=Louis
 																			dynasty=10217
+																			trait=legitimized_bastard
 																			religion=catholic culture=french
 																			father=100083490	# Daniel Ducruet
 																			mother=100065745	# Stéphanie Grimaldi
@@ -29551,6 +29569,7 @@
 																			name=Pauline
 																			female=yes
 																			dynasty=10217
+																			trait=legitimized_bastard
 																			religion=catholic culture=french
 																			father=100083490	# Daniel Ducruet
 																			mother=100065745	# Stéphanie Grimaldi
@@ -29560,6 +29579,7 @@
 																			name="Camille Gottlieb"
 																			female=yes
 																			#dynasty=0
+																			trait=bastard
 																			religion=catholic culture=french
 																			mother=100065745	# Stéphanie Grimaldi
 																			1998.07.15={birth=yes}
