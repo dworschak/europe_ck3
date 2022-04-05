@@ -1059,11 +1059,12 @@
 	1934.01.01={death=yes}
 }
 100103697={ #               Archibald                 Stirling                                 (1941-    )     0 [DOUGLAS]
-	name="Archibald Stirling"
 	female=yes
 	#dynasty=0
 	religion=anglican culture=english
 	1941.09.18={birth=yes}
+	1964.11.11={add_spouse=100063844}	# Archibald Stirling
+	1977.01.01={remove_spouse=100063844}
 }
 100090611={ #               Elizabeth Christian       Stirling                                 (1942-    )     1 [GORDON]
 	name="Elizabeth Christian Stirling"
@@ -4384,12 +4385,12 @@
 	1858.07.01={add_spouse=100061704}	# Agnes Grosvenor
 	1866.09.11={death=yes}
 }
-100103698={ #               Colin Guy                 Napier Campbell                          (1930-2007)     0 [DOUGLAS]
+100103698={ #               Colin Guy Napier          Campbell                                 (1930-2007)     0 [DOUGLAS]
 	name="Colin Guy Napier Campbell"
-	female=yes
 	#dynasty=0
 	religion=anglican culture=english
 	1930.07.14={birth=yes}
+	1987.03.26={add_spouse=100063844}	# Colin Guy Napier Campbell
 	2007.01.01={death=yes}  # EST.
 }
 100086226={ #               Elizabeth                 Sale                                     (1699-1738)     1 [WELESLEY]
@@ -14166,4 +14167,18 @@ lowborn_0702={ #            Rebecca Sue               Main                      
 	1877.12.24={birth=yes}  # Southsea
 	1902.01.14={add_spouse=100063405}	# Gladys Mary Hamilton
 	1946.10.11={death=yes}  # Shelton Abbey, Co Wicklow
+}
+100088554={ #               Ismania Katharine         Nugent                                   (1842-1918)     3 [FITZROY]
+	name="Ismania Katharine Nugent"
+	female=yes
+	religion=anglican culture=english
+	1842.01.01={birth=yes}
+	1918.08.18={death=yes}
+}
+100101287={ #               Debonnaire                Patterson                                (1959-    )     4 [BISMARCK]
+	name="Debonnaire Patterson"
+	female=yes
+	#dynasty=0
+	religion=lutheran culture=english
+	1959.08.19={birth=yes}  # London
 }

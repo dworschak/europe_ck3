@@ -732,14 +732,6 @@
 	1635.01.01={birth=yes}
 	1710.01.01={death=yes}  # EST.
 }
-100099668={ # Gf         Zsigmond                  Keglevich de Buzin                       (1668-1709)     - [KOHARY]
-	name="Zsigmond Keglevich de Buzin"
-	#dynasty=0
-	religion=catholic culture=hungarian
-	1668.01.01={birth=yes}
-	1701.07.09={add_spouse=100119915}	# Borbála Koháry de Csábrág
-	1709.01.01={death=yes}
-}
 100086948={ # Gf         Péter                     Keglevich de Buzin                       (1725-1744)     - [DRASKOVICH]
 	name="Péter Keglevich de Buzin"
 	#dynasty=0
@@ -750,7 +742,7 @@
 }
 
 #keglevich1
-100192399={ # Miklós Keglevich de Buzin (1636-1701) %%
+100192399={ # I1. Miklós, cr Baron 1646, cr Graf 4.8.1687, Torna vármegye főispánja (Comes of Torna County), *1636, +Kőszeg 1701; m.Holics 21.11.1660 Gfn Éva Czobor de Czoborszentmihály (+1701)
 	name=Miklós
 	dynasty=1011575
 	religion=catholic culture=croatian
@@ -765,76 +757,301 @@
 		1666.01.01={birth=yes}
 		1713.01.01={death=yes}
 	}
-		# K1. József, Torna vármegye foispánja (Comes of Torna County), *1700, +1763; m.Wien 8.4.1728 Frn Theresia von Thavonath (*Wien 19.2.1706), dau.of Albert Frhr Thavonath von Tavon and Bss Mária Polyxena Jakussith de Orbova; for their descendants see HERE
-		# K3. Gábor, *Torna 31.1.1710, +Pétervására 2.4.1769; m.Wien 19.3.1747 Gfn Maria Josepha von Königsacker (*Wien 12.5.1724, +Pest 2.12.1789); for their descendants see HERE
+		# keglevich3  -->  K1. József, Torna vármegye foispánja (Comes of Torna County), *1700, +1763; m.Wien 8.4.1728 Frn Theresia von Thavonath (*Wien 19.2.1706), dau.of Albert Frhr Thavonath von Tavon and Bss Mária Polyxena Jakussith de Orbova; for their descendants see HERE
+		# keglevich4  -->  K3. Gábor, *Torna 31.1.1710, +Pétervására 2.4.1769; m.Wien 19.3.1747 Gfn Maria Josepha von Königsacker (*Wien 12.5.1724, +Pest 2.12.1789); for their descendants see HERE
+	100099668={ # J2. Zsigmond, *1668, +1709; m.Szécsény 19.6.1701 Gfn Borbála Koháry de Csábrág et Szitnya (+10.10.1762)
+		name=Zsigmond
+		dynasty=1011575
+		religion=catholic culture=croatian
+		father=100192399	# Miklós Keglevich de Buzin
+		1668.01.01={birth=yes}
+		1701.07.09={add_spouse=100119915}	# Borbála Koháry de Csábrág
+		1709.01.01={death=yes}
+	}
 #keglevich1
 
 #keglevich3
-100192396={ # Gf József Keglevich de Buzin, Torna vármegye foispánja (Obergespan of Torna), *1700, +Torna 1763; m.Wien 8.4.1728 Theresia Frn Thavonath von Tavon (*Wien 19.2.1706), dau.of Albert Frhr Thavonath von Tavon and Bss Mária Polyxena Jakussith de Orbova
-	name=Jozsef
+keglevich_0001={ #// Gf József Keglevich de Buzin, Torna vármegye főispánja (Obergespan of Torna), *1700, +Torna 1763; m.Wien 8.4.1728 Theresia Frn Thavonath von Tavon (*Wien 19.2.1706), dau.of Albert Frhr Thavonath von Tavon and Bss Mária Polyxena Jakussith de Orbova; They had issue:
+	name=József
 	dynasty=1011575
 	religion=catholic culture=croatian
 	father=100192398	# Adam Keglevich de Buzin
 	1700.01.01={birth=yes}
-	1763.01.01={death=yes}
+	1728.04.08={add_spouse=lowborn_0589}	# Theresia Thavonath von Tavon
+	1763.01.01={death=yes}  # Torna
 }
-	100192400={ # A6. Károly, *1739, +1804; m.Gfn Katalin Zichy de Zich et Vásonkeo (*14.4.1752) $$
+	keglevich_0002={ #// A1. József, Torna vármegye főispánja (Obergespan of Torna), koronaőr, főlovászmester, *1729, +Torna 1792
+		name=József
+		dynasty=1011575
+		religion=catholic culture=croatian
+		father=keglevich_0001	# József Keglevich
+		mother=lowborn_0589	# Theresia Thavonath von Tavon
+		1729.01.01={birth=yes}
+		1792.01.01={death=yes}  # Torna
+	}
+	keglevich_0003={ #// A2. Nepomuk János, *1730, +1767
+		name="Nepomuk János"
+		dynasty=1011575
+		religion=catholic culture=croatian
+		father=keglevich_0001	# József Keglevich
+		mother=lowborn_0589	# Theresia Thavonath von Tavon
+		1730.01.01={birth=yes}
+		1767.01.01={death=yes}
+	}
+	keglevich_0004={ #// A3. Zsigmond, Bp of Esztergom, *Torna 7.5.1732, +19.12.1805
+		name=Zsigmond
+		dynasty=1011575
+		religion=catholic culture=croatian
+		father=keglevich_0001	# József Keglevich
+		mother=lowborn_0589	# Theresia Thavonath von Tavon
+		1732.05.07={birth=yes}  # Torna
+		1805.12.19={death=yes}
+	}
+	keglevich_0005={ #// A4. Mária Magdolna, *1736
+		name="Mária Magdolna"
+		female=yes
+		dynasty=1011575
+		religion=catholic culture=croatian
+		father=keglevich_0001	# József Keglevich
+		mother=lowborn_0589	# Theresia Thavonath von Tavon
+		1736.01.01={birth=yes}
+		1811.01.01={death=yes}  # EST.
+	}
+	keglevich_0006={ #// A5. Joakim, *1737
+		name=Joakim
+		dynasty=1011575
+		religion=catholic culture=croatian
+		father=keglevich_0001	# József Keglevich
+		mother=lowborn_0589	# Theresia Thavonath von Tavon
+		1737.01.01={birth=yes}
+		1807.01.01={death=yes}  # EST.
+	}
+	keglevich_0007={ #// A6. Károly, *1739, +1804; m.Gfn Katalin Zichy de Zich et Vásonkeő (*14.4.1752)
 		name=Károly
 		dynasty=1011575
 		religion=catholic culture=croatian
-		father=100192396	# Jozsef Keglevich de Buzin
+		father=keglevich_0001	# József Keglevich
+		mother=lowborn_0589	# Theresia Thavonath von Tavon
 		1739.01.01={birth=yes}
-		1777.03.18={add_spouse=100117535}	# Katalin Zichy de Zich et Vásonykõ
+		1776.01.01={add_spouse=100117535}	# Katalin Zichy de Zich et Vásonkeő
 		1804.01.01={death=yes}
 	}
-		100186662={ # B1. Antal Ferenc, *Gyor 20.8.1777, +20.7.1811; m.1805 Gfn Erzsébet Esterházy de Galántha (*1789, +10.5.1840)
+		keglevich_0008={ #// B1. Antal Ferenc, *Győr 20.8.1777, +20.7.1811; m.1805 Gfn Erzsébet Esterházy de Galántha (*1789, +10.5.1840)
 			name="Antal Ferenc"
 			dynasty=1011575
 			religion=catholic culture=croatian
-			father=100192400	# Károly Keglevich de Buzin
-			mother=100117535	# Katalin Zichy de Zich et Vásonykõ
-			1777.08.20={birth=yes}	# Raab
+			father=keglevich_0007	# Károly
+			mother=100117535	# Katalin Zichy de Zich et Vásonkeő
+			1777.08.20={birth=yes}  # Győr
+			1805.01.01={add_spouse=100383713}	# Erzsébet Esterházy de Galántha
 			1811.07.20={death=yes}
 		}
-			100192401={ # C1. KÁROLY Ferenc János, *Bratislava (Pressburg, Pozsony) 2.2.1806, +Wien 8.6.1882; 1m: Wien 1.9.1827 Pss Cecília Odescalchi de Szerém (*12.7.1809, +24.12.1847); 2m: Wien 3.3.1851 Cecília Couzell (*1826, +Wien 1.3.1886) $$
-				name="Károly Franz"
+			keglevich_0009={ #// C1. KÁROLY Ferenc János, *Bratislava (Pressburg, Pozsony) 2.2.1806, +Wien 8.6.1882; 1m: Wien 1.9.1827 Pss Cecília Odescalchi de Szerém (*12.7.1809, +24.12.1847); 2m: Wien 3.3.1851 Cecília Couzell (*1826, +Wien 1.3.1886)
+				name=Károly
 				dynasty=1011575
 				religion=catholic culture=croatian
-				father=100186662	# Antal Ferenc Keglevich de Buzin
-				1806.02.02={birth=yes}	# Pressburg
-				1827.09.01={add_spouse=100071723}	# Cecilia Odescalchi
-				1882.06.08={death=yes}	# Wien
+				father=keglevich_0008	# Antal Ferenc
+				mother=100383713	# Erzsébet Esterházy de Galántha
+				1806.02.02={birth=yes}  # Pozsony
+				1827.09.01={add_spouse=100071723}	# Cecília Odescalchi de Szerém
+				1851.03.03={add_spouse=lowborn_1775}	# Cecília Couzell
+				1882.06.08={death=yes}  # Wien
 			}
-		100192402={ # B2. Anna Lujza Borbála, *1778, +18.4.1813; m.10.2.1801 Pr Innocenzo Odescalchi (*22.7.1778, +24.9.1833) $$
-			name="Anna Luisa"
+				keglevich_0010={ #// D1. [1m.] Erzsébet, *30.9.1828, +28.6.1874; m.1851 Friedrich von Thurneyssen (+29.9.1880)
+					name=Erzsébet
+					female=yes
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0009	# Károly
+					mother=100071723	# Cecília Odescalchi de Szerém
+					1828.09.30={birth=yes}
+					1874.06.28={death=yes}
+				}
+				keglevich_0011={ #// D2. [1m.] Gizella, *14.3.1831; m.10.1.1852 Maximilian Frhr von Rolshausen (*26.10.1825)
+					name=Gizella
+					female=yes
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0009	# Károly
+					mother=100071723	# Cecília Odescalchi de Szerém
+					1831.03.14={birth=yes}
+					1906.01.01={death=yes}  # EST.
+				}
+				keglevich_0012={ #// D3. [1m.] Ödön, *21.6.1836, +1893; m.Budapest 4.11.1871 Irma Zaitz von Zaitzenburg (*1854, +1932)
+					name=Ödön
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0009	# Károly
+					mother=100071723	# Cecília Odescalchi de Szerém
+					1836.06.21={birth=yes}
+					1871.11.04={add_spouse=lowborn_1796}	# Irma Zaitz von Zaitzenburg
+					1893.01.01={death=yes}
+				}
+					keglevich_0013={ #// E1. Ödön, *27.3.1873, +Budapest 12.10.1917; m.Anna Margit Alexy (*1869, +Budapest 25.12.1941)
+						name=Ödön
+						dynasty=1011575
+						religion=catholic culture=croatian
+						father=keglevich_0012	# Ödön
+						mother=lowborn_1796	# Irma Zaitz von Zaitzenburg
+						1873.03.27={birth=yes}
+						1899.01.01={add_spouse=lowborn_1797}	# Anna Margit Alexy
+						1917.10.12={death=yes}  # Budapest
+					}
+					keglevich_0014={ #// E2. Gizella, *23.3.1877, +1940; m.Alfred Skoupil
+						name=Gizella
+						female=yes
+						dynasty=1011575
+						religion=catholic culture=croatian
+						father=keglevich_0012	# Ödön
+						mother=lowborn_1796	# Irma Zaitz von Zaitzenburg
+						1877.03.23={birth=yes}
+						1940.01.01={death=yes}
+					}
+				keglevich_0019={ #// D2. [2m.] Arthur Károly, *1851, +29.2.1880; m.30.6.1874 Róza Lázár
+					name="Arthur Károly"
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0009	# Károly
+					mother=lowborn_1775
+					1851.12.01={birth=yes}
+					1874.06.30={add_spouse=lowborn_1800}	# Róza Lázár
+					1880.02.29={death=yes}
+				}
+					keglevich_0020={ #// E1. GÉZA (VIKTOR) Ferenc, *Budapest 21.2.1876, +after 1930
+						name=Géza
+						dynasty=1011575
+						religion=catholic culture=hungarian
+						father=keglevich_0019	# Arthur Károly
+						mother=lowborn_1800	# Róza Lázár
+						1876.02.21={birth=yes}  # Budapest
+						1931.01.01={death=yes}
+					}
+				keglevich_0015={ #// D4. [2m.] Richard, *1852
+					name=Richard
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0009	# Károly
+					mother=lowborn_1775	# Cecília Couzell
+					1852.01.01={birth=yes}
+					1922.01.01={death=yes}  # EST.
+				}
+				keglevich_0016={ #// D5. [2m.] Cecília, *1853
+					name=Cecília
+					female=yes
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0009	# Károly
+					mother=lowborn_1775	# Cecília Couzell
+					1853.01.01={birth=yes}
+					1928.01.01={death=yes}  # EST.
+				}
+				keglevich_0017={ #// D6. [2m.] Melanie, *1854; m.N Frühauf
+					name=Melanie
+					female=yes
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0009	# Károly
+					mother=lowborn_1775	# Cecília Couzell
+					1854.01.01={birth=yes}
+					1929.01.01={death=yes}  # EST.
+				}
+				keglevich_0018={ #// D7. [2m.] Jenő, *28.4.1856, +Wien 27.3.1884
+					name=Jenő
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0009	# Károly
+					mother=lowborn_1775	# Cecília Couzell
+					1856.04.28={birth=yes}
+					1884.03.27={death=yes}  # Wien
+				}
+		keglevich_0021={ #// B2. Anna Lujza Borbála, *1778, +18.4.1813; m.10.2.1801 Pr Innocenzo Odescalchi (*22.7.1778, +24.9.1833)
+			name=Anna
 			female=yes
 			dynasty=1011575
 			religion=catholic culture=croatian
-			father=100192400	# Károly Keglevich de Buzin
-			mother=100117535	# Katalin Zichy de Zich et Vásonykõ
-			1781.01.01={birth=yes}
-			1813.03.13={death=yes}
+			father=keglevich_0007	# Károly
+			mother=100117535	# Katalin Zichy de Zich et Vásonkeő
+			1778.01.01={birth=yes}
+			1813.04.18={death=yes}
 		}
-		100192403={ # B3. János Nepomuk, Bars vármegye foispánja (Obergespan of Bars), *Pest 13.5.1786, +Kistapolcsány 15.10.1856; 1m: 12.11.1805 Gfn Adél Zichy de Zich et Vásonkeö (*15.9.1788, +17.1.1839); 2m: 3.2.1840 Gfn Viktoria Eugenia von Creneville-Folliot (*Vicenza 6.8.1816, +Wien 20.1.1900), dau.of Karl Gf von Creneville-Folliot and Viktoria Frn von Poutet $$
-			name=János
+		keglevich_0022={ #// B3. János Nepomuk, Bars vármegye főispánja, *Pest 13.5.1786, +Kistapolcsány 15.10.1856; 1m: 12.11.1805 Gfn Adél Zichy de Zich et Vásonkeö (*15.9.1788, +17.1.1839); 2m: 3.2.1840 Gfn Viktoria Eugenia von Creneville-Folliot (*Vicenza 6.8.1816, +Wien 20.1.1900), dau.of Karl Gf von Creneville-Folliot and Viktoria Frn von Poutet
+			name="János Nepomuk"
 			dynasty=1011575
-			religion=catholic culture=croatian
-			father=100192400	# Károly Keglevich de Buzin
-			mother=100117535	# Katalin Zichy de Zich et Vásonykõ
-			1786.05.13={birth=yes}
-			1835.10.12={add_spouse=100115594}	# Adelheid Zichy de Zich et Vásonykõ
-			1856.10.15={death=yes}
+			religion=catholic culture=hungarian
+			father=keglevich_0007	# Károly
+			mother=100117535	# Katalin Zichy de Zich et Vásonkeő
+			1786.05.13={birth=yes}  # Pest
+			1805.11.12={add_spouse=100115594}	# Adél Zichy de Zich et Vásonkeö
+			1840.02.03={add_spouse=lowborn_1803}	# Viktoria Eugenia von Creneville-Folliot
+			1856.10.15={death=yes}  # Kistapolcsány
 		}
-			100115404={ # C1. ISTVÁN János Nepomuk Viktor, *Wien 18.12.1840, +Budapest 29.5.1905; m.Pozsony 29.9.1860 Gfn Angelika Esterházy de Galántha (*20.11.1842 +1.7.1921) $$
+			keglevich_0023={ #// C1. ISTVÁN János Nepomuk Viktor, *Wien 18.12.1840, +Budapest 29.5.1905; m.Pozsony 29.9.1860 Gfn Angelika Esterházy de Galántha (*20.11.1842 +1.7.1921)
 				name=István
 				dynasty=1011575
-				religion=catholic culture=croatian
-				father=100192403	# János Keglevich de Buzin
-				mother=100115594	# Adelheid Zichy de Zich et Vásonykõ
-				1840.12.18={birth=yes}	# Wien
+				religion=catholic culture=bavarian
+				father=keglevich_0022	# János Nepomuk
+				mother=lowborn_1803	# Viktoria Eugenia von Creneville-Folliot
+				1840.12.18={birth=yes}  # Wien
 				1860.09.29={add_spouse=100117458}	# Angelika Esterházy de Galántha
-				1905.05.29={death=yes}	# Budapest
+				1905.05.29={death=yes}  # Budapest
 			}
+				keglevich_0024={ #// D1. Imre, *12.2.1862, +1895
+					name=Imre
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0023	# István
+					mother=100117458	# Angelika Esterházy de Galántha
+					1862.02.12={birth=yes}
+					1895.01.01={death=yes}
+				}
+				keglevich_0025={ #// D2. Gyula, *30.3.1865, +Kistapolcsány 10.5.1882
+					name=Gyula
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0023	# István
+					mother=100117458	# Angelika Esterházy de Galántha
+					1865.03.30={birth=yes}
+					1882.05.10={death=yes}  # Kistapolcsány
+				}
+				keglevich_0026={ #// D3. [illegitimate by Ilka Lánczy] Margit Lánczy, *Rákó 15.8.1897, +Budapest 5.4.1965
+					name=Margit
+					female=yes
+					dynasty=1011575
+					religion=catholic culture=croatian
+					father=keglevich_0023	# István
+					trait=bastard
+					1897.08.15={birth=yes}  # Rákó
+					1965.04.05={death=yes}  # Budapest
+				}
+	keglevich_0027={ #// A7. Xavér, *1742, +Roma 1775; m.Gfn Erzsébet Esterházy de Galántha
+		name=Xavér
+		dynasty=1011575
+		religion=catholic culture=croatian
+		father=keglevich_0001	# József Keglevich
+		mother=lowborn_0589	# Theresia Thavonath von Tavon
+		1742.01.01={birth=yes}
+		1768.01.01={add_spouse=lowborn_1805}	# Erzsébet Esterházy de Galántha
+		1775.01.01={death=yes}  # Roma
+	}
+	keglevich_0028={ #// A8. István, *Pozsony 1743, +Uttenhofen 1.12.1793
+		name=István
+		dynasty=1011575
+		religion=catholic culture=croatian
+		father=keglevich_0001	# József Keglevich
+		mother=lowborn_0589	# Theresia Thavonath von Tavon
+		1743.01.01={birth=yes}  # Pozsony
+		1793.12.01={death=yes}  # Uttenhofen
+	}
+	keglevich_0029={ #// A9. Terézia Antónia, *1746
+		name="Terézia Antónia"
+		female=yes
+		dynasty=1011575
+		religion=catholic culture=croatian
+		father=keglevich_0001	# József Keglevich
+		mother=lowborn_0589	# Theresia Thavonath von Tavon
+		1746.01.01={birth=yes}
+		1821.01.01={death=yes}  # EST.
+	}
 #keglevich3
 
 #keglevich4
@@ -1026,7 +1243,6 @@
 								1963.06.29={add_spouse=100089827}	# Marina Rusconi
 								1973.01.01={remove_spouse=100089827}
 								1974.06.26={add_spouse=100036829}	# Maria v. Scherz-Khevenhüller
-								2016.01.01={death=yes}  # EST.
 							}
 								100115434={ # H1. [1m.] FLAVIA Veronika Mária Walburga, *Buenos Aires 8.7.1964
 									name=Flavia
