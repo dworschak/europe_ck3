@@ -1,4 +1,4 @@
-# TÖRÖK
+﻿# TÖRÖK
 #torok4
 100103434={ #// Bálint Török (*1806, +1882); m.13 May 1833 Zsófia Révay de Szklabina et Blatnicza (*Buda-Pest 4 Mar 1806, +Nagykázmér 8 Mar 1889) %%
 	name=Bálint
@@ -866,70 +866,98 @@
 # MERVELDT
 
 # BELLEGARDE
-100035929={ #// Franz von Bellegarde (18 Jun 1833-1912); m.10 May 1857 Rudolphine Caroline Kinsky von Wchinitz u.Tettau (26 Jun 1836-25 Nov 1899) %%
-	name=Franz
-	dynasty=1002291
-	religion=catholic culture=czech
-	1833.06.18={birth=yes}
-	1857.05.10={add_spouse=100186076}	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
-	1912.01.01={death=yes}
+100091996={
+	name="August Karl"
+	religion=catholic culture=german
+	1795.10.28={birth=yes}
+	1821.10.29={add_spouse=100026119}	# Julie von Gudenus
+	1865.02.11={death=yes}
 }
-	100035937={ #// A1. Rudolf (28 Feb 1862-30 Oct 1937); m.21 Sep 1891 Karolina Pejacevic (Wien 18 Jan 1861-Ischl 15 May 1927) %%
-		name=Rudolf
-		dynasty=1002291
+	100092256={
+		name="Julie Constance"
+		female=yes
 		religion=catholic culture=german
-		father=100035929	# Franz von Bellegarde
-		mother=100186076	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
-		1862.02.28={birth=yes}
-		1891.09.21={add_spouse=100136025}	# Karolina Pejačević
-		1937.10.30={death=yes}
+		father=100091996
+		mother=100026119
+		1822.09.23={birth=yes}  # Milano
+		1884.12.09={death=yes}  # Sloup v Cechách (Burgstein)
 	}
-	100035930={ #// A2. Franz (Ischl 14 Jun 1866-2 Apr 1915); m.20 Apr 1909 Maria von Königsegg-Aulendorf (Königseggwald 27 May 1889-Graz 7 Nov 1939) %%
+	100035929={ #// Franz Alexander Ernst Noyel Graf von Bellegarde (Wien 18 Jun 1833-München 1912); m.10 May 1857 Rudolphine Caroline Kinsky von Wchinitz u.Tettau (26 Jun 1836-25 Nov 1899)
 		name=Franz
 		dynasty=1002291
 		religion=catholic culture=german
-		father=100035929	# Franz von Bellegarde
-		mother=100186076	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
-		1866.06.14={birth=yes}  # Ischl
-		1909.04.20={add_spouse=100010492}	# Maria von Königsegg-Aulendorf
-		1915.04.02={death=yes}
+		father=100091996
+		mother=100026119
+		1833.06.18={birth=yes}	# Wien
+		1857.05.10={add_spouse=100186076}	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
+		1912.01.01={death=yes}	# München
 	}
-	100035935={ #// A3. Marie-Dorothea (Groß-Herrlitz 27 Jun 1873-Überlingen am Bodensee 1 Feb 1945); m.28 Apr 1898 Alfred zu Salm-Reifferscheidt (Neu-Cilli 23 Jun 1863-Königshoven Rheinland 6 Jul 1924) %%
-		name=Marie-Dorothea
+		100035931={ #// A1. August Maria Rudolf Emanuel Franz von Bellegarde (Hacking 26 May 1856-24 Feb 1919); m.27 Apr 1897 Marie Karoline zu Oettingen-Wallerstein (10 Dec 1874-19 Feb 1960)
+			name=August
+			dynasty=1002291
+			religion=catholic culture=german
+			father=100035929	# Franz von Bellegarde
+			mother=100186076	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
+			1856.05.26={birth=yes}	# Hacking
+			1897.04.27={add_spouse=100003090}	# Marie Karoline zu Oettingen-Wallerstein
+			1919.02.24={death=yes}
+		}
+			100035928={ #// A1. Marie Pauline (13 Dec 1888-30 Jul 1953); m.19 May 1908 Maria František Kinsky von Wchinitz u.Tettau (11 May 1879-1 Sep 1975) %%
+				name="Marie Pauline"
+				female=yes
+				dynasty=1002291
+				religion=catholic culture=german
+				father=100035931	# August von Bellegarde
+				1888.12.13={birth=yes}
+				1953.07.30={death=yes}
+			}
+			100035933={ #// A2. Maria Gabriele (Gross-Herrlitz 17 Jun 1890-Budapest 14 Jan 1945); m.28 Dec 1915 József László Hunyady de Kéthely (Ürmény 16 Dec 1873-Budapest 26 Feb 1942) %%
+				name="Maria Gabriele"
+				female=yes
+				dynasty=1002291
+				religion=catholic culture=german
+				father=100035931	# August von Bellegarde
+				1890.06.17={birth=yes}  # Gross-Herrlitz
+				1945.01.14={death=yes}  # Budapest
+			}
+		100035937={ #// A2. Rudolf (28 Feb 1862-30 Oct 1937); m.21 Sep 1891 Karolina Pejacevic (Wien 18 Jan 1861-Ischl 15 May 1927) %%
+			name=Rudolf
+			dynasty=1002291
+			religion=catholic culture=german
+			father=100035929	# Franz von Bellegarde
+			mother=100186076	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
+			1862.02.28={birth=yes}
+			1891.09.21={add_spouse=100136025}	# Karolina Pejačević
+			1937.10.30={death=yes}
+		}
+		100035930={ #// A3. Franz (Ischl 14 Jun 1866-2 Apr 1915); m.20 Apr 1909 Maria von Königsegg-Aulendorf (Königseggwald 27 May 1889-Graz 7 Nov 1939) %%
+			name=Franz
+			dynasty=1002291
+			religion=catholic culture=german
+			father=100035929	# Franz von Bellegarde
+			mother=100186076	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
+			1866.06.14={birth=yes}  # Ischl
+			1909.04.20={add_spouse=100010492}	# Maria von Königsegg-Aulendorf
+			1915.04.02={death=yes}
+		}
+		100035935={ #// A4. Marie-Dorothea (Groß-Herrlitz 27 Jun 1873-Überlingen am Bodensee 1 Feb 1945); m.28 Apr 1898 Alfred zu Salm-Reifferscheidt (Neu-Cilli 23 Jun 1863-Königshoven Rheinland 6 Jul 1924) %%
+			name=Marie-Dorothea
+			female=yes
+			dynasty=1002291
+			religion=catholic culture=german
+			father=100035929	# Franz von Bellegarde
+			mother=100186076	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
+			1873.06.27={birth=yes}  # Groß-Herrlitz
+			1945.02.01={death=yes}  # Überlingen am Bodensee
+		}
+	100089345={
+		name="Pauline"
 		female=yes
-		dynasty=1002291
 		religion=catholic culture=german
-		father=100035929	# Franz von Bellegarde
-		mother=100186076	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
-		1873.06.27={birth=yes}  # Groß-Herrlitz
-		1945.02.01={death=yes}  # Überlingen am Bodensee
-	}
-
-100035931={ #// August von Bellegarde (26 May 1858-24 Feb 1929); m.27 Apr 1897 Marie Karoline zu Oettingen-Wallerstein (10 Dec 1874-19 Feb 1960) %%
-	name=August
-	dynasty=1002291
-	religion=catholic culture=german
-	1858.05.26={birth=yes}
-	1897.04.27={add_spouse=100003090}	# Marie Karoline zu Oettingen-Wallerstein
-	1929.02.24={death=yes}
-}
-	100035928={ #// A1. Marie Pauline (13 Dec 1888-30 Jul 1953); m.19 May 1908 Maria František Kinsky von Wchinitz u.Tettau (11 May 1879-1 Sep 1975) %%
-		name="Marie Pauline"
-		female=yes
-		dynasty=1002291
-		religion=catholic culture=german
-		father=100035931	# August von Bellegarde
-		1888.12.13={birth=yes}
-		1953.07.30={death=yes}
-	}
-	100035933={ #// A2. Maria Gabriele (Gross-Herrlitz 17 Jun 1890-Budapest 14 Jan 1945); m.28 Dec 1915 József László Hunyady de Kéthely (Ürmény 16 Dec 1873-Budapest 26 Feb 1942) %%
-		name="Maria Gabriele"
-		female=yes
-		dynasty=1002291
-		religion=catholic culture=german
-		father=100035931	# August von Bellegarde
-		1890.06.17={birth=yes}  # Gross-Herrlitz
-		1945.01.14={death=yes}  # Budapest
+		father=100091996
+		mother=100026119
+		1830.04.02={birth=yes}  # Wien
+		1912.05.27={death=yes}  # München
 	}
 # BELLEGARDE
 
@@ -6003,7 +6031,7 @@
 					father=100035617	# Ludwik Nepomucen Sulkowski
 					mother=100094595	# Maria Antonia Gemperle
 					1868.01.08={birth=yes}  # Bielsko
-					1902.10.09={add_spouse=100103007}	# GFN Maria Khuen von Belasi
+					1902.10.09={add_spouse=khuen_0061}	# GFN Maria Khuen von Belasi
 					1954.09.06={death=yes}  # Gmunden
 				}
 					100035645={ #// 1e) Maria Emanuela (Szabadhegy 24 Aug 1903-14 Jul 1985); m.Gmunden 24 Sep 1930 Ludwig Wagner-Pammer Edler von Rudnickburg (Gutau 26 Feb 1892-    )
@@ -6012,7 +6040,7 @@
 						dynasty=1012009
 						religion=catholic culture=polish
 						father=100035644	# Edgar Sulkowski
-						mother=100103007	# GFN Maria Khuen von Belasi
+						mother=khuen_0061	# GFN Maria Khuen von Belasi
 						1903.08.24={birth=yes}  # Szabadhegy
 						1985.07.14={death=yes}
 					}
@@ -6021,7 +6049,7 @@
 						dynasty=1012009
 						religion=catholic culture=polish
 						father=100035644	# Edgar Sulkowski
-						mother=100103007	# GFN Maria Khuen von Belasi
+						mother=khuen_0061	# GFN Maria Khuen von Belasi
 						1905.12.01={birth=yes}  # Györ Szabadhegy
 						1931.11.21={add_spouse=100103009}	# FRN Ilse von Lichtenberg
 						1997.02.08={death=yes}
@@ -6121,7 +6149,7 @@
 						dynasty=1012009
 						religion=catholic culture=polish
 						father=100035644	# Edgar Sulkowski
-						mother=100103007	# GFN Maria Khuen von Belasi
+						mother=khuen_0061	# GFN Maria Khuen von Belasi
 						1913.04.19={birth=yes}  # Grusbach
 						1942.01.01={add_spouse=100103016}	# Ruth Hauschild
 						1947.10.09={death=yes}  # Heyder Westfalen
@@ -8451,12 +8479,46 @@
 # SEDLNITZKY
 
 # TROTHA
-100084462={ #//            Wolf                      von Trotha                               (1963-    )     - $$
+100084462={ #               Wolf                      von Trotha                               (1963-    )     - $$
 	name="Wolf von Trotha"
 	#dynasty=0
 	religion=catholic culture=german
 	1963.12.27={birth=yes}  # Frankfurt
 	2010.07.24={add_spouse=100013176}	# Antonia von Schaesberg
+}
+100093915={ #    Gfn        Wilhelmine                von Trotha                               (1740-1793)     0 [SAUMBURG]
+	name="Wilhelmine von Trotha"
+	female=yes
+	religion=catholic culture=german
+	1740.02.14={birth=yes}  # Hecklingen
+	1793.02.26={death=yes}  # Brake
+}
+100093293={ #               Hedwig-Maria              von Trotha                               (1903-1988)     1 [LIPE]
+	name="Hedwig-Maria von Trotha"
+	female=yes
+	religion=lutheran culture=german
+	1903.12.29={birth=yes}
+	1988.11.29={death=yes}
+}
+100093292={ #               Elisabeth                 von Trotha                               (1975-    )     0 [WALDECK]
+	name="Elisabeth von Trotha"
+	female=yes
+	religion=lutheran culture=german
+	1975.08.26={birth=yes}
+}
+100093295={ #               Benigna Gottlieb          von Trotha gt Treyden                    (1703-1782)     3 [BIRON]
+	name="Benigna Gottlieb von Trotha gt Treyden"
+	female=yes
+	religion=lutheran culture=german
+	1703.10.15={birth=yes}
+	1782.11.05={death=yes}
+}
+100100043={ #               Christoph Friedrich       von Trotha gt Treyden                    (1743-1772)     - [REUS]
+	name="Christoph Friedrich von Trotha gt Treyden"
+	religion=catholic culture=german
+	1743.01.01={birth=yes}
+	1770.05.21={add_spouse=100009678}	# Johanna Dorothea Reuß
+	1772.03.25={death=yes}
 }
 
 100036894={ #// Thilo v. Trotha (Callenberg 27 Jul 1882-Skopau 14 Dec 1969); m.14 Apr 1916 Ida Auguste v. Isenburg (Wächtersbach 9 Aug 1885-Stuttgart 18 Oct 1964) %%
@@ -8895,14 +8957,14 @@
 					1836.01.01={birth=yes}
 					1896.01.01={death=yes}
 				}
-				100035144={ #// D2. Albert (Himmelberg 8 Feb 1847-Graz 14 Feb 1914); m.1894 Angelika Khuen von Belasi (1855-1918) %%
+				100035144={ #// D2. Albert (Himmelberg 8 Feb 1847-Graz 14 Feb 1914); m.Temes-Monostor 22.2.1887 Angelika Khuen von Belasi (*Nustar, Slawonien 1855.05.06, +Graz 1918.09.03)
 					name=Albert
 					dynasty=1002214
 					religion=catholic culture=german
 					father=100035130	# Karl zu Lodron-Laterano u.Castelromano
 					mother=100035154	# Theresia von Gumppenberg
 					1847.02.08={birth=yes}	# Himmelberg
-					1894.01.01={add_spouse=100096825}	# Angelika Khuen von Belasi
+					1887.02.22={add_spouse=khuen_0054}	# Angelika Leocadia Maria Josepha KHUEN VON BELASI
 					1914.02.14={death=yes}	# Graz
 				}
 					100035170={ #// E1. Margarita (Himmelberg 26 Aug 1889-Salzburg 18 Mar 1949); m.27 Feb 1911 Edmund Maria v. Clary u.Aldringen (2 May 1885-10 Jul 1953) %%
@@ -8911,7 +8973,7 @@
 						dynasty=1002214
 						religion=catholic culture=german
 						father=100035144	# Albert zu Lodron-Laterano u.Castelromano
-						mother=100096825	# Angelika Khuen von Belasi
+						mother=khuen_0054	# Angelika Khuen von Belasi
 						1889.08.26={birth=yes}	# Himmelberg
 						1949.03.18={death=yes}	# Salzburg
 					}
@@ -8920,7 +8982,7 @@
 						dynasty=1002214
 						religion=catholic culture=german
 						father=100035144	# Albert zu Lodron-Laterano u.Castelromano
-						mother=100096825	# Angelika Khuen von Belasi
+						mother=khuen_0054	# Angelika Khuen von Belasi
 						1895.11.11={birth=yes}	# Gries, Bozen
 						1930.01.01={add_spouse=100035125}	# Maria Antoinette zu Lodron-Laterano u.Castelromano
 						1979.09.22={death=yes}	# Meano
@@ -14457,64 +14519,6 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	}
 # SOBIESKI
 	
-100036334={ #// Karl Anton Khuen von Belasi (1 Mar 1800-27 Aug 1866); m.28 Jan 1827 Amalia Maria v. Thun u.Hohenstein (2 Mar 1804-20 Jan 1866) %%
-	name="Karl Anton"
-	dynasty=1002238
-	religion=catholic culture=german
-	1800.03.01={birth=yes}
-	1827.01.28={add_spouse=100024217}	# Amalia Maria von Thun u.Hohenstein
-	1866.08.27={death=yes}
-}
-	100036333={ #// A1. Ernst (8 Jun 1830-8 Jul 1886); m.27 Oct 1863 Anna Maria v. Thun u.Hohenstein (2 May 1842-29 Sep 1869) %%
-		name=Ernst
-		dynasty=1002238
-		religion=catholic culture=german
-		father=100036334	# Karl Anton Khuen von Belasi
-		mother=100024217	# Amalia Maria von Thun u.Hohenstein
-		1830.06.08={birth=yes}
-		1863.10.27={add_spouse=100024391}	# Anna Maria von Thun u.Hohenstein
-		1886.07.08={death=yes}
-	}
-		100036535={ #// B1. Theobald Arbogast (Eppan 6 Feb 1879-10 Oct 1954) %%
-			name="Theobald Arbogast"
-			dynasty=1002238
-			religion=catholic culture=german
-			father=100036333	# Ernst Khuen von Belasi
-			1879.02.06={birth=yes}	# Eppan
-			1954.10.10={death=yes}
-		}
-			100036330={ #// C1. Johann Jakob Marquard (b.Grusbach 1925) %%
-				name="Johann Jakob Marquard"
-				dynasty=1002238
-				religion=catholic culture=german
-				father=100036535	# Theobald Arbogast Khuen von Belasi
-				1925.01.01={birth=yes}	# Grusbach
-				2000.01.01={death=yes}	# EST.
-			}
-				100036400={ #// D1. Dianora Eleanora (b.16 Dec 1952); m.19 Jun 1976 Baudouin d’Oultremont (St.Georges-sur-Meuse 25 Feb 1948-Huy 29 Jul 2002) %%
-					name="Dianora Eleanora"
-					female=yes
-					dynasty=1002238
-					religion=catholic culture=german
-					father=100036330	# Johann Jakob Marquard Khuen von Belasi
-					1952.12.16={birth=yes}
-				}
-			100036536={ #// C2. Georg Christoph (b.Belasi 1927) %%
-				name="Georg Christoph"
-				dynasty=1002238
-				religion=catholic culture=german
-				father=100036535	# Theobald Arbogast Khuen von Belasi
-				1927.01.01={birth=yes}	# Belasi
-				2000.01.01={death=yes}	# EST.
-			}
-				100036332={ #// D1. Gregor (b.Bozen 20 Oct 1961); m.10 Jul 1992 Karoline von Schönburg (b.13 Feb 1962) %%
-					name=Gregor
-					dynasty=1002238
-					religion=catholic culture=german
-					father=100036536	# Georg Christoph Khuen von Belasi
-					1961.10.20={birth=yes}	# Bozen
-					1992.07.10={add_spouse=100005404}	# Karoline von Schönburg
-				}
 
 # LARISCH
 100036682={ #// Franz Johann Larisch v.Moennich (1698-14 Aug 1764) %%
@@ -14631,7 +14635,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 								1940.10.10={add_spouse=100004610}	# Wilhelmine Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 								1992.01.01={death=yes}
 							}
-								100102097={ # H1. Olivia (*Roy Austrian Silesia 14 Oct 1943, +München 31 Jul 1974); m.1 Mar 1965 Andreas Bismarck (*Berlin 14 Feb 1941, +Salzburg 20 Jul 2013) %%
+								100102097={ #// H1. Olivia (*Roy Austrian Silesia 14 Oct 1943, +München 31 Jul 1974); m.1 Mar 1965 Andreas Bismarck (*Berlin 14 Feb 1941, +Salzburg 20 Jul 2013) %%
 									name="Olivia"
 									female=yes
 									dynasty=1002241
@@ -14853,6 +14857,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 # LO PRESTI
 	
 
+# BAILLET-LATOUR
 100036347={ #// Ferdinand Charles de Baillet-Latour (Brussels 21 Jan 1850-Brussels 18 Sep 1925); m.18 Jan 1875 Caroline d’Oultremont (Duras 9 Nov 1853-Brussels 9 Nov 1933) %%
 	name="Ferdinand Charles"
 	dynasty=1007064
@@ -14882,6 +14887,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 		1966.07.02={death=yes}  # Knokke
 	}
 
+# HARNONCOURT
 100036039={ #// Joseph-Louis-Mathieu de la Fontaine u.d'Harnoncourt-Unverzagt (25 Feb 1736-Harnoncourt 30 Jun 1816); m.1788 Maria Leopoldine Unverzagt (1754-1835) %%
 	name=Joseph-Louis-Mathieu
 	dynasty=1007065

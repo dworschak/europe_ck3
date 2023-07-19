@@ -1,0 +1,123 @@
+﻿bm_1835 = {
+	start_date = 1835.1.1
+	is_playable = yes
+	group = bm_group_1835
+
+	character = {
+		name = "Franz von Österreich"
+		dynasty_house=house_habsburg_lothringen
+		dynasty_splendor_level = 5
+		type = male
+		birth = 1768.02.12
+		title = e_austria
+		government = feudal_government
+		culture = bavarian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 100020020
+		position = { 765 590 }
+
+		animation = personality_cynical
+		
+		# Ferdinand, son, ID: 100020030
+		character = {
+			name = "Ferdinand von Österreich"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty_house=house_habsburg_lothringen
+			type = male
+			birth = 1793.04.19
+			culture = bavarian
+			religion = catholic
+			history_id = 100020030
+
+			animation = shame
+		}
+		# Franz Karl, son, ID: 100020041
+		character = {
+			name = "Franz Karl von Österreich"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty_house=house_habsburg_lothringen
+			type = male
+			birth = 1802.12.07
+			culture = bavarian
+			religion = catholic
+			history_id = 100020041
+
+			animation = personality_rational
+		}
+	}
+}
+
+bm_1900 = {
+	start_date = 1900.1.1
+	is_playable = yes
+	group = bm_group_1900
+
+	character = {
+		name = "Franz Joseph von Österreich"
+		dynasty_house=house_habsburg_lothringen
+		dynasty_splendor_level = 5
+		type = male
+		birth = 1830.8.18
+		title = e_austria
+		government = feudal_government
+		culture = bavarian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 100020043
+		position = { 765 590 }
+
+		animation = disapproval
+	
+		# Franz Ferdinand, heir
+		character = {
+			name = "Franz Ferdinand von Österreich-Este"
+			relation = "BOOKMARK_RELATION_COUSIN"
+			dynasty_house = house_oesterreich_este 
+			type = male
+			birth = 1863.1.1
+			culture = bavarian
+			religion = catholic
+			history_id = 100020061
+
+			animation = personality_rational
+		}
+		# Gisela, daughter, ID: 100020046
+		character = {
+			name = "Gisela von Österreich"
+			relation = "BOOKMARK_RELATION_DAUGHTER"
+			dynasty = 1503
+			type = female
+			birth = 1856.07.12
+			culture = bavarian
+			religion = catholic
+			history_id = 100020046
+
+			animation = personality_forgiving
+		}
+	}
+}
+
+bm_2023 = {
+	start_date = 2023.1.1
+	is_playable = yes
+	group = bm_group_2023
+
+	character = {
+		name = "Karl von Österreich"
+		dynasty = 1503
+		dynasty_splendor_level = 5
+		type = male
+		birth = 1961.01.11
+		title = k_austria
+		government = feudal_government
+		culture = bavarian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 100020081
+		position = { 765 590 }
+
+		animation = disapproval
+	}
+}
+

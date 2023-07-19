@@ -1905,7 +1905,7 @@
 			1831.08.08={death=yes}  # zámek Pruhonice
 		}
 		100047804={ #// B2. FRANZ ANTON HEINRICH Johann Prokop Don Bosco Felix, Imperial general, *Praha 23.5.1789, +Wien 17.3.1862, bur Libán; 1m: Praha 24.4.1817 Gfn Maria Sophia von und zu Eltz gen.Faust von Stromberg (*12.3.1796, +Praha 4.9.1821); 2m: Wilhelmine Breuer (+1862)
-			name=Franz
+			name="Franz Anton Heinrich"
 			dynasty=1004500
 			religion=catholic culture=czech
 			father=100047802	# Joseph Heinrich v. Schlik zu Bassano u.Weißkirchen
@@ -2157,12 +2157,12 @@
 		1769.05.15={birth=yes}
 		1824.06.05={death=yes}  # Praha
 	}
-#1759.06.29={holder=100047801} # Graf Leopold Heinrich Franz de Paula Joseph Schlick
-#1770.06.26={holder=100047802} # A1. JOSEPH Franz Xaver Johann Nepomuk HEINRICH Adam Franz de Paula
-#1806.12.13={holder=100047804} # B2. FRANZ ANTON HEINRICH Johann Prokop Don Bosco Felix
-#1862.03.17={holder=100047808} # D2. Erwein Franz
-#1906.04.26={holder=100047809} # D3. Franz
-#1925.01.30={holder=100047810} # E1. HEINRICH Maria
+#1759.06.29={holder=100047801} # Leopold Heinrich Franz de Paula Joseph
+#1770.06.26={holder=100047802} # JOSEPH HEINRICH
+#1806.12.13={holder=100047804} # FRANZ ANTON HEINRICH
+#1862.03.17={holder=100047808} # Erwein Franz
+#1906.04.26={holder=100047809} # Franz
+#1925.01.30={holder=100047810} # HEINRICH
 #1957.04.21={holder=100047811} # F1. František Jindrich Sigmund Antonín Maria
 #1989.01.01={holder=100047812} # G1. Jindrich František Raoul Joseph Maria
 #schlick3
@@ -5232,7 +5232,7 @@
 					father=100047842	# Jan Kryštof z Valdštejna
 					mother=100103812	# Lidmila Kateřina Kunešová z Lukavec
 					1650.01.01={birth=yes}
-					1672.02.15={add_spouse=100103827}	# Marie Elisabeth Khuen von Belasi
+					1672.02.15={add_spouse=khuen_0021}	# Marie Elisabeth Khuen von Belasi
 					1691.02.05={death=yes}  # Roždalovice
 				}
 					100047852={ #// E1. František Karel, *5.2.1673, +16.5.1701; m.13.1.1696 Gfn Marie Ludmila Libštejnská z Kolowrat (*1665 +28.2.1720)
@@ -5240,7 +5240,7 @@
 						dynasty=1013009
 						religion=catholic culture=czech
 						father=100047851	# Leopold Vilém z Valdštejna
-						mother=100103827	# Marie Elisabeth Khuen von Belasi
+						mother=khuen_0021	# Marie Elisabeth Khuen von Belasi
 						1673.02.05={birth=yes}
 						1696.01.13={add_spouse=100103828}	# GFN Marie Ludmila Libštejnská z Kolowrat
 						1701.05.16={death=yes}
@@ -5270,7 +5270,7 @@
 						dynasty=1013009
 						religion=catholic culture=czech
 						father=100047851	# Leopold Vilém z Valdštejna
-						mother=100103827	# Marie Elisabeth Khuen von Belasi
+						mother=khuen_0021	# Marie Elisabeth Khuen von Belasi
 						1677.10.19={birth=yes}  # Roždalovice
 						1702.02.19={add_spouse=100103831}	# FRN Maria Barbara von Kaiserstein
 						1722.08.09={add_spouse=100103832}	# GFN Maria Antonia von Lichtenstein-Castelcorn
@@ -5321,7 +5321,7 @@
 						dynasty=1013009
 						religion=catholic culture=czech
 						father=100047851	# Leopold Vilém z Valdštejna
-						mother=100103827	# Marie Elisabeth Khuen von Belasi
+						mother=khuen_0021	# Marie Elisabeth Khuen von Belasi
 						1679.02.27={birth=yes}  # Praha
 						1706.05.18={add_spouse=100047595}	# Johanna Anna z Valdštejna
 						1763.07.19={death=yes}  # Praha
@@ -5400,7 +5400,7 @@
 						dynasty=1013009
 						religion=catholic culture=czech
 						father=100047851	# Leopold Vilém z Valdštejna
-						mother=100103827	# Marie Elisabeth Khuen von Belasi
+						mother=khuen_0021	# Marie Elisabeth Khuen von Belasi
 						1683.03.11={birth=yes}
 						1741.04.11={death=yes}
 					}
@@ -5409,7 +5409,7 @@
 						dynasty=1013009
 						religion=catholic culture=czech
 						father=100047851	# Leopold Vilém z Valdštejna
-						mother=100103827	# Marie Elisabeth Khuen von Belasi
+						mother=khuen_0021	# Marie Elisabeth Khuen von Belasi
 						1685.06.15={birth=yes}  # Praha
 						1712.01.01={add_spouse=100118195}	# Maria Barbara Pálffy ab Erdõd
 						1731.05.06={death=yes}  # Roždalovice
@@ -5552,7 +5552,7 @@
 						dynasty=1013009
 						religion=catholic culture=czech
 						father=100047851	# Leopold Vilém z Valdštejna
-						mother=100103827	# Marie Elisabeth Khuen von Belasi
+						mother=khuen_0021	# Marie Elisabeth Khuen von Belasi
 						1686.06.30={birth=yes}
 						1742.04.27={death=yes}
 					}
@@ -7429,6 +7429,16 @@
 					1838.05.30={add_spouse=100025183}	# Adelheid v. Attems
 					1878.08.08={death=yes}  # Fehring
 				}
+					100147252={ #// 69 Ernestine KOTTULINSKY, *1843.03.09; m.Schloss Neudau 16.10.1865 Karl KHUEN VON BELASI (*Nustar 6.8.1818, +Graz 29.4.1905)
+						name=Ernestine
+						female=yes
+						dynasty=1002238
+						religion=catholic culture=german
+						father=100295532	# Joseph Johann Kottulinsky z Kottulin
+						mother=100025183	# Adelheid v. Attems
+						1843.03.09={birth=yes}
+						1918.01.01={death=yes}  # EST.
+					}
 					100047252={ #// E1. Elisabeth Josefa (Graz 24 Mar 1850-Chotebor 4 Feb 1929); m.1 May 1869 Jan Václav Dobržensky z Dobrženitz (Chotebor 28 Mar 1841-Chotebor 14 Jan 1919) %%
 						name="Elisabeth Josefa"
 						female=yes

@@ -20247,7 +20247,7 @@ forgach_0001={ # Graf Zsigmond Forgách de Ghymes et Gács, *Gács 19.2.1729, +1
 				father=100117945	# Ádám Vay de Vaja
 				mother=100087381	# Mária Lónyay de Nagylónya et Vásárosnamény
 				1856.09.15={birth=yes}  # Deregnyo
-				1885.06.20={add_spouse=100120420}	# Margit Khuen-Héderváry
+				1885.06.20={add_spouse=khuen_0055}	# Margit Khuen-Héderváry
 				1928.05.27={death=yes}  # Budapest
 			}
 				100117948={	#// D1. GABRIELLA, *Nyírtass 19.10.1886, +Budapest 5.7.1938; m.Budapest 12.9.1916 Jenő Király
@@ -20256,7 +20256,7 @@ forgach_0001={ # Graf Zsigmond Forgách de Ghymes et Gács, *Gács 19.2.1729, +1
 					dynasty=1011793
 					religion=catholic culture=hungarian
 					father=100117946	# Tibor Vay de Vaja
-					mother=100120420	# Margit Khuen-Héderváry
+					mother=khuen_0055	# Margit Khuen-Héderváry
 					1886.10.19={birth=yes}  # Nyírtass
 					1938.07.05={death=yes}  # Budapest
 				}
@@ -20265,7 +20265,7 @@ forgach_0001={ # Graf Zsigmond Forgách de Ghymes et Gács, *Gács 19.2.1729, +1
 					dynasty=1011793
 					religion=catholic culture=hungarian
 					father=100117946	# Tibor Vay de Vaja
-					mother=100120420	# Margit Khuen-Héderváry
+					mother=khuen_0055	# Margit Khuen-Héderváry
 					1888.06.12={birth=yes}  # Nyírtass
 					1924.01.07={add_spouse=100120269}	# Margit Luzénszky de Luzsna et Reglicz
 					1937.01.01={remove_spouse=100120269}
@@ -34369,137 +34369,203 @@ banffy_0005={ # D1. [1m.] Miklós, fl 1500-46; m.Orsolya Telegdi (fl 1522); for 
 
 
 ##  100118610	Cziraky							1011457
-100120446={	#// G2. Katalin, *1667, +1716 $$
-			# m.1690 Gf Dániel Esterházy de Galántha (*Nagycenk 1665, +Nagycenk 1714)
-	name=Katalin
-	female=yes
+#csiraky1
+100099648={ #// F1. Mózes, Alispán of Sopron (Soproni alispán), fl 1672-87, +1693; m.Bss Klára Révay de Trebosztó (*Beckó 18.10.1642)
+	name=Mózes
 	dynasty=1011457
 	religion=catholic culture=hungarian
-	1667.01.01={birth=yes}
-	1716.01.01={death=yes}
+	1640.01.01={birth=yes}  # EST.
+	1667.01.01={add_spouse=100115011}	# Klára Révay de Szklabina et Blatnicza
+	1688.01.01={death=yes}
 }
-
-100120450={	#// H2. József, cr Graf 21.2.1723; m.Gfn Borbála Barkóczy de Szala
-	name=József
-	dynasty=1011457
-	religion=catholic culture=hungarian
-	1700.01.01={birth=yes}	# EST.
-	1719.01.01={add_spouse=barkoczy_0021}	# Borbála
-	1767.01.01={death=yes}	# EST.
-}
-	100120447={	#// I1. Gf László, *9.10.1727, +Buda 19.11.1792; $$
-				# 1m: Gfn Antónia Pálffy de Erdõd (*8.9.1743, +29.4.1776); 
-				# 2m: Gfn Júlia Zichy de Zich et Vásonkeö (*13.7.1754 +1.11.1792)
+	100199648={ #// G1. László, +Besztercebánya ca 1707; m.Divék 29.9.1693 Bss Erzsébet Újfalussy de Divékújfalu
 		name=László
 		dynasty=1011457
 		religion=catholic culture=hungarian
-		father=100120450	# József Cziráky de Czirák et Dénesfalva
-		mother=barkoczy_0021
-		1727.10.09={birth=yes}
-		1768.01.01={add_spouse=100118186}	# Antonia Pálffy ab Erdõd
-		1777.01.01={add_spouse=100115505}	# Juliana Zichy de Zich et Vásonykõ
-		1792.11.19={death=yes}
+		father=100099648
+		mother=100115011
+		1670.01.01={birth=yes}  # EST.
+		1688.01.01={death=yes}
 	}
-		100120451={	#// J1. Gf Antal Cziráky de Czirák et Dénesfalva, Országbíró, *Sopron 8.9.1772, +22.2.1852;  $$
-					# 1m: Gfn Júlia Illésházy de Illésháza (*1794, +1814); 
-					# 2m: Füle 14.1.1816 Gfn Mária Batthyány de Németújvár (*Székesfehérvár 10.4.1783, +Wien 31.3.1840); 
-					# 3m: 18.10.1843 Bss Maria Carolina von Walterskirchen (*4.6.1794, +17.12.1861)
-			name=Antal
+		100101102={ #// H1. Margit, *Divék 7.3.1698, +Szécsény 18.4.1735; m.Gf János Forgách de Ghymes (*Rajka 1.9.1691, +Szécsény 18.4.1735)
+			name=Margit
+			female=yes
 			dynasty=1011457
 			religion=catholic culture=hungarian
-			father=100120447	# László Cziráky de Czirák et Dénesfalva
-			mother=100118186	# Antonia Pálffy ab Erdõd
-			1772.09.08={birth=yes}
-			1797.01.01={add_spouse=illeshazy_0025}	# Júlia
-			1816.01.01={add_spouse=100115207}	# Mária Batthyány-Strattmann de Német-Ujvar
-			1852.02.22={death=yes}
+			father=100199648
+			1698.03.07={birth=yes}  # Divék
+			1735.04.18={death=yes}  # Szécsény
 		}
-			100120452={	#// A2. János József Lázár László Tamás, *Pest 29.12.1818, +Lovasberény 9.2.1884; 
-						# m.Bohunicz 1.2.1845 Gfn Lujza Erzsébet Dezasse de Petit-Verneuil (*Alessandria 27.11.1821, +Budapest 6.6.1899)
-				name=János
+		100120450={	#// H2. József, cr Graf 21.2.1723; m.Gfn Borbála Barkóczy de Szala
+			name=József
+			dynasty=1011457
+			religion=catholic culture=hungarian
+			father=100199648
+			1700.01.01={birth=yes}	# EST.
+			1719.01.01={add_spouse=barkoczy_0021}	# Borbála
+			1767.01.01={death=yes}	# EST.
+		}
+			100120447={	#// I1. Gf László, *9.10.1727, +Buda 19.11.1792; $$
+						# 1m: Gfn Antónia Pálffy de Erdõd (*8.9.1743, +29.4.1776); 
+						# 2m: Gfn Júlia Zichy de Zich et Vásonkeö (*13.7.1754 +1.11.1792)
+				name=László
 				dynasty=1011457
 				religion=catholic culture=hungarian
-				father=100120451	# Antal Cziráky de Czirák et Dénesfalva
-				mother=100115207	# Mária Batthyány-Strattmann de Német-Ujvar
-				1818.12.29={birth=yes}
-				1884.02.09={death=yes}
+				father=100120450	# József Cziráky de Czirák et Dénesfalva
+				mother=barkoczy_0021
+				1727.10.09={birth=yes}
+				1768.01.01={add_spouse=100118186}	# Antonia Pálffy ab Erdõd
+				1777.01.01={add_spouse=100115505}	# Juliana Zichy de Zich et Vásonykõ
+				1792.11.19={death=yes}
 			}
-				100120454={	#// B4. Antal Ferenc János Henrik, *Döbling 12.6.1850, +Lovasberény 11.6.1930 $$
-							# 1m: Budapest 16.8.1873 Gfn Alice Esterházy de Galántha (*17.2.1850 +21.6.1882); 
-							# 2m: Budapest 29.3.1884 Gfn Rozália Keglevich de Buzin (*Szilvásapáti 27.3.1849, +Budapest 5.11.1909)
-					name=Antal
-					dynasty=1011457
-					religion=catholic culture=hungarian
-					father=100120452	# János Cziráky de Czirák et Dénesfalva
-					1850.06.12={birth=yes}  # Döbling bei Wien
-					1873.08.16={add_spouse=100117466}	# Alice Esterházy de Galántha
-					1884.03.29={add_spouse=100115463}	# Rozália Keglevich de Buzin
-					1930.06.11={death=yes}  # Lovasberény
-				}
-					100120445={	#// C1. Margit, *Dénesfa 11.8.1874, +Eszterháza-Fertõd 18.8.1910 $$
-								# m.Budapest 16.11.1898 Fst Miklós Esterházy de Galántha (*Wien 5.7.1869, +Sopron 6.4.1920)
-						name=Margit
-						female=yes
-						dynasty=1011457
-						religion=catholic culture=hungarian
-						father=100120454	# Antal Cziráky de Czirák et Dénesfalva
-						mother=100117466	# Alice Esterházy de Galántha
-						1874.08.11={birth=yes}
-						1910.08.18={death=yes}
-					}
-					100120448={	#// C3. Mária Andrea Erzsébet, *Dénesfa 20.6.1881, +Szolnok 20.8.1953 $$
-						name=Mária
-						female=yes
-						dynasty=1011457
-						religion=catholic culture=hungarian
-						father=100120454	# Antal Cziráky de Czirák et Dénesfalva
-						mother=100117466	# Alice Esterházy de Galántha
-						1881.06.20={birth=yes}  # Dénesfa
-						1953.08.20={death=yes}  # Szolnok
-					}
-				100120449={	#// B5. Béla József Károly Dénes, *Lovasberény 23.5.1852, +Wien 20.3.1911 $$
-							# m.Budapest 4.6.1878 Gfn Mária Esterházy de Galántha (*9.5.1856 +23.11.1940)
-					name=Béla
-					dynasty=1011457
-					religion=catholic culture=hungarian
-					father=100120452	# János Cziráky de Czirák et Dénesfalva
-					1852.05.23={birth=yes}
-					1878.06.04={add_spouse=100117469}	# Mária Johanna Esterházy de Galántha
-					1911.03.20={death=yes}
-				}
-					100120453={	#// C1. József Béla László Barnabás, *Sárosd 11.6.1883, +Dénesfa 10.8.1960;  $$
-								# m.Budapest 17.2.1917 Gfn Ilona Andrássy de Csíkszentkirály et Krasznahorka (*22.5.1886 +21.8.1967)
-						name=József
-						dynasty=1011457
-						religion=catholic culture=hungarian
-						father=100120449	# Béla Cziráky de Czirák et Dénesfalva
-						mother=100117469	# Mária Johanna Esterházy de Galántha
-						1883.06.11={birth=yes}	# Sárosd
-						1917.02.17={add_spouse=100117179}	# Ilona Andrássy de Csíkszentkirály
-						1960.08.10={death=yes}	# Dénesfa
-					}
-						100120455={	#// D1. Miklós Gyula Lajos Frigyes, *Budapest 6.3.1918, +k.a.Arad 14.9.1944 $$
-									# m.Budapest 23.8.1943 Gfn Ilona Esterházy de Galántha (*Sárosd 17.5.1921)
-							name=Miklós
-							dynasty=1011457
-							religion=catholic culture=hungarian
-							father=100120453	# József Cziráky de Czirák et Dénesfalva
-							mother=100117179	# Ilona Andrássy de Csíkszentkirály
-							1918.03.06={birth=yes}  # Budapest
-							1943.08.23={add_spouse=100117476}	# Ilona Esterházy de Galántha
-							1944.09.01={death=yes}
-						}
-	100120456={	#// I3. Mária, *1.9.1724, +Sopron 7.11.1787 $$
-				# m.25.6.1747 Gf Zsigmond Széchenyi de Sárvár-Felsõvidék (*Sopron 21.12.1720, +Széplak 19.10.1769)
-		name=Mária
+				#csiraky2 = J1. Gf Antal Cziráky de Czirák et Dénesfalva, Országbíró, *Sopron 8.9.1772, +22.2.1852; 1m: Gfn Júlia Illésházy de Illésháza (*1794, +1814); 2m: Füle 14.1.1816 Gfn Mária Batthyány de Németújvár (*Székesfehérvár 10.4.1783, +Wien 31.3.1840); 3m: 18.10.1843 Bss Maria Carolina von Walterskirchen (*4.6.1794, +17.12.1861); for his descendants see HERE
+			100120456={	#// I3. Mária, *1.9.1724, +Sopron 7.11.1787 $$
+						# m.25.6.1747 Gf Zsigmond Széchenyi de Sárvár-Felsõvidék (*Sopron 21.12.1720, +Széplak 19.10.1769)
+				name=Mária
+				female=yes
+				dynasty=1011457
+				religion=catholic culture=hungarian
+				father=100120450	# József Cziráky de Czirák et Dénesfalva
+				mother=barkoczy_0021
+				1724.09.01={birth=yes}
+				1787.11.07={death=yes}
+			}
+	100120446={	#// G2. Katalin, *1667, +1716 $$
+				# m.1690 Gf Dániel Esterházy de Galántha (*Nagycenk 1665, +Nagycenk 1714)
+		name=Katalin
 		female=yes
 		dynasty=1011457
 		religion=catholic culture=hungarian
-		father=100120450	# József Cziráky de Czirák et Dénesfalva
-		mother=barkoczy_0021
-		1724.09.01={birth=yes}
-		1787.11.07={death=yes}
+		1667.01.01={birth=yes}
+		1716.01.01={death=yes}
 	}
+#csiraky1
+
+#csiraky2
+100120451={	#// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772, +22.2.1852;  $$
+			# 1m: Gfn Júlia Illésházy de Illésháza (*1794, +1814); 
+			# 2m: Füle 14.1.1816 Gfn Mária Batthyány de Németújvár (*Székesfehérvár 10.4.1783, +Wien 31.3.1840); 
+			# 3m: 18.10.1843 Bss Maria Carolina von Walterskirchen (*4.6.1794, +17.12.1861)
+	name=Antal
+	dynasty=1011457
+	religion=catholic culture=hungarian
+	father=100120447	# László Cziráky de Czirák et Dénesfalva
+	mother=100118186	# Antonia Pálffy ab Erdõd
+	1772.09.08={birth=yes}
+	1797.01.01={add_spouse=illeshazy_0025}	# Júlia
+	1816.01.01={add_spouse=100115207}	# Mária Batthyány-Strattmann de Német-Ujvar
+	1852.02.22={death=yes}
+}
+	100120452={	#// A2. [2m.] János József Lázár László Tamás, *Pest 29.12.1818, +Lovasberény 9.2.1884; m.Bohunicz 1.2.1845 Gfn Lujza Erzsébet Dezasse de Petit-Verneuil (*Alessandria 27.11.1821, +Budapest 6.6.1899)
+		name=János
+		dynasty=1011457
+		religion=catholic culture=hungarian
+		father=100120451	# Antal Cziráky de Czirák et Dénesfalva
+		mother=100115207	# Mária Batthyány-Strattmann de Német-Ujvar
+		1818.12.29={birth=yes}
+		1884.02.09={death=yes}
+	}
+		100120454={	#// B4. Antal Ferenc János Henrik, *Döbling 12.6.1850, +Lovasberény 11.6.1930 $$
+					# 1m: Budapest 16.8.1873 Gfn Alice Esterházy de Galántha (*17.2.1850 +21.6.1882); 
+					# 2m: Budapest 29.3.1884 Gfn Rozália Keglevich de Buzin (*Szilvásapáti 27.3.1849, +Budapest 5.11.1909)
+			name=Antal
+			dynasty=1011457
+			religion=catholic culture=hungarian
+			father=100120452	# János Cziráky de Czirák et Dénesfalva
+			1850.06.12={birth=yes}  # Döbling bei Wien
+			1873.08.16={add_spouse=100117466}	# Alice Esterházy de Galántha
+			1884.03.29={add_spouse=100115463}	# Rozália Keglevich de Buzin
+			1930.06.11={death=yes}  # Lovasberény
+		}
+			100120445={	#// C1. Margit, *Dénesfa 11.8.1874, +Eszterháza-Fertõd 18.8.1910 $$
+						# m.Budapest 16.11.1898 Fst Miklós Esterházy de Galántha (*Wien 5.7.1869, +Sopron 6.4.1920)
+				name=Margit
+				female=yes
+				dynasty=1011457
+				religion=catholic culture=hungarian
+				father=100120454	# Antal Cziráky de Czirák et Dénesfalva
+				mother=100117466	# Alice Esterházy de Galántha
+				1874.08.11={birth=yes}
+				1910.08.18={death=yes}
+			}
+			# C2. [1m.] LÁSZLÓ János Antal József Cirill, *Dénesfa 29.3.1876, +Lovasberény 27.11.1935; m.Budapest 7.9.1916 Gfn Margit Karátsonyi de Karátsonyfalva et Beodra (*Budapest 29.12.1884, +Wien 7.3.1960)
+				100093077={ #// D3. Antoinette (TONCHETTE) Mária Margit Henriette, *Lovasberény 11.7.1920, +Arcadia 15.5.1955; m.Budapest 18.10.1941 Gf Dénes Wenckheim (*Budapest 7.9.1921, +k.a.Kiev 12.12.1943)
+					name="Antoinette Cziráky de Czirák et Dénesfalva"
+					female=yes
+					religion=catholic culture=hungarian
+					1920.07.11={birth=yes}  # Lovasberény
+					1955.05.15={death=yes}  # Arcadia California USA
+				}
+			100120448={	#// C3. [1m.] Mária Andrea Erzsébet Konstancia Szilvia, *Dénesfa 20.6.1881, +Szolnok 20.8.1953; m.Budapest 14.4.1909 Gf Pál Esterházy de Galántha (*Réde 17.10.1878, +Réde 15.10.1942)
+				name=Mária
+				female=yes
+				dynasty=1011457
+				religion=catholic culture=hungarian
+				father=100120454	# Antal Cziráky de Czirák et Dénesfalva
+				mother=100117466	# Alice Esterházy de Galántha
+				1881.06.20={birth=yes}  # Dénesfa
+				1953.08.20={death=yes}  # Szolnok
+			}
+		100120449={	#// B5. Béla József Károly Dénes, *Lovasberény 23.5.1852, +Wien 20.3.1911; m.Budapest 4.6.1878 Gfn Mária Esterházy de Galántha (*9.5.1856 +23.11.1940)
+			name=Béla
+			dynasty=1011457
+			religion=catholic culture=hungarian
+			father=100120452	# János Cziráky de Czirák et Dénesfalva
+			1852.05.23={birth=yes}
+			1878.06.04={add_spouse=100117469}	# Mária Johanna Esterházy de Galántha
+			1911.03.20={death=yes}
+		}
+			100120453={	#// C1. József Béla László Barnabás, *Sárosd 11.6.1883, +Dénesfa 10.8.1960; m.Budapest 17.2.1917 Gfn Ilona Andrássy de Csíkszentkirály et Krasznahorka (*22.5.1886 +21.8.1967)
+				name=József
+				dynasty=1011457
+				religion=catholic culture=hungarian
+				father=100120449	# Béla Cziráky de Czirák et Dénesfalva
+				mother=100117469	# Mária Johanna Esterházy de Galántha
+				1883.06.11={birth=yes}	# Sárosd
+				1917.02.17={add_spouse=100117179}	# Ilona Andrássy de Csíkszentkirály
+				1960.08.10={death=yes}	# Dénesfa
+			}
+				100120455={	#// D1. Miklós Gyula Lajos Frigyes, *Budapest 6.3.1918, +k.a.Arad 14.9.1944 $$
+							# m.Budapest 23.8.1943 Gfn Ilona Esterházy de Galántha (*Sárosd 17.5.1921)
+					name=Miklós
+					dynasty=1011457
+					religion=catholic culture=hungarian
+					father=100120453	# József Cziráky de Czirák et Dénesfalva
+					mother=100117179	# Ilona Andrássy de Csíkszentkirály
+					1918.03.06={birth=yes}  # Budapest
+					1943.08.23={add_spouse=100117476}	# Ilona Esterházy de Galántha
+					1944.09.01={death=yes}
+				}
+				100083779={ #// D2. Pál György Béla Özséb, *Sopron 14.8.1919; m.Letenye 26.11.1941 Gfn Mária Andrássy de Csíkszentkirály et Krasznahorka (*29.10.1921)
+					name=Pál
+					dynasty=1011457
+					religion=catholic culture=hungarian
+					father=100120453	# József Cziráky de Czirák et Dénesfalva
+					mother=100117179	# Ilona Andrássy de Csíkszentkirály
+					1919.08.14={birth=yes}
+					1941.11.26={add_spouse=100117188}	# Mária Erzsébet Andrássy de Csíkszentkirály
+					1994.01.01={death=yes}
+				}
+		100089829={ #// B6. János Nepomuk Mózes László Marcell, *Buda-Pest 16.1.1854, +Budapest 3.10.1927; 1m: Budapest 12.10.1878 Gfn Erzsébet Almásy de Zsadány et Törökszentmiklós (*Kétegyháza 20.12.1857, +Budapest 28.12.1938); 2m: Bss Mária Harkányi de Taktaharkány (*Budapest 3.2.1863)
+			name=János
+			dynasty=1011457
+			religion=catholic culture=hungarian
+			father=100120452	# János Cziráky de Czirák et Dénesfalva
+			1854.01.16={birth=yes}  # Pest
+			1878.10.12={add_spouse=100116046}	# Erzsébet Almásy de Zsadány et Törökszentmiklós
+			1927.10.03={death=yes}  # Budapest
+		}
+			100096387={ #// C1. [1m.] Jeanne (Janka) Mária Andrea Erzsébet Stefánia Amália, *Lovasberény 10.7.1879, +Rákospalota 16.3.1901; m.Budapest 10.6.1900 Gf Albert Pejacsevich de Verőce (*24.10.1875 +4.5.1941)
+				name=Janka
+				female=yes
+				dynasty=1011457
+				religion=catholic culture=hungarian
+				father=100089829
+				mother=100116046
+				1879.07.10={birth=yes}
+				1901.03.16={death=yes}
+			}
+#csiraky2
 ##  100118610	Cziraky							1011457
 
 
@@ -37066,89 +37132,6 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 
 
 ##  			Khuen-Héderváry 				1011580
-100120416={	#// Antal Khuen-Héderváry (Pressburg 25 Feb 1817-Monostor 21 May 1886) %%
-	name=Antal
-	dynasty=1011580
-	religion=catholic culture=hungarian
-	1817.02.25={birth=yes}	# Pressburg
-	1886.05.21={death=yes}	# Monostor
-}
-	100120417={	#// A1. Károly (23 May 1849-16 Feb 1918); m.6 Sep 1880 Margit Teleki de Szék (Gyömrõ 2 Dec 1860-Budapest 26 Jan 1922) %%
-		name=Károly
-		dynasty=1011580
-		religion=catholic culture=hungarian
-		father=100120416	# Antal Khuen-Héderváry
-		1849.05.23={birth=yes}
-		1880.09.06={add_spouse=100115898}	# Margit Teleki de Szék
-		1918.02.16={death=yes}
-	}
-	100120415={	#// A2. Alice (5 Nov 1850-14 Jan 1879); m.9 Jan 1877 Zsigmond Zichy de Zich et Vásonykõ (5 Jan 1846-7 Aug 1899) %%
-		name=Alice
-		female=yes
-		dynasty=1011580
-		religion=catholic culture=hungarian
-		father=100120416	# Antal Khuen-Héderváry
-		1850.11.05={birth=yes}
-		1879.01.14={death=yes}
-	}
-	100120420={	#// A3. Margit (Nustar 8 Jun 1856-Budapest 13 Nov 1920); m.20 Jun 1885 Tibor Vay de Vaja (Deregnyo 15 Sep 1856-Budapest 27 May 1928) %%
-		name=Margit
-		female=yes
-		dynasty=1011580
-		religion=catholic culture=hungarian
-		father=100120416	# Antal Khuen-Héderváry
-		1856.06.08={birth=yes}  # Nustar
-		1920.11.13={death=yes}  # Budapest
-	}
-	100120422={	#// A4. Henrik (Nustar 17 Nov 1860-Nustar 23 Apr 1928); m.22 Oct 1890 Johanna v.u.zu Eltz gt Faust v.Stromberg (Vukovár 9 Oct 1861-Nustar 12 Jun 1907) %%
-		name=Henrik
-		dynasty=1011580
-		religion=catholic culture=hungarian
-		father=100120416	# Antal Khuen-Héderváry
-		1860.11.17={birth=yes}  # Nustar
-		1890.10.22={add_spouse=100001002}	# Johanna v.u.zu Eltz gt Faust v.Stromberg
-		1928.04.23={death=yes}  # Nustar
-	}
-		100120414={	#// B1. Karl Heinrich (Vukovár 12 Dec 1892-Innsbruck 17 Aug 1989); m.11 Jan 1921 Maria v.u.zu Eltz gt Faust v.Stromberg (Vukovár 10 Nov 1897-Heidelberg 3 Aug 1933) %%
-			name="Karl Heinrich"
-			dynasty=1011580
-			religion=catholic culture=hungarian
-			father=100120422	# Henrik Khuen-Héderváry
-			mother=100001002	# Johanna v.u.zu Eltz gt Faust v.Stromberg
-			1892.12.12={birth=yes}  # Vukovár
-			1921.01.11={add_spouse=100000999}	# Maria v.u.zu Eltz gt Faust v.Stromberg
-			1989.08.17={death=yes}  # Innsbruck
-		}
-		100120419={	#// B2. Henrik (16 Nov 1894-8 Dec 1978); m.22 Oct 1925 Ida z Lobkowicz (24 May 1896-27 Apr 1985) %%
-			name=Henrik
-			dynasty=1011580
-			religion=catholic culture=hungarian
-			father=100120422	# Henrik Khuen-Héderváry
-			mother=100001002	# Johanna v.u.zu Eltz gt Faust v.Stromberg
-			1894.11.16={birth=yes}
-			1925.10.22={add_spouse=100185226}	# Ida z Lobkowicz
-			1978.12.08={death=yes}
-		}
-			100120418={	#// C1. Ida (Prag 1 May 1928-Wolfegg 6 Jun 1987); m.8 Feb 1955 Max Willibald v. Waldburg zu Wolfegg u.Waldsee (Waldsee 22 Jun 1924-Wolfegg 5 Sep 1998) %%
-				name=Ida
-				female=yes
-				dynasty=1011580
-				religion=catholic culture=czech
-				father=100120419	# Henrik Khuen-Héderváry
-				mother=100185226	# Ida z Lobkowicz
-				1928.05.01={birth=yes}  # Prag
-				1987.06.06={death=yes}  # Wolfegg
-			}
-			100120421={	#// C2. Mathias (26 Aug 1933-17 Jul 2013); m.3 Sep 1966 Marie Charlotte zu Hohenlohe-Langenburg (25 Nov 1937-17 Oct 1990) %%
-				name=Mathias
-				dynasty=1011580
-				religion=catholic culture=german
-				father=100120419	# Henrik Khuen-Héderváry
-				mother=100185226	# Ida z Lobkowicz
-				1933.08.26={birth=yes}
-				1966.09.03={add_spouse=100001686}	# Marie Charlotte zu Hohenlohe-Langenburg
-				2013.07.17={death=yes}
-			}
 ##  			Khuen-Héderváry 				1011580
 
 
@@ -45465,7 +45448,7 @@ karolyi_0001={ # Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Obergespa
 					father=100118035	# Zsigmond Zichy de Zich et Vásonykõ
 					mother=100047185	# Valerie Krakovský z Kolovrat
 					1846.01.05={birth=yes}
-					1877.01.09={add_spouse=100120415}	# Alice Khuen-Héderváry
+					1877.01.09={add_spouse=khuen_0053}	# Alice Khuen-Héderváry
 					1899.08.07={death=yes}
 				}
 					100118033={	#// 1f) Angelika Barbara Maria (Gyöngyös 4 Dec 1877-Matzleinsdorf bei Melk 22 Aug 1964); m.Hédervár 16 Jul 1904 Ödön Frhr Solymosy de Loós et Egervár (Balf 13 Jun 1866-Semmering 19 May 1915)
@@ -45474,7 +45457,7 @@ karolyi_0001={ # Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Obergespa
 						dynasty=1011004
 						religion=catholic culture=hungarian
 						father=100118034	# Zsigmond Zichy de Zich et Vásonykõ
-						mother=100120415	# Alice Khuen-Héderváry
+						mother=khuen_0053	# Alice Khuen-Héderváry
 						1877.12.04={birth=yes}
 						1964.08.22={death=yes}
 					}
@@ -47392,7 +47375,7 @@ karolyi_0001={ # Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Obergespa
 #zichy4
 
 #zichy5
-100115752={	# Graf KÁROLY József Ferenc Xavér Kázmér János Nepomuk Zichy de Zich et Vásonkeö, Austrian war minister (1809), minister of the interior (*1813-14), *Bratislava 4.3.1753, +Wien 28.9.1826; m.Wien 12.2.1776 Gfn Anna Maria von Khevenhüller-Metsch (*Lisbon 10.4.1759, +Wien 18.1.1809); They had issue:
+100115752={	#// Graf KÁROLY József Ferenc Xavér Kázmér János Nepomuk Zichy de Zich et Vásonkeö, Austrian war minister (1809), minister of the interior (*1813-14), *Bratislava 4.3.1753, +Wien 28.9.1826; m.Wien 12.2.1776 Gfn Anna Maria von Khevenhüller-Metsch (*Lisbon 10.4.1759, +Wien 18.1.1809); They had issue:
 	name=Károly
 	dynasty=1011004
 	religion=catholic culture=hungarian

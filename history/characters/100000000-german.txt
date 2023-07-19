@@ -958,7 +958,7 @@
 		father=100010635	# Gebhard von Mansfeld
 		mother=100011895	# Mathilde von Schwarzburg
 		1358.01.01={birth=yes}  # EST.
-		1374.01.01={add_spouse=100081787}	# Agnes von Braunschweig-Lüneburg
+		1374.01.01={add_spouse=100012745}	# Agnes von Braunschweig-Lüneburg
 		1392.01.01={death=yes}
 	}
 		100010637={ #// B1. Mechtild, *ca 1375, +1447; m.ca 1392 Friedrich XIV Gf von Beichlingen-Wiehe (+k.a.Aussig 15.6.1426)
@@ -967,7 +967,7 @@
 			dynasty=12403
 			religion=catholic culture=german
 			father=100010636	# Burchard von Mansfeld
-			mother=100081787	# Agnes von Braunschweig-Lüneburg
+			mother=100012745	# Agnes von Braunschweig-Lüneburg
 			1375.01.01={birth=yes}
 			1447.01.01={death=yes}
 		}
@@ -2251,7 +2251,7 @@
 
 
 ##	100003821	Matz von Spiegelfeld				1002083
-100084354={ #// Gfn        Maria                     Matz von Spiegelfeld                     (1971-    )     3
+100084354={ #    Gfn        Maria                     Matz von Spiegelfeld                     (1971-    )     3
 	name="Maria Matz von Spiegelfeld"
 	female=yes
 	#dynasty=0
@@ -2259,14 +2259,40 @@
 	1971.05.05={birth=yes}  # Wien
 }
 
+
 # Franz Cajetan Matz Freiherr von Spiegelfeld
 	# Anton Matz Freifrau von Spiegelfeld (1767-1822)
 		# Elias Matz Freiherr von Spiegelfeld (Graz February 13, 1811 - Gorizia January 23, 1886 ) 
 			# JOSEPH August Anton Matz Graf von Spiegelfeld 	*December 05, 1845 Udine, Province of Udine, Friuli-Venezia Giulia, Italy Death:	August 29, 1923 (77)Morkowitz
-				100002862={ #// Gf         Karl                      Matz von Spiegelfeld                     (1880-1964)     - [KINSKY]
+				lowborn_1430={ # Gf         Kuno                      Matz von Spiegelfeld                     (1878-1944)     - [RAZUMOVSKIJ]
+					name="Kuno Matz von Spiegelfeld"
+					religion=catholic culture=german
+					1878.11.08={birth=yes}
+					1914.06.09={add_spouse=razumovsky_0046}	# Maria Alexandrina Разумовский
+					1944.09.29={death=yes}
+				}
+					# Wolfgang Leo Matz Graf von Spiegelfeld (1915-1995) m. 1940 Marian Allen (1915-1982)
+						# Allen-Kuno Matz Graf von Spiegelfeld (1948) m. 1973 (div.) Pamela van Meter (1950); m. Anne Heller (1961)
+							# Marcus Matz Graf von Spiegelfeld (b. Guantanamo Bay, Cuba 25. Mar 1976)
+							# Christopher Matz Graf von Spiegelfeld (b. Jacksonville, Florida 14. Mar 1978)
+					# Kuno Andreas Matz Graf von Spiegelfeld (1917) m. 1949 Elisabeth Freiin von Sacken (1928)
+						# Benedict Matz Graf von Spiegelfeld (1951) m. 1974 Beatrice von Catharin (1953)
+							# Nathalie Camilla Margaritha Matz Gräfin von Spiegelfeld (b. Vienna 18. Oct 1975)
+							# Isabelle Antonia Marie Matz Gräfin von Spiegelfeld (b. Vienna 1. Apr 1978)
+							# Johann Philipp Benedikt Matz Graf von Spiegelfeld (b. Vienna 15. Sep 1980)
+							# Constantin Michael Benedikt Matz Graf von Spiegelfeld (Vienna 14. Feb 1983-7. Jun 2009)
+							# Christopher Matz Graf von Spiegelfeld (b. Vienna 28. Oct 1994)
+						# Marcus Matz Graf von Spiegelfeld (1952) m. 1979 Patricia Riedl (1955)
+							# Camillo Benedikt Otto Maria Matz Graf von Spiegelfeld (b. Innsbruck, Tyrol 12. May 1980)
+							# Valerie Lisa Dominica Victoria Matz Gräfin von Spiegelfeld (b. Vienna 20. Aug 1982)
+						# Konstantin Matz Graf von Spiegelfeld (1956)
+						# Clarissa Matz Gräfin von Spiegelfeld (1963) m. 1982 Stephan Mayer-Heinisch (1954)
+					# Eleonore Matz Gräfin von Spiegelfeld (1919)
+					# Meinrad Matz Graf von Spiegelfeld (1920)
+				100002862={ #    Gf         Karl                      Matz von Spiegelfeld                     (1880-1964)     - [KINSKY]
 					name="Karl Matz von Spiegelfeld"
 					dynasty=1002083
-					religion=catholic culture=czech
+					religion=catholic culture=german
 					1880.05.06={birth=yes}
 					1912.07.27={add_spouse=100185828}	# Therese Marie Kinsky von Wchinitz u.Tettau
 					1964.04.20={death=yes}
@@ -9826,7 +9852,7 @@
 							1960.08.26={birth=yes}
 						}
 				100000999={ #// 3d) Maria Anna Franziska de Paula Antonia Martina Andräa Walpurga Thekla (Vukovár 10 Nov 1897-Heidelberg 3 Aug 1933); m.Vukovár 11 Jan 1921 Karl Gf Khuen von Belasi (Vukovár 1892-Innsbruck 17 Aug 1989) $$
-					name=Maria
+					name="Maria Anna"
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
@@ -14223,7 +14249,7 @@
 100005293={ #// 3e) FRANZ Philipp Joseph Gf von Schönborn-Buchheim (14 Sep 1768-18 Aug 1841); m.20 Oct 1789 Maria Sophie Antonia Charlotte Klara Elisabeth Gfn von der Leyen u.zu Hohengeroldseck (23 Jul 1769-18 Jan 1834) $$
 	name=Franz
 	dynasty=1002043
-	religion=lutheran culture=german
+	religion=catholic culture=german
 	father=100005292	# Hugo v. Schönborn
 	mother=100093179	# GFN Maria Anna von Stadion
 	1768.09.14={birth=yes}
@@ -14233,7 +14259,7 @@
 	100005294={ #// 1f) Karl Theodor Damian Erwein (17 Sep 1790-Vienna 4 Dec 1841); m.2 May 1824 Ernestina Gfn von Kuenburg (2 May 1800-19 Jan 1862)
 		name="Karl Theodor"
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005293	# Franz v. Schönborn
 		mother=100008832	# Marie Sophie von der Leyen und zu Hohengeroldseck
 		1790.09.17={birth=yes}
@@ -14243,7 +14269,7 @@
 	100005295={ #// 2f) ERWEIN Damian Hugo Gf von Schönborn-Buchheim, resigned rights to his brother 1844 (14 Nov 1791-Sep 1864)
 		name=Erwein
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005293	# Franz v. Schönborn
 		mother=100008832	# Marie Sophie von der Leyen und zu Hohengeroldseck
 		1791.11.14={birth=yes}
@@ -14253,7 +14279,7 @@
 		name="Karoline Sophie"
 		female=yes
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005293	# Franz v. Schönborn
 		mother=100008832	# Marie Sophie von der Leyen und zu Hohengeroldseck
 		1796.02.12={birth=yes}
@@ -14263,7 +14289,7 @@
 		name=Sophie
 		female=yes
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005293	# Franz v. Schönborn
 		mother=100008832	# Marie Sophie von der Leyen und zu Hohengeroldseck
 		1798.11.24={birth=yes}
@@ -14272,7 +14298,7 @@
 	100005300={ #// 7f) Friedrich Damian Theodor Philipp (26 May 1800-2 May 1874)
 		name="Friedrich Damian"
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005293	# Franz v. Schönborn
 		mother=100008832	# Marie Sophie von der Leyen und zu Hohengeroldseck
 		1800.05.26={birth=yes}
@@ -14281,7 +14307,7 @@
 	100005301={ #// 8f) Eugenia Franziska Rosalia (4 Sep 1801-15 Aug 1880)
 		name="Eugenia Franziska"
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005293	# Franz v. Schönborn
 		mother=100008832	# Marie Sophie von der Leyen und zu Hohengeroldseck
 		1801.09.04={birth=yes}
@@ -14290,7 +14316,7 @@
 	100005302={ #// 9f) KARL Eduard Friedrich Gf von Schönborn-Buchheim (2 May 1803-24 Apr 1854); m.21 Oct 1833 Maria Anna Antonia Gfn Bolza (4 Aug 1806-8 Apr 1876)
 		name=Karl
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005293	# Franz v. Schönborn
 		mother=100008832	# Marie Sophie von der Leyen und zu Hohengeroldseck
 		1803.05.02={birth=yes}
@@ -14301,7 +14327,7 @@
 			name="Franziska Karoline"
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005302	# Karl v. Schönborn
 			mother=100080781	# GFN Maria Anna Bolza
 			1834.11.17={birth=yes}
@@ -14311,7 +14337,7 @@
 			name="Maria Anna"
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005302	# Karl v. Schönborn
 			mother=100080781	# GFN Maria Anna Bolza
 			1836.08.27={birth=yes}
@@ -14321,7 +14347,7 @@
 			name="Eugenie Friederike"
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005302	# Karl v. Schönborn
 			mother=100080781	# GFN Maria Anna Bolza
 			1841.02.11={birth=yes}
@@ -14330,7 +14356,7 @@
 		100005306={ #// 7g) ERWEIN Friedrich Karl Gf von Schönborn-Buchheim (Schönborn 9 Nov 1842-Schönborn 20 Jan 1903); m.Vienna 11 Apr 1864 Franziska Gfn von Trauttmansdorff-Weinsberg (Ober-Waltersdorf 25 Jun 1844-Beaulieu 10 Feb 1898) $$
 			name=Erwein
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005302	# Karl v. Schönborn
 			mother=100080781	# GFN Maria Anna Bolza
 			1842.11.09={birth=yes}
@@ -14341,7 +14367,7 @@
 				name=Anna
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005306	# Erwein v. Schönborn
 				mother=100023213	# Franziska v. Trauttmansdorff-Weinsberg
 				1865.03.04={birth=yes}
@@ -14351,7 +14377,7 @@
 				name=Franziska
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005306	# Erwein v. Schönborn
 				mother=100023213	# Franziska v. Trauttmansdorff-Weinsberg
 				1866.03.23={birth=yes}
@@ -14361,7 +14387,7 @@
 				name=Irma
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005306	# Erwein v. Schönborn
 				mother=100023213	# Franziska v. Trauttmansdorff-Weinsberg
 				1867.05.19={birth=yes}
@@ -14370,11 +14396,11 @@
 			100005310={ #// 4h) FRIEDRICH KARL Erwin Gf von Schönborn-Buchheim (Vienna 23 Feb 1869-Vienna 2 Mar 1932); m.1st Rome 16 Apr 1901 Donna Teresa Dentice dei Principi di Frasso (Naples 4 Jul 1877-Vittorio 9 Sep 1909); m.2nd Kravska, Moravia 14 Sep 1910 (div 1922) Donna Sofia Dentice dei Principi di Frasso (Naples 10 Jan 1889-Klagenfurt 5 Aug 1968) $$
 				name="Friedrich Karl"
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005306	# Erwein v. Schönborn
 				mother=100023213	# Franziska v. Trauttmansdorff-Weinsberg
 				1869.02.23={birth=yes}
-				1901.04.16={add_spouse=100183229}	# Teresa Dentice
+				1900.01.01={add_spouse=100183229}	# Teresa Dentice
 				1910.09.14={add_spouse=100072385}	# Sofia Dentice
 				1922.01.01={remove_spouse=100072385}
 				1932.03.02={death=yes}
@@ -14383,7 +14409,7 @@
 					name=Franziska
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005310	# Friedrich Karl v. Schönborn
 					mother=100183229	# Teresa Dentice
 					1902.12.14={birth=yes}
@@ -14392,7 +14418,7 @@
 				100005312={ #// 3i) GEORG Erwin Karl Peter Gf von Schönborn-Buchheim (Bogliaco, Lake Garda 5 Mar 1906-Schönborn 27 Jan 1989); m.1st Weiß-Polican, Bohemia 14 Jul 1931 Elisabeth Gfn Orssich de Slavetich (Baden-Baden 3 Jun 1902-Vienna 17 Apr 1967); m.2nd Schönborn 19 Apr 1975 Christiana Mautner von Markhof (b.Vienna 23 Jan 1928)
 					name=Georg
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005310	# Friedrich Karl v. Schönborn
 					mother=100183229	# Teresa Dentice
 					1906.03.05={birth=yes}
@@ -14403,7 +14429,7 @@
 					100005313={ #// 1j) Georg Friedrich Karl Franz Erwin Apollonius Erbgf von Schönborn-Buchheim (Vienna 18 Apr 1932-k.in avalanche nr Kitzbühel 3 Feb 1973); m.Altaussee 12 Jun 1965 Elisabeth Gfn u.Edle Tochter v.u.zu Eltz gen.Faust v.Stromberg (b.Korneuburg, Lower Austria 25 May 1942) $$
 						name=Georg
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005312	# Georg v. Schönborn
 						mother=100088692	# GFN Elisabeth Orssich de Szlavetich
 						1932.04.18={birth=yes}
@@ -14414,7 +14440,7 @@
 						name=Elisabeth
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005312	# Georg v. Schönborn
 						mother=100088692	# GFN Elisabeth Orssich de Szlavetich
 						1934.03.14={birth=yes}
@@ -14423,7 +14449,7 @@
 					100005315={ #// 3j) FRIEDRICH KARL Gf von Schönborn-Buchheim (b.Schönborn 30 Mar 1938); m.(civ) Louveciennes 9 Sep 1964 (rel) Dreux 10 Sep 1964 Isabelle Pss d'Orléans (b.Woluwé-Saint-Pierre 8 Apr 1932) $$
 						name="Friedrich Karl"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005312	# Georg v. Schönborn
 						mother=100088692	# GFN Elisabeth Orssich de Szlavetich
 						1938.03.30={birth=yes}
@@ -14432,7 +14458,7 @@
 						100005316={ #// 1k) Damian Erbgf von Schönborn-Buchheim (b.Vienna 17 Jul 1965); m.Blessington, nr Dublin 2 Feb 2002 Deirdre Mary Ascough (b.Dublin 16 Apr 1969)
 							name=Damian
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005315	# Friedrich Karl v. Schönborn
 							mother=100066615	# Isabelle Marie d’Orléans
 							1965.07.17={birth=yes}
@@ -14442,7 +14468,7 @@
 								name="Isabelle Mary"
 								female=yes
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005316	# Damian v. Schönborn
 								mother=100080250	# Deirdre Mary Ascough
 								2003.02.21={birth=yes}
@@ -14450,7 +14476,7 @@
 						100005318={ #// 2k) Vinzenz (b.Schönborn 28 Oct 1966); m.Neulengbach, Austria 4 May 2002 Katharina Maria Christiane Martina Graf (b.Vienna 30 Jan 1975)
 							name=Vinzenz
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005315	# Friedrich Karl v. Schönborn
 							mother=100066615	# Isabelle Marie d’Orléans
 							1966.10.28={birth=yes}
@@ -14459,7 +14485,7 @@
 							100005319={ #// 1l) Philipp Erwein Lukas Maria (b.Vienna 14 Oct 2003)
 								name="Philipp Erwein"
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005318	# Vinzenz v. Schönborn
 								mother=100084379	# Katharina Graf
 								2003.10.14={birth=yes}
@@ -14467,7 +14493,7 @@
 							100005320={ #// 2l) Clemens Melchior Maximilian Maria (b.Vienna 22 Jul 2005)
 								name="Clemens Melchior"
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005318	# Vinzenz v. Schönborn
 								mother=100084379	# Katharina Graf
 								2005.07.22={birth=yes}
@@ -14475,7 +14501,7 @@
 							100005321={ #// 3l) Alexander Johan Maximilian Maria (b.16 May 2010)
 								name="Alexander Johan"
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005318	# Vinzenz v. Schönborn
 								mother=100084379	# Katharina Graf
 								2010.05.16={birth=yes}
@@ -14484,7 +14510,7 @@
 							name=Lorraine
 							female=yes
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005315	# Friedrich Karl v. Schönborn
 							mother=100066615	# Isabelle Marie d’Orléans
 							1968.01.03={birth=yes}
@@ -14492,7 +14518,7 @@
 						100005323={ #// 4k) Claire Marie (b.Neuilly 7 Oct 1969); m.2013 Wolfgang Liechtenfeld
 							name="Claire Marie"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005315	# Friedrich Karl v. Schönborn
 							mother=100066615	# Isabelle Marie d’Orléans
 							1969.10.07={birth=yes}
@@ -14501,7 +14527,7 @@
 						100005324={ #// 5k) Melchior Raphael (b.Vienna 22 Sep 1977); m.24 May 2014 Bernadette von Mentzingen (b.1978)
 							name="Melchior Raphael"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005315	# Friedrich Karl v. Schönborn
 							mother=100066615	# Isabelle Marie d’Orléans
 							1977.09.22={birth=yes}
@@ -14510,7 +14536,7 @@
 							100005325={ #// 1l) Theodor (b.2015)
 								name=Theodor
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005324	# Melchior Raphael v. Schönborn
 								mother=100092675	# Bernadette von Mentzingen
 								2015.01.01={birth=yes}
@@ -14519,7 +14545,7 @@
 						name=Teresa
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005312	# Georg v. Schönborn
 						mother=100088692	# GFN Elisabeth Orssich de Szlavetich
 						1942.11.26={birth=yes}
@@ -14527,7 +14553,7 @@
 					100005327={ #// 5j) Max Eugen (b.Augsburg 24 Nov 1944); m.Kitzbühel 8 Aug 1981 Heide-Maria Leuze (b.Vienna 31 Mar 1944)
 						name="Max Eugen"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005312	# Georg v. Schönborn
 						mother=100088692	# GFN Elisabeth Orssich de Szlavetich
 						1944.11.24={birth=yes}
@@ -14536,7 +14562,7 @@
 				100005328={ #// 4i) Erwein Friedrich Karl Alois (Schönborn 2 Jan 1912-Vienna 3 May 1998); m.Vienna (civ) 18 Feb 1950 (rel) 20 Feb 1950 (div 1959) Christine Bachmayr-Heyda von Lowzicz (b.Seeburg an der Ybbs 16 Jul 1926)
 					name="Erwein Friedrich"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005310	# Friedrich Karl v. Schönborn
 					mother=100072385	# Sofia Dentice
 					1912.01.02={birth=yes}
@@ -14547,7 +14573,7 @@
 					100005329={ #// 1j) Christian Georg Karl Leopold Maria (b.Vienna 16 Dec 1950); m.(civ) Vienna 25 Nov 1977 Johanna Wodrazka (b.Vienna 30 Jan 1954)
 						name="Christian Georg"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005328	# Erwein Friedrich v. Schönborn
 						mother=100080299	# Christine Bachmayr-Heyda von Lowzicz
 						1950.12.16={birth=yes}
@@ -14557,7 +14583,7 @@
 						name=Verena
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005328	# Erwein Friedrich v. Schönborn
 						mother=100080299	# Christine Bachmayr-Heyda von Lowzicz
 						1952.07.15={birth=yes}
@@ -14565,7 +14591,7 @@
 				100005331={ #// 5i) Irma Sophie Tiburtia (Vienna 14 Apr 1913-Klagenfurt 15 Jan 2001); m.1st Vienna 10 Jul 1933 (div 1937) Ernst Gf von Kesselstatt (Au 17 Jun 1905-Vienna 15 Aug 1939); m.2nd Vienna 19 Sep 1942 (div 1960) Rudolf Schulze-Wengler (b.Ballenstedt, Harz 10 Apr 1916); m.3rd Klagenfurt 21 Jan 1961 Erwin Crobath (Mistelbach, Lower Austria 22 May 1898-Klagenfurt 20 Nov 1973)
 					name="Irma Sophie"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005310	# Friedrich Karl v. Schönborn
 					mother=100072385	# Sofia Dentice
 					1913.04.14={birth=yes}
@@ -14579,7 +14605,7 @@
 				100005332={ #// 6i) Friedrich Karl Anton (Schönborn 18 Nov 1914-16 Jan 2011); m.1st Graz 4 Oct 1938 (div 1945) Camilla Gfn Chorinsky, Frn von Ledske (Graz 17 Apr 1918-Graz 10 Jun 1961); m.2nd Trieste 21 Jun 1951 Edith Carpenter Macy (b.New York 5 Jan 1927)
 					name="Friedrich Karl"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005310	# Friedrich Karl v. Schönborn
 					mother=100072385	# Sofia Dentice
 					1914.11.18={birth=yes}
@@ -14592,7 +14618,7 @@
 						name="Camilla Maria"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005332	# Friedrich Karl v. Schönborn
 						mother=100081479	# GFN Camilla Chorinsky
 						1939.07.30={birth=yes}
@@ -14601,7 +14627,7 @@
 				100005334={ #// 7i) Maximilian Stefan Eugen (Beregvár 10 Oct 1917-Waidhofen an der Thaya 24 Aug 1967); m.Innsbruck 29 Aug 1947 Gertrude Bock (Innsbruck 30 Apr 1925-4 Jul 1988)
 					name="Maximilian Stefan"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005310	# Friedrich Karl v. Schönborn
 					mother=100072385	# Sofia Dentice
 					1917.10.10={birth=yes}
@@ -14611,7 +14637,7 @@
 					100005335={ #// 1j) Erwin Max Friedrich Karl (Innsbruck 14 Feb 1948-Portugal 8 Sep 1993); m.1 Sep 1982 Inge Duzia
 						name="Erwin Max"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005334	# Maximilian Stefan v. Schönborn
 						mother=100080751	# Gertrude Bock
 						1948.02.14={birth=yes}
@@ -14621,7 +14647,7 @@
 			100005336={ #// 5h) Erwein (16 Aug 1871-28 Jun 1937); m.24 Oct 1911 Cathleen Wolff (13 Mar 1885)
 				name=Erwein
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005306	# Erwein v. Schönborn
 				mother=100023213	# Franziska v. Trauttmansdorff-Weinsberg
 				1871.08.16={birth=yes}
@@ -14632,7 +14658,7 @@
 				name=Elisabeth
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005306	# Erwein v. Schönborn
 				mother=100023213	# Franziska v. Trauttmansdorff-Weinsberg
 				1878.01.04={birth=yes}
@@ -14644,7 +14670,7 @@
 			name=Charlotte
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005302	# Karl v. Schönborn
 			mother=100080781	# GFN Maria Anna Bolza
 			1843.11.26={birth=yes}
@@ -14653,7 +14679,7 @@
 		100005339={ #// 11g) Anna (4 Sep 1848-2 Jan 1921); m.21 Jul 1869 Anton Gf von Ludwigstorff Frhr von Goldlamb (d.27 Feb 1929)
 			name=Anna
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005302	# Karl v. Schönborn
 			mother=100080781	# GFN Maria Anna Bolza
 			1848.09.04={birth=yes}
@@ -14666,7 +14692,7 @@
 100005341={ #// 7e) FRANZ Erwein Damian Joseph Graf von Schönborn-Wiesentheid (7 Apr 1776-5 Dec 1840); m.29 Jul 1802 Ferdinanda Isabella Gfn von Westphalen zu Fürstenberg (19 Oct 1781-11 Aug 1813) $$
 	name=Franz
 	dynasty=1002043
-	religion=lutheran culture=german
+	religion=catholic culture=german
 	father=100005292	# Hugo v. Schönborn
 	mother=100093179	# GFN Maria Anna von Stadion
 	1776.04.07={birth=yes}
@@ -14676,7 +14702,7 @@
 	100005342={ #// 1f) HUGO Damian Erwein Gf von Schönborn-Wiesentheid (25 May 1805-29 Apr 1865); m.1 May 1833 Sophie Gfn u.Edle Tochter v.u.zu Eltz gen.Faust v.Stromberg (20 Feb 1814-24 Dec 1902) $$
 		name=Hugo
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005341	# Franz v. Schönborn
 		mother=100035749	# Ferdinanda Isabella von Westphalen zu Fürstenberg
 		1805.05.25={birth=yes}
@@ -14687,7 +14713,7 @@
 		name="Maria Anna"
 		female=yes
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005341	# Franz v. Schönborn
 		mother=100035749	# Ferdinanda Isabella von Westphalen zu Fürstenberg
 		1809.01.31={birth=yes}
@@ -14696,7 +14722,7 @@
 	100005344={ #// 3f) KLEMENS August Emmerich Gf von Schönborn-Wiesentheid (Gaibach 8 Oct 1810-Gaibach 24 Aug 1877); m.Vienna 20 Oct 1838 Irene Gfn Batthyány von Német-Ujvár (Ofen 30 Dec 1811-München 25 Apr 1891) $$
 		name=Klemens
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005341	# Franz v. Schönborn
 		mother=100035749	# Ferdinanda Isabella von Westphalen zu Fürstenberg
 		1810.10.08={birth=yes}
@@ -14707,7 +14733,7 @@
 			name="Marie Athenaïs"
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005344	# Klemens v. Schönborn
 			mother=100115213	# Irene Batthyány-Strattmann de Német-Ujvar
 			1840.01.21={birth=yes}
@@ -14717,7 +14743,7 @@
 			name="Sophie Elma"
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005344	# Klemens v. Schönborn
 			mother=100115213	# Irene Batthyány-Strattmann de Német-Ujvar
 			1841.05.20={birth=yes}
@@ -14726,7 +14752,7 @@
 		100005347={ #// 3g) Clemens Hugo Damian Erwein Erbgf von Schönborn-Wiesentheid (14 Nov 1842-25 Aug 1868)
 			name="Clemens Hugo"
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005344	# Klemens v. Schönborn
 			mother=100115213	# Irene Batthyány-Strattmann de Német-Ujvar
 			1842.11.14={birth=yes}
@@ -14735,7 +14761,7 @@
 		100005348={ #// 4g) ARTHUR Franz Maximilian Gf von Schönborn-Wiesentheid (Würzburg 30 Jan 1846-Wiesentheid 29 Sep 1915); m.Schillingsfürst 12 Apr 1871 Stephanie Pss zu Hohenlohe-Waldenburg-Schillingsfürst (Schillingsfürst 6 Jul 1851-München 18 Mar 1882) $$
 			name=Arthur
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005344	# Klemens v. Schönborn
 			mother=100115213	# Irene Batthyány-Strattmann de Német-Ujvar
 			1846.01.30={birth=yes}
@@ -14746,7 +14772,7 @@
 				name="Marie Gabrielle"
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005348	# Arthur v. Schönborn
 				mother=100001838	# Stephanie zu Hohenlohe-Waldenburg-Schillingsfürst
 				1872.01.20={birth=yes}
@@ -14756,7 +14782,7 @@
 				name=Johanna
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005348	# Arthur v. Schönborn
 				mother=100001838	# Stephanie zu Hohenlohe-Waldenburg-Schillingsfürst
 				1875.12.03={birth=yes}
@@ -14765,7 +14791,7 @@
 			100005351={ #// 3h) ERWEIN Clemens Chlodwig Karl Maria Gf von Schönborn-Wiesentheid (Wiesentheid 6 Oct 1877-München 12 Nov 1942); m.Rome 29 Oct 1913 Donna Ernestina Ruffo (Rome 18 Oct 1880-Erlangen 19 Aug 1965) $$
 				name=Erwein
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005348	# Arthur v. Schönborn
 				mother=100001838	# Stephanie zu Hohenlohe-Waldenburg-Schillingsfürst
 				1877.10.06={birth=yes}
@@ -14775,7 +14801,7 @@
 				100005150={ #// 1i) Johann Philipp Erbgf von Schönborn-Wiesentheid (19 Jan 1915-2 Oct 1921)
 					name="Johann Philipp"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005351	# Erwein v. Schönborn
 					mother=100189727	# Ernestina Ruspoli
 					1915.01.19={birth=yes}
@@ -14784,7 +14810,7 @@
 				100005151={ #// 2i) Friedrich KARL Anton Gf von Schönborn-Wiesentheid (Würzburg 14 Oct 1916-Wiesentheid 15 Sep 1998); m.Sintra 21 Apr 1953 Donna Graziella Álvares Pereira de Melo (Pau 20 Dec 1929-Muge 25 Jul 1998) $$
 					name=Karl
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005351	# Erwein v. Schönborn
 					mother=100189727	# Ernestina Ruspoli
 					1916.10.14={birth=yes}
@@ -14794,7 +14820,7 @@
 					100005152={ #// 1j) FILIPP Erwein Anton Gf von Schönborn-Wiesentheid, renounced 3 May 2004 (b.Würzburg 24 Jul 1954); m.1st Sintra 28 Oct 1995 (div 1999) Béatrice de Castellane (b.Neuilly 5 Oct 1961); m.2nd Virginie Jeanne Pdevin (b.10 Apr 1969)
 						name=Filipp
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005151	# Karl v. Schönborn
 						mother=100033420	# Graziella Álvares Pereira de Melo
 						1954.07.24={birth=yes}
@@ -14806,7 +14832,7 @@
 							name="Nina Marguerite"
 							female=yes
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005152	# Filipp v. Schönborn
 							mother=100088878	# Virginie Jeanne Pdevin
 							2005.04.03={birth=yes}
@@ -14815,7 +14841,7 @@
 						name="Teresa Eleonore"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005151	# Karl v. Schönborn
 						mother=100033420	# Graziella Álvares Pereira de Melo
 						1955.11.07={birth=yes}
@@ -14824,7 +14850,7 @@
 						name="Maria Johanna"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005151	# Karl v. Schönborn
 						mother=100033420	# Graziella Álvares Pereira de Melo
 						1958.07.28={birth=yes}
@@ -14832,7 +14858,7 @@
 					100005156={ #// 4j) PAUL Anton Gf von Schönborn-Wiesentheid (b.Lisbon 15 May 1962); m.Venice (civ) 17 Apr 1989 (rel) 22 Apr 1989 Ctsa Damiana Lovatelli (b.Lima, Peru 31 Mar 1961)
 						name=Paul
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005151	# Karl v. Schönborn
 						mother=100033420	# Graziella Álvares Pereira de Melo
 						1962.05.15={birth=yes}
@@ -14841,7 +14867,7 @@
 						100005157={ #// 1k) Franz Georg Filipp Paul Maria (b.Würzburg 2 Mar 1990)
 							name="Franz Georg"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005156	# Paul v. Schönborn
 							mother=100087542	# Damiana Lovatelli
 							1990.03.02={birth=yes}
@@ -14849,7 +14875,7 @@
 						100005158={ #// 2k) Alexander Maximilian (b.Würzburg 17 Jun 1991)
 							name="Alexander Maximilian"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							trait=twin
 							father=100005156	# Paul v. Schönborn
 							mother=100087542	# Damiana Lovatelli
@@ -14858,7 +14884,7 @@
 						100005159={ #// 3k) Johannes Damian (b.Würzburg 17 Jun 1991)
 							name="Johannes Damian"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							trait=twin
 							father=100005156	# Paul v. Schönborn
 							mother=100087542	# Damiana Lovatelli
@@ -14868,7 +14894,7 @@
 							name="Benedicta Olga"
 							female=yes
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005156	# Paul v. Schönborn
 							mother=100087542	# Damiana Lovatelli
 							1993.04.12={birth=yes}
@@ -14876,7 +14902,7 @@
 						100005161={ #// 5k) Georg Friedrich (b.Würzburg 31 Aug 1995)
 							name="Georg Friedrich"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005156	# Paul v. Schönborn
 							mother=100087542	# Damiana Lovatelli
 							1995.08.31={birth=yes}
@@ -14884,7 +14910,7 @@
 						100005162={ #// 6k) Michael Maria (b.Würzburg 16 Aug 1997)
 							name="Michael Maria"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005156	# Paul v. Schönborn
 							mother=100087542	# Damiana Lovatelli
 							1997.08.16={birth=yes}
@@ -14892,7 +14918,7 @@
 				100005163={ #// 3i) Rudolf Erwein Ernst (Würzburg 1 Oct 1918-Rohrbach, Oberösterreich 3 May 1998); m.1st Regensburg (civ) 18 Apr 1947 (rel) 29 Apr 1947 (div 1968) Helene Pss von Thurn u.Taxis (Haus bei Regensburg 27 May 1924-Monte Carlo 27 Oct 1991); m.2nd Heusenstamm 20 Nov 1969 Katharina Gfn Spannocchi (b.Linz 9 Jul 1943)
 					name=Rudolf
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005351	# Erwein v. Schönborn
 					mother=100189727	# Ernestina Ruspoli
 					1918.10.01={birth=yes}
@@ -14904,7 +14930,7 @@
 					100005164={ #// 1j) Albert Ernst Erwein Franz-Joseph Maria (b.Würzburg 20 Feb 1948); m.London 19 Dec 1974 (div 1993) Ilona Dietrich (b.Bad Driburg 13 Oct 1947)
 						name="Albert Ernst"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005163	# Rudolf v. Schönborn
 						mother=100006621	# Helene v. Thurn und Taxis
 						1948.02.20={birth=yes}
@@ -14914,7 +14940,7 @@
 						100005165={ #// 1k) Moritz Philipp Alexander (b.München 24 Feb 1977)
 							name="Moritz Philipp"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005164	# Albert Ernst v. Schönborn
 							mother=100083313	# Ilona Dietrich
 							1977.02.24={birth=yes}
@@ -14922,7 +14948,7 @@
 						100005166={ #// 2k) Konstantin Max Ferdinand (München 2 Oct 1979-London 26 Nov 1998)
 							name="Konstantin Max"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005164	# Albert Ernst v. Schönborn
 							mother=100083313	# Ilona Dietrich
 							1979.10.02={birth=yes}
@@ -14931,7 +14957,7 @@
 					100005167={ #// 2j) Johannes Philipp Gabriel Kilian Karl Maria Elisabeth (b.Würzburg 3 Jul 1949); m.1st Donaueschingen 16 Apr 1977 (div 1980) Marie-Antoinette Pss zu Fürstenberg (b.Donaueschingen 15 May 1949); m.2nd New York 4 Dec 2000 Anita J Tewarson (b.Wellesley, Massachusetts 6 Apr 1961)
 						name="Johannes Philipp"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005163	# Rudolf v. Schönborn
 						mother=100006621	# Helene v. Thurn und Taxis
 						1949.07.03={birth=yes}
@@ -14943,7 +14969,7 @@
 						name=Gabriela
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005163	# Rudolf v. Schönborn
 						mother=100006621	# Helene v. Thurn und Taxis
 						1950.10.16={birth=yes}
@@ -14951,7 +14977,7 @@
 					100005169={ #// 4j) Peter Andreas Edmund Maria Johannes (b.Regensburg 10 Nov 1954); m.Monaco 9 Apr 1994 Bénédicte Courtin (b.Monaco 10 Jun 1964)
 						name="Peter Andreas"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005163	# Rudolf v. Schönborn
 						mother=100006621	# Helene v. Thurn und Taxis
 						1954.11.10={birth=yes}
@@ -14961,7 +14987,7 @@
 							name=Alana
 							female=yes
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005169	# Peter Andreas v. Schönborn
 							mother=100081682	# Bénédicte Courtin
 							1994.12.04={birth=yes}
@@ -14970,7 +14996,7 @@
 							name="Janina Maria"
 							female=yes
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005169	# Peter Andreas v. Schönborn
 							mother=100081682	# Bénédicte Courtin
 							1995.12.30={birth=yes}
@@ -14979,7 +15005,7 @@
 						name="Elisabeth Teresa"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005163	# Rudolf v. Schönborn
 						mother=100090445	# GFN Katharina Spannocchi
 						1971.02.19={birth=yes}
@@ -14987,7 +15013,7 @@
 					100005173={ #// 6j) Franz Erwein Georg (b.Würzburg 15 May 1974); m.Rio de Janeiro 25 Jun 2011 Alessandra Helal Suaid (b.Rio de Janeiro 12 Nov 1976)
 						name="Franz Erwein"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005163	# Rudolf v. Schönborn
 						mother=100090445	# GFN Katharina Spannocchi
 						1974.05.15={birth=yes}
@@ -14996,7 +15022,7 @@
 		100005174={ #// 5g) Friedrich Carl Emmerich Joseph (10 Mar 1847-16 Dec 1913); m.9 Apr 1888 Julia Mkgfn Pallavicini (10 May 1857-15 Dec 1932) $$
 			name=Friedrich
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005344	# Klemens v. Schönborn
 			mother=100115213	# Irene Batthyány-Strattmann de Német-Ujvar
 			1847.03.10={birth=yes}
@@ -15007,7 +15033,7 @@
 			name="Maria Irene"
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005344	# Klemens v. Schönborn
 			mother=100115213	# Irene Batthyány-Strattmann de Német-Ujvar
 			1848.12.12={birth=yes}
@@ -15016,7 +15042,7 @@
 		100005176={ #// 7g) Clemens Philipp Erwein (Schloß Hallburg bei Volkach 12 Jul 1855-Bayrischzell 1 Jan 1938); m.Laband, Upper Silesia 5 Oct 1892 Maria-Rosario Frn von Welczek (Laband 5 Oct 1873-Bayrischzell 2 Jul 1943)
 			name="Clemens Philipp"
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005344	# Klemens v. Schönborn
 			mother=100115213	# Irene Batthyány-Strattmann de Német-Ujvar
 			1855.07.12={birth=yes}
@@ -15027,7 +15053,7 @@
 				name=Luise
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005176	# Clemens Philipp v. Schönborn
 				mother=100093411	# FRN Maria-Rosario von Welczek
 				1892.09.02={birth=yes}
@@ -15037,7 +15063,7 @@
 				name=Irene
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005176	# Clemens Philipp v. Schönborn
 				mother=100093411	# FRN Maria-Rosario von Welczek
 				1895.07.17={birth=yes}
@@ -15047,7 +15073,7 @@
 				name="Maria Katharina"
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005176	# Clemens Philipp v. Schönborn
 				mother=100093411	# FRN Maria-Rosario von Welczek
 				1896.09.08={birth=yes}
@@ -15056,7 +15082,7 @@
 			100005180={ #// 4h) Clemens Franz Erwein Wilhelm Arthur Bonifacius (München 3 Apr 1905-Sofia 30 Aug 1944); m.Iszka Szent-György 20 Apr 1933 Dorothea Gfn zu Pappenheim (Iszka Szent-György 20 May 1908-München 24 Sep 1991) $$
 				name=Clemens
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005176	# Clemens Philipp v. Schönborn
 				mother=100093411	# FRN Maria-Rosario von Welczek
 				1905.04.03={birth=yes}
@@ -15067,7 +15093,7 @@
 					name=Priscilla
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005180	# Clemens v. Schönborn
 					mother=100012307	# Dorothea von Pappenheim
 					1934.02.05={birth=yes}
@@ -15075,7 +15101,7 @@
 				100005182={ #// 2i) Manfred Clemens Siegfried Karl Theodor (München 19 May 1935-München 4 Jun 1989); m.(civ) München 28 Jan 1966 (rel) Vienna 19 Feb 1966 Margit Pss Esterházy von Galántha (b.Budapest 11 Apr 1936) $$
 					name="Manfred Clemens"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005180	# Clemens v. Schönborn
 					mother=100012307	# Dorothea von Pappenheim
 					1935.05.19={birth=yes}
@@ -15085,7 +15111,7 @@
 					100005183={ #// 1j) Nikolaus Georg Clemens Eustachius (b.Innsbruck 14 Sep 1966); m.2013 (rel) Lockenhaus, Burgenland 9 Aug 2014 Anna von Wedel (b.Hamburg 1983)
 						name="Nikolaus Georg"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005182	# Manfred Clemens v. Schönborn
 						mother=100024680	# Margit Esterházy de Galántha
 						1966.09.14={birth=yes}
@@ -15094,7 +15120,7 @@
 						100005184={ #// 1k) László (b.2013)
 							name=László
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005183	# Nikolaus Georg v. Schönborn
 							mother=100093406	# Anna von Wedel
 							2013.01.01={birth=yes}
@@ -15103,7 +15129,7 @@
 						name="Clarissa Marie"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005182	# Manfred Clemens v. Schönborn
 						mother=100024680	# Margit Esterházy de Galántha
 						1967.10.14={birth=yes}
@@ -15112,7 +15138,7 @@
 						name="Melinda Katharina"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005182	# Manfred Clemens v. Schönborn
 						mother=100024680	# Margit Esterházy de Galántha
 						1970.10.20={birth=yes}
@@ -15120,7 +15146,7 @@
 					100005187={ #// 4j) Maria-Christina Margit Helene (b.Frankfurt 19 Feb 1974); m.Lockenhaus 12 Aug 2000 Martin Kammerlander (b.Vienna 15 Feb 1968)
 						name=Maria-Christina
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005182	# Manfred Clemens v. Schönborn
 						mother=100024680	# Margit Esterházy de Galántha
 						1974.02.19={birth=yes}
@@ -15130,7 +15156,7 @@
 					name=Clarissa
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005180	# Clemens v. Schönborn
 					mother=100012307	# Dorothea von Pappenheim
 					1936.10.14={birth=yes}
@@ -15138,7 +15164,7 @@
 				100005189={ #// 4i) Franz Clemens Karl Alexander Hubertus (b.Breslau 3 Oct 1939); m.1st Vevey (civ) 6 Jan 1964 (rel) 14 Jan 1964 (div 1974) Tatjana Pss Gortschakow (b.New York 25 Jul 1940); m.2nd München 25 Oct 1974 (div 1992) Felizitas Pss Reuss (b.Mauritzen 26 Oct 1946) $$
 					name="Franz Clemens"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005180	# Clemens v. Schönborn
 					mother=100012307	# Dorothea von Pappenheim
 					1939.10.03={birth=yes}
@@ -15150,7 +15176,7 @@
 					100005190={ #// 1j) Clemens Franz Alexander Constantin Eustachius (b.New York 29 Sep 1964); m.2013/4 Orsola dei Conti Rizzardi
 						name="Clemens Franz"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005189	# Franz Clemens v. Schönborn
 						mother=100021163	# Tatjana Gorchakov
 						1964.09.29={birth=yes}
@@ -15159,7 +15185,7 @@
 					100005191={ #// 2j) Constantin Manfred Sebastian Lothar-Franz (b.Zürich 29 Mar 1966); m.Bologna 23 Sep 2002 Maria Carla Bargagli Petrucci (b.Bologna 18 Aug 1973)
 						name="Constantin Manfred"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005189	# Franz Clemens v. Schönborn
 						mother=100021163	# Tatjana Gorchakov
 						1966.03.29={birth=yes}
@@ -15168,7 +15194,7 @@
 						100005192={ #// 1k) Ludwig Franz Barduccio Nikolaus Maria (b.Lausanne 5 Mar 2004)
 							name="Ludwig Franz"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005191	# Constantin Manfred v. Schönborn
 							mother=100080385	# Maria Carla Bargagli Petrucci
 							2004.03.05={birth=yes}
@@ -15177,7 +15203,7 @@
 						name=Alexandra
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005189	# Franz Clemens v. Schönborn
 						mother=100021163	# Tatjana Gorchakov
 						1967.06.02={birth=yes}
@@ -15185,7 +15211,7 @@
 					100005194={ #// 4j) Gregor Franz Friedrich Karl Teilhard (b.Geneva 18 Apr 1977)
 						name="Gregor Franz"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005189	# Franz Clemens v. Schönborn
 						mother=100003477	# Felizitas Reuß
 						1977.04.18={birth=yes}
@@ -15193,7 +15219,7 @@
 			100005195={ #// 5h) Franz Erwein (17 Oct 1916-12 Jul 1938)
 				name="Franz Erwein"
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005176	# Clemens Philipp v. Schönborn
 				mother=100093411	# FRN Maria-Rosario von Welczek
 				1916.10.17={birth=yes}
@@ -15202,7 +15228,7 @@
 	100005196={ #// 4f) Franz (27 Jul 1813-8 Apr 1844)
 		name=Franz
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005341	# Franz v. Schönborn
 		mother=100035749	# Ferdinanda Isabella von Westphalen zu Fürstenberg
 		1813.07.27={birth=yes}
@@ -15214,7 +15240,7 @@
 100005197={ #// 8e) FRIEDRICH Karl Joseph Graf von Schönborn (2 Aug 1781-24 Mar 1849); m.12 May 1811 Maria Anna Frn von Kerpen (13 Nov 1784-8 Oct 1862)
 	name=Friedrich
 	dynasty=1002043
-	religion=lutheran culture=german
+	religion=catholic culture=german
 	father=100005292	# Hugo v. Schönborn
 	mother=100093179	# GFN Maria Anna von Stadion
 	1781.08.02={birth=yes}
@@ -15224,7 +15250,7 @@
 	100005198={ #// 1f) ERWEIN Damian Hugo Gf von Schönborn (Vienna 17 May 1812-Prague 12 Jan 1881); m.Prague 11 Jul 1839 Christine Gfn von Brühl (Prague 28 Mar 1817-Prague 23 Oct 1892) $$
 		name=Erwein
 		dynasty=1002043
-		religion=lutheran culture=german
+		religion=catholic culture=german
 		father=100005197	# Friedrich v. Schönborn
 		mother=100092398	# FRN Maria Anna von Kerpen
 		1812.05.17={birth=yes}
@@ -15234,7 +15260,7 @@
 		100005199={ #// 1g) KARL Friedrich Josef August Maria Erwein Franz Gf von Schönborn (Prague 10 Apr 1840-Neuhof bei Neukirchen 29 May 1908); m.1st Konopischt 11 Sep 1861 Johanna Pss von Lobkowicz (Konopischt 16 Jun 1840-Malesitz 5 Aug 1872); m.2nd Brezina 13 Sep 1875 Zdenka Gfn von Sternberg (Vienna 16 Apr 1846-Malesitz 16 Sep 1915) $$
 			name="Karl Friedrich"
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005198	# Erwein v. Schönborn
 			mother=100036518	# Christine von Brühl
 			1840.04.10={birth=yes}
@@ -15245,7 +15271,7 @@
 			100005200={ #// 1h) Erwein Erbgf von Schönborn (2 Aug 1862-Strasburg 23 May 1882)
 				name=Erwein
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005199	# Karl Friedrich v. Schönborn
 				mother=100185177	# Johanna z Lobkowicz
 				1862.08.02={birth=yes}
@@ -15254,7 +15280,7 @@
 			100005201={ #// 2h) JOHANN Nepomuk Maria Friedrich Karl Josef Gf von Schönborn (Prague 3 Apr 1864-Prague 7 Jun 1912); m.Prague 17 Jun 1889 Anna Gfn von Wurmbrand-Stuppach (Vienna 23 Apr 1868-Prague 2 Mar 1938) $$
 				name=Johann
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005199	# Karl Friedrich v. Schönborn
 				mother=100185177	# Johanna z Lobkowicz
 				1864.04.03={birth=yes}
@@ -15268,7 +15294,7 @@
 							# m.4th Hamburg 11 Feb 1949 Gabriele Frn von Seydlitz-Kurzbach (Altona-Bahrenfeld 1 Apr 1920-Unkel am Rhein 29 Apr 1992)
 					name="Karl Johann"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005201	# Johann v. Schönborn
 					mother=100023761	# Anna v. Wurmbrand-Stuppach
 					1890.11.28={birth=yes}
@@ -15284,7 +15310,7 @@
 						name="Maria Johanna"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005202	# Karl Johann v. Schönborn
 						mother=100011268	# Elisabeth von Nostitz-Rieneck
 						1915.05.23={birth=yes}
@@ -15293,7 +15319,7 @@
 					100005204={ #// 2j) Maria HUGO-DAMIAN Adalbert Josef Hubertus Gf von Schönborn (Lukawitz 22 Sep 1916-Vienna 6 Mar 1979); m.1st Prague 10 May 1942 (div 1959) Eleonore Frn von Doblhoff (b.Brünn 14 Apr 1920); m.2nd Vienna 10 May 1963 Johanna Moser (Gmünd 29 Nov 1935-18 Apr 2009)
 						name=Hugo-Damian
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005202	# Karl Johann v. Schönborn
 						mother=100011268	# Elisabeth von Nostitz-Rieneck
 						1916.09.22={birth=yes}
@@ -15305,7 +15331,7 @@
 						100005205={ #// 1k) Johann PHILIPP Maria Karl Herbert Ferdinand Gf von Schönborn (b.Prague 27 Jan 1943); m.Altenmuhr 10 Oct 1970 Adelheid von Buchwaldt (b.Berlin-Gatow 16 Sep 1938)
 							name=Philipp
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005204	# Hugo-Damian v. Schönborn
 							mother=100091881	# FRN Eleonore von Doblhoff
 							1943.01.27={birth=yes}
@@ -15314,7 +15340,7 @@
 							100005206={ #// 1l) Johanna Maria (b.Gunzenhausen 14 Nov 1972); m.Muhr a.See 12 Sep 2003 (rel) Altenmuhr 13 Sep 2003 Armin von Samson-Himmelstjerna (b.Gut Falkenberg 4 Mar 1970)
 								name="Johanna Maria"
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005205	# Philipp v. Schönborn
 								mother=100091731	# Adelheid von Buchwaldt
 								1972.11.14={birth=yes}
@@ -15323,7 +15349,7 @@
 							100005207={ #// 2l) Anna Katharina (b.Gunzenhausen 7 Nov 1979)
 								name="Anna Katharina"
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005205	# Philipp v. Schönborn
 								mother=100091731	# Adelheid von Buchwaldt
 								1979.11.07={birth=yes}
@@ -15331,7 +15357,7 @@
 						100005208={ #// 2k) Christoph Maria Michael Hugo Damian Peter Adalbert, Cardinal, Archbishop of Vienna (b.Skalken 22 Jan 1945)
 							name=Christoph
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005204	# Hugo-Damian v. Schönborn
 							mother=100091881	# FRN Eleonore von Doblhoff
 							1945.01.22={birth=yes}
@@ -15340,7 +15366,7 @@
 							name="Barbara Maria"
 							female=yes
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005204	# Hugo-Damian v. Schönborn
 							mother=100091881	# FRN Eleonore von Doblhoff
 							1947.09.23={birth=yes}
@@ -15348,7 +15374,7 @@
 						100005210={ #// 4k) Michael Anatol Maria Hugo Karl (b.Schruns 2 Nov 1954); m.Hamburg 30 Aug 1995 (div 2003) Barbara Neureiter (b.Bad Ischl 2 Feb 1962)
 							name="Michael Anatol"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005204	# Hugo-Damian v. Schönborn
 							mother=100091881	# FRN Eleonore von Doblhoff
 							1954.11.02={birth=yes}
@@ -15359,7 +15385,7 @@
 						name="Maria Anna"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005202	# Karl Johann v. Schönborn
 						mother=100011268	# Elisabeth von Nostitz-Rieneck
 						1919.03.29={birth=yes}
@@ -15369,7 +15395,7 @@
 					name="Eugenie Maria"
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005201	# Johann v. Schönborn
 					mother=100023761	# Anna v. Wurmbrand-Stuppach
 					1892.06.03={birth=yes}
@@ -15378,7 +15404,7 @@
 				100005213={ #// 3i) Heinrich Maria Johann Adalbert Alexander Aloys (Prague 13 Feb 1895-Neuhaus bei Schliersee, Upper Bavaria 11 Oct 1976); m.Prague 7 Oct 1936 Margarethe Gerstenberger (Graslitz 29 Jul 1910-North Hollywood 20 Nov 1991)
 					name=Heinrich
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005201	# Johann v. Schönborn
 					mother=100023761	# Anna v. Wurmbrand-Stuppach
 					1895.02.13={birth=yes}
@@ -15388,7 +15414,7 @@
 					100005214={ #// 1j) Alexander Maria Karl Heinrich Franz (b.Prague 29 Jan 1938); m.1st Seattle 14 Jun 1970 (div 1975) Maureen Eugenie Dufault (b.Hollywood, California 29 Sep 1943); m.2nd Corpus Christi 12 Aug 1978 Mary Leona Grote (b.Mason, Texas 4 Oct 1955)
 						name=Alexander
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005213	# Heinrich v. Schönborn
 						mother=100084181	# Margarethe Gerstenberger
 						1938.01.29={birth=yes}
@@ -15400,7 +15426,7 @@
 						100005215={ #// 1k) Damian Andreas (b.Columbia, Missouri 14 Jul 1987); m.St.Paul, Minnesota 2 Aug 2013 Julie Hoye
 							name="Damian Andreas"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005214	# Alexander v. Schönborn
 							mother=100084477	# Mary Leona Grote
 							1987.07.14={birth=yes}
@@ -15410,7 +15436,7 @@
 						name="Maria Elisabeth"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005213	# Heinrich v. Schönborn
 						mother=100084181	# Margarethe Gerstenberger
 						1940.10.09={birth=yes}
@@ -15419,7 +15445,7 @@
 					100005217={ #// 3j) Maria Lothar Franz Maria Hugo Damian Eduard (b.Prague 9 Jun 1943)
 						name="Maria Lothar"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005213	# Heinrich v. Schönborn
 						mother=100084181	# Margarethe Gerstenberger
 						1943.06.09={birth=yes}
@@ -15427,7 +15453,7 @@
 			100005218={ #// 3h) Maria Friedrich Karl Johann Joseph Eugen Franz von Assisi (Malesitz 4 Oct 1865-Vienna 23 Aug 1919); m.Prague 21 May 1898 Pss Sofie Cantacuzene (Loham, Lower Bavaria 11 Oct 1871-Bad Tölz 7 Dec 1959) $$
 				name="Friedrich Karl"
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005199	# Karl Friedrich v. Schönborn
 				mother=100185177	# Johanna z Lobkowicz
 				1865.10.04={birth=yes}  # Malesitz
@@ -15437,7 +15463,7 @@
 				100005219={ #// 2i) Maria Paul Franz von Paula Perceval Christinus Anton Demetrius Alois Joseph Theodosius (Egern 29 May 1900-Correze 2 Jan 1984)
 					name="Maria Paul"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005218	# Friedrich Karl v. Schönborn
 					mother=100030058	# Sofie Cantacuzino
 					1900.05.29={birth=yes}
@@ -15446,7 +15472,7 @@
 			100005220={ #// 4h) Joseph (Malesitz 15 Nov 1866-Berlin 17 May 1914)
 				name=Joseph
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005199	# Karl Friedrich v. Schönborn
 				mother=100185177	# Johanna z Lobkowicz
 				1866.11.15={birth=yes}
@@ -15455,7 +15481,7 @@
 			100005221={ #// 5h) Maria Franz Dominik Karl (Malesitz 4 Aug 1870-Burg Schleinitz 17 Sep 1942); m.1st Korompa 15 Apr 1896 Gabriele Gfn Chotek v.Chotkowa u.Wognin (Korompa 11 Mar 1868-Korompa 18 Dec 1933); m.2nd Graz 30 Oct 1937 Friederike von Schlözer (Vienna 1 Mar 1908-missing in Yugoslavia 1945)
 				name=Franz
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005199	# Karl Friedrich v. Schönborn
 				mother=100185177	# Johanna z Lobkowicz
 				1870.08.04={birth=yes}
@@ -15467,7 +15493,7 @@
 					name=Marie
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005221	# Franz v. Schönborn
 					mother=100186782	# Gabriela z Chotkova a Vojnína
 					1897.01.02={birth=yes}
@@ -15477,7 +15503,7 @@
 					name=Johanna
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005221	# Franz v. Schönborn
 					mother=100186782	# Gabriela z Chotkova a Vojnína
 					1899.09.15={birth=yes}
@@ -15487,7 +15513,7 @@
 				name=Christine
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005199	# Karl Friedrich v. Schönborn
 				mother=100185177	# Johanna z Lobkowicz
 				1872.06.11={birth=yes}
@@ -15497,7 +15523,7 @@
 				name=Therese
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005199	# Karl Friedrich v. Schönborn
 				mother=100047501	# Zdenka ze Šternberka
 				1878.01.10={birth=yes}
@@ -15506,7 +15532,7 @@
 			100005226={ #// 8h) Zdenko Maria Aloys Karl Wilhelm (Prague 10 Feb 1879-Krumbach 11 Feb 1960); m.Prague 9 May 1905 Marie Gfn von Coudenhove (Seehof 22 Feb 1886-Rheydt 20 Jan 1940)
 				name=Zdenko
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005199	# Karl Friedrich v. Schönborn
 				mother=100047501	# Zdenka ze Šternberka
 				1879.02.10={birth=yes}
@@ -15517,7 +15543,7 @@
 					name="Christine Marie"
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005226	# Zdenko v. Schönborn
 					mother=100091792	# GFN Marie von Coudenhove
 					1906.04.29={birth=yes}
@@ -15527,7 +15553,7 @@
 					name="Henriette Marie"
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005226	# Zdenko v. Schönborn
 					mother=100091792	# GFN Marie von Coudenhove
 					1907.09.09={birth=yes}
@@ -15537,7 +15563,7 @@
 					name=Elly
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005226	# Zdenko v. Schönborn
 					mother=100091792	# GFN Marie von Coudenhove
 					1909.09.05={birth=yes}
@@ -15546,7 +15572,7 @@
 				100005230={ #// 4i) Gerolf Max Karl Zdenko Rudolf Hieronymus Maria (Chlum 30 Sep 1915-Wiesbaden 27 Apr 1991); m.1st München 5 Nov 1942 Blanka Knapp (Biberach an der Riß 24 May 1916-Seon, Switzerland 24 Oct 1943); m.2nd Wiesbaden 22 Aug 1953 Johanna Maria Alberts (Braunschweig 22 Jun 1924-Ehingen 18 Aug 1969); m.3rd Wiesbaden 17 Nov 1972 Ilse Gemündt (b.Lübeck 30 Jan 1922)
 					name="Gerolf Max"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005226	# Zdenko v. Schönborn
 					mother=100091792	# GFN Marie von Coudenhove
 					1915.09.30={birth=yes}
@@ -15558,7 +15584,7 @@
 				100005231={ #// 5i) Zdenko Friedrich Franz Edmund Theophil Cajetan Maria (Prague 22 Apr 1917-Oberstadion 18 Mar 1993); m.1st München 5 Dec 1939 (div 1947) Ingeborg von Bomhard (München 9 May 1918-München 10 Sep 1999); m.2nd Oberstadion 29 Nov 1947 (div 1952) Maria Johanna Hirsch (Regensburg 17 Jul 1922-Kempten 7 Feb 1981); m.3rd München 13 Dec 1954 Katharina Märkl (Würzburg 19 Mar 1911-Oberstadion 7 Feb 1967); m.4th Oberstadion 21 Mar 1968 Margaret Gschwind (b.Therwil, Switzerland 12 Jun 1927)
 					name="Zdenko Friedrich"
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005226	# Zdenko v. Schönborn
 					mother=100091792	# GFN Marie von Coudenhove
 					1917.04.22={birth=yes}
@@ -15573,7 +15599,7 @@
 					100005232={ #// 1j) Alexander Friedrich (b.München 5 Jun 1941); m.1st Schöntal an der Jagst 12 Sep 1966 (div 1996) Mechtild Gfn von Zeppelin-Aschhausen (b.Heidelberg 20 Oct 1937); m.2nd Ziemetshausen 6 Dec 1996 Susanne Fischer (b.Ravensburg 24 Nov 1959)
 						name="Alexander Friedrich"
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005231	# Zdenko Friedrich v. Schönborn
 						mother=100091668	# Ingeborg von Bomhard
 						1941.06.05={birth=yes}
@@ -15584,7 +15610,7 @@
 						100005233={ #// 1k) Johann-Philipp Konstantin Alexander Zdenko Friedrich-Wilhelm Alfred (b.München 14 Sep 1967); m.Erbach bei Ulm 5 Sep 1998 Concordia Frn v.Ulm zu Erbach (b.Ulm 5 May 1969)
 							name=Johann-Philipp
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005232	# Alexander Friedrich v. Schönborn
 							mother=100093540	# GFN Mechtild von Zeppelin-Aschhausen
 							1967.09.14={birth=yes}
@@ -15593,7 +15619,7 @@
 							100005234={ #// 1l) Johann Damien Ludwig Franz Maria (b.1 Aug 2006)
 								name="Johann Damien"
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005233	# Johann-Philipp v. Schönborn
 								mother=100093309	# FRN Concordia von Ulm zu Erbach
 								2006.08.01={birth=yes}
@@ -15602,7 +15628,7 @@
 								name="Amalia Elisabeth"
 								female=yes
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005233	# Johann-Philipp v. Schönborn
 								mother=100093309	# FRN Concordia von Ulm zu Erbach
 								2008.09.04={birth=yes}
@@ -15610,7 +15636,7 @@
 						100005236={ #// 2k) Konstantin Alexander Friedrich-Karl Ludolf Ludwig Burkhart Franz (b.München 7 Nov 1968); m.Roggenburg bei Weissenhorn, Swabia 18 Oct 2003 Alexandra Frn v.Mauchenheim gen. Bechtolsheim (b.München 30 Sep 1966)
 							name="Konstantin Alexander"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005232	# Alexander Friedrich v. Schönborn
 							mother=100093540	# GFN Mechtild von Zeppelin-Aschhausen
 							1968.11.07={birth=yes}
@@ -15620,7 +15646,7 @@
 								name="Sophia Alexandra"
 								female=yes
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005236	# Konstantin Alexander v. Schönborn
 								mother=100092652	# FRN Alexandra von Mauchenheim gt Bechtolsheim
 								2004.11.10={birth=yes}
@@ -15628,7 +15654,7 @@
 							100005238={ #// 2l) Georg Konstantin Maria Antonius Benedikt (b.München 31 Oct 2007)
 								name="Georg Konstantin"
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005236	# Konstantin Alexander v. Schönborn
 								mother=100092652	# FRN Alexandra von Mauchenheim gt Bechtolsheim
 								2007.10.31={birth=yes}
@@ -15636,7 +15662,7 @@
 						100005239={ #// 3k) Wolfgang Georg Eugen Kurt (b.München 5 May 1973); m.Madrid 25 Sep 2010 Amaya Medina y Garcia-Higuera (b.Madrid 1977)
 							name="Wolfgang Georg"
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005232	# Alexander Friedrich v. Schönborn
 							mother=100093540	# GFN Mechtild von Zeppelin-Aschhausen
 							1973.05.05={birth=yes}
@@ -15645,7 +15671,7 @@
 							100005240={ #// 1l) Maximilian Hugo Paul Antonio (b.München 2012)
 								name="Maximilian Hugo"
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005239	# Wolfgang Georg v. Schönborn
 								mother=100087964	# Amaya Medina y Garcia-Higuera
 								2012.01.01={birth=yes}
@@ -15653,7 +15679,7 @@
 							100005241={ #// 2l) Nicolas (b.München 2014)
 								name=Nicolas
 								dynasty=1002043
-								religion=lutheran culture=german
+								religion=catholic culture=german
 								father=100005239	# Wolfgang Georg v. Schönborn
 								mother=100087964	# Amaya Medina y Garcia-Higuera
 								2014.01.01={birth=yes}
@@ -15662,7 +15688,7 @@
 							name=Marie-Christine
 							female=yes
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							trait=legitimized_bastard
 							father=100005232	# Alexander Friedrich v. Schönborn
 							mother=100083881	# Susanne Fischer
@@ -15671,7 +15697,7 @@
 						100005243={ #// 5k) [ex 2] Franz-Georg Albrecht Eugen Alexander Friedrich Maria (b.Augsburg 16 Apr 1995)
 							name=Franz-Georg
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							trait=legitimized_bastard
 							father=100005232	# Alexander Friedrich v. Schönborn
 							mother=100083881	# Susanne Fischer
@@ -15681,7 +15707,7 @@
 							name=Marie-Isabelle
 							female=yes
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005232	# Alexander Friedrich v. Schönborn
 							mother=100083881	# Susanne Fischer
 							1998.03.06={birth=yes}
@@ -15689,7 +15715,7 @@
 						100005245={ #// 7k) Friedrich-Karl Franz-Georg Ferdinand Alexander Maria (b.Augsburg 23 Feb 2000)
 							name=Friedrich-Karl
 							dynasty=1002043
-							religion=lutheran culture=german
+							religion=catholic culture=german
 							father=100005232	# Alexander Friedrich v. Schönborn
 							mother=100083881	# Susanne Fischer
 							2000.02.23={birth=yes}
@@ -15698,7 +15724,7 @@
 						name="Angelika Elisabeth"
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005231	# Zdenko Friedrich v. Schönborn
 						mother=100091668	# Ingeborg von Bomhard
 						1942.08.24={birth=yes}
@@ -15706,7 +15732,7 @@
 			100005247={ #// 9f) Maria Adalbert Erwein Karl Laurenz (Malesitz 16 Aug 1881-Klattau 18 Jan 1946); m.1st Besin 18 Jun 1907 Rosine Gfn Czernin von und zu Chudenitz (Prague 14 Oct 1880-Skotschitz 23 Sep 1926); m.2nd Prague 1 Jun 1941 Selia Frn von Ringhoffer (Horka an der Iser 8 Sep 1911-Prague 19 Oct 1953)
 				name=Adalbert
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005199	# Karl Friedrich v. Schönborn
 				mother=100047501	# Zdenka ze Šternberka
 				1881.08.16={birth=yes}
@@ -15718,7 +15744,7 @@
 					name="Maria Josefine"
 					female=yes
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005247	# Adalbert v. Schönborn
 					mother=100186612	# Rosine Czernin v.u.zu Chudenitz
 					1908.06.01={birth=yes}
@@ -15727,7 +15753,7 @@
 				100005249={ #// 2i) Maria Carl Zdenko Adalbert Markus (Linz 25 Apr 1910-Bad Reichenhall 26 Jul 1991); m.1st Wuppertal-Barmen 25 Apr 1935 (div 1951) Ilse Pfarr (Langerfeld 2 Dec 1908-Thambach 11 Jul 1990); m.2nd Burg an der Wupper 1 Feb 1961 Annelore Dicke (b.Barmen 11 Mar 1923)
 					name=Carl
 					dynasty=1002043
-					religion=lutheran culture=german
+					religion=catholic culture=german
 					father=100005247	# Adalbert v. Schönborn
 					mother=100186612	# Rosine Czernin v.u.zu Chudenitz
 					1910.04.25={birth=yes}
@@ -15740,7 +15766,7 @@
 						name=Edda
 						female=yes
 						dynasty=1002043
-						religion=lutheran culture=german
+						religion=catholic culture=german
 						father=100005249	# Carl v. Schönborn
 						mother=100088983	# Ilse Pfarr
 						1938.02.21={birth=yes}
@@ -15749,7 +15775,7 @@
 		100005251={ #// 2g) Friedrich Erwein Maria Carl Franz Johann Thomas (11 Sep 1841-21 Dec 1907); m.30 Jan 1869 Theresia Gfn Czernin von und zu Chudenitz (19 Dec 1843-26 Apr 1910) $$
 			name="Friedrich Erwein"
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005198	# Erwein v. Schönborn
 			mother=100036518	# Christine von Brühl
 			1841.09.11={birth=yes}
@@ -15760,7 +15786,7 @@
 			name=Anna
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005198	# Erwein v. Schönborn
 			mother=100036518	# Christine von Brühl
 			1845.06.20={birth=yes}
@@ -15770,7 +15796,7 @@
 			name="Maria Elisabeth"
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005198	# Erwein v. Schönborn
 			mother=100036518	# Christine von Brühl
 			1848.09.04={birth=yes}
@@ -15780,7 +15806,7 @@
 			name="Maria Wilhelmine"
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005198	# Erwein v. Schönborn
 			mother=100036518	# Christine von Brühl
 			1851.06.25={birth=yes}
@@ -15789,7 +15815,7 @@
 		100005256={ #// 9g) Adalbert Joseph Maria Franz August (Dlazkowicz 2 Jul 1854-Haid 11 Oct 1924); m.Haid 10 Sep 1889 Adelheid Pss zu Löwenstein-Wertheim-Rosenberg (Kleinheubach 17 Jul 1865-Prague 6 Sep 1941) $$
 			name="Adalbert Joseph"
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005198	# Erwein v. Schönborn
 			mother=100036518	# Christine von Brühl
 			1854.07.02={birth=yes}
@@ -15800,7 +15826,7 @@
 				name=Agnes
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005256	# Adalbert Joseph v. Schönborn
 				mother=100002734	# Adelheid v. Löwenstein-Wertheim-Rosenberg
 				1893.11.16={birth=yes}
@@ -15810,7 +15836,7 @@
 				name="Maria Benedikta"
 				female=yes
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				father=100005256	# Adalbert Joseph v. Schönborn
 				mother=100002734	# Adelheid v. Löwenstein-Wertheim-Rosenberg
 				1896.10.29={birth=yes}
@@ -15819,7 +15845,7 @@
 			100005259={ #// 5h) Maria Erwein Karl Hroznata Bernhard Maurus (Prague 15 Jan 1899-Frauenburg 20 Nov 1984)
 				name=Erwein
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				trait=twin
 				father=100005256	# Adalbert Joseph v. Schönborn
 				mother=100002734	# Adelheid v. Löwenstein-Wertheim-Rosenberg
@@ -15829,7 +15855,7 @@
 			100005260={ #// 6h) Maria Franz de Paula Wenzel Salvator Antonius von Padua Paulus Erem. (Prague 15 Jan 1899-Prague 15 Jul 1964)
 				name=Franz
 				dynasty=1002043
-				religion=lutheran culture=german
+				religion=catholic culture=german
 				trait=twin
 				father=100005256	# Adalbert Joseph v. Schönborn
 				mother=100002734	# Adelheid v. Löwenstein-Wertheim-Rosenberg
@@ -15840,7 +15866,7 @@
 			name=Pauline
 			female=yes
 			dynasty=1002043
-			religion=lutheran culture=german
+			religion=catholic culture=german
 			father=100005198	# Erwein v. Schönborn
 			mother=100036518	# Christine von Brühl
 			1861.01.22={birth=yes}
@@ -16956,7 +16982,7 @@
 			1794.10.03={birth=yes}
 			1815.03.07={death=yes}
 		}
-	100000187={ #// A2. Leopoldine (31 Jul 1751-26 Aug 1812); m.30 Aug 1781 Joseph v. Windisch-Graetz (6 Dec 1744-24 Jan 1802) %%
+	100000187={ #// A3. Pss Maria Franziska Caroline LEOPOLDINE Josepha, *Brussels 30/31.7.1751, +Praha 26.8.1812, bur kaple sv.Václava, Tachov, Bohemia; m.Brussels 30.8.1781 Gf Josef Nikolaus von Windisch-Graetz (*6.12.1744, +24.1.1802)
 		name=Leopoldine
 		female=yes
 		dynasty=1002040
@@ -16965,7 +16991,7 @@
 		1751.07.31={birth=yes}
 		1812.08.26={death=yes}
 	}
-	100194469={ #// A3. Flore (25 Jun 1752-15 Apr 1832); m.18 Apr 1771 Wolfgang Léonard d’Ursel (29 Apr 1750-17 May 1804) %%
+	100194469={ #// A4. Pss Marie Flore, *Brussels 25.6.1752, +Brussels 15.4.1832; m.Heverle 18.4.1771 Duke Wolfgang von Ursel (*28.4.1750 +17.5.1804)
 		name=Flore
 		female=yes
 		dynasty=1002040
@@ -16974,7 +17000,7 @@
 		1752.06.25={birth=yes}
 		1832.04.15={death=yes}
 	}
-	100200187={ #// A4. Auguste Marie (1753-1833) %%
+	100200187={ #// A5. Pr Auguste, Cte de la Marck, *30.8.1753, +26.9.1833; m.23.11.1774 Marie Le Danois, Marquise de Cernay, Bsse de Bousies (*3.9.1757, +12.9.1810)
 		name="Auguste Marie"
 		dynasty=1002040
 		religion=catholic culture=french
@@ -16992,7 +17018,7 @@
 			1842.09.26={add_spouse=100021587}	# Sophie Caroline v. Auersperg
 			1857.11.20={death=yes}	# Wiesbaden
 		}
-			100194359={ #// C1. Éléonore (19 Feb 1845-28 Nov 1919); m.27 May 1868 Engelbert v. Arenberg (11 May 1824-28 Mar 1875) %%
+			100194359={ #// C2. [2m.] Pss Eleonore Ursula, *Wien 19.2.1845, +Montreux 28.11.1919; m.Wien 27.5.1868 Duke Engelbert August von Arenberg (*11.5.1824 +28.3.1875)
 				name=Éléonore
 				female=yes
 				dynasty=1002040
@@ -17002,7 +17028,7 @@
 				1845.02.19={birth=yes}
 				1919.11.28={death=yes}
 			}
-	100194412={ #// A5. Louis (1757-1795); m.4 Feb 1792 Jelisaveta Shakhovsky (Moscow 29 Nov 1773-25 Oct 1796) %%
+	100194412={ #// A7. Pr Louis Marie, *Brussels 19.2.1757, +Rome 30.3.1795; 1m: Paris 26.6.1788 Css Anne de Mailly-Nesle, Dame d'Ivry-sur-Seine (*1766, +Paris 24.12.1789); 2m: Paris 13.2.1792 Pss Elisaveta Borisovna Shakhovskaya (*29.11.1773 +27.10.1796)
 		name=Louis
 		dynasty=1002040
 		religion=catholic culture=french
@@ -17012,7 +17038,7 @@
 		1795.01.01={remove_spouse=100018676}
 		1795.01.01={death=yes}
 	}
-		100194413={ #// B1. Amélie (Paris 10 Apr 1789-Bamberg 4 Apr 1823); m.26 May 1807 Pius August v. Wittelsbach (Landshut 1 Aug 1786-Bayreuth 3 Aug 1837) %%
+		100194413={ #// B1. [1m.] Pss Amalie, *Paris/Brussels 10.4.1789, +Schloss Banz, Bamberg 4.4.1823, bur Kloster Bamberg; m.Brussels 26.5.1807 Duke Pius in Bavaria (*1.8.1786 +3.8.1837)
 			name=Amélie
 			female=yes
 			dynasty=1002040
@@ -17021,6 +17047,15 @@
 			1789.04.10={birth=yes}  # Paris
 			1823.04.04={death=yes}  # Bamberg
 		}
+	100194069={ #// A8. Pss Marie Louise, *Brussels 29.1.1764, +Wien 1.3.1835; m.Héverlé 24.9.1781 Fst Ludwig Joseph Maximilian von Starhemberg (*Paris 12.3.1762, +Dürnstein 2.9.1833)
+		name="Marie Louise"
+		female=yes
+		dynasty=1002040
+		religion=catholic culture=french
+		father=100000203	# Charles v. Arenberg
+		1764.01.29={birth=yes}
+		1835.03.01={death=yes}
+	}	
 #1780.08.03={holder=100000200} # LOUIS ENGELBERT Marie Joseph Augustin
 #1820.03.07={holder=100000205} # 3a) PROSPER LOUIS
 #1861.02.27={holder=100000211} # 3b) ENGELBERT Auguste Antoine Joseph Léon Wenceslaus Balthazar Épiphanie Léonard Maxime Ghislain
