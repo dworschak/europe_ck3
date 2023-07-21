@@ -359,7 +359,7 @@
 					father=100047982	# Petr Wratislav z Mitrowicz
 					mother=100103911	# Anežka Eliška Bechinie z Lažan
 					1639.01.01={birth=yes}  # EST.
-					1714.01.01={death=yes}  # EST.
+					1703.01.01={death=yes}
 				}
 				100047985={ #// D7. Anna Ludmilla, +1701; m.Jan Jiří Radetzky z Radetze (*1609, +3.12.1691)
 					name="Anna Ludmilla"
@@ -18219,3 +18219,459 @@
 						}
 #lobkow2
 ##### Lobkowicz|1004001|100085000-100085499
+
+
+## RADETZKY
+radetzky_0001={ #// 1 Adam Jindřich RADETZKY Z RADETZE, ; m.Alžbìta Salomena Zapská ze Zap
+	name="Adam Jindřich"
+	dynasty=1013016
+	religion=catholic culture=czech
+	1462.01.01={birth=yes}  # EST.
+	1502.01.01={add_spouse=lowborn_1430}	# Alžbìta Salomena Zapská ze Zap
+	1522.01.01={death=yes}  # EST.
+}
+	radetzky_0003={ #// 3 Jan RADETZKY Z RADETZE, +1589; m.Kateřina Zilvárová z Pilníkova
+		name=Jan
+		dynasty=1013016
+		religion=catholic culture=czech
+		father=radetzky_0001	# Adam Jindřich RADETZKY Z RADETZE
+		mother=lowborn_1430	# Alžbìta Salomena Zapská ze Zap
+		1517.01.01={birth=yes}  # EST.
+		1549.01.01={add_spouse=lowborn_1813}	# Kateřina Zilvárová z Pilníkova
+		1589.01.01={death=yes}
+	}
+		radetzky_0005={ #// 5 Kryštof RADETZKY Z RADETZE, +1633; m.1st Kateřina Betenglová z Neuenburka (+1.1.1600); m.2nd Johanna Anna z Tìmic; m.3rd 4.10.1616 Kateřina Beřkovská ze Šebířova (+1.1.1640)
+			name=Kryštof
+			dynasty=1013016
+			religion=catholic culture=czech
+			father=radetzky_0003	# Jan RADETZKY Z RADETZE
+			mother=lowborn_1813	# Kateřina Zilvárová z Pilníkova
+			1566.01.01={birth=yes}  # EST.
+			1592.01.01={add_spouse=lowborn_1817}	# Kateřina Betenglová z Neuenburka
+			1597.01.01={add_spouse=lowborn_1822}	# Johanna Anna z Tìmic
+			1616.10.04={add_spouse=lowborn_1823}	# Kateřina Beřkovská ze Šebířova
+			1633.01.01={death=yes}
+		}
+			radetzky_0009={ #// 10 Jan Jiří RADETZKY Z RADETZE, *1609, +1691; m.1st Katharina Barbara von Straden; m.2nd Albertine Eusebia von Briaumont (+1.1.1678); m.3rd Anna Ludmilla Wratislavová z Mitrowicz (+1.1.1701)
+				name="Jan Jiří"
+				dynasty=1013016
+				religion=catholic culture=czech
+				father=radetzky_0005	# Kryštof RADETZKY Z RADETZE
+				mother=lowborn_1823	# Kateřina Beřkovská ze Šebířova
+				1609.01.01={birth=yes}
+				1650.01.01={add_spouse=lowborn_1858}	# Katharina Barbara von Straden
+				1670.01.01={add_spouse=lowborn_1859}	# Albertine Eusebia von Briaumont
+				1679.01.01={add_spouse=100047985}	# Anna Ludmilla Wratislavová z Mitrowicz
+				1691.12.03={death=yes}
+			}
+				radetzky_0013={ #// 18 Anna Polyxena RADETZKÁ Z RADETZE, *1654, +1702; m.1st Noname zum Sande von Sandberg; m.2nd Bernard Ferdinand Šmerovský z Lidkovic (+1.1.1708)
+					name="Anna Polyxena"
+					female=yes
+					dynasty=1013016
+					religion=catholic culture=czech
+					father=radetzky_0009	# Jan Jiří RADETZKY Z RADETZE
+					mother=lowborn_1858	# Katharina Barbara von Straden
+					1654.06.12={birth=yes}
+					1702.09.07={death=yes}
+				}
+				radetzky_0012={ #// 15 Maria Majdalena RADETZKÁ Z RADETZE, *1648.09.04; m.Adam Bedřich Údrcký z Údrče (+Modletín. 8.4.1706)
+					name="Maria Majdalena"
+					female=yes
+					dynasty=1013016
+					religion=catholic culture=czech
+					father=radetzky_0009	# Jan Jiří RADETZKY Z RADETZE
+					mother=lowborn_1858	# Katharina Barbara von Straden
+					1648.09.04={birth=yes}
+					1723.01.01={death=yes}  # EST.
+				}
+				radetzky_0014={ #// 21 Kryštof Ferdinand RADETZKY Z RADETZE, *1660, +Sedlec 1724; m.1st 1.1.1685 Maria Griseldis Anna Wratislavová z Mitrowicz (+vor 1704); m.2nd 1.1.1704 Františka Theodora Dobrzenská z Dobrzenicz (*1.1.1672)
+					name="Kryštof Ferdinand"
+					dynasty=1013016
+					religion=catholic culture=czech
+					father=radetzky_0009	# Jan Jiří RADETZKY Z RADETZE
+					mother=lowborn_1858	# Katharina Barbara von Straden
+					1660.01.17={birth=yes}
+					1685.01.01={add_spouse=100047984}	# Maria Griseldis Anna Wratislavová z Mitrowicz
+					1704.01.01={add_spouse=lowborn_1899}	# Františka Theodora Dobrzenská z Dobrzenicz
+					1724.01.25={death=yes}  # Sedlec
+				}
+					radetzky_0018={ #// 30 Jan Josef RADETZKY Z RADETZE, *1687.12.18; m.1.1.1738 Margareta Anna z Malovic
+						name="Jan Josef"
+						dynasty=1013016
+						religion=catholic culture=czech
+						father=radetzky_0014	# Kryštof Ferdinand RADETZKY Z RADETZE
+						mother=100047984	# Maria Griseldis Anna Wratislavová z Mitrowicz
+						1687.12.18={birth=yes}
+						1738.01.01={add_spouse=lowborn_1904}	# Margareta Anna z Malovic
+						1757.01.01={death=yes}  # EST.
+					}
+					radetzky_0019={ #// 31 Barbara Anežka RADETZKÁ Z RADETZE, *1692; m.1.1.1717 Jan Kryštof Antonín Malovec z Malovic A Kosoře (+1.1.1724)
+						name="Barbara Anežka"
+						female=yes
+						dynasty=1013016
+						religion=catholic culture=czech
+						father=radetzky_0014	# Kryštof Ferdinand RADETZKY Z RADETZE
+						mother=100047984	# Maria Griseldis Anna Wratislavová z Mitrowicz
+						1692.01.30={birth=yes}
+						1767.01.01={death=yes}  # EST.
+					}
+					radetzky_0020={ #// 32 František Ferdinand RADETZKY Z RADETZE, *1705, +1750; m.Josepha Klodiána Chlumčanská z Přestavlk
+						name="František Ferdinand"
+						dynasty=1013016
+						religion=catholic culture=czech
+						father=radetzky_0014	# Kryštof Ferdinand RADETZKY Z RADETZE
+						mother=lowborn_1899
+						1705.10.11={birth=yes}
+						1732.01.01={add_spouse=lowborn_1906}	# Josepha Klodiána Chlumčanská z Přestavlk
+						1750.01.01={death=yes}
+					}
+						radetzky_0025={ #// 41 Johanna RADETZKÁ Z RADETZE, +1762; m.1.1.1756 Leopold Ferdinand Stařimský z Libštejna (*1.1.1710, +1.1.1776)
+							name=Johanna
+							female=yes
+							dynasty=1013016
+							religion=catholic culture=czech
+							father=radetzky_0020	# František Ferdinand RADETZKY Z RADETZE
+							mother=lowborn_1906	# Josepha Klodiána Chlumčanská z Přestavlk
+							1733.01.01={birth=yes}  # EST.
+							1762.01.01={death=yes}
+						}
+						radetzky_0026={ #// 42 Maria Anna Barbara RADETZKÁ Z RADETZE, +1763; m.1.1.1759 Petr Eusebius Radetzky z Radetze (*1.1.1732, +29.5.1766)
+							name="Maria Anna Barbara"
+							female=yes
+							dynasty=1013016
+							religion=catholic culture=czech
+							father=radetzky_0020	# František Ferdinand RADETZKY Z RADETZE
+							mother=lowborn_1906	# Josepha Klodiána Chlumčanská z Přestavlk
+							1737.01.01={birth=yes}  # EST.
+							1763.12.16={death=yes}
+						}
+						radetzky_0024={ #// 40 Viktoria RADETZKÁ Z RADETZE, ; m.Josef Václav Jenšík z Ježova
+							name=Viktoria
+							female=yes
+							dynasty=1013016
+							religion=catholic culture=czech
+							father=radetzky_0020	# František Ferdinand RADETZKY Z RADETZE
+							mother=lowborn_1906	# Josepha Klodiána Chlumčanská z Přestavlk
+							1745.01.01={birth=yes}  # EST.
+							1805.01.01={death=yes}  # EST.
+						}
+					radetzky_0021={ #// 33 Maria Josefa RADETZKÁ Z RADETZE, *1706.10.12; m.1.1.1729 František Antonín Příchovský z Příchovic
+						name="Maria Josefa"
+						female=yes
+						dynasty=1013016
+						religion=catholic culture=czech
+						father=radetzky_0014	# Kryštof Ferdinand RADETZKY Z RADETZE
+						mother=lowborn_1899
+						1706.10.12={birth=yes}
+						1781.01.01={death=yes}  # EST.
+					}
+				radetzky_0015={ #// 27 Petr Eusebius Viktorin RADETZKY Z RADETZE, *1678, +1743; m.1st Maria Johanna Polixena von Heussenstain (+1.1.1714); m.2nd 1.1.1715 Veronika Globicová z Budčína
+					name="Petr Eusebius Viktorin"
+					dynasty=1013016
+					religion=catholic culture=czech
+					father=radetzky_0009	# Jan Jiří RADETZKY Z RADETZE
+					mother=lowborn_1859	# Albertine Eusebia von Briaumont
+					1678.02.17={birth=yes}
+					1704.01.01={add_spouse=lowborn_1900}	# Maria Johanna Polixena von Heussenstain
+					1715.01.01={add_spouse=lowborn_1901}	# Veronika Globicová z Budčína
+					1743.01.01={death=yes}
+				}
+					radetzky_0055={ #// 35 František Josef Matyáš Václav RADETZKY Z RADETZE, *Praha 1701.02.02
+						name="František Josef Matyáš Václav"
+						dynasty=1013016
+						religion=catholic culture=czech
+						father=radetzky_0015	# Petr Eusebius Viktorin RADETZKY Z RADETZE
+						mother=lowborn_1900	# Maria Johanna Polixena von Heussenstain
+						1701.02.02={birth=yes}  # Praha
+						1771.01.01={death=yes}  # EST.
+					}
+					radetzky_0022={ #// 36 Františka Josefa Lidmila RADETZKY Z RADETZE, *1702, +1728; m.11.4.1723 Jan Jiří Bechinie z Lažan (+1.1.1730)
+						name="Františka Josefa Lidmila"
+						female=yes
+						dynasty=1013016
+						religion=catholic culture=czech
+						father=radetzky_0015	# Petr Eusebius Viktorin RADETZKY Z RADETZE
+						mother=lowborn_1900	# Maria Johanna Polixena von Heussenstain
+						1702.02.02={birth=yes}
+						1728.01.01={death=yes}
+					}
+					radetzky_0056={ #// 37 Jaroslav Josef Pavel RADETZKY Z RADETZE, *1703, +1703
+						name="Jaroslav Josef Pavel"
+						dynasty=1013016
+						religion=catholic culture=czech
+						father=radetzky_0015	# Petr Eusebius Viktorin RADETZKY Z RADETZE
+						mother=lowborn_1900	# Maria Johanna Polixena von Heussenstain
+						1703.01.01={birth=yes}
+						1703.01.01={death=yes}
+					}
+					radetzky_0023={ #// 38 Václav Leopold Jan RADETZKY Z RADETZE, *Praha,  in Praha 1704, +1781; m.Stará Boleslav 27.8.1731 Anna Veronika Bzenská z Prorubì (*1.1.1711, +1.1.1799)
+						name="Václav Leopold Jan"
+						dynasty=1013016
+						religion=catholic culture=czech
+						father=radetzky_0015	# Petr Eusebius Viktorin RADETZKY Z RADETZE
+						mother=lowborn_1900	# Maria Johanna Polixena von Heussenstain
+						1704.09.09={birth=yes}  # Praha,  in Praha
+						1731.08.27={add_spouse=lowborn_1909}	# Anna Veronika Bzenská z Prorubì
+						1781.01.01={death=yes}
+					}
+						radetzky_0027={ #// 44 Antonie RADETZKÁ Z RADETZE, ; m.Noname von Drogendorf
+							name=Antonie
+							female=yes
+							dynasty=1013016
+							religion=catholic culture=czech
+							father=radetzky_0023	# Václav Leopold Jan RADETZKY Z RADETZE
+							mother=lowborn_1909	# Anna Veronika Bzenská z Prorubì
+							1732.01.01={birth=yes}  # EST.
+							1792.01.01={death=yes}  # EST.
+						}
+						radetzky_0031={ #// 48 Josefína RADETZKÁ Z RADETZE, *Praha 1746, +1772; m.Jan Josef Diviš Kotz z Dobrze (*Mitrovice 20.2.1741, +Praha 16.2.1807)
+							name=Josefína
+							female=yes
+							dynasty=1013016
+							religion=catholic culture=czech
+							father=radetzky_0023	# Václav Leopold Jan RADETZKY Z RADETZE
+							mother=lowborn_1909	# Anna Veronika Bzenská z Prorubì
+							1746.04.09={birth=yes}  # Praha
+							1772.01.01={death=yes}
+						}
+						radetzky_0028={ #// 45 Marie Anna RADETZKÁ Z RADETZE, +1765; m.Jan Josef  in sv Chanovský z Dlouhé Vsi (*1.1.1716, +8.3.1793)
+							name="Marie Anna"
+							female=yes
+							dynasty=1013016
+							religion=catholic culture=czech
+							father=radetzky_0023	# Václav Leopold Jan RADETZKY Z RADETZE
+							mother=lowborn_1909	# Anna Veronika Bzenská z Prorubì
+							1745.01.01={birth=yes}  # EST.
+							1765.01.01={death=yes}
+						}
+						radetzky_0029={ #// 46 Petr Eusebius RADETZKY Z RADETZE, *1732, +1766; m.1st 1.1.1759 Maria Anna Barbara Radetzká z Radetze (+16.12.1763); m.2nd 7.5.1765 Marie Venantia Anna Barbora Josefa Eulalie Bechinie z Lažan (*LedeČ nad Sázavou 10.12.1738, +27.3.1772)
+							name="Petr Eusebius"
+							dynasty=1013016
+							religion=catholic culture=czech
+							father=radetzky_0023	# Václav Leopold Jan RADETZKY Z RADETZE
+							mother=lowborn_1909	# Anna Veronika Bzenská z Prorubì
+							1732.01.01={birth=yes}
+							1759.01.01={add_spouse=radetzky_0026}	# Maria Anna Barbara Radetzká z Radetze
+							1765.05.07={add_spouse=lowborn_1916}	# Marie Venantia Anna Barbora Josefa Eulalie Bechinie z Lažan
+							1766.05.29={death=yes}
+						}
+							radetzky_0059={ #// 49 Františka Anna Josefa RADETZKÁ Z RADETZE, *1762, +Praha 1824.09.06
+								name="Františka Anna Josefa"
+								female=yes
+								dynasty=1013016
+								religion=catholic culture=czech
+								father=radetzky_0029	# Petr Eusebius RADETZKY Z RADETZE
+								mother=radetzky_0026	# Maria Anna Barbara Radetzká z Radetze
+								1762.01.01={birth=yes}
+								1824.09.06={death=yes}  # Praha
+							}
+							radetzky_0032={ #// 50 Jan Josef Václav Eusebius Antonín František Karel RADETZKY Z RADETZE, *Třebnice 1766.11.02, +Milán 1858; m.Franziska Romana Strassoldo-Gräfenberg (*3.1.1781, +12.1.1854)
+								name="Jan Josef Václav Eusebius Antonín František Karel"
+								dynasty=1013016
+								religion=catholic culture=czech
+								father=radetzky_0029	# Petr Eusebius RADETZKY Z RADETZE
+								mother=lowborn_1916	# Marie Venantia Anna Barbora Josefa Eulalie Bechinie z Lažan
+								1766.11.02={birth=yes}  # Třebnice
+								1802.01.01={add_spouse=lowborn_1919}	# Franziska Romana Strassoldo-Gräfenberg
+								1858.01.05={death=yes}  # Milán
+							}
+								radetzky_0061={ #// 53 Josef RADETZKY Z RADETZE, *1799, +1837
+									name=Josef
+									dynasty=1013016
+									religion=catholic culture=czech
+									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel RADETZKY Z RADETZE
+									mother=lowborn_1919	# Franziska Romana Strassoldo-Gräfenberg
+									1799.03.17={birth=yes}
+									1837.01.01={death=yes}
+								}
+								radetzky_0063={ #// 56 Karel Leopold RADETZKY Z RADETZE, *1804, +1847
+									name="Karel Leopold"
+									dynasty=1013016
+									religion=catholic culture=czech
+									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel RADETZKY Z RADETZE
+									mother=lowborn_1919	# Franziska Romana Strassoldo-Gräfenberg
+									1804.09.28={birth=yes}
+									1847.11.10={death=yes}
+								}
+								radetzky_0035={ #// 57 Franziska Romana RADETZKÁ Z RADETZE, *1806, +1825; m.1.1.1823 Joseph Berchtold z Uherčic (*1.1.1799, +Hegy 5.2.1840)
+									name="Franziska Romana"
+									female=yes
+									dynasty=1013016
+									religion=catholic culture=czech
+									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel RADETZKY Z RADETZE
+									mother=lowborn_1919	# Franziska Romana Strassoldo-Gräfenberg
+									1806.04.15={birth=yes}
+									1825.02.15={death=yes}
+								}
+								radetzky_0036={ #// 58 Theodor Konstantin RADETZKY Z RADETZE, *1813, +1878; m.Padua 20.2.1855 Josephine Schafarzik (*1.1.1820)
+									name="Theodor Konstantin"
+									dynasty=1013016
+									religion=catholic culture=czech
+									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel RADETZKY Z RADETZE
+									mother=lowborn_1919	# Franziska Romana Strassoldo-Gräfenberg
+									1813.08.20={birth=yes}
+									1855.02.20={add_spouse=lowborn_1923}	# Josephine Schafarzik
+									1878.01.01={death=yes}
+								}
+									radetzky_0038={ #// 61 Theodor Josef Antonín RADETZKY Z RADETZE, *Padova 1851.07.18, +Zell am See 1890.08.19; m.Wien 27.10.1883 Gabriele von Liebieg (*Reichenberg 21.2.1863, +Göding 1.3.1888)
+										name="Theodor Josef Antonín"
+										dynasty=1013016
+										religion=catholic culture=czech
+										father=radetzky_0036	# Theodor Konstantin RADETZKY Z RADETZE
+										mother=lowborn_1923	# Josephine Schafarzik
+										1851.07.18={birth=yes}  # Padova
+										1883.10.27={add_spouse=lowborn_1925}	# Gabriele von Liebieg
+										1890.08.19={death=yes}  # Zell am See
+									}
+										radetzky_0039={ #// 63 Josef František Jan Theodor Václav Maria RADETZKY Z RADETZE, *Graz 1884.08.18, +Wien 1966.05.30; m.1st Wien 24.4.1909 (div 1916) Maria Theresia Anna von Wrbna-Kaunitz-Rietberg-Questenberg und Freudenthal (*Holešov 18.1.1888, +1.1.1952); m.2nd Blanche Miticzky de Nemes-Miticz Et Czötörtök (*Wien 25.11.1903)
+											name="Josef František"
+											dynasty=1013016
+											religion=catholic culture=czech
+											father=radetzky_0038	# Theodor Josef Antonín RADETZKY Z RADETZE
+											mother=lowborn_1925	# Gabriele von Liebieg
+											1884.08.18={birth=yes}  # Graz
+											1909.04.24={add_spouse=100047585}	# Maria Theresia Anna von Wrbna-Kaunitz-Rietberg-Questenberg und Freudenthal
+											1916.01.01={remove_spouse=100047585}
+											1931.01.01={add_spouse=lowborn_1927}	# Blanche Miticzky de Nemes-Miticz Et Czötörtök
+											1966.05.30={death=yes}  # Wien
+										}
+											radetzky_0041={ #// 66 Josef Jan Václav Maria RADETZKY Z RADETZE, *Baden bei Wien 28.1.1910; m.Wien 27.3.1933 (div 1943) Žofie ze Šternberka (*Wien 26.12.1907, +Gmunden after 1943)
+												name="Josef Jan"
+												dynasty=1013016
+												religion=catholic culture=czech
+												father=radetzky_0039	# Josef František Jan Theodor Václav Maria RADETZKY Z RADETZE
+												mother=100047585	# Maria Theresia Anna von Wrbna-Kaunitz-Rietberg-Questenberg und Freudenthal
+												1910.01.28={birth=yes}  # Baden bei Wien
+												1933.03.27={add_spouse=100047496}	# Žofie ze Šternberka
+												# 1943.01.01={remove_spouse=100047496}
+												1980.01.01={death=yes}  # EST.
+											}
+											radetzky_0067={ #// 67 Jiří Štìpán Josef Václav Maria RADETZKY Z RADETZE, *Wien 1942.09.23
+												name="Jiří Štìpán Josef Václav Maria"
+												dynasty=1013016
+												religion=catholic culture=czech
+												father=radetzky_0039	# Josef František Jan Theodor Václav Maria RADETZKY Z RADETZE
+												mother=lowborn_1927	# Blanche Miticzky de Nemes-Miticz Et Czötörtök
+												1942.09.23={birth=yes}  # Wien
+												2012.01.01={death=yes}  # EST.
+											}
+										radetzky_0066={ #// 64 Theodor František Leopold Václav Maria RADETZKY Z RADETZE, *Graz 1885.12.14
+											name="Theodor František Leopold Václav Maria"
+											dynasty=1013016
+											religion=catholic culture=czech
+											father=radetzky_0038	# Theodor Josef Antonín RADETZKY Z RADETZE
+											mother=lowborn_1925	# Gabriele von Liebieg
+											1885.12.14={birth=yes}  # Graz
+											1955.01.01={death=yes}  # EST.
+										}
+										radetzky_0040={ #// 65 Egon Alfred Jan Theodor Václav Maria RADETZKY Z RADETZE, *Graz 1887.04.30, +Wien 1927.12.04; m.Maria Jakobine Johanna Oberwalder (*Domzale,Laibach 7.9.1887)
+											name="Egon Alfred Jan Theodor Václav Maria"
+											dynasty=1013016
+											religion=catholic culture=czech
+											father=radetzky_0038	# Theodor Josef Antonín RADETZKY Z RADETZE
+											mother=lowborn_1925	# Gabriele von Liebieg
+											1887.04.30={birth=yes}  # Graz
+											1913.01.01={add_spouse=lowborn_1928}	# Maria Jakobine Johanna Oberwalder
+											1927.12.04={death=yes}  # Wien
+										}
+									radetzky_0065={ #// 62 Josefína Pavlína Theodora Bedřiška RADETZKÁ Z RADETZE, *1855.04.11
+										name="Josefína Pavlína Theodora Bedřiška"
+										female=yes
+										dynasty=1013016
+										religion=catholic culture=czech
+										father=radetzky_0036	# Theodor Konstantin RADETZKY Z RADETZE
+										mother=lowborn_1923	# Josephine Schafarzik
+										1855.04.11={birth=yes}
+										1930.01.01={death=yes}  # EST.
+									}
+								radetzky_0037={ #// 59 Bedřiška Alexandra RADETZKÁ Z RADETZE, *Wien 1815.12.18, +Graz 1866; m.Milano 14.1.1838 Karl von Wenckheim (*Buda 24.2.1811, +Gerla 17.6.1891)
+									name=Friederika
+									female=yes
+									dynasty=1013016
+									religion=catholic culture=czech
+									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel RADETZKY Z RADETZE
+									mother=lowborn_1919	# Franziska Romana Strassoldo-Gräfenberg
+									1815.12.18={birth=yes}  # Wien
+									1866.01.01={death=yes}  # Graz
+								}
+								radetzky_0064={ #// 60 Antonín RADETZKY Z RADETZE, *1817, +1847
+									name=Antonín
+									dynasty=1013016
+									religion=catholic culture=czech
+									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel RADETZKY Z RADETZE
+									mother=lowborn_1919	# Franziska Romana Strassoldo-Gräfenberg
+									1817.02.08={birth=yes}
+									1847.10.06={death=yes}
+								}
+						radetzky_0030={ #// 47 Václav Ignác RADETZKY Z RADETZE, *1738, +1805; m.Maria Josepha de Saint Julien
+							name="Václav Ignác"
+							dynasty=1013016
+							religion=catholic culture=czech
+							father=radetzky_0023	# Václav Leopold Jan RADETZKY Z RADETZE
+							mother=lowborn_1909	# Anna Veronika Bzenská z Prorubì
+							1738.01.01={birth=yes}
+							1764.01.01={add_spouse=lowborn_1917}	# Maria Josepha de Saint Julien
+							1805.01.20={death=yes}
+						}
+							radetzky_0033={ #// 52 Františka RADETZKÁ Z RADETZE, ; m.Johann Karl Henniger von Eberg
+								name=Františka
+								female=yes
+								dynasty=1013016
+								religion=catholic culture=czech
+								father=radetzky_0030	# Václav Ignác RADETZKY Z RADETZE
+								mother=lowborn_1917	# Maria Josepha de Saint Julien
+								1764.01.01={birth=yes}  # EST.
+								1824.01.01={death=yes}  # EST.
+							}
+			radetzky_0008={ #// 9 Kateřina RADETZKÁ Z RADETZE, +1675; m.1st Jaroslav Beřkovský ze Šebířova (+1.1.1648); m.2nd Jan Ladislav Sluzský z Chlumu (+1.1.1669); m.3rd Kaspar von Winkelshofen; m.4th Nono Cetenský z Cetnì
+				name=Kateřina
+				female=yes
+				dynasty=1013016
+				religion=catholic culture=czech
+				father=radetzky_0005	# Kryštof RADETZKY Z RADETZE
+				mother=lowborn_1823	# Kateřina Beřkovská ze Šebířova
+				1611.01.01={birth=yes}  # EST.
+				1675.01.01={death=yes}
+			}
+				radetzky_0011={ #// 12 Anna Magdalena SLUZSKÁ Z CHLUMU, +1693; m.1.1.1666 Jan František Dobrzenský z Dobrzenicz (*1.1.1619, +1.1.1693)
+					name="Anna Magdalena"
+					female=yes
+					dynasty=1013016
+					religion=catholic culture=czech
+					father=lowborn_1852
+					mother=radetzky_0008	# Kateřina RADETZKÁ Z RADETZE
+					1635.01.01={birth=yes}  # EST.
+					1693.01.01={death=yes}
+				}
+					lowborn_1899={ #// 29 Františka Theodora DOBRZENSKÁ Z DOBRZENICZ, *1672; m.1.1.1704 Kryštof Ferdinand Radetzky z Radetze (*17.1.1660, +Sedlec 25.1.1724)
+						name="Františka Theodora"
+						female=yes
+						dynasty=1013007
+						religion=catholic culture=czech
+						father=lowborn_1875	# Jan František Dobrzenský z Dobrzenicz
+						mother=radetzky_0011
+						1672.01.01={birth=yes}
+						1747.01.01={death=yes}  # EST.
+					}
+			radetzky_0010={ #// 11 Přemysl Václav Ferdinand Vratislav RADETZKY Z RADETZE, *1621, +Zdiby 1676.06.13; m.1st Magdalena Polyxena Hlaváčová z Vojenic; m.2nd Uršula Údrcká z Údrče
+				name="Přemysl Václav Ferdinand Vratislav"
+				dynasty=1013016
+				religion=catholic culture=czech
+				father=radetzky_0005	# Kryštof RADETZKY Z RADETZE
+				mother=lowborn_1823	# Kateřina Beřkovská ze Šebířova
+				1621.01.01={birth=yes}
+				1647.01.01={add_spouse=lowborn_1862}	# Magdalena Polyxena Hlaváčová z Vojenic
+				1652.01.01={add_spouse=lowborn_1865}	# Uršula Údrcká z Údrče
+				1676.06.13={death=yes}  # Zdiby
+			}
+				radetzky_0016={ #// 28 Kateřina RADETZKA Z RADETZE, +1683; m.Jáchym Jan Ignác Malovec z Malovic A Kosoře (+1.1.1689)
+					name=Kateřina
+					female=yes
+					dynasty=1013016
+					religion=catholic culture=czech
+					father=radetzky_0010	# Přemysl Václav Ferdinand Vratislav RADETZKY Z RADETZE
+					mother=lowborn_1862	# Magdalena Polyxena Hlaváčová z Vojenic
+					1647.01.01={birth=yes}  # EST.
+					1683.01.01={death=yes}
+				}
+## RADETZKY
