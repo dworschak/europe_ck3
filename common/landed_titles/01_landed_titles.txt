@@ -5871,6 +5871,12 @@ e_austria = {
 					province = 4131
 					color = { 89 114 199 }
 					color2 = { 255 255 255 }
+					cultural_names = {
+						name_list_swabian = cn_teplitz
+						name_list_franconian = cn_teplitz
+						name_list_bavarian = cn_teplitz
+						name_list_saxon = cn_teplitz
+					}
 				}
 				b_decin = {
 					province = 4133
@@ -15273,7 +15279,7 @@ e_germany = {
 		}
 	
 		
-		d_hesse = {
+		d_kassel = {
 			color = { 33 29 45 }
 			color2 = { 255 255 255 }
 			
@@ -15288,11 +15294,6 @@ e_germany = {
 					color = { 20 41 38 }
 					color2 = { 255 255 255 }
 				}
-				b_ziegenhain = {
-					province = 2858
-					color = { 20 41 38 }
-					color2 = { 255 255 255 }
-				}
 				b_hofgeismar = {
 					province = 2915
 					color = { 20 41 38 }
@@ -15301,36 +15302,6 @@ e_germany = {
 				b_munden = {
 					province = 2922
 					color = { 20 41 38 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_erbach = {
-				color = { 54 64 105 }
-				color2 = { 255 255 255 }
-				
-				b_erbach = {
-					province = 2737
-					color = { 54 64 105 }
-					color2 = { 255 255 255 }
-				}
-				b_seligenstadt = {
-					province = 2742
-					color = { 54 64 105 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_frankfurt = {
-				color = { 37 68 106 }
-				color2 = { 255 255 255 }
-				
-				b_russelsheim = {
-					province = 2741
-					color = { 37 68 106 }
-					color2 = { 255 255 255 }
-				}
-				b_hanau = {
-					province = 2863
-					color = { 37 68 106 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -15348,54 +15319,9 @@ e_germany = {
 					color = { 87 32 51 }
 					color2 = { 255 255 255 }
 				}
-				b_lauterbach = {
-					province = 2867
+				b_hanau = {
+					province = 2863
 					color = { 87 32 51 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_kaiserslautern = {
-				color = { 87 54 103 }
-				color2 = { 255 255 255 }
-				
-				b_lautern = {
-					province = 2729
-					color = { 87 54 103 }
-					color2 = { 255 255 255 }
-				}
-				b_leiningen = {
-					province = 2728
-					color = { 87 54 103 }
-					color2 = { 255 255 255 }
-				}
-				b_kreuznach = {
-					province = 2707
-					color = { 87 54 103 }
-					color2 = { 255 255 255 }
-				}
-				b_rockenhausen = {
-					province = 2727
-					color = { 87 54 103 }
-					color2 = { 255 255 255 }
-				}
-				b_veldenz = {
-					province = 2701
-					color = { 87 54 103 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_mainz = {
-				color = { 87 97 45 }
-				color2 = { 255 255 255 }
-				
-				b_mainz = {
-					province = 2694
-					color = { 87 97 45 }
-					color2 = { 255 255 255 }
-				}
-				b_boppard = {
-					province = 2695
-					color = { 87 97 45 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -15408,39 +15334,91 @@ e_germany = {
 					color = { 87 40 89 }
 					color2 = { 255 255 255 }
 				}
-				b_nidda = {
-					province = 2861
-					color = { 87 40 89 }
-					color2 = { 255 255 255 }
-				}
-				b_budingen = {
-					province = 2865
-					color = { 87 40 89 }
-					color2 = { 255 255 255 }
-				}
-				b_wetzlar = {
-					province = 2857
+				b_ziegenhain = {
+					province = 2858
 					color = { 87 40 89 }
 					color2 = { 255 255 255 }
 				}
 			}
-			c_speyer = {
-				color = { 54 58 53 }
+		}
+		d_hesse = {
+			color = { 45 45 56 }
+			color2 = { 255 255 255 }
+			
+			capital = c_darmstadt
+			
+			c_darmstadt = {
+				color = { 44 72 60 }
 				color2 = { 255 255 255 }
 				
-				b_speyer = {
-					province = 2732
-					color = { 54 58 53 }
+				b_darmstadt = {
+					province = 2736
+					color = { 44 72 60 }
 					color2 = { 255 255 255 }
 				}
-				b_weissenburg = {
-					province = 2724
-					color = { 54 58 53 }
+				b_mainz = {
+					province = 2694
+					color = { 44 72 60 }
 					color2 = { 255 255 255 }
 				}
-				b_pirmasens = {
-					province = 2730
-					color = { 54 58 53 }
+				b_russelsheim = {
+					province = 2741
+					color = { 44 72 60 }
+					color2 = { 255 255 255 }
+				}
+				b_kreuznach = {
+					province = 2707
+					color = { 44 72 60 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_budingen = {
+				color = { 27 56 97 }
+				color2 = { 255 255 255 }
+				
+				b_budingen = {
+					province = 2865
+					color = { 27 56 97 }
+					color2 = { 255 255 255 }
+				}
+				b_nidda = {
+					province = 2861
+					color = { 27 56 97 }
+					color2 = { 255 255 255 }
+				}
+				b_lauterbach = {
+					province = 2867
+					color = { 27 56 97 }
+					color2 = { 255 255 255 }
+				}
+				b_alsfeld = {
+					province = 9662
+					color = { 27 56 97 }
+					color2 = { 255 255 255 }
+				}
+				b_giessen = {
+					province = 9663
+					color = { 27 56 97 }
+					color2 = { 255 255 255 }
+				}
+				b_biedenkopf = {
+					province = 9664
+					color = { 27 56 97 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_erbach = {
+				color = { 61 73 111 }
+				color2 = { 255 255 255 }
+				
+				b_erbach = {
+					province = 2737
+					color = { 61 73 111 }
+					color2 = { 255 255 255 }
+				}
+				b_seligenstadt = {
+					province = 2742
+					color = { 61 73 111 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -15634,6 +15612,11 @@ e_germany = {
 					color = { 109 52 46 }
 					color2 = { 255 255 255 }
 				}
+				b_boppard = {
+					province = 2695
+					color = { 109 52 46 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_mark = {
 				color = { 109 84 96 }
@@ -15706,8 +15689,13 @@ e_germany = {
 					color = { 69 26 36 }
 					color2 = { 255 255 255 }
 				}
+				b_wetzlar = {
+					province = 2857
+					color = { 69 26 36 }
+					color2 = { 255 255 255 }
+				}
 			}
-			c_hochst = {
+			c_frankfurt = {
 				color = { 35 30 88 }
 				color2 = { 255 255 255 }
 				
@@ -15716,14 +15704,19 @@ e_germany = {
 					color = { 35 30 88 }
 					color2 = { 255 255 255 }
 				}
+			}
+			c_hochst = {
+				color = { 102 29 37 }
+				color2 = { 255 255 255 }
+				
 				b_limburg = {
 					province = 2854
-					color = { 35 30 88 }
+					color = { 102 29 37 }
 					color2 = { 255 255 255 }
 				}
 				b_kronberg = {
 					province = 2856
-					color = { 35 30 88 }
+					color = { 102 29 37 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -15751,9 +15744,56 @@ e_germany = {
 					color = { 52 52 103 }
 					color2 = { 255 255 255 }
 				}
-				b_besensheim = {
-					province = 2736
-					color = { 52 52 103 }
+			}
+		}
+		d_pfalz = {
+			color = { 77 44 91 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kaiserslautern
+			
+			c_kaiserslautern = {
+				color = { 114 63 131 }
+				color2 = { 255 255 255 }
+				
+				b_kaiserslautern = {
+					province = 2729
+					color = { 114 63 131 }
+					color2 = { 255 255 255 }
+				}
+				b_leiningen = {
+					province = 2728
+					color = { 114 63 131 }
+					color2 = { 255 255 255 }
+				}
+				b_rockenhausen = {
+					province = 2727
+					color = { 114 63 131 }
+					color2 = { 255 255 255 }
+				}
+				b_veldenz = {
+					province = 2701
+					color = { 114 63 131 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_speyer = {
+				color = { 80 67 80 }
+				color2 = { 255 255 255 }
+				
+				b_speyer = {
+					province = 2732
+					color = { 80 67 80 }
+					color2 = { 255 255 255 }
+				}
+				b_weissenburg = {
+					province = 2724
+					color = { 80 67 80 }
+					color2 = { 255 255 255 }
+				}
+				b_pirmasens = {
+					province = 2730
+					color = { 80 67 80 }
 					color2 = { 255 255 255 }
 				}
 			}

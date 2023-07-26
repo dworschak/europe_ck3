@@ -8999,16 +8999,7 @@
 											1713.01.01={birth=yes}
 											1766.01.01={death=yes}
 										}
-										100011017={ #// J5. Sebastian Xaver Joseph, zu Glött, *1715, +1763; m.1742 Elisabeth Gabriele Gfn von Firmian (*1722 +1782); for his issue see HERE
-											name=Sebastian
-											dynasty=1002252
-											religion=catholic culture=german
-											father=100011016	# Anton Ernst Fugger
-											mother=100100963	# GFN Elisabeth von Trautson
-											1715.01.01={birth=yes}
-											1742.01.01={add_spouse=100100964}	# GFN Elisabeth Gabriele von Firmian
-											1763.01.01={death=yes}
-										}
+										#fugger3   ->   J5. Sebastian Xaver Joseph, zu Glött, *1715, +1763; m.1742 Elisabeth Gabriele Gfn von Firmian (*1722 +1782); for his issue see HERE
 										100011019={ #// J15. Maria Josepha Walburga, *1722, +1795; m.1741 Joseph Gf von Lodron (+1791) $$
 											name=Walburga
 											female=yes
@@ -9620,6 +9611,37 @@
 #1909.01.06={holder=100009928} # JOHANNES
 #1985.02.22={holder=100009928} # CLEMENS
 #fugger2
+
+#fugger3
+100011017={ #// Sebastian Xaver Joseph Fugger Graf zu Kirchberg und Weissenhorn, zu Glött, *1715, +1763; m.1742 Elisabeth Gabriele Gfn von Firmian (*1722 +1782)
+	name=Sebastian
+	dynasty=1002252
+	religion=catholic culture=german
+	father=100011016	# Anton Ernst Fugger
+	mother=100100963	# GFN Elisabeth von Trautson
+	1715.01.01={birth=yes}
+	1742.01.01={add_spouse=100100964}	# GFN Elisabeth Gabriele von Firmian
+	1763.01.01={death=yes}
+}
+	100101160={ # A3. Joseph Sebastian Eligius, *1749, +1826; m.1784 Maria Aloysia Frn von Waldburg Gfn zu Wolfegg (*1765 +1799)
+		name="Joseph Sebastian"
+		religion=catholic culture=german
+		father=100011017
+		mother=100100964
+		1749.12.01={birth=yes}  # Dillingen
+		1784.08.26={add_spouse=100011327}	# Maria von Waldburg zu Wolfegg u.Waldsee
+		1826.09.10={death=yes}  # Oberndorf
+	}
+	100082046={ # A6. Maria Katharina, *Innsbruck 6.6.1744, +Wurzach 4.4.1796, bur Wurzach; m.6.5.1767 Fst Eberhard von Waldburg zu Zeil-Wurzach (*20.12.1730, +23.9.1807)
+		name="Maria Katharina Fugger von Glött"
+		female=yes
+		religion=catholic culture=german
+		1744.01.01={birth=yes}
+		1796.01.01={death=yes}
+	}
+
+
+#fugger3
 
 #fugger4
 100009787={ #// Otto Heinrich Fugger Graf zu Kirchberg und Weissenhorn, Herr zu Mickhausen, Grönenbach und Mattsies, *12.1.1592, +12.10.1644, bur Augsburg; 1m: 29.10.1612 Anna Marschall von Pappenheim (*ca 1584 +13.9.1616); 2m: Schloss Zeil 10.9.1618 Maria Elisabeth Frn von Waldburg zu Zeil (*1600, +Augsburg 22.7.1660) $$
@@ -19531,6 +19553,8 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 					1838.10.27={birth=yes}  # Merseburg
 					1892.04.17={death=yes}
 				}
+				# Paul 64
+				# Hans 65
 			strachwitz_0028={ #// 28 Kunigunde VON STRACHWITZ, *1807.08.19, +Paschkau 1881; m.5.8.1832 Gustav von Heydebrandt und der Laza (*1.10.1799, +Hirschberg. mit seine cousine 7.3.1880)
 				name=Kunigunde
 				female=yes

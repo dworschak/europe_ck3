@@ -437,14 +437,14 @@
 						father=100013198	# Otto Schenk von Stauffenberg
 						mother=100084899	# Herta Emma Oculi von Lerchenfeld
 						1954.03.10={birth=yes}  # Bamberg
-						1991.09.07={add_spouse=100037488}	# Maria-Anna von Quadt zu Wykradt u.Isny
+						1991.09.07={add_spouse=quadt_0020}	# Maria-Anna von Quadt zu Wykradt u.Isny
 					}
 						100013206={ #// F1. Franz Clemens Gabriel Ludwig Ghislain Maria, *Schongau 23.4.1993
 							name=Franz
 							dynasty=1002239
 							religion=catholic culture=german
 							father=100013205	# Alexander Schenk von Stauffenberg
-							mother=100037488	# Maria-Anna von Quadt zu Wykradt u.Isny
+							mother=quadt_0020	# Maria-Anna von Quadt zu Wykradt u.Isny
 							1993.04.23={birth=yes}  # Schongau
 						}
 						100013207={ #// F2. Marie Isabelle Beatrix Georgina Johanna Ghislaine, *Schongau 24.6.1996
@@ -453,7 +453,7 @@
 							dynasty=1002239
 							religion=catholic culture=german
 							father=100013205	# Alexander Schenk von Stauffenberg
-							mother=100037488	# Maria-Anna von Quadt zu Wykradt u.Isny
+							mother=quadt_0020	# Maria-Anna von Quadt zu Wykradt u.Isny
 							1996.06.24={birth=yes}  # Schongau
 						}
 					100013208={ #// E4. Maria Isabell, *Bamberg 10.3.1954
@@ -10019,7 +10019,7 @@
 						father=100001015	# Alexander v.u.zu Eltz gt Faust v.Stromberg
 						mother=100116405	# Ferdinandine Széchenyi de Sárvár-Felsõvidek
 						1948.11.07={birth=yes}
-						1985.01.01={add_spouse=100036661}	# Maria Georgina von Quadt zu Wykradt u.Isny
+						1985.01.01={add_spouse=quadt_0021}	# Maria Georgina von Quadt zu Wykradt u.Isny
 					}
 						100001017={ #// 1f) Alexandra Ferdinandine Marie-Charlotte Hieronyma Ghislaine Walpurga Thekla (b.Hamburg 30 Sep 1986)
 							name=Alexandra
@@ -10027,7 +10027,7 @@
 							dynasty=1002059
 							religion=catholic culture=german
 							father=100001016	# Peter v.u.zu Eltz gt Faust v.Stromberg
-							mother=100036661	# Maria Georgina von Quadt zu Wykradt u.Isny
+							mother=quadt_0021	# Maria Georgina von Quadt zu Wykradt u.Isny
 							1986.09.30={birth=yes}
 						}
 						100001018={ #// 2f) Albrecht Paul Alexander Viktor Maria Johann Nepomuk (b.München 10 Oct 1988)
@@ -10035,7 +10035,7 @@
 							dynasty=1002059
 							religion=catholic culture=german
 							father=100001016	# Peter v.u.zu Eltz gt Faust v.Stromberg
-							mother=100036661	# Maria Georgina von Quadt zu Wykradt u.Isny
+							mother=quadt_0021	# Maria Georgina von Quadt zu Wykradt u.Isny
 							1988.10.10={birth=yes}
 						}
 						100001019={ #// 3f) Marie Ghislaine Simonetta Walpurga Thekla (b.München 28 Oct 1991)
@@ -10044,7 +10044,7 @@
 							dynasty=1002059
 							religion=catholic culture=german
 							father=100001016	# Peter v.u.zu Eltz gt Faust v.Stromberg
-							mother=100036661	# Maria Georgina von Quadt zu Wykradt u.Isny
+							mother=quadt_0021	# Maria Georgina von Quadt zu Wykradt u.Isny
 							1991.10.28={birth=yes}
 						}
 					100001020={ #// 2e) Nikolaus Erwein Karl Maria Dionysius Pötschen Johann Nepomuk (b.Zürich 9 Oct 1950); m.Anif 17 Jan 1976 Michèle Landry (b.München 1 May 1953)
@@ -17198,3 +17198,516 @@
 							2008.11.18={birth=yes}
 						}
 ## Mendez de Vigo
+
+
+## QUADT http://www.angelfire.com/realm/gotha/gotha/quadt.html
+100100878={ #// Gfn        Sophie Charlotte          Quadt von Wykradt                        (1718-1762)     0 [WALDBURG] $$
+	name="Sophie Charlotte Quadt von Wykradt"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1718.01.01={birth=yes}  # EST.
+	1762.03.10={death=yes}
+}
+
+
+quadt_0001={ #// WILHELM Otto Friedrich Albert Graf v.Quadt zu Wykradt u.Isny (Wykradt 21 Feb 1783-Isny 2 Jul 1849); m.Isny 14 Jul 1812 Maria Anna Gfn von Thurn-Valsassina (Obergünzburg 29 Aug 1788-Munich 23 Dec 1867)
+	name=Wilhelm
+	dynasty=quadt
+	religion=catholic culture=german
+	1783.02.21={birth=yes}  # Wykradt
+	1812.07.14={add_spouse=lowborn_0325}	# Maria Anna von Thurn-Valsassina
+	1849.07.02={death=yes}  # Isny
+}
+	quadt_0002={ #// 1a) Maximiliane (Isny 18 May 1813-Wolfegg 8 Feb 1874); m.Isny 30 Sep 1833 Constantin Maximilian Fst von Waldburg zu Wolfegg u.Waldsee (Kleinheubach 8 Jan 1807-Kenzingen, Baden 17 Dec 1862)
+		name=Maximiliane
+		female=yes
+		dynasty=quadt
+		religion=catholic culture=german
+		father=quadt_0001	# Wilhelm
+		mother=lowborn_0325	# Maria Anna von Thurn-Valsassina
+		1813.05.18={birth=yes}  # Isny
+		1874.02.08={death=yes}  # Wolfegg
+	}
+	quadt_0003={ #// 2a) Bertha (7 May 1816-7 Feb 1899); m.15 Sep 1846 Eduard Gf v.Berghe gen.Trips (d.14 Oct 1856)
+		name=Bertha
+		female=yes
+		dynasty=quadt
+		religion=catholic culture=german
+		father=quadt_0001	# Wilhelm
+		mother=lowborn_0325	# Maria Anna von Thurn-Valsassina
+		1816.05.07={birth=yes}
+		1899.02.07={death=yes}
+	}
+	quadt_0004={ #// 3a) OTTO Wilhelm Friedrich Bertram Gf v.Quadt zu Wykradt u.Isny (Isny 27 Sep 1817-Munich 23 Jun 1899); m.Wechselburg 20 Apr 1846 Marie Gfn von Schönburg-Forderglauchau (Wechselburg 5 Dec 1825-Villa Engel bei Lindau 7 Oct 1869)
+		name=Otto
+		dynasty=quadt
+		religion=catholic culture=german
+		father=quadt_0001	# Wilhelm
+		mother=lowborn_0325	# Maria Anna von Thurn-Valsassina
+		1817.09.27={birth=yes}  # Isny
+		1846.04.20={add_spouse=100008958}	# Marie von Schönburg-Forderglauchau
+		1899.06.23={death=yes}  # Munich
+	}
+		quadt_0005={ #// 1b) Anna Maria Wilhelmine Ottoline Maximilia (12 Oct 1847-3 Jan 1848)
+			name=Anna
+			female=yes
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0004	# Otto
+			mother=100008958	# Marie von Schönburg-Forderglauchau
+			1847.10.12={birth=yes}
+			1848.01.03={death=yes}
+		}
+		quadt_0006={ #// 2b) BERTRAM Otto Friedrich Wilhelm Waldemar, cr 1901 Fürst von Quadt zu Wykradt und Isny (Stuttgart 11 Jan 1849-Isny 14 May 1927); m.Vienna 27 Nov 1879 Ludovika Pss von Schönburg-Hartenstein (Ettlingen 3 Jul 1856-Munich 5 Jul 1932)
+			name=Bertram
+			dynasty=quadt
+			religion=catholic culture=north_german
+			father=quadt_0004	# Otto
+			mother=100008958	# Marie von Schönburg-Forderglauchau
+			1849.01.11={birth=yes}  # Stuttgart
+			1879.11.27={add_spouse=100005525}	# Ludovika von Schönburg-Hartenstein
+			1927.05.14={death=yes}  # Isny
+		}
+			quadt_0007={ #// 1c) Otto Maria Alexander Bertram, renounced succession rights and those of his children in favor of his next brother 1918/21 (Isny 30 Dec 1880-Munich 28 Jul 1933); m.1st Munich 21 Sep 1909 (div) Margareta Gfn zu Königsegg-Aulendorf (Aulendorf 2 Oct 1889-Oetting Mission, Natal 25 Aug 1968); m.2nd Munich 6 Dec 1920 (div 1931) Mathilde Schüssel (Munich 29 Apr 1892-Unterlangkampfen, Tyrol 19 May 1967)
+				name=Otto
+				dynasty=quadt
+				religion=catholic culture=german
+				father=quadt_0006	# Bertram
+				mother=100005525	# Ludovika von Schönburg-Hartenstein
+				1880.12.30={birth=yes}  # Isny
+				1909.09.21={add_spouse=100010493}	# KKK zu Königsegg-Aulendorf
+				1933.07.28={death=yes}  # Munich
+			}
+				quadt_0008={ #// 1d) Bertram Maria Joseph Joachim Bernhard Franz Xaver (Grafenaschau 20 Aug 1910-mia 27 Jun 1944); m.Ettal 24 Nov 1938 Hildegard Dischinger (Freiburg 3 Oct 1914-29 Jun 2012)
+					name=Bertram
+					dynasty=quadt
+					religion=catholic culture=german
+					father=quadt_0007	# Otto
+					mother=100010493	# KKK zu Königsegg-Aulendorf
+					1910.08.20={birth=yes}  # Grafenaschau
+					1938.11.24={add_spouse=lowborn_1901}	# Hildegard Dischinger
+					1944.06.27={death=yes}  # mia
+				}
+				quadt_0009={ #// 2d) Franz Xaver Maria Josef Paulinus de Nola Eugen Otto Johannes (Munich 27 Mar 1912-Marianhill, So.Africa 12 Jul 1985)
+					name=Franz
+					dynasty=quadt
+					religion=catholic culture=north_german
+					father=quadt_0007	# Otto
+					mother=100010493	# KKK zu Königsegg-Aulendorf
+					1912.03.27={birth=yes}  # Munich
+					1985.07.12={death=yes}  # Marianhill So.Africa
+				}
+			quadt_0010={ #// 2c) Marie Luise Caroline Josephine (Isny 21 Dec 1883-Munich 26 Jan 1925); m.Munich 10 Jun 1903 Gottfried Gf von Tattenbach (Munich 8 Nov 1875-Munich 21 Jul 1961)
+				name=Marie
+				female=yes
+				dynasty=quadt
+				religion=catholic culture=german
+				father=quadt_0006	# Bertram
+				mother=100005525	# Ludovika von Schönburg-Hartenstein
+				1883.12.21={birth=yes}  # Isny
+				1925.01.26={death=yes}  # Munich
+			}
+			quadt_0011={ #// 3c) ALEXANDER Joseph Aloysius Anton Maria Fst von Quadt zu Wykradt und Isny (Isny 1 May 1885-Isny 11 Jul 1936); m.Totis 25 Nov 1920 Maria-Anna Gfn Esterházy von Galántha (Totis 5 Oct 1898-Isny 21 Jan 1952)
+				name=Alexander
+				dynasty=quadt
+				religion=catholic culture=german
+				father=quadt_0006	# Bertram
+				mother=100005525	# Ludovika von Schönburg-Hartenstein
+				1885.05.01={birth=yes}  # Isny
+				1920.11.25={add_spouse=100117391}	# Maria-Anna Esterházy von Galántha
+				1936.07.11={death=yes}  # Isny
+			}
+				quadt_0012={ #// 1d) ALBAN Paul Eugen Bertram Franz von Assisi Thaddäus Maria Alexander Fst von Quadt zu Wykradt und Isny (Isny 14 Sep 1921-k.a.Gaburewo 24 Sep 1942)
+					name=Alban
+					dynasty=quadt
+					religion=catholic culture=german
+					father=quadt_0011	# Alexander
+					mother=100117391	# Maria-Anna Esterházy von Galántha
+					1921.09.14={birth=yes}  # Isny
+					1942.09.24={death=yes}  # Gaburewo
+				}
+				quadt_0013={ #// 2d) Peter Eugen Gottfried Franz von Assisi Bertram Ghislain Maria Alexander, renounced succession rights in favor of his next brother upon the death of his older brother (Isny 7 Jan 1923-Munich 26 Jan 1979); m.(civ) Dortmund (rel) Münster 11 Feb 1953 Sibylle Klems (Stettin 11 Feb 1923-Ravensburg 26 Dec 1992)
+					name=Peter
+					dynasty=quadt
+					religion=catholic culture=german
+					father=quadt_0011	# Alexander
+					mother=100117391	# Maria-Anna Esterházy von Galántha
+					1923.01.07={birth=yes}  # Isny
+					1953.02.11={add_spouse=lowborn_1906}	# Sibylle Klems
+					1979.01.26={death=yes}  # Munich
+				}
+				quadt_0014={ #// 3d) Maria Thomas Ludovica Ehrentraut Benedikta Ghislaine Ruperta Bertha Alexander (Isny 17 Nov 1925-St.Leonard, Maryland 25 Nov 1991); m.Isny 6 Nov 1950 Peter Gf Praschma, Frhr von Bilkau (Herischdorf 31 Jul 1925-St.Leonard, Maryland 13 Nov 1991)
+					name=Maria
+					female=yes
+					dynasty=quadt
+					religion=catholic culture=german
+					father=quadt_0011	# Alexander
+					mother=100117391	# Maria-Anna Esterházy von Galántha
+					1925.11.17={birth=yes}  # Isny
+					1991.11.25={death=yes}  # Sankt Leonard Maryland
+				}
+				quadt_0015={ #// 4d) PAUL Franz von Assisi Georg Ghislain Edmund Maria Alexander Fst von Quadt zu Wykradt und Isny (Isny 28 Nov 1930-16 Mar 2011); m.(civ) Berg am Starnberger See 1 Sep 1955 (rel) Nymphenburg 3 Sep 1955 Charlotte Pss of Bavaria (Munich 30 May 1931-9 Jan 2018)
+					name=Paul
+					dynasty=quadt
+					religion=catholic culture=german
+					father=quadt_0011	# Alexander
+					mother=100117391	# Maria-Anna Esterházy von Galántha
+					1930.11.28={birth=yes}  # Isny
+					1955.09.01={add_spouse=100007822}	# Charlotte of Bavaria
+					2011.03.16={death=yes}
+				}
+					quadt_0016={ #// 1e) ALEXANDER Fst von Quadt zu Wykradt und Isny (b.Munich 18 Jan 1958); m.(civ) Isny 14 Sep 1992 (rel) Stainz 11 Oct 1992 Martina Keil (b.Graz 7 Dec 1960)
+						name=Alexander
+						dynasty=quadt
+						religion=catholic culture=north_german
+						father=quadt_0015	# Paul
+						mother=100007822	# Charlotte of Bavaria
+						1958.01.18={birth=yes}  # Munich
+						1992.09.14={add_spouse=lowborn_1917}	# Martina Keil
+					}
+						quadt_0017={ #// 1f) Philippa Johanna Charlotte Stephanie Maria Wilhelmine Ghislaine (b.1994)
+							name=Philippa
+							female=yes
+							dynasty=quadt
+							religion=catholic culture=german
+							father=quadt_0016	# Alexander
+							mother=lowborn_1917	# Martina Keil
+							1994.01.01={birth=yes}
+						}
+						quadt_0018={ #// 2f) Charlotte Sophie Monika Marianne Ghislaine Maria (b.1996)
+							name=Charlotte
+							female=yes
+							dynasty=quadt
+							religion=catholic culture=german
+							father=quadt_0016	# Alexander
+							mother=lowborn_1917	# Martina Keil
+							1996.01.01={birth=yes}
+							#YYYY.01.01={death=yes}
+						}
+						quadt_0019={ #// 3f) Anna Maria Johanna Alexandra Michaela Ghislaine (b.2001)
+							name=Anna
+							female=yes
+							dynasty=quadt
+							religion=catholic culture=german
+							father=quadt_0016	# Alexander
+							mother=lowborn_1917	# Martina Keil
+							2001.01.01={birth=yes}
+							#YYYY.01.01={death=yes}
+						}
+					quadt_0020={ #// 2e) Maria-Anna Gabrielle Ghislaine (b.1960); m.Isny (civ) 6 Sep 1991 (rel) 8 Sep 1991 Alexander Schenk Gf von Stauffenberg (b.1954)
+						name="Maria-Anna Gabrielle"
+						female=yes
+						dynasty=quadt
+						religion=catholic culture=german
+						father=quadt_0015	# Paul
+						mother=100007822	# Charlotte of Bavaria
+						1960.01.01={birth=yes}
+						#YYYY.01.01={death=yes}
+					}
+					quadt_0021={ #// 3e) Maria Georgina Ghislaine Caroline (b.1962); m.Isny (civ) 5 Sep 1985 (rel) 7 Sep 1985 Peter Gf von Eltz gt Faust von Stromberg (b.1948)
+						name="Maria Georgina"
+						female=yes
+						dynasty=quadt
+						religion=catholic culture=german
+						father=quadt_0015	# Paul
+						mother=100007822	# Charlotte of Bavaria
+						1962.01.01={birth=yes}
+					}
+					quadt_0022={ #// 4e) Bertram Ernst Maria Ghislain Paul Ingbert (b.1966); m.Hannover 25 Jun 2004 (rel) London 28 Aug 2004 Sandra Putze (b.1966)
+						name=Bertram
+						dynasty=quadt
+						religion=catholic culture=german
+						father=quadt_0015	# Paul
+						mother=100007822	# Charlotte of Bavaria
+						1966.01.01={birth=yes}
+						2004.06.25={add_spouse=lowborn_1924}	# Sandra Putze
+						#YYYY.01.01={death=yes}
+					}
+			quadt_0023={ #// 4c) Eugen Franziskus de Paula Joseph Maria Alban Kaspar (Isny 6 Jan 1887-Isny 19 Oct 1940); m.Munich 21 Sep 1909 Pauline Gfn zu Königsegg-Aulendorf (Königseggwald 1 Mar 1885-Tuttlingen 9 Jun 1961)
+				name="Eugen Franziskus"
+				dynasty=quadt
+				religion=catholic culture=german
+				father=quadt_0006	# Bertram
+				mother=100005525	# Ludovika von Schönburg-Hartenstein
+				1887.01.06={birth=yes}  # Isny
+				1909.09.21={add_spouse=100010491}	# Pauline zu Königsegg-Aulendorf
+				1940.10.19={death=yes}  # Isny
+			}
+				quadt_0024={ #// 1d) Ludovika Johanna Aloysia Josepha Paula Franziska Hedwig Maria Magdalena Elisabeth (Munich 21 Jul 1910-Wildbad Kreuth 1 May 1986); m.Munich 15 Oct 1941 Josias von Rantzau (Schwerin 3 Aug 1903-Potmar 1950)
+					name=Ludovika
+					female=yes
+					dynasty=quadt
+					religion=catholic culture=north_german
+					father=quadt_0023	# Eugen Franziskus
+					mother=100010491	# Pauline zu Königsegg-Aulendorf
+					1910.07.21={birth=yes}  # Munich
+					1986.05.01={death=yes}  # Wildbad Kreuth
+				}
+				quadt_0025={ #// 2d) Franz Xaver (14 Oct 1912-4 Feb 1938)
+					name="Franz Xaver"
+					dynasty=quadt
+					religion=catholic culture=german
+					father=quadt_0023	# Eugen Franziskus
+					mother=100010491	# Pauline zu Königsegg-Aulendorf
+					1912.10.14={birth=yes}
+					1938.02.04={death=yes}
+				}
+				quadt_0026={ #// 3d) Karl Erwein Maria Bertram Eusebius Angelius Konrad Benediktus Stefanus (Munich 2 Sep 1916-Burtenbach 27 May 1975); m.Troppau 21 Mar 1943 Dorothea Kuntze (Mährisch-Ostrau 1 Jul 1921-Munich 13 Feb 2004)
+					name=Karl
+					dynasty=quadt
+					religion=catholic culture=north_german
+					father=quadt_0023	# Eugen Franziskus
+					mother=100010491	# Pauline zu Königsegg-Aulendorf
+					1916.09.02={birth=yes}  # Munich
+					1943.03.21={add_spouse=lowborn_1927}	# Dorothea Kuntze
+					1975.05.27={death=yes}  # Burtenbach
+				}
+					quadt_0027={ #// 1e) Karl-Franz (b.1946); m.1st 1967 (div 1973) Christa Walcher (b.1944); m.2nd Munich 3 Feb 1978 Jutta Rittel (b.1949)
+						name=Karl-Franz
+						dynasty=quadt
+						religion=catholic culture=german
+						father=quadt_0026	# Karl
+						mother=lowborn_1927	# Dorothea Kuntze
+						1946.01.01={birth=yes}
+						1967.01.01={add_spouse=lowborn_1929}	# Christa Walcher
+						1973.01.01={remove_spouse=lowborn_1929}
+						1978.02.03={add_spouse=lowborn_1930}	# Jutta Rittel
+						2016.01.01={death=yes}  # EST.
+					}
+						quadt_0028={ #// 1f) Oliver Karl Eugen Gerd (b.1968); m.Grongörgen 12 Sep 2007 Reema Chaman (b.1974)
+							name=Oliver
+							dynasty=quadt
+							religion=catholic culture=german
+							father=quadt_0027	# Karl-Franz
+							mother=lowborn_1929	# Christa Walcher
+							1968.01.01={birth=yes}
+							2007.09.12={add_spouse=lowborn_1931}	# Reema Chaman
+							#YYYY.01.01={death=yes}
+						}
+							quadt_0029={ #// 1g) Namita Rosa (b.2008)
+								name="Namita Rosa"
+								female=yes
+								dynasty=quadt
+								religion=catholic culture=german
+								father=quadt_0028	# Oliver
+								mother=lowborn_1931	# Reema Chaman
+								2008.01.01={birth=yes}
+								#YYYY.01.01={death=yes}
+							}
+						quadt_0030={ #// 2f) Alexandra Christiane Liselotte (b.1980)
+							name=Alexandra
+							female=yes
+							dynasty=quadt
+							religion=catholic culture=german
+							father=quadt_0027	# Karl-Franz
+							mother=lowborn_1930	# Jutta Rittel
+							1980.01.01={birth=yes}
+							#YYYY.01.01={death=yes}
+						}
+						quadt_0031={ #// 3f) Katharina Antonie Sophie (b.1981)
+							name=Katharina
+							female=yes
+							dynasty=quadt
+							religion=catholic culture=german
+							father=quadt_0027	# Karl-Franz
+							mother=lowborn_1930	# Jutta Rittel
+							1981.01.01={birth=yes}
+							#YYYY.01.01={death=yes}
+						}
+					quadt_0032={ #// 2e) Ruth Ricarda Maria Paula (b.1950); m.Munich 18 Jan 1974 Franz Xaver Riedhammer (Nitzlbuch 6 Jun 1952-Mar 2003)
+						name=Ruth
+						female=yes
+						dynasty=quadt
+						religion=catholic culture=german
+						father=quadt_0026	# Karl
+						mother=lowborn_1927	# Dorothea Kuntze
+						1950.01.01={birth=yes}
+						#YYYY.01.01={death=yes}
+					}
+					quadt_0033={ #// 3e) Peter Alexander Maria Eugen (b.1954); m.Munich 1 Oct 1980 Hannelore Konrad (b.1955)
+						name=Peter
+						dynasty=quadt
+						religion=catholic culture=german
+						father=quadt_0026	# Karl
+						mother=lowborn_1927	# Dorothea Kuntze
+						1954.01.01={birth=yes}
+						1980.10.01={add_spouse=lowborn_1933}	# Hannelore Konrad
+						#YYYY.01.01={death=yes}
+					}
+						quadt_0034={ #// 1f) Simon-Michael Ferry Maria Rupert (b.1985)
+							name=Simon-Michael
+							dynasty=quadt
+							religion=catholic culture=german
+							father=quadt_0033	# Peter
+							mother=lowborn_1933	# Hannelore Konrad
+							1985.01.01={birth=yes}
+							#YYYY.01.01={death=yes}
+						}
+						quadt_0035={ #// 2f) Tatijana Tonja Sophie (b.1986)
+							name="Tatijana Sophie"
+							female=yes
+							dynasty=quadt
+							religion=catholic culture=german
+							father=quadt_0033	# Peter
+							mother=lowborn_1933	# Hannelore Konrad
+							1986.01.01={birth=yes}
+							#YYYY.01.01={death=yes}
+						}
+					quadt_0036={ #// 4e) Isabelle Charlotte Maria Antoinette (b.1962)
+						name=Isabelle
+						female=yes
+						dynasty=quadt
+						religion=catholic culture=german
+						father=quadt_0026	# Karl
+						mother=lowborn_1927	# Dorothea Kuntze
+						1962.01.01={birth=yes}
+						#YYYY.01.01={death=yes}
+					}
+			quadt_0037={ #// 5c) Aloysia Karoline Ludovika Maria Josepha (Isny 7 Sep 1889-Munich 3 Jul 1981)
+				name=Aloysia
+				female=yes
+				dynasty=quadt
+				religion=catholic culture=german
+				father=quadt_0006	# Bertram
+				mother=100005525	# Ludovika von Schönburg-Hartenstein
+				1889.09.07={birth=yes}  # Isny
+				1981.07.03={death=yes}  # Munich
+			}
+			quadt_0038={ #// 6c) Josephine Maria Berthi Ignatia (Munich 4 Mar 1892-Hohenschäftlarn 5 Jan 1966)
+				name=Josephine
+				female=yes
+				dynasty=quadt
+				religion=catholic culture=north_german
+				father=quadt_0006	# Bertram
+				mother=100005525	# Ludovika von Schönburg-Hartenstein
+				1892.03.04={birth=yes}  # Munich
+				1966.01.05={death=yes}  # Hohenschäftlarn
+			}
+		quadt_0039={ #// 3b) Otto (24 Feb 1850-19 Apr 1863)
+			name=Otto
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0004	# Otto
+			mother=100008958	# Marie von Schönburg-Forderglauchau
+			1850.02.24={birth=yes}
+			1863.04.19={death=yes}
+		}
+		quadt_0040={ #// 4b) Otto Friedrich Wilhelm Robert Alban (2 Dec 1850-9 Jun 1908)
+			name=Otto
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0004	# Otto
+			mother=100008958	# Marie von Schönburg-Forderglauchau
+			1850.12.02={birth=yes}
+			1908.06.09={death=yes}
+		}
+		quadt_0041={ #// 5b) Alfred Lothar Friedrich Wilhelm (12 Jan 1855-23 Dec 1890); m.19 Nov 1887 Florence Caroline Mary Fawcett (22 Sep 1847-Munich 28 Mar 1913)
+			name=Alfred
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0004	# Otto
+			mother=100008958	# Marie von Schönburg-Forderglauchau
+			1855.01.12={birth=yes}
+			1887.11.19={add_spouse=lowborn_1940}	# Florence Caroline Fawcett
+			1890.12.23={death=yes}
+		}
+		quadt_0042={ #// 6b) Auguste (13 Aug 1863-17 Mar 1890); m.17 Jun 1889 Peter Frhr von und zu Mentzingen (d.23 Dec 1939)
+			name=Auguste
+			female=yes
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0004	# Otto
+			mother=100008958	# Marie von Schönburg-Forderglauchau
+			1863.08.13={birth=yes}
+			1890.03.17={death=yes}
+		}
+	quadt_0043={ #// 4a) Friedrich Wilhelm (Isny 23 Dec 1818-Schloß Moos 24 Oct 1892); m.1st 31 Jan 1854 Sophie van der Mark (Paris 9 May 1818-Paris 13 Apr 1856); m.2nd Donzdorf 1 Jun 1858 Marianne Gfn von Rechberg u.Rothenlöwen zu Hohenrechberg (Donzdorf 18 Dec 1834-Moos 3 May 1910)
+		name="Friedrich Wilhelm"
+		dynasty=quadt
+		religion=catholic culture=german
+		father=quadt_0001	# Wilhelm
+		mother=lowborn_0325	# Maria Anna von Thurn-Valsassina
+		1818.12.23={birth=yes}  # Isny
+		1854.01.31={add_spouse=lowborn_1943}	# Sophie van der Mark
+		1858.06.01={add_spouse=100011407}	# Marianne von Rechberg u.Rothenlöwen zu Hohenrechberg
+		1892.10.24={death=yes}  # Schloß Moos
+	}
+		quadt_0044={ #// 1b) Marie Wilhelmine (b.24 Nov 1854, d.by 1914)
+			name="Marie Wilhelmine"
+			female=yes
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0043	# Friedrich Wilhelm
+			mother=100011407	# Marianne von Rechberg u.Rothenlöwen zu Hohenrechberg
+			1914.01.01={birth=yes}
+			1989.01.01={death=yes}  # EST.
+		}
+		quadt_0045={ #// 2b) Otto Gebhard Lothar (17 Jan 1856-28 Sep 1928)
+			name=Otto
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0043	# Friedrich Wilhelm
+			mother=lowborn_1943	# Sophie van der Mark
+			1856.01.17={birth=yes}
+			1928.09.28={death=yes}
+		}
+		quadt_0046={ #// 3b) Julie Walburga Maria (24 Nov 1859-14 Jul 1925)
+			name=Julie
+			female=yes
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0043	# Friedrich Wilhelm
+			mother=100011407	# Marianne von Rechberg u.Rothenlöwen zu Hohenrechberg
+			1859.11.24={birth=yes}
+			1925.07.14={death=yes}
+		}
+		quadt_0047={ #// 4b) Elisabeth Caroline Pauline Marie (Hannover 11 Sep 1862-Kirchheim 16 Aug 1940); m.Moos 1 Nov 1891 Karl Fst Fugger von Glött (Oberndorf 2 Jul 1859-Kirchheim 25 Apr 1940)
+			name=Elisabeth
+			female=yes
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0043	# Friedrich Wilhelm
+			mother=100011407	# Marianne von Rechberg u.Rothenlöwen zu Hohenrechberg
+			1862.09.11={birth=yes}  # Hannover
+			1940.08.16={death=yes}  # Kirchheim
+		}
+		quadt_0048={ #// 5b) Albert Wilhelm Otto (Hannover 17 Jul 1864-Schloß Moos 24 Nov 1930); m.Sorrento 25 Nov 1895 Nobila Amadea de Martino (Florence 24 Sep 1879-Oberstdorf im Allgäu 26 Aug 1933)
+			name=Albert
+			dynasty=quadt
+			religion=catholic culture=german
+			father=quadt_0043	# Friedrich Wilhelm
+			mother=100011407	# Marianne von Rechberg u.Rothenlöwen zu Hohenrechberg
+			1864.07.17={birth=yes}  # Hannover
+			1895.11.25={add_spouse=lowborn_1967}	# Nobila Amadea de Martino
+			1930.11.24={death=yes}  # Schloß Moos
+		}
+			quadt_0049={ #// 1c) Anna Margarethe Renée Maria (Anne-Renée) (Santa Colomba 19 Sep 1896-Moos 27 Feb 1976); m.Stuttgart 2 Feb 1932 Friedrich Fetzer (Ulm 17 Sep 1896-Scheidegg 23 Jan 1985)
+				name=Anna
+				female=yes
+				dynasty=quadt
+				religion=catholic culture=german
+				father=quadt_0048	# Albert
+				mother=lowborn_1967	# Nobila Amadea de Martino
+				1896.09.19={birth=yes}  # Anne-Renée ) ( Santa Colomba
+				1976.02.27={death=yes}  # Moos
+			}
+		quadt_0050={ #// 6b) Luise Maria Theresia Eleonore (Paris 17 Jun 1869-Freiburg 5 Nov 1952); m.Schloß Moos 10 Nov 1897 Franz Gf von Brühl (Pförten 18 Nov 1852-Freiburg 10 Jan 1928)
+			name=Luise
+			female=yes
+			dynasty=quadt
+			religion=catholic culture=french
+			father=quadt_0043	# Friedrich Wilhelm
+			mother=100011407	# Marianne von Rechberg u.Rothenlöwen zu Hohenrechberg
+			1869.06.17={birth=yes}  # Paris
+			1952.11.05={death=yes}  # Freiburg
+		}
+#1813.02.21={holder=quadt_0001} # WILHELM Otto Friedrich Albert Graf v.Quadt zu Wykradt u.Isny 
+#1849.07.02={holder=quadt_0004} # 3a) OTTO Wilhelm Friedrich Bertram Gf v.Quadt zu Wykradt u.Isny 
+#1899.06.23={holder=quadt_0006} # 2b) BERTRAM Otto Friedrich Wilhelm Waldemar
+#1927.05.14={holder=quadt_0007} # 1c) Otto Maria Alexander Bertram
+#1933.07.28={holder=quadt_0008} # 1d) Bertram Maria Joseph Joachim Bernhard Franz Xaver 
+#1944.06.27={holder=quadt_0009} # 2d) Franz Xaver Maria Josef Paulinus de Nola Eugen Otto Johannes 
+#1985.07.12={holder=quadt_0015} # 4d) PAUL Franz von Assisi Georg Ghislain Edmund Maria Alexander Fst von Quadt zu Wykradt und Isny 
+#2011.03.16={holder=quadt_0016} # 1e) ALEXANDER Fst von Quadt zu Wykradt und Isny 
+## QUADT
