@@ -31,7 +31,7 @@
 		}
 	# welf5 -> D3. Bernhard I Herzog von Braunschweig-Lüneburg (1373-1434), +Winsen 11.6.1434; m.1386 Margarete von Sachsen (+2.6.1418); for their descendants see HERE
 	# welf4 -> D4. Heinrich II Herzog von Braunschweig-Lüneburg, +ülzen 14.10.1416; 1m: 11.11.1388 Sofie von Pommern (+1400/28.6.1406); 2m: Kassel 30.1.1409 Margarete von Hessen (*Marburg 1389, +Rotenburg an der Fulda 1446); for his descendants see HERE
-	100012743={ #//  D6. Agnes, +21.3.1410; m.by 17.8.1371 Herzog Albrecht I von Braunschweig-Grubenhagen (+ca 1383)
+	100012743={ #//  D6. Agnes, +21.3.1410; m.by 17.8.1371 Herzog Albrecht I von Braunschweig-Grubenhagen (+ca 1383) $$
 		name=Agnes
 		female=yes
 		dynasty=650
@@ -96,22 +96,22 @@
 	}
 
 #462816 = B6. Ernst I Herzog von Braunschweig-Grubenhagen zu Einbeck 1325, zu Everstein 1327, zu Osterode 1334, zu Hameln 1335, *1297, +11.3.1361; m.1335/36 Adelheid (+after 29.9.1373), dau.of Gf Heinrich II von Everstein
-	100012760={ #//  C2. Albrecht I Herzog von Salzderhelden, in Grubenhagen und Einbeck (1359-61), *ca 1339, +Salzderhelden 1383; m.by 17.8.1372 Agnes von Braunschweig (+1410)
+	100012760={ #//  C2. Albrecht I Herzog von Salzderhelden, in Grubenhagen und Einbeck (1359-61), *ca 1339, +Salzderhelden 1383; m.by 17.8.1372 Agnes von Braunschweig (+1410) $$
 		name=Albrecht
-		dynasty=650
+		dynasty_house=braunschweig_grubenhagen
 		religion=catholic culture=german
 		father=462816	# Ernst Welf
 		mother=462817	# Adelheid
 		1339.01.01={birth=yes}
-		1372.08.17={add_spouse=100085099}	# Agnes von Braunschweig
+		1371.08.17={add_spouse=100012743}	# Agnes Welf
 		1383.01.01={death=yes}  # Salzderhelden
 	}
 		100012762={ #//  D1. Erich I Herzog von Braunschweig-Grubenhagen, *ca 1380, +28.5.1427; m.1/14.7.1405 Elisabeth von Braunschweig-Göttingen (*ca 1390 +after 29.9.1444)
 			name=Erich
-			dynasty=650
+			dynasty_house=braunschweig_grubenhagen
 			religion=catholic culture=german
-			father=100012760	# Albrecht Welf
-			mother=100085099	# Agnes von Braunschweig
+			father=100012760	# Albrecht von Braunschweig-Grubenhagen
+			mother=100012743	# Agnes Welf
 			1380.01.01={birth=yes}
 			1405.07.14={add_spouse=100086607}	# Elisabeth von Braunschweig-Göttingen
 			1427.05.28={death=yes}
@@ -119,9 +119,9 @@
 			100012816={ #//  E6. Elisabeth, *ca 1409, +4.10.1452; m.1431 Herzog Kasimir V von Pommern (+12.4.1406) $$
 				name=Elisabeth
 				female=yes
-				dynasty=650
+				dynasty_house=braunschweig_grubenhagen
 				religion=catholic culture=german
-				father=100012762	# Erich Welf
+				father=100012762	# Erich von Braunschweig-Grubenhagen
 				mother=100086607	# Elisabeth von Braunschweig-Göttingen
 				1409.01.01={birth=yes}
 				1452.10.04={death=yes}
@@ -129,9 +129,9 @@
 			100012817={ #//  E7. Margarete, *ca 1411, +after 31.10.1456; m.shortly before 27.9.1427 Simon IV zur Lippe (*1404 +11.8.1429)
 				name=Margarete
 				female=yes
-				dynasty=650
+				dynasty_house=braunschweig_grubenhagen
 				religion=catholic culture=german
-				father=100012762	# Erich Welf
+				father=100012762	# Erich von Braunschweig-Grubenhagen
 				mother=100086607	# Elisabeth von Braunschweig-Göttingen
 				1411.01.01={birth=yes}
 				1457.10.31={death=yes}
@@ -139,18 +139,18 @@
 			100012818={ #//  E8. Anna, *1415, +Nannhofen 14.10.1474, bur Andechs; 1m: Munich 22.1.1437 Herzog Albrecht III von Bayern (*23.3.1401 +Munich 29.2.1460); 2m: Munich 1.II.1463 Herzog Friedrich II von Braunschweig-Lüneburg (+1495) $$
 				name=Anna
 				female=yes
-				dynasty=650
+				dynasty_house=braunschweig_grubenhagen
 				religion=catholic culture=german
-				father=100012762	# Erich Welf
+				father=100012762	# Erich von Braunschweig-Grubenhagen
 				mother=100086607	# Elisabeth von Braunschweig-Göttingen
 				1415.01.01={birth=yes}
 				1474.10.14={death=yes}  # Nannhofen
 			}
 			100012788={ #//  E1. Heinrich III Herzog von Braunschweig-Grubenhagen, *ca 1416, +Grubenhagen 27.5./20.12.1464; m.by 27.6.1457 Margarete (+Salzderhelden after 9.5.1491), dau.of Herzog Johann I von Sagan
 				name=Heinrich
-				dynasty=650
+				dynasty_house=braunschweig_grubenhagen
 				religion=catholic culture=german
-				father=100012762	# Erich Welf
+				father=100012762	# Erich von Braunschweig-Grubenhagen
 				mother=100086607	# Elisabeth von Braunschweig-Göttingen
 				1416.01.01={birth=yes}
 				1457.06.27={add_spouse=100091933}	# Margarete von Sagan
@@ -158,9 +158,9 @@
 			}
 				100012798={ #//  F2. Heinrich IV Herzog von Braunschweig-Grubenhagen, *ca 1460, +Salzderhelden 6.12.1526; m.Einbeck 26.8.1494 Elisabeth (+after 7.4.1542), dau.of Herzog Johann IV von Sachsen-Lauenburg $$
 					name=Heinrich
-					dynasty=650
+					dynasty_house=braunschweig_grubenhagen
 					religion=catholic culture=german
-					father=100012788	# Heinrich Welf
+					father=100012788	# Heinrich von Braunschweig-Grubenhagen
 					mother=100091933	# Margarete von Sagan
 					1460.01.01={birth=yes}
 					1494.08.26={add_spouse=100003590}	# Elisabeth von Sachsen-Lauenburg
@@ -168,18 +168,18 @@
 				}
 			100012805={ #//  E2. Ernst III Herzog von Braunschweig-Grubenhagen, *ca 1418, +26.5./12.12.1466
 				name="Ernst [Herzog von Braunschweig - Grubenhagen"
-				dynasty=650
+				dynasty_house=braunschweig_grubenhagen
 				religion=catholic culture=german
-				father=100012762	# Erich Welf
+				father=100012762	# Erich von Braunschweig-Grubenhagen
 				mother=100086607	# Elisabeth von Braunschweig-Göttingen
 				1418.01.01={birth=yes}
 				1466.05.26={death=yes}
 			}
 			100012806={ #//  E3. Albrecht III Herzog von Braunschweig-Grubenhagen in Herzberg and Osterode 1481, *1.11.1419, +15.8.1485; m.Einbeck 15.10.1471 Elisabeth (+after 15.3.1513), dau.of Gf Volrad von Waldeck $$
 				name=Albrecht
-				dynasty=650
+				dynasty_house=braunschweig_grubenhagen
 				religion=catholic culture=german
-				father=100012762	# Erich Welf
+				father=100012762	# Erich von Braunschweig-Grubenhagen
 				mother=100086607	# Elisabeth von Braunschweig-Göttingen
 				1419.11.01={birth=yes}
 				1471.10.15={add_spouse=100007101}	# Elisabeth zu Waldeck u.Pyrmont
@@ -187,9 +187,9 @@
 			}
 				100012807={ #//  F2. Philipp I Herzog von Braunschweig-Grubenhagen, *ca 1476, +Herzeberg 4.9.1551; 1m: before 1508 NN (+1509); 2m: 1517 Katharina von Mansfeld (*1.10.1501 +Herzberg 1535) $$
 					name=Philip
-					dynasty=650
+					dynasty_house=braunschweig_grubenhagen
 					religion=catholic culture=german
-					father=100012806	# Albrecht Welf
+					father=100012806	# Albrecht von Braunschweig-Grubenhagen
 					mother=100007101	# Elisabeth zu Waldeck u.Pyrmont
 					1476.01.01={birth=yes}
 					1517.01.01={add_spouse=100010650}	# Katharina von Mansfeld
@@ -197,9 +197,9 @@
 				}
 					100012808={ #//  G2. Ernst V Herzog zu Braunschweig-Lüneburg (1566-67), *17.12.1518, +Herzberg 2.4.1567; m.Wolgast 9.10.1547 Margarete von Pommern (*V.1518, +Salzderhelden 24.6.1569) $$
 						name=Ernst
-						dynasty=650
+						dynasty_house=braunschweig_grubenhagen
 						religion=catholic culture=german
-						father=100012807	# Philip Welf
+						father=100012807	# Philip von Braunschweig-Grubenhagen
 						mother=100010650	# Katharina von Mansfeld
 						1518.12.17={birth=yes}
 						1547.10.09={add_spouse=100010389}	# Margarete Gryfita
@@ -208,18 +208,18 @@
 						100012809={ #//  H1. Elisabeth, *Salzderhelden 20.3.1550, +Osterholm auf Alsen 11.2.1586; m.Kolding 19.8.1568 Herzog Johann von Holstein-Sonderburg (*25.3.1545 +9.10.1622) $$
 							name=Elisabeth
 							female=yes
-							dynasty=650
+							dynasty_house=braunschweig_grubenhagen
 							religion=catholic culture=german
-							father=100012808	# Ernst Welf
+							father=100012808	# Ernst von Braunschweig-Grubenhagen
 							mother=100010389	# Margarete Gryfita
 							1550.03.20={birth=yes}  # Salzderhelden
 							1586.02.11={death=yes}  # Osterholm_auf_Alsen
 						}
 					100012810={ #//  G3. Albrecht, *Herzberg 20/21.10.1521, +k.a.Nördlingen 20.10.1546
 						name=Albrecht
-						dynasty=650
+						dynasty_house=braunschweig_grubenhagen
 						religion=catholic culture=german
-						father=100012807	# Philip Welf
+						father=100012807	# Philip von Braunschweig-Grubenhagen
 						mother=100010650	# Katharina von Mansfeld
 						1521.10.21={birth=yes}  # Herzberg
 						1546.10.20={death=yes}  # Nördlingen
@@ -227,27 +227,27 @@
 					100012814={ #//  G9. Katharina, *30.8.1524, +Saalfeld 24.2.1581; 1m: Torgau 12.2.1542 Herzog Johann Ernst von Sachsen-Coburg (+Coburg 1553); 2m: Saalfeld 4.12.1559 Gf Philipp I von Schwarzburg-Leutenberg (+Leipzig 8.10.1564) $$
 						name=Katharina
 						female=yes
-						dynasty=650
+						dynasty_house=braunschweig_grubenhagen
 						religion=catholic culture=german
-						father=100012807	# Philip Welf
+						father=100012807	# Philip von Braunschweig-Grubenhagen
 						mother=100010650	# Katharina von Mansfeld
 						1524.08.30={birth=yes}
 						1581.02.24={death=yes}  # Saalfeld
 					}
 					100012811={ #//  G5. Johann, *28.5.1526, +k.a.Saint-Quentin 2.9.1557
 						name=Johann
-						dynasty=650
+						dynasty_house=braunschweig_grubenhagen
 						religion=catholic culture=german
-						father=100012807	# Philip Welf
+						father=100012807	# Philip von Braunschweig-Grubenhagen
 						mother=100010650	# Katharina von Mansfeld
 						1526.05.28={birth=yes}
 						1557.09.02={death=yes}  # Saint_Quentin
 					}
 					100012812={ #//  G6. Herzog Wolfgang, in Katlenburg u.Grubenhagen 1567, *Herzberg 6.4.1531, +Herzberg 14.3.1595; m.Osterode 10.12.1570 Dorothea (*Lüneburg 11.3.1543, +Herzberg 5.4.1586), dau.of Herzog Franz I von Sachsen-Lauenburg $$
 						name=Wolfgang
-						dynasty=650
+						dynasty_house=braunschweig_grubenhagen
 						religion=catholic culture=german
-						father=100012807	# Philip Welf
+						father=100012807	# Philip von Braunschweig-Grubenhagen
 						mother=100010650	# Katharina von Mansfeld
 						1531.04.06={birth=yes}  # Herzberg
 						1570.12.10={add_spouse=100000323}	# Dorothea von Sachsen-Lauenburg
@@ -255,9 +255,9 @@
 					}
 					100012813={ #//  G7. Herzog Philipp II, in Herzberg u.Osterode 1567, in Grubenhagen 1595, *Herzberg 2.5.1533, +Herzberg 4.4.1596; m.Wolfenbüttel 1.7.1560 Klara von Braunschweig-Wolfenbüttel (*1532, +Herzberg 1595) dau.of Herzog Heinrich II von Braunschweig-Wolfenbüttel
 						name=Philipp
-						dynasty=650
+						dynasty_house=braunschweig_grubenhagen
 						religion=catholic culture=german
-						father=100012807	# Philip Welf
+						father=100012807	# Philip von Braunschweig-Grubenhagen
 						mother=100010650	# Katharina von Mansfeld
 						1533.05.02={birth=yes}  # Herzberg
 						1560.07.01={add_spouse=100094620}	# Klara von Braunschweig-Wolfenbüttel
@@ -265,16 +265,16 @@
 					}
 				100012815={ #//  F3. Ernst IV Herzog von Braunschweig-Grubenhagen, *ca 1477, +before 13.3.1496
 					name="Ernst [Herzog von Braunschweig - Grubenhagen"
-					dynasty=650
+					dynasty_house=braunschweig_grubenhagen
 					religion=catholic culture=german
-					father=100012806	# Albrecht Welf
+					father=100012806	# Albrecht von Braunschweig-Grubenhagen
 					mother=100007101	# Elisabeth zu Waldeck u.Pyrmont
 					1477.01.01={birth=yes}
 					1496.03.13={death=yes}  # before
 				}
 	100012819={ #//  C4. Ernst Herzog von Braunschweig in Herzberg 1384, *ca 1346, +21.5.1402
 		name=Ernst
-		dynasty=650
+		dynasty_house=braunschweig_grubenhagen
 		religion=catholic culture=german
 		father=462816	# Ernst Welf
 		mother=462817	# Adelheid
@@ -283,7 +283,7 @@
 	}
 	100012820={ #//  C5. Friedrich Herzog von Braunschweig in Herzberg, in Salzderhelden, in Herzberg and Osterode, *ca 1350, +1421; m.Adelheid von Anhalt (+after 29.9.1405)
 		name=Friedrich
-		dynasty=650
+		dynasty_house=braunschweig_grubenhagen
 		religion=catholic culture=german
 		father=462816	# Ernst Welf
 		mother=462817	# Adelheid
@@ -293,9 +293,9 @@
 	}
 		100012821={ #//  D1. Otto II Herzog von Braunschweig in Herzberg, *ca 1396, +6.1./16.4.1452; m.18.7./22.9.1414 Schonette (+Hildesheim 25.4.1436), dau.of Gf Johann I von Nassau-Saarbrücken $$
 			name=Otto
-			dynasty=650
+			dynasty_house=braunschweig_grubenhagen
 			religion=catholic culture=german
-			father=100012820	# Friedrich Welf
+			father=100012820	# Friedrich von Braunschweig-Grubenhagen
 			mother=100103056	# Adelheid von Anhalt
 			1396.01.01={birth=yes}
 			1414.07.18={add_spouse=100103070}	# Schonette von Nassau
@@ -304,7 +304,7 @@
 	100012822={ #//  C6. Adelheid, *ca 1341, +8.5.1406; m.ca 1362 Herzog Bogislaw V von Pommrn (*1316 +7.12.1373)
 		name=Adelheid
 		female=yes
-		dynasty=650
+		dynasty_house=braunschweig_grubenhagen
 		religion=catholic culture=german
 		father=462816	# Ernst Welf
 		mother=462817	# Adelheid
@@ -314,7 +314,7 @@
 	100012823={ #//  C7. Agnes, *ca 1342, +after 5.11.1394; m.by 1362 Gf Ulrich von Honstein (+after 11.9.1414)
 		name=Agnes
 		female=yes
-		dynasty=650
+		dynasty_house=braunschweig_grubenhagen
 		religion=catholic culture=german
 		father=462816	# Ernst Welf
 		mother=462817	# Adelheid
@@ -324,7 +324,7 @@
 	100012824={ #//  C8. Anna, *ca 1343, +by 1409; m.by 5.1.1364 Gf Heinrich VIII von Honstein (+1408/09)
 		name=Anna
 		female=yes
-		dynasty=650
+		dynasty_house=braunschweig_grubenhagen
 		religion=catholic culture=german
 		father=462816	# Ernst Welf
 		mother=462817	# Adelheid
@@ -620,7 +620,7 @@
 			father=100009362	# Wilhelm von Braunschweig
 			mother=100002043	# Cäcilie von Hohenzollern
 			1427.01.01={birth=yes}  # EST.
-			1463.02.01={add_spouse=100012818}	# Anna Welf
+			1463.02.01={add_spouse=100012818}	# Anna von Braunschweig-Grubenhagen
 			1495.03.06={death=yes}
 		}
 	100009413={ #//  A2. Heinrich, Herzog von Braunschweig-Wolfenbüttel (1432-73), *1411, +Wolfenbüttel 7.12.1473; m.12.2.1436 Helene de Cleves (18.8.1423 +3.7.1471)
