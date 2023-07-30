@@ -1,4 +1,4 @@
-﻿########################################################
+########################################################
 ##  Nassau					263
 ##  Nassau-Siegen          	1002097
 ##  Oranje					1008000		
@@ -34,7 +34,7 @@
 
 #nassau2
 # 462366 Gf Johann I von Nassau-Weilburg (1355-71), *1309, +Weilburg 1371; 1m: 1333 Gertrud von Merenberg, heiress of Merenberg and Gleiberg (+1350); 2m: 1353 Johanna von Saarbrücken, Dame de Commercy (+1381)
-	100092750={ #// A2. Gf Philipp I von Nassau-Weilburg (1371-1429), in Saarbrücken (1381-1429), in Neuweilnau (1405-29), *1368, +Wiesbaden 2.7.1429; 
+	100092750={ #// A2. Gf Philipp I von Nassau-Weilburg (1371-1429), in Saarbrücken (1381-1429), in Neuweilnau (1405-29), *1368, +Wiesbaden 2.7.1429;  $$
 				#	1m: 1385 Anna von Hohenlohe-Weikersheim (+Kirchheimbolanden 11.10.1410);
 				# 2m: 1412 Isabelle of Lorraine (+Saarbrücken 17.1.1456)
 		name=Philipp
@@ -52,51 +52,51 @@
 			name=Johann
 			dynasty=263
 			religion=catholic culture=german
-			father=100092750
-			mother=100066123
+			father=100092750	# Philipp von Nassau
+			mother=100066123	# Isabelle de Lorraine
 			1418.03.12={birth=yes}
 			1492.03.19={death=yes}
 		}
-			100092748={ #// C1. Gf Johann Ludwig I von Nassau-Saarbrücken (1472-1545), *Saarbrücken 20.10.1472, +Saarbrücken 4.6.1545; 
+			100092748={ #// C1. Gf Johann Ludwig I von Nassau-Saarbrücken (1472-1545), *Saarbrücken 20.10.1472, +Saarbrücken 4.6.1545;  $$
 				# 1m: Saarbrücken 29.1.1492 Pfgfn Elisabeth von Zweibrücken (*1469 +23.6.1500); 
 				# 2m: 14.2.1507 Katharina von Mörs, heiress of Saarwerden (*1491 +16.9.1547)
 				name="Johann Ludwig"
 				dynasty=263
 				religion=catholic culture=german
-				father=100037021
+				father=100037021	# Johann von Nassau
 				1467.01.01={birth=yes}
-				1492.01.29={add_spouse=100007800}	# Elisabeth v. Wittelsbach
+				1492.01.29={add_spouse=100007800}	# Elisabeth von Wittelsbach
 				1545.06.04={death=yes}
 			}
-				100091934={ #// D5. Ottilie, *26.12.1492, +1.3.1554; m.1516 Gf Johann V zu Sayn (*1493 +1529)
+				100091934={ #// D5. Ottilie, *26.12.1492, +1.3.1554; m.1516 Gf Johann V zu Sayn (*1493 +1529) $$
 					name=Ottilie 
 					female=yes
 					dynasty=263
 					religion=catholic culture=german
-					father=100092748
-					mother=100007800
+					father=100092748	# Johann Ludwig von Nassau
+					mother=100007800	# Elisabeth von Wittelsbach
 					1492.12.26={birth=yes}
 					1554.03.01={death=yes}
 				}
-				100094146={ #// D14. Katharina, *11.1.1517, +1553; m.17.7.1537 Gf Emich X von Leiningen-Hartenburg (*1498 +10.1.1541)
+				100094146={ #// D14. Katharina, *11.1.1517, +1553; m.17.7.1537 Gf Emich X von Leiningen-Hartenburg (*1498 +10.1.1541) $$
 					name=Katharina
 					female=yes
 					dynasty=263
 					religion=catholic culture=german
-					father=100092748
+					father=100092748	# Johann Ludwig von Nassau
 					1517.01.01={birth=yes}
 					1553.01.01={death=yes}
 				}
-			100092745={ #// C3. Johanna, *14.4.1464, +7.5.1521; m.29.9.1481 Pfgf Johann I von Simmern (+28.1.1509)
+			100092745={ #// C3. Johanna, *14.4.1464, +7.5.1521; m.29.9.1481 Pfgf Johann I von Simmern (+28.1.1509) $$
 				name=Johanna
 				female=yes
 				dynasty=263
 				religion=catholic culture=german
-				father=100037021
+				father=100037021	# Johann von Nassau
 				1464.04.14={birth=yes}
 				1521.05.07={death=yes}
 			}
-	100103070={ #// A6. Schonette, +Hildesheim 25.4.1436; 1m: 30.6.1384 Heinrich X von Homburg (+1409); 2m: 1414 Duke Otto of Braunschweig-Grubenhagen (+1452)
+	100103070={ #// A6. Schonette, +Hildesheim 25.4.1436; 1m: 30.6.1384 Heinrich X von Homburg (+1409); 2m: 1414 Duke Otto of Braunschweig-Grubenhagen (+1452) $$
 		name=Schonette
 		female=yes
 		dynasty=263
@@ -237,7 +237,7 @@
 							father=100037429	# Philipp von Nassau-Idstein
 							mother=100099660	# Adriane de Glymes
 							1520.01.01={birth=yes}
-							1564.06.09={add_spouse=100011818}	# Margareta v. Isenburg
+							1564.06.09={add_spouse=100011818}	# Margareta zu Ysenburg und Büdingen
 							1568.01.11={death=yes}
 						}
 							100037455={ #// G1. Gf Johann Ludwig I, von Nassau-Wiesbaden-Idstein, *15.4.1567, +after fall from window 20.6.1596; m.Idstein 2.12.1588 Gfn Marie von Nassau-Dillenburg (*12.11.1568 +1625) $$
@@ -245,18 +245,18 @@
 								dynasty_house=house_nassau_idstein
 								religion=catholic culture=german
 								father=100037453	# Balthasar von Nassau-Idstein
-								mother=100011818	# Margareta v. Isenburg
+								mother=100011818	# Margareta zu Ysenburg und Büdingen
 								1567.04.15={birth=yes}
-								1588.12.02={add_spouse=100037185}	# Marie v. Nassau-Siegen
+								1588.12.02={add_spouse=100037185}	# Marie von Nassau-Siegen
 								1596.06.20={death=yes}  # after fall from window
 							}
-								100037457={ #// H3. Margarete, *Idstein 15.9.1589, +Rheda 28.12.1660; 1m: Birstein 30.11.1606 Gf Adolf von Bentheim-Tecklenburg (*1577 +5.11.1623); 2m: Rheda 29.6.1631 Wilhelm, Frhr von Wanieczky (+Tecklenburg 7.9.1644)
+								100037457={ #// H3. Margarete, *Idstein 15.9.1589, +Rheda 28.12.1660; 1m: Birstein 30.11.1606 Gf Adolf von Bentheim-Tecklenburg (*1577 +5.11.1623); 2m: Rheda 29.6.1631 Wilhelm, Frhr von Wanieczky (+Tecklenburg 7.9.1644) $$
 									name=Margareta
 									female=yes
 									dynasty_house=house_nassau_idstein
 									religion=catholic culture=german
 									father=100037455	# Johann Ludwig von Nassau-Idstein
-									mother=100037185	# Marie v. Nassau-Siegen
+									mother=100037185	# Marie von Nassau-Siegen
 									1589.09.15={birth=yes}  # Idstein
 									1660.12.28={death=yes}  # Rheda
 								}
@@ -266,7 +266,7 @@
 									dynasty_house=house_nassau_idstein
 									religion=catholic culture=german
 									father=100037455	# Johann Ludwig von Nassau-Idstein
-									mother=100037185	# Marie v. Nassau-Siegen
+									mother=100037185	# Marie von Nassau-Siegen
 									1590.12.04={birth=yes}  # Idstein
 									1622.01.06={death=yes}  # Detmold
 								}
@@ -276,7 +276,7 @@
 									dynasty_house=house_nassau_idstein
 									religion=catholic culture=german
 									father=100037455	# Johann Ludwig von Nassau-Idstein
-									mother=100037185	# Marie v. Nassau-Siegen
+									mother=100037185	# Marie von Nassau-Siegen
 									1592.08.11={birth=yes}  # Idstein
 									1654.01.13={death=yes}  # Offenbach
 								}
@@ -297,7 +297,7 @@
 					father=100037413	# Johann von Nassau-Idstein
 					mother=100037276	# Marie von Nassau
 					1450.01.01={birth=yes}
-					1470.01.01={add_spouse=100007705}	# Margarete v. Wittelsbach
+					1470.01.01={add_spouse=100007705}	# Margarete von Wittelsbach
 					1509.06.16={death=yes}
 				}
 			100037472={ #// C4. Anna, *1421, +1465; m.1438 Eberhard III von Eppstein (+1466)
@@ -364,33 +364,33 @@
 
 
 #nassau4
-100037001={ #// Philipp II Gf von Nassau-Weilburg (12 Mar 1418-Mainz 19 Mar 1492); m.1st 25 Sep 1440 Margarete von Loon zu Heinsberg (25 Jul 1426-Weilburg 12 Feb 1446); m.2nd 1477 Gfn Veronika von Sayn-Wittgenstein(d.3 Jul 1511)
+100037001={ #// Philipp II Gf von Nassau-Weilburg (12 Mar 1418-Mainz 19 Mar 1492); m.1st 25 Sep 1440 Margarete von Loon zu Heinsberg (25 Jul 1426-Weilburg 12 Feb 1446); m.2nd 1477 Gfn Veronika von Sayn-Wittgenstein(d.3 Jul 1511) $$
 	name=Philipp
 	dynasty_house=house_nassau_weilburg
 	religion=catholic culture=german
-	father=100092750
-	mother=100066123
+	father=100092750	# Philipp von Nassau
+	mother=100066123	# Isabelle de Lorraine
 	1418.03.12={birth=yes}
 	1440.09.25={add_spouse=100082019}	# Margarete von Loon zu Heinsberg
-	1477.01.01={add_spouse=100008903}	# Veronika zu Sayn
+	1477.01.01={add_spouse=100008903}	# Veronika von Sayn
 	1492.03.19={death=yes}  # Mainz
 }
 	100037006={ #// 1a) Johann III Gf  von Nassau-Weilburg (27 Jun 1441-15 Jul 1480); m.1464 Landgfn Elisabeth von Hessen (1453-22 Apr 1489) $$
 		name=Johann
 		dynasty_house=house_nassau_weilburg
 		religion=catholic culture=german
-		father=100037001	# Philipp v. Nassau-Weilburg
+		father=100037001	# Philipp von Nassau-Weilburg
 		mother=100082019	# Margarete von Loon zu Heinsberg
 		1441.06.27={birth=yes}
-		1464.01.01={add_spouse=100001892}	# Elisabeth v. Hessen
+		1464.01.01={add_spouse=100001892}	# Elisabeth von Hessen
 		1480.07.15={death=yes}
 	}
 		100037094={ #// 1b) Ludwig I Gf von Nassau-Weilburg (ca 1473-28 May 1523); m.1502 Maria Margareta Gfn von Nassau-Wiesbaden (9 Aug 1487-2 Mar 1548) $$
 			name=Ludwig
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=german
-			father=100037006	# Johann v. Nassau-Weilburg
-			mother=100001892	# Elisabeth v. Hessen
+			father=100037006	# Johann von Nassau-Weilburg
+			mother=100001892	# Elisabeth von Hessen
 			1473.01.01={birth=yes}
 			1502.01.01={add_spouse=100037464}	# Maria Margareta von Nassau-Idstein
 			1523.05.28={death=yes}
@@ -399,19 +399,19 @@
 				name=Philipp
 				dynasty_house=house_nassau_weilburg
 				religion=catholic culture=german
-				father=100037094	# Ludwig v. Nassau-Weilburg
+				father=100037094	# Ludwig von Nassau-Weilburg
 				mother=100037464	# Maria Margareta von Nassau-Idstein
 				1504.09.20={birth=yes}  # Weilnau
-				1523.01.01={add_spouse=100012872}	# Elisabeth zu Sayn
+				1523.01.01={add_spouse=100012872}	# Elisabeth von Sayn
 				1536.01.01={add_spouse=100010723}	# Anna von Mansfeld
-				1541.08.17={add_spouse=100011845}	# Amalie v. Isenburg
+				1541.08.17={add_spouse=100011845}	# Amalie zu Ysenburg und Büdingen
 				1559.10.04={death=yes}  # Weilburg
 			}
 				100037129={ #// 3d) Albrecht Gf von Nassau-Weilburg, 1574 in Ottweiler, Hohenburg, Kirchheim, Lahr u.Mahlberg (Neuweilnau 13 Dec 1537-Schloß Ottweiler 11 Nov 1593); m.Dillenburg 16 Jun 1559 Anna Gfn von Nassau-Dillenburg (Dillenburg 26 Sep 1541-Weilburg 12 Feb 1616) $$
 					name=Albrecht
 					dynasty_house=house_nassau_weilburg
 					religion=catholic culture=german
-					father=100037099	# Philipp v. Nassau-Weilburg
+					father=100037099	# Philipp von Nassau-Weilburg
 					mother=100010723	# Anna von Mansfeld
 					1537.12.13={birth=yes}  # Neuweilnau
 					1559.06.16={add_spouse=100037266}	# Anna von Nassau
@@ -422,7 +422,7 @@
 						female=yes
 						dynasty_house=house_nassau_weilburg
 						religion=catholic culture=german
-						father=100037129	# Albrecht v. Nassau-Weilburg
+						father=100037129	# Albrecht von Nassau-Weilburg
 						mother=100037266	# Anna von Nassau
 						1560.10.12={birth=yes}  # Weilburg
 						1634.01.06={death=yes}  # Strassburg
@@ -431,18 +431,18 @@
 						name=Ludwig
 						dynasty_house=house_nassau_weilburg
 						religion=catholic culture=german
-						father=100037129	# Albrecht v. Nassau-Weilburg
+						father=100037129	# Albrecht von Nassau-Weilburg
 						mother=100037266	# Anna von Nassau
 						1565.08.09={birth=yes}  # Weilburg
-						1589.06.08={add_spouse=100004342}	# Anna v. Hessen-Kassel
+						1589.06.08={add_spouse=100004342}	# Anna von Hessen-Kassel
 						1627.11.08={death=yes}  # Saarbrücken
 					}
 						100037174={ #// 1f) Wilhelm Ludwig, Gf von Nassau-Saarbrücken u.Ottweiler 1629 (Ottweiler 18 Dec 1590-Metz 22 Aug 1640); m.Saarbrücken 25 Nov 1615 Mkgfn Anna Amalie von Baden-Durlach (9 Jul 1595-Saarbrücken 18 Nov 1651) $$
 							name="Wilhelm Ludwig"
 							dynasty_house=house_nassau_weilburg
 							religion=catholic culture=german
-							father=100037148	# Ludwig v. Nassau-Weilburg
-							mother=100004342	# Anna v. Hessen-Kassel
+							father=100037148	# Ludwig von Nassau-Weilburg
+							mother=100004342	# Anna von Hessen-Kassel
 							1590.12.18={birth=yes}  # Ottweiler
 							1615.11.25={add_spouse=100004396}	# Anna Amalie von Baden
 							1640.08.22={death=yes}  # Metz
@@ -452,7 +452,7 @@
 								female=yes
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037174	# Wilhelm Ludwig v. Nassau-Weilburg
+								father=100037174	# Wilhelm Ludwig von Nassau-Weilburg
 								mother=100004396	# Anna Amalie von Baden
 								1617.04.18={birth=yes}  # Saarbrücken
 								1667.12.29={death=yes}  # Meisenheim
@@ -462,7 +462,7 @@
 								female=yes
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037174	# Wilhelm Ludwig v. Nassau-Weilburg
+								father=100037174	# Wilhelm Ludwig von Nassau-Weilburg
 								mother=100004396	# Anna Amalie von Baden
 								1619.12.01={birth=yes}  # Saarbrücken
 								1687.11.01={death=yes}
@@ -471,7 +471,7 @@
 								name=Kraft
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037174	# Wilhelm Ludwig v. Nassau-Weilburg
+								father=100037174	# Wilhelm Ludwig von Nassau-Weilburg
 								mother=100004396	# Anna Amalie von Baden
 								1621.04.07={birth=yes}  # Saarbrücken
 								1642.07.14={death=yes}  # Rheinberg
@@ -480,18 +480,18 @@
 								name="Johann Ludwig"
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037174	# Wilhelm Ludwig v. Nassau-Weilburg
+								father=100037174	# Wilhelm Ludwig von Nassau-Weilburg
 								mother=100004396	# Anna Amalie von Baden
 								1625.05.24={birth=yes}  # Saarbrücken
-								1649.10.06={add_spouse=100007766}	# Dorothea Katharina v. Wittelsbach
+								1649.10.06={add_spouse=100007766}	# Dorothea Katharina von Pfalz-Zweibrücken-Birkenfeld
 								1690.02.09={death=yes}  # Reichelsheim
 							}
-								100037265={ #// 2h) Friedrich Ludwig, Gf von Nassau-Ottweiler 1680, in Rixingen 1703, in Wiesbaden, Idstein, etc 1721 (Ottweiler 3 Nov 1651-Saarbrücken 25 May 1728); m.1st Gravenstein, Schleswig 28 Jul 1680 Christiane Gfn von Ahlefeld, Frau von Rixingen (Glückstadt 11 Apr 1659-Ottweiler 2 Feb 1695); m.2nd Dhaun 27 Sep 1697 Luise Sofie Gfn von Hanau-Lichtenberg (11 Apr 1662-Ottweiler 9 Apr 1751)
+								100037265={ #// 2h) Friedrich Ludwig, Gf von Nassau-Ottweiler 1680, in Rixingen 1703, in Wiesbaden, Idstein, etc 1721 (Ottweiler 3 Nov 1651-Saarbrücken 25 May 1728); m.1st Gravenstein, Schleswig 28 Jul 1680 Christiane Gfn von Ahlefeld, Frau von Rixingen (Glückstadt 11 Apr 1659-Ottweiler 2 Feb 1695); m.2nd Dhaun 27 Sep 1697 Luise Sofie Gfn von Hanau-Lichtenberg (11 Apr 1662-Ottweiler 9 Apr 1751) $$
 									name="Friedrich Ludwig"
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037263	# Johann Ludwig v. Nassau-Weilburg
-									mother=100007766	# Dorothea Katharina v. Wittelsbach
+									father=100037263	# Johann Ludwig von Nassau-Weilburg
+									mother=100007766	# Dorothea Katharina von Pfalz-Zweibrücken-Birkenfeld
 									1651.11.03={birth=yes}  # Ottweiler
 									1680.07.28={add_spouse=100093459}	# GFN Christiane von Ahlefeldt-Rixingen
 									1697.09.27={add_spouse=100010619}	# Luise Sofie von Hanau in Babenhausen
@@ -502,7 +502,7 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037265	# Friedrich Ludwig v. Nassau-Weilburg
+										father=100037265	# Friedrich Ludwig von Nassau-Weilburg
 										mother=100093459	# GFN Christiane von Ahlefeldt-Rixingen
 										1685.09.02={birth=yes}  # Ottweiler
 										1761.11.06={death=yes}  # Homburg vor der_Höhe
@@ -512,7 +512,7 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037265	# Friedrich Ludwig v. Nassau-Weilburg
+										father=100037265	# Friedrich Ludwig von Nassau-Weilburg
 										mother=100093459	# GFN Christiane von Ahlefeldt-Rixingen
 										1686.12.17={birth=yes}  # Ottweiler
 										1773.04.16={death=yes}  # Dhaun
@@ -522,7 +522,7 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037265	# Friedrich Ludwig v. Nassau-Weilburg
+										father=100037265	# Friedrich Ludwig von Nassau-Weilburg
 										mother=100093459	# GFN Christiane von Ahlefeldt-Rixingen
 										1688.10.08={birth=yes}  # Ottweiler
 										1753.05.28={death=yes}  # Hachenburg
@@ -532,7 +532,7 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037265	# Friedrich Ludwig v. Nassau-Weilburg
+										father=100037265	# Friedrich Ludwig von Nassau-Weilburg
 										mother=100093459	# GFN Christiane von Ahlefeldt-Rixingen
 										1690.12.03={birth=yes}  # Ottweiler
 										1714.03.15={death=yes}  # Ottweiler
@@ -542,7 +542,7 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037265	# Friedrich Ludwig v. Nassau-Weilburg
+										father=100037265	# Friedrich Ludwig von Nassau-Weilburg
 										mother=100093459	# GFN Christiane von Ahlefeldt-Rixingen
 										1692.03.18={birth=yes}  # Ottweiler
 										1740.12.17={death=yes}  # Püttlingen
@@ -552,8 +552,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037263	# Johann Ludwig v. Nassau-Weilburg
-									mother=100007766	# Dorothea Katharina v. Wittelsbach
+									father=100037263	# Johann Ludwig von Nassau-Weilburg
+									mother=100007766	# Dorothea Katharina von Pfalz-Zweibrücken-Birkenfeld
 									1653.01.20={birth=yes}  # Ottweiler
 									1731.02.15={death=yes}  # Dhaun
 								}
@@ -561,8 +561,8 @@
 									name=Walrad
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037263	# Johann Ludwig v. Nassau-Weilburg
-									mother=100007766	# Dorothea Katharina v. Wittelsbach
+									father=100037263	# Johann Ludwig von Nassau-Weilburg
+									mother=100007766	# Dorothea Katharina von Pfalz-Zweibrücken-Birkenfeld
 									1656.11.07={birth=yes}  # Saarbrücken
 									1705.01.15={death=yes}  # Ottweiler
 								}
@@ -570,8 +570,8 @@
 									name="Karl Siegfried"
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037263	# Johann Ludwig v. Nassau-Weilburg
-									mother=100007766	# Dorothea Katharina v. Wittelsbach
+									father=100037263	# Johann Ludwig von Nassau-Weilburg
+									mother=100007766	# Dorothea Katharina von Pfalz-Zweibrücken-Birkenfeld
 									1659.09.03={birth=yes}  # Ottweiler
 									1679.02.03={death=yes}  # Butzbach
 								}
@@ -579,8 +579,8 @@
 									name=Ludwig
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037263	# Johann Ludwig v. Nassau-Weilburg
-									mother=100007766	# Dorothea Katharina v. Wittelsbach
+									father=100037263	# Johann Ludwig von Nassau-Weilburg
+									mother=100007766	# Dorothea Katharina von Pfalz-Zweibrücken-Birkenfeld
 									1661.02.16={birth=yes}  # Ottweiler
 									1694.04.09={add_spouse=100094336}	# GFN Amalie Luise von Hornes
 									1699.12.19={death=yes}  # The Hague
@@ -590,8 +590,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037263	# Johann Ludwig v. Nassau-Weilburg
-									mother=100007766	# Dorothea Katharina v. Wittelsbach
+									father=100037263	# Johann Ludwig von Nassau-Weilburg
+									mother=100007766	# Dorothea Katharina von Pfalz-Zweibrücken-Birkenfeld
 									1662.10.27={birth=yes}  # Ottweiler
 									1741.10.10={death=yes}  # Ottweiler
 								}
@@ -600,7 +600,7 @@
 								female=yes
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037174	# Wilhelm Ludwig v. Nassau-Weilburg
+								father=100037174	# Wilhelm Ludwig von Nassau-Weilburg
 								mother=100004396	# Anna Amalie von Baden
 								1628.10.06={birth=yes}
 								1699.04.09={death=yes}  # Alverdissen
@@ -609,20 +609,20 @@
 								name="Gustav Adolf"
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037174	# Wilhelm Ludwig v. Nassau-Weilburg
+								father=100037174	# Wilhelm Ludwig von Nassau-Weilburg
 								mother=100004396	# Anna Amalie von Baden
 								1632.03.27={birth=yes}  # Saarbrücken
-								1662.06.14={add_spouse=100002690}	# Eleonore Klara von Hohenlohe in Öhringen
+								1662.06.14={add_spouse=100002690}	# Eleonore Klara von Hohenlohe-Waldenburg
 								1677.10.09={death=yes}  # Strassburg
 							}
 								100037325={ #// 1h) Ludwig Kraft Gf von Nassau-Saarbrücken, Hr zu Bitsch (Saarbrücken 28 Mar 1663-Saarbrücken 14 Feb 1713); m.Saarbrücken 25 Apr 1699 Philippine Henriette Gfn von Hohenlohe-Langenburg (Langenburg 15 Nov 1679-Bergzabern 14 Jan 1751) $$
 									name="Ludwig Kraft"
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037323	# Gustav Adolf v. Nassau-Weilburg
-									mother=100002690	# Eleonore Klara von Hohenlohe in Öhringen
+									father=100037323	# Gustav Adolf von Nassau-Weilburg
+									mother=100002690	# Eleonore Klara von Hohenlohe-Waldenburg
 									1663.03.28={birth=yes}  # Saarbrücken
-									1699.04.25={add_spouse=100008835}	# Philippine Henriette von Hohenlohe in Öhringen
+									1699.04.25={add_spouse=100008835}	# Philippine Henriette Hohenlohe-Langenburg
 									1713.02.14={death=yes}  # Saarbrücken
 								}
 									100037326={ #// 3i) Henriette (Saarbrücken 26 Nov 1702-Bergzabern 29 Jun 1769)
@@ -630,8 +630,8 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037325	# Ludwig Kraft v. Nassau-Weilburg
-										mother=100008835	# Philippine Henriette von Hohenlohe in Öhringen
+										father=100037325	# Ludwig Kraft von Nassau-Weilburg
+										mother=100008835	# Philippine Henriette Hohenlohe-Langenburg
 										1702.11.26={birth=yes}  # Saarbrücken
 										1769.06.29={death=yes}  # Bergzabern
 									}
@@ -640,8 +640,8 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037325	# Ludwig Kraft v. Nassau-Weilburg
-										mother=100008835	# Philippine Henriette von Hohenlohe in Öhringen
+										father=100037325	# Ludwig Kraft von Nassau-Weilburg
+										mother=100008835	# Philippine Henriette Hohenlohe-Langenburg
 										1704.08.12={birth=yes}  # Saarbrücken
 										1774.03.25={death=yes}  # Darmstadt
 									}
@@ -650,8 +650,8 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037325	# Ludwig Kraft v. Nassau-Weilburg
-										mother=100008835	# Philippine Henriette von Hohenlohe in Öhringen
+										father=100037325	# Ludwig Kraft von Nassau-Weilburg
+										mother=100008835	# Philippine Henriette Hohenlohe-Langenburg
 										1705.12.06={birth=yes}  # Saarbrücken
 										1766.10.28={death=yes}  # Gedern
 									}
@@ -660,8 +660,8 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037325	# Ludwig Kraft v. Nassau-Weilburg
-										mother=100008835	# Philippine Henriette von Hohenlohe in Öhringen
+										father=100037325	# Ludwig Kraft von Nassau-Weilburg
+										mother=100008835	# Philippine Henriette Hohenlohe-Langenburg
 										1707.07.01={birth=yes}  # Saarbrücken
 										1769.10.15={death=yes}  # Langenburg
 									}
@@ -669,10 +669,10 @@
 									name="Karl Ludwig"
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037323	# Gustav Adolf v. Nassau-Weilburg
-									mother=100002690	# Eleonore Klara von Hohenlohe in Öhringen
+									father=100037323	# Gustav Adolf von Nassau-Weilburg
+									mother=100002690	# Eleonore Klara von Hohenlohe-Waldenburg
 									1665.01.06={birth=yes}  # Saarbrücken
-									1713.04.22={add_spouse=100037287}	# Christiane v. Nassau-Weilburg
+									1713.04.22={add_spouse=100037287}	# Christiane von Nassau-Weilburg
 									1723.12.06={death=yes}  # Idstein
 								}
 								100037335={ #// 3h) Sofie Amalie (Saarbrücken 19 Sep 1666-Langenburg 29 Oct 1736); m.22 Aug 1686 Albrecht Wolfgang Gf von Hohenlohe-Langenburg (d.17 Apr 1715) $$
@@ -680,8 +680,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037323	# Gustav Adolf v. Nassau-Weilburg
-									mother=100002690	# Eleonore Klara von Hohenlohe in Öhringen
+									father=100037323	# Gustav Adolf von Nassau-Weilburg
+									mother=100002690	# Eleonore Klara von Hohenlohe-Waldenburg
 									1666.09.19={birth=yes}  # Saarbrücken
 									1736.10.29={death=yes}  # Langenburg
 								}
@@ -690,8 +690,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037323	# Gustav Adolf v. Nassau-Weilburg
-									mother=100002690	# Eleonore Klara von Hohenlohe in Öhringen
+									father=100037323	# Gustav Adolf von Nassau-Weilburg
+									mother=100002690	# Eleonore Klara von Hohenlohe-Waldenburg
 									1669.03.08={birth=yes}  # Saarbrücken
 									1742.12.25={death=yes}  # Langenburg
 								}
@@ -700,20 +700,20 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037323	# Gustav Adolf v. Nassau-Weilburg
-									mother=100002690	# Eleonore Klara von Hohenlohe in Öhringen
+									father=100037323	# Gustav Adolf von Nassau-Weilburg
+									mother=100002690	# Eleonore Klara von Hohenlohe-Waldenburg
 									1670.07.14={birth=yes}  # Saarbrücken
 									1748.06.21={death=yes}  # Grumbach
 								}
-							100037344={ #// 12g) Walrad, Fürst von Nassau zu Saarbrücken u.Saarwerden 1688, in Usingen 1659 (Metz 24 Feb 1635-k.a.Hellenrod 17 Oct 1702); m.1st Malines 16/26 Jun 1678 Katharina Franziska Css de Croy (d.Frankfurt 20 May 1686); m.2nd Binderen 18/28 Jun 1688 Magdalene Elisabeth Gfn von Löwenstein-Wertheim (Wertheim 17 Aug 1662-Frankfurt 5 Jun 1733)
+							100037344={ #// 12g) Walrad, Fürst von Nassau zu Saarbrücken u.Saarwerden 1688, in Usingen 1659 (Metz 24 Feb 1635-k.a.Hellenrod 17 Oct 1702); m.1st Malines 16/26 Jun 1678 Katharina Franziska Css de Croy (d.Frankfurt 20 May 1686); m.2nd Binderen 18/28 Jun 1688 Magdalene Elisabeth Gfn von Löwenstein-Wertheim (Wertheim 17 Aug 1662-Frankfurt 5 Jun 1733) $$
 								name=Walrad
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037174	# Wilhelm Ludwig v. Nassau-Weilburg
+								father=100037174	# Wilhelm Ludwig von Nassau-Weilburg
 								mother=100004396	# Anna Amalie von Baden
 								1635.02.24={birth=yes}  # Metz
 								1678.06.16={add_spouse=100098401}	# CSS Katharina Franziska de Croÿ
-								1688.06.18={add_spouse=100009641}	# Magdalene Elisabeth v. Löwenstein-Wertheim-Rochefort
+								1688.06.18={add_spouse=100009641}	# Magdalene Elisabeth von Löwenstein-Wertheim-Rochefort
 								1702.10.17={death=yes}  # Hellenrod
 							}
 								100037346={ #// 1h) Marie Wilhelmine Henriette (13 Apr 1679-Grumbach 1 Nov 1718); m.Usingen 10 Jan 1701 Karl Ludwig, Wildgf zu Grumbach Gf zu Salm (d.Jun 1727) $$
@@ -721,7 +721,7 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037344	# Walrad v. Nassau-Weilburg
+									father=100037344	# Walrad von Nassau-Weilburg
 									mother=100098401	# CSS Katharina Franziska de Croÿ
 									1679.04.13={birth=yes}
 									1718.11.01={death=yes}  # Grumbach
@@ -730,20 +730,20 @@
 									name="Wilhelm Heinrich"
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037344	# Walrad v. Nassau-Weilburg
+									father=100037344	# Walrad von Nassau-Weilburg
 									mother=100098401	# CSS Katharina Franziska de Croÿ
 									1684.05.02={birth=yes}  # Hertogenbosch
-									1706.04.01={add_spouse=100037131}	# Charlotte Amalie v. Nassau-Siegen
+									1706.04.01={add_spouse=100037131}	# Charlotte Amalie von Nassau-Siegen
 									1718.02.14={death=yes}  # Usingen
 								}
-									100037349={ #// 5i) Karl Fst von Nassau-Usingen, in Idstein 1735, in Falkenstein 1773 (Usingen 1 Jan 1712-Biebrich 21 Jun 1775); m.1st Eisenach 26 Dec 1734 Pss Christiane Wilhelmine von Sachsen-Eisenach (Altenkirchen 3 Sep 1711-Idstein 27 Nov 1740); m.2nd Magdalene Gross (Wiesbaden 26 Feb 1714-Wiesbaden 16 Dec 1787)
+									100037349={ #// 5i) Karl Fst von Nassau-Usingen, in Idstein 1735, in Falkenstein 1773 (Usingen 1 Jan 1712-Biebrich 21 Jun 1775); m.1st Eisenach 26 Dec 1734 Pss Christiane Wilhelmine von Sachsen-Eisenach (Altenkirchen 3 Sep 1711-Idstein 27 Nov 1740); m.2nd Magdalene Gross (Wiesbaden 26 Feb 1714-Wiesbaden 16 Dec 1787) $$
 										name=Karl
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037347	# Wilhelm Heinrich v. Nassau-Weilburg
-										mother=100037131	# Charlotte Amalie v. Nassau-Siegen
+										father=100037347	# Wilhelm Heinrich von Nassau-Weilburg
+										mother=100037131	# Charlotte Amalie von Nassau-Siegen
 										1712.01.01={birth=yes}  # Usingen
-										1734.12.26={add_spouse=100007422}	# Christiane Wilhelmine v. Wettin
+										1734.12.26={add_spouse=100007422}	# Christiane Wilhelmine von Wettin
 										1741.11.27={add_spouse=100098813}	# Magdalene Gross
 										1775.06.21={death=yes}  # Biebrich
 									}
@@ -751,10 +751,10 @@
 											name="Karl Wilhelm"
 											dynasty_house=house_nassau_weilburg
 											religion=catholic culture=german
-											father=100037349	# Karl v. Nassau-Weilburg
-											mother=100007422	# Christiane Wilhelmine v. Wettin
+											father=100037349	# Karl von Nassau-Weilburg
+											mother=100007422	# Christiane Wilhelmine von Wettin
 											1735.11.09={birth=yes}  # Usingen
-											1760.04.16={add_spouse=100003397}	# Karoline Felizitas zu Leiningen
+											1760.04.16={add_spouse=100003397}	# Karoline Felizitas von Leiningen
 											1803.05.17={death=yes}  # Biebrich
 										}
 											100037352={ #// 2k) Karoline (Schloß Biebrich 4 Apr 1762-Rumpenheim 17 Aug 1823); m.Biebrich 2 Dec 1786 Ldgve Friedrich von Hessen-Cassel (d.20 May 1837) $$
@@ -762,8 +762,8 @@
 												female=yes
 												dynasty_house=house_nassau_weilburg
 												religion=catholic culture=german
-												father=100037350	# Karl Wilhelm v. Nassau-Weilburg
-												mother=100003397	# Karoline Felizitas zu Leiningen
+												father=100037350	# Karl Wilhelm von Nassau-Weilburg
+												mother=100003397	# Karoline Felizitas von Leiningen
 												1762.04.04={birth=yes}  # Schloß Biebrich
 												1823.08.17={death=yes}  # Rumpenheim
 											}
@@ -771,8 +771,8 @@
 											name="Friedrich August"
 											dynasty_house=house_nassau_weilburg
 											religion=catholic culture=german
-											father=100037349	# Karl v. Nassau-Weilburg
-											mother=100007422	# Christiane Wilhelmine v. Wettin
+											father=100037349	# Karl von Nassau-Weilburg
+											mother=100007422	# Christiane Wilhelmine von Wettin
 											1738.04.23={birth=yes}  # Usingen
 											1775.04.23={add_spouse=100008283}	# Luise zu Waldeck u.Pyrmont
 											1816.03.24={death=yes}  # Biebrich
@@ -782,7 +782,7 @@
 												female=yes
 												dynasty_house=house_nassau_weilburg
 												religion=catholic culture=german
-												father=100037354	# Friedrich August v. Nassau-Weilburg
+												father=100037354	# Friedrich August von Nassau-Weilburg
 												mother=100008283	# Luise zu Waldeck u.Pyrmont
 												1776.08.16={birth=yes}  # Biebrich
 												1829.02.19={death=yes}  # Karlsruhe
@@ -792,17 +792,17 @@
 												female=yes
 												dynasty_house=house_nassau_weilburg
 												religion=catholic culture=german
-												father=100037354	# Friedrich August v. Nassau-Weilburg
+												father=100037354	# Friedrich August von Nassau-Weilburg
 												mother=100008283	# Luise zu Waldeck u.Pyrmont
 												1777.08.30={birth=yes}  # Usingen
 												1821.08.28={death=yes}  # Hochheim
 											}
-											100037357={ #// 3k) Auguste (Usingen 30 Dec 1778-Wiesbaden 16 Jul 1846); m.1st Biebrich 2 Aug 1804 (div 1805) Ldgve Ludwig von Hessen-Homburg (d.19 Jan 1839); m.2nd Frankfurt 7 Sep 1807 Friedrich Wilhelm Gf von Bismarck (d.Konstanz 18 Jun 1860)
+											100037357={ #// 3k) Auguste (Usingen 30 Dec 1778-Wiesbaden 16 Jul 1846); m.1st Biebrich 2 Aug 1804 (div 1805) Ldgve Ludwig von Hessen-Homburg (d.19 Jan 1839); m.2nd Frankfurt 7 Sep 1807 Friedrich Wilhelm Gf von Bismarck (d.Konstanz 18 Jun 1860) $$
 												name=Auguste
 												female=yes
 												dynasty_house=house_nassau_weilburg
 												religion=catholic culture=german
-												father=100037354	# Friedrich August v. Nassau-Weilburg
+												father=100037354	# Friedrich August von Nassau-Weilburg
 												mother=100008283	# Luise zu Waldeck u.Pyrmont
 												1778.12.30={birth=yes}  # Usingen
 												1846.07.16={death=yes}  # Wiesbaden
@@ -812,7 +812,7 @@
 											female=yes
 											dynasty_house=house_nassau_weilburg
 											religion=catholic culture=german
-											father=100037349	# Karl v. Nassau-Weilburg
+											father=100037349	# Karl von Nassau-Weilburg
 											mother=100098813	# Magdalene Gross
 											1743.05.24={birth=yes}  # Idstein
 											1798.07.17={death=yes}  # Wiesbaden
@@ -821,7 +821,7 @@
 											name="Carl Philipp"
 											dynasty_house=house_nassau_weilburg
 											religion=catholic culture=german
-											father=100037349	# Karl v. Nassau-Weilburg
+											father=100037349	# Karl von Nassau-Weilburg
 											mother=100098813	# Magdalene Gross
 											1746.03.25={birth=yes}
 											1789.08.15={death=yes}  # Wiesbaden
@@ -830,8 +830,8 @@
 										name="Wilhelm Heinrich"
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037347	# Wilhelm Heinrich v. Nassau-Weilburg
-										mother=100037131	# Charlotte Amalie v. Nassau-Siegen
+										father=100037347	# Wilhelm Heinrich von Nassau-Weilburg
+										mother=100037131	# Charlotte Amalie von Nassau-Siegen
 										1718.03.06={birth=yes}  # Usingen
 										1742.02.28={add_spouse=100011904}	# Sophie von Erbach
 										1768.07.24={death=yes}  # Saarbrücken
@@ -840,18 +840,18 @@
 											name=Ludwig
 											dynasty_house=house_nassau_weilburg
 											religion=catholic culture=german
-											father=100037365	# Wilhelm Heinrich v. Nassau-Weilburg
+											father=100037365	# Wilhelm Heinrich von Nassau-Weilburg
 											mother=100011904	# Sophie von Erbach
 											1745.01.03={birth=yes}  # Saarbrücken
-											1766.10.30={add_spouse=100008356}	# Wilhelmine v. Schwarzburg-Rudolstadt
+											1766.10.30={add_spouse=100008356}	# Wilhelmine von Schwarzburg-Rudolstadt
 											1794.03.02={death=yes}  # Aschaffenburg
 										}
 											100037370={ #// 1k) Heinrich Ludwig Fst von Nassau-Saarbrücken (Saarbrücken 9 Mar 1768, d.after fall from horse 27 Apr 1797); m.Saarbrücken 6 Oct 1785 Pss Marie de St.Mauris de Montbarry (Paris 2 Nov 1761-Maisons-Alfort 2 Feb 1838)
 												name="Heinrich Ludwig"
 												dynasty_house=house_nassau_weilburg
 												religion=catholic culture=german
-												father=100037367	# Ludwig v. Nassau-Weilburg
-												mother=100008356	# Wilhelmine v. Schwarzburg-Rudolstadt
+												father=100037367	# Ludwig von Nassau-Weilburg
+												mother=100008356	# Wilhelmine von Schwarzburg-Rudolstadt
 												1768.03.09={birth=yes}  # Saarbrücken
 												1785.10.06={add_spouse=100098923}	# PSS Marie de St.Mauris de Montbarry
 												1797.04.27={death=yes}
@@ -861,7 +861,7 @@
 											female=yes
 											dynasty_house=house_nassau_weilburg
 											religion=catholic culture=german
-											father=100037365	# Wilhelm Heinrich v. Nassau-Weilburg
+											father=100037365	# Wilhelm Heinrich von Nassau-Weilburg
 											mother=100011904	# Sophie von Erbach
 											1751.12.31={birth=yes}  # Saarbrücken
 											1824.04.12={death=yes}  # Glücksburg
@@ -871,7 +871,7 @@
 											female=yes
 											dynasty_house=house_nassau_weilburg
 											religion=catholic culture=german
-											father=100037365	# Wilhelm Heinrich v. Nassau-Weilburg
+											father=100037365	# Wilhelm Heinrich von Nassau-Weilburg
 											mother=100011904	# Sophie von Erbach
 											1752.10.27={birth=yes}  # Saarbrücken
 											1829.09.21={death=yes}  # château de_La_Grave
@@ -881,7 +881,7 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037344	# Walrad v. Nassau-Weilburg
+									father=100037344	# Walrad von Nassau-Weilburg
 									mother=100098401	# CSS Katharina Franziska de Croÿ
 									1686.05.08={birth=yes}  # Frankfurt
 									1768.01.14={death=yes}  # Ortenburg
@@ -891,8 +891,8 @@
 							female=yes
 							dynasty_house=house_nassau_weilburg
 							religion=catholic culture=german
-							father=100037148	# Ludwig v. Nassau-Weilburg
-							mother=100004342	# Anna v. Hessen-Kassel
+							father=100037148	# Ludwig von Nassau-Weilburg
+							mother=100004342	# Anna von Hessen-Kassel
 							1602.08.21={birth=yes}  # Saarbrücken
 							1626.12.09={death=yes}  # Dürkheim
 						}
@@ -900,11 +900,11 @@
 							name=Johann
 							dynasty_house=house_nassau_weilburg
 							religion=catholic culture=german
-							father=100037148	# Ludwig v. Nassau-Weilburg
-							mother=100004342	# Anna v. Hessen-Kassel
+							father=100037148	# Ludwig von Nassau-Weilburg
+							mother=100004342	# Anna von Hessen-Kassel
 							1603.11.24={birth=yes}  # Saarbrücken
 							1629.06.06={add_spouse=100004397}	# Sibylle Magdalene von Baden
-							1646.12.06={add_spouse=100003664}	# Anna zu Leiningen
+							1646.12.06={add_spouse=100003664}	# Anna von Leiningen
 							1677.05.23={death=yes}  # Idstein
 						}
 							100037388={ #// 12g) Johanette (Idstein 14 Sep 1657-Landau 14 Mar 1733); m.Idstein 6 Jun 1680 Christian Ludwig Gf von Waldeck (d.12 Dec 1706) $$
@@ -912,8 +912,8 @@
 								female=yes
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037386	# Johann v. Nassau-Weilburg
-								mother=100003664	# Anna zu Leiningen
+								father=100037386	# Johann von Nassau-Weilburg
+								mother=100003664	# Anna von Leiningen
 								1657.09.14={birth=yes}  # Idstein
 								1733.03.14={death=yes}  # Landau
 							}
@@ -922,8 +922,8 @@
 								female=yes
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037386	# Johann v. Nassau-Weilburg
-								mother=100003664	# Anna zu Leiningen
+								father=100037386	# Johann von Nassau-Weilburg
+								mother=100003664	# Anna von Leiningen
 								1661.03.25={birth=yes}  # Idstein
 								1740.08.01={death=yes}  # Griesheim
 							}
@@ -931,10 +931,10 @@
 								name="Georg August"
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037386	# Johann v. Nassau-Weilburg
-								mother=100003664	# Anna zu Leiningen
+								father=100037386	# Johann von Nassau-Weilburg
+								mother=100003664	# Anna von Leiningen
 								1665.02.26={birth=yes}  # Idstein
-								1688.09.22={add_spouse=100012949}	# Henriette Dorothea von Oettingen
+								1688.09.22={add_spouse=100012949}	# Henriette Dorothea zu Oettingen-Oettingen
 								1721.10.26={death=yes}  # Biebrich
 							}
 								100037392={ #// 2h) Christiane Luise (Idstein 31 Mar 1691-Aurich 13 Apr 1723); m.Idstein 23 Sep 1709 Georg Albrecht Fst von Ostfriesland (d.12 Jun 1734) $$
@@ -942,8 +942,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037391	# Georg August v. Nassau-Weilburg
-									mother=100012949	# Henriette Dorothea von Oettingen
+									father=100037391	# Georg August von Nassau-Weilburg
+									mother=100012949	# Henriette Dorothea zu Oettingen-Oettingen
 									1691.03.31={birth=yes}  # Idstein
 									1723.04.13={death=yes}  # Aurich
 								}
@@ -952,8 +952,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037391	# Georg August v. Nassau-Weilburg
-									mother=100012949	# Henriette Dorothea von Oettingen
+									father=100037391	# Georg August von Nassau-Weilburg
+									mother=100012949	# Henriette Dorothea zu Oettingen-Oettingen
 									1693.11.09={birth=yes}  # Idstein
 									1734.04.08={death=yes}  # Delitzsch
 								}
@@ -962,8 +962,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037391	# Georg August v. Nassau-Weilburg
-									mother=100012949	# Henriette Dorothea von Oettingen
+									father=100037391	# Georg August von Nassau-Weilburg
+									mother=100012949	# Henriette Dorothea zu Oettingen-Oettingen
 									1698.03.29={birth=yes}  # Idstein
 									1722.10.09={death=yes}  # Jagdschloß Wilhelmsthal bei Eisenach
 								}
@@ -972,8 +972,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037391	# Georg August v. Nassau-Weilburg
-									mother=100012949	# Henriette Dorothea von Oettingen
+									father=100037391	# Georg August von Nassau-Weilburg
+									mother=100012949	# Henriette Dorothea zu Oettingen-Oettingen
 									1699.08.17={birth=yes}  # Idstein
 									1750.06.08={death=yes}  # Kirchheimbolanden
 								}
@@ -982,8 +982,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037391	# Georg August v. Nassau-Weilburg
-									mother=100012949	# Henriette Dorothea von Oettingen
+									father=100037391	# Georg August von Nassau-Weilburg
+									mother=100012949	# Henriette Dorothea zu Oettingen-Oettingen
 									1700.09.14={birth=yes}
 									1756.06.02={death=yes}  # Brake
 								}
@@ -991,10 +991,10 @@
 							name="Ernst Kasimir"
 							dynasty_house=house_nassau_weilburg
 							religion=catholic culture=german
-							father=100037148	# Ludwig v. Nassau-Weilburg
-							mother=100004342	# Anna v. Hessen-Kassel
+							father=100037148	# Ludwig von Nassau-Weilburg
+							mother=100004342	# Anna von Hessen-Kassel
 							1607.11.15={birth=yes}  # Saarbrücken
-							1634.01.01={add_spouse=100006777}	# Anna zu Sayn-Wittgenstein-Hachenburg
+							1634.01.01={add_spouse=100006777}	# Anna von Sayn-Wittgenstein-Hachenburg
 							1655.04.16={death=yes}  # Weilburg
 						}
 							100037401={ #// 2g) Marie Eleonore (Metz 12 Aug 1636-Gochsheim 16 Dec 1678); m.Idstein 5 May 1660 Kasimir Gf von Eberstein (d.Heidelberg 22 Oct 1660)
@@ -1002,8 +1002,8 @@
 								female=yes
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037399	# Ernst Kasimir v. Nassau-Weilburg
-								mother=100006777	# Anna zu Sayn-Wittgenstein-Hachenburg
+								father=100037399	# Ernst Kasimir von Nassau-Weilburg
+								mother=100006777	# Anna von Sayn-Wittgenstein-Hachenburg
 								1636.08.12={birth=yes}  # Metz
 								1678.12.16={death=yes}  # Gochsheim
 							}
@@ -1011,28 +1011,28 @@
 								name=Friedrich
 								dynasty_house=house_nassau_weilburg
 								religion=catholic culture=german
-								father=100037399	# Ernst Kasimir v. Nassau-Weilburg
-								mother=100006777	# Anna zu Sayn-Wittgenstein-Hachenburg
+								father=100037399	# Ernst Kasimir von Nassau-Weilburg
+								mother=100006777	# Anna von Sayn-Wittgenstein-Hachenburg
 								1640.04.16={birth=yes}  # Metz
-								1663.05.26={add_spouse=100004646}	# Christiana Elisabeth zu Sayn-Wittgenstein-Berleburg
+								1663.05.26={add_spouse=100004646}	# Christiana Elisabeth von Sayn-Wittgenstein-Berleburg
 								1675.09.19={death=yes}  # Weilburg
 							}
 								100037403={ #// 1h) Johann Ernst, 1688 Fürst von Nassau zu Saarbrücken, Hr zu Lahr, Wiesbaden u.Idstein, 1675 in Weilburg (Weilburg 13 Jun 1664-Heidelberg 27 Feb 1719); m.Homburg 23 Mar 1683 Marie Polyxena Gfn von Leiningen-Hartenburg (Hardenberg 7 Feb 1662-Kirchheimbolanden 22 Apr 1725) $$
 									name="Johann Ernst"
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037402	# Friedrich v. Nassau-Weilburg
-									mother=100004646	# Christiana Elisabeth zu Sayn-Wittgenstein-Berleburg
+									father=100037402	# Friedrich von Nassau-Weilburg
+									mother=100004646	# Christiana Elisabeth von Sayn-Wittgenstein-Berleburg
 									1664.06.13={birth=yes}  # Weilburg
-									1683.03.23={add_spouse=100003371}	# Marie Polyxena zu Leiningen
+									1683.03.23={add_spouse=100003371}	# Marie Polyxena von Leiningen
 									1719.02.27={death=yes}  # Heidelberg
 								}
 									100037405={ #// 1i) Friedrich Ludwig (Weilburg 28 Dec 1683-k.a.Speierbach 15 Nov 1703)
 										name="Friedrich Ludwig"
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037403	# Johann Ernst v. Nassau-Weilburg
-										mother=100003371	# Marie Polyxena zu Leiningen
+										father=100037403	# Johann Ernst von Nassau-Weilburg
+										mother=100003371	# Marie Polyxena von Leiningen
 										1683.12.28={birth=yes}  # Weilburg
 										1703.11.15={death=yes}  # Speierbach
 									}
@@ -1040,10 +1040,10 @@
 										name="Karl August"
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037403	# Johann Ernst v. Nassau-Weilburg
-										mother=100003371	# Marie Polyxena zu Leiningen
+										father=100037403	# Johann Ernst von Nassau-Weilburg
+										mother=100003371	# Marie Polyxena von Leiningen
 										1685.09.17={birth=yes}  # Weilburg
-										1723.08.17={add_spouse=100037397}	# Auguste Friederike v. Nassau-Weilburg
+										1723.08.17={add_spouse=100037397}	# Auguste Friederike von Nassau-Weilburg
 										1753.11.09={death=yes}  # Weilburg
 									}
 										100037409={ #// 2j) Henriette (Kirchheimbolanden 13 Oct 1726-Weilburg 18 Sep 1757)
@@ -1051,8 +1051,8 @@
 											female=yes
 											dynasty_house=house_nassau_weilburg
 											religion=catholic culture=german
-											father=100192007	# Karl August v. Nassau-Weilburg
-											mother=100037397	# Auguste Friederike v. Nassau-Weilburg
+											father=100192007	# Karl August von Nassau-Weilburg
+											mother=100037397	# Auguste Friederike von Nassau-Weilburg
 											1726.10.13={birth=yes}  # Kirchheimbolanden
 											1757.09.18={death=yes}  # Weilburg
 										}
@@ -1061,8 +1061,8 @@
 											female=yes
 											dynasty_house=house_nassau_weilburg
 											religion=catholic culture=german
-											father=100192007	# Karl August v. Nassau-Weilburg
-											mother=100037397	# Auguste Friederike v. Nassau-Weilburg
+											father=100192007	# Karl August von Nassau-Weilburg
+											mother=100037397	# Auguste Friederike von Nassau-Weilburg
 											1733.01.27={birth=yes}  # Kirchheimbolanden
 											1764.09.27={death=yes}  # Detmold
 										}
@@ -1071,8 +1071,8 @@
 										name="Karl Ernst"
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037403	# Johann Ernst v. Nassau-Weilburg
-										mother=100003371	# Marie Polyxena zu Leiningen
+										father=100037403	# Johann Ernst von Nassau-Weilburg
+										mother=100003371	# Marie Polyxena von Leiningen
 										1689.06.08={birth=yes}  # Frankfurt
 										1708.09.22={death=yes}  # Fuchsmühl
 									}
@@ -1081,8 +1081,8 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037403	# Johann Ernst v. Nassau-Weilburg
-										mother=100003371	# Marie Polyxena zu Leiningen
+										father=100037403	# Johann Ernst von Nassau-Weilburg
+										mother=100003371	# Marie Polyxena von Leiningen
 										1691.09.11={birth=yes}  # Frankfurt
 										1725.08.29={death=yes}  # Hungen
 									}
@@ -1091,8 +1091,8 @@
 										female=yes
 										dynasty_house=house_nassau_weilburg
 										religion=catholic culture=german
-										father=100037403	# Johann Ernst v. Nassau-Weilburg
-										mother=100003371	# Marie Polyxena zu Leiningen
+										father=100037403	# Johann Ernst von Nassau-Weilburg
+										mother=100003371	# Marie Polyxena von Leiningen
 										1693.07.25={birth=yes}  # Weilburg
 										1748.06.08={death=yes}  # Kirchheimbolanden
 									}
@@ -1101,8 +1101,8 @@
 									female=yes
 									dynasty_house=house_nassau_weilburg
 									religion=catholic culture=german
-									father=100037402	# Friedrich v. Nassau-Weilburg
-									mother=100004646	# Christiana Elisabeth zu Sayn-Wittgenstein-Berleburg
+									father=100037402	# Friedrich von Nassau-Weilburg
+									mother=100004646	# Christiana Elisabeth von Sayn-Wittgenstein-Berleburg
 									1666.11.06={birth=yes}  # Weilburg
 									1734.12.18={death=yes}  # Weilburg
 								}
@@ -1110,8 +1110,8 @@
 							name=Otto
 							dynasty_house=house_nassau_weilburg
 							religion=catholic culture=german
-							father=100037148	# Ludwig v. Nassau-Weilburg
-							mother=100004342	# Anna v. Hessen-Kassel
+							father=100037148	# Ludwig von Nassau-Weilburg
+							mother=100004342	# Anna von Hessen-Kassel
 							1610.02.24={birth=yes}  # Saarbrücken
 							1632.11.24={death=yes}  # Strassburg
 						}
@@ -1119,10 +1119,10 @@
 						name=Wilhelm
 						dynasty_house=house_nassau_weilburg
 						religion=catholic culture=german
-						father=100037129	# Albrecht v. Nassau-Weilburg
+						father=100037129	# Albrecht von Nassau-Weilburg
 						mother=100037266	# Anna von Nassau
 						1570.08.25={birth=yes}
-						1596.01.31={add_spouse=100011837}	# Erika v. Isenburg
+						1596.01.31={add_spouse=100011837}	# Erika zu Ysenburg und Büdingen
 						1597.11.19={death=yes}  # Burg Schwalbach
 					}
 						100037424={ #// 1f) Anna (Weilburg 6 Jan 1597-Worms 7 Jan 1645); m.Ottweiler 28 Nov 1628 Friedrich Gf von Leiningen-Dagsburg (d.29 Apr 1651) $$
@@ -1130,8 +1130,8 @@
 							female=yes
 							dynasty_house=house_nassau_weilburg
 							religion=catholic culture=german
-							father=100037422	# Wilhelm v. Nassau-Weilburg
-							mother=100011837	# Erika v. Isenburg
+							father=100037422	# Wilhelm von Nassau-Weilburg
+							mother=100011837	# Erika zu Ysenburg und Büdingen
 							1597.01.06={birth=yes}  # Weilburg
 							1645.01.07={death=yes}  # Worms
 						}
@@ -1140,8 +1140,8 @@
 							female=yes
 							dynasty_house=house_nassau_weilburg
 							religion=catholic culture=german
-							father=100037422	# Wilhelm v. Nassau-Weilburg
-							mother=100011837	# Erika v. Isenburg
+							father=100037422	# Wilhelm von Nassau-Weilburg
+							mother=100011837	# Erika zu Ysenburg und Büdingen
 							1598.03.27={birth=yes}  # Weilburg
 							1682.04.18={death=yes}  # Berleburg
 						}
@@ -1150,7 +1150,7 @@
 						female=yes
 						dynasty_house=house_nassau_weilburg
 						religion=catholic culture=german
-						father=100037129	# Albrecht v. Nassau-Weilburg
+						father=100037129	# Albrecht von Nassau-Weilburg
 						mother=100037266	# Anna von Nassau
 						1572.04.12={birth=yes}  # Weilburg
 						1607.03.28={death=yes}  # Berleburg
@@ -1159,10 +1159,10 @@
 						name="Johann Kasimir"
 						dynasty_house=house_nassau_weilburg
 						religion=catholic culture=german
-						father=100037129	# Albrecht v. Nassau-Weilburg
+						father=100037129	# Albrecht von Nassau-Weilburg
 						mother=100037266	# Anna von Nassau
 						1577.09.24={birth=yes}  # Ottweiler
-						1601.05.10={add_spouse=100004352}	# Elisabeth v. Hessen
+						1601.05.10={add_spouse=100004352}	# Elisabeth von Hessen
 						1602.03.29={death=yes}  # Wehen
 					}
 						100037432={ #// 1f) Anna Eleonore (9 Sep 1602-Reichenweiher 7 Sep 1685); m.14 May 1625 Duke Ludwig Friedrich von Württemberg-Mömpelgard (d.26 Jan 1631) $$
@@ -1170,8 +1170,8 @@
 							female=yes
 							dynasty_house=house_nassau_weilburg
 							religion=catholic culture=german
-							father=100037431	# Johann Kasimir v. Nassau-Weilburg
-							mother=100004352	# Elisabeth v. Hessen
+							father=100037431	# Johann Kasimir von Nassau-Weilburg
+							mother=100004352	# Elisabeth von Hessen
 							1602.09.09={birth=yes}
 							1685.09.07={death=yes}  # Reichenweiher
 						}
@@ -1180,7 +1180,7 @@
 						female=yes
 						dynasty_house=house_nassau_weilburg
 						religion=catholic culture=german
-						father=100037129	# Albrecht v. Nassau-Weilburg
+						father=100037129	# Albrecht von Nassau-Weilburg
 						mother=100037266	# Anna von Nassau
 						1580.05.13={birth=yes}
 						1658.04.21={death=yes}  # Schloß Neuweilnau
@@ -1190,7 +1190,7 @@
 						female=yes
 						dynasty_house=house_nassau_weilburg
 						religion=catholic culture=german
-						father=100037129	# Albrecht v. Nassau-Weilburg
+						father=100037129	# Albrecht von Nassau-Weilburg
 						mother=100037266	# Anna von Nassau
 						1582.01.26={birth=yes}  # Weilburg
 						1635.09.10={death=yes}  # Metz
@@ -1200,7 +1200,7 @@
 						female=yes
 						dynasty_house=house_nassau_weilburg
 						religion=catholic culture=german
-						father=100037129	# Albrecht v. Nassau-Weilburg
+						father=100037129	# Albrecht von Nassau-Weilburg
 						mother=100037266	# Anna von Nassau
 						1584.03.24={birth=yes}
 						1665.10.01={death=yes}  # Idstein
@@ -1209,11 +1209,11 @@
 					name=Philipp
 					dynasty_house=house_nassau_weilburg
 					religion=catholic culture=german
-					father=100037099	# Philipp v. Nassau-Weilburg
-					mother=100011845	# Amalie v. Isenburg
+					father=100037099	# Philipp von Nassau-Weilburg
+					mother=100011845	# Amalie zu Ysenburg und Büdingen
 					1542.04.14={birth=yes}
 					1563.04.09={add_spouse=100036206}	# Erika von Manderscheid-Schleiden
-					1583.10.03={add_spouse=100037180}	# Elisabeth v. Nassau-Siegen
+					1583.10.03={add_spouse=100037180}	# Elisabeth von Nassau-Siegen
 					1602.03.12={death=yes}  # Saarbrücken
 				}
 					100037440={ #// 1e) Anna Amalie (Dec 1565-Dillenburg 7 Mar 1605); m.Neuweilnau 22 Sep 1584 Georg Gf von Nassau-Dillenburg (d.9 Aug 1623) $$
@@ -1221,7 +1221,7 @@
 						female=yes
 						dynasty_house=house_nassau_weilburg
 						religion=catholic culture=german
-						father=100037439	# Philipp v. Nassau-Weilburg
+						father=100037439	# Philipp von Nassau-Weilburg
 						mother=100036206	# Erika von Manderscheid-Schleiden
 						1565.12.01={birth=yes}
 						1605.03.07={death=yes}  # Dillenburg
@@ -1231,8 +1231,8 @@
 					female=yes
 					dynasty_house=house_nassau_weilburg
 					religion=catholic culture=german
-					father=100037099	# Philipp v. Nassau-Weilburg
-					mother=100011845	# Amalie v. Isenburg
+					father=100037099	# Philipp von Nassau-Weilburg
+					mother=100011845	# Amalie zu Ysenburg und Büdingen
 					1546.07.27={birth=yes}
 					1621.01.01={death=yes}  # EST.
 				}
@@ -1241,8 +1241,8 @@
 					female=yes
 					dynasty_house=house_nassau_weilburg
 					religion=catholic culture=german
-					father=100037099	# Philipp v. Nassau-Weilburg
-					mother=100011845	# Amalie v. Isenburg
+					father=100037099	# Philipp von Nassau-Weilburg
+					mother=100011845	# Amalie zu Ysenburg und Büdingen
 					1549.07.26={birth=yes}
 					1598.01.07={death=yes}
 				}
@@ -1251,7 +1251,7 @@
 				female=yes
 				dynasty_house=house_nassau_weilburg
 				religion=catholic culture=german
-				father=100037094	# Ludwig v. Nassau-Weilburg
+				father=100037094	# Ludwig von Nassau-Weilburg
 				mother=100037464	# Maria Margareta von Nassau-Idstein
 				1505.10.07={birth=yes}
 				1564.11.28={death=yes}  # Löhnberg
@@ -1281,8 +1281,8 @@
 	name="Karl Christian"
 	dynasty_house=house_nassau_weilburg
 	religion=catholic culture=german
-	father=100192007	# Karl August v. Nassau-Weilburg
-	mother=100037397	# Auguste Friederike v. Nassau-Weilburg
+	father=100192007	# Karl August von Nassau-Weilburg
+	mother=100037397	# Auguste Friederike von Nassau-Weilburg
 	1735.01.16={birth=yes}  # Weilburg
 	1760.03.05={add_spouse=100037002}	# Karolina van Oranje-Nassau
 	1788.11.28={death=yes}  # Münster-Dreyssen nr Kirchheim
@@ -1292,7 +1292,7 @@
 		female=yes
 		dynasty_house=house_nassau_weilburg
 		religion=catholic culture=german
-		father=100192004	# Karl Christian v. Nassau-Weilburg
+		father=100192004	# Karl Christian von Nassau-Weilburg
 		mother=100037002	# Karolina van Oranje-Nassau
 		1765.09.28={birth=yes}  # The Hague
 		1837.10.10={death=yes}  # Greiz
@@ -1301,7 +1301,7 @@
 		name="Friedrich Wilhelm"
 		dynasty_house=house_nassau_weilburg
 		religion=catholic culture=german
-		father=100192004	# Karl Christian v. Nassau-Weilburg
+		father=100192004	# Karl Christian von Nassau-Weilburg
 		mother=100037002	# Karolina van Oranje-Nassau
 		1768.10.25={birth=yes}  # The Hague
 		1788.07.31={add_spouse=100087851}	# BGGFN Luise von Kirchberg
@@ -1311,11 +1311,11 @@
 			name=Wilhelm
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=german
-			father=100070074	# Friedrich Wilhelm v. Nassau-Weilburg
+			father=100070074	# Friedrich Wilhelm von Nassau-Weilburg
 			mother=100087851	# BGGFN Luise von Kirchberg
 			1792.06.14={birth=yes}  # Kirchheim
-			1813.06.24={add_spouse=100003859}	# Charlotte Luise v. Sachsen-Altenburg
-			1829.04.23={add_spouse=100008115}	# Pauline v. Württemberg
+			1813.06.24={add_spouse=100003859}	# Charlotte Luise von Sachsen-Altenburg
+			1829.04.23={add_spouse=100008115}	# Pauline von WU rttemberg
 			1839.08.30={death=yes}  # Kissingen
 		}
 			100070099={ #// 2c) Therese Wilhelmine Friederike Isabelle Charlotte (Weilburg 17 Apr 1815-Prague 8 Dec 1871); m.Biebrich 23 Apr 1837 Duke Peter of Oldenburg (26 Aug 1812-14 May 1881) $$
@@ -1323,8 +1323,8 @@
 				female=yes
 				dynasty_house=house_nassau_weilburg
 				religion=catholic culture=german
-				father=100117836	# Wilhelm v. Nassau-Weilburg
-				mother=100003859	# Charlotte Luise v. Sachsen-Altenburg
+				father=100117836	# Wilhelm von Nassau-Weilburg
+				mother=100003859	# Charlotte Luise von Sachsen-Altenburg
 				1815.04.17={birth=yes}  # Weilburg
 				1871.12.08={death=yes}  # Prague
 			}
@@ -1334,8 +1334,8 @@
 				female=yes
 				dynasty_house=house_nassau_weilburg
 				religion=catholic culture=german
-				father=100117836	# Wilhelm v. Nassau-Weilburg
-				mother=100003859	# Charlotte Luise v. Sachsen-Altenburg
+				father=100117836	# Wilhelm von Nassau-Weilburg
+				mother=100003859	# Charlotte Luise von Sachsen-Altenburg
 				1825.01.29={birth=yes}  # Biebrich
 				1902.03.24={death=yes}  # Neuwied
 			}
@@ -1344,8 +1344,8 @@
 				female=yes
 				dynasty_house=house_nassau_weilburg
 				religion=catholic culture=german
-				father=100117836	# Wilhelm v. Nassau-Weilburg
-				mother=100008115	# Pauline v. Württemberg
+				father=100117836	# Wilhelm von Nassau-Weilburg
+				mother=100008115	# Pauline von WU rttemberg
 				1831.04.12={birth=yes}  # Wiesbaden
 				1888.10.27={death=yes}  # Bad Pyrmont
 			}
@@ -1353,22 +1353,22 @@
 				name="Nikolaus Wilhelm"
 				dynasty_house=house_nassau_weilburg
 				religion=catholic culture=german
-				father=100117836	# Wilhelm v. Nassau-Weilburg
-				mother=100008115	# Pauline v. Württemberg
+				father=100117836	# Wilhelm von Nassau-Weilburg
+				mother=100008115	# Pauline von WU rttemberg
 				1832.09.20={birth=yes}  # Biebrich
-				1868.07.01={add_spouse=100090246}	# Natalia Pushkin
+				1868.07.01={add_spouse=100090246}	# Наталья Пушкин
 				1905.09.17={death=yes}  # Wiesbaden
 			}
-				100092677={ #// H1. Gf Georg Nikolaus von Merenberg, *Wiesbaden 13.2.1871, +Wiesbaden 31.5.1948; 
+				100092677={ #// H1. Gf Georg Nikolaus von Merenberg, *Wiesbaden 13.2.1871, +Wiesbaden 31.5.1948;  $$
 							# 1m: Nice 12.5.1895 Pss Olga Yurievskaya (*St.Petersburg 7.11.1873/4, +Wiesbaden 10.8.1925);
 							# 2m: Wiesbaden 2.1.1930 Ada Moran-Brambeer (*Wiesbaden 18.10.1875, +Zürich 12.5.1942)
 					name=Georg
 					dynasty_house=house_nassau_merenberg
 					religion=catholic culture=german
-					father=100070103
-					mother=100090246
+					father=100070103	# Nikolaus Wilhelm von Nassau-Weilburg
+					mother=100090246	# Наталья Пушкин
 					1871.02.13={birth=yes}
-					1895.05.12={add_spouse=100017004}	# Olga Romanov
+					1895.05.12={add_spouse=100017004}	# Ольга Александровна Гольштейн-Готторп-Романов
 					1948.05.31={death=yes}
 				}
 					# I1. Gf Alexander Adolf Nikolaus von Merenberg, *Hannover 16.9.1896, +Hannover 20.12.1897
@@ -1376,20 +1376,20 @@
 						name=Georg
 						dynasty_house=house_nassau_merenberg
 						religion=catholic culture=german
-						father=100070103
-						mother=100090246
+						father=100070103	# Nikolaus Wilhelm von Nassau-Weilburg
+						mother=100090246	# Наталья Пушкин
 						1897.02.13={birth=yes}
 						1965.05.31={death=yes}
 					}
 						# J1. Gfn Clothilde Elisabeth von Merenberg, *Wiesbaden 14.5.1941; m.Wiesbaden 25.5.1965 Enno von Rintelin (*Berlin 9.11.1921)
 					# I3. Gfn Olga Katharina Anne von Merenberg, *Wiesbaden 3.10.1898, +Bottmingen bei Basel 15.9.1983; m.Wiesbaden 14.11.1923 Ct Michael Loris-Melikoff (*Tsarskoie Selo 16.6.1900, +Bottmingen 2.10.1980)
-				100092678={ #// H2. Gfn Sophie von Merenberg, cr Css de Torby on her marriage, *Geneva 1.6.1868, +London 14.9.1927; m.San Remo 1891 Gr Duke Michael of Russia (*16.10.1861 +26.4.1929)
+				100092678={ #// H2. Gfn Sophie von Merenberg, cr Css de Torby on her marriage, *Geneva 1.6.1868, +London 14.9.1927; m.San Remo 1891 Gr Duke Michael of Russia (*16.10.1861 +26.4.1929) $$
 					name=Sophie
 					female=yes
 					dynasty_house=house_nassau_merenberg
 					religion=catholic culture=german
-					father=100070103
-					mother=100090246
+					father=100070103	# Nikolaus Wilhelm von Nassau-Weilburg
+					mother=100090246	# Наталья Пушкин
 					1868.06.01={birth=yes}
 					1927.09.14={death=yes}
 				}
@@ -1399,8 +1399,8 @@
 				female=yes
 				dynasty_house=house_nassau_weilburg
 				religion=catholic culture=german
-				father=100117836	# Wilhelm v. Nassau-Weilburg
-				mother=100008115	# Pauline v. Württemberg
+				father=100117836	# Wilhelm von Nassau-Weilburg
+				mother=100008115	# Pauline von WU rttemberg
 				1836.07.09={birth=yes}  # Biebrich
 				1912.12.30={death=yes}  # Stockholm
 			}
@@ -1409,7 +1409,7 @@
 			female=yes
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=german
-			father=100070074	# Friedrich Wilhelm v. Nassau-Weilburg
+			father=100070074	# Friedrich Wilhelm von Nassau-Weilburg
 			mother=100087851	# BGGFN Luise von Kirchberg
 			1797.10.30={birth=yes}  # Schloss Hermitage nr Bayreuth
 			1829.12.29={death=yes}  # Vienna
@@ -1418,7 +1418,7 @@
 			name="Friedrich Wilhelm"
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=german
-			father=100070074	# Friedrich Wilhelm v. Nassau-Weilburg
+			father=100070074	# Friedrich Wilhelm von Nassau-Weilburg
 			mother=100087851	# BGGFN Luise von Kirchberg
 			1799.12.15={birth=yes}  # Bayreuth
 			1840.06.07={add_spouse=100092316}	# EDLE Anne Ritter von Vallyemare
@@ -1429,7 +1429,7 @@
 				female=yes
 				dynasty_house=house_nassau_weilburg
 				religion=catholic culture=german
-				father=100070113	# Friedrich Wilhelm v. Nassau-Weilburg
+				father=100070113	# Friedrich Wilhelm von Nassau-Weilburg
 				mother=100092316	# EDLE Anne Ritter von Vallyemare
 				1834.07.05={birth=yes}  # Altzgersdorf
 				1892.12.12={death=yes}  # Geneva
@@ -1439,17 +1439,17 @@
 		female=yes
 		dynasty_house=house_nassau_weilburg
 		religion=catholic culture=german
-		father=100192004	# Karl Christian v. Nassau-Weilburg
+		father=100192004	# Karl Christian von Nassau-Weilburg
 		mother=100037002	# Karolina van Oranje-Nassau
 		1770.02.14={birth=yes}  # Kirchheim
 		1828.07.08={death=yes}  # Wiesbaden
 	}
-	100070116={ #// 9a) Amalie Charlotte Wilhelmine (Kirchheim 7 Aug 1776-Schaumburg 19 Feb 1841); m.1st Weilburg 29 Oct 1793 Viktor II Fst von Anhalt-Bernburg-Schaumburg-Hoym (Schaumburg 2 Nov 1767-Schaumburg 22 Apr 1812); m.2d Schaumburg 15 Feb 1813 Friedrich Frhr von Stein-Liebenstein zu Barchfeld (14 Feb 1777-4 Dec 1849)
+	100070116={ #// 9a) Amalie Charlotte Wilhelmine (Kirchheim 7 Aug 1776-Schaumburg 19 Feb 1841); m.1st Weilburg 29 Oct 1793 Viktor II Fst von Anhalt-Bernburg-Schaumburg-Hoym (Schaumburg 2 Nov 1767-Schaumburg 22 Apr 1812); m.2d Schaumburg 15 Feb 1813 Friedrich Frhr von Stein-Liebenstein zu Barchfeld (14 Feb 1777-4 Dec 1849) $$
 		name=Amalie
 		female=yes
 		dynasty_house=house_nassau_weilburg
 		religion=catholic culture=german
-		father=100192004	# Karl Christian v. Nassau-Weilburg
+		father=100192004	# Karl Christian von Nassau-Weilburg
 		mother=100037002	# Karolina van Oranje-Nassau
 		1776.08.07={birth=yes}  # Kirchheim
 		1841.02.19={death=yes}  # Schaumburg
@@ -1459,7 +1459,7 @@
 		female=yes
 		dynasty_house=house_nassau_weilburg
 		religion=catholic culture=german
-		father=100192004	# Karl Christian v. Nassau-Weilburg
+		father=100192004	# Karl Christian von Nassau-Weilburg
 		mother=100037002	# Karolina van Oranje-Nassau
 		1780.04.22={birth=yes}  # Kirchheim
 		1857.01.02={death=yes}  # Kirchheim unter Teck
@@ -1533,7 +1533,7 @@
 						1440.02.07={add_spouse=100091982}	# Marie von Loon
 						1475.02.03={death=yes}  # Dillenburg
 					}
-						100037234={ #// 1f) Anna (ca 1441-Celle 8 Apr 1513); m.1st Celle 25 Sep 1467 Duke Otto II of Braunschweig-Lüneburg (d.8 Jan 1471); m.2nd 24 Jan 1474 Philipp Gf von Katzenelnbogen (d.Rheinfels 27 Jun 1479)
+						100037234={ #// 1f) Anna (ca 1441-Celle 8 Apr 1513); m.1st Celle 25 Sep 1467 Duke Otto II of Braunschweig-Lüneburg (d.8 Jan 1471); m.2nd 24 Jan 1474 Philipp Gf von Katzenelnbogen (d.Rheinfels 27 Jun 1479) $$
 							name=Anna
 							female=yes
 							dynasty=263
@@ -1583,7 +1583,7 @@
 							1482.02.11={add_spouse=100092735}	# Elisabeth
 							1516.07.30={death=yes}  # Dillenburg
 						}
-							100037239={ #// 1g) Heinrich III Gf von Nassau-Dillenburg, Hr zu Breda, de Lek, etc, Gf von Vianden, Stattholder of Holland, Seeland and Friesland, etc (Siegen 12 Jan 1483-Breda 14 Sep 1538); m.1st 3 Aug 1503 Françoise Louise of Savoy-Vaud (d.17 Sep 1511); m.2nd May 1515 Claude de Chalon, Pss d'Orange (1498-Diest 31 May 1521); m.3rd Burgos 27 Jun 1524 Menzia Diaz de Vivar de Mendoza, Marquesa de Cenete (Jadraque 30 Nov 1508-4 Jan 1554)
+							100037239={ #// 1g) Heinrich III Gf von Nassau-Dillenburg, Hr zu Breda, de Lek, etc, Gf von Vianden, Stattholder of Holland, Seeland and Friesland, etc (Siegen 12 Jan 1483-Breda 14 Sep 1538); m.1st 3 Aug 1503 Françoise Louise of Savoy-Vaud (d.17 Sep 1511); m.2nd May 1515 Claude de Chalon, Pss d'Orange (1498-Diest 31 May 1521); m.3rd Burgos 27 Jun 1524 Menzia Diaz de Vivar de Mendoza, Marquesa de Cenete (Jadraque 30 Nov 1508-4 Jan 1554) $$
 								name=Hendrik
 								dynasty=263
 								religion=catholic culture=german
@@ -1605,7 +1605,7 @@
 									1540.08.22={add_spouse=100066103}	# Anne de Lorraine
 									1544.07.15={death=yes}  # Saint-Dizier
 								}
-							100037242={ #// 4g) Wilhelm I, "der Reiche" Gf von Nassau-Dillenburg, in Dillenburg, Siegen, Vianden u.Diez (Dillenburg 10 Apr 1487-Dillenburg 6 Oct 1559); m.1st Koblenz 29 Oct 1506 Walpurgis von Egmond (29 Oct 1490-7/19 Mar 1529); m.2nd 1531 Juliane Gfn von Stolberg-Wernigerode (Stolberg 15 Feb 1506-Dillenburg 18 Jun 1580)
+							100037242={ #// 4g) Wilhelm I, "der Reiche" Gf von Nassau-Dillenburg, in Dillenburg, Siegen, Vianden u.Diez (Dillenburg 10 Apr 1487-Dillenburg 6 Oct 1559); m.1st Koblenz 29 Oct 1506 Walpurgis von Egmond (29 Oct 1490-7/19 Mar 1529); m.2nd 1531 Juliane Gfn von Stolberg-Wernigerode (Stolberg 15 Feb 1506-Dillenburg 18 Jun 1580) $$
 								name=Wilhelm
 								dynasty=263
 								religion=catholic culture=german
@@ -1613,7 +1613,7 @@
 								mother=100092735	# Elisabeth
 								1487.04.10={birth=yes}  # Dillenburg
 								1506.10.29={add_spouse=100094538}	# Walpurgis von Egmond
-								1531.01.01={add_spouse=100009754}	# Juliana zu Stolberg-Stolberg
+								1531.01.01={add_spouse=100009754}	# Juliana von Stolberg
 								1559.10.06={death=yes}  # Dillenburg
 							}
 								100037243={ #// 2h) Magdalene (6 Oct 1522-18 Aug 1567); m.16 Jul 1538 Hermann Gf von Neuenahr und Mörs (d.4 Dec 1578)
@@ -1626,7 +1626,7 @@
 									1522.10.06={birth=yes}
 									1567.08.18={death=yes}
 								}
-								100037244={ #// 3h) Willem, "der Stille", Gf von Nassau, Katzenelnbogen, Vianden u.Diez, Prince of Orange, lord of Breda, de Lek, etc, Stattholder of Holland, Seeland and Utrecht, Bggve of Antwerp, etc (Dillenburg 24 Apr 1533-murdered at Delft 10 Jul 1584); 
+								100037244={ #// 3h) Willem, "der Stille", Gf von Nassau, Katzenelnbogen, Vianden u.Diez, Prince of Orange, lord of Breda, de Lek, etc, Stattholder of Holland, Seeland and Utrecht, Bggve of Antwerp, etc (Dillenburg 24 Apr 1533-murdered at Delft 10 Jul 1584);  $$
 											# m.1st Büren 8 Jul 1551 Anna von Egmond Gfn von Büren (Grave Mar 1533-Breda 24 Mar 1558); 
 											# m.2nd Leipzig 24 Aug 1561 (div 1574) Pss Anna of Saxony (23 Dec 1544-Dresden 18 Dec 1577); 
 											# m.3rd Den Briel 12 Jul 1575 Charlotte de Bourbon-Montpensier (1547-Antwerp 5 May 1582); 
@@ -1635,10 +1635,10 @@
 									dynasty=263
 									religion=catholic culture=german
 									father=100037242	# Wilhelm von Nassau
-									mother=100009754	# Juliana zu Stolberg-Stolberg
+									mother=100009754	# Juliana von Stolberg
 									1533.04.24={birth=yes}  # Dillenburg
 									1551.07.08={add_spouse=100094557}	# GFN Anna von Egmond von Büren
-									1561.08.24={add_spouse=100007545}	# Anna v. Wettin
+									1561.08.24={add_spouse=100007545}	# Anna von Wettin
 									1574.01.01={remove_spouse=100007545}
 									1575.07.12={add_spouse=100094560}	# Charlotte de Bourbon-Montpensier
 									1583.04.24={add_spouse=100094564}	# CSS Louise de Coligny
@@ -1670,17 +1670,17 @@
 										dynasty=263
 										religion=catholic culture=german
 										father=100037244	# Willem von Nassau
-										mother=100007545	# Anna v. Wettin
+										mother=100007545	# Anna von Wettin
 										1562.11.05={birth=yes}
 										1588.06.13={death=yes}  # Franeker
 									}
-									100037249={ #// 7i) Emilie (Köln 10 Apr 1569-Geneva 16 Mar 1629); m.The Hague 17 Nov 1597 Pr Emanuel of Portugal (d.Brussels 22 Jun 1638)
+									100037249={ #// 7i) Emilie (Köln 10 Apr 1569-Geneva 16 Mar 1629); m.The Hague 17 Nov 1597 Pr Emanuel of Portugal (d.Brussels 22 Jun 1638) $$
 										name=Emilie
 										female=yes
 										dynasty=263
 										religion=catholic culture=german
 										father=100037244	# Willem von Nassau
-										mother=100007545	# Anna v. Wettin
+										mother=100007545	# Anna von Wettin
 										1569.04.10={birth=yes}  # Köln
 										1629.03.16={death=yes}  # Geneva
 									}
@@ -1811,7 +1811,7 @@
 									dynasty=263
 									religion=catholic culture=german
 									father=100037242	# Wilhelm von Nassau
-									mother=100009754	# Juliana zu Stolberg-Stolberg
+									mother=100009754	# Juliana von Stolberg
 									1539.03.18={birth=yes}  # Dillenburg
 									1599.05.18={death=yes}  # Ulft
 								}
@@ -1821,7 +1821,7 @@
 									dynasty=263
 									religion=catholic culture=german
 									father=100037242	# Wilhelm von Nassau
-									mother=100009754	# Juliana zu Stolberg-Stolberg
+									mother=100009754	# Juliana von Stolberg
 									1541.09.21={birth=yes}  # Dillenburg
 									1616.02.12={death=yes}  # Weilburg
 								}
@@ -1831,7 +1831,7 @@
 									dynasty=263
 									religion=catholic culture=german
 									father=100037242	# Wilhelm von Nassau
-									mother=100009754	# Juliana zu Stolberg-Stolberg
+									mother=100009754	# Juliana von Stolberg
 									1542.09.25={birth=yes}  # Dillenburg
 									1603.11.18={death=yes}  # Greifenstein
 								}
@@ -1841,7 +1841,7 @@
 									dynasty=263
 									religion=catholic culture=german
 									father=100037242	# Wilhelm von Nassau
-									mother=100009754	# Juliana zu Stolberg-Stolberg
+									mother=100009754	# Juliana von Stolberg
 									1542.12.19={birth=yes}  # Dillenburg
 									1624.12.25={death=yes}
 								}
@@ -1851,7 +1851,7 @@
 									dynasty=263
 									religion=catholic culture=german
 									father=100037242	# Wilhelm von Nassau
-									mother=100009754	# Juliana zu Stolberg-Stolberg
+									mother=100009754	# Juliana von Stolberg
 									1546.08.10={birth=yes}  # Dillenburg
 									1588.08.31={death=yes}  # Rudolstadt
 								}
@@ -1861,7 +1861,7 @@
 									dynasty=263
 									religion=catholic culture=german
 									father=100037242	# Wilhelm von Nassau
-									mother=100009754	# Juliana zu Stolberg-Stolberg
+									mother=100009754	# Juliana von Stolberg
 									1547.12.15={birth=yes}  # Dillenburg
 									1630.05.16={death=yes}  # Öhringen
 								}
@@ -2001,7 +2001,7 @@
 						father=100037280	# Johann von Nassau
 						mother=100094639	# Johanna von Gemen
 						1449.01.01={birth=yes}
-						1473.01.01={add_spouse=100012888}	# Eva zu Sayn
+						1473.01.01={add_spouse=100012888}	# Eva von Sayn
 						1499.05.26={death=yes}
 					}
 						100037285={ #// 1f) Johann II, Gf von Nassau-Beilstein (d.18 Aug 1513); m.1st 1492 Gfn Marie von Solms-Braunfels (2 Nov 1471-20 Sep 1505); m.2nd 1510/1 Anna zur Lippe (d.1535)
@@ -2009,7 +2009,7 @@
 							dynasty=263
 							religion=catholic culture=german
 							father=100037284	# Heinrich von Nassau
-							mother=100012888	# Eva zu Sayn
+							mother=100012888	# Eva von Sayn
 							1474.01.01={birth=yes}  # EST.
 							1492.01.01={add_spouse=100094644}	# GFN Marie zu Solms-Braunfels
 							1510.01.01={add_spouse=100094645}	# Anna zur Lippe
@@ -2022,7 +2022,7 @@
 								father=100037285	# Johann von Nassau
 								mother=100094644	# GFN Marie zu Solms-Braunfels
 								1495.11.17={birth=yes}
-								1523.02.16={add_spouse=100037444}	# Anna v. Nassau-Weilburg
+								1523.02.16={add_spouse=100037444}	# Anna von Nassau-Weilburg
 								1561.12.13={death=yes}
 							}
 						100037288={ #// 3f) Bernhard, Gf von Nassau-Beilstein in Liebenscheid, d.Liebenscheid 10 May 1556
@@ -2030,7 +2030,7 @@
 							dynasty=263
 							religion=catholic culture=german
 							father=100037284	# Heinrich von Nassau
-							mother=100012888	# Eva zu Sayn
+							mother=100012888	# Eva von Sayn
 							1493.01.01={birth=yes}  # EST.
 							1556.05.10={death=yes}  # Liebenscheid
 						}
@@ -2040,7 +2040,7 @@
 							dynasty=263
 							religion=catholic culture=german
 							father=100037284	# Heinrich von Nassau
-							mother=100012888	# Eva zu Sayn
+							mother=100012888	# Eva von Sayn
 							1498.01.01={birth=yes}  # EST.
 							1575.09.29={death=yes}
 						}
@@ -2070,7 +2070,7 @@
 		father=30711	# Otto von Nassau
 		mother=100085001	# Agnes von Leiningen
 		1272.01.01={birth=yes}  # EST.
-		1295.01.01={add_spouse=100095133}	# Anna v. Hohenzollern
+		1295.01.01={add_spouse=100095133}	# Anna von Hohenzollern
 		1334.06.07={death=yes}
 	}
 		100037295={ #// 2b) Johann Gf von Nassau-Hadamar, d.1364/5; m.1330 Gfn Elisabeth von Waldeck (d.by 22 Jun 1385)
@@ -2078,7 +2078,7 @@
 			dynasty=263
 			religion=catholic culture=german
 			father=100037294	# Emicho von Nassau
-			mother=100095133	# Anna v. Hohenzollern
+			mother=100095133	# Anna von Hohenzollern
 			1297.01.01={birth=yes}  # EST.
 			1330.01.01={add_spouse=100095346}	# GFN Elisabeth von Waldeck
 			1364.01.01={death=yes}
@@ -2119,7 +2119,7 @@
 			dynasty=263
 			religion=catholic culture=german
 			father=100037294	# Emicho von Nassau
-			mother=100095133	# Anna v. Hohenzollern
+			mother=100095133	# Anna von Hohenzollern
 			1299.01.01={birth=yes}  # EST.
 			1319.01.01={add_spouse=100095438}	# Anna von Diez
 			1359.03.01={death=yes}
@@ -2130,7 +2130,7 @@
 			dynasty=263
 			religion=catholic culture=german
 			father=100037294	# Emicho von Nassau
-			mother=100095133	# Anna v. Hohenzollern
+			mother=100095133	# Anna von Hohenzollern
 			1301.01.01={birth=yes}  # EST.
 			1329.01.01={death=yes}
 		}
@@ -2140,7 +2140,7 @@
 			dynasty=263
 			religion=catholic culture=german
 			father=100037294	# Emicho von Nassau
-			mother=100095133	# Anna v. Hohenzollern
+			mother=100095133	# Anna von Hohenzollern
 			1303.01.01={birth=yes}  # EST.
 			1360.01.01={death=yes}
 		}
@@ -2150,7 +2150,7 @@
 			dynasty=263
 			religion=catholic culture=german
 			father=100037294	# Emicho von Nassau
-			mother=100095133	# Anna v. Hohenzollern
+			mother=100095133	# Anna von Hohenzollern
 			1305.01.01={birth=yes}  # EST.
 			1370.01.30={death=yes}  # Rottenburg
 		}
@@ -2179,10 +2179,10 @@
 	name=Adolph
 	dynasty_house=house_nassau_weilburg
 	religion=catholic culture=german
-	father=100117836	# Wilhelm v. Nassau-Weilburg
-	mother=100003859
+	father=100117836	# Wilhelm von Nassau-Weilburg
+	mother=100003859	# Charlotte Luise von Sachsen-Altenburg
 	1817.07.24={birth=yes}
-	1844.01.31={add_spouse=100017076}	# Elizaveta Romanov
+	1844.01.31={add_spouse=100017076}	# Елизавета Михайловна Гольштейн-Готторп-Романов
 	1851.04.23={add_spouse=100000048}	# Adelheid von Anhalt
 	1905.11.17={death=yes}
 }
@@ -2190,10 +2190,10 @@
 		name=Wilhelm
 		dynasty_house=house_nassau_weilburg
 		religion=catholic culture=german
-		father=100192000	# Adolph v. Nassau-Weilburg
+		father=100192000	# Adolph von Nassau-Weilburg
 		mother=100000048	# Adelheid von Anhalt
 		1852.04.22={birth=yes}
-		1893.06.21={add_spouse=100033113}	# Maria Ana de Braganza
+		1893.06.21={add_spouse=100033113}	# Maria Ana de BraganC a
 		1912.02.25={death=yes}
 	}
 		100192005={ #// 1b) MARIE ADÉLAÏDE Thérèse Hilda Wilhelmine, Grand Duchess of Luxemburg, abdicated 14 Jan 1919 (Colmar-Berg 14 Jun 1894-Schloß Hohenburg 24 Jan 1924)
@@ -2201,8 +2201,8 @@
 			female=yes
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=german
-			father=100192003	# Wilhelm v. Nassau-Weilburg
-			mother=100033113	# Maria Ana de Braganza
+			father=100192003	# Wilhelm von Nassau-Weilburg
+			mother=100033113	# Maria Ana de BraganC a
 			1894.06.14={birth=yes}
 			1924.01.24={death=yes}
 		}
@@ -2211,8 +2211,8 @@
 			female=yes
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=german
-			father=100192003	# Wilhelm v. Nassau-Weilburg
-			mother=100033113	# Maria Ana de Braganza
+			father=100192003	# Wilhelm von Nassau-Weilburg
+			mother=100033113	# Maria Ana de BraganC a
 			1896.01.23={birth=yes}
 			1985.07.09={death=yes}
 		}
@@ -2221,25 +2221,25 @@
 				dynasty_house=house_bourbon_parma
 				religion=catholic culture=french
 				father=100070305	# Felix di Borbone-Parma
-				mother=100192006	# Charlotte v. Nassau-Weilburg
+				mother=100192006	# Charlotte von Nassau-Weilburg
 				1921.01.05={birth=yes}
-				1953.04.09={add_spouse=100003699}	# Joséphine Charlotte v. Sachsen-Coburg u.Gotha
+				1953.04.09={add_spouse=100003699}	# Joséphine Charlotte von Sachsen-Coburg u.Gotha
 			}
 				100070251={ #// 1d) Marie Astrid Liliane Charlotte Léopoldine Wilhelmine Ingeborg Antonia Élisabeth Anne Alberte (b.Schloß Betzdorf 17 Feb 1954); m.Luxemburg 6 Feb 1982 Carl Christian, Archduke of Austria (b.Beloeil 26 Aug 1954) $$
 					name="Marie Astrid"
 					female=yes
 					dynasty_house=house_bourbon_parma
 					religion=catholic culture=french
-					father=100070250	# Jean v. Nassau-Weilburg
-					mother=100003699	# Joséphine Charlotte v. Sachsen-Coburg u.Gotha
+					father=100070250	# Jean di Borbone-Parma
+					mother=100003699	# Joséphine Charlotte von Sachsen-Coburg u.Gotha
 					1954.02.17={birth=yes}
 				}
 				100070252={ #// 2d) HENRI Albert Gabriel Félix Marie Guillaume, Grand Duke of Luxemburg 2000 (b.Schloß Betzdorf 16 Apr 1955); m.Luxemburg 4 Feb 1981 Maria Teresa Mestre (b.Marianao, Cuba 22 Mar 1956)
 					name=Henri
 					dynasty_house=house_bourbon_parma
 					religion=catholic culture=french
-					father=100070250	# Jean v. Nassau-Weilburg
-					mother=100003699	# Joséphine Charlotte v. Sachsen-Coburg u.Gotha
+					father=100070250	# Jean di Borbone-Parma
+					mother=100003699	# Joséphine Charlotte von Sachsen-Coburg u.Gotha
 					1955.04.16={birth=yes}
 					1981.02.04={add_spouse=100088032}	# Maria Teresa Mestre
 				}
@@ -2247,7 +2247,7 @@
 						name=Guillaume
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070252	# Henri v. Nassau-Weilburg
+						father=100070252	# Henri di Borbone-Parma
 						mother=100088032	# Maria Teresa Mestre
 						1981.11.11={birth=yes}
 						2012.01.01={add_spouse=100065817}	# Stéphanie de Lannoy
@@ -2256,7 +2256,7 @@
 						name=Félix
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070252	# Henri v. Nassau-Weilburg
+						father=100070252	# Henri di Borbone-Parma
 						mother=100088032	# Maria Teresa Mestre
 						1984.06.03={birth=yes}
 						2013.09.17={add_spouse=100201019}	# Claire Lademacher
@@ -2265,7 +2265,7 @@
 						name=Louis
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070252	# Henri v. Nassau-Weilburg
+						father=100070252	# Henri di Borbone-Parma
 						mother=100088032	# Maria Teresa Mestre
 						1986.08.03={birth=yes}
 						2006.09.29={add_spouse=100092017}	# Tessy Antony
@@ -2274,7 +2274,7 @@
 							name=Gabriel
 							dynasty_house=house_bourbon_parma
 							religion=catholic culture=french
-							father=100070255	# Louis v. Nassau-Weilburg
+							father=100070255	# Louis di Borbone-Parma
 							mother=100092017	# Tessy Antony
 							2006.03.12={birth=yes}
 						}
@@ -2282,7 +2282,7 @@
 							name=Noah
 							dynasty_house=house_bourbon_parma
 							religion=catholic culture=french
-							father=100070255	# Louis v. Nassau-Weilburg
+							father=100070255	# Louis di Borbone-Parma
 							mother=100092017	# Tessy Antony
 							2007.09.21={birth=yes}
 						}
@@ -2291,7 +2291,7 @@
 						female=yes
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070252	# Henri v. Nassau-Weilburg
+						father=100070252	# Henri di Borbone-Parma
 						mother=100088032	# Maria Teresa Mestre
 						1991.02.16={birth=yes}
 					}
@@ -2299,7 +2299,7 @@
 						name=Sébastian
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070252	# Henri v. Nassau-Weilburg
+						father=100070252	# Henri di Borbone-Parma
 						mother=100088032	# Maria Teresa Mestre
 						1992.04.16={birth=yes}
 					}
@@ -2308,8 +2308,8 @@
 					dynasty_house=house_bourbon_parma
 					religion=catholic culture=french
 					trait=twin
-					father=100070250	# Jean v. Nassau-Weilburg
-					mother=100003699	# Joséphine Charlotte v. Sachsen-Coburg u.Gotha
+					father=100070250	# Jean di Borbone-Parma
+					mother=100003699	# Joséphine Charlotte von Sachsen-Coburg u.Gotha
 					1957.05.15={birth=yes}
 					1987.05.27={add_spouse=100092023}	# Hélène Suzanna Vestur
 					2009.01.01={remove_spouse=100092023}
@@ -2320,7 +2320,7 @@
 						female=yes
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070260	# Jean v. Nassau-Weilburg
+						father=100070260	# Jean di Borbone-Parma
 						mother=100092023	# Hélène Suzanna Vestur
 						1986.09.08={birth=yes}
 					}
@@ -2328,7 +2328,7 @@
 						name="Constantine Jean"
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070260	# Jean v. Nassau-Weilburg
+						father=100070260	# Jean di Borbone-Parma
 						mother=100092023	# Hélène Suzanna Vestur
 						1988.07.22={birth=yes}
 					}
@@ -2336,7 +2336,7 @@
 						name="Wenceslas François"
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070260	# Jean v. Nassau-Weilburg
+						father=100070260	# Jean di Borbone-Parma
 						mother=100092023	# Hélène Suzanna Vestur
 						1990.11.17={birth=yes}
 					}
@@ -2344,7 +2344,7 @@
 						name=Carl-Johann
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070260	# Jean v. Nassau-Weilburg
+						father=100070260	# Jean di Borbone-Parma
 						mother=100092023	# Hélène Suzanna Vestur
 						1992.08.15={birth=yes}
 					}
@@ -2354,16 +2354,16 @@
 					dynasty_house=house_bourbon_parma
 					religion=catholic culture=french
 					trait=twin
-					father=100070250	# Jean v. Nassau-Weilburg
-					mother=100003699	# Joséphine Charlotte v. Sachsen-Coburg u.Gotha
+					father=100070250	# Jean di Borbone-Parma
+					mother=100003699	# Joséphine Charlotte von Sachsen-Coburg u.Gotha
 					1957.05.15={birth=yes}
 				}
 				100070266={ #// 5d) Guillaume Marie Louis Christian (b.Schloß Betzdorf 1 May 1963); m.Versailles 24 Sep 1994 Sibilla Weiller (b.Neuilly 12 Jun 1968)
 					name=Guillaume
 					dynasty_house=house_bourbon_parma
 					religion=catholic culture=french
-					father=100070250	# Jean v. Nassau-Weilburg
-					mother=100003699	# Joséphine Charlotte v. Sachsen-Coburg u.Gotha
+					father=100070250	# Jean di Borbone-Parma
+					mother=100003699	# Joséphine Charlotte von Sachsen-Coburg u.Gotha
 					1963.05.01={birth=yes}
 					1994.09.24={add_spouse=100092032}	# Sibilla Weiller
 				}
@@ -2371,7 +2371,7 @@
 						name=Paul-Louis
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070266	# Guillaume v. Nassau-Weilburg
+						father=100070266	# Guillaume di Borbone-Parma
 						mother=100092032	# Sibilla Weiller
 						1998.03.04={birth=yes}
 					}
@@ -2379,7 +2379,7 @@
 						name="Léopold Guillaume"
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070266	# Guillaume v. Nassau-Weilburg
+						father=100070266	# Guillaume di Borbone-Parma
 						mother=100092032	# Sibilla Weiller
 						2000.05.02={birth=yes}
 					}
@@ -2388,7 +2388,7 @@
 						female=yes
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070266	# Guillaume v. Nassau-Weilburg
+						father=100070266	# Guillaume di Borbone-Parma
 						mother=100092032	# Sibilla Weiller
 						2000.05.02={birth=yes}
 					}
@@ -2396,7 +2396,7 @@
 						name="Jean André"
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070266	# Guillaume v. Nassau-Weilburg
+						father=100070266	# Guillaume di Borbone-Parma
 						mother=100092032	# Sibilla Weiller
 						2004.07.13={birth=yes}
 					}
@@ -2406,7 +2406,7 @@
 				dynasty_house=house_bourbon_parma
 				religion=catholic culture=french
 				father=100070305	# Felix di Borbone-Parma
-				mother=100192006	# Charlotte v. Nassau-Weilburg
+				mother=100192006	# Charlotte von Nassau-Weilburg
 				1922.12.22={birth=yes}
 				2011.11.22={death=yes}
 			}
@@ -2416,7 +2416,7 @@
 				dynasty_house=house_bourbon_parma
 				religion=catholic culture=french
 				father=100070305	# Felix di Borbone-Parma
-				mother=100192006	# Charlotte v. Nassau-Weilburg
+				mother=100192006	# Charlotte von Nassau-Weilburg
 				1924.05.21={birth=yes}
 				2007.02.28={death=yes}
 			}
@@ -2426,7 +2426,7 @@
 				dynasty_house=house_bourbon_parma
 				religion=catholic culture=french
 				father=100070305	# Felix di Borbone-Parma
-				mother=100192006	# Charlotte v. Nassau-Weilburg
+				mother=100192006	# Charlotte von Nassau-Weilburg
 				1925.08.02={birth=yes}
 				2005.01.01={death=yes}	# EST.
 }
@@ -2435,7 +2435,7 @@
 				dynasty_house=house_bourbon_parma
 				religion=catholic culture=french
 				father=100070305	# Felix di Borbone-Parma
-				mother=100192006	# Charlotte v. Nassau-Weilburg
+				mother=100192006	# Charlotte von Nassau-Weilburg
 				1927.08.07={birth=yes}
 				1967.03.01={add_spouse=100092044}	# Joan Douglas Dillon
 				1977.07.26={death=yes}
@@ -2445,7 +2445,7 @@
 					female=yes
 					dynasty_house=house_bourbon_parma
 					religion=catholic culture=french
-					father=100070274	# Charles Frédéric v. Nassau-Weilburg
+					father=100070274	# Charles Frédéric di Borbone-Parma
 					mother=100092044	# Joan Douglas Dillon
 					1967.09.15={birth=yes}
 				}
@@ -2453,7 +2453,7 @@
 					name="Robert Louis"
 					dynasty_house=house_bourbon_parma
 					religion=catholic culture=french
-					father=100070274	# Charles Frédéric v. Nassau-Weilburg
+					father=100070274	# Charles Frédéric di Borbone-Parma
 					mother=100092044	# Joan Douglas Dillon
 					1968.08.22={birth=yes}
 					1994.01.29={add_spouse=100092048}	# Julie Elizabeth Houston Ongaro
@@ -2463,7 +2463,7 @@
 						female=yes
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070276	# Robert Louis v. Nassau-Weilburg
+						father=100070276	# Robert Louis di Borbone-Parma
 						mother=100092048	# Julie Elizabeth Houston Ongaro
 						1995.03.20={birth=yes}
 					}
@@ -2471,7 +2471,7 @@
 						name="Alexandre Thédore"
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070276	# Robert Louis v. Nassau-Weilburg
+						father=100070276	# Robert Louis di Borbone-Parma
 						mother=100092048	# Julie Elizabeth Houston Ongaro
 						1997.04.18={birth=yes}
 					}
@@ -2479,7 +2479,7 @@
 						name="Frederik Henry"
 						dynasty_house=house_bourbon_parma
 						religion=catholic culture=french
-						father=100070276	# Robert Louis v. Nassau-Weilburg
+						father=100070276	# Robert Louis di Borbone-Parma
 						mother=100092048	# Julie Elizabeth Houston Ongaro
 						2002.03.18={birth=yes}
 					}
@@ -2489,7 +2489,7 @@
 				dynasty_house=house_bourbon_parma
 				religion=catholic culture=french
 				father=100070305	# Felix di Borbone-Parma
-				mother=100192006	# Charlotte v. Nassau-Weilburg
+				mother=100192006	# Charlotte von Nassau-Weilburg
 				1929.08.24={birth=yes}
 				2009.01.01={death=yes}	# EST.
 }
@@ -2498,8 +2498,8 @@
 			female=yes
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=french
-			father=100192003	# Wilhelm v. Nassau-Weilburg
-			mother=100033113	# Maria Ana de Braganza
+			father=100192003	# Wilhelm von Nassau-Weilburg
+			mother=100033113	# Maria Ana de BraganC a
 			1897.02.15={birth=yes}
 			1979.09.08={death=yes}
 		}
@@ -2508,8 +2508,8 @@
 			female=yes
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=french
-			father=100192003	# Wilhelm v. Nassau-Weilburg
-			mother=100033113	# Maria Ana de Braganza
+			father=100192003	# Wilhelm von Nassau-Weilburg
+			mother=100033113	# Maria Ana de BraganC a
 			1899.10.07={birth=yes}
 			1954.07.31={death=yes}
 		}
@@ -2518,8 +2518,8 @@
 			female=yes
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=french
-			father=100192003	# Wilhelm v. Nassau-Weilburg
-			mother=100033113	# Maria Ana de Braganza
+			father=100192003	# Wilhelm von Nassau-Weilburg
+			mother=100033113	# Maria Ana de BraganC a
 			1901.03.07={birth=yes}
 			1950.08.02={death=yes}
 		}
@@ -2528,8 +2528,8 @@
 			female=yes
 			dynasty_house=house_nassau_weilburg
 			religion=catholic culture=french
-			father=100192003	# Wilhelm v. Nassau-Weilburg
-			mother=100033113	# Maria Ana de Braganza
+			father=100192003	# Wilhelm von Nassau-Weilburg
+			mother=100033113	# Maria Ana de BraganC a
 			1902.02.14={birth=yes}
 			1941.05.24={death=yes}
 		}
@@ -2537,7 +2537,7 @@
 		name="Franz Joseph"
 		dynasty_house=house_nassau_weilburg
 		religion=catholic culture=german
-		father=100192000	# Adolph v. Nassau-Weilburg
+		father=100192000	# Adolph von Nassau-Weilburg
 		mother=100000048	# Adelheid von Anhalt
 		1859.01.30={birth=yes}
 		1875.04.02={death=yes}
@@ -2547,7 +2547,7 @@
 		female=yes
 		dynasty_house=house_nassau_weilburg
 		religion=catholic culture=german
-		father=100192000	# Adolph v. Nassau-Weilburg
+		father=100192000	# Adolph von Nassau-Weilburg
 		mother=100000048	# Adelheid von Anhalt
 		1864.11.05={birth=yes}
 		1952.02.08={death=yes}
@@ -2556,23 +2556,23 @@
 
 
 ## Nassau-Siegen          					1002097
-100037262={ #// Johann VI, Gf von Nassau-Dillenburg in Dillenburg, Siegen, Hadamar, Diez, in Beilstein (Dillenburg 23 Nov 1535-Dillenburg 8 Oct 1606); m.1st Dillenburg 16 Jun 1559 Elisabeth Ldgfn von Leuchtenberg (Feb 1538-Dillenburg 6 Jul 1579); m.2nd Dillenburg 13 Sep 1580 Kunigunde Pfgfn von Simmern (Simmern 9 Oct 1556-Dillenburg 6 Jan 1586); m.3rd Berleburg 14 Jun 1586 Johanette Gfn von Sayn-Wittgenstein (1 Feb 1561-Dillenburg 13 Apr 1622)
+100037262={ #// Johann VI, Gf von Nassau-Dillenburg in Dillenburg, Siegen, Hadamar, Diez, in Beilstein (Dillenburg 23 Nov 1535-Dillenburg 8 Oct 1606); m.1st Dillenburg 16 Jun 1559 Elisabeth Ldgfn von Leuchtenberg (Feb 1538-Dillenburg 6 Jul 1579); m.2nd Dillenburg 13 Sep 1580 Kunigunde Pfgfn von Simmern (Simmern 9 Oct 1556-Dillenburg 6 Jan 1586); m.3rd Berleburg 14 Jun 1586 Johanette Gfn von Sayn-Wittgenstein (1 Feb 1561-Dillenburg 13 Apr 1622) $$
 	name=Johann
 	dynasty_house=house_nassau_siegen
 	religion=catholic culture=german
 	father=100037242	# Wilhelm von Nassau
-	mother=100009754	# Juliana zu Stolberg-Stolberg
+	mother=100009754	# Juliana von Stolberg
 	1535.11.23={birth=yes}  # Dillenburg
 	1559.06.16={add_spouse=100085850}	# LDGFN Elisabeth von Leuchtenberg
-	1580.09.13={add_spouse=100008004}	# Kunigunde v. Wittelsbach
-	1586.06.14={add_spouse=100008892}	# Johannette zu Sayn
+	1580.09.13={add_spouse=100008004}	# Kunigunde von Wittelsbach
+	1586.06.14={add_spouse=100008892}	# Johannette von Sayn
 	1606.10.08={death=yes}  # Dillenburg
 }
 	100037003={ #// 1a) Wilhelm Ludwig, Gf von Nassau-Dillenburg, Stattholder von Friesland, Groningen and Drenthe (Siegen 13 Mar 1560-Leeuwarden 31 May 1620); m.Franeker 25 Nov 1587 Pss Anna von Orange-Nassau (5 Nov 1562-13 Jun 1588) $$
 		name="Wilhelm Ludwig"
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
+		father=100037262	# Johann von Nassau-Siegen
 		mother=100085850	# LDGFN Elisabeth von Leuchtenberg
 		1560.03.13={birth=yes}  # Siegen
 		1587.11.25={add_spouse=100037247}	# Anna von Nassau
@@ -2582,7 +2582,7 @@
 		name=Johann
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
+		father=100037262	# Johann von Nassau-Siegen
 		mother=100085850	# LDGFN Elisabeth von Leuchtenberg
 		1561.06.07={birth=yes}  # Dillenburg
 		1581.12.09={add_spouse=100010409}	# Magdalena zu Waldeck u.Pyrmont
@@ -2593,7 +2593,7 @@
 			name=Johann
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100010409	# Magdalena zu Waldeck u.Pyrmont
 			1583.09.29={birth=yes}  # Dillenburg
 			1618.08.13={add_spouse=100069765}	# Ernestine de Ligne
@@ -2604,7 +2604,7 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=french
-				father=100037008	# Johann v. Nassau-Siegen
+				father=100037008	# Johann von Nassau-Siegen
 				mother=100069765	# Ernestine de Ligne
 				1621.10.07={birth=yes}  # Brussels
 				1695.09.02={death=yes}  # Beloeil
@@ -2614,16 +2614,16 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037008	# Johann v. Nassau-Siegen
+				father=100037008	# Johann von Nassau-Siegen
 				mother=100069765	# Ernestine de Ligne
 				1623.10.01={birth=yes}
 				1668.08.15={death=yes}  # Mengerskirchen
 			}
-			100037013={ #// 5c) Johann Franz Desideratus, Fst von Nassau-Siegen, sn de Renaix, Spanish Gov von Limburg (Nozeroy 28 Jul 1627-Roermond 17 Dec 1699); m.1st Vienna 14 May 1651 Johanna Klaudia Gfn von Königsegg-Aulendorf (Innsbruck 23 Aug 1632-Renaix 28 Nov 1663); m.2nd Rodemachern 31 May 1665 Eleonore Sophie von Baden-Baden (d.Limburg 19 Apr 1668); m.3rd 9 Feb 1669 Isabelle Claire du Puget de la Serre (1651-Renaix 19 Oct 1714)
+			100037013={ #// 5c) Johann Franz Desideratus, Fst von Nassau-Siegen, sn de Renaix, Spanish Gov von Limburg (Nozeroy 28 Jul 1627-Roermond 17 Dec 1699); m.1st Vienna 14 May 1651 Johanna Klaudia Gfn von Königsegg-Aulendorf (Innsbruck 23 Aug 1632-Renaix 28 Nov 1663); m.2nd Rodemachern 31 May 1665 Eleonore Sophie von Baden-Baden (d.Limburg 19 Apr 1668); m.3rd 9 Feb 1669 Isabelle Claire du Puget de la Serre (1651-Renaix 19 Oct 1714) $$
 				name="Johann Franz"
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037008	# Johann v. Nassau-Siegen
+				father=100037008	# Johann von Nassau-Siegen
 				mother=100069765	# Ernestine de Ligne
 				1627.07.28={birth=yes}  # Nozeroy
 				1651.05.14={add_spouse=100010527}	# Johanna Claudia von Königsegg-Aulendorf
@@ -2636,21 +2636,21 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037013	# Johann Franz v. Nassau-Siegen
+					father=100037013	# Johann Franz von Nassau-Siegen
 					mother=100010527	# Johanna Claudia von Königsegg-Aulendorf
 					1652.09.27={birth=yes}  # Renaix
 					1675.06.27={death=yes}  # Hadamar
 				}
-				100037016={ #// 10d) Wilhelm Hyazinth, Fst von Nassau-Siegen, in Dillenburg 1739/42 (Brussels 3 Apr 1667-Hadamar 18 Feb 1743); m.1st Liège 8 Apr 1687 Maria Franziska Ldgfn zu Fürstenberg (München 17 Sep 1660-Brussels 8 Jun 1691); m.2nd 1698 Maria Anna Josepha Gfn von Hohenlohe-Schillingsfürst (Frankfurt 18 May 1678-Wiesbaden 30 Sep 1739); m.3rd Renaix 28 Jul 1740 Maria Eva Sophie Gfn von Starhemberg (London 17/28 Oct 1722-Strassburg 12 Dec 1773)
+				100037016={ #// 10d) Wilhelm Hyazinth, Fst von Nassau-Siegen, in Dillenburg 1739/42 (Brussels 3 Apr 1667-Hadamar 18 Feb 1743); m.1st Liège 8 Apr 1687 Maria Franziska Ldgfn zu Fürstenberg (München 17 Sep 1660-Brussels 8 Jun 1691); m.2nd 1698 Maria Anna Josepha Gfn von Hohenlohe-Schillingsfürst (Frankfurt 18 May 1678-Wiesbaden 30 Sep 1739); m.3rd Renaix 28 Jul 1740 Maria Eva Sophie Gfn von Starhemberg (London 17/28 Oct 1722-Strassburg 12 Dec 1773) $$
 					name="Wilhelm Hyazinth"
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=french
-					father=100037013	# Johann Franz v. Nassau-Siegen
+					father=100037013	# Johann Franz von Nassau-Siegen
 					mother=100003195	# Eleonore Sophie von Baden
 					1667.04.03={birth=yes}  # Brussels
 					1687.04.08={add_spouse=100094498}	# LDGFN Maria Franziska von Fürstenberg
-					1698.01.01={add_spouse=100005145}	# Maria Anna von Hohenlohe in Öhringen
-					1740.07.28={add_spouse=100094211}	# GFN Maria Eva Sophia von Starhemberg
+					1698.01.01={add_spouse=100005145}	# Maria Anna von Hohenlohe-Waldenburg
+					1740.07.28={add_spouse=100094211}	# Maria Eva Sophia von Starhemberg
 					1743.02.18={death=yes}  # Hadamar
 				}
 					100037018={ #// 4e) Maria Anna Josepha (10 Sep 1704-convent de la Barre, Château-Thierry 20 Aug 1723)
@@ -2658,8 +2658,8 @@
 						female=yes
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037016	# Wilhelm Hyazinth v. Nassau-Siegen
-						mother=100005145	# Maria Anna von Hohenlohe in Öhringen
+						father=100037016	# Wilhelm Hyazinth von Nassau-Siegen
+						mother=100005145	# Maria Anna von Hohenlohe-Waldenburg
 						1704.09.10={birth=yes}
 						1723.08.20={death=yes}  # convent de_la_Barre Château-Thierry
 					}
@@ -2667,10 +2667,10 @@
 					name="Franz Hugo"
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037013	# Johann Franz v. Nassau-Siegen
+					father=100037013	# Johann Franz von Nassau-Siegen
 					mother=100094109	# Isabelle Claire du Puget de la Serre
 					1678.10.18={birth=yes}  # Köln
-					1731.06.03={add_spouse=100001991}	# Leopoldine von Hohenlohe
+					1731.06.03={add_spouse=100001991}	# Leopoldine von Hohenlohe-Waldenburg
 					1735.03.04={death=yes}  # Siegen
 				}
 				100037025={ #// 17d) Anna Louise Francisca (Roermond 1 Apr 1681-Renaix 26 Aug 1728); m.Renaix 20 Jun 1713 Charles Damman Vcte d'Oomberghe (d.18 Jun 1721)
@@ -2678,7 +2678,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037013	# Johann Franz v. Nassau-Siegen
+					father=100037013	# Johann Franz von Nassau-Siegen
 					mother=100094109	# Isabelle Claire du Puget de la Serre
 					1681.04.01={birth=yes}  # Roermond
 					1728.08.26={death=yes}  # Renaix
@@ -2688,7 +2688,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037013	# Johann Franz v. Nassau-Siegen
+					father=100037013	# Johann Franz von Nassau-Siegen
 					mother=100094109	# Isabelle Claire du Puget de la Serre
 					1682.05.11={birth=yes}
 					1724.12.27={death=yes}  # Brussels
@@ -2697,7 +2697,7 @@
 					name="Emanuel Ignatius"
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037013	# Johann Franz v. Nassau-Siegen
+					father=100037013	# Johann Franz von Nassau-Siegen
 					mother=100094109	# Isabelle Claire du Puget de la Serre
 					1688.01.06={birth=yes}  # Roermond
 					1711.05.14={add_spouse=100094526}	# Charlotte de Mailly-Nesle
@@ -2707,7 +2707,7 @@
 						name=Maximilien
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=french
-						father=100037032	# Emanuel Ignatius v. Nassau-Siegen
+						father=100037032	# Emanuel Ignatius von Nassau-Siegen
 						mother=100094526	# Charlotte de Mailly-Nesle
 						1722.10.25={birth=yes}  # Paris
 						1743.12.01={add_spouse=100094528}	# Marie Madeleine de Monchy-Senarpont
@@ -2717,7 +2717,7 @@
 							name=Charles
 							dynasty_house=house_nassau_siegen
 							religion=catholic culture=german
-							father=100037036	# Maximilien v. Nassau-Siegen
+							father=100037036	# Maximilien von Nassau-Siegen
 							mother=100094528	# Marie Madeleine de Monchy-Senarpont
 							1745.01.09={birth=yes}  # Senarpont
 							1780.09.14={add_spouse=100094529}	# Charlotte Godzka
@@ -2728,7 +2728,7 @@
 							female=yes
 							dynasty_house=house_nassau_siegen
 							religion=catholic culture=german
-							father=100037036	# Maximilien v. Nassau-Siegen
+							father=100037036	# Maximilien von Nassau-Siegen
 							mother=100094528	# Marie Madeleine de Monchy-Senarpont
 							1748.04.06={birth=yes}  # Boubers
 							1770.05.10={death=yes}  # Paris
@@ -2738,7 +2738,7 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100010409	# Magdalena zu Waldeck u.Pyrmont
 			1584.11.08={birth=yes}  # Dillenburg
 			1661.07.26={death=yes}  # Landau
@@ -2748,7 +2748,7 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100010409	# Magdalena zu Waldeck u.Pyrmont
 			1587.09.03={birth=yes}  # Dillenburg
 			1643.02.15={death=yes}  # Eschwege
@@ -2758,7 +2758,7 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100010409	# Magdalena zu Waldeck u.Pyrmont
 			1589.03.03={birth=yes}  # Dillenburg
 			1620.02.27={death=yes}
@@ -2767,7 +2767,7 @@
 			name=Wilhelm
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100010409	# Magdalena zu Waldeck u.Pyrmont
 			1592.08.13={birth=yes}  # Dillenburg
 			1619.01.17={add_spouse=100011865}	# Christine von Erbach
@@ -2778,7 +2778,7 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037063	# Wilhelm v. Nassau-Siegen
+				father=100037063	# Wilhelm von Nassau-Siegen
 				mother=100011865	# Christine von Erbach
 				1623.10.21={birth=yes}  # Siegen
 				1647.08.20={death=yes}  # Spa
@@ -2788,7 +2788,7 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037063	# Wilhelm v. Nassau-Siegen
+				father=100037063	# Wilhelm von Nassau-Siegen
 				mother=100011865	# Christine von Erbach
 				1626.03.11={birth=yes}  # Emmerich
 				1694.11.16={death=yes}  # Culemborg
@@ -2798,7 +2798,7 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037063	# Wilhelm v. Nassau-Siegen
+				father=100037063	# Wilhelm von Nassau-Siegen
 				mother=100011865	# Christine von Erbach
 				1629.06.10={birth=yes}  # Heusden
 				1700.01.22={death=yes}  # Hildburghausen
@@ -2808,7 +2808,7 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100010409	# Magdalena zu Waldeck u.Pyrmont
 			1596.02.23={birth=yes}
 			1662.12.06={death=yes}
@@ -2817,7 +2817,7 @@
 			name="Johann Moritz"
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100005363	# Margarete von Oldenburg
 			1604.06.18={birth=yes}  # Dillenburg
 			1679.12.10={death=yes}  # Berg en Dal
@@ -2826,7 +2826,7 @@
 			name=Georg
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100005363	# Margarete von Oldenburg
 			1606.02.23={birth=yes}  # Dillenburg
 			1647.06.04={add_spouse=100094547}	# PSS Mauritia of Portugal
@@ -2837,7 +2837,7 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100005363	# Margarete von Oldenburg
 			1608.10.08={birth=yes}  # Siegen
 			1678.12.19={death=yes}  # Château-Vilain
@@ -2847,7 +2847,7 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100005363	# Margarete von Oldenburg
 			1610.04.16={birth=yes}  # Siegen
 			1665.05.08={death=yes}  # Terborg
@@ -2856,7 +2856,7 @@
 			name=Heinrich
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100005363	# Margarete von Oldenburg
 			1611.08.09={birth=yes}  # Siegen
 			1646.04.19={add_spouse=100194552}	# Marie Magdalene van Limburg Stirum
@@ -2866,20 +2866,20 @@
 				name="Wilhelm Moritz"
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037088	# Heinrich v. Nassau-Siegen
+				father=100037088	# Heinrich von Nassau-Siegen
 				mother=100194552	# Marie Magdalene van Limburg Stirum
 				1649.01.18={birth=yes}  # Terborg
-				1678.02.06={add_spouse=100037156}	# Ernestine Charlotte v. Nassau-Siegen
+				1678.02.06={add_spouse=100037156}	# Ernestine Charlotte von Nassau-Siegen
 				1691.01.23={death=yes}  # Siegen
 			}
 				100037090={ #// 1d) Friedrich Wilhelm I Adolf Fst von Nassau-Siegen (Siegen 20 Feb 1680-Siegen 13 Feb 1722); m.1st Homburg vor der Höhe 7 Jan 1702 Ldgvine Juliane von Hesse-Homburg (Homburg 6 Jan 1681-Siegen 12 Nov 1707); m.2nd Bayreuth 13 Apr 1708 Pss Amalie Luise von Courland (Mitau 23 Jul 1687-Siegen 18 Jan 1750) $$
 					name="Friedrich Wilhelm"
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037089	# Wilhelm Moritz v. Nassau-Siegen
-					mother=100037156	# Ernestine Charlotte v. Nassau-Siegen
+					father=100037089	# Wilhelm Moritz von Nassau-Siegen
+					mother=100037156	# Ernestine Charlotte von Nassau-Siegen
 					1680.02.20={birth=yes}  # Siegen
-					1702.01.07={add_spouse=100004349}	# Elisabeth Franziska v. Hessen
+					1702.01.07={add_spouse=100004349}	# Elisabeth Franziska von Hessen
 					1708.04.13={add_spouse=100194553}	# Amalie Luise Kettler
 					1722.02.13={death=yes}  # Siegen
 				}
@@ -2888,8 +2888,8 @@
 						female=yes
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037090	# Friedrich Wilhelm v. Nassau-Siegen
-						mother=100004349	# Elisabeth Franziska v. Hessen
+						father=100037090	# Friedrich Wilhelm von Nassau-Siegen
+						mother=100004349	# Elisabeth Franziska von Hessen
 						1702.11.30={birth=yes}  # Siegen
 						1785.07.22={death=yes}  # Stadthagen
 					}
@@ -2897,10 +2897,10 @@
 						name="Friedrich Wilhelm"
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037090	# Friedrich Wilhelm v. Nassau-Siegen
-						mother=100004349	# Elisabeth Franziska v. Hessen
+						father=100037090	# Friedrich Wilhelm von Nassau-Siegen
+						mother=100004349	# Elisabeth Franziska von Hessen
 						1706.11.11={birth=yes}  # Siegen
-						1728.09.23={add_spouse=100004739}	# Sophie Polyxena zu Sayn-Wittgenstein
+						1728.09.23={add_spouse=100004739}	# Sophie Polyxena von Sayn-Wittgenstein
 						1734.03.02={death=yes}  # Siegen
 					}
 						100037093={ #// 1f) Charlotte Sophie (Siegen 6 Jun 1729-Burgsteinfurt 2 Apr 1759); m.Siegen 30 Sep 1748 Karl Gf von Bentheim und Steinfurt (d.30 Jun 1780) $$
@@ -2908,8 +2908,8 @@
 							female=yes
 							dynasty_house=house_nassau_siegen
 							religion=catholic culture=german
-							father=100037092	# Friedrich Wilhelm v. Nassau-Siegen
-							mother=100004739	# Sophie Polyxena zu Sayn-Wittgenstein
+							father=100037092	# Friedrich Wilhelm von Nassau-Siegen
+							mother=100004739	# Sophie Polyxena von Sayn-Wittgenstein
 							1729.06.06={birth=yes}  # Siegen
 							1759.04.02={death=yes}  # Burgsteinfurt
 						}
@@ -2918,7 +2918,7 @@
 						female=yes
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037090	# Friedrich Wilhelm v. Nassau-Siegen
+						father=100037090	# Friedrich Wilhelm von Nassau-Siegen
 						mother=100194553	# Amalie Luise Kettler
 						1712.09.09={birth=yes}  # Siegen
 						1742.02.22={death=yes}  # Schloss Wittgenstein
@@ -2928,7 +2928,7 @@
 						female=yes
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037090	# Friedrich Wilhelm v. Nassau-Siegen
+						father=100037090	# Friedrich Wilhelm von Nassau-Siegen
 						mother=100194553	# Amalie Luise Kettler
 						1715.11.26={birth=yes}  # Siegen
 						1752.08.10={death=yes}  # Laubach
@@ -2938,7 +2938,7 @@
 						female=yes
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037090	# Friedrich Wilhelm v. Nassau-Siegen
+						father=100037090	# Friedrich Wilhelm von Nassau-Siegen
 						mother=100194553	# Amalie Luise Kettler
 						1719.04.10={birth=yes}  # Siegen
 						1789.01.10={death=yes}  # Wittgenstein
@@ -2948,7 +2948,7 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037088	# Heinrich v. Nassau-Siegen
+				father=100037088	# Heinrich von Nassau-Siegen
 				mother=100194552	# Marie Magdalene van Limburg Stirum
 				1650.01.10={birth=yes}  # Schloss Wisch
 				1688.11.15={death=yes}  # Mitau
@@ -2958,17 +2958,17 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100005363	# Margarete von Oldenburg
 			1612.08.14={birth=yes}  # Siegen
 			1665.01.21={death=yes}  # Franzhagen
 		}
-		100037103={ #// 20b) Amalie (Siegen 2 Sep 1613-Sulzbach 24 Aug 1669); m.1st Alt-Stettin 23 Apr 1636 Hermann Wrangell af Salmis (d.Riga 11 Dec 1643); m.2nd Stockholm 27 Mar 1649 Christian August Pfgf von Sulzbach (d.23 Apr 1708)
+		100037103={ #// 20b) Amalie (Siegen 2 Sep 1613-Sulzbach 24 Aug 1669); m.1st Alt-Stettin 23 Apr 1636 Hermann Wrangell af Salmis (d.Riga 11 Dec 1643); m.2nd Stockholm 27 Mar 1649 Christian August Pfgf von Sulzbach (d.23 Apr 1708) $$
 			name=Amalie
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100005363	# Margarete von Oldenburg
 			1613.09.02={birth=yes}  # Siegen
 			1669.08.24={death=yes}  # Sulzbach
@@ -2978,7 +2978,7 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037004	# Johann v. Nassau-Siegen
+			father=100037004	# Johann von Nassau-Siegen
 			mother=100005363	# Margarete von Oldenburg
 			1620.05.01={birth=yes}  # Siegen
 			1665.05.13={death=yes}  # Wesel
@@ -2987,11 +2987,11 @@
 		name=Georg
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
+		father=100037262	# Johann von Nassau-Siegen
 		mother=100085850	# LDGFN Elisabeth von Leuchtenberg
 		1562.09.01={birth=yes}  # Dillenburg
-		1588.09.22={add_spouse=100037440}	# Anna Amalie v. Nassau-Weilburg
-		1605.10.05={add_spouse=100008898}	# Amalie zu Sayn
+		1588.09.22={add_spouse=100037440}	# Anna Amalie von Nassau-Weilburg
+		1605.10.05={add_spouse=100008898}	# Amalie von Sayn
 		1623.08.09={death=yes}  # Dillenburg
 	}
 		100037112={ #// 5b) Maria Juliane (Dillenburg 8 Jan 1592-Berleburg 13 May 1645); m.Dillenburg 7 Nov 1608 Georg Gf von Sayn-Wittgenstein-Berleburg (d.16 Dec 1631) $$
@@ -2999,8 +2999,8 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037110	# Georg v. Nassau-Siegen
-			mother=100037440	# Anna Amalie v. Nassau-Weilburg
+			father=100037110	# Georg von Nassau-Siegen
+			mother=100037440	# Anna Amalie von Nassau-Weilburg
 			1592.01.08={birth=yes}  # Dillenburg
 			1645.05.13={death=yes}  # Berleburg
 		}
@@ -3008,21 +3008,21 @@
 			name="Ludwig Heinrich"
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037110	# Georg v. Nassau-Siegen
-			mother=100037440	# Anna Amalie v. Nassau-Weilburg
+			father=100037110	# Georg von Nassau-Siegen
+			mother=100037440	# Anna Amalie von Nassau-Weilburg
 			1594.05.09={birth=yes}  # Saarbrücken
-			1615.11.25={add_spouse=100008899}	# Katharina zu Sayn
-			1653.09.10={add_spouse=100008013}	# Elisabeth zu Salm
-			1656.09.25={add_spouse=100037219}	# Sofie Magdalene v. Nassau-Siegen
+			1615.11.25={add_spouse=100008899}	# Katharina von Sayn
+			1653.09.10={add_spouse=100008013}	# Elisabeth von Salm
+			1656.09.25={add_spouse=100037219}	# Sofie Magdalene von Nassau-Siegen
 			1662.07.12={death=yes}  # Dillenburg
 		}
-			100037115={ #// 1c) Anna Amalie (Beilstein 1 Nov 1616-Altenkirchen 6 Jul 1649); m.1st Dillenburg 25 Apr 1638 Philipp Ludwig Gf von Wied (d.Dillenburg 16 Oct 1638); m.2nd Dillenburg 6 Dec 1646 Christian Gf von Sayn-Wittgenstein (d.Vienna 29 Oct 1675)
+			100037115={ #// 1c) Anna Amalie (Beilstein 1 Nov 1616-Altenkirchen 6 Jul 1649); m.1st Dillenburg 25 Apr 1638 Philipp Ludwig Gf von Wied (d.Dillenburg 16 Oct 1638); m.2nd Dillenburg 6 Dec 1646 Christian Gf von Sayn-Wittgenstein (d.Vienna 29 Oct 1675) $$
 				name="Anna Amalie"
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037113	# Ludwig Heinrich v. Nassau-Siegen
-				mother=100008899	# Katharina zu Sayn
+				father=100037113	# Ludwig Heinrich von Nassau-Siegen
+				mother=100008899	# Katharina von Sayn
 				1616.11.01={birth=yes}  # Beilstein
 				1649.07.06={death=yes}  # Altenkirchen
 			}
@@ -3030,10 +3030,10 @@
 				name="Georg Ludwig"
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037113	# Ludwig Heinrich v. Nassau-Siegen
-				mother=100008899	# Katharina zu Sayn
+				father=100037113	# Ludwig Heinrich von Nassau-Siegen
+				mother=100008899	# Katharina von Sayn
 				1618.03.04={birth=yes}  # Beilstein
-				1638.04.08={add_spouse=100009396}	# Anna Auguste v. Braunschweig
+				1638.04.08={add_spouse=100009396}	# Anna Auguste von Braunschweig
 				1656.05.19={death=yes}  # Dillenburg
 			}
 				100037119={ #// 2d) Sofie Eleonore (Dillenburg 2 May 1640-Dillenburg 1 May 1712)
@@ -3041,8 +3041,8 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037117	# Georg Ludwig v. Nassau-Siegen
-					mother=100009396	# Anna Auguste v. Braunschweig
+					father=100037117	# Georg Ludwig von Nassau-Siegen
+					mother=100009396	# Anna Auguste von Braunschweig
 					1640.05.02={birth=yes}  # Dillenburg
 					1712.05.01={death=yes}  # Dillenburg
 				}
@@ -3050,8 +3050,8 @@
 					name=Heinrich
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037117	# Georg Ludwig v. Nassau-Siegen
-					mother=100009396	# Anna Auguste v. Braunschweig
+					father=100037117	# Georg Ludwig von Nassau-Siegen
+					mother=100009396	# Anna Auguste von Braunschweig
 					1641.08.28={birth=yes}  # Dillenburg
 					1663.10.23={add_spouse=100112427}	# Dorota Elzbieta legnicki
 					1701.04.18={death=yes}  # Schloss Ludwigsbrunn
@@ -3061,7 +3061,7 @@
 						female=yes
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037121	# Heinrich v. Nassau-Siegen
+						father=100037121	# Heinrich von Nassau-Siegen
 						mother=100112427	# Dorota Elzbieta legnicki
 						1666.04.28={birth=yes}  # Dillenburg
 						1733.01.14={death=yes}  # Usingen
@@ -3070,7 +3070,7 @@
 						name=Wilhelm
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037121	# Heinrich v. Nassau-Siegen
+						father=100037121	# Heinrich von Nassau-Siegen
 						mother=100112427	# Dorota Elzbieta legnicki
 						1670.08.28={birth=yes}  # Dillenburg
 						1699.01.13={add_spouse=100005591}	# Dorothea Johannette von Oldenburg
@@ -3081,7 +3081,7 @@
 						female=yes
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037121	# Heinrich v. Nassau-Siegen
+						father=100037121	# Heinrich von Nassau-Siegen
 						mother=100112427	# Dorota Elzbieta legnicki
 						1674.12.28={birth=yes}  # Dillenburg
 						1724.07.28={death=yes}  # Dillenburg
@@ -3091,7 +3091,7 @@
 						female=yes
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037121	# Heinrich v. Nassau-Siegen
+						father=100037121	# Heinrich von Nassau-Siegen
 						mother=100112427	# Dorota Elzbieta legnicki
 						1680.06.13={birth=yes}  # Dillenburg
 						1738.10.11={death=yes}  # Biebrich
@@ -3100,19 +3100,19 @@
 						name=Christian
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037121	# Heinrich v. Nassau-Siegen
+						father=100037121	# Heinrich von Nassau-Siegen
 						mother=100112427	# Dorota Elzbieta legnicki
 						1688.08.11={birth=yes}  # Dillenburg
-						1725.04.15={add_spouse=100037207}	# Isabella v. Nassau-Siegen
+						1725.04.15={add_spouse=100037207}	# Isabella von Nassau-Siegen
 						1739.08.28={death=yes}  # Ebersbach
 					}
-				100037143={ #// 4d) Elisabeth Charlotte (Dillenburg 2 Jun 1643-Raab, Hungary 2 Mar 1686); m.1st Dillenburg 2 Aug 1665 August Gf von Liegnitz (d.14 May 1679); m.2nd 1680 Ferdinand Robert Gf von Aspremont-Lynden (d.1 Feb 1708)
+				100037143={ #// 4d) Elisabeth Charlotte (Dillenburg 2 Jun 1643-Raab, Hungary 2 Mar 1686); m.1st Dillenburg 2 Aug 1665 August Gf von Liegnitz (d.14 May 1679); m.2nd 1680 Ferdinand Robert Gf von Aspremont-Lynden (d.1 Feb 1708) $$
 					name="Elisabeth Charlotte"
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037117	# Georg Ludwig v. Nassau-Siegen
-					mother=100009396	# Anna Auguste v. Braunschweig
+					father=100037117	# Georg Ludwig von Nassau-Siegen
+					mother=100009396	# Anna Auguste von Braunschweig
 					1643.06.02={birth=yes}  # Dillenburg
 					1686.03.02={death=yes}  # Raab Hungary
 				}
@@ -3121,8 +3121,8 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037117	# Georg Ludwig v. Nassau-Siegen
-					mother=100009396	# Anna Auguste v. Braunschweig
+					father=100037117	# Georg Ludwig von Nassau-Siegen
+					mother=100009396	# Anna Auguste von Braunschweig
 					1652.12.28={birth=yes}  # Dillenburg
 					1670.02.27={death=yes}  # Schloss Schaumburg
 				}
@@ -3131,8 +3131,8 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037113	# Ludwig Heinrich v. Nassau-Siegen
-				mother=100008899	# Katharina zu Sayn
+				father=100037113	# Ludwig Heinrich von Nassau-Siegen
+				mother=100008899	# Katharina von Sayn
 				1623.05.22={birth=yes}
 				1665.11.17={death=yes}  # Dillenburg
 			}
@@ -3141,8 +3141,8 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037113	# Ludwig Heinrich v. Nassau-Siegen
-				mother=100008899	# Katharina zu Sayn
+				father=100037113	# Ludwig Heinrich von Nassau-Siegen
+				mother=100008899	# Katharina von Sayn
 				1628.12.25={birth=yes}  # Dillenburg
 				1663.03.25={death=yes}  # Dillenburg
 			}
@@ -3150,18 +3150,18 @@
 				name=Adolf
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037113	# Ludwig Heinrich v. Nassau-Siegen
-				mother=100008899	# Katharina zu Sayn
+				father=100037113	# Ludwig Heinrich von Nassau-Siegen
+				mother=100008899	# Katharina von Sayn
 				1629.01.13={birth=yes}  # Dillenburg
 				1653.08.06={add_spouse=100094585}	# GFN Elisabeth Charlotte Melander von Holzappel
 				1676.12.09={death=yes}  # Hadamar
 			}
-				100037156={ #// 3d) Ernestine Charlotte (Schaumburg 20 May 1662-Siegen 21 Feb 1714); m.1st Schaumburg 6 Feb 1678 Wilhelm Moritz Fst von Nassau-Siegen (d.23 Jan 1691); m.2nd Friedrich Philipp von Geuder gt Rabensteiner (d.1727)
+				100037156={ #// 3d) Ernestine Charlotte (Schaumburg 20 May 1662-Siegen 21 Feb 1714); m.1st Schaumburg 6 Feb 1678 Wilhelm Moritz Fst von Nassau-Siegen (d.23 Jan 1691); m.2nd Friedrich Philipp von Geuder gt Rabensteiner (d.1727) $$
 					name="Ernestine Charlotte"
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037155	# Adolf v. Nassau-Siegen
+					father=100037155	# Adolf von Nassau-Siegen
 					mother=100094585	# GFN Elisabeth Charlotte Melander von Holzappel
 					1662.05.20={birth=yes}  # Schaumburg
 					1714.02.21={death=yes}  # Siegen
@@ -3171,7 +3171,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037155	# Adolf v. Nassau-Siegen
+					father=100037155	# Adolf von Nassau-Siegen
 					mother=100094585	# GFN Elisabeth Charlotte Melander von Holzappel
 					1663.09.05={birth=yes}  # Schaumburg
 					1700.02.08={death=yes}  # Detmold
@@ -3181,7 +3181,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037155	# Adolf v. Nassau-Siegen
+					father=100037155	# Adolf von Nassau-Siegen
 					mother=100094585	# GFN Elisabeth Charlotte Melander von Holzappel
 					1672.09.28={birth=yes}
 					1700.01.31={death=yes}  # Bernburg Bernburg
@@ -3190,8 +3190,8 @@
 				name=Philipp
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037113	# Ludwig Heinrich v. Nassau-Siegen
-				mother=100008899	# Katharina zu Sayn
+				father=100037113	# Ludwig Heinrich von Nassau-Siegen
+				mother=100008899	# Katharina von Sayn
 				1630.10.12={birth=yes}  # Dillenburg
 				1657.04.01={death=yes}
 			}
@@ -3199,8 +3199,8 @@
 				name="August Heinrich"
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037113	# Ludwig Heinrich v. Nassau-Siegen
-				mother=100037219	# Sofie Magdalene v. Nassau-Siegen
+				father=100037113	# Ludwig Heinrich von Nassau-Siegen
+				mother=100037219	# Sofie Magdalene von Nassau-Siegen
 				1657.07.08={birth=yes}  # Dillenburg
 				1680.12.28={death=yes}  # Dillenburg
 			}
@@ -3208,8 +3208,8 @@
 			name=Albrecht
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037110	# Georg v. Nassau-Siegen
-			mother=100037440	# Anna Amalie v. Nassau-Weilburg
+			father=100037110	# Georg von Nassau-Siegen
+			mother=100037440	# Anna Amalie von Nassau-Weilburg
 			1596.11.01={birth=yes}  # Dillenburg
 			1626.06.16={death=yes}  # Quakenbrück
 		}
@@ -3218,8 +3218,8 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037110	# Georg v. Nassau-Siegen
-			mother=100008898	# Amalie zu Sayn
+			father=100037110	# Georg von Nassau-Siegen
+			mother=100008898	# Amalie von Sayn
 			1606.09.05={birth=yes}  # Dillenburg
 			1661.01.30={death=yes}  # Brake
 		}
@@ -3228,7 +3228,7 @@
 		female=yes
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
+		father=100037262	# Johann von Nassau-Siegen
 		mother=100085850	# LDGFN Elisabeth von Leuchtenberg
 		1564.01.24={birth=yes}  # Dillenburg
 		1611.05.05={death=yes}  # Frankfurt
@@ -3238,7 +3238,7 @@
 		female=yes
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
+		father=100037262	# Johann von Nassau-Siegen
 		mother=100085850	# LDGFN Elisabeth von Leuchtenberg
 		1565.10.06={birth=yes}  # Dillenburg
 		1630.10.14={death=yes}  # Hungen
@@ -3248,7 +3248,7 @@
 		female=yes
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
+		father=100037262	# Johann von Nassau-Siegen
 		mother=100085850	# LDGFN Elisabeth von Leuchtenberg
 		1568.11.12={birth=yes}  # Dillenburg
 		1625.04.30={death=yes}  # Detmold
@@ -3258,7 +3258,7 @@
 		female=yes
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
+		father=100037262	# Johann von Nassau-Siegen
 		mother=100085850	# LDGFN Elisabeth von Leuchtenberg
 		1570.12.27={birth=yes}
 		1625.05.10={death=yes}
@@ -3267,18 +3267,18 @@
 		name="Ernst Kasimir"
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
+		father=100037262	# Johann von Nassau-Siegen
 		mother=100085850	# LDGFN Elisabeth von Leuchtenberg
 		1573.12.22={birth=yes}  # Dillenburg
-		1607.06.08={add_spouse=100009377}	# Sofie Hedwig v. Braunschweig
+		1607.06.08={add_spouse=100009377}	# Sofie Hedwig von Braunschweig
 		1632.06.04={death=yes}  # Roermond
 	}
 		100037192={ #// 1b) Hendrik Casimir Gf von Nassau-Diez (Arnhem 21 Jan 1612-k.a.Hulst 12 Jul 1640)
 			name="Hendrik Casimir"
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=dutch
-			father=100037190	# Ernst Kasimir v. Nassau-Siegen
-			mother=100009377	# Sofie Hedwig v. Braunschweig
+			father=100037190	# Ernst Kasimir von Nassau-Siegen
+			mother=100009377	# Sofie Hedwig von Braunschweig
 			1612.01.21={birth=yes}  # Arnhem
 			1640.07.12={death=yes}  # Hulst
 		}
@@ -3286,8 +3286,8 @@
 			name="Wilhelm Friedrich"
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=dutch
-			father=100037190	# Ernst Kasimir v. Nassau-Siegen
-			mother=100009377	# Sofie Hedwig v. Braunschweig
+			father=100037190	# Ernst Kasimir von Nassau-Siegen
+			mother=100009377	# Sofie Hedwig von Braunschweig
 			1613.08.07={birth=yes}  # Arnhem
 			1652.05.02={add_spouse=100037259}	# Albertine von Nassau
 			1664.10.21={death=yes}  # Leeuwarden
@@ -3297,7 +3297,7 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=dutch
-				father=100037193	# Wilhelm Friedrich v. Nassau-Siegen
+				father=100037193	# Wilhelm Friedrich von Nassau-Siegen
 				mother=100037259	# Albertine von Nassau
 				1654.11.25={birth=yes}  # The Hague
 				1695.02.16={death=yes}  # Allstedt
@@ -3306,7 +3306,7 @@
 				name="Hendrik Casimir"
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=dutch
-				father=100037193	# Wilhelm Friedrich v. Nassau-Siegen
+				father=100037193	# Wilhelm Friedrich von Nassau-Siegen
 				mother=100037259	# Albertine von Nassau
 				1657.01.18={birth=yes}  # The Hague
 				1683.11.16={add_spouse=100000140}	# Henriette Amalia von Anhalt
@@ -3317,7 +3317,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037197	# Hendrik Casimir v. Nassau-Siegen
+					father=100037197	# Hendrik Casimir von Nassau-Siegen
 					mother=100000140	# Henriette Amalia von Anhalt
 					1686.07.27={birth=yes}  # Leeuwarden
 					1754.06.21={death=yes}  # Oranienstein
@@ -3326,10 +3326,10 @@
 					name=Johan
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037197	# Hendrik Casimir v. Nassau-Siegen
+					father=100037197	# Hendrik Casimir von Nassau-Siegen
 					mother=100000140	# Henriette Amalia von Anhalt
 					1687.08.04={birth=yes}  # Dessau
-					1709.04.26={add_spouse=100004348}	# Marie Luise v. Hessen-Kassel
+					1709.04.26={add_spouse=100004348}	# Marie Luise von Hessen-Kassel
 					1711.07.14={death=yes}  # drowned nr Moerdijk
 				}
 					100037201={ #// 1e) Charlotte Amalie (Leeuwarden 2 Oct 1710-Durlach 18 Dec 1777); m.Leeuwarden 3 Jul 1727 Friedrich Erbpr von Baden-Durlach (d.26 Mar 1732) $$
@@ -3337,8 +3337,8 @@
 						female=yes
 						dynasty_house=house_nassau_siegen
 						religion=catholic culture=german
-						father=100037200	# Johan v. Nassau-Siegen
-						mother=100004348	# Marie Luise v. Hessen-Kassel
+						father=100037200	# Johan von Nassau-Siegen
+						mother=100004348	# Marie Luise von Hessen-Kassel
 						1710.10.02={birth=yes}  # Leeuwarden
 						1777.12.18={death=yes}  # Durlach
 					}
@@ -3348,7 +3348,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=dutch
-					father=100037197	# Hendrik Casimir v. Nassau-Siegen
+					father=100037197	# Hendrik Casimir von Nassau-Siegen
 					mother=100000140	# Henriette Amalia von Anhalt
 					1689.02.08={birth=yes}  # The Hague
 					1771.01.27={death=yes}  # Oranienstein
@@ -3358,7 +3358,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037197	# Hendrik Casimir v. Nassau-Siegen
+					father=100037197	# Hendrik Casimir von Nassau-Siegen
 					mother=100000140	# Henriette Amalia von Anhalt
 					1690.03.08={birth=yes}  # Leeuwarden
 					1734.03.01={death=yes}  # Schloss Oranienstein
@@ -3368,7 +3368,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037197	# Hendrik Casimir v. Nassau-Siegen
+					father=100037197	# Hendrik Casimir von Nassau-Siegen
 					mother=100000140	# Henriette Amalia von Anhalt
 					1692.01.22={birth=yes}  # Leeuwarden
 					1757.09.18={death=yes}  # Dillenburg
@@ -3378,7 +3378,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037197	# Hendrik Casimir v. Nassau-Siegen
+					father=100037197	# Hendrik Casimir von Nassau-Siegen
 					mother=100000140	# Henriette Amalia von Anhalt
 					1693.12.25={birth=yes}  # Leeuwarden
 					1765.03.19={death=yes}  # Oranienstein
@@ -3388,7 +3388,7 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037197	# Hendrik Casimir v. Nassau-Siegen
+					father=100037197	# Hendrik Casimir von Nassau-Siegen
 					mother=100000140	# Henriette Amalia von Anhalt
 					1695.01.12={birth=yes}  # Leeuwarden
 					1758.01.20={death=yes}  # Oranienstein
@@ -3397,7 +3397,7 @@
 		name="Ludwig Gunther"
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
+		father=100037262	# Johann von Nassau-Siegen
 		mother=100085850	# LDGFN Elisabeth von Leuchtenberg
 		1575.02.15={birth=yes}  # Dillenburg
 		1601.06.07={add_spouse=100036208}	# Margareta von Manderscheid-Blankenheim
@@ -3408,8 +3408,8 @@
 		female=yes
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
-		mother=100008004	# Kunigunde v. Wittelsbach
+		father=100037262	# Johann von Nassau-Siegen
+		mother=100008004	# Kunigunde von Wittelsbach
 		1582.07.27={birth=yes}
 		1635.10.31={death=yes}
 	}
@@ -3417,10 +3417,10 @@
 		name="Johann Ludwig"
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
-		mother=100008892	# Johannette zu Sayn
+		father=100037262	# Johann von Nassau-Siegen
+		mother=100008892	# Johannette von Sayn
 		1590.08.06={birth=yes}  # Dillenburg
-		1617.01.01={add_spouse=100003040}	# Ursula zu Schaumburg-Lippe
+		1617.01.01={add_spouse=100003040}	# Ursula zur  Lippe
 		1653.03.10={death=yes}  # Hadamar
 	}
 		100037217={ #// 1b) Johanna Elisabeth (Dillenburg 17 Jan 1619-Harzgerode 2 Mar 1647); m.Bückeburg 10 Aug 1642 Fst Friedrich von Anhalt-Harzgerode (d.30 Jun 1670) $$
@@ -3428,8 +3428,8 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037215	# Johann Ludwig v. Nassau-Siegen
-			mother=100003040	# Ursula zu Schaumburg-Lippe
+			father=100037215	# Johann Ludwig von Nassau-Siegen
+			mother=100003040	# Ursula zur  Lippe
 			1619.01.17={birth=yes}  # Dillenburg
 			1647.03.02={death=yes}  # Harzgerode
 		}
@@ -3438,8 +3438,8 @@
 			female=yes
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037215	# Johann Ludwig v. Nassau-Siegen
-			mother=100003040	# Ursula zu Schaumburg-Lippe
+			father=100037215	# Johann Ludwig von Nassau-Siegen
+			mother=100003040	# Ursula zur  Lippe
 			1622.02.16={birth=yes}  # Hadamar
 			1658.06.28={death=yes}  # Dillenburg
 		}
@@ -3447,11 +3447,11 @@
 			name="Moritz Heinrich"
 			dynasty_house=house_nassau_siegen
 			religion=catholic culture=german
-			father=100037215	# Johann Ludwig v. Nassau-Siegen
-			mother=100003040	# Ursula zu Schaumburg-Lippe
+			father=100037215	# Johann Ludwig von Nassau-Siegen
+			mother=100003040	# Ursula zur  Lippe
 			1626.04.01={birth=yes}  # Hadamar
-			1650.02.15={add_spouse=100037011}	# Ernestine Charlotte v. Nassau-Siegen
-			1669.03.27={add_spouse=100037015}	# Marie Leopoldine v. Nassau-Siegen
+			1650.02.15={add_spouse=100037011}	# Ernestine Charlotte von Nassau-Siegen
+			1669.03.27={add_spouse=100037015}	# Marie Leopoldine von Nassau-Siegen
 			1675.10.24={add_spouse=100036210}	# Anna Luise von Manderscheid-Blankenheim
 			1679.01.24={death=yes}  # Hadamar
 		}
@@ -3460,8 +3460,8 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037221	# Moritz Heinrich v. Nassau-Siegen
-				mother=100037011	# Ernestine Charlotte v. Nassau-Siegen
+				father=100037221	# Moritz Heinrich von Nassau-Siegen
+				mother=100037011	# Ernestine Charlotte von Nassau-Siegen
 				1660.06.06={birth=yes}  # Hadamar
 				1680.03.06={death=yes}  # Neustadt_an_der_Waldnaab
 			}
@@ -3469,10 +3469,10 @@
 				name="Franz Alexander"
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037221	# Moritz Heinrich v. Nassau-Siegen
-				mother=100037015	# Marie Leopoldine v. Nassau-Siegen
+				father=100037221	# Moritz Heinrich von Nassau-Siegen
+				mother=100037015	# Marie Leopoldine von Nassau-Siegen
 				1674.01.27={birth=yes}  # Hadamar
-				1695.10.18={add_spouse=100001701}	# Elisabeth v. Hessen-Rheinfels-Rotenburg
+				1695.10.18={add_spouse=100001701}	# Elisabeth von Hessen-Rheinfels-Rotenburg
 				1711.05.27={death=yes}  # Hadamar
 			}
 				100037228={ #// 4d) Charlotte Wilhelmine Amalie Alexandrina (Hadamar 21 Sep 1703-Westerloo 25 Sep 1740); m.Schloss Petershem 29 Jun 1721 Johann Philipp Eugen Gf von Merode-Westerloo (d.12 Sep 1732) $$
@@ -3480,8 +3480,8 @@
 					female=yes
 					dynasty_house=house_nassau_siegen
 					religion=catholic culture=german
-					father=100037225	# Franz Alexander v. Nassau-Siegen
-					mother=100001701	# Elisabeth v. Hessen-Rheinfels-Rotenburg
+					father=100037225	# Franz Alexander von Nassau-Siegen
+					mother=100001701	# Elisabeth von Hessen-Rheinfels-Rotenburg
 					1703.09.21={birth=yes}  # Hadamar
 					1740.09.25={death=yes}  # Westerloo
 				}
@@ -3490,7 +3490,7 @@
 				female=yes
 				dynasty_house=house_nassau_siegen
 				religion=catholic culture=german
-				father=100037221	# Moritz Heinrich v. Nassau-Siegen
+				father=100037221	# Moritz Heinrich von Nassau-Siegen
 				mother=100036210	# Anna Luise von Manderscheid-Blankenheim
 				1679.07.06={birth=yes}  # Hadamar
 				1716.04.24={death=yes}  # Anholt
@@ -3500,8 +3500,8 @@
 		female=yes
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
-		mother=100008892	# Johannette zu Sayn
+		father=100037262	# Johann von Nassau-Siegen
+		mother=100008892	# Johannette von Sayn
 		1593.02.13={birth=yes}  # Dillenburg
 		1654.09.13={death=yes}  # Haus Limburg
 	}
@@ -3510,8 +3510,8 @@
 		female=yes
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
-		mother=100008892	# Johannette zu Sayn
+		father=100037262	# Johann von Nassau-Siegen
+		mother=100008892	# Johannette von Sayn
 		1594.11.24={birth=yes}
 		1660.02.11={death=yes}  # Birstein
 	}
@@ -3520,8 +3520,8 @@
 		female=yes
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
-		mother=100008892	# Johannette zu Sayn
+		father=100037262	# Johann von Nassau-Siegen
+		mother=100008892	# Johannette von Sayn
 		1595.11.13={birth=yes}
 		1633.07.02={death=yes}  # Fürstenau
 	}
@@ -3530,8 +3530,8 @@
 		female=yes
 		dynasty_house=house_nassau_siegen
 		religion=catholic culture=german
-		father=100037262	# Johann v. Nassau-Siegen
-		mother=100008892	# Johannette zu Sayn
+		father=100037262	# Johann von Nassau-Siegen
+		mother=100008892	# Johannette von Sayn
 		1599.07.19={birth=yes}  # Dillenburg
 		1667.05.04={death=yes}  # Birstein
 	}
@@ -3551,10 +3551,10 @@
 	name=Willem
 	dynasty_house=house_oranje_nassau
 	religion=lutheran culture=dutch
-	father=100037200	# Johan v. Nassau-Siegen
-	mother=100004348	# Marie Luise v. Hessen-Kassel
+	father=100037200	# Johan von Nassau-Siegen
+	mother=100004348	# Marie Luise von Hessen-Kassel
 	1711.09.01={birth=yes}
-	1734.03.25={add_spouse=100001133}	# Anne v. Hannover
+	1734.03.25={add_spouse=100001133}	# Anne von Hannover
 	1751.10.22={death=yes}
 }
 	100037002={ #// 1a) Karolina (Leeuwarden 28 Feb 1743-Kirchheimbolanden 6 May 1787); m.The Hague 5 Mar 1760 Karl Christian Fst von Nassau-Weilburg (Weilburg 16 Jan 1735-Münster-Dreyssen, nr Kirchheim 28 Nov 1788); $$
@@ -3563,7 +3563,7 @@
 		dynasty_house=house_oranje_nassau
 		religion=lutheran culture=dutch
 		father=100037000	# Willem van Oranje-Nassau
-		mother=100001133	# Anne v. Hannover
+		mother=100001133	# Anne von Hannover
 		1743.02.28={birth=yes}
 		1787.05.06={death=yes}
 	}
@@ -3572,9 +3572,9 @@
 		dynasty_house=house_oranje_nassau
 		religion=lutheran culture=dutch
 		father=100037000	# Willem van Oranje-Nassau
-		mother=100001133	# Anne v. Hannover
+		mother=100001133	# Anne von Hannover
 		1748.03.08={birth=yes}
-		1767.10.04={add_spouse=100002117}	# Wilhelmine v. Hohenzollern
+		1767.10.04={add_spouse=100002117}	# Wilhelmine von Hohenzollern
 		1806.04.09={death=yes}
 	}
 		100037007={ #// 1b) Frederika Louise Wilhelmina (The Hague 28 Nov 1770-The Hague 15 Oct 1819); m.The Hague 14 Oct 1790 Karl, Hereditary Pr of Braunschweig (London 8 Feb 1766-Antoinettenruh 20 Sep 1806) $$
@@ -3583,7 +3583,7 @@
 			dynasty_house=house_oranje_nassau
 			religion=lutheran culture=dutch
 			father=100037005	# Willem van Oranje-Nassau
-			mother=100002117	# Wilhelmine v. Hohenzollern
+			mother=100002117	# Wilhelmine von Hohenzollern
 			1770.11.28={birth=yes}
 			1819.10.15={death=yes}
 		}
@@ -3592,9 +3592,9 @@
 			dynasty_house=house_oranje_nassau
 			religion=lutheran culture=dutch
 			father=100037005	# Willem van Oranje-Nassau
-			mother=100002117	# Wilhelmine v. Hohenzollern
+			mother=100002117	# Wilhelmine von Hohenzollern
 			1772.08.24={birth=yes}
-			1791.10.01={add_spouse=100002106}	# Wilhelmine v. Hohenzollern
+			1791.10.01={add_spouse=100002106}	# Wilhelmine von Hohenzollern
 			1841.02.17={add_spouse=100066760}	# Henriette d’Oultremont
 			1843.12.12={death=yes}
 		}
@@ -3603,9 +3603,9 @@
 				dynasty_house=house_oranje_nassau
 				religion=lutheran culture=dutch
 				father=100037009	# Willem van Oranje-Nassau
-				mother=100002106	# Wilhelmine v. Hohenzollern
+				mother=100002106	# Wilhelmine von Hohenzollern
 				1792.12.06={birth=yes}
-				1816.02.21={add_spouse=100016949}	# Anna Romanov
+				1816.02.21={add_spouse=100016949}	# Анна Павловна Гольштейн-Готторп-Романов
 				1849.03.07={death=yes}
 			}
 				100037014={ #// 1d) WILLEM III Alexander Paul Frederik Lodewijk, King of the Netherlands and Grand Duke of Luxemburg (Brussels 19 Feb 1817-Het Loo 23 Nov 1890); m.1st Stuttgart 18 Jun 1839 Sophie Pss of Württemberg (Stuttgart 17 Jun 1818-The Hague 3 Jun 1877); m.2d Arolsen 7 Jan 1879 Emma Pss zu Waldeck und Pyrmont (Arolsen 2 Aug 1858-The Hague 20 Mar 1934) $$
@@ -3613,9 +3613,9 @@
 					dynasty_house=house_oranje_nassau
 					religion=lutheran culture=dutch
 					father=100037012	# Willem van Oranje-Nassau
-					mother=100016949	# Anna Romanov
+					mother=100016949	# Анна Павловна Гольштейн-Готторп-Романов
 					1817.02.19={birth=yes}
-					1839.06.18={add_spouse=100008100}	# Sophie Friederike v. Württemberg
+					1839.06.18={add_spouse=100008100}	# Sophie Friederike von WU rttemberg
 					1879.01.07={add_spouse=100007112}	# Emma zu Waldeck u.Pyrmont
 					1890.11.23={death=yes}
 				}
@@ -3624,7 +3624,7 @@
 						dynasty_house=house_oranje_nassau
 						religion=lutheran culture=dutch
 						father=100037014	# Willem van Oranje-Nassau
-						mother=100008100	# Sophie Friederike v. Württemberg
+						mother=100008100	# Sophie Friederike von WU rttemberg
 						1840.09.04={birth=yes}
 						1879.06.11={death=yes}
 					}
@@ -3633,7 +3633,7 @@
 						dynasty_house=house_oranje_nassau
 						religion=lutheran culture=dutch
 						father=100037014	# Willem van Oranje-Nassau
-						mother=100008100	# Sophie Friederike v. Württemberg
+						mother=100008100	# Sophie Friederike von WU rttemberg
 						1851.08.25={birth=yes}
 						1884.06.21={death=yes}
 					}
@@ -3652,7 +3652,7 @@
 							female=yes
 							dynasty_house=house_oranje_nassau
 							religion=lutheran culture=dutch
-							father=100003023	# Heinrich v. Mecklenburg
+							father=100003023	# Heinrich von Mecklenburg-Schwerin
 							mother=100037020	# Wilhelmina van Oranje-Nassau
 							1909.04.30={birth=yes}
 							2004.03.20={death=yes}
@@ -3662,7 +3662,7 @@
 								female=yes
 								dynasty_house=house_oranje_nassau
 								religion=lutheran culture=dutch
-								father=100002675	# Bernhard zu Schaumburg-Lippe
+								father=100002675	# Bernhard zur Lippe-Biesterfeld
 								mother=100037022	# Juliana van Oranje-Nassau
 								1938.01.31={birth=yes}
 								1966.03.10={add_matrilineal_spouse=100091251}	# Beatrix van Oranje-Nassau
@@ -3672,7 +3672,7 @@
 									dynasty_house=house_oranje_nassau
 									religion=lutheran culture=dutch
 									trait=neth_willem
-									father=100091251	# Claus van Amsberg
+									father=100091251	# Claus von Amsberg
 									mother=100037024	# Beatrix van Oranje-Nassau
 									1967.04.27={birth=yes}
 									2002.02.02={add_spouse=100094064}	# Máxima Zorreguieta Cerruti
@@ -3708,7 +3708,7 @@
 									name=Friso
 									dynasty_house=house_oranje_nassau
 									religion=lutheran culture=dutch
-									father=100091251	# Claus van Amsberg
+									father=100091251	# Claus von Amsberg
 									mother=100037024	# Beatrix van Oranje-Nassau
 									1968.09.25={birth=yes}
 									2004.04.24={add_spouse=100093844}	# Mabel Wisse Smit
@@ -3736,7 +3736,7 @@
 									name=Constantijn
 									dynasty_house=house_oranje_nassau
 									religion=lutheran culture=dutch
-									father=100091251	# Claus van Amsberg
+									father=100091251	# Claus von Amsberg
 									mother=100037024	# Beatrix van Oranje-Nassau
 									1969.10.11={birth=yes}
 									2001.05.17={add_spouse=100080958}	# Petra Laurentien Brinkhorst
@@ -3772,7 +3772,7 @@
 								female=yes
 								dynasty_house=house_oranje_nassau
 								religion=lutheran culture=dutch
-								father=100002675	# Bernhard zu Schaumburg-Lippe
+								father=100002675	# Bernhard zur Lippe-Biesterfeld
 								mother=100037022	# Juliana van Oranje-Nassau
 								1939.08.05={birth=yes}
 							}
@@ -3781,7 +3781,7 @@
 								female=yes
 								dynasty_house=house_oranje_nassau
 								religion=lutheran culture=dutch
-								father=100002675	# Bernhard zu Schaumburg-Lippe
+								father=100002675	# Bernhard zur Lippe-Biesterfeld
 								mother=100037022	# Juliana van Oranje-Nassau
 								1943.01.19={birth=yes}
 							}
@@ -3911,7 +3911,7 @@
 								female=yes
 								dynasty_house=house_oranje_nassau
 								religion=lutheran culture=dutch
-								father=100002675	# Bernhard zu Schaumburg-Lippe
+								father=100002675	# Bernhard zur Lippe-Biesterfeld
 								mother=100037022	# Juliana van Oranje-Nassau
 								1947.02.18={birth=yes}
 							}
@@ -3955,7 +3955,7 @@
 					dynasty_house=house_oranje_nassau
 					religion=lutheran culture=dutch
 					father=100037012	# Willem van Oranje-Nassau
-					mother=100016949	# Anna Romanov
+					mother=100016949	# Анна Павловна Гольштейн-Готторп-Романов
 					1818.08.02={birth=yes}
 					1848.02.20={death=yes}
 				}
@@ -3964,10 +3964,10 @@
 					dynasty_house=house_oranje_nassau
 					religion=lutheran culture=dutch
 					father=100037012	# Willem van Oranje-Nassau
-					mother=100016949	# Anna Romanov
+					mother=100016949	# Анна Павловна Гольштейн-Готторп-Романов
 					1820.06.13={birth=yes}
-					1853.05.09={add_spouse=100007524}	# Amalia v. Sachsen-Weimar-Eisenach
-					1878.08.24={add_spouse=100002063}	# Marie v. Hohenzollern
+					1853.05.09={add_spouse=100007524}	# Amalia von Sachsen-Weimar-Eisenach
+					1878.08.24={add_spouse=100002063}	# Marie von Hohenzollern
 					1879.01.14={death=yes}
 				}
 				100037074={ #// 5d) Wilhelmina Maria Sophie Louise (The Hague 8 Apr 1824-Weimar 23 Mar 1897); m.The Hague 8 Oct 1842 Karl Alexander, Grand Duke von Sachsen-Weimar (Weimar 24 Jun 1818-Weimar 5 Jan 1901) $$
@@ -3976,7 +3976,7 @@
 					dynasty_house=house_oranje_nassau
 					religion=lutheran culture=dutch
 					father=100037012	# Willem van Oranje-Nassau
-					mother=100016949	# Anna Romanov
+					mother=100016949	# Анна Павловна Гольштейн-Готторп-Романов
 					1824.04.08={birth=yes}
 					1897.03.23={death=yes}
 				}
@@ -3985,9 +3985,9 @@
 				dynasty_house=house_oranje_nassau
 				religion=lutheran culture=dutch
 				father=100037009	# Willem van Oranje-Nassau
-				mother=100002106	# Wilhelmine v. Hohenzollern
+				mother=100002106	# Wilhelmine von Hohenzollern
 				1797.02.28={birth=yes}
-				1825.05.21={add_spouse=100002081}	# Luise v. Hohenzollern
+				1825.05.21={add_spouse=100002081}	# Luise von Hohenzollern
 				1881.09.08={death=yes}
 			}
 				100037078={ #// 1d) Wilhelmina Frederika Alexandrine Anna Louisa (The Hague 5 Aug 1828-Stockholm 30 Mar 1871); m.Stockholm 19 Jun 1850 King Carl XV of Sweden (Stockholm 3 May 1826-Malmo 18 Sep 1872) $$
@@ -3996,7 +3996,7 @@
 					dynasty_house=house_oranje_nassau
 					religion=lutheran culture=dutch
 					father=100037076	# Frederik van Oranje-Nassau
-					mother=100002081	# Luise v. Hohenzollern
+					mother=100002081	# Luise von Hohenzollern
 					1828.08.05={birth=yes}
 					1871.03.30={death=yes}
 				}
@@ -4005,7 +4005,7 @@
 					dynasty_house=house_oranje_nassau
 					religion=lutheran culture=dutch
 					father=100037076	# Frederik van Oranje-Nassau
-					mother=100002081	# Luise v. Hohenzollern
+					mother=100002081	# Luise von Hohenzollern
 					1836.08.22={birth=yes}
 					1846.01.23={death=yes}
 				}
@@ -4015,7 +4015,7 @@
 					dynasty_house=house_oranje_nassau
 					religion=lutheran culture=dutch
 					father=100037076	# Frederik van Oranje-Nassau
-					mother=100002081	# Luise v. Hohenzollern
+					mother=100002081	# Luise von Hohenzollern
 					1841.07.05={birth=yes}
 					1910.06.22={death=yes}
 				}
@@ -4025,7 +4025,7 @@
 				dynasty_house=house_oranje_nassau
 				religion=lutheran culture=dutch
 				father=100037009	# Willem van Oranje-Nassau
-				mother=100002106	# Wilhelmine v. Hohenzollern
+				mother=100002106	# Wilhelmine von Hohenzollern
 				1800.03.01={birth=yes}
 				1806.12.20={death=yes}
 			}
@@ -4035,7 +4035,7 @@
 				dynasty_house=house_oranje_nassau
 				religion=lutheran culture=dutch
 				father=100037009	# Willem van Oranje-Nassau
-				mother=100002106	# Wilhelmine v. Hohenzollern
+				mother=100002106	# Wilhelmine von Hohenzollern
 				1810.05.09={birth=yes}
 				1883.05.29={death=yes}
 			}
@@ -4044,7 +4044,7 @@
 			dynasty_house=house_oranje_nassau
 			religion=lutheran culture=dutch
 			father=100037005	# Willem van Oranje-Nassau
-			mother=100002117	# Wilhelmine v. Hohenzollern
+			mother=100002117	# Wilhelmine von Hohenzollern
 			1774.02.15={birth=yes}
 			1799.01.06={death=yes}
 		}

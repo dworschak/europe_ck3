@@ -1,9 +1,9 @@
-﻿############################################################################
+############################################################################
 ## 100010900	Castell-Rüdenhausen		1002057	
 ## 100010900	Castell-Castell			1002026
 ############################################################################
 
-100094377={ # Gfn        Juliane Dorothea          zu Castell-Remlingen                     (1640-1706)     2
+100094377={ #    Gfn        Juliane Dorothea          zu Castell-Remlingen                     (1640-1706)     8 [HOHENLOHE]
 	name="Juliane Dorothea zu Castell-Remlingen"
 	female=yes
 	#dynasty=0
@@ -11,7 +11,7 @@
 	1640.01.30={birth=yes}
 	1706.05.05={death=yes}
 }
-100094389={ # Gfn        Christiane Charlotte      zu Castell-Remlingen                     (1722-1773)     7
+100094389={ #    Gfn        Christiane Charlotte      zu Castell-Remlingen                     (1722-1773)     5 [STOLBERG]
 	name="Christiane Charlotte zu Castell-Remlingen"
 	female=yes
 	#dynasty=0
@@ -19,7 +19,7 @@
 	1722.09.05={birth=yes}
 	1773.12.20={death=yes}
 }
-100094395={ # Gf         Friedrich Ludwig          zu Castell-Rüdenhausen                   (1746-1803)     0
+100094395={ #    Gf         Friedrich Ludwig          zu Castell-Rüdenhausen                   (1746-1803)     - [REUS]
 	name="Friedrich Ludwig zu Castell-Rüdenhausen"
 	#dynasty=0
 	religion=lutheran culture=german
@@ -28,7 +28,7 @@
 	1769.11.08={remove_spouse=100006789}
 	1803.02.07={death=yes}  # Rüdenhausen
 }
-100094401={ # Gfn        Luitgard                  zu Castell-Rüdenhausen                   (1843-1927)     3
+100094401={ #    Gfn        Luitgard                  zu Castell-Rüdenhausen                   (1843-1927)     3 [YSENBURG]
 	name="Luitgard zu Castell-Rüdenhausen"
 	female=yes
 	#dynasty=0
@@ -36,7 +36,7 @@
 	1843.08.23={birth=yes}  # Rüdenhausen
 	1927.06.04={death=yes}  # Büdingen
 }
-100094400={ # Gfn        Bertha                    zu Castell-Rüdenhausen                   (1845-1927)     8
+100094400={ #    Gfn        Bertha                    zu Castell-Rüdenhausen                   (1845-1927)     6 [YSENBURG]
 	name="Bertha zu Castell-Rüdenhausen"
 	female=yes
 	#dynasty=0
@@ -47,7 +47,7 @@
 
 
 ## 100010900	Castell-Rüdenhausen		1002057	
-100000600={	# CHRISTIAN FRIEDRICH (Remlingen 21 Apr 1772-Rüdenhausen 28 Mar 1850); m.1st Angern 21 Apr 1797 (div 1803) Albertine Eleonore Juliane Gfn von der Schulenburg (Magdeburg 16 Feb 1778-Muskau 30 Oct 1838); m.2nd Rüdenhausen 25 Jun 1804 (div 1811) Luise Karoline Gfn zu Ortenburg (Ortenburg 15 Jan 1782-Augsburg 15 Dec 1847); m.3rd Castell 2 Aug 1812 Sophie Amalie Charlotte Henriette Gfn zu Löwenstein-Wertheim-Virneburg (Wertheim 2 Apr 1771-Rüdenhausen 25 May 1823)
+100000600={	# CHRISTIAN FRIEDRICH (Remlingen 21 Apr 1772-Rüdenhausen 28 Mar 1850); m.1st Angern 21 Apr 1797 (div 1803) Albertine Eleonore Juliane Gfn von der Schulenburg (Magdeburg 16 Feb 1778-Muskau 30 Oct 1838); m.2nd Rüdenhausen 25 Jun 1804 (div 1811) Luise Karoline Gfn zu Ortenburg (Ortenburg 15 Jan 1782-Augsburg 15 Dec 1847); m.3rd Castell 2 Aug 1812 Sophie Amalie Charlotte Henriette Gfn zu Löwenstein-Wertheim-Virneburg (Wertheim 2 Apr 1771-Rüdenhausen 25 May 1823) $$
 	name="Christian Friedrich"
 	dynasty=1002057
 	religion=catholic culture=german
@@ -56,14 +56,14 @@
 	1803.01.01={remove_spouse=100091860}
 	1804.06.25={add_spouse=100010321}	# Luise Karoline zu Ortenburg
 	1811.01.01={remove_spouse=100010321}
-	1812.08.02={add_spouse=100002712}	# Sophie v. Löwenstein-Wertheim
+	1812.08.02={add_spouse=100002712}	# Sophie von Löwenstein-Wertheim-Freudenberg
 	1850.03.28={death=yes}  # Rüdenhausen
 }
 	100000601={	# 1a) Ludwig Franz Adolf Friedrich Carl Erbgf zu Castell-Rüdenhausen (Nürnberg 15 Mar 1805-Rüdenhausen 11 Jun 1849); m.1st Bayreuth 21 Sep 1827 Klara Henriette Luise Petrowna Gfn zu Rantzau (29 May 1807-Kirchschönbach 30 Jun 1838); m.2nd Rossbach 8 Jun 1840 Marie Frn von Thüngen (Thüngen 18 Jul 1818-Rüdenhausen 24 Oct 1888)
 		name=Adolf
 		dynasty=1002057
 		religion=catholic culture=german
-		father=100000600	# Christian Friedrich zu Castell-Rüdenhausen
+		father=100000600	# Christian Friedrich von Castell-Rüdenhausen
 		mother=100010321	# Luise Karoline zu Ortenburg
 		1805.03.15={birth=yes}  # Nürnberg
 		1827.09.21={add_spouse=100094243}	# GFN Klara Henriette zu Rantzau
@@ -75,7 +75,7 @@
 			female=yes
 			dynasty=1002057
 			religion=catholic culture=german
-			father=100000601	# Adolf zu Castell-Rüdenhausen
+			father=100000601	# Adolf von Castell-Rüdenhausen
 			mother=100094243	# GFN Klara Henriette zu Rantzau
 			1828.09.02={birth=yes}  # Rüdenhausen
 			1881.10.17={death=yes}  # Gernsbach
@@ -84,18 +84,18 @@
 			name=Wolfgang
 			dynasty=1002057
 			religion=catholic culture=german
-			father=100000601	# Adolf zu Castell-Rüdenhausen
+			father=100000601	# Adolf von Castell-Rüdenhausen
 			mother=100094243	# GFN Klara Henriette zu Rantzau
 			1830.04.21={birth=yes}  # Rüdenhausen
-			1859.05.17={add_spouse=100008185}	# Emma v. Isenburg
+			1859.05.17={add_spouse=100008185}	# Emma zu Ysenburg und Büdingen
 			1913.01.13={death=yes}  # Rüdenhausen
 		}
 			100000603={	# 1c) Siegfried Friedrich Casimir Adolf Kuno Erbgf zu Castell-Rüdenhausen (Rüdenhausen 17 Mar 1860-Santiago, Chile 2 Feb 1903)
 				name=Siegfried
 				dynasty=1002057
 				religion=catholic culture=german
-				father=100000665	# Wolfgang zu Castell-Rüdenhausen
-				mother=100008185	# Emma v. Isenburg
+				father=100000665	# Wolfgang von Castell-Rüdenhausen
+				mother=100008185	# Emma zu Ysenburg und Büdingen
 				1860.03.17={birth=yes}  # Rüdenhausen
 				1903.02.02={death=yes}  # Santiago Chile
 			}
@@ -103,8 +103,8 @@
 				name=Casimir
 				dynasty=1002057
 				religion=catholic culture=german
-				father=100000665	# Wolfgang zu Castell-Rüdenhausen
-				mother=100008185	# Emma v. Isenburg
+				father=100000665	# Wolfgang von Castell-Rüdenhausen
+				mother=100008185	# Emma zu Ysenburg und Büdingen
 				1861.03.10={birth=yes}  # Rüdenhausen
 				1905.09.01={add_spouse=100038036}	# Mechtild Bentinck
 				1933.04.25={death=yes}  # Rüdenhausen
@@ -113,17 +113,17 @@
 					name=Rupert
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000604	# Casimir zu Castell-Rüdenhausen
+					father=100000604	# Casimir von Castell-Rüdenhausen
 					mother=100038036	# Mechtild Bentinck
 					1910.06.01={birth=yes}  # Düsseldorf
 					1944.08.28={death=yes}
 				}
-				100000606={	# 4d) Elisabeth Clea Frieda Amalie Irmgard Emma Marie Hedwig (Rüdenhausen 24 Aug 1914-Uffing 1 Aug 2011); m.1st Rüdenhausen 26 Apr 1939 Friedrich-Wolfgang Gf zu Castell-Rüdenhausen (Berlin 27 Jun 1906-11 Jun 1940); m.2nd Rüdenhausen 11 Jan 1947 Theodor Düvelius (Wilhelmshaven 16 May 1916-Uffing 6 Oct 2009)
+				100000606={	# 4d) Elisabeth Clea Frieda Amalie Irmgard Emma Marie Hedwig (Rüdenhausen 24 Aug 1914-Uffing 1 Aug 2011); m.1st Rüdenhausen 26 Apr 1939 Friedrich-Wolfgang Gf zu Castell-Rüdenhausen (Berlin 27 Jun 1906-11 Jun 1940); m.2nd Rüdenhausen 11 Jan 1947 Theodor Düvelius (Wilhelmshaven 16 May 1916-Uffing 6 Oct 2009) $$
 					name=Elisabeth
 					female=yes
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000604	# Casimir zu Castell-Rüdenhausen
+					father=100000604	# Casimir von Castell-Rüdenhausen
 					mother=100038036	# Mechtild Bentinck
 					1914.08.24={birth=yes}  # Rüdenhausen
 					2011.08.01={death=yes}  # Uffing
@@ -132,7 +132,7 @@
 					name=Siegfried
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000604	# Casimir zu Castell-Rüdenhausen
+					father=100000604	# Casimir von Castell-Rüdenhausen
 					mother=100038036	# Mechtild Bentinck
 					1916.02.16={birth=yes}  # Rüdenhausen
 					1946.10.17={add_spouse=100005620}	# Irene von Solms-Laubach
@@ -142,18 +142,18 @@
 						name=Johann-Friedrich
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000607	# Siegfried zu Castell-Rüdenhausen
+						father=100000607	# Siegfried von Castell-Rüdenhausen
 						mother=100005620	# Irene von Solms-Laubach
 						1948.01.27={birth=yes}  # Rüdenhausen
-						1983.06.11={add_spouse=100005155}	# Maria Johanna v. Schönborn
+						1983.06.11={add_spouse=100005155}	# Maria Johanna von Schönborn
 						2014.10.30={death=yes}
 					}
 						100000609={	# 1f) OTTO Friedrich Carl Fst zu Castell-Rüdenhausen (b.Würzburg 31 May 1985)
 							name=Otto
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000608	# Johann-Friedrich zu Castell-Rüdenhausen
-							mother=100005155	# Maria Johanna v. Schönborn
+							father=100000608	# Johann-Friedrich von Castell-Rüdenhausen
+							mother=100005155	# Maria Johanna von Schönborn
 							1985.05.31={birth=yes}
 						}
 						100000610={	# 2f) Olga Graziella (b.Würzburg 31 Jan 1987); m.Rüdenhausen 22 Sep 2012 (rel) Sintra 6 Oct 2012 Dominik Pr zu Löwenstein-Wertheim-Rosenberg (b.Frankfurt 7 Mar 1983) $$
@@ -161,15 +161,15 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000608	# Johann-Friedrich zu Castell-Rüdenhausen
-							mother=100005155	# Maria Johanna v. Schönborn
+							father=100000608	# Johann-Friedrich von Castell-Rüdenhausen
+							mother=100005155	# Maria Johanna von Schönborn
 							1987.01.31={birth=yes}
 						}
 					100000611={	# 2e) Manto Friedrich (b.Rüdenhausen 31 Jan 1949); m.Rüdenhausen 28 Jul 1984 Eva Lorenz (b.Werfen 26 Mar 1964)
 						name="Manto Friedrich"
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000607	# Siegfried zu Castell-Rüdenhausen
+						father=100000607	# Siegfried von Castell-Rüdenhausen
 						mother=100005620	# Irene von Solms-Laubach
 						1949.01.31={birth=yes}
 						1984.07.28={add_spouse=100087529}	# Eva Lorenz
@@ -179,7 +179,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000611	# Manto Friedrich zu Castell-Rüdenhausen
+							father=100000611	# Manto Friedrich von Castell-Rüdenhausen
 							mother=100087529	# Eva Lorenz
 							1985.01.17={birth=yes}
 						}
@@ -188,7 +188,7 @@
 						female=yes
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000607	# Siegfried zu Castell-Rüdenhausen
+						father=100000607	# Siegfried von Castell-Rüdenhausen
 						mother=100005620	# Irene von Solms-Laubach
 						1950.06.20={birth=yes}  # Rüdenhausen
 						2015.09.05={death=yes}  # Traunstein
@@ -197,7 +197,7 @@
 						name=Christian
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000607	# Siegfried zu Castell-Rüdenhausen
+						father=100000607	# Siegfried von Castell-Rüdenhausen
 						mother=100005620	# Irene von Solms-Laubach
 						1952.08.08={birth=yes}  # Rüdenhausen
 						1977.09.16={add_spouse=100084901}	# Carolina Hintzen
@@ -207,7 +207,7 @@
 							name=Juriaan
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000614	# Christian zu Castell-Rüdenhausen
+							father=100000614	# Christian von Castell-Rüdenhausen
 							mother=100084901	# Carolina Hintzen
 							1978.06.19={birth=yes}
 						}
@@ -215,7 +215,7 @@
 							name="Roderik Frederik"
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000614	# Christian zu Castell-Rüdenhausen
+							father=100000614	# Christian von Castell-Rüdenhausen
 							mother=100084901	# Carolina Hintzen
 							1980.06.19={birth=yes}
 							2014.05.17={add_spouse=100087534}	# Elisabeth Lotgering
@@ -224,7 +224,7 @@
 								name=Alexander
 								dynasty=1002057
 								religion=catholic culture=german
-								father=100000616	# Roderik Frederik zu Castell-Rüdenhausen
+								father=100000616	# Roderik Frederik von Castell-Rüdenhausen
 								mother=100087534	# Elisabeth Lotgering
 								2015.01.01={birth=yes}
 							}
@@ -233,7 +233,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000614	# Christian zu Castell-Rüdenhausen
+							father=100000614	# Christian von Castell-Rüdenhausen
 							mother=100084901	# Carolina Hintzen
 							1983.12.30={birth=yes}
 						}
@@ -241,7 +241,7 @@
 						name="Rupert Friedrich"
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000607	# Siegfried zu Castell-Rüdenhausen
+						father=100000607	# Siegfried von Castell-Rüdenhausen
 						mother=100005620	# Irene von Solms-Laubach
 						1954.09.25={birth=yes}
 						1979.02.02={add_spouse=100093430}	# FRN Alexandra von Werthern
@@ -252,7 +252,7 @@
 							name=Philipp
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000619	# Rupert Friedrich zu Castell-Rüdenhausen
+							father=100000619	# Rupert Friedrich von Castell-Rüdenhausen
 							mother=100093430	# FRN Alexandra von Werthern
 							1979.07.24={birth=yes}
 						}
@@ -260,7 +260,7 @@
 							name=Leopold
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000619	# Rupert Friedrich zu Castell-Rüdenhausen
+							father=100000619	# Rupert Friedrich von Castell-Rüdenhausen
 							mother=100093430	# FRN Alexandra von Werthern
 							1981.04.25={birth=yes}
 						}
@@ -269,7 +269,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000619	# Rupert Friedrich zu Castell-Rüdenhausen
+							father=100000619	# Rupert Friedrich von Castell-Rüdenhausen
 							mother=100093430	# FRN Alexandra von Werthern
 							1987.01.31={birth=yes}
 						}
@@ -277,7 +277,7 @@
 						name="Karl Friedrich"
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000607	# Siegfried zu Castell-Rüdenhausen
+						father=100000607	# Siegfried von Castell-Rüdenhausen
 						mother=100005620	# Irene von Solms-Laubach
 						1957.10.21={birth=yes}
 					}
@@ -285,7 +285,7 @@
 						name=Hermann
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000607	# Siegfried zu Castell-Rüdenhausen
+						father=100000607	# Siegfried von Castell-Rüdenhausen
 						mother=100005620	# Irene von Solms-Laubach
 						1963.06.26={birth=yes}
 						1989.08.18={add_spouse=100007149}	# Henriette zu Waldeck u.Pyrmont
@@ -295,7 +295,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000624	# Hermann zu Castell-Rüdenhausen
+							father=100000624	# Hermann von Castell-Rüdenhausen
 							mother=100007149	# Henriette zu Waldeck u.Pyrmont
 							1991.02.04={birth=yes}
 						}
@@ -304,7 +304,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000624	# Hermann zu Castell-Rüdenhausen
+							father=100000624	# Hermann von Castell-Rüdenhausen
 							mother=100007149	# Henriette zu Waldeck u.Pyrmont
 							1992.09.06={birth=yes}
 						}
@@ -312,7 +312,7 @@
 							name=Casimir
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000624	# Hermann zu Castell-Rüdenhausen
+							father=100000624	# Hermann von Castell-Rüdenhausen
 							mother=100007149	# Henriette zu Waldeck u.Pyrmont
 							1994.07.06={birth=yes}
 						}
@@ -320,7 +320,7 @@
 						name=Matthias
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000607	# Siegfried zu Castell-Rüdenhausen
+						father=100000607	# Siegfried von Castell-Rüdenhausen
 						mother=100005620	# Irene von Solms-Laubach
 						1966.04.13={birth=yes}
 						1996.07.12={add_spouse=100080709}	# Christiane Blau
@@ -330,7 +330,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000628	# Matthias zu Castell-Rüdenhausen
+							father=100000628	# Matthias von Castell-Rüdenhausen
 							mother=100080709	# Christiane Blau
 							1998.11.13={birth=yes}
 						}
@@ -338,7 +338,7 @@
 							name=Louis
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000628	# Matthias zu Castell-Rüdenhausen
+							father=100000628	# Matthias von Castell-Rüdenhausen
 							mother=100080709	# Christiane Blau
 							2001.01.13={birth=yes}
 						}
@@ -347,8 +347,8 @@
 				female=yes
 				dynasty=1002057
 				religion=catholic culture=german
-				father=100000665	# Wolfgang zu Castell-Rüdenhausen
-				mother=100008185	# Emma v. Isenburg
+				father=100000665	# Wolfgang von Castell-Rüdenhausen
+				mother=100008185	# Emma zu Ysenburg und Büdingen
 				1864.03.06={birth=yes}  # Rüdenhausen
 				1942.02.14={death=yes}  # Wernigerode
 			}
@@ -356,18 +356,18 @@
 				name=Otto
 				dynasty=1002057
 				religion=catholic culture=german
-				father=100000665	# Wolfgang zu Castell-Rüdenhausen
-				mother=100008185	# Emma v. Isenburg
+				father=100000665	# Wolfgang von Castell-Rüdenhausen
+				mother=100008185	# Emma zu Ysenburg und Büdingen
 				1865.04.07={birth=yes}  # Rüdenhausen
-				1898.04.26={add_spouse=100006214}	# Marie zu Stolberg-Roßla
+				1898.04.26={add_spouse=100006214}	# Marie von Stolberg-Roßla
 				1917.08.28={death=yes}  # Bad Reichenhall
 			}
 			100000632={	# 9c) Hugo Friedrich Alfred (Rüdenhausen 4 Apr 1871-Golßen 30 Sep 1936); m.Klitschdorf 14 Nov 1900 Clementine Gfn zu Solms-Sonnenwalde (Potsdam 13 Apr 1881-Lich 3 May 1971) $$
 				name=Hugo
 				dynasty=1002057
 				religion=catholic culture=german
-				father=100000665	# Wolfgang zu Castell-Rüdenhausen
-				mother=100008185	# Emma v. Isenburg
+				father=100000665	# Wolfgang von Castell-Rüdenhausen
+				mother=100008185	# Emma zu Ysenburg und Büdingen
 				1871.04.04={birth=yes}  # Rüdenhausen
 				1900.11.14={add_spouse=100007250}	# Clementine von Solms-Sonnenwalde
 				1936.09.30={death=yes}  # Golßen
@@ -377,7 +377,7 @@
 					female=yes
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000632	# Hugo zu Castell-Rüdenhausen
+					father=100000632	# Hugo von Castell-Rüdenhausen
 					mother=100007250	# Clementine von Solms-Sonnenwalde
 					1902.10.01={birth=yes}  # Rüdenhausen
 					1987.08.25={death=yes}  # Laubach
@@ -387,7 +387,7 @@
 					female=yes
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000632	# Hugo zu Castell-Rüdenhausen
+					father=100000632	# Hugo von Castell-Rüdenhausen
 					mother=100007250	# Clementine von Solms-Sonnenwalde
 					1903.11.11={birth=yes}  # Berlin
 					1995.07.16={death=yes}  # Vockenhausen
@@ -396,45 +396,45 @@
 					name="Friedrich-Wolfgang Otto"
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000632	# Hugo zu Castell-Rüdenhausen
+					father=100000632	# Hugo von Castell-Rüdenhausen
 					mother=100007250	# Clementine von Solms-Sonnenwalde
 					1906.06.27={birth=yes}  # Berlin
-					1931.12.14={add_spouse=100003788}	# Caroline Mathilde v. Sachsen-Coburg u.Gotha
+					1931.12.14={add_spouse=100003788}	# Caroline Mathilde von Sachsen-Coburg u.Gotha
 					1938.01.01={remove_spouse=100003788}
-					1939.04.26={add_spouse=100000606}	# Elisabeth zu Castell-Rüdenhausen
+					1939.04.26={add_spouse=100000606}	# Elisabeth von Castell-Rüdenhausen
 					1940.06.11={death=yes}
 				}
 					100000636={	# 1e) Bertram Friedrich (b.Golßen 12 Jul 1932); m.Vienna 10 Oct 1964 Felizitas Gfn von Auersperg (b.Vienna 20 Sep 1944) $$
 						name=Bertram
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000635	# Friedrich-Wolfgang Otto zu Castell-Rüdenhausen
-						mother=100003788	# Caroline Mathilde v. Sachsen-Coburg u.Gotha
+						father=100000635	# Friedrich-Wolfgang Otto von Castell-Rüdenhausen
+						mother=100003788	# Caroline Mathilde von Sachsen-Coburg u.Gotha
 						1932.07.12={birth=yes}
-						1964.10.10={add_spouse=100021414}	# Felizitas v. Auersperg
+						1964.10.10={add_spouse=100021414}	# Felizitas von Auersperg
 					}
 						100000637={	# 1f) Dominik Dimitrij Johannes Friedrich (b.Vienna 20 Jul 1965)
 							name=Dominik
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000636	# Bertram zu Castell-Rüdenhausen
-							mother=100021414	# Felizitas v. Auersperg
+							father=100000636	# Bertram von Castell-Rüdenhausen
+							mother=100021414	# Felizitas von Auersperg
 							1965.07.20={birth=yes}
 						}
 						100000638={	# 2f) Michael Alexej Friedrich Wolfgang (b.Vienna 4 Nov 1967)
 							name=Michael
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000636	# Bertram zu Castell-Rüdenhausen
-							mother=100021414	# Felizitas v. Auersperg
+							father=100000636	# Bertram von Castell-Rüdenhausen
+							mother=100021414	# Felizitas von Auersperg
 							1967.11.04={birth=yes}
 						}
 					100000639={	# 2e) Conradin Friedrich (Berlin 10 Oct 1933-1 Oct 2011); m.1st Helsinfors 6 Jul 1961 Marta Lönegren (b.Helsingfors 17 Apr 1939)
 						name="Conradin Friedrich"
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000635	# Friedrich-Wolfgang Otto zu Castell-Rüdenhausen
-						mother=100003788	# Caroline Mathilde v. Sachsen-Coburg u.Gotha
+						father=100000635	# Friedrich-Wolfgang Otto von Castell-Rüdenhausen
+						mother=100003788	# Caroline Mathilde von Sachsen-Coburg u.Gotha
 						1933.10.10={birth=yes}  # Berlin
 						1961.07.06={add_spouse=100087627}	# Marta Lönegren
 						2011.10.01={death=yes}
@@ -444,7 +444,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000639	# Conradin Friedrich zu Castell-Rüdenhausen
+							father=100000639	# Conradin Friedrich von Castell-Rüdenhausen
 							mother=100087627	# Marta Lönegren
 							1962.04.07={birth=yes}
 						}
@@ -452,7 +452,7 @@
 							name=Carl-Eduard
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000639	# Conradin Friedrich zu Castell-Rüdenhausen
+							father=100000639	# Conradin Friedrich von Castell-Rüdenhausen
 							mother=100087627	# Marta Lönegren
 							1964.03.15={birth=yes}
 							1999.03.06={add_spouse=100089390}	# Lisbeth Rauning
@@ -462,7 +462,7 @@
 								female=yes
 								dynasty=1002057
 								religion=catholic culture=german
-								father=100000641	# Carl-Eduard zu Castell-Rüdenhausen
+								father=100000641	# Carl-Eduard von Castell-Rüdenhausen
 								mother=100089390	# Lisbeth Rauning
 								1999.09.19={birth=yes}
 							}
@@ -470,7 +470,7 @@
 								name=Marcus
 								dynasty=1002057
 								religion=catholic culture=german
-								father=100000641	# Carl-Eduard zu Castell-Rüdenhausen
+								father=100000641	# Carl-Eduard von Castell-Rüdenhausen
 								mother=100089390	# Lisbeth Rauning
 								2004.04.10={birth=yes}
 							}
@@ -479,8 +479,8 @@
 						female=yes
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000635	# Friedrich-Wolfgang Otto zu Castell-Rüdenhausen
-						mother=100003788	# Caroline Mathilde v. Sachsen-Coburg u.Gotha
+						father=100000635	# Friedrich-Wolfgang Otto von Castell-Rüdenhausen
+						mother=100003788	# Caroline Mathilde von Sachsen-Coburg u.Gotha
 						1935.02.26={birth=yes}
 						2012.01.01={death=yes}  # EST.
 					}
@@ -488,8 +488,8 @@
 						name="Hesso Friedrich"
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000635	# Friedrich-Wolfgang Otto zu Castell-Rüdenhausen
-						mother=100000606	# Elisabeth zu Castell-Rüdenhausen
+						father=100000635	# Friedrich-Wolfgang Otto von Castell-Rüdenhausen
+						mother=100000606	# Elisabeth von Castell-Rüdenhausen
 						1940.04.17={birth=yes}
 						1975.05.09={add_spouse=100092766}	# Adelheid von Nell
 					}
@@ -497,8 +497,8 @@
 				name=Hermann
 				dynasty=1002057
 				religion=catholic culture=german
-				father=100000665	# Wolfgang zu Castell-Rüdenhausen
-				mother=100008185	# Emma v. Isenburg
+				father=100000665	# Wolfgang von Castell-Rüdenhausen
+				mother=100008185	# Emma zu Ysenburg und Büdingen
 				1872.08.27={birth=yes}  # Rüdenhausen
 				1903.07.18={add_spouse=100007253}	# Freda von Solms-Sonnenwalde
 				1941.02.16={death=yes}  # Würzburg
@@ -508,7 +508,7 @@
 					female=yes
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000646	# Hermann zu Castell-Rüdenhausen
+					father=100000646	# Hermann von Castell-Rüdenhausen
 					mother=100007253	# Freda von Solms-Sonnenwalde
 					1906.11.28={birth=yes}  # München
 					1977.08.08={death=yes}  # Würzburg
@@ -517,7 +517,7 @@
 					name=Hubertus
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000646	# Hermann zu Castell-Rüdenhausen
+					father=100000646	# Hermann von Castell-Rüdenhausen
 					mother=100007253	# Freda von Solms-Sonnenwalde
 					1909.02.12={birth=yes}  # München
 					1939.06.16={add_spouse=100090059}	# Margarethe Schröder
@@ -529,7 +529,7 @@
 						name=Ferdinand
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000648	# Hubertus zu Castell-Rüdenhausen
+						father=100000648	# Hubertus von Castell-Rüdenhausen
 						mother=100090059	# Margarethe Schröder
 						1940.03.25={birth=yes}
 						1968.09.07={add_spouse=100093917}	# Dagmar Wrede
@@ -539,7 +539,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000649	# Ferdinand zu Castell-Rüdenhausen
+							father=100000649	# Ferdinand von Castell-Rüdenhausen
 							mother=100093917	# Dagmar Wrede
 							1969.01.20={birth=yes}
 						}
@@ -548,7 +548,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000649	# Ferdinand zu Castell-Rüdenhausen
+							father=100000649	# Ferdinand von Castell-Rüdenhausen
 							mother=100093917	# Dagmar Wrede
 							1972.01.23={birth=yes}
 						}
@@ -557,7 +557,7 @@
 							female=yes
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000649	# Ferdinand zu Castell-Rüdenhausen
+							father=100000649	# Ferdinand von Castell-Rüdenhausen
 							mother=100093917	# Dagmar Wrede
 							1976.08.13={birth=yes}
 						}
@@ -565,7 +565,7 @@
 						name=Hubertus
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000648	# Hubertus zu Castell-Rüdenhausen
+						father=100000648	# Hubertus von Castell-Rüdenhausen
 						mother=100090059	# Margarethe Schröder
 						1941.08.30={birth=yes}
 						1974.07.08={add_spouse=100088632}	# Christine Offner
@@ -574,7 +574,7 @@
 							name=Constantin
 							dynasty=1002057
 							religion=catholic culture=german
-							father=100000653	# Hubertus zu Castell-Rüdenhausen
+							father=100000653	# Hubertus von Castell-Rüdenhausen
 							mother=100088632	# Christine Offner
 							1976.05.31={birth=yes}
 						}
@@ -583,7 +583,7 @@
 						female=yes
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000648	# Hubertus zu Castell-Rüdenhausen
+						father=100000648	# Hubertus von Castell-Rüdenhausen
 						mother=100090059	# Margarethe Schröder
 						1943.02.11={birth=yes}
 					}
@@ -592,7 +592,7 @@
 					female=yes
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000646	# Hermann zu Castell-Rüdenhausen
+					father=100000646	# Hermann von Castell-Rüdenhausen
 					mother=100007253	# Freda von Solms-Sonnenwalde
 					1912.01.30={birth=yes}  # München
 					2008.10.12={death=yes}  # Roggersdorf
@@ -601,7 +601,7 @@
 					name=Otto
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000646	# Hermann zu Castell-Rüdenhausen
+					father=100000646	# Hermann von Castell-Rüdenhausen
 					mother=100007253	# Freda von Solms-Sonnenwalde
 					1920.01.20={birth=yes}  # München
 					1942.01.07={death=yes}
@@ -610,8 +610,8 @@
 				name=Wolfgang
 				dynasty=1002057
 				religion=catholic culture=german
-				father=100000665	# Wolfgang zu Castell-Rüdenhausen
-				mother=100008185	# Emma v. Isenburg
+				father=100000665	# Wolfgang von Castell-Rüdenhausen
+				mother=100008185	# Emma zu Ysenburg und Büdingen
 				1875.06.22={birth=yes}  # Rüdenhausen
 				1903.09.27={add_spouse=100091943}	# FRN Hedwig von Faber
 				1930.12.19={death=yes}  # München
@@ -621,16 +621,16 @@
 					female=yes
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000659	# Wolfgang zu Castell-Rüdenhausen
+					father=100000659	# Wolfgang von Castell-Rüdenhausen
 					mother=100091943	# FRN Hedwig von Faber
 					1904.06.29={birth=yes}  # Stein
 					1961.09.09={death=yes}  # Linz
 				}
-				100000661={	# 2d) Wulf Diether Wolfgang Christian Ernst otto Paul Karl (Berlin 20 Nov 1905-Grünwald 1 Jul 1980); m.1st München 22 Jun 1928 (div 1941) Hildegard Pss von Hanau (Söcking 12 Mar 1903-München 12 Apr 1990); m.2nd Berlin 16 Feb 1942 Luise Ullrich (Vienna 31 Oct 1911-München 23 Jan 1985)
+				100000661={	# 2d) Wulf Diether Wolfgang Christian Ernst otto Paul Karl (Berlin 20 Nov 1905-Grünwald 1 Jul 1980); m.1st München 22 Jun 1928 (div 1941) Hildegard Pss von Hanau (Söcking 12 Mar 1903-München 12 Apr 1990); m.2nd Berlin 16 Feb 1942 Luise Ullrich (Vienna 31 Oct 1911-München 23 Jan 1985) $$
 					name=Wulf-Diether
 					dynasty=1002057
 					religion=catholic culture=german
-					father=100000659	# Wolfgang zu Castell-Rüdenhausen
+					father=100000659	# Wolfgang von Castell-Rüdenhausen
 					mother=100091943	# FRN Hedwig von Faber
 					1905.11.20={birth=yes}  # Berlin
 					1928.06.22={add_spouse=100192142}	# Hildegard von Hanau
@@ -643,7 +643,7 @@
 						female=yes
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000661	# Wulf-Diether zu Castell-Rüdenhausen
+						father=100000661	# Wulf-Diether von Castell-Rüdenhausen
 						mother=100091166	# Luise Ullrich
 						1943.01.30={birth=yes}
 					}
@@ -652,7 +652,7 @@
 						female=yes
 						dynasty=1002057
 						religion=catholic culture=german
-						father=100000661	# Wulf-Diether zu Castell-Rüdenhausen
+						father=100000661	# Wulf-Diether von Castell-Rüdenhausen
 						mother=100091166	# Luise Ullrich
 						1945.10.04={birth=yes}  # München
 						2011.08.19={death=yes}  # Grünwald
@@ -661,7 +661,7 @@
 			name=Kuno
 			dynasty=1002057
 			religion=catholic culture=german
-			father=100000601	# Adolf zu Castell-Rüdenhausen
+			father=100000601	# Adolf von Castell-Rüdenhausen
 			mother=100094243	# GFN Klara Henriette zu Rantzau
 			1832.02.12={birth=yes}  # Rüdenhausen
 			1857.05.16={add_spouse=100092412}	# GFN Emma von Keyserlingk
@@ -678,22 +678,22 @@
 
 
 ## 100010900	Castell-Castell		1002026	
-100001115={ # Albrecht Friedrich v. Castell-Castell (Remlingen 2 May 1766-Castell 11 Apr 1810); m.30 Apr 1788 Sophie v. Löwenstein-Wertheim (Wertheim 2 Apr 1771-Rüdenhausen 25 May 1823) %%
+100001115={ # Albrecht Friedrich von Castell-Castell (*Remlingen 2.5.1766, +Castell 11.4.1810); m.30.4.1788 Sophie von Löwenstein-Wertheim-Freudenberg (*// Wertheim 2.4.1771, +// Rüdenhausen 25.5.1823) %%
 	name="Albrecht Friedrich"
 	dynasty=1002026
 	religion=catholic culture=german
 	1766.05.02={birth=yes}  # Remlingen
-	1788.04.30={add_spouse=100002712}	# Sophie v. Löwenstein-Wertheim
+	1788.04.30={add_spouse=100002712}	# Sophie von Löwenstein-Wertheim-Freudenberg
 	1810.04.11={death=yes}  # Castell
 }
 	100000522={ # FRIEDRICH LUDWIG (Castell 2 Nov 1791-Castell 21 Apr 1875); m.Langenburg 25 Jun 1816 Friederike Christiane Emilie Pss zu Hohenlohe-Langenburg (Langenburg 27 Jan 1793-Castell 20 Jul 1859) $$
 		name="Friedrich Ludwig"
 		dynasty=1002026
 		religion=catholic culture=german
-		father=100001115	# Albrecht Friedrich v. Castell-Castell
-		mother=100002712	# Sophie v. Löwenstein-Wertheim
+		father=100001115	# Albrecht Friedrich von Castell-Castell
+		mother=100002712	# Sophie von Löwenstein-Wertheim-Freudenberg
 		1791.11.02={birth=yes}
-		1816.06.25={add_spouse=100001707}	# Emilie Friederike zu Hohenlohe-Langenburg
+		1816.06.25={add_spouse=100001707}	# Emilie Friederike Hohenlohe-Langenburg
 		1875.04.21={death=yes}
 	}
 		100000523={ # 1a) Ida Amelie Luise (Castell 31 Mar 1817-Wildenfels 2 Sep 1882); m.Castell 5 Oct 1843 Friedrich Magnus Gf zu Solms-Wildenfels (Wildenfels 26 Jan 1811-Dresden 24 Mar 1883) $$
@@ -701,8 +701,8 @@
 			female=yes
 			dynasty=1002026
 			religion=catholic culture=german
-			father=100000522	# Friedrich Ludwig v. Castell-Castell
-			mother=100001707	# Emilie Friederike zu Hohenlohe-Langenburg
+			father=100000522	# Friedrich Ludwig von Castell-Castell
+			mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
 			1817.03.31={birth=yes}
 			1882.09.02={death=yes}
 		}
@@ -711,8 +711,8 @@
 			female=yes
 			dynasty=1002026
 			religion=catholic culture=german
-			father=100000522	# Friedrich Ludwig v. Castell-Castell
-			mother=100001707	# Emilie Friederike zu Hohenlohe-Langenburg
+			father=100000522	# Friedrich Ludwig von Castell-Castell
+			mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
 			1818.06.18={birth=yes}
 			1900.07.11={death=yes}
 		}
@@ -721,8 +721,8 @@
 			female=yes
 			dynasty=1002026
 			religion=catholic culture=german
-			father=100000522	# Friedrich Ludwig v. Castell-Castell
-			mother=100001707	# Emilie Friederike zu Hohenlohe-Langenburg
+			father=100000522	# Friedrich Ludwig von Castell-Castell
+			mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
 			1819.12.02={birth=yes}
 			1900.06.08={death=yes}
 		}
@@ -731,8 +731,8 @@
 			female=yes
 			dynasty=1002026
 			religion=catholic culture=german
-			father=100000522	# Friedrich Ludwig v. Castell-Castell
-			mother=100001707	# Emilie Friederike zu Hohenlohe-Langenburg
+			father=100000522	# Friedrich Ludwig von Castell-Castell
+			mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
 			1821.02.06={birth=yes}
 			1860.01.20={death=yes}
 		}
@@ -741,8 +741,8 @@
 			female=yes
 			dynasty=1002026
 			religion=catholic culture=german
-			father=100000522	# Friedrich Ludwig v. Castell-Castell
-			mother=100001707	# Emilie Friederike zu Hohenlohe-Langenburg
+			father=100000522	# Friedrich Ludwig von Castell-Castell
+			mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
 			1822.02.08={birth=yes}
 			1863.03.29={death=yes}
 		}
@@ -750,8 +750,8 @@
 			name=Carl
 			dynasty=1002026
 			religion=catholic culture=german
-			father=100000522	# Friedrich Ludwig v. Castell-Castell
-			mother=100001707	# Emilie Friederike zu Hohenlohe-Langenburg
+			father=100000522	# Friedrich Ludwig von Castell-Castell
+			mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
 			1826.05.23={birth=yes}
 			1856.09.23={add_spouse=100006182}	# Emma von Solms-Rödelheim u.Assenheim
 			1886.01.02={death=yes}
@@ -761,7 +761,7 @@
 				female=yes
 				dynasty=1002026
 				religion=catholic culture=german
-				father=100000528	# Carl v. Castell-Castell
+				father=100000528	# Carl von Castell-Castell
 				mother=100006182	# Emma von Solms-Rödelheim u.Assenheim
 				1857.06.21={birth=yes}
 				1893.09.26={death=yes}
@@ -771,7 +771,7 @@
 				female=yes
 				dynasty=1002026
 				religion=catholic culture=german
-				father=100000528	# Carl v. Castell-Castell
+				father=100000528	# Carl von Castell-Castell
 				mother=100006182	# Emma von Solms-Rödelheim u.Assenheim
 				1858.08.21={birth=yes}
 				1938.01.20={death=yes}
@@ -781,7 +781,7 @@
 				female=yes
 				dynasty=1002026
 				religion=catholic culture=german
-				father=100000528	# Carl v. Castell-Castell
+				father=100000528	# Carl von Castell-Castell
 				mother=100006182	# Emma von Solms-Rödelheim u.Assenheim
 				1860.02.16={birth=yes}
 				1906.06.11={death=yes}
@@ -791,7 +791,7 @@
 				female=yes
 				dynasty=1002026
 				religion=catholic culture=german
-				father=100000528	# Carl v. Castell-Castell
+				father=100000528	# Carl von Castell-Castell
 				mother=100006182	# Emma von Solms-Rödelheim u.Assenheim
 				1862.05.15={birth=yes}
 				1927.06.24={death=yes}
@@ -800,10 +800,10 @@
 				name="Friedrich Carl"
 				dynasty=1002026
 				religion=catholic culture=german
-				father=100000528	# Carl v. Castell-Castell
+				father=100000528	# Carl von Castell-Castell
 				mother=100006182	# Emma von Solms-Rödelheim u.Assenheim
 				1864.07.22={birth=yes}
-				1895.06.26={add_spouse=100006283}	# Gertrud zu Stolberg-Wernigerode
+				1895.06.26={add_spouse=100006283}	# Gertrud von Stolberg-Wernigerode
 				1923.01.03={death=yes}
 			}
 				100000534={ # 1c) Antonia Emma Elisabeth (Castell 18 Apr 1896-Ernstbrunn 4 May 1971); m.Castell 7 Aug 1918 Heinrich XXXIX Pr Reuss (Ernstbrunn 23 Jun 1891-Salzburg 24 Feb 1946) $$
@@ -811,8 +811,8 @@
 					female=yes
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000533	# Friedrich Carl v. Castell-Castell
-					mother=100006283	# Gertrud zu Stolberg-Wernigerode
+					father=100000533	# Friedrich Carl von Castell-Castell
+					mother=100006283	# Gertrud von Stolberg-Wernigerode
 					1896.04.18={birth=yes}
 					1971.05.04={death=yes}
 				}
@@ -820,8 +820,8 @@
 					name=Carl
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000533	# Friedrich Carl v. Castell-Castell
-					mother=100006283	# Gertrud zu Stolberg-Wernigerode
+					father=100000533	# Friedrich Carl von Castell-Castell
+					mother=100006283	# Gertrud von Stolberg-Wernigerode
 					1897.05.08={birth=yes}
 					1923.09.12={add_spouse=100005782}	# Anne-Agnes von Solms-Hohensolms-Lich
 					1945.05.10={death=yes}
@@ -830,7 +830,7 @@
 						name="Philipp Friedrich Carl"
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000535	# Carl v. Castell-Castell
+						father=100000535	# Carl von Castell-Castell
 						mother=100005782	# Anne-Agnes von Solms-Hohensolms-Lich
 						1924.07.11={birth=yes}
 						1944.10.21={death=yes}
@@ -839,7 +839,7 @@
 						name=Albrecht
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000535	# Carl v. Castell-Castell
+						father=100000535	# Carl von Castell-Castell
 						mother=100005782	# Anne-Agnes von Solms-Hohensolms-Lich
 						1925.08.13={birth=yes}
 						1951.05.22={add_spouse=100007125}	# Marie-Louise zu Waldeck u.Pyrmont
@@ -850,7 +850,7 @@
 							dynasty=1002026
 							religion=catholic culture=german
 							trait=twin
-							father=100000537	# Albrecht v. Castell-Castell
+							father=100000537	# Albrecht von Castell-Castell
 							mother=100007125	# Marie-Louise zu Waldeck u.Pyrmont
 							1952.01.23={birth=yes}
 						}
@@ -860,7 +860,7 @@
 							dynasty=1002026
 							religion=catholic culture=german
 							trait=twin
-							father=100000537	# Albrecht v. Castell-Castell
+							father=100000537	# Albrecht von Castell-Castell
 							mother=100007125	# Marie-Louise zu Waldeck u.Pyrmont
 							1952.01.23={birth=yes}
 						}
@@ -868,7 +868,7 @@
 							name="Maximilian Friedrich Carl"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000537	# Albrecht v. Castell-Castell
+							father=100000537	# Albrecht von Castell-Castell
 							mother=100007125	# Marie-Louise zu Waldeck u.Pyrmont
 							1953.05.23={birth=yes}
 							1974.12.21={death=yes}
@@ -877,7 +877,7 @@
 							name="Alexander Friedrich Carl"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000537	# Albrecht v. Castell-Castell
+							father=100000537	# Albrecht von Castell-Castell
 							mother=100007125	# Marie-Louise zu Waldeck u.Pyrmont
 							1954.11.08={birth=yes}
 							1983.01.29={add_spouse=100090586}	# Marion Stepp
@@ -888,7 +888,7 @@
 								name="Conradin Albrecht Walther Friedrich Carl"
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000541	# Alexander Friedrich Carl v. Castell-Castell
+								father=100000541	# Alexander Friedrich Carl von Castell-Castell
 								mother=100090586	# Marion Stepp
 								1984.02.23={birth=yes}
 							}
@@ -897,7 +897,7 @@
 								female=yes
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000541	# Alexander Friedrich Carl v. Castell-Castell
+								father=100000541	# Alexander Friedrich Carl von Castell-Castell
 								mother=100090586	# Marion Stepp
 								1985.05.31={birth=yes}
 							}
@@ -905,7 +905,7 @@
 								name="Gustav Wilhelm Alexander Nathanael"
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000541	# Alexander Friedrich Carl v. Castell-Castell
+								father=100000541	# Alexander Friedrich Carl von Castell-Castell
 								mother=100084864	# Donatha Herzfeld
 								2003.03.20={birth=yes}
 							}
@@ -913,7 +913,7 @@
 								name="Johann Georg Donatus"
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000541	# Alexander Friedrich Carl v. Castell-Castell
+								father=100000541	# Alexander Friedrich Carl von Castell-Castell
 								mother=100084864	# Donatha Herzfeld
 								2005.05.13={birth=yes}
 							}
@@ -921,7 +921,7 @@
 								name=Albrecht
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000541	# Alexander Friedrich Carl v. Castell-Castell
+								father=100000541	# Alexander Friedrich Carl von Castell-Castell
 								mother=100084864	# Donatha Herzfeld
 								2007.01.01={birth=yes}
 							}
@@ -929,7 +929,7 @@
 							name="Georg Friedrich Carl"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000537	# Albrecht v. Castell-Castell
+							father=100000537	# Albrecht von Castell-Castell
 							mother=100007125	# Marie-Louise zu Waldeck u.Pyrmont
 							1956.11.26={birth=yes}
 							1983.06.21={add_spouse=100084435}	# Franziska Greuner
@@ -938,7 +938,7 @@
 								name="Jakob Albrecht Friedrich Carl"
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000547	# Georg Friedrich Carl v. Castell-Castell
+								father=100000547	# Georg Friedrich Carl von Castell-Castell
 								mother=100084435	# Franziska Greuner
 								1984.01.30={birth=yes}
 							}
@@ -947,7 +947,7 @@
 								female=yes
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000547	# Georg Friedrich Carl v. Castell-Castell
+								father=100000547	# Georg Friedrich Carl von Castell-Castell
 								mother=100084435	# Franziska Greuner
 								1985.03.20={birth=yes}
 							}
@@ -955,7 +955,7 @@
 								name="Anton Georg Friedrich Carl"
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000547	# Georg Friedrich Carl v. Castell-Castell
+								father=100000547	# Georg Friedrich Carl von Castell-Castell
 								mother=100084435	# Franziska Greuner
 								1988.09.16={birth=yes}
 							}
@@ -963,7 +963,7 @@
 								name="Franz Georg Friedrich Carl"
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000547	# Georg Friedrich Carl v. Castell-Castell
+								father=100000547	# Georg Friedrich Carl von Castell-Castell
 								mother=100084435	# Franziska Greuner
 								1991.04.17={birth=yes}
 							}
@@ -972,7 +972,7 @@
 								female=yes
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000547	# Georg Friedrich Carl v. Castell-Castell
+								father=100000547	# Georg Friedrich Carl von Castell-Castell
 								mother=100084435	# Franziska Greuner
 								1995.08.20={birth=yes}
 							}
@@ -980,7 +980,7 @@
 							name="Ferdinand Friedrich Carl"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000537	# Albrecht v. Castell-Castell
+							father=100000537	# Albrecht von Castell-Castell
 							mother=100007125	# Marie-Louise zu Waldeck u.Pyrmont
 							1965.05.20={birth=yes}
 							1999.07.30={add_spouse=100010049}	# Marie-Gabrielle von Degenfeld-Schonburg
@@ -989,7 +989,7 @@
 								name="Carl Eduard Ferdinand Michael Rupert Friedrich Gottfried"
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000553	# Ferdinand Friedrich Carl v. Castell-Castell
+								father=100000553	# Ferdinand Friedrich Carl von Castell-Castell
 								mother=100010049	# Marie-Gabrielle von Degenfeld-Schonburg
 								2001.05.15={birth=yes}
 							}
@@ -998,7 +998,7 @@
 								female=yes
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000553	# Ferdinand Friedrich Carl v. Castell-Castell
+								father=100000553	# Ferdinand Friedrich Carl von Castell-Castell
 								mother=100010049	# Marie-Gabrielle von Degenfeld-Schonburg
 								2003.04.23={birth=yes}
 							}
@@ -1007,7 +1007,7 @@
 								female=yes
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000553	# Ferdinand Friedrich Carl v. Castell-Castell
+								father=100000553	# Ferdinand Friedrich Carl von Castell-Castell
 								mother=100010049	# Marie-Gabrielle von Degenfeld-Schonburg
 								2006.04.11={birth=yes}
 							}
@@ -1015,7 +1015,7 @@
 								name=Floriana
 								dynasty=1002026
 								religion=catholic culture=german
-								father=100000553	# Ferdinand Friedrich Carl v. Castell-Castell
+								father=100000553	# Ferdinand Friedrich Carl von Castell-Castell
 								mother=100010049	# Marie-Gabrielle von Degenfeld-Schonburg
 								2008.06.08={birth=yes}
 							}
@@ -1024,7 +1024,7 @@
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000537	# Albrecht v. Castell-Castell
+							father=100000537	# Albrecht von Castell-Castell
 							mother=100007125	# Marie-Louise zu Waldeck u.Pyrmont
 							1966.09.26={birth=yes}
 						}
@@ -1033,7 +1033,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000535	# Carl v. Castell-Castell
+						father=100000535	# Carl von Castell-Castell
 						mother=100005782	# Anne-Agnes von Solms-Hohensolms-Lich
 						1927.04.26={birth=yes}
 						1993.11.13={death=yes}
@@ -1043,7 +1043,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000535	# Carl v. Castell-Castell
+						father=100000535	# Carl von Castell-Castell
 						mother=100005782	# Anne-Agnes von Solms-Hohensolms-Lich
 						1928.12.23={birth=yes}
 						2008.01.01={death=yes}	# EST.
@@ -1053,7 +1053,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000535	# Carl v. Castell-Castell
+						father=100000535	# Carl von Castell-Castell
 						mother=100005782	# Anne-Agnes von Solms-Hohensolms-Lich
 						1933.08.03={birth=yes}
 						2013.01.01={death=yes}	# EST.
@@ -1063,7 +1063,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000535	# Carl v. Castell-Castell
+						father=100000535	# Carl von Castell-Castell
 						mother=100005782	# Anne-Agnes von Solms-Hohensolms-Lich
 						1934.10.29={birth=yes}
 						2014.01.01={death=yes}	# EST.
@@ -1072,8 +1072,8 @@
 					name=Constantin
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000533	# Friedrich Carl v. Castell-Castell
-					mother=100006283	# Gertrud zu Stolberg-Wernigerode
+					father=100000533	# Friedrich Carl von Castell-Castell
+					mother=100006283	# Gertrud von Stolberg-Wernigerode
 					1898.10.27={birth=yes}
 					1933.07.08={add_spouse=100037149}	# Lutgardis van Rechteren-Limpurg
 					1956.01.01={remove_spouse=100037149}
@@ -1084,7 +1084,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000563	# Constantin v. Castell-Castell
+						father=100000563	# Constantin von Castell-Castell
 						mother=100037149	# Lutgardis van Rechteren-Limpurg
 						1934.04.27={birth=yes}
 						2014.01.01={death=yes}	# EST.
@@ -1094,7 +1094,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000563	# Constantin v. Castell-Castell
+						father=100000563	# Constantin von Castell-Castell
 						mother=100037149	# Lutgardis van Rechteren-Limpurg
 						1939.10.26={birth=yes}
 						1964.09.05={add_spouse=100003475}	# Heinrich Reuß
@@ -1104,8 +1104,8 @@
 					female=yes
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000533	# Friedrich Carl v. Castell-Castell
-					mother=100006283	# Gertrud zu Stolberg-Wernigerode
+					father=100000533	# Friedrich Carl von Castell-Castell
+					mother=100006283	# Gertrud von Stolberg-Wernigerode
 					1899.10.27={birth=yes}
 					1969.12.24={death=yes}
 				}
@@ -1113,8 +1113,8 @@
 					name="Wilhelm Friedrich"
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000533	# Friedrich Carl v. Castell-Castell
-					mother=100006283	# Gertrud zu Stolberg-Wernigerode
+					father=100000533	# Friedrich Carl von Castell-Castell
+					mother=100006283	# Gertrud von Stolberg-Wernigerode
 					1901.12.12={birth=yes}
 					1930.04.05={add_spouse=100085329}	# Ella Hutt
 					1968.11.11={death=yes}
@@ -1124,7 +1124,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000567	# Wilhelm Friedrich v. Castell-Castell
+						father=100000567	# Wilhelm Friedrich von Castell-Castell
 						mother=100085329	# Ella Hutt
 						1931.07.28={birth=yes}
 						2011.01.01={death=yes}	# EST.
@@ -1134,7 +1134,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000567	# Wilhelm Friedrich v. Castell-Castell
+						father=100000567	# Wilhelm Friedrich von Castell-Castell
 						mother=100085329	# Ella Hutt
 						1936.04.15={birth=yes}
 					}
@@ -1143,7 +1143,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000567	# Wilhelm Friedrich v. Castell-Castell
+						father=100000567	# Wilhelm Friedrich von Castell-Castell
 						mother=100085329	# Ella Hutt
 						1936.04.15={birth=yes}
 					}
@@ -1151,7 +1151,7 @@
 						name="James William"
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000567	# Wilhelm Friedrich v. Castell-Castell
+						father=100000567	# Wilhelm Friedrich von Castell-Castell
 						mother=100085329	# Ella Hutt
 						1945.09.10={birth=yes}
 						1985.10.11={add_spouse=100088175}	# Susan Linda Molnar
@@ -1160,8 +1160,8 @@
 					name="Georg Friedrich"
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000533	# Friedrich Carl v. Castell-Castell
-					mother=100006283	# Gertrud zu Stolberg-Wernigerode
+					father=100000533	# Friedrich Carl von Castell-Castell
+					mother=100006283	# Gertrud von Stolberg-Wernigerode
 					1904.11.12={birth=yes}
 					1938.05.02={add_spouse=100091915}	# Gudrun von Eichel gt Streiber
 					1956.09.06={death=yes}
@@ -1171,7 +1171,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000574	# Georg Friedrich v. Castell-Castell
+						father=100000574	# Georg Friedrich von Castell-Castell
 						mother=100091915	# Gudrun von Eichel gt Streiber
 						1941.08.31={birth=yes}
 					}
@@ -1180,7 +1180,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000574	# Georg Friedrich v. Castell-Castell
+						father=100000574	# Georg Friedrich von Castell-Castell
 						mother=100091915	# Gudrun von Eichel gt Streiber
 						1943.12.20={birth=yes}
 					}
@@ -1188,7 +1188,7 @@
 						name=Wolfgang-Georg
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000574	# Georg Friedrich v. Castell-Castell
+						father=100000574	# Georg Friedrich von Castell-Castell
 						mother=100091915	# Gudrun von Eichel gt Streiber
 						1949.01.05={birth=yes}
 						1983.04.05={add_spouse=100080114}	# Verena Alt
@@ -1197,7 +1197,7 @@
 							name=Cilly
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000577	# Wolfgang-Georg v. Castell-Castell
+							father=100000577	# Wolfgang-Georg von Castell-Castell
 							mother=100080114	# Verena Alt
 							1987.05.22={birth=yes}
 						}
@@ -1205,7 +1205,7 @@
 							name="Heinrich Georg"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000577	# Wolfgang-Georg v. Castell-Castell
+							father=100000577	# Wolfgang-Georg von Castell-Castell
 							mother=100080114	# Verena Alt
 							1988.12.29={birth=yes}
 						}
@@ -1213,7 +1213,7 @@
 						name="Friedrich Rupert Heinrich"
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000574	# Georg Friedrich v. Castell-Castell
+						father=100000574	# Georg Friedrich von Castell-Castell
 						mother=100091915	# Gudrun von Eichel gt Streiber
 						1950.12.18={birth=yes}
 					}
@@ -1222,7 +1222,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000574	# Georg Friedrich v. Castell-Castell
+						father=100000574	# Georg Friedrich von Castell-Castell
 						mother=100091915	# Gudrun von Eichel gt Streiber
 						1955.01.03={birth=yes}
 					}
@@ -1231,8 +1231,8 @@
 					female=yes
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000533	# Friedrich Carl v. Castell-Castell
-					mother=100006283	# Gertrud zu Stolberg-Wernigerode
+					father=100000533	# Friedrich Carl von Castell-Castell
+					mother=100006283	# Gertrud von Stolberg-Wernigerode
 					1907.06.08={birth=yes}
 					2004.11.17={death=yes}
 				}
@@ -1241,8 +1241,8 @@
 					female=yes
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000533	# Friedrich Carl v. Castell-Castell
-					mother=100006283	# Gertrud zu Stolberg-Wernigerode
+					father=100000533	# Friedrich Carl von Castell-Castell
+					mother=100006283	# Gertrud von Stolberg-Wernigerode
 					1910.10.11={birth=yes}
 					1934.05.01={death=yes}
 				}
@@ -1251,7 +1251,7 @@
 				female=yes
 				dynasty=1002026
 				religion=catholic culture=german
-				father=100000528	# Carl v. Castell-Castell
+				father=100000528	# Carl von Castell-Castell
 				mother=100006182	# Emma von Solms-Rödelheim u.Assenheim
 				1866.06.22={birth=yes}
 				1923.02.24={death=yes}
@@ -1260,20 +1260,20 @@
 				name="Otto Friedrich"
 				dynasty=1002026
 				religion=catholic culture=german
-				father=100000528	# Carl v. Castell-Castell
+				father=100000528	# Carl von Castell-Castell
 				mother=100006182	# Emma von Solms-Rödelheim u.Assenheim
 				1868.05.12={birth=yes}
-				1903.10.05={add_spouse=100003669}	# Amélie v. Löwenstein-Wertheim
+				1903.10.05={add_spouse=100003669}	# Amélie von Löwenstein-Wertheim-Freudenberg
 				1939.07.08={death=yes}
 			}
 				100000586={ # 1c) Luitpold Alfred Friedrich Karl (Langenzell 14 Nov 1904-k.a.nr Sofia 8 Nov 1941); m.Copenhagen 22 Jan 1937 Alexandrine Louise Pss of Denmark (Jægersborghus 12 Dec 1914-Copenhagen 26 Apr 1962) $$
 					name=Luitpold
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000585	# Otto Friedrich v. Castell-Castell
-					mother=100003669	# Amélie v. Löwenstein-Wertheim
+					father=100000585	# Otto Friedrich von Castell-Castell
+					mother=100003669	# Amélie von Löwenstein-Wertheim-Freudenberg
 					1904.11.14={birth=yes}
-					1937.01.22={add_spouse=100004852}	# Alexandine-Louise v. Schleswig-Holstein-Sonderburg-Glücksburg
+					1937.01.22={add_spouse=100004852}	# Alexandine-Louise von Schleswig-Holstein-Sonderburg-Glücksburg
 					1941.11.08={death=yes}
 				}
 					100000587={ # 1d) Amélie Alexandrine Helene Caroline Mathilde Pauline (b.Berlin 25 May 1938); m.Hochburg (civ) 3 Sep 1965 (rel) 5 Sep 1965 Oscar Ritter von Miller zu Aichholz (b.Vienna 7 Jul 1934) $$
@@ -1281,8 +1281,8 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000586	# Luitpold v. Castell-Castell
-						mother=100004852	# Alexandine-Louise v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100000586	# Luitpold von Castell-Castell
+						mother=100004852	# Alexandine-Louise von Schleswig-Holstein-Sonderburg-Glücksburg
 						1938.05.25={birth=yes}
 					}
 					100000588={ # 2d) Thyra Antonie Marie-Therese Feodora Agnes (b.Berlin 14 Sep 1939); m.Copenhagen 3 Nov 1961 Karl Moritz Moes (b.Copenhagen 17 Oct 1937)
@@ -1290,8 +1290,8 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000586	# Luitpold v. Castell-Castell
-						mother=100004852	# Alexandine-Louise v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100000586	# Luitpold von Castell-Castell
+						mother=100004852	# Alexandine-Louise von Schleswig-Holstein-Sonderburg-Glücksburg
 						1939.09.14={birth=yes}
 					}
 				100000589={ # 2c) Pauline Emma Amalie Gertrud Elisabeth Madeleine (Langenzell 5 Sep 1906-Ueberackern 18 Feb 2002); m.(civ) Burghausen 30 Apr 1935 (rel) München 4 May 1935 Georg Pr von Schönburg-Waldenburg (Guteborn 18 Nov 1908-Ueberackern, Oberösterreich 4 Aug 1982) $$
@@ -1299,8 +1299,8 @@
 					female=yes
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000585	# Otto Friedrich v. Castell-Castell
-					mother=100003669	# Amélie v. Löwenstein-Wertheim
+					father=100000585	# Otto Friedrich von Castell-Castell
+					mother=100003669	# Amélie von Löwenstein-Wertheim-Freudenberg
 					1906.09.05={birth=yes}
 					2002.02.18={death=yes}
 				}
@@ -1308,8 +1308,8 @@
 					name="Gustav Friedrich Wilhelm Ernst Franz Ulrich Richard Udo Hermann"
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000585	# Otto Friedrich v. Castell-Castell
-					mother=100003669	# Amélie v. Löwenstein-Wertheim
+					father=100000585	# Otto Friedrich von Castell-Castell
+					mother=100003669	# Amélie von Löwenstein-Wertheim-Freudenberg
 					1911.12.09={birth=yes}
 					1936.07.14={add_spouse=100092584}	# FRN Vibeke von Lotzbeck
 					1941.01.19={death=yes}
@@ -1319,7 +1319,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000590	# Gustav Friedrich Wilhelm Ernst Franz Ulrich Richard Udo Hermann v. Castell-Castell
+						father=100000590	# Gustav Friedrich Wilhelm Ernst Franz Ulrich Richard Udo Hermann von Castell-Castell
 						mother=100092584	# FRN Vibeke von Lotzbeck
 						1939.05.19={birth=yes}
 					}
@@ -1327,7 +1327,7 @@
 						name=Friedrich
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000590	# Gustav Friedrich Wilhelm Ernst Franz Ulrich Richard Udo Hermann v. Castell-Castell
+						father=100000590	# Gustav Friedrich Wilhelm Ernst Franz Ulrich Richard Udo Hermann von Castell-Castell
 						mother=100092584	# FRN Vibeke von Lotzbeck
 						1940.07.05={birth=yes}
 						1967.05.02={add_spouse=100086088}	# FRN Adelheid Jordis von Lohausen
@@ -1339,7 +1339,7 @@
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000592	# Friedrich v. Castell-Castell
+							father=100000592	# Friedrich von Castell-Castell
 							mother=100086088	# FRN Adelheid Jordis von Lohausen
 							1968.02.18={birth=yes}
 						}
@@ -1348,7 +1348,7 @@
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000592	# Friedrich v. Castell-Castell
+							father=100000592	# Friedrich von Castell-Castell
 							mother=100086088	# FRN Adelheid Jordis von Lohausen
 							1972.08.03={birth=yes}
 						}
@@ -1357,7 +1357,7 @@
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000592	# Friedrich v. Castell-Castell
+							father=100000592	# Friedrich von Castell-Castell
 							mother=100086088	# FRN Adelheid Jordis von Lohausen
 							1974.05.25={birth=yes}
 						}
@@ -1365,7 +1365,7 @@
 							name=Friedrich-August
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000592	# Friedrich v. Castell-Castell
+							father=100000592	# Friedrich von Castell-Castell
 							mother=100086088	# FRN Adelheid Jordis von Lohausen
 							1979.01.27={birth=yes}
 						}
@@ -1374,8 +1374,8 @@
 					female=yes
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000585	# Otto Friedrich v. Castell-Castell
-					mother=100003669	# Amélie v. Löwenstein-Wertheim
+					father=100000585	# Otto Friedrich von Castell-Castell
+					mother=100003669	# Amélie von Löwenstein-Wertheim-Freudenberg
 					1917.12.30={birth=yes}
 					2002.07.11={death=yes}
 				}
@@ -1383,8 +1383,8 @@
 			name=Gustav
 			dynasty=1002026
 			religion=catholic culture=german
-			father=100000522	# Friedrich Ludwig v. Castell-Castell
-			mother=100001707	# Emilie Friederike zu Hohenlohe-Langenburg
+			father=100000522	# Friedrich Ludwig von Castell-Castell
+			mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
 			1829.01.17={birth=yes}
 			1869.09.11={add_spouse=100091723}	# GFN Elisabeth von Brühl
 			1910.07.07={death=yes}
@@ -1393,7 +1393,7 @@
 				name="Friedrich Ludwig Karl Georg"
 				dynasty=1002026
 				religion=catholic culture=german
-				father=100000501	# Gustav v. Castell-Castell
+				father=100000501	# Gustav von Castell-Castell
 				mother=100091723	# GFN Elisabeth von Brühl
 				1874.08.28={birth=yes}
 				1907.06.26={add_spouse=100092273}	# GFN Karoline von Hohenthal u.Bergen
@@ -1404,7 +1404,7 @@
 					female=yes
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000502	# Friedrich Ludwig Karl Georg v. Castell-Castell
+					father=100000502	# Friedrich Ludwig Karl Georg von Castell-Castell
 					mother=100092273	# GFN Karoline von Hohenthal u.Bergen
 					1908.06.06={birth=yes}
 					1972.10.18={death=yes}
@@ -1413,7 +1413,7 @@
 				name="Wolfgang Friedrich Julius Magnus"
 				dynasty=1002026
 				religion=catholic culture=german
-				father=100000501	# Gustav v. Castell-Castell
+				father=100000501	# Gustav von Castell-Castell
 				mother=100091723	# GFN Elisabeth von Brühl
 				1877.05.27={birth=yes}
 				1920.10.05={add_spouse=100003411}	# Sibylle Gabriele Reuß
@@ -1423,18 +1423,18 @@
 					name="Prosper Friedrich Karl Gustav Heinrich"
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000504	# Wolfgang Friedrich Julius Magnus v. Castell-Castell
+					father=100000504	# Wolfgang Friedrich Julius Magnus von Castell-Castell
 					mother=100003411	# Sibylle Gabriele Reuß
 					1922.09.04={birth=yes}
-					1961.07.08={add_spouse=100002553}	# Elisabeth zu Schaumburg-Lippe
+					1961.07.08={add_spouse=100002553}	# Elisabeth zur Lippe-Weißenfeld
 					1989.01.03={death=yes}
 				}
 					100000506={ # 1d) Johannes Friedrich (b.München 17 Aug 1962); m.Isernhagen 5 Jun 1997 (rel) Hamburg 7 Jun 1997 Stefanie Hinz (b.Kiel 28 Apr 1966)
 						name="Johannes Friedrich"
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000505	# Prosper Friedrich Karl Gustav Heinrich v. Castell-Castell
-						mother=100002553	# Elisabeth zu Schaumburg-Lippe
+						father=100000505	# Prosper Friedrich Karl Gustav Heinrich von Castell-Castell
+						mother=100002553	# Elisabeth zur Lippe-Weißenfeld
 						1962.08.17={birth=yes}
 						1997.06.07={add_spouse=100084902}	# Stefanie Hinz
 					}
@@ -1442,7 +1442,7 @@
 							name="Victor Alexander"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000506	# Johannes Friedrich v. Castell-Castell
+							father=100000506	# Johannes Friedrich von Castell-Castell
 							mother=100084902	# Stefanie Hinz
 							2000.02.01={birth=yes}
 						}
@@ -1450,8 +1450,8 @@
 						name="Heinrich Friedrich"
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000505	# Prosper Friedrich Karl Gustav Heinrich v. Castell-Castell
-						mother=100002553	# Elisabeth zu Schaumburg-Lippe
+						father=100000505	# Prosper Friedrich Karl Gustav Heinrich von Castell-Castell
+						mother=100002553	# Elisabeth zur Lippe-Weißenfeld
 						1966.06.25={birth=yes}
 						1997.09.13={add_spouse=100084634}	# Huberta Hahn v.Burgsdorff
 					}
@@ -1459,7 +1459,7 @@
 							name="Prosper Friedrich Carl Clemens"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000508	# Heinrich Friedrich v. Castell-Castell
+							father=100000508	# Heinrich Friedrich von Castell-Castell
 							mother=100084634	# Huberta Hahn v.Burgsdorff
 							1998.09.05={birth=yes}
 						}
@@ -1467,7 +1467,7 @@
 							name="Moritz Friedrich Anton Johannes"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000508	# Heinrich Friedrich v. Castell-Castell
+							father=100000508	# Heinrich Friedrich von Castell-Castell
 							mother=100084634	# Huberta Hahn v.Burgsdorff
 							2000.04.13={birth=yes}
 						}
@@ -1476,7 +1476,7 @@
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000508	# Heinrich Friedrich v. Castell-Castell
+							father=100000508	# Heinrich Friedrich von Castell-Castell
 							mother=100084634	# Huberta Hahn v.Burgsdorff
 							2003.05.20={birth=yes}
 						}
@@ -1484,7 +1484,7 @@
 							name=Valentin
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000508	# Heinrich Friedrich v. Castell-Castell
+							father=100000508	# Heinrich Friedrich von Castell-Castell
 							mother=100084634	# Huberta Hahn v.Burgsdorff
 							2008.03.19={birth=yes}
 						}
@@ -1492,7 +1492,7 @@
 							name=Liliana
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000508	# Heinrich Friedrich v. Castell-Castell
+							father=100000508	# Heinrich Friedrich von Castell-Castell
 							mother=100084634	# Huberta Hahn v.Burgsdorff
 							2010.02.17={birth=yes}
 						}
@@ -1500,7 +1500,7 @@
 					name="Friedrich Ludwig Hubertus Anton"
 					dynasty=1002026
 					religion=catholic culture=german
-					father=100000504	# Wolfgang Friedrich Julius Magnus v. Castell-Castell
+					father=100000504	# Wolfgang Friedrich Julius Magnus von Castell-Castell
 					mother=100003411	# Sibylle Gabriele Reuß
 					1927.10.05={birth=yes}
 					1958.04.08={add_spouse=100086851}	# Amelie Klein-Ellguth
@@ -1510,7 +1510,7 @@
 						name="Andreas Wolfgang Otto"
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000514	# Friedrich Ludwig Hubertus Anton v. Castell-Castell
+						father=100000514	# Friedrich Ludwig Hubertus Anton von Castell-Castell
 						mother=100086851	# Amelie Klein-Ellguth
 						1959.05.15={birth=yes}
 						1985.09.13={add_spouse=100090532}	# Beate Staudt
@@ -1522,7 +1522,7 @@
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000515	# Andreas Wolfgang Otto v. Castell-Castell
+							father=100000515	# Andreas Wolfgang Otto von Castell-Castell
 							mother=100084248	# Maren Goebel
 							1999.01.21={birth=yes}
 						}
@@ -1530,7 +1530,7 @@
 							name=Kilian
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000515	# Andreas Wolfgang Otto v. Castell-Castell
+							father=100000515	# Andreas Wolfgang Otto von Castell-Castell
 							mother=100084248	# Maren Goebel
 							2000.10.28={birth=yes}
 						}
@@ -1538,7 +1538,7 @@
 						name=Johann-Philipp
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000514	# Friedrich Ludwig Hubertus Anton v. Castell-Castell
+						father=100000514	# Friedrich Ludwig Hubertus Anton von Castell-Castell
 						mother=100086851	# Amelie Klein-Ellguth
 						1960.09.14={birth=yes}
 						1980.05.27={add_spouse=100081928}	# Elvira Dambach
@@ -1549,7 +1549,7 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000514	# Friedrich Ludwig Hubertus Anton v. Castell-Castell
+						father=100000514	# Friedrich Ludwig Hubertus Anton von Castell-Castell
 						mother=100086851	# Amelie Klein-Ellguth
 						1960.09.14={birth=yes}
 					}
@@ -1557,7 +1557,7 @@
 						name="Hubertus Friedrich"
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000514	# Friedrich Ludwig Hubertus Anton v. Castell-Castell
+						father=100000514	# Friedrich Ludwig Hubertus Anton von Castell-Castell
 						mother=100086851	# Amelie Klein-Ellguth
 						1961.09.16={birth=yes}
 						1988.05.27={add_spouse=100088355}	# Waldtraut Möloth
@@ -1566,7 +1566,7 @@
 							name="Constantin Friedrich Heinz Ludwig"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000520	# Hubertus Friedrich v. Castell-Castell
+							father=100000520	# Hubertus Friedrich von Castell-Castell
 							mother=100088355	# Waldtraut Möloth
 							1990.02.03={birth=yes}
 						}
@@ -1575,7 +1575,7 @@
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=100000520	# Hubertus Friedrich v. Castell-Castell
+							father=100000520	# Hubertus Friedrich von Castell-Castell
 							mother=100088355	# Waldtraut Möloth
 							1994.09.17={birth=yes}
 						}
@@ -1584,17 +1584,17 @@
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=100000514	# Friedrich Ludwig Hubertus Anton v. Castell-Castell
+						father=100000514	# Friedrich Ludwig Hubertus Anton von Castell-Castell
 						mother=100086851	# Amelie Klein-Ellguth
 						1964.04.18={birth=yes}
 					}
-	100008243={ # A2. Dorothea (Castell 10 Jan 1796-Meerholz 6 Sep 1864); m.22 Oct 1818 Joseph v. Isenburg (Meerholz 10 May 1772-Meerholz 14 Mar 1822) %%
+	100008243={ # A2. Dorothea (*Castell 10.1.1796, +Meerholz 6.9.1864); m.22.10.1818 Joseph zu Ysenburg und Büdingen (*Meerholz 10.5.1772, +Meerholz 14.3.1822) %%
 		name=Dorothea
 		female=yes
 		dynasty=1002026
 		religion=catholic culture=german
-		father=100001115	# Albrecht Friedrich v. Castell-Castell
-		mother=100002712	# Sophie v. Löwenstein-Wertheim
+		father=100001115	# Albrecht Friedrich von Castell-Castell
+		mother=100002712	# Sophie von Löwenstein-Wertheim-Freudenberg
 		1796.01.10={birth=yes}  # Castell
 		1864.09.06={death=yes}  # Meerholz
 	}
