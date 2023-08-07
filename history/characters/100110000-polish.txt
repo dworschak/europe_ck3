@@ -2059,21 +2059,21 @@
 			1874.01.01={add_spouse=100094552}	# Klara Elzbieta Bancroft
 			1935.05.13={death=yes}	# Menton
 		}
-			100112669={ #// C1. Benedykt Jan (*Paryz 9.10.1875, +Paryz 18.2.1948); m.23.6.1903 Róza (*Paris 1.1.1881, +Paris 1.1.1953) %%
+			100112669={ #// C1. Benedykt Jan (*Paryz 9.10.1875, +Paryz 18.2.1948); m.23.6.1903 Róza Branicki (*Paris 1.1.1881, +Paris 1.1.1953) %%
 				name="Benedykt Jan"
 				dynasty=1012023
 				religion=catholic culture=polish
 				father=100112668	# Benedykt Henryk Tyszkiewicz-Lohojski
 				mother=100094552	# Klara Elzbieta Bancroft
 				1875.10.09={birth=yes}  # Paryz
-				1903.06.23={add_spouse=100112671}	# Róza
+				1903.06.23={add_spouse=100112671}	# Róza Branicki
 				1948.02.18={death=yes}  # Paryz
 			}
 				100112670={ #// D1. Benedykt Władysław (*Czerwony Dwór, Litwa 2.8.1905, +Lódz 6.2.1956); m.1.1.1938 Eleonore Radziwiłł (*2.8.1918) %%
 					name="Benedykt Władysław"
 					dynasty=1012023
 					father=100112669	# Benedykt Jan Tyszkiewicz-Lohojski
-					mother=100112671	# Róza
+					mother=100112671	# Róza Branicki
 					1905.08.02={birth=yes}	# Czerwony Dwór, Litwa
 					1938.01.01={add_spouse=100111059}	# Eleonore Radziwiłł
 					1956.02.06={death=yes}	# Lódz
@@ -4097,11 +4097,13 @@
 								1879.02.11={birth=yes}  # Warsaw
 								1929.06.11={death=yes}
 							}
-							100112671={ #// G1. Róza (*Paris 1.1.1881, +Paris 1.1.1953); m.23.6.1903 Benedykt Jan Tyszkiewicz-Lohojski (*Paryz 9.10.1875, +Paryz 18.2.1948) %%
+							100112671={ #// G4. Róza (*Paris 1.1.1881, +Paris 1.1.1953); m.23.6.1903 Benedykt Jan Tyszkiewicz-Lohojski (*Paryz 9.10.1875, +Paryz 18.2.1948) %%
 								name=Róza
 								female=yes
-								#dynasty=0
+								dynasty=1012014
 								religion=catholic culture=polish
+								father=100110201	# Władysław Branicki
+								mother=100111521	# Julia Potocki
 								1881.01.01={birth=yes}	# Paris
 								1953.01.01={death=yes}	# Paris
 							}
@@ -8259,7 +8261,7 @@
 					mother=100021237	# Elisabeth von Habsburg
 					1467.01.01={birth=yes}
 					1512.02.08={add_spouse=100036528}	# Barbara Szapolyai
-					1518.04.18={add_spouse=lowborn_1608}	# Bona Sforza
+					1518.04.18={add_spouse=sforza_0012}	# Bona Sforza
 					1548.04.01={death=yes}
 				}
 					jagelo_0087={ #// E1. [1m.] Jadwiga, *25.3.1513, +7.2.1573; m.29.8./1.9.1535 Kurfürst Joachim II von Brandenburg (+3.1.1571) $$
@@ -8288,7 +8290,7 @@
 						dynasty=1012037
 						religion=catholic culture=lithuanian
 						father=jagelo_0086	# Zygmunt Jagiełło
-						mother=lowborn_1608	# Bona Sforza
+						mother=sforza_0012	# Bona Sforza
 						1519.01.18={birth=yes}
 						1559.09.15={death=yes}
 					}
@@ -8297,7 +8299,7 @@
 						dynasty=1012037
 						religion=catholic culture=lithuanian
 						father=jagelo_0086	# Zygmunt Jagiełło
-						mother=lowborn_1608	# Bona Sforza
+						mother=sforza_0012	# Bona Sforza
 						1544.10.06={birth=yes}
 						1543.05.05={add_spouse=100021162}	# Elisabeth von Habsburg
 						1547.08.06={add_spouse=100110664}	# Barbara Radziwiłł
@@ -8319,7 +8321,7 @@
 						dynasty=1012037
 						religion=catholic culture=lithuanian
 						father=jagelo_0086	# Zygmunt Jagiełło
-						mother=lowborn_1608	# Bona Sforza
+						mother=sforza_0012	# Bona Sforza
 						1527.09.20={birth=yes}
 						1597.12.01={death=yes}  # EST.
 					}
@@ -8329,7 +8331,7 @@
 						dynasty=1012037
 						religion=catholic culture=lithuanian
 						father=jagelo_0086	# Zygmunt Jagiełło
-						mother=lowborn_1608	# Bona Sforza
+						mother=sforza_0012	# Bona Sforza
 						1522.07.13={birth=yes}
 						1575.05.28={death=yes}
 					}
@@ -8339,7 +8341,7 @@
 						dynasty=1012037
 						religion=catholic culture=lithuanian
 						father=jagelo_0086	# Zygmunt Jagiełło
-						mother=lowborn_1608	# Bona Sforza
+						mother=sforza_0012	# Bona Sforza
 						1523.10.18={birth=yes}
 						1596.09.09={death=yes}
 					}
@@ -8349,7 +8351,7 @@
 						dynasty=1012037
 						religion=catholic culture=lithuanian
 						father=jagelo_0086	# Zygmunt Jagiełło
-						mother=lowborn_1608	# Bona Sforza
+						mother=sforza_0012	# Bona Sforza
 						1526.11.01={birth=yes}
 						1583.09.16={death=yes}
 					}
@@ -10088,21 +10090,21 @@
 				1940.08.15={death=yes}
 			}
 			100111418={ #// 4e) Aleksander Jozefat Władysław Adam Fst Sapieha-Kodenski (Oleszyce 25 Nov 1888-Nice 16 Dec 1980); m.1st London 15 Mar 1915 Elisabeth Hamilton-Paine (Boston 31 May 1895-Nice 17 Sep 1971); m.2nd Nice 15 Jan 1976 Maria Gfn von Oppersdorff (Oberglogau 20 May 1899-Brussels 14 Jun 1990) $$
-				name="Aleksander Jozefat"
+				name=Aleksander
 				dynasty=1012005
 				religion=catholic culture=polish
 				father=100111412	# Władysław Leon Sapieha
 				mother=100089202	# GFN Alzbieta Konstancja Potulicki
 				1888.11.25={birth=yes}
 				1915.03.15={add_spouse=100084664}	# Elisabeth Hamilton-Paine
-				1976.01.15={add_spouse=100035236}	# Maria von Oppersdorff
+				1976.01.15={add_spouse=oppersdorf_0118}	# Maria Annunciata von Oppersdorff
 				1980.12.16={death=yes}
 			}
 				100111421={ #// 1f) Leon Roman (Biarritz 3 Dec 1915-Fromentières 13 Jun 1940)
 					name="Leon Roman"
 					dynasty=1012005
 					religion=catholic culture=polish
-					father=100111418	# Aleksander Jozefat Sapieha
+					father=100111418	# Aleksander Sapieha
 					mother=100084664	# Elisabeth Hamilton-Paine
 					1915.12.03={birth=yes}
 					1940.06.13={death=yes}
@@ -10111,7 +10113,7 @@
 					name="Charles Władysław"
 					dynasty=1012005
 					religion=catholic culture=polish
-					father=100111418	# Aleksander Jozefat Sapieha
+					father=100111418	# Aleksander Sapieha
 					mother=100084664	# Elisabeth Hamilton-Paine
 					1920.06.14={birth=yes}
 					1941.08.01={death=yes}
@@ -10344,13 +10346,13 @@
 				1973.12.23={death=yes}
 			}
 			100111471={ #// 3e) Paweł Jozef Kazimierz Florian (Gumniska 4 May 1888-Rochester, New York 1 Aug 1973); m.Krakow 14 Sep 1922 Maria Gfn von Oppersdorf (Oberglogau 20 May 1899-Brussels 14 Jun 1990) $$
-				name="Paweł Jozef"
+				name=Paweł
 				dynasty=1012005
 				religion=catholic culture=polish
 				father=100111465	# Leon Sapieha
 				mother=100110273	# Teresa Elzbieta Sanguszko
 				1888.05.04={birth=yes}
-				1922.09.14={add_spouse=100035236}	# Maria von Oppersdorff
+				1922.09.14={add_spouse=oppersdorf_0118}	# Maria Annunciata von Oppersdorff
 				1973.08.01={death=yes}
 			}
 			100111473={ #// 4e) Elzbieta Karolina Maria Jozefa (Lemberg 30 Mar 1892-Lemberg 24 May 1907)

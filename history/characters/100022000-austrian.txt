@@ -2295,7 +2295,7 @@
 					father=100022269	# Michael Wenzel von Althann
 					mother=100024053	# Maria Josepha von Paar
 					1691.01.01={birth=yes}
-					1723.01.01={add_spouse=100103979}	# Anna Franziska von Oppersdorf
+					1723.01.01={add_spouse=100103979}	# Anna Franziska von Oppersdorff
 					1749.01.01={death=yes}
 				}
 					100022268={ #// E4. Michael Otto, *1730, +18.5.1797; 1m: 14.7.1750 Maria Josepha Eleonore Gfn von Waldstein (*2.8.1732 +1757); 2m: 1760 Gfn Maria Anna von Martinitz (*1737 +1810) $$
@@ -2303,7 +2303,7 @@
 						dynasty=1004507
 						religion=catholic culture=bavarian
 						father=100022267	# Michael Emanuel von Althann
-						mother=100103979	# Anna Franziska von Oppersdorf
+						mother=100103979	# Anna Franziska von Oppersdorff
 						1730.01.01={birth=yes}
 						1750.07.14={add_spouse=100047859}	# Maria z Valdštejna
 						1760.01.01={add_spouse=100186817}	# Maria Anna Martinic
@@ -4586,7 +4586,7 @@
 				father=100026178	# Christian August von Attems
 				mother=100088005	# GFN Maria Eleonora von Strassoldo
 				1759.12.17={birth=yes}  # Görz
-				1796.01.28={add_spouse=100103555}	# GFN Franziska Korzensky von Tereschau
+				1796.01.28={add_spouse=100103555}	# GFN Franziska Kořensky von Tereschau
 				1810.05.02={death=yes}  # Hausambacher Styria
 			}
 				100025390={ #// D2. Hermann Eduard, *Görz 28.1.1800, +Weidenholz, Lower Austria 12.8.1874; m.Wien 17.4.1828 Leopoldine Gfn von Gilleis (*Kattau 23.10.1807, +Linz 27.4.1875)
@@ -4594,7 +4594,7 @@
 					dynasty=1004511
 					religion=catholic culture=bavarian
 					father=100025409	# Christian von Attems
-					mother=100103555	# GFN Franziska Korzensky von Tereschau
+					mother=100103555	# GFN Franziska Kořensky von Tereschau
 					1800.01.28={birth=yes}  # Görz
 					1828.04.17={add_spouse=100103556}	# GFN Leopoldine von Gilleis
 					1874.08.12={death=yes}  # Weidenholz Lower Austria
@@ -6843,38 +6843,532 @@
 #lamberg6 > 1
 
 #lamberg7 > 2
-100024775={ #// Graf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg und Ottenstein, *Münster 1648, +Brno (Brünn) 20.7.1686; m.1675 Gfn Marie Františka Terezie Hýzrlová z Chodu (+III.1684), dau.of Ferdinand Arnošt Hýzrle z Chodu and Katharina de Lamboy; 2m: 31.12.1684 Gfn Maria Aloysia Theresia von Waldburg zu Zeil (*ca 1658, +14.8.1717) $$
+lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg und Ottenstein, *Münster 1648, +Brno (Brünn) 20.7.1686; m.1675 Gfn Marie Františka Terezie Hýzrlová z Chodů (+III.1684), dau.of Ferdinand Arnošt Hýzrle z Chodů and Katharina de Lamboy; 2m: 31.12.1684 Gfn Maria Aloysia Theresia von Waldburg zu Zeil (*ca 1658, +14.8.1717); He had issue: $$
 	name="Kaspar Friedrich"
 	dynasty=1004523
-	religion=catholic culture=bavarian
+	religion=catholic culture=german
 	father=100024760	# Johann von Lamberg
 	mother=100094466	# GFN Judith Rebecca von Wrbna u.Freudenthal
 	1648.01.01={birth=yes}  # Münster
-	1675.01.01={add_spouse=100094511}	# Marie Franziska Hýzrle z Chodu
+	1675.01.01={add_spouse=lowborn_1608}	# GFN Marie Františka Hýzrle z Chodů
 	1684.12.31={add_spouse=100011361}	# Maria von Waldburg zu Wolfegg u.Waldsee
-	1686.07.20={death=yes}  # Brünn
+	1686.07.20={death=yes}  # Brno
 }
-	# A1. [1m.] Karl Benedikt, *27.5.1675, +9.12.1721; m.3.5.1702 Gfn Maria Ludovika von Khevenhüller (*14.12.1684, +3.5.1742)
-		# B1. Karl Leopold Anton Joseph, *22.1.1704, +8.7.1739; m.7.1.1729 Lucrezia Maria marquise Turinetti di Pria (+16.1.1779), dau.of Ercole-Giuseppe Turinetti, Marchese di Pria
-			# C1. Maximilian Josef, *22.11.1729, +23.6.1792; m.9.12.1753 Gfn Maria Theresia von Trauttmansdorff (*16.9.1729, +26.5.1755); 2m: 14.6.1763 Frn Maria Johanna von Dachsberg (*18.11.1746, +1832), dau.of Franz Frhr von Dachsberg
-				100092497={ #// D1. [2m.] Karl Eugen, 4.Fst zu Lamberg 15.12.1797, *1.4.1764, +11.5.1831, bur Nezamyslice; m.Schloss Wallerstein 19.9.1802 Pss Friederike Sophie zu Oettingen-Oettingen (*3.3.1776, +17.7.1831)
-					name="Karl Eugen von Lamberg"
-					#dynasty=0
-					religion=catholic culture=bavarian
-					1777.01.01={birth=yes}
+	lamberg_0002={ #// A1. [1m.] Karl Benedikt, *27.5.1675, +9.12.1721; m.3.5.1702 Gfn Maria Ludovika von Khevenhüller (*14.12.1684, +3.5.1742) $$
+		name="Karl Benedikt"
+		dynasty=1004523
+		religion=catholic culture=german
+		father=lamberg_0001	# Kaspar Friedrich von Lamberg
+		mother=lowborn_1608	# GFN Marie Františka Hýzrle z Chodů
+		1675.05.27={birth=yes}
+		1702.05.03={add_spouse=100126095}	# Maria Ludovika von Khevenhüller-Metsch
+		1721.12.09={death=yes}
+	}
+		lamberg_0003={ #// B1. Karl Leopold Anton Joseph, *22.1.1704, +8.7.1739; m.7.1.1729 Lucrezia Maria marquise Turinetti di Pria (+16.1.1779), dau.of Ercole-Giuseppe Turinetti, Marchese di Pria
+			name=Karl
+			dynasty=1004523
+			religion=catholic culture=german
+			father=lamberg_0002	# Karl Benedikt von Lamberg
+			mother=100126095	# Maria Ludovika von Khevenhüller-Metsch
+			1704.01.22={birth=yes}
+			1729.01.07={add_spouse=lowborn_2647}	# MARQUISE Lucrezia Turinetti di Pria
+			1739.07.08={death=yes}
+		}
+			lamberg_0004={ #// C1. Maximilian Josef, *22.11.1729, +23.6.1792; m.9.12.1753 Gfn Maria Theresia von Trauttmansdorff (*16.9.1729, +26.5.1755); 2m: 14.6.1763 Frn Maria Johanna von Dachsberg (*18.11.1746, +1832), dau.of Franz Frhr von Dachsberg
+				name="Maximilian Josef"
+				dynasty=1004523
+				religion=catholic culture=german
+				father=lamberg_0003	# Karl von Lamberg
+				mother=lowborn_2647	# MARQUISE Lucrezia Turinetti di Pria
+				1729.11.22={birth=yes}
+				1753.12.09={add_spouse=lowborn_2648}	# GFN Maria Theresia von Trauttmansdorff
+				1763.06.14={add_spouse=lowborn_2654}	# FRN Maria Johanna von Dachsberg
+				1792.06.23={death=yes}
+			}
+				lamberg_0005={ #// D1. [2m.] Karl Eugen, 4.Fst zu Lamberg 15.12.1797, *1.4.1764, +11.5.1831, bur Nezamyslice; m.Schloss Wallerstein 19.9.1802 Pss Friederike Sophie zu Oettingen-Oettingen (*3.3.1776, +17.7.1831) $$
+					name="Karl Eugen"
+					dynasty=1004523
+					religion=catholic culture=german
+					father=lamberg_0004	# Maximilian Josef von Lamberg
+					mother=lowborn_2654	# FRN Maria Johanna von Dachsberg
+					1764.04.01={birth=yes}
 					1802.09.19={add_spouse=100003076}	# Friederike Sophie zu Oettingen-Wallerstein
 					1831.05.11={death=yes}
 				}
-					# E6. Gustav Joachim, Fst zu Lamberg, *21.12.1812, +München 3.2.1862, bur Nezamyslice; m.Strašín 10.1.1855 (morganatically) Katerina Hrádková (*Cejkovy 8.12.1824, +Kitzbühel 10.12.1889, bur Nezamyslice); 9 children born before parents marriage
-						# F8. Hugo Anton Emil, *Žichovice 27.2.1853, +Kitzbühel 11.10.1913; m.Wien 30.10.1883 Giuletta Cssa Brunetti (*Bologna 18.3.1857, +Kitzbühel 18.4.1941)	
-							100099272={ #// G2. Paula, *Schloss Lebenberg bei Kitzbühel 21.9.1887, +accident Berchtesgaden 4.9.1927; m.Praha 9.5.1927 Gf Franz Valentin Schlik (*12.4.1882 +8.12.1963)
-								name="Paula von Lamberg"
+					lamberg_0006={ #// E1. Wilhelmine Friederike Karolina, *Steyr 29.6.1803, +Wien 1.6.1829, bur Nezamyslice; m.8.1.1828 Felix Gf Montecuccoli-Laderchi (*Mitterau 2.10.1799, +Wien 2.1.1846)
+						name=Wilhelmine
+						female=yes
+						dynasty=1004523
+						religion=catholic culture=german
+						father=lamberg_0005	# Karl Eugen von Lamberg
+						mother=100003076	# Friederike Sophie zu Oettingen-Wallerstein
+						1803.06.29={birth=yes}  # Steyr
+						1829.06.01={death=yes}  # Wien
+					}
+					lamberg_0011={ #// E6. Gustav Joachim, Fst zu Lamberg, *21.12.1812, +München 3.2.1862, bur Nezamyslice; m.Strašín 10.1.1855 (morganatically) Kateřina Hrádková (*Čejkovy 8.12.1824, +Kitzbühel 10.12.1889, bur Nezamyslice); 9 children born before parents marriage
+						name="Gustav Joachim"
+						dynasty=1004523
+						religion=catholic culture=german
+						father=lamberg_0005	# Karl Eugen von Lamberg
+						mother=100003076	# Friederike Sophie zu Oettingen-Wallerstein
+						1812.12.21={birth=yes}
+						1855.01.10={add_spouse=lowborn_2693}	# Kateřina Hrádková
+						1862.02.03={death=yes}  # München
+					}
+						lamberg_0012={ #// F1. Gustav Wilhelm Ernst, *13.9.1841, +Wien 28.1.1886, bur Nezamyslice
+							name=Gustav
+							dynasty=1004523
+							religion=catholic culture=german
+							father=lamberg_0011	# Gustav Joachim von Lamberg
+							mother=lowborn_2693	# Kateřina Hrádková
+							1841.09.13={birth=yes}
+							1886.01.28={death=yes}  # Wien
+						}
+						lamberg_0013={ #// F2. Friedrich Karl Emil, *Žihobce 25.9.1843, +Kitzbühel 4.3.1883, bur Nezamyslice
+							name=Friedrich
+							dynasty=1004523
+							religion=catholic culture=german
+							father=lamberg_0011	# Gustav Joachim von Lamberg
+							mother=lowborn_2693	# Kateřina Hrádková
+							1843.09.25={birth=yes}  # Žihobce
+							1883.03.04={death=yes}  # Kitzbühel
+						}
+						lamberg_0014={ #// F3. Karl Wenzel Emil, disentitled, *Žihobce 24.2.1845, +1906
+							name=Karl
+							dynasty=1004523
+							religion=catholic culture=german
+							father=lamberg_0011	# Gustav Joachim von Lamberg
+							mother=lowborn_2693	# Kateřina Hrádková
+							1845.02.24={birth=yes}  # Žihobce
+							1906.01.01={death=yes}
+						}
+						lamberg_0015={ #// F4. Emilia Franziska Friederike, *Žihobce 14.7.1846, +Berlin 4.11.1862, bur Nezamyslice
+							name=Emilia
+							female=yes
+							dynasty=1004523
+							religion=catholic culture=german
+							father=lamberg_0011	# Gustav Joachim von Lamberg
+							mother=lowborn_2693	# Kateřina Hrádková
+							1846.07.14={birth=yes}  # Žihobce
+							1862.11.04={death=yes}  # Berlin
+						}
+						lamberg_0018={ #// F7. Eduard Gustav Emil, *Žihobce 22.9.1850, +Steyr 12.3.1899; m.20.9.1883 Maria Anna Eleonore Gnisse von Tolnau (*8.5.1855, +1.12.1914)
+							name=Eduard
+							dynasty=1004523
+							religion=catholic culture=german
+							father=lamberg_0011	# Gustav Joachim von Lamberg
+							mother=lowborn_2693	# Kateřina Hrádková
+							1850.09.22={birth=yes}  # Žihobce
+							1883.09.20={add_spouse=lowborn_2694}	# Maria Anna Gnisse von Tolnau
+							1899.03.12={death=yes}  # Steyr
+						}
+							lamberg_0019={ #// G1. Štěpán Emil, *Sedlčany 26.12.1885, +Pardubice 20.7.1937; m.27.1.1910 Eleonora Hammerbauerová (*13.5.1884, +Benátky nad Jizerou 17.10.1911); 2m: 15.12.1912 Marie Dražujová (*Sedlčany 31.12.1884, +Pardubice 1944)
+								name="Štěpán Emil"
+								dynasty=1004523
+								religion=catholic culture=german
+								father=lamberg_0018	# Eduard von Lamberg
+								mother=lowborn_2694	# Maria Anna Gnisse von Tolnau
+								1885.12.26={birth=yes}  # Sedlčany
+								1910.01.27={add_spouse=lowborn_2695}	# Eleonora Hammerbauerová
+								1912.12.15={add_spouse=lowborn_2696}	# Marie Dražujová
+								1937.07.20={death=yes}  # Pardubice
+							}
+								lamberg_0020={ #// H1. Karel Štěpán "starší", *Benátky nad Jizerou 15.10.1911, +Pardubice 16.3.1980; m.Hostivice 2.10.1937 (div 1942) Erna Halbichová (*24.6.1918); 2m: Pardubice 30.3.1946 Anna Průšková (*Pardubice 28.2.1915)
+									name="Karel Štěpán"
+									dynasty=1004523
+									religion=catholic culture=german
+									father=lamberg_0019	# Štěpán Emil von Lamberg
+									mother=lowborn_2695	# Eleonora Hammerbauerová
+									1911.10.15={birth=yes}  # Benátky nad Jizerou
+									1937.10.02={add_spouse=lowborn_2697}	# Erna Halbichová
+									1980.03.16={death=yes}  # Pardubice
+								}
+									lamberg_0021={ #// I1. Karel Štěpán "mladší", *Pardubice 2.4.1940; 1m: Praha 10.3.1962 (div 1982) Jana Ďoubalová (*Praha 7.3.1941); 2m: Praha 5.4.1985 Irena Kuželková (*Praha 16.7.1952)
+										name="Karel Štěpán"
+										dynasty=1004523
+										religion=catholic culture=german
+										father=lamberg_0020	# Karel Štěpán von Lamberg
+										mother=lowborn_2697	# Erna Halbichová
+										1940.04.02={birth=yes}  # Pardubice
+										1962.03.10={add_spouse=lowborn_2699}	# Jana Ďoubalová
+									}
+										lamberg_0024={ #// J3. Iveta, *Praha 3.4.1967; 1m: Martin Vlček; 2m: Petr Rybář
+											name=Iveta
+											female=yes
+											dynasty=1004523
+											religion=catholic culture=czech
+											father=lamberg_0021	# Karel Štěpán von Lamberg
+											mother=lowborn_2699	# Jana Ďoubalová
+											1967.04.03={birth=yes}  # Praha
+										}
+										lamberg_0025={ #// J4. Petr, *Praha 17.2.1969; m.Lenka Kožušniková
+											name=Petr
+											dynasty=1004523
+											religion=catholic culture=czech
+											father=lamberg_0021	# Karel Štěpán von Lamberg
+											mother=lowborn_2699	# Jana Ďoubalová
+											1969.02.17={birth=yes}  # Praha
+											1994.01.01={add_spouse=lowborn_2703}	# Lenka Kožušniková
+										}
+											lamberg_0026={ #// K1. Kateřina, *5.3.1995
+												name=Kateřina
+												female=yes
+												dynasty=1004523
+												religion=catholic culture=german
+												father=lamberg_0025	# Petr von Lamberg
+												mother=lowborn_2703	# Lenka Kožušniková
+												1995.03.05={birth=yes}
+											}
+											lamberg_0027={ #// K2. Terezie, *1998
+												name=Terezie
+												female=yes
+												dynasty=1004523
+												religion=catholic culture=german
+												father=lamberg_0025	# Petr von Lamberg
+												mother=lowborn_2703	# Lenka Kožušniková
+												1998.01.01={birth=yes}
+											}
+								lamberg_0028={ #// H2. Bohumil, +Praha 21.11.1966
+									name=Bohumil
+									dynasty=1004523
+									religion=catholic culture=german
+									father=lamberg_0019	# Štěpán Emil von Lamberg
+									mother=lowborn_2695	# Eleonora Hammerbauerová
+									1912.01.01={birth=yes}  # EST.
+									1966.11.21={death=yes}  # Praha
+								}
+							lamberg_0029={ #// G2. Štěpánka, *Praha 13.5.1894, +Praha 1966; m.1960 František Štojdl
+								name=Štěpánka
 								female=yes
-								#dynasty=0
-								religion=catholic culture=bavarian
-								1887.11.21={birth=yes}
+								dynasty=1004523
+								religion=catholic culture=czech
+								father=lamberg_0018	# Eduard von Lamberg
+								mother=lowborn_2694	# Maria Anna Gnisse von Tolnau
+								1894.05.13={birth=yes}  # Praha
+								1966.01.01={death=yes}  # Praha
+							}
+							lamberg_0030={ #// G3. Marie, *Praha 1896, +Praha 1931
+								name=Marie
+								female=yes
+								dynasty=1004523
+								religion=catholic culture=czech
+								father=lamberg_0018	# Eduard von Lamberg
+								mother=lowborn_2694	# Maria Anna Gnisse von Tolnau
+								1896.01.01={birth=yes}  # Praha
+								1931.01.01={death=yes}  # Praha
+							}
+						lamberg_0031={ #// F8. Hugo Anton Emil, *Žichovice 27.2.1853, +Kitzbühel 11.10.1913; m.Wien 30.10.1883 Giuletta Cssa Brunetti (*Bologna 18.3.1857, +Kitzbühel 18.4.1941)
+							name=Hugo
+							dynasty=1004523
+							religion=catholic culture=german
+							father=lamberg_0011	# Gustav Joachim von Lamberg
+							mother=lowborn_2693	# Kateřina Hrádková
+							1853.02.27={birth=yes}  # Žichovice
+							1883.10.30={add_spouse=lowborn_2705}	# CSSA Giuletta Brunetti
+							1913.10.11={death=yes}  # Kitzbühel
+						}
+							lamberg_0032={ #// G1. Maximilian Cajetan, *Lebenberg 19.11.1885, +Kitzbühel 13.6.1930; 1m: Linz 12.11.1911 Martha von Eynatten (*Linz 3.1.1892, +Kaps 11.4.1956); 2m: Annina Bayer (*ca 1895)
+								name=Maximilian
+								dynasty=1004523
+								religion=catholic culture=german
+								father=lamberg_0031	# Hugo von Lamberg
+								mother=lowborn_2705	# CSSA Giuletta Brunetti
+								1885.11.19={birth=yes}  # Lebenberg
+								1911.11.12={add_spouse=lowborn_2706}	# Martha von Eynatten
+								1957.04.11={add_spouse=lowborn_2707}	# Annina Bayer
+								1930.06.13={death=yes}  # Kitzbühel
+							}
+								lamberg_0033={ #// H1. Carl Hugo, *Linz 22.10.1911, +Kitzbühel 31.7.1977; m.Völkermarkt 21.3.1942 Frn Maria von Gudenus (*25.2.1921)
+									name="Carl Hugo"
+									dynasty=1004523
+									religion=catholic culture=bavarian
+									father=lamberg_0032	# Maximilian von Lamberg
+									mother=lowborn_2706	# Martha von Eynatten
+									1911.10.22={birth=yes}  # Linz
+									1942.03.21={add_spouse=lowborn_2708}	# FRN Maria von Gudenus
+									1977.07.31={death=yes}  # Kitzbühel
+								}
+									lamberg_0034={ #// I1. Henriette Maria, *Kleinfurt 26.9.1942; m.Wien 6.4.1969 Seyed Mahdi Mahdavian (*Meshed, Iran 21.3.1941)
+										name=Henriette
+										female=yes
+										dynasty=1004523
+										religion=catholic culture=german
+										father=lamberg_0033	# Carl Hugo von Lamberg
+										mother=lowborn_2708	# FRN Maria von Gudenus
+										1942.09.26={birth=yes}  # Kleinfurt
+										2017.01.01={death=yes}  # EST.
+									}
+									lamberg_0035={ #// I2. Maximilian Carl, *Kitzbühel 19.6.1945; m.Las Vegas 29.1.1982 Gfn Astrid Sophie Deym von Stritetz (*München 17.8.1952)
+										name="Maximilian Carl"
+										dynasty=1004523
+										religion=catholic culture=german
+										father=lamberg_0033	# Carl Hugo von Lamberg
+										mother=lowborn_2708	# FRN Maria von Gudenus
+										1945.06.19={birth=yes}  # Kitzbühel
+										1982.01.29={add_spouse=lowborn_2710}	# GFN Astrid Sophie Deym von Stritetz
+										2015.01.01={death=yes}  # EST.
+									}
+										lamberg_0036={ #// J1. Claire Maria Stephanie Franziska, *München 25.6.1983
+											name=Claire
+											female=yes
+											dynasty=1004523
+											religion=catholic culture=german
+											father=lamberg_0035	# Maximilian Carl von Lamberg
+											mother=lowborn_2710	# GFN Astrid Sophie Deym von Stritetz
+											1983.06.25={birth=yes}  # München
+										}
+										lamberg_0037={ #// J2. Camilla Isabella Carla Huberta Maria, *München 10.8.1989
+											name=Camilla
+											female=yes
+											dynasty=1004523
+											religion=catholic culture=german
+											father=lamberg_0035	# Maximilian Carl von Lamberg
+											mother=lowborn_2710	# GFN Astrid Sophie Deym von Stritetz
+											1989.08.10={birth=yes}  # München
+										}
+									lamberg_0038={ #// I3. Dorothea Elisabeth, *Kitzbühel 8.6.1947, +Wien 9.10.1983; 1m: Kitzbühel 30.6.1956 (div 1968) Christian Frhr von Blumencron (*Wien 16.4.1940); 2m: Altmünster am Traunsee V.1977 (div 1983) David Cameron-Palastanga (*London 21.1.1933); 3m: Las Vegas 6.10.1983 Reinhard Martin (*1947)
+										name="Dorothea Elisabeth"
+										female=yes
+										dynasty=1004523
+										religion=catholic culture=german
+										father=lamberg_0033	# Carl Hugo von Lamberg
+										mother=lowborn_2708	# FRN Maria von Gudenus
+										1947.06.08={birth=yes}  # Kitzbühel
+										1983.10.09={death=yes}  # Wien
+									}
+									lamberg_0039={ #// I4. Maria Martha, *Kitzbühel 11.4.1952; m.Kitzbühel 7.12.1974 (div 1981) Andreas Maleta (*Wien 1.4.1951)
+										name="Maria Martha"
+										female=yes
+										dynasty=1004523
+										religion=catholic culture=german
+										father=lamberg_0033	# Carl Hugo von Lamberg
+										mother=lowborn_2708	# FRN Maria von Gudenus
+										1952.04.11={birth=yes}  # Kitzbühel
+									}
+									lamberg_0040={ #// I5. Johannes Maximilian, *Kitzbühel 20.7.1959
+										name="Johannes Maximilian"
+										dynasty=1004523
+										religion=catholic culture=german
+										father=lamberg_0033	# Carl Hugo von Lamberg
+										mother=lowborn_2708	# FRN Maria von Gudenus
+										1959.07.20={birth=yes}  # Kitzbühel
+									}
+								lamberg_0041={ #// H2. Gabriele Maria, *Linz 18.9.1913; m.Kaps 24.4.1950 Richard Gournay-Ferrier (*Hembsy, England 4.11.1897, +Pörtschach am Wörthersee 31.7.1984)
+									name=Gabriele
+									female=yes
+									dynasty=1004523
+									religion=catholic culture=bavarian
+									father=lamberg_0032	# Maximilian von Lamberg
+									mother=lowborn_2706	# Martha von Eynatten
+									1913.09.18={birth=yes}  # Linz
+									1988.01.01={death=yes}  # EST.
+								}
+								lamberg_0042={ #// H3. Isabella Maria, *Linz 7.12.1917; m.Salzburg 24.4.1950 Bato Ivesic (*Banja Luka 13.7.1921, +Melbourne, Australia 27.5.1988)
+									name=Isabella
+									female=yes
+									dynasty=1004523
+									religion=catholic culture=bavarian
+									father=lamberg_0032	# Maximilian von Lamberg
+									mother=lowborn_2706	# Martha von Eynatten
+									1917.12.07={birth=yes}  # Linz
+									1992.01.01={death=yes}  # EST.
+								}
+							lamberg_0043={ #// G2. Paula, *Schloss Lebenberg bei Kitzbühel 21.9.1887, +accident Berchtesgaden 4.9.1927; m.Praha 9.5.1927 Gf Franz Valentin Schlik (*12.4.1882 +8.12.1963) $$
+								name=Paula
+								female=yes
+								dynasty=1004523
+								religion=catholic culture=german
+								father=lamberg_0031	# Hugo von Lamberg
+								mother=lowborn_2705	# CSSA Giuletta Brunetti
+								1887.09.21={birth=yes}
 								1927.09.04={death=yes}
 							}
+						lamberg_0044={ #// F9. Robert Gustav, *25.10.1854, +5.2.1855, bur Nezamyslice
+							name="Robert Gustav"
+							dynasty=1004523
+							religion=catholic culture=german
+							father=lamberg_0011	# Gustav Joachim von Lamberg
+							mother=lowborn_2693	# Kateřina Hrádková
+							1854.10.25={birth=yes}
+							1855.02.05={death=yes}
+						}
+						lamberg_0045={ #// F10. Joseph Friedrich Emil, *Steyr 26.5.1856, +Steyr 3.4.1904; m.Dorf an der Enns 12.7.1880 Anna von Werndl (*Steyr 23.12.1861, +Dorf an der Enns 2.11.1943)
+							name=Joseph
+							dynasty=1004523
+							religion=catholic culture=german
+							father=lamberg_0011	# Gustav Joachim von Lamberg
+							mother=lowborn_2693	# Kateřina Hrádková
+							1856.05.26={birth=yes}  # Steyr
+							1880.07.12={add_spouse=lowborn_2718}	# Anna von Werndl
+							1904.04.03={death=yes}  # Steyr
+						}
+							lamberg_0046={ #// G1. Anna Katharina, *Trautenfels 22.4.1882, +Irding 8.9.1958; m.Kammerhub 6.5.1902 Augusto Frhr von Mersi (*Villazzano 29.6.1875, +Gross-Sölk 6.11.1916)
+								name="Anna Katharina"
+								female=yes
+								dynasty=1004523
+								religion=catholic culture=german
+								father=lamberg_0045	# Joseph von Lamberg
+								mother=lowborn_2718	# Anna von Werndl
+								1882.04.22={birth=yes}  # Trautenfels
+								1958.09.08={death=yes}  # Irding
+							}
+							lamberg_0047={ #// G2. Josef Maximilian Gustav Balthasar von Lamberg-Kunstadt, Frhr von Ortenegg und Ottenstein, *Trautenfels 6.1.1884, +Rottenmann 5.11.1950; m.Haidershofen 28.5.1914 Frn Katharina von Imhof (*Dorf an der Enns 18.12.1887, +Dorf an der Enns 9.1.1970)
+								name=Josef
+								dynasty=1004523
+								religion=catholic culture=german
+								father=lamberg_0045	# Joseph von Lamberg
+								mother=lowborn_2718	# Anna von Werndl
+								1884.01.06={birth=yes}  # Trautenfels
+								1914.05.28={add_spouse=lowborn_2720}	# FRN Katharina von Imhof
+								1950.11.05={death=yes}  # Rottenmann
+							}
+								lamberg_0048={ #// H1. Maria Immaculata, *Dorf a.d.Enns 24.8.1915, +10.10.1983
+									name=Maria
+									female=yes
+									dynasty=1004523
+									religion=catholic culture=german
+									father=lamberg_0047	# Josef von Lamberg
+									mother=lowborn_2720	# FRN Katharina von Imhof
+									1915.08.24={birth=yes}
+									1983.10.10={death=yes}
+								}
+								lamberg_0049={ #// H2. Eleonore, *Darf a.d.Enns 1.7.1917; m.Berlin 31.5.1944 Aurelian Gombos (*Wien 25.9.1899, +Wien 4.9.1973)
+									name=Eleonore
+									female=yes
+									dynasty=1004523
+									religion=catholic culture=german
+									father=lamberg_0047	# Josef von Lamberg
+									mother=lowborn_2720	# FRN Katharina von Imhof
+									1917.07.01={birth=yes}
+									1992.01.01={death=yes}  # EST.
+								}
+								lamberg_0050={ #// H3. Elisabeth, *Donnersbach 14.6.1921; m.Linz 31.3.1953 Frhr Richard von Baratta-Dragono (*Budišov 28.11.1901, +Wien 14.12.1998)
+									name=Elisabeth
+									female=yes
+									dynasty=1004523
+									religion=catholic culture=german
+									father=lamberg_0047	# Josef von Lamberg
+									mother=lowborn_2720	# FRN Katharina von Imhof
+									1921.06.14={birth=yes}  # Donnersbach
+									1996.01.01={death=yes}  # EST.
+								}
+							lamberg_0051={ #// G3. Karl Eugen, *16.1.1886, +17.1.1918
+								name="Karl Eugen"
+								dynasty=1004523
+								religion=catholic culture=german
+								father=lamberg_0045	# Joseph von Lamberg
+								mother=lowborn_2718	# Anna von Werndl
+								1886.01.16={birth=yes}
+								1918.01.17={death=yes}
+							}
+							lamberg_0052={ #// G4. Friederike, *Trautenfels 7.4.1888, +Trautenfels 28.8.1963; m.Mauerkirchen 11.2.1920 Peter Stenitzer (*Trautenfels 29.6.1869, +Trautenfels 26.7.1953)
+								name=Friederike
+								female=yes
+								dynasty=1004523
+								religion=catholic culture=german
+								father=lamberg_0045	# Joseph von Lamberg
+								mother=lowborn_2718	# Anna von Werndl
+								1888.04.07={birth=yes}  # Trautenfels
+								1963.08.28={death=yes}  # Trautenfels
+							}
+							lamberg_0053={ #// G5. Christiane, *Trautenfels 22.6.1890/1.4.1899, +Kammerhub 16.9.1957
+								name=Christiane
+								female=yes
+								dynasty=1004523
+								religion=catholic culture=german
+								father=lamberg_0045	# Joseph von Lamberg
+								mother=lowborn_2718	# Anna von Werndl
+								1957.09.16={birth=yes}
+							}
+					lamberg_0055={ #// E8. Emil Anton, *26.3.1816, +5.12.1836, bur Nezamyslice
+						name="Emil Anton"
+						dynasty=1004523
+						religion=catholic culture=german
+						father=lamberg_0005	# Karl Eugen von Lamberg
+						mother=100003076	# Friederike Sophie zu Oettingen-Wallerstein
+						1816.03.26={birth=yes}
+						1836.12.05={death=yes}
+					}
+				lamberg_0056={ #// D2. Maria Josepha, *11.6.1766, +1842; m.19.5.1795 Franz Xaver Frhr von Hofmühlen (+18.5.1802)
+					name="Maria Josepha"
+					female=yes
+					dynasty=1004523
+					religion=catholic culture=german
+					father=lamberg_0004	# Maximilian Josef von Lamberg
+					mother=lowborn_2654	# FRN Maria Johanna von Dachsberg
+					1766.06.11={birth=yes}
+					1842.01.01={death=yes}
+				}
+				lamberg_0057={ #// D3. Maria Walpurga, *2.6.1767, +20.12.1801; m.10.11.1791 Clemens Gf von Nyss zu Landshut (+1812)
+					name=Maria
+					female=yes
+					dynasty=1004523
+					religion=catholic culture=german
+					father=lamberg_0004	# Maximilian Josef von Lamberg
+					mother=lowborn_2654	# FRN Maria Johanna von Dachsberg
+					1767.06.02={birth=yes}
+					1801.12.20={death=yes}
+				}
+			lamberg_0059={ #// C2. Leopold, *10.5.1732, +29.7.1809; 1m: 29.9.1764 Maria Walpurga Gfn della Rovere-Montelabate (*3.2.1737 +26.4.1787), dau.of Leonardo della Rovere Conte di Montebalati; 2m: I.1807 Gfn Maria Johanna (*28.2.1773 +1841), dau.of Johann Maximilian Gf von Wildenstein
+				name=Leopold
+				dynasty=1004523
+				religion=catholic culture=german
+				father=lamberg_0003	# Karl von Lamberg
+				mother=lowborn_2647	# MARQUISE Lucrezia Turinetti di Pria
+				1732.05.10={birth=yes}
+				1764.09.29={add_spouse=lowborn_2726}	# GFN Maria Walpurga della Rovere-Montelabate
+				1807.01.01={add_spouse=lowborn_2727}	# GFN Maria Johanna von Wildenstein
+				1809.07.29={death=yes}
+			}
+				lamberg_0060={ #// D1. [1m.] Heinrich, *15.7.1756, +14.5.1792
+					name=Heinrich
+					dynasty=1004523
+					religion=catholic culture=german
+					father=lamberg_0059	# Leopold von Lamberg
+					mother=lowborn_2726	# GFN Maria Walpurga della Rovere-Montelabate
+					1756.07.15={birth=yes}
+					1792.05.14={death=yes}
+				}
+		lamberg_0062={ #// B2. Johann Joseph, *28.5.1706, +1762; m.16.10.1748 Maria Antonia Gfn von Heissenstein, dau.of Karl Joseph Gf von Heissenstein zu Grafhausen
+			name="Johann Joseph"
+			dynasty=1004523
+			religion=catholic culture=german
+			father=lamberg_0002	# Karl Benedikt von Lamberg
+			mother=100126095	# Maria Ludovika von Khevenhüller-Metsch
+			1706.05.28={birth=yes}
+			1748.10.16={add_spouse=lowborn_2728}	# GFN Maria Antonia von Heissenstein
+			1762.01.01={death=yes}
+		}
+		lamberg_0063={ #// B3. Maria Antonia Theresia, *31.8.1707; m.22.6.1731 Franz Xaver Frhr von Ezdorf (+5.9.1772)
+			name=Maria
+			female=yes
+			dynasty=1004523
+			religion=catholic culture=german
+			father=lamberg_0002	# Karl Benedikt von Lamberg
+			mother=100126095	# Maria Ludovika von Khevenhüller-Metsch
+			1707.08.31={birth=yes}
+			1782.01.01={death=yes}  # EST.
+		}
+	lamberg_0067={ #// A2. [1m.] Anna Aloysia Maximiliane, +Wroclaw 28.6.1738; 1m: ca 1695 (div 1697) Gf Franz Michael Hýzrle z Chodů (*1649 +1709); 2m: ca 1697 Gf Gustav Hanibal von Oppersdorf (+29.12.1744) $$
+		name="Anna Aloysia"
+		female=yes
+		dynasty=1004523
+		religion=catholic culture=german
+		father=lamberg_0001	# Kaspar Friedrich von Lamberg
+		mother=lowborn_1608	# GFN Marie Františka Hýzrle z Chodů
+		1676.01.01={birth=yes}  # EST.
+		1738.06.28={death=yes}  # Wroclaw
+	}
+	lamberg_0068={ #// A3. [2m.] Maria Franziska Isabella, *8.7.1682, +1748; m.Wien 26.5.1702 Franz Anton Ungnad, Gf von Weissenwolff (*1669, +Linz II.1715)
+		name=Maria
+		female=yes
+		dynasty=1004523
+		religion=catholic culture=german
+		father=lamberg_0001	# Kaspar Friedrich von Lamberg
+		mother=lowborn_1608	# GFN Marie Františka Hýzrle z Chodů
+		1682.07.08={birth=yes}
+		1748.01.01={death=yes}
+	}
 #lamberg7 > 2
 
 #lamberg8 > 2
@@ -7394,7 +7888,7 @@
 100024698={ #// Siegmund Georg von Dietrichstein, *20.9.1526, +25.7.1593; m.6.5.1554 Anna von Starhemberg (*26.4.1537, +26.4.1597); They had issue: $$
 	name="Siegmund Georg"
 	dynasty=1004019
-	religion=catholic culture=italian
+	religion=catholic culture=german
 	1526.09.20={birth=yes}
 	1554.05.06={add_spouse=100024826}	# Anna von Starhemberg
 	1593.07.25={death=yes}
@@ -7403,7 +7897,7 @@
 		name=Anna
 		female=yes
 		dynasty=1004019
-		religion=catholic culture=italian
+		religion=catholic culture=german
 		father=100024698	# Siegmund Georg von Dietrichstein
 		mother=100024826	# Anna von Starhemberg
 		1557.12.07={birth=yes}
@@ -7412,7 +7906,7 @@
 	100026155={ #// A5. Georg Victor, *13.9.1560, +16.11.1597; m.11.1.1587 Maria von Welz-Eberstein
 		name="Georg Victor"
 		dynasty=1004019
-		religion=catholic culture=italian
+		religion=catholic culture=german
 		father=100024698	# Siegmund Georg von Dietrichstein
 		mother=100024826	# Anna von Starhemberg
 		1560.09.13={birth=yes}
@@ -7423,7 +7917,7 @@
 			name=Regina
 			female=yes
 			dynasty=1004019
-			religion=catholic culture=italian
+			religion=catholic culture=german
 			father=100026155	# Georg Victor von Dietrichstein
 			mother=100092253	# Maria von Welz-Eberstein
 			1595.01.01={birth=yes}
@@ -7432,7 +7926,7 @@
 		100026157={ #// B7. Georg Heinrich, *1596, +after 1630; m.Susanna von Braunfalk
 			name="Georg Heinrich"
 			dynasty=1004019
-			religion=catholic culture=italian
+			religion=catholic culture=german
 			father=100026155	# Georg Victor von Dietrichstein
 			mother=100092253	# Maria von Welz-Eberstein
 			1596.01.01={birth=yes}
@@ -7442,7 +7936,7 @@
 				name="Anna Justina"
 				female=yes
 				dynasty=1004019
-				religion=catholic culture=italian
+				religion=catholic culture=german
 				father=100026157	# Georg Heinrich von Dietrichstein
 				1629.01.01={birth=yes}
 				1662.04.28={death=yes}
@@ -7451,7 +7945,7 @@
 		name=Regina
 		female=yes
 		dynasty=1004019
-		religion=catholic culture=italian
+		religion=catholic culture=german
 		father=100024698	# Siegmund Georg von Dietrichstein
 		mother=100024826	# Anna von Starhemberg
 		1567.09.18={birth=yes}
@@ -7460,7 +7954,7 @@
 	100026156={ #// A17. Johann Heinrich, *5.8.1573, +1602; m.30.8.1598 Maria von Dietrichstein
 		name="Johann Heinrich"
 		dynasty=1004019
-		religion=catholic culture=italian
+		religion=catholic culture=german
 		father=100024698	# Siegmund Georg von Dietrichstein
 		mother=100024826	# Anna von Starhemberg
 		1573.08.05={birth=yes}
@@ -7471,7 +7965,7 @@
 		name="Maria Salome"
 		female=yes
 		dynasty=1004019
-		religion=catholic culture=italian
+		religion=catholic culture=german
 		father=100024698	# Siegmund Georg von Dietrichstein
 		mother=100024826	# Anna von Starhemberg
 		1577.01.16={birth=yes}
@@ -7480,7 +7974,7 @@
 	100026158={ #// A20. Bartholomäus Frhr von Dietrichstein zu Hollenburg, *7.4.1579, +Hanau 1.III.1635; m.1601 Elisabeth Frn Joel von Franking, Heiress of Riedau (+1635)
 		name=Bartholomäus
 		dynasty=1004019
-		religion=catholic culture=italian
+		religion=catholic culture=german
 		father=100024698	# Siegmund Georg von Dietrichstein
 		mother=100024826	# Anna von Starhemberg
 		1579.04.07={birth=yes}
@@ -7491,7 +7985,7 @@
 			name="Anna Sabina"
 			female=yes
 			dynasty=1004019
-			religion=catholic culture=italian
+			religion=catholic culture=german
 			father=100026158	# Bartholomäus von Dietrichstein
 			mother=100093443	# FRN Elisabeth Joel von Franking
 			1605.01.26={birth=yes}
@@ -7501,7 +7995,7 @@
 			name="Maria Elisabeth"
 			female=yes
 			dynasty=1004019
-			religion=catholic culture=italian
+			religion=catholic culture=german
 			father=100026158	# Bartholomäus von Dietrichstein
 			mother=100093443	# FRN Elisabeth Joel von Franking
 			1607.06.25={birth=yes}
@@ -7510,7 +8004,7 @@
 		100026162={ #// B8. Christian, Gf von Dietrichstein zu Hollenburg und Finckenstein, *29.1.1610, +Nürnberg 31.8./10.9.1681; m.Nürnberg 13.7.1636 Maria Elisabeth Khevenhüller, Frn von Aichelberg (*1608, +Nürnberg 13.3.1676) $$
 			name=Christian
 			dynasty=1004019
-			religion=catholic culture=italian
+			religion=catholic culture=german
 			father=100026158	# Bartholomäus von Dietrichstein
 			mother=100093443	# FRN Elisabeth Joel von Franking
 			1610.01.29={birth=yes}
@@ -7531,7 +8025,7 @@
 				name="Susanna Elisabeth"
 				female=yes
 				dynasty=1004019
-				religion=catholic culture=italian
+				religion=catholic culture=german
 				father=100026162	# Christian von Dietrichstein
 				mother=100026207	# Maria Elisabeth von Khevenhüller-Metsch
 				1641.11.21={birth=yes}
@@ -7540,7 +8034,7 @@
 		100026185={ #// B9. Otto Heinrich, *28.2.1611, +1665; m.Eva Praxedis von Puchheim
 			name="Otto Heinrich"
 			dynasty=1004019
-			religion=catholic culture=italian
+			religion=catholic culture=german
 			father=100026158	# Bartholomäus von Dietrichstein
 			mother=100093443	# FRN Elisabeth Joel von Franking
 			1611.02.28={birth=yes}
@@ -7550,7 +8044,7 @@
 			100026166={ #// C2. Otto Ferdinand, *1636, +1676; m.Anna Maria Hyacintha von Bröckhoven
 				name="Otto Ferdinand"
 				dynasty=1004019
-				religion=catholic culture=italian
+				religion=catholic culture=german
 				father=100026185	# Otto Heinrich von Dietrichstein
 				mother=100098867	# Eva Praxedis von Puchheim
 				1636.01.01={birth=yes}
@@ -7560,7 +8054,7 @@
 				100026171={ #// D3. Gundacar Ferdinand, -cr Graf 1693, *1678, +29.12.1744; m.2.1.1703 Maria Beata Regina Gfn von Orsini und Rosenberg (*13.11.1686, +6.3.1755) $$
 					name="Gundacar Ferdinand"
 					dynasty=1004019
-					religion=catholic culture=italian
+					religion=catholic culture=german
 					father=100026166	# Otto Ferdinand von Dietrichstein
 					mother=100100434	# Anna von Bröckhoven
 					1678.01.01={birth=yes}
@@ -7570,7 +8064,7 @@
 					100026168={ #// E1. Leopold Maria Gundacar Joseph, *8.1.1706, +11.3.1780; m.12.5.1728 Maria Theresia Althann (*19.10.1711, +9.2.1759) $$
 						name=Leopold
 						dynasty=1004019
-						religion=catholic culture=italian
+						religion=catholic culture=german
 						father=100026171	# Gundacar Ferdinand von Dietrichstein
 						mother=100024412	# Maria Beata von Orsini u.Rosenberg
 						1706.01.08={birth=yes}
@@ -7580,7 +8074,7 @@
 						100026173={ #// F1. Karl Gundacar Joseph, *30.4.1729, +27.9.1764; m.31.7.1758 Marianna von Sallaburg (*25.9.1734, +30.7.1793)
 							name=Karl
 							dynasty=1004019
-							religion=catholic culture=italian
+							religion=catholic culture=german
 							father=100026168	# Leopold von Dietrichstein
 							mother=100022294	# Maria Theresia von Althann
 							1729.04.30={birth=yes}
@@ -7590,7 +8084,7 @@
 							100026170={ #// G3. Joseph Carl Ferdinand, *19.10.1763, +17.9.1825; 1m: 7.7.1783 Maria Theresia Gfn von Sinzendorf (*ca 20.12.1768, +22.6.1785); 2m: 19.11.1787 Maria Elisabeth von Waldstein-Wartenberg (*27.9.1764, +14.10.1826) $$
 								name="Joseph Carl"
 								dynasty=1004019
-								religion=catholic culture=italian
+								religion=catholic culture=german
 								father=100026173	# Karl von Dietrichstein
 								mother=100103010	# Marianna von Sallaburg
 								1763.10.19={birth=yes}
@@ -7602,7 +8096,7 @@
 									name="Maria Anna"
 									female=yes
 									dynasty=1004019
-									religion=catholic culture=italian
+									religion=catholic culture=german
 									father=100026170	# Joseph Carl von Dietrichstein
 									mother=100047395	# Maria Elisabeth z Valdštejna
 									1788.08.27={birth=yes}
@@ -7612,7 +8106,7 @@
 							name="Maria Anna"
 							female=yes
 							dynasty=1004019
-							religion=catholic culture=italian
+							religion=catholic culture=german
 							father=100026168	# Leopold von Dietrichstein
 							mother=100022294	# Maria Theresia von Althann
 							1730.11.03={birth=yes}
@@ -11479,7 +11973,7 @@
 						name=Elisabeth
 						female=yes
 						dynasty=1002211
-						religion=catholic culture=italian
+						religion=catholic culture=german
 						father=100024295	# Gordian Franz von Gudenus
 						mother=100092562	# FRN Maria Anna von Elverfeldt-Ulm zu Erbach
 						1990.06.09={birth=yes}  # Florence
@@ -11514,7 +12008,7 @@
 					name=Anna
 					female=yes
 					dynasty=1002211
-					religion=catholic culture=italian
+					religion=catholic culture=german
 					father=100024293	# Gordian von Gudenus
 					mother=100020458	# Anna von Meran
 					1957.03.28={birth=yes}  # Rome
@@ -14453,7 +14947,7 @@
 		100023427={ #// 7b) Johann Karl (Florence 8 Sep 1775-Graz 7 Jun 1843); m.Graz 3 Feb 1803 Maria Karoline Gfn Katzianer v.Katzenstein (Windisch-Grätz 6 Apr 1775-Graz 8 Nov 1864)
 			name="Johann Karl"
 			dynasty=1004528
-			religion=catholic culture=italian
+			religion=catholic culture=german
 			father=100023412	# Johann von Goëss
 			mother=100085086	# GFN Maria Anna Christalnigg v.u.zu Gilitzstein
 			1775.09.08={birth=yes}  # Florence
@@ -16835,7 +17329,7 @@
 				father=100023239	# Stanislaus von Hoyos
 				mother=100036826	# Aloisia Sedlnitzky-Odrowaz v.Choltitz
 				1878.04.10={birth=yes}  # Lauterbach
-				1910.06.21={add_spouse=100036978}	# Maria Karoline von Oppersdorff
+				1910.06.21={add_spouse=oppersdorf_0144}	# Maria von Oppersdorff
 				1939.10.25={death=yes}  # Liebichau
 			}
 				100023313={ #// D1. Johann Ernst, *Liebichau 12.3.1911, +Liebichau 19.3.1939
@@ -16843,7 +17337,7 @@
 					dynasty=1004525
 					religion=catholic culture=bavarian
 					father=100023311	# Felix Dionys von Hoyos
-					mother=100036978	# Maria Karoline von Oppersdorff
+					mother=oppersdorf_0144	# Maria von Oppersdorff
 					1911.03.12={birth=yes}  # Liebichau
 					1939.03.19={death=yes}  # Liebichau
 				}
@@ -16853,7 +17347,7 @@
 					dynasty=1004525
 					religion=catholic culture=bavarian
 					father=100023311	# Felix Dionys von Hoyos
-					mother=100036978	# Maria Karoline von Oppersdorff
+					mother=oppersdorf_0144	# Maria von Oppersdorff
 					1912.04.07={birth=yes}  # Liebichau
 					1987.01.01={death=yes}
 				}
@@ -16862,7 +17356,7 @@
 					dynasty=1004525
 					religion=catholic culture=bavarian
 					father=100023311	# Felix Dionys von Hoyos
-					mother=100036978	# Maria Karoline von Oppersdorff
+					mother=oppersdorf_0144	# Maria von Oppersdorff
 					1913.07.02={birth=yes}  # Liebichau
 					1941.12.23={death=yes}  # Lazarett Eisleben
 				}
@@ -16871,7 +17365,7 @@
 					dynasty=1004525
 					religion=catholic culture=bavarian
 					father=100023311	# Felix Dionys von Hoyos
-					mother=100036978	# Maria Karoline von Oppersdorff
+					mother=oppersdorf_0144	# Maria von Oppersdorff
 					1918.11.02={birth=yes}  # Liebichau
 					1943.07.25={death=yes}  # Kharkov Russia
 				}
@@ -16880,7 +17374,7 @@
 					dynasty=1004525
 					religion=catholic culture=bavarian
 					father=100023311	# Felix Dionys von Hoyos
-					mother=100036978	# Maria Karoline von Oppersdorff
+					mother=oppersdorf_0144	# Maria von Oppersdorff
 					1920.08.18={birth=yes}  # Liebichau
 					1950.09.30={add_spouse=100097473}	# FRN Elisabeth Wambolt v.Umstadt
 					1996.01.01={death=yes}  # EST.
@@ -16933,7 +17427,7 @@
 					dynasty=1004525
 					religion=catholic culture=bavarian
 					father=100023311	# Felix Dionys von Hoyos
-					mother=100036978	# Maria Karoline von Oppersdorff
+					mother=oppersdorf_0144	# Maria von Oppersdorff
 					1923.05.13={birth=yes}  # Liebichau
 					1961.03.30={add_spouse=100097475}	# Ulrike von Bernuth
 					1999.01.01={death=yes}  # EST.
@@ -16997,7 +17491,7 @@
 					dynasty=1004525
 					religion=catholic culture=bavarian
 					father=100023311	# Felix Dionys von Hoyos
-					mother=100036978	# Maria Karoline von Oppersdorff
+					mother=oppersdorf_0144	# Maria von Oppersdorff
 					1924.11.23={birth=yes}  # Liebichau
 					2000.01.01={death=yes}  # EST.
 				}
@@ -17007,7 +17501,7 @@
 					dynasty=1004525
 					religion=catholic culture=bavarian
 					father=100023311	# Felix Dionys von Hoyos
-					mother=100036978	# Maria Karoline von Oppersdorff
+					mother=oppersdorf_0144	# Maria von Oppersdorff
 					1929.11.17={birth=yes}  # Liebichau
 					2006.01.01={death=yes}  # EST.
 				}
@@ -17016,7 +17510,7 @@
 					dynasty=1004525
 					religion=catholic culture=bavarian
 					father=100023311	# Felix Dionys von Hoyos
-					mother=100036978	# Maria Karoline von Oppersdorff
+					mother=oppersdorf_0144	# Maria von Oppersdorff
 					1932.03.07={birth=yes}  # Liebichau
 					1959.08.23={add_spouse=100097477}	# Maria Birkl
 					2009.01.01={death=yes}  # EST.
@@ -17449,14 +17943,14 @@
 						1661.11.20={add_spouse=100101037}	# Maria Cäcilia Hoyos
 						1666.09.29={death=yes}  # Wien
 					}
-						100024730={ #// F2. [1m.] Maximilian Reichard, *1654, +1682; m.Brünn 8.2.1679 Gfn Maria Barbara von Oppersdorff (*Brno 25.3.1658, +Velké Mezirící 4.5.1696)
+						100024730={ #// F2. [1m.] Maximilian Reichard, *1654, +1682; m.Brünn 8.2.1679 Gfn Maria Barbara von Oppersdorff (*Brno 25.3.1658, +Velké Mezirící 4.5.1696) $$
 							name="Maximilian Reichard"
 							dynasty=1004013
 							religion=catholic culture=bavarian
 							father=100024729	# Johann von Starhemberg
 							mother=100101033	# Maria Anna Czernin z Chudenicz
 							1654.01.01={birth=yes}
-							1679.02.08={add_spouse=100035257}	# Maria Barbara von Oppersdorff
+							1679.02.08={add_spouse=oppersdorf_0058}	# Marie Barbora von Oppersdorff
 							1682.12.01={death=yes}
 						}
 							100024731={ #// G1. Maria Eleonore, *ca 1679, +Linz 7.4.1720; m.1703 Gf Lobgott Maximilian von Kuefstein (*1678, +6.4.1748)
@@ -17465,7 +17959,7 @@
 								dynasty=1004013
 								religion=catholic culture=bavarian
 								father=100024730	# Maximilian Reichard von Starhemberg
-								mother=100035257	# Maria Barbara von Oppersdorff
+								mother=oppersdorf_0058	# Marie Barbora von Oppersdorff
 								1679.01.01={birth=yes}
 								1720.04.07={death=yes}  # Linz
 							}
@@ -17475,7 +17969,7 @@
 								dynasty=1004013
 								religion=catholic culture=bavarian
 								father=100024730	# Maximilian Reichard von Starhemberg
-								mother=100035257	# Maria Barbara von Oppersdorff
+								mother=oppersdorf_0058	# Marie Barbora von Oppersdorff
 								1680.01.01={birth=yes}
 								1720.01.01={death=yes}
 							}
@@ -17484,7 +17978,7 @@
 								dynasty=1004013
 								religion=catholic culture=bavarian
 								father=100024730	# Maximilian Reichard von Starhemberg
-								mother=100035257	# Maria Barbara von Oppersdorff
+								mother=oppersdorf_0058	# Marie Barbora von Oppersdorff
 								1682.12.12={birth=yes}  # Linz
 								1708.01.01={add_spouse=100101156}	# FRN Maria Genovefa von Ulm zu Erbach
 								1742.05.01={death=yes}  # Linz
@@ -18946,7 +19440,7 @@
 					name=Wilhelmine
 					female=yes
 					dynasty_house=house_colloredo_mannsfeld
-					religion=catholic culture=italian
+					religion=catholic culture=german
 					father=100024886	# Franz Gundaccar von Colloredo-Mannsfeld
 					mother=100036582	# Christine von Clam u.Gallas
 					1826.07.16={birth=yes}  # Milan
@@ -19240,7 +19734,7 @@
 						100024956={ #// 1f) Franz Ferdinand Romanus (Rome 1 Mar 1910-k.a.nr Berck-sur-Mer, France 10 Jan 1944); m.Boston, Massachusetts 3 Oct 1933 Mabel Bayard Bradley (Boston 4 Mar 1912-Needham, Massachusetts 6 Mar 1965)
 							name=Franz
 							dynasty_house=house_colloredo_mannsfeld
-							religion=catholic culture=italian
+							religion=catholic culture=german
 							father=100024954	# Ferdinand von Colloredo-Mannsfeld
 							mother=100096631	# Eleonore Iselin
 							1910.03.01={birth=yes}  # Rome
@@ -19590,15 +20084,6 @@
 
 
 ###		CLARY u.ALDRINGEN	1004009			100024750
-100103884={ #//            Margaretha Francisca      von Clary und Aldringen                  (1689-1733)     0 [WRATISLAV]
-	name="Margaretha Francisca von Clary und Aldringen"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1689.01.01={birth=yes}  # EST.
-	1733.04.22={death=yes}
-}
-
 #clary1
 100024750={ #// B1. Franz, Bohemian inkolat 1627, cr Freiherr (in Bohemia) 23.3.1641, Reichsfreiherr 1664, +after 1664; m.Margarete von Clary, dau.of Johann Bernard von Clary and Katerina Libštejnská z Kolowrat
 	name=Franz
@@ -28415,6 +28900,16 @@
 						1683.11.30={birth=yes}  # Linz
 						1718.09.28={add_spouse=100024656}	# Philippina von Lamberg
 						1744.01.26={death=yes}  # Wien
+					}
+					100126095={ #// E4. Maria Ludovika, *14.12.1684, +3.5.1742; m.3.5.1702 Gf Karl Benedikt von Lamberg-Kunstadt (*27.5.1675, +9.12.1721) $$
+						name="Maria Ludovika"
+						female=yes
+						dynasty=1004003
+						religion=catholic culture=bavarian
+						father=100026200	# Franz Christoph von Khevenhüller-Metsch
+						mother=100092706	# PR Faustina Barbara Montecuccoli
+						1684.12.14={birth=yes}
+						1742.05.03={death=yes}
 					}
 			100026208={ #// C10. [3m.] Johann VIII, Herr zu Landskron und Velden, *Klagenfurt 30.5.1597, +k.a.Nürnberg 4.8.1632; m.Riedau 1.6.1624 Frn Maria Elisabeth von Dietrichstein (*25.6.1607, +1.9.1662) $$
 				name=Johann

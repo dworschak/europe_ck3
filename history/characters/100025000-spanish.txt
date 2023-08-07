@@ -13,16 +13,110 @@
 ###########################################################
 
 
-100200896={ #// Juana de Trastámara (*6.11.1479, +12.4.1555); m.20.10.1496 Felipe von Habsburg (*22.6.1478, +25.9.1506) %%
-	name=Juana
-	dynasty=10075
-	religion=catholic culture=castilian
-	female=yes
-	father=100200895	# Fernando de Trastámara
-	mother=100200892	# Isabel de Trastámara
-	1479.11.06={birth=yes}
-	1555.04.12={death=yes}
-}
+### IVREA
+#ivrea8
+#457510 = B5. ENRIQUE II "el de las Mercedes" King of Castile and Leon (1369-79), *Seville 13.1.1334, +Santo Domingo de la Calzada 29.5.1379; m.27.7.1350 Juana, sna de Lara y Vizcaya (*1339 +Salamanca 27.3.1381) dau.of Juan Manuel de Castilla, sn de Villena, Penafiel y Escalona
+	100200888={ #// C1. JUAN I King of Castile and Leon (1379-90), *Epila 20.8.1358, +Alcala de Henares 9.10.1390; 1m: Soria 18.6.1375 Leonor of Aragon (*1358, +13.8.1382); 2m: Badajoz 1383 Queen Brites of Portugal (*1372 +after 1409)
+		name=Juan
+		dynasty_house=ivrea_trastamara
+		religion=catholic culture=castilian
+		father=457510	# Enrique de Trastámara
+		1358.08.24={birth=yes}
+		1390.10.09={death=yes}
+	}
+		100200889={ #// D1. ENRIQUE III "el Doliente" King of Castile and Leon (1390-1406), *Burgos 4.10.1379, +Toledo 25.12.1406; m.Madrid 1393 Catherine of Lancastre (*6.6.1372/31.3.1373, +2.6.1418)
+			name=Enrique
+			dynasty_house=ivrea_trastamara
+			religion=catholic culture=castilian
+			father=100200888	# Juan de Trastámara
+			1379.08.04={birth=yes}
+			1406.12.25={death=yes}
+		}
+			100200890={ #// E1. JUAN II King of Castile and Leon (1406-54), *Toro 6.3.1405, +Valladolid 20.7.1454; 1m: Avila 4.8.1420 Maria of Aragon (*1396 +18.2.1445); 2m: Madrigal 17.8..1447 Isabel of Portugal (*ca 1428 +Arévalo 15.8.1496)
+				name=Juan
+				dynasty_house=ivrea_trastamara
+				religion=catholic culture=castilian
+				father=100200889	# Enrique de Trastámara
+				1405.03.06={birth=yes}
+				1454.07.20={death=yes}
+			}
+				100200891={ #// F1. ENRIQUE IV "el Impotente" King of Castile and Leon (1454-74), *Valladolid 5/6.1.1425, +Madrid 11.12.1474; 1m: Valladolid 16.9.1440 (annulled 27.7.1453) Blanca of Aragon (*9.6.1424 +2.12.1464); 2m: Cordoba 20.5.1455 Juana of Portugal (*Quinta do Monte Olivete, in Almada 31.3.1439, +Madrid 13.6.1475)
+					name=Enrique
+					dynasty_house=ivrea_trastamara
+					religion=catholic culture=castilian
+					father=100200890	# Juan de Trastámara
+					1425.01.05={birth=yes}
+					1474.12.11={death=yes}
+				}
+				100200892={ #// F6. ISABEL I Queen of Castile and Leon (1474-1504), *Madrigal de las Altas Torres 22.4.1451, +Chateau de la Mota/Medina del Campo 26.11.1504; m.Valladolid 1469 King Fernando II of Aragon (*10.5.1452, +23.1.1516) $$
+					name=Isabel
+					dynasty_house=ivrea_trastamara
+					religion=catholic culture=castilian
+					female=yes
+					father=100200890	# Juan de Trastámara
+					1451.04.22={birth=yes}
+					1504.11.26={death=yes}
+				}
+		100200893={ #// D2. FERNANDO I "el de Antequera" King of Aragon and Sicily (1412-16), *Medina del Campo 27.11.1380, +Igualada 2.4.1416; m.1393 Leonor Urraca de Castilla, Cdsa de Albuquerque (*1374 +Medina del Campo XII.1435)
+			name=Fernando
+			dynasty_house=ivrea_trastamara
+			religion=catholic culture=castilian
+			father=100200888	# Juan de Trastámara
+			1380.11.27={birth=yes}
+			1416.04.02={death=yes}
+		}
+			100200894={ #// E2. JUAN II King of Aragon (1458-79), Navarre (1425-79), Genoa (1458-61), *Medina del Campo 29.6.1397, +Barcelona 20.1.1479; 1m: Pamplona 10.2.1420 Queen Blanca II of Navarre (*1391 +Nieva 3.4.1441); 2m: Torrelabaton 1444/Calatayud 7.7.1447 Juana Enriquez (*ca 1425, +Zaragoza/Barcelona 13.2.1468)
+				name=Juan
+				dynasty_house=ivrea_trastamara
+				religion=catholic culture=castilian
+				father=100200893	# Fernando de Trastámara
+				1398.06.29={birth=yes}
+				1479.01.20={death=yes}
+			}
+				100200895={ #// F2. FERNANDO II "the Catolic" King of Aragon (1479-1516), Sicily and Naples (1506-16) as Ferrante III, *Sos, Zaragosa 10.5.1452, +Madrigalejo 23.1.1516; 1m: Valladolid 19.10.1469 Queen Isabel I of Castile (*22.4.1451 +26.11.1504); 2m: Blois 1505 Germaine de Foix (+1538) $$
+					name=Fernando
+					dynasty_house=ivrea_trastamara
+					religion=catholic culture=castilian
+					father=100200894	# Juan de Trastámara
+					1452.03.10={birth=yes}
+					1469.10.19={add_spouse=100200892}	# Isabel de Trastámara
+					1516.01.23={death=yes}
+				}
+					100200898={ #// G2. Infanta Isabel, *Duenas 1470, +Zaragoza 15.8.1498, bur Toledo; 1m: Infant Affonso of Portugal (+1491); 2m: Valencia de Alcantara X.1497 King Manoel I of Portugal (*1.6.1469 +13.12.1521) $$
+						name=Isabel
+						female=yes
+						dynasty_house=ivrea_trastamara
+						religion=catholic culture=castilian
+						father=100200895	# Fernando de Trastámara
+						mother=100200892	# Isabel de Trastámara
+						1470.10.02={birth=yes}  # Duenas
+						1498.08.28={death=yes}  # Saragossa
+					}
+					100200896={ #// G3. JUANA Queen of Spain, *Toledo 6.11.1479, +Castle Tordesillas, Valladolid 12.4.1555, bur Capilla Real, Granada; m.Lille 12.11.1496 Philip von Habsburg, later King Felipe I of Spain (*22.6.1478 +25.9.1506) $$
+						name=Juana
+						dynasty_house=ivrea_trastamara
+						religion=catholic culture=castilian
+						female=yes
+						father=100200895	# Fernando de Trastámara
+						mother=100200892	# Isabel de Trastámara
+						1479.11.06={birth=yes}
+						1555.04.12={death=yes}
+					}
+					100200897={ #// G5. Catalina, *Alcala de Henares 15.12.1485, +Kimbolton Castle 7.1.1536; 1m: London 14.11.1501 Pr Arthur of Wales (+1502); 2m: Greenwich 11.6.1509 (div 1533) King Henry VIII of England (*28.6.1491 +18.2.1547) $$
+						name=Catalina
+						female=yes
+						dynasty_house=ivrea_trastamara
+						religion=catholic culture=castilian
+						father=100200895	# Fernando de Trastámara
+						mother=100200892	# Isabel de Trastámara
+						1485.12.16={birth=yes}
+						1536.01.07={death=yes}
+					}
+#ivrea8
+### IVREA
+
+
+
 
 
 ##	100026600	de Arteaga 	     	1001510		
@@ -582,14 +676,14 @@
 
 
 ##				Larios		    	1001508
-100187198={ # Pablo Larios y Sánchez de Piña
+100187198={ #// Pablo Larios y Sánchez de Piña
 	name=Pablo
 	dynasty=1001508
 	religion=catholic culture=castilian
 	1843.01.01={birth=yes}
 	1920.01.01={death=yes}
 }
-	100025975={ # Natalia Leopoldina Larios y Fernandez de Villavicencio (1907-1983) $$
+	100025975={ #// Natalia Leopoldina Larios y Fernandez de Villavicencio (1907-1983) $$
 		name="Natalia Leopoldina"
 		female=yes
 		dynasty=1001508
@@ -598,7 +692,7 @@
 		1907.11.14={birth=yes}
 		1983.01.01={death=yes}  # EST.
 	}
-	100187199={ # José Larios y Fernandez-Villavicencio, Marques de Larios, Marques de Marzales (1910-1997) $$
+	100187199={ #// José Larios y Fernandez-Villavicencio, Marques de Larios, Marques de Marzales (1910-1997) $$
 		name=José
 		dynasty=1001508
 		religion=catholic culture=castilian
@@ -1846,7 +1940,7 @@
 	1801.07.22={birth=yes}  # Madrid
 	1884.02.22={death=yes}  # Córdoba
 }
-	100026066={ # Duquesa María Rosalia Osorio de Moscoso y Carvajal de Castromonte Condesa de Nieva (1840-1918) $$
+	100026066={ #// A2. María Rosalia (*19.3.1840, +19.11.1918); m.1.1.1859 José de Arana (*28.8.1826, +23.6.1891) %%
 		name="María Rosalia"
 		female=yes
 		dynasty=1001504
@@ -2150,7 +2244,7 @@
 				1884.12.29={add_spouse=100085126}	# Narcisa de Martos y Arizcun
 				1919.01.01={death=yes}
 			}
-				100026003={ # 1a) José, Conde de la Corzana (Madrid 1878-Madrid 1919); m.Madrid 1902 María de la Purificacion Dorticos-Marin y Leon, Marquesa de Marin (1878-1928)
+				100026003={ #// 1a) José, Conde de la Corzana (Madrid 1878-Madrid 1919); m.Madrid 1902 María de la Purificacion Dorticos-Marin y Leon, Marquesa de Marin (1878-1928)
 					name=José        # 86114/jose-de-osorio-de-morny-18-herzog-von-alburquerque/
 					dynasty=1001503
 					religion=catholic culture=castilian
@@ -3980,7 +4074,7 @@
 			1793.01.01={add_spouse=100091572}	# María Teresa de Silva Fernandez de Hijar y Palafox
 			1794.01.01={death=yes}
 		}
-			100025510={ # Carlos Miguel Fitzjames-Stuart, Duke of Berwick, Duque de Liria y Xérica, Duque de Alba de Tormes (Madrid 19 May 1794-Sion, Switzerland 7 Oct 1835); m.Rome 15 Feb 1817 Rosalía de Ventimiglia (Palermo 16 Aug 1798-Madrid 4 Mar 1868)
+			100025510={ #// Carlos Miguel Fitzjames-Stuart, Duke of Berwick, Duque de Liria y Xérica, Duque de Alba de Tormes (Madrid 19 May 1794-Sion, Switzerland 7 Oct 1835); m.Rome 15 Feb 1817 Rosalía de Ventimiglia (Palermo 16 Aug 1798-Madrid 4 Mar 1868)
 				name="Carlos Miguel"
 				dynasty=1009003
 				religion=catholic culture=castilian
@@ -3990,7 +4084,7 @@
 				1817.02.15={add_spouse=100091415}	# Rosalía Ventimiglia di Grammonte
 				1835.10.07={death=yes}
 			}
-				100060776={ # 1f) Jacopo Luis Francesco Pablo Rafael Fitzjames-Stuart, Duke of Berwick, Duque de Alba de Tormes (Palermo 3 Jun 1821-10 Jul 1881); m.Madrid 14 Feb 1844 María Francesca de Sales Palafox y Kirkpatrick de Closburn Duquesa de Penaranda, etc (29 Jan 1825-Paris 16 Sep 1860)
+				100060776={ #// 1f) Jacopo Luis Francesco Pablo Rafael Fitzjames-Stuart, Duke of Berwick, Duque de Alba de Tormes (Palermo 3 Jun 1821-10 Jul 1881); m.Madrid 14 Feb 1844 María Francesca de Sales Palafox y Kirkpatrick de Closburn Duquesa de Penaranda, etc (29 Jan 1825-Paris 16 Sep 1860)
 					name=Jacopo
 					dynasty=1009003
 					religion=catholic culture=castilian
@@ -4000,7 +4094,7 @@
 					1844.02.14={add_spouse=100082754}	# María Francesca de Palafox
 					1881.07.10={death=yes}
 				}
-					100060777={ # 1g) Carlos María Isabel Fitzjames-Stuart, Duke of Berwick, Duque de Alba de Tormes (Madrid 4 Dec 1849-d.aboard a yacht at New York 15 Oct 1901); m.Madrid 10 Dec 1877 María del Rosario Falcó (Pau 3 Oct 1854-Paris 27 Mar 1904)
+					100060777={ #// 1g) Carlos María Isabel Fitzjames-Stuart, Duke of Berwick, Duque de Alba de Tormes (Madrid 4 Dec 1849-d.aboard a yacht at New York 15 Oct 1901); m.Madrid 10 Dec 1877 María del Rosario Falcó (Pau 3 Oct 1854-Paris 27 Mar 1904)
 						name="Carlos María"
 						dynasty=1009003
 						religion=catholic culture=castilian
@@ -4010,7 +4104,7 @@
 						1877.12.10={add_spouse=100083772}	# María del Rosario Falcó
 						1901.10.15={death=yes}
 					}
-						100060778={ # 1h) Jacobo María del Pilar Carlos Manuel Fitzjames-Stuart, Duke of Berwick, 17th Duque de Alba de Tormes (Madrid 17 Oct 1878- Lausanne 24 Sep 1953); m.London 7 Oct 1920 María del Rosario de Silva y Gurtuba y Marquesa de San Vicente del Barco (Madrid 4 Apr 1900-Madrid 11934)
+						100060778={ #// 1h) Jacobo María del Pilar Carlos Manuel Fitzjames-Stuart, Duke of Berwick, 17th Duque de Alba de Tormes (Madrid 17 Oct 1878- Lausanne 24 Sep 1953); m.London 7 Oct 1920 María del Rosario de Silva y Gurtuba y Marquesa de San Vicente del Barco (Madrid 4 Apr 1900-Madrid 11934)
 							name=Jacobo
 							dynasty=1009003
 							religion=catholic culture=castilian
@@ -4020,7 +4114,7 @@
 							1920.10.07={add_spouse=100082928}	# María del Rosario de Silva
 							1953.09.24={death=yes}
 						}
-							100060779={ # 1i) María del Rosario Cayetana Fitzjames-Stuart, 18th Duquesa de Alba de Tormes, Duchess of Berwick (Madrid 28 Mar 1926-Seville 20 Nov 2014); 
+							100060779={ #// 1i) María del Rosario Cayetana Fitzjames-Stuart, 18th Duquesa de Alba de Tormes, Duchess of Berwick (Madrid 28 Mar 1926-Seville 20 Nov 2014); 
 									   # m.1st Seville 12 Oct 1948 Pedro Luis Martinez de Irujo (Madrid 17 Nov 1919-Houston, Texas 6 Sep 1972); 
 									   # m.2nd 1 Mar 1978 Jesus Aguirre Ortiz de Zarate (Madrid 9 Jun 1934-Madrid 11 May 2001); 
 									   # m.3d Seville 5 Oct 2011 Alfonso Diez Carabantes (b.Palencia 15 Nov 1950)
@@ -4036,7 +4130,7 @@
 								2011.10.05={add_spouse=100083314}	# Alfonso Diez Carabantes
 								2014.11.20={death=yes}
 							}
-								100060780={ # 1j) Carlos Martinez de Irujo y Fitzjames-Stuart Duque de Huescar (b.Madrid 2 Oct 1949); m.Seville 18 Jun 1988 (div 1999) Matilda de Solis y Martinez de Campos (b.Seville 13 Jun 1963)
+								100060780={ #// 1j) Carlos Martinez de Irujo y Fitzjames-Stuart Duque de Huescar (b.Madrid 2 Oct 1949); m.Seville 18 Jun 1988 (div 1999) Matilda de Solis y Martinez de Campos (b.Seville 13 Jun 1963)
 									name=Carlos
 									dynasty=1009003
 									religion=catholic culture=castilian
@@ -4046,7 +4140,7 @@
 									1988.06.18={add_spouse=100082941}	# Matilda de Solís
 									1999.01.01={remove_spouse=100082941}
 								}
-									100060781={ # 1k) Fernando Fitzjames-Stuart y de Solis (b.Madrid 14 Sep 1990)
+									100060781={ #// 1k) Fernando Fitzjames-Stuart y de Solis (b.Madrid 14 Sep 1990)
 										name=Fernando
 										dynasty=1009003
 										religion=catholic culture=castilian
@@ -4054,7 +4148,7 @@
 										mother=100082941	# Matilda de Solís
 										1990.09.14={birth=yes}
 									}
-									100060782={ # 2k) Carlos Fitzjames-Stuart y de Solis (b.Madrid 30 Nov 1991)
+									100060782={ #// 2k) Carlos Fitzjames-Stuart y de Solis (b.Madrid 30 Nov 1991)
 										name=Carlos
 										dynasty=1009003
 										religion=catholic culture=castilian
@@ -4062,7 +4156,7 @@
 										mother=100082941	# Matilda de Solís
 										1991.11.30={birth=yes}
 									}
-								100060783={ # 2j) Alfonso Martinez de Irujo y Fitzjames-Stuart Duque de Aliaga (b.Madrid 22 Oct 1950); m.Marbella 4 Jul 1977 María Pss zu Hohenlohe-Langenburg (b.Madrid 8 Apr 1957) $$
+								100060783={ #// 2j) Alfonso Martinez de Irujo y Fitzjames-Stuart Duque de Aliaga (b.Madrid 22 Oct 1950); m.Marbella 4 Jul 1977 María Pss zu Hohenlohe-Langenburg (b.Madrid 8 Apr 1957) $$
 									name=Alfonso
 									dynasty=1009003
 									religion=catholic culture=castilian
@@ -4071,7 +4165,7 @@
 									1950.10.22={birth=yes}
 									1977.07.04={add_spouse=100001672}	# Maria de la Santisima Hohenlohe-Langenburg
 								}
-									100060784={ # 1k) Luis Martinez de Irujo y Hohenlohe-Langenburg (b.26 May 1978)
+									100060784={ #// 1k) Luis Martinez de Irujo y Hohenlohe-Langenburg (b.26 May 1978)
 										name=Luis
 										dynasty=1009003
 										religion=catholic culture=castilian
@@ -4079,7 +4173,7 @@
 										mother=100001672	# Maria de la Santisima Hohenlohe-Langenburg
 										1978.05.26={birth=yes}
 									}
-									100060785={ # 2k) Javier Martinez de Irujo y Hohenlohe-Langenburg (b.Jan 1981); m.20 Sep 2008 Ines Domecq Fernández (b.1983)
+									100060785={ #// 2k) Javier Martinez de Irujo y Hohenlohe-Langenburg (b.Jan 1981); m.20 Sep 2008 Ines Domecq Fernández (b.1983)
 										name=Javier
 										dynasty=1009003
 										religion=catholic culture=castilian
@@ -4088,7 +4182,7 @@
 										1981.01.01={birth=yes}
 										2008.09.20={add_spouse=100083360}	# Ines Domecq
 									}
-										100060786={ # 1l) Sol Martinez de Irujo y Domecq (b.2011)
+										100060786={ #// 1l) Sol Martinez de Irujo y Domecq (b.2011)
 											name=Sol
 											female=yes
 											dynasty=1009003
@@ -4097,7 +4191,7 @@
 											mother=100083360	# Ines Domecq
 											2011.02.01={birth=yes}
 										}
-										100060787={ # 2l) Alfonso Martinez de Irujo y Domecq (b.2013)
+										100060787={ #// 2l) Alfonso Martinez de Irujo y Domecq (b.2013)
 											name=Alfonso
 											dynasty=1009003
 											religion=catholic culture=castilian
@@ -4105,7 +4199,7 @@
 											mother=100083360	# Ines Domecq
 											2013.02.01={birth=yes}
 										}
-								100060788={ # 3j) Jacobo Martinez de Irujo y Fitzjames-Stuart Cde de Siruela (b.Madrid 15 Jul 1954); m.1st Madrid 1 Nov 1980 (div 1998) María Eugenia Fernandez de Castro y Fernandez Shaw (b.Madrid 15 Oct 1954); m.2nd Venice 13 Mar 2004 Inka Martí y Kiemann (b.Barcelona 6 Jan 1964)
+								100060788={ #// 3j) Jacobo Martinez de Irujo y Fitzjames-Stuart Cde de Siruela (b.Madrid 15 Jul 1954); m.1st Madrid 1 Nov 1980 (div 1998) María Eugenia Fernandez de Castro y Fernandez Shaw (b.Madrid 15 Oct 1954); m.2nd Venice 13 Mar 2004 Inka Martí y Kiemann (b.Barcelona 6 Jan 1964)
 									name=Jacobo
 									dynasty=1009003
 									religion=catholic culture=castilian
@@ -4116,7 +4210,7 @@
 									1998.01.01={remove_spouse=100082176}
 									2004.03.13={add_spouse=100087845}	# Inka Martí
 								}
-									100060789={ # 1k) Jacobo Martinez de Irujo y Fernandez de Castro (b.Madrid 23 Mar 1981); m.Madrid 14 May 2011 Asela Perez Becerril
+									100060789={ #// 1k) Jacobo Martinez de Irujo y Fernandez de Castro (b.Madrid 23 Mar 1981); m.Madrid 14 May 2011 Asela Perez Becerril
 										name=Jacobo
 										dynasty=1009003
 										religion=catholic culture=castilian
@@ -4125,7 +4219,7 @@
 										1981.03.23={birth=yes}
 										2011.05.14={add_spouse=100088925}	# Asela Pérez
 									}
-										100060790={ # 1l) Asela Martinez de Irujo y Perez (b.2012)
+										100060790={ #// 1l) Asela Martinez de Irujo y Perez (b.2012)
 											name=Asela
 											dynasty=1009003
 											religion=catholic culture=castilian
@@ -4133,7 +4227,7 @@
 											mother=100088925	# Asela Pérez
 											2012.02.01={birth=yes}
 										}
-									100060791={ # 2k) Brianda Eugenia Martinez de Irujo y Fernandez de Castro (b.Madrid 11 Apr 1984)
+									100060791={ #// 2k) Brianda Eugenia Martinez de Irujo y Fernandez de Castro (b.Madrid 11 Apr 1984)
 										name=Brianda
 										female=yes
 										dynasty=1009003
@@ -4142,7 +4236,7 @@
 										mother=100082176	# María Eugenia Fernández de Castro
 										1984.04.11={birth=yes}
 									}
-								100060792={ # 4j) Fernando Martinez de Irujo y Fitzjames-Stuart Marques de San Vicente del Barco (b.Madrid 11 Jul 1959)
+								100060792={ #// 4j) Fernando Martinez de Irujo y Fitzjames-Stuart Marques de San Vicente del Barco (b.Madrid 11 Jul 1959)
 									name=Fernando
 									dynasty=1009003
 									religion=catholic culture=castilian
@@ -4150,7 +4244,7 @@
 									father=100087837	# Luis Martínez de Irujo y Artázcoz
 									1959.07.11={birth=yes}
 								}
-								100060793={ # 5j) Cayetano Martinez de Irujo y Fitzjames-Stuart, Cde de Salvatierra (b.Madrid 4 Apr 1963); m.Seville 15 Oct 2005 Genoveva Casanova y Gonzales (b.Cuernavaca, Mexico 30 Nov 1976)
+								100060793={ #// 5j) Cayetano Martinez de Irujo y Fitzjames-Stuart, Cde de Salvatierra (b.Madrid 4 Apr 1963); m.Seville 15 Oct 2005 Genoveva Casanova y Gonzales (b.Cuernavaca, Mexico 30 Nov 1976)
 									name=Cayetano
 									dynasty=1009003
 									religion=catholic culture=castilian
@@ -4159,7 +4253,7 @@
 									1963.04.04={birth=yes}
 									2005.10.15={add_spouse=100081299}	# Genoveva Casanova
 								}
-									100060794={ # 1k) Luis Martinez de Irujo y Casanova, b.Mexico 25 Jul 2001
+									100060794={ #// 1k) Luis Martinez de Irujo y Casanova, b.Mexico 25 Jul 2001
 										name=Luis
 										dynasty=1009003
 										religion=catholic culture=castilian
@@ -4168,7 +4262,7 @@
 										mother=100081299	# Genoveva Casanova
 										2001.07.25={birth=yes}
 									}
-									100060795={ # 2k) Amina Martinez de Irujo y Casanova, b.Mexico 25 Jul 2001
+									100060795={ #// 2k) Amina Martinez de Irujo y Casanova, b.Mexico 25 Jul 2001
 										name=Amina
 										dynasty=1009003
 										religion=catholic culture=castilian
@@ -4177,7 +4271,7 @@
 										mother=100081299	# Genoveva Casanova
 										2001.07.25={birth=yes}
 									}
-								100060796={ # 6j) Eugenia Martinez de Irujo y Fitzjames-Stuart, Duquesa de Montoro (b.26 Nov 1968); m.Seville 23 Oct 1998 (div 2005) Francisco Rivera Ordonez (b.Madrid 3 Jan 1974)
+								100060796={ #// 6j) Eugenia Martinez de Irujo y Fitzjames-Stuart, Duquesa de Montoro (b.26 Nov 1968); m.Seville 23 Oct 1998 (div 2005) Francisco Rivera Ordonez (b.Madrid 3 Jan 1974)
 									name=Eugenia
 									female=yes
 									dynasty=1009003
@@ -4186,7 +4280,7 @@
 									father=100087837	# Luis Martínez de Irujo y Artázcoz
 									1968.11.26={birth=yes}
 								}
-									100060797={ # 1k) Cayetana Rivera y Martinez de Irujo (b.Seville 16 Oct 1999)
+									100060797={ #// 1k) Cayetana Rivera y Martinez de Irujo (b.Seville 16 Oct 1999)
 										name=Cayetana
 										female=yes
 										dynasty=1009003
@@ -4195,7 +4289,7 @@
 										mother=100060796	# Eugenia Fitz-James Stuart
 										1999.10.16={birth=yes}
 									}
-						100060798={ # 2h) Eugenia Sol María del Pilar Fitzjames-Stuart y Falcó Cdsa de Tera (Madrid 8 Jan 1880-Madrid 4 Mar 1962); m.Madrid 2 Jul 1906 Juan Manuel Mitjans y Mancanedo Duque de Santona (Santona 8 Aug 1865-10 Sep 1929)
+						100060798={ #// 2h) Eugenia Sol María del Pilar Fitzjames-Stuart y Falcó Cdsa de Tera (Madrid 8 Jan 1880-Madrid 4 Mar 1962); m.Madrid 2 Jul 1906 Juan Manuel Mitjans y Mancanedo Duque de Santona (Santona 8 Aug 1865-10 Sep 1929)
 							name=Eugenia
 							female=yes
 							dynasty=1009003
@@ -4205,7 +4299,7 @@
 							1880.01.08={birth=yes}
 							1962.03.04={death=yes}
 						}
-						100060799={ # 3h) Hernando Carlos María Teresa Fitzjames-Stuart Duque de Penaranda del Duero, etc (Madrid 3 Nov 1882-Madrid 1 Nov 1936); m.Cordoba 20 Mar 1920 María del Carmen Saavedra y Collada Marquesa de Villaviciosa (Madrid 21 Jul 1889-Seville 23 Apr 1967)
+						100060799={ #// 3h) Hernando Carlos María Teresa Fitzjames-Stuart Duque de Penaranda del Duero, etc (Madrid 3 Nov 1882-Madrid 1 Nov 1936); m.Cordoba 20 Mar 1920 María del Carmen Saavedra y Collada Marquesa de Villaviciosa (Madrid 21 Jul 1889-Seville 23 Apr 1967)
 							name=Hernando
 							dynasty=1009003
 							religion=catholic culture=castilian
@@ -4215,7 +4309,7 @@
 							1920.03.20={add_spouse=100089790}	# María del Carmen Saavedra
 							1936.11.01={death=yes}
 						}
-							100060800={ # 1i) Hernando Alfonso Fitzjames-Stuart y Saavedra, Duque de Penaranda, Duke of Berwick, etc (Guadalperal 24 Jan 1922-Guadalperal 20 Jul 1970); m.1944 Isabel Gomez y Ruiz (Cadiz 5 Nov 1923-Cadiz 14 Jan 1994)
+							100060800={ #// 1i) Hernando Alfonso Fitzjames-Stuart y Saavedra, Duque de Penaranda, Duke of Berwick, etc (Guadalperal 24 Jan 1922-Guadalperal 20 Jul 1970); m.1944 Isabel Gomez y Ruiz (Cadiz 5 Nov 1923-Cadiz 14 Jan 1994)
 								name=Hernando
 								dynasty=1009003
 								religion=catholic culture=castilian
@@ -4225,7 +4319,7 @@
 								1943.01.01={add_spouse=100084298}	# Isabel Gómez
 								1970.07.20={death=yes}
 							}
-								100060801={ # 1j) María del Carmen Fitzjames-Stuart y Gomez Marquesa de Valle de Paloma (b.28 Feb 1945); m.1964 Javier de Soto y Lopez-Doriga (b.1936)
+								100060801={ #// 1j) María del Carmen Fitzjames-Stuart y Gomez Marquesa de Valle de Paloma (b.28 Feb 1945); m.1964 Javier de Soto y Lopez-Doriga (b.1936)
 									name="María del Carmen"
 									female=yes
 									dynasty=1009003
@@ -4235,7 +4329,7 @@
 									1945.02.28={birth=yes}
 									1964.01.01={add_spouse=100082943}	# Javier de Soto
 								}
-								100060802={ # 2j) María Eugenia Fitzjames-Stuart y Gomez Cdsa de Castroponce (b.1 Mar 1946); m.1970 Juan Carlos de las Barcenas y von Franz
+								100060802={ #// 2j) María Eugenia Fitzjames-Stuart y Gomez Cdsa de Castroponce (b.1 Mar 1946); m.1970 Juan Carlos de las Barcenas y von Franz
 									name="María Eugenia"
 									female=yes
 									dynasty=1009003
@@ -4244,7 +4338,7 @@
 									mother=100084298	# Isabel Gómez
 									1946.03.01={birth=yes}
 								}
-								100060803={ # 3j) Jacobo Hernando Fitzjames-Stuart y Gomez Duque de Penaranda (b.Nov 1947)
+								100060803={ #// 3j) Jacobo Hernando Fitzjames-Stuart y Gomez Duque de Penaranda (b.Nov 1947)
 									name=Jacobo
 									dynasty=1009003
 									religion=catholic culture=castilian
@@ -4252,7 +4346,7 @@
 									mother=100084298	# Isabel Gómez
 									1947.11.01={birth=yes}
 								}
-								100060804={ # 4j) Luis Esteban Fitzjames-Stuart y Gomez Marques de Valderrabanos (b.1950); m.1st 1968 Gertrudis Berlanga y Pérez de Andujar (b.1953)
+								100060804={ #// 4j) Luis Esteban Fitzjames-Stuart y Gomez Marques de Valderrabanos (b.1950); m.1st 1968 Gertrudis Berlanga y Pérez de Andujar (b.1953)
 									name=Luis
 									dynasty=1009003
 									religion=catholic culture=castilian
@@ -4261,7 +4355,7 @@
 									1950.02.01={birth=yes}
 									1968.01.01={add_spouse=100084182}	# Gertrudis Berlanga y Pérez de Andujar
 								}
-									100060805={ # 1k) María Iraida Fitzjames-Stuart y Berlanga, b.1968; m.1st 1989 Ludovic Simon
+									100060805={ #// 1k) María Iraida Fitzjames-Stuart y Berlanga, b.1968; m.1st 1989 Ludovic Simon
 										name="María Iraida"
 										female=yes
 										dynasty=1009003
@@ -4271,7 +4365,7 @@
 										1968.01.01={birth=yes}
 										1988.01.01={add_spouse=100090274}	# Ludovic Simon
 									}
-									100060806={ # 2k) María Fitzjames-Stuart y Calleja, b.1974
+									100060806={ #// 2k) María Fitzjames-Stuart y Calleja, b.1974
 										name=María
 										female=yes
 										dynasty=1009003
@@ -4280,7 +4374,7 @@
 										mother=100084182	# Gertrudis Berlanga y Pérez de Andujar
 										1974.02.01={birth=yes}
 									}
-									100060807={ # 3k) Dafne Cloé Fitzjames-Stuart y Calleja, b.1977
+									100060807={ #// 3k) Dafne Cloé Fitzjames-Stuart y Calleja, b.1977
 										name="Dafne Cloé"
 										female=yes
 										dynasty=1009003
@@ -4289,7 +4383,7 @@
 										mother=100084182	# Gertrudis Berlanga y Pérez de Andujar
 										1977.02.01={birth=yes}
 									}
-					100060808={ # 2g) María de la Asuncion Rosalía Joaquina Fitzjames-Stuart y Palafox Duquesa de Calisteo (Paris 17 Aug 1851-14 Sep 1927); m.Madrid 20 Oct 1873 José Mesia y Cayesa de los Cobos Duque de Tamames (Madrid 16 May 1853-Madrid 25 May 1917)
+					100060808={ #// 2g) María de la Asuncion Rosalía Joaquina Fitzjames-Stuart y Palafox Duquesa de Calisteo (Paris 17 Aug 1851-14 Sep 1927); m.Madrid 20 Oct 1873 José Mesia y Cayesa de los Cobos Duque de Tamames (Madrid 16 May 1853-Madrid 25 May 1917)
 						name=María
 						female=yes
 						dynasty=1009003
@@ -4300,7 +4394,7 @@
 						1873.10.20={add_spouse=100088026}	# José Mesia y Cayesa de los Cobos
 						1927.09.14={death=yes}
 					}
-					100060809={ # 3g) María Luisa Fitzjames-Stuart y Palafox (19 Oct 1853-9 Feb 1876); m.2 Oct 1875 Luis Fernandez de Cordoba y Perez de Barrados Duque de Medinaceli (d.14 May 1879) $$
+					100060809={ #// 3g) María Luisa Fitzjames-Stuart y Palafox (19 Oct 1853-9 Feb 1876); m.2 Oct 1875 Luis Fernandez de Cordoba y Perez de Barrados Duque de Medinaceli (d.14 May 1879) $$
 						name="María Luisa"
 						female=yes
 						dynasty=1009003
@@ -4310,7 +4404,7 @@
 						1853.10.19={birth=yes}
 						1876.02.09={death=yes}
 					}
-				100025980={ # 2f) Enrique Fitzjames-Stuart y Ventimiglia Cde de Galve (5 Oct 1826-28 Apr 1882); m.4 Nov 1871 Adelaide Basilewskya (18 Nov 1842-    )
+				100025980={ #// 2f) Enrique Fitzjames-Stuart y Ventimiglia Cde de Galve (5 Oct 1826-28 Apr 1882); m.4 Nov 1871 Adelaide Basilewskya (18 Nov 1842-    )
 					name=Enrique
 					dynasty=1009003
 					religion=catholic culture=castilian

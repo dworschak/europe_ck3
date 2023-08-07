@@ -450,15 +450,15 @@
 								1780.10.17={add_spouse=100047564}	# Eleonora von Wrbna u.Freudenthal
 								1791.02.17={death=yes}
 							}
-								100048003={ #// H1. Marie Terezie, *1781; m.1810 Giuseppe Pozzo dal Borgo
-									name="Marie Terezie"
+								100048003={ #// H1. Marie Terezie, *1781; m.1810 Giuseppe Pozzo dal Borgo $$
+									name="Theresia-Wilhelmina"
 									female=yes
 									dynasty=1004530
 									religion=catholic culture=czech
 									father=100048002	# Antonín Václav Wratislav z Mitrowicz
 									mother=100047564	# Eleonora von Wrbna u.Freudenthal
-									1781.01.01={birth=yes}
-									1856.01.01={death=yes}  # EST.
+									1781.06.25={birth=yes}  # Vienna
+									1830.03.10={death=yes}
 								}
 								100048004={ #// H2. Alžbeta, *Kost 26.3.1783, +Praha 8.2.1857; m.kostel sv.Tomáše, Praha 6.5.1805 Jáchym Jindřich Woracziczky z Pabienitz a Bissingen (*Praha 28.3.1781, +Praha 19.3.1838)
 									name=Alžbeta
@@ -2094,8 +2094,8 @@
 						1878.02.03={birth=yes}  # Linz
 						1934.07.14={death=yes}  # Graz
 					}
-					100047824={ #// E3. Franz Valentin Maria, *St.Valentin 12.4.1882, +Salzburg 8.12.1963; 1m: Maria-Zell 31.7.1918 (div before 1927) Marie "Mara" Viktorie Hoffmann (*Graz 14.9.1891, +Graz 15.3.1929); 2m: Praha 9.5.1927 Gfn Paula von Lamberg (*21.11.1887, +4.9.1927); 3m: Zell am See 18.11.1929 Margaretae "Daisy" Therese Franziska Katharina Reska (*Praha 22.2.1885, +Freilassing 2.4.1967)
-						name=Franz
+					100047824={ #// E3. Franz Valentin Maria, *St.Valentin 12.4.1882, +Salzburg 8.12.1963; 1m: Maria-Zell 31.7.1918 (div before 1927) Marie "Mara" Viktorie Hoffmann (*Graz 14.9.1891, +Graz 15.3.1929); 2m: Praha 9.5.1927 Gfn Paula von Lamberg (*21.11.1887, +4.9.1927); 3m: Zell am See 18.11.1929 Margaretae "Daisy" Therese Franziska Katharina Reska (*Praha 22.2.1885, +Freilassing 2.4.1967) $$
+						name="Franz Valentin"
 						dynasty=1004500
 						religion=catholic culture=czech
 						father=100047809	# Franz von Schlik zu Bassano u.Weißkirchen
@@ -2103,7 +2103,7 @@
 						1882.04.12={birth=yes}  # Sankt Valentin
 						1918.07.31={add_spouse=100098967}	# Marie Viktorie Hoffmann
 						1927.01.01={remove_spouse=100098967}
-						1927.05.09={add_spouse=100099272}	# Paula von Lamberg
+						1927.05.09={add_spouse=lamberg_0043}	# Paula von Lamberg
 						1929.11.18={add_spouse=100099294}	# Margaretae Therese Reska
 						1963.12.08={death=yes}  # Salzburg
 					}
@@ -5394,7 +5394,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 				father=100047800	# Jindřich z Valdštejna
 				mother=100101079	# BGGFN Magdalena von Dohna
 				1601.01.01={birth=yes}  # EST.
-				1623.01.01={add_spouse=100103700}	# Anna Libštejnský z Kolowrat
+				1623.01.01={add_spouse=100103700}	# Anna Libštejnský z Kolovrat
 				1624.01.01={death=yes}
 			}
 		100047831={ #// B19. [2m.] Hanibal, *1576, +Hradec Králové 21.4.1622; 1m: Kateřina Berková z Dubé; 2m: Magdalena z Rícan
@@ -5459,7 +5459,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 				1651.01.01={add_spouse=100103803}	# Magdalena Záruba z Hustíran
 				1685.07.13={death=yes}
 			}
-				100047838={ #// E1. [1m.] Barbora Terezie, +4.11.1719; m.1670 Gf Georg Friedrich von Oppersdorf (+1742)
+				100047838={ #// E1. [1m.] Barbora Terezie, +4.11.1719; m.1670 Gf Georg Friedrich von Oppersdorf (+1742) $$
 					name="Barbora Terezie"
 					female=yes
 					dynasty=1013009
@@ -5617,7 +5617,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 						father=100047851	# Leopold Vilém z Valdštejna
 						mother=khuen_0021	# Maria Elisabeth Khuen von Belasi
 						1673.02.05={birth=yes}
-						1696.01.13={add_spouse=100103828}	# GFN Marie Ludmila Libštejnský z Kolowrat
+						1696.01.13={add_spouse=100103828}	# GFN Marie Ludmila Libštejnský z Kolovrat
 						1701.05.16={death=yes}
 					}
 						100047853={ #// F1. Anna Maria Elisabeth Františka, *7.10.1697, +Praha 3.4.1787; m.22.11.1718 Gf Károly József Serényi de Kis-Serény (*4.6.1686 +3.2.1742) $$
@@ -5626,7 +5626,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 							dynasty=1013009
 							religion=catholic culture=czech
 							father=100047852	# František Karel z Valdštejna
-							mother=100103828	# GFN Marie Ludmila Libštejnský z Kolowrat
+							mother=100103828	# GFN Marie Ludmila Libštejnský z Kolovrat
 							1697.10.07={birth=yes}
 							1787.04.03={death=yes}  # Praha
 						}
@@ -5636,7 +5636,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 							dynasty=1013009
 							religion=catholic culture=czech
 							father=100047852	# František Karel z Valdštejna
-							mother=100103828	# GFN Marie Ludmila Libštejnský z Kolowrat
+							mother=100103828	# GFN Marie Ludmila Libštejnský z Kolovrat
 							1698.10.06={birth=yes}  # Drahenice
 							1782.06.15={death=yes}  # Wien
 						}
@@ -6375,7 +6375,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		1557.01.01={add_spouse=100100206}	# Eliška z Martinicz
 		1579.08.20={death=yes}
 	}
-		100047607={ #// B1. Izalda, +11.3.1597; m.1586 Gf Georg II von Oppersdorf (*after 1547, +15.2.1607)
+		100047607={ #// B1. Izalda, +11.3.1597; m.1586 Gf Georg II von Oppersdorf (*after 1547, +15.2.1607) $$
 			name=Izalda
 			female=yes
 			dynasty=1013009
@@ -8567,7 +8567,7 @@ dobrz_001={ #// E3. Jan František, *1619, +Slavíkov 1693, bur Nový Studenec u
 			father=100047040	# Filip Nerius Krakovský z Kolovrat
 			mother=100096686	# Anna Barbora Michnová z Vacínova
 			1727.12.31={birth=yes}  # Praha
-			1750.08.24={add_spouse=100096532}	# GFN Marie Terezie del Caretto-Cavriani di Millesimo
+			1750.08.24={add_spouse=caretto_0107}	# Marie Terezie del Caretto
 			1769.09.13={add_spouse=100023240}	# Maria Theresia von Khevenhüller-Metsch
 			1809.11.02={death=yes}  # Wien
 		}
@@ -8577,7 +8577,7 @@ dobrz_001={ #// E3. Jan František, *1619, +Slavíkov 1693, bur Nový Studenec u
 				dynasty=1013005
 				religion=catholic culture=czech
 				father=100047044	# Leopold Krakovský z Kolovrat
-				mother=100096532	# GFN Marie Terezie del Caretto-Cavriani di Millesimo
+				mother=caretto_0107	# Marie Terezie del Caretto
 				1753.12.17={birth=yes}  # Radenín
 				1805.08.20={death=yes}  # Vorderbrühl bei Wien
 			}
@@ -8586,7 +8586,7 @@ dobrz_001={ #// E3. Jan František, *1619, +Slavíkov 1693, bur Nový Studenec u
 				dynasty=1013005
 				religion=catholic culture=czech
 				father=100047044	# Leopold Krakovský z Kolovrat
-				mother=100096532	# GFN Marie Terezie del Caretto-Cavriani di Millesimo
+				mother=caretto_0107	# Marie Terezie del Caretto
 				1756.04.17={birth=yes}  # Radenín
 				1790.02.16={add_spouse=100096874}	# Theresia von Trunkel
 				1836.05.26={death=yes}
@@ -8791,7 +8791,7 @@ dobrz_001={ #// E3. Jan František, *1619, +Slavíkov 1693, bur Nový Studenec u
 				dynasty=1013005
 				religion=catholic culture=czech
 				father=100047044	# Leopold Krakovský z Kolovrat
-				mother=100096532	# GFN Marie Terezie del Caretto-Cavriani di Millesimo
+				mother=caretto_0107	# Marie Terezie del Caretto
 				1768.03.09={birth=yes}  # Praha
 				1793.01.01={add_spouse=100096401}	# Maria Philippine d'Olislager
 				1805.10.31={death=yes}
@@ -15952,7 +15952,7 @@ dobrz_001={ #// E3. Jan František, *1619, +Slavíkov 1693, bur Nový Studenec u
 			father=100047730	# Litvín Popel z Lobkowicz
 			mother=100101838	# Ludmila Anna Zajícová z Házmburka
 			1545.01.01={birth=yes}
-			1570.01.01={add_spouse=100102719}	# Hedwig von Oppersdorf
+			1570.01.01={add_spouse=oppersdorf_0063}	# Hedvika von Oppersdorff
 			1581.05.15={add_spouse=100047766}	# Kateřina Popel z Lobkowicz
 			1583.02.24={death=yes}
 		}
@@ -15962,7 +15962,7 @@ dobrz_001={ #// E3. Jan František, *1619, +Slavíkov 1693, bur Nový Studenec u
 				dynasty=1013014
 				religion=catholic culture=czech
 				father=100047732	# Jan Popel z Lobkowicz
-				mother=100102719	# Hedwig von Oppersdorf
+				mother=oppersdorf_0063	# Hedvika von Oppersdorff
 				1580.01.01={birth=yes}
 				1623.01.01={death=yes}
 			}
@@ -18872,7 +18872,7 @@ radetzky_0001={ #// 1 Adam Jindřich RADETZKY Z RADETZE, ; m.Alžběta Salomena 
 								father=radetzky_0029	# Petr Eusebius Radetzky von Radetz
 								mother=lowborn_2916	# Marie Venantia Bechinie z Lažan
 								1766.11.02={birth=yes}  # Třebnice
-								1802.01.01={add_spouse=lowborn_2919}	# Franziska Romana Strassoldo-Gräfenberg
+								1802.01.01={add_spouse=lowborn_2919}	# Franziska Romana von Strassoldo-Graffemberg
 								1858.01.05={death=yes}  # Milán
 							}
 								radetzky_0061={ #// 53 Josef RADETZKY Z RADETZE, *1799, +1837
@@ -18880,7 +18880,7 @@ radetzky_0001={ #// 1 Adam Jindřich RADETZKY Z RADETZE, ; m.Alžběta Salomena 
 									dynasty=1013016
 									religion=catholic culture=czech
 									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel Radetzky von Radetz
-									mother=lowborn_2919	# Franziska Romana Strassoldo-Gräfenberg
+									mother=lowborn_2919	# Franziska Romana von Strassoldo-Graffemberg
 									1799.03.17={birth=yes}
 									1837.01.01={death=yes}
 								}
@@ -18889,7 +18889,7 @@ radetzky_0001={ #// 1 Adam Jindřich RADETZKY Z RADETZE, ; m.Alžběta Salomena 
 									dynasty=1013016
 									religion=catholic culture=czech
 									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel Radetzky von Radetz
-									mother=lowborn_2919	# Franziska Romana Strassoldo-Gräfenberg
+									mother=lowborn_2919	# Franziska Romana von Strassoldo-Graffemberg
 									1804.09.28={birth=yes}
 									1847.11.10={death=yes}
 								}
@@ -18899,7 +18899,7 @@ radetzky_0001={ #// 1 Adam Jindřich RADETZKY Z RADETZE, ; m.Alžběta Salomena 
 									dynasty=1013016
 									religion=catholic culture=czech
 									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel Radetzky von Radetz
-									mother=lowborn_2919	# Franziska Romana Strassoldo-Gräfenberg
+									mother=lowborn_2919	# Franziska Romana von Strassoldo-Graffemberg
 									1806.04.15={birth=yes}
 									1825.02.15={death=yes}
 								}
@@ -18908,7 +18908,7 @@ radetzky_0001={ #// 1 Adam Jindřich RADETZKY Z RADETZE, ; m.Alžběta Salomena 
 									dynasty=1013016
 									religion=catholic culture=czech
 									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel Radetzky von Radetz
-									mother=lowborn_2919	# Franziska Romana Strassoldo-Gräfenberg
+									mother=lowborn_2919	# Franziska Romana von Strassoldo-Graffemberg
 									1813.08.20={birth=yes}
 									1855.02.20={add_spouse=lowborn_2923}	# Josephine Schafarzik
 									1878.01.01={death=yes}
@@ -18990,7 +18990,7 @@ radetzky_0001={ #// 1 Adam Jindřich RADETZKY Z RADETZE, ; m.Alžběta Salomena 
 									dynasty=1013016
 									religion=catholic culture=czech
 									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel Radetzky von Radetz
-									mother=lowborn_2919	# Franziska Romana Strassoldo-Gräfenberg
+									mother=lowborn_2919	# Franziska Romana von Strassoldo-Graffemberg
 									1815.12.18={birth=yes}  # Wien
 									1866.01.01={death=yes}  # Graz
 								}
@@ -18999,7 +18999,7 @@ radetzky_0001={ #// 1 Adam Jindřich RADETZKY Z RADETZE, ; m.Alžběta Salomena 
 									dynasty=1013016
 									religion=catholic culture=czech
 									father=radetzky_0032	# Jan Josef Václav Eusebius Antonín František Karel Radetzky von Radetz
-									mother=lowborn_2919	# Franziska Romana Strassoldo-Gräfenberg
+									mother=lowborn_2919	# Franziska Romana von Strassoldo-Graffemberg
 									1817.02.08={birth=yes}
 									1847.10.06={death=yes}
 								}
@@ -21592,7 +21592,7 @@ desfours_0028={ #// Nicolas IV Desfours (Mikuláš), Privy counsellor (c.k.tajn�
 					father=desfours_0052	# Karl von Des Fours
 					mother=lowborn_2147	# Carolina Colonna de Fels
 					1730.06.22={birth=yes}  # Praha
-					1767.08.25={add_spouse=lowborn_2197}	# Maria Antonia Czerninová z Chudenic
+					1767.08.25={add_spouse=lowborn_2197}	# Maria Antonia Czernin z Chudenic
 					1822.03.22={death=yes}  # Praha
 				}
 					desfours_0092={ #// 92 Maria Gabriele DES FOURS, *Praha 1771.02.14, +Praha 1840.03.20; m.1st Praha 4.1.1792 Franz Wallis (*Praha 28.5.1769, +k.a.,Tournai,France 22.5.1794); m.2nd Praha 5.4.1799 Josef Antonín Wratislav z Mitrowicz (*Prèice 2.9.1764, +Čimelice 16.2.1830) $$
@@ -21601,7 +21601,7 @@ desfours_0028={ #// Nicolas IV Desfours (Mikuláš), Privy counsellor (c.k.tajn�
 						dynasty=1004512
 						religion=catholic culture=german
 						father=desfours_0073	# Franz von Des Fours
-						mother=lowborn_2197	# Maria Antonia Czerninová z Chudenic
+						mother=lowborn_2197	# Maria Antonia Czernin z Chudenic
 						1771.02.14={birth=yes}  # Praha
 						1840.03.20={death=yes}  # Praha
 					}
@@ -21611,7 +21611,7 @@ desfours_0028={ #// Nicolas IV Desfours (Mikuláš), Privy counsellor (c.k.tajn�
 						dynasty=1004512
 						religion=catholic culture=german
 						father=desfours_0073	# Franz von Des Fours
-						mother=lowborn_2197	# Maria Antonia Czerninová z Chudenic
+						mother=lowborn_2197	# Maria Antonia Czernin z Chudenic
 						1772.05.10={birth=yes}  # Praha
 						1813.01.01={death=yes}  # Praha
 					}
@@ -21620,7 +21620,7 @@ desfours_0028={ #// Nicolas IV Desfours (Mikuláš), Privy counsellor (c.k.tajn�
 						dynasty=1004512
 						religion=catholic culture=german
 						father=desfours_0073	# Franz von Des Fours
-						mother=lowborn_2197	# Maria Antonia Czerninová z Chudenic
+						mother=lowborn_2197	# Maria Antonia Czernin z Chudenic
 						1773.11.05={birth=yes}  # Praha
 						1799.08.01={add_spouse=100023203}	# Marie Gabriele von Trauttmansdorff-Weinsberg
 						1831.07.29={death=yes}  # Hlubocepy
@@ -21905,7 +21905,7 @@ desfours_0028={ #// Nicolas IV Desfours (Mikuláš), Privy counsellor (c.k.tajn�
 			1700.11.08={add_spouse=lowborn_2144}	# Maria Theresia von Spork
 			1743.03.13={death=yes}
 		}
-			desfours_0065={ #// 65 Marie Anna DES FOURS, *Praha 1706, +Tábor 1745.04.19; m.Choustník 5.2.1723 František Václav Caretto di Millesimo (*Vilímov 1.1.1698, +Vilímov 6.8.1760)
+			desfours_0065={ #// 65 Marie Anna DES FOURS, *Praha 1706, +Tábor 1745.04.19; m.Choustník 5.2.1723 František Václav Caretto di Millesimo (*Vilímov 1.1.1698, +Vilímov 6.8.1760) $$
 				name="Marie Anna"
 				female=yes
 				dynasty=1004512

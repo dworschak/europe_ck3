@@ -3986,19 +3986,21 @@
 					1824.06.30={birth=yes}	# Graz
 					1896.01.28={death=yes}	# Meran
 				}
-					100035352={ #// E1. Wolfgang (*Wien 9.6.1857, +Wieden, Steiermark 24.10.1896) %%
+					100035352={ #// E1. Wolfgang (*Wien 9.6.1857, +Wieden, Steiermark 24.10.1896); m.26.10.1886 Adelheid von Oppersdorff (*Eckersdorf 10.7.1861, +Meran 6.5.1893) %%
 						name=Wolfgang
 						dynasty=1002262
 						religion=lutheran culture=german
 						father=100035353	# Joseph Felix von Stubenberg
-						1857.06.09={birth=yes}	# Wien
-						1896.10.24={death=yes}	# Wieden, Steiermark
+						1857.06.09={birth=yes}  # Wien
+						1886.10.26={add_spouse=oppersdorf_0149}	# Adelheid von Oppersdorff
+						1896.10.24={death=yes}  # Wieden, Steiermark
 					}
 						100035351={ #// F1. Joseph Eduard (*22.11.1887, +20.3.1944) %%
 							name="Joseph Eduard"
 							dynasty=1002262
 							religion=lutheran culture=german
 							father=100035352	# Wolfgang von Stubenberg
+							mother=oppersdorf_0149	# Adelheid von Oppersdorff
 							1887.11.22={birth=yes}
 							1944.03.20={death=yes}
 						}
@@ -7041,201 +7043,6 @@
 			1934.09.12={birth=yes}
 		}
 # NIEROTH
-
-# OPPERSDORFF
-100035221={ #// Gfn        Juliane Esther            von Oppersdorff                          (1663-1701)     1 [ABENSBERG] $$
-	name="Juliane Esther von Oppersdorff"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1663.02.03={birth=yes}  # Ober-Glogau
-	1701.10.16={death=yes}  # Wien
-}
-100103979={ #//            Anna Franziska            von Oppersdorf                           (1690-1760)     1 [ALTHANN] $$
-	name="Anna Franziska von Oppersdorf"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1690.01.01={birth=yes}
-	1760.01.01={death=yes}
-}
-
-#oppersdorf1 http://genealogy.euweb.cz/bohemia/oppersdorf1.html
-100035258={ #               Georg                     von Oppersdorf                           (1548-1607)     - [VALDSTEJNA]
-	name="Georg von Oppersdorf"
-	#dynasty=0
-	religion=catholic culture=german
-	1548.01.01={birth=yes}
-	1586.01.01={add_spouse=100047607}	# Izalda z Valdštejna
-	1607.02.15={death=yes}
-}
-100035232={ #// G2. František Josef (Franz Joseph), +1714; m.Gfn Anna Franziska Henckel von Donnersmarck $$
-	name="Franz von Oppersdorff"
-	#dynasty=0
-	religion=lutheran culture=german
-	1675.01.01={birth=yes}
-	1700.01.01={add_spouse=100001364}	# Anna Franziska Henckel v.Donnersmarck
-	1714.05.01={death=yes}
-}
-100035257={ #// G4. Marie Barbora, *Brno (Brünn) 25.3.1658, +Velké Mezirící (Gross Meseritsch, Moravia) 4.5.1696; 1m: Brno (Brünn) 14.1./8.2.1679 Gf Maximilian Reichhard von Starhemberg (*1654, +1682); 2m: Franz Leopold Gf Vernier de Rougemont (+after 2.9.1688); 3m: Turas u Brna 6.1.1695 Arnošt František Dominik Gf Ugarte (*Wien 20.8.1658, +Velké Mezirící 5.7.1715) $$
-	name="Maria Barbara von Oppersdorff"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1658.03.25={birth=yes}  # Brno
-	1696.05.04={death=yes}  # Velké Mezirící
-}
-100035231={ #// F1. Bedřich Leopold (Friedrich Leopold), +Brno 22.1.1699; 1m: 21.1.1649 Anna Helena (Apollonia) Jakardovská ze Sudic (+Brno 23.5.1661); 2m: Hodonín (Göding) 15.4.1663 Gfn Marie Eleonore von Dietrichstein (bap St.Michael, Wien 1.1.1623, +Brno 20.3.1687); all children by 1m. $$
-	name="Friedrich Leopold von Oppersdorff"
-	#dynasty=0
-	religion=catholic culture=german
-	1638.01.01={birth=yes}  # EST.
-	1663.04.15={add_spouse=100024585}	# Marie Eleonore von Dietrichstein
-	1699.01.22={death=yes}
-}
-100103804={ #// G1. Jirí Bedřich (Georg Friedrich), +1742; 1m: Gfn Barbora Terezie z Valdštejna (+4.11.1719); 2m: Gfn Franziska Serényi de Kisserény (*1716) $$
-	name="Georg Friedrich von Oppersdorf"
-	#dynasty=0
-	religion=catholic culture=german
-	1645.01.01={birth=yes}  # EST.
-	1670.01.01={add_spouse=100047838}	# Barbora Terezie z Valdštejna
-	1742.01.01={death=yes}
-}
-100102719={ #// D4. Hedvika, *1557, +15.5.1580, bur sv.Petr a Pavel, Bílina; m.Jan mladší Popel z Lobkowicz (*1545, +24.2.1583) $$
-	name="Hedwig von Oppersdorf"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1557.01.01={birth=yes}
-	1580.05.15={death=yes}
-}
-100102164={ #// C1. Jan "Hanuš", Böhm. Herrenstand (ceský panský stav) 24.6.1554, *ca 1514, +3.7.1584, bur Horní Hlohov (Oberglogau); 1m: 1554 Christina von Zedlitz (Kristina z Cetlic); 2m: 20.2.1565 Johanna Markéta Popelovna z Lobkowicz (*1541, +17.9.1600) $$
-	name="Jan von Oppersdorf"
-	#dynasty=0
-	religion=catholic culture=czech
-	1514.01.01={birth=yes}
-	1565.02.20={add_spouse=100047731}	# Markéta Popel z Lobkowicz
-	1584.07.03={death=yes}
-}
-#oppersdorf1
-
-#oppersdorf2
-100035114={ #// D1. Eduard Georg Maria, *Oberglogau (Glogówek) 19.10.1800, +Oberglogau (Glogówek) 31.1.1889; 1m: Stibrowitz 12.7.1829 Gfn Karolina Sedlnitzky von Choltitz (*Opava 9.12.1811, +Wroclaw 12.1.1839; 2m: Wroclaw 14.5.1843 Gfn Julie Henckel von Donnersmarck (*Wroclaw 12.12.1819, +Oberglogau 11.4.1858) $$
-	name=Eduard
-	dynasty=1002205
-	religion=lutheran culture=german
-	1800.10.19={birth=yes}  # Oberglogau
-	1843.05.14={add_spouse=100001318}	# Julie Henckel v.Donnersmarck
-	1889.01.31={death=yes}  # Oberglogau
-}
-	100036999={ #// E1. Hans Eduard Franz Karl Anna Rolle, *Oberglogau (Glogówek) 25.3.1832, +Geppersdorf 12.10.1877; m.Günthersdorf 1.8.1863 Elisabeth de Talleyrand-Périgord (*Firenze 4.2.1844, +Geppersdorf 11.4.1880) $$
-		name=Hans
-		dynasty=1002205
-		religion=lutheran culture=german
-		father=100035114	# Eduard von Oppersdorff
-		1832.03.25={birth=yes}
-		1863.08.01={add_spouse=100069504}	# Elisabeth de Talleyrand-Périgord
-		1877.10.12={death=yes}
-	}	
-		100036977={ #// F2. Hans Georg Anna Eduard Karl Anton, *Oberglogau (Glogówek)8.10.1866, +Lourdes, France 21.3.1948; m.Roma 27.4.1895 Pss Dorota Radziwill (*Zegrze 31.8.1871, +Lourdes 2.11.1947) $$
-			name=Hans
-			dynasty=1002205
-			religion=catholic culture=german
-			father=100036999	# Hans von Oppersdorff
-			mother=100069504	# Elisabeth de Talleyrand-Périgord
-			1866.10.08={birth=yes}
-			1895.04.27={add_spouse=100110885}	# Dorothea Radziwiłł
-			1948.03.21={death=yes}
-		}
-			100036974={ #// G1. Wilhelm Karl Hans Georg Matthias Eduard Anton Vinzenz, *Oberglogau (Glogówek) 22.1.1896, +Gelnhausen, Bayern 5.12.1989; m.Birstein 14.8.1918 Pss Marie Louise von Isenburg (*Birstein 22.3.1897, +Birstein 9.8.1970) $$
-				name="Wilhelm Hans"
-				dynasty=1002205
-				religion=lutheran culture=german
-				father=100036977	# Hans von Oppersdorff
-				mother=100110885	# Dorothea Radziwiłł
-				1896.01.22={birth=yes}
-				1918.08.14={add_spouse=100002374}	# Marie Louise zu Isenburg-Birstein
-				1989.12.05={death=yes}
-			}
-				100036975={ #// H1. Franz Eduard Johannes Alexander Hubert Michael Maria, *Oberglogau (Glogówek) 19.6.1919, +München 25.8.1985; m.Schloss Haus, Regensburg 19.6.1955 Pss Maria Theresia von Thurn-Taxis (*Schloss Taxis 10.9.1925, +Schwaigeröd 27.4.1997) $$
-					name="Franz Eduard"
-					dynasty=1002205
-					religion=catholic culture=german
-					father=100036974	# Wilhelm Hans von Oppersdorff
-					mother=100002374	# Marie Louise zu Isenburg-Birstein
-					1919.06.19={birth=yes}
-					1955.06.19={add_spouse=100006622}	# Maria Theresia von Thurn und Taxis
-					1985.08.25={death=yes}
-				}
-				100036973={ #// H2. Hans Georg Eduard Franz Eusebius Alexander Michael Hubert Karl Maria, took for himself and his issue the name Graf von Oppersdorff-Solms-Braunfels in 1969, *Ober-Altwaltersdorf 27.11.1920; m.Braunfels (civ) 15.8.1950 (rel) 30.8.1950 Pss Marie Gabrielle zu Solms-Braunfels (*Braunfels 23.8.1918) $$
-					name="Hans Georg"
-					dynasty=1002205
-					religion=catholic culture=german
-					father=100036974	# Wilhelm Hans von Oppersdorff
-					mother=100002374	# Marie Louise zu Isenburg-Birstein
-					1920.11.27={birth=yes}  # Ober-Waltersdorf
-					1950.08.15={add_spouse=100005869}	# Marie von Solms-Braunfels
-					2003.01.21={death=yes}  # Bad Homburg vor der Höhe
-				}
-				100035247={ #// H3. Josef Ferdinand Hans Wilhelm Karl Eduard Michael Hubert Maria, *Ober-Altwaltersdorf 26.3.1922; m.(civ) Heiligenberg, Baden 18.7.1958 (rel) Birnau am Bodensee 10.9.1958 Gfn Adelheid von Schönburg-Forderglauchau (*Wechselburg bei Leipzig 19.5.1935) $$
-					name="Josef Ferdinand"
-					dynasty=1002205
-					religion=catholic culture=german
-					father=100036974	# Wilhelm Hans von Oppersdorff
-					mother=100002374	# Marie Louise zu Isenburg-Birstein
-					1922.03.26={birth=yes}  # Ober-Altwaltersdorf
-					1958.07.18={add_spouse=100008983}	# Maria von Schönburg-Forderglauchau
-					2008.07.08={death=yes}  # München
-				}
-			100035236={ #// G4. Maria Annunciata Hedwig Elisabeth Adele, *Oberglogau (Glogówek) 20.5.1899, +Bruxelles 14.6.1990; 1m: Kraków 14.9.1922 Gf Pawel Sapieha (*Gumniska, Tarnow 4.5.1888, +Rochester, NY 1.8.1973); 2m: Nice (civ) 15.1.1976 (rel) 17.1.1976 Gf Aleksander Sapieha (*Oleszyce 24.11.1888, +Nice 16.12.1980) $$
-				name=Maria
-				female=yes
-				dynasty=1002205
-				religion=lutheran culture=german
-				father=100036977	# Hans von Oppersdorff
-				mother=100110885	# Dorothea Radziwiłł
-				1899.05.20={birth=yes}
-				1990.06.14={death=yes}
-			}
-	100035016={ #// E2. Karl Eduard Franz Anton, *Oberglogau (Glogówek)4.6.1834, +Lassoth, Schlesien 3.3.1865; m.Bozków (Eckersdorf) 6.9.1856 Gfn Sophie von Magnis (*Dresden 8.10.1835, +Merano 17.5.1884)
-		name=Karl
-		dynasty=1002205
-		religion=lutheran culture=german
-		father=100035114	# Eduard von Oppersdorff
-		1834.06.04={birth=yes}
-		1865.03.03={death=yes}
-	}
-		100036976={ #// F1. Johannes (Hans) Anton Ludwig, *Lassoth 26.10.1858, +Thomaswaldau 22/23.11.1943; 1m: Wien 15.8.1886 Gfn Sophie von und zu Trauttmansdorff-Weinsberg (*Ober-Waltersdorf, Niederösterreich 19.7.1859, +Thomaswaldau 17.8.1898); 2m: Veselí nad Moravou 30.10.1899 Mathilda Chorynská z Ledské (*Veselí nad Moravou 15.1.1871, +Thomaswaldau 29.6.1936) $$
-			name=Johannes
-			dynasty=1002205
-			religion=catholic culture=german
-			father=100035016	# Karl von Oppersdorff
-			1858.10.26={birth=yes}
-			1886.08.15={add_spouse=100023404}	# Sophie von Trauttmansdorff-Weinsberg
-			1943.11.23={death=yes}
-		}
-			100036989={ #// G1. Sophie Anna Eduardine, *Dambrau 28.7.1887, +Schloss Sandsee bei Pleinfeld 10.2.1973; m.Tomkovice (Thomaswaldau) 20.1.1908 Gf Friedrich Schaffgotsch gen. Semperfrei von und zu Kynast und Greiffenstein (*Warmbrunn 18.2.1883, +Ellingen 26.5.1947) $$
-				name=Sophie
-				female=yes
-				dynasty=1002205
-				religion=catholic culture=german
-				father=100036976	# Johannes von Oppersdorff
-				mother=100023404	# Sophie von Trauttmansdorff-Weinsberg
-				1887.07.28={birth=yes}  # Dambrau
-				1973.02.10={death=yes}  # Schloß Sandsee
-			}
-			100036978={ #// G3. Maria Karoline Josephine, *Dambrau 1.4.1891, +16.6.1963; m.Tomkowice (Thomaswaldau) 21.6.1910 Gf Felix Dionys Hoyos, Frhr zu Stichsenstein (*Lauterbach 10.4.1878, +Liebichau, Silesia 25.10.1939) $$
-				name="Maria Karoline"
-				female=yes
-				dynasty=1002205
-				religion=catholic culture=german
-				father=100036976	# Johannes von Oppersdorff
-				mother=100023404	# Sophie von Trauttmansdorff-Weinsberg
-				1891.04.01={birth=yes}  # Dambrau
-				1963.06.16={death=yes}
-			}
-#oppersdorf2
-# OPPERSDORFF
 
 # HAUGWITZ
 100036849={ #// Karl von Haugwitz (*3.3.1874, +21.9.1948); m.30.4.1914 Karoline Marie von Thun u.Hohenstein (*31.12.1887, +14.6.1967) %%
