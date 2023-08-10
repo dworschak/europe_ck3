@@ -14605,9 +14605,14 @@ e_germany = {
 					color = { 21 107 21 }
 					color2 = { 255 255 255 }
 				}
-				b_gera = {
-					province = 3038
-					color = { 21 107 21 }
+			}
+			c_eisenach = {
+				color = { 88 94 70 }
+				color2 = { 255 255 255 }
+				
+				b_eisenach = {
+					province = 3009
+					color = { 88 94 70 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -14631,13 +14636,28 @@ e_germany = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_lobdaburg = {
+			c_jena = {
 				color = { 71 87 68 }
 				color2 = { 255 255 255 }
 				
-				b_lobdaburg = {
+				b_jena = {
 					province = 3003
 					color = { 71 87 68 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_meiningen = {
+				color = { 21 79 93 }
+				color2 = { 255 255 255 }
+				
+				b_meiningen = {
+					province = 2925
+					color = { 21 79 93 }
+					color2 = { 255 255 255 }
+				}
+				b_saalfeld = {
+					province = 9666
+					color = { 21 79 93 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -14666,6 +14686,21 @@ e_germany = {
 					color2 = { 255 255 255 }
 				}
 			}
+			c_reuss = {
+				color = { 71 129 24 }
+				color2 = { 255 255 255 }
+				
+				b_gera = {
+					province = 3038
+					color = { 71 129 24 }
+					color2 = { 255 255 255 }
+				}
+				b_greiz = {
+					province = 9667
+					color = { 71 129 24 }
+					color2 = { 255 255 255 }
+				}
+			}
 			c_schmalkalden = {
 				color = { 21 95 19 }
 				color2 = { 255 255 255 }
@@ -14675,24 +14710,34 @@ e_germany = {
 					color = { 21 95 19 }
 					color2 = { 255 255 255 }
 				}
-				b_henneberg = {
-					province = 2925
-					color = { 21 95 19 }
-					color2 = { 255 255 255 }
-				}
-				b_eisenach = {
-					province = 3009
-					color = { 21 95 19 }
-					color2 = { 255 255 255 }
-				}
 				b_gleichen = {
 					province = 3006
 					color = { 21 95 19 }
 					color2 = { 255 255 255 }
 				}
-				b_beichtinen = {
+			}
+			c_sondershausen = {
+				color = { 46 82 63 }
+				color2 = { 255 255 255 }
+				
+				b_sondershausen = {
+					province = 9668
+					color = { 46 82 63 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_weimar = {
+				color = { 55 92 69 }
+				color2 = { 255 255 255 }
+				
+				b_weimar = {
 					province = 3007
-					color = { 21 95 19 }
+					color = { 55 92 69 }
+					color2 = { 255 255 255 }
+				}
+				b_neustadt = {
+					province = 9665
+					color = { 55 92 69 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -44819,15 +44864,24 @@ e_scandinavia = {
 			color2 = { 255 255 255 }
 			
 			capital = c_viipuri
+			cultural_names = {
+				name_list_russian = cn_karelija
+			}
 			
 			c_viipuri = {
 				color = { 68 162 101 }
 				color2 = { 255 255 255 }
+				cultural_names = {
+					name_list_russian = cn_vyborg
+				}
 				
 				b_viipuri = {
 					province = 182
 					color = { 68 162 101 }
 					color2 = { 255 255 255 }
+					cultural_names = {
+						name_list_russian = cn_vyborg
+					}
 				}
 				b_koivisto = {
 					province = 173

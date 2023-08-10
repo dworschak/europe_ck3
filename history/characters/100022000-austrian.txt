@@ -27217,7 +27217,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			religion=catholic culture=bavarian
 			father=100024649	# Karl Joseph von Trauttmansdorff-Weinsberg
 			mother=100186030	# Johanna Kinsky von Wchinitz u.Tettau
-			1922.06.02={birth=yes}  # Bischofteinitz ) Bohemia
+			1922.06.02={birth=yes}  # Bischofteinitz
 			1944.07.05={death=yes}  # Pinsk
 		}
 		100024693={ #// B2. Rudolf, 6.Fürst von und zu Trauttmansdorff-Weinsberg, *Horšovský Týn (Bischofteinitz), Bohemia 18.11.1923, +Wien 12.4.1994; m.Vinsebeck bei Steinheim, Westfalen 27.8.1958 (rel) 5.2.1959 Sybilla von Gersdorff, Gfn Wolff Metternich zur Gracht (*Göttingen 12.8.1930) $$
@@ -27280,7 +27280,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			religion=catholic culture=bavarian
 			father=100024649	# Karl Joseph von Trauttmansdorff-Weinsberg
 			mother=100186030	# Johanna Kinsky von Wchinitz u.Tettau
-			1926.06.21={birth=yes}  # Bischofteinitz ) Bohemia
+			1926.06.21={birth=yes}  # Bischofteinitz
 			1955.10.18={add_spouse=100036389}	# Pauline von Galen
 			1972.01.01={remove_spouse=100036389}
 			1974.12.20={add_spouse=100080621}	# Nora Bethune Goldie
@@ -35190,3 +35190,238 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 											1628.01.01={death=yes}
 										}
 ## KHUEN 1011580 1002238
+
+## UGARTE
+ugarte_0001={ #// 1 Francisco UGARTE, 
+	name=Francisco
+	dynasty=ugarte
+	religion=catholic culture=german
+	1506.01.01={birth=yes}  # EST.
+	1566.01.01={death=yes}  # EST.
+}
+	ugarte_0002={ #// 2 Diego Fernandez DE UGARTE, +1630; m.Magdalena de Murga
+		name="Diego Fernandez"
+		dynasty=ugarte
+		religion=catholic culture=german
+		father=ugarte_0001	# Francisco Ugarte
+		1561.01.01={birth=yes}  # EST.
+		1586.01.01={add_spouse=lowborn_2165}	# Magdalena de Murga
+		1630.01.01={death=yes}
+	}
+		ugarte_0003={ #// 3 Petr UGARTE, +1643
+			name=Petr
+			dynasty=ugarte
+			religion=catholic culture=german
+			father=ugarte_0002	# Diego Fernandez Ugarte
+			mother=lowborn_2165	# Magdalena de Murga
+			1585.01.01={birth=yes}  # EST.
+			1643.01.01={death=yes}
+		}
+			ugarte_0004={ #// 4 Joseph Peter VON UGARTE, +1676; m.Cordula von Mühlfelder
+				name="Joseph Peter"
+				dynasty=ugarte
+				religion=catholic culture=german
+				father=ugarte_0003	# Petr Ugarte
+				1610.01.01={birth=yes}  # EST.
+				1634.01.01={add_spouse=lowborn_2774}	# Cordula von Mühlfelder
+				1676.01.01={death=yes}
+			}
+				ugarte_0005={ #// 5 Petr UGARTE, +1679; m.1st Eleonore Katharina von Verdenberg; m.2nd Terezie Žďárská ze Žďáru (+1705)
+					name=Petr
+					dynasty=ugarte
+					religion=catholic culture=german
+					father=ugarte_0004	# Joseph Peter Ugarte
+					mother=lowborn_2774	# Cordula von Mühlfelder
+					1635.01.01={birth=yes}  # EST.
+					1661.01.01={add_spouse=lowborn_2835}	# Eleonore Katharina von Verdenberg
+					1666.01.01={add_spouse=lowborn_2837}	# Terezie Žďárská ze Žďáru
+					1679.01.01={death=yes}
+				}
+					ugarte_0007={ #// 7 Arnošt František Dominik UGARTE, *Wien 1658.08.20, +Velké Meziříčí 1715.07.05; m.1st 1.1.1687 Eva Eleonora Lažanská z Bukové; m.2nd Marie Magdalena Kustošová ze Zubří; m.3rd Turas u Brna 6.1.1695 Marie Barbora z Oppersdorfu (+Velké Meziříčí 4.5.1696); m.4th 1.1.1698 Marie Rebeka z Bubna A Litic (*1674, +Praha 21.8.1746) $$
+						name=Arnošt
+						dynasty=ugarte
+						religion=catholic culture=german
+						father=ugarte_0005	# Petr Ugarte
+						mother=lowborn_2835	# Eleonore Katharina von Verdenberg
+						1658.08.20={birth=yes}  # Wien
+						1687.01.01={add_spouse=lowborn_2856}	# Eva Eleonora Lažanská z Bukové
+						1691.01.01={add_spouse=lowborn_2857}	# Marie Magdalena Kustošová ze Zubří
+						1695.01.06={add_spouse=oppersdorf_0058}	# Marie Barbora von Oppersdorff
+						1698.01.01={add_spouse=lowborn_2859}	# Marie Rebeka z Bubna a Litic
+						1715.07.05={death=yes}  # Velké Meziříčí
+					}
+						ugarte_0009={ #// 9 Marie Josefa UGARTE, *1705, +Žádlovice 1754.02.17; m.zámek Velké Meziříčí 1.1.1725 Petr Bukùvka z Bukùvky (*26.2.1692, +Žádlovice 24.6.1742)
+							name="Marie Josefa"
+							female=yes
+							dynasty=ugarte
+							religion=catholic culture=german
+							father=ugarte_0007	# Arnošt Ugarte
+							mother=lowborn_2859	# Marie Rebeka z Bubna a Litic
+							1705.01.10={birth=yes}
+							1754.02.17={death=yes}  # Žádlovice
+						}
+						ugarte_0011={ #// 11 Johann UGARTE, *1707.12.13, +Karlovy Vary, buried in hrobka u kapucín 1756.06.11
+							name=Johann
+							dynasty=ugarte
+							religion=catholic culture=german
+							father=ugarte_0007	# Arnošt Ugarte
+							mother=lowborn_2859	# Marie Rebeka z Bubna a Litic
+							1707.12.13={birth=yes}
+							1756.06.11={death=yes}  # Karlovy Vary, buried in hrobka u kapucín
+						}
+							ugarte_0015={ #// 15 Maria Anna UGARTE, *1737, +1798; m.1st Jan Nepomuk Hausperský z Fanalu (*1737, +29.8.1791); m.2nd 1.1.1797 Jan Baptista Mitrowský z Mitrowitz
+								name="Maria Anna"
+								female=yes
+								dynasty=ugarte
+								religion=catholic culture=german
+								father=ugarte_0011	# Johann Ugarte
+								1737.01.01={birth=yes}
+								1798.02.21={death=yes}
+							}
+							ugarte_0016={ #// 16 Maria Josepha UGARTE, *1739, +1800; m.Procop Sigismund von Klebelsberg (+1819)
+								name="Maria Josepha"
+								female=yes
+								dynasty=ugarte
+								religion=catholic culture=german
+								father=ugarte_0011	# Johann Ugarte
+								1739.01.01={birth=yes}
+								1800.12.18={death=yes}
+							}
+							ugarte_0018={ #// 18 Johann Wenzel UGARTE, *1748, +1796; m.19.5.1778 Maria Anna von Windisch-Grätz (*11.9.1754, +27.10.1831)
+								name="Johann Wenzel"
+								dynasty=ugarte
+								religion=catholic culture=german
+								father=ugarte_0011	# Johann Ugarte
+								1748.10.01={birth=yes}
+								1778.05.19={add_spouse=lowborn_2865}	# Maria Anna von Windisch-Grätz
+								1796.10.27={death=yes}
+							}
+								ugarte_0021={ #// 21 Maximilian UGARTE, *Wien 1781.02.19, +Rosice 1831.09.13; m.21.6.1802 Gabriele von Lützow (*25.5.1786, +Jevišovice 12.5.1831)
+									name=Maximilian
+									dynasty=ugarte
+									religion=catholic culture=german
+									father=ugarte_0018	# Johann Wenzel Ugarte
+									mother=lowborn_2865	# Maria Anna von Windisch-Grätz
+									1781.02.19={birth=yes}  # Wien
+									1802.06.21={add_spouse=lowborn_2867}	# Gabriele von Lützow
+									1831.09.13={death=yes}  # Rosice
+								}
+									ugarte_0027={ #// 27 Louisa UGARTE, *Wien 1803.04.24, +Wien 1875.02.10; m.18.11.1832 Constantin von Lodron-Laterano (*18.4.1806, +Wien 21.2.1880) $$
+										name=Louisa
+										female=yes
+										dynasty=ugarte
+										religion=catholic culture=german
+										father=ugarte_0021	# Maximilian Ugarte
+										mother=lowborn_2867	# Gabriele von Lützow
+										1803.04.24={birth=yes}  # Wien
+										1875.02.10={death=yes}  # Wien
+									}
+									ugarte_0028={ #// 28 Josef UGARTE, *Brno 1804.10.26, +pád z koně,Schönau bei Wien 1862.07.27; m.1st 15.1.1842 Helene von Stackelberg (*Napoli 20.8.1820, +Karlsruhe, Baden 12.2.1843); m.2nd 24.6.1845 Elisabeth von Rochow-Briest (*Berlin 14.5.1822, +Frankfurt am Main 26.8.1896)
+										name=Josef
+										dynasty=ugarte
+										religion=catholic culture=german
+										father=ugarte_0021	# Maximilian Ugarte
+										mother=lowborn_2867	# Gabriele von Lützow
+										1804.10.26={birth=yes}  # Brno
+										1842.01.15={add_spouse=lowborn_2870}	# Helene von Stackelberg
+										1845.06.24={add_spouse=lowborn_2871}	# Elisabeth von Rochow-Briest
+										1862.07.27={death=yes}  # pád z koně,Schönau bei Wien
+									}
+										ugarte_0030={ #// 30 Gabriela UGARTE, *Linz 1848.06.11, +Edelsbach bei Graz 1935; m.Firenze 9.6.1866 Carlo Lovatelli
+											name=Gabriela
+											female=yes
+											dynasty=ugarte
+											religion=catholic culture=german
+											father=ugarte_0028	# Josef Ugarte
+											mother=lowborn_2871	# Elisabeth von Rochow-Briest
+											1848.06.11={birth=yes}  # Linz
+											1935.01.29={death=yes}  # Edelsbach bei Graz
+										}
+										ugarte_0031={ #// 31 Maximilian UGARTE, *1851.05.13, +San Remo bei Nizza 1875.02.03
+											name=Maximilian
+											dynasty=ugarte
+											religion=catholic culture=german
+											father=ugarte_0028	# Josef Ugarte
+											mother=lowborn_2871	# Elisabeth von Rochow-Briest
+											1851.05.13={birth=yes}
+											1875.02.03={death=yes}  # San Remo bei Nizza
+										}
+										ugarte_0032={ #// 32 Anna UGARTE, *1855, +1905; m.1.1.1875 Heinrich Hektor Baltazzi
+											name=Anna
+											female=yes
+											dynasty=ugarte
+											religion=catholic culture=german
+											father=ugarte_0028	# Josef Ugarte
+											mother=lowborn_2871	# Elisabeth von Rochow-Briest
+											1855.05.01={birth=yes}
+											1905.01.01={death=yes}
+										}
+								ugarte_0022={ #// 22 Alois UGARTE, *1784, +1845; m.3.6.1810 Ernestine Troyer von Troyenstein zu Gispach und Strassried (*6.7.1786, +15.1.1839)
+									name=Alois
+									dynasty=ugarte
+									religion=catholic culture=german
+									father=ugarte_0018	# Johann Wenzel Ugarte
+									mother=lowborn_2865	# Maria Anna von Windisch-Grätz
+									1784.03.09={birth=yes}
+									1810.06.03={add_spouse=lowborn_2868}	# Ernestine Troyer von Troyenstein
+									1845.04.25={death=yes}
+								}
+									ugarte_0029={ #// 29 Aloisie UGARTE, *1813.03.16, +Torre del Greco u Neapole 1887.06.30; m.1st Kroměříž 7.6.1836 Vilém Chotek z Chotkova A Vojnína (*17.9.1803, +10.2.1850); m.2nd 23.10.1850 Clemens August von Gudenau (*Gundenau 4.5.1806, +Napoli 18.1.1857) $$
+										name=Aloisie
+										female=yes
+										dynasty=ugarte
+										religion=catholic culture=german
+										father=ugarte_0022	# Alois Ugarte
+										mother=lowborn_2868	# Ernestine Troyer von Troyenstein
+										1813.03.16={birth=yes}
+										1887.06.30={death=yes}  # Torre del Greco u Neapole
+									}
+								ugarte_0024={ #// 24 Maria Josephine UGARTE, *1789, +1881
+									name="Maria Josephine"
+									female=yes
+									dynasty=ugarte
+									religion=catholic culture=german
+									father=ugarte_0018	# Johann Wenzel Ugarte
+									mother=lowborn_2865	# Maria Anna von Windisch-Grätz
+									1789.11.04={birth=yes}
+									1881.01.01={death=yes}
+								}
+								ugarte_0025={ #// 25 Philippine UGARTE, *1796, +1876
+									name=Philippine
+									female=yes
+									dynasty=ugarte
+									religion=catholic culture=german
+									father=ugarte_0018	# Johann Wenzel Ugarte
+									mother=lowborn_2865	# Maria Anna von Windisch-Grätz
+									1796.04.05={birth=yes}
+									1876.01.01={death=yes}
+								}
+							ugarte_0019={ #// 19 Alois UGARTE, *1749, +1817; m.Wien 12.5.1777 Marie Josefa Czerninová z Chudenic (*Praha 21.12.1748, +Baden bei Wien 8.7.1811) $$
+								name=Alois
+								dynasty=ugarte
+								religion=catholic culture=german
+								father=ugarte_0011	# Johann Ugarte
+								1749.01.01={birth=yes}
+								1777.05.12={add_spouse=100186211}	# Maria Josepha Czernin v.u.zu Chudenitz
+								1817.11.18={death=yes}
+							}
+						ugarte_0012={ #// 12 Franz Ferdinand UGARTE, *1709, +1740
+							name="Franz Ferdinand"
+							dynasty=ugarte
+							religion=catholic culture=german
+							father=ugarte_0007	# Arnošt Ugarte
+							mother=lowborn_2859	# Marie Rebeka z Bubna a Litic
+							1709.01.18={birth=yes}
+							1740.01.01={death=yes}
+						}
+					ugarte_0008={ #// 8 Maria Maximiliana UGARTE, +1711; m.František Karel Záruba z Hustířan (*1658, +1714)
+						name="Maria Maximiliana"
+						female=yes
+						dynasty=ugarte
+						religion=catholic culture=german
+						father=ugarte_0005	# Petr Ugarte
+						mother=lowborn_2837	# Terezie Žďárská ze Žďáru
+						1660.01.01={birth=yes}  # EST.
+						1711.01.01={death=yes}
+					}
+## UGARTE
