@@ -352,14 +352,6 @@ lowborn_2652={ # Cte        Girolamo                  Riario Forli              
 	1585.01.01={add_spouse=100071099}	# Isabella Farnese
 	1638.08.20={death=yes}  # Borgonovo
 }
-100100222={ #    Contessa   Caterina                  Sforza di Forli                          (1462-1509)  0  0
-	name="Caterina Sforza di Forli"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1462.01.01={birth=yes}
-	1509.05.28={death=yes}
-}
 100092060={ #    Duke       Ludovico                  Sforza di Onano                          (1618-1685)     - [COLONA]
 	name="Ludovico Sforza di Onano"
 	#dynasty=0
@@ -456,7 +448,7 @@ lowborn_3609={ # Cte        François                  Colonna d'Istria         
 	1922.01.01={birth=yes}
 	2011.09.01={death=yes}
 }
-100081579={ #               Beatrice                  Colonna di Giovellina                    (1943-    )     1 [SAUMBURG]
+100081579={ #               Beatrice                  Colonna di Giovellina                    (1943-    )     1 [LIPE]
 	name="Beatrice Colonna di Giovellina"
 	female=yes
 	#dynasty=0
@@ -611,6 +603,93 @@ lowborn_2596={ # Cte        Achille                   Rossi                     
 	religion=catholic culture=german
 	1896.01.01={birth=yes}
 	1980.01.01={death=yes}
+}
+
+lowborn_2754={ # Gf         Joseph                    Carafa                                   (1685-1729)     - [OPERSDORF]
+	name="Joseph Carafa"
+	religion=lutheran culture=italian
+	1685.01.01={birth=yes}  # Napoli
+	1721.07.12={add_spouse=oppersdorf_0034}	# Anna von Oppersdorff
+	1729.01.01={death=yes}  # Wien
+}
+100096696={ #               Francesco                 Carafa                                   (1697-1772)     - [BONCOMPAGNI]
+	name="Francesco Carafa"
+	#dynasty=0
+	religion=catholic culture=italian
+	1697.01.01={birth=yes}
+	1722.01.01={add_spouse=100070164}	# Francesca Cecilia Boncompagni-Ludovisi
+	1772.01.01={death=yes}
+}
+100093233={ #    Dss        Monica                    Carafa                                   (1750-1825)     4 [COLONA]
+	name="Monica Carafa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1750.01.01={birth=yes}  # EST.
+	1825.01.01={death=yes}  # EST.
+}
+100098369={ #    don        Francesco                 Carafa                                   (1853-1917)     - [RUFO]
+	name="Francesco Carafa"
+	#dynasty=0
+	religion=catholic culture=sicilian
+	1853.02.12={birth=yes}  # Naples
+	1881.10.12={add_spouse=100071809}	# Maria Giovanna Ruffo di Bagnara
+	1917.11.01={death=yes}  # Naples
+}
+100094111={ #    Marchesa   Elena Primicile           Carafa                                   (1875-1950)     0 [CAPECE]
+	name="Elena Primicile Carafa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1875.01.01={birth=yes}  # EST.
+	1950.01.01={death=yes}  # EST.
+}
+lowborn_4044={ # Pr         Francesco                 Carafa della Spina                       (1829-1909)     - [PIGNATELI]
+	name="Francesco Carafa della Spina"
+	#dynasty=0
+	religion=catholic culture=italian
+	1829.08.06={birth=yes}
+	1855.08.03={add_spouse=belmonte_0049}	# Teresa Pignatelli
+	1909.11.09={death=yes}
+}
+lowborn_1635={ # Donna      Eleonora                  Carafa della Stadera                     (1727-1765)     6 [DORIA]
+	name="Eleonora Carafa della Stadera"
+	female=yes
+	religion=catholic culture=italian
+	1727.01.01={birth=yes}  # Naples
+	1765.03.01={death=yes}  # Genoa
+}
+100090894={ #    Donna      Diana                     Carafa di Laurino                        (1632-1697)     1 [CAPECE]
+	name="Diana Carafa di Laurino"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1632.06.16={birth=yes}  # Laurino
+	1697.07.18={death=yes}
+}
+100100282={ #    Duke       N                         Carafa di Mondragone                     (1535-1610)     - [GONZAGA]
+	name="N Carafa di Mondragone"
+	#dynasty=0
+	religion=catholic culture=italian
+	1535.01.01={birth=yes}
+	1555.01.01={add_spouse=100072508}	# Ippolita Gonzaga
+	1610.01.01={death=yes}  # EST.
+}
+100094102={ #               Laura                     Carafa di Montecalvo                     (1698-1786)     1 [CAPECE]
+	name="Laura Carafa di Montecalvo"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1698.02.26={birth=yes}
+	1786.07.31={death=yes}
+}
+100081251={ #               Vincenzo                  Carafa-Cantelmo-Stuart                   (1870-1918)     - [COLONA]
+	name="Vincenzo Carafa-Cantelmo-Stuart"
+	#dynasty=0
+	religion=catholic culture=italian
+	1870.02.18={birth=yes}
+	1904.08.15={add_spouse=100070914}	# Maria Assunta Colonna
+	1918.10.16={death=yes}
 }
 
 lowborn_2643={ #            Dorotea                   Gonzaga                                  (1449-1467)     1 [SFORZA]
@@ -942,85 +1021,6 @@ lowborn_2035={ #            Eugenia                   Spinola                   
 	2010.01.01={death=yes}  # EST.
 }
 
-lowborn_2754={ # Gf         Joseph                    Carafa                                   (1685-1729)     - [OPERSDORF]
-	name="Joseph Carafa"
-	religion=lutheran culture=italian
-	1685.01.01={birth=yes}  # Napoli
-	1721.07.12={add_spouse=oppersdorf_0034}	# Anna von Oppersdorff
-	1729.01.01={death=yes}  # Wien
-}
-100096696={ #               Francesco                 Carafa                                   (1697-1772)     - [BONCOMPAGNI]
-	name="Francesco Carafa"
-	#dynasty=0
-	religion=catholic culture=italian
-	1697.01.01={birth=yes}
-	1722.01.01={add_spouse=100070164}	# Francesca Cecilia Boncompagni-Ludovisi
-	1772.01.01={death=yes}
-}
-100093233={ #    Dss        Monica                    Carafa                                   (1750-1825)     4 [COLONA]
-	name="Monica Carafa"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1750.01.01={birth=yes}  # EST.
-	1825.01.01={death=yes}  # EST.
-}
-100098369={ #    don        Francesco                 Carafa                                   (1853-1917)     - [RUFO]
-	name="Francesco Carafa"
-	#dynasty=0
-	religion=catholic culture=sicilian
-	1853.02.12={birth=yes}  # Naples
-	1881.10.12={add_spouse=100071809}	# Maria Giovanna Ruffo di Bagnara
-	1917.11.01={death=yes}  # Naples
-}
-lowborn_4044={ # Pr         Francesco                 Carafa della Spina                       (1829-1909)     - [PIGNATELI]
-	name="Francesco Carafa della Spina"
-	#dynasty=0
-	religion=catholic culture=italian
-	1829.08.06={birth=yes}
-	1855.08.03={add_spouse=belmonte_0049}	# Teresa Pignatelli
-	1909.11.09={death=yes}
-}
-lowborn_1635={ # Donna      Eleonora                  Carafa della Stadera                     (1727-1765)     6 [DORIA]
-	name="Eleonora Carafa della Stadera"
-	female=yes
-	religion=catholic culture=italian
-	1727.01.01={birth=yes}  # Naples
-	1765.03.01={death=yes}  # Genoa
-}
-100090894={ #    Donna      Diana                     Carafa di Laurino                        (1632-1697)     1 [CAPECE]
-	name="Diana Carafa di Laurino"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1632.06.16={birth=yes}  # Laurino
-	1697.07.18={death=yes}
-}
-100100282={ #    Duke       N                         Carafa di Mondragone                     (1535-1610)     - [GONZAGA]
-	name="N Carafa di Mondragone"
-	#dynasty=0
-	religion=catholic culture=italian
-	1535.01.01={birth=yes}
-	1555.01.01={add_spouse=100072508}	# Ippolita Gonzaga
-	1610.01.01={death=yes}  # EST.
-}
-100094102={ #               Laura                     Carafa di Montecalvo                     (1698-1786)     1 [CAPECE]
-	name="Laura Carafa di Montecalvo"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1698.02.26={birth=yes}
-	1786.07.31={death=yes}
-}
-100081251={ #               Vincenzo                  Carafa-Cantelmo-Stuart                   (1870-1918)     - [COLONA]
-	name="Vincenzo Carafa-Cantelmo-Stuart"
-	#dynasty=0
-	religion=catholic culture=italian
-	1870.02.18={birth=yes}
-	1904.08.15={add_spouse=100070914}	# Maria Assunta Colonna
-	1918.10.16={death=yes}
-}
-
 100100259={ #    Donna      Vittoria                  Doria                                    (1569-1618)     5 [GONZAGA]
 	name="Vittoria Doria"
 	female=yes
@@ -1089,6 +1089,71 @@ lowborn_1492={ # Donna      Giovanna                  Doria di Tursi            
 	religion=catholic culture=italian
 	1727.01.01={birth=yes}  # Naples
 	1765.03.01={death=yes}  # Genoa
+}
+
+100100910={ #               Giulia                    della Rovere                             (1527-1563)     3 [ESTE]
+	name="Giulia della Rovere"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1527.01.01={birth=yes}
+	1563.04.04={death=yes}
+}
+100100245={ #               Federico Ubaldo           della Rovere                             (1605-1623)     - [MEDICI]
+	name="Federico Ubaldo della Rovere"
+	#dynasty=0
+	religion=catholic culture=italian
+	1605.05.16={birth=yes}
+	1621.01.01={add_spouse=100072452}	# Claudia de' Medici
+	1623.06.28={death=yes}
+}
+100091680={ #    Cssa       Maria Genoveva            della Rovere de Monte                    (1741-1810)     1 [FUNFKIRCHEN]
+	name="Maria Genoveva della Rovere de Monte"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1741.08.28={birth=yes}
+	1810.12.09={death=yes}  # Wien
+}
+100100283={ #    Duca       Francesco                 della Rovere di Urbino                   (1490-1538)     - [GONZAGA]
+	name="Francesco della Rovere di Urbino"
+	#dynasty=0
+	religion=catholic culture=czech
+	1490.03.22={birth=yes}
+	1507.01.01={add_spouse=100072510}	# Eleonora Gonzaga
+	1538.10.21={death=yes}
+}
+100088697={ #    Duke       Guidobaldo                della Rovere di Urbino                   (1514-1574)     - [FARNESE]
+	name="Guidobaldo della Rovere di Urbino"
+	#dynasty=0
+	religion=catholic culture=italian
+	1514.04.02={birth=yes}  # Urbino
+	1547.06.29={add_spouse=100071014}	# Vittoria Farnese
+	1574.09.28={death=yes}  # Pesaro
+}
+100100890={ #    Duca       Francesco                 della Rovere di Urbino                   (1548-1631)     - [ESTE]
+	name="Francesco della Rovere di Urbino"
+	#dynasty=0
+	religion=catholic culture=italian
+	1548.01.01={birth=yes}
+	1570.01.01={add_spouse=100071020}	# Lucrezia d  Este
+	1576.01.01={remove_spouse=100071020}
+	1631.01.01={death=yes}
+}
+100100236={ #    Dss        Vittoria                  della Rovere di Urbino                   (1622-1695)     2 [MEDICI]
+	name="Vittoria della Rovere di Urbino"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1622.02.07={birth=yes}
+	1695.03.06={death=yes}
+}
+lowborn_2726={ # Gfn        Maria Walpurga            della Rovere-Montelabate                 (1737-1787)     1 [LAMBERG]
+	name="Maria Walpurga della Rovere-Montelabate"
+	female=yes
+	religion=catholic culture=german
+	1737.02.03={birth=yes}
+	1787.04.26={death=yes}
 }
 
 100081202={ #    Cte        Paolo                     Campello della Spina                     (1829-1917)     - [BONAPARTE]
@@ -1256,62 +1321,58 @@ lowborn_2469={ #            Julio                     Ferrari                   
 	1764.02.11={death=yes}  # Innsbruck
 }
 
-100100910={ #               Giulia                    della Rovere                             (1527-1563)     3 [ESTE]
-	name="Giulia della Rovere"
+100094032={ #    Cte        Camillo                   Zileri                                   (1830-1896)     - [LUCHESI]
+	name="Camillo Zileri"
+	#dynasty=0
+	religion=catholic culture=italian
+	1830.08.25={birth=yes}
+	1856.10.30={add_spouse=100071454}	# Clementina Lucchesi Palli
+	1896.08.31={death=yes}
+}
+100094033={ #    Cte        Luchino                   Zileri dal Verme                         (1932-1994)     - [MASIMO]
+	name="Luchino Zileri dal Verme"
+	#dynasty=0
+	religion=catholic culture=italian
+	1932.12.23={birth=yes}  # Rome
+	1958.06.07={add_spouse=100071584}	# Maria Cristina Massimo-Lancellotti
+	1994.05.19={death=yes}  # Arola
+}
+100099157={ #    Cte        Federico                  Zileri dal Verme                         (1968-    )     - [RUSPOLI]
+	name="Federico Zileri dal Verme"
+	#dynasty=0
+	religion=catholic culture=italian
+	1968.01.01={birth=yes}  # EST.
+	1993.02.20={add_spouse=100072412}	# Flavia Ruspoli
+}
+100094034={ #               Enrico                    Zileri dal Verme degli Obbizi            (1857-1937)     - [LOULE]
+	name="Enrico Zileri dal Verme degli Obbizi"
+	religion=catholic culture=portuguese
+	1857.07.30={birth=yes}
+	1885.01.01={add_spouse=100033329}	# Maria do Carmo de Mendoça de Loulé
+	1937.12.29={death=yes}
+}
+100094036={ #               Roberto                   Zileri dal Verme degli Obbizi            (1858-1937)     - [MASIMO]
+	name="Roberto Zileri dal Verme degli Obbizi"
+	#dynasty=0
+	religion=catholic culture=italian
+	1858.10.25={birth=yes}  # Parma
+	1885.06.21={add_spouse=100071555}	# Maria Gabriella Massimo-Lancellotti
+	1937.02.28={death=yes}  # Vicenza
+}
+100094037={ #               Maria Graziella           Zileri dal Verme degli Obbizi            (1859-1952)     4 [ALVARES]
+	name="Maria Graziella Zileri dal Verme degli Obbizi"
+	female=yes
+	religion=catholic culture=portuguese
+	1859.12.19={birth=yes}
+	1952.05.13={death=yes}
+}
+100094035={ #               Maria Antonia             Zileri dal Verme degli Obbizi            (1889-1967)     1 [SALVIATI]
+	name="Maria Antonia Zileri dal Verme degli Obbizi"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=italian
-	1527.01.01={birth=yes}
-	1563.04.04={death=yes}
-}
-100100245={ #               Federico Ubaldo           della Rovere                             (1605-1623)     - [MEDICI]
-	name="Federico Ubaldo della Rovere"
-	#dynasty=0
-	religion=catholic culture=italian
-	1605.05.16={birth=yes}
-	1621.01.01={add_spouse=100072452}	# Claudia de' Medici
-	1623.06.28={death=yes}
-}
-100091680={ #    Cssa       Maria Genoveva            della Rovere de Monte                    (1741-1810)     1 [FUNFKIRCHEN]
-	name="Maria Genoveva della Rovere de Monte"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1741.08.28={birth=yes}
-	1810.12.09={death=yes}  # Wien
-}
-100100283={ #    Duca       Francesco                 della Rovere di Urbino                   (1490-1538)     - [GONZAGA]
-	name="Francesco della Rovere di Urbino"
-	#dynasty=0
-	religion=catholic culture=czech
-	1490.03.22={birth=yes}
-	1507.01.01={add_spouse=100072510}	# Eleonora Gonzaga
-	1538.10.21={death=yes}
-}
-100088697={ #    Duke       Guidobaldo                della Rovere di Urbino                   (1514-1574)     - [FARNESE]
-	name="Guidobaldo della Rovere di Urbino"
-	#dynasty=0
-	religion=catholic culture=italian
-	1514.04.02={birth=yes}  # Urbino
-	1547.06.29={add_spouse=100071014}	# Vittoria Farnese
-	1574.09.28={death=yes}  # Pesaro
-}
-100100890={ #    Duca       Francesco                 della Rovere di Urbino                   (1548-1631)     - [ESTE]
-	name="Francesco della Rovere di Urbino"
-	#dynasty=0
-	religion=catholic culture=italian
-	1548.01.01={birth=yes}
-	1570.01.01={add_spouse=100071020}	# Lucrezia d  Este
-	1576.01.01={remove_spouse=100071020}
-	1631.01.01={death=yes}
-}
-100100236={ #    Dss        Vittoria                  della Rovere di Urbino                   (1622-1695)     2 [MEDICI]
-	name="Vittoria della Rovere di Urbino"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1622.02.07={birth=yes}
-	1695.03.06={death=yes}
+	1889.03.16={birth=yes}
+	1967.09.04={death=yes}
 }
 
 lowborn_2671={ #            Franceschina              Borromeo                                 (1480-1501)     1 [SFORZA]
@@ -1358,55 +1419,6 @@ lowborn_2012={ # Cte        Febo                      Borromeo d'Adda           
 	1555.11.01={birth=yes}
 	1579.09.15={add_spouse=100071098}	# Ersilia Farnese
 	1608.08.19={death=yes}
-}
-
-100081220={ #    Cte        Francesco                 Capece Galeota                           (1873-1955)     - [COLONA]
-	name="Francesco Capece Galeota"
-	#dynasty=0
-	religion=catholic culture=italian
-	1873.06.01={birth=yes}
-	1902.10.16={add_spouse=100070916}	# Teresa Colonna
-	1955.04.22={death=yes}
-}
-100093262={ #    Dss        Maria Cristina            Capece Galeota                           (1903-1984)     5 [RUSPOLI]
-	name="Maria Cristina Capece Galeota"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1903.07.24={birth=yes}  # Napoli
-	1984.12.20={death=yes}  # Firenze
-}
-100083102={ #    Css        Maria Immacolata          Capece Galeota                           (1905-1985)     4 [BORGHESE]
-	name="Maria Immacolata Capece Galeota"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1905.12.08={birth=yes}
-	1985.06.22={death=yes}
-}
-100086954={ #               Cornelia                  Capece Minutolo                          (1573-1648)     1 [CAPECE]
-	name="Cornelia Capece Minutolo"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1573.01.01={birth=yes}  # EST.
-	1648.01.01={death=yes}  # EST.
-}
-100099003={ #    Donna      Maria Michela             Capece Minutolo                          (1788-1855)     2 [CAPECE]
-	name="Maria Michela Capece Minutolo"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1788.02.14={birth=yes}  # Napoli
-	1855.09.28={death=yes}
-}
-100081939={ #    Cte        Giovanni Alfarano         Capece di Guindignano                    (1821-1896)     - [RUFO]
-	name="Giovanni Alfarano Capece di Guindignano"
-	#dynasty=0
-	religion=catholic culture=italian
-	1821.01.01={birth=yes}  # EST.
-	1846.04.25={add_spouse=100071745}	# Maria Antonia Ruffo di Bagnara
-	1896.01.01={death=yes}  # EST.
 }
 
 100096740={ #               Francesco-Vincenzo        Cattaneo della Volta                     (1721-1790)     - [BONCOMPAGNI]
@@ -1639,7 +1651,7 @@ lowborn_2594={ # Duca       Onorato                   de' Medici di Ottalano    
 	1515.01.25={add_spouse=100070386}	# Filiberta de Savoie
 	1516.03.17={death=yes}
 }
-100095879={ #    Duca       Lorenzo                   de' Medici di Urbino                     (1493-1519)     - [TOUR]
+100095879={ #    Duca       Lorenzo                   de' Medici di Urbino                     (1493-1519)     - [MAILE]
 	name="Lorenzo de' Medici di Urbino"
 	#dynasty=0
 	religion=catholic culture=french
@@ -1975,30 +1987,45 @@ lowborn_2689={ # Lord       Giovanni                  Bentivoglio of Bologna    
 	1508.01.01={death=yes}  # Milan
 }
 
-
-100100934={ #    Marchese   Francesco                 del Caretto di Grana                     (1590-1651)     - [FUGER]
-	name="Francesco del Caretto di Grana"
-	#dynasty=0
-	religion=catholic culture=german
-	1590.01.01={birth=yes}
-	1615.01.01={add_spouse=100010990}	# Margareta Fugger
-	1629.01.01={remove_spouse=100010990}
-	1651.01.01={death=yes}
-}
-100083170={ #               Ferdinando                del Carretto                             (1865-1937)     - [CARACIOLO]
-	name="Ferdinando del Carretto"
+100081220={ #    Cte        Francesco                 Capece Galeota                           (1873-1955)     - [COLONA]
+	name="Francesco Capece Galeota"
 	#dynasty=0
 	religion=catholic culture=italian
-	1865.04.20={birth=yes}
-	1897.02.27={add_spouse=100070706}	# Maria Beatrice Caracciolo
-	1937.02.21={death=yes}
+	1873.06.01={birth=yes}
+	1902.10.16={add_spouse=100070916}	# Teresa Colonna
+	1955.04.22={death=yes}
 }
-lowborn_2353={ #            Gertrude                  del Carretto di Mombaldone               (1859-1940)     5 [GONZAGA]
-	name="Gertrude del Carretto di Mombaldone"
+100093262={ #    Dss        Maria Cristina            Capece Galeota                           (1903-1984)     5 [RUSPOLI]
+	name="Maria Cristina Capece Galeota"
 	female=yes
+	#dynasty=0
 	religion=catholic culture=italian
-	1859.09.10={birth=yes}  # Milano
-	1940.08.06={death=yes}  # Redona di_Trescore
+	1903.07.24={birth=yes}  # Napoli
+	1984.12.20={death=yes}  # Firenze
+}
+100083102={ #    Css        Maria Immacolata          Capece Galeota                           (1905-1985)     4 [SALVIATI]
+	name="Maria Immacolata Capece Galeota"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1905.12.08={birth=yes}
+	1985.06.22={death=yes}
+}
+100086954={ #               Cornelia                  Capece Minutolo                          (1573-1648)     1 [CAPECE]
+	name="Cornelia Capece Minutolo"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1573.01.01={birth=yes}  # EST.
+	1648.01.01={death=yes}  # EST.
+}
+100081939={ #    Cte        Giovanni Alfarano         Capece di Guindignano                    (1821-1896)     - [RUFO]
+	name="Giovanni Alfarano Capece di Guindignano"
+	#dynasty=0
+	religion=catholic culture=italian
+	1821.01.01={birth=yes}  # EST.
+	1846.04.25={add_spouse=100071745}	# Maria Antonia Ruffo di Bagnara
+	1896.01.01={death=yes}  # EST.
 }
 
 100100749={ #    Ctsa       Anna Elizabeta            Pallavicini                              (1640-1683)     0 [FUGER]
@@ -2161,86 +2188,6 @@ lowborn_2663={ # Cte        Galeazzo                  di Sanseverino di Cajazzo 
 	1525.01.01={death=yes}  # Pavia
 }
 
-100094032={ #    Cte        Camillo                   Zileri                                   (1830-1896)     - [LUCHESI]
-	name="Camillo Zileri"
-	#dynasty=0
-	religion=catholic culture=italian
-	1830.08.25={birth=yes}
-	1856.10.30={add_spouse=100071454}	# Clementina Lucchesi Palli
-	1896.08.31={death=yes}
-}
-100094033={ #    Cte        Luchino                   Zileri dal Verme                         (1932-1994)     - [MASIMO]
-	name="Luchino Zileri dal Verme"
-	#dynasty=0
-	religion=catholic culture=italian
-	1932.12.23={birth=yes}  # Rome
-	1958.06.07={add_spouse=100071584}	# Maria Cristina Massimo-Lancellotti
-	1994.05.19={death=yes}  # Arola
-}
-100099157={ #    Cte        Federico                  Zileri dal Verme                         (1968-    )     - [RUSPOLI]
-	name="Federico Zileri dal Verme"
-	#dynasty=0
-	religion=catholic culture=italian
-	1968.01.01={birth=yes}  # EST.
-	1993.02.20={add_spouse=100072412}	# Flavia Ruspoli
-}
-100094036={ #               Roberto                   Zileri dal Verme degli Obbizi            (1858-1937)     - [MASIMO]
-	name="Roberto Zileri dal Verme degli Obbizi"
-	#dynasty=0
-	religion=catholic culture=italian
-	1858.10.25={birth=yes}  # Parma
-	1885.06.21={add_spouse=100071555}	# Maria Gabriella Massimo-Lancellotti
-	1937.02.28={death=yes}  # Vicenza
-}
-100094035={ #               Maria Antonia             Zileri dal Verme degli Obbizi            (1889-1967)     1 [BORGHESE]
-	name="Maria Antonia Zileri dal Verme degli Obbizi"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1889.03.16={birth=yes}
-	1967.09.04={death=yes}
-}
-
-100083191={ #               Maria Zenaide             Della Chà                                (1929-2009)     3 [ODESCALCHI]
-	name="Maria Zenaide Della Chà"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1929.07.15={birth=yes}
-	2009.10.01={death=yes}
-}
-100101673={ #    Bss        Clemente                  Della Noce                               (1922-1998)     - [CORSINI]
-	name="Clemente Della Noce"
-	#dynasty=0
-	religion=catholic culture=italian
-	1922.06.28={birth=yes}  # Bologna
-	1961.04.27={add_spouse=100071512}	# Giuliana Corsini
-	1998.01.01={death=yes}  # EST.
-}
-100083197={ #               Gianmaria                 Della Porte                              (1958-    )     - [BORGHESE]
-	name="Gianmaria Della Porte"
-	#dynasty=0
-	religion=catholic culture=italian
-	1958.01.01={birth=yes}
-	1983.01.01={add_spouse=100070628}	# Monica Borghese
-}
-100083201={ #               Cesare                    Della Valle                              (1840-1913)     0 [IMPERIALI]
-	name="Cesare Della Valle"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1840.01.01={birth=yes}
-	1913.01.01={death=yes}  # EST.
-}
-100083202={ #               Anna                      Della Valle                              (1845-1918)     0 [IMPERIALI]
-	name="Anna Della Valle"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1845.01.01={birth=yes}
-	1918.01.01={death=yes}  # EST.
-}
-
 100100366={ #    Pr         Andrea Matteo             Acquaviva d'Aragona                      (1620-1647)     - [FURSTENBERG]
 	name="Andrea Matteo Acquaviva d'Aragona"
 	#dynasty=0
@@ -2312,7 +2259,7 @@ lowborn_2454={ #            Giovanni                  Antinori                  
 	1884.07.17={add_spouse=caracciolo_0073}	# Elena Caracciolo
 	1929.01.01={death=yes}  # EST.
 }
-100080181={ #    Duchesa    Maria                     Antinori                                 (1870-1933)     2 [BORGHESE]
+100080181={ #    Duchesa    Maria                     Antinori                                 (1870-1933)     2 [ALDOBRANDINI]
 	name="Maria Antinori"
 	female=yes
 	#dynasty=0
@@ -2407,7 +2354,7 @@ lowborn_3633={ # Cte        Marie-Félix               Bacciochi                
 	1842.01.03={add_spouse=100185788}	# Anna Kinsky von Wchinitz u.Tettau
 	1864.11.02={death=yes}
 }
-100091641={ #    Frn        Helene                    Bianchi                                  (1858-1947)     0 [SAUMBURG]
+100091641={ #    Frn        Helene                    Bianchi                                  (1858-1947)     0 [LIPE]
 	name="Helene Bianchi"
 	female=yes
 	#dynasty=0
@@ -2429,6 +2376,37 @@ lowborn_3633={ # Cte        Marie-Félix               Bacciochi                
 	#dynasty=0
 	religion=catholic culture=italian
 	1952.01.01={birth=yes}
+}
+
+lowborn_0649={ # Gfn        Giulietta                 Bulgarini                                (1850-1927)     4 [BERCHTOLD]
+	name="Giulietta Bulgarini"
+	female=yes
+	religion=catholic culture=german
+	1850.02.16={birth=yes}
+	1927.01.01={death=yes}
+}
+100101653={ #    Cte        Girolamo                  Bulgarini d'Elci                         (1937-2014)     - [CORSINI]
+	name="Girolamo Bulgarini d'Elci"
+	#dynasty=0
+	religion=catholic culture=italian
+	1937.04.11={birth=yes}  # Genoa
+	1965.04.26={add_spouse=100071021}	# Paola Corsini
+	2014.01.01={death=yes}  # EST.
+}
+100081576={ #    Css        Teresa                    di Bulgarini d'Elci                      (1900-1989)     5 [NAPOLI]
+	name="Teresa di Bulgarini d'Elci"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1900.04.08={birth=yes}  # Rome
+	1989.05.07={death=yes}
+}
+100091733={ #    Gfn        Marie-Teresa              von Bulgarini                            (1964-2007)     2 [HOHENLOHE]
+	name="Marie-Teresa von Bulgarini"
+	female=yes
+	religion=catholic culture=german
+	1964.06.19={birth=yes}  # Milan
+	2007.08.20={death=yes}  # Wien
 }
 
 lowborn_2415={ # Nobile     Paola                     Calvi                                    (1882-1942)     0 [MELZI]
@@ -2560,6 +2538,35 @@ lowborn_2526={ #            Francesco                 Coppola di Canzano        
 	2003.01.01={death=yes}  # EST.
 }
 
+lowborn_2391={ # Marchese   Tommaso                   Gallarati Scotti                         (1819-1905)     - [MELZI]
+	name="Tommaso Gallarati Scotti"
+	religion=catholic culture=italian
+	1819.12.15={birth=yes}  # Milano
+	1847.02.08={add_spouse=melzi_0051}	# Barbara Melzi
+	1905.01.04={death=yes}  # Milano
+}
+lowborn_2411={ # Duca       Gian Carlo                Gallarati Scotti                         (1848-1927)     - [MELZI]
+	name="Gian Carlo Gallarati Scotti"
+	religion=catholic culture=italian
+	1848.01.21={birth=yes}  # Pisa
+	1878.01.21={add_spouse=melzi_0091}	# Luisa Melzi
+	1927.05.15={death=yes}  # Milano
+}
+100084083={ #               Stefania                  Gallarati Scotti                         (1946-    )     3 [ALDOBRANDINI]
+	name="Stefania Gallarati Scotti"
+	female=yes
+	religion=catholic culture=italian
+	1946.06.22={birth=yes}
+}
+100082842={ #    Pss        Carlotta                  Gallarati Scotti di Molfetta             (1850-1930)     5 [ANTICI]
+	name="Carlotta Gallarati Scotti di Molfetta"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1850.11.09={birth=yes}  # Milan
+	1930.04.19={death=yes}  # Rome
+}
+
 100094105={ #               Marianna                  Grisi                                    (1809-1871)     1 [CAPECE]
 	name="Marianna Grisi"
 	female=yes
@@ -2650,12 +2657,12 @@ lowborn_2526={ #            Francesco                 Coppola di Canzano        
 	1932.06.08={add_spouse=100072087}	# Carla Visconti
 	1969.11.19={death=yes}
 }
-100087191={ #    Pr         Francesco                 Lanza di Scalea                          (1912-1988)     - [BORGHESE]
+100087191={ #    Pr         Francesco                 Lanza di Scalea                          (1912-1988)     - [SALVIATI]
 	name="Francesco Lanza di Scalea"
 	#dynasty=0
 	religion=catholic culture=italian
 	1912.03.03={birth=yes}
-	1945.10.29={add_spouse=100070659}	# Maria Arabella Borghese
+	1945.10.29={add_spouse=100070659}	# Maria Arabella Salviati
 	1988.11.20={death=yes}
 }
 
@@ -2802,19 +2809,19 @@ lowborn_2465={ #            Alessandro                Vito                      
 	1913.03.14={birth=yes}
 	1943.04.12={death=yes}
 }
+lowborn_2504={ #            Anna                      de Vito Piscicelli di Callesano          (1870-1950)     2 [CARACIOLO]
+	name="Anna de Vito Piscicelli di Callesano"
+	female=yes
+	religion=catholic culture=italian
+	1870.05.26={birth=yes}  # Geneva
+	1950.03.04={death=yes}  # Naples
+}
 100083045={ #    Cte        Massimo                   de Vito Piscicelli di Collesano          (1943-    )     - [TRAUTMANSDORF]
 	name="Massimo de Vito Piscicelli di Collesano"
 	#dynasty=0
 	religion=catholic culture=italian
 	1943.01.15={birth=yes}
 	1975.10.17={add_spouse=100025469}	# Benedetta Ottavia von Trauttmansdorff-Weinsberg
-}
-lowborn_2504={ #            Anna                      de Vito-Piscicelli di Callesano          (1870-1950)     2 [CARACIOLO]
-	name="Anna de Vito-Piscicelli di Callesano"
-	female=yes
-	religion=catholic culture=italian
-	1870.05.26={birth=yes}  # Geneva
-	1950.03.04={death=yes}  # Naples
 }
 
 100084086={ #               Elisabetta                Galletti                                 (1925-2000)     4 [COLONA]
@@ -3178,6 +3185,31 @@ lowborn_2395={ # Count      Gerolamo                  Avogadro                  
 	1914.08.06={death=yes}  # ivi
 }
 
+100100934={ #    Marchese   Francesco                 del Caretto di Grana                     (1590-1651)     - [FUGER]
+	name="Francesco del Caretto di Grana"
+	#dynasty=0
+	religion=catholic culture=german
+	1590.01.01={birth=yes}
+	1615.01.01={add_spouse=100010990}	# Margareta Fugger
+	1629.01.01={remove_spouse=100010990}
+	1651.01.01={death=yes}
+}
+100083170={ #               Ferdinando                del Carretto                             (1865-1937)     - [CARACIOLO]
+	name="Ferdinando del Carretto"
+	#dynasty=0
+	religion=catholic culture=italian
+	1865.04.20={birth=yes}
+	1897.02.27={add_spouse=100070706}	# Maria Beatrice Caracciolo
+	1937.02.21={death=yes}
+}
+lowborn_2353={ #            Gertrude                  del Carretto di Mombaldone               (1859-1940)     5 [GONZAGA]
+	name="Gertrude del Carretto di Mombaldone"
+	female=yes
+	religion=catholic culture=italian
+	1859.09.10={birth=yes}  # Milano
+	1940.08.06={death=yes}  # Redona di_Trescore
+}
+
 lowborn_2536={ #            Elvira                    Catalano                                 (1854-1941)     2 [CARACIOLO]
 	name="Elvira Catalano"
 	female=yes
@@ -3272,31 +3304,6 @@ lowborn_2548={ #            Adelina                   Conti Rovescali           
 	1838.03.23={birth=yes}
 	1865.11.04={add_spouse=100071456}	# Isabella Lucchesi Palli
 	1903.03.22={death=yes}
-}
-
-100083171={ #    Marchese   Ugo                       Del Castillo di San Onofrio              (1849-1922)     - [IMPERIALI]
-	name="Ugo Del Castillo di San Onofrio"
-	#dynasty=0
-	religion=catholic culture=italian
-	1849.01.01={birth=yes}
-	1874.01.01={add_spouse=100071343}	# Maria Imperiali
-	1922.01.01={death=yes}  # EST.
-}
-100083176={ #    Dss        Margherita                Del Pezzo di Caianello                   (1849-1922)     2 [IMPERIALI]
-	name="Margherita Del Pezzo di Caianello"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1849.01.01={birth=yes}
-	1922.01.01={death=yes}  # EST.
-}
-100083177={ #    Dss        Francesco                 Del Pezzo di Caianello                   (1903-1979)     - [COLONA]
-	name="Francesco Del Pezzo di Caianello"
-	#dynasty=0
-	religion=catholic culture=italian
-	1903.01.01={birth=yes}
-	1958.01.14={add_spouse=100070950}	# Maria Colonna
-	1979.01.01={death=yes}  # EST.
 }
 
 lowborn_1741={ #            Maria                     Durazzo                                  (1799-1820)     1 [MELZI]
@@ -3402,7 +3409,7 @@ lowborn_2425={ # Barone     Bernardino                Ferrara di Silvi e Castigl
 	1621.01.01={birth=yes}
 	1677.10.01={death=yes}  # Torino
 }
-100101625={ #    Pr         Vittorio Amedeo           Ferrero-Fieschi                          (1713-1777)     - [VEIS]
+100101625={ #    Pr         Vittorio Amedeo           Ferrero-Fieschi                          (1713-1777)     - [ROHAN]
 	name="Vittorio Amedeo Ferrero-Fieschi"
 	#dynasty=0
 	religion=catholic culture=castilian
@@ -3512,29 +3519,6 @@ lowborn_2593={ #            Rosa                      Filiasi                   
 	religion=catholic culture=italian
 	1699.01.01={birth=yes}
 	1766.01.01={death=yes}  # EST.
-}
-
-lowborn_2391={ # Marchese   Tommaso                   Gallarati Scotti                         (1819-1905)     - [MELZI]
-	name="Tommaso Gallarati Scotti"
-	religion=catholic culture=italian
-	1819.12.15={birth=yes}  # Milano
-	1847.02.08={add_spouse=melzi_0051}	# Barbara Melzi
-	1905.01.04={death=yes}  # Milano
-}
-lowborn_2411={ # Duca       Gian Carlo                Gallarati Scotti                         (1848-1927)     - [MELZI]
-	name="Gian Carlo Gallarati Scotti"
-	religion=catholic culture=italian
-	1848.01.21={birth=yes}  # Pisa
-	1878.01.21={add_spouse=melzi_0091}	# Luisa Melzi
-	1927.05.15={death=yes}  # Milano
-}
-100082842={ #    Pss        Carlotta                  Gallarati Scotti di Molfetta             (1850-1930)     5 [ANTICI]
-	name="Carlotta Gallarati Scotti di Molfetta"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1850.11.09={birth=yes}  # Milan
-	1930.04.19={death=yes}  # Rome
 }
 
 lowborn_2376={ # Marchese   Giulio                    Gavotti                                  (1900-1970)     - [MELZI]
@@ -3758,7 +3742,7 @@ lowborn_2662={ # Cte        Matteo                    Litta d'Arese             
 	1877.01.01={death=yes}  # EST.
 }
 
-100095067={ #               Albert                    Marzani                                  (1845-1921)     - [APONYI]
+100095067={ #               Albert                    Marzani                                  (1845-1921)     - [NAGY]
 	name="Albert Marzani"
 	#dynasty=0
 	religion=catholic culture=hungarian
@@ -3901,6 +3885,30 @@ lowborn_2385={ #            Luisa                     Misciatelli               
 	1941.01.01={death=yes}  # EST.
 }
 
+100088186={ #               Maria Cincetta            Monroy                                   (1871-1964)     0 [BORGHESE]
+	name="Maria Cincetta Monroy"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1871.12.06={birth=yes}
+	1964.08.01={death=yes}
+}
+lowborn_3630={ # Donna      Giovanna                  Monroy di Belmonte                       (1869-1924)     1 [POZO]
+	name="Giovanna Monroy di Belmonte"
+	female=yes
+	religion=catholic culture=sicilian
+	1869.03.25={birth=yes}  # Palermo
+	1924.10.15={death=yes}  # Rome
+}
+100094241={ #    Pss        Eleonora                  Monroy di Pandolfina                     (1862-1891)     2 [TORLONIA]
+	name="Eleonora Monroy di Pandolfina"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=sicilian
+	1862.11.08={birth=yes}  # Palermo
+	1891.01.09={death=yes}  # Sankt Moritz
+}
+
 100088207={ #               Monica                    Monticelli                               (1954-    )     1 [COLONA]
 	name="Monica Monticelli"
 	female=yes
@@ -3973,6 +3981,29 @@ lowborn_2385={ #            Luisa                     Misciatelli               
 	1833.08.18={birth=yes}
 	1860.07.01={add_spouse=100070759}	# Margarete Juliane v. Collalto u.San Salvatore
 	1908.02.26={death=yes}
+}
+
+100095690={ #    Duca       Octavio                   Piccolomini di Amalfi                    (1599-1656)     - [SACHSEN]
+	name="Octavio Piccolomini di Amalfi"
+	#dynasty=0
+	religion=catholic culture=german
+	1599.01.01={birth=yes}
+	1651.06.04={add_spouse=100000167}	# Marie von Sachsen-Lauenburg
+	1656.08.10={death=yes}  # Vienna
+}
+lowborn_2152={ #            Ludmilla                  Piccolomini-Pieri D'aragona              (1703-1768)     1 [FOURS]
+	name="Ludmilla Piccolomini-Pieri D'aragona"
+	female=yes
+	religion=catholic culture=german
+	1703.11.01={birth=yes}  # Náchod
+	1768.02.03={death=yes}  # Praha
+}
+lowborn_1824={ #            Francesco                 Piccolomini-TODESCHINI                   (1654-1686)     - [KHUEN]
+	name="Francesco Piccolomini-TODESCHINI"
+	religion=catholic culture=german
+	1654.01.01={birth=yes}
+	1681.01.01={add_spouse=khuen_0023}	# Anna Elisabeth Khuen von Belasi
+	1686.07.14={death=yes}  # k.a.,Buda
 }
 
 lowborn_2450={ #            Francesco                 Piromallo                                (1830-1872)     - [CARACIOLO]
@@ -4317,6 +4348,28 @@ lowborn_4005={ #            Violante                  di Sangro                 
 	1964.03.11={birth=yes}  # Rome
 }
 
+lowborn_2874={ #            Carlo                     Lovatelli                                (1842-1902)     - [UGARTE]
+	name="Carlo Lovatelli"
+	religion=catholic culture=german
+	1842.01.01={birth=yes}  # EST.
+	1866.06.09={add_spouse=ugarte_0030}	# Gabriela Ugarte
+	1902.01.01={death=yes}  # EST.
+}
+100087543={ #               Francesco                 Lovatelli                                (1946-    )     - [DRAGO]
+	name="Francesco Lovatelli"
+	#dynasty=0
+	religion=catholic culture=italian
+	1946.10.27={birth=yes}
+	1971.06.21={add_spouse=100071043}	# Beatrice del Drago
+}
+100087542={ #               Damiana                   Lovatelli                                (1961-    )     6 [SCHONBORN]
+	name="Damiana Lovatelli"
+	female=yes
+	#dynasty=0
+	religion=lutheran culture=italian
+	1961.03.31={birth=yes}
+}
+
 100080339={ #               Olimpia                   Mancini                                  (1640-1708)     5 [SAVOIA]
 	name="Olimpia Mancini"
 	female=yes
@@ -4389,7 +4442,7 @@ lowborn_2368={ #            Giuseppina                Rocca                     
 	2006.09.26={add_spouse=100072134}	# Elena Visconti
 }
 
-100089878={ #               Paola                     Sanjust di Teulada                       (1928-1974)     1 [VEIS]
+100089878={ #               Paola                     Sanjust di Teulada                       (1928-1974)     1 [ROHAN]
 	name="Paola Sanjust di Teulada"
 	female=yes
 	#dynasty=0
@@ -4456,19 +4509,19 @@ lowborn_2368={ #            Giuseppina                Rocca                     
 	father=100083084	# CTE Pieralberto degli Albertini
 	1971.12.31={birth=yes}
 }
-lowborn_2645={ # Pss        Isabella                  d'Aragona                                (1470-1524)     3 [SFORZA]
-	name="Isabella d'Aragona di Bari"
-	female=yes
-	religion=catholic culture=italian
-	1470.10.02={birth=yes}
-	1524.02.11={death=yes}
-}
 lowborn_2659={ # Duke       Alfonso Alfonso           d'Aragona                                (1448-1495)     - [SFORZA]
-	name="Alfonso Alfonso d'Aragona di Naples"
+	name="Alfonso Alfonso d'Aragona"
 	religion=catholic culture=italian
 	1448.11.04={birth=yes}
 	1465.09.14={add_spouse=sforza_0025}	# Ippolita Sforza
 	1495.12.18={death=yes}  # Messina
+}
+lowborn_2645={ # Pss        Isabella                  d'Aragona                                (1470-1524)     3 [SFORZA]
+	name="Isabella d'Aragona"
+	female=yes
+	religion=catholic culture=italian
+	1470.10.02={birth=yes}
+	1524.02.11={death=yes}
 }
 100098740={ #    Cte        Carlo Teodoro             Arborio Mella                            (1866-1947)  2  - [BOROMEO, BOROMEO]
 	name="Carlo Teodoro Arborio Mella"
@@ -4625,22 +4678,6 @@ lowborn_3634={ #            Saldino                   dal Borgo                 
 	1965.07.08={birth=yes}  # Rome
 	2005.09.24={add_spouse=100071919}	# Isabella Borromeo
 }
-100100913={ #               Magdalene                 de Brosse                                (1468-1512)     0 [SAVOIE]
-	name="Magdalene de Brosse"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1468.01.01={birth=yes}  # EST.
-	1512.01.01={death=yes}
-}
-100100941={ #    Cts        Claudine                  de Brosse de Penthievre                  (1450-1513)     3 [SAVOIE]
-	name="Claudine de Brosse de Penthievre"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1450.01.01={birth=yes}
-	1513.10.13={death=yes}  # Chambery
-}
 100081014={ #    Dss        Maria                     Brunas Serra di Cardinale                (1844-1905)     7 [COLONA]
 	name="Maria Brunas Serra di Cardinale"
 	female=yes
@@ -4656,22 +4693,6 @@ lowborn_3634={ #            Saldino                   dal Borgo                 
 	religion=catholic culture=italian
 	1848.03.17={birth=yes}
 	1925.05.23={death=yes}
-}
-100101653={ #    Cte        Girolamo                  Bulgarini d'Elci                         (1937-2014)     - [CORSINI]
-	name="Girolamo Bulgarini d'Elci"
-	#dynasty=0
-	religion=catholic culture=italian
-	1937.04.11={birth=yes}  # Genoa
-	1965.04.26={add_spouse=100071021}	# Paola Corsini
-	2014.01.01={death=yes}  # EST.
-}
-100081576={ #    Css        Teresa                    di Bulgarini d'Elci                      (1900-1989)     5 [NAPOLI]
-	name="Teresa di Bulgarini d'Elci"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1900.04.08={birth=yes}  # Rome
-	1989.05.07={death=yes}
 }
 lowborn_2365={ # Nobile     Marianna                  Caccia-Dominioni                         (1828-1849)     4 [MELZI]
 	name="Marianna Caccia-Dominioni"
@@ -4813,20 +4834,6 @@ lowborn_2467={ #            Giulia                    Capone Brancano           
 	1958.10.27={add_spouse=100072613}	# Antonietta Clarice Chigi Albani della Rovere
 	2005.01.01={death=yes}  # EST.
 }
-lowborn_1922={ # Marchesa   Giulia                    Cavriani                                 (1767-1842)     2 [GONZAGA]
-	name="Giulia Cavriani"
-	female=yes
-	religion=catholic culture=italian
-	1767.01.01={birth=yes}
-	1842.01.01={death=yes}  # EST.
-}
-lowborn_2250={ #            Tullio                    Cavriani                                 (1842-1915)     - [GONZAGA]
-	name="Tullio Cavriani"
-	religion=catholic culture=italian
-	1842.01.01={birth=yes}
-	1867.01.01={add_spouse=gonzaga_0010}	# Constanza Gonzaga
-	1915.01.01={death=yes}
-}
 lowborn_1223={ #            Livia Maria               Centurione                               (1683-1758)     3 [DORIA]
 	name="Livia Maria Centurione"
 	female=yes
@@ -4834,14 +4841,14 @@ lowborn_1223={ #            Livia Maria               Centurione                
 	1683.01.01={birth=yes}  # EST.
 	1758.01.01={death=yes}  # EST.
 }
-100081347={ #    Marchese   Giulio                    Centurione-Scotto                        (1915-1991)  2  - [BORGHESE, BORGHESE]
+100081347={ #    Marchese   Giulio                    Centurione-Scotto                        (1915-1991)  2  - [SALVIATI, SALVIATI]
 	name="Giulio Centurione-Scotto"
 	#dynasty=0
 	religion=catholic culture=italian
 	1915.01.01={birth=yes}
-	1940.10.01={add_spouse=100070640}	# Lisabetta Maria Borghese
+	1940.10.01={add_spouse=100070640}	# Lisabetta Maria Salviati
 	1949.01.01={remove_spouse=100070640}
-	1950.01.01={add_spouse=100070645}	# Maria Teresa Borghese
+	1950.01.01={add_spouse=100070645}	# Maria Teresa Salviati
 	1991.01.01={death=yes}  # EST.
 }
 100098781={ #               Antonella                 Clerici                                  (1925-2004)     1 [CAPECE]
@@ -4957,12 +4964,12 @@ lowborn_2386={ #            Giovanni                  Dufour-Berte              
 	1941.11.04={add_spouse=100072515}	# Giacinta Ruspoli
 	1980.01.07={death=yes}
 }
-100081229={ #    Cte        Giordano                  Emo Capodilista                          (1963-    )     - [BORGHESE]
+100081229={ #    Cte        Giordano                  Emo Capodilista                          (1963-    )     - [ALDOBRANDINI]
 	name="Giordano Emo Capodilista"
 	#dynasty=0
 	religion=catholic culture=italian
 	1963.02.06={birth=yes}
-	1990.01.01={add_spouse=100070676}	# Cinzia Giovanna Borghese
+	1990.01.01={add_spouse=100070676}	# Cinzia Giovanna Aldobrandini
 	1995.01.01={remove_spouse=100070676}
 }
 lowborn_4048={ # Cte        Giuseppe Adolfo           Falvella                                 (1854-1928)     - [PIGNATELI]
@@ -5168,8 +5175,8 @@ lowborn_2384={ # Don        Domenico                  Imperiali di Francavilla  
 	religion=catholic culture=italian
 	1968.01.01={birth=yes}  # EST.
 }
-100094898={ #    Marchese   Enrico Incisa             Incisa                                   (1867-1931)     - [CHIGI]
-	name="Enrico Incisa Incisa"
+100094898={ #    Marchese   Enrico                    Incisa                                   (1867-1931)     - [CHIGI]
+	name="Enrico Incisa"
 	#dynasty=0
 	religion=catholic culture=italian
 	1867.10.23={birth=yes}  # Milan
@@ -5184,12 +5191,27 @@ lowborn_2384={ # Don        Domenico                  Imperiali di Francavilla  
 	1920.04.26={add_spouse=100071574}	# Anna Massimo-Lancellotti
 	1977.01.01={death=yes}
 }
-100087196={ #    Cte        Gastone                   Larderel                                 (1846-1895)     - [BORGHESE]
+100103838={ #               Johann Kaspar             Lanthieri di Paratico                    (1708-1783)     - [VALDSTEJNA]
+	name="Johann Kaspar Lanthieri di Paratico"
+	#dynasty=0
+	religion=catholic culture=czech
+	1708.01.01={birth=yes}  # EST.
+	1733.01.01={add_spouse=100047862}	# Johanna z Valdštejna
+	1783.01.01={death=yes}  # EST.
+}
+100091582={ #    Gf         Lorenz                    Lanthieri von Paratico                   (1602-1664)     - [ATEMS]
+	name="Lorenz Lanthieri von Paratico"
+	religion=catholic culture=german
+	1602.03.17={birth=yes}  # Görz
+	1638.04.22={add_spouse=100026176}	# Ursula von Attems
+	1664.11.23={death=yes}  # Reifenberg
+}
+100087196={ #    Cte        Gastone                   Larderel                                 (1846-1895)     - [SALVIATI]
 	name="Gastone Larderel"
 	#dynasty=0
 	religion=catholic culture=italian
 	1846.01.01={birth=yes}
-	1871.09.30={add_spouse=100070631}	# Isabella Maria Borghese
+	1871.09.30={add_spouse=100070631}	# Isabella Maria Salviati
 	1895.05.03={death=yes}
 }
 100082524={ #               Bianca                    Larderel                                 (1856-1942)     2 [SAVOIA]
@@ -5401,22 +5423,6 @@ lowborn_2373={ #            Maria                     Miari                     
 	1955.01.26={add_spouse=100070696}	# Cristina Corsini
 	2004.01.01={death=yes}  # EST.
 }
-100088186={ #               Maria Cincetta            Monroy                                   (1871-1964)     0 [BORGHESE]
-	name="Maria Cincetta Monroy"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1871.12.06={birth=yes}
-	1964.08.01={death=yes}
-}
-100094241={ #    Pss        Eleonora                  Monroy di Pandolfina                     (1862-1891)     2 [TORLONIA]
-	name="Eleonora Monroy di Pandolfina"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=sicilian
-	1862.11.08={birth=yes}  # Palermo
-	1891.01.09={death=yes}  # Sankt Moritz
-}
 lowborn_2680={ # Css        Sveva                     di Montefeltro                           (1432-1478)     0 [SFORZA]
 	name="Sveva di Montefeltro"
 	female=yes
@@ -5524,6 +5530,22 @@ lowborn_2423={ # Marchese   Mario                     Pellegrini-Quarantotti    
 	religion=catholic culture=italian
 	1883.12.18={birth=yes}
 	1957.10.09={death=yes}
+}
+100083176={ #    Dss        Margherita                del Pezzo di Caianello                   (1849-1922)     2 [IMPERIALI]
+	name="Margherita del Pezzo di Caianello"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1849.01.01={birth=yes}
+	1922.01.01={death=yes}  # EST.
+}
+100083177={ #    Dss        Francesco                 del Pezzo di Caianello                   (1903-1979)     - [COLONA]
+	name="Francesco del Pezzo di Caianello"
+	#dynasty=0
+	religion=catholic culture=italian
+	1903.01.01={birth=yes}
+	1958.01.14={add_spouse=100070950}	# Maria Colonna
+	1979.01.01={death=yes}  # EST.
 }
 100092045={ #               Maria Giovanna            Porro                                    (1982-    )     3 [BONCOMPAGNI]
 	name="Maria Giovanna Porro"
@@ -6132,16 +6154,16 @@ lowborn_2481={ #            Emanuele                  De Curtis                 
 	1963.10.30={add_spouse=100071849}	# Maria Ludovica Borromeo
 	2015.01.01={death=yes}  # EST.
 }
-100091185={ #    Donna      Felicità                  Filomarino dei Principi della Rocca d'Aspro (1817-1907)     0 [RUFO]
-	name="Felicità Filomarino dei Principi della Rocca d'Aspro"
+100091185={ #    Donna      Felicità                  Filomarino della Rocca d'Aspro           (1817-1907)     0 [RUFO]
+	name="Felicità Filomarino della Rocca d'Aspro"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=sicilian
 	1817.02.15={birth=yes}  # Palo del Colle Bari
 	1907.07.14={death=yes}  # Rome
 }
-100091183={ #    Donna      Elena                     Filomarino dei Principi della Rocca d'Aspro (1820-1854)     5 [RUFO]
-	name="Elena Filomarino dei Principi della Rocca d'Aspro"
+100091183={ #    Donna      Elena                     Filomarino della Rocca d'Aspro           (1820-1854)     5 [RUFO]
+	name="Elena Filomarino della Rocca d'Aspro"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=italian
@@ -6266,20 +6288,6 @@ lowborn_2378={ #            Agnese                    Lodoli d'Oria             
 	religion=catholic culture=italian
 	1968.01.31={birth=yes}
 	2001.04.27={add_spouse=100072004}	# Mafalda di Savoia-Carignano
-}
-100087543={ #               Francesco                 Lovatelli                                (1946-    )     - [DRAGO]
-	name="Francesco Lovatelli"
-	#dynasty=0
-	religion=catholic culture=italian
-	1946.10.27={birth=yes}
-	1971.06.21={add_spouse=100071043}	# Beatrice del Drago
-}
-100087542={ #               Damiana                   Lovatelli                                (1961-    )     6 [SCHONBORN]
-	name="Damiana Lovatelli"
-	female=yes
-	#dynasty=0
-	religion=lutheran culture=italian
-	1961.03.31={birth=yes}
 }
 100100929={ #    Bss        Helena                    Madruzzo                                 (1564-1627)     3 [FUGER]
 	name="Helena Madruzzo"
@@ -6458,6 +6466,22 @@ lowborn_2444={ #            Ignazio                   Tambaro                   
 	1903.07.11={add_spouse=caracciolo_0050}	# Adelaide Caracciolo
 	1948.01.01={death=yes}  # EST.
 }
+100083201={ #               Cesare                    della Valle                              (1840-1913)     0 [IMPERIALI]
+	name="Cesare della Valle"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1840.01.01={birth=yes}
+	1913.01.01={death=yes}  # EST.
+}
+100083202={ #               Anna                      della Valle                              (1845-1918)     0 [IMPERIALI]
+	name="Anna della Valle"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1845.01.01={birth=yes}
+	1918.01.01={death=yes}  # EST.
+}
 100099041={ #    Nobile     Domenico                  Abiosi                                   (1884-1947)     - [CAPECE]
 	name="Domenico Abiosi"
 	#dynasty=0
@@ -6519,12 +6543,12 @@ lowborn_2417={ # Cte        Ettore                    Attendolo Bolognini       
 	1819.01.01={add_spouse=melzi_0099}	# Anna Melzi
 	1855.01.01={death=yes}  # EST.
 }
-100083098={ #    Cte        Gian Giacomo              Attolico                                 (1951-    )     - [BORGHESE]
+100083098={ #    Cte        Gian Giacomo              Attolico                                 (1951-    )     - [SALVIATI]
 	name="Gian Giacomo Attolico"
 	#dynasty=0
 	religion=catholic culture=italian
 	1951.01.01={birth=yes}
-	1985.07.20={add_spouse=100070671}	# Maria Oliva Borghese
+	1985.07.20={add_spouse=100070671}	# Maria Oliva Salviati
 }
 100080295={ #    Cte        Giulio                    Bacci di Capaci                          (1912-1993)     - [IMPERIALI]
 	name="Giulio Bacci di Capaci"
@@ -6659,6 +6683,13 @@ lowborn_2360={ # Cte        Jose                      Bezzi                     
 	religion=catholic culture=italian
 	1842.01.24={birth=yes}
 	1915.01.01={death=yes}  # EST.
+}
+lowborn_2705={ # Cssa       Giuletta                  Brunetti                                 (1857-1941)     2 [LAMBERG]
+	name="Giuletta Brunetti"
+	female=yes
+	religion=catholic culture=german
+	1857.03.18={birth=yes}  # Bologna
+	1941.04.18={death=yes}  # Kitzbühel
 }
 100081054={ #    Marchese   Luigi                     Bufalini                                 (1893-1952)     - [DRAGO]
 	name="Luigi Bufalini"
@@ -7533,14 +7564,6 @@ lowborn_2399={ # Marquess   Guido                     Mazzenta                  
 	1947.11.20={add_spouse=100070201}	# Ippolita Boncompagni-Ludovisi
 	1961.07.28={death=yes}  # Acquapendente
 }
-100103333={ #    Cte        Vito                      Nicola Strassoldo di Villanova           (1642-1683)     - [THURN]
-	name="Vito Nicola Strassoldo di Villanova"
-	#dynasty=0
-	religion=catholic culture=italian
-	1642.09.19={birth=yes}
-	1662.02.19={add_spouse=100072674}	# Barbara Ludovica von Thurn-Valsássina und Hoffer
-	1683.09.09={death=yes}
-}
 100102154={ #    Cte        Guilberto                 Olgiati                                  (1865-1943)     - [NARYSKIN]
 	name="Guilberto Olgiati"
 	#dynasty=0
@@ -7648,14 +7671,6 @@ lowborn_2673={ # Pr         Jacopo                    Piccinino di Sulmona      
 	1464.08.12={add_spouse=sforza_0046}	# Drusiana Sforza
 	1465.07.14={death=yes}  # Naples
 }
-100095690={ #    Duca       Octavio                   Piccolomini di Amalfi                    (1599-1656)     - [SACHSEN]
-	name="Octavio Piccolomini di Amalfi"
-	#dynasty=0
-	religion=catholic culture=german
-	1599.01.01={birth=yes}
-	1651.06.04={add_spouse=100000167}	# Marie von Sachsen-Lauenburg
-	1656.08.10={death=yes}  # Vienna
-}
 100089013={ #    Cte        Enrico                    Piccone                                  (1894-1969)     - [IMPERIALI]
 	name="Enrico Piccone"
 	#dynasty=0
@@ -7701,14 +7716,6 @@ lowborn_2344={ # Cssa       Matilde                   Poldi Pezzoli             
 	religion=catholic culture=italian
 	1818.01.01={birth=yes}  # EST.
 	1840.01.01={death=yes}  # EST.
-}
-100094111={ #    Marchesa   Elena                     Primicile Carafa                         (1875-1950)     0 [CAPECE]
-	name="Elena Primicile Carafa"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1875.01.01={birth=yes}  # EST.
-	1950.01.01={death=yes}  # EST.
 }
 100083152={ #    Marchese   Giuseppe                  Puoti                                    (1871-1954)     - [COLONA]
 	name="Giuseppe Puoti"
@@ -7925,14 +7932,6 @@ lowborn_2583={ # Duchessa   Ottavia                   Spinelli di Aquara        
 	1962.05.17={birth=yes}  # Milano
 	1992.11.27={add_spouse=100024694}	# Stefanie Sophie von Trauttmansdorff-Weinsberg
 }
-lowborn_1945={ # Lady       Mary Beatrix Alethea      Talbot                                   (1815-1858)     6 [DORIA]
-	name="Mary Beatrix Alethea Talbot"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1815.05.29={birth=yes}	# 
-	1858.12.18={death=yes}	# Roma
-}
 lowborn_2684={ # Cssa       Ginevra                   Tiepolo                                  (1478-1512)     1 [SFORZA]
 	name="Ginevra Tiepolo"
 	female=yes
@@ -7993,6 +7992,13 @@ lowborn_2684={ # Cssa       Ginevra                   Tiepolo                   
 	1770.01.01={birth=yes}
 	1795.05.10={add_spouse=100004531}	# Maria Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 	1845.01.01={death=yes}
+}
+lowborn_2647={ # marquise   Lucrezia                  Turinetti di Pria                        (1709-1779)     2 [LAMBERG]
+	name="Lucrezia Turinetti di Pria"
+	female=yes
+	religion=catholic culture=german
+	1709.01.01={birth=yes}  # EST.
+	1779.01.16={death=yes}
 }
 lowborn_2428={ # Duca       Francesco                 Tuttavilla di Calabritto                 (1773-1843)     - [CARACIOLO]
 	name="Francesco Tuttavilla di Calabritto"
@@ -8233,6 +8239,14 @@ lowborn_2485={ # Css        Marguerite                de Renesse                
 	1897.01.01={birth=yes}  # EST.
 	1922.04.30={add_spouse=100072285}	# Clotilde Capece Minutolo
 	1972.01.01={death=yes}  # EST.
+}
+100083171={ #    Marchese   Ugo                       del Castillo di San Onofrio              (1849-1922)     - [IMPERIALI]
+	name="Ugo del Castillo di San Onofrio"
+	#dynasty=0
+	religion=catholic culture=italian
+	1849.01.01={birth=yes}
+	1874.01.01={add_spouse=100071343}	# Maria Imperiali
+	1922.01.01={death=yes}  # EST.
 }
 100095249={ #    Marques    Raffaele                  del Draso Casali                         (1810-1884)     - [COLONA]
 	name="Raffaele del Draso Casali"
@@ -8760,6 +8774,14 @@ lowborn_2685={ # Barone     Cipriano                  del Nero di Porcigliano   
 	1520.01.01={add_spouse=sforza_0065}	# Isabella Sforza
 	1555.01.01={death=yes}  # Florence
 }
+100101673={ #    Bss        Clemente                  della Noce                               (1922-1998)     - [CORSINI]
+	name="Clemente della Noce"
+	#dynasty=0
+	religion=catholic culture=italian
+	1922.06.28={birth=yes}  # Bologna
+	1961.04.27={add_spouse=100071512}	# Giuliana Corsini
+	1998.01.01={death=yes}  # EST.
+}
 100099917={ #    Barone     Ferdinando                di Girardi                               (1836-1911)     - [CARACIOLO]
 	name="Ferdinando di Girardi"
 	#dynasty=0
@@ -8901,7 +8923,7 @@ lowborn_2612={ #            Flavia                    Ansaldo                   
 	1464.01.01={birth=yes}  # EST.
 	1523.03.09={death=yes}
 }
-100080210={ #               Federico                  Arcelli                                  (1970-    )     0 [BORGHESE]
+100080210={ #               Federico                  Arcelli                                  (1970-    )     0 [ALDOBRANDINI]
 	name="Federico Arcelli"
 	female=yes
 	#dynasty=0
@@ -8980,6 +9002,13 @@ lowborn_2655={ #            Barbara                   Balbiani di Valchiavenna  
 	1944.01.01={birth=yes}
 	1969.10.09={add_spouse=100015633}	# Мария Madeleine Владимировна Гагарин
 	1975.01.01={remove_spouse=100015633}
+}
+lowborn_2875={ #            Heinrich Hektor           Baltazzi                                 (1851-1911)     - [UGARTE]
+	name="Heinrich Hektor Baltazzi"
+	religion=catholic culture=german
+	1851.01.01={birth=yes}  # EST.
+	1875.01.01={add_spouse=ugarte_0032}	# Anna Ugarte
+	1911.01.01={death=yes}  # EST.
 }
 lowborn_2552={ #            Sabrina                   Bannetta                                 (1965-    )     2 [CARACIOLO]
 	name="Sabrina Bannetta"
@@ -11198,12 +11227,12 @@ lowborn_2470={ #            Carlo                     Siciliani                 
 	1889.11.06={add_spouse=caracciolo_0098}	# Immacolata Caracciolo
 	1934.01.01={death=yes}  # EST.
 }
-100090390={ #               Giorgio                   Solaroli di Briona                       (1918-1994)     - [BORGHESE]
+100090390={ #               Giorgio                   Solaroli di Briona                       (1918-1994)     - [SALVIATI]
 	name="Giorgio Solaroli di Briona"
 	#dynasty=0
 	religion=catholic culture=italian
 	1918.07.19={birth=yes}
-	1943.09.19={add_spouse=100070662}	# Laura Floriana Borghese
+	1943.09.19={add_spouse=100070662}	# Laura Floriana Salviati
 	1994.01.01={death=yes}  # EST.
 }
 lowborn_2015={ #            Giovanni                  Soranzo                                  (1789-1849)     - [GONZAGA]
@@ -11501,7 +11530,7 @@ lowborn_2530={ #            Valentino                 Zingaropoli               
 	religion=catholic culture=italian
 	1981.01.01={birth=yes}
 }
-100081816={ #               Beverly                   d'Angelo                                 (1954-    )     0 [BORGHESE]
+100081816={ #               Beverly                   d'Angelo                                 (1954-    )     0 [SALVIATI]
 	name="Beverly d'Angelo"
 	female=yes
 	#dynasty=0
@@ -11778,6 +11807,21 @@ lowborn_2615={ #            Maria                     de la Tour en Voivre      
 	1925.11.07={birth=yes}
 	2005.01.01={death=yes}	# EST.
 }
+100083191={ #               Maria Zenaide             della Chà                                (1929-2009)     3 [ODESCALCHI]
+	name="Maria Zenaide della Chà"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1929.07.15={birth=yes}
+	2009.10.01={death=yes}
+}
+100083197={ #               Gianmaria                 della Porte                              (1958-    )     - [BORGHESE]
+	name="Gianmaria della Porte"
+	#dynasty=0
+	religion=catholic culture=italian
+	1958.01.01={birth=yes}
+	1983.01.01={add_spouse=100070628}	# Monica Borghese
+}
 100083199={ #               Pietro                    della Romana                             (1827-1890)     - [SZECHENYI]
 	name="Pietro della Romana"
 	#dynasty=0
@@ -11903,69 +11947,44 @@ lowborn_2475={ #            Pasquale                  di Giulio                 
 	1919.11.20={add_spouse=100071497}	# Francesca Maria Lucchesi Palli
 	1970.04.25={death=yes}
 }
-
-lowborn_1824={ #            Francesco                 Piccolomini-TODESCHINI                   (1654-1686)     - [KHUEN]
-	name="Francesco PICCOLOMINI-TODESCHINI"
-	religion=catholic culture=german
-	1654.01.01={birth=yes}
-	1681.01.01={add_spouse=khuen_0023}	# Anna Elisabeth Khuen von Belasi
-	1686.07.14={death=yes}  # k.a.,Buda
+100088049={ #    Marchese   Ermano                    Cordero di Pamparato                     (1820-1865)     - [CHOISEUL]
+	name="Ermano Cordero di Pamparato"
+	#dynasty=0
+	religion=catholic culture=french
+	1820.01.01={birth=yes}  # EST.
+	1845.09.18={add_spouse=100069622}	# Marie de Choiseul-Praslin
+	1865.01.01={death=yes}
 }
-lowborn_2152={ #            Ludmilla                  Piccolomini-Pieri D'aragona              (1703-1768)     1 [DES]
-	name="Ludmilla Piccolomini-Pieri D'aragona"
+100081778={ #    Duca       Mario                     Sforza de Santa Fiora di Ognano e Segni  (1594-1658)     - [LORAINE]
+	name="Mario Sforza de Santa Fiora di Ognano e Segni"
+	#dynasty=0
+	religion=catholic culture=french
+	1594.01.01={birth=yes}
+	1613.01.01={add_spouse=100066143}	# Renée de Lorraine
+	1658.09.26={death=yes}  # Rome
+}
+100080917={ #               Adèle Henriette           Arrighi de Casanova de Padoue            (1849-1929)     3 [RIQUET]
+	name="Adèle Henriette Arrighi de Casanova de Padoue"
 	female=yes
-	religion=catholic culture=german
-	1703.11.01={birth=yes}  # Náchod
-	1768.02.03={death=yes}  # Praha
+	#dynasty=0
+	religion=catholic culture=french
+	1849.09.11={birth=yes}  # Ris Orangis
+	1929.12.19={death=yes}  # Paris
 }
-
-lowborn_3630={ # Donna      Giovanna                  Monroy di Belmonte                       (1869-1924)     1 [POZO]
-	name="Giovanna Monroy di Belmonte"
-	female=yes
-	religion=catholic culture=sicilian
-	1869.03.25={birth=yes}  # Palermo
-	1924.10.15={death=yes}  # Rome
+lowborn_3074={ # Marchese   Michael                   Alvernis-Saluzzo di Clavesano            (1607-1678)     - [LIBSTEJNSKY]
+	name="Michael Alvernis-Saluzzo di Clavesano"
+	#dynasty=0
+	religion=catholic culture=czech
+	1607.08.19={birth=yes}
+	1649.01.01={add_spouse=kolowrat_0011}	# Johanna Eleonora Libštejnský z Kolovrat
+	1678.08.19={death=yes}
 }
-lowborn_2692={ # Gf         Felix                     Montecuccoli-Laderchi                    (1799-1846)     - [LAMBERG]
-	name="Felix Montecuccoli-Laderchi"
-	religion=catholic culture=german
-	1799.10.02={birth=yes}  # Mitterau
-	1828.01.08={add_spouse=lamberg_0006}	# Wilhelmine von Lamberg
-	1846.01.02={death=yes}  # Wien
-}
-lowborn_2647={ # marquise   Lucrezia                  Turinetti di Pria                        (1709-1779)     2 [LAMBERG]
-	name="Lucrezia Turinetti di Pria"
-	female=yes
-	religion=catholic culture=german
-	1709.01.01={birth=yes}  # EST.
-	1779.01.16={death=yes}
-}
-lowborn_2726={ # Gfn        Maria Walpurga            della Rovere-Montelabate                 (1737-1787)     1 [LAMBERG]
-	name="Maria Walpurga della Rovere-Montelabate"
-	female=yes
-	religion=catholic culture=german
-	1737.02.03={birth=yes}
-	1787.04.26={death=yes}
-}
-lowborn_2705={ # Cssa       Giuletta                  Brunetti                                 (1857-1941)     2 [LAMBERG]
-	name="Giuletta Brunetti"
-	female=yes
-	religion=catholic culture=german
-	1857.03.18={birth=yes}  # Bologna
-	1941.04.18={death=yes}  # Kitzbühel
-}
-lowborn_2875={ #            Heinrich Hektor           Baltazzi                                 (1851-1911)     - [UGARTE]
-	name="Heinrich Hektor Baltazzi"
-	religion=catholic culture=german
-	1851.01.01={birth=yes}  # EST.
-	1875.01.01={add_spouse=ugarte_0032}	# Anna Ugarte
-	1911.01.01={death=yes}  # EST.
-}
-lowborn_2874={ #            Carlo                     Lovatelli                                (1842-1902)     - [UGARTE]
-	name="Carlo Lovatelli"
-	religion=catholic culture=german
-	1842.01.01={birth=yes}  # EST.
-	1866.06.09={add_spouse=ugarte_0030}	# Gabriela Ugarte
-	1902.01.01={death=yes}  # EST.
+lowborn_3097={ # Pr         Lorenzo                   Piccolomini-Pieri d'Aragona              (1656-1712)     - [LIBSTEJNSKY]
+	name="Lorenzo Piccolomini-Pieri d'Aragona"
+	#dynasty=0
+	religion=catholic culture=czech
+	1656.11.24={birth=yes}
+	1689.09.11={add_spouse=kolowrat_0060}	# Anna Libštejnský z Kolovrat
+	1712.08.22={death=yes}  # Ratibořice
 }
 

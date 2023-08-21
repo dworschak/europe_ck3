@@ -70,6 +70,22 @@
 	1862.12.04={birth=yes}
 	1884.09.22={death=yes}  # Nagylévárd
 }
+lowborn_3022={ # Gf         Johann Heinrich           Kollonitz von Kollegrad                  (1679-1721)     - [VALDSTEJNA]
+	name="Johann Heinrich Kollonitz von Kollegrad"
+	# dynasty=0
+	religion=catholic culture=czech
+	1679.04.01={birth=yes}
+	1701.05.30={add_spouse=waldstein_0029}	# Maria Benedikta z Valdštejna
+	1721.11.25={death=yes}  # Gross-Schüzen
+}
+lowborn_3209={ # Gf         Johann Ulrich             Kollonitz-Kollograd                      (1606-1676)     - [WINDISCH]
+	name="Johann Ulrich Kollonitz-Kollograd"
+	#dynasty=0
+	religion=catholic culture=german
+	1606.01.28={birth=yes}
+	1648.01.01={add_spouse=wgraetz_0056}	# Eva Katharina von Windisch-Graetz
+	1676.01.01={death=yes}
+}
 100096559={ #    Gfn        Maria Franziska           Kollonitsch                              (1687-1746)     2 [KUEFSTEIN]
 	name="Maria Franziska Kollonitsch"
 	female=yes
@@ -104,7 +120,7 @@
 	1678.01.01={death=yes}	# EST.
 }
 
-100084397={ #    Pr         Nicolaus                  Bibesco                                  (1830-1890)     - [NEY]
+100084397={ #    Pr         Nicolaus                  Bibesco                                  (1830-1890)     - [DELCHINGEN]
 	name="Nicolaus Bibesco"
 	#dynasty=0
 	religion=catholic culture=french
@@ -196,7 +212,7 @@
 	1854.09.05={birth=yes}  # Oroslavje
 	1904.05.17={death=yes}  # Viszló
 }
-100092740={ #    Gf         Janko                     Vojkffy von Vojkovic                     (1854-1897)     - [FUGER]
+100092740={ #    Gf         Janko                     Vojkffy von Vojkovic                     (1854-1897)     - [HANAU]
 	name="Janko Vojkffy von Vojkovic"
 	#dynasty=0
 	religion=catholic culture=croatian
@@ -284,7 +300,7 @@
 	1949.03.10={add_spouse=100024867}	# Franziska Romana von Clary u.Aldringen
 	1969.09.06={death=yes}
 }
-100094226={ #    Frhr       Hubertus                  Rukavina von Vidovgrad                   (1949-    )     - [FUGER]
+100094226={ #    Frhr       Hubertus                  Rukavina von Vidovgrad                   (1949-    )     - [HANAU]
 	name="Hubertus Rukavina von Vidovgrad"
 	#dynasty=0
 	religion=catholic culture=croatian
@@ -1135,20 +1151,14 @@ lowborn_1664={ #            Anastasia                 of Moldova                
 	1354.01.01={birth=yes}  # EST.
 	1420.01.01={death=yes}
 }
-lowborn_1665={ #            Alexandru                 of Moldova                               (1380-1430)     - [JAGIELO]
+lowborn_1661={ #            Alexandru                 of Moldova                               (1375-1432)  2  - [JAGIELO, JAGIELO]
 	name="Hospodar Alexandru of Moldova"
 	religion=orthodox culture=vlach
-	1380.01.01={birth=yes}  # EST.
+	1375.01.01={birth=yes}
 	1405.01.01={add_spouse=jagelo_0155}	# Anna Jagiełło
-	1430.01.01={death=yes}
-}
-lowborn_1661={ # Voivode    Alexandru                 of Moldova                               (1394-1430)     - [JAGIELO]
-	name="Alexandru of Moldova"
-	religion=orthodox culture=vlach
-	1394.01.01={birth=yes}  # EST.
 	1419.01.01={add_spouse=jagelo_0150}	# Rymgajla Jagiełło
 	1421.01.01={remove_spouse=jagelo_0150}
-	1430.01.01={death=yes}
+	1432.01.01={death=yes}	# Suceava, Moldavia
 }
 lowborn_1764={ # GrPr       Stephan                   of Moldova                               (1439-1504)     - [OLELKOWICZ]
 	name="Stephan of Moldova"

@@ -3,7 +3,7 @@
 ##  100022012-100022410		SEILERN U.ASPANG                  1004701	 116		 36/ 77 = 46,75%	283
 ##  100022019-100022220		HARRACH ZU ROHRAU U.THANNH        1004560	 135		 48/123 = 39,02%	67
 ##  100022139-100022174		BREUNNER                          1004600	  36		 23/ 44 = 52,27%	0
-##  100022500-100023169		WINDISCH-GRAETZ                   1004000	 131		 53/ 96 = 55,21%	539
+##  wgraetz_0038-100023169		WINDISCH-GRAETZ                   1004000	 131		 53/ 96 = 55,21%	539
 ##  100022501-100022561		SILVA-TAROUCA                     1004603	  25		 14/ 18 = 77,78%	36
 ##  100022562-100022712		KUEFSTEIN                         1004008	  56		 14/ 35 = 40,00%	95
 ##  100022709-100023089		LIECHTENSTEIN                     1004002	 264		120/205 = 58,54%	117
@@ -952,7 +952,7 @@
 ##  100022560-				Walterskirchen	                  1004604
 
 
-##  100022500-				Silva-Tarouca	                  1004603
+##  wgraetz_0038-				Silva-Tarouca	                  1004603
 #silvatar
 #100082927 =  Emanuel Teles da Silva, Graf von Silva-Tarouca (* 17. September 1691 in Lissabon, Portugal; † 8. März 1771 in Wien); m.t Johanna Amalie von Schleswig-Holstein-Sonderburg-Beck (* 3. Dezember 1719; † 30. Oktober 1774) der Tochter des Generals Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Beck
 	100022501={ #// Franz Stephan Graf von Silva-Tarouca, *Wien 30.1.1750, +Wien 5.3.1797; m.Wien 30.1.1772 Gfn Maria Christina von Schönborn-Heussenstamm (*Wien 20.9.1754, +Wien 25.8.1797); They had issue: $$
@@ -1206,20 +1206,11 @@
 #1971.06.01={holder=100022541} # C3. Ernst Emanuel
 #1936.08.15={holder=100022554} # D5. Franz Xaver
 #silvatar
-##  100022500-				Silva-Tarouca	                  1004603
+##  wgraetz_0038-				Silva-Tarouca	                  1004603
 
 
 ##  100025947-				Breunner		                  1004600
 #breunner1
-100101251={ #// B5. Ferdinand Ernst, *Wien 1607, +25.3.1666; 1m: Wien 10.7.1634 Gfn Polyxena Elisabeth von Starhemberg (*1612, +Wien 30.8.1649); 2m: 1653 Elisabeth Clara Cäcilia Gfn Nogarola (*ca 1630, +(Brno (Brünn), Moravia) 10.2.1691)
-	name="Ferdinand Ernst Breunner"
-	#dynasty=0
-	religion=catholic culture=bavarian
-	1607.01.01={birth=yes}  # Wien
-	1637.01.01={add_spouse=100024728}	# Eva Susanna von Starhemberg
-	1641.01.01={add_spouse=100026005}	# Polyxena von Starhemberg
-	1666.03.25={death=yes}
-}
 100103058={ #// D8. [2m.] Maria Anna, *Wien 30.3.1700, +Wien 29.5.1766, bur Greillenstein; m.Wien 9.2.1719 Gf Johann Ferdinand von Kuefstein Frhr von Greillenstein (*Wien 26.3.1688, +Wien 12.4.1755)
 	name="Maria Anna Breunner"
 	female=yes
@@ -1262,6 +1253,18 @@
 		1676.08.01={add_spouse=100003037}	# Elisabeth Philippine zu Schaumburg-Lippe
 		1708.04.05={death=yes}  # Wien
 	}
+
+100101251={ #// B5. Ferdinand Ernst, *Wien 1607, +25.3.1666; 1m: Wien 10.7.1634 Gfn Polyxena Elisabeth von Starhemberg (*1612, +Wien 30.8.1649); 2m: 1653 Elisabeth Clara Cäcilia Gfn Nogarola (*ca 1630, +Brünn, Moravia 10.2.1691) $$
+	name="Ferdinand Ernst"
+	dynasty=1004600
+	religion=catholic culture=bavarian
+	1607.01.01={birth=yes}  # Wien
+	1634.07.10={add_spouse=100026005}	# Polyxena von Starhemberg
+	1637.01.01={add_spouse=100024728}	# Eva Susanna von Starhemberg
+	1653.01.01={add_spouse=lowborn_3076}	# GFN Isabella Clara Cäcilia Nogarola
+	1666.03.25={death=yes}
+}
+	#breunner2  -->  C5. [2m.] Philipp Ignaz Gf Breunner, *30.11.1653, +Wien 3.12.1722; m.Asparn 29.9.1681 Gfn Marie Elisabeth Judith von Breuner-Asparn (*Znojmo (Znaim), Moravia 1.10.1660, +Wien 14.5.1712); for their issue see HERE
 #breunner1
 
 #breunner3
@@ -1319,6 +1322,8 @@
 	name=Philipp
 	dynasty=1004600
 	religion=catholic culture=bavarian
+	father=100101251	# Ferdinand Ernst von Breunner
+	mother=lowborn_3076	# GFN Isabella Clara Cäcilia Nogarola
 	1653.11.30={birth=yes}
 	1681.09.29={add_spouse=100091134}	# Marie Elisabeth Breunner zu Asparn
 	1722.12.03={death=yes}  # Wien
@@ -2389,8 +2394,8 @@
 				1673.01.01={birth=yes}
 				1704.01.01={death=yes}
 			}
-			100022261={ #// C8. Maria Claudia Katharina, *Wien 24.11.1674, +27.9.1725; 1m: 1696 Gf Maximilian Joseph von Morzin (*1672 +16.4.1706); 2m: 1706 Johann Ludwig Gf Cavriani (+1729)
-				name=Maria
+			100022261={ #// C8. Maria Claudia Katharina, *Wien 24.11.1674, +27.9.1725; 1m: 1696 Gf Maximilian Joseph von Morzin (*1672 +16.4.1706); 2m: 1706 Johann Ludwig Gf Cavriani (+1729) $$
+				name="Maria Claudia"
 				female=yes
 				dynasty=1004507
 				religion=catholic culture=bavarian
@@ -2406,7 +2411,7 @@
 				father=100022282	# Wenzel von Althann
 				mother=100103961	# GFN Anna d'Aspremont-Lynden
 				1677.01.01={birth=yes}  # Wien
-				1699.01.30={add_spouse=100104013}	# GFN Maria Eleonora Lažanský
+				1699.01.30={add_spouse=lazansky_0021}	# Maria Eleonora Lažanský von Bukowa
 				1720.04.08={add_spouse=100104014}	# Maria Josefa Serényi de Kisserény
 				1733.01.18={death=yes}  # Brieg
 			}
@@ -2416,7 +2421,7 @@
 					dynasty=1004507
 					religion=catholic culture=czech
 					father=100022271	# Michael Ferdinand von Althann
-					mother=100104013	# GFN Maria Eleonora Lažanský
+					mother=lazansky_0021	# Maria Eleonora Lažanský von Bukowa
 					1700.05.15={birth=yes}  # Praha
 					1737.07.15={death=yes}  # Praha
 				}
@@ -2425,7 +2430,7 @@
 					dynasty=1004507
 					religion=catholic culture=czech
 					father=100022271	# Michael Ferdinand von Althann
-					mother=100104013	# GFN Maria Eleonora Lažanský
+					mother=lazansky_0021	# Maria Eleonora Lažanský von Bukowa
 					1701.05.13={birth=yes}  # Praha
 					1733.01.01={add_spouse=100104015}	# GFN Marie Anna von Lichtervelde
 					1766.11.29={death=yes}  # Sankt Polten
@@ -2457,7 +2462,7 @@
 					dynasty=1004507
 					religion=catholic culture=czech
 					father=100022271	# Michael Ferdinand von Althann
-					mother=100104013	# GFN Maria Eleonora Lažanský
+					mother=lazansky_0021	# Maria Eleonora Lažanský von Bukowa
 					1703.09.07={birth=yes}  # Praha
 					1754.12.06={death=yes}  # Wien
 				}
@@ -2467,7 +2472,7 @@
 					dynasty=1004507
 					religion=catholic culture=czech
 					father=100022271	# Michael Ferdinand von Althann
-					mother=100104013	# GFN Maria Eleonora Lažanský
+					mother=lazansky_0021	# Maria Eleonora Lažanský von Bukowa
 					1708.03.24={birth=yes}  # Praha
 					1728.07.20={death=yes}
 				}
@@ -2476,7 +2481,7 @@
 					dynasty=1004507
 					religion=catholic culture=czech
 					father=100022271	# Michael Ferdinand von Althann
-					mother=100104013	# GFN Maria Eleonora Lažanský
+					mother=lazansky_0021	# Maria Eleonora Lažanský von Bukowa
 					1708.06.25={birth=yes}  # Praha
 					1779.05.18={death=yes}
 				}
@@ -3706,7 +3711,7 @@
 		father=100022220	# Ernst Quido von Harrach zu Rohrau u.Thannhausen
 		mother=100024626	# Maria Josepha von Dietrichstein
 		1763.03.17={birth=yes}  # Wien
-		1795.01.07={add_spouse=100098737}	# Jana Kristina Rajská z Dubnice
+		1795.01.07={add_spouse=100098737}	# Jana Kristina Reisky z Dubnic
 		1841.12.04={death=yes}  # Dresden
 	}
 		100022074={ #// B1. Karl Philipp, *Praha 16.11.1795, +Wroclaw 25.11.1878; 1m: Stremplowitz 10.7.1829 Maria Theresia Sedlnitzká z Choltitz (*Opava 26.8.1810, +Dresden 23.9.1834); 2m: Dresden 5.7.1838 Isabella von Pfister (*Wien 17.11.1812, +Dresden 5.4.1896)
@@ -3714,7 +3719,7 @@
 			dynasty=1004560
 			religion=lutheran culture=bavarian
 			father=100022076	# Ferdinand Joseph von Harrach zu Rohrau u.Thannhausen
-			mother=100098737	# Jana Kristina Rajská z Dubnice
+			mother=100098737	# Jana Kristina Reisky z Dubnic
 			1795.11.16={birth=yes}  # Praha
 			1829.07.10={add_spouse=100036431}	# Maria Theresia Sedlnitzky z Choltitz
 			1838.07.05={add_spouse=100099150}	# Isabella von Pfister
@@ -4154,7 +4159,7 @@
 			dynasty=1004560
 			religion=lutheran culture=bavarian
 			father=100022076	# Ferdinand Joseph von Harrach zu Rohrau u.Thannhausen
-			mother=100098737	# Jana Kristina Rajská z Dubnice
+			mother=100098737	# Jana Kristina Reisky z Dubnic
 			1800.08.30={birth=yes}  # Harrach
 			1873.06.05={death=yes}  # Bad Homburg
 		}
@@ -7941,7 +7946,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				1629.01.01={birth=yes}
 				1662.04.28={death=yes}
 			}
-	100026159={ #// A11. Regina, *18.9.1567, +Graz 1618; 1m: Graz 10.11.1583 Gf Andreas II von Windisch-Grätz (*1567 +1600); 2m: Karl von Eck (+ca 1610)
+	100026159={ #// A11. Regina, *18.9.1567, +Graz 1618; 1m: Graz 10.11.1583 Gf Andreas II von Windisch-Grätz (*1567 +1600); 2m: Karl von Eck (+ca 1610) $$
 		name=Regina
 		female=yes
 		dynasty=1004019
@@ -9330,14 +9335,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						1885.01.29={add_spouse=100115795}	# Sarolta Wenckheim
 						1919.01.23={death=yes}	# Leschna bei Walachisch-Meseritsch
 					}
-						100022397={ #// F1. Joseph (*Leschna bei Walachisch-Meseritsch 25.11.1883, +Leschna bei Walachisch-Meseritsch 18.8.1939); m.1913 Gfn Theresia Sidonia Maria Lažanský von Bukowa (*Bohemia, Manetin 15.3.1890, +Waidhofen a.d. Thaya 1979) %%
+						100022397={ #// F1. Joseph (*Leschna bei Walachisch-Meseritsch 25.11.1883, +Leschna bei Walachisch-Meseritsch 18.8.1939); m.1913 Terezie Lažanský von Bukowa (*Manětín 15.3.1890, +Waidhofen an der Thaya,Niederösterreich 1979) %%
 							name=Joseph 	 # 1246041/joseph-karl-franz-maria-johann-nepomuk-graf-von-seilern-und-aspang/
 							dynasty=1004701
 							religion=catholic culture=bavarian
 							father=100022396	# Franz Joseph Maria von Seilern u.Aspang
 							mother=100115796	# Ilona Wenckheim
 							1883.11.25={birth=yes}	# Leschna bei Walachisch-Meseritsch
-							1913.01.01={add_spouse=100085413}	# GFN Theresia Sidonia Maria Lažanský von Bukowa
+							1913.01.01={add_spouse=lazansky_0079}	# Terezie Lažanský von Bukowa
 							1939.08.18={death=yes}	# Leschna bei Walachisch-Meseritsch
 						}
 							100022364={ #// G1. Ilona Maria Caroline (*München, München 1.3.1913, +Wien 14.11.1993) %%
@@ -9346,7 +9351,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004701
 								religion=catholic culture=bavarian
 								father=100022397	# Joseph von Seilern u.Aspang
-								mother=100085413	# GFN Theresia Sidonia Maria Lažanský von Bukowa
+								mother=lazansky_0079	# Terezie Lažanský von Bukowa
 								1913.03.01={birth=yes}	# München, München
 								1993.11.14={death=yes}	# Wien
 							}
@@ -9355,7 +9360,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004701
 								religion=catholic culture=bavarian
 								father=100022397	# Joseph von Seilern u.Aspang
-								mother=100085413	# GFN Theresia Sidonia Maria Lažanský von Bukowa
+								mother=lazansky_0079	# Terezie Lažanský von Bukowa
 								1914.08.18={birth=yes}	# Leschna bei Walachisch-Meseritsch
 								1943.03.07={add_spouse=100047370}	# Aglae z Valdštejna
 								1989.01.01={death=yes}	# EST.
@@ -9514,7 +9519,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004701
 								religion=catholic culture=bavarian
 								father=100022397	# Joseph von Seilern u.Aspang
-								mother=100085413	# GFN Theresia Sidonia Maria Lažanský von Bukowa
+								mother=lazansky_0079	# Terezie Lažanský von Bukowa
 								1919.01.30={birth=yes}	# Manetin, Böhmen
 								1994.01.01={death=yes}	# EST.
 							}
@@ -9523,18 +9528,18 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004701
 								religion=catholic culture=bavarian
 								father=100022397	# Joseph von Seilern u.Aspang
-								mother=100085413	# GFN Theresia Sidonia Maria Lažanský von Bukowa
+								mother=lazansky_0079	# Terezie Lažanský von Bukowa
 								1921.10.26={birth=yes}	# Leschna
 								1944.07.22={death=yes}	# Kniaze
 							}
-						100022395={ #// F2. Franz (*Ischl 28.7.1886, +Hörmans bei Littschau 27.7.1930); m.1st 20.5.1920 Gfn Wilhelmine Lažanský (*Manetin 23.11.1891, +Manetin 31.12.1922); m.2nd 1924 Gfn Maria Concetta Theresa von Toggenburg (*Wien, Wien 14.10.1902) %%
+						100022395={ #// F2. Franz (*Ischl 28.7.1886, +Hörmans bei Littschau 27.7.1930); m.1st 20.5.1920 Vilemina Lažanský von Bukowa (*Manětín 23.11.1891, +Manětín 31.12.1922); m.2nd 1924 Gfn Maria Concetta Theresa von Toggenburg (*Wien, Wien 14.10.1902) %%
 							name=Franz		 # 1246047/franz-rudolf-joseph-maria-anton-innocenz-aloysius-ignatius-graf-von-seilern-und-aspang/
 							dynasty=1004701
 							religion=catholic culture=bavarian
 							father=100022396	# Franz Joseph Maria von Seilern u.Aspang
 							mother=100115795	# Sarolta Wenckheim
 							1886.07.28={birth=yes}	# Ischl
-							1920.05.20={add_spouse=100085412}	# GFN Wilhelmine Lažanský
+							1920.05.20={add_spouse=lazansky_0080}	# Vilemina Lažanský von Bukowa
 							1924.01.01={add_spouse=100085972}	# GFN Maria Concetta Theresa von Toggenburg
 							1930.07.27={death=yes}	# Hörmans bei Littschau
 						}
@@ -10371,7 +10376,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		1855.06.23={death=yes}  # Vienna-Hietzing
 	}
 	100024410={ #// D2. KLEMENS Wenzel Nepomuk Lothar, 2.Fürst von Metternich-Winneburg, 1st Duke of Portella (Duca di Portella) with Royal Decree of King of Two Sicily 1.8.1818, Great of Spain 1st class 1.10.1818, Austrian Chancellor, *Koblenz 15.5.1773, +Wien 11.6.1859, bur Plasy; 1m: Slavkov 27.9.1795 Gfn Maria Eleonore von Kaunitz-Rietberg (*1.10.1775 +19.3.1825); 2m: Schloss Hetzendorf bei Wien 5.11.1827 Maria Antonia von Leykam, cr Gräfin von Beylstein 7.10.1827 (*Napoli 15.8.1806, +Kynžvart 17.1.1829); 3m: Wien 30.1.1831 Gfn Melania Zichy-Ferraris de Zich et Vásonykeö (*18.1.1805 +3.3.1854) $$
-		name=Klemens
+		name="Klemens Wenzel Lothar"
 		dynasty=1004018
 		religion=catholic culture=bavarian
 		father=100024406	# Franz Georg von Metternich-Winneburg
@@ -10387,7 +10392,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			female=yes
 			dynasty=1004018
 			religion=catholic culture=bavarian
-			father=100024410	# Klemens von Metternich-Winneburg
+			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100047761	# Marie Eleonore von Kaunitz
 			1797.01.17={birth=yes}
 			1820.07.24={death=yes}  # Baden bei Wien
@@ -10396,18 +10401,18 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			name=Viktor
 			dynasty=1004018
 			religion=catholic culture=bavarian
-			father=100024410	# Klemens von Metternich-Winneburg
+			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100047761	# Marie Eleonore von Kaunitz
 			1803.01.12={birth=yes}
 			1829.11.30={death=yes}
 		}
 			# F1. [by Claire Clemence Henriette Claudine de Maillé de La Tour-Landry (*9.12.1796 +16.7.1861) == 100069017] Freiherr Roger Armand Viktor Maurice von Aldenburg, *21.10.1827, +Wien 14.10.1906
-		100024415={ #// 5g) Clementine (30 Aug 1804-6 May 1820)
+		100024415={ #// E5. [1m.] Clementine Marie Octavie, *30.8.1804, +6.5.1820
 			name=Clementine
 			female=yes
 			dynasty=1004018
 			religion=catholic culture=bavarian
-			father=100024410	# Klemens von Metternich-Winneburg
+			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100047761	# Marie Eleonore von Kaunitz
 			1804.08.30={birth=yes}
 			1820.05.06={death=yes}
@@ -10417,7 +10422,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			female=yes
 			dynasty=1004018
 			religion=catholic culture=bavarian
-			father=100024410	# Klemens von Metternich-Winneburg
+			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100047761	# Marie Eleonore von Kaunitz
 			1811.06.18={birth=yes}
 			1861.11.06={death=yes}
@@ -10428,7 +10433,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			female=yes
 			dynasty=1004018
 			religion=catholic culture=bavarian
-			father=100024410	# Klemens von Metternich-Winneburg
+			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100047761	# Marie Eleonore von Kaunitz
 			1815.09.01={birth=yes}
 			1890.12.01={death=yes}
@@ -10437,7 +10442,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			name=Richard
 			dynasty=1004018
 			religion=catholic culture=bavarian
-			father=100024410	# Klemens von Metternich-Winneburg
+			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100091679	# FRN Maria Antonia von Leykam
 			1829.01.07={birth=yes}  # Vienna
 			1856.06.30={add_spouse=100035966}	# Pauline Sándor
@@ -10478,16 +10483,16 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			female=yes
 			dynasty=1004018
 			religion=catholic culture=bavarian
-			father=100024410	# Klemens von Metternich-Winneburg
+			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100115741	# Melanie Zichy-Ferraris
 			1832.02.27={birth=yes}  # Vienna
 			1919.11.16={death=yes}  # Vienna
 		}
 		100024428={ #// E12. [3m.] Paul Clemens Lothar, 4.Fürst von Metternich-Winneburg, *Wien 14.10.1834, +Wien 6.2.1906; m.Carlburg 9.5.1868 Gfn Melania Zichy-Ferraris de Zich und Vásonykeö (*16.8.1843 +3.8.1925) $$
-			name=Paul
+			name="Paul Clemens Lothar"
 			dynasty=1004018
 			religion=catholic culture=bavarian
-			father=100024410	# Klemens von Metternich-Winneburg
+			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100115741	# Melanie Zichy-Ferraris
 			1834.10.14={birth=yes}  # Vienna
 			1868.05.09={add_spouse=100115733}	# Melanie Zichy-Ferraris
@@ -10497,7 +10502,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				name=Klemens-Wenzel
 				dynasty=1004018
 				religion=catholic culture=bavarian
-				father=100024428	# Paul von Metternich-Winneburg
+				father=100024428	# Paul Clemens Lothar von Metternich-Winneburg
 				mother=100115733	# Melanie Zichy-Ferraris
 				1869.02.09={birth=yes}  # Vienna
 				1905.10.04={add_spouse=100094333}	# Isabel de Silva y Carvajal
@@ -10518,7 +10523,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				female=yes
 				dynasty=1004018
 				religion=catholic culture=bavarian
-				father=100024428	# Paul von Metternich-Winneburg
+				father=100024428	# Paul Clemens Lothar von Metternich-Winneburg
 				mother=100115733	# Melanie Zichy-Ferraris
 				1880.01.06={birth=yes}  # Preßburg
 				1960.05.19={death=yes}  # Bullachberg bei Füssen
@@ -10527,7 +10532,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			name=Lothar
 			dynasty=1004018
 			religion=catholic culture=bavarian
-			father=100024410	# Klemens von Metternich-Winneburg
+			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100115741	# Melanie Zichy-Ferraris
 			1837.09.12={birth=yes}
 			1868.04.21={add_spouse=100094600}	# Karoline Reitter
@@ -10535,14 +10540,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			1904.10.02={death=yes}
 		}
 		#             E15. [illegitimate by Pss Ekatarina Pavlovna Bagration neé Skavronska] Princess Marie-Clementine Bagration, *Wien 29.9.1810, +Paris 29.5.1829; m.1.5.1828 Otto Lensgraf Blome (*Salzau 1.10.1795, +Salzau 1.6.1884)
-	100024446={ #// 3f) Joseph Lothar Clemens (14 Nov 1774-9 Dec 1830); m.Juliane Franziska Pss Sulkowska (5 Mar 1776-18 Apr 1839) $$
+	100024446={ #// D3. Josef Lothar Clemens, *14.11.1774, +9.12.1830; m.Pss Juliana Franziska Sulkowska (*5.3.1776, +18.4.1839), dau.of Franz de Paula, 4.Fürst Sulkowski, 4.Herzog zu Bielitz by Judith Maria von Bazzardi-Montbelli $$
 		name="Joseph Lothar"
 		dynasty=1004018
 		religion=catholic culture=bavarian
 		father=100024406	# Franz Georg von Metternich-Winneburg
 		mother=100084804	# GFN Maria Beatrix von Kageneck
 		1774.11.14={birth=yes}
-		1799.01.01={add_spouse=100035615}	# Juliane Franciszka Sulkowski
+		1799.01.01={add_spouse=100035615}	# Juliane Franciszka Sułkowski
 		1830.12.09={death=yes}
 	}
 #1776.03.09={holder=100024406} # FRANZ GEORG Karl Joseph Johann Nepomuck Graf von Metternich-Winneburg
@@ -17583,7 +17588,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		1816.06.07={birth=yes}  # Frohsdorf Niederösterreich
 		1871.12.16={death=yes}  # Düsseldorf
 	}
-	100023392={ #// A7. Sidonia, *Horn 24.7.1818, +Manetin, Bohemia 24.5.1898; m.Stichsenstein 19.5.1846 Gf Prokop Udalrich Alois Lažanský, Frhr von Bukova (*Praha 7.4.1809, +Manetin 7.8.1875)
+	100023392={ #// A7. Sidonia, *Horn 24.7.1818, +Manetin, Bohemia 24.5.1898; m.Stichsenstein 19.5.1846 Gf Prokop Udalrich Alois Lažanský, Frhr von Bukova (*Praha 7.4.1809, +Manetin 7.8.1875) $$
 		name=Sidonia
 		female=yes
 		dynasty=1004525
@@ -17777,7 +17782,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						1598.01.01={birth=yes}
 						1654.01.01={death=yes}
 					}
-					100023277={ #// E4. [1m.] Anna Maria, *1600, +Wien 15.12.1682; m.23.3.1622 Gf Ladislav Burian z Valdštejna (*ca 1596, +Praha 8.10.1645)
+					100023277={ #// E4. [1m.] Anna Maria, *1600, +Wien 15.12.1682; m.23.3.1622 Gf Ladislav Burian z Valdštejna (*ca 1596, +Praha 8.10.1645) $$
 						name=Anna
 						female=yes
 						dynasty=1004013
@@ -17922,7 +17927,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						1608.01.01={birth=yes}
 						1681.01.31={death=yes}  # Wittingau Bohemia
 					}
-					100024728={ #// E7. Eva Susanna, *1612, +Wien 30.8.1649; m.Gf Ferdinand Ernst Breunner
+					100024728={ #// E7. Eva Susanna, *1612, +Wien 30.8.1649; m.Gf Ferdinand Ernst Breunner $$
 						name="Eva Susanna"
 						female=yes
 						dynasty=1004013
@@ -17940,7 +17945,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						mother=100100552	# GFN Barbara von Herberstein
 						1616.01.01={birth=yes}
 						1649.02.22={add_spouse=100101033}	# Maria Anna Czernin z Chudenicz
-						1661.11.20={add_spouse=100101037}	# Maria Cäcilia Hoyos
+						1661.11.20={add_spouse=100101037}	# Maria Hoyos
 						1666.09.29={death=yes}  # Wien
 					}
 						100024730={ #// F2. [1m.] Maximilian Reichard, *1654, +1682; m.Brünn 8.2.1679 Gfn Maria Barbara von Oppersdorff (*Brno 25.3.1658, +Velké Mezirící 4.5.1696) $$
@@ -18061,7 +18066,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							dynasty=1004013
 							religion=catholic culture=bavarian
 							father=100024729	# Johann von Starhemberg
-							mother=100101037	# Maria Cäcilia Hoyos
+							mother=100101037	# Maria Hoyos
 							1664.01.01={birth=yes}
 							1700.04.24={death=yes}
 						}
@@ -18206,7 +18211,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						1613.01.01={birth=yes}  # Linz
 						1683.01.01={death=yes}
 					}
-					100026005={ #// E9. Polyxena Elisabeth Regina, *1616, +Wien 30.8.1649; m.Gf Ferdinand Ernst Breunner (*Wien 1607, +25.3.1666)
+					100026005={ #// E9. Polyxena Elisabeth Regina, *1616, +Wien 30.8.1649; m.Gf Ferdinand Ernst Breunner (*Wien 1607, +25.3.1666) $$
 						name=Polyxena
 						female=yes
 						dynasty=1004013
@@ -18561,7 +18566,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									father=100023017	# Ernst Rüdiger von Starhemberg
 									mother=100036021	# Franziska Larisch v.Moennich
 									1899.05.10={birth=yes}  # Eferding
-									1928.09.04={add_spouse=100004132}	# Marie Elisabeth von Salm-Reifferscheidt
+									1928.09.04={add_spouse=100004132}	# Marie Elisabeth von Salm-Reifferscheidt-Raitz
 									1937.01.01={remove_spouse=100004132}
 									1937.12.02={add_spouse=100084802}	# Nora Gregor
 									1956.03.15={death=yes}  # Schruns Vorarlberg
@@ -18571,7 +18576,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 										dynasty=1004013
 										religion=catholic culture=bavarian
 										father=100023019	# Ernst Rüdiger von Starhemberg
-										mother=100004132	# Marie Elisabeth von Salm-Reifferscheidt
+										mother=100004132	# Marie Elisabeth von Salm-Reifferscheidt-Raitz
 										1934.10.04={birth=yes}  # Luzern
 										1997.01.30={death=yes}  # Buenos Aires
 									}
@@ -20057,12 +20062,12 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 
 
 ###		Cassis-Faraone   	1004555			
-100022224={ #// Leo	v. Cassis-Faraone (1894-    )
+100022224={ #// Leo	v. Cassis-Faraone (1894-1952); m.Wilhelmine Florentine Fentener van Vlissingen
 	name=Leo
 	dynasty=1004555
 	religion=catholic culture=bavarian
 	1894.07.29={birth=yes}
-	1975.01.01={death=yes}
+	1952.07.01={death=yes}
 }
 	100022421={ #// A1. Leontine (*3.8.1933); m.11.4.1962 Albrecht Philipp von Hohenberg (*4.2.1931) %%
 		name=Leontine
@@ -20105,7 +20110,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 #clary1
 
 #clary2	
-100024753={ #// 1b) Johann Markus Georg Gf von Clary u.Aldringen 1680 (4 Mar 1638-Prague 21 Apr 1700); m.1st 1667 Ludmilla de Serainchamps Frn von Schönfeld (d.25 Mar 1676); m.2nd Innsbruck 25 Aug 1678 Anna Eleonore Gfn von Lamberg (1662-24 Aug 1692); m.3rd 1693 Barbara Theresia Gfn Kokorzowska (d.1727) $$
+100024753={ #// Johann Markus Georg Graf von Clary und Aldringen in Bohemia 1666, Reichsgraf 1680, *4.3.1638, +Praha 21.4.1700; 1m: Mariaschein 4.5.1667 Gfn Ludmila Teresa von Schönfeld (+Praha 25.3.1676); 2m: Innsbruck 25.8.1678 Gfn Maria Anna Eleonora von Lamberg-Greiffenfels (*1662, +24.8.1692); 3m: Barbora Terezie Františka Kokorzowecz z Kokorzowa $$
 	name="Johann Markus"
 	dynasty=1004009
 	religion=catholic culture=bavarian
@@ -20117,7 +20122,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 	1693.01.01={add_spouse=100086904}	# GFN Barbara Theresia Kokorzowecz
 	1700.04.21={death=yes}
 }
-	100024757={ #// 1c) Franz Karl (1675-20 Jan 1751); m.1696 Maria Theresia Gfn Künigl (1673-18 Feb 1745)
+	100024757={ #// A5. [1m.] Franz Karl Gf von Clary und Aldringen, Frhr auf Teplitz, *29.1.1675, +20.1.1751; m.14.5.1696 Maria Theresia Künigl Gfn von Ehrenburg und Warth (*12.2.1673, +18.2.1745)
 		name="Franz Karl"
 		dynasty=1004009
 		religion=catholic culture=bavarian
@@ -23234,14 +23239,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 #thun6
 
 #thun7
-100023798={ #// 3a) Wenzel Joseph Johann (Prague 6 Feb 1737-Prague 15 Dec 1796); m.Tetschen 22 Nov 1768 Maria Anna Gfn von Kolowrat-Liebsteinsky (Prague 22 Jan 1750-Laer 28 Aug 1828)
+100023798={ #// 3a) Wenzel Joseph Johann (Prague 6 Feb 1737-Prague 15 Dec 1796); m.Tetschen 22 Nov 1768 Maria Anna Gfn von Kolowrat-Liebsteinsky (Prague 22 Jan 1750-Laer 28 Aug 1828) $$
 	name="Wenzel Joseph"
 	dynasty=1004005
 	religion=catholic culture=bavarian
 	father=100023662	# Johann Joseph von Thun u.Hohenstein
 	mother=100009041	# Maria Christina von Hohenzollern-Hechingen
 	1737.02.06={birth=yes}
-	1768.11.22={add_spouse=100092455}	# GFN Maria Anna Libštejnský z Kolovrat
+	1768.11.22={add_spouse=kolowrat_0043}	# Marie Anna Libštejnský z Kolovrat
 	1796.12.15={death=yes}
 }
 	100023800={ #// 1b) Elisabeth (14 Aug 1783-5 Dec 1860); m.1st 11 Jun 1804 Friedrich Wilhelm Gf von Westphalen (12 Oct 1780-k.a.19 Apr 1809); m.2nd 29 Apr 1817 Joseph Clemens Gf von Westphalen (7 Mar 1785-26 Jan 1803) $$
@@ -23250,7 +23255,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004005
 		religion=catholic culture=bavarian
 		father=100023798	# Wenzel Joseph von Thun u.Hohenstein
-		mother=100092455	# GFN Maria Anna Libštejnský z Kolovrat
+		mother=kolowrat_0043	# Marie Anna Libštejnský z Kolovrat
 		1783.08.14={birth=yes}
 		1860.12.05={death=yes}
 	}
@@ -23259,7 +23264,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004005
 		religion=catholic culture=bavarian
 		father=100023798	# Wenzel Joseph von Thun u.Hohenstein
-		mother=100092455	# GFN Maria Anna Libštejnský z Kolovrat
+		mother=kolowrat_0043	# Marie Anna Libštejnský z Kolovrat
 		1786.10.03={birth=yes}
 		1808.09.05={add_spouse=100036517}	# Theresia von Brühl
 		1873.01.18={death=yes}
@@ -26590,7 +26595,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100023200={ #// D6. [2m.] Gf Franz Ferdinand, -cr Reichsfürst von und zu Trauttmansdorff-Weinsberg 10.4.1805, Golden Fleece Order, *Wien 12.1.1749, +Wien 27.8.1827; m.Wien 18.5.1772 Pss Marie Caroline von Colloredo (*14.2.1752, +20.9.1832); Their issue bore the surname von und zu Trauttmansdorff-Weinsberg $$
 					name=Ferdinand
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023210	# Franz Norbert von Trauttmansdorff-Weinsberg
 					mother=100092499	# GFN Marie Anna zu Herberstein
@@ -26601,7 +26606,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					100023203={ #// 2a) Marie Gabriele (19 Feb 1776-22 Nov 1853); m.1 Aug 1799 Franz Anton Gf Desfours-Walderode (d.29 Jul 1831) $$
 						name="Marie Gabriele"
 						female=yes
-						dynasty=1004004
+						dynasty_house=trautt_weinsberg
 						religion=catholic culture=bavarian
 						father=100023200	# Ferdinand von Trauttmansdorff-Weinsberg
 						mother=100025019	# Caroline von Colloredo
@@ -26610,7 +26615,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					}
 					100023207={ #// 5a) JOHANN Nepomuk Joseph Norbert Fst von und zu Trauttmansdorff-Weinsberg (Vienna 18 Mar 1780-Vienna 24 Sep 1834); m.Vienna 13 Feb 1801 Elisabeth Ldgfn zu Fürstenberg (Vienna 12 Jul 1784-Vienna 19 Jun 1865) $$
 						name="Johann Joseph"
-						dynasty=1004004
+						dynasty_house=trautt_weinsberg
 						religion=catholic culture=bavarian
 						father=100023200	# Ferdinand von Trauttmansdorff-Weinsberg
 						mother=100025019	# Caroline von Colloredo
@@ -26620,7 +26625,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					}
 						100023209={ #// 1b) FERDINAND Fst von und zu Trauttmansdorff-Weinsberg (Vienna 11 Jun 1803-Vienna 31 Mar 1859); m.Vienna 17 Jul 1841 Anna von und zu Liechtenstein (Vienna 25 Aug 1820-Vienna 17 Mar 1908) $$
 							name=Ferdinand
-							dynasty=1004004
+							dynasty_house=trautt_weinsberg
 							religion=catholic culture=bavarian
 							father=100023207	# Johann Joseph von Trauttmansdorff-Weinsberg
 							mother=100011491	# Elisabeth von Fürstenberg
@@ -26631,7 +26636,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							100023211={ #// 1c) Maria-Anna Franziska (25 Mar 1843-15 Jan 1925); m.5 Sep 1864 Viktor Gf Chorinsky (7 Aug 1838-22 Jan 1901)
 								name=Maria-Anna
 								female=yes
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023209	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022771	# Anna von Liechtenstein
@@ -26641,7 +26646,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							100023213={ #// 2c) Franziska (25 Jun 1844-10 Feb 1898); m.11 Apr 1864 Erwein Gf von Schönborn-Buchheim (9 Nov 1842-20 Jan 1903) $$
 								name=Franziska
 								female=yes
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023209	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022771	# Anna von Liechtenstein
@@ -26650,7 +26655,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							}
 							100023215={ #// 3c) KARL Johann Nepomuk Ferdinand Fst von und zu Trauttmansdorff-Weinsberg (Ober-Waltersdorf 5 Sep 1845-Bischofteinitz 9 Nov 1921); m.Vienna 29 Apr 1869 Josephine Mkgfn Pallavicini (Jamnitz 22 Jan 1849-Dresden 14 Jul 1923) $$
 								name=Karl
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023209	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022771	# Anna von Liechtenstein
@@ -26661,7 +26666,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								100023217={ #// H1. Therese, *Oberwaltersdorf 9.2.1870, +Neunkirchen 12.8.1945; m.Wien 27.8.1889 Johann Nepomuk zu Schwarzenberg (*29.5.1860 +1.10.1938) $$
 									name=Therese
 									female=yes
-									dynasty=1004004
+									dynasty_house=trautt_weinsberg
 									religion=catholic culture=bavarian
 									father=100023215	# Karl von Trauttmansdorff-Weinsberg
 									mother=100072155	# Josephine Pallavicini
@@ -26673,7 +26678,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								100023380={ #// H4. Maria Anna, *Oberwaltersdorf 27.5.1873, +Coburg 24.7.1948; m.Horšovský Týn 30.11.1907 Pr Ludwig von Sachsen-Coburg-Gotha (*15.9.1870 +23.1.1942) $$
 									name=Anna
 									female=yes
-									dynasty=1004004
+									dynasty_house=trautt_weinsberg
 									religion=catholic culture=bavarian
 									father=100023215	# Karl von Trauttmansdorff-Weinsberg
 									mother=100072155	# Josephine Pallavicini
@@ -26683,7 +26688,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								100023382={ #// H5. Gabrielle Marie Leontine, *Oberwaltersdorf 28.6.1876, +Gräfelfing 16.5.1952; m.Horšovský Týn (Bischofteinitz) 21.11.1908 Frhr Heinrich Kotz z Dobrze (*9.3.1880 +18.11.1956)
 									name=Gabrielle
 									female=yes
-									dynasty=1004004
+									dynasty_house=trautt_weinsberg
 									religion=catholic culture=bavarian
 									father=100023215	# Karl von Trauttmansdorff-Weinsberg
 									mother=100072155	# Josephine Pallavicini
@@ -26693,7 +26698,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							100023384={ #// 4c) Maria (Vienna 21 Apr 1847-Sopron 1 Apr 1876); m.Vienna 21 Oct 1868 Pál Antal Fst Esterházy von Galántha (Vienna 11 Mar 1843-Lokkenhaus 22 Aug 1898) $$
 								name=Maria
 								female=yes
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023209	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022771	# Anna von Liechtenstein
@@ -26703,7 +26708,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							100023387={ #// 6c) Therese (Vienna 17 May 1852-Vienna 7 Sep 1914); m.Vienna 11 Jun 1872 Otto Gf von Abensperg u.Traun (Bisamberg 23 Sep 1848-Abbazia 12 Feb 1899) $$
 								name=Therese
 								female=yes
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023209	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022771	# Anna von Liechtenstein
@@ -26712,7 +26717,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							}
 							100023389={ #// 7c) Ferdinand (Vienna 7 Dec 1855-Hösting, Moravia 4 Feb 1928); m.Vienna 4 Sep 1893 Bertha Fischer (Mädiswil, Switzerland 5 Mar 1870-Offenbach am Main 23 Jan 1956)
 								name=Ferdinand
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023209	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022771	# Anna von Liechtenstein
@@ -26722,7 +26727,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							}
 								100023391={ #// 1d) Viktor (St.Jean, France 16 May 1895-Salzburg 3 Aug 1969); m.Vienna 12 Jul 1922 Eduarda von und zu Liechtenstein (Salzburg 16 Oct 1903-Salzburg 13 Jul 2001) $$
 									name=Viktor
-									dynasty=1004004
+									dynasty_house=trautt_weinsberg
 									religion=catholic culture=bavarian
 									father=100023389	# Ferdinand von Trauttmansdorff-Weinsberg
 									mother=100083888	# Bertha Fischer
@@ -26732,7 +26737,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								}
 									100023393={ #// 1e) Ferdinand Victor Eduard Maria (Hösting 23 Feb 1923-missing.in Russia 23 Oct 1943)
 										name=Ferdinand
-										dynasty=1004004
+										dynasty_house=trautt_weinsberg
 										religion=catholic culture=bavarian
 										father=100023391	# Viktor von Trauttmansdorff-Weinsberg
 										mother=100023048	# Eduarda von Liechtenstein
@@ -26742,7 +26747,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									100023394={ #// 2e) Gabrielle Olga Irma Berta Eduarda (b.Hösting 24 Aug 1924); m.1st Weyregg 24 Apr 1946 (div 1968) Max Domenig (b.Hallein 17 Apr 1917); m.2d Kitzbühel 15 Sep 1975 Herbert Kuhlmann (b.Linz 1 May 1916)
 										name=Gabrielle
 										female=yes
-										dynasty=1004004
+										dynasty_house=trautt_weinsberg
 										religion=catholic culture=bavarian
 										father=100023391	# Viktor von Trauttmansdorff-Weinsberg
 										mother=100023048	# Eduarda von Liechtenstein
@@ -26752,7 +26757,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									100023397={ #// 3e) Elisabeth Anna Berta Eduarda Maria (Hösting 29 Dec 1927-Wels 5 May 2003); m.Loosdorf 12 Sep 1953 Franz-Eugen Gf von Walderdorff (b.Anzbach 11 Apr 1925) $$
 										name=Elisabeth
 										female=yes
-										dynasty=1004004
+										dynasty_house=trautt_weinsberg
 										religion=catholic culture=bavarian
 										father=100023391	# Viktor von Trauttmansdorff-Weinsberg
 										mother=100023048	# Eduarda von Liechtenstein
@@ -26761,7 +26766,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									}
 								100023399={ #// 2d) Rudolf (Mödling 3 Nov 1896-Vienna 20 Jun 1980); m.Vienna 15 Feb 1921 Helene Dassira (Constantinople 8 Sep 1896-Vienna 5 Mar 1980)
 									name=Rudolf
-									dynasty=1004004
+									dynasty_house=trautt_weinsberg
 									religion=catholic culture=bavarian
 									father=100023389	# Ferdinand von Trauttmansdorff-Weinsberg
 									mother=100083888	# Bertha Fischer
@@ -26772,7 +26777,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									100023401={ #// 1e) Maria Magdalena Anna Katharina (b.Vienna 11 May 1925)
 										name="Maria Magdalena"
 										female=yes
-										dynasty=1004004
+										dynasty_house=trautt_weinsberg
 										religion=catholic culture=bavarian
 										father=100023399	# Rudolf von Trauttmansdorff-Weinsberg
 										mother=100081953	# Helene Dassira
@@ -26782,7 +26787,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								100023402={ #// 3d) Anna (Maria-Enzersdorf 29 Nov 1899-31 Jan 1974); m.Prague 14 Apr 1934 Marco Goic
 									name=Anna
 									female=yes
-									dynasty=1004004
+									dynasty_house=trautt_weinsberg
 									religion=catholic culture=bavarian
 									father=100023389	# Ferdinand von Trauttmansdorff-Weinsberg
 									mother=100083888	# Bertha Fischer
@@ -26792,7 +26797,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							100023404={ #// 8c) Sophie (Ober-Waltersdorf 19 Jul 1859-Thomaswaldau 17 Aug 1898); m.Vienna 15 Aug 1886 Johannes Gf von Oppersdorff (Lassoth 26 Oct 1858-Thomaswaldau 23 Nov 1943) $$
 								name=Sophie
 								female=yes
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023209	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022771	# Anna von Liechtenstein
@@ -26802,7 +26807,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						100023407={ #// 3b) Maria Anna (Vienna 9 Jul 1806-Prague 12 Nov 1885); m.Baden bei Wien 8 Sep 1830 Friedrich Kraft Fst zu Oettingen-Oettingen u.Oettingen-Wallerstein (Wallerstein 16 Oct 1793-Wallerstein 15 Nov 1842) $$
 							name="Maria Anna"
 							female=yes
-							dynasty=1004004
+							dynasty_house=trautt_weinsberg
 							religion=catholic culture=bavarian
 							father=100023207	# Johann Joseph von Trauttmansdorff-Weinsberg
 							mother=100011491	# Elisabeth von Fürstenberg
@@ -26812,7 +26817,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						100023409={ #// 4b) Karoline (29 Feb 1808-19 Mar 1886); m.16 May 1831 Karl Gf von Grünne (25 Aug 1808-15 Jun 1884) $$
 							name=Karoline
 							female=yes
-							dynasty=1004004
+							dynasty_house=trautt_weinsberg
 							religion=catholic culture=bavarian
 							father=100023207	# Johann Joseph von Trauttmansdorff-Weinsberg
 							mother=100011491	# Elisabeth von Fürstenberg
@@ -26821,7 +26826,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						}
 					100023411={ #// 8a) Franz Joseph Ferdinand (Brussels 19 Feb 1788-Obristvi 22 Aug 1870); m.Prague 16 Oct 1821 Josephine Gfn Károlyi von Nagy-Károly (Vienna 7 Nov 1803-Vienna 9 May 1863) $$
 						name=Joseph
-						dynasty=1004004
+						dynasty_house=trautt_weinsberg
 						religion=catholic culture=bavarian
 						father=100023200	# Ferdinand von Trauttmansdorff-Weinsberg
 						mother=100025019	# Caroline von Colloredo
@@ -26831,7 +26836,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					}
 						100023414={ #// 2b) Ferdinand (Vienna 27 Jun 1825-Schloß Friedau bei St.Pölten 12 Dec 1896); m.Vienna 29 Oct 1860 Maria von und zu Liechtenstein (Schloß Liechtenstein 20 Sep 1834-Vienna 1 Dec 1909) $$
 							name=Ferdinand
-							dynasty=1004004
+							dynasty_house=trautt_weinsberg
 							religion=catholic culture=bavarian
 							father=100023411	# Joseph von Trauttmansdorff-Weinsberg
 							mother=100116251	# Josephine Károlyi de Nagykároly
@@ -26842,7 +26847,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							100023416={ #// 1c) Marie Franziska Johanna Josepha (Vienna 28 Jan 1862-27 Jan 1940); m.Vienna 14 Oct 1886 Karl Gf von Coudenhove (Vienna 8 Feb 1835-Meran 8 Feb 1913)
 								name="Marie Franziska"
 								female=yes
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023414	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022716	# Marie Franziska von Liechtenstein
@@ -26851,7 +26856,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							}
 							100023418={ #// 2c) Alois Joseph (Vienna 5 Mar 1863-10 Mar 1915)
 								name=Alois
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023414	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022716	# Marie Franziska von Liechtenstein
@@ -26862,7 +26867,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							100023492={ #// 4c) Josephine Sophie (Vienna 3 Oct 1866-Kulm 7 Nov 1936); m.Vienna 26 Sep 1892 Ottokar Gf von Westphalen zu Fürstenberg (Kulm 18 Jun 1866-Kulm 12 Mar 1941) $$
 								name=Josephine
 								female=yes
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023414	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022716	# Marie Franziska von Liechtenstein
@@ -26872,7 +26877,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							100023494={ #// 5c) Caroline (Rome 10 Apr 1869-Drosendorf 22 Dec 1959); m.Vienna 16 Jan 1905 Heinrich Gf Hoyos, Frhr zu Stichsenstein (Stichsenstein 4 Jun 1865-Horn 28 Apr 1955) $$
 								name=Caroline
 								female=yes
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023414	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022716	# Marie Franziska von Liechtenstein
@@ -26881,7 +26886,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							}
 							100023496={ #// 6c) Adolf (Friedau 22 Jun 1877-k.a.nr Jaroslawice, Galicia 21 Aug 1914); m.Prague 5 Aug 1911 Marie Therese Gfn von Colloredo-Mannsfeld (Dobris 5 Aug 1869-Vomp 27 Feb 1960) $$
 								name=Adolf
-								dynasty=1004004
+								dynasty_house=trautt_weinsberg
 								religion=catholic culture=bavarian
 								father=100023414	# Ferdinand von Trauttmansdorff-Weinsberg
 								mother=100022716	# Marie Franziska von Liechtenstein
@@ -26892,15 +26897,15 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						100023499={ #// 4b) Josephine Gabriela Marie Caroline Elisabeth Wilhelmine (13 Jun 1835-28 Mar 1894); m.8 Jul 1860 Siegmund Gf Berchtold (6 Feb 1834-19 Mar 1900) $$
 							name=Josephine
 							female=yes
-							dynasty=1004004
+							dynasty_house=trautt_weinsberg
 							religion=catholic culture=bavarian
 							father=100023411	# Joseph von Trauttmansdorff-Weinsberg
 							mother=100116251	# Josephine Károlyi de Nagykároly
 							1835.06.13={birth=yes}
 							1894.03.28={death=yes}
 						}
-			100024057={ #// C2. Maria Renata Barbara, *30.10.1707, +2.4.1777; m.1726 Gf Karl Joseph Morzin (*13.9.1700, +21.1.1741)
-				name=Maria
+			100024057={ #// C2. Maria Renata Barbara, *30.10.1707, +2.4.1777; m.1726 Gf Karl Joseph Morzin (*13.9.1700, +21.1.1741) $$
+				name="Maria Renata"
 				female=yes
 				dynasty=1004004
 				religion=catholic culture=bavarian
@@ -27017,7 +27022,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					1789.01.01={add_spouse=100094674}	# GFN Terezie Kokorzowecz z Kokorzowa
 					1795.01.01={death=yes}
 				}
-					100024243={ #// E1. Antonie Magdalena Josefa, *20.6.1789, +19.8.1846; 1m: 1806 Maximilian Gf Lažanský z Bukowé (*1776, +15.3.1809); 2m: Josef Ferdinand von Weissenbach (+1843)
+					100024243={ #// E1. Antonie Magdalena Josefa, *20.6.1789, +19.8.1846; 1m: 1806 Maximilian Gf Lažanský z Bukowé (*1776, +15.3.1809); 2m: Josef Ferdinand von Weissenbach (+1843) $$
 						name=Antonie
 						female=yes
 						dynasty=1004004
@@ -27027,7 +27032,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						1789.06.20={birth=yes}
 						1846.08.19={death=yes}
 					}
-					100024245={ #// E2. Josefa, *20.9.1793, +Sankt Pölten 16.6.1878; m.15.10.1814 Antonín Gf Lažanský z Bukowé (*1784, +10.1.1847)
+					100024245={ #// E2. Josefa, *20.9.1793, +Sankt Pölten 16.6.1878; m.15.10.1814 Antonín Gf Lažanský z Bukowé (*1784, +10.1.1847) $$
 						name=Josefa
 						female=yes
 						dynasty=1004004
@@ -27168,7 +27173,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			1699.07.26={birth=yes}
 			1763.03.24={death=yes}
 		}
-	100024324={ #// A10. [1m.] Marie Eleonore, *Bischofteinitz 1.9.1657, +6.3.1714; m.21.4.1675 Gf Franz Nikolaus Morzin (*1655 +1709)
+	100024324={ #// A10. [1m.] Marie Eleonore, *Bischofteinitz 1.9.1657, +6.3.1714; m.21.4.1675 Gf Franz Nikolaus Morzin (*1655 +1709) $$
 		name="Marie Eleonore"
 		female=yes
 		dynasty=1004004
@@ -27193,7 +27198,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 #trautt3			
 100024648={ #// Ferdinand Alfons Erbgraf von und zu Trauttmansdorff-Weinsberg, *Oberwaltersdorf 14.1.1871, +Bialowiecz 18.9.1915; m.Praha 23.1.1895 Pss Maria Gabriele zu Schwarzenberg (*2.10.1869, +20.3.1931) $$
 	name=Ferdinand
-	dynasty=1004004
+	dynasty_house=trautt_weinsberg
 	religion=catholic culture=bavarian
 	father=100023215	# Karl von Trauttmansdorff-Weinsberg
 	mother=100072155	# Josephine Pallavicini
@@ -27203,7 +27208,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 }
 	100024649={ #// A1. Karl Joseph, 5.Fürst von und zu Trauttmansdorff-Weinsberg, *Kadan 10.3.1897, +Wien 3.6.1976; m.Hermanmestetz, Bohemia 16.8.1921 Gfn Johanna Kinská z Vchynic a Tetova (*24.8.1902, +16.11.1964) $$
 		name="Karl Joseph"
-		dynasty=1004004
+		dynasty_house=trautt_weinsberg
 		religion=catholic culture=bavarian
 		father=100024648	# Ferdinand von Trauttmansdorff-Weinsberg
 		mother=100185651	# Maria Gabriele von Schwarzenberg
@@ -27213,7 +27218,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 	}
 		100024691={ #// B1. Ferdinand Karl, Erbgraf von und zu Trauttmansdorff-Weinsberg, *Horšovský Týn (Bischofteinitz), Bohemia 2.6.1922, +k.a.Pinsk 5.7.1944
 			name=Ferdinand
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100024649	# Karl Joseph von Trauttmansdorff-Weinsberg
 			mother=100186030	# Johanna Kinsky von Wchinitz u.Tettau
@@ -27222,7 +27227,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		}
 		100024693={ #// B2. Rudolf, 6.Fürst von und zu Trauttmansdorff-Weinsberg, *Horšovský Týn (Bischofteinitz), Bohemia 18.11.1923, +Wien 12.4.1994; m.Vinsebeck bei Steinheim, Westfalen 27.8.1958 (rel) 5.2.1959 Sybilla von Gersdorff, Gfn Wolff Metternich zur Gracht (*Göttingen 12.8.1930) $$
 			name=Rudolf
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100024649	# Karl Joseph von Trauttmansdorff-Weinsberg
 			mother=100186030	# Johanna Kinsky von Wchinitz u.Tettau
@@ -27233,7 +27238,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100024694={ #// C1. Stefanie Sophie, *Wien 15.9.1959; m.Wien 27.11.1992 (rel) 30.1.1993 Nobile Giulio Superti Furga (*Milano 17.5.1962)
 				name="Stefanie Sophie"
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100024693	# Rudolf von Trauttmansdorff-Weinsberg
 				mother=100035539	# Sybilla Wolff-Metternich zur Gracht
@@ -27242,7 +27247,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023228={ #// C2. Fiona Marie-Adelheid, *Wien 1.8.1961; m.Wien 20.4.2001 (rel) 21.4.2001 Francesco de' Medici (*Roma 17.9.1968)
 				name=Fiona
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100024693	# Rudolf von Trauttmansdorff-Weinsberg
 				mother=100035539	# Sybilla Wolff-Metternich zur Gracht
@@ -27250,7 +27255,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 			100024756={ #// C3. CARL-WOLFGANG Heinz Michael, 7.Fürst von und zu Trauttmansdorff-Weinsberg, *Wien 11.9.1965; m.(civ) Wien 10.6.1998 (rel) Seitenstetten 4.7.1998 Gabriela Forster (*Waidhofen an der Ybbs 20.11.1966)
 				name=Carl-Wolfgang
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100024693	# Rudolf von Trauttmansdorff-Weinsberg
 				mother=100035539	# Sybilla Wolff-Metternich zur Gracht
@@ -27260,7 +27265,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100024791={ #// D1. Chiara Fee, *Wien 29.8.2002
 					name="Chiara Fee"
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100024756	# Carl-Wolfgang von Trauttmansdorff-Weinsberg
 					mother=100081450	# Gabriela Forster
@@ -27268,7 +27273,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100023233={ #// 2h) Maximilian Ferdinand Erbgf von und zu Trauttmansdorff-Weinsberg (b.Vienna 30 May 2005)
 					name=Maximilian
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100024756	# Carl-Wolfgang von Trauttmansdorff-Weinsberg
 					mother=100081450	# Gabriela Forster
@@ -27276,7 +27281,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 		100025036={ #// B3. Friedrich, *Horšovský Týn (Bischofteinitz), Bohemia 21.6.1926; 1m: Haus Assen 18.10.1955 (div 1972) Gfn Pauline von Galen (*Neuengraben 29.6.1932); 2m: St.Catharine's, Ontario 20.12.1974 (div 1983) Nora Bethune Goldie (*Kitchener, Ontario 6.7.1932); 3m: Toronto 4.2.1984 Brenda Clara Northey (*Toronto 25.11.1939) $$
 			name=Friedrich
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100024649	# Karl Joseph von Trauttmansdorff-Weinsberg
 			mother=100186030	# Johanna Kinsky von Wchinitz u.Tettau
@@ -27291,7 +27296,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100025034={ #// C1. Marie Therese, *Ontario 28.7.1956; m.Beamsville, Ontario 31.7.1982 Stephen Stanley Jones (*Liverpool 27.1.1955)
 				name="Marie Therese"
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025036	# Friedrich von Trauttmansdorff-Weinsberg
 				mother=100036389	# Pauline von Galen
@@ -27299,7 +27304,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 			100025431={ #// C2. Ferdinand, *Ontario 1.11.1957; m.Toronto 27.8.1983 Christine Eleonore Brown (*16.3.1960)
 				name=Ferdinand
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025036	# Friedrich von Trauttmansdorff-Weinsberg
 				mother=100036389	# Pauline von Galen
@@ -27308,7 +27313,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 				100025436={ #// D1. Christoph Bernhard, *Ottawa 28.1.1989
 					name="Christoph Bernhard"
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025431	# Ferdinand von Trauttmansdorff-Weinsberg
 					mother=100080987	# Christine Eleanor Brown
@@ -27317,7 +27322,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100025429={ #// D2. Paulina Johanna, *Ottawa 27.2.1991
 					name="Paulina Johanna"
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025431	# Ferdinand von Trauttmansdorff-Weinsberg
 					mother=100080987	# Christine Eleanor Brown
@@ -27325,7 +27330,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 			100023244={ #// C3. Andreas, *Ontario 15.10.1962
 				name=Andreas
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025036	# Friedrich von Trauttmansdorff-Weinsberg
 				mother=100036389	# Pauline von Galen
@@ -27333,7 +27338,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 		100023245={ #// B4. Johannes Maximilian, *Wien 20.2.1929; m.Wald 2.9.1959 Pss Johanna Agathe von Auersperg-Breunner (*Ainödt 4.5.1934) $$
 			name="Johannes Maximilian"
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100024649	# Karl Joseph von Trauttmansdorff-Weinsberg
 			mother=100186030	# Johanna Kinsky von Wchinitz u.Tettau
@@ -27343,7 +27348,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		}
 			100025443={ #// C1. Johannes MARKUS Karl Klemens Antonius Maria Judas Thaddäus, *Wien 23.11.1960; m.Wien 19.3.1988 Gfn Natalie von Hartig (*26.2.1966) $$
 				name="Johannes Markus"
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023245	# Johannes Maximilian von Trauttmansdorff-Weinsberg
 				mother=100021572	# Johanna Agathe von Auersperg
@@ -27352,7 +27357,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 				100025445={ #// D1. Paul Vinzenz Georg Antonius Maria Judas Thaddäus, *München 4.1.1989
 					name=Paul
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025443	# Johannes Markus von Trauttmansdorff-Weinsberg
 					mother=100047697	# Natalie von Hartig
@@ -27360,7 +27365,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100025442={ #// D2. Benedikt Markus Dominik Maria Judas Thaddäus, *München 14.9.1990
 					name=Benedikt
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025443	# Johannes Markus von Trauttmansdorff-Weinsberg
 					mother=100047697	# Natalie von Hartig
@@ -27369,7 +27374,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100025447={ #// D3. Elena Katharina, *München 28.6.1993
 					name="Elena Katharina"
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025443	# Johannes Markus von Trauttmansdorff-Weinsberg
 					mother=100047697	# Natalie von Hartig
@@ -27377,7 +27382,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100025444={ #// D4. Anton Johannes, *München 3.5.1995
 					name="Anton Johannes"
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025443	# Johannes Markus von Trauttmansdorff-Weinsberg
 					mother=100047697	# Natalie von Hartig
@@ -27385,7 +27390,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100025465={ #// D5. Johannes Hubertus, *München 25.10.1996
 					name="Johannes Hubertus"
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025443	# Johannes Markus von Trauttmansdorff-Weinsberg
 					mother=100047697	# Natalie von Hartig
@@ -27394,7 +27399,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100025446={ #// C2. Désirée Theresia Johanna Gregor Maria Judas Thaddäus, *Wien 4.3.1962; m.Wald 1.8.1987 Gf Alberich zu Lodron-Laterano und Castelromano (*Klagenfurt 1.8.1961) $$
 				name=Désirée
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023245	# Johannes Maximilian von Trauttmansdorff-Weinsberg
 				mother=100021572	# Johanna Agathe von Auersperg
@@ -27403,7 +27408,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100025451={ #// C3. Johanna DARIA Huberta Maria Judas Thaddäus, *Wien 23.10.1962 (? see her sister); m.Wald 25.4.1987 Gf Vinzenz von Thurn und Valsassina-Como-Vercelli (*Klagenfurt 11.9.1963) $$
 				name=Daria
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023245	# Johannes Maximilian von Trauttmansdorff-Weinsberg
 				mother=100021572	# Johanna Agathe von Auersperg
@@ -27412,7 +27417,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100025448={ #// C4. Huberta Margareta Emilie Petrus Maria Judas Thaddäus, *Wien 13.4.1963; m.Schloss Loretto 6.5.1995 Gf Matthias von Orsini und Rosenberg (*Klagenfurt 8.8.1955) $$
 				name=Huberta
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023245	# Johannes Maximilian von Trauttmansdorff-Weinsberg
 				mother=100021572	# Johanna Agathe von Auersperg
@@ -27420,7 +27425,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 			100025453={ #// C5. THOMAS Friedrich Rudolf Otto Maria Judas Thaddäus, *Wien 23.3.1965; m.Wald 28.9.2002 Miriam Neaga (*Böblingen, Württemberg 14.2.1970)
 				name=Thomas
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023245	# Johannes Maximilian von Trauttmansdorff-Weinsberg
 				mother=100021572	# Johanna Agathe von Auersperg
@@ -27430,7 +27435,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100025450={ #// D1. Celia Felicitas Elisabeth Johanna Maria, *Wien 21.11.2003
 					name=Celia
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025453	# Thomas von Trauttmansdorff-Weinsberg
 					mother=100088418	# Miriam Neaga
@@ -27438,7 +27443,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100025548={ #// D2. Tassilo, *11.9.2005
 					name=Tassilo
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025453	# Thomas von Trauttmansdorff-Weinsberg
 					mother=100088418	# Miriam Neaga
@@ -27446,7 +27451,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100023262={ #// D3. Olivia Sophy Benedikta Constanze Maria, *14 Jan 2008
 					name=Olivia
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025453	# Thomas von Trauttmansdorff-Weinsberg
 					mother=100088418	# Miriam Neaga
@@ -27454,7 +27459,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 		100025612={ #// B5. Carl-Mathias, *Horšovský Týn 16.5.1937, +New York 11.6.1999; 1m: Bogotá 8.2.1964 (div 1973) Grete Streubel Gutiérrez (*Bogotá 23.6.1939); 2m: Santa Cruz 2.2.1975 Thea Ellen Degenhardt (*Bremen 1.2.1941)
 			name=Carl-Mathias
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100024649	# Karl Joseph von Trauttmansdorff-Weinsberg
 			mother=100186030	# Johanna Kinsky von Wchinitz u.Tettau
@@ -27466,7 +27471,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		}
 			100025441={ #// C1. [1m.] Felipe Mathias, *Medellin 30.7.1968; m.Punta Arenas 9.10.1999 Tanya del Corral (*Santo Domingo 25.3.1972)
 				name="Felipe Mathias"
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025612	# Carl-Mathias von Trauttmansdorff-Weinsberg
 				mother=100090659	# Grete Streubel Gutiérrez
@@ -27475,7 +27480,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 				100025454={ #// D1. Mathias Maximilian, *Pembroke Pines 7.9.2003
 					name="Mathias Maximilian"
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025441	# Felipe Mathias von Trauttmansdorff-Weinsberg
 					mother=100083173	# Tanya del Corral
@@ -27483,7 +27488,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100023271={ #// D2. Fiona (b.Bogota 3 Aug 2005)
 					name=Fiona
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025441	# Felipe Mathias von Trauttmansdorff-Weinsberg
 					mother=100083173	# Tanya del Corral
@@ -27491,7 +27496,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 			100025459={ #// C2. [1m.] Andres Mathias, *Bogotá 7.4.1972; m.Bogotá 29.7.2001 Ana Sofia Orozco (*10.7.1971)
 				name="Andres Mathias"
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025612	# Carl-Mathias von Trauttmansdorff-Weinsberg
 				mother=100090659	# Grete Streubel Gutiérrez
@@ -27501,7 +27506,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100025456={ #// D1. Ana Gabriela Cecilia Eugenia Maria, *Madrid 30.6.2004
 					name=Ana
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=castilian
 					father=100025459	# Andres Mathias von Trauttmansdorff-Weinsberg
 					mother=100088691	# Ana Sofia Orozco
@@ -27509,7 +27514,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100025461={ #// D1. Maximilian Andres Johannes Markus Maria, *Austin, Texas 28.11.2007
 					name=Maximilian
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025459	# Andres Mathias von Trauttmansdorff-Weinsberg
 					mother=100088691	# Ana Sofia Orozco
@@ -27518,7 +27523,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100025458={ #// C3. [2m.] Isabella Maria, *São Paulo 5.8.1976
 				name=Isabella
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025612	# Carl-Mathias von Trauttmansdorff-Weinsberg
 				mother=100083082	# Thea Ellen Degenhardt
@@ -27526,7 +27531,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 		100025463={ #// B6. Michael Johann, *Praha 16.9.1940, +Toronto 12.10.1971; m.Seeon, Oberbayern 24.6.1967 Gabrielle Retzdorff (*Neujasenitz 6.9.1944)
 			name="Michael Johann"
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=czech
 			father=100024649	# Karl Joseph von Trauttmansdorff-Weinsberg
 			mother=100186030	# Johanna Kinsky von Wchinitz u.Tettau
@@ -27536,7 +27541,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		}
 			100025460={ #// C1. Johannes Maximilian, *Toronto 7.7.1969; m.Stevenage, England 16.8.1997 Alison Davies (*Hitchin 10.12.1970)
 				name="Johannes Maximilian"
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025463	# Michael Johann von Trauttmansdorff-Weinsberg
 				mother=100089456	# Gabrielle Retzdorff
@@ -27545,7 +27550,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 				100025481={ #// D1. William Maximilian Robert Johannes, *Frankfurt 1.10.2004
 					name=William
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025460	# Johannes Maximilian von Trauttmansdorff-Weinsberg
 					mother=100081965	# Alison Davies
@@ -27554,7 +27559,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100023282={ #// D2. Pia Charlotte Elizabeth Sophia (b.Harlow, UK 22 Nov 2009)
 					name=Pia
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025460	# Johannes Maximilian von Trauttmansdorff-Weinsberg
 					mother=100081965	# Alison Davies
@@ -27563,7 +27568,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100025462={ #// C2. Felicia Alexandra, *Toronto 1.3.1971; m.Grundlsee 24.8.2002 Georg Gf de la Fontaine und d'Harnoncourt-Unverzagt (*Graz 8.11.1968) $$
 				name="Felicia Alexandra"
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025463	# Michael Johann von Trauttmansdorff-Weinsberg
 				mother=100089456	# Gabrielle Retzdorff
@@ -27571,7 +27576,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 	100025467={ #// A2. Ferdinand Johann, *Kadan (Kaaden), Bohemia 10.3.1897, +Klagenfurt 14.5.1958; m.Praha 15.6.1921 Gfn Hanna Kinsky von Wchinitz und Tettau (*Wien 2.4.1891, +Feldkirch 15.5.1984) $$
 		name="Ferdinand Johann"
-		dynasty=1004004
+		dynasty_house=trautt_weinsberg
 		religion=catholic culture=bavarian
 		father=100024648	# Ferdinand von Trauttmansdorff-Weinsberg
 		mother=100185651	# Maria Gabriele von Schwarzenberg
@@ -27581,7 +27586,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 	}
 		100025464={ #// B1. Karl NORBERT Georg Maria Ferdinand Judas Thaddäus Josef Anton Benedikt Alois Tobias, *Praha 13.9.1922, +Grabs 26.8.1990; 1m: Lucca 14.7.1948 (div 1962) Cssa Ortensia Minutoli Tegrimi (*Lucca 11.9.1926); 2m: Innsbruck 20.8.1963 (div 1988) Theda von Halem (*Schaan, Liechtenstein 9.1.1940); 3m: Alpbach, Tyrol 29.3.1989 Gertraud Stramer (*Villach, Kärnten 7.10.1946) $$
 			name=Norbert
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=czech
 			father=100025467	# Ferdinand Johann von Trauttmansdorff-Weinsberg
 			mother=100185753	# Johanna Kinsky von Wchinitz u.Tettau
@@ -27596,7 +27601,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100025469={ #// C1. [1m.] Benedetta Ottavia, *Roma 9.7.1949; m.Edmonton, Alberta 17.10.1975 Massimo de Vito Piscicelli, Cte di Collesano (*Lucca 15.1.1943)
 				name="Benedetta Ottavia"
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=italian
 				father=100025464	# Norbert von Trauttmansdorff-Weinsberg
 				mother=100088125	# CSS Ortensia Minutoli Tegrimi
@@ -27604,7 +27609,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 			100025466={ #// C2. [1m.] Herrand FERDINAND, *Milano 17.8.1951; m.Feldkirch, Vorarlberg 1.6.1973 Monika Russheim (*Judenburg, Styria 11.3.1949)
 				name=Ferdinand
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=italian
 				father=100025464	# Norbert von Trauttmansdorff-Weinsberg
 				mother=100088125	# CSS Ortensia Minutoli Tegrimi
@@ -27614,7 +27619,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100023295={ #// D1. Sandra, *Chur 3.11.1974
 					name=Sandra
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025466	# Ferdinand von Trauttmansdorff-Weinsberg
 					mother=100089754	# Monika Russheim
@@ -27623,7 +27628,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100023296={ #// D2. Ilona, *Barga 10.9.1981
 					name=Ilona
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100025466	# Ferdinand von Trauttmansdorff-Weinsberg
 					mother=100089754	# Monika Russheim
@@ -27631,7 +27636,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 			100023297={ #// C3. [1m.] Hektor Heinrich, *San Antonio Abad, Ibiza 22.5.1955
 				name="Hektor Heinrich"
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025464	# Norbert von Trauttmansdorff-Weinsberg
 				mother=100088125	# CSS Ortensia Minutoli Tegrimi
@@ -27639,7 +27644,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 			100023298={ #// C4. [2m.] Franz-Martin, *London 16.2.1964; m.Brooklyn, New York 28.9.1999 Margaretha Patricia von Croy (*St.Johann, Tyrol 22.12.1964) $$
 				name=Franz-Martin
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=english
 				father=100025464	# Norbert von Trauttmansdorff-Weinsberg
 				mother=100036386	# Theda von Halem
@@ -27649,7 +27654,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100023300={ #// D1. Sophia Isabel Alexandra, *Geneva 19.9.2003
 					name=Sophia
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023298	# Franz-Martin von Trauttmansdorff-Weinsberg
 					mother=100000810	# Margaretha Patricia de Croÿ
@@ -27658,7 +27663,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100025472={ #// C5. [2m.] Alexandra Maria della Vittoria, *Heilbronn 29.1.1966; m.Bendern, Liechtenstein 28.8.1993 François Neel
 				name=Alexandra
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025464	# Norbert von Trauttmansdorff-Weinsberg
 				mother=100036386	# Theda von Halem
@@ -27666,7 +27671,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 			100025477={ #// C6. [3m.] Nancy Nathalie, *Esslingen am Neckar 22.12.1972
 				name="Nancy Nathalie"
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100025464	# Norbert von Trauttmansdorff-Weinsberg
 				mother=100036386	# Theda von Halem
@@ -27674,7 +27679,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 	100025474={ #// A3. Maximilian Karl, *Kalksburg, Niederösterreich 13.9.1900, +Innsbruck 25.6.1965; 1m: Berlin 6.5.1933 (div 1939) Elisabeth Frn von Schrötter (*Potsdam 23.8.1902, +Braunschweig 28.7.1965); 2m: Berlin 1.9.1939 (div 1944) Gabriele Tielsch (*Ratibor 21.10.1908); 3m: 17.9.1944 Friedenau (div 1954) Sibylle von Kries (*Friedenau 20.8.1923); 4m: Koblenz 28.5.1965 Antonia Fischer
 		name="Maximilian Karl"
-		dynasty=1004004
+		dynasty_house=trautt_weinsberg
 		religion=catholic culture=bavarian
 		father=100024648	# Ferdinand von Trauttmansdorff-Weinsberg
 		mother=100185651	# Maria Gabriele von Schwarzenberg
@@ -28120,7 +28125,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 #trautt5
 100023419={ #// Karl Ferdinand Graf von und zu Trauttmansdorff-Weinsberg, *Wien 24.3.1864, +Pressbaum 4.1.1910; m.Wien 25.4.1892 Marie Therese Colloredo-Mansfeld (*5.8.1869, +27.2.1960) (Dobris 5 Aug 1869-Vomp, Tyrol 27 Feb 1960) $$
 	name=Karl
-	dynasty=1004004
+	dynasty_house=trautt_weinsberg
 	religion=catholic culture=bavarian
 	father=100023414	# Ferdinand von Trauttmansdorff-Weinsberg
 	mother=100022716	# Marie Franziska von Liechtenstein
@@ -28130,7 +28135,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 }
 	100023421={ #// 1d) Ferdinand Joseph (Koritschan, Moravia 20 Feb 1893-St.Pölten 24 Nov 1932); m.Prague 30 Apr 1921 Marie Pss zu Schwarzenberg (Wossow 8 Jun 1896-Pettenbach, Oberösterreich 13 Dec 1945) $$
 		name=Ferdinand
-		dynasty=1004004
+		dynasty_house=trautt_weinsberg
 		religion=catholic culture=bavarian
 		father=100023419	# Karl von Trauttmansdorff-Weinsberg
 		mother=100024911	# Marie Therese von Colloredo-Mannsfeld
@@ -28141,7 +28146,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		100023423={ #// 1e) Maria Theresia Ida Eleonore Wilhelmine Tadea Benedikta (Prague 1 Aug 1922-Brussels 21 Dec 2009); m.Kremsmünster 26 Jun 1954 Christian Pr von Lobkowicz (Krimitz 12 Jun 1924-Louvain 2 Sep 2001) $$
 			name="Maria Theresia"
 			female=yes
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100023421	# Ferdinand von Trauttmansdorff-Weinsberg
 			mother=100185625	# Wilhelmina von Schwarzenberg
@@ -28151,7 +28156,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		100023425={ #// 2e) Ida (Prague 22 Mar 1924-Pettenbach 7 Jun 1945)
 			name=Ida
 			female=yes
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100023421	# Ferdinand von Trauttmansdorff-Weinsberg
 			mother=100185625	# Wilhelmina von Schwarzenberg
@@ -28160,7 +28165,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		}
 		100023426={ #// 3e) Adolf Karl Josef Hieronymus Ernst (Prague 1 Jun 1925-Baden bei Wien 13 Dec 2003); m.1st Tannenmühle, Lower Austria 9 Jun 1946 Sophie Gfn von Arco-Zinneberg (München 15 Dec 1922-Vienna 22 Oct 1994); m.2d Pfaffstätten, Lower Austria 21 Sep 1996 Eva Katharina Dolp (b.Vienna 29 Jun 1941) $$
 			name=Adolf
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100023421	# Ferdinand von Trauttmansdorff-Weinsberg
 			mother=100185625	# Wilhelmina von Schwarzenberg
@@ -28172,7 +28177,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023429={ #// 1f) Marie Wilhelmine Therese Ida Christiane (b.Vienna 3 Feb 1947); m.Ising am Chiemsee 28 May 1983 Philipp Riccabona von Reichenfels (b.Vienna 15 Nov 1949)
 				name="Marie Wilhelmine"
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023426	# Adolf von Trauttmansdorff-Weinsberg
 				mother=100008568	# Sophie von Arco
@@ -28181,7 +28186,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023431={ #// 2f) Marie Therese Christiane Josefine Ulrike (Innsbruck 4 Jul 1948-Hannover 29 Aug 1988)
 				name="Marie Therese"
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023426	# Adolf von Trauttmansdorff-Weinsberg
 				mother=100008568	# Sophie von Arco
@@ -28191,7 +28196,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023432={ #// 3f) Marie-Antoinette Ida Gertrude Eugeni Eva (b.Nussbach 24 Dec 1953); m.Brand-Laaben 19 Aug 1974 Wolfgang Graf (b.Vienna 5 Jan 1949)
 				name=Marie-Antoinette
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023426	# Adolf von Trauttmansdorff-Weinsberg
 				mother=100008568	# Sophie von Arco
@@ -28199,7 +28204,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 			100023434={ #// 4f) Josef Adolf Engelbert (b.Altlengbach 10 Nov 1958); m.München 29 Apr 1987 (div 1994) Silvia Annemarie Schellpfeffer (b.Vaterstetten 10 Nov 1958)
 				name=Josef
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023426	# Adolf von Trauttmansdorff-Weinsberg
 				mother=100008568	# Sophie von Arco
@@ -28209,7 +28214,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 		100023436={ #// 4e) Karl Ernst Hieronymus Bruno Ulrich (Pottenbrunn, Lower Austria 6 Oct 1927-Pack, Styria 23 Mar 2000); m.Stainz 12 Oct 1949 Maria Cäcilia Gfn von Meran (b.Vienna 3 Dec 1924) $$
 			name="Karl Ernst"
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100023421	# Ferdinand von Trauttmansdorff-Weinsberg
 			mother=100185625	# Wilhelmina von Schwarzenberg
@@ -28219,7 +28224,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		}
 			100023438={ #// 1f) Ferdinand Karl Josef Franz Viktor (b.Graz 28 Jul 1950); m.München 1 Jul 1978 Margrit Gabriele Scholtz-Rautenstrauch (b.Wittlich 27 Nov 1952)
 				name=Ferdinand
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023436	# Karl Ernst von Trauttmansdorff-Weinsberg
 				mother=100020434	# Maria Cäcilia von Meran
@@ -28229,7 +28234,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100023440={ #// 1g) Anna Andrea Monika (b.Vienna 1 Oct 1980); m.Altenburg, Lower Austria 19 Jul 2008 Alfonso Lamoral Prinz von Thurn und Taxis (b.Vienna 21 Jul 1976) $$
 					name=Anna
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023438	# Ferdinand von Trauttmansdorff-Weinsberg
 					mother=100090046	# Margrit Gabriele Scholtz-Rautenstrauch
@@ -28238,7 +28243,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100023442={ #// 2g) Maria Magdalena Felicitas (b.Vienna 8 Jan 1982); m.1 May 2011 Emanuel Rauter (b.24 Mar 1980)
 					name="Maria Magdalena"
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023438	# Ferdinand von Trauttmansdorff-Weinsberg
 					mother=100090046	# Margrit Gabriele Scholtz-Rautenstrauch
@@ -28246,7 +28251,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100023444={ #// 3g) Mathäus Nikolaus Karl Dominik Josef (b.Vienna 23 Jul 1986)
 					name=Mathäus
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023438	# Ferdinand von Trauttmansdorff-Weinsberg
 					mother=100090046	# Margrit Gabriele Scholtz-Rautenstrauch
@@ -28254,7 +28259,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 			100023445={ #// 2f) Andreas Otto Michael Franz (b.Graz 17 Nov 1951); m.Salzburg 27 Nov 1976 Dominique von Pachmann (b.Geneva 15 Jan 1954)
 				name=Andreas
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023436	# Karl Ernst von Trauttmansdorff-Weinsberg
 				mother=100020434	# Maria Cäcilia von Meran
@@ -28264,7 +28269,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100023447={ #// 1g) Theresa Elisabeth Wilhelmine (b.Salzburg 7 Oct 1977); m.Gold Coast, Australia 23 Sep 2006 Jye Allery (b.15 May 1978)
 					name=Theresa
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023445	# Andreas von Trauttmansdorff-Weinsberg
 					mother=100092827	# Dominique von Pachmann
@@ -28273,7 +28278,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100023449={ #// 2g) Anna-Maria Henriette Elisabeth (b.Salzburg 16 Jun 1979)
 					name=Anna-Maria
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023445	# Andreas von Trauttmansdorff-Weinsberg
 					mother=100092827	# Dominique von Pachmann
@@ -28281,7 +28286,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100023450={ #// 3g) Clemens Franz Thaddäus Ferdinand Heinrich (b.Graz 5 Dec 1980)
 					name=Clemens
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023445	# Andreas von Trauttmansdorff-Weinsberg
 					mother=100092827	# Dominique von Pachmann
@@ -28289,7 +28294,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100023451={ #// 4g) Paul (b.Sydney, Australia 26 Apr 1985)
 					name=Paul
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023445	# Andreas von Trauttmansdorff-Weinsberg
 					mother=100092827	# Dominique von Pachmann
@@ -28298,7 +28303,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023452={ #// 3f) Isabella Wilhelmine (b.Graz 8 Jul 1953); m.Gollrad 10 May 1975 (div) Wolfgang Freisleben (b.Bad Aussee 17 Sep 1947)
 				name=Isabella
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023436	# Karl Ernst von Trauttmansdorff-Weinsberg
 				mother=100020434	# Maria Cäcilia von Meran
@@ -28307,7 +28312,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023454={ #// 4f) Charlotte Maria Josefa (b.Graz 24 Aug 1955); m.Gusswerk 25 Jun 1977 (div) Peter Bruno Frhr von Löwenthal-Maroicic von Madonna del Monte (b.Graz 1 Oct 1954)
 				name=Charlotte
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023436	# Karl Ernst von Trauttmansdorff-Weinsberg
 				mother=100020434	# Maria Cäcilia von Meran
@@ -28316,7 +28321,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023456={ #// 5f) Marie Theresia (b.Graz 28 Aug 1960); m.(civ) Lilongwe, Malawi 8 Dec 1989 (rel) Stainz 25 Mar 1990 Busso von Alvensleben (b.Hamburg 6 Feb 1957)
 				name="Marie Theresia"
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023436	# Karl Ernst von Trauttmansdorff-Weinsberg
 				mother=100020434	# Maria Cäcilia von Meran
@@ -28325,7 +28330,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023458={ #// 6f) Eleonore Sophie (b.Graz 26 May 1962); m.St.Ilgen 12 Sep 1998 Stefan Schindele (b.München 10 Oct 1968)
 				name=Eleonore
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023436	# Karl Ernst von Trauttmansdorff-Weinsberg
 				mother=100020434	# Maria Cäcilia von Meran
@@ -28333,7 +28338,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 	100023460={ #// 2d) Josef Hieronymus (Friedau 30 Jun 1894-murdered at St.Pölten 13 Apr 1945); m.Trieste 15 Oct 1932 Helene Frn Economo von San Serff (London 1 Jun 1908-murdered at St.Pölten 13 Apr 1945) $$
 		name=Josef
-		dynasty=1004004
+		dynasty_house=trautt_weinsberg
 		religion=catholic culture=bavarian
 		father=100023419	# Karl von Trauttmansdorff-Weinsberg
 		mother=100024911	# Marie Therese von Colloredo-Mannsfeld
@@ -28344,7 +28349,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		100023462={ #// 1e) Monika Eugenie Therese (b.Vienna 27 Jun 1933); m.Vienna 8 Feb 1956 Ct Michel Didisheim (b.Wimbledon 18 Apr 1930)
 			name=Monika
 			female=yes
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100023460	# Josef von Trauttmansdorff-Weinsberg
 			mother=100036297	# Helene Economo von San Serff
@@ -28353,7 +28358,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 }
 		100023464={ #// 2e) Johannes Demetrius Ferdinand Joachim (b.Pottenbrunn 16 Aug 1934); m.Maria Plain 2 Sep 1967 Maria Christina Gfn Czernin v.u.zu Chudenitz (b.Vienna 13 Mar 1943) $$
 			name=Johannes
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100023460	# Josef von Trauttmansdorff-Weinsberg
 			mother=100036297	# Helene Economo von San Serff
@@ -28364,7 +28369,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023466={ #// 1f) Helene Monika (b.Vienna 18 Jul 1968); m.Maria Jeutendorf bei Pottenbrunn 24 Jun 1995 Michael Gf von Bubna u.Litic (b.Donaudorf 15 Feb 1967)
 				name=Helene
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023464	# Johannes von Trauttmansdorff-Weinsberg
 				mother=100186571	# Maria Christina Czernin v.u.zu Chudenitz
@@ -28373,7 +28378,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023468={ #// 2f) Gabrielle Eleonore (b.Vienna 11 Jul 1969); m.Maria Jeutendorf 9 Jul 1988 Georg Erd (b.Vienna 11 Sep 1964)
 				name=Gabrielle
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023464	# Johannes von Trauttmansdorff-Weinsberg
 				mother=100186571	# Maria Christina Czernin v.u.zu Chudenitz
@@ -28381,7 +28386,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 			100023470={ #// 3f) Johannes Paul (b.Vienna 12 Dec 1970); m.Breitenau 25 Jun 1994 Dorothea Tessmar-Pfohl (b.31 Mar 1971)
 				name=Johannes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023464	# Johannes von Trauttmansdorff-Weinsberg
 				mother=100186571	# Maria Christina Czernin v.u.zu Chudenitz
@@ -28391,7 +28396,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				100023472={ #// 1g) Aglaë (b.Vienna 23 Nov 1994)
 					name=Aglaë
 					female=yes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023470	# Johannes von Trauttmansdorff-Weinsberg
 					mother=100090911	# Dorothea Tessmar-Pfohl
@@ -28399,7 +28404,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100023473={ #// 2g) Johannes Nepomuk (b.Vienna 26 Oct 1996)
 					name=Johannes
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023470	# Johannes von Trauttmansdorff-Weinsberg
 					mother=100090911	# Dorothea Tessmar-Pfohl
@@ -28407,7 +28412,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				}
 				100023474={ #// 3g) Dimitri (b.26 Feb 2000)
 					name=Dimitri
-					dynasty=1004004
+					dynasty_house=trautt_weinsberg
 					religion=catholic culture=bavarian
 					father=100023470	# Johannes von Trauttmansdorff-Weinsberg
 					mother=100090911	# Dorothea Tessmar-Pfohl
@@ -28416,7 +28421,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023475={ #// 4f) Elisabeth Nathalie (b.Vienna 30 May 1979); m.Maria Jeutendorf 18 Aug 2001 Leonhard Merckens (b.15 Jul 1973)
 				name=Elisabeth
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023464	# Johannes von Trauttmansdorff-Weinsberg
 				mother=100186571	# Maria Christina Czernin v.u.zu Chudenitz
@@ -28425,7 +28430,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		100023477={ #// 3e) Eleonore Marie Therese Aglaë (b.Pottenbrunn 8 Feb 1938); m.Vienna 5 Sep 1964 Johannes Gf Kinsky von Wchinitz u.Tettau (Prague 22 Mar 1937-Graz 5 Aug 2004) $$
 			name=Eleonore
 			female=yes
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100023460	# Josef von Trauttmansdorff-Weinsberg
 			mother=100036297	# Helene Economo von San Serff
@@ -28433,7 +28438,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		}
 	100023479={ #// 3d) Hieronymus (Koritschan 3 Sep 1895-Vienna 12 Oct 1948)
 		name=Hieronymus
-		dynasty=1004004
+		dynasty_house=trautt_weinsberg
 		religion=catholic culture=bavarian
 		father=100023419	# Karl von Trauttmansdorff-Weinsberg
 		mother=100024911	# Marie Therese von Colloredo-Mannsfeld
@@ -28443,7 +28448,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 	100023480={ #// 4d) Aglaë Maria (Opocno 5 Oct 1896-Vomp 17 Jun 1977); m.Obristvi 20 Sep 1917 Maximilian Frhr von Biegeleben (Vienna 17 Jan 1886-Vomp 23 Sep 1976)
 		name=Aglaë
 		female=yes
-		dynasty=1004004
+		dynasty_house=trautt_weinsberg
 		religion=catholic culture=bavarian
 		father=100023419	# Karl von Trauttmansdorff-Weinsberg
 		mother=100024911	# Marie Therese von Colloredo-Mannsfeld
@@ -28452,7 +28457,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 	}
 	100023482={ #// 5d) Karl Josef (Koritschan 19 Nov 1897-Vienna 23 Mar 1970); m.Sigmundslust bei Schwaz 4 Sep 1924 Maria Gertrud Frn von Biegeleben (Vienna 28 Nov 1892-Vienna 24 Feb 1964)
 		name=Karl
-		dynasty=1004004
+		dynasty_house=trautt_weinsberg
 		religion=catholic culture=bavarian
 		father=100023419	# Karl von Trauttmansdorff-Weinsberg
 		mother=100024911	# Marie Therese von Colloredo-Mannsfeld
@@ -28462,7 +28467,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 	}
 		100023484={ #// 1e) Ferdinand Maximilian (Pottenbrunn 1 Feb 1928-Oberwart, Burgenland 2 Nov 2000); m.1st Vienna 18 Jan 1958 (div 1969) Marie Frédérique Isabelle Star Busmann (b.Utrecht 6 Dec 1934); m.2d Vienna 12 Oct 1979 (div 1990) Elisabeth Kenyeres de Homoród-Almás et Dálnok (b.Sünching 22 Sep 1945) $$
 			name=Ferdinand
-			dynasty=1004004
+			dynasty_house=trautt_weinsberg
 			religion=catholic culture=bavarian
 			father=100023482	# Karl von Trauttmansdorff-Weinsberg
 			mother=100091644	# FRN Maria Gertrud von Biegeleben
@@ -28476,7 +28481,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023487={ #// 1f) Maria Viktoria (b.Vienna 8 Sep 1960); m.Klein Zwettl, Lower Austria 20 Aug 1989 Wolf Dietrich Sprenger (b.Zeitz 11 Oct 1942)
 				name="Maria Viktoria"
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023484	# Ferdinand von Trauttmansdorff-Weinsberg
 				mother=100036869	# Marie Frédérique Star Busmann
@@ -28485,7 +28490,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			100023489={ #// 2f) Maria Katharina (b.Vienna 1 May 1963); m.San Stefano a Campoli, Mercatale 5 Jul 2003 Ludovic Allès
 				name="Maria Katharina"
 				female=yes
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023484	# Ferdinand von Trauttmansdorff-Weinsberg
 				mother=100036869	# Marie Frédérique Star Busmann
@@ -28493,7 +28498,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			}
 			100023491={ #// 3f) Maximilian Octavian (b.Vienna 12 Aug 1965)
 				name=Maximilian
-				dynasty=1004004
+				dynasty_house=trautt_weinsberg
 				religion=catholic culture=bavarian
 				father=100023484	# Ferdinand von Trauttmansdorff-Weinsberg
 				mother=100036869	# Marie Frédérique Star Busmann
@@ -28901,6 +28906,16 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						1718.09.28={add_spouse=100024656}	# Philippina von Lamberg
 						1744.01.26={death=yes}  # Wien
 					}
+						100136095={ #// F1. Marie Antoinette, *Wien 29.3.1726, +Wien 17.1.1746; m.Wien 17.2.1743 Gf Leopold Karl von Windisch-Graetz (bap St.Michael, Wien 15.11.1718, +Wien 13.2.1746) $$
+							name="Maria Antonia"
+							female=yes
+							dynasty=1004003
+							religion=catholic culture=bavarian
+							father=100026095	# Ludwig Andreas von Khevenhüller-Metsch
+							mother=100024656	# Philippina von Lamberg
+							1726.03.29={birth=yes}  # Wien
+							1746.01.17={death=yes}  # Wien
+						}
 					100126095={ #// E4. Maria Ludovika, *14.12.1684, +3.5.1742; m.3.5.1702 Gf Karl Benedikt von Lamberg-Kunstadt (*27.5.1675, +9.12.1721) $$
 						name="Maria Ludovika"
 						female=yes
@@ -29028,6 +29043,16 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		1754.02.25={add_spouse=100022888}	# Maria von Liechtenstein
 		1801.06.15={death=yes}
 	}
+		100125330={ #// B2. KARL Maria Joseph Johann Baptist Clemens, 3.Reichsfürst von Khevenhüller-Metsch, *23.11.1756, +Wien 2.6.1823; m.1805 Gfn Therese Morzin (*18.4.1774, +Hietzing 8.7.1859), dau.of Karl Josef Franz Gf Morzin and Marie Vilemína Frn Rajská z Dubnic $$
+			name="Karl"
+			dynasty=1004003
+			religion=catholic culture=bavarian
+			father=100026088	# Sigismund von Khevenhüller-Metsch
+			mother=100022888	# Maria von Liechtenstein
+			1756.11.23={birth=yes}
+			1805.01.01={add_spouse=morzin_0039}	# Therese von Morzin
+			1823.06.02={death=yes}  # Wien
+		}
 		100025330={ #// B4. Anna Antonia Maria, *Lisbon 10.4.1759, +Wien 18.1.1809; m.Wien 12.2.1776 Gf Károly Zichy de Zich et Vásonkeö (*Bratislava 4.3.1753, +Wien 28.9.1826) $$
 			name="Anna Maria"
 			female=yes
@@ -31280,7 +31305,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							father=100022887	# Johann Moritz von Liechtenstein
 							mother=100006625	# Clotilde Alberta von Thurn und Taxis
 							1949.04.01={birth=yes}
-							1989.07.22={add_spouse=100066617}	# Marie Isabelle d’Orléans
+							1989.07.22={add_spouse=100066617}	# Marie Isabelle d  Orleans
 						}
 							100022893={ #// 1h) Leopoldine Eleonore Therese Marie (b.Vienna 27 Jun 1990)
 								name=Leopoldine
@@ -31288,7 +31313,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d  Orleans
 								1990.06.27={birth=yes}
 							}
 							100022894={ #// 2h) Marie Immaculee Elisabeth Rose Adelgunde (b.Vienna 15 Dec 1991)
@@ -31297,7 +31322,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d  Orleans
 								1991.12.15={birth=yes}
 							}
 							100022895={ #// 3h) Johann Wenzel Karl Emmeran Bonifatius Maria (b.Vienna 16 Mar 1993)
@@ -31305,7 +31330,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d  Orleans
 								1993.03.16={birth=yes}
 							}
 							100022896={ #// 4h) Margarete Franziska Daria Wilhelmine Marie (b.Vienna 10 Jan 1995)
@@ -31314,7 +31339,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d  Orleans
 								1995.01.10={birth=yes}
 							}
 							100022897={ #// 5h) Gabriel Karl Bonaventura Alfred Valerian Maria (b.Vienna 6 May 1998)
@@ -31322,7 +31347,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d  Orleans
 								1998.05.06={birth=yes}
 							}
 						100022898={ #// 3g) Alfred Heinrich Michael Benedikt Maria (b.Vienna 17 Sep 1951); m.Vaduz 22 Mar 2002 (rel) Schloß Waldstein 6 Apr 2002 Raffaella Ida Sangiorgi (b.Tlemcen, Algeria 12 Dec 1966)
@@ -32192,7 +32217,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 #Liechtenstein|1004002|100022753-100023199
 
 
-#Windisch-Graetz|1004000|100022500-100022699
+#Windisch-Graetz|1004000|wgraetz_0038-100022699
 #windisch1
 100082016={ #// H4. Barbara, *1519, +Linz 9.8.1580; m.1536 Leonhard IV von Harrach (*1514 +27.6.1590)
 	name="Barbara von Windisch-Graetz"
@@ -32280,48 +32305,348 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 #windisch2
 
 #windisch3 > 1
-100093439={ #// Graf Andreas II von Windisch-Graetz, *1567, +1600; m.Graz 10.11.1583 Frn Regina von Dietrichstein-Finkenstein (*18.9.1567 +1618)
-	name="Andreas von Windisch-Graetz"
-	#dynasty=0
-	religion=catholic culture=bavarian
+wgraetz_0001={ #// Graf Andreas II von Windisch-Graetz, *1567, +1600; m.Graz 10.11.1583 Frn Regina von Dietrichstein-Finkenstein (*18.9.1567 +1618); They had issue: $$
+	name=Andreas
+	dynasty=1004000
+	religion=catholic culture=german
 	1567.01.01={birth=yes}
 	1583.11.10={add_spouse=100026159}	# Regina von Dietrichstein
-	1600.12.01={death=yes}
+	1600.01.01={death=yes}
 }
-100085889={ #// B2. Maria Salome, Frn von Waldstein und im Thal, +Tovacov 28.5.1665; 1m: 1643 Gf Alexander Jodokus Haugwitz von Biskupitz (+1649); 2m: Gf Julius II von Salm in Neuburg (*1600 +1654); 3m: 1655 Gf Johann Franz Ferdinand von Heussenstamm zu Heissenstein (+1660); 4m: 19.2.1662 Gf Albrecht Julius Breunner (*15.10.1628, +4.10.1684)
-	name="Maria Salomea von Windisch-Graetz"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=bavarian
-	1620.01.01={birth=yes}
-	1665.05.28={death=yes}
-}
-100103810={ #// B1. Karl Gottlieb I Amadeus, Vice-Chancellor of Emperor Leopold I, -cr Reichsgraf von Windischgraetz 1658, Bohemian inkolat 1689, *Regensburg 13.3.1630, +Wien 25.12.1695/Nürnberg 28.12.1695; 1m: 28.12.1662 Amalia Margaretha van Brederode (*1630 +14.8.1663), dau.of Johan Wolfert van Brederode by Anna de Nassau-Siegen, widow by Albrecht Heinrich Slavata; 2m: Nürnberg 2.4.1665 Gfn Maria-Eleonora zu Oettingen-Oettingen (*10.7.1649 +10.4.1681); 3m: 25.2.1683 Gfn Maria Theresia von Saurau (*Graz 14.12.1657, +Prerov, Moravia 7.10.1713)
-	name="Gottlieb Amadeus von Windisch-Graetz"
-	#dynasty=0
-	religion=catholic culture=bavarian
-	1630.03.13={birth=yes}
-	1665.04.02={add_spouse=100012953}	# Maria Eleonora zu Oettingen-Oettingen
-	1695.12.25={death=yes}
-}
+	wgraetz_0002={ #// A1. Erasmus Siegmund, Gf von Windischgraetz, *1585/86, +1622; m.18.1.1609 Frn Regina von Dietrichstein-Rabenstein (+1629)
+		name="Erasmus Siegmund"
+		dynasty=1004000
+		religion=catholic culture=german
+		father=wgraetz_0001	# Andreas von Windisch-Graetz
+		mother=100026159	# Regina von Dietrichstein
+		1585.01.01={birth=yes}
+		1609.01.18={add_spouse=lowborn_2741}	# FRN Regina von Dietrichstein-Rabenstein
+		1622.01.01={death=yes}
+	}
+		wgraetz_0003={ #// B1. Gf Andreas Ludwig, +22.12.1660; 1m: 1643 Frn Anna Siguna von Welz (+3.3.1645); 2m: 4.2.1646 Gfn Isabella von Cronegg
+			name="Andreas Ludwig"
+			dynasty=1004000
+			religion=catholic culture=german
+			father=wgraetz_0002	# Erasmus Siegmund von Windisch-Graetz
+			mother=lowborn_2741	# FRN Regina von Dietrichstein-Rabenstein
+			1611.01.01={birth=yes}  # EST.
+			1643.01.01={add_spouse=lowborn_2745}	# FRN Anna Siguna von Welz
+			1646.02.04={add_spouse=lowborn_3084}	# GFN Isabella von Cronegg
+			1660.12.22={death=yes}
+		}
+			wgraetz_0004={ #// C1. Gf Jacob Ludwig, +after 1685; m.5.2.1680 Frn Regina Sidonie von Wangler (+21.12.171?)
+				name="Jacob Ludwig"
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0003	# Andreas Ludwig von Windisch-Graetz
+				mother=lowborn_2745	# FRN Anna Siguna von Welz
+				1636.01.01={birth=yes}  # EST.
+				1680.02.05={add_spouse=lowborn_3090}	# FRN Regina Sidonie von Wangler
+				1686.01.01={death=yes}
+			}
+			wgraetz_0006={ #// C2. Maria Francisca, +10.4.1695; m.20.2.1691 Frhr Johann Seyfried von Gablkoven
+				name="Maria Francisca"
+				female=yes
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0003	# Andreas Ludwig von Windisch-Graetz
+				mother=lowborn_2745	# FRN Anna Siguna von Welz
+				1636.01.01={birth=yes}  # EST.
+				1695.04.10={death=yes}
+			}
+			wgraetz_0007={ #// C3. Regina Isabella, +13.10.1690; 1m: 13.10.1681 Gf Philipp von Hornberg; 2m: 11.9.1690 Frhr Johann Martin von Gablkoven
+				name="Regina Isabella"
+				female=yes
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0003	# Andreas Ludwig von Windisch-Graetz
+				mother=lowborn_2745	# FRN Anna Siguna von Welz
+				1636.01.01={birth=yes}  # EST.
+				1690.10.13={death=yes}
+			}
+		wgraetz_0010={ #// B2. Maria Salome, Frn von Waldstein und im Thal, +Tovacov 28.5.1665; 1m: 1643 Gf Alexander Jodokus Haugwitz von Biskupitz (+1649); 2m: Gf Julius II von Salm in Neuburg (*1600 +1654); 3m: 1655 Gf Johann Franz Ferdinand von Heussenstamm zu Heissenstein (+1660); 4m: 19.2.1662 Gf Albrecht Julius Breunner (*15.10.1628, +4.10.1684) $$
+			name="Maria Salome"
+			female=yes
+			dynasty=1004000
+			religion=catholic culture=german
+			father=wgraetz_0002	# Erasmus Siegmund von Windisch-Graetz
+			mother=lowborn_2741	# FRN Regina von Dietrichstein-Rabenstein
+			1613.01.01={birth=yes}  # EST.
+			1665.05.28={death=yes}  # Tovacov
+		}
+	wgraetz_0013={ #// A2. Frhr Karl I, Herr auf Stain und Hochenbergen, *1.4.1588, +25.8.1651; 1m: Marie Huber (+ca 1613); 2m: 1614 Kunigunde von Feistritz (+by 1622); 3m: 1622 Gfn Anne Sidonie von Windisch-Graetz (*26.11.1600, +25.12.1651)
+		name=Karl
+		dynasty=1004000
+		religion=catholic culture=german
+		father=wgraetz_0001	# Andreas von Windisch-Graetz
+		mother=100026159	# Regina von Dietrichstein
+		1588.04.01={birth=yes}
+		1612.01.01={add_spouse=lowborn_3184}	# Marie Huber
+		1614.01.01={add_spouse=lowborn_3185}	# Kunigunde von Feistritz
+		1622.01.01={add_spouse=lowborn_3186}	# GFN Anne Sidonie von Windisch-Graetz
+		1651.08.25={death=yes}
+	}
+		wgraetz_0015={ #// B2. [3m.] Regina Katharina, *20.5.1637, +30.6.1664; m.21.2.1653 Georg Heinrich von Eck
+			name="Regina Katharina"
+			female=yes
+			dynasty=1004000
+			religion=catholic culture=german
+			father=wgraetz_0013	# Karl von Windisch-Graetz
+			mother=lowborn_3184	# Marie Huber
+			1637.05.20={birth=yes}
+			1664.06.30={death=yes}
+		}
+	wgraetz_0018={ #// A3. Bartholomäus, *3.1.1593, +Salzburg 23.11.1633; m.VI.1620 Frn Anne Sidonie von Herberstein (+1654)
+		name=Bartholomäus
+		dynasty=1004000
+		religion=catholic culture=german
+		father=wgraetz_0001	# Andreas von Windisch-Graetz
+		mother=100026159	# Regina von Dietrichstein
+		1593.01.03={birth=yes}
+		1620.06.01={add_spouse=lowborn_3188}	# FRN Anne Sidonie von Herberstein
+		1633.11.23={death=yes}  # Salzburg
+	}
+		wgraetz_0019={ #// B1. Karl Gottlieb I Amadeus, Vice-Chancellor of Emperor Leopold I, cr [Reichsgraf von Windischgraetz 1658], Bohemian inkolat, *Regensburg 13.3.1630, +Wien 25.12.1695; 1m: 28.12.1662 Amalia Margaretha van Brederode (*1630 +14.8.1663), dau.of Johan Wolfert van Brederode by Anna de Nassau-Siegen, widow by Albrecht Heinrich Slavata; 2m: Nürnberg 2.4.1665 Gfn Maria-Eleonora zu Oettingen-Oettingen (*10.7.1649 +10.4.1681); 3m: 25.2.1683 Gfn Maria Theresia von Saurau (*Graz 14.12.1657, +Prerov, Moravia 7.10.1713) $$
+			name="Karl Gottlieb Amadeus"
+			dynasty=1004000
+			religion=catholic culture=north_german
+			father=wgraetz_0018	# Bartholomäus von Windisch-Graetz
+			mother=lowborn_3188	# FRN Anne Sidonie von Herberstein
+			1630.03.13={birth=yes}  # Regensburg
+			1662.12.28={add_spouse=lowborn_3189}	# Amalia Margaretha van Brederode
+			1665.04.02={add_spouse=100012953}	# Maria Eleonora zu Oettingen-Oettingen
+			1683.02.25={add_spouse=lowborn_3191}	# GFN Maria Theresia von Saurau
+			1695.12.25={death=yes}  # Wien
+		}
+			wgraetz_0021={ #// C2. [2m.] Gfn Eberhardina Eleonora Sophie, a nun, *22.5.1668, +in Kloster zu Neustadt 1724
+				name=Eberhardina
+				female=yes
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0019	# Karl Gottlieb Amadeus von Windisch-Graetz
+				mother=100012953	# Maria Eleonora zu Oettingen-Oettingen
+				1668.05.22={birth=yes}
+				1724.01.01={death=yes}  # in Kloster zu_Neustadt
+			}
+			wgraetz_0023={ #// C4. [2m.] Gf Ernst Friedrich, *Wien 20.6.1670, +St.Peter 6.9.1727; 1m: 29.7.1695 Gfn Maria Theresia Slavata von Chlum und Koschumberg (+28.4.1699); 2m: 17.10.1709 Gfn Theresia Rosalia von Rottal (*1679 +12.1.1753), dau.of Georg Julius Wilhelm von Rottal and Anna Katharina von Rindsmaul
+				name="Ernst Friedrich"
+				dynasty=1004000
+				religion=catholic culture=bavarian
+				father=wgraetz_0019	# Karl Gottlieb Amadeus von Windisch-Graetz
+				mother=100012953	# Maria Eleonora zu Oettingen-Oettingen
+				1670.06.20={birth=yes}  # Wien
+				1695.07.29={add_spouse=lowborn_3192}	# GFN Maria Theresia Slavata von Chlum und Koschumberg
+				1709.10.17={add_spouse=lowborn_3193}	# GFN Theresia Rosalia von Rottal
+				1727.09.06={death=yes}  # Sankt Peter
+			}
+			wgraetz_0033={ #// C13. [3m.] Gf LEOPOLD Victorin Johann Wilhelm, *Regensburg 17.9.1686, +Wien 19.12.1746; m.Hoch- und Burgpfarre, Wien 16.8.1714 Gfn Marie Ernestine zu Strassoldo (*Gorizia 16.1.1695, +Wien 2.7.1766), dau.of Gf Marzio von Strassoldo by Gfn Aurora von Strassoldo-Klingenfels
+				name=Leopold
+				dynasty=1004000
+				religion=catholic culture=north_german
+				father=wgraetz_0019	# Karl Gottlieb Amadeus von Windisch-Graetz
+				mother=lowborn_3191	# GFN Maria Theresia von Saurau
+				1686.09.17={birth=yes}  # Regensburg
+				1714.08.16={add_spouse=lowborn_3195}	# GFN Marie Ernestine zu Strassoldo
+				1746.12.19={death=yes}  # Wien
+			}
+				wgraetz_0036={ #// D3. Gf LEOPOLD KARL Joseph Franz de Paula Adam Ignaz, bap St.Michael, Wien 15.11.1718, +Wien 13.2.1746, bur Wien; m.Wien 17.2.1743 Gfn Maria Antonia von Khevenhüller (*Wien 29.3.1726, +Wien 17.1.1746) $$
+					name="Leopold Karl"
+					dynasty=1004000
+					religion=catholic culture=bavarian
+					father=wgraetz_0033	# Leopold von Windisch-Graetz
+					mother=lowborn_3195	# GFN Marie Ernestine zu Strassoldo
+					1718.11.15={birth=yes}  # Sankt Michael Wien
+					1743.02.17={add_spouse=100136095}	# Maria Antonia von Khevenhüller-Metsch
+					1746.02.13={death=yes}  # Wien
+				}
+					wgraetz_0037={ #// E1. Gf Gottlieb, *31.12.1743, +1.2.1744
+						name=Gottlieb
+						dynasty=1004000
+						religion=catholic culture=german
+						father=wgraetz_0036	# Leopold Karl von Windisch-Graetz
+						mother=100136095	# Maria Antonia von Khevenhüller-Metsch
+						1743.12.31={birth=yes}
+						1744.02.01={death=yes}
+					}
+					#windisch4   -->   E2. Gf JOSEPH Ludwig Nikolaus Anton de Paula Johannes Nepomuk Adam Raymund non natus, bap Wien 6.12.1744, +Steken, Bohemia 24.1.1802, bur kaple sv.Václava, Tachov, Bohemia; 1m: Wien Burg 12.10.1766 Gfn Maria Josefa Erdödy de Monyorókerék et Monoszló (*5.4.1748 +10.4.1777); 2m: Bruxelles 30.8.1781 Dss Leopoldine d'Arenberg (*30.7.1751 +26.8.1812); for his issue see HERE
+		wgraetz_0043={ #// B2. Sidonia Elisabeth, *1628, +Wien 13.3.1694; 1m: 15.8.1655 Gf Christian von Tschernembl (+by 1667); 2m: Wien 2.1.1667 Gf Albrecht Julius Breunner (*15.10.1628, +4.10.1684)
+			name="Sidonia Elisabeth"
+			female=yes
+			dynasty=1004000
+			religion=catholic culture=german
+			father=wgraetz_0018	# Bartholomäus von Windisch-Graetz
+			mother=lowborn_3188	# FRN Anne Sidonie von Herberstein
+			1628.01.01={birth=yes}
+			1694.03.13={death=yes}  # Wien
+		}
+		wgraetz_0044={ #// B3. Helena Katharina, *1631; 1m: Frhr Johann von Gloyach; 2m: Siegmund Eschey von Rosenheim
+			name="Helena Katharina"
+			female=yes
+			dynasty=1004000
+			religion=catholic culture=german
+			father=wgraetz_0018	# Bartholomäus von Windisch-Graetz
+			mother=lowborn_3188	# FRN Anne Sidonie von Herberstein
+			1631.01.01={birth=yes}
+			1706.01.01={death=yes}  # EST.
+		}
+	wgraetz_0046={ #// A5. David, Frhr von Windischgraetz, *3.4.1596, +10.4.1636; m.10.2.1619 Frn Elisabeth von Rauber (*1592 +1664)
+		name=David
+		dynasty=1004000
+		religion=catholic culture=german
+		father=wgraetz_0001	# Andreas von Windisch-Graetz
+		mother=100026159	# Regina von Dietrichstein
+		1596.04.03={birth=yes}
+		1619.02.10={add_spouse=lowborn_3203}	# FRN Elisabeth von Rauber
+		1636.04.10={death=yes}
+	}
+		wgraetz_0048={ #// B1. Adam, Gf von Windischgraetz 1682, *26.8.1627, +4.5.1704; m.11.4.1663 Frn Anna Marie von Rauber (+26.8.1685)
+			name=Adam
+			dynasty=1004000
+			religion=catholic culture=german
+			father=wgraetz_0046	# David von Windisch-Graetz
+			mother=lowborn_3203	# FRN Elisabeth von Rauber
+			1627.08.26={birth=yes}
+			1663.04.11={add_spouse=lowborn_3204}	# FRN Anna von Rauber
+			1704.05.04={death=yes}
+		}
+			wgraetz_0049={ #// C1. Gf Gottlieb Christian, *16.1.1674, +26.10.1749
+				name="Gottlieb Christian"
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0048	# Adam von Windisch-Graetz
+				mother=lowborn_3204	# FRN Anna von Rauber
+				1674.01.16={birth=yes}
+				1749.10.26={death=yes}
+			}
+			wgraetz_0050={ #// C2. Gf Adam Ferdinand, *17.6.1675, +30.12.1730
+				name="Adam Ferdinand"
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0048	# Adam von Windisch-Graetz
+				mother=lowborn_3204	# FRN Anna von Rauber
+				1675.06.17={birth=yes}
+				1730.12.30={death=yes}
+			}
+			wgraetz_0051={ #// C3. Gfn Eva Elisabeth, *27.7.1672, +Lubbenau 5.10.1745; m.12.7.1697 Gf Friedrich Casimir zu Lynar (*17.7.1673, +27.4.1716)
+				name="Eva Elisabeth"
+				female=yes
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0048	# Adam von Windisch-Graetz
+				mother=lowborn_3204	# FRN Anna von Rauber
+				1672.07.27={birth=yes}
+				1745.10.05={death=yes}  # Lubbenau
+			}
+			wgraetz_0052={ #// C4. Gfn Regina Isabella, *18.9.1678, +27.12.1706; m.13.10.1706 Gf Konrad Ernst von Hochberg (*19.8.1682, +26.6.1742) $$
+				name="Regina Isabella"
+				female=yes
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0048	# Adam von Windisch-Graetz
+				mother=lowborn_3204	# FRN Anna von Rauber
+				1678.09.18={birth=yes}
+				1706.12.27={death=yes}
+			}
+			wgraetz_0053={ #// C5. Gfn Eleonore Salome, *20.2.1680, +aft 1717; 1m: 1714 Frhr Christof Adam von Jagenreuth; 2m: 1717 Frhr Wilhelm Leopold von Hautzenstein
+				name="Eleonore Salome"
+				female=yes
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0048	# Adam von Windisch-Graetz
+				mother=lowborn_3204	# FRN Anna von Rauber
+				1680.02.20={birth=yes}
+				1718.01.01={death=yes}
+			}
+			wgraetz_0055={ #// C7. Gfn Susanna Klara, *11.8.1683, +27.6.1752
+				name="Susanna Klara"
+				female=yes
+				dynasty=1004000
+				religion=catholic culture=german
+				father=wgraetz_0048	# Adam von Windisch-Graetz
+				mother=lowborn_3204	# FRN Anna von Rauber
+				1683.08.11={birth=yes}
+				1752.06.27={death=yes}
+			}
+		wgraetz_0056={ #// B2. Eva Katharina, *11.8.1622, +2.11.1684; m.1648 Gf Johann Ulrich Kollonitz-Kollograd (*28.1.1606, +1676)
+			name="Eva Katharina"
+			female=yes
+			dynasty=1004000
+			religion=catholic culture=german
+			father=wgraetz_0046	# David von Windisch-Graetz
+			mother=lowborn_3203	# FRN Elisabeth von Rauber
+			1622.08.11={birth=yes}
+			1684.11.02={death=yes}
+		}
+		wgraetz_0057={ #// B3. Maria Magdalena, *2.7.1625, +1664; 1m: Frhr Zsigmond Balassa de Gyarmat és Kékkö (+before 1654); 2m: Kristof Ocskay
+			name="Maria Magdalena"
+			female=yes
+			dynasty=1004000
+			religion=catholic culture=german
+			father=wgraetz_0046	# David von Windisch-Graetz
+			mother=lowborn_3203	# FRN Elisabeth von Rauber
+			1625.07.02={birth=yes}
+			1664.01.01={death=yes}
+		}
+		wgraetz_0058={ #// B4. Regina Katharina, *13.7.1626, +17.1.1701; m.9.11.1653 Gf Adam Max von Trauttmansdorff (*14.3.1621, +11.7.1670)
+			name="Regina Katharina"
+			female=yes
+			dynasty=1004000
+			religion=catholic culture=german
+			father=wgraetz_0046	# David von Windisch-Graetz
+			mother=lowborn_3203	# FRN Elisabeth von Rauber
+			1626.07.13={birth=yes}
+			1701.01.17={death=yes}
+		}
+	wgraetz_0060={ #// A6. Barbara Elisabeth, *30.12.1591, +1613; m.Wilhelm von Radmannsdorf
+		name="Barbara Elisabeth"
+		female=yes
+		dynasty=1004000
+		religion=catholic culture=german
+		father=wgraetz_0001	# Andreas von Windisch-Graetz
+		mother=100026159	# Regina von Dietrichstein
+		1591.12.30={birth=yes}
+		1613.01.01={death=yes}
+	}
+	wgraetz_0061={ #// A7. Anna Margarethe, *ca 1585, +2.5.1629; m.Wels 16.9.1607 Augustin Khevenhüller, Frhr zu Aichelberg (*Spittal 6.7.1580, +26.7.1625)
+		name="Anna Margarethe"
+		female=yes
+		dynasty=1004000
+		religion=catholic culture=german
+		father=wgraetz_0001	# Andreas von Windisch-Graetz
+		mother=100026159	# Regina von Dietrichstein
+		1585.01.01={birth=yes}
+		1629.05.02={death=yes}
+	}
+	wgraetz_0062={ #// A8. Regina Katharina, *27.9.1597, +Sweden III.1670, bur Cesteraker, Julita, Sweden; m.Klagenfurt 1619 Paul Khevenhüller, Frhr zu Wernberg (*Wernberg 23.4.1586, +Stockholm 9.12.1655)
+		name="Regina Katharina"
+		female=yes
+		dynasty=1004000
+		religion=catholic culture=german
+		father=wgraetz_0001	# Andreas von Windisch-Graetz
+		mother=100026159	# Regina von Dietrichstein
+		1597.09.27={birth=yes}
+		1670.03.01={death=yes}  # Sweden
+	}
 #windisch3
 
 #windisch4 > 3
-100022500={ #// JOSEPH Ludwig Nikolaus Anton de Paula Johannes Nepomuk Adam Raymund non natus, Gf von Windischgraetz, Freiherr von Waldstein und Thal, bap Wien 6.12.1744, +Steken, Bohemia 24.1.1802, bur kaple sv.Václava, Tachov, Bohemia; 1m: Wien Burg 12.10.1766 Gfn Maria Josefa Erdödy de Monyorókerék et Monoszló (*5.4.1748 +10.4.1777); 2m: Bruxelles 30.8.1781 Dss Leopoldine d'Arenberg (*30.7.1751 +26.8.1812) $$
+wgraetz_0038={ #// JOSEPH Ludwig Nikolaus Anton de Paula Johannes Nepomuk Adam Raymund non natus, Gf von Windischgraetz, Freiherr von Waldstein und Thal, bap Wien 6.12.1744, +Steken, Bohemia 24.1.1802, bur kaple sv.Václava, Tachov, Bohemia; 1m: Wien Burg 12.10.1766 Gfn Maria Josefa Erdödy de Monyorókerék et Monoszló (*5.4.1748 +10.4.1777); 2m: Bruxelles 30.8.1781 Dss Leopoldine d'Arenberg (*30.7.1751 +26.8.1812) $$
 	name=Joseph
 	dynasty=1004000
 	religion=catholic culture=bavarian
-	1744.12.06={birth=yes}
+	father=wgraetz_0036	# Leopold Karl von Windisch-Graetz
+	mother=100136095	# Maria Antonia von Khevenhüller-Metsch
+	1744.12.06={birth=yes}  # Wien
 	1766.10.12={add_spouse=100116967}	# Maria Josepha Erdődy de Monyorókerék et Monoszló
 	1781.08.30={add_spouse=100000187}	# Leopoldine von Arenberg
-	1802.01.24={death=yes}
+	1802.01.24={death=yes}  # Steken Bohemia
 }
 	100022506={ #// 4a) Maria Theresia Philippina Josephine Antonia Friederike (Vienna 4 Mar 1774-Vienna 22 Jan 1841); m.Stiekna 2 Apr 1800 Ernst Engelbert Pr and Duke von Arenberg (Paris 25 May 1777-Wiesbaden 20 Nov 1857) $$
 		name="Maria Theresia"
 		female=yes
 		dynasty=1004000
 		religion=catholic culture=bavarian
-		father=100022500	# Joseph von Windisch-Graetz
+		father=wgraetz_0038	# Joseph von Windisch-Graetz
 		mother=100116967	# Maria Josepha Erdődy de Monyorókerék et Monoszló
 		1774.03.04={birth=yes}
 		1841.01.22={death=yes}
@@ -32331,7 +32656,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		female=yes
 		dynasty=1004000
 		religion=catholic culture=bavarian
-		father=100022500	# Joseph von Windisch-Graetz
+		father=wgraetz_0038	# Joseph von Windisch-Graetz
 		mother=100000187	# Leopoldine von Arenberg
 		1784.07.20={birth=yes}
 		1848.07.17={death=yes}
@@ -32340,7 +32665,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		name=Alfred
 		dynasty=1004000
 		religion=catholic culture=bavarian
-		father=100022500	# Joseph von Windisch-Graetz
+		father=wgraetz_0038	# Joseph von Windisch-Graetz
 		mother=100000187	# Leopoldine von Arenberg
 		1787.05.11={birth=yes}
 		1817.06.15={add_spouse=100185521}	# Marie Eleonore von Schwarzenberg
@@ -32738,7 +33063,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		female=yes
 		dynasty=1004000
 		religion=catholic culture=bavarian
-		father=100022500	# Joseph von Windisch-Graetz
+		father=wgraetz_0038	# Joseph von Windisch-Graetz
 		mother=100000187	# Leopoldine von Arenberg
 		1788.12.04={birth=yes}
 		1806.10.08={death=yes}
@@ -32747,7 +33072,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		name=Weriand
 		dynasty=1004000
 		religion=catholic culture=bavarian
-		father=100022500	# Joseph von Windisch-Graetz
+		father=wgraetz_0038	# Joseph von Windisch-Graetz
 		mother=100000187	# Leopoldine von Arenberg
 		1790.05.31={birth=yes}
 		1812.10.11={add_spouse=100185017}	# Eleonore Popel von Lobkowitz
@@ -33555,7 +33880,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			1913.04.22={death=yes}
 		}
 #windisch4
-#Windisch-Graetz|1004000|100022500-100022699
+#Windisch-Graetz|1004000|wgraetz_0038-100022699
 
 
 ##	UNGNAD

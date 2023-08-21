@@ -2890,7 +2890,7 @@
 		1599.11.14={birth=yes}
 		1666.11.10={death=yes}
 	}
-	100004356={ #// A1. Gf Julius II von Salm in Neuburg, *1600, +V.1654; 1m: Gfn Juliane von Collalto und San Salvatore (*1623 +1647); 2m: ca 1650 Gfn Maria Salomea von Windisch-Graetz (*ca 1620 +28.5.1665)
+	100004356={ #// A1. Gf Julius II von Salm in Neuburg, *1600, +V.1654; 1m: Gfn Juliane von Collalto und San Salvatore (*1623 +1647); 2m: ca 1650 Gfn Maria Salomea von Windisch-Graetz (*ca 1620 +28.5.1665) $$
 		name=Julius
 		dynasty=1002264
 		religion=catholic culture=german
@@ -2898,7 +2898,7 @@
 		mother=100081217	# Sidonie von Minckwitz
 		1600.01.01={birth=yes}
 		1625.01.01={add_spouse=100081416}	# GFN Juliane von Collalto u.San Salvatore
-		1649.01.01={add_spouse=100085889}	# Maria Salomea von Windisch-Graetz
+		1649.01.01={add_spouse=wgraetz_0010}	# Maria Salome von Windisch-Graetz
 		1654.05.01={death=yes}
 	}
 		100004362={ #// B2. Ferdinand Julius, *1650, +3.8.1697; m.ca 1685 Pss Maria Eleonore Charlotte von Holstein-Sonderburg (*10.10.1659 +5.4.1692) $$
@@ -2906,7 +2906,7 @@
 			dynasty=1002264
 			religion=catholic culture=german
 			father=100004356	# Julius von Salm
-			mother=100085889	# Maria Salomea von Windisch-Graetz
+			mother=wgraetz_0010	# Maria Salome von Windisch-Graetz
 			1650.01.01={birth=yes}
 			1685.01.01={add_spouse=100009300}	# Maria Eleonore von Oldenburg
 			1697.08.03={death=yes}
@@ -3393,7 +3393,7 @@
                             }
 								100003377={ #// H1. Johann (*1375, +26.10.1418); m.1412 Jutta von Culenburg (*1375, +1450) %%
                                     name=Johann      # 311883/johann-v-von-reifferscheidt-herr-von-bedbur-und-dyck/
-                                    dynasty=1002075
+                                    dynasty_house=salm_reiff
                                     religion=catholic culture=german
                                     father=100003375	# Heinrich von Reifferscheidt
                                     mother=100095467	# Richarda von der Dyck
@@ -3403,9 +3403,9 @@
                                 }
 									100004057={ #// I1. Johann (*1417, +28.9.1475); m.1445 Irmgard von Wevelinghofen (*1420, +1.9.1474) %%
 										name=Johann      	# 311881/johann-vi-von-salm-reifferscheidt/
-										dynasty=1002074
+										dynasty_house=salm_reiff
 										religion=catholic culture=german
-										father=100003377	# Johann von Reifferscheidt
+										father=100003377	# Johann von Salm-Reifferscheidt
 										mother=100095463	# Jutta von Culenburg
 										1417.01.01={birth=yes}
 										1445.01.01={add_spouse=100095776}	# Irmgard von Wevelinghofen
@@ -3413,7 +3413,7 @@
 									}
 										100004011={ #// J1. Peter (*1470, +1505); m.1488 Regina von Sayn (*1461, +1495) %%
 											name=Peter       	# 311879/peter-von-salm-reifferscheidt/
-											dynasty=1002074
+											dynasty_house=salm_reiff
 											religion=catholic culture=german
 											father=100004057	# Johann von Salm-Reifferscheidt
 											mother=100095776	# Irmgard von Wevelinghofen
@@ -3423,7 +3423,7 @@
 										}
 											100004061={ #// K1. Johann (*25.6.1488, +26.3.1537); m.1513 Anna von Hoya (*1490, +17.8.1539) %%
 												name=Johann      # 2482/johann-viii-graf-von-salm-reifferscheidt/
-												dynasty=1002074
+												dynasty_house=salm_reiff
 												religion=catholic culture=german
 												father=100004011	# Peter von Salm-Reifferscheidt
 												mother=100012889	# Regina von Sayn
@@ -3433,7 +3433,7 @@
 											}
 												100004058={ #// L1. Johann (*1513, +31.10.1559); m.11.10.1538 Elisabeth von Henneberg (*19.12.1517, +2.12.1577) %%
 													name=Johann      # 138887/johann-ix-graf-von-salm-und-reifferscheidt/
-													dynasty=1002074
+													dynasty_house=salm_reiff
 													religion=catholic culture=german
 													father=100004061	# Johann von Salm-Reifferscheidt
 													mother=100095585	# Anna von Hoya
@@ -3443,7 +3443,7 @@
 												}
 													100004059={ #// M1. Werner (*17.8.1545, +16.12.1629); m.21.8.1567 Maria von Limburg-Bronckhorst (*1545, +2.9.1637) %%
 														name=Werner      # 107185/werner-altgraf-von-salm-reifferscheidt/
-														dynasty=1002074
+														dynasty_house=salm_reiff
 														religion=catholic culture=german
 														father=100004058	# Johann von Salm-Reifferscheidt
 														mother=100012794	# Elisabeth von Henneberg
@@ -3454,8 +3454,8 @@
 
 100004060={ #// Ernst Friedrich Altgf zu Salm-Reifferscheid (29 May 1583-13 Sep 1639); m.12 Jun 1616 Maria Ursula Gfn zu Leiningen (d.16 Aug 1649) $$
 	name="Ernst Friedrich"
-	dynasty=1002074
-	religion=lutheran culture=german
+	dynasty_house=salm_reiff
+	religion=catholic culture=german
 	father=100004059	# Werner von Salm-Reifferscheidt
 	mother=100095623	# Maria von Limburg-Bronckhorst
 	1583.05.29={birth=yes}
@@ -3464,8 +3464,8 @@
 }
 	100004062={ #// 1a) Erich Adolf, Altgraf zu Salm-Reifferscheidt in Bedburg, Dyck, Alfter u.Hackenbroich (1 Feb 1619-16 Jul 1678); m.1st 8 May 1646 Ldgvine Magdalena von Hessen-Cassel (25 Aug 1611-12 Feb 1671); m.2nd 24 Jun 1671 Ernestine Barbara Gfn zu Löwenstein-Wertheim-Rochefort (23 Oct 1654-9 Dec 1698) $$
 		name="Erich Adolf"
-		dynasty=1002074
-		religion=lutheran culture=german
+		dynasty_house=salm_reiff
+		religion=catholic culture=german
 		father=100004060	# Ernst Friedrich von Salm-Reifferscheidt
 		mother=100003667	# Marie Ursula von Leiningen
 		1619.02.01={birth=yes}
@@ -3476,8 +3476,8 @@
 		100004063={ #// 2b) Sophie Magdalena (17 Oct 1649-Venice 4 May 1675); m.24 Jan 1669 Ldgve Karl von Hessen-Wanfried-Rheinfels (d.1711) $$
 			name="Sophie Magdalena"
 			female=yes
-			dynasty=1002074
-			religion=lutheran culture=german
+			dynasty_house=salm_reiff
+			religion=catholic culture=german
 			father=100004062	# Erich Adolf von Salm-Reifferscheidt
 			mother=100001466	# Magdalena von Hessen-Kassel
 			1649.10.17={birth=yes}
@@ -3486,8 +3486,8 @@
 		100004064={ #// 4b) Maria Katharina Maximiliana (2 Apr 1651-22 Mar 1687); m.1673 Sebastian Wunibald Graf von Waldburg zu Zeil und Wurzach (d.1711) $$
 			name="Maria Katharina"
 			female=yes
-			dynasty=1002074
-			religion=lutheran culture=german
+			dynasty_house=salm_reiff
+			religion=catholic culture=german
 			father=100004062	# Erich Adolf von Salm-Reifferscheidt
 			mother=100001466	# Magdalena von Hessen-Kassel
 			1651.04.02={birth=yes}
@@ -3495,8 +3495,8 @@
 		}
 		100004065={ #// 5b) Franz Wilhelm Altgraf zu Salm-Reifferscheidt, in Bedburg (14 Aug 1672-4 Jun 1734); m.1st 29 Oct 1692 Marie Agnes Agathe Gfn Slavata (22 Jul 1672-21 Oct 1718); m.2nd 14 May 1719 Pss Maria Anna von Liechtenstein (21 Aug 1694-16 Jul 1735) $$
 			name="Franz Wilhelm"
-			dynasty=1002074
-			religion=lutheran culture=german
+			dynasty_house=salm_reiff
+			religion=catholic culture=german
 			father=100004062	# Erich Adolf von Salm-Reifferscheidt
 			mother=100009570	# Ernestine Barbara von Löwenstein-Wertheim-Rochefort
 			1672.08.14={birth=yes}
@@ -3507,8 +3507,8 @@
 			100004066={ #// 1c) Marie Ernestine (16 Jul 1693-25 Jun 1740); m.13 Dec 1719 Johann Adam Gf von Fünfkirchen (d.14 Mar 1748) $$
 				name="Marie Ernestine"
 				female=yes
-				dynasty=1002074
-				religion=lutheran culture=german
+				dynasty_house=salm_reiff
+				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
 				mother=100095284	# GFN Marie Agnes Slavata z Chlumu Košumberka
 				1693.07.16={birth=yes}
@@ -3517,8 +3517,8 @@
 			100004067={ #// 3c) Maria Christina Wilhelmina (22 Jun 1695-4 Mar 1745); m.11 Nov 1725 Johann Joseph Gf Breunner (d.2 Jan 1762) $$
 				name="Maria Christina"
 				female=yes
-				dynasty=1002074
-				religion=lutheran culture=german
+				dynasty_house=salm_reiff
+				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
 				mother=100095284	# GFN Marie Agnes Slavata z Chlumu Košumberka
 				1695.06.22={birth=yes}
@@ -3526,8 +3526,8 @@
 			}
 			100004068={ #// 4c) Karl Anton Joseph, Altgraf zu Salm-Reifferscheidt-Bedburg (6 Apr 1697-13 Jul 1755); m.13 Jan 1720 Maria Franziska Gfn Esterházy von Galántha (20 Nov 1702-1 Feb 1778) $$
 				name="Karl Anton"
-				dynasty=1002074
-				religion=lutheran culture=german
+				dynasty_house=salm_reiff
+				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
 				mother=100095284	# GFN Marie Agnes Slavata z Chlumu Košumberka
 				1697.04.06={birth=yes}
@@ -3536,8 +3536,8 @@
 			}
 				100004070={ #// 9d) Siegmund (13 Jun 1735-27 Feb 1798); m.21 Jul 1764 Eleonore Gfn von Waldburg zu Zeil und Wurzach (22 Oct 1735-14 Jan 1804) $$
 					name=Siegmund
-					dynasty=1002074
-					religion=lutheran culture=german
+					dynasty_house=salm_reiff
+					religion=catholic culture=german
 					father=100004068	# Karl Anton von Salm-Reifferscheidt
 					mother=100117464	# Mária Franziska Esterházy de Galántha
 					1735.06.13={birth=yes}
@@ -3547,8 +3547,8 @@
 					100004071={ #// 4e) Maria Creszentia Sabina Raphaela (29 Aug 1768-4 Apr 1826); m.1790 Fst Ludwig zu Hohenlohe-Bartenstein (d.1829) $$
 						name="Maria Creszentia"
 						female=yes
-						dynasty=1002074
-						religion=lutheran culture=german
+						dynasty_house=salm_reiff
+						religion=catholic culture=german
 						father=100004070	# Siegmund von Salm-Reifferscheidt
 						mother=100009442	# Eleonora von Waldburg zu Zeil-Wurzach
 						1768.08.29={birth=yes}
@@ -3556,8 +3556,8 @@
 					}
 					100004072={ #// 6e) FRANZ Wilhelm Joseph Anton (27 Apr 1772-14 May 1831), cr 1804 Fst zu Salm-Reifferscheidt-Krautheim; m.1st 15 Nov 1796 Pss Franziska Luise zu Hohenlohe-Bartenstein (7 Dec 1770-17 Jan 1812); m.2nd 2 May 1818 Pss Marianne Galitzine (7 Dec 1769-16 Dec 1823) $$
 						name="Franz Wilhelm"
-						dynasty=1002074
-						religion=lutheran culture=german
+						dynasty_house=salm_reiff
+						religion=catholic culture=german
 						father=100004070	# Siegmund von Salm-Reifferscheidt
 						mother=100009442	# Eleonora von Waldburg zu Zeil-Wurzach
 						1772.04.27={birth=yes}
@@ -3567,8 +3567,8 @@
 					}
 						100004073={ #// 2f) KONSTANTIN Dominik Franz Fst u.Altgf zu Salm-Reifferscheidt-Krautheim u.Dyck (4 Aug 1798-10 Feb 1856); m.27 May 1826 Pss Charlotte zu Hohenlohe-Bartenstein-Jagstberg (2 Sep 1808-9 Nov 1873) $$
 							name=Konstantin
-							dynasty=1002074
-							religion=lutheran culture=german
+							dynasty_house=salm_reiff
+							religion=catholic culture=german
 							father=100004072	# Franz Wilhelm von Salm-Reifferscheidt
 							mother=100002036	# Franziska Romana zu Hohenlohe-Bartenstein
 							1798.08.04={birth=yes}
@@ -3577,8 +3577,8 @@
 						}
 							100004074={ #// 1g) FRANZ Karl Fst u.Altgf zu Salm-Reifferscheidt-Krautheim u.Dyck (15 Mar 1827-24 Mar 1860)
 								name=Franz
-								dynasty=1002074
-								religion=lutheran culture=german
+								dynasty_house=salm_reiff
+								religion=catholic culture=german
 								father=100004073	# Konstantin von Salm-Reifferscheidt
 								mother=100002031	# Charlotte zu Hohenlohe-Bartenstein
 								1827.03.15={birth=yes}
@@ -3586,8 +3586,8 @@
 							}
 							100004076={ #// 6g) LEOPOLD Karl Alois Longin Maria Fst u.Altgf zu Salm-Reifferscheidt-Krautheim u.Dyck (Gerlachsheim 14 Mar 1833-Vienna 16 May 1893); m.1st Graz 21 Aug 1862 Anna Gfn von Thurn u.Valsassina-Como-Vercelli, Frn zum Kreuz (Innsbruck 19 Sep 1837-Graz 12 Sep 1864); m.2nd Vienna 5 May 1866 Christine Gfn von Spiegel zum Diesenberg-Hanxleden (Wischenau 18 May 1846-San Remo 6 Feb 1935) $$
 								name=Leopold
-								dynasty=1002074
-								religion=lutheran culture=german
+								dynasty_house=salm_reiff
+								religion=catholic culture=german
 								father=100004073	# Konstantin von Salm-Reifferscheidt
 								mother=100002031	# Charlotte zu Hohenlohe-Bartenstein
 								1833.03.14={birth=yes}  # Gerlachsheim
@@ -3597,8 +3597,8 @@
 							}
 								100004077={ #// 1h) ALFRED Georg Konstantin Leopold Prosper Joseph Maria Fst u.Altgf zu Salm-Reifferscheidt-Krautheim u.Dyck (Neu-Cilli 23 Jun 1863-Königshoven, Rheinland 6 Jul 1924); m.Vienna 28 Apr 1898 Marie-Dorothea Gfn von Bellegarde (Groß-Herrlitz 27 Jun 1873-Überlingen am Bodensee 1 Feb 1945) $$
 									name=Alfred
-									dynasty=1002074
-									religion=lutheran culture=german
+									dynasty_house=salm_reiff
+									religion=catholic culture=german
 									father=100004076	# Leopold von Salm-Reifferscheidt
 									mother=100024557	# Anna von Thurn u.Valsassina-Como-Vercelli
 									1863.06.23={birth=yes}  # Neu-Cilli
@@ -3607,8 +3607,8 @@
 								}
 									100004078={ #// 1i) FRANZ JOSEF Alfred Leopold Hermann Maria Fst u.Altgf zu Salm-Reifferscheidt-Krautheim u.Dyck (Vienna 7 Apr 1899-Bonn 13 Jun 1958); m.Anholt 27 May 1930 Cäcilie Pss zu Salm-Salm (Potsdam 8 Mar 1911-Dyck 11 Mar 1991) $$
 										name="Franz Josef"
-										dynasty=1002074
-										religion=lutheran culture=german
+										dynasty_house=salm_reiff
+										religion=catholic culture=german
 										father=100004077	# Alfred von Salm-Reifferscheidt
 										mother=100035935	# Marie-Dorothea von Bellegarde
 										1899.04.07={birth=yes}  # Vienna
@@ -3618,8 +3618,8 @@
 										100004079={ #// 1j) Marie Christine Erwine Isabelle Innocentia Thaddäa (Alfter bei Bonn 4 Jan 1932-Göttingen 10 Dec 2010); m.Alfter (civ) 18 Jul 1955 (rel) 27 Jul 1955 Peter Gf Wolff Metternich zur Gracht (Göttingen 5 Mar 1929-26 May 2013) $$
 											name=Marie
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
+											dynasty_house=salm_reiff
+											religion=catholic culture=german
 											father=100004078	# Franz Josef von Salm-Reifferscheidt
 											mother=100003930	# Cäcilie von Salm-Salm
 											1932.01.04={birth=yes}  # Alfter bei Bonn
@@ -3628,8 +3628,8 @@
 										100004080={ #// 2j) Marie Anne Friederike Christine Leopoldine Emmanuela Helena (b.Alfter 18 Aug 1933); m.1st London 27 Jul 1964 Hon. Alexander Campbell Geddes (Dublin 24 Sep 1910-London 22 Sep 1971); m.2nd Berlin 25 Nov 1978 (rel) Dyck 27 Nov 1978 Otto von Simson (Berlin-Dahlem 17 Jun 1912-Berlin-Dahlem 23 May 1993)
 											name=Marie
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
+											dynasty_house=salm_reiff
+											religion=catholic culture=german
 											father=100004078	# Franz Josef von Salm-Reifferscheidt
 											mother=100003930	# Cäcilie von Salm-Salm
 											1933.08.18={birth=yes}
@@ -3638,8 +3638,8 @@
 										100004081={ #// 3j) Rosemary Ferdinande Dorothea Mathea Michaela Josepha Thaddäa (Alfter 24 Feb 1937-Rosenheim 29 Jul 2004); m.Alfter 11 Sep 1959 Johannes Gf Huyn (Warsaw 3 Jul 1930-22 Jan 2011)
 											name=Rosemary
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
+											dynasty_house=salm_reiff
+											religion=catholic culture=german
 											father=100004078	# Franz Josef von Salm-Reifferscheidt
 											mother=100003930	# Cäcilie von Salm-Salm
 											1937.02.24={birth=yes}  # Alfter
@@ -3648,8 +3648,8 @@
 										100004082={ #// 4j) Isabella Marie Franziska Gabrielle Pia (b.Alfter 19 Feb 1939); m.Dyck 2 Oct 1962 Franz Albrecht Metternich-Sándor Duke von Ratibor, Fst von Corvey, Pr zu Hohenlohe-Schillingsfürst-Breunner-Enkevoirth (b.Rauden 23 Oct 1920) $$
 											name=Isabella
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
+											dynasty_house=salm_reiff
+											religion=catholic culture=german
 											father=100004078	# Franz Josef von Salm-Reifferscheidt
 											mother=100003930	# Cäcilie von Salm-Salm
 											1939.02.19={birth=yes}
@@ -3657,8 +3657,8 @@
 										100004083={ #// 5j) Gabrielle Louisanne Huberta Theodora Maria Immaculata (Bonn 9 Nov 1941-Vienna 27 Apr 1985); m.Dyck 12 Oct 1961 Ernst Friedrich Gf von Goëß (Klagenfurt 12 Mar 1932-Moosburg 30 Jul 1999) $$
 											name=Gabrielle
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
+											dynasty_house=salm_reiff
+											religion=catholic culture=german
 											father=100004078	# Franz Josef von Salm-Reifferscheidt
 											mother=100003930	# Cäcilie von Salm-Salm
 											1941.11.09={birth=yes}  # Bonn
@@ -3667,8 +3667,8 @@
 										100004084={ #// 6j) Cecilie Christine Caroline Maria Immaculata Michaela Thaddäa (b.Bonn 14 Dec 1943)
 											name=Cecilie
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
+											dynasty_house=salm_reiff
+											religion=catholic culture=german
 											father=100004078	# Franz Josef von Salm-Reifferscheidt
 											mother=100003930	# Cäcilie von Salm-Salm
 											1943.12.14={birth=yes}
@@ -3676,8 +3676,8 @@
 									100004085={ #// 3i) Christiane Philippine Marie Josepha (Dyck 29 Apr 1901-Salzburg 21 Mar 1984); m.Alfter 12 Jul 1933 Franz Gf von Hartig (Niemes 1 Aug 1896-Salzburg 22 May 1971) $$
 										name=Christiane
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
+										dynasty_house=salm_reiff
+										religion=catholic culture=german
 										father=100004077	# Alfred von Salm-Reifferscheidt
 										mother=100035935	# Marie-Dorothea von Bellegarde
 										1901.04.29={birth=yes}  # Dyck
@@ -3685,8 +3685,8 @@
 									}
 								100004088={ #// 2h) Georg Leopold Johann Baptist Joseph Maria (Villa Thurn bei Graz 2 Jul 1864-Slovenska Bistriza, Yugoslavia 2 Feb 1931); m.Brunnsee 28 Sep 1889 Donna Bianca Lucchesi Palli dei Principi di Campofranco (Brunnsee 13 Mar 1865-Graz 6 Oct 1943) $$
 									name=Georg
-									dynasty=1002074
-									religion=lutheran culture=german
+									dynasty_house=salm_reiff
+									religion=catholic culture=german
 									father=100004076	# Leopold von Salm-Reifferscheidt
 									mother=100024557	# Anna von Thurn u.Valsassina-Como-Vercelli
 									1864.07.02={birth=yes}  # Villa Thurn bei Graz
@@ -3696,8 +3696,8 @@
 									100004090={ #// 2i) Rosa Josepha Maria Ignatia Anna Johanna (Neu-Cilli 4 Jul 1895-9 Oct 1964); m.Brunnsee 30 Oct 1920 Otto Frhr Wucherer v.Huldenfeld (Gleinstätten 22 Nov 1888-Stuttgart 25 Jul 1964)
 										name=Rosa
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
+										dynasty_house=salm_reiff
+										religion=catholic culture=german
 										father=100004088	# Georg von Salm-Reifferscheidt
 										mother=100071461	# Bianca Lucchesi Palli
 										1895.07.04={birth=yes}  # Neu-Cilli
@@ -3706,8 +3706,8 @@
 									100004091={ #// 3i) Eleonore Maria Josepha Anna (Graz 21 Jan 1901-Graz 8 Jun 1976); m.Kornberg 27 May 1992 Karl Gf von Bardeau (Kornberg 18 Jul 1878-Graz 29 Dec 1941)
 										name=Eleonore
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
+										dynasty_house=salm_reiff
+										religion=catholic culture=german
 										father=100004088	# Georg von Salm-Reifferscheidt
 										mother=100071461	# Bianca Lucchesi Palli
 										1901.01.21={birth=yes}  # Graz
@@ -3716,8 +3716,8 @@
 								100004092={ #// 3h) Marie Charlotte (Herrschberg 17 Apr 1867-Waal 4 Apr 1944); m.Dyck 22 May 1890 Erwein Fst von der Leyen u.zu Hohengeroldseck (München 31 Mar 1863-Schloß Waal 18 Sep 1938) $$
 									name="Marie Charlotte"
 									female=yes
-									dynasty=1002074
-									religion=lutheran culture=german
+									dynasty_house=salm_reiff
+									religion=catholic culture=german
 									father=100004076	# Leopold von Salm-Reifferscheidt
 									mother=100095719	# GFN Christine-Hanxleden von Spiegel
 									1867.04.17={birth=yes}  # Herrschberg
@@ -3726,8 +3726,8 @@
 								100004093={ #// 4h) Rosa (Herrschberg am Bodensee 12 Apr 1868-München 1 Dec 1942); m.Dyck 19 Aug 1893 Moritz Fst zu Hohenlohe-Schillingsfürst (Lindau 6 Aug 1862-Schillingsfürst 27 Feb 1940) $$
 									name=Rosa
 									female=yes
-									dynasty=1002074
-									religion=lutheran culture=german
+									dynasty_house=salm_reiff
+									religion=catholic culture=german
 									father=100004076	# Leopold von Salm-Reifferscheidt
 									mother=100095719	# GFN Christine-Hanxleden von Spiegel
 									1868.04.12={birth=yes}  # Herrschberg am Bodensee
@@ -3736,8 +3736,8 @@
 							100004094={ #// 8g) Eleonore (16 Sep 1836-27 Apr 1922); m.23 Nov 1879 Stanislaus Frhr Bourguignon von Bamberg (d.22 Feb 1884)
 								name=Eleonore
 								female=yes
-								dynasty=1002074
-								religion=lutheran culture=german
+								dynasty_house=salm_reiff
+								religion=catholic culture=german
 								father=100004073	# Konstantin von Salm-Reifferscheidt
 								mother=100002031	# Charlotte zu Hohenlohe-Bartenstein
 								1836.09.16={birth=yes}
@@ -3746,8 +3746,8 @@
 						100004096={ #// 3f) Eleonore Maria Walburga (13 Jul 1799-10 Nov 1851); m.19 Nov 1831 Ldgve Viktor Amadeus von Hessen-Rotenburg (d.1834) $$
 							name=Eleonore
 							female=yes
-							dynasty=1002074
-							religion=lutheran culture=german
+							dynasty_house=salm_reiff
+							religion=catholic culture=german
 							father=100004072	# Franz Wilhelm von Salm-Reifferscheidt
 							mother=100002036	# Franziska Romana zu Hohenlohe-Bartenstein
 							1799.07.13={birth=yes}
@@ -3755,8 +3755,8 @@
 						}
 						100004098={ #// 6f) Karl Joseph (12 Sep 1803-7 Mar 1864); m.7 Apr 1845 Marie Josephine Thekla Strobel (27 Jul 1818-22 Aug 1878); their issue were Freiherren von Roesdorf
 							name="Karl Joseph"
-							dynasty=1002074
-							religion=lutheran culture=german
+							dynasty_house=salm_reiff
+							religion=catholic culture=german
 							father=100004072	# Franz Wilhelm von Salm-Reifferscheidt
 							mother=100002036	# Franziska Romana zu Hohenlohe-Bartenstein
 							1803.09.12={birth=yes}
@@ -3766,8 +3766,8 @@
 						100004099={ #// 7f) Leopoldine Josephine Christiane Polyxena Maria (23 Jun 1805-4 Jul 1878); m.1830 Fst Hugo zu Salm-Reifferscheidt-Raitz (d.1888) $$
 							name="Leopoldine Polyxena"
 							female=yes
-							dynasty=1002074
-							religion=lutheran culture=german
+							dynasty_house=salm_reiff
+							religion=catholic culture=german
 							father=100004072	# Franz Wilhelm von Salm-Reifferscheidt
 							mother=100002036	# Franziska Romana zu Hohenlohe-Bartenstein
 							1805.06.23={birth=yes}
@@ -3775,8 +3775,8 @@
 						}
 					100004101={ #// 9e) Klemens Wenzel Siegmund (15 Feb 1776-10 Dec 1830); m.2 Dec 1802 Pauline Bon (6 Apr 1779-1840)
 						name=Klemens
-						dynasty=1002074
-						religion=lutheran culture=german
+						dynasty_house=salm_reiff
+						religion=catholic culture=german
 						father=100004070	# Siegmund von Salm-Reifferscheidt
 						mother=100009442	# Eleonora von Waldburg zu Zeil-Wurzach
 						1776.02.15={birth=yes}
@@ -3784,8 +3784,8 @@
 					}
 				100004102={ #// 10d) Johannes Nepomucenus Joseph Christian (14 May 1737-12 Jul 1775)
 					name=Johannes
-					dynasty=1002074
-					religion=lutheran culture=german
+					dynasty_house=salm_reiff
+					religion=catholic culture=german
 					father=100004068	# Karl Anton von Salm-Reifferscheidt
 					mother=100117464	# Mária Franziska Esterházy de Galántha
 					1737.05.14={birth=yes}
@@ -3796,8 +3796,8 @@
 						# m.2nd 6 Feb 1739 Maria Anna Gfn von Auersperg (7 Feb 1719-11 Apr 1743); 
 						# m.3rd 2 Feb 1744 Maria Karolina von Dietrichstein (17 Mar 1722-23 Jul 1790)
 				name=Leopold
-				dynasty=1002074
-				religion=lutheran culture=german
+				dynasty_house=salm_reiff
+				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
 				mother=100095284	# GFN Marie Agnes Slavata z Chlumu Košumberka
 				1699.07.23={birth=yes}
@@ -3808,8 +3808,8 @@
 			}
 				100004104={ #// 2d) Johann Franz Wenzel (6 Mar 1747-28 Jun 1802); m.7 May 1770 Walburga Gfn von Sternberg (1 Jun 1754-8 Dec 1821) $$
 					name="Johann Franz"
-					dynasty=1002074
-					religion=lutheran culture=german
+					dynasty_house=salm_reiff
+					religion=catholic culture=german
 					father=100004103	# Leopold von Salm-Reifferscheidt
 					mother=100024633	# Maria Karolina von Dietrichstein
 					1747.03.06={birth=yes}
@@ -3818,8 +3818,8 @@
 				}
 					100004105={ #// 1e) Franz Vincenz (18 Sep 1774-11 Jul 1842); m.16 Mar 1801 Johanna Maria Gfn Pachta (18 Mar 1777-13 Sep 1857)
 						name="Franz Vincenz"
-						dynasty=1002074
-						religion=lutheran culture=german
+						dynasty_house=salm_reiff
+						religion=catholic culture=german
 						father=100004104	# Johann Franz von Salm-Reifferscheidt
 						mother=100047479	# Valpurga ze Šternberka
 						1774.09.18={birth=yes}
@@ -3828,8 +3828,8 @@
 					}
 					100004106={ #// 2e) Johann (7 Apr 1780-3 Apr 1847); m.17 May 1817 Rosina Gfn von Nostitz-Rokitnitz (30 Jul 1795-11 Jan 1847) $$
 						name=Johann
-						dynasty=1002074
-						religion=lutheran culture=german
+						dynasty_house=salm_reiff
+						religion=catholic culture=german
 						father=100004104	# Johann Franz von Salm-Reifferscheidt
 						mother=100047479	# Valpurga ze Šternberka
 						1780.04.07={birth=yes}
@@ -3838,8 +3838,8 @@
 					}
 						100004108={ #// 2f) Aloys (4 Dec 1820-6 Nov 1889)
 							name=Aloys
-							dynasty=1002074
-							religion=lutheran culture=german
+							dynasty_house=salm_reiff
+							religion=catholic culture=german
 							father=100004106	# Johann von Salm-Reifferscheidt
 							mother=nostitz_0017	# Maria Rosina von Nostitz-Rokitnitz
 							1820.12.04={birth=yes}
@@ -3848,8 +3848,8 @@
 						100004110={ #// 4f) Johanna (16 May 1827-8 May 1892); m.18 Sep 1846 Oswald Gf von Thun und Hohenstein (d.6 Jan 1883) $$
 							name=Johanna
 							female=yes
-							dynasty=1002074
-							religion=lutheran culture=german
+							dynasty_house=salm_reiff
+							religion=catholic culture=german
 							father=100004106	# Johann von Salm-Reifferscheidt
 							mother=nostitz_0017	# Maria Rosina von Nostitz-Rokitnitz
 							1827.05.16={birth=yes}
@@ -3858,8 +3858,8 @@
 					100004111={ #// 4e) Maria Anna Walburgis (9 Oct 1782-22 Oct 1847); m.19 Apr 1805 Adolf Christoph Frhr von Reitzenstein (d.3 Jul 1832)
 						name=Maria
 						female=yes
-						dynasty=1002074
-						religion=lutheran culture=german
+						dynasty_house=salm_reiff
+						religion=catholic culture=german
 						father=100004104	# Johann Franz von Salm-Reifferscheidt
 						mother=100047479	# Valpurga ze Šternberka
 						1782.10.09={birth=yes}
@@ -3868,8 +3868,8 @@
 				100004112={ #// 3d) Agnes Maria Apollonia (12 May 1750-20 Mar 1798); m.31 Jul 1775 Baron Wenzel Henniger von Seeberg (d.6 Jan 1801)
 					name=Agnes
 					female=yes
-					dynasty=1002074
-					religion=lutheran culture=german
+					dynasty_house=salm_reiff
+					religion=catholic culture=german
 					father=100004103	# Leopold von Salm-Reifferscheidt
 					mother=100024633	# Maria Karolina von Dietrichstein
 					1750.05.12={birth=yes}
@@ -3878,8 +3878,8 @@
 				100004113={ #// 4d) Maria Christina (3 May 1751-22 Jun 1820); m.4 Sep 1769 Michael Gf von Kaunitz (d.27 Mar 1820) $$
 					name="Maria Christina"
 					female=yes
-					dynasty=1002074
-					religion=lutheran culture=german
+					dynasty_house=salm_reiff
+					religion=catholic culture=german
 					father=100004103	# Leopold von Salm-Reifferscheidt
 					mother=100024633	# Maria Karolina von Dietrichstein
 					1751.05.03={birth=yes}
@@ -3887,8 +3887,8 @@
 				}
 			100004114={ #// 8c) Anton Joseph Franz, Altgraf zu Salm-Reifferscheidt-Raitz (6 Feb 1720-5 Apr 1769); m.1 Sep 1743 Maria Anna Gfn von Rogendorf (25 May 1718-4 Sep 1807)
 				name=Anton
-				dynasty=1002074
-				religion=lutheran culture=german
+				dynasty_house=salm_reiff_raitz
+				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
 				mother=100022745	# Maria Anna von Liechtenstein
 				1720.02.06={birth=yes}
@@ -3897,9 +3897,9 @@
 			}
 				100004115={ #// 5d) KARL Borromäus, cr 1790 Fürst zu Salm-Reifferscheidt-Raitz (3 Apr 1750-16 Jun 1838); m.1st 8 Jun 1775 Pss Marie Franziska von Auersperg (11 Dec 1752-13 Sep 1791); m.2nd 1 May 1792 Antonie Gfn Paar (5 Dec 1768-25 Oct 1838) $$
 					name=Karl
-					dynasty=1002074
-					religion=lutheran culture=german
-					father=100004114	# Anton von Salm-Reifferscheidt
+					dynasty_house=salm_reiff_raitz
+					religion=catholic culture=german
+					father=100004114	# Anton von Salm-Reifferscheidt-Raitz
 					mother=100095680	# GFN Maria Anna von Rogendorf
 					1750.04.03={birth=yes}
 					1775.06.08={add_spouse=100021791}	# Maria Franziska von Auersperg
@@ -3908,9 +3908,9 @@
 				}
 					100004116={ #// 1e) Franz Joseph (1 Apr 1776-31 Mar 1836); m.1 Sep 1802 Maria Josepha Gfn MacCaffry (21 Mar 1775-24 Apr 1836)
 						name="Franz Joseph"
-						dynasty=1002074
-						religion=lutheran culture=german
-						father=100004115	# Karl von Salm-Reifferscheidt
+						dynasty_house=salm_reiff_raitz
+						religion=catholic culture=german
+						father=100004115	# Karl von Salm-Reifferscheidt-Raitz
 						mother=100021791	# Maria Franziska von Auersperg
 						1776.04.01={birth=yes}
 						1802.09.01={add_spouse=100095056}	# GFN Maria Josepha MacCaffry
@@ -3918,9 +3918,9 @@
 					}
 						100004117={ #// 1f) HUGO Karl Eduard Fst u.Altgf zu Salm-Reifferscheidt-Raitz (Brünn 15 Sep 1803-Vienna 18 Apr 1888); m.Gerlachsheim 6 Sep 1830 Leopoldine Polyxene Christiane Altgfn zu Salm-Reifferscheidt-Krautheim (Gerlachsheim 24 Jun 1805-Brühl bei Vienna 4 Jul 1878) $$
 							name=Hugo
-							dynasty=1002074
-							religion=lutheran culture=german
-							father=100004116	# Franz Joseph von Salm-Reifferscheidt
+							dynasty_house=salm_reiff_raitz
+							religion=catholic culture=german
+							father=100004116	# Franz Joseph von Salm-Reifferscheidt-Raitz
 							mother=100095056	# GFN Maria Josepha MacCaffry
 							1803.09.15={birth=yes}  # Brünn
 							1830.09.06={add_spouse=100004099}	# Leopoldine Polyxena von Salm-Reifferscheidt
@@ -3928,9 +3928,9 @@
 						}
 							100004118={ #// 2g) HUGO Karl Franz de Paula Theodor Fst u.Altgf zu Salm-Reifferscheidt-Raitz (Prague 9 Nov 1832-Vienna 12 May 1890); m.Vienna 12 Jun 1858 Elisabeth Pss von und zu Liechtenstein (Vienna 13 Nov 1832-Vienna 14 Mar 1892) $$
 								name=Hugo
-								dynasty=1002074
-								religion=lutheran culture=czech
-								father=100004117	# Hugo von Salm-Reifferscheidt
+								dynasty_house=salm_reiff_raitz
+								religion=catholic culture=czech
+								father=100004117	# Hugo von Salm-Reifferscheidt-Raitz
 								mother=100004099	# Leopoldine Polyxena von Salm-Reifferscheidt
 								1832.11.09={birth=yes}  # Prague
 								1858.06.12={add_spouse=100023078}	# Elisabeth von Liechtenstein
@@ -3939,18 +3939,18 @@
 								100004119={ #// 1h) Maria (Vienna 5 Jun 1859-Opeka 29 Jun 1897); m.1st Vienna 8 Sep 1878 (div 1880) Karl Gf von Brzezie-Lanckoronski (Vienna 4 Nov 1848-Vienna 15 Jul 1933); m.2nd Vienna 30 Aug 1882 Markus Heinrich Gf Bombelles (Opeka 18 Oct 1858-Opeka 8 Sep 1912)
 									name=Maria
 									female=yes
-									dynasty=1002074
-									religion=lutheran culture=german
-									father=100004118	# Hugo von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004118	# Hugo von Salm-Reifferscheidt-Raitz
 									mother=100023078	# Elisabeth von Liechtenstein
 									1859.06.05={birth=yes}  # Vienna
 									1897.06.29={death=yes}  # Opeka
 								}
 								100004120={ #// 2h) HUGO Leopold Franz Karl Hippolyt Fst u.Altgf zu Salm-Reifferscheidt-Raitz (Vienna 2 Dec 1863-Raitz 31 Dec 1903); m.Vienna 31 Aug 1891 Eleonore Gfn von Sternberg (Pohorelic 8 Jan 1873-Vienna 3 Oct 1960) $$
 									name=Hugo
-									dynasty=1002074
-									religion=lutheran culture=german
-									father=100004118	# Hugo von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004118	# Hugo von Salm-Reifferscheidt-Raitz
 									mother=100023078	# Elisabeth von Liechtenstein
 									1863.12.02={birth=yes}  # Vienna
 									1891.08.31={add_spouse=100047499}	# Eleonora ze Šternberka
@@ -3959,18 +3959,18 @@
 									100004121={ #// 1i) Elisabeth Luise Franziska Henriette Leopoldine Marie (Blansko 10 Aug 1892-Vienna 18 Nov 1964); m.Vienna 14 Oct 1920 Paul Gf Draskovich v.Trakostjan (Vienna 23 Mar 1884-Güssing 22 Oct 1959) $$
 										name=Elisabeth
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004120	# Hugo von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004120	# Hugo von Salm-Reifferscheidt-Raitz
 										mother=100047499	# Eleonora ze Šternberka
 										1892.08.10={birth=yes}  # Blansko
 										1964.11.18={death=yes}  # Vienna
 									}
 									100004122={ #// 2i) HUGO Nikolaus Leopold Siegfried Karl Joseph Maria Fst u.Altgf zu Salm-Reifferscheidt-Raitz (Blansko 14 Oct 1893-Raitz 2 Mar 1946); m.Schloß Boskowitz, Moravia 23 Nov 1920 Leopoldine Gfn von Mensdorff-Pouilly (Boskowitz 6 Sep 1895-Vienna 30 Mar 1980) $$
 										name=Hugo
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004120	# Hugo von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004120	# Hugo von Salm-Reifferscheidt-Raitz
 										mother=100047499	# Eleonora ze Šternberka
 										1893.10.14={birth=yes}  # Blansko
 										1920.11.23={add_spouse=100010181}	# Leopoldine von Mensdorff-Pouilly
@@ -3979,9 +3979,9 @@
 										100004123={ #// 1j) Ida Leopoldine Eleonore Elisabeth Maria (b.Raitz 17 Oct 1921); m.Raitz 12 Sep 1944 (div 1968) Philipp Rr von Schoeller (b.Vienna 23 Aug 1921)
 											name=Ida
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004122	# Hugo von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004122	# Hugo von Salm-Reifferscheidt-Raitz
 											mother=100010181	# Leopoldine von Mensdorff-Pouilly
 											1921.10.17={birth=yes}
 											1997.01.01={death=yes}  # EST.
@@ -3989,9 +3989,9 @@
 										100004124={ #// 2j) Elisabeth Leopoldine Eleonore Antonie Sophie Marie (Raitz 25 Jan 1925-Vienna 19 Dec 1992); m.Mattsee bei Salzburg 1 Aug 1949 Heinrich Gf von Hartig (Melk 20 Jan 1921-Vienna 15 Mar 2000) $$
 											name="Elisabeth Leopoldine"
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004122	# Hugo von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004122	# Hugo von Salm-Reifferscheidt-Raitz
 											mother=100010181	# Leopoldine von Mensdorff-Pouilly
 											1925.01.25={birth=yes}  # Raitz
 											1992.12.19={death=yes}  # Vienna
@@ -3999,18 +3999,18 @@
 										100004125={ #// 3j) Maria Elisabeth Leopoldine Hippolyta (b.Raitz 17 Aug 1931); m.Brünn 14 Apr 1956 (div 1971) Georg Cubuk (Brünn 1 Sep 1928-Düsseldorf 9 Dec 1984)
 											name=Maria
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004122	# Hugo von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004122	# Hugo von Salm-Reifferscheidt-Raitz
 											mother=100010181	# Leopoldine von Mensdorff-Pouilly
 											1931.08.17={birth=yes}
 											2008.01.01={death=yes}  # EST.
 										}
 										100004126={ #// 4j) HUGO Maria Augusto Leopold Christophorus Maxencius Fst u.Altgf zu Salm-Reifferscheidt-Raitz (Brünn 12 Dec 1933-Vienna 4 Oct 1974); m.Gmunden 26 Sep 1970 Silvia Gabrielle Scheid (b.Vienna 25 May 1944)
 											name=Hugo
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004122	# Hugo von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004122	# Hugo von Salm-Reifferscheidt-Raitz
 											mother=100010181	# Leopoldine von Mensdorff-Pouilly
 											1933.12.12={birth=yes}  # Brünn
 											1970.09.26={add_spouse=100095245}	# Silvia Gabrielle Scheid
@@ -4018,17 +4018,17 @@
 										}
 											100004127={ #// 1k) HUGO Christian Karl Maria Markus Fst u.Altgf zu Salm-Reifferscheidt-Raitz (b.Vienna 18 Jun 1973)
 												name=Hugo
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004126	# Hugo von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004126	# Hugo von Salm-Reifferscheidt-Raitz
 												mother=100095245	# Silvia Gabrielle Scheid
 												1973.06.18={birth=yes}
 											}
 									100004128={ #// 3i) Leopold (18 Mar 1897-16 Feb 1941)
 										name=Leopold
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004120	# Hugo von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004120	# Hugo von Salm-Reifferscheidt-Raitz
 										mother=100047499	# Eleonora ze Šternberka
 										1897.03.18={birth=yes}
 										1941.02.16={death=yes}
@@ -4036,18 +4036,18 @@
 								100004129={ #// 3h) Elisabeth (Vienna 10 Dec 1867-Blansko 19 Jan 1888); m.Vienna 17 Jun 1885 Wladimir Gf Mittrowsky von Mittrowitz (Sokolnitz 24 Jul 1864-Baden nr Vienna 21 Jan 1930)
 									name=Elisabeth
 									female=yes
-									dynasty=1002074
-									religion=lutheran culture=german
-									father=100004118	# Hugo von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004118	# Hugo von Salm-Reifferscheidt-Raitz
 									mother=100023078	# Elisabeth von Liechtenstein
 									1867.12.10={birth=yes}  # Vienna
 									1888.01.19={death=yes}  # Blansko
 								}
 								100004130={ #// 4h) Karl Borromäus Hugo Rudolf Franz Xaver Ernst Hilarius (Hietzing bei Vienna 12 Jan 1871-Vienna 29 Jun 1927); m.Lána 6 May 1905 Elisabeth Pss zu Fürstenberg (Lána 13 May 1878-Rome 10 Mar 1939) $$
 									name=Karl
-									dynasty=1002074
-									religion=lutheran culture=german
-									father=100004118	# Hugo von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004118	# Hugo von Salm-Reifferscheidt-Raitz
 									mother=100023078	# Elisabeth von Liechtenstein
 									1871.01.12={birth=yes}  # Hietzing bei Vienna
 									1905.05.06={add_spouse=100001088}	# Elisabeth von Fürstenberg
@@ -4055,9 +4055,9 @@
 								}
 									100004131={ #// 1i) Christian Emil Karl (Vienna 2 Apr 1906-25 Apr 1973)
 										name=Christian
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004130	# Karl von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004130	# Karl von Salm-Reifferscheidt-Raitz
 										mother=100001088	# Elisabeth von Fürstenberg
 										1906.04.02={birth=yes}  # Vienna
 										1973.04.25={death=yes}
@@ -4065,9 +4065,9 @@
 									100004132={ #// 2i) Marie Elisabeth (Donaueschingen 1 Mar 1908-Gmunden 10 Apr 1984); m.Vienna 4 Sep 1928 (div 1937) Ernst Rüdiger Fst von Starhemberg (Eferding 10 May 1899-Schruns, Vorarlberg 15 Mar 1956) $$
 										name="Marie Elisabeth"
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004130	# Karl von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004130	# Karl von Salm-Reifferscheidt-Raitz
 										mother=100001088	# Elisabeth von Fürstenberg
 										1908.03.01={birth=yes}  # Donaueschingen
 										1984.04.10={death=yes}  # Gmunden
@@ -4075,9 +4075,9 @@
 								100004133={ #// 5h) Eleonore Auguste Elisabeth Maria Theresia Geraldina (Vienna 13 Oct 1873-Herberstein 23 Sep 1966); m.Vienna 11 Apr 1894 Albert Gf zu Herberstein (Vienna 12 Nov 1864-Herberstein 20 Mar 1945) $$
 									name=Eleonore
 									female=yes
-									dynasty=1002074
-									religion=lutheran culture=german
-									father=100004118	# Hugo von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004118	# Hugo von Salm-Reifferscheidt-Raitz
 									mother=100023078	# Elisabeth von Liechtenstein
 									1873.10.13={birth=yes}  # Vienna
 									1966.09.23={death=yes}  # Herberstein
@@ -4085,18 +4085,18 @@
 							100004134={ #// 3g) Augusta Aloysia Marie Eleonore Rosine Leopoldine Berthilde (5 Nov 1833-11 Jun 1891); m.5 Aug 1851 Heinrich Gf v.u.zu Clam-Martinic (d.5 Jun 1887) $$
 								name=Augusta
 								female=yes
-								dynasty=1002074
-								religion=lutheran culture=german
-								father=100004117	# Hugo von Salm-Reifferscheidt
+								dynasty_house=salm_reiff_raitz
+								religion=catholic culture=german
+								father=100004117	# Hugo von Salm-Reifferscheidt-Raitz
 								mother=100004099	# Leopoldine Polyxena von Salm-Reifferscheidt
 								1833.11.05={birth=yes}
 								1891.06.11={death=yes}
 							}
 							100004135={ #// 4g) Siegfried Constantin Bardo (Prague 10 Jun 1835-Salzburg 14 Aug 1898); m.Vienna 10 May 1864 Marie Rudolfine Gfn Czernin v.u.zu Chudenitz (Vienna 6 Mar 1845-Salzburg 17 Apr 1922) $$
 								name=Siegfried
-								dynasty=1002074
-								religion=lutheran culture=czech
-								father=100004117	# Hugo von Salm-Reifferscheidt
+								dynasty_house=salm_reiff_raitz
+								religion=catholic culture=czech
+								father=100004117	# Hugo von Salm-Reifferscheidt-Raitz
 								mother=100004099	# Leopoldine Polyxena von Salm-Reifferscheidt
 								1835.06.10={birth=yes}  # Prague
 								1864.05.10={add_spouse=100186229}	# Marie Czernin v.u.zu Chudenitz
@@ -4104,9 +4104,9 @@
 							}
 								100004136={ #// 2h) Rudolf Hugo Leopold Maria Karl Theodor (Raitz 9 Nov 1866-Aigen bei Salzburg 2 Mar 1919); m.Vienna 30 Jun 1898 Marie Gfn Wallis, Frn auf Karighmain (Niederleis 25 May 1869-Mährisch-Budwitz 23 Apr 1936)
 									name=Rudolf
-									dynasty=1002074
-									religion=lutheran culture=german
-									father=100004135	# Siegfried von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004135	# Siegfried von Salm-Reifferscheidt-Raitz
 									mother=100186229	# Marie Czernin v.u.zu Chudenitz
 									1866.11.09={birth=yes}  # Raitz
 									1898.06.30={add_spouse=100095805}	# GFN Marie Wallis von Carrighmain
@@ -4115,18 +4115,18 @@
 									100004000={ #// 1i) Anna Maria Rudolfine Karoline Maximiliane (Mährisch-Budwitz 19 Jan 1901-Niederleis 4 May 1975); m.Büdischkowitz 20 Apr 1921 Guido Gf Schaffgotsch gt Semperfrei von und zu Kynast u.Greiffenstein (Lienz 16 Dec 1894-Salzburg 15 Oct 1958) $$
 										name=Anna
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004136	# Rudolf von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004136	# Rudolf von Salm-Reifferscheidt-Raitz
 										mother=100095805	# GFN Marie Wallis von Carrighmain
 										1901.01.19={birth=yes}  # Mährisch-Budwitz
 										1975.05.04={death=yes}  # Niederleis
 									}
 								100004001={ #// 3h) Erich (Hohentrebetitsch 20 Jul 1868-7 Apr 1945)
 									name=Erich
-									dynasty=1002074
-									religion=lutheran culture=german
-									father=100004135	# Siegfried von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004135	# Siegfried von Salm-Reifferscheidt-Raitz
 									mother=100186229	# Marie Czernin v.u.zu Chudenitz
 									1868.07.20={birth=yes}  # Hohentrebetitsch
 									1945.04.07={death=yes}
@@ -4134,18 +4134,18 @@
 								100004003={ #// 5h) Leopoldine (Hohentrebetitsch 23 Aug 1874-20 Jun 1943)
 									name=Leopoldine
 									female=yes
-									dynasty=1002074
-									religion=lutheran culture=german
-									father=100004135	# Siegfried von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004135	# Siegfried von Salm-Reifferscheidt-Raitz
 									mother=100186229	# Marie Czernin v.u.zu Chudenitz
 									1874.08.23={birth=yes}  # Hohentrebetitsch
 									1943.06.20={death=yes}
 								}
 							100004005={ #// 5g) Erich Adolf Karl Georg Leodgar (Raitz 2 Oct 1836-Raitz 29 Aug 1884); m.Irun, Spain 6 Nov 1865 Dona Maria del Pilar Alvarez de Toledo (Naples 24 Jan 1843-Vienna 5 Apr 1893)
 								name=Erich
-								dynasty=1002074
-								religion=lutheran culture=german
-								father=100004117	# Hugo von Salm-Reifferscheidt
+								dynasty_house=salm_reiff_raitz
+								religion=catholic culture=german
+								father=100004117	# Hugo von Salm-Reifferscheidt-Raitz
 								mother=100004099	# Leopoldine Polyxena von Salm-Reifferscheidt
 								1836.10.02={birth=yes}  # Raitz
 								1865.11.06={add_spouse=100080742}	# DONA Maria del Pilar Álvarez de Toledo
@@ -4153,9 +4153,9 @@
 							}
 								100004006={ #// 1h) August Hugo Leopold Ignaz Maria Pamfilio (Madrid 7 Sep 1866-Vienna 25 Mar 1942); m.Vienna 25 May 1895 Gabrielle Bss Perényi de Perény (Nagy-Szöllös 6 Oct 1868-Vienna 17 Aug 1942) $$
 									name=August
-									dynasty=1002074
-									religion=lutheran culture=castilian
-									father=100004005	# Erich von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004005	# Erich von Salm-Reifferscheidt-Raitz
 									mother=100080742	# DONA Maria del Pilar Álvarez de Toledo
 									1866.09.07={birth=yes}  # Madrid
 									1895.05.25={add_spouse=perenyi_0029}	# Gabriella Perényi de Perény
@@ -4164,9 +4164,9 @@
 									100004007={ #// 1i) Marie-Therese Ignatia Josepha Auguste Petronilla Gisella (Vienna 28 Feb 1896-Rimpach, Württemberg 17 Jan 1985); m.Vienna 28 Sep 1921 Wilhelm Gf von Waldburg zu Zeil u.Trauchburg (Schloß Zeil 19 Jan 1890-Oberalppaß, Graubünden 28 Jul 1927) $$
 										name=Marie-Therese
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004006	# August von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004006	# August von Salm-Reifferscheidt-Raitz
 										mother=perenyi_0029	# Gabriella Perényi de Perény
 										1896.02.28={birth=yes}  # Vienna
 										1985.01.17={death=yes}  # Rimpach Württemberg
@@ -4174,9 +4174,9 @@
 									100004008={ #// 2i) Marie-Eleonore Ignatia Josepha Gabrielle (Vienna 4 Jan 1898-Salzburg 18 Sep 1980)
 										name=Marie-Eleonore
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004006	# August von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004006	# August von Salm-Reifferscheidt-Raitz
 										mother=perenyi_0029	# Gabriella Perényi de Perény
 										1898.01.04={birth=yes}  # Vienna
 										1980.09.18={death=yes}  # Salzburg
@@ -4184,18 +4184,18 @@
 									100004009={ #// 3i) Gabrielle Auguste Marie Therese Ignatia Josepha (Reichenau, Lower Austria 17 Aug 1901-Vienna 8 Feb 1982)
 										name=Gabrielle
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004006	# August von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004006	# August von Salm-Reifferscheidt-Raitz
 										mother=perenyi_0029	# Gabriella Perényi de Perény
 										1901.08.17={birth=yes}  # Reichenau, Lower Austria
 										1982.02.08={death=yes}  # Vienna
 									}
 									100004010={ #// 4i) Niklas Maria Joseph Franz Erich Sigmund Ignatius Altgf zu Salm-Reifferscheidt-Ungnad-Weißenwolff (he was adopted 1944/6 by Irene Ungnad Gfn von Weißenwolff, Gfn Szápáry) (Vienna 25 Dec 1904-Linz 12 Apr 1970); m.1st Vienna 23 Jul 1940 Irene Pss von Thurn u.Taxis (Göding 3 Jun 1911-Vienna 15 May 1960); m.2nd Salzburg 1 Jul 1961 Antonie Pss von Thurn u.Taxis (Schloß Steyregg 24 Jun 1908-Alkoven 5 Jan 1962) $$
 										name=Niklas
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004006	# August von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004006	# August von Salm-Reifferscheidt-Raitz
 										mother=perenyi_0029	# Gabriella Perényi de Perény
 										1904.12.25={birth=yes}  # Vienna
 										1940.07.23={add_spouse=100006592}	# Irene von Thurn und Taxis
@@ -4205,17 +4205,17 @@
 										100004012={ #// 1j) Henriette Maria Irene Gabrielle Antonie Theresia Monika (b.Vienna 4 May 1941); m.Steyregg 7 Feb 1970 Andreas Frhr von Lederer (Malang, Java 29 Sep 1933-17 Nov 2013) $$
 											name=Henriette
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004010	# Niklas von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004010	# Niklas von Salm-Reifferscheidt-Raitz
 											mother=100006592	# Irene von Thurn und Taxis
 											1941.05.04={birth=yes}
 										}
 										100004013={ #// 2j) Niklas Hugo August Leopold Bonifatius Franz Eustachius Maria (Vienna 20 Sep 1942-2 Jan 2009); m.Schwaigern 24 Jul 1970 Nathalie Gfn von Neipperg (b.Stuttgart 20 May 1948) $$
 											name=Niklas
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004010	# Niklas von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004010	# Niklas von Salm-Reifferscheidt-Raitz
 											mother=100006592	# Irene von Thurn und Taxis
 											1942.09.20={birth=yes}  # Vienna
 											1970.07.24={add_spouse=100195654}	# Nathalie von Neipperg
@@ -4224,17 +4224,17 @@
 											100004014={ #// 1k) Irene Maria Hissa Henriette Katharina Gabrielle (b.Linz 24 Mar 1971); m.Steyregg 17 Aug 1996 (rel) 31 Aug 1996 Klaus Gollhofer-Berger (b.Salzburg 1 Jun 1971)
 												name=Irene
 												female=yes
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004013	# Niklas von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004013	# Niklas von Salm-Reifferscheidt-Raitz
 												mother=100195654	# Nathalie von Neipperg
 												1971.03.24={birth=yes}
 											}
 											100004015={ #// 2k) Niklas Maria Franz Karl Erwin Vinzenz (b.Linz 19 Jul 1972); m.Steyregg 24 Apr 2000 (rel) Benediktbeuren 15 Jul 2000 Nathalie Gfn von Ballestrem (b.München 20 Dec 1974)
 												name=Niklas
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004013	# Niklas von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004013	# Niklas von Salm-Reifferscheidt-Raitz
 												mother=100195654	# Nathalie von Neipperg
 												1972.07.19={birth=yes}
 												2000.04.24={add_spouse=100095435}	# GFN Nathalie von Ballestrem
@@ -4242,78 +4242,78 @@
 												100004016={ #// 1l) Theresa Marina Sophie Andrea Nathalie Caroline (b.Linz 1 Apr 2002)
 													name=Theresa
 													female=yes
-													dynasty=1002074
-													religion=lutheran culture=german
-													father=100004015	# Niklas von Salm-Reifferscheidt
+													dynasty_house=salm_reiff_raitz
+													religion=catholic culture=german
+													father=100004015	# Niklas von Salm-Reifferscheidt-Raitz
 													mother=100095435	# GFN Nathalie von Ballestrem
 													2002.04.01={birth=yes}
 												}
 												100004017={ #// 2l) Christoph Niklas Wolfgang Rudolf Paul Maria (b.Linz 20 May 2003)
 													name=Christoph
-													dynasty=1002074
-													religion=lutheran culture=german
-													father=100004015	# Niklas von Salm-Reifferscheidt
+													dynasty_house=salm_reiff_raitz
+													religion=catholic culture=german
+													father=100004015	# Niklas von Salm-Reifferscheidt-Raitz
 													mother=100095435	# GFN Nathalie von Ballestrem
 													2003.05.20={birth=yes}
 												}
 												100004018={ #// 3l) Marietta Philippa Irène Andrea Nathalie Bernadette (b.Linz 14 May 2005)
 													name=Marietta
 													female=yes
-													dynasty=1002074
-													religion=lutheran culture=german
-													father=100004015	# Niklas von Salm-Reifferscheidt
+													dynasty_house=salm_reiff_raitz
+													religion=catholic culture=german
+													father=100004015	# Niklas von Salm-Reifferscheidt-Raitz
 													mother=100095435	# GFN Nathalie von Ballestrem
 													2005.05.14={birth=yes}
 												}
 												100004019={ #// 4l) Felicia Maria Franziska Benedikta Selina (b.Linz 4 Feb 2007)
 													name=Felicia
 													female=yes
-													dynasty=1002074
-													religion=lutheran culture=german
-													father=100004015	# Niklas von Salm-Reifferscheidt
+													dynasty_house=salm_reiff_raitz
+													religion=catholic culture=german
+													father=100004015	# Niklas von Salm-Reifferscheidt-Raitz
 													mother=100095435	# GFN Nathalie von Ballestrem
 													2007.02.04={birth=yes}
 												}
 											100004020={ #// 3k) Sophie Marietta Anna Katharina (b.Linz 30 Apr 1975); m.Steyregg 21 Jun 2003 Wladimir Halka von Ledóchow Gf Ledóchowski (b.Madrid 31 May 1972)
 												name=Sophie
 												female=yes
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004013	# Niklas von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004013	# Niklas von Salm-Reifferscheidt-Raitz
 												mother=100195654	# Nathalie von Neipperg
 												1975.04.30={birth=yes}
 											}
 											100004021={ #// 4k) Paul Maria Karl Christoph Ulrich (b.Linz 4 Jul 1979); m.St.Florian 26 Jun 2010 Cecilia Rudnay de Rudnó et Divék-Ujfalu (b.13 Sep 1982)
 												name=Paul
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004013	# Niklas von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004013	# Niklas von Salm-Reifferscheidt-Raitz
 												mother=100195654	# Nathalie von Neipperg
 												1979.07.04={birth=yes}
 												2010.06.26={add_spouse=100095227}	# Cecilia Rudnay de Rudnó et Divék-Ujfalu
 											}
 											100004022={ #// 6k) Conrad Maria Stephan Norbert Benedikt (b.Steyregg 10 Feb 1985)
 												name=Conrad
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004013	# Niklas von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004013	# Niklas von Salm-Reifferscheidt-Raitz
 												mother=100195654	# Nathalie von Neipperg
 												1985.02.10={birth=yes}
 											}
 										100004023={ #// 3j) Franz Anton Benedikt Paul Matthias Maria (b.Vienna 24 Feb 1944); m.Mareit bei Sterzing, Prov. Bozen 9 Aug 1970 Barbara Wenzl Frn von Sternbach (b.Nahoschitz, Bohemia 12 Sep 1944)
 											name=Franz
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004010	# Niklas von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004010	# Niklas von Salm-Reifferscheidt-Raitz
 											mother=100006592	# Irene von Thurn und Taxis
 											1944.02.24={birth=yes}
 											1970.08.09={add_spouse=100095810}	# FRN Barbara Wenzl
 										}
 											100004024={ #// 1k) Philipp Hieronymus Maria (b.Innsbruck 1 Jun 1971); m.München 27 Dec 2006 (div 2010) Anke Hägele (b.Mutlangen 3 Sep 1976); m.2nd Horn 28 May 2011 (rel) Aurach bei Kitzbühel 13 Nov 2013 Valerie Natascha Alexandra Johanna Stephanie Samesch (b.Vienna 1978)
 												name=Philipp
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004023	# Franz von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004023	# Franz von Salm-Reifferscheidt-Raitz
 												mother=100095810	# FRN Barbara Wenzl
 												1971.06.01={birth=yes}
 												2006.12.27={add_spouse=100094944}	# Anke Hägele
@@ -4322,112 +4322,112 @@
 											}
 												100004025={ #// 1l) Benedikt Dominik Nikolaus Paul Maria (b.Stuttgart 2012)
 													name=Benedikt
-													dynasty=1002074
-													religion=lutheran culture=german
-													father=100004024	# Philipp von Salm-Reifferscheidt
+													dynasty_house=salm_reiff_raitz
+													religion=catholic culture=german
+													father=100004024	# Philipp von Salm-Reifferscheidt-Raitz
 													mother=100095239	# Valerie Natascha Samesch
 													2012.01.01={birth=yes}
 												}
 												100004026={ #// 2l) Leopold Christoph Nikodemus Elias Maria (b.Stuttgart 2013)
 													name=Leopold
-													dynasty=1002074
-													religion=lutheran culture=german
-													father=100004024	# Philipp von Salm-Reifferscheidt
+													dynasty_house=salm_reiff_raitz
+													religion=catholic culture=german
+													father=100004024	# Philipp von Salm-Reifferscheidt-Raitz
 													mother=100095239	# Valerie Natascha Samesch
 													2013.01.01={birth=yes}
 												}
 											100004027={ #// 2k) Johanna Andrea Maria (b.Salzburg 7 Feb 1974); m.Gmunden 30 May 1998 (rel) Oberaurach bei Kitzbühel 13 Jun 1998 Don José Manuel de la Infiesta y Rollán (b.Madrid 26 Mar 1969)
 												name=Johanna
 												female=yes
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004023	# Franz von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004023	# Franz von Salm-Reifferscheidt-Raitz
 												mother=100095810	# FRN Barbara Wenzl
 												1974.02.07={birth=yes}
 											}
 											100004028={ #// 3k) Marie Elisabeth Antonia (b.Salzburg 3 Jun 1976); m.Grödig 5 May 2005 Constantin Pr von Croy (b.Graz 20 Sep 1968) $$
 												name=Marie
 												female=yes
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004023	# Franz von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004023	# Franz von Salm-Reifferscheidt-Raitz
 												mother=100095810	# FRN Barbara Wenzl
 												1976.06.03={birth=yes}
 											}
 											100004029={ #// 4k) Franziska Barbara Maria (b.Vöcklabruck 10 Dec 1981)
 												name=Franziska
 												female=yes
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004023	# Franz von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004023	# Franz von Salm-Reifferscheidt-Raitz
 												mother=100095810	# FRN Barbara Wenzl
 												1981.12.10={birth=yes}
 											}
 										100004030={ #// 4j) Gabrielle Marie Henriette Kunigunde Franziska Johanna (b.Steyregg 9 Aug 1946); m.Steyregg 17 Oct 1970 Maximilian Lobmeyer von Hohenleiten (b.Klagenfurt 12 Sep 1944)
 											name=Gabrielle
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004010	# Niklas von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004010	# Niklas von Salm-Reifferscheidt-Raitz
 											mother=100006592	# Irene von Thurn und Taxis
 											1946.08.09={birth=yes}
 										}
 										100004031={ #// 5j) Elisabeth Maria Antonia Benedikta Bernadette (b.Steyregg 10 Oct 1948); m.Steyregg 1 Jul 1972 Heinrich Edler von Schuschnigg (b.Schwanberg 25 Oct 1944)
 											name=Elisabeth
 											female=yes
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004010	# Niklas von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004010	# Niklas von Salm-Reifferscheidt-Raitz
 											mother=100006592	# Irene von Thurn und Taxis
 											1948.10.10={birth=yes}
 										}
 										100004032={ #// 6j) Karl Maria Niklas Benedikt Augustinus Johannes (b.Linz 31 Jan 1951); m.Salzburg 23 Apr 1995 Eva-Maria Gfn Keglevich von Buzin (b.Pôrto Alegre, Brazil 3 Feb 1958) $$
 											name=Karl
-											dynasty=1002074
-											religion=lutheran culture=german
-											father=100004010	# Niklas von Salm-Reifferscheidt
+											dynasty_house=salm_reiff_raitz
+											religion=catholic culture=german
+											father=100004010	# Niklas von Salm-Reifferscheidt-Raitz
 											mother=100006592	# Irene von Thurn und Taxis
 											1951.01.31={birth=yes}
 											1995.04.23={add_spouse=100115451}	# Éva-Maria Keglevich de Buzin
 										}
 											100004033={ #// 1k) Johannes Evangelist Maria Stephan Ezechiel (b.Salzburg 10 Apr 1997)
 												name=Johannes
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004032	# Karl von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004032	# Karl von Salm-Reifferscheidt-Raitz
 												mother=100115451	# Éva-Maria Keglevich de Buzin
 												1997.04.10={birth=yes}
 											}
 											100004034={ #// 2k) Gabriel Maria Niklas Franziskus (b.Salzburg 31 May 1998)
 												name=Gabriel
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004032	# Karl von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004032	# Karl von Salm-Reifferscheidt-Raitz
 												mother=100115451	# Éva-Maria Keglevich de Buzin
 												1998.05.31={birth=yes}
 											}
 											100004035={ #// 3k) Maria Assunta Constanza Irene (b.Salzburg 5 May 2000)
 												name=Maria
 												female=yes
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004032	# Karl von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004032	# Karl von Salm-Reifferscheidt-Raitz
 												mother=100115451	# Éva-Maria Keglevich de Buzin
 												2000.05.05={birth=yes}
 											}
 											100004036={ #// 4k) Matthäus Josef Maria Maximilian Karl Borromäus (b.Salzburg 7 May 2002)
 												name=Matthäus
-												dynasty=1002074
-												religion=lutheran culture=german
-												father=100004032	# Karl von Salm-Reifferscheidt
+												dynasty_house=salm_reiff_raitz
+												religion=catholic culture=german
+												father=100004032	# Karl von Salm-Reifferscheidt-Raitz
 												mother=100115451	# Éva-Maria Keglevich de Buzin
 												2002.05.07={birth=yes}
 											}
 								100004037={ #// 2h) Robert Ignacio Joseph Maria (München 19 Mar 1868-Salzburg 17 Apr 1941); m.Vienna 19 May 1897 Félicie Gfn Hoyos, Frn zu Stichsenstein (Klesheim 28 Oct 1872-Salzburg 5 Jan 1949) $$
 									name=Robert
-									dynasty=1002074
-									religion=lutheran culture=german
-									father=100004005	# Erich von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=german
+									father=100004005	# Erich von Salm-Reifferscheidt-Raitz
 									mother=100080742	# DONA Maria del Pilar Álvarez de Toledo
 									1868.03.19={birth=yes}  # München
 									1897.05.19={add_spouse=100023241}	# Félicie von Hoyos
@@ -4436,9 +4436,9 @@
 									100004038={ #// 2i) Marie Louise Felicie Adolfine (Lauterbach, Silesia 14 Jun 1900-Ramsgate, Kent 2 Aug 1983); m.Salzburg 7 Jan 1937 James Morgan (Birkenhead 18 Nov 1882-Moville, Ireland 29 Mar 1968)
 										name="Marie Louise" 
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=german
-										father=100004037	# Robert von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=german
+										father=100004037	# Robert von Salm-Reifferscheidt-Raitz
 										mother=100023241	# Félicie von Hoyos
 										1900.06.14={birth=yes}  # Lauterbach Silesia
 										1983.08.02={death=yes}  # Ramsgate Kent
@@ -4446,9 +4446,9 @@
 									100004039={ #// 3i) Marie Felicie Adolfine (Krakow 20 Mar 1902-Salzburg 5 Oct 1985)
 										name="Marie Felicie"
 										female=yes
-										dynasty=1002074
-										religion=lutheran culture=polish
-										father=100004037	# Robert von Salm-Reifferscheidt
+										dynasty_house=salm_reiff_raitz
+										religion=catholic culture=polish
+										father=100004037	# Robert von Salm-Reifferscheidt-Raitz
 										mother=100023241	# Félicie von Hoyos
 										1902.03.20={birth=yes}  # Krakow
 										1985.10.05={death=yes}  # Salzburg
@@ -4456,18 +4456,18 @@
 								100004040={ #// 3h) Maria Theresia (Florence 31 Oct 1869-Oberau bei Wangen 27 Aug 1930); m.Vienna 8 May 1897 Georg Fst von Waldburg zu Zeil u.Trauchburg (Schloß Zeil 29 May 1867-k.a.nr Hautes-Allaines 2 Sep 1918) $$
 									name="Marie Therese"
 									female=yes
-									dynasty=1002074
-									religion=lutheran culture=italian
-									father=100004005	# Erich von Salm-Reifferscheidt
+									dynasty_house=salm_reiff_raitz
+									religion=catholic culture=italian
+									father=100004005	# Erich von Salm-Reifferscheidt-Raitz
 									mother=100080742	# DONA Maria del Pilar Álvarez de Toledo
 									1869.10.31={birth=yes}  # Florence
 									1930.08.27={death=yes}  # Oberau bei Wangen
 								}
 						100004041={ #// 2f) Robert (19 Dec 1804-25 Mar 1875); m.Vienna 7 Jun 1845 Felicie Gfn von Clary und Aldringen (Vienna 9 Oct 1815-Vienna 18 Feb 1902) $$
 							name=Robert
-							dynasty=1002074
-							religion=lutheran culture=german
-							father=100004116	# Franz Joseph von Salm-Reifferscheidt
+							dynasty_house=salm_reiff_raitz
+							religion=catholic culture=german
+							father=100004116	# Franz Joseph von Salm-Reifferscheidt-Raitz
 							mother=100095056	# GFN Maria Josepha MacCaffry
 							1804.12.19={birth=yes}
 							1845.06.07={add_spouse=100024873}	# Felizitas von Clary u.Aldringen
@@ -4476,17 +4476,17 @@
 				100004043={ #// 10d) Maria Theresia Josepha Joachima Anna Erasma Walburga (21 Aug 1757-22 Apr 1830); m.1st 21 Apr 1778 Johann Friedrich Gf von Kageneck (d.1800); m.2nd 5 May 1807 Cte Auguste de Buissy
 					name=Maria
 					female=yes
-					dynasty=1002074
-					religion=lutheran culture=german
-					father=100004114	# Anton von Salm-Reifferscheidt
+					dynasty_house=salm_reiff_raitz
+					religion=catholic culture=german
+					father=100004114	# Anton von Salm-Reifferscheidt-Raitz
 					mother=100095680	# GFN Maria Anna von Rogendorf
 					1757.08.21={birth=yes}
 					1830.04.22={death=yes}
 				}
 	100004044={ #// F2. Ernst Salentin Altgraf zu Salm-Reifferscheidt in Dyck, *4.6.1621, +Dyck 11.6.1684; m.Borbeck 16.1.1656 Gfn Klara Magdalena von Manderscheid (*1636 +9.2.1692) $$
 		name="Ernst Salentin"
-		dynasty=1002074
-		religion=lutheran culture=german
+		dynasty_house=salm_reiff
+		religion=catholic culture=german
 		father=100004060	# Ernst Friedrich von Salm-Reifferscheidt
 		mother=100003667	# Marie Ursula von Leiningen
 		1621.04.04={birth=yes}
@@ -4496,8 +4496,8 @@
 		100004146={ #// G1. Maria Ernestina (30 Jun 1657-13 Mar 1723); m.11 Mar 1676 Maximilian v. Waldburg zu Wolfegg und Zeil (8 Jan 1641-21 Aug 1681) $$
 			name="Maria Ernestina"
 			female=yes
-			dynasty=1002074
-			religion=lutheran culture=german
+			dynasty_house=salm_reiff
+			religion=catholic culture=german
 			father=100004044	# Ernst Salentin von Salm-Reifferscheidt
 			mother=100036133	# Magdalena Klara von Manderscheid-Kail
 			1657.06.30={birth=yes}
@@ -4505,8 +4505,8 @@
 		}
 		100004045={ #// G3. Franz Ernst Altgraf zu Salm-Reifferscheidt in Dyck, *7.6.1659, +16.7.1727; m.Maastricht 6.1.1706 Pss Anna Franziska von Thurn und Taxis (*25.2.1683, +17.1.1763) $$
 			name="Franz Ernst"
-			dynasty=1002074
-			religion=lutheran culture=german
+			dynasty_house=salm_reiff
+			religion=catholic culture=german
 			father=100004044	# Ernst Salentin von Salm-Reifferscheidt
 			mother=100036133	# Magdalena Klara von Manderscheid-Kail
 			1659.06.07={birth=yes}
@@ -4515,8 +4515,8 @@
 		}
 			100004046={ #// 1c) August Eugen Bernhard (10 Oct 1706-5 Oct 1767); m.4 Sep 1738 Sabine Marie Sophie de Merode-Montfort, Pss de Rubempré et d’Everberghe (28 Jun 1714-23 Mar 1772) $$
 				name=August
-				dynasty=1002074
-				religion=lutheran culture=german
+				dynasty_house=salm_reiff
+				religion=catholic culture=german
 				father=100004045	# Franz Ernst von Salm-Reifferscheidt
 				mother=100006766	# Anna Franziska von Thurn und Taxis
 				1706.10.10={birth=yes}
@@ -4526,8 +4526,8 @@
 			100004047={ #// 3c) Anna Maria Luise Charlotte (25 May 1712-10 Nov 1760); m.29 Oct 1735 Franz Joseph Graf von Waldburg zu Wolfegg (d.1774) $$
 				name=Anna
 				female=yes
-				dynasty=1002074
-				religion=lutheran culture=german
+				dynasty_house=salm_reiff
+				religion=catholic culture=german
 				father=100004045	# Franz Ernst von Salm-Reifferscheidt
 				mother=100006766	# Anna Franziska von Thurn und Taxis
 				1712.05.25={birth=yes}
@@ -4535,8 +4535,8 @@
 			}
 			100004048={ #// 4c) Johann Franz Wilhelm (28 Nov 1714-17 Aug 1775); m.7 Feb 1769 Auguste Gfn von Waldburg zu Zeil und Wurzach (11 Sep 1743-6 Jan 1776) $$
 				name="Johann Franz"
-				dynasty=1002074
-				religion=lutheran culture=german
+				dynasty_house=salm_reiff
+				religion=catholic culture=german
 				father=100004045	# Franz Ernst von Salm-Reifferscheidt
 				mother=100006766	# Anna Franziska von Thurn und Taxis
 				1714.11.28={birth=yes}
@@ -4545,8 +4545,8 @@
 			}
 				100004049={ #// 1d) Joseph Franz Maria Anton Hubert Ignaz, cr 1816 Fst und Altgraf zu Salm-Reifferscheidt-Dyck (4 Sep 1773-27 Mar 1861); m.1st 2 Oct 1792 (div 1801) Maria Theresia Gfn von Hatzfeldt (13 Apr 1776-1 May 1838); m.2nd 14 Dec 1803 Constance Marie de Theis (7 Nov 1767-13 Apr 1845)
 					name=Joseph
-					dynasty=1002074
-					religion=lutheran culture=german
+					dynasty_house=salm_reiff
+					religion=catholic culture=german
 					father=100004048	# Johann Franz von Salm-Reifferscheidt
 					mother=100009444	# Augusta von Waldburg zu Zeil-Wurzach
 					1773.09.04={birth=yes}
@@ -4558,8 +4558,8 @@
 				100004050={ #// 2d) Walburga Franziska Marie Therese (13 Aug 1774-20 Apr 1849); m.8 Oct 1797 Maximilian Frhr von Gumppenberg (d.5 Jan 1813)
 					name=Walburga
 					female=yes
-					dynasty=1002074
-					religion=lutheran culture=german
+					dynasty_house=salm_reiff
+					religion=catholic culture=german
 					father=100004048	# Johann Franz von Salm-Reifferscheidt
 					mother=100009444	# Augusta von Waldburg zu Zeil-Wurzach
 					1774.08.13={birth=yes}
@@ -4567,8 +4567,8 @@
 				}
 				100004051={ #// 3d) Franz Joseph August, cr 1816 Fst und Altgraf zu Salm-Reifferscheidt-Dyck (16 Oct 1775-26 Dec 1826); m.26 Aug 1810 Marie Walburge Gfn von Waldburg zu Wolfegg und Waldsee (6 Dec 1791-5 Jun 1853) $$
 					name="Franz Joseph"
-					dynasty=1002074
-					religion=lutheran culture=german
+					dynasty_house=salm_reiff
+					religion=catholic culture=german
 					father=100004048	# Johann Franz von Salm-Reifferscheidt
 					mother=100009444	# Augusta von Waldburg zu Zeil-Wurzach
 					1775.10.16={birth=yes}
@@ -4577,8 +4577,8 @@
 				}
 					100004052={ #// 1e) Alfred Joseph Klemens Fst und Altgraf zu Salm-Reifferscheidt-Dyck (31 May 1811-2 Aug 1888)
 						name=Alfred
-						dynasty=1002074
-						religion=lutheran culture=german
+						dynasty_house=salm_reiff
+						religion=catholic culture=german
 						father=100004051	# Franz Joseph von Salm-Reifferscheidt
 						mother=100006950	# Maria Walburga von Waldburg zu Wolfegg u.Waldsee
 						1811.05.31={birth=yes}
@@ -4587,8 +4587,8 @@
 	100004055={ #// 5a) Sidonia Elisabeth (6 Sep 1623-23 Sep 1688); m.27 Oct 1640 Hartmann Fst v.u.zu Liechtenstein (d.1686) $$
 		name="Sidonie Elisabeth"
 		female=yes
-		dynasty=1002074
-		religion=lutheran culture=german
+		dynasty_house=salm_reiff
+		religion=catholic culture=german
 		father=100004060	# Ernst Friedrich von Salm-Reifferscheidt
 		mother=100003667	# Marie Ursula von Leiningen
 		1623.09.06={birth=yes}
@@ -4597,8 +4597,8 @@
 	100004056={ #// 6a) Anna Katharina (4 Nov 1624-16 Nov 1691); m.1647 Johann Gf von Rietberg (d.7 Aug 1660)
 		name="Anna Katharina"
 		female=yes
-		dynasty=1002074
-		religion=lutheran culture=german
+		dynasty_house=salm_reiff
+		religion=catholic culture=german
 		father=100004060	# Ernst Friedrich von Salm-Reifferscheidt
 		mother=100003667	# Marie Ursula von Leiningen
 		1624.11.04={birth=yes}

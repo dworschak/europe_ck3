@@ -1,4 +1,4 @@
-﻿#########################################################################################################
+#########################################################################################################
 ##	Branicki                                             1012014   23   7/   7 =100,00%	    0
 ##	Chodkiewicz                                          1012033   30   2/  14 = 14,29%	   12
 ##	Czartoryski                                          1012000  180  22/  78 = 28,21%	   56
@@ -179,22 +179,6 @@
 	1732.01.01={death=yes}
 }
 
-lowborn_3016={ #            Teofila                   Leszczynska                              (1680-1757)     1
-	name="Teofila Leszczynska"
-	female=yes
-	religion=catholic culture=polish
-	1680.01.01={birth=yes}
-	1757.01.01={death=yes}
-}
-lowborn_3012={ #            Waclaw                    Leszczynski                              (1654-1688)     -
-	name="Waclaw Leszczynski"
-	religion=catholic culture=polish
-	1654.01.01={birth=yes}  # EST.
-	1678.01.01={add_spouse=wisniow_0072}	# Zofia
-	1688.01.01={death=yes}
-}
-
-
 #leszczyn2
 100113101={ #// Andrzej Leszczynski, wojewoda brzeski kujawski, starosta nakielski, *1559, +1606; 1m: ca 1578 Anna Firlejówna (+1588); 2m: before 1597 Pss Fiedora Sanguszkówna (+1598); 3m: after 1598 Zofia Opalinska (+before 1626); He had issue:
 	name=Andrzej
@@ -226,14 +210,14 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 			1636.01.01={add_spouse=100091146}	# PSS Anna Korecki
 			1651.01.01={death=yes}
 		}
-			100113104={ #// C1. [1m.] Samuel, rotmistrz królewski, pulkownik królewski, *1637, +1676; m.after 1656 Pss Konstancja Wisniowiecka (+1669)
+			100113104={ #// C1. [1m.] Samuel, rotmistrz królewski, pulkownik królewski, *1637, +1676; m.after 1656 Pss Konstancja Wisniowiecka (+1669) $$
 				name=Samuel
 				dynasty=1012034
 				religion=catholic culture=polish
 				father=100113103	# Andrzej Leszczynski
 				mother=100091146	# PSS Anna Korecki
 				1637.01.01={birth=yes}
-				1657.01.01={add_spouse=wisniow_0083}	# PSS Konstancja Wisniowiecki
+				1657.01.01={add_spouse=wisniow_0083}	# Konstancja Wiśniowiecki
 				1676.01.01={death=yes}
 			}
 		100113105={ #// B4. [1m.] Bogusław, starosta generalny Wielkopolski, podskarbi wielki koronny, podkanclerzy koronny 1658, starosta bydgoski, samborski, miedzyrzecki, ostrski, czluchowski i osiecki, *1614, +1659; 1m: 1638 Anna Denhoffówna (*1620/22, +1651/57); 2m: 1658 Pss Joanna Katarzyna Radziwillówna (*1637 +1665) $$
@@ -282,10 +266,25 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 
 
 ##  100113067-       		CHODKIEWICZ                       1012033
+#chodkiew1
+100192324={ #// H1. Jan Karol, starosta bludnenski, wielonski, dawgieliski i bejsagolski, pulkownik wojsk litewskich, *1686, +Boruny nr Wilna 26.12.1712; m.Dawgieliszki 1710 Cecylia Zofia Sapiezanka (*1688 +10.4.1762) $$
+	name="Jan Karol"
+	dynasty=1012033
+	religion=catholic culture=polish
+	1686.01.01={birth=yes}
+	1710.01.01={add_spouse=100111430}	# Cecylia Zofia Sapieha
+	1712.12.26={death=yes}
+}
+	#chodkiew2 -> I1. Adam Tadeusz, wojewoda brzeski 1735, starosta bludnienski, wielonski i dawgieliski, *1711, +3.8.1745; m.ca 1738 Rozalia Ewa Czapska (+1769), dau.of Piotr Czapski, wojewoda pomorski; for his issue see HERE
+#chodkiew1
+
+#chodkiew2
 100113068={ #// Adam Tadeusz Chodkiewicz, wojewoda brzeski 1735, starosta bludnienski, wielonski i dawgieliski, *1711, +3.8.1745; m.ca 1738 Rozalia Ewa Czapski (+1769)
 	name=Adam
 	dynasty=1012033
 	religion=catholic culture=polish
+	father=100192324	# Jan Karol Chodkiewicz
+	mother=100111430	# Cecylia Zofia Sapieha
 	1711.01.01={birth=yes}
 	1738.01.01={add_spouse=100082483}	# Rozalia Ewa Czapski
 	1745.08.03={death=yes}
@@ -580,10 +579,12 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 #1916.01.01={holder=100113080} # E2. Mieczysław
 #1933.01.01={holder=100113081} # F1. Krzysztof
 #1978.01.01={holder=100113082} # G1. Hieronim
+#chodkiew2
 ##  100113067-       		CHODKIEWICZ                       1012033
 
 
 ##  100113050- 				Poniatowski		                  1012032
+#poniatow1
 100113059={ #// B2. Stanisław, Swedish general, general lejtnant, podstoli litewski (Dereczyn 15 Sep 1676-Ryki 2 Aug 1762); 1m: shortly after 1701 (div) Teresa Woynianka Jasieniecka (+after 1710); 2m: 14.9.1720 Pss Konstancja Czartoryska (*ca 1696, +27.10.1759) $$
 	name=Stanisław
 	dynasty=1012032
@@ -637,81 +638,8 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 			1815.01.01={add_spouse=100092203}	# Kasandra Luci di Tivoli
 			1833.02.13={death=yes}
 		}
-			100113062={ #// E4. Giuseppe Michele Saverio Francesco Giovanni, cr Conte di Monte Rotondo 20.11.1847, cr Principe di Monte Rotondo 19.11.1850, legitimated 1847, *Roma 21.2.1816, +London 4.7.1873; m.1834 Matilda Cssa Perotti (*1814, +II.1875); for his issue see HERE
-				name="Józef Michał"
-				dynasty=1012032
-				religion=catholic culture=polish
-				father=100113061	# Stanisław Poniatowski
-				mother=100092203	# Kasandra Luci di Tivoli
-				1816.02.21={birth=yes}  # Roma
-				1835.01.01={add_spouse=100104242}	# Matylda Matilda Perotti
-				1873.07.04={death=yes}  # Londyn
-			}
-				100113051={ #// B1. Stanislaus August Friedrich Józef Telemach, *Florence 9.11.1835, +Paris 6.1.1908; m.Paris 11.6.1856 Louise le Hon (*15.7.1838 +9.2.1931), illegitimate dau.of Duc de Morny, son of August Joseph Cte de Flahaut by Hortensia Queen of Holland $$
-					name="Stanisław August"
-					dynasty=1012032
-					religion=catholic culture=polish
-					father=100113062	# Józef Michał Poniatowski
-					mother=100104242	# Matylda Matilda Perotti
-					1835.11.09={birth=yes}  # Firenze
-					1856.06.11={add_spouse=100069484}	# Louise de Talleyrand-Périgord
-					1863.01.01={add_spouse=100090493}	# Ludwika Le Hon
-					1908.01.06={death=yes}  # Paris
-				}
-					100113052={ #// C3. Louis Leopold Stanisław August Maria André Pr Poniatowski, Principe di Monte Rotondo, *Paris 24.1.1864, +Les Bories 8.3.1954; m.Paris 6.10.1894 Elizabeth Sperry (*Stockton, Kalifornia 6.10.1872, +VIII.1911)
-						name="Andrzej Ludwik Leopold"
-						dynasty=1012032
-						religion=catholic culture=polish
-						father=100113051	# Stanisław August Poniatowski
-						mother=100090493	# Ludwika Le Hon
-						1864.01.01={birth=yes}
-						1896.01.01={add_spouse=100090496}	# Elisabeth Sperry
-						1954.01.01={death=yes}
-					}
-						100113053={ #// D2. Carl Casimir Victorien Marie André, *San Francisco 30.10.1897, +1980; m.Paris 9.11.1920 Anne de Riquet Cte de Caraman-Chimay (*Paris 23.6.1901, +Château du Rouvet 12.9.1977) $$
-							name="Kazimierz Karol"
-							dynasty=1012032
-							religion=catholic culture=polish
-							father=100113052	# Andrzej Ludwik Leopold Poniatowski
-							mother=100090496	# Elisabeth Sperry
-							1897.10.30={birth=yes}  # San Francisco
-							1920.11.09={add_spouse=100068298}	# Anne de Riquet de Caraman
-							1980.08.03={death=yes}  # Le Rouret
-						}
-							100113054={ #// E1. Michel Casimir Jean Pierre Guillaume Marie André, *Paris 16.5.1922, +Opio, Alpes-Maritimes 15.1.2002; m.Paris 1.3.1946 Gilberte de Chavagnac (*Evreux 15.10.1923)
-								name="Michel Casimir Jean"
-								dynasty=1012032
-								religion=catholic culture=polish
-								father=100113053	# Kazimierz Karol Poniatowski
-								mother=100068298	# Anne de Riquet de Caraman
-								1922.05.16={birth=yes}  # Paryz
-								1946.03.01={add_spouse=100113055}	# Gilberte de Chavagnac
-								2002.01.15={death=yes}  # Opio (Alpes-Maritimes)
-							}
-								100113056={ #// F2. Isabelle Marie Béatrice Ciolek, *Couzon 9.2.1948; m.29.9.1967 Bertrand Cte de Maigret (*Tour-sur-Jour 23.1.1940)
-									name="Isabelle Marie Béatrice"
-									dynasty=1012032
-									religion=catholic culture=polish
-									father=100113054	# Michel Casimir Jean Poniatowski
-									mother=100113055	# Gilberte de Chavagnac
-									1948.01.01={birth=yes}
-								}
-								100113057={ #// F3. Axel Michel Casimir Jean Jacques Ciolek, *Rabat 3.8.1951; m.Aix-en-Provence Anne Chatin (*1955)
-									name="Axel Michel Casimir"
-									dynasty=1012032
-									religion=catholic culture=polish
-									father=100113054	# Michel Casimir Jean Poniatowski
-									mother=100113055	# Gilberte de Chavagnac
-									1951.08.03={birth=yes}
-								}
-								100113058={ #// F4. Bruno Michel Casimir Jean Louis Ciolek, *Rabat 10.8.1952; m.Paris 1.6.1974 Alix de Ferrier de Montal (*1954)
-									name="Bruno Michel Casimir"
-									dynasty=1012032
-									religion=catholic culture=polish
-									father=100113054	# Michel Casimir Jean Poniatowski
-									mother=100113055	# Gilberte de Chavagnac
-									1952.08.10={birth=yes}
-								}
+			# E4. Giuseppe Michele Saverio Francesco Giovanni, cr Conte di Monte Rotondo 20.11.1847, cr Principe di Monte Rotondo 19.11.1850, legitimated 1847, *Roma 21.2.1816, +London 4.7.1873; m.1834 Matilda Cssa Perotti (*1814, +II.1875); for his issue see HERE
+			
 	100113066={ #// C4. Ludwika Maria, *30.11.1728, +10.2.1781; m.1745 Jan Jakub Zamoyski, wojewoda podolski (+10.2.1790) $$
 		name=Ludwika
 		female=yes
@@ -742,6 +670,85 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 			1807.01.01={add_spouse=100114442}	# Zofia Potocki
 			1813.10.19={death=yes}  # Weiße Elster near Leipzig
 		}
+#poniatow1
+
+#poniatow2
+100113062={ #// Giuseppe Michele Saverio Francesco Giovanni Poniatowski, cr Conte di Monte Rotondo 20.11.1847, cr Principe di Monte Rotondo 19.11.1850, legitimated 1847, *Roma 21.2.1816, +London 4.7.1873; m.1834 Matilda Cssa Perotti (*1814, +II.1875)
+	name="Józef Michał"
+	dynasty=1012032
+	religion=catholic culture=polish
+	father=100113061	# Stanisław Poniatowski
+	mother=100092203	# Kasandra Luci di Tivoli
+	1816.02.21={birth=yes}  # Roma
+	1835.01.01={add_spouse=100104242}	# Matylda Matilda Perotti
+	1873.07.04={death=yes}  # Londyn
+}
+	100113051={ #// B1. Stanislaus August Friedrich Józef Telemach, *Florence 9.11.1835, +Paris 6.1.1908; m.Paris 11.6.1856 Louise le Hon (*15.7.1838 +9.2.1931), illegitimate dau.of Duc de Morny, son of August Joseph Cte de Flahaut by Hortensia Queen of Holland $$
+		name="Stanisław August"
+		dynasty=1012032
+		religion=catholic culture=polish
+		father=100113062	# Józef Michał Poniatowski
+		mother=100104242	# Matylda Matilda Perotti
+		1835.11.09={birth=yes}  # Firenze
+		1856.06.11={add_spouse=100069484}	# Louise de Talleyrand-Périgord
+		1863.01.01={add_spouse=100090493}	# Ludwika Le Hon
+		1908.01.06={death=yes}  # Paris
+	}
+		100113052={ #// C3. Louis Leopold Stanisław August Maria André Pr Poniatowski, Principe di Monte Rotondo, *Paris 24.1.1864, +Les Bories 8.3.1954; m.Paris 6.10.1894 Elizabeth Sperry (*Stockton, Kalifornia 6.10.1872, +VIII.1911)
+			name="Andrzej Ludwik Leopold"
+			dynasty=1012032
+			religion=catholic culture=polish
+			father=100113051	# Stanisław August Poniatowski
+			mother=100090493	# Ludwika Le Hon
+			1864.01.01={birth=yes}
+			1896.01.01={add_spouse=100090496}	# Elisabeth Sperry
+			1954.01.01={death=yes}
+		}
+			100113053={ #// D2. Carl Casimir Victorien Marie André, *San Francisco 30.10.1897, +1980; m.Paris 9.11.1920 Anne de Riquet Cte de Caraman-Chimay (*Paris 23.6.1901, +Château du Rouvet 12.9.1977) $$
+				name="Kazimierz Karol"
+				dynasty=1012032
+				religion=catholic culture=polish
+				father=100113052	# Andrzej Ludwik Leopold Poniatowski
+				mother=100090496	# Elisabeth Sperry
+				1897.10.30={birth=yes}  # San Francisco
+				1920.11.09={add_spouse=100068298}	# Anne de Riquet de Caraman
+				1980.08.03={death=yes}  # Le Rouret
+			}
+				100113054={ #// E1. Michel Casimir Jean Pierre Guillaume Marie André, *Paris 16.5.1922, +Opio, Alpes-Maritimes 15.1.2002; m.Paris 1.3.1946 Gilberte de Chavagnac (*Evreux 15.10.1923)
+					name="Michel Casimir Jean"
+					dynasty=1012032
+					religion=catholic culture=polish
+					father=100113053	# Kazimierz Karol Poniatowski
+					mother=100068298	# Anne de Riquet de Caraman
+					1922.05.16={birth=yes}  # Paryz
+					1946.03.01={add_spouse=100113055}	# Gilberte de Chavagnac
+					2002.01.15={death=yes}  # Opio (Alpes-Maritimes)
+				}
+					100113056={ #// F2. Isabelle Marie Béatrice Ciolek, *Couzon 9.2.1948; m.29.9.1967 Bertrand Cte de Maigret (*Tour-sur-Jour 23.1.1940)
+						name="Isabelle Marie Béatrice"
+						dynasty=1012032
+						religion=catholic culture=polish
+						father=100113054	# Michel Casimir Jean Poniatowski
+						mother=100113055	# Gilberte de Chavagnac
+						1948.01.01={birth=yes}
+					}
+					100113057={ #// F3. Axel Michel Casimir Jean Jacques Ciolek, *Rabat 3.8.1951; m.Aix-en-Provence Anne Chatin (*1955)
+						name="Axel Michel Casimir"
+						dynasty=1012032
+						religion=catholic culture=polish
+						father=100113054	# Michel Casimir Jean Poniatowski
+						mother=100113055	# Gilberte de Chavagnac
+						1951.08.03={birth=yes}
+					}
+					100113058={ #// F4. Bruno Michel Casimir Jean Louis Ciolek, *Rabat 10.8.1952; m.Paris 1.6.1974 Alix de Ferrier de Montal (*1954)
+						name="Bruno Michel Casimir"
+						dynasty=1012032
+						religion=catholic culture=polish
+						father=100113054	# Michel Casimir Jean Poniatowski
+						mother=100113055	# Gilberte de Chavagnac
+						1952.08.10={birth=yes}
+					}
+#poniatow2
 ##  100113050- 				Poniatowski		                  1012032
 
 
@@ -1544,14 +1551,14 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				1733.01.01={add_spouse=100112615}	# Marianna Jablonowski
 				1773.01.01={death=yes}
 			}
-				100112859={ #// D1. Jan Józef (*1740, +1784); m.1779 Teresa Apolonia Sulkowski (*17.1.1746, +1818) %%
+				100112859={ #// D1. Jan Józef (*1740, +1784); m.1779 Teresa Apolonia Sułkowski (*17.1.1746, +1818) %%
 					name="Jan Józef"
 					dynasty=1012028
 					religion=catholic culture=polish
 					father=100112858	# Jan Wielopolski
 					mother=100112615	# Marianna Jablonowski
 					1740.01.01={birth=yes}
-					1779.01.01={add_spouse=100035229}	# Teresa Apolonia Sulkowski
+					1779.01.01={add_spouse=100035229}	# Teresa Apolonia Sułkowski
 					1784.01.01={death=yes}
 				}
 					100112860={ #// E1. Jan Kanty (*1780, +1860); m.1804 Css Józefa Potulicki (*1787, +1848) %%
@@ -1559,7 +1566,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 						dynasty=1012028
 						religion=catholic culture=polish
 						father=100112859	# Jan Józef Wielopolski
-						mother=100035229	# Teresa Apolonia Sulkowski
+						mother=100035229	# Teresa Apolonia Sułkowski
 						1780.01.01={birth=yes}
 						1804.01.01={add_spouse=100089486}	# CSS Józefa Potulicki
 						1860.01.01={death=yes}
@@ -3797,7 +3804,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 					father=100112425	# Jan Krystian legnicki
 					mother=100002640	# Dorothea Sibylle von Hohenzollern
 					1618.04.09={birth=yes}
-					1648.11.14={add_spouse=100000153}	# Luise von Anhalt
+					1648.11.14={add_spouse=100000153}	# Luise von Anhalt-Dessau
 					1672.02.28={death=yes}
 				}
 					100112435={ #// E3. Karolina, *2.12.1652, +24.12.1707; m.1.10.1672 Duke Friedrich of Holstein-Sonderburg-Wiesenburg $$
@@ -3806,7 +3813,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 						dynasty=1012015
 						religion=catholic culture=polish
 						father=100112431	# Krystian legnicki
-						mother=100000153	# Luise von Anhalt
+						mother=100000153	# Luise von Anhalt-Dessau
 						1652.12.02={birth=yes}
 						1707.12.24={death=yes}
 					}
@@ -3815,7 +3822,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 						dynasty=1012015
 						religion=catholic culture=polish
 						father=100112431	# Krystian legnicki
-						mother=100000153	# Luise von Anhalt
+						mother=100000153	# Luise von Anhalt-Dessau
 						1660.09.29={birth=yes}  # Schloss Ohlau
 						1675.11.21={death=yes}  # Schloss Brieg
 					}
@@ -3856,7 +3863,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				father=100112424	# Joachim Fryderyk legnicki
 				mother=100000118	# Anna von Anhalt
 				1595.01.12={birth=yes}  # Ohlau
-				1614.10.27={add_spouse=100000113}	# Sophie Elisabeth von Anhalt
+				1614.10.27={add_spouse=100000113}	# Sophie Elisabeth von Anhalt-Dessau
 				1624.11.25={add_spouse=100099246}	# PSS Elisabeth Magdalena von Münsterberg-Öls
 				1653.01.14={death=yes}  # Breslau
 			}
@@ -8992,7 +8999,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 	1640.01.01={add_spouse=100089891}	# Anna Barbara Kopci
 	1665.01.01={death=yes}
 }
-	100111402={ #// A1. [2m.] Kazimierz Jan, czesnik litewski, podstoli litewski, podskarbi nadworny litewski, wojewoda polocki, hetman polny litewski, *1637, +1720; 1m: 1667 Krystyna Barbara Hlebowiczówna (+1695); 2m: 1702 Teresa Korwin Gosiewska (+1708); 3m: before 1711 Antonina Sybilla Css Waldstein-Arnau (+1779)
+	100111402={ #// A1. [2m.] Kazimierz Jan, czesnik litewski, podstoli litewski, podskarbi nadworny litewski, wojewoda polocki, hetman polny litewski, *1637, +1720; 1m: 1667 Krystyna Barbara Hlebowiczówna (+1695); 2m: 1702 Teresa Korwin Gosiewska (+1708); 3m: before 1711 Antonina Sybilla Css Waldstein-Arnau (+1779) $$
 		name="Kazimierz Jan"
 		dynasty=1012005
 		religion=catholic culture=polish
@@ -9000,8 +9007,8 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 		mother=100086022	# Zofia Zienowicz
 		1637.01.01={birth=yes}
 		1667.01.01={add_spouse=100097261}	# Krystyna Barbara Hlebowicz
-		1711.01.01={add_spouse=100098074}	# CSS Antonina Sybilla Waldstein-Arnau
-		1720.01.01={death=yes}
+		1711.01.01={add_spouse=waldstein_0034}	# Antonia z Valdštejna
+		1720.03.03={death=yes}  # Grodno
 	}
 		100111404={ #// B1. [1m.] Jerzy Stanisław, stolnik litewski, wojewoda trocki, wojewoda mscislawski, *ca 1668, +1732; 1m: 1685 Izabela Helena Pss Polubinska (+1721); 2m: 1724 Teodora Soltanówna (+1774)
 			name="Jerzy Stanisław"
@@ -9201,7 +9208,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 		father=100111401	# Paweł Jan Sapieha
 		mother=100089891	# Anna Barbara Kopci
 		1641.01.01={birth=yes}  # EST.
-		1668.01.01={add_spouse=100102779}	# Izabela Tarlo
+		1668.01.01={add_spouse=100102779}	# Izabela Tarło
 		1707.01.01={death=yes}
 	}
 		100111514={ #// B1. Michał Józef, czesnik litewski, straznik litewski, pisarz polny litewski, general major wojsk litewskich, wojewoda podlaski 1728, general lejtnant wojsk saskich 1733, starosta mielnicki i bobrujski, *1670, +1737; m.1700 Teresa Css Wielopolska (+after 1717)
@@ -9209,7 +9216,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 			dynasty=1012005
 			religion=catholic culture=polish
 			father=100111513	# Benedykt Paweł Sapieha
-			mother=100102779	# Izabela Tarlo
+			mother=100102779	# Izabela Tarło
 			1670.01.01={birth=yes}
 			1700.01.01={add_spouse=100102784}	# CSS Teresa Wielopolski
 			1737.01.01={death=yes}
@@ -9219,7 +9226,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 			dynasty=1012005
 			religion=catholic culture=polish
 			father=100111513	# Benedykt Paweł Sapieha
-			mother=100102779	# Izabela Tarlo
+			mother=100102779	# Izabela Tarło
 			1672.01.01={birth=yes}  # EST.
 			1750.01.01={death=yes}
 		}
@@ -9251,7 +9258,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				mother=100102786	# Ludwika Opalinski
 				1701.01.25={birth=yes}  # Dresden
 				1727.11.20={add_spouse=100021956}	# София Skowronski
-				1750.01.01={add_spouse=100035685}	# Johanna Sulkowski
+				1750.01.01={add_spouse=100035685}	# Johanna Sułkowski
 				1771.01.24={death=yes}  # Radlin
 			}
 				100111524={ #// D1. [1m.] Jan Józef Kalasanty, starosta sokolowski, *1734, +1761; m.1753 (div 1756) Elzbieta Branicka (*ca 1734, +Koden 3.9.1800)
@@ -9425,7 +9432,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				1688.01.01={birth=yes}  # EST.
 				1763.01.01={death=yes}  # EST.
 			}
-			100111430={ #// C4. [1m.] Cecylia Zofia, *1688, +Mozejkowo Wielkie 10.4.1762; 1m: Dawgieliszki 1710 Jan Karol Chodkiewicz, (*1686, +26.12.1712); 2m: Michał Tyzenhauz, podkomorzy wilenski
+			100111430={ #// C4. [1m.] Cecylia Zofia, *1688, +Mozejkowo Wielkie 10.4.1762; 1m: Dawgieliszki 1710 Jan Karol Chodkiewicz, (*1686, +26.12.1712); 2m: Michał Tyzenhauz, podkomorzy wilenski $$
 				name="Cecylia Zofia"
 				female=yes
 				dynasty=1012005
@@ -9462,7 +9469,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 			father=100111434	# Krzysztof Sapieha
 			mother=100096187	# PSS Helena Solomerecki
 			1652.11.05={birth=yes}
-			1683.01.01={add_spouse=wisniow_0041}	# Urszula Danilowicz
+			1683.01.01={add_spouse=wisniow_0041}	# Urszula Wiśniowiecki
 			1690.01.01={remove_spouse=wisniow_0041}
 			1697.02.19={add_spouse=100110005}	# Krystyna Sanguszko
 			1733.03.13={death=yes}  # Wisznice
@@ -9472,7 +9479,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				dynasty=1012005
 				religion=catholic culture=polish
 				father=100111438	# Władysław Józefat Sapieha
-				mother=wisniow_0041	# Urszula Danilowicz
+				mother=wisniow_0041	# Urszula Wiśniowiecki
 				1685.01.01={birth=yes}  # EST.
 				1687.01.01={add_spouse=100097381}	# Maria Kazimiera Firlej
 				1768.01.01={death=yes}
@@ -9482,7 +9489,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				dynasty=1012005
 				religion=catholic culture=polish
 				father=100111438	# Władysław Józefat Sapieha
-				mother=wisniow_0041	# Urszula Danilowicz
+				mother=wisniow_0041	# Urszula Wiśniowiecki
 				1687.01.01={birth=yes}  # EST.
 				1731.01.01={add_spouse=100097925}	# Anna Krasicki
 				1758.01.01={death=yes}
@@ -9725,7 +9732,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				dynasty=1012005
 				religion=catholic culture=polish
 				father=100111438	# Władysław Józefat Sapieha
-				mother=wisniow_0041	# Urszula Danilowicz
+				mother=wisniow_0041	# Urszula Wiśniowiecki
 				1689.01.01={birth=yes}  # EST.
 				1764.01.01={death=yes}  # EST.
 			}
@@ -12762,13 +12769,13 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 	1515.01.01={birth=yes}
 	1565.05.28={death=yes}
 }
-	100110680={ #// A1. Pr Mikołaj Krzysztof "Sierotka", *Chemely 2.8.1549, +Nieswiez Castle 28.2.1616; m.Derevenya 24.11.1584 Pss Elzbieta Eufemia Wisniowiecka (*1569 +9.11.1596)
+	100110680={ #// A1. Pr Mikołaj Krzysztof "Sierotka", *Chemely 2.8.1549, +Nieswiez Castle 28.2.1616; m.Derevenya 24.11.1584 Pss Elzbieta Eufemia Wisniowiecka (*1569 +9.11.1596) $$
 		name="Mikołaj Krzysztof"
 		dynasty=1012003
 		religion=catholic culture=polish
 		father=100110661	# Mikołaj Radziwiłł
 		1549.08.02={birth=yes}	# Czmielow
-		1584.11.24={add_spouse=wisniow_0063}	# Halszka
+		1584.11.24={add_spouse=wisniow_0063}	# Elzbieta Eufemia Wiśniowiecki
 		1616.02.28={death=yes}	# Nieswiez
 	}
 		# radziwill3 -> B5. Pr Aleksander Ludwik, *Nieswiez 4.8.1594, +Bologna 30.3.1654; 1m: 1623 Tekla Anna Wollowicz (*1608 +20.3.1638); 2m: 1639 (div 1642) Katarzyna Eugenia Tyszkiewicz; 3m: Warszawa X.1642 Lukrezia Maria Pss Strozzi (+Lubinice 18.10.1694); for his issue see HERE
@@ -12797,7 +12804,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 	dynasty=1012003
 	religion=catholic culture=polish
 	father=100110680	# Mikołaj Krzysztof Radziwiłł
-	mother=wisniow_0063
+	mother=wisniow_0063	# Elzbieta Eufemia Wiśniowiecki
 	1594.08.04={birth=yes}	# Nieswiez
 	1654.03.30={death=yes}	# Bologna
 }
@@ -12815,7 +12822,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 			religion=catholic culture=german
 			father=100110651	# Michał Kazimierz Radziwiłł
 			1668.03.10={birth=yes}
-			1687.09.03={add_spouse=100000141}	# Marie Eleonore von Anhalt
+			1687.09.03={add_spouse=100000141}	# Marie Eleonore von Anhalt-Dessau
 			1689.01.03={death=yes}  # Biala
 		}
 		100110654={ #// B4. Pr Karol Stanisław, ordynat na Nieswiezu, stolnik litewski 1685, koniuszy litewski 1686, podkanclerzy litewski 1690, kanclerz wielki litewski 1698, ciwun wilenski, *Krakow 27.11.1669, +Biala 2.8.1719; m.Wilna (Vilnius) 6.3.1691 Pss Anna Katarzyna Sanguszkówna (*23.9.1676 +Biala 23.12.1746) $$
@@ -12827,7 +12834,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 			1691.03.06={add_spouse=100110007}	# Anna Katarzyna Sanguszko
 			1719.08.02={death=yes}
 		}
-			100110672={ #// C2. Pr Michał Kazimierz "Rybenko", *Biala Podlaska 13.6.1702, +Nieswiez Castle 15.5.1762; 
+			100110672={ #// C2. Pr Michał Kazimierz "Rybenko", *Biala Podlaska 13.6.1702, +Nieswiez Castle 15.5.1762;  $$
 						# 1m: Biala Krynica (Belaya Krinitsa) 23.4.1725 Pss Urszula Franciszka Wisniowiecka (*13.2.1705 +23.5.1753); 
 						# 2m: Lwów (Lemberg) 2.1.1754 Anna Luiza Mycielska (*24.10.1729, +Drezno 19.3.1771)
 				name="Michał Kazimierz"
@@ -12836,7 +12843,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				father=100110654	# Karol Stanisław Radziwiłł
 				mother=100110007	# Anna Katarzyna Sanguszko
 				1702.06.13={birth=yes}
-				1725.04.23={add_spouse=wisniow_0075}	# Urszula Franciszka
+				1725.04.23={add_spouse=wisniow_0075}	# Urszula Franciszka Wiśniowiecki
 				1762.05.15={death=yes}
 			}
 				100110677={ #// D2. [1m.] Pr Karol Stanisław "Panie Kochanku", X ordynat na Nieswiezu, podczaszy litewski 1752, miecznik litewski 1752, starosta lwowski (1755-62), wojewoda wilenski (1762-64)+(1768-90), *Nieswiez Castle 27.2.1734, +Biala Podlaska 21.11.1790; 1m: Mosciska 23.10.1753 (div 1763) Maria Karolina Pss Lubomirska (+Tarnów 10.1.1795); 2m: 18.4.1764 (div 1781) Teresa Karolina Rzewuska (*1742 +3.5.1787) $$
@@ -12844,7 +12851,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 					dynasty=1012003
 					religion=catholic culture=polish
 					father=100110672	# Michał Kazimierz Radziwiłł
-					mother=wisniow_0075
+					mother=wisniow_0075	# Urszula Franciszka Wiśniowiecki
 					1734.02.27={birth=yes}  # Nieswiez Castle
 					1753.10.23={add_spouse=100111323}	# Maria Karolina Lubomirski
 					1764.01.01={remove_spouse=100111323}
@@ -12857,7 +12864,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 					dynasty=1012003
 					religion=catholic culture=polish
 					father=100110672	# Michał Kazimierz Radziwiłł
-					mother=wisniow_0075
+					mother=wisniow_0075	# Urszula Franciszka Wiśniowiecki
 					1740.01.19={birth=yes}
 					1789.01.01={death=yes}
 				}
@@ -15238,6 +15245,14 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 
 ## 100110600	Zamoyski 				1012001
 #zamoyski1
+zamoyski_2940={ #// F2. Gryzelda Konstancja, *1623, +1672; m.1639 Pr Jeremi Michal Wisniowiecki (*1612 +1651)
+	name="Gryzelda Konstancja Zamoyska"
+	female=yes
+	religion=catholic culture=polish
+	1623.01.01={birth=yes}
+	1672.01.01={death=yes}
+}
+
 100110328={ #// A2. Maciej, rotmistrz królewski 1471; m.Beata z Obrowców
 	name=A2.
 	dynasty=1012001
@@ -15319,26 +15334,26 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 #zamoyski1
 
 #zamoyski2
-100110314={ #// Jan Saryusz Zamoyski, rotmistrz królewski, przelozony strazy kresowej 1588, straznik koronny 1600, jednoczesnie kasztelan chelmski 1604, +Stryy 1619; m.1591/93 Pss Anna Wisniowiecka
+100110314={ #// Jan Saryusz Zamoyski, rotmistrz królewski, przelozony strazy kresowej 1588, straznik koronny 1600, jednoczesnie kasztelan chelmski 1604, +Stryy 1619; m.1591/93 Pss Anna Wisniowiecka $$
 	name="Jan Saryusz" 
 	dynasty=1012001
 	religion=catholic culture=polish
 	father=100110356	# Jan Zamoyski
 	1570.01.01={birth=yes}
-	1591.01.01={add_spouse=wisniow_0087}	# PSS Anna Wisniowiecki
+	1591.01.01={add_spouse=wisniow_0087}	# Anna Wiśniowiecki
 	1619.01.01={death=yes}  # Stryy
 }
 	100110316={ #// A3. Zdzislaw Jan, podstoli lwowski 1646, kasztelan czernichowski ca 1656, +1670; m.Anna Lanckoronska
 		name="Zdzislaw Jan"
 		dynasty=1012001
 		religion=catholic culture=polish
-		father=100110314	# Jan Zamoyski
-		mother=wisniow_0087	# PSS Anna Wisniowiecki
+		father=100110314	# Jan Saryusz Zamoyski
+		mother=wisniow_0087	# Anna Wiśniowiecki
 		1593.01.01={birth=yes}  # EST.
 		1630.01.01={add_spouse=100080940}	# Anna Lanckoronski
 		1670.01.01={death=yes}
 	}
-		100110318={ #// B1. Marianna, *ca 1631, +1668; m.Pr Dymitr Jerzy Wisniowiecki (*1631 +1682)
+		100110318={ #// B1. Marianna, *ca 1631, +1668; m.Pr Dymitr Jerzy Wisniowiecki (*1631 +1682) $$
 			name=Marianna
 			female=yes
 			dynasty=1012001
@@ -15378,7 +15393,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				1703.01.01={add_spouse=100114009}	# Teresa Potocki
 				1725.01.01={death=yes}
 			}
-			100110310={ #// C4. Michał Zdzislaw, VI ordynat, lowczy wielki koronny, wojewoda smolenski, *ca 1679, +Zamosc 7.3.1735; 1m: 1703 Anna Dzialynska (+1719); 2m: 1722 Pss Elzbieta Wisniowiecka (*1701 +1770)
+			100110310={ #// C4. Michał Zdzislaw, VI ordynat, lowczy wielki koronny, wojewoda smolenski, *ca 1679, +Zamosc 7.3.1735; 1m: 1703 Anna Dzialynska (+1719); 2m: 1722 Pss Elzbieta Wisniowiecka (*1701 +1770) $$
 				name="Michał Zdzislaw"
 				dynasty=1012001
 				religion=catholic culture=polish
@@ -15386,7 +15401,7 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 				mother=100083594	# Anna Franciszka Gninski
 				1679.01.01={birth=yes}
 				1703.01.01={add_spouse=100086159}	# Anna Dzialynski
-				1722.01.01={add_spouse=wisniow_0078}	# PSS Elzbieta Wisniowiecki
+				1722.01.01={add_spouse=wisniow_0078}	# Elzbieta Wiśniowiecki
 				1735.03.07={death=yes}  # Zamosc
 			}
 				100110330={ #// D2. [1m.] Anna Teresa; m.Jan Ansgary Czapski, wojewoda chelminski i podskarbi wielki koronny
@@ -17194,12 +17209,12 @@ lowborn_3012={ #            Waclaw                    Leszczynski               
 
 ## Czartoryski 1012000
 #czartor1
-czartor_0001={ # D2. Pr Jerzy, Starost of Luck (starosta lucki), *ca 1550, +1626/32; 1m: ca 1580 (div ca 1605) Pss Aleksandra Wisniowiecka (+after 1612); 2m: Halszka Holowinska; 3m: Pss Zofia Lubomirska, dau.of Andrzej Bogumil Lubomirski by Anna Radziwill
+czartor_0001={ # D2. Pr Jerzy, Starost of Luck (starosta lucki), *ca 1550, +1626/32; 1m: ca 1580 (div ca 1605) Pss Aleksandra Wisniowiecka (+after 1612); 2m: Halszka Holowinska; 3m: Pss Zofia Lubomirska, dau.of Andrzej Bogumil Lubomirski by Anna Radziwill $$
 	name="Jerzy"
 	dynasty=1012000
 	religion=catholic culture=polish
 	1550.01.01={birth=yes}
-	1580.01.01={add_spouse=wisniow_0062}	# Isabella Aleksandra
+	1580.01.01={add_spouse=wisniow_0062}	# Isabella Aleksandra Wiśniowiecki
 	1605.01.01={remove_spouse=wisniow_0062}
 	1632.01.01={death=yes}
 }
@@ -17211,8 +17226,8 @@ czartor_0001={ # D2. Pr Jerzy, Starost of Luck (starosta lucki), *ca 1550, +1626
 	name=Mikołaj
 	dynasty=1012000
 	religion=catholic culture=polish
-	father=czartor_0001
-	mother=wisniow_0062
+	father=czartor_0001	# Jerzy Czartoryski
+	mother=wisniow_0062	# Isabella Aleksandra Wiśniowiecki
 	1585.01.01={birth=yes}
 	1617.01.01={add_spouse=100085488}	# PSS Izabella Korecki
 	1661.03.12={death=yes}
@@ -17553,7 +17568,7 @@ czartor_0001={ # D2. Pr Jerzy, Starost of Luck (starosta lucki), *ca 1550, +1626
 					1742.01.01={birth=yes}
 					1792.02.15={death=yes}  # Vienna
 				}
-			100110122={ #// C2. Pss Maria Magdalena, +Opole nr Lwow 4.12.1728; m.1725 Pr Michał Serwacy Wisniowiecki (*1680 +1744)
+			100110122={ #// C2. Pss Maria Magdalena, +Opole nr Lwow 4.12.1728; m.1725 Pr Michał Serwacy Wisniowiecki (*1680 +1744) $$
 				name="Maria Magdalena"
 				female=yes
 				dynasty=1012000
@@ -17594,7 +17609,7 @@ czartor_0001={ # D2. Pr Jerzy, Starost of Luck (starosta lucki), *ca 1550, +1626
 		mother=100111454	# Anna Zofia Sapieha
 		1828.07.03={birth=yes}
 		1855.03.01={add_spouse=100083044}	# Marie de Vista-Alegre
-		1872.01.15={add_spouse=100066685}	# Marguerite Adélaide d’Orléans
+		1872.01.15={add_spouse=100066685}	# Marguerite Adélaide d  Orleans
 		1894.06.23={death=yes}
 	}
 		100110011={ #// 1c) Franciszek Augustyn, Duque de Vista Alegre (Paris 2 Aug 1858-Alassio 8 Apr 1893)
@@ -17611,7 +17626,7 @@ czartor_0001={ # D2. Pr Jerzy, Starost of Luck (starosta lucki), *ca 1550, +1626
 			dynasty=1012000
 			religion=catholic culture=polish
 			father=100110008	# Władysław Czartoryski
-			mother=100066685	# Marguerite Adélaide d’Orléans
+			mother=100066685	# Marguerite Adélaide d  Orleans
 			1872.11.05={birth=yes}
 			1901.08.31={add_spouse=100036552}	# Ludwika Maria Krasinski
 			1937.06.29={death=yes}
@@ -17710,7 +17725,7 @@ czartor_0001={ # D2. Pr Jerzy, Starost of Luck (starosta lucki), *ca 1550, +1626
 			dynasty=1012000
 			religion=catholic culture=polish
 			father=100110008	# Władysław Czartoryski
-			mother=100066685	# Marguerite Adélaide d’Orléans
+			mother=100066685	# Marguerite Adélaide d  Orleans
 			1876.03.10={birth=yes}
 			1911.10.29={death=yes}
 		}
@@ -19144,16 +19159,16 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 		name=Jerzy
 		dynasty=wisniowiecki
 		religion=catholic culture=polish
-		father=wisniow_0001	# Feodor
+		father=wisniow_0001	# Feodor Wiśniowiecki
 		1394.01.01={birth=yes}  # EST.
-		1467.01.01={add_spouse=lowborn_2780}	# Anastasia Muszatowna of Moldova
+		1467.01.01={add_spouse=lowborn_2780}	# PSS Anastasia Muszat of Moldova
 		1464.01.01={death=yes}  # EST.
 	}
 	wisniow_0003={ #// A2. Vasili, Pr of Zbarazh, +before 1463; m.NN (+after 1463)
 		name=Vasili
 		dynasty=wisniowiecki
 		religion=catholic culture=polish
-		father=wisniow_0001	# Feodor
+		father=wisniow_0001	# Feodor Wiśniowiecki
 		1395.01.01={birth=yes}  # EST.
 		1463.01.01={death=yes}  # before
 	}
@@ -19161,7 +19176,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 			name=Vasili
 			dynasty=wisniowiecki
 			religion=catholic culture=polish
-			father=wisniow_0003	# Vasili
+			father=wisniow_0003	# Vasili Wiśniowiecki
 			1420.01.01={birth=yes}  # EST.
 			1473.01.01={death=yes}
 		}
@@ -19169,48 +19184,48 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 				name=Symeon
 				dynasty=wisniowiecki
 				religion=catholic culture=polish
-				father=wisniow_0004	# Vasili
+				father=wisniow_0004	# Vasili Wiśniowiecki
 				1445.01.01={birth=yes}  # EST.
-				1469.01.01={add_spouse=lowborn_2858}	# Katarzyna Cebrowska
+				1469.01.01={add_spouse=lowborn_2858}	# Katarzyna Cebrowski
 				1482.01.01={death=yes}
 			}
 				wisniow_0006={ #// D1. Pr Andrzej Zbaraski, +by 1540; m.ca 1515 Anna Herburtówna (+after 1557)
 					name=Andrzej
 					dynasty=wisniowiecki
 					religion=catholic culture=polish
-					father=wisniow_0005	# Symeon
-					mother=lowborn_2858	# Katarzyna Cebrowska
+					father=wisniow_0005	# Symeon Wiśniowiecki
+					mother=lowborn_2858	# Katarzyna Cebrowski
 					1475.01.01={birth=yes}  # EST.
-					1515.01.01={add_spouse=lowborn_2866}	# Anna Herburtówna
+					1515.01.01={add_spouse=lowborn_2866}	# Anna Herburt
 					1540.01.01={death=yes}
 				}
 					wisniow_0007={ #// E1. Pr Mikolaj Zbaraski, sprawca województwa kijowskiego, starost of Kremenets, +1574; 1m: N Kosiczanka; 2m: 1554 Pss Anna Despotowna of Raska (+2.2.1578)
 						name=Mikolaj
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0006	# Andrzej
-						mother=lowborn_2866	# Anna Herburtówna
+						father=wisniow_0006	# Andrzej Wiśniowiecki
+						mother=lowborn_2866	# Anna Herburt
 						1518.01.01={birth=yes}  # EST.
 						1543.01.01={add_spouse=lowborn_2869}	# N Kosiczanka
-						1554.01.01={add_spouse=lowborn_2872}	# Anna Despotowna of Raska
+						1554.01.01={add_spouse=lowborn_2872}	# PSS Anna Despotowna of Raška
 						1574.01.01={death=yes}
 					}
 						wisniow_0008={ #// F1. [1m.] Pr Janusz Zbaraski, voivode of Braclaw, ambassador to Moscow, starost krzemieniecki i pinski, +1608; m.before 1573 Pss Anna Czetwertynska (+ca 1581)
 							name=Janusz
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0007	# Mikolaj
+							father=wisniow_0007	# Mikolaj Wiśniowiecki
 							mother=lowborn_2869	# N Kosiczanka
 							1544.01.01={birth=yes}  # EST.
-							1573.01.01={add_spouse=lowborn_2876}	# Anna Czetwertynska
+							1573.01.01={add_spouse=lowborn_2876}	# PSS Anna Czetwertynski
 							1608.01.01={death=yes}
 						}
 							wisniow_0009={ #// G1. Pr Jerzy, krajczy koronny, podczaszy koronny, castellan of Krakow, starost piński, sokalski, radohoski, +1631
 								name=Jerzy
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0008	# Janusz
-								mother=lowborn_2876	# Anna Czetwertynska
+								father=wisniow_0008	# Janusz Wiśniowiecki
+								mother=lowborn_2876	# PSS Anna Czetwertynski
 								1574.01.01={birth=yes}  # EST.
 								1631.01.01={death=yes}
 							}
@@ -19218,8 +19233,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								name=Krzysztof
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0008	# Janusz
-								mother=lowborn_2876	# Anna Czetwertynska
+								father=wisniow_0008	# Janusz Wiśniowiecki
+								mother=lowborn_2876	# PSS Anna Czetwertynski
 								1580.01.01={birth=yes}
 								1627.01.01={death=yes}
 							}
@@ -19228,31 +19243,31 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0007	# Mikolaj
+							father=wisniow_0007	# Mikolaj Wiśniowiecki
 							mother=lowborn_2869	# N Kosiczanka
 							1545.01.01={birth=yes}  # EST.
 							1605.01.01={death=yes}  # EST.
 						}
-					wisniow_0012={ #// E2. Pr Stefan Zbaraski, dworzanin królewski, wojewoda witebski, castellan of Trakai, wojewoda trocki, dzierzawca somiliski, zoslenski, rudnicki, dorsuniski, +1585/86; 1m: 1547 Hanna Pss Zabrzezinska (+ca 1556); 2m: 1559 Pss Nastazja Mscislawska (+1580); 3m: 1581 Dorota Firlejowna (+14.3.1591)
+					wisniow_0012={ #// E2. Pr Stefan Zbaraski, dworzanin królewski, wojewoda witebski, castellan of Trakai, wojewoda trocki, dzierzawca somiliski, zoslenski, rudnicki, dorsuniski, +1585/86; 1m: 1547 Hanna Pss Zabrzezinska (+ca 1556); 2m: 1559 Pss Nastazja Mscislawska (+1580); 3m: 1581 Dorota Firlejowna (+14.3.1591) $$
 						name=Stefan
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0006	# Andrzej
-						mother=lowborn_2866	# Anna Herburtówna
+						father=wisniow_0006	# Andrzej Wiśniowiecki
+						mother=lowborn_2866	# Anna Herburt
 						1527.01.01={birth=yes}  # EST.
-						1547.01.01={add_spouse=lowborn_2878}	# Hanna Zabrzezinska
-						1559.01.01={add_spouse=zaslaw_0006}	# Nastazja Mscislawska
-						1581.01.01={add_spouse=lowborn_2880}	# Dorota Firlejowna
+						1547.01.01={add_spouse=lowborn_2878}	# PSS Hanna Zabrzezinska
+						1559.01.01={add_spouse=zaslaw_0006}	# Анастасия Zaslawski
+						1581.01.01={add_spouse=lowborn_2880}	# Dorota Firlej
 						1585.01.01={death=yes}
 					}
 						wisniow_0013={ #// F1. [1m.] Pr Piotr, *1548, +ca 1569; m.1564 Barbara Jordanowna (+1605)
 							name=Piotr
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0012	# Stefan
-							mother=lowborn_2878	# Hanna Zabrzezinska
+							father=wisniow_0012	# Stefan Wiśniowiecki
+							mother=lowborn_2878	# PSS Hanna Zabrzezinska
 							1548.01.01={birth=yes}
-							1564.01.01={add_spouse=lowborn_2881}	# Barbara Jordanowna
+							1564.01.01={add_spouse=lowborn_2881}	# Barbara Jordan
 							1569.01.01={death=yes}
 						}
 						wisniow_0014={ #// F2. [? 3m.] Pss Barbara, *1582, +1602; m.1602 Gabriel Teczynski, miecznik koronny (*1572 +1617)
@@ -19260,8 +19275,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0012	# Stefan
-							mother=lowborn_2880	# Dorota Firlejowna
+							father=wisniow_0012	# Stefan Wiśniowiecki
+							mother=lowborn_2880	# Dorota Firlej
 							1582.01.01={birth=yes}
 							1602.01.01={death=yes}
 						}
@@ -19269,10 +19284,10 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						name=Jerzy
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0006	# Andrzej
-						mother=lowborn_2866	# Anna Herburtówna
+						father=wisniow_0006	# Andrzej Wiśniowiecki
+						mother=lowborn_2866	# Anna Herburt
 						1528.01.01={birth=yes}  # EST.
-						1555.01.01={add_spouse=lowborn_2883}	# Sczesna Felicyanna Nasilowska
+						1555.01.01={add_spouse=lowborn_2883}	# Sczesna Felicyanna Nasilowski
 						1578.01.01={add_spouse=lowborn_2884}	# Barbara Kozinska
 						1580.01.01={death=yes}
 					}
@@ -19280,8 +19295,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							name=Janusz
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0015	# Jerzy
-							mother=lowborn_2883	# Sczesna Felicyanna Nasilowska
+							father=wisniow_0015	# Jerzy Wiśniowiecki
+							mother=lowborn_2883	# Sczesna Felicyanna Nasilowski
 							1553.01.01={birth=yes}  # EST.
 							1580.01.01={death=yes}
 						}
@@ -19290,8 +19305,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0015	# Jerzy
-							mother=lowborn_2883	# Sczesna Felicyanna Nasilowska
+							father=wisniow_0015	# Jerzy Wiśniowiecki
+							mother=lowborn_2883	# Sczesna Felicyanna Nasilowski
 							1558.01.01={birth=yes}  # EST.
 							1606.01.01={death=yes}
 						}
@@ -19300,8 +19315,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0015	# Jerzy
-							mother=lowborn_2883	# Sczesna Felicyanna Nasilowska
+							father=wisniow_0015	# Jerzy Wiśniowiecki
+							mother=lowborn_2883	# Sczesna Felicyanna Nasilowski
 							1559.01.01={birth=yes}  # EST.
 							1619.01.01={death=yes}  # EST.
 						}
@@ -19310,8 +19325,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0015	# Jerzy
-							mother=lowborn_2883	# Sczesna Felicyanna Nasilowska
+							father=wisniow_0015	# Jerzy Wiśniowiecki
+							mother=lowborn_2883	# Sczesna Felicyanna Nasilowski
 							1554.01.01={birth=yes}  # EST.
 							1614.01.01={death=yes}  # EST.
 						}
@@ -19320,8 +19335,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0015	# Jerzy
-							mother=lowborn_2883	# Sczesna Felicyanna Nasilowska
+							father=wisniow_0015	# Jerzy Wiśniowiecki
+							mother=lowborn_2883	# Sczesna Felicyanna Nasilowski
 							1554.01.01={birth=yes}  # EST.
 							1614.01.01={death=yes}  # EST.
 						}
@@ -19329,8 +19344,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						name=Wladislaw
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0006	# Andrzej
-						mother=lowborn_2866	# Anna Herburtówna
+						father=wisniow_0006	# Andrzej Wiśniowiecki
+						mother=lowborn_2866	# Anna Herburt
 						1527.01.01={birth=yes}  # EST.
 						1553.01.01={add_spouse=lowborn_2889}	# Zofia Przyluska
 						1581.01.01={death=yes}
@@ -19339,7 +19354,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							name=Stefan
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0021	# Wladislaw
+							father=wisniow_0021	# Wladislaw Wiśniowiecki
 							mother=lowborn_2889	# Zofia Przyluska
 							1554.01.01={birth=yes}  # EST.
 							1603.01.01={add_spouse=lowborn_2890}	# Katarzyna Sulimianka
@@ -19349,20 +19364,20 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							name=Konstanty
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0021	# Wladislaw
+							father=wisniow_0021	# Wladislaw Wiśniowiecki
 							mother=lowborn_2889	# Zofia Przyluska
 							1554.01.01={birth=yes}  # EST.
-							1579.01.01={add_spouse=lowborn_2891}	# Barbara Chodorowska
+							1579.01.01={add_spouse=lowborn_2891}	# Barbara Chodorowski
 							1608.01.01={death=yes}  # before
 						}
-						wisniow_0024={ #// F3. Pr Piotr, +1603/04; m.1593/94 Pss Ewa Wisniowiecka (+1617/18)
+						wisniow_0024={ #// F3. Pr Piotr, +1603/04; m.1593/94 Pss Ewa Wisniowiecka (+1617/18) $$
 							name=Piotr
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0021	# Wladislaw
+							father=wisniow_0021	# Wladislaw Wiśniowiecki
 							mother=lowborn_2889	# Zofia Przyluska
 							1556.01.01={birth=yes}  # EST.
-							1593.01.01={add_spouse=wisniow_0042}	# Ewa Wisniowiecka
+							1593.01.01={add_spouse=wisniow_0042}	# Ewa Wiśniowiecki
 							1603.01.01={death=yes}
 						}
 						wisniow_0025={ #// F4. Pss Anna, +after 1636; m.Mateusz Malynski
@@ -19370,7 +19385,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0021	# Wladislaw
+							father=wisniow_0021	# Wladislaw Wiśniowiecki
 							mother=lowborn_2889	# Zofia Przyluska
 							1568.01.01={birth=yes}  # EST.
 							1637.01.01={death=yes}
@@ -19380,7 +19395,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0021	# Wladislaw
+							father=wisniow_0021	# Wladislaw Wiśniowiecki
 							mother=lowborn_2889	# Zofia Przyluska
 							1560.01.01={birth=yes}  # EST.
 							1620.01.01={death=yes}  # EST.
@@ -19390,7 +19405,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0021	# Wladislaw
+							father=wisniow_0021	# Wladislaw Wiśniowiecki
 							mother=lowborn_2889	# Zofia Przyluska
 							1562.01.01={birth=yes}  # EST.
 							1622.01.01={death=yes}  # EST.
@@ -19399,8 +19414,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						name=Michal
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0006	# Andrzej
-						mother=lowborn_2866	# Anna Herburtówna
+						father=wisniow_0006	# Andrzej Wiśniowiecki
+						mother=lowborn_2866	# Anna Herburt
 						1529.01.01={birth=yes}  # EST.
 						1555.01.01={death=yes}  # before
 					}
@@ -19409,8 +19424,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						female=yes
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0006	# Andrzej
-						mother=lowborn_2866	# Anna Herburtówna
+						father=wisniow_0006	# Andrzej Wiśniowiecki
+						mother=lowborn_2866	# Anna Herburt
 						1530.01.01={birth=yes}  # EST.
 						1590.01.01={death=yes}  # EST.
 					}
@@ -19419,8 +19434,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						female=yes
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0006	# Andrzej
-						mother=lowborn_2866	# Anna Herburtówna
+						father=wisniow_0006	# Andrzej Wiśniowiecki
+						mother=lowborn_2866	# Anna Herburt
 						1530.01.01={birth=yes}  # EST.
 						1590.01.01={death=yes}  # EST.
 					}
@@ -19429,8 +19444,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 					female=yes
 					dynasty=wisniowiecki
 					religion=catholic culture=polish
-					father=wisniow_0005	# Symeon
-					mother=lowborn_2858	# Katarzyna Cebrowska
+					father=wisniow_0005	# Symeon Wiśniowiecki
+					mother=lowborn_2858	# Katarzyna Cebrowski
 					1470.01.01={birth=yes}  # EST.
 					1530.01.01={death=yes}  # EST.
 				}
@@ -19438,7 +19453,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 				name=Symeon
 				dynasty=wisniowiecki
 				religion=catholic culture=polish
-				father=wisniow_0004	# Vasili
+				father=wisniow_0004	# Vasili Wiśniowiecki
 				1448.01.01={birth=yes}  # EST.
 				1508.01.01={death=yes}  # EST.
 			}
@@ -19446,7 +19461,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 				name=Symeon
 				dynasty=wisniowiecki
 				religion=catholic culture=polish
-				father=wisniow_0004	# Vasili
+				father=wisniow_0004	# Vasili Wiśniowiecki
 				1449.01.01={birth=yes}  # EST.
 				1509.01.01={death=yes}  # EST.
 			}
@@ -19454,28 +19469,28 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 				name=Michal
 				dynasty=wisniowiecki
 				religion=catholic culture=polish
-				father=wisniow_0004	# Vasili
+				father=wisniow_0004	# Vasili Wiśniowiecki
 				1448.01.01={birth=yes}  # EST.
-				1473.01.01={add_spouse=lowborn_2902}	# N Polubinska cousin of Zofia z Rohatyna Radziwill
+				1473.01.01={add_spouse=lowborn_2902}	# PSS N Polubinski
 				1517.01.01={death=yes}
 			}
 				wisniow_0035={ #// D1. [1m.] Feodor, Pr of Vishnevtsy, dzierzawca czeczerski i propojski 1524, +1533; 1m: N (+before 1523), dau.of Stefan, wojewoda woloski; 2m: before 1533 Nastazja Pss Zilinska (+before 1535)
 					name=Feodor
 					dynasty=wisniowiecki
 					religion=catholic culture=polish
-					father=wisniow_0034	# Michal
-					mother=lowborn_2902	# N Polubinska cousin of Zofia z Rohatyna Radziwill
+					father=wisniow_0034	# Michal Wiśniowiecki
+					mother=lowborn_2902	# PSS N Polubinski
 					1474.01.01={birth=yes}  # EST.
-					1498.01.01={add_spouse=lowborn_2907}	# N
-					1533.01.01={add_spouse=lowborn_2908}	# Nastazja Zilinska
+					1498.01.01={add_spouse=lowborn_2907}	# N Muszat
+					1533.01.01={add_spouse=lowborn_2908}	# PSS Nastazja Zilinski
 					1533.01.01={death=yes}
 				}
 				wisniow_0036={ #// D2. [2m.] Pr Aleksander Wisniowiecki, starost rzeczycki, +1555; m.before 1529 Katarzyna Scorucianka (+after 1568)
 					name=Aleksander
 					dynasty=wisniowiecki
 					religion=catholic culture=polish
-					father=wisniow_0034	# Michal
-					mother=lowborn_2902	# N Polubinska cousin of Zofia z Rohatyna Radziwill
+					father=wisniow_0034	# Michal Wiśniowiecki
+					mother=lowborn_2902	# PSS N Polubinski
 					1488.01.01={birth=yes}  # EST.
 					1529.01.01={add_spouse=lowborn_2910}	# Katarzyna Scorucianka
 					1555.01.01={death=yes}
@@ -19484,7 +19499,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						name=Maksim
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0036	# Aleksander
+						father=wisniow_0036	# Aleksander Wiśniowiecki
 						mother=lowborn_2910	# Katarzyna Scorucianka
 						1530.01.01={birth=yes}  # EST.
 						1565.01.01={death=yes}
@@ -19493,7 +19508,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						name=Aleksander
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0036	# Aleksander
+						father=wisniow_0036	# Aleksander Wiśniowiecki
 						mother=lowborn_2910	# Katarzyna Scorucianka
 						1543.01.01={birth=yes}
 						1566.01.01={add_spouse=lowborn_2911}	# Aleksandra Kapuscianka
@@ -19503,10 +19518,10 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							name=Adam
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0038	# Aleksander
+							father=wisniow_0038	# Aleksander Wiśniowiecki
 							mother=lowborn_2911	# Aleksandra Kapuscianka
 							1566.01.01={birth=yes}
-							1601.01.01={add_spouse=lowborn_2913}	# Aleksandra Chodkiewiczowna
+							1601.01.01={add_spouse=lowborn_2913}	# Aleksandra Chodkiewicz
 							1622.01.01={death=yes}
 						}
 							wisniow_0040={ #// G1. Pss Krystyna, +1654; 1m: by 1631 Piotr Danilowicz (+1645), krajczy koronny; 2m: Mikolaj Jelo Malinski
@@ -19514,27 +19529,27 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								female=yes
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0039	# Adam
-								mother=lowborn_2913	# Aleksandra Chodkiewiczowna
+								father=wisniow_0039	# Adam Wiśniowiecki
+								mother=lowborn_2913	# Aleksandra Chodkiewicz
 								1603.01.01={birth=yes}  # EST.
 								1654.01.01={death=yes}
 							}
-								wisniow_0041={ #// H1. Urszula Danilowiczowna; 1m: 1667 Jan Potocki (+1676); 2m: 1683 Wladislaw Jozefat Sapieha (+13.3.1733)
+								wisniow_0041={ #// H1. Urszula Danilowiczowna; 1m: 1667 Jan Potocki (+1676); 2m: 1683 Wladislaw Jozefat Sapieha (+13.3.1733) $$
 									name=Urszula
 									female=yes
 									dynasty=wisniowiecki
 									religion=catholic culture=polish
-									father=lowborn_2914
-									mother=wisniow_0040	# Krystyna
+									father=lowborn_2914	# Piotr Danilowicz
+									mother=wisniow_0040	# Krystyna Wiśniowiecki
 									1628.01.01={birth=yes}  # EST.
 									1688.01.01={death=yes}  # EST.
 								}
-						wisniow_0042={ #// F2. Pss Ewa, +1617/18; m.before 1594 Pr Piotr Zbarazski (+1603/04)
+						wisniow_0042={ #// F2. Pss Ewa, +1617/18; m.before 1594 Pr Piotr Zbarazski (+1603/04) $$
 							name=Ewa
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0038	# Aleksander
+							father=wisniow_0038	# Aleksander Wiśniowiecki
 							mother=lowborn_2911	# Aleksandra Kapuscianka
 							1568.01.01={birth=yes}  # EST.
 							1617.01.01={death=yes}
@@ -19543,7 +19558,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						name=Michal
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0036	# Aleksander
+						father=wisniow_0036	# Aleksander Wiśniowiecki
 						mother=lowborn_2910	# Katarzyna Scorucianka
 						1529.01.01={birth=yes}
 						1561.01.01={add_spouse=lowborn_2934}	# Halzska Zenowiczowna
@@ -19553,58 +19568,58 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							name=Aleksander
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0043	# Michal
+							father=wisniow_0043	# Michal Wiśniowiecki
 							mother=lowborn_2934	# Halzska Zenowiczowna
 							1562.01.01={birth=yes}  # EST.
-							1586.01.01={add_spouse=lowborn_2935}	# Helena Jelowicka
+							1586.01.01={add_spouse=lowborn_2935}	# Helena Jelowicki
 							1594.01.01={death=yes}  # Istanbul
 						}
 						wisniow_0045={ #// F2. Pr Jerzy, kasztelan kijowski 1609, +1617/18; m.Teodora Cziaplicowna
 							name=Jerzy
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0043	# Michal
+							father=wisniow_0043	# Michal Wiśniowiecki
 							mother=lowborn_2934	# Halzska Zenowiczowna
 							1565.01.01={birth=yes}  # EST.
-							1590.01.01={add_spouse=lowborn_2937}	# Teodora Cziaplicowna
+							1590.01.01={add_spouse=lowborn_2937}	# Teodora Cziaplic
 							1617.01.01={death=yes}
 						}
 						wisniow_0046={ #// F3. Pr Michal Wisniowiecki, starost of Ovruch (starosta owrucki), +1616; m.before 1606 Regina Mohylanka Pss of Walachia (*1588, +after 18.1.1619), dau.of Jeremias Mohyla by Erzsebet Csomortany
 							name=Michal
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0043	# Michal
+							father=wisniow_0043	# Michal Wiśniowiecki
 							mother=lowborn_2934	# Halzska Zenowiczowna
 							1566.01.01={birth=yes}  # EST.
-							1606.01.01={add_spouse=lowborn_2939}	# Regina Mohylanka of Walachia
+							1606.01.01={add_spouse=lowborn_2939}	# PSS Regina Mohylanka of Walachia
 							1616.01.01={death=yes}
 						}
 							wisniow_0047={ #// G1. Pr Jeremiasz Michal, voivode of Ruthenia, starost of Przemysl and Kanev, *1612, +22.8.1651; m.1639 Gryzelda Konstancja Zamoyska (*1623 +1672)
 								name="Jeremiasz Michal"
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0046	# Michal
-								mother=lowborn_2939	# Regina Mohylanka of Walachia
+								father=wisniow_0046	# Michal Wiśniowiecki
+								mother=lowborn_2939	# PSS Regina Mohylanka of Walachia
 								1612.01.01={birth=yes}
-								1639.01.01={add_spouse=lowborn_2940}	# Gryzelda Konstancja Zamoyska
+								1639.01.01={add_spouse=zamoyski_2940}	# Gryzelda Zamoyska
 								1651.08.22={death=yes}
 							}
-								wisniow_0048={ #// H1. Pr Michal Korybut, -cr King of Poland and Grand Duke of Lithuania as Michal I, *18.6.1640, +Lwow 10.11.1673; m.Warsaw 27.2.1670 Eleonora Maria Jozefa of Austria (*31.5.1653, +17.12.1697)
+								wisniow_0048={ #// H1. Pr Michal Korybut, -cr King of Poland and Grand Duke of Lithuania as Michal I, *18.6.1640, +Lwow 10.11.1673; m.Warsaw 27.2.1670 Eleonora Maria Jozefa of Austria (*31.5.1653, +17.12.1697) $$
 									name="Michal Korybut"
 									dynasty=wisniowiecki
 									religion=catholic culture=polish
-									father=wisniow_0047	# Jeremiasz Michal
-									mother=lowborn_2940	# Gryzelda Konstancja Zamoyska
+									father=wisniow_0047	# Jeremiasz Michal Wiśniowiecki
+									mother=zamoyski_2940	# Gryzelda Zamoyska
 									1640.06.18={birth=yes}
-									1670.02.27={add_spouse=100021297}	# Eleonora of Austria
+									1670.02.27={add_spouse=100021297}	# Eleonore von Habsburg
 									1673.11.10={death=yes}  # Lwow
 								}
 							wisniow_0049={ #// G2. Pr Aleksander Roman, fl 1629
 								name="Aleksander Roman"
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0046	# Michal
-								mother=lowborn_2939	# Regina Mohylanka of Walachia
+								father=wisniow_0046	# Michal Wiśniowiecki
+								mother=lowborn_2939	# PSS Regina Mohylanka of Walachia
 								1614.01.01={birth=yes}  # EST.
 								1664.01.01={death=yes}  # EST.
 							}
@@ -19612,8 +19627,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								name="Jerzy Krzysztof"
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0046	# Michal
-								mother=lowborn_2939	# Regina Mohylanka of Walachia
+								father=wisniow_0046	# Michal Wiśniowiecki
+								mother=lowborn_2939	# PSS Regina Mohylanka of Walachia
 								1616.01.01={birth=yes}  # EST.
 								1664.01.01={death=yes}  # EST.
 							}
@@ -19622,8 +19637,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								female=yes
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0046	# Michal
-								mother=lowborn_2939	# Regina Mohylanka of Walachia
+								father=wisniow_0046	# Michal Wiśniowiecki
+								mother=lowborn_2939	# PSS Regina Mohylanka of Walachia
 								1617.01.01={birth=yes}  # EST.
 								1677.01.01={death=yes}  # EST.
 							}
@@ -19632,7 +19647,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0043	# Michal
+							father=wisniow_0043	# Michal Wiśniowiecki
 							mother=lowborn_2934	# Halzska Zenowiczowna
 							1569.01.01={birth=yes}  # EST.
 							1629.01.01={death=yes}  # EST.
@@ -19642,7 +19657,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0043	# Michal
+							father=wisniow_0043	# Michal Wiśniowiecki
 							mother=lowborn_2934	# Halzska Zenowiczowna
 							1571.01.01={birth=yes}  # EST.
 							1631.01.01={death=yes}  # EST.
@@ -19652,7 +19667,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						female=yes
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0036	# Aleksander
+						father=wisniow_0036	# Aleksander Wiśniowiecki
 						mother=lowborn_2910	# Katarzyna Scorucianka
 						1533.01.01={birth=yes}  # EST.
 						1593.01.01={death=yes}  # EST.
@@ -19661,30 +19676,30 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 					name=Feodor
 					dynasty=wisniowiecki
 					religion=catholic culture=polish
-					father=wisniow_0034	# Michal
-					mother=lowborn_2902	# N Polubinska cousin of Zofia z Rohatyna Radziwill
+					father=wisniow_0034	# Michal Wiśniowiecki
+					mother=lowborn_2902	# PSS N Polubinski
 					1479.01.01={birth=yes}  # EST.
-					1530.01.01={add_spouse=lowborn_2977}	# Bohdana Holszanska Dubrowicka
-					1534.01.01={add_spouse=lowborn_2979}	# Maria Putiatianka
+					1530.01.01={add_spouse=lowborn_2977}	# PSS Bohdana Holszanska Dubrowicka
+					1534.01.01={add_spouse=lowborn_2979}	# PSS Maria Путятин
 					1549.01.01={death=yes}
 				}
 				wisniow_0056={ #// D4. [1m.] Pr Iwan Wisniowiecki, dworzanin królewski 1522, dzierzawca ejszyski, wornianski, czeczerski i propojski, +ca 1542; 1m: after 1516 Nastazja Olizarowiczowna (+ca 1536), dau.of Semen Olizarowicz; 2m: ca 1538 Pss Magdalena Despotowna Brankovic (+13.7.1575)
 					name=Iwan
 					dynasty=wisniowiecki
 					religion=catholic culture=polish
-					father=wisniow_0034	# Michal
-					mother=lowborn_2902	# N Polubinska cousin of Zofia z Rohatyna Radziwill
+					father=wisniow_0034	# Michal Wiśniowiecki
+					mother=lowborn_2902	# PSS N Polubinski
 					1484.01.01={birth=yes}  # EST.
-					1517.01.01={add_spouse=lowborn_2983}	# Nastazja Olizarowiczowna
-					1538.01.01={add_spouse=lowborn_2991}	# Magdalena Brankovic Despotowna
+					1517.01.01={add_spouse=lowborn_2983}	# Nastazja Olizarowicz
+					1538.01.01={add_spouse=lowborn_2991}	# PSS Magdalena Despotowna Brankovic
 					1542.01.01={death=yes}
 				}
 					wisniow_0057={ #// E1. [1m.] Pr Dymitr, hetman of Zaporozhye, elected Grand Duke of Walachia, dzierzawca woniaczynski, +executed Istanbul 1564
 						name=Dymitr
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0056	# Iwan
-						mother=lowborn_2983	# Nastazja Olizarowiczowna
+						father=wisniow_0056	# Iwan Wiśniowiecki
+						mother=lowborn_2983	# Nastazja Olizarowicz
 						1520.01.01={birth=yes}  # EST.
 						1564.01.01={death=yes}
 					}
@@ -19693,8 +19708,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						female=yes
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0056	# Iwan
-						mother=lowborn_2983	# Nastazja Olizarowiczowna
+						father=wisniow_0056	# Iwan Wiśniowiecki
+						mother=lowborn_2983	# Nastazja Olizarowicz
 						1520.01.01={birth=yes}  # EST.
 						1580.01.01={death=yes}  # before
 					}
@@ -19702,8 +19717,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						name=Andrzej
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0056	# Iwan
-						mother=lowborn_2983	# Nastazja Olizarowiczowna
+						father=wisniow_0056	# Iwan Wiśniowiecki
+						mother=lowborn_2983	# Nastazja Olizarowicz
 						1522.01.01={birth=yes}  # EST.
 						1555.01.01={add_spouse=lowborn_2995}	# Eufemia Wierzbicka
 						1584.01.01={death=yes}
@@ -19713,7 +19728,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0059	# Andrzej
+							father=wisniow_0059	# Andrzej Wiśniowiecki
 							mother=lowborn_2995	# Eufemia Wierzbicka
 							1559.01.01={birth=yes}  # EST.
 							1595.01.01={death=yes}
@@ -19723,27 +19738,27 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0059	# Andrzej
+							father=wisniow_0059	# Andrzej Wiśniowiecki
 							mother=lowborn_2995	# Eufemia Wierzbicka
 							1559.01.01={birth=yes}  # EST.
 							1619.01.01={death=yes}
 						}
-						wisniow_0062={ #// F3. Pss Isabella Aleksandra, +after 1612; 1m: ca 1580 (div ca 1605) Pr Jerzy Czartoryski (+1632); 2m: Jan Lahodowski, kasztelan wolynski
+						wisniow_0062={ #// F3. Pss Isabella Aleksandra, +after 1612; 1m: ca 1580 (div ca 1605) Pr Jerzy Czartoryski (+1632); 2m: Jan Lahodowski, kasztelan wolynski $$
 							name="Isabella Aleksandra"
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0059	# Andrzej
+							father=wisniow_0059	# Andrzej Wiśniowiecki
 							mother=lowborn_2995	# Eufemia Wierzbicka
 							1560.01.01={birth=yes}  # EST.
 							1613.01.01={death=yes}
 						}
-						wisniow_0063={ #// F4. Pss Halszka Elzbieta Eufemia, *1569, +Biala Podlaska 9.11.1596; m.Derevenya 24.11.1584 Pr Mikolaj Krzysztof Radziwill (*2.8.1549 +28.2.1616)
+						wisniow_0063={ #// F4. Pss Halszka Elzbieta Eufemia, *1569, +Biala Podlaska 9.11.1596; m.Derevenya 24.11.1584 Pr Mikolaj Krzysztof Radziwill (*2.8.1549 +28.2.1616) $$
 							name="Elzbieta Eufemia"
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0059	# Andrzej
+							father=wisniow_0059	# Andrzej Wiśniowiecki
 							mother=lowborn_2995	# Eufemia Wierzbicka
 							1569.01.01={birth=yes}
 							1596.11.09={death=yes}  # Biala Podlaska
@@ -19752,8 +19767,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						name=Konstanty
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0056	# Iwan
-						mother=lowborn_2983	# Nastazja Olizarowiczowna
+						father=wisniow_0056	# Iwan Wiśniowiecki
+						mother=lowborn_2983	# Nastazja Olizarowicz
 						1524.01.01={birth=yes}  # EST.
 						1549.01.01={add_spouse=lowborn_3003}	# Anna Elzbieta z Olchowca Swierszczowna
 						1574.01.01={death=yes}
@@ -19762,34 +19777,34 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							name=Konstanty
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0066	# Konstanty
+							father=wisniow_0066	# Konstanty Wiśniowiecki
 							mother=lowborn_3003	# Anna Elzbieta z Olchowca Swierszczowna
 							1564.01.01={birth=yes}
 							1583.01.01={add_spouse=lowborn_3004}	# Anna Zahorowska
-							1603.01.01={add_spouse=lowborn_3005}	# Urszula Marina Mnisek sister of Czarina of Russia
-							1626.01.01={add_spouse=lowborn_3006}	# Katarzyna Korniaktowna
-							1636.01.01={add_spouse=lowborn_3007}	# Krystyna Strusiowna
+							1603.01.01={add_spouse=lowborn_3005}	# Urszula Marina Mniszek
+							1626.01.01={add_spouse=lowborn_3006}	# Katarzyna Korniakt
+							1636.01.01={add_spouse=lowborn_3007}	# Krystyna Strusiow
 							1641.01.01={death=yes}
 						}
 							wisniow_0068={ #// G1. [1m.] Pr Janusz Wisniowiecki, koniuszy wielki koronny, starost of Kremenets, etc, *1598, +1636; m.1627 Katarzyna Eugeneia Tyszkiewicz (+after 1542)
 								name=Janusz
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0067	# Konstanty
+								father=wisniow_0067	# Konstanty Wiśniowiecki
 								mother=lowborn_3004	# Anna Zahorowska
 								1598.01.01={birth=yes}
 								1627.01.01={add_spouse=lowborn_3008}	# Katarzyna Eugeneia Tyszkiewicz
 								1636.01.01={death=yes}
 							}
-								wisniow_0069={ #// H1. Pr Dymitr Jerzy, strażnik koronny, wojewoda belski, hetman polny koronny, great crown hetman, wojewoda krakowski, castellan of Krakow, starost bialocerkwicki, kamionacki, solecki, strumilowski, brahimski i lubomelski, *1631, +1682; 1m: Marianna Zamoyska (+1668); 2m: 1671 Pss Teofila Zaslawska (+18.12.1709)
+								wisniow_0069={ #// H1. Pr Dymitr Jerzy, strażnik koronny, wojewoda belski, hetman polny koronny, great crown hetman, wojewoda krakowski, castellan of Krakow, starost bialocerkwicki, kamionacki, solecki, strumilowski, brahimski i lubomelski, *1631, +1682; 1m: Marianna Zamoyska (+1668); 2m: 1671 Pss Teofila Zaslawska (+18.12.1709) $$
 									name="Dymitr Jerzy"
 									dynasty=wisniowiecki
 									religion=catholic culture=polish
-									father=wisniow_0068	# Janusz
+									father=wisniow_0068	# Janusz Wiśniowiecki
 									mother=lowborn_3008	# Katarzyna Eugeneia Tyszkiewicz
 									1631.01.01={birth=yes}
-									1651.01.01={add_spouse=100110318}	# Marianna Zamoyska
-									1671.01.01={add_spouse=lowborn_3010}	# Teofila Zaslawska
+									1651.01.01={add_spouse=100110318}	# Marianna Zamoyski
+									1671.01.01={add_spouse=lowborn_3010}	# PSS Teofila Ludwika Zaslawski
 									1682.01.01={death=yes}
 								}
 									wisniow_0070={ #// I1. [1m.] Pss Eugenia Katarzyna, +1669; m.Stanislaw Koniecpolski, kasztelan krakowski
@@ -19797,8 +19812,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 										female=yes
 										dynasty=wisniowiecki
 										religion=catholic culture=polish
-										father=wisniow_0069	# Dymitr Jerzy
-										mother=100110318	# Marianna Zamoyska
+										father=wisniow_0069	# Dymitr Jerzy Wiśniowiecki
+										mother=100110318	# Marianna Zamoyski
 										1652.01.01={birth=yes}  # EST.
 										1669.01.01={death=yes}
 									}
@@ -19806,8 +19821,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 										name="Dymitr Janusz"
 										dynasty=wisniowiecki
 										religion=catholic culture=polish
-										father=wisniow_0069	# Dymitr Jerzy
-										mother=100110318	# Marianna Zamoyska
+										father=wisniow_0069	# Dymitr Jerzy Wiśniowiecki
+										mother=100110318	# Marianna Zamoyski
 										1653.01.01={birth=yes}  # EST.
 										1671.01.01={death=yes}
 									}
@@ -19816,8 +19831,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 										female=yes
 										dynasty=wisniowiecki
 										religion=catholic culture=polish
-										father=wisniow_0069	# Dymitr Jerzy
-										mother=100110318	# Marianna Zamoyska
+										father=wisniow_0069	# Dymitr Jerzy Wiśniowiecki
+										mother=100110318	# Marianna Zamoyski
 										1655.01.01={birth=yes}
 										1681.01.01={death=yes}
 									}
@@ -19825,29 +19840,29 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 									name="Konstanty Krzysztof"
 									dynasty=wisniowiecki
 									religion=catholic culture=polish
-									father=wisniow_0068	# Janusz
+									father=wisniow_0068	# Janusz Wiśniowiecki
 									mother=lowborn_3008	# Katarzyna Eugeneia Tyszkiewicz
 									1633.01.01={birth=yes}
-									1659.01.01={add_spouse=lowborn_3013}	# Urszula Teresa Mniszchowna
-									1669.01.01={add_spouse=lowborn_3014}	# Anna Chodorowska
+									1659.01.01={add_spouse=lowborn_3013}	# Urszula Teresa Mniszech
+									1669.01.01={add_spouse=lowborn_3014}	# Anna Chodorowski
 									1686.01.01={death=yes}
 								}
 									wisniow_0074={ #// I1. Pr Janusz Antoni, podczaszy litewski 1697, marszalek nadworny litewski 1699, kasztelan wileński, castellan of Krakow 1726, voivode of Vilnius, wojewoda krakowski, starost pinski, *1678, +1741; m.1704 Teofila Leszczynska (*1680 +1757)
 										name="Janusz Antoni"
 										dynasty=wisniowiecki
 										religion=catholic culture=polish
-										father=wisniow_0073	# Konstanty Krzysztof
-										mother=lowborn_3013	# Urszula Teresa Mniszchowna
+										father=wisniow_0073	# Konstanty Krzysztof Wiśniowiecki
+										mother=lowborn_3013	# Urszula Teresa Mniszech
 										1678.01.01={birth=yes}
 										1704.01.01={add_spouse=lowborn_3016}	# Teofila Leszczynska
 										1741.01.01={death=yes}
 									}
-										wisniow_0075={ #// J1. Pss Urszula Franciszka, *Czartorysk 13.2.1705, +Pucewicze 23.5.1753; m.Belaya Krinitsa 23.4.1725 Pr Michal Kazimierz Radziwill (*13.6.1702 +15.5.1762)
+										wisniow_0075={ #// J1. Pss Urszula Franciszka, *Czartorysk 13.2.1705, +Pucewicze 23.5.1753; m.Belaya Krinitsa 23.4.1725 Pr Michal Kazimierz Radziwill (*13.6.1702 +15.5.1762) $$
 											name="Urszula Franciszka"
 											female=yes
 											dynasty=wisniowiecki
 											religion=catholic culture=polish
-											father=wisniow_0074	# Janusz Antoni
+											father=wisniow_0074	# Janusz Antoni Wiśniowiecki
 											mother=lowborn_3016	# Teofila Leszczynska
 											1705.02.13={birth=yes}  # Czartorysk
 											1753.05.23={death=yes}  # Pucewicze
@@ -19857,21 +19872,21 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 										female=yes
 										dynasty=wisniowiecki
 										religion=catholic culture=polish
-										father=wisniow_0073	# Konstanty Krzysztof
-										mother=lowborn_3013	# Urszula Teresa Mniszchowna
+										father=wisniow_0073	# Konstanty Krzysztof Wiśniowiecki
+										mother=lowborn_3013	# Urszula Teresa Mniszech
 										1677.01.01={birth=yes}  # EST.
 										1737.01.01={death=yes}  # EST.
 									}
-									wisniow_0076={ #// I3. [2m.] Pr Michal Serwacy, great hetman of Lithuania, kasztelan wilenski, hetman wielki litewski, wojewoda wilenski, kanclerz wielki litewski, regimentarz wojsk litewskich, starost pinski, wolkowski, glinianski, tucholski, wilkiski, wilkowski, kirsnienski, metelski i merecki, *1680, +1744; 1m: 1695 Katarzyna Dolska (+1725); 2m: 1725 Pss Maria Magdalena Czartoryska (+4.12.1728); 3m: 21.2.1730 Pss Thekla Roza Radziwillowna (*5.9.1703, +25.11.1747)
+									wisniow_0076={ #// I3. [2m.] Pr Michal Serwacy, great hetman of Lithuania, kasztelan wilenski, hetman wielki litewski, wojewoda wilenski, kanclerz wielki litewski, regimentarz wojsk litewskich, starost pinski, wolkowski, glinianski, tucholski, wilkiski, wilkowski, kirsnienski, metelski i merecki, *1680, +1744; 1m: 1695 Katarzyna Dolska (+1725); 2m: 1725 Pss Maria Magdalena Czartoryska (+4.12.1728); 3m: 21.2.1730 Pss Thekla Roza Radziwillowna (*5.9.1703, +25.11.1747) $$
 										name="Michal Serwacy"
 										dynasty=wisniowiecki
 										religion=catholic culture=polish
-										father=wisniow_0073	# Konstanty Krzysztof
-										mother=lowborn_3013	# Urszula Teresa Mniszchowna
+										father=wisniow_0073	# Konstanty Krzysztof Wiśniowiecki
+										mother=lowborn_3013	# Urszula Teresa Mniszech
 										1680.01.01={birth=yes}
 										1695.01.01={add_spouse=lowborn_3018}	# Katarzyna Dolska
-										1725.01.01={add_spouse=100110122}	# Maria Magdalena Czartoryska
-										1730.02.21={add_spouse=100110691}	# Thekla Roza Radziwillowna
+										1725.01.01={add_spouse=100110122}	# Maria Magdalena Czartoryski
+										1730.02.21={add_spouse=100110691}	# Tekla Róza Radziwiłł
 										1744.01.01={death=yes}
 									}
 										wisniow_0077={ #// J1. [1m.] Pss Anna, *1699, +1732; m.1721 Jozef Pr Oginski (+3.12.1736), wojewoda trocki
@@ -19879,17 +19894,17 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 											female=yes
 											dynasty=wisniowiecki
 											religion=catholic culture=polish
-											father=wisniow_0076	# Michal
+											father=wisniow_0076	# Michal Serwacy Wiśniowiecki
 											mother=lowborn_3018	# Katarzyna Dolska
 											1699.01.01={birth=yes}
 											1732.01.01={death=yes}
 										}
-										wisniow_0078={ #// J2. [1m.] Pss Barbara Elzbieta, *1701, +1770; m.1722 Michal Zdzislaw Zamoyski (*1679, +7.3.1735)
+										wisniow_0078={ #// J2. [1m.] Pss Barbara Elzbieta, *1701, +1770; m.1722 Michal Zdzislaw Zamoyski (*1679, +7.3.1735) $$
 											name="Elzbieta"
 											female=yes
 											dynasty=wisniowiecki
 											religion=catholic culture=polish
-											father=wisniow_0076	# Michal
+											father=wisniow_0076	# Michal Serwacy Wiśniowiecki
 											mother=lowborn_3018	# Katarzyna Dolska
 											1701.01.01={birth=yes}
 											1770.01.01={death=yes}
@@ -19899,7 +19914,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								female=yes
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0067	# Konstanty
+								father=wisniow_0067	# Konstanty Wiśniowiecki
 								mother=lowborn_3004	# Anna Zahorowska
 								1603.01.01={birth=yes}  # EST.
 								1663.01.01={death=yes}  # EST.
@@ -19909,7 +19924,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								female=yes
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0067	# Konstanty
+								father=wisniow_0067	# Konstanty Wiśniowiecki
 								mother=lowborn_3004	# Anna Zahorowska
 								1584.01.01={birth=yes}
 								1624.01.01={death=yes}
@@ -19918,18 +19933,18 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								name=Jerzy
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0067	# Konstanty
+								father=wisniow_0067	# Konstanty Wiśniowiecki
 								mother=lowborn_3004	# Anna Zahorowska
 								1604.01.01={birth=yes}  # EST.
 								1639.01.01={add_spouse=lowborn_3026}	# Euphrozyna Eulalia Tarnowska
 								1641.01.01={death=yes}
 							}
-								wisniow_0083={ #// H1. Pss Konstancja, +1669; m.ca 1656 Samuel Leszczynski (*1637, +1676)
+								wisniow_0083={ #// H1. Pss Konstancja, +1669; m.ca 1656 Samuel Leszczynski (*1637, +1676) $$
 									name=Konstancja
 									female=yes
 									dynasty=wisniowiecki
 									religion=catholic culture=polish
-									father=wisniow_0082	# Jerzy
+									father=wisniow_0082	# Jerzy Wiśniowiecki
 									mother=lowborn_3026	# Euphrozyna Eulalia Tarnowska
 									1641.01.01={birth=yes}  # EST.
 									1669.01.01={death=yes}
@@ -19938,7 +19953,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								name=Aleksander
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0067	# Konstanty
+								father=wisniow_0067	# Konstanty Wiśniowiecki
 								mother=lowborn_3004	# Anna Zahorowska
 								1604.01.01={birth=yes}  # EST.
 								1639.01.01={death=yes}
@@ -19948,7 +19963,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								female=yes
 								dynasty=wisniowiecki
 								religion=catholic culture=polish
-								father=wisniow_0067	# Konstanty
+								father=wisniow_0067	# Konstanty Wiśniowiecki
 								mother=lowborn_3004	# Anna Zahorowska
 								1604.01.01={birth=yes}  # EST.
 								1664.01.01={death=yes}  # EST.
@@ -19958,17 +19973,17 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0066	# Konstanty
+							father=wisniow_0066	# Konstanty Wiśniowiecki
 							mother=lowborn_3003	# Anna Elzbieta z Olchowca Swierszczowna
 							1565.01.01={birth=yes}  # EST.
 							1582.01.01={death=yes}  # before
 						}
-						wisniow_0087={ #// F3. Pss Anna; m.1591/93 Jan Saryusz Zamoyski (+1619)
+						wisniow_0087={ #// F3. Pss Anna; m.1591/93 Jan Saryusz Zamoyski (+1619) $$
 							name=Anna
 							female=yes
 							dynasty=wisniowiecki
 							religion=catholic culture=polish
-							father=wisniow_0066	# Konstanty
+							father=wisniow_0066	# Konstanty Wiśniowiecki
 							mother=lowborn_3003	# Anna Elzbieta z Olchowca Swierszczowna
 							1567.01.01={birth=yes}  # EST.
 							1627.01.01={death=yes}  # EST.
@@ -19977,8 +19992,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						name=Zygmunt
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0056	# Iwan
-						mother=lowborn_2983	# Nastazja Olizarowiczowna
+						father=wisniow_0056	# Iwan Wiśniowiecki
+						mother=lowborn_2983	# Nastazja Olizarowicz
 						1526.01.01={birth=yes}  # EST.
 						1552.01.01={death=yes}
 					}
@@ -19987,8 +20002,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						female=yes
 						dynasty=wisniowiecki
 						religion=catholic culture=polish
-						father=wisniow_0056	# Iwan
-						mother=lowborn_2983	# Nastazja Olizarowiczowna
+						father=wisniow_0056	# Iwan Wiśniowiecki
+						mother=lowborn_2983	# Nastazja Olizarowicz
 						1539.01.01={birth=yes}  # EST.
 						1599.01.01={death=yes}  # EST.
 					}
@@ -19996,7 +20011,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 				name=Feodor
 				dynasty=wisniowiecki
 				religion=catholic culture=polish
-				father=wisniow_0004	# Vasili
+				father=wisniow_0004	# Vasili Wiśniowiecki
 				1451.01.01={birth=yes}  # EST.
 				1511.01.01={death=yes}  # EST.
 			}
@@ -20005,7 +20020,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 				female=yes
 				dynasty=wisniowiecki
 				religion=catholic culture=polish
-				father=wisniow_0004	# Vasili
+				father=wisniow_0004	# Vasili Wiśniowiecki
 				1450.01.01={birth=yes}  # EST.
 				1510.01.01={death=yes}  # EST.
 			}
@@ -20013,7 +20028,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 			name=Symeon
 			dynasty=wisniowiecki
 			religion=catholic culture=polish
-			father=wisniow_0003	# Vasili
+			father=wisniow_0003	# Vasili Wiśniowiecki
 			1423.01.01={birth=yes}  # EST.
 			1460.01.01={add_spouse=lowborn_3033}	# Maria Rowienska
 			1481.01.01={death=yes}
@@ -20023,7 +20038,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 				female=yes
 				dynasty=wisniowiecki
 				religion=catholic culture=polish
-				father=wisniow_0092	# Symeon
+				father=wisniow_0092	# Symeon Wiśniowiecki
 				mother=lowborn_3033	# Maria Rowienska
 				1463.01.01={birth=yes}  # EST.
 				1523.01.01={death=yes}  # EST.
@@ -20032,7 +20047,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 				name=Vasili
 				dynasty=wisniowiecki
 				religion=catholic culture=polish
-				father=wisniow_0092	# Symeon
+				father=wisniow_0092	# Symeon Wiśniowiecki
 				mother=lowborn_3033	# Maria Rowienska
 				1463.01.01={birth=yes}  # EST.
 				1523.01.01={death=yes}  # EST.
@@ -20041,7 +20056,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 			name=Soltan
 			dynasty=wisniowiecki
 			religion=catholic culture=polish
-			father=wisniow_0003	# Vasili
+			father=wisniow_0003	# Vasili Wiśniowiecki
 			1424.01.01={birth=yes}  # EST.
 			1472.01.01={death=yes}
 		}
@@ -20049,7 +20064,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 		name=Jan
 		dynasty=wisniowiecki
 		religion=catholic culture=polish
-		father=wisniow_0001	# Feodor
+		father=wisniow_0001	# Feodor Wiśniowiecki
 		1397.01.01={birth=yes}  # EST.
 		1438.01.01={add_spouse=lowborn_3035}	# Jarochna z Bybla
 		1467.01.01={death=yes}
@@ -20058,7 +20073,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 			name=Jaczko
 			dynasty=wisniowiecki
 			religion=catholic culture=polish
-			father=wisniow_0096	# Jan
+			father=wisniow_0096	# Jan Wiśniowiecki
 			mother=lowborn_3035	# Jarochna z Bybla
 			1440.01.01={birth=yes}  # EST.
 			1500.01.01={death=yes}  # EST.
@@ -20067,7 +20082,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 			name=Michal
 			dynasty=wisniowiecki
 			religion=catholic culture=polish
-			father=wisniow_0096	# Jan
+			father=wisniow_0096	# Jan Wiśniowiecki
 			mother=lowborn_3035	# Jarochna z Bybla
 			1441.01.01={birth=yes}  # EST.
 			1501.01.01={death=yes}  # EST.
