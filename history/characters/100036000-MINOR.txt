@@ -5504,11 +5504,12 @@
 # OSTASENKO
 
 # HOENNING
-100036569={ #// Emil von Hoenning-O'Carroll (+15.9.1894); m.28.3.1876 Hermine von Hatzfeldt (*13.5.1852, +Venice 22.3.1906) %%
+100036569={ #// Emil von Hoenning-O'Carroll (+15.9.1894); m.1st 25.11.1856 Maria Anna Deym ze Stríteže (*Praha 20.1.1835, +Vászka 19.8.1870); m.2nd 28.3.1876 Hermine von Hatzfeldt (*13.5.1852, +Venice 22.3.1906) %%
 	name=Emil
 	dynasty=1000003
 	religion=catholic culture=german
 	1834.01.01={birth=yes}  # EST.
+	1856.11.25={add_spouse=deym_0096}	# Maria Anna Deym ze Stríteže
 	1876.03.28={add_spouse=100010595}	# Hermine von Hatzfeldt
 	1894.09.15={death=yes}
 }
@@ -5516,6 +5517,7 @@
 		name="Johann Ludwig"
 		dynasty=1000003
 		religion=catholic culture=german
+		mother=deym_0096	# Maria Anna Deym ze Stríteže
 		father=100036569	# Emil von Hoenning-O'Carroll
 		1864.01.01={birth=yes}	# Väszka
 		1954.02.01={death=yes}	# Sünching
@@ -10440,13 +10442,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 										1854.01.01={birth=yes}  # Graz
 										1944.01.01={death=yes}  # Graz
 									}
-										100036605={ #// J1. Johann Friedrich (*Vrbicany 1895, +Wien 1965) %%
+										100036605={ #// J1. Johann Friedrich (*Vrbičany 15.1.1895, +Wien 19.11.1965); m.26.4.1921 Maria Blanka Deym ze Stríteže (*Třešť 11.4.1901, +Buenos Aires 15.6.1996) %%
 											name="Johann Friedrich"
 											dynasty=1004513
 											religion=catholic culture=german
 											father=100036606	# Johann Joseph von Herberstein
-											1895.01.01={birth=yes}  # Vrbicany
-											1965.01.01={death=yes}  # Wien
+											1895.01.15={birth=yes}  # Vrbičany
+											1921.04.26={add_spouse=deym_0146}	# Maria Blanka Deym ze Stríteže
+											1965.11.19={death=yes}  # Wien
 										}
 											100036384={ #// K1. Maria Theresia (*29.6.1928); m.1st 5.1.1950 Pál Pálffy ab Erdöd (*12.2.1890, +11.10.1968); m.2nd 12.9.1958 Ferenc Jakob Zichy de Zich et Vásonkeő (*22.2.1925) %%
 												name="Maria Theresia"
@@ -10454,6 +10457,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 												dynasty=1004513
 												religion=catholic culture=german
 												father=100036605	# Johann Friedrich von Herberstein
+												mother=deym_0146	# Maria Blanka Deym ze Stríteže
 												1928.06.29={birth=yes}
 												2005.01.01={death=yes}  # EST.
 											}	
@@ -13889,14 +13893,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 						1862.08.04={birth=yes}  # Schloß Schönstein
 						1886.03.02={death=yes}  # Obermais bei Meran
 					}
-				100036022={ #// D4. Eugen (*1835, +1880); m.1874 Gfn Maria Deym ze Stríteže (*1847, +1878) %%
+				100036022={ #// D4. Eugen (*1835, +1880); m.1874 Maria Deym ze Stríteže (*Wien 24.2.1847, +Velké Kunčice 18.12.1878) %%
 					name=Eugen
 					dynasty=1002241
 					religion=catholic culture=german
 					father=100036023	# Heinrich Larisch v.Moennich
 					mother=100100147	# Henriette von Haugwitz
 					1835.01.01={birth=yes}
-					1874.01.01={add_spouse=100096366}	# GFN Maria Deym ze Stríteže
+					1874.01.01={add_spouse=deym_0119}	# Maria Deym ze Stríteže
 					1880.01.01={death=yes}
 				}
 					100036669={ #// E1. Gabriele (*30.11.1872, +18.10.1957); m.30.5.1893 Felix Leopold von Thun u.Hohenstein (*11.7.1859, +8.4.1941) %%
@@ -13905,7 +13909,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 						dynasty=1002241
 						religion=catholic culture=german
 						father=100036022	# Eugen Larisch v.Moennich
-						mother=100096366	# GFN Maria Deym ze Stríteže
+						mother=deym_0119	# Maria Deym ze Stríteže
 						1872.11.30={birth=yes}
 						1957.10.18={death=yes}
 					}
@@ -13915,7 +13919,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 						dynasty=1002241
 						religion=catholic culture=german
 						father=100036022	# Eugen Larisch v.Moennich
-						mother=100096366	# GFN Maria Deym ze Stríteže
+						mother=deym_0119	# Maria Deym ze Stríteže
 						1875.10.24={birth=yes}  # Vienna
 						1943.04.27={death=yes}  # Bad Darkau
 					}
@@ -14106,22 +14110,33 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			1849.01.01={add_spouse=berchtold_0011}	# Ludmilla von Berchtold
 			1897.01.28={death=yes}	# Wien
 		}
-			100036028={ #// C1. Hubert Karl (*Prag 1.5.1850, +Graz 11.9.1920); m.1895 Gfn Juliane Mittrowsky von Mittrowitz (*1871, +1936) %%
+			100036028={ #// C1. Hubert Karl (*Prag 1.5.1850, +Graz 11.9.1920); m.1st 16.5.1877 Josepha Julie Mittrowsky von Mittrowitz (*Brno 29.11.1852, +Wien 9.10.1885); m.2nd 26.10.1889 Juliana Mittrowsky von Mittrowitz (*Sokolnice 23.10.1871, +Graz 29.2.1936) %%
 				name="Hubert Karl"
 				dynasty=1007065
 				religion=catholic culture=german
 				father=100036037	# Hubert Heinrich de la Fontaine u.d'Harnoncourt-Unverzagt
 				mother=berchtold_0011	# Ludmilla von Berchtold
 				1850.05.01={birth=yes}	# Prag
-				1895.01.01={add_spouse=100093111}	# GFN Juliane Mittrowsky von Mittrowitz
+				1877.05.16={add_spouse=mitrovsky_0018}	# Josepha Julie Mittrowsky von Mittrowitz
+				1889.10.26={add_spouse=mitrovsky_0033}	# Juliana Mittrowsky von Mittrowitz
 				1920.09.11={death=yes}	# Graz
 			}
-				100036031={ #// D1. Hubert (*Wien 15.1.1891, +Wien 28.9.1924); m.1917 Gfn Maria Isabella von Bissingen u.Nippenburg (*1894) %%
+				100136031={ #// D1. Maria Ludmilla (*18.1.1881, +Brünn 26.9.1949); m.23.8.1902 František Deym ze Stríteže (*Praha 28.2.1871, +Bad Einöd, Steiermark 28.11.1925) %%
+					name="Maria Ludmilla"
+					female=yes
+					dynasty=1007065
+					religion=catholic culture=german
+					father=100036028	# Hubert Karl de la Fontaine u.d'Harnoncourt-Unverzagt
+					mother=mitrovsky_0018	# Josepha Julie Mittrowsky von Mittrowitz
+					1881.01.18={birth=yes}
+					1949.09.26={death=yes}	# Brünn
+				}
+				100036031={ #// D2. Hubert (*Wien 15.1.1891, +Wien 28.9.1924); m.1917 Gfn Maria Isabella von Bissingen u.Nippenburg (*1894) %%
 					name=Hubert
 					dynasty=1007065
 					religion=catholic culture=german
 					father=100036028	# Hubert Karl de la Fontaine u.d'Harnoncourt-Unverzagt
-					mother=100093111	# GFN Juliane Mittrowsky von Mittrowitz
+					mother=mitrovsky_0033	# Juliana Mittrowsky von Mittrowitz
 					1891.01.15={birth=yes}	# Wien
 					1917.01.01={add_spouse=100082449}	# GFN Maria Isabella von Bissingen u.Nippenburg
 					1924.09.28={death=yes}	# Wien
@@ -14145,12 +14160,12 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 							mother=100082448	# FRN Margret Wucherer v.Huldenfeld
 							1953.09.16={birth=yes}  # Graz
 						}
-				100036027={ #// D2. Eberhard (*17.4.1896, +27.5.1970); m.29.12.1928 Ladislaja von Meran (*8.10.1899, +22.7.1997) %%
+				100036027={ #// D3. Eberhard (*17.4.1896, +27.5.1970); m.29.12.1928 Ladislaja von Meran (*8.10.1899, +22.7.1997) %%
 					name=Eberhard
 					dynasty=1007065
 					religion=catholic culture=german
 					father=100036028	# Hubert Karl de la Fontaine u.d'Harnoncourt-Unverzagt
-					mother=100093111	# GFN Juliane Mittrowsky von Mittrowitz
+					mother=mitrovsky_0033	# Juliana Mittrowsky von Mittrowitz
 					1896.04.17={birth=yes}
 					1928.12.29={add_spouse=100020496}	# Ladislaja von Meran
 					1970.05.27={death=yes}
@@ -14181,6 +14196,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 							1968.11.08={birth=yes}  # Graz
 							2002.08.24={add_spouse=100025462}	# Felicia Alexandra von Trauttmansdorff-Weinsberg
 						}
+# HARNONCOURT
 
 100036312={ #// Henri de Montesquiou-Fézensac (*19.5.1853, +27.2.1921); m.3.6.1889 Marie Emma de Noailles (*20.11.1866, +18.6.1942) %%
 	name=Henri
@@ -16856,3 +16872,46 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 		1992.12.05={death=yes}  # Budapest
 	}
 ## NICZKY
+
+
+## MAGNIS
+magnis_1000={ #// Wilhelm von Magnis (*2.4.1828, +23.1.1888); m.19.10.1859 Gabriela Deym ze Stríteže (*Csákova, kom. Temes, Hungary 20.8.1839, +Bozków (=schloss Eckersdorf) 28.9.1920) %%
+	name=Wilhelm
+	dynasty=magnis
+	religion=catholic culture=czech
+	1828.04.02={birth=yes}
+	1859.10.19={add_spouse=deym_0117}	# Gabriela Deym ze Stríteže
+	1888.01.23={death=yes}
+}
+	magnis_1001={ #// A1. Anton (*Eckersdorf 9.5.1862, +Strážnice 17.10.1944); m.18.1.1894 Blanka Deym ze Stríteže (*Schloss Neckersgat, Uccle, Bruxelles 2.9.1874, +Würzburg 11.12.1968) %%
+		name=Anton
+		dynasty=magnis
+		religion=catholic culture=czech
+		father=magnis_1000	# Wilhelm von Magnis
+		mother=deym_0117	# Gabriela Deym ze Stríteže
+		1862.05.09={birth=yes}  # Eckersdorf
+		1894.01.18={add_spouse=deym_0141}	# Blanka Deym ze Stríteže
+		1944.10.17={death=yes}  # Strážnice
+	}
+	magnis_1002={ #// A2. Franz Karl (*Eckersdorf 11.8.1863, +Eckersdorf 9.5.1935); m.2.8.1926 Karoline von Oppersdorff (*Thomaswaldau 26.9.1897, +Bodman 14.5.1980) %%
+		name="Franz Karl"
+		dynasty=magnis
+		religion=lutheran culture=german
+		father=magnis_1000	# Wilhelm von Magnis
+		mother=deym_0117	# Gabriela Deym ze Stríteže
+		1863.08.11={birth=yes}  # Eckersdorf
+		1926.08.02={add_spouse=oppersdorf_0145}	# Karoline von Oppersdorff
+		1935.05.09={death=yes}  # Eckersdorf
+	}
+	magnis_1003={ #// A3. Wilhelm (*Eckersdorf 28.1.1866, +Habelschwerdt 22.12.1940); m.18.1.1899 Franziska v.u.zu Eltz gt Faust v.Stromberg (*Eltville 2.10.1866, +Eltville 28.11.1954) %%
+		name=Wilhelm
+		dynasty=magnis
+		religion=catholic culture=german
+		father=magnis_1000	# Wilhelm von Magnis
+		mother=deym_0117	# Gabriela Deym ze Stríteže
+		1866.01.28={birth=yes}  # Eckersdorf
+		1899.01.18={add_spouse=100001029}	# Franziska v.u.zu Eltz gt Faust v.Stromberg
+		1940.12.22={death=yes}  # Habelschwerdt
+	}
+
+## MAGNIS

@@ -7103,14 +7103,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 										1942.09.26={birth=yes}  # Kleinfurt
 										2017.01.01={death=yes}  # EST.
 									}
-									lamberg_0035={ #// I2. Maximilian Carl, *Kitzbühel 19.6.1945; m.Las Vegas 29.1.1982 Gfn Astrid Sophie Deym von Stritetz (*München 17.8.1952)
+									lamberg_0035={ #// I2. Maximilian Carl, *Kitzbühel 19.6.1945; m.Las Vegas 29.1.1982 Gfn Astrid Sophie Deym von Stritetz (*München 17.8.1952) $$
 										name="Maximilian Carl"
 										dynasty=1004523
 										religion=catholic culture=german
 										father=lamberg_0033	# Carl Hugo von Lamberg
 										mother=lowborn_2708	# FRN Maria von Gudenus
 										1945.06.19={birth=yes}  # Kitzbühel
-										1982.01.29={add_spouse=lowborn_2710}	# GFN Astrid Sophie Deym von Stritetz
+										1982.01.29={add_spouse=deym_0201}	# Astrid Sophie Deym ze Stríteže
 										2015.01.01={death=yes}  # EST.
 									}
 										lamberg_0036={ #// J1. Claire Maria Stephanie Franziska, *München 25.6.1983
@@ -7119,7 +7119,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 											dynasty=1004523
 											religion=catholic culture=german
 											father=lamberg_0035	# Maximilian Carl von Lamberg
-											mother=lowborn_2710	# GFN Astrid Sophie Deym von Stritetz
+											mother=deym_0201	# Astrid Sophie Deym ze Stríteže
 											1983.06.25={birth=yes}  # München
 										}
 										lamberg_0037={ #// J2. Camilla Isabella Carla Huberta Maria, *München 10.8.1989
@@ -7128,7 +7128,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 											dynasty=1004523
 											religion=catholic culture=german
 											father=lamberg_0035	# Maximilian Carl von Lamberg
-											mother=lowborn_2710	# GFN Astrid Sophie Deym von Stritetz
+											mother=deym_0201	# Astrid Sophie Deym ze Stríteže
 											1989.08.10={birth=yes}  # München
 										}
 									lamberg_0038={ #// I3. Dorothea Elisabeth, *Kitzbühel 8.6.1947, +Wien 9.10.1983; 1m: Kitzbühel 30.6.1956 (div 1968) Christian Frhr von Blumencron (*Wien 16.4.1940); 2m: Altmünster am Traunsee V.1977 (div 1983) David Cameron-Palastanga (*London 21.1.1933); 3m: Las Vegas 6.10.1983 Reinhard Martin (*1947)
@@ -8486,8 +8486,8 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									1819.05.28={birth=yes}
 									1877.05.01={death=yes}
 								}
-								100024624={ #// H2. Antonia Josepha Louise, *11.2.1821, +3.12.1847; m.9.10.1844 Gf Vladimír Mitrowský z Mitrowitz (*17.6.1814, +6.4.1899)
-									name=Antonia
+								100024624={ #// H2. Antonia Josepha Louise, *11.2.1821, +3.12.1847; m.9.10.1844 Gf Vladimír Mitrowský z Mitrowitz (*17.6.1814, +6.4.1899) $$
+									name="Antonia Josepha"
 									female=yes
 									dynasty=1004019
 									religion=catholic culture=bavarian
@@ -10528,15 +10528,15 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				1880.01.06={birth=yes}  # Preßburg
 				1960.05.19={death=yes}  # Bullachberg bei Füssen
 			}
-		100024444={ #// E14. [3m.] Lothar Stephan August Clemens Maria, *Wien 13.9.1837, +Wien 2.10.1904; 1m: Wien 21.4.1868 Karoline Anna Rosalie Johanna Reittner (*Wien 21.4.1868, +21.9.1899); 2m: Wien 5.6.1900 Gfn Františka Mittrowsky von Mittrowitz (*8/10.11.1846, +19.3.1918)
-			name=Lothar
+		100024444={ #// E14. [3m.] Lothar Stephan August Clemens Maria, *Wien 13.9.1837, +Wien 2.10.1904; 1m: Wien 21.4.1868 Karoline Anna Rosalie Johanna Reittner (*Wien 21.4.1868, +21.9.1899); 2m: Wien 5.6.1900 Gfn Františka Mittrowsky von Mittrowitz (*8/10.11.1846, +19.3.1918) $$
+			name="Lothar Stephan"
 			dynasty=1004018
 			religion=catholic culture=bavarian
 			father=100024410	# Klemens Wenzel Lothar von Metternich-Winneburg
 			mother=100115741	# Melanie Zichy-Ferraris
 			1837.09.12={birth=yes}
 			1868.04.21={add_spouse=100094600}	# Karoline Reitter
-			1900.06.05={add_spouse=100094604}	# GFN Franziska Mittrowsky von Mittrowitz
+			1900.06.05={add_spouse=mitrovsky_0051}	# Franziska Mittrowsky von Mittrowitz
 			1904.10.02={death=yes}
 		}
 		#             E15. [illegitimate by Pss Ekatarina Pavlovna Bagration neé Skavronska] Princess Marie-Clementine Bagration, *Wien 29.9.1810, +Paris 29.5.1829; m.1.5.1828 Otto Lensgraf Blome (*Salzau 1.10.1795, +Salzau 1.6.1884)
@@ -31305,7 +31305,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							father=100022887	# Johann Moritz von Liechtenstein
 							mother=100006625	# Clotilde Alberta von Thurn und Taxis
 							1949.04.01={birth=yes}
-							1989.07.22={add_spouse=100066617}	# Marie Isabelle d  Orleans
+							1989.07.22={add_spouse=100066617}	# Marie Isabelle d’Orléans
 						}
 							100022893={ #// 1h) Leopoldine Eleonore Therese Marie (b.Vienna 27 Jun 1990)
 								name=Leopoldine
@@ -31313,7 +31313,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1990.06.27={birth=yes}
 							}
 							100022894={ #// 2h) Marie Immaculee Elisabeth Rose Adelgunde (b.Vienna 15 Dec 1991)
@@ -31322,7 +31322,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1991.12.15={birth=yes}
 							}
 							100022895={ #// 3h) Johann Wenzel Karl Emmeran Bonifatius Maria (b.Vienna 16 Mar 1993)
@@ -31330,7 +31330,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1993.03.16={birth=yes}
 							}
 							100022896={ #// 4h) Margarete Franziska Daria Wilhelmine Marie (b.Vienna 10 Jan 1995)
@@ -31339,7 +31339,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1995.01.10={birth=yes}
 							}
 							100022897={ #// 5h) Gabriel Karl Bonaventura Alfred Valerian Maria (b.Vienna 6 May 1998)
@@ -31347,7 +31347,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1998.05.06={birth=yes}
 							}
 						100022898={ #// 3g) Alfred Heinrich Michael Benedikt Maria (b.Vienna 17 Sep 1951); m.Vaduz 22 Mar 2002 (rel) Schloß Waldstein 6 Apr 2002 Raffaella Ida Sangiorgi (b.Tlemcen, Algeria 12 Dec 1966)
@@ -35594,7 +35594,7 @@ ugarte_0001={ #// 1 Francisco UGARTE,
 							1707.12.13={birth=yes}
 							1756.06.11={death=yes}  # Karlovy Vary, buried in hrobka u kapucín
 						}
-							ugarte_0015={ #// 15 Maria Anna UGARTE, *1737, +1798; m.1st Jan Nepomuk Hausperský z Fanalu (*1737, +29.8.1791); m.2nd 1.1.1797 Jan Baptista Mitrowský z Mitrowitz
+							ugarte_0015={ #// 15 Maria Anna UGARTE, *1737, +1798; m.1st Jan Nepomuk Hausperský z Fanalu (*1737, +29.8.1791); m.2nd 1.1.1797 Jan Baptista Mitrowský z Mitrowitz $$
 								name="Maria Anna"
 								female=yes
 								dynasty=ugarte

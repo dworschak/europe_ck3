@@ -1531,15 +1531,33 @@
 					1871.10.11={birth=yes}  # Loham
 					1959.12.07={death=yes}  # Bad Tolz
 				}
-		100030059={ #// B3. Dimitrie
+		100030059={ #// B3. Dimitrie; m.Sophia von Armansperg (*12 August 1819)
 			name=Dimitrie
 			dynasty=1003001
 			religion=orthodox culture=vlach
 			father=100030053	# Alexander Cantacuzino
 			mother=100082450	# Elisaveta Daragan
-			1819.01.01={birth=yes}
-			1891.01.01={death=yes}  # EST.
+			1817.10.12={birth=yes}
+			1870.01.01={death=yes}  # EST.
 		}
+			100230059={ #// C1. Theodor (*Schloss Egg 1841, +Starnberg 20.5.1895); m.9.1.1864 Maria Karoline Deym ze Stríteže (*Liblice, died Aug 29.9.1842) %%
+				name="Theodor"
+				dynasty=1003001
+				religion=orthodox culture=vlach
+				father=100030059	# Dimitrie Cantacuzino
+				1841.01.01={birth=yes}	# Schloss Egg
+				1864.01.09={add_spouse=deym_0101}	# Maria Karoline Deym ze Stríteže
+				1895.05.20={death=yes}  # Starnberg
+			}
+				100230159={ #// D1. Olga (*Strass, Passau 26.9.1868, +1949); m.19.2.1910 Karel Deym ze Stríteže (*Kassel 8.7.1878, +na zranění, Metz 6.10.1914) %%
+					name="Olga"
+					female=yes
+					dynasty=1003001
+					religion=orthodox culture=vlach
+					father=100230059	# Theodor Cantacuzino
+					1868.09.26={birth=yes}  # Strass, Passau
+					1949.01.01={death=yes}
+				}
 		100030061={ #// B4. Elena, *Staraia Vielika, Russia 18.9.1819, +Venice 23.12.1845; m.Dresden 18.7.1844 Moritz Frhr O'Donnell von Tyrconnell (*Prague 6.6.1815, +Salzburg 25.11.1890) $$
 			name=Elena
 			female=yes

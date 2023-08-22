@@ -2730,7 +2730,7 @@ lowborn_0338={ #            Etelka                    Semsey de Semse           
 	1858.01.09={add_spouse=100119030}	# Irma Csáky de Körösszeg et Adorján
 	1883.07.21={death=yes}  # Saca
 }
-100086306={ #    Gfn        Ily                       Semsey de Semse                          (1895-1978)     2 [ORTENBURG]
+100086306={ #    Gfn        Ily                       Semsey de Semse                          (1895-1978)     2 [NEU]
 	name="Ily Semsey de Semse"
 	female=yes
 	religion=catholic culture=hungarian
@@ -4688,11 +4688,12 @@ lowborn_0439={ #            Márta                     Ugron de Ábránfalva    
 	1950.08.04={birth=yes}  # Szombathely
 }
 
-100083715={ #    Gf         Markus Heinrich           Bombelles                                (1858-1912)     - [SALM]
+lowborn_3332={ # Gf         Markus Heinrich           Bombelles                                (1858-1912)  0  -
 	name="Markus Heinrich Bombelles"
 	religion=lutheran culture=german
 	1858.10.18={birth=yes}  # Opeka
 	1882.08.30={add_spouse=100004119}	# Maria von Salm-Reifferscheidt-Raitz
+	1899.12.11={add_spouse=mitrovsky_0032}	# Maria Alfonsine Mittrowsky von Mittrowitz
 	1912.09.08={death=yes}  # Opeka
 }
 100080786={ #    Gf         Márk                      Bombelles de la Motte Sainte-Liée        (1830-1906)     - [DRASKOVICH]
@@ -5460,7 +5461,7 @@ lowborn_0181={ #            Menyhért                  Pogány de Cseb          
 	1907.05.19={birth=yes}  # Radvány
 	1979.11.10={death=yes}  # Montréal Canada
 }
-100089341={ #    Baron      Antal                     Radvánszky de Radvány et Sajó-Kaza       (1970-    )     - [ROHAN]
+100089341={ #    Baron      Antal                     Radvánszky de Radvány et Sajó-Kaza       (1970-    )     - [VEIS]
 	name="Antal Radvánszky de Radvány et Sajó-Kaza"
 	religion=catholic culture=hungarian
 	1970.11.05={birth=yes}
@@ -7882,7 +7883,7 @@ lowborn_0265={ # Gf         Tamás                     Schmidegg de Sárladány 
 	1992.07.30={add_spouse=100047313}	# Louisette Kottulinsky z Kottulin
 	2009.01.15={death=yes}
 }
-100081130={ #               Beata                     Béry                                     (1947-    )     0 [THURN]
+100081130={ #               Beata                     Béry                                     (1947-    )     0 [SALINGER]
 	name="Beata Béry"
 	female=yes
 	religion=catholic culture=hungarian
@@ -10854,7 +10855,7 @@ lowborn_0296={ # Baron      Kálmán                    Babarczy                
 	1888.03.30={add_spouse=100119364}	# Eszter Thoroczkay de Toroczkószentgyörgy
 	1911.12.14={death=yes}  # Bocsár
 }
-100097148={ #    Bss        Valerie                   Bajzáht de Pészak                        (1827-1920)     1 [PAPENHEIM]
+100097148={ #    Bss        Valerie                   Bajzáht de Pészak                        (1827-1920)     1 [MARSAL]
 	name="Valerie Bajzáht de Pészak"
 	female=yes
 	religion=catholic culture=hungarian
@@ -14341,7 +14342,7 @@ lowborn_0400={ #            József                    Zeyk de Zeykfalva        
 	1758.01.01={add_spouse=josika_0012}	# Anna Jósika de Branyicska
 	1804.12.01={death=yes}
 }
-100094022={ #               Anna Maria                Zhuber von Okróg                         (1934-2006)     3 [THURN]
+100094022={ #               Anna Maria                Zhuber von Okróg                         (1934-2006)     3 [SALINGER]
 	name="Anna Maria Zhuber von Okróg"
 	female=yes
 	religion=catholic culture=hungarian
@@ -14423,5 +14424,53 @@ lowborn_0230={ #            Ilona                     Újhelyi de Tiszaújhely  
 	1884.01.01={birth=yes}  # EST.
 	1909.01.01={add_spouse=100021801}	# Editha von Auersperg
 	1959.01.01={death=yes}  # EST.
+}
+lowborn_3311={ #            Maria                     Berkóczy de Sala                         (1754-1814)     2 [DEYM]
+	name="Maria Berkóczy de Sala"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1754.01.01={birth=yes}  # EST.
+	1814.01.01={death=yes}  # EST.
+}
+lowborn_3333={ #            Géza                      Brunswick de Korompa                     (1834-1899)     - [DEYM]
+	name="Géza Brunswick de Korompa"
+	#dynasty=0
+	religion=catholic culture=czech
+	1834.08.15={birth=yes}  # Marton
+	1859.08.16={add_spouse=deym_0097}	# Maria Ludmila Deym ze Stríteže
+	1899.07.20={death=yes}  # Spital am Semmering
+}
+lowborn_3348={ #            Ferdinand Géza            Inkey de Pallin                          (1829-1890)     - [DEYM]
+	name="Ferdinand Géza Inkey de Pallin"
+	#dynasty=0
+	religion=catholic culture=czech
+	1829.06.11={birth=yes}  # Rasinja
+	1858.05.01={add_spouse=deym_0118}	# Ludmila Deym ze Stríteže
+	1890.11.22={death=yes}  # Volosca, Istria
+}
+lowborn_3312={ #            Maria Barbora             Lamotte de Frintroppe                    (1771-1846)     4 [DEYM]
+	name="Maria Barbora Lamotte de Frintroppe"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1771.11.09={birth=yes}
+	1846.01.01={death=yes}  # EST.
+}
+lowborn_3407={ #            Lajos                     Fárkas                                   (1940-2010)     - [DEYM]
+	name="Lajos Fárkas"
+	#dynasty=0
+	religion=catholic culture=czech
+	1940.09.25={birth=yes}  # Hidas
+	1963.07.27={add_spouse=deym_0193}	# Gabrielle Deym ze Stríteže
+	2010.01.01={death=yes}  # EST.
+}
+lowborn_3408={ #            Ilona                     Lengyel                                  (1938-2013)     3 [DEYM]
+	name="Ilona Lengyel"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1938.05.28={birth=yes}  # Vojka,Hungary
+	2013.01.01={death=yes}  # EST.
 }
 
