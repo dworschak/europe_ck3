@@ -3048,20 +3048,20 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 					1982.06.23={birth=yes}  # Linz
 				}
 			100047679={ #// C2. JOHANNES Nepomuck Maria Lapi Franz von Assisi Emilia Boni Georgonius Agapitus Wenzeslaus Georg Judas Thaddäus, *Wien 4.9.1950; m.Grödig bei Salzburg 5.9.1987 Gfn Eleonore von Küenburg (*Klagenfurt 17.5.1956) $$
-				name=Johannes
+				name="Johannes Nepomuck"
 				dynasty=1013015
 				religion=catholic culture=czech
 				father=100047675	# Franz von Hartig
 				mother=100047369	# Sophie Maria z Valdštejna
 				1950.09.04={birth=yes}  # Wien
-				1987.09.05={add_spouse=100035932}	# Eleonore von Küenburg
+				1987.09.05={add_spouse=kuenburg_0088}	# Eleonore von Kuenburg
 			}
 				100047680={ #// D1. Clemens Jakobus Franz de Paula Stefan, *Zwettl 28.11.1988
 					name=Clemens
 					dynasty=1013015
 					religion=catholic culture=czech
-					father=100047679	# Johannes von Hartig
-					mother=100035932	# Eleonore von Küenburg
+					father=100047679	# Johannes Nepomuck von Hartig
+					mother=kuenburg_0088	# Eleonore von Kuenburg
 					1988.11.28={birth=yes}  # Zwettl
 				}
 				100047681={ #// D2. Sophie Elisabeth Maria, *Zwettl 24.2.1990
@@ -3069,8 +3069,8 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 					female=yes
 					dynasty=1013015
 					religion=catholic culture=czech
-					father=100047679	# Johannes von Hartig
-					mother=100035932	# Eleonore von Küenburg
+					father=100047679	# Johannes Nepomuck von Hartig
+					mother=kuenburg_0088	# Eleonore von Kuenburg
 					1990.02.24={birth=yes}  # Zwettl
 				}
 			100047682={ #// C3. Jakob Maria Karl Ernst Georg Franz, *Waidhofen an der Thaya 12.6.1954
@@ -5591,7 +5591,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 						1719.01.18={death=yes}
 					}
 					100047850={ #// E4. [2m.] Maria Anna Barbora, *1.11.1693, +16.11.1724; 1m: Gf Ernst Joseph von Küenburg (*1688 +1721); 2m: Theynpfarre, Praha 10.8.1721 Fst Károly Józef Batthyány-Strattmann (*28.4.1697, +15.4.1772) $$
-						name="Maria Anna Barbora"
+						name="Maria Anna"
 						female=yes
 						dynasty=1013009
 						religion=catholic culture=czech
@@ -7498,7 +7498,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		1734.11.11={birth=yes}
 		1794.11.03={death=yes}
 	}
-	100047465={ #// A7. Friedriche Maria Anna, *Duchcov 6.1.1742, +Salzburg 27.1.1803; m.Passau 9.1.1763 Gf Leopold von Küenburg (*Salzburg 24.10.1741, +Teplice 11.8.1812)
+	100047465={ #// A7. Friedriche Maria Anna, *Duchcov 6.1.1742, +Salzburg 27.1.1803; m.Passau 9.1.1763 Gf Leopold von Küenburg (*Salzburg 24.10.1741, +Teplice 11.8.1812) $$
 		name=Friedriche
 		female=yes
 		dynasty=1013009
@@ -22766,7 +22766,7 @@ matuschka_0004={ #// 4 Mikuláš MATUŠKA Z TOPOLČAN; m.Elzbieta Wielopolsky de
 											mother=lowborn_2992	# Wally Matthias von Wallhoffen
 											1857.11.19={birth=yes}  # Arnsdorf, Riesengebirge
 											1881.06.16={add_spouse=lowborn_2034}	# Eveline Caroline Marie von Sternberg-Rudelsdorf
-											1891.01.01={add_spouse=strachwitz_0125}	# Bronislawa Strachwitz v.Groß-Zauche u.Camminetz
+											1885.01.01={add_spouse=strachwitz_0125}	# Bronislawa Strachwitz v.Groß-Zauche u.Camminetz
 											1895.11.21={death=yes}  # Arnsdorf
 										}
 											matuschka_0163={ #// 163 Theodor Maria Benno Hyacinth Bernhard VON MATUSCHKA, *Arnsdorf,Riesengebirge 1885.06.08, +Arnsdorf,Riesengebirge 1930.11.22; m.Pommerzig 20.1.1912 Ferdinande Franciska Huberta Maria von Schmettow (*Pommerzig 10.7.1893, +Graz 5.3.1970) $$
@@ -22774,6 +22774,7 @@ matuschka_0004={ #// 4 Mikuláš MATUŠKA Z TOPOLČAN; m.Elzbieta Wielopolsky de
 												dynasty=matuschka
 												religion=lutheran culture=german
 												father=matuschka_0118	# Bernhard Joseph Matuschka von Toppolczan u.Spaetgen
+												mother=strachwitz_0125	# Bronislawa Strachwitz v.Groß-Zauche u.Camminetz
 												1885.06.08={birth=yes}  # Arnsdorf,Riesengebirge
 												1912.01.20={add_spouse=matuschka_0129}	# Ferdinande Matuschka von Toppolczan u.Spaetgen
 												1930.11.22={death=yes}  # Arnsdorf,Riesengebirge
@@ -22783,6 +22784,7 @@ matuschka_0004={ #// 4 Mikuláš MATUŠKA Z TOPOLČAN; m.Elzbieta Wielopolsky de
 												dynasty=matuschka
 												religion=lutheran culture=german
 												father=matuschka_0118	# Bernhard Joseph Matuschka von Toppolczan u.Spaetgen
+												mother=strachwitz_0125	# Bronislawa Strachwitz v.Groß-Zauche u.Camminetz
 												1886.05.31={birth=yes}  # Arnsdorf, Riesengebirge
 												1911.02.25={add_spouse=strachwitz_0159}	# Maria Mathilde Strachwitz v.Groß-Zauche u.Camminetz
 												1966.06.15={death=yes}  # Grafing bei München
@@ -27736,7 +27738,7 @@ mitrovsky_0001={ #// Arnošt Matyáš Mittrovsky-Mittrowicz, Czech lord 1705, cr
 		dynasty=mitrovsky
 		religion=catholic culture=czech
 		father=mitrovsky_0001	# Arnošt Matyáš Mittrowsky von Mittrowitz
-		mother=lowborn_1996
+		mother=lowborn_1996	# Maria Theresia Lehotská ze Lhoty
 		1730.01.01={birth=yes}  # EST.
 		1782.01.01={death=yes}  # EST.
 	}
@@ -27745,7 +27747,7 @@ mitrovsky_0001={ #// Arnošt Matyáš Mittrovsky-Mittrowicz, Czech lord 1705, cr
 		dynasty=mitrovsky
 		religion=catholic culture=czech
 		father=mitrovsky_0001	# Arnošt Matyáš Mittrowsky von Mittrowitz
-		mother=lowborn_1996
+		mother=lowborn_1996	# Maria Theresia Lehotská ze Lhoty
 		1736.01.28={birth=yes}
 		1764.01.01={add_spouse=lowborn_3370}	# GFN Maria Josepha von Pergen
 		1797.01.01={add_spouse=ugarte_0015}	# Maria Anna Ugarte

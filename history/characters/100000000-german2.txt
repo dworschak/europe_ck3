@@ -4045,7 +4045,7 @@
 					1892.07.27={add_spouse=100015270}	# Ольга Александровна Долгорукий
 					1920.09.20={death=yes}  # Jáchymov (St.Joachimstal, Bohemia)
 				}
-					100010248={ #// E2. Alexandrina von Dietrichstein-Mensdorff-Pouilly, *Wien 24.3.1894, +Wien 17.12.1981; m.Wien 16.10.1918 Gf Wolfgang von Küenburg (*St.Johann 30.10.1890, +Linz 24.12.1949)
+					100010248={ #// E2. Alexandrina von Dietrichstein-Mensdorff-Pouilly, *Wien 24.3.1894, +Wien 17.12.1981; m.Wien 16.10.1918 Gf Wolfgang von Küenburg (*St.Johann 30.10.1890, +Linz 24.12.1949) $$
 						name=Alexandrina
 						female=yes
 						dynasty=1002129
@@ -9920,7 +9920,7 @@
 					father=100009966	# Johann Fugger von Kirchberg u.Weißenhorn
 					mother=100100713	# GFN Maria Anna von Arz v.u.zu Vasegg
 					1776.12.24={birth=yes}  # Möhren
-					1798.02.15={add_spouse=100100715}	# GFN Maria Ludovika Schenk von Catsell
+					1798.02.15={add_spouse=100100715}	# GFN Maria Ludovika Schenk von Castell
 					1848.06.13={death=yes}  # Nordendorf
 				}
 					100009969={ #// E1. Maria Antonia, *Augsburg 5.5.1799, +Augsburg 25.12.1876
@@ -9929,7 +9929,7 @@
 						dynasty_house=fugger_kirchberg
 						religion=catholic culture=german
 						father=100009968	# Carl Anton Fugger von Kirchberg u.Weißenhorn
-						mother=100100715	# GFN Maria Ludovika Schenk von Catsell
+						mother=100100715	# GFN Maria Ludovika Schenk von Castell
 						1799.05.05={birth=yes}  # Augsburg
 						1876.12.25={death=yes}  # Augsburg
 					}
@@ -12157,14 +12157,14 @@
 					1588.01.01={birth=yes}
 					1656.01.01={death=yes}
 				}
-				100012982={ #// E4. Gf Philipp II zu Leiningen-Westerburg, *1591, +1668, bur Höningen; m.1618 Agathe Katharina Schenk zu Limpurg (*1595 +1664)
+				100012982={ #// E4. Gf Philipp II zu Leiningen-Westerburg, *1591, +1668, bur Höningen; m.1618 Agathe Katharina Schenk zu Limpurg (*1595 +1664) $$
 					name=Philipp
 					dynasty=1002127
 					religion=catholic culture=german
 					father=100012974	# Johann Ludwig von Leiningen-Westerburg
 					mother=100003044	# Bernhardine zu Schaumburg-Lippe
 					1591.01.01={birth=yes}
-					1618.01.01={add_spouse=100092492}	# Agathe Katharina Schenk zu Limpurg
+					1618.01.01={add_spouse=limpurg_0118}	# Agathe Katharina Schenk von Limpurg
 					1668.01.01={death=yes}
 				}
 					100012983={ #// F1. Gf Ludwig Eberhard zu Leiningen-Westerburg, *1624, +1688; m.1650 Gfn Charlotte of Nassau-Saarbrücken (*1619 +1687) $$
@@ -12172,7 +12172,7 @@
 						dynasty=1002127
 						religion=catholic culture=german
 						father=100012982	# Philipp von Leiningen-Westerburg
-						mother=100092492	# Agathe Katharina Schenk zu Limpurg
+						mother=limpurg_0118	# Agathe Katharina Schenk von Limpurg
 						1624.01.01={birth=yes}
 						1650.01.01={add_spouse=100037183}	# Charlotte von Nassau-Weilburg
 						1688.01.01={death=yes}
@@ -12268,7 +12268,7 @@
 			1561.01.01={add_spouse=100097457}	# Ottilia von Manderscheid-Blankenheim
 			1584.01.01={death=yes}
 		}
-			100013048={ #// D4. Katharina, *1564, +1630; m.1597 Georg Schenk zu Limpurg (+1628)
+			100013048={ #// D4. Katharina, *1564, +1630; m.1597 Georg Schenk zu Limpurg (+1628) $$
 				name=Katharina
 				female=yes
 				dynasty=1002127
@@ -17143,16 +17143,6 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 							1863.08.20={birth=yes}  # Gross
 							1922.06.02={death=yes}  # Arnsdorf
 						}
-							strachwitz_0197={ #// 197 Bernhard MATUSCHKA VON TOPPOLCZAN, *Arnsdorf, Riesengebirge 1886.05.31, +Grafing bei München 1966.06.15; m.Breslau 25.2.1911 Maria Mathilde Strachwitz zu Sacrau (*Bertelsdorf 17.3.1881, +9.9.1974) $$
-								name=Bernhard
-								dynasty=1002256
-								religion=catholic culture=german
-								father=matuschka_0118	# Bernhard Joseph Matuschka von Toppolczan u.Spaetgen
-								mother=strachwitz_0125	# Bronislawa Strachwitz v.Groß-Zauche u.Camminetz
-								1886.05.31={birth=yes}  # Arnsdorf, Riesengebirge
-								1911.02.25={add_spouse=strachwitz_0159}	# Maria Mathilde Strachwitz v.Groß-Zauche u.Camminetz
-								1966.06.15={death=yes}  # Grafing bei München
-							}
 						strachwitz_0126={ #// 126 Hyacinth STRACHWITZ ZU GROSS-STEIN, *Gross 1864.11.21, +Gross 1942.04.28; m.Bechau 22.9.1891 Maria Aloysia Matuschka von Toppolczan (*Bechau 22.8.1872, +Gross 26.1.1940) $$
 							name=Hyacinth
 							dynasty=1002256
@@ -19893,7 +19883,7 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 					1920.01.01={add_spouse=lowborn_2132}	# Wanda von Lukowitz
 					1924.06.30={death=yes}  # Wien
 				}
-				strachwitz_0081={ #// 81 Hermine Antonie VON STRACHWITZ, *Šebetov 1834.02.11, +Canale bei Görz 1899.11.24; m.Šebetov (Schebetau) 6.1.1859 Josef Rességuier de Miremont (*Wien 16.11.1833, +Vincennes nr Paris 30.5.1901)
+				strachwitz_0081={ #// 81 Hermine Antonie VON STRACHWITZ, *Šebetov 1834.02.11, +Canale bei Görz 1899.11.24; m.Šebetov (Schebetau) 6.1.1859 Josef Rességuier de Miremont (*Wien 16.11.1833, +Vincennes nr Paris 30.5.1901) $$
 					name="Hermine Antonie"
 					female=yes
 					dynasty=1002256
