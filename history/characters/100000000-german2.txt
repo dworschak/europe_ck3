@@ -540,14 +540,14 @@
 		1850.07.20={add_spouse=100035950}	# Maria Anna von Galen
 		1882.08.23={death=yes}  # Heltorf
 	}
-		100025440={ #// 1b) Franz Friedrich (Düsseldorf 11 Apr 1841-Heltorf 7 Mar 1921); m.Herten 17 Sep 1867 Anna Gfn Droste zu Vischering (Herten 15 Nov 1843-Heltorf 29 Mar 1900)
-			name="Franz Friedrich"
+		100025440={ #// 1b) Franz Friedrich (Düsseldorf 11 Apr 1841-Heltorf 7 Mar 1921); m.Herten 17 Sep 1867 Anna Gfn Droste zu Vischering (Herten 15 Nov 1843-Heltorf 29 Mar 1900) $$
+			name=Franz
 			dynasty=1002242
 			religion=catholic culture=german
 			father=100025439	# August von Spee
 			mother=100085259	# GFN Franziska von Brühl
 			1841.04.11={birth=yes}  # Düsseldorf
-			1867.09.17={add_spouse=100096756}	# GFN Анна Droste zu Vischering
+			1867.09.17={add_spouse=droste_0015}	# Anna Droste zu Vischering
 			1921.03.07={death=yes}  # Heltorf
 		}
 		100025484={ #// 2b) Elisabeth (Düsseldorf 10 Sep 1842-Dinklage 26 Mar 1920); m.Heltorf 7 May 1861 Ferdinand Gf von Galen (Münster 31 Aug 1831-Dinklage 5 Jan 1906) $$
@@ -1646,14 +1646,14 @@
 					mother=100100399	# FRN Hugoline von Eltz-Rübenach
 					1959.08.24={birth=yes}  # Duisburg
 				}
-				100025786={ #// 3d) Caspar Hubertus Maria (b.Duisburg 18 Nov 1960); m.Regensburg 22 Mar 1991 (rel) Everswinkel 27 Apr 1991 Stephanie Gfn Droste zu Vischering (b.Münster 6 Dec 1965)
+				100025786={ #// 3d) Caspar Hubertus Maria (b.Duisburg 18 Nov 1960); m.Regensburg 22 Mar 1991 (rel) Everswinkel 27 Apr 1991 Stephanie Gfn Droste zu Vischering (b.Münster 6 Dec 1965) $$
 					name=Caspar
 					dynasty=1002242
 					religion=catholic culture=german
 					father=100025779	# Wilderich von Spee
 					mother=100100399	# FRN Hugoline von Eltz-Rübenach
 					1960.11.18={birth=yes}  # Duisburg
-					1991.03.22={add_spouse=100100402}	# GFN Stephanie Droste zu Vischering
+					1991.03.22={add_spouse=droste_0080}	# Stephanie Droste zu Vischering
 				}
 					100025788={ #// 1e) Theresa Magdalena Maria (b.Hamburg 18 Sep 1993)
 						name=Theresa
@@ -1661,7 +1661,7 @@
 						dynasty=1002242
 						religion=catholic culture=german
 						father=100025786	# Caspar von Spee
-						mother=100100402	# GFN Stephanie Droste zu Vischering
+						mother=droste_0080	# Stephanie Droste zu Vischering
 						1993.09.18={birth=yes}  # Hamburg
 					}
 					100025790={ #// 2e) Franziskus Christophorus Maria (b.Hamburg 20 Oct 1994)
@@ -1669,7 +1669,7 @@
 						dynasty=1002242
 						religion=catholic culture=german
 						father=100025786	# Caspar von Spee
-						mother=100100402	# GFN Stephanie Droste zu Vischering
+						mother=droste_0080	# Stephanie Droste zu Vischering
 						1994.10.20={birth=yes}  # Hamburg
 					}
 					100025791={ #// 3e) Lidwin Veronika Maria (b.Hamburg 6 Sep 1996)
@@ -1678,7 +1678,7 @@
 						dynasty=1002242
 						religion=catholic culture=german
 						father=100025786	# Caspar von Spee
-						mother=100100402	# GFN Stephanie Droste zu Vischering
+						mother=droste_0080	# Stephanie Droste zu Vischering
 						1996.09.06={birth=yes}  # Hamburg
 					}
 					100025794={ #// 4e) Philipp Johannes Maria (b.Hamburg 3 Sep 1998)
@@ -1686,7 +1686,7 @@
 						dynasty=1002242
 						religion=catholic culture=german
 						father=100025786	# Caspar von Spee
-						mother=100100402	# GFN Stephanie Droste zu Vischering
+						mother=droste_0080	# Stephanie Droste zu Vischering
 						1998.09.03={birth=yes}  # Hamburg
 					}
 				100025796={ #// 4d) Marie Elisabeth Hildegard (b.Duisburg 13 May 1963); m.Cracow 29 Aug 1991 (rel) 31 Aug 1991 Wojciech Zielinski (b.Cracow 3 Feb 1963)
@@ -8654,7 +8654,7 @@
 						1583.02.03={add_spouse=100100929}	# BSS Helena Madruzzo
 						1634.01.16={death=yes}  # Riva
 					}
-						100010989={ #// F8. Sibylla, *1585, +1663; m.1602 Maximilian Gf von Lodron (+1635)
+						100010989={ #// F8. Sibylla, *1585, +1663; m.1602 Maximilian Gf von Lodron (+1635) $$
 							name=Sibylla
 							female=yes
 							dynasty=1002252
@@ -9001,7 +9001,7 @@
 										}
 										#fugger3   ->   J5. Sebastian Xaver Joseph, zu Glött, *1715, +1763; m.1742 Elisabeth Gabriele Gfn von Firmian (*1722 +1782); for his issue see HERE
 										100011019={ #// J15. Maria Josepha Walburga, *1722, +1795; m.1741 Joseph Gf von Lodron (+1791) $$
-											name=Walburga
+											name="Maria Josepha Walburga"
 											female=yes
 											dynasty=1002252
 											religion=catholic culture=german
@@ -9381,7 +9381,7 @@
 								mother=100011030	# Maria Johanna Fugger
 								1658.01.01={birth=yes}
 								1679.01.01={add_spouse=100011010}	# Maria Franziska Fugger
-								1680.01.01={add_spouse=100093914}	# GFN Maria Felicitas von Lodron-Laterano
+								1680.01.01={add_spouse=lodron_0263}	# Maria Felicita zu Lodron-Laterano u.Castelromano
 								1685.01.01={death=yes}
 							}
 #1439.01.01={holder=100010794} # Hans Fugger
@@ -9664,14 +9664,14 @@
 		1649.11.14={add_spouse=100099231}	# FRN Claudia von Mercy
 		1693.12.13={death=yes}
 	}
-		100009936={ #// B2. Johann Maximilian Joseph, Herr zu Kirchheim, Schmiechen und Türkenfeld, *München 7.10.1661, +München 18.11.1731; m.München 21.6.1686 Maria Elisabeth Gfn von Lodron und Laterano (*1650 +11.4.1721)
+		100009936={ #// B2. Johann Maximilian Joseph, Herr zu Kirchheim, Schmiechen und Türkenfeld, *München 7.10.1661, +München 18.11.1731; m.München 21.6.1686 Maria Elisabeth Gfn von Lodron und Laterano (*1650 +11.4.1721) $$
 			name=Johann
 			dynasty_house=fugger_kirchberg
 			religion=catholic culture=german
 			father=100009789	# Bonaventura Fugger von Kirchberg u.Weißenhorn
 			mother=100099231	# FRN Claudia von Mercy
 			1661.10.07={birth=yes}  # München
-			1686.06.21={add_spouse=100093914}	# GFN Maria Felicitas von Lodron-Laterano
+			1686.06.21={add_spouse=lodron_0263}	# Maria Felicita zu Lodron-Laterano u.Castelromano
 			1731.11.18={death=yes}  # München
 		}
 			100009961={ #// C9. Maria Anna Josepha Antonia, *München 25.10.1688, +München 13.11.1714; m.25.7.1709 Gf Klemens Aloys von Rechberg zu Hohenrechberg und Donzdorf (*4.9.1682, +23.12.1732)
@@ -9680,7 +9680,7 @@
 				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009936	# Johann Fugger von Kirchberg u.Weißenhorn
-				mother=100093914	# GFN Maria Felicitas von Lodron-Laterano
+				mother=lodron_0263	# Maria Felicita zu Lodron-Laterano u.Castelromano
 				1688.10.25={birth=yes}  # München
 				1714.11.13={death=yes}  # München
 			}
@@ -9689,7 +9689,7 @@
 				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009936	# Johann Fugger von Kirchberg u.Weißenhorn
-				mother=100093914	# GFN Maria Felicitas von Lodron-Laterano
+				mother=lodron_0263	# Maria Felicita zu Lodron-Laterano u.Castelromano
 				1697.09.16={birth=yes}  # München
 				1726.02.19={add_spouse=100099818}	# FRN Maria Anna vom Stain zum Rechtenstein
 				1764.03.26={death=yes}
@@ -9808,7 +9808,7 @@
 				dynasty_house=fugger_kirchberg
 				religion=catholic culture=german
 				father=100009936	# Johann Fugger von Kirchberg u.Weißenhorn
-				mother=100093914	# GFN Maria Felicitas von Lodron-Laterano
+				mother=lodron_0263	# Maria Felicita zu Lodron-Laterano u.Castelromano
 				1699.01.06={birth=yes}  # München
 				1761.05.11={death=yes}  # München
 			}
@@ -11809,7 +11809,7 @@
 					father=100002457	# Ernst Leopold von Leiningen
 					mother=100000275	# Marie Amalie von Baden
 					1866.01.18={birth=yes}
-					1894.07.12={add_spouse=100001741}	# Feodore Hohenlohe-Langenburg
+					1894.07.12={add_spouse=100001741}	# Feodore zu Hohenlohe-Langenburg
 					1939.07.18={death=yes}
 				}
 					100002460={ #// 1e) Viktoria Marie Leopoldine Elise Sophie (Amorbach 12 May 1895-Assenheim 9 Feb 1973); m.Amorbach 23 Feb 1922 (div 1937) Maximilian Gf zu Solms-Rödelheim und Assenheim (Assenheim 24 Sep 1893-Marburg an der Lahn 2 Sep 1968) $$
@@ -11818,7 +11818,7 @@
 						dynasty=1002028
 						religion=lutheran culture=german
 						father=100002459	# Emich Eduard von Leiningen
-						mother=100001741	# Feodore Hohenlohe-Langenburg
+						mother=100001741	# Feodore zu Hohenlohe-Langenburg
 						1895.05.12={birth=yes}
 						1973.02.09={death=yes}
 					}
@@ -11827,7 +11827,7 @@
 						dynasty=1002028
 						religion=lutheran culture=german
 						father=100002459	# Emich Eduard von Leiningen
-						mother=100001741	# Feodore Hohenlohe-Langenburg
+						mother=100001741	# Feodore zu Hohenlohe-Langenburg
 						1898.02.13={birth=yes}
 						1925.11.24={add_spouse=100016968}	# Мария Кирилловна Гольштейн-Готторп-Романов
 						1946.08.02={death=yes}
@@ -12059,7 +12059,7 @@
 						dynasty=1002028
 						religion=lutheran culture=german
 						father=100002459	# Emich Eduard von Leiningen
-						mother=100001741	# Feodore Hohenlohe-Langenburg
+						mother=100001741	# Feodore zu Hohenlohe-Langenburg
 						1901.01.04={birth=yes}
 						1938.12.20={add_spouse=100005178}	# Irene von Schönborn
 						1971.03.29={death=yes}
@@ -12069,7 +12069,7 @@
 						dynasty=1002028
 						religion=lutheran culture=german
 						father=100002459	# Emich Eduard von Leiningen
-						mother=100001741	# Feodore Hohenlohe-Langenburg
+						mother=100001741	# Feodore zu Hohenlohe-Langenburg
 						1903.07.23={birth=yes}
 						1933.07.11={add_spouse=100092767}	# GFN Marie-Luise von Nesselrode
 						1967.06.19={death=yes}
@@ -14497,7 +14497,7 @@
 							father=100007153	# Volkwin zu Waldeck u.Pyrmont
 							mother=100091994	# FRN Orlinda von Gablenz
 							1970.11.02={birth=yes}
-							2002.09.28={add_spouse=100001732}	# Katharina Clementine Hohenlohe-Langenburg
+							2002.09.28={add_spouse=100001732}	# Katharina Clementine zu Hohenlohe-Langenburg
 						}
 							100007157={ #// 1g) Laetitia Antoinette Julia Tatjana Felicitas (b.München 2 Dec 2003)
 								name=Laetitia
@@ -14505,7 +14505,7 @@
 								dynasty=1002023
 								religion=lutheran culture=german
 								father=100007156	# Nikolaus zu Waldeck u.Pyrmont
-								mother=100001732	# Katharina Clementine Hohenlohe-Langenburg
+								mother=100001732	# Katharina Clementine zu Hohenlohe-Langenburg
 								2003.12.02={birth=yes}
 							}
 							100007158={ #// 2g) Alexia Natalie Luise Tatjana Maresa (b.München 20 Jun 2006)
@@ -14514,7 +14514,7 @@
 								dynasty=1002023
 								religion=lutheran culture=german
 								father=100007156	# Nikolaus zu Waldeck u.Pyrmont
-								mother=100001732	# Katharina Clementine Hohenlohe-Langenburg
+								mother=100001732	# Katharina Clementine zu Hohenlohe-Langenburg
 								2006.06.20={birth=yes}
 							}
 						100007159={ #// 3f) Ludwig Wilhelm Heinrich Sigmund (b.Bonn 1 Feb 1983)
@@ -15566,7 +15566,7 @@
 						mother=100101200	# GFN Anna von Zimmern
 						1563.05.09={birth=yes}
 						1584.09.10={add_spouse=100101202}	# GFN Elisabeth von Sulz
-						1606.10.28={add_spouse=100101205}	# GFN Anna von Arco
+						1606.10.28={add_spouse=100101205}	# GFN Anna d'Arco
 						1617.08.08={death=yes}  # Dresden
 					}
 						100010329={ #// F1. Wilhelm, *4.2.1586, +18.11.1618; m.24.7.1608 Frn Anna Benigna Popel von Lobkowicz (+1646) $$
@@ -19826,7 +19826,7 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 							name=Moritz
 							dynasty=1002256
 							religion=catholic culture=german
-							father=lowborn_2175	# August Fries von Frieseberg
+							father=lowborn_2175	# August Fries von Friesenberg
 							mother=strachwitz_0137	# Anna Strachwitz v.Groß-Zauche u.Camminetz
 							1873.02.08={birth=yes}  # 
 							1919.04.26={add_spouse=lowborn_2236}	# Margarethe Wyssotzka

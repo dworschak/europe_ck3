@@ -1,9 +1,9 @@
-﻿#######################################################################################################
+#######################################################################################################
 ##  100000450-100000479		Blücher von Wallstadt             1002056	  28		  3/ 22 = 13,64%
 ##  100006500-100006675		Thurn und Taxis                   1002011	 152		 60/113 = 53,10%
 ##  100008191-100008320		Wrede                             1002087	  50		 13/ 43 = 30,23%
 ##  100008351-100008389		Schwarzburg-Rudolstadt            1002088	  36		 27/ 31 = 87,10%
-##  100008501-100008609		Arco                              1002093	  90		 25/ 74 = 33,78%
+##  arco_0076-100008609		Arco                              1002093	  90		 25/ 74 = 33,78%
 ##  100008626-100199029		Erbach-Fürstenau                  1002095	  84		 41/ 70 = 58,57%
 ##  100008644-100009159		Schwarzburg-Sondershausen         1002126	  59		 28/ 37 = 75,68%
 ##  100008647-100009100		Erbach-Erbach                     1002124	  32		 12/ 24 = 50,00%
@@ -2550,7 +2550,7 @@
 			1896.05.26={birth=yes}  # Königsberg
 			1919.04.03={add_spouse=100102716}	# FRN Brigitte von Eickstedt-Peterswaldt
 			1932.01.01={remove_spouse=100102716}
-			1933.01.31={add_spouse=100090642}	# GFN Elisabeth von Faber-Castell
+			1933.01.31={add_spouse=100190642}	# GFN Elisabeth von Faber-Castell
 			1940.01.20={death=yes}  # Berlin
 		}
 			100011792={ #// 1c) Wilhelm Rule Otto Ernst (Berlin 4 Mar 1920-Santiago, Chile 1 Dec 1991); m.Santiago 31 May 1972 Olga Hunéeus Cox (b.Santiago 28 Jan 1917)
@@ -10419,7 +10419,7 @@ nostitz_0001={ #// Otto von Nostitz-Rokinitz, Freiherr 18.5.1631, Courtly counse
 					mother=100099435	# Maria Sophia von Brühl
 					1943.02.08={birth=yes}
 				}
-				100011202={ #// D5. Rosa Marie Anna Susanna Coletta, *Planá u Mariánských Lázní 9.8.1945; m.Donaueschingen 9.3.1968 Frhr Georg von und zu Brenken (*Münster 19.5.1941)
+				100011202={ #// D5. Rosa Marie Anna Susanna Coletta, *Planá u Mariánských Lázní 9.8.1945; m.Donaueschingen 9.3.1968 Frhr Georg von und zu Brenken (*Münster 19.5.1941) $$
 					name=Rosa
 					female=yes
 					dynasty_house=nostitz_rieneck
@@ -12192,7 +12192,7 @@ nostitz_0001={ #// Otto von Nostitz-Rokinitz, Freiherr 18.5.1631, Courtly counse
 		mother=100006138	# Henriette Christiane von Stolberg-Stolberg
 		1789.12.02={birth=yes}  # Zwingenberg
 		1824.12.19={add_spouse=100011919}	# Maria Anna von Erbach
-		1829.03.31={add_spouse=100001750}	# Johanna Hohenlohe-Langenburg
+		1829.03.31={add_spouse=100001750}	# Johanna zu Hohenlohe-Langenburg
 		1829.05.26={death=yes}  # Schönberg
 	}
 	100008676={ #// A7. LUDWIG III, Graf zu Erbach-Schönberg 1829, Ghg.Hessisch general-lieutenant, *Zwingenberg 1.7.1792, +Airolo, Switzerland 18.8.1863; 1m: Meerholz 28.2.1837 Gfn Karoline Alexandrine Friederike von Gronsfeld-Diepenbroick und Impel, dau.of Johann Bertrand Gf von Gronsfeld-Diepenbroick and Maria Karoline Gfn zu Löwenstein-Wertheim-Virneburg (*9.11.1792, +Schönberg 29.10.1852); 2m: Assumstadt 16.11.1854 Gfn Karoline Wilhelmine Henriette Friederike von Gronsfeld-Diepenbroick und Impel (sister of his fist wife), widow of Ludwig von Ellrichshausen (*10.6.1799, +Schönberg 3.1.1858)
@@ -12579,21 +12579,323 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 	}
 #arco4
 
+#arco5
+100395676={ #// B1. Georg Anton, Gf von Arco; 1m: Maria Ernestina Gfn von Khuenburg (+1731); 2m: Josephine Gfn von Hardegg
+	name="Giorgio d'Arco"
+	#dynasty=0
+	religion=catholic culture=bavarian
+	1703.01.01={birth=yes}  # EST.
+	1727.01.01={add_spouse=kuenburg_0015}	# Maria Ernestina von Kuenburg
+	1763.01.01={death=yes}  # EST.
+}
+	100095676={ #// C6. Josepha, *Salzburg 11.1.1730, +Olomouc (Olmütz) 1.2.1790; m.Salzburg 23.10.1747 Ludwig Ernst Gf Podstatzky-Lichtenstein (*17.8.1723 +4.12.1793)
+		name="Josefa d'Arco"
+		female=yes
+		religion=catholic culture=german
+		father=100395676
+		mother=kuenburg_0015
+		1730.01.11={birth=yes}  # Salzburg
+		1790.02.01={death=yes}  # Olomouc
+	}
+
+100091561={ #// D8. Leopold Gf von Arco auf Valley, *9.3.1786, +3.4.1847; 1m: 1813 Maria Anna Gfn von Thun und Hohenstein (*1.7.1794 +4.3.1821); 2m: 28.4.1823 Sophie Gfn von Thun und Hohenstein (*28.4.1802, +26.2.1861)
+	name="Leopold d'Arco"
+	religion=catholic culture=german
+	1786.03.09={birth=yes}
+	1813.01.01={add_spouse=100024211}	# Maria Anna von Thun u.Hohenstein
+	1823.04.28={add_spouse=100024215}	# Sophia Marie von Thun u.Hohenstein
+	1847.04.03={death=yes}
+}
+#arco5
+
+#arco6
+arco_0034={ #// Massimiliano, Conte d’Arco, +1582; 1m: Clara Ludovica di Lodron; 2m: Olimpia Guerrieri
+	name=Massimiliano
+	dynasty=1002093
+	religion=catholic culture=italian
+	1513.01.01={birth=yes}  # EST.
+	1538.01.01={add_spouse=lowborn_0642}	# Clara Ludovica di Lodron
+	1552.01.01={add_spouse=lowborn_1810}	# Olimpia Guerrieri
+	1582.01.01={death=yes}
+}
+	arco_0035={ #// A1. [2m.] Giovanni Vincenzo, Conte d’Arco; 1m: Lucrezia Gfn von Thurn und Valsassina; 2m: Isabella Gonzaga di Luzzara
+		name="Giovanni Vincenzo"
+		dynasty=1002093
+		religion=catholic culture=italian
+		father=arco_0034	# Massimiliano von Arco
+		mother=lowborn_0642	# Clara Ludovica di Lodron
+		1552.01.01={birth=yes}  # EST.
+		1577.01.01={add_spouse=lowborn_4835}	# GFN Lucrezia von Thurn
+		1582.01.01={add_spouse=lowborn_1842}	# Isabella Gonzaga di Luzzara
+		1612.01.01={death=yes}  # EST.
+	}
+	arco_0037={ #// A3. [2m.] Cssa Felicita Francesca, +1628; m.Conte Carlo Galvagni
+		name="Felicita Francesca"
+		female=yes
+		dynasty=1002093
+		religion=catholic culture=italian
+		father=arco_0034	# Massimiliano von Arco
+		mother=lowborn_0642	# Clara Ludovica di Lodron
+		1559.01.01={birth=yes}  # EST.
+		1628.01.01={death=yes}
+	}
+	arco_0040={ #// A6. [2m.] Cssa Livia, +1616; m.Marchese Alfonso Bevilacqua
+		name=Livia
+		female=yes
+		dynasty=1002093
+		religion=catholic culture=italian
+		father=arco_0034	# Massimiliano von Arco
+		mother=lowborn_0642	# Clara Ludovica di Lodron
+		1557.01.01={birth=yes}  # EST.
+		1616.01.01={death=yes}
+	}
+	arco_0042={ #// A8. [2m.] Pirro, Conte d’Arco, +1634; 1m: Barbara Gonzaga di Luzzara; 2m: Regina, dau.of Sigismondo Conte d’Arco by Margherita Trapp
+		name=Pirro
+		dynasty=1002093
+		religion=catholic culture=italian
+		father=arco_0034	# Massimiliano von Arco
+		mother=lowborn_0642	# Clara Ludovica di Lodron
+		1565.01.01={birth=yes}  # EST.
+		1590.01.01={add_spouse=lowborn_3508}	# Barbara Gonzaga di Luzzara
+		1595.01.01={add_spouse=lowborn_3516}	# Regina d'Arco
+		1634.01.01={death=yes}
+	}
+		arco_0043={ #// B1. Cssa Barbara; m.Marchese Bernardino Gerardini di Verona
+			name=Barbara
+			female=yes
+			dynasty=1002093
+			religion=catholic culture=italian
+			father=arco_0042	# Pirro von Arco
+			mother=lowborn_3508	# Barbara Gonzaga di Luzzara
+			1590.01.01={birth=yes}  # EST.
+			1650.01.01={death=yes}  # EST.
+		}
+		arco_0044={ #// B2. Massimiliano Prospero, Conte d’Arco, +27.4.1683; 1m: Cecilia Cssa di Lodron Laterano; 2m: Regina, dau.of Gerardo Conte d’Arco by Camilla Gazzolda $$
+			name="Massimiliano Prospero"
+			dynasty=1002093
+			religion=catholic culture=italian
+			father=arco_0042	# Pirro von Arco
+			mother=lowborn_3508	# Barbara Gonzaga di Luzzara
+			1614.01.01={birth=yes}  # EST.
+			1644.01.01={add_spouse=lodron_0216}	# Cecilia zu Lodron-Laterano u.Castelromano
+			1649.01.01={add_spouse=lodron_0169}	# Clara Cecilia zu Lodron-Laterano u.Castelromano
+			1644.01.01={add_spouse=lowborn_4544}	# Regina d'Arco
+			1683.04.27={death=yes}
+		}
+			arco_0048={ #// C4. Giovanni Domenico, Conte d’Arco, fl 1702; m.Teresa Sedlnitzky von Choltitz
+				name="Giovanni Domenico"
+				dynasty=1002093
+				religion=catholic culture=italian
+				father=arco_0044	# Massimiliano Prospero von Arco
+				mother=lodron_0169	# Clara Cecilia zu Lodron-Laterano u.Castelromano
+				1639.01.01={birth=yes}  # EST.
+				1664.01.01={add_spouse=lowborn_3550}	# Teresa Sedlnitzky von Choltitz
+				1702.01.01={death=yes}  # EST.
+			}
+				arco_0049={ #// D1. Massimiliano, Conte d’Arco, +k.a.Parma 1734
+					name=Massimiliano
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0048	# Giovanni Domenico von Arco
+					mother=lowborn_3550	# Teresa Sedlnitzky von Choltitz
+					1665.01.01={birth=yes}  # EST.
+					1734.01.01={death=yes}  # Parma
+				}
+				arco_0050={ #// D2. Filippo, Conte d’Arco, +1723
+					name=Filippo
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0048	# Giovanni Domenico von Arco
+					mother=lowborn_3550	# Teresa Sedlnitzky von Choltitz
+					1666.01.01={birth=yes}  # EST.
+					1723.01.01={death=yes}
+				}
+			arco_0052={ #// C6. Filippo, Conte d’Arco, +1704; m.Barbara von Wieznik
+				name=Filippo
+				dynasty=1002093
+				religion=catholic culture=italian
+				father=arco_0044	# Massimiliano Prospero von Arco
+				mother=lodron_0169	# Clara Cecilia zu Lodron-Laterano u.Castelromano
+				1639.01.01={birth=yes}  # EST.
+				1664.01.01={add_spouse=lowborn_3560}	# Barbara von Wieznik
+				1704.01.01={death=yes}
+			}
+				arco_0053={ #// D1. Cssa Maria Giuseppa Teresa; m.Gf Ignaz Felix Joseph von Törring-Jettenbach (*18.11.1682, +Munich 18.8.1763)
+					name=Maria
+					female=yes
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0052	# Filippo von Arco
+					mother=lowborn_3560	# Barbara von Wieznik
+					1665.01.01={birth=yes}  # EST.
+					1725.01.01={death=yes}  # EST.
+				}
+				arco_0055={ #// D3. Giovanni Vincenzo, Conte d’Arco
+					name="Giovanni Vincenzo"
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0052	# Filippo von Arco
+					mother=lowborn_3560	# Barbara von Wieznik
+					1667.01.01={birth=yes}  # EST.
+					1727.01.01={death=yes}  # EST.
+				}
+				arco_0056={ #// D4. Massimiliano, Conte d’Arco, +k.a.against Turks in Hungaria 1717
+					name=Massimiliano
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0052	# Filippo von Arco
+					mother=lowborn_3560	# Barbara von Wieznik
+					1668.01.01={birth=yes}  # EST.
+					1717.01.01={death=yes}
+				}
+			arco_0057={ #// C7. Cssa Vittoria; m.Antonio Galassi
+				name=Vittoria
+				female=yes
+				dynasty=1002093
+				religion=catholic culture=italian
+				father=arco_0044	# Massimiliano Prospero von Arco
+				mother=lodron_0169	# Clara Cecilia zu Lodron-Laterano u.Castelromano
+				1639.01.01={birth=yes}  # EST.
+				1699.01.01={death=yes}  # EST.
+			}
+			arco_0058={ #// C8. Cssa Maria Catharina THERESIA Josepha, *Arco 16.1.1648, +Neuhof bef 12.9.1692; m.Bohulavek 22.9.1671 Frhr Bernard Franz Wieznik von Wieznik (*1647 +1.9.1714)
+				name=Theresia
+				female=yes
+				dynasty=1002093
+				religion=catholic culture=italian
+				father=arco_0044	# Massimiliano Prospero von Arco
+				mother=lodron_0169	# Clara Cecilia zu Lodron-Laterano u.Castelromano
+				1648.01.16={birth=yes}  # Arco
+				1692.09.12={death=yes}  # Neuhof bef
+			}
+			arco_0059={ #// C9. Cte Paolo, +1704; m.Maddalena Gazzolda
+				name=Paolo
+				dynasty=1002093
+				religion=catholic culture=italian
+				father=arco_0044	# Massimiliano Prospero von Arco
+				mother=lodron_0169	# Clara Cecilia zu Lodron-Laterano u.Castelromano
+				1639.01.01={birth=yes}  # EST.
+				1664.01.01={add_spouse=lowborn_4590}	# Maddalena Gazzolda
+				1704.01.01={death=yes}
+			}
+				arco_0060={ #// D1. Cssa Vittoria; m.Gianfrancesco Arrigoni
+					name=Vittoria
+					female=yes
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0059	# Paolo von Arco
+					mother=lowborn_4590	# Maddalena Gazzolda
+					1664.01.01={birth=yes}  # EST.
+					1724.01.01={death=yes}  # EST.
+				}
+			arco_0061={ #// C10. Pirhus Anton, Graf von Arco, *1647, +1722; m.Viktoria Gfn von Lodron $$
+				name=Pirhus
+				dynasty=1002093
+				religion=catholic culture=italian
+				father=arco_0044	# Massimiliano Prospero von Arco
+				mother=lodron_0169	# Clara Cecilia zu Lodron-Laterano u.Castelromano
+				1647.01.01={birth=yes}
+				1673.01.01={add_spouse=lodron_0276}	# Viktoria Elisabeth zu Lodron-Laterano u.Castelromano
+				1722.01.01={death=yes}
+			}
+				arco_0062={ #// D1. Peter Anton, Graf von Arco, *1685, +1750; 1m: Anselmina Heltz; 2m: after 1726 Gfn Anna Isabella von Limburg-Gehmen (*28.4.1688 +24.3.1773)
+					name="Peter Anton"
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0061	# Pirhus von Arco
+					mother=lodron_0276	# Viktoria Elisabeth zu Lodron-Laterano u.Castelromano
+					1685.01.01={birth=yes}
+					1727.01.01={add_spouse=lowborn_3596}	# GFN Anna Isabella von Limburg-Gehmen
+					1750.01.01={death=yes}
+				}
+					arco_0063={ #// E1. Gfn Alexandrina
+						name=Alexandrina
+						female=yes
+						dynasty=1002093
+						religion=catholic culture=italian
+						father=arco_0062	# Peter Anton von Arco
+						mother=lowborn_3596	# GFN Anna Isabella von Limburg-Gehmen
+						1730.01.01={birth=yes}  # EST.
+						1760.01.01={death=yes}  # EST.
+					}
+					arco_0064={ #// E2. Gf Karl Friedrich
+						name="Karl Friedrich"
+						dynasty=1002093
+						religion=catholic culture=italian
+						father=arco_0062	# Peter Anton von Arco
+						mother=lowborn_3596	# GFN Anna Isabella von Limburg-Gehmen
+						1732.01.01={birth=yes}  # EST.
+						1770.01.01={death=yes}  # EST.
+					}
+					arco_0065={ #// E3. Gf Johann Jakob
+						name="Johann Jakob"
+						dynasty=1002093
+						religion=catholic culture=italian
+						father=arco_0062	# Peter Anton von Arco
+						mother=lowborn_3596	# GFN Anna Isabella von Limburg-Gehmen
+						1734.01.01={birth=yes}  # EST.
+						1765.01.01={death=yes}  # EST.
+					}
+				arco_0069={ #// D2. Gfn Teresa; m.Barone N Bertenberg
+					name=Teresa
+					female=yes
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0061	# Pirhus von Arco
+					mother=lodron_0276	# Viktoria Elisabeth zu Lodron-Laterano u.Castelromano
+					1687.01.01={birth=yes}  # EST.
+					1760.01.01={death=yes}  # EST.
+				}
+				arco_0070={ #// D3. Gfn Felicita; m.Felice Trilaco
+					name=Felicita
+					female=yes
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0061	# Pirhus von Arco
+					mother=lodron_0276	# Viktoria Elisabeth zu Lodron-Laterano u.Castelromano
+					1689.01.01={birth=yes}  # EST.
+					1752.01.01={death=yes}  # EST.
+				}
+				arco_0071={ #// D4. Gf Christian, +1733; m.Marianna Violanta Frn Horwarth von Hohenburg
+					name=Christian
+					dynasty=1002093
+					religion=catholic culture=italian
+					father=arco_0061	# Pirhus von Arco
+					mother=lodron_0276	# Viktoria Elisabeth zu Lodron-Laterano u.Castelromano
+					1691.01.01={birth=yes}  # EST.
+					1710.01.01={add_spouse=lowborn_4599}	# FRN Marianna Violanta Horwarth von Hohenburg
+					1733.01.01={death=yes}
+				}
+					arco_0073={ #// E2. Philip, Graf von und zu Arco, *Regensburg 16.5.1710, +München 20.4.1779; m.Wasserburg am Inn 3.7.1740 Maria Anna Mandl von und zu Deutenhofen (*Hubenstein 7.6.1711, +Wasserburg 10.2.1743)
+						name=Philip
+						dynasty=1002093
+						religion=catholic culture=north_german
+						father=arco_0071	# Christian von Arco
+						mother=lowborn_4599	# FRN Marianna Violanta Horwarth von Hohenburg
+						1710.05.16={birth=yes}  # Regensburg
+						1740.07.03={add_spouse=lowborn_3600}	# Maria Anna Mandl von und zu Deutenhofen
+						1779.04.20={death=yes}  # München
+					}
+						#arco7   -->    F3. Ignaz Joseph, Gf von Arco auf Valley, Wasserburg am Inn 13.5.1741, +München 12.5.1812; m.München 18.10.1767 Rupertine Gfn Trauner von Adlstetten, Haus und Furth (*Aschaffenburg 15.12.1744, +München 20.12.1830); for his descendants see HERE
+#arco6
+
 #arco7
-100008501={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valley, *Wasserburg am Inn 13.5.1741, +München 12.5.1812; m.München 18.10.1767 Rupertine Gfn Trauner von Adlstetten, Haus und Furth (*Aschaffenburg 15.12.1744, +München 20.12.1830)
+arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valley, *Wasserburg am Inn 13.5.1741, +München 12.5.1812; m.München 18.10.1767 Rupertine Gfn Trauner von Adlstetten, Haus und Furth (*Aschaffenburg 15.12.1744, +München 20.12.1830)
 	name="Ignaz Joseph"
 	dynasty=1002093
 	religion=catholic culture=german
+	father=arco_0073	# Philip von Arco
+	mother=lowborn_3600	# Maria Anna Mandl von und zu Deutenhofen
 	1741.05.13={birth=yes}
-	1767.10.18={add_spouse=100096094}	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
+	1767.10.18={add_spouse=lowborn_3601}	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
 	1812.05.12={death=yes}  # München
 }
 	100008502={ #// A1. KARL Maria Rupert, *8.5.1769, +3.8.1856; m.26.10.1801 Maria Anna Gfn von Seinsheim (*31.8.1774, +23.4.1847)
 		name=Karl
 		dynasty=1002093
 		religion=catholic culture=german
-		father=100008501	# Ignaz Joseph von Arco
-		mother=100096094	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
+		father=arco_0076	# Ignaz Joseph von Arco
+		mother=lowborn_3601	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
 		1769.05.08={birth=yes}
 		1801.10.26={add_spouse=100098287}	# GFN Maria Anna von Seinsheim
 		1856.08.03={death=yes}
@@ -12689,7 +12991,7 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 						1912.01.22={birth=yes}  # Schloss Adldorf
 						1977.07.13={death=yes}  # München
 					}
-					100008515={ #// E9. FRANZISKA Maria Helene Friederike, *Schloss Adldorf 21.6.1917, +Tegernsee 31.7.1990; 1m: Schloss Adldorf 27.6.1938 Maximilian Gf Droste zu Vischering (*Padberg 24.7.1907, +k.a.nr Beaumont 19.5.1940); 2m: Valley 5.3.1946 Franz Spulak Edler von Bahnwehr (*Radymno 3.5.1904, +Valley 10.7.1981)
+					100008515={ #// E9. FRANZISKA Maria Helene Friederike, *Schloss Adldorf 21.6.1917, +Tegernsee 31.7.1990; 1m: Schloss Adldorf 27.6.1938 Maximilian Gf Droste zu Vischering (*Padberg 24.7.1907, +k.a.nr Beaumont 19.5.1940); 2m: Valley 5.3.1946 Franz Spulak Edler von Bahnwehr (*Radymno 3.5.1904, +Valley 10.7.1981) $$
 						name=Franziska
 						female=yes
 						dynasty=1002093
@@ -12709,14 +13011,14 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 						1919.07.03={birth=yes}  # Schloss Adldorf
 						1984.05.10={death=yes}  # Freistadt
 					}
-					100008517={ #// E11. OTTO HEINRICH Carl Maria Ludwig, *Schloss Adldorf 12.2.1921, +Lindau an der Isar 3.9.1989; m.Vorhelm 11.10.1960 Monika Gfn Droste zu Vischering (*Vorhelm 11.6.1937)
-						name="Otto Heinrich"
+					100008517={ #// E11. OTTO HEINRICH Carl Maria Ludwig, *Schloss Adldorf 12.2.1921, +Lindau an der Isar 3.9.1989; m.Vorhelm 11.10.1960 Monika Gfn Droste zu Vischering (*Vorhelm 11.6.1937) $$
+						name=Otto
 						dynasty=1002093
 						religion=catholic culture=german
 						father=100008506	# Maximilian Karl von Arco
 						mother=100036441	# Adelheid von Aretin
 						1921.02.12={birth=yes}  # Schloss Adldorf
-						1960.10.11={add_spouse=100098643}	# GFN Monika Droste zu Vischering
+						1960.10.11={add_spouse=droste_0054}	# Monika Droste zu Vischering
 						1989.09.03={death=yes}  # Lindau_an_der_Isar
 					}
 			100008520={ #// C3. Maria Anna Ludmilla Euphrosyne, *11.2.1841, +3.4.1923; m.St.Martin, Oberösterreich 1.8.1865 John Emerich Edward Dalberg-Acton, 1st Lord Acton (*Naples 10.1.1834, +Tegernsee 19.6.1902)
@@ -12803,8 +13105,8 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 		female=yes
 		dynasty=1002093
 		religion=catholic culture=german
-		father=100008501	# Ignaz Joseph von Arco
-		mother=100096094	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
+		father=arco_0076	# Ignaz Joseph von Arco
+		mother=lowborn_3601	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
 		1770.06.15={birth=yes}
 		1850.04.20={death=yes}
 	}
@@ -12812,8 +13114,8 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 		name=Ludwig
 		dynasty=1002093
 		religion=catholic culture=german
-		father=100008501	# Ignaz Joseph von Arco
-		mother=100096094	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
+		father=arco_0076	# Ignaz Joseph von Arco
+		mother=lowborn_3601	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
 		1773.01.30={birth=yes}  # München
 		1804.11.14={add_spouse=100020633}	# Leopoldine von Österreich-Este
 		1854.08.20={death=yes}  # München
@@ -13459,12 +13761,12 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 		female=yes
 		dynasty=1002093
 		religion=catholic culture=german
-		father=100008501	# Ignaz Joseph von Arco
-		mother=100096094	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
+		father=arco_0076	# Ignaz Joseph von Arco
+		mother=lowborn_3601	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
 		1779.07.05={birth=yes}
 		1820.01.01={death=yes}
 	}
-#1771.05.13={holder=100008501} # IGNAZ JOSEPH
+#1771.05.13={holder=arco_0076} # IGNAZ JOSEPH
 #1812.05.12={holder=100008502} # KARL
 #1856.08.03={holder=100008503} # MAXIMILIAN JOSEF
 #1875.12.23={holder=100008504} # KARL BORROMÄUS

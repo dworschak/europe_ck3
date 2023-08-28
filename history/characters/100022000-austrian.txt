@@ -95,8 +95,8 @@
 					1815.04.20={birth=yes}  # Vienna
 					1845.02.24={death=yes}  # Budapest
 				}
-				100022767={ #// 3a) Leocadie Anastasia Konstanze (2 May 1816-Vienna 19 Sep 1873); m.10 Sep 1837 Adolf Gf Viczay de Vicza (12 Aug 1804 - Görz 22 Jan 1873)
-					name=Leocadie
+				100022767={ #// 3a) Leocadie Anastasia Konstanze (2 May 1816-Vienna 19 Sep 1873); m.10 Sep 1837 Adolf Gf Viczay de Vicza (12 Aug 1804 - Görz 22 Jan 1873) $$
+					name="Leocadie Anastasia"
 					female=yes
 					dynasty=1004566
 					religion=catholic culture=bavarian
@@ -3228,7 +3228,7 @@
 								1746.12.08={death=yes}  # The Hague
 							}
 							# harrach3 -> G4. Ernst Quido von Harrach, *Wien 8.9.1723, +Wien 23.3.1783; m.Wien 20.5.1754 Pss Maria Josepha von Dietrichstein-Proskau (*2.11.1736 +21.12.1799); for his issue see HERE
-							100022106={ #// G5. Maria Anna, *27.4.1725, +29.4.1780; m.Nikolaus Sebastian von Lodron (*17.10.1719, +30.3.1792)
+							100022106={ #// G5. Maria Anna, *27.4.1725, +29.4.1780; m.Nikolaus Sebastian von Lodron (*17.10.1719, +30.3.1792) $$
 								name="Maria Anna"
 								female=yes
 								dynasty=1004560
@@ -5236,7 +5236,7 @@
 						father=100025097	# Ignaz von Attems
 						mother=100095516	# GFN Aloysia Inzaghi
 						1818.08.08={birth=yes}  # Graz
-						1858.11.27={add_spouse=100035129}	# Maria Thekla zu Lodron-Laterano u.Castelromano
+						1858.11.27={add_spouse=lodron_0488}	# Maria Thekla zu Lodron-Laterano u.Castelromano
 						1901.09.21={death=yes}  # Graz
 					}
 						100025176={ #// F1. [2m.] KARL Maria Ignaz Friedrich, *Graz 22.7.1860, +Czernowitz 1.1.1884
@@ -5244,7 +5244,7 @@
 							dynasty=1004511
 							religion=catholic culture=bavarian
 							father=100025159	# Friedrich von Attems
-							mother=100035129	# Maria Thekla zu Lodron-Laterano u.Castelromano
+							mother=lodron_0488	# Maria Thekla zu Lodron-Laterano u.Castelromano
 							1860.07.22={birth=yes}  # Graz
 							1884.01.01={death=yes}  # Czernowitz
 						}
@@ -5254,7 +5254,7 @@
 							dynasty=1004511
 							religion=catholic culture=bavarian
 							father=100025159	# Friedrich von Attems
-							mother=100035129	# Maria Thekla zu Lodron-Laterano u.Castelromano
+							mother=lodron_0488	# Maria Thekla zu Lodron-Laterano u.Castelromano
 							1861.07.20={birth=yes}  # Graz
 							1931.09.19={death=yes}  # Graz
 						}
@@ -5264,7 +5264,7 @@
 							dynasty=1004511
 							religion=catholic culture=bavarian
 							father=100025159	# Friedrich von Attems
-							mother=100035129	# Maria Thekla zu Lodron-Laterano u.Castelromano
+							mother=lodron_0488	# Maria Thekla zu Lodron-Laterano u.Castelromano
 							1862.11.15={birth=yes}  # Graz
 							1938.12.26={death=yes}  # Graz
 						}
@@ -5915,14 +5915,14 @@
 			1515.01.01={birth=yes}  # EST.
 			1539.01.01={death=yes}  # Trento
 		}
-		100024720={ #// B4. [1m.] Johann, Herr auf Ortenegg und Ottenstein, *1516, +26.12.1556; 1m: Gfn Justina von Lodron-Laterano; 2m: Anna von Hohenfeld
+		100024720={ #// B4. [1m.] Johann, Herr auf Ortenegg und Ottenstein, *1516, +26.12.1556; 1m: Gfn Justina von Lodron-Laterano; 2m: Anna von Hohenfeld $$
 			name=Johann
 			dynasty=1004523
 			religion=catholic culture=bavarian
 			father=100024710	# Joseph von Lamberg
 			mother=100094190	# Elisabeth von Erlach
 			1516.01.01={birth=yes}
-			1541.01.01={add_spouse=100094603}	# GFN Justina von Lodron-Laterano
+			1541.01.01={add_spouse=lodron_0099}	# Justina zu Lodron-Laterano u.Castelromano
 			1556.12.26={death=yes}
 		}
 			100024721={ #// C1. [1m.] Maria Magdalena; m.Hermes Porcia, conte di Porcia e Brugnara (+1669)
@@ -5931,7 +5931,7 @@
 				dynasty=1004523
 				religion=catholic culture=bavarian
 				father=100024720	# Johann von Lamberg
-				mother=100094603	# GFN Justina von Lodron-Laterano
+				mother=lodron_0099	# Justina zu Lodron-Laterano u.Castelromano
 				1550.01.01={birth=yes}  # EST.
 				1618.01.01={death=yes}  # EST.
 			}
@@ -16007,14 +16007,6 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 
 ###		Hoyos				 			100023075
 #hoyos1
-100101037={ #// E10. [2m.] Maria Cäcilia; m.Gf Johann Ludwig Adam von Starhemberg (*1616, +Wien 29.9.1666)
-	name="Maria Cäcilia Hoyos"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=bavarian
-	1641.01.01={birth=yes}  # EST.
-	1716.01.01={death=yes}  # EST.
-}
 
 100023224={ #// F1. Leopold Karl, -cr Reichsgraf Hoyos, Freiherr zu Stichsenstein 23.9.1674, -cr Graf 1682, *1651, +25.8.1699; m.Gfn Maria Regina von und zu Sprinzenstein und Neuhaus (*1665, +28.11.1704)
 	name="Leopold Karl"
@@ -16101,6 +16093,25 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				1800.01.01={death=yes}
 			}
 		# hoyos3 -> H5. Johann Anton Josef, *11.7.1731, +Wien 26.11.1791; 1m: Wolfpassing 2.7.1764 Maria Anna von Auersperg (*Wien 9.5.1747, +Frohsdorf 11.1.1767); 2m: Maria Anna Leitner (*19.2.1756)
+
+# D4. Johann Balthasar, -cr Reichsgraf Hoyos 1628, NÖ Landmarschall, Hofkammerpräsident, Golden Fleece Order, *ca 1583, +12.4.1632; 1m: 26.10.1605 Anna Katharina von Khevenhüller zu Aichelberg (+1619); 2m: Frn Susanna Apollonia von Teufel
+	100101037={ #// E10. [2m.] Maria Cäcilia; m.Gf Johann Ludwig Adam von Starhemberg (*1616, +Wien 29.9.1666)
+		name="Maria Cäcilia Hoyos"
+		female=yes
+		#dynasty=0
+		religion=catholic culture=bavarian
+		1641.01.01={birth=yes}  # EST.
+		1716.01.01={death=yes}  # EST.
+	}
+	# E11. [2m.] Johann Balthasar, +10.10.1681; m.Esther Susanna von Trauttmansdorff
+		lowborn_5095={ #// F1. Johann Ernst Ludwig, bap Wien 21.12.1669, +28.6.1718 / Kreuzstetten 30.6.1718; m.Gfn Josefa Antonia Ludmilla Libštejnská z Kolowrat (*26.7.1665, +25.6.1744)
+			name="Johann Ernst von Hoyos"
+			#dynasty=0
+			religion=catholic culture=german
+			1669.01.01={birth=yes}  # EST.
+			1694.06.14={add_spouse=kolowrat_0049}	# Josefa Antonie Libštejnský z Kolovrat
+			1718.06.30={death=yes}  # Kreuzstetten
+		}
 #hoyos1
 
 #hoyos2
@@ -20514,13 +20525,13 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							1928.02.12={death=yes}
 						}
 							100024833={ #// 1i) Edmund Maria Ladislaus Alexander Athanasius Peter Pius Sigismund (Vienna 2 May 1885-Herrnau bei Salzburg 10 Jul 1953); m.Graz 27 Feb 1911 Margarita Gfn zu Lodron-Laterano u.Castelromano (Himmelberg 26 Aug 1889-Salzburg 18 Mar 1949) $$
-								name="Edmund Maria"
+								name=Edmund
 								dynasty=1004009
 								religion=catholic culture=bavarian
 								father=100024831	# Manfred Alexander von Clary u.Aldringen
 								mother=100136023	# Franciska Pejačević
 								1885.05.02={birth=yes}
-								1911.02.27={add_spouse=100035170}	# Margarita zu Lodron-Laterano u.Castelromano
+								1911.02.27={add_spouse=lodron_0514}	# Margarita zu Lodron-Laterano u.Castelromano
 								1953.07.10={death=yes}
 							}
 								100024835={ #// 1j) Marie Margarethe Edmée Franziska Angelika (Trieste 11 Nov 1911-München 20 Jul 1999); m.Salzburg 2 Mar 1942 Heinz-Erich Mühlenburg (Berlin 23 Sep 1908-München 14 Apr 1985)
@@ -20528,8 +20539,8 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									female=yes
 									dynasty=1004009
 									religion=catholic culture=bavarian
-									father=100024833	# Edmund Maria von Clary u.Aldringen
-									mother=100035170	# Margarita zu Lodron-Laterano u.Castelromano
+									father=100024833	# Edmund von Clary u.Aldringen
+									mother=lodron_0514	# Margarita zu Lodron-Laterano u.Castelromano
 									1911.11.11={birth=yes}
 									1999.07.20={death=yes}
 								}
@@ -20537,8 +20548,8 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									name="Ladislaus Marie"
 									dynasty=1004009
 									religion=catholic culture=bavarian
-									father=100024833	# Edmund Maria von Clary u.Aldringen
-									mother=100035170	# Margarita zu Lodron-Laterano u.Castelromano
+									father=100024833	# Edmund von Clary u.Aldringen
+									mother=lodron_0514	# Margarita zu Lodron-Laterano u.Castelromano
 									1912.10.31={birth=yes}
 									1919.10.16={death=yes}
 								}
@@ -20546,8 +20557,8 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									name="Manfred Marie"
 									dynasty=1004009
 									religion=catholic culture=bavarian
-									father=100024833	# Edmund Maria von Clary u.Aldringen
-									mother=100035170	# Margarita zu Lodron-Laterano u.Castelromano
+									father=100024833	# Edmund von Clary u.Aldringen
+									mother=lodron_0514	# Margarita zu Lodron-Laterano u.Castelromano
 									1913.09.12={birth=yes}
 									1934.03.31={death=yes}
 								}
@@ -20556,8 +20567,8 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									female=yes
 									dynasty=1004009
 									religion=catholic culture=bavarian
-									father=100024833	# Edmund Maria von Clary u.Aldringen
-									mother=100035170	# Margarita zu Lodron-Laterano u.Castelromano
+									father=100024833	# Edmund von Clary u.Aldringen
+									mother=lodron_0514	# Margarita zu Lodron-Laterano u.Castelromano
 									1916.06.09={birth=yes}
 									1987.10.23={death=yes}
 								}
@@ -20565,8 +20576,8 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									name="Edmund Maria"
 									dynasty=1004009
 									religion=catholic culture=bavarian
-									father=100024833	# Edmund Maria von Clary u.Aldringen
-									mother=100035170	# Margarita zu Lodron-Laterano u.Castelromano
+									father=100024833	# Edmund von Clary u.Aldringen
+									mother=lodron_0514	# Margarita zu Lodron-Laterano u.Castelromano
 									1918.08.09={birth=yes}
 									1948.04.21={add_spouse=100092522}	# FRN Marie-Agnes von Ledebur
 									1996.06.28={death=yes}
@@ -20699,8 +20710,8 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									name="Carl Anton"
 									dynasty=1004009
 									religion=catholic culture=bavarian
-									father=100024833	# Edmund Maria von Clary u.Aldringen
-									mother=100035170	# Margarita zu Lodron-Laterano u.Castelromano
+									father=100024833	# Edmund von Clary u.Aldringen
+									mother=lodron_0514	# Margarita zu Lodron-Laterano u.Castelromano
 									1919.10.15={birth=yes}
 									1948.05.04={add_spouse=100022407}	# Therese von Seilern u.Aspang
 									1993.03.27={death=yes}
@@ -20710,8 +20721,8 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									female=yes
 									dynasty=1004009
 									religion=catholic culture=bavarian
-									father=100024833	# Edmund Maria von Clary u.Aldringen
-									mother=100035170	# Margarita zu Lodron-Laterano u.Castelromano
+									father=100024833	# Edmund von Clary u.Aldringen
+									mother=lodron_0514	# Margarita zu Lodron-Laterano u.Castelromano
 									1919.10.15={birth=yes}
 									2013.01.07={death=yes}
 								}
@@ -22151,14 +22162,15 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			1616.12.16={birth=yes}
 			1668.06.01={death=yes}
 		}
-		100025428={ #// B6. [2m.] Michael Oswald, Statholder in Bohemia 1687, *13.10.1631, +30.1.1694; 1m: Salzburg 14.9.1654 Elisabeth Gfn von Lodron (+1688); 2m: Gfn Anna Cäcilia von Thannhausen (*14.3.1674, +15.2.1721)
+		100025428={ #// B6. [2m.] Michael Oswald, Statholder in Bohemia 1687, *13.10.1631, +30.1.1694; 1m: Salzburg 14.9.1654 Elisabeth Gfn von Lodron (+1688); 2m: Gfn Anna Cäcilia von Thannhausen (*14.3.1674, +15.2.1721) $$
 			name="Michael Oswald"
 			dynasty=1004005
 			religion=catholic culture=bavarian
 			father=100023582	# Johann Sigismund von Thun u.Hohenstein
 			mother=100093481	# FRN Anne Margarete von Wolkenstein
 			1631.10.13={birth=yes}
-			1694.01.30={death=yes}
+			1654.09.14={add_spouse=lodron_0254}	# Elisabeth zu Lodron-Laterano u.Castelromano
+			1694.01.31={death=yes}  # Praha
 		}
 			100024166={ #// C2. [1m.] Eleonora Barbora, *4.5.1661, +Wien 10.2.1723; m.Graupen 15.10.1679 Fst Anton Florian von und zu Liechtenstein (*28.5.1656 +11.10.1721) $$
 				name="Eleonore Barbara"
@@ -22166,6 +22178,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				dynasty=1004005
 				religion=catholic culture=bavarian
 				father=100025428	# Michael Oswald von Thun u.Hohenstein
+				mother=lodron_0254	# Elisabeth zu Lodron-Laterano u.Castelromano
 				1661.05.04={birth=yes}
 				1723.02.10={death=yes}
 			}
@@ -22176,7 +22189,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			father=100023582	# Johann Sigismund von Thun u.Hohenstein
 			mother=100012452	# Margarete Anna zu Oettingen-Wallerstein
 			1638.01.01={birth=yes}
-			1664.01.01={add_spouse=100098974}	# GFN Marie Franziska von Lodron
+			1664.01.01={add_spouse=lodron_0259}	# Maria Josepha zu Lodron-Laterano u.Castelromano
 			1680.08.11={add_spouse=100022878}	# Maria Maximiliana von Liechtenstein
 			1688.01.01={add_spouse=100093282}	# GFN Marie Adelheid zu Toerring
 			1701.01.01={death=yes}
@@ -22187,7 +22200,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				dynasty=1004005
 				religion=catholic culture=bavarian
 				father=100023586	# Maximilian von Thun u.Hohenstein
-				mother=100098974	# GFN Marie Franziska von Lodron
+				mother=lodron_0259	# Maria Josepha zu Lodron-Laterano u.Castelromano
 				1664.01.01={birth=yes}
 				1733.01.01={death=yes}
 			}
@@ -22196,7 +22209,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				dynasty=1004005
 				religion=catholic culture=bavarian
 				father=100023586	# Maximilian von Thun u.Hohenstein
-				mother=100098974	# GFN Marie Franziska von Lodron
+				mother=lodron_0259	# Maria Josepha zu Lodron-Laterano u.Castelromano
 				1673.12.01={birth=yes}
 				1701.03.25={death=yes}
 			}
@@ -27143,14 +27156,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			1691.01.01={birth=yes}  # EST.
 			1766.01.01={death=yes}  # EST.
 		}
-		100024396={ #// B2. [2m.] Karl Anton Ignaz, *Praha 11.8.1693, +Praha 15.10.1728; m.Maria Josepha Gfn zu Lodron-Laterano und Castelromano (+11.7.1758)
+		100024396={ #// B2. [2m.] Karl Anton Ignaz, *Praha 11.8.1693, +Praha 15.10.1728; m.Maria Josepha Gfn zu Lodron-Laterano und Castelromano (+11.7.1758) $$
 			name=Karl
 			dynasty=1004004
 			religion=catholic culture=czech
 			father=100024376	# Leopold Anton von Trauttmansdorff-Weinsberg
 			mother=100095293	# GFN Marie Karolína Slavata z Chlumu Košumberka
 			1693.08.11={birth=yes}  # Praha
-			1718.01.01={add_spouse=100096893}	# GFN Maria Josepha von Lodron-Laterano u.Castelromano
+			1718.01.01={add_spouse=lodron_0337}	# Maria Josepha zu Lodron-Laterano u.Castelromano
 			1728.10.15={death=yes}  # Praha
 		}
 			100024447={ #// C1. Maria Josepha, *Praha 27.2.1718, +12.10.1772; 1m: 1734 Gf Jan Karel Straka z Nedabylic (*I.1714, +IV.1736); 2m: Teplice 28.4.1737 Gf Johann Anton von Clary und Aldringen (*1700, +Spálené Porící v Cechách 20.5.1743); 3m: 1747 František Wiežnik z Wiežnik $$
@@ -27159,7 +27172,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				dynasty=1004004
 				religion=catholic culture=czech
 				father=100024396	# Karl von Trauttmansdorff-Weinsberg
-				mother=100096893	# GFN Maria Josepha von Lodron-Laterano u.Castelromano
+				mother=lodron_0337	# Maria Josepha zu Lodron-Laterano u.Castelromano
 				1718.02.27={birth=yes}  # Praha
 				1772.10.12={death=yes}
 			}
@@ -30253,14 +30266,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		1621.08.13={birth=yes}
 		1655.01.01={death=yes}
 	}
-	100022829={ #// A3. [2m.] Ferdinand Johann, *1622, +1666; m.1650 Gfn Dorothea Anna von Lodron (*1619 +1666)
+	100022829={ #// A3. [2m.] Ferdinand Johann, *1622, +1666; m.1650 Gfn Dorothea Anna von Lodron (*1619 +1666) $$
 		name="Ferdinand Johann"
 		dynasty=1004002
 		religion=catholic culture=bavarian
 		father=100022715	# Gundackar von Liechtenstein
 		mother=100085627	# DSS Elisabeth Lukretia von Teschen
 		1622.01.01={birth=yes}
-		1650.01.01={add_spouse=100103730}	# GFN Dorothea Anna von Lodron
+		1650.01.01={add_spouse=lodron_0226}	# Dorothea zu Lodron-Laterano u.Castelromano
 		1666.01.01={death=yes}
 	}
 #liecht3
@@ -33318,7 +33331,7 @@ wgraetz_0038={ #// JOSEPH Ludwig Nikolaus Anton de Paula Johannes Nepomuk Adam R
 					father=100022598	# Hugo von Windisch-Graetz
 					mother=100021787	# Christiane von Auersperg
 					1890.03.12={birth=yes}
-					1919.05.29={add_spouse=100001773}	# Isabella Hohenlohe-Langenburg
+					1919.05.29={add_spouse=100001773}	# Isabella zu Hohenlohe-Langenburg
 					1972.03.07={death=yes}
 				}
 					100022633={ #// 1e) Christiane Anna Maria Militonia (Rothenhaus 10 Mar 1920-Weikersheim 18 Dec 1993)
@@ -33327,7 +33340,7 @@ wgraetz_0038={ #// JOSEPH Ludwig Nikolaus Anton de Paula Johannes Nepomuk Adam R
 						dynasty=1004000
 						religion=catholic culture=bavarian
 						father=100022631	# Alfred von Windisch-Graetz
-						mother=100001773	# Isabella Hohenlohe-Langenburg
+						mother=100001773	# Isabella zu Hohenlohe-Langenburg
 						1920.03.10={birth=yes}
 						1993.12.18={death=yes}
 					}
@@ -33336,7 +33349,7 @@ wgraetz_0038={ #// JOSEPH Ludwig Nikolaus Anton de Paula Johannes Nepomuk Adam R
 						dynasty=1004000
 						religion=catholic culture=bavarian
 						father=100022631	# Alfred von Windisch-Graetz
-						mother=100001773	# Isabella Hohenlohe-Langenburg
+						mother=100001773	# Isabella zu Hohenlohe-Langenburg
 						1927.04.05={birth=yes}
 						1955.01.01={add_spouse=100084644}	# Claudia Hall
 						2007.01.01={death=yes}	# EST.
@@ -33346,7 +33359,7 @@ wgraetz_0038={ #// JOSEPH Ludwig Nikolaus Anton de Paula Johannes Nepomuk Adam R
 						dynasty=1004000
 						religion=catholic culture=bavarian
 						father=100022631	# Alfred von Windisch-Graetz
-						mother=100001773	# Isabella Hohenlohe-Langenburg
+						mother=100001773	# Isabella zu Hohenlohe-Langenburg
 						1929.12.29={birth=yes}
 						1961.10.21={add_spouse=100086881}	# Caroline Knott
 						1967.01.01={remove_spouse=100086881}
@@ -34199,14 +34212,14 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 											1571.10.28={add_spouse=lowborn_1808}	# Margarethe von Niederthor
 											1608.03.26={death=yes}  # Lichtenberg
 										}
-											khuen_0012={ #// 14 Johann KHUEN VON BELASI, *Raudersperg 1574, +1643; m.1st 5.5.1603 Veronica Gentilia von Lodron-laterano (*1.1.1581, +1.1.1639); m.2nd 1.1.1639 Christina Walpurga von Rechberg zu hohen-rechberg (*Donzdorf 22.8.1609, +1.1.1653)
+											khuen_0012={ #// 14 Johann KHUEN VON BELASI, *Raudersperg 1574, +1643; m.1st 5.5.1603 Veronica Gentilia von Lodron-laterano (*1.1.1581, +1.1.1639); m.2nd 1.1.1639 Christina Walpurga von Rechberg zu hohen-rechberg (*Donzdorf 22.8.1609, +1.1.1653) $$
 												name=Johann
 												dynasty=1002238
 												religion=catholic culture=german
 												father=khuen_0010	# Johann Khuen von Belasi
 												mother=lowborn_1808	# Margarethe von Niederthor
 												1574.10.30={birth=yes}  # Raudersperg
-												1603.05.05={add_spouse=lowborn_1810}	# Veronica Gentilia von Lodron-Laterano
+												1603.05.05={add_spouse=lodron_0166}	# Veronica Gentilia zu Lodron-Laterano u.Castelromano
 												1639.01.01={add_spouse=lowborn_1811}	# Christina Walpurga von Rechberg zu Hohen-Rechberg
 												1643.01.01={death=yes}
 											}
@@ -34215,7 +34228,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 													dynasty=1002238
 													religion=catholic culture=german
 													father=khuen_0012	# Johann Khuen von Belasi
-													mother=lowborn_1810	# Veronica Gentilia von Lodron-Laterano
+													mother=lodron_0166	# Veronica Gentilia zu Lodron-Laterano u.Castelromano
 													1599.01.01={birth=yes}  # EST.
 													1660.04.25={add_spouse=lowborn_1814}	# Helene von Spaur
 													1668.01.01={death=yes}
@@ -34309,7 +34322,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																			1843.04.01={birth=yes}  # Bozen
 																			1913.01.01={death=yes}  # EST.
 																		}
-																		khuen_0044={ #// 50 Hedwig VON KHUEN-BELASI, *Bozen 1846.04.13, +Lodrone 1905.04.07; m.Schloss Gandegg 10.9.1868 Ernst August zu Lodron-laterano und castelromano (*Trient 27.4.1842, +Lodrone 17.5.1899)
+																		khuen_0044={ #// 50 Hedwig VON KHUEN-BELASI, *Bozen 1846.04.13, +Lodrone 1905.04.07; m.Schloss Gandegg 10.9.1868 Ernst August zu Lodron-laterano und castelromano (*Trient 27.4.1842, +Lodrone 17.5.1899) $$
 																			name=Hedwig
 																			female=yes
 																			dynasty=1002238
@@ -34485,7 +34498,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 													dynasty=1002238
 													religion=catholic culture=german
 													father=khuen_0012	# Johann Khuen von Belasi
-													mother=lowborn_1810	# Veronica Gentilia von Lodron-Laterano
+													mother=lodron_0166	# Veronica Gentilia zu Lodron-Laterano u.Castelromano
 													1608.01.01={birth=yes}
 													1640.11.21={add_spouse=lowborn_1815}	# Barbara von Törring
 													1660.01.01={death=yes}
@@ -35126,7 +35139,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 													dynasty=1002238
 													religion=catholic culture=german
 													father=khuen_0012	# Johann Khuen von Belasi
-													mother=lowborn_1810	# Veronica Gentilia von Lodron-Laterano
+													mother=lodron_0166	# Veronica Gentilia zu Lodron-Laterano u.Castelromano
 													1610.01.01={birth=yes}
 													1669.11.15={death=yes}
 												}
@@ -35136,7 +35149,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 													dynasty=1002238
 													religion=catholic culture=german
 													father=khuen_0012	# Johann Khuen von Belasi
-													mother=lowborn_1810	# Veronica Gentilia von Lodron-Laterano
+													mother=lodron_0166	# Veronica Gentilia zu Lodron-Laterano u.Castelromano
 													1616.01.01={birth=yes}  # EST.
 													1685.02.05={death=yes}
 												}
@@ -35219,23 +35232,23 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																1782.01.01={add_spouse=lowborn_1832}	# GFN Maria Josefa Sándor de Szlavnicza
 																1788.06.05={death=yes}  # war wounds, Agram (Zagreb)
 															}
-																khuen_0033={ #// 37 Anton II KHUEN VON BELASI, *Wien 1783.07.29, +Pressburg 1823.02.23; m.Hédervár 3.6.1810 Karoline VICZAY DE LOÓS ET HÉDERVÁR (*Hédervár 10.10.1789, +Nustar 13.2.1839)
+																khuen_0033={ #// 37 Anton II KHUEN VON BELASI, *Wien 1783.07.29, +Pressburg 1823.02.23; m.Hédervár 3.6.1810 Karoline VICZAY DE LOÓS ET HÉDERVÁR (*Hédervár 10.10.1789, +Nustar 13.2.1839) $$
 																	name=Anton
 																	dynasty=1002238
 																	religion=catholic culture=german
 																	father=khuen_0030	# Anton Franz Khuen von Belasi
 																	mother=lowborn_1832	# GFN Maria Josefa Sándor de Szlavnicza
 																	1783.07.29={birth=yes}  # Wien
-																	1810.06.03={add_spouse=lowborn_1835}	# Karoline Viczay de Loós et Hédervár
+																	1810.06.03={add_spouse=viczay_0017}	# Karolina Viczay de Loós et Hédervár
 																	1823.02.23={death=yes}  # Pressburg
 																}
-																	khuen_0039={ #// 43 Maria VON KHUEN-BELASY, *1811.04.02; m.20.8.1829 Károly VICZAY DE LOÓS ET HÉDERVÁR (*29.5.1802, +Pest 19.10.1867)
+																	khuen_0039={ #// 43 Maria VON KHUEN-BELASY, *1811.04.02; m.20.8.1829 Károly VICZAY DE LOÓS ET HÉDERVÁR (*29.5.1802, +Pest 19.10.1867) $$
 																		name=Maria
 																		female=yes
 																		dynasty=1002238
 																		religion=catholic culture=german
 																		father=khuen_0033	# Anton Khuen von Belasi
-																		mother=lowborn_1835	# Karoline Viczay de Loós et Hédervár
+																		mother=viczay_0017	# Karolina Viczay de Loós et Hédervár
 																		1811.04.02={birth=yes}
 																		1886.01.01={death=yes}  # EST.
 																	}
@@ -35244,7 +35257,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																		dynasty=1002238
 																		religion=catholic culture=german
 																		father=khuen_0033	# Anton Khuen von Belasi
-																		mother=lowborn_1835	# Karoline Viczay de Loós et Hédervár
+																		mother=viczay_0017	# Karolina Viczay de Loós et Hédervár
 																		1812.06.03={birth=yes}  # Nustar
 																		1880.01.01={death=yes}
 																	}
@@ -35253,7 +35266,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																		dynasty=1002238
 																		religion=catholic culture=german
 																		father=khuen_0033	# Anton Khuen von Belasi
-																		mother=lowborn_1835	# Karoline Viczay de Loós et Hédervár
+																		mother=viczay_0017	# Karolina Viczay de Loós et Hédervár
 																		1817.02.25={birth=yes}  # Bratislava
 																		1847.05.17={add_spouse=lowborn_1843}	# Angelica Izdenczy de Monostor et Komlos
 																		1886.05.21={death=yes}  # Monostor
@@ -35385,7 +35398,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																					father=khuen_0069	# Heinrich Khuen von Belasi
 																					mother=100185226	# Ida Popel von Lobkowitz
 																					1933.08.26={birth=yes}  # Praha,  in Heidelberg
-																					1966.09.03={add_spouse=100001686}	# Marie Charlotte Hohenlohe-Langenburg
+																					1966.09.03={add_spouse=100001686}	# Marie Charlotte zu Hohenlohe-Langenburg
 																					2013.07.17={death=yes}
 																				}
 																					khuen_0136={ #// 136 Stefan Cajetan Mathias Karl Heinrich Maria KHUEN VON BELASI, *Hamburg 1968
@@ -35393,7 +35406,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																						dynasty=1002238
 																						religion=catholic culture=german
 																						father=khuen_0078	# Karl Matthias Khuen von Belasi
-																						mother=100001686	# Marie Charlotte Hohenlohe-Langenburg
+																						mother=100001686	# Marie Charlotte zu Hohenlohe-Langenburg
 																						1968.03.12={birth=yes}  # Hamburg
 																					}
 																					khuen_0091={ #// 137 Anna Johanna Lucia Theresia de Jesu infante Maria KHUEN VON BELASI, *Hamburg 1971; m.Heidelberg 10.5.1997 Rüdiger von Knebel doeberitz (*Hilden 3.1.1970)
@@ -35402,7 +35415,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																						dynasty=1002238
 																						religion=catholic culture=german
 																						father=khuen_0078	# Karl Matthias Khuen von Belasi
-																						mother=100001686	# Marie Charlotte Hohenlohe-Langenburg
+																						mother=100001686	# Marie Charlotte zu Hohenlohe-Langenburg
 																						1971.04.08={birth=yes}  # Hamburg
 																					}
 																					khuen_0137={ #// 138 Marie-Elisabeth Ida Theresia de Jesu infante Karoline KHUEN VON BELASI, *Heidelberg 1976
@@ -35411,7 +35424,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																						dynasty=1002238
 																						religion=catholic culture=german
 																						father=khuen_0078	# Karl Matthias Khuen von Belasi
-																						mother=100001686	# Marie Charlotte Hohenlohe-Langenburg
+																						mother=100001686	# Marie Charlotte zu Hohenlohe-Langenburg
 																						1976.05.27={birth=yes}  # Heidelberg
 																					}
 																				khuen_0117={ #// 105 Henriette KHUEN VON BELASI, *Nustar 1937.02.17
@@ -35459,7 +35472,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																		dynasty=1002238
 																		religion=catholic culture=german
 																		father=khuen_0033	# Anton Khuen von Belasi
-																		mother=lowborn_1835	# Karoline Viczay de Loós et Hédervár
+																		mother=viczay_0017	# Karolina Viczay de Loós et Hédervár
 																		1818.08.06={birth=yes}  # Nustar
 																		1865.10.16={add_spouse=100147252}	# Ernestine Khuen von Belasi
 																		1905.04.29={death=yes}  # Graz

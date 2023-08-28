@@ -1799,7 +1799,7 @@ keglevich_0001={ #// Gf József Keglevich de Buzin, Torna vármegye főispánja 
 								1745.01.01={add_spouse=100101802}	# Borbála Vizner
 								1759.01.16={death=yes}
 							}
-								100118641={ # H1. [1m.] Terézia; m.Gf Mihály Viczay de Loos et Hédervár (*1727, +1781)
+								100118641={ # H1. [1m.] Terézia; m.Gf Mihály Viczay de Loos et Hédervár (*1727, +1781) $$
 									name=Terézia
 									female=yes
 									dynasty=1011471
@@ -3269,3 +3269,84 @@ keglevich_0001={ #// Gf József Keglevich de Buzin, Torna vármegye főispánja 
 								}
 #pejacs2
 ##  100136000	Pejacevic 						1018000
+
+
+## RUBIDO 1011821
+100035119={ #// Antun Rubido de Zagorja (*Madrid 15.5.1817, +21.4.1863); m.1840 Szidónia Erdődy de Monyorókerék et Monoszló (*18.9.1819, +1882) %%
+	name=Antun
+	dynasty=1011821
+	religion=catholic culture=croatian
+	1817.05.15={birth=yes}	# Madrid
+	1840.01.01={add_spouse=100116983}	# Szidónia Erdődy de Monyorókerék et Monoszló
+	1863.04.21={death=yes}
+}
+	100035118={ #// A1. Radoslav (*Razvor, Opcina Kumrovec, Krapina-Zagorje County, Croatia 1847, +Graz 24.1.1910); m.1874 Stefánia (+Opatija 21.1.1901) %%
+		name=Radoslav
+		dynasty=1011708
+		religion=catholic culture=croatian
+		father=100035119	# Antun Rubido de Zagorja
+		mother=100116983	# Szidónia Erdődy de Monyorókerék et Monoszló
+		1847.01.01={birth=yes}	# Razvor, Opcina Kumrovec, Krapina-Zagorje County, Croatia
+		1874.01.01={add_spouse=100118791}	# Stefánia
+		1910.01.24={death=yes}	# Graz
+	}
+		100036832={ #// B1. Iván (*17.6.1874, +16.5.1964); m.1st 20.11.1916 Gisela Apponyi de Nagy-Apponyi (*Bad Aussee 15.7.1886, +Budapest 15.10.1918); m.2nd 5.5.1920 Erzsébet Zichy de Zich et Vásonkeő (*27.7.1893, +1.3.1972) %%
+			name=Iván
+			dynasty=1011708
+			religion=catholic culture=hungarian
+			father=100035118	# Radoslav Rubido-Zichy de Zagorja et Zich
+			mother=100118791	# Stefánia
+			1874.06.17={birth=yes}
+			1916.11.20={add_spouse=100117266}	# Gisela Apponyi de Nagy-Apponyi
+			1920.05.05={add_spouse=100117506}	# Erzsébet Zichy de Zich et Vásonkeő
+			1964.05.16={death=yes}
+		}
+			100036831={ #// C1. Paula (*2.9.1917, +30.4.1983); m.12.2.1940 Paul Maria Erdődy de Monyorókerék et Monoszló (*2.2.1904, +25.2.1994) %%
+				name=Paula
+				female=yes
+				dynasty=1011708
+				religion=catholic culture=hungarian
+				father=100036832	# Iván Rubido-Zichy de Zagorja et Zich
+				mother=100117266	# Gisela Apponyi de Nagy-Apponyi
+				1917.09.02={birth=yes}
+				1983.04.30={death=yes}
+			}
+			100035116={ #// C2. Andrea (*1.2.1921); m.30.5.1948 Károly Zichy de Zich et Vásonkeő (*28.3.1919) %%
+				name=Andrea
+				female=yes
+				dynasty=1011708
+				religion=catholic culture=hungarian
+				father=100036832	# Iván Rubido-Zichy de Zagorja et Zich
+				mother=100117506	# Erzsébet Zichy de Zich et Vásonkeő
+				1921.02.01={birth=yes}
+				2000.01.01={death=yes}  # EST.
+			}
+			100036830={ #// C3. Hanna (*26.1.1922, +19.4.2003); m.10.6.1942 Gábor Széchenyi de Sárvár-Felsõvidek (*12.3.1914, +25.3.1986) %%
+				name=Hanna
+				female=yes
+				dynasty=1011708
+				religion=catholic culture=hungarian
+				father=100036832	# Iván Rubido-Zichy de Zagorja et Zich
+				mother=100117506	# Erzsébet Zichy de Zich et Vásonkeő
+				1922.01.26={birth=yes}
+				2003.04.19={death=yes}
+			}
+		100035115={ #// B2. Emil (*1878, +1956) %%
+			name=Emil
+			dynasty=1011708
+			religion=catholic culture=hungarian
+			father=100035118	# Radoslav Rubido-Zichy de Zagorja et Zich
+			mother=100118791	# Stefánia
+			1878.01.01={birth=yes}
+			1956.01.01={death=yes}
+		}
+			100035117={ #// C1. Ivan (*9.9.1908, +Buenos Aires 19.8.1995); m.16.3.1971 Senta-Maria Edith von Hohenlohe-Waldenburg-Schillingsfürst (*Budapest 15.4.1926, +Buenos Aires 13.8.2009) %%
+				name=Ivan
+				dynasty=1011708
+				religion=catholic culture=hungarian
+				father=100035115	# Emil Rubido-Zichy de Zagorja et Zich
+				1908.09.09={birth=yes}
+				1971.03.16={add_spouse=100001929}	# Senta-Maria Edith von Hohenlohe-Waldenburg-Schillingsfürst
+				1995.08.19={death=yes}  # Buenos Aires
+			}
+## RUBIDO 1011821

@@ -1,4 +1,4 @@
-﻿#######################################################################################################
+#######################################################################################################
 ##  100000000-100000376		ANHALT                            1002014	 125	 95/138 = 68,84%	  252	[c_dessau, d_anhalt]
 ##  100000003-100001441		TOERRING-JETTENBACH               1004564	  53	 10/ 35 = 28,57%	 1386	[]
 ##  100000015-100000399		ANHALT-BERNBURG-HOYM              1002609	  23	 18/ 22 = 81,82%	  362	[]
@@ -82,7 +82,7 @@
 ##  100008028-100397427		LÖWENSTEIN-WERTHEIM-ROCHEFO       1002610	  38	 27/ 36 = 75,00%	389362	[]
 ##  100008191-100008320		WREDE                             1002087	  49	 14/ 42 = 33,33%	   81	[]
 ##  100008351-100009154		SCHWARZBURG-RUDOLSTADT            1002088	  36	 35/ 36 = 97,22%	  768	[]
-##  100008501-100009987		ARCO                              1002093	  91	 33/ 75 = 44,00%	 1396	[]
+##  arco_0076-100009987		ARCO                              1002093	  91	 33/ 75 = 44,00%	 1396	[]
 ##  100008626-100011924		ERBACH                            1002300	  63	 51/ 71 = 71,83%	 3236	[]
 ##  100008627-100011907		SCHWARZBURG                          7230	  46	 20/ 51 = 39,22%	 3235	[]
 ##  100008629-100194120		ERBACH-FÜRSTENAU                  1002095	  62	 32/ 46 = 69,57%	185430	[]
@@ -2463,24 +2463,24 @@
 					1895.08.30={birth=yes}  # Linz an der_Donau
 					1969.09.28={death=yes}  # Vöcklabruck Oberösterreich
 				}
-				100037407={ #// D2. Sigmund (*1898, +1978); m.1923 Gfn Marie von Enzenberg zum Freien- u.Jöchelsthurn (*1900, +1990) %%
+				100037407={ #// D2. Sigmund (*Linz an der Donau 25.9.1898, +Innsbruck 20.7.1978); m.16.7.1923 Maria Emma zu Lodron-Laterano u.Castelromano (*Schwaz 26.8.1900, +Hall in Tirol 26.9.1990) %%
 					name=Sigmund
 					dynasty=1002083
 					religion=catholic culture=german
 					father=100003637	# Heinrich Matz von Spiegelfeld
 					mother=100089463	# FRN Bertha v.u.zu Schneeburg
-					1898.01.01={birth=yes}
-					1923.01.01={add_spouse=100088377}	# GFN Marie von Enzenberg zum Freien- u.Jöchelsthurn
-					1978.01.01={death=yes}
+					1898.09.25={birth=yes}  # Linz an der Donau
+					1923.07.16={add_spouse=lodron_0525}	# Maria Emma zu Lodron-Laterano u.Castelromano
+					1978.07.20={death=yes}  # Innsbruck
 				}
-					100037374={ #// E1. Christoph (*Schwaz 28.5.1924, +25.6.2014); m.5.5.1955 Angelika zu Lodron-Laterano u.Castelromano (*Gmund 3.6.1923, +13.6.2014) %%
+					100037374={ #// E1. Christoph (*Schwaz 28.5.1924, +25.6.2014); m.5.5.1955 Angelique zu Lodron-Laterano u.Castelromano (*Gmünd,Kärnten 3.6.1923) %%
 						name=Christoph
 						dynasty=1002083
 						religion=catholic culture=german
 						father=100037407	# Sigmund Matz von Spiegelfeld
-						mother=100088377	# GFN Marie von Enzenberg zum Freien- u.Jöchelsthurn
+						mother=lodron_0525	# Maria Emma zu Lodron-Laterano u.Castelromano
 						1924.05.28={birth=yes}	# Schwaz
-						1955.05.05={add_spouse=100035137}	# Angelika zu Lodron-Laterano u.Castelromano
+						1955.05.05={add_spouse=lodron_0526}	# Angelique zu Lodron-Laterano u.Castelromano
 						2014.06.25={death=yes}
 					}
 					100137374={ #// E2. Monika (*Tijucas,Brazil 27.4.1927); m.2.1.1965 Albrecht Deym ze Stríteže (*St. Mariakirchen 17.9.1924) %%
@@ -2489,7 +2489,7 @@
 						dynasty=1002083
 						religion=catholic culture=german
 						father=100037407	# Sigmund Matz von Spiegelfeld
-						mother=100088377	# GFN Marie von Enzenberg zum Freien- u.Jöchelsthurn
+						mother=lodron_0525	# Maria Emma zu Lodron-Laterano u.Castelromano
 						1927.04.27={birth=yes}  # Tijucas,Brazil
 						2002.01.01={death=yes}  # EST.
 					}
@@ -6071,14 +6071,14 @@
 								1935.01.31={birth=yes}
 								2012.01.01={death=yes}  # EST.
 							}
-							100004477={ #// 6g) Hubert Gotthard Friedrich Leopold (Budischkowitz 12 Apr 1937-10 Jul 2007); m.Padberg (civ) 2 Aug 1963 (rel) 3 Aug 1963 Maria Cornelia Gfn Droste zu Vischering (b.Padberg 27 Mar 1933)
+							100004477={ #// 6g) Hubert Gotthard Friedrich Leopold (Budischkowitz 12 Apr 1937-10 Jul 2007); m.Padberg (civ) 2 Aug 1963 (rel) 3 Aug 1963 Maria Cornelia Gfn Droste zu Vischering (b.Padberg 27 Mar 1933) $$
 								name=Hubert
 								dynasty=1002078
 								religion=lutheran culture=german
 								father=100004464	# Guido Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 								mother=100004000	# Anna von Salm-Reifferscheidt-Raitz
 								1937.04.12={birth=yes}  # Budischkowitz
-								1963.08.02={add_spouse=100096393}	# GFN Maria Cornelia Droste zu Vischering
+								1963.08.02={add_spouse=droste_0063}	# Maria Cornelia Droste zu Vischering
 								2007.07.10={death=yes}
 							}
 								100004478={ #// 1h) Christin Hedwig Monika Maria (b.Niederleis 6 Sep 1964)
@@ -6087,7 +6087,7 @@
 									dynasty=1002078
 									religion=lutheran culture=german
 									father=100004477	# Hubert Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-									mother=100096393	# GFN Maria Cornelia Droste zu Vischering
+									mother=droste_0063	# Maria Cornelia Droste zu Vischering
 									1964.09.06={birth=yes}
 								}
 								100004479={ #// 2h) Maximilian Gotthard Alexander Albert (b.Niederleis 22 Nov 1966)
@@ -6095,7 +6095,7 @@
 									dynasty=1002078
 									religion=lutheran culture=german
 									father=100004477	# Hubert Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-									mother=100096393	# GFN Maria Cornelia Droste zu Vischering
+									mother=droste_0063	# Maria Cornelia Droste zu Vischering
 									1966.11.22={birth=yes}
 								}
 								100004480={ #// 3h) Rudolf Gotthard Clemens Guido Ivan (b.Mistelbach 18 Oct 1968)
@@ -6103,7 +6103,7 @@
 									dynasty=1002078
 									religion=lutheran culture=german
 									father=100004477	# Hubert Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-									mother=100096393	# GFN Maria Cornelia Droste zu Vischering
+									mother=droste_0063	# Maria Cornelia Droste zu Vischering
 									1968.10.18={birth=yes}
 								}
 								100004481={ #// 4h) Veronika Hedwig Rosa Maria Elisabeth (b.Mistelbach 29 Oct 1969); m.Niederleis 5 May 1996 Maximilian Gf von Deym zu Stritez (b.Herford 11 May 1967) $$
@@ -6112,7 +6112,7 @@
 									dynasty=1002078
 									religion=lutheran culture=german
 									father=100004477	# Hubert Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-									mother=100096393	# GFN Maria Cornelia Droste zu Vischering
+									mother=droste_0063	# Maria Cornelia Droste zu Vischering
 									1969.10.29={birth=yes}
 								}
 								100004482={ #// 5h) Maria-Elisabeth Hedwig Felicitas (b.Mistelbach 3 Feb 1973); m.Niederleis 9 Jun 2007 Thomas Missong
@@ -6121,7 +6121,7 @@
 									dynasty=1002078
 									religion=lutheran culture=german
 									father=100004477	# Hubert Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-									mother=100096393	# GFN Maria Cornelia Droste zu Vischering
+									mother=droste_0063	# Maria Cornelia Droste zu Vischering
 									1973.02.03={birth=yes}
 								}
 						100004483={ #// 6f) Rosa Maria Hedwig (Innsbruck 20 Feb 1896-Salzburg 8 Dec 1978)
@@ -10588,7 +10588,7 @@
 		father=100000963	# Hugo v.u.zu Eltz gt Faust v.Stromberg
 		mother=100091670	# FRN Sophie von Boos zu Waldeck u.Montfort
 		1786.05.28={birth=yes}  # Mainz
-		1824.10.26={add_spouse=100036917}	# Antonia zu Lodron-Laterano u.Castelromano
+		1824.10.26={add_spouse=lodron_0442}	# Antonia zu Lodron-Laterano u.Castelromano
 		1873.05.27={death=yes}  # Vienna
 	}
 ####### 100002295
@@ -17777,14 +17777,14 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 								1596.07.28={birth=yes}
 								1618.01.13={death=yes}  # Venice
 							}
-							limpurg_0017={ #// 2g) JOACHIM GOTTFRIED Schenk von Limpurg zu Gaildorf (29 Jun 1597-19 Mar 1651); m.16 Nov 1623 Barbara Dorothea Gfn zu Oettingen (Öttingen 10 Mar 1605-  )
+							limpurg_0017={ #// 2g) JOACHIM GOTTFRIED Schenk von Limpurg zu Gaildorf (29 Jun 1597-19 Mar 1651); m.16 Nov 1623 Barbara Dorothea Gfn zu Oettingen (Öttingen 10 Mar 1605-  ) $$
 								name="Joachim Gottfried"
 								dynasty=1002245
 								religion=catholic culture=german
 								father=limpurg_0015	# Albrecht Schenk von Limpurg
 								mother=lowborn_3426	# Emilie von Rogendorf
 								1597.06.29={birth=yes}
-								1623.11.16={add_spouse=100012939}	# GFN Barbara Dorothea zu Oettingen
+								1623.11.16={add_spouse=100012939}	# Barbara Dorothea zu Oettingen-Oettingen
 								1651.03.19={death=yes}
 							}
 								limpurg_0018={ #// 1h) WILHELM LUDWIG Schenk von Limpurg zu Gaildorf (21 Sep 1624-Nürnberg 3 Nov 1657); m.18 Nov 1655 Elisabetha Dorothea Schenkin von Limpurg-Obersontheim $$
@@ -17792,7 +17792,7 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 									dynasty=1002245
 									religion=catholic culture=german
 									father=limpurg_0017	# Joachim Gottfried Schenk von Limpurg
-									mother=100012939	# GFN Barbara Dorothea zu Oettingen
+									mother=100012939	# Barbara Dorothea zu Oettingen-Oettingen
 									1624.09.21={birth=yes}
 									1655.11.18={add_spouse=limpurg_0157}	# Elisabetha Dorothea Schenk von Limpurg
 									1657.11.03={death=yes}  # Nürnberg
@@ -17812,7 +17812,7 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 									dynasty=1002245
 									religion=catholic culture=german
 									father=limpurg_0017	# Joachim Gottfried Schenk von Limpurg
-									mother=100012939	# GFN Barbara Dorothea zu Oettingen
+									mother=100012939	# Barbara Dorothea zu Oettingen-Oettingen
 									1629.11.21={birth=yes}
 									1653.10.04={death=yes}  # Saumur
 								}
@@ -17905,15 +17905,6 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 										1677.05.08={birth=yes}  # Schmiedefeld
 										1734.10.04={death=yes}  # Gaildorf
 									}
-									limpurg_0043={ #// 2i) Karl Friedrich (16 Mar 1678-10 Apr 1678)
-										name="Karl Friedrich"
-										dynasty=1002245
-										religion=catholic culture=german
-										father=limpurg_0041	# Wilhelm Heinrich Schenk von Limpurg
-										mother=limpurg_0019	# Elisabetha Dorothea Schenk von Limpurg
-										1678.03.16={birth=yes}
-										1678.04.10={death=yes}
-									}
 									limpurg_0044={ #// 3i) WILHELMINE CHRISTIANE, 1690-1757 regierende Gfn von Limpurg-Gaildorf (Schmiedelfeld 24 Sep 1679-15 Dec 1757); m.Gaildorf 27 Jun 1695 Ludwig Heinrich Gf zu Solms-Assenheim (d.1 May 1728); she inherited ½ Amt Gaildorf, and 1/8 of the town of Gaildorf $$
 										name="Wilhelmine Christiane"
 										female=yes
@@ -17964,14 +17955,14 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 								1612.01.01={birth=yes}
 								1634.06.23={death=yes}  # Fürstenau
 							}
-						limpurg_0052={ #// 2f) KARL, zu Schmiedelfeld (13 Sep 1569-30 Apr 1631; bur Schmiedelfeld); m.Gaildorf 24 Sep 1594 Maria Gfn zu Castell (3 Apr 1565-9 Jul 1634; bur Schmiedelfeld)
+						limpurg_0052={ #// 2f) KARL, zu Schmiedelfeld (13 Sep 1569-30 Apr 1631; bur Schmiedelfeld); m.Gaildorf 24 Sep 1594 Maria Gfn zu Castell (3 Apr 1565-9 Jul 1634; bur Schmiedelfeld) $$
 							name=Karl
 							dynasty=1002245
 							religion=catholic culture=german
 							father=limpurg_0014	# Christoph Schenk von Limpurg
 							mother=limpurg_0105	# Eva Schenk von Limpurg
 							1569.09.13={birth=yes}
-							1594.09.24={add_spouse=castell_0067}	# GFN Maria zu Castell
+							1594.09.24={add_spouse=castell_0067}	# Maria von Castell
 							1631.04.30={death=yes}
 						}
 						limpurg_0054={ #// 4f) Ludwig Georg (7 Aug 1571-k.a.Gisors 7 May 1592)
@@ -17992,14 +17983,14 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 						1532.01.01={birth=yes}
 						1583.01.13={death=yes}
 					}
-					limpurg_0057={ #// 3e) HEINRICH, zu Schmiedelfeld (1534-Schmiedelfeld 31 Jan 1585); m.31 Mar 1563 Martha Gfn zu Castell (2 May 1544-28 Aug 1607)
+					limpurg_0057={ #// 3e) HEINRICH, zu Schmiedelfeld (1534-Schmiedelfeld 31 Jan 1585); m.31 Mar 1563 Martha Gfn zu Castell (2 May 1544-28 Aug 1607) $$
 						name=Heinrich
 						dynasty=1002245
 						religion=catholic culture=german
 						father=limpurg_0013	# Wilhelm Schenk von Limpurg
 						mother=lowborn_3335	# Anna von der Leiter
 						1534.01.01={birth=yes}
-						1563.03.31={add_spouse=castell_0003}	# GFN Martha zu Castell
+						1563.03.31={add_spouse=castell_0003}	# Martha von Castell
 						1585.01.31={death=yes}  # Schmiedelfeld
 					}
 					limpurg_0058={ #// 4e) Albrecht, canon in Würzburg (3 Sep 1535-Würzburg 20 Dec 1576; bur Würzburg Dom)
@@ -18199,8 +18190,8 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 					1543.01.01={add_spouse=100005581}	# Adelheid Wild- und Rheingraf zu Kyrburg
 					1558.09.02={death=yes}
 				}
-					limpurg_0095={ #// 4e) Sophie (24 Mar 1535-Rüdenhausen 13 Sep 1588); m.Speckfeld 16 Aug 1557 Georg Gf zu Castell (d.Rüdenhausen 12 Nov 1597)
-						name=Sophie
+					limpurg_0095={ #// 4e) Sophie (24 Mar 1535-Rüdenhausen 13 Sep 1588); m.Speckfeld 16 Aug 1557 Georg Gf zu Castell (d.Rüdenhausen 12 Nov 1597) $$
+						name=Sophia
 						female=yes
 						dynasty=1002245
 						religion=catholic culture=german
@@ -18269,14 +18260,14 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 					1500.01.01={birth=yes}
 					1536.01.01={death=yes}
 				}
-				limpurg_0108={ #// 4d) ERASMUS, Schenk von Limpurg zu Limpurg und Obersontheim (14 Jan 1502-Crailsheim 25 Feb 1553; bur Komburg); m.1533 Anna (d.12 Nov 1556; bur Komburg), dau of Paul Otto Antonio Gf von Lodron, and widow of Georg von Frundsberg
+				limpurg_0108={ #// 4d) ERASMUS, Schenk von Limpurg zu Limpurg und Obersontheim (14 Jan 1502-Crailsheim 25 Feb 1553; bur Komburg); m.1533 Anna (d.12 Nov 1556; bur Komburg), dau of Paul Otto Antonio Gf von Lodron, and widow of Georg von Frundsberg $$
 					name=Erasmus
 					dynasty=1002245
 					religion=catholic culture=german
 					father=limpurg_0090	# Gottfried Schenk von Limpurg
 					mother=lowborn_3497	# Margareta von Schlick
 					1502.01.14={birth=yes}
-					1533.01.01={add_spouse=lowborn_3508}	# Anna von Lodron
+					1533.01.01={add_spouse=lodron_0080}	# Anna zu Lodron-Laterano u.Castelromano
 					1553.02.25={death=yes}  # Crailsheim
 				}
 					limpurg_0109={ #// 1e) Maria (8 Apr 1535-Feb 1609); m.1560 Heinrich Hr zu Mörsberg u.Beffort
@@ -18285,7 +18276,7 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 						dynasty=1002245
 						religion=catholic culture=german
 						father=limpurg_0108	# Erasmus Schenk von Limpurg
-						mother=lowborn_3508	# Anna von Lodron
+						mother=lodron_0080	# Anna zu Lodron-Laterano u.Castelromano
 						1535.04.08={birth=yes}
 						1609.02.01={death=yes}
 					}
@@ -18294,7 +18285,7 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 						dynasty=1002245
 						religion=catholic culture=german
 						father=limpurg_0108	# Erasmus Schenk von Limpurg
-						mother=lowborn_3508	# Anna von Lodron
+						mother=lodron_0080	# Anna zu Lodron-Laterano u.Castelromano
 						1536.08.06={birth=yes}
 						1558.02.13={add_spouse=100011848}	# Margareta von Erbach
 						1567.04.27={add_spouse=limpurg_0062}	# Anna Schenk von Limpurg
@@ -18330,7 +18321,7 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 								1615.07.09={add_spouse=lowborn_3515}	# Eva Barbara von Seinsheim
 								1627.02.07={death=yes}
 							}
-								limpurg_0114={ #// 1h) Anna Luise (Liebenzell 18 Sep 1619-Rüdenhausen 26 Aug 1663; bur Rüdenhausen); m.Sommerhausen 30 Nov 1636 Georg Friedrich Gf zu Castell (1600-29 Mar 1653)
+								limpurg_0114={ #// 1h) Anna Luise (Liebenzell 18 Sep 1619-Rüdenhausen 26 Aug 1663; bur Rüdenhausen); m.Sommerhausen 30 Nov 1636 Georg Friedrich Gf zu Castell (1600-29 Mar 1653) $$
 									name="Anna Luise"
 									female=yes
 									dynasty=1002245
@@ -18655,7 +18646,7 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 							1578.08.30={birth=yes}  # Heidelberg
 							1632.01.11={death=yes}
 						}
-						limpurg_0169={ #// 14f) Anna (Heidelberg 27 Jun 1580-Sommerhausen 12 Aug 1632; bur Sommerhausen); m.Obersontheim 16 Sep 1599 Gottfried Gf zu Castell (d.6 Aug 1635)
+						limpurg_0169={ #// 14f) Anna (Heidelberg 27 Jun 1580-Sommerhausen 12 Aug 1632; bur Sommerhausen); m.Obersontheim 16 Sep 1599 Gottfried Gf zu Castell (d.6 Aug 1635) $$
 							name=Anna
 							female=yes
 							dynasty=1002245
@@ -18691,7 +18682,7 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 						dynasty=1002245
 						religion=catholic culture=german
 						father=limpurg_0108	# Erasmus Schenk von Limpurg
-						mother=lowborn_3508	# Anna von Lodron
+						mother=lodron_0080	# Anna zu Lodron-Laterano u.Castelromano
 						1539.01.01={birth=yes}
 						1601.04.27={death=yes}  # Obersontheim
 					}
@@ -18734,3 +18725,880 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 		1483.01.01={death=yes}  # EST.
 	}
 ## SCHENK v. LIMPURG 1002245
+
+
+## DROSTE
+droste_0001={ #// Adolf DROSTE ZU VISCHERING VON WULFFHEIM, *Vorhelm 1769, +Darfeld 1826.12.30; m.23.9.1799 Marie Karoline von Nesselrode-Reichenstein (*Herten 13.9.1779, +Münster,Westfalen 21.1.1858)
+	name=Adolf
+	dynasty=droste
+	religion=catholic culture=german
+	1769.06.01={birth=yes}  # Vorhelm
+	1799.09.23={add_spouse=lowborn_3349}	# Marie Karoline von Nesselrode-Reichenstein
+	1826.12.30={death=yes}  # Darfeld
+}
+	droste_0003={ #// A1. Johann DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *Münster,Westfalen 1808.08.08, +Herten 1865.06.02; m.Hinnenburg 2.5.1835 Maria Theresia von Bocholtz-Asseburg (*Hinnenburg 25.9.1815, +Hinnenburg 24.6.1894)
+		name=Johann
+		dynasty=droste
+		religion=catholic culture=german
+		father=droste_0001	# Adolf Droste zu Vischering
+		mother=lowborn_3349	# Marie Karoline von Nesselrode-Reichenstein
+		1808.08.08={birth=yes}  # Münster,Westfalen
+		1835.05.02={add_spouse=lowborn_3474}	# Maria Theresia von Bocholtz-Asseburg
+		1865.06.02={death=yes}  # Herten
+	}
+		droste_0012={ #// B1. Johann DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *Münster, Westfalen 1837.05.24, +Herten 1904.02.07; m.Schellenberg 19.10.1869 Elisabeth von Vittinghoff (*Schellenberg 3.11.1846, +Münster, Westfalen 9.8.1916)
+			name=Johann
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1837.05.24={birth=yes}  # Münster, Westfalen
+			1869.10.19={add_spouse=lowborn_3480}	# Elisabeth von Vittinghoff
+			1904.02.07={death=yes}  # Herten
+		}
+			droste_0029={ #// C1. Felix DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *Herten bei Recklinghausen 1871.02.28, +Düsseldorf 1953.10.08; m.Münster, Westfalen 15.2.1911 Auguste zu Salm-Salm (*Anholt 6.1.1881, +Herrnstein 31.5.1946) $$
+				name=Felix
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0012	# Johann Droste zu Vischering
+				mother=lowborn_3480	# Elisabeth von Vittinghoff
+				1871.02.28={birth=yes}  # Herten bei Recklinghausen
+				1911.02.15={add_spouse=100003965}	# Auguste von Salm-Salm
+				1953.10.08={death=yes}  # Düsseldorf
+			}
+				droste_0046={ #// D1. Clemens DROSTE ZU VISCHERING, *Herten 1912, +1987; m.Kettenburg Marie-Catharine von der Kettenburg (*Bremen 20.6.1921, +4.5.1974)
+					name=Clemens
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0029	# Felix Droste zu Vischering
+					mother=100003965	# Auguste von Salm-Salm
+					1912.04.29={birth=yes}  # Herten
+					1945.01.01={add_spouse=lowborn_3537}	# Marie-Catharine von der Kettenburg
+					1987.03.09={death=yes}
+				}
+					droste_0067={ #// E1. Felix DROSTE ZU VISCHERING, *Herten 1946.08.13; m.Münster 13.8.1973 Christina von Boeselager (*Eggermühlen 10.1.1944)
+						name=Felix
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0046	# Clemens Droste zu Vischering
+						mother=lowborn_3537	# Marie-Catharine von der Kettenburg
+						1946.08.13={birth=yes}  # Herten
+						1973.08.13={add_spouse=lowborn_3565}	# Christina von Boeselager
+						2016.01.01={death=yes}  # EST.
+					}
+						droste_0088={ #// F1. Hermann VON NESSELRODE-REICHENSTEIN, *Herten 1974; m.1.1.1975 Nono von Nesselrode-Rerichenstein
+							name=Hermann
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0067	# Felix Droste zu Vischering
+							mother=lowborn_3565	# Christina von Boeselager
+							1974.07.31={birth=yes}  # Herten
+							1975.01.01={add_spouse=lowborn_3576}	# Nono von Nesselrode-Reichenstein
+						}
+							droste_0100={ #// G1. Maria Katharina VON NESSELRODE-REICHENSTEIN, *Herten 1976
+								name="Maria Katharina"
+								female=yes
+								dynasty=droste
+								religion=catholic culture=german
+								father=droste_0088	# Hermann Droste zu Vischering
+								mother=lowborn_3576	# Nono von Nesselrode-Reichenstein
+								1976.10.25={birth=yes}  # Herten
+							}
+							droste_0101={ #// G2. Charlotte Elisabeth VON NESSELRODE-REICHENSTEIN, *Herten 1978
+								name="Charlotte Elisabeth"
+								female=yes
+								dynasty=droste
+								religion=catholic culture=german
+								father=droste_0088	# Hermann Droste zu Vischering
+								mother=lowborn_3576	# Nono von Nesselrode-Reichenstein
+								1978.11.02={birth=yes}  # Herten
+							}
+							droste_0102={ #// G3. Maximilian Hubertus VON NESSELRODE-REICHENSTEIN, *Herten 1979
+								name="Maximilian Hubertus"
+								dynasty=droste
+								religion=catholic culture=german
+								father=droste_0088	# Hermann Droste zu Vischering
+								mother=lowborn_3576	# Nono von Nesselrode-Reichenstein
+								1979.11.03={birth=yes}  # Herten
+							}
+						droste_0089={ #// F2. Maria Katharina DROSTE ZU VISCHERING, *Herten 1976
+							name="Maria Katharina"
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0067	# Felix Droste zu Vischering
+							mother=lowborn_3565	# Christina von Boeselager
+							1976.10.25={birth=yes}  # Herten
+						}
+						droste_0090={ #// F3. Charlotte DROSTE ZU VISCHERING, *Herten 1978; m.14.7.2007 Andrzej Bisping
+							name=Charlotte
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0067	# Felix Droste zu Vischering
+							mother=lowborn_3565	# Christina von Boeselager
+							1978.11.02={birth=yes}  # Herten
+						}
+						droste_0091={ #// F4. Maximilian DROSTE ZU VISCHERING, *Herten 1979; m.Kevelaer 24.5.2008 Katharina zu Löwenstein-Wertheim-Rosenberg (*Bonn 10.6.1981) $$
+							name=Maximilian
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0067	# Felix Droste zu Vischering
+							mother=lowborn_3565	# Christina von Boeselager
+							1979.11.03={birth=yes}  # Herten
+							2008.05.24={add_spouse=100002770}	# Katharina von Löwenstein-Wertheim-Rosenberg
+						}
+					droste_0068={ #// E2. Hubertus DROSTE ZU VISCHERING, *Herten 1947.11.17; m.Leonie van Hoevell Tot Westerflier (*26.8.1947)
+						name=Hubertus
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0046	# Clemens Droste zu Vischering
+						mother=lowborn_3537	# Marie-Catharine von der Kettenburg
+						1947.11.17={birth=yes}  # Herten
+						1982.01.01={add_spouse=lowborn_3566}	# Leonie van Hoevell Tot Westerflier
+						2017.01.01={death=yes}  # EST.
+					}
+						droste_0092={ #// F1. Hubertus DROSTE ZU VISCHERING, *1983
+							name=Hubertus
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0068	# Hubertus Droste zu Vischering
+							mother=lowborn_3566	# Leonie van Hoevell Tot Westerflier
+							1983.08.01={birth=yes}
+						}
+						droste_0093={ #// F2. Bertram DROSTE ZU VISCHERING, *1984
+							name=Bertram
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0068	# Hubertus Droste zu Vischering
+							mother=lowborn_3566	# Leonie van Hoevell Tot Westerflier
+							1984.12.02={birth=yes}
+						}
+					droste_0069={ #// E3. Dietrich DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *Herten bei Recklingshausen 1949; m.Mechernich 9.4.1983 Friederike-Christiane von Plettenberg (*Hamburg 26.4.1961)
+						name=Dietrich
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0046	# Clemens Droste zu Vischering
+						mother=lowborn_3537	# Marie-Catharine von der Kettenburg
+						1949.02.15={birth=yes}  # Herten bei Recklingshausen
+						1983.04.09={add_spouse=lowborn_3567}	# Friederike-Christiane von Plettenberg
+					}
+						droste_0094={ #// F1. Johannes DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *1985
+							name=Johannes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0069	# Dietrich Droste zu Vischering
+							mother=lowborn_3567	# Friederike-Christiane von Plettenberg
+							1985.05.28={birth=yes}
+						}
+						droste_0095={ #// F2. Christiane DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *1986
+							name=Christiane
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0069	# Dietrich Droste zu Vischering
+							mother=lowborn_3567	# Friederike-Christiane von Plettenberg
+							1986.09.23={birth=yes}
+						}
+						droste_0096={ #// F3. Alfred DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *1988
+							name=Alfred
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0069	# Dietrich Droste zu Vischering
+							mother=lowborn_3567	# Friederike-Christiane von Plettenberg
+							1988.06.23={birth=yes}
+						}
+						droste_0097={ #// F4. Elisabeth DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *1991
+							name=Elisabeth
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0069	# Dietrich Droste zu Vischering
+							mother=lowborn_3567	# Friederike-Christiane von Plettenberg
+							1991.01.08={birth=yes}
+						}
+						droste_0098={ #// F5. Katharina DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *1993
+							name=Katharina
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0069	# Dietrich Droste zu Vischering
+							mother=lowborn_3567	# Friederike-Christiane von Plettenberg
+							1993.03.10={birth=yes}
+						}
+					droste_0070={ #// E4. Bertram DROSTE ZU VISCHERING, *Herten 1951; m.Gudrun Kirschbaum (*7.4.1954)
+						name=Bertram
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0046	# Clemens Droste zu Vischering
+						mother=lowborn_3537	# Marie-Catharine von der Kettenburg
+						1951.06.05={birth=yes}  # Herten
+						1989.01.01={add_spouse=lowborn_3568}	# Gudrun Kirschbaum
+					}
+						droste_0099={ #// F1. Felix DROSTE ZU VISCHERING, *1990
+							name=Felix
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0070	# Bertram Droste zu Vischering
+							mother=lowborn_3568	# Gudrun Kirschbaum
+							1990.05.29={birth=yes}
+						}
+					droste_0071={ #// E5. Georg DROSTE ZU VISCHERING, *1955; m.Nanett Sander (*5.8.1953)
+						name=Georg
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0046	# Clemens Droste zu Vischering
+						mother=lowborn_3537	# Marie-Catharine von der Kettenburg
+						1955.05.01={birth=yes}
+						1981.01.01={add_spouse=lowborn_3569}	# Nanett Sander
+					}
+				droste_0047={ #// D2. Alfred DROSTE ZU VISCHERING, *Herten 1913, +k.a.,bei Poroschkowo, Russia 1941.09.24
+					name=Alfred
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0029	# Felix Droste zu Vischering
+					mother=100003965	# Auguste von Salm-Salm
+					1913.11.01={birth=yes}  # Herten
+					1941.09.24={death=yes}  # k.a.,bei Poroschkowo, Russia
+				}
+				droste_0048={ #// D3. Adolf DROSTE ZU VISCHERING, *Anholt 1914.11.09, +k.a.,bei Glowno, Polska 1939.09.11
+					name=Adolf
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0029	# Felix Droste zu Vischering
+					mother=100003965	# Auguste von Salm-Salm
+					1914.11.09={birth=yes}  # Anholt
+					1939.09.11={death=yes}  # k.a.,bei Glowno, Polska
+				}
+				droste_0049={ #// D4. Antonia DROSTE ZU VISCHERING, *Herten 1916.10.12, +Köln 2002; m.Herrnstein 7.5.1951 Alexander von Süsskind-Schwendi (*Berlin 24.9.1903, +29.6.1973)
+					name=Antonia
+					female=yes
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0029	# Felix Droste zu Vischering
+					mother=100003965	# Auguste von Salm-Salm
+					1916.10.12={birth=yes}  # Herten
+					2002.01.04={death=yes}  # Köln
+				}
+				droste_0050={ #// D5. Constantia DROSTE ZU VISCHERING, *Herten 1918.07.28
+					name=Constantia
+					female=yes
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0029	# Felix Droste zu Vischering
+					mother=100003965	# Auguste von Salm-Salm
+					1918.07.28={birth=yes}  # Herten
+					1993.01.01={death=yes}  # EST.
+				}
+			droste_0030={ #// C2. Clothilde DROSTE ZU VISCHERING, *1873, +1892
+				name=Clothilde
+				female=yes
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0012	# Johann Droste zu Vischering
+				mother=lowborn_3480	# Elisabeth von Vittinghoff
+				1873.02.26={birth=yes}
+				1892.04.28={death=yes}
+			}
+			droste_0031={ #// C3. Hedwig DROSTE ZU VISCHERING, *Herten 1874.12.31, +Darfeld 1956.10.05
+				name=Hedwig
+				female=yes
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0012	# Johann Droste zu Vischering
+				mother=lowborn_3480	# Elisabeth von Vittinghoff
+				1874.12.31={birth=yes}  # Herten
+				1956.10.05={death=yes}  # Darfeld
+			}
+			droste_0032={ #// C4. Maria Theresia DROSTE ZU VISCHERING, *Herten 1876, +1962
+				name="Maria Theresia"
+				female=yes
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0012	# Johann Droste zu Vischering
+				mother=lowborn_3480	# Elisabeth von Vittinghoff
+				1876.06.13={birth=yes}  # Herten
+				1962.03.01={death=yes}
+			}
+			droste_0033={ #// C5. Maria Klementine DROSTE ZU VISCHERING, *Münster, Westfalen 1880.11.14
+				name="Maria Klementine"
+				female=yes
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0012	# Johann Droste zu Vischering
+				mother=lowborn_3480	# Elisabeth von Vittinghoff
+				1880.11.14={birth=yes}  # Münster, Westfalen
+				1955.01.01={death=yes}  # EST.
+			}
+			droste_0034={ #// C6. Adolf DROSTE ZU VISCHERING, *Herten 1885.10.20, +Herten 1936
+				name=Adolf
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0012	# Johann Droste zu Vischering
+				mother=lowborn_3480	# Elisabeth von Vittinghoff
+				1885.10.20={birth=yes}  # Herten
+				1936.01.21={death=yes}  # Herten
+			}
+		droste_0013={ #// B2. Franziska DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *Herten 1839.04.14, +Gracht 1883.05.27; m.Schloss Herten 7.8.1860 Max Wolff-Metternich zur Gracht (*Düsseldorf 31.12.1837, +Gracht 2.6.1883) $$
+			name=Franziska
+			female=yes
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1839.04.14={birth=yes}  # Herten
+			1883.05.27={death=yes}  # Gracht
+		}
+		droste_0014={ #// B3. Charlotte DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *1841
+			name=Charlotte
+			female=yes
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1841.01.01={birth=yes}
+			1916.01.01={death=yes}  # EST.
+		}
+		droste_0015={ #// B4. Anna DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *Herten, Westfalen 1843.11.15, +Heltorf 1900.03.29; m.Herten, Westfalen 17.9.1867 Franz von Spee (*Düsseldorf 11.4.1841, +Heltorf 7.3.1921) $$
+			name=Anna
+			female=yes
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1843.11.15={birth=yes}  # Herten, Westfalen
+			1900.03.29={death=yes}  # Heltorf
+		}
+		droste_0016={ #// B5. Antonie DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *Herten 1846.09.04, +Hinnenburg 1920.10.29; m.Münster, Westfalen 17.11.1874 Hermann von Bocholtz-Asseburg (*Hinnenburg 4.2.1841, +Rustenhof 4.1.1889)
+			name=Antonie
+			female=yes
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1846.09.04={birth=yes}  # Herten
+			1920.10.29={death=yes}  # Hinnenburg
+		}
+		droste_0017={ #// B6. Maria Hermengilde DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *Münster, Westfalen 1848, +Schellenberg 1890.05.08; m.Herten 27.7.1869 Maximilian von Vittinghoff (*Schellenberg 12.6.1840, +Calbeck 5.11.1898)
+			name="Maria Hermengilde"
+			female=yes
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1848.07.01={birth=yes}  # Münster, Westfalen
+			1890.05.08={death=yes}  # Schellenberg
+		}
+		droste_0018={ #// B7. Dietrich DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *1850, +1880
+			name=Dietrich
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1850.03.11={birth=yes}
+			1880.10.22={death=yes}
+		}
+		droste_0019={ #// B8. Max DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *1853.03.14, +Münster, Westfalen 1888.07.25
+			name=Max
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1853.03.14={birth=yes}
+			1888.07.25={death=yes}  # Münster, Westfalen
+		}
+		droste_0020={ #// B9. Adolf DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *1854.11.09, +Münster, Westfalen 1905.12.08
+			name=Adolf
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1854.11.09={birth=yes}
+			1905.12.08={death=yes}  # Münster, Westfalen
+		}
+		droste_0021={ #// B10. Huberta DROSTE ZU VISCHERING VON NESSELRODE-REICHENSTEIN, *Münster,Westfalen 1862.11.29, +Havixbeck 1946.04.16; m.Herten 21.9.1891 Klemens von Twickel (*Lüttinghof 18.8.1861, +Münster,Westfalen 19.5.1916) $$
+			name=Huberta
+			female=yes
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0003	# Johann Droste zu Vischering
+			mother=lowborn_3474	# Maria Theresia von Bocholtz-Asseburg
+			1862.11.29={birth=yes}  # Münster,Westfalen
+			1946.04.16={death=yes}  # Havixbeck
+		}
+	droste_0002={ #// A2. Maximilian DROSTE ZU VISCHERING, +1849; m.1st Auguste von Aicholt; m.2nd 27.7.1841 Anna Maria Imbsen zu Wewer (*27.11.1820)
+		name=Maximilian
+		dynasty=droste
+		religion=catholic culture=german
+		father=droste_0001	# Adolf Droste zu Vischering
+		mother=lowborn_3349	# Marie Karoline von Nesselrode-Reichenstein
+		1810.01.01={birth=yes}  # EST.
+		1836.01.01={add_spouse=lowborn_3395}	# Auguste von Aicholt
+		1841.07.27={add_spouse=lowborn_3456}	# Anna Maria Imbsen zu Wewer
+		1849.11.06={death=yes}
+	}
+		droste_0005={ #// B1. Klemens DROSTE ZU VISCHERING, *Münster,Westfalen 1832.08.14, +Darfeld 1923.08.20; m.Assen 5.8.1858 Helene von Galen (*Münster,Westfalen 18.12.1837, +Darfeld 22.10.1917)
+			name=Klemens
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0002	# Maximilian Droste zu Vischering
+			mother=lowborn_3395	# Auguste von Aicholt
+			1832.08.14={birth=yes}  # Münster,Westfalen
+			1858.08.05={add_spouse=lowborn_3475}	# Helene von Galen
+			1923.08.20={death=yes}  # Darfeld
+		}
+			droste_0024={ #// C2. Maria Anna DROSTE ZU VISCHERING, *Münster, Westfalen 1863, +1899
+				name="Maria Anna"
+				female=yes
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0005	# Klemens Droste zu Vischering
+				mother=lowborn_3475	# Helene von Galen
+				1863.09.08={birth=yes}  # Münster, Westfalen
+				1899.06.08={death=yes}
+			}
+			droste_0023={ #// C2. Maximilian (*Münster 8.9.1863, +Darfeld 30.11.1938); m.10.10.1893 Sophie von Waldburg zu Zeil u.Trauchburg (*Wien 24.1.1869, +Vischering 5.12.1906) $$
+				name=Maximilian
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0005	# Klemens Droste zu Vischering
+				mother=lowborn_3475	# Helene von Galen
+				1863.09.08={birth=yes}  # Münster
+				1893.10.10={add_spouse=100011137}	# Sophie von Waldburg zu Zeil u.Trauchburg
+				1938.11.30={death=yes}  # Darfeld
+			}
+				droste_0036={ #// D1. Maria Helene DROSTE ZU VISCHERING, *Vischering 1894.11.18; m.Vischering 5.8.1919 Max Heereman van Zuydtwyck (*Surenburg 29.12.1893, +Surenburg 13.3.1972)
+					name="Maria Helene"
+					female=yes
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0023	# Maximilian Droste zu Vischering
+					mother=100011137	# Sophie von Waldburg zu Zeil u.Trauchburg
+					1894.11.18={birth=yes}  # Vischering
+					1969.01.01={death=yes}  # EST.
+				}
+				droste_0037={ #// D2. Maria Anna DROSTE ZU VISCHERING, *Burg Vischering 1896.07.18, +Havixbeck 1980.05.05; m.Burg Vischering 8.1.1920 Johann Rudolf von Twickel (*Stovern 20.1.1893, +Münster,Westfalen. Johann Rudolf Klemens August Sebastian Maria Benedikt Aloysius Hubertus Cyriakus Donatus Anton 30.11.1974) $$
+					name=Margarete
+					female=yes
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0023	# Maximilian Droste zu Vischering
+					mother=100011137	# Sophie von Waldburg zu Zeil u.Trauchburg
+					1896.07.18={birth=yes}  # Burg Vischering
+					1980.05.05={death=yes}  # Havixbeck
+				}
+				droste_0038={ #// D3. Klemens DROSTE ZU VISCHERING, *Vischering 1898.07.17, +Darfeld 1931.09.03; m.Ostrowine 11.4.1923 Maria-Zdenka Immaculata von Twickel (*München 8.12.1901, +Malente,Holstein 21.7.1981)
+					name=Klemens
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0023	# Maximilian Droste zu Vischering
+					mother=100011137	# Sophie von Waldburg zu Zeil u.Trauchburg
+					1898.07.17={birth=yes}  # Vischering
+					1923.04.11={add_spouse=lowborn_3519}	# Maria-Zdenka Immaculata von Twickel
+					1931.09.03={death=yes}  # Darfeld
+				}
+					droste_0051={ #// E1. Max-Ferdinand DROSTE ZU VISCHERING, *Vischering 1924.10.09, +k.a., Gruben (Guben) 1945.03.08
+						name=Max-Ferdinand
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0038	# Klemens Droste zu Vischering
+						mother=lowborn_3519	# Maria-Zdenka Immaculata von Twickel
+						1924.10.09={birth=yes}  # Vischering
+						1945.03.08={death=yes}  # k.a., Gruben (Guben)
+					}
+				droste_0039={ #// D4. Georg DROSTE ZU VISCHERING, *Vischering 1900, +1977; m.Erpernburg, Westfalen Clara-Luise von und zu Brenken (*Paderborn 18.7.1913)
+					name=Georg
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0023	# Maximilian Droste zu Vischering
+					mother=100011137	# Sophie von Waldburg zu Zeil u.Trauchburg
+					1900.08.16={birth=yes}  # Vischering
+					1931.01.01={add_spouse=lowborn_3522}	# Clara-Luise von und zu Brenken
+					1977.01.01={death=yes}
+				}
+					droste_0052={ #// E1. Maria Elisabeth DROSTE ZU VISCHERING, *Vorhelm 1932.09.08, +Ottmarsbocholt 1988.02.06; m.Vorhelm bei Ahlen, Westfalen 4.5.1955 Filip ze Šternberka (*Praha. komtur bav. řádu sv. Jiří 27.10.1929) $$
+						name="Maria Elisabeth"
+						female=yes
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0039	# Georg Droste zu Vischering
+						mother=lowborn_3522	# Clara-Luise von und zu Brenken
+						1932.09.08={birth=yes}  # Vorhelm
+						1988.02.06={death=yes}  # Ottmarsbocholt
+					}
+					droste_0053={ #// E2. Clemens DROSTE ZU VISCHERING, *Vorhelm bei Ahlen 1935.06.27; m.Appiano bei Bolzano 5.6.1963 Karola von Haugwitz
+						name=Clemens
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0039	# Georg Droste zu Vischering
+						mother=lowborn_3522	# Clara-Luise von und zu Brenken
+						1935.06.27={birth=yes}  # Vorhelm bei Ahlen
+						1963.06.05={add_spouse=lowborn_3541}	# Karola von Haugwitz
+						2005.01.01={death=yes}  # EST.
+					}
+						droste_0072={ #// F1. Benedikt DROSTE ZU VISCHERING, *Münster, Westfalen 1970; m.Ehringshausen 13.9.2003 Caroline Schenck zu Schweinsberg
+							name=Benedikt
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0053	# Clemens Droste zu Vischering
+							mother=lowborn_3541	# Karola von Haugwitz
+							1970.02.04={birth=yes}  # Münster, Westfalen
+							2003.09.13={add_spouse=lowborn_3570}	# Caroline Schenck zu Schweinsberg
+						}
+					droste_0054={ #// E3. Monika DROSTE ZU VISCHERING, *Vorhelm, Westfalen 1937.06.11; m.Vorhelm, Westfalen 11.10.1960 Otto von Arco Auf Valley (*Adldorf 12.2.1921, +Lindau an der Isar 3.9.1989) $$
+						name=Monika
+						female=yes
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0039	# Georg Droste zu Vischering
+						mother=lowborn_3522	# Clara-Luise von und zu Brenken
+						1937.06.11={birth=yes}  # Vorhelm, Westfalen
+						2012.01.01={death=yes}  # EST.
+					}
+					droste_0055={ #// E4. Johannes DROSTE ZU VISCHERING, *Vorhelm 1939.03.10; m.Visbeck bei Dülmen 29.5.1965 Ingrid Fastnacht (*Hamm, Westfalen 22.8.1942)
+						name=Johannes
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0039	# Georg Droste zu Vischering
+						mother=lowborn_3522	# Clara-Luise von und zu Brenken
+						1939.03.10={birth=yes}  # Vorhelm
+						1965.05.29={add_spouse=lowborn_3548}	# Ingrid Fastnacht
+						2009.01.01={death=yes}  # EST.
+					}
+						droste_0073={ #// F1. Konstantin DROSTE ZU VISCHERING, *Höxter 1974
+							name=Konstantin
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0055	# Johannes Droste zu Vischering
+							mother=lowborn_3548	# Ingrid Fastnacht
+							1974.05.21={birth=yes}  # Höxter
+						}
+						droste_0074={ #// F2. Nicolaus DROSTE ZU VISCHERING, *Höxter 1977
+							name=Nicolaus
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0055	# Johannes Droste zu Vischering
+							mother=lowborn_3548	# Ingrid Fastnacht
+							1977.05.07={birth=yes}  # Höxter
+						}
+					droste_0056={ #// E5. Georg VON UND ZU BRENKEN, *Münster, Westfalen 1941.05.19; m.Donaueschingen 9.3.1968 Rosa von Nostitz-Rieneck (*Planá u Mariánských Lázní 9.8.1945) $$
+						name=Georg
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0039	# Georg Droste zu Vischering
+						mother=lowborn_3522	# Clara-Luise von und zu Brenken
+						1941.05.19={birth=yes}  # Münster, Westfalen
+						1968.03.09={add_spouse=100011202}	# Rosa von nostitz-Rieneck
+						2011.01.01={death=yes}  # EST.
+					}
+						droste_0075={ #// F1. Franz Josef VON UND ZU BRENKEN, *Paderborn 1968
+							name="Franz Josef"
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0056	# Georg Droste zu Vischering
+							mother=100011202	# Rosa von nostitz-Rieneck
+							1968.12.22={birth=yes}  # Paderborn
+						}
+						droste_0076={ #// F2. Stephanie VON UND ZU BRENKEN, *Paderborn 1970; m.Schloß Erpernburg (civ 16.5.1998 Schloss Kleinheubach) 8.8.1998 Karl-Friedrich zu Löwenstein-Wertheim-Rosenberg (*Frankfurt am Main 30.9.1966, +následek autonehody 24.4.2010) $$
+							name=Stephanie
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0056	# Georg Droste zu Vischering
+							mother=100011202	# Rosa von nostitz-Rieneck
+							1970.04.21={birth=yes}  # Paderborn
+						}
+						droste_0077={ #// F3. Caroline VON UND ZU BRENKEN, *Paderborn 1972
+							name=Caroline
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0056	# Georg Droste zu Vischering
+							mother=100011202	# Rosa von nostitz-Rieneck
+							1972.07.16={birth=yes}  # Paderborn
+						}
+						droste_0078={ #// F4. Rosalie VON UND ZU BRENKEN, *Paderborn 1980
+							name=Rosalie
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0056	# Georg Droste zu Vischering
+							mother=100011202	# Rosa von nostitz-Rieneck
+							1980.11.03={birth=yes}  # Paderborn
+						}
+					droste_0057={ #// E6. Sophie DROSTE ZU VISCHERING, *Vorhelm 1942.07.25
+						name=Sophie
+						female=yes
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0039	# Georg Droste zu Vischering
+						mother=lowborn_3522	# Clara-Luise von und zu Brenken
+						1942.07.25={birth=yes}  # Vorhelm
+						2017.01.01={death=yes}  # EST.
+					}
+					droste_0058={ #// E7. Christina DROSTE ZU VISCHERING, *Vorhelm 1947; m.Vorhelm bei Ahlen 20.4.1974 Wilderich von Schall-Riaucour (*Dresden 10.7.1943)
+						name=Christina
+						female=yes
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0039	# Georg Droste zu Vischering
+						mother=lowborn_3522	# Clara-Luise von und zu Brenken
+						1947.07.24={birth=yes}  # Vorhelm
+					}
+					droste_0059={ #// E8. Clarissa DROSTE ZU VISCHERING, *Münster, Westfalen 1954; m.Vorhelm bei Ahlen, Westfalen 4.9.1976 Heinrich von Soden-Fraunhofen (*München 27.9.1947)
+						name=Clarissa
+						female=yes
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0039	# Georg Droste zu Vischering
+						mother=lowborn_3522	# Clara-Luise von und zu Brenken
+						1954.11.12={birth=yes}  # Münster, Westfalen
+					}
+				droste_0040={ #// D5. Johannes DROSTE ZU VISCHERING, *Vischering 1903.10.24
+					name=Johannes
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0023	# Maximilian Droste zu Vischering
+					mother=100011137	# Sophie von Waldburg zu Zeil u.Trauchburg
+					1903.10.24={birth=yes}  # Vischering
+					1973.01.01={death=yes}  # EST.
+				}
+				droste_0041={ #// D6. Raphael DROSTE ZU VISCHERING, *Vischering 1906, +1987
+					name=Raphael
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0023	# Maximilian Droste zu Vischering
+					mother=100011137	# Sophie von Waldburg zu Zeil u.Trauchburg
+					1906.10.25={birth=yes}  # Vischering
+					1987.10.21={death=yes}
+				}
+			droste_0025={ #// C4. Wilhelm DROSTE ZU VISCHERING, *Münster, Westfalen 1865, +Padberg 1948.05.05; m.Gevelinghausen 7.7.1891 Antonia von Wendt (*Gevelinghausen 22.4.1869, +Padberg, Kr. Brilon 18.5.1959)
+				name=Wilhelm
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0005	# Klemens Droste zu Vischering
+				mother=lowborn_3475	# Helene von Galen
+				1865.01.06={birth=yes}  # Münster, Westfalen
+				1891.07.07={add_spouse=lowborn_3500}	# Antonia von Wendt
+				1948.05.05={death=yes}  # Padberg
+			}
+				droste_0042={ #// D1. Maria Antonia DROSTE ZU VISCHERING, *Padberg 1892, +1984; m.Padberg 18.10.1915 Otto von Landsberg-Velen (*Dankern 31.7.1890, +18.9.1974)
+					name="Maria Antonia"
+					female=yes
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0025	# Wilhelm Droste zu Vischering
+					mother=lowborn_3500	# Antonia von Wendt
+					1892.06.04={birth=yes}  # Padberg
+					1984.10.03={death=yes}
+				}
+				droste_0043={ #// D2. Helene DROSTE ZU VISCHERING, *Padberg 1894.11.23, +Wünnenberg 1997.10.04; m.Padberg 16.1.1923 Josef zu Stolberg-Stolberg (*Westheim 12.2.1882, +St.Blasien 25.10.1941) $$
+					name=Helene
+					female=yes
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0025	# Wilhelm Droste zu Vischering
+					mother=lowborn_3500	# Antonia von Wendt
+					1894.11.23={birth=yes}  # Padberg
+					1997.10.04={death=yes}  # Wünnenberg
+				}
+				droste_0044={ #// D3. Joseph DROSTE ZU VISCHERING, *Padberg 1900; m.Borg 26.4.1927 Helene von Kerckerinck zur Borg (*Münster, Westfalen 26.10.1903, +21.5.1991)
+					name=Joseph
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0025	# Wilhelm Droste zu Vischering
+					mother=lowborn_3500	# Antonia von Wendt
+					1900.01.24={birth=yes}  # Padberg
+					1927.04.26={add_spouse=lowborn_3528}	# Helene von Kerckerinck zur Borg
+					1970.01.01={death=yes}  # EST.
+				}
+					droste_0060={ #// E1. Wilhelm DROSTE ZU VISCHERING, *Padberg 1928, +1984; m.Ulrike Schenck zu Schweinsberg (*14.6.1941)
+						name=Wilhelm
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0044	# Joseph Droste zu Vischering
+						mother=lowborn_3528	# Helene von Kerckerinck zur Borg
+						1928.07.05={birth=yes}  # Padberg
+						1964.01.01={add_spouse=lowborn_3554}	# Ulrike Schenck zu Schweinsberg
+						1984.05.12={death=yes}
+					}
+					droste_0061={ #// E2. Hubertus DROSTE ZU VISCHERING, *Padberg 1930.09.05; m.Christine Themessl (*4.5.1941)
+						name=Hubertus
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0044	# Joseph Droste zu Vischering
+						mother=lowborn_3528	# Helene von Kerckerinck zur Borg
+						1930.09.05={birth=yes}  # Padberg
+						1964.01.01={add_spouse=lowborn_3556}	# Christine Themessl
+						2000.01.01={death=yes}  # EST.
+					}
+					droste_0062={ #// E3. Engelbert DROSTE ZU VISCHERING, *Padberg 1931.10.16; m.Barcelona 30.3.1964 Elisabeth von Ballestrem
+						name=Engelbert
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0044	# Joseph Droste zu Vischering
+						mother=lowborn_3528	# Helene von Kerckerinck zur Borg
+						1931.10.16={birth=yes}  # Padberg
+						1964.03.30={add_spouse=lowborn_3557}	# Elisabeth von Ballestrem
+						2001.01.01={death=yes}  # EST.
+					}
+						droste_0079={ #// F1. Adelheid DROSTE ZU VISCHERING, *1965; m.Hubertus von Aulock (*5.11.1963)
+							name=Adelheid
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0062	# Engelbert Droste zu Vischering
+							mother=lowborn_3557	# Elisabeth von Ballestrem
+							1965.02.23={birth=yes}
+						}
+						droste_0080={ #// F2. Stephanie DROSTE ZU VISCHERING, *Münster, Westfalen 1965; m.Regensburg (rel 27.4.1991 Everswinkel) 22.3.1991 Caspar von Spee (*Duisburg 18.11.1960) $$
+							name=Stephanie
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0062	# Engelbert Droste zu Vischering
+							mother=lowborn_3557	# Elisabeth von Ballestrem
+							1965.12.06={birth=yes}  # Münster, Westfalen
+						}
+					droste_0063={ #// E4. Maria Margaretha DROSTE ZU VISCHERING, *Padberg 1933.03.27; m.Padberg (civ 2.8.1963) 3.8.1963 Hubert Schaffgotsch (+10.7.2007) $$
+						name="Maria Cornelia"
+						female=yes
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0044	# Joseph Droste zu Vischering
+						mother=lowborn_3528	# Helene von Kerckerinck zur Borg
+						1933.03.27={birth=yes}  # Padberg
+						2008.01.01={death=yes}  # EST.
+					}
+					droste_0064={ #// E5. Petrus DROSTE ZU VISCHERING, *Padberg 1935.03.31; m.Hildegard Appel (*16.5.1944)
+						name=Petrus
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0044	# Joseph Droste zu Vischering
+						mother=lowborn_3528	# Helene von Kerckerinck zur Borg
+						1935.03.31={birth=yes}  # Padberg
+						1978.01.01={add_spouse=lowborn_3561}	# Hildegard Appel
+						2005.01.01={death=yes}  # EST.
+					}
+						droste_0081={ #// F1. Ester Gerharda DROSTE ZU VISCHERING, *1979
+							name="Ester Gerharda"
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0064	# Petrus Droste zu Vischering
+							mother=lowborn_3561	# Hildegard Appel
+							1979.04.11={birth=yes}
+						}
+						droste_0082={ #// F2. Rafael Volker DROSTE ZU VISCHERING, *1980
+							name="Rafael Volker"
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0064	# Petrus Droste zu Vischering
+							mother=lowborn_3561	# Hildegard Appel
+							1980.08.29={birth=yes}
+						}
+						droste_0083={ #// F3. Rut Maria DROSTE ZU VISCHERING, *1982
+							name="Rut Maria"
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0064	# Petrus Droste zu Vischering
+							mother=lowborn_3561	# Hildegard Appel
+							1982.03.17={birth=yes}
+						}
+						droste_0084={ #// F4. Hanna Dorothea DROSTE ZU VISCHERING, *1985
+							name="Hanna Dorothea"
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0064	# Petrus Droste zu Vischering
+							mother=lowborn_3561	# Hildegard Appel
+							1985.12.02={birth=yes}
+						}
+					droste_0065={ #// E6. Michael DROSTE ZU VISCHERING, *Padberg 1936.11.09; m.Rita Müthering (*29.6.1938)
+						name=Michael
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0044	# Joseph Droste zu Vischering
+						mother=lowborn_3528	# Helene von Kerckerinck zur Borg
+						1936.11.09={birth=yes}  # Padberg
+						1964.01.01={add_spouse=lowborn_3562}	# Rita Müthering
+						2006.01.01={death=yes}  # EST.
+					}
+						droste_0085={ #// F1. Andreas DROSTE ZU VISCHERING, *1965; m.Maureen Fay (*24.9.1965)
+							name=Andreas
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0065	# Michael Droste zu Vischering
+							mother=lowborn_3562	# Rita Müthering
+							1965.02.16={birth=yes}
+							1991.01.01={add_spouse=lowborn_3575}	# Maureen Fay
+						}
+						droste_0086={ #// F2. Christopher DROSTE ZU VISCHERING, *1968
+							name=Christopher
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0065	# Michael Droste zu Vischering
+							mother=lowborn_3562	# Rita Müthering
+							1968.05.27={birth=yes}
+						}
+						droste_0087={ #// F3. Stephanie DROSTE ZU VISCHERING, *1974
+							name=Stephanie
+							female=yes
+							dynasty=droste
+							religion=catholic culture=german
+							father=droste_0065	# Michael Droste zu Vischering
+							mother=lowborn_3562	# Rita Müthering
+							1974.02.09={birth=yes}
+						}
+				droste_0045={ #// D4. Maximilian DROSTE ZU VISCHERING, *Padberg 1907.02.24, +k.a.,Beaumont 1940.05.19; m.Adldorf 27.6.1938 Franziska von Arco Auf Valley (*Adldorf 21.6.1917, +Tegernsee 31.7.1990) $$
+					name=Maximilian
+					dynasty=droste
+					religion=catholic culture=german
+					father=droste_0025	# Wilhelm Droste zu Vischering
+					mother=lowborn_3500	# Antonia von Wendt
+					1907.02.24={birth=yes}  # Padberg
+					1938.06.27={add_spouse=100008515}	# Franziska von Arco
+					1940.05.19={death=yes}  # k.a.,Beaumont
+				}
+					droste_0066={ #// E1. Adelheid DROSTE ZU VISCHERING, *Adldorf 1939.09.09; m.1st Gerd Stoll (*1.3.1937); m.2nd Andreas Singer (*1.11.1936)
+						name=Adelheid
+						female=yes
+						dynasty=droste
+						religion=catholic culture=german
+						father=droste_0045	# Maximilian Droste zu Vischering
+						mother=100008515	# Franziska von Arco
+						1939.09.09={birth=yes}  # Adldorf
+						2014.01.01={death=yes}  # EST.
+					}
+			droste_0026={ #// C5. Anna DROSTE ZU VISCHERING, *Darfeld 1866.07.15, +Egelborg 1957.03.27; m.Darfeld 25.9.1890 Adolf von Oer (*Haus Egelborg bei Legden,Westfalen 21.2.1863, +Haus Egelborg bei Legden,Westfalen 31.3.1941)
+				name=Anna
+				female=yes
+				dynasty=droste
+				religion=catholic culture=german
+				father=droste_0005	# Klemens Droste zu Vischering
+				mother=lowborn_3475	# Helene von Galen
+				1866.07.15={birth=yes}  # Darfeld
+				1957.03.27={death=yes}  # Egelborg
+			}
+		droste_0007={ #// B3. Maria Karolina DROSTE ZU VISCHERING, *Münster, Westfalen 1842.12.17, +Hovestadt 1875.05.25; m.Münster, Westfalen 27.8.1863 Klemens von Plettenberg (*Hovestadt 7.3.1835, +Münster, Westfalen 1.3.1886)
+			name="Maria Karolina"
+			female=yes
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0002	# Maximilian Droste zu Vischering
+			mother=lowborn_3456	# Anna Maria Imbsen zu Wewer
+			1842.12.17={birth=yes}  # Münster, Westfalen
+			1875.05.25={death=yes}  # Hovestadt
+		}
+		droste_0008={ #// B4. Elisabeth DROSTE ZU VISCHERING, *Münster, Westfalen 1844.06.10, +Paderborn 1905.02.19; m.Darfeld 10.7.1877 Klemens von Plettenberg (*Hovestadt 7.3.1835, +Münster, Westfalen 1.3.1886)
+			name=Elisabeth
+			female=yes
+			dynasty=droste
+			religion=catholic culture=german
+			father=droste_0002	# Maximilian Droste zu Vischering
+			mother=lowborn_3456	# Anna Maria Imbsen zu Wewer
+			1844.06.10={birth=yes}  # Münster, Westfalen
+			1905.02.19={death=yes}  # Paderborn
+		}
+## DROSTE

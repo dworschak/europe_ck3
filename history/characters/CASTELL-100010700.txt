@@ -1,30 +1,7 @@
-﻿############################################################################
+############################################################################
 ## 100010900	Castell-Rüdenhausen		1002057	
 ## 100010900	Castell-Castell			1002026
 ############################################################################
-
-
-#castell2
-castell_0034={ #// G1. Friedrich Karl, Graf und Herr zu Castell-Castell, *Remlingen 2.5.1766, +Castell 11.4.1810; m.Castell 30.4.1788 Pss Sophie Charlotte zu Löwenstein-Wertheim-Virneburg (*2.4.1771, +25.5.1823)
-	name="Friedrich Karl"
-	dynasty_house=castell_castell
-	religion=catholic culture=german
-	1766.05.02={birth=yes}  # Remlingen
-	1788.04.30={add_spouse=100002712}	# Sophie von Löwenstein-Wertheim-Freudenberg
-	1810.04.11={death=yes}  # Castell
-}
-	#castell3  -->  H1. FRIEDRICH LUDWIG Heinrich, Graf und Herr zu Castell-Castell 11.4.1810, *Castell 2.11.1791, +Castell 21.4.1875; m.Langenburg 25.6.1816 Pss Emilie zu Hohenlohe-Langenburg (*27.1.1793 +20.7.1859); for his descendants see HERE
-	castell_0042={ #// H6. Dorothea Christiana Klementine Luise, *Castell 10.1.1796, +Meerholz, Hessen 6.9.1864; m.Castell 22.10.1818 Gf Joseph zu Ysenburg und Büdingen in Meerholz (*10.5.1772, +14.3.1822)
-		name=Dorothea
-		female=yes
-		dynasty_house=castell_castell
-		religion=catholic culture=german
-		father=castell_0034	# Albrecht Friedrich von Castell-Castell
-		mother=100002712	# Sophie von Löwenstein-Wertheim-Freudenberg
-		1796.01.10={birth=yes}  # Castell
-		1864.09.06={death=yes}  # Meerholz
-	}
-#castell4   --> G3. Christian Friedrich, Graf und Herr zu Castell-Rüdenhausen from 15.10.1773, *Remlingen 21.4.1772, +Rüdenhausen 28.3.1850; 1m: Angern 21.4.1797 (div 1803) Gfn Albertine von der Schulenburg (*Magdeburg 16.2.1778, +Muskau 30.10.1838); 2m: Rüdenhausen 25.6.1804 (div Würzburg 29.9.1811) Gfn Luise Karoline zu Ortenburg (*Ortenburg 15.1.1782, +Augsburg 15.12.1847); 3m: Castell 2.8.1812 Pss Sophie Amalie Charlotte zu Loewenstein-Wertheim-Virneburg (*2.4.1771, +25.5.1823); for his descendants see HERE
 
 #castell2
 castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7.1546; m.25.7.1518 Gfn Martha von Wertheim-Breuberg (*1485 +23.2.1541); They had issue:
@@ -32,26 +9,26 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 	dynasty=1002026
 	religion=catholic culture=german
 	1482.03.12={birth=yes}
-	1518.07.25={add_spouse=lowborn_3287}	# Martha von Wertheim-Breuberg They had issue:
+	1518.07.25={add_spouse=lowborn_3287}	# GFN Martha von Wertheim-Breuberg
 	1546.07.05={death=yes}  # Castell
 }
-	castell_0002={ #// A1. Konrad II, Graf und Herr zu Castell, *Castell 10.7.1519, +Schmiedelfeld 8.7.1577; m.Pforzheim 30.7.1543 Mkgfn Elisabeth von Baden-Durlach (*20.5.1516, +9.5.1568)
+	castell_0002={ #// A1. Konrad II, Graf und Herr zu Castell, *Castell 10.7.1519, +Schmiedelfeld 8.7.1577; m.Pforzheim 30.7.1543 Mkgfn Elisabeth von Baden-Durlach (*20.5.1516, +9.5.1568) $$
 		name=Konrad
 		dynasty=1002026
 		religion=catholic culture=german
-		father=castell_0001	# Wolfgang
-		mother=lowborn_3287	# Martha von Wertheim-Breuberg They had issue:
+		father=castell_0001	# Wolfgang von Castell
+		mother=lowborn_3287	# GFN Martha von Wertheim-Breuberg
 		1519.07.10={birth=yes}  # Castell
-		1543.07.30={add_spouse=100004403}	# Elisabeth von Baden-Durlach
+		1543.07.30={add_spouse=100004403}	# Elisabeth von Baden
 		1577.07.08={death=yes}  # Schmiedelfeld
 	}
-		castell_0003={ #// B1. Martha, *2.5.1544, +28.6.1607; m.31.3.1563 Heinrich Schenk zu Limpurg in Schmiedefeld (*1534, +Schmiedelfeld 31.1.1585)
+		castell_0003={ #// B1. Martha, *2.5.1544, +28.6.1607; m.31.3.1563 Heinrich Schenk zu Limpurg in Schmiedefeld (*1534, +Schmiedelfeld 31.1.1585) $$
 			name=Martha
 			female=yes
 			dynasty=1002026
 			religion=catholic culture=german
-			father=castell_0002	# Konrad
-			mother=100004403	# Elisabeth von Baden-Durlach
+			father=castell_0002	# Konrad von Castell
+			mother=100004403	# Elisabeth von Baden
 			1544.05.02={birth=yes}
 			1607.06.28={death=yes}
 		}
@@ -60,8 +37,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 			female=yes
 			dynasty=1002026
 			religion=catholic culture=german
-			father=castell_0002	# Konrad
-			mother=100004403	# Elisabeth von Baden-Durlach
+			father=castell_0002	# Konrad von Castell
+			mother=100004403	# Elisabeth von Baden
 			1546.01.01={birth=yes}
 			1570.01.01={death=yes}
 		}
@@ -69,497 +46,475 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 		name=Heinrich
 		dynasty=1002026
 		religion=catholic culture=german
-		father=castell_0001	# Wolfgang
-		mother=lowborn_3287	# Martha von Wertheim-Breuberg They had issue:
+		father=castell_0001	# Wolfgang von Castell
+		mother=lowborn_3287	# GFN Martha von Wertheim-Breuberg
 		1525.02.13={birth=yes}  # Stolberg
-		1555.01.01={add_spouse=lowborn_3438}	# Elisabeth von Helfenstein-Wiesensteig
+		1555.01.01={add_spouse=lowborn_3438}	# GFN Elisabeth von Helfenstein-Wiesensteig
 		1595.09.20={death=yes}  # Remlingen
 	}
-	castell_0010={ #// A7. Gf Georg II, Graf und Herr zu Castell, *Castell 16.11.1527, +Rüdenhausen 12.11.1597; m.16.8.1557 Sophia Schenkin zu Limpurg in Speckfeld (*Speckfeld 24.3.1535, +Rüdenhausen 23.8./13.9.1588)
+	castell_0010={ #// A7. Gf Georg II, Graf und Herr zu Castell, *Castell 16.11.1527, +Rüdenhausen 12.11.1597; m.16.8.1557 Sophia Schenkin zu Limpurg in Speckfeld (*Speckfeld 24.3.1535, +Rüdenhausen 23.8./13.9.1588) $$
 		name=Georg
 		dynasty=1002026
 		religion=catholic culture=german
-		father=castell_0001	# Wolfgang
-		mother=lowborn_3287	# Martha von Wertheim-Breuberg They had issue:
+		father=castell_0001	# Wolfgang von Castell
+		mother=lowborn_3287	# GFN Martha von Wertheim-Breuberg
 		1527.11.16={birth=yes}  # Castell
-		1557.08.16={add_spouse=limpurg_0095}	# Sophia Schenkin zu Limpurg in Speckfeld
+		1557.08.16={add_spouse=limpurg_0095}	# Sophia Schenk von Limpurg
 		1597.11.12={death=yes}  # Rüdenhausen
 	}
-		castell_0011={ #// B1. Wolfgang II, Graf zu Castell und Remlingen, *Rüdenhausen 20.7.1558, +Remlingen 30.4.1631; 1m: 2.6.1581 Gfn Magdalene von Honstein-Klettenberg (*6.12.1563 +8.7.1601); 2m: Weikersheim 1.12.1605 Gfn Juliana von Hohenlohe-Weikersheim (*23.7.1571, +8.3.1634)
+		castell_0011={ #// B1. Wolfgang II, Graf zu Castell und Remlingen, *Rüdenhausen 20.7.1558, +Remlingen 30.4.1631; 1m: 2.6.1581 Gfn Magdalene von Honstein-Klettenberg (*6.12.1563 +8.7.1601); 2m: Weikersheim 1.12.1605 Gfn Juliana von Hohenlohe-Weikersheim (*23.7.1571, +8.3.1634) $$
 			name=Wolfgang
 			dynasty=1002026
 			religion=catholic culture=german
-			father=castell_0010	# Georg
-			mother=limpurg_0095	# Sophia Schenkin zu Limpurg in Speckfeld
+			father=castell_0010	# Georg von Castell
+			mother=limpurg_0095	# Sophia Schenk von Limpurg
 			1558.07.20={birth=yes}  # Rüdenhausen
-			1581.06.02={add_spouse=lowborn_3471}	# Magdalene von Honstein-Klettenberg
-			1605.12.01={add_spouse=100008843}	# Juliana von Hohenlohe-Weikersheim
+			1581.06.02={add_spouse=lowborn_3471}	# GFN Magdalene von Honstein-Klettenberg
+			1605.12.01={add_spouse=100008843}	# Juliane von Hohenlohe-Waldenburg
 			1631.04.30={death=yes}  # Remlingen
 		}
-			castell_0012={ #// C1. [2m.] Wolfgang Georg, Graf zu Castell und Remlingen, *Remlingen 27.1.1610, +Remlingen 14.5.1668; m.Pfedelbach 20.11.1636 Gfn Sophie Juliane zu Hohenlohe-Waldenburg (*5.10.1620 +11.1.1682)
+			castell_0012={ #// C1. [2m.] Wolfgang Georg, Graf zu Castell und Remlingen, *Remlingen 27.1.1610, +Remlingen 14.5.1668; m.Pfedelbach 20.11.1636 Gfn Sophie Juliane zu Hohenlohe-Waldenburg (*5.10.1620 +11.1.1682) $$
 				name="Wolfgang Georg"
-				dynasty=1002026
+				dynasty_house=castell_remlingen
 				religion=catholic culture=german
-				father=castell_0011	# Wolfgang
-				mother=100008843	# Juliana von Hohenlohe-Weikersheim
+				father=castell_0011	# Wolfgang von Castell
+				mother=100008843	# Juliane von Hohenlohe-Waldenburg
 				1610.01.27={birth=yes}  # Remlingen
-				1636.11.20={add_spouse=100003198}	# Sophie Juliane zu Hohenlohe-Waldenburg
+				1636.11.20={add_spouse=100003198}	# Sophie Juliane von Hohenlohe-Waldenburg
 				1668.05.14={death=yes}  # Remlingen
 			}
 				castell_0013={ #// D1. Gf Georg Ludwig, *Remlingen 27.10.1638, +Remlingen 11.4.1639
 					name="Georg Ludwig"
-					dynasty=1002026
+					dynasty_house=castell_remlingen
 					religion=catholic culture=german
-					father=castell_0012	# Wolfgang Georg
-					mother=100003198	# Sophie Juliane zu Hohenlohe-Waldenburg
+					father=castell_0012	# Wolfgang Georg von Castell-Remlingen
+					mother=100003198	# Sophie Juliane von Hohenlohe-Waldenburg
 					1638.10.27={birth=yes}  # Remlingen
 					1639.04.11={death=yes}  # Remlingen
 				}
-				castell_0014={ #// D2. Juliane Dorothea, *Remlingen 30.1.1640, +Ingelfingen 5.5.1706, bur Langenburg; m.Langenburg 5.7.1658 Gf Heinrich Friedrich von Hohenlohe-Langenburg (*5.9.1625, +1699)
+				castell_0014={ #// D2. Juliane Dorothea, *Remlingen 30.1.1640, +Ingelfingen 5.5.1706, bur Langenburg; m.Langenburg 5.7.1658 Gf Heinrich Friedrich von Hohenlohe-Langenburg (*5.9.1625, +1699) $$
 					name="Juliane Dorothea"
 					female=yes
-					dynasty=1002026
+					dynasty_house=castell_remlingen
 					religion=catholic culture=german
-					father=castell_0012	# Wolfgang Georg
-					mother=100003198	# Sophie Juliane zu Hohenlohe-Waldenburg
+					father=castell_0012	# Wolfgang Georg von Castell-Remlingen
+					mother=100003198	# Sophie Juliane von Hohenlohe-Waldenburg
 					1640.01.30={birth=yes}  # Remlingen
 					1706.05.05={death=yes}  # Ingelfingen
 				}
-				castell_0015={ #// D3. Wolfgang Dietrich, Graf zu Castell und Remlingen, *Remlingen 6.1.1641, +Castell 8.4.1709; 1m: 1668 Elisabeth Dorothea Schenkin zu Limpurg in Obersontheim (*10.10.1639 +27.12.1691); 2m: Nürnberg 7.3.1693 Gfn Dorothea Renate von Zinzendorf und Pottendorf (*Sopron (Ödenburg) 13.4.1669, +Castell 22.11.1743)
+				castell_0015={ #// D3. Wolfgang Dietrich, Graf zu Castell und Remlingen, *Remlingen 6.1.1641, +Castell 8.4.1709; 1m: 1668 Elisabeth Dorothea Schenkin zu Limpurg in Obersontheim (*10.10.1639 +27.12.1691); 2m: Nürnberg 7.3.1693 Gfn Dorothea Renate von Zinzendorf und Pottendorf (*Sopron (Ödenburg) 13.4.1669, +Castell 22.11.1743) $$
 					name="Wolfgang Dietrich"
-					dynasty=1002026
+					dynasty_house=castell_remlingen
 					religion=catholic culture=german
-					father=castell_0012	# Wolfgang Georg
-					mother=100003198	# Sophie Juliane zu Hohenlohe-Waldenburg
+					father=castell_0012	# Wolfgang Georg von Castell-Remlingen
+					mother=100003198	# Sophie Juliane von Hohenlohe-Waldenburg
 					1641.01.06={birth=yes}  # Remlingen
-					1668.01.01={add_spouse=lowborn_3478}	# Elisabeth Dorothea Schenkin zu Limpurg in Obersontheim
-					1693.03.07={add_spouse=lowborn_3479}	# Dorothea Renate von Zinzendorf und Pottendorf
+					1668.01.01={add_spouse=limpurg_0157}	# Elisabetha Dorothea Schenk von Limpurg
+					1693.03.07={add_spouse=lowborn_3479}	# GFN Dorothea Renate von Zinzendorf und Pottendorf
 					1709.04.08={death=yes}  # Castell
 				}
 					castell_0016={ #// E1. [1m.] Sophie Dorothea, *Remlingen 21.6.1668, +Castell 25.12.1732
 						name="Sophie Dorothea"
 						female=yes
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3478	# Elisabeth Dorothea Schenkin zu Limpurg in Obersontheim
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=limpurg_0157	# Elisabetha Dorothea Schenk von Limpurg
 						1668.06.21={birth=yes}  # Remlingen
 						1732.12.25={death=yes}  # Castell
 					}
-					castell_0017={ #// E2. [1m.] Charlotte Juliane, *Castell 14.9.1670, +Rüdenhausen 5.2.1696; m.3.2.1695 Gf Johann Friedrich zu Castell-Rüdenhausen (*6.2.1675, +23.6.1749)
+					castell_0017={ #// E2. [1m.] Charlotte Juliane, *Castell 14.9.1670, +Rüdenhausen 5.2.1696; m.3.2.1695 Gf Johann Friedrich zu Castell-Rüdenhausen (*6.2.1675, +23.6.1749) $$
 						name="Charlotte Juliane"
 						female=yes
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3478	# Elisabeth Dorothea Schenkin zu Limpurg in Obersontheim
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=limpurg_0157	# Elisabetha Dorothea Schenk von Limpurg
 						1670.09.14={birth=yes}  # Castell
 						1696.02.05={death=yes}  # Rüdenhausen
 					}
 					castell_0018={ #// E3. [1m.] Christina, *Remlingen 12.6.1669, +Neustadt 15.8.1674
 						name=Christina
 						female=yes
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3478	# Elisabeth Dorothea Schenkin zu Limpurg in Obersontheim
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=limpurg_0157	# Elisabetha Dorothea Schenk von Limpurg
 						1669.06.12={birth=yes}  # Remlingen
 						1674.08.15={death=yes}  # Neustadt
 					}
-					castell_0019={ #// E4. [1m.] Karl Friedrich Gottlieb, Graf zu Castell und Remlingen, *Mannheim 16.4.1679, +Hamburg 9.5.1743; m.2.12.1721 Friederike Eleonore zu Castell (*14.5.1701, +21.3.1760)
-						name=Karl
-						dynasty=1002026
+					castell_0019={ #// E4. [1m.] Karl Friedrich Gottlieb, Graf zu Castell und Remlingen, *Mannheim 16.4.1679, +Hamburg 9.5.1743; m.2.12.1721 Friederike Eleonore zu Castell (*14.5.1701, +21.3.1760) $$
+						name="Karl Friedrich"
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3478	# Elisabeth Dorothea Schenkin zu Limpurg in Obersontheim
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=limpurg_0157	# Elisabetha Dorothea Schenk von Limpurg
 						1679.04.16={birth=yes}  # Mannheim
-						1721.12.02={add_spouse=castell_0077}	# Friederike Eleonore zu Castell
+						1721.12.02={add_spouse=castell_0077}	# Friederike Eleonore von Castell
 						1743.05.09={death=yes}  # Hamburg
 					}
 						castell_0020={ #// F1. Friedrich August Gottlieb, *Castell 2.1.1729, +Rüdenhausen 24.3.1738
 							name=Friedrich
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0019	# Karl
-							mother=castell_0077	# Friederike Eleonore zu Castell
+							father=castell_0019	# Karl Friedrich von Castell-Remlingen
+							mother=castell_0077	# Friederike Eleonore von Castell
 							1729.01.02={birth=yes}  # Castell
 							1738.03.24={death=yes}  # Rüdenhausen
 						}
 						castell_0021={ #// F2. Christian Adolf Friedrich Gottlieb, Graf zu Castell und Remlingen in Breitenburg, *Dresden 22.2.1736, +Hamburg 11.7.1762; m.Kiel 8.7.1757 Sophie Christiane Css Holstein-Holsteinborg (*23.11.1740, +Hamburg 16.3.1772)
 							name=Christian
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=north_german
-							father=castell_0019	# Karl
-							mother=castell_0077	# Friederike Eleonore zu Castell
+							father=castell_0019	# Karl Friedrich von Castell-Remlingen
+							mother=castell_0077	# Friederike Eleonore von Castell
 							1736.02.22={birth=yes}  # Dresden
-							1757.07.08={add_spouse=lowborn_3482}	# Sophie Christiane Holstein-Holsteinborg
+							1757.07.08={add_spouse=lowborn_3482}	# CSS Sophie Christiane Holstein-Holsteinborg
 							1762.07.11={death=yes}  # Hamburg
 						}
-						castell_0022={ #// F3. Christiane Charlotte Friederike, *Remlingen 5.9.1722, +Altona 20/22.12.1773; m.Hamburg 26.5.1745 Gf Christian Günther zu Stolberg-Stolberg (*9.7.1714, +22.6.1765)
-							name=Christiane
+						castell_0022={ #// F3. Christiane Charlotte Friederike, *Remlingen 5.9.1722, +Altona 20/22.12.1773; m.Hamburg 26.5.1745 Gf Christian Günther zu Stolberg-Stolberg (*9.7.1714, +22.6.1765) $$
+							name="Christiane Charlotte"
 							female=yes
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0019	# Karl
-							mother=castell_0077	# Friederike Eleonore zu Castell
+							father=castell_0019	# Karl Friedrich von Castell-Remlingen
+							mother=castell_0077	# Friederike Eleonore von Castell
 							1722.09.05={birth=yes}  # Remlingen
 							1773.12.22={death=yes}  # Altona
 						}
 						castell_0023={ #// F4. Franziska Henriette Eleonore, *Remlingen 7.1.1725, +Abtswind 27.11.1806; m.Hamburg 22.2.1750 Friedrich Christian von Bülow (+1.10.1763)
 							name=Franziska
 							female=yes
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0019	# Karl
-							mother=castell_0077	# Friederike Eleonore zu Castell
+							father=castell_0019	# Karl Friedrich von Castell-Remlingen
+							mother=castell_0077	# Friederike Eleonore von Castell
 							1725.01.07={birth=yes}  # Remlingen
 							1806.11.27={death=yes}  # Abtswind
 						}
-						castell_0024={ #// F5. Katharina Hedwig, *Rüdenhausen 25.10.1730, +Castell 17.1.1781; m.Rüdenhausen 25.10.1761 Gf Christian Friedrich Karl zu Castell-Castell (*Castell 26.2.1730, +Castell 15.10.1773)
+						castell_0024={ #// F5. Katharina Hedwig, *Rüdenhausen 25.10.1730, +Castell 17.1.1781; m.Rüdenhausen 25.10.1761 Gf Christian Friedrich Karl zu Castell-Castell (*Castell 26.2.1730, +Castell 15.10.1773) $$
 							name="Katharina Hedwig"
 							female=yes
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0019	# Karl
-							mother=castell_0077	# Friederike Eleonore zu Castell
+							father=castell_0019	# Karl Friedrich von Castell-Remlingen
+							mother=castell_0077	# Friederike Eleonore von Castell
 							1730.10.25={birth=yes}  # Rüdenhausen
 							1781.01.17={death=yes}  # Castell
 						}
 						castell_0025={ #// F6. Friederike Luise Amoena, heiress of Breitenburg, *Remlingen 24.7.1736, +Breitenburg 21.8.1802; m.Hamburg 23.12.1761 Gf Frederik zu Rantzau (*Ahrensburg 6.9.1729, +15.6.1806)
 							name=Friederike
 							female=yes
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0019	# Karl
-							mother=castell_0077	# Friederike Eleonore zu Castell
+							father=castell_0019	# Karl Friedrich von Castell-Remlingen
+							mother=castell_0077	# Friederike Eleonore von Castell
 							1736.07.24={birth=yes}  # Remlingen
 							1802.08.21={death=yes}  # Breitenburg
 						}
 					castell_0028={ #// E6. [1m.] Christiana Elisabeth, *Neustadt 21.6.1674, +Neuenstein 16.3.1717
 						name="Christiana Elisabeth"
 						female=yes
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3478	# Elisabeth Dorothea Schenkin zu Limpurg in Obersontheim
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=limpurg_0157	# Elisabetha Dorothea Schenk von Limpurg
 						1674.06.21={birth=yes}  # Neustadt
 						1717.03.16={death=yes}  # Neuenstein
 					}
 					castell_0029={ #// E7. [2m.] Eleonore Augusta Amalia, *Castell 27.12.1693, +Castell 25.5.1712
 						name=Eleonore
 						female=yes
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3479	# Dorothea Renate von Zinzendorf und Pottendorf
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=lowborn_3479	# GFN Dorothea Renate von Zinzendorf und Pottendorf
 						1693.12.27={birth=yes}  # Castell
 						1712.05.25={death=yes}  # Castell
 					}
 					castell_0030={ #// E8. [2m.] Wolfgang Georg II, Graf und Herr zu Castell und Remlingen, *Castell 20.9.1694, +Castell 22.9.1736; m.27.3.1727 Gfn Friederike zu Ortenburg (*1.2.1712, +Castell 23.5.1758)
 						name="Wolfgang Georg"
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3479	# Dorothea Renate von Zinzendorf und Pottendorf
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=lowborn_3479	# GFN Dorothea Renate von Zinzendorf und Pottendorf
 						1694.09.20={birth=yes}  # Castell
-						1727.03.27={add_spouse=lowborn_3511}	# Friederike zu Ortenburg
+						1727.03.27={add_spouse=lowborn_3511}	# GFN Friederike zu Ortenburg
 						1736.09.22={death=yes}  # Castell
 					}
 						castell_0032={ #// F2. Charlotte Henriette, *Castell 23.2.1729, +Castell 21.7.1797
 							name="Charlotte Henriette"
 							female=yes
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0030	# Wolfgang Georg
-							mother=lowborn_3511	# Friederike zu Ortenburg
+							father=castell_0030	# Wolfgang Georg von Castell-Remlingen
+							mother=lowborn_3511	# GFN Friederike zu Ortenburg
 							1729.02.23={birth=yes}  # Castell
 							1797.07.21={death=yes}  # Castell
 						}
-						castell_0033={ #// F3. Christian Friedrich Karl, Graf und Herr zu Castell-Castell, *Castell 26.2.1730, +Castell 15.10.1773; m.Rüdenhausen 25.10.1761 Gfn Katharina Hedwig zu Castell-Remlingen (*25.10.1730, +17.1.1783)
-							name=Christian
-							dynasty=1002026
+						castell_0033={ #// F3. Christian Friedrich Karl, Graf und Herr zu Castell-Castell, *Castell 26.2.1730, +Castell 15.10.1773; m.Rüdenhausen 25.10.1761 Gfn Katharina Hedwig zu Castell-Remlingen (*25.10.1730, +17.1.1783) $$
+							name="Christian Friedrich"
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0030	# Wolfgang Georg
-							mother=lowborn_3511	# Friederike zu Ortenburg
+							father=castell_0030	# Wolfgang Georg von Castell-Remlingen
+							mother=lowborn_3511	# GFN Friederike zu Ortenburg
 							1730.02.26={birth=yes}  # Castell
-							1761.10.25={add_spouse=castell_0024}	# Katharina Hedwig zu Castell-Remlingen
+							1761.10.25={add_spouse=castell_0024}	# Katharina Hedwig von Castell-Remlingen
 							1773.10.15={death=yes}  # Castell
 						}
-							castell_0034={ #// G1. Friedrich Karl, Graf und Herr zu Castell-Castell, *Remlingen 2.5.1766, +Castell 11.4.1810; m.Castell 30.4.1788 Pss Sophie Charlotte zu Löwenstein-Wertheim-Virneburg (*2.4.1771, +25.5.1823)
+							castell_0034={ #// G1. Friedrich Karl, Graf und Herr zu Castell-Castell, *Remlingen 2.5.1766, +Castell 11.4.1810; m.Castell 30.4.1788 Pss Sophie Charlotte zu Löwenstein-Wertheim-Virneburg (*2.4.1771, +25.5.1823) $$
 								name="Friedrich Karl"
-								dynasty=1002026
+								dynasty_house=castell_remlingen
 								religion=catholic culture=german
-								father=castell_0033	# Christian
-								mother=castell_0024	# Katharina Hedwig zu Castell-Remlingen
+								father=castell_0033	# Christian Friedrich von Castell-Remlingen
+								mother=castell_0024	# Katharina Hedwig von Castell-Remlingen
 								1766.05.02={birth=yes}  # Remlingen
-								1788.04.30={add_spouse=100002712}	# Sophie Charlotte zu Löwenstein-Wertheim-Virneburg
+								1788.04.30={add_spouse=100002712}	# Sophie Charlotte von Löwenstein-Wertheim-Freudenberg
 								1810.04.11={death=yes}  # Castell
 							}
-								castell_0035={ #// H1. FRIEDRICH LUDWIG Heinrich, Graf und Herr zu Castell-Castell 11.4.1810, *Castell 2.11.1791, +Castell 21.4.1875; m.Langenburg 25.6.1816 Pss Emilie zu Hohenlohe-Langenburg (*27.1.1793 +20.7.1859); for his descendants see HERE
-									name="Friedrich Ludwig"
-									dynasty=1002026
-									religion=catholic culture=german
-									father=castell_0034	# Friedrich Karl
-									mother=100002712	# Sophie Charlotte zu Löwenstein-Wertheim-Virneburg
-									1791.11.02={birth=yes}  # Castell
-									1816.06.25={add_spouse=100001707}	# Emilie zu Hohenlohe-Langenburg
-									1875.04.21={death=yes}  # Castell
-								}
+								#castell3    -->   H1. FRIEDRICH LUDWIG Heinrich, Graf und Herr zu Castell-Castell 11.4.1810, *Castell 2.11.1791, +Castell 21.4.1875; m.Langenburg 25.6.1816 Pss Emilie zu Hohenlohe-Langenburg (*27.1.1793 +20.7.1859); for his descendants see HERE
 								castell_0036={ #// H2. Albrecht Philipp Ferdinand, *Castell 31.7.1797, +Castell 20.10.1797
 									name=Albrecht
-									dynasty=1002026
+									dynasty_house=castell_remlingen
 									religion=catholic culture=german
-									father=castell_0034	# Friedrich Karl
-									mother=100002712	# Sophie Charlotte zu Löwenstein-Wertheim-Virneburg
+									father=castell_0034	# Friedrich Karl von Castell-Remlingen
+									mother=100002712	# Sophie Charlotte von Löwenstein-Wertheim-Freudenberg
 									1797.07.31={birth=yes}  # Castell
 									1797.10.20={death=yes}  # Castell
 								}
 								castell_0037={ #// H3. Friedrich ERNST Albrecht, *Castell 28.6.1800, +Meerholz 18.9.1889
 									name=Ernst
-									dynasty=1002026
+									dynasty_house=castell_remlingen
 									religion=catholic culture=german
-									father=castell_0034	# Friedrich Karl
-									mother=100002712	# Sophie Charlotte zu Löwenstein-Wertheim-Virneburg
+									father=castell_0034	# Friedrich Karl von Castell-Remlingen
+									mother=100002712	# Sophie Charlotte von Löwenstein-Wertheim-Freudenberg
 									1800.06.28={birth=yes}  # Castell
 									1889.09.18={death=yes}  # Meerholz
 								}
 								castell_0038={ #// H4. Karl Friedrich Christian Heinrich August, *Castell 8.12.1801, +Wiesbaden 2.3.1850; m.Zaro, Dalmatia 18.7.1837 Gfn Sylvine Vetter von Lilienberg (*Lilienberg 4.3.1810, +Wiesbaden 10.7.1872)
 									name=Karl
-									dynasty=1002026
+									dynasty_house=castell_remlingen
 									religion=catholic culture=german
-									father=castell_0034	# Friedrich Karl
-									mother=100002712	# Sophie Charlotte zu Löwenstein-Wertheim-Virneburg
+									father=castell_0034	# Friedrich Karl von Castell-Remlingen
+									mother=100002712	# Sophie Charlotte von Löwenstein-Wertheim-Freudenberg
 									1801.12.08={birth=yes}  # Castell
-									1837.07.18={add_spouse=lowborn_3517}	# Sylvine Vetter von Lilienberg
+									1837.07.18={add_spouse=lowborn_3517}	# GFN Sylvine Vetter von Lilienberg
 									1850.03.02={death=yes}  # Wiesbaden
 								}
 									castell_0039={ #// I1. Friedrich Christian PHILIPP Ernst, *Remlingen 23.3.1840, +Bozen 6.2.1876; m.Eppstein 2.6.1863 Lavinia de Bravura-Manini (*Moscow 27.1.1833, +Wien 19.6.1891)
 										name=Philipp
-										dynasty=1002026
+										dynasty_house=castell_remlingen
 										religion=catholic culture=german
-										father=castell_0038	# Karl
-										mother=lowborn_3517	# Sylvine Vetter von Lilienberg
+										father=castell_0038	# Karl von Castell-Remlingen
+										mother=lowborn_3517	# GFN Sylvine Vetter von Lilienberg
 										1840.03.23={birth=yes}  # Remlingen
 										1863.06.02={add_spouse=lowborn_3518}	# Lavinia de Bravura-Manini
 										1876.02.06={death=yes}  # Bozen
 									}
 									castell_0040={ #// I2. ADOLF Karl, *Remlingen 14.10.1841, +Asnieres nr Paris 31.8.1912
 										name=Adolf
-										dynasty=1002026
+										dynasty_house=castell_remlingen
 										religion=catholic culture=german
-										father=castell_0038	# Karl
-										mother=lowborn_3517	# Sylvine Vetter von Lilienberg
+										father=castell_0038	# Karl von Castell-Remlingen
+										mother=lowborn_3517	# GFN Sylvine Vetter von Lilienberg
 										1841.10.14={birth=yes}  # Remlingen
 										1912.08.31={death=yes}  # Asnieres nr Paris
 									}
 								castell_0041={ #// H5. Dorothea Christiane, *Castell 20.1.1793, +Castell 20.2.1796
 									name="Dorothea Christiane"
 									female=yes
-									dynasty=1002026
+									dynasty_house=castell_remlingen
 									religion=catholic culture=german
-									father=castell_0034	# Friedrich Karl
-									mother=100002712	# Sophie Charlotte zu Löwenstein-Wertheim-Virneburg
+									father=castell_0034	# Friedrich Karl von Castell-Remlingen
+									mother=100002712	# Sophie Charlotte von Löwenstein-Wertheim-Freudenberg
 									1793.01.20={birth=yes}  # Castell
 									1796.02.20={death=yes}  # Castell
 								}
-								castell_0042={ #// H6. Dorothea Christiana Klementine Luise, *Castell 10.1.1796, +Meerholz, Hessen 6.9.1864; m.Castell 22.10.1818 Gf Joseph zu Ysenburg und Büdingen in Meerholz (*10.5.1772, +14.3.1822)
+								castell_0042={ #// H6. Dorothea Christiana Klementine Luise, *Castell 10.1.1796, +Meerholz, Hessen 6.9.1864; m.Castell 22.10.1818 Gf Joseph zu Ysenburg und Büdingen in Meerholz (*10.5.1772, +14.3.1822) $$
 									name=Dorothea
 									female=yes
-									dynasty=1002026
+									dynasty_house=castell_remlingen
 									religion=catholic culture=german
-									father=castell_0034	# Friedrich Karl
-									mother=100002712	# Sophie Charlotte zu Löwenstein-Wertheim-Virneburg
+									father=castell_0034	# Friedrich Karl von Castell-Remlingen
+									mother=100002712	# Sophie Charlotte von Löwenstein-Wertheim-Freudenberg
 									1796.01.10={birth=yes}  # Castell
 									1864.09.06={death=yes}  # Meerholz Hessen
 								}
 							castell_0043={ #// G2. Christian Ludwig Ferdinand, *Rüdenhausen 14.4.1768, +Remlingen 16.12.1768
 								name=Christian
-								dynasty=1002026
+								dynasty_house=castell_remlingen
 								religion=catholic culture=german
-								father=castell_0033	# Christian
-								mother=castell_0024	# Katharina Hedwig zu Castell-Remlingen
+								father=castell_0033	# Christian Friedrich von Castell-Remlingen
+								mother=castell_0024	# Katharina Hedwig von Castell-Remlingen
 								1768.04.14={birth=yes}  # Rüdenhausen
 								1768.12.16={death=yes}  # Remlingen
 							}
-							castell_0044={ #// G3. Christian Friedrich, Graf und Herr zu Castell-Rüdenhausen from 15.10.1773, *Remlingen 21.4.1772, +Rüdenhausen 28.3.1850; 1m: Angern 21.4.1797 (div 1803) Gfn Albertine von der Schulenburg (*Magdeburg 16.2.1778, +Muskau 30.10.1838); 2m: Rüdenhausen 25.6.1804 (div Würzburg 29.9.1811) Gfn Luise Karoline zu Ortenburg (*Ortenburg 15.1.1782, +Augsburg 15.12.1847); 3m: Castell 2.8.1812 Pss Sophie Amalie Charlotte zu Loewenstein-Wertheim-Virneburg (*2.4.1771, +25.5.1823); for his descendants see HERE
-								name="Christian Friedrich"
-								dynasty=1002026
-								religion=catholic culture=german
-								father=castell_0033	# Christian
-								mother=castell_0024	# Katharina Hedwig zu Castell-Remlingen
-								1772.04.21={birth=yes}  # Remlingen
-								1797.04.21={add_spouse=lowborn_3520}	# Albertine von der Schulenburg
-								1803.01.01={remove_spouse=lowborn_3520}
-								1804.06.25={add_spouse=100010321}	# Luise Karoline zu Ortenburg
-								1811.09.29={remove_spouse=100010321}
-								1812.08.02={add_spouse=100002712}	# Sophie Amalie zu Loewenstein-Wertheim-Virneburg
-								1850.03.28={death=yes}  # Rüdenhausen
-							}
+							#castell4    -->   G3. Christian Friedrich, Graf und Herr zu Castell-Rüdenhausen from 15.10.1773, *Remlingen 21.4.1772, +Rüdenhausen 28.3.1850; 1m: Angern 21.4.1797 (div 1803) Gfn Albertine von der Schulenburg (*Magdeburg 16.2.1778, +Muskau 30.10.1838); 2m: Rüdenhausen 25.6.1804 (div Würzburg 29.9.1811) Gfn Luise Karoline zu Ortenburg (*Ortenburg 15.1.1782, +Augsburg 15.12.1847); 3m: Castell 2.8.1812 Pss Sophie Amalie Charlotte zu Loewenstein-Wertheim-Virneburg (*2.4.1771, +25.5.1823); for his descendants see HERE
 						castell_0049={ #// F7. Sophie Charlotte, *Castell 23.4.1734, +Wertheim 9.11.1772; m.Bernhard Friedrich Firnhaber (+1798)
 							name="Sophie Charlotte"
 							female=yes
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0030	# Wolfgang Georg
-							mother=lowborn_3511	# Friederike zu Ortenburg
+							father=castell_0030	# Wolfgang Georg von Castell-Remlingen
+							mother=lowborn_3511	# GFN Friederike zu Ortenburg
 							1734.04.23={birth=yes}  # Castell
 							1772.11.09={death=yes}  # Wertheim
 						}
-						castell_0050={ #// F8. Albertine Renata, *Castell 2.6.1735, +Kirchberg 21.1.1804, bur Kirchberg; m.Remlingen 1778 Pr Friedrich Eberhard zu Hohenlohe-Kirchberg (*21.10.1737, +21.1.1804)
-							name="Albertine Renata"
+						castell_0050={ #// F8. Albertine Renata, *Castell 2.6.1735, +Kirchberg 21.1.1804, bur Kirchberg; m.Remlingen 1778 Pr Friedrich Eberhard zu Hohenlohe-Kirchberg (*21.10.1737, +21.1.1804) $$
+							name="Albertine Renate"
 							female=yes
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0030	# Wolfgang Georg
-							mother=lowborn_3511	# Friederike zu Ortenburg
+							father=castell_0030	# Wolfgang Georg von Castell-Remlingen
+							mother=lowborn_3511	# GFN Friederike zu Ortenburg
 							1735.06.02={birth=yes}  # Castell
 							1804.01.21={death=yes}  # Kirchberg
 						}
 					castell_0053={ #// E11. [2m.] Karoline Friederike Luise, *15.5.1702, +1748
 						name=Karoline
 						female=yes
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3479	# Dorothea Renate von Zinzendorf und Pottendorf
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=lowborn_3479	# GFN Dorothea Renate von Zinzendorf und Pottendorf
 						1702.05.15={birth=yes}
 						1748.01.01={death=yes}
 					}
-					castell_0054={ #// E12. Sophie Theodora, *Castell 12.5.1703, +Herrnhut 6/8.1.1777; m.Castell 7.9.1721 Gf Heinrich XXIX Reuss zu Ebersdorf (*21.7.1699, +22.5.1747)
-						name="Sophie Theodora"
+					castell_0054={ #// E12. Sophie Theodora, *Castell 12.5.1703, +Herrnhut 6/8.1.1777; m.Castell 7.9.1721 Gf Heinrich XXIX Reuss zu Ebersdorf (*21.7.1699, +22.5.1747) $$
+						name="Sofie Theodora"
 						female=yes
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3479	# Dorothea Renate von Zinzendorf und Pottendorf
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=lowborn_3479	# GFN Dorothea Renate von Zinzendorf und Pottendorf
 						1703.05.12={birth=yes}  # Castell
 						1777.01.08={death=yes}  # Herrnhut
 					}
 					castell_0055={ #// E13. [2m.] August FRANZ Friedrich, *Castell 31.7.1705, +Castell 16.5.1767; m.15.7.1737 Gfn Luise Henriette von Pückler zu Wolkenberg und Stradow (*Berlin 7.10.1719, +Castell 14.3.1783)
 						name=Franz
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3479	# Dorothea Renate von Zinzendorf und Pottendorf
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=lowborn_3479	# GFN Dorothea Renate von Zinzendorf und Pottendorf
 						1705.07.31={birth=yes}  # Castell
-						1737.07.15={add_spouse=lowborn_3531}	# Luise Henriette von Pückler zu Wolkenberg und Stradow
+						1737.07.15={add_spouse=lowborn_3531}	# GFN Luise Henriette von Pückler zu Wolkenberg und Stradow
 						1767.05.16={death=yes}  # Castell
 					}
 						castell_0056={ #// F1. Dorothea Augusta Erdmutha Henrietta, *Branitz 19.2.1740, +Branitz 13.4.1740
 							name=Dorothea
 							female=yes
-							dynasty=1002026
+							dynasty_house=castell_remlingen
 							religion=catholic culture=german
-							father=castell_0055	# Franz
-							mother=lowborn_3531	# Luise Henriette von Pückler zu Wolkenberg und Stradow
+							father=castell_0055	# Franz von Castell-Remlingen
+							mother=lowborn_3531	# GFN Luise Henriette von Pückler zu Wolkenberg und Stradow
 							1740.02.19={birth=yes}  # Branitz
 							1740.04.13={death=yes}  # Branitz
 						}
-					castell_0057={ #// E14. [2m.] Ludwig Friedrich, *Castell 23.2.1707, +Rehweiler 22.6.1772; m.Wernigerode 10.12.1744 Gfn Ferdinande Adriane zu Stolberg-Wernigerode (*15.6.1718, +12.12.1787)
+					castell_0057={ #// E14. [2m.] Ludwig Friedrich, *Castell 23.2.1707, +Rehweiler 22.6.1772; m.Wernigerode 10.12.1744 Gfn Ferdinande Adriane zu Stolberg-Wernigerode (*15.6.1718, +12.12.1787) $$
 						name="Ludwig Friedrich"
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0015	# Wolfgang Dietrich
-						mother=lowborn_3479	# Dorothea Renate von Zinzendorf und Pottendorf
+						father=castell_0015	# Wolfgang Dietrich von Castell-Remlingen
+						mother=lowborn_3479	# GFN Dorothea Renate von Zinzendorf und Pottendorf
 						1707.02.23={birth=yes}  # Castell
-						1744.12.10={add_spouse=100009721}	# Ferdinande Adriane zu Stolberg-Wernigerode
+						1744.12.10={add_spouse=100009721}	# Ferdinande Adriane von Stolberg-Wernigerode
 						1772.06.22={death=yes}  # Rehweiler
 					}
 				castell_0064={ #// D3. Eberhard Friedrich, *Stuttgart 26.8.1652, +k.a. Münster 26.12.1672
 					name="Eberhard Friedrich"
-					dynasty=1002026
+					dynasty_house=castell_remlingen
 					religion=catholic culture=north_german
-					father=castell_0012	# Wolfgang Georg
-					mother=100003198	# Sophie Juliane zu Hohenlohe-Waldenburg
+					father=castell_0012	# Wolfgang Georg von Castell-Remlingen
+					mother=100003198	# Sophie Juliane von Hohenlohe-Waldenburg
 					1652.08.26={birth=yes}  # Stuttgart
 					1672.12.26={death=yes}  # Münster
 				}
 				castell_0058={ #// D4. Georg Albrecht, *19.5.1642, +16.3.1643
 					name="Georg Albrecht"
-					dynasty=1002026
+					dynasty_house=castell_remlingen
 					religion=catholic culture=german
-					father=castell_0012	# Wolfgang Georg
-					mother=100003198	# Sophie Juliane zu Hohenlohe-Waldenburg
+					father=castell_0012	# Wolfgang Georg von Castell-Remlingen
+					mother=100003198	# Sophie Juliane von Hohenlohe-Waldenburg
 					1642.05.19={birth=yes}
 					1643.03.16={death=yes}
 				}
 				castell_0059={ #// D5. Sophie Luise, *8.7.1645, +Castell 19.7.1717; m.25.9.1666 Gf Albrecht Friedrich von Wolfstein zu Sulzburg (*13.5.1644, +6/7.11.1693)
 					name="Sophie Luise"
 					female=yes
-					dynasty=1002026
+					dynasty_house=castell_remlingen
 					religion=catholic culture=german
-					father=castell_0012	# Wolfgang Georg
-					mother=100003198	# Sophie Juliane zu Hohenlohe-Waldenburg
+					father=castell_0012	# Wolfgang Georg von Castell-Remlingen
+					mother=100003198	# Sophie Juliane von Hohenlohe-Waldenburg
 					1645.07.08={birth=yes}
 					1717.07.19={death=yes}  # Castell
 				}
 				castell_0060={ #// D6. Philipp Gottfried, *29.6.1643, +Remlingen 17.11.1643
 					name="Philipp Gottfried"
-					dynasty=1002026
+					dynasty_house=castell_remlingen
 					religion=catholic culture=german
-					father=castell_0012	# Wolfgang Georg
-					mother=100003198	# Sophie Juliane zu Hohenlohe-Waldenburg
+					father=castell_0012	# Wolfgang Georg von Castell-Remlingen
+					mother=100003198	# Sophie Juliane von Hohenlohe-Waldenburg
 					1643.06.29={birth=yes}
 					1643.11.17={death=yes}  # Remlingen
 				}
-				castell_0061={ #// D7. Friedrich Magnus, Graf und Herr zu Castell-Remlingen, *Remlingen 6.10.1646, +Augsburg 17.4.1717; 1m: Oettingen 17.11.1678 Gfn Susanna Johanna von Oettingen-Oettingen (*16.9.1643 +28.11.1713); 2m: Maria Anna Augusta Fatma (+Markdorf 5.5.1755)
+				castell_0061={ #// D7. Friedrich Magnus, Graf und Herr zu Castell-Remlingen, *Remlingen 6.10.1646, +Augsburg 17.4.1717; 1m: Oettingen 17.11.1678 Gfn Susanna Johanna von Oettingen-Oettingen (*16.9.1643 +28.11.1713); 2m: Maria Anna Augusta Fatma (+Markdorf 5.5.1755) $$
 					name="Friedrich Magnus"
-					dynasty=1002026
+					dynasty_house=castell_remlingen
 					religion=catholic culture=german
-					father=castell_0012	# Wolfgang Georg
-					mother=100003198	# Sophie Juliane zu Hohenlohe-Waldenburg
+					father=castell_0012	# Wolfgang Georg von Castell-Remlingen
+					mother=100003198	# Sophie Juliane von Hohenlohe-Waldenburg
 					1646.10.06={birth=yes}  # Remlingen
-					1678.11.17={add_spouse=100012951}	# Susanna Johanna von Oettingen-Oettingen
+					1678.11.17={add_spouse=100012951}	# Susanna Johanna zu Oettingen-Oettingen
 					1714.11.28={add_spouse=lowborn_3538}	# Maria Anna Fatma
 					1717.04.17={death=yes}  # Augsburg
 				}
 					castell_0062={ #// E1. Leopold, *1679, +Landau 1702
 						name=Leopold
-						dynasty=1002026
+						dynasty_house=castell_remlingen
 						religion=catholic culture=german
-						father=castell_0061	# Friedrich Magnus
-						mother=100012951	# Susanna Johanna von Oettingen-Oettingen
+						father=castell_0061	# Friedrich Magnus von Castell-Remlingen
+						mother=100012951	# Susanna Johanna zu Oettingen-Oettingen
 						1679.01.01={birth=yes}
 						1702.01.01={death=yes}  # Landau
 					}
-		castell_0067={ #// B4. Maria, *Rüdenhausen 3.4.1565, +9.7.1634; m.24.9.1594 Karl II Schenk zu Limpurg in Schmiedelfeld (*13.11.1569, +30.4.1631)
+		castell_0067={ #// B4. Maria, *Rüdenhausen 3.4.1565, +9.7.1634; m.24.9.1594 Karl II Schenk zu Limpurg in Schmiedelfeld (*13.11.1569, +30.4.1631) $$
 			name=Maria
 			female=yes
 			dynasty=1002026
 			religion=catholic culture=german
-			father=castell_0010	# Georg
-			mother=limpurg_0095	# Sophia Schenkin zu Limpurg in Speckfeld
+			father=castell_0010	# Georg von Castell
+			mother=limpurg_0095	# Sophia Schenk von Limpurg
 			1565.04.03={birth=yes}  # Rüdenhausen
 			1634.07.09={death=yes}
 		}
-		castell_0069={ #// B6. Gottfried Graf zu Castell-Rüdenhausen, *Rüdenhausen 16.1.1577, +Castell 6.8.1635; m.16.9.1599 Anna Maria Schenkin zu Limpurg in Obersontheim (*Heidelberg 27.6.1580, +Sommerhausen 12.8.1632)
+		castell_0069={ #// B6. Gottfried Graf zu Castell-Rüdenhausen, *Rüdenhausen 16.1.1577, +Castell 6.8.1635; m.16.9.1599 Anna Maria Schenkin zu Limpurg in Obersontheim (*Heidelberg 27.6.1580, +Sommerhausen 12.8.1632) $$
 			name=Gottfried
 			dynasty=1002026
 			religion=catholic culture=german
-			father=castell_0010	# Georg
-			mother=limpurg_0095	# Sophia Schenkin zu Limpurg in Speckfeld
+			father=castell_0010	# Georg von Castell
+			mother=limpurg_0095	# Sophia Schenk von Limpurg
 			1577.01.16={birth=yes}  # Rüdenhausen
-			1599.09.16={add_spouse=limpurg_0169}	# Anna Schenkin zu Limpurg in Obersontheim
+			1599.09.16={add_spouse=limpurg_0169}	# Anna Schenk von Limpurg
 			1635.08.06={death=yes}  # Castell
 		}
-			castell_0070={ #// C1. Georg Friedrich, *Rüdenhausen 21.8.1600, +Rüdenhausen 20/29.3.1653; m.16.9.1636 Anna Luise Schenkin zu Limpurg in Speckfeld (*Liebenzell 18.9.1619, +Rüdenhausen 30.11.1656)
+			castell_0070={ #// C1. Georg Friedrich, *Rüdenhausen 21.8.1600, +Rüdenhausen 20/29.3.1653; m.16.9.1636 Anna Luise Schenkin zu Limpurg in Speckfeld (*Liebenzell 18.9.1619, +Rüdenhausen 30.11.1656) $$
 				name="Georg Friedrich"
 				dynasty=1002026
 				religion=catholic culture=german
-				father=castell_0069	# Gottfried
-				mother=limpurg_0169	# Anna Schenkin zu Limpurg in Obersontheim
+				father=castell_0069	# Gottfried von Castell
+				mother=limpurg_0169	# Anna Schenk von Limpurg
 				1600.08.21={birth=yes}  # Rüdenhausen
-				1636.09.16={add_spouse=limpurg_0114}	# Anna Luise Schenkin zu Limpurg in Speckfeld
+				1636.09.16={add_spouse=limpurg_0114}	# Anna Luise Schenk von Limpurg
 				1653.03.29={death=yes}  # Rüdenhausen
 			}
-				castell_0071={ #// D1. Philipp Gottfried, *Rüdenhausen 21.11.1641, +*Rüdenhausen 10.1.1681; m.6.12.1670 Gfn Anna Sibylla von Daun, Wild- und Rheingräfin (*29.9.1648, +12.3.1685)
+				castell_0071={ #// D1. Philipp Gottfried, *Rüdenhausen 21.11.1641, +*Rüdenhausen 10.1.1681; m.6.12.1670 Gfn Anna Sibylla von Daun, Wild- und Rheingräfin (*29.9.1648, +12.3.1685) $$
 					name="Philipp Gottfried"
 					dynasty=1002026
 					religion=catholic culture=german
-					father=castell_0070	# Georg Friedrich
-					mother=limpurg_0114	# Anna Luise Schenkin zu Limpurg in Speckfeld
+					father=castell_0070	# Georg Friedrich von Castell
+					mother=limpurg_0114	# Anna Luise Schenk von Limpurg
 					1641.11.21={birth=yes}  # Rüdenhausen
-					1670.12.06={add_spouse=100008006}	# Anna Sibylla von Daun Wild-und Rheingräfin
+					1670.12.06={add_spouse=100008006}	# Anna Sibylla von Salm
 					1711.01.01={death=yes}  # EST.
 				}
 					castell_0072={ #// E1. Dorothea Sophia Florentina, *Rüdenhausen 6.11.1671, +Almelo 1722
@@ -567,8 +522,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=castell_0071	# Philipp Gottfried
-						mother=100008006	# Anna Sibylla von Daun Wild-und Rheingräfin
+						father=castell_0071	# Philipp Gottfried von Castell
+						mother=100008006	# Anna Sibylla von Salm
 						1671.11.06={birth=yes}  # Rüdenhausen
 						1722.01.01={death=yes}  # Almelo
 					}
@@ -577,23 +532,23 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=castell_0071	# Philipp Gottfried
-						mother=100008006	# Anna Sibylla von Daun Wild-und Rheingräfin
+						father=castell_0071	# Philipp Gottfried von Castell
+						mother=100008006	# Anna Sibylla von Salm
 						1673.02.28={birth=yes}  # Rüdenhausen
 						1758.07.17={death=yes}  # Almelo
 					}
-					castell_0074={ #// E3. Johann Friedrich, *Rüdenhausen 6.2.1675, +Rüdenhausen 23.6.1749; 1m: 3.2.1695 Gfn Charlotte Juliane zu Castell-Remlingen (*14.9.1670, +5.2.1696); 2m: Oehringen 5.8.1696 Gfn Charlotte Luise zu Hohenlohe-Gleichen (*4.9.1671, +1.6.1697); 3m: Drage, Holstein 22.2.1699 Gfn Katharina Hedwig von Rantzau (*6.6.1683, +Hamburg 12.3.1743); 4m: Rüdenhausen 19.7.1743 Gfn Eleonore Christiane zu Hohenlohe-Gleichen (*1.3.1720, +17.2.1746); 5m: Rüdenhausen 23.2.1747 Gfn Magdalena Dorothea zu Hohenlohe-Ingelfingen (*9.9.1705 +18.4.1762)
+					castell_0074={ #// E3. Johann Friedrich, *Rüdenhausen 6.2.1675, +Rüdenhausen 23.6.1749; 1m: 3.2.1695 Gfn Charlotte Juliane zu Castell-Remlingen (*14.9.1670, +5.2.1696); 2m: Oehringen 5.8.1696 Gfn Charlotte Luise zu Hohenlohe-Gleichen (*4.9.1671, +1.6.1697); 3m: Drage, Holstein 22.2.1699 Gfn Katharina Hedwig von Rantzau (*6.6.1683, +Hamburg 12.3.1743); 4m: Rüdenhausen 19.7.1743 Gfn Eleonore Christiane zu Hohenlohe-Gleichen (*1.3.1720, +17.2.1746); 5m: Rüdenhausen 23.2.1747 Gfn Magdalena Dorothea zu Hohenlohe-Ingelfingen (*9.9.1705 +18.4.1762) $$
 						name="Johann Friedrich"
 						dynasty=1002026
 						religion=catholic culture=german
-						father=castell_0071	# Philipp Gottfried
-						mother=100008006	# Anna Sibylla von Daun Wild-und Rheingräfin
+						father=castell_0071	# Philipp Gottfried von Castell
+						mother=100008006	# Anna Sibylla von Salm
 						1675.02.06={birth=yes}  # Rüdenhausen
-						1695.02.03={add_spouse=castell_0017}	# Charlotte Juliane zu Castell-Remlingen
-						1696.08.05={add_spouse=100002416}	# Charlotte Luise zu Hohenlohe-Gleichen
-						1699.02.22={add_spouse=lowborn_3552}	# Katharina Hedwig von Rantzau
-						1743.07.19={add_spouse=100002404}	# Eleonore Christiane zu Hohenlohe-Gleichen
-						1747.02.23={add_spouse=100004175}	# Magdalena Dorothea zu Hohenlohe-Ingelfingen
+						1695.02.03={add_spouse=castell_0017}	# Charlotte Juliane von Castell-Remlingen
+						1696.08.05={add_spouse=100002416}	# Charlotte Luise von Hohenlohe-Waldenburg
+						1699.02.22={add_spouse=lowborn_3552}	# GFN Katharina Hedwig von Rantzau
+						1743.07.19={add_spouse=100002404}	# Eleonore Christiane von Hohenlohe-Waldenburg
+						1747.02.23={add_spouse=100004175}	# Magdalena Dorothea zu Hohenlohe-Langenburg
 						1749.06.23={death=yes}  # Rüdenhausen
 					}
 						castell_0075={ #// F1. [1m.] Dorothea Charlotte, *Rüdenhausen 26.1.1696, +Noorddeurningen 1.12.1729; m.Almelo 30.1.1720 Gf Frederik Willem van Rechteren, heer tot Noorddeurningen (*Almelo 14.1.1701, +14.7.1729)
@@ -601,8 +556,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=castell_0074	# Johann Friedrich
-							mother=castell_0017	# Charlotte Juliane zu Castell-Remlingen
+							father=castell_0074	# Johann Friedrich von Castell
+							mother=castell_0017	# Charlotte Juliane von Castell-Remlingen
 							1696.01.26={birth=yes}  # Rüdenhausen
 							1729.12.01={death=yes}  # Noorddeurningen
 						}
@@ -610,18 +565,18 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 							name="Wolfgang Christian"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=castell_0074	# Johann Friedrich
-							mother=lowborn_3552	# Katharina Hedwig von Rantzau
+							father=castell_0074	# Johann Friedrich von Castell
+							mother=lowborn_3552	# GFN Katharina Hedwig von Rantzau
 							1702.12.07={birth=yes}
 							1707.02.16={death=yes}
 						}
-						castell_0077={ #// F3. [3m.] Friederike Eleonore, *Rüdenhausen 14.5.1701, +Breitenburg 21.3.1760; m.2.12.1721 Gf Karl Friedrich Gottlieb zu Castell-Remlingen (*16.4.1679, +9.5.1743)
+						castell_0077={ #// F3. [3m.] Friederike Eleonore, *Rüdenhausen 14.5.1701, +Breitenburg 21.3.1760; m.2.12.1721 Gf Karl Friedrich Gottlieb zu Castell-Remlingen (*16.4.1679, +9.5.1743) $$
 							name="Friederike Eleonore"
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=castell_0074	# Johann Friedrich
-							mother=lowborn_3552	# Katharina Hedwig von Rantzau
+							father=castell_0074	# Johann Friedrich von Castell
+							mother=lowborn_3552	# GFN Katharina Hedwig von Rantzau
 							1701.05.14={birth=yes}  # Rüdenhausen
 							1760.03.21={death=yes}  # Breitenburg
 						}
@@ -630,8 +585,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 							female=yes
 							dynasty=1002026
 							religion=catholic culture=german
-							father=castell_0074	# Johann Friedrich
-							mother=lowborn_3552	# Katharina Hedwig von Rantzau
+							father=castell_0074	# Johann Friedrich von Castell
+							mother=lowborn_3552	# GFN Katharina Hedwig von Rantzau
 							1705.04.12={birth=yes}
 							1707.02.04={death=yes}
 						}
@@ -639,19 +594,19 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 							name="Philipp Friedrich"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=castell_0074	# Johann Friedrich
-							mother=lowborn_3552	# Katharina Hedwig von Rantzau
+							father=castell_0074	# Johann Friedrich von Castell
+							mother=lowborn_3552	# GFN Katharina Hedwig von Rantzau
 							1706.07.31={birth=yes}
 							1706.10.24={death=yes}
 						}
-						castell_0081={ #// F6. [4m.] Friedrich Ludwig, *Rüdenhausen 17.2.1746, +Rüdenhausen 7.2.1803; 1m: Greiz 8.7.1767 (div 8.11.1769) Pss Friederike Reuss zu Greiz (*9.7.1748, +Praha 14.6.1816); 2m: 1770 Karoline Friederike von Voss (*1755 +1827)
+						castell_0081={ #// F6. [4m.] Friedrich Ludwig, *Rüdenhausen 17.2.1746, +Rüdenhausen 7.2.1803; 1m: Greiz 8.7.1767 (div 8.11.1769) Pss Friederike Reuss zu Greiz (*9.7.1748, +Praha 14.6.1816); 2m: 1770 Karoline Friederike von Voss (*1755 +1827) $$
 							name="Friedrich Ludwig"
 							dynasty=1002026
 							religion=catholic culture=german
-							father=castell_0074	# Johann Friedrich
-							mother=100002404	# Eleonore Christiane zu Hohenlohe-Gleichen
+							father=castell_0074	# Johann Friedrich von Castell
+							mother=100002404	# Eleonore Christiane von Hohenlohe-Waldenburg
 							1746.02.17={birth=yes}  # Rüdenhausen
-							1767.07.08={add_spouse=100006789}	# Friederike Reuss zu Greiz
+							1767.07.08={add_spouse=100006789}	# Friederike Reuß
 							1769.11.08={remove_spouse=100006789}
 							1770.01.01={add_spouse=lowborn_3558}	# Karoline Friederike von Voss
 							1803.02.07={death=yes}  # Rüdenhausen
@@ -661,8 +616,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=castell_0071	# Philipp Gottfried
-						mother=100008006	# Anna Sibylla von Daun Wild-und Rheingräfin
+						father=castell_0071	# Philipp Gottfried von Castell
+						mother=100008006	# Anna Sibylla von Salm
 						1676.05.03={birth=yes}  # Rüdenhausen
 						1757.12.11={death=yes}  # Zwolle
 					}
@@ -671,8 +626,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=castell_0071	# Philipp Gottfried
-						mother=100008006	# Anna Sibylla von Daun Wild-und Rheingräfin
+						father=castell_0071	# Philipp Gottfried von Castell
+						mother=100008006	# Anna Sibylla von Salm
 						1677.05.29={birth=yes}  # Rüdenhausen
 						1678.04.05={death=yes}  # Rüdenhausen
 					}
@@ -680,8 +635,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 						name="Johann Gottfried"
 						dynasty=1002026
 						religion=catholic culture=german
-						father=castell_0071	# Philipp Gottfried
-						mother=100008006	# Anna Sibylla von Daun Wild-und Rheingräfin
+						father=castell_0071	# Philipp Gottfried von Castell
+						mother=100008006	# Anna Sibylla von Salm
 						1678.06.27={birth=yes}  # Rüdenhausen
 						1679.09.05={death=yes}  # Rüdenhausen
 					}
@@ -690,8 +645,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=castell_0071	# Philipp Gottfried
-						mother=100008006	# Anna Sibylla von Daun Wild-und Rheingräfin
+						father=castell_0071	# Philipp Gottfried von Castell
+						mother=100008006	# Anna Sibylla von Salm
 						1679.08.27={birth=yes}  # Rüdenhausen
 						1757.12.19={death=yes}  # Rüdenhausen
 					}
@@ -700,8 +655,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 						female=yes
 						dynasty=1002026
 						religion=catholic culture=german
-						father=castell_0071	# Philipp Gottfried
-						mother=100008006	# Anna Sibylla von Daun Wild-und Rheingräfin
+						father=castell_0071	# Philipp Gottfried von Castell
+						mother=100008006	# Anna Sibylla von Salm
 						1681.01.19={birth=yes}  # Rüdenhausen
 						1698.12.05={death=yes}  # Rüdenhausen
 					}
@@ -709,8 +664,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 					name="Friedrich Ludwig"
 					dynasty=1002026
 					religion=catholic culture=german
-					father=castell_0070	# Georg Friedrich
-					mother=limpurg_0114	# Anna Luise Schenkin zu Limpurg in Speckfeld
+					father=castell_0070	# Georg Friedrich von Castell
+					mother=limpurg_0114	# Anna Luise Schenk von Limpurg
 					1642.10.21={birth=yes}  # Rüdenhausen
 					1680.12.08={death=yes}  # Rüdenhausen
 				}
@@ -718,8 +673,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 					name="Heinrich Albrecht"
 					dynasty=1002026
 					religion=catholic culture=german
-					father=castell_0070	# Georg Friedrich
-					mother=limpurg_0114	# Anna Luise Schenkin zu Limpurg in Speckfeld
+					father=castell_0070	# Georg Friedrich von Castell
+					mother=limpurg_0114	# Anna Luise Schenk von Limpurg
 					1643.11.05={birth=yes}  # Rüdenhausen
 					1674.08.03={death=yes}  # Nürnberg
 				}
@@ -728,8 +683,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 					female=yes
 					dynasty=1002026
 					religion=catholic culture=german
-					father=castell_0070	# Georg Friedrich
-					mother=limpurg_0114	# Anna Luise Schenkin zu Limpurg in Speckfeld
+					father=castell_0070	# Georg Friedrich von Castell
+					mother=limpurg_0114	# Anna Luise Schenk von Limpurg
 					1646.01.24={birth=yes}  # Rüdenhausen
 					1687.08.01={death=yes}  # Wiesenbronn
 				}
@@ -737,8 +692,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 					name=Eberhard
 					dynasty=1002026
 					religion=catholic culture=german
-					father=castell_0070	# Georg Friedrich
-					mother=limpurg_0114	# Anna Luise Schenkin zu Limpurg in Speckfeld
+					father=castell_0070	# Georg Friedrich von Castell
+					mother=limpurg_0114	# Anna Luise Schenk von Limpurg
 					1650.02.17={birth=yes}  # Rüdenhausen
 					1674.09.10={death=yes}  # Frankenthal
 				}
@@ -747,8 +702,8 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 					female=yes
 					dynasty=1002026
 					religion=catholic culture=german
-					father=castell_0070	# Georg Friedrich
-					mother=limpurg_0114	# Anna Luise Schenkin zu Limpurg in Speckfeld
+					father=castell_0070	# Georg Friedrich von Castell
+					mother=limpurg_0114	# Anna Luise Schenk von Limpurg
 					1652.05.24={birth=yes}  # Rüdenhausen
 					1726.02.14={death=yes}  # Würzburg
 				}
@@ -756,189 +711,11 @@ castell_0001={ #// Wolfgang I Graf und Herr zu Castell, *12.3.1482, +Castell 5.7
 				name="Heinrich Albrecht"
 				dynasty=1002026
 				religion=catholic culture=german
-				father=castell_0069	# Gottfried
-				mother=limpurg_0169	# Anna Schenkin zu Limpurg in Obersontheim
+				father=castell_0069	# Gottfried von Castell
+				mother=limpurg_0169	# Anna Schenk von Limpurg
 				1603.08.22={birth=yes}  # Rüdenhausen
 				1633.07.24={death=yes}  # Obersontheim
 			}
-
-#######
-lowborn_3482={ # Css        Sophie Christiane         Holstein-Holsteinborg                    (1740-1772)     0
-	name="Sophie Christiane Holstein-Holsteinborg"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1740.11.23={birth=yes}
-	1772.03.16={death=yes}  # Hamburg
-}
-lowborn_3517={ # Gfn        Sylvine                   Vetter von Lilienberg                    (1810-1872)     2
-	name="Sylvine Vetter von Lilienberg"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1810.03.04={birth=yes}  # Lilienberg
-	1872.07.10={death=yes}  # Wiesbaden
-}
-lowborn_3555={ # Gf         Frederik Willem           van Rechteren heer tot Noorddeurningen   (1701-1729)     -
-	name="Frederik Willem van Rechteren heer tot Noorddeurningen"
-	#dynasty=0
-	religion=catholic culture=dutch
-	1701.01.14={birth=yes}  # Almelo
-	1720.01.30={add_spouse=castell_0075}	# Dorothea Charlotte
-	1729.07.14={death=yes}
-}
-lowborn_3549={ # Gf         Adolf Hendrik             van Rechtern                             (1656-1731)     -
-	name="Adolf Hendrik van Rechtern"
-	#dynasty=0
-	religion=catholic culture=dutch
-	1656.03.10={birth=yes}
-	1695.02.08={add_spouse=castell_0073}	# Sophia Juliana
-	1731.03.15={death=yes}
-}
-lowborn_3432={ # Gf         Sigismund                 von Hardegg                              (1540-1599)     -
-	name="Sigismund von Hardegg"
-	#dynasty=0
-	religion=catholic culture=german
-	1540.01.01={birth=yes}  # EST.
-	1565.01.01={add_spouse=castell_0004}	# Eva
-	1599.01.01={death=yes}
-}
-lowborn_3438={ # Gfn        Elisabeth                 von Helfenstein-Wiesensteig              (1527-1584)     0
-	name="Elisabeth von Helfenstein-Wiesensteig"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1527.11.21={birth=yes}  # Speyer
-	1584.11.02={death=yes}  # Remlingen
-}
-lowborn_3471={ # Gfn        Magdalene                 von Honstein-Klettenberg                 (1563-1601)     0
-	name="Magdalene von Honstein-Klettenberg"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1563.12.06={birth=yes}
-	1601.07.08={death=yes}
-}
-lowborn_3531={ # Gfn        Luise Henriette           von Pückler zu Wolkenberg und Stradow    (1719-1783)     1
-	name="Luise Henriette von Pückler zu Wolkenberg und Stradow"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1719.10.07={birth=yes}  # Berlin
-	1783.03.14={death=yes}  # Castell
-}
-lowborn_3552={ # Gfn        Katharina Hedwig          von Rantzau                              (1683-1743)     5
-	name="Katharina Hedwig von Rantzau"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1683.06.06={birth=yes}
-	1743.03.12={death=yes}  # Hamburg
-}
-lowborn_3287={ # Gfn        Martha                    von Wertheim-Breuberg                    (1485-1541)     7
-	name="Martha von Wertheim-Breuberg They had issue:"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1485.01.01={birth=yes}
-	1541.02.23={death=yes}
-}
-lowborn_3534={ # Gf         Albrecht Friedrich        von Wolfstein zu Sulzburg                (1644-1693)     -
-	name="Albrecht Friedrich von Wolfstein zu Sulzburg"
-	#dynasty=0
-	religion=catholic culture=german
-	1644.05.13={birth=yes}
-	1666.09.25={add_spouse=castell_0059}	# Sophie Luise
-	1693.11.07={death=yes}
-}
-lowborn_3479={ # Gfn        Dorothea Renate           von Zinzendorf und Pottendorf            (1669-1743)     8
-	name="Dorothea Renate von Zinzendorf und Pottendorf"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1669.04.13={birth=yes}  # Sopron
-	1743.11.22={death=yes}  # Castell
-}
-lowborn_3520={ # Gfn        Albertine                 von der Schulenburg                      (1778-1838)     0
-	name="Albertine von der Schulenburg"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1778.02.16={birth=yes}  # Magdeburg
-	1838.10.30={death=yes}  # Muskau
-}
-lowborn_3511={ # Gfn        Friederike                zu Ortenburg                             (1712-1758)     8
-	name="Friederike zu Ortenburg"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1712.02.01={birth=yes}
-	1758.05.23={death=yes}  # Castell
-}
-lowborn_3506={ # Gf         Frederik                  zu Rantzau                               (1729-1806)     -
-	name="Frederik zu Rantzau"
-	#dynasty=0
-	religion=catholic culture=german
-	1729.09.06={birth=yes}  # Ahrensburg
-	1761.12.23={add_spouse=castell_0025}	# Friederike
-	1806.06.15={death=yes}
-}
-lowborn_3559={ # Baron      Frederik Rudolph          van Rechteren heer van Mennickshaven     (1664-1742)     -
-	name="Frederik Rudolph van Rechteren heer van Mennickshaven"
-	#dynasty=0
-	religion=catholic culture=dutch
-	1664.01.01={birth=yes}
-	1706.12.11={add_spouse=castell_0082}	# Philippine Eleonore
-	1742.03.17={death=yes}  # Zwolle
-}
-lowborn_3538={ #            Maria Anna                Fatma                                    (1694-1755)     0
-	name="Maria Anna Fatma"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1694.01.01={birth=yes}  # EST.
-	1755.05.05={death=yes}  # Markdorf
-}
-lowborn_3524={ #            Bernhard Friedrich        Firnhaber                                (1733-1798)     -
-	name="Bernhard Friedrich Firnhaber"
-	#dynasty=0
-	religion=catholic culture=german
-	1733.01.01={birth=yes}  # EST.
-	1757.01.01={add_spouse=castell_0049}	# Sophie Charlotte
-	1798.01.01={death=yes}
-}
-lowborn_3478={ #            Elisabeth Dorothea        Schenkin zu Limpurg in Obersontheim      (1639-1691)     6
-	name="Elisabeth Dorothea Schenkin zu Limpurg in Obersontheim"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1639.10.10={birth=yes}
-	1691.12.27={death=yes}
-}
-lowborn_3518={ #            Lavinia                   de Bravura-Manini                        (1833-1891)     0
-	name="Lavinia de Bravura-Manini"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=russian
-	1833.01.27={birth=yes}  # Moscow
-	1891.06.19={death=yes}  # Wien
-}
-lowborn_3498={ #            Friedrich Christian       von Bülow                                (1725-1763)     -
-	name="Friedrich Christian von Bülow"
-	#dynasty=0
-	religion=catholic culture=german
-	1725.01.01={birth=yes}  # EST.
-	1750.02.22={add_spouse=castell_0023}	# Franziska
-	1763.10.01={death=yes}
-}
-lowborn_3558={ #            Karoline Friederike       von Voss                                 (1755-1827)     0
-	name="Karoline Friederike von Voss"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1755.01.01={birth=yes}
-	1827.01.01={death=yes}
-}
 #castell2
 
 #castell3
@@ -946,10 +723,10 @@ castell_0035={ #// FRIEDRICH LUDWIG (Castell 2 Nov 1791-Castell 21 Apr 1875); m.
 	name="Friedrich Ludwig"
 	dynasty_house=castell_castell
 	religion=catholic culture=german
-	father=castell_0034	# Albrecht Friedrich von Castell-Castell
-	mother=100002712	# Sophie von Löwenstein-Wertheim-Freudenberg
+	father=castell_0034	# Friedrich Karl von Castell-Remlingen
+	mother=100002712	# Sophie Charlotte von Löwenstein-Wertheim-Freudenberg
 	1791.11.02={birth=yes}
-	1816.06.25={add_spouse=100001707}	# Emilie Friederike Hohenlohe-Langenburg
+	1816.06.25={add_spouse=100001707}	# Emilie zu Hohenlohe-Langenburg
 	1875.04.21={death=yes}
 }
 	100000523={ #// 1a) Ida Amelie Luise (Castell 31 Mar 1817-Wildenfels 2 Sep 1882); m.Castell 5 Oct 1843 Friedrich Magnus Gf zu Solms-Wildenfels (Wildenfels 26 Jan 1811-Dresden 24 Mar 1883) $$
@@ -958,7 +735,7 @@ castell_0035={ #// FRIEDRICH LUDWIG (Castell 2 Nov 1791-Castell 21 Apr 1875); m.
 		dynasty_house=castell_castell
 		religion=catholic culture=german
 		father=castell_0035	# Friedrich Ludwig von Castell-Castell
-		mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
+		mother=100001707	# Emilie zu Hohenlohe-Langenburg
 		1817.03.31={birth=yes}
 		1882.09.02={death=yes}
 	}
@@ -968,7 +745,7 @@ castell_0035={ #// FRIEDRICH LUDWIG (Castell 2 Nov 1791-Castell 21 Apr 1875); m.
 		dynasty_house=castell_castell
 		religion=catholic culture=german
 		father=castell_0035	# Friedrich Ludwig von Castell-Castell
-		mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
+		mother=100001707	# Emilie zu Hohenlohe-Langenburg
 		1818.06.18={birth=yes}
 		1900.07.11={death=yes}
 	}
@@ -978,7 +755,7 @@ castell_0035={ #// FRIEDRICH LUDWIG (Castell 2 Nov 1791-Castell 21 Apr 1875); m.
 		dynasty_house=castell_castell
 		religion=catholic culture=german
 		father=castell_0035	# Friedrich Ludwig von Castell-Castell
-		mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
+		mother=100001707	# Emilie zu Hohenlohe-Langenburg
 		1819.12.02={birth=yes}
 		1900.06.08={death=yes}
 	}
@@ -988,7 +765,7 @@ castell_0035={ #// FRIEDRICH LUDWIG (Castell 2 Nov 1791-Castell 21 Apr 1875); m.
 		dynasty_house=castell_castell
 		religion=catholic culture=german
 		father=castell_0035	# Friedrich Ludwig von Castell-Castell
-		mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
+		mother=100001707	# Emilie zu Hohenlohe-Langenburg
 		1821.02.06={birth=yes}
 		1860.01.20={death=yes}
 	}
@@ -998,7 +775,7 @@ castell_0035={ #// FRIEDRICH LUDWIG (Castell 2 Nov 1791-Castell 21 Apr 1875); m.
 		dynasty_house=castell_castell
 		religion=catholic culture=german
 		father=castell_0035	# Friedrich Ludwig von Castell-Castell
-		mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
+		mother=100001707	# Emilie zu Hohenlohe-Langenburg
 		1822.02.08={birth=yes}
 		1863.03.29={death=yes}
 	}
@@ -1007,7 +784,7 @@ castell_0035={ #// FRIEDRICH LUDWIG (Castell 2 Nov 1791-Castell 21 Apr 1875); m.
 		dynasty_house=castell_castell
 		religion=catholic culture=german
 		father=castell_0035	# Friedrich Ludwig von Castell-Castell
-		mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
+		mother=100001707	# Emilie zu Hohenlohe-Langenburg
 		1826.05.23={birth=yes}
 		1856.09.23={add_spouse=100006182}	# Emma von Solms-Rödelheim u.Assenheim
 		1886.01.02={death=yes}
@@ -1640,7 +1417,7 @@ castell_0035={ #// FRIEDRICH LUDWIG (Castell 2 Nov 1791-Castell 21 Apr 1875); m.
 		dynasty_house=castell_castell
 		religion=catholic culture=german
 		father=castell_0035	# Friedrich Ludwig von Castell-Castell
-		mother=100001707	# Emilie Friederike Hohenlohe-Langenburg
+		mother=100001707	# Emilie zu Hohenlohe-Langenburg
 		1829.01.17={birth=yes}
 		1869.09.11={add_spouse=100091723}	# GFN Elisabeth von Brühl
 		1910.07.07={death=yes}
@@ -1851,12 +1628,14 @@ castell_0044={ #// CHRISTIAN FRIEDRICH (Remlingen 21 Apr 1772-Rüdenhausen 28 Ma
 	name="Christian Friedrich"
 	dynasty_house=castell_ruedenh
 	religion=catholic culture=german
+	father=castell_0033	# Christian Friedrich von Castell-Remlingen
+	mother=castell_0024	# Katharina Hedwig von Castell-Remlingen
 	1772.04.21={birth=yes}  # Remlingen
 	1797.04.21={add_spouse=lowborn_3520}	# GFN Albertine Eleonore von der Schulenburg
 	1803.01.01={remove_spouse=lowborn_3520}
 	1804.06.25={add_spouse=100010321}	# Luise Karoline zu Ortenburg
 	1811.01.01={remove_spouse=100010321}
-	1812.08.02={add_spouse=100002712}	# Sophie von Löwenstein-Wertheim-Freudenberg
+	1812.08.02={add_spouse=100002712}	# Sophie Charlotte von Löwenstein-Wertheim-Freudenberg
 	1850.03.28={death=yes}  # Rüdenhausen
 }
 	100000601={ #// 1a) Ludwig Franz Adolf Friedrich Carl Erbgf zu Castell-Rüdenhausen (Nürnberg 15 Mar 1805-Rüdenhausen 11 Jun 1849); m.1st Bayreuth 21 Sep 1827 Klara Henriette Luise Petrowna Gfn zu Rantzau (29 May 1807-Kirchschönbach 30 Jun 1838); m.2nd Rossbach 8 Jun 1840 Marie Frn von Thüngen (Thüngen 18 Jul 1818-Rüdenhausen 24 Oct 1888)

@@ -399,24 +399,26 @@
 
 
 ## SÁNDOR 1011769
-100035967={ #// Graf Moric Sándor de Szlavnicza (*23.5.1805, +Budapest 23.2.1878); m.8.2.1835 Leontine Adelheid Maria Pauline von Metternich (*Wien 18.6.1811, +Wien 16.11.1861) $$
-	name=Moric
-	dynasty=1011769
-	religion=catholic culture=german
-	1805.05.23={birth=yes}
-	1835.02.08={add_spouse=100024417}	# Leontine von Metternich-Winneburg
-	1878.02.23={death=yes}
-}
-	100035966={ #// A1. Pauline Clementine Marie Walburga Sándor de Szlavnicza, *Wien 26.2.1836, +Wien 28.9.1921; m.Wien 13.6.1856 Fst Richard Clemens von Metternich-Winneburg (*7.1.1829 +1.3.1895) $$
-		name=Pauline
-		female=yes
-		dynasty=1011769
-		religion=catholic culture=german
-		father=100035967	# Moric Sándor
-		mother=100024417	# Leontine von Metternich-Winneburg
-		1836.03.26={birth=yes}  # Wien
-		1921.09.28={death=yes}  # Wien
-	}
+# Sándor Antal (1734-?); m.Viczay Eszter (1734-1794)
+	# Sándor Vince (1766-1823); m.Szapáry Mária (1757-1819)
+		100035967={ #// Graf Moric Sándor de Szlavnicza (*23.5.1805, +Budapest 23.2.1878); m.8.2.1835 Leontine Adelheid Maria Pauline von Metternich (*Wien 18.6.1811, +Wien 16.11.1861) $$
+			name=Moric
+			dynasty=1011769
+			religion=catholic culture=german
+			1805.05.23={birth=yes}
+			1835.02.08={add_spouse=100024417}	# Leontine von Metternich-Winneburg
+			1878.02.23={death=yes}
+		}
+			100035966={ #// A1. Pauline Clementine Marie Walburga Sándor de Szlavnicza, *Wien 26.2.1836, +Wien 28.9.1921; m.Wien 13.6.1856 Fst Richard Clemens von Metternich-Winneburg (*7.1.1829 +1.3.1895) $$
+				name=Pauline
+				female=yes
+				dynasty=1011769
+				religion=catholic culture=german
+				father=100035967	# Moric Sándor
+				mother=100024417	# Leontine von Metternich-Winneburg
+				1836.03.26={birth=yes}  # Wien
+				1921.09.28={death=yes}  # Wien
+			}
 ## SÁNDOR 1011769
 
 
@@ -815,6 +817,7 @@
 # BELLEGARDE
 
 # SPAUR
+# Joseph 1791; 1m: Therese Frn Taxis (+10.6.1864); 2m: Leopoldine von Blasckovics
 100035926={ #// Johann Nepomuck von Spaur u.Flavon (*2.2.1844, +4.1.1916); m.1869 Helene-Josephine Batthyány de Német-Ujvar (*1850, +1880) %%
 	name="Johann Nepomuck"
 	dynasty=1002289
@@ -834,7 +837,7 @@
 		1949.08.05={death=yes}
 	}
 # SPAUR
-
+ 
 # GLEICHEN 1002288
 100035925={ #// Ernst von Arnim (*1390, +15.6.1426); m.20.12.1421 Margarethe von Henneberg (*1386, +1438) %%
 	name=Ernst
@@ -995,39 +998,40 @@
 				1976.01.30={death=yes}	# Berlin
 			}
 
-100035912={ #// Leopold Wilhelm von der Schulenburg (*1772, +1838); m.1805 Juliane Charlotte von Kirchbach (*1785, +1873) %%
+100035912={ #// Leopold Wilhelm von der Schulenburg (*Gut Kremzow, Landkreis Pyritz 28.8.1772, +Gut Priemern bei Seehausen 18.8.1838); m.1805 Juliane Charlotte von Kirchbach (*1785, +1873) %%
 	name="Leopold Wilhelm"
 	dynasty=1002287
 	religion=catholic culture=german
-	1772.01.01={birth=yes}
+	1772.08.28={birth=yes}	# Gut Kremzow, Landkreis Pyritz
 	1805.01.01={add_spouse=100092788}	# Juliane Charlotte von Kirchbach
-	1838.01.01={death=yes}
+	1838.08.18={death=yes}	# Gut Priemern bei Seehausen
 }
-	100035911={ #// A1. Otto (*1806, +1883); m.1840 Clara Auguste von Lattorf (*1819, +1890) %%
-		name=Otto
+	# Otto Ludwig WILHELM Ferdinand von der Schulenburg (1806–1883), Mitglied des Preußischen Herrenhauses ⚭ (I) 1833 Bertha Elisabeth von Jagow (1813–1835); ⚭ (II) 1839 Klara von Lattorff (1819–1890), Tochter des Rittergutsbesitzers Carl von Lattorf
+	100035911={ #// A1. Wilhelm (*Berlin 15.6.1806, +Beetzendorf 5.5.1883); m.1840 Clara Auguste von Lattorf (*1819, +1890) %%
+		name=Wilhelm
 		dynasty=1002287
 		religion=catholic culture=german
 		father=100035912	# Leopold Wilhelm von der Schulenburg
 		mother=100092788	# Juliane Charlotte von Kirchbach
-		1806.01.01={birth=yes}
+		1806.06.15={birth=yes}	#  Berlin
 		1840.01.01={add_spouse=100092237}	# Clara Auguste von Lattorf
-		1883.01.01={death=yes}
+		1883.05.05={death=yes}	#  Beetzendorf
 	}
-		100035916={ #// B1. Leopold (*1841, +1913); m.1895 Elise von Wuthenau (*1856, +1941) %%
-			name=Leopold
+		100035916={ #// B1. Werner (*Salzwedel 2.8.1841, +Salzwedel 28.9.1913); m.1895 Elise von Wuthenau (*1856, +1941) %%
+			name=Werner
 			dynasty=1002287
 			religion=catholic culture=german
-			father=100035911	# Otto von der Schulenburg
+			father=100035911	# Wilhelm von der Schulenburg
 			mother=100092237	# Clara Auguste von Lattorf
-			1841.01.01={birth=yes}
+			1841.08.02={birth=yes}	# Salzwedel
 			1895.01.01={add_spouse=100092791}	# Elise von Wuthenau
-			1913.01.01={death=yes}
+			1913.09.28={death=yes}	# Salzwedel
 		}
 			100035915={ #// C1. Joachim (*1896, +1977); m.1935 Christa von Bandemer (*1911, +1947) %%
 				name=Joachim
 				dynasty=1002287
 				religion=catholic culture=german
-				father=100035916	# Leopold von der Schulenburg
+				father=100035916	# Werner von der Schulenburg
 				mother=100092791	# Elise von Wuthenau
 				1896.01.01={birth=yes}
 				1935.01.01={add_spouse=100092790}	# Christa von Bandemer
@@ -1052,21 +1056,21 @@
 						1966.03.24={birth=yes}
 						1995.08.11={add_spouse=100006588}	# Eleonore Melanie von Thurn und Taxis
 					}
-		100035910={ #// B2. Karl (*1844, +1929); m.1880 Gfn Mathilde zu Lynar (*1855, +1894) %%
-			name=Karl
+		100035910={ #// B2. Bernhard (*Salzwedel 15.2.1844, +Salzwedel 12.2.1929); m.1880 Gfn Mathilde zu Lynar (*1855, +1894) %%
+			name=Bernhard
 			dynasty=1002287
 			religion=catholic culture=german
-			father=100035911	# Otto von der Schulenburg
+			father=100035911	# Wilhelm von der Schulenburg
 			mother=100092237	# Clara Auguste von Lattorf
-			1844.01.01={birth=yes}
+			1844.02.15={birth=yes}	# Salzwedel
 			1880.01.01={add_spouse=100083817}	# GFN Mathilde zu Lynar
-			1929.01.01={death=yes}
+			1929.02.12={death=yes}	# Salzwedel
 		}
 			100035909={ #// C1. Friedrich Karl (*Berlin 14.7.1881, +12.8.1918); m.22.9.1912 Wanda von Schoenaich-Carolath (*Carolath 13.2.1887, +Hamburg 1.2.1968) %%
 				name="Friedrich Karl"
 				dynasty=1002287
 				religion=catholic culture=german
-				father=100035910	# Karl von der Schulenburg
+				father=100035910	# Bernhard von der Schulenburg
 				mother=100083817	# GFN Mathilde zu Lynar
 				1881.07.14={birth=yes}  # Berlin
 				1912.09.22={add_spouse=100005080}	# Wanda von Schoenaich-Carolath
@@ -1077,11 +1081,28 @@
 			female=yes
 			dynasty=1002287
 			religion=catholic culture=german
-			father=100035911	# Otto von der Schulenburg
+			father=100035911	# Wilhelm von der Schulenburg
 			mother=100092237	# Clara Auguste von Lattorf
 			1849.12.16={birth=yes}  # Propstei Salzwedel
 			1936.05.08={death=yes}  # Kloster Drübeck
 		}
+	# Helene Luise Juliane Thomasine Caroline Elisabeth (1808–1816)
+	# Julius (1809–1893), preußischer Generalleutnant
+	# Pauline (1810–1882) ⚭ 1829 Ferdinand von Alvensleben (1803–1889), Gutsherr, Mitglied des Preußischen Herrenhauses
+	# Johanna (1811–1831)
+	# Friedrich Wilhelm Werner (*/† 1813)
+	# Carl Ernst Gustav (1814–??), Zwillinge
+	# Bernhard (1814–1815), Zwillinge
+	# Helene (1817–1870) ⚭ 1834 Detlev von Bülow (1793–1882), Gutsbesitzer, Forstbeamter
+	# Marie Ernestine (1820–??) ⚭ Henry Howard, Diplomat in der englischen Gesandtschaft in Berlin
+	# Paul Otto Werner (1823–??)
+	# Florens Bernhard (1826–1900), Mitglied des Preußischen Abgeordnetenhauses
+
+# Hans Otto KARL von der Schulenburg 	13 November 1800BraunschweigVerstorben:	20 Oktober 1866 (65)Wendelstein; m.Adelheid von Münchhausen
+	# Hermann Gf von der Schulenburg, +27 Juli 1917 Berlin; m. Helene von Kotze (*08 Juni 1839 Weitenhagen, +5 Januar 1914 Berlin)
+		# ELI
+		# Albrecht Graf von der Schulenburg (9 März 1871 Erfurt, +9 Februar 1949 Noer Kr. Eckernförde)
+		# Guenther von der Schulenburg
 # SCHULENBURG 1002287
 
 # HOENSBROECH 1008340
@@ -2608,12 +2629,13 @@
 		1811.01.01={birth=yes}
 		1869.01.01={death=yes}
 	}
-		100035545={ #// B1. Max Werner (*1837, +1883) %%
+		100035545={ #// B1. Max Werner (*1837, +1883); m.7.8.1860 Franziska Droste zu Vischering (*Herten 14.4.1839, +Gracht 27.5.1883) %%
 			name="Max Werner"
 			dynasty=1002270
 			religion=catholic culture=czech
 			father=100035551	# Levin Wolff-Metternich zur Gracht
 			1837.01.01={birth=yes}
+			1860.08.07={add_spouse=droste_0013}	# Franziska Droste zu Vischering
 			1883.01.01={death=yes}
 		}
 			100035546={ #// C1. Elisabeth (*19.11.1874, +20.3.1909); m.7.1.1895 Karl Kinsky von Wchinitz u.Tettau (*29.11.1858, +11.12.1919) %%
@@ -2622,6 +2644,7 @@
 				dynasty=1002270
 				religion=catholic culture=czech
 				father=100035545	# Max Werner Wolff-Metternich zur Gracht
+				mother=droste_0013	# Franziska Droste zu Vischering
 				1874.11.19={birth=yes}
 				1909.03.20={death=yes}
 			}
@@ -5278,7 +5301,7 @@
 						name=Maria
 						female=yes
 						dynasty=1012009
-						religion=catholic culture=hungarian
+						religion=catholic culture=polish
 						father=100035659	# Viktor Sułkowski
 						mother=100103018	# Paula de Szilassy
 						1918.01.14={birth=yes}  # Budapest
@@ -5368,7 +5391,7 @@
 					100035671={ #// 4e) Viktor (Budapest 6 Jul 1921-k.i.a.Bialystok 6 Jul 1944)
 						name=Viktor
 						dynasty=1012009
-						religion=catholic culture=hungarian
+						religion=catholic culture=polish
 						father=100035659	# Viktor Sułkowski
 						mother=100103018	# Paula de Szilassy
 						1921.07.06={birth=yes}  # Budapest
@@ -5842,85 +5865,6 @@
 	}
 # SCHERZ
 
-# RUBIDO
-100035119={ #// Antun Rubido de Zagorja (*Madrid 15.5.1817, +21.4.1863); m.1840 Szidónia Erdődy de Monyorókerék et Monoszló (*18.9.1819, +1882) %%
-	name=Antun
-	dynasty=1011821
-	religion=catholic culture=croatian
-	1817.05.15={birth=yes}	# Madrid
-	1840.01.01={add_spouse=100116983}	# Szidónia Erdődy de Monyorókerék et Monoszló
-	1863.04.21={death=yes}
-}
-	100035118={ #// A1. Radoslav (*Razvor, Opcina Kumrovec, Krapina-Zagorje County, Croatia 1847, +Graz 24.1.1910); m.1874 Stefánia (+Opatija 21.1.1901) %%
-		name=Radoslav
-		dynasty=1011708
-		religion=catholic culture=croatian
-		father=100035119	# Antun Rubido de Zagorja
-		mother=100116983	# Szidónia Erdődy de Monyorókerék et Monoszló
-		1847.01.01={birth=yes}	# Razvor, Opcina Kumrovec, Krapina-Zagorje County, Croatia
-		1874.01.01={add_spouse=100118791}	# Stefánia
-		1910.01.24={death=yes}	# Graz
-	}
-		100036832={ #// B1. Iván (*17.6.1874, +16.5.1964); m.1st 20.11.1916 Gisela Apponyi de Nagy-Apponyi (*Bad Aussee 15.7.1886, +Budapest 15.10.1918); m.2nd 5.5.1920 Erzsébet Zichy de Zich et Vásonkeő (*27.7.1893, +1.3.1972) %%
-			name=Iván
-			dynasty=1011708
-			religion=catholic culture=hungarian
-			father=100035118	# Radoslav Rubido-Zichy de Zagorja et Zich
-			mother=100118791	# Stefánia
-			1874.06.17={birth=yes}
-			1916.11.20={add_spouse=100117266}	# Gisela Apponyi de Nagy-Apponyi
-			1920.05.05={add_spouse=100117506}	# Erzsébet Zichy de Zich et Vásonkeő
-			1964.05.16={death=yes}
-		}
-			100036831={ #// C1. Paula (*2.9.1917, +30.4.1983); m.12.2.1940 Paul Maria Erdődy de Monyorókerék et Monoszló (*2.2.1904, +25.2.1994) %%
-				name=Paula
-				female=yes
-				dynasty=1011708
-				religion=catholic culture=hungarian
-				father=100036832	# Iván Rubido-Zichy de Zagorja et Zich
-				mother=100117266	# Gisela Apponyi de Nagy-Apponyi
-				1917.09.02={birth=yes}
-				1983.04.30={death=yes}
-			}
-			100035116={ #// C2. Andrea (*1.2.1921); m.30.5.1948 Károly Zichy de Zich et Vásonkeő (*28.3.1919) %%
-				name=Andrea
-				female=yes
-				dynasty=1011708
-				religion=catholic culture=hungarian
-				father=100036832	# Iván Rubido-Zichy de Zagorja et Zich
-				mother=100117506	# Erzsébet Zichy de Zich et Vásonkeő
-				1921.02.01={birth=yes}
-				2000.01.01={death=yes}  # EST.
-			}
-			100036830={ #// C3. Hanna (*26.1.1922, +19.4.2003); m.10.6.1942 Gábor Széchenyi de Sárvár-Felsõvidek (*12.3.1914, +25.3.1986) %%
-				name=Hanna
-				female=yes
-				dynasty=1011708
-				religion=catholic culture=hungarian
-				father=100036832	# Iván Rubido-Zichy de Zagorja et Zich
-				mother=100117506	# Erzsébet Zichy de Zich et Vásonkeő
-				1922.01.26={birth=yes}
-				2003.04.19={death=yes}
-			}
-		100035115={ #// B2. Emil (*1878, +1956) %%
-			name=Emil
-			dynasty=1011708
-			religion=catholic culture=hungarian
-			father=100035118	# Radoslav Rubido-Zichy de Zagorja et Zich
-			mother=100118791	# Stefánia
-			1878.01.01={birth=yes}
-			1956.01.01={death=yes}
-		}
-			100035117={ #// C1. Ivan (*9.9.1908, +Buenos Aires 19.8.1995); m.16.3.1971 Senta-Maria Edith von Hohenlohe-Waldenburg-Schillingsfürst (*Budapest 15.4.1926, +Buenos Aires 13.8.2009) %%
-				name=Ivan
-				dynasty=1011708
-				religion=catholic culture=hungarian
-				father=100035115	# Emil Rubido-Zichy de Zagorja et Zich
-				1908.09.09={birth=yes}
-				1971.03.16={add_spouse=100001929}	# Senta-Maria Edith von Hohenlohe-Waldenburg-Schillingsfürst
-				1995.08.19={death=yes}  # Buenos Aires
-			}
-# RUBIDO
 	
 # KETTELER
 100036944={ #// Wilderich von Ketteler (*14.6.1809, +29.7.1873); m.2.6.1838 Pauline von Stolberg-Stolberg (*18.9.1810, +19.1.1889) %%
@@ -6098,6 +6042,7 @@
 	}
 # FRANCKENSTEIN
 
+## STAR BUSMANN
 100036870={ #// Eduard Star Busmann (*1900) %%
 	name=Eduard
 	dynasty=1000006
@@ -6120,6 +6065,7 @@
 		father=100036870	# Eduard Star Busmann
 		1934.12.06={birth=yes}
 	}
+## STAR BUSMANN
 
 # NIEROTH
 100036592={ #// Theodor Nieroth (*3.8.1871, +26.3.1952); m.20.10.1897 Daria Cantacuzino (*22.4.1878, +17.3.1944) %%
@@ -6823,39 +6769,6 @@
 		}
 
 # SEDLNITZKY
-100036431={ #               Maria Theresia            Sedlnitzky z Choltitz                    (1810-1834)     1 [HARACH]
-	name="Maria Theresia Sedlnitzky z Choltitz"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1810.08.26={birth=yes}  # Opava
-	1834.09.23={death=yes}  # Dresden
-}
-100089005={ #    Gfn        Emanuela                  Sedlnitzky                               (1740-1790)     3 [TOERING]
-	name="Emanuela Sedlnitzky"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1740.12.18={birth=yes}
-	1790.07.14={death=yes}
-}
-100092837={ #    Gfn        Elisabeth                 von Perponcher-Sedlnitzky                (1858-1894)     2 [BLUCHER]
-	name="Elisabeth von Perponcher-Sedlnitzky"
-	female=yes
-	#dynasty=0
-	religion=lutheran culture=german
-	1858.09.04={birth=yes}
-	1894.03.31={death=yes}
-}
-100103520={ #    Frhr       Ernst                     Sedlnitzky-Odrowaz von Choltitz          (1841-1904)     - [SERENYI]
-	name="Ernst Sedlnitzky-Odrowaz von Choltitz"
-	#dynasty=0
-	religion=catholic culture=german
-	1841.11.23={birth=yes}  # Brünn
-	1871.07.10={add_spouse=100116832}	# Ilka Serényi de Kisserény
-	1904.01.30={death=yes}  # Görz
-}
-
 100035090={ #// Franz Seraph Sedlnitzky-Odrowaz v.Choltitz (*Opava 15.4.1817, +Salzburg 29.7.1896); m.12.9.1850 Adolfina von Podstatzky-Lichtenstein (*Krasonice/Stronsdorf 23.9.1829, +Salzburg 5.8.1915) %%
 	name="Franz Seraph"
 	dynasty=1013008
@@ -6982,14 +6895,14 @@
 		1920.07.07={birth=yes}  # Frankfurt
 		1994.12.13={death=yes}  # Medingen
 	}
-	100036912={ #// A2. Thilo (*4.10.1926, +29.6.1966); m.18.7.1959 Alexandra Anna Hohenlohe-Langenburg (*19.7.1935) %%
+	100036912={ #// A2. Thilo (*4.10.1926, +29.6.1966); m.18.7.1959 Alexandra Anna zu Hohenlohe-Langenburg (*19.7.1935) %%
 		name=Thilo
 		dynasty=1002210
 		religion=catholic culture=german
 		father=100036894	# Thilo von Trotha
 		mother=100008349	# Ida Auguste zu Ysenburg und Büdingen
 		1926.10.04={birth=yes}
-		1959.07.18={add_spouse=100001685}	# Alexandra Anna Hohenlohe-Langenburg
+		1959.07.18={add_spouse=100001685}	# Alexandra Anna zu Hohenlohe-Langenburg
 		1966.06.29={death=yes}
 	}
 # TROTHA
@@ -7236,6 +7149,7 @@
 			}
 # RENESSE
 
+## du PARC LOCMARIA 1007056
 100036736={ #// Gatien du Parc Locmaria (*1899, +1974) %%
 	name=Gatien
 	dynasty=1007056
@@ -7275,7 +7189,9 @@
 		1946.08.19={birth=yes}
 		1971.04.07={add_spouse=100066992}	# Marie d’Oultremont
 	}
+## du PARC LOCMARIA 1007056
 
+## PYCKE de PETEGHEM
 100035092={ #// Gaston Auguste Pycke de Peteghem (*Saint Joos ten Noode 3.1.1859, +Nouvelles 24.8.1933); m.5.5.1886 Isabelle d’Oultremont (*Gondregnies 15.9.1862, +Brussels 22.4.1942) %%
 	name="Gaston Auguste"
 	dynasty=1007057
@@ -7304,293 +7220,8 @@
 		1889.07.10={birth=yes}  # Ghent
 		1937.09.07={death=yes}  # Ostende
 	}
+## PYCKE de PETEGHEM
 
-# LODRON
-100035128={ #// Paride zu Lodron-Laterano u.Castelromano (*1772, +1842); m.1839 Gfn Ferdinandine von Bissingen u.Nippenburg (*1811, +1842) %%
-	name=Paride
-	dynasty=1002214
-	religion=catholic culture=german
-	1772.01.01={birth=yes}
-	1839.01.01={add_spouse=100103724}	# GFN Ferdinandine von Bissingen u.Nippenburg
-	1842.01.01={death=yes}
-}
-	100035127={ #// A1. Karl Gaetan (*1840, +1918); m.1868 Antonia zu Lodron-Laterano u.Castelromano (*Wien 20.12.1839, +Radegund 26.5.1893) %%
-		name="Karl Gaetan"
-		dynasty=1002214
-		religion=catholic culture=german
-		father=100035128	# Paride zu Lodron-Laterano u.Castelromano
-		mother=100103724	# GFN Ferdinandine von Bissingen u.Nippenburg
-		1840.01.01={birth=yes}
-		1868.01.01={add_spouse=100035133}	# Antonia zu Lodron-Laterano u.Castelromano
-		1918.01.01={death=yes}
-	}
-		100035126={ #// B1. Paride (*Trient 20.1.1869, +Gmünd 20.6.1925); m.1903 Gfn Maria Welser von Welsersheimb (*1873, +1941) %%
-			name=Paride
-			dynasty=1002214
-			religion=catholic culture=german
-			father=100035127	# Karl Gaetan zu Lodron-Laterano u.Castelromano
-			mother=100035133	# Antonia zu Lodron-Laterano u.Castelromano
-			1869.01.20={birth=yes}	# Trient
-			1903.01.01={add_spouse=100101444}	# GFN Maria Welser von Welsersheimb
-			1925.06.20={death=yes}	# Gmünd
-		}
-			100035125={ #// C1. Maria Antoinette (*Nogaredo 19.3.1904, +Rovereto 16.10.1933); m.1930 Alberich zu Lodron-Laterano u.Castelromano (*Gries, Bozen 11.11.1895, +Meano 22.9.1979) %%
-				name="Maria Antoinette"
-				female=yes
-				dynasty=1002214
-				religion=catholic culture=german
-				father=100035126	# Paride zu Lodron-Laterano u.Castelromano
-				mother=100101444	# GFN Maria Welser von Welsersheimb
-				1904.03.19={birth=yes}	# Nogaredo
-				1933.10.16={death=yes}	# Rovereto
-			}
-		100035157={ #// B2. Maria (*Trient 28.10.1870, +Klagenfurt 14.8.1959); m.1897 Karl zu Lodron-Laterano u.Castelromano (*Graz 15.2.1866, +Lodrone 1.3.1938) %%
-			name=Maria
-			female=yes
-			dynasty=1002214
-			religion=catholic culture=german
-			father=100035127	# Karl Gaetan zu Lodron-Laterano u.Castelromano
-			mother=100035133	# Antonia zu Lodron-Laterano u.Castelromano
-			1870.10.28={birth=yes}	# Trient
-			1959.08.14={death=yes}	# Klagenfurt
-		}
-100035176={ #// Joseph zu Lodron-Laterano u.Castelromano (*1711, +1791); m.1741 Walburga Fugger (*1722, +1795) %%
-	name=Joseph
-	dynasty=1002214
-	religion=catholic culture=german
-	1711.01.01={birth=yes}
-	1741.01.01={add_spouse=100011019}	# Walburga Fugger
-	1791.01.01={death=yes}
-}
-	100035132={ #// A1. Franz Joseph (*25.9.1745, +1791) %%
-		name="Franz Joseph"
-		dynasty=1002214
-		religion=catholic culture=german
-		father=100035176	# Joseph zu Lodron-Laterano u.Castelromano
-		mother=100011019	# Walburga Fugger
-		1745.09.25={birth=yes}
-		1791.01.01={death=yes}
-	}
-		100035131={ #// B1. Aloys (*1780, +1827); m.1806 Gfn Maria Anna von Plaz (*1790, +1881) %%
-			name=Aloys
-			dynasty=1002214
-			religion=catholic culture=german
-			father=100035132	# Franz Joseph zu Lodron-Laterano u.Castelromano
-			1780.01.01={birth=yes}
-			1806.01.01={add_spouse=100103091}	# GFN Maria Anna von Plaz
-			1827.01.01={death=yes}
-		}
-			100035130={ #// C1. Karl (*1807, +1860); m.1835 Theresia von Gumppenberg (*1813, +1849) %%
-				name=Karl
-				dynasty=1002214
-				religion=catholic culture=german
-				father=100035131	# Aloys zu Lodron-Laterano u.Castelromano
-				mother=100103091	# GFN Maria Anna von Plaz
-				1807.01.01={birth=yes}
-				1835.01.01={add_spouse=100035154}	# Theresia von Gumppenberg
-				1860.01.01={death=yes}
-			}
-				100035129={ #// D1. Maria Thekla (*1836, +1896); m.27.11.1858 Friedrich von Attems (*Graz 8.8.1818, +Graz 21.9.1901) %%
-					name="Maria Thekla"
-					female=yes
-					dynasty=1002214
-					religion=catholic culture=german
-					father=100035130	# Karl zu Lodron-Laterano u.Castelromano
-					mother=100035154	# Theresia von Gumppenberg
-					1836.01.01={birth=yes}
-					1896.01.01={death=yes}
-				}
-				100035144={ #// D2. Albert (Himmelberg 8 Feb 1847-Graz 14 Feb 1914); m.Temes-Monostor 22.2.1887 Angelika Khuen von Belasi (*Nustar, Slawonien 1855.05.06, +Graz 1918.09.03) $$
-					name=Albert
-					dynasty=1002214
-					religion=catholic culture=german
-					father=100035130	# Karl zu Lodron-Laterano u.Castelromano
-					mother=100035154	# Theresia von Gumppenberg
-					1847.02.08={birth=yes}	# Himmelberg
-					1887.02.22={add_spouse=khuen_0054}	# Angelika Khuen von Belasi
-					1914.02.14={death=yes}	# Graz
-				}
-					100035170={ #// E1. Margarita (*Himmelberg 26.8.1889, +Salzburg 18.3.1949); m.27.2.1911 Edmund Maria von Clary u.Aldringen (*2.5.1885, +10.7.1953) %%
-						name=Margarita
-						female=yes
-						dynasty=1002214
-						religion=catholic culture=german
-						father=100035144	# Albert zu Lodron-Laterano u.Castelromano
-						mother=khuen_0054	# Angelika Khuen von Belasi
-						1889.08.26={birth=yes}	# Himmelberg
-						1949.03.18={death=yes}	# Salzburg
-					}
-					100035145={ #// E2. Alberich (*Gries, Bozen 11.11.1895, +Meano 22.9.1979); m.1930 Maria Antoinette zu Lodron-Laterano u.Castelromano (*Nogaredo 19.3.1904, +Rovereto 16.10.1933) %%
-						name=Alberich
-						dynasty=1002214
-						religion=catholic culture=german
-						father=100035144	# Albert zu Lodron-Laterano u.Castelromano
-						mother=khuen_0054	# Angelika Khuen von Belasi
-						1895.11.11={birth=yes}	# Gries, Bozen
-						1930.01.01={add_spouse=100035125}	# Maria Antoinette zu Lodron-Laterano u.Castelromano
-						1979.09.22={death=yes}	# Meano
-					}
-						100035137={ #// F1. Angelika (*Gmund 3.6.1923, +13.6.2014); m.5.5.1955 Christoph Matz von Spiegelfeld (*Schwaz 28.5.1924, +25.6.2014) %%
-							name=Angelika
-							female=yes
-							dynasty=1002214
-							religion=catholic culture=german
-							father=100035145	# Alberich zu Lodron-Laterano u.Castelromano
-							mother=100035125	# Maria Antoinette zu Lodron-Laterano u.Castelromano
-							1923.06.03={birth=yes}	# Gmund
-							2014.06.13={death=yes}
-						}
-						100035146={ #// F2. Nikolaus (*5.3.1931); m.1964 Claude de Chateauneuf-Randon du Tournel (*1936) %%
-							name=Nikolaus
-							dynasty=1002214
-							religion=catholic culture=german
-							father=100035145	# Alberich zu Lodron-Laterano u.Castelromano
-							mother=100035125	# Maria Antoinette zu Lodron-Laterano u.Castelromano
-							1931.03.05={birth=yes}
-							1964.01.01={add_spouse=100035152}	# Claude de Chateauneuf-Randon du Tournel
-							2008.01.01={death=yes}  # EST.
-						}
-							100035169={ #// G1. Alberich (*Klagenfurt 1.8.1961); m.1.8.1987 Désirée von Trauttmansdorff-Weinsberg (*Wien 4.3.1962) %%
-								name=Alberich
-								dynasty=1002214
-								religion=catholic culture=german
-								father=100035146	# Nikolaus zu Lodron-Laterano u.Castelromano
-								mother=100035152	# Claude de Chateauneuf-Randon du Tournel
-								1961.08.01={birth=yes}  # Klagenfurt
-								1987.08.01={add_spouse=100025446}	# Désirée von Trauttmansdorff-Weinsberg
-							}
-							100035140={ #// G2. Marguerite (*1965) %%
-								name=Marguerite
-								female=yes
-								dynasty=1002214
-								religion=catholic culture=german
-								father=100035146	# Nikolaus zu Lodron-Laterano u.Castelromano
-								mother=100035152	# Claude de Chateauneuf-Randon du Tournel
-								1965.01.01={birth=yes}
-							}			
-			100035141={ #// C2. Kaspar (*Innsbruck 9.4.1815, +Innsbruck 19.7.1895); m.1865 Ludovica Knussert (*1830, +1920) %%
-				name=Kaspar
-				dynasty=1002214
-				religion=catholic culture=german
-				father=100035131	# Aloys zu Lodron-Laterano u.Castelromano
-				mother=100103091	# GFN Maria Anna von Plaz
-				1815.04.09={birth=yes}	# Innsbruck
-				1865.01.01={add_spouse=100035163}	# Ludovica Knussert
-				1895.07.19={death=yes}	# Innsbruck
-			}
-				100035142={ #// D1. Karl (*Graz 15.2.1866, +Lodrone 1.3.1938); m.1897 Maria zu Lodron-Laterano u.Castelromano (*Trient 28.10.1870, +Klagenfurt 14.8.1959) %%
-					name=Karl
-					dynasty=1002214
-					religion=catholic culture=german
-					father=100035141	# Kaspar zu Lodron-Laterano u.Castelromano
-					mother=100035163	# Ludovica Knussert
-					1866.02.15={birth=yes}	# Graz
-					1897.01.01={add_spouse=100035157}	# Maria zu Lodron-Laterano u.Castelromano
-					1938.03.01={death=yes}	# Lodrone
-				}
-					100035143={ #// E1. Ludwig (*1898, +1972); m.1928 Maria Rossi von Sardagna (*1896, +1980) %%
-						name=Ludwig
-						dynasty=1002214
-						religion=catholic culture=german
-						father=100035142	# Karl zu Lodron-Laterano u.Castelromano
-						mother=100035157	# Maria zu Lodron-Laterano u.Castelromano
-						1898.01.01={birth=yes}
-						1928.01.01={add_spouse=100096769}	# Maria Rossi von Sardagna
-						1972.01.01={death=yes}
-					}
-						100035109={ #// F1. Georg (*22.7.1929) %%
-							name=Georg
-							dynasty=1002214
-							religion=catholic culture=german
-							father=100035143	# Ludwig zu Lodron-Laterano u.Castelromano
-							mother=100096769	# Maria Rossi von Sardagna
-							1929.07.22={birth=yes}
-							2006.01.01={death=yes}  # EST.
-						}
-							100035108={ #// G1. Beatrice (*29.5.1964); m.16.11.1990 Wolfgang von Pfalz-Zweibrücken-Birkenfeld (*1960) %%
-								name=Beatrice
-								female=yes
-								dynasty=1002214
-								religion=catholic culture=german
-								father=100035109	# Georg zu Lodron-Laterano u.Castelromano
-								1964.05.29={birth=yes}
-							}
-							100035107={ #// G2. Diana-Maria (*1.3.1967); m.26.2.1990 Stefan-Georg von Waldburg-Zeil-Hohenems (*Hohenems 3.8.1963) %%
-								name=Diana-Maria
-								female=yes
-								dynasty=1002214
-								religion=catholic culture=german
-								father=100035109	# Georg zu Lodron-Laterano u.Castelromano
-								1967.03.01={birth=yes}
-							}
-100035136={ #// Ernst zu Lodron-Laterano u.Castelromano (*30.5.1716, +18.12.1779); m.26.7.1746 Marie Johanna Libštejnský z Kolovrat (*13.8.1726, +31.10.1756); 2m: Antonia von Arco (1738-1788) $$
-	name=Ernst
-	dynasty=1002214
-	religion=catholic culture=german
-	1716.05.30={birth=yes}
-	1746.07.26={add_spouse=kolowrat_0036}	# Marie Johanna Libštejnský z Kolovrat
-	1779.12.18={death=yes}
-}
-	100035135={ #// A1. Hieronymus (*1766, +1823); m.21.7.1786 Maria Cäcilie von Orsini u.Rosenberg (*30.9.1766, +30.9.1841) %%
-		name=Hieronymus
-		dynasty=1002214
-		religion=catholic culture=german
-		father=100035136	# Ernst zu Lodron-Laterano u.Castelromano
-		1766.01.01={birth=yes}
-		1786.07.21={add_spouse=100024590}	# Maria Cäcilie von Orsini u.Rosenberg
-		1823.01.01={death=yes}
-	}
-		100036915={ #// B1. Maria Dominika (*17.10.1789, +10.12.1847); m.6.10.1807 Ferenc Zichy de Zich et Vásonkeő (*17.2.1749, +8.8.1812) %%
-			name="Maria Dominika"
-			female=yes
-			dynasty=1002214
-			religion=catholic culture=bavarian
-			father=100035135	# Hieronymus zu Lodron-Laterano u.Castelromano
-			mother=100024590	# Maria Cäcilie von Orsini u.Rosenberg
-			1789.10.17={birth=yes}
-			1847.12.10={death=yes}
-		}
-		100036917={ #// B2. Antonia (*26.11.1792, +Vienna 3.4.1874); m.26.10.1824 Franz v.u.zu Eltz gt Faust v.Stromberg (*Mainz 28.5.1786, +Vienna 27.5.1873) %%
-			name=Antonia
-			female=yes
-			dynasty=1002214
-			religion=catholic culture=german
-			father=100035135	# Hieronymus zu Lodron-Laterano u.Castelromano
-			mother=100024590	# Maria Cäcilie von Orsini u.Rosenberg
-			1792.11.26={birth=yes}
-			1874.04.03={death=yes}  # Vienna
-		}
-		100035134={ #// B3. Konstantin (*18.4.1806, +Wien 21.2.1880); m.18.11.1832 Louisa Ugarte (*Wien 24.4.1803, +Wien 10.2.1875) %%
-			name=Konstantin
-			dynasty=1002214
-			religion=catholic culture=german
-			father=100035135	# Hieronymus zu Lodron-Laterano u.Castelromano
-			mother=100024590	# Maria Cäcilie von Orsini u.Rosenberg
-			1806.04.18={birth=yes}
-			1832.11.18={add_spouse=ugarte_0027}	# Louisa Ugarte
-			1880.02.21={death=yes}  # Wien
-		}
-			100035173={ #// Maria Antoinette $$
-				name="Marie Antoinette"
-				female=yes
-				dynasty=1002214
-				religion=catholic culture=german
-				father=100035134	# Konstantin zu Lodron-Laterano u.Castelromano
-				mother=ugarte_0027	# Louisa Ugarte
-				1833.11.20={birth=yes}  # Wien
-				1912.11.25={death=yes}  # Wien
-			}
-			100035133={ #// C2. Antonia (*Wien 20.12.1839, +Radegund 26.5.1893); m.1868 Karl Gaetan zu Lodron-Laterano u.Castelromano (*1840, +1918) %%
-				name=Antonia
-				female=yes
-				dynasty=1002214
-				religion=catholic culture=german
-				father=100035134	# Konstantin zu Lodron-Laterano u.Castelromano
-				mother=ugarte_0027	# Louisa Ugarte
-				1839.12.20={birth=yes}	# Wien
-				1893.05.26={death=yes}	# Radegund
-			}
-# LODRON
 	
 100036954={ #// Jean de Rádey (*4.6.1863, +8.6.1955); m.2.12.1896 Anna Maria von Meran (*12.4.1864, +31.3.1935) %%
 	name=Jean
@@ -7747,12 +7378,12 @@
 		1947.06.28={birth=yes}
 	}
 		
-100036782={ #// Paul de Almeida (*28.8.1861, +13.2.1942); m.1.10.1884 Marie Isabelle Hohenlohe-Langenburg (*30.7.1858, +23.7.1939) %%
+100036782={ #// Paul de Almeida (*28.8.1861, +13.2.1942); m.1.10.1884 Marie Isabelle zu Hohenlohe-Langenburg (*30.7.1858, +23.7.1939) %%
 	name=Paul
 	dynasty=1001004
 	religion=catholic culture=portuguese
 	1861.08.28={birth=yes}
-	1884.10.01={add_spouse=100001771}	# Marie Isabelle Hohenlohe-Langenburg
+	1884.10.01={add_spouse=100001771}	# Marie Isabelle zu Hohenlohe-Langenburg
 	1942.02.13={death=yes}
 }
 	100036781={ #// A1. Carl (*27.6.1885, +27.8.1975); m.11.5.1922 Gabriele Popel von Lobkowitz (*18.10.1895, +25.9.1969) %%
@@ -7760,7 +7391,7 @@
 		dynasty=1001004
 		religion=catholic culture=german
 		father=100036782	# Paul de Almeida
-		mother=100001771	# Marie Isabelle Hohenlohe-Langenburg
+		mother=100001771	# Marie Isabelle zu Hohenlohe-Langenburg
 		1885.06.27={birth=yes}
 		1922.05.11={add_spouse=100185076}	# Gabriele Popel von Lobkowitz
 		1975.08.27={death=yes}
@@ -8197,14 +7828,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 		1804.07.17={add_spouse=lowborn_0641}	# FRN Emily Schell von Bauschlott
 		1813.05.16={death=yes}  # Nezdašov
 	}
-		berchtold_0015={ #// B1. [1m.] Karl Philipp Simon, *1795, +1870; 1m: 1820 Cecilie Gfn zu Lodron-Laterano (*1794 +1859); 2m: 1860 Anna S...; all kids by 1m.
+		berchtold_0015={ #// B1. [1m.] Karl Philipp Simon, *1795, +1870; 1m: 1820 Cecilie Gfn zu Lodron-Laterano (*1794 +1859); 2m: 1860 Anna S...; all kids by 1m. $$
 			name=Karl
 			dynasty=1011382
 			religion=catholic culture=german
 			father=berchtold_0014	# Karl Gustav von Berchtold
 			mother=lowborn_0636	# GFN Maria Anna von Edling
 			1795.01.01={birth=yes}
-			1820.01.01={add_spouse=lowborn_0642}	# GFN Cecilie zu Lodron-Laterano
+			1820.01.01={add_spouse=lodron_0443}	# Cäcilia zu Lodron-Laterano u.Castelromano
 			1870.01.01={death=yes}
 		}
 			berchtold_0016={ #// C1. Alphons Karl, *1822, +1849
@@ -8212,7 +7843,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011382
 				religion=catholic culture=german
 				father=berchtold_0015	# Karl von Berchtold
-				mother=lowborn_0642	# GFN Cecilie zu Lodron-Laterano
+				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
 				1822.01.01={birth=yes}
 				1849.01.01={death=yes}
 			}
@@ -8222,7 +7853,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011382
 				religion=catholic culture=german
 				father=berchtold_0015	# Karl von Berchtold
-				mother=lowborn_0642	# GFN Cecilie zu Lodron-Laterano
+				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
 				1826.01.01={birth=yes}
 				1855.01.01={death=yes}
 			}
@@ -8232,7 +7863,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011382
 				religion=catholic culture=german
 				father=berchtold_0015	# Karl von Berchtold
-				mother=lowborn_0642	# GFN Cecilie zu Lodron-Laterano
+				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
 				1828.01.01={birth=yes}
 				1830.01.01={death=yes}
 			}
@@ -8242,7 +7873,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011382
 				religion=catholic culture=german
 				father=berchtold_0015	# Karl von Berchtold
-				mother=lowborn_0642	# GFN Cecilie zu Lodron-Laterano
+				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
 				1830.01.01={birth=yes}
 				1861.01.01={death=yes}
 			}
@@ -8252,7 +7883,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011382
 				religion=catholic culture=german
 				father=berchtold_0015	# Karl von Berchtold
-				mother=lowborn_0642	# GFN Cecilie zu Lodron-Laterano
+				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
 				1832.01.01={birth=yes}
 				1842.01.01={death=yes}
 			}
@@ -10045,14 +9676,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	1805.01.01={add_spouse=100115839}	# Karolina Wenckheim
 	1855.01.01={death=yes}
 }
-	100036359={ #// A1. Karl (*Budapest 2.10.1814, +Wien 10.9.1891); m.11.8.1855 Konstanze Josephe Hohenlohe-Langenburg (*12.11.1824, +19.4.1884) %%
+	100036359={ #// A1. Karl (*Budapest 2.10.1814, +Wien 10.9.1891); m.11.8.1855 Konstanze Josephe zu Hohenlohe-Langenburg (*12.11.1824, +19.4.1884) %%
 		name=Karl
 		dynasty=1002230
 		religion=catholic culture=german
 		father=100036414	# Ludwig Heinrich von Blanckenstein
 		mother=100115839	# Karolina Wenckheim
 		1814.10.02={birth=yes}	# Budapest
-		1855.08.11={add_spouse=100001697}	# Konstanze Josephe Hohenlohe-Langenburg
+		1855.08.11={add_spouse=100001697}	# Konstanze Josephe zu Hohenlohe-Langenburg
 		1891.09.10={death=yes}	# Wien
 	}
 		100036666={ #// B1. Johannes (*Battelau 2.10.1861, +Laurana, Italien 24.9.1940) %%
@@ -10060,7 +9691,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			dynasty=1002230
 			religion=catholic culture=german
 			father=100036359	# Karl von Blanckenstein
-			mother=100001697	# Konstanze Josephe Hohenlohe-Langenburg
+			mother=100001697	# Konstanze Josephe zu Hohenlohe-Langenburg
 			1861.10.02={birth=yes}  # Battelau
 			1940.09.24={death=yes}  # Laurana, Italien
 		}
@@ -10121,7 +9752,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			dynasty=1002230
 			religion=catholic culture=german
 			father=100036359	# Karl von Blanckenstein
-			mother=100001697	# Konstanze Josephe Hohenlohe-Langenburg
+			mother=100001697	# Konstanze Josephe zu Hohenlohe-Langenburg
 			1868.06.06={birth=yes}  # Battelau
 			1900.07.02={add_spouse=100117629}	# Maria Josefa Esterházy de Galántha
 			1935.09.25={death=yes}  # Füzesgyarmat
@@ -13426,24 +13057,24 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 		1860.01.01={add_spouse=100094438}	# BSS Therese von Boeselager
 		1915.07.18={death=yes}	# Havixbeck
 	}
-		100036060={ #// B1. Klemens (*Münster 1.3.1861, +Münster 4.2.1916); m.1892 Css Huberta Droste zu Vischering (*1862, +1946) %%
+		100036060={ #// B1. Klemens (*Münster 1.3.1861, +Münster 4.2.1916); m.1892 Huberta Droste zu Vischering (*Münster,Westfalen 29.11.1862, +Havixbeck 16.4.1946) %%
 			name=Klemens
 			dynasty=1002246
 			religion=catholic culture=german
 			father=100036068	# Klemens von Twickel
 			mother=100094438	# BSS Therese von Boeselager
 			1861.03.01={birth=yes}	# Münster
-			1892.01.01={add_spouse=100091575}	# CSS Huberta Droste zu Vischering
+			1892.01.01={add_spouse=droste_0021}	# Huberta Droste zu Vischering
 			1916.02.04={death=yes}	# Münster
 		}
-			100036066={ #// C1. Johann (*1893, +1974); m.1920 Css Margarete Droste zu Vischering (*1896, +1980) %%
-				name=Johann
+			100036066={ #// C1. Johann Rudolf (*1893, +1974); m.1920 Margarete Droste zu Vischering (*Burg Vischering 18.7.1896, +Havixbeck 5.5.1980) %%
+				name="Johann Rudolf"
 				dynasty=1002246
 				religion=catholic culture=german
 				father=100036060	# Klemens von Twickel
-				mother=100091575	# CSS Huberta Droste zu Vischering
+				mother=droste_0021	# Huberta Droste zu Vischering
 				1893.01.01={birth=yes}
-				1920.01.01={add_spouse=100093301}	# CSS Margarete Droste zu Vischering
+				1920.01.01={add_spouse=droste_0037}	# Margarete Droste zu Vischering
 				1974.01.01={death=yes}
 			}
 				100035047={ #// D1. Huberta (*Havixbeck 24.2.1921, +Attendorn 4.9.2012); m.10.9.1943 Ferdinand von Spee (*Borken 27.12.1908, +Ahausen_bei_Finnentrop Sauerland 19.2.1980) %%
@@ -13451,8 +13082,8 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 					female=yes
 					dynasty=1002246
 					religion=catholic culture=german
-					father=100036066	# Johann von Twickel
-					mother=100093301	# CSS Margarete Droste zu Vischering
+					father=100036066	# Johann Rudolf von Twickel
+					mother=droste_0037	# Margarete Droste zu Vischering
 					1921.02.24={birth=yes}  # Havixbeck
 					2012.09.04={death=yes}  # Attendorn
 				}
@@ -13461,8 +13092,8 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 					female=yes
 					dynasty=1002246
 					religion=catholic culture=german
-					father=100036066	# Johann von Twickel
-					mother=100093301	# CSS Margarete Droste zu Vischering
+					father=100036066	# Johann Rudolf von Twickel
+					mother=droste_0037	# Margarete Droste zu Vischering
 					1925.02.02={birth=yes}
 					2007.12.29={death=yes}
 				}
@@ -13470,8 +13101,8 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 					name=Bonifatius
 					dynasty=1002246
 					religion=catholic culture=german
-					father=100036066	# Johann von Twickel
-					mother=100093301	# CSS Margarete Droste zu Vischering
+					father=100036066	# Johann Rudolf von Twickel
+					mother=droste_0037	# Margarete Droste zu Vischering
 					1933.01.01={birth=yes}
 					1989.09.09={add_spouse=100037712}	# Jacqueline Marie van Limburg Stirum
 					2010.01.01={death=yes}  # EST.
@@ -13481,7 +13112,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1002246
 				religion=catholic culture=german
 				father=100036060	# Klemens von Twickel
-				mother=100091575	# CSS Huberta Droste zu Vischering
+				mother=droste_0021	# Huberta Droste zu Vischering
 				1900.01.01={birth=yes}
 				1933.01.01={add_spouse=100035881}	# Eleonore van Hoensbroech
 				1947.01.01={death=yes}
