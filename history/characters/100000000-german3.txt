@@ -12,7 +12,7 @@
 ##  100010260-100196491		Ortenburg                         1002600	  62		 13/ 34 = 38,24%
 ##  100010424-100310412		Pommern                               177	  67		 34/ 69 = 49,28%
 ##  100010431-100010531		Königsegg-Aulendorf               1002602	 100		 34/ 92 = 36,96%
-##  100010605-100010633		Hanau in Babenhausen              1002605	  29		 15/ 32 = 46,88%
+##  100010605-100010633		Hanau in Babenhausen              1002219	  29		 15/ 32 = 46,88%
 ##  100011000- 				Rechberg			              1002255
 ##  100011200- 				Walderdorff			              1002258
 ##  100011400- 				Korff				              1002261
@@ -4312,14 +4312,14 @@
 		1832.01.01={add_spouse=100081751}	# GFN Mauritia Beissel von Gymnich
 		1862.01.01={death=yes}	# Molsberg
 	}
-		100011527={ #// B2. Eduard (*Molsberg 29.1.1833, +Klafterbrunn 1.10.1887); m.8.4.1861 Julie v. Collalto u.San Salvatore (*Pirnitz Moravia 5.3.1838, +Klafterbrunn 3.4.1922) %%
+		100011527={ #// B2. Eduard (*Molsberg 29.1.1833, +Klafterbrunn 1.10.1887); m.8.4.1861 Julie von Collalto u.San Salvatore (*Pirnitz Moravia 5.3.1838, +Klafterbrunn 3.4.1922) %%
 			name=Eduard
 			dynasty=1002258
 			religion=catholic culture=german
 			father=100211528	# Karl Wilderich von Walderdorff
 			mother=100081751	# GFN Mauritia Beissel von Gymnich
 			1833.01.29={birth=yes}  # Molsberg
-			1861.04.08={add_spouse=100070755}	# Julie v. Collalto u.San Salvatore
+			1861.04.08={add_spouse=100070755}	# Julie von Collalto u.San Salvatore
 			1887.10.01={death=yes}  # Klafterbrunn
 		}
 			100011528={ #// C1. Joseph (*Wiesbaden 19.7.1862, +Bad Gleichenberg Steiermark 6.8.1933); m.15.4.1890 Maria von Rechberg u.Rothenlöwen zu Hohenrechberg (*Althart Moravia 9.4.1867, +Enns 3.4.1942) %%
@@ -4327,7 +4327,7 @@
 				dynasty=1002258
 				religion=catholic culture=german
 				father=100011527	# Eduard von Walderdorff
-				mother=100070755	# Julie v. Collalto u.San Salvatore
+				mother=100070755	# Julie von Collalto u.San Salvatore
 				1862.07.19={birth=yes}  # Wiesbaden
 				1890.04.15={add_spouse=100011415}	# Maria von Rechberg u.Rothenlöwen zu Hohenrechberg
 				1933.08.06={death=yes}  # Bad Gleichenberg Steiermark
@@ -4347,7 +4347,7 @@
 				dynasty=1002258
 				religion=catholic culture=german
 				father=100011527	# Eduard von Walderdorff
-				mother=100070755	# Julie v. Collalto u.San Salvatore
+				mother=100070755	# Julie von Collalto u.San Salvatore
 				1865.03.27={birth=yes}	# Klafterbrunn
 				1893.01.01={add_spouse=100022307}	# Therese von Seilern u.Aspang
 				1944.02.20={death=yes}	# Salzburg
@@ -4387,7 +4387,7 @@
 				dynasty=1002258
 				religion=catholic culture=german
 				father=100011527	# Eduard von Walderdorff
-				mother=100070755	# Julie v. Collalto u.San Salvatore
+				mother=100070755	# Julie von Collalto u.San Salvatore
 				1868.01.01={birth=yes}
 				1924.01.01={add_spouse=100081036}	# Hedwig Franziska von Harbuval
 				1925.01.01={death=yes}
@@ -4418,7 +4418,7 @@
 				dynasty=1002258
 				religion=catholic culture=german
 				father=100011527	# Eduard von Walderdorff
-				mother=100070755	# Julie v. Collalto u.San Salvatore
+				mother=100070755	# Julie von Collalto u.San Salvatore
 				1872.08.08={birth=yes}  # Klafterbrunn
 				1944.10.30={death=yes}  # Mittergrabern
 			}
@@ -4428,7 +4428,7 @@
 				dynasty=1002258
 				religion=catholic culture=german
 				father=100011527	# Eduard von Walderdorff
-				mother=100070755	# Julie v. Collalto u.San Salvatore
+				mother=100070755	# Julie von Collalto u.San Salvatore
 				1878.03.02={birth=yes}  # Klafterbrunn
 				1961.04.03={death=yes}  # Kremsmünster
 			}
@@ -5278,12 +5278,26 @@
 ##  100011000- 				Rechberg			              1002255
 
 
-##  100010604				Hanau										1002605
+##  100010604				Hanau										1002219
+#hanau1
+100094648={ #// G2. Reinhard III Gf zu Hanau 1429, *ca 1370, +Hanau 1451, bur Hanau; m.1407 Katharina von Nassau-Beilstein (+1459)
+	name="Reinhard"
+	religion=catholic culture=german
+	1370.01.01={birth=yes}
+	1407.01.01={add_spouse=100037290}	# Katharine von Nassau
+	1451.06.26={death=yes}
+}
+	#hanau2 --> H1. Reinhard IV Gf zu Hanau, *1412, +Heidelberg 1452, bur Hanau; m.Hanau 1446 Margareta Pfgfn von Mosbach (*1432 +1457); for their issue see HERE
+	#hanau3 --> H2. Philipp I Gf von Hanau in Babenhausen, *1417, +Ingweiler 1480, bur Babenhausen; m.1458 Anna von Lichtenberg (*1442, +1474, bur Babenhausen); for their issue see HERE
+#hanau1
+
 #hanau2
 100010620={ #// Reinhard IV Graf zu Hanau, *1412, +Heidelberg 1452; m.Hanau 1446 Margareta Pfgfn von Mosbach (*1432 +1457)
 	name=Reinhard
 	dynasty=1002219
 	religion=catholic culture=german
+	father=100094648
+	mother=100037290
 	1412.01.01={birth=yes}
 	1446.01.01={add_spouse=100081442}	# PFGFN Margareta von Mosbach
 	1452.01.01={death=yes}  # Heidelberg
@@ -5495,21 +5509,22 @@
 				1508.01.01={birth=yes}
 				1534.01.01={death=yes}
 			}
-####### 100009351
 #hanau2
 
 #hanau3
 100010605={ #// Gf Philipp I von Hanau in Babenhausen, *1417, +Ingweiler 1480; m.1458 Anna von Lichtenberg (*1442, +1474)
 	name=Philipp
-	dynasty=1002605
+	dynasty=1002219
 	religion=catholic culture=czech
+	father=100094648
+	mother=100037290
 	1417.01.01={birth=yes}
 	1458.01.01={add_spouse=100085881}	# Anna von Lichtenberg
 	1480.01.01={death=yes}  # Ingweiler
 }
 	100010606={ #// A2. Philipp II Gf zu Hanau in Babenhausen, Lichtenberg, Buchsweiler, Neuweiler, etc., *1462, +1504; m.1480 Anna von Isenburg (+1522) $$
 		name=Philipp
-		dynasty=1002605
+		dynasty=1002219
 		religion=catholic culture=czech
 		father=100010605	# Philipp von Hanau in Babenhausen
 		mother=100085881	# Anna von Lichtenberg
@@ -5519,7 +5534,7 @@
 	}
 		100010607={ #// B1. Philipp III Gf zu Hanau in Babenhausen, *1482, +1538; m.1505 Mkgfn Sibylla von Baden (*1485 +1518) $$
 			name=Philipp
-			dynasty=1002605
+			dynasty=1002219
 			religion=catholic culture=czech
 			father=100010606	# Philipp von Hanau in Babenhausen
 			mother=100011846	# Anna zu Ysenburg und Büdingen
@@ -5530,7 +5545,7 @@
 			100010630={ #// C2. Johanna, *1507, +1572; m.1522 Wilhelm IV Gf von Eberstein (+1562)
 				name=Johanna
 				female=yes
-				dynasty=1002605
+				dynasty=1002219
 				religion=catholic culture=czech
 				father=100010607	# Philipp von Hanau in Babenhausen
 				mother=100004407	# Sibylla von Baden
@@ -5539,7 +5554,7 @@
 			}
 			100010608={ #// C1. Philipp IV Gf zu Hanau, Hr zu Münzenberg, in Babenhausen, Lichtenberg, Buchsweiler, Neuweiler und Willstätt, *20.10.1514, +19.2.1590; m.1538 Eleonore von Fürstenberg (*11.10.1523 +23.9.1544) $$
 				name=Philipp
-				dynasty=1002605
+				dynasty=1002219
 				religion=catholic culture=german
 				father=100010607	# Philipp von Hanau in Babenhausen
 				mother=100004407	# Sibylla von Baden
@@ -5549,7 +5564,7 @@
 			}
 				100010609={ #// D1. Philipp V, in Bitsch und Lemberg 1570, Ochsenstein 1572, Babenhausen, Lichtenberg, etc. 1582, *1541, +Niederbronn 1599; 1m: Bitsch 1560 Ludowika Margareta von Zweibrücken, zu Bitsch und Ochsenstein (*1540 +1569); 2m: 1572 Katharina zu Wied (*1552 +1584); 3m: 1586 Agathe Schenkin von Limpurg (*1561, +Neuendautenstein 1623) $$
 					name=Philipp
-					dynasty=1002605
+					dynasty=1002219
 					religion=catholic culture=german
 					father=100010608	# Philipp von Hanau in Babenhausen
 					mother=100011466	# Eleonore von Fürstenberg
@@ -5562,7 +5577,7 @@
 					100010625={ #// E6. Johanna Sibylla, *1564, +1636; m.1582 Gf Wilhelm IV zu Wied (+1612) $$
 						name="Johanna Sibylla"
 						female=yes
-						dynasty=1002605
+						dynasty=1002219
 						religion=catholic culture=german
 						father=100010609	# Philipp von Hanau in Babenhausen
 						mother=100091211	# Ludowika Margareta von Zweibrücken zu Bitsch und Ochsenstein
@@ -5572,7 +5587,7 @@
 					100010626={ #// E7. Katharina, *1568, +1635; m.1586 Eberhard I Schenk von Limpurg zu Speckfeld (+1622) $$
 						name=Katharina
 						female=yes
-						dynasty=1002605
+						dynasty=1002219
 						religion=catholic culture=czech
 						father=100010609	# Philipp von Hanau in Babenhausen
 						mother=100091211	# Ludowika Margareta von Zweibrücken zu Bitsch und Ochsenstein
@@ -5581,7 +5596,7 @@
 					}
 					100010610={ #// E3. Johann Reinhard I Gf zu Hanau und Zweibrücken, Hr zu Lichtenberg und Ochsenstein, in Babenhausen, Lichtenberg, Lichtenau, Lemberg, Eppenbrunn, Trolben, Klein-Arnsberg, Lutzelhardt, etc, *1569, +1625; 1m: 1593 Marie Elisabeth Gfn von Hohenlohe-Neuenstein (*1576 +1605); 2m: Anna Wild- und Rheingfn (*1582 +1636) $$
 						name="Johann Reinhard"
-						dynasty=1002605
+						dynasty=1002219
 						religion=catholic culture=czech
 						father=100010609	# Philipp von Hanau in Babenhausen
 						mother=100091211	# Ludowika Margareta von Zweibrücken zu Bitsch und Ochsenstein
@@ -5592,7 +5607,7 @@
 					}
 						100010611={ #// F1. Philipp Wolfgang, *10.8.1595, +24.2.1641; 1m: Buchsweiler 24.11.1619 Gfn Johanna von Oettingen (*10.9.1602 +17.9.1639); 2m: ca 1640 Dorothea Diana Wild- und Rheingfn (+1672) $$
 							name="Philipp Wolfgang"
-							dynasty=1002605
+							dynasty=1002219
 							religion=catholic culture=czech
 							father=100010610	# Johann Reinhard von Hanau in Babenhausen
 							mother=100004143	# Marie Elisabeth von Hohenlohe-Waldenburg
@@ -5603,7 +5618,7 @@
 						}
 							100010612={ #// G2. Friedrich Kasimir Gf von Hanau, Rieneck und Zweibrücken, Hr zu Münzenberg, Lichtenberg und Ochsenstein, in Babenhausen, Lichtenberg, etc, 1642 in Hanau und Münzenberg, *Buchsweiler 4.8.1623, +Hanau 30.3.1685; m.Hanau 13.5.1647 Sibylla Christina von Anhalt-Dessau (*Dessau 11.7.1603, +Hanau 21.2.1686) $$
 								name="Friedrich Kasimir"
-								dynasty=1002605
+								dynasty=1002219
 								religion=catholic culture=czech
 								father=100010611	# Philipp Wolfgang von Hanau in Babenhausen
 								mother=100012937	# Johanna zu Oettingen-Oettingen
@@ -5613,7 +5628,7 @@
 							}
 							100010613={ #// G3. Johann Philipp Gf von Hanau, Rieneck und Zweibrücken, Hr zu Münzenberg, Lichtenberg und Ochsenstein, in Babenhausen, *1626, +1669; m.1651 Pss Susanna Margareta von Anhalt-Dessau (*1610, +1663) $$
 								name="Johann Philipp"
-								dynasty=1002605
+								dynasty=1002219
 								religion=catholic culture=czech
 								father=100010611	# Philipp Wolfgang von Hanau in Babenhausen
 								mother=100012937	# Johanna zu Oettingen-Oettingen
@@ -5623,7 +5638,7 @@
 							}
 							100010614={ #// G4. Johann Reinhard II, Gf von Hanau, Rieneck und Zweibrücken, Hr zu Münzenberg, Lichtenberg und Ochsenstein, in Lichtenau, Willstätt und Bischofsheim, *Buchsweiler 1628, +Bischofsheim 1666; m.Buchsweiler 1659 Anna Magdalena Pfgfn von Bischweiler (*1640 +1693) $$
 								name="Johann Reinhard"
-								dynasty=1002605
+								dynasty=1002219
 								religion=catholic culture=czech
 								father=100010611	# Philipp Wolfgang von Hanau in Babenhausen
 								mother=100012937	# Johanna zu Oettingen-Oettingen
@@ -5634,7 +5649,7 @@
 								100010618={ #// H3. Johanna Magdalena, *Bischofsheim 1660, +Hanau 1715; m.1685 Johann Karl August Gf zu Leiningen-Dagsburg (+1698) $$
 									name="Johanna Magdalena"
 									female=yes
-									dynasty=1002605
+									dynasty=1002219
 									religion=catholic culture=czech
 									father=100010614	# Johann Reinhard von Hanau in Babenhausen
 									mother=100007785	# Anna Magdalena von Pfalz-Zweibrücken-Birkenfeld
@@ -5644,7 +5659,7 @@
 								100010619={ #// H4. Louise Sophie, *1662, +Ottweiler 1751; m.Dhaun 1697 Friedrich Ludwig Gf von Nassau-Saarbrücken (+1728) $$
 									name="Luise Sofie"
 									female=yes
-									dynasty=1002605
+									dynasty=1002219
 									religion=catholic culture=czech
 									father=100010614	# Johann Reinhard von Hanau in Babenhausen
 									mother=100007785	# Anna Magdalena von Pfalz-Zweibrücken-Birkenfeld
@@ -5653,7 +5668,7 @@
 								}
 								100010615={ #// H1. Philipp Reinhard, in Hanau und Münzenberg, *Bischofsheim 1664, +Schloss Philippsruhe 1712; 1m: Hanau 1689 Magdalena Claudia Pfgfn von Bischweiler (*1668 +1704); 2m: Coburg 1705 Charlotte Wilhelmine Pss of Saxe-Saalfeld (*1685 +1767) $$
 									name="Philipp Reinhard"
-									dynasty=1002605
+									dynasty=1002219
 									religion=catholic culture=czech
 									father=100010614	# Johann Reinhard von Hanau in Babenhausen
 									mother=100007785	# Anna Magdalena von Pfalz-Zweibrücken-Birkenfeld
@@ -5664,7 +5679,7 @@
 								}
 								100010616={ #// H2. Johann Reinhard III Gf von Hanau, in Lichtenberg 1691, in Ochsenstein 1704, in Hanau und Münzenberg 1712, *Bischofsheim 1665, +Hanau 1736; m.Hanau 1699 Mkgfn Dorothea Friederike von Brandenburg-Ansbach (*1676 +1731) $$
 									name="Johann Reinhard"
-									dynasty=1002605
+									dynasty=1002219
 									religion=catholic culture=czech
 									father=100010614	# Johann Reinhard von Hanau in Babenhausen
 									mother=100007785	# Anna Magdalena von Pfalz-Zweibrücken-Birkenfeld
@@ -5675,7 +5690,7 @@
 									100010617={ #// I1. Charlotte Christine Magdalene Johanna, *Buchsweiler 2.5.1700, +Darmstadt 1.7.1726; m.Philippsruhe 5.4.1717 Ldgve Ludwig VIII von Hesse-Darmstadt (*5.4.1691 +17.10.1768) $$
 										name=Charlotte
 										female=yes
-										dynasty=1002605
+										dynasty=1002219
 										religion=catholic culture=czech
 										father=100010616	# Johann Reinhard von Hanau in Babenhausen
 										mother=100002577	# Dorothea Friederike von Hohenzollern
@@ -5685,7 +5700,7 @@
 							100010622={ #// G10. Agathe Christine, *Buchsweiler 1632, +Strassburg 1681; m.Bischweiler 1648 Leopold Ludwig Pfgf von Veldenz (+1694) $$
 								name=Agathe
 								female=yes
-								dynasty=1002605
+								dynasty=1002219
 								religion=catholic culture=czech
 								father=100010611	# Philipp Wolfgang von Hanau in Babenhausen
 								mother=100012937	# Johanna zu Oettingen-Oettingen
@@ -5695,7 +5710,7 @@
 						100010623={ #// F2. Agathe Maria, *1599, +1636; m.1623 Georg Friedrich Gf von Rappoltstein (+1651)
 							name=Agathe
 							female=yes
-							dynasty=1002605
+							dynasty=1002219
 							religion=catholic culture=czech
 							father=100010610	# Johann Reinhard von Hanau in Babenhausen
 							mother=100004143	# Marie Elisabeth von Hohenlohe-Waldenburg
@@ -5705,7 +5720,7 @@
 						100010624={ #// F3. Anna Magdalena, *1600, +1673; 1m: 1625 Lothar Gf von Criechingen (+1629); 2m: 1633 Otto Ludwig Wild- und Rheingf (+1634); 3m: 1636 Rudolf Gf von Fürstenberg (+1655) $$
 							name=Anne-Magdalena
 							female=yes
-							dynasty=1002605
+							dynasty=1002219
 							religion=catholic culture=czech
 							father=100010610	# Johann Reinhard von Hanau in Babenhausen
 							mother=100004143	# Marie Elisabeth von Hohenlohe-Waldenburg
@@ -5715,7 +5730,7 @@
 				100010628={ #// D4. Johanna, *1543, +1599; m.1563 (div 1573) Wolfgang Gf von Isenburg-Büdingen in Ronneburg (+1597) $$
 					name=Johanette
 					female=yes
-					dynasty=1002605
+					dynasty=1002219
 					religion=catholic culture=czech
 					father=100010608	# Philipp von Hanau in Babenhausen
 					mother=100011466	# Eleonore von Fürstenberg
@@ -5725,7 +5740,7 @@
 				100010629={ #// D5. Eleonore, *1544, +Ingelfingen 1585; m.Neienstein 1566 Albrecht Gf von Hohenlohe-Neuenstein (+1575) $$
 					name=Eleonore
 					female=yes
-					dynasty=1002605
+					dynasty=1002219
 					religion=catholic culture=czech
 					father=100010608	# Philipp von Hanau in Babenhausen
 					mother=100011466	# Eleonore von Fürstenberg
@@ -5735,7 +5750,7 @@
 	100010633={ #// A6. Margareta, *1463, +1504; m.1484 Adolf III Gf von Nassau-Wiesbaden (+1511) $$
 		name=Margarete
 		female=yes
-		dynasty=1002605
+		dynasty=1002219
 		religion=catholic culture=czech
 		father=100010605	# Philipp von Hanau in Babenhausen
 		mother=100085881	# Anna von Lichtenberg
@@ -5743,7 +5758,7 @@
 		1504.01.01={death=yes}
 	}
 #hanau3
-##  100010604				Hanau										1002605
+##  100010604				Hanau										1002219
 
 
 ##  100007102				Königsegg-Aulendorf							1002602
@@ -12253,7 +12268,7 @@ nostitz_0001={ #// Otto von Nostitz-Rokinitz, Freiherr 18.5.1631, Courtly counse
 				father=100194114	# Gustav von Erbach-Fürstenau
 				mother=100061984	# Marie Caroline von Battenberg
 				1880.09.26={birth=yes}
-				1909.11.09={add_spouse=100116413}	# Erzsébet Széchenyi de Sárvár-Felsõvidek
+				1909.11.09={add_spouse=100116413}	# Erzsébet Széchenyi de Sárvár-Felsővidek
 				1967.04.27={death=yes}
 			}
 			100194116={ #// C4. Marie Elisabeth (Edda) Donata, *Schönberg 7.7.1883, +Schlitz 12.3.1966; m.Schönberg 19.1.1910 Pr Wilhelm zu Stolberg-Wernigerode (*23.7.1870, +Posen 23.1.1931) $$
@@ -12592,8 +12607,8 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 		name="Josefa d'Arco"
 		female=yes
 		religion=catholic culture=german
-		father=100395676
-		mother=kuenburg_0015
+		father=100395676	# Giorgio d'Arco
+		mother=kuenburg_0015	# Maria Ernestina von Kuenburg
 		1730.01.11={birth=yes}  # Salzburg
 		1790.02.01={death=yes}  # Olomouc
 	}

@@ -1,4 +1,4 @@
-# FLEMMING
+﻿# FLEMMING
 100102798={ #// Ct         Jakub Henryk              Flemming                                 (1669-1744)     - [SAPIEHA] $$
 	name="Jakub Henryk Flemming"
 	#dynasty=0
@@ -293,7 +293,7 @@
 	1863.04.20={add_spouse=100020331}	# Елизавета Николаевна Бутурлин
 	1904.04.28={death=yes}  # Brixen
 }
-	100035993={ #// A1. Marie Therese (*15.10.1864, +27.5.1933); m.11.11.1907 Emanuel Széchenyi de Sárvár-Felsõvidek (*30.7.1858, +29.12.1926) %%
+	100035993={ #// A1. Marie Therese (*15.10.1864, +27.5.1933); m.11.11.1907 Emanuel Széchenyi de Sárvár-Felsővidek (*30.7.1858, +29.12.1926) %%
 		name="Marie Therese"
 		female=yes
 		dynasty=1002064
@@ -2505,15 +2505,25 @@
 			1696.01.01={death=yes}
 		}
 			100035890={ #// C1. Anton (*1670, +1733); m.1697 Maria Anna von Thun u.Hohenstein (*1664, +1733) %%
-				name=Anton
+				name="Johann Anton"
 				dynasty=1002278
 				religion=catholic culture=german
 				father=100035894	# Johann von Montfort-Tettnang
 				mother=100086471	# Maria Katharina von Sulz
-				1670.01.01={birth=yes}
-				1697.01.01={add_spouse=100024044}	# Maria Anna von Thun u.Hohenstein
-				1733.01.01={death=yes}
+				1670.11.26={birth=yes}  # Langenargen am Bodensee
+				1693.01.01={add_spouse=100024044}	# Maria Anna zu Lodron-Laterano u.Castelromano
+				1733.12.07={death=yes}
 			}
+				lodron_0343={ #// P1. Maria Antonia VON MONTFORT, *Langenargen 1694, +1751; m.Salzburg 16.5.1712 Karl Wenzel von Lodron-Laterano und Castelromano (*Nogaredo, Tirol 26.8.1682, +7.8.1735) $$
+					name="Maria Antonia"
+					female=yes
+					dynasty=1002214
+					religion=catholic culture=italian
+					father=100035890	# Johann Anton von Montfort-Tettnang
+					mother=100024044	# Maria Anna zu Lodron-Laterano u.Castelromano
+					1694.05.31={birth=yes}  # Langenargen
+					1751.03.31={death=yes}
+				}
 				100035889={ #// D1. Maria Theresia (*1.2.1698, +2.4.1751); m.10.3.1717 Anselm Franz von Schönborn (*4.6.1681, +10.7.1726) %%
 					name="Maria Theresia"
 					female=yes
@@ -3822,7 +3832,7 @@
 				1831.05.16={add_spouse=100023409}	# Karoline von Trauttmansdorff-Weinsberg
 				1884.06.15={death=yes}
 			}
-				100036860={ #// D1. Caroline (*5.7.1832, +21.3.1911); m.27.4.1852 Koloman Széchenyi de Sárvár-Felsõvidek (*6.10.1824, +17.1.1914) %%
+				100036860={ #// D1. Caroline (*5.7.1832, +21.3.1911); m.27.4.1852 Koloman Széchenyi de Sárvár-Felsővidek (*6.10.1824, +17.1.1914) %%
 					name=Caroline
 					female=yes
 					dynasty=1007020
@@ -6218,12 +6228,12 @@
 # BEAUMONT
 
 # CAMPAGNA
-100036779={ #// Vincenzo Campagna (*Florence 31.3.1963, +Florence 28.1.2012); m.8.6.1991 Alessandra v. Collalto u.San Salvatore (*26.3.1962) %%
+100036779={ #// Vincenzo Campagna (*Florence 31.3.1963, +Florence 28.1.2012); m.8.6.1991 Alessandra von Collalto u.San Salvatore (*26.3.1962) %%
 	name=Vincenzo
 	dynasty=1000002
 	religion=catholic culture=italian
 	1963.03.31={birth=yes}  # Florence
-	1991.06.08={add_spouse=100070773}	# Alessandra v. Collalto u.San Salvatore
+	1991.06.08={add_spouse=100070773}	# Alessandra von Collalto u.San Salvatore
 	2012.01.28={death=yes}  # Florence
 }
 	100036780={ #// A1. Caterina (*2.9.1993) %%
@@ -6232,7 +6242,7 @@
 		dynasty=1000002
 		religion=catholic culture=italian
 		father=100036779	# Vincenzo Campagna
-		mother=100070773	# Alessandra v. Collalto u.San Salvatore
+		mother=100070773	# Alessandra von Collalto u.San Salvatore
 		1993.09.02={birth=yes}
 	}
 	100036778={ #// A2. Matilde (*25.12.1993) %%
@@ -6241,7 +6251,7 @@
 		dynasty=1000002
 		religion=catholic culture=italian
 		father=100036779	# Vincenzo Campagna
-		mother=100070773	# Alessandra v. Collalto u.San Salvatore
+		mother=100070773	# Alessandra von Collalto u.San Salvatore
 		1993.12.25={birth=yes}
 	}
 # CAMPAGNA
@@ -6444,13 +6454,13 @@
 							father=100036904	# Franz Xaver von Wimpffen
 							1936.05.25={birth=yes}
 						}
-				100036218={ #// D4. Simon (*21.8.1867, +11.4.1925); m.30.5.1890 Karoline Széchenyi de Sárvár-Felsõvidek (*8.3.1869, +27.4.1932) %%
+				100036218={ #// D4. Simon (*21.8.1867, +11.4.1925); m.30.5.1890 Karoline Széchenyi de Sárvár-Felsővidek (*8.3.1869, +27.4.1932) %%
 					name=Simon
 					dynasty=1002207
 					religion=catholic culture=german
 					father=100036897	# Victor Ägidius von Wimpffen
 					1867.08.21={birth=yes}
-					1890.05.30={add_spouse=100116531}	# Karoline Széchenyi de Sárvár-Felsõvidek
+					1890.05.30={add_spouse=100116531}	# Karoline Széchenyi de Sárvár-Felsővidek
 					1925.04.11={death=yes}
 				}
 		100035970={ #// B2. Felix (*Brunnsee 16.3.1827, +Paris 30.12.1882); m.24.8.1867 Margarete zu Lynar (*Potsdam 4.3.1839, +Baden-Baden 5.7.1895) %%
@@ -6546,14 +6556,14 @@
 	1898.08.23={add_spouse=100023998}	# Gabriele von Paar
 	1940.09.29={death=yes}  # Loosdorf
 }		
-	100035091={ #// A1. Ferdinand (*Loosdorf 4.7.1899, +Vienna 18.3.1980); m.23.8.1922 Anna Gabriele v. Collalto u.San Salvatore (*Teschendorf 7.5.1904, +Vienna 24.2.1994) %%
+	100035091={ #// A1. Ferdinand (*Loosdorf 4.7.1899, +Vienna 18.3.1980); m.23.8.1922 Anna Gabriele von Collalto u.San Salvatore (*Teschendorf 7.5.1904, +Vienna 24.2.1994) %%
 		name=Ferdinand
 		dynasty=1006201
 		religion=catholic culture=german
 		father=100036835	# Alfons Amadeus Piatti
 		mother=100023998	# Gabriele von Paar
 		1899.07.04={birth=yes}  # Loosdorf
-		1922.08.23={add_spouse=100070765}	# Anna Gabriele v. Collalto u.San Salvatore
+		1922.08.23={add_spouse=100070765}	# Anna Gabriele von Collalto u.San Salvatore
 		1980.03.18={death=yes}  # Vienna
 	}
 		100036834={ #// B1. Manfred (*22.7.1924); m.29.4.1948 Mechthildis von Österreich-Teschen (*14.8.1924, +18.2.2000) %%
@@ -6561,7 +6571,7 @@
 			dynasty=1006201
 			religion=catholic culture=german
 			father=100035091	# Ferdinand Piatti
-			mother=100070765	# Anna Gabriele v. Collalto u.San Salvatore
+			mother=100070765	# Anna Gabriele von Collalto u.San Salvatore
 			1924.07.22={birth=yes}
 			1948.04.29={add_spouse=100020281}	# Mechthildis von Österreich-Teschen
 			2010.01.01={death=yes}	# EST.
@@ -6907,7 +6917,7 @@
 	}
 # TROTHA
 
-# MAYR MELHOF
+## MAYR MELHOF 1002212
 100036789={ #// Franz Mayr v.Melnhof (*1854, +1893) %%
 	name=Franz
 	dynasty=1002212
@@ -7018,7 +7028,7 @@
 			1926.09.21={birth=yes}  # Glanegg
 			2003.01.01={death=yes}  # EST.
 		}
-# MAYR MELHOF
+## MAYR MELHOF 1002212
 
 # CORNET D'ELZIUS
 100036786={ #// Charles Gustave Joseph Cornet d'Elzius du Chenoy (*1860, +1926) %%
@@ -7231,14 +7241,14 @@
 	1896.12.02={add_spouse=100020426}	# Anna Maria von Meran
 	1955.06.08={death=yes}
 }
-	100036960={ #// A1. Konstantin (*Stryj, Galicia 10.5.1898, +Salzburg 29.7.1975); m.18.3.1942 Margit Széchenyi de Sárvár-Felsõvidek (*7.2.1905, +14.11.1954) %%
+	100036960={ #// A1. Konstantin (*Stryj, Galicia 10.5.1898, +Salzburg 29.7.1975); m.18.3.1942 Margit Széchenyi de Sárvár-Felsővidek (*7.2.1905, +14.11.1954) %%
 		name=Konstantin
 		dynasty=1007058
 		religion=catholic culture=german
 		father=100036954	# Jean de Rádey
 		mother=100020426	# Anna Maria von Meran
 		1898.05.10={birth=yes}	# Stryj, Galicia
-		1942.03.18={add_spouse=100116389}	# Margit Széchenyi de Sárvár-Felsõvidek
+		1942.03.18={add_spouse=100116389}	# Margit Széchenyi de Sárvár-Felsővidek
 		1975.07.29={death=yes}	# Salzburg
 	}
 	100036958={ #// A2. Rudolf Johann Georg (*Pardubitz 24.1.1908, +12.1.1944); m.14.4.1943 Agathe Eleonore von Auersperg (*25.9.1916, +13.1.1983) %%
@@ -8611,14 +8621,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 								1933.12.23={birth=yes}
 								1959.06.21={add_spouse=100011780}	# Vendeline Bismarck
 							}
-								100036990={ #// H1. Stephan (*15.3.1962); m.25.9.1988 Natalie Széchenyi de Sárvár-Felsõvidek (*18.10.1966) %%
+								100036990={ #// H1. Stephan (*15.3.1962); m.25.9.1988 Natalie Széchenyi de Sárvár-Felsővidek (*18.10.1966) %%
 									name=Stephan
 									dynasty=1002222
 									religion=catholic culture=german
 									father=100036942	# Christoph von Ledebur-Wicheln
 									mother=100011780	# Vendeline Bismarck
 									1962.03.15={birth=yes}
-									1988.09.25={add_spouse=100116604}	# Natalie Széchenyi de Sárvár-Felsõvidek
+									1988.09.25={add_spouse=100116604}	# Natalie Széchenyi de Sárvár-Felsővidek
 								}
 								100036991={ #// H2. Benedikt (*München 20.8.1964); m.7.10.1991 Sofia z Valdštejna (*Horn 17.8.1971) %%
 									name=Benedikt
@@ -8674,7 +8684,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 							1913.06.18={birth=yes}  # Milleschau
 							2002.04.09={death=yes}  # Kißlegg
 						}
-					100035064={ #// E4. Karoline (*Petersburg, Bohemia 1.7.1875, +Balatongyörök 4.1.1956); m.26.4.1897 Viktor Széchenyi de Sárvár-Felsõvidek (*10.7.1871, +19.4.1945) %%
+					100035064={ #// E4. Karoline (*Petersburg, Bohemia 1.7.1875, +Balatongyörök 4.1.1956); m.26.4.1897 Viktor Széchenyi de Sárvár-Felsővidek (*10.7.1871, +19.4.1945) %%
 						name=Karoline
 						female=yes
 						dynasty=1002222
@@ -9148,7 +9158,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 											1894.04.11={add_spouse=100004133}	# Eleonore von Salm-Reifferscheidt-Raitz
 											1945.03.20={death=yes}  # Herberstein
 										}
-										100036411={ #// J4. Marie (*2.7.1867, +9.6.1945); m.30.4.1888 Rudolf Széchenyi de Sárvár-Felsõvidek (*11.10.1862, +6.11.1928) %%
+										100036411={ #// J4. Marie (*2.7.1867, +9.6.1945); m.30.4.1888 Rudolf Széchenyi de Sárvár-Felsővidek (*11.10.1862, +6.11.1928) %%
 											name=Marie
 											female=yes
 											dynasty=1004513
@@ -10917,7 +10927,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			1774.10.08={birth=yes}
 			1831.02.27={death=yes}
 		}
-		100036576={ #// B3. Aloysia (*9.7.1781, +19.7.1822); m.4.5.1801 Lajos Széchenyi de Sárvár-Felsõvidek (*6.11.1781, +7.2.1855) %%
+		100036576={ #// B3. Aloysia (*9.7.1781, +19.7.1822); m.4.5.1801 Lajos Széchenyi de Sárvár-Felsővidek (*6.11.1781, +7.2.1855) %%
 			name=Aloysia
 			female=yes
 			dynasty_house=clam_gallas
@@ -14651,6 +14661,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 		religion=catholic culture=french
 		father=100035017	# Louis François de Robiano
 		1741.01.01={birth=yes}
+		1788.01.01={add_spouse=100082569}
 		1820.01.01={death=yes}
 	}
 		100035104={ #// B1. Charles (+Rumillies 9.10.1850); m.25.5.1825 Maria Theresia von Stolberg-Stolberg (*24.12.1805, +25.12.1843) %%
