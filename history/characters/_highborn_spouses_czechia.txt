@@ -131,6 +131,14 @@ lowborn_2783={ #            Kateřina                  Novohradská z Kolowrat  
 	1723.01.01={birth=yes}
 	1800.02.03={death=yes}  # Praha
 }
+lowborn_4450={ # Gfn        Maria                     von Kolowrat-Krakowsky                   (1717-1762)     5 [BRUHL]
+	name="Maria von Kolowrat-Krakowsky"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1717.04.02={birth=yes}  # Prague
+	1762.05.05={death=yes}  # Warsaw
+}
 100101544={ #    Gf         Emanuel                   von Kolowrat-Krakowsky                   (1728-1790)     - [BREUNER]
 	name="Emanuel von Kolowrat-Krakowsky"
 	#dynasty=0
@@ -196,7 +204,7 @@ lowborn_3220={ # Gfn        Theresia                  von Kolowrat-Krakowsky    
 	1811.01.14={birth=yes}  # Brno
 	1888.08.14={death=yes}  # Bleiburg
 }
-100081481={ #    Gf         Otto                      Chorinsky                                (1835-1883)     - [ORSINI]
+100081481={ #    Gf         Otto                      Chorinsky                                (1835-1883)     - [VITELSBAC]
 	name="Otto Chorinsky"
 	#dynasty=0
 	religion=catholic culture=german
@@ -252,7 +260,7 @@ lowborn_3226={ #            Marie Josefa              Chorinsky z Ledske        
 	1757.12.31={birth=yes}  # Velké Hoštice
 	1825.03.22={death=yes}  # Linz
 }
-100086522={ #    Gf         Franz Cajetan             Chorinsky z Ledské                       (1761-1840)     - [WESTPHALEN]
+100086522={ #    Gf         Franz Cajetan             Chorinsky z Ledské                       (1761-1840)     - [VESTPHALEN]
 	name="Franz Cajetan Chorinsky z Ledské"
 	#dynasty=0
 	religion=catholic culture=german
@@ -300,8 +308,39 @@ lowborn_3424={ #            Marie Anna                Chorinská z Ledské      
 	1775.11.15={birth=yes}
 	1801.11.15={death=yes}  # Tobitschau
 }
+lowborn_3959={ #            Františka                 Chorinská z Ledské                       (1798-1863)     9 [WILCZEK]
+	name="Františka Chorinská z Ledské"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1798.05.22={birth=yes}  # Kraków
+	1863.08.21={death=yes}  # Peggau
+}
+lowborn_3840={ #            Ignác                     Chorinský z Ledské                       (1760-1832)     - [LODRON]
+	name="Ignác Chorinský z Ledské"
+	#dynasty=0
+	religion=catholic culture=italian
+	1760.09.19={birth=yes}
+	1786.01.01={add_spouse=lodron_0406}	# Maria Antonia zu Lodron-Laterano u.Castelromano
+	1832.06.09={death=yes}
+}
+lowborn_3979={ #            Ignác                     Chorinský z Ledské                       (1846-1896)     - [WILCZEK]
+	name="Ignác Chorinský z Ledské"
+	#dynasty=0
+	religion=catholic culture=german
+	1846.04.16={birth=yes}  # Salzburg
+	1872.01.01={add_spouse=wilczek_0070}	# Pauline Gabriele von Wilczek
+	1896.05.10={death=yes}  # Salzburg
+}
+lowborn_2829={ #            Mathilda                  Chorynská z Ledské                       (1871-1936)     3 [OPERSDORF]
+	name="Mathilda Chorynská z Ledské"
+	female=yes
+	religion=catholic culture=german
+	1871.01.15={birth=yes}  # Veselí nad Moravou
+	1936.06.29={death=yes}  # Thomaswaldau
+}
 
-100099281={ #    Gf         Karl Heinrich             von Zierotín                             (1645-1682)     - [COLOREDO]
+100099281={ #    Gf         Karl Heinrich             von Zierotín                             (1645-1682)     - [VALDBURG]
 	name="Karl Heinrich von Zierotín"
 	#dynasty=0
 	religion=catholic culture=german
@@ -346,6 +385,14 @@ lowborn_2787={ #            Viktorin                  ze Zierotína             
 	1583.01.01={birth=yes}  # EST.
 	1608.01.01={add_spouse=oppersdorf_0067}	# Ursula Sofia von Oppersdorff
 	1611.01.01={death=yes}
+}
+lowborn_3756={ #            Judita Kateřina           ze Zierotína                             (1633-1655)     0 [LODRON]
+	name="Judita Kateřina ze Zierotína"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1633.01.01={birth=yes}  # EST.
+	1655.01.01={death=yes}  # EST.
 }
 lowborn_2793={ #            Zuzana Kateřina           ze Zierotína                             (1635-1664)     1 [OPERSDORF]
 	name="Zuzana Kateřina ze Zierotína"
@@ -410,8 +457,8 @@ lowborn_3181={ # Gf         Franz Ludwig              ze Zierotína             
 	1600.01.01={birth=yes}
 	1634.01.01={death=yes}
 }
-100100189={ #               Karel Jindrich            ze Žerotína                              (1619-1689)     - [VALDSTEJNA]
-	name="Karel Jindrich ze Žerotína"
+100100189={ #               Karel Jindřich            ze Žerotína                              (1619-1689)     - [VALDSTEJNA]
+	name="Karel Jindřich ze Žerotína"
 	#dynasty=0
 	religion=catholic culture=czech
 	1619.01.01={birth=yes}
@@ -427,6 +474,123 @@ lowborn_3140={ #            Bernard                   ze Žerotína na Losíně 
 	1635.01.01={death=yes}  # EST.
 }
 
+100103999={ #               Ludmila Františka         Malowetz von Chejnov                     (1620-1695)     1 [WRATISLAV]
+	name="Ludmila Františka Malowetz von Chejnov"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1620.01.01={birth=yes}  # EST.
+	1695.01.01={death=yes}  # EST.
+}
+lowborn_1831={ #            František                 Malowetz von Chejnov                     (1727-1790)     - [KHUEN]
+	name="František Malowetz von Chejnov"
+	religion=catholic culture=german
+	1727.10.04={birth=yes}
+	1753.01.01={add_spouse=khuen_0029}	# Josefa Františka Sophie Khuen von Belasi
+	1790.07.29={death=yes}
+}
+100103990={ #               Václav František          Malowetz von Malowitz                    (1590-1640)     - [WRATISLAV]
+	name="Václav František Malowetz von Malowitz"
+	#dynasty=0
+	religion=catholic culture=czech
+	1590.01.01={birth=yes}
+	1626.09.20={add_spouse=100048069}	# Anna Kateřina Wratislav z Mitrowicz
+	1640.01.01={death=yes}
+}
+lowborn_3303={ #            Marie Anna                Malowetz von Malowitz                    (1717-1777)     4 [DEYM]
+	name="Marie Anna Malowetz von Malowitz"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1717.01.01={birth=yes}  # EST.
+	1777.01.01={death=yes}  # EST.
+}
+100103842={ #               Raimund Ignác             Malowetz von Malowitz                    (1721-1789)     - [VALDSTEJNA]
+	name="Raimund Ignác Malowetz von Malowitz"
+	#dynasty=0
+	religion=catholic culture=czech
+	1721.01.01={birth=yes}  # EST.
+	1746.01.01={add_spouse=100047867}	# Maria Karolina z Valdštejna
+	1789.06.25={death=yes}  # Bechyne
+}
+lowborn_1902={ #            Jáchym Jan Ignác          Malowetz von Malowitz u.Kosoř            (1645-1689)     - [RADETZKY]
+	name="Jáchym Jan Ignác Malowetz von Malowitz u.Kosoř"
+	religion=catholic culture=czech
+	1645.01.01={birth=yes}  # EST.
+	1669.01.01={add_spouse=radetzky_0016}	# Kateřina Radetzky von Radetz
+	1689.01.01={death=yes}
+}
+100103897={ #               Jan František             Malowetz von Malowitz u.Kosoř            (1670-1730)     - [WRATISLAV]
+	name="Jan František Malowetz von Malowitz u.Kosoř"
+	#dynasty=0
+	religion=catholic culture=czech
+	1670.01.01={birth=yes}
+	1700.01.01={add_spouse=100047968}	# Renata Anežka Wratislav z Mitrowicz
+	1730.09.20={death=yes}
+}
+lowborn_1905={ #            Jan Kryštof Antonín       Malowetz von Malowitz u.Kosoř            (1693-1724)     - [RADETZKY]
+	name="Jan Kryštof Antonín Malowetz von Malowitz u.Kosoř"
+	religion=catholic culture=czech
+	1693.01.01={birth=yes}  # EST.
+	1717.01.01={add_spouse=radetzky_0019}	# Barbara Anežka Radetzky von Radetz
+	1724.01.01={death=yes}
+}
+100103940={ #               Marie Johanka             Malowetz von Malowitz u.Kosoř            (1732-1799)     2 [WRATISLAV]
+	name="Marie Johanka Malowetz von Malowitz u.Kosoř"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1732.01.01={birth=yes}  # Pardubice
+	1799.03.23={death=yes}  # Prcice
+}
+100101540={ #    Frn        Eleonore                  Malowetz von Malowitz u.Kosoř            (1762-1816)     2 [BREUNER]
+	name="Eleonore Malowetz von Malowitz u.Kosoř"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1762.01.01={birth=yes}
+	1816.01.01={death=yes}
+}
+lowborn_3414={ #            Maria Josefa              Malowetz von Malowitz u.Kosoř            (1786-1856)     0 [KUENBURG]
+	name="Maria Josefa Malowetz von Malowitz u.Kosoř"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1786.01.01={birth=yes}  # EST.
+	1856.02.15={death=yes}  # Praha
+}
+100096035={ #    Frhr       Zdenko                    Malowetz von Malowitz u.Kosoř            (1820-1889)     - [ATEMS]
+	name="Zdenko Malowetz von Malowitz u.Kosoř"
+	#dynasty=0
+	religion=catholic culture=german
+	1820.05.08={birth=yes}
+	1845.02.03={add_spouse=100025251}	# Maria Oktavia von Attems
+	1889.04.22={death=yes}  # Prague
+}
+lowborn_5239={ # Bss        Emanuella                 Malowetz von Malowitz u.Kosoř            (1824-1858)     2 [VECSEY]
+	name="Emanuella Malowetz von Malowitz u.Kosoř"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1824.06.24={birth=yes}  # Leitmeritz
+	1858.12.05={death=yes}  # Legenye
+}
+100103862={ #               Lidmila                   Malowetz von Pacova                      (1527-1566)     1 [VALDSTEJNA]
+	name="Lidmila Malowetz von Pacova"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1527.01.01={birth=yes}  # EST.
+	1566.01.01={death=yes}
+}
+lowborn_2904={ #            Margareta Anna            von Malowetz                             (1717-1777)     0 [RADETZKY]
+	name="Margareta Anna von Malowetz"
+	female=yes
+	religion=catholic culture=czech
+	1717.01.01={birth=yes}  # EST.
+	1777.01.01={death=yes}  # EST.
+}
+
 100102782={ #               Zbynek                    Berka z Dubé                             (1531-1578)     - [LOBKOVICS]
 	name="Zbynek Berka z Dubé"
 	#dynasty=0
@@ -435,21 +599,13 @@ lowborn_3140={ #            Bernard                   ze Žerotína na Losíně 
 	1556.01.01={add_spouse=100047786}	# Veronika Popel z Lobkowicz
 	1578.03.06={death=yes}
 }
-100102743={ #    Gf         Jindrich Volf Hovora      Berka z Dubé                             (1580-1650)     - [LOBKOVICS]
-	name="Jindrich Volf Hovora Berka z Dubé"
+100102743={ #    Gf         Jindřich Volf Hovora      Berka z Dubé                             (1580-1650)     - [LOBKOVICS]
+	name="Jindřich Volf Hovora Berka z Dubé"
 	#dynasty=0
 	religion=catholic culture=czech
 	1580.01.01={birth=yes}
 	1640.01.01={add_spouse=100047755}	# Eleonora Popel z Lobkowicz
 	1650.01.01={death=yes}
-}
-100103732={ #               Kateřina                  Berka z Dubé                             (1581-1615)     1 [VALDSTEJNA]
-	name="Kateřina Berka z Dubé"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1581.01.01={birth=yes}  # EST.
-	1615.01.01={death=yes}  # EST.
 }
 lowborn_2791={ #            Václav                    Berka z Dubé                             (1582-1625)  2  - [LOBKOVICS, OPERSDORF]
 	name="Václav Berka z Dubé"
@@ -467,43 +623,21 @@ lowborn_2791={ #            Václav                    Berka z Dubé            
 	1612.10.21={add_spouse=100047758}	# Kateřina Ludmila Popel z Lobkowicz
 	1613.01.01={death=yes}
 }
-lowborn_2792={ #            Zuzana                    Berka z Dubé                             (1595-1635)     3 [OPERSDORF]
-	name="Zuzana Berka z Dubé"
-	female=yes
-	religion=catholic culture=german
-	1595.01.01={birth=yes}  # EST.
-	1635.01.01={death=yes}  # Königstein in Sachsen
-}
-lowborn_2796={ #            Kateřina Alžběta          Berka z Dubé                             (1595-1670)     0 [OPERSDORF]
-	name="Kateřina Alžběta Berka z Dubé"
-	female=yes
-	religion=catholic culture=german
-	1595.01.01={birth=yes}  # EST.
-	1670.01.01={death=yes}  # EST.
-}
-100100198={ #               Eliška Barbora            Berka z Dubé                             (1629-1704)     0 [VALDSTEJNA]
-	name="Eliška Barbora Berka z Dubé"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1629.01.01={birth=yes}
-	1704.01.01={death=yes}  # EST.
-}
-100095520={ #    Gfn        Anna                      Berka z Dubé                             (1648-1675)     0 [TRAUTMANSDORF]
-	name="Anna Berka z Dubé"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1648.01.01={birth=yes}  # EST.
-	1675.01.01={death=yes}
-}
-100100955={ #    Gf         Leo Burian                Berka z Dubé a Lipé                      (1592-1625)     - [WESTPHALEN]
+100100955={ #    Gf         Leo Burian                Berka z Dubé a Lipé                      (1592-1625)     - [VESTPHALEN]
 	name="Leo Burian Berka z Dubé a Lipé"
 	#dynasty=0
 	religion=catholic culture=german
 	1592.01.01={birth=yes}  # EST.
 	1617.10.22={add_spouse=100010324}	# Franziska von Fürstenberg
 	1625.03.28={death=yes}
+}
+lowborn_3668={ #            Anna Marie                Berková z Dubé                           (1560-1633)     1 [LODRON]
+	name="Anna Marie Berková z Dubé"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1560.01.01={birth=yes}
+	1633.03.16={death=yes}
 }
 lowborn_3109={ #            Veronika                  Berková z Dubé                           (1572-1616)     0 [LIBSTEJNSKY]
 	name="Veronika Berková z Dubé"
@@ -512,6 +646,44 @@ lowborn_3109={ #            Veronika                  Berková z Dubé          
 	religion=catholic culture=czech
 	1572.01.01={birth=yes}
 	1616.10.17={death=yes}  # before
+}
+100103732={ #               Kateřina                  Berková z Dubé                           (1581-1615)     1 [VALDSTEJNA]
+	name="Kateřina Berková z Dubé"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1581.01.01={birth=yes}  # EST.
+	1615.01.01={death=yes}  # EST.
+}
+lowborn_2792={ #            Zuzana                    Berková z Dubé                           (1595-1635)     3 [OPERSDORF]
+	name="Zuzana Berková z Dubé"
+	female=yes
+	religion=catholic culture=german
+	1595.01.01={birth=yes}  # EST.
+	1635.01.01={death=yes}  # Königstein in Sachsen
+}
+lowborn_2796={ #            Kateřina Alžběta          Berková z Dubé                           (1595-1670)     0 [OPERSDORF]
+	name="Kateřina Alžběta Berková z Dubé"
+	female=yes
+	religion=catholic culture=german
+	1595.01.01={birth=yes}  # EST.
+	1670.01.01={death=yes}  # EST.
+}
+100100198={ #               Eliška Barbora            Berková z Dubé                           (1629-1704)     0 [VALDSTEJNA]
+	name="Eliška Barbora Berková z Dubé"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1629.01.01={birth=yes}
+	1704.01.01={death=yes}  # EST.
+}
+100095520={ #    Gfn        Anna                      Berková z Dubé                           (1648-1675)     0 [TRAUTMANSDORF]
+	name="Anna Berková z Dubé"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1648.01.01={birth=yes}  # EST.
+	1675.01.01={death=yes}
 }
 lowborn_3133={ #            Kateřina                  Berková z Dubé Lipé                      (1577-1632)     3 [LIBSTEJNSKY]
 	name="Kateřina Berková z Dubé Lipé"
@@ -528,95 +700,6 @@ lowborn_3113={ #            Helena                    Berková z Dubé Lipé    
 	religion=catholic culture=czech
 	1589.01.01={birth=yes}  # EST.
 	1632.02.02={death=yes}
-}
-
-lowborn_3291={ # Gf         Albrecht                  Dubsky z Třebomyslic                     (1882-1962)     - [MITROWSKY]
-	name="Albrecht Dubsky z Třebomyslic"
-	#dynasty=0
-	religion=catholic culture=czech
-	1882.07.12={birth=yes}  # Lysice
-	1919.02.18={add_spouse=mitrovsky_0022}	# Juliana Mittrowsky von Mittrowitz
-	1962.10.11={death=yes}  # Wien
-}
-lowborn_3300={ #            Josefa                    Dubská z Třebomyslic                     (1705-1727)     0 [DEYM]
-	name="Josefa Dubská z Třebomyslic"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1705.01.01={birth=yes}  # EST.
-	1727.01.01={death=yes}  # EST.
-}
-100085803={ #    Gfn        Friederike                Dubský                                   (1829-1895)     4 [KINSKY]
-	name="Friederike Dubský"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1829.07.25={birth=yes}
-	1895.12.29={death=yes}
-}
-100085810={ #    Gf         Guido Bohuslaw            Dubský                                   (1835-1907)     - [KINSKY]
-	name="Guido Bohuslaw Dubský"
-	#dynasty=0
-	religion=catholic culture=czech
-	1835.03.19={birth=yes}
-	1877.07.25={add_spouse=100185809}	# Elisabeth Leopoldine Kinsky von Wchinitz u.Tettau
-	1907.02.22={death=yes}
-}
-100085813={ #    Gfn        Maria                     Dubský                                   (1864-1926)     2 [KINSKY]
-	name="Maria Dubský"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1864.10.26={birth=yes}
-	1926.04.17={death=yes}
-}
-100085815={ #    Gfn        Margareta                 Dubský                                   (1885-1968)     5 [KINSKY]
-	name="Margareta Dubský"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1885.05.05={birth=yes}
-	1968.04.12={death=yes}
-}
-100096580={ #    Gf         František Josef           Dubský z Trebomyslic                     (1784-1873)     - [KOLOVRAT]
-	name="František Josef Dubský z Trebomyslic"
-	#dynasty=0
-	religion=catholic culture=czech
-	1784.02.24={birth=yes}  # Petrovaradin
-	1840.06.21={add_spouse=100047181}	# Františka Xaverie Krakovský z Kolovrat
-	1873.03.13={death=yes}  # Wien
-}
-100094818={ #    Gf         Adolf Johann              Dubský z Trebomyslic                     (1833-1911)     - [BAKOCS]
-	name="Adolf Johann Dubský z Trebomyslic"
-	#dynasty=0
-	religion=catholic culture=czech
-	1833.03.06={birth=yes}
-	1860.01.01={add_spouse=100118252}	# Maria Gisela Gabriele Pálffy ab Erdöd
-	1911.08.02={death=yes}
-}
-100093287={ #    Gf         Viktor                    Dubský z Trebomyslic                     (1834-1915)     - [THUN]
-	name="Viktor Dubský z Trebomyslic"
-	#dynasty=0
-	religion=catholic culture=german
-	1834.03.06={birth=yes}
-	1873.08.14={add_spouse=100023682}	# Rosina von Thun u.Hohenstein
-	1915.07.16={death=yes}
-}
-100087520={ #    Gfn        Sophie                    Dubský z Trebomyslic                     (1836-1911)     5 [WALDBURG]
-	name="Sophie Dubský z Trebomyslic"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1836.01.01={birth=yes}  # EST.
-	1911.01.01={death=yes}  # EST.
-}
-lowborn_3154={ # Gf         Emanuel                   Dubský z Třebomyslic                     (1806-1881)     - [ZIEROTIN]
-	name="Emanuel Dubský z Třebomyslic"
-	#dynasty=0
-	religion=catholic culture=bavarian
-	1806.02.20={birth=yes}  # Wien
-	1833.06.12={add_spouse=zierotin_0031}	# Mathilde von Zierotin
-	1881.09.19={death=yes}  # Lissitz Moravia
 }
 
 100099178={ #               Elisabeth                 Schlik                                   (1522-1590)     0 [SCHWARZBURG]
@@ -651,7 +734,7 @@ lowborn_2788={ # Gf         Joachim Andreas           Schlik                    
 	1663.01.01={add_spouse=100007029}	# Christiane von Schönburg-Glauchau
 	1666.12.23={death=yes}
 }
-100099663={ #    Gf         Moritz                    Schlik zu Bassano u.Weißkirchen          (1524-1578)     - [COLOREDO]
+100099663={ #    Gf         Moritz                    Schlik zu Bassano u.Weißkirchen          (1524-1578)     - [VALDBURG]
 	name="Moritz Schlik zu Bassano u.Weißkirchen"
 	#dynasty=0
 	religion=catholic culture=german
@@ -667,7 +750,7 @@ lowborn_2788={ # Gf         Joachim Andreas           Schlik                    
 	1585.04.25={add_spouse=100012929}	# Anna Salome zu Oettingen-Oettingen
 	1585.12.01={death=yes}
 }
-100099617={ #    Gf         Ferdinand                 Schlik zu Bassano u.Weißkirchen          (1565-1618)     - [COLOREDO]
+100099617={ #    Gf         Ferdinand                 Schlik zu Bassano u.Weißkirchen          (1565-1618)     - [VALDBURG]
 	name="Ferdinand Schlik zu Bassano u.Weißkirchen"
 	#dynasty=0
 	religion=catholic culture=german
@@ -691,6 +774,14 @@ lowborn_2788={ # Gf         Joachim Andreas           Schlik                    
 	1652.01.01={add_spouse=100022835}	# Maria Anna von Liechtenstein
 	1652.01.01={death=yes}
 }
+lowborn_4125={ #            Vojtěch                   Šlik                                     (1490-1556)     - [UNGNAD]
+	name="Vojtěch Šlik"
+	#dynasty=0
+	religion=catholic culture=german
+	1490.01.01={birth=yes}
+	1516.01.01={add_spouse=ungnad_0007}	# Alžběta Ungnad von Weißenwolff
+	1556.01.01={death=yes}
+}
 lowborn_3122={ #            Alžběta                   Šlik                                     (1574-1606)     3 [LIBSTEJNSKY]
 	name="Alžběta Šlik"
 	female=yes
@@ -706,6 +797,95 @@ lowborn_3142={ #            Juliana                   Šlik                     
 	religion=catholic culture=czech
 	1579.01.01={birth=yes}  # EST.
 	1636.01.01={death=yes}  # EST.
+}
+
+100085803={ #    Gfn        Friederike                Dubská                                   (1829-1895)     4 [KINSKY]
+	name="Friederike Dubská"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1829.07.25={birth=yes}
+	1895.12.29={death=yes}
+}
+100085813={ #    Gfn        Maria                     Dubská                                   (1864-1926)     2 [KINSKY]
+	name="Maria Dubská"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1864.10.26={birth=yes}
+	1926.04.17={death=yes}
+}
+100085815={ #    Gfn        Margareta                 Dubská                                   (1885-1968)     5 [KINSKY]
+	name="Margareta Dubská"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1885.05.05={birth=yes}
+	1968.04.12={death=yes}
+}
+lowborn_3300={ #            Josefa                    Dubská z Třebomyslic                     (1705-1727)     0 [DEYM]
+	name="Josefa Dubská z Třebomyslic"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1705.01.01={birth=yes}  # EST.
+	1727.01.01={death=yes}  # EST.
+}
+100087520={ #    Gfn        Sophie                    Dubská z Třebomyslic                     (1836-1911)     5 [WALDBURG]
+	name="Sophie Dubská z Třebomyslic"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1836.01.01={birth=yes}  # EST.
+	1911.01.01={death=yes}  # EST.
+}
+100085810={ #    Gf         Guido Bohuslaw            Dubský                                   (1835-1907)     - [KINSKY]
+	name="Guido Bohuslaw Dubský"
+	#dynasty=0
+	religion=catholic culture=czech
+	1835.03.19={birth=yes}
+	1877.07.25={add_spouse=100185809}	# Elisabeth Leopoldine Kinsky von Wchinitz u.Tettau
+	1907.02.22={death=yes}
+}
+100096580={ #    Gf         František Josef           Dubský z Třebomyslic                     (1784-1873)     - [KRAKOVSKY]
+	name="František Josef Dubský z Třebomyslic"
+	#dynasty=0
+	religion=catholic culture=czech
+	1784.02.24={birth=yes}  # Petrovaradin
+	1840.06.21={add_spouse=100047181}	# Františka Xaverie Krakovský z Kolovrat
+	1873.03.13={death=yes}  # Wien
+}
+lowborn_3154={ # Gf         Emanuel                   Dubský z Třebomyslic                     (1806-1881)     - [ZIEROTIN]
+	name="Emanuel Dubský z Třebomyslic"
+	#dynasty=0
+	religion=catholic culture=bavarian
+	1806.02.20={birth=yes}  # Wien
+	1833.06.12={add_spouse=zierotin_0031}	# Mathilde von Zierotin
+	1881.09.19={death=yes}  # Lissitz Moravia
+}
+100094818={ #    Gf         Adolf Johann              Dubský z Třebomyslic                     (1833-1911)     - [PALFY]
+	name="Adolf Johann Dubský z Třebomyslic"
+	#dynasty=0
+	religion=catholic culture=czech
+	1833.03.06={birth=yes}
+	1860.01.01={add_spouse=100118252}	# Maria Gisela Gabriele Pálffy ab Erdöd
+	1911.08.02={death=yes}
+}
+100093287={ #    Gf         Viktor                    Dubský z Třebomyslic                     (1834-1915)     - [THUN]
+	name="Viktor Dubský z Třebomyslic"
+	#dynasty=0
+	religion=catholic culture=german
+	1834.03.06={birth=yes}
+	1873.08.14={add_spouse=100023682}	# Rosina von Thun u.Hohenstein
+	1915.07.16={death=yes}
+}
+lowborn_3291={ # Gf         Albrecht                  Dubský z Třebomyslic                     (1882-1962)     - [MITROWSKY]
+	name="Albrecht Dubský z Třebomyslic"
+	#dynasty=0
+	religion=catholic culture=czech
+	1882.07.12={birth=yes}  # Lysice
+	1919.02.18={add_spouse=mitrovsky_0022}	# Juliana Mittrowsky von Mittrowitz
+	1962.10.11={death=yes}  # Wien
 }
 
 lowborn_3069={ #            Johann Heinrich           Kotz von Dobrz                           (1660-1703)     0 [MORZIN]
@@ -732,7 +912,7 @@ lowborn_3069={ #            Johann Heinrich           Kotz von Dobrz            
 	1809.03.19={birth=yes}
 	1869.11.09={death=yes}  # Praha
 }
-100096656={ #    Frhr       Václav                    Kotz von Dobrz                           (1842-1912)     - [KOLOVRAT]
+100096656={ #    Frhr       Václav                    Kotz von Dobrz                           (1842-1912)     - [KRAKOVSKY]
 	name="Václav Kotz von Dobrz"
 	#dynasty=0
 	religion=catholic culture=czech
@@ -840,7 +1020,7 @@ lowborn_2061={ # Css        Walpurga                  Pražma                   
 	1866.09.01={add_spouse=100005920}	# Elisabeth von Stolberg-Stolberg
 	1909.12.25={death=yes}
 }
-100089221={ #    Gf         Friedrich Leopold         Pražma                                   (1900-2000)     - [HOHENLOHE]
+100089221={ #    Gf         Friedrich Leopold         Pražma                                   (1900-2000)     - [FUGER]
 	name="Friedrich Leopold Pražma"
 	religion=catholic culture=german
 	1900.06.12={birth=yes}  # Drensteinfurt
@@ -860,6 +1040,74 @@ lowborn_2767={ # Gf         Karel Štěpán              Pražma z Bílkova     
 	1648.01.01={birth=yes}  # EST.
 	1672.01.01={add_spouse=oppersdorf_0046}	# Ludovika von Oppersdorff
 	1708.01.01={death=yes}  # EST.
+}
+
+100094218={ #               Karel                     Záruba z Hustířan                        (1566-1616)     - [VALDSTEJNA]
+	name="Karel Záruba z Hustířan"
+	#dynasty=0
+	religion=catholic culture=czech
+	1566.01.01={birth=yes}  # EST.
+	1591.01.01={add_spouse=100047314}	# Anna z Valdštejna
+	1616.01.01={death=yes}
+}
+100102721={ #               Václav                    Záruba z Hustířan                        (1580-1610)     - [LOBKOVICS]
+	name="Václav Záruba z Hustířan"
+	#dynasty=0
+	religion=catholic culture=czech
+	1580.01.01={birth=yes}  # EST.
+	1605.01.01={add_spouse=100047733}	# Ludmila Popel z Lobkowicz
+	1610.01.01={death=yes}
+}
+lowborn_2738={ #            Hartvík                   Záruba z Hustířan                        (1586-1639)     - [OPERSDORF]
+	name="Hartvík Záruba z Hustířan"
+	religion=catholic culture=german
+	1586.12.24={birth=yes}
+	1601.09.16={add_spouse=oppersdorf_0016}	# Elisabeta von Oppersdorff
+	1639.09.25={death=yes}  # Brno
+}
+lowborn_2860={ #            František Karel           Záruba z Hustířan                        (1658-1714)     - [UGARTE]
+	name="František Karel Záruba z Hustířan"
+	religion=catholic culture=german
+	1658.01.01={birth=yes}
+	1684.01.01={add_spouse=ugarte_0008}	# Maria Maximiliana Ugarte
+	1714.01.01={death=yes}
+}
+lowborn_2757={ # Gf         Josef Antonín             Záruba z Hustířan                        (1683-1744)     - [OPERSDORF]
+	name="Josef Antonín Záruba z Hustířan"
+	religion=catholic culture=german
+	1683.01.01={birth=yes}
+	1706.01.01={add_spouse=oppersdorf_0037}	# Anna Eleonora von Oppersdorff
+	1744.01.06={death=yes}  # Kostelec
+}
+100103803={ #               Magdalena                 Zárubová z Hustířan                      (1634-1702)     0 [VALDSTEJNA]
+	name="Magdalena Zárubová z Hustířan"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1634.04.03={birth=yes}
+	1702.02.19={death=yes}
+}
+lowborn_3150={ #            Maxmiliana Veronika       Zárubová z Hustířan                      (1660-1733)     1 [LIBSTEJNSKY]
+	name="Maxmiliana Veronika Zárubová z Hustířan"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1660.12.06={birth=yes}
+	1733.03.31={death=yes}  # Praha
+}
+lowborn_2756={ # Gfn        Anna Františka            Zárubová z Hustířan                      (1664-1720)     2 [OPERSDORF]
+	name="Anna Františka Zárubová z Hustířan"
+	female=yes
+	religion=catholic culture=german
+	1664.01.01={birth=yes}  # EST.
+	1720.11.01={death=yes}  # Jihlava
+}
+100090198={ #    Gfn        Maria Anna                Zárubová z Hustířan                      (1726-1753)     0 [SALM]
+	name="Maria Anna Zárubová z Hustířan"
+	female=yes
+	religion=catholic culture=german
+	1726.01.01={birth=yes}  # EST.
+	1753.01.01={death=yes}
 }
 
 100091649={ #               Johana                    ze Švamberka                             (1476-1508)     2 [LOBKOVICS]
@@ -934,7 +1182,7 @@ lowborn_2785={ #            Petr                      ze Švamberka             
 	1659.04.30={death=yes}
 }
 
-100099456={ #               Karel                     von Wartemberg                           (1552-1612)     - [COLOREDO]
+100099456={ #               Karel                     von Wartemberg                           (1552-1612)     - [VALDBURG]
 	name="Karel von Wartemberg"
 	#dynasty=0
 	religion=catholic culture=german
@@ -942,7 +1190,7 @@ lowborn_2785={ #            Petr                      ze Švamberka             
 	1577.01.01={add_spouse=100010686}	# Katharina von Mansfeld
 	1612.08.13={death=yes}
 }
-100099641={ #    Gfn        Anna Sybilla              von Wartemberg                           (1588-1663)     0 [COLOREDO]
+100099641={ #    Gfn        Anna Sybilla              von Wartemberg                           (1588-1663)     0 [VALDBURG]
 	name="Anna Sybilla von Wartemberg"
 	female=yes
 	#dynasty=0
@@ -966,7 +1214,7 @@ lowborn_3134={ #            Zdeněk                    z Valdštejna            
 	1631.01.01={add_spouse=kolowrat_0100}	# Anna Libštejnský z Kolovrat
 	1641.01.01={death=yes}  # EST.
 }
-100080432={ #               Voršila                   z Vartemberka                            (1466-1536)     2 [VALDSTEJNA]
+100080432={ #               Voršila                   z Vartemberka                            (1490-1536)     2 [VALDSTEJNA]
 	name="Voršila z Vartemberka"
 	female=yes
 	#dynasty=0
@@ -1070,72 +1318,69 @@ lowborn_3054={ # Gfn        Maria Josephine           Czernin z Chudenicz       
 	1768.01.01={death=yes}
 }
 
-100094218={ #               Karel                     Záruba z Hustířan                        (1566-1616)     - [VALDSTEJNA]
-	name="Karel Záruba z Hustířan"
+100100219={ #    Gf         Jáchym                    Slavata z Chlumu Košumberka              (1560-1630)     - [VALDSTEJNA]
+	name="Jáchym Slavata z Chlumu Košumberka"
 	#dynasty=0
 	religion=catholic culture=czech
-	1566.01.01={birth=yes}  # EST.
-	1591.01.01={add_spouse=100047314}	# Anna z Valdštejna
-	1616.01.01={death=yes}
+	1560.01.01={birth=yes}
+	1588.01.01={add_spouse=100047609}	# Marie z Valdštejna
+	1630.01.01={death=yes}
 }
-100102721={ #               Václav                    Záruba z Hustířan                        (1580-1610)     - [LOBKOVICS]
-	name="Václav Záruba z Hustířan"
+100099580={ #    Gf         Adam                      Slavata z Chlumu Košumberka              (1562-1616)     - [VALDBURG]
+	name="Adam Slavata z Chlumu Košumberka"
 	#dynasty=0
-	religion=catholic culture=czech
-	1580.01.01={birth=yes}  # EST.
-	1605.01.01={add_spouse=100047733}	# Ludmila Popel z Lobkowicz
-	1610.01.01={death=yes}
-}
-lowborn_2738={ #            Hartvík                   Záruba z Hustířan                        (1586-1639)     - [OPERSDORF]
-	name="Hartvík Záruba z Hustířan"
 	religion=catholic culture=german
-	1586.12.24={birth=yes}
-	1601.09.16={add_spouse=oppersdorf_0016}	# Elisabeta von Oppersdorff
-	1639.09.25={death=yes}  # Brno
+	1562.01.01={birth=yes}  # EST.
+	1587.01.01={add_spouse=100010696}	# Sibilla von Mansfeld
+	1616.02.27={death=yes}
 }
-lowborn_2860={ #            František Karel           Záruba z Hustířan                        (1658-1714)     - [UGARTE]
-	name="František Karel Záruba z Hustířan"
+100101201={ #    Gf         František Leopold         Slavata z Chlumu Košumberka              (1639-1691)     - [STARHEMBERG]
+	name="František Leopold Slavata z Chlumu Košumberka"
+	#dynasty=0
 	religion=catholic culture=german
-	1658.01.01={birth=yes}
-	1684.01.01={add_spouse=ugarte_0008}	# Maria Maximiliana Ugarte
-	1714.01.01={death=yes}
+	1639.01.01={birth=yes}
+	1689.01.01={add_spouse=100024747}	# Apollonia von Starhemberg
+	1691.01.26={death=yes}
 }
-lowborn_2757={ # Gf         Josef Antonín             Záruba z Hustířan                        (1683-1744)     - [OPERSDORF]
-	name="Josef Antonín Záruba z Hustířan"
-	religion=catholic culture=german
-	1683.01.01={birth=yes}
-	1706.01.01={add_spouse=oppersdorf_0037}	# Anna Eleonora von Oppersdorff
-	1744.01.06={death=yes}  # Kostelec
-}
-100103803={ #               Magdalena                 Zárubová z Hustířan                      (1634-1702)     0 [VALDSTEJNA]
-	name="Magdalena Zárubová z Hustířan"
+100090663={ #               Kateřina                  Slavatová z Chlumu                       (1524-1569)     4 [VALDSTEJNA]
+	name="Kateřina Slavatová z Chlumu"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=czech
-	1634.04.03={birth=yes}
-	1702.02.19={death=yes}
+	1524.01.01={birth=yes}  # EST.
+	1569.10.01={death=yes}  # EST.
 }
-lowborn_3150={ #            Maxmiliana Veronika       Zárubová z Hustířan                      (1660-1733)     1 [LIBSTEJNSKY]
-	name="Maxmiliana Veronika Zárubová z Hustířan"
+100095293={ #    Gfn        Marie Karolína            Slavatová z Chlumu Košumberka            (1662-1716)     3 [TRAUTMANSDORF]
+	name="Marie Karolína Slavatová z Chlumu Košumberka"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=czech
-	1660.12.06={birth=yes}
-	1733.03.31={death=yes}  # Praha
+	1662.07.05={birth=yes}  # Praha
+	1716.09.10={death=yes}  # Praha
 }
-lowborn_2756={ # Gfn        Anna Františka            Zárubová z Hustířan                      (1664-1720)     2 [OPERSDORF]
-	name="Anna Františka Zárubová z Hustířan"
+100095284={ #    Gfn        Marie Agnes               Slavatová z Chlumu Košumberka            (1672-1718)     4 [SALM]
+	name="Marie Agnes Slavatová z Chlumu Košumberka"
 	female=yes
+	#dynasty=0
 	religion=catholic culture=german
-	1664.01.01={birth=yes}  # EST.
-	1720.11.01={death=yes}  # Jihlava
+	1672.07.22={birth=yes}
+	1718.10.21={death=yes}
 }
-100090198={ #    Gfn        Maria Anna                Záruba von Hustířan                      (1726-1753)     0 [SALM]
-	name="Maria Anna Záruba von Hustířan"
+lowborn_3078={ # Gfn        Marie Magdalena           Slavatová z Chlumu Košumberka            (1673-1700)     2 [LIBSTEJNSKY]
+	name="Marie Magdalena Slavatová z Chlumu Košumberka"
 	female=yes
+	#dynasty=0
+	religion=catholic culture=bavarian
+	1673.03.30={birth=yes}  # Wien
+	1700.08.09={death=yes}  # Chroustovice
+}
+lowborn_3192={ # Gfn        Maria Theresia            Slavatová z Chlumu Košumberka            (1675-1699)     0 [WINDISCH]
+	name="Maria Theresia Slavatová z Chlumu Košumberka"
+	female=yes
+	#dynasty=0
 	religion=catholic culture=german
-	1726.01.01={birth=yes}  # EST.
-	1753.01.01={death=yes}
+	1675.01.01={birth=yes}  # EST.
+	1699.04.28={death=yes}
 }
 
 lowborn_3301={ #            Anna                      Woracziczky z Pabienitz                  (1711-1790)     1 [DEYM]
@@ -1146,7 +1391,7 @@ lowborn_3301={ #            Anna                      Woracziczky z Pabienitz   
 	1711.07.09={birth=yes}  # Maletz,  in Praha
 	1790.01.01={death=yes}
 }
-100096424={ #    Gf         Antal Heinrich            Woracziczky z Pabienitz                  (1754-1795)     - [DOCSY]
+100096424={ #    Gf         Antal Heinrich            Woracziczky z Pabienitz                  (1754-1795)     - [BATHYANY]
 	name="Antal Heinrich Woracziczky z Pabienitz"
 	#dynasty=0
 	religion=catholic culture=czech
@@ -1177,8 +1422,8 @@ lowborn_2903={ #            Eleonora                  Woracziczky z Pabienitz Bi
 	1809.01.26={birth=yes}  # Prague
 	1898.01.10={death=yes}  # Prague
 }
-100103931={ #               Jáchym Jindrich           Woracziczky z Pabienitz a Bissingen      (1781-1838)     - [WRATISLAV]
-	name="Jáchym Jindrich Woracziczky z Pabienitz a Bissingen"
+100103931={ #               Jáchym Jindřich           Woracziczky z Pabienitz a Bissingen      (1781-1838)     - [WRATISLAV]
+	name="Jáchym Jindřich Woracziczky z Pabienitz a Bissingen"
 	#dynasty=0
 	religion=catholic culture=czech
 	1781.03.28={birth=yes}  # Praha
@@ -1201,180 +1446,68 @@ lowborn_1861={ #            Jan                       Woracziczky z Pabienitz a 
 	1939.12.17={death=yes}  # Monostor
 }
 
-100103999={ #               Ludmila Františka         Malovec z Chýnova                        (1620-1695)     1 [WRATISLAV]
-	name="Ludmila Františka Malovec z Chýnova"
+lowborn_2771={ #            Eleonora Franziska        Skrbenská z Hříště                       (1779-1857)     1 [OPERSDORF]
+	name="Eleonora Franziska Skrbenská z Hříště"
 	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1620.01.01={birth=yes}  # EST.
-	1695.01.01={death=yes}  # EST.
-}
-lowborn_1831={ #            František                 Malovec z Chýnova                        (1727-1790)     - [KHUEN]
-	name="František Malovec z Chýnova"
 	religion=catholic culture=german
-	1727.10.04={birth=yes}
-	1753.01.01={add_spouse=khuen_0029}	# Josefa Františka Sophie Khuen von Belasi
-	1790.07.29={death=yes}
+	1779.10.08={birth=yes}  # Schönhof
+	1857.07.06={death=yes}  # Schloss Schreibersdorf
 }
-100103990={ #               Václav František          Malovec z Malovic                        (1590-1640)     - [WRATISLAV]
-	name="Václav František Malovec z Malovic"
-	#dynasty=0
-	religion=catholic culture=czech
-	1590.01.01={birth=yes}
-	1626.09.20={add_spouse=100048069}	# Anna Kateřina Wratislav z Mitrowicz
-	1640.01.01={death=yes}
-}
-100103842={ #               Raimund Ignác             Malovec z Malovic                        (1721-1789)     - [VALDSTEJNA]
-	name="Raimund Ignác Malovec z Malovic"
-	#dynasty=0
-	religion=catholic culture=czech
-	1721.01.01={birth=yes}  # EST.
-	1746.01.01={add_spouse=100047867}	# Maria Karolina z Valdštejna
-	1789.06.25={death=yes}  # Bechyne
-}
-lowborn_1902={ #            Jáchym Jan Ignác          Malovec z Malovic A Kosoře               (1645-1689)     - [RADETZKY]
-	name="Jáchym Jan Ignác Malovec z Malovic A Kosoře"
-	religion=catholic culture=czech
-	1645.01.01={birth=yes}  # EST.
-	1669.01.01={add_spouse=radetzky_0016}	# Kateřina Radetzky von Radetz
-	1689.01.01={death=yes}
-}
-lowborn_1905={ #            Jan Kryštof Antonín       Malovec z Malovic A Kosoře               (1693-1724)     - [RADETZKY]
-	name="Jan Kryštof Antonín Malovec z Malovic A Kosoře"
-	religion=catholic culture=czech
-	1693.01.01={birth=yes}  # EST.
-	1717.01.01={add_spouse=radetzky_0019}	# Barbara Anežka Radetzky von Radetz
-	1724.01.01={death=yes}
-}
-100103897={ #               Jan František             Malovec z Malovic Košore                 (1670-1730)     - [WRATISLAV]
-	name="Jan František Malovec z Malovic Košore"
-	#dynasty=0
-	religion=catholic culture=czech
-	1670.01.01={birth=yes}
-	1700.01.01={add_spouse=100047968}	# Renata Anežka Wratislav z Mitrowicz
-	1730.09.20={death=yes}
-}
-100103940={ #               Marie Johanka             Malovec z Malovic Košore                 (1732-1799)     2 [WRATISLAV]
-	name="Marie Johanka Malovec z Malovic Košore"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1732.01.01={birth=yes}  # Pardubice
-	1799.03.23={death=yes}  # Prcice
-}
-
-lowborn_3141={ #            Ernestina Kristina        Skrbenská z Hrzistie                     (1784-1859)     4 [ZIEROTIN]
-	name="Ernestina Kristina Skrbenská z Hrzistie"
+lowborn_3141={ #            Ernestina Kristina        Skrbenská z Hříště                       (1784-1859)     4 [ZIEROTIN]
+	name="Ernestina Kristina Skrbenská z Hříště"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=czech
 	1784.01.01={birth=yes}  # EST.
 	1859.01.01={death=yes}  # EST.
 }
-lowborn_2771={ #            Eleonora Franziska        Skrbenská z Hříštie                      (1779-1857)     1 [OPERSDORF]
-	name="Eleonora Franziska Skrbenská z Hříštie"
-	female=yes
-	religion=catholic culture=german
-	1779.10.08={birth=yes}  # Schönhof
-	1857.07.06={death=yes}  # Schloss Schreibersdorf
-}
-100101537={ #    Frhr       Karl Joseph               Skrbenský z Hríšte                       (1723-1757)     - [BREUNER]
-	name="Karl Joseph Skrbenský z Hríšte"
+100101537={ #    Frhr       Karl Joseph               Skrbenský z Hříště                       (1723-1757)     - [BREUNER]
+	name="Karl Joseph Skrbenský z Hříště"
 	#dynasty=0
 	religion=catholic culture=german
 	1723.01.01={birth=yes}  # EST.
 	1748.04.21={add_spouse=100022153}	# Maria Theresia von Breunner
 	1757.06.18={death=yes}  # Kolín
 }
-100092924={ #    Frhr       Otto Karl                 Skrbenský z Hríšte                       (1732-1770)     - [PODSTATZKY]
-	name="Otto Karl Skrbenský z Hríšte"
+100092924={ #    Frhr       Otto Karl                 Skrbenský z Hříště                       (1732-1770)     - [PODSTATZKY]
+	name="Otto Karl Skrbenský z Hříště"
 	#dynasty=0
 	religion=catholic culture=czech
 	1732.01.01={birth=yes}  # EST.
 	1757.01.06={add_spouse=100047230}	# Antonia von Podstatzky
 	1770.01.01={death=yes}  # EST.
 }
-100096411={ #    Frn        Josepha                   Skrbenský z Hríšte                       (1776-1851)     7 [SCHAFGOTSCH]
-	name="Josepha Skrbenský z Hríšte"
+100096411={ #    Frn        Josepha                   Skrbenský z Hříště                       (1776-1851)     7 [SCHAFGOTSCH]
+	name="Josepha Skrbenský z Hříště"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=german
 	1776.09.11={birth=yes}  # Schönhof
 	1851.02.19={death=yes}
 }
-100090310={ #    Frhr       Philipp                   Skrbenský z Hríšte                       (1789-1867)     - [ERDODY]
-	name="Philipp Skrbenský z Hríšte"
+100090310={ #    Frhr       Philipp                   Skrbenský z Hříště                       (1789-1867)     - [ERDODY]
+	name="Philipp Skrbenský z Hříště"
 	#dynasty=0
 	religion=catholic culture=czech
 	1789.10.21={birth=yes}
 	1833.01.07={add_spouse=100117058}	# Franziska Erdődy de Monyorókerék et Monoszló
 	1867.07.18={death=yes}
 }
-100096763={ #    Frhr       Jan                       Skrbenský z Hríšte                       (1868-1942)     - [KOLOVRAT]
-	name="Jan Skrbenský z Hríšte"
-	#dynasty=0
-	religion=catholic culture=czech
-	1868.04.24={birth=yes}
-	1897.01.12={add_spouse=100047070}	# Malvína Krakovský z Kolovrat
-	1942.01.01={death=yes}  # EST.
-}
-lowborn_3449={ #            Anton                     Skrbenský z Hříštì                       (1860-1914)     - [KUENBURG]
-	name="Anton Skrbenský z Hříštì"
+lowborn_3449={ #            Anton                     Skrbenský z Hříště                       (1860-1914)     - [KUENBURG]
+	name="Anton Skrbenský z Hříště"
 	#dynasty=0
 	religion=catholic culture=czech
 	1860.08.22={birth=yes}  # Jihlava
 	1882.12.23={add_spouse=kuenburg_0055}	# Desirée von Kuenburg
 	1914.08.23={death=yes}  # Ilcza
 }
-
-100094496={ #    Gf         Hans Adam                 Hrzán von Harras                         (1635-1681)  2  - [LAMBERG, VALDSTEJNA]
-	name="Hans Adam Hrzán von Harras"
-	#dynasty=0
-	religion=catholic culture=german
-	1635.01.01={birth=yes}  # EST.
-	1656.01.01={add_spouse=100047345}	# Marie Maximiliana z Valdštejna
-	1660.05.09={add_spouse=100024767}	# Maria Isabella von Lamberg
-	1681.01.22={death=yes}
-}
-100085710={ #    Gf         Ferdinand Karl            Hrzán von Harras                         (1667-1725)     - [KINSKY]
-	name="Ferdinand Karl Hrzán von Harras"
+100096763={ #    Frhr       Jan                       Skrbenský z Hříště                       (1868-1942)     - [KRAKOVSKY]
+	name="Jan Skrbenský z Hříště"
 	#dynasty=0
 	religion=catholic culture=czech
-	1667.01.01={birth=yes}
-	1711.07.02={add_spouse=100185708}	# Anna Franziska Kinsky von Wchinitz u.Tettau
-	1725.01.01={death=yes}
-}
-100100183={ #    Gfn        Marie Polyxena            Hrzán z Harasova                         (1620-1663)     4 [VALDSTEJNA]
-	name="Marie Polyxena Hrzán z Harasova"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1620.01.01={birth=yes}  # EST.
-	1663.05.14={death=yes}
-}
-lowborn_2923={ #            Marie Elisabeth           Hrzán z Harasova                         (1620-1677)     5 [MORZIN]
-	name="Marie Elisabeth Hrzán z Harasova"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1620.01.01={birth=yes}  # EST.
-	1677.01.01={death=yes}  # EST.
-}
-lowborn_3077={ # Gfn        Johanka Magdalena         Hrzán z Harasova                         (1649-1685)     1 [LIBSTEJNSKY]
-	name="Johanka Magdalena Hrzán z Harasova"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1649.10.04={birth=yes}
-	1685.11.15={death=yes}  # Praha
-}
-lowborn_3048={ #            Luise                     Hrzán z Harasova                         (1778-1847)     1 [MORZIN]
-	name="Luise Hrzán z Harasova"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1778.01.01={birth=yes}  # EST.
-	1847.04.02={death=yes}
+	1868.04.24={birth=yes}
+	1897.01.12={add_spouse=100047070}	# Malvína Krakovský z Kolovrat
+	1942.01.01={death=yes}  # EST.
 }
 
 100086904={ #    Gfn        Barbara Theresia          Kokorzowecz                              (1673-1727)     0 [CLARY]
@@ -1385,7 +1518,7 @@ lowborn_3048={ #            Luise                     Hrzán z Harasova         
 	1673.01.01={birth=yes}
 	1727.01.01={death=yes}
 }
-100101240={ #    Gfn        Marie Anna                Kokorzowecz z Kokorzowa                  (1651-1687)  2  4 [VALDSTEJNA, WESTPHALEN]
+100101240={ #    Gfn        Marie Anna                Kokorzowecz z Kokorzowa                  (1651-1687)  2  4 [VALDSTEJNA, VESTPHALEN]
 	name="Marie Anna Kokorzowecz z Kokorzowa"
 	female=yes
 	#dynasty=0
@@ -1435,69 +1568,114 @@ lowborn_3120={ #            Petr                      Kokořovec z Kokořova    
 	1588.01.01={death=yes}  # EST.
 }
 
-100100219={ #    Gf         Jáchym                    Slavata z Chlumu Košumberka              (1560-1630)     - [VALDSTEJNA]
-	name="Jáchym Slavata z Chlumu Košumberka"
+100097578={ #    Gfn        Maria Anna                Kottulinsky                              (1707-1788)     0 [LIECHTENSTEIN]
+	name="Maria Anna Kottulinsky"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1707.05.12={birth=yes}
+	1788.02.06={death=yes}
+}
+lowborn_3803={ #            Angelina                  Kottulinsky                              (1738-1786)     1 [LODRON]
+	name="Angelina Kottulinsky"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1738.01.01={birth=yes}  # EST.
+	1786.01.01={death=yes}
+}
+100099607={ #    Gf         Rudolf Josef              Kottulinsky                              (1810-1892)     - [SCHONBURG]
+	name="Rudolf Josef Kottulinsky"
 	#dynasty=0
 	religion=catholic culture=czech
-	1560.01.01={birth=yes}
-	1588.01.01={add_spouse=100047609}	# Marie z Valdštejna
-	1630.01.01={death=yes}
+	1810.09.13={birth=yes}  # Neudau
+	1860.10.24={add_spouse=100006851}	# Mathilde von Schönburg-Glauchau
+	1892.08.11={death=yes}  # Linz
 }
-100099580={ #    Gf         Adam                      Slavata z Chlumu Košumberka              (1562-1616)     - [COLOREDO]
-	name="Adam Slavata z Chlumu Košumberka"
+100101595={ #    Gf         Rudolf                    Kottulinsky                              (1855-1916)     - [LAMBERG]
+	name="Rudolf Kottulinsky"
+	#dynasty=0
+	religion=catholic culture=czech
+	1855.06.03={birth=yes}  # Graz
+	1897.01.06={add_spouse=100026147}	# Anna von Lamberg
+	1916.07.23={death=yes}  # Linz
+}
+100087669={ #    Gf         Adalbert                  Kottulinsky                              (1904-1979)     - [SCHENK]
+	name="Adalbert Kottulinsky"
 	#dynasty=0
 	religion=catholic culture=german
-	1562.01.01={birth=yes}  # EST.
-	1587.01.01={add_spouse=100010696}	# Sibilla von Mansfeld
-	1616.02.27={death=yes}
+	1904.03.27={birth=yes}  # Salzburg
+	1928.01.12={add_spouse=100013256}	# Maria Schenk von Stauffenberg
+	1979.01.01={death=yes}  # EST.
 }
-100101201={ #    Gf         František Leopold         Slavata z Chlumu Košumberka              (1639-1691)     - [STARHEMBERG]
-	name="František Leopold Slavata z Chlumu Košumberka"
+100103805={ #               Leopold Friedrich         Kottulinsky z Kotulína                   (1640-1730)     - [VALDSTEJNA]
+	name="Leopold Friedrich Kottulinsky z Kotulína"
+	#dynasty=0
+	religion=catholic culture=czech
+	1640.01.01={birth=yes}
+	1660.01.01={add_spouse=100047839}	# Maria z Valdštejna
+	1730.07.29={death=yes}
+}
+lowborn_2770={ #            Juliana Voršila           Kotulínská z Křížkovic                   (1651-1711)     1 [OPERSDORF]
+	name="Juliana Voršila Kotulínská z Křížkovic"
+	female=yes
+	religion=catholic culture=german
+	1651.01.01={birth=yes}  # EST.
+	1711.01.01={death=yes}  # EST.
+}
+
+100089005={ #    Gfn        Emanuela                  Sedlnitzky                               (1740-1790)     3 [TOERING]
+	name="Emanuela Sedlnitzky"
+	female=yes
 	#dynasty=0
 	religion=catholic culture=german
-	1639.01.01={birth=yes}
-	1689.01.01={add_spouse=100024747}	# Apollonia von Starhemberg
-	1691.01.26={death=yes}
+	1740.12.18={birth=yes}
+	1790.07.14={death=yes}
 }
-100095293={ #    Gfn        Marie Karolína            Slavata z Chlumu Košumberka              (1662-1716)     3 [TRAUTMANSDORF]
-	name="Marie Karolína Slavata z Chlumu Košumberka"
+lowborn_3550={ #            Teresa                    Sedlnitzky von Choltitz                  (1643-1703)     2 [ARCO]
+	name="Teresa Sedlnitzky von Choltitz"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=czech
-	1662.07.05={birth=yes}  # Praha
-	1716.09.10={death=yes}  # Praha
+	1643.01.01={birth=yes}  # EST.
+	1703.01.01={death=yes}  # EST.
 }
-100095284={ #    Gfn        Marie Agnes               Slavata z Chlumu Košumberka              (1672-1718)     4 [SALM]
-	name="Marie Agnes Slavata z Chlumu Košumberka"
+lowborn_1964={ # Gf         Karl Julius               Sedlnitzky von Choltitz                  (1653-1731)     - [NOSTITZ]
+	name="Karl Julius Sedlnitzky von Choltitz"
+	religion=catholic culture=german
+	1653.12.30={birth=yes}
+	1688.01.01={add_spouse=nostitz_0042}	# Maria Johanna von Nostitz-Rokitnitz
+	1731.01.06={death=yes}
+}
+lowborn_2773={ # Gfn        Karolina                  Sedlnitzky von Choltitz                  (1811-1839)     2 [OPERSDORF]
+	name="Karolina Sedlnitzky von Choltitz"
+	female=yes
+	religion=catholic culture=german
+	1811.12.09={birth=yes}  # Opava
+	1839.01.12={death=yes}  # Wroclaw
+}
+lowborn_2790={ #            Petr                      Sedlnitzky z Choltitz                    (1586-1613)     - [OPERSDORF]
+	name="Petr Sedlnitzky z Choltitz"
+	religion=catholic culture=german
+	1586.01.01={birth=yes}  # EST.
+	1611.01.01={add_spouse=oppersdorf_0068}	# Susana von Oppersdorff
+	1613.02.18={death=yes}
+}
+100036431={ #               Maria Theresia            Sedlnitzky z Choltitz                    (1810-1834)     1 [HARACH]
+	name="Maria Theresia Sedlnitzky z Choltitz"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=german
-	1672.07.22={birth=yes}
-	1718.10.21={death=yes}
+	1810.08.26={birth=yes}  # Opava
+	1834.09.23={death=yes}  # Dresden
 }
-100090663={ #               Kateřina                  Slavatová z Chlumu                       (1524-1569)     4 [VALDSTEJNA]
-	name="Kateřina Slavatová z Chlumu"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1524.01.01={birth=yes}  # EST.
-	1569.10.01={death=yes}  # EST.
-}
-lowborn_3078={ # Gfn        Marie Magdalena           Slavatová z Chlumu Košumberka            (1673-1700)     2 [LIBSTEJNSKY]
-	name="Marie Magdalena Slavatová z Chlumu Košumberka"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=bavarian
-	1673.03.30={birth=yes}  # Wien
-	1700.08.09={death=yes}  # Chroustovice
-}
-lowborn_3192={ # Gfn        Maria Theresia            Slavata von Chlum und Koschumberg        (1675-1699)     0 [WINDISCH]
-	name="Maria Theresia Slavata von Chlum und Koschumberg"
-	female=yes
+100103520={ #    Frhr       Ernst                     Sedlnitzky-Odrowąż von Choltitz          (1841-1904)     - [SERENYI]
+	name="Ernst Sedlnitzky-Odrowąż von Choltitz"
 	#dynasty=0
 	religion=catholic culture=german
-	1675.01.01={birth=yes}  # EST.
-	1699.04.28={death=yes}
+	1841.11.23={birth=yes}  # Brünn
+	1871.07.10={add_spouse=100116832}	# Ilka Serényi de Kisserény
+	1904.01.30={death=yes}  # Görz
 }
 
 100102768={ #               Bedřich                   z Talmberka                              (1573-1643)     - [LOBKOVICS]
@@ -1605,6 +1783,56 @@ lowborn_2859={ #            Marie Rebeka              z Bubna a Litic           
 	1746.08.21={death=yes}  # Praha
 }
 
+100094496={ #    Gf         Hans Adam                 Hrzán von Harras                         (1635-1681)  2  - [LAMBERG, VALDSTEJNA]
+	name="Hans Adam Hrzán von Harras"
+	#dynasty=0
+	religion=catholic culture=german
+	1635.01.01={birth=yes}  # EST.
+	1656.01.01={add_spouse=100047345}	# Marie Maximiliana z Valdštejna
+	1660.05.09={add_spouse=100024767}	# Maria Isabella von Lamberg
+	1681.01.22={death=yes}
+}
+100085710={ #    Gf         Ferdinand Karl            Hrzán von Harras                         (1667-1725)     - [KINSKY]
+	name="Ferdinand Karl Hrzán von Harras"
+	#dynasty=0
+	religion=catholic culture=czech
+	1667.01.01={birth=yes}
+	1711.07.02={add_spouse=100185708}	# Anna Franziska Kinsky von Wchinitz u.Tettau
+	1725.01.01={death=yes}
+}
+100100183={ #    Gfn        Marie Polyxena            Hrzán z Harasova                         (1620-1663)     4 [VALDSTEJNA]
+	name="Marie Polyxena Hrzán z Harasova"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1620.01.01={birth=yes}  # EST.
+	1663.05.14={death=yes}
+}
+lowborn_2923={ #            Marie Elisabeth           Hrzán z Harasova                         (1620-1677)     5 [MORZIN]
+	name="Marie Elisabeth Hrzán z Harasova"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1620.01.01={birth=yes}  # EST.
+	1677.01.01={death=yes}  # EST.
+}
+lowborn_3077={ # Gfn        Johanka Magdalena         Hrzán z Harasova                         (1649-1685)     1 [LIBSTEJNSKY]
+	name="Johanka Magdalena Hrzán z Harasova"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1649.10.04={birth=yes}
+	1685.11.15={death=yes}  # Praha
+}
+lowborn_3048={ #            Luise                     Hrzán z Harasova                         (1778-1847)     1 [MORZIN]
+	name="Luise Hrzán z Harasova"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1778.01.01={birth=yes}  # EST.
+	1847.04.02={death=yes}
+}
+
 100103555={ #    Gfn        Franziska                 Kořensky von Tereschau                   (1771-1824)     1 [ATEMS]
 	name="Franziska Kořensky von Tereschau"
 	female=yes
@@ -1652,62 +1880,6 @@ lowborn_2839={ #            Amalia Margareta          Kořensky z Tereškova    
 	1790.01.01={death=yes}
 }
 
-100097578={ #    Gfn        Maria Anna                Kottulinsky                              (1707-1788)     0 [LIECHTENSTEIN]
-	name="Maria Anna Kottulinsky"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1707.05.12={birth=yes}
-	1788.02.06={death=yes}
-}
-100099607={ #    Gf         Rudolf Josef              Kottulinsky                              (1810-1892)     - [SCHONBURG]
-	name="Rudolf Josef Kottulinsky"
-	#dynasty=0
-	religion=catholic culture=czech
-	1810.09.13={birth=yes}  # Neudau
-	1860.10.24={add_spouse=100006851}	# Mathilde von Schönburg-Glauchau
-	1892.08.11={death=yes}  # Linz
-}
-100101595={ #    Gf         Rudolf                    Kottulinsky                              (1855-1916)     - [LAMBERG]
-	name="Rudolf Kottulinsky"
-	#dynasty=0
-	religion=catholic culture=czech
-	1855.06.03={birth=yes}  # Graz
-	1897.01.06={add_spouse=100026147}	# Anna von Lamberg
-	1916.07.23={death=yes}  # Linz
-}
-100087669={ #    Gf         Adalbert                  Kottulinsky                              (1904-1979)     - [SCHENK]
-	name="Adalbert Kottulinsky"
-	#dynasty=0
-	religion=catholic culture=german
-	1904.03.27={birth=yes}  # Salzburg
-	1928.01.12={add_spouse=100013256}	# Maria Schenk von Stauffenberg
-	1979.01.01={death=yes}  # EST.
-}
-100103805={ #               Leopold Friedrich         Kottulinsky z Kotulína                   (1640-1730)     - [VALDSTEJNA]
-	name="Leopold Friedrich Kottulinsky z Kotulína"
-	#dynasty=0
-	religion=catholic culture=czech
-	1640.01.01={birth=yes}
-	1660.01.01={add_spouse=100047839}	# Maria z Valdštejna
-	1730.07.29={death=yes}
-}
-lowborn_2770={ #            Juliana Voršila           Kotulínská z Křížkovic                   (1651-1711)     1 [OPERSDORF]
-	name="Juliana Voršila Kotulínská z Křížkovic"
-	female=yes
-	religion=catholic culture=german
-	1651.01.01={birth=yes}  # EST.
-	1711.01.01={death=yes}  # EST.
-}
-lowborn_3803={ #            Angelina                  Kottulinsky                              (1738-1786)     1 [LODRON]
-	name="Angelina Kotulinsky"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1738.01.01={birth=yes}  # EST.
-	1786.01.01={death=yes}
-}
-
 lowborn_2828={ #            Jan Adam                  Rašín z Ryzmburka                        (1719-1803)     - [CARETO]
 	name="Jan Adam Rašín z Ryzmburka"
 	religion=catholic culture=czech
@@ -1753,50 +1925,53 @@ lowborn_2749={ #            Filipína                  Rašínová z Rýzmburka 
 	1781.06.09={death=yes}  # Praha
 }
 
-100089005={ #    Gfn        Emanuela                  Sedlnitzky                               (1740-1790)     3 [TOERING]
-	name="Emanuela Sedlnitzky"
+100094008={ #    Gf         Curt                      Zedtwitz von Moraván u.Duppau            (1849-1933)     - [ASKANIER]
+	name="Curt Zedtwitz von Moraván u.Duppau"
+	#dynasty=0
+	religion=catholic culture=german
+	1849.12.14={birth=yes}
+	1882.06.22={add_spouse=100002562}	# Margarete zur Lippe-Weißenfeld
+	1933.02.19={death=yes}
+}
+100094009={ #    Gfn        Margit                    Zedtwitz von Moraván u.Duppau            (1886-1973)     0 [ASKANIER]
+	name="Margit Zedtwitz von Moraván u.Duppau"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=german
-	1740.12.18={birth=yes}
-	1790.07.14={death=yes}
+	1886.09.30={birth=yes}
+	1973.10.25={death=yes}
 }
-lowborn_1964={ # Gf         Karl Julius               Sedlnitzky von Choltitz                  (1653-1731)     - [NOSTITZ]
-	name="Karl Julius Sedlnitzky von Choltitz"
-	religion=catholic culture=german
-	1653.12.30={birth=yes}
-	1688.01.01={add_spouse=nostitz_0042}	# Maria Johanna von Nostitz-Rokitnitz
-	1731.01.06={death=yes}
-}
-lowborn_2773={ # Gfn        Karolina                  Sedlnitzky von Choltitz                  (1811-1839)     2 [OPERSDORF]
-	name="Karolina Sedlnitzky von Choltitz"
-	female=yes
-	religion=catholic culture=german
-	1811.12.09={birth=yes}  # Opava
-	1839.01.12={death=yes}  # Wroclaw
-}
-lowborn_2790={ #            Petr                      Sedlnitzky z Choltitz                    (1586-1613)     - [OPERSDORF]
-	name="Petr Sedlnitzky z Choltitz"
-	religion=catholic culture=german
-	1586.01.01={birth=yes}  # EST.
-	1611.01.01={add_spouse=oppersdorf_0068}	# Susana von Oppersdorff
-	1613.02.18={death=yes}
-}
-100036431={ #               Maria Theresia            Sedlnitzky z Choltitz                    (1810-1834)     1 [HARACH]
-	name="Maria Theresia Sedlnitzky z Choltitz"
-	female=yes
+lowborn_3987={ #            Utz                       Zedtwitz von Moraván und Duppau          (1873-1933)     - [WILCZEK]
+	name="Utz Zedtwitz von Moraván und Duppau"
 	#dynasty=0
 	religion=catholic culture=german
-	1810.08.26={birth=yes}  # Opava
-	1834.09.23={death=yes}  # Dresden
+	1873.01.01={birth=yes}  # EST.
+	1897.09.23={add_spouse=wilczek_0082}	# Marie Iphigenie von Wilczek
+	1933.01.01={death=yes}  # EST.
 }
-100103520={ #    Frhr       Ernst                     Sedlnitzky-Odrowaz von Choltitz          (1841-1904)     - [SERENYI]
-	name="Ernst Sedlnitzky-Odrowaz von Choltitz"
+100093860={ #    Frhr       Johann Franz              von Zedtwitz                             (1743-1784)     - [AUERSPERG]
+	name="Johann Franz von Zedtwitz"
 	#dynasty=0
 	religion=catholic culture=german
-	1841.11.23={birth=yes}  # Brünn
-	1871.07.10={add_spouse=100116832}	# Ilka Serényi de Kisserény
-	1904.01.30={death=yes}  # Görz
+	1743.01.01={birth=yes}  # EST.
+	1768.08.21={add_spouse=100021884}	# Josefa von Auersperg
+	1784.03.17={death=yes}  # Temesvár
+}
+100098632={ #    Gf         Franz                     von Zedtwitz                             (1857-1914)     - [BETHLEN]
+	name="Franz von Zedtwitz"
+	#dynasty=0
+	religion=catholic culture=german
+	1857.08.14={birth=yes}
+	1885.11.18={add_spouse=100117159}	# Olívia Bethlen de Bethlen
+	1914.12.18={death=yes}  # Schönbach
+}
+100096883={ #    Gf         Johann                    von Zedtwitz-Liebenstein                 (1840-1899)     - [KRAKOVSKY]
+	name="Johann von Zedtwitz-Liebenstein"
+	#dynasty=0
+	religion=catholic culture=german
+	1840.10.21={birth=yes}
+	1882.01.21={add_spouse=100047174}	# Marie Krakovský z Kolovrat
+	1899.03.01={death=yes}
 }
 
 100104005={ #               Anna Ludmila              Bechinie z Lažan                         (1550-1625)     1 [WRATISLAV]
@@ -1878,7 +2053,7 @@ lowborn_3305={ #            Anna                      Bechinie z Lažan         
 	1935.05.23={add_spouse=100186299}	# Sylvia Franziska Czernin v.u.zu Chudenitz
 	1988.09.23={death=yes}
 }
-100088576={ #    Frhr       Christian                 Nádherný v.Borutin                       (1939-2009)     - [ORSINI]
+100088576={ #    Frhr       Christian                 Nádherný v.Borutin                       (1939-2009)     - [VITELSBAC]
 	name="Christian Nádherný v.Borutin"
 	#dynasty=0
 	religion=catholic culture=german
@@ -1895,47 +2070,6 @@ lowborn_3351={ #            Oskar                     Nádherný z Borutína    
 	1952.04.29={death=yes}  # Měšice u Tábora
 }
 
-lowborn_3129={ #            Jan Adam                  Hroznata z Vrtby                         (1607-1652)     0 [LIBSTEJNSKY]
-	name="Jan Adam Hroznata z Vrtby"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1607.01.01={birth=yes}  # EST.
-	1652.01.01={death=yes}
-}
-lowborn_0672={ #            Eliška                    z Vrtby                                  (1480-1520)     3 [LIBSTEJNSKY]
-	name="Eliška z Vrtby"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1480.01.01={birth=yes}  # EST.
-	1520.11.29={death=yes}
-}
-100081150={ #    Gf         Sezima Jan                z Vrtby                                  (1605-1648)     - [CLAM]
-	name="Sezima Jan z Vrtby"
-	#dynasty=0
-	religion=catholic culture=czech
-	1605.01.01={birth=yes}  # EST.
-	1630.01.01={add_spouse=100186792}	# Barbara Eusebia Martinic
-	1648.03.06={death=yes}
-}
-lowborn_3114={ #            Kateřina                  z Vrtby                                  (1609-1653)     0 [LIBSTEJNSKY]
-	name="Kateřina z Vrtby"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1609.01.01={birth=yes}  # EST.
-	1653.01.01={death=yes}
-}
-100103919={ #    Gf         František Arnošt          z Vrtby                                  (1674-1750)     - [WRATISLAV]
-	name="František Arnošt z Vrtby"
-	#dynasty=0
-	religion=catholic culture=czech
-	1674.01.01={birth=yes}
-	1707.01.01={add_spouse=100047990}	# Maria Anna Wratislav z Mitrowicz
-	1750.04.11={death=yes}
-}
-
 lowborn_3009={ # Frhr       Oldřich                   Kaunitz                                  (1569-1617)     - [VALDSTEJNA]
 	name="Oldřich Kaunitz"
 	# dynasty=0
@@ -1944,7 +2078,7 @@ lowborn_3009={ # Frhr       Oldřich                   Kaunitz                  
 	1590.10.02={add_spouse=waldstein_0023}	# Apollonia z Valdštejna
 	1617.02.24={death=yes}  # bef
 }
-100095597={ #               Eusebia Benigna           von Kaunitz                              (1580-1650)     1 [BAKOCS]
+100095597={ #               Eusebia Benigna           von Kaunitz                              (1580-1650)     1 [PALFY]
 	name="Eusebia Benigna von Kaunitz"
 	female=yes
 	#dynasty=0
@@ -1968,7 +2102,7 @@ lowborn_3009={ # Frhr       Oldřich                   Kaunitz                  
 	1612.01.01={birth=yes}
 	1675.01.01={death=yes}
 }
-100104230={ #    Gfn        Maria                     von Kaunitz                              (1642-1676)     0 [HOHENLOHE]
+100104230={ #    Gfn        Maria                     von Kaunitz                              (1642-1676)     0 [FUGER]
 	name="Maria von Kaunitz"
 	female=yes
 	#dynasty=0
@@ -2013,47 +2147,6 @@ lowborn_2800={ # Gfn        Johana Barbora            Žďárský ze Žďáru   
 	religion=catholic culture=czech
 	1644.01.01={birth=yes}  # EST.
 	1709.03.01={death=yes}
-}
-
-100094008={ #    Gf         Curt                      Zedtwitz von Moraván u.Duppau            (1849-1933)     - [SAUMBURG]
-	name="Curt Zedtwitz von Moraván u.Duppau"
-	#dynasty=0
-	religion=catholic culture=german
-	1849.12.14={birth=yes}
-	1882.06.22={add_spouse=100002562}	# Margarete zur Lippe-Weißenfeld
-	1933.02.19={death=yes}
-}
-100094009={ #    Gfn        Margit                    Zedtwitz von Moraván u.Duppau            (1886-1973)     0 [SAUMBURG]
-	name="Margit Zedtwitz von Moraván u.Duppau"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1886.09.30={birth=yes}
-	1973.10.25={death=yes}
-}
-100093860={ #    Frhr       Johann Franz              von Zedtwitz                             (1743-1784)     - [AUERSPERG]
-	name="Johann Franz von Zedtwitz"
-	#dynasty=0
-	religion=catholic culture=german
-	1743.01.01={birth=yes}  # EST.
-	1768.08.21={add_spouse=100021884}	# Josefa von Auersperg
-	1784.03.17={death=yes}  # Temesvár
-}
-100098632={ #    Gf         Franz                     von Zedtwitz                             (1857-1914)     - [BETHLEN]
-	name="Franz von Zedtwitz"
-	#dynasty=0
-	religion=catholic culture=german
-	1857.08.14={birth=yes}
-	1885.11.18={add_spouse=100117159}	# Olívia Bethlen de Bethlen
-	1914.12.18={death=yes}  # Schönbach
-}
-100096883={ #    Gf         Johann                    von Zedtwitz-Liebenstein                 (1840-1899)     - [KOLOVRAT]
-	name="Johann von Zedtwitz-Liebenstein"
-	#dynasty=0
-	religion=catholic culture=german
-	1840.10.21={birth=yes}
-	1882.01.21={add_spouse=100047174}	# Marie Krakovský z Kolovrat
-	1899.03.01={death=yes}
 }
 
 100101539={ #               Johanna Josepha           Mladota ze Solopisk                      (1741-1776)     0 [BREUNER]
@@ -2185,7 +2278,7 @@ lowborn_2805={ #            František Pavel           Harant z Polžic         
 	1924.04.16={birth=yes}
 	1996.09.30={death=yes}  # Praha
 }
-100086774={ #    Gf         Bedřich                   Hrubý z Gelenj                           (1927-2004)     - [STERNBERG]
+100086774={ #    Gf         Bedřich                   Hrubý z Gelenj                           (1927-2004)     - [SAUMBURG]
 	name="Bedřich Hrubý z Gelenj"
 	#dynasty=0
 	religion=catholic culture=czech
@@ -2193,7 +2286,7 @@ lowborn_2805={ #            František Pavel           Harant z Polžic         
 	1960.09.12={add_spouse=100047519}	# Terezie ze Šternberka
 	2004.01.01={death=yes}  # EST.
 }
-100086739={ #    Gfn        Alžbeta                   Hrubý z Gelenj                           (1929-2006)     1 [STERNBERG]
+100086739={ #    Gfn        Alžbeta                   Hrubý z Gelenj                           (1929-2006)     1 [SAUMBURG]
 	name="Alžbeta Hrubý z Gelenj"
 	female=yes
 	#dynasty=0
@@ -2313,7 +2406,7 @@ lowborn_2761={ #            Štěpán                    Bruntálský z Vrbna   
 	1612.01.01={birth=yes}
 	1690.03.16={death=yes}
 }
-100086477={ #    Gf         Ferdinand Oktavian        von Wrbna u.Freudenthal                  (1669-1695)     - [OLDENBURG]
+100086477={ #    Gf         Ferdinand Oktavian        von Wrbna u.Freudenthal                  (1669-1695)     - [STAEL]
 	name="Ferdinand Oktavian von Wrbna u.Freudenthal"
 	#dynasty=0
 	religion=catholic culture=german
@@ -2321,7 +2414,7 @@ lowborn_2761={ #            Štěpán                    Bruntálský z Vrbna   
 	1694.01.01={add_spouse=100009291}	# Marie Sibylle von Oldenburg
 	1695.12.21={death=yes}
 }
-100083263={ #    Gf         Wenzel Albrecht           von Wrbna u.Freudenthal                  (1689-1732)     - [WESTPHALEN]
+100083263={ #    Gf         Wenzel Albrecht           von Wrbna u.Freudenthal                  (1689-1732)     - [VESTPHALEN]
 	name="Wenzel Albrecht von Wrbna u.Freudenthal"
 	#dynasty=0
 	religion=catholic culture=german
@@ -2330,36 +2423,37 @@ lowborn_2761={ #            Štěpán                    Bruntálský z Vrbna   
 	1732.09.11={death=yes}  # Liegnitz
 }
 
-lowborn_3303={ #            Marie Anna                Malovcová z Malovic                      (1717-1777)     4 [DEYM]
-	name="Marie Anna Malovcová z Malovic"
+lowborn_0672={ #            Eliška                    z Vrtby                                  (1480-1520)     3 [LIBSTEJNSKY]
+	name="Eliška z Vrtby"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=czech
-	1717.01.01={birth=yes}  # EST.
-	1777.01.01={death=yes}  # EST.
+	1480.01.01={birth=yes}  # EST.
+	1520.11.29={death=yes}
 }
-lowborn_3414={ #            Maria Josefa              Malovcová z Malovic a Kosoře             (1786-1856)     0 [KUENBURG]
-	name="Maria Josefa Malovcová z Malovic a Kosoře"
+100081150={ #    Gf         Sezima Jan                z Vrtby                                  (1605-1648)     - [CLAM]
+	name="Sezima Jan z Vrtby"
+	#dynasty=0
+	religion=catholic culture=czech
+	1605.01.01={birth=yes}  # EST.
+	1630.01.01={add_spouse=100186792}	# Barbara Eusebia Martinic
+	1648.03.06={death=yes}
+}
+lowborn_3114={ #            Kateřina                  z Vrtby                                  (1609-1653)     0 [LIBSTEJNSKY]
+	name="Kateřina z Vrtby"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=czech
-	1786.01.01={birth=yes}  # EST.
-	1856.02.15={death=yes}  # Praha
+	1609.01.01={birth=yes}  # EST.
+	1653.01.01={death=yes}
 }
-100103862={ #               Lidmila                   Malovcová z Pacova                       (1527-1566)     1 [VALDSTEJNA]
-	name="Lidmila Malovcová z Pacova"
-	female=yes
+100103919={ #    Gf         František Arnošt          z Vrtby                                  (1674-1750)     - [WRATISLAV]
+	name="František Arnošt z Vrtby"
 	#dynasty=0
 	religion=catholic culture=czech
-	1527.01.01={birth=yes}  # EST.
-	1566.01.01={death=yes}
-}
-lowborn_2904={ #            Margareta Anna            z Malovic                                (1717-1777)     0 [RADETZKY]
-	name="Margareta Anna z Malovic"
-	female=yes
-	religion=catholic culture=czech
-	1717.01.01={birth=yes}  # EST.
-	1777.01.01={death=yes}  # EST.
+	1674.01.01={birth=yes}
+	1707.01.01={add_spouse=100047990}	# Maria Anna Wratislav z Mitrowicz
+	1750.04.11={death=yes}
 }
 
 lowborn_3224={ #            František Václav          Reisky z Dubnic                          (1693-1763)     - [LAZANSKY]
@@ -2498,30 +2592,6 @@ lowborn_1608={ # Gfn        Marie Františka           Hýzrle z Chodů         
 	1701.07.19={death=yes}  # Riga
 }
 
-lowborn_3155={ # Gf         Jan Václav                Holický ze Šternberka                    (1681-1712)     - [LIBSTEJNSKY]
-	name="Jan Václav Holický ze Šternberka"
-	#dynasty=0
-	religion=catholic culture=czech
-	1681.01.01={birth=yes}  # EST.
-	1706.09.28={add_spouse=kolowrat_0139}	# Marie Ludmila Libštejnský z Kolovrat
-	1712.04.12={death=yes}
-}
-lowborn_3206={ #            Maria Maximiliana         ze Šternberka                            (1642-1664)     0 [LAZANSKY]
-	name="Maria Maximiliana ze Šternberka"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1642.01.01={birth=yes}  # EST.
-	1664.01.01={death=yes}  # EST.
-}
-lowborn_1816={ #            Marie Anna                ze Šternberka                            (1667-1699)     3 [KAUNITZ]
-	name="Marie Anna ze Šternberka"
-	female=yes
-	religion=catholic culture=german
-	1667.01.01={birth=yes}  # EST.
-	1699.01.01={death=yes}
-}
-
 100103968={ #               Marie Anna                Bešinová z Bešin                         (1748-1823)     0 [WRATISLAV]
 	name="Marie Anna Bešinová z Bešin"
 	female=yes
@@ -2570,6 +2640,31 @@ lowborn_2164={ #            Václav                    Dobrzenský z Dobrzenicz 
 	1783.10.08={death=yes}  # Dobřenice, buried in Dobřenice
 }
 
+100103843={ #    Frhr       Pribík                    Jeníšek z Újezda                         (1680-1716)     - [VALDSTEJNA]
+	name="Pribík Jeníšek z Újezda"
+	#dynasty=0
+	religion=catholic culture=czech
+	1680.01.01={birth=yes}
+	1704.01.01={add_spouse=100047868}	# Anna z Valdštejna
+	1716.07.27={death=yes}
+}
+100103883={ #               Jan Josef                 Jeníšek z Újezda                         (1686-1720)     - [WRATISLAV]
+	name="Jan Josef Jeníšek z Újezda"
+	#dynasty=0
+	religion=catholic culture=czech
+	1686.01.01={birth=yes}
+	1703.11.18={add_spouse=100047979}	# Kateřina Rosa Wratislav z Mitrowicz
+	1720.01.01={death=yes}  # Praha
+}
+lowborn_3290={ #            Anna Ludmila              Jeníšková z Újezda                       (1645-1669)     1 [DEYM]
+	name="Anna Ludmila Jeníšková z Újezda"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1645.12.13={birth=yes}  # Březnice
+	1669.09.10={death=yes}  # Březnice. rodičové pravděpodobně podle LVDP Children by JENÍŠKOVÁ Z ÚJEZDA Anna Ludmila
+}
+
 100103926={ #               Josef Bedřich             Henigar ze Seeberka                      (1779-1851)     - [WRATISLAV]
 	name="Josef Bedřich Henigar ze Seeberka"
 	#dynasty=0
@@ -2591,30 +2686,6 @@ lowborn_2350={ #            Jan                       Henigar-Godart ze Seeberka
 	1805.06.22={birth=yes}  # Praha
 	1836.05.16={add_spouse=desfours_0123}	# Luisa von Des Fours
 	1868.04.15={death=yes}  # Příbram
-}
-
-lowborn_3061={ #            Alžběta                   Kavková z Říčan                          (1546-1585)     0 [LIBSTEJNSKY]
-	name="Alžběta Kavková z Říčan"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1546.01.01={birth=yes}  # EST.
-	1585.03.06={death=yes}
-}
-100101306={ #               Sebestian Jan             z Rican                                  (1604-1679)     - [WESTPHALEN]
-	name="Sebestian Jan z Rican"
-	religion=catholic culture=german
-	1604.01.01={birth=yes}
-	1644.01.01={add_spouse=100011508}	# Anna Albertina von Fürstenberg
-	1679.01.01={death=yes}  # EST.
-}
-100103894={ #               Veronika Johanka          z Rícan                                  (1652-1723)     4 [WRATISLAV]
-	name="Veronika Johanka z Rícan"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1652.01.01={birth=yes}
-	1723.12.07={death=yes}  # Praha
 }
 
 lowborn_2852={ # Frhr       Jan Josef                 Kfelíř ze Zakšova                        (1702-1762)     - [CARETO]
@@ -2744,6 +2815,22 @@ lowborn_2748={ #            Anna                      Vrabská z Vrabí         
 	1694.04.08={add_spouse=100047966}	# Kunigunde Wratislav z Mitrowicz
 	1706.11.15={death=yes}  # Schlapanow.
 }
+lowborn_3298={ #            Josefa                    Janovská z Janovic                       (1715-1775)     0 [DEYM]
+	name="Josefa Janovská z Janovic"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1715.01.01={birth=yes}  # EST.
+	1775.01.01={death=yes}  # EST.
+}
+100103896={ #    Gf         František Jirí            Janovský z Janovic                       (1660-1737)     - [WRATISLAV]
+	name="František Jirí Janovský z Janovic"
+	#dynasty=0
+	religion=catholic culture=czech
+	1660.01.01={birth=yes}
+	1695.01.24={add_spouse=100047967}	# Josefa Wratislav z Mitrowicz
+	1737.11.13={death=yes}  # Kotaun
+}
 lowborn_3065={ # Gfn        Marie Anna                z Klenové                                (1722-1782)     0 [MORZIN]
 	name="Marie Anna z Klenové"
 	female=yes
@@ -2807,21 +2894,20 @@ lowborn_3012={ #            Veronika                  Trčková z Lípy         
 	1577.01.01={birth=yes}  # EST.
 	1610.01.01={death=yes}
 }
-lowborn_3298={ #            Josefa                    Janovská z Janovic                       (1715-1775)     0 [DEYM]
-	name="Josefa Janovská z Janovic"
-	female=yes
+lowborn_3784={ #            Adam                      Wratislaw z Mitrowicz                    (1655-1715)     - [LODRON]
+	name="Adam Wratislaw z Mitrowicz"
 	#dynasty=0
 	religion=catholic culture=czech
-	1715.01.01={birth=yes}  # EST.
-	1775.01.01={death=yes}  # EST.
+	1655.01.01={birth=yes}  # EST.
+	1679.01.01={add_spouse=lodron_0271}	# Konstantina Katharina zu Lodron-Laterano u.Castelromano
+	1715.01.01={death=yes}  # EST.
 }
-100103896={ #    Gf         František Jirí            Janovský z Janovic                       (1660-1737)     - [WRATISLAV]
-	name="František Jirí Janovský z Janovic"
-	#dynasty=0
+lowborn_1044={ # Gfn        Antonia                   Wratislaw-Mitrowsky                      (1798-1858)     1 [GYULAY]
+	name="Antonia Wratislaw-Mitrowsky"
+	female=yes
 	religion=catholic culture=czech
-	1660.01.01={birth=yes}
-	1695.01.24={add_spouse=100047967}	# Josefa Wratislav z Mitrowicz
-	1737.11.13={death=yes}  # Kotaun
+	1798.01.01={birth=yes}  # EST.
+	1858.12.01={death=yes}  # EST.
 }
 lowborn_1823={ #            Kateřina                  Beřkovský ze Šebířova                    (1595-1640)     3 [RADETZKY]
 	name="Kateřina Beřkovský ze Šebířova"
@@ -2885,36 +2971,37 @@ lowborn_3110={ #            Alena                     Bohdanecká z Hodkova     
 	1636.01.01={birth=yes}  # EST.
 	1657.01.01={death=yes}
 }
-100103849={ #               Marie Anna                Chanovská z Dlouhé Vsi                   (1724-1753)     0 [VALDSTEJNA]
-	name="Marie Anna Chanovská z Dlouhé Vsi"
+lowborn_2661={ #            Anna                      z Boršnic                                (1454-1514)     3 [OPERSDORF]
+	name="Anna z Boršnic"
+	female=yes
+	religion=catholic culture=german
+	1454.01.01={birth=yes}  # EST.
+	1514.01.01={death=yes}  # EST.
+}
+lowborn_3730={ #            Markéta                   z Boršnic                                (1581-1641)     3 [HAUGWITZ]
+	name="Markéta z Boršnic"
 	female=yes
 	#dynasty=0
-	religion=catholic culture=czech
-	1724.01.01={birth=yes}  # EST.
-	1753.01.01={death=yes}  # EST.
+	religion=lutheran culture=german
+	1581.01.01={birth=yes}  # EST.
+	1641.01.01={death=yes}  # EST.
 }
-lowborn_1914={ #            Jan Josef                 z Dlouhé Vsi                             (1716-1793)     - [RADETZKY]
-	name="Jan Josef z Dlouhé Vsi"
-	religion=catholic culture=czech
-	1716.01.01={birth=yes}
-	1764.01.01={add_spouse=radetzky_0028}	# Marie Anna Radetzky von Radetz
-	1793.03.08={death=yes}
-}
-100103843={ #    Frhr       Pribík                    Jeníšek z Újezda                         (1680-1716)     - [VALDSTEJNA]
-	name="Pribík Jeníšek z Újezda"
+lowborn_7956={ #            Adrian                    des Enffans d'Avernas                    (1771-1863)     1 [WILCZEK]
+	name="Adrian des Enffans d'Avernas"
 	#dynasty=0
-	religion=catholic culture=czech
-	1680.01.01={birth=yes}
-	1704.01.01={add_spouse=100047868}	# Anna z Valdštejna
-	1716.07.27={death=yes}
+	religion=catholic culture=german
+	1771.05.03={birth=yes}  # Tournay
+	1809.04.04={add_spouse=wilczek_0036}	# Maria Karoline von Wilczek
+	1863.04.28={death=yes}  # Neuschloss,Steiermark
 }
-100103883={ #               Jan Josef                 Jeníšek z Újezda                         (1686-1720)     - [WRATISLAV]
-	name="Jan Josef Jeníšek z Újezda"
+lowborn_7971={ #            Heinrich                  des Enffans d'Avernas                    (1814-1901)  2  - [WILCZEK, WILCZEK]
+	name="Heinrich des Enffans d'Avernas"
 	#dynasty=0
-	religion=catholic culture=czech
-	1686.01.01={birth=yes}
-	1703.11.18={add_spouse=100047979}	# Kateřina Rosa Wratislav z Mitrowicz
-	1720.01.01={death=yes}  # Praha
+	religion=catholic culture=german
+	1814.12.28={birth=yes}  # Graz
+	1850.08.15={add_spouse=wilczek_0056}	# Henriette Karoline von Wilczek
+	1864.10.06={add_spouse=wilczek_0057}	# Marie Josephine von Wilczek
+	1901.08.13={death=yes}  # Neuschloss, Steiermark
 }
 lowborn_3117={ #            Zikuna                    z Gutštejna                              (1533-1593)    11 [LIBSTEJNSKY]
 	name="Zikuna z Gutštejna"
@@ -2932,6 +3019,37 @@ lowborn_3117={ #            Zikuna                    z Gutštejna              
 	1683.01.01={add_spouse=100047950}	# Polyxena Kateřina Wratislav z Mitrowicz
 	1690.01.01={death=yes}
 }
+lowborn_3953={ #            Marie Beatrix             Hardegg                                  (1772-1836)     1 [WILCZEK]
+	name="Marie Beatrix Hardegg"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1772.03.19={birth=yes}  # Milano
+	1836.10.04={death=yes}  # Inzendorf
+}
+lowborn_7934={ #            Johann                    von Hardegg zu Glatz                     (1737-1810)     - [WILCZEK]
+	name="Johann von Hardegg zu Glatz"
+	#dynasty=0
+	religion=catholic culture=german
+	1737.07.10={birth=yes}  # Harras
+	1761.08.03={add_spouse=wilczek_0020}	# Maria Josefa von Wilczek
+	1810.05.07={death=yes}  # Wien
+}
+lowborn_2772={ #            Anna Helena               Jakardovská ze Sudic                     (1629-1661)     4 [OPERSDORF]
+	name="Anna Helena Jakardovská ze Sudic"
+	female=yes
+	religion=catholic culture=german
+	1629.01.01={birth=yes}  # EST.
+	1661.05.23={death=yes}  # Brno
+}
+lowborn_3292={ #            Kateřina Františka        Jakardovská ze Sudic                     (1679-1739)     3 [DEYM]
+	name="Kateřina Františka Jakardovská ze Sudic"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1679.01.01={birth=yes}  # EST.
+	1739.01.01={death=yes}  # EST.
+}
 100101063={ #               Albrecht                  Kapoun ze Svojkova                       (1569-1604)     - [VALDSTEJNA]
 	name="Albrecht Kapoun ze Svojkova"
 	#dynasty=0
@@ -2947,21 +3065,6 @@ lowborn_3117={ #            Zikuna                    z Gutštejna              
 	1609.01.01={birth=yes}
 	1629.01.01={add_spouse=100048070}	# Barbora Albertina Wratislav z Mitrowicz
 	1664.01.15={death=yes}  # Neuhaus
-}
-lowborn_2731={ #            Magdalena                 Kostomlaská z Vřesovic                   (1579-1639)     3 [CARETO]
-	name="Magdalena Kostomlaská z Vřesovic"
-	female=yes
-	religion=catholic culture=czech
-	1579.01.01={birth=yes}  # EST.
-	1639.01.01={death=yes}  # EST.
-}
-lowborn_3000={ #            Eliška                    z Vřesovic                               (1504-1564)     2 [VALDSTEJNA]
-	name="Eliška z Vřesovic"
-	female=yes
-	# dynasty=0
-	religion=catholic culture=czech
-	1504.01.01={birth=yes}  # EST.
-	1564.01.01={death=yes}  # EST.
 }
 lowborn_3019={ #            Maria Aloysia             Lažanská                                 (1723-1778)     0 [MORZIN]
 	name="Maria Aloysia Lažanská"
@@ -3010,6 +3113,22 @@ lowborn_2856={ #            Eva Eleonora              Lažanská z Bukové      
 	1662.01.01={add_spouse=100047983}	# Eliška Wratislav z Mitrowicz
 	1707.01.01={death=yes}
 }
+100101258={ #               Hedvika                   z Rožmberka                              (1464-1520)     0 [STARHEMBERG]
+	name="Hedvika z Rožmberka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1464.01.20={birth=yes}
+	1520.04.29={death=yes}
+}
+100101257={ #               Jošt                      z Rožmberka                              (1488-1539)     - [STARHEMBERG]
+	name="Jošt z Rožmberka"
+	#dynasty=0
+	religion=catholic culture=german
+	1488.06.30={birth=yes}
+	1529.02.01={add_spouse=100026014}	# Wandula von Starhemberg
+	1539.10.15={death=yes}
+}
 lowborn_0542={ # Frn        Maria Theresa             Petrzwaldska z Petrzwaldu                (1727-1768)     5 [BERCHTOLD]
 	name="Maria Theresa Petrzwaldska z Petrzwaldu"
 	female=yes
@@ -3023,22 +3142,6 @@ lowborn_2777={ #            Amand Ferdinand           Petrzwaldský z Petrzwaldu
 	1653.07.24={birth=yes}
 	1679.02.08={add_spouse=oppersdorf_0057}	# Maximiliane von Oppersdorff
 	1724.01.01={death=yes}
-}
-100103986={ #               Dorota Eliška             Predenický z Predenic                    (1591-1622)     3 [WRATISLAV]
-	name="Dorota Eliška Predenický z Predenic"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1591.01.01={birth=yes}  # EST.
-	1622.01.01={death=yes}  # EST.
-}
-100103995={ #               Theodora                  z Predenic                               (1593-1619)     3 [WRATISLAV]
-	name="Theodora z Predenic"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1593.01.01={birth=yes}  # EST.
-	1619.10.17={death=yes}  # Praha
 }
 lowborn_1907={ #            František Antonín         Příchovský z Příchovic                   (1705-1765)     - [RADETZKY]
 	name="František Antonín Příchovský z Příchovic"
@@ -3055,6 +3158,21 @@ lowborn_3229={ #            František                 Příchovský z Příchov
 	1793.02.10={add_spouse=lazansky_0033}	# Josefa Lažanský von Bukowa
 	1814.06.08={death=yes}
 }
+100101306={ #               Sebestian Jan             z Rican                                  (1604-1679)     - [VESTPHALEN]
+	name="Sebestian Jan z Rican"
+	religion=catholic culture=german
+	1604.01.01={birth=yes}
+	1644.01.01={add_spouse=100011508}	# Anna Albertina von Fürstenberg
+	1679.01.01={death=yes}  # EST.
+}
+100103894={ #               Veronika Johanka          z Rícan                                  (1652-1723)     4 [WRATISLAV]
+	name="Veronika Johanka z Rícan"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1652.01.01={birth=yes}
+	1723.12.07={death=yes}  # Praha
+}
 lowborn_3200={ #            František Ferdinand       Robmháp ze Suché                         (1602-1675)     - [LAZANSKY]
 	name="František Ferdinand Robmháp ze Suché"
 	#dynasty=0
@@ -3069,22 +3187,6 @@ lowborn_2739={ #            Anna Magdalena            Robmhápová ze Suché    
 	religion=catholic culture=german
 	1600.01.01={birth=yes}
 	1644.03.23={death=yes}
-}
-100101258={ #               Hedvika                   z Rožmberka                              (1464-1520)     0 [STARHEMBERG]
-	name="Hedvika z Rožmberka"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1464.01.20={birth=yes}
-	1520.04.29={death=yes}
-}
-100101257={ #               Jošt                      z Rožmberka                              (1488-1539)     - [STARHEMBERG]
-	name="Jošt z Rožmberka"
-	#dynasty=0
-	religion=catholic culture=german
-	1488.06.30={birth=yes}
-	1529.02.01={add_spouse=100026014}	# Wandula von Starhemberg
-	1539.10.15={death=yes}
 }
 lowborn_2928={ #            Sidonie                   Zadubska von Schönthal                   (1623-1683)     0 [MORZIN]
 	name="Sidonie Zadubska von Schönthal"
@@ -3117,6 +3219,21 @@ lowborn_2928={ #            Sidonie                   Zadubska von Schönthal   
 	1645.01.01={add_spouse=100047945}	# Salomena Maximiliana Wratislav z Mitrowicz
 	1660.01.01={death=yes}
 }
+lowborn_3206={ #            Maria Maximiliana         ze Šternberka                            (1642-1664)     0 [LAZANSKY]
+	name="Maria Maximiliana ze Šternberka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1642.01.01={birth=yes}  # EST.
+	1664.01.01={death=yes}  # EST.
+}
+lowborn_1816={ #            Marie Anna                ze Šternberka                            (1667-1699)     3 [KAUNITZ]
+	name="Marie Anna ze Šternberka"
+	female=yes
+	religion=catholic culture=german
+	1667.01.01={birth=yes}  # EST.
+	1699.01.01={death=yes}
+}
 lowborn_3437={ #            Anna                      Závišová z Osenic                        (1849-1907)     3 [KUENBURG]
 	name="Anna Závišová z Osenic"
 	female=yes
@@ -3132,37 +3249,6 @@ lowborn_3442={ #            Carolina Mauritia         Závišová z Osenic      
 	religion=catholic culture=czech
 	1854.01.01={birth=yes}  # EST.
 	1914.01.01={death=yes}  # EST.
-}
-lowborn_1813={ #            Kateřina                  Zilvár z Pilníkova                       (1526-1586)     1 [RADETZKY]
-	name="Kateřina Zilvár z Pilníkova"
-	female=yes
-	religion=catholic culture=czech
-	1526.01.01={birth=yes}  # EST.
-	1586.01.01={death=yes}  # EST.
-}
-100100838={ #               Karel                     Zilvár z Pilníkova                       (1555-1580)     - [VALDSTEJNA]
-	name="Karel Zilvár z Pilníkova"
-	#dynasty=0
-	religion=catholic culture=czech
-	1555.01.01={birth=yes}  # EST.
-	1580.01.01={add_spouse=100047798}	# Magdalena z Valdštejna
-	1580.10.02={death=yes}
-}
-100093044={ #               Markéta                   Smirická ze Smiric                       (1557-1593)     2 [VALDSTEJNA]
-	name="Markéta Smirická ze Smiric"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1557.01.01={birth=yes}
-	1593.07.22={death=yes}
-}
-lowborn_2940={ #            Lidmila                   ze Smiřic                                (1479-1548)     2 [VALDSTEJNA]
-	name="Lidmila ze Smiřic"
-	female=yes
-	# dynasty=0
-	religion=catholic culture=czech
-	1479.01.01={birth=yes}  # EST.
-	1548.01.01={death=yes}
 }
 100090383={ #               Josef                     Sokol                                    (1901-1981)     - [THUN]
 	name="Josef Sokol"
@@ -3180,6 +3266,21 @@ lowborn_2940={ #            Lidmila                   ze Smiřic                
 	1913.01.01={birth=yes}
 	1955.01.20={add_spouse=100023902}	# Maria Caroline von Thun u.Hohenstein
 	1993.01.01={death=yes}	# EST.
+}
+lowborn_1813={ #            Kateřina                  Zilvár z Pilníkova                       (1526-1586)     1 [RADETZKY]
+	name="Kateřina Zilvár z Pilníkova"
+	female=yes
+	religion=catholic culture=czech
+	1526.01.01={birth=yes}  # EST.
+	1586.01.01={death=yes}  # EST.
+}
+100100838={ #               Karel                     Zilvár z Pilníkova                       (1555-1580)     - [VALDSTEJNA]
+	name="Karel Zilvár z Pilníkova"
+	#dynasty=0
+	religion=catholic culture=czech
+	1555.01.01={birth=yes}  # EST.
+	1580.01.01={add_spouse=100047798}	# Magdalena z Valdštejna
+	1580.10.02={death=yes}
 }
 lowborn_1865={ #            Uršula                    Údrcký z Údrče                           (1631-1691)     0 [RADETZKY]
 	name="Uršula Údrcký z Údrče"
@@ -3211,21 +3312,6 @@ lowborn_1876={ #            Adam Bedřich              Údrcký z Údrče       
 	1810.10.13={add_spouse=100004553}	# Maria Anna Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 	1866.01.01={death=yes}
 }
-lowborn_2772={ #            Anna Helena               Jakardovská ze Sudic                     (1629-1661)     4 [OPERSDORF]
-	name="Anna Helena Jakardovská ze Sudic"
-	female=yes
-	religion=catholic culture=german
-	1629.01.01={birth=yes}  # EST.
-	1661.05.23={death=yes}  # Brno
-}
-lowborn_3292={ #            Kateřina Františka        Jakardovská ze Sudic                     (1679-1739)     3 [DEYM]
-	name="Kateřina Františka Jakardovská ze Sudic"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1679.01.01={birth=yes}  # EST.
-	1739.01.01={death=yes}  # EST.
-}
 lowborn_1625={ # Duke       Johann Ferreus            of Troppau                               (1375-1424)     - [JAGIELO]
 	name="Johann Ferreus of Troppau"
 	religion=catholic culture=lithuanian
@@ -3239,6 +3325,14 @@ lowborn_1961={ # Gf         Julius Leopold            Hodický z Hodic          
 	1654.01.01={birth=yes}  # EST.
 	1678.01.01={add_spouse=nostitz_0040}	# Barbara Katharina von Nostitz-Rokitnitz
 	1695.01.01={death=yes}
+}
+lowborn_3155={ # Gf         Jan Václav                Holický ze Šternberka                    (1681-1712)     - [LIBSTEJNSKY]
+	name="Jan Václav Holický ze Šternberka"
+	#dynasty=0
+	religion=catholic culture=czech
+	1681.01.01={birth=yes}  # EST.
+	1706.09.28={add_spouse=kolowrat_0139}	# Marie Ludmila Libštejnský z Kolovrat
+	1712.04.12={death=yes}
 }
 lowborn_1953={ # Gf         Karel Josef               Lichnovský z Voštic                      (1702-1739)     - [NOSTITZ]
 	name="Karel Josef Lichnovský z Voštic"
@@ -3254,7 +3348,7 @@ lowborn_2789={ # Gf         Jiří Vilém                Michna z Vacínova     
 	1622.06.21={add_spouse=oppersdorf_0067}	# Ursula Sofia von Oppersdorff
 	1637.08.25={death=yes}
 }
-100086963={ #    Gf         František Karel           Prehorovský z Kvasejovic                 (1645-1723)     - [BAKOCS]
+100086963={ #    Gf         František Karel           Prehorovský z Kvasejovic                 (1645-1723)     - [PALFY]
 	name="František Karel Prehorovský z Kvasejovic"
 	#dynasty=0
 	religion=catholic culture=czech
@@ -3269,13 +3363,6 @@ lowborn_2789={ # Gf         Jiří Vilém                Michna z Vacínova     
 	1714.01.01={birth=yes}
 	1734.01.01={add_spouse=100024447}	# Maria Josepha von Trauttmansdorff-Weinsberg
 	1736.04.01={death=yes}
-}
-lowborn_1044={ # Gfn        Antonia                   Wratislaw-Mitrowsky                      (1798-1858)     1 [GYULAY]
-	name="Antonia Wratislaw-Mitrowsky"
-	female=yes
-	religion=catholic culture=czech
-	1798.01.01={birth=yes}  # EST.
-	1858.12.01={death=yes}  # EST.
 }
 100092837={ #    Gfn        Elisabeth                 von Perponcher-Sedlnitzky                (1858-1894)     2 [BLUCHER]
 	name="Elisabeth von Perponcher-Sedlnitzky"
@@ -3340,13 +3427,21 @@ lowborn_3131={ # Frhr       Kašpar                    Minkvic z Minkvic        
 	1712.04.01={add_spouse=100047340}	# Marie z Valdštejna
 	1727.02.04={death=yes}
 }
-100096764={ #    Frhr       Jan František             Skronský z Budcova                       (1805-1886)     - [KOLOVRAT]
+100096764={ #    Frhr       Jan František             Skronský z Budcova                       (1805-1886)     - [KRAKOVSKY]
 	name="Jan František Skronský z Budcova"
 	#dynasty=0
 	religion=catholic culture=czech
 	1805.11.25={birth=yes}
 	1830.04.19={add_spouse=100047095}	# Josefa Krakovský z Kolovrat
 	1886.06.23={death=yes}
+}
+lowborn_7839={ #            Johann Franz              Barwitz von Fernemont                    (1688-1740)     - [WILCZEK]
+	name="Johann Franz Barwitz von Fernemont"
+	#dynasty=0
+	religion=catholic culture=german
+	1688.08.15={birth=yes}  # Napoli,  in Altkloster
+	1721.01.01={add_spouse=wilczek_0010}	# Marie Josefa von Wilczek
+	1740.01.01={death=yes}
 }
 100103983={ #               Albrecht                  Beneda z Nectin                          (1585-1655)     - [WRATISLAV]
 	name="Albrecht Beneda z Nectin"
@@ -3378,12 +3473,28 @@ lowborn_2932={ #            Pulcheria Betty           Blau                      
 	1817.01.01={birth=yes}  # EST.
 	1877.01.01={death=yes}  # EST.
 }
+lowborn_3710={ #            Barbora                   Bludovská z Bludovic                     (1600-1667)     1 [WILCZEK]
+	name="Barbora Bludovská z Bludovic"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1600.01.01={birth=yes}
+	1667.04.24={death=yes}
+}
 lowborn_1965={ #            Maria Anna                Bojakovská z Knurova                     (1732-1775)     2 [STRACHWITZ]
 	name="Maria Anna Bojakovská z Knurova"
 	female=yes
 	religion=catholic culture=german
 	1732.08.14={birth=yes}  # Swirklan
 	1775.09.29={death=yes}  # Kaminiec
+}
+lowborn_7758={ #            Kateřina                  Borková z Tvorkova                       (1638-1656)     0 [WILCZEK]
+	name="Kateřina Borková z Tvorkova"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1638.01.22={birth=yes}
+	1656.01.01={death=yes}  # EST.
 }
 lowborn_3299={ #            Eva Lidmila               Brandštejnová z Opurku                   (1702-1725)     0 [DEYM]
 	name="Eva Lidmila Brandštejnová z Opurku"
@@ -3415,6 +3526,14 @@ lowborn_1857={ #            Nono                      Cetenský z Cetnì        
 	1648.01.01={add_spouse=radetzky_0008}	# Kateřina Radetzky von Radetz
 	1684.01.01={death=yes}  # EST.
 }
+100103849={ #               Marie Anna                Chanovská z Dlouhé Vsi                   (1724-1753)     0 [VALDSTEJNA]
+	name="Marie Anna Chanovská z Dlouhé Vsi"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1724.01.01={birth=yes}  # EST.
+	1753.01.01={death=yes}  # EST.
+}
 lowborn_2906={ #            Josepha Klodiána          Chlumčanská z Přestavlk                  (1711-1771)     3 [RADETZKY]
 	name="Josepha Klodiána Chlumčanská z Přestavlk"
 	female=yes
@@ -3422,12 +3541,13 @@ lowborn_2906={ #            Josepha Klodiána          Chlumčanská z Přestavl
 	1711.01.01={birth=yes}  # EST.
 	1771.01.01={death=yes}  # EST.
 }
-lowborn_2829={ #            Mathilda                  Chorynská z Ledské                       (1871-1936)     3 [OPERSDORF]
-	name="Mathilda Chorynská z Ledské"
+lowborn_7952={ #            Maria Theresia            Clary-Aldringen                          (1756-1790)     0 [WILCZEK]
+	name="Maria Theresia Clary-Aldringen"
 	female=yes
+	#dynasty=0
 	religion=catholic culture=german
-	1871.01.15={birth=yes}  # Veselí nad Moravou
-	1936.06.29={death=yes}  # Thomaswaldau
+	1756.07.30={birth=yes}  # Wien
+	1790.08.12={death=yes}
 }
 100102766={ #               Johana                    Dašicky z Barchova                       (1566-1599)     1 [LOBKOVICS]
 	name="Johana Dašicky z Barchova"
@@ -3459,6 +3579,13 @@ lowborn_2696={ #            Marie                     Dražujová               
 	religion=catholic culture=german
 	1884.12.31={birth=yes}  # Sedlčany
 	1944.01.01={death=yes}  # Pardubice
+}
+lowborn_3995={ #            Katharina                 Dreihann-Holenia von Sulzberg am Steinhof (1945-    )     4 [WILCZEK]
+	name="Katharina Dreihann-Holenia von Sulzberg am Steinhof"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1945.06.12={birth=yes}  # Bern
 }
 100103893={ #               Servác Ignác              Engl z Englflusu                         (1650-1704)     - [WRATISLAV]
 	name="Servác Ignác Engl z Englflusu"
@@ -3555,6 +3682,14 @@ lowborn_1862={ #            Magdalena Polyxena        Hlaváčová z Vojenic    
 	1626.01.01={birth=yes}  # EST.
 	1648.01.01={death=yes}  # EST.
 }
+lowborn_4144={ #            Anna                      Hoffmannová ze Střechova                 (1514-1574)     0 [UNGNAD]
+	name="Anna Hoffmannová ze Střechova"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1514.01.01={birth=yes}  # EST.
+	1574.01.01={death=yes}  # EST.
+}
 100103978={ #               Salomena                  Horcicová z Prostého                     (1583-1630)     5 [WRATISLAV]
 	name="Salomena Horcicová z Prostého"
 	female=yes
@@ -3585,6 +3720,14 @@ lowborn_2831={ #            Johanna Terezie           Hrobčický z Hrobčic    
 	1728.01.01={birth=yes}  # EST.
 	1788.01.01={death=yes}  # EST.
 }
+lowborn_3129={ #            Jan Adam                  Hroznata z Vrtby                         (1607-1652)     0 [LIBSTEJNSKY]
+	name="Jan Adam Hroznata z Vrtby"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1607.01.01={birth=yes}  # EST.
+	1652.01.01={death=yes}
+}
 lowborn_2693={ #            Kateřina                  Hrádková                                 (1824-1889)     8 [LAMBERG]
 	name="Kateřina Hrádková"
 	female=yes
@@ -3606,14 +3749,6 @@ lowborn_2716={ #            Bato                      Ivesic                    
 	religion=catholic culture=czech
 	1751.01.01={birth=yes}  # EST.
 	1826.01.01={death=yes}  # EST.
-}
-lowborn_3290={ #            Anna Ludmila              Jeníšková z Újezda                       (1645-1669)     1 [DEYM]
-	name="Anna Ludmila Jeníšková z Újezda"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1645.12.13={birth=yes}  # Březnice
-	1669.09.10={death=yes}  # Březnice. rodičové pravděpodobně podle LVDP Children by JENÍŠKOVÁ Z ÚJEZDA Anna Ludmila
 }
 lowborn_1910={ #            Josef Václav              Jenšík z Ježova                          (1744-1804)     - [RADETZKY]
 	name="Josef Václav Jenšík z Ježova"
@@ -3645,6 +3780,22 @@ lowborn_2854={ #            Katerina Františka        Kalhardt von Sternfeld   
 	1714.01.01={birth=yes}  # EST.
 	1789.01.01={death=yes}  # EST.
 }
+lowborn_6409={ #            Kateřina                  Karvinská z Karviné                      (1570-1592)     1 [WILCZEK]
+	name="Kateřina Karvinská z Karviné"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1570.01.01={birth=yes}
+	1592.01.01={death=yes}
+}
+lowborn_3061={ #            Alžběta                   Kavková z Říčan                          (1546-1585)     0 [LIBSTEJNSKY]
+	name="Alžběta Kavková z Říčan"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1546.01.01={birth=yes}  # EST.
+	1585.03.06={death=yes}
+}
 lowborn_2912={ #            Eva                       Kobylková z Kobylího                     (1562-1622)     1 [MATUSCHKA]
 	name="Eva Kobylková z Kobylího"
 	female=yes
@@ -3666,6 +3817,13 @@ lowborn_3177={ #            Barbara                   Kordulová ze Sloupna     
 	religion=catholic culture=czech
 	1492.01.01={birth=yes}  # EST.
 	1552.01.01={death=yes}  # EST.
+}
+lowborn_2731={ #            Magdalena                 Kostomlaská z Vřesovic                   (1579-1639)     3 [CARETO]
+	name="Magdalena Kostomlaská z Vřesovic"
+	female=yes
+	religion=catholic culture=czech
+	1579.01.01={birth=yes}  # EST.
+	1639.01.01={death=yes}  # EST.
 }
 lowborn_2703={ #            Lenka                     Kožušniková                              (1973-    )     2 [LAMBERG]
 	name="Lenka Kožušniková"
@@ -3689,6 +3847,14 @@ lowborn_3105={ #            Kateřina                  Kábová z Rybňan       
 	1581.01.01={birth=yes}  # EST.
 	1625.01.01={death=yes}
 }
+lowborn_3986={ #            Martha                    Latinovics de Borsód                     (1884-1925)     2 [WILCZEK]
+	name="Martha Latinovics de Borsód"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1884.10.27={birth=yes}  # Duka
+	1925.03.22={death=yes}  # Budapest
+}
 lowborn_1996={ #            Maria Theresia            Lehotská ze Lhoty                        (1700-1759)     2 [MITROWSKY]
 	name="Maria Theresia Lehotská ze Lhoty"
 	female=yes
@@ -3696,6 +3862,14 @@ lowborn_1996={ #            Maria Theresia            Lehotská ze Lhoty        
 	religion=catholic culture=czech
 	1700.01.01={birth=yes}  # EST.
 	1759.01.01={death=yes}
+}
+lowborn_7962={ #            Jan                       Lexa von Aehrenthal                      (1777-1845)     - [WILCZEK]
+	name="Jan Lexa von Aehrenthal"
+	#dynasty=0
+	religion=catholic culture=german
+	1777.07.30={birth=yes}  # Hradec Králové
+	1815.01.07={add_spouse=wilczek_0044}	# Johanna Napomucena von Wilczek
+	1845.10.17={death=yes}  # Doksany.
 }
 lowborn_2692={ #            Eleonora                  Malacrida                                (1538-1598)     1 [MORZIN]
 	name="Eleonora Malacrida"
@@ -3735,7 +3909,7 @@ lowborn_3104={ #            Kateřina                  Mezeřícká z Lomnice   
 	1573.01.01={birth=yes}  # EST.
 	1594.01.01={death=yes}
 }
-100096686={ #               Anna Barbora              Michnová z Vacínova                      (1709-1772)     4 [KOLOVRAT]
+100096686={ #               Anna Barbora              Michnová z Vacínova                      (1709-1772)     4 [KRAKOVSKY]
 	name="Anna Barbora Michnová z Vacínova"
 	female=yes
 	#dynasty=0
@@ -3798,12 +3972,36 @@ lowborn_3196={ #            Zuzana                    Nebílovská z Drahobuze  
 	1585.01.01={birth=yes}  # EST.
 	1630.01.01={death=yes}
 }
+lowborn_7960={ #            Johann                    Nobili                                   (1759-1823)     - [WILCZEK]
+	name="Johann Nobili"
+	#dynasty=0
+	religion=catholic culture=german
+	1759.01.01={birth=yes}
+	1819.01.01={add_spouse=wilczek_0043}	# Marianne von Wilczek
+	1823.10.10={death=yes}  # Padova
+}
+lowborn_4119={ #            Marie Karolína            Nádherná z Borutína                      (1915-2004)     1 [HAUGWITZ]
+	name="Marie Karolína Nádherná z Borutína"
+	female=yes
+	#dynasty=0
+	religion=lutheran culture=czech
+	1915.02.14={birth=yes}  # Dolní Adršpach
+	2004.04.25={death=yes}  # Bad Reichenhall
+}
 lowborn_1844={ #            Marie Terezie             Ogilvy                                   (1718-1775)     7 [KAUNITZ]
 	name="Marie Terezie Ogilvy"
 	female=yes
 	religion=catholic culture=german
 	1718.10.08={birth=yes}
 	1775.04.25={death=yes}
+}
+lowborn_3980={ #            Gabriele                  Ordódy de Ordód Et Roszonmtics           (1853-1928)     0 [WILCZEK]
+	name="Gabriele Ordódy de Ordód Et Roszonmtics"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1853.01.20={birth=yes}  # Bagota
+	1928.01.01={death=yes}  # EST.
 }
 lowborn_3183={ #            Kateřina                  Oselská z Dlouhévsi                      (1529-1598)     1 [LAZANSKY]
 	name="Kateřina Oselská z Dlouhévsi"
@@ -3820,6 +4018,22 @@ lowborn_3183={ #            Kateřina                  Oselská z Dlouhévsi    
 	1564.01.01={birth=yes}  # EST.
 	1589.10.30={add_spouse=100047315}	# Kateřina z Valdštejna
 	1613.02.13={death=yes}
+}
+lowborn_7801={ #            Anna Kateřina             Paczenski von Paczin                     (1647-1722)     1 [WILCZEK]
+	name="Anna Kateřina Paczenski von Paczin"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1647.01.01={birth=yes}
+	1722.01.01={death=yes}  # EST.
+}
+lowborn_7937={ #            Johann Erdmann            Paczinsky von Tenczin                    (1736-1803)     - [WILCZEK]
+	name="Johann Erdmann Paczinsky von Tenczin"
+	#dynasty=0
+	religion=catholic culture=german
+	1736.01.01={birth=yes}  # Bitschin
+	1764.10.16={add_spouse=wilczek_0022}	# Maria Josefa von Wilczek
+	1803.02.19={death=yes}  # Wien. Teneczin von Paczinsky
 }
 lowborn_2765={ #            Salomena Katharina        Petrovich                                (1627-1687)     2 [OPERSDORF]
 	name="Salomena Katharina Petrovich"
@@ -3873,6 +4087,22 @@ lowborn_2855={ #            Elisabeth                 Prassl von Praschenfeld   
 	1738.01.01={birth=yes}  # EST.
 	1798.01.01={death=yes}  # EST.
 }
+100103986={ #               Dorota Eliška             Predenický z Predenic                    (1591-1622)     3 [WRATISLAV]
+	name="Dorota Eliška Predenický z Predenic"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1591.01.01={birth=yes}  # EST.
+	1622.01.01={death=yes}  # EST.
+}
+lowborn_3978={ #            Anna                      Prónay de Tot-Próna Et Blatnicze         (1845-1911)     4 [WILCZEK]
+	name="Anna Prónay de Tot-Próna Et Blatnicze"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1845.06.10={birth=yes}  # Péczel
+	1911.03.15={death=yes}  # Péczel
+}
 100103997={ #               Mikuláš Diviš             Radkovec z Mirovic                       (1591-1661)     - [WRATISLAV]
 	name="Mikuláš Diviš Radkovec z Mirovic"
 	#dynasty=0
@@ -3919,12 +4149,36 @@ lowborn_2843={ #            Karoline Sophie           Sendražický ze Sendraži
 	1789.01.01={birth=yes}  # EST.
 	1810.01.01={death=yes}  # EST.
 }
+lowborn_3968={ #            Jan Bedřich               Sendražský ze Sendražic                  (1669-1737)     - [HAUGWITZ]
+	name="Jan Bedřich Sendražský ze Sendražic"
+	#dynasty=0
+	religion=lutheran culture=german
+	1669.09.19={birth=yes}  # Langenbielau
+	1696.08.26={add_spouse=haugwitz_0015}	# Juliana Elisabeth von Haugwitz
+	1737.05.21={death=yes}  # Neu
+}
 lowborn_1852={ #            Jan Ladislav              Sluzský z Chlumu                         (1614-1669)     1 [RADETZKY]
 	name="Jan Ladislav Sluzský z Chlumu"
 	religion=catholic culture=czech
 	1614.01.01={birth=yes}  # EST.
 	1638.01.01={add_spouse=radetzky_0008}	# Kateřina Radetzky von Radetz
 	1669.01.01={death=yes}
+}
+100093044={ #               Markéta                   Smirická ze Smiric                       (1557-1593)     2 [VALDSTEJNA]
+	name="Markéta Smirická ze Smiric"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1557.01.01={birth=yes}
+	1593.07.22={death=yes}
+}
+lowborn_3880={ #            Rudolf Josef              Sobek z Kornic                           (1702-1747)     - [WILCZEK]
+	name="Rudolf Josef Sobek z Kornic"
+	#dynasty=0
+	religion=catholic culture=german
+	1702.01.01={birth=yes}
+	1729.06.01={add_spouse=wilczek_0017}	# Maria Josefa von Wilczek
+	1747.04.01={death=yes}
 }
 lowborn_2892={ #            Hieronyma Athana          Sovaroli                                 (1576-1651)     4 [MORZIN]
 	name="Hieronyma Athana Sovaroli"
@@ -3933,6 +4187,14 @@ lowborn_2892={ #            Hieronyma Athana          Sovaroli                  
 	religion=catholic culture=german
 	1576.01.01={birth=yes}  # EST.
 	1651.01.01={death=yes}  # EST.
+}
+lowborn_4189={ #            Therese                   Stadnicka                                (1790-1865)     1 [UNGNAD]
+	name="Therese Stadnicka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1790.01.01={birth=yes}
+	1865.01.01={death=yes}  # EST.
 }
 lowborn_1911={ #            Leopold Ferdinand         Stařimský z Libštejna                    (1710-1776)     - [RADETZKY]
 	name="Leopold Ferdinand Stařimský z Libštejna"
@@ -3978,6 +4240,14 @@ lowborn_3002={ #            Marie                     Svitáková z Landštejna 
 	religion=catholic culture=czech
 	1529.01.01={birth=yes}
 	1589.11.14={death=yes}  # Praha
+}
+lowborn_7970={ #            Bertha                    Szapiro                                  (1852-1918)     2 [WILCZEK]
+	name="Bertha Szapiro"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1852.12.18={birth=yes}  # Kröttingen, Kuronsko
+	1918.10.05={death=yes}  # Wien
 }
 100094072={ #               Anna Alžbeta              Talatzková z Gestieticz                  (1695-1779)     1 [WRATISLAV]
 	name="Anna Alžbeta Talatzková z Gestieticz"
@@ -4064,6 +4334,14 @@ lowborn_1665={ #            Ottilie                   Voselská z Dlauhé Vsi   
 	1438.01.01={birth=yes}  # EST.
 	1498.01.01={death=yes}  # EST.
 }
+lowborn_3994={ #            Ladislaus                 Végh de Vereb                            (1894-1949)     - [WILCZEK]
+	name="Ladislaus Végh de Vereb"
+	#dynasty=0
+	religion=catholic culture=german
+	1894.09.06={birth=yes}  # Rába
+	1930.04.29={add_spouse=wilczek_0089}	# Marianne Leontine von Wilczek
+	1949.02.12={death=yes}  # Graz
+}
 100102735={ #               Lidmila Františka         Vítová ze Rzavého                        (1656-1711)     1 [LOBKOVICS]
 	name="Lidmila Františka Vítová ze Rzavého"
 	female=yes
@@ -4080,8 +4358,8 @@ lowborn_3059={ #            Benigna                   Welserová z Cimburka     
 	1529.01.01={birth=yes}  # EST.
 	1554.12.15={death=yes}
 }
-lowborn_2905={ #            Sabina Sophia Sylvia      Wrzesovec z Wrzesovic                    (1601-1661)     0 [MORZIN]
-	name="Sabina Sophia Sylvia Wrzesovec z Wrzesovic"
+lowborn_2905={ #            Sabina Sophia Sylvia      Vřesovec z Vřesovic                      (1601-1661)     0 [MORZIN]
+	name="Sabina Sophia Sylvia Vřesovec z Vřesovic"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=german
@@ -4103,8 +4381,8 @@ lowborn_1430={ #            Alžbìta Salomena          Zapská ze Zap          
 	1480.01.01={birth=yes}  # EST.
 	1540.01.01={death=yes}  # EST.
 }
-100089002={ #               Jindrich Josef            Zmeškal z Domanovic                      (1707-1760)     - [WRBNA]
-	name="Jindrich Josef Zmeškal z Domanovic"
+100089002={ #               Jindřich Josef            Zmeškal z Domanovic                      (1707-1760)     - [WRBNA]
+	name="Jindřich Josef Zmeškal z Domanovic"
 	#dynasty=0
 	religion=catholic culture=czech
 	1707.01.01={birth=yes}  # EST.
@@ -4119,19 +4397,19 @@ lowborn_1430={ #            Alžbìta Salomena          Zapská ze Zap          
 	1560.01.01={birth=yes}
 	1632.11.01={death=yes}  # Wien
 }
-lowborn_2661={ #            Anna                      z Boršnic                                (1454-1514)     3 [OPERSDORF]
-	name="Anna z Boršnic"
-	female=yes
-	religion=catholic culture=german
-	1454.01.01={birth=yes}  # EST.
-	1514.01.01={death=yes}  # EST.
-}
 lowborn_2798={ #            Markéta                   z Budzivoje                              (1496-1556)     2 [OPERSDORF]
 	name="Markéta z Budzivoje"
 	female=yes
 	religion=catholic culture=german
 	1496.01.01={birth=yes}  # EST.
 	1556.01.01={death=yes}  # EST.
+}
+lowborn_1914={ #            Jan Josef                 z Dlouhé Vsi                             (1716-1793)     - [RADETZKY]
+	name="Jan Josef z Dlouhé Vsi"
+	religion=catholic culture=czech
+	1716.01.01={birth=yes}
+	1764.01.01={add_spouse=radetzky_0028}	# Marie Anna Radetzky von Radetz
+	1793.03.08={death=yes}
 }
 100103820={ #               Helena Ester              z Drahotuš                               (1642-1700)     2 [SCHLIK]
 	name="Helena Ester z Drahotuš"
@@ -4205,6 +4483,38 @@ lowborn_3221={ #            Terezie                   z Lisova                  
 	1712.01.01={birth=yes}  # EST.
 	1772.01.01={death=yes}  # EST.
 }
+lowborn_3974={ #            Johanka Sybylla           z Marvic                                 (1719-1801)     1 [HAUGWITZ]
+	name="Johanka Sybylla z Marvic"
+	female=yes
+	#dynasty=0
+	religion=lutheran culture=german
+	1719.08.24={birth=yes}
+	1801.03.31={death=yes}
+}
+lowborn_4143={ #            Bohunka                   z Pernštejna                             (1509-1551)     0 [UNGNAD]
+	name="Bohunka z Pernštejna"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1509.01.01={birth=yes}  # EST.
+	1551.01.01={death=yes}
+}
+100103995={ #               Theodora                  z Predenic                               (1593-1619)     3 [WRATISLAV]
+	name="Theodora z Predenic"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1593.01.01={birth=yes}  # EST.
+	1619.10.17={death=yes}  # Praha
+}
+lowborn_3805={ #            Maria Anna                z Písnice                                (1712-1767)     3 [LODRON]
+	name="Maria Anna z Písnice"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1712.01.22={birth=yes}
+	1767.01.01={death=yes}
+}
 100092221={ #               Eliška                    z Rožmitálu                              (1661-1700)  2  1 [PODSTATZKY, PODSTATZKY]
 	name="Eliška z Rožmitálu"
 	female=yes
@@ -4220,6 +4530,22 @@ lowborn_1822={ #            Johanna Anna              z Tìmic                  
 	1576.01.01={birth=yes}  # EST.
 	1606.01.01={death=yes}  # EST.
 }
+lowborn_3000={ #            Eliška                    z Vřesovic                               (1504-1564)     2 [VALDSTEJNA]
+	name="Eliška z Vřesovic"
+	female=yes
+	# dynasty=0
+	religion=catholic culture=czech
+	1504.01.01={birth=yes}  # EST.
+	1564.01.01={death=yes}  # EST.
+}
+lowborn_2940={ #            Lidmila                   ze Smiřic                                (1479-1548)     2 [VALDSTEJNA]
+	name="Lidmila ze Smiřic"
+	female=yes
+	# dynasty=0
+	religion=catholic culture=czech
+	1479.01.01={birth=yes}  # EST.
+	1548.01.01={death=yes}
+}
 lowborn_3160={ #            Erasmus Christoph         ze Stampachu                             (1646-1721)     - [LIBSTEJNSKY]
 	name="Erasmus Christoph ze Stampachu"
 	#dynasty=0
@@ -4227,6 +4553,14 @@ lowborn_3160={ #            Erasmus Christoph         ze Stampachu              
 	1646.07.08={birth=yes}
 	1673.05.29={add_spouse=kolowrat_0145}	# Ludmila Libštejnský z Kolovrat
 	1721.02.25={death=yes}
+}
+lowborn_3902={ #            Žofie Eliška              ze Zahrádek                              (1659-1732)     1 [HAUGWITZ]
+	name="Žofie Eliška ze Zahrádek"
+	female=yes
+	#dynasty=0
+	religion=lutheran culture=german
+	1659.10.19={birth=yes}  # Eichholtz
+	1732.03.22={death=yes}  # Klein
 }
 lowborn_3296={ #            Marie Karolína            ze Žerardu                               (1700-1760)     1 [DEYM]
 	name="Marie Karolína ze Žerardu"
@@ -4267,53 +4601,4 @@ lowborn_3052={ #            Marie Antonie             Šubířová z Chobyně   
 	1672.01.01={birth=yes}  # EST.
 	1710.01.01={death=yes}
 }
-lowborn_3784={ #            Adam                      Wratislaw z Mitrowicz                    (1655-1715)     - [LODRON]
-	name="Adam Wratislaw z Mitrowicz"
-	#dynasty=0
-	religion=catholic culture=czech
-	1655.01.01={birth=yes}  # EST.
-	1679.01.01={add_spouse=lodron_0271}	# Konstantina Katharina zu Lodron-Laterano u.Castelromano
-	1715.01.01={death=yes}  # EST.
-}
-lowborn_3550={ #            Teresa                    Sedlnitzky von Choltitz                  (1643-1703)     2 [ARCO]
-	name="Teresa Sedlnitzky von Choltitz"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1643.01.01={birth=yes}  # EST.
-	1703.01.01={death=yes}  # EST.
-}
-lowborn_3668={ #            Anna Marie                Berková z Dubé                           (1560-1633)     1 [LODRON]
-	name="Anna Marie Berková z Dubé"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1560.01.01={birth=yes}
-	1633.03.16={death=yes}
-}
-lowborn_3805={ #            Maria Anna                z Písnice                                (1712-1767)     3 [LODRON]
-	name="Maria Anna z Písnice"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1712.01.22={birth=yes}
-	1767.01.01={death=yes}
-}
-lowborn_3756={ #            Judita Kateřina           ze Zierotína                             (1633-1655)     0 [LODRON]
-	name="Judita Kateřina ze Zierotína"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1633.01.01={birth=yes}  # EST.
-	1655.01.01={death=yes}  # EST.
-}
-lowborn_3840={ #            Ignác                     Chorinský z Ledské                       (1760-1832)     - [LODRON]
-	name="Ignác Chorinský z Ledské"
-	#dynasty=0
-	religion=catholic culture=italian
-	1760.09.19={birth=yes}
-	1786.01.01={add_spouse=lodron_0406}	# Maria Antonia zu Lodron-Laterano u.Castelromano
-	1832.06.09={death=yes}
-}
-
 

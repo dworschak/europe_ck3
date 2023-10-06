@@ -1325,7 +1325,7 @@
 									father=100004360	# Friedrich von Salm
 									mother=100088034	# Luise Le Grand
 									1889.05.29={birth=yes}  # Rennenberg
-									1924.06.17={add_spouse=100088341}	# GFN Clotilde von Marchant und Ansembourg
+									1924.06.17={add_spouse=100088341}	# GFN Clotilde de Marchant-Ansembourg
 									1950.03.13={death=yes}  # Rheinbrohl
 								}
 									100004371={ #// I1. Ernst Ludwig Maximilian Hubertus Maria, *Linz am Rhein 16.7.1925; m.Rennenberg 7.11.1957 Margaretha Franziska Aloysia Huberta Frn von Loë
@@ -1333,7 +1333,7 @@
 										dynasty=1002071
 										religion=catholic culture=german
 										father=100004369	# Robert von Salm
-										mother=100088341	# GFN Clotilde von Marchant und Ansembourg
+										mother=100088341	# GFN Clotilde de Marchant-Ansembourg
 										1925.07.16={birth=yes}  # Linz am Rhein
 										1957.11.07={add_spouse=100088342}	# FRN Margaretha Franziska von Loë
 										2002.01.01={death=yes}  # EST.
@@ -1344,7 +1344,7 @@
 										dynasty=1002071
 										religion=catholic culture=german
 										father=100004369	# Robert von Salm
-										mother=100088341	# GFN Clotilde von Marchant und Ansembourg
+										mother=100088341	# GFN Clotilde de Marchant-Ansembourg
 										1930.02.06={birth=yes}
 										2001.04.04={death=yes}  # Schloß Ehreshoven
 									}
@@ -2674,7 +2674,7 @@
 					father=100001980	# Johann Wild- und Rheingraf zu Kyrburg
 					mother=100085616	# FRN Anna Katharina von Criechingen
 					1597.10.13={birth=yes}
-					1633.01.01={add_spouse=100010624}	# Anne-Magdalena von Hanau in Babenhausen
+					1633.01.01={add_spouse=100010624}	# Anne-Magdalena von Hanau
 					1634.10.06={death=yes}  # of the plague at Speyer
 				}
 					100003159={ #// E1. Johann XI, *17.4.1635, +Flonheim 16.11.1688; m.27.12.1669 Elisabeth Johanna, Pfgfn von Veldenz (*22.2.1635 +5.2.1718) $$
@@ -2682,7 +2682,7 @@
 						dynasty=1002608
 						religion=catholic culture=german
 						father=100004266	# Otto Ludwig Wild- und Rheingraf zu Kyrburg
-						mother=100010624	# Anne-Magdalena von Hanau in Babenhausen
+						mother=100010624	# Anne-Magdalena von Hanau
 						1635.04.17={birth=yes}
 						1669.12.27={add_spouse=100007792}	# Elisabeth Johanna von Wittelsbach
 						1688.11.16={death=yes}  # Flonheim
@@ -2960,7 +2960,7 @@
 					mother=100089904	# GFN Franziska von Lichtenstein-Castelcorn
 					1709.05.14={birth=yes}
 					1737.01.01={add_spouse=100089905}	# GFN Maria Antonia von Wengersky
-					1746.01.01={add_spouse=100090198}	# GFN Maria Anna Zaruba von Hustiran
+					1746.01.01={add_spouse=100090198}	# GFN Maria Anna Zárubová z Hustířan
 					1755.01.01={add_spouse=100090697}	# GFN Maria Ernestina von Proskau
 					1766.12.08={death=yes}  # Wien
 				}
@@ -3115,14 +3115,16 @@
 			1678.04.01={birth=yes}
 			1761.01.30={death=yes}
 		}
-			100285891={ #// C1. Maximilian (*3.10.1721, +17.6.1788); m.1760 Maria Josepha Kinsky von Wchinitz u.Tettau (*11.10.1738, +1767) %%
+			100285891={ #// C1. Maximilian (*Budapest 3.10.1721, +Bítov 17.6.1788); m.1st 1760 Maria Josepha Kinsky von Wchinitz u.Tettau (*11.10.1738, +1767); m.2nd 25.4.1768 Maria Josefa von Wilczek (*Wien 14.6.1750, +Wien 24.3.1771); m.3rd 3.12.1773 Antonia Maria von Wilczek (*Wien 24.8.1754, +Wien 17.5.1821) %%
 				name=Maximilian
 				dynasty=1002263
 				religion=catholic culture=german
 				father=100185889	# Heinrich Joseph von Daun
-				1721.10.03={birth=yes}
+				1721.10.03={birth=yes}  # Budapest
 				1760.01.01={add_spouse=100185888}	# Maria Josepha Kinsky von Wchinitz u.Tettau
-				1788.06.17={death=yes}
+				1768.04.25={add_spouse=wilczek_0031}	# Maria Josefa von Wilczek
+				1773.12.03={add_spouse=wilczek_0028}	# Antonia Maria von Wilczek
+				1788.06.17={death=yes}  # Bítov
 			}
 	100299227={ #// A2. Karl Friedrich (*1646, +1727); m.1667 Polyxena von Leiningen (*1617, +8.1.1668) %%
 		name="Karl Friedrich"
@@ -3501,7 +3503,7 @@
 			father=100004062	# Erich Adolf von Salm-Reifferscheidt
 			mother=100009570	# Ernestine Barbara von Löwenstein-Wertheim-Rochefort
 			1672.08.14={birth=yes}
-			1692.10.29={add_spouse=100095284}	# GFN Marie Agnes Slavata z Chlumu Košumberka
+			1692.10.29={add_spouse=100095284}	# GFN Marie Agnes Slavatová z Chlumu Košumberka
 			1719.05.14={add_spouse=100022745}	# Maria Anna von Liechtenstein
 			1734.06.04={death=yes}
 		}
@@ -3511,7 +3513,7 @@
 				dynasty_house=salm_reiff
 				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
-				mother=100095284	# GFN Marie Agnes Slavata z Chlumu Košumberka
+				mother=100095284	# GFN Marie Agnes Slavatová z Chlumu Košumberka
 				1693.07.16={birth=yes}
 				1740.06.25={death=yes}
 			}
@@ -3521,7 +3523,7 @@
 				dynasty_house=salm_reiff
 				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
-				mother=100095284	# GFN Marie Agnes Slavata z Chlumu Košumberka
+				mother=100095284	# GFN Marie Agnes Slavatová z Chlumu Košumberka
 				1695.06.22={birth=yes}
 				1745.03.04={death=yes}
 			}
@@ -3530,7 +3532,7 @@
 				dynasty_house=salm_reiff
 				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
-				mother=100095284	# GFN Marie Agnes Slavata z Chlumu Košumberka
+				mother=100095284	# GFN Marie Agnes Slavatová z Chlumu Košumberka
 				1697.04.06={birth=yes}
 				1720.01.13={add_spouse=100117464}	# Mária Franziska Esterházy de Galántha
 				1755.07.13={death=yes}
@@ -3800,7 +3802,7 @@
 				dynasty_house=salm_reiff
 				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
-				mother=100095284	# GFN Marie Agnes Slavata z Chlumu Košumberka
+				mother=100095284	# GFN Marie Agnes Slavatová z Chlumu Košumberka
 				1699.07.23={birth=yes}
 				1735.02.17={add_spouse=100022254}	# Maria Anna von Althann
 				1739.02.06={add_spouse=100021875}	# Maria Anna von Auersperg

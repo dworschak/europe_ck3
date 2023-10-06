@@ -2757,10 +2757,578 @@ mavrokordatos_0001={ # Nikolaos Mavrocordatos, *1522, +1570; m.Alexandra Beglitz
 ## MAVRO
 
 
-
-
-
-
-
-
-
+## MUSHATI
+#balkan18
+mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anastasia N (+before 16.9.1408); They had issue:
+	name="Io Roman"
+	dynasty=mushati
+	religion=orthodox culture=vlach
+	1324.01.01={birth=yes}  # EST.
+	1394.01.01={death=yes}
+}
+	mushati_0002={ #// A1. Io Alexandru "the Good", Hospodar of Moldova [II.1400-I.1432], +1431; 1m: ca 1395 Margit Banffy de Alsolindva, dau.of Istvan Banfi de Alsolindva; 2m: ca 1405 Anna of Podolia (+20.5.1420); 3m: 1419 Ryngajla of Lithuania (+after 23.12.1430); 4m: Marina N
+		name="Io Alexandru"
+		dynasty=mushati
+		religion=orthodox culture=vlach
+		father=mushati_0001	# Io Roman Mușat
+		1370.01.01={birth=yes}  # EST.
+		1395.01.01={add_spouse=lowborn_1516}	# Margit Banffy de Alsolindva
+		1405.01.01={add_spouse=lowborn_4877}	# Anna of Podolia
+		1419.01.01={add_spouse=lowborn_4897}	# Ryngajla of Lithuania
+		1422.01.01={add_spouse=lowborn_4991}	# Marina N
+		1431.01.01={death=yes}
+	}
+		mushati_0003={ #// B1. [1m.] Roman, +ca 1432
+			name=Roman
+			dynasty=mushati
+			religion=orthodox culture=vlach
+			father=mushati_0002	# Io Alexandru Mușat
+			mother=lowborn_1516	# Margit Banffy de Alsolindva
+			1408.01.01={birth=yes}  # EST.
+			1432.01.01={death=yes}
+		}
+		mushati_0004={ #// B2. [1m.] Alexandru, +ca 1432
+			name=Alexandru
+			dynasty=mushati
+			religion=orthodox culture=vlach
+			father=mushati_0002	# Io Alexandru Mușat
+			mother=lowborn_1516	# Margit Banffy de Alsolindva
+			1408.01.01={birth=yes}  # EST.
+			1432.01.01={death=yes}
+		}
+		mushati_0005={ #// B3. [2m.] Io Ilias, Hospodar of Moldova (I.1432-XI.1433), *20.7.1409, +23.4.1448; m.23.10.1425 Marina Pss Holszanska, dau.of Andrei Pr Holszanski by Aleksandra Pss Drucka
+			name="Io Ilias"
+			dynasty=mushati
+			religion=orthodox culture=vlach
+			father=mushati_0002	# Io Alexandru Mușat
+			mother=lowborn_4877	# Anna of Podolia
+			1409.07.20={birth=yes}  # I.1432-XI.1433 ) (
+			1425.10.23={add_spouse=lowborn_4996}	# PSS Marina Holszanska
+			1448.04.23={death=yes}
+		}
+			mushati_0006={ #// C1. Io Roman II, Hospodar of Moldova (IX.1447-II.1448), +of poisoning 2.7.1448
+				name="Io Roman"
+				dynasty=mushati
+				religion=orthodox culture=vlach
+				father=mushati_0005	# Io Ilias Mușat
+				mother=lowborn_4996	# PSS Marina Holszanska
+				1448.07.02={birth=yes}  # IX.1447-II.1448 ) ( d
+				1518.01.01={death=yes}  # EST.
+			}
+			mushati_0007={ #// C2. Io Alexandru Olehno, Hospodar of Moldova (1442-54), *ca 1429, +25.5.1455
+				name="Io Alexandru"
+				dynasty=mushati
+				religion=orthodox culture=vlach
+				father=mushati_0005	# Io Ilias Mușat
+				mother=lowborn_4996	# PSS Marina Holszanska
+				1429.01.01={birth=yes}
+				1455.05.25={death=yes}
+			}
+			mushati_0008={ #// C3. Anastasia; m.Pr Yury of Nieswicz $$
+				name=Anastasia
+				female=yes
+				dynasty=mushati
+				religion=orthodox culture=vlach
+				father=mushati_0005	# Io Ilias Mușat
+				mother=lowborn_4996	# PSS Marina Holszanska
+				1431.01.01={birth=yes}  # EST.
+				1491.01.01={death=yes}  # EST.
+			}
+		mushati_0009={ #// B4. Vasilissa, +after 1447; m.Vlad II Dracul, Voivode of Wallachia (+1446)
+			name=Vasilissa
+			female=yes
+			dynasty=mushati
+			religion=orthodox culture=vlach
+			father=mushati_0002	# Io Alexandru Mușat
+			mother=lowborn_1516	# Margit Banffy de Alsolindva
+			1411.01.01={birth=yes}  # EST.
+			1448.01.01={death=yes}
+		}
+		mushati_0010={ #// B5. [illegitimate] Io Stefan II, Hospodar of Moldova (1433-47), +13.7.1447; m.Maria N
+			name="Io Stefan"
+			dynasty=mushati
+			religion=orthodox culture=vlach
+			father=mushati_0002	# Io Alexandru Mușat
+			trait=bastard
+			1411.01.01={birth=yes}  # EST.
+			1436.01.01={add_spouse=lowborn_5000}	# Maria N
+			1447.07.13={death=yes}
+		}
+		mushati_0011={ #// B6. [illegitimate] Io Petru III Aron, Hospodar of Moldova (1451-52)+(1454-55)+(1455-57), +1469
+			name="Io Petru"
+			dynasty=mushati
+			religion=orthodox culture=vlach
+			father=mushati_0002	# Io Alexandru Mușat
+			trait=bastard
+			1412.01.01={birth=yes}  # EST.
+			1469.01.01={death=yes}
+		}
+			mushati_0012={ #// C1. Ilias, +beheaded III.1501
+				name=Ilias
+				dynasty=mushati
+				religion=orthodox culture=vlach
+				father=mushati_0011	# Io Petru Mușat
+				1435.01.01={birth=yes}  # EST.
+				1501.03.01={death=yes}  # beheaded
+			}
+				mushati_0013={ #// D1. Io Alexandru III Cornea, Hospodar of Moldova (1540-41), +after 9.2.1541
+					name="Io Alexandru"
+					dynasty=mushati
+					religion=orthodox culture=vlach
+					father=mushati_0012	# Ilias Mușat
+					1472.01.01={birth=yes}  # EST.
+					1542.02.09={death=yes}
+				}
+					mushati_0014={ #// E1. Petru, +in exile in Asia Minor
+						name=Petru
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0013	# Io Alexandru Mușat
+						1497.01.01={birth=yes}  # EST.
+						1557.01.01={death=yes}  # EST.
+					}
+					mushati_0015={ #// E2. a daughter, in the sultan's harem
+						name=daughter
+						female=yes
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0013	# Io Alexandru Mușat
+						1497.01.01={birth=yes}  # EST.
+						1557.01.01={death=yes}  # EST.
+					}
+			mushati_0016={ #// C2. Alexandru, fl 1485
+				name=Alexandru
+				dynasty=mushati
+				religion=orthodox culture=vlach
+				father=mushati_0011	# Io Petru Mușat
+				1435.01.01={birth=yes}  # EST.
+				1495.01.01={death=yes}  # EST.
+			}
+		mushati_0017={ #// B7. [4m.] Io Petru II, Hospodar of Moldova (1448-1449), +1449; m.N, a sister of János Hunyadi
+			name="Io Petru"
+			dynasty=mushati
+			religion=orthodox culture=vlach
+			father=mushati_0002	# Io Alexandru Mușat
+			mother=lowborn_1516	# Margit Banffy de Alsolindva
+			1423.01.01={birth=yes}  # EST.
+			1447.01.01={add_spouse=lowborn_5001}	# N Hunyadi
+			1449.01.01={death=yes}
+		}
+		mushati_0018={ #// B8. [4m.] Chiajna, +after 7.5.1479
+			name=Chiajna
+			female=yes
+			dynasty=mushati
+			religion=orthodox culture=vlach
+			father=mushati_0002	# Io Alexandru Mușat
+			mother=lowborn_1516	# Margit Banffy de Alsolindva
+			1424.01.01={birth=yes}  # EST.
+			1480.05.07={death=yes}
+		}
+	mushati_0019={ #// A2. Bogdan, +after III.1407; m.Oltea (from Wallachia)
+		name=Bogdan
+		dynasty=mushati
+		religion=orthodox culture=vlachs
+		father=mushati_0001	# Io Roman Mușat
+		1371.01.01={birth=yes}  # EST.
+		1386.01.01={add_spouse=lowborn_5002}	# Oltea N
+		1408.03.01={death=yes}
+	}
+		mushati_0020={ #// B1. Io Bogdan II, Hospodar of Moldova (1449-51), +murdered 15.10.1451; m.Maria N
+			name="Io Bogdan"
+			dynasty=mushati
+			religion=orthodox culture=vlach
+			father=mushati_0019	# Bogdan Mușat
+			mother=lowborn_5002	# Oltea N
+			1396.01.01={birth=yes}  # EST.
+			1432.01.01={add_spouse=lowborn_5003}	# Maria N
+			1451.10.15={death=yes}  # murdered
+		}
+			mushati_0021={ #// C1. Io Stefan III "the Great", Hospodar of Moldova (1457-1504), *1433, +2.7.1504, bur Putna Monastery; 1m: Marusca N (+by 1457); 2m: 4.6.1464 Yevdotia Olelkowicza Pss of Kiev (+1467); 3m: 14.9.1472 Maria iz Mankup (+19.12.1477), dau.of Olebei Pr of Gothia and Maria Palaiologina; 4m: 1478 Maria Bassaraba (+1511)
+				name="Io Stefan"
+				dynasty=mushati
+				religion=orthodox culture=vlach
+				father=mushati_0020	# Io Bogdan Mușat
+				mother=lowborn_5003	# Maria N
+				1433.01.01={birth=yes}
+				1455.01.01={add_spouse=lowborn_5004}	# Marusca N
+				1464.06.04={add_spouse=lowborn_5005}	# PSS Yevdotia Olelkowicza of Kiev
+				1472.09.14={add_spouse=lowborn_5006}	# Maria iz Mankup
+				1478.01.01={add_spouse=lowborn_5007}	# Maria Bassaraba
+				1504.07.02={death=yes}
+			}
+				mushati_0022={ #// D1. [1m.] Alexandru, +26.7.1496; m.1489 Margarete N
+					name=Alexandru
+					dynasty=mushati
+					religion=orthodox culture=vlach
+					father=mushati_0021	# Io Stefan Mușat
+					mother=lowborn_5004	# Marusca N
+					1457.01.01={birth=yes}  # EST.
+					1489.01.01={add_spouse=lowborn_5008}	# Margarete N
+					1496.07.26={death=yes}
+				}
+					mushati_0023={ #// E1. Io Stefan IV Lacusta, Hospodar of Moldova (1538-40), +murdered XII.1540; m.before 1536 Ciajna N
+						name="Io Stefan"
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0022	# Alexandru Mușat
+						mother=lowborn_5008	# Margarete N
+						1491.01.01={birth=yes}  # EST.
+						1536.01.01={add_spouse=lowborn_5009}	# Ciajna N
+						1540.12.01={death=yes}  # murdered
+					}
+						mushati_0024={ #// F1. Alexandru
+							name=Alexandru
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=mushati_0023	# Io Stefan Mușat
+							mother=lowborn_5009	# Ciajna N
+							1537.01.01={birth=yes}  # EST.
+							1597.01.01={death=yes}  # EST.
+						}
+						mushati_0025={ #// F2. Stefan
+							name=Stefan
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=mushati_0023	# Io Stefan Mușat
+							mother=lowborn_5009	# Ciajna N
+							1540.01.01={birth=yes}  # EST.
+							1600.01.01={death=yes}  # EST.
+						}
+				mushati_0026={ #// D2. [2m.] Petru, +21.11.1480
+					name=Petru
+					dynasty=mushati
+					religion=orthodox culture=vlach
+					father=mushati_0021	# Io Stefan Mușat
+					mother=lowborn_5004	# Marusca N
+					1466.01.01={birth=yes}  # EST.
+					1480.11.21={death=yes}
+				}
+				mushati_0027={ #// D3. [3m.] Bogdan, *3.9.1473, +24.7.1479
+					name=Bogdan
+					dynasty=mushati
+					religion=orthodox culture=vlach
+					father=mushati_0021	# Io Stefan Mușat
+					mother=lowborn_5004	# Marusca N
+					1473.09.03={birth=yes}
+					1479.07.24={death=yes}
+				}
+				mushati_0029={ #// D5. [4m.] Bogdan III "the One-Eyed", Hospodar of Moldova (1504-17), *9.3.1479, +20.4.1517; 1m: 1510 Nastasia N (+12.10.1512); 2m: 21.7.1513 Ruxandra Bassaraba; he left issue by concubines:
+					name=Bogdan
+					dynasty=mushati
+					religion=orthodox culture=vlach
+					father=mushati_0021	# Io Stefan Mușat
+					mother=lowborn_5004	# Marusca N
+					1479.03.09={birth=yes}
+					1510.01.01={add_spouse=lowborn_5010}	# Nastasia N
+					1513.07.21={add_spouse=lowborn_5011}	# Ruxandra Bassaraba
+					1517.04.20={death=yes}
+				}
+					mushati_0030={ #// E1. [illegitimate] Alexandru IV Lapusneanu, Hospodar of Moldova (1552-61)+(1564-68), +5.5.1568; m.1552 his cousin Ruxandra (+12.11.1570), dau.of Petru IV Rares by Jelena Brankovic $$
+						name=Alexandru
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0029	# Bogdan Mușat
+						trait=bastard
+						1532.01.01={birth=yes}  # EST.
+						1552.01.01={add_spouse=mushati_0058}	# Ruxandra Mușat
+						1568.05.05={death=yes}
+					}
+						mushati_0031={ #// F1. Bogdan IV, Hospodar of Moldova (1568-72); m.N, a Polish woman
+							name=Bogdan
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=mushati_0030	# Alexandru Mușat
+							mother=mushati_0058	# Ruxandra Mușat
+							1555.01.01={birth=yes}  # EST.
+							1596.01.01={add_spouse=lowborn_5013}	# N N
+							1632.01.01={death=yes}  # EST.
+						}
+							mushati_0032={ #// G1. Alexandru V, proclaimed [Hospodar in VI.1593]
+								name=Alexandru
+								dynasty=mushati
+								religion=orthodox culture=vlach
+								father=mushati_0031	# Bogdan Mușat
+								mother=lowborn_5013	# N N
+								1575.01.01={birth=yes}  # EST.
+								1630.01.01={death=yes}  # EST.
+							}
+								mushati_0033={ #// H1. Petru, +8.6.1619
+									name=Petru
+									dynasty=mushati
+									religion=orthodox culture=vlach
+									father=mushati_0032	# Alexandru Mușat
+									1600.01.01={birth=yes}  # EST.
+									1619.06.08={death=yes}
+								}
+						mushati_0034={ #// F2. [illegitimate] Petru V Cazacul, Hospodar of Moldova (1592), +after 24.10.1592
+							name=Petru
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=mushati_0030	# Alexandru Mușat
+							trait=bastard
+							1592.01.01={birth=yes}
+							1593.10.24={death=yes}
+						}
+						mushati_0035={ #// F3. [illegitimate] Aron Voda, Hospodar of Moldova (1591-95), +Alba Julia VI.1597; m.Stanca Cantacuzino (+after 23.10.1619)
+							name=Aron
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=mushati_0030	# Alexandru Mușat
+							trait=bastard
+							1573.01.01={birth=yes}  # EST.
+							1594.01.01={add_spouse=lowborn_5014}	# Stanca Cantacuzino
+							1597.06.01={death=yes}
+						}
+							mushati_0036={ #// G1. Marcu, +after 23.10.1619
+								name=Marcu
+								dynasty=mushati
+								religion=orthodox culture=vlach
+								father=mushati_0035	# Aron Mușat
+								mother=lowborn_5014	# Stanca Cantacuzino
+								1598.01.01={birth=yes}  # EST.
+								1620.10.23={death=yes}
+							}
+					mushati_0037={ #// E2. [illegitimate] Petru, +20.9.1527
+						name=Petru
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0029	# Bogdan Mușat
+						trait=bastard
+						1517.01.01={birth=yes}  # EST.
+						1527.09.20={death=yes}
+					}
+					mushati_0038={ #// E3. [illegitimate] Stefan VI, Hospodar of Moldova (1517-27), +14.1.1527; m.Stanca Bassaraba (+1530)
+						name=Stefan
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0029	# Bogdan Mușat
+						trait=bastard
+						1500.01.01={birth=yes}  # EST.
+						1524.01.01={add_spouse=lowborn_5015}	# Stanca Bassaraba
+						1527.01.14={death=yes}
+					}
+						mushati_0039={ #// F1. Ioan Bogdan, +after 1596
+							name="Ioan Bogdan"
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=mushati_0038	# Stefan Mușat
+							mother=lowborn_5015	# Stanca Bassaraba
+							1527.01.01={birth=yes}  # EST.
+							1597.01.01={death=yes}
+						}
+						mushati_0040={ #// F2. [illegitimate] Ioan III, Hospodar of Moldova (1572-74), +14.6.1574; 1m: Maria Pss of Rostov; 2m: III.1572 Marica Huru
+							name=Ioan
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=mushati_0038	# Stefan Mușat
+							trait=bastard
+							1528.01.01={birth=yes}  # EST.
+							1554.01.01={add_spouse=lowborn_5017}	# PSS Maria of Rostov
+							1572.03.01={add_spouse=lowborn_5018}	# Marica Huru
+							1574.06.14={death=yes}
+						}
+				mushati_0041={ #// D6. [illegitimate] Io Petru IV Rares, Lord of Siebenbuergen, Hospodar of Moldova [1527-1838, 1541-1546], *1487, +3.9.1546; 1m: Maria N; 2m: IV.1530 Jelena Katarina Brankovic (+strangled 1552)
+					name="Io Petru"
+					dynasty=mushati
+					religion=orthodox culture=vlach
+					father=mushati_0021	# Io Stefan Mușat
+					trait=bastard
+					1487.01.01={birth=yes}
+					1513.01.01={add_spouse=lowborn_5019}	# Maria N
+					1530.04.01={add_spouse=lowborn_5020}	# Jelena Katarina Brankovic
+					1546.09.03={death=yes}
+				}
+					mushati_0042={ #// E1. [2m.] Io Ilias II Rares, Hospodar of Moldova (1546-51), *ca 1531, +in Syria I.1562
+						name="Io Ilias"
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0041	# Io Petru Mușat
+						mother=lowborn_5019	# Maria N
+						1531.01.01={birth=yes}
+						1562.01.01={death=yes}  # in Syria
+					}
+					mushati_0043={ #// E2. [2m.] Io Stefan V Rares, Hospodar of Moldova (1551-52), +murdered 1.9.1552
+						name="Io Stefan"
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0041	# Io Petru Mușat
+						mother=lowborn_5019	# Maria N
+						1552.01.01={birth=yes}  # EST.
+						1552.09.01={death=yes}  # murdered
+					}
+					mushati_0044={ #// E3. [2m.] Constantin, +murdered in Constantinople 26.3.1554
+						name=Constantin
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0041	# Io Petru Mușat
+						mother=lowborn_5019	# Maria N
+						1552.01.01={birth=yes}  # EST.
+						1554.03.26={death=yes}  # murdered in Constantinople
+					}
+					mushati_0045={ #// E4. [illegitimate] Io Iancu Sasul, Hospodar of Moldova (XI.1579-IX.1582), +beheaded 28.9.1582; m.Maria Palaiologina
+						name=Io
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0041	# Io Petru Mușat
+						trait=bastard
+						1582.09.28={birth=yes}  # XI.1579-IX.1582 ) ( d
+						1594.01.01={add_spouse=lowborn_5021}	# Maria Palaiologina
+						1652.01.01={death=yes}  # beheaded
+					}
+						mushati_0046={ #// F1. Bogdan Sasul, fl 1596
+							name=Bogdan
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=mushati_0045	# Io Mușat
+							mother=lowborn_5021	# Maria Palaiologina
+							1595.01.01={birth=yes}  # EST.
+							1631.01.01={death=yes}  # EST.
+						}
+						mushati_0047={ #// F2. Chrisotina; m.Antonios Katakalos
+							name=Chrisotina
+							female=yes
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=mushati_0045	# Io Mușat
+							mother=lowborn_5021	# Maria Palaiologina
+							1603.01.01={birth=yes}  # EST.
+							1663.01.01={death=yes}  # EST.
+						}
+					mushati_0048={ #// E5. Ana, +1542/46; m.1531 Vlad "Inecatul", Voivode of Wallachia (+after 18.9.1532)
+						name=Ana
+						female=yes
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0041	# Io Petru Mușat
+						mother=lowborn_5019	# Maria N
+						1521.01.01={birth=yes}  # EST.
+						1542.01.01={death=yes}
+					}
+					mushati_0049={ #// E6. [illegitimate] Maria, +1614-16; 1m: Isaac Balica; 2m: Ioan Movila de Hudesti
+						name=Maria
+						female=yes
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0041	# Io Petru Mușat
+						trait=bastard
+						1544.01.01={birth=yes}  # EST.
+						1614.01.01={death=yes}
+					}
+						mushati_0050={ #// F1. [2m.] Jeremie Movila, Hospodar of Moldova (1595-1600)+(1600-1606), +VI.1606; m.1588 Elzbieta Csomortany de Losoncz (+Istanbul ca 1617)
+							name=Jeremie
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=lowborn_5025	# Ioan Movila de Hudesti
+							mother=mushati_0049	# Maria Mușat
+							1563.01.01={birth=yes}  # EST.
+							1588.01.01={add_spouse=lowborn_5026}	# Elzbieta Csomortany de Losoncz
+							1606.06.01={death=yes}
+						}
+							mushati_0051={ #// G1. Bogdan V Movila, Voivode of Moldau
+								name=Bogdan
+								dynasty=mushati
+								religion=orthodox culture=vlach
+								father=mushati_0050	# Jeremie Mușat
+								mother=lowborn_5026	# Elzbieta Csomortany de Losoncz
+								1590.01.01={birth=yes}  # EST.
+								1650.01.01={death=yes}  # EST.
+							}
+							mushati_0052={ #// G2. Constantin I Movila, Voivode of Moldau
+								name=Constantin
+								dynasty=mushati
+								religion=orthodox culture=vlach
+								father=mushati_0050	# Jeremie Mușat
+								mother=lowborn_5026	# Elzbieta Csomortany de Losoncz
+								1590.01.01={birth=yes}  # EST.
+								1650.01.01={death=yes}  # EST.
+							}
+							mushati_0053={ #// G3. Mihail Movila, Voivode of Moldau
+								name=Mihail
+								dynasty=mushati
+								religion=orthodox culture=vlach
+								father=mushati_0050	# Jeremie Mușat
+								mother=lowborn_5026	# Elzbieta Csomortany de Losoncz
+								1592.01.01={birth=yes}  # EST.
+								1652.01.01={death=yes}  # EST.
+							}
+							mushati_0054={ #// G4. Anna Mohylanka; m.1658/61 Stanislaw Potocki (*1579 +1667) $$
+								name=Anna
+								female=yes
+								dynasty=mushati
+								religion=orthodox culture=vlach
+								father=mushati_0050	# Jeremie Mușat
+								mother=lowborn_5026	# Elzbieta Csomortany de Losoncz
+								1592.01.01={birth=yes}  # EST.
+								1659.01.01={death=yes}  # EST.
+							}
+							mushati_0055={ #// G5. Maria Mohylanka, +Warsaw 10.12.1638; m.1606 Stefan Potocki (+5.3.1631) $$
+								name=Maria
+								female=yes
+								dynasty=mushati
+								religion=orthodox culture=vlach
+								father=mushati_0050	# Jeremie Mușat
+								mother=lowborn_5026	# Elzbieta Csomortany de Losoncz
+								1594.01.01={birth=yes}  # EST.
+								1638.12.10={death=yes}  # Warsaw
+							}
+						mushati_0056={ #// F2. [2m.] Simeon Movila, Voivode of Moldau (1600-1601)+(1601-1602)+(1606-1607)
+							name=Simeon
+							dynasty=mushati
+							religion=orthodox culture=vlach
+							father=lowborn_5025	# Ioan Movila de Hudesti
+							mother=mushati_0049	# Maria Mușat
+							1569.01.01={birth=yes}  # EST.
+							1629.01.01={death=yes}  # EST.
+						}
+					mushati_0057={ #// E7. Chiajna; m.Suceava VI.1546 Mircea III, Voivode of Wallachia (+21.9.1559)
+						name=Chiajna
+						female=yes
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0041	# Io Petru Mușat
+						mother=lowborn_5019	# Maria N
+						1537.01.01={birth=yes}  # EST.
+						1595.01.01={death=yes}  # EST.
+					}
+					mushati_0058={ #// E8. [2m.] Ruxandra, +1570; m.1552 Alexandru IV Lapusneanu, Hospodar of Moldova (+1568) $$
+						name=Ruxandra
+						female=yes
+						dynasty=mushati
+						religion=orthodox culture=vlach
+						father=mushati_0041	# Io Petru Mușat
+						mother=lowborn_5019	# Maria N
+						1541.01.01={birth=yes}  # EST.
+						1570.01.01={death=yes}
+					}
+				mushati_0059={ #// D7. [2m.] Ilincu, after her husband's death she was thrown into prison, +there 18.1.1505; m.Moscow 12.1.1483 Great Pr Ivan of Tver (*15.2.1458 +7.3.1490)
+					name=Ilincu
+					female=yes
+					dynasty=mushati
+					religion=orthodox culture=vlach
+					father=mushati_0021	# Io Stefan Mușat
+					mother=lowborn_5004	# Marusca N
+					1466.01.01={birth=yes}  # EST.
+					1505.01.18={death=yes}  # there
+				}
+				mushati_0060={ #// D8. [4m.] Ana, +after 1499
+					name=Ana
+					female=yes
+					dynasty=mushati
+					religion=orthodox culture=vlach
+					father=mushati_0021	# Io Stefan Mușat
+					mother=lowborn_5004	# Marusca N
+					1477.01.01={birth=yes}  # EST.
+					1500.01.01={death=yes}
+				}
+				mushati_0061={ #// D9. [4m.] Maria, +1518
+					name=Maria
+					female=yes
+					dynasty=mushati
+					religion=orthodox culture=vlach
+					father=mushati_0021	# Io Stefan Mușat
+					mother=lowborn_5004	# Marusca N
+					1477.01.01={birth=yes}  # EST.
+					1518.01.01={death=yes}
+				}
+#balkan18
+## MUSHATI

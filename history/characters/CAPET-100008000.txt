@@ -683,7 +683,7 @@
 										female=yes
 										dynasty_house=house_bourbon_busset
 										religion=catholic culture=french
-										father=100101229	# Jean-Werner de T'Serclaes de Wommersom
+										father=100101229	# Jean-Werner de t'Serclaes de Wommersom
 										mother=100065123	# Agnès de Bourbon-Busset
 										2006.01.08={birth=yes}
 									}
@@ -692,7 +692,7 @@
 										female=yes
 										dynasty_house=house_bourbon_busset
 										religion=catholic culture=french
-										father=100101229	# Jean-Werner de T'Serclaes de Wommersom
+										father=100101229	# Jean-Werner de t'Serclaes de Wommersom
 										mother=100065123	# Agnès de Bourbon-Busset
 										2007.11.30={birth=yes}  # Paris
 									}
@@ -805,15 +805,15 @@
 						1885.01.01={birth=yes}  # Paris
 						1913.01.01={death=yes}  # Moulins
 					}
-					100067263={ #// E7. Sophie, *Paris 1887, +Moulins 1967; m.1919 Cte Urbain de Rouge (+1933)
-						name=Sophie
+					100067263={ #// E7. Sophie Henriette, *Paris 1887, +Moulins 1967; m.1919 Cte Urbain de Rouge (+1933) $$
+						name="Sophie Henriette"
 						female=yes
 						dynasty_house=house_bourbon_busset
 						religion=catholic culture=french
 						father=100065116	# Robert de Bourbon-Busset
 						mother=100067796	# Juliette Louise d’Ursel
-						1887.01.01={birth=yes}  # Paris
-						1967.01.01={death=yes}  # Moulins
+						1887.11.01={birth=yes}  # Paris
+						1967.06.06={death=yes}  # Moulins
 					}
 					100067167={ #// E4. Jean, *Paris 1889, +k.a.Rocquigny 1914, bur La Chapelle
 						name="Jean  Chapelle"
@@ -2568,13 +2568,14 @@
 							1728.07.22={add_spouse=100001696}	# Karoline von Hessen-Rheinfels-Rotenburg
 							1740.01.01={death=yes}
 						}
-							100196179={ #// G1. Louis V Joseph, Pr de Conde, Duc de Bourbon, etc, *Paris 9.8.1736, +Palais Bourbon, Paris 13.5.1818; 1m: Versailles 3.5.1753 Charlotte de Rohan-Soubise, heiress of Bouillon (*7.10.1737 +4.3.1760); 2m: Wanstead 24.10.1798 Maria Caterina de Brignole (*7.10.1737, +Wimbledon 18.3.1813)
+							100196179={ #// G1. Louis V Joseph, Pr de Conde, Duc de Bourbon, etc, *Paris 9.8.1736, +Palais Bourbon, Paris 13.5.1818; 1m: Versailles 3.5.1753 Charlotte de Rohan-Soubise, heiress of Bouillon (*7.10.1737 +4.3.1760); 2m: Wanstead 24.10.1798 Maria Caterina de Brignole (*7.10.1737, +Wimbledon 18.3.1813) $$
 								name="Louis Joseph"
 								dynasty_house=house_bourbon_conde
 								religion=catholic culture=german
 								father=100196180	# Louis Henri de Bourbon-Condé
 								mother=100001696	# Karoline von Hessen-Rheinfels-Rotenburg
 								1736.08.09={birth=yes}	# Paris
+								1753.05.03={add_spouse=rohan_0026}	# Charlotte Elizabeth de Rohan
 								1818.05.13={death=yes}	# Paris
 							}
 								100194374={ #// H1. Louis VI Henri Joseph, Pr de Conde, Duc de Bourbon, etc, *Paris 13.4.1756, +Chateau de Saint-Leu 30.8.1830; m.Versailles 24.4.1770 (separated 1780) Bathilde d´Orleans (*St.Cloud 9.7.1750, +Paris 10.1.1822) dau.of Duc Louis Philippe I d'Orleans $$
@@ -2582,6 +2583,7 @@
 									dynasty_house=house_bourbon_conde
 									religion=catholic culture=french
 									father=100196179	# Louis Joseph de Bourbon-Condé
+									mother=rohan_0026	# Charlotte Elizabeth de Rohan
 									1756.04.13={birth=yes}	#  Île de France, Paris
 									1770.04.24={add_spouse=100066689}	# Bathilde d’Orléans
 									1830.08.27={death=yes}	# Château de St.Leu
@@ -4784,8 +4786,9 @@
 								mother=100081725	# Camilla Crociani
 								2004.01.01={birth=yes}
 							}
-				100070505={ #// 10d) Filippo Maria Alfonso Antonio Ferdinando Francisco di Paola Lodovico Enrico Alberto Taddeo Francesco Saverio Uberto (Cannes 10 Dec 1885-St.John, New Brunswick 9 Mar 1949);  $$
-						   # m. Paris 10 Jan 1927 Odette Labori (Paris 22 Nov 1902-Kremlin 19 Jun 1968)
+				100070505={ #// D6. FILIPPO Maria Alfonso Antonio Ferdinando Francisco di Paola Lodovico Enrico Alberto Taddeo Francesco Saverio Uberto, *Cannes 10.12.1885, +St.John, New Brunswick 9.3.1949; $$
+							# 1m: Neuilly (civ) 10.1.1916 (rel) 15.1.1916 (annulled 1925) Pss Marie Louise d'Orléans (*Neuilly 31.12.1896, +New York City 8.3.1973;
+							# 2m: Paris 10.1.1927 Odette Labori (*Paris 22.11.1902, +Le Kremlin-Bicetre 19.6.1968)
 					name=Filippo
 					dynasty_house=house_bourbon_sicily
 					religion=catholic culture=sicilian
@@ -4793,8 +4796,6 @@
 					mother=100070515	# Maria Antonietta di Borbone-Due Sicilie
 					1885.12.10={birth=yes}
 					1916.01.12={add_spouse=100066681}	# Marie Louise d’Orléans
-					1925.01.01={remove_spouse=100066681}
-					1927.01.10={add_spouse=100087129}	# Odette Labori
 					1949.03.09={death=yes}
 				}
 					100070506={ #// 1e) Gaëtano Maria Alfonso Enrico Paolo (Cannes 16 Apr 1917-Harare 27 Dec 1984); m.Paddington 16 Feb 1946 Olivia Yarrow (Dumfries 16 Jul 1917-Harare, Zimbabwe 24 May 1987)
@@ -4802,7 +4803,7 @@
 						dynasty_house=house_bourbon_sicily
 						religion=catholic culture=sicilian
 						father=100070505	# Filippo di Borbone-Due Sicilie
-						mother=100087129	# Odette Labori
+						mother=100066681	# Marie Louise d’Orléans
 						1917.04.16={birth=yes}
 						1946.02.16={add_spouse=100093953}	# Olivia Yarrow
 						1984.12.27={death=yes}
