@@ -1,40 +1,27 @@
-﻿bm_1835 = {
-	start_date = 1835.1.1
+﻿bm_1836 = {
+	start_date = 1836.1.1
 	is_playable = yes
-	group = bm_group_1835
+	group = bm_group_1836
 
 	character = {
-		name = "Franz von Österreich"
+		name = "bm_1836_ferdinand_austria"
 		dynasty_house=house_habsburg_lothringen
 		dynasty_splendor_level = 5
 		type = male
-		birth = 1768.02.12
+		birth = 1793.04.19
 		title = e_austria
 		government = feudal_government
 		culture = bavarian
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = 100020020
+		history_id = 100020030
 		position = { 765 590 }
 
 		animation = personality_cynical
-		
-		# Ferdinand, son, ID: 100020030
-		character = {
-			name = "Ferdinand von Österreich"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty_house=house_habsburg_lothringen
-			type = male
-			birth = 1793.04.19
-			culture = bavarian
-			religion = catholic
-			history_id = 100020030
 
-			animation = shame
-		}
-		# Franz Karl, son, ID: 100020041
+		# Franz Karl, brother, ID: 100020041
 		character = {
-			name = "Franz Karl von Österreich"
+			name = "bm_1836_franz_karl_austria"
 			relation = "BOOKMARK_RELATION_SON"
 			dynasty_house=house_habsburg_lothringen
 			type = male
@@ -54,7 +41,7 @@ bm_1900 = {
 	group = bm_group_1900
 
 	character = {
-		name = "Franz Joseph von Österreich"
+		name = "bm_1900_franz_joseph_austria"
 		dynasty_house=house_habsburg_lothringen
 		dynasty_splendor_level = 5
 		type = male
@@ -71,7 +58,7 @@ bm_1900 = {
 	
 		# Franz Ferdinand, heir
 		character = {
-			name = "Franz Ferdinand von Österreich-Este"
+			name = "bm_1900_franz_ferdinand_austria"
 			relation = "BOOKMARK_RELATION_COUSIN"
 			dynasty_house = house_oesterreich_este 
 			type = male
@@ -84,9 +71,9 @@ bm_1900 = {
 		}
 		# Gisela, daughter, ID: 100020046
 		character = {
-			name = "Gisela von Österreich"
+			name = "bm_1900_gisela_austria"
 			relation = "BOOKMARK_RELATION_DAUGHTER"
-			dynasty = 1503
+			dynasty_house=house_habsburg_lothringen
 			type = female
 			birth = 1856.07.12
 			culture = bavarian
@@ -104,7 +91,7 @@ bm_2023 = {
 	group = bm_group_2023
 
 	character = {
-		name = "Karl von Österreich"
+		name = "bm_2023_karl_austria"
 		dynasty = 1503
 		dynasty_splendor_level = 5
 		type = male

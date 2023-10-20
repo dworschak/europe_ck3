@@ -105,6 +105,25 @@ wiedersperger_0001={ #// Edmund Wiedersperger von Wiedersperg (*Praha 5.5.1835, 
 		1878.03.24={birth=yes}  # Willach
 		1953.01.01={death=yes}  # EST.
 	}
+
+100095109={ #// Pál Gf Niczky de Niczk (*Ligvánd 23.5.1873, +Sopron 13.11.1932); m.Bratislava 2.6.1903 Margit Esterházy de Galántha (*Bratislava 14.3.1877, +Glabárpuszta 13.4.1947) $$
+	name="Pál"
+	dynasty=1011655
+	religion=catholic culture=hungarian
+	1873.05.22={birth=yes}  # Ligvánd
+	1903.06.02={add_spouse=100117396}	# Margit Esterházy de Galántha
+	1932.11.13={death=yes}  # Sopron
+}
+	100096701={ #// Gf László Niczky de Niczk (*Sopron 12.3.1905, +Budapest 5.12.1992); m.Borzavár-Porva 7.3.1938 Mária Anna Pejacevic (*Felsoludány 4.1.1912, +Budapest 18.12.1972) $$
+		name="László"
+		religion=catholic culture=hungarian
+		dynasty=1011655
+		father=100095109	# Pál Niczky de Niczk
+		mother=100117396	# Margit Esterházy de Galántha
+		1905.03.12={birth=yes}  # Sopron
+		1938.03.07={add_spouse=100136140}	# Mária Anna Pejačević
+		1992.12.05={death=yes}  # Budapest
+	}
 #### MINOR
 
 
@@ -1261,7 +1280,7 @@ wiedersperger_0001={ #// Edmund Wiedersperger von Wiedersperg (*Praha 5.5.1835, 
 							father=100120233	# Adolf Somssich de Saárd
 							mother=100098722	# Mária Sauska de Somberek
 							1838.10.12={birth=yes}  # Sternberg
-							1890.09.01={add_spouse=100098818}	# Borbála Szabadi de Szabadi
+							1885.09.01={add_spouse=100098818}	# Borbála Szabadi de Szabadi
 							1900.03.07={death=yes}  # Ormándlak
 						}
 							100120230={	#// G2. Jenő, *Sternberg 25.7.1877, +k.a. Auzza 14.9.1917
@@ -1269,7 +1288,7 @@ wiedersperger_0001={ #// Edmund Wiedersperger von Wiedersperg (*Praha 5.5.1835, 
 								dynasty=1011734
 								religion=catholic culture=hungarian
 								father=100120232	# János Somssich de Saárd
-								1877.07.25={birth=yes}  # Sternberg
+								1886.06.25={birth=yes}  # Babócsa
 								1917.09.14={death=yes}  # Auzza
 							}
 							100120231={	#// G1. Borbála Izabella, *Babócsa 25.6.1886
@@ -5088,7 +5107,7 @@ petrich_0001={ #// Ferenc Petrichevich-Horváth de Széplak, +Széplak 3.5.1746;
 				father=100119909	# István Koháry de Csábrág
 				mother=100092163	# Éva Újfalussy de Divék-Újfalu
 				1654.04.03={birth=yes}  # Csábrág
-				1687.01.01={add_spouse=100093114}	# FRN Maria-Luisa von Rechberg zu Osterberg und Weißenstein
+				1677.01.01={add_spouse=100093114}	# FRN Maria-Luisa von Rechberg zu Osterberg und Weißenstein
 				1704.01.01={death=yes}  # Dubrava
 			}
 				100119934={	#// D1. Zsófia; m.Ádám Berényi de Karancsberény $$
@@ -6246,7 +6265,7 @@ petrich_0001={ #// Ferenc Petrichevich-Horváth de Széplak, +Széplak 3.5.1746;
 					1845.11.16={birth=yes}  # Nagybánya
 					1921.11.11={death=yes}  # Kreutberg
 				}
-				100116832={	#// D3. Ilka, *Brünn 30.4.1849, +Wien 9.12.1930; m.Wien 10.7.1871 Ernst Frhr Sedlnitzky-Odrowaz von Choltitz (*Brünn 23.11.1841, +Görz 30.1.1904)
+				100116832={	#// D3. Ilka, *Brünn 30.4.1849, +Wien 9.12.1930; m.Wien 10.7.1871 Ernst Frhr Sedlnitzky-Odrowaz von Choltitz (*Brünn 23.11.1841, +Görz 30.1.1904) $$
 					name=Ilka
 					female=yes
 					dynasty=1011726
@@ -11387,7 +11406,7 @@ josika_0001={ #// Dániel Jósika
 				1894.07.05={birth=yes}  # Tornanádaska
 				1967.12.09={death=yes}  # Dorfen Upper Bavaria
 			}
-			100119541={	#// C2. MARGIT Mária Gabriella Rafaella Johanna Alexandra Éva, *Tornanádaska 4.10.1899, +Wien 5.11.1978; m.Budapest 1.2.1933 Gf Viktor von Wengersky, Frhr von Ungerschütz (*2.11.1900 +31.5.1969)
+			100119541={	#// C2. MARGIT Mária Gabriella Rafaella Johanna Alexandra Éva, *Tornanádaska 4.10.1899, +Wien 5.11.1978; m.Budapest 1.2.1933 Gf Viktor von Wengersky, Frhr von Ungerschütz (*2.11.1900 +31.5.1969) $$
 				name=Margit
 				female=yes
 				dynasty=1011527
@@ -14345,7 +14364,6 @@ josika_0001={ #// Dániel Jósika
 				mother=100088673	# Erzsébet Drugeth de Homonna
 				1649.12.01={birth=yes}  # Beczkó
 				1674.01.01={add_spouse=100100950}	# Zsófia Balassa de Gyarmat
-				1690.02.01={add_spouse=100101035}	# BSS Erzsébet Amadé de Várkony
 				1724.01.01={death=yes}  # EST.
 			}
 				100115008={	#// D3. [1m.] János; m.1722 Bss Zsófia Esterházy de Galántha (*1693 +1760) $$
@@ -15413,14 +15431,14 @@ forgach_0030={ #// András Forgách de Ghymes et Gács, cr Graf 1676 (*1645, +Va
 				1782.11.13={add_spouse=lowborn_0267}	# Júlia Sándor de Szlavnicza
 				1813.12.08={death=yes}  # Ghimes
 			}
-				forgach_0049={ #// D1. Károly, *Varannó 7.9.1783, +Gimes 9.11.1859; m.Varannó 26.12.1809 Edle Herrin Philippina von Walterskirchen, Frn zu Wolfsthal (*Wolfsthal 26.4.1791, +Wien 31.1.1862)
+				forgach_0049={ #// D1. Károly, *Varannó 7.9.1783, +Gimes 9.11.1859; m.Varannó 26.12.1809 Edle Herrin Philippina von Walterskirchen, Frn zu Wolfsthal (*Wolfsthal 26.4.1791, +Wien 31.1.1862) $$
 					name=Károly
 					dynasty=1011500
 					religion=catholic culture=hungarian
 					father=forgach_0048	# József Forgách de Ghymes et Gács
 					mother=lowborn_0267	# Júlia Sándor de Szlavnicza
 					1783.09.07={birth=yes}  # Varannó
-					1809.12.26={add_spouse=100391895}	# Philippina von Walterskirchen
+					1809.12.26={add_spouse=waltersk_0131}	# Philippine von Walterskirchen
 					1859.11.09={death=yes}  # Gimes
 				}
 					forgach_0050={ #// E1. Júlia, *Bratislava 26.3.1811, +Graz 23.2.1893; 1m: St.Stefan, Wien 7.1.1829 Károly Adamovich de Csepin (*Tenje 25.5.1808, +Sopron 1849), son of Anton Adamovich de Csepin by Baronesse Barbara Perenyi de Pereny; 2m: N Hartmann
@@ -15429,7 +15447,7 @@ forgach_0030={ #// András Forgách de Ghymes et Gács, cr Graf 1676 (*1645, +Va
 						dynasty=1011500
 						religion=catholic culture=hungarian
 						father=forgach_0049	# Károly Forgách de Ghymes et Gács
-						mother=100391895	# Philippina von Walterskirchen
+						mother=waltersk_0131	# Philippine von Walterskirchen
 						1811.03.26={birth=yes}  # Bratislava
 						1893.02.23={death=yes}  # Graz
 					}
@@ -15438,7 +15456,7 @@ forgach_0030={ #// András Forgách de Ghymes et Gács, cr Graf 1676 (*1645, +Va
 						dynasty=1011500
 						religion=catholic culture=hungarian
 						father=forgach_0049	# Károly Forgách de Ghymes et Gács
-						mother=100391895	# Philippina von Walterskirchen
+						mother=waltersk_0131	# Philippine von Walterskirchen
 						1825.09.04={birth=yes}
 						1911.03.22={death=yes}  # Gimes
 					}
@@ -16009,7 +16027,7 @@ forgach_0030={ #// András Forgách de Ghymes et Gács, cr Graf 1676 (*1645, +Va
 					1648.11.22={add_spouse=100101097}	# GFN Anna Katharina von Rechberg
 					1681.01.01={death=yes}
 				}
-					100119229={	#// E1. [3m.] Gf Ádám, Nógrádi főispán (obergespan), *1663, +27.7.1716; 1m: 1686 Eva Katharina von Breuner (*1665, +Bratislava 8.6.1707); 2m: 1708 Frn Eleonora von Walterskirchen (*31.10.1687, +1.4.1770)
+					100119229={	#// E1. [3m.] Gf Ádám, Nógrádi főispán (obergespan), *1663, +27.7.1716; 1m: 1686 Eva Katharina von Breuner (*1665, +Bratislava 8.6.1707); 2m: 1708 Frn Eleonora von Walterskirchen (*31.10.1687, +1.4.1770) $$
 						name=Ádám
 						dynasty=1011500
 						religion=catholic culture=hungarian
@@ -16017,7 +16035,7 @@ forgach_0030={ #// András Forgách de Ghymes et Gács, cr Graf 1676 (*1645, +Va
 						mother=100101097	# GFN Anna Katharina von Rechberg
 						1663.01.01={birth=yes}
 						1686.01.01={add_spouse=100101100}	# Eva Katharina von Breuner
-						1708.01.01={add_spouse=100101101}	# Eleonora von Walterskirchen
+						1708.01.01={add_spouse=waltersk_0120}	# Maria Eleonore von Walterskirchen
 						1716.07.27={death=yes}
 					}
 						100119232={	#// F2. [1m.] Gf János, Nógrádi főispán, *Rajka 1.9.1691, +Szécsény 18.4.1735; m.Bss Margit Cziráky de Czirák et Dénesfalva (*Divék 7.3.1698, +Szécsény 18.4.1735) $$
@@ -16654,14 +16672,14 @@ forgach_0001={ #// Graf Zsigmond Forgách de Ghymes et Gács, *Gács 19.2.1729, 
 					1876.08.10={add_spouse=lowborn_0253}	# BSS Elza Sennyey de Kissennye
 					1911.06.22={death=yes}  # Brixen
 				}
-				forgach_0013={ #// D2. Sándor, *Nagyszalánc 22.3.1849, +Alsó-Kemence 22.12.1893; m.Pácin 8.9.1899 Bss Mária ’Sennyey de Kissennye (*Pácin 10.4.1863, +Abbazia 6.5.1912)
+				forgach_0013={ #// D2. Sándor, *Nagyszalánc 22.3.1849, +Alsó-Kemence 22.12.1893; m.Pácin 8.9.1889 Bss Mária ’Sennyey de Kissennye (*Pácin 10.4.1863, +Abbazia 6.5.1912)
 					name=Sándor
 					dynasty=1011500
 					religion=catholic culture=hungarian
 					father=forgach_0011	# Kálmán Forgách de Ghymes et Gács
 					mother=lowborn_0252	# BSS Eleonóra Pongrácz de Szentmiklós et Óvár
 					1849.03.22={birth=yes}  # Nagyszalánc
-					1899.09.08={add_spouse=lowborn_0254}	# BSS Mária Sennyey de Kissennye
+					1889.09.08={add_spouse=lowborn_0254}	# BSS Mária Sennyey de Kissennye
 					1893.12.22={death=yes}  # Alsó-Kemence
 				}
 					forgach_0014={ #// E1. Erzsébet, *Alsó-Kemence 2.10.1891, +Pressbaum 20.2.1942; m.Budapest 30.8.1920 Frhr Clemens Waldbott von Bassenheim (*Tolcsva 19.1.1882, +k.a.Budapest 11.2.1945) $$
@@ -18010,7 +18028,7 @@ forgach_0001={ #// Graf Zsigmond Forgách de Ghymes et Gács, *Gács 19.2.1729, 
 							1819.01.01={add_spouse=100099814}	# BSS Lujza Horváth de Palocsa
 							1837.01.01={death=yes}
 						}
-							100118272={	#// G1. Eleonora, *Alsó-Sebes 21.7.1833, +Alsó-Sebes 6.10.1874; m.Pozsony Gf Victor Wengersky (*Pilchowitz 29.8.1819, +Alsó-Sebes 26.11.1882)
+							100118272={	#// G1. Eleonora, *Alsó-Sebes 21.7.1833, +Alsó-Sebes 6.10.1874; m.Pozsony Gf Victor Wengersky (*Pilchowitz 29.8.1819, +Alsó-Sebes 26.11.1882) $$
 								name=Eleonora
 								female=yes
 								dynasty=1011529
@@ -19455,7 +19473,6 @@ kemeny_0001={ #// D1. János, +k.a.1603; m.Anna Sarmasági (+1573); (2m: Druzsia
 		dynasty=1011576
 		religion=catholic culture=hungarian
 		father=100118127	# Simon Kemény de Magyargyerőmonostor
-		mother=perenyi_0102	# Katalin Perényi de Perény
 		1658.01.01={birth=yes}  # EST.
 		1680.01.01={add_spouse=100117302}	# Anna Teleki de Szék
 		1701.01.01={death=yes}
@@ -22413,7 +22430,7 @@ kalnoky_0001={ #// Ádám Gf Kálnoky de Köröspatak, Csík-, Gyergyó- és Ká
 						mother=lowborn_5166	# GFN Isabella von Schrattenbach
 						1844.06.02={birth=yes}  # Letovice Moravia
 						1887.10.23={add_spouse=100010246}	# Marie Gabriela von Mensdorff-Pouilly
-						1892.01.04={add_spouse=lowborn_5174}	# GFN Marie zu Herberstein
+						1892.01.04={add_spouse=herberstein_0581}	# Maria Peregrina von Herberstein
 						1928.05.23={death=yes}  # Lettowitz
 					}
 						kalnoky_0024={ #// F1. [1m.] ALEXANDER Gustav Hugo Sigmund Adalbert, *Stockerau 17.8.1888, +Wien 21.2.1965; m.Hartenstein 28.7.1920 Pss Maria Theresia von Schönburg-Hartenstein (*4.2.1896 +14.8.1979) $$
@@ -22618,7 +22635,7 @@ kalnoky_0001={ #// Ádám Gf Kálnoky de Köröspatak, Csík-, Gyergyó- és Ká
 							dynasty=kalnoky
 							religion=catholic culture=hungarian
 							father=kalnoky_0023	# Hugo Leopold Kálnoky de Kőröspatak
-							mother=lowborn_5174	# GFN Marie zu Herberstein
+							mother=herberstein_0581	# Maria Peregrina von Herberstein
 							1892.11.04={birth=yes}  # Olmütz
 							1929.11.12={add_spouse=lowborn_5194}	# GFN Konstanze von Blanckenstein
 							1979.10.06={death=yes}  # Linz
@@ -22629,7 +22646,7 @@ kalnoky_0001={ #// Ádám Gf Kálnoky de Köröspatak, Csík-, Gyergyó- és Ká
 							dynasty=kalnoky
 							religion=catholic culture=hungarian
 							father=kalnoky_0023	# Hugo Leopold Kálnoky de Kőröspatak
-							mother=lowborn_5174	# GFN Marie zu Herberstein
+							mother=herberstein_0581	# Maria Peregrina von Herberstein
 							1893.11.14={birth=yes}  # Olmütz
 							1969.10.08={death=yes}  # Wien
 						}
@@ -22639,7 +22656,7 @@ kalnoky_0001={ #// Ádám Gf Kálnoky de Köröspatak, Csík-, Gyergyó- és Ká
 							dynasty=kalnoky
 							religion=catholic culture=hungarian
 							father=kalnoky_0023	# Hugo Leopold Kálnoky de Kőröspatak
-							mother=lowborn_5174	# GFN Marie zu Herberstein
+							mother=herberstein_0581	# Maria Peregrina von Herberstein
 							1895.08.16={birth=yes}  # Olmütz
 							1975.11.06={death=yes}  # Wien
 						}
@@ -22649,7 +22666,7 @@ kalnoky_0001={ #// Ádám Gf Kálnoky de Köröspatak, Csík-, Gyergyó- és Ká
 							dynasty=kalnoky
 							religion=catholic culture=hungarian
 							father=kalnoky_0023	# Hugo Leopold Kálnoky de Kőröspatak
-							mother=lowborn_5174	# GFN Marie zu Herberstein
+							mother=herberstein_0581	# Maria Peregrina von Herberstein
 							1896.08.31={birth=yes}
 							1981.04.13={death=yes}  # Washington
 						}
@@ -22659,7 +22676,7 @@ kalnoky_0001={ #// Ádám Gf Kálnoky de Köröspatak, Csík-, Gyergyó- és Ká
 							dynasty=kalnoky
 							religion=catholic culture=bavarian
 							father=kalnoky_0023	# Hugo Leopold Kálnoky de Kőröspatak
-							mother=lowborn_5174	# GFN Marie zu Herberstein
+							mother=herberstein_0581	# Maria Peregrina von Herberstein
 							1898.01.04={birth=yes}  # Wien
 							1982.03.19={death=yes}  # Graz
 						}
@@ -22668,7 +22685,7 @@ kalnoky_0001={ #// Ádám Gf Kálnoky de Köröspatak, Csík-, Gyergyó- és Ká
 							dynasty=kalnoky
 							religion=catholic culture=hungarian
 							father=kalnoky_0023	# Hugo Leopold Kálnoky de Kőröspatak
-							mother=lowborn_5174	# GFN Marie zu Herberstein
+							mother=herberstein_0581	# Maria Peregrina von Herberstein
 							1900.05.11={birth=yes}  # Hietzing
 							1934.06.28={add_spouse=lowborn_5197}	# Ingeborg von Breitenbuch
 							1953.01.01={remove_spouse=lowborn_5197}
@@ -23262,7 +23279,7 @@ kalnoky_0001={ #// Ádám Gf Kálnoky de Köröspatak, Csík-, Gyergyó- és Ká
 			1835.03.14={birth=yes}
 			1869.03.14={death=yes}
 		}
-		100117713={	#// B6. Karolina, *Wien 26.12.1836, +Wien 28.2.1907; m.Ischl 10.10.1871 Gf Otto Wilhelm von Walterskirchen (*Wolfsthal 19.6.1833, +Wien 16.12.1912)
+		100117713={	#// B6. Karolina, *Wien 26.12.1836, +Wien 28.2.1907; m.Ischl 10.10.1871 Gf Otto Wilhelm von Walterskirchen (*Wolfsthal 19.6.1833, +Wien 16.12.1912) $$
 			name=Karolina
 			female=yes
 			dynasty=1011550
@@ -29059,7 +29076,7 @@ lonyay_0001={ #// Baron Ferenc Lónyay de Nagylónya et Vásárosnamény, +after
 				father=lonyay_0003	# János Lónyay de Nagylónya et Vásárosnamény
 				mother=lonyay_0038	# Florentina Lónyay de Nagylónya et Vásárosnamény
 				1778.03.28={birth=yes}  # obergespan ) (
-				1802.01.01={add_spouse=lowborn_5027}	# BSS Piroska Prónay de Tótpróna et Blathnicza
+				1802.01.01={add_spouse=lowborn_5027}	# BSS Piroska Prónay de Tótpróna et Blatnicza
 				1824.05.08={death=yes}  # Deregnyõ
 			}
 				lonyay_0005={ #// D1. Florentina, *Deregnyõ 25.4.1802, +Budapest 25.10.1885; m.Baron János Lónyay de Nagylónya et Vásárosnamény (*15.12.1796 +19.12.1859) $$
@@ -29068,7 +29085,7 @@ lonyay_0001={ #// Baron Ferenc Lónyay de Nagylónya et Vásárosnamény, +after
 					dynasty=1011621
 					religion=catholic culture=hungarian
 					father=lonyay_0004	# Gábor Lónyay de Nagylónya et Vásárosnamény
-					mother=lowborn_5027	# BSS Piroska Prónay de Tótpróna et Blathnicza
+					mother=lowborn_5027	# BSS Piroska Prónay de Tótpróna et Blatnicza
 					1802.04.25={birth=yes}  # Deregnyõ
 					1885.10.25={death=yes}  # Budapest
 				}
@@ -29077,7 +29094,7 @@ lonyay_0001={ #// Baron Ferenc Lónyay de Nagylónya et Vásárosnamény, +after
 					dynasty=1011621
 					religion=catholic culture=hungarian
 					father=lonyay_0004	# Gábor Lónyay de Nagylónya et Vásárosnamény
-					mother=lowborn_5027	# BSS Piroska Prónay de Tótpróna et Blathnicza
+					mother=lowborn_5027	# BSS Piroska Prónay de Tótpróna et Blatnicza
 					1805.10.04={birth=yes}  # Deregnyõ
 					1828.04.14={add_spouse=lowborn_5030}	# Ottília Kazinczy de Kazincz et Alsóregmecz
 					1885.08.05={death=yes}  # Teplitz
@@ -29198,7 +29215,7 @@ lonyay_0001={ #// Baron Ferenc Lónyay de Nagylónya et Vásárosnamény, +after
 					dynasty=1011621
 					religion=catholic culture=hungarian
 					father=lonyay_0004	# Gábor Lónyay de Nagylónya et Vásárosnamény
-					mother=lowborn_5027	# BSS Piroska Prónay de Tótpróna et Blathnicza
+					mother=lowborn_5027	# BSS Piroska Prónay de Tótpróna et Blatnicza
 					1807.01.01={birth=yes}  # EST.
 					1867.01.01={death=yes}  # EST.
 				}
@@ -29208,7 +29225,7 @@ lonyay_0001={ #// Baron Ferenc Lónyay de Nagylónya et Vásárosnamény, +after
 					dynasty=1011621
 					religion=catholic culture=hungarian
 					father=lonyay_0004	# Gábor Lónyay de Nagylónya et Vásárosnamény
-					mother=lowborn_5027	# BSS Piroska Prónay de Tótpróna et Blathnicza
+					mother=lowborn_5027	# BSS Piroska Prónay de Tótpróna et Blatnicza
 					1809.01.01={birth=yes}  # EST.
 					1869.01.01={death=yes}  # EST.
 				}
@@ -30093,7 +30110,7 @@ lonyay_0060={	#// Baron László Lónyay de Nygylónya et Vásárosnamény, Bere
 						1838.01.14={add_spouse=radetzky_0037}	# Friederika Radetzky von Radetz
 						1891.06.17={death=yes}  # Gerla
 					}
-						100115905={	#// F1. Borbála, *Milano 30.12.1838, +Wolfsthal 27.12.1929; m.Gerla 24.4.1861 Baron Ernst Wilhelm von Walterskirchen (*Bratislava 5.12.1829, +Bratislava 19.4.1891)
+						100115905={	#// F1. Borbála, *Milano 30.12.1838, +Wolfsthal 27.12.1929; m.Gerla 24.4.1861 Baron Ernst Wilhelm von Walterskirchen (*Bratislava 5.12.1829, +Bratislava 19.4.1891) $$
 							name=Borbála
 							female=yes
 							dynasty=1011801
@@ -32126,15 +32143,15 @@ lonyay_0060={	#// Baron László Lónyay de Nygylónya et Vásárosnamény, Bere
 			1738.01.01={birth=yes}
 			1772.01.01={death=yes}
 		}
-		100115334={	#// B3. János Nepomuk, *1745, +1831; m.1786 Maria Johanna Antonia Gfn zu Herberstein (*6.11.1766 +19.6.1838)
+		100115334={	#// B3. János Nepomuk, *1745, +1831; m.1786 Maria Johanna Antonia Gfn zu Herberstein (*6.11.1766 +19.6.1838) $$
 			name="János Nepomuk"	# 223673/johann-nepomuck-count-batthyany/
 			dynasty=1011000
 			religion=catholic culture=hungarian
 			father=100115282	# Ádam Batthyány de Német-Ujvar
 			mother=esterhazy_0114	# Terezia Esterházy de Galántha
-			1745.01.01={birth=yes}
-			1786.01.01={add_spouse=100080435}	# GFN Maria Johanna zu Herberstein
-			1831.01.01={death=yes}
+			1745.01.22={birth=yes}  # Pinkafeld
+			1786.05.16={add_spouse=herberstein_0558}	# Maria Johanna von Herberstein
+			1831.06.01={death=yes}  # Bratislava
 		}
 			100115330={	#// C1. Maria Anna Antonia Walburga Johanna, *Bratislava 8.6.1789, +15.6.1825; m.20.1.1807 Gf Károly József Zichy de Zich et Vásonkeö (*11.10.1785 +1.6.1876) $$
 				name=Antonia
@@ -32142,7 +32159,7 @@ lonyay_0060={	#// Baron László Lónyay de Nygylónya et Vásárosnamény, Bere
 				dynasty=1011000
 				religion=catholic culture=hungarian
 				father=100115334	# János Nepomuk Batthyány de Német-Ujvar
-				mother=100080435	# GFN Maria Johanna zu Herberstein
+				mother=herberstein_0558	# Maria Johanna von Herberstein
 				1789.06.08={birth=yes}  # Bratislava
 				1825.06.15={death=yes}
 			}
@@ -32152,7 +32169,7 @@ lonyay_0060={	#// Baron László Lónyay de Nygylónya et Vásárosnamény, Bere
 				dynasty=1011000
 				religion=catholic culture=hungarian
 				father=100115334	# János Nepomuk Batthyány de Német-Ujvar
-				mother=100080435	# GFN Maria Johanna zu Herberstein
+				mother=herberstein_0558	# Maria Johanna von Herberstein
 				1792.09.30={birth=yes}  # Bratislava
 				1831.09.15={death=yes}  # Wien
 			}
@@ -32162,7 +32179,7 @@ lonyay_0060={	#// Baron László Lónyay de Nygylónya et Vásárosnamény, Bere
 				dynasty=1011000
 				religion=catholic culture=hungarian
 				father=100115334	# János Nepomuk Batthyány de Német-Ujvar
-				mother=100080435	# GFN Maria Johanna zu Herberstein
+				mother=herberstein_0558	# Maria Johanna von Herberstein
 				1797.01.01={birth=yes}
 				1880.06.08={death=yes}  # Wien
 			}
@@ -34710,14 +34727,14 @@ lonyay_0060={	#// Baron László Lónyay de Nygylónya et Vásárosnamény, Bere
 					1893.01.31={add_spouse=100100213}	# Ilona Apáthy de Nagytóth
 					1945.01.01={death=yes}  # Bos-Gabcikovo
 				}
-					100119117={	#// E1. István Zsigmond László, *Uncsukfalva 18.7.1894, +Budapest 27.1.1941; m.Graz 15.5.1940 Gfn Maria Anna Chorinsky (*Fürstenfeld 21.11.1912)
+					100119117={	#// E1. István Zsigmond László, *Uncsukfalva 18.7.1894, +Budapest 27.1.1941; m.Graz 15.5.1940 Gfn Maria Anna Chorinsky (*Fürstenfeld 21.11.1912) $$
 						name=István
 						dynasty=1011448
 						religion=catholic culture=hungarian
 						father=100119118	# Zsigmond Csáky de Körösszeg et Adorján
 						mother=100100213	# Ilona Apáthy de Nagytóth
 						1894.07.18={birth=yes}  # Uncsukfalva
-						1940.05.15={add_spouse=100100241}	# GFN Maria Anna Chorinsky
+						1940.05.15={add_spouse=chorinsky_0108}	# Maria-Anna Chorinsky z Ledské
 						1941.01.27={death=yes}  # Budapest
 					}
 					100119114={	#// E2. Irma Ilona Borbála Bora, *Brassó 6.3.1897, +Budapest 22.10.1967
@@ -36351,7 +36368,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 			father=100118858	# József Szapáry de Muraszombath, Széchysziget et Szapár
 			mother=100119985	# Anna Orczy de Orczi
 			1832.11.01={birth=yes}
-			1864.05.30={add_spouse=100115490}	# Karolin Festetics de Tolna
+			1864.05.30={add_spouse=festetics_0003}	# Karolin Festetics de Tolna
 			1905.01.20={death=yes}
 		}
 			100118861={	#// C1. GYÖRGY Ágost József, Obergespan of Jász-Nagykun-Szolnok, *Pest 27.3.1865, +Taskony 1.9.1929; m.Budapest 21.1.1901 Mária Klementina Markovics de Csernek (*Ferendia 30.9.1881, +Bük 30.9.1946)
@@ -36359,7 +36376,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 				dynasty=1011742
 				religion=catholic culture=hungarian
 				father=100118860	# Gyula Szapáry de Muraszombath, Széchysziget et Szapár
-				mother=100115490	# Karolin Festetics de Tolna
+				mother=festetics_0003	# Karolin Festetics de Tolna
 				1865.03.27={birth=yes}  # Pest
 				1901.01.21={add_spouse=100084273}	# Mária Klementina Markovics de Csernek
 				1929.09.01={death=yes}  # Taskony
@@ -36478,7 +36495,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 				dynasty=1011742
 				religion=catholic culture=hungarian
 				father=100118860	# Gyula Szapáry de Muraszombath, Széchysziget et Szapár
-				mother=100115490	# Karolin Festetics de Tolna
+				mother=festetics_0003	# Karolin Festetics de Tolna
 				1866.07.10={birth=yes}  # Pest
 				1919.07.13={death=yes}  # Pechtelsdorf
 			}
@@ -36487,7 +36504,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 				dynasty=1011742
 				religion=catholic culture=hungarian
 				father=100118860	# Gyula Szapáry de Muraszombath, Széchysziget et Szapár
-				mother=100115490	# Karolin Festetics de Tolna
+				mother=festetics_0003	# Karolin Festetics de Tolna
 				1867.07.31={birth=yes}  # Taskony
 				1927.02.07={death=yes}  # Monte Carlo
 			}
@@ -36497,7 +36514,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 				dynasty=1011742
 				religion=catholic culture=hungarian
 				father=100118860	# Gyula Szapáry de Muraszombath, Széchysziget et Szapár
-				mother=100115490	# Karolin Festetics de Tolna
+				mother=festetics_0003	# Karolin Festetics de Tolna
 				1872.05.18={birth=yes}  # Taskony
 				1947.06.13={death=yes}  # Budapest
 			}
@@ -36507,7 +36524,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 				dynasty=1011742
 				religion=catholic culture=hungarian
 				father=100118860	# Gyula Szapáry de Muraszombath, Széchysziget et Szapár
-				mother=100115490	# Karolin Festetics de Tolna
+				mother=festetics_0003	# Karolin Festetics de Tolna
 				1878.02.28={birth=yes}
 				1953.01.01={death=yes}
 			}
@@ -38935,8 +38952,8 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 						1928.01.01={remove_spouse=100088818}
 						1935.11.19={add_spouse=100023764}	# Maria von Wurmbrand-Stuppach
 						1938.01.01={remove_spouse=100023764}
-						1950.01.05={add_spouse=100036384}	# Maria Theresia von Herberstein
-						1956.01.01={remove_spouse=100036384}
+						1950.01.05={add_spouse=herberstein_0604}	# Marie-Therese Elisabeth von Herberstein
+						1956.01.01={remove_spouse=herberstein_0604}
 						1956.06.28={add_spouse=100083786}	# Carin Braun von Stumm
 						1968.10.11={death=yes}
 					}
@@ -39445,17 +39462,17 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 			father=100118352	# Rudolph Karl Pálffy ab Erdöd
 			mother=100047028	# Maria Antonia Krakovský z Kolovrat
 			1801.06.26={birth=yes}
-			1833.08.16={add_spouse=100112637}	# Zofia Jablonowski
+			1833.08.16={add_spouse=100112637}	# Zofia Jabłonowski
 			1876.02.02={death=yes}
 		}
-			100118401={	#// C1. Eduárd (Ede) Károly, Pozsony vármegye főispánja (comes of Pozsony county), *Velence 18.9.1836, +Bratislava 12.6.1915; m.Graz 24.4.1864 Frn Maria Eleonore von Walterskirchen (*Thal bei Graz 23.7.1842, +Schloss Hradischt, Bohemia 6.7.1916)
+			100118401={	#// C1. Eduárd (Ede) Károly, Pozsony vármegye főispánja (comes of Pozsony county), *Velence 18.9.1836, +Bratislava 12.6.1915; m.Graz 24.4.1864 Frn Maria Eleonore von Walterskirchen (*Thal bei Graz 23.7.1842, +Schloss Hradischt, Bohemia 6.7.1916) $$
 				name="Karl Eduard" # 318365/karl-eduard-erdoedi-grof-Pálffy-freiherr-von-ujezd/
 				dynasty=1011692
 				religion=catholic culture=hungarian
 				father=100118204	# Alajos Pálffy ab Erdöd
-				mother=100112637	# Zofia Jablonowski
+				mother=100112637	# Zofia Jabłonowski
 				1836.09.18={birth=yes}
-				1861.01.01={add_spouse=100095771}	# Maria Eleonore von Walterskirchen
+				1861.01.01={add_spouse=waltersk_0147}	# Maria Eleonore von Walterskirchen
 				1915.06.12={death=yes}
 			}
 				100118308={	#// D1. Zsófia, *Graz 28.2.1865, +Wien 8.11.1933; m.Schloss Hradischt, Bohemia 5.7.1886 Gf Georg Wallis von Karighmain (*Kolešovice (Kolleschowitz), Bohemia 23.4.1856, +Wien 13.12.1928)
@@ -39464,7 +39481,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 					dynasty=1011692
 					religion=catholic culture=hungarian
 					father=100118401	# Karl Eduard Pálffy ab Erdöd
-					mother=100095771	# Maria Eleonore von Walterskirchen
+					mother=waltersk_0147	# Maria Eleonore von Walterskirchen
 					1865.02.28={birth=yes}
 					1933.11.08={death=yes}
 				}
@@ -39474,7 +39491,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 					dynasty=1011692
 					religion=catholic culture=hungarian
 					father=100118401	# Karl Eduard Pálffy ab Erdöd
-					mother=100095771	# Maria Eleonore von Walterskirchen
+					mother=waltersk_0147	# Maria Eleonore von Walterskirchen
 					1866.10.29={birth=yes}
 					1950.07.14={death=yes}
 				}
@@ -39483,7 +39500,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 					dynasty=1011692
 					religion=catholic culture=hungarian
 					father=100118401	# Karl Eduard Pálffy ab Erdöd
-					mother=100095771	# Maria Eleonore von Walterskirchen
+					mother=waltersk_0147	# Maria Eleonore von Walterskirchen
 					1872.10.10={birth=yes}
 					1897.01.01={add_spouse=100023771}	# Ferdinandine Edeltraut von Wurmbrand-Stuppach
 					1953.05.11={death=yes}
@@ -39578,7 +39595,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 				dynasty=1011692
 				religion=catholic culture=hungarian
 				father=100118204	# Alajos Pálffy ab Erdöd
-				mother=100112637	# Zofia Jablonowski
+				mother=100112637	# Zofia Jabłonowski
 				1837.01.01={birth=yes}
 				1912.01.01={death=yes}
 			}
@@ -39588,7 +39605,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 				dynasty=1011692
 				religion=catholic culture=hungarian
 				father=100118204	# Alajos Pálffy ab Erdöd
-				mother=100112637	# Zofia Jablonowski
+				mother=100112637	# Zofia Jabłonowski
 				1842.01.01={birth=yes}
 				1917.01.01={death=yes}
 			}
@@ -41359,14 +41376,14 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 								1795.03.21={add_spouse=100100695}	# Erzsébet Mayer
 								1824.06.12={death=yes}  # Freistadt
 							}
-							100117177={	#// G4. Antal, Varasd vármegye főispánja, *1754, +4.1.1803; m.1790 Gfn Cajetana zu Herberstein-Moltke (*22.5.1768, +Wien 28.10.1812)
+							100117177={	#// G4. Antal, Varasd vármegye főispánja, *1754, +4.1.1803; m.1790 Gfn Cajetana zu Herberstein-Moltke (*22.5.1768, +Wien 28.10.1812) $$
 								name=Antal
 								dynasty=1011008
 								religion=catholic culture=hungarian
 								father=100117462	# János Erdődy de Monyorókerék et Monoszló
 								mother=100118420	# Mária Terézia Pálffy ab Erdöd
 								1754.01.01={birth=yes}
-								1788.01.01={add_spouse=100100696}	# GFN Cajetana zu Herberstein-Moltke
+								1788.01.01={add_spouse=herberstein_0559}	# Maria Kajetana von Herberstein
 								1803.01.04={death=yes}
 							}
 								100117176={	#// H2. Mária Jozefa Teréz, *Pozsony 21.12.1788, +Vörösko 1.4.1813; m.Cseszte 2.5.1818 Gf Ferenc Pálffy de Erdod (*23.5.1785, +28.6.1841) $$
@@ -41375,7 +41392,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 									dynasty=1011008
 									religion=catholic culture=hungarian
 									father=100117177	# Antal Erdődy de Monyorókerék et Monoszló
-									mother=100100696	# GFN Cajetana zu Herberstein-Moltke
+									mother=herberstein_0559	# Maria Kajetana von Herberstein
 									1788.12.21={birth=yes}  # Pozsony
 									1813.04.01={death=yes}  # Vörösko
 								}
@@ -42970,14 +42987,14 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		1798.01.25={add_spouse=100096464}	# Franciska Horváth de Szalabér
 		1815.10.08={death=yes}  # Baltavár
 	}
-		100115380={	#// B1. Ernő János Vilmos, *Praha 24.8.1800, +Praha 19.11.1869; m.Heiligenkreuz 26.9.1829 Frn Janka Kotz von Dobrz (*19.3.1809, +Praha 9.11.1869)
+		100115380={	#// B1. Ernő János Vilmos, *Praha 24.8.1800, +Praha 19.11.1869; m.Heiligenkreuz 26.9.1829 Frn Janka Kotz von Dobrz (*19.3.1809, +Praha 9.11.1869) $$
 			name=Ernő
 			dynasty=1011007
 			religion=catholic culture=czech
 			father=100115379	# János Festetics de Tolna
 			mother=100096464	# Franciska Horváth de Szalabér
 			1800.08.24={birth=yes}  # Praha
-			1829.09.26={add_spouse=100096465}	# FRN Janka Kotz von Dobrz
+			1829.09.26={add_spouse=kotz_0034}	# Johanna Kotz von Dobrz
 			1869.11.19={death=yes}  # Praha
 		}
 			100115381={	#// C1. Johanna, *Tolna 15.6.1830, +Wien 9.3.1884; m.Wlaschim, Bohemia 6.10.1857 Pr Adolf von Auersperg (*12.7.1821 +5.1.1885) $$
@@ -42986,7 +43003,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 				dynasty=1011007
 				religion=catholic culture=hungarian
 				father=100115380	# Ernő Festetics de Tolna
-				mother=100096465	# FRN Janka Kotz von Dobrz
+				mother=kotz_0034	# Johanna Kotz von Dobrz
 				1830.06.15={birth=yes}  # Tolna
 				1884.03.09={death=yes}  # Wien
 			}
@@ -42996,7 +43013,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 				dynasty=1011007
 				religion=catholic culture=hungarian
 				father=100115380	# Ernő Festetics de Tolna
-				mother=100096465	# FRN Janka Kotz von Dobrz
+				mother=kotz_0034	# Johanna Kotz von Dobrz
 				1831.05.27={birth=yes}  # Baltavár
 				1901.12.30={death=yes}  # Albrechtsberg
 			}
@@ -43005,7 +43022,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 				dynasty=1011007
 				religion=catholic culture=hungarian
 				father=100115380	# Ernő Festetics de Tolna
-				mother=100096465	# FRN Janka Kotz von Dobrz
+				mother=kotz_0034	# Johanna Kotz von Dobrz
 				1836.10.16={birth=yes}  # Tolna
 				1911.01.26={death=yes}  # Wien
 			}
@@ -43015,7 +43032,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 				dynasty=1011007
 				religion=catholic culture=hungarian
 				father=100115380	# Ernő Festetics de Tolna
-				mother=100096465	# FRN Janka Kotz von Dobrz
+				mother=kotz_0034	# Johanna Kotz von Dobrz
 				1840.02.02={birth=yes}  # Tolna
 				1897.06.01={death=yes}  # Vienna
 			}
@@ -43575,143 +43592,404 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		1775.11.07={birth=yes}
 		1805.06.18={death=yes}
 	}
-#1815.06.15={holder=100116800} # László
-#1846.05.12={holder=100116805} # 2a) Tassilo 
-#1883.01.01={holder=100116806} # 3a) György 
-#1883.02.12={holder=100116808} # 1b) TASSILO
-#1933.05.04={holder=100116812} # 2c) GYÖRGY
-#1941.08.04={holder=100116814} # 1d) GYÖRGY
 #festet3
 
 #festet4
-100115368={	#// Antal József Festetics de Tolna, *Kaposvár 13.11.1764, +Székesfehérvár 17.8.1853; m.1799 Bss Amália Splényi de Miháld (*Košice (Kassa) 10.4.1783, +29.9.1847)
+festetics_0001={ #// Antal József Festetics de Tolna, *Kaposvár 13.11.1764, +Székesfehérvár 17.8.1853; m.1799 Bss Amália Splényi de Miháld (*Košice (Kassa) 10.4.1783, +29.9.1847); They had issue:
 	name="Antal József"
 	dynasty=1011007
-	religion=catholic culture=hungarian
+	religion=catholic culture=german
 	father=100115367	# Lajos Festetics de Tolna
 	mother=100096498	# Krisztina Farkas de Nagy-Jóka aliter Hügye
 	1764.11.13={birth=yes}  # Kaposvár
-	1799.01.01={add_spouse=100096499}	# BSS Amália Splényi de Miháld
+	1799.01.01={add_spouse=lowborn_1938}	# BSS Amália Splényi de Miháld
 	1853.08.17={death=yes}  # Székesfehérvár
 }
-	100115369={	#// A1. Ágoston, -cr Graf Festetics de Tolna 24.6.1857, *Buda-Pest 29.1.1805, +Budapest 31.1.1882; m.Budapest 7.9.1831 Gfn Adél Almásy de Zsadány et Törökszentmiklós (*Buda-Pest 24.1.1807, +Budapest 28.3.1870) $$
-		name=Agoston
+	festetics_0002={ #// A1. Ágoston, -cr Graf Festetics de Tolna 24.6.1857, *Buda-Pest 29.1.1805, +Budapest 31.1.1882; m.Budapest 7.9.1831 Gfn Adél Almásy de Zsadány et Törökszentmiklós (*Buda-Pest 24.1.1807, +Budapest 28.3.1870) $$
+		name=Ágoston
 		dynasty=1011007
-		religion=catholic culture=hungarian
-		father=100115368	# Antal József Festetics de Tolna
-		mother=100096499	# BSS Amália Splényi de Miháld
-		1805.01.29={birth=yes}
+		religion=catholic culture=german
+		father=festetics_0001	# Antal József Festetics de Tolna
+		mother=lowborn_1938	# BSS Amália Splényi de Miháld
+		1805.01.29={birth=yes}  # Buda-Pest
 		1831.09.07={add_spouse=100115936}	# Etelka Almásy de Zsadány et Törökszentmiklós
-		1882.01.31={death=yes}
+		1882.01.31={death=yes}  # Budapest
 	}
-		100115490={	#// B1. Karolin, *Buda-Pest 12.7.1838, +Nyírbátor 7.1.1919; m.Budapest 30.5.1874 Gf Gyula Szapáry de Szapár, Muraszombath et Széchysziget (*Budapest 1.11.1832, +Volosca 20.1.1905), Prime Minister of Hungary $$
+		festetics_0003={ #// B1. Karolin, *Buda-Pest 12.7.1838, +Nyírbátor 7.1.1919; m.Budapest 30.5.1874 Gf Gyula Szapáry de Szapár, Muraszombath et Széchysziget (*Budapest 1.11.1832, +Volosca 20.1.1905), Prime Minister of Hungary $$
 			name=Karolin
 			female=yes
 			dynasty=1011007
-			religion=catholic culture=hungarian
-			father=100115369	# Agoston Festetics de Tolna
+			religion=catholic culture=german
+			father=festetics_0002	# Ágoston Festetics de Tolna
 			mother=100115936	# Etelka Almásy de Zsadány et Törökszentmiklós
-			1838.07.12={birth=yes}
-			1919.01.07={death=yes}
+			1838.07.12={birth=yes}  # Buda-Pest
+			1919.01.07={death=yes}  # Nyírbátor
 		}
-		100115473={	#// B2. Pál, *25.4.1841, +Budapest 4.5.1924; m.Malacka 20.10.1883 Gfn Franciska Pálffy de Erdod (*Malacka 9.7.1856, +?) $$
-			name=Pal							# 1771252/pal-grof-festetics-de-tolna/
+		festetics_0004={ #// B2. Pál, *25.4.1841, +Budapest 4.5.1924; m.Malacka 20.10.1883 Gfn Franciska Pálffy de Erdőd (*Malacka 9.7.1856, +?) $$
+			name=Pál
 			dynasty=1011007
-			religion=catholic culture=hungarian
-			father=100115369	# Agoston Festetics de Tolna
+			religion=catholic culture=german
+			father=festetics_0002	# Ágoston Festetics de Tolna
 			mother=100115936	# Etelka Almásy de Zsadány et Törökszentmiklós
 			1841.04.25={birth=yes}
-			1876.01.01={add_spouse=100118233}	# Maria Franziska Romana Leopoldine Henriette Pálffy ab Erdöd
-			1924.05.24={death=yes}
+			1883.10.20={add_spouse=100118233}	# Maria Franziska Romana Leopoldine Henriette Pálffy ab Erdöd
+			1924.05.04={death=yes}  # Budapest
 		}
-		100115370={	#// B3. Andor, *Budapest 17.1.1843, +Böhönye 16.8.1930; m.Gyülevíz 1.10.1870 Gfn Lenke Pejacsevich de Verocze (*24.4.1851 +20.11.1936) $$
+		festetics_0005={ #// B3. Andor, *Budapest 17.1.1843, +Böhönye 16.8.1930; m.Gyülevíz 1.10.1870 Gfn Lenke Pejacsevich de Verőcze (*24.4.1851 +20.11.1936) $$
 			name=Andor
 			dynasty=1011007
 			religion=catholic culture=hungarian
-			father=100115369	# Agoston Festetics de Tolna
+			father=festetics_0002	# Ágoston Festetics de Tolna
 			mother=100115936	# Etelka Almásy de Zsadány et Törökszentmiklós
-			1843.01.17={birth=yes}
+			1843.01.17={birth=yes}  # Budapest
 			1870.10.01={add_spouse=100136045}	# Lenke Pejačević
-			1930.08.16={death=yes}
+			1930.08.16={death=yes}  # Böhönye
 		}
-			100115931={	#// C1. Sándor Ágost Dénes, *Dég 31.5.1882, +Balatonrendes 12.9.1956; 1m: NN; 2m: Budapest 9.10.1911 Gfn Júlia Károlyi de Nagykároly (*Parád 1.6.1883, +Balatonrendes VI.1954) $$
-				name=Sandor
+			festetics_0006={ #// C1. Sándor Ágost Dénes, *Dég 31.5.1882, +Balatonrendes 12.9.1956; 1m: NN; 2m: Budapest 9.10.1911 Gfn Júlia Károlyi de Nagykároly (*Parád 1.6.1883, +Balatonrendes VI.1954) $$
+				name="Sándor Dénes"
 				dynasty=1011007
-				religion=catholic culture=hungarian
+				religion=catholic culture=german
+				father=festetics_0005	# Andor Festetics de Tolna
 				mother=100136045	# Lenke Pejačević
-				father=100115370	# Andor Festetics de Tolna
-				1882.05.31={birth=yes}
+				1882.05.31={birth=yes}  # Dég
 				1911.10.09={add_spouse=100116181}	# Julie Károlyi de Nagykároly
-				1956.01.01={death=yes}
+				1956.09.12={death=yes}  # Balatonrendes
 			}
-				100115487={	#// D2. [2m.] Miklós Sándor Mária Leó Nándor, *Versailles 3.12.1912, +Bruxelles 3.7.1971; 1m: Budapest 11.5.1937 (div 1946) Theodóra Mkgfn Pallavicini (*Balatonberény 25.7.1914); 2m: Budapest (div 1958) Magdolna Petri (*I.1921) $$
+				festetics_0008={ #// D2. [2m.] Miklós Sándor Mária Leó Nándor, *Versailles 3.12.1912, +Bruxelles 3.7.1971; 1m: Budapest 11.5.1937 (div 1946) Theodóra Mkgfn Pallavicini (*Balatonberény 25.7.1914); 2m: Budapest (div 1958) Magdolna Petri (*I.1921) $$
 					name=Miklós
 					dynasty=1011007
-					religion=catholic culture=hungarian
-					father=100115931	# Sandor Festetics de Tolna
+					religion=catholic culture=french
+					father=festetics_0006	# Sándor Dénes Festetics de Tolna
 					mother=100116181	# Julie Károlyi de Nagykároly
-					1912.03.17={birth=yes}
+					1912.12.03={birth=yes}  # Versailles
 					1937.05.11={add_spouse=100072184}	# Theodora Victoria Pallavicini
-					1946.01.01={remove_spouse=100072184}
-					1971.07.03={death=yes}  # Brussels
+					1971.07.03={death=yes}  # Bruxelles
 				}
-	100115485={	#// A2. Sámuel, -cr Graf Festetics de Tolna 24.6.1857, *Buda-Pest 4.8.1806, +Wien 4.9.1862; m.11.6.1842 Gfn Wanda Raczynska (*21.1.1819, +16.5.1845) $$
-		name=Samuel					# 223807/samuel-count-festetics-de-tolna/
+					festetics_0009={ #// E1. [1m.] László Jenő István György Sándor Ernő Géza, *Budapest 25.2.1939; m.Ivrea 19.4.1960 Maria Vincenti (*Ivrea 3.2.1938)
+						name=László
+						dynasty=1011007
+						religion=catholic culture=hungarian
+						father=festetics_0008	# Miklós Festetics de Tolna
+						mother=100072184	# Theodora Victoria Pallavicini
+						1939.02.25={birth=yes}  # Budapest
+						1960.04.19={add_spouse=lowborn_5521}	# Maria Vincenti
+						2009.01.01={death=yes}  # EST.
+					}
+						festetics_0010={ #// F1. Miklós Sándor György Lajos Ottó Pál, *Ivrea 8.8.1963
+							name=Miklós
+							dynasty=1011007
+							religion=catholic culture=german
+							father=festetics_0009	# László Festetics de Tolna
+							mother=lowborn_5521	# Maria Vincenti
+							1963.08.08={birth=yes}  # Ivrea
+						}
+						festetics_0011={ #// F2. Henrik Franco János Hubert György, *Ivrea 3.1.1971
+							name=Henrik
+							dynasty=1011007
+							religion=catholic culture=german
+							father=festetics_0009	# László Festetics de Tolna
+							mother=lowborn_5521	# Maria Vincenti
+							1971.01.03={birth=yes}  # Ivrea
+						}
+				festetics_0012={ #// D3. [2m.] Mária József ERNő, *Budapest 15.10.1915; 1m: 1.10.1942 (div 1956) Mária Paksy de Batthián et Paks (*Budapest 13.1.1922); 2m: Bruxelles 9.2.1957 (div 1970) Veronika Franke (*Budapest 3.1.1915); 3m: Doris Klein (*1921)
+					name=Mária
+					dynasty=1011007
+					religion=catholic culture=hungarian
+					father=festetics_0006	# Sándor Dénes Festetics de Tolna
+					mother=100116181	# Julie Károlyi de Nagykároly
+					1915.10.15={birth=yes}  # Budapest
+					1942.10.01={add_spouse=lowborn_5538}	# Mária Paksy de Batthián et Paks
+					1956.01.01={remove_spouse=lowborn_5538}
+					1957.02.09={add_spouse=lowborn_5540}	# Marie Magdalena z Kunovic
+					1970.01.01={remove_spouse=lowborn_5540}
+					1971.01.01={add_spouse=lowborn_5541}	# Doris Klein
+					1985.01.01={death=yes}  # EST.
+				}
+					festetics_0013={ #// E1. [1m.] Pál, *Budapest 18.9.1943
+						name=Pál
+						dynasty=1011007
+						religion=catholic culture=hungarian
+						father=festetics_0012	# Mária Festetics de Tolna
+						mother=lowborn_5538	# Mária Paksy de Batthián et Paks
+						1943.09.18={birth=yes}  # Budapest
+						2013.01.01={death=yes}  # EST.
+					}
+					festetics_0014={ #// E2. [1m.] Antal, adopted surname de la Roche 9.12.1968, *Budapest 23.6.1945
+						name=Antal
+						dynasty=1011007
+						religion=catholic culture=hungarian
+						father=festetics_0012	# Mária Festetics de Tolna
+						mother=lowborn_5538	# Mária Paksy de Batthián et Paks
+						1945.06.23={birth=yes}  # Budapest
+						2015.01.01={death=yes}  # EST.
+					}
+				festetics_0015={ #// D4. [2m.] Izabella Mária Paula Zsuzsanna, *Budapest 14.10.1921; 1m: Budapest 31.1.1942 Carlo Perrone Capono (*Trani 24.12.1911); 2m: London 18.10.1962 Emilio Pucci Marchese di Barsento (*Napoli 20.11.1914)
+					name=Izabella
+					female=yes
+					dynasty=1011007
+					religion=catholic culture=hungarian
+					father=festetics_0006	# Sándor Dénes Festetics de Tolna
+					mother=100116181	# Julie Károlyi de Nagykároly
+					1921.10.14={birth=yes}  # Budapest
+					1996.01.01={death=yes}  # EST.
+				}
+			festetics_0016={ #// C2. Andor, *Alsószeleste 2.9.1884, +Böhönye 11.3.1928
+				name=Andor
+				dynasty=1011007
+				religion=catholic culture=german
+				father=festetics_0005	# Andor Festetics de Tolna
+				mother=100136045	# Lenke Pejačević
+				1884.09.02={birth=yes}  # Alsószeleste
+				1928.03.11={death=yes}  # Böhönye
+			}
+	festetics_0017={ #// A2. Sámuel, -cr Graf Festetics de Tolna 24.6.1857, *Buda-Pest 4.8.1806, +Wien 4.9.1862; m.11.6.1842 Gfn Wanda Raczynska (*21.1.1819, +16.5.1845) $$
+		name=Sámuel
 		dynasty=1011007
-		religion=catholic culture=polish
-		father=100115368	# Antal József Festetics de Tolna
-		mother=100096499	# BSS Amália Splényi de Miháld
-		1806.08.04={birth=yes}
+		religion=catholic culture=german
+		father=festetics_0001	# Antal József Festetics de Tolna
+		mother=lowborn_1938	# BSS Amália Splényi de Miháld
+		1806.08.04={birth=yes}  # Buda-Pest
 		1842.06.11={add_spouse=100111900}	# Wanda Raczynski
-		1862.09.04={death=yes}
+		1862.09.04={death=yes}  # Wien
 	}
-		100115363={	#// B1. Anna Elisabeth, *Wien 31.3.1843, +Graz 7.5.1909; m.Wien 5.5.1864 Gf Karl Raimund von Lamberg-Greifenfels (*Krems 9.6.1840, +Pöllau 2.1.1931) $$
+		festetics_0018={ #// B1. Anna Elisabeth, *Wien 31.3.1843, +Graz 7.5.1909; m.Wien 5.5.1864 Gf Karl Raimund von Lamberg-Greifenfels (*Krems 9.6.1840, +Pöllau 2.1.1931) $$
 			name="Anna Elisabeth"
 			female=yes
 			dynasty=1011007
-			religion=catholic culture=hungarian
-			father=100115485	# Samuel Festetics de Tolna
+			religion=catholic culture=bavarian
+			father=festetics_0017	# Sámuel Festetics de Tolna
 			mother=100111900	# Wanda Raczynski
-			1843.03.31={birth=yes}
-			1909.05.07={death=yes}
+			1843.03.31={birth=yes}  # Wien
+			1909.05.07={death=yes}  # Graz
 		}
-		100115475={	#// B2. Imre Atanáz, cr Graf 23.4.1874, *Harságh 14.4.1844, +Graz 19.12.1909; m.Linz a.d.Donau 12.5.1870 Berta Adamovits (*Aussee 7.1.1849, +Graz 12.9.1905)
-			name="Imre Atanáz"				# 223805/imre-graf-festetics-de-tolna/
+		festetics_0019={ #// B2. Imre Atanáz, cr Graf 23.4.1874, *Harságh 14.4.1844, +Graz 19.12.1909; m.Linz a.d.Donau 12.5.1870 Berta Adamovits (*Aussee 7.1.1849, +Graz 12.9.1905)
+			name=Imre
 			dynasty=1011007
-			religion=catholic culture=hungarian
-			father=100115485	# Samuel Festetics de Tolna
+			religion=catholic culture=german
+			father=festetics_0017	# Sámuel Festetics de Tolna
 			mother=100111900	# Wanda Raczynski
-			1844.04.14={birth=yes}	# Harságh
-			1909.12.19={death=yes}	# Graz
+			1844.04.14={birth=yes}  # Harságh
+			1909.12.19={death=yes}  # Graz
 		}
-			100115483={	#// C4. Wanda Berta Mária, *Cserto 28.9.1882, +Wien 29.9.1968; m.Graz 20.5.1905 Gf Ernst von Seilern und Aspang (*Graz 22.8.1878, +Schloss Molsberg 27.6.1927) $$
+			festetics_0020={ #// C1. Imre Károly, *Linz 18.7.1870, +Görbersdorf 16.4.1903; m.Ouchy, Schweiz 12.7.1897 Mária Piváry (*Szepesremete 12.4.1874, +Budapest 5.10.1942)
+				name="Imre Károly"
+				dynasty=1011007
+				religion=catholic culture=bavarian
+				father=festetics_0019	# Imre Festetics de Tolna
+				1870.07.18={birth=yes}  # Linz
+				1897.07.12={add_spouse=lowborn_5554}	# Mária Piváry
+				1903.04.16={death=yes}  # Görbersdorf
+			}
+				festetics_0021={ #// D1. Kristóf Imre Atanáz, *Szepesremete 17.4.1898, +Freiburg 30.1.1962; m.Füzesgyarmat 2.7.1933 Gfn Maria Theresia von Blanckenstein (*Füzesgyarmat 27.1.1909, +Wien 23.4.1964)
+					name="Kristóf Imre"
+					dynasty=1011007
+					religion=catholic culture=german
+					father=festetics_0020	# Imre Károly Festetics de Tolna
+					mother=lowborn_5554	# Mária Piváry
+					1898.04.17={birth=yes}  # Szepesremete
+					1933.07.02={add_spouse=lowborn_5558}	# GFN Maria Theresia von Blanckenstein
+					1962.01.30={death=yes}  # Freiburg
+				}
+					festetics_0022={ #// E1. József György Imre Pál Kristóf Kálmán Tasziló Mária, *Kaposvár 19.9.1934, +Bonn 12.12.1967
+						name=József
+						dynasty=1011007
+						religion=catholic culture=german
+						father=festetics_0021	# Kristóf Imre Festetics de Tolna
+						mother=lowborn_5558	# GFN Maria Theresia von Blanckenstein
+						1934.09.19={birth=yes}  # Kaposvár
+						1967.12.12={death=yes}  # Bonn
+					}
+					festetics_0023={ #// E2. Antal Ervin János Dénes Vilmos Alajos Mária, *Budapest 12.6.1937; m.Wien 14.1.1967 Gertrud Steindl (*Wien 4.5.1936)
+						name=Antal
+						dynasty=1011007
+						religion=catholic culture=hungarian
+						father=festetics_0021	# Kristóf Imre Festetics de Tolna
+						mother=lowborn_5558	# GFN Maria Theresia von Blanckenstein
+						1937.06.12={birth=yes}  # Budapest
+						1967.01.14={add_spouse=lowborn_5564}	# Gertrud Steindl
+						2007.01.01={death=yes}  # EST.
+					}
+						festetics_0024={ #// F1. Mónika Erzsébet Mária Klotild Ilona, *Vaduz 27.8.1967
+							name=Mónika
+							female=yes
+							dynasty=1011007
+							religion=catholic culture=german
+							father=festetics_0023	# Antal Festetics de Tolna
+							mother=lowborn_5564	# Gertrud Steindl
+							1967.08.27={birth=yes}  # Vaduz
+						}
+						festetics_0025={ #// F2. Pál Károly József Kristóf Mária, *Wien 13.9.1968
+							name=Pál
+							dynasty=1011007
+							religion=catholic culture=bavarian
+							father=festetics_0023	# Antal Festetics de Tolna
+							mother=lowborn_5564	# Gertrud Steindl
+							1968.09.13={birth=yes}  # Wien
+						}
+						festetics_0026={ #// F3. Vera Daria Marianne Róza Mária, *Wien 9.2.1970
+							name=Vera
+							female=yes
+							dynasty=1011007
+							religion=catholic culture=bavarian
+							father=festetics_0023	# Antal Festetics de Tolna
+							mother=lowborn_5564	# Gertrud Steindl
+							1970.02.09={birth=yes}  # Wien
+						}
+				festetics_0027={ #// D2. Róza Mária, *Szepesremete 23.3.1901, +Budapest 26.3.1948; 1m: Budapest 18.12.1918 (div 1924) György Sibrik de Szarvaskend et Óvár (*Baden bei Wien 23.9.1882); 2m: Csertő 23.3.1925 Dezső Hudoverning (*Budapest 31.10.1895, +Budapest 30.12.1967)
+					name="Róza Mária"
+					female=yes
+					dynasty=1011007
+					religion=catholic culture=german
+					father=festetics_0020	# Imre Károly Festetics de Tolna
+					mother=lowborn_5554	# Mária Piváry
+					1901.03.23={birth=yes}  # Szepesremete
+					1948.03.26={death=yes}  # Budapest
+				}
+			festetics_0028={ #// C2. Sámuel Imre, *Csertő 1.9.1876, +Mariatrost bei Graz 7.1.1927; m.Graz 19.5.1900 Ida Frn von John (*Wien 15.2.1876, +München 23.9.1940)
+				name="Sámuel Imre"
+				dynasty=1011007
+				religion=catholic culture=german
+				father=festetics_0019	# Imre Festetics de Tolna
+				1876.09.01={birth=yes}  # Csertő
+				1900.05.19={add_spouse=lowborn_5569}	# FRN Ida von John
+				1927.01.07={death=yes}  # Mariatrost_bei_Graz
+			}
+				festetics_0029={ #// D1. Domonkos Samuel Imre, *Bakófa 6.2.1901, +Salzburg 13.12.1975; 1m: Budapest 22.7.1942 (div 1946) Judit Ghyczy de Ghicz, Assa- et Ablonczkürth (*Debrecen 1.3.1923); 2m: Schwarzenegg 29.9.1949 (div 1956) Gfn Elizabeth von Saldern-Ahlimb (*Potsdam 22.7.1921)
+					name=Domonkos
+					dynasty=1011007
+					religion=catholic culture=german
+					father=festetics_0028	# Sámuel Imre Festetics de Tolna
+					mother=lowborn_5569	# FRN Ida von John
+					1901.02.06={birth=yes}  # Bakófa
+					1942.07.22={add_spouse=lowborn_5575}	# Judit Ghyczy de Ghicz Assa- et Ablonczkürth
+					1946.01.01={remove_spouse=lowborn_5575}
+					1949.09.29={add_spouse=lowborn_5578}	# GFN Elizabeth von Saldern-Ahlimb
+					1956.01.01={remove_spouse=lowborn_5578}
+					1975.12.13={death=yes}  # Salzburg
+				}
+					festetics_0030={ #// E1. [1m.] Dénes Sámuel Imre Tihamér Vilmos, *Csertő 12.7.1943; m.Epe 8.7.1967 Vida Sophia Kolisch (*Rotterdam 18.5.1946)
+						name=Dénes
+						dynasty=1011007
+						religion=catholic culture=german
+						father=festetics_0029	# Domonkos Festetics de Tolna
+						mother=lowborn_5575	# Judit Ghyczy de Ghicz Assa- et Ablonczkürth
+						1943.07.12={birth=yes}  # Csertő
+						1967.07.08={add_spouse=lowborn_5594}	# Vida Sophia Kolisch
+						2013.01.01={death=yes}  # EST.
+					}
+						festetics_0031={ #// F1. András György, *Buenos Aires 22.8.1968
+							name="András György"
+							dynasty=1011007
+							religion=catholic culture=german
+							father=festetics_0030	# Dénes Festetics de Tolna
+							mother=lowborn_5594	# Vida Sophia Kolisch
+							1968.08.22={birth=yes}
+						}
+						festetics_0032={ #// F2. Dominique Viola, *Rotterdam 9.1.1971
+							name="Dominique Viola"
+							female=yes
+							dynasty=1011007
+							religion=catholic culture=german
+							father=festetics_0030	# Dénes Festetics de Tolna
+							mother=lowborn_5594	# Vida Sophia Kolisch
+							1971.01.09={birth=yes}  # Rotterdam
+						}
+					festetics_0033={ #// E2. [2m.] Ilona, *Graz 18.3.1952
+						name=Ilona
+						female=yes
+						dynasty=1011007
+						religion=catholic culture=bavarian
+						father=festetics_0029	# Domonkos Festetics de Tolna
+						mother=lowborn_5578	# GFN Elizabeth von Saldern-Ahlimb
+						1952.03.18={birth=yes}  # Graz
+					}
+				festetics_0034={ #// D2. Zenaide Wanda Berta Mária, *Bakófa 7.11.1902; m.Csertő 25.5.1933 Willfried Seemann (*Stainz 2.5.1909, +Wien 12.9.1945)
+					name=Zenaide
+					female=yes
+					dynasty=1011007
+					religion=catholic culture=german
+					father=festetics_0028	# Sámuel Imre Festetics de Tolna
+					mother=lowborn_5569	# FRN Ida von John
+					1902.11.07={birth=yes}  # Bakófa
+					1977.01.01={death=yes}  # EST.
+				}
+			festetics_0035={ #// C3. Terézia Berta, *Wien 5.10.1877, +Szombathely 16.1.1940; m.Graz 30.10.1899 Ludwig Frhr von Watzdorff (*Bratislava 3.2.1871, +Szombathely 5.2.1952)
+				name="Terézia Berta"
+				female=yes
+				dynasty=1011007
+				religion=catholic culture=bavarian
+				father=festetics_0019	# Imre Festetics de Tolna
+				1877.10.05={birth=yes}  # Wien
+				1940.01.16={death=yes}  # Szombathely
+			}
+			festetics_0036={ #// C4. Wanda Berta Mária, *Csertő 28.9.1882, +Wien 29.9.1968; m.Graz 20.5.1905 Gf Ernst von Seilern und Aspang (*Graz 22.8.1878, +Schloss Molsberg 27.6.1927) $$
 				name=Wanda
 				female=yes
 				dynasty=1011007
 				religion=catholic culture=german
-				father=100115475	# Imre Atanáz Festetics de Tolna
-				1882.09.28={birth=yes}	# Csertö
-				1968.09.29={death=yes}	# Wien
+				father=festetics_0019	# Imre Festetics de Tolna
+				1882.09.28={birth=yes}  # Csertő
+				1968.09.29={death=yes}  # Wien
 			}
-	100115790={	#// A5. Dénes, -cr Gf Festetics de Tolna 24.6.1857, *Buda-Pest 12.1.1813, +Wien 15.7.1891; m.8.8.1842 Gfn Karolina Zichy de Zich et Vásonykeö (*6.6.1820 +11.4.1906) $$
-		name=Dénes
-		dynasty=1011007
-		religion=catholic culture=hungarian
-		father=100115368	# Antal József Festetics de Tolna
-		mother=100096499	# BSS Amália Splényi de Miháld
-		1813.01.12={birth=yes}
-		1842.08.08={add_spouse=100115661}	# Karoline Zichy de Zich et Vásonkeő
-		1891.07.15={death=yes}
-	}
-		100115477={	#// B3. Mária Felicie, *Wien 12.11.1850, +Szombathely 29.7.1946; m.Wien 6.6.1874 Gf Pál Draskovich de Trakostyán (*6.4.1846 +22.12.1889) $$
-			name="Maria Felicie"
+		festetics_0037={ #// B3. Wanda, *25.4.1845, +?; m.Wien 5.5.1868 Gf Richard von Walderdorff (*Molsberg 14.11.1837, +Graz 30.7.1895)
+			name=Wanda
 			female=yes
 			dynasty=1011007
-			religion=catholic culture=hungarian
-			father=100115790	# Dénes Festetics de Tolna
+			religion=catholic culture=german
+			father=festetics_0017	# Sámuel Festetics de Tolna
+			mother=100111900	# Wanda Raczynski
+			1845.04.25={birth=yes}
+			1920.01.01={death=yes}  # EST.
+		}
+	festetics_0038={ #// A3. Antónia, *1808, +1886; m.Gf János Barkóczy de Szala (*1798, +17.3.1872) $$
+		name=Antónia
+		female=yes
+		dynasty=1011007
+		religion=catholic culture=german
+		father=festetics_0001	# Antal József Festetics de Tolna
+		mother=lowborn_1938	# BSS Amália Splényi de Miháld
+		1808.01.01={birth=yes}
+		1886.01.01={death=yes}
+	}
+	festetics_0040={ #// A5. Dénes, -cr Gf Festetics de Tolna 24.6.1857, *Buda-Pest 12.1.1813, +Wien 15.7.1891; m.8.8.1842 Gfn Karolina Zichy de Zich et Vásonykeö (*6.6.1820 +11.4.1906) $$
+		name=Dénes
+		dynasty=1011007
+		religion=catholic culture=german
+		father=festetics_0001	# Antal József Festetics de Tolna
+		mother=lowborn_1938	# BSS Amália Splényi de Miháld
+		1813.01.12={birth=yes}  # Buda-Pest
+		1842.08.08={add_spouse=100115661}	# Karoline Zichy de Zich et Vásonkeő
+		1891.07.15={death=yes}  # Wien
+	}
+		festetics_0041={ #// B1. Kálmán Antal, *Buda-Pest 25.11.1847, +Gyöngyös 13.10.1928; m.Wien 10.1.1880 Gfn Kotild von Clam und Gallas (*Reichenberg 5.9.1859, +Wien 8.11.1847) $$
+			name="Kálmán Antal"
+			dynasty=1011007
+			religion=catholic culture=german
+			father=festetics_0040	# Dénes Festetics de Tolna
 			mother=100115661	# Karoline Zichy de Zich et Vásonkeő
-			1850.11.12={birth=yes}
-			1946.07.29={death=yes}
+			1847.11.25={birth=yes}  # Buda-Pest
+			1880.01.10={add_spouse=clam_0043}	# Klothilde von Clam u.Gallas
+			1928.10.13={death=yes}  # Gyöngyös
+		}
+		festetics_0042={ #// B2. Vilmos, *Wien 19.11.1848, +Toponár 28.4.1931; m.Budapest 30.9.1919 Elizabeth Arneborg (*Arnborg 15.9.1882)
+			name=Vilmos
+			dynasty=1011007
+			religion=catholic culture=bavarian
+			father=festetics_0040	# Dénes Festetics de Tolna
+			mother=100115661	# Karoline Zichy de Zich et Vásonkeő
+			1848.11.19={birth=yes}  # Wien
+			1919.09.30={add_spouse=lowborn_5613}	# Anna Štampachová ze Štampachu
+			1931.04.28={death=yes}  # Toponár
+		}
+		festetics_0043={ #// B3. Mária Felicie, *Wien 12.11.1850, +Szombathely 29.7.1946; m.Wien 6.6.1874 Gf Pál Draskovich de Trakostyán (*6.4.1846 +22.12.1889) $$
+			name="Mária Felicie"
+			female=yes
+			dynasty=1011007
+			religion=catholic culture=bavarian
+			father=festetics_0040	# Dénes Festetics de Tolna
+			mother=100115661	# Karoline Zichy de Zich et Vásonkeő
+			1850.11.12={birth=yes}  # Wien
+			1946.07.29={death=yes}  # Szombathely
 		}
 #festet4
 ##  100116800	Festetics						1011007
@@ -43842,7 +44120,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 				father=100116449	# Ferenc Széchenyi de Sárvár-Felsővidek
 				mother=100116268	# Juliane Festetics de Tolna
 				1781.11.06={birth=yes}
-				1801.05.04={add_spouse=100036576}	# Aloysia von Clam u.Gallas
+				1801.05.04={add_spouse=clam_0025}	# Aloisia von Clam u.Gallas
 				1824.03.18={add_spouse=100023657}	# Franziska von Wurmbrand-Stuppach
 				1855.02.07={death=yes}
 			}
@@ -43853,7 +44131,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 					dynasty=1011006
 					religion=catholic culture=hungarian
 					father=100116447	# Lajos Széchenyi de Sárvár-Felsővidek
-					mother=100036576	# Aloysia von Clam u.Gallas
+					mother=clam_0025	# Aloisia von Clam u.Gallas
 					1804.01.06={birth=yes}
 					1863.03.26={death=yes}
 				}
@@ -43863,7 +44141,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 					dynasty=1011006
 					religion=catholic culture=hungarian
 					father=100116447	# Lajos Széchenyi de Sárvár-Felsővidek
-					mother=100036576	# Aloysia von Clam u.Gallas
+					mother=clam_0025	# Aloisia von Clam u.Gallas
 					1807.08.21={birth=yes}
 					1842.03.03={death=yes}
 				}
@@ -43873,7 +44151,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 					dynasty=1011006
 					religion=catholic culture=hungarian
 					father=100116447	# Lajos Széchenyi de Sárvár-Felsővidek
-					mother=100036576	# Aloysia von Clam u.Gallas
+					mother=clam_0025	# Aloisia von Clam u.Gallas
 					1809.05.16={birth=yes}
 					1885.11.09={death=yes}
 				}
@@ -44421,7 +44699,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 	dynasty=1011006
 	religion=catholic culture=hungarian
 	father=100116447	# Lajos Széchenyi de Sárvár-Felsővidek
-	mother=100036576	# Aloysia von Clam u.Gallas
+	mother=clam_0025	# Aloisia von Clam u.Gallas
 	1802.06.03={birth=yes}
 	1825.10.30={add_spouse=100117056}	# Agathe Erdődy de Monyorókerék et Monoszló
 	1874.02.24={death=yes}
@@ -45186,7 +45464,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		father=100116481	# Ferenc Széchenyi de Sárvár-Felsővidek
 		mother=100117070	# Franziska Erdődy de Monyorókerék et Monoszló
 		1862.10.11={birth=yes}
-		1888.04.30={add_spouse=100036411}	# Marie von Herberstein
+		1888.04.30={add_spouse=herberstein_0585}	# Maria von Herberstein
 		1928.11.06={death=yes}
 	}
 		100116571={	#// 1e) Rudolf (Eggenberg 4 Jan 1891-Steinamanger 4 Apr 1931); m.Gyöngyösapáti 17 Sep 1914 Sophie Bss Lipthay de Lubelle et Kisfalud (Lovrin 25 Jul 1893-Buenos Aires 21 Dec 1973)
@@ -45194,7 +45472,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 			dynasty=1011006
 			religion=catholic culture=hungarian
 			father=100116564	# Rudolf Széchenyi de Sárvár-Felsővidek
-			mother=100036411	# Marie von Herberstein
+			mother=herberstein_0585	# Maria von Herberstein
 			1891.01.04={birth=yes}
 			1914.09.17={add_spouse=100087438}	# BSS Zsófia Lipthay de Kisfalud et Lubelle
 			1930.04.04={death=yes}
@@ -48772,16 +49050,16 @@ karolyi_0001={ #// Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Oberges
 						religion=catholic culture=hungarian
 						father=100115543	# Kázmér Hyppolyt Zichy de Zich et Vásonkeő
 						mother=100088217	# Julia Moran
-						1917.07.06={birth=yes}
-						1945.07.21={add_spouse=100036601}	# Marie Henriette von Herberstein
-						1983.04.07={death=yes}
+						1917.07.06={birth=yes}  # Budapest
+						1945.07.21={add_spouse=herberstein_0602}	# Marie Henriette von Herberstein
+						1983.04.07={death=yes}  # Calgary
 					}
 						100115552={	#// 1h) Ferenc Antal (b.Budapest 14 Mar 1946); m.1st Toronto 22 Dec 1979 Ruthanne Harris (b.Toronto 24 May 1944)
 							name="Ferenc Antal"
 							dynasty=1011004
 							religion=catholic culture=hungarian
 							father=100115550	# Mihály Kázmér Zichy de Zich et Vásonkeő
-							mother=100036601	# Marie Henriette von Herberstein
+							mother=herberstein_0602	# Marie Henriette von Herberstein
 							1946.03.14={birth=yes}
 							1979.12.22={add_spouse=100084701}	# Ruthanne Harris
 						}
@@ -48790,7 +49068,7 @@ karolyi_0001={ #// Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Oberges
 							dynasty=1011004
 							religion=catholic culture=hungarian
 							father=100115550	# Mihály Kázmér Zichy de Zich et Vásonkeő
-							mother=100036601	# Marie Henriette von Herberstein
+							mother=herberstein_0602	# Marie Henriette von Herberstein
 							1947.06.17={birth=yes}
 						}
 						100115555={	#// 3h) Michael József (b.Morrisburg 6 May 1950); m.1st Edmonton 1974 (div 1994) Elizabeth Huffman; m.2nd Victoria 1 Apr 1999 Margaret Maczko-Kludzinska (b.Lipno 13 May 1961)
@@ -48798,7 +49076,7 @@ karolyi_0001={ #// Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Oberges
 							dynasty=1011004
 							religion=catholic culture=hungarian
 							father=100115550	# Mihály Kázmér Zichy de Zich et Vásonkeő
-							mother=100036601	# Marie Henriette von Herberstein
+							mother=herberstein_0602	# Marie Henriette von Herberstein
 							1950.05.06={birth=yes}
 							1974.01.01={add_spouse=100085183}	# Elizabeth Huffman
 							1994.01.01={remove_spouse=100085183}
@@ -49161,7 +49439,7 @@ karolyi_0001={ #// Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Oberges
 			1808.10.18={birth=yes}
 			1900.03.18={death=yes}
 		}
-		100115633={	#// 2d) Maria (2 Feb 1810-8 Mar 1901); m.1838 Vilmos Frhr von Walterskirchen (23 Jul 1808-21 Oct 1884)
+		100115633={	#// 2d) Maria (2 Feb 1810-8 Mar 1901); m.1838 Vilmos Frhr von Walterskirchen (23 Jul 1808-21 Oct 1884) $$
 			name=Maria
 			female=yes
 			dynasty=1011004
@@ -50737,29 +51015,29 @@ karolyi_0001={ #// Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Oberges
 					1979.03.14={death=yes}
 				}
 					100115611={	#// 1g) Ferenc Jakob Josef Heinrich Maria (b.Boldogköváralja 22 Feb 1925); m.Wildbad Kreuth (civ) 11 Sep 1958 (rel) 12 Sep 1958 Marie-Therese Gfn von Herberstein (b.Prague 29 Jun 1928) $$
-						name="Ferenc Jakob"
+						name="Ferenc"
 						dynasty=1011004
 						religion=catholic culture=hungarian
 						father=100115613	# Manó Zichy de Zich et Vásonkeő
 						mother=100117675	# Ilona Hunyady de Kéthely
 						1925.02.22={birth=yes}
-						1958.09.12={add_spouse=100036384}	# Maria Theresia von Herberstein
+						1958.09.12={add_spouse=herberstein_0604}	# Marie-Therese Elisabeth von Herberstein
 						2002.01.01={death=yes}  # EST.
 					}
 						100115609={	#// 1h) Ferenc-József Lajos Emanuel Sándor Maria (b.Salzburg 8 Feb 1960)
 							name=Ferenc-József
 							dynasty=1011004
 							religion=catholic culture=hungarian
-							father=100115611	# Ferenc Jakob Zichy de Zich et Vásonkeő
-							mother=100036384	# Maria Theresia von Herberstein
+							father=100115611	# Ferenc Zichy de Zich et Vásonkeő
+							mother=herberstein_0604	# Marie-Therese Elisabeth von Herberstein
 							1960.02.08={birth=yes}
 						}
 						100115605={	#// 2h) Carl-Nandor Emanuel Heinrich Rezsö Maria (b.München 8 Sep 1961)
 							name=Carl-Nandor
 							dynasty=1011004
 							religion=catholic culture=hungarian
-							father=100115611	# Ferenc Jakob Zichy de Zich et Vásonkeő
-							mother=100036384	# Maria Theresia von Herberstein
+							father=100115611	# Ferenc Zichy de Zich et Vásonkeő
+							mother=herberstein_0604	# Marie-Therese Elisabeth von Herberstein
 							1961.09.08={birth=yes}
 						}
 					100115604={	#// 2g) Maria Magdolna (b.Boldogköváralja 5 Sep 1926); m.Graz 14 Jul 1951 Wolfgang Frhr von Steeb (b.Agram 15 Jun 1926)
@@ -51568,13 +51846,13 @@ barkoczy_0001={ #// László Barkóczy de Szala et Tavarna, fl 1558-83; m.Katali
 							1774.01.01={birth=yes}  # EST.
 							1849.12.01={death=yes}  # EST.
 						}
-							barkoczy_0013={ #// G1. János, *1798, +17.3.1872; m.Gfn Antónia Festetics de Tolna (*1808 +1886)
+							barkoczy_0013={ #// G1. János, *1798, +17.3.1872; m.Gfn Antónia Festetics de Tolna (*1808 +1886) $$
 								name=János
 								dynasty=1011357
 								religion=catholic culture=hungarian
 								father=barkoczy_0012	# Ferenc Barkóczy
 								1798.01.01={birth=yes}
-								1823.01.01={add_spouse=lowborn_0018}	# GFN Antónia Festetics de Tolna
+								1823.01.01={add_spouse=festetics_0038}	# Antónia Festetics de Tolna
 								1872.03.17={death=yes}
 							}
 								barkoczy_0014={ #// H1. Ilona, *Kassa 7.3.1833, +Kassa 24.1.1887; m.Wien 31.10.1860 Gf Béla Hadik de Futak (*27.9.1822 +19.4.1885) $$
@@ -51583,7 +51861,7 @@ barkoczy_0001={ #// László Barkóczy de Szala et Tavarna, fl 1558-83; m.Katali
 									dynasty=1011357
 									religion=catholic culture=hungarian
 									father=barkoczy_0013	# János Barkóczy
-									mother=lowborn_0018	# GFN Antónia Festetics de Tolna
+									mother=festetics_0038	# Antónia Festetics de Tolna
 									1833.03.07={birth=yes}  # Kassa
 									1887.01.24={death=yes}  # Kassa
 								}

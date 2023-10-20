@@ -5563,6 +5563,14 @@ lowborn_2423={ # Marchese   Mario                     Pellegrini-Quarantotti    
 	1881.01.01={add_spouse=100019574}	# Варвара Дмитриевна Нарышкин
 	1912.08.23={death=yes}
 }
+lowborn_5543={ # Marchese   Emilio                    Pucci di Barsento                        (1914-1984)     - [FESTETICS]
+	name="Emilio Pucci di Barsento"
+	#dynasty=0
+	religion=catholic culture=italian
+	1914.11.20={birth=yes}  # Napoli
+	1962.10.18={add_spouse=festetics_0015}	# Izabella Festetics de Tolna
+	1984.01.01={death=yes}  # EST.
+}
 100089376={ #               Cosimo                    Ranieri                                  (1978-    )     - [COLONA]
 	name="Cosimo Ranieri"
 	#dynasty=0
@@ -7391,7 +7399,7 @@ lowborn_2408={ # Nobile     Gabriele                  Lossetti Mandelli         
 	#dynasty=0
 	religion=catholic culture=italian
 	1829.01.01={birth=yes}  # EST.
-	1854.10.15={add_spouse=100112593}	# Dorota Jablonowski
+	1854.10.15={add_spouse=100112593}	# Dorota Jabłonowski
 	1884.11.01={death=yes}	# Roma
 }
 lowborn_2214={ # Cssa       Beatrice                  Malmignati                               (1851-1929)     0 [GONZAGA]
@@ -11926,11 +11934,12 @@ lowborn_2475={ #            Pasquale                  di Giulio                 
 	1849.09.11={birth=yes}  # Ris Orangis
 	1929.12.19={death=yes}  # Paris
 }
-lowborn_3074={ # Marchese   Michael                   Alvernis-Saluzzo di Clavesano            (1607-1678)     - [LIBSTEJNSKY]
+lowborn_3074={ # Marchese   Michael                   Alvernis-Saluzzo di Clavesano            (1607-1678)  2  - [KRAKOVSKY, LIBSTEJNSKY]
 	name="Michael Alvernis-Saluzzo di Clavesano"
 	#dynasty=0
 	religion=catholic culture=czech
 	1607.08.19={birth=yes}
+	1640.01.01={add_spouse=kolowrat_0188}	# Johanna Dorota Krakovský z Kolovrat
 	1649.01.01={add_spouse=kolowrat_0011}	# Johanna Eleonora Libštejnský z Kolovrat
 	1678.08.19={death=yes}
 }
@@ -12038,7 +12047,7 @@ lowborn_3508={ #            Barbara                   Gonzaga di Luzzara        
 	1569.01.01={birth=yes}  # EST.
 	1591.01.01={death=yes}  # EST.
 }
-lowborn_1810={ #            Olimpia                   Guerrieri                                (1530-1590)     0 [ARCO]
+lowborn_1810={ #            Olimpia                   Guerrieri                                (1530-1590)     4 [ARCO]
 	name="Olimpia Guerrieri"
 	female=yes
 	#dynasty=0
@@ -12055,29 +12064,13 @@ lowborn_4598={ #            Felice                    Trilaco                   
 	1750.01.01={death=yes}  # EST.
 }
 
-lowborn_3812={ #            Bonaventura               Alberti di Colico                        (1698-1758)     - [LODRON]
-	name="Bonaventura Alberti di Colico"
-	#dynasty=0
-	religion=catholic culture=italian
-	1698.01.01={birth=yes}  # EST.
-	1722.01.01={add_spouse=lodron_0338}	# Maria Lorena zu Lodron-Laterano u.Castelromano
-	1758.01.01={death=yes}  # EST.
-}
-lowborn_3844={ #            Theresia                  Alberti von Enno                         (1747-1821)     9 [LODRON]
+lowborn_3844={ #            Theresia                  Alberti von Enno                         (1747-1821)     5 [LODRON]
 	name="Theresia Alberti von Enno"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=italian
 	1747.01.01={birth=yes}
 	1821.02.15={death=yes}
-}
-lowborn_3663={ #            Julia                     Avogardo                                 (1508-1568)     1 [LODRON]
-	name="Julia Avogardo"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1508.01.01={birth=yes}  # EST.
-	1568.01.01={death=yes}  # EST.
 }
 lowborn_3644={ #            Magdalena                 Bagarotta                                (1507-1567)     3 [LODRON]
 	name="Magdalena Bagarotta"
@@ -12087,7 +12080,7 @@ lowborn_3644={ #            Magdalena                 Bagarotta                 
 	1507.01.01={birth=yes}  # EST.
 	1567.01.01={death=yes}  # EST.
 }
-lowborn_3825={ #            Caterina EST              Bellini de Fin                           (1723-1783)     4 [LODRON]
+lowborn_3825={ #            Caterina EST              Bellini de Fin                           (1723-1783)     1 [LODRON]
 	name="Caterina EST Bellini de Fin"
 	female=yes
 	#dynasty=0
@@ -12095,23 +12088,7 @@ lowborn_3825={ #            Caterina EST              Bellini de Fin            
 	1723.01.01={birth=yes}  # EST.
 	1783.01.01={death=yes}  # EST.
 }
-lowborn_3653={ #            Benedetto                 Bordoni                                  (1464-1524)     - [LODRON]
-	name="Benedetto Bordoni"
-	#dynasty=0
-	religion=catholic culture=italian
-	1464.01.01={birth=yes}  # EST.
-	1488.01.01={add_spouse=lodron_0078}	# Berenice zu Lodron-Laterano u.Castelromano
-	1524.01.01={death=yes}  # EST.
-}
-lowborn_3798={ #            Silvio                    Bucinelli                                (1660-1720)     - [LODRON]
-	name="Silvio Bucinelli"
-	#dynasty=0
-	religion=catholic culture=italian
-	1660.01.01={birth=yes}  # EST.
-	1684.01.01={add_spouse=lodron_0298}	# Julia zu Lodron-Laterano u.Castelromano
-	1720.01.01={death=yes}  # EST.
-}
-lowborn_3648={ #            Hieronyma                 Calapina                                 (1491-1551)     7 [LODRON]
+lowborn_3648={ #            Hieronyma                 Calapina                                 (1491-1551)     6 [LODRON]
 	name="Hieronyma Calapina"
 	female=yes
 	#dynasty=0
@@ -12119,39 +12096,7 @@ lowborn_3648={ #            Hieronyma                 Calapina                  
 	1491.01.01={birth=yes}  # EST.
 	1551.01.01={death=yes}  # EST.
 }
-lowborn_4596={ #            Filippo                   Calini                                   (1440-1500)     - [LODRON]
-	name="Filippo Calini"
-	#dynasty=0
-	religion=catholic culture=italian
-	1440.01.01={birth=yes}  # EST.
-	1464.01.01={add_spouse=lodron_0038}	# Ginevra zu Lodron-Laterano u.Castelromano
-	1500.01.01={death=yes}  # EST.
-}
-lowborn_3690={ #            Mariotto                  Calini                                   (1493-1553)     - [LODRON]
-	name="Mariotto Calini"
-	#dynasty=0
-	religion=catholic culture=italian
-	1493.01.01={birth=yes}  # EST.
-	1517.01.01={add_spouse=lodron_0139}	# Ginevra zu Lodron-Laterano u.Castelromano
-	1553.01.01={death=yes}  # EST.
-}
-lowborn_3701={ #            Pietro                    Castelletti                              (1566-1626)     - [LODRON]
-	name="Pietro Castelletti"
-	#dynasty=0
-	religion=catholic culture=italian
-	1566.01.01={birth=yes}  # EST.
-	1590.01.01={add_spouse=lodron_0158}	# Marghareta Beatrix zu Lodron-Laterano u.Castelromano
-	1626.01.01={death=yes}  # EST.
-}
-lowborn_3739={ #            Petrus                    Castronuove                              (1573-1633)     - [LODRON]
-	name="Petrus Castronuove"
-	#dynasty=0
-	religion=catholic culture=italian
-	1573.01.01={birth=yes}  # EST.
-	1597.01.01={add_spouse=lodron_0204}	# Margaretha zu Lodron-Laterano u.Castelromano
-	1633.01.01={death=yes}  # EST.
-}
-lowborn_3768={ #            Theodora                  Chizzola                                 (1635-1695)     4 [LODRON]
+lowborn_3768={ #            Theodora                  Chizzola                                 (1635-1695)     2 [LODRON]
 	name="Theodora Chizzola"
 	female=yes
 	#dynasty=0
@@ -12175,14 +12120,6 @@ lowborn_3894={ #            Philipp                   Consolati von und zu Heili
 	1886.06.21={add_spouse=lodron_0500}	# Luisa zu Lodron-Laterano u.Castelromano
 	1924.08.09={death=yes}  # Fontanasanta
 }
-lowborn_3599={ #            Veronica                  Coppa                                    (1460-1520)     5 [LODRON]
-	name="Veronica Coppa"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1460.01.01={birth=yes}  # EST.
-	1520.01.01={death=yes}  # EST.
-}
 lowborn_3891={ #            Francesco                 Crel                                     (1881-1941)     - [LODRON]
 	name="Francesco Crel"
 	#dynasty=0
@@ -12190,30 +12127,6 @@ lowborn_3891={ #            Francesco                 Crel                      
 	1881.01.01={birth=yes}  # EST.
 	1905.05.11={add_spouse=lodron_0496}	# Emilia Antonia zu Lodron-Laterano u.Castelromano
 	1941.01.01={death=yes}  # EST.
-}
-lowborn_3843={ #            Carlo Andrea              Cristiani di Rallo                       (1762-1822)     - [LODRON]
-	name="Carlo Andrea Cristiani di Rallo"
-	#dynasty=0
-	religion=catholic culture=italian
-	1762.01.01={birth=yes}  # EST.
-	1786.01.01={add_spouse=lodron_0409}	# Maria Anna zu Lodron-Laterano u.Castelromano
-	1822.01.01={death=yes}  # EST.
-}
-lowborn_3595={ #            Ginevra                   d'Avogadro                               (1408-1468)     5 [LODRON]
-	name="Ginevra d'Avogadro"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1408.01.01={birth=yes}  # EST.
-	1468.01.01={death=yes}  # EST.
-}
-lowborn_3687={ #            Anton                     Dalepe da Crema                          (1504-1564)     - [LODRON]
-	name="Anton Dalepe da Crema"
-	#dynasty=0
-	religion=catholic culture=italian
-	1504.01.01={birth=yes}  # EST.
-	1528.01.01={add_spouse=lodron_0136}	# Anna zu Lodron-Laterano u.Castelromano
-	1564.01.01={death=yes}  # EST.
 }
 lowborn_3822={ #            Michele                   delle Torre e Tassis                     (1722-1789)  2  - [LODRON, LODRON]
 	name="Michele Delle Torre E Tassis"
@@ -12224,14 +12137,6 @@ lowborn_3822={ #            Michele                   delle Torre e Tassis      
 	1766.03.04={add_spouse=lodron_0358}	# Maria Johanna zu Lodron-Laterano u.Castelromano
 	1789.12.17={death=yes}  # Torriana, Mantua
 }
-lowborn_3677={ #            Francesco                 Federici di Castel Ossana                (1530-1590)     - [LODRON]
-	name="Francesco Federici di Castel Ossana"
-	#dynasty=0
-	religion=catholic culture=italian
-	1530.01.01={birth=yes}  # EST.
-	1554.01.01={add_spouse=lodron_0116}	# Katharina zu Lodron-Laterano u.Castelromano
-	1590.01.01={death=yes}  # EST.
-}
 lowborn_3778={ #            Antonio                   Galassi                                  (1647-1707)     - [LODRON]
 	name="Antonio Galassi"
 	#dynasty=0
@@ -12240,22 +12145,6 @@ lowborn_3778={ #            Antonio                   Galassi                   
 	1671.01.01={add_spouse=lodron_0260}	# Anna Victoria zu Lodron-Laterano u.Castelromano
 	1707.01.01={death=yes}  # EST.
 }
-lowborn_3694={ #            Massimiliano              Gambara                                  (1530-1590)     - [LODRON]
-	name="Massimiliano Gambara"
-	#dynasty=0
-	religion=catholic culture=italian
-	1530.01.01={birth=yes}  # EST.
-	1554.01.01={add_spouse=lodron_0143}	# Eleonora zu Lodron-Laterano u.Castelromano
-	1590.01.01={death=yes}  # EST.
-}
-lowborn_3696={ #            Alessandro                Gambara                                  (1533-1558)     - [LODRON]
-	name="Alessandro Gambara"
-	#dynasty=0
-	religion=catholic culture=italian
-	1533.01.01={birth=yes}  # EST.
-	1557.01.01={add_spouse=lodron_0148}	# Pallavicina zu Lodron-Laterano u.Castelromano
-	1558.01.01={death=yes}  # EST.
-}
 lowborn_3899={ #            Antonietta                Gerola                                   (1897-1969)     1 [LODRON]
 	name="Antonietta Gerola"
 	female=yes
@@ -12263,14 +12152,6 @@ lowborn_3899={ #            Antonietta                Gerola                    
 	religion=catholic culture=italian
 	1897.11.18={birth=yes}  # Rovereto
 	1969.09.27={death=yes}  # Villach
-}
-lowborn_3800={ #            Johann Paul               Giovanelli                               (1666-1726)     - [LODRON]
-	name="Johann Paul Giovanelli"
-	#dynasty=0
-	religion=catholic culture=italian
-	1666.01.01={birth=yes}  # EST.
-	1690.01.01={add_spouse=lodron_0304}	# Anna zu Lodron-Laterano u.Castelromano
-	1726.01.01={death=yes}  # EST.
 }
 lowborn_3855={ #            Eduard Wilhelm            Grainger zu Tywysog                      (1797-1864)     - [LODRON]
 	name="Eduard Wilhelm Grainger zu Tywysog"
@@ -12288,38 +12169,6 @@ lowborn_3858={ #            Maximilian                Grimaud                   
 	1813.02.11={add_spouse=lodron_0441}	# Maria Dominika zu Lodron-Laterano u.Castelromano
 	1869.02.26={death=yes}  # Graz
 }
-lowborn_3686={ #            Antonio                   Guasco                                   (1504-1564)     - [LODRON]
-	name="Antonio Guasco"
-	#dynasty=0
-	religion=catholic culture=italian
-	1504.01.01={birth=yes}  # EST.
-	1528.01.01={add_spouse=lodron_0135}	# Margaretha Laura zu Lodron-Laterano u.Castelromano
-	1564.01.01={death=yes}  # EST.
-}
-lowborn_3697={ #            Orso                      Luzzago                                  (1538-1598)     - [LODRON]
-	name="Orso Luzzago"
-	#dynasty=0
-	religion=catholic culture=italian
-	1538.01.01={birth=yes}  # EST.
-	1562.01.01={add_spouse=lodron_0148}	# Pallavicina zu Lodron-Laterano u.Castelromano
-	1598.01.01={death=yes}  # EST.
-}
-lowborn_3640={ #            Aliprando                 Madruzzo                                 (1494-1554)     - [LODRON]
-	name="Aliprando Madruzzo"
-	#dynasty=0
-	religion=catholic culture=italian
-	1494.01.01={birth=yes}  # EST.
-	1518.01.01={add_spouse=lodron_0063}	# Katharina zu Lodron-Laterano u.Castelromano
-	1554.01.01={death=yes}  # EST.
-}
-lowborn_3669={ #            Simone Aliprando          Madruzzo                                 (1523-1583)     - [LODRON]
-	name="Simone Aliprando Madruzzo"
-	#dynasty=0
-	religion=catholic culture=italian
-	1523.01.01={birth=yes}  # EST.
-	1547.01.01={add_spouse=lodron_0095}	# Katharina zu Lodron-Laterano u.Castelromano
-	1583.01.01={death=yes}  # EST.
-}
 lowborn_3637={ #            Giovanni                  Malaspina                                (1486-1546)     - [LODRON]
 	name="Giovanni Malaspina"
 	#dynasty=0
@@ -12327,14 +12176,6 @@ lowborn_3637={ #            Giovanni                  Malaspina                 
 	1486.01.01={birth=yes}  # EST.
 	1510.01.01={add_spouse=lodron_0060}	# Barbara zu Lodron-Laterano u.Castelromano
 	1546.01.01={death=yes}  # EST.
-}
-lowborn_3651={ #            Violante                  Malaspina                                (1485-1529)     3 [LODRON]
-	name="Violante Malaspina"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1485.01.01={birth=yes}  # EST.
-	1529.01.01={death=yes}  # EST.
 }
 lowborn_3806={ #            Angela                    Malfatti                                 (1681-1741)     1 [LODRON]
 	name="Angela Malfatti"
@@ -12344,22 +12185,6 @@ lowborn_3806={ #            Angela                    Malfatti                  
 	1681.01.01={birth=yes}  # EST.
 	1741.01.01={death=yes}  # EST.
 }
-lowborn_3797={ #            Maria Eleonora            Manioli                                  (1686-1746)     2 [LODRON]
-	name="Maria Eleonora Manioli"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1686.01.01={birth=yes}  # EST.
-	1746.01.01={death=yes}  # EST.
-}
-lowborn_4594={ #            Zelmira                   Martinengo                               (1403-1425)     0 [LODRON]
-	name="Zelmira Martinengo"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1403.01.01={birth=yes}  # EST.
-	1425.01.01={death=yes}  # EST.
-}
 lowborn_3597={ #            Valentina                 Martinengo                               (1447-1507)     2 [LODRON]
 	name="Valentina Martinengo"
 	female=yes
@@ -12368,30 +12193,6 @@ lowborn_3597={ #            Valentina                 Martinengo                
 	1447.01.01={birth=yes}  # EST.
 	1507.01.01={death=yes}  # EST.
 }
-lowborn_3689={ #            Giovanni                  Martinengo                               (1493-1518)     - [LODRON]
-	name="Giovanni Martinengo"
-	#dynasty=0
-	religion=catholic culture=italian
-	1493.01.01={birth=yes}  # EST.
-	1517.01.01={add_spouse=lodron_0139}	# Ginevra zu Lodron-Laterano u.Castelromano
-	1518.01.01={death=yes}  # EST.
-}
-lowborn_3693={ #            Camillo                   Martinengo                               (1525-1550)     - [LODRON]
-	name="Camillo Martinengo"
-	#dynasty=0
-	religion=catholic culture=italian
-	1525.01.01={birth=yes}  # EST.
-	1549.01.01={add_spouse=lodron_0143}	# Eleonora zu Lodron-Laterano u.Castelromano
-	1550.01.01={death=yes}  # EST.
-}
-lowborn_3652={ #            Katharina Bianca          Martire di Montecastello                 (1518-1578)     0 [LODRON]
-	name="Katharina Bianca Martire di Montecastello"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1518.01.01={birth=yes}  # EST.
-	1578.01.01={death=yes}  # EST.
-}
 lowborn_3903={ #            Maria Clara               Mayr von Melnhof                         (1893-1978)     0 [LODRON]
 	name="Maria Clara Mayr von Melnhof"
 	female=yes
@@ -12399,22 +12200,6 @@ lowborn_3903={ #            Maria Clara               Mayr von Melnhof          
 	religion=catholic culture=italian
 	1893.04.02={birth=yes}  # St. Peter
 	1978.09.22={death=yes}  # Bieberstein
-}
-lowborn_3809={ #            Carlo                     Montressier                              (1677-1737)     - [LODRON]
-	name="Carlo Montressier"
-	#dynasty=0
-	religion=catholic culture=italian
-	1677.01.01={birth=yes}  # EST.
-	1701.01.01={add_spouse=lodron_0326}	# Maria Anna zu Lodron-Laterano u.Castelromano
-	1737.01.01={death=yes}  # EST.
-}
-lowborn_4550={ #            Nn                        di Nogarola                              (1376-1436)     2 [LODRON]
-	name="Nn di Nogarola"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1376.01.01={birth=yes}  # EST.
-	1436.01.01={death=yes}  # EST.
 }
 lowborn_3789={ #            Anna                      Ochs von Sonnau-Reichersberg             (1660-1709)     4 [LODRON]
 	name="Anna Ochs von Sonnau-Reichersberg"
@@ -12431,22 +12216,6 @@ lowborn_3910={ #            Charles                   Owen                      
 	1906.12.21={birth=yes}  # Dublin
 	1935.01.01={add_spouse=lodron_0522}	# Maria Josefine zu Lodron-Laterano u.Castelromano
 	1976.01.01={death=yes}  # EST.
-}
-lowborn_3661={ #            Drusiana                  Pallavicino                              (1504-1564)     3 [LODRON]
-	name="Drusiana Pallavicino"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1504.01.01={birth=yes}  # EST.
-	1564.01.01={death=yes}  # EST.
-}
-lowborn_3769={ #            Bartholomäus              Paradis de Lasaga                        (1610-1670)     - [LODRON]
-	name="Bartholomäus Paradis de Lasaga"
-	#dynasty=0
-	religion=catholic culture=italian
-	1610.01.01={birth=yes}  # EST.
-	1634.01.01={add_spouse=lodron_0252}	# Hipolyta zu Lodron-Laterano u.Castelromano
-	1670.01.01={death=yes}  # EST.
 }
 100103973={ #    Gf         Bernard Franz             Paradis de Lasaga                        (1639-1709)     - [WRATISLAV]
 	name="Bernard Franz Paradis de Lasaga"
@@ -12473,14 +12242,6 @@ lowborn_3905={ #            Eleonora                  Salvadori Zanatta von Wies
 	1908.08.26={birth=yes}  # Riva
 	1983.01.01={death=yes}  # EST.
 }
-lowborn_3736={ #            Galeazzo                  Scarampi di Cortemiglia                  (1552-1612)     - [LODRON]
-	name="Galeazzo Scarampi di Cortemiglia"
-	#dynasty=0
-	religion=catholic culture=italian
-	1552.01.01={birth=yes}  # EST.
-	1576.01.01={add_spouse=lodron_0197}	# Anna zu Lodron-Laterano u.Castelromano
-	1612.01.01={death=yes}  # EST.
-}
 lowborn_3897={ #            Marie                     Scholl                                   (1882-1942)     0 [LODRON]
 	name="Marie Scholl"
 	female=yes
@@ -12505,7 +12266,7 @@ lowborn_3721={ #            Lucrezia                  Tabarelli                 
 	1564.01.01={birth=yes}  # EST.
 	1596.01.01={death=yes}  # EST.
 }
-lowborn_3632={ #            Valentina                 Tabarelli de Fatis                       (1483-1543)     2 [LODRON]
+lowborn_3632={ #            Valentina                 Tabarelli de Fatis                       (1483-1543)     1 [LODRON]
 	name="Valentina Tabarelli de Fatis"
 	female=yes
 	#dynasty=0
@@ -12521,55 +12282,7 @@ lowborn_3636={ #            Giovanni                  Tabarelli de Fatis        
 	1503.01.01={add_spouse=lodron_0056}	# Ciconella zu Lodron-Laterano u.Castelromano
 	1539.01.01={death=yes}  # EST.
 }
-lowborn_3671={ #            Vettore                   Tabarelli de Fatis                       (1516-1576)     - [LODRON]
-	name="Vettore Tabarelli de Fatis"
-	#dynasty=0
-	religion=catholic culture=italian
-	1516.01.01={birth=yes}  # EST.
-	1540.11.22={add_spouse=lodron_0097}	# Ginevra zu Lodron-Laterano u.Castelromano
-	1576.01.01={death=yes}  # EST.
-}
-lowborn_3732={ #            Carlo                     Tabarelli di Fatis                       (1528-1588)     - [LODRON]
-	name="Carlo Tabarelli di Fatis"
-	#dynasty=0
-	religion=catholic culture=italian
-	1528.01.01={birth=yes}  # EST.
-	1552.01.01={add_spouse=lodron_0191}	# Girolama zu Lodron-Laterano u.Castelromano
-	1588.01.01={death=yes}  # EST.
-}
-lowborn_3719={ #            Oswald                    Trapp von Castel Beseno                  (1594-1654)     - [LODRON]
-	name="Oswald Trapp von Castel Beseno"
-	#dynasty=0
-	religion=catholic culture=italian
-	1594.01.01={birth=yes}  # EST.
-	1618.10.04={add_spouse=lodron_0180}	# Isabella zu Lodron-Laterano u.Castelromano
-	1654.01.01={death=yes}  # EST.
-}
-lowborn_3660={ #            Alessandro                Vettori                                  (1498-1558)     - [LODRON]
-	name="Alessandro AFT Vettori"
-	#dynasty=0
-	religion=catholic culture=italian
-	1498.01.01={birth=yes}  # EST.
-	1522.01.01={add_spouse=lodron_0084}	# Tisbe zu Lodron-Laterano u.Castelromano
-	1558.01.01={death=yes}  # EST.
-}
-lowborn_3674={ #            Giulia                    Zanelli                                  (1541-1572)     1 [LODRON]
-	name="Giulia Zanelli"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1541.01.01={birth=yes}  # EST.
-	1572.01.01={death=yes}  # EST.
-}
-lowborn_3734={ #            Julia                     Zanetti                                  (1587-1647)     0 [LODRON]
-	name="Julia Zanetti"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1587.01.01={birth=yes}  # EST.
-	1647.01.01={death=yes}  # EST.
-}
-lowborn_3808={ #            Brigida                   de Bevilacqua-Lazise                     (1680-1740)     5 [LODRON]
+lowborn_3808={ #            Brigida                   de Bevilacqua-Lazise                     (1680-1740)     4 [LODRON]
 	name="Brigida de Bevilacqua-Lazise"
 	female=yes
 	#dynasty=0
@@ -12577,7 +12290,7 @@ lowborn_3808={ #            Brigida                   de Bevilacqua-Lazise      
 	1680.01.01={birth=yes}  # EST.
 	1740.01.01={death=yes}  # EST.
 }
-lowborn_3605={ #            Maria Anna                de Brembati                              (1452-1512)     4 [LODRON]
+lowborn_3605={ #            Maria Anna                de Brembati                              (1452-1512)     2 [LODRON]
 	name="Maria Anna de Brembati"
 	female=yes
 	#dynasty=0
@@ -12593,14 +12306,6 @@ lowborn_3915={ #            Claude                    de Châteauneuf-Randon du 
 	1936.10.05={birth=yes}  # Dun
 	2011.01.01={death=yes}  # EST.
 }
-lowborn_3684={ #            Helena                    de Fontanabona                           (1514-1574)     2 [LODRON]
-	name="Helena de Fontanabona"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1514.01.01={birth=yes}  # EST.
-	1574.01.01={death=yes}  # EST.
-}
 lowborn_3885={ #            Gustav                    de Forestier                             (1844-1904)     - [LODRON]
 	name="Gustav de Forestier"
 	#dynasty=0
@@ -12609,7 +12314,7 @@ lowborn_3885={ #            Gustav                    de Forestier              
 	1868.09.02={add_spouse=lodron_0492}	# Pauline zu Lodron-Laterano u.Castelromano
 	1904.01.01={death=yes}  # EST.
 }
-lowborn_3655={ #            Domitilla                 de Griffoni di Sant'angelo               (1495-1555)     3 [LODRON]
+lowborn_3655={ #            Domitilla                 de Griffoni di Sant'angelo               (1495-1555)     2 [LODRON]
 	name="Domitilla de Griffoni di Sant'angelo"
 	female=yes
 	#dynasty=0
@@ -12625,47 +12330,7 @@ lowborn_3718={ #            Innocenzo                 de Prato                  
 	1591.01.01={add_spouse=lodron_0180}	# Isabella zu Lodron-Laterano u.Castelromano
 	1608.01.01={death=yes}  # EST.
 }
-lowborn_3603={ #            Antonio                   di Castelbarco                           (1442-1502)     - [LODRON]
-	name="Antonio EST di Castelbarco"
-	#dynasty=0
-	religion=catholic culture=italian
-	1442.01.01={birth=yes}  # EST.
-	1466.11.17={add_spouse=lodron_0046}	# Nostra zu Lodron-Laterano u.Castelromano
-	1502.01.01={death=yes}  # EST.
-}
-lowborn_3606={ #            Tomaso                    di Castelbarco                           (1418-1444)     - [LODRON]
-	name="Tomaso di Castelbarco"
-	#dynasty=0
-	religion=catholic culture=italian
-	1418.01.01={birth=yes}  # EST.
-	1442.01.01={add_spouse=lodron_0051}	# Elena zu Lodron-Laterano u.Castelromano
-	1444.01.01={death=yes}  # EST.
-}
-lowborn_3698={ #            Federico                  di Castelbarco                           (1527-1587)     - [LODRON]
-	name="Federico EST di Castelbarco"
-	#dynasty=0
-	religion=catholic culture=italian
-	1527.01.01={birth=yes}  # EST.
-	1551.01.01={add_spouse=lodron_0155}	# Ludovica zu Lodron-Laterano u.Castelromano
-	1587.01.01={death=yes}  # EST.
-}
-lowborn_3723={ #            Eleonora                  di Castelbarco e Gresta                  (1589-1649)     1 [LODRON]
-	name="Eleonora di Castelbarco E Gresta"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1589.01.01={birth=yes}  # EST.
-	1649.01.01={death=yes}  # EST.
-}
-lowborn_3659={ #            Orsola                    di Cles                                  (1514-1574)     1 [LODRON]
-	name="Orsola di Cles"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1514.01.01={birth=yes}  # EST.
-	1574.01.01={death=yes}  # EST.
-}
-lowborn_3604={ #            Diana                     di Collalto                              (1448-1507)     4 [LODRON]
+lowborn_3604={ #            Diana                     di Collalto                              (1448-1507)     2 [LODRON]
 	name="Diana di Collalto"
 	female=yes
 	#dynasty=0
@@ -12673,23 +12338,7 @@ lowborn_3604={ #            Diana                     di Collalto               
 	1448.01.01={birth=yes}  # EST.
 	1507.01.01={death=yes}
 }
-lowborn_3647={ #            Antonio                   di Collalto                              (1483-1543)     - [LODRON]
-	name="Antonio EST di Collalto"
-	#dynasty=0
-	religion=catholic culture=italian
-	1483.01.01={birth=yes}  # EST.
-	1507.01.01={add_spouse=lodron_0071}	# Paola zu Lodron-Laterano u.Castelromano
-	1543.01.01={death=yes}  # EST.
-}
-lowborn_3646={ #            Carlo                     di Correggio                             (1480-1506)     - [LODRON]
-	name="Carlo di Correggio"
-	#dynasty=0
-	religion=catholic culture=italian
-	1480.01.01={birth=yes}  # EST.
-	1504.01.01={add_spouse=lodron_0071}	# Paola zu Lodron-Laterano u.Castelromano
-	1506.01.01={death=yes}  # EST.
-}
-lowborn_3792={ #            Maria Francesca           di Madruzzo                              (1638-1721)     5 [LODRON]
+lowborn_3792={ #            Maria Francesca           di Madruzzo                              (1638-1721)     4 [LODRON]
 	name="Maria Francesca di Madruzzo"
 	female=yes
 	#dynasty=0
@@ -12712,14 +12361,6 @@ lowborn_3846={ #            Vincenzo                  di Prata                  
 	1778.08.06={birth=yes}
 	1791.10.07={add_spouse=lodron_0425}	# Anna Maria zu Lodron-Laterano u.Castelromano
 	1812.06.04={death=yes}
-}
-lowborn_3639={ #            Giovanni Battista         di Prato                                 (1496-1556)     - [LODRON]
-	name="Giovanni Battista di Prato"
-	#dynasty=0
-	religion=catholic culture=italian
-	1496.01.01={birth=yes}  # EST.
-	1520.01.01={add_spouse=lodron_0062}	# Marietta zu Lodron-Laterano u.Castelromano
-	1556.01.01={death=yes}  # EST.
 }
 lowborn_3826={ #            Antonio                   di Sardagna                              (1709-1769)     - [LODRON]
 	name="Antonio di Sardagna"
@@ -12943,4 +12584,156 @@ lowborn_5256={ # Gf         Wilhelm                   Alberti von Enno          
 	1764.11.17={birth=yes}
 	1785.01.10={add_spouse=100024298}	# Maria-Philippina von Thun u.Hohenstein
 	1843.09.11={death=yes}
+}
+lowborn_5371={ #            Giulia                    di Madruzzo                              (1534-1594)     3 [HERBERSTEIN]
+	name="Giulia di Madruzzo"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1534.01.01={birth=yes}  # EST.
+	1594.01.01={death=yes}  # EST.
+}
+lowborn_5587={ #            Maria Nympha              di Napoli-Rosetano                       (1715-1790)     1 [HERBERSTEIN]
+	name="Maria Nympha di Napoli-Rosetano"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1715.01.01={birth=yes}
+	1790.12.01={death=yes}
+}
+lowborn_5364={ #            Margarita                 di Valmarana                             (1570-1645)     2 [HERBERSTEIN]
+	name="Margarita di Valmarana"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1570.01.01={birth=yes}
+	1645.01.01={death=yes}  # EST.
+}
+lowborn_5660={ #            Johann                    Ceschi a Santa Croce                     (1895-1970)     - [HERBERSTEIN]
+	name="Johann Ceschi A Santa Croce"
+	#dynasty=0
+	religion=catholic culture=german
+	1895.08.15={birth=yes}  # Kunzendorf,Silesia
+	1918.10.19={add_spouse=herberstein_0601}	# Johanna von Herberstein
+	1970.09.06={death=yes}  # Solbad Hall, Tirol
+}
+lowborn_5622={ #            Karl                      Caramelli di Castiglione-Faleta          (1715-1775)     - [HERBERSTEIN]
+	name="Karl Caramelli di Castiglione-Faleta"
+	#dynasty=0
+	religion=catholic culture=german
+	1715.01.01={birth=yes}  # EST.
+	1739.01.01={add_spouse=herberstein_0519}	# Maria Anna von Herberstein
+	1775.01.01={death=yes}  # EST.
+}
+lowborn_5467={ #            Ottone Enrico             Carretto di Grana                        (1629-1685)     - [HERBERSTEIN]
+	name="Ottone Enrico Carretto di Grana"
+	#dynasty=0
+	religion=catholic culture=german
+	1629.01.01={birth=yes}
+	1669.01.01={add_spouse=herberstein_0276}	# Maria Theresia von Herberstein
+	1685.06.15={death=yes}  # Mariemont,Hainaut
+}
+lowborn_3602={ #            Antonina                  Faa di Bruno                             (1823-1902)     3 [APIANI]
+	name="Antonina dau.of Faa di Bruno"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1823.01.01={birth=yes}  # Alessandria
+	1902.02.28={death=yes}  # Turin
+}
+lowborn_3598={ #            Flaminia                  Lupi di Moirano e Montalto               (1813-1842)     2 [APIANI]
+	name="Flaminia dau.of Lupi di Moirano e Montalto"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1813.01.01={birth=yes}  # Acqui
+	1842.02.02={death=yes}  # Turin
+}
+lowborn_3641={ # Nobile     Avvocato Carlo            Fresia                                   (1708-1750)     - [APIANI]
+	name="Nobile Carlo Avvocato Fresia"
+	#dynasty=0
+	religion=catholic culture=italian
+	1708.01.01={birth=yes}  # EST.
+	1733.01.01={add_spouse=appiani_0022}	# Elena Gioconda Appiani
+	1750.01.01={death=yes}
+}
+lowborn_2986={ #            Anna                      Caterina                                 (1610-1631)     0 [APIANI]
+	name="Anna Caterina"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1610.01.01={birth=yes}  # EST.
+	1631.01.01={death=yes}  # EST.
+}
+lowborn_1874={ #            Giacinta Filiberta        de Millet                                (1611-1686)     3 [APIANI]
+	name="Giacinta Filiberta"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1611.01.01={birth=yes}  # EST.
+	1686.01.01={death=yes}  # EST.
+}
+lowborn_2342={ #            Gaspara Maria             di Saluzzo                               (1642-1717)     2 [APIANI]
+	name="Gaspara Maria"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1642.01.01={birth=yes}  # EST.
+	1717.01.01={death=yes}  # EST.
+}
+lowborn_3443={ #            Felicita                  Scotti Boschis                           (1776-1837)     1 [APIANI]
+	name="Felicita dau.of Nobile Scotti Boschis"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1776.01.01={birth=yes}  # Turin
+	1837.01.01={death=yes}  # Turin
+}
+lowborn_3079={ #            Tommasina                 del Carretto                             (1618-1687)     6 [APIANI]
+	name="Tommasina dau.of del Carretto di Gorzegno Consignore di Torre Bormida e Bergolo"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1618.01.01={birth=yes}  # Gorzegno
+	1687.01.01={death=yes}  # Turin
+}
+lowborn_1078={ #            Caterina                  he had issue:                            (1585-1660)     2 [APIANI]
+	name="Caterina he had issue:"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1585.01.01={birth=yes}  # EST.
+	1660.01.01={death=yes}  # EST.
+}
+lowborn_3080={ #            Giovanna                  Rabino di Bosia                          (1643-1718)     1 [APIANI]
+	name="Giovanna Rabino Signore di Bosia"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1643.01.01={birth=yes}  # EST.
+	1718.01.01={death=yes}  # EST.
+}
+lowborn_3147={ #            Margherita                Corte di Bonvicino                       (1690-1765)     3 [APIANI]
+	name=Margherita
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1690.01.01={birth=yes}  # EST.
+	1765.01.01={death=yes}  # EST.
+}
+lowborn_3188={ #            Marianna                  Savarola                                 (1743-1818)     1 [APIANI]
+	name=Marianna
+	female=yes
+	#dynasty=0
+	religion=catholic culture=italian
+	1743.01.01={birth=yes}  # EST.
+	1818.01.01={death=yes}  # EST.
+}
+lowborn_8230={ # Donna      Catarina                  Imperiali                                (1926-2018)     0 [BOYLE]
+	name="Catarina Imperiali"
+	female=yes
+	#dynasty=0
+	religion=anglican culture=english
+	1926.05.29={birth=yes}
+	2018.03.20={death=yes}
 }

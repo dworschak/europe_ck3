@@ -50,6 +50,125 @@
 #########################################################################################################
 
 
+#### MINOR ####
+## MEYENDORFF
+meyendorff_0001={ #// Feofil Meyendorff (*10.4.1858, +Moscow 18.10.1939); m.10.4.1877 Elena Pavlovna Šuvalov (*8.6.1857, +Vienna 18.1.1943) %%
+	name="Феофил"
+	dynasty=meyendorff
+	religion=orthodox culture=russian
+	1858.04.10={birth=yes}
+	1877.04.10={add_spouse=100018577}	# Елена Павловна Шувалов
+	1939.10.18={death=yes}  # Moscow
+}
+	meyendorff_0002={ #// A1. Ol'ga Feofilovna (*4.1.1878, +Rome 1.6.1959); m.26.8.1899 Vasilij Petrovič Orlov-Denisov (*22.11.1876, +k.by Bolsheviks at Novotsherkask 1918) %%
+		name="Ольга"
+		female=yes
+		dynasty=meyendorff
+		religion=orthodox culture=russian
+		father=meyendorff_0001	# Феофил Meyendorff
+		mother=100018577	# Елена Павловна Шувалов
+		1878.01.04={birth=yes}
+		1959.06.01={death=yes}  # Rome
+	}
+	meyendorff_0003={ #// A2. Elena Feofilovna (*St.Petersburg 8.3.1881, +Rome 22.3.1966); m.27.4.1900 Pëtr Sergeevič Šeremetev (*29.1.1876, +Moscow 28.5.1914) %%
+		name="Елена"
+		female=yes
+		dynasty=meyendorff
+		religion=orthodox culture=russian
+		father=meyendorff_0001	# Феофил Meyendorff
+		mother=100018577	# Елена Павловна Шувалов
+		1881.03.08={birth=yes}  # St.Petersburg
+		1966.03.22={death=yes}  # Rome
+	}
+	meyendorff_0004={ #// A3. Fëkla Feofilovna (*4.7.1893, +Nyack, NY, USA 6.10.1982); m.1918 Aleksej Sergeevič Lopuchin (*16.1.1882, +Nyack, NY, USA 15.10.1966) %%
+		name="Фёкла"
+		female=yes
+		dynasty=meyendorff
+		religion=orthodox culture=russian
+		father=meyendorff_0001	# Феофил Meyendorff
+		mother=100018577	# Елена Павловна Шувалов
+		1893.07.04={birth=yes}
+		1982.10.06={death=yes}  # Nyack, NY, USA
+	}
+## MEYENDORFF
+
+## MILOSLAVSKIJ 1010081
+miloslavsky_0001={ #// Ilja Miloslavskij (+27 Dec 1645); m.Ekaterina Fedorovna Narbekova
+	name=Илья
+	dynasty=1010081
+	religion=orthodox culture=russian
+	1617.01.01={birth=yes}	# EST.
+	1645.12.27={death=yes}
+}
+	# Anna Ilyinichna Miloslavskaya (? - 1667), seit 1648 Ehefrau des Bojaren Boris Ivanovich Morozov (1590-1662)
+	miloslavsky_0003={ #// A2. Ekaterina Ilinična; m.1649 Fëdor Lvovič Volkonskij $$
+		name=Екатерина
+		female=yes
+		dynasty=1010081
+		religion=orthodox culture=russian
+		father=miloslavsky_0001	# Илья Милославский
+		1615.01.01={birth=yes}	# EST.
+		1670.01.01={death=yes}	# EST.
+	}
+	miloslavsky_0004={ #// A3. Irina Ilinična (+27 Dec 1645); m.1637 Dmitrij Alekseevič Dolgorukij (*1613, +7 Nov 1673) $$
+		name=Ирина
+		female=yes
+		dynasty=1010081
+		religion=orthodox culture=russian
+		father=miloslavsky_0001	# Илья Милославский
+		1617.01.01={birth=yes}	# EST.
+		1645.12.27={death=yes}
+	}
+	miloslavsky_0005={ #// A4. Marija Ilinična (+3 Mar 1699); m.26 Jan 1648 Aleksej Michajlovič Romanov (*20 Mar 1629, +8 Feb 1676) $$
+		name=Мария
+		female=yes
+		dynasty=1010081
+		religion=orthodox culture=russian
+		father=miloslavsky_0001	# Илья Милославский
+		1625.01.01={birth=yes}	# EST.
+		1699.03.03={death=yes}
+	}
+## MILOSLAVSKIJ 1010081
+
+## SHAFIROV 1010022
+100035067={ #// Petr Šafirov (*1669, +St. Petersburg 1.3.1739) %%
+	name=Petr
+	dynasty=1010022
+	religion=orthodox culture=russian
+	1669.01.01={birth=yes}
+	1739.03.01={death=yes}	# St. Petersburg
+}	
+	100035089={ #// A1. Anna; m.1720 Aleksej Matveevič Gagarin (*1695) %%
+		name=Anna
+		female=yes
+		dynasty=1010022
+		religion=orthodox culture=russian
+		father=100035067	# Petr Шафиров
+		1694.01.01={birth=yes}	# EST.
+		1760.01.01={death=yes}	# EST.
+	}
+	100036822={ #// A3. Marija; m.1745 Michail Michajlovič Saltykov (*1720, +1787) %%
+		name=Maria
+		female=yes
+		dynasty=1010022
+		religion=orthodox culture=russian
+		father=100035067	# Petr Шафиров
+		1715.01.01={birth=yes}	# EST.
+		1760.01.01={death=yes}	# EST.
+	}
+	100036823={ #// A2. Marfa (*1697, +1760); m.1726 Sergej Grigor'evič Dolgorukij (*1686, +26.11.1739) %%
+		name=Marfa
+		female=yes
+		dynasty=1010022
+		religion=orthodox culture=russian
+		father=100035067	# Petr Шафиров
+		1697.01.01={birth=yes}
+		1760.01.01={death=yes}
+	}
+## SHAFIROV 1010022
+#### MINOR ####
+
+
 ## KHOVANSKI Хованский 1010049 http://w.genealogy.euweb.cz/russia/khovan.html
 #khovan
 100015098={ #// Pr Vasily Fyodorovich Khovanski
@@ -4431,14 +4550,14 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 				1875.01.01={add_spouse=100015737}	# Анастасия Григорьевна Гагарин
 				1881.01.26={death=yes}
 			}
-				100015052={ #// 1d) Wassili (22 Nov 1876-k.by Bolsheviks at Novotsherkask 1918); m.26 Aug 1899 Olga Frn von Meyendorff (4 Jan 1878-Rome Jun 1959)
+				100015052={ #// 1d) Wassili (22 Nov 1876-k.by Bolsheviks at Novotsherkask 1918); m.26 Aug 1899 Olga Frn von Meyendorff (4 Jan 1878-Rome Jun 1959) $$
 					name=Василий
 					dynasty_house=orlov_denisov
 					religion=orthodox culture=russian
 					father=100015053	# Пётр Михайлович Орлов-Денисов
 					mother=100015737	# Анастасия Григорьевна Гагарин
 					1876.11.22={birth=yes}
-					1899.08.26={add_spouse=100085578}	# FRN Olga von Meyendorff
+					1899.08.26={add_spouse=meyendorff_0002}	# Ольга Феофиловна Meyendorff
 					1918.01.01={death=yes}  # k.by Bolsheviks at Novotsherkask
 				}
 					100015051={ #// 1e) Pjotr (15 Oct 1900-k.at Novotsherkask 1918)
@@ -4446,7 +4565,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						dynasty_house=orlov_denisov
 						religion=orthodox culture=russian
 						father=100015052	# Василий Петрович Орлов-Денисов
-						mother=100085578	# FRN Olga von Meyendorff
+						mother=meyendorff_0002	# Ольга Феофиловна Meyendorff
 						1900.10.15={birth=yes}
 						1918.01.01={death=yes}  # k.at Novotsherkask
 					}
@@ -4455,7 +4574,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						dynasty_house=orlov_denisov
 						religion=orthodox culture=russian
 						father=100015052	# Василий Петрович Орлов-Денисов
-						mother=100085578	# FRN Olga von Meyendorff
+						mother=meyendorff_0002	# Ольга Феофиловна Meyendorff
 						1901.01.01={birth=yes}
 						1921.01.01={death=yes}  # missing
 					}
@@ -4464,7 +4583,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						dynasty_house=orlov_denisov
 						religion=orthodox culture=russian
 						father=100015052	# Василий Петрович Орлов-Денисов
-						mother=100085578	# FRN Olga von Meyendorff
+						mother=meyendorff_0002	# Ольга Феофиловна Meyendorff
 						1903.06.01={birth=yes}  # Reval
 						1934.04.09={add_spouse=100017872}	# Мария Петровна Шереметев
 						1965.08.24={death=yes}  # Rome
@@ -11848,7 +11967,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							1877.01.07={add_spouse=100090207}	# Мария Александровна Komarov-Lukash
 							1908.04.07={death=yes}  # Yalta
 						}
-							100018577={ #// G4. [1m.] Css Elena, *8.6.1857, +Vienna 18.1.1943; m.Sankt Petersburg 10.4.1877 Theophil Frhr von Meyendorff (*10.4.1858, +Moscow 18.10.1939)
+							100018577={ #// G4. [1m.] Css Elena, *8.6.1857, +Vienna 18.1.1943; m.Sankt Petersburg 10.4.1877 Theophil Frhr von Meyendorff (*10.4.1858, +Moscow 18.10.1939) $$
 								name=Елена
 								female=yes
 								dynasty=1010033
@@ -12869,14 +12988,14 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 											1873.08.29={birth=yes}
 											1949.01.01={death=yes}  # Vladimir
 										}
-										100017850={ #// 4j) Pjotr (29 Jan 1876-Moscow 28 May 1914); m.27 Apr 1900 Jelena Frn von Meyendorff (St.Petersburg 8 Mar 1881-Rome 22 Mar 1966)
+										100017850={ #// 4j) Pjotr (29 Jan 1876-Moscow 28 May 1914); m.27 Apr 1900 Jelena Frn von Meyendorff (St.Petersburg 8 Mar 1881-Rome 22 Mar 1966) $$
 											name=Пётр
 											dynasty=1010012
 											religion=orthodox culture=russian
 											father=100016438	# Сергей Дмитриевич Шереметев
 											mother=vjazemsky_0076	# Екатерина Павловна Вяземский
 											1876.01.29={birth=yes}
-											1900.04.27={add_spouse=100101762}	# FRN Елена von Meyendorff
+											1900.04.27={add_spouse=meyendorff_0003}	# Елена Феофиловна Meyendorff
 											1914.05.28={death=yes}  # Moscow
 										}
 											100017862={ #// 1k) Boris (St.Petersburg 18 Jul 1901-Mystic, Connecticut 11 Nov 1987); m.1924 Vera Gfn von Mengden (St.Petersburg 16 Dec 1901-Mystic 27 Apr 1993)
@@ -12884,7 +13003,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 												dynasty=1010012
 												religion=orthodox culture=russian
 												father=100017850	# Пётр Сергеевич Шереметев
-												mother=100101762	# FRN Елена von Meyendorff
+												mother=meyendorff_0003	# Елена Феофиловна Meyendorff
 												1901.07.18={birth=yes}  # St.Petersburg
 												1924.01.01={add_spouse=100101763}	# GFN Vera von Mengden
 												1987.11.11={death=yes}  # Mystic Connecticut
@@ -12904,7 +13023,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 												dynasty=1010012
 												religion=orthodox culture=russian
 												father=100017850	# Пётр Сергеевич Шереметев
-												mother=100101762	# FRN Елена von Meyendorff
+												mother=meyendorff_0003	# Елена Феофиловна Meyendorff
 												1903.03.25={birth=yes}  # Moscow
 												1928.01.01={add_spouse=100101765}	# Cecilia Vallerchtein
 												1944.05.01={death=yes}  # k.12
@@ -12915,7 +13034,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 												dynasty=1010012
 												religion=orthodox culture=russian
 												father=100017850	# Пётр Сергеевич Шереметев
-												mother=100101762	# FRN Елена von Meyendorff
+												mother=meyendorff_0003	# Елена Феофиловна Meyendorff
 												1904.02.14={birth=yes}  # Moscow
 												1992.04.13={death=yes}  # Moscow
 											}
@@ -12925,7 +13044,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 												dynasty=1010012
 												religion=orthodox culture=russian
 												father=100017850	# Пётр Сергеевич Шереметев
-												mother=100101762	# FRN Елена von Meyendorff
+												mother=meyendorff_0003	# Елена Феофиловна Meyendorff
 												1906.03.16={birth=yes}  # Mikhailovskoie
 												1965.03.06={death=yes}  # Casablanca
 											}
@@ -12934,7 +13053,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 												dynasty=1010012
 												religion=orthodox culture=russian
 												father=100017850	# Пётр Сергеевич Шереметев
-												mother=100101762	# FRN Елена von Meyendorff
+												mother=meyendorff_0003	# Елена Феофиловна Meyendorff
 												1908.04.24={birth=yes}  # Krasnoie Selo
 												1930.11.21={add_spouse=100101768}	# Марина Дмитриевна Levchin
 												1972.04.12={death=yes}  # Rabat
@@ -12984,7 +13103,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 												dynasty=1010012
 												religion=orthodox culture=russian
 												father=100017850	# Пётр Сергеевич Шереметев
-												mother=100101762	# FRN Елена von Meyendorff
+												mother=meyendorff_0003	# Елена Феофиловна Meyendorff
 												1910.10.20={birth=yes}  # St.Petersburg
 												1971.11.14={death=yes}  # Rabat
 											}
@@ -12993,7 +13112,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 												dynasty=1010012
 												religion=orthodox culture=russian
 												father=100017850	# Пётр Сергеевич Шереметев
-												mother=100101762	# FRN Елена von Meyendorff
+												mother=meyendorff_0003	# Елена Феофиловна Meyendorff
 												1912.04.17={birth=yes}  # Sankt Petersburg
 												1940.03.05={add_spouse=100012633}	# Catherine von Lieven
 												1955.01.01={remove_spouse=100012633}
@@ -13107,7 +13226,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 													father=100017883	# Александр Юрьевич Шереметев
 													mother=100101787	# Марина Matazov
 													1945.06.29={birth=yes}  # Neuilly
-													1970.01.01={add_spouse=100101788}	# Вера Smirnov
+													1970.01.01={add_spouse=100101788}	# Вера Смирнов
 													1982.01.01={remove_spouse=100101788}
 													1983.01.01={add_spouse=100101789}	# Мария Revutsky
 												}
@@ -13116,7 +13235,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 														dynasty=1010012
 														religion=orthodox culture=russian
 														father=100017884	# Георгий Александрович Шереметев
-														mother=100101788	# Вера Smirnov
+														mother=100101788	# Вера Смирнов
 														1972.01.01={birth=yes}
 													}
 													100017886={ #// 2n) Ariadne (b.1974)
@@ -13125,7 +13244,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 														dynasty=1010012
 														religion=orthodox culture=russian
 														father=100017884	# Георгий Александрович Шереметев
-														mother=100101788	# Вера Smirnov
+														mother=100101788	# Вера Смирнов
 														1974.01.01={birth=yes}
 													}
 													100017887={ #// 3n) Tamara (b.1976)
@@ -13134,7 +13253,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 														dynasty=1010012
 														religion=orthodox culture=russian
 														father=100017884	# Георгий Александрович Шереметев
-														mother=100101788	# Вера Smirnov
+														mother=100101788	# Вера Смирнов
 														1976.01.01={birth=yes}
 													}
 													100017888={ #// 4n) Nicholas (b.1989)
@@ -15986,22 +16105,22 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 														1880.10.19={birth=yes}  # Moskwa
 														1942.07.14={death=yes}  # Lutsino
 													}
-													100018253={ #// 3m) Aleksei (16 Jan 1882-Nyack NY 15 Oct 1966); m.1918 Bss Thekla Meyendorff (4 Jul 1893-Nyack 6 Oct 1982)
+													100018253={ #// 3m) Aleksei (16 Jan 1882-Nyack NY 15 Oct 1966); m.1918 Bss Thekla Meyendorff (4 Jul 1893-Nyack 6 Oct 1982) $$
 														name=Алексей
 														dynasty=1010020
 														religion=orthodox culture=russian
 														father=100018231	# Сергей Алексеевич Лопухин
 														mother=100097921	# CSS Александра Павловна Baranev
 														1882.01.16={birth=yes}
-														1918.01.01={add_spouse=100097936}	# BSS Thekla von Meyendorff
-														1966.10.15={death=yes}  # Nyack NY
+														1918.01.01={add_spouse=meyendorff_0004}	# Фёкла Феофиловна Meyendorff
+														1966.10.15={death=yes}  # Nyack, NY, USA
 													}
 														100018254={ #// 1n) Sergei
 															name=Сергей
 															dynasty=1010020
 															religion=orthodox culture=russian
 															father=100018253	# Алексей Сергеевич Лопухин
-															mother=100097936	# BSS Thekla von Meyendorff
+															mother=meyendorff_0004	# Фёкла Феофиловна Meyendorff
 															1919.01.01={birth=yes}  # EST.
 															1994.01.01={death=yes}
 														}
@@ -16010,7 +16129,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 															dynasty=1010020
 															religion=orthodox culture=russian
 															father=100018253	# Алексей Сергеевич Лопухин
-															mother=100097936	# BSS Thekla von Meyendorff
+															mother=meyendorff_0004	# Фёкла Феофиловна Meyendorff
 															1921.01.01={birth=yes}
 															1997.01.01={death=yes}  # EST.
 														}
@@ -16019,7 +16138,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 															dynasty=1010020
 															religion=orthodox culture=russian
 															father=100018253	# Алексей Сергеевич Лопухин
-															mother=100097936	# BSS Thekla von Meyendorff
+															mother=meyendorff_0004	# Фёкла Феофиловна Meyendorff
 															1923.01.01={birth=yes}
 															1948.01.01={add_spouse=100097937}	# Елизавета Jakovlevich
 															1999.01.01={death=yes}  # EST.
@@ -16065,7 +16184,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 															dynasty=1010020
 															religion=orthodox culture=russian
 															father=100018253	# Алексей Сергеевич Лопухин
-															mother=100097936	# BSS Thekla von Meyendorff
+															mother=meyendorff_0004	# Фёкла Феофиловна Meyendorff
 															1926.01.01={birth=yes}  # EST.
 															2003.01.01={death=yes}  # EST.
 														}
@@ -16075,7 +16194,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 															dynasty=1010020
 															religion=orthodox culture=russian
 															father=100018253	# Алексей Сергеевич Лопухин
-															mother=100097936	# BSS Thekla von Meyendorff
+															mother=meyendorff_0004	# Фёкла Феофиловна Meyendorff
 															1926.01.01={birth=yes}
 															2003.01.01={death=yes}  # EST.
 														}
@@ -16085,7 +16204,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 															dynasty=1010020
 															religion=orthodox culture=russian
 															father=100018253	# Алексей Сергеевич Лопухин
-															mother=100097936	# BSS Thekla von Meyendorff
+															mother=meyendorff_0004	# Фёкла Феофиловна Meyendorff
 															1928.01.01={birth=yes}
 															2005.01.01={death=yes}  # EST.
 														}
@@ -23028,7 +23147,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 				father=100017399	# Василий Сергеевич Трубецкой
 				mother=100093409	# Sophia Marianna von Weiß
 				1822.06.17={birth=yes}
-				1847.01.01={add_spouse=100090328}	# София Николаевна Smirnov
+				1847.01.01={add_spouse=100090328}	# София Николаевна Смирнов
 				1881.01.20={death=yes}
 			}
 				100017412={ #// 1f) Wassili (1856-1920); m.1883 Pss Anna Akimovna Abamelek (1858-3 Dec 1914)
@@ -23036,7 +23155,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 					dynasty=1010004
 					religion=orthodox culture=russian
 					father=100017411	# Андрей Васильевич Трубецкой
-					mother=100090328	# София Николаевна Smirnov
+					mother=100090328	# София Николаевна Смирнов
 					1856.01.01={birth=yes}
 					1883.01.01={add_spouse=100080003}	# PSS Анна Akimovna Abamelek
 					1920.01.01={death=yes}
@@ -23066,7 +23185,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 					dynasty=1010004
 					religion=orthodox culture=russian
 					father=100017411	# Андрей Васильевич Трубецкой
-					mother=100090328	# София Николаевна Smirnov
+					mother=100090328	# София Николаевна Смирнов
 					1857.08.05={birth=yes}
 					1899.01.18={add_spouse=100088231}	# Isolina Moreno
 					1915.11.15={death=yes}
@@ -23166,7 +23285,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 					dynasty=1010004
 					religion=orthodox culture=russian
 					father=100017411	# Андрей Васильевич Трубецкой
-					mother=100090328	# София Николаевна Smirnov
+					mother=100090328	# София Николаевна Смирнов
 					1861.08.04={birth=yes}
 					1922.01.01={add_spouse=100083914}	# MARCHESE Carolina Flori di Serramezzana
 					1923.06.08={death=yes}
@@ -23466,7 +23585,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 				father=100017452	# Юрий Иванович Трубецкой
 				mother=100088237	# Ольга Федоровна Morin
 				1841.11.30={birth=yes}
-				1861.04.19={add_spouse=100092686}	# FRN Olga von Meyendorff
+				1861.04.19={add_spouse=100092686}	# FRN Ольга Meyendorff
 				1915.06.09={death=yes}
 			}
 				100017457={ #// 1f) Olga (5 Feb 1863-Lardy 15 Jun 1940); m.Paris 19 Jan 1885 Ct Georgi Bobrinsky (d.7 Mar 1928) $$
@@ -23475,7 +23594,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 					dynasty=1010004
 					religion=orthodox culture=russian
 					father=100017456	# Иван Юрьевич Трубецкой
-					mother=100092686	# FRN Olga von Meyendorff
+					mother=100092686	# FRN Ольга Meyendorff
 					1863.02.05={birth=yes}
 					1940.06.15={death=yes}
 				}
@@ -23484,7 +23603,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 					dynasty=1010004
 					religion=orthodox culture=russian
 					father=100017456	# Иван Юрьевич Трубецкой
-					mother=100092686	# FRN Olga von Meyendorff
+					mother=100092686	# FRN Ольга Meyendorff
 					1866.10.27={birth=yes}
 					1889.07.09={add_spouse=100015351}	# Мария Александровна Долгорукий
 					1926.12.27={death=yes}
@@ -25221,7 +25340,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 		name=Семён
 		dynasty=100397
 		religion=orthodox culture=russian
-		father=romanov_0001	# Андрей Романов
+		father=romanov_0001	# Андрей Romanov
 		1303.01.01={birth=yes}  # EST.
 		1363.12.01={death=yes}  # EST.
 	}
@@ -25229,7 +25348,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 		name=Александр
 		dynasty=100397
 		religion=orthodox culture=russian
-		father=romanov_0001	# Андрей Романов
+		father=romanov_0001	# Андрей Romanov
 		1303.01.01={birth=yes}  # EST.
 		1363.12.01={death=yes}  # EST.
 	}
@@ -25237,7 +25356,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 		name=Василий
 		dynasty=100397
 		religion=orthodox culture=russian
-		father=romanov_0001	# Андрей Романов
+		father=romanov_0001	# Андрей Romanov
 		1303.01.01={birth=yes}  # EST.
 		1363.12.01={death=yes}  # EST.
 	}
@@ -25245,7 +25364,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 		name=Гаврила
 		dynasty=100397
 		religion=orthodox culture=russian
-		father=romanov_0001	# Андрей Романов
+		father=romanov_0001	# Андрей Romanov
 		1303.01.01={birth=yes}  # EST.
 		1363.12.01={death=yes}  # EST.
 	}
@@ -25257,7 +25376,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 		name=Фёдор
 		dynasty=100397
 		religion=orthodox culture=russian
-		father=romanov_0001	# Андрей Романов
+		father=romanov_0001	# Андрей Romanov
 		1337.01.01={birth=yes}  # EST.
 		1407.01.01={death=yes}
 	}
@@ -25265,7 +25384,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 			name=Иван
 			dynasty=100397
 			religion=orthodox culture=russian
-			father=romanov_0006	# Фёдор Романов
+			father=romanov_0006	# Фёдор Romanov
 			1362.01.01={birth=yes}  # EST.
 			1428.01.01={death=yes}
 		}
@@ -25273,7 +25392,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 				name=Иван
 				dynasty=100397
 				religion=orthodox culture=russian
-				father=romanov_0007	# Иван Фёдорович Романов
+				father=romanov_0007	# Иван Фёдорович Romanov
 				1392.01.01={birth=yes}  # EST.
 				1462.01.01={death=yes}
 			}
@@ -25282,7 +25401,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 					female=yes
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=romanov_0008	# Иван Иванович Романов
+					father=romanov_0008	# Иван Иванович Romanov
 					1418.01.01={birth=yes}  # EST.
 					1478.12.01={death=yes}  # EST.
 				}
@@ -25291,7 +25410,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 					female=yes
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=romanov_0008	# Иван Иванович Романов
+					father=romanov_0008	# Иван Иванович Romanov
 					1418.01.01={birth=yes}  # EST.
 					1478.12.01={death=yes}  # EST.
 				}
@@ -25299,7 +25418,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 				name=Фёдор
 				dynasty=100397
 				religion=orthodox culture=russian
-				father=romanov_0007	# Иван Фёдорович Романов
+				father=romanov_0007	# Иван Фёдорович Romanov
 				1387.01.01={birth=yes}  # EST.
 				1447.12.01={death=yes}  # EST.
 			}
@@ -25307,7 +25426,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 				name=Яков
 				dynasty=100397
 				religion=orthodox culture=russian
-				father=romanov_0007	# Иван Фёдорович Романов
+				father=romanov_0007	# Иван Фёдорович Romanov
 				1387.01.01={birth=yes}  # EST.
 				1447.12.01={death=yes}  # EST.
 			}
@@ -25316,7 +25435,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 					female=yes
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=romanov_0012	# Яков Иванович Романов
+					father=romanov_0012	# Яков Иванович Romanov
 					1413.01.01={birth=yes}  # EST.
 					1473.12.01={death=yes}  # EST.
 				}
@@ -25325,7 +25444,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 					female=yes
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=romanov_0012	# Яков Иванович Романов
+					father=romanov_0012	# Яков Иванович Romanov
 					1415.01.01={birth=yes}  # EST.
 					1481.01.01={death=yes}  # EST.
 				}
@@ -25333,7 +25452,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 				name=Zakhariy
 				dynasty=100397
 				religion=orthodox culture=russian
-				father=romanov_0007	# Иван Фёдорович Романов
+				father=romanov_0007	# Иван Фёдорович Romanov
 				1391.01.01={birth=yes}  # EST.
 				1461.01.01={death=yes}
 			}
@@ -25341,7 +25460,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 					name=Яков
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=romanov_0015	# Zakhariy Иванович Романов
+					father=romanov_0015	# Zakhariy Иванович Romanov
 					1440.01.01={birth=yes}  # EST.
 					1510.01.01={death=yes}
 				}
@@ -25349,7 +25468,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 						name=Пётр
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=romanov_0016	# Яков Романов
+						father=romanov_0016	# Яков Romanov
 						1465.01.01={birth=yes}  # EST.
 						1533.01.01={death=yes}
 					}
@@ -25357,7 +25476,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Григорий
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0017	# Пётр Яковлевич Романов
+							father=romanov_0017	# Пётр Яковлевич Romanov
 							1515.01.01={birth=yes}  # EST.
 							1550.01.01={death=yes}
 						}
@@ -25365,7 +25484,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Zakhary
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0017	# Пётр Яковлевич Романов
+							father=romanov_0017	# Пётр Яковлевич Romanov
 							1516.01.01={birth=yes}  # EST.
 							1555.01.01={death=yes}
 						}
@@ -25373,7 +25492,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Иван
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0017	# Пётр Яковлевич Романов
+							father=romanov_0017	# Пётр Яковлевич Romanov
 							1517.01.01={birth=yes}  # EST.
 							1541.01.01={add_spouse=lowborn_1401}	# Степанида Фёдоровна Sukin
 							1571.01.01={death=yes}  # d
@@ -25382,7 +25501,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Иван
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0020	# Иван Петрович Романов
+								father=romanov_0020	# Иван Петрович Romanov
 								mother=lowborn_1401	# Степанида Фёдоровна Sukin
 								1542.01.01={birth=yes}  # EST.
 								1602.12.01={death=yes}  # EST.
@@ -25391,7 +25510,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Василий
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0017	# Пётр Яковлевич Романов
+							father=romanov_0017	# Пётр Яковлевич Romanov
 							1518.01.01={birth=yes}  # EST.
 							1572.01.01={death=yes}
 						}
@@ -25399,7 +25518,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Protasy
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0022	# Василий Петрович Романов
+								father=romanov_0022	# Василий Петрович Romanov
 								1543.01.01={birth=yes}  # EST.
 								1571.01.01={death=yes}
 							}
@@ -25408,7 +25527,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							female=yes
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0017	# Пётр Яковлевич Романов
+							father=romanov_0017	# Пётр Яковлевич Romanov
 							1519.01.01={birth=yes}  # EST.
 							1561.01.01={death=yes}
 						}
@@ -25416,7 +25535,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 						name=Василий
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=romanov_0016	# Яков Романов
+						father=romanov_0016	# Яков Romanov
 						1465.01.01={birth=yes}  # EST.
 						1526.01.01={death=yes}
 					}
@@ -25424,7 +25543,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Михаил
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0025	# Василий Яковлевич Романов
+							father=romanov_0025	# Василий Яковлевич Romanov
 							1523.01.01={birth=yes}  # EST.
 							1578.01.01={death=yes}
 						}
@@ -25432,7 +25551,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Симеон
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0025	# Василий Яковлевич Романов
+							father=romanov_0025	# Василий Яковлевич Romanov
 							1525.01.01={birth=yes}  # EST.
 							1568.01.01={death=yes}  # d
 						}
@@ -25441,7 +25560,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0027	# Симеон Васильевич Романов
+								father=romanov_0027	# Симеон Васильевич Romanov
 								1551.01.01={birth=yes}  # EST.
 								1570.01.01={death=yes}
 							}
@@ -25449,7 +25568,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 					name=Юрий
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=romanov_0015	# Zakhariy Иванович Романов
+					father=romanov_0015	# Zakhariy Иванович Romanov
 					1434.01.01={birth=yes}  # EST.
 					1471.01.01={add_spouse=lowborn_1411}	# Ирина Ивановна Tuchkova
 					1504.01.01={death=yes}
@@ -25458,7 +25577,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 						name=Василий
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=romanov_0029	# Юрий Романов
+						father=romanov_0029	# Юрий Romanov
 						mother=lowborn_1411	# Ирина Ивановна Tuchkova
 						1473.01.01={birth=yes}  # EST.
 						1498.07.15={death=yes}
@@ -25467,7 +25586,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 						name=Михаил
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=romanov_0029	# Юрий Романов
+						father=romanov_0029	# Юрий Romanov
 						mother=lowborn_1411	# Ирина Ивановна Tuchkova
 						1471.01.01={birth=yes}  # EST.
 						1538.01.01={death=yes}
@@ -25476,7 +25595,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Иван
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0031	# Михаил Юрьевич Романов
+							father=romanov_0031	# Михаил Юрьевич Romanov
 							1497.01.01={birth=yes}  # EST.
 							1546.01.01={death=yes}
 						}
@@ -25484,7 +25603,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Василий
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0031	# Михаил Юрьевич Романов
+							father=romanov_0031	# Михаил Юрьевич Romanov
 							1499.01.01={birth=yes}  # EST.
 							1524.01.01={add_spouse=lowborn_1421}	# PSS Анастасия Дмитриевна Бельский
 							1567.04.03={death=yes}
@@ -25493,7 +25612,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Иван
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0033	# Василий Михайлович Романов
+								father=romanov_0033	# Василий Михайлович Romanov
 								mother=lowborn_1421	# PSS Анастасия Дмитриевна Бельский
 								1525.01.01={birth=yes}  # EST.
 								1571.01.01={death=yes}
@@ -25502,7 +25621,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Фёдор
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0033	# Василий Михайлович Романов
+								father=romanov_0033	# Василий Михайлович Romanov
 								mother=lowborn_1421	# PSS Анастасия Дмитриевна Бельский
 								1526.01.01={birth=yes}  # EST.
 								1571.01.01={death=yes}
@@ -25511,7 +25630,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Protasy
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0033	# Василий Михайлович Романов
+								father=romanov_0033	# Василий Михайлович Romanov
 								mother=lowborn_1421	# PSS Анастасия Дмитриевна Бельский
 								1527.01.01={birth=yes}  # EST.
 								1575.01.01={death=yes}  # d
@@ -25520,7 +25639,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 						name=Иван
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=romanov_0029	# Юрий Романов
+						father=romanov_0029	# Юрий Romanov
 						mother=lowborn_1411	# Ирина Ивановна Tuchkova
 						1475.01.01={birth=yes}  # EST.
 						1502.07.06={death=yes}
@@ -25530,7 +25649,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							female=yes
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0037	# Иван Юрьевич Романов
+							father=romanov_0037	# Иван Юрьевич Romanov
 							1498.01.01={birth=yes}  # EST.
 							1522.03.02={death=yes}
 						}
@@ -25538,7 +25657,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 						name=Roman
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=romanov_0029	# Юрий Романов
+						father=romanov_0029	# Юрий Romanov
 						mother=lowborn_1411	# Ирина Ивановна Tuchkova
 						1481.01.01={birth=yes}  # EST.
 						1531.01.01={add_spouse=lowborn_1442}	# Ульяна Ivanovna
@@ -25549,7 +25668,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							female=yes
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0039	# Роман Юрьевич Романов
+							father=romanov_0039	# Роман Юрьевич Romanov
 							1530.01.01={birth=yes}
 							1560.08.07={death=yes}  # Kolomenskoe
 						}
@@ -25557,7 +25676,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Dolmat
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0039	# Роман Юрьевич Романов
+							father=romanov_0039	# Роман Юрьевич Romanov
 							mother=lowborn_1442	# Ульяна Ivanovna
 							1532.01.01={birth=yes}  # EST.
 							1545.01.01={death=yes}
@@ -25566,7 +25685,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Даниил
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0039	# Роман Юрьевич Романов
+							father=romanov_0039	# Роман Юрьевич Romanov
 							mother=lowborn_1442	# Ульяна Ivanovna
 							1532.01.01={birth=yes}  # EST.
 							1565.11.27={death=yes}
@@ -25575,7 +25694,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Михаил
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0042	# Даниил Романов
+								father=romanov_0042	# Даниил Romanov
 								1545.01.01={birth=yes}  # EST.
 								1559.01.01={death=yes}
 							}
@@ -25584,7 +25703,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0042	# Даниил Романов
+								father=romanov_0042	# Даниил Romanov
 								1530.01.01={birth=yes}  # EST.
 								1546.01.01={death=yes}
 							}
@@ -25593,7 +25712,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0042	# Даниил Романов
+								father=romanov_0042	# Даниил Romanov
 								1530.01.01={birth=yes}  # EST.
 								1547.01.01={death=yes}
 							}
@@ -25601,7 +25720,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Фёдор
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0042	# Даниил Романов
+								father=romanov_0042	# Даниил Romanov
 								1559.01.01={birth=yes}  # EST.
 								1571.01.01={death=yes}
 							}
@@ -25610,7 +25729,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0042	# Даниил Романов
+								father=romanov_0042	# Даниил Romanov
 								1559.01.01={birth=yes}  # EST.
 								1571.01.01={death=yes}
 							}
@@ -25618,7 +25737,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Иван
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0042	# Даниил Романов
+								father=romanov_0042	# Даниил Romanov
 								1559.01.01={birth=yes}  # EST.
 								1571.01.01={death=yes}
 							}
@@ -25626,7 +25745,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							name=Никита
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0039	# Роман Юрьевич Романов
+							father=romanov_0039	# Роман Юрьевич Romanov
 							1534.01.01={birth=yes}  # EST.
 							1554.01.01={add_spouse=lowborn_1448}	# Варвара Ивановна Ховрин
 							1557.01.01={add_spouse=rurik_0182}	# Евдокия Александровна Шуйский
@@ -25638,7 +25757,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=lowborn_1448	# Варвара Ивановна Ховрин
 								1555.01.01={birth=yes}  # EST.
 								1585.01.01={death=yes}
@@ -25648,7 +25767,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=lowborn_1448	# Варвара Ивановна Ховрин
 								1556.01.01={birth=yes}  # EST.
 								1602.03.23={death=yes}  # murdered
@@ -25657,7 +25776,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Лев
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=rurik_0182	# Евдокия Александровна Шуйский
 								1558.01.01={birth=yes}  # EST.
 								1595.02.05={death=yes}
@@ -25666,7 +25785,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Михаил
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=rurik_0182	# Евдокия Александровна Шуйский
 								1560.01.01={birth=yes}  # EST.
 								1605.03.18={death=yes}  # Nyrob
@@ -25675,7 +25794,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Александр
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=rurik_0182	# Евдокия Александровна Шуйский
 								1564.01.01={birth=yes}  # EST.
 								1589.01.01={add_spouse=lowborn_1453}	# PSS Евдокия Ивановна Голицын
@@ -25686,7 +25805,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Василий
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=rurik_0182	# Евдокия Александровна Шуйский
 								1566.01.01={birth=yes}  # EST.
 								1601.02.15={death=yes}  # Pelym
@@ -25695,7 +25814,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								name=Иван
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=rurik_0182	# Евдокия Александровна Шуйский
 								1568.01.01={birth=yes}  # EST.
 								1603.01.01={add_spouse=lowborn_1455}	# PSS Ульяна Фёдоровна Литвинов-Мосальский
@@ -25705,7 +25824,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 									name=Никита
 									dynasty=100397
 									religion=orthodox culture=russian
-									father=romanov_0057	# Иван Никитич Романов
+									father=romanov_0057	# Иван Никитич Romanov
 									mother=lowborn_1455	# PSS Ульяна Фёдоровна Литвинов-Мосальский
 									1607.01.01={birth=yes}
 									1654.12.11={death=yes}
@@ -25714,7 +25833,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 									name=Андрей
 									dynasty=100397
 									religion=orthodox culture=russian
-									father=romanov_0057	# Иван Никитич Романов
+									father=romanov_0057	# Иван Никитич Romanov
 									mother=lowborn_1455	# PSS Ульяна Фёдоровна Литвинов-Мосальский
 									1608.01.01={birth=yes}  # EST.
 									1609.04.25={death=yes}
@@ -25723,7 +25842,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 									name=Дмитрий
 									dynasty=100397
 									religion=orthodox culture=russian
-									father=romanov_0057	# Иван Никитич Романов
+									father=romanov_0057	# Иван Никитич Romanov
 									mother=lowborn_1455	# PSS Ульяна Фёдоровна Литвинов-Мосальский
 									1609.01.01={birth=yes}  # EST.
 									1611.11.04={death=yes}
@@ -25733,7 +25852,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 									female=yes
 									dynasty=100397
 									religion=orthodox culture=russian
-									father=romanov_0057	# Иван Никитич Романов
+									father=romanov_0057	# Иван Никитич Romanov
 									mother=lowborn_1455	# PSS Ульяна Фёдоровна Литвинов-Мосальский
 									1610.01.01={birth=yes}  # EST.
 									1615.09.10={death=yes}
@@ -25743,7 +25862,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 									female=yes
 									dynasty=100397
 									religion=orthodox culture=russian
-									father=romanov_0057	# Иван Никитич Романов
+									father=romanov_0057	# Иван Никитич Romanov
 									mother=lowborn_1455	# PSS Ульяна Фёдоровна Литвинов-Мосальский
 									1612.01.01={birth=yes}  # EST.
 									1622.10.25={death=yes}
@@ -25752,7 +25871,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 									name=Иван
 									dynasty=100397
 									religion=orthodox culture=russian
-									father=romanov_0057	# Иван Никитич Романов
+									father=romanov_0057	# Иван Никитич Romanov
 									mother=lowborn_1455	# PSS Ульяна Фёдоровна Литвинов-Мосальский
 									1614.01.01={birth=yes}  # EST.
 									1625.07.30={death=yes}
@@ -25762,7 +25881,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=rurik_0182	# Евдокия Александровна Шуйский
 								1564.01.01={birth=yes}  # EST.
 								1565.01.01={death=yes}
@@ -25772,7 +25891,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=rurik_0182	# Евдокия Александровна Шуйский
 								1572.01.01={birth=yes}  # EST.
 								1610.01.01={death=yes}
@@ -25782,7 +25901,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=rurik_0182	# Евдокия Александровна Шуйский
 								1574.01.01={birth=yes}  # EST.
 								1636.06.06={death=yes}
@@ -25792,7 +25911,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
-								father=romanov_0049	# Никита Романов
+								father=romanov_0049	# Никита Romanov
 								mother=rurik_0182	# Евдокия Александровна Шуйский
 								1576.01.01={birth=yes}  # EST.
 								1655.10.09={death=yes}
@@ -25802,7 +25921,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							female=yes
 							dynasty=100397
 							religion=orthodox culture=russian
-							father=romanov_0039	# Роман Юрьевич Романов
+							father=romanov_0039	# Роман Юрьевич Romanov
 							1536.01.01={birth=yes}  # EST.
 							1573.01.01={death=yes}
 						}
@@ -25810,7 +25929,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 						name=Григорий
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=romanov_0029	# Юрий Романов
+						father=romanov_0029	# Юрий Romanov
 						mother=lowborn_1411	# Ирина Ивановна Tuchkova
 						1488.01.01={birth=yes}  # EST.
 						1558.01.01={death=yes}
@@ -25819,7 +25938,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 					name=Василий
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=romanov_0015	# Zakhariy Иванович Романов
+					father=romanov_0015	# Zakhariy Иванович Romanov
 					1439.01.01={birth=yes}  # EST.
 					1509.01.01={death=yes}
 				}
@@ -25827,7 +25946,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 						name=Иван
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=romanov_0070	# Василий Романов
+						father=romanov_0070	# Василий Romanov
 						1465.01.01={birth=yes}  # EST.
 						1535.01.01={death=yes}
 					}
@@ -25835,7 +25954,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 			name=Фёдор
 			dynasty=100397
 			religion=orthodox culture=russian
-			father=romanov_0006	# Фёдор Романов
+			father=romanov_0006	# Фёдор Romanov
 			1362.01.01={birth=yes}  # EST.
 			1425.01.01={death=yes}  # before
 		}
@@ -25844,7 +25963,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 				female=yes
 				dynasty=100397
 				religion=orthodox culture=russian
-				father=romanov_0072	# Фёдор Фёдорович Романов
+				father=romanov_0072	# Фёдор Фёдорович Romanov
 				1387.01.01={birth=yes}  # EST.
 				1447.12.01={death=yes}  # EST.
 			}
@@ -25852,7 +25971,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 			name=Александр
 			dynasty=100397
 			religion=orthodox culture=russian
-			father=romanov_0006	# Фёдор Романов
+			father=romanov_0006	# Фёдор Romanov
 			1362.01.01={birth=yes}  # EST.
 			1425.12.01={death=yes}  # EST.
 		}
@@ -25861,7 +25980,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 			female=yes
 			dynasty=100397
 			religion=orthodox culture=russian
-			father=romanov_0006	# Фёдор Романов
+			father=romanov_0006	# Фёдор Romanov
 			1370.01.01={birth=yes}  # EST.
 			1430.01.01={death=yes}  # EST.
 		}
@@ -25870,7 +25989,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 			female=yes
 			dynasty=100397
 			religion=orthodox culture=russian
-			father=romanov_0006	# Фёдор Романов
+			father=romanov_0006	# Фёдор Romanov
 			1362.01.01={birth=yes}  # EST.
 			1425.01.01={death=yes}
 		}
@@ -25881,7 +26000,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 	name=Fyodor
 	dynasty=100397
 	religion=orthodox culture=russian
-	father=romanov_0049	# Никита Романов
+	father=romanov_0049	# Никита Romanov
 	mother=lowborn_1448	# Варвара Ивановна Ховрин
 	1554.01.01={birth=yes}
 	1584.01.01={add_spouse=lowborn_1450}	# Ксения Ивановна Shestova
@@ -25891,7 +26010,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 		name=Михаил
 		dynasty=100397
 		religion=orthodox culture=russian
-		father=romanov_0050	# Фёдор Никитич Романов
+		father=romanov_0050	# Фёдор Никитич Romanov
 		mother=lowborn_1450	# Ксения Ивановна Shestova
 		1596.07.12={birth=yes}
 		1624.09.19={add_spouse=100015380}	# Мария Владимировна Долгорукий
@@ -25901,7 +26020,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 			name=Алексей
 			dynasty=100397
 			religion=orthodox culture=russian
-			father=100017079	# Михаил Романов
+			father=100017079	# Михаил Romanov
 			1629.03.20={birth=yes}
 			1648.01.26={add_spouse=miloslavsky_0005}	# Мария Ильинична Милославский
 			1671.01.01={remove_spouse=miloslavsky_0005}
@@ -25912,7 +26031,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 				name=Фёдор
 				dynasty=100397
 				religion=orthodox culture=russian
-				father=100016927	# Алексей Михайлович Романов
+				father=100016927	# Алексей Михайлович Romanov
 				mother=miloslavsky_0005	# Мария Ильинична Милославский
 				1661.06.09={birth=yes}
 				1680.07.28={add_spouse=100084482}	# Агафья Грушецкий
@@ -25923,7 +26042,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 				name=Иоанн
 				dynasty=100397
 				religion=orthodox culture=russian
-				father=100016927	# Алексей Михайлович Романов
+				father=100016927	# Алексей Михайлович Romanov
 				mother=miloslavsky_0005	# Мария Ильинична Милославский
 				1666.09.06={birth=yes}
 				1684.01.19={add_spouse=100017705}	# Прасковья Александровна Салтыков
@@ -25934,7 +26053,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 					female=yes
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=100016929	# Иоанн Алексеевич Романов
+					father=100016929	# Иоанн Алексеевич Romanov
 					mother=100017705	# Прасковья Александровна Салтыков
 					1691.10.29={birth=yes}
 					1716.04.19={add_spouse=100002919}	# Karl Leopold von Mecklenburg-Schwerin
@@ -25945,7 +26064,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 					female=yes
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=100016929	# Иоанн Алексеевич Романов
+					father=100016929	# Иоанн Алексеевич Romanov
 					mother=100017705	# Прасковья Александровна Салтыков
 					1693.02.07={birth=yes}
 					1740.10.28={death=yes}
@@ -25955,7 +26074,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 					female=yes
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=100016929	# Иоанн Алексеевич Романов
+					father=100016929	# Иоанн Алексеевич Romanov
 					mother=100017705	# Прасковья Александровна Салтыков
 					1694.10.14={birth=yes}
 					1731.10.19={death=yes}
@@ -25966,7 +26085,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 				name=Пётр
 				dynasty=100397
 				religion=orthodox culture=russian
-				father=100016927	# Алексей Михайлович Романов
+				father=100016927	# Алексей Михайлович Romanov
 				mother=100019621	# Наталья Кирилловна Нарышкин
 				1672.06.09={birth=yes}
 				1689.02.06={add_spouse=100018152}	 	# Евдокия Илларионовна Лопухин
@@ -25978,7 +26097,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 					name=Алексей
 					dynasty=100397
 					religion=orthodox culture=russian
-					father=100016936	# Пётр Алексеевич Романов
+					father=100016936	# Пётр Алексеевич Romanov
 					mother=100018152	# Евдокия Илларионовна Лопухин
 					1690.02.18={birth=yes}
 					1711.10.25={add_spouse=100011943}	# Charlotte von Braunschweig-Lüneburg
@@ -25988,7 +26107,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 						name=Наталья
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=100016937	# Алексей Петрович Романов
+						father=100016937	# Алексей Петрович Romanov
 						mother=100011943	# Charlotte von Braunschweig-Lüneburg
 						1714.08.03={birth=yes}
 						1728.12.03={death=yes}
@@ -25997,7 +26116,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 						name=Пётр
 						dynasty=100397
 						religion=orthodox culture=russian
-						father=100016937	# Алексей Петрович Романов
+						father=100016937	# Алексей Петрович Romanov
 						mother=100011943	# Charlotte von Braunschweig-Lüneburg
 						1715.10.23={birth=yes}
 						1730.01.30={death=yes}
@@ -26008,7 +26127,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 					dynasty=100397
 					religion=orthodox culture=russian
 					trait=legitimized_bastard
-					father=100016936	# Пётр Алексеевич Романов
+					father=100016936	# Пётр Алексеевич Romanov
 					mother=100021947	# Марфа Skowronski
 					1708.02.07={birth=yes}
 					1728.05.15={death=yes}
@@ -26019,7 +26138,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 					dynasty=100397
 					religion=orthodox culture=russian
 					trait=legitimized_bastard
-					father=100016936	# Пётр Алексеевич Романов
+					father=100016936	# Пётр Алексеевич Romanov
 					mother=100021947	# Марфа Skowronski
 					1709.12.29={birth=yes}
 					1762.01.05={death=yes}
@@ -26032,7 +26151,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 	dynasty_house=oldenburg_romanov
 	religion=orthodox culture=german
 	father=100013037	# Karl Friedrich von Oldenburg-Gottorf
-	mother=100016940	# Анна Петровна Романов
+	mother=100016940	# Анна Петровна Romanov
 	1728.02.21={birth=yes}
 	1745.09.01={add_spouse=100000150}	# Sofie von Anhalt-Zerbst
 	1762.07.17={death=yes}
@@ -32990,6 +33109,7 @@ ribaupierre_0004={ # Ivan Stepanovich Ribopierre ( 27. August  ( 7. September ) 
 		}
 ## CHERNYSHEV-BEZOBRAZOV 1010025
 
+
 ## KLEINMICHEL 1010069
 kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
 	name=Pyotr
@@ -33216,7 +33336,7 @@ razumovsky_0001={ #// Jakow Romanovich Rozum
 			father=razumovsky_0008	# Григорий Разумовский
 			mother=lowborn_1391	# Наталья Демьяновна Streshentsov
 			1709.03.07={birth=yes}
-			1742.01.01={add_spouse=100017078}	# Елизавета Петровна Романов
+			1742.01.01={add_spouse=100017078}	# Елизавета Петровна Romanov
 			1771.07.06={death=yes}  # Sankt Petersburg
 		}
 			razumovsky_0013={ #// 1c) [illegitimate] Aleksandra Bogdanovna Umsky; m.Jakow Ossipovich Kaftyriev
@@ -34123,7 +34243,7 @@ godunov_0001={ #// Pr Chet
 										religion=orthodox culture=russian
 										father=godunov_0039	# Иван Васильевич Годунов
 										1559.01.01={birth=yes}  # EST.
-										1589.01.01={add_spouse=romanov_0066}	# Ирина Никитична Романов
+										1589.01.01={add_spouse=romanov_0066}	# Ирина Никитична Romanov
 										1610.01.01={death=yes}  # drowned
 									}
 										godunov_0041={ #// J1. Pyotr, steward
@@ -34131,7 +34251,7 @@ godunov_0001={ #// Pr Chet
 											dynasty=1010074
 											religion=orthodox culture=russian
 											father=godunov_0040	# Иван Иванович Годунов
-											mother=romanov_0066	# Ирина Никитична Романов
+											mother=romanov_0066	# Ирина Никитична Romanov
 											1590.01.01={birth=yes}  # EST.
 											1650.12.01={death=yes}  # EST.
 										}
@@ -36454,83 +36574,6 @@ bibikov_0043={ #// Michail Bibikov (*15.6.1848, +11.1.1918); m.16.4.1876 Varvara
 ## BIBIKOV 1010078
 
 
-## MILOSLAVSKIJ 1010081
-miloslavsky_0001={ #// Ilja Miloslavskij (+27 Dec 1645); m.Ekaterina Fedorovna Narbekova
-	name=Илья
-	dynasty=1010081
-	religion=orthodox culture=russian
-	1617.01.01={birth=yes}	# EST.
-	1645.12.27={death=yes}
-}
-	# Anna Ilyinichna Miloslavskaya (? - 1667), seit 1648 Ehefrau des Bojaren Boris Ivanovich Morozov (1590-1662)
-	miloslavsky_0003={ #// A2. Ekaterina Ilinična; m.1649 Fëdor Lvovič Volkonskij $$
-		name=Екатерина
-		female=yes
-		dynasty=1010081
-		religion=orthodox culture=russian
-		father=miloslavsky_0001	# Илья Милославский
-		1615.01.01={birth=yes}	# EST.
-		1670.01.01={death=yes}	# EST.
-	}
-	miloslavsky_0004={ #// A3. Irina Ilinična (+27 Dec 1645); m.1637 Dmitrij Alekseevič Dolgorukij (*1613, +7 Nov 1673) $$
-		name=Ирина
-		female=yes
-		dynasty=1010081
-		religion=orthodox culture=russian
-		father=miloslavsky_0001	# Илья Милославский
-		1617.01.01={birth=yes}	# EST.
-		1645.12.27={death=yes}
-	}
-	miloslavsky_0005={ #// A4. Marija Ilinična (+3 Mar 1699); m.26 Jan 1648 Aleksej Michajlovič Romanov (*20 Mar 1629, +8 Feb 1676) $$
-		name=Мария
-		female=yes
-		dynasty=1010081
-		religion=orthodox culture=russian
-		father=miloslavsky_0001	# Илья Милославский
-		1625.01.01={birth=yes}	# EST.
-		1699.03.03={death=yes}
-	}
-## MILOSLAVSKIJ 1010081
-
-
-## SHAFIROV 1010022
-100035067={ #// Petr Šafirov (*1669, +St. Petersburg 1.3.1739) %%
-	name=Petr
-	dynasty=1010022
-	religion=orthodox culture=russian
-	1669.01.01={birth=yes}
-	1739.03.01={death=yes}	# St. Petersburg
-}	
-	100035089={ #// A1. Anna; m.1720 Aleksej Matveevič Gagarin (*1695) %%
-		name=Anna
-		female=yes
-		dynasty=1010022
-		religion=orthodox culture=russian
-		father=100035067	# Petr Шафиров
-		1694.01.01={birth=yes}	# EST.
-		1760.01.01={death=yes}	# EST.
-	}
-	100036822={ #// A3. Marija; m.1745 Michail Michajlovič Saltykov (*1720, +1787) %%
-		name=Maria
-		female=yes
-		dynasty=1010022
-		religion=orthodox culture=russian
-		father=100035067	# Petr Шафиров
-		1715.01.01={birth=yes}	# EST.
-		1760.01.01={death=yes}	# EST.
-	}
-	100036823={ #// A2. Marfa (*1697, +1760); m.1726 Sergej Grigor'evič Dolgorukij (*1686, +26.11.1739) %%
-		name=Marfa
-		female=yes
-		dynasty=1010022
-		religion=orthodox culture=russian
-		father=100035067	# Petr Шафиров
-		1697.01.01={birth=yes}
-		1760.01.01={death=yes}
-	}
-## SHAFIROV 1010022
-
-
 ## ZASLAWSKI 1012040
 zaslaw_0001={ #// Yuriy Mikhailovich, Pr of Izheslavl, +after 1455
 	name=Юрий
@@ -36778,7 +36821,7 @@ vorotynsky_0001={ #// Fedor Lvovich Vorotynsky (+after 1455); m.Maria Koributovn
 			religion=orthodox culture=russian
 			father=vorotynsky_0002	# Михаил Воротынский
 			1465.01.01={birth=yes}  # EST.
-			1505.01.01={add_spouse=romanov_0038}	# Анна Ивановна Романов
+			1505.01.01={add_spouse=romanov_0038}	# Анна Ивановна Romanov
 			1523.01.01={add_spouse=lowborn_1513}	# Анна Васильевна Шастунов
 			1535.06.21={death=yes}
 		}
@@ -36787,7 +36830,7 @@ vorotynsky_0001={ #// Fedor Lvovich Vorotynsky (+after 1455); m.Maria Koributovn
 				dynasty=1010082
 				religion=orthodox culture=russian
 				father=vorotynsky_0003	# Иван Михайлович Воротынский
-				mother=romanov_0038	# Анна Ивановна Романов
+				mother=romanov_0038	# Анна Ивановна Romanov
 				1506.01.01={birth=yes}  # EST.
 				1532.01.01={add_spouse=lowborn_1559}	# Мария Фёдоровна Telepneva-Оболенский
 				1553.09.27={death=yes}
@@ -36807,7 +36850,7 @@ vorotynsky_0001={ #// Fedor Lvovich Vorotynsky (+after 1455); m.Maria Koributovn
 				dynasty=1010082
 				religion=orthodox culture=russian
 				father=vorotynsky_0003	# Иван Михайлович Воротынский
-				mother=romanov_0038	# Анна Ивановна Романов
+				mother=romanov_0038	# Анна Ивановна Romanov
 				1516.01.01={birth=yes}
 				1542.01.01={add_spouse=lowborn_1632}	# Степанида Ивановна Кубенский
 				1573.01.01={death=yes}
@@ -36915,7 +36958,7 @@ vorotynsky_0001={ #// Fedor Lvovich Vorotynsky (+after 1455); m.Maria Koributovn
 				dynasty=1010082
 				religion=orthodox culture=russian
 				father=vorotynsky_0003	# Иван Михайлович Воротынский
-				mother=romanov_0038	# Анна Ивановна Романов
+				mother=romanov_0038	# Анна Ивановна Romanov
 				1518.01.01={birth=yes}  # EST.
 				1544.01.01={add_spouse=lowborn_1793}	# Ирина N
 				1564.02.06={death=yes}
@@ -36936,7 +36979,7 @@ vorotynsky_0001={ #// Fedor Lvovich Vorotynsky (+after 1455); m.Maria Koributovn
 				dynasty=1010082
 				religion=orthodox culture=russian
 				father=vorotynsky_0003	# Иван Михайлович Воротынский
-				mother=romanov_0038	# Анна Ивановна Романов
+				mother=romanov_0038	# Анна Ивановна Romanov
 				1520.01.01={birth=yes}  # EST.
 				1537.09.17={death=yes}
 			}
@@ -36946,7 +36989,7 @@ vorotynsky_0001={ #// Fedor Lvovich Vorotynsky (+after 1455); m.Maria Koributovn
 				dynasty=1010082
 				religion=orthodox culture=russian
 				father=vorotynsky_0003	# Иван Михайлович Воротынский
-				mother=romanov_0038	# Анна Ивановна Романов
+				mother=romanov_0038	# Анна Ивановна Romanov
 				1520.01.01={birth=yes}  # EST.
 				1580.01.01={death=yes}  # EST.
 			}
@@ -36956,7 +36999,7 @@ vorotynsky_0001={ #// Fedor Lvovich Vorotynsky (+after 1455); m.Maria Koributovn
 				dynasty=1010082
 				religion=orthodox culture=russian
 				father=vorotynsky_0003	# Иван Михайлович Воротынский
-				mother=romanov_0038	# Анна Ивановна Романов
+				mother=romanov_0038	# Анна Ивановна Romanov
 				1520.01.01={birth=yes}  # EST.
 				1580.01.01={death=yes}  # EST.
 			}

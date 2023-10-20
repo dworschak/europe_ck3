@@ -42,7 +42,7 @@ lowborn_1660={ # Pr         Henryk                    of Mazovia                
 	religion=catholic culture=lithuanian
 	1367.01.01={birth=yes}  # EST.
 	1392.06.30={add_spouse=jagelo_0150}	# Rymgajla Jagiełło
-	1392.01.01={death=yes}
+	1392.12.01={death=yes}
 }
 lowborn_1655={ #            Anna                      of Mazovia                               (1413-1435)     0 [JAGIELO]
 	name="Anna of Mazovia"
@@ -200,6 +200,14 @@ lowborn_3013={ #            Urszula Teresa            Mniszech                  
 	1720.01.01={birth=yes}
 	1746.01.01={death=yes}
 }
+lowborn_4451={ # Gf         Georg August              Mniszech                                 (1725-1795)     - [BRUHL]
+	name="Georg August Mniszech"
+	#dynasty=0
+	religion=catholic culture=german
+	1725.01.01={birth=yes}  # EST.
+	1750.07.14={add_spouse=bruhl_0043}	# Amalia von Brühl
+	1795.01.01={death=yes}  # EST.
+}
 100085320={ #               Luise                     Mniszech                                 (1751-1799)     0 [SULKOWSKI]
 	name="Luise Mniszech"
 	female=yes
@@ -263,6 +271,93 @@ lowborn_3005={ #            Urszula Marina            Mniszek                   
 	1880.01.01={birth=yes}  # Nadyby
 	1915.01.01={add_spouse=100114226}	# Tereza Potocki
 	1919.12.21={death=yes}  # Stanimierz
+}
+
+lowborn_2965={ #            Jerzy                     Tyszkiewicz                              (1569-1631)     - [WISNIOWIECKI]
+	name="Jerzy Tyszkiewicz"
+	religion=catholic culture=polish
+	1569.01.01={birth=yes}  # EST.
+	1593.01.01={add_spouse=wisniow_0053}	# Zofia Wiśniowiecki
+	1631.01.01={death=yes}
+}
+lowborn_3008={ #            Katarzyna Eugeneia        Tyszkiewicz                              (1607-1650)     2 [WISNIOWIECKI]
+	name="Katarzyna Eugeneia Tyszkiewicz"
+	female=yes
+	religion=catholic culture=polish
+	1607.01.01={birth=yes}  # EST.
+	1650.01.01={death=yes}  # EST.
+}
+100102800={ #               Władysław                 Tyszkiewicz                              (1653-1728)     - [SAPIEHA]
+	name="Władysław Tyszkiewicz"
+	#dynasty=0
+	religion=catholic culture=polish
+	1653.01.01={birth=yes}  # EST.
+	1670.01.01={add_spouse=100111544}	# Teodora Sapieha
+	1728.01.01={death=yes}  # EST.
+}
+100102484={ #               Jerzy                     Tyszkiewicz                              (1686-1761)     - [SAPIEHA]
+	name="Jerzy Tyszkiewicz"
+	#dynasty=0
+	religion=catholic culture=polish
+	1686.01.01={birth=yes}  # EST.
+	1711.01.01={add_spouse=100111409}	# Benedykta Sapieha
+	1761.01.01={death=yes}  # EST.
+}
+100091149={ #    Css        Anna                      Tyszkiewicz                              (1776-1867)     4 [POTOCKI]
+	name="Anna Tyszkiewicz"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1776.01.01={birth=yes}
+	1867.08.16={death=yes}  # Paris
+}
+100102173={ #               Joanna                    Tyszkiewicz                              (1816-1873)     1 [SAPIEHA]
+	name="Joanna Tyszkiewicz"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1816.01.01={birth=yes}
+	1873.01.01={death=yes}
+}
+lowborn_4203={ # Css        Joanna                    Tyszkiewicz                              (1877-1928)     6 [BROEL]
+	name="Joanna Tyszkiewicz"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1877.01.01={birth=yes}
+	1928.07.08={death=yes}
+}
+lowborn_5855={ # Ct         Natalia                   Tyszkiewicz-Kalenicka                    (1894-1974)     0 [SIEMIENSKI]
+	name="Natalia Tyszkiewicz-Kalenicka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1894.01.01={birth=yes}
+	1974.01.01={death=yes}
+}
+100091151={ #    Ct         Janusz                    Tyszkiewicz-Lacki                        (1900-1987)     - [ZAMOYSKI]
+	name="Janusz Tyszkiewicz-Lacki"
+	#dynasty=0
+	religion=catholic culture=polish
+	1900.07.28={birth=yes}
+	1926.01.25={add_spouse=100110422}	# Elzbieta Zamoyski
+	1987.11.30={death=yes}
+}
+100096577={ #               Janus                     Tyszkiewicz-Lacki                        (1905-1970)     - [RZEWUSKI]
+	name="Janus Tyszkiewicz-Lacki"
+	#dynasty=0
+	religion=catholic culture=polish
+	1905.05.18={birth=yes}  # Polaga
+	1930.04.29={add_spouse=100112541}	# Jadwiga Rzewuski
+	1970.08.27={death=yes}
+}
+100091140={ #    Ct         Benedykt                  Tyszkiewicz-Lohojski                     (1849-1939)     - [LUBOMIRSKI]
+	name="Benedykt Tyszkiewicz-Lohojski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1849.03.21={birth=yes}	# Andruszówka
+	1885.11.28={add_spouse=100111212}	# Maria Lubomirski
+	1939.10.13={death=yes}	# Poreba
 }
 
 100098624={ #    Gf         Franciszek                Halka-Ledóchowski                        (1876-1954)     - [BETHLEN]
@@ -345,85 +440,6 @@ lowborn_4266={ #            Franciszek                Ledóchowski              
 	1891.11.01={birth=yes}  # Mödling
 	1922.10.28={add_spouse=100011313}	# Elisabeth von Nostitz-Rieneck
 	1971.11.06={death=yes}  # Salzburg
-}
-
-lowborn_2965={ #            Jerzy                     Tyszkiewicz                              (1569-1631)     - [WISNIOWIECKI]
-	name="Jerzy Tyszkiewicz"
-	religion=catholic culture=polish
-	1569.01.01={birth=yes}  # EST.
-	1593.01.01={add_spouse=wisniow_0053}	# Zofia Wiśniowiecki
-	1631.01.01={death=yes}
-}
-lowborn_3008={ #            Katarzyna Eugeneia        Tyszkiewicz                              (1607-1650)     2 [WISNIOWIECKI]
-	name="Katarzyna Eugeneia Tyszkiewicz"
-	female=yes
-	religion=catholic culture=polish
-	1607.01.01={birth=yes}  # EST.
-	1650.01.01={death=yes}  # EST.
-}
-100102800={ #               Władysław                 Tyszkiewicz                              (1653-1728)     - [SAPIEHA]
-	name="Władysław Tyszkiewicz"
-	#dynasty=0
-	religion=catholic culture=polish
-	1653.01.01={birth=yes}  # EST.
-	1670.01.01={add_spouse=100111544}	# Teodora Sapieha
-	1728.01.01={death=yes}  # EST.
-}
-100102484={ #               Jerzy                     Tyszkiewicz                              (1686-1761)     - [SAPIEHA]
-	name="Jerzy Tyszkiewicz"
-	#dynasty=0
-	religion=catholic culture=polish
-	1686.01.01={birth=yes}  # EST.
-	1711.01.01={add_spouse=100111409}	# Benedykta Sapieha
-	1761.01.01={death=yes}  # EST.
-}
-100091149={ #    Css        Anna                      Tyszkiewicz                              (1776-1867)     4 [POTOCKI]
-	name="Anna Tyszkiewicz"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1776.01.01={birth=yes}
-	1867.08.16={death=yes}  # Paris
-}
-100102173={ #               Joanna                    Tyszkiewicz                              (1816-1873)     1 [SAPIEHA]
-	name="Joanna Tyszkiewicz"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1816.01.01={birth=yes}
-	1873.01.01={death=yes}
-}
-lowborn_4203={ # Css        Joanna                    Tyszkiewicz                              (1877-1928)     6 [BROEL]
-	name="Joanna Tyszkiewicz"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1877.01.01={birth=yes}
-	1928.07.08={death=yes}
-}
-100091151={ #    Ct         Janusz                    Tyszkiewicz-Lacki                        (1900-1987)     - [ZAMOYSKI]
-	name="Janusz Tyszkiewicz-Lacki"
-	#dynasty=0
-	religion=catholic culture=polish
-	1900.07.28={birth=yes}
-	1926.01.25={add_spouse=100110422}	# Elzbieta Zamoyski
-	1987.11.30={death=yes}
-}
-100096577={ #               Janus                     Tyszkiewicz-Lacki                        (1905-1970)     - [RZEWUSKI]
-	name="Janus Tyszkiewicz-Lacki"
-	#dynasty=0
-	religion=catholic culture=polish
-	1905.05.18={birth=yes}  # Polaga
-	1930.04.29={add_spouse=100112541}	# Jadwiga Rzewuski
-	1970.08.27={death=yes}
-}
-100091140={ #    Ct         Benedykt                  Tyszkiewicz-Lohojski                     (1849-1939)     - [LUBOMIRSKI]
-	name="Benedykt Tyszkiewicz-Lohojski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1849.03.21={birth=yes}	# Andruszówka
-	1885.11.28={add_spouse=100111212}	# Maria Lubomirski
-	1939.10.13={death=yes}	# Poreba
 }
 
 100101446={ #               Anna                      Malachowska                              (1729-1773)     0 [POTOCKI]
@@ -560,7 +576,7 @@ lowborn_4158={ # Css        Stefania                  Malachowska               
 	#dynasty=0
 	religion=catholic culture=polish
 	1755.01.01={birth=yes}
-	1775.01.01={add_spouse=100112600}	# Konstancja Jablonowski
+	1775.01.01={add_spouse=100112600}	# Konstancja Jabłonowski
 	1830.01.01={death=yes}  # EST.
 }
 lowborn_4188={ # Ct         Ludwik Stanislaw          Mycielski                                (1906-1985)     - [BROEL]
@@ -572,6 +588,46 @@ lowborn_4188={ # Ct         Ludwik Stanislaw          Mycielski                 
 	1985.10.28={death=yes}
 }
 
+100093856={ #    Css        Celina                    Wodzicka                                 (1838-1912)     0 [POTOCKI]
+	name="Celina Wodzicka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1838.01.01={birth=yes}
+	1912.01.01={death=yes}
+}
+100093855={ #    Css        Roza                      Wodzicka                                 (1868-1902)     3 [POTOCKI]
+	name="Roza Wodzicka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1868.02.12={birth=yes}  # Olejow
+	1902.02.01={death=yes}  # Lemberg
+}
+100093854={ #    Css        Teresa                    Wodzicka                                 (1883-1948)     4 [LUBOMIRSKI]
+	name="Teresa Wodzicka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1883.10.02={birth=yes}
+	1948.12.15={death=yes}
+}
+100081420={ #    Ct         Karolina Ludwika          Wodzicka z Granowa                       (1800-1849)     2 [MYCIELSKI]
+	name="Karolina Ludwika Wodzicka z Granowa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1800.01.01={birth=yes}
+	1849.01.01={death=yes}
+}
+100089476={ #    Ct         Ludwika Maria             Wodzicka z Granowa                       (1857-1944)     2 [SOBANSKI]
+	name="Ludwika Maria Wodzicka z Granowa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1857.01.01={birth=yes}
+	1944.01.01={death=yes}
+}
 100103032={ #    Ct         Henryk                    Wodzicki                                 (1813-1884)  2  1 [SULKOWSKI, SULKOWSKI]
 	name="Henryk Wodzicki"
 	#dynasty=0
@@ -580,14 +636,6 @@ lowborn_4188={ # Ct         Ludwik Stanislaw          Mycielski                 
 	1838.07.15={add_spouse=100035675}	# Taida Karolina Sułkowski
 	1840.10.20={add_spouse=100035678}	# Therese Karoline Sułkowski
 	1884.10.20={death=yes}
-}
-100093856={ #    Css        Celina                    Wodzicka                                 (1838-1912)     0 [POTOCKI]
-	name="Celina Wodzicki"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1838.01.01={birth=yes}
-	1912.01.01={death=yes}
 }
 100093857={ #    Ct         Roman                     Wodzicki                                 (1839-1893)     - [POTOCKI]
 	name="Roman Wodzicki"
@@ -598,22 +646,6 @@ lowborn_4188={ # Ct         Ludwik Stanislaw          Mycielski                 
 	1839.08.23={birth=yes}
 	1868.01.01={add_spouse=100111502}	# Tereza Potocki
 	1893.07.13={death=yes}
-}
-100093855={ #    Css        Roza                      Wodzicka                                 (1868-1902)     3 [POTOCKI]
-	name="Roza Wodzicki"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1868.02.12={birth=yes}  # Olejow
-	1902.02.01={death=yes}  # Lemberg
-}
-100093854={ #    Css        Teresa                    Wodzicka                                 (1883-1948)     4 [LUBOMIRSKI]
-	name="Teresa Wodzicki"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1883.10.02={birth=yes}
-	1948.12.15={death=yes}
 }
 100093850={ #    Ct         Piotr Aleksander          Wodzicki                                 (1941-    )     - [HABSBURG]
 	name="Piotr Aleksander Wodzicki"
@@ -629,22 +661,6 @@ lowborn_4188={ # Ct         Ludwik Stanislaw          Mycielski                 
 	1942.11.08={birth=yes}  # Ungvár
 	1976.10.24={add_spouse=100112489}	# Anna Sapieha-Rozánski
 	1996.07.22={death=yes}  # Montreál
-}
-100081420={ #    Ct         Karolina Ludwika          Wodzicka z Granowa                       (1800-1849)     2 [MYCIELSKI]
-	name="Karolina Ludwika Wodzicki z Granowa"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1800.01.01={birth=yes}
-	1849.01.01={death=yes}
-}
-100089476={ #    Ct         Ludwika Maria             Wodzicka z Granowa                       (1857-1944)     2 [SOBANSKI]
-	name="Ludwika Maria Wodzicki z Granowa"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1857.01.01={birth=yes}
-	1944.01.01={death=yes}
 }
 
 100083519={ #               Barbara Urszula           Dunin                                    (1718-1791)     6 [SANGUSZKO]
@@ -846,12 +862,44 @@ lowborn_2822={ #            Xaver                     Drucki-Lubecki            
 }
 
 100086159={ #               Anna                      Dzialynska                               (1683-1719)     5 [ZAMOYSKI]
-	name="Anna Dzialynski"
+	name="Anna Dzialynska"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=polish
 	1683.01.01={birth=yes}  # EST.
 	1719.01.01={death=yes}
+}
+100083552={ #    Css        Elzbieta                  Dzialynska                               (1826-1896)     3 [CZARTORYSKI]
+	name="Elzbieta Dzialynska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1826.08.16={birth=yes}  # Poznan
+	1896.08.21={death=yes}  # Rokosowo
+}
+100083553={ #    Css        Jadwiga                   Dzialynska                               (1831-1922)     3 [ZAMOYSKI]
+	name="Jadwiga Dzialynska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1831.07.04={birth=yes}  # Warszawa
+	1922.11.04={death=yes}  # Kórnik
+}
+100083556={ #               Emilie                    Dzialynska                               (1843-1904)     1 [LUBOMIRSKI]
+	name="Emilie Dzialynska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1843.06.21={birth=yes}
+	1904.01.01={death=yes}
+}
+100083557={ #    Css        Anna                      Dzialynska                               (1846-1926)     7 [POTOCKI]
+	name="Anna Dzialynska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1846.11.02={birth=yes}  # Kornik
+	1926.06.02={death=yes}  # Ocieka
 }
 100083554={ #    Ct         Tytus                     Dzialynski                               (1798-1861)     - [ZAMOYSKI]
 	name="Tytus Dzialynski"
@@ -861,14 +909,6 @@ lowborn_2822={ #            Xaver                     Drucki-Lubecki            
 	1825.11.19={add_spouse=100110406}	# Celestyna Gryzelda Zamoyski
 	1861.04.12={death=yes}  # Poznan
 }
-100083552={ #    Css        Elzbieta                  Dzialynska                               (1826-1896)     3 [CZARTORYSKI]
-	name="Elzbieta Dzialynski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1826.08.16={birth=yes}  # Poznan
-	1896.08.21={death=yes}  # Rokosowo
-}
 100083551={ #    Ct         Jan                       Dzialynski                               (1829-1880)     - [CZARTORYSKI]
 	name="Jan Dzialynski"
 	#dynasty=0
@@ -876,30 +916,6 @@ lowborn_2822={ #            Xaver                     Drucki-Lubecki            
 	1829.09.28={birth=yes}
 	1857.02.21={add_spouse=100110033}	# Izabela Czartoryski
 	1880.03.30={death=yes}
-}
-100083553={ #    Css        Jadwiga                   Dzialynska                               (1831-1922)     3 [ZAMOYSKI]
-	name="Jadwiga Dzialynski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1831.07.04={birth=yes}  # Warszawa
-	1922.11.04={death=yes}  # Kórnik
-}
-100083556={ #               Emilie                    Dzialynska                               (1843-1904)     1 [LUBOMIRSKI]
-	name="Emilie Dzialynski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1843.06.21={birth=yes}
-	1904.01.01={death=yes}
-}
-100083557={ #    Css        Anna                      Dzialynska                               (1846-1926)     7 [POTOCKI]
-	name="Anna Dzialynski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1846.11.02={birth=yes}  # Kornik
-	1926.06.02={death=yes}  # Ocieka
 }
 
 lowborn_1649={ # Pss        Juliana                   Holszanska                               (1375-1448)     0 [JAGIELO]
@@ -952,6 +968,46 @@ lowborn_1769={ # Pr         Siemion Juriewicz         Holszanski                
 	1526.01.01={death=yes}  # EST.
 }
 
+100082483={ #               Rozalia Ewa               Czapska                                  (1718-1769)     1 [CHODKIEWICZ]
+	name="Rozalia Ewa Czapska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1718.01.01={birth=yes}  # EST.
+	1769.01.01={death=yes}
+}
+100101345={ #               Marianna                  Czapska                                  (1720-1795)     0 [POTOCKI]
+	name="Marianna Czapska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1720.01.01={birth=yes}  # EST.
+	1795.01.01={death=yes}  # EST.
+}
+100081779={ #               Konstancja                Czapska                                  (1758-1791)     1 [RADZIWIL]
+	name="Konstancja Czapska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1758.01.01={birth=yes}
+	1791.01.01={death=yes}
+}
+100081780={ #               Teresa Luisa              Czapska                                  (1758-1828)     1 [POTOCKI]
+	name="Teresa Luisa Czapska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1758.01.01={birth=yes}
+	1828.01.01={death=yes}  # EST.
+}
+100096923={ #    Gfn        Marie                     Czapska                                  (1848-1873)     0 [WREDE]
+	name="Marie Czapska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1848.01.01={birth=yes}
+	1873.12.10={death=yes}
+}
 100088276={ #               Jan Ansgary               Czapski                                  (1714-1789)     - [ZAMOYSKI]
 	name="Jan Ansgary Czapski"
 	#dynasty=0
@@ -960,46 +1016,6 @@ lowborn_1769={ # Pr         Siemion Juriewicz         Holszanski                
 	1734.01.01={add_spouse=100110330}	# Anna Teresa Zamoyski
 	1789.01.01={death=yes}  # EST.
 }
-100082483={ #               Rozalia Ewa               Czapska                                  (1718-1769)     1 [CHODKIEWICZ]
-	name="Rozalia Ewa Czapski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1718.01.01={birth=yes}  # EST.
-	1769.01.01={death=yes}
-}
-100101345={ #               Marianna                  Czapska                                  (1720-1795)     0 [POTOCKI]
-	name="Marianna Czapski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1720.01.01={birth=yes}  # EST.
-	1795.01.01={death=yes}  # EST.
-}
-100081779={ #               Konstancja                Czapska                                  (1758-1791)     1 [RADZIWIL]
-	name="Konstancja Czapski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1758.01.01={birth=yes}
-	1791.01.01={death=yes}
-}
-100081780={ #               Teresa Luisa              Czapska                                  (1758-1828)     1 [POTOCKI]
-	name="Teresa Luisa Czapski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1758.01.01={birth=yes}
-	1828.01.01={death=yes}  # EST.
-}
-100096923={ #    Gfn        Marie                     Czapska                                  (1848-1873)     0 [WREDE]
-	name="Marie Czapski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1848.01.01={birth=yes}
-	1873.12.10={death=yes}
-}
 100096407={ #               Andrzej                   Czapski                                  (1921-1997)     - [RZEWUSKI]
 	name="Andrzej Czapski"
 	#dynasty=0
@@ -1007,6 +1023,63 @@ lowborn_1769={ # Pr         Siemion Juriewicz         Holszanski                
 	1921.01.01={birth=yes}  # EST.
 	1946.12.20={add_spouse=100112536}	# Izabella Gabriela Rzewuski
 	1997.01.01={death=yes}  # EST.
+}
+
+lowborn_4351={ # Gfn        Józefina                  Plater-Zyberk                            (1810-1842)     1 [BROEL]
+	name="Józefina Plater-Zyberk"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1810.12.27={birth=yes}
+	1842.04.25={death=yes}
+}
+lowborn_3133={ # Css        Jadwiga                   Plater-Zyberk z Broelu                   (1884-1963)     0 [BADENI]
+	name="Jadwiga Plater-Zyberk z Broelu"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1884.01.01={birth=yes}
+	1963.01.01={death=yes}
+}
+lowborn_5818={ # Ct         Hubert Maria              Plater-Zyberk z Broelu                   (1932-1986)     - [DZIEDUSZYCKI]
+	name="Hubert Maria Plater-Zyberk z Broelu"
+	#dynasty=0
+	religion=catholic culture=polish
+	1932.01.01={birth=yes}
+	1960.01.01={add_spouse=dzieduszycki_0028}	# Zofia Maria Dzieduszycki
+	1986.01.01={death=yes}
+}
+lowborn_2732={ #            Emmerencja Ludwika        von dem Broel gt Plater                  (1724-1784)     5 [BROEL]
+	name="Emmerencja Ludwika von dem Broel gt Plater"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1724.01.01={birth=yes}  # EST.
+	1784.01.01={death=yes}
+}
+lowborn_4081={ #            Rózalia                   von dem Broel gt Plater                  (1741-1814)     2 [BROEL]
+	name="Rózalia von dem Broel gt Plater"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1741.01.01={birth=yes}  # EST.
+	1814.01.01={death=yes}
+}
+lowborn_4150={ # Gf         Kazimierz                 von dem Broel gt Plater                  (1785-1848)     - [BROEL]
+	name="Kazimierz von dem Broel gt Plater"
+	#dynasty=0
+	religion=catholic culture=german
+	1785.01.01={birth=yes}  # EST.
+	1809.01.01={add_spouse=broel_0006}	# Jadwiga von dem Broel gt Plater
+	1848.01.01={death=yes}
+}
+lowborn_4275={ # Gfn        Maria Stefania            von dem Broel gt Plater                  (1862-1947)     0 [BROEL]
+	name="Maria Stefania von dem Broel gt Plater"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1862.01.01={birth=yes}
+	1947.01.01={death=yes}
 }
 
 100089270={ #               Helena                    Przezdziecki                             (1753-1821)     4 [RADZIWIL]
@@ -1183,6 +1256,54 @@ lowborn_1769={ # Pr         Siemion Juriewicz         Holszanski                
 	1853.01.01={death=yes}  # EST.
 }
 
+lowborn_2746={ # Ct         Maria Karolina Józefa     Baworowska z Baworowa                    (1823-1906)     1 [GOLUCHOWSKI]
+	name="Maria Karolina Józefa Baworowska z Baworowa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1823.01.01={birth=yes}
+	1906.01.01={death=yes}
+}
+lowborn_2790={ # Ct         Zofia Maria               Baworowska z Baworowa                    (1887-1971)     0 [GOLUCHOWSKI]
+	name="Zofia Maria Baworowska z Baworowa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1887.01.01={birth=yes}
+	1971.01.01={death=yes}
+}
+lowborn_2897={ #            Waclaw                    Baworowski                               (1529-1554)     - [WISNIOWIECKI]
+	name="Waclaw Baworowski"
+	religion=catholic culture=polish
+	1529.01.01={birth=yes}  # EST.
+	1553.01.01={add_spouse=wisniow_0030}	# Elzbieta Wiśniowiecki
+	1554.01.01={death=yes}  # EST.
+}
+100080477={ #    Ct         Jerzy                     Baworowski                               (1870-1933)     - [ZAMOYSKI]
+	name="Jerzy Baworowski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1870.12.29={birth=yes}
+	1909.08.05={add_spouse=100110447}	# Katarzyna Zamoyski
+	1933.09.06={death=yes}
+}
+100094085={ #    Gfn        Maria Anna                Baworowski                               (1902-1988)     8 [SCHONBURG]
+	name="Maria Anna Baworowski"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1902.09.16={birth=yes}  # Kopyczynce
+	1988.11.24={death=yes}  # Bendorf
+}
+100081511={ #    Gfn        Franciszka                Baworowski                               (1903-1963)     0 [SEILERN]
+	name="Franciszka Baworowski"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1903.01.01={birth=yes}	# Kopyczynca
+	1963.09.07={death=yes}	# Zürich
+}
+
 100080730={ #    Ct         Alexander                 Bninski                                  (1783-1831)     - [RADZIWIL]
 	name="Alexander Bninski"
 	#dynasty=0
@@ -1232,6 +1353,14 @@ lowborn_1769={ # Pr         Siemion Juriewicz         Holszanski                
 	1797.01.01={death=yes}
 }
 
+lowborn_5831={ # Ct         Anna                      Dzieduszycka z Dzieduszyc                (1859-1917)     7 [DZIEDUSZYCKI]
+	name="Anna Dzieduszycka z Dzieduszyc"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1859.05.08={birth=yes}
+	1917.11.11={death=yes}	# Lwów
+}
 100083596={ #               Jerzy                     Dzieduszycki                             (1676-1751)     - [ZAMOYSKI]
 	name="Jerzy Dzieduszycki"
 	#dynasty=0
@@ -1240,39 +1369,23 @@ lowborn_1769={ # Pr         Siemion Juriewicz         Holszanski                
 	1696.01.01={add_spouse=100110322}	# Marianna Teresa Zamoyski
 	1751.01.01={death=yes}  # EST.
 }
-100083558={ #    Gfn        Florentine                Dzieduszycki                             (1844-1920)     0 [CZARTORYSKI]
-	name="Florentine Dzieduszycki"
+100083558={ #    Gfn        Florentyna                Dzieduszycka                             (1844-1920)     0 [CZARTORYSKI]
+	name="Florentyna Dzieduszycki"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=polish
-	1844.05.28={birth=yes}
-	1920.01.18={death=yes}
+	1844.05.28={birth=yes}	# Lwów
+	1920.01.18={death=yes}	# Jabłonowo
 }
-100083559={ #    Css        Jadwiga                   Dzieduszycki                             (1867-1941)    11 [CZARTORYSKI]
+100083559={ #    Css        Jadwiga                   Dzieduszycka                             (1867-1941)    11 [CZARTORYSKI]
 	name="Jadwiga Dzieduszycki"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=polish
-	1867.03.02={birth=yes}
-	1941.07.12={death=yes}
+	1867.03.02={birth=yes}	# Lwów
+	1941.07.12={death=yes}	# Pełkinie
 }
-100083560={ #    Css        Anna                      Dzieduszycki                             (1880-1970)     2 [TARNOWSKI]
-	name="Anna Dzieduszycki"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1880.12.02={birth=yes}  # Lvov
-	1970.01.01={death=yes}  # Krakow
-}
-100095762={ #    Ct         Wlodzimierz               Dzieduszycki                             (1885-1971)     - [SAPIEHA]
-	name="Wlodzimierz Dzieduszycki"
-	#dynasty=0
-	religion=catholic culture=polish
-	1885.05.10={birth=yes}  # Lwów
-	1912.08.20={add_spouse=100112493}	# Róza Sapieha-Rozánski
-	1971.01.01={death=yes}
-}
-100099089={ #    Gfn        Maria Marcellina          Dzieduszycki                             (1911-1986)     0 [SAYN]
+100099089={ #    Gfn        Maria Marcellina          Dzieduszycka                             (1911-1986)     0 [SAYN]
 	name="Maria Marcellina Dzieduszycki"
 	female=yes
 	#dynasty=0
@@ -1342,7 +1455,7 @@ lowborn_4263={ # Pr         Wiktor                    Oginski                   
 	#dynasty=0
 	religion=catholic culture=polish
 	1706.01.01={birth=yes}  # EST.
-	1730.01.01={add_spouse=100112606}	# Katarzyna Jablonowski
+	1730.01.01={add_spouse=100112606}	# Katarzyna Jabłonowski
 	1770.01.01={death=yes}  # EST.
 }
 100098940={ #    Ct         Aleksander                Ossolinski                               (1732-1790)     - [LOVENDAL]
@@ -1682,47 +1795,6 @@ lowborn_4171={ # Ct         Stanislaw                 Kwilecki                  
 	1975.12.19={death=yes}
 }
 
-lowborn_4351={ # Gfn        Józefina                  Plater-Zyberk                            (1810-1842)     1 [BROEL]
-	name="Józefina Plater-Zyberk"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1810.12.27={birth=yes}
-	1842.04.25={death=yes}
-}
-lowborn_2732={ #            Emmerencja Ludwika        von dem Broel gt Plater                  (1724-1784)     5 [BROEL]
-	name="Emmerencja Ludwika von dem Broel gt Plater"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1724.01.01={birth=yes}  # EST.
-	1784.01.01={death=yes}
-}
-lowborn_4081={ #            Rózalia                   von dem Broel gt Plater                  (1741-1814)     2 [BROEL]
-	name="Rózalia von dem Broel gt Plater"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1741.01.01={birth=yes}  # EST.
-	1814.01.01={death=yes}
-}
-lowborn_4150={ # Gf         Kazimierz                 von dem Broel gt Plater                  (1785-1848)     - [BROEL]
-	name="Kazimierz von dem Broel gt Plater"
-	#dynasty=0
-	religion=catholic culture=german
-	1785.01.01={birth=yes}  # EST.
-	1809.01.01={add_spouse=broel_0006}	# Jadwiga von dem Broel gt Plater
-	1848.01.01={death=yes}
-}
-lowborn_4275={ # Gfn        Maria Stefania            von dem Broel gt Plater                  (1862-1947)     0 [BROEL]
-	name="Maria Stefania von dem Broel gt Plater"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1862.01.01={birth=yes}
-	1947.01.01={death=yes}
-}
-
 lowborn_2902={ # Pss        N                         Polubinski                               (1452-1484)     4 [WISNIOWIECKI]
 	name="N Polubinski"
 	female=yes
@@ -1843,47 +1915,6 @@ lowborn_4167={ #            Stanislaw                 Rostworowski              
 	1984.08.31={death=yes}
 }
 
-100090250={ #    Ct         Stanisław                 Siemienski                               (1864-1918)     - [TARNOWSKI]
-	name="Stanisław Siemienski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1864.05.17={birth=yes}  # Lvov
-	1890.02.15={add_spouse=100112077}	# Zofia Tarnowski
-	1918.04.06={death=yes}  # Wien
-}
-100090249={ #    Ct         Stanisław                 Siemienski                               (1892-1971)     - [POTOCKI]
-	name="Stanisław Siemienski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1892.08.17={birth=yes}
-	1917.09.05={add_spouse=100111583}	# Krystyna Potocki
-	1971.09.03={death=yes}
-}
-lowborn_4233={ #            Hieronim                  Siemienski                               (1911-1969)     - [BROEL]
-	name="Hieronim Siemienski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1911.01.01={birth=yes}  # EST.
-	1936.06.06={add_spouse=broel_0044}	# Joanna von dem Broel gt Plater
-	1969.01.01={death=yes}  # Warsaw
-}
-100095614={ #               Antonina                  Siemienski                               (1922-1996)     4 [SAPIEHA]
-	name="Antonina Siemienski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1922.09.25={birth=yes}  # Krzepin
-	1996.08.16={death=yes}  # Nairobi
-}
-100080015={ #    Css        Zofia Maria               Siemienski-Lewicki ze Slawczyna          (1900-1974)     5 [TYSZKIEWICZ]
-	name="Zofia Maria Siemienski-Lewicki ze Slawczyna"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1900.01.01={birth=yes}
-	1974.01.01={death=yes}
-}
-
 100090744={ #    Pss        Luise                     Sviatopolk-Mirsky                        (1827-1867)     0 [RADZIWIL]
 	name="Luise Sviatopolk-Mirsky"
 	female=yes
@@ -1964,6 +1995,45 @@ lowborn_2954={ #            Zbigniew                  Firlej                    
 	1737.01.01={death=yes}
 }
 
+lowborn_2881={ #            Barbara                   Jordan                                   (1544-1605)     0 [WISNIOWIECKI]
+	name="Barbara Jordan"
+	female=yes
+	religion=catholic culture=polish
+	1544.01.01={birth=yes}  # EST.
+	1605.01.01={death=yes}
+}
+100086078={ #               Zygmunt                   Jordan                                   (1901-1982)     - [POTOCKI]
+	name="Zygmunt Jordan"
+	#dynasty=0
+	religion=catholic culture=polish
+	1901.01.01={birth=yes}
+	1930.01.01={add_spouse=100114435}	# Ludwika Potocki
+	1982.01.01={death=yes}
+}
+lowborn_1964={ #            Aniela                    Jordan z Myślenic                        (1740-1812)     1 [GOLUCHOWSKI]
+	name="Aniela Jordan z Myślenic"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1740.01.01={birth=yes}
+	1812.01.01={death=yes}
+}
+100086080={ #               Teresa Zofia              Jordan-Rozwadowski                       (1951-    )     3 [POTOCKI]
+	name="Teresa Zofia Jordan-Rozwadowski"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1951.10.14={birth=yes}
+}
+100086083={ #               Jerzy Jozef               Jordan-Stojowski                         (1898-1995)     - [POTOCKI]
+	name="Jerzy Jozef Jordan-Stojowski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1898.10.13={birth=yes}  # Lvov
+	1932.04.28={add_spouse=100114281}	# Maria Potocki
+	1995.04.19={death=yes}  # Pruszków
+}
+
 100098003={ #               Dorota                    Stecki                                   (1794-1854)     1 [LUBOMIRSKI]
 	name="Dorota Stecki"
 	female=yes
@@ -2003,70 +2073,6 @@ lowborn_2954={ #            Zbigniew                  Firlej                    
 	religion=catholic culture=polish
 	1888.01.01={birth=yes}
 	1977.01.01={death=yes}  # Wroclaw
-}
-
-100080305={ #    Ct         Sebastian                 Badeni                                   (1799-1872)     - [POTOCKI]
-	name="Sebastian Badeni"
-	#dynasty=0
-	religion=catholic culture=polish
-	1799.01.01={birth=yes}
-	1825.11.10={add_spouse=100111650}	# Tereza Potocki
-	1872.01.01={death=yes}
-}
-100080304={ #    Css        Wanda                     Badeni                                   (1874-1950)     0 [ZAMOYSKI]
-	name="Wanda Badeni"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1874.08.29={birth=yes}
-	1950.12.03={death=yes}
-}
-100080307={ #    Css        Helene                    Badeni                                   (1877-1963)     3 [POTOCKI]
-	name="Helene Badeni"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1877.08.07={birth=yes}  # Branice
-	1963.07.02={death=yes}  # Krakow
-}
-100080306={ #               Isabella                  Badeni                                   (1943-    )     0 [TARNOWSKI]
-	name="Isabella Badeni"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1943.05.29={birth=yes}  # Jerusalem
-}
-
-lowborn_2897={ #            Waclaw                    Baworowski                               (1529-1554)     - [WISNIOWIECKI]
-	name="Waclaw Baworowski"
-	religion=catholic culture=polish
-	1529.01.01={birth=yes}  # EST.
-	1553.01.01={add_spouse=wisniow_0030}	# Elzbieta Wiśniowiecki
-	1554.01.01={death=yes}  # EST.
-}
-100080477={ #    Ct         Jerzy                     Baworowski                               (1870-1933)     - [ZAMOYSKI]
-	name="Jerzy Baworowski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1870.12.29={birth=yes}
-	1909.08.05={add_spouse=100110447}	# Katarzyna Zamoyski
-	1933.09.06={death=yes}
-}
-100094085={ #    Gfn        Maria Anna                Baworowski                               (1902-1988)     8 [SCHONBURG]
-	name="Maria Anna Baworowski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1902.09.16={birth=yes}  # Kopyczynce
-	1988.11.24={death=yes}  # Bendorf
-}
-100081511={ #    Gfn        Franciszka                Baworowski                               (1903-1963)     0 [SEILERN]
-	name="Franciszka Baworowski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1903.01.01={birth=yes}	# Kopyczynca
-	1963.09.07={death=yes}	# Zürich
 }
 
 lowborn_1751={ #            Агриппина                 Korecki                                  (1383-1435)     5 [RJURIKOVIC]
@@ -2264,6 +2270,39 @@ lowborn_4185={ # Ct         Jan-Krystyn               Ostrowski                 
 	1981.02.06={death=yes}  # Cracow
 }
 
+lowborn_3124={ #            Tekla                     Rzyszczewska                             (1759-1831)     1 [BAWOROWSKI]
+	name="Tekla Rzyszczewska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1759.01.01={birth=yes}
+	1831.01.01={death=yes}
+}
+100098808={ #               Stanislaus                Rzyszczewski                             (1780-1857)     - [CZARTORYSKI]
+	name="Stanislaus Rzyszczewski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1780.01.01={birth=yes}
+	1812.01.01={add_spouse=100110116}	# Celestyna Czartoryski
+	1857.01.01={death=yes}
+}
+100089777={ #    Ct         Leon                      Rzyszczewski                             (1815-1882)     - [RADZIWIL]
+	name="Leon Rzyszczewski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1815.02.12={birth=yes}
+	1836.01.23={add_spouse=100110838}	# Michalina Radziwiłł
+	1882.07.23={death=yes}
+}
+100089776={ #    Ct         Michal                    Rzyszczewski                             (1840-1881)     - [RADZIWIL]
+	name="Michal Rzyszczewski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1840.12.17={birth=yes}
+	1874.01.28={add_spouse=100110748}	# Eufemia Radziwiłł
+	1881.09.09={death=yes}
+}
+
 100101451={ #               Hieronim Adam             Sieniawski                               (1610-1685)     - [POTOCKI]
 	name="Hieronim Adam Sieniawski"
 	#dynasty=0
@@ -2395,6 +2434,37 @@ lowborn_4185={ # Ct         Jan-Krystyn               Ostrowski                 
 	1886.01.13={death=yes}
 }
 
+lowborn_4166={ #            Anna                      Brzozowska                               (1880-1964)     8 [BROEL]
+	name="Anna Brzozowska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1880.07.13={birth=yes}  # Cracow
+	1964.12.20={death=yes}  # Cracow
+}
+lowborn_5778={ #            Maria                     Brzozowska z Brzozowa                    (1922-1995)     - [DZIEDUSZYCKI]
+	name="Maria Brzozowska z Brzozowa"
+	#dynasty=0
+	religion=catholic culture=polish
+	1922.01.01={birth=yes}
+	1995.01.01={death=yes}
+}
+100084251={ #               Maria Ivanovna            Brzozowski                               (1899-1974)     0 [BAGRATION]
+	name="Maria Ivanovna Brzozowski"
+	female=yes
+	#dynasty=0
+	religion=orthodox culture=polish
+	1899.01.01={birth=yes}
+	1974.01.01={death=yes}  # EST.
+}
+100081033={ #               Dorothea                  Brzozowski                               (1944-    )     1 [LUBOMIRSKI]
+	name="Dorothea Brzozowski"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1944.05.27={birth=yes}
+}
+
 lowborn_2994={ #            Hrihory                   Chodkiewicz                              (1519-1572)     - [WISNIOWIECKI]
 	name="Hrihory Chodkiewicz"
 	religion=catholic culture=polish
@@ -2490,37 +2560,6 @@ lowborn_4262={ #            Walerian                  Holynski                  
 	1925.06.21={death=yes}
 }
 
-lowborn_2881={ #            Barbara                   Jordan                                   (1544-1605)     0 [WISNIOWIECKI]
-	name="Barbara Jordan"
-	female=yes
-	religion=catholic culture=polish
-	1544.01.01={birth=yes}  # EST.
-	1605.01.01={death=yes}
-}
-100086078={ #               Zygmunt                   Jordan                                   (1901-1982)     - [POTOCKI]
-	name="Zygmunt Jordan"
-	#dynasty=0
-	religion=catholic culture=polish
-	1901.01.01={birth=yes}
-	1930.01.01={add_spouse=100114435}	# Ludwika Potocki
-	1982.01.01={death=yes}
-}
-100086080={ #               Teresa Zofia              Jordan-Rozwadowski                       (1951-    )     3 [POTOCKI]
-	name="Teresa Zofia Jordan-Rozwadowski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1951.10.14={birth=yes}
-}
-100086083={ #               Jerzy Jozef               Jordan-Stojowski                         (1898-1995)     - [POTOCKI]
-	name="Jerzy Jozef Jordan-Stojowski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1898.10.13={birth=yes}  # Lvov
-	1932.04.28={add_spouse=100114281}	# Maria Potocki
-	1995.04.19={death=yes}  # Pruszków
-}
-
 100083713={ #               Zofia                     Opalinski                                (1579-1626)     0 [LESZCZYNSKI]
 	name="Zofia Opalinski"
 	female=yes
@@ -2585,6 +2624,38 @@ lowborn_2881={ #            Barbara                   Jordan                    
 	1753.02.28={birth=yes}
 	1773.02.01={add_spouse=100111085}	# Maria Alexandra Radziwiłł
 	1774.02.01={death=yes}
+}
+
+lowborn_2796={ #            Katarzyna                 Stadnicka ze Stadnik                     (1763-1846)     3 [BADENI]
+	name="Katarzyna Stadnicka ze Stadnik"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1763.01.01={birth=yes}
+	1846.01.21={death=yes}	# Kraków
+}
+100082265={ #               Tekla                     Stadnicki                                (1775-1843)     1 [STADNICKI]
+	name="Tekla Stadnicki"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1775.01.01={birth=yes}
+	1843.01.01={death=yes}
+}
+100096868={ #               Kazimierz Eustachy        Stadnicki                                (1838-1913)     - [RZEWUSKI]
+	name="Kazimierz Eustachy Stadnicki"
+	#dynasty=0
+	religion=catholic culture=polish
+	1838.01.01={birth=yes}  # EST.
+	1863.06.30={add_spouse=100112545}	# Maria Rzewuski
+	1913.01.01={death=yes}  # EST.
+}
+100090498={ #               Danuta Barbara            Stadnicki                                (1963-    )     3 [POTOCKI]
+	name="Danuta Barbara Stadnicki"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1963.11.21={birth=yes}  # Chojnice
 }
 
 100094193={ #               Regina                    Suchodolski                              (1596-1671)     1 [ZAMOYSKI]
@@ -2910,31 +2981,6 @@ lowborn_1059={ # Pss        Ludwika                   Puzyna                    
 	2002.01.01={death=yes}  # EST.
 }
 
-100098808={ #               Stanislaus                Rzyszczewski                             (1780-1857)     - [CZARTORYSKI]
-	name="Stanislaus Rzyszczewski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1780.01.01={birth=yes}
-	1812.01.01={add_spouse=100110116}	# Celestyna Czartoryski
-	1857.01.01={death=yes}
-}
-100089777={ #    Ct         Leon                      Rzyszczewski                             (1815-1882)     - [RADZIWIL]
-	name="Leon Rzyszczewski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1815.02.12={birth=yes}
-	1836.01.23={add_spouse=100110838}	# Michalina Radziwiłł
-	1882.07.23={death=yes}
-}
-100089776={ #    Ct         Michal                    Rzyszczewski                             (1840-1881)     - [RADZIWIL]
-	name="Michal Rzyszczewski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1840.12.17={birth=yes}
-	1874.01.28={add_spouse=100110748}	# Eufemia Radziwiłł
-	1881.09.09={death=yes}
-}
-
 lowborn_4271={ #            Maria                     Zabiello                                 (1754-1829)     5 [BROEL]
 	name="Maria Zabiello"
 	female=yes
@@ -3007,6 +3053,28 @@ lowborn_1773={ # Pr         Andrzej                   Sanguszko                 
 	1968.11.16={add_spouse=100111737}	# Krystyna Maria Lubomirski
 }
 
+lowborn_3026={ #            Euphrozyna Eulalia        Tarnowska                                (1619-1645)     1 [WISNIOWIECKI]
+	name="Euphrozyna Eulalia Tarnowska"
+	female=yes
+	religion=catholic culture=polish
+	1619.01.01={birth=yes}  # EST.
+	1645.01.01={death=yes}
+}
+lowborn_0113={ #            Zsófia                    Tarnowska                                (1626-1701)     0 [ILESHAZY]
+	name="Zsófia Tarnowska"
+	female=yes
+	religion=catholic culture=polish
+	1626.01.01={birth=yes}  # EST.
+	1701.12.01={death=yes}  # EST.
+}
+lowborn_3109={ # Css        Marianna                  Tarnowska z Tarnowa                      (1740-    )     1 [MIER]
+	name="Marianna Tarnowska z Tarnowa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1740.01.01={birth=yes}  # EST.
+}
+
 100102784={ #    Css        Teresa                    Wielopolski                              (1680-1718)     0 [SAPIEHA]
 	name="Teresa Wielopolski"
 	female=yes
@@ -3029,30 +3097,6 @@ lowborn_1895={ #            Elzbieta                  Wielopolsky de Wielopole  
 	religion=lutheran culture=polish
 	1535.01.01={birth=yes}  # EST.
 	1595.01.01={death=yes}  # EST.
-}
-
-lowborn_4166={ #            Anna                      Brzozowska                               (1880-1964)     8 [BROEL]
-	name="Anna Brzozowska"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1880.07.13={birth=yes}  # Cracow
-	1964.12.20={death=yes}  # Cracow
-}
-100084251={ #               Maria Ivanovna            Brzozowski                               (1899-1974)     0 [BAGRATION]
-	name="Maria Ivanovna Brzozowski"
-	female=yes
-	#dynasty=0
-	religion=orthodox culture=polish
-	1899.01.01={birth=yes}
-	1974.01.01={death=yes}  # EST.
-}
-100081033={ #               Dorothea                  Brzozowski                               (1944-    )     1 [LUBOMIRSKI]
-	name="Dorothea Brzozowski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1944.05.27={birth=yes}
 }
 
 100081027={ #               Stanisław                 Brzostowski                              (1745-1769)     - [RADZIWIL]
@@ -3129,6 +3173,30 @@ lowborn_4277={ #            Dominik Wawrzyniec        Dowgiallo                 
 	1970.01.01={add_spouse=100113089}	# Anna Chodkiewicz
 }
 
+lowborn_4162={ #            Zofia                     Dzierzykraj-Morawska                     (1848-1915)     5 [BROEL]
+	name="Zofia Dzierzykraj-Morawska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1848.01.01={birth=yes}  # Jurkowo
+	1915.07.01={death=yes}  # Vienna
+}
+100083563={ #               Crzystof                  Dzierzykraj-Morawski                     (1955-    )     - [POTOCKI]
+	name="Crzystof Dzierzykraj-Morawski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1955.05.07={birth=yes}  # Kielcki
+	1981.12.26={add_spouse=100114260}	# Izabella Potocki
+}
+lowborn_5814={ #            Andrzej Feliks            Dzierżykraj-Morawski z Chomęcic          (1925-1983)     - [DZIEDUSZYCKI]
+	name="Andrzej Feliks Dzierżykraj-Morawski z Chomęcic"
+	#dynasty=0
+	religion=catholic culture=polish
+	1925.01.01={birth=yes}
+	1950.01.01={add_spouse=dzieduszycki_0027}	# Agnieszka Jadwiga Maria Dzieduszycki
+	1983.01.01={death=yes}
+}
+
 100101357={ #               Zofia                     Gorajski                                 (1599-1674)     0 [POTOCKI]
 	name="Zofia Gorajski"
 	female=yes
@@ -3152,6 +3220,30 @@ lowborn_4277={ #            Dominik Wawrzyniec        Dowgiallo                 
 	1902.01.01={birth=yes}
 	1927.01.15={add_spouse=100113129}	# Anna Maria Mycielski
 	1931.01.01={death=yes}
+}
+
+lowborn_4285={ #            Tytus                     Gorski                                   (1844-1880)     - [BROEL]
+	name="Tytus Gorski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1844.01.01={birth=yes}  # EST.
+	1868.01.01={add_spouse=broel_0104}	# Emma von dem Broel gt Plater
+	1880.01.01={death=yes}
+}
+lowborn_4250={ #            Ludwika                   Górska                                   (1765-1825)     1 [BROEL]
+	name="Ludwika Górska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1765.01.01={birth=yes}  # EST.
+	1825.01.01={death=yes}  # EST.
+}
+100096920={ #               Konstanty                 Górski                                   (1827-1901)     - [GOLICYN]
+	name="Konstanty Górski"
+	religion=catholic culture=polish
+	1827.07.08={birth=yes}  # Warsaw
+	1865.02.02={add_spouse=100016391}	# Юлия Сергеевна Голицын
+	1901.03.01={death=yes}  # Warsaw
 }
 
 100084394={ #               Antoni                    Granowski                                (1753-1833)     - [RADZIWIL]
@@ -3204,6 +3296,31 @@ lowborn_4277={ #            Dominik Wawrzyniec        Dowgiallo                 
 	1882.01.01={death=yes}  # EST.
 }
 
+lowborn_3668={ #            Antonila                  Gromnicka                                (1780-1836)     1 [DZIEDUSZYCKI]
+	name="Antonila Gromnicka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1780.01.01={birth=yes}
+	1836.01.01={death=yes}
+}
+100084472={ #               Jan                       Gromnicki                                (1929-2003)     - [CZARTORYSKI]
+	name="Jan Gromnicki"
+	#dynasty=0
+	religion=catholic culture=polish
+	1929.04.29={birth=yes}
+	1962.05.26={add_spouse=100110243}	# Maria Krystyna Czartoryski
+	2003.11.06={death=yes}
+}
+100084473={ #               Jerzy                     Gromnicki                                (1930-1997)     - [POTOCKI]
+	name="Jerzy Gromnicki"
+	#dynasty=0
+	religion=catholic culture=polish
+	1930.04.23={birth=yes}
+	1959.11.28={add_spouse=100111533}	# Elzbieta Potocki
+	1997.12.28={death=yes}
+}
+
 100101375={ #               Jakub                     Kalinowski                               (1526-1601)     - [POTOCKI]
 	name="Jakub Kalinowski"
 	#dynasty=0
@@ -3254,6 +3371,30 @@ lowborn_4146={ #            Marianna                  Karp                      
 	1816.01.01={death=yes}
 }
 
+100086627={ #               Stanislaus                Karski                                   (1842-1890)     - [SWIATOPELK]
+	name="Stanislaus Karski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1842.01.01={birth=yes}
+	1867.01.01={add_spouse=100112338}	# Jadwiga Swiatopelk-Czetwertynski
+	1890.08.24={death=yes}
+}
+100086626={ #               Elzbieta                  Karski                                   (1940-    )     2 [RADZIWIL]
+	name="Elzbieta Karski"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1940.09.18={birth=yes}
+}
+lowborn_5781={ #            Andrzej Marian            Karski z Kars                            (1904-1990)     - [DZIEDUSZYCKI]
+	name="Andrzej Marian Karski z Kars"
+	#dynasty=0
+	religion=catholic culture=polish
+	1904.01.01={birth=yes}
+	1945.01.01={add_spouse=dzieduszycki_0016}	# Elżbieta Dzieduszycki
+	1990.01.01={death=yes}
+}
+
 100098067={ #               Stanisław                 Koniecpolski                             (1594-1646)     - [LUBOMIRSKI]
 	name="Stanisław Koniecpolski"
 	#dynasty=0
@@ -3301,24 +3442,24 @@ lowborn_3011={ #            Stanislaw                 Koniecpolski              
 	1972.01.01={birth=yes}  # EST.
 }
 
-100080940={ #               Anna                      Lanckoronski                             (1606-1681)     2 [ZAMOYSKI]
-	name="Anna Lanckoronski"
+100080940={ #               Anna                      Lanckoroński                             (1606-1681)     2 [ZAMOYSKI]
+	name="Anna Lanckoroński"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=polish
 	1606.01.01={birth=yes}  # EST.
 	1681.01.01={death=yes}  # EST.
 }
-100098078={ #               Maciej                    Lanckoronski                             (1723-1789)     - [JABLONOWSKI]
-	name="Maciej Lanckoronski"
+100098078={ #               Maciej                    Lanckoroński                             (1723-1789)     - [JABLONOWSKI]
+	name="Maciej Lanckoroński"
 	#dynasty=0
 	religion=catholic culture=polish
 	1723.01.01={birth=yes}
-	1766.01.01={add_spouse=100112613}	# Anna Dobrogniewa Jablonowski
+	1766.01.01={add_spouse=100112613}	# Anna Dobrogniewa Jabłonowski
 	1789.01.01={death=yes}
 }
-100095888={ #               Antoni Józef              Lanckoronski                             (1761-1830)     - [RZEWUSKI]
-	name="Antoni Józef Lanckoronski"
+100095888={ #               Antoni Józef              Lanckoroński                             (1761-1830)     - [RZEWUSKI]
+	name="Antoni Józef Lanckoroński"
 	#dynasty=0
 	religion=catholic culture=polish
 	1761.05.08={birth=yes}  # Zwaniec
@@ -3425,30 +3566,6 @@ lowborn_3011={ #            Stanislaw                 Koniecpolski              
 	1975.08.16={add_spouse=100110168}	# Katarzyna Czartoryski
 }
 
-100082265={ #               Tekla                     Stadnicki                                (1775-1843)     1 [STADNICKI]
-	name="Tekla Stadnicki"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1775.01.01={birth=yes}
-	1843.01.01={death=yes}
-}
-100096868={ #               Kazimierz Eustachy        Stadnicki                                (1838-1913)     - [RZEWUSKI]
-	name="Kazimierz Eustachy Stadnicki"
-	#dynasty=0
-	religion=catholic culture=polish
-	1838.01.01={birth=yes}  # EST.
-	1863.06.30={add_spouse=100112545}	# Maria Rzewuski
-	1913.01.01={death=yes}  # EST.
-}
-100090498={ #               Danuta Barbara            Stadnicki                                (1963-    )     3 [POTOCKI]
-	name="Danuta Barbara Stadnicki"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1963.11.21={birth=yes}  # Chojnice
-}
-
 100096297={ #               Eufrozyna                 Stanislawski                             (1629-1668)     0 [CZARTORYSKI]
 	name="Eufrozyna Stanislawski"
 	female=yes
@@ -3548,12 +3665,27 @@ lowborn_3023={ #            Kazimierz                 Tarło                    
 	1992.01.01={death=yes}  # EST.
 }
 
+100080305={ #    Ct         Sebastian                 Badeni                                   (1799-1872)     - [POTOCKI]
+	name="Sebastian Badeni"
+	#dynasty=0
+	religion=catholic culture=polish
+	1799.01.01={birth=yes}
+	1825.11.10={add_spouse=100111650}	# Tereza Potocki
+	1872.01.01={death=yes}
+}
+100080306={ #               Isabella                  Badeni                                   (1943-    )     0 [TARNOWSKI]
+	name="Isabella Badeni"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1943.05.29={birth=yes}  # Jerusalem
+}
 100098088={ #    Ct         Julian                    Bielski                                  (1862-1941)     - [JABLONOWSKI]
 	name="Julian Bielski"
 	#dynasty=0
 	religion=catholic culture=polish
 	1862.02.28={birth=yes}  # Lwów
-	1904.01.09={add_spouse=100112630}	# Eleonora Jablonowski
+	1904.01.09={add_spouse=100112630}	# Eleonora Jabłonowski
 	1941.11.04={death=yes}  # Usztobe Kazachstan
 }
 100080651={ #    Gf         Roman                     Bielski                                  (1906-1965)     - [SAPIEHA]
@@ -3580,28 +3712,12 @@ lowborn_3023={ #            Kazimierz                 Tarło                    
 	1855.06.10={add_spouse=100111672}	# Maria Anna Lubomirski
 	1858.05.19={death=yes}
 }
-100084296={ #    Ct         Agénor                    Goluchowski                              (1849-1921)     0 [MURAT]
-	name="Agénor Goluchowski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1849.03.25={birth=yes}
-	1921.03.23={death=yes}
-}
-100095496={ #    Gf         Józef                     Goluchowski                              (1870-1945)     - [PALFY]
-	name="Józef Goluchowski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1870.01.01={birth=yes}
-	1895.01.01={add_spouse=100118215}	# Bianka Pálffy ab Erdöd
-	1945.01.01={death=yes}
-}
 100098008={ #    Ct         Józef                     Husarzewski                              (1839-1914)     - [JABLONOWSKI]
 	name="Józef Husarzewski"
 	#dynasty=0
 	religion=catholic culture=polish
 	1839.01.01={birth=yes}  # EST.
-	1864.04.06={add_spouse=100112622}	# Karolina Jablonowski
+	1864.04.06={add_spouse=100112622}	# Karolina Jabłonowski
 	1914.01.01={death=yes}  # EST.
 }
 100085324={ #    Css        Eleonore                  Husarzewski                              (1866-1940)     4 [LUBOMIRSKI]
@@ -3611,6 +3727,20 @@ lowborn_3023={ #            Kazimierz                 Tarło                    
 	religion=catholic culture=polish
 	1866.06.05={birth=yes}
 	1940.01.01={death=yes}
+}
+100102961={ #    Gf         Georg                     Jaxa von Groß-Konary-Konarski            (1884-1936)     - [SULKOWSKI]
+	name="Georg Jaxa von Groß-Konary-Konarski"
+	#dynasty=0
+	religion=catholic culture=german
+	1884.04.18={birth=yes}  # Wien
+	1912.06.11={add_spouse=100035623}	# Maria Aleksandra Sułkowski
+	1936.10.10={death=yes}  # Grodówice
+}
+lowborn_5785={ #            Barbara Maria             Jaxa-Konarska                            (1937-    )     - [DZIEDUSZYCKI]
+	name="Barbara Maria Jaxa-Konarska"
+	#dynasty=0
+	religion=catholic culture=polish
+	1937.01.01={birth=yes}
 }
 100086617={ #               Adela                     Karnicki                                 (1811-1883)     8 [RADZIWIL]
 	name="Adela Karnicki"
@@ -3643,13 +3773,6 @@ lowborn_4190={ #            Edmund                    Moczynski                 
 	1919.01.01={birth=yes}  # EST.
 	1944.07.29={add_spouse=broel_0018}	# Stefania von dem Broel gt Plater
 	1989.01.01={death=yes}  # EST.
-}
-lowborn_2907={ #            N                         Muszat                                   (1477-1523)     0 [WISNIOWIECKI]
-	name="N Muszat"
-	female=yes
-	religion=orthodox culture=vlach
-	1477.01.01={birth=yes}  # EST.
-	1523.01.01={death=yes}  # before
 }
 100098050={ #               Anna Zofia                Ozarowski                                (1717-1759)     2 [LUBOMIRSKI]
 	name="Anna Zofia Ozarowski"
@@ -3696,6 +3819,22 @@ lowborn_3029={ # Pr         Mikołaj                   Radziwiłł              
 	1546.01.01={birth=yes}
 	1574.01.01={add_spouse=wisniow_0086}	# Aleksandra Wiśniowiecki
 	1589.01.01={death=yes}
+}
+lowborn_4109={ #            Gustav                    Rawita von Ostrow-Ostrowski              (1860-1923)     - [HAUGWITZ]
+	name="Gustav Rawita von Ostrow-Ostrowski"
+	#dynasty=0
+	religion=lutheran culture=german
+	1860.11.14={birth=yes}  # Warszawa
+	1896.06.02={add_spouse=haugwitz_0101}	# Eugenia von Haugwitz
+	1923.02.06={death=yes}  # Bad Wörishofen
+}
+lowborn_5636={ # Ct         Witold Ludwik             Rawita-Ostrowski                         (1864-1916)     - [BAWOROWSKI]
+	name="Witold Ludwik Rawita-Ostrowski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1864.01.01={birth=yes}
+	1890.01.01={add_spouse=baworowski_0007}	# Franciszka Baworowski
+	1916.01.01={death=yes}
 }
 lowborn_1586={ #            Feodora                   Rohatynska                               (1453-1512)     0 [JAGIELO]
 	name="Feodora Rohatynska"
@@ -3773,6 +3912,22 @@ lowborn_3010={ # Pss        Teofila Ludwika           Zaslawski                 
 	religion=catholic culture=polish
 	1663.01.01={birth=yes}  # EST.
 	1709.12.18={death=yes}
+}
+100094779={ #               Marianna                  Szeptycki                                (1764-1839)     1 [JABLONOWSKI]
+	name="Marianna Szeptycki"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1764.01.01={birth=yes}  # EST.
+	1839.01.01={death=yes}  # EST.
+}
+lowborn_5776={ # Ct         Kazimierz Jan             Szeptycki z Przyłbic                     (1907-1994)     - [DZIEDUSZYCKI]
+	name="Kazimierz Jan Szeptycki z Przyłbic"
+	#dynasty=0
+	religion=catholic culture=polish
+	1907.01.01={birth=yes}
+	1935.01.01={add_spouse=dzieduszycki_0010}	# Anna Maria Dzieduszycki
+	1994.01.01={death=yes}
 }
 100090252={ #    Ct         Adam                      Sierakowski                              (1846-1912)     - [POTOCKI]
 	name="Adam Sierakowski"
@@ -3856,22 +4011,6 @@ lowborn_4352={ # Ct         Mieczyslaw                Wielhorski                
 	1849.01.01={birth=yes}
 	1929.01.01={death=yes}
 }
-lowborn_3288={ #            Maria Pia                 Baworów-Bawarówski                       (1869-1930)     8 [MITROWSKY]
-	name="Maria Pia Baworów-Bawarówski"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=bavarian
-	1869.07.02={birth=yes}  # Wien
-	1930.02.09={death=yes}  # Sokolnice
-}
-lowborn_4103={ #            Zofia                     Baworów-Baworowska                       (1880-1913)     3 [HAUGWITZ]
-	name="Zofia Baworów-Baworowska"
-	female=yes
-	#dynasty=0
-	religion=lutheran culture=german
-	1880.05.24={birth=yes}  # Wien
-	1913.03.08={death=yes}  # Untermais bei Meran
-}
 100080766={ #               Stanisław                 Boguslawski                              (1922-2006)     - [RADZIWIL]
 	name="Stanisław Boguslawski"
 	#dynasty=0
@@ -3886,6 +4025,20 @@ lowborn_4103={ #            Zofia                     Baworów-Baworowska       
 	#dynasty=0
 	religion=catholic culture=polish
 	1937.11.12={birth=yes}
+}
+lowborn_5765={ #            Izabela                   Bojanowska z Bojanowa                    (1928-2020)     - [DZIEDUSZYCKI]
+	name="Izabela Bojanowska z Bojanowa"
+	#dynasty=0
+	religion=catholic culture=polish
+	1928.01.01={birth=yes}
+	2020.01.01={death=yes}
+}
+100090640={ #               Elzbieta                  Bojanowski                               (1957-    )     2 [CHODKIEWICZ]
+	name="Elzbieta Bojanowski"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1957.01.01={birth=yes}  # EST.
 }
 100102792={ #               Krystyna                  Branicki                                 (1689-1761)     1 [SAPIEHA]
 	name="Krystyna Branicki"
@@ -3994,6 +4147,22 @@ lowborn_2896={ #            Stanislaw                 Czerminski                
 	1553.01.01={add_spouse=wisniow_0029}	# Malgorzata Wiśniowiecki
 	1589.01.01={death=yes}  # EST.
 }
+100090641={ #               Andrzej                   Czyz                                     (1938-2015)     - [CHODKIEWICZ]
+	name="Andrzej Czyz"
+	#dynasty=0
+	religion=catholic culture=polish
+	1938.01.01={birth=yes}  # EST.
+	1963.01.01={add_spouse=100113088}	# Helena Chodkiewicz
+	2015.01.01={death=yes}  # EST.
+}
+lowborn_2713={ #            Zofia Józefa              Czyż                                     (1785-1846)     1 [GOLUCHOWSKI]
+	name="Zofia Józefa Czyż"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1785.01.01={birth=yes}
+	1846.01.01={death=yes}
+}
 100081802={ #               N                         Czudowski                                (1796-1876)     - [RADZIWIL]
 	name="N Czudowski"
 	#dynasty=0
@@ -4071,21 +4240,6 @@ lowborn_4361={ #            Karol                     Czudowski                 
 	religion=catholic culture=polish
 	1906.12.13={birth=yes}
 	1995.01.19={death=yes}
-}
-lowborn_4162={ #            Zofia                     Dzierzykraj-Morawska                     (1848-1915)     5 [BROEL]
-	name="Zofia Dzierzykraj-Morawska"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1848.01.01={birth=yes}  # Jurkowo
-	1915.07.01={death=yes}  # Vienna
-}
-100083563={ #               Crzystof                  Dzierzykraj-Morawski                     (1955-    )     - [POTOCKI]
-	name="Crzystof Dzierzykraj-Morawski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1955.05.07={birth=yes}  # Kielcki
-	1981.12.26={add_spouse=100114260}	# Izabella Potocki
 }
 lowborn_2935={ #            Helena                    Jelowicki                                (1565-1587)     0 [WISNIOWIECKI]
 	name="Helena Jelowicki"
@@ -4182,38 +4336,6 @@ lowborn_3242={ #            Maria                     Gniewosz von Olexow       
 	1824.04.11={birth=yes}
 	1899.01.01={death=yes}  # EST.
 }
-lowborn_4285={ #            Tytus                     Gorski                                   (1844-1880)     - [BROEL]
-	name="Tytus Gorski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1844.01.01={birth=yes}  # EST.
-	1868.01.01={add_spouse=broel_0104}	# Emma von dem Broel gt Plater
-	1880.01.01={death=yes}
-}
-lowborn_4250={ #            Ludwika                   Górska                                   (1765-1825)     1 [BROEL]
-	name="Ludwika Górska"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1765.01.01={birth=yes}  # EST.
-	1825.01.01={death=yes}  # EST.
-}
-100084472={ #               Jan                       Gromnicki                                (1929-2003)     - [CZARTORYSKI]
-	name="Jan Gromnicki"
-	#dynasty=0
-	religion=catholic culture=polish
-	1929.04.29={birth=yes}
-	1962.05.26={add_spouse=100110243}	# Maria Krystyna Czartoryski
-	2003.11.06={death=yes}
-}
-100084473={ #               Jerzy                     Gromnicki                                (1930-1997)     - [POTOCKI]
-	name="Jerzy Gromnicki"
-	#dynasty=0
-	religion=catholic culture=polish
-	1930.04.23={birth=yes}
-	1959.11.28={add_spouse=100111533}	# Elzbieta Potocki
-	1997.12.28={death=yes}
-}
 lowborn_2866={ #            Anna                      Herburt                                  (1495-1558)     7 [WISNIOWIECKI]
 	name="Anna Herburt"
 	female=yes
@@ -4228,6 +4350,37 @@ lowborn_2866={ #            Anna                      Herburt                   
 	religion=catholic culture=polish
 	1622.01.01={birth=yes}  # EST.
 	1697.01.01={death=yes}  # EST.
+}
+lowborn_3843={ #            Katarzyna                 Humnicka                                 (1740-    )     1 [LEWICKI]
+	name="Katarzyna Humnicka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1740.01.01={birth=yes}
+}
+100098030={ #               Stefan                    Humnicki                                 (1893-1965)     - [LUBOMIRSKI]
+	name="Stefan Humnicki"
+	#dynasty=0
+	religion=catholic culture=polish
+	1893.05.24={birth=yes}  # Ruskow
+	1933.03.27={add_spouse=100111317}	# Zofia Lubomirski
+	1965.10.07={death=yes}  # Brazil
+}
+100101366={ #               Jacek                     Jablonowski                              (1624-1699)     - [POTOCKI]
+	name="Jacek Jablonowski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1624.01.01={birth=yes}
+	1644.01.01={add_spouse=100114054}	# Helena Potocki
+	1699.01.01={death=yes}  # EST.
+}
+lowborn_3606={ #            Maria Michalina Wanda     Jabłonowska z Jabłonowa                  (1891-1941)     0 [BADENI]
+	name="Maria Michalina Wanda Jabłonowska z Jabłonowa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1891.01.01={birth=yes}
+	1941.01.01={death=yes}
 }
 100085659={ #               Eva                       Jaroszynski                              (1808-1880)     4 [SWIATOPELK]
 	name="Eva Jaroszynski"
@@ -4277,20 +4430,21 @@ lowborn_2866={ #            Anna                      Herburt                   
 	1721.01.01={birth=yes}  # EST.
 	1768.01.01={death=yes}
 }
-100086627={ #               Stanislaus                Karski                                   (1842-1890)     - [SWIATOPELK]
-	name="Stanislaus Karski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1842.01.01={birth=yes}
-	1867.01.01={add_spouse=100112338}	# Jadwiga Swiatopelk-Czetwertynski
-	1890.08.24={death=yes}
-}
-100086626={ #               Elzbieta                  Karski                                   (1940-    )     2 [RADZIWIL]
-	name="Elzbieta Karski"
+lowborn_5834={ #            Katarzyna Konstancja      Kaczkowska z Kaczek                      (1767-1837)     3 [LEWICKI]
+	name="Katarzyna Konstancja Kaczkowska z Kaczek"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=polish
-	1940.09.18={birth=yes}
+	1767.01.01={birth=yes}
+	1837.01.01={death=yes}
+}
+100086202={ #               Karel                     Kaczkowski                               (1872-1903)     - [POTOCKI]
+	name="Karel Kaczkowski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1872.01.01={birth=yes}
+	1901.10.26={add_spouse=100114358}	# Cecylia Potocki
+	1903.05.25={death=yes}  # Krosono
 }
 100087229={ #               Elzbieta                  Kazanowski                               (1622-1697)     3 [POTOCKI]
 	name="Elzbieta Kazanowski"
@@ -4323,6 +4477,22 @@ lowborn_2866={ #            Anna                      Herburt                   
 	religion=catholic culture=polish
 	1860.06.16={birth=yes}
 	1930.06.06={death=yes}
+}
+lowborn_5788={ #            Anna                      Komierowska z Komierowa                  (1897-1967)     7 [DZIEDUSZYCKI]
+	name="Anna Komierowska z Komierowa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1897.01.01={birth=yes}
+	1967.01.01={death=yes}
+}
+100086921={ #               Tomasz                    Komierowski                              (1896-1939)     - [ZAMOYSKI]
+	name="Tomasz Komierowski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1896.10.06={birth=yes}
+	1919.01.15={add_spouse=100110481}	# Roza Zamoyski
+	1939.02.01={death=yes}
 }
 100089891={ #               Anna Barbara              Kopci                                    (1620-1707)     5 [SAPIEHA]
 	name="Anna Barbara Kopci"
@@ -4775,6 +4945,22 @@ lowborn_2999={ #            Krysztof Waclaw           Szemiot                   
 	religion=catholic culture=polish
 	1966.01.27={birth=yes}
 }
+lowborn_4233={ #            Hieronim                  Siemienski                               (1911-1969)     - [BROEL]
+	name="Hieronim Siemienski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1911.01.01={birth=yes}  # EST.
+	1936.06.06={add_spouse=broel_0044}	# Joanna von dem Broel gt Plater
+	1969.01.01={death=yes}  # Warsaw
+}
+100095614={ #               Antonina                  Siemienski                               (1922-1996)     4 [SAPIEHA]
+	name="Antonina Siemienski"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1922.09.25={birth=yes}  # Krzepin
+	1996.08.16={death=yes}  # Nairobi
+}
 100080792={ #               Elzbieta                  Zlotnicki                                (1800-1866)     5 [GOLICYN]
 	name="Elzbieta Zlotnicki"
 	female=yes
@@ -4902,20 +5088,6 @@ lowborn_2999={ #            Krysztof Waclaw           Szemiot                   
 	religion=catholic culture=polish
 	1634.01.01={birth=yes}  # EST.
 	1689.01.01={death=yes}
-}
-lowborn_3026={ #            Euphrozyna Eulalia        Tarnowska                                (1619-1645)     1 [WISNIOWIECKI]
-	name="Euphrozyna Eulalia Tarnowska"
-	female=yes
-	religion=catholic culture=polish
-	1619.01.01={birth=yes}  # EST.
-	1645.01.01={death=yes}
-}
-lowborn_0113={ #            Zsófia                    Tarnowska                                (1626-1701)     0 [ILESHAZY]
-	name="Zsófia Tarnowska"
-	female=yes
-	religion=catholic culture=polish
-	1626.01.01={birth=yes}  # EST.
-	1701.12.01={death=yes}  # EST.
 }
 lowborn_1611={ #            Katarzyna                 Teczynska                                (1544-1592)     3 [OLELKOWICZ]
 	name="Katarzyna Teczynska"
@@ -5116,6 +5288,14 @@ lowborn_4272={ # Pr         Stefan                    Giedroyc                  
 	1901.08.19={add_spouse=100111777}	# Jadwiga Lubomirski
 	1937.09.20={death=yes}
 }
+lowborn_3126={ # Css        Agnieszka                 Mier                                     (1760-1835)     2 [MIER]
+	name="Agnieszka Mier"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1760.01.01={birth=yes}
+	1835.01.01={death=yes}
+}
 lowborn_2939={ # Pss        Regina                    Mohylanka of Walachia                    (1588-1620)     4 [WISNIOWIECKI]
 	name="Regina Mohylanka of Walachia"
 	female=yes
@@ -5175,7 +5355,7 @@ lowborn_1742={ # Pr         Yuriy Fyodorovich         Pronski                   
 	#dynasty=0
 	religion=catholic culture=polish
 	1905.09.29={birth=yes}  # Pieski Bielorusia
-	1930.08.25={add_spouse=100112628}	# Zofia Jablonowski
+	1930.08.25={add_spouse=100112628}	# Zofia Jabłonowski
 	1998.01.06={death=yes}  # London
 }
 100089645={ #    Ct         Roman                     Ronikier                                 (1845-1918)     - [LUBOMIRSKI]
@@ -5302,13 +5482,13 @@ lowborn_1618={ # Starost    Hieronim                  von Szafraniec            
 	1958.05.28={add_spouse=100116254}	# Klara Károlyi de Nagykároly
 	1977.09.04={death=yes}	# Buch am Ammersee
 }
-100102961={ #    Gf         Georg                     Jaxa von Groß-Konary-Konarski            (1884-1936)     - [SULKOWSKI]
-	name="Georg Jaxa von Groß-Konary-Konarski"
+100095496={ #    Gf         Józef                     Gołuchowski                              (1870-1945)     - [PALFY]
+	name="Józef Gołuchowski"
 	#dynasty=0
-	religion=catholic culture=german
-	1884.04.18={birth=yes}  # Wien
-	1912.06.11={add_spouse=100035623}	# Maria Aleksandra Sułkowski
-	1936.10.10={death=yes}  # Grodówice
+	religion=catholic culture=polish
+	1870.01.01={birth=yes}
+	1895.01.01={add_spouse=100118215}	# Bianka Pálffy ab Erdöd
+	1945.01.01={death=yes}
 }
 100086924={ #    Gfn        Anna                      Konarski                                 (1937-    )     3 [BATHYANY]
 	name="Anna Konarski"
@@ -5372,8 +5552,8 @@ lowborn_1618={ # Starost    Hieronim                  von Szafraniec            
 	1885.07.11={add_spouse=100116197}	# Clara Károlyi de Nagykároly
 	1939.01.01={death=yes}
 }
-100095453={ #    Gf         Karl                      von Brzezie-Lanckoronski                 (1848-1933)  2  - [LICHNOWSKY, SALM]
-	name="Karl von Brzezie-Lanckoronski"
+100095453={ #    Gf         Karl                      von Brzezie-Lanckoroński                 (1848-1933)  2  - [LICHNOWSKY, SALM]
+	name="Karl von Brzezie-Lanckoroński"
 	#dynasty=0
 	religion=catholic culture=polish
 	1848.11.04={birth=yes}  # Wien
@@ -5402,7 +5582,7 @@ lowborn_1619={ # Gf         Georg                     von Montfort              
 	#dynasty=0
 	religion=catholic culture=polish
 	1895.08.22={birth=yes}  # Beremiany
-	1925.08.11={add_spouse=100112626}	# Karolina Jablonowski
+	1925.08.11={add_spouse=100112626}	# Karolina Jabłonowski
 	1975.08.25={death=yes}  # Wolomin Poland
 }
 lowborn_4264={ #            Teresa                    Aleksandrowicz                           (1771-1831)     0 [BROEL]
@@ -5497,6 +5677,14 @@ lowborn_2888={ #            Mikolaj                   Belzecki                  
 	1841.02.06={birth=yes}
 	1918.02.01={death=yes}
 }
+lowborn_5783={ #            Maciej Zdzich             Bernhardt                                (1923-2017)     - [DZIEDUSZYCKI]
+	name="Maciej Zdzich Bernhardt"
+	#dynasty=0
+	religion=catholic culture=polish
+	1923.01.01={birth=yes}
+	1950.01.01={add_spouse=dzieduszycki_0018}	# Jadwiga Maria Dzieduszycki
+	2017.01.01={death=yes}
+}
 100104240={ #               Jacek                     Biernat                                  (1958-2015)  0  2
 	name="Jacek Biernat"
 	#dynasty=0
@@ -5520,12 +5708,12 @@ lowborn_4283={ #            Herkules                  Bitowt                    
 	1978.07.29={add_spouse=100110971	# Zofia Radziwiłł
 	}
 }
-100090640={ #               Elzbieta                  Bojanowski                               (1957-    )     2 [CHODKIEWICZ]
-	name="Elzbieta Bojanowski"
+lowborn_5681={ #            Róża                      Boguszewicz-Matkowska                    (1810-1870)     2 [DZIEDUSZYCKI]
+	name="Róża Boguszewicz-Matkowska"
 	female=yes
-	#dynasty=0
 	religion=catholic culture=polish
-	1957.01.01={birth=yes}  # EST.
+	1810.01.01={birth=yes}
+	1870.01.01={death=yes}	# EST.
 }
 100098014={ #               Konstancja                Bokumow                                  (1674-1707)     6 [LUBOMIRSKI]
 	name="Konstancja Bokumow"
@@ -5557,6 +5745,14 @@ lowborn_4215={ #            Wieslaw                   Bolejko                   
 	#dynasty=0
 	religion=catholic culture=polish
 	1961.11.08={birth=yes}  # Warsaw
+}
+lowborn_3113={ #            Felicja                   Boruta-Ufniarska                         (1798-1826)     1 [BADENI]
+	name="Felicja Boruta-Ufniarska"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1798.01.01={birth=yes}
+	1826.01.01={death=yes}
 }
 100080832={ #               Tereza                    Bosniacki                                (1725-1785)     1 [SWIATOPELK]
 	name="Tereza Bosniacki"
@@ -5603,6 +5799,12 @@ lowborn_4239={ #            Eugeniusz                 Brzezicki                 
 	religion=catholic culture=polish
 	1558.01.01={birth=yes}
 	1628.01.01={death=yes}
+}
+lowborn_5811={ #            Maria Joanna              Budna z Budnego                          (1936-    )     - [DZIEDUSZYCKI]
+	name="Maria Joanna Budna z Budnego"
+	#dynasty=0
+	religion=catholic culture=polish
+	1936.01.01={birth=yes}
 }
 100101290={ #               Anna                      Bujakowski z Knurova                     (1755-1803)     1 [PODSTATZKY]
 	name="Anna Bujakowski z Knurova"
@@ -5686,7 +5888,7 @@ lowborn_2858={ #            Katarzyna                 Cebrowski                 
 	#dynasty=0
 	religion=catholic culture=polish
 	1898.04.16={birth=yes}  # Lwów
-	1931.06.23={add_spouse=100112627}	# Maria Jablonowski
+	1931.06.23={add_spouse=100112627}	# Maria Jabłonowski
 	1993.05.06={death=yes}  # Kraków
 }
 100081462={ #               Aldona                    Chlapowski                               (1907-1963)     2 [RADZIWIL]
@@ -5810,14 +6012,6 @@ lowborn_2937={ #            Teodora                   Cziaplic                  
 	religion=catholic culture=polish
 	1760.01.01={birth=yes}
 	1830.01.01={death=yes}  # EST.
-}
-100090641={ #               Andrzej                   Czyz                                     (1938-2015)     - [CHODKIEWICZ]
-	name="Andrzej Czyz"
-	#dynasty=0
-	religion=catholic culture=polish
-	1938.01.01={birth=yes}  # EST.
-	1963.01.01={add_spouse=100113088}	# Helena Chodkiewicz
-	2015.01.01={death=yes}  # EST.
 }
 100098010={ #               Antoni Jozef              Dambski                                  (1706-1781)     - [LUBOMIRSKI]
 	name="Antoni Jozef Dambski"
@@ -6084,11 +6278,12 @@ lowborn_0634={ #            Maria Ivanovna            Gasztold                  
 	1751.01.01={birth=yes}
 	1804.01.01={death=yes}
 }
-100084373={ #               Stanisław                 Grabinski                                (1891-1930)     - [POTOCKI]
-	name="Stanisław Grabinski"
+lowborn_5824={ #            Stanisław Bohdan Antoni   Grabiński z Grabna                       (1891-1930)  2  - [DZIEDUSZYCKI, POTOCKI]
+	name="Stanisław Bohdan Antoni Grabiński z Grabna"
 	#dynasty=0
 	religion=catholic culture=polish
 	1891.10.09={birth=yes}  # Chelmica
+	1918.01.09={add_spouse=dzieduszycki_0029}	# Maria Dzieduszycki
 	1921.11.19={add_spouse=100114263}	# Jadwiga Potocki
 	1930.10.11={death=yes}  # Posen
 }
@@ -6139,12 +6334,28 @@ lowborn_0634={ #            Maria Ivanovna            Gasztold                  
 	1696.02.19={add_spouse=100110653}	# Lukrecja Radziwiłł
 	1704.02.01={death=yes}
 }
+lowborn_5813={ #            Olgierd Andrzej           Gzowski                                  (1929-1997)     - [DZIEDUSZYCKI]
+	name="Olgierd Andrzej Gzowski"
+	#dynasty=0
+	religion=catholic culture=polish
+	1929.01.01={birth=yes}
+	1955.01.01={add_spouse=dzieduszycki_0026}	# Barbara Maria Dzieduszycki
+	1997.01.01={death=yes}
+}
 100091135={ #               Michal                    Haller de Hollenburg                     (1949-    )     - [CHODKIEWICZ]
 	name="Michal Haller de Hollenburg"
 	#dynasty=0
 	religion=catholic culture=polish
 	1949.01.01={birth=yes}  # EST.
 	1974.01.01={add_spouse=100113092}	# Krystyna Chodkiewicz
+}
+lowborn_5784={ #            Zbigniew                  Herbert                                  (1924-1998)     - [DZIEDUSZYCKI]
+	name="Zbigniew Herbert"
+	#dynasty=0
+	religion=catholic culture=polish
+	1924.01.01={birth=yes}
+	1950.01.01={add_spouse=dzieduszycki_0019}	# Katarzyna Dzieduszycki
+	1998.01.01={death=yes}
 }
 100097261={ #               Krystyna Barbara          Hlebowicz                                (1647-1695)     4 [SAPIEHA]
 	name="Krystyna Barbara Hlebowicz"
@@ -6170,14 +6381,6 @@ lowborn_4260={ #            Feliks Bozydar            Horodynski                
 	1615.01.01={add_spouse=100114040}	# Krystyna Potocki
 	1670.01.01={death=yes}  # EST.
 }
-100098030={ #               Stefan                    Humnicki                                 (1893-1965)     - [LUBOMIRSKI]
-	name="Stefan Humnicki"
-	#dynasty=0
-	religion=catholic culture=polish
-	1893.05.24={birth=yes}  # Ruskow
-	1933.03.27={add_spouse=100111317}	# Zofia Lubomirski
-	1965.10.07={death=yes}  # Brazil
-}
 100085481={ #               Olgierd                   Iwanski                                  (1925-2005)     - [ZAMOYSKI]
 	name="Olgierd Iwanski"
 	#dynasty=0
@@ -6186,14 +6389,6 @@ lowborn_4260={ #            Feliks Bozydar            Horodynski                
 	1948.01.01={add_spouse=100110478}	# Barbara Zamoyski
 	1963.11.01={remove_spouse=100110478}
 	2005.01.01={death=yes}  # EST.
-}
-100101366={ #               Jacek                     Jablonowski                              (1624-1699)     - [POTOCKI]
-	name="Jacek Jablonowski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1624.01.01={birth=yes}
-	1644.01.01={add_spouse=100114054}	# Helena Potocki
-	1699.01.01={death=yes}  # EST.
 }
 100096270={ #               Jadwiga                   Jaczewski                                (1840-1889)     3 [RZEWUSKI]
 	name="Jadwiga Jaczewski"
@@ -6302,14 +6497,6 @@ lowborn_4219={ #            Jadwiga                   Juhiel                    
 	1960.06.22={birth=yes}
 	1992.02.18={add_spouse=100110074}	# Izabella Czartoryski
 }
-100086202={ #               Karel                     Kaczkowski                               (1872-1903)     - [POTOCKI]
-	name="Karel Kaczkowski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1872.01.01={birth=yes}
-	1901.10.26={add_spouse=100114358}	# Cecylia Potocki
-	1903.05.25={death=yes}  # Krosono
-}
 100086262={ #               Margarethe                Kalwa                                    (1915-1991)     0 [LUBOMIRSKI]
 	name="Margarethe Kalwa"
 	female=yes
@@ -6317,6 +6504,12 @@ lowborn_4219={ #            Jadwiga                   Juhiel                    
 	religion=catholic culture=polish
 	1915.09.20={birth=yes}
 	1991.01.01={death=yes}  # EST.
+}
+lowborn_5779={ #            Barbara                   Kamecka                                  (1920-    )     - [DZIEDUSZYCKI]
+	name="Barbara Kamecka"
+	#dynasty=0
+	religion=catholic culture=polish
+	1920.01.01={birth=yes}
 }
 100101341={ #               Elzbieta                  Kamieniecki                              (1573-1613)     0 [POTOCKI]
 	name="Elzbieta Kamieniecki"
@@ -6448,14 +6641,6 @@ lowborn_1623={ #            Barbara                   Kiszczanka                
 	1914.01.01={birth=yes}
 	1993.01.01={death=yes}
 }
-100086921={ #               Tomasz                    Komierowski                              (1896-1939)     - [ZAMOYSKI]
-	name="Tomasz Komierowski"
-	#dynasty=0
-	religion=catholic culture=polish
-	1896.10.06={birth=yes}
-	1919.01.15={add_spouse=100110481}	# Roza Zamoyski
-	1939.02.01={death=yes}
-}
 100098622={ #               Magdalena                 Konopacki                                (1648-1694)     3 [CZARTORYSKI]
 	name="Magdalena Konopacki"
 	female=yes
@@ -6463,6 +6648,14 @@ lowborn_1623={ #            Barbara                   Kiszczanka                
 	religion=catholic culture=polish
 	1648.01.01={birth=yes}  # EST.
 	1694.01.01={death=yes}
+}
+lowborn_5807={ #            Włodzimierz               Konopka z Konopek-Jałbrzykowegostoku     (1924-2005)     - [DZIEDUSZYCKI]
+	name="Włodzimierz Konopka z Konopek-Jałbrzykowegostoku"
+	#dynasty=0
+	religion=catholic culture=polish
+	1924.01.01={birth=yes}
+	1960.01.01={add_spouse=dzieduszycki_0022}	# Helena Jadwiga Dzieduszycki
+	2005.01.01={death=yes}
 }
 100086929={ #               Maria Antonina            Konopki                                  (1923-1983)     2 [POTOCKI]
 	name="Maria Antonina Konopki"
@@ -6485,7 +6678,7 @@ lowborn_4267={ #            Ignacy Lojola             Koporski                  
 	#dynasty=0
 	religion=catholic culture=polish
 	1875.01.01={birth=yes}  # EST.
-	1900.07.16={add_spouse=100112624}	# Maria Jablonowski
+	1900.07.16={add_spouse=100112624}	# Maria Jabłonowski
 	1950.01.01={death=yes}  # EST.
 }
 lowborn_3006={ #            Katarzyna                 Korniakt                                 (1606-1635)     0 [WISNIOWIECKI]
@@ -6768,6 +6961,13 @@ lowborn_3001={ #            Jan                       Lahodowski                
 	1953.04.26={add_spouse=100114531}	# Teresa Potocki
 	2002.04.12={death=yes}
 }
+lowborn_2792={ #            Elżbieta                  Lenkiewicz-Ipohorska ze Strupina         (1730-    )     1 [BAWOROWSKI]
+	name="Elżbieta Lenkiewicz-Ipohorska ze Strupina"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1730.01.01={birth=yes}
+}
 100087347={ #               Hanna                     Leskiewicz                               (1954-    )     3 [TARNOWSKI]
 	name="Hanna Leskiewicz"
 	female=yes
@@ -6827,6 +7027,13 @@ lowborn_2778={ #            Hugo                      Leszczyc                  
 	1918.02.01={birth=yes}
 	1947.01.01={add_spouse=100110515}	# Elzbieta Zamoyski
 	1998.01.01={death=yes}  # EST.
+}
+lowborn_5810={ #            Jan Eugeniusz             Machnik                                  (1930-    )     - [DZIEDUSZYCKI]
+	name="Jan Eugeniusz Machnik"
+	#dynasty=0
+	religion=catholic culture=polish
+	1930.01.01={birth=yes}
+	1955.01.01={add_spouse=dzieduszycki_0023}	# Anna Róża Maria Dzieduszycki
 }
 100101385={ #               Katarzyna                 Makowiecki                               (1610-1671)     1 [POTOCKI]
 	name="Katarzyna Makowiecki"
@@ -7014,6 +7221,13 @@ lowborn_1641={ #            Zofia                     Mielecka                  
 	#dynasty=0
 	religion=orthodox culture=polish
 	1961.01.16={birth=yes}  # Sudlersville
+}
+lowborn_2907={ #            N                         Muszat                                   (1477-1523)     0 [WISNIOWIECKI]
+	name="N Muszat"
+	female=yes
+	religion=orthodox culture=vlach
+	1477.01.01={birth=yes}  # EST.
+	1523.01.01={death=yes}  # before
 }
 100098711={ #               Józef                     Myszkowski of Sandomir                   (1665-1727)     - [CZARTORYSKI]
 	name="Józef Myszkowski of Sandomir"
@@ -7287,6 +7501,14 @@ lowborn_4355={ #            Katarzyna                 Poplawska                 
 	1949.03.31={birth=yes}  # Brussels
 	1985.09.14={add_spouse=100114255}	# Margarethe Potocki
 }
+lowborn_4103={ #            Elżbieta                  Potocka z Złotego Potoka                 (1781-1815)     1 [SIEMIENSKI]
+	name="Elżbieta Potocka z Złotego Potoka"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1781.01.01={birth=yes}
+	1815.01.01={death=yes}
+}
 100089224={ #               Marie                     Prawdzic-Zaleski                         (1853-1942)     2 [CZARTORYSKI]
 	name="Marie Prawdzic-Zaleski"
 	female=yes
@@ -7373,14 +7595,6 @@ lowborn_4359={ #            Stanislaw                 Pskiot                    
 	1932.11.04={birth=yes}  # Cracow
 	2009.01.01={death=yes}  # EST.
 }
-lowborn_4109={ #            Gustav                    Rawita von Ostrow-Ostrowski              (1860-1923)     - [HAUGWITZ]
-	name="Gustav Rawita von Ostrow-Ostrowski"
-	#dynasty=0
-	religion=lutheran culture=german
-	1860.11.14={birth=yes}  # Warszawa
-	1896.06.02={add_spouse=haugwitz_0101}	# Eugenia von Haugwitz
-	1923.02.06={death=yes}  # Bad Wörishofen
-}
 lowborn_4353={ #            Agnieszka                 Razkazow                                 (1825-1900)     2 [BROEL]
 	name="Agnieszka Razkazow"
 	female=yes
@@ -7388,6 +7602,14 @@ lowborn_4353={ #            Agnieszka                 Razkazow                  
 	religion=catholic culture=polish
 	1825.01.01={birth=yes}  # EST.
 	1900.01.01={death=yes}  # EST.
+}
+lowborn_3288={ #            Petronela                 Reklewska de Rekle                       (1741-1795)     1 [SIEMIENSKI]
+	name="Petronela Reklewska de Rekle"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1741.01.01={birth=yes}
+	1795.01.01={death=yes}
 }
 lowborn_0511={ #            Helena                    Reszke                                   (1889-1941)     2 [DORY]
 	name="Helena Reszke"
@@ -7826,14 +8048,6 @@ lowborn_2890={ #            Katarzyna                 Sulimianka                
 	1879.05.09={birth=yes}  # Hryców
 	1923.02.21={add_spouse=100114506}	# Maria Magdalena Potocki
 	1955.02.28={death=yes}  # Nowa Huta
-}
-100094779={ #               Marianna                  Szeptycki                                (1764-1839)     1 [JABLONOWSKI]
-	name="Marianna Szeptycki"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=polish
-	1764.01.01={birth=yes}  # EST.
-	1839.01.01={death=yes}  # EST.
 }
 100091145={ #               Eufrozyna                 Szolayski                                (1800-1872)     1 [TYSZKIEWICZ]
 	name="Eufrozyna Szolayski"
@@ -8295,6 +8509,14 @@ lowborn_3264={ #            Anna                      von Gorzycka              
 	1876.02.19={birth=yes}  # Czerepkoutz
 	1959.10.19={death=yes}
 }
+lowborn_5752={ #            Franciszka                von Hardegg-Glatz auf Glatz u.im Machlande (1844-1924)     5 [BAWOROWSKI]
+	name="Franciszka von Hardegg-Glatz auf Glatz u.im Machlande"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=polish
+	1844.01.01={birth=yes}
+	1924.01.01={death=yes}
+}
 100099984={ #               Georg                     von Kunowski                             (1865-1940)     - [SULKOWSKI]
 	name="Georg von Kunowski"
 	#dynasty=0
@@ -8357,18 +8579,12 @@ lowborn_3003={ #            Anna Elzbieta             z Olchowca Swierszczowna  
 	1529.01.01={birth=yes}  # EST.
 	1582.01.01={death=yes}
 }
-lowborn_4451={ # Gf         Georg August              Mniszech                                 (1725-1795)     - [BRUHL]
-	name="Georg August Mniszech"
+lowborn_2791={ #            Helena                    Łubkowska                                (1889-1950)     0 [GOLUCHOWSKI]
+	name="Helena Łubkowska"
+	female=yes
 	#dynasty=0
-	religion=catholic culture=german
-	1725.01.01={birth=yes}  # EST.
-	1750.07.14={add_spouse=bruhl_0043}	# Amalia von Brühl
-	1795.01.01={death=yes}  # EST.
-}
-100096920={ #               Konstanty                 Górski                                   (1827-1901)     - [GOLICYN]
-	name="Konstanty Górski"
 	religion=catholic culture=polish
-	1827.07.08={birth=yes}  # Warsaw
-	1865.02.02={add_spouse=100016391}	# Юлия Сергеевна Голицын
-	1901.03.01={death=yes}  # Warsaw
+	1889.01.01={birth=yes}
+	1950.01.01={death=yes}	# EST.
 }
+

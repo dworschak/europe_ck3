@@ -3,12 +3,144 @@
 k_galicia_lodomeria = {
 	867.1.1 = {change_development_level=2}
 	1066.1.1 = {change_development_level=7}
-	1800.1.1 = {liege=e_austria}
-	1840.01.01 = {holder=100111202}
-	1850.10.20 = {holder=100111208}
-	1872.05.24 = {holder=100111214}
-	1953.11.29 = {holder=100111218}
-	1978.12.19 = {holder=100111226}
+	#1800.1.1 = {liege=e_austria}
+	
+	# 1840.01.01 = {holder=100111202}
+	# 1850.10.20 = {holder=100111208}
+	# 1872.05.24 = {holder=100111214}
+	# 1953.11.29 = {holder=100111218}
+	# 1978.12.19 = {holder=100111226}
+}
+
+#########
+
+d_lviv = {
+	1805.1.1 = {liege=e_austria}
+	
+	1860.04.23 = {holder=100110148}
+	1912.12.23 = {holder=100110150}
+	1920.05.16 = {holder=100110155}
+	1936.05.24 = {holder=100110157}
+	1991.02.07 = {holder=100110166}
+	1999.11.01 = {holder=100110172}
+}
+
+c_lviv = {
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	850.1.1 = {holder=302148}	# fictional
+	889.8.12 = {holder=302175}	# fictional
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	936.12.11 = {holder=302176}	# fictional
+	974.5.30 = {holder=302177}	# fictional
+	###Chrobatians conquered by Kievan Rus' in 992
+	992.4.10 = {
+		liege = d_kiev
+		holder = 302178	# fictional
+	}
+	1041.3.3 = {holder=302179}	# fictional
+	1062.3.3 = {holder=302180}	# fictional
+	###Fragmentation of Kievan Rus' in 1069
+	1077.1.2 = {holder=9128}	#Volodar Rotislavich
+	1078.10.4 = {holder=630}
+	1093.4.13 = {holder=652}
+	1113.4.16 = {holder=666}
+	1125.5.19 = {holder=222574}
+	1132.4.14 = {holder=125101}
+	1139.2.8 = {holder=125102}
+	1139.3.4 = {holder=222602}
+	1146.8.1 = {holder=125069}
+	1147.1.2 = {holder=222525}
+	1149.1.2 = {holder=222672}
+	1151.1.2 = {holder=125102}
+	1154.2.6 = {holder=222525}
+	1154.11.13 = {holder=222672}
+	1157.5.15 = {holder=125047}
+	1158.1.2 = {holder=222522}
+	1159.1.2 = {holder=222572}
+	1161.2.12 = {holder=125047}
+	1161.3.6 = {holder=222572}
+	1167.3.14 = {holder=222522}
+	1169.1.2 = {holder=222702}
+	1170.1.2 = {holder=222522}
+	1170.8.19 = {holder=222702}
+	1171.1.20 = {holder=222592}
+	1171.5.30 = {holder=222577}
+	1174.1.2 = {holder=222622}
+	1175.1.2 = {holder=222577}
+	1177.1.2 = {holder=222650}
+	1194.7.27 = {holder=222579}
+	1202.1.2 = {holder=125132}
+	1204.1.2 = {holder=222587}
+	1205.1.2 = {holder=222579}
+	1206.1.2 = {holder=222652}
+	1207.1.2 = {holder=222579}
+	1210.1.2 = {holder=222652}
+	1214.1.2 = {holder=222610}
+	1223.6.2 = {holder=222588}
+	1239.3.3 = {holder=125154}
+	1240.1.2 = {holder=125114}
+	1241.1.2 = {holder=222654}
+	1243.1.2 = {holder=472885}
+	1246.9.30 = {holder=472844}
+	1263.11.14 = {holder=125074}
+	1265.1.2 = {holder=125075}
+	1285.1.2 = {holder=125076}
+	1303.1.2 = {holder=125077}
+	1325.1.2 = {holder=472100}
+	
+	#####
+	1775.1.1 = {liege=d_lviv}
+	
+	1860.04.23 = {holder=100110148}
+	1912.12.23 = {holder=100110150}
+	1920.05.16 = {holder=100110155}
+	1936.05.24 = {holder=100110157}
+	1991.02.07 = {holder=100110166}
+	1999.11.01 = {holder=100110172}
+}
+c_kolomea = {
+	1775.1.1 = {liege=d_lviv}
+	
+	1820.01.01={holder=100112619}
+	1864.05.31={holder=100112620}
+	1885.04.19={holder=100112623}
+	1909.07.05={holder=100112625}
+	1921.08.28={holder=100112636}
+	1925.11.07={holder=0}
+}
+c_stanislavov = {
+	1775.1.1 = {liege=d_lviv}
+	
+	1800.01.01={holder=100111452}
+	1812.01.01={holder=100111407}
+	1878.09.11={holder=100111410}
+	1903.07.20={holder=100111412}
+	1920.04.29={holder=100111415}
+	1944.09.27={holder=100111418}
+	1980.12.16={holder=100111436}
+	2013.07.11={holder=100111439}
+}
+c_stryi = {
+	1775.1.1 = {liege=d_lviv}
+	
+	1861.05.11={holder=lewicki_0005}
+	1869.07.12={holder=siemienski_0004}
+	1901.07.17={holder=siemienski_0005}
+	1918.04.06={holder=siemienski_0006}
+}
+c_tarnopol = {
+	1775.1.1 = {liege=d_lviv}
+	
+	1800.01.01={holder=badeni_0001}
+	1824.01.01={holder=badeni_0002}
+	1854.01.01={holder=badeni_0003}
+	1888.06.10={holder=badeni_0004}
+	1912.10.12={holder=badeni_0005}
+	1943.07.28={holder=badeni_0007}
 }
 
 #########
@@ -111,20 +243,18 @@ c_peremyshl = {
 	1325.1.2 = {holder=472100}
 	#####
 	1800.1.1 = {liege=d_krakow}
-	1860.04.23 = {holder=100110148}
-	1912.12.23 = {holder=100110150}
-	1920.05.16 = {holder=100110155}
-	1936.05.24 = {holder=100110157}
-	1991.02.07 = {holder=100110166}
-	1999.11.01 = {holder=100110172}
+	
+	1780.01.01={holder=100114024}
+	1815.11.20={holder=100111503}
+	1862.12.23={holder=100111510}
+	1889.05.18={holder=100111512}
+	1915.09.24={holder=100111515}
+	1958.03.30={holder=100111517}
+	1961.09.20={holder=100111519}
+	2014.07.28={holder=100111537}
+	
 }
 c_sacz = {
-	800.1.1 = {liege=d_krakow}
-	1844.01.01 = {holder=100110266}
-	1870.04.15 = {holder=100110275}
-	1903.04.02 = {holder=100110277}
-	1984.09.26 = {holder=100110281}
-	1989.11.29 = {holder=100110283}
 	###Proto-Polish tribes
 	#Krakus and the Lechitic tribes
 	700.1.1 = {
@@ -189,87 +319,23 @@ c_sacz = {
 	1102.6.4 = {holder=170108}	#Zbigniew
 	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
 	#####
-	1500.1.1 = {liege=d_krakow}
+	1400.1.1 = {government=feudal_government}
+	1800.1.1 = {liege=d_krakow}
+	
+	1844.01.01 = {holder=100110266}
+	1870.04.15 = {holder=100110275}
+	1903.04.02 = {holder=100110277}
+	1984.09.26 = {holder=100110281}
+	1989.11.29 = {holder=100110283}
 }
 c_tarnow = {
-}
-
-#########
-
-d_lviv = {
-	1805.1.1 = {liege=e_austria}
-}
-
-c_lviv = {
-	###Pre-Kievan Rus'
-	500.1.1 = {
-		liege = 0
-		government = tribal_government
-	}
-	850.1.1 = {holder=302148}	# fictional
-	889.8.12 = {holder=302175}	# fictional
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	936.12.11 = {holder=302176}	# fictional
-	974.5.30 = {holder=302177}	# fictional
-	###Chrobatians conquered by Kievan Rus' in 992
-	992.4.10 = {
-		liege = d_kiev
-		holder = 302178	# fictional
-	}
-	1041.3.3 = {holder=302179}	# fictional
-	1062.3.3 = {holder=302180}	# fictional
-	###Fragmentation of Kievan Rus' in 1069
-	1077.1.2 = {holder=9128}	#Volodar Rotislavich
-	1078.10.4 = {holder=630}
-	1093.4.13 = {holder=652}
-	1113.4.16 = {holder=666}
-	1125.5.19 = {holder=222574}
-	1132.4.14 = {holder=125101}
-	1139.2.8 = {holder=125102}
-	1139.3.4 = {holder=222602}
-	1146.8.1 = {holder=125069}
-	1147.1.2 = {holder=222525}
-	1149.1.2 = {holder=222672}
-	1151.1.2 = {holder=125102}
-	1154.2.6 = {holder=222525}
-	1154.11.13 = {holder=222672}
-	1157.5.15 = {holder=125047}
-	1158.1.2 = {holder=222522}
-	1159.1.2 = {holder=222572}
-	1161.2.12 = {holder=125047}
-	1161.3.6 = {holder=222572}
-	1167.3.14 = {holder=222522}
-	1169.1.2 = {holder=222702}
-	1170.1.2 = {holder=222522}
-	1170.8.19 = {holder=222702}
-	1171.1.20 = {holder=222592}
-	1171.5.30 = {holder=222577}
-	1174.1.2 = {holder=222622}
-	1175.1.2 = {holder=222577}
-	1177.1.2 = {holder=222650}
-	1194.7.27 = {holder=222579}
-	1202.1.2 = {holder=125132}
-	1204.1.2 = {holder=222587}
-	1205.1.2 = {holder=222579}
-	1206.1.2 = {holder=222652}
-	1207.1.2 = {holder=222579}
-	1210.1.2 = {holder=222652}
-	1214.1.2 = {holder=222610}
-	1223.6.2 = {holder=222588}
-	1239.3.3 = {holder=125154}
-	1240.1.2 = {holder=125114}
-	1241.1.2 = {holder=222654}
-	1243.1.2 = {holder=472885}
-	1246.9.30 = {holder=472844}
-	1263.11.14 = {holder=125074}
-	1265.1.2 = {holder=125075}
-	1285.1.2 = {holder=125076}
-	1303.1.2 = {holder=125077}
-	1325.1.2 = {holder=472100}
-}
-c_stanislavov = {
-}
-c_stryi = {
-}
-c_tarnopol = {
+	1500.1.1 = {liege=d_krakow}
+	1775.01.01 = {holder=100111934}
+	1808.08.24 = {holder=100111934}
+	1842.05.03 = {holder=100111937}
+	1850.01.28 = {holder=100111943}
+	1894.05.11 = {holder=100111945}
+	1937.11.24 = {holder=100111949}
+	1966.05.04 = {holder=100111952}
+	1984.12.19 = {holder=100111956}
 }

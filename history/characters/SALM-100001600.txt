@@ -3071,21 +3071,31 @@
 			1665.01.09={birth=yes}
 			1701.01.08={death=yes}  # Wien
 		}
-		100295466={ #// B2. Wirich Philipp (*19.10.1668, +1741); m.1696 Maria Barbara von Herberstein (*8.5.1675, +24.11.1735) %%
+		100295466={ #// B2. Wirich Philipp (*19.10.1668, +1741); m.1696 Maria Barbara von Herberstein (*1675, +24.11.1735) %%
 			name="Wirich Philipp"
 			dynasty=1002263
 			religion=catholic culture=german
 			father=100285889	# Wilhelm Johann von Daun
 			1668.10.19={birth=yes}
-			1696.01.01={add_spouse=100035938}	# Maria Barbara von Herberstein
+			1696.01.01={add_spouse=herberstein_0368}	# Maria Barbara von Herberstein
 			1741.01.01={death=yes}
 		}
-			100195466={ #// C1. Leopold Joseph Maria (*Wien 24.9.1705, +Wien 5.2.1766) %%
+			100495466={ #// K1. Ferdinand Heinrich VON DAUN, *1697, +1739; m.1.1.1 Maria Rosine von Herberstein (*3.1.1706, +1780) $$
+				name="Ferdinand Heinrich"
+				dynasty=1002263
+				religion=catholic culture=german
+				father=100295466	# Wirich Philipp von Daun
+				mother=herberstein_0368	# Maria Barbara von Herberstein
+				1697.05.19={birth=yes}
+				1729.01.01={add_spouse=herberstein_0445}	# Maria Rosine von Herberstein
+				1739.10.21={death=yes}
+			}
+			100195466={ #// C2. Leopold Joseph Maria (*Wien 24.9.1705, +Wien 5.2.1766) %%
 				name="Leopold Joseph Maria"
 				dynasty=1002263
 				religion=catholic culture=german
 				father=100295466	# Wirich Philipp von Daun
-				mother=100035938	# Maria Barbara von Herberstein
+				mother=herberstein_0368	# Maria Barbara von Herberstein
 				1705.09.24={birth=yes}	# Wien
 				1766.02.05={death=yes}	# Wien
 			}
@@ -3939,7 +3949,7 @@
 								1858.06.12={add_spouse=100023078}	# Elisabeth von Liechtenstein
 								1890.05.12={death=yes}  # Vienna
 							}
-								100004119={ #// 1h) Maria (Vienna 5 Jun 1859-Opeka 29 Jun 1897); m.1st Vienna 8 Sep 1878 (div 1880) Karl Gf von Brzezie-Lanckoronski (Vienna 4 Nov 1848-Vienna 15 Jul 1933); m.2nd Vienna 30 Aug 1882 Markus Heinrich Gf Bombelles (Opeka 18 Oct 1858-Opeka 8 Sep 1912)
+								100004119={ #// 1h) Maria (Vienna 5 Jun 1859-Opeka 29 Jun 1897); m.1st Vienna 8 Sep 1878 (div 1880) Karl Gf von Brzezie-Lanckoroński (Vienna 4 Nov 1848-Vienna 15 Jul 1933); m.2nd Vienna 30 Aug 1882 Markus Heinrich Gf Bombelles (Opeka 18 Oct 1858-Opeka 8 Sep 1912)
 									name=Maria
 									female=yes
 									dynasty_house=salm_reiff_raitz
