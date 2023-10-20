@@ -1861,7 +1861,7 @@
 						1518.01.01={birth=yes}  # EST.
 						1593.01.01={death=yes}  # EST.
 					}
-					100010756={ #// E8. Dorothea, +1560; 1m: 9.5.1535 Hans Schenk von Tautenburg (+after 6.8.1551); 2m: Gf Wolfgang Siegmund von Gleichen-Blankenhain (+28.9.1554); 3m: Siegmund II Burggraf von Kirchberg (+1570)
+					100010756={ #// E8. Dorothea, +1560; 1m: 9.5.1535 Hans Schenk von Tautenburg (+after 6.8.1551); 2m: Gf Wolfgang Siegmund von Gleichen-Blankenhain (+28.9.1554); 3m: Siegmund II Burggraf von Kirchberg (+1570) $$
 						name=Dorothea
 						female=yes
 						dynasty=12403
@@ -9075,14 +9075,14 @@
 		1704.08.24={add_spouse=100009236}	# Louise Charlotte von Dohna-Schlobitten
 		1737.09.17={death=yes}
 	}
-		100013000={ #// B1. Johann Friedrich Alexander Christian, Graf von Isenburg, Herr von Runkel, cr Fürst zu Wied 29.5.1784, *Seeburg 18.11.1706, +Neuwied 7.8.1791; m.Hachenburg 2.1.1739 Karoline Bggfn von Kirchberg (*19.10.1720 +19.1.1795)
-			name=Johann			# 4885/johann-friedrich-alexander-christian-fuerst-zu-wied/
+		100013000={ #// B1. Johann Friedrich Alexander Christian, Graf von Isenburg, Herr von Runkel, cr Fürst zu Wied 29.5.1784, *Seeburg 18.11.1706, +Neuwied 7.8.1791; m.Hachenburg 2.1.1739 Karoline Bggfn von Kirchberg (*19.10.1720 +19.1.1795) $$
+			name="Johann Friedrich"			# 4885/johann-friedrich-alexander-christian-fuerst-zu-wied/
 			dynasty=1002066
 			religion=catholic culture=german
 			father=100007634	# Friedrich Wilhelm von Wied
 			mother=100009236	# Louise Charlotte von Dohna-Schlobitten
 			1706.11.18={birth=yes}  # Seeburg
-			1739.01.02={add_spouse=100095601}	# BGGFN Karoline von Kirchberg
+			1739.01.02={add_spouse=kirchberg_0042}	# Karoline von Kirchberg
 			1791.08.07={death=yes}  # Neuwied
 		}
 			# runkel6 -> C1. Friedrich Karl Fürst zu Wied-Neuwied, *Schloss Hachenburg 25.12.1741, +Freiburg 1.3.1809; m.Berleburg 26.1.1766 Gfn Marie Luise Wilhelmine zu Sayn-Wittgenstein-Berleburg (*13.5.1747 +15.11.1823); for their descendants see HERE
@@ -9102,8 +9102,8 @@
 	name="Friedrich Karl" # 5169/friedrich-karl-fuerst-zu-wied/
 	dynasty=1002066
 	religion=catholic culture=german
-	father=100013000	# Johann von Wied
-	mother=100095601	# BGGFN Karoline von Kirchberg
+	father=100013000	# Johann Friedrich von Wied
+	mother=kirchberg_0042	# Karoline von Kirchberg
 	1741.12.25={birth=yes}
 	1766.01.26={add_spouse=100010880}	# Marie Luise von Sayn-Wittgenstein-Berleburg
 	1809.03.01={death=yes}
