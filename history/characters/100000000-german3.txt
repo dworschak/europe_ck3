@@ -6898,7 +6898,7 @@
 			dynasty=177
 			religion=catholic culture=pommeranian
 			father=471655	# Bogislaw Gryfita
-			#mother=100012822	# Adelheid von Braunschweig-Grubenhagen
+			# NOBODY
 			1351.01.01={birth=yes}
 			1366.01.01={add_spouse=jagelo_0123}	# Kenna Jagiełło
 			1369.01.01={add_spouse=100086511}	# Malgorzata of Mazovia
@@ -9723,13 +9723,14 @@ nostitz_0001={ #// Otto von Nostitz-Rokinitz, Freiherr 18.5.1631, Courtly counse
 	1651.01.01={add_spouse=100047755}	# Eleonora Popel z Lobkowicz
 	1683.03.24={death=yes}  # Wien
 }
-	100011274={ #// A1. [1m.] Anton Johann, Burggrave of Eger, Marshal of Bohemia, *ca 1650, +30.10.1736; m.Maria Theresia von Herberstein
+	100011274={ #// A1. [1m.] Anton Johann, Burggrave of Eger, Marshal of Bohemia, *ca 1650, +30.10.1736; m.Maria Theresia von Herberstein $$
 		name="Anton Johann"
 		dynasty_house=nostitz_rieneck
 		religion=catholic culture=german
 		father=100011273	# Johann Hartwig von Nostitz-Rieneck
 		mother=100047755	# Eleonora Popel z Lobkowicz
-		1651.12.01={birth=yes}
+		1652.06.13={birth=yes}
+		1699.01.01={add_spouse=herberstein_0362}	# Maria Theresia von Herberstein
 		1736.10.30={death=yes}
 	}
 	100011275={ #// A2. [1m.] Wenzel Desiderius, *Wien 24.5.1669, +Praha 10.12.1700; m.29.2.1692 Gfn Marie Alžbeta Kinská z Vchynic a Tetova (*1670, +26.3.1737) $$
@@ -12892,7 +12893,7 @@ arco_0034={ #// Massimiliano, Conte d’Arco, +1582; 1m: Clara Ludovica di Lodro
 						father=arco_0071	# Christian von Arco
 						mother=lowborn_4599	# FRN Marianna Violanta Horwarth von Hohenburg
 						1710.05.16={birth=yes}  # Regensburg
-						1740.07.03={add_spouse=lowborn_3600}	# Maria Anna Mandl von und zu Deutenhofen
+						1740.07.03={add_spouse=lowborn_3600}	# Maria Anna Mandl v.u.zu Deutenhofen
 						1779.04.20={death=yes}  # München
 					}
 						#arco7   -->    F3. Ignaz Joseph, Gf von Arco auf Valley, Wasserburg am Inn 13.5.1741, +München 12.5.1812; m.München 18.10.1767 Rupertine Gfn Trauner von Adlstetten, Haus und Furth (*Aschaffenburg 15.12.1744, +München 20.12.1830); for his descendants see HERE
@@ -12904,7 +12905,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 	dynasty=1002093
 	religion=catholic culture=german
 	father=arco_0073	# Philip von Arco
-	mother=lowborn_3600	# Maria Anna Mandl von und zu Deutenhofen
+	mother=lowborn_3600	# Maria Anna Mandl v.u.zu Deutenhofen
 	1741.05.13={birth=yes}
 	1767.10.18={add_spouse=lowborn_3601}	# GFN Rupertine Trauner von Adlstetten, Haus und Furth
 	1812.05.12={death=yes}  # München
@@ -18544,7 +18545,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 				1551.04.28={add_spouse=lowborn_2782}	# Ursula von Hake
 				1588.09.04={death=yes}  # Landeck
 			}
-				oppersdorf_0065={ #// D1. Wilhelm, *Brieg 1554, +Praha 4.5.1598; 1m: Kutná Hora 2.11.1576 Kateřina Novohradská z Kolowrat (+1583); 2m: Heřmanův Městec 12.1.1586 Susanna von Hardegg (+1626)
+				oppersdorf_0065={ #// D1. Wilhelm, *Brieg 1554, +Praha 4.5.1598; 1m: Kutná Hora 2.11.1576 Kateřina Novohradská z Kolowrat (+1583); 2m: Heřmanův Městec 12.1.1586 Susanna von Hardegg (+1626) $$
 					name=Wilhelm
 					dynasty=oppersdorf
 					religion=lutheran culture=german
@@ -18552,7 +18553,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 					mother=lowborn_2782	# Ursula von Hake
 					1554.01.01={birth=yes}  # Brieg
 					1576.11.02={add_spouse=lowborn_2783}	# Kateřina Novohradská z Kolowrat
-					1586.01.12={add_spouse=lowborn_2784}	# Susanna von Hardegg
+					1586.01.12={add_spouse=hardegg_0031}	# Susanna zu Hardegg auf Glatz u.im Machlande
 					1598.05.04={death=yes}  # Praha
 				}
 					oppersdorf_0066={ #// E1. [2m.] Anna Maximiliana, *Kosel 1587, +Elbing 1650; 1m: Kosel 20.9.1605 Petr II ze Švamberka (*1581, +k.a.Praha 20.5.1620); 2m: Berlin 1623 Ladislav Velen ze Zierotína (*Břeclav 7/10.12.1579, +Poznań 1638)
@@ -18561,7 +18562,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						dynasty=oppersdorf
 						religion=lutheran culture=german
 						father=oppersdorf_0065	# Wilhelm von Oppersdorff
-						mother=lowborn_2784	# Susanna von Hardegg
+						mother=hardegg_0031	# Susanna zu Hardegg auf Glatz u.im Machlande
 						1587.01.01={birth=yes}  # Kosel
 						1650.01.01={death=yes}  # Elbing
 					}
@@ -18571,7 +18572,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						dynasty=oppersdorf
 						religion=lutheran culture=german
 						father=oppersdorf_0065	# Wilhelm von Oppersdorff
-						mother=lowborn_2784	# Susanna von Hardegg
+						mother=hardegg_0031	# Susanna zu Hardegg auf Glatz u.im Machlande
 						1589.01.01={birth=yes}  # Kosel
 						1649.12.04={death=yes}  # Kamenz Silesia
 					}
@@ -18581,7 +18582,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						dynasty=oppersdorf
 						religion=lutheran culture=german
 						father=oppersdorf_0065	# Wilhelm von Oppersdorff
-						mother=lowborn_2784	# Susanna von Hardegg
+						mother=hardegg_0031	# Susanna zu Hardegg auf Glatz u.im Machlande
 						1591.01.01={birth=yes}  # Kosel
 						1616.01.01={death=yes}
 					}
@@ -18591,7 +18592,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						dynasty=oppersdorf
 						religion=lutheran culture=german
 						father=oppersdorf_0065	# Wilhelm von Oppersdorff
-						mother=lowborn_2784	# Susanna von Hardegg
+						mother=hardegg_0031	# Susanna zu Hardegg auf Glatz u.im Machlande
 						1592.01.01={birth=yes}  # Kosel
 						1660.01.01={death=yes}
 					}
@@ -18600,7 +18601,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						dynasty=oppersdorf
 						religion=lutheran culture=german
 						father=oppersdorf_0065	# Wilhelm von Oppersdorff
-						mother=lowborn_2784	# Susanna von Hardegg
+						mother=hardegg_0031	# Susanna zu Hardegg auf Glatz u.im Machlande
 						1594.01.01={birth=yes}  # Kosel
 						1615.02.03={add_spouse=berka_0164}	# Zuzana Berka z Dubé
 						1666.06.22={death=yes}  # Schandau in Sachsen
@@ -18650,7 +18651,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						dynasty=oppersdorf
 						religion=lutheran culture=german
 						father=oppersdorf_0065	# Wilhelm von Oppersdorff
-						mother=lowborn_2784	# Susanna von Hardegg
+						mother=hardegg_0031	# Susanna zu Hardegg auf Glatz u.im Machlande
 						1595.12.21={birth=yes}  # Kosel
 						1615.02.03={add_spouse=berka_0163}	# Kateřina Alžběta Berka z Dubé
 						1623.01.01={death=yes}
@@ -18661,7 +18662,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						dynasty=oppersdorf
 						religion=lutheran culture=german
 						father=oppersdorf_0065	# Wilhelm von Oppersdorff
-						mother=lowborn_2784	# Susanna von Hardegg
+						mother=hardegg_0031	# Susanna zu Hardegg auf Glatz u.im Machlande
 						1597.01.01={birth=yes}  # Kosel
 						1625.01.01={death=yes}
 					}

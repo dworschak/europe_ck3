@@ -5292,7 +5292,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 					1625.01.01={birth=yes}
 					1662.09.29={death=yes}  # Wien
 				}
-			100047797={ #// C7. Kateřina Anna, *1584, +9.8.1605, bur Brandýs nad Orlicí; m.Hostinné 17.8.1604 Karel starší ze Žerotína (*15.9.1564, +9.10.1636)
+			100047797={ #// C7. Kateřina Anna, *1584, +9.8.1605, bur Brandýs nad Orlicí; m.Hostinné 17.8.1604 Karel starší ze Žerotína (*15.9.1564, +9.10.1636) $$
 				name="Kateřina Anna"
 				female=yes
 				dynasty=1013009
@@ -5900,12 +5900,11 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 #waldstein4
 
 #waldstein5
-100047302={ #// Vilém z Valdštejna, *Turnov 5.1.1475, +1557; 1m: Gfn Agnes von Zinzendorf
+100047302={ #// Vilém z Valdštejna, *Turnov 5.1.1475, +1557; 1m: Gfn Agnes von Zinzendorf (+1499 ?); 2m: Apolonie Černčická z Kácova (+1562); all issue by 2m:
 	name=Vilém
 	dynasty=1013009
 	religion=catholic culture=czech
 	1475.01.05={birth=yes}  # Turnov
-	1500.01.01={add_spouse=100082067}	# GFN Agnes von Zinzendorf
 	1557.01.01={death=yes}
 }
 	100047304={ #// A1. Johana, *1495, +1522; m.Bggf Friedrich III von Dohna (*1482, +IX.1547)
@@ -5914,7 +5913,6 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		dynasty=1013009
 		religion=catholic culture=czech
 		father=100047302	# Vilém z Valdštejna
-		mother=100082067	# GFN Agnes von Zinzendorf
 		1495.01.01={birth=yes}
 		1522.01.01={death=yes}
 	}
@@ -5923,7 +5921,6 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		dynasty=1013009
 		religion=catholic culture=czech
 		father=100047302	# Vilém z Valdštejna
-		mother=100082067	# GFN Agnes von Zinzendorf
 		1510.01.01={birth=yes}  # EST.
 		1569.07.13={death=yes}
 	}
@@ -5932,7 +5929,6 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		dynasty=1013009
 		religion=catholic culture=czech
 		father=100047302	# Vilém z Valdštejna
-		mother=100082067	# GFN Agnes von Zinzendorf
 		1510.01.01={birth=yes}
 		1535.01.01={add_spouse=100089937}	# Marie Eliška Krajíř z Krajku
 		1566.01.01={add_spouse=100093064}	# GFN Magdalena z Vartemberka
@@ -6266,7 +6262,6 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		dynasty=1013009
 		religion=catholic culture=czech
 		father=100047302	# Vilém z Valdštejna
-		mother=100082067	# GFN Agnes von Zinzendorf
 		1517.02.22={birth=yes}
 		1550.01.01={add_spouse=100100200}	# Anna z Vartemberka
 		1560.01.01={add_spouse=100100201}	# GFN Markéta Popel z Lobkowicz
@@ -6296,7 +6291,6 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		dynasty=1013009
 		religion=catholic culture=czech
 		father=100047302	# Vilém z Valdštejna
-		mother=100082067	# GFN Agnes von Zinzendorf
 		1530.01.01={birth=yes}
 		1555.01.01={add_spouse=100100204}	# GFN Marie z Martinicz
 		1574.03.30={death=yes}  # on plague_in_Praha
@@ -6315,7 +6309,6 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		dynasty=1013009
 		religion=catholic culture=czech
 		father=100047302	# Vilém z Valdštejna
-		mother=100082067	# GFN Agnes von Zinzendorf
 		1532.01.01={birth=yes}
 		1557.01.01={add_spouse=100100206}	# Eliška z Martinicz
 		1579.08.20={death=yes}
@@ -6869,6 +6862,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 									female=yes
 									dynasty=1013009
 									religion=catholic culture=french
+									trait=legitimized_bastard
 									father=100047410	# Clemens z Valdštejna
 									mother=100020934	# Josepha von Österreich-Toskana
 									1964.12.12={birth=yes}  # Paris
@@ -10261,7 +10255,7 @@ kolowrat_0248={ #// Albrecht Krakowský z Kolowrat, hejtman rakovnického kraje 
 				father=100047044	# Leopold Krakovský z Kolovrat
 				mother=caretto_0107	# Marie Terezie del Caretto
 				1756.04.17={birth=yes}  # Radenín
-				1790.02.16={add_spouse=100096874}	# Theresia von Trunkel
+				1785.02.16={add_spouse=100096874}	# Theresia von Trunkel
 				1836.05.26={death=yes}
 			}
 				100047051={ #// D1. Terezie, *Praha 18.12.1785, +17.2.1830; m.21.10.1804 Gf Jan Josef Antonín z Valdštejna (*2.5.1766, +19.12.1846) $$
@@ -10405,6 +10399,7 @@ kolowrat_0248={ #// Albrecht Krakowský z Kolowrat, hejtman rakovnického kraje 
 							female=yes
 							dynasty_house=kolo_krak
 							religion=catholic culture=czech
+							trait=legitimized_bastard
 							father=100047083	# František Ferdinand Krakovský z Kolovrat
 							mother=100096753	# Antonie Schachner
 							1877.02.17={birth=yes}  # Wien
@@ -10631,6 +10626,7 @@ kolowrat_0248={ #// Albrecht Krakowský z Kolowrat, hejtman rakovnického kraje 
 								female=yes
 								dynasty_house=kolo_krak
 								religion=catholic culture=czech
+								trait=legitimized_bastard
 								father=100047119	# Jindřich Krakovský z Kolovrat
 								mother=100096652	# Marie Klimtová
 								1938.06.12={birth=yes}
@@ -17130,21 +17126,21 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 												mother=100001098	# Antonie von Fürstenberg
 												1936.04.11={birth=yes}
 											}
-											100185596={ #// 2k) KARL Jan Nepomuk Josef Norbert Friedrich Antonius Wratislaw Menas Fst zu Schwarzenberg, Duke von Krummau (b.Prague 10 Dec 1937); m.Seefeld, Lower Austria 22 Apr 1967 (div 1988) and remarried 25 Jul 2008 Therese Gfn zu Hardegg auf Glatz u.im Machlande (b.Wien 17 Feb 1940) $$
+											lowborn_6413={ #// 2k) KARL Jan Nepomuk Josef Norbert Friedrich Antonius Wratislaw Menas Fst zu Schwarzenberg, Duke von Krummau (b.Prague 10 Dec 1937); m.Seefeld, Lower Austria 22 Apr 1967 (div 1988) and remarried 25 Jul 2008 Therese Gfn zu Hardegg auf Glatz u.im Machlande (b.Wien 17 Feb 1940) $$
 												name=Karel
 												dynasty=1013000
 												religion=catholic culture=czech
 												father=100185592	# Karl von Schwarzenberg
 												mother=100001098	# Antonie von Fürstenberg
 												1937.12.10={birth=yes}
-												1967.04.22={add_spouse=100036491}	# Therese zu Hardegg auf Glatz u.im Machlande
+												1967.04.22={add_spouse=hardegg_0126}	# Terezia zu Hardegg auf Glatz u.im Machlande
 											}
 												100185598={ #// E1. Johann Nepomucenus Andreas Heinrich Joseph Karl Ferdinand Johannes Evangelist die Heiligen Drei Könige Achaz Michael Maria Erbpr zu Schwarzenberg (primogenitur), *Wien 13.12.1967; m.20 Mar 2010 Diana Orgovanyi-Hanstein (b.1972)
 													name=Johannes
 													dynasty=1013000
 													religion=catholic culture=czech
-													father=100185596	# Karel von Schwarzenberg
-													mother=100036491	# Therese zu Hardegg auf Glatz u.im Machlande
+													father=lowborn_6413	# Karel von Schwarzenberg
+													mother=hardegg_0126	# Terezia zu Hardegg auf Glatz u.im Machlande
 													1967.12.13={birth=yes}
 													2010.03.20={add_spouse=100085599}	# Diana Orgovanyi-Hanstein
 												}
@@ -17153,8 +17149,8 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 													female=yes
 													dynasty=1013000
 													religion=catholic culture=czech
-													father=100185596	# Karel von Schwarzenberg
-													mother=100036491	# Therese zu Hardegg auf Glatz u.im Machlande
+													father=lowborn_6413	# Karel von Schwarzenberg
+													mother=hardegg_0126	# Terezia zu Hardegg auf Glatz u.im Machlande
 													1968.12.16={birth=yes}
 												}
 													# Gioia Maria Morgan, *May 29, 1999 in London, England
@@ -17166,7 +17162,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 													name="Karl Philipp"
 													dynasty=1000009
 													religion=catholic culture=czech
-													mother=100036491	# Therese zu Hardegg auf Glatz u.im Machlande
+													mother=hardegg_0126	# Terezia zu Hardegg auf Glatz u.im Machlande
 													trait=bastard
 													1979.05.12={birth=yes}
 													2009.10.03={add_spouse=100001009}	# Anna v.u.zu Eltz gt Faust v.Stromberg
@@ -17604,6 +17600,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 		father=100390036	# Ladislav Popel von Lobkowitz
 		1501.01.01={birth=yes}
 		1534.01.01={add_spouse=100023252}	# Benigna von Starhemberg
+		1563.06.29={add_spouse=berka_0087}	# Johana Berka z Dubé
 		1584.12.18={death=yes}
 	}
 		100095466={ #// B1. Ladislav "mladší" "Lacek", Marshal (hetman) of Moravia (moravský zemský hejtman) 1615, *15.10.1566, +Brno 20.3.1621; 1m: 28.9.1597 Gfn Anna Elisabeth von Salm-Neuburg (*30.6.1565, +1615); 2m: 31.1.1616 Gfn Anna Marie Elisabeth von Salm-Neuburg (*24.10.1598, +15.10.1647) $$
@@ -17611,6 +17608,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 			dynasty_house=house_lobko_popel
 			religion=catholic culture=german
 			father=100097536	# Ladislav Popel von Lobkowitz
+			mother=berka_0087	# Johana Berka z Dubé
 			1566.10.15={birth=yes}
 			1616.01.31={add_spouse=100004387}	# Anna von Salm
 			1621.03.20={death=yes}
@@ -17620,6 +17618,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 			dynasty_house=house_lobko_popel
 			religion=catholic culture=german
 			father=100097536	# Ladislav Popel von Lobkowitz
+			mother=berka_0087	# Johana Berka z Dubé
 			1568.01.01={birth=yes}
 			1628.01.01={death=yes}
 		}
@@ -20816,7 +20815,7 @@ matuschka_0004={ #// 4 Mikuláš MATUŠKA Z TOPOLČAN; m.Elzbieta Wielopolsky de
 							father=matuschka_0011	# Friedrich Rudolf Matuschka von Toppolczan u.Spaetgen
 							mother=lowborn_2936	# Maria Josepha Barbara von Spätgen
 							1734.02.23={birth=yes}  # Jauer (Jawór)
-							1763.08.29={add_spouse=lowborn_2938}	# Marie Bernhardine Clara Clairon D'Haussonville
+							1763.08.29={add_spouse=lowborn_2938}	# Marie Bernhardine Clara de Cléron d'Haussonville
 							1779.11.19={death=yes}  # Pitschen am Berge
 						}
 							matuschka_0014={ #// 14 Joseph Eduard Maria MATUSCHKA VON TOPPOLCZAN UND SPÄTGEN, *Obergläsersdorf 1764.06.15, +Pitschen am Berge 1829.06.02; m.1st Bruschewitz 26.10.1785 Ernestine Strachwitz von Gross-Zauche und Camminetz (*Bruschewitz 23.1.1765, +Pitschen am Berge. podle LVDP jiné prameny ji uvádějí jako dceru Karla Josefa a Marie Anny KateŘiny Bojakovské z Knurova 28.4.1811); m.2nd Schillersdorf 15.6.1812 Clementine von Hoverden-Plencken (*Psáry 3.2.1783, +Florsdorf bei Görlitz 24.10.1859) $$
@@ -20824,7 +20823,7 @@ matuschka_0004={ #// 4 Mikuláš MATUŠKA Z TOPOLČAN; m.Elzbieta Wielopolsky de
 								dynasty=matuschka
 								religion=lutheran culture=german
 								father=matuschka_0012	# Heinrich Gottfried Matuschka von Toppolczan u.Spaetgen
-								mother=lowborn_2938	# Marie Bernhardine Clara Clairon D'Haussonville
+								mother=lowborn_2938	# Marie Bernhardine Clara de Cléron d'Haussonville
 								1764.06.15={birth=yes}  # Obergläsersdorf
 								1785.10.26={add_spouse=strachwitz_0015}	# Ernestine Strachwitz v.Groß-Zauche u.Camminetz
 								1812.06.15={add_spouse=lowborn_2941}	# Clementine von Hoverden-Plencken
@@ -22635,7 +22634,7 @@ matuschka_0004={ #// 4 Mikuláš MATUŠKA Z TOPOLČAN; m.Elzbieta Wielopolsky de
 								dynasty=matuschka
 								religion=lutheran culture=german
 								father=matuschka_0012	# Heinrich Gottfried Matuschka von Toppolczan u.Spaetgen
-								mother=lowborn_2938	# Marie Bernhardine Clara Clairon D'Haussonville
+								mother=lowborn_2938	# Marie Bernhardine Clara de Cléron d'Haussonville
 								1766.08.18={birth=yes}
 								1792.11.22={add_spouse=lowborn_2942}	# Maria Josepha von Oppersdorff
 								1801.11.23={add_spouse=lowborn_2943}	# Antonie von Oppersdorff
@@ -23007,7 +23006,7 @@ matuschka_0004={ #// 4 Mikuláš MATUŠKA Z TOPOLČAN; m.Elzbieta Wielopolsky de
 								dynasty=matuschka
 								religion=lutheran culture=german
 								father=matuschka_0012	# Heinrich Gottfried Matuschka von Toppolczan u.Spaetgen
-								mother=lowborn_2938	# Marie Bernhardine Clara Clairon D'Haussonville
+								mother=lowborn_2938	# Marie Bernhardine Clara de Cléron d'Haussonville
 								1768.09.17={birth=yes}  # Pitschen am Berge
 								1792.01.17={add_spouse=lodron_0408}	# Maria Theresia zu Lodron-Laterano u.Castelromano
 								1820.09.27={death=yes}  # Arnsdorf bei Schmiedeberg
@@ -25186,7 +25185,7 @@ zierotin_0057={ #// Zbor ze Sokolomě
 								1564.09.14={birth=yes}  # Brandýs nad Orlicí
 								1588.01.01={add_spouse=lowborn_5659}	# Barbora Krajírzová z Krajku
 								1596.01.01={add_spouse=lowborn_5661}	# Eliška Krajirz z Krajku
-								1604.08.17={add_spouse=lowborn_5662}	# Kateřina Anna z Valdštejna na Hostinném
+								1604.08.17={add_spouse=100047797}	# Kateřina Anna z Valdštejna
 								1614.06.22={add_spouse=100047315}	# Kateřina z Valdštejna
 								1636.10.09={death=yes}  # Přerov Moravia
 							}
@@ -25311,7 +25310,7 @@ zierotin_0057={ #// Zbor ze Sokolomě
 								mother=lowborn_5701	# Johanka Kropáczková z Neviedomí
 								1576.01.01={birth=yes}  # EST.
 								1600.01.01={add_spouse=100047835}	# Lukrecie z Valdštejna
-								1602.01.01={add_spouse=lowborn_5705}	# Maria Anna Pückler von Groditz
+								1602.01.01={add_spouse=lowborn_5705}	# Maria Anna von Pückler von Groditz
 								1611.01.01={death=yes}
 							}
 								zierotin_0126={ #// H1. [1m.] Baltazar na Meziříčí, +1659; m.1631 Kuna Pruskovská z Pruskova
@@ -30313,7 +30312,7 @@ wilczek_0001={ #// Nikolaus WILCZEK, *1480, +1550; m.Kateřina Čelová z Čelov
 								1736.07.20={birth=yes}  # Wien
 								1807.07.16={death=yes}  # Wien
 							}
-							wilczek_0020={ #// G3. Maria Josefa WILCZEK, *Wien 1737.08.20, +Wien 1817.04.14; m.Harmannsdorf 3.8.1761 Johann von Hardegg zu Glatz (*Harras 10.7.1737, +Wien 7.5.1810)
+							wilczek_0020={ #// G3. Maria Josefa WILCZEK, *Wien 1737.08.20, +Wien 1817.04.14; m.Harmannsdorf 3.8.1761 Johann von Hardegg zu Glatz (*Harras 10.7.1737, +Wien 7.5.1810) $$
 								name="Maria Josefa"
 								female=yes
 								dynasty=1004702
@@ -30703,14 +30702,14 @@ wilczek_0001={ #// Nikolaus WILCZEK, *1480, +1550; m.Kateřina Čelová z Čelov
 							1710.01.01={birth=yes}  # Těšín
 							1787.06.10={death=yes}  # Wien
 						}
-							wilczek_0029={ #// G1. Johann WILCZEK, *1738.06.18, +Wien 1819.02.02; m.1st Wien 17.9.1787 Maria Theresia Clary-Aldringen (*Wien 30.7.1756, +12.8.1790); m.2nd Praha 7.1.1799 Marie Beatrix Hardegg (*Milano 19.3.1772, +Inzendorf 4.10.1836)
+							wilczek_0029={ #// G1. Johann WILCZEK, *1738.06.18, +Wien 1819.02.02; m.1st Wien 17.9.1787 Maria Theresia Clary-Aldringen (*Wien 30.7.1756, +12.8.1790); m.2nd Praha 7.1.1799 Marie Beatrix Hardegg (*Milano 19.3.1772, +Inzendorf 4.10.1836) $$
 								name=Johann
 								dynasty=1004702
 								religion=catholic culture=german
 								father=wilczek_0016	# Johann von Wilczek
 								1738.06.18={birth=yes}
 								1787.09.17={add_spouse=lowborn_7952}	# Maria Theresia Clary-Aldringen
-								1799.01.07={add_spouse=lowborn_3953}	# Marie Beatrix von Hardegg
+								1799.01.07={add_spouse=hardegg_0060}	# Marie Beatrix zu Hardegg auf Glatz u.im Machlande
 								1819.02.02={death=yes}  # Wien
 							}
 								wilczek_0040={ #// H1. Maria Luise WILCZEK, *1800.04.10, +Urfahr bei Linz 1876.10.23; m.25.8.1823 Alajos Almásy de Zsadány Et Török-Szent-Miklos (*Budapest 24.2.1788, +Sarkad 31.12.1850) $$
@@ -30719,7 +30718,7 @@ wilczek_0001={ #// Nikolaus WILCZEK, *1480, +1550; m.Kateřina Čelová z Čelov
 									dynasty=1004702
 									religion=catholic culture=german
 									father=wilczek_0029	# Johann von Wilczek
-									mother=lowborn_3953	# Marie Beatrix von Hardegg
+									mother=hardegg_0060	# Marie Beatrix zu Hardegg auf Glatz u.im Machlande
 									1800.04.10={birth=yes}
 									1876.10.23={death=yes}  # Urfahr bei Linz
 								}
@@ -31494,7 +31493,7 @@ chorinsky_0007={ #// B2. Ctibor CHORINSKÝ Z LEDSKÉ, +1621
 							1831.05.18={add_spouse=lowborn_3690}	# Anna Böck von Greissau
 							1873.10.15={death=yes}  # Wien
 						}
-							chorinsky_0071={ #// I3. Sophie CHORINSKÁ Z LEDSKÉ, *St.Pölten 1835.07.15, +Ljubljana 1893.03.19
+							chorinsky_0071={ #// I3. Sophie CHORINSKÁ Z LEDSKÉ, *St.Pölten 1835.07.15, +Ljubljana 1893.03.19 $$
 								name=Sophie
 								female=yes
 								dynasty=chorinsky
@@ -31632,14 +31631,14 @@ chorinsky_0007={ #// B2. Ctibor CHORINSKÝ Z LEDSKÉ, +1621
 									1869.03.28={birth=yes}  # Tschernembl,Krain
 									1938.04.02={death=yes}  # Wien
 								}
-								chorinsky_0096={ #// J3. Heinrich Rudolf Maria Magdalena CHORINSKÝ Z LEDSKÉ, *Ljubljana,Slovenia 1876, +Wien 1907.05.23; m.Wien Maximiliana Maria von Hardegg Auf Glatz (*Wien 31.7.1885, +Wien 7.3.1947)
+								chorinsky_0096={ #// J3. Heinrich Rudolf Maria Magdalena CHORINSKÝ Z LEDSKÉ, *Ljubljana,Slovenia 1876, +Wien 1907.05.23; m.Wien Maximiliana Maria von Hardegg Auf Glatz (*Wien 31.7.1885, +Wien 7.3.1947) $$
 									name=Heinrich
 									dynasty=chorinsky
 									religion=catholic culture=czech
 									father=chorinsky_0072	# Rudolf Chorinsky z Ledské
 									mother=lowborn_3736	# Magdalene von Schmidburg
 									1876.01.30={birth=yes}  # Ljubljana,Slovenia
-									1905.01.01={add_spouse=lowborn_5155}	# Maximiliana Maria von Hardegg auf Glatz
+									1905.01.01={add_spouse=hardegg_0104}	# Maximiliana Maria zu Hardegg auf Glatz u.im Machlande
 									1907.05.23={death=yes}  # Wien
 								}
 									chorinsky_0120={ #// K1. Heinrich Dominik Maria Magdalena Rudolf CHORINSKÝ Z LEDSKÉ, *schloss Altenbuch, Bohemia 1906.07.12, +Feldbach 1958.07.26; m.1st Leibnitz, Steiermark 28.2.1933 Emmy Gruen-Katzer (*Wien 11.7.1911); m.2nd Wien 10.9.1938 Helene Fritz (*Wien 25.8.1914, +Wien 24.12.1970)
@@ -31647,7 +31646,7 @@ chorinsky_0007={ #// B2. Ctibor CHORINSKÝ Z LEDSKÉ, +1621
 										dynasty=chorinsky
 										religion=catholic culture=czech
 										father=chorinsky_0096	# Heinrich Chorinsky z Ledské
-										mother=lowborn_5155	# Maximiliana Maria von Hardegg auf Glatz
+										mother=hardegg_0104	# Maximiliana Maria zu Hardegg auf Glatz u.im Machlande
 										1906.07.12={birth=yes}  # schloss Altenbuch, Bohemia
 										1938.09.10={add_spouse=lowborn_5289}	# Helene Fritz
 										1958.07.26={death=yes}  # Feldbach
@@ -32259,14 +32258,14 @@ wenger_0001={ #// FRIEDRICH Wilhelm Maria Leonhard, Graf von Wengersky, Freiherr
 					1933.07.12={birth=yes}
 					2008.01.01={death=yes}  # EST.
 				}
-				wenger_0037={ #// F5. ANTON Friedrich Victor Emmerich Johannes Maria, *Remetské Hamry, Slovakia 27.12.1935; m.Elkofen 26.8.1967 Rose Marie Frn Saurma von der Jeltsch (*4.12.1931)
+				wenger_0037={ #// F5. ANTON Friedrich Victor Emmerich Johannes Maria, *Remetské Hamry, Slovakia 27.12.1935; m.Elkofen 26.8.1967 Rose Marie Frn Saurma von der Jeltsch (*4.12.1931) $$
 					name=Anton
 					dynasty=wengersky
 					religion=catholic culture=czech
 					father=wenger_0032	# Emmerich von Wengersky
 					mother=strachwitz_0168	# Maria Gabriele Strachwitz v.Groß-Zauche u.Camminetz
 					1934.01.01={birth=yes}  # EST.
-					1967.08.26={add_spouse=lowborn_3754}	# FRN Rose Saurma von der Jeltsch
+					1967.08.26={add_spouse=100035036}	# Rose-Marie von Saurma-Jeltsch
 					1994.01.01={death=yes}  # EST.
 				}
 				wenger_0038={ #// F6. EMMERICH Albrecht Christoph Ladislaus Maria, *Remetské Hamry, Slovakia 18.2.1937; m.Kitzbühel 30.4.1979 Mariana Frn Forstner von Billau (*München 16.5.1946)
@@ -32556,7 +32555,7 @@ kotz_0001={ #// Jan Dětleb Kotz z Dobrze, +1587; m.Alena Markvartová z Hrádku
 						father=kotz_0007	# Jan Jindřich Kotz von Dobrz
 						mother=lowborn_3699	# Maria Theresia von Morzin
 						1705.01.01={birth=yes}  # EST.
-						1731.01.01={add_spouse=lowborn_3730}	# Anna Hildprandt von und zu Ottenhausen
+						1731.01.01={add_spouse=lowborn_3730}	# Anna Hildprandt v.u.zu Ottenhausen
 						1775.01.01={death=yes}  # before
 					}
 				kotz_0009={ #// D3. Anna (Marie) Franziska; m.Adam Christophor von Trauttmansdorff (+1726)
@@ -33409,7 +33408,7 @@ berka_0001={ #// Hynek Berka z Dubé, +1348; m.Anežka N (+1363); his issue bore
 							1544.01.01={add_spouse=lowborn_5804}	# Kateřina Haugvicová z Biskupic
 							1572.09.23={death=yes}
 						}
-							berka_0087={ #// G1. Johana, *ca 1545, +19.11.1601; m.29.6.1563 Ladislav II Popel z Lobkowicz (*1501 +18.12.1584)
+							berka_0087={ #// G1. Johana, *ca 1545, +19.11.1601; m.29.6.1563 Ladislav II Popel z Lobkowicz (*1501 +18.12.1584) $$
 								name=Johana
 								female=yes
 								dynasty=berka

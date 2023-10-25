@@ -565,63 +565,6 @@
 # RESSEGUIER 1007095
 
 
-## GROCHOLSKI
-100035166={ #// Henryk Cyprian Grocholski (*1802, +Pietniczany 9.12.1866) %%
-	name="Henryk Cyprian"
-	dynasty=1012038
-	religion=catholic culture=polish
-	1802.01.01={birth=yes}
-	1866.12.09={death=yes}	# Pietniczany
-}
-	100035161={ #// A1. Marie (*29.11.1833, +9.5.1928); m.30.10.1851 Witold Czartoryski (*6.6.1824, +14.11.1865) %%
-		name=Marie
-		female=yes
-		dynasty=1012038
-		religion=catholic culture=polish
-		father=100035166	# Henryk Cyprian Grocholski
-		1833.11.29={birth=yes}
-		1928.05.09={death=yes}
-	}	
-	100035160={ #// A2. Stanisław (*8.8.1835, +6.3.1907); m.29.12.1875 Wanda Zamoyski (*13.12.1846, +1.3.1922) %%
-		name=Stanisław
-		dynasty=1012038
-		religion=catholic culture=polish
-		father=100035166	# Henryk Cyprian Grocholski
-		1835.08.08={birth=yes}
-		1875.12.29={add_spouse=100110456}	# Wanda Zamoyski
-		1907.03.06={death=yes}
-	}
-	100035159={ #// A3. Tadeusz (*Pietniczany 3.5.1839, +Strzyzawka 16.7.1913); m.30.8.1886 Zofia Zamoyski (*23.3.1866, +14.2.1957) %%
-		name=Tadeusz
-		dynasty=1012038
-		religion=catholic culture=polish
-		father=100035166	# Henryk Cyprian Grocholski
-		1839.05.03={birth=yes}	# Pietniczany
-		1886.08.30={add_spouse=100110552}	# Zofia Zamoyski
-		1913.07.16={death=yes}	# Strzyzawka
-	}
-		100035153={ #// B1. Remigiusz (*4.9.1888, +17.3.1965); m.11.10.1925 Barbara Zofia Swiatopelk-Czetwertynski (*21.6.1900, +23.7.1970) %%
-			name=Remigiusz
-			dynasty=1012038
-			religion=catholic culture=polish
-			father=100035159	# Tadeusz Grocholski
-			mother=100110552	# Zofia Zamoyski
-			1888.09.04={birth=yes}
-			1925.10.11={add_spouse=100112371}	# Barbara Zofia Swiatopelk-Czetwertynski
-			1965.03.17={death=yes}
-		}
-		100035156={ #// B2. Michal (*17.10.1891, +Planta 18.1.1924); m.1916 Maria Josefa Swiatopelk-Czetwertynski (*22.3.1899, +1974) %%
-			name=Michal
-			dynasty=1012038
-			religion=catholic culture=polish
-			father=100035159	# Tadeusz Grocholski
-			mother=100110552	# Zofia Zamoyski
-			1891.10.17={birth=yes}
-			1916.01.01={add_spouse=100112365}	# Maria Josefa Swiatopelk-Czetwertynski
-			1924.01.18={death=yes}	# Planta
-		}
-## GROCHOLSKI
-
 # TOLL
 100035162={ #// Constantin von Toll (*22.10.1817, +1.12.1884); m.1st 6.6.1845 Zinaida Aleksandrovna Golicyn (*22.10.1818, +Gostilitzy 9.7.1845); m.2nd 26.4.1853 Ekaterina Nikolaevna Dolgorukij (*6.12.1825, +1899) %%
 	name=Constantin
@@ -676,7 +619,8 @@
 	}
 # MERVELDT
 
-# BELLEGARDE
+
+# BELLEGARDE 1002291
 100091996={ #// August Karl (*28.10.1795, +11.2.1865); m.29.10.1821 Julie von Gudenus (*28.10.1795, +11.2.1865) %%
 	name="August Karl"
 	religion=catholic culture=german
@@ -693,7 +637,16 @@
 		1822.09.23={birth=yes}  # Milano
 		1884.12.09={death=yes}  # Sloup v Cechách (Burgstein)
 	}
-	100035929={ #// Franz Alexander Ernst Noyel Graf von Bellegarde (Wien 18 Jun 1833-München 1912); m.10 May 1857 Rudolphine Caroline Kinsky von Wchinitz u.Tettau (26 Jun 1836-25 Nov 1899) $$
+	100089345={ #// A2. Pauline (*Wien 2.4.1830, +München 27.5.1912); m.15.4.1857 Alfred von Königsegg-Aulendorf (*Aulendorf 30.6.1817, +Vienna 27.10.1898) %%
+		name="Pauline"
+		female=yes
+		religion=catholic culture=german
+		father=100091996	# August Karl
+		mother=100026119	# Julie von Gudenus
+		1830.04.02={birth=yes}  # Wien
+		1912.05.27={death=yes}  # München
+	}
+	100035929={ #// A3. Franz Alexander Ernst Noyel Graf von Bellegarde (Wien 18 Jun 1833-München 1912); m.10.5.1857 Rudolphine Caroline Kinsky von Wchinitz u.Tettau (*26.6.1836, +25.11.1899) $$
 		name=Franz
 		dynasty=1002291
 		religion=catholic culture=german
@@ -703,7 +656,7 @@
 		1857.05.10={add_spouse=100186076}	# Rudolphine Caroline Kinsky von Wchinitz u.Tettau
 		1912.01.01={death=yes}	# München
 	}
-		100035931={ #// A1. August Maria Rudolf Emanuel Franz von Bellegarde (Hacking 26 May 1856-24 Feb 1919); m.27 Apr 1897 Marie Karoline zu Oettingen-Wallerstein (10 Dec 1874-19 Feb 1960) $$
+		100035931={ #// B1. August (*Hacking 26.5.1856, +24.2.1919); m.27.4.1897 Marie Karoline zu Oettingen-Wallerstein (*10.12.1874, +19.2.1960) %%
 			name=August
 			dynasty=1002291
 			religion=catholic culture=german
@@ -761,18 +714,10 @@
 			1873.06.27={birth=yes}  # Groß-Herrlitz
 			1945.02.01={death=yes}  # Überlingen am Bodensee
 		}
-	100089345={ #// A2. Pauline (*Wien 2.4.1830, +München 27.5.1912); m.15.4.1857 Alfred von Königsegg-Aulendorf (*Aulendorf 30.6.1817, +Vienna 27.10.1898) %%
-		name="Pauline"
-		female=yes
-		religion=catholic culture=german
-		father=100091996	# August Karl
-		mother=100026119	# Julie von Gudenus
-		1830.04.02={birth=yes}  # Wien
-		1912.05.27={death=yes}  # München
-	}
-# BELLEGARDE
+# BELLEGARDE 1002291
 
-# SPAUR
+
+# SPAUR 1002289
 # Joseph 1791; 1m: Therese Frn Taxis (+10.6.1864); 2m: Leopoldine von Blasckovics
 100035926={ #// Johann Nepomuck von Spaur u.Flavon (*2.2.1844, +4.1.1916); m.1869 Helene-Josephine Batthyány de Német-Ujvar (*1850, +1880) %%
 	name="Johann Nepomuck"
@@ -792,7 +737,8 @@
 		1870.02.24={birth=yes}
 		1949.08.05={death=yes}
 	}
-# SPAUR
+# SPAUR 1002289
+ 
  
 # GLEICHEN 1002288
 100035925={ #// Ernst von Arnim (*1390, +15.6.1426); m.20.12.1421 Margarethe von Henneberg (*1386, +1438) %%
@@ -833,14 +779,14 @@
 				1508.01.01={add_spouse=100087486}	# Margarete von Schönburg-Waldenburg
 				1549.01.01={death=yes}
 			}
-				100035920={ #// D1. Georg (*1509, +1570); m.1560 Walburga von Pyrmont und Spiegelberg (*1520, +1599) %%
+				100035920={ #// D1. Georg (*1509, +1570); m.1553 Walburga von Pyrmont und Spiegelberg (*1520, +1599) %%
 					name=Georg
 					dynasty=1002288
 					religion=catholic culture=german
 					father=100035921	# Philipp von Arnim
 					mother=100087486	# Margarete von Schönburg-Waldenburg
 					1509.01.01={birth=yes}
-					1560.01.01={add_spouse=100085745}	# Walburga von Pyrmont und Spiegelberg
+					1553.01.01={add_spouse=100085745}	# Walburga von Pyrmont und Spiegelberg
 					1570.01.01={death=yes}
 				}
 					100035923={ #// E1. Elisabeth (*1554, +Ronneburg 1616); m.1572 Heinrich zu Ysenburg und Büdingen (*13.9.1537, +Ronneburg 31.5.1601) %%
@@ -1566,22 +1512,22 @@
 			1873.01.01={birth=yes}	# EST.
 			1930.01.01={death=yes}	# EST.
 		}
-			100035760={ #// C1. André (*Vienne 9.6.1907, +18.9.1989); m.15.4.1931 Guillemette d  Harcourt (*Brumetz 23.8.1908, +26.9.2006) %%
+			100035760={ #// C1. André (*Vienne 9.6.1907, +18.9.1989); m.15.4.1931 Guillemette d'Harcourt (*Brumetz 23.8.1908, +26.9.2006) %%
 				name=André
 				dynasty=1007093
 				religion=catholic culture=french
 				father=100035761	# Benoît de Chabannes
 				1907.06.09={birth=yes}  # Vienne
-				1931.04.15={add_spouse=100068487}	# Guillemette d  Harcourt
+				1931.04.15={add_spouse=100068487}	# Guillemette d'Harcourt
 				1989.09.18={death=yes}
 			}
-			100035769={ #// C2. Michel (*Limoges 24.1.1915, +30.6.1994); m.19.8.1943 Marie-Anne d  Harcourt (*Belan 8.10.1923, +Pierre Bénite 6.2.1986) %%
+			100035769={ #// C2. Michel (*Limoges 24.1.1915, +30.6.1994); m.19.8.1943 Marie-Anne d'Harcourt (*Belan 8.10.1923, +Pierre Bénite 6.2.1986) %%
 				name=Michel
 				dynasty=1007093
 				religion=catholic culture=french
 				father=100035761	# Benoît de Chabannes
 				1915.01.24={birth=yes}  # Limoges
-				1943.08.19={add_spouse=100068488}	# Marie-Anne d  Harcourt
+				1943.08.19={add_spouse=100068488}	# Marie-Anne d'Harcourt
 				1994.06.30={death=yes}
 			}
 				100035770={ #// D1. Blanche (*château de Nevers 11.6.1947); m.12.6.1971 Charles de Bauffremont-Courtenay (*Neuilly 2.2.1946) %%
@@ -1590,7 +1536,7 @@
 					dynasty=1007093
 					religion=catholic culture=french
 					father=100035769	# Michel de Chabannes
-					mother=100068488	# Marie-Anne d  Harcourt
+					mother=100068488	# Marie-Anne d'Harcourt
 					1947.06.11={birth=yes}	# château de Nevers
 				}
 
@@ -1612,7 +1558,7 @@
 		1881.01.01={add_spouse=100103423}	# Paulina Langlois de Chevry
 		1900.05.27={death=yes}	# Paris
 	}
-		100035765={ #// E1. Gabriel, Marquis de Chabannes, *1898, +1966; m.1921 Mahaut de Bethune-Sully $$
+		100035765={ #// B1. Gabriel, Marquis de Chabannes (*1898, +1966); m.1921 Mahaut de Béthune-Hesdigneul (*Paris 31.3.1884, +Cannes 26.5.1965) $$
 			name=Gabriel
 			dynasty=1007093
 			religion=catholic culture=french
@@ -1622,7 +1568,7 @@
 			1921.01.01={add_spouse=100068100}	# Mahaut de Béthune-Hesdigneul
 			1966.01.01={death=yes}
 		}
-			100035766={ #// F1. Sybille de Chabannes, *1922, +?; m.1943 Jacques de Bauffremont-Courtenay Pr et Duc de Bauffremont $$
+			100035766={ #// C1. Sybille (*Paris 26.6.1922, +Paris 28.8.2005); m.15.7.1943 Jacques de Bauffremont-Courtenay (*Paris 6.2.1922) %%
 				name=Sybille
 				female=yes
 				dynasty=1007093
@@ -1643,7 +1589,7 @@
 	1874.01.01={add_spouse=100065112}	# Josephine de Bourbon-Busset
 	1919.01.01={death=yes}
 }
-	100035764={ #// E1. Richard du Pre de Saint-Maur, *1891, +1973; m.Css Elizabeth d'Ursel $$
+	100035764={ #// A1. Richard (*3.6.1891, +30.10.1973); m.4.2.1920 Elisabeth Marie d’Ursel (*12.8.1889, +26.5.1974) %%
 		name=Richard
 		dynasty=1007092
 		religion=catholic culture=french
@@ -1878,14 +1824,14 @@
 						1963.01.01={add_spouse=100082669}	# FRN Elisabeth von Fürstenberg-Stammheim
 						2007.01.01={death=yes}  # EST.
 					}
-						100035727={ #// F1. Sebastian (*Bonn 5.9.1964); m.13.6.1998 Vinciane d  Harcourt (*Paris 30.5.1968) %%
+						100035727={ #// F1. Sebastian (*Bonn 5.9.1964); m.13.6.1998 Vinciane d'Harcourt (*Paris 30.5.1968) %%
 							name=Sebastian
 							dynasty=1002284
 							religion=catholic culture=german
 							father=100035728	# Gieselbert von Westphalen zu Fürstenberg
 							mother=100082669	# FRN Elisabeth von Fürstenberg-Stammheim
 							1964.09.05={birth=yes}  # Bonn
-							1998.06.13={add_spouse=100068439}	# Vinciane d  Harcourt
+							1998.06.13={add_spouse=100068439}	# Vinciane d'Harcourt
 						}
 		100035745={ #// B2. Otto Franz (*1807, +1856); m.1847 Frn Christiane von Canitz und Dallwitz (*1824, +1880) %%
 			name="Otto Franz"
@@ -2497,7 +2443,7 @@
 				dynasty=1002278
 				religion=catholic culture=german
 				father=100035894	# Johann von Montfort-Tettnang
-				mother=100086602	# Maria Viktoria von Spaur u.Flavon
+				mother=100086471	# Maria Katharina von Sulz
 				1678.10.09={birth=yes}
 				1759.01.26={death=yes}  # Sigmaringen
 			}
@@ -3582,7 +3528,7 @@
 			1924.12.02={birth=yes}
 			2011.10.14={death=yes}
 		}
-		100035250={ #// B3. Alix (*28.11.1926); m.6.7.1948 Emanuel d  Harcourt (*19.11.1914, +1985) %%
+		100035250={ #// B3. Alix (*28.11.1926); m.6.7.1948 Emanuel d'Harcourt (*19.11.1914, +1985) %%
 			name=Alix
 			female=yes
 			dynasty=1007061
@@ -3628,7 +3574,7 @@
 			1929.01.01={birth=yes}
 			2002.01.01={death=yes}
 		}
-		100035251={ #// B2. Hélène Anne (*Paris 21.5.1932); m.26.10.1954 Louis d  Harcourt (*Toulon 5.2.1922) %%
+		100035251={ #// B2. Hélène Anne (*Paris 21.5.1932); m.26.10.1954 Louis d'Harcourt (*Toulon 5.2.1922) %%
 			name="Hélène Anne"
 			female=yes
 			dynasty=1007061
@@ -3661,7 +3607,7 @@
 		1904.06.11={birth=yes}	# Paris
 		2000.01.01={death=yes}  # EST.
 	}
-		100035255={ #// B1. Edmée (*22.9.1938); m.1.9.1962 Pierre d  Harcourt (*23.12.1928) %%
+		100035255={ #// B1. Edmée (*22.9.1938); m.1.9.1962 Pierre d'Harcourt (*23.12.1928) %%
 			name=Edmée
 			female=yes
 			dynasty=1007061
@@ -3712,13 +3658,13 @@
 		mother=100000239	# Louise Marie von Arenberg
 		1921.12.15={birth=yes}	# Paris
 	}
-		100035252={ #// B1. Guillaume (*Neuilly-sur-Seine 7.11.1959); m.1984 Marie Liese d  Harcourt (*Paris 15.11.1959) %%
+		100035252={ #// B1. Guillaume (*Neuilly-sur-Seine 7.11.1959); m.1984 Marie Liese d'Harcourt (*Paris 15.11.1959) %%
 			name=Guillaume
 			dynasty=1007061
 			religion=catholic culture=french
 			father=100035279	# Pierre Louis de Vogüé
 			1959.11.07={birth=yes}	# Neuilly-sur-Seine
-			1984.01.01={add_spouse=100068437}	# Marie Liese d  Harcourt
+			1984.01.01={add_spouse=100068437}	# Marie Liese d'Harcourt
 		}
 # VOGÜÈ	
 
@@ -4077,16 +4023,16 @@
 				1922.05.05={birth=yes}	# Paris
 				2010.03.09={death=yes}  # Château de Loupoigne
 			}
-			100035065={ #// C3. Gilbert (*Paris 1927); m.4.2.1956 Bernadette d  Harcourt (*3.7.1929, +château du Creux 11.1.1998) %%
+			100035065={ #// C3. Gilbert (*Paris 1927); m.4.2.1956 Bernadette d'Harcourt (*3.7.1929, +château du Creux 11.1.1998) %%
 				name=Gilbert
 				dynasty=1007050
 				religion=catholic culture=french
 				father=100036761	# Roger de Nicolaï
 				1927.01.01={birth=yes}  # Paris
-				1956.02.04={add_spouse=100068692}	# Bernadette d  Harcourt
+				1956.02.04={add_spouse=100068692}	# Bernadette d'Harcourt
 				2004.01.01={death=yes}  # EST.
 			}
-			100036759={ #// C4. Henriette (*26.7.1933); m.3.2.1956 Jean d  Harcourt (*16.2.1926, +1994) %%
+			100036759={ #// C4. Henriette (*26.7.1933); m.3.2.1956 Jean d'Harcourt (*16.2.1926, +1994) %%
 				name=Henriette
 				female=yes
 				dynasty=1007050
@@ -4208,7 +4154,7 @@
 	1929.07.09={birth=yes}  # Paris
 	2000.01.01={death=yes}	# EST.
 }
-	100035244={ #// A1. Hélène (*1962); m.1989 Geoffroy d  Harcourt (*Paris 8.12.1952) %%
+	100035244={ #// A1. Hélène (*1962); m.1989 Geoffroy d'Harcourt (*Paris 8.12.1952) %%
 		name=Hélène
 		female=yes
 		dynasty=1007050
@@ -9045,299 +8991,15 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 #1981.11.04={holder=100500029} # 1h) Clemens 
 ## WALDBOTT 1004601
 	
-## HARDEGG
-100036494={ #// Johann Friedrich zu Hardegg auf Glatz u.im Machlande (*1638, +1703) %%
-	name="Johann Friedrich"
-	dynasty=1004558
-	religion=catholic culture=german
-	1638.01.01={birth=yes}
-	1703.01.01={death=yes}
-}
-	100036489={ #// A1. Johann Julius Adam (*1676, +1746) %%
-		name="Johann Julius Adam"
-		dynasty=1004558
-		religion=catholic culture=german
-		father=100036494	# Johann Friedrich zu Hardegg auf Glatz u.im Machlande
-		1676.01.01={birth=yes}
-		1746.01.01={death=yes}
-	}
-		100036488={ #// B1. Johann Karl (*1703, +1752) %%
-			name="Johann Karl"
-			dynasty=1004558
-			religion=catholic culture=german
-			father=100036489	# Johann Julius Adam zu Hardegg auf Glatz u.im Machlande
-			1703.01.01={birth=yes}
-			1752.01.01={death=yes}
-		}
-			100036499={ #// C1. Johann Franz (*2.2.1741, +17.3.1808) %%
-				name="Johann Franz"
-				dynasty=1004558
-				religion=catholic culture=german
-				father=100036488	# Johann Karl zu Hardegg auf Glatz u.im Machlande
-				1741.02.02={birth=yes}
-				1808.03.17={death=yes}
-			}
-				100036498={ #// D1. Maria Luise (*8.10.1770, +4.10.1836); m.15.1.1820 Ignác Almásy de Zsadány et Törökszentmiklós (*Gyoengyoes 15.1.1751, +Mariaenzensdorf 24.9.1840) %%
-					name="Maria Luise"
-					female=yes
-					dynasty=1004558
-					religion=catholic culture=german
-					father=100036499	# Johann Franz zu Hardegg auf Glatz u.im Machlande
-					1770.10.08={birth=yes}
-					1836.10.04={death=yes}
-				}
-				100036486={ #// D2. Johann Ferdinand (*18.4.1773, +2.5.1818); m.30.9.1797 Maria Aloysia von Althann (*30.5.1766, +4.1.1834) %%
-					name="Johann Ferdinand"
-					dynasty=1004558
-					religion=catholic culture=german
-					father=100036499	# Johann Franz zu Hardegg auf Glatz u.im Machlande
-					1773.04.18={birth=yes}
-					1797.09.30={add_spouse=100022180}	# Maria Aloysia von Althann
-					1818.05.02={death=yes}
-				}			
-					100036919={ #// E1. Johann Franz (*1799, +1854) %%
-						name="Johann Franz"
-						dynasty=1004558
-						religion=catholic culture=german
-						father=100036486	# Johann Ferdinand zu Hardegg auf Glatz u.im Machlande
-						mother=100022180	# Maria Aloysia von Althann
-						1799.01.01={birth=yes}
-						1854.01.01={death=yes}
-					}
-						100036918={ #// F1. Clotilde (*Wien 20.12.1830, +Salzburg 11.5.1897); m.24.7.1852 Moritz O'Donnell von Tyrconnell (*Prag 6.6.1815, +Salzburg 25.11.1890) %%
-							name=Clotilde
-							female=yes
-							dynasty=1004558
-							religion=catholic culture=german
-							father=100036919	# Johann Franz zu Hardegg auf Glatz u.im Machlande
-							1830.12.20={birth=yes}	# Wien
-							1897.05.11={death=yes}	# Salzburg
-						}
-						100036487={ #// F2. Maria (*Stetteldorf 21.10.1831, +Hadersdorf-Weidlingau 19.8.1919); m.21.10.1849 Karl Maximilian von Seilern u.Aspang (*Wien, Wien 26.2.1825, +Kalksburg 20.10.1905) %%
-							name=Maria
-							female=yes
-							dynasty=1004558
-							religion=catholic culture=german
-							father=100036919	# Johann Franz zu Hardegg auf Glatz u.im Machlande
-							1831.10.21={birth=yes}	# Stetteldorf
-							1919.08.19={death=yes}	# Hadersdorf-Weidlingau
-						}
-						100036482={ #// F3. Julius (*Wien 10.5.1833, +Stetteldorf 11.2.1900); m.1st 7.10.1857 Marie Hermengilda Chorinsky z Ledské (*Veselí nad Moravou 27.1.1835, +Wien 21.5.1867); m.2nd 21.1.1873 Maria von Waldburg-Zeil-Hohenems (*Mattsies 22.8.1845, +Mattuglie 12.3.1914) %%
-							name=Julius
-							dynasty=1004558
-							religion=catholic culture=german
-							father=100036919	# Johann Franz zu Hardegg auf Glatz u.im Machlande
-							1833.05.10={birth=yes}  # Wien
-							1857.10.07={add_spouse=chorinsky_0056}	# Marie Hermengilda Chorinsky z Ledské
-							1873.01.21={add_spouse=100011181}	# Maria von Waldburg-Zeil-Hohenems
-							1900.02.11={death=yes}  # Stetteldorf
-						}
-							hardegg_0151={ #// J1. Johann Maria Friedrich ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1860.08.23, +Stetteldorf 1938; m.Ljubljana (=Laibach) 6.6.1901 Melitta Puteany (*Kaiser 20.7.1879, +Arco 3.5.1906)
-								name=Johann
-								dynasty=1004558
-								religion=catholic culture=czech
-								father=100036482	# Julius zu Hardegg auf Glatz u.im Machlande
-								mother=chorinsky_0056	# Marie Hermengilda Chorinsky z Ledské
-								1860.08.23={birth=yes}  # Wien
-								1901.06.06={add_spouse=lowborn_3763}	# Melitta Puteany
-								1938.01.27={death=yes}  # Stetteldorf
-							}
-								hardegg_0150={ #// K1. Johann Maria Friedrich Franz de Paula Julius Benno VON HARDEGG AUF GLATZ UND IM MARCHLANDE, *Ljubljana,Slovenia 1902.04.26, +k.a.,Ibbenbüren,Westfalen 1945.04.02; m.Wien 19.5.1927 Anna Chorinská z Ledské $$
-									name=Johann
-									dynasty=1004558
-									religion=catholic culture=czech
-									father=hardegg_0151	# Johann zu Hardegg auf Glatz u.im Machlande
-									mother=lowborn_3763	# Melitta Puteany
-									1902.04.26={birth=yes}  # Ljubljana,Slovenia
-									1927.05.19={add_spouse=chorinsky_0107}	# Anna Chorinsky z Ledské
-									1945.04.02={death=yes}  # k.a.,Ibbenbüren,Westfalen
-								}
-							hardegg_0152={ #// G2. Josef (*17.12.1876, +18.2.1945); m.26.1.1918 Marie Karoline von Clary u.Aldringen (*19.5.1886, +11.7.1979) %%
-								name=Josef
-								dynasty=1004558
-								religion=catholic culture=german
-								father=100036482	# Julius zu Hardegg auf Glatz u.im Machlande
-								mother=100011181	# Maria von Waldburg-Zeil-Hohenems
-								1876.12.17={birth=yes}
-								1918.01.26={add_spouse=100024869}	# Marie Karoline von Clary u.Aldringen
-								1945.02.18={death=yes}
-							}
-				100036483={ #// D3. Johann Karl (*28.2.1783, +29.12.1839); m.10.5.1814 Marie Terezie Krakovský z Kolovrat (*Wien 23.6.1770, +Stronsdorf 21.5.1849) %%
-					name="Johann Karl"
-					dynasty=1004558
-					religion=catholic culture=german
-					father=100036499	# Johann Franz zu Hardegg auf Glatz u.im Machlande
-					1783.02.28={birth=yes}
-					1814.05.10={add_spouse=100047099}	# Marie Terezie Krakovský z Kolovrat
-					1839.12.29={death=yes}
-				}
-				100036493={ #// D4. Josephine (*Wien 2.5.1784, +Wien 23.12.1850); m.22.4.1806 Odoardo Pallavicini (*Wien 9.3.1787, +Wien 20.4.1839) %%
-					name=Josephine
-					female=yes
-					dynasty=1004558
-					religion=catholic culture=german
-					father=100036499	# Johann Franz zu Hardegg auf Glatz u.im Machlande
-					1784.05.02={birth=yes}  # Wien
-					1850.12.23={death=yes}  # Wien
-				}
-	100036495={ #// A2. Johann Konrad Friedrich (*1677, +1721) %%
-		name="Johann Konrad Friedrich"
-		dynasty=1004558
-		religion=catholic culture=german
-		father=100036494	# Johann Friedrich zu Hardegg auf Glatz u.im Machlande
-		1677.01.01={birth=yes}
-		1721.01.01={death=yes}
-	}
-		100036500={ #// B1. Johann Heinrich Konrad (*1705, +1747) %%
-			name="Johann Heinrich Konrad"
-			dynasty=1004558
-			religion=catholic culture=german
-			father=100036495	# Johann Konrad Friedrich zu Hardegg auf Glatz u.im Machlande
-			1705.01.01={birth=yes}
-			1747.01.01={death=yes}
-		}
-			100036501={ #// C1. Johann Anton Konrad (*1735, +1790) %%
-				name="Johann Anton Konrad"
-				dynasty=1004558
-				religion=catholic culture=german
-				father=100036500	# Johann Heinrich Konrad zu Hardegg auf Glatz u.im Machlande
-				1735.01.01={birth=yes}
-				1790.01.01={death=yes}
-			}
-				100036497={ #// D1. Johann Dominik (*20.10.1767, +1.7.1836); m.7.1.1799 Maria von Althann (*1.6.1776, +7.3.1833) %%
-					name="Johann Dominik"	# 520505/johann-dominik-graf-zu-hardegg-auf-glatz-und-im-machlande/
-					dynasty=1004558
-					religion=catholic culture=german
-					father=100036501	# Johann Anton Konrad zu Hardegg auf Glatz u.im Machlande
-					1767.10.20={birth=yes}
-					1799.01.07={add_spouse=100022286}	# Maria von Althann
-					1836.07.01={death=yes}
-				}
-					100036496={ #// E1. Johann Maximilian (*Grusbach 14.7.1810, +Wien 21.4.1894); m.4.8.1834 Franziska Xaveria von Wrbna u.Freudenthal (*Wien 22.9.1816, +Wien 4.3.1892) %%
-						name="Johann Maximilian"
-						dynasty=1004558
-						religion=catholic culture=german
-						father=100036497	# Johann Dominik zu Hardegg auf Glatz u.im Machlande
-						mother=100022286	# Maria von Althann
-						1810.07.14={birth=yes}  # Grusbach
-						1834.08.04={add_spouse=100047571}	# Franziska Xaveria von Wrbna u.Freudenthal
-						1894.04.21={death=yes}  # Wien
-					}
-						100035791={ #// F1. Maria (*Wien 14.7.1836, +Meran 16.12.1906); m.8.7.1858 Anton von Attems (*Hausambacher 6.5.1834, +Wien 9.12.1891) %%
-							name=Maria
-							female=yes
-							dynasty=1004558
-							religion=catholic culture=german
-							father=100036496	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
-							mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
-							1836.07.14={birth=yes}  # Wien
-							1906.12.16={death=yes}  # Meran
-						}
-						100036502={ #// F2. Johann Maximilian (*Wien 1.3.1842, +Wien 1.11.1919) %%
-							name="Johann Maximilian"
-							dynasty=1004558
-							religion=catholic culture=german
-							father=100036496	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
-							mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
-							1842.03.01={birth=yes}  # Wien
-							1919.11.01={death=yes}  # Wien
-						}
-							100036490={ #// G1. Johannes Maximilian (*Großharras 25.6.1870, +Maria-Ansbach 9.4.1945); m.14.10.1899 Theresia von Gudenus (*Wien 4.3.1880, +Ulrichskirchen 7.1.1930) %%
-								name="Johannes Maximilian"
-								dynasty=1004558
-								religion=catholic culture=german
-								father=100036502	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
-								1870.06.25={birth=yes}  # Großharras
-								1899.10.14={add_spouse=100025547}	# Theresia von Gudenus
-								1945.04.09={death=yes}  # Maria-Ansbach
-							}
-								100036503={ #// H1. Johannes Maximilian (*Ulrichskirchen 22.8.1900); m.18.5.1927 Františka ze Šternberka (*Wien 6.3.1899, +9.4.1983) %%
-									name="Johannes Maximilian"
-									dynasty=1004558
-									religion=catholic culture=german
-									father=100036490	# Johannes Maximilian zu Hardegg auf Glatz u.im Machlande
-									mother=100025547	# Theresia von Gudenus
-									1900.08.22={birth=yes}  # Ulrichskirchen
-									1927.05.18={add_spouse=100047491}	# Františka ze Šternberka
-									1928.01.01={remove_spouse=100047491}
-									1975.01.01={death=yes}  # EST.
-								}
-									100036491={ #// I1. Therese (*17.2.1940); m.22.4.1967 Karel von Schwarzenberg (*10.12.1937) %%
-										name=Therese
-										female=yes
-										dynasty=1004558
-										religion=catholic culture=german
-										father=100036503	# Johannes Maximilian zu Hardegg auf Glatz u.im Machlande
-										1940.02.17={birth=yes}
-									}
-							100136484={ #// G2. Johann Eugen (*Großharras 23.2.1873, +Wien 3.2.1936); m.11.2.1889 Elisabeth Nicolics de Rudna (*Vöslau 4.10.1877, +Wien 2.12.1954) %%
-								name="Johann Eugen"
-								dynasty=1004558
-								religion=catholic culture=german
-								father=100036502	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
-								1873.02.23={birth=yes}	# Großharras
-								1889.02.11={add_spouse=nicolics_0006}	# Elisabeth Nicolics de Rudna
-								1936.02.03={death=yes}	# Wien
-							}
-								100102981={ #// H1. Feodora (*Debreczyn 27.11.1899, +Wien 1979); m.24.6.1919 Alexander Sułkowski (*Schloß Ebenfurth 15.2.1893, +Leoben 27.3.1956) %%
-									name="Feodora"
-									female=yes
-									dynasty=1004558
-									religion=catholic culture=german
-									father=100136484	# Johann Eugen zu Hardegg auf Glatz u.im Machlande
-									mother=nicolics_0006	# Elisabeth Nicolics de Rudna
-									1899.11.27={birth=yes}  # Debreczyn
-									1979.01.01={death=yes}  # Wien
-								}
-								100102991={ #// H2. Maria Wilhelmine (*Debreczyn 24.2.1901, +Wien 12.8.1987); m.14.7.1920 Roman Sułkowski (*Tannenmühle 18.6.1897, +Vienna 21.12.1940) %%
-									name="Maria Wilhelmine"
-									female=yes
-									dynasty=1004558
-									religion=catholic culture=german
-									father=100136484	# Johann Eugen zu Hardegg auf Glatz u.im Machlande
-									mother=nicolics_0006	# Elisabeth Nicolics de Rudna
-									1901.02.24={birth=yes}  # Debreczyn
-									1987.08.12={death=yes}  # Wien
-								}
-							100036484={ #// G3. Johannes Maria Alexius (*Großharras 30.4.1876, +Wien 20.12.1917); m.15.2.1906 Ilona Erdődy de Monyorókerék et Monoszló (*15.2.1883, +4.11.1969) %%
-								name="Johannes Maria Alexius"
-								dynasty=1004558
-								religion=catholic culture=german
-								father=100036502	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
-								1876.04.30={birth=yes}	# Großharras
-								1906.02.15={add_spouse=100116927}	# Ilona Erdődy de Monyorókerék et Monoszló
-								1917.12.20={death=yes}	# Wien
-							}
-							100036485={ #// G4. Alice Luise (*Großharras 10.7.1879, +Aschach 10.2.1962); m.1.2.1910 Franz von Harrach zu Rohrau u.Thannhausen (*Traunkirchen 26.7.1870, +Iglau Moravia 14.5.1937) %%
-								name="Alice Luise"
-								female=yes
-								dynasty=1004558
-								religion=catholic culture=german
-								father=100036502	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
-								1879.07.10={birth=yes}  # Großharras
-								1962.02.10={death=yes}  # Aschach
-							}
-						100136485={ #// F3. Eugenie (*Seefeld 24.5.1848, +Baden bei Wien 25.8.1928); m.5.11.1867 Karl-Wilhelm III von Haugwitz (*Wien 17.12.1843, +Schloss Wald 3.6.1921) %%
-							name="Eugenie"
-							female=yes
-							dynasty=1004558
-							religion=catholic culture=german
-							father=100036496	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
-							mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
-							1848.05.24={birth=yes}  # Seefeld
-							1928.08.25={death=yes}  # Baden bei Wien
-						}
-## HARDEGG	
-
 
 ## TYRCONNELL
-100036158={ #// Moritz O'Donnell von Tyrconnell (*Prag 6.6.1815, +Salzburg 25.11.1890); m.1st 18.7.1844 Elena Cantacuzino (*Staraia Vielika, Russia 18.9.1819, +Venice 23.12.1845); m.2nd 24.7.1852 Clotilde zu Hardegg auf Glatz u.im Machlande (*Wien 20.12.1830, +Salzburg 11.5.1897) %%
+100036158={ #// Moritz O'Donnell von Tyrconnell (*Prag 6.6.1815, +Salzburg 25.11.1890); m.1st 18.7.1844 Elena Cantacuzino (*Staraia Vielika, Russia 18.9.1819, +Venice 23.12.1845); m.2nd 24.7.1852 Klothilde Gabriele zu Hardegg auf Glatz u.im Machlande (*Wien 20.12.1830, +Salzburg 11.5.1897) %%
 	name=Moritz
 	dynasty=1009029
 	religion=orthodox culture=german
 	1815.06.06={birth=yes}  # Prag
 	1844.07.18={add_spouse=100030061}	# Elena Cantacuzino
-	1852.07.24={add_spouse=100036918}	# Clotilde zu Hardegg auf Glatz u.im Machlande
+	1852.07.24={add_spouse=hardegg_0073}	# Klothilde Gabriele zu Hardegg auf Glatz u.im Machlande
 	1890.11.25={death=yes}  # Salzburg
 }
 	100036692={ #// A1. Heinrich (*Dresden 1845, +Budapest 1907) %%
@@ -9370,7 +9032,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 		dynasty=1009029
 		religion=catholic culture=german
 		father=100036158	# Moritz O'Donnell von Tyrconnell
-		mother=100036918	# Clotilde zu Hardegg auf Glatz u.im Machlande
+		mother=hardegg_0073	# Klothilde Gabriele zu Hardegg auf Glatz u.im Machlande
 		1858.11.07={birth=yes}  # Wien
 		1886.03.01={add_spouse=100024458}	# Gabriele von Thurn u.Valsassina-Como-Vercelli
 		1904.09.13={death=yes}  # Wels
@@ -9410,7 +9072,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 		dynasty=1009029
 		religion=catholic culture=german
 		father=100036158	# Moritz O'Donnell von Tyrconnell
-		mother=100036918	# Clotilde zu Hardegg auf Glatz u.im Machlande
+		mother=hardegg_0073	# Klothilde Gabriele zu Hardegg auf Glatz u.im Machlande
 		1861.07.28={birth=yes}  # Salzburg
 		1906.10.01={death=yes}  # Burg Feistritz
 	}
@@ -9672,14 +9334,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			1831.01.01={add_spouse=100091576}	# CSS Caroline von der Schulenburg
 			1868.01.08={death=yes}	# Schloss Boitzenburg
 		}
-			100036043={ #// C1. Dietlof (*1832, +1887); m.1878 Css Helene von Schweinitz u.Krain (*1846, +1930) %%
+			100036043={ #// C1. Dietlof (*1832, +1887); m.1866 Css Helene von Schweinitz u.Krain (*1846, +1930) %%
 				name=Dietlof
 				dynasty=1002288
 				religion=catholic culture=german
 				father=100036051	# Adolf Heinrich von Arnim
 				mother=100091576	# CSS Caroline von der Schulenburg
 				1832.01.01={birth=yes}
-				1878.01.01={add_spouse=100089302}	# CSS Helene von Schweinitz u.Krain
+				1866.01.01={add_spouse=100089302}	# CSS Helene von Schweinitz u.Krain
 				1887.01.01={death=yes}
 			}
 				100036041={ #// D1. Guido (*1867, +1933); m.1897 Alexandra Therese von Eulenburg (*1868, +1943) %%
@@ -10136,7 +9798,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				1927.01.18={add_spouse=matuschka_0133}	# Maria-Lory Matuschka von Toppolczan u.Spaetgen
 				1943.07.10={death=yes}  # k.a.,Bjelgorod
 			}
-				100035036={ #// D1. Rose-Marie (*Lorzendorf 4.12.1931); m.26.8.1956 Friedrich-Ernst von Rechberg u.Rothenlöwen zu Hohenrechberg (*Schloss Schräbsdorf 3.8.1919, +Regensburg 30.4.1965) %%
+				100035036={ #// D1. Rose-Marie (*Lorzendorf 4.12.1931); m.1st 26.8.1956 Friedrich-Ernst von Rechberg u.Rothenlöwen zu Hohenrechberg (*Schloss Schräbsdorf 3.8.1919, +Regensburg 30.4.1965); m.2nd 26.8.1967 Anton von Wengersky %%
 					name=Rose-Marie
 					female=yes
 					dynasty=1002236
@@ -10535,54 +10197,6 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 								1980.09.09={birth=yes}
 							}
 # BASSELET
-
-# SOBIESKI
-100036556={ #// D2. JAN III, King of Poland (kral Polski), chorazy koronny, marszalek wielki koronny, hetman polny koronny, hetman wielki koronny 1674, *17.8.1629, +17.6.1696; m.(secretly 14.5) 5.7.1665 Maria Casimira de la Grange d'Arquien (*28.6.1641, +30.1.1716)
-	name=Jan
-	dynasty=10090
-	religion=catholic culture=polish
-	1629.08.17={birth=yes}
-	1696.06.17={death=yes}  # Willanow
-}
-	100036559={ #// E1. Jakub Ludwik, *2.11.1667, +19.12.1737; m.Warszawa 25.2.1691 Hedwig Elisbeth von der Pfalz (*18.7.1673, +10.8.1722) $$
-		name="Jakub Ludwyk"
-		dynasty=10090
-		religion=catholic culture=polish
-		father=100036556	# Jan Sobieski
-		1668.11.02={birth=yes}	# Île de France, Paris
-		1691.03.25={add_spouse=100007721}	# Hedwig Elisabeth von Wittelsbach
-		1737.07.19={death=yes}	# Zolkiew
-	}
-		100036558={ #// F3. Maria Karolina, *25.11.1697, +8.5.1740; 1m: Strasbourg 20.9.1723 Frederick Maurice de la Tour d'Auvergne, Pr de Turenne (*24.10.1702 +1.10.1723); 2m: 1.4.1724 Cte Charles Geoffroy de la Tour d'Auvergne, Duc de Bouillon (*16.7.1706, +24.10.1771) $$
-			name="Maria Karolina"
-			female=yes
-			dynasty=10090
-			religion=catholic culture=polish
-			father=100036559	# Jakub Ludwyk Sobieski
-			mother=100007721	# Hedwig Elisabeth von Wittelsbach
-			1697.11.25={birth=yes}	# Olawa
-			1740.05.08={death=yes}
-		}
-		100036557={ #// F5. Maria Klementyna, *18.7.1702, +Rome 18.1.1735; m.Monte Fiascone Cathedral 3.9.1719 James Edward Stuart, Pr of England and Scotland (*10.6.1688 +1.1.1766) $$
-			name="Maria Klementyna"
-			female=yes
-			dynasty=10090
-			religion=catholic culture=polish
-			father=100036559	# Jakub Ludwyk Sobieski
-			mother=100007721	# Hedwig Elisabeth von Wittelsbach
-			1702.07.18={birth=yes}	# Macerata
-			1735.01.18={death=yes}	# Roma
-		}
-	100036560={ #// E2. Teresa Kunegunda, *Warszawa 4.3.1676, +Venice 10.3.1730; m.Wesel 2.1.1695 Maxmilian II von Bayern (*11.7.1662 +26.2.1726) $$
-		name="Teresa Kunigunde"
-		female=yes
-		dynasty=10090
-		religion=catholic culture=polish
-		father=100036556	# Jan Sobieski
-		1676.03.04={birth=yes}  # Warsaw
-		1730.03.10={death=yes}  # Venice
-	}
-# SOBIESKI
 	
 
 # LARISCH
@@ -10961,14 +10575,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	1788.01.01={add_spouse=100093167}	# Maria Leopoldine Unverzagt
 	1816.06.30={death=yes}	# Harnoncourt
 }
-	100036038={ #// A1. Hubert Ludwig (*Wien 12.8.1789, +Wien 28.5.1846); m.1826 Žofie Henriette von Haugwitz %%
+	100036038={ #// A1. Hubert Ludwig (*Wien 12.8.1789, +Wien 28.5.1846); m.1819 Žofie Henriette von Haugwitz %%
 		name="Hubert Ludwig"
 		dynasty=1007065
 		religion=catholic culture=german
 		father=100036039	# Joseph-Louis-Mathieu de la Fontaine u.d'Harnoncourt-Unverzagt
 		mother=100093167	# Maria Leopoldine Unverzagt
 		1789.08.12={birth=yes}	# Wien
-		1826.01.01={add_spouse=haugwitz_0040}	# Žofie Henriette von Haugwitz
+		1819.01.01={add_spouse=haugwitz_0040}	# Žofie Henriette von Haugwitz
 		1846.05.28={death=yes}	# Wien
 	}
 		100036034={ #// B1. Maximilian Viktor (*Wien 23.4.1820, +Wien 27.2.1867); m.1856 Gfn Aloysia Locatelli (*1829, +1869) %%
@@ -12280,23 +11894,23 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 						1575.08.10={birth=yes}
 						1606.03.04={death=yes}
 					}
-			100036141={ #// C2. Arnold (*1500, +1548); m.1545 Margarethe von Wied (*1505, +1571) %%
+			100036141={ #// C2. Arnold (*1500, +1548); m.1540 Margarethe von Wied (*1505, +1571) %%
 				name=Arnold
 				dynasty=1002248
 				religion=catholic culture=german
 				father=100036142	# Johann von Manderscheid-Blankenheim
 				mother=100091547	# Marguerite d'Arenberg
 				1500.01.01={birth=yes}
-				1545.01.01={add_spouse=100091089}	# Margarethe von Wied
+				1540.01.01={add_spouse=100091089}	# Margarethe von Wied
 				1548.01.01={death=yes}
 			}
-				100035773={ #// D1. Hermann (*4.8.1535, +Blankenheim 1604); m.1567 Juliane von Hanau (*1529, +1595) %%
+				100035773={ #// D1. Hermann (*4.8.1541, +Blankenheim 1604); m.1567 Juliane von Hanau (*1529, +1595) %%
 					name=Hermann
 					dynasty=1002248
 					religion=catholic culture=german
 					father=100036141	# Arnold von Manderscheid-Blankenheim
 					mother=100091089	# Margarethe von Wied
-					1535.08.04={birth=yes}
+					1541.08.04={birth=yes}
 					1567.01.01={add_spouse=100012739}	# Juliane von Hanau
 					1604.01.01={death=yes}  # Blankenheim
 				}

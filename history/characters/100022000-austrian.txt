@@ -964,7 +964,7 @@ waltersk_0104={ #// Georg Christof, cr Edler Herr von Walterskirchen, Reichsfrei
 							1791.04.26={birth=yes}
 							1862.01.31={death=yes}
 						}
-						waltersk_0133={ #// F3. Maria Karoline, *4.6.1794, +17.12.1861; 1m: 4.6.1813 Leopold von Ludwigstorff, Fhrn von Goldlamb (+21.5.1835); 2m: 18.10.1843 Gf Antal Cziraky ab Denesfalva (+22.2.1852)
+						waltersk_0133={ #// F3. Maria Karoline, *4.6.1794, +17.12.1861; 1m: 4.6.1813 Leopold von Ludwigstorff, Fhrn von Goldlamb (+21.5.1835); 2m: 18.10.1843 Gf Antal Cziraky ab Denesfalva (+22.2.1852) $$
 							name="Maria Karoline"
 							female=yes
 							dynasty=walterskirchen
@@ -2739,6 +2739,16 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 		1726.11.27={add_spouse=100011453}	# Maria Eleonora von Fürstenberg
 		1737.01.09={death=yes}  # Wien
 	}
+		100022170={ #// B4. [1m.] Philippine Antonie, *11.3.1721, +17.8.1768; m.1750 Gf Johann Joseph von und zu Trauttmansdorff (*20.7.1711, +7.3./7.5.1769) $$
+			name=Antonie
+			female=yes
+			dynasty=1004600
+			religion=catholic culture=bavarian
+			father=100022173	# Ernst Joseph von Breunner
+			mother=kuenburg_0013	# Maria Anna von Kuenburg
+			1721.03.11={birth=yes}
+			1768.08.17={death=yes}
+		}
 		100022171={ #// B5. [1m.] Maria Aloysia Rosa, *14.5.1724, +Wien 12.5.1794; m.17.1.1746 Gf Otto Gundacker von Starhemberg (*14.10.1720, +Pottendorf 4.8.1760) $$
 			name="Maria Aloysia"
 			female=yes
@@ -2778,16 +2788,6 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 			mother=100011453	# Maria Eleonora von Fürstenberg
 			1736.12.13={birth=yes}  # Wien
 			1801.04.01={death=yes}  # Wien
-		}
-		100022170={ #// B4. [1m.] Philippine Antonie, *11.3.1721 +17.8.1768; m.1750 Gf Johann Joseph von und zu Trauttmansdorff (*20.7.1711, +7.3./7.5.1769) $$
-			name=Antonie
-			female=yes
-			dynasty=1004600
-			religion=catholic culture=bavarian
-			father=100022173	# Ernst Joseph von Breunner
-			mother=100011453	# Maria Eleonora von Fürstenberg
-			1721.03.11={birth=yes}
-			1768.08.17={death=yes}  # EST.
 		}
 	100022161={ #// A4. Wenzel, *14.4.1697, +Wien 11.9.1781; m.Wien 31.12.1724 Gfn Maria Antonia Eusebia von Harrach (*Wien 1.9.1698, +Wien 26.6.1768) $$
 		name=Wenzel
@@ -4996,7 +4996,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 					1870.07.26={birth=yes}  # Traunkirchen
 					1895.05.29={add_spouse=100025923}	# Gabriele von Khevenhüller-Metsch
 					1902.06.30={add_spouse=100001926}	# Sarah von Hohenlohe-Waldenburg-Schillingsfürst
-					1910.02.01={add_spouse=100036485}	# Alice Luise zu Hardegg auf Glatz u.im Machlande
+					1910.02.01={add_spouse=hardegg_0103}	# Alice zu Hardegg auf Glatz u.im Machlande
 					1937.05.14={death=yes}  # Iglau Moravia
 				}
 					100022200={ #// E1. [2m.] Josepha Sarolta Maria Anna Franziska Saturnina, *Schloss Aschach 29.11.1905, +Salzburg 16.2.2000; m.Velké Mezirící 7.1.1933 Gf Alois Podstatzky-Lichtenstein (*5.9.1905 +18.2.1982) $$
@@ -5025,7 +5025,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 						dynasty=1004560
 						religion=catholic culture=bavarian
 						father=100022202	# Franz von Harrach zu Rohrau u.Thannhausen
-						mother=100036485	# Alice Luise zu Hardegg auf Glatz u.im Machlande
+						mother=hardegg_0103	# Alice zu Hardegg auf Glatz u.im Machlande
 						1916.09.23={birth=yes}  # Wien
 						1991.01.01={death=yes}  # EST.
 					}
@@ -5986,7 +5986,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 						father=100025390	# Hermann Eduard von Attems
 						mother=100103556	# GFN Leopoldine von Gilleis
 						1834.05.06={birth=yes}  # Hausambacher
-						1858.07.08={add_spouse=100035791}	# Maria zu Hardegg auf Glatz u.im Machlande
+						1858.07.08={add_spouse=hardegg_0077}	# Maria Barbara zu Hardegg auf Glatz u.im Machlande
 						1891.12.09={death=yes}  # Wien
 					}
 						100025382={ #// F1. Maximilian Eugen Franz Xaver Leopold Anton Maria Anastasius, *Schrattental, Lower Austria 3.4.1859, +Theresburg 25.10.1939; 1m: Wien 29.10.1892 Franziska Faltis von Jamný (*Trutnov (Trautenau), Bohemia 15.12.1866, +Theresburg 22.8.1920); 2m: Wien 17.11.1925 May Hartmann (*Hildesheim 10.5.1871, +Wien 29.12.1954)
@@ -5994,7 +5994,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 							dynasty=1004511
 							religion=catholic culture=bavarian
 							father=100025387	# Anton von Attems
-							mother=100035791	# Maria zu Hardegg auf Glatz u.im Machlande
+							mother=hardegg_0077	# Maria Barbara zu Hardegg auf Glatz u.im Machlande
 							1859.04.03={birth=yes}  # Schrattental Lower Austria
 							1939.10.25={death=yes}  # Theresburg
 						}
@@ -6148,7 +6148,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 							dynasty=1004511
 							religion=catholic culture=bavarian
 							father=100025387	# Anton von Attems
-							mother=100035791	# Maria zu Hardegg auf Glatz u.im Machlande
+							mother=hardegg_0077	# Maria Barbara zu Hardegg auf Glatz u.im Machlande
 							1861.05.27={birth=yes}  # Schrattenthal
 							1893.08.08={death=yes}  # Sankt Veit_bei_Wien
 						}
@@ -6158,7 +6158,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 							dynasty=1004511
 							religion=catholic culture=bavarian
 							father=100025387	# Anton von Attems
-							mother=100035791	# Maria zu Hardegg auf Glatz u.im Machlande
+							mother=hardegg_0077	# Maria Barbara zu Hardegg auf Glatz u.im Machlande
 							1863.12.09={birth=yes}  # Schrattental
 							1938.03.15={death=yes}  # Wien
 						}
@@ -6167,7 +6167,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 							dynasty=1004511
 							religion=catholic culture=bavarian
 							father=100025387	# Anton von Attems
-							mother=100035791	# Maria zu Hardegg auf Glatz u.im Machlande
+							mother=hardegg_0077	# Maria Barbara zu Hardegg auf Glatz u.im Machlande
 							1865.02.02={birth=yes}  # Schrattental
 							1951.10.14={death=yes}  # Linz
 						}
@@ -6194,7 +6194,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 							dynasty=1004511
 							religion=catholic culture=bavarian
 							father=100025387	# Anton von Attems
-							mother=100035791	# Maria zu Hardegg auf Glatz u.im Machlande
+							mother=hardegg_0077	# Maria Barbara zu Hardegg auf Glatz u.im Machlande
 							1869.10.03={birth=yes}  # Liesing
 							1898.08.10={add_spouse=100120048}	# Eugenie Horváth-Inczédi de Széplak et Nagyvárad
 							1925.02.14={death=yes}  # Graz
@@ -7290,6 +7290,16 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 				1550.01.01={birth=yes}  # EST.
 				1618.01.01={death=yes}  # EST.
 			}
+		100024723={ #// B6. [2m.] Maria Magdalena; m.Ferenc II Gf Ursini de Blagai (+1.8.1576) $$
+			name="Maria Magdalena"
+			female=yes
+			dynasty=1004523
+			religion=catholic culture=bavarian
+			father=100024710	# Joseph von Lamberg
+			mother=100094196	# Anna von Cvetkovich
+			1535.12.01={birth=yes}  # EST.
+			1618.01.01={death=yes}  # EST.
+		}
 		100024722={ #// B5. [3m.] Katharina, heiress of Jedenspeigen, *1541, +25.10.1597; m.Konrad, Marschall von Pappenheim, Landgraf von Stühlingen (*10.4.1534 +30.7.1603)
 			name=Katharina
 			female=yes
@@ -7297,18 +7307,8 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 			religion=catholic culture=bavarian
 			father=100024710	# Joseph von Lamberg
 			mother=100094196	# Anna von Cvetkovich
-			1541.01.01={birth=yes}
+			1542.01.01={birth=yes}
 			1597.10.25={death=yes}
-		}
-		100024723={ #// B6. [2m.] Maria Magdalena; m.Ferenc II Gf Ursini de Blagai (+1.8.1576)
-			name="Maria Magdalena"
-			female=yes
-			dynasty=1004523
-			religion=catholic culture=bavarian
-			father=100024710	# Joseph von Lamberg
-			mother=100094196	# Anna von Cvetkovich
-			1542.01.01={birth=yes}  # EST.
-			1618.01.01={death=yes}  # EST.
 		}
 	100024733={ #// A10. [2m.] Kaspar III, Reichsfreiherr, Freiherr von Ortenegg und Ottenstein, *1492, +27.4.1548; 1m: Anna Maria Gfn von Thun; 2m: Margarete Lang von Wellenburg (+10.9.1573)
 		name=Kaspar
@@ -10116,7 +10116,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				father=100022414	# Johann Ambrosius von Thurn-Valsassina
 				mother=100072631	# Maria Beatrix von Thurn-Valsássina und Hoffer
 				1651.01.01={birth=yes}
-				1672.01.01={add_spouse=100021779}	# Maria Anna von Auersperg
+				1672.01.01={add_spouse=100021779}	# Anna Maximiliane von Auersperg
 				1710.01.01={death=yes}
 			}
 		# A2. Johann Ludwig, Gf von Thurn und Valsássina, *ca 1579, +Venezia 1.7.1633; m.Sophie von Stubenberg (+Venezia 1630)
@@ -11043,14 +11043,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							1887.10.17={birth=yes}	# Leschna, Mähren
 							1975.09.23={death=yes}	# Graz
 						}
-				100022357={ #// D3. Karl Maximilian (*Wien, Wien 26.2.1825, +Kalksburg 20.10.1905); m.21.10.1849 Maria zu Hardegg auf Glatz u.im Machlande (*Stetteldorf 21.10.1831, +Hadersdorf-Weidlingau 19.8.1919) %%
+				100022357={ #// D3. Karl Maximilian (*Wien, Wien 26.2.1825, +Kalksburg 20.10.1905); m.21.10.1849 Marie Aloysia zu Hardegg auf Glatz u.im Machlande (*Stetteldorf 21.10.1831, +Hadersdorf 19.8.1919) %%
 					name="Karl Maximilian" # 477034/karl-maximilian-graf-von-seilern-und-aspang/
 					dynasty=1004701
 					religion=catholic culture=bavarian
 					father=100022409	# Joseph August von Seilern u.Aspang
 					mother=100115513	# Marie Leopoldine Zichy de Zich et Vásonkeő
 					1825.02.26={birth=yes}	# Wien, Wien
-					1849.10.21={add_spouse=100036487}	# Maria zu Hardegg auf Glatz u.im Machlande
+					1849.10.21={add_spouse=hardegg_0074}	# Marie Aloysia zu Hardegg auf Glatz u.im Machlande
 					1905.10.20={death=yes}	# Kalksburg
 				}
 					100022221={ #// E1. Julius (*Wien, Wien 17.8.1858, +Wien, Wien 21.2.1932); m.1885 Terézia Alojzia Pejačević (*Petersburg 30.5.1867, +Baumkirchen 29.6.1953) %%
@@ -11058,7 +11058,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						dynasty=1004701
 						religion=catholic culture=bavarian
 						father=100022357	# Karl Maximilian von Seilern u.Aspang
-						mother=100036487	# Maria zu Hardegg auf Glatz u.im Machlande
+						mother=hardegg_0074	# Marie Aloysia zu Hardegg auf Glatz u.im Machlande
 						1858.08.17={birth=yes}	# Wien, Wien
 						1885.01.01={add_spouse=100136027}	# Terézia Alojzia Pejačević
 						1932.02.21={death=yes}	# Wien, Wien
@@ -15061,14 +15061,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 										1869.07.11={birth=yes}
 										1945.09.01={death=yes}
 									}
-								100023696={ #// 2h) Hugo Aloys Wilhelm (21 Apr 1839-19 Oct 1904); m.27 jan 1886 Marie Bedocs de Torodfa et Telekes (21 Jan 1847-8 Jul 1922)
+								100023696={ #// 2h) Hugo Aloys Wilhelm (21 Apr 1839-19 Oct 1904); m.27 Jan 1886 Marie Bedocs de Torodfa et Telekes (21 Jan 1847-8 Jul 1922)
 									name=Hugo
 									dynasty=1004556
 									religion=catholic culture=bavarian
 									father=100023688	# Johann Wilhelm von Wurmbrand-Stuppach
 									mother=100011290	# Bertha von Nostitz-Rieneck
 									1839.04.21={birth=yes}
-									1886.01.27={add_spouse=100097618}	# Marie Bedocs de Torodfa et Telekes
+									1876.01.27={add_spouse=100097618}	# Marie Bedocs de Torodfa et Telekes
 									1904.10.19={death=yes}
 								}
 									100023702={ #// 1i) Paula Maria Klara (Laibach 25 Nov 1878-Vienna 7 Jan 1942); m.Preßburg 15 Nov 1899 (div 1920) Andreas Gf Pálffy von Erdöd (Lupinjak 13 Nov 1873-1947) $$
@@ -15606,14 +15606,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				1675.02.14={add_spouse=100097757}	# GFN Anna Galler von Schwarzenegg
 				1702.06.26={death=yes}
 			}
-				100023811={ #// 5d) Rudolf Christian Maximilian (19 Oct 1682-17 Jan 1731); m.12 May 1717 Maria Josepha Cajetana Gfn von Trauttmansdorff (21 May 1697-6 Oct 1764)
+				100023811={ #// 5d) Rudolf Christian Maximilian (19 Oct 1682-17 Jan 1731); m.12 May 1717 Maria Josepha Cajetana Gfn von Trauttmansdorff (21 May 1697-6 Oct 1764) $$
 					name=Rudolf
 					dynasty=1004556
 					religion=catholic culture=bavarian
 					father=100023809	# Georg Andreas von Wurmbrand-Stuppach
 					mother=100097757	# GFN Anna Galler von Schwarzenegg
 					1682.10.19={birth=yes}
-					1717.05.12={add_spouse=100084868}	# GFN Maria Josepha von Trauttmansdorff
+					1717.05.12={add_spouse=trautt_0024}	# Maria Josefa von Trauttmansdorff-Weinsberg
 					1731.01.17={death=yes}
 				}
 					100023814={ #// 2e) Georg Ehrenreich Maximilian Franz Johann Joseph Andreas (14 May 1719-17 May 1786); m.12 Nov 1743 Maria Anna Franziska Gfn von Orsini und Rosenberg (18 Feb 1719-6 Dec 1760) $$
@@ -15621,7 +15621,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						dynasty=1004556
 						religion=catholic culture=bavarian
 						father=100023811	# Rudolf von Wurmbrand-Stuppach
-						mother=100084868	# GFN Maria Josepha von Trauttmansdorff
+						mother=trautt_0024	# Maria Josefa von Trauttmansdorff-Weinsberg
 						1719.05.14={birth=yes}
 						1743.11.12={add_spouse=100024448}	# Maria Anna Franziska von Orsini u.Rosenberg
 						1786.05.17={death=yes}
@@ -15761,7 +15761,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						dynasty=1004556
 						religion=catholic culture=bavarian
 						father=100023811	# Rudolf von Wurmbrand-Stuppach
-						mother=100084868	# GFN Maria Josepha von Trauttmansdorff
+						mother=trautt_0024	# Maria Josefa von Trauttmansdorff-Weinsberg
 						1720.04.20={birth=yes}
 						1798.11.06={death=yes}
 					}
@@ -15771,7 +15771,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						dynasty=1004556
 						religion=catholic culture=bavarian
 						father=100023811	# Rudolf von Wurmbrand-Stuppach
-						mother=100084868	# GFN Maria Josepha von Trauttmansdorff
+						mother=trautt_0024	# Maria Josefa von Trauttmansdorff-Weinsberg
 						1721.11.13={birth=yes}
 						1773.02.11={death=yes}
 					}
@@ -15781,7 +15781,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						dynasty=1004556
 						religion=catholic culture=bavarian
 						father=100023811	# Rudolf von Wurmbrand-Stuppach
-						mother=100084868	# GFN Maria Josepha von Trauttmansdorff
+						mother=trautt_0024	# Maria Josefa von Trauttmansdorff-Weinsberg
 						1723.05.20={birth=yes}
 						1761.07.09={death=yes}
 					}
@@ -15790,7 +15790,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						dynasty=1004556
 						religion=catholic culture=bavarian
 						father=100023811	# Rudolf von Wurmbrand-Stuppach
-						mother=100084868	# GFN Maria Josepha von Trauttmansdorff
+						mother=trautt_0024	# Maria Josefa von Trauttmansdorff-Weinsberg
 						1724.04.03={birth=yes}
 						1791.09.15={death=yes}
 					}
@@ -15799,7 +15799,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						dynasty=1004556
 						religion=catholic culture=bavarian
 						father=100023811	# Rudolf von Wurmbrand-Stuppach
-						mother=100084868	# GFN Maria Josepha von Trauttmansdorff
+						mother=trautt_0024	# Maria Josefa von Trauttmansdorff-Weinsberg
 						1725.08.03={birth=yes}
 						1757.06.28={death=yes}
 					}
@@ -15808,7 +15808,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						dynasty=1004556
 						religion=catholic culture=bavarian
 						father=100023811	# Rudolf von Wurmbrand-Stuppach
-						mother=100084868	# GFN Maria Josepha von Trauttmansdorff
+						mother=trautt_0024	# Maria Josefa von Trauttmansdorff-Weinsberg
 						1728.05.20={birth=yes}
 						1804.01.13={death=yes}
 					}
@@ -17204,6 +17204,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 									female=yes
 									dynasty=1004528
 									religion=catholic culture=bavarian
+									trait=legitimized_bastard
 									father=100023573	# Jakob August von Goëss
 									mother=100097508	# Simone Sander
 									1993.01.01={birth=yes}  # Traunstein
@@ -19270,7 +19271,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					father=100023260	# Rüdiger von Starhemberg
 					mother=100097773	# FRN Helene Zäckl von Friedau
 					1564.01.01={birth=yes}  # Eferding
-					1589.01.01={add_spouse=100100338}	# GFN Elisabeth von Hardegg
+					1589.01.01={add_spouse=hardegg_0028}	# Elisabeth zu Hardegg auf Glatz u.im Machlande
 					1601.01.06={add_spouse=herberstein_0183}	# Barbara von Herberstein
 					1620.12.01={death=yes}  # Znaim, Moravia
 				}
@@ -20485,7 +20486,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			1757.12.01={death=yes}  # Wien
 		}
 		100023274={ #// B9. Maria Barbara Judith, *Linz 9.12.1690 in Linz, +Wien 6.10.1763 in Wien; m.9.4.1724 Johann Philipp Gf Künigl (*15.11.1696, +17.11.1770)
-			name=Maria
+			name="Maria Barbara"
 			female=yes
 			dynasty=1004013
 			religion=catholic culture=bavarian
@@ -20495,7 +20496,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			1763.10.06={death=yes}  # Wien
 		}
 		100023275={ #// B11. Maria Helena Regina Eleonora, *6.9.1695, +Wien 7.10.1727; m.15.7.1726 Reichsgf Julius von Hamilton (+Wien 13.7.1759)
-			name=Maria
+			name="Maria Helena"
 			female=yes
 			dynasty=1004013
 			religion=catholic culture=bavarian
@@ -27165,6 +27166,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						name=Erich
 						dynasty=1004005
 						religion=catholic culture=bavarian
+						trait=legitimized_bastard
 						father=100024340	# Stanislaus Johannes von Thun u.Hohenstein
 						mother=100094038	# Rosa Zill
 						1932.12.21={birth=yes}
@@ -27494,16 +27496,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			1539.01.01={add_spouse=100095500}	# Amalie von Lappitz
 			1545.06.15={death=yes}
 		}
-			100025055={ #// C12. [3m.] Johann Hartmann, *1540, +k.a.22.8.1596; m.20.2.1568 Regina von Kirchberg (+1609); for his descendants see HERE
-				name="Johann Hartmann"
-				dynasty=1004004
-				religion=catholic culture=bavarian
-				father=100025006	# David von Trauttmansdorff-Weinsberg
-				mother=100095500	# Amalie von Lappitz
-				1540.01.01={birth=yes}
-				1568.02.20={add_spouse=100095543}	# Regina von Kirchberg
-				1596.08.22={death=yes}
-			}
+			#trautt7  -->   C12. [3m.] Johann Hartmann, *1540, +k.a.22.8.1596; m.20.2.1568 Regina von Kirchberg (+1609); for his descendants see HERE
 			100025052={ #// C13. [3m.] Wolfgang Dietrich, *1541, +2.7.1594; m.Wien 14.12.1567 Christine Volkra (*1551 +1590)
 				name="Wolfgang Dietrich"
 				dynasty=1004004
@@ -27564,7 +27557,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					1615.01.11={add_spouse=100118385}	# Sophie Maria Pálffy ab Erdöd
 					1650.06.07={death=yes}  # Wien
 				}
-					# trautt2 -> E1. Adam Matthias, *1617, +Bischofteinitz 2.11.1684; 1m: Litomyšl 2.3.1642 Eva Johanka von Sternberg (+2.12.1674); 2m: Maria Isabella z Lobkowicz (+1719); for his descendants see HERE
+					# rautt2   -->  E1. Adam Matthias, *1617, +Bischofteinitz 2.11.1684; 1m: Litomyšl 2.3.1642 Eva Johanka von Sternberg (+2.12.1674); 2m: Maria Isabella z Lobkowicz (+1719); for his descendants see HERE
 					100025023={ #// E6. Johann Friedrich, Imperial Chamberlain, Privy counsellor, *Wien 5.1.1619, +Praha 7.1./4.2.1696;  $$
 								# 1m: Wien 16.1.1650 Pss Maria Clara von Dietrichstein (*ca 1626, +28.1.1667); 
 								# 2m: Anna Maria Gfn Berka von Duba; 
@@ -27720,7 +27713,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						1689.01.01={add_spouse=100185704}	# Marie Anna Kinsky von Wchinitz u.Tettau
 						1692.02.24={death=yes}
 					}
-					# trautt6 -> E15. Georg Sigmund, *Graz 22.8.1638, +Graz 16.10.1708; m.Brunnsee 30.4.1665 Eleonora Cäcilia Renata Gfn von Wildenstein (*Graz 12.10.1643, +Graz 16.12.1708); for his descendants see HERE
+					#trautt6  -->   E15. Georg Sigmund, *Graz 22.8.1638, +Graz 16.10.1708; m.Brunnsee 30.4.1665 Eleonora Cäcilia Renata Gfn von Wildenstein (*Graz 12.10.1643, +Graz 16.12.1708); for his descendants see HERE
 				100025053={ #// D11. Susanna, +15.5.1619; m.1608 Frhr Pilgram von Sinzendorf (*1576, +Pöggstall 14.3.1632) $$
 					name=Susanna
 					female=yes
@@ -29060,7 +29053,6 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		1944.09.17={add_spouse=100092474}	# Sibylle von Kries
 		1965.06.25={death=yes}  # Innsbruck
 	}
-		
 #1901.01.14={holder=100024648} # Ferdinand Alfons
 #1915.09.18={holder=100025464} # A2. Ferdinand Johann
 #1958.05.14={holder=100025465} # B1. Karl NORBERT Georg Maria Ferdinand Judas Thaddäus Josef Anton Benedikt Alois Tobias
@@ -29932,7 +29924,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			religion=catholic culture=bavarian
 			father=100023946	# Maximilian von Trauttmansdorff-Weinsberg
 			mother=100023605	# Gabriela Barbara von Starhemberg
-			1690.01.01={birth=yes}
+			1695.01.01={birth=yes}
 			1717.04.19={add_spouse=100023834}	# Maria Anna von Starhemberg
 			1762.11.28={death=yes}
 		}
@@ -30169,6 +30161,227 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 #1814.01.01={holder=100024256} # G1. Weikhard Konrad
 #1828.01.01={holder=100024308} # H1. Vincenz
 #trautt6
+
+#trautt7
+trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41, +k.a.Hatvan 22.8.1596; m.20.2.1568 Regina von Kirchberg (+1609)
+	name=Johann
+	dynasty=1004004
+	religion=catholic culture=german
+	father=100025006	# David von Trauttmansdorff-Weinsberg
+	mother=100095500	# Amalie von Lappitz
+	1540.01.01={birth=yes}
+	1568.02.20={add_spouse=lowborn_6280}	# Regina von Kirchberg
+	1596.08.22={death=yes}  # Hatvan
+}
+	trautt_0004={ #// B3. Georg Ludwig, *1575; m.Anastasia von Sinzendorf
+		name="Georg Ludwig"
+		dynasty=1004004
+		religion=catholic culture=german
+		father=trautt_0001	# Johann von Trauttmansdorff-Weinsberg
+		mother=lowborn_6280	# Regina von Kirchberg
+		1575.01.01={birth=yes}
+		1601.01.01={add_spouse=lowborn_6283}	# Anastasia von Sinzendorf
+		1645.01.01={death=yes}  # EST.
+	}
+	trautt_0005={ #// B4. Johann Joachim, *1575, +8.8.1636; 1m: Eleonore von Herberstein (+1616); 2m: 1617 Maria Magdalena von und zu Kainach $$
+		name="Johann Joachim"
+		dynasty=1004004
+		religion=catholic culture=german
+		father=trautt_0001	# Johann von Trauttmansdorff-Weinsberg
+		mother=lowborn_6280	# Regina von Kirchberg
+		1575.01.01={birth=yes}
+		1601.01.01={add_spouse=herberstein_0171}	# Eleonore von Herberstein
+		1617.01.01={add_spouse=lowborn_6285}	# Maria Magdalena v.u.zu Kainach
+		1636.08.08={death=yes}
+	}
+		trautt_0006={ #// C1. Adam Maximilian, *15.3.1621, +Wien 11.7.1670; 1m: Engelburg Frn Hager zu Altensteig (*4.8.1622, +2.1.1648); 2m: Sophie Eleonore Frn von Herberstein; 3m: 9.11.1653 Gfn Regina Katharina von Windisch-Grätz (*13.7.1626, +17.1.1701) $$
+			name="Adam Maximilian"
+			dynasty=1004004
+			religion=catholic culture=german
+			father=trautt_0005	# Johann Joachim von Trauttmansdorff-Weinsberg
+			mother=herberstein_0171	# Eleonore von Herberstein
+			1621.03.15={birth=yes}
+			1635.01.01={add_spouse=lowborn_6287}	# FRN Engelburg Hager zu Altensteig
+			1649.01.02={add_spouse=herberstein_0331}	# Sophie Eleonore von Herberstein
+			1653.11.09={add_spouse=wgraetz_0058}	# Regina Katharina von Windisch-Graetz
+			1670.07.11={death=yes}  # Wien
+		}
+			trautt_0007={ #// D1. [1m.] Sigmund Joachim, *1636, +1.4.1706; m.Maria Anna Gfn von Herberstein (*1635 +1707) $$
+				name="Sigmund Joachim"
+				dynasty=1004004
+				religion=catholic culture=german
+				father=trautt_0006	# Adam Maximilian von Trauttmansdorff-Weinsberg
+				mother=lowborn_6287	# FRN Engelburg Hager zu Altensteig
+				1636.01.01={birth=yes}
+				1675.01.01={add_spouse=herberstein_0373}	# Marie Anna von Herberstein
+				1706.04.01={death=yes}  # Venezia
+			}
+				trautt_0008={ #// E1. Sigmund Leopold, *1676, +Graz 14.11.1734; m.Graz 4.11.1711 Gfn Maria Charlotte von Attems (+10.12.1742) $$
+					name="Sigmund"
+					dynasty=1004004
+					religion=catholic culture=german
+					father=trautt_0007	# Sigmund Joachim von Trauttmansdorff-Weinsberg
+					mother=herberstein_0373	# Marie Anna von Herberstein
+					1676.01.01={birth=yes}
+					1711.11.04={add_spouse=100024964}	# Charlotte von Attems
+					1734.11.14={death=yes}  # Graz
+				}
+					trautt_0009={ #// F1. Karl, *13.9.1719, +1796; m.17.2.1760 Maria Anna Gfn zu Herberstein (+1.8.1799) $$
+						name=Karl
+						dynasty=1004004
+						religion=catholic culture=german
+						father=trautt_0008	# Sigmund von Trauttmansdorff-Weinsberg
+						mother=100024964	# Charlotte von Attems
+						1719.09.13={birth=yes}
+						1760.02.17={add_spouse=herberstein_0532}	# Maria Anna von Herberstein
+						1796.01.01={death=yes}
+					}
+						trautt_0010={ #// G1. Maria Josepha, *20.11.1760, +19.11.1826; m.17.4.1786 Gf Johann Baptist zu Brandis (+1812)
+							name="Maria Josepha"
+							female=yes
+							dynasty=1004004
+							religion=catholic culture=german
+							father=trautt_0009	# Karl von Trauttmansdorff-Weinsberg
+							mother=herberstein_0532	# Maria Anna von Herberstein
+							1760.11.20={birth=yes}
+							1826.11.19={death=yes}
+						}
+						trautt_0011={ #// G2. Friedrich, *14.12.1761, +k.a. VI.1800
+							name=Friedrich
+							dynasty=1004004
+							religion=catholic culture=german
+							father=trautt_0009	# Karl von Trauttmansdorff-Weinsberg
+							mother=herberstein_0532	# Maria Anna von Herberstein
+							1761.12.14={birth=yes}
+							1800.06.01={death=yes}
+						}
+						trautt_0012={ #// G3. Sigmund, *27.10.1763, +1794
+							name=Sigmund
+							dynasty=1004004
+							religion=catholic culture=german
+							father=trautt_0009	# Karl von Trauttmansdorff-Weinsberg
+							mother=herberstein_0532	# Maria Anna von Herberstein
+							1763.10.27={birth=yes}
+							1794.01.01={death=yes}
+						}
+						trautt_0013={ #// G4. Ferdinand, *13.4.1765, +1810
+							name=Ferdinand
+							dynasty=1004004
+							religion=catholic culture=german
+							father=trautt_0009	# Karl von Trauttmansdorff-Weinsberg
+							mother=herberstein_0532	# Maria Anna von Herberstein
+							1765.04.13={birth=yes}
+							1810.01.01={death=yes}
+						}
+			trautt_0014={ #// D2. [1m.] Sophie Engelburg; m.Baptista Tarobold von Schönau
+				name=Sophie
+				female=yes
+				dynasty=1004004
+				religion=catholic culture=german
+				father=trautt_0006	# Adam Maximilian von Trauttmansdorff-Weinsberg
+				mother=lowborn_6287	# FRN Engelburg Hager zu Altensteig
+				1667.01.01={birth=yes}  # EST.
+				1727.01.01={death=yes}  # EST.
+			}
+			trautt_0015={ #// D3. [1m.] Dorothea; 1m: Johann Anton von Weichselburg; 2m: NN Frhr von Hofmann
+				name=Dorothea
+				female=yes
+				dynasty=1004004
+				religion=catholic culture=german
+				father=trautt_0006	# Adam Maximilian von Trauttmansdorff-Weinsberg
+				mother=lowborn_6287	# FRN Engelburg Hager zu Altensteig
+				1667.01.01={birth=yes}  # EST.
+				1727.01.01={death=yes}  # EST.
+			}
+			trautt_0016={ #// D4. [3m.] Ferdinand Maximilian, *16.8.1654, +k.a. 12.9.1683; m.Anna Magdalena Frn Odersky z Liderzowa, widow of Petr Jiří Vchynský z Vchynic
+				name="Ferdinand Maximilian"
+				dynasty=1004004
+				religion=catholic culture=german
+				father=trautt_0006	# Adam Maximilian von Trauttmansdorff-Weinsberg
+				mother=lowborn_6287	# FRN Engelburg Hager zu Altensteig
+				1654.08.16={birth=yes}
+				1680.01.01={add_spouse=lowborn_6297}	# FRN Anna Magdalena Odersky z Liderzowa
+				1683.09.12={death=yes}
+			}
+			trautt_0018={ #// D6. [3m.] Hektor Seyfried, *1656, +k.a.Morea 1704; m.16.2.1695 Gfn Susanna von Auersperg (*7.8.1678, +27.3.1726) $$
+				name=Hektor
+				dynasty=1004004
+				religion=catholic culture=german
+				father=trautt_0006	# Adam Maximilian von Trauttmansdorff-Weinsberg
+				mother=lowborn_6287	# FRN Engelburg Hager zu Altensteig
+				1656.01.01={birth=yes}
+				1695.02.16={add_spouse=100021773}	# Maria Susanna von Auersperg
+				1704.01.01={death=yes}  # Morea
+			}
+			trautt_0019={ #// D7. [3m.] Adam Karl, *1655/25.1.1658, +k.a.against Turks 1687
+				name="Adam Karl"
+				dynasty=1004004
+				religion=catholic culture=german
+				father=trautt_0006	# Adam Maximilian von Trauttmansdorff-Weinsberg
+				mother=lowborn_6287	# FRN Engelburg Hager zu Altensteig
+				1687.01.01={birth=yes}
+				1757.01.01={death=yes}  # EST.
+			}
+			trautt_0022={ #// D10. [3m.] Franz Ehrenreich zum Freienthurn, *21.1.1662, +Wien 8.4.1719; m.1688 Maximiliane Christine Gfn von und zu Trauttmansdorff-Weinsberg (*1666 +7.9.1730) $$
+				name="Franz Ehrenreich"
+				dynasty=1004004
+				religion=catholic culture=german
+				father=trautt_0006	# Adam Maximilian von Trauttmansdorff-Weinsberg
+				mother=lowborn_6287	# FRN Engelburg Hager zu Altensteig
+				1662.01.21={birth=yes}
+				1688.01.01={add_spouse=100023235}	# Maximiliana Christiana von Trauttmansdorff-Weinsberg
+				1719.04.08={death=yes}  # Wien
+			}
+				trautt_0023={ #// E1. Maria Renate, *16.11.1692, +?
+					name="Maria Renate"
+					female=yes
+					dynasty=1004004
+					religion=catholic culture=german
+					father=trautt_0022	# Franz Ehrenreich von Trauttmansdorff-Weinsberg
+					mother=100023235	# Maximiliana Christiana von Trauttmansdorff-Weinsberg
+					1692.11.16={birth=yes}
+					1767.01.01={death=yes}  # EST.
+				}
+				trautt_0024={ #// E2. Maria Josefa Kajetana Thaddäa, *Graz 21.4.1697, +6.10.1764; m.12.5.1717 Gf Rudolf von Wurmbrand-Stuppach (*Graz 17.10.1682, +17.1.1731) $$
+					name="Maria Josefa"
+					female=yes
+					dynasty=1004004
+					religion=catholic culture=bavarian
+					father=trautt_0022	# Franz Ehrenreich von Trauttmansdorff-Weinsberg
+					mother=100023235	# Maximiliana Christiana von Trauttmansdorff-Weinsberg
+					1697.04.21={birth=yes}  # Graz
+					1764.10.06={death=yes}
+				}
+				trautt_0025={ #// E3. Maximilian Joseph Ehrenreich, *7.7.1698, +1760
+					name="Maximilian Joseph"
+					dynasty=1004004
+					religion=catholic culture=german
+					father=trautt_0022	# Franz Ehrenreich von Trauttmansdorff-Weinsberg
+					mother=100023235	# Maximiliana Christiana von Trauttmansdorff-Weinsberg
+					1698.07.07={birth=yes}
+					1760.01.01={death=yes}
+				}
+		trautt_0030={ #// C2. Regina Sabina, *17.4.1614; m.Ulrich Gf Kollonitsch
+			name="Regina Sabina"
+			female=yes
+			dynasty=1004004
+			religion=catholic culture=german
+			father=trautt_0005	# Johann Joachim von Trauttmansdorff-Weinsberg
+			mother=herberstein_0171	# Eleonore von Herberstein
+			1614.04.17={birth=yes}
+			1689.01.01={death=yes}  # EST.
+		}
+		trautt_0032={ #// C4. Magdalena; m.Adam von Polheim
+			name=Magdalena
+			female=yes
+			dynasty=1004004
+			religion=catholic culture=german
+			father=trautt_0005	# Johann Joachim von Trauttmansdorff-Weinsberg
+			mother=herberstein_0171	# Eleonore von Herberstein
+			1607.01.01={birth=yes}  # EST.
+			1667.01.01={death=yes}  # EST.
+		}
+#trautt7
 ## Trauttmansdorff	|	1004004		|	100023200
 
 
@@ -32676,7 +32889,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							father=100022887	# Johann Moritz von Liechtenstein
 							mother=100006625	# Clotilde Alberta von Thurn und Taxis
 							1949.04.01={birth=yes}
-							1989.07.22={add_spouse=100066617}	# Marie Isabelle d  Orleans
+							1989.07.22={add_spouse=100066617}	# Marie Isabelle d’Orléans
 						}
 							100022893={ #// 1h) Leopoldine Eleonore Therese Marie (b.Vienna 27 Jun 1990)
 								name=Leopoldine
@@ -32684,7 +32897,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1990.06.27={birth=yes}
 							}
 							100022894={ #// 2h) Marie Immaculee Elisabeth Rose Adelgunde (b.Vienna 15 Dec 1991)
@@ -32693,7 +32906,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1991.12.15={birth=yes}
 							}
 							100022895={ #// 3h) Johann Wenzel Karl Emmeran Bonifatius Maria (b.Vienna 16 Mar 1993)
@@ -32701,7 +32914,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1993.03.16={birth=yes}
 							}
 							100022896={ #// 4h) Margarete Franziska Daria Wilhelmine Marie (b.Vienna 10 Jan 1995)
@@ -32710,7 +32923,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1995.01.10={birth=yes}
 							}
 							100022897={ #// 5h) Gabriel Karl Bonaventura Alfred Valerian Maria (b.Vienna 6 May 1998)
@@ -32718,7 +32931,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d  Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1998.05.06={birth=yes}
 							}
 						100022898={ #// 3g) Alfred Heinrich Michael Benedikt Maria (b.Vienna 17 Sep 1951); m.Vaduz 22 Mar 2002 (rel) Schloß Waldstein 6 Apr 2002 Raffaella Ida Sangiorgi (b.Tlemcen, Algeria 12 Dec 1966)
@@ -33980,7 +34193,7 @@ wgraetz_0001={ #// Graf Andreas II von Windisch-Graetz, *1567, +1600; m.Graz 10.
 			1625.07.02={birth=yes}
 			1664.01.01={death=yes}
 		}
-		wgraetz_0058={ #// B4. Regina Katharina, *13.7.1626, +17.1.1701; m.9.11.1653 Gf Adam Max von Trauttmansdorff (*14.3.1621, +11.7.1670)
+		wgraetz_0058={ #// B4. Regina Katharina, *13.7.1626, +17.1.1701; m.9.11.1653 Gf Adam Max von Trauttmansdorff (*14.3.1621, +11.7.1670) $$
 			name="Regina Katharina"
 			female=yes
 			dynasty=1004000
@@ -35216,7 +35429,7 @@ wgraetz_0038={ #// JOSEPH Ludwig Nikolaus Anton de Paula Johannes Nepomuk Adam R
 						1964.01.01={remove_spouse=100081490}
 						2013.01.01={death=yes}	# EST.
 }
-					100023166={ #// 3e) Eleonore Aloysia Elisabeth Maria (b.Vienna 25 Aug 1947); m.Vienna 21 Mar 1968 Friedrich Johann Gf zu Hardegg (b.Vienna 5 Jan 1944)
+					100023166={ #// 3e) Eleonore Aloysia Elisabeth Maria (b.Vienna 25 Aug 1947); m.Vienna 21 Mar 1968 Friedrich Johann Gf zu Hardegg (b.Vienna 5 Jan 1944) $$
 						name=Eleonore
 						female=yes
 						dynasty=1004000
@@ -35491,7 +35704,7 @@ ungnad_0005={ #// B2. Johann UNGNAD, *1473, +1520; m.Margarethe Lochner von Lieb
 								father=ungnad_0041	# Ferdinand Bonaventura Ungnad von Weißenwolff
 								mother=100023803	# Maria Theresia von Starhemberg
 								1719.04.11={birth=yes}
-								1746.01.01={add_spouse=lowborn_4174}	# Maria Josepha von und zu Sprinzenstein
+								1746.01.01={add_spouse=lowborn_4174}	# Maria Josepha v.u.zu Sprinzenstein
 								1789.01.01={death=yes}  # EST.
 							}
 								ungnad_0054={ #// J1. Maria Anna UNGNADOVÁ ZE SUNEKU, *1747.02.02, +Linz 1822.06.26; m.Esterháza 3.8.1777 Miklós Esterházy de Galántha $$
@@ -35500,7 +35713,7 @@ ungnad_0005={ #// B2. Johann UNGNAD, *1473, +1520; m.Margarethe Lochner von Lieb
 									dynasty=1004515
 									religion=catholic culture=german
 									father=ungnad_0045	# Franz Joseph Ungnad von Weißenwolff
-									mother=lowborn_4174	# Maria Josepha von und zu Sprinzenstein
+									mother=lowborn_4174	# Maria Josepha v.u.zu Sprinzenstein
 									1747.02.02={birth=yes}
 									1822.06.26={death=yes}  # Linz
 								}
@@ -35975,15 +36188,6 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 																			mother=lowborn_1840	# Elisabeth Eyrl v.u.zu Waldgries u.Liebenaich
 																			1841.09.17={birth=yes}  # Bozen
 																			1916.01.01={death=yes}  # EST.
-																		}
-																		khuen_0096={ #// 49 Joseph KHUEN DE BELASI, *Bozen 1843
-																			name=Joseph
-																			dynasty=1002238
-																			religion=catholic culture=german
-																			father=khuen_0037	# Gabriel Khuen von Belasi
-																			mother=lowborn_1840	# Elisabeth Eyrl v.u.zu Waldgries u.Liebenaich
-																			1843.04.01={birth=yes}  # Bozen
-																			1913.01.01={death=yes}  # EST.
 																		}
 																		khuen_0044={ #// 50 Hedwig VON KHUEN-BELASI, *Bozen 1846.04.13, +Lodrone 1905.04.07; m.Schloss Gandegg 10.9.1868 Ernst August zu Lodron-laterano und castelromano (*Trient 27.4.1842, +Lodrone 17.5.1899) $$
 																			name=Hedwig
@@ -36846,7 +37050,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 														1660.01.01={birth=yes}
 														1692.01.01={death=yes}
 													}
-													khuen_0094={ #// 24 Anna Margaretha KHUEN VON BELASI, +1735
+													khuen_0094={ #// M2. Anna Margaretha (+17.4.1735); m.1693 Sebastian zu Lodron-Laterano u.Castelromano (+1716) %%
 														name="Anna Margaretha"
 														female=yes
 														dynasty=1002238
@@ -36865,7 +37069,7 @@ khuen_0149={ #// 1 Egeno in der Grube VON TRAMIN, +1234
 														1656.01.01={birth=yes}  # EST.
 														1707.01.25={death=yes}  # Cachrau, Bohemia
 													}
-														khuen_0026={ #// 30 Joseph Ferdinand Karl KHUEN VON BELASI, *Birkenau 1699.08.25, +Chamutitz 1767.04.02; m.1st Naktendörflas 15.2.1721 Katharina Ludmilla PERGLER VON PERGLAS (*Tissa bei Naketendörflas 20.5.1698); m.2nd Helena von Andlau
+														khuen_0026={ #// 30 Joseph Ferdinand Karl KHUEN VON BELASI, *Birkenau 1699.08.25, +Chamutitz 1767.04.02; m.1st Naketendörflas 15.2.1721 Katharina Ludmilla PERGLER VON PERGLAS (*Tissa bei Naketendörflas 20.5.1698); m.2nd Helena von Andlau
 															name="Joseph Ferdinand Karl"
 															dynasty=1002238
 															religion=catholic culture=german
@@ -38492,7 +38696,7 @@ belcredi_0001={ #// Pio BELCREDI; m.Maria Ernestina von Lestwitz
 					father=belcredi_0008	# Richard von Belcredi
 					mother=lowborn_5175	# Anna von Welden
 					1856.02.04={birth=yes}  # Znojmo
-					1885.07.15={add_spouse=lowborn_5177}	# Marie von und zu Franckenstein
+					1885.07.15={add_spouse=lowborn_5177}	# Marie v.u.zu Franckenstein
 					1914.09.06={death=yes}  # Líše
 				}
 					belcredi_0012={ #// E1. Egbert BELCREDI, *Líše 1887.03.08, +Wien 1932.05.05
@@ -38500,7 +38704,7 @@ belcredi_0001={ #// Pio BELCREDI; m.Maria Ernestina von Lestwitz
 						dynasty=belcredi
 						religion=catholic culture=german
 						father=belcredi_0009	# Ludwig von Belcredi
-						mother=lowborn_5177	# Marie von und zu Franckenstein
+						mother=lowborn_5177	# Marie v.u.zu Franckenstein
 						1887.03.08={birth=yes}  # Líše
 						1932.05.05={death=yes}  # Wien
 					}
@@ -38510,7 +38714,7 @@ belcredi_0001={ #// Pio BELCREDI; m.Maria Ernestina von Lestwitz
 						dynasty=belcredi
 						religion=catholic culture=german
 						father=belcredi_0009	# Ludwig von Belcredi
-						mother=lowborn_5177	# Marie von und zu Franckenstein
+						mother=lowborn_5177	# Marie v.u.zu Franckenstein
 						1888.06.05={birth=yes}  # Líše
 						1968.01.22={death=yes}  # München
 					}
@@ -38519,7 +38723,7 @@ belcredi_0001={ #// Pio BELCREDI; m.Maria Ernestina von Lestwitz
 						dynasty=belcredi
 						religion=catholic culture=german
 						father=belcredi_0009	# Ludwig von Belcredi
-						mother=lowborn_5177	# Marie von und zu Franckenstein
+						mother=lowborn_5177	# Marie v.u.zu Franckenstein
 						1891.08.11={birth=yes}  # Líše
 						1956.08.20={death=yes}  # Bad Tölz
 					}
@@ -38528,7 +38732,7 @@ belcredi_0001={ #// Pio BELCREDI; m.Maria Ernestina von Lestwitz
 						dynasty=belcredi
 						religion=catholic culture=german
 						father=belcredi_0009	# Ludwig von Belcredi
-						mother=lowborn_5177	# Marie von und zu Franckenstein
+						mother=lowborn_5177	# Marie v.u.zu Franckenstein
 						1893.09.24={birth=yes}  # Líše
 						1920.06.05={add_spouse=kalnoky_0046}	# Therese Kálnoky de Kőröspatak
 						1972.09.18={death=yes}  # Wien
@@ -38717,7 +38921,7 @@ belcredi_0001={ #// Pio BELCREDI; m.Maria Ernestina von Lestwitz
 						dynasty=belcredi
 						religion=catholic culture=german
 						father=belcredi_0009	# Ludwig von Belcredi
-						mother=lowborn_5177	# Marie von und zu Franckenstein
+						mother=lowborn_5177	# Marie v.u.zu Franckenstein
 						1896.11.21={birth=yes}  # Líše
 						1898.09.30={death=yes}  # Jimramov
 					}
@@ -38726,7 +38930,7 @@ belcredi_0001={ #// Pio BELCREDI; m.Maria Ernestina von Lestwitz
 						dynasty=belcredi
 						religion=catholic culture=german
 						father=belcredi_0009	# Ludwig von Belcredi
-						mother=lowborn_5177	# Marie von und zu Franckenstein
+						mother=lowborn_5177	# Marie v.u.zu Franckenstein
 						1902.01.01={birth=yes}  # Líše
 						1935.11.19={add_spouse=kalnoky_0047}	# Elisabeth-Gabrielle Kálnoky de Kőröspatak
 						1973.05.31={death=yes}  # Wien
@@ -38923,7 +39127,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 								1638.01.01={add_spouse=lowborn_5471}	# Ludmilla Katharine von Garben
 								1668.01.01={death=yes}  # EST.
 							}
-						herberstein_0171={ #// H3. Eleonore VON HERBERSTEIN, *1588, +1616; m.Johann Joachim von Trauttmansdorff (*1575, +8.8.1636)
+						herberstein_0171={ #// H3. Eleonore VON HERBERSTEIN, *1588, +1616; m.Johann Joachim von Trauttmansdorff (*1575, +8.8.1636) $$
 							name=Eleonore
 							female=yes
 							dynasty=herberstein
@@ -38953,7 +39157,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 							1597.01.01={add_spouse=lowborn_5404}	# Anna Maria von Eggenberg
 							1641.01.01={death=yes}  # EST.
 						}
-						herberstein_0164={ #// H9. Sidonia VON HERBERSTEIN, +1608; m.Graz 1.9.1592 Georg Friedrich zu Hardegg Auf Glatz (*1568, +Wien 6.9.1628)
+						herberstein_0164={ #// H9. Sidonia VON HERBERSTEIN, +1608; m.Graz 1.9.1592 Georg Friedrich zu Hardegg Auf Glatz (*1568, +Wien 6.9.1628) $$
 							name=Sidonia
 							female=yes
 							dynasty=herberstein
@@ -39013,7 +39217,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 									1625.01.01={birth=yes}  # EST.
 									1685.01.01={death=yes}  # EST.
 								}
-								herberstein_0373={ #// J2. Marie Anna VON HERBERSTEIN, *1635, +Wien 1707.04.03; m.1.1.1670 Siegmund Joachim von Trauttmansdorff (*1636, +Venezia 1.4.1706)
+								herberstein_0373={ #// J2. Marie Anna VON HERBERSTEIN, *1635, +Wien 1707.04.03; m.1.1.1670 Siegmund Joachim von Trauttmansdorff (*1636, +Venezia 1.4.1706) $$
 									name="Marie Anna"
 									female=yes
 									dynasty=herberstein
@@ -39027,7 +39231,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 										name=Ferdinand
 										dynasty=herberstein
 										religion=catholic culture=german
-										father=lowborn_5536	# Siegmund Joachim von Trauttmansdorff
+										father=trautt_0007	# Sigmund Joachim von Trauttmansdorff-Weinsberg
 										mother=herberstein_0373	# Marie Anna von Herberstein
 										1676.01.01={birth=yes}
 										1711.11.04={add_spouse=100024964}	# Charlotte von Attems
@@ -39669,7 +39873,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 								1632.01.01={birth=yes}  # EST.
 								1692.01.01={death=yes}  # EST.
 							}
-							herberstein_0331={ #// I8. Sophie Eleonore VON HERBERSTEIN; m.Adam Maximilian von Trauttmansdorff (*14.3.1621, +Wien 11.7.1670)
+							herberstein_0331={ #// I8. Sophie Eleonore VON HERBERSTEIN; m.Adam Maximilian von Trauttmansdorff (*14.3.1621, +Wien 11.7.1670) $$
 								name="Sophie Eleonore"
 								female=yes
 								dynasty=herberstein
@@ -41036,14 +41240,14 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 																			mother=100047303	# Elisabeth Kottulinsky z Kottulin
 																			1964.08.26={birth=yes}  # Wien
 																		}
-																		herberstein_0650={ #// T2. Johann ZU HERBERSTEIN, *Wien 1965; m.Kirchberg an der Pielach 19.7.1997 Camilla zu Hardegg (*Wien 5.2.1973)
+																		herberstein_0650={ #// T2. Johann ZU HERBERSTEIN, *Wien 1965; m.Kirchberg an der Pielach 19.7.1997 Camilla zu Hardegg (*Wien 5.2.1973) $$
 																			name=Johann
 																			dynasty=herberstein
 																			religion=catholic culture=german
 																			father=herberstein_0619	# Anton von Herberstein
 																			mother=100047303	# Elisabeth Kottulinsky z Kottulin
 																			1965.10.09={birth=yes}  # Wien
-																			1997.07.19={add_spouse=lowborn_5696}	# Camilla zu Hardegg
+																			1997.07.19={add_spouse=hardegg_0132}	# Camilla zu Hardegg auf Glatz u.im Machlande
 																		}
 															herberstein_0584={ #// Q3. Johann Albert ZU HERBERSTEIN, *Wien 1864.11.12, +Herberstein 1945.03.20; m.Wien 11.4.1894 Eleonore zu Salm-Reifferscheidt-Raitz (*Wien 13.10.1873, +Herberstein 23.9.1966) $$
 																name="Johann Albert"
@@ -41514,14 +41718,6 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 																		mother=lowborn_5670	# Helga Sieder
 																		1963.12.09={birth=yes}  # Boulogne,Paris
 																	}
-																	herberstein_0633={ #// S2. Johann VON HERBERSTEIN, *Boulogne,Paris 1965
-																		name=Johann
-																		dynasty=herberstein
-																		religion=catholic culture=german
-																		father=herberstein_0611	# Johann Gundeger von Herberstein
-																		mother=lowborn_5670	# Helga Sieder
-																		1965.08.10={birth=yes}  # Boulogne,Paris
-																	}
 																	herberstein_0634={ #// S3. Johann VON HERBERSTEIN, *Boulogne,Paris 1968; m.Plettenberg Bay,RSA 5.1.1990 Lisa Anderson Morshead
 																		name=Johann
 																		dynasty=herberstein
@@ -41813,7 +42009,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 									1695.01.01={add_spouse=lowborn_5530}	# Maria Anna von Breuner
 									1710.01.01={death=yes}
 								}
-									herberstein_0439={ #// K1. Maria Anna VON HERBERSTEIN, *1696, +1726; m.Sigismund Ursini von Blagay (*7.4.1686, +1755)
+									herberstein_0439={ #// K1. Maria Anna VON HERBERSTEIN, *1696, +1726; m.Sigismund Ursini von Blagay (*7.4.1686, +1755) $$
 										name="Maria Anna"
 										female=yes
 										dynasty=herberstein
@@ -41853,7 +42049,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 									1675.01.01={birth=yes}
 									1735.11.24={death=yes}
 								}
-								herberstein_0362={ #// J8. Maria Theresia VON HERBERSTEIN, +1742; m.Anton Johann von Nostitz-Rieneck (*13.6.1652, +30.10.1736)
+								herberstein_0362={ #// J8. Maria Theresia VON HERBERSTEIN, +1742; m.Anton Johann von Nostitz-Rieneck (*13.6.1652, +30.10.1736) $$
 									name="Maria Theresia"
 									female=yes
 									dynasty=herberstein
@@ -42128,7 +42324,7 @@ clam_0001={ #// Stefan PERGER, +1521
 			1511.01.01={birth=yes}  # EST.
 			1581.01.01={death=yes}
 		}
-			clam_0004={ #// C1. Hans Enoch PERGER, ; m.Anna Charitas von Salburg
+			clam_0004={ #// C1. Hans Enoch PERGER; m.Anna Charitas von Salburg
 				name="Hans Enoch"
 				dynasty=1004559
 				religion=catholic culture=german
@@ -42147,7 +42343,7 @@ clam_0001={ #// Stefan PERGER, +1521
 					1625.01.01={add_spouse=lowborn_5361}	# Anna Sibylla von Kageneck
 					1673.08.09={death=yes}
 				}
-					clam_0007={ #// E1. Hans Christoph CLAM, ; m.Maria Elisabeth von Thürheim
+					clam_0007={ #// E1. Hans Christoph CLAM; m.Maria Elisabeth von Thürheim
 						name="Hans Christoph"
 						dynasty=1004559
 						religion=catholic culture=german
@@ -42463,7 +42659,7 @@ clam_0001={ #// Stefan PERGER, +1521
 											1803.09.04={birth=yes}
 											1878.01.01={death=yes}
 										}
-								clam_0014={ #// H4. Johann Leopold CLAM, ; m.Anna Spindler
+								clam_0014={ #// H4. Johann Leopold CLAM; m.Anna Spindler
 									name="Johann Leopold"
 									dynasty_house=clam_martinic
 									religion=catholic culture=german
@@ -42684,3 +42880,1289 @@ clam_0001={ #// Stefan PERGER, +1521
 									1779.07.15={death=yes}
 								}
 ## CLAM
+
+
+## HARDEGG 1004558
+hardegg_0001={ #// Heinrich VON PRUESCHENK; m.Ursula von Capell
+	name=Heinrich
+	dynasty=1004558
+	religion=catholic culture=german
+	1270.01.01={birth=yes}  # EST.
+	1323.01.01={add_spouse=lowborn_1885}	# Ursula von Capell
+	1340.01.01={death=yes}  # EST.
+}
+	hardegg_0002={ #// A1. Jobst II VON PRUESCHENK; m.Elisabeth von Rogendorf
+		name="Jobst II"
+		dynasty=1004558
+		religion=catholic culture=german
+		father=hardegg_0001	# Heinrich zu Hardegg auf Glatz u.im Machlande
+		mother=lowborn_1885	# Ursula von Capell
+		1338.01.01={birth=yes}  # EST.
+		1393.01.01={add_spouse=lowborn_3025}	# Elisabeth von Rogendorf
+		1408.01.01={death=yes}  # EST.
+	}
+		hardegg_0003={ #// B1. Stephen VON PRUESCHENK, +1480; m.1.1.1460 Margareta von Reicheneck
+			name=Stephen
+			dynasty=1004558
+			religion=catholic culture=german
+			father=hardegg_0002	# Jobst II zu Hardegg auf Glatz u.im Machlande
+			mother=lowborn_3025	# Elisabeth von Rogendorf
+			1408.01.01={birth=yes}  # EST.
+			1460.01.01={add_spouse=lowborn_3212}	# Margareta von Reicheneck
+			1480.01.01={death=yes}
+		}
+			hardegg_0004={ #// C1. Heinrich PRUESCHINK VON HARDEGG, *1460, +1510; m.9.6.1483 Eliška AFT z Rožmberka (*14.2.1466, +1507)
+				name=Heinrich
+				dynasty=1004558
+				religion=catholic culture=german
+				father=hardegg_0003	# Stephen zu Hardegg auf Glatz u.im Machlande
+				mother=lowborn_3212	# Margareta von Reicheneck
+				1460.01.01={birth=yes}
+				1483.06.09={add_spouse=lowborn_5586}	# Eliška z Rožmberka
+				1510.01.10={death=yes}
+			}
+				hardegg_0009={ #// D1. Jan  PRUESCHINK VON HARDEGG, +Gliwicz 1535.07.02; m.26.5.1503 Elisabeth BEF von Schaunberg (+1540)
+					name=Jan
+					dynasty=1004558
+					religion=catholic culture=german
+					father=hardegg_0004	# Heinrich zu Hardegg auf Glatz u.im Machlande
+					mother=lowborn_5586	# Eliška z Rožmberka
+					1483.01.01={birth=yes}  # EST.
+					1503.05.26={add_spouse=lowborn_6288}	# Elisabeth von Schaunberg
+					1535.07.02={death=yes}  # Gliwicz
+				}
+					hardegg_0015={ #// E1. Eliška PRUESCHINK VON HARDEGG; m.1st Petr ze Zierotína; m.2nd Georg Nogarda
+						name=Eliška
+						female=yes
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0009	# Jan zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6288	# Elisabeth von Schaunberg
+						1511.01.01={birth=yes}  # EST.
+						1571.01.01={death=yes}  # EST.
+					}
+					hardegg_0014={ #// E3. Jan Hanuš Bedřich PRUESCHINK VON HARDEGG, +1568; m.Elisabeth von Schwarzeneck
+						name=Jan
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0009	# Jan zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6288	# Elisabeth von Schaunberg
+						1515.01.01={birth=yes}  # EST.
+						1541.01.01={add_spouse=lowborn_6322}	# Elisabeth von Schwarzeneck
+						1568.01.01={death=yes}
+					}
+						hardegg_0026={ #// F1. Albrecht PRUESCHINK VON HARDEGG, +1586
+							name=Albrecht
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0014	# Jan zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6322	# Elisabeth von Schwarzeneck
+							1542.01.01={birth=yes}  # EST.
+							1586.01.01={death=yes}
+						}
+						hardegg_0025={ #// F2. Barbora PRUESCHINK VON HARDEGG; m.1st Johann Baptist von Brauner; m.2nd Jan Šmerhovský z Lidkovic
+							name=Barbora
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0014	# Jan zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6322	# Elisabeth von Schwarzeneck
+							1543.01.01={birth=yes}  # EST.
+							1603.01.01={death=yes}  # EST.
+						}
+						hardegg_0028={ #// F3. Elisabeth PRUESCHINK VON HARDEGG, +1599; m.1st Pavel z Eitzinku; m.2nd Ludwig von Starhemberg-Schaunberg-Schonbu (*Eferding,Oberösterreich, died Dec 1564) $$
+							name=Elisabeth
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0014	# Jan zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6322	# Elisabeth von Schwarzeneck
+							1544.01.01={birth=yes}  # EST.
+							1599.06.27={death=yes}
+						}
+					hardegg_0016={ #// E4. Krištof PRUESCHINK VON HARDEGG, +1543; m.Z Haugvic
+						name=Krištof
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0009	# Jan zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6288	# Elisabeth von Schaunberg
+						1517.01.01={birth=yes}  # EST.
+						1543.01.01={death=yes}
+					}
+					hardegg_0017={ #// E5. Volf Ditřich PRUESCHINK VON HARDEGG, *1531, +1564; m.1.1.1555 Regina Fugger (*Babenhausen,Schwaben, died Nov 28.2.1537) $$
+						name="Volf Ditřich"
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0009	# Jan zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6288	# Elisabeth von Schaunberg
+						1531.01.01={birth=yes}
+						1555.01.01={add_spouse=100011063}	# Regina Fugger
+						1564.01.01={death=yes}
+					}
+						hardegg_0029={ #// F1. Jan PRUESCHINK VON HARDEGG, +1595; m.Esther Elisabeth von Herberstein
+							name=Jan
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0017	# Volf Ditřich zu Hardegg auf Glatz u.im Machlande
+							mother=100011063	# Regina Fugger
+							1557.01.01={birth=yes}  # EST.
+							1583.01.01={add_spouse=lowborn_6338}	# Esther Elisabeth von Herberstein
+							1595.09.06={death=yes}
+						}
+							hardegg_0042={ #// G1. Regina Mariana Juliana PRUESCHINK VON HARDEGG, +1615; m.Jindřich Václav Thurn (+1642)
+								name=Regina
+								female=yes
+								dynasty=1004558
+								religion=catholic culture=german
+								father=hardegg_0029	# Jan zu Hardegg auf Glatz u.im Machlande
+								mother=lowborn_6338	# Esther Elisabeth von Herberstein
+								1583.01.01={birth=yes}  # EST.
+								1615.02.18={death=yes}
+							}
+						hardegg_0030={ #// F2. Jiří Volf PRUESCHINK VON HARDEGG, +1562
+							name="Jiří Volf"
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0017	# Volf Ditřich zu Hardegg auf Glatz u.im Machlande
+							mother=100011063	# Regina Fugger
+							1560.01.01={birth=yes}  # EST.
+							1562.01.01={death=yes}
+						}
+				hardegg_0012={ #// D3. Julius II PRUESCHINK VON HARDEGG, *1500, +1559; m.Gertrude von Eberstein (*Neu 1512, +1551)
+					name="Julius II"
+					dynasty=1004558
+					religion=catholic culture=german
+					father=hardegg_0004	# Heinrich zu Hardegg auf Glatz u.im Machlande
+					mother=lowborn_5586	# Eliška z Rožmberka
+					1500.01.01={birth=yes}
+					1536.01.01={add_spouse=lowborn_6321}	# Gertrude von Eberstein
+					1559.01.29={death=yes}
+				}
+					hardegg_0021={ #// E1. Bernhard VON HARDEGG, *1535, +Praha 1584.08.23; m.1st Gasparina von Menesi; m.2nd 1.1.1569 Anna Susanna von Liechtenstein (*22.5.1549, +27.4.1613)
+						name=Bernhard
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0012	# Julius II zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6321	# Gertrude von Eberstein
+						1535.01.01={birth=yes}
+						1561.01.01={add_spouse=lowborn_6329}	# Gasparina von Menesi
+						1569.01.01={add_spouse=lowborn_6330}	# Anna Susanna von Liechtenstein
+						1584.08.23={death=yes}  # Praha
+					}
+						hardegg_0032={ #// F1. Esther ZU HARDEGG AUF GLATZ, *1570, +1614; m.15.1.1596 Christoph Wilhelm von Zelking (*1575, +Wien 27.4.1631)
+							name=Esther
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0021	# Bernhard zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6330	# Anna Susanna von Liechtenstein
+							1570.01.01={birth=yes}
+							1614.01.01={death=yes}
+						}
+						hardegg_0033={ #// F2. Mathilde VON HARDEGG, *1575, +1602; m.Jan Jetřich z Kunovic (*1570, +19.11.1615)
+							name=Mathilde
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0021	# Bernhard zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6330	# Anna Susanna von Liechtenstein
+							1575.01.01={birth=yes}
+							1602.09.14={death=yes}
+						}
+						hardegg_0031={ #// F3. Susanna VON HARDEGG, +1631; m.Heřmanùv Mof f -äästec 12.1.1586 Vilém z Oppersdorfu (*Brieg 1554, +Praha 4.5.1598) $$
+							name=Susanna
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0021	# Bernhard zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6330	# Anna Susanna von Liechtenstein
+							1576.01.01={birth=yes}  # EST.
+							1631.01.01={death=yes}
+						}
+					hardegg_0018={ #// E2. Esther PRUESCHINK VON HARDEGG; m.1st Christoph von Kainach; m.2nd Karl Ludwig von Puchheim
+						name=Esther
+						female=yes
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0012	# Julius II zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6321	# Gertrude von Eberstein
+						1538.01.01={birth=yes}  # EST.
+						1598.01.01={death=yes}  # EST.
+					}
+					hardegg_0020={ #// E3. Ferdinand PRUESCHINK VON HARDEGG, +1595
+						name=Ferdinand
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0012	# Julius II zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6321	# Gertrude von Eberstein
+						1540.01.01={birth=yes}  # EST.
+						1595.01.01={death=yes}
+					}
+					hardegg_0023={ #// E4. Heinrich II PRUESCHINK VON HARDEGG, *1541, +1577; m.Praha 1.1.1561 Anna Marie z Thurnu
+						name="Heinrich II"
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0012	# Julius II zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6321	# Gertrude von Eberstein
+						1541.01.01={birth=yes}
+						1561.01.01={add_spouse=lowborn_6333}	# Anna Marie z Thurnu
+						1577.04.13={death=yes}
+					}
+						hardegg_0037={ #// F1. Anna Ludmila PRUESCHINK VON HARDEGG, +1602; m.1st 1.1.1581 Vladislav Helt z Kemetu (*26.12.1559, +1584); m.2nd 7.11.1585 Jeroným Václav Thurn (+1613)
+							name="Anna Ludmila"
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0023	# Heinrich II zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6333	# Anna Marie z Thurnu
+							1562.01.01={birth=yes}  # EST.
+							1602.01.01={death=yes}
+						}
+						hardegg_0040={ #// F2. Elisabeth PRUESCHINK VON HARDEGG; m.Hans Wilhelm von Neideck
+							name=Elisabeth
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0023	# Heinrich II zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6333	# Anna Marie z Thurnu
+							1565.01.01={birth=yes}  # EST.
+							1625.01.01={death=yes}  # EST.
+						}
+						hardegg_0041={ #// F3. Georg Friedrich ZU HARDEGG AUF GLATZ, *1568, +Wien 1628.09.06; m.Graz 1.9.1592 Sidonia von Herberstein (+26.7.1608) $$
+							name="Georg Friedrich"
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0023	# Heinrich II zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6333	# Anna Marie z Thurnu
+							1568.01.01={birth=yes}
+							1592.09.01={add_spouse=herberstein_0164}	# Sidonia von Herberstein
+							1628.09.06={death=yes}  # Wien
+						}
+							hardegg_0045={ #// G1. Julius III VON HARDEGG AUF GLATZ, *1594, +1684; m.1st 9.9.1621 Johanna von Hardegg (*1600, +1639); m.2nd Maria Barbara Teufel von Gundersdorf $$
+								name="Julius III"
+								dynasty=1004558
+								religion=catholic culture=german
+								father=hardegg_0041	# Georg Friedrich zu Hardegg auf Glatz u.im Machlande
+								mother=herberstein_0164	# Sidonia von Herberstein
+								1594.03.21={birth=yes}
+								1621.09.09={add_spouse=hardegg_0043}	# Johanna Susanna zu Hardegg auf Glatz u.im Machlande
+								1625.01.01={add_spouse=lowborn_6354}	# Maria Barbara Teufel von Gundersdorf
+								1684.04.27={death=yes}
+							}
+								hardegg_0046={ #// H1. Magdalena VON HARDEGG AUF GLATZ, *1626, +1658; m.Erich Ferdinand von Neudeck
+									name=Magdalena
+									female=yes
+									dynasty=1004558
+									religion=catholic culture=german
+									father=hardegg_0045	# Julius III zu Hardegg auf Glatz u.im Machlande
+									1626.01.01={birth=yes}
+									1658.01.01={death=yes}
+								}
+								hardegg_0047={ #// H2. Esther VON HARDEGG, *Schloss Juliusburg,Oberösterreich 1634.12.06, +Hof 1676.09.21; m.Wien 9.2.1662 Heinrich Reuss zu Schleiz (*Schleiz 26.3.1639, +Köstritz, buried 18.3.1692) $$
+									name=Esther
+									female=yes
+									dynasty=1004558
+									religion=catholic culture=german
+									father=hardegg_0045	# Julius III zu Hardegg auf Glatz u.im Machlande
+									1634.12.06={birth=yes}  # Schloss Juliusburg,Oberösterreich
+									1676.09.21={death=yes}  # Hof
+								}
+								hardegg_0048={ #// H3. Johann Friedrich VON HARDEGG AUF GLATZ, *1636, +1703; m.Wien 10.2.1675 Anna Crescentia von Brandis (*Graz 31.8.1652, +Wien. dcera Andrease Wilhelma a Evy Marie von Urschenbeck 7.1.1731)
+									name="Johann Friedrich"
+									dynasty=1004558
+									religion=catholic culture=german
+									father=hardegg_0045	# Julius III zu Hardegg auf Glatz u.im Machlande
+									1636.01.01={birth=yes}
+									1675.02.10={add_spouse=lowborn_6357}	# Anna Crescentia von Brandis
+									1703.01.01={death=yes}
+								}
+									hardegg_0050={ #// I1. Johann Julius Adam ZU HARDEGG AUF GLATZ UND IM MACHLANDE, +1746; m.Maria Barbara von Hohenfeld (*1676, +1756)
+										name=Johann
+										dynasty=1004558
+										religion=catholic culture=german
+										father=hardegg_0048	# Johann Friedrich zu Hardegg auf Glatz u.im Machlande
+										mother=lowborn_6357	# Anna Crescentia von Brandis
+										1676.01.01={birth=yes}  # EST.
+										1702.01.01={add_spouse=lowborn_6358}	# Maria Barbara von Hohenfeld
+										1746.01.01={death=yes}
+									}
+										hardegg_0054={ #// J1. Johann Franz Joseph Martin ZU HARDEGG AUF GLATZ UND IM MACHLANDE, 
+											name=Johann
+											dynasty=1004558
+											religion=catholic culture=german
+											father=hardegg_0050	# Johann zu Hardegg auf Glatz u.im Machlande
+											mother=lowborn_6358	# Maria Barbara von Hohenfeld
+											1702.01.01={birth=yes}  # EST.
+											1762.01.01={death=yes}  # EST.
+										}
+										hardegg_0053={ #// J2. Johann Karl VON HARDEGG AUF GLATZ UND IM MARCHLANDE, *1703, +1752; m.2.4.1731 Maria Elisabeth von Sinzendorf-Ernstbrunn (*5.4.1714, +27.1.1772)
+											name="Johann Karl"
+											dynasty=1004558
+											religion=catholic culture=german
+											father=hardegg_0050	# Johann zu Hardegg auf Glatz u.im Machlande
+											mother=lowborn_6358	# Maria Barbara von Hohenfeld
+											1703.09.02={birth=yes}
+											1731.04.02={add_spouse=lowborn_6361}	# Maria Elisabeth von Sinzendorf-Ernstbrunn
+											1752.01.26={death=yes}
+										}
+											hardegg_0057={ #// K1. Johann Franz de Paula Joseph VON HARDEGG AUF GLATZ UND IM MARCHLANDE, *1741, +1808; m.Wien Maria Magdalena Malabayla (*22.7.1740, +1820)
+												name=Johann
+												dynasty=1004558
+												religion=catholic culture=german
+												father=hardegg_0053	# Johann Karl zu Hardegg auf Glatz u.im Machlande
+												mother=lowborn_6361	# Maria Elisabeth von Sinzendorf-Ernstbrunn
+												1741.02.02={birth=yes}
+												1769.01.01={add_spouse=lowborn_6364}	# Maria Magdalena Malabayla
+												1808.03.17={death=yes}
+											}
+												hardegg_0059={ #// L1. Maria Luise VON HARDEGG AUF GLATZ UND IM MARCHLANDE, *1770.10.08 $$
+													name="Maria Luise"
+													female=yes
+													dynasty=1004558
+													religion=catholic culture=german
+													father=hardegg_0057	# Johann zu Hardegg auf Glatz u.im Machlande
+													mother=lowborn_6364	# Maria Magdalena Malabayla
+													1770.10.08={birth=yes}
+													1845.01.01={death=yes}  # EST.
+												}
+												hardegg_0060={ #// L2. Marie Beatrix HARDEGG, *Milano 1772.03.19, +Inzendorf 1836.10.04; m.1st Praha 7.1.1799 Johann Wilczek (*18.6.1738, +Wien 2.2.1819); m.2nd 15.1.1820 Imre Ignác Almásy de Zsadány Et Török-Szent-Miklos (*15.1.1751, +Maria 24.9.1840) $$
+													name="Marie Beatrix"
+													female=yes
+													dynasty=1004558
+													religion=catholic culture=german
+													father=hardegg_0057	# Johann zu Hardegg auf Glatz u.im Machlande
+													mother=lowborn_6364	# Maria Magdalena Malabayla
+													1772.03.19={birth=yes}  # Milano
+													1836.10.04={death=yes}  # Inzendorf
+												}
+												hardegg_0061={ #// L3. Johann Ferdinand ZU HARDEGG, *1773, +1818; m.30.9.1797 Maria Aloysia von Althann (*30.5.1766, +4.1.1834) $$
+													name="Johann Ferdinand"
+													dynasty=1004558
+													religion=catholic culture=german
+													father=hardegg_0057	# Johann zu Hardegg auf Glatz u.im Machlande
+													mother=lowborn_6364	# Maria Magdalena Malabayla
+													1773.04.18={birth=yes}
+													1797.09.30={add_spouse=100022180}	# Maria Aloysia von Althann
+													1818.05.02={death=yes}
+												}
+													hardegg_0068={ #// M1. Johann Franz ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1799.07.08, +Wien 1854.03.25; m.Millotitz Pauline Choiseul-D'aillecourt (*Millotitz 13.2.1808, +Wien 13.2.1885)
+														name="Johann Franz"
+														dynasty=1004558
+														religion=catholic culture=german
+														father=hardegg_0061	# Johann Ferdinand zu Hardegg auf Glatz u.im Machlande
+														mother=100022180	# Maria Aloysia von Althann
+														1799.07.08={birth=yes}  # Wien
+														1829.01.01={add_spouse=lowborn_6373}	# Pauline Choiseul-d'Aillecourt
+														1854.03.25={death=yes}  # Wien
+													}
+														hardegg_0073={ #// N1. Klothilde Gabriele ZU HARDEGG, *Wien 1830.12.20, +Salzburg 1897.05.11; m.Milotice 24.7.1852 Mauritz O'donell of Tyrconnell (*Praha 6.6.1815, +Salzburg 25.11.1890) $$
+															name="Klothilde Gabriele"
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0068	# Johann Franz zu Hardegg auf Glatz u.im Machlande
+															mother=lowborn_6373	# Pauline Choiseul-d'Aillecourt
+															1830.12.20={birth=yes}  # Wien
+															1897.05.11={death=yes}  # Salzburg
+														}
+														hardegg_0074={ #// N2. Marie Aloysia ZU HARDEGG, *Stetteldorf 1831.10.21, +Hadersdorf 1919.08.19; m.Wien 21.10.1849 Karl von Seilern-Aspang (*Wien 26.2.1825, +Kalksburg 20.10.1905) $$
+															name="Marie Aloysia"
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0068	# Johann Franz zu Hardegg auf Glatz u.im Machlande
+															mother=lowborn_6373	# Pauline Choiseul-d'Aillecourt
+															1831.10.21={birth=yes}  # Stetteldorf
+															1919.08.19={death=yes}  # Hadersdorf
+														}
+														hardegg_0075={ #// N3. Johann Julius Franz ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1833.05.10, +Stetteldorf 1900.02.11; m.1st Wien 7.10.1857 Marie Hermengilda Chorinská z Ledské (*Veselí nad Moravou 27.1.1835, +Wien 21.5.1867); m.2nd Bregenz 21.1.1873 Maria Leopoldine von Waldburg-Zeil-Lustenau-Hohenems (*Mattsies 22.8.1845, +Mattuglie 12.3.1914) $$
+															name=Julius
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0068	# Johann Franz zu Hardegg auf Glatz u.im Machlande
+															mother=lowborn_6373	# Pauline Choiseul-d'Aillecourt
+															1833.05.10={birth=yes}  # Wien
+															1857.10.07={add_spouse=chorinsky_0056}	# Marie Hermengilda Chorinsky z Ledské
+															1873.01.21={add_spouse=100011181}	# Maria Leopoldine von Waldburg-Zeil-Hohenems
+															1900.02.11={death=yes}  # Stetteldorf
+														}
+															hardegg_0091={ #// O1. Johann Maria Franz de Paula ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1859.05.14
+																name="Johann Franz"
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0075	# Julius zu Hardegg auf Glatz u.im Machlande
+																mother=chorinsky_0056	# Marie Hermengilda Chorinsky z Ledské
+																1859.05.14={birth=yes}  # Wien
+																1929.01.01={death=yes}  # EST.
+															}
+															hardegg_0092={ #// O2. Johann Maria Friedrich ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1860.08.23, +Stetteldorf 1938; m.Ljubljana (=Laibach) 6.6.1901 Melitta Puteany (*Kaiser 20.7.1879, +Arco 3.5.1906)
+																name="Johann Friedrich"
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0075	# Julius zu Hardegg auf Glatz u.im Machlande
+																mother=chorinsky_0056	# Marie Hermengilda Chorinsky z Ledské
+																1860.08.23={birth=yes}  # Wien
+																1901.06.06={add_spouse=lowborn_3763}	# Melitta Puteany
+																1938.01.27={death=yes}  # Stetteldorf
+															}
+																hardegg_0105={ #// P1. Johann Maria Friedrich Franz de Paula Julius Benno VON HARDEGG AUF GLATZ UND IM MARCHLANDE, *Ljubljana,Slovenia 1902.04.26, +k.a.,Ibbenbüren,Westfalen 1945.04.02; m.1st Wien 19.5.1927 Anna Chorinská z Ledské; m.2nd Schloss Thurn, Heroldsbach 29.1.1942 Mechtild von Brandt (*Steglitz. gen. Flender adopt. Freiin von Sturmfeder 17.3.1908) $$
+																	name=Johann
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0092	# Johann Friedrich zu Hardegg auf Glatz u.im Machlande
+																	mother=lowborn_3763	# Melitta Puteany
+																	1902.04.26={birth=yes}  # Ljubljana,Slovenia
+																	1927.05.19={add_spouse=chorinsky_0107}	# Anna Chorinsky z Ledské
+																	1942.01.29={add_spouse=lowborn_6399}	# Mechtild von Brandt
+																	1945.04.02={death=yes}  # k.a.,Ibbenbüren,Westfalen
+																}
+																hardegg_0106={ #// P2. Maria Leopoldina Bertha Melitta Theresia Johanna ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Ljubljana (=Laibach) 1903.06.18
+																	name="Maria Leopoldina"
+																	female=yes
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0092	# Johann Friedrich zu Hardegg auf Glatz u.im Machlande
+																	mother=lowborn_3763	# Melitta Puteany
+																	1903.06.18={birth=yes}  # Ljubljana (=Laibach)
+																	1978.01.01={death=yes}  # EST.
+																}
+																hardegg_0107={ #// P3. Maria Felicitas Johanna Bertha Leopoldine Elisabeth ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Ljubljana (=Laibach) 1904.09.16, +Schmida 1971.09.22
+																	name="Maria Felicitas"
+																	female=yes
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0092	# Johann Friedrich zu Hardegg auf Glatz u.im Machlande
+																	mother=lowborn_3763	# Melitta Puteany
+																	1904.09.16={birth=yes}  # Ljubljana (=Laibach)
+																	1971.09.22={death=yes}  # Schmida
+																}
+															hardegg_0093={ #// O3. Karl ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1863.08.24
+																name=Karl
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0075	# Julius zu Hardegg auf Glatz u.im Machlande
+																mother=chorinsky_0056	# Marie Hermengilda Chorinsky z Ledské
+																1863.08.24={birth=yes}
+																1933.01.01={death=yes}  # EST.
+															}
+															hardegg_0094={ #// O4. Johann Maria Viktor ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1867
+																name=Johann
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0075	# Julius zu Hardegg auf Glatz u.im Machlande
+																mother=chorinsky_0056	# Marie Hermengilda Chorinsky z Ledské
+																1867.02.01={birth=yes}  # Wien
+																1937.01.01={death=yes}  # EST.
+															}
+															hardegg_0095={ #// O5. Johann Maria Klemens Maximilian Joseph Hubertus ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Stetteldorf 1873.11.03
+																name=Johann
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0075	# Julius zu Hardegg auf Glatz u.im Machlande
+																mother=100011181	# Maria Leopoldine von Waldburg-Zeil-Hohenems
+																1873.11.03={birth=yes}  # Stetteldorf
+																1943.01.01={death=yes}  # EST.
+															}
+															hardegg_0096={ #// O6. Maria ZU HARDEGG, *Schmida 1875.07.16, +Schmida 1942.06.11; m.Wien 19.7.1909 Rudolf von Enzenberg zum Freyen und Jochelsthurn (*Schwaz 19.5.1868, +Schwaz 13.12.1932)
+																name=Maria
+																female=yes
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0075	# Julius zu Hardegg auf Glatz u.im Machlande
+																mother=100011181	# Maria Leopoldine von Waldburg-Zeil-Hohenems
+																1875.07.16={birth=yes}  # Schmida
+																1942.06.11={death=yes}  # Schmida
+															}
+															hardegg_0097={ #// O7. Johann Maria Josef Leopold Nikolaus Julius ZU HARDEGG AUF GLATZ IM MACHLANDE, *Wien 1876.12.17, +Wien 1945.02.18; m.Graz 26.1.1918 Marie Karoline Clary-Aldringen (*Hütteldorf 19.5.1886, +Wien 11.7.1979) $$
+																name=Josef
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0075	# Julius zu Hardegg auf Glatz u.im Machlande
+																mother=100011181	# Maria Leopoldine von Waldburg-Zeil-Hohenems
+																1876.12.17={birth=yes}  # Wien
+																1918.01.26={add_spouse=100024869}	# Marie Karoline von Clary u.Aldringen
+																1945.02.18={death=yes}  # Wien
+															}
+																hardegg_0108={ #// P1. Johanna Maria Franziska ZU HARDEGG AUF GLATZ IM MACHLANDE, *Wien 1919.10.28
+																	name=Johanna
+																	female=yes
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0097	# Josef zu Hardegg auf Glatz u.im Machlande
+																	mother=100024869	# Marie Karoline von Clary u.Aldringen
+																	1919.10.28={birth=yes}  # Wien
+																	1994.01.01={death=yes}  # EST.
+																}
+																hardegg_0109={ #// P2. Johann ZU HARDEGG AUF GLATZ IM MACHLANDE, *Schmida 1921.05.26, +Ybbs 1948.11.24
+																	name=Johann
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0097	# Josef zu Hardegg auf Glatz u.im Machlande
+																	mother=100024869	# Marie Karoline von Clary u.Aldringen
+																	1921.05.26={birth=yes}  # Schmida
+																	1948.11.24={death=yes}  # Ybbs
+																}
+																hardegg_0110={ #// P3. Johanna Maria Theresia ZU HARDEGG AUF GLATZ IM MACHLANDE, *Wien 1931.09.15
+																	name=Johanna
+																	female=yes
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0097	# Josef zu Hardegg auf Glatz u.im Machlande
+																	mother=100024869	# Marie Karoline von Clary u.Aldringen
+																	1931.09.15={birth=yes}  # Wien
+																	2006.01.01={death=yes}  # EST.
+																}
+															hardegg_0098={ #// O8. Johann Maria Leopold Maximilian Joseph Franz de Paula ZU HARDEGG AUF GLATZ IM MACHLANDE, *Wien 1879.03.10, +Wien 1938.05.20; m.Olga Weydl (*20.10.1873)
+																name=Johann
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0075	# Julius zu Hardegg auf Glatz u.im Machlande
+																mother=100011181	# Maria Leopoldine von Waldburg-Zeil-Hohenems
+																1879.03.10={birth=yes}  # Wien
+																1899.01.01={add_spouse=lowborn_6390}	# Olga Weydl
+																1938.05.20={death=yes}  # Wien
+															}
+																hardegg_0111={ #// P1. Johann Heinrich Franz Ferdinand ZU HARDEGG AUF GLATZ IM MACHLANDE, *Wien 1900, +1981; m.1st Dorothea Linnemann (*Weidlingau, Niederösterreich 18.8.1902); m.2nd Maria Magdalena Bulgarini D'elci (*Ried 18.1.1903)
+																	name=Johann
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0098	# Johann zu Hardegg auf Glatz u.im Machlande
+																	mother=lowborn_6390	# Olga Weydl
+																	1900.02.12={birth=yes}  # Wien
+																	1926.01.01={add_spouse=lowborn_6400}	# Dorothea Linnemann
+																	1931.01.01={add_spouse=lowborn_6401}	# Maria Magdalena Bulgarini d'Elci
+																	1981.06.18={death=yes}
+																}
+																	hardegg_0122={ #// Q1. Johanna Erika Hermine Hildegarda Klara ZU HARDEGG AUF GLATZ IM MACHLANDE, *Wien 1924.08.27; m.Richard Pittioni (*Wien 9.4.1906)
+																		name=Johanna
+																		female=yes
+																		dynasty=1004558
+																		religion=catholic culture=german
+																		father=hardegg_0111	# Johann zu Hardegg auf Glatz u.im Machlande
+																		mother=lowborn_6400	# Dorothea Linnemann
+																		1924.08.27={birth=yes}  # Wien
+																		1999.01.01={death=yes}  # EST.
+																	}
+																hardegg_0112={ #// P2. Johann Hubert Maria ZU HARDEGG AUF GLATZ IM MACHLANDE, *Pyrawarth 1901.08.24; m.Christa Hauser (*Wien 23.4.1915)
+																	name=Johann
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0098	# Johann zu Hardegg auf Glatz u.im Machlande
+																	mother=lowborn_6390	# Olga Weydl
+																	1901.08.24={birth=yes}  # Pyrawarth
+																	1939.01.01={add_spouse=lowborn_6402}	# Christa Hauser
+																	1971.01.01={death=yes}  # EST.
+																}
+																	hardegg_0123={ #// Q1. Johanna Huberta Monika Olga ZU HARDEGG AUF GLATZ IM MACHLANDE, *Wien 1940.08.07
+																		name=Johanna
+																		female=yes
+																		dynasty=1004558
+																		religion=catholic culture=german
+																		father=hardegg_0112	# Johann zu Hardegg auf Glatz u.im Machlande
+																		mother=lowborn_6402	# Christa Hauser
+																		1940.08.07={birth=yes}  # Wien
+																		2015.01.01={death=yes}  # EST.
+																	}
+																	hardegg_0124={ #// Q2. Johanna Christa Hildegard ZU HARDEGG AUF GLATZ IM MACHLANDE, *Wien 1941.12.03
+																		name=Johanna
+																		female=yes
+																		dynasty=1004558
+																		religion=catholic culture=german
+																		father=hardegg_0112	# Johann zu Hardegg auf Glatz u.im Machlande
+																		mother=lowborn_6402	# Christa Hauser
+																		1941.12.03={birth=yes}  # Wien
+																		2016.01.01={death=yes}  # EST.
+																	}
+																hardegg_0113={ #// P3. Johanna Hildegarde Antonia ZU HARDEGG AUF GLATZ IM MACHLANDE, *Wien 1902.08.21
+																	name=Johanna
+																	female=yes
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0098	# Johann zu Hardegg auf Glatz u.im Machlande
+																	mother=lowborn_6390	# Olga Weydl
+																	1902.08.21={birth=yes}  # Wien
+																	1977.01.01={death=yes}  # EST.
+																}
+												hardegg_0062={ #// L4. Maria Antonia VON HARDEGG AUF GLATZ UND IM MARCHLANDE, *1774
+													name="Maria Antonia"
+													female=yes
+													dynasty=1004558
+													religion=catholic culture=german
+													father=hardegg_0057	# Johann zu Hardegg auf Glatz u.im Machlande
+													mother=lowborn_6364	# Maria Magdalena Malabayla
+													1774.01.01={birth=yes}
+													1849.01.01={death=yes}  # EST.
+												}
+												hardegg_0063={ #// L5. Franz VON HARDEGG AUF GLATZ UND IM MARCHLANDE, *1779
+													name=Franz
+													dynasty=1004558
+													religion=catholic culture=german
+													father=hardegg_0057	# Johann zu Hardegg auf Glatz u.im Machlande
+													mother=lowborn_6364	# Maria Magdalena Malabayla
+													1779.01.01={birth=yes}
+													1849.01.01={death=yes}  # EST.
+												}
+												hardegg_0064={ #// L6. Johann Karl HARDEGG, *1783, +1839; m.10.5.1814 Marie Terezie Kolowrat-Krakowská (*Wien 23.6.1770, +Stronsdorf, buried in Stronsdorf 21.5.1849) $$
+													name="Johann Karl"
+													dynasty=1004558
+													religion=catholic culture=german
+													father=hardegg_0057	# Johann zu Hardegg auf Glatz u.im Machlande
+													mother=lowborn_6364	# Maria Magdalena Malabayla
+													1783.02.28={birth=yes}
+													1814.05.10={add_spouse=100047099}	# Marie Terezie Krakovský z Kolovrat
+													1839.12.29={death=yes}
+												}
+												hardegg_0065={ #// L7. Josephine VON HARDEGG AUF GLATZ UND IM MARCHLANDE, *Wien 1784.05.02, +Wien 1850.12.23; m.Wien 22.4.1806 Edoardo Pallavicini (*Wien 9.3.1787, +Wien 20.4.1839) $$
+													name=Josephine
+													female=yes
+													dynasty=1004558
+													religion=catholic culture=german
+													father=hardegg_0057	# Johann zu Hardegg auf Glatz u.im Machlande
+													mother=lowborn_6364	# Maria Magdalena Malabayla
+													1784.05.02={birth=yes}  # Wien
+													1850.12.23={death=yes}  # Wien
+												}
+										hardegg_0055={ #// J3. Eleonora ZU HARDEGG, *1713, +1767; m.Wien 20.6.1735 Rudolf Siegmund von Sinzendorf (*1670, +Wien 8.1.1747)
+											name=Eleonora
+											female=yes
+											dynasty=1004558
+											religion=catholic culture=german
+											father=hardegg_0050	# Johann zu Hardegg auf Glatz u.im Machlande
+											mother=lowborn_6358	# Maria Barbara von Hohenfeld
+											1713.07.29={birth=yes}
+											1767.01.25={death=yes}
+										}
+										hardegg_0052={ #// J4. Josefa VON HARDEGG; m.Giorgio d'Arco
+											name=Josefa
+											female=yes
+											dynasty=1004558
+											religion=catholic culture=german
+											father=hardegg_0050	# Johann zu Hardegg auf Glatz u.im Machlande
+											mother=lowborn_6358	# Maria Barbara von Hohenfeld
+											1715.01.01={birth=yes}  # EST.
+											1775.01.01={death=yes}  # EST.
+										}
+									hardegg_0051={ #// I2. Johann Konrad Friedrich ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1677, +1721; m.Clara Hedwig von Cramm
+										name=Johann
+										dynasty=1004558
+										religion=catholic culture=german
+										father=hardegg_0048	# Johann Friedrich zu Hardegg auf Glatz u.im Machlande
+										mother=lowborn_6357	# Anna Crescentia von Brandis
+										1677.01.01={birth=yes}
+										1706.01.01={add_spouse=lowborn_6359}	# Clara Hedwig von Cramm
+										1721.09.10={death=yes}
+									}
+										hardegg_0056={ #// J1. Johann Heinrich Konrad ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1707.11.25; m.Maria Cavriani (*1709, +12.5.1759)
+											name=Johann
+											dynasty=1004558
+											religion=catholic culture=german
+											father=hardegg_0051	# Johann zu Hardegg auf Glatz u.im Machlande
+											mother=lowborn_6359	# Clara Hedwig von Cramm
+											1707.11.25={birth=yes}
+											1736.01.01={add_spouse=lowborn_6363}	# Maria Cavriani
+											1777.01.01={death=yes}  # EST.
+										}
+											hardegg_0058={ #// K1. Johann Anton Konrad VON HARDEGG ZU GLATZ, *Harras 1737.07.10, +Wien 1810.05.07; m.Harmannsdorf 3.8.1761 Maria Josefa Wilczek (*Wien 20.8.1737, +Wien 14.4.1817) $$
+												name=Johann
+												dynasty=1004558
+												religion=catholic culture=german
+												father=hardegg_0056	# Johann zu Hardegg auf Glatz u.im Machlande
+												mother=lowborn_6363	# Maria Cavriani
+												1737.07.10={birth=yes}  # Harras
+												1761.08.03={add_spouse=wilczek_0020}	# Maria Josefa von Wilczek
+												1810.05.07={death=yes}  # Wien
+											}
+												hardegg_0066={ #// L1. Johann Dominik VON HARDEGG AUF GLATZ, *1767, +1836; m.17.1.1799 Maria Anna von Althann (+7.3.1833) $$
+													name="Johann Dominik"
+													dynasty=1004558
+													religion=catholic culture=german
+													father=hardegg_0058	# Johann zu Hardegg auf Glatz u.im Machlande
+													mother=wilczek_0020	# Maria Josefa von Wilczek
+													1767.10.20={birth=yes}
+													1799.01.17={add_spouse=100022286}	# Maria von Althann
+													1836.07.01={death=yes}
+												}
+													hardegg_0069={ #// M1. Anna ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1805.05.12, +Hrušovany nad Jevišovkou 1879.12.02; m.Hrušovany nad Jevišovkou Karl Kammel von Hardegger (*5.12.1813, +Stronsdorf. 19.7.1886)
+														name=Anna
+														female=yes
+														dynasty=1004558
+														religion=catholic culture=german
+														father=hardegg_0066	# Johann Dominik zu Hardegg auf Glatz u.im Machlande
+														mother=100022286	# Maria von Althann
+														1805.05.12={birth=yes}
+														1879.12.02={death=yes}  # Hrušovany nad Jevišovkou
+													}
+													hardegg_0070={ #// M2. Aloysie ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1807
+														name=Aloysie
+														female=yes
+														dynasty=1004558
+														religion=catholic culture=german
+														father=hardegg_0066	# Johann Dominik zu Hardegg auf Glatz u.im Machlande
+														mother=100022286	# Maria von Althann
+														1807.01.29={birth=yes}
+														1882.01.01={death=yes}  # EST.
+													}
+													hardegg_0071={ #// M3. Johann Maximilian ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Grusbach 1810.07.14, +Wien 1894.04.21; m.Wien 4.8.1834 Františka Xaveria Bruntálská z Vrbna (*Wien 22.9.1816, +Wien 4.3.1892) $$
+														name="Johann Maximilian"
+														dynasty=1004558
+														religion=catholic culture=german
+														father=hardegg_0066	# Johann Dominik zu Hardegg auf Glatz u.im Machlande
+														mother=100022286	# Maria von Althann
+														1810.07.14={birth=yes}  # Grusbach
+														1834.08.04={add_spouse=100047571}	# Franziska Xaveria von Wrbna u.Freudenthal
+														1894.04.21={death=yes}  # Wien
+													}
+														hardegg_0076={ #// N1. Franziska ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1835, +1839
+															name=Franziska
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1835.05.23={birth=yes}
+															1839.01.01={death=yes}
+														}
+														hardegg_0077={ #// N2. Maria Barbara Franziska ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1836.07.14, +Meran 1906.12.16; m.Wien 8.7.1858 Anton von Attems-Gilleis (*Hausambacher 6.5.1834, +Wien 9.12.1891) $$
+															name="Maria Barbara"
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1836.07.14={birth=yes}  # Wien
+															1906.12.16={death=yes}  # Meran
+														}
+														hardegg_0078={ #// N3. Eugenie ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1837, +1839
+															name=Eugenie
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1837.07.08={birth=yes}
+															1839.01.01={death=yes}
+														}
+														hardegg_0079={ #// N4. Caroline ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1839, +1913
+															name=Caroline
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1839.01.04={birth=yes}  # Wien
+															1913.06.18={death=yes}
+														}
+														hardegg_0080={ #// N5. Theresia ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1840.04.14, +Siena 1910.02.12; m.Wien 18.11.1861 Alceo Claudio Bulgarini D'elci (*Lemberg 24.12.1838, +Siena 27.3.1906)
+															name=Theresia
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1840.04.14={birth=yes}  # Wien
+															1910.02.12={death=yes}  # Siena
+														}
+														hardegg_0081={ #// N6. Johann Maximilian Eugen ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1842, +Wien 1919; m.Wien 5.6.1869 Alice de la Fontaine Et D'harnoncourt-Unverzagt (*Deutsch 22.5.1849, +9.1.1935)
+															name=Johann
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1842.03.01={birth=yes}  # Wien
+															1869.06.05={add_spouse=lowborn_6383}	# Alice de la Fontaine et d'Harnoncourt-Unverzagt
+															1919.11.01={death=yes}  # Wien
+														}
+															hardegg_0099={ #// O1. Johann Maximilian Alexius Aloys Maria  ZU HARDEGG AUF GLATZ UND IN MACHLANDE, *Großharras 1870.06.25, +Maria-Ansbach 1945.04.09; m.Wien 14.10.1899 Theresia von Gudenus (+Ulrichskirchen 7.1.1930) $$
+																name=Johann
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0081	# Johann zu Hardegg auf Glatz u.im Machlande
+																mother=lowborn_6383	# Alice de la Fontaine et d'Harnoncourt-Unverzagt
+																1870.06.25={birth=yes}  # Großharras
+																1899.10.14={add_spouse=100025547}	# Theresia von Gudenus
+																1945.04.09={death=yes}  # Maria-Ansbach
+															}
+																hardegg_0114={ #// P1. Johannes Maximilian Alexius Ludwig Leopold ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Ulrichskirchen 1900.08.22, +Seefeld 1973.06.19; m.1st Častolovice 18.5.1927 Františka ze Šternberka; m.2nd Meszocorna 5.8.1937 Johanna von Firmian (*Pula 17.5.1912) $$
+																	name="Johannes Maximilian"
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0099	# Johann zu Hardegg auf Glatz u.im Machlande
+																	mother=100025547	# Theresia von Gudenus
+																	1900.08.22={birth=yes}  # Ulrichskirchen
+																	1927.05.18={add_spouse=100047491}	# Františka ze Šternberka
+																	1928.01.01={remove_spouse=100047491}
+																	1937.08.05={add_spouse=lowborn_6404}	# Johanna von Firmian
+																	1973.06.19={death=yes}  # Seefeld
+																}
+																	hardegg_0125={ #// Q1. Johanna Maria Olga Therese ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1938.12.10; m.Seefeld, Austria 19.9.1962 Alceo Bulgarini D'elci (*Genoa 3.5.1934)
+																		name=Johanna
+																		female=yes
+																		dynasty=1004558
+																		religion=catholic culture=german
+																		father=hardegg_0114	# Johannes Maximilian zu Hardegg auf Glatz u.im Machlande
+																		mother=lowborn_6404	# Johanna von Firmian
+																		1938.12.10={birth=yes}  # Wien
+																		2013.01.01={death=yes}  # EST.
+																	}
+																	hardegg_0126={ #// Q2. Terezia VON HARDEGG, *Wien 1940.02.17; m.1st Seefeld,Niederösterreich Karl VII zu Schwarzenberg (*Praha 10.12.1937); m.2nd Murau Karl VII zu Schwarzenberg (*Praha 10.12.1937) $$
+																		name=Terezia
+																		female=yes
+																		dynasty=1004558
+																		religion=catholic culture=german
+																		father=hardegg_0114	# Johannes Maximilian zu Hardegg auf Glatz u.im Machlande
+																		mother=lowborn_6404	# Johanna von Firmian
+																		1940.02.17={birth=yes}  # Wien
+																	}
+																	hardegg_0127={ #// Q3. Johannes ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1942, +1965
+																		name=Johannes
+																		dynasty=1004558
+																		religion=catholic culture=german
+																		father=hardegg_0114	# Johannes Maximilian zu Hardegg auf Glatz u.im Machlande
+																		mother=lowborn_6404	# Johanna von Firmian
+																		1942.01.01={birth=yes}
+																		1965.01.01={death=yes}
+																	}
+																hardegg_0115={ #// P2. Johann Leopold Rudolf ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1902, +Olberndorf 1965.06.11; m.1st Wien 25.4.1928 Helene Strahser von Baumgarten (*Wien 1.8.1895, +Wien 5.6.1972); m.2nd Wien 21.4.1941 Eva Machan (*Wien 19.7.1920)
+																	name=Johann
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0099	# Johann zu Hardegg auf Glatz u.im Machlande
+																	mother=100025547	# Theresia von Gudenus
+																	1902.05.01={birth=yes}  # Wien
+																	1928.04.25={add_spouse=lowborn_6405}	# Helene Strahser von Baumgarten
+																	1941.04.21={add_spouse=lowborn_0621}	# Eva Machan
+																	1965.06.11={death=yes}  # Olberndorf
+																}
+																	hardegg_0128={ #// Q1. Eva Theresia ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1942
+																		name="Eva Theresia"
+																		female=yes
+																		dynasty=1004558
+																		religion=catholic culture=german
+																		father=hardegg_0115	# Johann zu Hardegg auf Glatz u.im Machlande
+																		mother=lowborn_0621	# Eva Machan
+																		1942.01.24={birth=yes}  # Wien
+																		2017.01.01={death=yes}  # EST.
+																	}
+																	hardegg_0129={ #// Q2. Friedrich Johann ZU HARDEGG, *Wien 1944; m.Wien 21.3.1968 Eleonore von Windisch-Grätz (*Wien 25.8.1947) $$
+																		name="Friedrich Johann"
+																		dynasty=1004558
+																		religion=catholic culture=german
+																		father=hardegg_0115	# Johann zu Hardegg auf Glatz u.im Machlande
+																		mother=lowborn_0621	# Eva Machan
+																		1944.01.05={birth=yes}  # Wien
+																		1968.03.21={add_spouse=100023166}	# Eleonore von Windisch-Graetz
+																		2014.01.01={death=yes}  # EST.
+																	}
+																		hardegg_0131={ #// R1. Friedrich Leopold Ernst Karl Johann ZU HARDEGG, *Wien 1968; m.Bad Doberan 13.5.2000 Christina von Oertzen (*Marburg an der Lahn 1.4.1973)
+																			name=Friedrich
+																			dynasty=1004558
+																			religion=catholic culture=german
+																			father=hardegg_0129	# Friedrich Johann zu Hardegg auf Glatz u.im Machlande
+																			mother=100023166	# Eleonore von Windisch-Graetz
+																			1968.10.01={birth=yes}  # Wien
+																			2000.05.13={add_spouse=lowborn_6416}	# Christina von Oertzen
+																		}
+																			hardegg_0135={ #// S1. Johann Julius Friedrich Otto Hubertus ZU HARDEGG, *Wien 2002
+																				name=Johann
+																				dynasty=1004558
+																				religion=catholic culture=german
+																				father=hardegg_0131	# Friedrich zu Hardegg auf Glatz u.im Machlande
+																				mother=lowborn_6416	# Christina von Oertzen
+																				2002.01.10={birth=yes}  # Wien
+																			}
+																		hardegg_0132={ #// R2. Camilla Elisabeth Eleonor Eva ZU HARDEGG, *Wien 1973; m.Kirchberg an der Pielach 19.7.1997 Johann zu Herberstein (*Wien 9.10.1965) $$
+																			name=Camilla
+																			female=yes
+																			dynasty=1004558
+																			religion=catholic culture=german
+																			father=hardegg_0129	# Friedrich Johann zu Hardegg auf Glatz u.im Machlande
+																			mother=100023166	# Eleonore von Windisch-Graetz
+																			1973.02.05={birth=yes}  # Wien
+																		}
+																		hardegg_0133={ #// R3. Franz ZU HARDEGG, *Wien 1978.09.14, +Wien 1979.05.24
+																			name=Franz
+																			dynasty=1004558
+																			religion=catholic culture=german
+																			father=hardegg_0129	# Friedrich Johann zu Hardegg auf Glatz u.im Machlande
+																			mother=100023166	# Eleonore von Windisch-Graetz
+																			1978.09.14={birth=yes}  # Wien
+																			1979.05.24={death=yes}  # Wien
+																		}
+																		hardegg_0134={ #// R4. Luise Franziska Eleonore Sophie ZU HARDEGG, *Wien 1980
+																			name=Luise
+																			female=yes
+																			dynasty=1004558
+																			religion=catholic culture=german
+																			father=hardegg_0129	# Friedrich Johann zu Hardegg auf Glatz u.im Machlande
+																			mother=100023166	# Eleonore von Windisch-Graetz
+																			1980.06.29={birth=yes}  # Wien
+																		}
+																	hardegg_0130={ #// Q3. Elisabeth Maximiliane Wilhelmine ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1959
+																		name=Elisabeth
+																		female=yes
+																		dynasty=1004558
+																		religion=catholic culture=german
+																		father=hardegg_0115	# Johann zu Hardegg auf Glatz u.im Machlande
+																		mother=lowborn_0621	# Eva Machan
+																		1959.12.31={birth=yes}  # Wien
+																	}
+																hardegg_0116={ #// P3. Johann Franz Maximilian ZU HARDEGG AUF GLATZ UND IN MACHLANDE, *Großharras 1906, +1936
+																	name=Johann
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0099	# Johann zu Hardegg auf Glatz u.im Machlande
+																	mother=100025547	# Theresia von Gudenus
+																	1906.07.15={birth=yes}  # Großharras
+																	1936.01.01={death=yes}
+																}
+															hardegg_0100={ #// O2. Aloysius ZU HARDEGG AUF GLATZ UND IN MACHLANDE, *1871, +1893
+																name=Aloysius
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0081	# Johann zu Hardegg auf Glatz u.im Machlande
+																mother=lowborn_6383	# Alice de la Fontaine et d'Harnoncourt-Unverzagt
+																1871.01.01={birth=yes}
+																1893.01.01={death=yes}
+															}
+															hardegg_0101={ #// O3. Eugen Maria Alexius ZU HARDEGG AUF GLATZ UND IN MACHLANDE, *Großharras 1873, +1936; m.Wien 11.2.1899 Elisabeth Nicolis de Rudna (*Vöslau bei Wien 4.10.1877) $$
+																name=Eugen
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0081	# Johann zu Hardegg auf Glatz u.im Machlande
+																mother=lowborn_6383	# Alice de la Fontaine et d'Harnoncourt-Unverzagt
+																1873.02.23={birth=yes}  # Großharras
+																1899.02.11={add_spouse=nicolics_0006}	# Elisabeth Nicolics de Rudna
+																1936.02.03={death=yes}	# Wien
+															}
+																hardegg_0117={ #// P1. Feodora ZU HARDEGG AUF GLATZ UND IN MACHLANDE, *Debreczyn (Debrezin),  in Wien 1899, +1979; m.Seefeld, Niederösterreich 24.6.1919 Alexander Sułkowski (*Schloss Ebenfurth 15.2.1893, +Leoben, Steiermark 27.3.1956) $$
+																	name=Feodora
+																	female=yes
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0101	# Eugen zu Hardegg auf Glatz u.im Machlande
+																	mother=nicolics_0006	# Elisabeth Nicolics de Rudna
+																	1899.11.27={birth=yes}  # Debreczyn
+																	1979.01.01={death=yes}	# Wien
+																}
+																hardegg_0118={ #// P2. Maria Wilhelmine ZU HARDEGG AUF GLATZ UND IN MACHLANDE, *Debreczen 1901.02.24, +Wien 1987.08.12; m.Wien 14.7.1920 Roman Sułkowski (*Tannenmühle 18.6.1897, +Wien 21.12.1940) $$
+																	name="Maria Wilhelmine"
+																	female=yes
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0101	# Eugen zu Hardegg auf Glatz u.im Machlande
+																	mother=nicolics_0006	# Elisabeth Nicolics de Rudna
+																	1901.02.24={birth=yes}  # Debreczen
+																	1987.08.12={death=yes}  # Wien
+																}
+																hardegg_0119={ #// P3. Marie Margarete Eleonore ZU HARDEGG AUF GLATZ UND IN MACHLANDE, *Haindorf 1907.06.02
+																	name="Marie Margarete"
+																	female=yes
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0101	# Eugen zu Hardegg auf Glatz u.im Machlande
+																	mother=nicolics_0006	# Elisabeth Nicolics de Rudna
+																	1907.06.02={birth=yes}  # Haindorf
+																	1982.01.01={death=yes}  # EST.
+																}
+															hardegg_0102={ #// O4. Johannes Maria Alexius ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Großharras 1876.04.30, +Wien 1917.12.20; m.Galgócz 15.2.1906 Ilona Erdödy de Monyorókerék Et Monoszló (*Wien 15.2.1883, +Wien 4.11.1969) $$
+																name=Johannes
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0081	# Johann zu Hardegg auf Glatz u.im Machlande
+																mother=lowborn_6383	# Alice de la Fontaine et d'Harnoncourt-Unverzagt
+																1876.04.30={birth=yes}  # Gross
+																1906.02.15={add_spouse=100116927}	# Ilona Erdődy de Monyorókerék et Monoszló
+																1917.12.20={death=yes}  # Wien
+															}
+																hardegg_0120={ #// P1. Johann Imre  ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Bratislava 1906.11.26; m.1.1.1969 Elisabeth Walzel von Wiensenberg
+																	name="Johann Imre"
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0102	# Johannes zu Hardegg auf Glatz u.im Machlande
+																	mother=100116927	# Ilona Erdődy de Monyorókerék et Monoszló
+																	1906.11.26={birth=yes}  # Bratislava
+																	1969.01.01={add_spouse=lowborn_6410}	# Elisabeth Walzel von Wiensenberg
+																	1976.01.01={death=yes}  # EST.
+																}
+																hardegg_0121={ #// P2. Johann Maximilian Maria Emerich Alexius Antonius Engelbert Josef Adam ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Meran 1909, +1931
+																	name=Johann
+																	dynasty=1004558
+																	religion=catholic culture=german
+																	father=hardegg_0102	# Johannes zu Hardegg auf Glatz u.im Machlande
+																	mother=100116927	# Ilona Erdődy de Monyorókerék et Monoszló
+																	1909.02.25={birth=yes}  # Meran
+																	1931.01.01={death=yes}
+																}
+															hardegg_0103={ #// O5. Alice Luise Marie ZU HARDEGG AUF GLATZ UND MACHLANDE, *Großharras 1879.07.10, +Aschach an der Donau 1962.02.10; m.Seefeld 1.2.1910 Franz von Harrach (*Traunkirchen 26.7.1870, +Jihlava 14.5.1937) $$
+																name=Alice
+																female=yes
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0081	# Johann zu Hardegg auf Glatz u.im Machlande
+																mother=lowborn_6383	# Alice de la Fontaine et d'Harnoncourt-Unverzagt
+																1879.07.10={birth=yes}  # Großharras
+																1962.02.10={death=yes}  # Aschach an der Donau
+															}
+														hardegg_0082={ #// N7. Heinrich ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1843, +1889
+															name=Heinrich
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1843.11.05={birth=yes}
+															1889.05.12={death=yes}
+														}
+														hardegg_0083={ #// N8. Franziska Dominika Maximiliana ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1844.12.18, +Brno (=Brünn) 1924.06.15; m.Wien 2.6.1863 Jozef Baworów-Bawarowski (*Kopyczynce 2.11.1822, +Kopyczynce 21.7.1885) $$
+															name=Franziska
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1844.12.18={birth=yes}  # Wien
+															1924.06.15={death=yes}  # Brno (=Brünn)
+														}
+														hardegg_0084={ #// N9. Johann Dominik VON HARDEGG AUF GLATZ UND IM MACHLANDE, *Wien 1846.10.24, +Wien 1924.06.20; m.Altenbuch, Bohemia 23.8.1884 Marie Faltis (*Trautenau 8.5.1860, +Wien 7.8.1885)
+															name="Johann Dominik"
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1846.10.24={birth=yes}  # Wien
+															1884.08.23={add_spouse=lowborn_6385}	# Marie Faltis
+															1924.06.20={death=yes}  # Wien
+														}
+															hardegg_0104={ #// O1. Maximiliana Maria VON HARDEGG AUF GLATZ, *Wien 1885.07.31, +Wien 1947.03.07; m.1st Wien 28.4.1904 Heinrich Chorinský z Ledské (*Ljubljana,Slovenia 30.1.1876, +Wien 23.5.1907); m.2nd Berlin 25.11.1906 Johann Harbuval-Chamaré (*Stolz 7.6.1876, +Wiesbaden 7.1.1925); m.3rd Semmering 6.6.1920 Otto Mayer $$
+																name="Maximiliana Maria"
+																female=yes
+																dynasty=1004558
+																religion=catholic culture=german
+																father=hardegg_0084	# Johann Dominik zu Hardegg auf Glatz u.im Machlande
+																mother=lowborn_6385	# Marie Faltis
+																1885.07.31={birth=yes}  # Wien
+																1947.03.07={death=yes}  # Wien
+															}
+														hardegg_0085={ #// N10. Eugenie ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *Seefeld 1848.05.24, +Baden bei Wien 1928.08.25 $$
+															name=Eugenie
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1848.05.24={birth=yes}  # Seefeld
+															1928.08.25={death=yes}  # Baden bei Wien
+														}
+														hardegg_0086={ #// N11. Johann Maximilian Rudolf ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1851, +1939
+															name=Johann
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1851.11.24={birth=yes}
+															1939.01.01={death=yes}
+														}
+														hardegg_0087={ #// N12. Johann Franz Joseph ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1853, +1931
+															name=Johann
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1853.08.18={birth=yes}
+															1931.08.02={death=yes}
+														}
+														hardegg_0088={ #// N13. Johann Konrad ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1855, +1864
+															name="Johann Konrad"
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1855.03.10={birth=yes}
+															1864.01.01={death=yes}
+														}
+														hardegg_0089={ #// N14. Emma ZU HARDEGG AUF GLATZ UND IM MACHLANDE, *1857, +1871
+															name=Emma
+															female=yes
+															dynasty=1004558
+															religion=catholic culture=german
+															father=hardegg_0071	# Johann Maximilian zu Hardegg auf Glatz u.im Machlande
+															mother=100047571	# Franziska Xaveria von Wrbna u.Freudenthal
+															1857.08.04={birth=yes}
+															1871.03.28={death=yes}
+														}
+												hardegg_0067={ #// L2. Maria Josepha Augusta Leonharda VON HARDEGG, *Wien 1777.05.07, +Wien 1847.02.03; m.2.1.1803 Franz von und zu Daun (*Jemnice 2.4.1781, +Wien 21.4.1836)
+													name="Maria Josepha"
+													female=yes
+													dynasty=1004558
+													religion=catholic culture=german
+													father=hardegg_0058	# Johann zu Hardegg auf Glatz u.im Machlande
+													mother=wilczek_0020	# Maria Josefa von Wilczek
+													1777.05.07={birth=yes}  # Wien
+													1847.02.03={death=yes}  # Wien
+												}
+													hardegg_0072={ #// M1. Bertha VON DAUN, *Wien 1807.04.14, +Wien 1856.04.07; m.Bítov (Vöttau) 21.9.1834 Karel Vilém Haugvic z Malé Obiše (*Námof f 23.10.1797, +Námof f 30.10.1874) $$
+														name=Bertha
+														female=yes
+														dynasty=1004558
+														religion=catholic culture=german
+														father=lowborn_6372	# Franz von und zu Daun
+														mother=hardegg_0067	# Maria Josepha zu Hardegg auf Glatz u.im Machlande
+														1807.04.14={birth=yes}  # Wien
+														1856.04.07={death=yes}  # Wien
+													}
+							hardegg_0044={ #// G2. Maximilian Philipp VON HARDEGG, +1663; m.1.1.1643 Eva Maria von Sinzendorf (+1652)
+								name="Maximilian Philipp"
+								dynasty=1004558
+								religion=catholic culture=german
+								father=hardegg_0041	# Georg Friedrich zu Hardegg auf Glatz u.im Machlande
+								mother=herberstein_0164	# Sidonia von Herberstein
+								1596.01.01={birth=yes}  # EST.
+								1643.01.01={add_spouse=lowborn_6352}	# Eva Maria von Sinzendorf
+								1663.01.01={death=yes}
+							}
+								hardegg_0049={ #// H1. Maximiliane VON HARDEGG, *Thurn, Austria 1644.03.16, +Regensburg 1678.08.27 $$
+									name=Maximiliane
+									female=yes
+									dynasty=1004558
+									religion=catholic culture=german
+									father=hardegg_0044	# Maximilian Philipp zu Hardegg auf Glatz u.im Machlande
+									mother=lowborn_6352	# Eva Maria von Sinzendorf
+									1644.03.16={birth=yes}  # Thurn, Austria
+									1678.08.27={death=yes}  # Regensburg
+								}
+						hardegg_0039={ #// F4. Margaretha PRUESCHINK VON HARDEGG; m.1.1.1596 Ehrenreich von Kainach
+							name=Margaretha
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0023	# Heinrich II zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6333	# Anna Marie z Thurnu
+							1569.01.01={birth=yes}  # EST.
+							1629.01.01={death=yes}  # EST.
+						}
+						hardegg_0038={ #// F5. Maria Magdalena PRUESCHINK VON HARDEGG; m.1.1.1614 Christoph Wilhelm von Zelking (*1575, +Wien 27.4.1631)
+							name="Maria Magdalena"
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0023	# Heinrich II zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6333	# Anna Marie z Thurnu
+							1571.01.01={birth=yes}  # EST.
+							1631.01.01={death=yes}  # EST.
+						}
+					hardegg_0024={ #// E5. Julius PRUESCHINK VON HARDEGG, *1547, +1593
+						name=Julius
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0012	# Julius II zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6321	# Gertrude von Eberstein
+						1547.01.01={birth=yes}
+						1593.01.01={death=yes}
+					}
+					hardegg_0019={ #// E6. Oldřich PRUESCHINK VON HARDEGG, +1604
+						name=Oldřich
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0012	# Julius II zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6321	# Gertrude von Eberstein
+						1551.01.01={birth=yes}  # EST.
+						1604.01.01={death=yes}
+					}
+					hardegg_0022={ #// E7. Zikmund II PRUESCHINK VON HARDEGG, *1539, +1599; m.1st 13.2.1565 Eva von Castell (*12.4.1546, +23.4.1570); m.2nd 1.1.1571 Magdalena zu Wied (*1565, +13.10.1606) $$
+						name="Zikmund II"
+						dynasty=1004558
+						religion=catholic culture=german
+						father=hardegg_0012	# Julius II zu Hardegg auf Glatz u.im Machlande
+						mother=lowborn_6321	# Gertrude von Eberstein
+						1539.01.01={birth=yes}
+						1565.02.13={add_spouse=castell_0004}	# Eva von Castell
+						1571.01.01={add_spouse=lowborn_6332}	# Magdalena zu Wied
+						1599.01.01={death=yes}
+					}
+						hardegg_0034={ #// F1. Elisabeth ZU HARDEGG AUF GLATZ; m.Georg Hermann von Puchheim
+							name=Elisabeth
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0022	# Zikmund II zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6332	# Magdalena zu Wied
+							1565.01.01={birth=yes}  # EST.
+							1625.01.01={death=yes}  # EST.
+						}
+						hardegg_0035={ #// F2. Johann Wilhelm HARDEK, 
+							name="Johann Wilhelm"
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0022	# Zikmund II zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6332	# Magdalena zu Wied
+							1566.01.01={birth=yes}  # EST.
+							1626.01.01={death=yes}  # EST.
+						}
+							hardegg_0043={ #// G1. Johanna Susanna VON HARDEGG, *1600, +1639; m.9.9.1621 Julius von Hardegg Auf Glatz (*21.3.1594, +27.4.1684) $$
+								name="Johanna Susanna"
+								female=yes
+								dynasty=1004558
+								religion=catholic culture=german
+								father=hardegg_0035	# Johann Wilhelm zu Hardegg auf Glatz u.im Machlande
+								1600.01.01={birth=yes}
+								1639.01.01={death=yes}
+							}
+						hardegg_0036={ #// F3. Magdalena VON HARDEGG, *1577, +1657; m.Johann Wilhelm zu Wied (+2.6.1633)
+							name=Magdalena
+							female=yes
+							dynasty=1004558
+							religion=catholic culture=german
+							father=hardegg_0022	# Zikmund II zu Hardegg auf Glatz u.im Machlande
+							mother=lowborn_6332	# Magdalena zu Wied
+							1577.01.01={birth=yes}
+							1657.04.02={death=yes}
+						}
+				hardegg_0006={ #// D4. Kateřina PRUESCHINK VON HARDEGG; m.Vitus von Zelking
+					name=Kateřina
+					female=yes
+					dynasty=1004558
+					religion=catholic culture=german
+					father=hardegg_0004	# Heinrich zu Hardegg auf Glatz u.im Machlande
+					mother=lowborn_5586	# Eliška z Rožmberka
+					1500.01.01={birth=yes}  # EST.
+					1560.01.01={death=yes}  # EST.
+				}
+				hardegg_0008={ #// D5. Krištof PRUESCHINK VON HARDEGG, +1513
+					name=Krištof
+					dynasty=1004558
+					religion=catholic culture=german
+					father=hardegg_0004	# Heinrich zu Hardegg auf Glatz u.im Machlande
+					mother=lowborn_5586	# Eliška z Rožmberka
+					1500.01.01={birth=yes}  # EST.
+					1513.01.01={death=yes}
+				}
+				hardegg_0010={ #// D6. Sena PRUESCHINK VON HARDEGG; m.Albrecht von Münsterberg
+					name=Sena
+					female=yes
+					dynasty=1004558
+					religion=catholic culture=german
+					father=hardegg_0004	# Heinrich zu Hardegg auf Glatz u.im Machlande
+					mother=lowborn_5586	# Eliška z Rožmberka
+					1500.01.01={birth=yes}  # EST.
+					1560.01.01={death=yes}  # EST.
+				}
+				hardegg_0011={ #// D7. Ulrich  PRUESCHINK VON HARDEGG, +1522; m.1st Zdenka z Münsterberka (*Glatz,  in Glatz 3.6.1483, +1522); m.2nd Z Haugvic; m.3rd Z Gutštejna
+					name=Ulrich
+					dynasty=1004558
+					religion=catholic culture=german
+					father=hardegg_0004	# Heinrich zu Hardegg auf Glatz u.im Machlande
+					mother=lowborn_5586	# Eliška z Rožmberka
+					1501.01.01={birth=yes}  # EST.
+					1521.01.01={add_spouse=lowborn_6305}	# Zdenka z Münsterberka
+					1522.01.01={death=yes}
+				}
+				hardegg_0005={ #// D8. Veronika PRUESCHINK VON HARDEGG; m.Nikolas Zimbor
+					name=Veronika
+					female=yes
+					dynasty=1004558
+					religion=catholic culture=german
+					father=hardegg_0004	# Heinrich zu Hardegg auf Glatz u.im Machlande
+					mother=lowborn_5586	# Eliška z Rožmberka
+					1502.01.01={birth=yes}  # EST.
+					1562.01.01={death=yes}  # EST.
+				}
+## HARDEGG 1004558

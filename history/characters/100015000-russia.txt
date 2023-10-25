@@ -7421,8 +7421,8 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 											father=100019359	# Василий Лвович Нарышкин
 											mother=100098792	# Феврония Павловна Orbeliani
 											1876.01.01={birth=yes}
-											1908.10.17={add_spouse=100093535}	# GFN Alexandra von Zarnekau
-											1920.01.01={remove_spouse=100093535}
+											1908.10.17={add_spouse=100303213}	# Александра
+											1920.01.01={remove_spouse=100303213}
 											1921.01.01={add_spouse=100100667}	# Александра Степановна Makarov
 											1931.04.03={death=yes}  # Saint Jean-les-Pins
 										}
@@ -11994,7 +11994,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									father=100018613	# Павел Павлович Шувалов
 									mother=100035312	# Александра Илларионовна Воронцов-Дашков
 									1891.02.04={birth=yes}
-									1918.06.07={add_spouse=100090209}	# PSS Евфросиния Djaparidze
+									1918.06.07={add_spouse=100090209}	# PSS Евфросиния Japaridze
 									1919.10.08={death=yes}  # Tsarskoye Selo
 								}
 								100018573={ #// H5. Css Elisaveta, *Moscow 11.3.1892, +USA 18.1.1975
@@ -12284,7 +12284,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							father=100018608	# Андрей Павлович Шувалов
 							mother=100101736	# Софья Воронцов
 							1846.11.07={birth=yes}
-							1885.01.01={add_spouse=100101746}	# FRN Elizabeth Pilar von Pilhau
+							1885.01.01={add_spouse=100101746}	# FRN Elizabeth Pilar von Pilchau
 							1885.04.04={death=yes}  # Paris
 						}
 						100018605={ #// F3. Css Ekaterina, *28.7.1848, +Viroflay 27.1.1931; m.Sankt Petersburg 9.11.1869 Nikolai Pavlovich Balashov (*12.9.1840, +Chaville 4.4.1931)
@@ -14967,7 +14967,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						father=100020112	# Степан Фёдорович Толстой
 						mother=100018070	# Александра Щербатов
 						1788.01.01={birth=yes}
-						1860.01.01={death=yes}	# EST.
+						1855.01.01={death=yes}	# EST.
 					}
 						100020093={ #// F1. Aleksandr Aleksandrovič (*12.8.1810) %%
 							name=Александр
@@ -17105,166 +17105,177 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 
 
 ## Kurakin 1010016
-#kurakin1
-100020823={ #// C1. Pr Simeon, boyar, +1606; m.Pss Elena Vasilievna Bakhteyarova-Rostovskaya (+22.5.1628)
-	name=Симеон
-	dynasty=1010016
+#kurakin1 fragment
+jagelo_0014={ #// Pr Andrey Bulgakov "Kuraka", boyar, +after 1521
+	name=Andrey
+	dynasty=1012037
 	religion=orthodox culture=russian
-	1536.01.01={birth=yes}
-	1603.01.01={add_spouse=100083766}	# PSS Елена Васильевна Бахтеяров-Ростовский
-	1606.01.01={death=yes}
+	father=jagelo_0010	# Иван Jagiełło
+	mother=lowborn_1482	# Ксения Ивановна Всеволожский
+	1481.01.01={birth=yes}  # EST.
+	1522.01.01={death=yes}
 }
-	100020819={ #// D2. Pr Fyodor, boyar, +2.1.1656; m.Pss Praskovia Borisovna Tateva
-		name=Фёдор
-		dynasty=1010016
-		religion=orthodox culture=russian
-		father=100020823	# Симеон Куракин
-		mother=100083766	# PSS Елена Васильевна Бахтеяров-Ростовский
-		1604.01.01={birth=yes}  # EST.
-		1625.01.01={add_spouse=100084605}	# PSS Прасковья Борисовна Татев
-		1656.01.02={death=yes}
-	}
-		100020798={ #// E1. Pr Fyodor, boyar, tutor of Tsar Fyodor II, +1680; m.Eudoxia Andreievna Golovina
-			name=Фёдор
-			dynasty=1010016
-			religion=orthodox culture=russian
-			father=100020819	# Фёдор Семёнович Куракин
-			mother=100084605	# PSS Прасковья Борисовна Татев
-			1626.01.01={birth=yes}  # EST.
-			1668.01.01={add_spouse=100087496}	# Евдокия Андреевна Головин
-			1680.01.01={death=yes}
-		}
-			100020786={ #// F1. Pss Praskovia; m.Ivan Pr Khovanski (*1650, +4.3.1726) $$
-				name=Прасковья
-				female=yes
+	# A3. Pr Pyotr, boyar 1559, +1575
+		# B1. Pr Andrey, boyar, +1615
+			100020823={ #// C1. Pr Simeon, boyar, +1606; m.Pss Elena Vasilievna Bakhteyarova-Rostovskaya (+22.5.1628)
+				name=Симеон
 				dynasty=1010016
 				religion=orthodox culture=russian
-				father=100020798	# Фёдор Фёдорович Куракин
-				mother=100087496	# Евдокия Андреевна Головин
-				1669.01.01={birth=yes}  # EST.
-				1744.01.01={death=yes}  # EST.
+				1536.01.01={birth=yes}
+				1603.01.01={add_spouse=100083766}	# PSS Елена Васильевна Бахтеяров-Ростовский
+				1606.01.01={death=yes}
 			}
-			100020790={ #// F2. Pss Maria, *ca 1671, +9.7.1695; m.Pr Vasily Vladimirovich Dolgorukov, Field Marshal (*1667, +11.2.1746) $$
-				name=Мария
-				female=yes
-				dynasty=1010016
-				religion=orthodox culture=russian
-				father=100020798	# Фёдор Фёдорович Куракин
-				mother=100087496	# Евдокия Андреевна Головин
-				1671.01.01={birth=yes}
-				1695.07.09={death=yes}
-			}
-			100020815={ #// F3. Pss Anna; m.Pr Andrey Mikhailovich Tcherkasski $$
-				name=Анна
-				female=yes
-				dynasty=1010016
-				religion=orthodox culture=russian
-				father=100020798	# Фёдор Фёдорович Куракин
-				mother=100087496	# Евдокия Андреевна Головин
-				1673.01.01={birth=yes}  # EST.
-				1748.01.01={death=yes}  # EST.
-			}
-		100020817={ #// E2. Pss Natalia, *ca 1628, +1.5.1674; m.Pr Ivan Alexeievich Vorotynski (+26.6.1679) $$
-			name=Наталья
-			female=yes
-			dynasty=1010016
-			religion=orthodox culture=russian
-			father=100020819	# Фёдор Семёнович Куракин
-			mother=100084605	# PSS Прасковья Борисовна Татев
-			1628.01.01={birth=yes}
-			1674.05.01={death=yes}
-		}
-	100020809={ #// D3. Pr Grigory, boyar, *1606, +1679; 1m: Maria Borisovna; 2m: Yevdokia Fyodorovna; 3m: Uliana Ivanovna
-		name=Григорий
-		dynasty=1010016
-		religion=orthodox culture=russian
-		father=100020823	# Симеон Куракин
-		mother=100083766	# PSS Елена Васильевна Бахтеяров-Ростовский
-		1606.01.01={birth=yes}
-		1679.01.01={death=yes}
-	}
-		100020813={ #// E1. Pr Ivan, boyar, +15.9.1681; 1m: Pss Fedosia Alexeievna Odoyevskaya (+25.8.1677); 2m: 1678 Pss Maria Petrovna Prozorovskaya (+11.3.1684) $$
-			name=Иван
-			dynasty=1010016
-			religion=orthodox culture=russian
-			father=100020809	# Григорий Семёнович Куракин
-			1650.01.01={birth=yes}
-			1673.01.01={add_spouse=odoevsky_0057}	# Феодосия Алексеевна Одоевский
-			1678.01.01={add_spouse=100019989}	# Мария Петровна Прозоровский
-			1681.09.15={death=yes}
-		}
-			100020805={ #// F1. Pr Mikhail, +1696; m.Pss Marfa Dmitrievna Galitsyna (*1670/73, +21.9.1743) $$
-				name=Михаил
-				dynasty=1010016
-				religion=orthodox culture=russian
-				father=100020813	# Иван Григорьевич Куракин
-				mother=odoevsky_0057	# Феодосия Алексеевна Одоевский
-				1674.01.01={birth=yes}  # EST.
-				1691.01.01={add_spouse=100015910}	# Мавра Дмитриевна Голицын
-				1696.01.01={death=yes}
-			}
-				100020800={ #// G3. Pss Maria, +1761; m.Ct Alexander Petrovich Apraxin (*1690, +1725) $$
-					name=Мария
-					female=yes
+				100020819={ #// D2. Pr Fyodor, boyar, +2.1.1656; m.Pss Praskovia Borisovna Tateva
+					name=Фёдор
 					dynasty=1010016
 					religion=orthodox culture=russian
-					father=100020805	# Михаил Иванович Куракин
-					mother=100015910	# Мавра Дмитриевна Голицын
-					1692.01.01={birth=yes}  # EST.
-					1761.01.01={death=yes}
+					father=100020823	# Симеон Куракин
+					mother=100083766	# PSS Елена Васильевна Бахтеяров-Ростовский
+					1604.01.01={birth=yes}  # EST.
+					1625.01.01={add_spouse=100084605}	# PSS Прасковья Борисовна Татев
+					1656.01.02={death=yes}
 				}
-			100020772={ #// F3. Pr Ivan, +1706; m.Yelena Tikhonovna Streshneva (+1706)
-				name=Иван
-				dynasty=1010016
-				religion=orthodox culture=russian
-				father=100020813	# Иван Григорьевич Куракин
-				mother=odoevsky_0057	# Феодосия Алексеевна Одоевский
-				1675.01.01={birth=yes}  # EST.
-				1700.01.01={add_spouse=100098604}	# Елена Тихоновна Стрешнев
-				1706.01.01={death=yes}
-			}
-			100020770={ #// F4. Pss Maria, *6.11.1675, +6.2.1742; m.1693 Ivan Stepanovich Saltykov (k.a.Narva 20 Feb 1700) $$
-				name=Мария
-				female=yes
-				dynasty=1010016
-				religion=orthodox culture=russian
-				father=100020813	# Иван Григорьевич Куракин
-				mother=odoevsky_0057	# Феодосия Алексеевна Одоевский
-				1675.11.06={birth=yes}
-				1742.02.06={death=yes}
-			}
-			100020784={ #// F2. Pr Boris, ambassador of Peter I to London, Paris, etc., *20.7.1677, +17.10.1727; 1m: Axinia Fyodorovna Lopukhina (*1678 +1699); 2m: Pss Maria Fyodorovna Urusova (+1731) $$
-				name=Борис
-				dynasty=1010016
-				religion=orthodox culture=russian
-				father=100020813	# Иван Григорьевич Куракин
-				mother=odoevsky_0057	# Феодосия Алексеевна Одоевский
-				1677.07.20={birth=yes}
-				1691.07.17={add_spouse=100018153}	# Ксения Илларионовна Лопухин
-				1700.01.01={add_spouse=urusov_0075}	# Мария Фёдоровна Урусов
-				1727.10.17={death=yes}	# Paris
-			}
-				100020780={ #// G3. Pss Tatiana, *1.1.1696, +7.5.1758; m.1716 Pr Mikhail Mikhailovich Galitsyn (*1.11.1675, +10.12.1730) $$
-					name=Татьяна
-					female=yes
+					100020798={ #// E1. Pr Fyodor, boyar, tutor of Tsar Fyodor II, +1680; m.Eudoxia Andreievna Golovina
+						name=Фёдор
+						dynasty=1010016
+						religion=orthodox culture=russian
+						father=100020819	# Фёдор Семёнович Куракин
+						mother=100084605	# PSS Прасковья Борисовна Татев
+						1626.01.01={birth=yes}  # EST.
+						1668.01.01={add_spouse=100087496}	# Евдокия Андреевна Головин
+						1680.01.01={death=yes}
+					}
+						100020786={ #// F1. Pss Praskovia; m.Ivan Pr Khovanski (*1650, +4.3.1726) $$
+							name=Прасковья
+							female=yes
+							dynasty=1010016
+							religion=orthodox culture=russian
+							father=100020798	# Фёдор Фёдорович Куракин
+							mother=100087496	# Евдокия Андреевна Головин
+							1669.01.01={birth=yes}  # EST.
+							1744.01.01={death=yes}  # EST.
+						}
+						100020790={ #// F2. Pss Maria, *ca 1671, +9.7.1695; m.Pr Vasily Vladimirovich Dolgorukov, Field Marshal (*1667, +11.2.1746) $$
+							name=Мария
+							female=yes
+							dynasty=1010016
+							religion=orthodox culture=russian
+							father=100020798	# Фёдор Фёдорович Куракин
+							mother=100087496	# Евдокия Андреевна Головин
+							1671.01.01={birth=yes}
+							1695.07.09={death=yes}
+						}
+						100020815={ #// F3. Pss Anna; m.Pr Andrey Mikhailovich Tcherkasski $$
+							name=Анна
+							female=yes
+							dynasty=1010016
+							religion=orthodox culture=russian
+							father=100020798	# Фёдор Фёдорович Куракин
+							mother=100087496	# Евдокия Андреевна Головин
+							1673.01.01={birth=yes}  # EST.
+							1748.01.01={death=yes}  # EST.
+						}
+					100020817={ #// E2. Pss Natalia, *ca 1628, +1.5.1674; m.Pr Ivan Alexeievich Vorotynski (+26.6.1679) $$
+						name=Наталья
+						female=yes
+						dynasty=1010016
+						religion=orthodox culture=russian
+						father=100020819	# Фёдор Семёнович Куракин
+						mother=100084605	# PSS Прасковья Борисовна Татев
+						1628.01.01={birth=yes}
+						1674.05.01={death=yes}
+					}
+				100020809={ #// D3. Pr Grigory, boyar, *1606, +1679; 1m: Maria Borisovna; 2m: Yevdokia Fyodorovna; 3m: Uliana Ivanovna
+					name=Григорий
 					dynasty=1010016
 					religion=orthodox culture=russian
-					father=100020784	# Борис Иванович Куракин
-					mother=100018153	# Ксения Илларионовна Лопухин
-					1696.01.01={birth=yes}
-					1758.05.07={death=yes}
+					father=100020823	# Симеон Куракин
+					mother=100083766	# PSS Елена Васильевна Бахтеяров-Ростовский
+					1606.01.01={birth=yes}
+					1679.01.01={death=yes}
 				}
-				# kurakin2 -> G1. Pr Alexander, ober-stallmeister, senator, ambassador to Paris, *2.7.1697, +2.10.1749; m.26.4.1730 Alexandra Ivanovna Panina (*3.2.1711, +11.2.1786); for his descendants see HERE
-				100020771={ #// G4. Pss Yekaterina, *26.10.1703, +15.11.1772; m.Ct Alexander Borisovich Buturlin, Field Marshal (*18.7.1694, +31.8.1767) $$
-					name=Екатерина
-					female=yes
-					dynasty=1010016
-					religion=orthodox culture=russian
-					father=100020784	# Борис Иванович Куракин
-					mother=urusov_0075	# Мария Фёдоровна Урусов
-					1703.10.26={birth=yes}
-					1772.11.15={death=yes}
-				}
+					100020813={ #// E1. Pr Ivan, boyar, +15.9.1681; 1m: Pss Fedosia Alexeievna Odoyevskaya (+25.8.1677); 2m: 1678 Pss Maria Petrovna Prozorovskaya (+11.3.1684) $$
+						name=Иван
+						dynasty=1010016
+						religion=orthodox culture=russian
+						father=100020809	# Григорий Семёнович Куракин
+						1650.01.01={birth=yes}
+						1673.01.01={add_spouse=odoevsky_0057}	# Феодосия Алексеевна Одоевский
+						1678.01.01={add_spouse=100019989}	# Мария Петровна Прозоровский
+						1681.09.15={death=yes}
+					}
+						100020805={ #// F1. Pr Mikhail, +1696; m.Pss Marfa Dmitrievna Galitsyna (*1670/73, +21.9.1743) $$
+							name=Михаил
+							dynasty=1010016
+							religion=orthodox culture=russian
+							father=100020813	# Иван Григорьевич Куракин
+							mother=odoevsky_0057	# Феодосия Алексеевна Одоевский
+							1674.01.01={birth=yes}  # EST.
+							1691.01.01={add_spouse=100015910}	# Мавра Дмитриевна Голицын
+							1696.01.01={death=yes}
+						}
+							100020800={ #// G3. Pss Maria, +1761; m.Ct Alexander Petrovich Apraxin (*1690, +1725) $$
+								name=Мария
+								female=yes
+								dynasty=1010016
+								religion=orthodox culture=russian
+								father=100020805	# Михаил Иванович Куракин
+								mother=100015910	# Мавра Дмитриевна Голицын
+								1692.01.01={birth=yes}  # EST.
+								1761.01.01={death=yes}
+							}
+						100020772={ #// F3. Pr Ivan, +1706; m.Yelena Tikhonovna Streshneva (+1706)
+							name=Иван
+							dynasty=1010016
+							religion=orthodox culture=russian
+							father=100020813	# Иван Григорьевич Куракин
+							mother=odoevsky_0057	# Феодосия Алексеевна Одоевский
+							1675.01.01={birth=yes}  # EST.
+							1700.01.01={add_spouse=100098604}	# Елена Тихоновна Стрешнев
+							1706.01.01={death=yes}
+						}
+						100020770={ #// F4. Pss Maria, *6.11.1675, +6.2.1742; m.1693 Ivan Stepanovich Saltykov (k.a.Narva 20 Feb 1700) $$
+							name=Мария
+							female=yes
+							dynasty=1010016
+							religion=orthodox culture=russian
+							father=100020813	# Иван Григорьевич Куракин
+							mother=odoevsky_0057	# Феодосия Алексеевна Одоевский
+							1675.11.06={birth=yes}
+							1742.02.06={death=yes}
+						}
+						100020784={ #// F2. Pr Boris, ambassador of Peter I to London, Paris, etc., *20.7.1677, +17.10.1727; 1m: Axinia Fyodorovna Lopukhina (*1678 +1699); 2m: Pss Maria Fyodorovna Urusova (+1731) $$
+							name=Борис
+							dynasty=1010016
+							religion=orthodox culture=russian
+							father=100020813	# Иван Григорьевич Куракин
+							mother=odoevsky_0057	# Феодосия Алексеевна Одоевский
+							1677.07.20={birth=yes}
+							1691.07.17={add_spouse=100018153}	# Ксения Илларионовна Лопухин
+							1700.01.01={add_spouse=urusov_0075}	# Мария Фёдоровна Урусов
+							1727.10.17={death=yes}	# Paris
+						}
+							100020780={ #// G3. Pss Tatiana, *1.1.1696, +7.5.1758; m.1716 Pr Mikhail Mikhailovich Galitsyn (*1.11.1675, +10.12.1730) $$
+								name=Татьяна
+								female=yes
+								dynasty=1010016
+								religion=orthodox culture=russian
+								father=100020784	# Борис Иванович Куракин
+								mother=100018153	# Ксения Илларионовна Лопухин
+								1696.01.01={birth=yes}
+								1758.05.07={death=yes}
+							}
+							# kurakin2 -> G1. Pr Alexander, ober-stallmeister, senator, ambassador to Paris, *2.7.1697, +2.10.1749; m.26.4.1730 Alexandra Ivanovna Panina (*3.2.1711, +11.2.1786); for his descendants see HERE
+							100020771={ #// G4. Pss Yekaterina, *26.10.1703, +15.11.1772; m.Ct Alexander Borisovich Buturlin, Field Marshal (*18.7.1694, +31.8.1767) $$
+								name=Екатерина
+								female=yes
+								dynasty=1010016
+								religion=orthodox culture=russian
+								father=100020784	# Борис Иванович Куракин
+								mother=urusov_0075	# Мария Фёдоровна Урусов
+								1703.10.26={birth=yes}
+								1772.11.15={death=yes}
+							}
 #kurakin1
 
 #kurakin2
@@ -20484,7 +20495,20 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 
 ## Trubetzkoy 1010004
 # https://www.angelfire.com/realm/gotha/gotha/troubetzkoy.html	
+
 #trubets1
+jagelo_0048={ #// Pr Ivan, Pr of Trubchevsk
+	name=Ivan
+	dynasty=1012037
+	religion=catholic culture=lithuanian
+	father=jagelo_0047	# Simeon Jagiełło
+	1402.01.01={birth=yes}  # EST.
+	1462.12.01={death=yes}  # EST.
+}
+	# A4. Pr Simeon Trubchevsky, boyar, governor of Kostroma, +20.1.1539
+		# B1. Pr Roman Trubetskoy
+			# C1. Pr Nikita "Kosoj" Trubetskoy, boyar, +I.1608; m.Evdokiya Mikhailovna (+1629)
+
 100017523={ #// D1. Pr Yury Trubetskoy, emigrated to Poland 1611, rebaptised as Wigund-Jeronym, +1634; m.N, dau.of boyar Mikhail Glebovich Saltykov by Pss Yulyana Mikhailovna ZvenigorodskayaD1. Pr Yury Trubetskoy, emigrated to Poland 1611, rebaptised as Wigund-Jeronym, +1634; m.N, dau.of boyar Mikhail Glebovich Saltykov by Pss Yulyana Mikhailovna Zvenigorodskaya $$
 	name=Юрий
 	dynasty=1010004
@@ -26744,8 +26768,8 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 					father=100016951	# Александр Николаевич Гольштейн-Готторп-Романов
 					mother=100015334	# Екатерина Михайловна Долгорукий
 					1872.05.12={birth=yes}
-					1900.02.11={add_spouse=100093535}	# GFN Alexandra von Zarnekau
-					1908.01.01={remove_spouse=100093535}
+					1900.02.11={add_spouse=100303213}	# Александра
+					1908.01.01={remove_spouse=100303213}
 					1913.09.13={death=yes}
 				}
 					100017002={ #// 1h) Pr Alexander Yurievsky (Nice 20 Dec 1900-Männedorf, Switzerland 29 Feb 1988); m.Flims Waldhaus, Switzerland 23 Nov 1957 Ursule Beer de Grüneck (Michaelsrombach 30 May 1925-1 Mar 2001)
@@ -26753,7 +26777,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 						dynasty_house=oldenburg_romanov
 						religion=orthodox culture=russian
 						father=100017001	# Георгий Александрович Гольштейн-Готторп-Романов
-						mother=100093535	# GFN Alexandra von Zarnekau
+						mother=100303213	# Александра
 						1900.12.20={birth=yes}
 						1957.11.23={add_spouse=100080511}	# Ursula Beer von Grüneck
 						1988.03.01={death=yes}
@@ -36575,10 +36599,12 @@ bibikov_0043={ #// Michail Bibikov (*15.6.1848, +11.1.1918); m.16.4.1876 Varvara
 
 
 ## ZASLAWSKI 1012040
+#zaslaw
 zaslaw_0001={ #// Yuriy Mikhailovich, Pr of Izheslavl, +after 1455
 	name=Юрий
 	dynasty=1012040
 	religion=orthodox culture=russian
+	father=jagelo_0131	# Mikhail Jagiełło
 	1386.01.01={birth=yes}  # EST.
 	1456.01.01={death=yes}
 }
@@ -36794,6 +36820,7 @@ zaslaw_0001={ #// Yuriy Mikhailovich, Pr of Izheslavl, +after 1455
 		1412.01.01={birth=yes}  # EST.
 		1472.01.01={death=yes}  # EST.
 	}
+#zaslaw
 ## ZASLAWSKI 1012040
 
 
