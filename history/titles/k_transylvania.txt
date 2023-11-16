@@ -6,13 +6,12 @@ k_transylvania = {
 	1835.03.02 = {holder=100020030}	# FERDINAND IV | HABSBURG
 	1848.12.02 = {holder=100020043}	# FRANZ JOSEPH | HABSBURG
 	1916.11.21 = {holder=100020066}	# KARL | HABSBURG
-	
-	1919.01.01={liege=e_romania}
-	1919.01.01={holder=100002246}	# Ferdinand I
-	1927.07.20={holder=100002252}	# Michael I (1st)
-	1930.06.08={holder=100002247}	# Carol II
-	1940.09.06={holder=100002252}	# Michael I (2nd)
-	2017.12.05={holder=100002249}
+	1919.01.01 = {liege=e_romania}
+	1919.01.01 = {holder=100002246}	# Ferdinand I
+	1927.07.20 = {holder=100002252}	# Michael I (1st)
+	1930.06.08 = {holder=100002247}	# Carol II
+	1940.09.06 = {holder=100002252}	# Michael I (2nd)
+	2017.12.05 = {holder=100002249}
 }
 
 #########
@@ -68,6 +67,91 @@ d_transylvania = {
 	1800.01.01 = {liege=k_hungary}
 }
 
+c_kolozs = {
+	1700.01.01 = {liege=k_hungary}
+	
+	# Mihály Bánffy de Losoncz, Obergespan of Kolozs, *1592, +1644
+	1815.1.1 = {holder=100117853}	# György Bánffy, Kolozs vármegye fõispánja, *1772, +Kolozsvár 23.12.1831;
+	1900.1.1 = {holder=100117859}	# Miklós Bánffy, Kolozs vármegye fõispánja, *Kolozsvár 31.12.1873, +Budapest 6.6.1950
+}
+c_beszterce = {
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	708.1.1 = {holder=146144}
+	725.1.1 = {holder=146146}
+	750.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	804.1.1 = {holder=146152}
+	863.1.1 = {holder=168283}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1063.12.1 = {holder=474}
+	1066.1.1 = {holder=20360}
+	1095.7.29 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=219501}
+	1204.11.30 = {holder=98002}
+	1205.5.7 = {holder=219502}
+	1211.1.1 = {liege=d_teutonic_order}
+	1211.1.1 = {holder=30403}	#Herman von Salza
+	1224.12.31 = {liege=d_transylvania}
+	1224.12.31 = {holder=93639}
+	1250.1.1 = {holder=93640}
+	1291.1.1 = {holder=93641}
+	1310.1.1 = {holder=470200}
+	1320.1.1 = {holder=470202}
+	#####
+	# Szilágyi	1458–?
+	## Dezsõ Banffy, Belso-Szolnok, Beszterce-Naszód és Szolnok-Doboka vármegyék foispánja (1843-1911)
+	## Balázs Bethlen, Obergespan of Szolnok-Doboka and Beszterce-Naszód, *Kolozsvár 8.8.1864, +Árokalja 21.12.1946
+	## Béla Bethlen, Obergespan of Beszterce-Naszód and Szolnok-Doboka, *Aranyosgyéres 2.11.1888, +Kolozsvár 6.11.1979
+	## Árpád Lázár, Obergespan of Beszterce-Naszód, *Bencenc 2.9.1860, +Budapest 22.10.1942
+
+	#####
+	1700.01.01 = {liege=k_hungary}
+}
+c_brasso = {
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	725.1.1 = {holder=146144}
+	736.1.1 = {holder=146145}
+	750.1.1 = {holder=146146}
+	762.1.1 = {holder=146147}
+	771.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	812.1.1 = {holder=146152}
+	852.1.1 = {holder=168069}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=4441}
+	1099.1.1 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=93751}
+	1226.1.1 = {holder=93753}
+	1233.1.1 = {holder=93752}
+	1276.1.1 = {holder=93754}
+	1315.1.1 = {holder=470040}
+}
 c_feher = {
 	685.1.1 = {
 		liege = "d_transylvania"
@@ -101,6 +185,8 @@ c_feher = {
 	1276.1.1 = {holder=93754}
 	1315.1.1 = {holder=470040}
 	#####
+	1700.01.01 = {liege=k_hungary}
+	
 	# 1742	1761	Mikes István(wd)
 	# 1761	1761	Bornemisza Pál(wd)[4]
 	# 1761	1774	Haller Pál[4]
@@ -150,92 +236,6 @@ c_feher = {
 	# 100118072={	#// Simon KEMÉNY, Obergespan of Alsó-Fehér, *Marosvásárhely 26.8.1851, +Kolozsvár 1928
 	# 100118621={	#// Pál KEMÉNY, Obergespan of Alsó-Fehér, *Nagyenyed 8.3.1867, +Malomfalva 14.4.1934
 	# 100118064={	#// Árpád KEMÉNY, Obergespan of Alsó-Fehér, *Szilágykövesd 24.12.1867, +Budapest 17.6.1941
-}
-c_barcasag = {
-	685.1.1 = {
-		liege = "d_transylvania"
-		holder = 146143
-		government = tribal_government
-	}
-	708.1.1 = {holder=146144}
-	725.1.1 = {holder=146146}
-	750.1.1 = {holder=146148}
-	795.1.1 = {holder=146150}
-	800.1.1 = {holder=146151}
-	804.1.1 = {holder=146152}
-	863.1.1 = {holder=168283}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1063.12.1 = {holder=474}
-	1066.1.1 = {holder=4441}
-	1095.7.29 = {holder=480}
-	1116.2.3 = {holder=231065}
-	1131.4.2 = {holder=219530}
-	1141.2.13 = {holder=219510}
-	1162.5.31 = {holder=219511}
-	1162.7.15 = {holder=98000}
-	1163.1.14 = {holder=98001}
-	1163.6.19 = {holder=219511}
-	1172.3.4 = {holder=219500}
-	1196.4.23 = {holder=219501}
-	1204.11.30 = {holder=98002}
-	1205.5.7 = {holder=219502}
-	1211.1.1 = {liege=d_teutonic_order}
-	1211.1.1 = {holder=30403}	#Herman von Salza
-	1224.12.31 = {liege=d_transylvania}
-	1224.12.31 = {holder=93639}
-	1250.1.1 = {holder=93640}
-	1291.1.1 = {holder=93641}
-	1310.1.1 = {holder=470200}
-	1320.1.1 = {holder=470202}
-	#####
-	# 100120049={	#// C4. Albert PETRICHEVICH, cr Baron 20.11.1859, Obergespan of Háromszék, Udvarhely and Maros-Torda, *Zabola 23.4.1801, +Backamadaras 13.6.1874
-	# 100118687={	#// H2. János HALLER, Maros-Torda, Udvarhely és Háromszék vármegyék főispánja, Marosvásárhely szabad királyi város főispánja, *Erzsébetváros 5.7.1852, +Olthévíz 17.1.1928
-	# 100119480={	#// E6. [2m.] János Bornemisza, Háromszék vm. főispánja, *Gógánváralja 25.10.1869, +Gógánváralja 3.10.1935
-}
-c_beszterce = {
-	685.1.1 = {
-		liege = "d_transylvania"
-		holder = 146143
-		government = tribal_government
-	}
-	708.1.1 = {holder=146144}
-	725.1.1 = {holder=146146}
-	750.1.1 = {holder=146148}
-	795.1.1 = {holder=146150}
-	800.1.1 = {holder=146151}
-	804.1.1 = {holder=146152}
-	863.1.1 = {holder=168283}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1063.12.1 = {holder=474}
-	1066.1.1 = {holder=20360}
-	1095.7.29 = {holder=480}
-	1116.2.3 = {holder=231065}
-	1131.4.2 = {holder=219530}
-	1141.2.13 = {holder=219510}
-	1162.5.31 = {holder=219511}
-	1162.7.15 = {holder=98000}
-	1163.1.14 = {holder=98001}
-	1163.6.19 = {holder=219511}
-	1172.3.4 = {holder=219500}
-	1196.4.23 = {holder=219501}
-	1204.11.30 = {holder=98002}
-	1205.5.7 = {holder=219502}
-	1211.1.1 = {liege=d_teutonic_order}
-	1211.1.1 = {holder=30403}	#Herman von Salza
-	1224.12.31 = {liege=d_transylvania}
-	1224.12.31 = {holder=93639}
-	1250.1.1 = {holder=93640}
-	1291.1.1 = {holder=93641}
-	1310.1.1 = {holder=470200}
-	1320.1.1 = {holder=470202}
-	#####
-	# Szilágyi	1458–?
-	## Dezsõ Banffy, Belso-Szolnok, Beszterce-Naszód és Szolnok-Doboka vármegyék foispánja (1843-1911)
-	## Balázs Bethlen, Obergespan of Szolnok-Doboka and Beszterce-Naszód, *Kolozsvár 8.8.1864, +Árokalja 21.12.1946
-	## Béla Bethlen, Obergespan of Beszterce-Naszód and Szolnok-Doboka, *Aranyosgyéres 2.11.1888, +Kolozsvár 6.11.1979
-	## Árpád Lázár, Obergespan of Beszterce-Naszód, *Bencenc 2.9.1860, +Budapest 22.10.1942
-}
-c_brasso = {
 }
 c_fogaras = {
 	685.1.1 = {
@@ -301,27 +301,389 @@ c_hunyad = {
 	1233.1.1 = {holder=93752}
 	1276.1.1 = {holder=93754}
 	1315.1.1 = {holder=470040}
-}
-c_kolozs = {
-	# Mihály Bánffy de Losoncz, Obergespan of Kolozs, *1592, +1644
-	1815.1.1 = {holder=100117853}	# György Bánffy, Kolozs vármegye fõispánja, *1772, +Kolozsvár 23.12.1831;
-	1900.1.1 = {holder=100117859}	# Miklós Bánffy, Kolozs vármegye fõispánja, *Kolozsvár 31.12.1873, +Budapest 6.6.1950
+	##### JOSIKA
+	1700.01.01 = {liege=k_hungary}
+	1750.01.01 = {holder=100119779}
+	1770.01.01 = {holder=100119780}
+	1806.01.16 = {holder=100119782}
+	1843.05.16 = {holder=100119783}
+	1860.03.28 = {holder=100119784}
+	1891.11.08 = {holder=100119787}
+	1923.06.03 = {holder=100119789}
+	1930.05.12 = {holder=100119790}
+	1958.11.30 = {holder=100119806}
+	1972.02.24 = {holder=100119764}
+	1992.12.30 = {holder=100119761}
 }
 c_kukullo = {
-	# 100118394={	#// István Haller de Hallerkeö, Comes of Küküllo County, erdélyi fejedelmi tanácsos, *4.3.1591, +20.11.1657
-	# 100118393={	#// A3. [1m.] Pál, Comes of Küküllo County, +1685
-	# 100116708={	#// D2. Sándor, Küküllõ vármegye fõispánja, *Bun 1741, +Kolozsvár 3.11.1793
-	# 100118377={	#// E1. Gábor, Comes of Küküllo County, *1749, +Nagyszeben 28.3.1822
-	# 100116704={	#// E2. Imre, Küküllõ és Alsó-Fehér vármegye fõispánja, +1834	
-	# 100118376={	#// F1. László, Comes of Küküllo County, *Losonc 1777, +Nagyszeben 26.4.1837
-	1770.01.01 = {holder=100116708}
-	1793.11.03 = {holder=100118377}
-	1822.03.28 = {holder=100116704}
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	725.1.1 = {holder=146144}
+	736.1.1 = {holder=146145}
+	750.1.1 = {holder=146146}
+	762.1.1 = {holder=146147}
+	771.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	812.1.1 = {holder=146152}
+	852.1.1 = {holder=168069}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=20365}
+	1078.1.1 = {holder=4441}
+	1099.1.1 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=93751}
+	1226.1.1 = {holder=93753}
+	1233.1.1 = {holder=93752}
+	1276.1.1 = {holder=93754}
+	1315.1.1 = {holder=470040}
+	#####
+	1700.01.01 = {liege=k_hungary}
+	1585.01.01 = {holder=100118653}
+	1608.07.12 = {holder=100118394}
+	1657.11.20 = {holder=100118393}
+	1685.01.01 = {holder=kuun_0065}
+	1690.08.21 = {holder=100116731}
+	1708.02.07 = {holder=100117127}
+	1717.03.30 = {holder=100119299}
+	1741.01.01 = {holder=100119289}
+	1765.01.01 = {holder=100116708}
+	1793.11.03 = {holder=100118726}
+	1796.01.01 = {holder=100118293}
+	1812.01.01 = {holder=100118377}
+	1822.03.28 = {holder=100117829}
+	1822.08.07 = {holder=100116704}
 	1834.01.01 = {holder=100118376}
-}
-c_maros_torda = {
+	1837.04.26 = {holder=100118285}
+	1870.10.25 = {holder=100117851}
+	1873.12.08 = {holder=100118734}
+	1898.03.16 = {holder=100118363}
+	1944.01.01 = {holder=100118362}
+	1984.03.16 = {holder=100118361}
+	2000.01.01 = {holder=100118360}
 }
 c_szeben = {
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	725.1.1 = {holder=146144}
+	736.1.1 = {holder=146145}
+	750.1.1 = {holder=146146}
+	762.1.1 = {holder=146147}
+	771.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	812.1.1 = {holder=146152}
+	852.1.1 = {holder=168069}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=20365}
+	1078.1.1 = {holder=4441}
+	1099.1.1 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=93751}
+	1226.1.1 = {holder=93753}
+	1233.1.1 = {holder=93752}
+	1276.1.1 = {holder=93754}
+	1315.1.1 = {holder=470040}
+}
+c_szilagy = {
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	725.1.1 = {holder=146144}
+	736.1.1 = {holder=146145}
+	750.1.1 = {holder=146146}
+	762.1.1 = {holder=146147}
+	771.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	805.1.1 = {
+		liege = "d_visegrad"
+		holder = 146172
+	}
+	808.1.1 = {holder=146173}
+	813.1.1 = {holder=194000}
+	830.1.1 = {holder=168071}
+	858.1.1 = {holder=168072}
+	865.1.1 = {holder=168285}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1063.12.1 = {liege=d_transylvania}
+	1063.12.1 = {holder=474}
+	1066.1.1 = {holder=20360}
+	1095.7.29 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=93751}
+	1226.1.1 = {holder=93753}
+	1233.1.1 = {holder=93752}
+	1276.1.1 = {holder=470060}
+	1320.1.2 = {holder=470062}
+	#####
+	1700.1.1 = {liege=k_hungary}
+	1720.01.01 = {holder=karolyi_0001}
+	1743.09.08 = {holder=karolyi_0002}
+	1758.08.14 = {holder=karolyi_0003}
+	1791.08.24 = {holder=100116207}
+	1803.04.04 = {holder=100116105}
+	1881.06.12 = {holder=100116113}
+	1936.10.26 = {holder=100116115}
+	1967.06.02 = {holder=100116121}
+	1977.11.16 = {holder=100116125}
+}
+c_szolnok_doboka = {
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	708.1.1 = {holder=146144}
+	725.1.1 = {holder=146146}
+	750.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	804.1.1 = {holder=146152}
+	863.1.1 = {holder=168283}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1063.12.1 = {holder=474}
+	1066.1.1 = {holder=20360}
+	1095.7.29 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=219501}
+	1204.11.30 = {holder=98002}
+	1205.5.7 = {holder=219502}
+	1211.1.1 = {liege=d_teutonic_order}
+	1211.1.1 = {holder=30403}	#Herman von Salza
+	1224.12.31 = {liege=d_transylvania}
+	1224.12.31 = {holder=93639}
+	1250.1.1 = {holder=93640}
+	1291.1.1 = {holder=93641}
+	1310.1.1 = {holder=470200}
+	1320.1.1 = {holder=470202}
+	#####
+	# Szilágyi	1458–?
+	## Dezsõ Banffy, Belso-Szolnok, Beszterce-Naszód és Szolnok-Doboka vármegyék foispánja (1843-1911)
+	## Balázs Bethlen, Obergespan of Szolnok-Doboka and Beszterce-Naszód, *Kolozsvár 8.8.1864, +Árokalja 21.12.1946
+	## Béla Bethlen, Obergespan of Beszterce-Naszód and Szolnok-Doboka, *Aranyosgyéres 2.11.1888, +Kolozsvár 6.11.1979
+	## Árpád Lázár, Obergespan of Beszterce-Naszód, *Bencenc 2.9.1860, +Budapest 22.10.1942
+}
+c_torda = {
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	725.1.1 = {holder=146144}
+	736.1.1 = {holder=146145}
+	750.1.1 = {holder=146146}
+	762.1.1 = {holder=146147}
+	771.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	812.1.1 = {holder=146152}
+	852.1.1 = {holder=168069}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=20365}
+	1078.1.1 = {holder=4441}
+	1099.1.1 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=93751}
+	1226.1.1 = {holder=93753}
+	1233.1.1 = {holder=93752}
+	1276.1.1 = {holder=93754}
+	1315.1.1 = {holder=470040}
+	#####
+	1700.01.01 = {liege=k_hungary}
+	1780.01.01 = {holder=100117156}
+	1814.04.03 = {holder=100117153}
+	1868.08.30 = {holder=100117152}
+	1868.09.26 = {holder=100116659}
+	1911.02.14 = {holder=100116681}
+	1924.07.05 = {holder=100116689}
+	1985.01.01 = {holder=100116691}
+}
+
+#########
+
+d_szekelyfold = {
+	685.1.1 = {
+		liege = "k_hungary"
+		holder = 146143
+		government = tribal_government
+	}
+	725.1.1 = {holder=146144}
+	736.1.1 = {holder=146145}
+	750.1.1 = {holder=146146}
+	762.1.1 = {holder=146147}
+	771.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	804.1.1 = {liege=k_bulgaria}
+	812.1.1 = {holder=146152}
+	852.1.1 = {holder=168069}
+	895.1.1 = {liege=k_magyar}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	940.1.1 = {holder=70370}
+	958.1.1 = {holder=70371}
+	986.1.1 = {holder=70373}
+	1000.12.25 = {liege=k_hungary}
+	1003.1.1 = {holder=482}
+	1038.8.15 = {holder=20371}
+	1046.1.1 = {holder=485}
+	1047.1.1 = {holder=470}
+	1063.12.1 = {holder=474}
+	1066.1.1 = {liege=k_hungary}
+	1095.7.29 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=93751}
+	1226.1.1 = {holder=93753}
+	1233.1.1 = {holder=93752}
+	1241.1.1 = {liege=e_golden_horde}
+	1276.1.1 = {holder=93754}
+	1288.1.1 = {liege=0}
+	1315.1.1 = {
+		liege = "k_hungary"
+		holder = 470040
+	}
+	#####
+	1800.01.01 = {liege=k_hungary}
+}
+
+c_maros_torda = {
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	725.1.1 = {holder=146144}
+	736.1.1 = {holder=146145}
+	750.1.1 = {holder=146146}
+	762.1.1 = {holder=146147}
+	771.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	812.1.1 = {holder=146152}
+	852.1.1 = {holder=168069}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {holder=20365}
+	1078.1.1 = {holder=4441}
+	1099.1.1 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=93751}
+	1226.1.1 = {holder=93753}
+	1233.1.1 = {holder=93752}
+	1276.1.1 = {holder=93754}
+	1315.1.1 = {holder=470040}
+	#####
+	1700.01.01 = {liege=k_hungary}
+	1685.01.01={holder=100117384}
+	1690.08.21={holder=100115864}
+	1720.01.01={holder=100115870}
+	1772.01.01={holder=100115871}
+	1773.10.18={holder=100115981}
+	1808.01.01={holder=100102653}
+	1823.08.23={holder=100115992}
+	1831.12.20={holder=100116059}
+	1875.02.14={holder=100116119}
+	1896.05.31={holder=100116134}
+	1917.09.03={holder=100116235}
+	1941.04.03={holder=100116239}
+	1983.01.05={holder=100116242}
+}
+c_barcasag = {
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	708.1.1 = {holder=146144}
+	725.1.1 = {holder=146146}
+	750.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	804.1.1 = {holder=146152}
+	863.1.1 = {holder=168283}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1063.12.1 = {holder=474}
+	1066.1.1 = {holder=4441}
+	1095.7.29 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=219501}
+	1204.11.30 = {holder=98002}
+	1205.5.7 = {holder=219502}
+	1211.1.1 = {liege=d_teutonic_order}
+	1211.1.1 = {holder=30403}	#Herman von Salza
+	1224.12.31 = {liege=d_transylvania}
+	1224.12.31 = {holder=93639}
+	1250.1.1 = {holder=93640}
+	1291.1.1 = {holder=93641}
+	1310.1.1 = {holder=470200}
+	1320.1.1 = {holder=470202}
+	#####
+	# 100120049={	#// C4. Albert PETRICHEVICH, cr Baron 20.11.1859, Obergespan of Háromszék, Udvarhely and Maros-Torda, *Zabola 23.4.1801, +Backamadaras 13.6.1874
+	# 100118687={	#// H2. János HALLER, Maros-Torda, Udvarhely és Háromszék vármegyék főispánja, Marosvásárhely szabad királyi város főispánja, *Erzsébetváros 5.7.1852, +Olthévíz 17.1.1928
+	# 100119480={	#// E6. [2m.] János Bornemisza, Háromszék vm. főispánja, *Gógánváralja 25.10.1869, +Gógánváralja 3.10.1935
 }
 c_szekelyfold = {
 	685.1.1 = {
@@ -359,30 +721,37 @@ c_szekelyfold = {
 	1291.1.1 = {holder=93641}
 	1310.1.1 = {holder=470200}
 	1320.1.1 = {holder=470202}
+	
+	#####
+	1700.01.01 = {liege=k_hungary}
+	
+	1740.01.01={holder=100120122}
+	1775.02.17={holder=100120120}
+	1819.06.03={holder=100120118}
+	1820.01.01={holder=100120113}
+	1837.04.07={holder=100120112}
+	1874.02.27={holder=100120097}
+	1920.10.15={holder=100120103}
+	1942.10.22={holder=100120100}
+	1985.01.01={holder=100120164}
 }
-c_szilagy = {
-}
-c_szolnok_doboka = {
-}
-c_torda = {
+c_udvarhely = {
 	685.1.1 = {
 		liege = "d_transylvania"
 		holder = 146143
 		government = tribal_government
 	}
-	725.1.1 = {holder=146144}
-	736.1.1 = {holder=146145}
-	750.1.1 = {holder=146146}
-	762.1.1 = {holder=146147}
-	771.1.1 = {holder=146148}
+	708.1.1 = {holder=146144}
+	725.1.1 = {holder=146146}
+	750.1.1 = {holder=146148}
 	795.1.1 = {holder=146150}
 	800.1.1 = {holder=146151}
-	812.1.1 = {holder=146152}
-	852.1.1 = {holder=168069}
+	804.1.1 = {holder=146152}
+	863.1.1 = {holder=168283}
 	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1066.1.1 = {holder=20365}
-	1078.1.1 = {holder=4441}
-	1099.1.1 = {holder=480}
+	1063.12.1 = {holder=474}
+	1066.1.1 = {holder=20373}
+	1095.7.29 = {holder=480}
 	1116.2.3 = {holder=231065}
 	1131.4.2 = {holder=219530}
 	1141.2.13 = {holder=219510}
@@ -391,11 +760,29 @@ c_torda = {
 	1163.1.14 = {holder=98001}
 	1163.6.19 = {holder=219511}
 	1172.3.4 = {holder=219500}
-	1196.4.23 = {holder=93751}
-	1226.1.1 = {holder=93753}
-	1233.1.1 = {holder=93752}
-	1276.1.1 = {holder=93754}
-	1315.1.1 = {holder=470040}
-}
-c_udvarhely = {
+	1196.4.23 = {holder=219501}
+	1204.11.30 = {holder=98002}
+	1205.5.7 = {holder=219502}
+	1211.1.1 = {liege=d_teutonic_order}
+	1211.1.1 = {holder=30403}	#Herman von Salza
+	1224.12.31 = {liege=d_transylvania}
+	1224.12.31 = {holder=93639}
+	1250.1.1 = {holder=93640}
+	1291.1.1 = {holder=93641}
+	1310.1.1 = {holder=470200}
+	1320.1.1 = {holder=470202}
+	
+	#####
+	1700.01.01 = {liege=k_hungary}
+	
+	1740.01.01={holder=100120022}
+	1777.11.29={holder=100120052}
+	1802.01.01={holder=100120054}
+	1816.12.10={holder=100120049}
+	1874.06.13={holder=100120039}
+	1912.11.29={holder=100120031}
+	1925.12.14={holder=100120028}
+	1942.05.26={holder=100120027}
+	1945.01.28={holder=100120026}
+	1976.02.16={holder=100120025}
 }

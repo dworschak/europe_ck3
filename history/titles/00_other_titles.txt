@@ -623,27 +623,27 @@ k_papal_state = {
 	1521.12.01={holder=100094698}	# Adrianus | X
 	1523.09.14={holder=100094699}	# Clemens | X
 	1534.09.25={holder=100094700}	# Iulius | X
-	1549.11.10={holder=100101399}	# Michal | X
-	1555.03.23={holder=100094700}	# Iulius | X
-	1555.05.01={holder=100094701}	# Marcellinus | X
-	1559.08.18={holder=100094702}	# Paulus | X
-	1565.12.09={holder=100094703}	# Pius | X
-	1572.05.01={holder=100094704}	# Pius | X
-	1585.04.10={holder=100094705}	# Gregorius | X
-	1590.08.27={holder=100094706}	# Pius | X
-	1590.09.27={holder=100094707}	# Urbanus | X
-	1591.10.16={holder=100094708}	# Gregorius | X
-	1591.12.30={holder=100094709}	# Innocentius | X
-	1605.03.03={holder=100094710}	# Clemens | X
-	1605.04.27={holder=100094711}	# Leo | X
-	1621.01.28={holder=100094712}	# Paulus | X
-	1623.07.08={holder=100094713}	# Gregorius | X
-	1644.07.29={holder=100094714}	# Urbanus | X
-	1655.01.07={holder=100094715}	# Innocentius | X
-	1667.05.22={holder=100094716}	# Alexander | X
-	1669.12.09={holder=100094717}	# Clemens | X
-	1676.07.12={holder=100094718}	# Clemens | X
-	1689.08.12={holder=100094719}	# Alexander | X
+	1549.11.10={holder=100294700}	# Michal | X
+	1555.03.23={holder=100094701}	# Iulius | X
+	1555.05.01={holder=100094702}	# Marcellinus | X
+	1559.08.18={holder=100094703}	# Paulus | X
+	1565.12.09={holder=100094704}	# Pius | X
+	1572.05.01={holder=100094705}	# Pius | X
+	1585.04.10={holder=100094706}	# Gregorius | X
+	1590.08.27={holder=100094707}	# Pius | X
+	1590.09.27={holder=100094708}	# Urbanus | X
+	1591.10.16={holder=100094709}	# Gregorius | X
+	1591.12.30={holder=100094710}	# Innocentius | X
+	1605.03.03={holder=100094711}	# Clemens | X
+	1605.04.27={holder=100094712}	# Leo | X
+	1621.01.28={holder=100094713}	# Paulus | X
+	1623.07.08={holder=100094714}	# Gregorius | X
+	1644.07.29={holder=100094715}	# Urbanus | X
+	1655.01.07={holder=100094716}	# Innocentius | X
+	1667.05.22={holder=100094717}	# Alexander | X
+	1669.12.09={holder=100094718}	# Clemens | X
+	1676.07.12={holder=100094719}	# Clemens | X
+	1689.08.12={holder=100294719}	# Alexander | X
 	1691.02.01={holder=100094720}	# Innocentius | X
 	1700.09.27={holder=100094721}	# Clemens | X
 	1721.03.19={holder=100094722}	# Innocentius | X
@@ -3446,6 +3446,30 @@ e_britannia = {
 	1100.1.1 = {
 		change_development_level = 12
 	}
+	
+	#####
+	
+	1700.1.1 = {
+		remove_succession_laws = yes
+		succession_laws = {
+			male_preference_law
+		}
+	}
+	
+	# House of Hanover
+	1714.08.24 = {holder=100001189}	# GEORGE I | HANNOVER
+	1727.06.11 = {holder=100001190}	# GEORGE II | HANNOVER
+	1760.10.25 = {holder=100001193}	# GEORGE III | HANNOVER
+	1820.01.29 = {holder=100001194}	# GEORGE IV | HANNOVER
+	1830.06.26 = {holder=100001197}	# WILLIAM IV | HANNOVER
+	1837.06.20 = {holder=100001200}	# VICTORIA | HANNOVER
+	# House of Saxe-Coburg and Gotha
+	1901.01.22 = {holder=100063305}	# EDWARD VII | WINDSOR
+	# House of Windsor 
+	1910.05.20 = {holder=100063307}	# GEORGE V | WINDSOR
+	1936.01.20 = {holder=100063308}	# EDWARD VIII | WINDSOR
+	1936.12.11 = {holder=100063309}	# GEORGE VI | WINDSOR
+	1952.02.06 = {holder=100062026}	# ELIZABETH II | MOUNTBATTEN
 }
 
 
@@ -4438,11 +4462,6 @@ e_spain = {
 	#########################
 
 	# Casa de Trastámara
-	1369.03.23={holder=457510}		# Enrique II | TRASTAMARA
-	1379.05.29={holder=100200888}	# Juan | TRASTAMARA %%
-	1390.10.09={holder=100200889}	# Enrique | TRASTAMARA %%
-	1406.12.25={holder=100200890}	# Juan | TRASTAMARA %%
-	1454.07.21={holder=100200891}	# Enrique | TRASTAMARA %%
 	1474.12.11={holder=100200892}	# Isabel | TRASTAMARA %%
 	1504.11.16={holder=100200896}	# Juana | TRASTAMARA %%
 

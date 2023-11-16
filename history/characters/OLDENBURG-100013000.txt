@@ -1,4 +1,4 @@
-﻿#############################################################
+#############################################################
 ### BECK		 	| 1002034 | 100012930-100007634
 ### OLDENBURG/SH 	| 1002021 | 100013000-100013099
 ### OLDENBURG/OB 	| 1002019 | 100013100-100013299
@@ -8,7 +8,7 @@
 #############################################################
 
 #oldenburg1
-100003157={ #// Christian von Oldenburg (1340-6 Apr 1399); m.1365 Pss Agnes von Honstein (1340-1 Sep 1404) %%
+100003157={ #// Gf Christian V von Oldenburg (*1340, +6.4.1399); m.1365 Pss Agnes von Honstein (*1340, +1.9.1404)
 	name="Christian"
 	dynasty=224
 	religion=lutheran culture=danish
@@ -17,10 +17,11 @@
 	1365.01.01={add_spouse=100092345}	# PSS Agnes von Honstein
 	1399.04.06={death=yes}
 }
+	#oldenburg2 -> J1. Gf Dietrich von Oldenburg (1423-40/44), +1444; 1m: Adelheid von Oldenburg-Delmenhorst; 2m: 1423 Hedwig of Schleswig and Holstein; for the descendants by his 2m., see HERE
 #oldenburg1
 
 #oldenburg2
-100013001={ #// Dietrich Graf von Oldenburg, *ca 1398, +14.2.1444; 1m: 1418 Adelheid von Oldenburg-Delmenhorst (+ca 1422); 2m: 1423 Hedwig von Schleswig and Holstein (*ca 1398/1400 +1436)
+100013001={ #// Dietrich Graf von Oldenburg, *ca 1398, +14.2.1444; 1m: 1418 Adelheid von Oldenburg-Delmenhorst (+ca 1422); 2m: 1423 Hedwig von Schleswig and Holstein (*ca 1398/1400 +1436) $$
 	name="Dietrich"						# 1406/dietrich-count-of-oldenburg-welsburg/
 	dynasty=224
 	religion=lutheran culture=german
@@ -28,16 +29,16 @@
 	mother=100092345	# PSS Agnes von Honstein
 	1398.01.01={birth=yes}
 	1418.01.01={add_spouse=100082215}	# Adelheid von Oldenburg-Delmenhorst
-	1423.01.01={add_spouse=100012770}	# Hedwig von Schleswig und Holstein
+	1423.01.01={add_spouse=100012770}	# Hedwig von Holstein-Schauenburg
 	1444.02.14={death=yes}
 }
-	100013106={ #// A4. Adelheid, *1425, +1475; 1m: 1443 Gf Ernst III von Hohnstein (+1454); 2m: 1474 Gf Gebhard VI von Mansfeld (+1492)
+	100013106={ #// A4. Adelheid, *1425, +1475; 1m: 1443 Gf Ernst III von Hohnstein (+1454); 2m: 1474 Gf Gebhard VI von Mansfeld (+1492) $$
 		name=Adelheid
 		female=yes
 		dynasty=224
 		religion=lutheran culture=german
 		father=100013001	# Dietrich von Oldenburg
-		mother=100012770	# Hedwig von Schleswig und Holstein
+		mother=100012770	# Hedwig von Holstein-Schauenburg
 		1425.01.01={birth=yes}
 		1475.01.01={death=yes}
 	}
@@ -46,9 +47,9 @@
 		dynasty=224
 		religion=lutheran culture=german
 		father=100013001	# Dietrich von Oldenburg
-		mother=100012770	# Hedwig von Schleswig und Holstein
+		mother=100012770	# Hedwig von Holstein-Schauenburg
 		1426.02.01={birth=yes}  # Oldenburg
-		1449.10.28={add_spouse=100002059}	# Dorothea v. Hohenzollern
+		1449.10.28={add_spouse=100002059}	# Dorothea von Hohenzollern
 		1481.05.21={death=yes}  # Copenhagen
 	}
 		100013003={ #// B3. JOHAN I, King of Denmark, King of Sweden , Herzog von Schleswig-Holstein, *Aalborg 1.2.1455, +Aalborg 20.2.1513; m.Copenhagen 6.9.1478 Pss Christine of Saxony (*25.12.1461, +8.12.1521) $$
@@ -56,9 +57,9 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100013002	# Christian von Oldenburg
-			mother=100002059	# Dorothea v. Hohenzollern
+			mother=100002059	# Dorothea von Hohenzollern
 			1455.02.01={birth=yes}  # Aalborg
-			1478.09.06={add_spouse=100007390}	# Christine v. Wettin
+			1478.09.06={add_spouse=100007390}	# Christine von Wettin
 			1513.02.20={death=yes}  # Aalborg
 		}
 			100013004={ #// C3. CHRISTIAN II, King of Denmark and Sweden, Herzog von Schleswig-Holstein, *Nyborg 1.7.1481, +Kalundborg 25.1.1559; m.Copenhagen 12.8.1515 Infanta Isabella of Spain (*18.7.1501 +19.1.1526) $$
@@ -66,9 +67,9 @@
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100013003	# Johan von Oldenburg
-				mother=100007390	# Christine v. Wettin
+				mother=100007390	# Christine von Wettin
 				1481.07.01={birth=yes}  # Nyborg
-				1515.08.12={add_spouse=100021158}	# Isabella v. Habsburg
+				1515.08.12={add_spouse=100021158}	# Isabella von Habsburg
 				1559.01.25={death=yes}  # Kalundborg
 			}
 				100013005={ #// D4. Dorothea, *Stockholm 10.11.1520, +Heidelberg 20.9.1580; m.Heidelberg 1535 Kfst Friedrich II von der Pfalz (*9.12.1482 +26.2.1556)
@@ -77,17 +78,17 @@
 					dynasty=224
 					religion=lutheran culture=swedish
 					father=100013004	# Christian von Oldenburg
-					mother=100021158	# Isabella v. Habsburg
+					mother=100021158	# Isabella von Habsburg
 					1520.11.10={birth=yes}  # Stockholm
 					1580.09.20={death=yes}  # Heidelberg
 				}
-				100013006={ #// D5. Christine, *Nyborg XI.1521, +Tortona 10.12.1590; 1m: Milano 4.5.1534 Francesco II Sforza, Duke of Milan (*Vivegano 4.2.1495, +Milano 1.11.1535); 2m: Brussels 10.7.1541 Duke François I of Lorraine (*1517 +12.6.1545)
+				100013006={ #// D5. Christine, *Nyborg XI.1521, +Tortona 10.12.1590; 1m: Milano 4.5.1534 Francesco II Sforza, Duke of Milan (*Vivegano 4.2.1495, +Milano 1.11.1535); 2m: Brussels 10.7.1541 Duke François I of Lorraine (*1517 +12.6.1545) $$
 					name=Christine
 					female=yes
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100013004	# Christian von Oldenburg
-					mother=100021158	# Isabella v. Habsburg
+					mother=100021158	# Isabella von Habsburg
 					1521.11.01={birth=yes}  # Nyborg
 					1590.12.10={death=yes}  # Tortona
 				}
@@ -97,7 +98,7 @@
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100013003	# Johan von Oldenburg
-				mother=100007390	# Christine v. Wettin
+				mother=100007390	# Christine von Wettin
 				1485.06.24={birth=yes}  # Nyborg
 				1555.06.10={death=yes}  # Köln
 			}
@@ -107,7 +108,7 @@
 			dynasty=224
 			religion=lutheran culture=german
 			father=100013002	# Christian von Oldenburg
-			mother=100002059	# Dorothea v. Hohenzollern
+			mother=100002059	# Dorothea von Hohenzollern
 			1456.06.23={birth=yes}
 			1486.07.14={death=yes}  # Stirling Castle
 		}
@@ -116,9 +117,9 @@
 			dynasty=224
 			religion=lutheran culture=german
 			father=100013002	# Christian von Oldenburg
-			mother=100002059	# Dorothea v. Hohenzollern
+			mother=100002059	# Dorothea von Hohenzollern
 			1471.10.07={birth=yes}
-			1502.04.10={add_spouse=100002446}	# Anna v. Hohenzollern
+			1502.04.10={add_spouse=100002446}	# Anna von Hohenzollern
 			1518.10.09={add_spouse=100010401}	# Sophie Gryfita
 			1533.04.10={death=yes}  # Gottorp
 		}
@@ -127,7 +128,7 @@
 				dynasty=224
 				religion=lutheran culture=german
 				father=100013008	# Frederik von Oldenburg
-				mother=100002446	# Anna v. Hohenzollern
+				mother=100002446	# Anna von Hohenzollern
 				1503.08.12={birth=yes}  # Gottorp Slot
 				1525.10.29={add_spouse=100001994}	# Dorothea von Sachsen-Lauenburg
 				1559.01.01={death=yes}  # Koldingshus
@@ -149,7 +150,7 @@
 					father=100013009	# Christian von Oldenburg
 					mother=100001994	# Dorothea von Sachsen-Lauenburg
 					1534.07.01={birth=yes}  # Haderslevhus
-					1572.07.20={add_spouse=100002946}	# Sofie v. Mecklenburg
+					1572.07.20={add_spouse=100002946}	# Sofie von Mecklenburg-Schwerin
 					1588.04.04={death=yes}  # Antvorskov Slot
 				}
 					100013020={ #// E4. Elisabeth, *Koldingshus 25.8.1573, +Braunschweig 19.6.1626; m.Copenhagen 1590 Duke Heinrich Julius of Braunschweig (*Hessen 15.10.1564, +Prague 20/30.7.1613) $$
@@ -158,7 +159,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013010	# Frederik von Oldenburg
-						mother=100002946	# Sofie v. Mecklenburg
+						mother=100002946	# Sofie von Mecklenburg-Schwerin
 						1573.08.25={birth=yes}  # Koldingshus
 						1626.06.19={death=yes}  # Braunschweig
 					}
@@ -168,18 +169,18 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013010	# Frederik von Oldenburg
-						mother=100002946	# Sofie v. Mecklenburg
+						mother=100002946	# Sofie von Mecklenburg-Schwerin
 						1574.10.14={birth=yes}  # Skanderborg Castle
 						1619.03.04={death=yes}  # Hampton Court Palace
 					}
-					100013011={ #// E1. CHRISTIAN IV, King of Denmark and Norway (1588-1648), *Frederiksborg 12.4.1577, +Rosenborg 28.2.1648; 1m: Copenhagen 27.11.1597 Pss Anna Katharina von Brandenburg (*Wolmerstadt 26.6.1575, +Copenhagen 8.4.1612); 2m: 1615 (morganatically) (div 1630) Kristine Munk (*Nörlund 6.7.1598, +Boller 19.4.1658, bur Odense)
+					100013011={ #// E1. CHRISTIAN IV, King of Denmark and Norway (1588-1648), *Frederiksborg 12.4.1577, +Rosenborg 28.2.1648; 1m: Copenhagen 27.11.1597 Pss Anna Katharina von Brandenburg (*Wolmerstadt 26.6.1575, +Copenhagen 8.4.1612); 2m: 1615 (morganatically) (div 1630) Kristine Munk (*Nörlund 6.7.1598, +Boller 19.4.1658, bur Odense) $$
 						name=Christian
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013010	# Frederik von Oldenburg
-						mother=100002946	# Sofie v. Mecklenburg
+						mother=100002946	# Sofie von Mecklenburg-Schwerin
 						1577.04.12={birth=yes}  # Frederiksborg
-						1597.11.27={add_spouse=100002362}	# Anna Katharina v. Hohenzollern
+						1597.11.27={add_spouse=100002362}	# Anna Katharina von Hohenzollern
 						1615.01.01={add_spouse=100094385}	# Kristine Munk
 						1630.01.01={remove_spouse=100094385}
 						1648.02.28={death=yes}  # Rosenborg
@@ -189,9 +190,9 @@
 							dynasty=224
 							religion=lutheran culture=danish
 							father=100013011	# Christian von Oldenburg
-							mother=100002362	# Anna Katharina v. Hohenzollern
+							mother=100002362	# Anna Katharina von Hohenzollern
 							1603.04.10={birth=yes}  # Copenhagen
-							1634.10.05={add_spouse=100007275}	# Magdalene Sibylle v. Wettin
+							1634.10.05={add_spouse=100007275}	# Magdalene Sibylle von Wettin
 							1647.06.02={death=yes}  # Schloß Görbitz_bei_Dresden
 						}
 						# oldenburg3 -> F3. FREDERIK III, King of Denmark (1648-70), *Haderslevhus 18.3.1609, +Copenhagen 9.2.1670; m.Schloß Glücksburg 1.10.1643 Dss Sofie Amalie of Braunschweig-Lüneburg (*24.3.1628 +20.2.1685); for their descendants see HERE $$
@@ -251,7 +252,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013010	# Frederik von Oldenburg
-						mother=100002946	# Sofie v. Mecklenburg
+						mother=100002946	# Sofie von Mecklenburg-Schwerin
 						1580.04.08={birth=yes}
 						1639.02.05={death=yes}
 					}
@@ -261,18 +262,18 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013010	# Frederik von Oldenburg
-						mother=100002946	# Sofie v. Mecklenburg
+						mother=100002946	# Sofie von Mecklenburg-Schwerin
 						1581.08.05={birth=yes}  # Schloß Frederiksborg
 						1641.11.26={death=yes}  # Lichtenburg
 					}
-				100013024={ #// D3. Magnus, King of Livonia, *14.8.1540, +Pilten, Livonia 28.3.1583; m.Novgorod 12.4.1573 Pss Marie of Russia (*1560 +13.6.1597)
+				100013024={ #// D3. Magnus, King of Livonia, *14.8.1540, +Pilten, Livonia 28.3.1583; m.Novgorod 12.4.1573 Pss Marie of Russia (*1560 +13.6.1597) $$
 					name=Magnus
 					dynasty=224
 					religion=lutheran culture=german
 					father=100013009	# Christian von Oldenburg
 					mother=100001994	# Dorothea von Sachsen-Lauenburg
 					1540.08.14={birth=yes}
-					1573.04.12={add_spouse=rurik_0071}	# PSS Marie Rurikovich
+					1573.04.12={add_spouse=rurik_0071}	# Мария Владимировна Рюрикович
 					1583.03.28={death=yes}  # Pilten Livonia
 				}
 				# oldenburg10 -> D4. Johann, Herzog von Holstein-Sonderburg-Plön (1559-1622), *25.3.1545, +Glücksburg 9.10.1622; 1m: Kolding 19.8.1568 Dss Elisabeth von Braunschweig-Grubenhagen (*20.3.1550 +11.2.1586); 2m: Sonderburg 14.2.1588 Pss Agnes Hedwig von Anhalt (*Dessau 12.2.1573, +Sonderburg 3.11.1616); for their descendants see HERE
@@ -292,7 +293,7 @@
 				dynasty=224
 				religion=lutheran culture=german
 				father=100013008	# Frederik von Oldenburg
-				mother=100002446	# Anna v. Hohenzollern
+				mother=100002446	# Anna von Hohenzollern
 				1504.08.01={birth=yes}  # Gottorp
 				1547.04.11={death=yes}  # Königsberg Schloß
 			}
@@ -322,15 +323,15 @@
 				father=100013008	# Frederik von Oldenburg
 				mother=100010401	# Sophie Gryfita
 				1526.01.25={birth=yes}  # Gottorp
-				1564.12.17={add_spouse=100192204}	# Christine v. Hessen
+				1564.12.17={add_spouse=100192204}	# Christine von Hessen
 				1586.10.01={death=yes}  # Kiel
 			}
 				100013030={ #// D1. Friedrich II, Herzog von Holstein-Gottorp (1586-87), *21.4.1568, +15.6.1587
 					name=Friedrich
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
-					father=100013029	# Adolf v. Oldenburg-Gottorf
-					mother=100192204	# Christine v. Hessen
+					father=100013029	# Adolf von Oldenburg-Gottorf
+					mother=100192204	# Christine von Hessen
 					1568.04.21={birth=yes}
 					1587.06.15={death=yes}
 				}
@@ -339,8 +340,8 @@
 					female=yes
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
-					father=100013029	# Adolf v. Oldenburg-Gottorf
-					mother=100192204	# Christine v. Hessen
+					father=100013029	# Adolf von Oldenburg-Gottorf
+					mother=100192204	# Christine von Hessen
 					1569.06.01={birth=yes}  # Gottorp
 					1634.11.14={death=yes}  # Schwerin
 				}
@@ -349,8 +350,8 @@
 					female=yes
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
-					father=100013029	# Adolf v. Oldenburg-Gottorf
-					mother=100192204	# Christine v. Hessen
+					father=100013029	# Adolf von Oldenburg-Gottorf
+					mother=100192204	# Christine von Hessen
 					1573.04.13={birth=yes}  # Kiel
 					1625.12.08={death=yes}  # Gripsholm Slott
 				}
@@ -360,8 +361,8 @@
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
 					trait=twin
-					father=100013029	# Adolf v. Oldenburg-Gottorf
-					mother=100192204	# Christine v. Hessen
+					father=100013029	# Adolf von Oldenburg-Gottorf
+					mother=100192204	# Christine von Hessen
 					1575.02.27={birth=yes}  # Gottorp
 					1625.04.24={death=yes}
 				}
@@ -370,8 +371,8 @@
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
 					trait=twin
-					father=100013029	# Adolf v. Oldenburg-Gottorf
-					mother=100192204	# Christine v. Hessen
+					father=100013029	# Adolf von Oldenburg-Gottorf
+					mother=100192204	# Christine von Hessen
 					1575.02.27={birth=yes}
 					1596.08.30={add_spouse=100013022}	# Augusta von Oldenburg
 					1616.03.31={death=yes}
@@ -380,10 +381,10 @@
 						name=Friedrich
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=german
-						father=100013057	# Johann Adolf v. Oldenburg-Gottorf
+						father=100013057	# Johann Adolf von Oldenburg-Gottorf
 						mother=100013022	# Augusta von Oldenburg
 						1597.12.22={birth=yes}  # Gottorp
-						1630.02.21={add_spouse=100007549}	# Marie Elisabeth v. Wettin
+						1630.02.21={add_spouse=100007549}	# Marie Elisabeth von Wettin
 						1659.08.10={death=yes}  # Tönningen
 					}
 						100013042={ #// F9. Sofie Auguste, *Gottorp 5.12.1630, +Coswig 12.12.1680; m.Gottorp 16.9.1649 Fst Johann of Anhalt-Zerbst (*24.3.1621 +4.7.1667) $$
@@ -391,8 +392,8 @@
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100013032	# Friedrich v. Oldenburg-Gottorf
-							mother=100007549	# Marie Elisabeth v. Wettin
+							father=100013032	# Friedrich von Oldenburg-Gottorf
+							mother=100007549	# Marie Elisabeth von Wettin
 							1630.12.05={birth=yes}  # Gottorp
 							1649.09.16={add_spouse=100003586}	# Johann von Anhalt-Zerbst
 							1680.12.12={death=yes}  # Coswig
@@ -402,8 +403,8 @@
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100013032	# Friedrich v. Oldenburg-Gottorf
-							mother=100007549	# Marie Elisabeth v. Wettin
+							father=100013032	# Friedrich von Oldenburg-Gottorf
+							mother=100007549	# Marie Elisabeth von Wettin
 							1631.11.24={birth=yes}  # Gottorp
 							1719.09.22={death=yes}  # Güstrow
 						}
@@ -412,8 +413,8 @@
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100013032	# Friedrich v. Oldenburg-Gottorf
-							mother=100007549	# Marie Elisabeth v. Wettin
+							father=100013032	# Friedrich von Oldenburg-Gottorf
+							mother=100007549	# Marie Elisabeth von Wettin
 							1634.06.06={birth=yes}  # Gottorp
 							1665.06.17={death=yes}  # Darmstadt
 						}
@@ -422,8 +423,8 @@
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100013032	# Friedrich v. Oldenburg-Gottorf
-							mother=100007549	# Marie Elisabeth v. Wettin
+							father=100013032	# Friedrich von Oldenburg-Gottorf
+							mother=100007549	# Marie Elisabeth von Wettin
 							1636.10.23={birth=yes}  # Gottorp
 							1715.11.24={death=yes}  # Stockholm
 						}
@@ -431,8 +432,8 @@
 							name="Christian Albrecht"
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100013032	# Friedrich v. Oldenburg-Gottorf
-							mother=100007549	# Marie Elisabeth v. Wettin
+							father=100013032	# Friedrich von Oldenburg-Gottorf
+							mother=100007549	# Marie Elisabeth von Wettin
 							1641.02.03={birth=yes}  # Gottorp
 							1667.10.24={add_spouse=100003668}	# Frederika Amalia von Oldenburg
 							1694.12.27={death=yes}  # Gottorp
@@ -442,7 +443,7 @@
 								female=yes
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
-								father=100013035	# Christian Albrecht v. Oldenburg-Gottorf
+								father=100013035	# Christian Albrecht von Oldenburg-Gottorf
 								mother=100003668	# Frederika Amalia von Oldenburg
 								1670.01.19={birth=yes}  # Gottorp
 								1710.02.27={death=yes}  # Hannover
@@ -451,20 +452,20 @@
 								name=Friedrich
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
-								father=100013035	# Christian Albrecht v. Oldenburg-Gottorf
+								father=100013035	# Christian Albrecht von Oldenburg-Gottorf
 								mother=100003668	# Frederika Amalia von Oldenburg
 								1671.10.18={birth=yes}  # Gottorp
-								1698.05.12={add_spouse=100007750}	# Hedwig Sophie v. Wittelsbach
+								1698.05.12={add_spouse=100007750}	# Hedwig Sophie von Wittelsbach
 								1702.07.19={death=yes}  # Clissow Poland
 							}
 								100013037={ #// H1. Karl Friedrich, Herzog von Holstein-Gottorp (1702-39), *Stockholm 30.4.1700, +Rolfshagen 18.6.1739; m.St.Petersburg 1.6.1725 Grand Dss Anna Petrovna of Russia (*2.1.1708 +15.5.1728) $$
 									name="Karl Friedrich"
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100013036	# Friedrich v. Oldenburg-Gottorf
-									mother=100007750	# Hedwig Sophie v. Wittelsbach
+									father=100013036	# Friedrich von Oldenburg-Gottorf
+									mother=100007750	# Hedwig Sophie von Wittelsbach
 									1700.04.30={birth=yes}  # Stockholm
-									1725.06.01={add_spouse=100016940}	# Anna Romanov
+									1725.06.01={add_spouse=100016940}	# Анна Петровна Romanov
 									1739.06.18={death=yes}  # Rolfshagen
 								}
 									# ROMANOVS -> I1. Karl Peter Ulrich, *21.2.1728, +14.7.1762; succeeded as Emperor PETER III of Russia; for more details see HERE
@@ -473,10 +474,10 @@
 							name="August Friedrich"
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100013032	# Friedrich v. Oldenburg-Gottorf
-							mother=100007549	# Marie Elisabeth v. Wettin
+							father=100013032	# Friedrich von Oldenburg-Gottorf
+							mother=100007549	# Marie Elisabeth von Wettin
 							1646.05.06={birth=yes}  # Gottorp
-							1676.01.01={add_spouse=100007590}	# Christine v. Wettin
+							1676.01.01={add_spouse=100007590}	# Christine von Wettin
 							1705.10.02={death=yes}  # Eutin
 						}
 						100013047={ #// F16. Auguste Marie, *Gottorp 6.2.1649, +Schloß Augustenburg bei Durlach 25.4.1728; m.Husum 15.5.1670 Mgve Friedrich VII of Baden-Durlach (*23.9.1647 +25.6.1709) $$
@@ -484,8 +485,8 @@
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100013032	# Friedrich v. Oldenburg-Gottorf
-							mother=100007549	# Marie Elisabeth v. Wettin
+							father=100013032	# Friedrich von Oldenburg-Gottorf
+							mother=100007549	# Marie Elisabeth von Wettin
 							1649.02.06={birth=yes}  # Gottorp
 							1728.04.25={death=yes}  # Schloß Augustenburg_bei_Durlach
 						}
@@ -494,7 +495,7 @@
 						female=yes
 						dynasty=224
 						religion=lutheran culture=german
-						father=100013057	# Johann Adolf v. Oldenburg-Gottorf
+						father=100013057	# Johann Adolf von Oldenburg-Gottorf
 						mother=100013022	# Augusta von Oldenburg
 						1599.10.12={birth=yes}  # Gottorp
 						1627.11.25={death=yes}  # Gottorp
@@ -504,7 +505,7 @@
 						female=yes
 						dynasty=224
 						religion=lutheran culture=german
-						father=100013057	# Johann Adolf v. Oldenburg-Gottorf
+						father=100013057	# Johann Adolf von Oldenburg-Gottorf
 						mother=100013022	# Augusta von Oldenburg
 						1602.05.12={birth=yes}
 						1682.03.13={death=yes}
@@ -514,7 +515,7 @@
 						female=yes
 						dynasty=224
 						religion=lutheran culture=german
-						father=100013057	# Johann Adolf v. Oldenburg-Gottorf
+						father=100013057	# Johann Adolf von Oldenburg-Gottorf
 						mother=100013022	# Augusta von Oldenburg
 						1603.12.23={birth=yes}  # Gottorp
 						1657.03.22={death=yes}  # Nürnberg
@@ -523,10 +524,10 @@
 						name=Johann
 						dynasty=224
 						religion=lutheran culture=german
-						father=100013057	# Johann Adolf v. Oldenburg-Gottorf
+						father=100013057	# Johann Adolf von Oldenburg-Gottorf
 						mother=100013022	# Augusta von Oldenburg
 						1606.03.18={birth=yes}  # Gottorp
-						1640.05.07={add_spouse=100009601}	# Julie Felizitas v. Württemberg
+						1640.05.07={add_spouse=100009601}	# Julie Felizitas von WU rttemberg
 						1655.02.21={death=yes}
 					}
 						100013050={ #// F3. Johann August, *Eutin 3.8.1647, +Hamburg 29.1.1686
@@ -534,7 +535,7 @@
 							dynasty=224
 							religion=lutheran culture=german
 							father=100013049	# Johann von Oldenburg
-							mother=100009601	# Julie Felizitas v. Württemberg
+							mother=100009601	# Julie Felizitas von WU rttemberg
 							1647.08.03={birth=yes}  # Eutin
 							1686.01.29={death=yes}  # Hamburg
 						}
@@ -553,7 +554,7 @@
 		dynasty=224
 		religion=lutheran culture=german
 		father=100013001	# Dietrich von Oldenburg
-		mother=100012770	# Hedwig von Schleswig und Holstein
+		mother=100012770	# Hedwig von Holstein-Schauenburg
 		1430.01.01={birth=yes}
 		1453.01.01={add_spouse=100101589}	# Adelheid von Tecklenburg
 		1500.02.22={death=yes}
@@ -651,7 +652,7 @@
 					father=100013072	# Anton von Oldenburg
 					mother=100002732	# Sofie von Sachsen-Lauenburg
 					1540.09.09={birth=yes}
-					1576.01.01={add_spouse=100009107}	# Elisabeth von Schwarzburg
+					1576.01.01={add_spouse=100009107}	# Elisabeth von Schwarzburg-Blankenburg
 					1603.11.12={death=yes}
 				}
 					100013085={ #// E5. Katharine, *20.9.1582, +19.2.1644; m.1633 Duke August of Saxe-Lauenburg (+1656) $$
@@ -660,7 +661,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013073	# Johann von Oldenburg
-						mother=100009107	# Elisabeth von Schwarzburg
+						mother=100009107	# Elisabeth von Schwarzburg-Blankenburg
 						1582.09.20={birth=yes}
 						1644.02.19={death=yes}
 					}
@@ -669,7 +670,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013073	# Johann von Oldenburg
-						mother=100009107	# Elisabeth von Schwarzburg
+						mother=100009107	# Elisabeth von Schwarzburg-Blankenburg
 						1583.11.01={birth=yes}
 						1635.01.01={add_spouse=100009378}	# Sophie Katharina von Oldenburg
 						1667.06.19={death=yes}
@@ -681,7 +682,7 @@
 							trait=bastard
 							father=100013074	# Anton Günther von Oldenburg
 							1633.01.01={birth=yes}
-							1659.01.01={add_spouse=100005563}	# Auguste Johanna zu Sayn-Wittgenstein
+							1659.01.01={add_spouse=100005563}	# Auguste Johanna von Sayn-Wittgenstein
 							1680.05.19={add_spouse=100065297}	# Charlotte Amélie de La Trémoïlle
 							1681.12.01={death=yes}
 						}
@@ -691,7 +692,7 @@
 								dynasty=224
 								religion=lutheran culture=german
 								father=100013075	# Anton von Oldenburg
-								mother=100005563	# Auguste Johanna zu Sayn-Wittgenstein
+								mother=100005563	# Auguste Johanna von Sayn-Wittgenstein
 								1660.01.01={birth=yes}
 								1701.01.01={death=yes}
 							}
@@ -701,7 +702,7 @@
 								dynasty=224
 								religion=lutheran culture=german
 								father=100013075	# Anton von Oldenburg
-								mother=100005563	# Auguste Johanna zu Sayn-Wittgenstein
+								mother=100005563	# Auguste Johanna von Sayn-Wittgenstein
 								1661.01.01={birth=yes}
 								1730.01.01={death=yes}
 							}
@@ -711,7 +712,7 @@
 								dynasty=224
 								religion=lutheran culture=german
 								father=100013075	# Anton von Oldenburg
-								mother=100005563	# Auguste Johanna zu Sayn-Wittgenstein
+								mother=100005563	# Auguste Johanna von Sayn-Wittgenstein
 								1663.01.01={birth=yes}
 								1735.01.01={death=yes}
 							}
@@ -721,7 +722,7 @@
 								dynasty=224
 								religion=lutheran culture=german
 								father=100013075	# Anton von Oldenburg
-								mother=100005563	# Auguste Johanna zu Sayn-Wittgenstein
+								mother=100005563	# Auguste Johanna von Sayn-Wittgenstein
 								1664.01.01={birth=yes}
 								1732.01.01={death=yes}
 							}
@@ -731,7 +732,7 @@
 								dynasty=224
 								religion=lutheran culture=german
 								father=100013075	# Anton von Oldenburg
-								mother=100005563	# Auguste Johanna zu Sayn-Wittgenstein
+								mother=100005563	# Auguste Johanna von Sayn-Wittgenstein
 								1665.01.01={birth=yes}
 								1746.01.01={death=yes}
 							}
@@ -762,7 +763,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013073	# Johann von Oldenburg
-						mother=100009107	# Elisabeth von Schwarzburg
+						mother=100009107	# Elisabeth von Schwarzburg-Blankenburg
 						1585.10.06={birth=yes}
 						1657.04.14={death=yes}
 					}
@@ -773,7 +774,7 @@
 					father=100013072	# Anton von Oldenburg
 					mother=100002732	# Sofie von Sachsen-Lauenburg
 					1550.09.08={birth=yes}
-					1600.01.01={add_spouse=100011952}	# Sibylle Elisabeth v. Braunschweig-Lüneburg
+					1600.01.01={add_spouse=100011952}	# Sibylle Elisabeth von Braunschweig-Lüneburg
 					1619.10.25={death=yes}
 				}
 					100013090={ #// E3. Sofie Ursula, *Delmenhorst 10.12.1601, +Rosenburg 5.4./15.5.1642; m.17.3.1633 Gf Albrecht Friedrich von Barby (*28.2.1597 +7.12.1641) $$
@@ -782,7 +783,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013087	# Anton von Oldenburg
-						mother=100011952	# Sibylle Elisabeth v. Braunschweig-Lüneburg
+						mother=100011952	# Sibylle Elisabeth von Braunschweig-Lüneburg
 						1601.12.10={birth=yes}  # Delmenhorst
 						1642.04.05={death=yes}  # Rosenburg
 					}
@@ -791,7 +792,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013087	# Anton von Oldenburg
-						mother=100011952	# Sibylle Elisabeth v. Braunschweig-Lüneburg
+						mother=100011952	# Sibylle Elisabeth von Braunschweig-Lüneburg
 						1604.02.08={birth=yes}
 						1622.09.01={death=yes}
 					}
@@ -801,7 +802,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013087	# Anton von Oldenburg
-						mother=100011952	# Sibylle Elisabeth v. Braunschweig-Lüneburg
+						mother=100011952	# Sibylle Elisabeth von Braunschweig-Lüneburg
 						1605.03.28={birth=yes}
 						1668.12.12={death=yes}
 					}
@@ -811,7 +812,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013087	# Anton von Oldenburg
-						mother=100011952	# Sibylle Elisabeth v. Braunschweig-Lüneburg
+						mother=100011952	# Sibylle Elisabeth von Braunschweig-Lüneburg
 						1606.04.19={birth=yes}
 						1647.01.19={death=yes}
 					}
@@ -821,7 +822,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013087	# Anton von Oldenburg
-						mother=100011952	# Sibylle Elisabeth v. Braunschweig-Lüneburg
+						mother=100011952	# Sibylle Elisabeth von Braunschweig-Lüneburg
 						1611.06.10={birth=yes}
 						1650.04.23={death=yes}
 					}
@@ -830,7 +831,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013087	# Anton von Oldenburg
-						mother=100011952	# Sibylle Elisabeth v. Braunschweig-Lüneburg
+						mother=100011952	# Sibylle Elisabeth von Braunschweig-Lüneburg
 						1612.09.26={birth=yes}
 						1647.05.23={death=yes}
 					}
@@ -840,7 +841,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013087	# Anton von Oldenburg
-						mother=100011952	# Sibylle Elisabeth v. Braunschweig-Lüneburg
+						mother=100011952	# Sibylle Elisabeth von Braunschweig-Lüneburg
 						1614.06.15={birth=yes}
 						1670.12.04={death=yes}
 					}
@@ -850,7 +851,7 @@
 						dynasty=224
 						religion=lutheran culture=german
 						father=100013087	# Anton von Oldenburg
-						mother=100011952	# Sibylle Elisabeth v. Braunschweig-Lüneburg
+						mother=100011952	# Sibylle Elisabeth von Braunschweig-Lüneburg
 						1615.07.02={birth=yes}  # Delmenhorst
 						1691.05.16={death=yes}  # Brenz
 					}
@@ -882,9 +883,9 @@
 	dynasty=224
 	religion=lutheran culture=danish
 	father=100013011	# Christian von Oldenburg
-	mother=100002362	# Anna Katharina v. Hohenzollern
+	mother=100002362	# Anna Katharina von Hohenzollern
 	1609.03.10={birth=yes}  # Hadersleben
-	1643.10.01={add_spouse=100001185}	# Sofie Amalie v. Hannover
+	1643.10.01={add_spouse=100001185}	# Sofie Amalie von Hannover
 	1670.02.09={death=yes}  # Copenhagen
 }
 	100003316={ #// A1. CHRISTIAN V King of Denmark (1670-99), *Flensborg 15.4.1646, +København 26.8.1699, bur Roskilde Cathedral; m.Nykyöping 25.6.1667 Ldgfn Charlotte von Hessen-Kassel (*27.4.1650 +27.3.1714) $$
@@ -892,19 +893,19 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013013	# Frederik von Oldenburg
-		mother=100001185	# Sofie Amalie v. Hannover
+		mother=100001185	# Sofie Amalie von Hannover
 		1646.04.15={birth=yes}  # Flensburg
-		1667.06.25={add_spouse=100192217}	# Charlotte v. Hessen-Kassel
+		1667.06.25={add_spouse=100192217}	# Charlotte von Hessen-Kassel
 		1699.08.25={death=yes}  # Copenhagen
 	}
-		100003317={ #// B1. FREDERIK IV King of Denmark (1699-1730), *København 11.10.1671, +Odense 12.10.1730, bur Roskilde Cathedral; 1m: København 5.12.1695 Herzogin Luise von Mecklenburg-Güstrow (*Güstrow 28.8.1667, +København 15.3.1721, bur Roskilde Cathedral); 2m: København 1721 Anna Sofie, Gfn von Reventlow, cr Herzogin von Schleswig (*Clausholms bei Randes 16.4.1693, +Clausholms bei Randers 7.1.1743)
+		100003317={ #// B1. FREDERIK IV King of Denmark (1699-1730), *København 11.10.1671, +Odense 12.10.1730, bur Roskilde Cathedral; 1m: København 5.12.1695 Herzogin Luise von Mecklenburg-Güstrow (*Güstrow 28.8.1667, +København 15.3.1721, bur Roskilde Cathedral); 2m: København 1721 Anna Sofie, Gfn von Reventlow, cr Herzogin von Schleswig (*Clausholms bei Randes 16.4.1693, +Clausholms bei Randers 7.1.1743) $$
 			name=Frederik
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003316	# Christian von Oldenburg
-			mother=100192217	# Charlotte v. Hessen-Kassel
+			mother=100192217	# Charlotte von Hessen-Kassel
 			1671.10.21={birth=yes}  # Copenhagen
-			1695.12.15={add_spouse=100002935}	# Luise v. Mecklenburg
+			1695.12.15={add_spouse=100002935}	# Luise von Mecklenburg-Schwerin
 			1721.04.04={add_spouse=100095698}	# GFN Anna Sofie von Reventlow
 			1730.10.12={death=yes}  # Odense
 		}
@@ -913,9 +914,9 @@
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100003317	# Frederik von Oldenburg
-				mother=100002935	# Luise v. Mecklenburg
+				mother=100002935	# Luise von Mecklenburg-Schwerin
 				1699.12.10={birth=yes}  # Copenhagen
-				1721.08.07={add_spouse=100002094}	# Magdalene v. Hohenzollern
+				1721.08.07={add_spouse=100002094}	# Magdalene von Hohenzollern
 				1746.08.06={death=yes}  # Hirscholm
 			}
 				# DENMARK -> 1i) Frederik V, King von Denmark (Copenhagen 31 Mar 1723-Copenhagen 14 Jan 1766); m.1st Copenhagen 11 Dec 1743 Pss Louise von Great Britain (London 7 Dec 1724-Christiansborg 19 Dec 1751); m.2nd Frederiksborg 8 Jul 1752 Dss Juliane von Braunschweig-Wolfenbüttel (Wolfenbüttel 4 Sep 1729-Fredensborg 10 Oct 1796); for his descendants, see here
@@ -925,7 +926,7 @@
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100003318	# Christian von Oldenburg
-					mother=100002094	# Magdalene v. Hohenzollern
+					mother=100002094	# Magdalene von Hohenzollern
 					1726.10.19={birth=yes}  # Copenhagen
 					1756.08.08={death=yes}  # Hildburghausen
 				}
@@ -935,7 +936,7 @@
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100003317	# Frederik von Oldenburg
-				mother=100002935	# Luise v. Mecklenburg
+				mother=100002935	# Luise von Mecklenburg-Schwerin
 				1706.10.06={birth=yes}  # Copenhagen
 				1782.10.28={death=yes}  # Copenhagen
 			}
@@ -944,7 +945,7 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003316	# Christian von Oldenburg
-			mother=100192217	# Charlotte v. Hessen-Kassel
+			mother=100192217	# Charlotte von Hessen-Kassel
 			1675.03.26={birth=yes}  # Copenhagen
 			1695.06.27={death=yes}  # Ulm
 		}
@@ -954,7 +955,7 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003316	# Christian von Oldenburg
-			mother=100192217	# Charlotte v. Hessen-Kassel
+			mother=100192217	# Charlotte von Hessen-Kassel
 			1677.08.28={birth=yes}  # Copenhagen
 			1735.03.13={death=yes}  # Copenhagen
 		}
@@ -963,7 +964,7 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003316	# Christian von Oldenburg
-			mother=100192217	# Charlotte v. Hessen-Kassel
+			mother=100192217	# Charlotte von Hessen-Kassel
 			1680.10.26={birth=yes}  # Copenhagen
 			1729.07.08={death=yes}  # Vemmetofte
 		}
@@ -973,7 +974,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013013	# Frederik von Oldenburg
-		mother=100001185	# Sofie Amalie v. Hannover
+		mother=100001185	# Sofie Amalie von Hannover
 		1647.09.01={birth=yes}  # Flensburg
 		1717.07.01={death=yes}  # Schloß Lichtenberg
 	}
@@ -983,7 +984,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013013	# Frederik von Oldenburg
-		mother=100001185	# Sofie Amalie v. Hannover
+		mother=100001185	# Sofie Amalie von Hannover
 		1649.04.11={birth=yes}  # Copenhagen
 		1704.10.30={death=yes}  # Kiel
 	}
@@ -993,7 +994,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013013	# Frederik von Oldenburg
-		mother=100001185	# Sofie Amalie v. Hannover
+		mother=100001185	# Sofie Amalie von Hannover
 		1650.06.20={birth=yes}  # Copenhagen
 		1706.04.22={death=yes}  # Schloß Lichtenberg
 	}
@@ -1002,7 +1003,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013013	# Frederik von Oldenburg
-		mother=100001185	# Sofie Amalie v. Hannover
+		mother=100001185	# Sofie Amalie von Hannover
 		1653.04.21={birth=yes}  # Copenhagen
 		1683.07.28={add_spouse=100200031}	# Anne Stewart
 		1708.11.08={death=yes}  # Kensington
@@ -1022,7 +1023,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013013	# Frederik von Oldenburg
-		mother=100001185	# Sofie Amalie v. Hannover
+		mother=100001185	# Sofie Amalie von Hannover
 		1656.09.11={birth=yes}  # Copenhagen
 		1693.07.26={death=yes}  # Karlberg nr Stockholm
 	}
@@ -1033,7 +1034,7 @@
 	name="Christian August"
 	dynasty_house=oldenburg_go
 	religion=lutheran culture=german
-	father=100013035	# Christian Albrecht v. Oldenburg-Gottorf
+	father=100013035	# Christian Albrecht von Oldenburg-Gottorf
 	mother=100003668	# Frederika Amalia von Oldenburg
 	1673.01.11={birth=yes}  # Gottorp
 	1704.09.03={add_spouse=100000268}	# Margravine Albertine Friederike von Baden
@@ -1044,7 +1045,7 @@
 		female=yes
 		dynasty_house=oldenburg_go
 		religion=lutheran culture=german
-		father=100013039	# Christian August v. Oldenburg-Gottorf
+		father=100013039	# Christian August von Oldenburg-Gottorf
 		mother=100000268	# Margravine Albertine Friederike von Baden
 		1709.02.03={birth=yes}
 		1758.02.02={death=yes}
@@ -1053,18 +1054,18 @@
 	name="Adolf Fredrik"
 	dynasty_house=oldenburg_go
 	religion=lutheran culture=swedish
-	father=100013039	# Christian August v. Oldenburg-Gottorf
+	father=100013039	# Christian August von Oldenburg-Gottorf
 	mother=100000268	# Margravine Albertine Friederike von Baden
 	1710.05.14={birth=yes}
-	1744.08.29={add_spouse=100002148}	# Luise v. Hohenzollern
+	1744.08.29={add_spouse=100002148}	# Luise von Hohenzollern
 	1771.04.12={death=yes}
 }
 		100003221={ #// B1. GUSTAF III, King of Sweden (1771-92), *Stockholm 24.1.1746, +assasinated at Stockholm 29.3.1792; m.Copenhagen 1.10.1766 Pss Sophie Magdalena of Denmark (*Christiansborg 3.7.1746, +Ulriksdal 21.8.1813) $$
 			name=Gustav
 			dynasty_house=oldenburg_go
 			religion=lutheran culture=swedish
-			father=100003220	# Adolf Fredrik v. Oldenburg-Gottorf
-			mother=100002148	# Luise v. Hohenzollern
+			father=100003220	# Adolf Fredrik von Oldenburg-Gottorf
+			mother=100002148	# Luise von Hohenzollern
 			1746.01.24={birth=yes}
 			1766.10.01={add_spouse=100003164}	# Sophie von Oldenburg
 			1792.03.29={death=yes}
@@ -1073,7 +1074,7 @@
 				name="Gustav Adolf"
 				dynasty_house=oldenburg_go
 				religion=lutheran culture=swedish
-				father=100003221	# Gustav v. Oldenburg-Gottorf
+				father=100003221	# Gustav von Oldenburg-Gottorf
 				mother=100003164	# Sophie von Oldenburg
 				1778.11.01={birth=yes}
 				1797.10.31={add_spouse=100000283}	# Friederike von Baden
@@ -1084,7 +1085,7 @@
 					name=Gustaf
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=swedish
-					father=100003222	# Gustav Adolf v. Oldenburg-Gottorf
+					father=100003222	# Gustav Adolf von Oldenburg-Gottorf
 					mother=100000283	# Friederike von Baden
 					1799.11.09={birth=yes}
 					1830.11.09={add_spouse=100000285}	# Luise von Baden
@@ -1095,7 +1096,7 @@
 						female=yes
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=swedish
-						father=100003223	# Gustaf v. Oldenburg-Gottorf
+						father=100003223	# Gustaf von Oldenburg-Gottorf
 						mother=100000285	# Luise von Baden
 						1833.08.05={birth=yes}
 						1907.12.15={death=yes}
@@ -1105,7 +1106,7 @@
 					female=yes
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=swedish
-					father=100003222	# Gustav Adolf v. Oldenburg-Gottorf
+					father=100003222	# Gustav Adolf von Oldenburg-Gottorf
 					mother=100000283	# Friederike von Baden
 					1801.05.21={birth=yes}
 					1865.07.06={death=yes}
@@ -1115,7 +1116,7 @@
 					female=yes
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=swedish
-					father=100003222	# Gustav Adolf v. Oldenburg-Gottorf
+					father=100003222	# Gustav Adolf von Oldenburg-Gottorf
 					mother=100000283	# Friederike von Baden
 					1805.02.22={birth=yes}
 					1853.08.31={death=yes}
@@ -1125,7 +1126,7 @@
 					female=yes
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=swedish
-					father=100003222	# Gustav Adolf v. Oldenburg-Gottorf
+					father=100003222	# Gustav Adolf von Oldenburg-Gottorf
 					mother=100000283	# Friederike von Baden
 					1807.06.22={birth=yes}
 					1844.01.27={death=yes}
@@ -1134,18 +1135,18 @@
 			name=Karl
 			dynasty_house=oldenburg_go
 			religion=lutheran culture=swedish
-			father=100003220	# Adolf Fredrik v. Oldenburg-Gottorf
-			mother=100002148	# Luise v. Hohenzollern
+			father=100003220	# Adolf Fredrik von Oldenburg-Gottorf
+			mother=100002148	# Luise von Hohenzollern
 			1748.10.07={birth=yes}
-			1774.07.07={add_spouse=100003243}	# Hedwig v. Oldenburg-Gottorf
+			1774.07.07={add_spouse=100003243}	# Hedwig von Oldenburg-Gottorf
 			1818.02.05={death=yes}
 		}
 		100003229={ #// B3. Frederik Adolf, Duke of Ostergotland, *Drottningholm 18.7.1750, +Montpellier 12.12.1803
 			name=Frederik
 			dynasty_house=oldenburg_go
 			religion=lutheran culture=swedish
-			father=100003220	# Adolf Fredrik v. Oldenburg-Gottorf
-			mother=100002148	# Luise v. Hohenzollern
+			father=100003220	# Adolf Fredrik von Oldenburg-Gottorf
+			mother=100002148	# Luise von Hohenzollern
 			1750.07.18={birth=yes}
 			1803.12.12={death=yes}
 		}
@@ -1153,18 +1154,18 @@
 		name="Friedrich August"
 		dynasty_house=oldenburg_go
 		religion=lutheran culture=german
-		father=100013039	# Christian August v. Oldenburg-Gottorf
+		father=100013039	# Christian August von Oldenburg-Gottorf
 		mother=100000268	# Margravine Albertine Friederike von Baden
 		1711.09.20={birth=yes}
-		1752.11.21={add_spouse=100001454}	# Ulrike Friederike v. Hessen-Kassel
+		1752.11.21={add_spouse=100001454}	# Ulrike Friederike von Hessen-Kassel
 		1785.07.06={death=yes}
 	}
 		100003242={ #// B1. Peter Friedrich WILHELM, Herzog von Oldenburg (1785-1810)+(1814-23), *Eutin 3.1.1754, +Schloß Plön 2.7.1823
 			name=Wilhelm
 			dynasty_house=oldenburg_go
 			religion=lutheran culture=german
-			father=100003241	# Friedrich August v. Oldenburg-Gottorf
-			mother=100001454	# Ulrike Friederike v. Hessen-Kassel
+			father=100003241	# Friedrich August von Oldenburg-Gottorf
+			mother=100001454	# Ulrike Friederike von Hessen-Kassel
 			1754.01.03={birth=yes}
 			1823.07.02={death=yes}
 		}
@@ -1173,8 +1174,8 @@
 			female=yes
 			dynasty_house=oldenburg_go
 			religion=lutheran culture=german
-			father=100003241	# Friedrich August v. Oldenburg-Gottorf
-			mother=100001454	# Ulrike Friederike v. Hessen-Kassel
+			father=100003241	# Friedrich August von Oldenburg-Gottorf
+			mother=100001454	# Ulrike Friederike von Hessen-Kassel
 			1759.03.22={birth=yes}
 			1818.06.20={death=yes}
 		}
@@ -1183,7 +1184,7 @@
 		female=yes
 		dynasty_house=oldenburg_go
 		religion=lutheran culture=german
-		father=100013039	# Christian August v. Oldenburg-Gottorf
+		father=100013039	# Christian August von Oldenburg-Gottorf
 		mother=100000268	# Margravine Albertine Friederike von Baden
 		1712.10.24={birth=yes}
 		1760.05.30={death=yes}
@@ -1192,32 +1193,32 @@
 		name=Georg
 		dynasty_house=oldenburg_go
 		religion=lutheran culture=german
-		father=100013039	# Christian August v. Oldenburg-Gottorf
+		father=100013039	# Christian August von Oldenburg-Gottorf
 		mother=100000268	# Margravine Albertine Friederike von Baden
 		1719.03.16={birth=yes}
-		1750.01.01={add_spouse=100009358}	# Sophie Charlotte v. Schleswig-Holstein-Sonderburg-Beck
+		1750.01.01={add_spouse=100009358}	# Sophie Charlotte von Schleswig-Holstein-Sonderburg-Beck
 		1763.09.07={death=yes}
 	}
 		100003247={ #// 3c) PETER I Friedrich Ludwig, Duke of Oldenburg on the holder of his cousin Wilhelm in 1823, he had actually administered the duchy since 1785 because of Wilhelm's mental disability (Riesenburg 17 Jan 1755-Wiesbaden 21 May 1829); m.Château d'Etupes 26 Jun 1781 Friederike, Dss of Württemberg (Treptow 27 Jul 1765-Eutin 24 Nov 1785) $$
 			name=Peter
 			dynasty_house=oldenburg_go
 			religion=lutheran culture=german
-			father=100003245	# Georg v. Oldenburg-Gottorf
-			mother=100009358	# Sophie Charlotte v. Schleswig-Holstein-Sonderburg-Beck
+			father=100003245	# Georg von Oldenburg-Gottorf
+			mother=100009358	# Sophie Charlotte von Schleswig-Holstein-Sonderburg-Beck
 			1755.01.17={birth=yes}
-			1781.06.26={add_spouse=100008034}	# Friederike v. Württemberg
+			1781.06.26={add_spouse=100008034}	# Friederike von WU rttemberg
 			1829.05.21={death=yes}
 		}
 			100003248={ #// 1d) Paul Friedrich AUGUST, Duke of Oldenburg, became Grand Duke of Oldenburg 28 May 1829 (Rastede 13 Jul 1783-Oldenburg 27 Feb 1853); m.1st Schaumburg 24 Jul 1817 Adelheid von Anhalt-Bernburg-Schaumburg-Hoym (Schaumburg 23 Feb 1800-Oldenburg 13 Sep 1820); m.2d Schaumburg 24 Jun 1825 Ida von Anhalt-Bernburg-Schaumburg-Hoym (Schaumburg 10 Mar 1804-Oldenburg 31 Mar 1828); m.3d Vienna 5 May 1831 Cecilie Pss of Sweden (Stockholm 22 Jun 1807-Oldenburg 27 Jan 1844) $$
 				name=August
 				dynasty_house=oldenburg_go
 				religion=lutheran culture=german
-				father=100003247	# Peter v. Oldenburg-Gottorf
-				mother=100008034	# Friederike v. Württemberg
+				father=100003247	# Peter von Oldenburg-Gottorf
+				mother=100008034	# Friederike von WU rttemberg
 				1783.07.13={birth=yes}
 				1817.07.24={add_spouse=100000111}	# Adelheid von Anhalt-Bernburg-Hoym
 				1825.06.24={add_spouse=100000053}	# Ida von Anhalt-Bernburg-Hoym
-				1831.05.05={add_spouse=100003227}	# Cecilia v. Oldenburg-Gottorf
+				1831.05.05={add_spouse=100003227}	# Cecilia von Oldenburg-Gottorf
 				1853.02.27={death=yes}
 			}
 				100003249={ #// 1e) Marie Friederike Amelie (Oldenburg 21 Dec 1818-Bamberg 20 May 1875); m.Oldenburg 22 Nov 1836 Otto Pr of Bavaria, King of Greece (Salzburg 1 Jun 1815-Bamberg 26 Jul 1867)
@@ -1225,7 +1226,7 @@
 					female=yes
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
-					father=100003248	# August v. Oldenburg-Gottorf
+					father=100003248	# August von Oldenburg-Gottorf
 					mother=100000111	# Adelheid von Anhalt-Bernburg-Hoym
 					1818.12.21={birth=yes}
 					1875.05.20={death=yes}
@@ -1235,7 +1236,7 @@
 					female=yes
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
-					father=100003248	# August v. Oldenburg-Gottorf
+					father=100003248	# August von Oldenburg-Gottorf
 					mother=100000111	# Adelheid von Anhalt-Bernburg-Hoym
 					1820.06.08={birth=yes}
 					1891.03.20={death=yes}
@@ -1244,39 +1245,39 @@
 					name=Peter
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
-					father=100003248	# August v. Oldenburg-Gottorf
+					father=100003248	# August von Oldenburg-Gottorf
 					mother=100000053	# Ida von Anhalt-Bernburg-Hoym
 					1827.08.07={birth=yes}
-					1852.02.10={add_spouse=100003856}	# Elisabeth Pauline v. Sachsen-Altenburg
+					1852.02.10={add_spouse=100003856}	# Elisabeth Pauline von Sachsen-Altenburg
 					1900.06.13={death=yes}
 				}
 					100003252={ #// 1f) FRIEDRICH AUGUST, Grand Duke of Oldenburg, renounced the throne 11 Nov 1918 (Oldenburg 16 Nov 1852-Oldenburg 24 Feb 1931); m.1st Berlin 18 Feb 1878 Elisabeth Pss of Prussia (Potsdam 8 Feb 1857-Schloß Adolfseck 28 Aug 1895); m.2d Schwerin 24 Oct 1896 Elisabeth, Dss of Mecklenburg-Schwerin (Ludwigslust 10 Aug 1869-Schaumburg 3 Sep 1955) $$
 						name="Friedrich August"
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=german
-						father=100003251	# Peter v. Oldenburg-Gottorf
-						mother=100003856	# Elisabeth Pauline v. Sachsen-Altenburg
+						father=100003251	# Peter von Oldenburg-Gottorf
+						mother=100003856	# Elisabeth Pauline von Sachsen-Altenburg
 						1852.11.16={birth=yes}
-						1878.02.18={add_spouse=100002065}	# Elisabeth Anna v. Hohenzollern
-						1896.10.24={add_spouse=100003018}	# Elisabeth v. Mecklenburg
+						1878.02.18={add_spouse=100002065}	# Elisabeth Anna von Hohenzollern
+						1896.10.24={add_spouse=100003018}	# Elisabeth von Mecklenburg-Schwerin
 						1931.02.24={death=yes}
 					}
-						100003253={ #// 1g) Sophie Charlotte (Oldenburg 2 Feb 1879-Westerstede 29 Mar 1964); m.1st Berlin 27 Feb 1906 (div 1926) Eitel Friedrich Pr of Prussia (Marmorpalais 7 Jul 1883-Potsdam 8 Dec 1942); m.2d Rastede 24 Nov 1927 Harald von Hedemann (Köln 22 Sep 1887-Hankhausen-Rastede 12 Jun 1951)
+						100003253={ #// 1g) Sophie Charlotte (Oldenburg 2 Feb 1879-Westerstede 29 Mar 1964); m.1st Berlin 27 Feb 1906 (div 1926) Eitel Friedrich Pr of Prussia (Marmorpalais 7 Jul 1883-Potsdam 8 Dec 1942); m.2d Rastede 24 Nov 1927 Harald von Hedemann (Köln 22 Sep 1887-Hankhausen-Rastede 12 Jun 1951) $$
 							name=Sophie
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100003252	# Friedrich August v. Oldenburg-Gottorf
-							mother=100002065	# Elisabeth Anna v. Hohenzollern
+							father=100003252	# Friedrich August von Oldenburg-Gottorf
+							mother=100002065	# Elisabeth Anna von Hohenzollern
 							1879.02.02={birth=yes}
 							1964.03.29={death=yes}
 						}
-						100003254={ #// 3g) NIKOLAUS Friedrich Wilhelm, Hereditary Grand Duke of Oldenburg (Oldenburg 10 Aug 1897-Rastede 3 Apr 1970); m.1st Arolsen 26 Oct 1921 Helene Pss zu Waldeck und Pyrmont (Arolsen 22 Dec 1899-Rastede 18 Feb 1948); m.2d Güldenstein 20 Sep 1950 Anne-Marie von Schutzbar gt Milchling (Hannover Münden 3 Jul 1903-Rastede 1 Jan 1991)
+						100003254={ #// 3g) NIKOLAUS Friedrich Wilhelm, Hereditary Grand Duke of Oldenburg (Oldenburg 10 Aug 1897-Rastede 3 Apr 1970); m.1st Arolsen 26 Oct 1921 Helene Pss zu Waldeck und Pyrmont (Arolsen 22 Dec 1899-Rastede 18 Feb 1948); m.2d Güldenstein 20 Sep 1950 Anne-Marie von Schutzbar gt Milchling (Hannover Münden 3 Jul 1903-Rastede 1 Jan 1991) $$
 							name=Nikolaus
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100003252	# Friedrich August v. Oldenburg-Gottorf
-							mother=100003018	# Elisabeth v. Mecklenburg
+							father=100003252	# Friedrich August von Oldenburg-Gottorf
+							mother=100003018	# Elisabeth von Mecklenburg-Schwerin
 							1897.08.10={birth=yes}
 							1921.10.26={add_spouse=100007140}	# Helene zu Waldeck u.Pyrmont
 							1950.09.20={add_spouse=100093070}	# Anne-Marie von Schutzbar gt Milchling
@@ -1286,10 +1287,10 @@
 								name=Anton-Günther
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
-								father=100003254	# Nikolaus v. Oldenburg-Gottorf
+								father=100003254	# Nikolaus von Oldenburg-Gottorf
 								mother=100007140	# Helene zu Waldeck u.Pyrmont
 								1923.01.16={birth=yes}
-								1951.08.07={add_spouse=100003843}	# Ameli v. Löwenstein-Wertheim
+								1951.08.07={add_spouse=100003843}	# Ameli von Löwenstein-Wertheim-Freudenberg
 								2014.09.20={death=yes}
 							}
 								100003256={ #// 1i) Helene Elisabeth Bathildis Margarete (b.Rastede 3 Aug 1953)
@@ -1297,16 +1298,16 @@
 									female=yes
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003255	# Anton-Günther v. Oldenburg-Gottorf
-									mother=100003843	# Ameli v. Löwenstein-Wertheim
+									father=100003255	# Anton-Günther von Oldenburg-Gottorf
+									mother=100003843	# Ameli von Löwenstein-Wertheim-Freudenberg
 									1953.08.03={birth=yes}
 								}
 								100003257={ #// 2i) Christian Nikolaus Udo Peter (b.Rastede 1 Feb 1955); m.Bad Segeberg 22 Sep 1987 Caroline Gfn zu Rantzau (b.Kiel 10 Apr 1962)
 									name=Christian
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003255	# Anton-Günther v. Oldenburg-Gottorf
-									mother=100003843	# Ameli v. Löwenstein-Wertheim
+									father=100003255	# Anton-Günther von Oldenburg-Gottorf
+									mother=100003843	# Ameli von Löwenstein-Wertheim-Freudenberg
 									1955.02.01={birth=yes}
 									1987.09.22={add_spouse=100094244}	# GFN Caroline zu Rantzau
 								}
@@ -1314,7 +1315,7 @@
 										name=Alexander
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003257	# Christian v. Oldenburg-Gottorf
+										father=100003257	# Christian von Oldenburg-Gottorf
 										mother=100094244	# GFN Caroline zu Rantzau
 										1990.03.17={birth=yes}
 									}
@@ -1322,7 +1323,7 @@
 										name=Philipp
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003257	# Christian v. Oldenburg-Gottorf
+										father=100003257	# Christian von Oldenburg-Gottorf
 										mother=100094244	# GFN Caroline zu Rantzau
 										1991.12.28={birth=yes}
 									}
@@ -1330,7 +1331,7 @@
 										name=Anton
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003257	# Christian v. Oldenburg-Gottorf
+										father=100003257	# Christian von Oldenburg-Gottorf
 										mother=100094244	# GFN Caroline zu Rantzau
 										1993.01.09={birth=yes}
 									}
@@ -1339,7 +1340,7 @@
 										female=yes
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003257	# Christian v. Oldenburg-Gottorf
+										father=100003257	# Christian von Oldenburg-Gottorf
 										mother=100094244	# GFN Caroline zu Rantzau
 										1997.02.20={birth=yes}
 									}
@@ -1347,18 +1348,18 @@
 								name=Peter
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
-								father=100003254	# Nikolaus v. Oldenburg-Gottorf
+								father=100003254	# Nikolaus von Oldenburg-Gottorf
 								mother=100007140	# Helene zu Waldeck u.Pyrmont
 								1926.08.07={birth=yes}
-								1951.08.07={add_spouse=100003899}	# Gertrud v. Löwenstein-Wertheim
+								1951.08.07={add_spouse=100003899}	# Gertrud von Löwenstein-Wertheim-Freudenberg
 								2006.01.01={death=yes}	# EST.
 }
 								100003263={ #// 1i) Friedrich August (b.Lensahn 26 Sep 1952); m.Nanyuki, Kenya 9 Jan 1982 Belinda Tatham Warter (b.Nairobi 10 Nov 1954)
 									name=Friedrich
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003262	# Peter v. Oldenburg-Gottorf
-									mother=100003899	# Gertrud v. Löwenstein-Wertheim
+									father=100003262	# Peter von Oldenburg-Gottorf
+									mother=100003899	# Gertrud von Löwenstein-Wertheim-Freudenberg
 									1952.09.26={birth=yes}
 									1982.01.09={add_spouse=100090851}	# Belinda Tatham Warter
 								}
@@ -1367,7 +1368,7 @@
 										female=yes
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003263	# Friedrich v. Oldenburg-Gottorf
+										father=100003263	# Friedrich von Oldenburg-Gottorf
 										mother=100090851	# Belinda Tatham Warter
 										1982.10.10={birth=yes}
 									}
@@ -1376,7 +1377,7 @@
 										female=yes
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003263	# Friedrich v. Oldenburg-Gottorf
+										father=100003263	# Friedrich von Oldenburg-Gottorf
 										mother=100090851	# Belinda Tatham Warter
 										1986.04.15={birth=yes}
 									}
@@ -1385,7 +1386,7 @@
 										female=yes
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003263	# Friedrich v. Oldenburg-Gottorf
+										father=100003263	# Friedrich von Oldenburg-Gottorf
 										mother=100090851	# Belinda Tatham Warter
 										1993.06.14={birth=yes}
 									}
@@ -1394,16 +1395,16 @@
 									female=yes
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003262	# Peter v. Oldenburg-Gottorf
-									mother=100003899	# Gertrud v. Löwenstein-Wertheim
+									father=100003262	# Peter von Oldenburg-Gottorf
+									mother=100003899	# Gertrud von Löwenstein-Wertheim-Freudenberg
 									1954.05.16={birth=yes}
 								}
 								100003270={ #// 3i) Nikolaus (b.Lübeck 21 May 1955); m.Lensahn 19 Jun 1982 Anna Dyckerhoff (b.Mühlheim 7 May 1958)
 									name=Nikolaus
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003262	# Peter v. Oldenburg-Gottorf
-									mother=100003899	# Gertrud v. Löwenstein-Wertheim
+									father=100003262	# Peter von Oldenburg-Gottorf
+									mother=100003899	# Gertrud von Löwenstein-Wertheim-Freudenberg
 									1955.05.21={birth=yes}
 									1982.06.19={add_spouse=100083545}	# Anna Dyckerhoff
 								}
@@ -1411,7 +1412,7 @@
 										name=Christoph
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003270	# Nikolaus v. Oldenburg-Gottorf
+										father=100003270	# Nikolaus von Oldenburg-Gottorf
 										mother=100083545	# Anna Dyckerhoff
 										1986.12.31={birth=yes}
 									}
@@ -1419,7 +1420,7 @@
 										name=Georg
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003270	# Nikolaus v. Oldenburg-Gottorf
+										father=100003270	# Nikolaus von Oldenburg-Gottorf
 										mother=100083545	# Anna Dyckerhoff
 										1990.01.29={birth=yes}
 									}
@@ -1427,7 +1428,7 @@
 										name=Oscar
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003270	# Nikolaus v. Oldenburg-Gottorf
+										father=100003270	# Nikolaus von Oldenburg-Gottorf
 										mother=100083545	# Anna Dyckerhoff
 										1991.01.31={birth=yes}
 									}
@@ -1435,8 +1436,8 @@
 									name=Georg-Moritz
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003262	# Peter v. Oldenburg-Gottorf
-									mother=100003899	# Gertrud v. Löwenstein-Wertheim
+									father=100003262	# Peter von Oldenburg-Gottorf
+									mother=100003899	# Gertrud von Löwenstein-Wertheim-Freudenberg
 									1957.06.25={birth=yes}
 								}
 							100003275={ #// 4h) Eilika Stephanie Elisabeth Thekla Juliana (b.Lensahn 2 Feb 1928); m.Rastede 10 Aug 1950 Emich Fst zu Leiningen (Coburg 18 Oct 1926-Amorbach 30 Oct 1991) $$
@@ -1444,7 +1445,7 @@
 								female=yes
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
-								father=100003254	# Nikolaus v. Oldenburg-Gottorf
+								father=100003254	# Nikolaus von Oldenburg-Gottorf
 								mother=100007140	# Helene zu Waldeck u.Pyrmont
 								1928.02.02={birth=yes}
 								2008.01.01={death=yes}	# EST.
@@ -1453,7 +1454,7 @@
 								name=Egilmar
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
-								father=100003254	# Nikolaus v. Oldenburg-Gottorf
+								father=100003254	# Nikolaus von Oldenburg-Gottorf
 								mother=100007140	# Helene zu Waldeck u.Pyrmont
 								1934.10.14={birth=yes}
 								2014.01.01={death=yes}	# EST.
@@ -1462,19 +1463,19 @@
 								name="Friedrich August"
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
-								father=100003254	# Nikolaus v. Oldenburg-Gottorf
+								father=100003254	# Nikolaus von Oldenburg-Gottorf
 								mother=100007140	# Helene zu Waldeck u.Pyrmont
 								1936.01.11={birth=yes}
-								1965.12.04={add_spouse=100002169}	# Marie-Cécile v. Hohenzollern
+								1965.12.04={add_spouse=100002169}	# Marie-Cécile von Hohenzollern
 								1989.01.01={remove_spouse=100002169}
-								1991.02.09={add_spouse=100000613}	# Donata zu Castell-Rüdenhausen
+								1991.02.09={add_spouse=100000613}	# Donata von Castell-Rüdenhausen
 							}
 								100003278={ #// 1i) Paul Wladimir Nikolaus Louis-Ferdinand Peter Max Karl-Emich (b.Lübeck 16 Aug 1969); m.Wertheim 18 Jan 2001 Maria del Pilar Méndez de Vigo y Löwenstein-Wertheim-Rosenberg (b.Madrid 20 Oct 1970) $$
 									name="Paul Wladimir"
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003277	# Friedrich August v. Oldenburg-Gottorf
-									mother=100002169	# Marie-Cécile v. Hohenzollern
+									father=100003277	# Friedrich August von Oldenburg-Gottorf
+									mother=100002169	# Marie-Cécile von Hohenzollern
 									1969.08.16={birth=yes}
 									2001.01.18={add_spouse=100200042}	# Maria del Pilar Mendez de Vigo
 								}
@@ -1482,7 +1483,7 @@
 										name=Kirill
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003278	# Paul Wladimir v. Oldenburg-Gottorf
+										father=100003278	# Paul Wladimir von Oldenburg-Gottorf
 										mother=100200042	# Maria del Pilar Mendez de Vigo
 										2002.06.13={birth=yes}
 									}
@@ -1490,7 +1491,7 @@
 										name=Carlos
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003278	# Paul Wladimir v. Oldenburg-Gottorf
+										father=100003278	# Paul Wladimir von Oldenburg-Gottorf
 										mother=100200042	# Maria del Pilar Mendez de Vigo
 										2004.04.19={birth=yes}
 									}
@@ -1498,7 +1499,7 @@
 										name=Paul
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003278	# Paul Wladimir v. Oldenburg-Gottorf
+										father=100003278	# Paul Wladimir von Oldenburg-Gottorf
 										mother=100200042	# Maria del Pilar Mendez de Vigo
 										2005.09.08={birth=yes}
 									}
@@ -1507,7 +1508,7 @@
 										female=yes
 										dynasty_house=oldenburg_go
 										religion=lutheran culture=german
-										father=100003278	# Paul Wladimir v. Oldenburg-Gottorf
+										father=100003278	# Paul Wladimir von Oldenburg-Gottorf
 										mother=100200042	# Maria del Pilar Mendez de Vigo
 										2007.03.21={birth=yes}
 									}
@@ -1516,8 +1517,8 @@
 									female=yes
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003277	# Friedrich August v. Oldenburg-Gottorf
-									mother=100002169	# Marie-Cécile v. Hohenzollern
+									father=100003277	# Friedrich August von Oldenburg-Gottorf
+									mother=100002169	# Marie-Cécile von Hohenzollern
 									1970.09.17={birth=yes}
 								}
 								100003284={ #// 3i) Bibiane Marie Alexandra Gertrud (b.Oldenburg 24 Jun 1974); m.Meran 22 May 2004 Peter Dorner (b.Wasserburg am Inn 19 Feb 1972)
@@ -1525,8 +1526,8 @@
 									female=yes
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003277	# Friedrich August v. Oldenburg-Gottorf
-									mother=100002169	# Marie-Cécile v. Hohenzollern
+									father=100003277	# Friedrich August von Oldenburg-Gottorf
+									mother=100002169	# Marie-Cécile von Hohenzollern
 									1974.06.24={birth=yes}
 								}
 							100003285={ #// 7h) Altburg Elisabeth Hilda Ingeborg Marie Luise Mathilde (b.Lensahn 14 Oct 1938); m.Rastede 8 Jul 1967 Rüdiger Frhr von Erffa (b.Regensburg 19 Apr 1936)
@@ -1534,7 +1535,7 @@
 								female=yes
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
-								father=100003254	# Nikolaus v. Oldenburg-Gottorf
+								father=100003254	# Nikolaus von Oldenburg-Gottorf
 								mother=100007140	# Helene zu Waldeck u.Pyrmont
 								1938.10.14={birth=yes}
 							}
@@ -1543,7 +1544,7 @@
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
 								trait=twin
-								father=100003254	# Nikolaus v. Oldenburg-Gottorf
+								father=100003254	# Nikolaus von Oldenburg-Gottorf
 								mother=100007140	# Helene zu Waldeck u.Pyrmont
 								1940.01.03={birth=yes}
 								1970.06.06={add_spouse=100090077}	# GFN Felicitas-Anita Schwerin von Krosigk
@@ -1553,7 +1554,7 @@
 									female=yes
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003286	# Huno v. Oldenburg-Gottorf
+									father=100003286	# Huno von Oldenburg-Gottorf
 									mother=100090077	# GFN Felicitas-Anita Schwerin von Krosigk
 									1971.05.27={birth=yes}
 								}
@@ -1562,7 +1563,7 @@
 									female=yes
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003286	# Huno v. Oldenburg-Gottorf
+									father=100003286	# Huno von Oldenburg-Gottorf
 									mother=100090077	# GFN Felicitas-Anita Schwerin von Krosigk
 									1972.11.06={birth=yes}
 								}
@@ -1571,7 +1572,7 @@
 								dynasty_house=oldenburg_go
 								religion=lutheran culture=german
 								trait=twin
-								father=100003254	# Nikolaus v. Oldenburg-Gottorf
+								father=100003254	# Nikolaus von Oldenburg-Gottorf
 								mother=100007140	# Helene zu Waldeck u.Pyrmont
 								1940.01.03={birth=yes}
 								1971.10.09={add_spouse=100194240}	# Ilka zu Ortenburg
@@ -1581,7 +1582,7 @@
 									female=yes
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003289	# Johann v. Oldenburg-Gottorf
+									father=100003289	# Johann von Oldenburg-Gottorf
 									mother=100194240	# Ilka zu Ortenburg
 									1972.08.22={birth=yes}
 								}
@@ -1590,7 +1591,7 @@
 									female=yes
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003289	# Johann v. Oldenburg-Gottorf
+									father=100003289	# Johann von Oldenburg-Gottorf
 									mother=100194240	# Ilka zu Ortenburg
 									1974.11.11={birth=yes}
 								}
@@ -1598,7 +1599,7 @@
 									name=Konstantin
 									dynasty_house=oldenburg_go
 									religion=lutheran culture=german
-									father=100003289	# Johann v. Oldenburg-Gottorf
+									father=100003289	# Johann von Oldenburg-Gottorf
 									mother=100194240	# Ilka zu Ortenburg
 									1975.12.13={birth=yes}
 								}
@@ -1607,8 +1608,8 @@
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100003252	# Friedrich August v. Oldenburg-Gottorf
-							mother=100003018	# Elisabeth v. Mecklenburg
+							father=100003252	# Friedrich August von Oldenburg-Gottorf
+							mother=100003018	# Elisabeth von Mecklenburg-Schwerin
 							1901.07.20={birth=yes}
 							1996.01.10={death=yes}
 						}
@@ -1617,8 +1618,8 @@
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100003252	# Friedrich August v. Oldenburg-Gottorf
-							mother=100003018	# Elisabeth v. Mecklenburg
+							father=100003252	# Friedrich August von Oldenburg-Gottorf
+							mother=100003018	# Elisabeth von Mecklenburg-Schwerin
 							1903.05.19={birth=yes}
 							2001.06.16={death=yes}
 						}
@@ -1626,8 +1627,8 @@
 						name=Georg
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=german
-						father=100003251	# Peter v. Oldenburg-Gottorf
-						mother=100003856	# Elisabeth Pauline v. Sachsen-Altenburg
+						father=100003251	# Peter von Oldenburg-Gottorf
+						mother=100003856	# Elisabeth Pauline von Sachsen-Altenburg
 						1855.06.27={birth=yes}
 						1939.11.30={death=yes}
 					}
@@ -1635,8 +1636,8 @@
 					name=Elimar
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
-					father=100003248	# August v. Oldenburg-Gottorf
-					mother=100003227	# Cecilia v. Oldenburg-Gottorf
+					father=100003248	# August von Oldenburg-Gottorf
+					mother=100003227	# Cecilia von Oldenburg-Gottorf
 					1844.01.23={birth=yes}
 					1876.01.01={add_spouse=100091481}	# FRN Natalie Vogel von Friesenhof
 					1895.10.17={death=yes}
@@ -1645,57 +1646,57 @@
 				name=Georg
 				dynasty_house=oldenburg_go
 				religion=lutheran culture=german
-				father=100003247	# Peter v. Oldenburg-Gottorf
-				mother=100008034	# Friederike v. Württemberg
+				father=100003247	# Peter von Oldenburg-Gottorf
+				mother=100008034	# Friederike von WU rttemberg
 				1784.05.09={birth=yes}
-				1809.04.30={add_spouse=100016948}	# Ekaterina Romanov
+				1809.04.30={add_spouse=100016948}	# Екатерина Павловна Гольштейн-Готторп-Романов
 				1812.12.27={death=yes}
 			}
 				100003203={ #// 1e) Friedrich Paul Alexander (Pavlovsk 30 Aug 1810-Oldenburg 16 Nov 1829)
 					name=Friedrich
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
-					father=100003202	# Georg v. Oldenburg-Gottorf
-					mother=100016948	# Ekaterina Romanov
+					father=100003202	# Georg von Oldenburg-Gottorf
+					mother=100016948	# Екатерина Павловна Гольштейн-Готторп-Романов
 					1810.08.30={birth=yes}
 					1829.11.16={death=yes}
 				}
-				100003204={ #// 2e) Konstantin Friedrich Peter (Jaroslaw 26 Aug 1812-St.Petersburg 14 May 1881); m.Biebrich 23 Apr 1837 Therese von Nassau-Weilburg (Weilburg 17 Apr 1815-Prague 8 Dec 1871) $$
+				100003204={ #// D2. Konstantin Friedrich PETER, *Jaroslaw 26.8.1812, +St.Petersburg 14.5.1881; m.Biebrich 23.4.1837 Therese Pss von Nassau-Weilburg (*Weilburg 17.4.1815, +Prague 8.12.1871) $$
 					name=Peter
 					dynasty_house=oldenburg_go
 					religion=lutheran culture=german
-					father=100003202	# Georg v. Oldenburg-Gottorf
-					mother=100016948	# Ekaterina Romanov
-					1812.08.26={birth=yes}
-					1837.04.23={add_spouse=100070099}	# Therese v. Nassau-Weilburg
-					1881.05.14={death=yes}
+					father=100003202	# Georg von Oldenburg-Gottorf
+					mother=100016948	# Екатерина Павловна Гольштейн-Готторп-Романов
+					1812.08.26={birth=yes}	# Jaroslaw
+					1837.04.23={add_spouse=100070099}	# Therese von Nassau-Weilburg
+					1881.05.14={death=yes}	# St.Petersburg
 				}
-					100003205={ #// 1f) Alexandra Friederike Wilhelmine (St.Petersburg 2 Jun 1838-Kiev 25 Apr 1900); m.St.Petersburg 5 Feb 1856 Nicholas, Grand Duke of Russia (Tsarskoie Selo 8 Aug 1831-Aloupka, Crimea 25 Apr 1891) $$
+					100003205={ #// E5. ALEXANDRA Friederike Wilhelmine, *St.Petersburg 2.6.1838, +Kiev 25.4.1900; m.St.Petersburg 5.2.1856 Nicholas, Grand Duke of Russia (*Tsarskoie Selo 8.8.1831, +Aloupka, Crimea 25.4.1891); according to Ferrand, Alexandra was mother of an illegitimate son, Alexis Clios-Zakhvatovsky (*1867, +1915), who in turn left issue $$
 						name=Alexandra
 						female=yes
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=german
-						father=100003204	# Peter v. Oldenburg-Gottorf
-						mother=100070099	# Therese v. Nassau-Weilburg
+						father=100003204	# Peter von Oldenburg-Gottorf
+						mother=100070099	# Therese von Nassau-Weilburg
 						1838.06.02={birth=yes}
 						1900.04.25={death=yes}
 					}
-					100003206={ #// 2f) Nikolaus Friedrich August (St.Petersburg 9 May 1840-Geneva 20 Jan 1886); m.Schtscheniatino, Russia 29 May 1863 Maria Bulatzelly, cr Gfn von Osternburg 13 Jul 1863 (Kharkov 8 Jul 1845-Paris 10 Mar 1907)
+					100003206={ #// E1. NIKOLAUS Friedrich August, *St.Petersburg 9.5.1840, +Geneva 20.1.1886; m.Schtscheniatino, Russia 29.5.1863 Maria Bulatzelly, cr Gfn von Osternburg 13.7.1863 (*Kharkov 8.7.1845, +Paris 10.3.1907)
 						name=Nikolaus
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=german
-						father=100003204	# Peter v. Oldenburg-Gottorf
-						mother=100070099	# Therese v. Nassau-Weilburg
-						1840.05.09={birth=yes}
+						father=100003204	# Peter von Oldenburg-Gottorf
+						mother=100070099	# Therese von Nassau-Weilburg
+						1840.05.09={birth=yes}	# St.Petersburg
 						1863.05.29={add_spouse=100081062}	# Maria Bulatzelly
-						1886.01.20={death=yes}
+						1886.01.20={death=yes}	# Geneva
 					}
 						100003207={ #// 1g) Alexandra Gfn von Osternburg (Geneva 7 Jun 1864-Paris 23 Jul 1952); m.Funchal, Madeira 8 Jun 1885 Paul Verola (Nice 13 Jul 1863-Cavalaire, France 11 Apr 1931)
 							name=Alexandra
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100003206	# Nikolaus v. Oldenburg-Gottorf
+							father=100003206	# Nikolaus von Oldenburg-Gottorf
 							mother=100081062	# Maria Bulatzelly
 							1864.06.07={birth=yes}
 							1952.07.23={death=yes}
@@ -1705,59 +1706,77 @@
 							female=yes
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100003206	# Nikolaus v. Oldenburg-Gottorf
+							father=100003206	# Nikolaus von Oldenburg-Gottorf
 							mother=100081062	# Maria Bulatzelly
 							1871.06.04={birth=yes}
 							1888.12.05={death=yes}
 						}
-					100003209={ #// 4f) Alexander Friedrich Konstantin, granted style of Imperial Highness in Russia 10 Jun 1914 (St.Petersburg 2 Jun 1844-Biarritz 6 Sep 1932); m.St. Petersburg 19 Jan 1868 Pss Eugenia Romanovsky, Dss von Leuchtenberg (St.Petersburg 1 Apr 1845-Biarritz 4 May 1925) $$
+					100003209={ #// E2. ALEXANDER Friedrich Konstantin, granted style of Imperial Highness in Russia 10.6.1914, *St.Petersburg 2.6.1844, +Biarritz 6.9.1932; m.St.Petersburg 19.1.1868 Pss Eugenia Romanovsky (*1.4.1845 +4.5.1925) $$
 						name=Alexander
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=german
-						father=100003204	# Peter v. Oldenburg-Gottorf
-						mother=100070099	# Therese v. Nassau-Weilburg
-						1844.06.02={birth=yes}
-						1868.01.19={add_spouse=100065040}	# Eugenia de Beauharnais
-						1932.09.06={death=yes}
+						father=100003204	# Peter von Oldenburg-Gottorf
+						mother=100070099	# Therese von Nassau-Weilburg
+						1844.06.02={birth=yes}	# St.Petersburg
+						1868.01.19={add_spouse=100065040}	# Евгения de Beauharnais
+						1932.09.06={death=yes}	# Biarritz
 					}
-						100003210={ #// 1g) Peter Friedrich Georg (St.Petersburg 21 Nov 1868-Biarritz 11 Mar 1924); m.1st Gatchina 21 Jul 1901 (div 1916) Olga Grand Dss of Russia (Peterhof 13 Jun 1882-Toronto 24 Nov 1960); m.2d Biarritz 3 May 1922 Olga Ratkova-Rognova (St.Petersburg 1 Nov 1878-Sidi-Abdallah, Morocco 7 Mar 1953)
+						100003210={ #// 1g) Peter Friedrich Georg (St.Petersburg 21 Nov 1868-Biarritz 11 Mar 1924); m.1st Gatchina 21 Jul 1901 (div 1916) Olga Grand Dss of Russia (Peterhof 13 Jun 1882-Toronto 24 Nov 1960); m.2d Biarritz 3 May 1922 Olga Ratkova-Rognova (St.Petersburg 1 Nov 1878-Sidi-Abdallah, Morocco 7 Mar 1953) $$
 							name=Peter
 							dynasty_house=oldenburg_go
 							religion=lutheran culture=german
-							father=100003209	# Alexander v. Oldenburg-Gottorf
-							mother=100065040	# Eugenia de Beauharnais
+							father=100003209	# Alexander von Oldenburg-Gottorf
+							mother=100065040	# Евгения de Beauharnais
 							1868.11.21={birth=yes}
-							1901.07.21={add_spouse=100016965}	# Olga Romanov
+							1901.07.21={add_spouse=100016965}	# Ольга Александровна Гольштейн-Готторп-Романов
 							1916.01.01={remove_spouse=100016965}
-							1922.05.03={add_spouse=100089388}	# Olga Ratkov-Rognov
+							1922.05.03={add_spouse=100089388}	# Ольга Ratkov-Rognov
 							1924.03.11={death=yes}
 						}
-					100003211={ #// 5f) Katharine Friederike Pauline (St.Petersburg 21 Jan 1846-Römerbad, Styria 23 Jun 1866)
+					100003211={ #// E7. KATHARINE Friederike Pauline, *St.Petersburg 21.1.1846, +Römerbad, Styria 23.6.1866
 						name=Katharine
 						female=yes
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=german
-						father=100003204	# Peter v. Oldenburg-Gottorf
-						mother=100070099	# Therese v. Nassau-Weilburg
+						father=100003204	# Peter von Oldenburg-Gottorf
+						mother=100070099	# Therese von Nassau-Weilburg
 						1846.01.21={birth=yes}
 						1866.06.23={death=yes}
 					}
-					100003212={ #// 6f) Georg Friedrich Alexander (St.Petersburg 17 Apr 1848-St.Petersburg 17 Mar 1871)
+					100003212={ #// E3. GEORG Friedrich Alexander, *St.Petersburg 17.4.1848, +St.Petersburg 17.3.1871
 						name=Georg
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=german
-						father=100003204	# Peter v. Oldenburg-Gottorf
-						mother=100070099	# Therese v. Nassau-Weilburg
+						father=100003204	# Peter von Oldenburg-Gottorf
+						mother=100070099	# Therese von Nassau-Weilburg
 						1848.04.17={birth=yes}
 						1871.03.17={death=yes}
 					}
-					100003264={ #// 8f) Therese Friederike Olga (St.Petersburg 30 Mar 1852-St.Petersburg 19 Apr 1883); m.Stuttgart 12 May 1879 Duke George von Leuchtenberg (St.Petersburg 29 Feb 1852-Paris 3 May 1912) $$
+					100303212={ #// E4. KONSTANTIN Friedrich Peter, *St.Petersburg 9.5.1850, +Nice 18.3.1906; m.(morganatically) Koutais, Caucasus 20.10.1882 Aggripina Djaparidze, cr Gfn von Zarnekau 20.10.1882 (*Ratscha 25.10.1855, +Kislovodsk 18.10.1926)
+						name="Konstantin"
+						dynasty_house=oldenburg_go
+						religion=lutheran culture=german
+						father=100003204	# Peter von Oldenburg-Gottorf
+						mother=100070099	# Therese von Nassau-Weilburg
+						1850.05.09={birth=yes}
+						1906.03.18={death=yes}
+					}
+						100303213={ #// F4. Alexandra, Gfn von Zarnekau, *Koutais 10.5.1883, +Paris 28.5.1957; 1m: Nice 11.2.1900 (div 1908) Pr George Yurievsky (*St.Petersburg 12.5.1872, +Marburg 13.9.1913); 2m: Paris 17.10.1908 Leo Narishkin (*X.1876, +Jean le Pins, France 4.4.1931)
+							name="Alexandra"
+							female=yes
+							religion=orthodox culture=russian
+							trait=bastard
+							father=100303212	# Konstantin von Oldenburg-Gottorf
+							1883.05.22={birth=yes}	# Kutais
+							1957.05.28={death=yes}	# Paris
+						}
+					100003264={ #// E8. THERESE Friederike Olga, *St.Petersburg 30.3.1852, +St.Petersburg 19.4.1883; m.Stuttgart 12.5.1879 Herzog George von Leuchtenberg (*29.2.1852, +3.5.1912) $$
 						name=Therese
 						female=yes
 						dynasty_house=oldenburg_go
 						religion=lutheran culture=german
-						father=100003204	# Peter v. Oldenburg-Gottorf
-						mother=100070099	# Therese v. Nassau-Weilburg
+						father=100003204	# Peter von Oldenburg-Gottorf
+						mother=100070099	# Therese von Nassau-Weilburg
 						1852.03.30={birth=yes}
 						1883.04.19={death=yes}
 					}
@@ -1771,7 +1790,7 @@
 	father=100013009	# Christian von Oldenburg
 	mother=100001994	# Dorothea von Sachsen-Lauenburg
 	1545.03.25={birth=yes}  # Koldinghus
-	1568.09.19={add_spouse=100012809}	# Elisabeth Welf
+	1568.09.19={add_spouse=100012809}	# Elisabeth von Braunschweig-Grubenhagen
 	1588.02.14={add_spouse=100000121}	# Agnes Hedwig von Anhalt
 	1622.10.09={death=yes}  # Glücksburg
 }
@@ -1781,7 +1800,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013025	# Johann von Oldenburg
-		mother=100012809	# Elisabeth Welf
+		mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 		1569.10.16={birth=yes}  # Kolding
 		1593.07.05={death=yes}  # Liegnitz
 	}
@@ -1790,7 +1809,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013025	# Johann von Oldenburg
-		mother=100012809	# Elisabeth Welf
+		mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 		1570.11.26={birth=yes}  # Sonderburg
 		1633.06.14={death=yes}
 	}
@@ -1800,7 +1819,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013025	# Johann von Oldenburg
-		mother=100012809	# Elisabeth Welf
+		mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 		1576.09.17={birth=yes}  # Sonderburg
 		1624.02.21={death=yes}  # Norburg
 	}
@@ -1810,7 +1829,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013025	# Johann von Oldenburg
-		mother=100012809	# Elisabeth Welf
+		mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 		1577.10.07={birth=yes}  # Sonderburg
 		1616.01.30={death=yes}  # Steinberg
 	}
@@ -1820,7 +1839,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013025	# Johann von Oldenburg
-		mother=100012809	# Elisabeth Welf
+		mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 		1579.08.17={birth=yes}
 		1618.06.03={death=yes}
 	}
@@ -1830,7 +1849,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013025	# Johann von Oldenburg
-		mother=100012809	# Elisabeth Welf
+		mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 		1580.09.24={birth=yes}
 		1653.12.21={death=yes}
 	}
@@ -1839,7 +1858,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013025	# Johann von Oldenburg
-		mother=100012809	# Elisabeth Welf
+		mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 		1581.11.26={birth=yes}
 		1627.08.01={add_spouse=100000319}	# Juliane von Sachsen-Lauenburg
 		1632.02.05={add_spouse=100012693}	# Eleonore von Anhalt-Zerbst
@@ -1928,7 +1947,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013025	# Johann von Oldenburg
-		mother=100012809	# Elisabeth Welf
+		mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 		1583.02.24={birth=yes}  # Sonderburg
 		1638.04.10={death=yes}
 	}
@@ -1937,7 +1956,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013025	# Johann von Oldenburg
-		mother=100012809	# Elisabeth Welf
+		mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 		1584.03.15={birth=yes}  # Sonderburg
 		1624.05.23={add_spouse=100000321}	# Sofie Hedwig von Sachsen-Lauenburg
 		1663.09.27={death=yes}  # Glücksburg
@@ -1949,18 +1968,18 @@
 			father=100005364	# Philipp von Oldenburg
 			mother=100000321	# Sofie Hedwig von Sachsen-Lauenburg
 			1627.06.19={birth=yes}  # Glücksburg
-			1663.09.20={add_spouse=100011949}	# Sibylle v. Braunschweig-Lüneburg
+			1663.09.20={add_spouse=100011949}	# Sibylle von Braunschweig-Lüneburg
 			1672.05.10={add_spouse=100005597}	# Agnes Hedwig von Oldenburg
 			1698.11.17={death=yes}  # Glücksburg
 		}
-			100005366={ #// 3f) Philipp Ernst, Duke von Schleswig-Holstein-Glücksburg (Glücksburg 5 May 1673-Glücksburg 12 Nov 1729); m.1st Eisenberg 15 Feb 1699 Pss Christiane von Sachsen-Eisenberg (Eisenberg 4 Mar 1679-Glücksburg 24 May 1722); m.2nd Glücksburg 2 Sep 1722 Katharine Christine Gfn von Ahlefeld (Torrild 8 Nov 1687-Glücksburg 8 May 1726); m.3rd Augustenburg 1 Aug 1726 Pss Charlotte Marie von Schleswig-Holstein-Sonderburg-Augustenburg (1697-1760)
+			100005366={ #// 3f) Philipp Ernst, Duke von Schleswig-Holstein-Glücksburg (Glücksburg 5 May 1673-Glücksburg 12 Nov 1729); m.1st Eisenberg 15 Feb 1699 Pss Christiane von Sachsen-Eisenberg (Eisenberg 4 Mar 1679-Glücksburg 24 May 1722); m.2nd Glücksburg 2 Sep 1722 Katharine Christine Gfn von Ahlefeld (Torrild 8 Nov 1687-Glücksburg 8 May 1726); m.3rd Augustenburg 1 Aug 1726 Pss Charlotte Marie von Schleswig-Holstein-Sonderburg-Augustenburg (1697-1760) $$
 				name="Philipp Ernst"
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100005365	# Christian von Oldenburg
 				mother=100005597	# Agnes Hedwig von Oldenburg
 				1673.05.05={birth=yes}  # Glücksburg
-				1699.02.15={add_spouse=100007463}	# Christiane v. Wettin
+				1699.02.15={add_spouse=100007463}	# Christiane von Wettin
 				1722.09.02={add_spouse=100098970}	# GFN Katharine Christine von Ahlefeldt
 				1726.08.01={add_spouse=100009345}	# Charlotte von Oldenburg
 				1729.11.12={death=yes}  # Glücksburg
@@ -1971,7 +1990,7 @@
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100005366	# Philipp Ernst von Oldenburg
-					mother=100007463	# Christiane v. Wettin
+					mother=100007463	# Christiane von Wettin
 					1699.11.07={birth=yes}  # Glücksburg
 					1742.06.27={death=yes}  # Glücksburg
 				}
@@ -1980,7 +1999,7 @@
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100005366	# Philipp Ernst von Oldenburg
-					mother=100007463	# Christiane v. Wettin
+					mother=100007463	# Christiane von Wettin
 					1701.04.01={birth=yes}  # Glücksburg
 					1745.06.29={add_spouse=100013124}	# Henriette Auguste zur Lippe-Detmold
 					1766.11.10={death=yes}  # Glücksburg
@@ -1992,7 +2011,7 @@
 						father=100005368	# Friedrich von Oldenburg
 						mother=100013124	# Henriette Auguste zur Lippe-Detmold
 						1747.03.15={birth=yes}  # Glücksburg
-						1769.08.09={add_spouse=100037377}	# Anna Karoline v. Nassau-Weilburg
+						1769.08.09={add_spouse=100037377}	# Anna Karoline von Nassau-Weilburg
 						1779.03.13={death=yes}  # Glücksburg
 					}
 					100005371={ #// 3h) Luise Charlotte (Glücksburg 5 Mar 1749-Köthen 30 Mar 1812); m.Glücksburg 26 Jul 1763 Fst Karl von Anhalt-Köthen (1730-17 Oct 1789) $$
@@ -2020,7 +2039,7 @@
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100005366	# Philipp Ernst von Oldenburg
-					mother=100007463	# Christiane v. Wettin
+					mother=100007463	# Christiane von Wettin
 					1706.07.14={birth=yes}  # Glücksburg
 					1749.06.13={add_spouse=100013140}	# Anne Charlotte zur Lippe-Detmold
 					1761.09.12={death=yes}
@@ -2031,7 +2050,7 @@
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100005366	# Philipp Ernst von Oldenburg
-					mother=100007463	# Christiane v. Wettin
+					mother=100007463	# Christiane von Wettin
 					1710.09.10={birth=yes}  # Glücksburg
 					1790.10.02={death=yes}
 				}
@@ -2112,7 +2131,7 @@
 			father=100005542	# Joachim Ernst von Oldenburg
 			mother=100013052	# Dorothea Auguste von Oldenburg
 			1634.04.08={birth=yes}  # Ahrensbök
-			1673.04.12={add_spouse=100011936}	# Dorothea v. Braunschweig-Lüneburg
+			1673.04.12={add_spouse=100011936}	# Dorothea von Braunschweig-Lüneburg
 			1704.07.02={death=yes}  # Ruhleben
 		}
 			100005544={ #// 1f) Adolf August (Plön 29 Mar 1680-Plön 29 Jun 1704); m.Wolfenbüttel 8 Oct 1701 Pss Elisabeth von Holstein-Norburg (1683-1767) $$
@@ -2120,7 +2139,7 @@
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100005543	# Johann Adolf von Oldenburg
-				mother=100011936	# Dorothea v. Braunschweig-Lüneburg
+				mother=100011936	# Dorothea von Braunschweig-Lüneburg
 				1680.03.29={birth=yes}  # Plön
 				1701.10.08={add_spouse=100005361}	# Elisabeth von Oldenburg
 				1704.06.29={death=yes}  # Plön
@@ -2131,7 +2150,7 @@
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100005543	# Johann Adolf von Oldenburg
-				mother=100011936	# Dorothea v. Braunschweig-Lüneburg
+				mother=100011936	# Dorothea von Braunschweig-Lüneburg
 				1692.12.04={birth=yes}  # Plön
 				1765.04.29={death=yes}  # Fürstenberg
 			}
@@ -2154,7 +2173,7 @@
 				father=100005546	# August von Oldenburg
 				mother=100000480	# Elisabeth Charlotte von Anhalt-Bernburg
 				1668.05.09={birth=yes}  # Magdeburg
-				1704.11.26={add_spouse=100007776}	# Magdalene Juliane v. Wittelsbach
+				1704.11.26={add_spouse=100007776}	# Magdalene Juliane von Pfalz-Zweibrücken-Birkenfeld
 				1721.02.17={add_spouse=100035050}	# Juliane Luise Cirksena
 				1722.01.25={death=yes}
 			}
@@ -2164,7 +2183,7 @@
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100005547	# Joachim Friedrich von Oldenburg
-					mother=100007776	# Magdalene Juliane v. Wittelsbach
+					mother=100007776	# Magdalene Juliane von Pfalz-Zweibrücken-Birkenfeld
 					1713.11.27={birth=yes}  # Plön
 					1778.04.05={death=yes}  # Heilbronn
 				}
@@ -2326,9 +2345,9 @@
 	dynasty=224
 	religion=catholic culture=german
 	father=100013025	# Johann von Oldenburg
-	mother=100012809	# Elisabeth Welf
+	mother=100012809	# Elisabeth von Braunschweig-Grubenhagen
 	1573.02.20={birth=yes}  # Sonderburg
-	1604.11.26={add_spouse=100009159}	# Dorothea v. Schwarzburg-Sondershausen
+	1604.11.26={add_spouse=100009159}	# Dorothea von Schwarzburg-Sondershausen
 	1627.05.13={death=yes}  # Sonderburg
 }
 	100004300={ #// 1a) Johann Christian of Schleswig-Holstein-Sonderburg (Beck 26 Apr 1607-Sonderburg 28 Jun 1653); m.4 Nov 1634 Anna Gfn von Oldenburg (Delmenhorst 28 Mar 1605-Weimar 12 Dec 1688) $$
@@ -2336,7 +2355,7 @@
 		dynasty=224
 		religion=catholic culture=german
 		father=100005263	# Alexander von Oldenburg
-		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		mother=100009159	# Dorothea von Schwarzburg-Sondershausen
 		1607.04.26={birth=yes}  # Beck
 		1634.11.04={add_spouse=100013091}	# Anna von Oldenburg
 		1653.06.28={death=yes}  # Sonderburg
@@ -2394,7 +2413,7 @@
 		dynasty=224
 		religion=catholic culture=german
 		father=100005263	# Alexander von Oldenburg
-		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		mother=100009159	# Dorothea von Schwarzburg-Sondershausen
 		1608.09.12={birth=yes}  # Beck
 		1643.01.01={add_spouse=100086472}	# Dorothea Heshusius
 		1667.09.05={death=yes}  # Tobitschau
@@ -2433,7 +2452,7 @@
 		dynasty=224
 		religion=catholic culture=german
 		father=100005263	# Alexander von Oldenburg
-		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		mother=100009159	# Dorothea von Schwarzburg-Sondershausen
 		1609.10.14={birth=yes}  # Beck
 		1651.06.15={add_spouse=100005536}	# Auguste von Oldenburg
 		1689.01.18={death=yes}  # Augustenburg
@@ -2492,7 +2511,7 @@
 			father=100009331	# Ernst Günther von Oldenburg
 			mother=100005536	# Auguste von Oldenburg
 			1668.11.18={birth=yes}  # Sonderburg
-			1694.11.08={add_spouse=100003367}	# Sophie Amalie zu Leiningen
+			1694.11.08={add_spouse=100003367}	# Sophie Amalie von Leiningen
 			1714.06.02={death=yes}  # Augustenburg
 		}
 			100009338={ #// 1c) Christian August, Duke of Schleswig-Holstein-Sonderburg-Augustenburg (Augustenburg 4 Aug 1696-Augustenburg 28 Jan 1754); m.Kalundborg 21 Jul 1720 Friederike Luise Gfn von Danneskiold-Samsøe (Oct 1699-Sonderburg 2 Dec 1744) $$
@@ -2500,7 +2519,7 @@
 				dynasty=224
 				religion=catholic culture=german
 				father=100009337	# Friedrich Wilhelm von Oldenburg
-				mother=100003367	# Sophie Amalie zu Leiningen
+				mother=100003367	# Sophie Amalie von Leiningen
 				1696.08.04={birth=yes}  # Augustenburg
 				1720.07.21={add_spouse=100004968}	# Friederike Luise Danneskiold-Samsøe
 				1754.01.28={death=yes}  # Augustenburg
@@ -2561,7 +2580,7 @@
 				dynasty=224
 				religion=catholic culture=german
 				father=100009337	# Friedrich Wilhelm von Oldenburg
-				mother=100003367	# Sophie Amalie zu Leiningen
+				mother=100003367	# Sophie Amalie von Leiningen
 				1697.09.05={birth=yes}  # Augustenburg
 				1760.04.30={death=yes}  # Augustenburg
 			}
@@ -2571,7 +2590,7 @@
 				dynasty=224
 				religion=catholic culture=german
 				father=100009337	# Friedrich Wilhelm von Oldenburg
-				mother=100003367	# Sophie Amalie zu Leiningen
+				mother=100003367	# Sophie Amalie von Leiningen
 				1699.03.21={birth=yes}  # Augustenburg
 				1765.10.16={death=yes}  # Augustenburg
 			}
@@ -2580,7 +2599,7 @@
 		dynasty=224
 		religion=catholic culture=german
 		father=100005263	# Alexander von Oldenburg
-		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		mother=100009159	# Dorothea von Schwarzburg-Sondershausen
 		1611.12.18={birth=yes}
 		1676.08.23={death=yes}
 	}
@@ -2591,7 +2610,7 @@
 		dynasty=224
 		religion=catholic culture=german
 		father=100005263	# Alexander von Oldenburg
-		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		mother=100009159	# Dorothea von Schwarzburg-Sondershausen
 		1617.06.28={birth=yes}
 		1696.11.22={death=yes}  # Neuenburg
 	}
@@ -2600,14 +2619,14 @@
 		dynasty=224
 		religion=catholic culture=german
 		father=100005263	# Alexander von Oldenburg
-		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		mother=100009159	# Dorothea von Schwarzburg-Sondershausen
 		1620.10.27={birth=yes}  # Beck
 		1643.11.15={add_spouse=100010666}	# Katharina zu Waldeck u.Pyrmont
-		1650.05.05={add_spouse=100004340}	# Anna Margarete v. Hessen
+		1650.05.05={add_spouse=100004340}	# Anna Margarete von Hessen
 		1688.07.26={add_spouse=100006799}	# Magdalene Christine Reuß
 		1689.03.10={death=yes}  # Schneeberg
 	}
-		100009380={ #// 1b) Dorothea Elisabeth (Paderborn 1645-Vienna 7 Jan 1725); m.1st Linz 30 Oct 1661 Georg Ludwig Gf von Sinzendorf (d.Vienna 14 Dec 1681); m.2nd 1682 Ludwig Gf de Bussy de Rabutin, Marquis de Frémonville (d.16 Nov 1716)
+		100009380={ #// 1b) Dorothea Elisabeth (Paderborn 1645-Vienna 7 Jan 1725); m.1st Linz 30 Oct 1661 Georg Ludwig Gf von Sinzendorf (d.Vienna 14 Dec 1681); m.2nd 1682 Ludwig Gf de Bussy de Rabutin, Marquis de Frémonville (d.16 Nov 1716) $$
 			name="Dorothea Elisabeth"
 			female=yes
 			dynasty=224
@@ -2622,7 +2641,7 @@
 			dynasty=224
 			religion=catholic culture=german
 			father=100009379	# Philipp Ludwig von Oldenburg
-			mother=100004340	# Anna Margarete v. Hessen
+			mother=100004340	# Anna Margarete von Hessen
 			1651.02.02={birth=yes}  # Hasselhecke
 			1672.07.14={add_spouse=100112435}	# Karolina legnicki
 			1680.01.01={remove_spouse=100112435}
@@ -2635,7 +2654,7 @@
 				father=100009381	# Friedrich von Oldenburg
 				mother=100112435	# Karolina legnicki
 				1674.01.12={birth=yes}  # Brieg
-				1713.02.28={add_spouse=100022867}	# Marie Elisabeth v. Liechtenstein
+				1713.02.28={add_spouse=100022867}	# Marie Elisabeth von Liechtenstein
 				1744.03.04={death=yes}  # Vienna
 			}
 				100009383={ #// 1d) Marie Therese Anna (Vienna 19 Dec 1713-Oettingen 14 Jul 1745); m.Schloß Wetzdorf 23 May 1735 Fst Johann Alois I zu Oettingen-Oettingen und Oettingen-Spielberg (d.1780) $$
@@ -2644,7 +2663,7 @@
 					dynasty=224
 					religion=catholic culture=german
 					father=100009382	# Leopold von Oldenburg
-					mother=100022867	# Marie Elisabeth v. Liechtenstein
+					mother=100022867	# Marie Elisabeth von Liechtenstein
 					1713.12.19={birth=yes}  # Vienna
 					1745.07.14={death=yes}  # Oettingen
 				}
@@ -2654,7 +2673,7 @@
 					dynasty=224
 					religion=catholic culture=german
 					father=100009382	# Leopold von Oldenburg
-					mother=100022867	# Marie Elisabeth v. Liechtenstein
+					mother=100022867	# Marie Elisabeth von Liechtenstein
 					1715.12.18={birth=yes}
 					1760.04.18={death=yes}  # Brünn
 				}
@@ -2664,7 +2683,7 @@
 					dynasty=224
 					religion=catholic culture=german
 					father=100009382	# Leopold von Oldenburg
-					mother=100022867	# Marie Elisabeth v. Liechtenstein
+					mother=100022867	# Marie Elisabeth von Liechtenstein
 					1716.09.02={birth=yes}  # Vienna
 					1798.06.13={death=yes}  # convent Ste-Walburge Eichstätt Bavaria
 				}
@@ -2674,7 +2693,7 @@
 					dynasty=224
 					religion=catholic culture=german
 					father=100009382	# Leopold von Oldenburg
-					mother=100022867	# Marie Elisabeth v. Liechtenstein
+					mother=100022867	# Marie Elisabeth von Liechtenstein
 					1718.02.18={birth=yes}  # Vienna
 					1765.06.04={death=yes}  # Horazdiowitz
 				}
@@ -2684,7 +2703,7 @@
 			dynasty=224
 			religion=catholic culture=german
 			father=100009379	# Philipp Ludwig von Oldenburg
-			mother=100004340	# Anna Margarete v. Hessen
+			mother=100004340	# Anna Margarete von Hessen
 			1653.05.04={birth=yes}  # Homburg
 			1684.08.19={death=yes}  # Schleusingen
 		}
@@ -2693,7 +2712,7 @@
 			dynasty=224
 			religion=catholic culture=german
 			father=100009379	# Philipp Ludwig von Oldenburg
-			mother=100004340	# Anna Margarete v. Hessen
+			mother=100004340	# Anna Margarete von Hessen
 			1654.04.08={birth=yes}  # Homburg vor der Höhe
 			1690.01.01={death=yes}
 		}
@@ -2703,7 +2722,7 @@
 			dynasty=224
 			religion=catholic culture=german
 			father=100009379	# Philipp Ludwig von Oldenburg
-			mother=100004340	# Anna Margarete v. Hessen
+			mother=100004340	# Anna Margarete von Hessen
 			1655.05.28={birth=yes}  # Lissberg
 			1702.08.16={death=yes}  # Vienna
 		}
@@ -2712,7 +2731,7 @@
 			dynasty=224
 			religion=catholic culture=german
 			father=100009379	# Philipp Ludwig von Oldenburg
-			mother=100004340	# Anna Margarete v. Hessen
+			mother=100004340	# Anna Margarete von Hessen
 			1661.06.15={birth=yes}  # Lissberg
 			1711.02.23={death=yes}  # Ochsenkopf
 		}
@@ -2722,7 +2741,7 @@
 			dynasty=224
 			religion=catholic culture=german
 			father=100009379	# Philipp Ludwig von Oldenburg
-			mother=100004340	# Anna Margarete v. Hessen
+			mother=100004340	# Anna Margarete von Hessen
 			1664.05.30={birth=yes}  # Wiesenburg
 			1720.10.25={death=yes}  # Wetzdorf
 		}
@@ -2732,7 +2751,7 @@
 			dynasty=224
 			religion=catholic culture=german
 			father=100009379	# Philipp Ludwig von Oldenburg
-			mother=100004340	# Anna Margarete v. Hessen
+			mother=100004340	# Anna Margarete von Hessen
 			1665.07.04={birth=yes}  # Wiesenburg
 			1748.02.25={death=yes}  # Neustadt_an_der_Orla
 		}
@@ -2742,7 +2761,7 @@
 			dynasty=224
 			religion=catholic culture=german
 			father=100009379	# Philipp Ludwig von Oldenburg
-			mother=100004340	# Anna Margarete v. Hessen
+			mother=100004340	# Anna Margarete von Hessen
 			1668.06.24={birth=yes}  # Wiesenburg
 			1732.08.03={death=yes}  # Neustadt_an_der_Orla
 		}
@@ -2763,11 +2782,11 @@
 	dynasty_house=oldenburg_shsb
 	religion=lutheran culture=german
 	father=100005263	# Alexander von Oldenburg
-	mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+	mother=100009159	# Dorothea von Schwarzburg-Sondershausen
 	1612.11.15={birth=yes}
 	1645.01.19={add_spouse=100013092}	# Klara von Oldenburg
 	1649.06.01={add_spouse=100013094}	# Sidonie von Oldenburg
-	1651.04.12={add_spouse=100037321}	# Marie Sibylle v. Nassau-Weilburg
+	1651.04.12={add_spouse=100037321}	# Marie Sibylle von Nassau-Weilburg
 	1675.05.06={death=yes}
 }
 	100009349={ #// 1b) Sophie Luise (Beck 15 Apr 1650-Bremen 4 Dec 1714); m.3 Apr 1674 Friedrich Gf zur Lippe-Brake (d.13 Jan 1684) $$
@@ -2775,7 +2794,7 @@
 		female=yes
 		dynasty_house=oldenburg_shsb
 		religion=lutheran culture=german
-		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
+		father=100009348	# August Philipp von Schleswig-Holstein-Sonderburg-Beck
 		mother=100013094	# Sidonie von Oldenburg
 		1650.04.15={birth=yes}
 		1714.12.04={death=yes}
@@ -2784,8 +2803,8 @@
 		name=August
 		dynasty_house=oldenburg_shsb
 		religion=lutheran culture=german
-		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
-		mother=100037321	# Marie Sibylle v. Nassau-Weilburg
+		father=100009348	# August Philipp von Schleswig-Holstein-Sonderburg-Beck
+		mother=100037321	# Marie Sibylle von Nassau-Weilburg
 		1652.02.13={birth=yes}
 		1676.08.01={add_spouse=100003036}	# Hedwig Luise zu Schaumburg-Lippe
 		1689.09.26={death=yes}
@@ -2794,7 +2813,7 @@
 			name="Friedrich Wilhelm"
 			dynasty_house=oldenburg_shsb
 			religion=lutheran culture=german
-			father=100009350	# August v. Schleswig-Holstein-Sonderburg-Beck
+			father=100009350	# August von Schleswig-Holstein-Sonderburg-Beck
 			mother=100003036	# Hedwig Luise zu Schaumburg-Lippe
 			1682.05.02={birth=yes}
 			1708.02.08={add_spouse=100085468}	# CTSA Marie Antonie Isnardi di Castello
@@ -2805,7 +2824,7 @@
 				female=yes
 				dynasty_house=oldenburg_shsb
 				religion=lutheran culture=german
-				father=100009352	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
+				father=100009352	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Beck
 				mother=100085468	# CTSA Marie Antonie Isnardi di Castello
 				1717.08.02={birth=yes}
 				1789.02.07={death=yes}
@@ -2815,7 +2834,7 @@
 				female=yes
 				dynasty_house=oldenburg_shsb
 				religion=lutheran culture=german
-				father=100009352	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
+				father=100009352	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Beck
 				mother=100085468	# CTSA Marie Antonie Isnardi di Castello
 				1719.12.03={birth=yes}
 				1774.10.30={death=yes}
@@ -2824,8 +2843,8 @@
 		name="Friedrich Ludwig"
 		dynasty_house=oldenburg_shsb
 		religion=lutheran culture=german
-		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
-		mother=100037321	# Marie Sibylle v. Nassau-Weilburg
+		father=100009348	# August Philipp von Schleswig-Holstein-Sonderburg-Beck
+		mother=100037321	# Marie Sibylle von Nassau-Weilburg
 		1653.04.06={birth=yes}
 		1685.01.01={add_spouse=100009334}	# Luise Charlotte von Oldenburg
 		1728.03.07={death=yes}
@@ -2835,16 +2854,16 @@
 			female=yes
 			dynasty_house=oldenburg_shsb
 			religion=lutheran culture=german
-			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			father=100009355	# Friedrich Ludwig von Schleswig-Holstein-Sonderburg-Beck
 			mother=100009334	# Luise Charlotte von Oldenburg
 			1685.12.04={birth=yes}
 			1761.12.25={death=yes}
 		}
-		100009357={ #// 2c) Friedrich Wilhelm II, Duke of Schleswig-Holstein-Sonderburg-Beck (Potsdam 18 Jun 1687-Königsberg 11 Nov 1749); m.1st Luise-Felizitas von Loss Gfn Dabrowa; m.2nd Schlodien 5 Nov 1721 Ursula Anna Bggfn u.Gfn zu Dohna-Schlodien (Carwinden 31 Dec 1700-Königsberg 17 Mar 1761)
+		100009357={ #// 2c) Friedrich Wilhelm II, Duke of Schleswig-Holstein-Sonderburg-Beck (Potsdam 18 Jun 1687-Königsberg 11 Nov 1749); m.1st Luise-Felizitas von Loss Gfn Dabrowa; m.2nd Schlodien 5 Nov 1721 Ursula Anna Bggfn u.Gfn zu Dohna-Schlodien (Carwinden 31 Dec 1700-Königsberg 17 Mar 1761) $$
 			name="Friedrich Wilhelm"
 			dynasty_house=oldenburg_shsb
 			religion=lutheran culture=german
-			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			father=100009355	# Friedrich Ludwig von Schleswig-Holstein-Sonderburg-Beck
 			mother=100009334	# Luise Charlotte von Oldenburg
 			1687.06.18={birth=yes}
 			1712.01.01={add_spouse=100086544}	# GFN Luise-Felizitas von Loss
@@ -2857,7 +2876,7 @@
 				female=yes
 				dynasty_house=oldenburg_shsb
 				religion=lutheran culture=german
-				father=100009357	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
+				father=100009357	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Beck
 				mother=100009927	# Ursula Anna zu Dohna-Schlodien
 				1722.12.31={birth=yes}
 				1763.08.07={death=yes}
@@ -2866,7 +2885,7 @@
 				name="Friedrich Wilhelm"
 				dynasty_house=oldenburg_shsb
 				religion=lutheran culture=german
-				father=100009357	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
+				father=100009357	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Beck
 				mother=100009927	# Ursula Anna zu Dohna-Schlodien
 				1723.11.04={birth=yes}
 				1757.05.06={death=yes}
@@ -2875,10 +2894,10 @@
 			name="Karl Ludwig"
 			dynasty_house=oldenburg_shsb
 			religion=lutheran culture=german
-			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			father=100009355	# Friedrich Ludwig von Schleswig-Holstein-Sonderburg-Beck
 			mother=100009334	# Luise Charlotte von Oldenburg
 			1690.09.18={birth=yes}
-			1730.08.10={add_spouse=100007573}	# Anna Karolina v. Wettin
+			1730.08.10={add_spouse=100007573}	# Anna Karolina von Wettin
 			1733.01.01={remove_spouse=100007573}
 			1774.09.22={death=yes}
 		}
@@ -2886,8 +2905,8 @@
 				name="Karl Friedrich"
 				dynasty_house=oldenburg_shsb
 				religion=lutheran culture=german
-				father=100009360	# Karl Ludwig v. Schleswig-Holstein-Sonderburg-Beck
-				mother=100007573	# Anna Karolina v. Wettin
+				father=100009360	# Karl Ludwig von Schleswig-Holstein-Sonderburg-Beck
+				mother=100007573	# Anna Karolina von Wettin
 				1732.01.05={birth=yes}
 				1772.02.21={death=yes}
 			}
@@ -2896,7 +2915,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsb
 			religion=lutheran culture=german
-			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			father=100009355	# Friedrich Ludwig von Schleswig-Holstein-Sonderburg-Beck
 			mother=100009334	# Luise Charlotte von Oldenburg
 			1694.04.27={birth=yes}
 			1773.01.10={death=yes}
@@ -2905,11 +2924,11 @@
 			name="Peter August"
 			dynasty_house=oldenburg_shsb
 			religion=lutheran culture=german
-			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			father=100009355	# Friedrich Ludwig von Schleswig-Holstein-Sonderburg-Beck
 			mother=100009334	# Luise Charlotte von Oldenburg
 			1696.12.07={birth=yes}
-			1723.09.03={add_spouse=100192223}	# Sofie v. Hessen-Philippsthal
-			1742.03.15={add_spouse=100020306}	# Natalia Golovin
+			1723.09.03={add_spouse=100192223}	# Sofie von Hessen-Philippsthal
+			1742.03.15={add_spouse=100020306}	# Наталья Николаевна Головин
 			1775.02.24={death=yes}
 		}
 			100004991={ #// 2d) Ulrike Amelie Wilhelmine (Marburg 20 May 1726-    )
@@ -2917,8 +2936,8 @@
 				female=yes
 				dynasty_house=oldenburg_shsb
 				religion=lutheran culture=german
-				father=100009364	# Peter August v. Schleswig-Holstein-Sonderburg-Beck
-				mother=100192223	# Sofie v. Hessen-Philippsthal
+				father=100009364	# Peter August von Schleswig-Holstein-Sonderburg-Beck
+				mother=100192223	# Sofie von Hessen-Philippsthal
 				1726.05.20={birth=yes}
 				1795.01.01={death=yes}  # EST.
 			}
@@ -2926,10 +2945,10 @@
 				name="Karl Anton"
 				dynasty_house=oldenburg_shsb
 				religion=lutheran culture=german
-				father=100009364	# Peter August v. Schleswig-Holstein-Sonderburg-Beck
-				mother=100192223	# Sofie v. Hessen-Philippsthal
+				father=100009364	# Peter August von Schleswig-Holstein-Sonderburg-Beck
+				mother=100192223	# Sofie von Hessen-Philippsthal
 				1727.08.10={birth=yes}
-				1754.05.30={add_spouse=100009186}	# Friederike zu Dohna-Schlobitten
+				1754.05.30={add_spouse=100009186}	# Friederike von Dohna-Schlobitten
 				1759.08.08={death=yes}
 			}
 				# Schleswig-Holstein-Sonderburg-Beck -> 1e) Friedrich Karl Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck (Königsberg 20 Aug 1757-Wellinsgbüttel 24 Apr 1816); m.Königsberg 9 Mar 1780 Friederike Gfn von Schlieben (Königsberg 28 Feb 1757-Schleswig 17 Dec 1827)
@@ -2938,8 +2957,8 @@
 				female=yes
 				dynasty_house=oldenburg_shsb
 				religion=lutheran culture=german
-				father=100009364	# Peter August v. Schleswig-Holstein-Sonderburg-Beck
-				mother=100020306	# Natalia Golovin
+				father=100009364	# Peter August von Schleswig-Holstein-Sonderburg-Beck
+				mother=100020306	# Наталья Николаевна Головин
 				1750.02.23={birth=yes}
 				1811.12.10={death=yes}
 			}
@@ -2948,7 +2967,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsb
 			religion=lutheran culture=german
-			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			father=100009355	# Friedrich Ludwig von Schleswig-Holstein-Sonderburg-Beck
 			mother=100009334	# Luise Charlotte von Oldenburg
 			1698.12.28={birth=yes}
 			1768.01.10={death=yes}
@@ -2958,8 +2977,8 @@
 		female=yes
 		dynasty_house=oldenburg_shsb
 		religion=lutheran culture=german
-		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
-		mother=100037321	# Marie Sibylle v. Nassau-Weilburg
+		father=100009348	# August Philipp von Schleswig-Holstein-Sonderburg-Beck
+		mother=100037321	# Marie Sibylle von Nassau-Weilburg
 		1656.01.01={birth=yes}  # Beck
 		1739.11.09={death=yes}  # Bückeburg
 	}
@@ -2967,8 +2986,8 @@
 		name="Ernst Kasimir"
 		dynasty_house=oldenburg_shsb
 		religion=lutheran culture=german
-		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
-		mother=100037321	# Marie Sibylle v. Nassau-Weilburg
+		father=100009348	# August Philipp von Schleswig-Holstein-Sonderburg-Beck
+		mother=100037321	# Marie Sibylle von Nassau-Weilburg
 		1668.01.10={birth=yes}
 		1693.01.01={add_spouse=100086567}	# GFN Marie Christine von Prösing
 		1695.02.05={death=yes}
@@ -2992,7 +3011,7 @@
 		female=yes
 		dynasty_house=oldenburg_shsa
 		religion=lutheran culture=german
-		father=100006102	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+		father=100006102	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 		mother=100005589	# Charlotte von Oldenburg
 		1764.02.17={birth=yes}
 		1815.08.02={death=yes}
@@ -3001,7 +3020,7 @@
 		name="Friedrich Christian"
 		dynasty_house=oldenburg_shsa
 		religion=lutheran culture=german
-		father=100006102	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+		father=100006102	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 		mother=100005589	# Charlotte von Oldenburg
 		1765.09.28={birth=yes}
 		1786.05.27={add_spouse=100003170}	# Louise von Oldenburg
@@ -3012,7 +3031,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsa
 			religion=lutheran culture=german
-			father=100004752	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+			father=100004752	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 			mother=100003170	# Louise von Oldenburg
 			1796.06.28={birth=yes}
 			1881.03.09={death=yes}
@@ -3021,7 +3040,7 @@
 			name=Christian
 			dynasty_house=oldenburg_shsa
 			religion=lutheran culture=german
-			father=100004752	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+			father=100004752	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 			mother=100003170	# Louise von Oldenburg
 			1798.07.19={birth=yes}
 			1820.09.18={add_spouse=100004791}	# Lovisa Sophie Danneskiold-Samsøe
@@ -3032,7 +3051,7 @@
 				female=yes
 				dynasty_house=oldenburg_shsa
 				religion=lutheran culture=german
-				father=100004754	# Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+				father=100004754	# Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 				mother=100004791	# Lovisa Sophie Danneskiold-Samsøe
 				1823.08.28={birth=yes}
 				1872.05.30={death=yes}
@@ -3042,7 +3061,7 @@
 				female=yes
 				dynasty_house=oldenburg_shsa
 				religion=lutheran culture=german
-				father=100004754	# Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+				father=100004754	# Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 				mother=100004791	# Lovisa Sophie Danneskiold-Samsøe
 				1826.01.15={birth=yes}
 				1901.05.03={death=yes}
@@ -3051,7 +3070,7 @@
 				name=Friedrich
 				dynasty_house=oldenburg_shsa
 				religion=lutheran culture=german
-				father=100004754	# Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+				father=100004754	# Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 				mother=100004791	# Lovisa Sophie Danneskiold-Samsøe
 				1829.07.06={birth=yes}
 				1856.09.11={add_spouse=100001747}	# Adelheid Viktorie zu Hohenlohe-Langenburg
@@ -3062,7 +3081,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004757	# Friedrich v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004757	# Friedrich von Schleswig-Holstein-Sonderburg-Augustenburg
 					mother=100001747	# Adelheid Viktorie zu Hohenlohe-Langenburg
 					1858.10.22={birth=yes}
 					1921.04.11={death=yes}
@@ -3072,7 +3091,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004757	# Friedrich v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004757	# Friedrich von Schleswig-Holstein-Sonderburg-Augustenburg
 					mother=100001747	# Adelheid Viktorie zu Hohenlohe-Langenburg
 					1860.01.25={birth=yes}
 					1932.02.20={death=yes}
@@ -3081,10 +3100,10 @@
 					name="Ernst Günther"
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004757	# Friedrich v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004757	# Friedrich von Schleswig-Holstein-Sonderburg-Augustenburg
 					mother=100001747	# Adelheid Viktorie zu Hohenlohe-Langenburg
 					1863.08.11={birth=yes}
-					1898.08.02={add_spouse=100003803}	# Dorothea Maria v. Sachsen-Coburg u.Gotha
+					1898.08.02={add_spouse=100003803}	# Dorothea Maria von Sachsen-Coburg u.Gotha
 					1921.02.22={death=yes}
 				}
 				100004761={ #// 6d) Feodora Luise Sophie Adelheid Henriette Amalie (Kiel 8 Apr 1866-Bad Nauheim 28 Apr 1952); m.Berlin 24 Jun 1889 Friedrich Leopold Pr of Prussia (Berlin 16 Nov 1865-Flatow 13 Sep 1931) $$
@@ -3092,7 +3111,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004757	# Friedrich v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004757	# Friedrich von Schleswig-Holstein-Sonderburg-Augustenburg
 					mother=100001747	# Adelheid Viktorie zu Hohenlohe-Langenburg
 					1866.04.08={birth=yes}
 					1952.04.28={death=yes}
@@ -3102,7 +3121,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004757	# Friedrich v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004757	# Friedrich von Schleswig-Holstein-Sonderburg-Augustenburg
 					mother=100001747	# Adelheid Viktorie zu Hohenlohe-Langenburg
 					1874.07.03={birth=yes}
 					1910.06.21={death=yes}
@@ -3111,18 +3130,18 @@
 				name="Friedrich Christian"
 				dynasty_house=oldenburg_shsa
 				religion=lutheran culture=german
-				father=100004754	# Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+				father=100004754	# Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 				mother=100004791	# Lovisa Sophie Danneskiold-Samsøe
 				1831.01.22={birth=yes}
-				1866.07.05={add_spouse=100003743}	# Helena v. Sachsen-Coburg u.Gotha
+				1866.07.05={add_spouse=100003743}	# Helena von Sachsen-Coburg u.Gotha
 				1917.10.28={death=yes}
 			}
 				100004764={ #// 1d) Christian Victor Albert Ludwig Ernst Anton (Windsor Castle 14 Apr 1867-Pretoria, So.Africa 29 Oct 1900)
 					name="Christian Victor"
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004763	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
-					mother=100003743	# Helena v. Sachsen-Coburg u.Gotha
+					father=100004763	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
+					mother=100003743	# Helena von Sachsen-Coburg u.Gotha
 					1867.04.14={birth=yes}
 					1900.10.29={death=yes}
 				}
@@ -3130,17 +3149,17 @@
 					name=Albert
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004763	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
-					mother=100003743	# Helena v. Sachsen-Coburg u.Gotha
+					father=100004763	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
+					mother=100003743	# Helena von Sachsen-Coburg u.Gotha
 					1869.02.26={birth=yes}
 					1931.04.27={death=yes}
 				}
-					100004768={ #// E1. Valerie (3 Apr 1900-14 Aug 1953); m.15 Jun 1939 Engelbert-Charles v. Arenberg (20 Apr 1899-27 Apr 1974) %%
+					100004768={ #// E1. Valerie (*3.4.1900, +14.8.1953); m.15.6.1939 Engelbert-Charles von Arenberg (*20.4.1899, +27.4.1974) %%
 						name=Valerie
 						female=yes
 						dynasty_house=oldenburg_shsa
 						religion=lutheran culture=german
-						father=100004765	# Albert v. Schleswig-Holstein-Sonderburg-Augustenburg
+						father=100004765	# Albert von Schleswig-Holstein-Sonderburg-Augustenburg
 						trait=bastard
 						1900.04.03={birth=yes}
 						1953.08.14={death=yes}
@@ -3150,8 +3169,8 @@
 					female=yes
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004763	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
-					mother=100003743	# Helena v. Sachsen-Coburg u.Gotha
+					father=100004763	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
+					mother=100003743	# Helena von Sachsen-Coburg u.Gotha
 					1870.05.03={birth=yes}
 					1948.03.13={death=yes}
 				}
@@ -3160,8 +3179,8 @@
 					female=yes
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004763	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
-					mother=100003743	# Helena v. Sachsen-Coburg u.Gotha
+					father=100004763	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
+					mother=100003743	# Helena von Sachsen-Coburg u.Gotha
 					1872.08.12={birth=yes}
 					1956.12.08={death=yes}
 				}
@@ -3170,16 +3189,16 @@
 				female=yes
 				dynasty_house=oldenburg_shsa
 				religion=lutheran culture=german
-				father=100004754	# Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+				father=100004754	# Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 				mother=100004791	# Lovisa Sophie Danneskiold-Samsøe
 				1833.08.02={birth=yes}
 				1917.10.18={death=yes}
 			}
-		100004770={ #// 3b) Friedrich Emil August, cr Pr von Noer 6 Oct 1864 (Kiel 23 Aug 1800-Beirut 2 Jul 1865;bur Krusendorf); m.1st Augustenburg 17 Sep 1829 Css Henriette Danneskjold-Samsoe (Gisselfeld 9 May 1806-Paris 10 Sep 1858); m.2nd Paris 3 Nov 1864 Mary Esther Lee (New York City 3 Oct 1837-Hannover 4 Jul 1914)
+		100004770={ #// 3b) Friedrich Emil August, cr Pr von Noer 6 Oct 1864 (Kiel 23 Aug 1800-Beirut 2 Jul 1865;bur Krusendorf); m.1st Augustenburg 17 Sep 1829 Css Henriette Danneskjold-Samsoe (Gisselfeld 9 May 1806-Paris 10 Sep 1858); m.2nd Paris 3 Nov 1864 Mary Esther Lee (New York City 3 Oct 1837-Hannover 4 Jul 1914) $$
 			name=Friedrich
 			dynasty_house=oldenburg_shsa
 			religion=lutheran culture=german
-			father=100004752	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+			father=100004752	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 			mother=100003170	# Louise von Oldenburg
 			1800.08.23={birth=yes}
 			1829.09.17={add_spouse=100004792}	# Henriette Danneskiold-Samsøe
@@ -3190,7 +3209,7 @@
 				name="Friedrich Christian"
 				dynasty_house=oldenburg_shsa
 				religion=lutheran culture=german
-				father=100004770	# Friedrich v. Schleswig-Holstein-Sonderburg-Augustenburg
+				father=100004770	# Friedrich von Schleswig-Holstein-Sonderburg-Augustenburg
 				mother=100004792	# Henriette Danneskiold-Samsøe
 				1830.08.23={birth=yes}
 				1870.05.17={add_spouse=100083634}	# Carmelita Eisenblat
@@ -3201,7 +3220,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004771	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004771	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 					mother=100083634	# Carmelita Eisenblat
 					1871.04.22={birth=yes}
 					1948.05.09={death=yes}
@@ -3211,7 +3230,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsa
 					religion=lutheran culture=german
-					father=100004771	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004771	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 					mother=100083634	# Carmelita Eisenblat
 					1873.11.01={birth=yes}
 					1955.06.02={death=yes}
@@ -3221,7 +3240,7 @@
 				female=yes
 				dynasty_house=oldenburg_shsa
 				religion=lutheran culture=german
-				father=100004770	# Friedrich v. Schleswig-Holstein-Sonderburg-Augustenburg
+				father=100004770	# Friedrich von Schleswig-Holstein-Sonderburg-Augustenburg
 				mother=100004792	# Henriette Danneskiold-Samsøe
 				1836.07.29={birth=yes}
 				1866.09.25={death=yes}
@@ -3230,7 +3249,7 @@
 		name="Friedrich Karl"
 		dynasty_house=oldenburg_shsa
 		religion=lutheran culture=german
-		father=100006102	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+		father=100006102	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 		mother=100005589	# Charlotte von Oldenburg
 		1767.03.08={birth=yes}
 		1801.09.29={add_spouse=100093028}	# Sophie Eleonore von Scheel
@@ -3240,7 +3259,7 @@
 			name="Friedrich August"
 			dynasty_house=oldenburg_shsa
 			religion=lutheran culture=german
-			father=100004775	# Friedrich Karl v. Schleswig-Holstein-Sonderburg-Augustenburg
+			father=100004775	# Friedrich Karl von Schleswig-Holstein-Sonderburg-Augustenburg
 			mother=100093028	# Sophie Eleonore von Scheel
 			1802.02.03={birth=yes}
 			1843.01.31={death=yes}
@@ -3250,7 +3269,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsa
 			religion=lutheran culture=german
-			father=100004775	# Friedrich Karl v. Schleswig-Holstein-Sonderburg-Augustenburg
+			father=100004775	# Friedrich Karl von Schleswig-Holstein-Sonderburg-Augustenburg
 			mother=100093028	# Sophie Eleonore von Scheel
 			1803.01.24={birth=yes}
 			1880.02.08={death=yes}
@@ -3260,7 +3279,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsa
 			religion=lutheran culture=german
-			father=100004775	# Friedrich Karl v. Schleswig-Holstein-Sonderburg-Augustenburg
+			father=100004775	# Friedrich Karl von Schleswig-Holstein-Sonderburg-Augustenburg
 			mother=100093028	# Sophie Eleonore von Scheel
 			1804.02.09={birth=yes}
 			1887.10.10={death=yes}
@@ -3269,7 +3288,7 @@
 			name="Heinrich Carl"
 			dynasty_house=oldenburg_shsa
 			religion=lutheran culture=german
-			father=100004775	# Friedrich Karl v. Schleswig-Holstein-Sonderburg-Augustenburg
+			father=100004775	# Friedrich Karl von Schleswig-Holstein-Sonderburg-Augustenburg
 			mother=100093028	# Sophie Eleonore von Scheel
 			1810.10.13={birth=yes}
 			1871.01.20={death=yes}
@@ -3279,7 +3298,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsa
 			religion=lutheran culture=german
-			father=100004775	# Friedrich Karl v. Schleswig-Holstein-Sonderburg-Augustenburg
+			father=100004775	# Friedrich Karl von Schleswig-Holstein-Sonderburg-Augustenburg
 			mother=100093028	# Sophie Eleonore von Scheel
 			1813.01.09={birth=yes}
 			1870.09.19={death=yes}
@@ -3289,7 +3308,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsa
 			religion=lutheran culture=german
-			father=100004775	# Friedrich Karl v. Schleswig-Holstein-Sonderburg-Augustenburg
+			father=100004775	# Friedrich Karl von Schleswig-Holstein-Sonderburg-Augustenburg
 			mother=100093028	# Sophie Eleonore von Scheel
 			1815.01.30={birth=yes}
 			1861.04.11={death=yes}
@@ -3298,7 +3317,7 @@
 		name="Christian August"
 		dynasty_house=oldenburg_shsa
 		religion=lutheran culture=german
-		father=100006102	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+		father=100006102	# Friedrich Christian von Schleswig-Holstein-Sonderburg-Augustenburg
 		mother=100005589	# Charlotte von Oldenburg
 		1768.07.09={birth=yes}
 		1810.05.28={death=yes}
@@ -3312,10 +3331,10 @@
 	dynasty=224
 	religion=lutheran culture=danish
 	father=100003318	# Christian von Oldenburg
-	mother=100002094	# Magdalene v. Hohenzollern
+	mother=100002094	# Magdalene von Hohenzollern
 	1723.03.31={birth=yes}
-	1743.12.11={add_spouse=100001137}	# Louisa v. Hannover
-	1752.07.08={add_spouse=100007240}	# Juliane v. Braunschweig-Bevern
+	1743.12.11={add_spouse=100001137}	# Louisa von Hannover
+	1752.07.08={add_spouse=100007240}	# Juliane von Braunschweig-Bevern
 	1766.01.14={death=yes}
 }
 	100003164={ #// 2a) Sophie Magdalene (Christiansborg 3 Jul 1746-Ulriksdal 21 Aug 1813); m.by proxy at Copenhagen on 1 Oct 1766 and in person at Stockholm 4 Nov 1766 King Gustaf III of Sweden (Stockholm 24 Jan 1746-Stockholm 29 Mar 1792) $$
@@ -3324,7 +3343,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100003319	# Frederik von Oldenburg
-		mother=100001137	# Louisa v. Hannover
+		mother=100001137	# Louisa von Hannover
 		1746.07.03={birth=yes}
 		1813.08.21={death=yes}
 	}
@@ -3334,7 +3353,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100003319	# Frederik von Oldenburg
-		mother=100001137	# Louisa v. Hannover
+		mother=100001137	# Louisa von Hannover
 		1747.07.10={birth=yes}
 		1820.01.14={death=yes}
 	}
@@ -3343,9 +3362,9 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100003319	# Frederik von Oldenburg
-		mother=100001137	# Louisa v. Hannover
+		mother=100001137	# Louisa von Hannover
 		1749.01.29={birth=yes}
-		1766.11.08={add_spouse=100001132}	# Caroline v. Hannover
+		1766.11.08={add_spouse=100001132}	# Caroline von Hannover
 		1772.01.01={remove_spouse=100001132}
 		1808.03.12={death=yes}
 	}
@@ -3354,9 +3373,9 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003166	# Christian von Oldenburg
-			mother=100001132	# Caroline v. Hannover
+			mother=100001132	# Caroline von Hannover
 			1768.01.28={birth=yes}
-			1790.07.31={add_spouse=100001487}	# Marie v. Hessen-Kassel
+			1790.07.31={add_spouse=100001487}	# Marie von Hessen-Kassel
 			1839.12.03={death=yes}
 		}
 			100003168={ #// 3c) Caroline (Christiansborg 28 Oct 1793-Copenhagen 30 Mar 1881); m.Frederiksborg 1 Aug 1829 Ferdinand Pr of Denmark (1792-1863; below) $$
@@ -3365,7 +3384,7 @@
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100003167	# Frederik von Oldenburg
-				mother=100001487	# Marie v. Hessen-Kassel
+				mother=100001487	# Marie von Hessen-Kassel
 				1793.10.28={birth=yes}
 				1881.03.30={death=yes}
 			}
@@ -3375,7 +3394,7 @@
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100003167	# Frederik von Oldenburg
-				mother=100001487	# Marie v. Hessen-Kassel
+				mother=100001487	# Marie von Hessen-Kassel
 				1808.01.18={birth=yes}
 				1891.05.30={death=yes}
 			}
@@ -3385,7 +3404,7 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003166	# Christian von Oldenburg
-			mother=100001132	# Caroline v. Hannover
+			mother=100001132	# Caroline von Hannover
 			1771.07.07={birth=yes}
 			1843.01.13={death=yes}
 		}
@@ -3395,7 +3414,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100003319	# Frederik von Oldenburg
-		mother=100001137	# Louisa v. Hannover
+		mother=100001137	# Louisa von Hannover
 		1750.01.30={birth=yes}
 		1831.01.12={death=yes}
 	}
@@ -3404,9 +3423,9 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100003319	# Frederik von Oldenburg
-		mother=100007240	# Juliane v. Braunschweig-Bevern
+		mother=100007240	# Juliane von Braunschweig-Bevern
 		1753.10.11={birth=yes}
-		1774.10.21={add_spouse=100002889}	# Sophie v. Mecklenburg
+		1774.10.21={add_spouse=100002889}	# Sophie von Mecklenburg-Schwerin
 		1805.12.07={death=yes}
 	}
 		100003173={ #// 2b) CHRISTIAN VIII Frederik, King of Denmark (Christiansborg 18 Sep 1786-Amalienborg 20 Jan 1848); m.1st Ludwigslust 21 Jun 1806 (div 1810) Charlotte Dss of Mecklenburg-Schwerin (Ludwigslust 4 Dec 1784-Rome 13 Jul 1840); m.2d Schloß Augustenburg 22 May 1815 Pss Karoline of Schleswig-Holstein- Sonderburg-Augustenburg (Copenhagen 28 Jun 1796-Amalienborg 9 Mar 1881) $$
@@ -3414,23 +3433,23 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003172	# Frederik von Oldenburg
-			mother=100002889	# Sophie v. Mecklenburg
+			mother=100002889	# Sophie von Mecklenburg-Schwerin
 			1786.09.18={birth=yes}
-			1806.06.21={add_spouse=100002887}	# Charlotte v. Mecklenburg
+			1806.06.21={add_spouse=100002887}	# Charlotte von Mecklenburg-Schwerin
 			1810.01.01={remove_spouse=100002887}
-			1815.05.22={add_spouse=100004753}	# Karoline Amalie v. Schleswig-Holstein-Sonderburg-Augustenburg
+			1815.05.22={add_spouse=100004753}	# Karoline Amalie von Schleswig-Holstein-Sonderburg-Augustenburg
 			1848.01.20={death=yes}
 		}
-			100003174={ #// 2c) Frederik VII Carl Christian, King of Denmark (Amalienborg 6 Oct 1808-Glücksburg 15 Nov 1863); on his death he was succeeded by Pr Christian of Schleswig-Holstein-Sonderburg-Glücksburg (see Part 2); m.1st Copenhagen 1 Nov 1828 (div 1837) Wilhelmine Pss of Denmark (1808-1891; above); m.2d Neustrelitz 10 Jun 1841 (div 1846) Caroline Dss of Mecklenburg-Strelitz (Neustrelitz 10 Jan 1821-Neustrelitz 1 Jun 1876); m.3d (morganatically) Frederiksborg 7 Aug 1850 Lovisa Christina, cr Lehnsgräfin Danner 1850 (Copenhagen 21 Apr 1815-Cannes [Genoa?] 6 Mar 1874), natural daughter of G. L. Köppen and of Juliane Caroline Rasmussen
+			100003174={ #// 2c) Frederik VII Carl Christian, King of Denmark (Amalienborg 6 Oct 1808-Glücksburg 15 Nov 1863); on his death he was succeeded by Pr Christian of Schleswig-Holstein-Sonderburg-Glücksburg (see Part 2); m.1st Copenhagen 1 Nov 1828 (div 1837) Wilhelmine Pss of Denmark (1808-1891; above); m.2d Neustrelitz 10 Jun 1841 (div 1846) Caroline Dss of Mecklenburg-Strelitz (Neustrelitz 10 Jan 1821-Neustrelitz 1 Jun 1876); m.3d (morganatically) Frederiksborg 7 Aug 1850 Lovisa Christina, cr Lehnsgräfin Danner 1850 (Copenhagen 21 Apr 1815-Cannes [Genoa?] 6 Mar 1874), natural daughter of G. L. Köppen and of Juliane Caroline Rasmussen $$
 				name=Frederik
 				dynasty=224
 				religion=lutheran culture=danish
 				father=100003173	# Christian von Oldenburg
-				mother=100002887	# Charlotte v. Mecklenburg
+				mother=100002887	# Charlotte von Mecklenburg-Schwerin
 				1808.10.06={birth=yes}
 				1828.11.01={add_spouse=100003169}	# Wilhelmine von Oldenburg
 				1837.01.01={remove_spouse=100003169}
-				1841.06.10={add_spouse=100002968}	# Karoline v. Mecklenburg
+				1841.06.10={add_spouse=100002968}	# Karoline von Mecklenburg-Strelitz
 				1846.01.01={remove_spouse=100002968}
 				1850.08.07={add_spouse=100081936}	# Lovisa Christina Danner
 				1863.11.15={death=yes}
@@ -3441,7 +3460,7 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003172	# Frederik von Oldenburg
-			mother=100002889	# Sophie v. Mecklenburg
+			mother=100002889	# Sophie von Mecklenburg-Schwerin
 			1788.02.18={birth=yes}
 			1850.05.09={death=yes}
 		}
@@ -3451,7 +3470,7 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003172	# Frederik von Oldenburg
-			mother=100002889	# Sophie v. Mecklenburg
+			mother=100002889	# Sophie von Mecklenburg-Schwerin
 			1789.10.30={birth=yes}
 			1864.03.28={death=yes}
 		}
@@ -3460,7 +3479,7 @@
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100003172	# Frederik von Oldenburg
-			mother=100002889	# Sophie v. Mecklenburg
+			mother=100002889	# Sophie von Mecklenburg-Schwerin
 			1792.11.22={birth=yes}
 			1829.08.01={add_spouse=100003168}	# Caroline von Oldenburg
 			1863.06.29={death=yes}
@@ -3473,8 +3492,8 @@
 	name=Friedrich
 	dynasty_house=oldenburg_shsb
 	religion=lutheran culture=german
-	father=100009366	# Karl Anton v. Schleswig-Holstein-Sonderburg-Beck
-	mother=100009186	# Friederike zu Dohna-Schlobitten
+	father=100009366	# Karl Anton von Schleswig-Holstein-Sonderburg-Beck
+	mother=100009186	# Friederike von Dohna-Schlobitten
 	1757.08.20={birth=yes}
 	1780.03.09={add_spouse=100086560}	# GFN Friederike von Schlieben
 	1816.04.24={death=yes}
@@ -3484,7 +3503,7 @@
 		female=yes
 		dynasty_house=oldenburg_shsb
 		religion=lutheran culture=german
-		father=100006751	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+		father=100006751	# Friedrich von Schleswig-Holstein-Sonderburg-Beck
 		mother=100086560	# GFN Friederike von Schlieben
 		1780.12.13={birth=yes}
 		1862.01.19={death=yes}
@@ -3494,7 +3513,7 @@
 		female=yes
 		dynasty_house=oldenburg_shsb
 		religion=lutheran culture=german
-		father=100006751	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+		father=100006751	# Friedrich von Schleswig-Holstein-Sonderburg-Beck
 		mother=100086560	# GFN Friederike von Schlieben
 		1783.09.28={birth=yes}
 		1803.11.24={death=yes}
@@ -3503,10 +3522,10 @@
 		name="Friedrich Wilhelm"
 		dynasty_house=oldenburg_shsg
 		religion=lutheran culture=german
-		father=100006751	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+		father=100006751	# Friedrich von Schleswig-Holstein-Sonderburg-Beck
 		mother=100086560	# GFN Friederike von Schlieben
 		1785.01.04={birth=yes}
-		1810.01.26={add_spouse=100001492}	# Luise v. Hessen-Kassel
+		1810.01.26={add_spouse=100001492}	# Luise von Hessen-Kassel
 		1831.02.17={death=yes}
 	}
 		100004895={ #// 1b) Luise Marie Friederike (Gottorp 23 Oct 1810-Dresden 11 May 1869); m.1st Harburg 19 May 1837 Friedrich von Lasperg (1 Dec 1796-9 May 1843); m.2d Dresden 3 Oct 1846 Alfred Gf von Hohenthal (5 Dec 1805-16 Nov 1860)
@@ -3514,8 +3533,8 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=german
-			father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-			mother=100001492	# Luise v. Hessen-Kassel
+			father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+			mother=100001492	# Luise von Hessen-Kassel
 			1810.10.23={birth=yes}
 			1869.05.11={death=yes}
 		}
@@ -3524,8 +3543,8 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=german
-			father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-			mother=100001492	# Luise v. Hessen-Kassel
+			father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+			mother=100001492	# Luise von Hessen-Kassel
 			1811.10.09={birth=yes}
 			1902.07.10={death=yes}
 		}
@@ -3533,8 +3552,8 @@
 			name=Karl
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=german
-			father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-			mother=100001492	# Luise v. Hessen-Kassel
+			father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+			mother=100001492	# Luise von Hessen-Kassel
 			1813.09.30={birth=yes}
 			1838.05.19={add_spouse=100003169}	# Wilhelmine von Oldenburg
 			1878.10.24={death=yes}
@@ -3543,10 +3562,10 @@
 			name=Friedrich
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=german
-			father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-			mother=100001492	# Luise v. Hessen-Kassel
+			father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+			mother=100001492	# Luise von Hessen-Kassel
 			1814.10.23={birth=yes}
-			1841.10.16={add_spouse=100004713}	# Adelheid v. Schaumburg-Lippe
+			1841.10.16={add_spouse=100004713}	# Adelheid zu Schaumburg-Lippe
 			1848.01.01={remove_spouse=100004713}
 			1885.11.27={death=yes}
 		}
@@ -3555,8 +3574,8 @@
 				female=yes
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=german
-				father=100004898	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004713	# Adelheid v. Schaumburg-Lippe
+				father=100004898	# Friedrich von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004713	# Adelheid zu Schaumburg-Lippe
 				1844.02.27={birth=yes}
 				1932.09.16={death=yes}
 			}
@@ -3564,10 +3583,10 @@
 				name="Friedrich Ferdinand"
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=german
-				father=100004898	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004713	# Adelheid v. Schaumburg-Lippe
+				father=100004898	# Friedrich von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004713	# Adelheid zu Schaumburg-Lippe
 				1855.10.12={birth=yes}
-				1885.03.19={add_spouse=100004759}	# Karoline Mathilde v. Schleswig-Holstein-Sonderburg-Augustenburg
+				1885.03.19={add_spouse=100004759}	# Karoline Mathilde von Schleswig-Holstein-Sonderburg-Augustenburg
 				1934.01.21={death=yes}
 			}
 				100004901={ #// 1d) Viktoria Adelheid Helene Luise Marie Friederike (Grünholz 31 Dec 1885-Coburg 3 Oct 1970); m.Glücksburg 11 Oct 1905 Carl Eduard, Duke von Sachsen-Coburg-Gotha, Pr of Great Britain and Ireland, etc (Claremont House 19 Jul 1884-Coburg 6 Mar 1954) $$
@@ -3575,18 +3594,18 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004900	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100004759	# Karoline Mathilde v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004900	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004759	# Karoline Mathilde von Schleswig-Holstein-Sonderburg-Augustenburg
 					1885.12.31={birth=yes}
 					1970.10.03={death=yes}
 				}
-				100004902={ #// 2d) Alexandra Viktoria Auguste Leopoldine Charlotte Amalie Wilhelmine (Grünholz 21 Apr 1887-Lyon 15 Apr 1957); m.1st Berlin 22 Oct 1908 (div 1920) Pr August Wilhelm of Prussia (Potsdam 29 Jan 1887-Stuttgart 26 Mar 1949); m.2d Grünholz 7 Jan 1922 (div 1933) Arnold Rümann (1884-1951)
+				100004902={ #// 2d) Alexandra Viktoria Auguste Leopoldine Charlotte Amalie Wilhelmine (Grünholz 21 Apr 1887-Lyon 15 Apr 1957); m.1st Berlin 22 Oct 1908 (div 1920) Pr August Wilhelm of Prussia (Potsdam 29 Jan 1887-Stuttgart 26 Mar 1949); m.2d Grünholz 7 Jan 1922 (div 1933) Arnold Rümann (1884-1951) $$
 					name=Alexandra
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004900	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100004759	# Karoline Mathilde v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004900	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004759	# Karoline Mathilde von Schleswig-Holstein-Sonderburg-Augustenburg
 					1887.04.21={birth=yes}
 					1957.04.15={death=yes}
 				}
@@ -3595,8 +3614,8 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004900	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100004759	# Karoline Mathilde v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004900	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004759	# Karoline Mathilde von Schleswig-Holstein-Sonderburg-Augustenburg
 					1888.06.01={birth=yes}
 					1962.06.30={death=yes}
 				}
@@ -3605,8 +3624,8 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004900	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100004759	# Karoline Mathilde v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004900	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004759	# Karoline Mathilde von Schleswig-Holstein-Sonderburg-Augustenburg
 					1889.10.19={birth=yes}
 					1964.06.11={death=yes}
 				}
@@ -3614,8 +3633,8 @@
 					name=Friedrich
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004900	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100004759	# Karoline Mathilde v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004900	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004759	# Karoline Mathilde von Schleswig-Holstein-Sonderburg-Augustenburg
 					1891.08.23={birth=yes}
 					1916.02.15={add_spouse=100001737}	# Marie Melita zu Hohenlohe-Langenburg
 					1965.02.12={death=yes}
@@ -3624,7 +3643,7 @@
 						name=Hans
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=german
-						father=100004905	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004905	# Friedrich von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100001737	# Marie Melita zu Hohenlohe-Langenburg
 						1917.05.12={birth=yes}
 						1944.08.10={death=yes}
@@ -3633,7 +3652,7 @@
 						name=Wilhelm
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=german
-						father=100004905	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004905	# Friedrich von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100001737	# Marie Melita zu Hohenlohe-Langenburg
 						1919.09.24={birth=yes}
 						1926.06.17={death=yes}
@@ -3642,10 +3661,10 @@
 						name=Peter
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=german
-						father=100004905	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004905	# Friedrich von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100001737	# Marie Melita zu Hohenlohe-Langenburg
 						1922.04.30={birth=yes}
-						1947.10.09={add_spouse=100004689}	# Marie-Alix v. Schaumburg-Lippe
+						1947.10.09={add_spouse=100004689}	# Marie-Alix zu Schaumburg-Lippe
 						1980.09.30={death=yes}
 					}
 						100004909={ #// 1f) Marita (b.Schloß Luisenlund 5 Sep 1948); m.Glücksburg 23 May 1975 Wilfried Frhr von Plotho (b.Bliestorf 10 Aug 1942)
@@ -3653,58 +3672,58 @@
 							female=yes
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=german
-							father=100004908	# Peter v. Schleswig-Holstein-Sonderburg-Glücksburg
-							mother=100004689	# Marie-Alix v. Schaumburg-Lippe
+							father=100004908	# Peter von Schleswig-Holstein-Sonderburg-Glücksburg
+							mother=100004689	# Marie-Alix zu Schaumburg-Lippe
 							1948.09.05={birth=yes}
 						}
 						100004910={ #// 2f) CHRISTOPH, Duke of Schleswig-Holstein (b.Schloß Luisenlund 22 Aug 1949); m.Glücksburg 23 Sep 1981 Elisabeth Pss zur Lippe-Weissenfeld (b.München 28 Jul 1957) $$
 							name=Christoph
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=german
-							father=100004908	# Peter v. Schleswig-Holstein-Sonderburg-Glücksburg
-							mother=100004689	# Marie-Alix v. Schaumburg-Lippe
+							father=100004908	# Peter von Schleswig-Holstein-Sonderburg-Glücksburg
+							mother=100004689	# Marie-Alix zu Schaumburg-Lippe
 							1949.08.22={birth=yes}
-							1981.09.23={add_spouse=100002628}	# Elisabeth zu Schaumburg-Lippe
+							1981.09.23={add_spouse=100002628}	# Elisabeth zur Lippe-Weißenfeld
 						}
 							100004911={ #// 1g) Sophie (b.Eckernförde 9 Oct 1983)
 								name=Sophie
 								female=yes
 								dynasty_house=oldenburg_shsg
 								religion=lutheran culture=german
-								father=100004910	# Christoph v. Schleswig-Holstein-Sonderburg-Glücksburg
-								mother=100002628	# Elisabeth zu Schaumburg-Lippe
+								father=100004910	# Christoph von Schleswig-Holstein-Sonderburg-Glücksburg
+								mother=100002628	# Elisabeth zur Lippe-Weißenfeld
 								1983.10.09={birth=yes}
 							}
 							100004912={ #// 2g) Friedrich Ferdinand (b.Eckernförde 19 Jul 1985)
 								name="Friedrich Ferdinand"
 								dynasty_house=oldenburg_shsg
 								religion=lutheran culture=german
-								father=100004910	# Christoph v. Schleswig-Holstein-Sonderburg-Glücksburg
-								mother=100002628	# Elisabeth zu Schaumburg-Lippe
+								father=100004910	# Christoph von Schleswig-Holstein-Sonderburg-Glücksburg
+								mother=100002628	# Elisabeth zur Lippe-Weißenfeld
 								1985.07.19={birth=yes}
 							}
 							100004913={ #// 3g) Constantin (b.Eckernförde 14 Jul 1986)
 								name=Constantin
 								dynasty_house=oldenburg_shsg
 								religion=lutheran culture=german
-								father=100004910	# Christoph v. Schleswig-Holstein-Sonderburg-Glücksburg
-								mother=100002628	# Elisabeth zu Schaumburg-Lippe
+								father=100004910	# Christoph von Schleswig-Holstein-Sonderburg-Glücksburg
+								mother=100002628	# Elisabeth zur Lippe-Weißenfeld
 								1986.07.14={birth=yes}
 							}
 							100004914={ #// 4g) Leopold (b.Eckernförde 5 Sep 1991)
 								name=Leopold
 								dynasty_house=oldenburg_shsg
 								religion=lutheran culture=german
-								father=100004910	# Christoph v. Schleswig-Holstein-Sonderburg-Glücksburg
-								mother=100002628	# Elisabeth zu Schaumburg-Lippe
+								father=100004910	# Christoph von Schleswig-Holstein-Sonderburg-Glücksburg
+								mother=100002628	# Elisabeth zur Lippe-Weißenfeld
 								1991.09.05={birth=yes}
 							}
 						100004915={ #// 3f) Alexander (b.Bienebek 9 Jul 1953); m.München 29 Aug 1994 3 Sep 1994 Barbara Beata Fertsch (Friedberg 27 Jul 1961-28 Apr 2009)
 							name=Alexander
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=german
-							father=100004908	# Peter v. Schleswig-Holstein-Sonderburg-Glücksburg
-							mother=100004689	# Marie-Alix v. Schaumburg-Lippe
+							father=100004908	# Peter von Schleswig-Holstein-Sonderburg-Glücksburg
+							mother=100004689	# Marie-Alix zu Schaumburg-Lippe
 							1953.07.09={birth=yes}
 							1994.08.29={add_spouse=100083847}	# Barbara Beata Fertsch
 						}
@@ -3713,7 +3732,7 @@
 								female=yes
 								dynasty_house=oldenburg_shsg
 								religion=lutheran culture=german
-								father=100004915	# Alexander v. Schleswig-Holstein-Sonderburg-Glücksburg
+								father=100004915	# Alexander von Schleswig-Holstein-Sonderburg-Glücksburg
 								mother=100083847	# Barbara Beata Fertsch
 								1995.01.25={birth=yes}
 							}
@@ -3721,7 +3740,7 @@
 								name=Julian
 								dynasty_house=oldenburg_shsg
 								religion=lutheran culture=german
-								father=100004915	# Alexander v. Schleswig-Holstein-Sonderburg-Glücksburg
+								father=100004915	# Alexander von Schleswig-Holstein-Sonderburg-Glücksburg
 								mother=100083847	# Barbara Beata Fertsch
 								1997.10.20={birth=yes}
 							}
@@ -3730,8 +3749,8 @@
 							female=yes
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=german
-							father=100004908	# Peter v. Schleswig-Holstein-Sonderburg-Glücksburg
-							mother=100004689	# Marie-Alix v. Schaumburg-Lippe
+							father=100004908	# Peter von Schleswig-Holstein-Sonderburg-Glücksburg
+							mother=100004689	# Marie-Alix zu Schaumburg-Lippe
 							1956.07.09={birth=yes}
 						}
 					100004919={ #// 4e) Marie Alexandra Caroline-Mathilde Viktoria Irene (Schloß Luisenlund 9 Jul 1927-Friedrichshafen 14 Dec 2000); m.Grünholz 27 Jul 1970 Douglas Barton-Miller (b.San Francisco 8 Dec 1929)
@@ -3739,7 +3758,7 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=german
-						father=100004905	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004905	# Friedrich von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100001737	# Marie Melita zu Hohenlohe-Langenburg
 						1927.07.09={birth=yes}
 						2000.12.14={death=yes}
@@ -3749,8 +3768,8 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004900	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100004759	# Karoline Mathilde v. Schleswig-Holstein-Sonderburg-Augustenburg
+					father=100004900	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004759	# Karoline Mathilde von Schleswig-Holstein-Sonderburg-Augustenburg
 					1894.05.01={birth=yes}
 					1972.01.28={death=yes}
 				}
@@ -3759,8 +3778,8 @@
 				female=yes
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=german
-				father=100004898	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004713	# Adelheid v. Schaumburg-Lippe
+				father=100004898	# Friedrich von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004713	# Adelheid zu Schaumburg-Lippe
 				1858.01.06={birth=yes}
 				1936.07.02={death=yes}
 			}
@@ -3769,8 +3788,8 @@
 				female=yes
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=german
-				father=100004898	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004713	# Adelheid v. Schaumburg-Lippe
+				father=100004898	# Friedrich von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004713	# Adelheid zu Schaumburg-Lippe
 				1859.08.31={birth=yes}
 				1941.06.26={death=yes}
 			}
@@ -3778,20 +3797,20 @@
 				name=Albrecht
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=german
-				father=100004898	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004713	# Adelheid v. Schaumburg-Lippe
+				father=100004898	# Friedrich von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004713	# Adelheid zu Schaumburg-Lippe
 				1863.03.15={birth=yes}
-				1906.10.14={add_spouse=100008530}	# Ortrud v. Isenburg
-				1920.09.19={add_spouse=100008173}	# Hertha v. Isenburg
+				1906.10.14={add_spouse=100008530}	# Ortrud zu Ysenburg und Büdingen
+				1920.09.19={add_spouse=100008173}	# Hertha zu Ysenburg und Büdingen
 				1948.04.23={death=yes}
 			}
-				100004924={ #// 1d) Viktoria Marie Luise Agnes Calma Elisabeth Irmgard (Berlin 8 Dec 1908-Wiesbaden 29 Dec 1969); m.1st Primkenau 19 Apr 1934 (div 1955) Rudolf Karl Frhr von Stengel (München 7 Dec 1899-Rieden 21 Sep 1969); m.2d Glücksburg 8 Oct 1962 Friedrich Christian Pr zu Schaumburg-Lippe (Bückeburg 5 Jan 1906-Wasserburg am Inn 20 Sep 1983)
+				100004924={ #// 1d) Viktoria Marie Luise Agnes Calma Elisabeth Irmgard (Berlin 8 Dec 1908-Wiesbaden 29 Dec 1969); m.1st Primkenau 19 Apr 1934 (div 1955) Rudolf Karl Frhr von Stengel (München 7 Dec 1899-Rieden 21 Sep 1969); m.2d Glücksburg 8 Oct 1962 Friedrich Christian Pr zu Schaumburg-Lippe (Bückeburg 5 Jan 1906-Wasserburg am Inn 20 Sep 1983) $$
 					name="Marie Luise"
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004923	# Albrecht v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100008530	# Ortrud v. Isenburg
+					father=100004923	# Albrecht von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100008530	# Ortrud zu Ysenburg und Büdingen
 					1908.12.08={birth=yes}
 					1970.12.29={death=yes}
 				}
@@ -3799,8 +3818,8 @@
 					name=Friedrich
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004923	# Albrecht v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100008530	# Ortrud v. Isenburg
+					father=100004923	# Albrecht von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100008530	# Ortrud zu Ysenburg und Büdingen
 					1909.12.29={birth=yes}
 					1940.06.06={death=yes}
 				}
@@ -3808,8 +3827,8 @@
 					name=Johann
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004923	# Albrecht v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100008530	# Ortrud v. Isenburg
+					father=100004923	# Albrecht von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100008530	# Ortrud zu Ysenburg und Büdingen
 					1911.07.24={birth=yes}
 					1941.06.23={death=yes}
 				}
@@ -3817,10 +3836,10 @@
 					name="Friedrich Ferdinand"
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004923	# Albrecht v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100008530	# Ortrud v. Isenburg
+					father=100004923	# Albrecht von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100008530	# Ortrud zu Ysenburg und Büdingen
 					1913.05.14={birth=yes}
-					1943.09.01={add_spouse=100003008}	# Anastasia Alexandrine v. Mecklenburg
+					1943.09.01={add_spouse=100003008}	# Anastasia Alexandrine von Mecklenburg-Schwerin
 					1989.05.31={death=yes}
 				}
 					100004928={ #// 1e) Elisabeth Marie Alexandra (b.Schleswig 10 Sep 1945); m.Glücksburg 2 Jan 1975 Ferdinand Heinrich Pr zu Isenburg und Büdingen (Frankfurt 19 Oct 1940-Büdingen 8 Mar 1989) $$
@@ -3828,8 +3847,8 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=german
-						father=100004927	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-						mother=100003008	# Anastasia Alexandrine v. Mecklenburg
+						father=100004927	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+						mother=100003008	# Anastasia Alexandrine von Mecklenburg-Schwerin
 						1945.09.10={birth=yes}
 					}
 					100004929={ #// 2e) Irene Olga Adelheid (b.Flensburg 11 Oct 1946)
@@ -3837,8 +3856,8 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=german
-						father=100004927	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-						mother=100003008	# Anastasia Alexandrine v. Mecklenburg
+						father=100004927	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+						mother=100003008	# Anastasia Alexandrine von Mecklenburg-Schwerin
 						1946.10.11={birth=yes}
 					}
 					100004930={ #// 3e) Margaretha Friederike Luise (b.Flensburg 10 Feb 1948)
@@ -3846,8 +3865,8 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=german
-						father=100004927	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-						mother=100003008	# Anastasia Alexandrine v. Mecklenburg
+						father=100004927	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+						mother=100003008	# Anastasia Alexandrine von Mecklenburg-Schwerin
 						1948.02.10={birth=yes}
 					}
 					100004931={ #// 4e) Sibylla Ursula Ortrud (b.Flensburg 11 Sep 1955); m.Glücksburg 24 Oct 1980 Dieter Franz (b.Kirchberg an der Jagst 26 Mar 1950)
@@ -3855,8 +3874,8 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=german
-						father=100004927	# Friedrich Ferdinand v. Schleswig-Holstein-Sonderburg-Glücksburg
-						mother=100003008	# Anastasia Alexandrine v. Mecklenburg
+						father=100004927	# Friedrich Ferdinand von Schleswig-Holstein-Sonderburg-Glücksburg
+						mother=100003008	# Anastasia Alexandrine von Mecklenburg-Schwerin
 						1955.09.11={birth=yes}
 					}
 				100004932={ #// 5d) Ortrud Bertha Adelheid Hedwig (Flensburg 19 Dec 1925-Hannover 6 Feb 1980); m.(civ) Schloß Marienburg 31 Aug 1951 (rel) Hannover 4 Sep 1951 Ernst August Pr of Hannover (Braunschweig 18 Mar 1914-Hannover 9 Dec 1987) $$
@@ -3864,8 +3883,8 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=german
-					father=100004923	# Albrecht v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100008173	# Hertha v. Isenburg
+					father=100004923	# Albrecht von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100008173	# Hertha zu Ysenburg und Büdingen
 					1925.12.19={birth=yes}
 					1980.02.06={death=yes}
 				}
@@ -3873,8 +3892,8 @@
 			name=Wilhelm
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=german
-			father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-			mother=100001492	# Luise v. Hessen-Kassel
+			father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+			mother=100001492	# Luise von Hessen-Kassel
 			1816.04.10={birth=yes}
 			1893.09.05={death=yes}
 		}
@@ -3884,8 +3903,8 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=german
-			father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-			mother=100001492	# Luise v. Hessen-Kassel
+			father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+			mother=100001492	# Luise von Hessen-Kassel
 			1820.11.18={birth=yes}
 			1894.11.30={death=yes}
 		}
@@ -3893,8 +3912,8 @@
 			name=Julius
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=german
-			father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-			mother=100001492	# Luise v. Hessen-Kassel
+			father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+			mother=100001492	# Luise von Hessen-Kassel
 			1824.10.14={birth=yes}
 			1883.07.02={add_spouse=100093542}	# Elisabeth von Ziegesar
 			1903.06.01={death=yes}
@@ -3903,8 +3922,8 @@
 			name=Johann
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=german
-			father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-			mother=100001492	# Luise v. Hessen-Kassel
+			father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+			mother=100001492	# Luise von Hessen-Kassel
 			1825.12.05={birth=yes}
 			1911.05.27={death=yes}
 		}
@@ -3912,8 +3931,8 @@
 			name=Nikolaus
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=german
-			father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-			mother=100001492	# Luise v. Hessen-Kassel
+			father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+			mother=100001492	# Luise von Hessen-Kassel
 			1828.12.22={birth=yes}
 			1849.08.18={death=yes}
 		}
@@ -3925,18 +3944,18 @@
 	name=Christian
 	dynasty_house=oldenburg_shsg
 	religion=lutheran culture=danish
-	father=100004894	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Glücksburg
-	mother=100001492	# Luise v. Hessen-Kassel
+	father=100004894	# Friedrich Wilhelm von Schleswig-Holstein-Sonderburg-Glücksburg
+	mother=100001492	# Luise von Hessen-Kassel
 	1818.04.08={birth=yes}
-	1842.05.26={add_spouse=100001498}	# Luise v. Hessen-Kassel
+	1842.05.26={add_spouse=100001498}	# Luise von Hessen-Kassel
 	1906.01.29={death=yes}
 }
 	100004826={ #// 1a) Christian FREDERIK VIII Wilhelm Carl, King of Denmark (Copenhagen 3 Jun 1843-Hamburg 14 May 1912); m.Stockholm 28 Jul 1869 Luise Pss of Sweden and Norway (Stockholm 31 Oct 1851-Amalienborg, Copenhagen 20 Mar 1926) $$
 		name=Frederik
 		dynasty_house=oldenburg_shsg
 		religion=lutheran culture=danish
-		father=100004825	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
-		mother=100001498	# Luise v. Hessen-Kassel
+		father=100004825	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
+		mother=100001498	# Luise von Hessen-Kassel
 		1843.06.03={birth=yes}
 		1869.07.28={add_spouse=100012055}	# Louise Josephine Bernadotte
 		1912.05.14={death=yes}
@@ -3945,18 +3964,18 @@
 			name=Christian
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004826	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004826	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012055	# Louise Josephine Bernadotte
 			1870.09.26={birth=yes}
-			1898.04.26={add_spouse=100003000}	# Alexandrine v. Mecklenburg
+			1898.04.26={add_spouse=100003000}	# Alexandrine von Mecklenburg-Schwerin
 			1947.04.20={death=yes}
 		}
 			100004828={ #// 1c) Christian FREDERIK IX Franz Michael Carl Valdemar Georg, King of Denmark (Sorgenfri, Isle of Seeland 11 Mar 1899-Copenhagen 14 Jan 1972); m.Stockholm 24 May 1935 Ingrid Pss of Sweden (Stockholm 28 Mar 1910-Fredensborg 7 Nov 2000) $$
 				name=Frederik
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004827	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100003000	# Alexandrine v. Mecklenburg
+				father=100004827	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100003000	# Alexandrine von Mecklenburg-Schwerin
 				1899.03.11={birth=yes}
 				1935.05.24={add_spouse=100012012}	# Ingrid Bernadotte
 				1972.01.14={death=yes}
@@ -3966,7 +3985,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004828	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004828	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100012012	# Ingrid Bernadotte
 					trait=dan_marg
 					1940.04.16={birth=yes}
@@ -3977,7 +3996,7 @@
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
 						father=100082500	# Henri de Laborde de Monpezat
-						mother=100004829	# Margrethe v. Schleswig-Holstein-Sonderburg-Glücksburg
+						mother=100004829	# Margrethe von Schleswig-Holstein-Sonderburg-Glücksburg
 						1968.05.26={birth=yes}
 						2004.05.14={add_spouse=100083367}	# Mary Donaldson
 					}
@@ -3985,7 +4004,7 @@
 							name="Christian Valdemar"
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=danish
-							father=100004830	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+							father=100004830	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 							mother=100083367	# Mary Donaldson
 							2005.10.15={birth=yes}
 						}
@@ -3994,7 +4013,7 @@
 							female=yes
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=danish
-							father=100004830	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+							father=100004830	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 							mother=100083367	# Mary Donaldson
 							2007.04.21={birth=yes}
 						}
@@ -4002,7 +4021,7 @@
 							name="Vincent Frederik"
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=danish
-							father=100004830	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+							father=100004830	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 							mother=100083367	# Mary Donaldson
 							2011.01.08={birth=yes}
 						}
@@ -4011,7 +4030,7 @@
 							female=yes
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=danish
-							father=100004830	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+							father=100004830	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 							mother=100083367	# Mary Donaldson
 							2011.01.08={birth=yes}
 						}
@@ -4020,7 +4039,7 @@
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
 						father=100082500	# Henri de Laborde de Monpezat
-						mother=100004829	# Margrethe v. Schleswig-Holstein-Sonderburg-Glücksburg
+						mother=100004829	# Margrethe von Schleswig-Holstein-Sonderburg-Glücksburg
 						1969.06.07={birth=yes}
 						1995.11.18={add_spouse=100087765}	# Alexandra Manley
 						2005.04.08={remove_spouse=100087765}
@@ -4030,7 +4049,7 @@
 							name="Nikolai William"
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=danish
-							father=100004835	# Joachim Holger v. Schleswig-Holstein-Sonderburg-Glücksburg
+							father=100004835	# Joachim Holger von Schleswig-Holstein-Sonderburg-Glücksburg
 							mother=100087765	# Alexandra Manley
 							1999.08.28={birth=yes}
 						}
@@ -4038,7 +4057,7 @@
 							name="Felix Henrik"
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=danish
-							father=100004835	# Joachim Holger v. Schleswig-Holstein-Sonderburg-Glücksburg
+							father=100004835	# Joachim Holger von Schleswig-Holstein-Sonderburg-Glücksburg
 							mother=100087765	# Alexandra Manley
 							2002.07.22={birth=yes}
 						}
@@ -4046,7 +4065,7 @@
 							name="Henrik Carl"
 							dynasty_house=oldenburg_shsg
 							religion=lutheran culture=danish
-							father=100004835	# Joachim Holger v. Schleswig-Holstein-Sonderburg-Glücksburg
+							father=100004835	# Joachim Holger von Schleswig-Holstein-Sonderburg-Glücksburg
 							mother=100081331	# Marie Cavallier
 							2009.05.04={birth=yes}
 						}
@@ -4055,7 +4074,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004828	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004828	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100012012	# Ingrid Bernadotte
 					1944.04.29={birth=yes}
 				}
@@ -4064,7 +4083,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004828	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004828	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100012012	# Ingrid Bernadotte
 					1946.08.30={birth=yes}
 				}
@@ -4072,10 +4091,10 @@
 				name=Knud
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004827	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100003000	# Alexandrine v. Mecklenburg
+				father=100004827	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100003000	# Alexandrine von Mecklenburg-Schwerin
 				1900.07.27={birth=yes}
-				1933.09.08={add_spouse=100004851}	# Caroline-Mathilde v. Schleswig-Holstein-Sonderburg-Glücksburg
+				1933.09.08={add_spouse=100004851}	# Caroline-Mathilde von Schleswig-Holstein-Sonderburg-Glücksburg
 				1976.06.14={death=yes}
 			}
 				100004842={ #// 1d) Elisabeth Caroline-Mathilde Alexandrine Helena Olga Thyra Feodora Estrid Margarethe Désirée, b.Copenhagen 8 May 1935
@@ -4083,16 +4102,16 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004841	# Knud v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100004851	# Caroline-Mathilde v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004841	# Knud von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004851	# Caroline-Mathilde von Schleswig-Holstein-Sonderburg-Glücksburg
 					1935.05.08={birth=yes}
 				}
 				100004843={ #// 2d) Ingolf Christian Frederik Knud Harald Gorm Gustav Viggo Valdemar Aage, who in 1968 renounced his rights to the throne and took the title Count of Rosenborg; b.Sorgenfri 17 Feb 1940; m.1st Lyngby 13 Jan 1968 Inge Terney (Copenhagen 21 Jan 1938-21 Jul 1996); m.2d Engtved 7 Mar 1998 Sussie Hjorhøy (b.Copenhagen 20 Feb 1950)
 					name=Ingolf
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004841	# Knud v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100004851	# Caroline-Mathilde v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004841	# Knud von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004851	# Caroline-Mathilde von Schleswig-Holstein-Sonderburg-Glücksburg
 					1940.02.17={birth=yes}
 					1968.01.13={add_spouse=100090905}	# Inge Terney
 					1998.03.07={add_spouse=100084910}	# Sussie Hjorhøy
@@ -4101,8 +4120,8 @@
 					name=Christian
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004841	# Knud v. Schleswig-Holstein-Sonderburg-Glücksburg
-					mother=100004851	# Caroline-Mathilde v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004841	# Knud von Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004851	# Caroline-Mathilde von Schleswig-Holstein-Sonderburg-Glücksburg
 					1942.10.22={birth=yes}
 					1971.02.27={add_spouse=100087744}	# Anne-Dorthe Maltoft-Nielsen
 				}
@@ -4112,7 +4131,7 @@
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
 						trait=twin
-						father=100004844	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004844	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100087744	# Anne-Dorthe Maltoft-Nielsen
 						1972.10.29={birth=yes}
 					}
@@ -4122,7 +4141,7 @@
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
 						trait=twin
-						father=100004844	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004844	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100087744	# Anne-Dorthe Maltoft-Nielsen
 						1972.10.29={birth=yes}
 					}
@@ -4131,7 +4150,7 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004844	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004844	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100087744	# Anne-Dorthe Maltoft-Nielsen
 						1975.02.27={birth=yes}
 					}
@@ -4141,7 +4160,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004826	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004826	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012055	# Louise Josephine Bernadotte
 			1875.02.17={birth=yes}
 			1906.04.04={death=yes}
@@ -4150,10 +4169,10 @@
 			name=Harald
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004826	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004826	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012055	# Louise Josephine Bernadotte
 			1876.10.08={birth=yes}
-			1909.04.28={add_spouse=100004903}	# Helene v. Schleswig-Holstein-Sonderburg-Glücksburg
+			1909.04.28={add_spouse=100004903}	# Helene von Schleswig-Holstein-Sonderburg-Glücksburg
 			1949.03.30={death=yes}
 		}
 			100004850={ #// 1c) Feodora Louise Caroline Mathilde Viktoria Alexandra Frederikke Johanne (Jægersborghus 3 Jul 1910-Bückeburg 17 Mar 1975); m.Fredensborg 9 Sep 1937 Christian Pr zu Schaumburg-Lippe (Ödenburg, Hungary 20 Feb 1898-Bückeburg 13 Jul 1974) $$
@@ -4161,8 +4180,8 @@
 				female=yes
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004849	# Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004903	# Helene v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004849	# Harald von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004903	# Helene von Schleswig-Holstein-Sonderburg-Glücksburg
 				1910.07.03={birth=yes}
 				1975.03.17={death=yes}
 			}
@@ -4171,8 +4190,8 @@
 				female=yes
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004849	# Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004903	# Helene v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004849	# Harald von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004903	# Helene von Schleswig-Holstein-Sonderburg-Glücksburg
 				1912.04.27={birth=yes}
 				1995.12.12={death=yes}
 			}
@@ -4181,8 +4200,8 @@
 				female=yes
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004849	# Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004903	# Helene v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004849	# Harald von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004903	# Helene von Schleswig-Holstein-Sonderburg-Glücksburg
 				1914.12.12={birth=yes}
 				1962.04.26={death=yes}
 			}
@@ -4190,8 +4209,8 @@
 				name="Gorm Christian"
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004849	# Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004903	# Helene v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004849	# Harald von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004903	# Helene von Schleswig-Holstein-Sonderburg-Glücksburg
 				1919.02.24={birth=yes}
 				1991.12.26={death=yes}
 			}
@@ -4199,8 +4218,8 @@
 				name=Oluf
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004849	# Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100004903	# Helene v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004849	# Harald von Schleswig-Holstein-Sonderburg-Glücksburg
+				mother=100004903	# Helene von Schleswig-Holstein-Sonderburg-Glücksburg
 				1923.03.10={birth=yes}
 				1948.02.04={add_spouse=100089281}	# Annie Helene Dorrit Puggard-Müller
 				1990.12.19={death=yes}
@@ -4209,7 +4228,7 @@
 					name="Ulrik Harald"
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004854	# Oluf v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004854	# Oluf von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100089281	# Annie Helene Dorrit Puggard-Müller
 					1950.12.17={birth=yes}
 					1981.04.04={add_spouse=100093578}	# Tove Waigner Larsen
@@ -4219,7 +4238,7 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004855	# Ulrik Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004855	# Ulrik Harald von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100093578	# Tove Waigner Larsen
 						1981.05.01={birth=yes}
 					}
@@ -4227,7 +4246,7 @@
 						name="Philip Oluf"
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004855	# Ulrik Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004855	# Ulrik Harald von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100093578	# Tove Waigner Larsen
 						1986.05.08={birth=yes}
 					}
@@ -4236,7 +4255,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004854	# Oluf v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004854	# Oluf von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100089281	# Annie Helene Dorrit Puggard-Müller
 					1953.04.11={birth=yes}
 				}
@@ -4245,7 +4264,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004826	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004826	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012055	# Louise Josephine Bernadotte
 			1878.08.02={birth=yes}
 			1958.03.12={death=yes}
@@ -4255,7 +4274,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004826	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004826	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012055	# Louise Josephine Bernadotte
 			1880.03.14={birth=yes}
 			1945.11.02={death=yes}
@@ -4264,7 +4283,7 @@
 			name="Christian Frederik"
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004826	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004826	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012055	# Louise Josephine Bernadotte
 			1887.03.04={birth=yes}
 			1944.10.05={death=yes}
@@ -4274,7 +4293,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004826	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004826	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012055	# Louise Josephine Bernadotte
 			1890.05.23={birth=yes}
 			1961.10.11={death=yes}
@@ -4284,8 +4303,8 @@
 		female=yes
 		dynasty_house=oldenburg_shsg
 		religion=lutheran culture=danish
-		father=100004825	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
-		mother=100001498	# Luise v. Hessen-Kassel
+		father=100004825	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
+		mother=100001498	# Luise von Hessen-Kassel
 		1844.12.01={birth=yes}
 		1925.11.20={death=yes}
 	}
@@ -4295,8 +4314,8 @@
 		female=yes
 		dynasty_house=oldenburg_shsg
 		religion=lutheran culture=danish
-		father=100004825	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
-		mother=100001498	# Luise v. Hessen-Kassel
+		father=100004825	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
+		mother=100001498	# Luise von Hessen-Kassel
 		1847.11.26={birth=yes}
 		1928.10.13={death=yes}
 	}
@@ -4305,8 +4324,8 @@
 		female=yes
 		dynasty_house=oldenburg_shsg
 		religion=lutheran culture=danish
-		father=100004825	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
-		mother=100001498	# Luise v. Hessen-Kassel
+		father=100004825	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
+		mother=100001498	# Luise von Hessen-Kassel
 		1853.09.29={birth=yes}
 		1933.02.26={death=yes}
 	}
@@ -4314,8 +4333,8 @@
 		name=Valdemar
 		dynasty_house=oldenburg_shsg
 		religion=lutheran culture=danish
-		father=100004825	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
-		mother=100001498	# Luise v. Hessen-Kassel
+		father=100004825	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
+		mother=100001498	# Luise von Hessen-Kassel
 		1858.10.27={birth=yes}
 		1885.10.22={add_spouse=100066654}	# Marie Amélie d’Orléans
 		1939.01.14={death=yes}
@@ -4324,7 +4343,7 @@
 			name="Aage Christian"
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004866	# Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004866	# Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100066654	# Marie Amélie d’Orléans
 			1887.06.10={birth=yes}
 			1914.02.01={add_spouse=100081177}	# CSS Mathilda Calvi di Bergolo
@@ -4334,7 +4353,7 @@
 				name=Valdemar
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004867	# Aage Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004867	# Aage Christian von Schleswig-Holstein-Sonderburg-Glücksburg
 				mother=100081177	# CSS Mathilda Calvi di Bergolo
 				1914.01.03={birth=yes}
 				1949.04.20={add_spouse=100081865}	# Floria d'Huart Saint-Mauris
@@ -4344,7 +4363,7 @@
 			name=Axel
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004866	# Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004866	# Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100066654	# Marie Amélie d’Orléans
 			1888.08.12={birth=yes}
 			1919.05.22={add_spouse=100012050}	# Margaretha Bernadotte
@@ -4354,7 +4373,7 @@
 				name="Georg Valdemar"
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004869	# Axel v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004869	# Axel von Schleswig-Holstein-Sonderburg-Glücksburg
 				mother=100012050	# Margaretha Bernadotte
 				1920.04.16={birth=yes}
 				1950.09.16={add_spouse=100063725}	# Anne Bowes-Lyon
@@ -4364,7 +4383,7 @@
 				name="Flemming Valdemar"
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004869	# Axel v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004869	# Axel von Schleswig-Holstein-Sonderburg-Glücksburg
 				mother=100012050	# Margaretha Bernadotte
 				1922.03.09={birth=yes}
 				1949.05.24={add_spouse=100088492}	# Alice Ruth Nielsen
@@ -4374,7 +4393,7 @@
 					name=Axel
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004871	# Flemming Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004871	# Flemming Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100088492	# Alice Ruth Nielsen
 					1950.01.24={birth=yes}
 					1975.05.24={add_spouse=100084224}	# Jane Glarborg
@@ -4386,7 +4405,7 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004872	# Axel v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004872	# Axel von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100084224	# Jane Glarborg
 						1977.05.10={birth=yes}
 					}
@@ -4394,7 +4413,7 @@
 						name="Carl Johan"
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004872	# Axel v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004872	# Axel von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100084224	# Jane Glarborg
 						1979.11.15={birth=yes}
 						2010.09.04={add_spouse=100087608}	# Sidsel Lykke Nielsen
@@ -4404,7 +4423,7 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004872	# Axel v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004872	# Axel von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100080499	# Jutta Beck
 						1990.12.25={birth=yes}
 					}
@@ -4412,7 +4431,7 @@
 						name="Alexander Flemming"
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004872	# Axel v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004872	# Axel von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100080499	# Jutta Beck
 						1993.11.04={birth=yes}
 					}
@@ -4420,7 +4439,7 @@
 					name="Birger Valdemar"
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004871	# Flemming Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004871	# Flemming Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100088492	# Alice Ruth Nielsen
 					1950.01.24={birth=yes}
 					1974.10.10={add_spouse=100090984}	# Minna Benedicte Tillisch
@@ -4433,7 +4452,7 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004877	# Birger Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004877	# Birger Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100090984	# Minna Benedicte Tillisch
 						1975.07.20={birth=yes}
 					}
@@ -4441,7 +4460,7 @@
 					name="Carl Johan"
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004871	# Flemming Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004871	# Flemming Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100088492	# Alice Ruth Nielsen
 					1952.05.30={birth=yes}
 					1982.09.03={add_spouse=100093990}	# Dorrit Zander Olsen
@@ -4453,7 +4472,7 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004879	# Carl Johan v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004879	# Carl Johan von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100093990	# Dorrit Zander Olsen
 						1984.03.30={birth=yes}
 					}
@@ -4462,7 +4481,7 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004879	# Carl Johan v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004879	# Carl Johan von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100081142	# Colette Vivian Cabral
 						1999.06.24={birth=yes}
 					}
@@ -4471,7 +4490,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004871	# Flemming Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004871	# Flemming Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100088492	# Alice Ruth Nielsen
 					1955.02.02={birth=yes}
 				}
@@ -4479,7 +4498,7 @@
 			name=Erik
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004866	# Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004866	# Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100066654	# Marie Amélie d’Orléans
 			1890.11.08={birth=yes}
 			1924.02.11={add_spouse=100080808}	# Lois Frances Booth
@@ -4490,7 +4509,7 @@
 				female=yes
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004883	# Erik v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004883	# Erik von Schleswig-Holstein-Sonderburg-Glücksburg
 				mother=100080808	# Lois Frances Booth
 				1927.02.05={birth=yes}
 				1992.10.05={death=yes}
@@ -4499,7 +4518,7 @@
 				name=Christian
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=danish
-				father=100004883	# Erik v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004883	# Erik von Schleswig-Holstein-Sonderburg-Glücksburg
 				mother=100080808	# Lois Frances Booth
 				1932.07.16={birth=yes}
 				1962.08.10={add_spouse=100087631}	# Karin Lüttichau
@@ -4509,7 +4528,7 @@
 					name=Valdemar
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004885	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004885	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100087631	# Karin Lüttichau
 					1965.07.09={birth=yes}
 					1996.06.29={add_spouse=100081737}	# Charlotte Cruse
@@ -4518,7 +4537,7 @@
 						name="Nicolai Christian"
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004886	# Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004886	# Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100081737	# Charlotte Cruse
 						1997.11.06={birth=yes}
 					}
@@ -4527,7 +4546,7 @@
 						female=yes
 						dynasty_house=oldenburg_shsg
 						religion=lutheran culture=danish
-						father=100004886	# Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+						father=100004886	# Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 						mother=100081737	# Charlotte Cruse
 						1999.05.07={birth=yes}
 					}
@@ -4536,7 +4555,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=danish
-					father=100004885	# Christian v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004885	# Christian von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100087631	# Karin Lüttichau
 					1971.03.28={birth=yes}
 				}
@@ -4544,7 +4563,7 @@
 			name="Viggo Christian"
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004866	# Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004866	# Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100066654	# Marie Amélie d’Orléans
 			1893.12.25={birth=yes}
 			1924.06.10={add_spouse=100084415}	# Eleanor Margaret Green
@@ -4555,7 +4574,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=danish
-			father=100004866	# Valdemar v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004866	# Valdemar von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100066654	# Marie Amélie d’Orléans
 			1895.09.17={birth=yes}
 			1992.09.18={death=yes}
@@ -4568,7 +4587,7 @@
 	name=Haakon
 	dynasty_house=oldenburg_shsg
 	religion=lutheran culture=danish
-	father=100004826	# Frederik v. Schleswig-Holstein-Sonderburg-Glücksburg
+	father=100004826	# Frederik von Schleswig-Holstein-Sonderburg-Glücksburg
 	mother=100012055	# Louise Josephine Bernadotte
 	1872.08.03={birth=yes}
 	1896.07.22={add_spouse=100063302}	# Maud Windsor
@@ -4578,7 +4597,7 @@
 		name=Olav
 		dynasty_house=oldenburg_shsg
 		religion=lutheran culture=norwegian
-		father=100004938	# Haakon v. Schleswig-Holstein-Sonderburg-Glücksburg
+		father=100004938	# Haakon von Schleswig-Holstein-Sonderburg-Glücksburg
 		mother=100063302	# Maud Windsor
 		1903.07.02={birth=yes}
 		1929.03.21={add_spouse=100012085}	# Märtha Bernadotte
@@ -4589,7 +4608,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=norwegian
-			father=100004939	# Olav v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004939	# Olav von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012085	# Märtha Bernadotte
 			1930.06.09={birth=yes}
 			2012.09.16={death=yes}
@@ -4599,7 +4618,7 @@
 			female=yes
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=norwegian
-			father=100004939	# Olav v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004939	# Olav von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012085	# Märtha Bernadotte
 			1932.02.12={birth=yes}
 			2012.01.01={death=yes}	# EST.
@@ -4609,7 +4628,7 @@
 			dynasty_house=oldenburg_shsg
 			religion=lutheran culture=norwegian
 			trait=norway_harald
-			father=100004939	# Olav v. Schleswig-Holstein-Sonderburg-Glücksburg
+			father=100004939	# Olav von Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100012085	# Märtha Bernadotte
 			1937.02.21={birth=yes}
 			1968.08.29={add_spouse=100084676}	# Sonja Haraldsen
@@ -4619,7 +4638,7 @@
 				female=yes
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=norwegian
-				father=100004942	# Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004942	# Harald von Schleswig-Holstein-Sonderburg-Glücksburg
 				mother=100084676	# Sonja Haraldsen
 				1971.09.22={birth=yes}
 			}
@@ -4629,7 +4648,7 @@
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=norwegian
 					father=100080515	# Ari Mikael Behn
-					mother=100004943	# Märtha v. Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004943	# Märtha von Schleswig-Holstein-Sonderburg-Glücksburg
 					2003.04.29={birth=yes}
 				}
 				100004945={ #// 2d) Leah Isadora Behn (b.Bloksbjerg, Fredrikstad 8 Apr 2005)
@@ -4638,7 +4657,7 @@
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=norwegian
 					father=100080515	# Ari Mikael Behn
-					mother=100004943	# Märtha v. Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004943	# Märtha von Schleswig-Holstein-Sonderburg-Glücksburg
 					2005.04.08={birth=yes}
 				}
 				100004946={ #// 3d) Emma Tallulah Behn (b.Lommedalen 29 Sep 2008)
@@ -4647,14 +4666,14 @@
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=norwegian
 					father=100080515	# Ari Mikael Behn
-					mother=100004943	# Märtha v. Schleswig-Holstein-Sonderburg-Glücksburg
+					mother=100004943	# Märtha von Schleswig-Holstein-Sonderburg-Glücksburg
 					2008.09.29={birth=yes}
 				}
 			100004947={ #// 2c) Haakon Magnus, Crown Prince of Norway (b.Oslo 20 Jul 1973); m.Oslo 25 Aug 2001 Mette-Marit Tjessem Høiby (b.Kristiansand 19 Aug 1973)
 				name=Haakon
 				dynasty_house=oldenburg_shsg
 				religion=lutheran culture=norwegian
-				father=100004942	# Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
+				father=100004942	# Harald von Schleswig-Holstein-Sonderburg-Glücksburg
 				mother=100084676	# Sonja Haraldsen
 				1973.07.20={birth=yes}
 				2001.08.25={add_spouse=100090995}	# Mette-Marit Høiby
@@ -4664,7 +4683,7 @@
 					female=yes
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=norwegian
-					father=100004947	# Haakon v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004947	# Haakon von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100090995	# Mette-Marit Høiby
 					2004.01.21={birth=yes}
 				}
@@ -4672,7 +4691,7 @@
 					name=Sverre
 					dynasty_house=oldenburg_shsg
 					religion=lutheran culture=norwegian
-					father=100004947	# Haakon v. Schleswig-Holstein-Sonderburg-Glücksburg
+					father=100004947	# Haakon von Schleswig-Holstein-Sonderburg-Glücksburg
 					mother=100090995	# Mette-Marit Høiby
 					2005.12.03={birth=yes}
 				}
@@ -4686,17 +4705,15 @@
 	dynasty=1013501
 	religion=lutheran culture=danish
 	father=100003316	# Christian von Oldenburg
-	mother=100192217	# Charlotte v. Hessen-Kassel
 	trait=bastard
 	1672.07.07={birth=yes}  # Copenhagen
 	1689.09.12={death=yes}  # Gravenstein
 }
-100003353={ #// 8g) [illegitimate] Christian von Gyldenløve, Gf zu Samsøe (Copenhagen 28 Feb 1674-Odense 16 Jul 1703); m.1st Copenhagen 27 Nov 1696 Charlotte Amalie Gfn von Danneskjold (15 Nov 1682-Barseleng 7 Dec 1699); m.2nd Copenhagen 25 May 1701 Dorte Kreg til Jüllund (27 Sep 1675-Gisselfeld 10 Oct 1754)
+100003353={ #// 8g) [illegitimate] Christian von Gyldenløve, Gf zu Samsøe (Copenhagen 28 Feb 1674-Odense 16 Jul 1703); m.1st Copenhagen 27 Nov 1696 Charlotte Amalie Gfn von Danneskjold (15 Nov 1682-Barseleng 7 Dec 1699); m.2nd Copenhagen 25 May 1701 Dorte Kreg til Jüllund (27 Sep 1675-Gisselfeld 10 Oct 1754) $$
 	name=Christian
 	dynasty=1013501
 	religion=lutheran culture=danish
 	father=100003316	# Christian von Oldenburg
-	mother=100192217	# Charlotte v. Hessen-Kassel
 	trait=bastard
 	1674.02.28={birth=yes}  # Copenhagen
 	1696.11.27={add_spouse=100005020}	# Charlotte Amalia Løvendal
@@ -4796,7 +4813,7 @@
 							1869.07.16={birth=yes}  # Boller
 							1948.11.03={death=yes}  # Vallø
 						}
-						100004285={ #// 4m) Ingeborg (Frijsenborg 10 Aug 1871-Fedgaarden 2 Jan 1942); m.1st Broby 18 Oct 1892 (div 1926) Adam Gottlob Lehnsgf Moltke (d.Espe 30 Jun 1958); m.2nd Roholte 26 Oct 1926 Otto Lehnsbaron Reedtz-Thott (d.19 Oct 1927)
+						100004285={ #// 4m) Ingeborg (Frijsenborg 10 Aug 1871-Fedgaarden 2 Jan 1942); m.1st Broby 18 Oct 1892 (div 1926) Adam Gottlob Lehnsgf Moltke (d.Espe 30 Jun 1958); m.2nd Roholte 26 Oct 1926 Otto Lehnsbaron Reedtz-Thott (d.19 Oct 1927) $$
 							name=Ingeborg
 							female=yes
 							dynasty=1013501

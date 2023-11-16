@@ -106,11 +106,12 @@ k_hungary = {
 	1792.03.01 = {holder=100020020}	# FRANZ I | HABSBURG
 	1835.03.02 = {holder=100020030}	# FERDINAND IV | HABSBURG
 	1848.12.02 = {holder=100020043}	# FRANZ JOSEPH | HABSBURG
-	1916.11.21 = {holder=100020066}	# KARL | HABSBURG
+	#1916.11.21 = {holder=100020066}	# KARL | HABSBURG
+	
 	1918.11.16 = {
-		holder = 100120537
 		liege = 0
 	}
+	1918.11.16 = {holder=100120542}	# Miklós | HORTHY %%
 	1957.02.09 = {holder=100120542}	# István | HORTHY %%
 }
 
@@ -218,6 +219,8 @@ c_borsod = {
 	1300.1.1 = {holder=93723}
 	1335.1.1 = {holder=93726}
 	#####
+	1700.1.1 = {liege=k_hungary}
+	
 	1830.01.01 = {holder=100117934}
 	1848.01.01 = {holder=100117881}
 	1888.03.25 = {holder=100117880}
@@ -370,6 +373,16 @@ c_hewes = {
 	1325.1.1 = {holder=470212}
 }
 c_jasz_nagykun_szolnok = {
+	1700.1.1 = {liege=k_hungary}
+	
+	1781.01.15={holder=100115501} # IGNÁC
+	1840.09.24={holder=100115505} # ALAJOS
+	1850.12.31={holder=100115508} # KÁLMÁN
+	1898.10.28={holder=100115512} # Dénes
+	1940.08.12={holder=100115522} # ALAJOS
+	1945.11.20={holder=100115524} # KÁLMÁN
+	1977.01.01={holder=100115569} # MIKLÓS
+	1990.05.08={holder=100115571} # DÉNES
 }
 c_szekesfehervar = {
 	801.1.1 = {change_development_level=4}
@@ -427,6 +440,7 @@ c_szekesfehervar = {
 	1290.7.10 = {holder=98007}
 	1305.12.6 = {holder=98009}
 	1307.10.10 = {holder=469500}
+	#####
 }
 
 #########
@@ -447,6 +461,59 @@ d_bihar = {
 }
 
 c_bekes = {
+	685.1.1 = {
+		liege = "d_transylvania"
+		holder = 146143
+		government = tribal_government
+	}
+	725.1.1 = {holder=146144}
+	736.1.1 = {holder=146145}
+	750.1.1 = {holder=146146}
+	762.1.1 = {holder=146147}
+	771.1.1 = {holder=146148}
+	795.1.1 = {holder=146150}
+	800.1.1 = {holder=146151}
+	805.1.1 = {
+		liege = "d_visegrad"
+		holder = 146172
+	}
+	808.1.1 = {holder=146173}
+	813.1.1 = {holder=194000}
+	830.1.1 = {holder=168071}
+	858.1.1 = {holder=168072}
+	865.1.1 = {holder=168285}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1063.12.1 = {liege=d_transylvania}
+	1063.12.1 = {holder=474}
+	1095.7.29 = {holder=480}
+	1116.2.3 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=93751}
+	1226.1.1 = {holder=93753}
+	1233.1.1 = {holder=93752}
+	1276.1.1 = {holder=470060}
+	1320.1.2 = {holder=470062}
+	
+	#####
+	
+	1700.1.1 = {liege=k_hungary}
+	
+	1776.12.18={holder=100115922}
+	1803.09.05={holder=100115916}
+	1838.03.13={holder=100115914}
+	1869.08.26={holder=100115908}
+	1891.06.17={holder=100115901}
+	1912.06.27={holder=100115896}
+	1952.10.06={holder=100115889}
+	1975.01.01={holder=100115887}
+}
+c_arad = {
 	685.1.1 = {
 		liege = "d_transylvania"
 		holder = 146143
@@ -526,6 +593,39 @@ c_bihar = {
 	1276.1.1 = {holder=470060}
 	1320.1.2 = {holder=470062}
 }
+c_csanad = {
+	685.1.1 = {
+		liege = "k_hungary"
+		holder = 146155
+		government = tribal_government
+	}
+	701.1.1 = {holder=146159}
+	721.1.1 = {holder=146163}
+	748.1.1 = {holder=146168}
+	785.1.1 = {holder=146173}
+	805.1.1 = {liege=d_visegrad}
+	813.1.1 = {holder=194000}
+	830.1.1 = {holder=168071}
+	858.1.1 = {holder=168072}
+	884.1.1 = {holder=168073}
+	891.1.1 = {holder=168074}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	1066.1.1 = {liege=k_hungary}
+	1066.1.1 = {holder=20364}
+	1083.1.1 = {holder=4386}
+	1098.1.1 = {holder=4387}
+	1117.1.1 = {holder=93655}
+	1130.1.1 = {holder=93656}
+	1160.1.1 = {holder=93657}
+	1190.1.1 = {holder=93658}
+	1195.1.1 = {holder=93660}
+	1218.1.1 = {holder=93662}
+	1256.1.1 = {holder=93666}
+	1282.1.1 = {holder=93667}
+	1285.1.1 = {holder=93669}
+	1290.1.1 = {holder=93672}
+	1332.1.1 = {holder=93673}
+}
 c_hajdu = {
 }
 c_szabolcs = {
@@ -567,6 +667,16 @@ c_szabolcs = {
 	1299.1.1 = {liege=d_visegrad}
 	1301.1.1 = {holder=93796}
 	1325.1.1 = {holder=470212}
+	#####
+	1700.1.1 = {liege=k_hungary}
+	1800.01.01 = {holder=vecsey_0064}
+	1829.09.12 = {holder=vecsey_0071}
+	1854.09.26 = {holder=vecsey_0073}
+	1902.05.28 = {holder=vecsey_0076}
+	1924.07.14 = {holder=vecsey_0080}
+	1958.03.17 = {holder=vecsey_0103}
+	1965.08.05 = {holder=vecsey_0107}
+	1994.01.01 = {holder=vecsey_0108}
 }
 
 #########
@@ -710,11 +820,78 @@ c_kolon = {
 	1305.12.6 = {holder=98009}
 	1307.10.10 = {holder=469500}
 	#####
+	1700.1.1 = {liege=k_hungary}
 	1721.10.02 = {holder=100022084}	# Althann Mihály János (1710–1778) 	| 1721-1778
 	1778.12.16 = {holder=100022016}	# Althann Mihály József, gróf		| 1778-1785
 	1785.03.01 = {holder=100022009}	# Althann Mihály János (1757–1815)	| 1790-1815
+
+	1834.11.28={holder=100116800}
+	1846.05.12={holder=100116806}
+	1883.02.12={holder=100116808}
+	1933.05.04={holder=100116812}
+	1941.08.04={holder=100116814}
 }
 c_muraszombat = {
+	685.1.1 = {
+		liege = "k_hungary"
+		holder = 146154
+	}
+	701.1.1 = {holder=146155}
+	707.1.1 = {holder=146156}
+	714.1.1 = {holder=146157}
+	718.1.1 = {holder=146158}
+	721.1.1 = {holder=146159}
+	731.1.1 = {holder=146160}
+	733.1.1 = {holder=146161}
+	743.1.1 = {holder=146162}
+	748.1.1 = {holder=146163}
+	756.1.1 = {holder=146165}
+	757.1.1 = {holder=146171}
+	805.1.1 = {
+		liege = "d_visegrad"
+		holder = 146172
+	}
+	808.1.1 = {holder=146173}
+	813.1.1 = {holder=194000}
+	830.1.1 = {holder=168071}
+	858.1.1 = {holder=168072}
+	867.1.1 = {holder=187012}	#Kocel
+	884.1.1 = {holder=168073}
+	891.1.1 = {holder=168074}
+	#895.1.1 = {
+	#	holder = 0
+	#}
+	1066.1.1 = {liege=k_hungary}
+	1066.1.1 = {holder=4410}
+	1087.1.1 = {holder=4440}
+	1115.1.1 = {holder=231065}
+	1131.4.2 = {holder=219530}
+	1141.2.13 = {holder=219510}
+	1162.5.31 = {holder=219511}
+	1162.7.15 = {holder=98000}
+	1163.1.14 = {holder=98001}
+	1163.6.19 = {holder=219511}
+	1172.3.4 = {holder=219500}
+	1196.4.23 = {holder=219501}
+	1204.11.30 = {holder=98002}
+	1205.5.7 = {holder=219502}
+	1235.9.21 = {holder=98003}
+	1270.5.3 = {holder=98004}
+	1272.8.6 = {holder=98005}
+	1290.7.10 = {holder=98007}
+	1305.12.6 = {holder=98009}
+	1307.10.10 = {holder=469500}
+	
+	#####
+	1700.1.1 = {liege=k_hungary}
+	
+	1772.02.04={holder=100115454}
+	1782.04.07={holder=100115362}
+	1819.02.04={holder=100116800}
+	1846.05.12={holder=100116806}
+	1883.02.12={holder=100116808}
+	1933.05.04={holder=100116812}
+	1941.08.04={holder=100116814}
 }
 c_sopron = {
 	685.1.1 = {
@@ -827,6 +1004,19 @@ c_vas = {
 	1290.7.10 = {holder=98007}
 	1305.12.6 = {holder=98009}
 	1307.10.10 = {holder=469500}
+	#####
+	1700.1.1 = {liege=k_hungary}
+	
+	1764.01.03={holder=100115290}	# 1 Karl Joseph (1699–1772)
+	1777.04.15={holder=100115339}	# 2 Adam Wenzel (1722–1787)
+	1787.10.25={holder=100115337}	# 3 Ludwig (1753–1807)
+	1806.07.15={holder=100115332}	# 4 Philipp (1781–1870)
+	1870.07.22={holder=100115304}	# 5 Gustav (1803–1883)
+	1883.04.25={holder=100115302}	# 6 Edmund (1826–1914)
+	1914.10.29={holder=100115113}	# 7 Ladislaus (1870–1931)
+	1931.01.22={holder=100115118}	# 8	Ladislaus Anton (1904–1966)
+	1966.03.28={holder=100115120}	# 9 Ladislaus Pascal (1938–2015)
+	2015.02.14={holder=100115289}	#10 Ladislaus Edmund (* 1970)
 }
 c_veszprem = {
 	685.1.1 = {
@@ -1067,6 +1257,25 @@ c_gemer = {
 	1297.1.1 = {holder=93721}
 	1300.1.1 = {holder=93723}
 	1335.1.1 = {holder=93726}
+	#####
+	1600.1.1 = {liege=k_hungary}
+	
+	1650.01.01 = {holder=100117240}
+	#100117240
+	1686.01.01 = {holder=100117242}
+	#100117242
+	1715.01.01 = {holder=0}
+	1779.01.01 = {holder=100117249}
+	1792.09.05 = {holder=100117206}
+	1834.01.01 = {holder=100117181}
+	1845.08.22 = {holder=100117222}
+	#100117222
+	1891.04.23 = {holder=100117185}
+	#100117185
+	1903.04.02 = {holder=100117186}
+	1946.07.20 = {holder=100117187}
+	1985.09.01 = {holder=100117193}
+	1990.06.30 = {holder=100117195}
 }
 c_hont = {
 	685.1.1 = {
@@ -1526,8 +1735,13 @@ c_baranya = {
 	1305.12.6 = {holder=98009}
 	1307.10.10 = {holder=469500}
 	#####
+	1700.1.1 = {liege=k_hungary}
 	1830.01.01 = {holder=100120171}
-	1849.08.29 = {holder=0}
+	1849.08.29 = {holder=100120169}
+	1894.06.15 = {holder=100120168}
+	1914.03.28 = {holder=100120166}
+	1956.05.05 = {holder=100120165}
+	2000.01.01 = {holder=100120164}
 }
 c_tolna = {
 	685.1.1 = {
@@ -1581,99 +1795,18 @@ c_tolna = {
 	1307.10.10 = {holder=469500}
 	#####
 	1777.01.01 = {holder=100117332}	# tatsächlich Föispan von Tolna
-	1782.10.05 = {holder=100118501}	# tatsächlich Föispan von Tolna
-	1821.02.19 = {holder=100117312}
-}
-
-#########
-
-d_temes = {
-	804.1.1 = {
-		liege = "k_bulgaria"
-		holder = 146153
-		government = tribal_government
-	}
-	860.1.1 = {holder=168290}
-	895.1.1 = {
-		liege = "k_magyar"
-		holder = 0
-	}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1000.12.25 = {liege=k_hungary}
-}
-
-c_arad = {
-	685.1.1 = {
-		liege = "d_transylvania"
-		holder = 146143
-		government = tribal_government
-	}
-	725.1.1 = {holder=146144}
-	736.1.1 = {holder=146145}
-	750.1.1 = {holder=146146}
-	762.1.1 = {holder=146147}
-	771.1.1 = {holder=146148}
-	795.1.1 = {holder=146150}
-	800.1.1 = {holder=146151}
-	805.1.1 = {
-		liege = "d_visegrad"
-		holder = 146172
-	}
-	808.1.1 = {holder=146173}
-	813.1.1 = {holder=194000}
-	830.1.1 = {holder=168071}
-	858.1.1 = {holder=168072}
-	865.1.1 = {holder=168285}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1063.12.1 = {liege=d_transylvania}
-	1063.12.1 = {holder=474}
-	1095.7.29 = {holder=480}
-	1116.2.3 = {holder=231065}
-	1131.4.2 = {holder=219530}
-	1141.2.13 = {holder=219510}
-	1162.5.31 = {holder=219511}
-	1162.7.15 = {holder=98000}
-	1163.1.14 = {holder=98001}
-	1163.6.19 = {holder=219511}
-	1172.3.4 = {holder=219500}
-	1196.4.23 = {holder=93751}
-	1226.1.1 = {holder=93753}
-	1233.1.1 = {holder=93752}
-	1276.1.1 = {holder=470060}
-	1320.1.2 = {holder=470062}
-}
-c_csanad = {
-	685.1.1 = {
-		liege = "k_hungary"
-		holder = 146155
-		government = tribal_government
-	}
-	701.1.1 = {holder=146159}
-	721.1.1 = {holder=146163}
-	748.1.1 = {holder=146168}
-	785.1.1 = {holder=146173}
-	805.1.1 = {liege=d_visegrad}
-	813.1.1 = {holder=194000}
-	830.1.1 = {holder=168071}
-	858.1.1 = {holder=168072}
-	884.1.1 = {holder=168073}
-	891.1.1 = {holder=168074}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	1066.1.1 = {liege=k_hungary}
-	1066.1.1 = {holder=20364}
-	1083.1.1 = {holder=4386}
-	1098.1.1 = {holder=4387}
-	1117.1.1 = {holder=93655}
-	1130.1.1 = {holder=93656}
-	1160.1.1 = {holder=93657}
-	1190.1.1 = {holder=93658}
-	1195.1.1 = {holder=93660}
-	1218.1.1 = {holder=93662}
-	1256.1.1 = {holder=93666}
-	1282.1.1 = {holder=93667}
-	1285.1.1 = {holder=93669}
-	1290.1.1 = {holder=93672}
-	1332.1.1 = {holder=93673}
+	#100117332
+	1782.10.05 = {holder=dory_0161}	# tatsächlich Föispan von Tolna
+	#dory_0161
+	1799.09.09 = {holder=100118501}
+	#100118501
+	1821.02.19 = {holder=dory_0175}
+	1837.09.24 = {holder=dory_0176}
+	#dory_0176
+	1881.06.30 = {holder=dory_0142}
+	#dory_0142
+	1926.05.09 = {holder=dory_0132}
+	1950.01.01 = {holder=0}
 }
 
 #########
@@ -1768,8 +1901,18 @@ c_bereg = {
 	1307.1.1 = {holder=93637}
 	1316.1.1 = {holder=470191}
 	#####
+	1500.01.01 = {liege=k_hungary}
+	
 	1630.01.01 = {holder=barkoczy_0005}
 	1659.01.31 = {holder=0}
+	
+	1800.01.01={holder=100005293}
+	1841.08.18={holder=100005295}
+	1844.01.01={holder=100005302}
+	1854.04.24={holder=100005306}
+	1903.01.20={holder=100005310}
+	1932.03.02={holder=100005312}
+	1989.01.27={holder=100005315}
 }
 c_szatmar = {
 	685.1.1 = {
@@ -1812,6 +1955,7 @@ c_szatmar = {
 	1276.1.1 = {holder=470060}
 	1320.1.2 = {holder=470062}
 	#####
+	1700.1.1 = {liege=k_hungary}
 	1720.01.01 = {holder=karolyi_0001}
 	1743.09.08 = {holder=karolyi_0002}
 	1758.08.14 = {holder=karolyi_0003}
@@ -1823,6 +1967,17 @@ c_szatmar = {
 	1977.11.16 = {holder=100116125}
 }
 c_ugocsa = {
+	1700.1.1 = {liege=k_hungary}
+	
+	1816.01.01={holder=100116273}
+	1859.11.19={holder=100116271}
+	1884.11.03={holder=100116270}
+	1890.02.08={holder=100116306}
+	1897.04.22={holder=100116285}
+	1904.03.03={holder=100116308}
+	1911.08.18={holder=100116309}
+	1938.08.05={holder=100116311}
+	1989.01.01={holder=100116313}
 }
 
 #########
@@ -1897,7 +2052,8 @@ c_ungvar = {
 	1307.1.1 = {holder=93637}
 	1316.1.1 = {holder=470191}
 	#####
-	1895.01.01 = {holder=100120382}	# Gábor Sztáray, Ungi foispán, *Tarna 12.3.1866, +Nagygejoc 22.5.1941
+	1700.1.1 = {liege=k_hungary}
+	1895.01.01={holder=100120382}	# Gábor Sztáray, Ungi foispán, *Tarna 12.3.1866, +Nagygejoc 22.5.1941
 }
 c_abauj = {
 	739.1.1 = {
@@ -1996,6 +2152,22 @@ c_spis = {
 	1311.9.5 = {holder=93741}
 	1327.1.1 = {holder=93742}
 	1334.1.1 = {holder=93744}
+	#####
+	1700.01.01 = {liege=k_hungary}
+	1770.01.01 = {holder=100118966}
+	1799.10.18 = {holder=100119151}
+	1806.08.18 = {holder=100119076}
+	1825.12.23 = {holder=100119166}
+	1829.05.26 = {holder=100119105}
+	1848.01.20 = {holder=100119032}
+	1879.03.19 = {holder=100118964}
+	1883.02.17 = {holder=100119168}
+	1891.01.30 = {holder=100118961}
+	1905.10.02 = {holder=100118959}
+	1912.12.15 = {holder=100119149}
+	1945.04.30 = {holder=100119159}
+	1977.06.06 = {holder=100119175}
+	1981.09.09 = {holder=100119180}
 }
 c_zemplen = {
 	739.1.1 = {
@@ -2024,4 +2196,6 @@ c_zemplen = {
 	1334.1.1 = {holder=93744}
 	#####
 	1680.1.1 = {holder=barkoczy_0006}
+	1860.01.01 = {holder=100117210}
+	1890.02.18 = {holder=0}
 }
