@@ -3064,7 +3064,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 	1571.12.27={add_spouse=100085580}	# FRN Elisabeth Teufel von Guntersdorf
 	1589.12.10={death=yes}  # Wien
 }
-	100022087={ #// A1. [2m.] Michael Adolf I -cr Reichsgraf von Althann 18.6.1608, General, Diplomat, *Murstetten nr Weissenkirchen an der Perschling, Niederösterreich 1574, +Wien 7.5.1636; 1m: I.1606 Elisabeth Frn von Stotzingen (+14.8.1624); 2m: Praha 21.11.1627 Maria Eva Elisabeth von Sternberg (*1605 +11.3.1668)
+	100022087={ #// A1. [2m.] Michael Adolf I -cr Reichsgraf von Althann 18.6.1608, General, Diplomat, *Murstetten nr Weissenkirchen an der Perschling, Niederösterreich 1574, +Wien 7.5.1636; 1m: I.1606 Elisabeth Frn von Stotzingen (+14.8.1624); 2m: Praha 21.11.1627 Maria Eva Elisabeth von Sternberg (*1605 +11.3.1668) $$
 		name=Michael
 		dynasty=1004507
 		religion=catholic culture=bavarian
@@ -3072,7 +3072,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 		mother=100085580	# FRN Elisabeth Teufel von Guntersdorf
 		1574.01.01={birth=yes}
 		1606.01.01={add_spouse=100085707}	# FRN Elisabeth von Stotzingen
-		1627.11.21={add_spouse=100085715}	# Maria Eva von Sternberg
+		1627.11.21={add_spouse=sternberg_0016}	# Maria Eva ze Šternberka
 		1636.05.07={death=yes}  # Wien
 	}
 		100022088={ #// B1. [1m.] Michael Johann, *1607, +19.2.1649; m.Gfn Maria Margarete von Eggenberg (*1617 +17.3.1657) $$
@@ -3406,7 +3406,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 			dynasty=1004507
 			religion=catholic culture=bavarian
 			father=100022087	# Michael von Althann
-			mother=100085715	# Maria Eva von Sternberg
+			mother=sternberg_0016	# Maria Eva ze Šternberka
 			1630.06.30={birth=yes}  # Wien
 			1666.01.01={add_spouse=100103961}	# GFN Anna d'Aspremont-Lynden
 			1686.05.17={death=yes}  # Schloss Wolfersdorf
@@ -3640,7 +3640,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 			dynasty=1004507
 			religion=catholic culture=bavarian
 			father=100022087	# Michael von Althann
-			mother=100085715	# Maria Eva von Sternberg
+			mother=sternberg_0016	# Maria Eva ze Šternberka
 			1635.08.25={birth=yes}  # Wien
 			1689.10.11={death=yes}  # Wien
 		}
@@ -3650,7 +3650,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 			dynasty=1004507
 			religion=catholic culture=bavarian
 			father=100022087	# Michael von Althann
-			mother=100085715	# Maria Eva von Sternberg
+			mother=sternberg_0016	# Maria Eva ze Šternberka
 			1636.10.28={birth=yes}
 			1661.01.07={death=yes}
 		}
@@ -4538,7 +4538,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 						father=100022111	# Ferdinand Bonaventura von Harrach zu Rohrau u.Thannhausen
 						mother=100024770	# Johanna Theresia von Lamberg
 						1669.03.06={birth=yes}
-						1694.01.01={add_spouse=100101608}	# Maria Barbara ze Šternberka
+						1694.01.01={add_spouse=sternberg_0023}	# Maria Barbara ze Šternberka
 						1695.01.01={add_spouse=100102322}	# GFN Anna Cäcilia von Thannhausen
 						1721.06.08={add_spouse=100024642}	# Maria Ernestine von Dietrichstein
 						1742.11.08={death=yes}
@@ -4549,7 +4549,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 							dynasty=1004560
 							religion=catholic culture=bavarian
 							father=100022102	# Aloys Thomas von Harrach zu Rohrau u.Thannhausen
-							mother=100101608	# Maria Barbara ze Šternberka
+							mother=sternberg_0023	# Maria Barbara ze Šternberka
 							1693.01.09={birth=yes}  # Wien
 							1763.04.02={death=yes}  # Praha
 						}
@@ -10654,7 +10654,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				father=100022012	# Karl August von Seilern u.Aspang
 				mother=100023841	# Maria Maximiliana von Wurmbrand-Stuppach
 				1793.06.22={birth=yes}	# Holleschau
-				1822.01.01={add_spouse=100115513}	# Marie Leopoldine Zichy de Zich et Vásonkeő
+				1817.06.22={add_spouse=100115513}	# Marie Leopoldine Zichy de Zich et Vásonkeő
 				1831.06.20={add_spouse=100085886}	# Antonie von Krosigk
 				1861.03.19={death=yes}	# Wien, Wien
 			}
@@ -11518,6 +11518,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								name=Johannes    # 1325750/johannes-von-seilern-und-aspang/
 								dynasty=1004701
 								religion=catholic culture=bavarian
+								trait=legitimized_bastard
 								father=100022378	# Paul von Seilern u.Aspang
 								mother=100085581	# Martha Netzer
 								1951.09.22={birth=yes}
@@ -14235,7 +14236,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			religion=catholic culture=bavarian
 			father=100023954	# Karl von Paar
 			1654.05.20={birth=yes}
-			1678.05.04={add_spouse=100087514}	# Maria Renata ze Šternberka
+			1678.05.04={add_spouse=sternberg_0047}	# Marie Renata ze Šternberka
 			1725.05.12={death=yes}
 		}
 			100023960={ #// 2c) Johann Adam (7 Nov 1680-2 May 1737); m.5 Aug 1703 Maria Josepha Antonia Gf von Oettingen-Spielberg (17 Jan 1686-Vienna 22 Mar 1771) $$
@@ -14243,7 +14244,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				dynasty=1004557
 				religion=catholic culture=bavarian
 				father=100023956	# Karl Joseph von Paar
-				mother=100087514	# Maria Renata ze Šternberka
+				mother=sternberg_0047	# Marie Renata ze Šternberka
 				1680.11.07={birth=yes}
 				1703.08.05={add_spouse=100012396}	# Maria Josepha zu Oettingen-Spielberg
 				1737.05.02={death=yes}
@@ -14254,18 +14255,18 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				dynasty=1004557
 				religion=catholic culture=bavarian
 				father=100023956	# Karl Joseph von Paar
-				mother=100087514	# Maria Renata ze Šternberka
+				mother=sternberg_0047	# Marie Renata ze Šternberka
 				1683.06.03={birth=yes}
 				1765.06.30={death=yes}
 			}
-			100023961={ #// 3c) Johann Leopold (4 Jul 1693-25 Jun 1741); m.2 Jun 1715 Maria Theresia Gfn von Sternberg (d.29 Mar 1761)
+			100023961={ #// 3c) Johann Leopold (4 Jul 1693-25 Jun 1741); m.2 Jun 1715 Maria Theresia Gfn von Sternberg (d.29 Mar 1761) $$
 				name="Johann Leopold"
 				dynasty=1004557
 				religion=catholic culture=bavarian
 				father=100023956	# Karl Joseph von Paar
-				mother=100087514	# Maria Renata ze Šternberka
+				mother=sternberg_0047	# Marie Renata ze Šternberka
 				1693.07.04={birth=yes}
-				1715.06.02={add_spouse=100087518}	# Maria Theresia von Sternberg
+				1715.06.02={add_spouse=sternberg_0027}	# Marie Terezie ze Šternberka
 				1741.06.25={death=yes}
 			}
 				100023962={ #// 3d) WENZEL Johann Joseph Gf von Paar, cr 1769 Fürst von Paar (7 Aug 1719-4 Jul 1792); m.17 Apr 1743 Antonia Gfn Esterhazy (31 Mar 1719-12 Mar 1771) $$
@@ -14273,7 +14274,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					dynasty=1004557
 					religion=catholic culture=bavarian
 					father=100023961	# Johann Leopold von Paar
-					mother=100087518	# Maria Theresia von Sternberg
+					mother=sternberg_0027	# Marie Terezie ze Šternberka
 					1719.08.07={birth=yes}
 					1743.04.17={add_spouse=esterhazy_0115}	# Maria Antonia Esterházy de Galántha
 					1792.07.04={death=yes}
@@ -17369,7 +17370,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 	dynasty=1004525
 	religion=catholic culture=bavarian
 	1651.01.01={birth=yes}
-	1688.01.01={add_spouse=100086481}	# Maria Regina von Sprinzenstein
+	1686.01.01={add_spouse=100086481}	# Maria Regina von Sprinzenstein
 	1699.08.25={death=yes}
 }
 	100023226={ #// G1. Maria Ernestine Gabriele Josepha, *ca 1689, +24.2.1725; 1m: 13.7.1705 Gf Václav Bernard Bruntálský z Vrbna (*1658, +1708); 2m: 1.1.1709 Gf und Herr Franz Ferdinand von und zu Sprinzenstein und Neuhaus (*9.1.1671, +11.6.1728) $$
@@ -19179,7 +19180,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							father=100023279	# Konrad von Starhemberg
 							mother=100035726	# Anna Elisabeth von Zinzendorf u.Pottendorf
 							1637.01.11={birth=yes}  # Graz
-							1661.04.05={add_spouse=100024945}	# Helena Dorothea von Starhemberg
+							1660.05.01={add_spouse=100024945}	# Helena Dorothea von Starhemberg
 							1689.05.14={add_spouse=100081455}	# GFN Maria Josepha Jörger von Tollet
 							1701.06.04={death=yes}  # Vössendorf
 						}
@@ -19190,7 +19191,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								religion=catholic culture=bavarian
 								father=100023281	# Heinrich Ernst von Starhemberg
 								mother=100024945	# Helena Dorothea von Starhemberg
-								1660.01.01={birth=yes}
+								1660.12.01={birth=yes}
 								1683.01.01={death=yes}
 							}
 							100023291={ #// G4. [1m.] Maria Katharina, *Wien 1663, +Wien 2.1.1743; m.Wien 20.2.1686 Gf Otto Heinrich von Hohenfeld (*1645, +Wien 25.2.1719)
@@ -19334,7 +19335,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								religion=catholic culture=bavarian
 								father=100024730	# Maximilian Reichard von Starhemberg
 								mother=oppersdorf_0058	# Marie Barbora von Oppersdorff
-								1679.01.01={birth=yes}
+								1680.01.01={birth=yes}
 								1720.04.07={death=yes}  # Linz
 							}
 							100024734={ #// G2. Maria Antonia Margaretha, *ca 1680, +1720; m.1699 Gf Franz Philipp Gottlieb von Thürheim (*21.4.1673, +1748)
@@ -19344,7 +19345,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								religion=catholic culture=bavarian
 								father=100024730	# Maximilian Reichard von Starhemberg
 								mother=oppersdorf_0058	# Marie Barbora von Oppersdorff
-								1680.01.01={birth=yes}
+								1681.01.01={birth=yes}
 								1720.01.01={death=yes}
 							}
 							100024735={ #// G3. ADAM FRANZ Joseph Anton Erasmus "der Fromme", *Linz 12.12.1682, +Linz 1.5.1742; m.1708 Maria Genovefa Antonia Anna von Ulm Frn auf Erbach (*Obersulmentingen 19.8.1682, +Linz 18.9.1753)
@@ -20201,7 +20202,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				father=100023610	# Joseph von Starhemberg
 				mother=100090669	# Eva Károlyi de Nagykároly
 				1764.01.01={birth=yes}
-				1789.01.01={add_spouse=100094495}	# GFN Alojzia Tolvay de Köpösd
+				1788.01.01={add_spouse=100094495}	# GFN Alojzia Tolvay de Köpösd
 				1803.01.01={death=yes}
 			}
 				100023620={ #// D2. Anton II Gundakar, *21.12.1788, +12.4.1853; m.Újlak 10.10.1815 Gfn Barbara Franziska Desfours-Walderode du Mont et Athienville und von Eckhausen (*Malá Skála 21.12.1789, +Köpösd 23.9.1869) $$
@@ -20714,7 +20715,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		1739.02.16={birth=yes}
 		1798.03.08={death=yes}  # Sankt Pölten
 	}
-	100022419={ #// A3. Theresia (*Wien 4.6.1751, +13.6.1831); m.Wien 7.1.1769 Mihály Nádasdy de Nádasd et Fogarasföld (*19.9.1746, +9.6.1826)
+	100022419={ #// A3. Theresia (*Wien 4.6.1751, +13.6.1831); m.Wien 7.1.1769 Mihály Nádasdy de Nádasd et Fogarasföld (*19.9.1746, +9.6.1826) $$
 		name=Theresia
 		female=yes
 		dynasty=1004211
@@ -23562,13 +23563,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				1664.11.26={birth=yes}
 				1733.10.12={death=yes}  # Salzburg
 			}
-			100025430={ #// C2. [1m.] Johann Maximilian Andreas, *1.12.1673, +25.3.1701; m.Gfn Marie Terezie ze Šternberka (*after 1671)
+			100025430={ #// C2. [1m.] Johann Maximilian Andreas, *1.12.1673, +25.3.1701; m.Gfn Marie Terezie ze Šternberka (*after 1671) $$
 				name="Johann Maximilian"
 				dynasty=1004005
 				religion=catholic culture=bavarian
 				father=100023586	# Maximilian von Thun u.Hohenstein
 				mother=lodron_0259	# Maria Josepha zu Lodron-Laterano u.Castelromano
 				1673.12.01={birth=yes}
+				1699.01.01={add_spouse=sternberg_0052}	# Marie Terezie ze Šternberka
 				1701.03.25={death=yes}
 			}
 				100024164={ #// D1. Maria Anna, *27.9.1698, +Wien 23.2.1716; m.Hofburg 3.2.1716 Fst Joseph I Johann von und zu Liechtenstein (*27.5.1690 +17.12.1732) $$
@@ -23577,6 +23579,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					dynasty=1004005
 					religion=catholic culture=bavarian
 					father=100025430	# Johann Maximilian von Thun u.Hohenstein
+					mother=sternberg_0052	# Marie Terezie ze Šternberka
 					1698.09.27={birth=yes}
 					1716.02.23={death=yes}
 				}
@@ -24654,6 +24657,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 				name="Zdenko Franz"
 				dynasty=1004005
 				religion=catholic culture=bavarian
+				trait=legitimized_bastard
 				father=100023806	# Franz von Thun u.Hohenstein
 				mother=100087110	# Magdalena König
 				1842.09.09={birth=yes}
@@ -27861,7 +27865,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 	father=100023286	# Maximilian von Trauttmansdorff-Weinsberg
 	mother=100118385	# Sophie Maria Pálffy ab Erdöd
 	1617.01.01={birth=yes}
-	1642.03.02={add_spouse=100080465}	# Eva Johanka von Sternberg
+	1642.03.02={add_spouse=sternberg_0014}	# Eva Johanka ze Šternberka
 	1675.12.02={add_spouse=100047749}	# Maria Isabella Popel z Lobkowicz
 	1684.11.02={death=yes}  # Bischofteinitz
 }
@@ -27871,7 +27875,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004004
 		religion=catholic culture=bavarian
 		father=100025020	# Adam Matthias von Trauttmansdorff-Weinsberg
-		mother=100080465	# Eva Johanka von Sternberg
+		mother=sternberg_0014	# Eva Johanka ze Šternberka
 		1642.01.01={birth=yes}  # Žichovice
 		1727.04.21={death=yes}  # Linz
 	}
@@ -27881,7 +27885,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004004
 		religion=catholic culture=bavarian
 		father=100025020	# Adam Matthias von Trauttmansdorff-Weinsberg
-		mother=100080465	# Eva Johanka von Sternberg
+		mother=sternberg_0014	# Eva Johanka ze Šternberka
 		1645.01.01={birth=yes}  # EST.
 		1720.01.01={death=yes}  # EST.
 	}
@@ -27890,7 +27894,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004004
 		religion=catholic culture=bavarian
 		father=100025020	# Adam Matthias von Trauttmansdorff-Weinsberg
-		mother=100080465	# Eva Johanka von Sternberg
+		mother=sternberg_0014	# Eva Johanka ze Šternberka
 		1646.02.17={birth=yes}  # Bischofteinitz
 		1667.01.30={add_spouse=100022823}	# Anna von Liechtenstein
 		1689.02.01={death=yes}  # Bischofteinitz
@@ -28312,7 +28316,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004004
 		religion=catholic culture=bavarian
 		father=100025020	# Adam Matthias von Trauttmansdorff-Weinsberg
-		mother=100080465	# Eva Johanka von Sternberg
+		mother=sternberg_0014	# Eva Johanka ze Šternberka
 		1651.01.01={birth=yes}  # EST.
 		1726.01.01={death=yes}  # EST.
 	}
@@ -28321,7 +28325,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004004
 		religion=catholic culture=bavarian
 		father=100025020	# Adam Matthias von Trauttmansdorff-Weinsberg
-		mother=100080465	# Eva Johanka von Sternberg
+		mother=sternberg_0014	# Eva Johanka ze Šternberka
 		1651.01.01={birth=yes}
 		1676.01.01={add_spouse=100094295}	# GFN Kornelie Eleonore Harant von Polschitz u.Weseritz
 		1707.09.17={death=yes}
@@ -28490,7 +28494,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004004
 		religion=catholic culture=bavarian
 		father=100025020	# Adam Matthias von Trauttmansdorff-Weinsberg
-		mother=100080465	# Eva Johanka von Sternberg
+		mother=sternberg_0014	# Eva Johanka ze Šternberka
 		1656.01.01={birth=yes}
 		1684.01.01={add_spouse=100047753}	# Markéta Popel z Lobkowicz
 		1690.06.19={add_spouse=100095293}	# GFN Marie Karolína Slavatová z Chlumu Košumberka
@@ -28542,7 +28546,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004004
 		religion=catholic culture=bavarian
 		father=100025020	# Adam Matthias von Trauttmansdorff-Weinsberg
-		mother=100080465	# Eva Johanka von Sternberg
+		mother=sternberg_0014	# Eva Johanka ze Šternberka
 		1657.09.01={birth=yes}  # Bischofteinitz
 		1714.03.06={death=yes}
 	}
@@ -28552,7 +28556,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 		dynasty=1004004
 		religion=catholic culture=bavarian
 		father=100025020	# Adam Matthias von Trauttmansdorff-Weinsberg
-		mother=100080465	# Eva Johanka von Sternberg
+		mother=sternberg_0014	# Eva Johanka ze Šternberka
 		1660.01.01={birth=yes}  # EST.
 		1735.01.01={death=yes}  # EST.
 	}
@@ -32781,6 +32785,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 							name=Albrecht
 							dynasty=1004002
 							religion=catholic culture=bavarian
+							trait=legitimized_bastard
 							father=100022857	# Johannes von Liechtenstein
 							mother=100035077	# Karoline von Ledebur-Wicheln
 							1940.05.28={birth=yes}
@@ -32793,6 +32798,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								female=yes
 								dynasty=1004002
 								religion=catholic culture=bavarian
+								trait=legitimized_bastard
 								father=100022869	# Albrecht von Liechtenstein
 								mother=100088567	# Tamara Nyman
 								1965.03.02={birth=yes}
@@ -32890,7 +32896,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 							father=100022887	# Johann Moritz von Liechtenstein
 							mother=100006625	# Clotilde Alberta von Thurn und Taxis
 							1949.04.01={birth=yes}
-							1989.07.22={add_spouse=100066617}	# Marie Isabelle d’Orléans
+							1989.07.22={add_spouse=100066617}	# Marie Isabelle d'Orleans
 						}
 							100022893={ #// 1h) Leopoldine Eleonore Therese Marie (b.Vienna 27 Jun 1990)
 								name=Leopoldine
@@ -32898,7 +32904,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d'Orleans
 								1990.06.27={birth=yes}
 							}
 							100022894={ #// 2h) Marie Immaculee Elisabeth Rose Adelgunde (b.Vienna 15 Dec 1991)
@@ -32907,7 +32913,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d'Orleans
 								1991.12.15={birth=yes}
 							}
 							100022895={ #// 3h) Johann Wenzel Karl Emmeran Bonifatius Maria (b.Vienna 16 Mar 1993)
@@ -32915,7 +32921,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d'Orleans
 								1993.03.16={birth=yes}
 							}
 							100022896={ #// 4h) Margarete Franziska Daria Wilhelmine Marie (b.Vienna 10 Jan 1995)
@@ -32924,7 +32930,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d'Orleans
 								1995.01.10={birth=yes}
 							}
 							100022897={ #// 5h) Gabriel Karl Bonaventura Alfred Valerian Maria (b.Vienna 6 May 1998)
@@ -32932,7 +32938,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d’Orléans
+								mother=100066617	# Marie Isabelle d'Orleans
 								1998.05.06={birth=yes}
 							}
 						100022898={ #// 3g) Alfred Heinrich Michael Benedikt Maria (b.Vienna 17 Sep 1951); m.Vaduz 22 Mar 2002 (rel) Schloß Waldstein 6 Apr 2002 Raffaella Ida Sangiorgi (b.Tlemcen, Algeria 12 Dec 1966)
@@ -34975,7 +34981,7 @@ wgraetz_0038={ #// JOSEPH Ludwig Nikolaus Anton de Paula Johannes Nepomuk Adam R
 								religion=catholic culture=bavarian
 								father=100022639	# Constantin von Windisch-Graetz
 								mother=100093845	# Lesley Anne Withers
-								2002.02.01={birth=yes}
+								2002.12.01={birth=yes}
 							}
 							100022642={ #// 2g) Otto (b.2006)
 								name=Otto
@@ -44328,14 +44334,14 @@ eggenberg_0001={ #// Hans Ulrich Eckenberger, Stadtrichter zu Graz 1432, +22.5.1
 							1704.07.12={add_spouse=100024501}	# Maria Josepha von Orsini u.Rosenberg
 							1713.10.05={death=yes}
 						}
-							eggenberg_0023={ #// G1. [1m.] Fst Johann Anton II Josef, *6/7.1.1669, +9.1.1716; m.9.3.1692 Gfn Maria Karolina ze Šternberka (*ca 1670, +9.4.1754)
+							eggenberg_0023={ #// G1. [1m.] Fst Johann Anton II Josef, *6/7.1.1669, +9.1.1716; m.9.3.1692 Gfn Maria Karolina ze Šternberka (*ca 1670, +9.4.1754) $$
 								name="Johann Anton"
 								dynasty=eggenberg
 								religion=catholic culture=czech
 								father=eggenberg_0022	# Johann Seyfried von Eggenberg
 								mother=lowborn_6574	# PSS Maria Eleonora von und zu Liechtenstein
 								1669.01.07={birth=yes}
-								1692.03.09={add_spouse=lowborn_6576}	# GFN Maria Karolina ze Šternberka
+								1692.03.09={add_spouse=sternberg_0051}	# Maria Karolina ze Šternberka
 								1716.01.09={death=yes}
 							}
 								eggenberg_0026={ #// H3. Maria Eleonora Anna Josepha, *20.4.1694, +28.9.1774; 1m: 26.6.1719 Josef Patrik Gf Leslie (*8.10.1694, +Steier 16.6.1732); 2m: 28.10.1733 Andreas Siegmund Gf von Welz; 3m: 26.9.1740 Johann Leopold Franz Gf von Herberstein (*1712 +1789) $$
@@ -44344,7 +44350,7 @@ eggenberg_0001={ #// Hans Ulrich Eckenberger, Stadtrichter zu Graz 1432, +22.5.1
 									dynasty=eggenberg
 									religion=catholic culture=czech
 									father=eggenberg_0023	# Johann Anton von Eggenberg
-									mother=lowborn_6576	# GFN Maria Karolina ze Šternberka
+									mother=sternberg_0051	# Maria Karolina ze Šternberka
 									1694.04.20={birth=yes}
 									1774.09.28={death=yes}
 								}
@@ -44354,7 +44360,7 @@ eggenberg_0001={ #// Hans Ulrich Eckenberger, Stadtrichter zu Graz 1432, +22.5.1
 									dynasty=eggenberg
 									religion=catholic culture=czech
 									father=eggenberg_0023	# Johann Anton von Eggenberg
-									mother=lowborn_6576	# GFN Maria Karolina ze Šternberka
+									mother=sternberg_0051	# Maria Karolina ze Šternberka
 									1695.10.14={birth=yes}
 									1774.11.24={death=yes}
 								}
@@ -44363,7 +44369,7 @@ eggenberg_0001={ #// Hans Ulrich Eckenberger, Stadtrichter zu Graz 1432, +22.5.1
 									dynasty=eggenberg
 									religion=catholic culture=czech
 									father=eggenberg_0023	# Johann Anton von Eggenberg
-									mother=lowborn_6576	# GFN Maria Karolina ze Šternberka
+									mother=sternberg_0051	# Maria Karolina ze Šternberka
 									1704.03.10={birth=yes}
 									1717.02.23={death=yes}
 								}

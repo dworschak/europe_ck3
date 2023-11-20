@@ -153,7 +153,7 @@
 					1640.01.01={add_spouse=100114163}	# Wiktoria Elzbieta Potocki
 					1663.01.01={death=yes}
 				}
-			100114039={ #// C5. [1m.] Anna, *ca 1593, +1623; 1m: Stanislaw Golski, wojewoda ruski; 2m: after 1612 Konstanty Pr Zaslawski (+1615); 3m: before 1615 Karol Samuel Pr Korecki, kasztelan wolynski (+1633)
+			100114039={ #// C5. [1m.] Anna, *ca 1593, +1623; 1m: Stanislaw Golski, wojewoda ruski; 2m: after 1612 Konstanty Pr Zaslawski (+1615); 3m: before 1615 Karol Samuel Pr Korecki, kasztelan wolynski (+1633) $$
 				name=Anna
 				female=yes
 				dynasty=1012006
@@ -721,7 +721,7 @@
 				father=100114033	# Jerzy Potocki
 				mother=100083443	# Konstancja Drucki-Podberezki
 				1720.01.01={birth=yes}
-				1741.01.01={add_spouse=100086197}	# Marianna Katski
+				1741.01.01={add_spouse=lowborn_6840}	# Marianna Katski
 				1768.01.01={death=yes}
 			}
 				100114152={ #// D6. Cecylia Urszula, *1747, +1772; m.1767 Pr Hieronim Janusz Sanguszko (*ca 1743, +18.12.1812) $$
@@ -730,7 +730,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114035	# Eustachy Potocki
-					mother=100086197	# Marianna Katski
+					mother=lowborn_6840	# Marianna Katski
 					1747.01.01={birth=yes}
 					1772.01.01={death=yes}
 				}
@@ -739,7 +739,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114035	# Eustachy Potocki
-					mother=100086197	# Marianna Katski
+					mother=lowborn_6840	# Marianna Katski
 					1748.01.01={birth=yes}  # EST.
 					1784.06.01={add_spouse=100081357}	# Anna Cetner
 					1793.01.01={remove_spouse=100081357}
@@ -750,7 +750,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114035	# Eustachy Potocki
-					mother=100086197	# Marianna Katski
+					mother=lowborn_6840	# Marianna Katski
 					1750.01.01={birth=yes}
 					1773.01.01={add_spouse=100111248}	# Elzbieta Lubomirski
 					1809.01.01={death=yes}
@@ -760,7 +760,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114035	# Eustachy Potocki
-					mother=100086197	# Marianna Katski
+					mother=lowborn_6840	# Marianna Katski
 					1753.01.01={birth=yes}
 					1773.01.01={add_spouse=100101425}	# Barbara Teresa Brzostowski
 					1781.01.01={remove_spouse=100101425}
@@ -772,7 +772,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114035	# Eustachy Potocki
-					mother=100086197	# Marianna Katski
+					mother=lowborn_6840	# Marianna Katski
 					1755.01.01={birth=yes}  # EST.
 					1791.01.01={add_spouse=100101427}	# Ludwika Aloe
 					1830.01.01={death=yes}  # EST.
@@ -792,7 +792,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114035	# Eustachy Potocki
-					mother=100086197	# Marianna Katski
+					mother=lowborn_6840	# Marianna Katski
 					1755.01.01={birth=yes}	# Lublin
 					1776.06.02={add_spouse=100111257}	# Alexandra Lubomirski
 					1821.09.14={death=yes}  # Wilanów Palace
@@ -913,14 +913,14 @@
 								1851.05.24={birth=yes}  # Warszawa
 								1945.12.12={death=yes}  # Kraków
 							}
-			100114156={ #// C3. [2m.] Marian, kasztelan lubaczowski, *1723, +after 1768; m.1749 Anna Malachowska (+after 1772)
+			100114156={ #// C3. [2m.] Marian, kasztelan lubaczowski, *1723, +after 1768; m.1749 Anna Malachowska (+after 1772) $$
 				name=Marian
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100114033	# Jerzy Potocki
 				mother=100083443	# Konstancja Drucki-Podberezki
 				1723.01.01={birth=yes}
-				1749.01.01={add_spouse=100101446}	# Anna Malachowska
+				1749.01.01={add_spouse=malachow_0012}	# Anna Małachowski
 				1769.01.01={death=yes}
 			}
 			100114158={ #// C4. [2m.] Pelagia, +after 1794; m.1736 Ct Józef Potocki, kasztelan lwowski (*ca 1695, +1764) $$
@@ -966,187 +966,518 @@
 #potocki2
 
 #potocki3
-100114042={ #// Stefan Potocki, rotmistrz królewski 1599, pisarz polny koronny 1612, general ziem podolskich, wojewoda braclawski 1628, starost latyczowski, felinski i lucynski, +5.3.1631; m.1606 Maria Mohylanka (+10.12.1638/after 1642) $$
+potocki_0001={ #// Stefan Potocki, rotmistrz królewski 1599, pisarz polny koronny 1612, general ziem podolskich, wojewoda braclawski 1628, starost latyczowski, felinski i lucynski, +5.3.1631; m.1606 Maria Mohylanka (+10.12.1638/after 1642); They had issue: $$
 	name=Stefan
 	dynasty=1012006
 	religion=catholic culture=polish
-	father=100114002	# Mikolaj Potocki
-	mother=100082039	# Anna Czerminski
-	1568.01.01={birth=yes}
+	1567.01.01={birth=yes}  # EST.
 	1606.01.01={add_spouse=mushati_0055}	# Maria Mușat
 	1631.03.05={death=yes}
 }
-	100114044={ #// A2. Pawel, dworzanin królewski 1649, kasztelan kamieniecki 1674, +after 1674/75; 1m: Elzbieta Jarmolinska; 2m: before 1661 Eleonora Soltykow (+after 1691) $$
+	potocki_0002={ #// A1. Piotr, starost sniatynski, +1647/48; m.before 1641 Eufrozyna Stanislawska (+1668)
+		name=Piotr
+		dynasty=1012006
+		religion=catholic culture=polish
+		father=potocki_0001	# Stefan Potocki
+		mother=mushati_0055	# Maria Mușat
+		1608.01.01={birth=yes}  # EST.
+		1641.01.01={add_spouse=lowborn_6762}	# Eufrozyna Stanislawski
+		1647.01.01={death=yes}
+	}
+	potocki_0003={ #// A2. Pawel, dworzanin królewski 1649, kasztelan kamieniecki 1674, +after 1675; 1m: Elzbieta Jarmolinska; 2m: before 1661 Eleonora Soltykow (+after 1691) $$
 		name=Pawel
 		dynasty=1012006
 		religion=catholic culture=polish
-		father=100114042	# Stefan Potocki
+		father=potocki_0001	# Stefan Potocki
 		mother=mushati_0055	# Maria Mușat
-		1612.01.01={birth=yes}
-		1637.01.01={add_spouse=100085658}	# Elzbieta Jarmolinski
+		1621.01.01={birth=yes}  # EST.
+		1650.01.01={add_spouse=lowborn_6766}	# Elzbieta Jarmolinski
 		1660.01.01={add_spouse=100017804}	# Елена Петровна Салтыков
-		1674.01.01={death=yes}
+		1676.01.01={death=yes}
 	}
-		100289198={ #// B1. [1m.] Józef Stanislaw, rotmistrz pancerny 1684, kasztelan kamienski 1692, kasztelan kijowski 1714, +1722; 1m: Zuzanna Szczawinska; 2m: before 1693 Eleonora Rejówna (+after 1717)
-			name="Jozef Stanislaw"
+		potocki_0004={ #// B1. [1m.] Józef Stanislaw, rotmistrz pancerny 1684, kasztelan kamienski 1692, kasztelan kijowski 1714, +1722; 1m: Zuzanna Szczawinska; 2m: before 1693 Eleonora Rejówna (+after 1717)
+			name="Józef Stanislaw"
 			dynasty=1012006
 			religion=catholic culture=polish
-			father=100114044	# Pawel Potocki
-			mother=100085658	# Elzbieta Jarmolinski
-			1645.01.01={birth=yes}
-			1722.01.21={death=yes}
+			father=potocki_0003	# Pawel Potocki
+			mother=lowborn_6766	# Elzbieta Jarmolinski
+			1651.01.01={birth=yes}  # EST.
+			1680.01.01={add_spouse=lowborn_6798}	# Zuzanna Szczawinska
+			1693.01.01={add_spouse=lowborn_6799}	# Eleonora Rejówna
+			1722.01.01={death=yes}
 		}
-			100289197={ #// C2. [2m.] Jan, kasztelan braclawski 1729, starost smotrycki, +1744; 1m: before 1720 Konstancja Sobieska; 2m: before 1728 Zofia Branicka (+1730); 3m: Konstancja Danilowiczówna (+1792)
-				name="Jan Kanty"
+			potocki_0005={ #// C1. [1m.] Jakub, kustosz sandomierski, kanclerz warminski
+				name=Jakub
 				dynasty=1012006
 				religion=catholic culture=polish
-				father=100289198	# Jozef Stanislaw Potocki
-				1700.01.01={birth=yes}
-				1744.01.21={death=yes}
+				father=potocki_0004	# Józef Stanislaw Potocki
+				mother=lowborn_6798	# Zuzanna Szczawinska
+				1685.01.01={birth=yes}  # EST.
+				1748.01.01={death=yes}  # EST.
 			}
-				100289196={ #// D1. [1m.] Joachim, podczaszy litewski (1763-80), szef regimentu konnego im. królowej Jadwigi, starost grzybowski i trembowelski, +before 1796; 1m: 1752 Teresa Sapiezanka (+before 1784); 2m: 1786 Salomea Grochowska $$
+			potocki_0006={ #// C2. [2m.] Jan, kasztelan braclawski 1729, starost smotrycki, +1744; 1m: before 1720 Konstancja Sobieska; 2m: before 1728 Zofia Branicka (+1730); 3m: Konstancja Danilowiczówna (+1792)
+				name=Jan
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0004	# Józef Stanislaw Potocki
+				mother=lowborn_6798	# Zuzanna Szczawinska
+				1699.01.01={birth=yes}  # EST.
+				1720.01.01={add_spouse=lowborn_6807}	# Konstancja Sobieska
+				1728.01.01={add_spouse=lowborn_6829}	# Zofia Branicka
+				1742.01.01={add_spouse=lowborn_6830}	# Konstancja Danilowicz
+				1744.01.01={death=yes}
+			}
+				potocki_0007={ #// D1. [1m.] Joachim, podczaszy litewski (1763-80), szef regimentu konnego im. królowej Jadwigi, starost grzybowski i trembowelski, +before 1796; 1m: 1752 Teresa Sapiezanka (+before 1784); 2m: 1786 Salomea Grochowska $$
 					name=Joachim
 					dynasty=1012006
 					religion=catholic culture=polish
-					father=100289197	# Jan Kanty Potocki
-					1710.01.01={birth=yes}  # Trzebowa
+					father=potocki_0006	# Jan Potocki
+					mother=lowborn_6829	# Zofia Branicka
+					1763.01.01={birth=yes}
 					1752.01.01={add_spouse=100111532}	# Teresa Sapieha
-					1791.05.21={death=yes}  # Morachwa
+					1786.01.01={add_spouse=lowborn_6832}	# Salomea Grochowska
+					1780.01.01={death=yes}  # before
 				}
-					100114030={ #// E1. [1m.] Krystyna, +1789; m.before 1780 Ct Piotr Potocki (*1745 +1829) $$
+					potocki_0008={ #// E1. [1m.] Krystyna, +1789; m.before 1780 Ct Piotr Potocki (*1745 +1829) $$
 						name=Krystyna
 						female=yes
 						dynasty=1012006
 						religion=catholic culture=polish
-						father=100289196	# Joachim Potocki
+						father=potocki_0007	# Joachim Potocki
 						mother=100111532	# Teresa Sapieha
-						1753.01.01={birth=yes}
+						1761.01.01={birth=yes}  # EST.
 						1789.01.01={death=yes}
 					}
-				100114031={ #// D2. [1m.] Teodor, general major wojsk koronnych, szef regimentu Potockich, wojewoda belski 1791, starost smotrycki i olsztynski, prezes Rzadu Tymczasowego Galicji 1809, +1812; 1m: 1775 (div 1788) Karolina Sapiezanka (*1759 +1814); 2m: 1788 Kordula Komorowska (*1764, +before 1837); he had issue $$
+					potocki_0009={ #// E2. [1m.] Joanna; m.before 1780 Ct Jan Potocki, starost kaniowski $$
+						name=Joanna
+						female=yes
+						dynasty=1012006
+						religion=catholic culture=polish
+						father=potocki_0007	# Joachim Potocki
+						mother=100111532	# Teresa Sapieha
+						1761.01.01={birth=yes}  # EST.
+						1821.01.01={death=yes}  # EST.
+					}
+				potocki_0010={ #// D2. [1m.] Teodor, general major wojsk koronnych, szef regimentu Potockich, wojewoda belski 1791, starost smotrycki i olsztynski, prezes Rzadu Tymczasowego Galicji 1809, +1812; 1m: 1775 (div 1788) Karolina Sapiezanka (*1759 +1814); 2m: 1788 Kordula Komorowska (*1764, +before 1837); he had issue $$
 					name=Teodor
 					dynasty=1012006
 					religion=catholic culture=polish
-					father=100289197	# Jan Kanty Potocki
-					1730.08.10={birth=yes}  # Smotrycz
+					father=potocki_0006	# Jan Potocki
+					mother=lowborn_6807	# Konstancja Sobieska
+					1740.01.01={birth=yes}  # EST.
 					1775.01.01={add_spouse=100111497}	# Karolina Sapieha
-					1788.01.01={remove_spouse=100111497}
-					1812.08.08={death=yes}	# Smotrycz
+					1787.01.01={remove_spouse=100111497}
+					1788.01.01={add_spouse=lowborn_6837}	# Kordula Komorowska
+					1812.01.01={death=yes}
 				}
-		100114047={ #// B2. [2m.] Aleksander Jan, podkomorzy halicki 1692, kasztelan kamieniecki 1702, wojewoda smolenski 1712, starost szczyrzycki, +1714; 1m: before 1688 Zuzanna Karczewska; 2m: before 1693 Teresa Tarlówna (+after 1739)
-			name=Aleksander
-			dynasty=1012006
-			religion=catholic culture=polish
-			father=100114044	# Pawel Potocki
-			mother=100017804	# Елена Петровна Салтыков
-			1662.01.01={birth=yes}	# EST.
-			1688.01.01={add_spouse=100086583}	# Susanna Karczewski
-			1693.01.01={remove_spouse=100086583}
-			1693.02.01={add_spouse=100090840}	# Teresa Tarlo
-			1714.01.01={death=yes}
-		}
-			# potocki6 -> 1e) Ct Jozef Potocki (Lviv 1695-Siemienowka 21 Dec 1764); m.1st Constance Morsztyn (ca 1705-1734); m.2nd 1736 Css Pelagia Potocki (d.after 1794)
-			100214190={ #// C2. [2m.] Antoni Michal, podstoli litewski, wojewoda belski), marszalek królowej, +1766; m.1730 Ludwika Maria Sapiezanka (*1695 +1768) $$
-				name="Antoni Michal"
-				dynasty=1012006
-				religion=catholic culture=polish
-				father=100114047	# Aleksander Potocki
-				mother=100090840	# Teresa Tarlo
-				1700.01.01={birth=yes}  # EST.
-				1730.01.01={add_spouse=100111509}	# Ludwika Sapieha
-				1766.01.01={death=yes}
-			}
-				100214191={ #// D1. Jan Prosper, starost guzowski, general lejtnant wojsk koronnych, +1761/62; m.1760 Paula Szembekówna (+1797)
-					name="Jan Prosper"
-					dynasty=1012006
-					religion=catholic culture=polish
-					father=100214190	# Antoni Michal Potocki
-					mother=100111509	# Ludwika Sapieha
-					1735.01.01={birth=yes}  # EST.
-					1762.01.01={death=yes}
-				}
-					100114013={ #// E1. Protazy (Prot) Antoni, wojewoda kijowski 1791, starost guzowski, +1801; m.(div) Marianna Lubomirska $$
-						name="Protazy Antoni"
-						dynasty=1012006
-						religion=catholic culture=polish
-						father=100214191	# Jan Prosper Potocki
-						1761.09.11={birth=yes}	# Guzów
-						1798.01.01={add_spouse=100111234}	# Marianna Lubomirski
-						1798.02.01={remove_spouse=100111234}
-						1801.01.01={death=yes}
-					}
-		100114053={ #// B4. [2m.] Stefan, podkomorzy halicki, krajczy koronny 1703, referendarz koronny 1710, wojewoda pomorski 1724, wojewoda mazowiecki 1726, starost lwowski (1726-29), marszalek nadworny koronny 1726, starost czerkaski i trembowelski, +1730; 1m: Urszula Bieganowska (+1692); 2m: 1696 (div) Konstancja Denhoffówna; 3m: 1711 Teresa Katska (+1746)
-			name=Stefan
-			dynasty=1012006
-			religion=catholic culture=polish
-			father=100114044	# Pawel Potocki
-			mother=100017804	# Елена Петровна Салтыков
-			1665.01.01={birth=yes}
-			1711.01.01={add_spouse=100086642}	# Teresa Katski
-			1730.05.05={death=yes}  # Lemberg
-		}
-			100114055={ #// C2. [2m.] Ignacy, czesnik koronny 1764, general lejtnant wojsk koronnych, starost lukowski, glinianski i nowosielski, +1765; 1m: 1753 Józefa Petronela Sulkowska (+1756); 2m: 1758 Urszula Dzieduszycka (*1729 +1783) $$
-				name=Ignacy
-				dynasty=1012006
-				religion=catholic culture=polish
-				father=100114053	# Stefan Potocki
-				mother=100086642	# Teresa Katski
-				1715.01.01={birth=yes}
-				1753.02.14={add_spouse=100035233}	# Josepha Sułkowski
-				1758.01.01={add_spouse=100080645}	# Ursula Bieganowski
-				1765.01.01={death=yes}
-			}
-				100114058={ #// D1. [1m.] Aleksander, komisarz cywilny wojsk województwa krakowskiego 1790, minister policji Ksiestwa Warszawskiego 1807, *1756, +1812; m.1778 Teresa Czapska
-					name=Aleksander
-					dynasty=1012006
-					religion=catholic culture=polish
-					father=100114055	# Ignacy Potocki
-					mother=100035233	# Josepha Sułkowski
-					1756.01.01={birth=yes}	# Maciejowice
-					1778.09.21={add_spouse=100081780}	# Teresa Luisa Czapska
-					1812.05.10={death=yes}  # Koniecpol
-				}
-					# potocki7 -> 1g) Ct Michal Potocki (Warsaw 27 Oct 1779-29 Aug 1855); m.Warsaw 5 May 1805 Ludwika Ostrowska (Warsaw 14 Mar 1787-22 Jun 1855)
-				100224058={ #//  D3. [1m.] Marianna; 1m: Jerzy Sollohub, starost ejszyski; 2m: Fryderyk Alojzy Gf Brühl, general artylerii koronnej  $$
-					name="Marianna"
+				potocki_0011={ #// D3. [1m.] Anna; 1m: Antoni Tarlo, kasztelan lubaczowski; 2m: Franciszek Jakub Szembek, wojewoda inflancki
+					name=Anna
 					female=yes
 					dynasty=1012006
 					religion=catholic culture=polish
-					father=100114055	# Ignacy Potocki
-					mother=100035233	# Josepha Sułkowski
-					1754.07.01={birth=yes}
-					1782.11.23={death=yes}
+					father=potocki_0006	# Jan Potocki
+					mother=lowborn_6807	# Konstancja Sobieska
+					1739.01.01={birth=yes}  # EST.
+					1799.01.01={death=yes}  # EST.
 				}
-		100114011={ #// B9. [2m.] Anna; 1m: Michal Florian Rzewuski, podskarbi nadworny koronny; 2m: Kasper Kunicki, podczaszy czerniechowski $$
+			potocki_0012={ #// C3. [2m.] Michal Franciszek, starost trembowelski i czechrynski, +after 1753; m.1721 Marianna Katska (+1752)
+				name="Michal Franciszek"
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0004	# Józef Stanislaw Potocki
+				mother=lowborn_6798	# Zuzanna Szczawinska
+				1700.01.01={birth=yes}  # EST.
+				1721.01.01={add_spouse=lowborn_7840}	# Marianna Katska
+				1754.01.01={death=yes}
+			}
+				potocki_0013={ #// D1. Eleonora Teresa; 1m: Józef Nakwaski, kasztelan rawski; 2m: Aleksander Hilary Potulicki, starost borzechowski
+					name="Eleonora Teresa"
+					female=yes
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0012	# Michal Franciszek Potocki
+					mother=lowborn_7840	# Marianna Katska
+					1723.01.01={birth=yes}  # EST.
+					1783.01.01={death=yes}  # EST.
+				}
+				potocki_0014={ #// D2. Urszula, *1725, +1806; m.1741 Hieronim Ct Wielopolski, koniuszy wielki koronny (+1779)
+					name=Urszula
+					female=yes
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0012	# Michal Franciszek Potocki
+					mother=lowborn_7840	# Marianna Katska
+					1725.01.01={birth=yes}
+					1806.01.01={death=yes}
+				}
+		potocki_0015={ #// B2. [2m.] Aleksander Jan, podkomorzy halicki 1692, kasztelan kamieniecki 1702, wojewoda smolenski 1712, starost szczyrzycki, +1714; 1m: before 1688 Zuzanna Karczewska; 2m: before 1693 Teresa Tarlówna (+after 1739)
+			name="Aleksander Jan"
+			dynasty=1012006
+			religion=catholic culture=polish
+			father=potocki_0003	# Pawel Potocki
+			mother=lowborn_6766	# Elzbieta Jarmolinski
+			1662.01.01={birth=yes}  # EST.
+			1685.01.01={add_spouse=lowborn_6845}	# Zuzanna Karczewska
+			1692.01.01={add_spouse=lowborn_6846}	# Teresa Tarło
+			1714.01.01={death=yes}
+		}
+			#potocki6    -->   C1. [2m.] Józef, kasztelan lwowski 1760, starost szczyrzycki i czorsztynski, *ca 1695, +1764; 1m: before 1730 Konstancja (Ludwika?) Morsztynówna; 2m: 1736 Pelagia Potocka (+after 1794); for his issue see HERE
+			potocki_0017={ #// C2. [2m.] Antoni Michal, podstoli litewski, wojewoda belski, marszalek królowej, general lejtnant wojsk koronnych, starost krzemieniecki, czerkaski, grabowiecki i guzowski, +1766; m.1730 Ludwika Maria Sapiezanka (*1695 +1768) $$
+				name="Antoni Michal"
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0015	# Aleksander Jan Potocki
+				mother=lowborn_6845	# Zuzanna Karczewska
+				1696.01.01={birth=yes}  # EST.
+				1730.01.01={add_spouse=100111509}	# Ludwika Sapieha
+				1766.01.01={death=yes}
+			}
+				potocki_0018={ #// D1. Jan Prosper, starost guzowski, general lejtnant wojsk koronnych, +1762; m.1760 Paula Szembekówna (+1797)
+					name="Jan Prosper"
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0017	# Antoni Michal Potocki
+					mother=100111509	# Ludwika Sapieha
+					1731.01.01={birth=yes}  # EST.
+					1760.01.01={add_spouse=lowborn_6850}	# Paula Szembek
+					1762.01.01={death=yes}
+				}
+					potocki_0019={ #// E1. Protazy Antoni, wojewoda kijowski 1791, starost guzowski, +1801; m.(div) Marianna Lubomirska $$
+						name="Protazy Antoni"
+						dynasty=1012006
+						religion=catholic culture=polish
+						father=potocki_0018	# Jan Prosper Potocki
+						mother=lowborn_6850	# Paula Szembek
+						1762.01.01={birth=yes}  # EST.
+						1788.01.01={add_spouse=100111234}	# Marianna Lubomirski
+						1798.02.01={remove_spouse=100111234}
+						1801.01.01={death=yes}
+					}
+						potocki_0020={ #// F1. a daughter
+							name=daughter
+							female=yes
+							dynasty=1012006
+							religion=catholic culture=polish
+							father=potocki_0019	# Protazy Antoni Potocki
+							mother=100111234	# Marianna Lubomirski
+							1789.01.01={birth=yes}  # EST.
+							1849.01.01={death=yes}  # EST.
+						}
+			potocki_0021={ #// C3. [2m.] Elzbieta; m.Marcin Szczuka, starost wawolnicki
+				name=Elzbieta
+				female=yes
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0015	# Aleksander Jan Potocki
+				mother=lowborn_6845	# Zuzanna Karczewska
+				1699.01.01={birth=yes}  # EST.
+				1759.01.01={death=yes}  # EST.
+			}
+		potocki_0022={ #// B3. [2m.] Teodor, proboszcz przemyski i kanonik krakowski 1687, Bp of Chelm 1699, Bp of Warmia 1711, Archbp of Gniezdno 1722, *1664, +1738
+			name=Teodor
+			dynasty=1012006
+			religion=catholic culture=polish
+			father=potocki_0003	# Pawel Potocki
+			mother=lowborn_6766	# Elzbieta Jarmolinski
+			1664.01.01={birth=yes}
+			1738.01.01={death=yes}
+		}
+		potocki_0023={ #// B4. [2m.] Stefan, podkomorzy halicki, krajczy koronny, referendarz koronny, wojewoda pomorski, wojewoda mazowiecki, starost lwowski, marszalek nadworny koronny, starost czerkaski i trembowelski, +1730; 1m: Urszula Bieganowska (+1692); 2m: 1696 (div) Konstancja Denhoffówna; 3m: 1711 Teresa Katska (+1746)
+			name=Stefan
+			dynasty=1012006
+			religion=catholic culture=polish
+			father=potocki_0003	# Pawel Potocki
+			mother=lowborn_6766	# Elzbieta Jarmolinski
+			1665.01.01={birth=yes}  # EST.
+			1689.01.01={add_spouse=lowborn_6853}	# Urszula Bieganowska
+			1696.01.01={add_spouse=lowborn_6854}	# Konstancja Denhoff
+			1711.01.01={add_spouse=lowborn_6855}	# Teresa Katski
+			1730.01.01={death=yes}
+		}
+			potocki_0024={ #// C1. [2m.] Joachim, starost lwowski, pulkownik artylerii koronnej, general major wojsk koronnych, general lejtnant wojsk koronnych 1754, generalny kom. fortec, +1764; m.before 1748 Ewa Kaniewska (+after 1774)
+				name=Joachim
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0023	# Stefan Potocki
+				mother=lowborn_6853	# Urszula Bieganowska
+				1698.01.01={birth=yes}  # EST.
+				1748.01.01={add_spouse=lowborn_6856}	# Ewa Kaniewska
+				1764.01.01={death=yes}
+			}
+				potocki_0025={ #// D1. Wincenty Gawel, rotmistrz wojsk cesarskich, +before 1789; m.1787 Anna Mycielska
+					name=Wincenty
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0024	# Joachim Potocki
+					mother=lowborn_6856	# Ewa Kaniewska
+					1750.01.01={birth=yes}  # EST.
+					1787.01.01={add_spouse=lowborn_6857}	# Anna Mycielska
+					1789.01.01={death=yes}  # before
+				}
+				potocki_0026={ #// D2. Krystyna; m.Jerzy Dunin Wasowicz, podstoli kijowski
+					name=Krystyna
+					female=yes
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0024	# Joachim Potocki
+					mother=lowborn_6856	# Ewa Kaniewska
+					1752.01.01={birth=yes}  # EST.
+					1812.01.01={death=yes}  # EST.
+				}
+				potocki_0027={ #// D3. Marianna; m.Ludwik Wilga, wojewoda czernichowski
+					name=Marianna
+					female=yes
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0024	# Joachim Potocki
+					mother=lowborn_6856	# Ewa Kaniewska
+					1754.01.01={birth=yes}  # EST.
+					1814.01.01={death=yes}  # EST.
+				}
+				potocki_0028={ #// D4. Franciszka; m.N Sadowski
+					name=Franciszka
+					female=yes
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0024	# Joachim Potocki
+					mother=lowborn_6856	# Ewa Kaniewska
+					1756.01.01={birth=yes}  # EST.
+					1816.01.01={death=yes}  # EST.
+				}
+				potocki_0029={ #// D5. Konstancja; 1m: Józef Malachowski, starost wawolnicki (*ca 1752, +after 1786); 2m: Aleksander Potkanski, starost radomski $$
+					name=Konstancja
+					female=yes
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0024	# Joachim Potocki
+					mother=lowborn_6856	# Ewa Kaniewska
+					1758.01.01={birth=yes}  # EST.
+					1818.01.01={death=yes}  # EST.
+				}
+			potocki_0030={ #// C2. [2m.] Ignacy, czesnik koronny 1764, general lejtnant wojsk koronnych, starost lukowski, glinianski i nowosielski, +1765; 1m: 1753 Józefa Petronela Sulkowska (+1756); 2m: 1758 Urszula Dzieduszycka (*1729 +1783) $$
+				name=Ignacy
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0023	# Stefan Potocki
+				mother=lowborn_6853	# Urszula Bieganowska
+				1704.01.01={birth=yes}  # EST.
+				1753.01.01={add_spouse=100035233}	# Josepha Sułkowski
+				1758.01.01={add_spouse=lowborn_6864}	# Urszula Dzieduszycka
+				1765.01.01={death=yes}
+			}
+				potocki_0031={ #// D1. [1m.] Aleksander, komisarz cywilny wojsk województwa krakowskiego 1790, minister policji Ksiestwa Warszawskiego 1807, *1756, +1812; m.1778 Teresa Czapska
+					name=Aleksander
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0030	# Ignacy Potocki
+					mother=100035233	# Josepha Sułkowski
+					1756.01.01={birth=yes}
+					1778.01.01={add_spouse=lowborn_6865}	# Teresa Luisa Czapska
+					1812.01.01={death=yes}
+				}
+					#potocki7    -->    E1. Michal, senator kasztelan Królestwa Polskiego 1824, senator wojewoda 1831, *1790, +1855; m.Ludwika Ostrowska (*1787 +1855); for his issue see HERE
+					potocki_0033={ #// E2. Józefa; m.Michal Ostrowski, senator kasztelan Królestwa Polskiego
+						name=Józefa
+						female=yes
+						dynasty=1012006
+						religion=catholic culture=polish
+						father=potocki_0031	# Aleksander Potocki
+						mother=lowborn_6865	# Teresa Luisa Czapska
+						1792.01.01={birth=yes}  # EST.
+						1852.01.01={death=yes}  # EST.
+					}
+				potocki_0034={ #// D2. [2m.] Mikolaj, rotmistrz kawalerii narodowej 1783, starost glinianski, +after 1790; m.ca 1784 Marianna Borzecka
+					name=Mikolaj
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0030	# Ignacy Potocki
+					mother=100035233	# Josepha Sułkowski
+					1759.01.01={birth=yes}  # EST.
+					1784.01.01={add_spouse=lowborn_6868}	# Marianna Borzecka
+					1791.01.01={death=yes}
+				}
+				potocki_0035={ #// D3. [1m.] Marianna; 1m: Jerzy Sollohub, starost ejszyski; 2m: Fryderyk Alojzy Gf Brühl, general artylerii koronnej $$
+					name=Marianna
+					female=yes
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0030	# Ignacy Potocki
+					mother=100035233	# Josepha Sułkowski
+					1755.01.01={birth=yes}  # EST.
+					1815.01.01={death=yes}  # EST.
+				}
+				potocki_0036={ #// D4. [2m.] Beata; m.Michal Czacki, podczaszy koronny
+					name=Beata
+					female=yes
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=potocki_0030	# Ignacy Potocki
+					mother=100035233	# Josepha Sułkowski
+					1762.01.01={birth=yes}  # EST.
+					1822.01.01={death=yes}  # EST.
+				}
+			potocki_0037={ #// C3. [1m.] Urszula m.Piotr Jerzy Przebendowski, wojewoda malborski
+				name=Urszula
+				female=yes
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0023	# Stefan Potocki
+				mother=lowborn_6853	# Urszula Bieganowska
+				1691.01.01={birth=yes}  # EST.
+				1751.01.01={death=yes}  # EST.
+			}
+		potocki_0038={ #// B5. [2m.] Jakub, starost czechrynski, +1715; m.1708 Katarzyna Bielinska
+			name=Jakub
+			dynasty=1012006
+			religion=catholic culture=polish
+			father=potocki_0003	# Pawel Potocki
+			mother=lowborn_6766	# Elzbieta Jarmolinski
+			1667.01.01={birth=yes}  # EST.
+			1708.01.01={add_spouse=lowborn_6873}	# Katarzyna Bielinska
+			1715.01.01={death=yes}
+		}
+		potocki_0039={ #// B6. [2m.] Michal, general major wojsk litewskich, podstoli litewski 1700, +before 1709; m.after 1700 Barbara Duninówna
+			name=Michal
+			dynasty=1012006
+			religion=catholic culture=polish
+			father=potocki_0003	# Pawel Potocki
+			mother=lowborn_6766	# Elzbieta Jarmolinski
+			1669.01.01={birth=yes}  # EST.
+			1701.01.01={add_spouse=lowborn_6874}	# Barbara Dunin
+			1709.01.01={death=yes}  # before
+		}
+		potocki_0040={ #// B7. [2m.] Piotr, kasztelan belski 1720, wojewoda czerniechowski 1724, starost czerkaski, tyszowiecki i mostowski, +1726; 1m: before 1705 Ludwika Dambska (+before 1708); 2m: ca 1708 Katarzyna Chodorowska (+after 1723)
+			name=Piotr
+			dynasty=1012006
+			religion=catholic culture=polish
+			father=potocki_0003	# Pawel Potocki
+			mother=lowborn_6766	# Elzbieta Jarmolinski
+			1671.01.01={birth=yes}  # EST.
+			1705.01.01={add_spouse=lowborn_6875}	# Ludwika Dambska
+			1708.01.01={add_spouse=lowborn_6876}	# Katarzyna Chodorowska
+			1726.01.01={death=yes}
+		}
+			potocki_0041={ #// C1. Eleonora; 1m: Fabian Szaniawski, lowczy litewski; 2m: Antoni Grodzicki, podczaszy zatorski
+				name=Eleonora
+				female=yes
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0040	# Piotr Potocki
+				mother=lowborn_6875	# Ludwika Dambska
+				1697.01.01={birth=yes}  # EST.
+				1757.01.01={death=yes}  # EST.
+			}
+			potocki_0042={ #// C2. Teresa Joanna; m.Maciej Kozminski, wojewoda kaliski
+				name="Teresa Joanna"
+				female=yes
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0040	# Piotr Potocki
+				mother=lowborn_6875	# Ludwika Dambska
+				1697.01.01={birth=yes}  # EST.
+				1757.01.01={death=yes}  # EST.
+			}
+		potocki_0043={ #// B8. [2m.] Elzbieta; m.Wiktor Sobieski, chorazy halicki
+			name=Elzbieta
+			female=yes
+			dynasty=1012006
+			religion=catholic culture=polish
+			father=potocki_0003	# Pawel Potocki
+			mother=lowborn_6766	# Elzbieta Jarmolinski
+			1673.01.01={birth=yes}  # EST.
+			1733.01.01={death=yes}  # EST.
+		}
+		potocki_0044={ #// B9. [2m.] Anna; 1m: Michal Florian Rzewuski, podskarbi nadworny koronny; 2m: Kasper Kunicki, podczaszy czerniechowski $$
 			name=Anna
 			female=yes
 			dynasty=1012006
 			religion=catholic culture=polish
-			father=100114044	# Pawel Potocki
-			mother=100017804	# Елена Петровна Салтыков
-			1666.01.01={birth=yes}  # EST.
-			1738.01.01={death=yes}  # EST.
+			father=potocki_0003	# Pawel Potocki
+			mother=lowborn_6766	# Elzbieta Jarmolinski
+			1676.01.01={birth=yes}  # EST.
+			1736.01.01={death=yes}  # EST.
 		}
-	100283713={ #// A3. Jan, dworzanin królewski, rotmistrz królewski, +1676; 1m: Teresa (Zofia?) Cetnerówna; 2m: 1667 Urszula Danilowiczówna $$
+	potocki_0045={ #// A3. Jan, dworzanin królewski 1649, rotmistrz królewski 1650, kasztelan sadecki, wojewoda braclawski 1663, +1676; 1m: Teresa (Zofia?) Cetnerówna; 2m: 1667 Urszula Danilowiczówna $$
 		name=Jan
 		dynasty=1012006
 		religion=catholic culture=polish
-		father=100114042	# Stefan Potocki
+		father=potocki_0001	# Stefan Potocki
 		mother=mushati_0055	# Maria Mușat
-		1620.01.01={birth=yes}  # EST.
+		1622.01.01={birth=yes}  # EST.
+		1648.01.01={add_spouse=lowborn_6884}	# Teresa Zofia Cetner
 		1667.01.01={add_spouse=wisniow_0041}	# Urszula Wiśniowiecki
 		1676.01.01={death=yes}
-	}	
-		100114009={ #// B3. Teresa; 1m: Jan Gninski, wojewoda pomorski; 2m: 1703/06 Tomasz Józef Zamoyski (*ca 1678, +1725) $$
+	}
+		potocki_0046={ #// B1. Dominik, Canon in Wilno, +1683
+			name=Dominik
+			dynasty=1012006
+			religion=catholic culture=polish
+			father=potocki_0045	# Jan Potocki
+			mother=lowborn_6884	# Teresa Zofia Cetner
+			1647.01.01={birth=yes}  # EST.
+			1683.01.01={death=yes}
+		}
+		potocki_0047={ #// B2. Stefan, pulkownik wojsk koronnych, lowczy koronny 1688, straznik koronny 1697, wojewoda belski 1720, starost trembowelski i kaniowski, +1726/27; 1m: before 1688 Anna Charleska (+before 1694); 2m: 1695 Joanna Sieniawska (*after 1662, +1733)
+			name=Stefan
+			dynasty=1012006
+			religion=catholic culture=polish
+			father=potocki_0045	# Jan Potocki
+			mother=lowborn_6884	# Teresa Zofia Cetner
+			1658.01.01={birth=yes}  # EST.
+			1688.01.01={add_spouse=lowborn_6886}	# Anna Charleski
+			1695.01.01={add_spouse=lowborn_6887}	# Joanna Sieniawska
+			1726.01.01={death=yes}
+		}
+			potocki_0048={ #// C1. [2m.] Mikolaj Bazyli, starost kaniowski 1733, *1712, +1782; m.Marianna Dabrowska (+1783)
+				name="Mikolaj Bazyli"
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0047	# Stefan Potocki
+				mother=lowborn_6887	# Joanna Sieniawska
+				1712.01.01={birth=yes}
+				1738.01.01={add_spouse=lowborn_6888}	# Marianna Dabrowska
+				1782.01.01={death=yes}
+			}
+			potocki_0049={ #// C2. [2m.] Teresa; 1m: Jerzy Warszycki, wojewoda leczycki; 2m: Wojciech Leon Opalinski, wojewoda sieradzki
+				name=Teresa
+				female=yes
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=potocki_0047	# Stefan Potocki
+				mother=lowborn_6886	# Anna Charleski
+				1713.01.01={birth=yes}  # EST.
+				1773.01.01={death=yes}  # EST.
+			}
+		potocki_0050={ #// B3. Teresa; 1m: Jan Gninski, wojewoda pomorski; 2m: 1703/06 Tomasz Józef Zamoyski (*ca 1678, +1725) $$
 			name=Teresa
 			female=yes
 			dynasty=1012006
 			religion=catholic culture=polish
-			father=100283713	# Jan Potocki
-			mother=wisniow_0041	# Urszula Wiśniowiecki
-			1675.01.01={birth=yes}  # EST.
-			1717.01.01={death=yes}  # EST.
+			father=potocki_0045	# Jan Potocki
+			mother=lowborn_6884	# Teresa Zofia Cetner
+			1648.01.01={birth=yes}  # EST.
+			1708.01.01={death=yes}  # EST.
 		}
+	potocki_0051={ #// A4. Katarzyna, +1642; m.1638 Pr Janusz Radziwill (*1612, +31.12.1655) $$
+		name=Katarzyna
+		female=yes
+		dynasty=1012006
+		religion=catholic culture=polish
+		father=potocki_0001	# Stefan Potocki
+		mother=mushati_0055	# Maria Mușat
+		1613.01.01={birth=yes}  # EST.
+		1642.01.01={death=yes}
+	}
+	potocki_0052={ #// A5. Anna; 1m: Aleksander Dominik Kazanowski, wojewoda braclawski; 2m: Boguslaw Jerzy Sluszka, podskarbi nadworny litewski; 3m: Michal Jerzy Stanislawski, wojewoda kijowski
+		name=Anna
+		female=yes
+		dynasty=1012006
+		religion=catholic culture=polish
+		father=potocki_0001	# Stefan Potocki
+		mother=mushati_0055	# Maria Mușat
+		1622.01.01={birth=yes}  # EST.
+		1681.01.01={death=yes}  # EST.
+	}
 #potocki3
 				
 #potocki4
@@ -2397,8 +2728,8 @@
 	name=Jozef
 	dynasty=1012006
 	religion=catholic culture=polish
-	father=100114047	# Aleksander Potocki
-	mother=100090840	# Teresa Tarlo
+	father=potocki_0015	# Aleksander Jan Potocki
+	mother=lowborn_6846	# Teresa Tarło
 	1695.01.01={birth=yes}  # Lviv
 	1720.01.01={add_spouse=100088254}	# Konstancja Morsztyn
 	1736.01.01={add_spouse=100114158}	# Pelagia Potocki
@@ -3501,7 +3832,7 @@
 		father=100114190	# Jozef Potocki
 		mother=100114158	# Pelagia Potocki
 		1745.01.01={birth=yes}
-		1770.01.01={add_spouse=100114030}	# Krystyna Potocki
+		1770.01.01={add_spouse=potocki_0008}	# Krystyna Potocki
 		1829.01.15={death=yes}  # Bialolowka / Berdyczów
 	}
 		100114449={ #// 2b) Jan Alojzy (24 Jun 1776-1855); m.1796 Pss Marianne Czartoryska (Korzec 31 Nov 1777-1851) $$
@@ -3509,7 +3840,7 @@
 			dynasty=1012006
 			religion=catholic culture=polish
 			father=100114446	# Piotr Franciszek Potocki
-			mother=100114030	# Krystyna Potocki
+			mother=potocki_0008	# Krystyna Potocki
 			1776.06.24={birth=yes}
 			1796.01.01={add_spouse=100110096}	# Maria Antonina Czartoryski
 			1855.01.01={death=yes}
@@ -3706,15 +4037,25 @@
 				1805.01.01={birth=yes}
 				1830.06.03={death=yes}
 			}
+	potocki_0053={ #// A8. Ct [2m.] Jan, starost kaniowski 1782; m.before 1780 Css Joanna Potocka $$
+		name="Jan"
+		dynasty=1012006
+		religion=catholic culture=polish
+		father=100114190	# Jozef Potocki
+		mother=100114158	# Pelagia Potocki
+		1755.01.01={birth=yes}  # EST.
+		1780.01.01={add_spouse=potocki_0009}	# Joanna Potocki
+		1825.01.01={death=yes}  # EST.
+	}
 #potocki6
 			
 #potocki7
 100114484={ #// Ct Michal [Karel?] Potocki (Warsaw 27 Oct 1779-29 Aug 1855); m.Warsaw 5 May 1805 Ludwika Ostrowska (Warsaw 14 Mar 1787-22 Jun 1855)
 	name=Michał
 	dynasty=1012006
-	father=100114058	# Aleksander Potocki
+	father=potocki_0031	# Aleksander Potocki
 	religion=catholic culture=polish
-	mother=100081780	# Teresa Luisa Czapska
+	mother=lowborn_6865	# Teresa Luisa Czapska
 	1779.10.27={birth=yes}  # Warsaw
 	1805.05.05={add_spouse=100088719}	# Ludwika Ostrowski
 	1855.08.29={death=yes}

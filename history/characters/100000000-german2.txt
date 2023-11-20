@@ -5103,6 +5103,7 @@
 								name="Carlos Ludovico"
 								dynasty_house=dohna_lauck
 								religion=catholic culture=german
+								trait=legitimized_bastard
 								father=100011225	# Karl Ludwig von Dohna-Lauck
 								mother=100101076	# Armanda de las Mercedes Valdivia Reyes
 								1937.06.16={birth=yes}
@@ -5147,6 +5148,7 @@
 								name="Enrique Eteoro"
 								dynasty_house=dohna_lauck
 								religion=catholic culture=german
+								trait=legitimized_bastard
 								father=100011225	# Karl Ludwig von Dohna-Lauck
 								mother=100101076	# Armanda de las Mercedes Valdivia Reyes
 								1939.01.01={birth=yes}  # EST.
@@ -5159,7 +5161,7 @@
 									religion=catholic culture=german
 									father=100011235	# Enrique Eteoro von Dohna-Lauck
 									mother=100101078	# Udelina Pena Rosa
-									1968.01.01={birth=yes}
+									1968.12.01={birth=yes}
 								}
 								100011237={ #// H2. Cristian Enrique, *6.5.1970
 									name="Cristian Enrique"
@@ -7511,6 +7513,7 @@
 							female=yes
 							dynasty_house=dohna_schlodien
 							religion=catholic culture=german
+							trait=legitimized_bastard
 							father=100009871	# Alfred zu Dohna-Schlodien
 							mother=100100516	# Margarethe von der Hagen
 							1871.03.29={birth=yes}  # Mallmitz
@@ -12258,7 +12261,7 @@
 						1634.01.01={birth=yes}
 						1685.01.01={death=yes}
 					}
-		100013046={ #// C3. Gf Reinhard II zu Leiningen-Westerburg, *1530, +1584; m.1561 Ottilia von Manderscheid-Blankenheim (*1536 +1597)
+		100013046={ #// C3. Gf Reinhard II zu Leiningen-Westerburg, *1530, +1584; m.1561 Ottilia von Manderscheid-Blankenheim (*1536 +1597) $$
 			name=Reinhard
 			dynasty=1002127
 			religion=catholic culture=german
@@ -15163,7 +15166,7 @@
 				father=100012835	# Rudolf Wolfgang von Fürstenberg
 				mother=100088896	# CSS Pia von Ballestrem
 				1904.01.01={birth=yes}
-				1937.01.01={add_spouse=100086740}	# BSS Elisabeth von Boeselager
+				1936.01.01={add_spouse=100086740}	# BSS Elisabeth von Boeselager
 				1986.01.01={death=yes}
 			}
 				100293988={ #// D1. Rudolf (*Wildshausen 20.8.1936) %%
@@ -15642,7 +15645,7 @@
 									religion=catholic culture=swabian
 									father=100010334	# Hermann Egon von Fürstenberg
 									mother=100011507	# Franziska von Fürstenberg
-									1654.04.23={birth=yes}
+									1656.04.23={birth=yes}
 									1677.01.01={add_spouse=100101261}	# Marie de Ligny
 									1716.10.10={death=yes}  # Wernsdorf
 								}
@@ -20561,11 +20564,11 @@ bruhl_0001={ #// Hans Moritz von Brühl (23 Nov 1655-Gangloffsömmern 24 Sep 172
 			religion=catholic culture=north_german
 			father=bruhl_0042	# Heinrich von Brühl
 			mother=lowborn_4450	# GFN Maria von Kolowrat-Krakowsky
-			1739.06.21={birth=yes}  # Dresden
+			1739.07.31={birth=yes}  # Dresden
 			1760.02.08={add_spouse=100114105}	# Marianna Klementyna Potocki
-			1780.08.24={add_spouse=100224058}	# Marianna Potocki
+			1780.08.24={add_spouse=potocki_0035}	# Marianna Potocki
 			1783.12.31={add_spouse=lowborn_4454}	# GFN Josepha Christiane Schaffgotsch
-			1793.01.30={death=yes}  # Berlin
+			1793.01.31={death=yes}  # Berlin
 		}
 			bruhl_0047={ #// 4c) Amalie (18 Nov 1782-26 Aug 1832)
 				name=Amalie
@@ -20573,7 +20576,7 @@ bruhl_0001={ #// Hans Moritz von Brühl (23 Nov 1655-Gangloffsömmern 24 Sep 172
 				dynasty=1002226
 				religion=catholic culture=german
 				father=bruhl_0044	# Aloys Friedrich von Brühl
-				mother=100224058	# Marianna Potocki
+				mother=potocki_0035	# Marianna Potocki
 				1782.11.18={birth=yes}
 				1832.08.26={death=yes}
 			}

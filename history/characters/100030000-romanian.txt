@@ -1594,8 +1594,8 @@
 		father=100002246	# Ferdinand von Hohenzollern-Sigmaringen
 		mother=100003761	# Marie von Sachsen-Coburg u.Gotha
 		1893.10.16={birth=yes}
-		1921.03.10={add_spouse=100387580}	# Joanna Marie Valentina Lambrino
-		1928.01.01={remove_spouse=100387580}
+		1918.08.31={add_spouse=100387580}	# Joanna Marie Valentina Lambrino
+		1919.01.01={remove_spouse=100387580}
 		1921.03.10={add_spouse=100004955}	# Elena von Schleswig-Holstein-Sonderburg-Glücksburg
 		1928.01.01={remove_spouse=100004955}
 		1947.06.03={add_spouse=100087580}	# Elena Lupescu
@@ -1605,9 +1605,10 @@
 					# m.1st Paris 22 Mar 1948 (div 1958) Helene Navagatzine (b.Paris 26 May 1925)
 					# m.2d Paris 20 Dec 1960 (div 1977) Thelma Williams (Nashville, Tennessee 15 Nov 1930-Rutland, Vermont 5 Jun 1988)
 					# m.3d Fulham Town Hall 27 Jun 1984 Antonia Colville (Bracken, Church Crookham, Hants, 29 May 1939-13 Jun 2007)
-			name=Mircea
+			name=Carol
 			dynasty_house=house_hz_sigmaringen
 			religion=orthodox culture=vlach
+			trait=legitimized_bastard
 			father=100002247	# Carol von Hohenzollern-Sigmaringen
 			mother=100387580	# Joanna Marie Valentina Lambrino
 			1920.01.09={birth=yes}
@@ -3270,6 +3271,16 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 								mother=lowborn_5026	# Elzbieta Csomortany de Losoncz
 								1594.01.01={birth=yes}  # EST.
 								1638.12.10={death=yes}  # Warsaw
+							}
+							mushati_0062={ #// G1. Regina (*1588, +18.1.1620); m.1606 Michał Wiśniowiecki (+1616) %%
+								name="Regina"
+								female=yes
+								dynasty=mushati
+								religion=orthodox culture=vlach
+								father=mushati_0050	# Jeremie Mușat
+								mother=lowborn_5026	# Elzbieta Csomortany de Losoncz
+								1588.01.01={birth=yes}
+								1620.01.18={death=yes}
 							}
 						mushati_0056={ #// F2. [2m.] Simeon Movila, Voivode of Moldau (1600-1601)+(1601-1602)+(1606-1607)
 							name=Simeon
