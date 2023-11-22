@@ -4384,7 +4384,7 @@
 							2002.07.05={add_spouse=100000838}	# Marie-Thérèse de Croÿ
 							2011.11.17={death=yes}
 						}
-			100011526={ #// C3. Wilderich (*1868, +1925); m.1924 Hedwig Franziska von Harbuval (*1882, +1962) %%
+			100011526={ #// C3. Wilderich (*1868, +1925); m.1921 Hedwig Franziska von Harbuval (*1882, +1962) %%
 				name=Wilderich
 				dynasty=1002258
 				religion=catholic culture=german
@@ -6894,12 +6894,20 @@
 #pomer2
 # 471650 = Duke Wartislaw IV of Pomerania-Wolgast (1309-26), *1291, +Stralsund 31.7./1.8.1326; m.Elisabeth von Lindau-Ruppin (+1.2.1350/1356), dau.of Ulrich I von Lindau-Rupin and Adelheid von Schladen
 	# 471655 = A1. Duke Bogislaw V of Hind Pomerania (1326-73), *1316/18, +7.12.1373; 1m: before 11.7.1343 Elisabeth of Poland (*ca 1330, +1361); 2m: 1362 Adelheid von Braunschweig-Osterode (*1341 +8.5.1406)
+		100010362={ #// B6. [1m.] Elisabeth, *1347, +14.2.1393; m.Krakow 21.5.1363 Emperor Charles IV (*14.5.1316 +29.11.1378)
+			name=Elisabeth
+			female=yes
+			dynasty=177
+			religion=catholic culture=pommeranian
+			father=471655	# Bogislaw Gryfita
+			1347.01.01={birth=yes}
+			1393.02.14={death=yes}
+		}
 		100010352={ #// B1. [1m.] Duke Kasimir IV of Pomerania-Stargard, *ca 1351, +2.1.1377; 1m: Kenna of Lithuania (*1350 +27.4.1368), dau.of Olgierd of Lithuania; 2m: 1369 Malgorzata of Mazovia (*1355, +14.8.1409) $$
 			name=Kasimir
 			dynasty=177
 			religion=catholic culture=pommeranian
 			father=471655	# Bogislaw Gryfita
-			# NOBODY
 			1351.01.01={birth=yes}
 			1366.01.01={add_spouse=jagelo_0123}	# Kenna Jagiełło
 			1369.01.01={add_spouse=100086511}	# Malgorzata of Mazovia
@@ -6994,16 +7002,6 @@
 			1369.01.01={birth=yes}
 			1394.01.01={add_spouse=jagelo_0145}	# Hedwig Jagiełło
 			1402.05.16={death=yes}
-		}
-		100010362={ #// B6. [1m.] Elisabeth, *1347, +14.2.1393; m.Krakow 21.5.1363 Emperor Charles IV (*14.5.1316 +29.11.1378)
-			name=Elisabeth
-			female=yes
-			dynasty=177
-			religion=catholic culture=pommeranian
-			father=471655	# Bogislaw Gryfita
-			mother=100012822	# Adelheid von Braunschweig-Grubenhagen
-			1347.01.01={birth=yes}
-			1393.02.14={death=yes}
 		}
 		100010363={ #// B7. [2m.] Margareta, *1366, +Bruck an der Mur 12.6.1410; m.14.1.1392 Ernest I von Habsburg (*1377 +10.6.1424) $$
 			name=Margareta
@@ -13860,7 +13858,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 	name="Günther XXXII von Schwarzburg"
 	religion=lutheran culture=north_german
 	1382.01.01={birth=yes}  # EST.
-	1413.01.01={add_spouse=100012801}	# Mechtild von Henneberg
+	1412.01.01={add_spouse=100012801}	# Mechtild von Henneberg
 	1450.01.01={death=yes}
 }
 	100083561={ #// F2. Ursula, +1461; 1m: 1428 Gebhard V Graf von Mansfeld (+25.7.1433); 2m: 1442 Ludwig I Graf von Gleichen-Blankenjain (+25.4.1467)
@@ -13870,7 +13868,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 		religion=lutheran culture=north_german
 		father=100103337	# Günther XXXII von Schwarzburg
 		mother=100012801	# Mechtild von Henneberg
-		1410.01.01={birth=yes}
+		1413.01.01={birth=yes}	# EST.
 		1461.01.01={death=yes}
 	}
 #schwburg4

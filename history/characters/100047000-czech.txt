@@ -421,7 +421,7 @@
 					religion=catholic culture=czech
 					father=100047982	# Petr Wratislav z Mitrowicz
 					mother=100103911	# Anežka Eliška Bechinie z Lažan
-					1659.03.23={birth=yes}  # bef
+					1659.01.01={birth=yes}  # bef
 					1689.01.30={add_spouse=100103918}	# Maria Anna von Schönfeld
 					1715.03.13={death=yes}  # Praha
 				}
@@ -430,15 +430,17 @@
 						female=yes
 						dynasty=1004530
 						religion=catholic culture=czech
+						trait=legitimized_bastard
 						father=100047989	# František Wratislav z Mitrowicz
 						mother=100103918	# Maria Anna von Schönfeld
-						1686.01.01={birth=yes}  # EST.
+						1687.01.01={birth=yes}  # EST.
 						1742.06.04={death=yes}
 					}
 					100047991={ #// E2. Jan Josef, *19.11.1688, +Všeradice 25.10.1742; m.1720 Josefa Sylvia Markvartová z Hrádku (+20.5.1769), dau.of Václav Arnošt Markvart z Hrádku and Marie Karola Odkolková z Újezdce
 						name="Jan Josef"
 						dynasty=1004530
 						religion=catholic culture=czech
+						trait=legitimized_bastard
 						father=100047989	# František Wratislav z Mitrowicz
 						mother=100103918	# Maria Anna von Schönfeld
 						1688.11.19={birth=yes}
@@ -1251,6 +1253,7 @@
 						name=Jan
 						dynasty=1004530
 						religion=catholic culture=czech
+						trait=legitimized_bastard
 						father=100048078	# František Kryštof Wratislav z Mitrowicz
 						mother=100047550	# Marie Alžbeta z Valdštejna
 						1670.01.01={birth=yes}
@@ -1798,7 +1801,7 @@
 					religion=catholic culture=czech
 					father=100047905	# Heinrich von Schlik zu Bassano u.Weißkirchen
 					mother=100004387	# Anna von Salm
-					1622.01.01={birth=yes}  # EST.
+					1624.01.01={birth=yes}  # EST.
 					1691.01.01={death=yes}
 				}
 				100047907={ #// D4. Franz Ernst, *after 1623, +16.8.1675; 1m: Maria Margaretha Ungnad von Weissenwolff (+1661); 2m: Helena Ester Maximiliana z Drahotuš (+1700) $$
@@ -1807,7 +1810,7 @@
 					religion=catholic culture=czech
 					father=100047905	# Heinrich von Schlik zu Bassano u.Weißkirchen
 					mother=100004387	# Anna von Salm
-					1624.01.01={birth=yes}
+					1625.01.01={birth=yes}
 					1649.01.01={add_spouse=ungnad_0029}	# Marie Markéta Ungnad von Weißenwolff
 					1662.01.01={add_spouse=100103820}	# Helena Ester z Drahotuš
 					1675.08.16={death=yes}
@@ -3696,16 +3699,6 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 	1601.02.28={add_spouse=sternberg_0015}	# Marie Eusebie ze Šternberka
 	1640.11.21={death=yes}  # Praha
 }
-	100186793={ #// A2. Alžbeta Korona, +1649, bur chrám sv.Víta, Kladno; m.Passau 1620 Gf Florian Jetrich Ždárský ze Ždáru (*10.5.1598, +7.5.1653, bur chrám sv.Víta, Kladno)
-		name="Alžbeta Korona"
-		female=yes
-		dynasty=1013013
-		religion=catholic culture=czech
-		father=100186791	# Jaroslav Martinic
-		mother=sternberg_0015	# Marie Eusebie ze Šternberka
-		1601.01.01={birth=yes}  # EST.
-		1649.01.01={death=yes}
-	}
 	100186792={ #// A1. Barbara Eusebia, +Praha 4.6.1656; 1m: 1630 Gf Sezima Jan z Vrtby (+6.3.1648); 2m: Praha 22.2.1650 Mkgf Christian Wilhelm von Brandenburg (*28.8./7.9.1587 +11.1.1665) $$
 		name="Barbara Eusebia"
 		female=yes
@@ -3713,8 +3706,18 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		religion=catholic culture=czech
 		father=100186791	# Jaroslav Martinic
 		mother=sternberg_0015	# Marie Eusebie ze Šternberka
-		1601.01.01={birth=yes}  # EST.
+		1602.01.01={birth=yes}  # EST.
 		1656.06.04={death=yes}  # Praha
+	}
+	100186793={ #// A2. Alžbeta Korona, +1649, bur chrám sv.Víta, Kladno; m.Passau 1620 Gf Florian Jetrich Ždárský ze Ždáru (*10.5.1598, +7.5.1653, bur chrám sv.Víta, Kladno)
+		name="Alžbeta Korona"
+		female=yes
+		dynasty=1013013
+		religion=catholic culture=czech
+		father=100186791	# Jaroslav Martinic
+		mother=sternberg_0015	# Marie Eusebie ze Šternberka
+		1604.01.01={birth=yes}  # EST.
+		1649.01.01={death=yes}
 	}
 	100186797={ #// A3. Voršila Polyxena, +before 1681; m.29.11.1637 Gf Václav Jiří Holický ze Šternberka (*ca 1600, +1681)
 		name="Voršila Polyxena"
@@ -3723,7 +3726,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 		religion=catholic culture=czech
 		father=100186791	# Jaroslav Martinic
 		mother=sternberg_0015	# Marie Eusebie ze Šternberka
-		1602.01.01={birth=yes}  # EST.
+		1605.01.01={birth=yes}  # EST.
 		1681.01.01={death=yes}  # before
 	}
 	100186799={ #// A5. Bernard Ignác Jan, *1603, +7.1.1685; 1m: Veronika Polyxena ze Šternberka (*1625 +1659); 2m: Gfn Susanna Polyxena von Dietrichstein (+20.6.1706) $$
@@ -3794,7 +3797,7 @@ kaunitz_0001={ #// Rudolf Kaunitz, -cr Reichsgraf 1642, *1617, +21.4.1664; m.15.
 			father=100186804	# Maximilian Valentin Martinic
 			mother=100083165	# Anna Katerina Bukuvková z Bukuvky
 			1650.01.01={birth=yes}
-			1675.01.01={add_spouse=100083949}	# Maria Felicitas von Spaur
+			1669.01.01={add_spouse=100083949}	# Maria Felicitas von Spaur
 			1697.04.06={add_spouse=sternberg_0050}	# Marie Josefa ze Šternberka
 			1714.07.24={death=yes}
 		}
@@ -6733,7 +6736,7 @@ sternberg_0054={ #// Gf František Leopold ze Šternberka, c.a k.tajný rada, m�
 		religion=catholic culture=czech
 		father=100047302	# Vilém z Valdštejna
 		1530.01.01={birth=yes}
-		1555.01.01={add_spouse=100100204}	# GFN Marie z Martinicz
+		1553.01.01={add_spouse=100100204}	# GFN Marie z Martinicz
 		1574.03.30={death=yes}  # on plague_in_Praha
 	}
 		100047605={ #// B1. Vilém, *1554, +on plague in Praha 10.12.1574
@@ -7322,6 +7325,7 @@ sternberg_0054={ #// Gf František Leopold ze Šternberka, c.a k.tajný rada, m�
 										female=yes
 										dynasty=1013009
 										religion=catholic culture=czech
+										trait=legitimized_bastard
 										father=100047412	# Mathias z Valdštejna
 										mother=100098700	# Agnes Schwaegerl-Tuerschenreuth
 										2002.07.03={birth=yes}  # Horn
@@ -13740,6 +13744,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 								name="Stepanka Depold"
 								dynasty=1013002
 								religion=catholic culture=czech
+								trait=legitimized_bastard
 								father=100186436	# Depold Maria Czernin v.u.zu Chudenitz
 								mother=100086437	# Stephanie Stoffa
 								1991.02.08={birth=yes}
@@ -14165,6 +14170,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 							name=Nicholas
 							dynasty=1013002
 							religion=catholic culture=czech
+							trait=legitimized_bastard
 							father=100186515	# Nicholas Manfred Czernin v.u.zu Chudenitz
 							mother=100086516	# Daniella Alligier
 							1963.01.01={birth=yes}
@@ -14183,7 +14189,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 							religion=catholic culture=czech
 							father=100186515	# Nicholas Manfred Czernin v.u.zu Chudenitz
 							mother=100086516	# Daniella Alligier
-							1970.01.01={birth=yes}
+							1970.12.01={birth=yes}
 						}
 						100186521={ #// 3g) Pawau Beckett (b.1989)
 							name=Pawau
@@ -17502,6 +17508,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 								name=Karl
 								dynasty=1013000
 								religion=catholic culture=czech
+								trait=legitimized_bastard
 								father=100185579	# Karl von Schwarzenberg
 								mother=100048018	# Josefina Wratislav z Mitrowicz
 								1823.07.05={birth=yes}
@@ -20019,9 +20026,10 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 								female=yes
 								dynasty_house=house_lobko_popel
 								religion=catholic culture=czech
+								trait=legitimized_bastard
 								father=100185384	# Maximilian Popel von Lobkowitz
 								mother=100085385	# Alina-Cécile Hennigs
-								2011.02.01={birth=yes}
+								2011.01.01={birth=yes}
 							}
 						100185387={ #// 4i) Lioba Theresa Kaspara (b.München 23 Sep 1985); m.30 Sep 2007 Christian Schneider (b.Kelheim 9 Oct 1978)
 							name=Lioba
@@ -20368,6 +20376,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 					female=yes
 					dynasty=1013014
 					religion=catholic culture=czech
+					trait=legitimized_bastard
 					father=100194210	# Vilém Popel z Lobkowicz
 					mother=100047772	# Kateřina Benigna Popel z Lobkowicz
 					1606.07.20={birth=yes}

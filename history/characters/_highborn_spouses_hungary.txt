@@ -1401,7 +1401,7 @@ lowborn_5094={ #            Klára                     Thoroczkay de Toroczkósz
 	1615.01.01={birth=yes}  # EST.
 	1675.01.01={death=yes}  # EST.
 }
-100098293={ #               Mária                     Thoroczkay de Toroczkószentgyörgy        (1652-1698)     2 [BETHLEN]
+100098293={ #               Mária                     Thoroczkay de Toroczkószentgyörgy        (1652-1698)  0  0
 	name="Mária Thoroczkay de Toroczkószentgyörgy"
 	female=yes
 	religion=catholic culture=hungarian
@@ -1931,7 +1931,7 @@ lowborn_0364={ #            Erzsébet                  Lázár de Écska        
 	1857.07.15={birth=yes}  # Kolozsdoboka
 	1916.10.18={death=yes}  # Budapest
 }
-100082938={ #               Klára                     Nagy de Borsa                            (1657-1690)     3 [BETHLEN]
+100082938={ #               Klára                     Nagy de Borsa                            (1657-1690)  0  0
 	name="Klára Nagy de Borsa"
 	female=yes
 	religion=catholic culture=hungarian
@@ -2429,55 +2429,12 @@ lowborn_3879={ # Bss        Júlia                     Szentkereszty de Zágon  
 	2010.01.01={death=yes}  # EST.
 }
 
-lowborn_5040={ #            Farkas                    Bethlen                                  (1560-1618)     - [KEMENY]
-	name="Farkas Bethlen"
-	#dynasty=0
-	religion=catholic culture=hungarian
-	1560.01.01={birth=yes}
-	1615.01.01={add_spouse=kemeny_0006}	# Anna Kemény de Magyargyerőmonostor
-	1618.01.01={death=yes}
-}
 100103638={ #               János                     Bethlen                                  (1788-1863)     - [LAZAR]
 	name="János Bethlen"
 	religion=catholic culture=hungarian
 	1788.01.01={birth=yes}  # EST.
 	1813.01.01={add_spouse=100120146}	# Anna Lázár de Szárhegy
 	1863.01.01={death=yes}  # EST.
-}
-lowborn_0124={ #            Katalin                   Bethlen de Bethlen                       (1448-1523)     0 [BANFY]
-	name="Katalin Bethlen de Bethlen"
-	female=yes
-	religion=catholic culture=hungarian
-	1448.01.01={birth=yes}  # EST.
-	1523.12.01={death=yes}  # EST.
-}
-lowborn_0129={ #            Elek                      Bethlen de Bethlen                       (1478-1549)     - [BANFY]
-	name="Elek Bethlen de Bethlen"
-	religion=catholic culture=hungarian
-	1478.01.01={birth=yes}
-	1508.01.01={add_spouse=banffy_0028}	# Fruzsina Bánffy de Losoncz
-	1549.01.01={death=yes}
-}
-lowborn_0143={ #            Klára                     Bethlen de Bethlen                       (1550-1589)     5 [BANFY]
-	name="Klára Bethlen de Bethlen"
-	female=yes
-	religion=catholic culture=hungarian
-	1550.01.01={birth=yes}  # EST.
-	1589.12.01={death=yes}  # Bonczhida
-}
-lowborn_0144={ #            Judit                     Bethlen de Bethlen                       (1570-1630)     0 [BANFY]
-	name="Judit Bethlen de Bethlen"
-	female=yes
-	religion=catholic culture=hungarian
-	1570.01.01={birth=yes}  # EST.
-	1630.01.01={death=yes}  # EST.
-}
-100092252={ #               Anna                      Bethlen de Bethlen                       (1629-1659)     1 [BANFY]
-	name="Anna Bethlen de Bethlen"
-	female=yes
-	religion=catholic culture=hungarian
-	1629.01.01={birth=yes}  # EST.
-	1659.01.01={death=yes}  # EST.
 }
 100098811={ #    Gf         György                    Bethlen de Bethlen                       (1690-1740)     - [RHEDEY]
 	name="György Bethlen de Bethlen"
@@ -5498,11 +5455,11 @@ lowborn_1016={ #            Mária                     Kapy de Kapivár         
 	1662.01.01={add_spouse=100117828}	# Izabella Ágnes Bánffy de Losoncz
 	1670.01.01={death=yes}
 }
-100097380={ #               György                    Kapy de Kapivár                          (1637-1712)     - [BETHLEN]
+lowborn_7036={ #            György                    Kapy de Kapivár                          (1637-1712)     - [BETHLEN]
 	name="György Kapy de Kapivár"
 	religion=catholic culture=hungarian
 	1637.01.01={birth=yes}
-	1662.01.01={add_spouse=100117081}	# Krisztina Bethlen de Bethlen
+	1662.01.01={add_spouse=bethlen_0072}	# Krisztina Bethlen de Bethlen
 	1712.01.01={death=yes}
 }
 lowborn_4214={ #            György                    Kapy de Kapivár                          (1666-1736)     - [SZAPARY]
@@ -8542,7 +8499,7 @@ lowborn_0423={ #            Rozália                   Lányi                   
 	name="Imre Lányi de Kisszántó"
 	religion=catholic culture=hungarian
 	1776.01.01={birth=yes}
-	1817.01.01={add_spouse=100119074}	# Mária Csáky de Körösszeg et Adorján
+	1815.01.01={add_spouse=100119074}	# Mária Csáky de Körösszeg et Adorján
 	1858.06.23={death=yes}  # Buda
 }
 lowborn_0208={ #            Gizella                   Lányi de Kisszántó                       (1816-1896)     2 [PERENYI]
@@ -9260,11 +9217,11 @@ lowborn_6673={ #            László                    Apafi de Apanagyfalu    
 	1502.01.01={add_spouse=bthln_iktar_0039}	# Anna Bethlen de Iktár
 	1546.01.01={death=yes}  # EST.
 }
-100098326={ #    Pr         Mihály                    Apafi of Transylvania                    (1676-1713)     - [BETHLEN]
+lowborn_7041={ # Pr         Mihály                    Apafi of Transylvania                    (1676-1713)     - [BETHLEN]
 	name="Mihály Apafi of Transylvania"
 	religion=catholic culture=hungarian
 	1676.10.13={birth=yes}  # Gyulafehérvár
-	1694.06.30={add_spouse=100116909}	# Katalin Bethlen de Bethlen
+	1694.06.30={add_spouse=bethlen_0076}	# Katalin Bethlen de Bethlen
 	1713.02.01={death=yes}  # Wien
 }
 
@@ -11782,7 +11739,7 @@ lowborn_6641={ #            Endre                     Lukács de Kövecses      
 	1859.01.01={birth=yes}
 	1908.04.15={death=yes}  # Budapest
 }
-100082601={ #               Samuel                    Magyary-Kossa de Nagysarló               (1858-1899)     - [WALDECK]
+100082601={ #               Samuel                    Magyary-Kossa de Nagysarló               (1858-1899)     2 [WALDECK]
 	name="Samuel Magyary-Kossa de Nagysarló"
 	religion=lutheran culture=hungarian
 	1858.08.26={birth=yes}
@@ -12021,7 +11978,7 @@ lowborn_4234={ #            László                    Oláh de Kis-Barátfalva
 	1961.09.05={add_spouse=esterhazy_0106}	# Assunta Esterházy de Galántha
 	2013.01.01={death=yes}  # EST.
 }
-100080617={ #               Borbála                   Ostrosith de Giletinz                    (1647-1681)     2 [BETHLEN]
+100080617={ #               Borbála                   Ostrosith de Giletinz                    (1647-1681)  0  0
 	name="Borbála Ostrosith de Giletinz"
 	female=yes
 	religion=catholic culture=hungarian
@@ -13369,14 +13326,6 @@ lowborn_3731={ # Bss        Anna Mária                von Konradsheim          
 	religion=catholic culture=german
 	1938.06.15={birth=yes}  # Budapest
 	2013.01.01={death=yes}  # EST.
-}
-lowborn_3925={ # Baron      Ernst                     von Moy                                  (1858-1918)     - [BARCSAY]
-	name="Ernst von Moy"
-	#dynasty=0
-	religion=catholic culture=german
-	1858.01.01={birth=yes}  # EST.
-	1882.01.01={add_spouse=barcsay_0036}	# Anna Barcsay de Nagybarcsa
-	1918.01.01={death=yes}  # EST.
 }
 lowborn_3842={ # Baron      Samuel                    von Schaller-Löventhal                   (1809-1866)     - [KUN]
 	name="Samuel von Schaller-Löventhal"
@@ -17053,3 +17002,427 @@ lowborn_6366={ #            Anna Valerie              Szascvay de Laczfalvy     
 	1904.11.22={death=yes}  # Gmunden
 }
 
+lowborn_7052={ #            László                    Apaffy de Apanagyfalu                    (1509-1569)     -
+	name="László Apaffy de Apanagyfalu"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1509.01.01={birth=yes}  # EST.
+	1533.01.01={add_spouse=bethlen_0091}	# Anna Bethlen de Bethlen
+	1569.01.01={death=yes}  # EST.
+}
+lowborn_6977={ #            Katalin                   Baládffi de Kiskend                      (1529-1589)     3
+	name="Katalin Baládffi de Kiskend"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1529.01.01={birth=yes}  # EST.
+	1589.01.01={death=yes}  # EST.
+}
+lowborn_7017={ #            Ilona                     Barlabási                                (1571-1631)     3
+	name="Ilona Barlabási"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1571.01.01={birth=yes}  # EST.
+	1631.01.01={death=yes}  # EST.
+}
+lowborn_7010={ #            Tamás                     Becz de Kozmás                           (1562-1599)     -
+	name="Tamás Becz de Kozmás"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1562.01.01={birth=yes}  # EST.
+	1586.01.01={add_spouse=bethlen_0040}	# Sára Bethlen de Bethlen
+	1599.01.01={death=yes}
+}
+lowborn_7019={ #            Katalin                   Bornemisza de Petrelin                   (1635-1710)     0
+	name="Katalin Bornemisza de Petrelin"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1635.01.01={birth=yes}  # EST.
+	1710.01.01={death=yes}  # EST.
+}
+lowborn_7013={ #            Zsuzsanna                 Bánffy de Losoncz                        (1559-1619)     1
+	name="Zsuzsanna Bánffy de Losoncz"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1559.01.01={birth=yes}  # EST.
+	1619.01.01={death=yes}  # EST.
+}
+lowborn_7025={ #            Zsigmond                  Bánffy de Losoncz                        (1605-1665)     -
+	name="Zsigmond Bánffy de Losoncz"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1605.01.01={birth=yes}  # EST.
+	1629.01.01={add_spouse=bethlen_0058}	# Katalin Judit Bethlen de Bethlen
+	1665.01.01={death=yes}  # EST.
+}
+lowborn_6754={ #            Gáspár                    Bólyai de Bólya                          (1450-1510)     -
+	name="Gáspár Bólyai de Bólya"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1450.01.01={birth=yes}  # EST.
+	1474.01.01={add_spouse=bethlen_0021}	# Brigitta Bethlen de Bethlen
+	1510.01.01={death=yes}  # EST.
+}
+lowborn_6331={ #            Margit                    Chyre de Álmosd                          (1461-1524)     0
+	name="Margit Chyre de Álmosd )"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1461.01.01={birth=yes}  # EST.
+	1524.01.01={death=yes}  # EST.
+}
+lowborn_7020={ #            Farkas                    Cserényi                                 (1648-1708)     -
+	name="Farkas Cserényi"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1648.01.01={birth=yes}  # EST.
+	1672.01.01={add_spouse=bethlen_0051}	# Erzsébet Bethlen de Bethlen
+	1708.01.01={death=yes}  # EST.
+}
+lowborn_2996={ #            Ilona                     Czikó de Pomáz                           (1362-1422)     3
+	name="Ilona Czikó de Pomáz )"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1362.01.01={birth=yes}  # EST.
+	1422.01.01={death=yes}  # EST.
+}
+lowborn_3754={ #            Anna                      Diódi                                    (1387-1447)     2
+	name="Anna Diódi )"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1387.01.01={birth=yes}  # EST.
+	1447.01.01={death=yes}  # EST.
+}
+lowborn_4945={ #            Anna                      Erdélyi de Somkerék                      (1450-1486)     0
+	name="Anna Erdélyi de Somkerék )"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1450.01.01={birth=yes}  # EST.
+	1486.01.01={death=yes}  # EST.
+}
+lowborn_6942={ #            Judit                     Erdélyi de Somkerék                      (1452-1504)    10
+	name="Judit Erdélyi de Somkerék )"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1452.01.01={birth=yes}  # EST.
+	1504.01.01={death=yes}  # EST.
+}
+lowborn_7021={ #            Péter                     Haller de Hallerkeö                      (1650-1710)     -
+	name="Péter Haller de Hallerkeö"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1650.01.01={birth=yes}  # EST.
+	1674.01.01={add_spouse=bethlen_0052}	# Judit Bethlen de Bethlen
+	1710.01.01={death=yes}  # EST.
+}
+lowborn_7015={ #            István                    Herczeg                                  (1583-1643)     -
+	name="István Herczeg"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1583.01.01={birth=yes}  # EST.
+	1607.01.01={add_spouse=bethlen_0044}	# Krisztina Bethlen de Bethlen
+	1643.01.01={death=yes}  # EST.
+}
+lowborn_6933={ #            Hedvig                    Jakcs de Kusaly                          (1392-1461)     0
+	name="Hedvig Jakcs de Kusaly"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1392.01.01={birth=yes}  # EST.
+	1461.01.01={death=yes}  # EST.
+}
+lowborn_7034={ #            Zsuzsanna                 Kamuthy de Szentlászló                   (1607-1628)     2
+	name="Zsuzsanna Kamuthy de Szentlászló"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1607.01.01={birth=yes}  # EST.
+	1628.01.01={death=yes}  # EST.
+}
+lowborn_7050={ #            Gáspár                    Kendeffy de Malomvíz                     (1503-1563)     -
+	name="Gáspár Kendeffy de Malomvíz"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1503.01.01={birth=yes}  # EST.
+	1527.01.01={add_spouse=bethlen_0088}	# Orsolya Bethlen de Bethlen
+	1563.01.01={death=yes}  # EST.
+}
+lowborn_7027={ #            Farkas                    Kornis de Homoródszentpál                (1533-1602)     -
+	name="Farkas Kornis de Homoródszentpál"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1533.01.01={birth=yes}  # EST.
+	1558.01.01={add_spouse=bethlen_0060}	# Krisztina Katalin Bethlen de Bethlen
+	1602.01.01={death=yes}
+}
+lowborn_6976={ #            Orsolya                   Kállay de Nagykálló                      (1508-1568)     0
+	name="Orsolya Kállay de Nagykálló"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1508.01.01={birth=yes}  # EST.
+	1568.01.01={death=yes}  # EST.
+}
+lowborn_7009={ #            János                     Kálnoky de Kőröspatak                    (1615-1675)     0
+	name="János Kálnoky de Kőröspatak"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1615.01.01={birth=yes}  # EST.
+	1675.01.01={death=yes}  # EST.
+}
+lowborn_7043={ #            Sámuel                    Köleséry                                 (1687-1732)     -
+	name="Sámuel Köleséry"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1687.01.01={birth=yes}  # EST.
+	1711.01.01={add_spouse=bethlen_0077}	# Judit Bethlen de Bethlen
+	1732.12.24={death=yes}
+}
+lowborn_3925={ #            Anna                      Lack de Szántó                           (1424-1493)     8
+	name="Anna Lack de Szántó )"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1424.01.01={birth=yes}  # EST.
+	1493.01.01={death=yes}  # EST.
+}
+lowborn_7024={ #            Mihály                    Macskási de Szentmártonmacskás           (1600-1625)     -
+	name="Mihály Macskási de Szentmártonmacskás"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1600.01.01={birth=yes}  # EST.
+	1624.01.01={add_spouse=bethlen_0058}	# Katalin Judit Bethlen de Bethlen
+	1625.01.01={death=yes}  # EST.
+}
+lowborn_7022={ #            Mihály                    Macskási de Tinkova                      (1656-1681)     -
+	name="Mihály Macskási de Tinkova"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1656.01.01={birth=yes}  # EST.
+	1680.01.01={add_spouse=bethlen_0055}	# Judit Bethlen de Bethlen
+	1681.01.01={death=yes}  # EST.
+}
+lowborn_7004={ #            Ferenc                    Macskássy                                (1590-1650)     -
+	name="Ferenc Macskássy"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1590.01.01={birth=yes}  # EST.
+	1614.01.01={add_spouse=bethlen_0034}	# Anna Bethlen de Bethlen
+	1650.01.01={death=yes}  # EST.
+}
+lowborn_7054={ #            Bertalan                  Makray                                   (1537-1597)     -
+	name="Bertalan Makray"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1537.01.01={birth=yes}  # EST.
+	1561.01.01={add_spouse=bethlen_0094}	# Erzsébet Bethlen de Bethlen
+	1597.01.01={death=yes}  # EST.
+}
+lowborn_7033={ #            Katalin                   Mihalcz de Gelencze                      (1581-1656)     1
+	name="Katalin Mihalcz de Gelencze"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1581.01.01={birth=yes}  # EST.
+	1656.01.01={death=yes}  # EST.
+}
+lowborn_7051={ #            Sebestyén                 Nagy                                     (1505-1565)     -
+	name="Sebestyén Nagy"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1505.01.01={birth=yes}  # EST.
+	1529.01.01={add_spouse=bethlen_0089}	# Margit Bethlen de Bethlen
+	1565.01.01={death=yes}  # EST.
+}
+lowborn_7047={ #            Klára                     Nagy de Borsa                            (1658-1690)     0
+	name="Klára Nagy de Borsa"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1658.01.01={birth=yes}  # EST.
+	1690.11.11={death=yes}  # Keresd
+}
+lowborn_7045={ #            János                     Naláczy de Nalácz                        (1684-1744)     -
+	name="János Naláczy de Nalácz"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1684.01.01={birth=yes}  # EST.
+	1708.01.01={add_spouse=bethlen_0082}	# Mária Bethlen de Bethlen
+	1744.01.01={death=yes}  # EST.
+}
+lowborn_6972={ #            Anna                      Nyujtódi                                 (1504-1526)     5
+	name="Anna Nyujtódi"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1504.01.01={birth=yes}  # EST.
+	1526.01.01={death=yes}  # EST.
+}
+lowborn_7038={ #            Borbála                   Ostrosith de Giletincz                   (1647-1681)     0
+	name="Borbála Ostrosith de Giletincz"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1647.01.01={birth=yes}  # EST.
+	1681.11.20={death=yes}
+}
+lowborn_6688={ #            Miklós                    Patóchy de Kecskemét                     (1483-1543)     -
+	name="Miklós Patóchy de Kecskemét"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1483.01.01={birth=yes}  # EST.
+	1507.01.01={add_spouse=bethlen_0018}	# Erzsébet Bethlen de Bethlen
+	1543.01.01={death=yes}  # EST.
+}
+lowborn_7011={ #            István                    Perneszy de Osztopán                     (1528-1588)     -
+	name="István Perneszy de Osztopán"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1528.01.01={birth=yes}  # EST.
+	1552.01.01={add_spouse=bethlen_0041}	# Anna Bethlen de Bethlen
+	1588.01.01={death=yes}  # EST.
+}
+lowborn_7014={ #            György                    Petrichevich-Horváth de Széplak          (1579-1640)     -
+	name="György Petrichevich-Horváth de Széplak"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1579.01.01={birth=yes}  # EST.
+	1603.01.01={add_spouse=bethlen_0044}	# Krisztina Bethlen de Bethlen
+	1640.01.27={death=yes}  # Széplak
+}
+lowborn_7053={ #            Ilona                     Sarmasághy de Sarmaság et Mezőkövesd     (1517-1577)     2
+	name="Ilona Sarmasághy de Sarmaság et Mezőkövesd"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1517.01.01={birth=yes}  # EST.
+	1577.01.01={death=yes}  # EST.
+}
+lowborn_7018={ #            Borbála                   Sombori de Magyarnagyzsombor             (1622-1652)     9
+	name="Borbála Sombori de Magyarnagyzsombor"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1622.01.01={birth=yes}  # EST.
+	1652.01.01={death=yes}  # EST.
+}
+lowborn_7029={ #            Péter                     Sombori de Magyarnagyzsombor             (1464-1510)     -
+	name="Péter Sombori de Magyarnagyzsombor"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1464.01.01={birth=yes}  # EST.
+	1499.01.01={add_spouse=bethlen_0063}	# Klára Bethlen de Bethlen
+	1510.01.01={death=yes}  # EST.
+}
+lowborn_5580={ #            Orsolya                   Soós de Sóvár                            (1454-1477)     5
+	name="Orsolya Soós de Sóvár"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1454.01.01={birth=yes}  # EST.
+	1477.01.01={death=yes}  # EST.
+}
+lowborn_6783={ #            Márton                    Szele de Keczel                          (1452-1512)     -
+	name="Márton Szele de Keczel"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1452.01.01={birth=yes}  # EST.
+	1476.01.01={add_spouse=bethlen_0022}	# Borbála Bethlen de Bethlen
+	1512.01.01={death=yes}  # EST.
+}
+lowborn_7028={ #            Kristóf                   Szilvássy                                (1474-1534)     -
+	name="Kristóf Szilvássy"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1474.01.01={birth=yes}  # EST.
+	1498.01.01={add_spouse=bethlen_0062}	# Katalin Bethlen de Bethlen
+	1534.01.01={death=yes}  # EST.
+}
+lowborn_7031={ #            Anna                      Sükösdi de Terem                         (1512-1547)     3
+	name="Anna Sükösdi de Terem"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1512.01.01={birth=yes}  # EST.
+	1547.01.01={death=yes}  # EST.
+}
+lowborn_7012={ #            Katalin                   Thoroczkay de Toroczkószentgyörgy        (1535-1595)     3
+	name="Katalin Thoroczkay de Toroczkószentgyörgy"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1535.01.01={birth=yes}  # EST.
+	1595.01.01={death=yes}  # EST.
+}
+lowborn_7039={ #            Mária                     Thoroczkay de Toroczkószentgyörgy        (1652-1698)     8
+	name="Mária Thoroczkay de Toroczkószentgyörgy"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1652.01.01={birth=yes}
+	1698.06.16={death=yes}
+}
+lowborn_6947={ #            Angelika                  Thurzó de Bethlenfalva                   (1478-1538)     1
+	name="Angelika de Chorezo / Angelika Thurzó de Bethlenfalva"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1478.01.01={birth=yes}  # EST.
+	1538.01.01={death=yes}  # EST.
+}
+lowborn_7046={ #            Erzsébet                  Kapy de Kapivár                          (1656-1677)     0
+	name="Kapy de Kapivár"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1656.01.01={birth=yes}  # EST.
+	1677.01.01={death=yes}  # EST.
+}
+lowborn_7032={ #            Klára                     Károlyi de Nagykároly                    (1517-1577)     0
+	name="Klára Károlyi de Nagykároly"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1517.01.01={birth=yes}  # EST.
+	1577.01.01={death=yes}  # EST.
+}
+lowborn_7042={ #            György                    Lázár de Szárhegy                        (1682-1707)     -
+	name="György Lázár de Szárhegy"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1682.01.01={birth=yes}  # EST.
+	1706.01.01={add_spouse=bethlen_0077}	# Judit Bethlen de Bethlen
+	1707.01.01={death=yes}  # EST.
+}
+lowborn_7016={ #            János                     Gáspár de Szövérd                        (1557-1617)     -
+	name="János Gáspár de Szövérd"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1557.01.01={birth=yes}  # EST.
+	1581.01.01={add_spouse=bethlen_0045}	# Zsófia Bethlen de Bethlen
+	1617.01.01={death=yes}  # EST.
+}
+lowborn_7008={ #            István                    Károlyi de Sárfalva                      (1589-1649)     -
+	name="István Károlyi de Sárfalva"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1589.01.01={birth=yes}  # EST.
+	1613.01.01={add_spouse=bethlen_0037}	# Sára Bethlen de Bethlen
+	1649.01.01={death=yes}  # EST.
+}
+lowborn_6996={ #            Anna                      Sámsondi                                 (1565-1600)     5
+	name=Sámsondi
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1565.01.01={birth=yes}  # EST.
+	1600.01.01={death=yes}  # EST.
+}
