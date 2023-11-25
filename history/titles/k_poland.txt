@@ -72,7 +72,7 @@ k_poland = {
 	1306.8.4 = {holder=471510}
 	1333.3.2 = {holder=471500}
 	######
-	1800.01.01 = {liege=e_russia}
+	1795.11.25 = {liege=e_russia}
 	1919.01.01 = {liege=0}
 	# JAGIELLON
 	1386.03.04 = {holder=jagelo_0073}	# Wladyslaw II | JOGAILAITIS
@@ -90,14 +90,438 @@ k_poland = {
 	1648.05.20 = {holder=100012323}		# Jan II Kazimierz		Waza | VASA
 	1668.09.16 = {holder=wisniow_0048}	# Michal Korybut 		Wisniowiecki
 	1673.11.10 = {holder=sobieski_0009}	# Jan III				Sobieski
-	1696.06.17  ={holder=100007381}		# August II Mocny		Wettin
-	# Stanislaw I | Leszczynski
-	# August II Mocny | Wettin
-	# Stanislaw I | Leszczynski
-	# August III Sas | Wettin
-	# Stanislaw August | Poniatowski
+	1696.06.17 = {holder=100007381}		# August II Mocny		Wettin
+	1704.07.12 = {holder=100113107}		# Stanislaw I | Leszczynski
+	1709.07.08 = {holder=100007381}		# August II Mocny		Wettin
+	1733.02.01 = {holder=100113107}		# Stanislaw I | Leszczynski
+	1736.01.26 = {holder=100007380}		# August III Sas | Wettin
+	1763.10.05 = {holder=100413066}		# Stanislaw August | Poniatowski
+	1795.11.25 = {holder=0}
+	
 	# Fryderyk August I | Wettin
 	2010.08.06 = {holder=100036220}
+}
+
+#########
+
+d_mazovia = {
+	867.1.1 = {change_development_level=2}
+	1066.1.1 = {change_development_level=6}
+	500.1.1 = {
+		holder = 0
+		liege = 0
+	}
+}
+
+c_czerska = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {holder=302062}
+	#899.11.16 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###After Kazimierz I's death
+	1058.11.28 = {
+		holder = 302036	#Waclaw Lis, semi-fictional
+		liege = k_poland
+	}
+	1092.4.26 = {holder=302037}	#Wincenty Lis, semi-fictional
+	1121.9.30 = {holder=302039}	#Waclaw Lis, semi-fictional
+	1166.11.13 = {holder=302040}	#Bogumil Lis, semi-fictional
+	######
+	1780.01.01 = {holder=radziwill_0094}
+	1800.09.02 = {holder=100110872}
+	1869.04.06 = {holder=100110880}
+	1907.05.11 = {holder=100110887}
+	1920.11.05 = {holder=100110889}
+	1986.03.24 = {holder=100110897}
+	2012.08.12 = {holder=100110899}
+}
+c_gostyninska = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {holder=302062}
+	#899.11.16 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###After Kazimierz I's death
+	1058.11.28 = {
+		holder = 302036	#Waclaw Lis, semi-fictional
+		liege = k_poland
+	}
+	1092.4.26 = {holder=302037}	#Wincenty Lis, semi-fictional
+	1121.9.30 = {holder=302039}	#Waclaw Lis, semi-fictional
+	1166.11.13 = {holder=302040}	#Bogumil Lis, semi-fictional
+}
+c_lomzynska = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	849.6.6 = {holder=302063}
+	#901.12.12 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###After Kazimierz I's death
+	1058.11.28 = {
+		holder = 302026	#Zygmunt Ossowski, semi-fictional
+		liege = k_poland
+	}
+	1101.2.9 = {holder=302027}	#Marcin Ossowski, semi-fictional
+	1123.4.3 = {holder=302030}	#Zygmunt Ossowski, semi-fictional
+	1141.4.22 = {holder=302031}	#Andrzej Ossowski, semi-fictional
+	1186.7.27 = {holder=302033}	#Mateusz Ossowski, semi-fictional
+}
+c_plocka = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	849.6.6 = {holder=302063}
+	#901.12.12 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###After Kazimierz I's death
+	1058.11.28 = {
+		holder = 302026	#Zygmunt Ossowski, semi-fictional
+		liege = k_poland
+	}
+	1101.2.9 = {holder=302027}	#Marcin Ossowski, semi-fictional
+	1123.4.3 = {holder=302030}	#Zygmunt Ossowski, semi-fictional
+	1141.4.22 = {holder=302031}	#Andrzej Ossowski, semi-fictional
+	1186.7.27 = {holder=302033}	#Mateusz Ossowski, semi-fictional
+}
+c_zakroczymska = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	849.6.6 = {holder=302063}
+	#901.12.12 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###After Kazimierz I's death
+	1058.11.28 = {
+		holder = 302026	#Zygmunt Ossowski, semi-fictional
+		liege = k_poland
+	}
+	1101.2.9 = {holder=302027}	#Marcin Ossowski, semi-fictional
+	1123.4.3 = {holder=302030}	#Zygmunt Ossowski, semi-fictional
+	1141.4.22 = {holder=302031}	#Andrzej Ossowski, semi-fictional
+	1186.7.27 = {holder=302033}	#Mateusz Ossowski, semi-fictional
+}
+
+#########
+
+d_kuyavia = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		holder = 0
+		liege = 0
+	}
+	###Kazimierz I's succession
+	1058.11.28 = {
+		holder = 764	#Wladyslaw I Herman
+		liege = k_poland
+	}
+	1102.6.4 = {holder=170108}	#Zbigniew
+	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
+}
+
+c_kujawy = {
+	867.1.1 = {change_development_level=2}
+	1066.1.1 = {change_development_level=9}
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {holder=302064}
+	#888.12.26 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###Kazimierz I's succession
+	1058.11.28 = {
+		holder = 764	#Wladyslaw I Herman
+		liege = d_kuyavia
+	}
+	1102.6.4 = {holder=170108}	#Zbigniew
+	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
+}
+c_dobrzynska = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302064
+	}
+	#888.12.26 = {
+	#	holder = 0
+	#}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Kazimierz I's succession
+	1058.11.28 = {
+		holder = 302004	#Mieszko, Boleslaw & Wladyslaw's brother
+		liege = k_poland
+	}
+	1065.1.28 = {
+		holder = 764	#Wladyslaw I Herman
+		liege = d_kuyavia
+	}
+	1102.6.4 = {
+		holder = 170108	#Zbigniew
+	}
+	
+	1107.4.1 = {
+		holder = 221515	#Boleslaw III Wrymouth
+	}
+}
+c_leczycka = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302065
+	}
+	#912.8.23 = {
+	#	holder = 0
+	#}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Kazimierz I's succession
+	1058.11.28 = {
+		holder = 764	#Wladyslaw I Herman
+		liege = d_kuyavia
+	}
+	1102.6.4 = {
+		holder = 170108	#Zbigniew
+	}
+	
+	1107.4.1 = {
+		holder = 221515	#Boleslaw III Wrymouth
+	}
+}
+c_sieradzka = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302065
+	}
+	#912.8.23 = {
+	#	holder = 0
+	#}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Kazimierz I's succession
+	1058.11.28 = {
+		holder = 764	#Wladyslaw I Herman
+		liege = d_kuyavia
+	}
+	1102.6.4 = {
+		holder = 170108	#Zbigniew
+	}
+	
+	1107.4.1 = {
+		holder = 221515	#Boleslaw III Wrymouth
+	}
+}
+
+#########
+
+d_lesser_poland = {
+	#Krakus and the Lechitic tribes
+	700.1.1 = {
+		holder = 82273	#Krakus I the legendary
+		liege = 0
+	}
+	725.1.1 = {holder=82274}	#Wanda the legendary
+	738.1.1 = {holder=302066}
+	778.1.1 = {holder=302067}
+	813.1.1 = {holder=0}
+	#Polish capital is moved to Krakow
+	1034.5.11 = {
+		holder = 760
+		effect = {set_title_name=d_lesser_poland_late}
+		liege = k_poland
+	}
+	1058.11.28 = {holder=762}
+	1079.1.1 = {holder=764}
+	1098.1.1 = {holder=221515}
+	1138.10.28 = {holder=221531}
+	1146.5.1 = {holder=125973}
+	1173.4.3 = {holder=221560}
+	1177.1.1 = {holder=221520}
+	1191.1.1 = {holder=221560}
+	1191.7.1 = {holder=221520}
+	1194.5.5 = {holder=221524}
+	1198.1.1 = {holder=221560}
+	1199.1.1 = {holder=221524}
+	1202.1.1 = {holder=221560}
+	1202.3.13 = {holder=221570}
+	1206.1.1 = {holder=221524}
+	1210.1.1 = {holder=221550}
+	1211.5.16 = {holder=221524}
+	1227.11.23 = {holder=221570}
+	1229.1.1 = {holder=221525}
+	1232.1.1 = {holder=221537}
+	1238.3.19 = {holder=125905}
+	1241.4.9 = {holder=221525}
+	1243.1.1 = {holder=125982}
+	1279.12.7 = {holder=125984}
+	1288.9.30 = {holder=125909}
+	1290.6.24 = {holder=125977}
+	1296.2.8 = {holder=96002}
+	1305.6.21 = {holder=96003}
+	1306.8.4 = {holder=471510}
+	1333.3.2 = {holder=471500}
+}
+
+c_czestochowa = {
+}
+c_lubelska = {
+	867.1.1 = {change_development_level=2}
+	1066.1.1 = {change_development_level=9}
+	###Proto-Polish tribes
+	#Krakus and the Lechitic tribes
+	700.1.1 = {
+		holder = 82273	#Krakus I the legendary
+		liege = d_lesser_poland
+		government = tribal_government
+	}
+	725.1.1 = {holder=82274}	#Wanda the legendary
+	738.1.1 = {holder=302066}
+	778.1.1 = {holder=302067}
+	813.1.1 = {holder=302055}
+	829.5.13 = {holder=302057}
+	865.9.17 = {holder=302060}
+	#914.9.15 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###After Kazimierz I's death
+	1058.11.28 = {
+		holder = 302044	#Marian Kurowie, semi-fictional
+		liege = k_poland
+	}
+	1100.12.30 = {holder=302045}	#Stanislaw Kurowie, semi-fictional
+	1129.5.19 = {holder=302046}	#Henryk Kurowie, semi-fictional
+	1169.11.13 = {holder=302047}	#Piotr Kurowie, semi-fictional
+	1188.7.17 = {holder=302048}	#Konrad Kurowie, semi-fictional
+}
+c_radomska = {
+	###Proto-Polish tribes
+	#Krakus and the Lechitic tribes
+	700.1.1 = {
+		holder = 82273	#Krakus I the legendary
+		liege = d_lesser_poland
+		government = tribal_government
+	}
+	725.1.1 = {holder=82274}	#Wanda the legendary
+	738.1.1 = {holder=302066}
+	778.1.1 = {holder=302067}
+	813.1.1 = {holder=302055}
+	829.5.13 = {holder=302057}
+	865.9.17 = {holder=302060}
+	#914.9.15 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###Kazimierz I's succession
+	1058.11.28 = {
+		holder = 762	#Boleslaw II the Bold
+		liege = k_poland
+	}
+	1066.1.1 = {holder=82321}
+	1079.5.1 = {holder=764}	#Wladyslaw I Herman
+	1102.6.4 = {holder=170108}	#Zbigniew
+	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
+}
+c_sandomierska = {
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=10}
+	###Proto-Polish tribes
+	#Krakus and the Lechitic tribes
+	700.1.1 = {
+		holder = 82273	#Krakus I the legendary
+		liege = d_lesser_poland
+		government = tribal_government
+	}
+	725.1.1 = {holder=82274}	#Wanda the legendary
+	738.1.1 = {holder=302066}
+	778.1.1 = {holder=302067}
+	813.1.1 = {holder=302055}
+	829.5.13 = {holder=302057}
+	865.9.17 = {holder=302060}
+	#914.9.15 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###Kazimierz I's succession
+	1058.11.28 = {holder=762}	#Boleslaw II the Bold
+	1066.1.1 = {holder=82321}
+	1079.5.1 = {holder=764}	#Wladyslaw I Herman
+	1102.6.4 = {holder=170108}	#Zbigniew
+	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
+	1138.10.28 = {liege=k_poland}
+	1138.10.28 = {holder=221510}
+	1166.10.18 = {holder=125973}
+	1173.4.3 = {holder=221520}
+	1194.5.5 = {holder=221524}
+	1227.11.23 = {holder=221525}
+	1229.1.1 = {holder=125983}	#Boleslaw I
+	1232.1.1 = {holder=125982}	#Boleslaw V the Chaste
+	1279.12.7 = {holder=125984}
+	1288.9.30 = {holder=471510}
+}
+c_stezycka = {
+	###Proto-Polish tribes
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	867.1.1 = {holder=302062}
+	#899.11.16 = {
+	#	holder = 0
+	#}
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	###After Kazimierz I's death
+	1058.11.28 = {
+		holder = 302044	#Marian Kurowie, semi-fictional
+		liege = k_poland
+	}
+	1100.12.30 = {holder=302045}	#Stanislaw Kurowie, semi-fictional
+	1129.5.19 = {holder=302046}	#Henryk Kurowie, semi-fictional
+	1169.11.13 = {holder=302047}	#Piotr Kurowie, semi-fictional
+	1188.7.17 = {holder=302048}	#Konrad Kurowie, semi-fictional
 }
 
 #########
@@ -357,24 +781,22 @@ c_cherven = {
 	1285.1.2 = {holder=125076}
 	1303.1.2 = {holder=125077}
 	1325.1.2 = {holder=472100}
-	
 	#####
-	
-	1600.01.01={holder=100110314}
-	1619.01.01={holder=100110316}
-	1670.01.01={holder=100110320}
-	1689.01.01={holder=100110324}
-	1725.01.01={holder=100110310}
-	1735.03.07={holder=100110336}
-	1751.01.01={holder=100110342}
-	1767.01.01={holder=100110362}
-	1790.02.10={holder=100110349}
-	1792.02.10={holder=100110353}
-	1856.04.02={holder=100110355}
-	1866.01.09={holder=100110309}
-	1889.12.21={holder=100110313}
-	1939.05.12={holder=100110321}
-	2002.06.29={holder=100110329}
+	1600.01.01 = {holder=100110314}
+	1619.01.01 = {holder=100110316}
+	1670.01.01 = {holder=100110320}
+	1689.01.01 = {holder=100110324}
+	1725.01.01 = {holder=100110310}
+	1735.03.07 = {holder=100110336}
+	1751.01.01 = {holder=100110342}
+	1767.01.01 = {holder=100110362}
+	1790.02.10 = {holder=100110349}
+	1792.02.10 = {holder=100110353}
+	1856.04.02 = {holder=100110355}
+	1866.01.09 = {holder=100110309}
+	1889.12.21 = {holder=100110313}
+	1939.05.12 = {holder=100110321}
+	2002.06.29 = {holder=100110329}
 }
 c_dorohychyn = {
 	###Pre-Kievan Rus'
@@ -495,11 +917,42 @@ c_peresopnytsia = {
 	1285.1.2 = {holder=125076}
 	1303.1.2 = {holder=125077}
 	1325.1.2 = {holder=472100}
+	
+	#####
+	
+	## Korecki --> Duchy of Korets (+17 century)
 }
 
 #########
 
-d_greater_poland = {
+d_wielkopolska = {
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=8}
+	###Piasts
+	800.1.1 = {
+		holder = 82233	#Piast
+		liege = 0
+		government = tribal_government
+	}
+	861.1.1 = {holder=82235}	#Siemowit
+	880.1.1 = {holder=82236}	#Lestek
+	930.1.1 = {holder=752}	#Siemomysl
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	960.1.2 = {holder=754}	#Mieszko I of Poland
+	992.5.25 = {holder=756}	#Boleslaw I the Brave
+	1025.4.18 = {
+		liege = k_poland
+		effect = {set_title_name=d_greater_poland}
+	}
+	1025.6.17 = {holder=758}	#Mieszko II Lambert
+	1031.4.1 = {holder=766}	#Bezprym
+	1032.7.10 = {holder=758}	#Mieszko II Lambert (restored)
+	###After Polish capital is moved to Krakow
+	1034.5.11 = {
+		holder = 0
+		liege = 0
+	}
+	######
 	1815.1.1 = {liege=k_prussia}
 	1946.1.1 = {liege=k_poland}
 	1815.01.01 = {holder=100002153}	# Friedrich Wilhelm III. | HOHENZOLLERN
@@ -543,9 +996,64 @@ c_poznanska = {
 }
 c_bydgoszcz = {
 }
-c_gniezno = {
+c_gnieznienska = {
+	867.1.1 = {change_development_level=3}
+	1066.1.1 = {change_development_level=9}
+	###Piasts
+	800.1.1 = {
+		holder = 82233	#Piast
+		liege = d_wielkopolska
+		government = tribal_government
+	}
+	861.1.1 = {holder=82235}	#Siemowit
+	880.1.1 = {holder=82236}	#Lestek
+	930.1.1 = {holder=752}	#Siemomysl
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	960.1.2 = {holder=754}	#Mieszko I of Poland
+	992.5.25 = {holder=756}	#Boleslaw I the Brave
+	###Archbishops of Gniezno
+	999.1.1 = {
+		holder = 302011	#Radzim Gaudenty
+		government = theocracy_government
+	}
+	1022.1.2 = {holder=96071}	#Hipolit
+	1025.4.18 = {liege=k_poland}
+	1027.1.1 = {holder=302012}	#Bossuta Stefan
+	1028.3.7 = {holder=302013}	#Fictional
+	1075.1.2 = {holder=20393}	#Bogumil
+	1092.1.1 = {holder=96075}	#Marcin
+	1112.1.1 = {holder=302014}	#Heinrich
+	1124.1.1 = {holder=96076}	#Jakub
+	1148.9.23 = {holder=96077}	#Janislaw
+	1168.3.11 = {holder=302015}	#Zdzislaw
 }
-c_kalisz = {
+c_kaliska = {
+	###Piasts
+	800.1.1 = {
+		holder = 82233	#Piast
+		liege = d_wielkopolska
+		government = tribal_government
+	}
+	861.1.1 = {holder=82235}	#Siemowit
+	880.1.1 = {holder=82236}	#Lestek
+	930.1.1 = {holder=752}	#Siemomysl
+	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
+	960.1.2 = {holder=754}	#Mieszko I of Poland
+	992.5.25 = {holder=756}	#Boleslaw I the Brave
+	1025.4.18 = {liege=k_poland}
+	1025.6.17 = {holder=758}	#Mieszko II Lambert
+	1031.4.1 = {holder=766}	#Bezprym
+	1032.7.10 = {holder=758}	#Mieszko II Lambert (restored)
+	###After Polish capital is moved to Krakow
+	1034.5.11 = {
+		holder = 302016	#Pawel Ciolek, mostly fictional
+		liege = k_poland
+	}
+	1063.4.9 = {holder=302017}	#Jan Ciolek, mostly fictional
+	1103.11.18 = {holder=302019}	#Pawel Ciolek, mostly fictional
+	1127.3.12 = {holder=302021}	#Jaroslaw Ciolek, mostly fictional
+	1165.2.22 = {holder=302022}	#Jan Ciolek, mostly fictional
+	1185.12.21 = {holder=302025}	#Jaroslaw Ciolek, mostly ficitonal
 }
 c_krajna = {
 	###Proto-Polish tribes
@@ -558,6 +1066,7 @@ c_krajna = {
 	###Znin included in Gniezno's sphere of influence
 	1030.1.1 = {
 		holder = 302013	#Fictional
+		government = theocracy_government
 		liege = k_poland
 	}
 	1075.1.2 = {holder=20393}	#Bogumil
@@ -567,167 +1076,31 @@ c_krajna = {
 	1148.9.23 = {holder=96077}	#Janislaw
 	1168.3.11 = {holder=302015}	#Zdzislaw
 }
-c_wschowa = {
-}
-
-#########
-
-d_kuyavia = {
-	###Proto-Polish tribes
-	500.1.1 = {
-		holder = 0
-		liege = 0
-	}
-	###Kazimierz I's succession
-	1058.11.28 = {
-		holder = 764	#Wladyslaw I Herman
-		liege = k_poland
-	}
-	1102.6.4 = {holder=170108}	#Zbigniew
-	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
-}
-
-c_kujawy = {
-	867.1.1 = {change_development_level=2}
-	1066.1.1 = {change_development_level=9}
-	###Proto-Polish tribes
-	500.1.1 = {
-		liege = 0
+c_wschowska = {
+	###Piasts
+	800.1.1 = {
+		holder = 82233	#Piast
+		liege = d_wielkopolska
 		government = tribal_government
 	}
-	867.1.1 = {holder=302064}
-	#888.12.26 = {
-	#	holder = 0
-	#}
+	861.1.1 = {holder=82235}	#Siemowit
+	880.1.1 = {holder=82236}	#Lestek
+	930.1.1 = {holder=752}	#Siemomysl
 	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	###Kazimierz I's succession
-	1058.11.28 = {
-		holder = 764	#Wladyslaw I Herman
-		liege = d_kuyavia
-	}
-	1102.6.4 = {holder=170108}	#Zbigniew
-	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
-}
-c_dobrzyn = {
-}
-c_leczyca = {
-}
-c_sieradz = {
-}
-
-#########
-
-d_lesser_poland = {
-	#Krakus and the Lechitic tribes
-	700.1.1 = {
-		holder = 82273	#Krakus I the legendary
-		liege = 0
-	}
-	725.1.1 = {holder=82274}	#Wanda the legendary
-	738.1.1 = {holder=302066}
-	778.1.1 = {holder=302067}
-	813.1.1 = {holder=0}
-	#Polish capital is moved to Krakow
+	960.1.2 = {holder=754}	#Mieszko I of Poland
+	992.5.25 = {holder=756}	#Boleslaw I the Brave
+	1025.4.18 = {liege=k_poland}
+	1025.6.17 = {holder=758}	#Mieszko II Lambert
+	1031.4.1 = {holder=766}	#Bezprym
+	1032.7.10 = {holder=758}	#Mieszko II Lambert (restored)
+	###After Polish capital is moved to Krakow
 	1034.5.11 = {
-		holder = 760
+		holder = 302016	#Pawel Ciolek, mostly fictional
 		liege = k_poland
 	}
-	1058.11.28 = {holder=762}
-	1079.1.1 = {holder=764}
-	1098.1.1 = {holder=221515}
-	1138.10.28 = {holder=221531}
-	1146.5.1 = {holder=125973}
-	1173.4.3 = {holder=221560}
-	1177.1.1 = {holder=221520}
-	1191.1.1 = {holder=221560}
-	1191.7.1 = {holder=221520}
-	1194.5.5 = {holder=221524}
-	1198.1.1 = {holder=221560}
-	1199.1.1 = {holder=221524}
-	1202.1.1 = {holder=221560}
-	1202.3.13 = {holder=221570}
-	1206.1.1 = {holder=221524}
-	1210.1.1 = {holder=221550}
-	1211.5.16 = {holder=221524}
-	1227.11.23 = {holder=221570}
-	1229.1.1 = {holder=221525}
-	1232.1.1 = {holder=221537}
-	1238.3.19 = {holder=125905}
-	1241.4.9 = {holder=221525}
-	1243.1.1 = {holder=125982}
-	1279.12.7 = {holder=125984}
-	1288.9.30 = {holder=125909}
-	1290.6.24 = {holder=125977}
-	1296.2.8 = {holder=96002}
-	1305.6.21 = {holder=96003}
-	1306.8.4 = {holder=471510}
-	1333.3.2 = {holder=471500}
-}
-
-c_czestochowa = {
-}
-c_lublin = {
-}
-c_radom = {
-}
-c_sandomierska = {
-	867.1.1 = {change_development_level=3}
-	1066.1.1 = {change_development_level=10}
-	###Proto-Polish tribes
-	#Krakus and the Lechitic tribes
-	700.1.1 = {
-		holder = 82273	#Krakus I the legendary
-		liege = d_lesser_poland
-		government = tribal_government
-	}
-	725.1.1 = {holder=82274}	#Wanda the legendary
-	738.1.1 = {holder=302066}
-	778.1.1 = {holder=302067}
-	813.1.1 = {holder=302055}
-	829.5.13 = {holder=302057}
-	865.9.17 = {holder=302060}
-	#914.9.15 = {
-	#	holder = 0
-	#}
-	935.1.1 = {government=feudal_government}	#Ahistorical, just for ease of bookmarks.
-	###Kazimierz I's succession
-	1058.11.28 = {holder=762}	#Boleslaw II the Bold
-	1066.1.1 = {holder=82321}
-	1079.5.1 = {holder=764}	#Wladyslaw I Herman
-	1102.6.4 = {holder=170108}	#Zbigniew
-	1107.4.1 = {holder=221515}	#Boleslaw III Wrymouth
-	1138.10.28 = {liege=k_poland}
-	1138.10.28 = {holder=221510}
-	1166.10.18 = {holder=125973}
-	1173.4.3 = {holder=221520}
-	1194.5.5 = {holder=221524}
-	1227.11.23 = {holder=221525}
-	1229.1.1 = {holder=125983}	#Boleslaw I
-	1232.1.1 = {holder=125982}	#Boleslaw V the Chaste
-	1279.12.7 = {holder=125984}
-	1288.9.30 = {holder=471510}
-}
-c_stezyca = {
-}
-
-#########
-
-d_mazovia = {
-	867.1.1 = {change_development_level=2}
-	1066.1.1 = {change_development_level=6}
-	500.1.1 = {
-		holder = 0
-		liege = 0
-	}
-}
-
-c_plock = {
-}
-c_czersk = {
-}
-c_gostynin = {
-}
-c_lomza = {
-}
-c_zakroczym = {
+	1063.4.9 = {holder=302017}	#Jan Ciolek, mostly fictional
+	1103.11.18 = {holder=302019}	#Pawel Ciolek, mostly fictional
+	1127.3.12 = {holder=302021}	#Jaroslaw Ciolek, mostly fictional
+	1165.2.22 = {holder=302022}	#Jan Ciolek, mostly fictional
+	1185.12.21 = {holder=302025}	#Jaroslaw Ciolek, mostly ficitonal
 }

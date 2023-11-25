@@ -26,7 +26,7 @@
 ##  100002710-100399168		LÖWENSTEIN-WERTHEIM               1002113	  53	 35/ 55 = 63,64%	396406	[]
 ##  100002725-100008256		LÖWENSTEIN-WERTHEIM-ROSENBE       1002039	  75	 33/ 53 = 62,26%	 5457	[c_pfalz]
 ##  100002850-100202863		MATZ VON SPIEGELFELD              1002083	  20	 11/ 14 = 78,57%	199994	[]
-##  100003050-100203233		NEIPPERG                          1002101	  21	 24/ 24 = 100,00%	200163	[]
+##  neipperg_0001-neipperg_0030		NEIPPERG                          1002101	  21	 24/ 24 = 100,00%	200163	[]
 ##  100003181-100008796		HOHENLOHE-KIRCHBERG               1002109	  15	 13/ 21 = 61,90%	 5601	[]
 ##  100003300-100003636		PILATI VON THASSUL ZU DAXBERG     1002055	  11	  4/  7 = 57,14%	  326	[]
 ##  100003325-100003352		PUTBUS                            1002042	  28	  3/ 24 = 12,50%	    0	[c_greifswald, c_stralsund]
@@ -980,7 +980,7 @@
 		father=100010635	# Gebhard von Mansfeld
 		mother=100011895	# Mathilde von Schwarzburg-Blankenburg
 		1360.01.01={birth=yes}
-		1385.01.01={add_spouse=100081793}	# Elisabeth von Honstein-Klettenberg
+		1381.01.01={add_spouse=100081793}	# Elisabeth von Honstein-Klettenberg
 		1412.03.04={death=yes}
 	}
 		100010639={ #// B1. Gebhard V, *ca 1391, +25.7.1433; m.Ursula von Schwarzburg-Wachsenburg (*ca 1410 +1461)
@@ -1030,7 +1030,7 @@
 			religion=catholic culture=german
 			father=100010638	# Günther von Mansfeld
 			mother=100081793	# Elisabeth von Honstein-Klettenberg
-			1386.01.01={birth=yes}  # EST.
+			1382.01.01={birth=yes}  # EST.
 			1413.01.01={death=yes}
 		}
 	100010644={ #// A5. [2m.] Albrecht IV Graf von Mansfeld, *ca 1376, +5.4.1416; m.ca 1386 Pss Elisabeth von Anhalt-Dessau (+after 19.11.1413) $$
@@ -3817,7 +3817,7 @@
 										1967.01.04={death=yes}  # Köln
 									}
 										100012909={ #// J1. MORITZ-CASIMIR Widukind Gumprecht Fürst zu Bentheim-Tecklenburg, *Rheda 12.10.1923; m.(civ) Herzebrock 19.7.1958 (rel) Rheda 26.7.1958 Gfn Huberta von Hardenberg (*Duivelskloof 28.2.1932)
-											name=MORITZ-CASIMIR
+											name="Moritz-Casimir"
 											dynasty_house=bentheim_tecklenburg
 											religion=catholic culture=german
 											father=100012908	# Adolf von Bentheim-Tecklenburg
@@ -3830,7 +3830,7 @@
 												name="CARL-GUSTAV Moritz-Casimir"
 												dynasty_house=bentheim_tecklenburg
 												religion=catholic culture=german
-												father=100012909	# MORITZ-CASIMIR von Bentheim-Tecklenburg
+												father=100012909	# Moritz-Casimir von Bentheim-Tecklenburg
 												mother=100094236	# GFN Huberta von Hardenberg
 												1960.06.02={birth=yes}  # Herford
 											}
@@ -3838,7 +3838,7 @@
 												name=Philipp
 												dynasty_house=bentheim_tecklenburg
 												religion=catholic culture=german
-												father=100012909	# MORITZ-CASIMIR von Bentheim-Tecklenburg
+												father=100012909	# Moritz-Casimir von Bentheim-Tecklenburg
 												mother=100094236	# GFN Huberta von Hardenberg
 												1964.06.15={birth=yes}  # Rheda
 											}
@@ -3846,7 +3846,7 @@
 												name=Christoph
 												dynasty_house=bentheim_tecklenburg
 												religion=catholic culture=german
-												father=100012909	# MORITZ-CASIMIR von Bentheim-Tecklenburg
+												father=100012909	# Moritz-Casimir von Bentheim-Tecklenburg
 												mother=100094236	# GFN Huberta von Hardenberg
 												1966.05.29={birth=yes}  # Rheda
 											}
@@ -3854,7 +3854,7 @@
 												name=Maximilian
 												dynasty_house=bentheim_tecklenburg
 												religion=catholic culture=german
-												father=100012909	# MORITZ-CASIMIR von Bentheim-Tecklenburg
+												father=100012909	# Moritz-Casimir von Bentheim-Tecklenburg
 												mother=100094236	# GFN Huberta von Hardenberg
 												1969.08.06={birth=yes}  # Rheda
 												2000.09.12={add_spouse=100095986}	# Marissa Clare Fortescue
@@ -10664,257 +10664,598 @@
 	}
 #neipperg1	
 	
-#neipperg2		
-100003050={ #// 7c) ADAM ADALBERT Graf u.Hr von Neipperg 5 Jan 1792 (Vienna 8 Apr 1775-Parma 22 Feb 1829); m.1st Lamotta 4 Feb 1806 Theresia Gfn von Pola (Treviso 2 Apr 1778-Schwaigern 23 Apr 1815); m.2nd Parma 7 Sep 1821 Marie Luise, Archdss of Austria, Dss of Parma, Piacenza and Guastalla (Vienna 12 Dec 1791-Vienna 17 Dec 1847); the children of this second marriage were actually born before the marriage, and were given the name "Montenuovo" $$
+#neipperg2
+neipperg_0001={ #// ADAM ADALBERT, Graf und Herr von Neipperg, *Wien 8.4.1775, +Parma 22.2.1829; 1m: Lamotta 4.2.1806 Theresia Gfn von Pola (*Treviso 2.4.1778, +Schwaigern 23.4.1815), dau.of Gf Anton von Pola and Gfn Maria Antonia Floriana von Thurn und Valsassina; 2m: Parma 7.9.1821 Archdss Marie Luise of Austria, Dss of Parma, Piacenza and Guastalla (*Wien 12.12.1791, +Wien 17.12.1847); the children of 2nd marriage were actually born before the marriage, and were given the name "Montenuovo" $$
 	name="Adam Adalbert"
 	dynasty=1002101
-	religion=catholic culture=german
+	religion=catholic culture=bavarian
 	father=100203134	# Leopold Joseph von Neipperg
-	1775.04.08={birth=yes}
+	1775.04.08={birth=yes}  # Wien
+	1806.02.04={add_spouse=lowborn_1751}	# GFN Theresia von Pola
 	1821.09.07={add_spouse=100020026}	# Marie Louise von Habsburg-Lothringen
-	1829.02.22={death=yes}
+	1829.02.22={death=yes}  # Parma
 }
-	100192763={ #// 1d) ALFRED Karl August Franz Camillus Gf u.Hr von Neipperg (Schwaigern 26 Jan 1807-Winnenthal 16 Nov 1865); m.1st 19 Oct 1835 Josefina Gfn Grisoni (d.17 Nov 1837); m.2nd Stuttgart 19 Mar 1840 Marie Pss of Württemberg (Stuttgart 30 Oct 1816-Stuttgart 4 Jan 1887)  $$
+	neipperg_0002={ #// A1. [1m.] ALFRED Karl August Franz Camillus Graf und Herr von Neipperg, *Schwaigern 26.1.1807, +Winnenthal 16.11.1865; 1m: 19.10.1835 Josefina Gfn Grisoni (+17.11.1837); 2m: Stuttgart 19.3.1840 Pss Marie von Württemberg (*Stuttgart 30.10.1816, +Stuttgart 4.1.1887) $$
 		name=Alfred
 		dynasty=1002101
 		religion=catholic culture=german
-		father=100003050	# Adam Adalbert von Neipperg
-		1807.01.26={birth=yes}
+		father=neipperg_0001	# Adam Adalbert von Neipperg
+		mother=lowborn_1751	# GFN Theresia von Pola
+		1807.01.26={birth=yes}  # Schwaigern
+		1835.10.19={add_spouse=lowborn_6733}	# GFN Josefina Grisoni
 		1840.03.19={add_spouse=100008098}	# Marie Friederike von WU rttemberg
-		1865.11.16={death=yes}
+		1865.11.16={death=yes}  # Winnenthal
 	}
-	100185339={ #// 4d) ERWIN Franz Ludwig Bernhard Ernst Gf u.Hr von Neipperg (Schwaigern 6 Apr 1813-Schwaigern 2 Mar 1897); m.1st Vienna 19 Apr 1845 Henriette Gfn von Waldstein, Hrn von Wartenberg (23 Dec 1823-Fulnek, Moravia 18 Jul 1845); m.2nd Prague 25 Aug 1852 Rosa Pss von Lobkowicz (Vienna 13 Jun 1832-Vienna 15 Feb 1905)  $$
+	neipperg_0003={ #// A2. [1m.] FERDINAND Joseph Gustav, *1.11.1809, +Szarcsa 22.4.1843
+		name=Ferdinand
+		dynasty=1002101
+		religion=catholic culture=german
+		father=neipperg_0001	# Adam Adalbert von Neipperg
+		mother=lowborn_1751	# GFN Theresia von Pola
+		1809.11.01={birth=yes}
+		1843.04.22={death=yes}  # Szarcsa
+	}
+	neipperg_0004={ #// A3. [1m.] GUSTAV Adolf Friedrich Bernhard Leopold, *10.9.1811, +Stuttgart 27.12.1850
+		name=Gustav
+		dynasty=1002101
+		religion=catholic culture=german
+		father=neipperg_0001	# Adam Adalbert von Neipperg
+		mother=lowborn_1751	# GFN Theresia von Pola
+		1811.09.10={birth=yes}
+		1850.12.27={death=yes}  # Stuttgart
+	}
+	neipperg_0005={ #// A4. [1m.] ERWIN Franz Ludwig Bernhard Ernst Graf und Herr von Neipperg, *Schwaigern 6.4.1813, +Schwaigern 2.3.1897; 1m: Wien 19.4.1845 Gfn Henriette von Waldstein, Hrn von Wartenberg (*23.12.1823, +Fulnek, Moravia 18.7.1845); 2m: Praha 25.8.1852 Pss Rosa von Lobkowicz (*Wien 13.6.1832, +Wien 15.2.1905) $$
 		name=Erwin
 		dynasty=1002101
-		religion=catholic culture=czech
-		father=100003050	# Adam Adalbert von Neipperg
+		religion=catholic culture=german
+		father=neipperg_0001	# Adam Adalbert von Neipperg
+		mother=lowborn_1751	# GFN Theresia von Pola
 		1813.04.06={birth=yes}  # Schwaigern
 		1845.04.19={add_spouse=100047532}	# Henriette z Valdštejna
 		1852.08.25={add_spouse=100185338}	# Rosa Popel von Lobkowitz
 		1897.03.02={death=yes}  # Schwaigern
 	}
-		100192285={ #// 1e) Maria REINHARD Georg Ignaz Gf u.Hr von Neipperg (Horin 30 Jul 1856-Schwaigern 15 Jan 1919); m.Prague 30 Jun 1880 Gabrielle Gfn von Waldstein, Hrn von Wartenberg (Frauenberg, Bohemia 19 Aug 1857-Schwaigern 28 Oct 1948)  $$
-			name=Reinhard
+		neipperg_0006={ #// B1. Maria REINHARD Georg Ignaz Graf und Herr von Neipperg, *Horin, Bohemia 30.7.1856, +Schwaigern 15.1.1919; m.Praha 30.6.1880 Gfn Gabrielle von Waldstein, Hrn von Wartenberg (*Frauenberg, Bohemia 19.8.1857, +Schwaigern 28.10.1948) $$
+			name="Reinhard"
 			dynasty=1002101
 			religion=catholic culture=german
-			father=100185339	# Erwin von Neipperg
+			father=neipperg_0005	# Erwin von Neipperg
 			mother=100185338	# Rosa Popel von Lobkowitz
-			1856.07.30={birth=yes}  # Horín
+			1856.07.30={birth=yes}  # Horin Bohemia
 			1880.06.30={add_spouse=100047364}	# Gabriela Ida z Valdštejna
 			1919.01.15={death=yes}  # Schwaigern
 		}
-			100192765={ #// 2f) Maria ANTON ERNST Reinhard Felix Johannes von Nepomuk Franz von Sales Joseph Hubertus Gratianus Gf von Neipperg (Hirschberg, Bohemia 18 Dec 1883-Schwaigern 28 Dec 1947); m.Pruhonitz 19 Oct 1911 Anna Gfn von Silva-Tarouca (Türmitz, Bohemia 28 Sep 1888-Schwaigern 17 Jul 1971) $$
-				name="Anton Ernst"
+			neipperg_0007={ #// C1. Maria EBERHARD Erwin Reinhard Ernst Franz von Sales Felix Josef Friedrich Hubertus Johannes von Nepomuk Bruno Blasius, renounced his rights in favor of his next brother7.1.1906, *Praha 3.2.1882, +Brackenheim, Württemberg 1.3.1956
+				name="Eberhard"
+				dynasty=1002101
+				religion=catholic culture=czech
+				father=neipperg_0006	# Reinhard von Neipperg
+				mother=100047364	# Gabriela Ida z Valdštejna
+				1882.02.03={birth=yes}  # Praha
+				1956.03.01={death=yes}  # Brackenheim Württemberg
+			}
+			neipperg_0008={ #// C2. Maria ANTON Ernst Reinhard Felix Johannes von Nepomuk Franz von Sales Joseph Hubertus Gratianus Graf und Herr von Neipperg, *Doksy (Hirschberg), Bohemia 18.12.1883, +Schwaigern 28.12.1947; m.Pruhonitz, Bohemia 19.10.1911 Gfn Anna von Silva-Tarouca (*Trmice (Türmitz), Bohemia 28.9.1888, +Schwaigern 17.7.1971) $$
+				name="Anton"
 				dynasty=1002101
 				religion=catholic culture=german
-				father=100192285	# Reinhard von Neipperg
+				father=neipperg_0006	# Reinhard von Neipperg
 				mother=100047364	# Gabriela Ida z Valdštejna
-				1883.01.01={birth=yes}
+				1883.12.18={birth=yes}  # Doksy Bohemia
 				1911.10.19={add_spouse=100022552}	# Anna von Silva-Tarouca
-				1947.01.01={death=yes}
+				1947.12.28={death=yes}  # Schwaigern
 			}
-				100392762={ #// D1. ELEONORE Maria Antonia Anna Ernestine Huberta Beatrix Gabrielle Benedikta Josefine Felicitas, *Schwaigern 26.8.1912, +Vollrads 9.1.1989; m.Schwaigern 27.8.1936 Gf Richard von Matuschka, Frhr von Greiffenclau zu Vollrads, Frhr von Toppolczan und Spaetgen (*Wiesbaden 11.5.1893, +Vollrads 4.1.1975) $$
-					name="Eleonore"
+				neipperg_0009={ #// D1. ELEONORE Maria Antonia Anna Ernestine Huberta Beatrix Gabrielle Benedikta Josefine Felicitas, *Schwaigern 26.8.1912, +Vollrads 9.1.1989; m.Schwaigern 27.8.1936 Gf Richard von Matuschka, Frhr von Greiffenclau zu Vollrads, Frhr von Toppolczan und Spaetgen (*Wiesbaden 11.5.1893, +Vollrads 4.1.1975) $$
+					name=Eleonore
 					female=yes
 					dynasty=1002101
 					religion=catholic culture=german
-					father=100192765	# Anton Ernst von Neipperg
+					father=neipperg_0008	# Anton von Neipperg
 					mother=100022552	# Anna von Silva-Tarouca
 					1912.08.26={birth=yes}  # Schwaigern
 					1989.01.09={death=yes}  # Vollrads
 				}
-				100192762={ #// D3. Maria JOSEF HUBERT Ernst Amadeus Vincenz Benediktus Antonius Konrad Apolinarius Graf und Herr von Neipperg, *Schwaigern 22.7.1918; 1m: München (München) (civ) 21.12.1950 (rel) 3.2.1951 Maria Gfn von Ledebur-Wicheln (*Krzemusch, Bohemia 5.11.1920, +Heidelberg 14.6.1984); 2m: (civ) Schwaigern 23.8.1986 (rel) Waldenburg 25.9.1986 Pss Theresa zu Hohenlohe-Waldenburg-Schillingsfürst (*Waldenburg 8.9.1938) $$
+				neipperg_0010={ #// D2. Maria KARL REINHARD Antonius Ernst Amadeus Georg Benediktus Hubertus Franziskus Christopherus Josef Erwin Faustinus, Erbgraf von Neipperg, *Schwaigern 15.2.1915, +k.a.Propoisk 28.7.1941
+					name=Reinhard
+					dynasty=1002101
+					religion=catholic culture=german
+					father=neipperg_0008	# Anton von Neipperg
+					mother=100022552	# Anna von Silva-Tarouca
+					1915.02.15={birth=yes}  # Schwaigern
+					1941.07.28={death=yes}  # Propoisk
+				}
+				neipperg_0011={ #// D3. Maria JOSEF HUBERT Ernst Amadeus Vincenz Benediktus Antonius Konrad Apolinarius Graf und Herr von Neipperg, *Schwaigern 22.7.1918; 1m: München (civ) 21.12.1950 (rel) 3.2.1951 Maria Gfn von Ledebur-Wicheln (*Krzemusch, Bohemia 5.11.1920, +Heidelberg 14.6.1984); 2m: (civ) Schwaigern 23.8.1986 (rel) Waldenburg 25.9.1986 Pss Theresa zu Hohenlohe-Waldenburg-Schillingsfürst (*Waldenburg 8.9.1938) $$
 					name="Josef Hubert"
 					dynasty=1002101
 					religion=catholic culture=german
-					father=100192765	# Anton Ernst von Neipperg
+					father=neipperg_0008	# Anton von Neipperg
 					mother=100022552	# Anna von Silva-Tarouca
 					1918.07.22={birth=yes}  # Schwaigern
+					1950.12.21={add_spouse=lowborn_7037}	# GFN Maria von Ledebur-Wicheln
 					1986.08.23={add_spouse=100001920}	# Therese von Hohenlohe-Waldenburg-Schillingsfürst
-					2020.09.12={death=yes}	# EST.
+					1988.01.01={death=yes}  # EST.
 				}
-					100192764={ #// E1. Maria KARL EUGEN Johannes Nepomuk Erwin Michael Erbgraf von Neipperg, *Schwaigern 20.10.1951; m.Pöcking (civ) 9.7.1977 (rel) 30.7.1977 Archdss Andrea von Habsburg-Lothringen of Austria (*Würzburg 30.5.1953) $$
-						name="Karl Eugen"
+					neipperg_0012={ #// E1. Maria KARL EUGEN Johannes Nepomuk Erwin Michael Erbgraf von Neipperg, *Schwaigern 20.10.1951; m.Pöcking (civ) 9.7.1977 (rel) 30.7.1977 Archdss Andrea von Habsburg-Lothringen of Austria (*Würzburg 30.5.1953) $$
+						name=Eugen
 						dynasty=1002101
 						religion=catholic culture=german
-						father=100192762	# Josef Hubert von Neipperg
-						1951.10.20={birth=yes}
-						1977.07.30={add_spouse=100020070}	# Andrea von Habsburg-Lothringen
+						father=neipperg_0011	# Josef Hubert von Neipperg
+						mother=lowborn_7037	# GFN Maria von Ledebur-Wicheln
+						1951.10.20={birth=yes}  # Schwaigern
+						1977.07.09={add_spouse=100020070}	# Andrea von Habsburg-Lothringen
 					}
-						100392061={ #// F1. Maria PHILIPP Karl Friedrich Hubert Magnus, *Heilbronn-Neckargartach 6.9.1978; m.Paula Wolff (*1981)
+						neipperg_0013={ #// F1. Maria PHILIPP Karl Friedrich Hubert Magnus, *Heilbronn-Neckargartach 6.9.1978; m.Paula Wolff (*1981)
 							name=Philipp
 							dynasty=1002101
 							religion=catholic culture=german
-							father=100192764	# Karl Eugen von Neipperg
+							father=neipperg_0012	# Eugen von Neipperg
 							mother=100020070	# Andrea von Habsburg-Lothringen
 							1978.09.06={birth=yes}
 						}
-						# F2. Maria BENEDIKT Reinhard Michael Alois Leo, *Heilbronn-Neckargartach 11.4.1980
-						100192761={ #// F3. Maria DOMINIK Georg Christoph Johannes Pantaleon, *Warendorf 27.7.1981; m.Wallhausen 4 Aug 2012 Marie-Anna Pss zu Salm-Salm (b.Kitzingen 22 Feb 1986) $$
+						neipperg_0014={ #// F2. Maria BENEDIKT Reinhard Michael Alois Leo, *Heilbronn-Neckargartach 11.4.1980
+							name=Benedikt
+							dynasty=1002101
+							religion=catholic culture=german
+							father=neipperg_0012	# Eugen von Neipperg
+							mother=100020070	# Andrea von Habsburg-Lothringen
+							1980.04.11={birth=yes}
+						}
+						neipperg_0015={ #// F3. Maria DOMINIK Georg Christoph Johannes Pantaleon, *Warendorf 27.7.1981; m.Wallhausen 4 Aug 2012 Marie-Anna Pss zu Salm-Salm (b.Kitzingen 22 Feb 1986) $$
 							name=Dominik
 							dynasty=1002101
 							religion=catholic culture=german
-							father=100192764	# Karl Eugen von Neipperg
+							father=neipperg_0012	# Eugen von Neipperg
 							mother=100020070	# Andrea von Habsburg-Lothringen
-							1981.07.27={birth=yes}
+							1981.07.27={birth=yes}  # Warendorf
 							2012.08.04={add_spouse=100003945}	# Marie-Anna von Salm-Salm
 						}
-						# F4. Maria HEMMA Nathalie Sophie Franziska Georgine, *Oelde 11.10.1983; m.Keni Specht
-						100192760={ #// F5. Maria KATHARINA Franziska Monika Elisabeth Georgina, *Rheda-Wiedenbrück 3.4.1986; m.Schwaigern 30 Aug 2012 (rel) Drahenice 1 Sep 2012 Wenzel Pr von Lobkowicz (b.München 4 Dec 1986) $$
+						neipperg_0016={ #// F4. Maria HEMMA Nathalie Sophie Franziska Georgine, *Oelde 11.10.1983
+							name=Hemma
+							female=yes
+							dynasty=1002101
+							religion=catholic culture=german
+							father=neipperg_0012	# Eugen von Neipperg
+							mother=100020070	# Andrea von Habsburg-Lothringen
+							1983.10.11={birth=yes}  # Oelde
+						}
+						neipperg_0017={ #// F5. Maria KATHARINA Franziska Monika Elisabeth Georgina, *Rheda-Wiedenbrück 3.4.1986 $$
 							name=Katharina
 							female=yes
 							dynasty=1002101
 							religion=catholic culture=german
-							father=100192764	# Karl Eugen von Neipperg
+							father=neipperg_0012	# Eugen von Neipperg
 							mother=100020070	# Andrea von Habsburg-Lothringen
 							1986.04.03={birth=yes}
 						}
-					100203233={ #// E7. Maria BARBARA Sofie Michaela Elisabeth, *Schwaigern 4.1.1960; m.(civ) Donzdorf 20.8.1986 (rel) Schwaigern 30.8.1986 Erbgf Bernhard von Rechberg und Rothenlöwen zu Hohenrechberg (*Göppingen 10.1.1956) $$
+					neipperg_0018={ #// E2. Maria REINHARD Franz von Assisi Ferdinand Benedikt, *Schwaigern 5.2.1953; 1m: Eberstadt 22.3.1979 (div 1989) Johanna Märker (*Eberstadt 4.2.1956); 2m: (civ) Weilheim 12.10.1992 (rel) Waldkirch 13.10.1992 Stephanie Frn von Eynatten (*Geilenkirchen 24.5.1965)
+						name=Reinhard
+						dynasty=1002101
+						religion=catholic culture=german
+						father=neipperg_0011	# Josef Hubert von Neipperg
+						mother=lowborn_7037	# GFN Maria von Ledebur-Wicheln
+						1953.02.05={birth=yes}  # Schwaigern
+						1979.03.22={add_spouse=lowborn_7048}	# Johanna Märker
+						1989.01.01={remove_spouse=lowborn_7048}
+						1992.10.12={add_spouse=lowborn_7049}	# FRN Stephanie von Eynatten
+					}
+						neipperg_0019={ #// F1. Maria Regina, *Rottweil 3.9.1993
+							name="Maria Regina"
+							female=yes
+							dynasty=1002101
+							religion=catholic culture=german
+							father=neipperg_0018	# Reinhard von Neipperg
+							mother=lowborn_7049	# FRN Stephanie von Eynatten
+							1993.09.03={birth=yes}  # Rottweil
+						}
+						neipperg_0020={ #// F2. Maria Helena, *Rottweil 29.3.1996
+							name="Maria Helena"
+							female=yes
+							dynasty=1002101
+							religion=catholic culture=german
+							father=neipperg_0018	# Reinhard von Neipperg
+							mother=lowborn_7049	# FRN Stephanie von Eynatten
+							1996.03.29={birth=yes}  # Rottweil
+						}
+					neipperg_0021={ #// E3. Maria ANNA Gabrielle Eleonore, *Schwaigern 14.2.1955
+						name=Anna
+						female=yes
+						dynasty=1002101
+						religion=catholic culture=german
+						father=neipperg_0011	# Josef Hubert von Neipperg
+						mother=lowborn_7037	# GFN Maria von Ledebur-Wicheln
+						1955.02.14={birth=yes}  # Schwaigern
+					}
+					neipperg_0022={ #// E4. Maria FRANZISKA Eleonore Katharina, *Schwaigern 7.4.1956; m.Schwaigern 22.10.1977 Friedrich Gf von und zu Westerholt und Gysenberg (*Freckenhorst 8.6.1949)
+						name=Franziska
+						female=yes
+						dynasty=1002101
+						religion=catholic culture=german
+						father=neipperg_0011	# Josef Hubert von Neipperg
+						mother=lowborn_7037	# GFN Maria von Ledebur-Wicheln
+						1956.04.07={birth=yes}  # Schwaigern
+					}
+					neipperg_0023={ #// E5. Maria STEPHAN-Christoph Heinrich Alfred Emmeran, *Schwaigern 28.6.1957; m.(civ) Schwaigern 13.8.1982 (rel) Steißlingen 29.8.1982 Sigweis Frn von Stotzingen (*Singen 26.2.1959)
+						name="Stephan"
+						dynasty=1002101
+						religion=catholic culture=german
+						father=neipperg_0011	# Josef Hubert von Neipperg
+						mother=lowborn_7037	# GFN Maria von Ledebur-Wicheln
+						1957.06.28={birth=yes}  # Schwaigern
+						1982.08.13={add_spouse=lowborn_7056}	# FRN Sigweis von Stotzingen
+					}
+						neipperg_0024={ #// F1. Maria BEATICE Barbara Bernadette, *Libourne, France 13.7.1984, +Arendonk, Belgium 20.8.1994
+							name=Beatice
+							female=yes
+							dynasty=1002101
+							religion=catholic culture=german
+							father=neipperg_0023	# Stephan von Neipperg
+							mother=lowborn_7056	# FRN Sigweis von Stotzingen
+							1984.07.13={birth=yes}  # Libourne France
+							1994.08.20={death=yes}  # Arendonk Belgium
+						}
+						neipperg_0025={ #// F2. Maria CAROLINE Marita Therese, *Libourne 10.10.1986
+							name=Caroline
+							female=yes
+							dynasty=1002101
+							religion=catholic culture=german
+							father=neipperg_0023	# Stephan von Neipperg
+							mother=lowborn_7056	# FRN Sigweis von Stotzingen
+							1986.10.10={birth=yes}  # Libourne
+						}
+						neipperg_0026={ #// F3. Maria DIANE Andrea Manuela-Franziska Gabrielle, *Talence 19.1.1990
+							name=Diane
+							female=yes
+							dynasty=1002101
+							religion=catholic culture=german
+							father=neipperg_0023	# Stephan von Neipperg
+							mother=lowborn_7056	# FRN Sigweis von Stotzingen
+							1990.01.19={birth=yes}  # Talence
+						}
+						neipperg_0027={ #// F4. Maria PHILIPPA Franziska Nathalie Stephanie, *Talence 23.2.1991
+							name=Philippa
+							female=yes
+							dynasty=1002101
+							religion=catholic culture=german
+							father=neipperg_0023	# Stephan von Neipperg
+							mother=lowborn_7056	# FRN Sigweis von Stotzingen
+							1991.02.23={birth=yes}  # Talence
+						}
+						neipperg_0028={ #// F5. Maria LUDOVIC Bernhard Niklas Karl Joseph, *Talence 19.4.1994
+							name=Ludovic
+							dynasty=1002101
+							religion=catholic culture=german
+							father=neipperg_0023	# Stephan von Neipperg
+							mother=lowborn_7056	# FRN Sigweis von Stotzingen
+							1994.04.19={birth=yes}  # Talence
+						}
+					neipperg_0029={ #// E6. Maria CHRISTOPH Bernhard Amadeo Antonius, *Schwaigern 30.7.1958
+						name=Christoph
+						dynasty=1002101
+						religion=catholic culture=german
+						father=neipperg_0011	# Josef Hubert von Neipperg
+						mother=lowborn_7037	# GFN Maria von Ledebur-Wicheln
+						1958.07.30={birth=yes}  # Schwaigern
+					}
+					neipperg_0030={ #// E7. Maria BARBARA Sofie Michaela Elisabeth, *Schwaigern 4.1.1960; m.(civ) Donzdorf 20.8.1986 (rel) Schwaigern 30.8.1986 Erbgf Bernhard von Rechberg und Rothenlöwen zu Hohenrechberg (*Göppingen 10.1.1956) $$
 						name=Barbara
 						female=yes
 						dynasty=1002101
 						religion=catholic culture=german
-						father=100192762	# Josef Hubert von Neipperg
+						father=neipperg_0011	# Josef Hubert von Neipperg
+						mother=lowborn_7037	# GFN Maria von Ledebur-Wicheln
 						1960.01.04={birth=yes}  # Schwaigern
 					}
-			100192767={ #// 4f) Maria Alfred Karl Benediktus Ignatius Friedrich Hubertus Reinhard Felix Franz von Sales Joseph Aloysius (Schwaigern 21 Jun 1888-Grünwald 11 Sep 1941); m.Tetschen an der Elbe 8 Jan 1920 Marie Gfn von Thun u.Hohenstein (Prague 15 Mar 1897-Regensburg 18 Feb 1971) $$
-				name=Alfred
-				dynasty=1002101
-				religion=catholic culture=german
-				father=100192285	# Reinhard von Neipperg
-				mother=100047364	# Gabriela Ida z Valdštejna
-				1888.06.21={birth=yes}
-				1920.01.08={add_spouse=100023999}	# Maria Anna von Thun u.Hohenstein
-				1941.09.11={death=yes}
-			}
-				100194087={ #// 2g) Marie Elisabeth Cäcilie Thaddäa Benedicta (b.Grünwald 21 Nov 1921); m.Bedford, New York 17 Jul 1954 Emmerich Gf Hunyady von Kéthely (Ürmény 9 Nov 1900-Newark, New Jersey 4 May 1956)  $$
-					name="Maria Elizabeth"
+					neipperg_0031={ #// E8. Maria JOHANNES Alfred Josef Adalbert, *Schwaigern 30.4.1964
+						name=Johannes
+						dynasty=1002101
+						religion=catholic culture=german
+						father=neipperg_0011	# Josef Hubert von Neipperg
+						mother=lowborn_7037	# GFN Maria von Ledebur-Wicheln
+						1964.04.30={birth=yes}  # Schwaigern
+					}
+				neipperg_0032={ #// D4. Marie Gabrielle Anna Antonia Beatrix Pia Benedicta Felicitas Huberta Hedwig Wilhelmine Walburga, *Schwaigern 25.2.1920
+					name="Marie Gabrielle"
 					female=yes
 					dynasty=1002101
 					religion=catholic culture=german
-					father=100192767	# Alfred von Neipperg
-					mother=100023999	# Maria Anna von Thun u.Hohenstein
-					1921.11.21={birth=yes}  # Grünwald
-					1997.01.01={death=yes}  # EST.
+					father=neipperg_0008	# Anton von Neipperg
+					mother=100022552	# Anna von Silva-Tarouca
+					1920.02.25={birth=yes}  # Schwaigern
+					1995.01.01={death=yes}  # EST.
 				}
-			100194608={ #// 6f) Maria Anna-Bertha Josepha Benedikta Rosa Eleonore Ignatia Huberta Franziska Salesia Felicitas Stephanie (Schwaigern 1 Sep 1893-Konstanz 28 Nov 1961); m.Vienna 14 Oct 1918 Erwein-Hartwig Gf von Nostitz-Rieneck (Falkenau 13 Sep 1887-Nikolajew, on the Black Sea 6 Apr 1942)  $$
-				name=Anna-Bertha
+			neipperg_0033={ #// C3. MARIE ANNA Bertha Rosa Eleonore Sarah Franziska Xaveria Josepha Huberta Felicitas Karoline Korbinia, *Schwaigern 9.9.1885, +Konstanz 7.4.1957
+				name="Marie Anna"
 				female=yes
 				dynasty=1002101
-				religion=lutheran culture=german
-				father=100192285	# Reinhard von Neipperg
+				religion=catholic culture=german
+				father=neipperg_0006	# Reinhard von Neipperg
+				mother=100047364	# Gabriela Ida z Valdštejna
+				1885.09.09={birth=yes}  # Schwaigern
+				1957.04.07={death=yes}  # Konstanz
+			}
+			neipperg_0034={ #// C4. Maria ALFRED Karl Benediktus Ignatius Friedrich Hubertus Reinhard Felix Franz von Sales Joseph Aloysius, *Schwaigern 21.6.1888, +Grünwald 11.9.1941; m.Tetschen an der Elbe, Bohemia 8.1.1920 Gfn Marie von Thun und Hohenstein (*Praha 15.3.1897, +Regensburg 18.2.1971) $$
+				name=Alfred
+				dynasty=1002101
+				religion=catholic culture=german
+				father=neipperg_0006	# Reinhard von Neipperg
+				mother=100047364	# Gabriela Ida z Valdštejna
+				1888.06.21={birth=yes}  # Schwaigern
+				1920.01.08={add_spouse=100023999}	# Maria Anna von Thun u.Hohenstein
+				1941.09.11={death=yes}  # Grünwald
+			}
+				neipperg_0035={ #// D1. Maria Reinhard Anton Thaddäus Benedikt Dionysius Franz Borgia, *Tetschen an der Elbe, Bohemia 9.10.1920, +k.a.Russia 24.7.1941
+					name=Reinhard
+					dynasty=1002101
+					religion=catholic culture=german
+					father=neipperg_0034	# Alfred von Neipperg
+					mother=100023999	# Maria Anna von Thun u.Hohenstein
+					1941.07.24={birth=yes}
+					2011.01.01={death=yes}  # Russia
+				}
+				neipperg_0036={ #// D2. Marie ELISABETH Cäcilie Thaddäa Benedicta, *Grünwald 21.11.1921; m.Bedford, New York 17.7.1954 Gf Imre Hunyady de Kéthely (*Ürmény 9.11.1900, +Newark, New Jersey 4.5.1956) $$
+					name=Elisabeth
+					female=yes
+					dynasty=1002101
+					religion=catholic culture=german
+					father=neipperg_0034	# Alfred von Neipperg
+					mother=100023999	# Maria Anna von Thun u.Hohenstein
+					1921.11.21={birth=yes}  # Grünwald
+					1996.01.01={death=yes}  # EST.
+				}
+				neipperg_0037={ #// D3. Maria JOHANN JOSEPH Jaroslaw Benediktus Thaddäus Cyprian, *Grünwald 25.9.1923, +k.a.in Romania 16.4.1944
+					name=Joseph
+					dynasty=1002101
+					religion=catholic culture=german
+					father=neipperg_0034	# Alfred von Neipperg
+					mother=100023999	# Maria Anna von Thun u.Hohenstein
+					1923.09.25={birth=yes}  # Grünwald
+					1944.04.16={death=yes}  # in Romania
+				}
+				neipperg_0038={ #// D4. Maria GABRIELLE Wilhelmine Benedikta, *Grünwald 27.4.1928, +Münstertal 14.12.1976; m.Köfering bei Regensburg (civ) 31.8.1956 (rel) 27.9.1956 Hubertus Frhr von Landenberg (*Freiburg 29.8.1922)
+					name=Gabrielle
+					female=yes
+					dynasty=1002101
+					religion=catholic culture=german
+					father=neipperg_0034	# Alfred von Neipperg
+					mother=100023999	# Maria Anna von Thun u.Hohenstein
+					1928.04.27={birth=yes}  # Grünwald
+					1976.12.14={death=yes}  # Münstertal
+				}
+				neipperg_0039={ #// D5. Maria ANNA-BERTHA Benedikta Thaddäa Konrada von Parzham, *Grünwald 21.7.1934
+					name="Maria ANNA-BERTHA"
+					female=yes
+					dynasty=1002101
+					religion=catholic culture=german
+					father=neipperg_0034	# Alfred von Neipperg
+					mother=100023999	# Maria Anna von Thun u.Hohenstein
+					1934.07.21={birth=yes}  # Grünwald
+					2009.01.01={death=yes}  # EST.
+				}
+			neipperg_0040={ #// C5. Maria KARL Joseph Georg Friedrich Franz von Sales Hubertus Ignaz Felix Amos, *Meran 31.3.1890, +murdered in prison in Werschetz, Yugoslavia 25/26.6.1948
+				name=Karl
+				dynasty=1002101
+				religion=catholic culture=german
+				father=neipperg_0006	# Reinhard von Neipperg
+				mother=100047364	# Gabriela Ida z Valdštejna
+				1890.03.31={birth=yes}  # Meran
+				1948.06.26={death=yes}  # murdered in prison in Werschetz Yugoslavia
+			}
+			neipperg_0041={ #// C6. Maria ANNA-BERTHA Josepha Benedikta Rosa Eleonore Ignatia Huberta Franziska Salesia Felicitas Stephanie, *Schwaigern 1.9.1893, +Konstanz 28.11.1961; m.Wien 14.10.1918 Gf Erwein-Hartwig von Nostitz-Rieneck (*Sokolov (Falkenau), Bohemia 13.9.1887, +k.a.Nikolajevo on the Black Sea 6.4.1942) $$
+				name="Maria ANNA-BERTHA"
+				female=yes
+				dynasty=1002101
+				religion=catholic culture=german
+				father=neipperg_0006	# Reinhard von Neipperg
 				mother=100047364	# Gabriela Ida z Valdštejna
 				1893.09.01={birth=yes}  # Schwaigern
 				1961.11.28={death=yes}  # Konstanz
 			}
-			100195653={ #// 7f) Maria Erwin Joseph Sidonius Benediktus Franziskus von Sales Petrus Friedrich Ignatius Hubertus Johannes von Nepomuk Felix Maurus (Schwaigern 15 Jan 1897-Stuttgart-Vaihingen 5 Dec 1957); m.München 28 Apr 1927 Hissa Gfn von Hatzfeldt zu Trachenberg (Pommerswitz 26 Feb 1906-Salzburg 4 Jun 1985) $$
+			neipperg_0042={ #// C7. Maria ERWIN Joseph Sidonius Benediktus Franziskus von Sales Petrus Friedrich Ignatius Hubertus Johannes von Nepomuk Felix Maurus, *Schwaigern 15.1.1897, +Stuttgart-Vaihingen 5.12.1957; m.München 28.4.1927 Gfn Hissa von Hatzfeldt zu Trachenberg (*Pommerswitz 26.2.1906, +Salzburg 4.6.1985) $$
 				name=Erwin
 				dynasty=1002101
-				religion=lutheran culture=german
-				father=100192285	# Reinhard von Neipperg
+				religion=catholic culture=german
+				father=neipperg_0006	# Reinhard von Neipperg
 				mother=100047364	# Gabriela Ida z Valdštejna
 				1897.01.15={birth=yes}  # Schwaigern
 				1927.04.28={add_spouse=100010594}	# Hissa von Hatzfeldt
-				1957.12.05={death=yes}  # Stuttgart
+				1957.12.05={death=yes}  # Stuttgart-Vaihingen
 			}
-				100195654={ #// 4g) Maria Nathalie Gabrielle Benedikta Bernhardine (b.Stuttgart 20 May 1948); m.Schwaigern 24 Jul 1970 Niklas Altgf zu Salm-Reifferscheidt-Raitz (Vienna 20 Sep 1942-Linz 2 Jan 2009) $$
+				neipperg_0043={ #// D1. MARIA IMMACULATA Hanna Elisabeth Benedicta Euphrasia, *München 13.3.1928; m.Johannesburg, So Africa 14.7.1956 Klaus-Werner Meilchen (*Kaiserslautern 30.3.1920, +Curitiba, Brazil 24.2.1985)
+					name="Maria Immaculata"
+					female=yes
+					dynasty=1002101
+					religion=catholic culture=north_german
+					father=neipperg_0042	# Erwin von Neipperg
+					mother=100010594	# Hissa von Hatzfeldt
+					1928.03.13={birth=yes}  # München
+					2003.01.01={death=yes}  # EST.
+				}
+				neipperg_0044={ #// D2. Maria HEDWIG Gabrielle Nathalie Benedicta Lioba Laurentia, *Seeshaupt 10.8.1929; m.Cairo (civ) 19.2.1955 (rel) 11.4.1955 Sir Anthony Williams (*London 28.5.1923, +Gdansk 23.5.1990)
+					name=Hedwig
+					female=yes
+					dynasty=1002101
+					religion=catholic culture=german
+					father=neipperg_0042	# Erwin von Neipperg
+					mother=100010594	# Hissa von Hatzfeldt
+					1929.08.10={birth=yes}  # Seeshaupt
+					2004.01.01={death=yes}  # EST.
+				}
+				neipperg_0045={ #// D3. Maria ANTON-HERMANN Alexander Konrad Georg Benedikt Ephraim, *Trebnitz, Silesia 19.6.1932, +Frankfurt 27.5.1966; m.Unterweißenbach an der Saale 10.4.1965 Ellen Kirsch (*Leipzig 22.11.1940)
+					name="Anton-Hermann"
+					dynasty=1002101
+					religion=catholic culture=german
+					father=neipperg_0042	# Erwin von Neipperg
+					mother=100010594	# Hissa von Hatzfeldt
+					1932.06.19={birth=yes}  # Trebnitz Silesia
+					1965.04.10={add_spouse=lowborn_7065}	# Ellen Kirsch
+					1966.05.27={death=yes}  # Frankfurt
+				}
+				neipperg_0046={ #// D4. Maria NATHALIE Gabrielle Benedikta Bernhardine, *Stuttgart 20.5.1948; m.Schwaigern 24.7.1970 Altgf Niklas zu Salm-Reifferscheidt-Raitz (*Wien 20.9.1942) $$
 					name=Nathalie
 					female=yes
 					dynasty=1002101
-					religion=lutheran culture=german
-					father=100195653	# Erwin von Neipperg
+					religion=catholic culture=north_german
+					father=neipperg_0042	# Erwin von Neipperg
 					mother=100010594	# Hissa von Hatzfeldt
-					1948.05.20={birth=yes}
+					1948.05.20={birth=yes}  # Stuttgart
 				}
-		100185025={ #// 2e) Anna-Bertha (Prague 7 Aug 1857-Komotau 9 Apr 1932); m.Vienna 4 Sep 1884 Ferdinand Fst von Lobkowicz (Prague 23 Jan 1858-Nelahozeves 22 Dec 1938)  $$
-			name="Anna Bertha"
+		neipperg_0047={ #// B2. Maria ANNA-BERTHA Thereisa, *Praha 7.8.1857, +Chomutov (Komotau), Bohemia 9.4.1932; m.Wien 4.9.1884 Fst Ferdinand von Lobkowicz, Herzog von Raudnitz (*Praha 23.1.1858, +Nelahozeves, Bohemia 22.12.1938) $$
+			name="Anna-Bertha"
 			female=yes
 			dynasty=1002101
-			religion=catholic culture=german
-			father=100185339	# Erwin von Neipperg
+			religion=catholic culture=czech
+			father=neipperg_0005	# Erwin von Neipperg
 			mother=100185338	# Rosa Popel von Lobkowitz
-			1857.08.07={birth=yes}
-			1932.04.09={death=yes}
+			1857.08.07={birth=yes}  # Praha
+			1932.04.09={death=yes}  # Chomutov Bohemia
 		}
-		100003997={ #// 3e) Hedwig (Horin 22 Jul 1859-Aulendorf 23 Oct 1916); m.Vienna 12 Jun 1881 Franz Xaver Gf zu Königsegg-Aulendorf (Vienna 29 Dec 1858-Aulendorf 26 Apr 1927) $$
+		neipperg_0048={ #// B3. Maria HEDWIG Sidonie Bernhardina, *Horin, Bohemia 22.7.1859, +Aulendorf 23.10.1916; m.Wien 12.6.1881 Franz Xaver Gf zu Königsegg-Aulendorf (*Wien 29.12.1858, +Aulendorf 26.4.1927) $$
 			name=Hedwig
 			female=yes
 			dynasty=1002101
 			religion=catholic culture=german
-			father=100185339	# Erwin von Neipperg
+			father=neipperg_0005	# Erwin von Neipperg
 			mother=100185338	# Rosa Popel von Lobkowitz
-			1859.07.22={birth=yes}  # Horin
+			1859.07.22={birth=yes}  # Horin Bohemia
 			1916.10.23={death=yes}  # Aulendorf
 		}
-		100003055={ #// A6. [2m.] Wilhelm Albrecht Gf von Montenuovo, -cr Fürst von Montenuovo 20.8.1864, *Salagrande, Parma 8.8.1819, +Wien 6.4.1895; m.Wien 18.5.1850 Gfn Juliane Batthyány von Némétujvár (*Wien 10.6.1827, +Wien-Hietzing 19.11.1871) $$
-			name="Wilhelm Albrecht"
+	neipperg_0049={ #// A5. [2m.] Albertina di Montenuovo, *Parma (before parents' marriage) 1.5.1817, +Castel di Fontanellato 1867; m.Parma 1833 Luigi Sanvitale Cte di Fontanellato (*Parma 8.11.1799, +Parma 3.1.1876)
+		name=Albertina
+		female=yes
+		dynasty=1002101
+		religion=catholic culture=german
+		father=neipperg_0001	# Adam Adalbert von Neipperg
+		mother=100020026	# Marie Louise von Habsburg-Lothringen
+		1817.05.01={birth=yes}  # Parma
+		1867.01.01={death=yes}
+	}
+	neipperg_0050={ #// A6. [2m.] Wilhelm Albrecht Gf von Montenuovo, -cr Fürst von Montenuovo 20.8.1864, *Salagrande, Parma 8.8.1819, +Wien 6.4.1895; m.Wien 18.5.1850 Gfn Juliane Batthyány von Némétujvár (*Wien 10.6.1827, +Wien-Hietzing 19.11.1871) $$
+		name="Wilhelm Albrecht"
+		dynasty_house=house_montenuovo
+		religion=catholic culture=german
+		father=neipperg_0001	# Adam Adalbert von Neipperg
+		mother=100020026	# Marie Louise von Habsburg-Lothringen
+		1819.08.08={birth=yes}  # Salagrande Parma
+		1850.05.18={add_spouse=100115324}	# Juliane Batthyány de Német-Ujvar
+		1895.04.06={death=yes}  # Wien
+	}
+		neipperg_0051={ #// B1. ALBERTINE Leopoldine Wilhelmine Julie Marie Pss von Montenuovo, *Wien 30.6.1853, +Schloß Chroberz, Poland 13.11.1895; m.Schwaigern 5.8.1873 Zygmunt hr. Wielopolski, XIV.Ordinat na Pinczowie (*Cracow 30.1.1833, +Berlin 27.2.1902) $$
+			name=Albertine
+			female=yes
 			dynasty_house=house_montenuovo
-			religion=catholic culture=german
-			father=100003050	# Adam Adalbert von Neipperg
-			1819.08.08={birth=yes}
-			1850.05.18={add_spouse=100115324}	# Juliane Batthyány de Német-Ujvar
-			1895.04.06={death=yes}
+			religion=catholic culture=bavarian
+			father=neipperg_0050	# Wilhelm Albrecht di Montenuovo
+			mother=100115324	# Juliane Batthyány de Német-Ujvar
+			1853.06.30={birth=yes}  # Wien
+			1895.11.13={death=yes}  # Schloß Chroberz Poland
 		}
-			100004354={ #// B1. ALBERTINE Leopoldine Wilhelmine Julie Marie Pss von Montenuovo, *Wien 30.6.1853, +Schloß Chroberz, Poland 13.11.1895; m.Schwaigern 5.8.1873 Zygmunt hr. Wielopolski, XIV.Ordinat na Pinczowie (*Cracow 30.1.1833, +Berlin 27.2.1902) $$
-				name=Albertine
+		neipperg_0052={ #// B2. Alfred, 2.Fürst von Montenuovo, *Wien 16.9.1854, +Wien 6.9.1927; m.Wien 30.10.1879 Gfn Franziska Kinsky von Wchinitz und Tettau (*Wien 26.12.1861, +Margarethen am Moos 11.7.1935) $$
+			name=Alfred
+			dynasty_house=house_montenuovo
+			religion=catholic culture=bavarian
+			father=neipperg_0050	# Wilhelm Albrecht di Montenuovo
+			mother=100115324	# Juliane Batthyány de Német-Ujvar
+			1854.09.16={birth=yes}  # Wien
+			1879.10.30={add_spouse=100185942}	# Franziska Maria Kinsky von Wchinitz u.Tettau
+			1927.09.06={death=yes}  # Wien
+		}
+			neipperg_0053={ #// C1. JULIANA Rosa Franziska Leopoldine Maria Pss von Montenuovo, *Margarethen am Moos 15.11.1880, +Schloss Berg 27.6.1961; 1m: Wien 20.5.1903 Gf Dénes Draskovich de Trakostyán (*Szentkirály 28.6.1875, +Wien 8.3.1909); 2m: Bruck an der Leitha 3.2.1914 Fst Karl zu Oettingen-Oettingen und Oettingen-Wallerstein (*Königssaal 27.4.1877, +München 24.5.1930) $$
+				name=Juliana
 				female=yes
 				dynasty_house=house_montenuovo
 				religion=catholic culture=german
-				father=100003055	# Wilhelm Albrecht di Montenuovo
-				mother=100115324	# Juliane Batthyány de Német-Ujvar
-				1853.01.01={birth=yes}
-				1895.01.01={death=yes}
+				father=neipperg_0052	# Alfred di Montenuovo
+				mother=100185942	# Franziska Maria Kinsky von Wchinitz u.Tettau
+				1880.11.15={birth=yes}
+				1961.06.27={death=yes}
 			}
-			100003053={ #// B2. Alfred, 2.Fürst von Montenuovo, *Wien 16.9.1854, +Wien 6.9.1927; m.Wien 30.10.1879 Gfn Franziska Kinsky von Wchinitz und Tettau (*Wien 26.12.1861, +Margarethen am Moos 11.7.1935) $$
-				name=Alfred
+			neipperg_0054={ #// C2. Marie Pss von Montenuovo, *Margarethen am Moos 20.10.1881, +Tegernsee 10.8.1954; m.Wien 5.8.1909 Franz Gf von Ledebur-Wicheln (*Petersburg, Bohemia 6.9.1877, +Wallerstein 24.5.1954)
+				name=Marie
+				female=yes
 				dynasty_house=house_montenuovo
 				religion=catholic culture=german
-				father=100003055	# Wilhelm Albrecht di Montenuovo
-				mother=100115324	# Juliane Batthyány de Német-Ujvar
-				1854.09.16={birth=yes}
-				1879.10.30={add_spouse=100185942}	# Franziska Maria Kinsky von Wchinitz u.Tettau
-				1927.09.06={death=yes}
+				father=neipperg_0052	# Alfred di Montenuovo
+				mother=100185942	# Franziska Maria Kinsky von Wchinitz u.Tettau
+				1881.10.20={birth=yes}
+				1954.08.10={death=yes}  # Tegernsee
 			}
-				100003051={ #// C1. JULIANA Rosa Franziska Leopoldine Maria Pss von Montenuovo, *Margarethen am Moos 15.11.1880, +Schloss Berg 27.6.1961; 1m: Wien 20.5.1903 Gf Dénes Draskovich de Trakostyán (*Szentkirály 28.6.1875, +Wien 8.3.1909); 2m: Bruck an der Leitha 3.2.1914 Fst Karl zu Oettingen-Oettingen und Oettingen-Wallerstein (*Königssaal 27.4.1877, +München (Munich) 24.5.1930) $$
+			neipperg_0055={ #// C3. FERDINAND Bonaventura Franz Alfred Wilhelm Erwin Maximilian 3.Fürst von Montenuovo, *Margarethen am Moos 29.5.1888, +Szob, Hungary 2.5.1951; m.Budapest 10.11.1927 Ilona Bss Solymossy de Loós et Egervár (*Nagyteremi 18.4.1895, +Wien 13.7.1988) $$
+				name=Ferdinand
+				dynasty_house=house_montenuovo
+				religion=catholic culture=german
+				father=neipperg_0052	# Alfred di Montenuovo
+				mother=100185942	# Franziska Maria Kinsky von Wchinitz u.Tettau
+				1888.05.29={birth=yes}	# Margarethen am Moos
+				1927.11.10={add_spouse=solymosy_0003}	# Ilona Solymosy de Loós et Egervár
+				1951.05.02={death=yes}	# Szob, Hungary
+			}
+				neipperg_0056={ #// D1. JULIA Franziska Ilona Maria Pss von Montenuovo, *Budapest 27.9.1930, +18.2.2003; m.Budapest 11.5.1950 Gyula Mathe (*Törökkanizsa 15.4.1904, +Wien 8.7.1976)
 					name=Julia
 					female=yes
 					dynasty_house=house_montenuovo
-					religion=catholic culture=german
-					father=100003053	# Alfred di Montenuovo
-					mother=100185942	# Franziska Maria Kinsky von Wchinitz u.Tettau
-					1880.11.15={birth=yes}
-					1961.06.27={death=yes}
+					religion=catholic culture=hungarian
+					father=neipperg_0055	# Ferdinand di Montenuovo
+					mother=solymosy_0003	# Ilona Solymosy de Loós et Egervár
+					1930.09.27={birth=yes}  # Budapest
+					2003.02.18={death=yes}
 				}
-				100503051={ #// C3. FERDINAND Bonaventura Franz Alfred Wilhelm Erwin Maximilian 3.Fürst von Montenuovo, *Margarethen am Moos 29.5.1888, +Szob, Hungary 2.5.1951; m.Budapest 10.11.1927 Ilona Bss Solymossy de Loós et Egervár (*Nagyteremi 18.4.1895, +Wien 13.7.1988) $$
-					name="Ferdinand"
+				neipperg_0057={ #// D2. MARIE-JULIE Johanna Gabrielle Pss von Montenuovo, *Budapest 29.9.1931, +Wien 2.12.1987; m.Budapest 24.12.1955 Robert Reithauser (*Budapest 1.12.1919, +Eisenstadt 7.12.1989)
+					name="Marie-Julie"
+					female=yes
 					dynasty_house=house_montenuovo
-					religion=catholic culture=czech
-					father=100003053	# Alfred di Montenuovo
-					mother=100185942	# Franziska Maria Kinsky von Wchinitz u.Tettau
-					1888.05.29={birth=yes}  # Margarethen am Moos
-					1927.11.10={add_spouse=solymosy_0003}	# Ilona Solymosy de Loós et Egervár
-					1951.05.02={death=yes}  # Szob
+					religion=catholic culture=hungarian
+					father=neipperg_0055	# Ferdinand di Montenuovo
+					mother=solymosy_0003	# Ilona Solymosy de Loós et Egervár
+					1931.09.29={birth=yes}  # Budapest
+					1987.12.02={death=yes}  # Wien
 				}
-				100003052={ #// C4. FRANZISKA de Paula Maria Ludowika Juliane Wilhelmine Margarete Pss von Montenuovo, *Margarethen am Moos 22.8.1893, +Wels 3.11.1972; m.Wien 11.4.1918 Pr Leopold von Lobkowicz (*Unterberkovic 7.7.1888, +Praha 15.5.1933) $$
+				neipperg_0058={ #// D3. FRANZISKA Marie Johanna Gabrielle Pss von Montenuovo, *Budapest 24.5.1934, +Wien 25.4.1984; m.Budapest 19.3.1955 Egon Nezsényi (*Mezöhegyes 6.7.1914, +1996)
 					name=Franziska
 					female=yes
 					dynasty_house=house_montenuovo
-					religion=catholic culture=czech
-					father=100003053	# Alfred di Montenuovo
-					mother=100185942	# Franziska Maria Kinsky von Wchinitz u.Tettau
-					1893.08.22={birth=yes}
-					1972.11.03={death=yes}
+					religion=catholic culture=hungarian
+					father=neipperg_0055	# Ferdinand di Montenuovo
+					mother=solymosy_0003	# Ilona Solymosy de Loós et Egervár
+					1934.05.24={birth=yes}  # Budapest
+					1984.04.25={death=yes}  # Wien
 				}
-			100003054={ #// B3. MARIA Sophia Wilhelmine Hyacinthe Pss von Montenuovo, *Wien 10.9.1859, +Wien 2.3.1911; m.Wien 23.5.1878 Gf Anton Apponyi de Nagyappony (*Wien 29.12.1852, +Bad Ischl 4.2.1920) $$
-				name=Sophie
+					neipperg_0059={ #// E1. Franziska Nezsenyi, *Wien 23.9.1957; m.1.10.1979 Louis Frhr Kübeck von Kübau (*24.7.1954)
+						name=Franziska
+						female=yes
+						dynasty_house=house_montenuovo
+						religion=catholic culture=bavarian
+						father=lowborn_7079	# Egon Nezsényi
+						mother=neipperg_0058	# Franziska di Montenuovo
+						1957.09.23={birth=yes}  # Wien
+					}
+					neipperg_0060={ #// E2. Marie Julie Nezsenyi, *Wien 20.6.1959; m.Margarethen am Moos 1.6.1985 Gf Heinrich von Mensdorff-Pouilly (*Makassar, Indonesia 6.2.1958) $$
+						name="Marie Julie"
+						female=yes
+						dynasty_house=house_montenuovo
+						religion=catholic culture=bavarian
+						father=lowborn_7079	# Egon Nezsényi
+						mother=neipperg_0058	# Franziska di Montenuovo
+						1959.06.20={birth=yes}  # Wien
+					}
+			neipperg_0061={ #// C4. FRANZISKA de Paula Maria Ludowika Juliane Wilhelmine Margarete Pss von Montenuovo, *Margarethen am Moos 22.8.1893, +Wels 3.11.1972; m.Wien 11.4.1918 Pr Leopold von Lobkowicz (*Unterberkovic 7.7.1888, +Praha 15.5.1933) $$
+				name=Franziska
 				female=yes
 				dynasty_house=house_montenuovo
 				religion=catholic culture=german
-				father=100003055	# Wilhelm Albrecht di Montenuovo
-				mother=100115324	# Juliane Batthyány de Német-Ujvar
-				1859.09.10={birth=yes}  # Wien
-				1911.03.02={death=yes}  # Wien
+				father=neipperg_0052	# Alfred di Montenuovo
+				mother=100185942	# Franziska Maria Kinsky von Wchinitz u.Tettau
+				1893.08.22={birth=yes}
+				1972.11.03={death=yes}  # Wels
 			}
+		neipperg_0062={ #// B3. MARIA Sophia Wilhelmine Hyacinthe Pss von Montenuovo, *Wien 10.9.1859, +Wien 2.3.1911; m.Wien 23.5.1878 Gf Anton Apponyi de Nagyappony (*Wien 29.12.1852, +Bad Ischl 4.2.1920) $$
+			name=Maria
+			female=yes
+			dynasty_house=house_montenuovo
+			religion=catholic culture=bavarian
+			father=neipperg_0050	# Wilhelm Albrecht di Montenuovo
+			mother=100115324	# Juliane Batthyány de Német-Ujvar
+			1859.09.10={birth=yes}  # Wien
+			1911.03.02={death=yes}  # Wien
+		}
 #neipperg2
 ##  			Montenuovo					1002048
 

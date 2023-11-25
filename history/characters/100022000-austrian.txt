@@ -4538,7 +4538,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 						father=100022111	# Ferdinand Bonaventura von Harrach zu Rohrau u.Thannhausen
 						mother=100024770	# Johanna Theresia von Lamberg
 						1669.03.06={birth=yes}
-						1694.01.01={add_spouse=sternberg_0023}	# Maria Barbara ze Šternberka
+						1692.01.01={add_spouse=sternberg_0023}	# Maria Barbara ze Šternberka
 						1695.01.01={add_spouse=100102322}	# GFN Anna Cäcilia von Thannhausen
 						1721.06.08={add_spouse=100024642}	# Maria Ernestine von Dietrichstein
 						1742.11.08={death=yes}
@@ -7257,7 +7257,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 		1489.01.01={birth=yes}
 		1514.01.01={add_spouse=100094190}	# Elisabeth von Erlach
 		1535.01.01={add_spouse=100094191}	# Margaretha von Khuen
-		1537.01.01={add_spouse=100094196}	# Anna von Cvetkovich
+		1538.01.01={add_spouse=100094196}	# Anna von Cvetkovich
 		1554.10.20={death=yes}
 	}
 		100024718={ #// B2. [1m.] Helena, +Trento 1539; m.Innsbruck 1530 Barone Niccolo di Madruzzo di Quattri Vicariati (*1507, +23.12.1572)
@@ -7296,8 +7296,8 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 			dynasty=1004523
 			religion=catholic culture=bavarian
 			father=100024710	# Joseph von Lamberg
-			mother=100094196	# Anna von Cvetkovich
-			1535.12.01={birth=yes}  # EST.
+			mother=100094191	# Margaretha von Khuen
+			1535.10.01={birth=yes}  # EST.
 			1618.01.01={death=yes}  # EST.
 		}
 		100024722={ #// B5. [3m.] Katharina, heiress of Jedenspeigen, *1541, +25.10.1597; m.Konrad, Marschall von Pappenheim, Landgraf von Stühlingen (*10.4.1534 +30.7.1603)
@@ -7317,7 +7317,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 		father=100024686	# Georg von Lamberg
 		mother=100094077	# Maria Magdalena von Thurn u.Valsassina zu Kreuz
 		1492.01.01={birth=yes}
-		1539.01.01={add_spouse=100094363}	# Margarete Lang von Wellenburg
+		1535.01.01={add_spouse=100094363}	# Margarete Lang von Wellenburg
 		1548.04.27={death=yes}
 	}
 		100024737={ #// B11. [2m.] Sigismund von Lamberg-Ortenegg-Ottenstein, *28.4.1536, +Kitzbühel 18.11.1619; 1m: 11.12.1558 Siguna Eleonore Fugger, Frn von Kirchberg und Weissenhorn (*12.7.1541, +24.2.1576); 2m: Enns 28.4.1579 Anna Maria von Meggau, dau.of Ferdinand Helfrich, Frhr von Meggau and Ursula Gienger $$
@@ -8279,6 +8279,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							name=Gustav
 							dynasty=1004523
 							religion=catholic culture=german
+							trait=bastard
 							father=lamberg_0011	# Gustav Joachim von Lamberg
 							mother=lowborn_2693	# Kateřina Hrádková
 							1841.09.13={birth=yes}
@@ -8288,6 +8289,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							name=Friedrich
 							dynasty=1004523
 							religion=catholic culture=german
+							trait=bastard
 							father=lamberg_0011	# Gustav Joachim von Lamberg
 							mother=lowborn_2693	# Kateřina Hrádková
 							1843.09.25={birth=yes}  # Žihobce
@@ -8297,6 +8299,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							name=Karl
 							dynasty=1004523
 							religion=catholic culture=german
+							trait=bastard
 							father=lamberg_0011	# Gustav Joachim von Lamberg
 							mother=lowborn_2693	# Kateřina Hrádková
 							1845.02.24={birth=yes}  # Žihobce
@@ -8307,6 +8310,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							female=yes
 							dynasty=1004523
 							religion=catholic culture=german
+							trait=bastard
 							father=lamberg_0011	# Gustav Joachim von Lamberg
 							mother=lowborn_2693	# Kateřina Hrádková
 							1846.07.14={birth=yes}  # Žihobce
@@ -8316,6 +8320,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							name=Eduard
 							dynasty=1004523
 							religion=catholic culture=german
+							trait=bastard
 							father=lamberg_0011	# Gustav Joachim von Lamberg
 							mother=lowborn_2693	# Kateřina Hrádková
 							1850.09.22={birth=yes}  # Žihobce
@@ -8421,6 +8426,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 							name=Hugo
 							dynasty=1004523
 							religion=catholic culture=german
+							trait=bastard
 							father=lamberg_0011	# Gustav Joachim von Lamberg
 							mother=lowborn_2693	# Kateřina Hrádková
 							1853.02.27={birth=yes}  # Žichovice
@@ -8543,19 +8549,11 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 								1887.09.21={birth=yes}
 								1927.09.04={death=yes}
 							}
-						lamberg_0044={ #// F9. Robert Gustav, *25.10.1854, +5.2.1855, bur Nezamyslice
-							name="Robert Gustav"
-							dynasty=1004523
-							religion=catholic culture=german
-							father=lamberg_0011	# Gustav Joachim von Lamberg
-							mother=lowborn_2693	# Kateřina Hrádková
-							1854.10.25={birth=yes}
-							1855.02.05={death=yes}
-						}
 						lamberg_0045={ #// F10. Joseph Friedrich Emil, *Steyr 26.5.1856, +Steyr 3.4.1904; m.Dorf an der Enns 12.7.1880 Anna von Werndl (*Steyr 23.12.1861, +Dorf an der Enns 2.11.1943)
 							name=Joseph
 							dynasty=1004523
 							religion=catholic culture=german
+							trait=bastard
 							father=lamberg_0011	# Gustav Joachim von Lamberg
 							mother=lowborn_2693	# Kateřina Hrádková
 							1856.05.26={birth=yes}  # Steyr
@@ -13981,7 +13979,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 										religion=catholic culture=bavarian
 										father=100098292	# László Bene
 										mother=100024196	# Katharina von Abensberg u.Traun
-										1987.01.01={birth=yes}
+										1987.12.01={birth=yes}
 									}
 								100024195={ #// H2. NADEJDA Theresia Feodora Maria, *Köln-Lindenthal 29.6.1961; m.Maissau, NÖ (civ) 2.9.1988 (rel) 4.9.1988 Fst Georg Adam von Starhemberg (*Klagenfurt 7.4.1961) $$
 									name=Nadejda
@@ -22046,6 +22044,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 											name="Lorenz Maria"
 											dynasty=1004009
 											religion=catholic culture=bavarian
+											trait=legitimized_bastard
 											father=100024859	# Albrecht Maria von Clary u.Aldringen
 											mother=100086876	# Renata Knaus Rubio
 											1989.07.03={birth=yes}
@@ -22505,7 +22504,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 					dynasty=1004006
 					religion=catholic culture=bavarian
 					father=100024420	# Wolfgang Andreas von Orsini u.Rosenberg
-					mother=100092706	# PR Faustina Barbara Montecuccoli
+					mother=100072631	# Maria Beatrix von Thurn-Valsássina und Hoffer
 					1686.02.27={birth=yes}
 					1708.05.27={death=yes}
 				}
@@ -32901,7 +32900,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 							father=100022887	# Johann Moritz von Liechtenstein
 							mother=100006625	# Clotilde Alberta von Thurn und Taxis
 							1949.04.01={birth=yes}
-							1989.07.22={add_spouse=100066617}	# Marie Isabelle d'Orleans
+							1989.07.22={add_spouse=100066617}	# Marie Isabelle d’Orléans
 						}
 							100022893={ #// 1h) Leopoldine Eleonore Therese Marie (b.Vienna 27 Jun 1990)
 								name=Leopoldine
@@ -32909,7 +32908,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d'Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1990.06.27={birth=yes}
 							}
 							100022894={ #// 2h) Marie Immaculee Elisabeth Rose Adelgunde (b.Vienna 15 Dec 1991)
@@ -32918,7 +32917,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d'Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1991.12.15={birth=yes}
 							}
 							100022895={ #// 3h) Johann Wenzel Karl Emmeran Bonifatius Maria (b.Vienna 16 Mar 1993)
@@ -32926,7 +32925,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d'Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1993.03.16={birth=yes}
 							}
 							100022896={ #// 4h) Margarete Franziska Daria Wilhelmine Marie (b.Vienna 10 Jan 1995)
@@ -32935,7 +32934,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d'Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1995.01.10={birth=yes}
 							}
 							100022897={ #// 5h) Gabriel Karl Bonaventura Alfred Valerian Maria (b.Vienna 6 May 1998)
@@ -32943,7 +32942,7 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 								dynasty=1004002
 								religion=catholic culture=bavarian
 								father=100022891	# Gundakar von Liechtenstein
-								mother=100066617	# Marie Isabelle d'Orleans
+								mother=100066617	# Marie Isabelle d’Orléans
 								1998.05.06={birth=yes}
 							}
 						100022898={ #// 3g) Alfred Heinrich Michael Benedikt Maria (b.Vienna 17 Sep 1951); m.Vaduz 22 Mar 2002 (rel) Schloß Waldstein 6 Apr 2002 Raffaella Ida Sangiorgi (b.Tlemcen, Algeria 12 Dec 1966)
@@ -39094,7 +39093,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 							father=herberstein_0112	# Georg Rupprecht von Herberstein
 							mother=lowborn_5367	# Maria Magdalena von Lamberg
 							1582.01.22={birth=yes}
-							1608.01.01={add_spouse=lowborn_5405}	# Maria Elisabeth von Greissen
+							1607.01.01={add_spouse=lowborn_5405}	# Maria Elisabeth von Greissen
 							1626.01.01={add_spouse=100026152}	# Regina von Dietrichstein
 							1637.01.01={death=yes}
 						}
@@ -39104,8 +39103,8 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 								dynasty=herberstein
 								religion=catholic culture=german
 								father=herberstein_0170	# Ferdinand von Herberstein
-								mother=100026152	# Regina von Dietrichstein
-								1608.01.01={birth=yes}  # EST.
+								mother=lowborn_5405	# Maria Elisabeth von Greissen
+								1609.01.01={birth=yes}  # EST.
 								1668.01.01={death=yes}  # EST.
 							}
 							herberstein_0286={ #// I4. Ferdinand Ehrenreich VON HERBERSTEIN, +1691; m.Maria Cäcilia von Hoyos
@@ -39114,7 +39113,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 								religion=catholic culture=german
 								father=herberstein_0170	# Ferdinand von Herberstein
 								mother=100026152	# Regina von Dietrichstein
-								1622.01.01={birth=yes}  # EST.
+								1627.01.01={birth=yes}  # EST.
 								1647.01.01={add_spouse=lowborn_5473}	# Maria Cäcilia von Hoyos
 								1691.01.01={death=yes}
 							}
@@ -39133,7 +39132,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 								dynasty=herberstein
 								religion=catholic culture=german
 								father=herberstein_0170	# Ferdinand von Herberstein
-								mother=100026152	# Regina von Dietrichstein
+								mother=lowborn_5405	# Maria Elisabeth von Greissen
 								1608.01.01={birth=yes}  # EST.
 								1633.01.01={add_spouse=lowborn_5470}	# Franziska Elisabeth von Prösing
 								1638.01.01={add_spouse=lowborn_5471}	# Ludmilla Katharine von Garben
@@ -39423,7 +39422,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 					father=herberstein_0046	# Georg III von Herberstein
 					mother=lowborn_5322	# Margarethe von Rottal
 					1514.04.03={birth=yes}
-					1558.01.01={add_spouse=lowborn_5345}	# Helena von Pötschach
+					1539.01.01={add_spouse=lowborn_5345}	# Helena von Pötschach
 					1543.01.18={death=yes}
 				}
 					herberstein_0122={ #// G1. Felician I VON HERBERSTEIN, +1605; m.1st Barbara von Hofkirchen; m.2nd Maria Magdalena von Königsberg
@@ -39432,7 +39431,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 						religion=catholic culture=german
 						father=herberstein_0073	# Georg Andreas von Herberstein
 						mother=lowborn_5345	# Helena von Pötschach
-						1544.01.01={birth=yes}  # EST.
+						1540.01.01={birth=yes}  # EST.
 						1570.01.01={add_spouse=lowborn_5372}	# Barbara von Hofkirchen
 						1605.01.01={death=yes}
 					}
@@ -39446,16 +39445,6 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 							1578.01.01={birth=yes}
 							1616.01.01={death=yes}
 						}
-					herberstein_0123={ #// G3. Helena VON HERBERSTEIN, *1570, +1627; m.Dietmar von Losenstein
-						name=Helena
-						female=yes
-						dynasty=herberstein
-						religion=catholic culture=german
-						father=herberstein_0073	# Georg Andreas von Herberstein
-						mother=lowborn_5345	# Helena von Pötschach
-						1570.08.30={birth=yes}
-						1627.01.01={death=yes}
-					}
 				herberstein_0074={ #// F8. Georg Siegmund VON HERBERSTEIN, *1518, +1578; m.1st Margarethe von Pöttschach; m.2nd 28.8.1569 Katharina von Windisch-Grätz
 					name="Georg Siegmund"
 					dynasty=herberstein
@@ -40051,7 +40040,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 								mother=lowborn_5447	# Benigna Regina von Saurau
 								1617.01.01={birth=yes}  # EST.
 								1640.02.14={add_spouse=lowborn_5511}	# Barbara Rosina von Saurau
-								1634.01.01={death=yes}
+								1644.01.01={death=yes}
 							}
 								herberstein_0407={ #// J1. Maria Benigna VON HERBERSTEIN, *1639, +1716; m.1st Graz 19.11.1656 Felix von Schrattenbach (*1620); m.2nd Johann Siegmund von Stubenberg (*Graz 13.4.1644, +Graz 1.4.1716) $$
 									name="Maria Benigna"

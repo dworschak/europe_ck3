@@ -1375,7 +1375,7 @@ lowborn_2469={ #            Julio                     Ferrari                   
 	1967.09.04={death=yes}
 }
 
-lowborn_2671={ #            Franceschina              Borromeo                                 (1480-1501)     1 [SFORZA]
+lowborn_2671={ #            Franceschina              Borromeo                                 (1480-1501)     0 [SFORZA]
 	name="Franceschina Borromeo"
 	female=yes
 	religion=catholic culture=italian
@@ -3893,7 +3893,7 @@ lowborn_2396={ #            Maria Anna                Melzi di Torricella       
 	#dynasty=0
 	religion=orthodox culture=russian
 	1855.01.01={birth=yes}  # EST.
-	1880.01.01={add_spouse=100020668}	# Aurora Дмитриевна Бутурлин
+	1880.01.01={add_spouse=100020668}	# Аврора Дмитриевна Бутурлин
 	1930.01.01={death=yes}  # EST.
 }
 100088133={ #               Mario                     Misciatelli                              (1857-1925)     1 [ROSPIGLIOSI]
@@ -4688,12 +4688,12 @@ lowborn_3634={ #            Saldino                   dal Borgo                 
 	1848.03.17={birth=yes}
 	1925.05.23={death=yes}
 }
-lowborn_2365={ # Nobile     Marianna                  Caccia-Dominioni                         (1828-1849)     4 [MELZI]
+lowborn_2365={ # Nobile     Marianna                  Caccia-Dominioni                         (1829-1853)     4 [MELZI]
 	name="Marianna Caccia-Dominioni"
 	female=yes
 	religion=catholic culture=italian
-	1828.01.01={birth=yes}  # EST.
-	1849.01.01={death=yes}  # EST.
+	1829.12.12={birth=yes}  # Milano
+	1853.06.16={death=yes}  # Milano
 }
 100081143={ #               Luisa Caccia              Dominioni                                (1942-    )     1 [ROSPIGLIOSI]
 	name="Luisa Caccia Dominioni"
@@ -8311,7 +8311,7 @@ lowborn_0991={ # Cte        Nicola Giovanni           di Noghera                
 	name="Nicola Giovanni di Noghera"
 	religion=orthodox culture=italian
 	1875.06.15={birth=yes}  # Eboli
-	1897.11.04={add_spouse=demidov_0075}	# Aurore Павловна Демидов
+	1897.11.04={add_spouse=demidov_0075}	# Аврора Павловна Демидов
 	1944.04.01={death=yes}  # Treviso
 }
 100097801={ #    Cte        Ludovico                  di Panciero                              (1764-1839)     - [WURMBRAND]
@@ -9576,12 +9576,19 @@ lowborn_2422={ #            Pietro Paolo              Corbella                  
 	1856.01.01={add_spouse=100016171}	# Leonilla Михайловна Голицын
 	1876.04.08={death=yes}
 }
-lowborn_2137={ #            Anna                      Corradi                                  (1764-1812)  2  3 [DORIA, GONZAGA]
+lowborn_2137={ #            Anna                      Corradi                                  (1764-1812)     1 [GONZAGA]
 	name="Anna Corradi"
 	female=yes
 	religion=catholic culture=italian
 	1764.01.01={birth=yes}
 	1812.01.01={death=yes}
+}
+lowborn_9137={ # Dss        Maria Giovanna            Doria                                    (1743-1832)     2 [DORIA]
+	name="Anna Corradi"
+	female=yes
+	religion=catholic culture=italian
+	1743.01.01={birth=yes}
+	1832.01.01={death=yes}
 }
 lowborn_2540={ #            Rosanna Caterina          Corrado                                  (1943-    )     2 [CARACIOLO]
 	name="Rosanna Caterina Corrado"
@@ -9950,7 +9957,7 @@ lowborn_2521={ #            Andrei                    Gomez Paloma dell'Olivera 
 	1968.09.07={add_spouse=caracciolo_0180}	# Fiammetta Caracciolo
 	2000.01.01={death=yes}  # EST.
 }
-100084393={ #               Angelo                    Granito                                  (1812-1861)     - [PIGNATELI]
+100084393={ #               Angelo                    Granito                                  (1812-1861)     8 [PIGNATELI]
 	name="Angelo Granito"
 	#dynasty=0
 	religion=catholic culture=italian
@@ -10407,12 +10414,12 @@ lowborn_2570={ #            Anna                      Materi Franchini          
 	1921.01.01={birth=yes}  # EST.
 	1996.01.01={death=yes}  # EST.
 }
-lowborn_2463={ #            Nobile Maddalena          Mazza                                    (1839-1914)     5 [CARACIOLO]
+lowborn_2463={ # Nobile     Maddalena                 Mazza                                    (1790-1839)     5 [CARACIOLO]
 	name="Nobile Maddalena Mazza"
 	female=yes
 	religion=catholic culture=italian
-	1839.05.06={birth=yes}  # Salerno 1   -Naples
-	1914.01.01={death=yes}  # EST.
+	1790.01.01={birth=yes}  # EST.
+	1839.05.06={death=yes}  # Naples
 }
 100092027={ #               Laura                     Mazzuoli                                 (1953-    )     1 [BONCOMPAGNI]
 	name="Laura Mazzuoli"
@@ -12770,4 +12777,20 @@ lowborn_3984={ # Gfn        Maria Anna                Mamucca della Torre       
 	religion=catholic culture=hungarian
 	1684.01.01={birth=yes}  # EST.
 	1749.01.01={death=yes}
+}
+lowborn_6733={ # Gfn        Josefina                  Grisoni                                  (1815-1837)     0 [NEIPERG]
+	name="Josefina Grisoni"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1815.01.01={birth=yes}  # EST.
+	1837.11.17={death=yes}
+}
+lowborn_7069={ # Cte        Luigi                     Sanvitale di Fontanellato                (1799-1876)     - [NEIPERG]
+	name="Luigi Sanvitale di Fontanellato"
+	#dynasty=0
+	religion=catholic culture=german
+	1799.11.08={birth=yes}  # Parma
+	1833.01.01={add_spouse=neipperg_0049}	# Albertina von Neipperg
+	1876.01.03={death=yes}  # Parma
 }
