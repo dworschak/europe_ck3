@@ -90,14 +90,13 @@ meyendorff_0001={ #// Feofil Meyendorff (*10.4.1858, +Moscow 18.10.1939); m.10.4
 		1893.07.04={birth=yes}
 		1982.10.06={death=yes}  # Nyack, NY, USA
 	}
-## MEYENDORFF
 
 ## MILOSLAVSKIJ 1010081
 miloslavsky_0001={ #// Ilja Miloslavskij (+27 Dec 1645); m.Ekaterina Fedorovna Narbekova
 	name=Илья
 	dynasty=1010081
 	religion=orthodox culture=russian
-	1617.01.01={birth=yes}	# EST.
+	1580.01.01={birth=yes}	# EST.
 	1645.12.27={death=yes}
 }
 	# Anna Ilyinichna Miloslavskaya (? - 1667), seit 1648 Ehefrau des Bojaren Boris Ivanovich Morozov (1590-1662)
@@ -128,7 +127,6 @@ miloslavsky_0001={ #// Ilja Miloslavskij (+27 Dec 1645); m.Ekaterina Fedorovna N
 		1625.01.01={birth=yes}	# EST.
 		1699.03.03={death=yes}
 	}
-## MILOSLAVSKIJ 1010081
 
 ## SHAFIROV 1010022
 100035067={ #// Petr Šafirov (*1669, +St. Petersburg 1.3.1739) %%
@@ -165,7 +163,50 @@ miloslavsky_0001={ #// Ilja Miloslavskij (+27 Dec 1645); m.Ekaterina Fedorovna N
 		1697.01.01={birth=yes}
 		1760.01.01={death=yes}
 	}
-## SHAFIROV 1010022
+
+## ZAKREVSKY
+zakrevsky_0001={ #// Osip Lukjanovič Zakrevskij (+ after 1769); m.1739 Anna Grigor'evna Razumovskij $$
+	name="Осип"
+	dynasty=zakrevsky
+	religion=orthodox culture=russian
+	1714.01.01={birth=yes}  # EST.
+	1739.01.01={add_spouse=razumovsky_0066}	# Анна Григорьевна Разумовский
+	1784.12.01={death=yes}  # EST.
+}
+	zakrevsky_0002={ #// A2. Andrej Osipovič (*1742, +1804); m.25.4.1764 Marija Ivanovna Odoevskij (+5.2.1784) %%
+		name="Андрей"
+		dynasty=zakrevsky
+		religion=orthodox culture=russian
+		father=zakrevsky_0001	# Осип Закревский
+		mother=razumovsky_0066	# Анна Григорьевна Разумовский
+		1742.01.01={birth=yes}
+		1764.04.25={add_spouse=odoevsky_0049}	# Мария Ивановна Одоевский
+		1804.01.01={death=yes}
+	}
+	zakrevsky_0003={ #// A1. Marina Osipovna (*20.7.1741, +28.7.1800); m.1758 Lev Aleksandrovič Naryškin (*26.2.1733, +9.11.1799) %%
+		name="Марина"
+		female=yes
+		dynasty=zakrevsky
+		religion=orthodox culture=russian
+		father=zakrevsky_0001	# Осип Закревский
+		mother=razumovsky_0066	# Анна Григорьевна Разумовский
+		1741.07.20={birth=yes}
+		1800.07.28={death=yes}
+	}
+	zakrevsky_0004={ #// A3. Sof'ja Osipovna (*1743); m.11.11.1764 Nikolaj Fëdorovič Apraksin (+1811) %%
+		name="Софья"
+		female=yes
+		dynasty=zakrevsky
+		religion=orthodox culture=russian
+		father=zakrevsky_0001	# Осип Закревский
+		mother=razumovsky_0066	# Анна Григорьевна Разумовский
+		1743.01.01={birth=yes}
+		1819.01.01={death=yes}	# EST.
+	}
+	# Gregory (1744—?)
+	# Efrosinya (d. 09/19/1799), married to Yakov Skoropadsky, son of the general treasurer M.V. Skoropadsky .
+	# Kirill
+	# Alexey (1751—?)
 #### MINOR ####
 
 
@@ -1379,7 +1420,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						father=tatishchev_0005	# Игнатий Петрович Татищев
 						mother=lowborn_1198	# Аграфена Никифоровна Vysheslavtsev
 						1566.01.01={birth=yes}  # EST.
-						1591.01.01={add_spouse=lowborn_1228}	# Анна Гавриловна N
 						1628.01.01={death=yes}
 					}
 						tatishchev_0007={ #// 1f) Mikhail (1620-17 Apr 1701); m.1st Feodosia Ossipovna N (d.15 Mar 1655); m.2nd Jewdokia Maksimovna N
@@ -1387,10 +1427,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010044
 							religion=orthodox culture=russian
 							father=tatishchev_0006	# Юрий Игнатьевич Татищев
-							mother=lowborn_1228	# Анна Гавриловна N
 							1620.01.01={birth=yes}
-							1646.01.01={add_spouse=lowborn_1253}	# Феодосия Осиповна N
-							1656.03.15={add_spouse=lowborn_1254}	# Евдокия Максимовна N
 							1701.04.17={death=yes}
 						}
 							tatishchev_0008={ #// 1g) Ivan; m.Anna Filipovna N
@@ -1398,9 +1435,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0007	# Михаил Юрьевич Татищев
-								mother=lowborn_1253	# Феодосия Осиповна N
 								1653.01.01={birth=yes}  # EST.
-								1678.01.01={add_spouse=lowborn_1255}	# Анна Филипповна N
 								1713.12.01={death=yes}  # EST.
 							}
 							tatishchev_0009={ #// 2g) Danila, d.after 1723; m.Ulijana Andreievna Leontiev (d.after 1737)
@@ -1408,7 +1443,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0007	# Михаил Юрьевич Татищев
-								mother=lowborn_1253	# Феодосия Осиповна N
 								1654.01.01={birth=yes}  # EST.
 								1686.01.01={add_spouse=lowborn_1256}	# Ульяна Андреевна Леонтьев
 								1724.01.01={death=yes}
@@ -1673,7 +1707,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0007	# Михаил Юрьевич Татищев
-								mother=lowborn_1253	# Феодосия Осиповна N
 								1665.01.01={birth=yes}
 								1685.04.05={add_spouse=lowborn_1274}	# Мария Богдановна Protopopov
 								1696.01.01={add_spouse=lowborn_1275}	# Василиса Lubimovna Domnin
@@ -1684,9 +1717,8 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									dynasty=1010044
 									religion=orthodox culture=russian
 									father=tatishchev_0035	# Иван Михайлович Татищев
-									mother=lowborn_1274	# Мария Богдановна Protopopov
+									mother=lowborn_1275	# Василиса Lubimovna Domnin
 									1704.01.01={birth=yes}
-									1730.01.01={add_spouse=lowborn_1276}	# Анна Григорьевна N
 									1774.12.01={death=yes}  # EST.
 								}
 								tatishchev_0037={ #// 2h) Jekaterina; m.Dmitri Grigorievich Tscherntzov
@@ -1695,7 +1727,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									dynasty=1010044
 									religion=orthodox culture=russian
 									father=tatishchev_0035	# Иван Михайлович Татищев
-									mother=lowborn_1274	# Мария Богдановна Protopopov
+									mother=lowborn_1275	# Василиса Lubimovna Domnin
 									1706.01.01={birth=yes}  # EST.
 									1766.12.01={death=yes}  # EST.
 								}
@@ -1704,7 +1736,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0007	# Михаил Юрьевич Татищев
-								mother=lowborn_1253	# Феодосия Осиповна N
 								1666.01.01={birth=yes}  # EST.
 								1726.12.01={death=yes}  # EST.
 							}
@@ -1714,7 +1745,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0007	# Михаил Юрьевич Татищев
-								mother=lowborn_1253	# Феодосия Осиповна N
 								1665.01.01={birth=yes}  # EST.
 								1727.12.01={death=yes}  # EST.
 							}
@@ -1724,7 +1754,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0007	# Михаил Юрьевич Татищев
-								mother=lowborn_1253	# Феодосия Осиповна N
 								1669.01.01={birth=yes}  # EST.
 								1729.12.01={death=yes}  # EST.
 							}
@@ -1750,7 +1779,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 					religion=orthodox culture=russian
 					father=tatishchev_0042	# Афанасий Матвеевич Татищев
 					1511.01.01={birth=yes}  # EST.
-					1551.01.01={add_spouse=lowborn_1281}	# Ирина N
 					1571.12.01={death=yes}  # EST.
 				}
 					tatishchev_0044={ #// 1e) Stepan fl 1643; m.N Feodorovna Akinfov
@@ -1758,7 +1786,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						dynasty=1010044
 						religion=orthodox culture=russian
 						father=tatishchev_0043	# Lazar Афанасьевич Татищев
-						mother=lowborn_1281	# Ирина N
 						1566.01.01={birth=yes}  # EST.
 						1594.01.01={add_spouse=lowborn_1282}	# N Akinfov
 						1636.12.01={death=yes}  # EST.
@@ -1770,7 +1797,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							father=tatishchev_0044	# Степан Татищев
 							mother=lowborn_1282	# N Akinfov
 							1602.01.01={birth=yes}  # EST.
-							1646.01.01={add_spouse=lowborn_1283}	# Ксения N
 							1662.12.01={death=yes}  # EST.
 						}
 							tatishchev_0046={ #// 1g) Ivan, d.after 1728; m.1st 1673 Ustinia Ivanovna Nogin; m.2nd 1692 Jewdokia Ivanovna Anitchkov
@@ -1778,7 +1804,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0045	# Юрий Степанович Татищев
-								mother=lowborn_1283	# Ксения N
 								1654.01.01={birth=yes}  # EST.
 								1673.01.01={add_spouse=lowborn_1284}	# Устинья Ивановна Nogin
 								1692.01.01={add_spouse=lowborn_1285}	# Евдокия Ивановна Anichkov
@@ -2390,7 +2415,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0045	# Юрий Степанович Татищев
-								mother=lowborn_1283	# Ксения N
 								1655.01.01={birth=yes}  # EST.
 								1695.01.01={add_spouse=lowborn_1305}	# Екатерина Ильична Shadaev
 								1703.01.01={death=yes}
@@ -2402,7 +2426,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									father=tatishchev_0111	# Фёдор Юрьевич Татищев
 									mother=lowborn_1305	# Екатерина Ильична Shadaev
 									1696.01.01={birth=yes}  # EST.
-									1709.01.01={add_spouse=lowborn_1306}	# Екатерина Петровна N
 									1775.12.01={death=yes}  # EST.
 								}
 									tatishchev_0113={ #// 1i) Andrei (1710-    ); m.Agrafena Nikiforovna Lvov
@@ -2410,7 +2433,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 										dynasty=1010044
 										religion=orthodox culture=russian
 										father=tatishchev_0112	# Иван Фёдорович Татищев
-										mother=lowborn_1306	# Екатерина Петровна N
 										1710.01.01={birth=yes}
 										1739.01.01={add_spouse=lowborn_1307}	# Аграфена Никифоровна Львов
 										1780.12.01={death=yes}  # EST.
@@ -2708,7 +2730,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0045	# Юрий Степанович Татищев
-								mother=lowborn_1283	# Ксения N
 								1657.01.01={birth=yes}  # EST.
 								1723.01.01={death=yes}
 							}
@@ -2718,7 +2739,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								dynasty=1010044
 								religion=orthodox culture=russian
 								father=tatishchev_0045	# Юрий Степанович Татищев
-								mother=lowborn_1283	# Ксения N
 								1647.01.01={birth=yes}  # EST.
 								1707.12.01={death=yes}  # EST.
 							}
@@ -2737,7 +2757,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 								religion=orthodox culture=russian
 								father=tatishchev_0148	# Алексей Степанович Татищев
 								1645.01.01={birth=yes}  # EST.
-								1683.01.01={add_spouse=lowborn_1323}	# Феотиния N
 								1705.12.01={death=yes}  # EST.
 							}
 								tatishchev_0150={ #// 1h) Ivan (1683-d.after 1754); m.Praskovia Gawrilovna Botwinjev (1709-1799)
@@ -2745,7 +2764,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									dynasty=1010044
 									religion=orthodox culture=russian
 									father=tatishchev_0149	# Никита Алексеевич Татищев
-									mother=lowborn_1323	# Феотиния N
 									1683.01.01={birth=yes}
 									1732.01.01={add_spouse=lowborn_1324}	# Прасковья Гавриловна Botvinev
 									1755.01.01={death=yes}
@@ -2755,7 +2773,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									dynasty=1010044
 									religion=orthodox culture=russian
 									father=tatishchev_0149	# Никита Алексеевич Татищев
-									mother=lowborn_1323	# Феотиния N
 									1686.04.16={birth=yes}
 									1713.01.01={add_spouse=lowborn_1325}	# Анна Васильевна Andreevsky
 									1750.07.15={death=yes}
@@ -3231,7 +3248,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									dynasty=1010044
 									religion=orthodox culture=russian
 									father=tatishchev_0149	# Никита Алексеевич Татищев
-									mother=lowborn_1323	# Феотиния N
 									1692.01.01={birth=yes}
 									1740.01.01={death=yes}
 								}
@@ -3241,7 +3257,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									dynasty=1010044
 									religion=orthodox culture=russian
 									father=tatishchev_0149	# Никита Алексеевич Татищев
-									mother=lowborn_1323	# Феотиния N
 									1696.01.01={birth=yes}  # EST.
 									1756.12.01={death=yes}  # EST.
 								}
@@ -3250,7 +3265,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									dynasty=1010044
 									religion=orthodox culture=russian
 									father=tatishchev_0149	# Никита Алексеевич Татищев
-									mother=lowborn_1323	# Феотиния N
 									1700.01.01={birth=yes}
 									1726.01.01={death=yes}
 								}
@@ -3259,7 +3273,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									dynasty=1010044
 									religion=orthodox culture=russian
 									father=tatishchev_0149	# Никита Алексеевич Татищев
-									mother=lowborn_1323	# Феотиния N
 									1700.01.01={birth=yes}
 									1730.01.01={add_spouse=lowborn_1348}	# Степанида Алексеевна Новосильцев
 									1756.06.24={death=yes}
@@ -3319,7 +3332,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									father=tatishchev_0179	# Алексей Михайлович Татищев
 									mother=lowborn_1352	# Ирина Артемьевна Игнатьев
 									1667.01.01={birth=yes}  # EST.
-									1692.01.01={add_spouse=lowborn_1353}	# Мария Ивановна Isvolsky
+									1692.01.01={add_spouse=lowborn_1353}	# Мария Ивановна Извольский
 									1736.01.01={death=yes}
 								}
 									tatishchev_0181={ #// 1i) Aleksei; m.1731 Sophia Alekseievna Saltykov $$
@@ -3327,7 +3340,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 										dynasty=1010044
 										religion=orthodox culture=russian
 										father=tatishchev_0180	# Wenedikt Алексеевич Татищев
-										mother=lowborn_1353	# Мария Ивановна Isvolsky
+										mother=lowborn_1353	# Мария Ивановна Извольский
 										1693.01.01={birth=yes}  # EST.
 										1731.01.01={add_spouse=100017750}	# София Алексеевна Салтыков
 										1753.12.01={death=yes}  # EST.
@@ -3824,7 +3837,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 														father=100015842	# Дмитрий Дмитриевич Татищев
 														mother=100101955	# София Ивановна Воейков
 														1869.06.13={birth=yes}
-														1898.01.07={add_spouse=100102174}	# Мария Александровна Bulygin
+														1898.01.07={add_spouse=100102174}	# Мария Александровна Булыгин
 														1943.08.15={death=yes}  # Nice
 													}
 														100015978={ #// 1n) Dmitri (Riga 9 Nov 1898-Paros 30 Jun 1972); m.Clamart 11 May 1929 Css Emilia Alekseievna Kapnist (St.Petersburg 29 Feb 1908-Chelles 20 Apr 1996)
@@ -3832,7 +3845,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 															dynasty=1010044
 															religion=orthodox culture=russian
 															father=100015976	# Сергей Дмитриевич Татищев
-															mother=100102174	# Мария Александровна Bulygin
+															mother=100102174	# Мария Александровна Булыгин
 															1898.11.09={birth=yes}  # Riga
 															1929.05.11={add_spouse=100102175}	# CSS Emilia Алексеевна Капнист
 															1972.06.30={death=yes}  # Paros
@@ -3852,7 +3865,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 															dynasty=1010044
 															religion=orthodox culture=russian
 															father=100015976	# Сергей Дмитриевич Татищев
-															mother=100102174	# Мария Александровна Bulygin
+															mother=100102174	# Мария Александровна Булыгин
 															1907.12.29={birth=yes}
 															1944.04.29={death=yes}  # Nice
 														}
@@ -4293,7 +4306,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 										dynasty=1010044
 										religion=orthodox culture=russian
 										father=tatishchev_0180	# Wenedikt Алексеевич Татищев
-										mother=lowborn_1353	# Мария Ивановна Isvolsky
+										mother=lowborn_1353	# Мария Ивановна Извольский
 										1695.01.01={birth=yes}  # EST.
 										1755.12.01={death=yes}  # EST.
 									}
@@ -4303,7 +4316,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 										dynasty=1010044
 										religion=orthodox culture=russian
 										father=tatishchev_0180	# Wenedikt Алексеевич Татищев
-										mother=lowborn_1353	# Мария Ивановна Isvolsky
+										mother=lowborn_1353	# Мария Ивановна Извольский
 										1696.01.01={birth=yes}  # EST.
 										1756.12.01={death=yes}  # EST.
 									}
@@ -7295,7 +7308,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						1729.01.01={birth=yes}
 						1760.01.01={death=yes}
 					}
-					100019624={ #// 3e) Maria (24 Mar 1730-15 May 1780); m.1756 Mikhail Mikhailovich Ismailov (d.6 May 1800)
+					100019624={ #// 3e) Maria (24 Mar 1730-15 May 1780); m.1756 Mikhail Mikhailovich Ismailov (d.6 May 1800) $$
 						name=Мария
 						female=yes
 						dynasty=1010035
@@ -7305,14 +7318,14 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						1730.03.24={birth=yes}
 						1780.05.15={death=yes}
 					}
-					100019614={ #// 4e) Lev (26 Feb 1733-9 Nov 1799); m.Maria Ossipovna Zakrjevsky (20 Jul 1741-28 Jul 1800)
+					100019614={ #// 4e) Lev (26 Feb 1733-9 Nov 1799); m.Maria Ossipovna Zakrjevsky (20 Jul 1741-28 Jul 1800) $$
 						name=Лев
 						dynasty=1010035
 						religion=orthodox culture=russian
 						father=100019505	# Александр Лвович Нарышкин
 						mother=100017631	# Елена Александровна Апраксин
 						1733.02.26={birth=yes}
-						1758.01.01={add_spouse=100092651}	# Мария Осиповна Zakrevsky
+						1758.01.01={add_spouse=zakrevsky_0003}	# Марина Осиповна Закревский
 						1799.11.09={death=yes}
 					}
 						100019617={ #// 1f) Dmitri (30 May 1758-31 Mar 1838); m.1795 Pss Maria Swiatopolk-Czetwertynski (1779-1854) $$
@@ -7320,7 +7333,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010035
 							religion=orthodox culture=russian
 							father=100019614	# Лев Александрович Нарышкин
-							mother=100092651	# Мария Осиповна Zakrevsky
+							mother=zakrevsky_0003	# Марина Осиповна Закревский
 							1758.05.30={birth=yes}
 							1795.01.01={add_spouse=100112458}	# Maria Swiatopelk-Czetwertynski
 							1838.03.31={death=yes}
@@ -7351,7 +7364,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010035
 							religion=orthodox culture=russian
 							father=100019614	# Лев Александрович Нарышкин
-							mother=100092651	# Мария Осиповна Zakrevsky
+							mother=zakrevsky_0003	# Марина Осиповна Закревский
 							1760.04.14={birth=yes}
 							1785.01.01={add_spouse=100098352}	# Мария Алексеевна Сенявин
 							1823.12.20={death=yes}
@@ -7534,7 +7547,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010035
 							religion=orthodox culture=russian
 							father=100019614	# Лев Александрович Нарышкин
-							mother=100092651	# Мария Осиповна Zakrevsky
+							mother=zakrevsky_0003	# Марина Осиповна Закревский
 							1762.01.01={birth=yes}
 							1820.11.05={death=yes}
 						}
@@ -7544,7 +7557,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010035
 							religion=orthodox culture=russian
 							father=100019614	# Лев Александрович Нарышкин
-							mother=100092651	# Мария Осиповна Zakrevsky
+							mother=zakrevsky_0003	# Марина Осиповна Закревский
 							1762.01.01={birth=yes}
 							1819.01.01={death=yes}
 						}
@@ -7554,7 +7567,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010035
 							religion=orthodox culture=russian
 							father=100019614	# Лев Александрович Нарышкин
-							mother=100092651	# Мария Осиповна Zakrevsky
+							mother=zakrevsky_0003	# Марина Осиповна Закревский
 							1766.01.01={birth=yes}  # EST.
 							1841.01.01={death=yes}  # EST.
 						}
@@ -7729,7 +7742,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 				1694.01.01={add_spouse=100102044}	# Ульяна Андреевна Колычев
 				1744.03.03={death=yes}
 			}
-				100019393={ #// 1d) Anastasia; m.Wassili Andreievich Izmailov
+				100019393={ #// 1d) Anastasia; m.Wassili Andreievich Izmailov $$
 					name=Анастасия
 					female=yes
 					dynasty=1010035
@@ -8466,7 +8479,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									father=100019463	# Алексей Кириллович Нарышкин
 									mother=100102109	# Наталья Александровна Талызин
 									1858.01.01={birth=yes}
-									1892.01.01={add_spouse=100102110}	# Polyksena Леонидовна Knin
+									1892.01.01={add_spouse=100102110}	# Поликсена Леонидовна Knin
 									1913.01.01={death=yes}
 								}
 								100019467={ #// 4h) Nikolai (1861-    )
@@ -11772,6 +11785,8 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 
 
 ##  100018000-xxx 			Shuvalov	                      1010033
+#https://www.angelfire.com/realm/gotha/gotha/schuvalov.html
+
 #shuvalov
 100018598={ #// Maksim Ivanovich Shuvalov, landowner in the Kostroma region where his ancestors had been living since the 16th century; m.Mavra Shestakova
 	name=Максим
@@ -11905,7 +11920,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						father=100018618	# Пётр Андреевич Шувалов
 						mother=100017907	# София Григорьевна Щербатов
 						1802.08.30={birth=yes}
-						1824.11.12={add_spouse=100087596}	# PSS Thekla Walentynowicz Зубов
+						1824.11.12={add_spouse=100087596}	# PSS Фёкла Walentynowicz Зубов
 						1873.06.26={death=yes}  # Karlsbad
 					}
 						100018616={ #// F1. Ct Peter, general of cavalry, governor of Livland, Courland, and Estland, head of the imperial police corps, ambassador to London, etc, *Sankt Petersburg 15.6.1827, +Sankt Petersburg 10.3.1889; m.24.5.1864 Css Elena Ivanovna Orlov-Denisov (*17.11.1830, +20.2.1922)
@@ -11913,7 +11928,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010033
 							religion=orthodox culture=russian
 							father=100018617	# Андрей Петрович Шувалов
-							mother=100087596	# PSS Thekla Walentynowicz Зубов
+							mother=100087596	# PSS Фёкла Walentynowicz Зубов
 							1827.06.15={birth=yes}  # Sankt Petersburg
 							1864.05.24={add_spouse=100084295}	# Елена Ивановна Чертков
 							1889.03.10={death=yes}  # Sankt Petersburg
@@ -11934,7 +11949,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010033
 							religion=orthodox culture=russian
 							father=100018617	# Андрей Петрович Шувалов
-							mother=100087596	# PSS Thekla Walentynowicz Зубов
+							mother=100087596	# PSS Фёкла Walentynowicz Зубов
 							1829.07.17={birth=yes}
 							1912.09.09={death=yes}  # Smela
 						}
@@ -11943,7 +11958,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010033
 							religion=orthodox culture=russian
 							father=100018617	# Андрей Петрович Шувалов
-							mother=100087596	# PSS Thekla Walentynowicz Зубов
+							mother=100087596	# PSS Фёкла Walentynowicz Зубов
 							1830.11.13={birth=yes}  # Sankt Petersburg
 							1855.07.25={add_spouse=100019727}	# Ольга Белосельский-Белозерский
 							1877.01.07={add_spouse=100090207}	# Мария Александровна Komarov-Lukash
@@ -12035,7 +12050,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 									father=100018613	# Павел Павлович Шувалов
 									mother=100035312	# Александра Илларионовна Воронцов-Дашков
 									1903.09.15={birth=yes}
-									1928.01.01={add_spouse=100094310}	# Мария Артемьевна Boldyrev
+									1928.01.01={add_spouse=100094310}	# Мария Артемьевна Болдырев
 									1954.01.01={remove_spouse=100094310}
 									1955.01.01={add_spouse=100035416}	# Марина Петровна Мещерский
 									1980.12.21={death=yes}  # Paris
@@ -12046,7 +12061,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 										dynasty=1010033
 										religion=orthodox culture=russian
 										father=100018610	# Иван Павлович Шувалов
-										mother=100094310	# Мария Артемьевна Boldyrev
+										mother=100094310	# Мария Артемьевна Болдырев
 										1930.01.01={birth=yes}  # EST.
 										2007.01.01={death=yes}  # EST.
 									}
@@ -12056,7 +12071,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 										dynasty=1010033
 										religion=orthodox culture=russian
 										father=100018610	# Иван Павлович Шувалов
-										mother=100094310	# Мария Артемьевна Boldyrev
+										mother=100094310	# Мария Артемьевна Болдырев
 										1932.01.01={birth=yes}  # EST.
 										2009.01.01={death=yes}  # EST.
 									}
@@ -12357,16 +12372,6 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							1864.08.11={birth=yes}  # Schouvaloff Palace
 							1932.09.16={death=yes}  # Paris
 						}
-#1671.01.01={holder=100018192} # Maksim Ivanovich Shuvalov
-#1716.01.01={holder=100018599} # A2. Ivan "the Elder"
-#1736.06.01={holder=100018864} # B1. Alexander
-#1771.01.01={holder=100019041} # C2. [1m.] Ct Andrei
-#1789.04.24={holder=100019063} # D1. Ct Peter
-#1808.12.30={holder=100019066} # E1. Ct Andrei
-#1873.06.26={holder=100019068} # F1. Ct Peter
-#1889.03.10={holder=100019074} # G1. Ct Andrei
-#1928.11.30={holder=100019081} # H3. Ct Ivan
-#1980.12.21={holder=100019085} # I1. Ct Andrei
 #shuvalov
 ##  100018000-xxx 			Shuvalov	                      1010033
 
@@ -12573,7 +12578,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 						father=100018473	# Пётр Васильевич Шереметев
 						mother=100101720	# Анна Федоровна Волынский
 						1652.04.25={birth=yes}
-						1670.01.01={add_spouse=100101722}	# Евдокия Алексеевна Chirkov
+						1670.01.01={add_spouse=100101722}	# Евдокия Алексеевна Чирков
 						1712.01.01={add_spouse=100017652}	# Анна Петровна Салтыков
 						1719.02.10={death=yes}
 					}
@@ -12583,7 +12588,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010012
 							religion=orthodox culture=russian
 							father=100016418	# Борис Петрович Шереметев
-							mother=100101722	# Евдокия Алексеевна Chirkov
+							mother=100101722	# Евдокия Алексеевна Чирков
 							1671.01.01={birth=yes}
 							1694.01.01={death=yes}
 						}
@@ -12592,7 +12597,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010012
 							religion=orthodox culture=russian
 							father=100016418	# Борис Петрович Шереметев
-							mother=100101722	# Евдокия Алексеевна Chirkov
+							mother=100101722	# Евдокия Алексеевна Чирков
 							1672.01.01={birth=yes}
 							1693.01.01={add_spouse=100019449}	# Евдокия Григорьевна Нарышкин
 							1714.09.23={death=yes}
@@ -12713,7 +12718,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 							dynasty=1010012
 							religion=orthodox culture=russian
 							father=100016418	# Борис Петрович Шереметев
-							mother=100101722	# Евдокия Алексеевна Chirkov
+							mother=100101722	# Евдокия Алексеевна Чирков
 							1673.01.01={birth=yes}
 							1732.05.12={death=yes}
 						}
@@ -14988,14 +14993,14 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 				1718.11.01={birth=yes}	# EST.
 				1780.01.01={death=yes}	# EST.
 			}
-			100020069={ #// C2. Aleksandr Petrovič (*10.9.1719, +21.1.1792); m.1753 Evdokija Lvovna Izmailov (*1731, +1794) %%
+			100020069={ #// C2. Aleksandr Petrovič (*10.9.1719, +21.1.1792); m.1753 Evdokija Lvovna Izmajlov (*1731, +1794) %%
 				name=Александр
 				dynasty=1010029
 				religion=orthodox culture=russian
 				father=100020073	# Пётр Петрович Толстой
 				mother=100091206	# Ульяна Ивановна Skoropadsky
 				1719.09.10={birth=yes}
-				1753.01.01={add_spouse=100091008}	# Евдокия Лвовна Измаилов
+				1753.01.01={add_spouse=izmailov_0013}	# Евдокия Лвовна Измайлов
 				1792.01.21={death=yes}
 			}
 				100020181={ #// D1. Dmitrij Aleksandrovič (*1754, +1832); m.1796 Ekaterina Aleksandrovna Vjazemskij (*1769, +1824) %%
@@ -15003,7 +15008,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 					dynasty=1010029
 					religion=orthodox culture=russian
 					father=100020069	# Александр Петрович Толстой
-					mother=100091008	# Евдокия Лвовна Измаилов
+					mother=izmailov_0013	# Евдокия Лвовна Измайлов
 					1754.01.01={birth=yes}
 					1796.01.01={add_spouse=vjazemsky_0058}	# Екатерина Александровна Вяземский
 					1832.01.01={death=yes}
@@ -15091,7 +15096,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 					dynasty=1010029
 					religion=orthodox culture=russian
 					father=100020069	# Александр Петрович Толстой
-					mother=100091008	# Евдокия Лвовна Измаилов
+					mother=izmailov_0013	# Евдокия Лвовна Измайлов
 					1765.02.09={birth=yes}  # St.Petersburg
 					1788.01.01={add_spouse=100019897}	# Анна Ивановна Барятинский
 					1816.12.09={death=yes}	# Dresden
@@ -15121,7 +15126,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 					dynasty=1010029
 					religion=orthodox culture=russian
 					father=100020069	# Александр Петрович Толстой
-					mother=100091008	# Евдокия Лвовна Измаилов
+					mother=izmailov_0013	# Евдокия Лвовна Измайлов
 					1770.05.12={birth=yes}
 					1798.01.01={add_spouse=100016033}	# Мария Алексеевна Голицын
 					1844.09.28={death=yes}
@@ -15168,12 +15173,14 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 
 
 ##	100018100-100018xxx		Lopukhin									1010020
-100018193={ #// Michail Lopuchin (*EST 1900, +EST 1960) %%
+# https://www.angelfire.com/realm/gotha/gotha/lopukhin.html
+
+100018193={ #// Michail Lopuchin %%
 	name=Михаил
 	dynasty=1010020
 	religion=orthodox culture=russian
-	1900.01.01={birth=yes}	# EST
-	1960.01.01={death=yes}	# EST
+	1900.01.01={birth=yes}	# EST.
+	1960.01.01={death=yes}	# EST.
 }
 	100018196={ #// A1. Oleg Michajlovič (*1924, +1993) %%
 		name=Олег
@@ -16370,7 +16377,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 										father=100018179	# Василий Алексеевич Лопухин
 										mother=100097889	# Мария Ивановна Choneniev
 										1744.01.01={birth=yes}
-										1769.01.01={add_spouse=100097890}	# Прасковья Ивановна Levshin
+										1769.01.01={add_spouse=100097890}	# Прасковья Ивановна Левшин
 										1785.01.01={remove_spouse=100097890}
 										1785.02.01={add_spouse=100097891}	# Екатерина Николаевна Shetnev
 										1827.04.06={death=yes}
@@ -16381,7 +16388,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 											dynasty=1010020
 											religion=orthodox culture=russian
 											father=100018180	# Пётр Васильевич Лопухин
-											mother=100097890	# Прасковья Ивановна Levshin
+											mother=100097890	# Прасковья Ивановна Левшин
 											1777.11.08={birth=yes}
 											1805.04.25={death=yes}
 										}
@@ -16391,7 +16398,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 											dynasty=1010020
 											religion=orthodox culture=russian
 											father=100018180	# Пётр Васильевич Лопухин
-											mother=100097890	# Прасковья Ивановна Levshin
+											mother=100097890	# Прасковья Ивановна Левшин
 											1783.04.11={birth=yes}
 											1830.07.21={death=yes}
 										}
@@ -16401,7 +16408,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 											dynasty=1010020
 											religion=orthodox culture=russian
 											father=100018180	# Пётр Васильевич Лопухин
-											mother=100097890	# Прасковья Ивановна Levshin
+											mother=100097890	# Прасковья Ивановна Левшин
 											1784.01.01={birth=yes}
 											1870.04.25={death=yes}
 										}
@@ -16426,7 +16433,7 @@ tatishchev_0001={ #// Wassili Jurievich Tatistchev (fl ca 1447) had issue:
 											1859.02.15={death=yes}
 										}
 										100018190={ #// 7j) Sophia (1798-3 Apr 1825); m.Pr Aleksei Lobanov-Rostovsky (d.1848) $$
-											name="Sophia Petrovna"
+											name="Sophia"
 											female=yes
 											dynasty=1010020
 											religion=orthodox culture=russian
@@ -18673,7 +18680,7 @@ jagelo_0014={ #// Pr Andrey Bulgakov "Kuraka", boyar, +after 1521
 									1805.11.22={death=yes}
 								}
 									100017754={ #// 1i) Aleksandra (1764-4 May 1829); m.Pr Jakow Lobanov-Rostovsky (d.1831) $$
-										name="Aleksandra Nikolaevna"
+										name="Aleksandra"
 										female=yes
 										dynasty=1010015
 										religion=orthodox culture=russian
@@ -18807,7 +18814,7 @@ jagelo_0014={ #// Pr Andrey Bulgakov "Kuraka", boyar, +after 1521
 						religion=orthodox culture=russian
 						father=100017770	# Иван Михайлович Салтыков
 						1642.01.01={birth=yes}
-						1662.01.01={add_spouse=100097264}	# Аграфена Васильевна Измаилов
+						1662.01.01={add_spouse=100097264}	# Аграфена Васильевна Измайлов
 						1717.01.01={death=yes}
 					}
 					100017771={ #// 1e) Stepan fl 1699
@@ -20098,7 +20105,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 									father=100017541	# Пётр Николаевич Апраксин
 									mother=100019908	# Елизавета Владимировна Барятинский
 									1915.07.01={birth=yes}  # Woronesh
-									1957.09.21={add_spouse=100097114}	# Мария Kotliarevsky
+									1957.09.21={add_spouse=100097114}	# Мария Котляревский
 									1993.07.14={death=yes}  # Uccle
 								}
 									100017550={ #// 1i) Elisabeth
@@ -20107,7 +20114,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 										dynasty=1010013
 										religion=orthodox culture=russian
 										father=100017549	# Владимир Петрович Апраксин
-										mother=100097114	# Мария Kotliarevsky
+										mother=100097114	# Мария Котляревский
 										1959.01.01={birth=yes}  # EST.
 									}
 									100017551={ #// 2i) André; m.Sabine Delattre
@@ -20115,7 +20122,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 										dynasty=1010013
 										religion=orthodox culture=russian
 										father=100017549	# Владимир Петрович Апраксин
-										mother=100097114	# Мария Kotliarevsky
+										mother=100097114	# Мария Котляревский
 										1961.01.01={birth=yes}  # EST.
 										1986.01.01={add_spouse=100097115}	# Sabine Delattre
 									}
@@ -20141,7 +20148,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 										dynasty=1010013
 										religion=orthodox culture=russian
 										father=100017549	# Владимир Петрович Апраксин
-										mother=100097114	# Мария Kotliarevsky
+										mother=100097114	# Мария Котляревский
 										1963.01.01={birth=yes}  # EST.
 									}
 									100017555={ #// 4i) Pierre; m.Valérie Lemaire
@@ -20149,7 +20156,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 										dynasty=1010013
 										religion=orthodox culture=russian
 										father=100017549	# Владимир Петрович Апраксин
-										mother=100097114	# Мария Kotliarevsky
+										mother=100097114	# Мария Котляревский
 										1965.01.01={birth=yes}  # EST.
 										1990.01.01={add_spouse=100097117}	# Valérie Lemaire
 									}
@@ -20322,14 +20329,14 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 					1762.01.01={birth=yes}  # EST.
 					1854.11.29={death=yes}
 				}
-			100017576={ #// 3c) Nikolai; m.11 Nov 1764 Sophia Ossipovna Zakrievsky
+			100017576={ #// 3c) Nikolai; m.11 Nov 1764 Sophia Ossipovna Zakrievsky $$
 				name=Николай
 				dynasty=1010013
 				religion=orthodox culture=russian
 				father=100017621	# Фёдор Андреевич Апраксин
 				mother=100018477	# Александра Михайловна Шереметев
 				1735.01.01={birth=yes}  # EST.
-				1764.11.11={add_spouse=100097134}	# София Осиповна Zakrevsky
+				1764.11.11={add_spouse=zakrevsky_0004}	# Софья Осиповна Закревский
 				1811.01.01={death=yes}
 			}
 				100017577={ #// 1d) Vera (2 Feb 1768-22 Nov 1845); m.30 Apr 1787 Ct Pjotr Wassilievich Zavadovsky (d.10 Jan 1812)
@@ -20338,7 +20345,7 @@ apraxin_0028={ #// Matwei, murdered 6 Nov 1668; m.Domna Bogdanovna Lovtshikov (d
 					dynasty=1010013
 					religion=orthodox culture=russian
 					father=100017576	# Николай Фёдорович Апраксин
-					mother=100097134	# София Осиповна Zakrevsky
+					mother=zakrevsky_0004	# Софья Осиповна Закревский
 					1768.02.02={birth=yes}
 					1845.11.22={death=yes}
 				}
@@ -22155,7 +22162,7 @@ jagelo_0048={ #// Pr Ivan, Pr of Trubchevsk
 									father=100017299	# Андрей Владимирович Трубецкой
 									mother=100016231	# Елена Владимировна Голицын
 									1961.01.01={birth=yes}
-									1983.01.01={add_spouse=100085463}	# Guzel Измаилов
+									1983.01.01={add_spouse=100085463}	# Guzel Измайлов
 								}
 									100017306={ #// 1k) Anna (b.1984)
 										name=Анна
@@ -22163,7 +22170,7 @@ jagelo_0048={ #// Pr Ivan, Pr of Trubchevsk
 										dynasty=1010004
 										religion=orthodox culture=russian
 										father=100017305	# Николай Андреевич Трубецкой
-										mother=100085463	# Guzel Измаилов
+										mother=100085463	# Guzel Измайлов
 										1984.01.01={birth=yes}
 									}
 									100017307={ #// 2k) Jelisaveta (b.1986)
@@ -22172,7 +22179,7 @@ jagelo_0048={ #// Pr Ivan, Pr of Trubchevsk
 										dynasty=1010004
 										religion=orthodox culture=russian
 										father=100017305	# Николай Андреевич Трубецкой
-										mother=100085463	# Guzel Измаилов
+										mother=100085463	# Guzel Измайлов
 										1986.01.01={birth=yes}
 									}
 								100017308={ #// 5j) Wladimir (b.Moskwa 1964); m.Moskwa 1995 Gouljan Kazbekov
@@ -23867,7 +23874,7 @@ jagelo_0048={ #// Pr Ivan, Pr of Trubchevsk
 			religion=orthodox culture=russian
 			father=100015201	# Anika Фёдорович Строганов
 			1516.01.01={birth=yes}
-			1580.01.01={add_spouse=100085321}	# Евдокия Nesterovna Lachinov
+			1580.01.01={add_spouse=100085321}	# Евдокия Nesterovna Лачинов
 			1586.10.22={death=yes}
 		}
 			100015199={ #// C1. Andrei Stroganov, *19.8.1581, +17.7.1649; 1m: Irina N (+2.7.1609); 2m: Tatiana Dmitrievna Zhedrinskaya (*1584, +21.9.1639)
@@ -23875,7 +23882,7 @@ jagelo_0048={ #// Pr Ivan, Pr of Trubchevsk
 				dynasty=1010024
 				religion=orthodox culture=russian
 				father=100015200	# Симеон Строганов
-				mother=100085321	# Евдокия Nesterovna Lachinov
+				mother=100085321	# Евдокия Nesterovna Лачинов
 				1581.08.19={birth=yes}
 				1610.07.02={add_spouse=100089698}	# Татьяна Дмитриевна Zhedrinsky
 				1649.07.17={death=yes}
@@ -24332,7 +24339,7 @@ jagelo_0048={ #// Pr Ivan, Pr of Trubchevsk
 				dynasty=1010024
 				religion=orthodox culture=russian
 				father=100015200	# Симеон Строганов
-				mother=100085321	# Евдокия Nesterovna Lachinov
+				mother=100085321	# Евдокия Nesterovna Лачинов
 				1583.01.01={birth=yes}
 				1639.03.27={death=yes}  # Solvychegodsk
 			}
@@ -25669,7 +25676,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 						father=romanov_0029	# Юрий Romanov
 						mother=lowborn_1411	# Ирина Ивановна Тучков
 						1481.01.01={birth=yes}  # EST.
-						1531.01.01={add_spouse=lowborn_1442}	# Ульяна Ivanovna
+						1531.01.01={add_spouse=lowborn_1442}	# Ульяна Ивановна N
 						1543.02.16={death=yes}
 					}
 						romanov_0040={ #// F1. [1m.] Anastasia, *ca 1530, +Kolomenskoe 7.8.1560; m.Moscow 3/13.2.1547 Tsar Ivan IV of Russia (*25.8.1530 +18.3.1584) $$
@@ -25686,7 +25693,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							dynasty=100397
 							religion=orthodox culture=russian
 							father=romanov_0039	# Роман Юрьевич Romanov
-							mother=lowborn_1442	# Ульяна Ivanovna
+							mother=lowborn_1442	# Ульяна Ивановна N
 							1532.01.01={birth=yes}  # EST.
 							1545.01.01={death=yes}
 						}
@@ -25695,7 +25702,7 @@ romanov_0001={ #// Andrey Ivanovich Kobyla, great boyar of Simeon I of Moscow, +
 							dynasty=100397
 							religion=orthodox culture=russian
 							father=romanov_0039	# Роман Юрьевич Romanov
-							mother=lowborn_1442	# Ульяна Ivanovna
+							mother=lowborn_1442	# Ульяна Ивановна N
 							1532.01.01={birth=yes}  # EST.
 							1565.11.27={death=yes}
 						}
@@ -27966,7 +27973,7 @@ romanov_0050={ #// Fyodor Nikitich Romanov, boyar 1583, later Patriarch of Mosco
 		# Mikhail,  +vor 1822
 		# Elena
 		# Anna
-		100135411={ # Pr Pjotr Mestshersky (Jul 1778-31 Dec 1856 ); 1m: Екатерина Ивановна Чернышёва (1782 — 1851); 2m: Aleksandra Hendrikov (+9 Sep 1833) $$
+		100135411={ #// Pr Pjotr Mestshersky (Jul 1778-31 Dec 1856 ); 1m: Екатерина Ивановна Чернышёва (1782 — 1851); 2m: Aleksandra Hendrikov (+9 Sep 1833) $$
 			name="Пётр Сергеевич Мещерский"
 			religion=orthodox culture=russian
 			1782.01.01={birth=yes}
@@ -28096,7 +28103,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 	dynasty=1010047
 	religion=orthodox culture=russian
 	1625.01.01={birth=yes}  # EST.
-	1668.01.01={add_spouse=100215328}	# Василиса Петровна Долгорукий
+	1650.01.01={add_spouse=100215328}	# Василиса Петровна Долгорукий
 	1685.12.01={death=yes}  # EST.
 }
 	urusov_0002={ #// A1. Grigory, lieutenant general, senator (1680-1743); 1m: 1700 Fyokla Fedorovna Narbekova (+ca 1723); 2m: ca 1725 Pss Praskovya Danilovna Cherkasskaya
@@ -28105,8 +28112,8 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 		religion=orthodox culture=russian
 		father=urusov_0001	# Алексей Урусов
 		mother=100215328	# Василиса Петровна Долгорукий
-		1680.01.01={birth=yes}
-		1700.01.01={add_spouse=lowborn_1170}	# Fyokla Федоровна Нарбеков
+		1660.01.01={birth=yes}
+		1700.01.01={add_spouse=lowborn_1170}	# Фёкла Федоровна Нарбеков
 		1725.01.01={add_spouse=lowborn_1172}	# PSS Прасковья Даниловна Черкасский
 		1743.01.01={death=yes}
 	}
@@ -28116,7 +28123,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			dynasty=1010047
 			religion=orthodox culture=russian
 			father=urusov_0002	# Григорий Алексеевич Урусов
-			mother=lowborn_1170	# Fyokla Федоровна Нарбеков
+			mother=lowborn_1170	# Фёкла Федоровна Нарбеков
 			1715.01.01={birth=yes}  # EST.
 			1775.12.01={death=yes}  # EST.
 		}
@@ -28125,7 +28132,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			dynasty=1010047
 			religion=orthodox culture=russian
 			father=urusov_0002	# Григорий Алексеевич Урусов
-			mother=lowborn_1170	# Fyokla Федоровна Нарбеков
+			mother=lowborn_1170	# Фёкла Федоровна Нарбеков
 			1715.01.01={birth=yes}  # EST.
 			1744.01.01={death=yes}  # before
 		}
@@ -28134,7 +28141,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			dynasty=1010047
 			religion=orthodox culture=russian
 			father=urusov_0002	# Григорий Алексеевич Урусов
-			mother=lowborn_1170	# Fyokla Федоровна Нарбеков
+			mother=lowborn_1170	# Фёкла Федоровна Нарбеков
 			1715.01.01={birth=yes}  # EST.
 			1744.01.01={death=yes}  # before
 		}
@@ -28143,18 +28150,18 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			dynasty=1010047
 			religion=orthodox culture=russian
 			father=urusov_0002	# Григорий Алексеевич Урусов
-			mother=lowborn_1170	# Fyokla Федоровна Нарбеков
+			mother=lowborn_1172	# PSS Прасковья Даниловна Черкасский
 			1726.01.01={birth=yes}  # EST.
 			1752.01.01={add_spouse=lowborn_1189}	# Надежда Федоровна Хомяков
 			1770.01.01={death=yes}
 		}
 		urusov_0007={ #// B5. [2m.] Maria Grigoryevna; m.1744 Pr Fedor Vasilyevich Sibirsky (1717-1758)
-			name="Maria Grigoryevna"
+			name="Maria"
 			female=yes
 			dynasty=1010047
 			religion=orthodox culture=russian
 			father=urusov_0002	# Григорий Алексеевич Урусов
-			mother=lowborn_1170	# Fyokla Федоровна Нарбеков
+			mother=lowborn_1172	# PSS Прасковья Даниловна Черкасский
 			1728.01.01={birth=yes}  # EST.
 			1788.12.01={death=yes}  # EST.
 		}
@@ -28164,7 +28171,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			dynasty=1010047
 			religion=orthodox culture=russian
 			father=urusov_0002	# Григорий Алексеевич Урусов
-			mother=lowborn_1170	# Fyokla Федоровна Нарбеков
+			mother=lowborn_1172	# PSS Прасковья Даниловна Черкасский
 			1729.01.01={birth=yes}  # EST.
 			1789.12.01={death=yes}  # EST.
 		}
@@ -28185,7 +28192,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 		religion=orthodox culture=russian
 		father=urusov_0001	# Алексей Урусов
 		mother=100215328	# Василиса Петровна Долгорукий
-		1682.01.01={birth=yes}  # EST.
+		1663.01.01={birth=yes}  # EST.
 		1712.01.01={death=yes}
 	}
 	urusov_0011={ #// A3. Ivan Alekseevich, captain of the 3rd rank; 1m: Pss Anna Andreevna Golitsyna; 2m: Anna Ivanovna Saltykova $$
@@ -28194,9 +28201,9 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 		religion=orthodox culture=russian
 		father=urusov_0001	# Алексей Урусов
 		mother=100215328	# Василиса Петровна Долгорукий
-		1684.01.01={birth=yes}  # EST.
-		1709.01.01={add_spouse=galitzin_0029}	# Анна Андреевна Голицын
-		1714.01.01={add_spouse=lowborn_1194}	# Анна Ивановна Салтыков
+		1670.01.01={birth=yes}  # EST.
+		1716.01.01={add_spouse=galitzin_0029}	# Анна Андреевна Голицын
+		1735.01.01={add_spouse=lowborn_1194}	# Анна Ивановна Салтыков
 		1744.12.01={death=yes}  # EST.
 	}
 		urusov_0012={ #// B1. Irina; m.Pr I. P. Shcherbatova $$
@@ -28206,7 +28213,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			religion=orthodox culture=russian
 			father=urusov_0011	# Иван Алексеевич Урусов
 			mother=galitzin_0029	# Анна Андреевна Голицын
-			1709.01.01={birth=yes}  # EST.
+			1717.01.01={birth=yes}  # EST.
 			1769.12.01={death=yes}  # EST.
 		}
 		urusov_0013={ #// B2. Alexandra; m.M. V. Zinoviev
@@ -28216,16 +28223,16 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			religion=orthodox culture=russian
 			father=urusov_0011	# Иван Алексеевич Урусов
 			mother=galitzin_0029	# Анна Андреевна Голицын
-			1709.01.01={birth=yes}  # EST.
+			1719.01.01={birth=yes}  # EST.
 			1769.12.01={death=yes}  # EST.
 		}
 	urusov_0014={ #// A4. Vasily Alekseevich, Rear Admiral (+1742); 1m: 1708 Praskovya Mikhailovna Sobakina (+1714); 2m: 1716 Pss Praskovya Petrovna Dolgorukova $$
-		name="Vasily Alekseevich"
+		name="Vasily"
 		dynasty=1010047
 		religion=orthodox culture=russian
 		father=urusov_0001	# Алексей Урусов
 		mother=100215328	# Василиса Петровна Долгорукий
-		1688.01.01={birth=yes}
+		1678.01.01={birth=yes}
 		1708.01.01={add_spouse=lowborn_1197}	# Прасковья Михайловна Собакин
 		1716.01.01={add_spouse=100015428}	# Прасковья Петровна Долгорукий
 		1742.01.01={death=yes}
@@ -28234,7 +28241,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			name=Михаил
 			dynasty=1010047
 			religion=orthodox culture=russian
-			father=urusov_0014	# Vasily Alekseevich Алексеевич Урусов
+			father=urusov_0014	# Василий Алексеевич Урусов
 			mother=100015428	# Прасковья Петровна Долгорукий
 			1718.01.01={birth=yes}  # EST.
 			1757.01.01={add_spouse=lowborn_1199}	# Felitsata Афанасьевна Alyabyev
@@ -28260,7 +28267,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 					1845.12.01={death=yes}  # EST.
 				}
 					urusov_0018={ #// E1. Sergei Nikolaevich, general of infantry (1839-1906)
-						name="Sergei Nikolaevich"
+						name="Sergei"
 						dynasty=1010047
 						religion=orthodox culture=russian
 						father=urusov_0017	# Николай Дмитриевич Урусов
@@ -28282,14 +28289,14 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			name=Сергей
 			dynasty=1010047
 			religion=orthodox culture=russian
-			father=urusov_0014	# Vasily Alekseevich Алексеевич Урусов
+			father=urusov_0014	# Василий Алексеевич Урусов
 			mother=100015428	# Прасковья Петровна Долгорукий
 			1719.01.01={birth=yes}
 			1744.01.01={add_spouse=lowborn_1207}	# PSS Ирина Даниловна Друцкой-Соколинский
 			1787.01.01={death=yes}
 		}
 			urusov_0022={ #// C1. Nikita Sergeevich, Yaroslavl governor (1745 - 1806)
-				name="Nikita Sergeevich"
+				name="Nikita"
 				dynasty=1010047
 				religion=orthodox culture=russian
 				father=urusov_0021	# Сергей Урусов
@@ -28298,7 +28305,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 				1806.01.01={death=yes}
 			}
 			urusov_0023={ #// C2. Anna Sergeevna; m.F. V. Bezobrazov
-				name="Anna Sergeevna"
+				name="Anna"
 				female=yes
 				dynasty=1010047
 				religion=orthodox culture=russian
@@ -28318,7 +28325,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 				1818.01.01={death=yes}
 			}
 			urusov_0025={ #// C4. Varvara Sergeevna, *1751, +15.9.1831; m.Ct Алексей Иванович Васильев, Minister of Finance (St. Petersburg 11 Mar 1742-St. Petersburg 27.8.1807)
-				name="Varvara Sergeevna"
+				name="Varvara"
 				female=yes
 				dynasty=1010047
 				religion=orthodox culture=russian
@@ -28331,7 +28338,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			name=Алексей
 			dynasty=1010047
 			religion=orthodox culture=russian
-			father=urusov_0014	# Vasily Alekseevich Алексеевич Урусов
+			father=urusov_0014	# Василий Алексеевич Урусов
 			mother=100015428	# Прасковья Петровна Долгорукий
 			1722.01.01={birth=yes}
 			1748.01.01={add_spouse=lowborn_1210}	# CSS Екатерина Борисовна Шереметев
@@ -28361,7 +28368,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			name=Фёдор
 			dynasty=1010047
 			religion=orthodox culture=russian
-			father=urusov_0014	# Vasily Alekseevich Алексеевич Урусов
+			father=urusov_0014	# Василий Алексеевич Урусов
 			mother=100015428	# Прасковья Петровна Долгорукий
 			1727.01.01={birth=yes}
 			1793.01.01={death=yes}
@@ -28370,7 +28377,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			name=Александр
 			dynasty=1010047
 			religion=orthodox culture=russian
-			father=urusov_0014	# Vasily Alekseevich Алексеевич Урусов
+			father=urusov_0014	# Василий Алексеевич Урусов
 			mother=100015428	# Прасковья Петровна Долгорукий
 			1729.10.03={birth=yes}
 			1778.07.01={add_spouse=lowborn_1213}	# Анна Андреевна Волков
@@ -28390,7 +28397,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			name=Пётр
 			dynasty=1010047
 			religion=orthodox culture=russian
-			father=urusov_0014	# Vasily Alekseevich Алексеевич Урусов
+			father=urusov_0014	# Василий Алексеевич Урусов
 			mother=100015428	# Прасковья Петровна Долгорукий
 			1733.01.01={birth=yes}
 			1759.01.01={add_spouse=100017745}	# Александра Сергеевна Салтыков
@@ -28428,7 +28435,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 					1857.12.01={death=yes}  # EST.
 				}
 			urusov_0036={ #// C2. Praskovya Petrovna; m.D. I. Kiselyov
-				name="Praskovya Petrovna"
+				name="Praskovya"
 				female=yes
 				dynasty=1010047
 				religion=orthodox culture=russian
@@ -28438,7 +28445,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 				1830.12.01={death=yes}  # EST.
 			}
 			urusov_0037={ #// C3. Vera Petrovna; m.Pr Yakov Леонович Грузинский $$
-				name="Vera Petrovna"
+				name="Vera"
 				female=yes
 				dynasty=1010047
 				religion=orthodox culture=russian
@@ -28452,7 +28459,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			female=yes
 			dynasty=1010047
 			religion=orthodox culture=russian
-			father=urusov_0014	# Vasily Alekseevich Алексеевич Урусов
+			father=urusov_0014	# Василий Алексеевич Урусов
 			mother=100015428	# Прасковья Петровна Долгорукий
 			1735.01.01={birth=yes}  # EST.
 			1784.12.01={death=yes}  # EST.
@@ -28462,7 +28469,7 @@ urusov_0001={ #// Pr Alexei Nikitich Urusov, steward; m.Pss Vasilisa Petrovna Do
 			female=yes
 			dynasty=1010047
 			religion=orthodox culture=russian
-			father=urusov_0014	# Vasily Alekseevich Алексеевич Урусов
+			father=urusov_0014	# Василий Алексеевич Урусов
 			mother=100015428	# Прасковья Петровна Долгорукий
 			1737.01.01={birth=yes}  # EST.
 			1784.12.01={death=yes}  # EST.
@@ -28635,7 +28642,7 @@ urusov_0019={ #// Pr Alexander Mikhailovich Urusov (12.11.1767-25.12.1857), Chie
 		father=urusov_0019	# Александр Михайлович Урусов
 		mother=tatishchev_0026	# Екатерина Павловна Татищев
 		1808.01.01={birth=yes}
-		1834.01.01={add_spouse=lowborn_1235}	# Анастасия Николаевна Borozdin
+		1834.01.01={add_spouse=lowborn_1235}	# Анастасия Николаевна Бороздин
 		1843.01.01={death=yes}
 	}
 	urusov_0056={ #// A6. Peter (1810-90), chamberlain; m.Ekaterina Nikolaevna Sipyagina
@@ -30157,7 +30164,7 @@ demidov_0001={ #// Akinfi Nikitich Demidov (1678-5 Aug 1745); m.1st Jelisaveta T
 			}
 				# Katharina (01.08.1804-06.07.1836)
 				# Sophia (*01.11.1805)
-				100081979={ # Elizabeth (27.09.1805? - 18.09.1878), verheiratet mit Senator Prinz Yuri Alekseevich Dolgorukov . $$
+				100081979={ #// Elizabeth (27.09.1805? - 18.09.1878), verheiratet mit Senator Prinz Yuri Alekseevich Dolgorukov . $$
 					name=Елизавета
 					female=yes
 					dynasty_house=orlov_davydov
@@ -30180,7 +30187,7 @@ demidov_0001={ #// Akinfi Nikitich Demidov (1678-5 Aug 1745); m.1st Jelisaveta T
 					1882.04.24={death=yes}
 				}
 					100021962={ #// 1d) Natalia (2 Jul 1833-11 Feb 1885); m.Pr Dmitri Dolgoruky $$
-						name="Natalia Vladimirovna"
+						name="Natalia"
 						female=yes
 						dynasty_house=orlov_davydov
 						religion=orthodox culture=russian
@@ -30719,9 +30726,9 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 						dynasty=1010061
 						religion=orthodox culture=russian
 						father=hendrikov_0008	# Александр Иванович Гендриков
-						mother=100018570	# Прасковья Александровна Хилков
+						mother=lowborn_0725	# CSS Евдокия Васильевна Гудович
 						1855.01.01={birth=yes}
-						1880.01.01={add_spouse=lowborn_0772}	# Cecilia Валеряновна Chirkov
+						1880.01.01={add_spouse=lowborn_0772}	# Cecilia Валеряновна Чирков
 						1920.12.01={death=yes}  # EST.
 					}
 					hendrikov_0024={ #// 6e) [2m.] Aleksandra (1856-    )
@@ -30730,7 +30737,7 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 						dynasty=1010061
 						religion=orthodox culture=russian
 						father=hendrikov_0008	# Александр Иванович Гендриков
-						mother=100018570	# Прасковья Александровна Хилков
+						mother=lowborn_0725	# CSS Евдокия Васильевна Гудович
 						1856.01.01={birth=yes}
 						1926.12.01={death=yes}  # EST.
 					}
@@ -30739,7 +30746,7 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 						dynasty=1010061
 						religion=orthodox culture=russian
 						father=hendrikov_0008	# Александр Иванович Гендриков
-						mother=100018570	# Прасковья Александровна Хилков
+						mother=lowborn_0725	# CSS Евдокия Васильевна Гудович
 						1857.07.11={birth=yes}
 						1882.01.01={add_spouse=100015790}	# София Петровна Гагарин
 						1912.03.17={death=yes}
@@ -30830,7 +30837,6 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 				father=hendrikov_0032	# Сергей Иванович Гендриков
 				mother=lowborn_0778	# PSS N Мещерский
 				1774.01.01={birth=yes}  # EST.
-				1819.01.01={add_spouse=lowborn_0780}	# Елизавета Васильевна N
 				1834.12.01={death=yes}  # EST.
 			}
 				hendrikov_0035={ #// 1d) Aleksandra (1820-29 Dec 1909); m.Wassili Aleksandrovich Somov
@@ -30839,7 +30845,6 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 					dynasty=1010061
 					religion=orthodox culture=russian
 					father=hendrikov_0034	# Семён Сергеевич Гендриков
-					mother=lowborn_0780	# Елизавета Васильевна N
 					1820.01.01={birth=yes}
 					1909.12.29={death=yes}
 				}
@@ -30848,7 +30853,6 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 					dynasty=1010061
 					religion=orthodox culture=russian
 					father=hendrikov_0034	# Семён Сергеевич Гендриков
-					mother=lowborn_0780	# Елизавета Васильевна N
 					1821.01.01={birth=yes}  # EST.
 					1881.12.01={death=yes}  # EST.
 				}
@@ -30900,7 +30904,6 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 					dynasty=1010061
 					religion=orthodox culture=russian
 					father=hendrikov_0034	# Семён Сергеевич Гендриков
-					mother=lowborn_0780	# Елизавета Васильевна N
 					1823.01.01={birth=yes}  # EST.
 					1883.12.01={death=yes}  # EST.
 				}
@@ -30909,7 +30912,6 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 					dynasty=1010061
 					religion=orthodox culture=russian
 					father=hendrikov_0034	# Семён Сергеевич Гендриков
-					mother=lowborn_0780	# Елизавета Васильевна N
 					1825.01.01={birth=yes}  # EST.
 					1885.12.01={death=yes}  # EST.
 				}
@@ -30935,7 +30937,6 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 					dynasty=1010061
 					religion=orthodox culture=russian
 					father=hendrikov_0034	# Семён Сергеевич Гендриков
-					mother=lowborn_0780	# Елизавета Васильевна N
 					1827.01.01={birth=yes}  # EST.
 					1898.01.01={death=yes}
 				}
@@ -30944,7 +30945,6 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 					dynasty=1010061
 					religion=orthodox culture=russian
 					father=hendrikov_0034	# Семён Сергеевич Гендриков
-					mother=lowborn_0780	# Елизавета Васильевна N
 					1829.01.01={birth=yes}  # EST.
 					1889.12.01={death=yes}  # EST.
 				}
@@ -30953,7 +30953,6 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 					dynasty=1010061
 					religion=orthodox culture=russian
 					father=hendrikov_0034	# Семён Сергеевич Гендриков
-					mother=lowborn_0780	# Елизавета Васильевна N
 					1828.01.01={birth=yes}
 					1914.02.18={death=yes}  # Genoa
 				}
@@ -31005,7 +31004,7 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 			1750.01.01={birth=yes}  # EST.
 			1814.10.11={death=yes}
 		}
-		hendrikov_0054={ #// 7b) Jelisaveta; m.Dmitri Izmailov (d.15 Mar 1779)
+		hendrikov_0054={ #// 7b) Jelisaveta; m.Dmitri Izmailov (d.15 Mar 1779) $$
 			name=Елизавета
 			female=yes
 			dynasty=1010061
@@ -31094,7 +31093,7 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 			1913.09.27={death=yes}
 		}
 			100088383={ #//    Css        Елизавета Nikolaevna      Граббе                                   (1893-1982)     0 [BELOSELSKY] $$
-				name="Елизавета Nikolaevna"
+				name="Елизавета"
 				dynasty=1010062
 				female=yes
 				religion=orthodox culture=russian
@@ -31114,7 +31113,7 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 			1948.10.24={death=yes}
 		}
 	# Mikhail Pavlovich (1834 - 1877), major general , participant in the Caucasian and Russian-Turkish wars , died during the assault on Kars .
-		grabbe_0010={ # Grabbe, Dmitry Mikhailovich (1874-1927) - Colonel of the Cavalier Guard Regiment . $$
+		grabbe_0010={ #// Grabbe, Dmitry Mikhailovich (1874-1927) - Colonel of the Cavalier Guard Regiment . $$
 			name=Дмитрий
 			dynasty=1010062
 			religion=orthodox culture=russian
@@ -31490,7 +31489,7 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 						1879.08.15={death=yes}
 					}
 					# Михаил
-		vorontsov_0001={ # Praskovia Ilarionovna Worontzov; m.Sergei Tatishchev (d.after 1744) $$
+		vorontsov_0001={ #// Praskovia Ilarionovna Worontzov; m.Sergei Tatishchev (d.after 1744) $$
 			name=Прасковья
 			female=yes
 			dynasty=1010055
@@ -31501,91 +31500,101 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 
 ##DASHKOV
 # Илларион Иванович Воронцов
-100035315={ #// Ivan Illarionovich (09.09.1760-30.03.1790), gentleman of the bedchamber, was married to Irina Ivanovna Ismailova (1768-1848), their son Ivan (1790-1854), chief master of ceremonies at the court of the Emperor Nicholas I of (1789) ; after the death of the last of the princes Dashkovs, with the consent of the Emperor Alexander I of, in 1807, I became known as Count Vorontsov-Dashkov. $$
-	name=Иван
+100435315={ #// Illarion Voroncov-Daškov (*9.9.1760, +30.3.1790); m.ca 1789 Irina Ivanovna Izmajlov (*1768, +1848) $$
+	name="Илларион"
 	dynasty=1010041
 	religion=orthodox culture=russian
-	1790.06.02={birth=yes}
-	1837.01.01={add_spouse=100019369}	# Александра Кирилловна Нарышкин
-	1854.03.18={death=yes}
+	1760.09.09={birth=yes}
+	1789.01.01={add_spouse=izmailov_0041}	# Ирина Ивановна Измайлов
+	1790.03.30={death=yes}
 }
-	# Irina (1835-1924), philanthropist, he was married to Lieutenant General, Adjutant General Count F. Paskevich
-	100035317={ #// Hilarion ( on May 27 1837  - January 25 1916 ), General of Cavalry, one of Russia's largest landowners. $$
-		name=Илларион
+	100035315={ #// Ivan (1790-1854), chief master of ceremonies at the court of the Emperor Nicholas I of (1789) ; after the death of the last of the princes Dashkovs, with the consent of the Emperor Alexander I of, in 1807, I became known as Count Vorontsov-Dashkov. $$
+		name=Иван
 		dynasty=1010041
 		religion=orthodox culture=russian
-		father=100035315	# Иван Воронцов-Дашков
-		mother=100019369	# Александра Кирилловна Нарышкин
-		1837.03.17={birth=yes}  # Sankt Petersburg
-		1867.01.29={add_spouse=100018607}	# Елизавета Андреевна Шувалов
-		1916.01.15={death=yes}  # Woronzow Castle Alupka
+		father=100435315	# Илларион Воронцов-Дашков
+		mother=izmailov_0041	# Ирина Ивановна Измайлов
+		1790.06.02={birth=yes}
+		1837.01.01={add_spouse=100019369}	# Александра Кирилловна Нарышкин
+		1854.03.18={death=yes}
 	}
-		# Ivan (1868-1897) - aide-de-camp, Colonel of the Life Guards Hussar Regiment, the great-grandfather of actress Anne Vjazemski
-		100035312={ #// Alexandra (1869-1959) - married to the Moscow governor, Major General gr. P. P. Shuvalov $$
-			name=Alexandra
-			female=yes
-			dynasty=1010041
-			religion=orthodox culture=russian
-			father=100035317	# Илларион Иванович Воронцов-Дашков
-			mother=100018607	# Елизавета Андреевна Шувалов
-			1869.04.28={birth=yes}
-			1959.07.10={death=yes}  # Paris
-		}
-		100135314={ #// Софья (1870-1953) - married d.s.s, Chamberlain E. P. Demidov Prince of San Donato $$
-			name=София
-			female=yes
-			dynasty=1010041
-			religion=orthodox culture=russian
-			father=100035317	# Илларион Иванович Воронцов-Дашков
-			mother=100018607	# Елизавета Андреевна Шувалов
-			1870.08.09={birth=yes}  # Novo Temnikovo
-			1953.04.16={death=yes}  # Athens
-		}
-		100035314={ #// Maria (1871-1927) - married to a member of the 4th State Duma, d.s.s. Earl B. V. Musin-Pushkin $$
-			name=Maria
-			female=yes
-			dynasty=1010041
-			religion=orthodox culture=russian
-			father=100035317	# Илларион Иванович Воронцов-Дашков
-			mother=100018607	# Елизавета Андреевна Шувалов
-			1871.11.06={birth=yes}  # Meran
-			1927.09.13={death=yes}  # Salies-de-Béarn
-		}
-		100035316={ #// Irina (1872-1959) - married to the adjutant, Colonel Count d.S. Sheremetev $$
-			name=Irina
-			female=yes
-			dynasty=1010041
-			religion=catholic culture=russian
-			father=100035317	# Илларион Иванович Воронцов-Дашков
-			mother=100018607	# Елизавета Андреевна Шувалов
-			1872.12.02={birth=yes}  # St.Petersburg
-			1959.01.03={death=yes}  # Roma
-		}
-		# Roman (1874-1893) - a midshipman
-		100035318={ #// Hilarion (1877-1932) - commander of Kabardian Cavalry Regiment, George Knight. $$
+		# Irina (1835-1924), philanthropist, he was married to Lieutenant General, Adjutant General Count F. Paskevich
+		100035317={ #// Hilarion ( on May 27 1837  - January 25 1916 ), General of Cavalry, one of Russia's largest landowners. $$
 			name=Илларион
 			dynasty=1010041
 			religion=orthodox culture=russian
-			father=100035317	# Илларион Иванович Воронцов-Дашков
-			mother=100018607	# Елизавета Андреевна Шувалов
-			1877.01.01={birth=yes}  # Tsarskoye Selo
-			1900.09.10={add_spouse=100019365}	# Ирина Васильевна Нарышкин
-			1932.04.20={death=yes}	# Paris
+			father=100035315	# Иван Илларионович Воронцов-Дашков
+			mother=100019369	# Александра Кирилловна Нарышкин
+			1837.03.17={birth=yes}  # Sankt Petersburg
+			1867.01.29={add_spouse=100018607}	# Елизавета Андреевна Шувалов
+			1916.01.15={death=yes}  # Woronzow Castle Alupka
 		}
-			# Roman (1901-1960)
-			100035313={ #// Maria (1903-1997), married Prince Nikita Alexandrovich . $$
+			# Ivan (1868-1897) - aide-de-camp, Colonel of the Life Guards Hussar Regiment, the great-grandfather of actress Anne Vjazemski
+			100035312={ #// Alexandra (1869-1959) - married to the Moscow governor, Major General gr. P. P. Shuvalov $$
+				name=Alexandra
+				female=yes
+				dynasty=1010041
+				religion=orthodox culture=russian
+				father=100035317	# Илларион Иванович Воронцов-Дашков
+				mother=100018607	# Елизавета Андреевна Шувалов
+				1869.04.28={birth=yes}
+				1959.07.10={death=yes}  # Paris
+			}
+			100135314={ #// Софья (1870-1953) - married d.s.s, Chamberlain E. P. Demidov Prince of San Donato $$
+				name=София
+				female=yes
+				dynasty=1010041
+				religion=orthodox culture=russian
+				father=100035317	# Илларион Иванович Воронцов-Дашков
+				mother=100018607	# Елизавета Андреевна Шувалов
+				1870.08.09={birth=yes}  # Novo Temnikovo
+				1953.04.16={death=yes}  # Athens
+			}
+			100035314={ #// Maria (1871-1927) - married to a member of the 4th State Duma, d.s.s. Earl B. V. Musin-Pushkin $$
 				name=Maria
 				female=yes
 				dynasty=1010041
 				religion=orthodox culture=russian
-				1903.02.13={birth=yes}
-				1997.06.15={death=yes}
+				father=100035317	# Илларион Иванович Воронцов-Дашков
+				mother=100018607	# Елизавета Андреевна Шувалов
+				1871.11.06={birth=yes}  # Meran
+				1927.09.13={death=yes}  # Salies-de-Béarn
 			}
-			# Michael (1904-2003)
-			# Alexander (1905-1987)
-			# Hilarion (1911-1982)
-		# Alexander (1881-1938) - adjutant, Colonel of the Life Guards Hussar Regiment. He was married to Princess Anne Ilyinichna Chavchavadze (1891-1943), granddaughter of Major General Prince David Chavchavadze Alexandrovich
-			# Married sons were born: Hilary Alexander
+			100035316={ #// Irina (1872-1959) - married to the adjutant, Colonel Count d.S. Sheremetev $$
+				name=Irina
+				female=yes
+				dynasty=1010041
+				religion=catholic culture=russian
+				father=100035317	# Илларион Иванович Воронцов-Дашков
+				mother=100018607	# Елизавета Андреевна Шувалов
+				1872.12.02={birth=yes}  # St.Petersburg
+				1959.01.03={death=yes}  # Roma
+			}
+			# Roman (1874-1893) - a midshipman
+			100035318={ #// Hilarion (1877-1932) - commander of Kabardian Cavalry Regiment, George Knight. $$
+				name=Илларион
+				dynasty=1010041
+				religion=orthodox culture=russian
+				father=100035317	# Илларион Иванович Воронцов-Дашков
+				mother=100018607	# Елизавета Андреевна Шувалов
+				1877.01.01={birth=yes}  # Tsarskoye Selo
+				1900.09.10={add_spouse=100019365}	# Ирина Васильевна Нарышкин
+				1932.04.20={death=yes}	# Paris
+			}
+				# Roman (1901-1960)
+				100035313={ #// Maria (1903-1997), married Prince Nikita Alexandrovich . $$
+					name=Maria
+					female=yes
+					dynasty=1010041
+					religion=orthodox culture=russian
+					1903.02.13={birth=yes}
+					1997.06.15={death=yes}
+				}
+				# Michael (1904-2003)
+				# Alexander (1905-1987)
+				# Hilarion (1911-1982)
+			# Alexander (1881-1938) - adjutant, Colonel of the Life Guards Hussar Regiment. He was married to Princess Anne Ilyinichna Chavchavadze (1891-1943), granddaughter of Major General Prince David Chavchavadze Alexandrovich
+				# Married sons were born: Hilary Alexander
 ## VORONTSOV-DASHKOV 1010055
 
 
@@ -31691,7 +31700,7 @@ hendrikov_0001={ #// Simon Hendrikov (1672-25 Dec 1729) m.Christina Skawronska, 
 #yusupov2
 # Il-Murza (d. 1611)
 # Seyush-Murza Yusupov-Kniazhevo (d. 1656)
-yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward, +1694; 1m: Ekaterina Yakovlevna Sumarokova; 2m: Pss Tatiana Fyodorovna Korkodinova (+1719)
+yusupov_0001={ #// Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward, +1694; 1m: Ekaterina Yakovlevna Sumarokova; 2m: Pss Tatiana Fyodorovna Korkodinova (+1719)
 	name=Dmitry
 	dynasty=1010065
 	religion=orthodox culture=russian
@@ -31700,7 +31709,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 	1685.01.01={add_spouse=lowborn_0938}	# PSS Татьяна Федоровна Коркодинов
 	1694.01.01={death=yes}
 }
-	yusupov_0003={ # A2. Pr Grigory, general-en-chef, Minister of Defense, *Moscow 17.11.1676, +Moscow 2.9.1730; m.Anna Nikitichna Akinfova (+1735), dau.of okolnichi Nikita Ivanovich Akinfov
+	yusupov_0003={ #// A2. Pr Grigory, general-en-chef, Minister of Defense, *Moscow 17.11.1676, +Moscow 2.9.1730; m.Anna Nikitichna Akinfova (+1735), dau.of okolnichi Nikita Ivanovich Akinfov
 		name=Григорий
 		dynasty=1010065
 		religion=orthodox culture=russian
@@ -31710,7 +31719,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 		1696.01.01={add_spouse=lowborn_0942}	# Анна Никитична Akinfov
 		1730.09.02={death=yes}  # Moscow
 	}
-		yusupov_0004={ # B1. Pr Boris, Chamberlain 1730, General Governor of Moscow 1738, Senator, *Moscow 18.6.1695, +Moscow 1.3.1759; m.1734 Irina Mikhailovna Zinovyeva (*1718, +25.3.1788), dau.of steward Mikhail Petrovich Zinoviev
+		yusupov_0004={ #// B1. Pr Boris, Chamberlain 1730, General Governor of Moscow 1738, Senator, *Moscow 18.6.1695, +Moscow 1.3.1759; m.1734 Irina Mikhailovna Zinovyeva (*1718, +25.3.1788), dau.of steward Mikhail Petrovich Zinoviev
 			name=Борис
 			dynasty=1010065
 			religion=orthodox culture=russian
@@ -31720,7 +31729,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 			1734.01.01={add_spouse=lowborn_0943}	# Ирина Михайловна Зиновьев
 			1759.03.01={death=yes}  # Moscow
 		}
-			yusupov_0005={ # C1. Pr Nikolay, senator, Minister of State Properties, Director of Imperial Theatres, *Italy 15.3.1751, +St.Petersburg 15.7.1831; m.1793 Tatiana Vasilievna von Engelhardt (*1.1.1769, +23.5.1841), niece of HSH Reichfurst Grigory Potyomkin-Tavricheski
+			yusupov_0005={ #// C1. Pr Nikolay, senator, Minister of State Properties, Director of Imperial Theatres, *Italy 15.3.1751, +St.Petersburg 15.7.1831; m.1793 Tatiana Vasilievna von Engelhardt (*1.1.1769, +23.5.1841), niece of HSH Reichfurst Grigory Potyomkin-Tavricheski
 				name=Николай
 				dynasty=1010065
 				religion=orthodox culture=russian
@@ -31730,7 +31739,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 				1793.01.01={add_spouse=lowborn_0946}	# Татьяна Васильевна Engelhardt
 				1831.07.15={death=yes}  # Sankt Petersburg
 			}
-				yusupov_0006={ # D1. Pr Nikolay, +in infancy
+				yusupov_0006={ #// D1. Pr Nikolay, +in infancy
 					name=Николай
 					dynasty=1010065
 					religion=orthodox culture=russian
@@ -31739,7 +31748,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 					1794.01.01={birth=yes}  # EST.
 					1854.12.01={death=yes}  # EST.
 				}
-				yusupov_0007={ # D2. Pr Boris, Marshal of the Imperial Court, *Moscow 9.6.1794, +Arkhangelskoye Palace 25.10.1849; 1m: Pss Praskovia Pavlovna Shcherbatova (*6.7.1795, +17.10.1820); 2m: Zenaida Ivanovna Naryshkina, Csse de Chauveau, Marquise de Serre (*1809 +26.2.1893) $$
+				yusupov_0007={ #// D2. Pr Boris, Marshal of the Imperial Court, *Moscow 9.6.1794, +Arkhangelskoye Palace 25.10.1849; 1m: Pss Praskovia Pavlovna Shcherbatova (*6.7.1795, +17.10.1820); 2m: Zenaida Ivanovna Naryshkina, Csse de Chauveau, Marquise de Serre (*1809 +26.2.1893) $$
 					name=Борис
 					dynasty=1010065
 					religion=orthodox culture=russian
@@ -31750,7 +31759,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 					1821.10.17={add_spouse=100019556}	# Зинаида Ивановна Нарышкин
 					1849.10.25={death=yes}  # Arkhangelskoye Palace
 				}
-					yusupov_0008={ # E1. Pr Nikolay, Marshal of the Imperial Court, *Moscow 12.10.1827, +Baden-Baden 31.7.1891; m.Css Tatiana Alexandrovna Ribeaupierre (*29.6.1828 +14.1.1879), dau.of Cte Alexandre de Ribeaupierre and Ekaterina Mikhailovna Potyomkina $$
+					yusupov_0008={ #// E1. Pr Nikolay, Marshal of the Imperial Court, *Moscow 12.10.1827, +Baden-Baden 31.7.1891; m.Css Tatiana Alexandrovna Ribeaupierre (*29.6.1828 +14.1.1879), dau.of Cte Alexandre de Ribeaupierre and Ekaterina Mikhailovna Potyomkina $$
 						name=Николай
 						dynasty=1010065
 						religion=orthodox culture=russian
@@ -31760,7 +31769,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 						1860.01.01={add_spouse=ribaupierre_0002}	# Татьяна Александровна Рибопьер
 						1891.07.31={death=yes}  # Baden-Baden
 					}
-						yusupov_0009={ # F1. Pss Zenaida, *St.Petersburg 2.9.1861, +Paris 24.11.1939; m.St.Petersburg 4.4.1882 Ct Felix Felixovich Sumarokov-Elston (*St.Petersburg 5.10.1856, +Rome 10.6.1928) $$
+						yusupov_0009={ #// F1. Pss Zenaida, *St.Petersburg 2.9.1861, +Paris 24.11.1939; m.St.Petersburg 4.4.1882 Ct Felix Felixovich Sumarokov-Elston (*St.Petersburg 5.10.1856, +Rome 10.6.1928) $$
 							name=Зинаида
 							female=yes
 							dynasty=1010065
@@ -31771,17 +31780,17 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 							1939.11.24={death=yes}  # Paris
 						}
 						# Tatyana Nikolaevna (1866-1888)
-			yusupov_0015={ # C2. Pss Evdokia, *Moscow 5.5.R/16.5.1743, +St.Petersburg 19.7.1780; m.Mitava 6.3.1774 (div 1777) Peter von Biron, Duke of Courland (*15.2.1724 +13.1.1800) $$
+			yusupov_0015={ #// C2. Pss Evdokia, *Moscow 5.5.R/16.5.1743, +St.Petersburg 19.7.1780; m.Mitava 6.3.1774 (div 1777) Peter von Biron, Duke of Courland (*15.2.1724 +13.1.1800) $$
 				name=Евдокия
 				female=yes
 				dynasty=1010065
 				religion=orthodox culture=russian
 				father=yusupov_0004	# Борис Григорьевич Юсупов
 				mother=lowborn_0943	# Ирина Михайловна Зиновьев
-				1780.07.19={birth=yes}
-				1850.12.01={death=yes}  # EST.
+				1743.05.16={birth=yes}	# Moscow
+				1780.07.19={death=yes}  # St.Petersburg
 			}
-			yusupov_0016={ # C3. Pss Alexandra, *1744, +1791; m.senator Ivan Mikhailovich Izmailov (*30.1.1724, +10.11.1787)
+			yusupov_0016={ #// C3. Pss Alexandra, *1744, +1791; m.senator Ivan Mikhailovich Izmailov (*30.1.1724, +10.11.1787) $$
 				name=Александра
 				female=yes
 				dynasty=1010065
@@ -31791,7 +31800,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 				1744.01.01={birth=yes}
 				1791.01.01={death=yes}
 			}
-			yusupov_0017={ # C4. Pss Elisaveta, *27.4.1745, +29.8.1770; m.13.2.1764 Pr Andrei Mikhailovich Galitzine (*15.8.1729, +23.2.1770) $$
+			yusupov_0017={ #// C4. Pss Elisaveta, *27.4.1745, +29.8.1770; m.13.2.1764 Pr Andrei Mikhailovich Galitzine (*15.8.1729, +23.2.1770) $$
 				name=Елизавета
 				female=yes
 				dynasty=1010065
@@ -31801,7 +31810,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 				1745.04.27={birth=yes}
 				1770.08.29={death=yes}
 			}
-			yusupov_0018={ # C5. Pss Anna, *1749, +1772; m.1771 Alexander Yakovlevich Protasov (*1742, +27.4.1799), chamberlain, senator, tutor of Alexander I
+			yusupov_0018={ #// C5. Pss Anna, *1749, +1772; m.1771 Alexander Yakovlevich Protasov (*1742, +27.4.1799), chamberlain, senator, tutor of Alexander I
 				name=Анна
 				female=yes
 				dynasty=1010065
@@ -31811,7 +31820,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 				1749.01.01={birth=yes}
 				1772.01.01={death=yes}
 			}
-		yusupov_0019={ # B2. Pr Grigory, colonel, +1737; 1m: Pss Maria Petrovna Korkodinova; 2m: Pss Yevdokia Nikolaievna Shahovskaya $$
+		yusupov_0019={ #// B2. Pr Grigory, colonel, +1737; 1m: Pss Maria Petrovna Korkodinova; 2m: Pss Yevdokia Nikolaievna Shahovskaya $$
 			name=Григорий
 			dynasty=1010065
 			religion=orthodox culture=russian
@@ -31822,7 +31831,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 			1732.01.01={add_spouse=lowborn_1007}	# PSS Евдокия Николаевна Шаховской
 			1737.01.01={death=yes}
 		}
-		yusupov_0020={ # B3. Pr Sergei, subcolonel, +1734
+		yusupov_0020={ #// B3. Pr Sergei, subcolonel, +1734
 			name=Сергей
 			dynasty=1010065
 			religion=orthodox culture=russian
@@ -31831,7 +31840,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 			1703.01.01={birth=yes}  # EST.
 			1734.01.01={death=yes}
 		}
-		yusupov_0021={ # B4. Pss Maria, Lady-in-Waiting at the Court of Empress Catherine I, forced to take monastic vows by her elder brothers in order to inherit her part of family estates, +1738
+		yusupov_0021={ #// B4. Pss Maria, Lady-in-Waiting at the Court of Empress Catherine I, forced to take monastic vows by her elder brothers in order to inherit her part of family estates, +1738
 			name=Мария
 			female=yes
 			dynasty=1010065
@@ -31848,7 +31857,7 @@ yusupov_0001={ # Abdul-Murza == Pr Dmitry Seyushevich Yusupov-Knyazhevo, steward
 ## GOLENISHCHEV-KUTUSOV 1010068
 # https://www.angelfire.com/realm/gotha/gotha/goljenistchev.html
 golenishchev_0001={ #// Wassili Aleksandrovich Goljenistchev-Kutusov
-	name="Wassili Aleksandrovich"
+	name="Wassili"
 	dynasty=1010068
 	religion=orthodox culture=russian
 	1438.01.01={birth=yes}  # EST.
@@ -31858,7 +31867,7 @@ golenishchev_0001={ #// Wassili Aleksandrovich Goljenistchev-Kutusov
 		name=Василий
 		dynasty=1010068
 		religion=orthodox culture=russian
-		father=golenishchev_0001	# Wassili Aleksandrovich Голенищев-Кутузов
+		father=golenishchev_0001	# Василий Голенищев-Кутузов
 		1484.01.01={birth=yes}  # EST.
 		1544.12.01={death=yes}  # EST.
 	}
@@ -32655,7 +32664,7 @@ golenishchev_0001={ #// Wassili Aleksandrovich Goljenistchev-Kutusov
 		name=Тимофей
 		dynasty=1010068
 		religion=orthodox culture=russian
-		father=golenishchev_0001	# Wassili Aleksandrovich Голенищев-Кутузов
+		father=golenishchev_0001	# Василий Голенищев-Кутузов
 		1468.01.01={birth=yes}  # EST.
 		1528.12.01={death=yes}  # EST.
 	}
@@ -32705,7 +32714,6 @@ golenishchev_0001={ #// Wassili Aleksandrovich Goljenistchev-Kutusov
 								religion=orthodox culture=russian
 								father=golenishchev_0092	# Jelizeri Александрович Голенищев-Кутузов
 								1648.01.01={birth=yes}  # EST.
-								1677.01.01={add_spouse=lowborn_1091}	# Мария Павловна N
 								1708.12.01={death=yes}  # EST.
 							}
 								golenishchev_0094={ #// 1h) Jakow; m.Jekaterina Ivanovna N
@@ -32713,9 +32721,7 @@ golenishchev_0001={ #// Wassili Aleksandrovich Goljenistchev-Kutusov
 									dynasty=1010068
 									religion=orthodox culture=russian
 									father=golenishchev_0093	# Матвей Голенищев-Кутузов
-									mother=lowborn_1091	# Мария Павловна N
 									1678.01.01={birth=yes}  # EST.
-									1707.01.01={add_spouse=lowborn_1092}	# Екатерина Ивановна N
 									1738.12.01={death=yes}  # EST.
 								}
 									golenishchev_0095={ #// 1i) Fjodr, d.after 1793
@@ -32723,7 +32729,6 @@ golenishchev_0001={ #// Wassili Aleksandrovich Goljenistchev-Kutusov
 										dynasty=1010068
 										religion=orthodox culture=russian
 										father=golenishchev_0094	# Яков Матвеевич Голенищев-Кутузов
-										mother=lowborn_1092	# Екатерина Ивановна N
 										1724.01.01={birth=yes}  # EST.
 										1794.01.01={death=yes}
 									}
@@ -32978,14 +32983,14 @@ sumarokovelston_0000={ #// Felix Nikolaevich Elston; m.Css Elena Sergeievna Suma
 				1983.08.30={death=yes}  # Cormeilles
 			}
 
-yusupov_0025={ # Elia Sfiris (b.Athens 20 Aug 1932); m.Athens 20 Jun 1965 Xenia Sheremetev (b.Rome 1 Mar 1942) $$
+yusupov_0025={ #// Elia Sfiris (b.Athens 20 Aug 1932); m.Athens 20 Jun 1965 Xenia Sheremetev (b.Rome 1 Mar 1942) $$
 	name="Ilias Styris"
 	religion=orthodox culture=greek
 	1932.08.20={birth=yes}  # Athens
 	1965.06.20={add_spouse=100016445}	# Ксения Николаевна Шереметев
 	1997.12.01={death=yes}  # EST.
 }
-	yusupov_0014={ # J1. Tatiana Styris, *Athens 28.8.1968; m.1996 Alexis Giamakoupoulos (*1963)
+	yusupov_0014={ #// J1. Tatiana Styris, *Athens 28.8.1968; m.1996 Alexis Giamakoupoulos (*1963)
 		name=Tatiana
 		female=yes
 		dynasty=1010066
@@ -32998,7 +33003,7 @@ yusupov_0025={ # Elia Sfiris (b.Athens 20 Aug 1932); m.Athens 20 Jun 1965 Xenia 
 
 
 ## RIBAUPIERRE 1010067
-ribaupierre_0004={ # Ivan Stepanovich Ribopierre ( 27. August  ( 7. September )  1754  - 11. Dezember  ( 22. )  1790 , Izmail ) $$
+ribaupierre_0004={ #// Ivan Stepanovich Ribopierre ( 27. August  ( 7. September )  1754  - 11. Dezember  ( 22. )  1790 , Izmail ) $$
 	name=Иван
 	dynasty=1010067
 	religion=orthodox culture=russian
@@ -33006,7 +33011,7 @@ ribaupierre_0004={ # Ivan Stepanovich Ribopierre ( 27. August  ( 7. September ) 
 	1778.01.01={add_spouse=bibikov_0003}	# Аграфена Александровна Бибиков
 	1814.12.01={death=yes}  # EST.
 }
-	ribaupierre_0001={ # Ribopierre, Alexander Ivanovich  ( April 20 [ May 1 ]  1781 , St. Petersburg  - May 24 [ June 5 ]  1865 , St. Petersburg ); m. September 29, 1809, Ribopierre was married to Ekaterina Mikhailovna Potemkina (1788-1872), daughter of Lieutenant General M. S. Potemkin , grandniece of Prince Potemkin 
+	ribaupierre_0001={ #// Ribopierre, Alexander Ivanovich  ( April 20 [ May 1 ]  1781 , St. Petersburg  - May 24 [ June 5 ]  1865 , St. Petersburg ); m. September 29, 1809, Ribopierre was married to Ekaterina Mikhailovna Potemkina (1788-1872), daughter of Lieutenant General M. S. Potemkin , grandniece of Prince Potemkin 
 		name=Александр
 		dynasty=1010067
 		religion=orthodox culture=russian
@@ -33016,7 +33021,7 @@ ribaupierre_0004={ # Ivan Stepanovich Ribopierre ( 27. August  ( 7. September ) 
 		1865.05.24={death=yes}
 	}
 		# Aglaida (Anna) Aleksandrovna (04.11.1811 [10] -15.09.1842), goddaughter of grandmother T. V. Yusupova and A. A. Bibikov; maid of honor, married (since October 4, 1840) [11] to Baron Ernest Senden (1807-?), son of the Hessian envoy to Prussia.
-		ribaupierre_0003={ # Sofia Alexandrovna (05/04/1813 - 07/08/1881), maid of honor, since 1836 married to Count V.P. Golenishchev-Kutuzov (1803-1873). $$
+		ribaupierre_0003={ #// Sofia Alexandrovna (05/04/1813 - 07/08/1881), maid of honor, since 1836 married to Count V.P. Golenishchev-Kutuzov (1803-1873). $$
 			name=Sophia
 			female=yes
 			dynasty=1010067
@@ -33028,7 +33033,7 @@ ribaupierre_0004={ # Ivan Stepanovich Ribopierre ( 27. August  ( 7. September ) 
 		# Maria Mikhailovna ( October 12, 1814 [12] -?), was baptized on October 12, 1814 in the Naval Epiphany Cathedral with the reception of Prince B. N. Yusupov and Princess T. B. Golitsyna.
 		# Mikhail Alexandrovich (died in infancy);
 		# Maria Alexandrovna (06/20/1816 - 09/22/1885 [13] ), maid of honor, married (since May 27, 1849; Petersburg) [14] to the Prussian envoy in Constantinople, Count Joseph Brassier de Saint-Simon (1810-1872); died in Paris, buried in Montmartre .
-		100036815={ # Ivan Alexandrovich (11/25/1817 - 02/06/1871), official of the II Department of the SEIVK (in 1849), chamberlain (1863); m.Princess Sofya Vasilievna Trubetskoy, daughter of a cavalry general, adjutant general, senator V. S. Trubetskoy .  $$
+		100036815={ #// Ivan Alexandrovich (11/25/1817 - 02/06/1871), official of the II Department of the SEIVK (in 1849), chamberlain (1863); m.Princess Sofya Vasilievna Trubetskoy, daughter of a cavalry general, adjutant general, senator V. S. Trubetskoy .  $$
 			name=Иван
 			dynasty=1010067
 			religion=orthodox culture=russian
@@ -33048,7 +33053,7 @@ ribaupierre_0004={ # Ivan Stepanovich Ribopierre ( 27. August  ( 7. September ) 
 				1856.12.14={birth=yes}
 				1923.02.24={death=yes}
 			}
-		ribaupierre_0002={ # Tatyana Alexandrovna (06/29/1829 - 01/14/1879), maid of honor, wife of Prince N. B. Yusupov , mother of Princess Zinaida Yusupova $$
+		ribaupierre_0002={ #// Tatyana Alexandrovna (06/29/1829 - 01/14/1879), maid of honor, wife of Prince N. B. Yusupov , mother of Princess Zinaida Yusupova $$
 			name=Tatiana
 			female=yes
 			dynasty=1010067
@@ -33077,7 +33082,7 @@ ribaupierre_0004={ # Ivan Stepanovich Ribopierre ( 27. August  ( 7. September ) 
 		1921.07.03={add_spouse=100018018}	# Мария Николаевна Щербатов
 		1964.05.25={death=yes}  # Paris
 	}
-	100136785={ # Css Maria Aleksandrovna Tschernyschev-Bezobrazov (Moscow 5 Mar 1890-New York 14 Feb 1960); m. St.Petersburg 1908 Sergei Obolensky (St.Petersburg 4 Jul 1885-Houston, Texas 12 Nov 1950) $$
+	100136785={ #// Css Maria Aleksandrovna Tschernyschev-Bezobrazov (Moscow 5 Mar 1890-New York 14 Feb 1960); m. St.Petersburg 1908 Sergei Obolensky (St.Petersburg 4 Jul 1885-Houston, Texas 12 Nov 1950) $$
 		name=Мария
 		female=yes
 		dynasty=1010025
@@ -33120,14 +33125,14 @@ ribaupierre_0004={ # Ivan Stepanovich Ribopierre ( 27. August  ( 7. September ) 
 
 
 ## KLEINMICHEL 1010069
-kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
+kleinmichel_0001={ #// Pyotr Andreevich Kleinmichel (1793-1869)
 	name=Pyotr
 	dynasty=1010069
 	religion=orthodox culture=russian
 	1793.01.01={birth=yes}
 	1869.01.01={death=yes}
 }
-	kleinmichel_0002={ # A1. Elizaveta Petrovna (1833-1896); m.Nikolai Freiherr Pilar von Pilchau (*Kiev 30.5.1831; +Nizza 26.1.1886)
+	kleinmichel_0002={ #// A1. Elizaveta Petrovna (1833-1896); m.Nikolai Freiherr Pilar von Pilchau (*Kiev 30.5.1831; +Nizza 26.1.1886)
 		name=Elizaveta
 		female=yes
 		dynasty=1010069
@@ -33136,7 +33141,7 @@ kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
 		1833.01.01={birth=yes}
 		1896.01.01={death=yes}
 	}
-	kleinmichel_0003={ # A2. Alexandra Petrovna, maid of honor (1835-1912)
+	kleinmichel_0003={ #// A2. Alexandra Petrovna, maid of honor (1835-1912)
 		name=Alexandra
 		female=yes
 		dynasty=1010069
@@ -33145,7 +33150,7 @@ kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
 		1835.01.01={birth=yes}  # EST.
 		1895.12.01={death=yes}  # EST.
 	}
-	kleinmichel_0004={ # A3. Nikolai Petrovich, major general (1837-1878); m.Maria Eduardovna Keller (1846-1931)
+	kleinmichel_0004={ #// A3. Nikolai Petrovich, major general (1837-1878); m.Maria Eduardovna Keller (1846-1931)
 		name=Nikolai
 		dynasty=1010069
 		religion=orthodox culture=russian
@@ -33164,7 +33169,7 @@ kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
 			1876.01.01={birth=yes}	# EST.
 			1905.01.01={death=yes}  # Milan
 		}
-	kleinmichel_0005={ # A4. Vladimir Petrovich (1839-1882); m.Pss Ekaterina Petrovna Meshcherskaya (*1843, +Paris 1925)
+	kleinmichel_0005={ #// A4. Vladimir Petrovich (1839-1882); m.Pss Ekaterina Petrovna Meshcherskaya (*1843, +Paris 1925)
 		name=Vladimir
 		dynasty=1010069
 		religion=orthodox culture=russian
@@ -33173,7 +33178,7 @@ kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
 		1874.01.01={add_spouse=lowborn_1030}	# PSS Екатерина Петровна Мещерский
 		1882.01.01={death=yes}
 	}
-		kleinmichel_0012={ # B2. Peter Gf. Kleinmichel, *1875, +April 1919
+		kleinmichel_0012={ #// B2. Peter Gf. Kleinmichel, *1875, +April 1919
 			name=Peter
 			dynasty=1010069
 			religion=orthodox culture=russian
@@ -33200,7 +33205,7 @@ kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
 				1903.03.01={birth=yes}
 				1985.04.19={death=yes}
 			}
-		kleinmichel_0006={ # B1. Nikolai Vladimirovich, *1877, +shot by the Bolsheviks 1918
+		kleinmichel_0006={ #// B1. Nikolai Vladimirovich, *1877, +shot by the Bolsheviks 1918
 			name=Nikolai
 			dynasty=1010069
 			religion=orthodox culture=russian
@@ -33209,7 +33214,7 @@ kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
 			1877.01.01={birth=yes}
 			1918.01.01={death=yes}  # shot the_Bolsheviks
 		}
-	kleinmichel_0007={ # A6. Konstantin Petrovich (*5.9.1840, +26.10.1912); 1m: Nina Viktorovna Kankrina; 2m: 1884 Ekaterina Nikolaevna Bogdanova (1867–)
+	kleinmichel_0007={ #// A6. Konstantin Petrovich (*5.9.1840, +26.10.1912); 1m: Nina Viktorovna Kankrina; 2m: 1884 Ekaterina Nikolaevna Bogdanova (1867–)
 		name=Konstantin
 		dynasty=1010069
 		religion=orthodox culture=russian
@@ -33226,7 +33231,7 @@ kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
 			1893.12.01={birth=yes}
 			1982.08.13={death=yes}
 		}
-	kleinmichel_0008={ # A7. Olga Petrovna (1845-1920); m.Pr Pyotr Dmitrievich Volkonsky $$
+	kleinmichel_0008={ #// A7. Olga Petrovna (1845-1920); m.Pr Pyotr Dmitrievich Volkonsky $$
 		name=Ольга
 		female=yes
 		dynasty=1010069
@@ -33235,7 +33240,7 @@ kleinmichel_0001={ # Pyotr Andreevich Kleinmichel (1793-1869)
 		1845.01.01={birth=yes}
 		1920.01.01={death=yes}
 	}
-	kleinmichel_0009={ # A8. Mikhail Petrovich (1848-Paris 1872)
+	kleinmichel_0009={ #// A8. Mikhail Petrovich (1848-Paris 1872)
 		name=Mikhail
 		dynasty=1010069
 		religion=orthodox culture=russian
@@ -33427,7 +33432,7 @@ razumovsky_0001={ #// Jakow Romanovich Rozum
 					1849.07.14={death=yes}
 				}
 				razumovsky_0021={ #// 5d) [illegitimate] Lev Alekseievich, 1849 Count Perovsky (1793-9 Nov 1856); m.Pss Jekaterina Wassilievna Gortchakov (d.18 Nov 1833)
-					name="Lev Alekseievich"
+					name="Lev"
 					dynasty=1010072
 					religion=orthodox culture=russian
 					father=razumovsky_0016	# Алексей Кириллович Разумовский
@@ -33467,7 +33472,7 @@ razumovsky_0001={ #// Jakow Romanovich Rozum
 				1823.12.14={death=yes}
 			}
 				razumovsky_0025={ #// 1d) [by Aleksandra Wassilievna Dedenev, née Razumovsky (above)] Nikolai Nikolaievich Orshitzky (11 Jul 1796-1 Jan 1861); m.Sophia Feodorovna Krukovsky
-					name="Nikolai Orshitzky"
+					name="Николай"
 					female=yes
 					dynasty=1010072
 					religion=orthodox culture=russian
@@ -33856,20 +33861,20 @@ razumovsky_0001={ #// Jakow Romanovich Rozum
 			1728.01.01={birth=yes}  # EST.
 			1788.12.01={death=yes}  # EST.
 		}
-		razumovsky_0066={ #// 6b) Anna; m.1739 Ossip Zakrjevsky
+		razumovsky_0066={ #// 6b) Anna (1722 - 1758); m.1739 Ossip Zakrjevsky $$
 			name=Анна
 			female=yes
 			dynasty=1010072
 			religion=orthodox culture=russian
 			father=razumovsky_0008	# Григорий Разумовский
 			mother=lowborn_1391	# Наталья Демьяновна Streshentsov
-			1720.01.01={birth=yes}  # EST.
-			1780.12.01={death=yes}  # EST.
+			1722.01.01={birth=yes}
+			1758.12.01={death=yes}
 		}
 ## RAZUMOVSKY 1010072
 
 ## SKARIATIN 1010073
-100097567={ # Yakov Fyodorovich, a large landowner from the Skaryatin family ; colonel, freemason , participant in a conspiracy against Emperor Paul I. $$
+100097567={ #// Yakov Fyodorovich, a large landowner from the Skaryatin family ; colonel, freemason , participant in a conspiracy against Emperor Paul I. $$
 	name=Яков
 	dynasty=1010073
 	religion=orthodox culture=russian
@@ -33880,7 +33885,7 @@ razumovsky_0001={ #// Jakow Romanovich Rozum
 	# Fedor (April 3 (15), 1806-Florence 11.04.1835), cavalry guard, adjutant of Prince D.V. Golitsyn, a talented artist, painted in oils, died of paralysis in Florence; m. May 22, 1832) Ekaterina Petrovna Ozerova (07/16/1807 - 07/13/1833
 		# Yakov (04/11/1833-01/01/1834), was buried next to his parents in Moscow.
 	# Gregory (1808-1849), Major General , died in the Hungarian War .
-	100090293={ # Vladimir (1812-1870/1871), Jägermeister of the court, killed during a bear hunt. $$
+	100090293={ #// Vladimir (1812-1870/1871), Jägermeister of the court, killed during a bear hunt. $$
 		name=Владимир
 		dynasty=1010073
 		religion=orthodox culture=russian
@@ -33891,7 +33896,7 @@ razumovsky_0001={ #// Jakow Romanovich Rozum
 		1870.12.28={death=yes}
 	}
 		# Varvara (1844-1906), maid of honor of the court (since 1862), married (since 1872) to D. S. Arsenyev .
-		100103268={ # Vladimir (1847-1921) - Lieutenant General, Jägermeister; since 1892 the Master of the Horse of the Supreme Court $$
+		100103268={ #// Vladimir (1847-1921) - Lieutenant General, Jägermeister; since 1892 the Master of the Horse of the Supreme Court $$
 			name=Владимир
 			dynasty=1010073
 			religion=orthodox culture=russian
@@ -33902,7 +33907,7 @@ razumovsky_0001={ #// Jakow Romanovich Rozum
 			1919.01.15={death=yes}
 		}
 			#Mikhail (1883-1963) was an Egyptologist and linguist, colonel.
-	100101718={ # Alexander (1815-1884), diplomat, consul general in Naples, chamberlain of the court; amateur singer and composer, collector of old sheet music; married to Countess Elena Grigoryevna Shuvalova . $$
+	100101718={ #// Alexander (1815-1884), diplomat, consul general in Naples, chamberlain of the court; amateur singer and composer, collector of old sheet music; married to Countess Elena Grigoryevna Shuvalova . $$
 		name=Александр
 		dynasty=1010073
 		religion=orthodox culture=russian
@@ -34170,16 +34175,16 @@ godunov_0001={ #// Pr Chet, fl 1330
 						dynasty=1010074
 						religion=orthodox culture=russian
 						father=godunov_0029	# Иван Иванович Годунов
-						1345.01.01={birth=yes}  # EST.
-						1400.12.01={death=yes}  # EST.
+						1400.01.01={birth=yes}  # EST.
+						1460.12.01={death=yes}  # EST.
 					}
 						godunov_0031={ #// F1. Pyotr Godunov; m.Marfa N
 							name=Пётр
 							dynasty=1010074
 							religion=orthodox culture=russian
 							father=godunov_0030	# Григорий Иванович Годунов
-							1375.01.01={birth=yes}  # EST.
-							1450.01.01={death=yes}  # EST.
+							1440.01.01={birth=yes}  # EST.
+							1500.01.01={death=yes}  # EST.
 						}
 							godunov_0032={ #// G1. Afanasy Godunov
 								name=Афанасий
@@ -34202,15 +34207,15 @@ godunov_0001={ #// Pr Chet, fl 1330
 								dynasty=1010074
 								religion=orthodox culture=russian
 								father=godunov_0031	# Пётр Григорьевич Годунов
-								1425.01.01={birth=yes}  # EST.
-								1500.12.01={death=yes}  # EST.
+								1440.01.01={birth=yes}  # EST.
+								1523.12.01={death=yes}  # EST.
 							}
 								godunov_0035={ #// H1. Stepan, boyar, governor of Kostroma, ambassador to Poland, +1603; m.Anastasia N
 									name=Степан
 									dynasty=1010074
 									religion=orthodox culture=russian
 									father=godunov_0034	# Василий Петрович Годунов
-									1510.01.01={birth=yes}  # EST.
+									1515.01.01={birth=yes}  # EST.
 									1603.01.01={death=yes}
 								}
 									godunov_0036={ #// I1. Stepan, okolnichi, +1614; m.N, dau.of Pr Dmitry Ivanovich Khvorostinin
@@ -34226,7 +34231,7 @@ godunov_0001={ #// Pr Chet, fl 1330
 									dynasty=1010074
 									religion=orthodox culture=russian
 									father=godunov_0034	# Василий Петрович Годунов
-									1530.01.01={birth=yes}  # EST.
+									1521.01.01={birth=yes}  # EST.
 									1598.01.01={death=yes}
 								}
 									godunov_0038={ #// I1. Anna; 1m: Pr Alexander Ivanovich Shuiski (+1601); 2m: Pr Pyotr Urusov $$
@@ -34243,7 +34248,7 @@ godunov_0001={ #// Pr Chet, fl 1330
 									dynasty=1010074
 									religion=orthodox culture=russian
 									father=godunov_0034	# Василий Петрович Годунов
-									1531.01.01={birth=yes}  # EST.
+									1523.01.01={birth=yes}  # EST.
 									1602.01.01={death=yes}
 								}
 									godunov_0040={ #// I1. Ivan, okolnichi, +drowned 1610; m.Irina Nikitichna Romanova (+6.6.1636) $$
@@ -34270,7 +34275,6 @@ godunov_0001={ #// Pr Chet, fl 1330
 												religion=orthodox culture=russian
 												father=godunov_0041	# Пётр Иванович Годунов
 												1615.01.01={birth=yes}  # EST.
-												1639.01.01={add_spouse=lowborn_1544}	# Марфа Афанасьевна N
 												1675.12.01={death=yes}  # EST.
 											}
 						godunov_0043={ #// F2. Ivan; m.Agrippina N
@@ -34365,14 +34369,6 @@ godunov_0001={ #// Pr Chet, fl 1330
 									1557.01.01={birth=yes}
 									1603.11.23={death=yes}
 								}
-						godunov_0055={ #// F3. Grigory
-							name=Григорий
-							dynasty=1010074
-							religion=orthodox culture=russian
-							father=godunov_0030	# Григорий Иванович Годунов
-							1350.01.01={birth=yes}  # EST.
-							1410.12.01={death=yes}  # EST.
-						}
 						godunov_0054={ #// F3. Vasily, voevoda
 							name=Василий
 							dynasty=1010074
@@ -34386,16 +34382,16 @@ godunov_0001={ #// Pr Chet, fl 1330
 							dynasty=1010074
 							religion=orthodox culture=russian
 							father=godunov_0030	# Григорий Иванович Годунов
-							1354.01.01={birth=yes}  # EST.
-							1410.12.01={death=yes}  # EST.
+							1440.01.01={birth=yes}  # EST.
+							1500.12.01={death=yes}  # EST.
 						}
 							godunov_0057={ #// G1. Nikita, okolnichi
 								name=Никита
 								dynasty=1010074
 								religion=orthodox culture=russian
 								father=godunov_0056	# Данило Григорьевич Годунов
-								1375.01.01={birth=yes}  # EST.
-								1420.01.01={death=yes}  # EST.
+								1480.01.01={birth=yes}  # EST.
+								1530.01.01={death=yes}  # EST.
 							}
 								godunov_0058={ #// H1. Andrey, duma diak
 									name=Андрей
@@ -34436,7 +34432,6 @@ godunov_0001={ #// Pr Chet, fl 1330
 											religion=orthodox culture=russian
 											father=godunov_0059	# Иван Андреевич Годунов
 											1667.01.01={birth=yes}  # EST.
-											1726.01.01={add_spouse=lowborn_1553}	# BSS N de Marquette
 											1727.12.01={death=yes}  # EST.
 										}
 								godunov_0063={ #// H2. Simeon, boyar, +strangled 1605
@@ -35239,7 +35234,7 @@ golovkin_0001={ #// Gavrila Golovkin (1660-1734); m.Domna Andreevna Divova
 			1787.01.01={death=yes}
 		}
 		golovkin_0013={ #// B5. Gabriel-Marie-Ernest (1731-1800); m.Bss N de Marquette
-			name=Gabriel-Marie-Ernest
+			name="Gabriel"
 			dynasty=1010051
 			religion=orthodox culture=russian
 			father=golovkin_0008	# Александр Гаврилович Головкин
@@ -35252,27 +35247,27 @@ golovkin_0001={ #// Gavrila Golovkin (1660-1734); m.Domna Andreevna Divova
 				name=Пётр
 				dynasty=1010051
 				religion=orthodox culture=russian
-				father=golovkin_0013	# Gabriel-Marie-Ernest Александрович Головкин
+				father=golovkin_0013	# Gabriel Александрович Головкин
 				mother=lowborn_1553	# BSS N de Marquette
 				1768.01.01={birth=yes}
 				1794.01.01={add_spouse=demidov_0052}	# София Александровна Демидов
 				1821.01.01={death=yes}
 			}
-			golovkin_0015={ #// C2. Fjodor (1770-1823); m.Natalya Petrovna Ismailova
+			golovkin_0015={ #// C2. Fjodor (1770-1823); m.Natalya Petrovna Ismailova $$
 				name=Фёдор
 				dynasty=1010051
 				religion=orthodox culture=russian
-				father=golovkin_0013	# Gabriel-Marie-Ernest Александрович Головкин
+				father=golovkin_0013	# Gabriel Александрович Головкин
 				mother=lowborn_1553	# BSS N de Marquette
 				1770.01.01={birth=yes}
-				1796.01.01={add_spouse=lowborn_1572}	# Наталья Петровна Измаилов
+				1800.01.01={add_spouse=izmailov_0033}	# Наталья Измайлов
 				1823.01.01={death=yes}
 			}
 			golovkin_0016={ #// C3. Gavriil Gavrilovich (1775-1805)
-				name="Gavriil Gavrilovich"
+				name="Gavriil"
 				dynasty=1010051
 				religion=orthodox culture=russian
-				father=golovkin_0013	# Gabriel-Marie-Ernest Александрович Головкин
+				father=golovkin_0013	# Gabriel Александрович Головкин
 				mother=lowborn_1553	# BSS N de Marquette
 				1775.01.01={birth=yes}
 				1805.01.01={death=yes}
@@ -35282,7 +35277,7 @@ golovkin_0001={ #// Gavrila Golovkin (1660-1734); m.Domna Andreevna Divova
 				female=yes
 				dynasty=1010051
 				religion=orthodox culture=russian
-				father=golovkin_0013	# Gabriel-Marie-Ernest Александрович Головкин
+				father=golovkin_0013	# Gabriel Александрович Головкин
 				mother=lowborn_1553	# BSS N de Marquette
 				1777.01.01={birth=yes}  # EST.
 				1837.12.01={death=yes}  # EST.
@@ -35448,8 +35443,8 @@ vjazemsky_0001={ #// Андрей Vjazemskij, +4 Jun 1223
 											1548.01.01={birth=yes}  # EST.
 											1618.01.01={death=yes}  # EST.
 										}
-											vjazemsky_0012={ #// K1. Prohor
-												name=Prohor
+											vjazemsky_0012={ #// K1. Прохор
+												name=Прохор
 												dynasty=1010076
 												religion=orthodox culture=russian
 												father=vjazemsky_0011	# Алексей Васильевич Вяземский
@@ -35460,7 +35455,7 @@ vjazemsky_0001={ #// Андрей Vjazemskij, +4 Jun 1223
 													name=Иван
 													dynasty=1010076
 													religion=orthodox culture=russian
-													father=vjazemsky_0012	# Prohor Алексеевич Вяземский
+													father=vjazemsky_0012	# Прохор Алексеевич Вяземский
 													1688.01.01={birth=yes}  # EST.
 													1742.01.01={add_spouse=lowborn_0968}	# PSS Татьяна Данииловна Друцкой
 													1748.01.01={death=yes}  # EST.
@@ -35469,7 +35464,7 @@ vjazemsky_0001={ #// Андрей Vjazemskij, +4 Jun 1223
 														name=Сергей
 														dynasty=1010076
 														religion=orthodox culture=russian
-														father=vjazemsky_0013	# Иван Вяземский
+														father=vjazemsky_0013	# Иван Прохорович Вяземский
 														mother=lowborn_0968	# PSS Татьяна Данииловна Друцкой
 														1743.01.01={birth=yes}
 														1769.01.01={add_spouse=lowborn_1068}	# Анна Федотовна Каменский
@@ -35795,23 +35790,23 @@ vjazemsky_0001={ #// Андрей Vjazemskij, +4 Jun 1223
 				dynasty=1010076
 				religion=orthodox culture=russian
 				father=vjazemsky_0047	# Афанасий Васильевич Вяземский
-				1228.01.01={birth=yes}  # EST.
-				1288.01.01={death=yes}  # EST.
+				1250.01.01={birth=yes}  # EST.
+				1310.01.01={death=yes}  # EST.
 			}
 				vjazemsky_0049={ #// D1. Семён
 					name=Семён
 					dynasty=1010076
 					religion=orthodox culture=russian
 					father=vjazemsky_0048	# Андрей Афанасьевич Вяземский
-					1263.01.01={birth=yes}  # EST.
-					1333.01.01={death=yes}  # EST.
+					1300.01.01={birth=yes}  # EST.
+					1370.01.01={death=yes}  # EST.
 				}
 					vjazemsky_0050={ #// E1. Роман, +1403
 						name=Роман
 						dynasty=1010076
 						religion=orthodox culture=russian
 						father=vjazemsky_0049	# Семён Андреевич Вяземский
-						1333.01.01={birth=yes}  # EST.
+						1360.01.01={birth=yes}  # EST.
 						1403.01.01={death=yes}
 					}
 						vjazemsky_0062={ #// Savva Vasilij
@@ -35819,7 +35814,7 @@ vjazemsky_0001={ #// Андрей Vjazemskij, +4 Jun 1223
 							dynasty=1010076
 							religion=orthodox culture=russian
 							father=vjazemsky_0050	# Роман Семёнович Вяземский
-							1401.01.01={birth=yes}
+							1420.01.01={birth=yes}
 							1490.01.01={death=yes}  # EST.
 						}
 							vjazemsky_0063={ #// A1. Ivan
@@ -35835,15 +35830,15 @@ vjazemsky_0001={ #// Андрей Vjazemskij, +4 Jun 1223
 									dynasty=1010076
 									religion=orthodox culture=russian
 									father=vjazemsky_0063	# Иван Саввич Вяземский
-									1560.01.01={birth=yes}  # EST.
-									1640.01.01={death=yes}  # EST.
+									1540.01.01={birth=yes}  # EST.
+									1615.01.01={death=yes}  # EST.
 								}
 									vjazemsky_0065={ #// C1. Fjodor
 										name=Фёдор
 										dynasty=1010076
 										religion=orthodox culture=russian
 										father=vjazemsky_0064	# Яков Иванович Вяземский
-										1635.01.01={birth=yes}  # EST.
+										1610.01.01={birth=yes}  # EST.
 										1700.01.01={death=yes}  # EST.
 									}
 										vjazemsky_0066={ #// D1. Andrej, *1692, +1765
@@ -36093,7 +36088,7 @@ vjazemsky_0001={ #// Андрей Vjazemskij, +4 Jun 1223
 
 
 ## YAGU 1010077
-yaguzhinsky_0001={ # Pavel Ivanovich Yaguzhinsky (Litauen 1683-6. (17.) Apr 1736, St. Petersburg ); 2m: Anna Chitrovo (+1751); 2m: 10 Nov 1723 Anna Gavrilovna Golovkina $$
+yaguzhinsky_0001={ #// Pavel Ivanovich Yaguzhinsky (Litauen 1683-6. (17.) Apr 1736, St. Petersburg ); 2m: Anna Chitrovo (+1751); 2m: 10 Nov 1723 Anna Gavrilovna Golovkina $$
 	name=Павел
 	dynasty=1010077
 	religion=orthodox culture=russian
@@ -36102,7 +36097,7 @@ yaguzhinsky_0001={ # Pavel Ivanovich Yaguzhinsky (Litauen 1683-6. (17.) Apr 1736
 	1736.04.17={death=yes}
 }
 	# NN Pawlowitsch (gest. 09.08.1724) wurde 1723 von seinem Vater zum Studium nach Deutschland geschickt, wo er starb.
-	100097870={ # Jekaterina (1713/14–1738), seit 1730 verheiratet mit V. A. Lopuchin (1711–1757). $$
+	100097870={ #// Jekaterina (1713/14–1738), seit 1730 verheiratet mit V. A. Lopuchin (1711–1757). $$
 		name=Екатерина
 		female=yes
 		dynasty=1010077
@@ -36111,7 +36106,7 @@ yaguzhinsky_0001={ # Pavel Ivanovich Yaguzhinsky (Litauen 1683-6. (17.) Apr 1736
 		1713.01.01={birth=yes}
 		1738.10.18={death=yes}
 	}
-	100102452={ # Natalja (1716–1786) war mit Generalleutnant Fjodor Iwanowitsch Golowin (1704–1758) verheiratet. $$
+	100102452={ #// Natalja (1716–1786) war mit Generalleutnant Fjodor Iwanowitsch Golowin (1704–1758) verheiratet. $$
 		name=Наталья
 		female=yes
 		dynasty=1010077
@@ -36120,7 +36115,7 @@ yaguzhinsky_0001={ # Pavel Ivanovich Yaguzhinsky (Litauen 1683-6. (17.) Apr 1736
 		1716.01.01={birth=yes}
 		1788.08.24={death=yes}
 	}
-	100093946={ # Praskovya (171_-1775); m.1738 Pr S. V. Gagarin (1713-1782) $$
+	100093946={ #// Praskovya (171_-1775); m.1738 Pr S. V. Gagarin (1713-1782) $$
 		name=Прасковья
 		female=yes
 		dynasty=1010077
@@ -36130,7 +36125,7 @@ yaguzhinsky_0001={ # Pavel Ivanovich Yaguzhinsky (Litauen 1683-6. (17.) Apr 1736
 		1775.01.01={death=yes}
 	}
 	# Anastasia Pawlowna (1724 -?)
-	100097257={ # Sergej (1731-1806); 1m: Anastasia Iwanowna Shuvalova; 2m: Varvara Nikolaevna Saltykova (1749-1843) $$
+	100097257={ #// Sergej (1731-1806); 1m: Anastasia Iwanowna Shuvalova; 2m: Varvara Nikolaevna Saltykova (1749-1843) $$
 		name=Сергей
 		dynasty=1010077
 		religion=orthodox culture=russian
@@ -36142,7 +36137,7 @@ yaguzhinsky_0001={ # Pavel Ivanovich Yaguzhinsky (Litauen 1683-6. (17.) Apr 1736
 		1806.02.22={death=yes}
 	}
 	# Maria Pawlowna (1732-1755), Trauzeugin, wurde am 14. Februar 1748 mit dem Hofmarschall Graf Andrej Michailowitsch Efimowski (1717-1767) verheiratet.
-	100097020={ # Anna (1733-1801); m.1754 Gfn P. F. Apraksin $$
+	100097020={ #// Anna (1733-1801); m.1754 Gfn P. F. Apraksin $$
 		name=Анна
 		female=yes
 		dynasty=1010077
@@ -36266,7 +36261,7 @@ bibikov_0001={ #// Ilja; 1m: Natalia Nikolaevna Pisareva (*1711) ; 2m: Varvara N
 		dynasty=1010078
 		religion=orthodox culture=russian
 		father=bibikov_0001	# Илья Бибиков
-		mother=lowborn_0595	# Наталья Николаевна Писарев
+		mother=lowborn_0779	# Варвара Никитична Шишков
 		1746.01.01={birth=yes}
 		1787.01.01={death=yes}
 	}
@@ -36275,7 +36270,7 @@ bibikov_0001={ #// Ilja; 1m: Natalia Nikolaevna Pisareva (*1711) ; 2m: Varvara N
 		dynasty=1010078
 		religion=orthodox culture=russian
 		father=bibikov_0001	# Илья Бибиков
-		mother=lowborn_0595	# Наталья Николаевна Писарев
+		mother=lowborn_0779	# Варвара Никитична Шишков
 		1747.01.01={birth=yes}
 		1803.07.01={death=yes}  # 19.
 	}
@@ -36545,7 +36540,7 @@ bibikov_0001={ #// Ilja; 1m: Natalia Nikolaevna Pisareva (*1711) ; 2m: Varvara N
 		dynasty=1010078
 		religion=orthodox culture=russian
 		father=bibikov_0001	# Илья Бибиков
-		mother=lowborn_0595	# Наталья Николаевна Писарев
+		mother=lowborn_0779	# Варвара Никитична Шишков
 		1754.01.01={birth=yes}
 		1824.01.01={death=yes}
 	}
@@ -36667,7 +36662,6 @@ zaslaw_0001={ #// Yuriy Mikhailovich, Pr of Izheslavl, +after 1455
 					mother=rurik_0074	# Анастасия Петровна Рюрикович
 					1529.01.01={birth=yes}  # Moscow
 					1555.01.01={add_spouse=rurik_0181}	# Ирина Александровна Шуйский
-					1567.08.06={add_spouse=lowborn_1777}	# PSS Анастасия N
 					1586.01.01={death=yes}  # Belozersk Monastery
 				}
 					zaslaw_0010={ #// E1. Pr Fyodor Ivanovich Mstislavski, boyar, head of Russian government 1610, +19.2.1622, bur Simonov Monastery; 1m: Juliana N (+6.4.1586); 2m: Praskovia Nagaya; 3m: Pss Domna Mikhailovna Temkina-Rostovskaya (+7.6.1630, bur Simonov Monastery)
@@ -36875,12 +36869,12 @@ vorotynsky_0001={ #// Fedor Lvovich Vorotynsky (+after 1455); m.Maria Koributovn
 					1609.01.01={add_spouse=lowborn_1776}	# Мария Петровна Буйносов-Ростовский
 					1627.01.01={death=yes}
 				}
-					vorotynsky_0008={ #// E1. [2m.] Alexej ( 1610 - 1642); m.Maria Lukyanovna Streshneva.
+					vorotynsky_0008={ #// E1. [2m.] Alexej (1610 - 1642); m.Maria Lukyanovna Streshneva
 						name=Алексей
 						dynasty=1010082
 						religion=orthodox culture=russian
 						father=vorotynsky_0007	# Иван Михайлович Воротынский
-						mother=lowborn_1775	# Cecília Couzell
+						mother=lowborn_1776	# Мария Петровна Буйносов-Ростовский
 						1610.01.01={birth=yes}
 						1634.01.01={add_spouse=lowborn_1789}	# Мария Лукьяновна Стрешнев
 						1642.01.01={death=yes}
@@ -37032,3 +37026,414 @@ vorotynsky_0001={ #// Fedor Lvovich Vorotynsky (+after 1455); m.Maria Koributovn
 		1440.01.01={death=yes}  # EST.
 	}
 ## VOROTYNSKIJ 1010082
+
+
+## IZMAIJLOV
+izmailov_0001={ #// Pjotr Timofeevich Izmajlov, governor in Pelym, fl 1653; m.Anna Andreevna Buturlin
+	name="Pjotr"
+	dynasty=izmailov
+	religion=orthodox culture=russian
+	1609.01.01={birth=yes}  # EST.
+	1649.01.01={add_spouse=lowborn_0276}	# Анна Андреевна Бутурлин
+	1669.01.01={death=yes}  # EST.
+}
+	izmailov_0002={ #// A1. Aleksej Petrovich (+1705), ezdil v Shveciju dogovarivatsja o razmene plennyh
+		name="Aleksej"
+		dynasty=izmailov
+		religion=orthodox culture=russian
+		father=izmailov_0001	# Пётр Измайлов
+		mother=lowborn_0276	# Анна Андреевна Бутурлин
+		1650.01.01={birth=yes}  # EST.
+		1705.01.01={death=yes}
+	}
+	izmailov_0003={ #// A2. Andrej Petrovich (+1714), nizhegorodskij gubernator, rezident Petra I v Prussii i Danii
+		name="Андрей"
+		dynasty=izmailov
+		religion=orthodox culture=russian
+		father=izmailov_0001	# Пётр Измайлов
+		mother=lowborn_0276	# Анна Андреевна Бутурлин
+		1652.01.01={birth=yes}  # EST.
+		1714.01.01={death=yes}
+	}
+		izmailov_0004={ #// B1. Vasilij Andreevich (+1743), general-major; m.Anastasia Mihajlovna Naryshkin (granddaughter  G. F. Naryshkina) $$
+			name="Vasilij"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0003	# Андрей Измайлов
+			1678.01.01={birth=yes}  # EST.
+			1703.01.01={add_spouse=100019393}	# Анастасия Михайловна Нарышкин
+			1743.01.01={death=yes}
+		}
+		izmailov_0005={ #// B2. Evdokija Andreevna; m.barona Isaji Petrovicha Shafirova
+			name="Evdokija"
+			female=yes
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0003	# Андрей Измайлов
+			1679.01.01={birth=yes}  # EST.
+			1739.01.01={death=yes}  # EST.
+		}
+	izmailov_0006={ #// A3. Vasilij Petrovich, stolnik; m.Pss Evfrosina Nikitichna Priimkova-Rostovskaya
+		name="Vasilij"
+		dynasty=izmailov
+		religion=orthodox culture=russian
+		father=izmailov_0001	# Пётр Измайлов
+		mother=lowborn_0276	# Анна Андреевна Бутурлин
+		1654.01.01={birth=yes}  # EST.
+		1684.01.01={add_spouse=lowborn_0622}	# PSS Евфросиния Никитична Приимков-Ростовский
+		1714.01.01={death=yes}  # EST.
+	}
+		izmailov_0007={ #// B1. Lev Vasilevich (1685-1738), general-poruchik; m.Pss Anne Mihajlovna Golicyn $$
+			name="Lev"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0006	# Василий Измайлов
+			mother=lowborn_0622	# PSS Евфросиния Никитична Приимков-Ростовский
+			1687.01.20={birth=yes}
+			1727.01.01={add_spouse=100016153}	# Анна Михайловна Голицын
+			1738.01.13={death=yes}
+		}
+			izmailov_0008={ #// C1. Mihail (1734-99), general-poruchik, ubedivshij Petra III sdatsja zagovorshhikam
+				name=Mihail
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0007	# Лев Измайлов
+				mother=100016153	# Анна Михайловна Голицын
+				1734.01.01={birth=yes}
+				1799.01.01={death=yes}
+			}
+			izmailov_0009={ #// C2. Dmitrij (1737-79), polkovnik; m.Css Elizaveta Ivanovna Gendrikov, second cousin of Peter III $$
+				name=Дмитрий
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0007	# Лев Измайлов
+				mother=100016153	# Анна Михайловна Голицын
+				1737.01.01={birth=yes}
+				1760.01.01={add_spouse=hendrikov_0054}	# Елизавета Ивановна Гендриков
+				1779.01.01={death=yes}
+			}
+				izmailov_0010={ #// D1. Lev Dmitrievich (1764-1834), general-lejtenant, vladelec imenija Hitrovshhina, izvestnyj pedofil, otdan pod sud za razvrat i samodurstvo
+					name="Lev"
+					dynasty=izmailov
+					religion=orthodox culture=russian
+					father=izmailov_0009	# Дмитрий Измайлов
+					mother=hendrikov_0054	# Елизавета Ивановна Гендриков
+					1764.01.01={birth=yes}
+					1834.01.01={death=yes}
+				}
+				izmailov_0011={ #// D2. Ekaterina (1761-1843); m.Pr Степан Борисович Куракин
+					name=Екатерина
+					female=yes
+					dynasty=izmailov
+					religion=orthodox culture=russian
+					father=izmailov_0009	# Дмитрий Измайлов
+					mother=hendrikov_0054	# Елизавета Ивановна Гендриков
+					1761.01.01={birth=yes}
+					1843.01.01={death=yes}
+				}
+				izmailov_0012={ #// D3. Anna (1771-1840); m.chamberlain P. N. Priklonsky
+					name=Анна
+					female=yes
+					dynasty=izmailov
+					religion=orthodox culture=russian
+					father=izmailov_0009	# Дмитрий Измайлов
+					mother=hendrikov_0054	# Елизавета Ивановна Гендриков
+					1771.01.01={birth=yes}
+					1840.01.01={death=yes}
+				}
+			izmailov_0013={ #// C3. Evdokija (1731-94); m.Ct Aleksandr Petrovich Tolstoy; u nih deti Dmitrij, Nikolaj, Pjotr $$
+				name="Евдокия Лвовна"
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0007	# Лев Измайлов
+				mother=100016153	# Анна Михайловна Голицын
+				1731.01.01={birth=yes}
+				1794.01.01={death=yes}
+			}
+			izmailov_0014={ #// C4. Ekaterina (1732-83); m.Vasilija Lavrentevicha Petrovo-Solovovo
+				name=Екатерина
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0007	# Лев Измайлов
+				mother=100016153	# Анна Михайловна Голицын
+				1732.01.01={birth=yes}
+				1783.01.01={death=yes}
+			}
+		izmailov_0015={ #// B2. Pjotr Vasilevich (1687-1772), general-major, voronezhskij gubernator, upravljajushhij dvorom Petra III; m.knjazhne Cherkassky
+			name="Pjotr"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0006	# Василий Измайлов
+			mother=lowborn_0622	# PSS Евфросиния Никитична Приимков-Ростовский
+			1687.01.01={birth=yes}
+			1716.01.01={add_spouse=lowborn_1114}	# PSS N Черкасский
+			1772.01.01={death=yes}
+		}
+			izmailov_0016={ #// C1. Anna (1712-49); m.Pr F. I. Golicyna $$
+				name=Анна
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0015	# Пётр Измайлов
+				mother=lowborn_1114	# PSS N Черкасский
+				1712.01.01={birth=yes}
+				1749.01.01={death=yes}
+			}
+			izmailov_0017={ #// C2. Darja (1730-66); m.Pr A. Ja. Golicyna $$
+				name=Дарья
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0015	# Пётр Измайлов
+				mother=lowborn_1114	# PSS N Черкасский
+				1730.01.01={birth=yes}
+				1766.01.01={death=yes}
+			}
+		izmailov_0018={ #// B3. Vladimir Vasilevich (1688-posle 1748), general-major, solikamskij voevoda, chernigovskij komendant, ostavil potomstvo
+			name="Vladimir"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0006	# Василий Измайлов
+			mother=lowborn_0622	# PSS Евфросиния Никитична Приимков-Ростовский
+			1688.01.01={birth=yes}
+			1748.01.01={death=yes}  # posle
+		}
+	izmailov_0019={ #// A4. Ivan Petrovich (1662-1754), general-poruchik, moskovskij komendant, arhangelskij gubernator; m.Akuline Matveevna Prokudina-Gorskaya
+		name="Ivan"
+		dynasty=izmailov
+		religion=orthodox culture=russian
+		father=izmailov_0001	# Пётр Измайлов
+		mother=lowborn_0276	# Анна Андреевна Бутурлин
+		1662.01.01={birth=yes}
+		1716.01.01={add_spouse=lowborn_1440}	# Акулина Матвеевна Prokudina-Gorskaya
+		1754.01.01={death=yes}
+	}
+		izmailov_0020={ #// B1. Vasilij Ivanovich (1717-1798), polkovnik; m.Marfa Nikolaevna Ivanov (sestra Saltychihi)
+			name="Vasilij"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0019	# Иван Измайлов
+			mother=lowborn_1440	# Акулина Матвеевна Prokudina-Gorskaya
+			1717.01.01={birth=yes}
+			1753.01.01={add_spouse=lowborn_1441}	# Марфа Николаевна Иванов
+			1798.01.01={death=yes}
+		}
+			izmailov_0021={ #// C1. Nikolaj (1756-1821), brigadir; m.Pss Marii Petrovna Volkonsky $$
+				name="Николай Васильевич"
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0020	# Василий Измайлов
+				mother=lowborn_1441	# Марфа Николаевна Иванов
+				1756.01.01={birth=yes}
+				1782.01.01={add_spouse=100019077}	# Мария Петровна Волконский
+				1821.01.01={death=yes}
+			}
+			izmailov_0022={ #// C2. Mihail (1758-1822), statskij sovetnik; m.Natalia Alekseevna Ivashkina
+				name=Mihail
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0020	# Василий Измайлов
+				mother=lowborn_1441	# Марфа Николаевна Иванов
+				1758.01.01={birth=yes}
+				1784.01.01={add_spouse=lowborn_5374}	# Наталья Алексеевна Ivashkina
+				1822.01.01={death=yes}
+			}
+			izmailov_0023={ #// C3. Dmitrij (1765-1834), general-major, ustroitel usadby Filimonki; m.Ekaterine Semjonovna Toricyna
+				name=Дмитрий
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0020	# Василий Измайлов
+				mother=lowborn_1441	# Марфа Николаевна Иванов
+				1765.01.01={birth=yes}
+				1791.01.01={add_spouse=lowborn_6372}	# Екатерина Семёновна Toricyna
+				1834.01.01={death=yes}
+			}
+			izmailov_0024={ #// C4. Vladimir (1775-1830), literator; m.Ekaterina Vasilevna Opuhina
+				name=Владимир
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0020	# Василий Измайлов
+				mother=lowborn_1441	# Марфа Николаевна Иванов
+				1775.01.01={birth=yes}
+				1801.01.01={add_spouse=lowborn_6769}	# Екатерина Васильевна Опухин
+				1830.01.01={death=yes}
+			}
+			izmailov_0025={ #// C5. Anna (1754-1827); m.polkovnika Nikolaja Lvovicha Pushkina
+				name=Анна
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0020	# Василий Измайлов
+				mother=lowborn_1441	# Марфа Николаевна Иванов
+				1754.01.01={birth=yes}
+				1827.01.01={death=yes}
+			}
+		izmailov_0026={ #// B2. Ivan Ivanovich, general-major; m.Pss Evdokii Ivanovna Odoevsky $$
+			name="Ivan"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0019	# Иван Измайлов
+			mother=lowborn_1440	# Акулина Матвеевна Prokudina-Gorskaya
+			1719.01.01={birth=yes}  # EST.
+			1768.01.01={add_spouse=odoevsky_0018}	# Евдокия Ивановна Одоевский
+			1779.01.01={death=yes}  # EST.
+		}
+			izmailov_0027={ #// C1. Anastasija (1769-1807); m.Pr Ivana Ivanovicha Odoevsky $$
+				name=Анастасия
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0026	# Иван Измайлов
+				mother=odoevsky_0018	# Евдокия Ивановна Одоевский
+				1769.01.01={birth=yes}
+				1807.01.01={death=yes}
+			}
+		izmailov_0028={ #// B3. Sergej Ivanovich (1722-1782), general-poruchik, nizhegorodskij gubernator; m.Pss Anna Vladimirovna Dolgorukov $$
+			name="Sergej"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0019	# Иван Измайлов
+			mother=lowborn_1440	# Акулина Матвеевна Prokudina-Gorskaya
+			1722.01.01={birth=yes}
+			1750.01.01={add_spouse=100015455}	# Анна Владимировна Долгорукий
+			1782.01.01={death=yes}
+		}
+			izmailov_0029={ #// C1. Marija (1751-90); m.Pr Petr Nikolaevich Volkonsky
+				name=Мария
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0028	# Сергей Измайлов
+				mother=100015455	# Анна Владимировна Долгорукий
+				1751.01.01={birth=yes}
+				1790.01.01={death=yes}
+			}
+			izmailov_0030={ #// C2. Anna (1757-1808); m.Pr Dmitrij Aleksandrovich Volkonsky $$
+				name=Анна
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0028	# Сергей Измайлов
+				mother=100015455	# Анна Владимировна Долгорукий
+				1757.01.01={birth=yes}
+				1808.01.01={death=yes}
+			}
+		izmailov_0031={ #// B4. Pjotr Ivanovich (1724-1807), general-poruchik, ustroitel usadby Severskoe; m.Ekaterina Vasilevna Saltykov
+			name="Pjotr"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0019	# Иван Измайлов
+			mother=lowborn_1440	# Акулина Матвеевна Prokudina-Gorskaya
+			1724.01.01={birth=yes}
+			1747.01.01={add_spouse=lowborn_7070}	# Екатерина Васильевна Салтыков
+			1807.01.01={death=yes}
+		}
+			izmailov_0032={ #// C1. Marija; m.Pr Vasilija Nikiticha Meshhersky
+				name=Мария
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0031	# Пётр Измайлов
+				mother=lowborn_7070	# Екатерина Васильевна Салтыков
+				1748.01.01={birth=yes}  # EST.
+				1808.01.01={death=yes}  # EST.
+			}
+			izmailov_0033={ #// C2. Natalja (1760-1849); m.Ct Fjodor Gavrilovich Golovkin (1770-1823) $$
+				name=Наталья
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0031	# Пётр Измайлов
+				mother=lowborn_7070	# Екатерина Васильевна Салтыков
+				1760.01.01={birth=yes}
+				1849.01.01={death=yes}
+			}
+		izmailov_0034={ #// B5. Anna Ivanovna; m.Pr Aleksandr Jakovlevich Urusov
+			name="Anna"
+			female=yes
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0019	# Иван Измайлов
+			mother=lowborn_1440	# Акулина Матвеевна Prokudina-Gorskaya
+			1726.01.01={birth=yes}  # EST.
+			1786.01.01={death=yes}  # EST.
+		}
+	izmailov_0035={ #// A5. Mihail Petrovich, komnatnyj stolnik
+		name="Михаил"
+		dynasty=izmailov
+		religion=orthodox culture=russian
+		father=izmailov_0001	# Пётр Измайлов
+		mother=lowborn_0276	# Анна Андреевна Бутурлин
+		1664.01.01={birth=yes}  # EST.
+		1724.01.01={death=yes}  # EST.
+	}
+		izmailov_0036={ #// B1. Aleksej Mihajlovich (+1783), gvardii kapitan; m.Pss Maria Vasilevna Gagarin $$
+			name="Aleksej"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0035	# Михаил Измайлов
+			1713.01.01={birth=yes}  # EST.
+			1750.01.01={add_spouse=100015645}	# Мария Васильевна Гагарин
+			1783.01.01={death=yes}
+		}
+			izmailov_0037={ #// C1. Pavel (+1781), polkovnik; m.Nadezhde Vasilevna Jengelgardt (plemjannica G. A. Potjomkina)
+				name=Павел
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0036	# Алексей Михайлович Измайлов
+				mother=100015645	# Мария Васильевна Гагарин
+				1751.01.01={birth=yes}  # EST.
+				1777.01.01={add_spouse=lowborn_7076}	# Надежда Васильевна Engelhardt
+				1781.01.01={death=yes}
+			}
+			izmailov_0038={ #// C2. Marija (1763-1812); m.Nikolaj Efimovich Mjasoedov
+				name=Мария
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0036	# Алексей Михайлович Измайлов
+				mother=100015645	# Мария Васильевна Гагарин
+				1763.01.01={birth=yes}
+				1812.01.01={death=yes}
+			}
+		izmailov_0039={ #// B2. Mihail Mihajlovich (1722-1800), glavnokomandujushhij v Moskve, vladelec usadby Bykovo; m.Maria Aleksandrovna Naryshkin,  second cousin of Empress Elizabeth , for whom he took a large inheritance. $$
+			name="Михаил"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0035	# Михаил Измайлов
+			1722.01.01={birth=yes}
+			1748.01.01={add_spouse=100019624}	# Мария Александровна Нарышкин
+			1800.01.01={death=yes}
+		}
+		izmailov_0040={ #// B3. Ivan Mihajlovich (1724-1787), general-poruchik, senator; m.Pss Aleksandre Borisovna Jusupov $$
+			name="Иван"
+			dynasty=izmailov
+			religion=orthodox culture=russian
+			father=izmailov_0035	# Михаил Измайлов
+			1724.01.01={birth=yes}
+			1767.01.01={add_spouse=yusupov_0016}	# Александра Борисовна Юсупов
+			1787.01.01={death=yes}
+		}
+			izmailov_0041={ #// C1. Irina (1768-1848); m.Ct Illariona Ivanovicha Voroncova; their descendants were called Vorontsov-Dashkovs $$
+				name=Ирина
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0040	# Иван Михайлович Измайлов
+				mother=yusupov_0016	# Александра Борисовна Юсупов
+				1768.01.01={birth=yes}
+				1848.01.01={death=yes}
+			}
+			izmailov_0042={ #// C2. Avdotja (1780-1850), socialite nicknamed Princesse Minuit; zhena Pr Sergej Mihajlovich Golicyn $$
+				name="Авдотья"
+				female=yes
+				dynasty=izmailov
+				religion=orthodox culture=russian
+				father=izmailov_0040	# Иван Михайлович Измайлов
+				mother=yusupov_0016	# Александра Борисовна Юсупов
+				1780.01.01={birth=yes}
+				1850.01.01={death=yes}
+			}
+## IZMAIJLOV

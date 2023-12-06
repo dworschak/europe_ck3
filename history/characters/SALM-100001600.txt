@@ -2177,7 +2177,7 @@
 					father=100004449	# Wilhelm von Salm-Horstmar
 					mother=100006184	# Elisabeth von Solms-Rödelheim u.Assenheim
 					1833.02.08={birth=yes}  # Coesfeld
-					1864.06.18={add_spouse=100002653}	# Emilie zur Lippe-Biesterfeld
+					1864.06.18={add_spouse=100002653}	# Emilie zur  Lippe-Biesterfeld
 					1892.02.15={death=yes}  # Bonn
 				}
 					100004181={	#// E3. OTTO II Adalbert Friedrich August Gustav Alexander, 3.Fst zu Salm-Horstmar, *Varlar 23.9.1867, +Varlar 2.3.1941; m.Klitschdorf, Silesia 10.9.1903 Gfn Rosa zu Solms-Baruth (*8.6.1884 +12.6.1945) $$
@@ -2185,7 +2185,7 @@
 						dynasty=1002072
 						religion=lutheran culture=german
 						father=100004179	# Otto von Salm-Horstmar
-						mother=100002653	# Emilie zur Lippe-Biesterfeld
+						mother=100002653	# Emilie zur  Lippe-Biesterfeld
 						1867.09.23={birth=yes}  # Varlar
 						1903.09.10={add_spouse=100005702}	# Rosa von  Solms-Baruth
 						1941.03.02={death=yes}  # Varlar
@@ -2371,7 +2371,7 @@
 						dynasty=1002072
 						religion=lutheran culture=german
 						father=100004179	# Otto von Salm-Horstmar
-						mother=100002653	# Emilie zur Lippe-Biesterfeld
+						mother=100002653	# Emilie zur  Lippe-Biesterfeld
 						1870.12.18={birth=yes}  # Varlar
 						1953.07.04={death=yes}  # Michelstadt
 					}
@@ -2380,7 +2380,7 @@
 						dynasty=1002072
 						religion=lutheran culture=german
 						father=100004179	# Otto von Salm-Horstmar
-						mother=100002653	# Emilie zur Lippe-Biesterfeld
+						mother=100002653	# Emilie zur  Lippe-Biesterfeld
 						1883.02.05={birth=yes}  # Varlar
 						1914.08.02={add_spouse=100005094}	# Sabine von Schoenaich-Carolath
 						1959.05.10={death=yes}  # Bremen
@@ -3047,105 +3047,540 @@
 #luxemburg6
 
 ## Thiano
-100299226={ #// Philipp Ernst von Daun (*1600, +8.1.1671) %%
+daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes von Hagen (*4.11.1561); m.2nd Maria Agnes von Kerpen; m.3rd Maria Ursula Groschlag von Dieburg (*1600)
 	name="Philipp Ernst"
 	dynasty=1002263
-	religion=catholic culture=german
-	1600.01.01={birth=yes}
+	religion=lutheran culture=german
+	father=daun_0006	# Carl VON DAUN
+	1600.01.01={birth=yes}	# EST.
+	1620.01.01={add_spouse=lowborn_0682}	# Maria Agnes von Hagen
+	1631.01.01={add_spouse=lowborn_0714}	# Maria Agnes von Kerpen
+	1636.01.01={add_spouse=lowborn_0715}	# Maria Ursula Groschlag von Dieburg
 	1671.01.08={death=yes}
 }
-	100285889={ #// A1. Wilhelm Johann (*1621, +7.6.1706) %%
-		name="Wilhelm Johann"
+	daun_0014={ #// G7. Wilhelm Johann Anton VON DAUN, *1621, +1706.06.07; m.Maria Salome von Regal (*1635, +14.9.1712)
+		name=Wilhelm
 		dynasty=1002263
-		religion=catholic culture=german
-		father=100299226	# Philipp Ernst von Daun
+		religion=lutheran culture=german
+		father=daun_0007	# Philipp Ernst von Daun
+		mother=lowborn_0715	# Maria Ursula Groschlag von Dieburg
 		1621.01.01={birth=yes}
+		1664.01.01={add_spouse=lowborn_0723}	# Maria Salome von Regal
 		1706.06.07={death=yes}
 	}
-		100285890={ #// B1. Maria Beatrix (*9.1.1665, +Wien 8.1.1701); m.13.1.1688 Gundackar Thomas von Starhemberg (*14.12.1663, +Wien 8.7.1745) %%
-			name="Maria Beatrix"
+		daun_0021={ #// H1. Dorothea Katharina Wilhelmine VON DAUN, *1663.12.01, +1738.12.04; m.Annibale von Porcia-Brugnera (*7.5.1679, +4.11.1739)
+			name=Dorothea
 			female=yes
 			dynasty=1002263
-			religion=catholic culture=german
-			father=100285889	# Wilhelm Johann von Daun
-			1665.01.09={birth=yes}
-			1701.01.08={death=yes}  # Wien
+			religion=lutheran culture=german
+			father=daun_0014	# Wilhelm von Daun
+			mother=lowborn_0723	# Maria Salome von Regal
+			1663.12.01={birth=yes}
+			1738.12.04={death=yes}
 		}
-		100295466={ #// B2. Wirich Philipp (*19.10.1668, +1741); m.1696 Maria Barbara von Herberstein (*1675, +24.11.1735) %%
-			name="Wirich Philipp"
+		daun_0025={ #// H4. Heinrich Richard Laurenz VON DAUN, *1673.04.14, +1729.07.13; m.1st 22.11.1697 Johanna von Spork (*Heřman 1.6.1669, +Wien 17.11.1712); m.2nd Maria Violante von Boymont-Payrsberg (*1692, +6.10.1758)
+			name=Heinrich
 			dynasty=1002263
-			religion=catholic culture=german
-			father=100285889	# Wilhelm Johann von Daun
-			1668.10.19={birth=yes}
-			1696.01.01={add_spouse=herberstein_0368}	# Maria Barbara von Herberstein
-			1741.01.01={death=yes}
+			religion=lutheran culture=german
+			father=daun_0014	# Wilhelm von Daun
+			mother=lowborn_0723	# Maria Salome von Regal
+			1673.04.14={birth=yes}
+			1697.11.22={add_spouse=lowborn_1091}	# Johanna von Spork
+			1720.01.01={add_spouse=lowborn_1092}	# Maria Violante von Boimont zu Payersburg
+			1729.07.13={death=yes}
 		}
-			100495466={ #// K1. Ferdinand Heinrich VON DAUN, *1697, +1739; m.1.1.1 Maria Rosine von Herberstein (*3.1.1706, +1780) $$
-				name="Ferdinand Heinrich"
+			daun_0035={ #// I1. Johann Franz Bernhard VON DAUN, *1698.06.08, +1745
+				name=Johann
 				dynasty=1002263
-				religion=catholic culture=german
-				father=100295466	# Wirich Philipp von Daun
-				mother=herberstein_0368	# Maria Barbara von Herberstein
-				1697.05.19={birth=yes}
-				1729.01.01={add_spouse=herberstein_0445}	# Maria Rosine von Herberstein
-				1739.10.21={death=yes}
+				religion=lutheran culture=german
+				father=daun_0025	# Heinrich von Daun
+				mother=lowborn_1091	# Johanna von Spork
+				1698.06.08={birth=yes}
+				1745.01.01={death=yes}
 			}
-			100195466={ #// C2. Leopold Joseph Maria (*Wien 24.9.1705, +Wien 5.2.1766) %%
-				name="Leopold Joseph Maria"
+			daun_0036={ #// I2. Johann Benedikt Bernhard VON DAUN, *1700.12.08, +1766.09.06
+				name=Johann
 				dynasty=1002263
-				religion=catholic culture=german
-				father=100295466	# Wirich Philipp von Daun
-				mother=herberstein_0368	# Maria Barbara von Herberstein
-				1705.09.24={birth=yes}	# Wien
-				1766.02.05={death=yes}	# Wien
+				religion=lutheran culture=german
+				father=daun_0025	# Heinrich von Daun
+				mother=lowborn_1091	# Johanna von Spork
+				1700.12.08={birth=yes}
+				1766.09.06={death=yes}
 			}
-				100285892={ #// D1. Maria Theresia (*24.11.1745, +19.10.1777); m.1764 Lipót Pálffy ab Erdöd (*29.10.1739, +4.10.1799) %%
+			daun_0040={ #// I5. Maria Leopoldina Barbara VON DAUN, *1718.02.09, +1777; m.Carlo Francesco Cicogna-Mozzoni
+				name="Maria Leopoldina"
+				female=yes
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0025	# Heinrich von Daun
+				mother=lowborn_1092	# Maria Violante von Boimont zu Payersburg
+				1718.02.09={birth=yes}
+				1777.04.01={death=yes}
+			}
+			daun_0041={ #// I6. Eleonora Ernestina Eva Wolfgang Josepha VON DAUN, *Wien 1721.11.02, +Mercés, Lisbon 1789; m.Wien Sebasti de Carvalho Melo (*Lisbon 13.5.1699, +Pombal, Leira 8.5.1782)
+				name=Eleonora
+				female=yes
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0025	# Heinrich von Daun
+				mother=lowborn_1092	# Maria Violante von Boimont zu Payersburg
+				1721.11.02={birth=yes}  # Wien
+				1789.01.03={death=yes}  # Mercés, Lisbon
+			}
+			daun_0043={ #// I9. Karl Wilhelm Stanislaus VON DAUN, *1724.11.14, +1792.11.17; m.Jakobine Walburga von Königsfeld (*11.11.1720, +11.3.1788)
+				name=Karl
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0025	# Heinrich von Daun
+				mother=lowborn_1092	# Maria Violante von Boimont zu Payersburg
+				1724.11.14={birth=yes}
+				1748.01.01={add_spouse=lowborn_1281}	# Jakobine Walburga von Königsfeld
+				1792.11.17={death=yes}
+			}
+				daun_0069={ #// J1. Maximilian Joseph Karl Adam Maria VON UND ZU DAUN, *1749.09.08, +1810.07.16; m.Maria Ernestina von und zu Asch (*17.5.1761, +9.9.1798)
+					name=Maximilian
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0043	# Karl von Daun
+					mother=lowborn_1281	# Jakobine Walburga von Königsfeld
+					1749.09.08={birth=yes}
+					1785.01.01={add_spouse=lowborn_6871}	# Maria Ernestina von und zu Asch
+					1810.07.16={death=yes}
+				}
+					daun_0086={ #// K1. Walpurga VON UND ZU DAUN, *Straubing 1786.12.16, +Regensburg 1822.10.18; m.Joseph von Pfetten-Arnbach (*Niederarnbach 22.5.1784, +Niederarnbach 10.4.1870)
+						name=Walpurga
+						female=yes
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0069	# Maximilian von Daun
+						mother=lowborn_6871	# Maria Ernestina von und zu Asch
+						1786.12.16={birth=yes}  # Straubing
+						1822.10.18={death=yes}  # Regensburg
+					}
+				daun_0071={ #// J3. Maria Theresia VON UND ZU DAUN, *1752.07.19, +1818.04.26; m.Friedrich Siegmund von Miltitz
 					name="Maria Theresia"
 					female=yes
 					dynasty=1002263
-					religion=catholic culture=german
-					father=100195466	# Leopold Joseph Maria von Daun
-					1745.11.24={birth=yes}
-					1777.10.19={death=yes}
+					religion=lutheran culture=german
+					father=daun_0043	# Karl von Daun
+					mother=lowborn_1281	# Jakobine Walburga von Königsfeld
+					1752.07.19={birth=yes}
+					1818.04.26={death=yes}
 				}
-				100004174={ #// D2. Franz Karl (*Wien 25.11.1746, +Vöcklabruck 17.4.1771); m.14.4.1768 Maria Franziska von Auersperg (*30.7.1745, +2.10.1818) %%
-					name="Franz Karl"
+				daun_0072={ #// J4. Maria Katharina Walburga VON DAUN, *1757.05.03; m.1.1.1774 Georg von Hegnenberg-Dux (*1749, +1819)
+					name="Maria Katharina"
+					female=yes
 					dynasty=1002263
-					religion=catholic culture=german
-					father=100195466	# Leopold Joseph Maria von Daun
-					1746.11.25={birth=yes}	# Wien
-					1768.04.14={add_spouse=100021417}	# Maria Franziska von Auersperg
-					1771.04.17={death=yes}	# Vöcklabruck
+					religion=lutheran culture=german
+					father=daun_0043	# Karl von Daun
+					mother=lowborn_1281	# Jakobine Walburga von Königsfeld
+					1757.05.03={birth=yes}
+					1832.01.01={death=yes}  # EST.
 				}
-		100185889={ #// B3. Heinrich Joseph (*1.4.1678, +30.1.1761) %%
-			name="Heinrich Joseph"
+			daun_0045={ #// I10. Franz de Paula Joseph VON DAUN, *1727.03.29, +1785.04.19; m.Maria Antonia von Schulenburg-Oeynhausen (*1747, +1812)
+				name=Franz
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0025	# Heinrich von Daun
+				mother=lowborn_1092	# Maria Violante von Boimont zu Payersburg
+				1727.03.29={birth=yes}
+				1770.01.01={add_spouse=lowborn_1283}	# GFN Antonia von der Schulenburg-Oeynhausen
+				1785.04.19={death=yes}
+			}
+			daun_0046={ #// I11. Maria Elisabetha Josepha VON DAUN, *1730.03.29; m.Nikolaus Henrich Beckers von Wallhorn
+				name="Maria Elisabetha"
+				female=yes
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0025	# Heinrich von Daun
+				mother=lowborn_1092	# Maria Violante von Boimont zu Payersburg
+				1730.03.29={birth=yes}
+				1805.01.01={death=yes}  # EST.
+			}
+		daun_0027={ #// H5. Heinrich Dietrich Martin Josef VON DAUN, *1678.09.01, +Wien 1761; m.1st 30.10.1714 Marie Anna Jankovská z Vlašimi (*4.3.1696, +4.5.1734); m.2nd 9.9.1734 Maria Theresia von Colloredo (*1.5.1714, +25.2.1791)
+			name=Heinrich
 			dynasty=1002263
-			religion=catholic culture=german
-			father=100285889	# Wilhelm Johann von Daun
-			1678.04.01={birth=yes}
-			1761.01.30={death=yes}
+			religion=lutheran culture=german
+			father=daun_0014	# Wilhelm von Daun
+			mother=lowborn_0723	# Maria Salome von Regal
+			1678.09.01={birth=yes}
+			1714.10.30={add_spouse=lowborn_1228}	# Marie Anna Jankovská z Vlašimi
+			1734.09.09={add_spouse=lowborn_1253}	# Maria Theresia von Colloredo
+			1761.01.31={death=yes}  # Wien
 		}
-			100285891={ #// C1. Maximilian (*Budapest 3.10.1721, +Bítov 17.6.1788); m.1st 1760 Maria Josepha Kinsky von Wchinitz u.Tettau (*11.10.1738, +1767); m.2nd 25.4.1768 Maria Josefa von Wilczek (*Wien 14.6.1750, +Wien 24.3.1771); m.3rd 3.12.1773 Antonia Maria von Wilczek (*Wien 24.8.1754, +Wien 17.5.1821) %%
+			daun_0047={ #// I1. Maximilian Franz Xaver VON UND ZU DAUN, *Budapest 1721.10.03, +Bítov 1788.06.17; m.1st 1.1.1766 Maria Josepha Kinská z Vchynic A Tetova (*11.10.1738, +1767); m.2nd Wien 25.4.1768 Maria Josefa Wilczek (*Wien 14.6.1750, +Wien 24.3.1771); m.3rd Seefeld 3.12.1773 Antonia Maria Wilczek (*Wien 24.8.1754, +Wien 17.5.1821) $$
 				name=Maximilian
 				dynasty=1002263
-				religion=catholic culture=german
-				father=100185889	# Heinrich Joseph von Daun
+				religion=lutheran culture=german
+				father=daun_0027	# Heinrich von Daun
+				mother=lowborn_1228	# Marie Anna Jankovská z Vlašimi
 				1721.10.03={birth=yes}  # Budapest
-				1760.01.01={add_spouse=100185888}	# Maria Josepha Kinsky von Wchinitz u.Tettau
+				1766.01.01={add_spouse=100185888}	# Maria Josepha Kinsky von Wchinitz u.Tettau
 				1768.04.25={add_spouse=wilczek_0031}	# Maria Josefa von Wilczek
 				1773.12.03={add_spouse=wilczek_0028}	# Antonia Maria von Wilczek
 				1788.06.17={death=yes}  # Bítov
 			}
+				daun_0074={ #// J1. Johann Heinrich Maximilian VON UND ZU DAUN, *1769, +1770.04.04
+					name=Johann
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0047	# Maximilian von Daun
+					mother=wilczek_0031	# Maria Josefa von Wilczek
+					1769.01.01={birth=yes}
+					1770.04.04={death=yes}
+				}
+				daun_0079={ #// J2. Franz de Paula Joseph Maximilian VON UND ZU DAUN, *Jemnice 1781.04.02, +Wien 1836.04.21; m.2.1.1803 Maria Josepha von Hardegg (*Wien 7.5.1777, +Wien 3.2.1847) $$
+					name=Franz
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0047	# Maximilian von Daun
+					mother=wilczek_0028	# Antonia Maria von Wilczek
+					1781.04.02={birth=yes}  # Jemnice
+					1803.01.02={add_spouse=hardegg_0067}	# Maria Josepha zu Hardegg auf Glatz u.im Machlande
+					1836.04.21={death=yes}  # Wien
+				}
+					daun_0087={ #// K1. Augustine VON UND ZU DAUN, *1804.06.04, +1837.06.10
+						name=Augustine
+						female=yes
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0079	# Franz von Daun
+						mother=hardegg_0067	# Maria Josepha zu Hardegg auf Glatz u.im Machlande
+						1804.06.04={birth=yes}
+						1837.06.10={death=yes}
+					}
+					daun_0088={ #// K2. Franz Heinrich VON UND ZU DAUN, *1805.06.20, +Wien 1890.10.16; m.29.2.1840 Antonie Woracziczky z Pabienitz (*17.12.1819, +Graz 15.5.1879)
+						name="Franz Heinrich"
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0079	# Franz von Daun
+						mother=hardegg_0067	# Maria Josepha zu Hardegg auf Glatz u.im Machlande
+						1805.06.20={birth=yes}
+						1840.02.29={add_spouse=lowborn_7059}	# Antonie Woracziczky z Pabienitz
+						1890.10.16={death=yes}  # Wien
+					}
+					daun_0089={ #// K3. Bertha VON DAUN, *Wien 1807.04.14, +Wien 1856.04.07; m.Bítov (Vöttau) 21.9.1834 Karel Vilém Haugvic z Malé Obiše (*Náměšť nad Oslavou 23.10.1797, +Náměšť nad Oslavou 30.10.1874) $$
+						name=Bertha
+						female=yes
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0079	# Franz von Daun
+						mother=hardegg_0067	# Maria Josepha zu Hardegg auf Glatz u.im Machlande
+						1807.04.14={birth=yes}  # Wien
+						1856.04.07={death=yes}  # Wien
+					}
+					daun_0091={ #// K5. Gustav VON UND ZU DAUN, *1810.05.08, +1836.06.22
+						name=Gustav
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0079	# Franz von Daun
+						mother=hardegg_0067	# Maria Josepha zu Hardegg auf Glatz u.im Machlande
+						1810.05.08={birth=yes}
+						1836.06.22={death=yes}
+					}
+					daun_0093={ #// K7. Wladimir VON UND ZU DAUN, *Bítov (Vöttau) 1812.06.11, +Wien 1896.03.18; m.Bruxelles 27.3.1856 Camille Mouchet de Battefort de Laubespin (*Paris, died Jul 11.6.1837)
+						name=Wladimir
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0079	# Franz von Daun
+						mother=hardegg_0067	# Maria Josepha zu Hardegg auf Glatz u.im Machlande
+						1812.06.11={birth=yes}  # Bítov (Vöttau)
+						1856.03.27={add_spouse=lowborn_7062}	# Camille Mouchet de Battefort de Laubespin
+						1896.03.18={death=yes}  # Wien
+					}
+					daun_0094={ #// K8. Ottokar VON UND ZU DAUN, *1813.11.03, +Bítov (=Vöttau) 1904.10.08; m.29.2.1840 Tereza Woracziczky z Pabienitz (*Praha 12.5.1816, +Bítov 30.8.1904)
+						name=Ottokar
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0079	# Franz von Daun
+						mother=hardegg_0067	# Maria Josepha zu Hardegg auf Glatz u.im Machlande
+						1813.11.03={birth=yes}
+						1840.02.29={add_spouse=lowborn_7066}	# Tereza Woracziczky z Pabienitz
+						1904.10.08={death=yes}  # Bítov (=Vöttau)
+					}
+					daun_0095={ #// K9. Marie Luisa VON UND ZU DAUN, *1815.05.20, +1836
+						name="Marie Luisa"
+						female=yes
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0079	# Franz von Daun
+						mother=hardegg_0067	# Maria Josepha zu Hardegg auf Glatz u.im Machlande
+						1815.05.20={birth=yes}
+						1836.01.05={death=yes}
+					}
+				daun_0080={ #// J3. Anton VON UND ZU DAUN, *1783.07.03, +Wien 1874.10.17; m.8.10.1843 Karoline Kapy de Kapyvar (*29.7.1814, +Mödling 20.6.1906)
+					name=Anton
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0047	# Maximilian von Daun
+					mother=wilczek_0028	# Antonia Maria von Wilczek
+					1783.07.03={birth=yes}
+					1843.10.08={add_spouse=lowborn_7030}	# Karoline Kapy de Kapyvar
+					1874.10.17={death=yes}  # Wien
+				}
+				daun_0082={ #// J4. Heinrich VON UND ZU DAUN, *Jemnice 1786.10.18, +Wien 1858.03.24; m.Immendorf 3.5.1825 Emma Locatelli (*Immendorf 27.2.1804, +Wien 7.2.1841)
+					name=Heinrich
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0047	# Maximilian von Daun
+					mother=wilczek_0028	# Antonia Maria von Wilczek
+					1786.10.18={birth=yes}  # Jemnice
+					1825.05.03={add_spouse=lowborn_7040}	# Emma Locatelli
+					1858.03.24={death=yes}  # Wien
+				}
+					daun_0096={ #// K1. Hermann VON UND ZU DAUN, *1828.01.18, +Mediasch, Siebenbürgen 1857.04.13
+						name=Hermann
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0082	# Heinrich von Daun
+						mother=lowborn_7040	# Emma Locatelli
+						1828.01.18={birth=yes}
+						1857.04.13={death=yes}  # Mediasch, Siebenbürgen
+					}
+					daun_0097={ #// K2. Friederike VON UND ZU DAUN, *1833.03.04, +Praha 1881.11.22
+						name=Friederike
+						female=yes
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0082	# Heinrich von Daun
+						mother=lowborn_7040	# Emma Locatelli
+						1833.03.04={birth=yes}
+						1881.11.22={death=yes}  # Praha
+					}
+					daun_0098={ #// K3. Ernst VON UND ZU DAUN, *1835.06.12, +k.a., Hradec Králové 1866.07.03
+						name=Ernst
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0082	# Heinrich von Daun
+						mother=lowborn_7040	# Emma Locatelli
+						1835.06.12={birth=yes}
+						1866.07.03={death=yes}  # k.a., Hradec Králové
+					}
+					daun_0099={ #// K4. Emma VON UND ZU DAUN, *Wien 1838.12.17, +Wien 1922.02.08
+						name=Emma
+						female=yes
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0082	# Heinrich von Daun
+						mother=lowborn_7040	# Emma Locatelli
+						1838.12.17={birth=yes}  # Wien
+						1922.02.08={death=yes}  # Wien
+					}
+				daun_0076={ #// J6. Maria Anna  VON UND ZU DAUN, *1775, +1805
+					name="Maria Anna"
+					female=yes
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0047	# Maximilian von Daun
+					mother=wilczek_0028	# Antonia Maria von Wilczek
+					1775.01.01={birth=yes}
+					1805.01.01={death=yes}
+				}
+				daun_0078={ #// J8. Maria Leopoldina Josepha VON UND ZU DAUN, *1776.05.10, +Immendorf 1845.09.06; m.18.9.1798 Franz zu Königsegg-Aulendorf (*2.3.1773, +25.7.1858) $$
+					name="Maria Leopoldina"
+					female=yes
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0047	# Maximilian von Daun
+					mother=wilczek_0028	# Antonia Maria von Wilczek
+					1776.05.10={birth=yes}
+					1845.09.06={death=yes}  # Immendorf
+				}
+				daun_0081={ #// J9. Maximilian VON UND ZU DAUN, *1785, +1841.02.18; m.
+					name=Maximilian
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0047	# Maximilian von Daun
+					mother=wilczek_0028	# Antonia Maria von Wilczek
+					1785.01.01={birth=yes}
+					1811.01.01={add_spouse=lowborn_7035}	# Karoline N
+					1841.02.18={death=yes}
+				}
+				daun_0083={ #// J10. Theresia VON UND ZU DAUN, *1788, +1815; m.Wenzel Vetter von Lilienberg
+					name=Theresia
+					female=yes
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0047	# Maximilian von Daun
+					mother=wilczek_0028	# Antonia Maria von Wilczek
+					1788.01.01={birth=yes}
+					1815.01.01={death=yes}
+				}
+			daun_0048={ #// I2. Maria Antonia VON UND ZU DAUN, *1735.08.07, +1823; m.Maria zu Saurau (*7.8.1718, +2.11.1779)
+				name="Maria Antonia"
+				female=yes
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0027	# Heinrich von Daun
+				mother=lowborn_1253	# Maria Theresia von Colloredo
+				1735.08.07={birth=yes}
+				1823.01.04={death=yes}
+			}
+			daun_0049={ #// I3. Maria Franziska de Paula VON UND ZU DAUN, *1737.04.01, +1753.11.28
+				name="Maria Franziska"
+				female=yes
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0027	# Heinrich von Daun
+				mother=lowborn_1253	# Maria Theresia von Colloredo
+				1737.04.01={birth=yes}
+				1753.11.28={death=yes}
+			}
+			daun_0050={ #// I4. Maria Ernestina Franziska VON UND ZU DAUN, *1738.10.09, +1750.11.17
+				name="Maria Ernestina"
+				female=yes
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0027	# Heinrich von Daun
+				mother=lowborn_1253	# Maria Theresia von Colloredo
+				1738.10.09={birth=yes}
+				1750.11.17={death=yes}
+			}
+		daun_0022={ #// H7. Maria Beatrix Franziska VON DAUN, *1665.01.09, +Wien 1701; m.1st Johann Cob von Nudingen; m.2nd Franz Adam Losenstein; m.3rd St.Michael,Wien 13.1.1688 Gundackar Thomas von Starhemberg (*Wien, christened 14.12.1663, +Wien, buried 10.7.1745) $$
+			name="Maria Beatrix"
+			female=yes
+			dynasty=1002263
+			religion=lutheran culture=german
+			father=daun_0014	# Wilhelm von Daun
+			mother=lowborn_0723	# Maria Salome von Regal
+			1665.01.09={birth=yes}
+			1701.01.08={death=yes}  # Wien
+		}
+		daun_0026={ #// H8. Marie Anne Elisabeth VON UND ZU DAUN, *1674, +1747.07.19; m.1.1.1709 Michael von Althann (*14.5.1672, +1715) $$
+			name="Marie Anne"
+			female=yes
+			dynasty=1002263
+			religion=lutheran culture=german
+			father=daun_0014	# Wilhelm von Daun
+			mother=lowborn_0723	# Maria Salome von Regal
+			1674.01.01={birth=yes}
+			1747.07.19={death=yes}
+		}
+		daun_0024={ #// H13. Wirich Philipp Lorenz VON DAUN, *1668.10.19, +1741; m.Maria Barbara zu Herberstein (*1675, +24.11.1735) $$
+			name="Wirich Philipp"
+			dynasty=1002263
+			religion=lutheran culture=german
+			father=daun_0014	# Wilhelm von Daun
+			mother=lowborn_0723	# Maria Salome von Regal
+			1668.10.19={birth=yes}
+			1695.01.01={add_spouse=herberstein_0368}	# Maria Barbara von Herberstein
+			1741.01.01={death=yes}
+		}
+			daun_0032={ #// I1. Ferdinand Heinrich VON DAUN, *1697.05.19, +1739.10.21; m.Maria Rosine von Herberstein (*3.1.1706, +1780) $$
+				name="Ferdinand Heinrich"
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0024	# Wirich Philipp von Daun
+				mother=herberstein_0368	# Maria Barbara von Herberstein
+				1697.05.19={birth=yes}
+				1721.01.01={add_spouse=herberstein_0445}	# Maria Rosine von Herberstein
+				1739.10.21={death=yes}
+			}
+				daun_0051={ #// J2. Maria Karoline VON DAUN, *1722.05.15, +1779
+					name="Maria Karoline"
+					female=yes
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0032	# Ferdinand Heinrich von Daun
+					mother=herberstein_0445	# Maria Rosine von Herberstein
+					1722.05.15={birth=yes}
+					1779.01.23={death=yes}
+				}
+				daun_0054={ #// J5. Maria Elisabeth Barbara Josepha Johanna Nepomucena Renata Michaela Gudula VON DAUN, *1725, +1769.02.21; m.Josef Roden von Hirzenau
+					name="Maria Elisabeth"
+					female=yes
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0032	# Ferdinand Heinrich von Daun
+					mother=herberstein_0445	# Maria Rosine von Herberstein
+					1725.01.01={birth=yes}
+					1769.02.21={death=yes}
+				}
+				daun_0056={ #// J7. Karl Borromäus Joseph Johann VON DAUN, *Milano 1728.10.07, +Salzburg 1805.09.20
+					name=Karl
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0032	# Ferdinand Heinrich von Daun
+					mother=herberstein_0445	# Maria Rosine von Herberstein
+					1728.10.07={birth=yes}  # Milano
+					1805.09.20={death=yes}  # Salzburg
+				}
+				daun_0057={ #// J8. Eleonore Ernestine Josepha VON DAUN, *1729.10.03, +1781
+					name=Eleonore
+					female=yes
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0032	# Ferdinand Heinrich von Daun
+					mother=herberstein_0445	# Maria Rosine von Herberstein
+					1729.10.03={birth=yes}
+					1781.01.01={death=yes}
+				}
+				daun_0064={ #// J14. Maria Barbara Leopoldine VON DAUN, *1739.05.23, +1773.02.23; m.Johann Karl von Staudach
+					name="Maria Barbara"
+					female=yes
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0032	# Ferdinand Heinrich von Daun
+					mother=herberstein_0445	# Maria Rosine von Herberstein
+					1739.05.23={birth=yes}
+					1773.02.23={death=yes}
+				}
+			daun_0034={ #// I5. Leopold Josef Maria VON DAUN, *Wien 1705.09.24, +1766.02.05
+				name=Leopold
+				dynasty=1002263
+				religion=lutheran culture=german
+				father=daun_0024	# Wirich Philipp von Daun
+				mother=herberstein_0368	# Maria Barbara von Herberstein
+				1705.09.24={birth=yes}  # Wien
+				1766.02.05={death=yes}
+			}
+				daun_0066={ #// J3. Maria Theresia VON UND ZU DAUN, *1745.11.24, +1777.10.19; m.Wien Lipót Pálffy ab Erdöd (*29.10.1739, +Wien 4.10.1799) $$
+					name="Maria Theresia"
+					female=yes
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0034	# Leopold von Daun
+					1745.11.24={birth=yes}
+					1777.10.19={death=yes}
+				}
+				daun_0067={ #// J4. Franz Karl VON UND ZU DAUN, *Wien 1746.11.25, +Vöcklabruck 1771.04.17; m.Wien 14.4.1768 Maria Franziska von Auersperg (*30.1.1745, +2.10.1818) $$
+					name="Franz Karl"
+					dynasty=1002263
+					religion=lutheran culture=german
+					father=daun_0034	# Leopold von Daun
+					1746.11.25={birth=yes}  # Wien
+					1768.04.14={add_spouse=100021417}	# Maria Franziska von Auersperg
+					1771.04.17={death=yes}  # Vöcklabruck
+				}
+					daun_0084={ #// K1. Leopold Karl Joseph VON DAUN-THEANO, *1769.07.23, +1799; m.15.1.1791 Karolina Waldstein-Wartenberg (*13.1.1766, +1844) $$
+						name=Leopold
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0067	# Franz Karl von Daun
+						mother=100021417	# Maria Franziska von Auersperg
+						1769.07.23={birth=yes}
+						1791.01.15={add_spouse=100047388}	# Karolina z Valdštejna
+						1799.01.05={death=yes}
+					}
+					daun_0085={ #// K2. Josef Franz de Paula Karl VON UND ZU DAUN, *1771.03.01, +Salzburg 1851.03.27
+						name=Josef
+						dynasty=1002263
+						religion=lutheran culture=german
+						father=daun_0067	# Franz Karl von Daun
+						mother=100021417	# Maria Franziska von Auersperg
+						1771.03.01={birth=yes}
+						1851.03.27={death=yes}  # Salzburg
+					}
 	100299227={ #// A2. Karl Friedrich (*1646, +1727); m.1667 Polyxena von Leiningen (*1617, +8.1.1668) %%
 		name="Karl Friedrich"
 		dynasty=1002263
 		religion=catholic culture=german
-		father=100299226	# Philipp Ernst von Daun
+		father=daun_0007	# Philipp Ernst von Daun
 		1646.01.01={birth=yes}
 		1667.01.01={add_spouse=100003659}	# Polyxena von Leiningen
 		1727.01.01={death=yes}
 	}
-## Thiano
+## von und zu Daun, Thiano
 
 ## Falkenstein
 ## DAUN

@@ -8728,12 +8728,13 @@ lowborn_5930={ # Sir        Harry                     Boyd                      
 	religion=anglican culture=english
 	1973.01.01={birth=yes}
 }
-lowborn_6110={ #            Penelope Eva              Bradford                                 (2006-    )     0 [PETY]
+lowborn_6110={ #            Penelope Eva              Bradford                                 (1925-2006)     0 [PETY]
 	name="Penelope Eva Bradford"
 	female=yes
 	#dynasty=0
 	religion=anglican culture=english
-	2006.12.31={birth=yes}  # Hon. Mrs Astor d
+	1925.01.01={birth=yes}  # EST.
+	2006.12.31={death=yes}
 }
 100080889={ #               Ralph                     Bradford Atkinson                        (1833-1888)     - [FITZROY]
 	name="Ralph Bradford Atkinson"
@@ -15681,14 +15682,14 @@ lowborn_6149={ #            David George              Levinge Shaw              
 	religion=anglican culture=english
 	1962.01.01={birth=yes}  # EST.
 }
-lowborn_6271={ #            William                   Lindley                                  (1764-1789)     - [MURAY]
+lowborn_6271={ #            William                   Lindley                                  (1764-1810)     - [MURAY]
 	name="William Lindley"
 	#dynasty=0
 	religion=lutheran culture=scottish
 	1764.01.01={birth=yes}  # EST.
 	1788.01.01={add_spouse=murray_0134}	# Harriet Murray
-	1805.01.01={remove_spouse=100040_0134}
-	1789.01.01={death=yes}  # EST.
+	1805.01.01={remove_spouse=murray_0134}
+	1810.01.01={death=yes}  # EST.
 }
 100094661={ #               Athina                    Livanos                                  (1926-1974)     0 [SPENCER]
 	name="Athina Livanos"
@@ -16203,12 +16204,13 @@ lowborn_5936={ #            Henry John                Milbank                   
 	1864.06.22={add_spouse=osborne_0044}	# Susan Georgiana Osborne
 	1872.06.04={death=yes}
 }
-lowborn_5982={ #            Andreas                   Minihan                                  (1993-    )     - [POER]
+lowborn_5982={ #            Andreas                   Minihan                                  (1950-    )     - [POER]
 	name="Andreas Minihan"
 	#dynasty=0
 	religion=catholic culture=irish
-	1993.01.01={birth=yes}  # sep
+	1950.01.01={birth=yes}  # EST.
 	1976.01.01={add_spouse=beresford_0045}	# Nicola de la Poer Beresford
+	1993.01.01={remove_spouse=beresford_0045}
 }
 lowborn_6052={ #            Rose Miriam               Molesworth                               (1915-1951)     0 [POER]
 	name="Rose Miriam Molesworth"
@@ -17542,7 +17544,7 @@ lowborn_6272={ #            John Francis              Staveley                  
 	#dynasty=0
 	religion=lutheran culture=scottish
 	1769.01.01={birth=yes}  # EST.
-	1793.01.01={add_spouse=murray_0134}	# Harriet Murray
+	1806.01.01={add_spouse=murray_0134}	# Harriet Murray
 	1829.01.01={death=yes}  # EST.
 }
 100090552={ #               Kathleen Mary             Stedman                                  (1919-1995)     0 [FITZGERALD]
@@ -18396,5 +18398,12 @@ lowborn_7064={ # Sir        Anthony                   Williams                  
 	1923.05.28={birth=yes}  # London
 	1955.02.19={add_spouse=neipperg_0044}	# Hedwig von Neipperg
 	1990.05.23={death=yes}  # Gdansk
+}
+lowborn_2002={ # Lady       Emily Augusta             Pelham-Clinton                           (1863-1919)     3 [DORIA]
+	name="Emily Augusta Pelham-Clinton"
+	female=yes
+	religion=catholic culture=italian
+	1863.03.28={birth=yes}  # London
+	1919.12.23={death=yes}  # Rome
 }
 

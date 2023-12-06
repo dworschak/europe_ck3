@@ -30623,6 +30623,10 @@ e_poland_lithuania = {
 					province = 4945
 					color = { 70 93 127 }
 				}
+				b_sejny = {
+					province = 163
+					color = { 70 93 127 }
+				}
 			}
 			c_plocka = {
 				color = { 85 79 124 }
@@ -31448,29 +31452,33 @@ e_poland_lithuania = {
 					province = 151
 					color = { 35 140 165 }
 				}
+				b_oknist = {
+					province = 150
+					color = { 35 140 165 }
+				}
 			}
 			c_trakai = {
-				color = { 68 125 213 }
+				color = { 18 182 157 }
 				
-				b_trakai = {
-					province = 153
-					color = { 68 125 213 }
-				}
 				b_kaunas = {
 					province = 130
-					color = { 68 125 213 }
+					color = { 18 182 157 }
+				}
+				b_trakai = {
+					province = 153
+					color = { 18 182 157 }
 				}
 				b_merkine = {
 					province = 160
-					color = { 68 125 213 }
+					color = { 18 182 157 }
 				}
 				b_aliten = {
 					province = 162
-					color = { 68 125 213 }
+					color = { 18 182 157 }
 				}
 				b_valkininkai = {
 					province = 159
-					color = { 68 125 213 }
+					color = { 18 182 157 }
 				}
 			}
 			c_yatvyagi = {
@@ -31478,10 +31486,6 @@ e_poland_lithuania = {
 				
 				b_vilkaviskis = {
 					province = 158
-					color = { 68 131 163 }
-				}
-				b_sejny = {
-					province = 163
 					color = { 68 131 163 }
 				}
 			}
@@ -31526,6 +31530,10 @@ e_poland_lithuania = {
 					province = 128
 					color = { 45 190 178 }
 				}
+				b_ceklis = {
+					province = 111
+					color = { 45 190 178 }
+				}
 			}
 			c_siauliai = {
 				color = { 78 204 180 }
@@ -31540,6 +31548,14 @@ e_poland_lithuania = {
 				}
 				b_birzai = {
 					province = 152
+					color = { 78 204 180 }
+				}
+				b_bauska = {
+					province = 105
+					color = { 78 204 180 }
+				}
+				b_dobele = {
+					province = 106
 					color = { 78 204 180 }
 				}
 			}
@@ -35185,7 +35201,7 @@ e_russia = {
 					color = { 50 122 135 }
 				}
 				b_placeholder_vjwmf = {
-					province = 9655
+					province = 9674
 					color = { 50 122 135 }
 				}
 			}
@@ -49759,7 +49775,7 @@ k_albania = {
 	ai_primary_priority = {
 		if = {
 			limit = {
-				culture = culture:greek
+				culture = culture:albanian
 			}
 			add = @correct_culture_primary_score
 		}
@@ -53556,14 +53572,6 @@ k_latvia = {
 				province = 107
 				color = { 186 80 60 }
 			}
-			b_bauska = {
-				province = 105
-				color = { 186 80 60 }
-			}
-			b_dobele = {
-				province = 106
-				color = { 186 80 60 }
-			}
 			b_neuenburg = {
 				province = 121
 				color = { 186 80 60 }
@@ -53584,20 +53592,12 @@ k_latvia = {
 				province = 116
 				color = { 186 92 62 }
 			}
-			b_ceklis = {
-				province = 111
-				color = { 186 92 62 }
-			}
 		}
 		c_selpils = {
 			color = { 169 115 117 }
 			
 			b_selpils = {
 				province = 133
-				color = { 169 115 117 }
-			}
-			b_oknist = {
-				province = 150
 				color = { 169 115 117 }
 			}
 		}

@@ -290,6 +290,56 @@ husarzewski_0001={ #// Józef Husarzewski (*5.10.1840, +Kraków 19.2.1892); m.6.
 			1913.01.21={death=yes}	# Roma
 		}
 ## KRASINSKI 1012021
+
+## CZACKI
+czacki_0010={ #// Feliks Szczęsny Czacki (*1723, +Brusiłów 1790); m.Końskie 17.11.1746 Katarzyna Małachowski (*Końskie 9.5.1729, +1.9.1768) $$
+	name="Feliks Szczęsny"
+	dynasty=czacki
+	religion=catholic culture=polish
+	1723.01.01={birth=yes}
+	1746.11.17={add_spouse=malachow_0013}	# Katarzyna Małachowski
+	1790.01.01={death=yes}	# Brusiłów
+}
+	czacki_0011={ #// A1. Rozalia (*1753, +Warsaw 12.4.1821); m.Poryck 4.6.1775 Jan-Jacek Tarnowski (*Dzików 8.11.1729, +Dzików 24.8.1808) $$
+		name="Rozalia"
+		female=yes
+		dynasty=czacki
+		religion=catholic culture=polish
+		father=czacki_0010	# Feliks Szczęsny Czacki z Czacza
+		mother=malachow_0013	# Katarzyna Małachowski
+		1753.01.01={birth=yes}
+		1821.04.12={death=yes}  # Warsaw
+	}
+	czacki_0012={ #// A2. Michał Mikołaj Hieronim (*Porycku 1755, +Sielec 28.12.1828); m.1784 Beata Potocki (+Sielec 25.8.1824) %%
+		name="Michał Mikołaj Hieronim"
+		dynasty=czacki
+		religion=catholic culture=polish
+		father=czacki_0010	# Feliks Szczęsny Czacki z Czacza
+		mother=malachow_0013	# Katarzyna Małachowski
+		1755.01.01={birth=yes}	# Porycku 
+		1784.01.01={add_spouse=potocki_0036}	# Beata Potocki
+		1828.12.28={death=yes}	# Sielec
+	}
+
+## OSSOLINSKI
+100086791={ #// Wiktor Ossoliński (*Rudka 10.9.1790, +Warszawa 26.9.1860); m.9.3.1821 Zofia Chodkiewicz (*1803, +1871) %%
+	name="Wiktor"
+	dynasty=ossolinski
+	religion=catholic culture=polish
+	1790.09.10={birth=yes}  # Rudka
+	1821.03.09={add_spouse=100113072}	# Zofia Chodkiewicz
+	1860.09.26={death=yes}  # Warszawa
+}
+	100088709={ #// A1. Wanda (*1822, +Krakow 1.10.1907); m.1st 1848 Tomasz Aleksander Potocki (*Chrzastow 3.5.1809, +Warsaw 13.12.1864); m.2nd 1865 Stanisław Jabłonowski (*10.3.1799, +16.8.1878) %%
+		name="Wanda"
+		female=yes
+		dynasty=ossolinski
+		religion=catholic culture=polish
+		father=100086791	# Wiktor Ossoliński
+		mother=100113072	# Zofia Chodkiewicz
+		1822.01.01={birth=yes}
+		1907.10.01={death=yes}  # Krakow
+	}
 #### MINOR ####
 
 
@@ -596,7 +646,7 @@ husarzewski_0001={ #// Józef Husarzewski (*5.10.1840, +Kraków 19.2.1892); m.6.
 			1824.01.01={add_spouse=100086573}	# Franciszka Ksawera Szczeniowski
 			1838.01.24={death=yes}  # Mlynów
 		}
-			100113072={ #// C1. [1m.] Zofia, *1803, +1871; m.1820 Wiktor Ct Ossolinski
+			100113072={ #// C1. [1m.] Zofia, *1803, +1871; m.1820 Wiktor Ct Ossolinski $$
 				name=Zofia
 				female=yes
 				dynasty=1012033
@@ -4952,7 +5002,7 @@ broel_0001={ #// Fabian Ksavery von dem Broel gt Plater (1679-ca 1742); m.1st Ps
 								mother=100097482	# Teodora Walewski
 								1799.03.10={birth=yes}
 								1825.11.12={add_spouse=100112861}	# Maria Wielopolski
-								1865.01.01={add_spouse=100088709}	# CSS Wanda Ossolinski
+								1865.01.01={add_spouse=100088709}	# Wanda Ossoliński
 								1878.08.16={death=yes}
 							}
 						100112595={ #// F3. [1m.] Pss Tekla, *31.1.1778, +?; m.Jerzy Michał Potocki (*1753, +after 1792) $$
@@ -8483,13 +8533,13 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 						1808.03.18={birth=yes}  # Drzazgów
 						1840.04.06={death=yes}  # Wróblewice
 					}
-			100111930={ #// Ct Jan-Jacek Tarnowski (Dzików 8 Nov 1729-Dzików 24 Aug 1808); m.1st by 2 Jun 1757 Helene Morska (d.after 18 Feb 1771); m.2nd Poryck 4 Jun 1775 Css Rozalja Czacka (1753-Warsaw 12 Apr 1821)
+			100111930={ #// Ct Jan-Jacek Tarnowski (Dzików 8 Nov 1729-Dzików 24 Aug 1808); m.1st by 2 Jun 1757 Helene Morska (d.after 18 Feb 1771); m.2nd Poryck 4 Jun 1775 Css Rozalja Czacka (1753-Warsaw 12 Apr 1821) $$
 				name=Jan-Jacek
 				dynasty=1012008
 				religion=catholic culture=polish
 				father=100111932	# Józef Mateusz Amor Tarnowski
 				1729.11.08={birth=yes}  # Dzików
-				1775.06.04={add_spouse=100081776}	# CSS Rozalja Czacki
+				1775.06.04={add_spouse=czacki_0011}	# Rozalia Czacki z Czacza
 				1808.08.24={death=yes}  # Dzików
 			}
 				100111934={ #// 2a) Jan-Feliks (Dzików 6 May 1777-Dzików 3 May 1842); m.Horochów 21 Jun 1800 Waleria Stroynowska (Bubnow 9 Dec 1782-Dzików 23 Nov 1849)
@@ -8497,7 +8547,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 					dynasty=1012008
 					religion=catholic culture=polish
 					father=100111930	# Jan-Jacek Tarnowski
-					mother=100081776	# CSS Rozalja Czacki
+					mother=czacki_0011	# Rozalia Czacki z Czacza
 					1777.05.06={birth=yes}  # Dzików
 					1800.06.21={add_spouse=100090675}	# Waleria Stroynowski
 					1842.05.03={death=yes}  # Dzików
@@ -9765,7 +9815,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 					dynasty=1012008
 					religion=catholic culture=polish
 					father=100111930	# Jan-Jacek Tarnowski
-					mother=100081776	# CSS Rozalja Czacki
+					mother=czacki_0011	# Rozalia Czacki z Czacza
 					1780.06.28={birth=yes}  # Dzików
 					1849.01.01={death=yes}  # Horochów
 				}
@@ -9774,7 +9824,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 					dynasty=1012008
 					religion=catholic culture=polish
 					father=100111930	# Jan-Jacek Tarnowski
-					mother=100081776	# CSS Rozalja Czacki
+					mother=czacki_0011	# Rozalia Czacki z Czacza
 					1782.09.22={birth=yes}  # Dzików
 					1826.02.01={add_spouse=100093940}	# Elzbieta Wysocki
 					1831.12.03={death=yes}  # Chorzelów
@@ -10561,7 +10611,6 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 				religion=catholic culture=lithuanian
 				father=125316	# Vladimir
 				1395.01.01={birth=yes}  # EST.
-				1420.01.01={add_spouse=lowborn_1581}	# Maria N
 				1457.01.01={death=yes}
 			}
 				jagelo_0058={ #// D1. Gleb, +1457
@@ -10569,7 +10618,6 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 					dynasty=1012037
 					religion=catholic culture=lithuanian
 					father=jagelo_0057	# Andrey Jagiełło
-					mother=lowborn_1581	# Maria N
 					1421.01.01={birth=yes}  # EST.
 					1457.01.01={death=yes}
 				}
@@ -10579,7 +10627,6 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 					dynasty=1012037
 					religion=catholic culture=lithuanian
 					father=jagelo_0057	# Andrey Jagiełło
-					mother=lowborn_1581	# Maria N
 					1422.01.01={birth=yes}  # EST.
 					1517.12.01={death=yes}  # EST.
 				}
@@ -11010,9 +11057,9 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473506	# Algirdas
-			1386.01.01={birth=yes}  # Dmitriy ) Pr of Novgorod Severskiy (
+			1360.01.01={birth=yes}	# EST.
 			1394.01.01={add_spouse=rurik_0264}	# Анастасия Рюрикович
-			1392.01.01={death=yes}
+			1420.01.01={death=yes}	# EST.
 		}
 			jagelo_0107={ #// C1. Ivan, +after 1431
 				name=Иван
@@ -11021,7 +11068,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 				father=jagelo_0106	# Korybut Jagiełło
 				mother=rurik_0264	# Анастасия Рюрикович
 				1395.01.01={birth=yes}  # EST.
-				1432.01.01={death=yes}
+				1440.01.01={death=yes}	# EST.
 			}
 			jagelo_0108={ #// C2. Sigismond, pretender to the Bohemian throne, +1435
 				name=Sigismond
@@ -11078,7 +11125,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 				religion=catholic culture=lithuanian
 				father=jagelo_0113	# Lingweni Jagiełło
 				mother=rurik_0128	# Мария Дмитриевна Рюрикович
-				1422.01.01={birth=yes}
+				1400.01.01={birth=yes}
 				1442.01.01={add_spouse=lowborn_1629}	# Sofia N
 				1456.01.01={death=yes}
 			}
@@ -11088,9 +11135,9 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 					religion=catholic culture=lithuanian
 					father=jagelo_0114	# Юрий Jagiełło
 					mother=lowborn_1629	# Sofia N
-					1443.01.01={birth=yes}
+					1425.01.01={birth=yes}
 					1469.01.01={add_spouse=lowborn_1630}	# Juliana N
-					1483.01.01={death=yes}
+					1485.01.01={death=yes}
 				}
 					jagelo_0116={ #// E1. Anastasia, +after 1523; m.after 1496 Simeon Pr Olelkowicz-Slucki (+1505) $$
 						name=Anastasia
@@ -11233,7 +11280,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
-			1364.01.01={birth=yes}  # EST.
+			1339.01.01={birth=yes}  # EST.
 			1424.12.01={death=yes}  # EST.
 		}
 		jagelo_0137={ #// B2. [1m.] Woidat Pr of Novogrodeck, +after 1362
@@ -11241,7 +11288,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
-			1352.01.01={birth=yes}  # EST.
+			1340.01.01={birth=yes}  # EST.
 			1363.01.01={death=yes}
 		}
 			jagelo_0138={ #// C1. Yuriy, Pr of Novogrodeck 1384
@@ -11257,7 +11304,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
-			1365.01.01={birth=yes}  # EST.
+			1342.01.01={birth=yes}  # EST.
 			1387.01.01={death=yes}
 		}
 		jagelo_0140={ #// B4. [1m.] Butaw (Henryk), baptized Königsberg 25.7.1365, +after 1380; m.NN
@@ -11265,7 +11312,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
-			1355.01.01={birth=yes}
+			1345.01.01={birth=yes}
 			1381.01.01={death=yes}
 		}
 			jagelo_0141={ #// C1. Wajduta, +after 1380/89
@@ -11281,7 +11328,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
-			1356.01.01={birth=yes}
+			1347.01.01={birth=yes}
 			1387.01.01={add_spouse=lowborn_1648}	# Анна of Smolensk
 			1418.11.19={add_spouse=lowborn_1649}	# PSS Juliana Holszanska
 			1419.12.01={death=yes}  # Lutzk
@@ -11301,7 +11348,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
-			1370.01.01={birth=yes}
+			1352.01.01={birth=yes}
 			1390.09.01={death=yes}
 		}
 			jagelo_0145={ #// C1. [parentage not certain] Hedwig, +after 1.12.1405; m.1397/98 Duke Barnim V of Pomerania on Slupsk (+after 13.5.1403) $$
@@ -11318,7 +11365,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
-			1432.09.01={birth=yes}
+			1355.01.01={birth=yes}
 			1390.01.01={add_spouse=lowborn_1653}	# PR N Odynczewicz
 			1440.01.01={death=yes}  # murdered
 		}
@@ -11340,7 +11387,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
-			1384.01.01={birth=yes}  # EST.
+			1360.01.01={birth=yes}
 			1404.01.01={death=yes}
 		}
 		jagelo_0149={ #// B9. [2m.] Danuta (Anna), *1362, +25.5.1448; m.shortly before 27.9.1376 Pr Janusz I of Warsaw (+8.12.1429)
@@ -11349,7 +11396,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 			dynasty=1012037
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
-			1362.01.01={birth=yes}  # Anna ) (
+			1362.01.01={birth=yes}
 			1448.05.25={death=yes}
 		}
 		jagelo_0150={ #// B10. [2m.] Rymgajla (Elisabeth), +1433; 1m: 4.2.-30.6.1392 Pr Henryk of Masovia, Bp of Plock (+1392/93); 2m: 1419 (div 1421) Voivode Alexandru of the Moldau (+1430/31)
@@ -11740,7 +11787,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 						1625.01.01={death=yes}
 					}
 			sapieha_0027={ #// C4. Pawel, kasztelan kijowski 1566, dzierzawca lubecki i perewalski, +1580; m.before 1562 Hanna Chodkiewiczówna (+after 1595)
-				name=Pawel
+				name=Paweł
 				dynasty=1012005
 				religion=catholic culture=polish
 				father=sapieha_0003	# Iwan Sapieha
@@ -11753,7 +11800,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					name="Jan Piotr"
 					dynasty=1012005
 					religion=catholic culture=polish
-					father=sapieha_0027	# Pawel Sapieha
+					father=sapieha_0027	# Paweł Sapieha
 					mother=lowborn_6885	# Hanna Chodkiewicz
 					1569.01.01={birth=yes}
 					1598.01.01={add_spouse=lowborn_6892}	# Zofia Wejher
@@ -11844,7 +11891,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					female=yes
 					dynasty=1012005
 					religion=catholic culture=polish
-					father=sapieha_0027	# Pawel Sapieha
+					father=sapieha_0027	# Paweł Sapieha
 					mother=lowborn_6885	# Hanna Chodkiewicz
 					1558.01.01={birth=yes}  # EST.
 					1593.01.01={death=yes}
@@ -11854,7 +11901,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					female=yes
 					dynasty=1012005
 					religion=catholic culture=polish
-					father=sapieha_0027	# Pawel Sapieha
+					father=sapieha_0027	# Paweł Sapieha
 					mother=lowborn_6885	# Hanna Chodkiewicz
 					1567.01.01={birth=yes}  # EST.
 					1627.01.01={death=yes}  # EST.
@@ -11864,7 +11911,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					female=yes
 					dynasty=1012005
 					religion=catholic culture=polish
-					father=sapieha_0027	# Pawel Sapieha
+					father=sapieha_0027	# Paweł Sapieha
 					mother=lowborn_6885	# Hanna Chodkiewicz
 					1569.01.01={birth=yes}  # EST.
 					1629.01.01={death=yes}  # EST.
@@ -11886,7 +11933,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 			father=sapieha_0002	# Bohdan Sapieha
 			mother=lowborn_2939	# PSS Teodora Drucka Babiczówna Sokolinska
 			1480.01.01={birth=yes}  # EST.
-			1514.01.01={add_spouse=lowborn_6912}	# PSS Hanna Kroszynska
+			1510.01.01={add_spouse=lowborn_6912}	# PSS Hanna Kroszynska
 			1529.01.01={death=yes}
 		}
 			sapieha_0044={ #// C1. Hleb, dworzanin hospodarski 1536, +after 1573; m.before 1551 Katarzyna Szymkowiczówna
@@ -11895,7 +11942,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				religion=catholic culture=polish
 				father=sapieha_0043	# Iwan Sapieha
 				mother=lowborn_6912	# PSS Hanna Kroszynska
-				1527.01.01={birth=yes}  # EST.
+				1515.01.01={birth=yes}  # EST.
 				1551.01.01={add_spouse=lowborn_6913}	# Katarzyna Szymkowicz
 				1574.01.01={death=yes}
 			}
@@ -11914,7 +11961,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				religion=catholic culture=polish
 				father=sapieha_0043	# Iwan Sapieha
 				mother=lowborn_6912	# PSS Hanna Kroszynska
-				1542.01.01={birth=yes}  # EST.
+				1517.01.01={birth=yes}  # EST.
 				1560.01.01={death=yes}
 			}
 			sapieha_0047={ #// C3. Stefan, +1560/61; m.before 1550 Bohdana Juriewna Mackowiczowa (+1562)
@@ -11923,7 +11970,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				religion=catholic culture=polish
 				father=sapieha_0043	# Iwan Sapieha
 				mother=lowborn_6912	# PSS Hanna Kroszynska
-				1535.01.01={birth=yes}  # EST.
+				1519.01.01={birth=yes}  # EST.
 				1550.01.01={add_spouse=lowborn_6914}	# Bohdana Juriewna Mackowiczowa
 				1560.01.01={death=yes}
 			}
@@ -11933,7 +11980,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				religion=catholic culture=polish
 				father=sapieha_0043	# Iwan Sapieha
 				mother=lowborn_6912	# PSS Hanna Kroszynska
-				1529.01.01={birth=yes}  # EST.
+				1521.01.01={birth=yes}  # EST.
 				1549.01.01={add_spouse=lowborn_6915}	# Maryna Bystrejska
 				1554.01.01={death=yes}  # before
 			}
@@ -12034,7 +12081,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				religion=catholic culture=polish
 				father=sapieha_0043	# Iwan Sapieha
 				mother=lowborn_6912	# PSS Hanna Kroszynska
-				1542.01.01={birth=yes}  # EST.
+				1523.01.01={birth=yes}  # EST.
 				1602.01.01={death=yes}  # EST.
 			}
 			sapieha_0059={ #// C6. Nastazja; m.Hawrylo Tyszkowicz
@@ -12044,7 +12091,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				religion=catholic culture=polish
 				father=sapieha_0043	# Iwan Sapieha
 				mother=lowborn_6912	# PSS Hanna Kroszynska
-				1543.01.01={birth=yes}  # EST.
+				1525.01.01={birth=yes}  # EST.
 				1603.01.01={death=yes}  # EST.
 			}
 		sapieha_0060={ #// B3. Fiodor, dworzanin hospodarski 1522, +before 1534; m.Maria N (+after 1535)
@@ -12141,24 +12188,24 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 		1517.01.01={death=yes}
 	}
 		sapieha_0071={ #// B1. [1m.] Pawel, marszalek hospodarski 1519, wojewoda podlaski 1557, wojewoda nowogrodzki 1558, starosta braslawski, +1579; 1m: ca 1525 Olena Pss Holszanska Dubrowicka (+before 1558); 2m: before 1558 Aleksandra Chodkiewiczówna (+ca 1583)
-			name=Pawel
+			name=Paweł
 			dynasty=1012005
 			religion=catholic culture=polish
 			father=sapieha_0070	# Iwan Sapieha
 			1504.01.01={birth=yes}  # EST.
 			1525.01.01={add_spouse=lowborn_6944}	# PSS Olena Holszanska Dubrowicka
-			1558.01.01={add_spouse=lowborn_6945}	# Aleksandra Chodkiewicz
+			1557.01.01={add_spouse=lowborn_6945}	# Aleksandra Chodkiewicz
 			1579.01.01={death=yes}
 		}
 			sapieha_0072={ #// C1. [1m.] Mikolaj, marszalek hospodarski 1566, wojewoda minski 1576, wojewoda brzeski 1588, voivode of Vitebsk 1588, starosta orszanski, *1526, +Brest 1.11.1599; 1m: 1564 Pss Hanna Sanguszkówna (+1570); 2m: before 1581 Pss Hanna Wisniowiecka (+ca 1595) $$
 				name=Mikolaj
 				dynasty=1012005
 				religion=catholic culture=polish
-				father=sapieha_0071	# Pawel Sapieha
+				father=sapieha_0071	# Paweł Sapieha
 				mother=lowborn_6944	# PSS Olena Holszanska Dubrowicka
 				1526.01.01={birth=yes}
 				1564.01.01={add_spouse=lowborn_6946}	# PSS Hanna Sanguszko
-				1581.01.01={add_spouse=wisniow_0060}	# Hanna Wiśniowiecki
+				1580.01.01={add_spouse=wisniow_0060}	# Hanna Wiśniowiecki
 				1599.11.01={death=yes}  # Brest
 			}
 				sapieha_0074={ #// D2. [2m.] Mikolaj, dworzanin hospodarski 1616, chorazy wielki litewski 1627, wojewoda minski 1638, wojewoda brzeski 1638, kasztelan wilenski 1642, *ca 1581, +1644; 1m: 1616 Jadwiga Anna Woynianka (+1642); 2m: 1643 Elzbieta Prusinowska (+after 1648)
@@ -12166,7 +12213,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					dynasty=1012005
 					religion=catholic culture=polish
 					father=sapieha_0072	# Mikolaj Sapieha
-					mother=lowborn_6946	# PSS Hanna Sanguszko
+					mother=wisniow_0060	# Hanna Wiśniowiecki
 					1581.01.01={birth=yes}
 					1616.01.01={add_spouse=lowborn_6948}	# Jadwiga Anna Woyna
 					1643.01.01={add_spouse=lowborn_6949}	# Elzbieta Prusinowska
@@ -12237,7 +12284,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					dynasty=1012005
 					religion=catholic culture=polish
 					father=sapieha_0072	# Mikolaj Sapieha
-					mother=lowborn_6946	# PSS Hanna Sanguszko
+					mother=wisniow_0060	# Hanna Wiśniowiecki
 					1594.01.01={birth=yes}  # EST.
 					1619.01.01={death=yes}
 				}
@@ -12247,7 +12294,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					dynasty=1012005
 					religion=catholic culture=polish
 					father=sapieha_0072	# Mikolaj Sapieha
-					mother=lowborn_6946	# PSS Hanna Sanguszko
+					mother=wisniow_0060	# Hanna Wiśniowiecki
 					1595.01.01={birth=yes}  # EST.
 					1655.01.01={death=yes}  # EST.
 				}
@@ -12255,7 +12302,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				name=Bohdan
 				dynasty=1012005
 				religion=catholic culture=polish
-				father=sapieha_0071	# Pawel Sapieha
+				father=sapieha_0071	# Paweł Sapieha
 				mother=lowborn_6944	# PSS Olena Holszanska Dubrowicka
 				1529.01.01={birth=yes}  # EST.
 				1560.01.01={add_spouse=lowborn_6958}	# PSS Maryna Kapusta
@@ -12274,7 +12321,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					1638.01.01={death=yes}
 				}
 					sapieha_0086={ #// E1. [1m.] Pawel, starosta zyzmorski, +1612
-						name=Pawel
+						name=Paweł
 						dynasty=1012005
 						religion=catholic culture=polish
 						father=sapieha_0085	# Mikolaj Sapieha
@@ -12333,7 +12380,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 						1664.01.01={death=yes}  # EST.
 					}
 				sapieha_0092={ #// D2. [1m.] Pawel Stefan, dworzanin pokojowy królewski 1580, dworzanin hospodarski 1587, koniuszy wielki litewski 1593, podkanclerzy litewski 1623, starosta telszewski, oszmianski i homelski, *1565, +1635; 1m: 1599 Regina Dybowska; 2m: 1602 Elzbieta Wesselenyi (+1615); 3m: 1618 Katarzyna Goslawska (+after 1624); 4m: ca 1630 Zofia Danilowiczówna (+1642) $$
-					name="Pawel Stefan"
+					name="Paweł Stefan"
 					dynasty=1012005
 					religion=catholic culture=polish
 					father=sapieha_0084	# Bohdan Sapieha
@@ -12341,7 +12388,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					1565.01.01={birth=yes}
 					1599.01.01={add_spouse=lowborn_6970}	# Regina Dybowska
 					1602.01.01={add_spouse=wessel_0016}	# Erzsébet Wesselényi de Hadad
-					1618.01.01={add_spouse=lowborn_6973}	# Katarzyna Goslawska
+					1618.01.01={add_spouse=lowborn_6973}	# Katarzyna Gosławska
 					1630.01.01={add_spouse=lowborn_6974}	# Zofia Danilowicz
 					1635.01.01={death=yes}
 				}
@@ -12350,7 +12397,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 						female=yes
 						dynasty=1012005
 						religion=catholic culture=polish
-						father=sapieha_0092	# Pawel Stefan Sapieha
+						father=sapieha_0092	# Paweł Stefan Sapieha
 						mother=lowborn_6970	# Regina Dybowska
 						1603.01.01={birth=yes}  # EST.
 						1663.01.01={death=yes}  # EST.
@@ -12400,12 +12447,12 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				name=Andrzej
 				dynasty=1012005
 				religion=catholic culture=polish
-				father=sapieha_0071	# Pawel Sapieha
+				father=sapieha_0071	# Paweł Sapieha
 				mother=lowborn_6945	# Aleksandra Chodkiewicz
-				1597.01.01={birth=yes}
+				1550.01.01={birth=yes}
 				1569.01.01={add_spouse=lowborn_6982}	# PSS Maryna Czartoryska
 				1570.01.01={add_spouse=lowborn_6983}	# Krystyna Dembinska
-				1613.01.01={death=yes}
+				1621.12.01={death=yes}
 			}
 				sapieha_0099={ #// D1. Anna; m.Stanislaw Lasocki, kasztelan czerski
 					name=Anna
@@ -12432,7 +12479,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				female=yes
 				dynasty=1012005
 				religion=catholic culture=polish
-				father=sapieha_0071	# Pawel Sapieha
+				father=sapieha_0071	# Paweł Sapieha
 				mother=lowborn_6944	# PSS Olena Holszanska Dubrowicka
 				1530.01.01={birth=yes}  # EST.
 				1590.01.01={death=yes}  # EST.
@@ -12442,7 +12489,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				female=yes
 				dynasty=1012005
 				religion=catholic culture=polish
-				father=sapieha_0071	# Pawel Sapieha
+				father=sapieha_0071	# Paweł Sapieha
 				mother=lowborn_6944	# PSS Olena Holszanska Dubrowicka
 				1532.01.01={birth=yes}  # EST.
 				1592.01.01={death=yes}  # EST.
@@ -12452,7 +12499,7 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				female=yes
 				dynasty=1012005
 				religion=catholic culture=polish
-				father=sapieha_0071	# Pawel Sapieha
+				father=sapieha_0071	# Paweł Sapieha
 				mother=lowborn_6944	# PSS Olena Holszanska Dubrowicka
 				1534.01.01={birth=yes}  # EST.
 				1594.01.01={death=yes}  # EST.
@@ -12462,8 +12509,8 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				female=yes
 				dynasty=1012005
 				religion=catholic culture=polish
-				father=sapieha_0071	# Pawel Sapieha
-				mother=lowborn_6944	# PSS Olena Holszanska Dubrowicka
+				father=sapieha_0071	# Paweł Sapieha
+				mother=lowborn_6945	# Aleksandra Chodkiewicz
 				1577.01.01={birth=yes}  # EST.
 				1637.01.01={death=yes}  # EST.
 			}
@@ -12472,8 +12519,8 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				female=yes
 				dynasty=1012005
 				religion=catholic culture=polish
-				father=sapieha_0071	# Pawel Sapieha
-				mother=lowborn_6944	# PSS Olena Holszanska Dubrowicka
+				father=sapieha_0071	# Paweł Sapieha
+				mother=lowborn_6945	# Aleksandra Chodkiewicz
 				1577.01.01={birth=yes}  # EST.
 				1637.01.01={death=yes}  # EST.
 			}
@@ -12482,8 +12529,8 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 				female=yes
 				dynasty=1012005
 				religion=catholic culture=polish
-				father=sapieha_0071	# Pawel Sapieha
-				mother=lowborn_6944	# PSS Olena Holszanska Dubrowicka
+				father=sapieha_0071	# Paweł Sapieha
+				mother=lowborn_6945	# Aleksandra Chodkiewicz
 				1577.01.01={birth=yes}  # EST.
 				1637.01.01={death=yes}  # EST.
 			}
@@ -14111,7 +14158,7 @@ sapieha_0081={ #// Fryderyk Sapieha, podkomorzy wlodzimierski, +1626; m.1616 Ewa
 				father=100111205	# Stanisław Lubomirski
 				mother=ostrog_0019	# Zofia Ostrogski
 				1614.01.01={birth=yes}  # EST.
-				1637.01.01={add_spouse=100089772}	# Helena Tekla Ossolinski
+				1637.01.01={add_spouse=100089772}	# Helena Tekla Ossolińska
 				1677.12.25={death=yes}
 			}
 				100111211={ #// D1. Fst Jozef Karol, Great Crown Marshal of Poland, *20.7.1661, +15.12.1702; m.1683 Pss Teofila Ludwika Zaslawska (+18.12.1709) $$
@@ -14119,7 +14166,7 @@ sapieha_0081={ #// Fryderyk Sapieha, podkomorzy wlodzimierski, +1626; m.1616 Ewa
 					dynasty=1012004
 					religion=catholic culture=polish
 					father=100111207	# Alexander Michał Lubomirski
-					mother=100089772	# Helena Tekla Ossolinski
+					mother=100089772	# Helena Tekla Ossolińska
 					1661.07.20={birth=yes}
 					1683.01.01={add_spouse=ostrog_0034}	# Teofila Ludwika Ostrogski
 					1702.12.15={death=yes}
@@ -16525,7 +16572,7 @@ radziwill_0133={ #// Ostik Krystian, Castellan of Wilno, +ca 1444; m.before 1437
 							dynasty=1012003
 							religion=catholic culture=polish
 							father=radziwill_0158	# Krzysztof Mikolaj Radziwiłł
-							mother=lowborn_6740	# Katarzyna Anna Sobkówna z Sulejowa
+							mother=ostrog_0022	# Katarzyna Hanna Ostrogski
 							1579.07.02={birth=yes}  # Wilno
 							1600.10.01={add_spouse=olelko_0013}	# Zofia Olelkowicz
 							1613.06.27={add_spouse=100002639}	# Elisabeth Sophie von Hohenzollern
@@ -16556,7 +16603,7 @@ radziwill_0133={ #// Ostik Krystian, Castellan of Wilno, +ca 1444; m.before 1437
 							dynasty=1012003
 							religion=catholic culture=polish
 							father=radziwill_0158	# Krzysztof Mikolaj Radziwiłł
-							mother=lowborn_6740	# Katarzyna Anna Sobkówna z Sulejowa
+							mother=teczynski_0004	# Katarzyna Tęczyński
 							1585.03.22={birth=yes}
 							1606.02.07={add_spouse=lowborn_6749}	# Anna Kiszczanka
 							1640.09.19={death=yes}  # Swiadosc
@@ -16607,8 +16654,8 @@ radziwill_0133={ #// Ostik Krystian, Castellan of Wilno, +ca 1444; m.before 1437
 							dynasty=1012003
 							religion=catholic culture=polish
 							father=radziwill_0158	# Krzysztof Mikolaj Radziwiłł
-							mother=lowborn_6740	# Katarzyna Anna Sobkówna z Sulejowa
-							1583.10.19={birth=yes}  # Halszka ) (
+							mother=teczynski_0004	# Katarzyna Tęczyński
+							1583.10.19={birth=yes}
 							1611.10.18={death=yes}
 						}
 				radziwill_0168={ #// D2. [2m.] Pss Anna Elzbieta, +1558; 1m: Piotr Kiszka, marszalek ziemski wolynski (+1544); 2m: Semen Pr Holszanski Dubrowicki, stolnik litewski (+1586)
@@ -17566,8 +17613,8 @@ radziwill_0007={ #// Pr Aleksander Ludwik Radziwill, ordynat na Nieswiezu, stoln
 					father=radziwill_0096	# Udalryk Krzysztof Radziwiłł
 					mother=100112913	# Zofia Rey
 					1749.01.01={birth=yes}  # EST.
-					1774.01.01={add_spouse=lowborn_6447}	# Cecylia Zakrzewska
-					1779.01.01={add_spouse=radziwill_0119}	# Julia Radziwiłł
+					1774.01.01={add_spouse=lowborn_6447}	# Cecylia Закревский
+					1812.01.01={add_spouse=radziwill_0119}	# Julia Radziwiłł
 					1818.01.01={death=yes}  # Berlin
 				}
 					radziwill_0098={ #// E1. Pr Aleksander, *1793, +1801
@@ -17575,7 +17622,7 @@ radziwill_0007={ #// Pr Aleksander Ludwik Radziwill, ordynat na Nieswiezu, stoln
 						dynasty=1012003
 						religion=catholic culture=polish
 						father=radziwill_0097	# Maciej Radziwiłł
-						mother=lowborn_6447	# Cecylia Zakrzewska
+						mother=lowborn_6447	# Cecylia Закревский
 						1793.01.01={birth=yes}
 						1801.01.01={death=yes}
 					}
@@ -21676,7 +21723,7 @@ jagelo_0052={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 		mother=korecki_0013	# Izabella Korecki
 		1621.01.01={birth=yes}
 		1646.06.16={add_spouse=100094953}	# Rosine Margarethe von Eckenberg
-		1650.02.02={add_spouse=lowborn_6762}	# Eufrozyna Stanislawski
+		1650.02.02={add_spouse=lowborn_6762}	# Eufrozyna Stanisławski
 		1668.12.15={add_spouse=100097195}	# Joanna Veronika Oledzki
 		1692.04.13={death=yes}  # Podhorce
 	}
@@ -22046,7 +22093,7 @@ jagelo_0052={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 		mother=100111454	# Anna Zofia Sapieha
 		1828.07.03={birth=yes}
 		1855.03.01={add_spouse=100083044}	# Marie de Vista-Alegre
-		1872.01.15={add_spouse=100066685}	# Marguerite Adélaide d’Orléans
+		1872.01.15={add_spouse=100066685}	# Marguerite Adélaide d'Orleans
 		1894.06.23={death=yes}
 	}
 		100110011={ #// 1c) Franciszek Augustyn, Duque de Vista Alegre (Paris 2 Aug 1858-Alassio 8 Apr 1893)
@@ -22063,7 +22110,7 @@ jagelo_0052={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 			dynasty=1012000
 			religion=catholic culture=polish
 			father=100110008	# Władysław Czartoryski
-			mother=100066685	# Marguerite Adélaide d’Orléans
+			mother=100066685	# Marguerite Adélaide d'Orleans
 			1872.11.05={birth=yes}
 			1901.08.31={add_spouse=100036552}	# Ludwika Maria Krasiński
 			1937.06.29={death=yes}
@@ -22162,7 +22209,7 @@ jagelo_0052={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 			dynasty=1012000
 			religion=catholic culture=polish
 			father=100110008	# Władysław Czartoryski
-			mother=100066685	# Marguerite Adélaide d’Orléans
+			mother=100066685	# Marguerite Adélaide d'Orleans
 			1876.03.10={birth=yes}
 			1911.10.29={death=yes}
 		}
@@ -23400,7 +23447,7 @@ olelko_0001={ #// Alexander (Olelko), Pr of Kiev, Pr of Sluck and Kopyl, +1454; 
 		father=olelko_0001	# Alexander Olelkowicz
 		mother=rurik_0099	# Анастасия Васильевна Рюрикович
 		1420.01.01={birth=yes}
-		1507.01.01={add_spouse=lowborn_0634}	# Maria Ivanovna Gasztold
+		1450.01.01={add_spouse=lowborn_0634}	# Maria Ivanovna Gasztold
 		1470.12.03={death=yes}
 	}
 		olelko_0003={ #// B1. Vasily Olelkowicz, Pr of Pinsk (1488-95), +4.6.1495
@@ -23409,7 +23456,7 @@ olelko_0001={ #// Alexander (Olelko), Pr of Kiev, Pr of Sluck and Kopyl, +1454; 
 			religion=catholic culture=lithuanian
 			father=olelko_0002	# Simeon Olelkowicz
 			mother=lowborn_0634	# Maria Ivanovna Gasztold
-			1494.01.01={birth=yes}  # EST.
+			1455.01.01={birth=yes}  # EST.
 			1495.06.04={death=yes}
 		}
 		olelko_0004={ #// B2. Sofia, +7.2.1483; m.1471 Mikhail III Borisovich, Grand Pr of Tver (*1453 +1504/05) $$
@@ -23419,7 +23466,7 @@ olelko_0001={ #// Alexander (Olelko), Pr of Kiev, Pr of Sluck and Kopyl, +1454; 
 			religion=catholic culture=lithuanian
 			father=olelko_0002	# Simeon Olelkowicz
 			mother=lowborn_0634	# Maria Ivanovna Gasztold
-			1463.01.01={birth=yes}  # EST.
+			1452.01.01={birth=yes}  # EST.
 			1483.02.07={death=yes}
 		}
 		olelko_0005={ #// B3. Yelena, +1508; m.1498 Pr Ivan Fyodorovich Yaroslavski
@@ -23429,7 +23476,7 @@ olelko_0001={ #// Alexander (Olelko), Pr of Kiev, Pr of Sluck and Kopyl, +1454; 
 			religion=catholic culture=lithuanian
 			father=olelko_0002	# Simeon Olelkowicz
 			mother=lowborn_0634	# Maria Ivanovna Gasztold
-			1488.01.01={birth=yes}  # EST.
+			1472.01.01={birth=yes}  # EST.
 			1508.01.01={death=yes}
 		}
 		olelko_0006={ #// B4. Alexandra (Olena), +IV.1518; m.1498 Fiodor Ivanovich, Pr of Pinsk (+V.1527) $$
@@ -23439,8 +23486,8 @@ olelko_0001={ #// Alexander (Olelko), Pr of Kiev, Pr of Sluck and Kopyl, +1454; 
 			religion=catholic culture=lithuanian
 			father=olelko_0002	# Simeon Olelkowicz
 			mother=lowborn_0634	# Maria Ivanovna Gasztold
-			1518.04.01={birth=yes}  # Olena ) ( d
-			1593.01.01={death=yes}  # EST.
+			1475.04.01={birth=yes}
+			1518.04.01={death=yes}
 		}
 	olelko_0007={ #// A2. Mikhail Olelkowicz, Pr of Sluck and Kopyl, Stattholder of Vielki Nowgorod (1470-71), +executed 14.8.1481; m.1454 Anna N (+after 1491)
 		name=Mikhail
@@ -23448,7 +23495,7 @@ olelko_0001={ #// Alexander (Olelko), Pr of Kiev, Pr of Sluck and Kopyl, +1454; 
 		religion=catholic culture=lithuanian
 		father=olelko_0001	# Alexander Olelkowicz
 		mother=rurik_0099	# Анастасия Васильевна Рюрикович
-		1450.01.01={birth=yes}  # EST.
+		1430.01.01={birth=yes}  # EST.
 		1454.01.01={add_spouse=lowborn_1460}	# Anna N
 		1481.08.14={death=yes}  # d
 	}
@@ -23558,7 +23605,7 @@ olelko_0001={ #// Alexander (Olelko), Pr of Kiev, Pr of Sluck and Kopyl, +1454; 
 		religion=catholic culture=lithuanian
 		father=olelko_0001	# Alexander Olelkowicz
 		mother=rurik_0099	# Анастасия Васильевна Рюрикович
-		1467.01.01={birth=yes}  # EST.
+		1432.01.01={birth=yes}  # EST.
 		1527.01.01={death=yes}  # EST.
 	}
 	olelko_0019={ #// A4. Pss Eudoxia, +1467; m.5.6.1464 Grand Pr Stephan III of Moldova (+1504)
@@ -23568,7 +23615,7 @@ olelko_0001={ #// Alexander (Olelko), Pr of Kiev, Pr of Sluck and Kopyl, +1454; 
 		religion=catholic culture=lithuanian
 		father=olelko_0001	# Alexander Olelkowicz
 		mother=rurik_0099	# Анастасия Васильевна Рюрикович
-		1451.01.01={birth=yes}  # EST.
+		1434.01.01={birth=yes}  # EST.
 		1467.01.01={death=yes}
 	}
 	olelko_0020={ #// A5. Pss Teodora; m.Pr Siemion Juriewicz (Holszanski?)
@@ -23578,7 +23625,7 @@ olelko_0001={ #// Alexander (Olelko), Pr of Kiev, Pr of Sluck and Kopyl, +1454; 
 		religion=catholic culture=lithuanian
 		father=olelko_0001	# Alexander Olelkowicz
 		mother=rurik_0099	# Анастасия Васильевна Рюрикович
-		1467.01.01={birth=yes}  # EST.
+		1436.01.01={birth=yes}  # EST.
 		1527.01.01={death=yes}  # EST.
 	}
 #olelkowicz
@@ -23738,7 +23785,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 							religion=catholic culture=polish
 							father=wisniow_0015	# Jerzy Wiśniowiecki
 							mother=lowborn_2883	# Sczesna Felicyanna Nasilowski
-							1553.01.01={birth=yes}  # EST.
+							1556.01.01={birth=yes}  # EST.
 							1580.01.01={death=yes}
 						}
 						wisniow_0017={ #// F2. [1m.] Pss Marusza, +1606; m.Mikołaj Naruszewicz, kasztelan zmudzki
@@ -24132,7 +24179,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 					mother=lowborn_2902	# PSS N Połubińska
 					1484.01.01={birth=yes}  # EST.
 					1517.01.01={add_spouse=lowborn_2983}	# Nastazja Olizarowicz
-					1538.01.01={add_spouse=lowborn_2991}	# PSS Magdalena Despotowna Brankovic
+					1538.01.01={add_spouse=lowborn_2991}	# PSS Magdalena Despotowna Branković
 					1542.01.01={death=yes}
 				}
 					wisniow_0057={ #// E1. [1m.] Pr Dymitr, hetman of Zaporozhye, elected Grand Duke of Walachia, dzierzawca woniaczynski, +executed Istanbul 1564
@@ -24244,7 +24291,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 									father=wisniow_0068	# Janusz Wiśniowiecki
 									mother=lowborn_3008	# Katarzyna Eugeneia Tyszkiewicz
 									1631.01.01={birth=yes}
-									1651.01.01={add_spouse=100110318}	# Marianna Zamoyski
+									1649.01.01={add_spouse=100110318}	# Marianna Zamoyski
 									1671.01.01={add_spouse=ostrog_0034}	# Teofila Ludwika Ostrogski
 									1682.01.01={death=yes}
 								}
@@ -24255,7 +24302,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 										religion=catholic culture=polish
 										father=wisniow_0069	# Dymitr Jerzy Wiśniowiecki
 										mother=100110318	# Marianna Zamoyski
-										1652.01.01={birth=yes}  # EST.
+										1650.01.01={birth=yes}  # EST.
 										1669.01.01={death=yes}
 									}
 									wisniow_0071={ #// I2. Pr Dymitr Janusz, +1671
@@ -24293,7 +24340,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 										dynasty=wisniowiecki
 										religion=catholic culture=polish
 										father=wisniow_0073	# Konstanty Krzysztof Wiśniowiecki
-										mother=lowborn_3013	# Urszula Teresa Mniszech
+										mother=lowborn_3014	# Anna Chodorowski
 										1678.01.01={birth=yes}
 										1704.01.01={add_spouse=lowborn_3016}	# Teofila Leszczynska
 										1741.01.01={death=yes}
@@ -24314,7 +24361,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 										dynasty=wisniowiecki
 										religion=catholic culture=polish
 										father=wisniow_0073	# Konstanty Krzysztof Wiśniowiecki
-										mother=lowborn_3013	# Urszula Teresa Mniszech
+										mother=lowborn_3014	# Anna Chodorowski
 										1677.01.01={birth=yes}  # EST.
 										1737.01.01={death=yes}  # EST.
 									}
@@ -24323,7 +24370,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 										dynasty=wisniowiecki
 										religion=catholic culture=polish
 										father=wisniow_0073	# Konstanty Krzysztof Wiśniowiecki
-										mother=lowborn_3013	# Urszula Teresa Mniszech
+										mother=lowborn_3014	# Anna Chodorowski
 										1680.01.01={birth=yes}
 										1695.01.01={add_spouse=lowborn_3018}	# Katarzyna Dolska
 										1725.01.01={add_spouse=100110122}	# Maria Magdalena Czartoryski
@@ -25380,14 +25427,14 @@ badeni_0001={ #// Stanisław Adam Sebastian Badeni (*Warszawa 10.5.1746, +Krakó
 		1818.01.01={add_spouse=lowborn_3113}	# Felicja Boruta-Ufniarska
 		1854.01.01={death=yes}
 	}
-		badeni_0003={ #// B1. Władysław (*Borynicze nr Bóbrka 19.5.1819, +Bad Gleichenberg 10.6.1888); m.1849 Cecylia Mier (*1825, +1897) %%
+		badeni_0003={ #// B1. Władysław (*Borynicze nr Bóbrka 19.5.1819, +Bad Gleichenberg 10.6.1888); m.1846 Cecylia Mier (*1825, +1897) %%
 			name=Władysław
 			dynasty=badeni
 			religion=catholic culture=polish
 			father=badeni_0002	# Kazimierz Stanisław Franciszek Badeni
 			mother=lowborn_3113	# Felicja Boruta-Ufniarska
 			1819.05.19={birth=yes}	# Borynicze nr Bóbrka 
-			1849.01.01={add_spouse=mier_0003}	# Cecylia Mier
+			1846.01.01={add_spouse=mier_0003}	# Cecylia Mier
 			1888.06.10={death=yes}	# Bad Gleichenberg
 		}
 			badeni_0011={ #// C1. Kazimierz Feliks (*Surochów 14.10.1846, +Krasne 9.7.1909) %%
@@ -25456,12 +25503,11 @@ badeni_0001={ #// Stanisław Adam Sebastian Badeni (*Warszawa 10.5.1746, +Krakó
 		1792.09.13={birth=yes}	# Branice
 		1863.08.08={death=yes}	# Branice 
 	}
-		badeni_0009={ #// B3. Stanisław Franciszek (*Branice 6.7.1834, +Kraków 10.5.1910) %%
+		badeni_0009={ #// B1. Stanisław Franciszek (*Branice 6.7.1834, +Kraków 10.5.1910) %%
 			name="Stanisław Franciszek"
 			dynasty=badeni
 			religion=catholic culture=polish
-			father=badeni_0001	# Stanisław Adam Sebastian Badeni
-			mother=lowborn_2796	# Katarzyna Stadnicka ze Stadnik
+			father=badeni_0008	# Michał Badeni
 			1834.07.06={birth=yes}	# Branice
 			1910.05.10={death=yes}	# Kraków 
 		}
@@ -25514,7 +25560,7 @@ mier_0001={ #// Jan Mier (*1740, +1790); m.1777 Css Marianna Tarnowska z Tarnowa
 				1856.01.01={birth=yes}
 				1946.01.01={death=yes}
 			}
-		mier_0003={ #// B2. Cecylia (*1825, +1897); m.1849 Władysław Badeni (*Borynicze nr Bóbrka 19.5.1819, +Bad Gleichenberg 10.6.1888) %%
+		mier_0003={ #// B2. Cecylia (*1825, +1897); m.1846 Władysław Badeni (*Borynicze nr Bóbrka 19.5.1819, +Bad Gleichenberg 10.6.1888) %%
 			name=Cecylia
 			female=yes
 			dynasty=mier
@@ -26046,13 +26092,13 @@ siemienski_0001={ #// Wilhelm Siemieński (*1722, +1802); m.1762 Petronela Rekle
 
 
 ## LEWICKI
-lewicki_0001={ #// Samuel Lewicki; m.1766 Katarzyna Humnicka (*1740) %%
+lewicki_0001={ #// Samuel Lewicki (*1750); m.1766 Katarzyna Humnicka (*1740) %%
 	name="Samuel"
 	dynasty=lewicki
 	religion=catholic culture=polish
 	1750.01.01={birth=yes}
 	1766.01.01={add_spouse=lowborn_3843}	# Katarzyna Humnicka
-	1800.01.01={birth=yes}	# EST.
+	1800.01.01={death=yes}	# EST.
 }
 	lewicki_0002={ #// A1. Józef Kalasanty (*Leszczawa Dolna 15.6.1767, +1845); m.1803 Katarzyna Konstancja Kaczkowska z Kaczek (*1767, +1837) %%
 		name="Józef Kalasanty"
@@ -26421,7 +26467,7 @@ teczynski_0001={ #// Gabriel Teczynski, +1497; m.Anna z Koninskiej Woli (+after 
 			religion=catholic culture=polish
 			father=teczynski_0002	# Jan Tęczyński
 			mother=sapieha_0110	# Dobrochna Sapieha
-			1510.01.01={birth=yes}  # EST.
+			1513.01.01={birth=yes}  # EST.
 			1538.01.01={add_spouse=lowborn_6380}	# Anna Boguszówna
 			1561.01.01={death=yes}
 		}
@@ -26451,7 +26497,7 @@ teczynski_0001={ #// Gabriel Teczynski, +1497; m.Anna z Koninskiej Woli (+after 
 			religion=catholic culture=polish
 			father=teczynski_0002	# Jan Tęczyński
 			mother=sapieha_0110	# Dobrochna Sapieha
-			1511.01.01={birth=yes}  # EST.
+			1515.01.01={birth=yes}  # EST.
 			1571.01.01={death=yes}  # EST.
 		}
 	teczynski_0007={ #// A2. Stanislaw, cr Reichsgraf 1527, podkomorzy sandomierski 1517, dworzanin królewski, starosta trembowelski, *ca 1484, +1550
@@ -26470,7 +26516,7 @@ teczynski_0001={ #// Gabriel Teczynski, +1497; m.Anna z Koninskiej Woli (+after 
 		father=teczynski_0001	# Gabriel Tęczyński
 		mother=lowborn_3953	# Anna z Koninskiej Woli
 		1489.01.01={birth=yes}  # EST.
-		1546.01.01={add_spouse=lowborn_6428}	# Katarzyna z Czyżowa
+		1545.01.01={add_spouse=lowborn_6428}	# Katarzyna z Czyżowa
 		1548.01.01={add_spouse=lowborn_6429}	# Anna Ozarowska
 		1562.01.01={death=yes}
 	}
@@ -26489,8 +26535,8 @@ teczynski_0001={ #// Gabriel Teczynski, +1497; m.Anna z Koninskiej Woli (+after 
 			dynasty=teczynski
 			religion=catholic culture=polish
 			father=teczynski_0008	# Andrzej Tęczyński
-			mother=lowborn_6428	# Katarzyna z Czyżowa
-			1548.01.01={birth=yes}  # EST.
+			mother=lowborn_6429	# Anna Ozarowska
+			1550.01.01={birth=yes}  # EST.
 			1593.01.01={death=yes}
 		}
 		teczynski_0011={ #// B3. [2m.] Andrzej, kasztelan belski 1570, wojewoda belski 1574, wojewoda krakowski 1582, starosta zatorski, oswiecimski, hrubieszowski, +1588; m.1569 Zofia Dembowska (+1588)
@@ -26498,7 +26544,7 @@ teczynski_0001={ #// Gabriel Teczynski, +1497; m.Anna z Koninskiej Woli (+after 
 			dynasty=teczynski
 			religion=catholic culture=polish
 			father=teczynski_0008	# Andrzej Tęczyński
-			mother=lowborn_6428	# Katarzyna z Czyżowa
+			mother=lowborn_6429	# Anna Ozarowska
 			1549.01.01={birth=yes}  # EST.
 			1569.01.01={add_spouse=lowborn_6439}	# Zofia Dembowska
 			1588.01.01={death=yes}
@@ -26627,7 +26673,7 @@ teczynski_0001={ #// Gabriel Teczynski, +1497; m.Anna z Koninskiej Woli (+after 
 			dynasty=teczynski
 			religion=catholic culture=polish
 			father=teczynski_0008	# Andrzej Tęczyński
-			mother=lowborn_6428	# Katarzyna z Czyżowa
+			mother=lowborn_6429	# Anna Ozarowska
 			1551.01.01={birth=yes}  # EST.
 			1611.01.01={death=yes}  # EST.
 		}
@@ -26637,7 +26683,7 @@ teczynski_0001={ #// Gabriel Teczynski, +1497; m.Anna z Koninskiej Woli (+after 
 			dynasty=teczynski
 			religion=catholic culture=polish
 			father=teczynski_0008	# Andrzej Tęczyński
-			mother=lowborn_6428	# Katarzyna z Czyżowa
+			mother=lowborn_6429	# Anna Ozarowska
 			1554.01.01={birth=yes}  # EST.
 			1581.01.01={death=yes}
 		}
@@ -26800,7 +26846,7 @@ ostrog_0001={ #// Daniel, Pr of Ostrog, +after 1366; m.Vasilisa N
 					religion=catholic culture=polish
 					father=ostrog_0004	# Iwan Ostrogski
 					1460.01.01={birth=yes}
-					1509.01.01={add_spouse=lowborn_6726}	# PSS Tatiana Korecka OR Holszanska
+					1509.01.01={add_spouse=korecki_0025}	# Tatiana Korecki
 					1523.01.01={add_spouse=olelko_0017}	# Alexandra Olelkowicz
 					1530.08.10={death=yes}
 				}
@@ -26809,7 +26855,7 @@ ostrog_0001={ #// Daniel, Pr of Ostrog, +after 1366; m.Vasilisa N
 						dynasty=ostrogski
 						religion=catholic culture=polish
 						father=ostrog_0007	# Konstanty Ostrogski
-						mother=lowborn_6726	# PSS Tatiana Korecka OR Holszanska
+						mother=korecki_0025	# Tatiana Korecki
 						1510.01.01={birth=yes}
 						1538.01.01={add_spouse=lowborn_6742}	# Beata Koscielecka
 						1539.01.01={death=yes}
@@ -26968,7 +27014,7 @@ ostrog_0001={ #// Daniel, Pr of Ostrog, +after 1366; m.Vasilisa N
 						dynasty=ostrogski
 						religion=catholic culture=polish
 						father=ostrog_0007	# Konstanty Ostrogski
-						mother=lowborn_6726	# PSS Tatiana Korecka OR Holszanska
+						mother=korecki_0025	# Tatiana Korecki
 						1529.01.01={birth=yes}  # EST.
 						1589.01.01={death=yes}  # EST.
 					}
@@ -27283,7 +27329,7 @@ malachow_0001={ #// Mikolaj Malachowski, dworzanin królewski 1558, sekretarz kr
 	religion=catholic culture=polish
 	1521.01.01={birth=yes}  # EST.
 	1558.01.01={add_spouse=lowborn_1481}	# Elzbieta Lubiatowska
-	1574.01.01={add_spouse=lowborn_1570}	# Zofia Herburt
+	1573.01.01={add_spouse=lowborn_1570}	# Zofia Herburt
 	1575.01.01={death=yes}
 }
 	malachow_0002={ #// A1. [1m.] Piotr; m.Anna Szamowska
@@ -27368,7 +27414,7 @@ malachow_0001={ #// Mikolaj Malachowski, dworzanin królewski 1558, sekretarz kr
 						1727.01.01={add_spouse=lowborn_6763}	# Izabela Humiecka
 						1762.01.01={death=yes}
 					}
-						malachow_0012={ #// F1. Anna, +after 1772; m.1749 Marian Potocki, kasztelan lubaczowski (+after 1768) $$
+						malachow_0012={ #// F1. Anna, +after 1772; m.5.5.1749 Marian Potocki, kasztelan lubaczowski (+after 1768) $$
 							name=Anna
 							female=yes
 							dynasty=malachowski
@@ -27378,15 +27424,15 @@ malachow_0001={ #// Mikolaj Malachowski, dworzanin królewski 1558, sekretarz kr
 							1728.01.01={birth=yes}  # EST.
 							1773.01.01={death=yes}
 						}
-						malachow_0013={ #// F2. Katarzyna; m.Szczesny Czacki, podczaszy koronny
+						malachow_0013={ #// F2. Katarzyna (1729-1768); m.Szczesny Czacki, podczaszy koronny $$
 							name=Katarzyna
 							female=yes
 							dynasty=malachowski
 							religion=catholic culture=polish
 							father=malachow_0011	# Jan Małachowski
 							mother=lowborn_6763	# Izabela Humiecka
-							1728.01.01={birth=yes}  # EST.
-							1788.01.01={death=yes}  # EST.
+							1729.05.09={birth=yes}  # Końskie
+							1768.09.01={death=yes}
 						}
 						malachow_0014={ #// F3. Karolina; m.Wojciech Grabinski, starosta stezycki
 							name=Karolina
@@ -27623,9 +27669,9 @@ malachow_0001={ #// Mikolaj Malachowski, dworzanin królewski 1558, sekretarz kr
 					dynasty=malachowski
 					religion=catholic culture=polish
 					father=malachow_0009	# Franciszek Małachowski
-					mother=lowborn_6743	# Anna Zdrowska
+					mother=lowborn_6746	# Helena Grabska
 					1673.01.01={birth=yes}
-					1706.01.01={add_spouse=lowborn_6809}	# Marianna Zlotnicka
+					1703.01.01={add_spouse=lowborn_6809}	# Marianna Zlotnicka
 					1717.01.01={death=yes}
 				}
 					malachow_0035={ #// E1. Anna; m.Józef Michalowski, sedzia grodzki krakowski
@@ -27706,7 +27752,7 @@ malachow_0001={ #// Mikolaj Malachowski, dworzanin królewski 1558, sekretarz kr
 					dynasty=malachowski
 					religion=catholic culture=polish
 					father=malachow_0009	# Franciszek Małachowski
-					mother=lowborn_6743	# Anna Zdrowska
+					mother=lowborn_6746	# Helena Grabska
 					1675.01.01={birth=yes}  # EST.
 					1735.01.01={death=yes}  # EST.
 				}
@@ -27716,7 +27762,7 @@ malachow_0001={ #// Mikolaj Malachowski, dworzanin królewski 1558, sekretarz kr
 					dynasty=malachowski
 					religion=catholic culture=polish
 					father=malachow_0009	# Franciszek Małachowski
-					mother=lowborn_6743	# Anna Zdrowska
+					mother=lowborn_6746	# Helena Grabska
 					1675.01.01={birth=yes}  # EST.
 					1735.01.01={death=yes}  # EST.
 				}
@@ -27997,7 +28043,7 @@ korecki_0001={ #// Alexander Patrikeievich, Pr of Starodub 1397, Pr of Korec 140
 					1454.01.01={birth=yes}  # EST.
 					1514.01.01={death=yes}  # EST.
 				}
-		korecki_0025={ #// B2. Pss Tatiana; m.1509 Pr Konstantin Ivanovich Ostrogski (+10.8.1530)
+		korecki_0025={ #// B2. Pss Tatiana; m.1509 Pr Konstantin Ivanovich Ostrogski (+10.8.1530) $$
 			name=Tatiana
 			female=yes
 			dynasty=korecki
@@ -28012,7 +28058,7 @@ korecki_0001={ #// Alexander Patrikeievich, Pr of Starodub 1397, Pr of Korec 140
 		dynasty=korecki
 		religion=catholic culture=polish
 		father=korecki_0001	# Alexander Korecki
-		1379.01.01={birth=yes}  # EST.
+		1385.01.01={birth=yes}  # EST.
 		1435.01.01={death=yes}
 	}
 ## KORECKI

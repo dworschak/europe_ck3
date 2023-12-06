@@ -24,7 +24,7 @@
 ##	Montgelas                                                   1002200   22   9 /  17 =  52,94%	    8
 ##	Nicolaï                                                     1007050   33  12 /  12 = 100,00%	    0
 ##	Pilati von Thassul zu Daxberg                               1002055   11   4 /   7 =  57,14%	    3
-##	Platen Hallermund                                           1002298   11   7 /   7 = 100,00%	    0
+##	Platen Hallermund                                  platenhallermund   11   7 /   7 = 100,00%	    0
 ##	Poninski                                                    1012030   28  12 /  12 = 100,00%	    0
 ##	Reichenbach-Goschütz                                        1002281   26  22 /  25 =  88,00%	    3
 ##	Robiano                                                     1007071   16   9 /  13 =  69,23%	    4
@@ -97,134 +97,7 @@
 ## FLEMMING 100588
 
 
-## PLATEN-H
-# https://www.angelfire.com/realm/gotha/gotha/platen.html
-100092847={ #//            Erna                      von Platen                               (1897-1991)     3 [STOLBERG] $$
-	name="Erna von Platen"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1897.05.31={birth=yes}  # Beeskow
-	1991.07.25={death=yes}  # München
-}
-
-#Part1
-# 3a) Franz Ernst Gf von Platen Hr der Gfschaft Hallermund (1631-14 Jun 1709); m.Sep 1673 Klara Elisabeth von Meysenbug (14 Jan 1648-30 Jan 1700); Klara was apparently mistress of Elector Ernst August of Hannover, and it is believed that her children were fathered by him
-	# 1b) Ernst August Gf von Platen-Hallermund (3 Aug 1674-20 Sep 1726); m.1697 Sophia Karolina von Uffeln (2 Nov 1669-23 Jan 1726)
-		100086010={ #// 3c) Georg Ludwig (14 Feb 1704-18 Jan 1772); m.1st 1725 Sophia Friederike Frn von Beauvernois (1708-12 Dec 1730); m.2nd 22 May 1732 Sabine Hedwig von Steuben (15 Apr 1715-12 Nov 1796) $$
-			name="Georg Ludwig von Platen"
-			#dynasty=0
-			religion=catholic culture=german
-			1704.02.14={birth=yes}
-			1725.08.15={add_spouse=100066589}	# Sophie Friederike de Lorraine
-			1772.08.18={death=yes}
-		}
-#Part1
-
-#Part2
-100036697={ #// GEORG Wilhelm Friedrich Graf u.Edler Herr von Platen Hallermund 17 Feb 1818 (Linden bei Hannover 8 Nov 1785-Weißenhaus 13 Jan 1873); m.Linden 7 Nov 1809 Julie Marianne Charlotte Gfn von Hardenberg (Celle 22 Oct 1788-Weißenhaus 18 Aug 1833)
-	name=Georg
-	dynasty=1002298
-	religion=catholic culture=german
-	1785.11.08={birth=yes}  # Linden bei Hannover
-	1873.01.13={death=yes}  # Weißenhaus
-}
-	100036696={ #// 1a) KARL Ernst Felix Gf u.Edler Hr von Platen Hallermund (Marseille 3 Aug 1810-Weißenhaus 9 Nov 1887); 
-				# m.1st Stuttgart 7 Nov 1836 Mathilde Gfn von Pace (Trieste 11 Oct 1815-Düsseldorf 3 Sep 1850); 
-				# m.2nd Schönweide, Kr Plön 15 Mar 1857 Luise Frn von Hollen (Schönweide 19 Dec 1833-Eutin 29 Apr 1895)
-		name=Karl
-		dynasty=1002298
-		religion=catholic culture=german
-		father=100036697	# Georg von Platen Hallermund
-		1810.08.03={birth=yes}  # Marseille
-		1887.11.09={death=yes}  # Weißenhaus
-	}
-		100036695={ #// 10b) Karl August Heinrich (Sehlendorf 9 Dec 1857-Kiel 23 Oct 1922); m.Wiesbaden 14 Jan 1892 Elfried von Köppen (Wiesbaden 2 Mar 1872-Kiel 31 Jul 1958)
-			name="Karl August"
-			dynasty=1002298
-			religion=catholic culture=german
-			father=100036696	# Karl von Platen Hallermund
-			1857.12.09={birth=yes}  # Sehlendorf
-			1922.10.23={death=yes}  # Kiel
-		}
-			100036365={ #// 3c) Gustava Frieda Betty Wilhelmine Paula (Segeberg 7 Dec 1899-Arolsen 27 Oct 1986); m.Kiel 12 Sep 1929 Max Pr zu Waldeck u.Pyrmont (Arolsen 13 Sep 1898-Arolsen 23 Feb 1981) $$
-				name=Gustava
-				female=yes
-				dynasty=1002298
-				religion=lutheran culture=german
-				father=100036695	# Karl August von Platen Hallermund
-				1899.12.07={birth=yes}
-				1986.10.27={death=yes}
-			}
-			100036364={ #// 4c) Ingeborg Elfriede Gabriele Sophie Ilse Wilhelmine (Schleswig 27 Feb 1902-Arolsen 30 Aug 1991); m.Kiel 20 Jan 1932 Georg Wilhelm Pr zu Waldeck u.Pyrmont (Arolsen 10 Mar 1902-Arolsen 14 Nov 1971) $$
-				name=Ingeborg
-				female=yes
-				dynasty=1002298
-				religion=lutheran culture=german
-				father=100036695	# Karl August von Platen Hallermund
-				1902.02.27={birth=yes}
-				1991.08.30={death=yes}
-			}
-		100036313={ #// 15b) Oskar Rudolf Karl Marius (Sehlendorf 18 Mar 1865-Weißenhaus 14 Apr 1957); m.1st Kreppelhof 11 Jan 1904 Armgard Gfn zu Stolberg-Wernigerode (Kreppelhof 1 Jun 1877-Berlin 18 Feb 1912); m.2nd Wildenfels 9 Feb 1915 (div 1922) Sophie Gfn zu Solms-Wildenfels (Wildenfels 9 Feb 1877-Lübbenau, Spreewald 4 Dec 1956) $$
-			name=Oskar
-			dynasty=1002298
-			religion=catholic culture=german
-			father=100036696	# Karl von Platen Hallermund
-			1865.03.18={birth=yes}  # Sehlendorf
-			1904.01.11={add_spouse=100006353}	# Armgard von Stolberg-Wernigerode
-			1915.02.09={add_spouse=100008184}	# Sophie von Solms-Wildenfels
-			1922.01.01={remove_spouse=100008184}
-			1957.04.14={death=yes}  # Weißenhaus
-		}
-		100036329={ #// 21b) Anna (Weißenhaus 14 Apr 1874-Frankfurt-Rödelheim 18 Aug 1937); m.Schönweide 2 Jul 1903 Ernst Gf zu Solms-Rödelheim u.Assenheim (Assenheim 8 Jul 1868-Friedberg, Hesse 2 May 1920) $$
-			name=Anna
-			female=yes
-			dynasty=1002298
-			religion=catholic culture=german
-			father=100036696	# Karl von Platen Hallermund
-			1874.04.14={birth=yes}  # Weißenhaus
-			1937.08.18={death=yes}  # Frankfurt
-		}
-	100036007={ #// 7a) Georg Adolf Hans August (Weißenhaus 16 Sep 1827-Kaden bei Alveslohe, Holstein 28 Aug 1881); m.Rantzau bei Plön 22 Aug 1857 Elise von Warnstedt (Plön 9 Sep 1827-Preetz 4 Jan 1909)
-		name="Georg Adolf"
-		dynasty=1002298
-		religion=lutheran culture=german
-		father=100036697	# Georg von Platen Hallermund
-		1827.09.16={birth=yes}  # Kaden
-		1881.08.28={death=yes}  # Haseldorf
-	}	
-		100036698={ #// # 1b) Georg Hans Julius (Friederikenhof 7 Nov 1858-Kaden 9 Dec 1927); m.Espe, Seeland 20 Oct 1887 Rosalie Gfn von Moltke (Espe 6 Jun 1866-Preetz 9 Oct 1924)
-			name="Georg Hans"
-			dynasty=1002298
-			religion=lutheran culture=german
-			father=100036007	# Georg Adolf von Platen Hallermund
-			1858.11.07={birth=yes}  # Friederikenhof
-			1927.12.09={death=yes}  # Kaden
-		}
-			100036532={ #// 2c) Agnes (Kaden 15 Aug 1890-Haseldorf 3 Nov 1970); m.Preetz 20 May 1919 Georg Pr von Schoenaich-Carolath-Schilden (Davos-Dorf 24 May 1891-Haseldorf 19 Feb 1969) $$
-				name=Agnes
-				female=yes
-				dynasty=1002298
-				religion=lutheran culture=german
-				father=100036698	# Georg Hans von Platen Hallermund
-				1890.08.15={birth=yes}  # Kaden
-				1970.11.03={death=yes}  # Haseldorf
-			}
-			100036531={ #// 4c) Gustav Julius Christian (Kaden 22 Jun 1894-Lazarett Graudenz Jun 1945); m.Haseldorf 10 Sep 1920 Gabriele Pss von Schoenaich-Carolath (Hasledorf 23 Sep 1897-Hamburg 17 May 1964) $$
-				name=Gustav
-				dynasty=1002298
-				religion=lutheran culture=german
-				father=100036698	# Georg Hans von Platen Hallermund
-				1894.06.22={birth=yes}  # Kaden
-				1920.09.10={add_spouse=100005033}	# Gabriele von Schoenaich-Carolath
-				1934.01.01={remove_spouse=100005033}
-				1945.06.01={death=yes}  # Graudenz
-			}
-#Part2
-# PLATEN-H
-
-
-##  			Pilati von Thassul zu Daxberg		1002055
+## Pilati von Thassul zu Daxberg 1002055
 100036818={ #// Pilar Pilati von Thassul zu Daxberg (*23.4.1979); m.6.6.2012 Christian von Salm-Horstmar (*20.5.1975) %%
 	name=Pilar
 	female=yes
@@ -322,7 +195,7 @@
 				mother=100083871	# Francesca Filo di Torre Santa Susanna
 				1989.03.15={birth=yes}
 			}
-##  			Pilati von Thassul zu Daxberg		1002055
+## Pilati von Thassul zu Daxberg 1002055
 
 
 ## 				Revertera von Salandra   			1002064
@@ -1569,14 +1442,14 @@
 	1874.01.01={add_spouse=100065112}	# Josephine de Bourbon-Busset
 	1919.01.01={death=yes}
 }
-	100035764={ #// A1. Richard (*3.6.1891, +30.10.1973); m.4.2.1920 Elisabeth Marie d’Ursel (*12.8.1889, +26.5.1974) %%
+	100035764={ #// A1. Richard (*3.6.1891, +30.10.1973); m.4.2.1920 Elisabeth Marie d'Ursel (*12.8.1889, +26.5.1974) %%
 		name=Richard
 		dynasty=1007092
 		religion=catholic culture=french
 		father=100035768	# Rene du Pre de Saint-Maur
 		mother=100065112	# Josephine de Bourbon-Busset
 		1891.06.03={birth=yes}
-		1920.02.04={add_spouse=100067953}	# Elisabeth Marie d’Ursel
+		1920.02.04={add_spouse=100067953}	# Elisabeth Marie d'Ursel
 		1973.10.30={death=yes}
 	}
 # DU PRE
@@ -3153,11 +3026,12 @@
 				1821.10.02={add_spouse=100021882}	# Maria Josefa von Auersperg
 				1824.09.12={death=yes}  # Graz
 			}
-		100035334={ #// B1. Maria Juliana von Stubenberg (*26.6.1738, +10.12.1804); m.28.10.1756 Vincenz Ferrerius von Orsini u.Rosenberg (*27.12.1722, +3.7.1794) %%
+		100035334={ #// B3. Maria Juliana (*26.6.1738, +10.12.1804); m.28.10.1756 Vincenz Ferrerius von Orsini u.Rosenberg (*27.12.1722, +3.7.1794) %%
 			name="Maria Juliana"
 			female=yes
 			dynasty=1002262
 			religion=catholic culture=german
+			father=100035358	# Johann Georg von Stubenberg
 			1738.06.26={birth=yes}
 			1804.12.10={death=yes}
 		}
@@ -3806,14 +3680,14 @@
 							1958.01.01={add_spouse=100081792}	# Monique de Briey
 							1981.01.01={death=yes}  # EST.
 						}
-							100036862={ #// G1. Thierry Marie (*20.9.1959); m.23.8.1991 Bénédicte d’Ursel (*6.1.1962) %%
+							100036862={ #// G1. Thierry Marie (*20.9.1959); m.23.8.1991 Bénédicte d'Ursel (*6.1.1962) %%
 								name="Thierry Marie"
 								dynasty=1007020
 								religion=catholic culture=german
 								father=100036864	# Philippe de Hemricourt de Grunne
 								mother=100081792	# Monique de Briey
 								1959.09.20={birth=yes}
-								1991.08.23={add_spouse=100067941}	# Bénédicte d’Ursel
+								1991.08.23={add_spouse=100067941}	# Bénédicte d'Ursel
 							}
 					100036851={ #// E2. Marie Thérèse (*1878, +1961); m.1909 Pierre de Liedekerke (*1869, +1943) %%
 						name="Marie Thérèse"
@@ -3927,14 +3801,14 @@
 				1948.08.12={add_spouse=100033627}	# Pia Maria de Orleães-Bragança
 				1954.11.25={death=yes}
 			}
-				100036765={ #// D1. Louis-Jean (*18.9.1949); m.23.8.1980 Barbara Marie d’Ursel (*8.8.1958) %%
+				100036765={ #// D1. Louis-Jean (*18.9.1949); m.23.8.1980 Barbara Marie d'Ursel (*8.8.1958) %%
 					name=Louis-Jean
 					dynasty=1007050
 					religion=catholic culture=french
 					father=100036763	# René de Nicolaï
 					mother=100033627	# Pia Maria de Orleães-Bragança
 					1949.09.18={birth=yes}
-					1980.08.23={add_spouse=100067940}	# Barbara Marie d’Ursel
+					1980.08.23={add_spouse=100067940}	# Barbara Marie d'Ursel
 				}
 				100036766={ #// D2. Robert (*17.2.1952); m.4.2.1983 Nathalie Laetitia Murat (*5.4.1961) %%
 					name=Robert
@@ -4291,7 +4165,7 @@
 		father=100036720	# Heinrich LOWBORN
 		mother=100119445	# Margit Thyssen-Bornemisza de Kászon et Impérfalva
 		1921.04.02={birth=yes}	# Scheveningen
-		1946.08.01={add_spouse=100002632}	# Teresa zur Lippe-Weißenfeld
+		1946.08.01={add_spouse=100002632}	# Teresa zur  Lippe-Weißenfeld
 		1954.01.01={remove_spouse=100002632}
 		2002.04.26={death=yes}	# Sant Feliu de Guíxols
 	}
@@ -5629,14 +5503,14 @@
 					1942.02.01={add_spouse=100000982}	# Maria v.u.zu Eltz gt Faust v.Stromberg
 					1988.10.02={death=yes}  # Stepperg
 				}
-					100036923={ #// E1. Johannes-Jakob (*Tagmersheim 14.8.1947); m.19.7.1975 Diane Isabelle d’Ursel (*27.4.1950) %%
+					100036923={ #// E1. Johannes-Jakob (*Tagmersheim 14.8.1947); m.19.7.1975 Diane Isabelle d'Ursel (*27.4.1950) %%
 						name=Johannes-Jakob
 						dynasty=1002209
 						religion=catholic culture=german
 						father=100036925	# Ernst von Moÿ de Sons
 						mother=100000982	# Maria v.u.zu Eltz gt Faust v.Stromberg
 						1947.08.14={birth=yes}	# Tagmersheim
-						1975.07.19={add_spouse=100067874}	# Diane Isabelle d’Ursel
+						1975.07.19={add_spouse=100067874}	# Diane Isabelle d'Ursel
 					}
 						100036924={ #// F1. Isabelle (*München 15.7.1977); m.23.6.2001 Franz-Erwein von Nostitz-Rieneck (*Graz 4.5.1970) %%
 							name=Isabelle
@@ -5644,7 +5518,7 @@
 							dynasty=1002209
 							religion=catholic culture=german
 							father=100036923	# Johannes-Jakob von Moÿ de Sons
-							mother=100067874	# Diane Isabelle d’Ursel
+							mother=100067874	# Diane Isabelle d'Ursel
 							1977.07.15={birth=yes}  # München
 						}
 						100036926={ #// F2. Marie Nadine (*22.2.1979); m.5.9.2008 Heinrich Reuß (*27.7.1976) %%
@@ -5653,7 +5527,7 @@
 							dynasty=1002209
 							religion=catholic culture=german
 							father=100036923	# Johannes-Jakob von Moÿ de Sons
-							mother=100067874	# Diane Isabelle d’Ursel
+							mother=100067874	# Diane Isabelle d'Ursel
 							1979.02.22={birth=yes}
 						}
 	100436926={ #// A2. Ernst (*1852, +Innsbruck 1.6.1922); m.1882 Anna Barcsay de Nagybarcsa (*31.10.1859) %%
@@ -6063,14 +5937,14 @@
 		1912.01.09={add_spouse=100066981}	# Cécile d’Oultremont
 		1961.12.30={death=yes}  # Pailhe
 	}
-		100036723={ #// B1. Louis Cornet (*29.2.1928, +11.11.2011); m.9.1.1960 Colette d’Ursel (*3.10.1934, +5.5.2011) %%
+		100036723={ #// B1. Louis Cornet (*29.2.1928, +11.11.2011); m.9.1.1960 Colette d'Ursel (*3.10.1934, +5.5.2011) %%
 			name="Louis Cornet"
 			dynasty=1007054
 			religion=catholic culture=french
 			father=100036787	# Jean Gustave Cornet d'Elzius du Chenoy
 			mother=100066981	# Cécile d’Oultremont
 			1928.02.29={birth=yes}
-			1960.01.09={add_spouse=100067748}	# Colette d’Ursel
+			1960.01.09={add_spouse=100067748}	# Colette d'Ursel
 			2011.11.11={death=yes}
 		}
 	100036724={ #// A2. Étienne Edmond (*Pailhe 6.6.1891, +Brussels 4.1.1960); m.26.4.1919 Nathalie d’Oultremont (*Brussels 17.11.1897, +Uccle 11.6.1981) %%
@@ -6120,7 +5994,7 @@
 		1867.01.01={birth=yes}
 		1951.01.01={death=yes}
 	}	
-		100036757={ #// B1. Claire Bernardine (*26.9.1899, +12.12.1976); m.19.8.1924 Ernest Marie d’Ursel (*25.5.1901, +18.11.1969) %%
+		100036757={ #// B1. Claire Bernardine (*26.9.1899, +12.12.1976); m.19.8.1924 Ernest Marie d'Ursel (*25.5.1901, +18.11.1969) %%
 			name="Claire Bernardine"
 			female=yes
 			dynasty=1007055
@@ -6193,13 +6067,13 @@
 		1930.01.01={birth=yes}
 		2013.01.01={death=yes}
 	}			
-		100036737={ #// B1. Thierry Hubert (*2.11.1961); m.17.1.1987 Nathalie Georgine d’Ursel (*23.2.1961) %%
+		100036737={ #// B1. Thierry Hubert (*2.11.1961); m.17.1.1987 Nathalie Georgine d'Ursel (*23.2.1961) %%
 			name="Thierry Hubert"
 			dynasty=1007056
 			religion=catholic culture=dutch
 			father=100036739	# Philippe du Parc Locmaria
 			1961.11.02={birth=yes}
-			1987.01.17={add_spouse=100067901}	# Nathalie Georgine d’Ursel
+			1987.01.17={add_spouse=100067901}	# Nathalie Georgine d'Ursel
 		}
 	100036951={ #// A2. Baudouin (*14.4.1944); m.2.8.1968 Thérèse de Lannoy (*30.11.1946) %%
 		name=Baudouin
@@ -7725,7 +7599,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	}		
 
 		
-# BODMAN
+## BODMAN 1002603
 100036983={ #// Johann Franz von und zu Bodman (*Bodman 1775, +Bodman 17.6.1833); m.1st 10.2.1800 Maria Theresia von Waldburg zu Zeil u.Trauchburg (*Zeil 10.2.1780, +Bodman 30.4.1832); m.2nd 11.6.1833 Katharina Creszentia von Königsegg-Rothenfels (*1.4.1792, +Bodman 23.6.1843) %%
 	name="Johann Franz"
 	dynasty=1002603
@@ -7753,7 +7627,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			1877.06.12={add_spouse=100010134}	# Gabriele von Degenfeld-Schonburg
 			1923.03.19={death=yes}  # Baden-Baden
 		}
-# BODMAN
+## BODMAN 1002603
 
 # GUTTENBERG		
 100036880={ #// Theodor v.u.zu Guttenberg (*Würzburg 31.5.1854, +Neuhaus 28.7.1904) %%
@@ -9271,14 +9145,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				1872.01.01={add_spouse=100091570}	# GFN Karoline von Bismarck-Bohlen
 				1881.09.06={death=yes}	# Görbersdorf
 			}
-				100036044={ #// D1. Adolf (*Berlin 31.3.1875, +Bühlerhöhe 30.4.1931); m.29.9.1902 Sophie zur Lippe-Weißenfeld (*21.2.1876, +17.8.1949) %%
+				100036044={ #// D1. Adolf (*Berlin 31.3.1875, +Bühlerhöhe 30.4.1931); m.29.9.1902 Sophie zur  Lippe-Weißenfeld (*21.2.1876, +17.8.1949) %%
 					name=Adolf
 					dynasty=1002288
 					religion=lutheran culture=german
 					father=100036045	# Georg Werner von Arnim
 					mother=100091570	# GFN Karoline von Bismarck-Bohlen
 					1875.03.31={birth=yes}	# Berlin
-					1902.09.29={add_spouse=100002567}	# Sophie zur Lippe-Weißenfeld
+					1902.09.29={add_spouse=100002567}	# Sophie zur  Lippe-Weißenfeld
 					1931.04.30={death=yes}	# Bühlerhöhe
 				}
 					100036175={ #// E1. Freda-Antoinette (*Blumberg 19.4.1905, +Basel 1.7.1999); m.29.5.1926 Alexander von Dohna-Schlobitten (*Potsdam 11.12.1899, +Basel 29.10.1997) %%
@@ -9287,7 +9161,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 						dynasty=1002288
 						religion=catholic culture=german
 						father=100036044	# Adolf von Arnim
-						mother=100002567	# Sophie zur Lippe-Weißenfeld
+						mother=100002567	# Sophie zur  Lippe-Weißenfeld
 						1905.04.19={birth=yes}  # Blumberg
 						1999.07.01={death=yes}  # Basel
 					}
@@ -9296,7 +9170,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 						dynasty=1002288
 						religion=catholic culture=german
 						father=100036044	# Adolf von Arnim
-						mother=100002567	# Sophie zur Lippe-Weißenfeld
+						mother=100002567	# Sophie zur  Lippe-Weißenfeld
 						1907.07.11={birth=yes}  # Blumberg
 						1936.05.30={add_spouse=100005810}	# Christine Eleonore von Solms-Hohensolms-Lich
 						1943.02.14={death=yes}
@@ -11168,7 +11042,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 							1953.01.01={add_spouse=100036199}	# Anne de Liedekerke
 							2004.01.01={death=yes}  # EST.
 						}
-							100036200={ #// G1. Caroline Hélène (*3.5.1953); m.1.9.1973 Évrard Nicolas d’Ursel (*29.6.1942) %%
+							100036200={ #// G1. Caroline Hélène (*3.5.1953); m.1.9.1973 Évrard Nicolas d'Ursel (*29.6.1942) %%
 								name="Caroline Hélène"
 								female=yes
 								dynasty=1007070
@@ -11177,7 +11051,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 								mother=100036199	# Anne de Liedekerke
 								1953.05.03={birth=yes}
 							}
-							100036099={ #// G2. Philippine Hélène (*8.8.1954); m.26.3.1977 Hubert Marie d’Ursel (*26.8.1953) %%
+							100036099={ #// G2. Philippine Hélène (*8.8.1954); m.26.3.1977 Hubert Marie d'Ursel (*26.8.1953) %%
 								name="Philippine Hélène"
 								female=yes
 								dynasty=1007070
@@ -12180,14 +12054,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	1835.07.02={add_spouse=100065627}	# Thérèse de Gramont
 	1879.01.01={death=yes}
 }
-	100036305={ #// A1. Amable (*France 16.4.1836, +C. de Boitsfort 31.8.1881); m.26.8.1873 Marie Joséphine d’Ursel (*20.9.1845, +24.3.1885) %%
+	100036305={ #// A1. Amable (*France 16.4.1836, +C. de Boitsfort 31.8.1881); m.26.8.1873 Marie Joséphine d'Ursel (*20.9.1845, +24.3.1885) %%
 		name=Amable
 		dynasty=1007074
 		religion=catholic culture=french
 		father=100036306	# Gustave Dadvisard
 		mother=100065627	# Thérèse de Gramont
 		1836.04.16={birth=yes}	# France
-		1873.08.26={add_spouse=100067826}	# Marie Joséphine d’Ursel
+		1873.08.26={add_spouse=100067826}	# Marie Joséphine d'Ursel
 		1881.08.31={death=yes}	# C. de Boitsfort
 	}
 		100036466={ #// B2. Louis (*France 29.1.1875, +14.6.1962) %%
@@ -12195,7 +12069,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			dynasty=1007074
 			religion=catholic culture=french
 			father=100036306	# Gustave Dadvisard
-			mother=100067826	# Marie Joséphine d’Ursel
+			mother=100067826	# Marie Joséphine d'Ursel
 			1875.01.29={birth=yes}	# France
 			1962.06.14={death=yes}
 		}
@@ -12221,7 +12095,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			dynasty=1007074
 			religion=catholic culture=french
 			father=100036306	# Gustave Dadvisard
-			mother=100067826	# Marie Joséphine d’Ursel
+			mother=100067826	# Marie Joséphine d'Ursel
 			1879.08.27={birth=yes}  # Mondouzil
 			1970.05.14={death=yes}
 		}

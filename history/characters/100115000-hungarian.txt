@@ -140,7 +140,6 @@
 			1878.07.04={death=yes}
 		}
 
-
 bolza_0001={ #// Anton Peter Bolza (*23.2.1750, +23.2.1817) %%
 	name="Anton Peter"
 	dynasty=1011407
@@ -266,7 +265,7 @@ auerhammer_0001={ #// Alajos Auerhammer (*1810); m.15.1.1848 Katalin Dőry de Jo
 	1848.01.15={add_spouse=dory_0160}	# Katalin Dőry de Jobaháza
 	1870.12.01={death=yes}  # EST.
 }
-	auerhammer_0002={ #// A1. Mária (+EST 1892); m.1880 István Dőry de Jobaháza (*Pécs 19.9.1854, +17.12.1932) %%
+	auerhammer_0002={ #// A1. Mária; m.1880 István Dőry de Jobaháza (*Pécs 19.9.1854, +17.12.1932) %%
 		name="Mária"
 		female=yes
 		dynasty=auerhammer
@@ -274,7 +273,7 @@ auerhammer_0001={ #// Alajos Auerhammer (*1810); m.15.1.1848 Katalin Dőry de Jo
 		father=auerhammer_0001	# Alajos Auerhammer
 		mother=dory_0160	# Katalin Dőry de Jobaháza
 		1854.01.01={birth=yes}  # EST.
-		1892.01.01={death=yes}  # EST
+		1892.01.01={death=yes}  # EST.
 	}
 
 wiedersperger_0001={ #// Edmund Wiedersperger von Wiedersperg (*Praha 5.5.1835, +Payerbach 30.9.1882); m.24.9.1862 Gizella Leopoldina Kálnoky de Kőröspatak (*Letovice 5.9.1840, +Graz 23.11.1925) %%
@@ -7954,18 +7953,18 @@ barcsay_0062={ #// Mihály Barcsay de Nagybarcsa, Fejér vm főispánja, +1713; 
 			father=barcsay_0067	# Mihály Barcsay de Nagybarcsa
 			mother=lowborn_7821	# Ágnes Vass de Diódváralja
 			1727.01.01={birth=yes}
-			1747.01.01={add_spouse=lowborn_3937}	# BSS Teréz Inczédy
+			1748.01.01={add_spouse=lowborn_3937}	# BSS Teréz Inczédy
 			1775.01.01={add_spouse=lowborn_3952}	# Anna Boér de Kövesd
 			1797.01.01={death=yes}
 		}
-			barcsay_0072={ #// C1. [1m.] Sámuel, fl 1774-1802; 1m: Gfn Karolina Kún de Osdola; 2m: Borbála Petrichevich Horváth de Széplak $$
+			barcsay_0072={ #// C1. [1m.] Sámuel, *Nagybarcsa 1756, +Nagybarcsa 14.1.1814; 1m: Gfn Karolina Kún de Osdola; 2m: Borbála Petrichevich Horváth de Széplak $$
 				name=Sámuel
 				dynasty=barcsay
 				religion=catholic culture=hungarian
 				father=barcsay_0071	# Péter Barcsay de Nagybarcsa
 				mother=lowborn_3937	# BSS Teréz Inczédy
 				1756.01.01={birth=yes}  # Nagybarcsa
-				1772.01.01={add_spouse=kuun_0088}	# Karolina Kuun de Osdola
+				1780.01.01={add_spouse=kuun_0088}	# Karolina Kuun de Osdola
 				1800.01.01={add_spouse=lowborn_7954}	# Borbála Petrichevich-Horváth de Széplak
 				1814.01.14={death=yes}  # Nagybarcsa
 			}
@@ -7975,7 +7974,7 @@ barcsay_0062={ #// Mihály Barcsay de Nagybarcsa, Fejér vm főispánja, +1713; 
 					religion=catholic culture=hungarian
 					father=barcsay_0072	# Sámuel Barcsay de Nagybarcsa
 					mother=kuun_0088	# Karolina Kuun de Osdola
-					1773.01.01={birth=yes}  # EST.
+					1781.01.01={birth=yes}  # EST.
 					1823.01.01={add_spouse=lowborn_3951}	# Zsuzsanna Barcsay de Nagybarcsa
 					1833.01.01={death=yes}  # EST.
 				}
@@ -8044,7 +8043,7 @@ barcsay_0062={ #// Mihály Barcsay de Nagybarcsa, Fejér vm főispánja, +1713; 
 					religion=catholic culture=hungarian
 					father=barcsay_0072	# Sámuel Barcsay de Nagybarcsa
 					mother=kuun_0088	# Karolina Kuun de Osdola
-					1774.01.01={birth=yes}  # EST.
+					1783.01.01={birth=yes}  # EST.
 					1834.01.01={death=yes}  # EST.
 				}
 				barcsay_0082={ #// D3. Kata; m.György Dobay
@@ -8054,7 +8053,7 @@ barcsay_0062={ #// Mihály Barcsay de Nagybarcsa, Fejér vm főispánja, +1713; 
 					religion=catholic culture=hungarian
 					father=barcsay_0072	# Sámuel Barcsay de Nagybarcsa
 					mother=kuun_0088	# Karolina Kuun de Osdola
-					1774.01.01={birth=yes}  # EST.
+					1785.01.01={birth=yes}  # EST.
 					1834.01.01={death=yes}  # EST.
 				}
 			barcsay_0083={ #// C2. [1m.] Sándor, fl 1774-1815
@@ -8274,7 +8273,7 @@ barcsay_0062={ #// Mihály Barcsay de Nagybarcsa, Fejér vm főispánja, +1713; 
 						dynasty=barcsay
 						religion=catholic culture=hungarian
 						father=barcsay_0088	# Károly Barcsay de Nagybarcsa
-						mother=lowborn_3966	# BSS Eszter Bánffy de Losoncz
+						mother=lowborn_3967	# BSS Katalin Bánffy de Losoncz
 						1835.01.01={birth=yes}
 						1865.01.01={death=yes}
 					}
@@ -8283,19 +8282,9 @@ barcsay_0062={ #// Mihály Barcsay de Nagybarcsa, Fejér vm főispánja, +1713; 
 						dynasty=barcsay
 						religion=catholic culture=hungarian
 						father=barcsay_0088	# Károly Barcsay de Nagybarcsa
-						mother=lowborn_3966	# BSS Eszter Bánffy de Losoncz
+						mother=lowborn_3967	# BSS Katalin Bánffy de Losoncz
 						1841.01.01={birth=yes}
 						1867.01.01={death=yes}
-					}
-					barcsay_0107={ #// E8. [2m.] Eszter
-						name=Eszter
-						female=yes
-						dynasty=barcsay
-						religion=catholic culture=hungarian
-						father=barcsay_0088	# Károly Barcsay de Nagybarcsa
-						mother=lowborn_3966	# BSS Eszter Bánffy de Losoncz
-						1842.01.01={birth=yes}  # EST.
-						1902.01.01={death=yes}  # EST.
 					}
 			barcsay_0108={ #// C7. [1m.] Krisztina; m.Pál Noptsa
 				name=Krisztina
@@ -15865,7 +15854,7 @@ forgach_0030={ #// András Forgách de Ghymes et Gács, cr Graf 1676 (*1645, +Va
 					mother=lowborn_0279	# Júlia Vranovich
 					1758.10.12={birth=yes}  # Vágújhely
 					1778.02.10={add_spouse=lowborn_0282}	# Franciska Taff
-					1778.02.10={death=yes}  # Vágújhely
+					1800.01.01={death=yes}  # EST.
 				}
 					forgach_0069={ #// E1. Júlia, *Vágújhely 8.11.1778, +Vágújhely 21.1.1846
 						name=Júlia
@@ -19546,7 +19535,7 @@ kemeny_0001={ #// D1. János, +k.a.1603; m.Anna Sarmasági (+1573); (2m: Druzsia
 			dynasty=1011576
 			religion=catholic culture=hungarian
 			father=kemeny_0004	# Boldizsár Kemény de Magyargyerőmonostor
-			mother=lowborn_5028	# Anna Lázár de Szárhegy
+			mother=lowborn_5033	# Zsófia Tornya de Tornyafalva
 			1607.12.14={birth=yes}  # Bükkösd
 			1632.06.14={add_spouse=lowborn_5065}	# Zsuzsanna Kállay de Nagykálló
 			1659.01.01={add_spouse=lonyay_0026}	# Anna Lónyay de Nagylónya et Vásárosnamény
@@ -19567,7 +19556,7 @@ kemeny_0001={ #// D1. János, +k.a.1603; m.Anna Sarmasági (+1573); (2m: Druzsia
 			dynasty=1011576
 			religion=catholic culture=hungarian
 			father=kemeny_0004	# Boldizsár Kemény de Magyargyerőmonostor
-			mother=lowborn_5028	# Anna Lázár de Szárhegy
+			mother=lowborn_5033	# Zsófia Tornya de Tornyafalva
 			1609.01.01={birth=yes}  # EST.
 			1634.01.01={add_spouse=lowborn_5090}	# Zsuzsanna Bornemisza
 			1657.02.16={death=yes}
@@ -19577,7 +19566,7 @@ kemeny_0001={ #// D1. János, +k.a.1603; m.Anna Sarmasági (+1573); (2m: Druzsia
 			dynasty=1011576
 			religion=catholic culture=hungarian
 			father=kemeny_0004	# Boldizsár Kemény de Magyargyerőmonostor
-			mother=lowborn_5028	# Anna Lázár de Szárhegy
+			mother=lowborn_5033	# Zsófia Tornya de Tornyafalva
 			1611.01.01={birth=yes}  # EST.
 			1636.01.01={add_spouse=lowborn_5094}	# Klára Thoroczkay de Toroczkószentgyörgy
 			1671.01.01={death=yes}  # EST.
@@ -19648,7 +19637,7 @@ kemeny_0001={ #// D1. János, +k.a.1603; m.Anna Sarmasági (+1573); (2m: Druzsia
 			dynasty=1011576
 			religion=catholic culture=hungarian
 			father=kemeny_0004	# Boldizsár Kemény de Magyargyerőmonostor
-			mother=lowborn_5028	# Anna Lázár de Szárhegy
+			mother=lowborn_5033	# Zsófia Tornya de Tornyafalva
 			1613.01.01={birth=yes}  # EST.
 			1673.01.01={death=yes}  # EST.
 		}
@@ -19658,7 +19647,7 @@ kemeny_0001={ #// D1. János, +k.a.1603; m.Anna Sarmasági (+1573); (2m: Druzsia
 			dynasty=1011576
 			religion=catholic culture=hungarian
 			father=kemeny_0004	# Boldizsár Kemény de Magyargyerőmonostor
-			mother=lowborn_5028	# Anna Lázár de Szárhegy
+			mother=lowborn_5033	# Zsófia Tornya de Tornyafalva
 			1615.01.01={birth=yes}  # EST.
 			1675.01.01={death=yes}  # EST.
 		}
@@ -19668,7 +19657,7 @@ kemeny_0001={ #// D1. János, +k.a.1603; m.Anna Sarmasági (+1573); (2m: Druzsia
 			dynasty=1011576
 			religion=catholic culture=hungarian
 			father=kemeny_0004	# Boldizsár Kemény de Magyargyerőmonostor
-			mother=lowborn_5028	# Anna Lázár de Szárhegy
+			mother=lowborn_5033	# Zsófia Tornya de Tornyafalva
 			1617.01.01={birth=yes}  # EST.
 			1677.01.01={death=yes}  # EST.
 		}
@@ -19678,7 +19667,7 @@ kemeny_0001={ #// D1. János, +k.a.1603; m.Anna Sarmasági (+1573); (2m: Druzsia
 			dynasty=1011576
 			religion=catholic culture=hungarian
 			father=kemeny_0004	# Boldizsár Kemény de Magyargyerőmonostor
-			mother=lowborn_5028	# Anna Lázár de Szárhegy
+			mother=lowborn_5033	# Zsófia Tornya de Tornyafalva
 			1619.01.01={birth=yes}  # EST.
 			1679.01.01={death=yes}  # EST.
 		}
@@ -23925,7 +23914,7 @@ banffy_0001={ #// László Bánffy de Losoncz, fl 1368, +1427; 1m: Sára Bánffy
 			religion=catholic culture=hungarian
 			father=banffy_0002	# István Bánffy de Losoncz
 			mother=lowborn_0049	# Margit Jakcs de Kusaly
-			1427.01.01={birth=yes}  # EST.
+			1415.01.01={birth=yes}  # EST.
 			1497.01.01={death=yes}
 		}
 			banffy_0004={ #// C1. László, fl 1470-1532; 1m: Anna Farkas de Harinna (+ca 1518); 2m: Anna Dobokai
@@ -24021,7 +24010,7 @@ banffy_0001={ #// László Bánffy de Losoncz, fl 1368, +1427; 1m: Sára Bánffy
 			religion=catholic culture=hungarian
 			father=banffy_0002	# István Bánffy de Losoncz
 			mother=lowborn_0049	# Margit Jakcs de Kusaly
-			1408.01.01={birth=yes}  # EST.
+			1417.01.01={birth=yes}  # EST.
 			1433.01.01={add_spouse=lowborn_0123}	# Margit Jakcs de Kusaly
 			1478.01.01={death=yes}
 		}
@@ -24041,8 +24030,8 @@ banffy_0001={ #// László Bánffy de Losoncz, fl 1368, +1427; 1m: Sára Bánffy
 				father=banffy_0021	# János Bánffy de Losoncz
 				mother=lowborn_0123	# Margit Jakcs de Kusaly
 				1445.01.01={birth=yes}  # EST.
-				1470.01.01={add_spouse=bethlen_0014}	# Katalin Bethlen de Bethlen
-				1480.01.01={add_spouse=lowborn_0125}	# Borbála Zoltán
+				1484.01.01={add_spouse=bethlen_0014}	# Katalin Bethlen de Bethlen
+				1512.01.01={add_spouse=lowborn_0125}	# Borbála Zoltán
 				1515.01.01={death=yes}
 			}
 			banffy_0025={ #// C4. Zsófia, fl 1477; m.Miklós Báthori de Somlyó (fl 1445-98)
@@ -24312,7 +24301,7 @@ banffy_0001={ #// László Bánffy de Losoncz, fl 1368, +1427; 1m: Sára Bánffy
 			religion=catholic culture=hungarian
 			father=banffy_0002	# István Bánffy de Losoncz
 			mother=lowborn_0049	# Margit Jakcs de Kusaly
-			1426.01.01={birth=yes}  # EST.
+			1420.01.01={birth=yes}  # EST.
 			1496.01.01={death=yes}
 		}
 		banffy_0060={ #// B6. [1m.] Katalin, +before 1479; m.János Csetneki (fl 1465-1508)
@@ -24322,7 +24311,7 @@ banffy_0001={ #// László Bánffy de Losoncz, fl 1368, +1427; 1m: Sára Bánffy
 			religion=catholic culture=hungarian
 			father=banffy_0002	# István Bánffy de Losoncz
 			mother=lowborn_0049	# Margit Jakcs de Kusaly
-			1409.01.01={birth=yes}  # EST.
+			1421.01.01={birth=yes}  # EST.
 			1479.01.01={death=yes}  # before
 		}
 		banffy_0062={ #// B8. Krisztina; m.János Jakcs de Kusaly
@@ -26557,7 +26546,7 @@ bethlen_0007={ #// A3. János (Iván), fl 1329-49
 					father=bethlen_0010	# Miklós Bethlen de Bethlen
 					mother=lowborn_3754	# Anna Diódi
 					1409.01.01={birth=yes}  # EST.
-					1446.01.01={add_spouse=lowborn_3925}	# Anna Lack de Szántó
+					1440.01.01={add_spouse=lowborn_3925}	# Anna Lack de Szántó
 					1472.01.01={death=yes}  # EST.
 				}
 					bethlen_0012={ #// F1. Bernát, fl 1468-93; m.Anna Erdélyi de Somkerék (fl 1451)
@@ -26566,7 +26555,7 @@ bethlen_0007={ #// A3. János (Iván), fl 1329-49
 						religion=catholic culture=hungarian
 						father=bethlen_0011	# Márk Bethlen de Bethlen
 						mother=lowborn_3925	# Anna Lack de Szántó
-						1447.01.01={birth=yes}  # EST.
+						1442.01.01={birth=yes}  # EST.
 						1471.01.01={add_spouse=lowborn_4945}	# Anna Erdélyi de Somkerék
 						1503.01.01={death=yes}  # EST.
 					}
@@ -26576,10 +26565,10 @@ bethlen_0007={ #// A3. János (Iván), fl 1329-49
 						religion=catholic culture=hungarian
 						father=bethlen_0011	# Márk Bethlen de Bethlen
 						mother=lowborn_3925	# Anna Lack de Szántó
-						1451.01.01={birth=yes}  # EST.
-						1476.01.01={add_spouse=lowborn_5580}	# Orsolya Soós de Sóvár
+						1443.01.01={birth=yes}  # EST.
+						1463.01.01={add_spouse=lowborn_5580}	# Orsolya Soós de Sóvár
 						1482.01.01={add_spouse=lowborn_6331}	# Margit Chyre de Álmosd
-						1520.02.24={death=yes}  # before
+						1520.01.01={death=yes}
 					}
 						bethlen_0014={ #// G1. [1m.] Katalin, fl 1484-1511; m.János Bánffy de Losoncz (+1515) $$
 							name=Katalin
@@ -26588,7 +26577,7 @@ bethlen_0007={ #// A3. János (Iván), fl 1329-49
 							religion=catholic culture=hungarian
 							father=bethlen_0013	# Miklós Bethlen de Bethlen
 							mother=lowborn_5580	# Orsolya Soós de Sóvár
-							1476.01.01={birth=yes}  # EST.
+							1464.01.01={birth=yes}  # EST.
 							1519.01.01={death=yes}  # EST.
 						}
 						bethlen_0017={ #// G4. [2m.] Farkas, +before 24.6.1552
@@ -26726,7 +26715,7 @@ bethlen_0007={ #// A3. János (Iván), fl 1329-49
 										dynasty=1011389
 										religion=catholic culture=hungarian
 										father=bethlen_0032	# Farkas Bethlen de Bethlen
-										mother=lowborn_6996	# Anna Sámsondi
+										mother=kemeny_0006	# Anna Kemény de Magyargyerőmonostor
 										1611.01.01={birth=yes}  # EST.
 										1671.01.01={death=yes}  # EST.
 									}
@@ -26737,9 +26726,9 @@ bethlen_0007={ #// A3. János (Iván), fl 1329-49
 										dynasty=1011389
 										religion=catholic culture=hungarian
 										father=bethlen_0032	# Farkas Bethlen de Bethlen
-										mother=lowborn_6996	# Anna Sámsondi
-										1586.01.01={birth=yes}  # EST.
-										1646.01.01={death=yes}  # EST.
+										mother=kemeny_0006	# Anna Kemény de Magyargyerőmonostor
+										1613.01.01={birth=yes}  # EST.
+										1665.01.01={death=yes}  # EST.
 									}
 										bethlen_0038={ #// K1. Katalin Károlyi de Sárfalva; m.János Kálnoky de Kőröspatak
 											name="Katalin Károlyi de Sárfalva"
@@ -39805,7 +39794,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 		father=100118140	# Lipót Pálffy ab Erdöd
 		mother=100047874	# Maria Josepha z Valdštejna
 		1739.10.29={birth=yes}
-		1764.01.01={add_spouse=100285892}	# Maria Theresia von Daun
+		1764.01.01={add_spouse=daun_0066}	# Maria Theresia von Daun
 		1799.10.04={death=yes}
 	}
 		100118159={	#// B2. Lipót IV, Pozsony vármegye főispánja (comes of Pozsony county), *Bratislava 24.6.1764, +Bratislava 24.2.1825; m.22.9.1802 Frn Charlotte Jöchlinger von Jochenstein (*Klagenfurt 15.4.1778, +Wien 1.4.1851)
@@ -39813,7 +39802,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 			dynasty=1011692
 			religion=catholic culture=hungarian
 			father=100118348	# Lipót Pálffy ab Erdöd
-			mother=100285892	# Maria Theresia von Daun
+			mother=daun_0066	# Maria Theresia von Daun
 			1764.06.24={birth=yes}
 			1789.01.01={add_spouse=100095592}	# FRN Karolina von Jöchlinger
 			1825.02.24={death=yes}
@@ -39960,7 +39949,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 			dynasty=1011692
 			religion=catholic culture=hungarian
 			father=100118348	# Lipót Pálffy ab Erdöd
-			mother=100285892	# Maria Theresia von Daun
+			mother=daun_0066	# Maria Theresia von Daun
 			1767.02.01={birth=yes}
 			1792.01.01={add_spouse=100023230}	# Ernestine von Hoyos
 			1823.01.01={death=yes}
@@ -39971,7 +39960,7 @@ szapary_0001={ #// György Szapáry de Szapár, fl 1560; m.Anna Asszonyfalvy
 			dynasty=1011692
 			religion=catholic culture=hungarian
 			father=100118348	# Lipót Pálffy ab Erdöd
-			mother=100285892	# Maria Theresia von Daun
+			mother=daun_0066	# Maria Theresia von Daun
 			1768.09.01={birth=yes}
 			1843.01.01={death=yes}
 		}
@@ -42279,7 +42268,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 						father=100117245	# Károly Andrássy de Csíkszentkirály
 						mother=100115217	# Seraphina Batthyány de Német-Ujvar
 						1794.01.01={birth=yes}
-						1819.01.01={add_spouse=balassa_0039}	# Magdolna Balassa de Gyarmat
+						1830.01.01={add_spouse=balassa_0039}	# Magdolna Balassa de Gyarmat
 						1874.02.16={death=yes}  # Czigányi
 					}
 					100117239={	#// E4. Mária Paulina, *3.1.1809, +1.12.1877; 1m: 19.5.1836 Gf Ludwig Josef von Paar (*2.9.1783 +Kysk 17.10.1849); 2m: 19.5.1859 Karl von Sailer $$
@@ -43424,7 +43413,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 							father=100117002	# Johann Nepomuck Erdődy de Monyorókerék et Monoszló
 							mother=100094063	# FRN Irma Zornberg von Gallwitz
 							1873.01.24={birth=yes}
-							1923.09.15={add_spouse=100092531}	# Maria von Leganovic
+							1923.09.15={add_spouse=100092531}	# Maria von Leganović
 							1949.01.04={death=yes}
 						}
 							100117010={	#// 1g) Judika Franziska Maria Theresia (b.Graz 17 Oct 1924); m.Graz 1 Dec 1959 Oscar Dorrer (b.Laxenburg 11 Aug 1911)
@@ -43433,7 +43422,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 								dynasty=1011008
 								religion=catholic culture=hungarian
 								father=100117008	# Koloman Erdődy de Monyorókerék et Monoszló
-								mother=100092531	# Maria von Leganovic
+								mother=100092531	# Maria von Leganović
 								1924.10.17={birth=yes}
 								2000.01.01={death=yes}  # EST.
 							}
@@ -49221,7 +49210,6 @@ karolyi_0001={ #// Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Oberges
 			1700.01.01={birth=yes}  # EST.
 			1723.01.01={death=yes}  # EST.
 		}
-
 #zichy2
 
 #zichy3
@@ -53417,8 +53405,8 @@ barkoczy_0001={ #// László Barkóczy de Szala et Tavarna, fl 1558-83; m.Katali
 					religion=catholic culture=hungarian
 					father=barkoczy_0032	# Zsigmond Barkóczy
 					mother=lowborn_0032	# Zsuzsanna Melith de Brebir
-					1683.01.01={birth=yes}  # EST.
-					1684.01.01={add_spouse=perenyi_0027}	# GFN Erzsébet Pethő de Gerse
+					1660.01.01={birth=yes}  # EST.
+					1683.01.01={add_spouse=perenyi_0027}	# GFN Erzsébet Pethő de Gerse
 					1694.01.01={add_spouse=100117232}	# Klára Andrássy de Csíkszentkirály
 					1734.12.01={death=yes}  # EST.
 				}
@@ -53784,8 +53772,8 @@ barkoczy_0001={ #// László Barkóczy de Szala et Tavarna, fl 1558-83; m.Katali
 											religion=catholic culture=hungarian
 											father=barkoczy_0107	# Bertalan Barkóczy
 											mother=lowborn_0087	# Júlia Nagy
-											1874.01.01={birth=yes}  # EST.
-											1949.12.01={death=yes}  # EST.
+											1860.01.01={birth=yes}  # EST.
+											1920.01.01={death=yes}  # EST.
 										}
 									barkoczy_0104={ #// I2. Mária, +1884; m.Gábor Kelemen
 										name=Mária
@@ -54127,15 +54115,6 @@ barkoczy_0001={ #// László Barkóczy de Szala et Tavarna, fl 1558-83; m.Katali
 									1820.01.01={add_spouse=lowborn_0067}	# Zsófia Müller de Reichenstein
 									1846.01.01={death=yes}
 								}
-									barkoczy_0077={ #// I1. István
-										name=István
-										dynasty=1011357
-										religion=catholic culture=hungarian
-										father=barkoczy_0076	# István Barkóczy
-										mother=lowborn_0067	# Zsófia Müller de Reichenstein
-										1822.01.01={birth=yes}  # EST.
-										1929.12.01={death=yes}  # EST.
-									}
 									barkoczy_0079={ #// I3. Petronella; m.Győző Klopsch; Their issue bore the surname Barkóczy-Klopsch
 										name=Petronella
 										female=yes
@@ -54401,7 +54380,7 @@ illeshazy_0001={ #// Illés Illésházy, fl 1400
 										dynasty=1011555
 										religion=catholic culture=hungarian
 										father=illeshazy_0019	# József Illésházy de Illésháza
-										mother=100119058	# Franciska Csáky de Körösszeg et Adorján
+										mother=100024125	# Theresia Petronilla von Abensberg u.Traun
 										1734.12.09={birth=yes}
 										1807.04.29={death=yes}
 									}
@@ -54410,7 +54389,7 @@ illeshazy_0001={ #// Illés Illésházy, fl 1400
 										dynasty=1011555
 										religion=catholic culture=hungarian
 										father=illeshazy_0019	# József Illésházy de Illésháza
-										mother=100119058	# Franciska Csáky de Körösszeg et Adorján
+										mother=100024125	# Theresia Petronilla von Abensberg u.Traun
 										1736.01.01={birth=yes}
 										1761.01.01={add_spouse=100415321}	# Szidónia Batthyány de Német-Ujvar
 										1799.01.01={death=yes}
@@ -54461,7 +54440,7 @@ illeshazy_0001={ #// Illés Illésházy, fl 1400
 										dynasty=1011555
 										religion=catholic culture=hungarian
 										father=illeshazy_0019	# József Illésházy de Illésháza
-										mother=100119058	# Franciska Csáky de Körösszeg et Adorján
+										mother=100024125	# Theresia Petronilla von Abensberg u.Traun
 										1705.01.01={birth=yes}  # EST.
 										1780.12.01={death=yes}  # EST.
 									}
@@ -54573,7 +54552,7 @@ illeshazy_0001={ #// Illés Illésházy, fl 1400
 							religion=catholic culture=hungarian
 							father=illeshazy_0029	# Gáspár Illésházy de Illésháza
 							mother=lowborn_0110	# GFN Ilona Thurzó de Bethlenfalva
-							1578.01.01={birth=yes}  # EST.
+							1605.01.01={birth=yes}  # EST.
 							1648.01.01={death=yes}
 						}
 				illeshazy_0038={ #// D2. [1m.] Katalin, fl 1575
@@ -57946,7 +57925,7 @@ dory_0001={ #// László Dőry de Jobaháza, *ca 1674, +Wien 5.4.1720; m.21.8.17
 			dynasty=1011481
 			religion=catholic culture=hungarian
 			father=dory_0161	# Ádám Dőry de Jobaháza
-			mother=lowborn_0411	# Borbála Zeke de Petőháza
+			mother=lowborn_0412	# Klára Polányi de Polány
 			1772.01.01={birth=yes}  # EST.
 			1803.01.01={death=yes}  # EST.
 		}
@@ -58499,7 +58478,7 @@ bruckenthal_0001={ #// Michael Broeckner (Mihály Bruckenthal), fl 1724; m.Susan
 				dynasty=1011440
 				religion=lutheran culture=german
 				father=bruckenthal_0003	# Michael Bruckenthal
-				mother=lowborn_0303	# RR Zsuzsanna von Rittern
+				mother=lowborn_0304	# GFN Krisztina Teleki de Szék
 				1798.01.01={birth=yes}
 				1874.06.10={death=yes}  # Kolozsvár
 			}
@@ -58508,7 +58487,7 @@ bruckenthal_0001={ #// Michael Broeckner (Mihály Bruckenthal), fl 1724; m.Susan
 				dynasty=1011440
 				religion=lutheran culture=german
 				father=bruckenthal_0003	# Michael Bruckenthal
-				mother=lowborn_0303	# RR Zsuzsanna von Rittern
+				mother=lowborn_0304	# GFN Krisztina Teleki de Szék
 				1804.07.12={birth=yes}
 				1832.08.28={add_spouse=100118809}	# Anna Wesselényi de Hadad
 				1855.02.05={death=yes}  # Kolozsvár
@@ -59029,7 +59008,7 @@ gyulay_0001={ #// Ferenc Gyulay de Marosnémeth et Nádaska, fl 1651
 				dynasty=1011522
 				religion=catholic culture=hungarian
 				father=gyulay_0003	# Ferenc-cr Gyulay de Marosnémeth et Nádaska
-				mother=lowborn_1014	# Klára Barakonyi
+				mother=lowborn_1016	# Mária Kapy de Kapivár
 				1689.01.01={birth=yes}  # EST.
 				1714.01.01={add_spouse=100117779}	# Judit Bánffy de Losoncz
 				1758.10.13={death=yes}
@@ -59158,7 +59137,7 @@ gyulay_0001={ #// Ferenc Gyulay de Marosnémeth et Nádaska, fl 1651
 				dynasty=1011522
 				religion=catholic culture=hungarian
 				father=gyulay_0003	# Ferenc-cr Gyulay de Marosnémeth et Nádaska
-				mother=lowborn_1014	# Klára Barakonyi
+				mother=lowborn_1016	# Mária Kapy de Kapivár
 				1686.01.01={birth=yes}  # EST.
 				1746.12.01={death=yes}  # EST.
 			}
@@ -63632,7 +63611,7 @@ kuun_0050={ #// Antal Kuun de Osdola, fl 1506; m.NN
 								father=kuun_0071	# Miklós Kuun de Osdola
 								mother=100118612	# Katalin Kemény de Magyargyerőmonostor
 								1721.01.01={birth=yes}
-								1753.01.01={add_spouse=100119396}	# Krisztina Rhédey de Kis-Rhéde
+								1740.01.01={add_spouse=100119396}	# Krisztina Rhédey de Kis-Rhéde
 								1763.01.01={add_spouse=lowborn_3823}	# BSS Borbála Szentkereszty de Zágon
 								1774.01.01={death=yes}
 							}
@@ -63763,7 +63742,7 @@ kuun_0050={ #// Antal Kuun de Osdola, fl 1506; m.NN
 									religion=catholic culture=hungarian
 									father=kuun_0073	# László Kuun de Osdola
 									mother=100119396	# Krisztina Rhédey de Kis-Rhéde
-									1749.01.01={birth=yes}  # EST.
+									1748.01.01={birth=yes}  # EST.
 									1790.03.28={death=yes}  # Marosszentkirály
 								}
 								kuun_0087={ #// H4. [1m.] Miklós; m.Bss Júlia Szentkereszty de Zágon, dau.of Baron András Szentkereszty de Zágon by Gfn Mária Korda de Borosjenő
@@ -63772,8 +63751,8 @@ kuun_0050={ #// Antal Kuun de Osdola, fl 1506; m.NN
 									religion=catholic culture=hungarian
 									father=kuun_0073	# László Kuun de Osdola
 									mother=100119396	# Krisztina Rhédey de Kis-Rhéde
-									1757.01.01={birth=yes}  # EST.
-									1783.01.01={add_spouse=lowborn_3879}	# BSS Júlia Szentkereszty de Zágon
+									1741.01.01={birth=yes}  # EST.
+									1759.01.01={add_spouse=lowborn_3879}	# BSS Júlia Szentkereszty de Zágon
 									1817.01.01={death=yes}  # EST.
 								}
 									kuun_0088={ #// I1. Karolina; m.Sámuel Barcsay de Nagybarcsa (*Nagybarcsa 1756, +Nagybarcsa 14.1.1814) $$
@@ -63783,7 +63762,7 @@ kuun_0050={ #// Antal Kuun de Osdola, fl 1506; m.NN
 										religion=catholic culture=hungarian
 										father=kuun_0087	# Miklós Kuun de Osdola
 										mother=lowborn_3879	# BSS Júlia Szentkereszty de Zágon
-										1783.01.01={birth=yes}  # EST.
+										1760.01.01={birth=yes}  # EST.
 										1843.01.01={death=yes}  # EST.
 									}
 						kuun_0089={ #// F2. Katalin; m.Gáspár Kendeffy de Malomvíz
@@ -63906,7 +63885,7 @@ kuun_0001={ #// István Graf Kuun de Osdola, fl 1762; m.Gfn Zsuzsanna Bethlen de
 		mother=100116816	# Zsuzsanna Bethlen de Bethlen
 		1744.01.01={birth=yes}
 		1795.01.01={add_spouse=lowborn_3353}	# Éva Barcsay de Nagybarcsa
-		1810.01.01={add_spouse=lowborn_3540}	# BSS Mária Bánffy de Losoncz
+		1805.01.01={add_spouse=lowborn_3540}	# BSS Mária Bánffy de Losoncz
 		1806.04.25={death=yes}  # Algyógy
 	}
 	kuun_0004={ #// A3. Mária; m.1756 József Máriássy de Márkus- et Batizfalva (*Berzéte 1721, +Berzéte 26.4.1791)
@@ -66878,7 +66857,7 @@ balassa_0001={ #// Gf Zsigmond Balassa de Gyarmat, +1623; m.Krakow 1595 Pss Elis
 			religion=catholic culture=hungarian
 			father=balassa_0002	# András Balassa de Gyarmat
 			mother=lowborn_3583	# Mária Bakos de Osgyán
-			1639.01.01={birth=yes}  # EST.
+			1630.01.01={birth=yes}  # EST.
 			1665.01.01={add_spouse=lowborn_6607}	# Erzsébet Szelényi de Felsőszelény
 			1670.01.01={add_spouse=lowborn_6610}	# Judit Bory de Borfő
 			1709.01.01={death=yes}
@@ -66888,10 +66867,10 @@ balassa_0001={ #// Gf Zsigmond Balassa de Gyarmat, +1623; m.Krakow 1595 Pss Elis
 			dynasty=balassa
 			religion=catholic culture=hungarian
 			father=balassa_0002	# András Balassa de Gyarmat
-			mother=lowborn_3583	# Mária Bakos de Osgyán
+			mother=lowborn_4290	# BSS Ilona Szunyogh de Jeszenicze et Budethin
 			1641.01.01={birth=yes}  # EST.
 			1689.01.01={add_spouse=lowborn_6611}	# Mária Perényi de Perény
-			1700.01.01={death=yes}
+			1700.12.01={death=yes}
 		}
 			balassa_0007={ #// C1. Pál, cr Graf 15.4.1721, Gömöri főispán, Főpohárnokmester, +1770; 1m: Gfn Katalin Zichy de Zich et Vásonkeö; 2m: Gyöngyös 25.12.1732 Gfn Julianna Batthyány de Németújvár (*Gyöngyös 18.3.1715, +Gyöngyös 17.4.1807) $$
 				name=Pál
@@ -66979,7 +66958,7 @@ balassa_0001={ #// Gf Zsigmond Balassa de Gyarmat, +1623; m.Krakow 1595 Pss Elis
 			dynasty=balassa
 			religion=catholic culture=hungarian
 			father=balassa_0002	# András Balassa de Gyarmat
-			mother=lowborn_3583	# Mária Bakos de Osgyán
+			mother=lowborn_4290	# BSS Ilona Szunyogh de Jeszenicze et Budethin
 			1642.01.01={birth=yes}  # EST.
 			1705.01.01={death=yes}
 		}
@@ -67060,7 +67039,7 @@ balassa_0001={ #// Gf Zsigmond Balassa de Gyarmat, +1623; m.Krakow 1595 Pss Elis
 				dynasty=balassa
 				religion=catholic culture=hungarian
 				father=balassa_0031	# Sándor Balassa de Gyarmat
-				mother=lowborn_6627	# Katalin Lengyel de Lengyel-tóti
+				mother=lowborn_6628	# Ilona Beniczky de Benicze et Micsinye
 				1700.03.03={birth=yes}  # Précsin
 				1742.12.25={add_spouse=lowborn_6633}	# Ágnes Steöszel de Rapin
 				1770.01.01={death=yes}  # EST.
@@ -67074,7 +67053,7 @@ balassa_0001={ #// Gf Zsigmond Balassa de Gyarmat, +1623; m.Krakow 1595 Pss Elis
 					1745.08.01={birth=yes}
 					1771.11.05={add_spouse=lowborn_6634}	# Mária Márffy de Szentkirályszabadja
 					1792.02.17={add_spouse=lowborn_6635}	# Magda Dióssy de Tótdiós
-					1801.05.27={add_spouse=lowborn_6636}	# Anna Kiss de Romhány
+					1801.01.01={add_spouse=lowborn_6636}	# Anna Kiss de Romhány
 					1832.07.21={death=yes}  # Kékkő
 				}
 					balassa_0039={ #// E2. [3m.] Magdolna; m.Gf László Andrássy de Csíkszentkirály et Krasznahorka (*1793, +Czigányi 16.2.1874) $$
@@ -67084,7 +67063,7 @@ balassa_0001={ #// Gf Zsigmond Balassa de Gyarmat, +1623; m.Krakow 1595 Pss Elis
 						religion=catholic culture=hungarian
 						father=balassa_0037	# Sándor Balassa de Gyarmat
 						mother=lowborn_6634	# Mária Márffy de Szentkirályszabadja
-						1825.01.01={birth=yes}  # EST.
+						1810.01.01={birth=yes}  # EST.
 						1885.01.01={death=yes}  # EST.
 					}
 					balassa_0041={ #// E4. [3m.] Antal, *Kékkő 1822, +Coppet 17.5.1877; m.1842 Anna Szerencsy de Szigeth (*1824, +Kékkő 11.5.1853), dau.of István Szerencsy de Szigeth
@@ -67141,7 +67120,7 @@ balassa_0001={ #// Gf Zsigmond Balassa de Gyarmat, +1623; m.Krakow 1595 Pss Elis
 				dynasty=balassa
 				religion=catholic culture=hungarian
 				father=balassa_0031	# Sándor Balassa de Gyarmat
-				mother=lowborn_6627	# Katalin Lengyel de Lengyel-tóti
+				mother=lowborn_6628	# Ilona Beniczky de Benicze et Micsinye
 				1701.01.01={birth=yes}  # EST.
 				1727.01.01={add_spouse=lowborn_6642}	# Borbála Schwannenberg
 				1761.01.01={death=yes}  # EST.
@@ -67152,7 +67131,7 @@ balassa_0001={ #// Gf Zsigmond Balassa de Gyarmat, +1623; m.Krakow 1595 Pss Elis
 				dynasty=balassa
 				religion=catholic culture=hungarian
 				father=balassa_0031	# Sándor Balassa de Gyarmat
-				mother=lowborn_6627	# Katalin Lengyel de Lengyel-tóti
+				mother=lowborn_6628	# Ilona Beniczky de Benicze et Micsinye
 				1701.01.01={birth=yes}  # EST.
 				1761.01.01={death=yes}  # EST.
 			}
