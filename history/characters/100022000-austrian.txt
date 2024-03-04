@@ -770,14 +770,14 @@
 				1753.12.01={birth=yes}
 				1832.12.15={death=yes}  # Vienna
 			}
-	100022699={ #// 14a) Johann Anton (1689-1740); m.1723 Maria Antonia Gfn von Rottal (Jan 1703-Litschau 30 Nov 1761)
+	100022699={ #// 14a) Johann Anton (1689-1740); m.1723 Maria Antonia Gfn von Rottal (Jan 1703-Litschau 30 Nov 1761) $$
 		name="Johann Anton"
 		dynasty=1004008
 		religion=catholic culture=french
 		father=100022562	# Hans Georg von Kuefstein
 		mother=100094369	# FRN Anna Franziska von Hocher
 		1689.01.01={birth=yes}
-		1723.01.01={add_spouse=100103107}	# GFN Maria Antonia von Rottal
+		1723.01.01={add_spouse=rottal_0043}	# Maria Antonia von Rottal
 		1740.01.01={death=yes}
 	}
 		100022703={ #// 3b) Johann Anton Maximilian Nepomuk Theophil (3 Nov 1727-Litschau 8 Oct 1757); m.1753 Maria Antonia Gfn von Fünfkirchen (1734-30 Nov 1761) $$
@@ -785,7 +785,7 @@
 			dynasty=1004008
 			religion=catholic culture=french
 			father=100022699	# Johann Anton von Kuefstein
-			mother=100103107	# GFN Maria Antonia von Rottal
+			mother=rottal_0043	# Maria Antonia von Rottal
 			1727.11.03={birth=yes}
 			1753.01.01={add_spouse=100024402}	# Maria Antonia von Fünfkirchen
 			1757.10.08={death=yes}  # Litschau
@@ -1214,7 +1214,7 @@ waltersk_0104={ #// Georg Christof, cr Edler Herr von Walterskirchen, Reichsfrei
 					father=waltersk_0121	# Franz Wilhelm von Walterskirchen
 					mother=lowborn_5373	# Maria Theresia von Feky
 					1729.10.16={birth=yes}
-					1760.01.01={add_spouse=lowborn_5430}	# GFN Eleonora Hrzan von Harras
+					1760.01.01={add_spouse=lowborn_5430}	# GFN Eleonora Hrzán von Harras
 					1778.10.04={death=yes}
 				}
 					waltersk_0166={ #// E1. Karl Josef Georg Christof, fl 1775
@@ -1222,7 +1222,7 @@ waltersk_0104={ #// Georg Christof, cr Edler Herr von Walterskirchen, Reichsfrei
 						dynasty=walterskirchen
 						religion=catholic culture=german
 						father=waltersk_0165	# Johann Wilhelm von Walterskirchen
-						mother=lowborn_5430	# GFN Eleonora Hrzan von Harras
+						mother=lowborn_5430	# GFN Eleonora Hrzán von Harras
 						1762.01.01={birth=yes}  # EST.
 						1800.01.01={death=yes}  # EST.
 					}
@@ -1231,7 +1231,7 @@ waltersk_0104={ #// Georg Christof, cr Edler Herr von Walterskirchen, Reichsfrei
 						dynasty=walterskirchen
 						religion=catholic culture=german
 						father=waltersk_0165	# Johann Wilhelm von Walterskirchen
-						mother=lowborn_5430	# GFN Eleonora Hrzan von Harras
+						mother=lowborn_5430	# GFN Eleonora Hrzán von Harras
 						1764.01.01={birth=yes}  # EST.
 						1820.01.01={death=yes}  # EST.
 					}
@@ -2799,7 +2799,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 		1724.12.31={add_spouse=100022124}	# Maria Antonia von Harrach zu Rohrau u.Thannhausen
 		1781.09.11={death=yes}  # Wien
 	}
-	100022169={ #// A5. Anton, *Wien 12.6.1698, +23.6.1757; 1m: 1728 Juliane Theresia Gfn Berényi de Karancsberény (*Bratislava (Pozsony) 2.10.1705, +Érsekújvár 7.2.1730), dau.of Pál Berényi de Karancsberény and Klára (Éva) Újfalussy de Divékújfalu; 2m: 3.11.1730 Maria Franziska Gfn von Rothal (*Wien 21.2.1712, +Grafenegg 9.1.1769)
+	100022169={ #// A5. Anton, *Wien 12.6.1698, +23.6.1757; 1m: 1728 Juliane Theresia Gfn Berényi de Karancsberény (*Bratislava (Pozsony) 2.10.1705, +Érsekújvár 7.2.1730), dau.of Pál Berényi de Karancsberény and Klára (Éva) Újfalussy de Divékújfalu; 2m: 3.11.1730 Maria Franziska Gfn von Rothal (*Wien 21.2.1712, +Grafenegg 9.1.1769) $$
 		name=Anton
 		dynasty=1004600
 		religion=catholic culture=bavarian
@@ -2807,7 +2807,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 		mother=100091134	# Marie Elisabeth Breunner zu Asparn
 		1698.06.12={birth=yes}  # Wien
 		1728.01.01={add_spouse=100101522}	# GFN Juliane Theresia Berényi de Karancsberény
-		1730.11.03={add_spouse=100101523}	# GFN Maria Franziska von Rothal
+		1730.11.03={add_spouse=rottal_0038}	# Maria Franziska von Rottal
 		1757.06.23={death=yes}
 	}
 		100022149={ #// B4. Maria Antonia, *5.11.1729, +Wiener-Neustadt 19.6.1788; m.5.11.1747 Gf Heinrich von Wurmbrand-Stuppach (*26.3.1716, +Wien 16.12.1759) $$
@@ -2826,7 +2826,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 			dynasty=1004600
 			religion=catholic culture=bavarian
 			father=100022169	# Anton von Breunner
-			mother=100101523	# GFN Maria Franziska von Rothal
+			mother=rottal_0038	# Maria Franziska von Rottal
 			1731.07.28={birth=yes}  # Trnava
 			1799.07.04={death=yes}
 		}
@@ -2835,7 +2835,7 @@ waltersk_0001={ #// GEORG WILHELM Johann Nepomuk Joseph Franz Fidel Edler Herr v
 			dynasty=1004600
 			religion=catholic culture=bavarian
 			father=100022169	# Anton von Breunner
-			mother=100101523	# GFN Maria Franziska von Rothal
+			mother=rottal_0038	# Maria Franziska von Rottal
 			1740.07.30={birth=yes}  # Neuhaus
 			1762.01.01={add_spouse=100026097}	# Maria Josepha von Khevenhüller-Metsch
 			1796.07.17={death=yes}  # Venice
@@ -9925,7 +9925,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						mother=100023272	# Maria Franzisca von Starhemberg
 						1717.12.09={birth=yes}
 						1743.11.04={add_spouse=100001370}	# Marie Gabriele Henckel v.Donnersmarck
-						1749.01.01={add_spouse=100092224}	# GFN Maria Antonia von Rottal
+						1749.01.01={add_spouse=rottal_0048}	# Maria Antonia von Rottal
 						1770.05.13={add_spouse=100092225}	# GFN Maria Josepha von Schrattenbach
 						1772.02.29={death=yes}
 					}
@@ -17545,14 +17545,14 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 						1922.05.23={birth=yes}  # Horn
 						1944.09.05={death=yes}  # Arnheim Netherlands
 					}
-					100023090={ #// E2. Johannes Nepomuk Felix Franz Maria Rudolf Pius Gregor, *Horn 5.5.1923
+					100023090={ #// E2. Johannes Nepomuk Felix Franz Maria Rudolf Pius Gregor, *Horn 5.5.1923, +20. Dezember 2010 in Horn
 						name=Johannes
 						dynasty=1004525
 						religion=catholic culture=bavarian
 						father=100023087	# Rudolf Ernst von Hoyos
 						mother=100047687	# Maria Karoline von Hartig
 						1923.05.05={birth=yes}  # Horn
-						1999.01.01={death=yes}  # EST.
+						2010.12.20={death=yes}  # Horn
 					}
 					100023091={ #// E3. Heinrich Johannes Maria Josef Rudolf Georg Leopold Leonhard, *Horn 6.11.1924, +Gutenstein 20.6.1999; m.Glanegg 11.5.1949 Maria Theresia Frn Mayr von Melnhof (*Glanegg 21.9.1926) $$
 						name=Heinrich
@@ -29986,7 +29986,7 @@ lamberg_0001={ #// Gf Kaspar Friedrich von Lamberg-Kunstadt, Frhr von Ortenegg u
 			1696.07.04={birth=yes}  # Graz
 			1759.09.02={death=yes}
 		}
-		100024645={ #// E3. Maria Cäcilia, *1698, +1743; m.Wien 14.3.1718 Franz Anton Gf von Rottal (+17.2.1763)
+		100024645={ #// E3. Maria Cäcilia, *1698, +1743; m.Wien 14.3.1718 Franz Anton Gf von Rottal (+17.2.1763) $$
 			name="Maria Cäcilia"
 			female=yes
 			dynasty=1004004
@@ -31455,8 +31455,8 @@ trautt_0001={ #// Johann Hartmann von Trauttmannsdorff auf Totzenbach, *1540/41,
 				1670.02.13={birth=yes}
 				1736.08.29={death=yes}
 			}
-			100022723={ #// C5. [1m.] Maximiliana Beatrix, *1672; m.1690 Gf Johann Siegmund von Rottal (+1717)
-				name="Maximiliana Beatrix"
+			100022723={ #// C5. [1m.] Maximiliana Beatrix, *1672; m.1690 Gf Johann Siegmund von Rottal (+1717) $$
+				name="Maximiliana"
 				female=yes
 				dynasty=1004002
 				religion=catholic culture=bavarian
@@ -34045,7 +34045,7 @@ wgraetz_0001={ #// Graf Andreas II von Windisch-Graetz, *1567, +1600; m.Graz 10.
 				1668.05.22={birth=yes}
 				1724.01.01={death=yes}  # in Kloster zu_Neustadt
 			}
-			wgraetz_0023={ #// C4. [2m.] Gf Ernst Friedrich, *Wien 20.6.1670, +St.Peter 6.9.1727; 1m: 29.7.1695 Gfn Maria Theresia Slavata von Chlum und Koschumberg (+28.4.1699); 2m: 17.10.1709 Gfn Theresia Rosalia von Rottal (*1679 +12.1.1753), dau.of Georg Julius Wilhelm von Rottal and Anna Katharina von Rindsmaul
+			wgraetz_0023={ #// C4. [2m.] Gf Ernst Friedrich, *Wien 20.6.1670, +St.Peter 6.9.1727; 1m: 29.7.1695 Gfn Maria Theresia Slavata von Chlum und Koschumberg (+28.4.1699); 2m: 17.10.1709 Gfn Theresia Rosalia von Rottal (*1679 +12.1.1753), dau.of Georg Julius Wilhelm von Rottal and Anna Katharina von Rindsmaul $$
 				name="Ernst Friedrich"
 				dynasty=1004000
 				religion=catholic culture=bavarian
@@ -34053,7 +34053,7 @@ wgraetz_0001={ #// Graf Andreas II von Windisch-Graetz, *1567, +1600; m.Graz 10.
 				mother=100012953	# Maria Eleonora zu Oettingen-Oettingen
 				1670.06.20={birth=yes}  # Wien
 				1695.07.29={add_spouse=lowborn_3192}	# GFN Maria Theresia Slavatová z Chlumu Košumberka
-				1709.10.17={add_spouse=lowborn_3193}	# GFN Theresia Rosalia von Rottal
+				1709.10.17={add_spouse=rottal_0036}	# Theresia Rosalia von Rottal
 				1727.09.06={death=yes}  # Sankt Peter
 			}
 			wgraetz_0033={ #// C13. [3m.] Gf LEOPOLD Victorin Johann Wilhelm, *Regensburg 17.9.1686, +Wien 19.12.1746; m.Hoch- und Burgpfarre, Wien 16.8.1714 Gfn Marie Ernestine zu Strassoldo (*Gorizia 16.1.1695, +Wien 2.7.1766), dau.of Gf Marzio von Strassoldo by Gfn Aurora von Strassoldo-Klingenfels
@@ -34194,7 +34194,7 @@ wgraetz_0001={ #// Graf Andreas II von Windisch-Graetz, *1567, +1600; m.Graz 10.
 			1622.08.11={birth=yes}
 			1684.11.02={death=yes}
 		}
-		wgraetz_0057={ #// B3. Maria Magdalena, *2.7.1625, +1664; 1m: Frhr Zsigmond Balassa de Gyarmat és Kékkö (+before 1654); 2m: Kristof Ocskay
+		wgraetz_0057={ #// B3. Maria Magdalena, *2.7.1625, +1664; 1m: Frhr Zsigmond Balassa de Gyarmat és Kékkö (+before 1654); 2m: Kristof Ocskay $$
 			name="Maria Magdalena"
 			female=yes
 			dynasty=1004000
@@ -35831,7 +35831,7 @@ ungnad_0005={ #// B2. Johann UNGNAD, *1473, +1520; m.Margarethe Lochner von Lieb
 											father=ungnad_0004	# Guidobald Nikolaus Ungnad von Weißenwolff
 											mother=lowborn_4191	# Jadwiga Krasicka
 											1855.01.14={birth=yes}  # Dubiecko
-											1884.01.01={add_spouse=100023013}	# Marietta von Starhemberg
+											1879.01.01={add_spouse=100023013}	# Marietta von Starhemberg
 											1912.10.24={death=yes}  # Steyregg
 										}
 											ungnad_0069={ #// M1. Irena UNGNAD VON WEISSENWOLFF, *Steyregg 1880.09.06, +Bad Ischl 1969 $$
@@ -39288,7 +39288,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 										1684.11.16={add_spouse=herberstein_0393}	# Christina Creszentia von Herberstein
 										1703.08.28={death=yes}  # Graz
 									}
-										herberstein_0472={ #// L5. Maria Magdalene VON HERBERSTEIN, *1688.08.08, +Wien 1763.03.10
+										herberstein_0472={ #// L5. Maria Magdalene VON HERBERSTEIN, *1688.08.08, +Wien 1763.03.10 $$
 											name="Maria Magdalene"
 											female=yes
 											dynasty=herberstein
@@ -39770,7 +39770,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 								father=herberstein_0205	# Wolfgang Sigmund von Herberstein
 								mother=lowborn_5428	# Susanne von Teuffenbach
 								1609.01.01={birth=yes}  # EST.
-								1633.01.01={add_spouse=lowborn_5483}	# Maria Cäcilia von Verdenberg
+								1630.01.01={add_spouse=lowborn_5483}	# Maria Cäcilia von Verdenberg
 								1638.01.01={add_spouse=lowborn_5484}	# Margaretha Susanna von Lucillini
 								1669.01.01={death=yes}  # EST.
 							}
@@ -39779,10 +39779,10 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 									dynasty=herberstein
 									religion=catholic culture=german
 									father=herberstein_0300	# Johann Christoph von Herberstein
-									mother=lowborn_5483	# Maria Cäcilia von Verdenberg
-									1632.01.01={birth=yes}  # EST.
+									mother=lowborn_5484	# Margaretha Susanna von Lucillini
+									1650.01.01={birth=yes}  # EST.
 									1688.07.04={add_spouse=herberstein_0391}	# Maria Cäcilia von Herberstein
-									1692.01.01={death=yes}  # EST.
+									1710.01.01={death=yes}  # EST.
 								}
 								herberstein_0379={ #// J5. Katharina Elisabeth VON HERBERSTEIN; m.Ferdinand von Verdenberg (*1616, +Wien 27.3.1666)
 									name="Katharina Elisabeth"
@@ -39790,8 +39790,8 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 									dynasty=herberstein
 									religion=catholic culture=german
 									father=herberstein_0300	# Johann Christoph von Herberstein
-									mother=lowborn_5484	# Margaretha Susanna von Lucillini
-									1633.01.01={birth=yes}  # EST.
+									mother=lowborn_5483	# Maria Cäcilia von Verdenberg
+									1631.01.01={birth=yes}  # EST.
 									1693.01.01={death=yes}  # EST.
 								}
 							herberstein_0309={ #// I9. Susanna Elisabeth VON HERBERSTEIN; m.Giulio Cesare Nigrelli
@@ -42114,6 +42114,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 							female=yes
 							dynasty=herberstein
 							religion=catholic culture=german
+							trait=legitimized_bastard
 							father=herberstein_0110	# Bernhardin von Herberstein
 							mother=100010952	# Constantia Fugger
 							1589.05.29={birth=yes}
@@ -42126,7 +42127,7 @@ herberstein_0009={ #// B3. Otto VON HERBERSTEIN, *1360, +1405; m.Elisabeth von H
 							religion=catholic culture=german
 							father=herberstein_0110	# Bernhardin von Herberstein
 							mother=lowborn_5364	# Margarita di Valmarana
-							1596.01.01={birth=yes}  # EST.
+							1599.01.01={birth=yes}  # EST.
 							1651.01.01={death=yes}
 						}
 							herberstein_0267={ #// I1. Maria Elisabeth VON WAGEN ZU WAGENSPERG, *1626, +1700; m.11.4.1644 Wolfgang Rudolf zu Saurau (*20.11.1618, +24.4.1664)
@@ -44433,3 +44434,391 @@ eggenberg_0001={ #// Hans Ulrich Eckenberger, Stadtrichter zu Graz 1432, +22.5.1
 						1649.01.01={death=yes}
 					}
 ## EGGENBERG
+
+
+## ROTTAL
+rottal_0001={ #// Wilhelm VON ROTTAL; m.Sybilla von Kindberg
+	name=Wilhelm
+	dynasty=rottal
+	religion=catholic culture=german
+	1479.01.01={birth=yes}  # EST.
+	1516.01.01={add_spouse=lowborn_0603}	# Sybilla von Kindberg
+	1539.01.01={death=yes}  # EST.
+}
+	rottal_0003={ #// A1. Johann VON ROTTAL, +1587.01.01; m.Katharina Kauger
+		name=Johann
+		dynasty=rottal
+		religion=catholic culture=german
+		father=rottal_0001	# Wilhelm von Rottal
+		mother=lowborn_0603	# Sybilla von Kindberg
+		1519.01.01={birth=yes}  # EST.
+		1546.01.01={add_spouse=lowborn_0633}	# Katharina Kauger
+		1587.01.01={death=yes}
+	}
+		rottal_0009={ #// B2. Johann Jacob VON ROTTAL, +1622.01.01; m.1.1.1600 Mária Thurzó de Bethlenfalva (+1629)
+			name="Johann Jacob"
+			dynasty=rottal
+			religion=catholic culture=german
+			father=rottal_0003	# Johann von Rottal
+			mother=lowborn_0633	# Katharina Kauger
+			1558.01.01={birth=yes}  # EST.
+			1600.01.01={add_spouse=lowborn_1475}	# Mária Thurzó de Bethlenfalva
+			1622.01.01={death=yes}
+		}
+			rottal_0022={ #// C1. Andreas VON ROTTAL, +1662.01.01
+				name=Andreas
+				dynasty=rottal
+				religion=catholic culture=german
+				father=rottal_0009	# Johann Jacob von Rottal
+				mother=lowborn_1475	# Mária Thurzó de Bethlenfalva
+				1601.01.01={birth=yes}  # EST.
+				1662.01.01={death=yes}
+			}
+			rottal_0021={ #// C4. Johann Anton VON ROTTAL, *1605, +Wien 1674.12.19; m.1st Helena Bruntálská z Vrbna (+1651); m.2nd Praha 8.9.1652 Anna Marie ze Šternberka (+1654)
+				name="Johann Anton"
+				dynasty=rottal
+				religion=catholic culture=german
+				father=rottal_0009	# Johann Jacob von Rottal
+				mother=lowborn_1475	# Mária Thurzó de Bethlenfalva
+				1605.01.01={birth=yes}
+				1628.01.01={add_spouse=lowborn_5142}	# Helena Bruntálská z Vrbna
+				1652.09.08={add_spouse=lowborn_5853}	# Anna Marie ze Šternberka
+				1674.12.19={death=yes}  # Wien
+			}
+				rottal_0027={ #// D1. Marie Eleonora Brüx VON ROTTAL, *1629, +1670.01.01; m.Brno (=Brünn) 10.10.1650 Ferdinand Arnošt z Valdštejna (*1624, +Praha 20.2.1657) $$
+					name="Marie Eleonora"
+					female=yes
+					dynasty=rottal
+					religion=catholic culture=german
+					father=rottal_0021	# Johann Anton von Rottal
+					1629.01.01={birth=yes}
+					1670.01.01={death=yes}
+				}
+			rottal_0020={ #// C5. Katharina VON ROTTAL, +1643.01.01; m.Ferenc Sándor de Szlavnicza
+				name=Katharina
+				female=yes
+				dynasty=rottal
+				religion=catholic culture=german
+				father=rottal_0009	# Johann Jacob von Rottal
+				mother=lowborn_1475	# Mária Thurzó de Bethlenfalva
+				1607.01.01={birth=yes}  # EST.
+				1643.01.01={death=yes}
+			}
+			rottal_0019={ #// C8. Susanna VON ROTTAL, +1653.01.01; m.Julius Fitter
+				name=Susanna
+				female=yes
+				dynasty=rottal
+				religion=catholic culture=german
+				father=rottal_0009	# Johann Jacob von Rottal
+				mother=lowborn_1475	# Mária Thurzó de Bethlenfalva
+				1613.01.01={birth=yes}  # EST.
+				1653.01.01={death=yes}
+			}
+		rottal_0011={ #// B3. Johann Josef VON ROTTAL, +1633.01.01
+			name="Johann Josef"
+			dynasty=rottal
+			religion=catholic culture=german
+			father=rottal_0003	# Johann von Rottal
+			mother=lowborn_0633	# Katharina Kauger
+			1561.01.01={birth=yes}  # EST.
+			1633.01.01={death=yes}
+		}
+		rottal_0012={ #// B4. Johann Wilhelm VON ROTTAL, +1603.01.01; m.Maria Anna von Apfaltern
+			name="Johann Wilhelm"
+			dynasty=rottal
+			religion=catholic culture=german
+			father=rottal_0003	# Johann von Rottal
+			mother=lowborn_0633	# Katharina Kauger
+			1560.01.01={birth=yes}  # EST.
+			1586.01.01={add_spouse=lowborn_1777}	# Maria Anna von Apfaltern
+			1603.01.01={death=yes}
+		}
+			rottal_0023={ #// C1. Balthasar Christoph VON ROTTAL, +1623.01.01
+				name="Balthasar Christoph"
+				dynasty=rottal
+				religion=catholic culture=german
+				father=rottal_0012	# Johann Wilhelm von Rottal
+				mother=lowborn_1777	# Maria Anna von Apfaltern
+				1587.01.01={birth=yes}  # EST.
+				1623.01.01={death=yes}
+			}
+			rottal_0024={ #// C2. Johann Georg VON ROTTAL, +1622.01.01
+				name="Johann Georg"
+				dynasty=rottal
+				religion=catholic culture=german
+				father=rottal_0012	# Johann Wilhelm von Rottal
+				mother=lowborn_1777	# Maria Anna von Apfaltern
+				1588.01.01={birth=yes}  # EST.
+				1622.01.01={death=yes}
+			}
+	rottal_0002={ #// A2. Wilhelm der alter VON ROTTAL, +1603.01.01; m.Barbara von Trauttmansdorff
+		name=Wilhelm
+		dynasty=rottal
+		religion=catholic culture=german
+		father=rottal_0001	# Wilhelm von Rottal
+		mother=lowborn_0603	# Sybilla von Kindberg
+		1534.01.01={birth=yes}  # EST.
+		1559.01.01={add_spouse=lowborn_0632}	# Barbara von Trauttmansdorff
+		1603.01.01={death=yes}
+	}
+		rottal_0007={ #// B2. Georg Christoph VON ROTTAL, +1603.01.01; m.Maria Magdalena von Teuffenbach
+			name="Georg Christoph"
+			dynasty=rottal
+			religion=catholic culture=german
+			father=rottal_0002	# Wilhelm von Rottal
+			mother=lowborn_0632	# Barbara von Trauttmansdorff
+			1560.01.01={birth=yes}  # EST.
+			1585.01.01={add_spouse=lowborn_1456}	# Maria Magdalena von Teuffenbach
+			1603.01.01={death=yes}
+		}
+			rottal_0014={ #// C1. Georg Ehrenreich VON ROTTAL, +1656.01.01
+				name="Georg Ehrenreich"
+				dynasty=rottal
+				religion=catholic culture=german
+				father=rottal_0007	# Georg Christoph von Rottal
+				mother=lowborn_1456	# Maria Magdalena von Teuffenbach
+				1586.01.01={birth=yes}  # EST.
+				1656.01.01={death=yes}
+			}
+			rottal_0013={ #// C2. Georg Julius VON ROTTAL, +1657.01.01; m.1.1.1630 Anna Eleonora Galler von Schwamberg (+1676)
+				name="Georg Julius"
+				dynasty=rottal
+				religion=catholic culture=german
+				father=rottal_0007	# Georg Christoph von Rottal
+				mother=lowborn_1456	# Maria Magdalena von Teuffenbach
+				1587.01.01={birth=yes}  # EST.
+				1630.01.01={add_spouse=lowborn_1792}	# Anna Eleonora Galler von Schwamberg
+				1657.01.01={death=yes}
+			}
+				rottal_0025={ #// D1. Johann Christoph VON ROTTAL, *1635; m.1st Marie Isabela z Eibeswaldu; m.2nd Wien 30.9.1681 Marie Zuzana z Kufštejna (*Wien 17.10.1647, +Wien 11.7.1716)
+					name="Johann Christoph"
+					dynasty=rottal
+					religion=catholic culture=german
+					father=rottal_0013	# Georg Julius von Rottal
+					mother=lowborn_1792	# Anna Eleonora Galler von Schwamberg
+					1635.01.01={birth=yes}
+					1661.01.01={add_spouse=lowborn_6427}	# Marie Isabela von Eibiswald
+					1681.09.30={add_spouse=lowborn_6645}	# Marie Zuzana von Kufstein
+					1705.01.01={death=yes}  # EST.
+				}
+					rottal_0033={ #// E1. Františka VON ROTTAL, +1704.01.01
+						name=Františka
+						female=yes
+						dynasty=rottal
+						religion=catholic culture=german
+						father=rottal_0025	# Johann Christoph von Rottal
+						mother=lowborn_6645	# Marie Zuzana von Kufstein
+						1668.01.01={birth=yes}  # EST.
+						1704.01.01={death=yes}
+					}
+					rottal_0029={ #// E2. Johann Siegmund VON ROTTAL, +1717.12.07; m.1.1.1690 Maria Maximiliana von Liechtenstein (*14.1.1672, +1741) $$
+						name="Johann Siegmund"
+						dynasty=rottal
+						religion=catholic culture=german
+						father=rottal_0025	# Johann Christoph von Rottal
+						mother=lowborn_6427	# Marie Isabela von Eibiswald
+						1669.01.01={birth=yes}  # EST.
+						1690.01.01={add_spouse=100022723}	# Maximiliana von Liechtenstein
+						1717.12.07={death=yes}
+					}
+						rottal_0040={ #// F1. Franz Anton VON ROTTAL, *1691, +1762.10.26; m.1st Wien 14.3.1718 Maria Cäcilia von Trauttmansdorff (*1698, +1743); m.2nd 1.1.1752 Maria Theresia von Wienern $$
+							name="Franz Anton"
+							dynasty=rottal
+							religion=catholic culture=german
+							father=rottal_0029	# Johann Siegmund von Rottal
+							mother=100022723	# Maximiliana von Liechtenstein
+							1691.01.01={birth=yes}
+							1718.03.14={add_spouse=100024645}	# Maria Cäcilia von Trauttmansdorff-Weinsberg
+							1752.01.01={add_spouse=lowborn_7346}	# Maria Theresia von Wienern
+							1762.10.26={death=yes}
+						}
+							rottal_0048={ #// G1. Maria Antonia VON ROTTAL, *1717.11.19, +1767.01.16; m.1.1.1749 Guidobald Joseph von Dietrichstein $$
+								name="Maria Antonia"
+								female=yes
+								dynasty=rottal
+								religion=catholic culture=german
+								father=rottal_0040	# Franz Anton von Rottal
+								mother=100024645	# Maria Cäcilia von Trauttmansdorff-Weinsberg
+								1717.11.19={birth=yes}
+								1767.01.16={death=yes}
+							}
+							rottal_0049={ #// G2. Maria Amalia Anna Cäcilia VON ROTTAL, *1719, +1798.01.01; m.Giovanni della Rovere
+								name="Maria Amalia"
+								female=yes
+								dynasty=rottal
+								religion=catholic culture=german
+								father=rottal_0040	# Franz Anton von Rottal
+								mother=100024645	# Maria Cäcilia von Trauttmansdorff-Weinsberg
+								1719.01.01={birth=yes}
+								1798.01.01={death=yes}
+							}
+							rottal_0050={ #// G3. Theresia  VON ROTTAL, *1721.02.28, +1756.07.28; m.Ferenc Nádasdy de Nádasd et Fogarasföld (*Radgona,Steyer 30.9.1709, +Karlovac 22.3.1783) $$
+								name="Maximiliana Eleonore Theresia"
+								female=yes
+								dynasty=rottal
+								religion=catholic culture=german
+								father=rottal_0040	# Franz Anton von Rottal
+								mother=100024645	# Maria Cäcilia von Trauttmansdorff-Weinsberg
+								1721.02.28={birth=yes}
+								1756.07.28={death=yes}
+							}
+						rottal_0043={ #// F3. Maria Antonia VON ROTTAL, +Litschau 1761.11.30; m.1.1.1722 Jan Antonín z Kufštejna (*12.6.1688, +21.3.1740) $$
+							name="Maria Antonia"
+							female=yes
+							dynasty=rottal
+							religion=catholic culture=german
+							father=rottal_0029	# Johann Siegmund von Rottal
+							mother=100022723	# Maximiliana von Liechtenstein
+							1694.01.01={birth=yes}  # EST.
+							1761.11.30={death=yes}  # Litschau
+						}
+						rottal_0041={ #// F4. Maria Josepha VON ROTTAL, *1696, +1763.01.01; m.1.1.1728 Julius Hamilton (+Wien 13.7.1759)
+							name="Maria Josepha"
+							female=yes
+							dynasty=rottal
+							religion=catholic culture=german
+							father=rottal_0029	# Johann Siegmund von Rottal
+							mother=100022723	# Maximiliana von Liechtenstein
+							1696.01.01={birth=yes}
+							1763.01.01={death=yes}
+						}
+						rottal_0042={ #// F5. Maria Eleonora VON ROTTAL, *1697, +1732.01.01
+							name="Maria Eleonora"
+							female=yes
+							dynasty=rottal
+							religion=catholic culture=german
+							father=rottal_0029	# Johann Siegmund von Rottal
+							mother=100022723	# Maximiliana von Liechtenstein
+							1697.01.01={birth=yes}
+							1732.01.01={death=yes}
+						}
+					rottal_0028={ #// E3. Josef Johann VON ROTTAL, +1741.01.01; m.Maria Antonia von Enckevoirt
+						name="Josef Johann"
+						dynasty=rottal
+						religion=catholic culture=german
+						father=rottal_0025	# Johann Christoph von Rottal
+						mother=lowborn_6427	# Marie Isabela von Eibiswald
+						1674.01.01={birth=yes}  # EST.
+						1711.01.01={add_spouse=lowborn_7275}	# Maria Antonia von Enckevoirt
+						1741.01.01={death=yes}
+					}
+						rottal_0038={ #// F1. Maria Franziska Josepha VON ROTTAL, *Wien 1712.02.21, +Grafenegg 1769.01.09; m.3.11.1730 Anton von Breuner (*St.Stefan, Wien 14.6.1698, +Wiener Neustadt, buried in Und bei Krems, Niederösterreich, Austria 16.3.1753) $$
+							name="Maria Franziska"
+							female=yes
+							dynasty=rottal
+							religion=catholic culture=german
+							father=rottal_0028	# Josef Johann von Rottal
+							mother=lowborn_7275	# Maria Antonia von Enckevoirt
+							1712.02.21={birth=yes}  # Wien
+							1769.01.09={death=yes}  # Grafenegg
+						}
+					rottal_0032={ #// E4. Leopold Ferdinand VON ROTTAL, +Praha 1750.09.05; m.1.1.1715 Marie Terezie Paar (*Wien 3.6.1683, +30.7.1766) $$
+						name="Leopold Ferdinand"
+						dynasty=rottal
+						religion=catholic culture=german
+						father=rottal_0025	# Johann Christoph von Rottal
+						mother=lowborn_6645	# Marie Zuzana von Kufstein
+						1680.01.01={birth=yes}  # EST.
+						1715.01.01={add_spouse=100023958}	# Maria Theresia von Paar
+						1750.09.05={death=yes}  # Praha
+					}
+					rottal_0034={ #// E5. Maria Antonia Susanna Elisabeth VON ROTTAL, *Graz 1687.05.25, +Wien 1761.11.05; m.Wien 28.2.1706 František Kottulinský z Kotulína (*28.3.1674, +Praha 3.10.1748)
+						name="Maria Antonia"
+						female=yes
+						dynasty=rottal
+						religion=catholic culture=german
+						father=rottal_0025	# Johann Christoph von Rottal
+						mother=lowborn_6645	# Marie Zuzana von Kufstein
+						1687.05.25={birth=yes}  # Graz
+						1761.11.05={death=yes}  # Wien
+					}
+					rottal_0030={ #// E6. Maria Eleonora VON ROTTAL, +1710.01.01; m.1st Kristian Mikuláš z Prancku; m.2nd Jan Josef ze Stainpeissu
+						name="Maria Eleonora"
+						female=yes
+						dynasty=rottal
+						religion=catholic culture=german
+						father=rottal_0025	# Johann Christoph von Rottal
+						mother=lowborn_6427	# Marie Isabela von Eibiswald
+						1689.01.01={birth=yes}  # EST.
+						1710.01.01={death=yes}
+					}
+				rottal_0026={ #// D2. Georg Julius Wilhelm VON ROTTAL, *1637, +1691.05.26; m.1st Wien 1.1.1675 Anna von Rindsmaul (*9.8.1658, +11.10.1684); m.2nd Graz 1.9.1687 Maria Franziska von Thürheim (*20.1.1660, +Wien 11.4.1706)
+					name=Georg
+					dynasty=rottal
+					religion=catholic culture=german
+					father=rottal_0013	# Georg Julius von Rottal
+					mother=lowborn_1792	# Anna Eleonora Galler von Schwamberg
+					1637.01.01={birth=yes}
+					1675.01.01={add_spouse=lowborn_7152}	# Anna von Rindsmaul
+					1687.09.01={add_spouse=lowborn_7222}	# Maria Franziska von Thürheim
+					1691.05.26={death=yes}
+				}
+					rottal_0036={ #// E2. Theresia Rosalia VON ROTTAL, *1679, +1753.01.12; m.1st 11.11.1699 Johann Josef von Fünfkirchen (*1677, +31.5.1708); m.2nd 17.10.1709 Ernst Friedrich von Windisch-Grätz (*Wien 20.6.1670, +St.Peter 6.9.1727) $$
+						name="Theresia Rosalia"
+						female=yes
+						dynasty=rottal
+						religion=catholic culture=german
+						father=rottal_0026	# Georg von Rottal
+						1679.01.01={birth=yes}
+						1753.01.12={death=yes}
+					}
+					rottal_0037={ #// E3. Franz Wilhelm Helfried VON ROTTAL, *Graz, christened 1683.02.09, +Holešov, buried in Holešov 1709.11.19; m.Graz 1.1.1706 Maria Magdalene von Herberstein (*8.8.1688, +Wien 10.3.1763) $$
+						name=Franz
+						dynasty=rottal
+						religion=catholic culture=german
+						father=rottal_0026	# Georg von Rottal
+						1683.02.09={birth=yes}  # Graz, christened
+						1706.01.01={add_spouse=herberstein_0472}	# Maria Magdalene von Herberstein
+						1709.11.19={death=yes}  # Holešov, buried in Holešov
+					}
+						rottal_0045={ #// F2. Joachim Adam VON ROTTAL, *Wien 1708.02.13, +Kvasice, buried in Kvasice 1746.09.23; m.Praha 17.8.1732 Marie Josefa ze Šternberka (*12.6.1710, +Wien, buried in Kvasice 7.8.1769) $$
+							name="Joachim Adam"
+							dynasty=rottal
+							religion=catholic culture=german
+							father=rottal_0037	# Franz von Rottal
+							mother=herberstein_0472	# Maria Magdalene von Herberstein
+							1708.02.13={birth=yes}  # Wien
+							1732.08.17={add_spouse=100047473}	# "Marie Josefa ze Šternberka
+							1746.09.23={death=yes}  # Kvasice
+						}
+							rottal_0052={ #// G1. Marie Anna  VON ROTTAL, *1734, +1795.10.11; m.14.6.1758 Franz Adam von Lamberg-Stein-Guttenberg (*3.8.1730, +Ljubljana 13.5.1803)
+								name="Marie Anna"
+								female=yes
+								dynasty=rottal
+								religion=catholic culture=german
+								father=rottal_0045	# Joachim Adam von Rottal
+								mother=100047473	# "Marie Josefa ze Šternberka
+								1734.01.01={birth=yes}
+								1795.10.11={death=yes}
+							}
+							rottal_0053={ #// G2. Marie Josefa VON ROTTAL, *1735.05.11, +Graz 1808.11.10; m.Wien 8.6.1756 Heinrich Joseph von Auersperg (*Graz 10.3.1721, +Graz 27.7.1793) $$
+								name="Josefa"
+								female=yes
+								dynasty=rottal
+								religion=catholic culture=german
+								father=rottal_0045	# Joachim Adam von Rottal
+								mother=100047473	# "Marie Josefa ze Šternberka
+								1735.05.11={birth=yes}
+								1808.11.10={death=yes}  # Graz
+							}
+							rottal_0054={ #// G3. Marie Theresie VON ROTTAL, *Wien 1742.01.19, +Wien 1777.09.08; m.9.6.1763 Johann von Khevenhüller-Metsch (*Regensburg 3.7.1737, +Wien 23.12.1797)
+								name="Marie Theresie"
+								female=yes
+								dynasty=rottal
+								religion=catholic culture=german
+								father=rottal_0045	# Joachim Adam von Rottal
+								mother=100047473	# "Marie Josefa ze Šternberka
+								1742.01.19={birth=yes}  # Wien
+								1777.09.08={death=yes}  # Wien
+							}
+						rottal_0046={ #// F4. Marianna VON ROTTAL, *1709.01.17, +1765.01.30; m.1.1.1733 Johann-Baptist von Dietrichstein (*6.1.1710, +10.1.1744)
+							name=Marianna
+							female=yes
+							dynasty=rottal
+							religion=catholic culture=german
+							father=rottal_0037	# Franz von Rottal
+							mother=herberstein_0472	# Maria Magdalene von Herberstein
+							1709.01.17={birth=yes}
+							1765.01.30={death=yes}
+						}
+## ROTTAL

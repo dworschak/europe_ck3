@@ -115,6 +115,14 @@
 	1527.01.01={birth=yes}
 	1563.04.04={death=yes}
 }
+100103069={ #    Pss        Maria Fernanda            Lante della Rovere                       (1722-1797)     0 [CROY]
+	name="Maria Fernanda Lante della Rovere"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=french
+	1722.01.01={birth=yes}  # EST.
+	1797.01.01={death=yes}  # EST.
+}
 100100245={ #               Federico Ubaldo           della Rovere                             (1605-1623)     - [MEDICI]
 	name="Federico Ubaldo della Rovere"
 	#dynasty=0
@@ -138,6 +146,14 @@
 	1490.03.22={birth=yes}
 	1507.01.01={add_spouse=100072510}	# Eleonora Gonzaga
 	1538.10.21={death=yes}
+}
+lowborn_7359={ #            Giovanni Giacomo          della Rovere-Montelabate                 (1710-1795)     1 [ROTAL]
+	name="Giovanni Giacomo della Rovere"
+	#dynasty=0
+	religion=catholic culture=german
+	1710.01.01={birth=yes}
+	1736.01.01={add_spouse=rottal_0049}	# Maria Amalia von Rottal
+	1795.01.01={death=yes}
 }
 100088697={ #    Duke       Guidobaldo                della Rovere di Urbino                   (1514-1574)     - [FARNESE]
 	name="Guidobaldo della Rovere di Urbino"
@@ -168,6 +184,8 @@ lowborn_2726={ # Gfn        Maria Walpurga            della Rovere-Montelabate  
 	name="Maria Walpurga della Rovere-Montelabate"
 	female=yes
 	religion=catholic culture=german
+	father=lowborn_7359	# Giovanni Giacomo della Rovere-Montelabate
+	mother=rottal_0049	# Maria Amalia von Rottal
 	1737.02.03={birth=yes}
 	1787.04.26={death=yes}
 }
@@ -1614,12 +1632,12 @@ lowborn_2650={ #            Ercole                    d'Este Signore di San Mart
 	1491.01.01={add_spouse=sforza_0017}	# Angela Sforza
 	1514.01.01={death=yes}
 }
-lowborn_2660={ # Pss        Beatrice                  d'Este di Ferrara                        (1475-1475)     2 [SFORZA]
+lowborn_2660={ # Pss        Beatrice                  d'Este di Ferrara                        (1475-1510)     2 [SFORZA]
 	name="Beatrice d'Este di Ferrara"
 	female=yes
 	religion=catholic culture=italian
 	1475.06.29={birth=yes}  # Ferrara
-	1475.01.02={death=yes}  # Milano
+	1510.01.01={death=yes}  # Milano
 }
 100101008={ #    Marchese   Francesco Filippo         d'Este di Lanzo                          (1620-1652)     - [SAVOIE]
 	name="Francesco Filippo d'Este di Lanzo"
@@ -8161,7 +8179,7 @@ lowborn_2399={ # Marquess   Guido                     Mazzenta                  
 	name="Guido Mazzenta"
 	religion=catholic culture=italian
 	1747.01.01={birth=yes}  # EST.
-	1771.01.01={add_spouse=melzi_0072}	# Maria Teresa Melzi
+	1768.01.01={add_spouse=melzi_0072}	# Maria Teresa Melzi
 	1807.01.01={death=yes}  # EST.
 }
 100088182={ #    Pr         Antonio                   Moncada di Paterno                       (1958-    )     - [RADZIWIL]
@@ -9104,7 +9122,15 @@ lowborn_3984={ # Gfn        Maria Anna                Mamucca della Torre       
 	#dynasty=0
 	religion=catholic culture=hungarian
 	1683.01.01={birth=yes}
-	1713.08.01={death=yes}  # Jawarow Poland
+	1713.08.01={death=yes}  # Jawarow, Poland
+}
+lowborn_5487={ #            Giulio Cesare             Nigrelli                                 (1611-1671)     - [HERBERSTEIN]
+	name="Giulio Cesare Nigrelli"
+	#dynasty=0
+	religion=catholic culture=german
+	1611.01.01={birth=yes}  # EST.
+	1635.01.01={add_spouse=herberstein_0309}	# Susanna Elisabeth von Herberstein
+	1671.01.01={death=yes}  # EST.
 }
 100103973={ #    Gf         Bernard Franz             Paradis de Lasaga                        (1639-1709)     - [WRATISLAV]
 	name="Bernard Franz Paradis de Lasaga"
@@ -10237,7 +10263,7 @@ lowborn_2422={ #            Pietro Paolo              Corbella                  
 	#dynasty=0
 	religion=orthodox culture=italian
 	1831.01.01={birth=yes}
-	1856.01.01={add_spouse=100016171}	# Leonilla Михайловна Голицын
+	1856.01.01={add_spouse=100016171}	# Леонилла Михайловна Голицын
 	1876.04.08={death=yes}
 }
 lowborn_2137={ #            Anna                      Corradi                                  (1764-1812)     1 [GONZAGA]
@@ -12529,5 +12555,13 @@ lowborn_7155={ # Frn        Friederike                di Casalanza von Bianchi  
 	religion=lutheran culture=german
 	1855.04.19={birth=yes}  # Venice
 	1924.01.11={death=yes}  # Vienna
+}
+lowborn_5828={ #            Luisa Anna                Montecuccoli                             (1640-1700)     0 [BERK]
+	name="Luisa Anna Montecuccoli"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=czech
+	1640.01.01={birth=yes}  # EST.
+	1700.01.01={death=yes}  # EST.
 }
 

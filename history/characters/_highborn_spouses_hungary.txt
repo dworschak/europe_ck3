@@ -567,12 +567,12 @@ lowborn_5394={ # Bss        Eleonora                  Perenyi                   
 	1578.01.01={birth=yes}  # EST.
 	1606.02.12={death=yes}
 }
-lowborn_0142={ #            Margit                    Perényi de Perény                        (1600-1660)     0 [BANFY]
+lowborn_0142={ #            Margit                    Perényi de Perény                        (1550-1600)     0 [BANFY]
 	name="Margit Perényi de Perény"
 	female=yes
 	religion=catholic culture=hungarian
-	1600.01.01={birth=yes}  # EST.
-	1660.12.01={death=yes}  # EST.
+	1550.01.01={birth=yes}  # EST.
+	1600.12.01={death=yes}  # EST.
 }
 lowborn_6668={ #            Ferenc                    Perényi de Perény                        (1607-1651)     - [WESELENYI]
 	name="Ferenc Perényi de Perény"
@@ -856,14 +856,14 @@ lowborn_0189={ #            József                    Huszár                  
 	name="József Huszár"
 	religion=catholic culture=hungarian
 	1742.01.01={birth=yes}
-	1771.01.01={add_spouse=perenyi_0019}	# Mária Perényi de Perény
+	1770.01.01={add_spouse=perenyi_0019}	# Mária Perényi de Perény
 	1818.01.01={death=yes}
 }
 100099784={ #    Baron      József                    Huszár                                   (1751-1826)     - [MIKES]
 	name="József Huszár"
 	religion=catholic culture=hungarian
 	1751.01.01={birth=yes}
-	1771.01.01={add_spouse=100119567}	# Katalin Mikes de Zabola
+	1773.01.01={add_spouse=100119567}	# Katalin Mikes de Zabola
 	1826.01.01={death=yes}  # EST.
 }
 100097489={ #    Baron      Mihály                    Huszár                                   (1819-1847)     - [BETHLEN]
@@ -3232,6 +3232,14 @@ lowborn_0110={ # Gfn        Ilona                     Thurzó de Bethlenfalva   
 	1621.02.20={birth=yes}
 	1642.07.04={death=yes}  # Lakompak
 }
+lowborn_1475={ #            Mária                     Thurzó de Bethlenfalva                   (1579-1629)     4 [ROTAL]
+	name="Mária Thurzó de Bethlenfalva"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1579.01.01={birth=yes}  # EST.
+	1629.01.01={death=yes}
+}
 
 lowborn_4010={ #            Klára                     Dániel                                   (1654-1714)     0 [DANIEL]
 	name="Klára Dániel"
@@ -3805,7 +3813,7 @@ lowborn_0470={ #            Éva                       Jeszenszky de Kisjeszen  
 	1923.02.26={birth=yes}
 	1999.01.01={death=yes}  # EST.
 }
-lowborn_0378={ #            Mária                     Jeszenszky de Nagy-Jeszen                (1773-1800)     4 [DORY]
+lowborn_0378={ #            Mária                     Jeszenszky de Nagy-Jeszen                (1773-1800)     2 [DORY]
 	name="Mária Jeszenszky de Nagy-Jeszen"
 	female=yes
 	religion=catholic culture=hungarian
@@ -4235,7 +4243,7 @@ lowborn_4198={ #            Sándor                    Kiss de Nemeskér        
 	1955.01.01={remove_spouse=esterhazy_0061}
 	1958.04.04={death=yes}
 }
-lowborn_6636={ #            Anna                      Kiss de Romhány                          (1805-1856)     1 [RAGALI]
+lowborn_6636={ #            Anna                      Kiss de Romhány                          (1805-1856)     3 [RAGALI]
 	name="Anna Kiss de Romhány"
 	female=yes
 	#dynasty=0
@@ -4661,14 +4669,6 @@ lowborn_4237={ # Bss        Teréz                     Balassa de Gyarmat       
 	religion=catholic culture=hungarian
 	1689.01.01={birth=yes}  # EST.
 	1749.01.01={death=yes}  # EST.
-}
-lowborn_3210={ # Frhr       Zsigmond                  Balassa de Gyarmat et Kékkeö             (1624-1654)     - [WINDISCH]
-	name="Zsigmond Balassa de Gyarmat et Kékkeö"
-	#dynasty=0
-	religion=catholic culture=german
-	1624.01.01={birth=yes}  # EST.
-	1648.01.01={add_spouse=wgraetz_0057}	# Maria Magdalena von Windisch-Graetz
-	1654.01.01={death=yes}  # before
 }
 100100737={ #    Bss        Emerencia                 Balassa de Gyarmat et Kékkeö             (1630-1700)     1 [ESTERHAZY]
 	name="Emerencia Balassa de Gyarmat et Kékkeö"
@@ -5098,14 +5098,15 @@ lowborn_0267={ #            Júlia                     Sándor de Szlavnicza    
 	1759.04.28={birth=yes}  # Pest
 	1832.01.01={death=yes}
 }
-
-100080132={ #    Frhr       Ludwig                    Ambrózy                                  (1843-1916)     - [ERDODY]
-	name="Ludwig Ambrózy"
-	religion=catholic culture=hungarian
-	1843.01.01={birth=yes}
-	1868.06.01={add_spouse=100117068}	# Agathe Erdődy de Monyorókerék et Monoszló
-	1916.01.01={death=yes}  # EST.
+lowborn_5014={ #            Ferenc                    Sándor de Szlavnicza                     (1605-1665)     - [ROTAL]
+	name="Ferenc Sándor de Szlavnicza"
+	#dynasty=0
+	religion=catholic culture=german
+	1605.01.01={birth=yes}  # EST.
+	1629.01.01={add_spouse=rottal_0020}	# Katharina von Rottal
+	1665.01.01={death=yes}  # EST.
 }
+
 100099853={ #               Teréz                     Ambrózy de Séden                         (1882-1972)     3 [HALER]
 	name="Teréz Ambrózy de Séden"
 	female=yes
@@ -6318,12 +6319,12 @@ lowborn_0194={ # Gfn        Krisztina                 Drugeth de Homonna        
 	1726.01.01={death=yes}
 }
 
-lowborn_5116={ #            Erzsébet                  Gyürky de Losoncz                        (1799-1843)     5 [AMBROZY]
+lowborn_5116={ #            Erzsébet                  Gyürky de Losoncz                        (1779-1843)     5 [AMBROZY]
 	name="Erzsébet Gyürky de Losoncz"
 	female=yes
 	#dynasty=0
 	religion=catholic culture=hungarian
-	1799.01.01={birth=yes}
+	1779.01.01={birth=yes}	# EST.
 	1843.08.18={death=yes}  # Nagykürtős
 }
 100084385={ #               Pál                       Gyürky de Losoncz                        (1814-1859)     - [VAY]
@@ -7299,14 +7300,6 @@ lowborn_5362={ #            Margarethe                Erdödy de Monyorókerék 
 	religion=catholic culture=hungarian
 	1747.01.01={birth=yes}  # EST.
 	1769.01.01={death=yes}
-}
-lowborn_5142={ # Gfn        Ágota Mária               Erdődy de Monyorókerék et Monoszló       (1839-1914)     2 [AMBROZY]
-	name="Ágota Mária Erdődy de Monyorókerék et Monoszló"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=hungarian
-	1839.07.15={birth=yes}  # Vörösvár
-	1914.12.28={death=yes}  # Tana
 }
 
 100086630={ #    Gfn        Adrienne                  Karátsonyi de Karátsonyfalva et Beodra   (1853-1878)     1 [ZICHY]
@@ -8298,11 +8291,11 @@ lowborn_0070={ #            Anna                      Pethő                    
 	1786.01.01={birth=yes}  # EST.
 	1861.12.01={death=yes}  # EST.
 }
-lowborn_0012={ # Gfn        Zsuzsanna                 Pethő de Gerse                           (1620-1684)     5 [BARKOCZY]
+lowborn_0012={ # Gfn        Zsuzsanna                 Pethő de Gerse                           (1630-1684)     5 [BARKOCZY]
 	name="Zsuzsanna Pethő de Gerse"
 	female=yes
 	religion=catholic culture=hungarian
-	1620.01.01={birth=yes}  # EST.
+	1630.01.01={birth=yes}  # EST.
 	1684.01.01={death=yes}  # EST.
 }
 lowborn_5054={ #            Katalin                   Pethő de Gerse                           (1628-1675)     6 [LONYAY]
@@ -10513,7 +10506,7 @@ lowborn_5162={ #            Márta                     Kenyeres                 
 	1927.12.08={add_spouse=100116444}	# Clara Széchenyi de Sárvár-Felsővidek
 	1976.10.22={death=yes}
 }
-lowborn_6634={ #            Mária                     Márffy de Szentkirályszabadja            (1740-1791)     2 [RAGALI]
+lowborn_6634={ #            Mária                     Márffy de Szentkirályszabadja            (1740-1791)     0 [RAGALI]
 	name="Mária Márffy de Szentkirályszabadja"
 	female=yes
 	#dynasty=0
@@ -14807,7 +14800,7 @@ lowborn_5246={ #            Eleonóra                  Gyertyánffy de Bobda    
 	1869.05.12={birth=yes}  # Gyér
 	1927.07.19={death=yes}  # Budapest
 }
-lowborn_0379={ #            Anna Mária                Gyömörey de Gyömöre                      (1781-1841)     0 [DORY]
+lowborn_0379={ #            Anna Mária                Gyömörey de Gyömöre                      (1781-1841)     2 [DORY]
 	name="Anna Mária Gyömörey de Gyömöre"
 	female=yes
 	religion=catholic culture=hungarian
@@ -15342,14 +15335,6 @@ lowborn_3925={ #            Anna                      Lack de Szántó          
 	religion=catholic culture=hungarian
 	1418.01.01={birth=yes}  # EST.
 	1493.01.01={death=yes}  # EST.
-}
-lowborn_3312={ #            Maria Barbora             Lamotte de Frintroppe                    (1771-1846)     4 [DEYM]
-	name="Maria Barbora Lamotte de Frintroppe"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=czech
-	1771.11.09={birth=yes}
-	1846.01.01={death=yes}  # EST.
 }
 100099749={ #               Tibor                     Lieszkovszky de Alsólieszkó              (1928-1990)     - [KEMENY]
 	name="Tibor Lieszkovszky de Alsólieszkó"

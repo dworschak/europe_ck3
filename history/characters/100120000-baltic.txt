@@ -1300,10 +1300,331 @@
 
 
 ##  100120000		Biron			1002033
+#biron2
+biron_0001={ #// Carl von Bühren, +1612, who served Duke Gotthard of Kurland; m.ca 1573 Odilia Krey (+Mitau 1623)
+	name=Carl
+	dynasty=1002033
+	religion=lutheran culture=german
+	1542.01.01={birth=yes}  # EST.
+	1573.01.01={add_spouse=lowborn_1057}	# Odilia Krey
+	1612.01.01={death=yes}
+}
+	biron_0002={ #// A1. Johann, +1618; m.1610 Anna Blunck (+Mitau 1657)
+		name=Johann
+		dynasty=1002033
+		religion=lutheran culture=german
+		father=biron_0001	# Carl Biron
+		mother=lowborn_1057	# Odilia Krey
+		1575.01.01={birth=yes}  # EST.
+		1610.01.01={add_spouse=lowborn_1335}	# Anna Blunck
+		1618.01.01={death=yes}
+	}
+		biron_0003={ #// B1. Carl, fl 1674; m.1641/42 N Goeteke (+Mitau 1688)
+			name=Carl
+			dynasty=1002033
+			religion=lutheran culture=german
+			father=biron_0002	# Johann Biron
+			mother=lowborn_1335	# Anna Blunck
+			1612.01.01={birth=yes}  # EST.
+			1641.01.01={add_spouse=lowborn_1509}	# N Goeteke
+			1674.01.01={death=yes}  # EST.
+		}
+			biron_0004={ #// C1. Carl, *1653, +Mitau 1733 ; m.ca 1680 Catharina Hedwig von Raab gen. Thülen (*1660, +1740)
+				name=Carl
+				dynasty=1002033
+				religion=lutheran culture=german
+				father=biron_0003	# Carl Biron
+				mother=lowborn_1509	# N Goeteke
+				1653.01.01={birth=yes}
+				1680.01.01={add_spouse=lowborn_1564}	# Catharina Hedwig von Raab gt Thülen
+				1733.01.01={death=yes}  # Mitau
+			}
+				biron_0005={ #// D1. Carl, a Russian general and Gov of Moscow, *1684, +1728; m.Christine Luise von Lambsdorff (+Strutteln 1760)
+					name=Carl
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0004	# Carl Biron
+					mother=lowborn_1564	# Catharina Hedwig von Raab gt Thülen
+					1684.01.01={birth=yes}
+					1713.01.01={add_spouse=lowborn_1568}	# Christine Luise von Lambsdorff
+					1728.01.01={death=yes}
+				}
+				#biron    -->    D2. Ernst Johann von Biron, cr Reichsgraf, became Duke of Kurland and Semgallen, Regent and Prime Minister of Russia; *Kalnzeem 23.11.1690, +Mitau 29.12.1772; m.Mitau 25.2.1723 Benigna Gottlieb von Trotha gt Treyden, mistress of Anna Iwanowna, later Empress of Russia (*15.10.1703, +Mitau 5.11.1782); for their issue see HERE
+				biron_0007={ #// D3. Gustav, bap Schlock 1695, +1746; m.1735 Pss Maria Menshikova (*1708 +1736) $$
+					name=Gustav
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0004	# Carl Biron
+					mother=lowborn_1564	# Catharina Hedwig von Raab gt Thülen
+					1695.01.01={birth=yes}  # Schlock
+					1732.05.04={add_spouse=menshikov_0003}	# Александра Александровна Меншиков
+					1746.01.01={death=yes}
+				}
+				biron_0008={ #// D4. Dorothea Elisabeth; m.Kalnzeen 1711 Hermann Friedrich von Medem (+ca 1730)
+					name="Dorothea Elisabeth"
+					female=yes
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0004	# Carl Biron
+					mother=lowborn_1564	# Catharina Hedwig von Raab gt Thülen
+					1692.01.01={birth=yes}  # EST.
+					1752.01.01={death=yes}  # EST.
+				}
+				biron_0009={ #// D5. Ursula Marie, +before 1777; m.1729 Gerhard Johann von Rahden
+					name=Ursula
+					female=yes
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0004	# Carl Biron
+					mother=lowborn_1564	# Catharina Hedwig von Raab gt Thülen
+					1697.01.01={birth=yes}  # EST.
+					1777.01.01={death=yes}  # before
+				}
+				biron_0010={ #// D6. Hedwig Christine, +Sackenhausen 1760; m.Kalnzeem 1713 Carl Johann Tobien
+					name="Hedwig Christine"
+					female=yes
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0004	# Carl Biron
+					mother=lowborn_1564	# Catharina Hedwig von Raab gt Thülen
+					1686.01.01={birth=yes}  # EST.
+					1760.01.01={death=yes}  # Sackenhausen
+				}
+				biron_0011={ #// D7. Gerdrutha Sophie, *Kalnzeem 1691, +1770; 1m: 1731 Erich von Albedyll; 2m: 1740 Magnus von Korff
+					name="Gerdrutha Sophie"
+					female=yes
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0004	# Carl Biron
+					mother=lowborn_1564	# Catharina Hedwig von Raab gt Thülen
+					1691.01.01={birth=yes}  # Kalnzeem
+					1770.01.01={death=yes}
+				}
+				biron_0012={ #// D8. Anna Margarethe; m.Eberhard Christoph von Medem
+					name="Anna Margarethe"
+					female=yes
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0004	# Carl Biron
+					mother=lowborn_1564	# Catharina Hedwig von Raab gt Thülen
+					1696.01.01={birth=yes}  # EST.
+					1756.01.01={death=yes}  # EST.
+				}
+				biron_0013={ #// D9. Sabine Juliana, bap Kalnzeem 1702, +Mitau 1738; 1m: (div 1729) Georg Dominikus von Kandsberg (+1744); 2m: Eberhard von Altenbockum
+					name="Sabine Juliana"
+					female=yes
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0004	# Carl Biron
+					mother=lowborn_1564	# Catharina Hedwig von Raab gt Thülen
+					1702.01.01={birth=yes}  # Kalnzeem
+					1738.01.01={death=yes}  # Mitau
+				}
+			biron_0014={ #// C2. Elisabeth
+				name=Elisabeth
+				female=yes
+				dynasty=1002033
+				religion=lutheran culture=german
+				father=biron_0003	# Carl Biron
+				mother=lowborn_1509	# N Goeteke
+				1655.01.01={birth=yes}  # EST.
+				1715.01.01={death=yes}  # EST.
+			}
+			biron_0015={ #// C3. Barbara
+				name=Barbara
+				female=yes
+				dynasty=1002033
+				religion=lutheran culture=german
+				father=biron_0003	# Carl Biron
+				mother=lowborn_1509	# N Goeteke
+				1656.01.01={birth=yes}  # EST.
+				1716.01.01={death=yes}  # EST.
+			}
+			biron_0016={ #// C4. Anna
+				name=Anna
+				female=yes
+				dynasty=1002033
+				religion=lutheran culture=german
+				father=biron_0003	# Carl Biron
+				mother=lowborn_1509	# N Goeteke
+				1656.01.01={birth=yes}  # EST.
+				1716.01.01={death=yes}  # EST.
+			}
+		biron_0017={ #// B2. a son, +Mitau 1624
+			name=son
+			dynasty=1002033
+			religion=lutheran culture=german
+			father=biron_0002	# Johann Biron
+			mother=lowborn_1335	# Anna Blunck
+			1613.01.01={birth=yes}  # EST.
+			1624.01.01={death=yes}  # Mitau
+		}
+	biron_0018={ #// A2. Matthias, +before 1651; m.ca 1615 Agnes von Hertefeld
+		name=Matthias
+		dynasty=1002033
+		religion=lutheran culture=german
+		father=biron_0001	# Carl Biron
+		mother=lowborn_1057	# Odilia Krey
+		1581.01.01={birth=yes}  # EST.
+		1615.01.01={add_spouse=lowborn_7384}	# Agnes von Hertefeld
+		1651.01.01={death=yes}  # before
+	}
+		biron_0019={ #// B1. Carl, *Kloster Spirgen ca 1620, +Doblen 1676; m.Christine Catharine von der Groeben (+1691)
+			name=Carl
+			dynasty=1002033
+			religion=lutheran culture=german
+			father=biron_0018	# Matthias Biron
+			mother=lowborn_7384	# Agnes von Hertefeld
+			1620.01.01={birth=yes}  # Kloster Spirgen
+			1646.01.01={add_spouse=lowborn_7385}	# Christine Catharine von der Groeben
+			1676.01.01={death=yes}  # Doblen
+		}
+			biron_0020={ #// C1. Otto Friedrich, *ca 1650, +Königsberg 1726; 1m: 1685 Anna von Schlubhut (+1714); 2m: 1719 Catharina Elisabeth von Wegnern (*1662 +1728)
+				name="Otto Friedrich"
+				dynasty=1002033
+				religion=lutheran culture=german
+				father=biron_0019	# Carl Biron
+				mother=lowborn_7385	# Christine Catharine von der Groeben
+				1650.01.01={birth=yes}
+				1685.01.01={add_spouse=lowborn_7386}	# Anna von Schlubhut
+				1719.01.01={add_spouse=lowborn_7387}	# Catharina Elisabeth von Wegnern
+				1726.01.01={death=yes}  # Königsberg
+			}
+				biron_0021={ #// D1. Georg Friedrich; m.1719 Marie Barbara von Natzmer (+1726)
+					name="Georg Friedrich"
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0020	# Otto Friedrich Biron
+					mother=lowborn_7386	# Anna von Schlubhut
+					1675.01.01={birth=yes}  # EST.
+					1719.01.01={add_spouse=lowborn_7388}	# Marie Barbara von Natzmer
+					1735.01.01={death=yes}  # EST.
+				}
+				biron_0022={ #// D2. Georg Wilhelm
+					name="Georg Wilhelm"
+					dynasty=1002033
+warning: [1686-1694] fitAfter  1699 | isAfter
+					religion=lutheran culture=german
+					father=biron_0020	# Otto Friedrich Biron
+					mother=lowborn_7386	# Anna von Schlubhut
+					1675.01.01={birth=yes}  # EST.
+					1735.01.01={death=yes}  # EST.
+				}
+				biron_0023={ #// D3. Carl Magnus, +1738
+					name="Carl Magnus"
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0020	# Otto Friedrich Biron
+					mother=lowborn_7386	# Anna von Schlubhut
+					1675.01.01={birth=yes}  # EST.
+					1738.01.01={death=yes}
+				}
+				biron_0024={ #// D4. Anna Christina Tugendreich, +1727; m.Johann Friedrich von Brünneck (+1726)
+					name="Anna Christina"
+					female=yes
+					dynasty=1002033
+					religion=lutheran culture=german
+					father=biron_0020	# Otto Friedrich Biron
+					mother=lowborn_7386	# Anna von Schlubhut
+					1676.01.01={birth=yes}  # EST.
+					1727.01.01={death=yes}
+				}
+			biron_0025={ #// C2. Carl, +k.a.Ofen 1686
+				name=Carl
+				dynasty=1002033
+				religion=lutheran culture=german
+				father=biron_0019	# Carl Biron
+				mother=lowborn_7385	# Christine Catharine von der Groeben
+				1651.01.01={birth=yes}  # EST.
+				1686.01.01={death=yes}  # Ofen
+			}
+			biron_0026={ #// C3. Marie Elisabeth; m.Hermann Johann von Büldring
+				name="Marie Elisabeth"
+				female=yes
+				dynasty=1002033
+				religion=lutheran culture=german
+				father=biron_0019	# Carl Biron
+				mother=lowborn_7385	# Christine Catharine von der Groeben
+				1654.01.01={birth=yes}  # EST.
+				1714.01.01={death=yes}  # EST.
+			}
+			biron_0027={ #// C4. Anna Luise, +1708; 1m: Albrecht von der Mülbe; 2m: 1697 Heinrich Wilhelm von Bolschwing
+				name="Anna Luise"
+				female=yes
+				dynasty=1002033
+				religion=lutheran culture=german
+				father=biron_0019	# Carl Biron
+				mother=lowborn_7385	# Christine Catharine von der Groeben
+				1656.01.01={birth=yes}  # EST.
+				1708.01.01={death=yes}
+			}
+	biron_0028={ #// A3. Carl, +1645; m.N Rivius
+		name=Carl
+		dynasty=1002033
+		religion=lutheran culture=german
+		father=biron_0001	# Carl Biron
+		mother=lowborn_1057	# Odilia Krey
+		1579.01.01={birth=yes}  # EST.
+		1604.01.01={add_spouse=lowborn_7393}	# N Rivius
+		1645.01.01={death=yes}
+	}
+	biron_0029={ #// A4. Gotthard; m.Jeseberta von Brandt
+		name=Gotthard
+		dynasty=1002033
+		religion=lutheran culture=german
+		father=biron_0001	# Carl Biron
+		mother=lowborn_1057	# Odilia Krey
+		1581.01.01={birth=yes}  # EST.
+		1606.01.01={add_spouse=lowborn_7394}	# Jeseberta von Brandt
+		1641.01.01={death=yes}  # EST.
+	}
+	biron_0030={ #// A5. Nikolaus
+		name=Nikolaus
+		dynasty=1002033
+		religion=lutheran culture=german
+		father=biron_0001	# Carl Biron
+		mother=lowborn_1057	# Odilia Krey
+		1583.01.01={birth=yes}  # EST.
+		1643.01.01={death=yes}  # EST.
+	}
+	biron_0031={ #// A6. Heinrich Johann
+		name="Heinrich Johann"
+		dynasty=1002033
+		religion=lutheran culture=german
+		father=biron_0001	# Carl Biron
+		mother=lowborn_1057	# Odilia Krey
+		1585.01.01={birth=yes}  # EST.
+		1645.01.01={death=yes}  # EST.
+	}
+	biron_0032={ #// A7. Odilia; m.Michael von Turnaw
+		name=Odilia
+		female=yes
+		dynasty=1002033
+		religion=lutheran culture=german
+		father=biron_0001	# Carl Biron
+		mother=lowborn_1057	# Odilia Krey
+		1587.01.01={birth=yes}  # EST.
+		1647.01.01={death=yes}  # EST.
+	}
+	biron_0033={ #// A8. a daughter, m.Dietrich von Stiebershausen
+		name=daughter
+		female=yes
+		dynasty=1002033
+		religion=lutheran culture=german
+		father=biron_0001	# Carl Biron
+		mother=lowborn_1057	# Odilia Krey
+		1588.01.01={birth=yes}  # EST.
+		1648.01.01={death=yes}  # EST.
+	}
+#biron2
+
+#biron
 100000400={ #// ERNST JOHANN von Biron (Kalnzeem 23 Nov 1690-Mitau 29 Dec 1772); m.Mitau 25 Feb 1723 Benigna Gottlieb von Trotha gt Treyden (15 Oct 1703-Mitau 5 Nov 1782)
 	name="Ernst Johann"
 	dynasty=1002033
 	religion=lutheran culture=german
+	father=biron_0004	# Carl Biron
+	mother=lowborn_1564	# Catharina Hedwig von Raab gt Thülen
 	1690.11.23={birth=yes}
 	1723.02.25={add_spouse=100093295}	# Benigna Gottlieb von Trotha gt Treyden
 	1772.12.29={death=yes}
@@ -1707,6 +2028,7 @@
 			1792.09.15={birth=yes}
 			1813.01.31={death=yes}
 		}
+#biron
 ##  100120000		Biron			1002033
 
 

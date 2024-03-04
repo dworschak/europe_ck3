@@ -26,7 +26,7 @@
 ##  100002710-100399168		LÖWENSTEIN-WERTHEIM               1002113	  53	 35/ 55 = 63,64%	396406	[]
 ##  100002725-100008256		LÖWENSTEIN-WERTHEIM-ROSENBE       1002039	  75	 33/ 53 = 62,26%	 5457	[c_pfalz]
 ##  100002850-100202863		MATZ VON SPIEGELFELD              1002083	  20	 11/ 14 = 78,57%	199994	[]
-##  neipperg_0001-neipperg_0030		NEIPPERG                          1002101	  21	 24/ 24 = 100,00%	200163	[]
+##           -				NEIPPERG                          1002101	  21	 24/ 24 = 100,00%	200163	[]
 ##  100003181-100008796		HOHENLOHE-KIRCHBERG               1002109	  15	 13/ 21 = 61,90%	 5601	[]
 ##  100003300-100003636		PILATI VON THASSUL ZU DAXBERG     1002055	  11	  4/  7 = 57,14%	  326	[]
 ##  100003325-100003352		PUTBUS                            1002042	  28	  3/ 24 = 12,50%	    0	[c_greifswald, c_stralsund]
@@ -91,7 +91,7 @@
 ##  100008702-100011315		NOSTITZ-RIENECK                   1002100	 103	 40/ 73 = 54,79%	 2511	[]
 ##  100008751-100294865		FUGGER VON BABENHAUSEN            1002105	  48	 15/ 34 = 44,12%	286067	[]
 ##  100008801-100008832		LEYEN UND ZU HOHENGERO            1002108	  30	 10/ 18 = 55,56%	    2	[]
-##  100008872-100009239		DOHNA-SCHLOBITTEN                 1002121	 108	 31/ 85 = 36,47%	  260	[]
+##  100008872-100009239		DOHNA-SCHLOBITTEN       dohna_schlobitten	 108	 31/ 85 = 36,47%	  260	[]
 ##  100008955-100009023		SCHÖNBURG-FORDERGLAUCHAU          1002122	  44	 16/ 29 = 55,17%	   25	[]
 ##  100009351-100193689		BRAUNSCHWEIG                      1002091	  31	 34/ 41 = 82,93%	184308	[]
 ##  100009709-100009927		DOHNA-SCHLODIEN                   1002247	 161	 25/123 = 20,33%	   58	[]
@@ -129,8 +129,91 @@
 ####################################################################################################### 6415180
 
 
+#### MINOR ####
+## KALNEIN
+kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
+	name="Friedrich Stanislaus"
+	dynasty=kalnein
+	religion=catholic culture=north_german
+	1737.10.02={birth=yes}
+	1818.06.08={death=yes}
+}
+	kalnein_0009={ #// A1. Karl Christian (*1765, +24.5.1818) %%
+		name="Karl Christian"
+		dynasty=kalnein
+		religion=catholic culture=north_german
+		father=kalnein_0007	# Friedrich Stanislaus von Kalnein
+		1765.01.01={birth=yes}
+		1818.05.24={death=yes}
+	}
+		kalnein_0010={ #// B1. Natango (*Königsberg 17.11.1803, +Domnau 19.6.1890); m.10.5.1833 Clara zu Dohna-Schlodien (*Carwinden 29.9.1814, +Domnau 26.11.1885) %%
+			name="Natango"
+			dynasty=kalnein
+			religion=catholic culture=north_german
+			father=kalnein_0009	# Karl Christian von Kalnein
+			1803.11.17={birth=yes}  # Königsberg
+			1833.05.10={add_spouse=100009783}	# Clara zu Dohna-Schlodien
+			1890.06.19={death=yes}  # Domnau
+		}
+			kalnein_0014={ #// C1. Emilie (*Königsberg 23.4.1830, +Königsberg 20.4.1912); m.25.6.1850 Ludwig von Dohna-Schlobitten (*Copenhagen 21.7.1815, +Lippspringe 15.9.1865) %%
+				name="Emilie"
+				female=yes
+				dynasty=kalnein
+				religion=lutheran culture=north_german
+				father=kalnein_0010	# Natango von Kalnein
+				1830.04.23={birth=yes}  # Königsberg
+				1912.04.20={death=yes}  # Königsberg
+			}
+			kalnein_0011={ #// C2. Karl (*20.11.1839, +Potsdam 24.12.1915); m.16.7.1868 Adda von Eulenburg (*Königsberg 21.9.1848, +Berlin 27.3.1893) %%
+				name="Karl"
+				dynasty=kalnein
+				religion=lutheran culture=north_german
+				father=kalnein_0010	# Natango von Kalnein
+				mother=100009783	# Clara zu Dohna-Schlodien
+				1839.11.20={birth=yes}
+				1868.07.16={add_spouse=eulenbg_0160}	# Adda von Eulenburg
+				1915.12.24={death=yes}  # Potsdam
+			}
+				kalnein_0013={ #// D1. Leopold (*Berlin 14.4.1869, +Berlin 2.8.1930); m.10.10.1896 Alexandrine von Eulenburg (*Metz 20.9.1876, +Baden-Baden 18.8.1951) %%
+					name="Leopold"
+					dynasty=kalnein
+					religion=lutheran culture=north_german
+					father=kalnein_0011	# Karl von Kalnein
+					1869.04.14={birth=yes}  # Berlin
+					1896.10.10={add_spouse=eulenbg_0162}	# Alexandrine von Eulenburg
+					1930.08.02={death=yes}  # Berlin
+				}
+			kalnein_0012={ #// C3. Leopold (*24.3.1843) %%
+				name="Leopold"
+				dynasty=kalnein
+				religion=lutheran culture=north_german
+				father=kalnein_0010	# Natango von Kalnein
+				mother=100009783	# Clara zu Dohna-Schlodien
+				1843.03.24={birth=yes}
+				1930.01.01={death=yes}  # EST.
+			}
+	kalnein_0015={ #// A2. Amalie Pauline (*22.9.1770, +28.11.1829); m.30.3.1786 Friedrich Ludwig von Waldburg (*14.4.1741, +3.5.1807) %%
+		name="Amalie Pauline"
+		female=yes
+		religion=catholic culture=north_german
+		father=kalnein_0007	# Friedrich Stanislaus von Kalnein
+		1770.09.22={birth=yes}
+		1829.11.28={death=yes}
+	}
+	
+	
+100092385={ #    Gfn        Dagmar                    von Kalnein                              (1929-2009)     2 [THUN]
+	name="Dagmar von Kalnein"
+	female=yes
+	religion=catholic culture=north_german
+	1929.12.29={birth=yes}
+	2009.01.01={death=yes}	# EST.
+}
+#### MINOR ####
+
+
 ##  100012000				STAUFFENBERG					  1002239
-#schenk5
+#staufenbg6
 100087286={ #// D1. Marie Sophie, *Berlin 23.9.1937; m.Wilflingen 24.4.1962 Alfred Claus Maria Schenk Gf von Stauffenberg (*8.11.1937, +28.10.1987)
 	name="Marie Sophie Schank von Stauffenberg"
 	female=yes
@@ -138,11 +221,11 @@
 	religion=catholic culture=german
 	1937.09.23={birth=yes}  # Berlin
 }
-#schenk5
+#staufenbg6
 
-#schenk6
+#staufenbg5
 100013125={ #// Franz Ludwig Philipp Schenk Graf von Stauffenberg, *Bamberg 13.5.1801, +Würzburg 8.5.1881; m.Dom zu Würzburg 1.5.1824 Eleonore Gfn Butler von Clonebough gen. Haimhausen (*Raigenring 20.9.1807, +Würzburg 5.2.1861)
-	name=Franz
+	name="Franz Ludwig"
 	dynasty=1002239
 	religion=catholic culture=german
 	1801.05.13={birth=yes}  # Bamberg
@@ -154,7 +237,7 @@
 		female=yes
 		dynasty=1002239
 		religion=catholic culture=german
-		father=100013125	# Franz Schenk von Stauffenberg
+		father=100013125	# Franz Ludwig Schenk von Stauffenberg
 		mother=100080564	# GFN Eleonore Butler von Clonebough gt Haimhausen
 		1825.03.01={birth=yes}  # Würzburg
 		1852.09.03={death=yes}  # Innsbruck
@@ -163,7 +246,7 @@
 		name=Klemens
 		dynasty=1002239
 		religion=catholic culture=german
-		father=100013125	# Franz Schenk von Stauffenberg
+		father=100013125	# Franz Ludwig Schenk von Stauffenberg
 		mother=100080564	# GFN Eleonore Butler von Clonebough gt Haimhausen
 		1826.08.12={birth=yes}  # Würzburg
 		1857.01.07={add_spouse=100083074}	# GFN Leopoldine von Oberndorff
@@ -902,7 +985,7 @@
 		name=Philipp
 		dynasty=1002239
 		religion=catholic culture=german
-		father=100013125	# Franz Schenk von Stauffenberg
+		father=100013125	# Franz Ludwig Schenk von Stauffenberg
 		mother=100080564	# GFN Eleonore Butler von Clonebough gt Haimhausen
 		1828.11.24={birth=yes}  # Würzburg
 		1860.04.22={add_spouse=100185096}	# Caroline Popel von Lobkowitz
@@ -938,7 +1021,7 @@
 			1894.07.25={add_spouse=100087803}	# GFN Luise Terlago
 			1917.09.10={death=yes}  # Baiersdorf_bei_Graz
 		}
-#schenk6
+#staufenbg5
 ##  100012000				STAUFFENBERG					  1002239
 
 
@@ -21229,7 +21312,7 @@ larisch_0005={ #// D1. Johann Friedrich VON LARISCH, *1631, +1698; m.Klara von G
 		father=larisch_0005	# Johann Friedrich Larisch v.Moennich
 		mother=lowborn_6501	# Klara von Goschitzky
 		1668.01.01={birth=yes}
-		1696.01.01={add_spouse=lowborn_6502}	# Elisabeth Dorothea Tenczin von Paczinsky
+		1696.01.01={add_spouse=lowborn_6502}	# Elisabeth Dorothea Paczinsky von Tenczin
 		1699.01.01={add_spouse=lowborn_6505}	# Dorothea Elisabeth von Hellenbach
 		1730.01.01={death=yes}
 	}
@@ -21238,7 +21321,7 @@ larisch_0005={ #// D1. Johann Friedrich VON LARISCH, *1631, +1698; m.Klara von G
 			dynasty=larisch
 			religion=lutheran culture=german
 			father=larisch_0007	# Johann Larisch v.Moennich
-			mother=lowborn_6502	# Elisabeth Dorothea Tenczin von Paczinsky
+			mother=lowborn_6502	# Elisabeth Dorothea Paczinsky von Tenczin
 			1698.01.01={birth=yes}
 			1733.01.01={add_spouse=lowborn_6506}	# Marie Anna Kozová z Hradiště
 			1764.08.14={death=yes}
@@ -21892,7 +21975,7 @@ larisch_0005={ #// D1. Johann Friedrich VON LARISCH, *1631, +1698; m.Klara von G
 							1834.07.07={birth=yes}
 							1909.01.01={death=yes}  # EST.
 						}
-					larisch_0020={ #// I2. Helene Marie Karoline LARISCH VON MÖNNICH, *Wrocław 1836.03.29; m.Wilmsdorf 17.11.1854 Robert von Collas
+					larisch_0020={ #// I2. Helene Marie Karoline1LARISCH VON MÖNNICH, *Wrocław 1836.03.29; m.Wilmsdorf 17.11.1854 Robert von Collas
 						name=Helene
 						female=yes
 						dynasty=larisch
@@ -21913,3 +21996,1489 @@ larisch_0005={ #// D1. Johann Friedrich VON LARISCH, *1631, +1698; m.Klara von G
 				1774.01.01={death=yes}
 			}
 ## LARISCH
+
+
+## EULENBURG
+# https://www.angelfire.com/realm/gotha/gotha/eulenburg.html
+
+eulenbg_0001={ #// Ernst Christoph, cr 1786 Gf zu Eulenburg (Gallingen 10 Sep 1755-Königsberg 10 Jul 1796); m.Königsberg 5 Feb 1776 Katharina Margareta Hedwig Gfn von der Groeben (24 Jul 1753-Königsberg 28 Jul 1817)
+	name="Ernst Christoph"
+	dynasty=eulenburg
+	religion=lutheran culture=german
+	1755.09.10={birth=yes}  # Gallingen
+	1776.02.05={add_spouse=lowborn_0741}	# GFN Katharina Margareta von der Groeben
+	1796.07.10={death=yes}  # Königsberg
+}
+	eulenbg_0002={ #// 1a) Henriette Luise Friederike (1 Sep 1777-5 Jan 1823); m.Königsberg 9 Jul 1799 Heinrich Wilhelm Alexander Gf von Klinckowstroem (d.9 Nov 1856)
+		name=Henriette
+		female=yes
+		dynasty=eulenburg
+		religion=lutheran culture=german
+		father=eulenbg_0001	# Ernst Christoph von Eulenburg
+		mother=lowborn_0741	# GFN Katharina Margareta von der Groeben
+		1777.09.01={birth=yes}
+		1823.01.05={death=yes}
+	}
+	eulenbg_0003={ #// 2a) Botho Wilhelm (10 Jul 1778-Königsberg 21 Mar 1865); m.Prantlack 8 Oct 1807 Wilhelmine von Klüchtzner (11 Sep 1786-Prassen 30 Jun 1811)
+		name="Botho Wilhelm"
+		dynasty=eulenburg
+		religion=lutheran culture=german
+		father=eulenbg_0001	# Ernst Christoph von Eulenburg
+		mother=lowborn_0741	# GFN Katharina Margareta von der Groeben
+		1778.07.10={birth=yes}
+		1807.10.08={add_spouse=lowborn_0873}	# Wilhelmine von Klüchtzner
+		1865.03.21={death=yes}  # Königsberg
+	}
+		eulenbg_0004={ #// 1b) Went Botho Elimar (Prassen 14 Aug 1808-Elbing 5 Dec 1849); m.Raudnitz 6 Aug 1833 Bertha Bggfn und Gfn zu Dohna-Schlodien (Raudnitz 19 Apr 1813-Woplaucken 19 May 1893) $$
+			name="Elimar"
+			dynasty=eulenburg
+			religion=lutheran culture=german
+			father=eulenbg_0003	# Botho Wilhelm von Eulenburg
+			mother=lowborn_0873	# Wilhelmine von Klüchtzner
+			1808.08.14={birth=yes}  # Prassen
+			1833.08.06={add_spouse=100009782}	# Bertha zu Dohna-Schlodien
+			1849.12.05={death=yes}  # Elbing
+		}
+			eulenbg_0005={ #// 1c) Julie Caroline Wilhelmine Bertha Ida (Prassen 8 Mar 1835-Königsberg 18 Feb 1911); m.Königsberg 11 Aug 1854 Franz von Saucken (d.Königsberg 6 Apr 1881)
+				name=Julie
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0004	# Elimar von Eulenburg
+				mother=100009782	# Bertha zu Dohna-Schlodien
+				1835.03.08={birth=yes}  # Prassen
+				1911.02.18={death=yes}  # Königsberg
+			}
+			eulenbg_0007={ #// 3c) Karl Wend Botho Richard (Prassen 12 Jan 1838-Prassen 13 Jul 1909); m.Breslau 3 Oct 1868 Eufemia von Tschirschky-Reichell (Breslau 25 Jan 1846-Schlodien 3 Mar 1924)
+				name="Richard"
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0004	# Elimar von Eulenburg
+				mother=100009782	# Bertha zu Dohna-Schlodien
+				1838.01.12={birth=yes}  # Prassen
+				1868.10.03={add_spouse=lowborn_1544}	# Eufemia von Tschirschky-Reichell
+				1909.07.13={death=yes}  # Prassen
+			}
+				eulenbg_0008={ #// 1d) Wend Bodo Elimar Andreas Benno (Prassen 30 Jun 1869-Prassen 6 Feb 1879)
+					name="Elimar"
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0007	# Richard von Eulenburg
+					mother=lowborn_1544	# Eufemia von Tschirschky-Reichell
+					1869.06.30={birth=yes}  # Prassen
+					1879.02.06={death=yes}  # Prassen
+				}
+				eulenbg_0009={ #// 2d) Marie Emma Johanna Helene (Breslau 17 Dec 1871-Großschönau, Saxony 21 Dec 1946); m.Prassen 3 Oct 1894 Karl Gf zu Eulenburg (1843-1919) $$
+					name="Marie Emma"
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0007	# Richard von Eulenburg
+					mother=lowborn_1544	# Eufemia von Tschirschky-Reichell
+					1871.12.17={birth=yes}  # Breslau
+					1946.12.21={death=yes}  # Großschönau Saxony
+				}
+				eulenbg_0010={ #// 3d) Wanda Elisabeth Malwine Emmy (Prassen 7 Jan 1873-shot at Gerbin 3 Mar 1945); m.Prassen 28 Sep 1892 Werner Frhr von Senden (shot at Gerbin 1 Mar 1945)
+					name="Emmy"
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0007	# Richard von Eulenburg
+					mother=lowborn_1544	# Eufemia von Tschirschky-Reichell
+					1873.01.07={birth=yes}  # Prassen
+					1945.03.03={death=yes}  # shot at Gerbin
+				}
+				eulenbg_0011={ #// 4d) Friedrich Botho Wend Eberhard (Breslau 13 Apr 1874-Wittenberg bei Tharau 20 Mar 1937); m.Kreppelhof 14 Jan 1904 Antonie Gfn zu Stolberg-Wernigerode (Kreppelhof 6 Sep 1880-Aumühle 25 Dec 1969) $$
+					name=Friedrich
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0007	# Richard von Eulenburg
+					mother=lowborn_1544	# Eufemia von Tschirschky-Reichell
+					1874.04.13={birth=yes}  # Breslau
+					1904.01.14={add_spouse=100006355}	# Antonie von Stolberg-Wernigerode
+					1937.03.20={death=yes}  # Wittenberg_bei_Tharau
+				}
+					eulenbg_0012={ #// 1e) Mortimer Botho Wend Richard Benno (Döhrings 3 Feb 1905-7 Oct 1994); m.Wernigerode 13 Apr 1932 Gisela Lehmann (Langensalza 10 Sep 1906-Eltville 29 Jul 1999)
+						name=Mortimer
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0011	# Friedrich von Eulenburg
+						mother=100006355	# Antonie von Stolberg-Wernigerode
+						1905.02.03={birth=yes}  # Döhrings
+						1932.04.13={add_spouse=lowborn_7153}	# Gisela Lehmann
+						1994.10.07={death=yes}
+					}
+						eulenbg_0013={ #// 1f) Marie-Eleonore (b.Königsberg 1 Jan 1933); m.Eltville 13 Apr 1958 Hans-Karl von Chappuis (b.Potsdam 20 Nov 1928)
+							name=Marie-Eleonore
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0012	# Mortimer von Eulenburg
+							mother=lowborn_7153	# Gisela Lehmann
+							1933.01.01={birth=yes}  # Königsberg
+							2008.01.01={death=yes}  # EST.
+						}
+						eulenbg_0014={ #// 2f) Richard Wend Georg Paul Friedrich (b.Wangnick bei Prassen 9 Apr 1934); m.Duisburg 13 May 1966 Soscha Behr (b.Nienhagen 9 Oct 1944)
+							name=Richard
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0012	# Mortimer von Eulenburg
+							mother=lowborn_7153	# Gisela Lehmann
+							1934.04.09={birth=yes}  # Wangnick bei Prassen
+							2004.01.01={death=yes}  # EST.
+						}
+							eulenbg_0015={ #// 1g) Mortimer Stephan Fritz Kasimir (b.Duisburg 4 Jan 1967)
+								name=Mortimer
+								dynasty=eulenburg
+								religion=lutheran culture=german
+								father=eulenbg_0014	# Richard von Eulenburg
+								1967.01.04={birth=yes}  # Duisburg
+							}
+							eulenbg_0016={ #// 2g) Amélie Gisela Antonie (b.Düsseldorf 26 Mar 1969)
+								name=Amélie
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0014	# Richard von Eulenburg
+								1969.03.26={birth=yes}  # Düsseldorf
+							}
+							eulenbg_0017={ #// 3g) Moritz Winrich Otto Jonas (b.Bonn 9 Aug 1972); m.Inka Henze
+								name=Moritz
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0014	# Richard von Eulenburg
+								1972.08.09={birth=yes}  # Bonn
+							}
+								eulenbg_0018={ #// 1h) Otto Richard Dieter Kraft
+									name=Otto
+									dynasty=eulenburg
+									religion=lutheran culture=german
+									father=eulenbg_0017	# Moritz von Eulenburg
+									1999.01.01={birth=yes}  # EST.
+								}
+								eulenbg_0019={ #// 2h) Caspar Mortimer Winrich Gottlob
+									name=Caspar
+									dynasty=eulenburg
+									religion=lutheran culture=german
+									father=eulenbg_0017	# Moritz von Eulenburg
+									2000.01.01={birth=yes}  # EST.
+								}
+						eulenbg_0020={ #// 3f) Freda Elisabeth Ursula Gabriele (b.Wangnick 27 Jul 1935); m.Eltville 15 Jul 1967 Gert Naundorf (b.Göttingen 11 Jun 1936)
+							name=Freda
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0012	# Mortimer von Eulenburg
+							mother=lowborn_7153	# Gisela Lehmann
+							1935.07.27={birth=yes}  # Wangnick
+							2010.01.01={death=yes}  # EST.
+						}
+						eulenbg_0021={ #// 4f) Karin Alexandra (b.Prassen 10 Oct 1938); m.Eltville 9 Sep 1961 Jürgen Kauffmann (b.Berlin 25 Apr 1930)
+							name="Karin Alexandra"
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0012	# Mortimer von Eulenburg
+							mother=lowborn_7153	# Gisela Lehmann
+							1938.10.10={birth=yes}  # Prassen
+							2013.01.01={death=yes}  # EST.
+						}
+						eulenbg_0022={ #// 5f) Antonie Euphemie (b.Prassen 30 Jan 1941)
+							name="Antonie Euphemie"
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0012	# Mortimer von Eulenburg
+							mother=lowborn_7153	# Gisela Lehmann
+							1941.01.30={birth=yes}  # Prassen
+							2016.01.01={death=yes}  # EST.
+						}
+						eulenbg_0023={ #// 6f) Burghardt Otfried Mortimer Botho Wend (b.Prassen 15 Nov 1942)
+							name=Burghardt
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0012	# Mortimer von Eulenburg
+							mother=lowborn_7153	# Gisela Lehmann
+							1942.11.15={birth=yes}  # Prassen
+							2012.01.01={death=yes}  # EST.
+						}
+					eulenbg_0024={ #// 2e) Agnes Wilhelmine (Döhrings 12 Jul 1906-Buenos Aires 6 Mar 1992); m.Mannheim 16 Dec 1933 Conrad Hirsch (Mannheim 22 Jan 1911-Buenos Aires 16 Sep 1984)
+						name="Agnes Wilhelmine"
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0011	# Friedrich von Eulenburg
+						mother=100006355	# Antonie von Stolberg-Wernigerode
+						1906.07.12={birth=yes}  # Döhrings
+						1992.03.06={death=yes}  # Buenos Aires
+					}
+					eulenbg_0025={ #// 3e) Werner Botho Wend Louis (Döhrings 7 Jul 1908-Weißenhaus 14 Mar 1989); m.Semper, Insel Rügen 24/25 Oct 1933 Marie-Antoinette von Brüning (Wiesbaden 2 Apr 1906-Weißenhaus 30 Oct 1992)
+						name=Werner
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0011	# Friedrich von Eulenburg
+						mother=100006355	# Antonie von Stolberg-Wernigerode
+						1908.07.07={birth=yes}  # Döhrings
+						1933.10.24={add_spouse=lowborn_7190}	# Marie-Antoinette von Brüning
+						1989.03.14={death=yes}  # Weißenhaus
+					}
+						eulenbg_0026={ #// 1f) Armgard (Schlanz 16 Aug 1934-Breslau 30 May 1938)
+							name=Armgard
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0025	# Werner von Eulenburg
+							mother=lowborn_7190	# Marie-Antoinette von Brüning
+							1934.08.16={birth=yes}  # Schlanz
+							1938.05.30={death=yes}  # Breslau
+						}
+						eulenbg_0027={ #// 2f) Mortimer Botho-Wend Walter Friedrich (b.Breslau 20 Mar 1936); m.Aegidienberg 1 Apr 1967 Freda Frn von Schrötter (Wohnsdorf 14 Nov 1941-Ratzeburg 2 Nov 2019)
+							name=Mortimer
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0025	# Werner von Eulenburg
+							mother=lowborn_7190	# Marie-Antoinette von Brüning
+							1936.03.20={birth=yes}  # Breslau
+							1967.04.01={add_spouse=lowborn_7199}	# FRN Freda von Schrötter
+							2006.01.01={death=yes}  # EST.
+						}
+							eulenbg_0028={ #// 1g) Vera Marion Huberta (b.Stuttgart 7 Jan 1968); m.Allmersbach 26 Jun 1999 Norbert Scharnweber
+								name=Vera
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0027	# Mortimer von Eulenburg
+								mother=lowborn_7199	# FRN Freda von Schrötter
+								1968.01.07={birth=yes}  # Stuttgart
+							}
+							eulenbg_0029={ #// 2g) Eleonore Alexandra Euphemie (b.Stuttgart 4 Mar 1969)
+								name=Eleonore
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0027	# Mortimer von Eulenburg
+								mother=lowborn_7199	# FRN Freda von Schrötter
+								1969.03.04={birth=yes}  # Stuttgart
+							}
+							eulenbg_0030={ #// 3g) Botho Wend Werner Siegfried (b.Stuttgart 30 Mar 1970); m.Allmersbach 30 Mar 2002 17 Aug 2002 Jenny Maria Kjörling (b.Mölndal 25 Mar 1972)
+								name=Botho
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0027	# Mortimer von Eulenburg
+								mother=lowborn_7199	# FRN Freda von Schrötter
+								1970.03.30={birth=yes}  # Stuttgart
+								2002.08.17={add_spouse=lowborn_7210}	# Jenny Kjörling
+							}
+								eulenbg_0031={ #// 1h) Gustav (b.1 Sep 2004)
+									name=Gustav
+									dynasty=eulenburg
+									religion=lutheran culture=german
+									father=eulenbg_0030	# Botho von Eulenburg
+									mother=lowborn_7210	# Jenny Kjörling
+									2004.09.01={birth=yes}
+								}
+								eulenbg_0032={ #// 2h) Julius Erik Botho Wend (b.Berlin 13 May 2006)
+									name=Julius
+									dynasty=eulenburg
+									religion=lutheran culture=north_german
+									father=eulenbg_0030	# Botho von Eulenburg
+									mother=lowborn_7210	# Jenny Kjörling
+									2006.05.13={birth=yes}  # Berlin
+								}
+							eulenbg_0033={ #// 4g) Valeska Armgard Marietta (b.Stuttgart 30 May 1972); m.Götz Tobias Wiese
+								name=Valeska
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0027	# Mortimer von Eulenburg
+								mother=lowborn_7199	# FRN Freda von Schrötter
+								1972.05.30={birth=yes}  # Stuttgart
+							}
+							eulenbg_0034={ #// 5g) Alexandra (b.Stuttgart 3 May 1974); m.Allmersbach 2 Oct 2004 Eberhard Frhr Leuckart von Weißdorf  (b.Freising 12 Nov 1973)
+								name=Alexandra
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0027	# Mortimer von Eulenburg
+								mother=lowborn_7199	# FRN Freda von Schrötter
+								1974.05.03={birth=yes}  # Stuttgart
+							}
+						eulenbg_0035={ #// 3f) Euphemie Marie-Elisabeth (Breslau 15 Dec 1940-4 Dec 2014); m.Weißenhaus, Ostholstein 1 Sep 1962 Friedrich Portwich (Kiel 18 Sep 1929-Kiel 1 Jul 1967)
+							name="Euphemie Marie-Elisabeth"
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0025	# Werner von Eulenburg
+							mother=lowborn_7190	# Marie-Antoinette von Brüning
+							1940.12.15={birth=yes}  # Breslau
+							2014.12.04={death=yes}
+						}
+						eulenbg_0036={ #// 4f) Vera Marie-Elisabeth (b.Schalnz 28 Dec 1943); m.Weißenhaus 3 Mar 1967 Axel Falter (b.Minden 15 May 1941)
+							name="Vera Marie-Elisabeth"
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0025	# Werner von Eulenburg
+							mother=lowborn_7190	# Marie-Antoinette von Brüning
+							1943.12.28={birth=yes}  # Schalnz
+						}
+					eulenbg_0037={ #// 4e) Eufemia Elisabeth (Döhrings, East Prussia 10 Nov 1909-Halle an der Saale 27 Apr 1940); m.Prassen, East Prussia 18 Apr 1939 Ludwig Gf von Zech sonst von Burkersroda genannt (Goseck 12 Nov 1906-Reutlingen 22 Apr 1989)
+						name="Eufemia Elisabeth"
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0011	# Friedrich von Eulenburg
+						mother=100006355	# Antonie von Stolberg-Wernigerode
+						1909.11.10={birth=yes}  # Döhrings East Prussia
+						1940.04.27={death=yes}  # Halle_an_der_Saale
+					}
+					eulenbg_0038={ #// 5e) Armgard (Prassen 16 Mar 1912-Dörphof, Karby 1 May 1998); m.Prassen 9 Apr 1943 Rudolf Frhr Schmidt von Schmidtseck (Woplauken 29 Jan 1901-Hamburg-Bergedorf 5 Jul 1968)
+						name=Armgard
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0011	# Friedrich von Eulenburg
+						mother=100006355	# Antonie von Stolberg-Wernigerode
+						1912.03.16={birth=yes}  # Prassen
+						1998.05.01={death=yes}  # Dörphof Karby
+					}
+					eulenbg_0040={ #// 7e) Elisabeth (Prassen 18 May 1919-Potsdam 15 Nov 1943)
+						name=Elisabeth
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0011	# Friedrich von Eulenburg
+						mother=100006355	# Antonie von Stolberg-Wernigerode
+						1919.05.18={birth=yes}  # Prassen
+						1943.11.15={death=yes}  # Potsdam
+					}
+					eulenbg_0041={ #// 8e) Udo Wilhelm Botho Wend (Prassen 3 Sep 1921-22 Feb 2018); m.Osterode, East Prussia 24 Sep 1944 Carola Holzlöhner (b.Goldap 14 Mar 1922)
+						name=Udo
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0011	# Friedrich von Eulenburg
+						mother=100006355	# Antonie von Stolberg-Wernigerode
+						1921.09.03={birth=yes}  # Prassen
+						1944.09.24={add_spouse=lowborn_7248}	# Carola Holzlöhner
+						2018.02.22={death=yes}
+					}
+						eulenbg_0042={ #// 1f) Elisabeth Antonie (b.Naumburg an der Saale 19 Jun 1945); m.Bielefeld 24 Sep 1976 Ernst Rabenstein (b.Beyerberg 15 Jan 1944)
+							name="Elisabeth Antonie"
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0041	# Udo von Eulenburg
+							mother=lowborn_7248	# Carola Holzlöhner
+							1945.06.19={birth=yes}  # Naumburg an der Saale
+						}
+						eulenbg_0043={ #// 2f) Friedrich Botho-Wendt (b.Bielefeld 24 Aug 1946); m.Marburg an der Lahn 11 Sep 1974 Gunhild Kisker (b.Bielefeld 18 Jun 1947)
+							name="Friedrich Botho-Wendt"
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0041	# Udo von Eulenburg
+							mother=lowborn_7248	# Carola Holzlöhner
+							1946.08.24={birth=yes}  # Bielefeld
+							1974.09.11={add_spouse=lowborn_7250}	# Gunhild Kisker
+							2016.01.01={death=yes}  # EST.
+						}
+							eulenbg_0044={ #// 1g) Anna Katharina Antonia (b.Marburg 24 Mar 1977)
+								name=Anna
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=german
+								father=eulenbg_0043	# Friedrich Botho-Wendt von Eulenburg
+								mother=lowborn_7250	# Gunhild Kisker
+								1977.03.24={birth=yes}  # Marburg
+							}
+							eulenbg_0045={ #// 2g) Elisabeth Sophie (b.Bonn 6 Jun 1983)
+								name="Elisabeth Sophie"
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0043	# Friedrich Botho-Wendt von Eulenburg
+								mother=lowborn_7250	# Gunhild Kisker
+								1983.06.06={birth=yes}  # Bonn
+							}
+						eulenbg_0046={ #// 3f) Albrecht Botho-Wendt (b.Bielefeld 1 Jul 1948); m.Freiburg 3 Aug 1973 (div 1982) Silke Weber (b.Emmendingen, Baden 10 Jan 1951)
+							name="Albrecht"
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0041	# Udo von Eulenburg
+							mother=lowborn_7248	# Carola Holzlöhner
+							1948.07.01={birth=yes}  # Bielefeld
+						}
+						eulenbg_0047={ #// 4f) Arthur Botho-Wendt (b.Bielefeld 4 Feb 1956); m.Achterwehr 5 Dec 1980 Madeleine Brammer (b.Kiel 10 Feb 1951)
+							name="Arthur Botho-Wendt"
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0041	# Udo von Eulenburg
+							mother=lowborn_7248	# Carola Holzlöhner
+							1956.02.04={birth=yes}  # Bielefeld
+							1980.12.05={add_spouse=lowborn_7252}	# Madeleine Brammer
+						}
+							eulenbg_0048={ #// 1g) Henrike Johanne (b.Kiel 15 Feb 1982)
+								name=Henrike
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0047	# Arthur Botho-Wendt von Eulenburg
+								mother=lowborn_7252	# Madeleine Brammer
+								1982.02.15={birth=yes}  # Kiel
+							}
+				eulenbg_0049={ #// 5d) Albrecht Botho Wend Martin (Prassen 4 Nov 1875-Allenstein 14 Apr 1945), m.Gerdauen, East Prussia 5 Aug 1910 Freda von Janson (Gerdauen 22 Oct 1883-Gerdauen 30 Mar 1941)
+					name=Albrecht
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0007	# Richard von Eulenburg
+					mother=lowborn_1544	# Eufemia von Tschirschky-Reichell
+					1875.11.04={birth=yes}  # Prassen
+					1910.08.05={add_spouse=lowborn_7253}	# Freda von Janson
+					1945.04.14={death=yes}  # Allenstein
+				}
+					eulenbg_0050={ #// 1e) Vera Freda Anna Olga (Gerdauen 21 Jul 1911-30 Jan 1997); m.Bednarken, East Prussia 6 Dec 1939 Siegfried Frhr von Schrötter (Wohnsdorf 8 Nov 1895-Aegidienberg bei Bad Honnef 8 Aug 1974)
+						name=Vera
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0049	# Albrecht von Eulenburg
+						mother=lowborn_7253	# Freda von Janson
+						1911.07.21={birth=yes}  # Gerdauen
+						1997.01.30={death=yes}
+					}
+					eulenbg_0051={ #// 2e) Botho (Gerdauen 3 Jul 1912-mia nr Demjansk 11 Feb 1942)
+						name=Botho
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0049	# Albrecht von Eulenburg
+						mother=lowborn_7253	# Freda von Janson
+						1912.07.03={birth=yes}  # Gerdauen
+						1942.02.11={death=yes}  # mia nr Demjansk
+					}
+					eulenbg_0052={ #// 3e) Anna Maria Luise Elisabeth (Gerdauen 26 May 1917-Leopoldshöhe 19 Aug 1999); m.Bielefeld 16 Dec 1955 Gernot Nigges (b.Münster 13 May 1927)
+						name=Anna
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0049	# Albrecht von Eulenburg
+						mother=lowborn_7253	# Freda von Janson
+						1917.05.26={birth=yes}  # Gerdauen
+						1999.08.19={death=yes}  # Leopoldshöhe
+					}
+					eulenbg_0053={ #// 4e) Margarete Eleonore Euphemie (Bednarken 9 Jun 1919-Duisburg 4 Mar 1963)
+						name=Margarete
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0049	# Albrecht von Eulenburg
+						mother=lowborn_7253	# Freda von Janson
+						1919.06.09={birth=yes}  # Bednarken
+						1963.03.04={death=yes}  # Duisburg
+					}
+					eulenbg_0054={ #// 5e) Huberta Wanda Agnes (Bednarken 6 Oct 1924-Ittenbach 1 Jun 1993)
+						name=Huberta
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0049	# Albrecht von Eulenburg
+						mother=lowborn_7253	# Freda von Janson
+						1924.10.06={birth=yes}  # Bednarken
+						1993.06.01={death=yes}  # Ittenbach
+					}
+				eulenbg_0056={ #// 7d) Eleonore (Prassen 5 Jul 1887-Varlar 14 Sep 1961); m.Prassen 9 Jul 1921 Konrad Bggf und Gf zu Dohna-Schlodien (Canthen 21 Sep 1872-Schlodien 6 Mar 1936) $$
+					name=Eleonore
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0007	# Richard von Eulenburg
+					mother=lowborn_1544	# Eufemia von Tschirschky-Reichell
+					1887.07.05={birth=yes}  # Prassen
+					1961.09.14={death=yes}  # Varlar
+				}
+			eulenbg_0057={ #// 4c) Anna Ottilie Bertha, cr 1907 Freifrau Schmidt von Schmidtseck (Schlodien 2 Aug 1840-Pöhlen 30 Mar 1926); m.Prassen 6 Jun 1862 Rudolf Schmidt von Schmiedtseck (d.Woplaucken 24 Jan 1898)
+				name=Anna
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0004	# Elimar von Eulenburg
+				mother=100009782	# Bertha zu Dohna-Schlodien
+				1840.08.02={birth=yes}  # Schlodien
+				1926.03.30={death=yes}  # Pöhlen
+			}
+			eulenbg_0058={ #// 5c) Bertha Malwina Wanda (Ratsenburg 13 Sep 1845-Retzow 7 Jul 1922); m.Prassen 17 Aug 1864 Maximilian Frhr von Hammerstein (d.Retzow 10 Sep 1870)
+				name="Wanda"
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0004	# Elimar von Eulenburg
+				mother=100009782	# Bertha zu Dohna-Schlodien
+				1845.09.13={birth=yes}  # Ratsenburg
+				1922.07.07={death=yes}  # Retzow
+			}
+			eulenbg_0059={ #// 6c) Wend Botho Wilhelm Elimar (Prassen 16 Oct 1846-Prassen 25 Dec 1885)
+				name="Wilhelm"
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0004	# Elimar von Eulenburg
+				mother=100009782	# Bertha zu Dohna-Schlodien
+				1846.10.16={birth=yes}  # Prassen
+				1885.12.25={death=yes}  # Prassen
+			}
+			eulenbg_0060={ #// 7c) Helene Bartha Olga Clara (Rastenburg 1 Jun 1848-Pöhlen 10 Apr 1923)
+				name="Olga"
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0004	# Elimar von Eulenburg
+				mother=100009782	# Bertha zu Dohna-Schlodien
+				1848.06.01={birth=yes}  # Rastenburg
+				1923.04.10={death=yes}  # Pöhlen
+			}
+		eulenbg_0061={ #// 2b) Wilhelmine Hedwig Ida (13 Jan 1811-Königsberg 22 Mar 1859)
+			name="Ida"
+			female=yes
+			dynasty=eulenburg
+			religion=lutheran culture=german
+			father=eulenbg_0003	# Botho Wilhelm von Eulenburg
+			mother=lowborn_0873	# Wilhelmine von Klüchtzner
+			1811.01.13={birth=yes}
+			1859.03.22={death=yes}  # Königsberg
+		}
+	eulenbg_0062={ #// 3a) Wenzel Heinrich (Prassen 15 Jul 1779-Wicken 25 Feb 1842); m.Königsberg 10 Jul 1801 Charlotte Friederike Amalie Gfn Finck von Finckenstein (5 Sep 1782-Wicken 19 Aug 1812)
+		name="Heinrich"
+		dynasty=eulenburg
+		religion=lutheran culture=german
+		father=eulenbg_0001	# Ernst Christoph von Eulenburg
+		mother=lowborn_0741	# GFN Katharina Margareta von der Groeben
+		1779.07.15={birth=yes}  # Prassen
+		1801.07.10={add_spouse=lowborn_7259}	# GFN Charlotte Friederike Finck von Finckenstein
+		1842.02.25={death=yes}  # Wicken
+	}
+		eulenbg_0063={ #// 1b) Agnes (Königsberg 24 Jul 1803-Halle 9 Jan 1890); m.Schönbruch 25 Jul 1821 Friedrich Frhr von Schmising, gt Korff (d.Halle 20 Jan 1871)
+			name=Agnes
+			female=yes
+			dynasty=eulenburg
+			religion=lutheran culture=german
+			father=eulenbg_0062	# Heinrich von Eulenburg
+			mother=lowborn_7259	# GFN Charlotte Friederike Finck von Finckenstein
+			1803.07.24={birth=yes}  # Königsberg
+			1890.01.09={death=yes}  # Halle
+		}
+		eulenbg_0064={ #// 2b) Botho Heinrich (Wicken 27 Dec 1804-Berlin 17 Apr 1879); m. Friedrichstein 12 Sep 1830 Therese Gfn von Dönhoff (Königsberg 4 Oct 1806-Berlin 13 Feb 1885) $$
+			name="Botho Heinrich"
+			dynasty=eulenburg
+			religion=lutheran culture=german
+			father=eulenbg_0062	# Heinrich von Eulenburg
+			mother=lowborn_7259	# GFN Charlotte Friederike Finck von Finckenstein
+			1804.12.27={birth=yes}  # Wicken
+			1830.09.12={add_spouse=doenhoff_0021}	# Therese von Dönhoff
+			1879.04.17={death=yes}  # Berlin
+		}
+			eulenbg_0065={ #// 1c) Botho Went August (Wicken 31 Jul 1831-Berlin 5 Feb 1912); m.Neustadt, West Prussia 25 Oct 1875 Elisabeth von Alvensleben (Brandenburg/Havel 22 Sep 1834-Neustadt 5 Sep 1919)
+				name="Botho August"
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0064	# Botho Heinrich von Eulenburg
+				mother=doenhoff_0021	# Therese von Dönhoff
+				1831.07.31={birth=yes}  # Wicken
+				1875.10.25={add_spouse=lowborn_7262}	# Elisabeth von Alvensleben
+				1912.02.05={death=yes}  # Berlin
+			}
+				eulenbg_0066={ #// 1d) Botho (Berlin 15 Feb 1879-Berlin 30 May 1881)
+					name=Botho
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0065	# Botho August von Eulenburg
+					mother=lowborn_7262	# Elisabeth von Alvensleben
+					1879.02.15={birth=yes}  # Berlin
+					1881.05.30={death=yes}  # Berlin
+				}
+			eulenbg_0069={ #// 4c) August Ludwig Traugott (Königsberg 22 Oct 1838-Berlin 18 Jun 1921); m. Collm 26 Sep 1864 Hedda von Witzleben (Berlin 19 Sep 1843-Berlin 25 Mar 1928)
+				name=August
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0064	# Botho Heinrich von Eulenburg
+				mother=doenhoff_0021	# Therese von Dönhoff
+				1838.10.22={birth=yes}  # Königsberg
+				1864.09.26={add_spouse=lowborn_7263}	# Hedda von Witzleben
+				1921.06.18={death=yes}  # Berlin
+			}
+				eulenbg_0070={ #// 1d) Friedrich Wilhelm Botho (Berlin 7 Jan 1866-Berlin 25 May 1880)
+					name="Botho"
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0069	# August von Eulenburg
+					mother=lowborn_7263	# Hedda von Witzleben
+					1866.01.07={birth=yes}  # Berlin
+					1880.05.25={death=yes}  # Berlin
+				}
+				eulenbg_0071={ #// 2d) Wanda Therese Dorothea Emmy Luise (Berlin 17 Oct 1867-Weilheim 23 Feb 1952); m.Bornstedt 27 Jun 1896 Anton von L'Estocq (d.Potsdam 8 Oct 1907)
+					name=Wanda
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0069	# August von Eulenburg
+					mother=lowborn_7263	# Hedda von Witzleben
+					1867.10.17={birth=yes}  # Berlin
+					1952.02.23={death=yes}  # Weilheim
+				}
+				eulenbg_0072={ #// 3d) Victor Karl Louis Max  (Berlin 7 Oct 1870-Davos 13 Mar 1908)
+					name=Victor
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0069	# August von Eulenburg
+					mother=lowborn_7263	# Hedda von Witzleben
+					1870.10.07={birth=yes}  # Berlin
+					1908.03.13={death=yes}  # Davos
+				}
+				eulenbg_0073={ #// 4d) Philipp Richard Carl Wendt (Berlin 16 Apr 1876-Berlin 2 Nov 1945)
+					name="Wendt"
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0069	# August von Eulenburg
+					mother=lowborn_7263	# Hedda von Witzleben
+					1876.04.16={birth=yes}  # Berlin
+					1945.11.02={death=yes}  # Berlin
+				}
+				eulenbg_0074={ #// 5d) Paula Alexandrine Emmy Victoria (Berlin 30 Oct 1882-Köln 2 Jun 1966); m.Berlin 26 Mar 1908 Wilhelm von Schweinitz (Vienna 16 Nov 1873-Berlin 3 Jun 1932)
+					name="Victoria"
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0069	# August von Eulenburg
+					mother=lowborn_7263	# Hedda von Witzleben
+					1882.10.30={birth=yes}  # Berlin
+					1966.06.02={death=yes}  # Köln
+				}
+			eulenbg_0075={ #// 5c) Emmy Charlotte Sperata (Wicken 15 Nov 1840-Kuchelmiss 4 Feb 1872); m.Marienwerder 28 May 1862 Max Gf von Hahn (d.23 Mar 1903)
+				name="Emmy Charlotte"
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0064	# Botho Heinrich von Eulenburg
+				mother=doenhoff_0021	# Therese von Dönhoff
+				1840.11.15={birth=yes}  # Wicken
+				1872.02.04={death=yes}  # Kuchelmiss
+			}
+			eulenbg_0076={ #// 6c) Carl Botho Wend Heinrich (Wicken 2 Jul 1843-Wicken 26 Apr 1919); m.1st Krangen, Pomerania 4 Jun 1867 Luise von Bonin (Berlin 19 Jan 1845-Potsdam 29 Nov 1871); m.2nd Prassen 3 Oct 1894 Marie Gfn zu Eulenburg (17 Dec 1871-1946) $$
+				name=Carl
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0064	# Botho Heinrich von Eulenburg
+				mother=doenhoff_0021	# Therese von Dönhoff
+				1843.07.02={birth=yes}  # Wicken
+				1867.06.04={add_spouse=lowborn_7267}	# Luise von Bonin
+				1894.10.03={add_spouse=eulenbg_0009}	# Marie Emma von Eulenburg
+				1919.04.26={death=yes}  # Wicken
+			}
+				eulenbg_0077={ #// 1d) Alexandra Therese (Königsberg 3 Jun 1868-Boitzenburg 28 Apr 1943); m.Berlin 24 May 1893 Dietlof Gf von Arnim (Berlin 22 Aug 1867-Boitzenburg 15 Apr 1933) $$
+					name="Alexandra Therese"
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0076	# Carl von Eulenburg
+					mother=lowborn_7267	# Luise von Bonin
+					1868.06.03={birth=yes}  # Königsberg
+					1943.04.28={death=yes}  # Boitzenburg
+				}
+				eulenbg_0078={ #// 2d) Wendt (Krangen 6 Sep 1869-Berlin 14 Mar 1870)
+					name=Wendt
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0076	# Carl von Eulenburg
+					mother=lowborn_7267	# Luise von Bonin
+					1869.09.06={birth=yes}  # Krangen
+					1870.03.14={death=yes}  # Berlin
+				}
+				eulenbg_0079={ #// 3d) Siegfried Karl Hermann Botho (Krangen 10 Oct 1870-Lindau im Bodensee 18 Oct 1961); m.Wiesbaden 3 Jan 1898 Johanna von der Burg (Nancy 18 Dec 1872-Lindau 16 Feb 1960)
+					name=Siegfried
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0076	# Carl von Eulenburg
+					mother=lowborn_7267	# Luise von Bonin
+					1870.10.10={birth=yes}  # Krangen
+					1898.01.03={add_spouse=lowborn_7270}	# Johanna von der Burg
+					1961.10.18={death=yes}  # Lindau im Bodensee
+				}
+					eulenbg_0080={ #// 1e) Siegrid Alexandra (Berlin 6 Nov 1898-Berlin 28 Sep 1965)
+						name="Siegrid Alexandra"
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=north_german
+						father=eulenbg_0079	# Siegfried von Eulenburg
+						mother=lowborn_7270	# Johanna von der Burg
+						1898.11.06={birth=yes}  # Berlin
+						1965.09.28={death=yes}  # Berlin
+					}
+					eulenbg_0081={ #// 2e) Botho-Ernst Karl Dietlof (Berlin 8 Sep 1903-k.a.nr Glebokie 3 Jul 1944); m.Berlin 16 Jul 1938 Adelheid Frn von Weizsäcker (Rüstringen, Oldenburg 7 Apr 1916-26 Nov 2004)
+						name="Botho-Ernst Karl"
+						dynasty=eulenburg
+						religion=lutheran culture=north_german
+						father=eulenbg_0079	# Siegfried von Eulenburg
+						mother=lowborn_7270	# Johanna von der Burg
+						1903.09.08={birth=yes}  # Berlin
+						1938.07.16={add_spouse=lowborn_7271}	# FRN Adelheid von Weizsäcker
+						1944.07.03={death=yes}
+					}
+						eulenbg_0082={ #// 1f) Heilwig (Berlin 10 Sep 1939-12 Mar 1975)
+							name=Heilwig
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=north_german
+							father=eulenbg_0081	# Botho-Ernst Karl von Eulenburg
+							mother=lowborn_7271	# FRN Adelheid von Weizsäcker
+							1939.09.10={birth=yes}  # Berlin
+							1975.03.12={death=yes}
+						}
+						eulenbg_0083={ #// 2f) Apollonia (b.Lindau 18 Nov 1944); m.Lindau 28 Sep 1969 Martin Heisenberg (b.Munich 7 Aug 1940)
+							name=Apollonia
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0081	# Botho-Ernst Karl von Eulenburg
+							mother=lowborn_7271	# FRN Adelheid von Weizsäcker
+							1944.11.18={birth=yes}  # Lindau
+						}
+				eulenbg_0084={ #// 4d) Carl-Elimar Botho Wend Heinrich Richard Mortimer August (Königsberg 30 Nov 1895-Göttingen 13 Oct 1983); m.Sondershausen 25 Sep 1931 Thea von Halem (Marienwerder 5 Apr 1903-20 Jun 1991)
+					name=Carl-Elimar
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0076	# Carl von Eulenburg
+					mother=eulenbg_0009	# Marie Emma von Eulenburg
+					1895.11.30={birth=yes}  # Königsberg
+					1931.09.25={add_spouse=lowborn_7273}	# Thea von Halem
+					1983.10.13={death=yes}  # Göttingen
+				}
+					eulenbg_0085={ #// 1e) Karl Gustav Elimar Botho Heinrich (Sondershausen 12 Jul 1932-Guxhagen 22 Jan 1982); m.Munich 2 Jul 1961 Sigrid von Köller, who took the surname von Platen (Kiel 29 Oct 1919-Berlin 3 Jul 2006)
+						name=Karl
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0084	# Carl-Elimar von Eulenburg
+						mother=lowborn_7273	# Thea von Halem
+						1932.07.12={birth=yes}  # Sondershausen
+						1961.07.02={add_spouse=lowborn_7274}	# Sigrid von Köller
+						1982.01.22={death=yes}  # Guxhagen
+					}
+					eulenbg_0086={ #// 2e) Alexandra Dorothea Hertha Marie Juliane Martina (b.Gumbinnen 10 Nov 1933); m.1st Assenheim 10 Jul 1960 (div 1973) Günther Gf zu Solms-Rödelheim u.Assenheim (Bad Nauheim 7 Sep 1931-Munich 10 Feb 1979); m.2nd Geneva 19__ Jean-Louis Sprecher (b.23 Apr 1940) $$
+						name=Alexandra
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0084	# Carl-Elimar von Eulenburg
+						mother=lowborn_7273	# Thea von Halem
+						1933.11.10={birth=yes}  # Gumbinnen
+						2008.01.01={death=yes}  # EST.
+					}
+					eulenbg_0087={ #// 3e) Albrecht (Danzig-Langfuhr 1 Aug 1942-Berlin-Zehlendorf 12 Oct 1945)
+						name=Albrecht
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0084	# Carl-Elimar von Eulenburg
+						mother=lowborn_7273	# Thea von Halem
+						1942.08.01={birth=yes}  # Danzig-Langfuhr
+						1945.10.12={death=yes}  # Berlin-Zehlendorf
+					}
+				eulenbg_0088={ #// 5d) Fritz Albrecht (Königsberg 8 Jan 1897-Eltville 20 Apr 1982); m.1st Berlin 25 Jan 1930 Dorothée Gfn von Pfeil und Klein-Ellguth (Kassel 17 Nov 1897-Insterburg 13 Apr 1934); m.2nd Berlin 9 Nov 1935 Barbara Gfn von Pfeil und Klein-Ellguth (Frankfurt an der Oder 1 Aug 1902-Reinbek 3 Aug 1982)
+					name="Fritz Albrecht"
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0076	# Carl von Eulenburg
+					mother=eulenbg_0009	# Marie Emma von Eulenburg
+					1897.01.08={birth=yes}  # Königsberg
+					1930.01.25={add_spouse=lowborn_7277}	# GFN Dorothée-Ellguth von Pfeil
+					1935.11.09={add_spouse=lowborn_7278}	# GFN Barbara-Ellguth von Pfeil
+					1982.04.20={death=yes}  # Eltville
+				}
+					eulenbg_0089={ #// 1e) Carl Heinrich Franz Siegfried Friedrich Otto Albrecht (Insterburg 8 Jan 1931-Halle-Trotha 15 Apr 1945)
+						name=Carl
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0088	# Fritz Albrecht von Eulenburg
+						mother=lowborn_7277	# GFN Dorothée-Ellguth von Pfeil
+						1931.01.08={birth=yes}  # Insterburg
+						1945.04.15={death=yes}  # Halle-Trotha
+					}
+					eulenbg_0090={ #// 2e) Christoph Franz Botho Wend (Insterburg 7 Apr 1934-5 Apr 2019); m.Bremen 13 Jul 1973 Gita Kabisch Willings (b.Berlin 5 Jun 1940)
+						name=Christoph
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0088	# Fritz Albrecht von Eulenburg
+						mother=lowborn_7277	# GFN Dorothée-Ellguth von Pfeil
+						1934.04.07={birth=yes}  # Insterburg
+						1973.07.13={add_spouse=lowborn_7279}	# Gita Kabisch Willings
+						2019.04.05={death=yes}
+					}
+						eulenbg_0091={ #// 1f) Elisabeth Dorothee Marie Antonie (b.Marburg an der Lahn 22 Aug 1977)
+							name=Elisabeth
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0090	# Christoph von Eulenburg
+							mother=lowborn_7279	# Gita Kabisch Willings
+							1977.08.22={birth=yes}  # Marburg an der Lahn
+						}
+						eulenbg_0092={ #// 2f) Carl Friedrich Jonas Botho-Wend (b.Marburg 8 Jan 1980)
+							name=Carl
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0090	# Christoph von Eulenburg
+							mother=lowborn_7279	# Gita Kabisch Willings
+							1980.01.08={birth=yes}  # Marburg
+						}
+						eulenbg_0093={ #// 3f) Georg Albrecht Botho-Heinrich (b.Marburg 17 Sep 1981)
+							name=Georg
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0090	# Christoph von Eulenburg
+							mother=lowborn_7279	# Gita Kabisch Willings
+							1981.09.17={birth=yes}  # Marburg
+						}
+					eulenbg_0094={ #// 3e) Marie-Luise Dorothee Amélie Vera (Insterburg 7 Apr 1934-Fulda 19 Aug 2021)
+						name=Marie-Luise
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0088	# Fritz Albrecht von Eulenburg
+						mother=lowborn_7277	# GFN Dorothée-Ellguth von Pfeil
+						1934.04.07={birth=yes}  # Insterburg
+						2021.08.19={death=yes}  # Fulda
+					}
+				eulenbg_0095={ #// 6d) Karl Richard August Botho Wend Heinrich (Königsberg 18 Mar 1899-Romsdorf 5 Oct 1927)
+					name="Heinrich"
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0076	# Carl von Eulenburg
+					mother=eulenbg_0009	# Marie Emma von Eulenburg
+					1899.03.18={birth=yes}  # Königsberg
+					1927.10.05={death=yes}  # Romsdorf
+				}
+				eulenbg_0096={ #// 7d) Jonas Kasimir (Königsberg 26 Jul 1901-k.a.Bunzlauer Stadtforst 8 Apr 1945); m.Groß-Plauen 14 Sep 1927 Emmy von Weiß (Königsberg 7 Sep 1903-Reinbek 12 Jan 1976)
+					name="Jonas Kasimir"
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0076	# Carl von Eulenburg
+					mother=eulenbg_0009	# Marie Emma von Eulenburg
+					1901.07.26={birth=yes}  # Königsberg
+					1927.09.14={add_spouse=lowborn_7280}	# Emmy von Weiß
+					1945.04.08={death=yes}
+				}
+					eulenbg_0097={ #// 1e) Marie Elisabeth Iginia Emmy (b.Königsberg 8 Apr 1929); m.Wentorf 22 Mar 1952 Günther Weiß (Jerusalem 15 Nov 1913-1981)
+						name="Marie Elisabeth"
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0096	# Jonas Kasimir von Eulenburg
+						mother=lowborn_7280	# Emmy von Weiß
+						1929.04.08={birth=yes}  # Königsberg
+						2004.01.01={death=yes}  # EST.
+					}
+					eulenbg_0098={ #// 2e) Otto Albrecht Karl (Königsberg 1 Feb 1931-Bremen? 7 Apr 2004); m.1st Hamburg 16 Jun 1958 (div 1959) Ingeborg von Trotha (b.Wilhelmshaven 10 Jun 1933); m.2nd (civ) Wentorf 28 Aug 1964 (rel) Wohltorf 12 Sep 1964 Iris von Hugo (b.Breslau 10 Jan 1942)
+						name=Otto
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0096	# Jonas Kasimir von Eulenburg
+						mother=lowborn_7280	# Emmy von Weiß
+						1931.02.01={birth=yes}  # Königsberg
+						1958.06.16={add_spouse=lowborn_7282}	# Ingeborg von Trotha
+						1959.01.01={remove_spouse=lowborn_7282}
+						1964.08.28={add_spouse=lowborn_7283}	# Iris von Hugo
+						2004.04.07={death=yes}  # Bremen?
+					}
+						eulenbg_0099={ #// 1f) Juliane Maria (b.London 7 Jan 1959); m.Bremen 18 Sep 1992 Joachim Dessaules (b.Hamburg 31 Jul 1949)
+							name=Juliane
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=english
+							father=eulenbg_0098	# Otto von Eulenburg
+							mother=lowborn_7282	# Ingeborg von Trotha
+							1959.01.07={birth=yes}  # London
+						}
+						eulenbg_0100={ #// 2f) Konstantin Otto (b.Hamburg 21 Jun 1965); m.Reinbek bei Hamburg 6 Mar 1998 Bettina Wehosky (b.Hamburg 13 Jul 1965)
+							name="Konstantin Otto"
+							dynasty=eulenburg
+							religion=lutheran culture=north_german
+							father=eulenbg_0098	# Otto von Eulenburg
+							mother=lowborn_7283	# Iris von Hugo
+							1965.06.21={birth=yes}  # Hamburg
+							1998.03.06={add_spouse=lowborn_7285}	# Bettina Wehosky
+						}
+							eulenbg_0101={ #// 1g) Emily Viktoria, b.Hamburg 17 Jun 1998
+								name="Emily Viktoria"
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0100	# Konstantin Otto von Eulenburg
+								mother=lowborn_7285	# Bettina Wehosky
+								1998.06.17={birth=yes}  # Hamburg
+							}
+							eulenbg_0102={ #// 2g) Antonie Elisabeth, b.Hamburg 6 Sep 2000
+								name="Antonie Elisabeth"
+								female=yes
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0100	# Konstantin Otto von Eulenburg
+								mother=lowborn_7285	# Bettina Wehosky
+								2000.09.06={birth=yes}  # Hamburg
+							}
+						eulenbg_0103={ #// 3f) Judith Elisabeth (b.Hamburg 2 Jun 1966); m.Hamburg 22 May 1999 André Schneider (b.São Paulo 2 Jan 1973)
+							name="Judith Elisabeth"
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=north_german
+							father=eulenbg_0098	# Otto von Eulenburg
+							mother=lowborn_7283	# Iris von Hugo
+							1966.06.02={birth=yes}  # Hamburg
+						}
+						eulenbg_0104={ #// 4f) Alexander Bogislav (b.Hamburg 12 Aug 1972); m.Carolin Albert
+							name="Alexander Bogislav"
+							dynasty=eulenburg
+							religion=lutheran culture=north_german
+							father=eulenbg_0098	# Otto von Eulenburg
+							mother=lowborn_7283	# Iris von Hugo
+							1972.08.12={birth=yes}  # Hamburg
+							1998.01.01={add_spouse=lowborn_7287}	# Carolin Albert
+						}
+					eulenbg_0105={ #// 3e) Jutta Szesima Renate (b.Königsberg 29 Sep 1934); m.(civ) Reinbek 14 May 1957 (rel) Wohltorf 15 May 1957 Wolfdietrich Tiefenbacher (Reinbek 17 Mar 1926-1 Dec 2003)
+						name="Jutta Renate"
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0096	# Jonas Kasimir von Eulenburg
+						mother=lowborn_7280	# Emmy von Weiß
+						1934.09.29={birth=yes}  # Königsberg
+						2009.01.01={death=yes}  # EST.
+					}
+					eulenbg_0106={ #// 4e) Friedrich Emmerich Jonas Kasimir (b.Groß-Plauen 10 Jul 1939); m.(civ) Heidelberg 21 Mar 1967 (rel) Heidenheim an der Brenz 15 Jul 1967 Ursula Wolff (b.Heidenheim 26 Apr 1939)
+						name=Friedrich
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0096	# Jonas Kasimir von Eulenburg
+						mother=lowborn_7280	# Emmy von Weiß
+						1939.07.10={birth=yes}  # Groß-Plauen
+						1967.03.21={add_spouse=lowborn_7289}	# Ursula Wolff
+						2009.01.01={death=yes}  # EST.
+					}
+						eulenbg_0107={ #// 1f) Kirsten Odette Stephanie (b.Heidenheim 2 Dec 1967); m.Munich 23 Aug 1996 (rel) Hechendorf 24 Aug 1996 Dietrich Müller (b.Singen 14 Jan 1965)
+							name="Kirsten Stephanie"
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0106	# Friedrich von Eulenburg
+							mother=lowborn_7289	# Ursula Wolff
+							1967.12.02={birth=yes}  # Heidenheim
+						}
+						eulenbg_0108={ #// 2f) Nicole Elisabeth (b.Heidenheim 27 Feb 1970)
+							name="Nicole Elisabeth"
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0106	# Friedrich von Eulenburg
+							mother=lowborn_7289	# Ursula Wolff
+							1970.02.27={birth=yes}  # Heidenheim
+						}
+				eulenbg_0109={ #// 8d) Szesima Euphemie Therese Marie (Wicken 20 Jun 1903-Kassel 1 Dec 1980); m.(civ) Prassen 3 Sep 1931 (rel) Schönbruch 6 Sep 1931 Hans Carl von Haebler (Großschönau 21 Oct 1901-Marburg 13 Feb 1978)
+					name=Szesima
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0076	# Carl von Eulenburg
+					mother=eulenbg_0009	# Marie Emma von Eulenburg
+					1903.06.20={birth=yes}  # Wicken
+					1980.12.01={death=yes}  # Kassel
+				}
+			eulenbg_0110={ #// 7c) Therese Agnes (19 May 1845-Kuchelmiss 14 Oct 1863)
+				name="Therese Agnes"
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0064	# Botho Heinrich von Eulenburg
+				mother=doenhoff_0021	# Therese von Dönhoff
+				1845.05.19={birth=yes}
+				1863.10.14={death=yes}  # Kuchelmiss
+			}
+			eulenbg_0111={ #// 8c) Wend [Werner?] Botho (19 May 1845-Berlin 7 Dec 1875)
+				name="Wend"
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0064	# Botho Heinrich von Eulenburg
+				mother=doenhoff_0021	# Therese von Dönhoff
+				1845.05.19={birth=yes}
+				1875.12.07={death=yes}  # Berlin
+			}
+	eulenbg_0114={ #// 4a) Emilie Hedwig (21 Oct 1780-Königsberg 30 Jun 1853); m.12 Feb 1802 Karl Ludwig August von Wegnern (3 Aug 1777-Königsberg 7 Nov 1854)
+		name="Emilie Hedwig"
+		female=yes
+		dynasty=eulenburg
+		religion=lutheran culture=german
+		father=eulenbg_0001	# Ernst Christoph von Eulenburg
+		mother=lowborn_0741	# GFN Katharina Margareta von der Groeben
+		1780.10.21={birth=yes}
+		1853.06.30={death=yes}  # Königsberg
+	}
+	eulenbg_0115={ #// 5a) Alexander Ernst (19 Dec 1781-Königsberg 13 Mar 1845); m.Oct 1810 Friederike von Rautter (Willkam 13 Jan 1793-Königsberg 6 Apr 1812)
+		name="Ernst"
+		dynasty=eulenburg
+		religion=lutheran culture=german
+		father=eulenbg_0001	# Ernst Christoph von Eulenburg
+		mother=lowborn_0741	# GFN Katharina Margareta von der Groeben
+		1781.12.19={birth=yes}
+		1810.10.01={add_spouse=lowborn_7293}	# Friederike von Rautter
+		1845.03.13={death=yes}  # Königsberg
+	}
+		eulenbg_0116={ #// 1b) Ludwig Botho (25 Feb 1811-Gallingen 26 Feb 1867); m.Carwinden 14 Jun 1844 Malwina Bggfn und Gfn zu Dohna-Schlodien (Raudnitz 6 Sep 1816-Königsberg 7 Apr 1887) $$
+			name="Ludwig Botho"
+			dynasty=eulenburg
+			religion=lutheran culture=german
+			father=eulenbg_0115	# Ernst von Eulenburg
+			mother=lowborn_7293	# Friederike von Rautter
+			1811.02.25={birth=yes}
+			1844.06.14={add_spouse=100009784}	# Malwina zu Dohna-Schlodien
+			1867.02.26={death=yes}  # Gallingen
+		}
+			eulenbg_0118={ #// 2c) Malwine Clara Marie (Gallingen 9 Aug 1847-Berlin 5 Feb 1917); m.Gallingen 28 Aug 1869 Botho von Oldenburg (Beisleiden 15 Dec 1814-Beisleiden 14 May 1888)
+				name="Marie"
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0116	# Ludwig Botho von Eulenburg
+				mother=100009784	# Malwina zu Dohna-Schlodien
+				1847.08.09={birth=yes}  # Gallingen
+				1917.02.05={death=yes}  # Berlin
+			}
+			eulenbg_0119={ #// 3c) Betty Julie Ottilie Bertha Clara (Gallingen 1 Jan 1849-Carwinden 29/30 Apr 1924); m.Gallingen 22 Jul 1868 Adolf Bggf und Gf zu Dohna-Schlodien (Königsberg 30 Jan 1846-Schlodien 6 Aug 1905) $$
+				name="Clara"
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0116	# Ludwig Botho von Eulenburg
+				mother=100009784	# Malwina zu Dohna-Schlodien
+				1849.01.01={birth=yes}  # Gallingen
+				1924.04.29={death=yes}  # Carwinden
+			}
+			eulenbg_0120={ #// 4c) Arthur Botho (Gallingen 14 Jan 1853-Königsberg 14 Jan 1905); m.Potsdam 28 Aug 1877 Elisabeth Frn von Esebeck (Berlin 20 Oct 1857-Potsdam 28 May 1914)
+				name="Arthur Botho"
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0116	# Ludwig Botho von Eulenburg
+				mother=100009784	# Malwina zu Dohna-Schlodien
+				1853.01.14={birth=yes}  # Gallingen
+				1877.08.28={add_spouse=lowborn_7297}	# FRN Elisabeth von Esebeck
+				1905.01.14={death=yes}  # Königsberg
+			}
+				eulenbg_0121={ #// 1d) Elisabeth (5 Nov 1878-24 Nov 1878)
+					name=Elisabeth
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0120	# Arthur Botho von Eulenburg
+					mother=lowborn_7297	# FRN Elisabeth von Esebeck
+					1878.11.05={birth=yes}
+					1878.11.24={death=yes}
+				}
+				eulenbg_0122={ #// 2d) Therese Klara Malwine Margarete (Gallingen 27 Nov 1880-Potsdam 25 Jan 1964); m.Gallingen 21 Sep 1907 Ernst von Kretschmann (Hergisdorf, Silesia 12 Nov 1874-Hohenschönhausen 13 Sep 1945)
+					name=Therese
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0120	# Arthur Botho von Eulenburg
+					mother=lowborn_7297	# FRN Elisabeth von Esebeck
+					1880.11.27={birth=yes}  # Gallingen
+					1964.01.25={death=yes}  # Potsdam
+				}
+				eulenbg_0123={ #// 3d) Karl Ludwig Arthur Botho-Wendt (Gallingen 27 Mar 1883-d.in transport to Siberia Mar 1945); m.Berlin 13 May 1937 Emily Bss von Stael-Holstein (Waldhof 21 Dec 1890-Konstanz-Wollmatingen 26 Jun 1968)
+					name="Botho-Wendt"
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0120	# Arthur Botho von Eulenburg
+					mother=lowborn_7297	# FRN Elisabeth von Esebeck
+					1883.03.27={birth=yes}  # Gallingen
+					1937.05.13={add_spouse=lowborn_7299}	# BSS Emily von Stael-Holstein
+					1945.03.01={death=yes}
+				}
+			eulenbg_0124={ #// 5c) Martha (Gallingen 22 Apr 1855-Korklack 24 Aug 1903); m.Gallingen 6 Nov 1872 Klemens Gf von Klinckowstroem (Korklack 11 Jun 1846-Berlin 26 Jan 1902)
+				name=Martha
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0116	# Ludwig Botho von Eulenburg
+				mother=100009784	# Malwina zu Dohna-Schlodien
+				1855.04.22={birth=yes}  # Gallingen
+				1903.08.24={death=yes}  # Korklack
+			}
+	eulenbg_0125={ #// 6a) Charlotte Sophie Maximiliane (18 Jan 1783-May 1785)
+		name=Charlotte
+		female=yes
+		dynasty=eulenburg
+		religion=lutheran culture=german
+		father=eulenbg_0001	# Ernst Christoph von Eulenburg
+		mother=lowborn_0741	# GFN Katharina Margareta von der Groeben
+		1783.01.18={birth=yes}
+		1785.05.01={death=yes}
+	}
+	eulenbg_0126={ #// 7a) Gottfried Karl Eduard (19 May 1784-Gallingen 22 Aug 1848)
+		name="Eduard"
+		dynasty=eulenburg
+		religion=lutheran culture=german
+		father=eulenbg_0001	# Ernst Christoph von Eulenburg
+		mother=lowborn_0741	# GFN Katharina Margareta von der Groeben
+		1784.05.19={birth=yes}
+		1848.08.22={death=yes}  # Gallingen
+	}
+	eulenbg_0127={ #// 8a) Hans Albrecht Ludwig (24 Apr 1786-Gallingen 27 Oct 1863)
+		name="Ludwig"
+		dynasty=eulenburg
+		religion=lutheran culture=german
+		father=eulenbg_0001	# Ernst Christoph von Eulenburg
+		mother=lowborn_0741	# GFN Katharina Margareta von der Groeben
+		1786.04.24={birth=yes}
+		1863.10.27={death=yes}  # Gallingen
+	}
+	eulenbg_0128={ #// 9a) Friedrich Leopold (Prassen 26 Dec 1787-Königsberg 30 Jul 1845); m.Königsberg 23 Oct 1811 Amalie Julie Eleonore von Kleist (Perkuiken 26 May 1792-Königsberg 16 Nov 1830)
+		name="Friedrich Leopold"
+		dynasty=eulenburg
+		religion=lutheran culture=german
+		father=eulenbg_0001	# Ernst Christoph von Eulenburg
+		mother=lowborn_0741	# GFN Katharina Margareta von der Groeben
+		1787.12.26={birth=yes}  # Prassen
+		1811.10.23={add_spouse=lowborn_7301}	# Amalie Julie von Kleist
+		1845.07.30={death=yes}  # Königsberg
+	}
+		eulenbg_0131={ #// 3b) Friedrich Albrecht (Königsberg 29 Jun 1815-Schöneberg 2 Jun 1881)
+			name="Friedrich Albrecht"
+			dynasty=eulenburg
+			religion=lutheran culture=german
+			father=eulenbg_0128	# Friedrich Leopold von Eulenburg
+			mother=lowborn_7301	# Amalie Julie von Kleist
+			1815.06.29={birth=yes}  # Königsberg
+			1881.06.02={death=yes}  # Schöneberg
+		}
+		eulenbg_0132={ #// 4b) Elisabeth Amalie Wilhelmine (Königsberg 27 Aug 1817-Berlin 15 Jun 1853)
+			name=Elisabeth
+			female=yes
+			dynasty=eulenburg
+			religion=lutheran culture=german
+			father=eulenbg_0128	# Friedrich Leopold von Eulenburg
+			mother=lowborn_7301	# Amalie Julie von Kleist
+			1817.08.27={birth=yes}  # Königsberg
+			1853.06.15={death=yes}  # Berlin
+		}
+		eulenbg_0133={ #// 5b) Philipp Conrad (Königsberg 24 Apr 1820-Berlin 5 Mar 1889); m.Berlin 22 Apr 1846 Alexandrine Frn von Rothkirch und Panthen (Glogau 20 Jun 1824-Meran 11 Apr 1902)
+			name="Philipp Conrad"
+			dynasty=eulenburg
+			religion=lutheran culture=german
+			father=eulenbg_0128	# Friedrich Leopold von Eulenburg
+			mother=lowborn_7301	# Amalie Julie von Kleist
+			1820.04.24={birth=yes}  # Königsberg
+			1846.04.22={add_spouse=lowborn_7302}	# FRN Alexandrine von Rothkirch
+			1889.03.05={death=yes}  # Berlin
+		}
+			eulenbg_0134={ #// 1c) PHILIPP Friedrich Alexander, cr Fst zu Eulenburg u.Hertefeld, Graf von Sandels (Königsberg 12 Feb 1847-Liebenberg 17 Sep 1921); m.Stockholm 20 Nov 1875 Augusta Sandels (Stockholm 12 May 1853-Liebenberg 14 Dec 1941)
+				name=Philipp
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0133	# Philipp Conrad von Eulenburg
+				mother=lowborn_7302	# FRN Alexandrine von Rothkirch
+				1847.02.12={birth=yes}  # Königsberg
+				1875.11.20={add_spouse=lowborn_7303}	# Augusta Sandels
+				1921.09.17={death=yes}  # Liebenberg
+			}
+				eulenbg_0135={ #// 1d) Philipp (Wulkow 16 Nov 1876-Berlin 28 Jun 1878)
+					name=Philipp
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0134	# Philipp von Eulenburg
+					mother=lowborn_7303	# Augusta Sandels
+					1876.11.16={birth=yes}  # Wulkow
+					1878.06.28={death=yes}  # Berlin
+				}
+				eulenbg_0136={ #// 2d) Astrid Alexandrine Augusta Adda (Berlin 25 Mar 1879-Paris 23 Mar 1881)
+					name=Astrid
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0134	# Philipp von Eulenburg
+					mother=lowborn_7303	# Augusta Sandels
+					1879.03.25={birth=yes}  # Berlin
+					1881.03.23={death=yes}  # Paris
+				}
+				eulenbg_0137={ #// 3d) Alexandrine Elise Klara Antonia (Liebenberg 1 Jul 1880-Friedelhausen 3 Feb 1957); m.Liebenberg 15 Jun 1910 Eberhard Gf von Schwerin (Weilburg 11 Jul 1882-Gießen 4 Apr 1954)
+					name=Alexandrine
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0134	# Philipp von Eulenburg
+					mother=lowborn_7303	# Augusta Sandels
+					1880.07.01={birth=yes}  # Liebenberg
+					1957.02.03={death=yes}  # Friedelhausen
+				}
+				eulenbg_0138={ #// 4d) FRIEDRICH-WEND Fst zu Eulenburg u.Hertefeld, Gf von Sandels (Starnberg 19 Sep 1881- Weeze 1 Aug 1963); m.Liebenberg 21 May 1904 Marie Frn Mayr von Melnhof (Vienna 8 Apr 1884-Weeze 3 Feb 1960)
+					name=FRIEDRICH-WEND
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0134	# Philipp von Eulenburg
+					mother=lowborn_7303	# Augusta Sandels
+					1881.09.19={birth=yes}  # Starnberg
+					1904.05.21={add_spouse=lowborn_7305}	# FRN Marie Mayr von Melnhof
+					1963.08.01={death=yes}  # Weeze
+				}
+					eulenbg_0139={ #// 1e) Ingeborg-Marie Alexandrine Mathilde Augusta (Liebenberg 8 Sep 1906-Salzburg 15 Dec 2000); m.1st (civ) Falkenthal bei Gransee 2 Nov 1926 (rel) Liebenberg 3 Nov 1926 (div 1936) Rudolf Baron von Engelhardt (Schönheyden 18 Sep 1896-Starnberg 27 Aug 1991); m.2nd Liebenberg 19 Jul 1937 Carl August von Schoenebeck (Bernstadt 19 Jan 1898-Munich 4 Sep 1989)
+						name=Ingeborg-Marie
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0138	# FRIEDRICH-WEND von Eulenburg
+						mother=lowborn_7305	# FRN Marie Mayr von Melnhof
+						1906.09.08={birth=yes}  # Liebenberg
+						2000.12.15={death=yes}  # Salzburg
+					}
+					eulenbg_0140={ #// 2e) WEND Fst zu Eulenburg u.Hertefeld, Gf von Sandels (Liebenberg 28 Oct 1908-Sorengo 26 Aug 1986); m.1st Berlin 3 Jun 1937 (div 1967) Hildegard Semper (Wittlich 10 Jun 1913- Düsseldorf 25 Apr 1986); m.2nd Staufenberg 23 Feb 1967 Gisela von der Schulenburg (Köln-Lindenthal 29 Jun 1920-Munich 22 May 2014)
+						name=Wend
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=eulenbg_0138	# FRIEDRICH-WEND von Eulenburg
+						mother=lowborn_7305	# FRN Marie Mayr von Melnhof
+						1908.10.28={birth=yes}  # Liebenberg
+						1937.06.03={add_spouse=lowborn_7308}	# Hildegard Semper
+						1967.01.01={remove_spouse=lowborn_7308}
+						1967.02.23={add_spouse=lowborn_7309}	# Gisela von der Schulenburg
+						1986.08.26={death=yes}  # Sorengo
+					}
+						eulenbg_0141={ #// 1f) PHILIPP-Gottfried Fst zu Eulenburg u.Hertefeld, Gf von Sandels (b.Berlin 27 Apr 1938); m.Düsseldorf (civ) 17 Apr 1964 (rel) 18 Apr 1964 Christiane Pollay (Lüneburg 16 Aug 1941-Krefeld 10 Jan 2013)
+							name="Philipp"
+							dynasty=eulenburg
+							religion=lutheran culture=north_german
+							father=eulenbg_0140	# Wend von Eulenburg
+							mother=lowborn_7308	# Hildegard Semper
+							1938.04.27={birth=yes}  # Berlin
+							1964.04.17={add_spouse=lowborn_7310}	# Christiane Pollay
+						}
+							eulenbg_0142={ #// 1g) Friedrich Philipp Gf zu Eulenburg u.Hertefeld (b.Hamburg 7 Sep 1966); m.Weeze 2 Dec 1997 (rel) Budapest 23 May 1998 Patricia Erkel (b.Zürich 15 Jan 1970)
+								name="Friedrich Philipp"
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0141	# Philipp von Eulenburg
+								mother=lowborn_7310	# Christiane Pollay
+								1966.09.07={birth=yes}  # Hamburg
+								1997.12.02={add_spouse=lowborn_7311}	# Patricia Erkel
+							}
+								eulenbg_0143={ #// 1h) Viktoria
+									name=Viktoria
+									female=yes
+									dynasty=eulenburg
+									religion=lutheran culture=german
+									father=eulenbg_0142	# Friedrich Philipp von Eulenburg
+									mother=lowborn_7311	# Patricia Erkel
+									1998.01.01={birth=yes}  # EST.
+								}
+								eulenbg_0144={ #// 2h) Alexandra
+									name=Alexandra
+									female=yes
+									dynasty=eulenburg
+									religion=lutheran culture=german
+									father=eulenbg_0142	# Friedrich Philipp von Eulenburg
+									mother=lowborn_7311	# Patricia Erkel
+									2000.01.01={birth=yes}  # EST.
+								}
+								eulenbg_0145={ #// 3h) Constantin (b.2009)
+									name=Constantin
+									dynasty=eulenburg
+									religion=lutheran culture=german
+									father=eulenbg_0142	# Friedrich Philipp von Eulenburg
+									mother=lowborn_7311	# Patricia Erkel
+									2009.01.01={birth=yes}
+								}
+							eulenbg_0146={ #// 2g) Botho Siegwart Christian (b.Stuttgart 27 Mar 1969); m.Weeze 23 Apr 1999 (rel) Aachen 29 May 1999 Franziska Wirtz (b.Edmonton, Alberta 17 Jan 1973)
+								name="Botho Christian"
+								dynasty=eulenburg
+								religion=lutheran culture=north_german
+								father=eulenbg_0141	# Philipp von Eulenburg
+								mother=lowborn_7310	# Christiane Pollay
+								1969.03.27={birth=yes}  # Stuttgart
+								1999.04.23={add_spouse=lowborn_7312}	# Franziska Wirtz
+							}
+								eulenbg_0147={ #// 1h) Augusta Aurelia Louise Theodora Marie (b.Willich 3 Sep 2000)
+									name=Augusta
+									female=yes
+									dynasty=eulenburg
+									religion=lutheran culture=german
+									father=eulenbg_0146	# Botho Christian von Eulenburg
+									mother=lowborn_7312	# Franziska Wirtz
+									2000.09.03={birth=yes}  # Willich
+								}
+								eulenbg_0148={ #// 2h) Botho Wend (b.2004)
+									name=Botho
+									dynasty=eulenburg
+									religion=lutheran culture=german
+									father=eulenbg_0146	# Botho Christian von Eulenburg
+									mother=lowborn_7312	# Franziska Wirtz
+									2004.01.01={birth=yes}
+								}
+						eulenbg_0149={ #// 2f) Fides Gabriele Viktoria (b.Häsen 7 Oct 1943); m.Düsseldorf 1 Feb 1969 Bolko von Gersdorff (Bauchwitz 18 Nov 1938-Düsseldorf 3 Aug 2015)
+							name="Viktoria"
+							female=yes
+							dynasty=eulenburg
+							religion=lutheran culture=german
+							father=eulenbg_0140	# Wend von Eulenburg
+							mother=lowborn_7308	# Hildegard Semper
+							1943.10.07={birth=yes}  # Häsen
+						}
+				eulenbg_0150={ #// 5d) Augusta Alexandrine (Starnberg 1 Sep 1882-Starnberg 28 Jan 1974); m.London 4 Feb 1907 (div 1931) Edmund Jaroljmeck
+					name="Augusta Alexandrine"
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0134	# Philipp von Eulenburg
+					mother=lowborn_7303	# Augusta Sandels
+					1882.09.01={birth=yes}  # Starnberg
+					1974.01.28={death=yes}  # Starnberg
+				}
+				eulenbg_0151={ #// 6d) Sigwart Botho Philipp August (Munich 10 Jan 1884-k.a.Jaslo, Galicia 2 Jun 1915); m.Leipzig 21 Sep 1909 Helene Staegemann (Hannover 18 Apr 1877-Partenkirchen 20 Aug 1923)
+					name=Sigwart
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0134	# Philipp von Eulenburg
+					mother=lowborn_7303	# Augusta Sandels
+					1884.01.10={birth=yes}  # Munich
+					1909.09.21={add_spouse=lowborn_7315}	# Helene Staegemann
+					1915.06.02={death=yes}
+				}
+					eulenbg_0152={ #// 1e) Friedrich Maximilian Philipp Donatus (Dresden 19 Feb 1914-Munich 2 Feb 1936)
+						name=Friedrich
+						dynasty=eulenburg
+						religion=lutheran culture=north_german
+						father=eulenbg_0151	# Sigwart von Eulenburg
+						mother=lowborn_7315	# Helene Staegemann
+						1914.02.19={birth=yes}  # Dresden
+						1936.02.02={death=yes}  # Munich
+					}
+				eulenbg_0153={ #// 7d) Karl Kuno Eberhard Wend (Starnberg 16 Jun 1885-Weeze 4 Dec 1975); m.1st St.Hélier, Jersey 27 May 1908 (div 1923) Sophie Moshammer (Munich 9 Apr 1891-Munich 8 May 1944); m.2nd Munich 5 Nov 1923 Geertruida Verwey (Utrecht 6 May 1901-Weeze 28 Oct 1987)
+					name=Karl
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0134	# Philipp von Eulenburg
+					mother=lowborn_7303	# Augusta Sandels
+					1885.06.16={birth=yes}  # Starnberg
+					1908.05.27={add_spouse=lowborn_7316}	# Sophie Moshammer
+					1923.01.01={remove_spouse=lowborn_7316}
+					1923.11.05={add_spouse=lowborn_7317}	# Geertruida Verwey
+					1975.12.04={death=yes}  # Weeze
+				}
+					eulenbg_0154={ #// 1e) Flita Edeltraut Astria (Munich 2 Mar 1909-Berlin 20 Nov 1945)
+						name="Flita Edeltraut"
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=north_german
+						father=eulenbg_0153	# Karl von Eulenburg
+						mother=lowborn_7316	# Sophie Moshammer
+						1909.03.02={birth=yes}  # Munich
+						1945.11.20={death=yes}  # Berlin
+					}
+					eulenbg_0155={ #// 2e) Titia Philippa (b.Berlin 16 Oct 1928); m.Weeze 27 Jul 1957 Thilo Rötger (Ludwigshafen 24 Jun 1928-Bonn 1 Dec 2021)
+						name="Titia Philippa"
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=north_german
+						father=eulenbg_0153	# Karl von Eulenburg
+						mother=lowborn_7317	# Geertruida Verwey
+						1928.10.16={birth=yes}  # Berlin
+						2003.01.01={death=yes}  # EST.
+					}
+				eulenbg_0156={ #// 8d) Viktoria Ada Astrid Agnes (Starnberg 13 Jul 1886-Starnberg 23 Sep 1967); m.Liebenberg 12 May 1909 (div 1921) Otto Haas-Heye (Heidelberg 16 Dec 1879-Mannheim 9 Jun 1959)
+					name=Viktoria
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0134	# Philipp von Eulenburg
+					mother=lowborn_7303	# Augusta Sandels
+					1886.07.13={birth=yes}  # Starnberg
+					1967.09.23={death=yes}  # Starnberg
+				}
+					eulenbg_0157={ #// 1e) Johannes Haas-Heye, d.30 Sep 2008; m.NN, with issue
+						name=Johannes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=lowborn_7319	# Otto Haas-Heye
+						mother=eulenbg_0156	# Viktoria von Eulenburg
+						1928.01.01={birth=yes}  # EST.
+						2008.09.30={death=yes}
+					}
+					eulenbg_0158={ #// 2e) Ottora Haas-Heye (Partenkirchen 1910-17 Jul 2001); m.Liebenberg 1935 Carl Ludwig Gf Douglas (1908-1961) $$
+						name=Ottora
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=lowborn_7319	# Otto Haas-Heye
+						mother=eulenbg_0156	# Viktoria von Eulenburg
+						1910.01.01={birth=yes}  # Partenkirchen
+						2001.07.17={death=yes}
+					}
+					eulenbg_0159={ #// 3e) Libertas Haas-Heye (Liebenberg im Löwenberger Land (Brandenburg) 20 Nov 1913-executed at Berlin-Plötzensee 22 Dec 1942); m.Harro Schulze-Boysen (Kiel 2 Sep 1909-executed at Berlin-Plötzensee 22 Dec 1942)
+						name=Libertas
+						female=yes
+						dynasty=eulenburg
+						religion=lutheran culture=german
+						father=lowborn_7319	# Otto Haas-Heye
+						mother=eulenbg_0156	# Viktoria von Eulenburg
+						1913.11.20={birth=yes}  # Liebenberg im Löwenberger Land
+						1942.12.22={death=yes}
+					}
+			eulenbg_0160={ #// 2c) Adda [Adah] Alexandrine Antoinette Emilie (Königsberg 21 Sep 1848-Berlin 27 Mar 1893); m.Liebenberg 16 Jul 1868 Karl Gf von Kalnein (d.Potsdam 24 Dec 1915) $$
+				name=Adda
+				female=yes
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0133	# Philipp Conrad von Eulenburg
+				mother=lowborn_7302	# FRN Alexandrine von Rothkirch
+				1848.09.21={birth=yes}  # Königsberg
+				1893.03.27={death=yes}  # Berlin
+			}
+			eulenbg_0161={ #// 3c) Friedrich Botho (Königsberg 16 Mar 1850-Berlin 3 Dec 1914); m.Berlin 5 Dec 1875 (div) Clara von Schaeffer-Voit (Berlin 2 Aug 1856-Berlin 17 Feb 1939)
+				name="Friedrich Botho"
+				dynasty=eulenburg
+				religion=lutheran culture=german
+				father=eulenbg_0133	# Philipp Conrad von Eulenburg
+				mother=lowborn_7302	# FRN Alexandrine von Rothkirch
+				1850.03.16={birth=yes}  # Königsberg
+				1875.12.05={add_spouse=lowborn_7324}	# Clara von Schaeffer-Voit
+				1914.12.03={death=yes}  # Berlin
+			}
+				eulenbg_0162={ #// 1d) Alexandrine Margarethe Adda (Metz 20 Sep 1876-Baden-Baden 18 Aug 1951); m.Liebenberg 10 Oct 1896 Leopold Gf von Kalnein (Berlin 14 Apr 1869-Berlin 2 Aug 1930) $$
+					name=Alexandrine
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0161	# Friedrich Botho von Eulenburg
+					mother=lowborn_7324	# Clara von Schaeffer-Voit
+					1876.09.20={birth=yes}  # Metz
+					1951.08.18={death=yes}  # Baden-Baden
+				}
+				eulenbg_0163={ #// 2d) Adda Klara Alexandrine Elise (Interlaken 12 Aug 1877-Baden-Baden 17 Mar 1953); m.Vienna 13 Apr 1898 (div 1909) Max Frhr von Senden (Pobanz 20 May 1868-Markerup 11 Aug 1946)
+					name=Adda
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=german
+					father=eulenbg_0161	# Friedrich Botho von Eulenburg
+					mother=lowborn_7324	# Clara von Schaeffer-Voit
+					1877.08.12={birth=yes}  # Interlaken
+					1953.03.17={death=yes}  # Baden-Baden
+				}
+				eulenbg_0164={ #// 3d) Friederike Luise (Heidelberg 20 Sep 1878-Nice 6 Feb 1923); m.1st Vienna 13 Apr 1898 (div 1910) Erdmann von Seidlitz und Ludwigsdorf (d.Berlin 28 Feb 1919); m.2nd Baden-Baden 14 Aug 1920 Franz Dengler (d.Baden-Baden 21 Nov 1939)
+					name="Luise"
+					female=yes
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0161	# Friedrich Botho von Eulenburg
+					mother=lowborn_7324	# Clara von Schaeffer-Voit
+					1878.09.20={birth=yes}  # Heidelberg
+					1923.02.06={death=yes}  # Nice
+				}
+				eulenbg_0165={ #// 4d) Ludwig Botho (Berlin 6 Jul 1883-Berlin 2 Dec 1910); m.Berlin 22 Sep 1904 Francis Lyttle (Delaware 3 Apr 1883-Wildbad 3 Oct 1932)
+					name="Botho"
+					dynasty=eulenburg
+					religion=lutheran culture=north_german
+					father=eulenbg_0161	# Friedrich Botho von Eulenburg
+					mother=lowborn_7324	# Clara von Schaeffer-Voit
+					1883.07.06={birth=yes}  # Berlin
+					1904.09.22={add_spouse=lowborn_7329}	# Francis Lyttle
+					1910.12.02={death=yes}  # Berlin
+				}
+## EULENBURG
