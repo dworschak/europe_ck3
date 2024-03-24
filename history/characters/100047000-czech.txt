@@ -5773,14 +5773,14 @@ sternberg_0054={ #// Gf František Leopold ze Šternberka, c.a k.tajný rada, m�
 			1599.01.01={add_spouse=100101079}	# BGGFN Magdalena von Dohna
 			1600.07.21={death=yes}
 		}
-			100047830={ #// C1. Zdenek, +ca 1624; m.Anna Marie Libštejnská z Kolowrat (+12.7.1678)
-				name=Zdenek
+			100047830={ #// C1. Zdenek, +ca 1624; m.Anna Marie Libštejnská z Kolowrat (+12.7.1678) $$
+				name="Zdeněk"
 				dynasty=1013009
 				religion=catholic culture=czech
 				father=100047800	# Jindřich z Valdštejna
 				mother=100101079	# BGGFN Magdalena von Dohna
 				1601.01.01={birth=yes}  # EST.
-				1623.01.01={add_spouse=100103700}	# Anna Libštejnský z Kolovrat
+				1623.01.01={add_spouse=kolowrat_0100}	# Anna Libštejnský z Kolovrat
 				1624.01.01={death=yes}
 			}
 		100047831={ #// B19. [2m.] Hanibal, *1576, +Hradec Králové 21.4.1622; 1m: Kateřina Berková z Dubé; 2m: Magdalena z Rícan
@@ -9580,7 +9580,7 @@ kolowrat_0001={ #// Jaroslav IV Libštejnský z Kolovrat, fl 1487, +1530; 1m: El
 			dynasty_house=kolo_lib
 			religion=catholic culture=czech
 			father=kolowrat_0005	# Albrecht Libštejnský z Kolovrat
-			mother=lowborn_3059	# Benigna Welserová z Cimburka
+			mother=lowborn_3060	# Lidmila ze Švamberka
 			1569.01.01={birth=yes}  # EST.
 			1609.02.14={add_spouse=berka_0147}	# Alena Eliška Berka z Dubé
 			1630.01.01={add_spouse=lowborn_3114}	# Kateřina z Vrtby
@@ -9748,7 +9748,7 @@ kolowrat_0001={ #// Jaroslav IV Libštejnský z Kolovrat, fl 1487, +1530; 1m: El
 			1597.02.11={add_spouse=berka_0171}	# Kateřina Berka z Dubé
 			1635.01.01={death=yes}
 		}
-			kolowrat_0100={ #// C1. Anna Marie, fl 1619, +12.7.1678; 1m: Zdeněk z Valdštejna (fl 1619-41); 2m: N Nelon; 3m: 27.6.1661 Šebestián Říčanský z Říčan (+Praha 7.11.1667)
+			kolowrat_0100={ #// C1. Anna Marie, fl 1619, +12.7.1678; 1m: Zdeněk z Valdštejna (fl 1619-41); 2m: N Nelon; 3m: 27.6.1661 Šebestián Říčanský z Říčan (+Praha 7.11.1667) $$
 				name=Anna
 				female=yes
 				dynasty_house=kolo_lib
@@ -10974,7 +10974,7 @@ kolowrat_0248={ #// Albrecht Krakowský z Kolowrat, hejtman rakovnického kraje 
 							father=100047110	# Leopold Krakovský z Kolovrat
 							mother=100096831	# FRN Nadine von Huppmann-Valbella
 							1886.01.29={birth=yes}  # Bloomfield
-							1923.04.30={add_spouse=100017416}	# София Николаевна Трубецкой
+							1923.04.30={add_spouse=100017416}	# Софья Николаевна Трубецкой
 							1927.12.04={death=yes}  # Wien
 						}
 						100047114={ #// F5. Bertha Henriette Katharina Nadine, *Týnec u Klatov 21.6.1890, +Auch, France 28.1.1982; m.Wien 10.8.1909 (div 1926) Gf Hieronymus Colloredo-Mansfeld (*3.11.1870 +29.8.1942) $$
@@ -11004,7 +11004,7 @@ kolowrat_0248={ #// Albrecht Krakowský z Kolowrat, hejtman rakovnického kraje 
 							father=100047110	# Leopold Krakovský z Kolovrat
 							mother=100096831	# FRN Nadine von Huppmann-Valbella
 							1897.07.27={birth=yes}
-							1929.08.08={add_spouse=100017416}	# София Николаевна Трубецкой
+							1929.08.08={add_spouse=100017416}	# Софья Николаевна Трубецкой
 							1942.05.21={add_spouse=100096652}	# Marie Klimtová
 							1996.01.19={death=yes}
 						}
@@ -11013,7 +11013,7 @@ kolowrat_0248={ #// Albrecht Krakowský z Kolowrat, hejtman rakovnického kraje 
 								dynasty_house=kolo_krak
 								religion=catholic culture=czech
 								father=100047119	# Jindřich Krakovský z Kolovrat
-								mother=100017416	# София Николаевна Трубецкой
+								mother=100017416	# Софья Николаевна Трубецкой
 								1933.08.25={birth=yes}
 								1958.01.01={add_spouse=100096766}	# Elisabeth Smith
 								2010.01.01={death=yes}  # EST.
@@ -11049,7 +11049,7 @@ kolowrat_0248={ #// Albrecht Krakowský z Kolowrat, hejtman rakovnického kraje 
 								dynasty_house=kolo_krak
 								religion=catholic culture=czech
 								father=100047119	# Jindřich Krakovský z Kolovrat
-								mother=100017416	# София Николаевна Трубецкой
+								mother=100017416	# Софья Николаевна Трубецкой
 								1935.02.21={birth=yes}
 								1960.01.01={add_spouse=100096699}	# Barbara Newell
 								2012.01.01={death=yes}  # EST.
@@ -11060,7 +11060,7 @@ kolowrat_0248={ #// Albrecht Krakowský z Kolowrat, hejtman rakovnického kraje 
 								dynasty_house=kolo_krak
 								religion=catholic culture=czech
 								father=100047119	# Jindřich Krakovský z Kolovrat
-								mother=100017416	# София Николаевна Трубецкой
+								mother=100017416	# Софья Николаевна Трубецкой
 								1936.05.31={birth=yes}
 								2013.01.01={death=yes}  # EST.
 							}
@@ -20520,7 +20520,7 @@ kolowrat_0186={ #// Graf Maxmilian Norbert Krakovský z Kolovrat, komoří a sku
 					religion=catholic culture=czech
 					father=100194210	# Vilém Popel z Lobkowicz
 					mother=100047772	# Kateřina Benigna Popel z Lobkowicz
-					1618.01.01={birth=yes}  # EST.
+					1620.01.01={birth=yes}  # EST.
 					1681.10.22={death=yes}
 				}
 			100047756={ #// C3. Alžbeta, *1580, +Žichovice 15.6.1663, bur Strahovský klášter; m.Hradcany, Praha 13.2.1600 Jindřich Libštejnský z Kolowrat (+6.3.1646), Lord High Stewart $$

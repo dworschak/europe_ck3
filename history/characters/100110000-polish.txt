@@ -1637,14 +1637,14 @@ czacki_0010={ #// Feliks Szczęsny Czacki (*1723, +Brusiłów 1790); m.Końskie 
 							1922.01.01={add_spouse=100112710}	# Maria Tyszkiewicz-Lohojski
 							1955.01.01={death=yes}
 						}
-							100112676={ #// G1. Andrzej Henryk (*Wilno 21.5.1923, +15.7.1989) %%
+							100112676={ #// G1. Andrzej Henryk (*Wilno 21.5.1923, +15.7.1989); m.15.7.1952 Alexandra Esterházy de Galántha (*Sopronhorpács 6.6.1926) %%
 								name="Andrzej Henryk"
 								dynasty=1012026
 								religion=catholic culture=polish
 								father=100112675	# Jan Plater-Zyberk
 								mother=100112710	# Maria Tyszkiewicz-Lohojski
 								1923.05.21={birth=yes}  # Wilno
-								1952.07.15={add_spouse=100117405}	# Mária Alexandra Esterházy de Galántha
+								1952.07.15={add_spouse=esterhazy_0035}	# Alexandra Esterházy de Galántha
 								1989.07.15={death=yes}
 							}
 						100112679={ #// F1. Henryk (*1879, +1948); m.1917 Elzbieta Ludwika Plater-Zyberk (*1885, +1982) %%
@@ -7318,14 +7318,14 @@ piast_0001={ #// Duke Bolko I of Auschwitz and Teschen, *1363, +6.5.1431; 1m: 14
 			1810.01.01={add_spouse=100015641}	# Надежда Фёдоровна Гагарин
 			1865.01.23={death=yes}	# Moscow
 		}
-			100112466={ #// C2. Pr Vladimir, *15.7.1824, +Plan 12.11.1859; m.his cousin Css Olga Nikolaievna Gurieva (*17.3.1830, +Moscow 18.5.1855), a dau.of Ct Nikolai Dmitrievich Guriev by Maria Dmitrievna Naryshkina
+			100112466={ #// C2. Pr Vladimir, *15.7.1824, +Plan 12.11.1859; m.his cousin Css Olga Nikolaievna Gurieva (*17.3.1830, +Moscow 18.5.1855), a dau.of Ct Nikolai Dmitrievich Guriev by Maria Dmitrievna Naryshkina $$
 				name="Владимир"		# 1725063/wladimr-borissowitsch-prinz-swiatopolk-czetwertynski/
 				dynasty=1012012
 				religion=orthodox culture=russian
 				father=100112460	# Борис Swiatopelk-Czetwertynski
 				mother=100015641	# Надежда Фёдоровна Гагарин
 				1824.01.01={birth=yes}
-				1849.01.01={add_spouse=100084563}	# CSS Ольга Николаевна Гурьев
+				1849.01.01={add_spouse=guriev_0016}	# Ольга Николаевна Гурьев
 				1859.11.12={death=yes}
 			}
 				100112468={ #// 1e) Boris (1849-1911); m.1885 Wera Kasakov (d.1890)
@@ -7333,7 +7333,7 @@ piast_0001={ #// Duke Bolko I of Auschwitz and Teschen, *1363, +6.5.1431; 1m: 14
 					dynasty=1012012
 					religion=orthodox culture=russian
 					father=100112466	# Владимир Борисович Swiatopelk-Czetwertynski
-					mother=100084563	# CSS Ольга Николаевна Гурьев
+					mother=guriev_0016	# Ольга Николаевна Гурьев
 					1849.01.01={birth=yes}
 					1885.01.01={add_spouse=100086632}	# Вера Kasakov
 					1911.01.01={death=yes}
@@ -7343,7 +7343,7 @@ piast_0001={ #// Duke Bolko I of Auschwitz and Teschen, *1363, +6.5.1431; 1m: 14
 					dynasty=1012012
 					religion=orthodox culture=russian
 					father=100112466	# Владимир Борисович Swiatopelk-Czetwertynski
-					mother=100084563	# CSS Ольга Николаевна Гурьев
+					mother=guriev_0016	# Ольга Николаевна Гурьев
 					1853.07.27={birth=yes}  # Moskwa
 					1876.09.05={add_spouse=100090795}	# Katarzyna Szupinski
 					1885.01.01={add_spouse=100083710}	# Aleksandrina Григорьевна Esipov
@@ -11125,7 +11125,7 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 				religion=catholic culture=lithuanian
 				father=jagelo_0113	# Lingweni Jagiełło
 				mother=rurik_0128	# Мария Дмитриевна Рюрикович
-				1400.01.01={birth=yes}
+				1396.01.01={birth=yes}
 				1442.01.01={add_spouse=lowborn_1629}	# Sofia N
 				1456.01.01={death=yes}
 			}
@@ -11164,7 +11164,6 @@ jagelo_0068={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno (1433-43) (ksia
 				dynasty=1012037
 				religion=catholic culture=lithuanian
 				father=jagelo_0113	# Lingweni Jagiełło
-				mother=rurik_0128	# Мария Дмитриевна Рюрикович
 				1410.01.01={birth=yes}
 				1435.01.01={death=yes}
 			}
@@ -12460,9 +12459,9 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					dynasty=1012005
 					religion=catholic culture=polish
 					father=sapieha_0098	# Andrzej Sapieha
-					mother=lowborn_6982	# PSS Maryna Czartoryska
-					1618.01.01={birth=yes}  # EST.
-					1678.01.01={death=yes}  # EST.
+					mother=lowborn_6983	# Krystyna Dembinska
+					1575.01.01={birth=yes}  # EST.
+					1645.01.01={death=yes}  # EST.
 				}
 				sapieha_0100={ #// D2. Aleksandra; m.Hieronim Gostomski, wojewoda poznanski
 					name=Aleksandra
@@ -12470,9 +12469,9 @@ sapieha_0001={ #// Semen Sopiha, pisarz hospodarski, lived in half 15th century;
 					dynasty=1012005
 					religion=catholic culture=polish
 					father=sapieha_0098	# Andrzej Sapieha
-					mother=lowborn_6982	# PSS Maryna Czartoryska
-					1618.01.01={birth=yes}  # EST.
-					1678.01.01={death=yes}  # EST.
+					mother=lowborn_6983	# Krystyna Dembinska
+					1580.01.01={birth=yes}  # EST.
+					1640.01.01={death=yes}  # EST.
 				}
 			sapieha_0101={ #// C4. [1m.] Bohdana; m.Iwan Pr Solomerecki, starosta ainski
 				name=Bohdana
@@ -12903,7 +12902,7 @@ sapieha_0034={ #// Paweł Jan Sapieha, rotmistrz usarski, dworzanin królewski, 
 				father=100111520	# Jan Kazimierz Sapieha
 				mother=100102786	# Ludwika Opalinski
 				1701.01.25={birth=yes}  # Dresden
-				1727.11.20={add_spouse=100021956}	# София Skowronski
+				1727.11.20={add_spouse=100021956}	# Софья Skowronski
 				1750.01.01={add_spouse=100035685}	# Johanna Sułkowski
 				1771.01.24={death=yes}  # Radlin
 			}
@@ -12912,7 +12911,7 @@ sapieha_0034={ #// Paweł Jan Sapieha, rotmistrz usarski, dworzanin królewski, 
 					dynasty=1012005
 					religion=catholic culture=polish
 					father=100111522	# Piotr Sapieha
-					mother=100021956	# София Skowronski
+					mother=100021956	# Софья Skowronski
 					1734.01.01={birth=yes}
 					1753.01.01={add_spouse=100098000}	# Elzbieta Branicki
 					1756.01.01={remove_spouse=100098000}
@@ -15034,14 +15033,14 @@ sapieha_0081={ #// Fryderyk Sapieha, podkomorzy wlodzimierski, +1626; m.1616 Ewa
 			1817.02.28={birth=yes}
 			1889.01.01={death=yes}  # EST.
 		}
-		100111664={ #// 3c) Zygmunt Maria Jozef Konstanty Xaver (8 Dec 1822-28 Sep 1863); m.15 Jun 1853 Css Alexandrine Gurieva (1822-Dresden 10 Apr 1854)
+		100111664={ #// 3c) Zygmunt Maria Jozef Konstanty Xaver (8 Dec 1822-28 Sep 1863); m.15 Jun 1853 Css Alexandrine Gurieva (1822-Dresden 10 Apr 1854) $$
 			name="Zygmunt Maria"
 			dynasty=1012004
 			religion=catholic culture=polish
 			father=100111660	# Konstanty Stanislas Lubomirski
 			mother=100020179	# Екатерина Николаевна Толстой
 			1822.12.08={birth=yes}
-			1853.06.15={add_spouse=100084562}	# CSS Александра Гурьев
+			1853.06.15={add_spouse=guriev_0009}	# Александра Гурьев
 			1863.09.28={death=yes}
 		}
 			100111666={ #// 1d) Katarzyna Maria (St.Petersburg 4 Apr 1854-Versailles 18 Aug 1937); m.1887 Bratislaw Bartoszewski
@@ -15050,7 +15049,7 @@ sapieha_0081={ #// Fryderyk Sapieha, podkomorzy wlodzimierski, +1626; m.1616 Ewa
 				dynasty=1012004
 				religion=catholic culture=polish
 				father=100111664	# Zygmunt Maria Lubomirski
-				mother=100084562	# CSS Александра Гурьев
+				mother=guriev_0009	# Александра Гурьев
 				1854.04.04={birth=yes}
 				1937.08.18={death=yes}
 			}
@@ -17402,7 +17401,7 @@ radziwill_0007={ #// Pr Aleksander Ludwik Radziwill, ordynat na Nieswiezu, stoln
 							father=radziwill_0071	# Ludwik Mikołaj Radziwiłł
 							mother=lowborn_6423	# Marianna Wodzinska
 							1808.03.10={birth=yes}  # Warszawa
-							1833.02.12={add_spouse=urusov_0048}	# София Александровна Урусов
+							1833.02.12={add_spouse=urusov_0048}	# Софья Александровна Урусов
 							1885.11.08={death=yes}  # Paris
 						}
 					radziwill_0074={ #// E2. Fürst Antoni Henryk, XII ordynat na Nieswiezu, X ordynat na Olyce, I ordynat na Przygodzicach, Stadthalter im Grossherzogthum Posen, *Wilno 13.6.1775, +Berlin 7.4.1832; m.Berlin 17.3.1796 Pss Luise of Prussia (*24.5.1770 +7.12.1836) $$
@@ -17715,7 +17714,7 @@ radziwill_0007={ #// Pr Aleksander Ludwik Radziwill, ordynat na Nieswiezu, stoln
 						dynasty=1012003
 						religion=catholic culture=polish
 						father=radziwill_0103	# Dominik Radziwiłł
-						mother=lowborn_6455	# Konstancja Czapska
+						mother=lowborn_6456	# Karolina Frackiewicz Radziminska
 						1798.01.01={birth=yes}  # EST.
 						1858.01.01={death=yes}  # EST.
 					}
@@ -17725,7 +17724,7 @@ radziwill_0007={ #// Pr Aleksander Ludwik Radziwill, ordynat na Nieswiezu, stoln
 						dynasty=1012003
 						religion=catholic culture=polish
 						father=radziwill_0103	# Dominik Radziwiłł
-						mother=lowborn_6455	# Konstancja Czapska
+						mother=lowborn_6456	# Karolina Frackiewicz Radziminska
 						1798.01.01={birth=yes}  # EST.
 						1858.01.01={death=yes}  # EST.
 					}
