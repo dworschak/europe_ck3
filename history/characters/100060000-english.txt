@@ -862,25 +862,25 @@
 
 
 ##  100063720-xx			Bowes-Lyon						  1009207
-100063724={ #// Thomas Bowes-Lyon (*1801, +1834); m.1823 Charlotte Grimstead (*1797, +1881) %%
+100063724={ #// 1c) Thomas George, Lord Glamis (6 Feb 1801-Honfleur 27 Jan 1834); m.London 21 Dec 1820 Charlotte Grimstead (d.Redbourn 19 Jan 1881)
 	name=Thomas
 	dynasty=1009207
 	religion=anglican culture=english
-	1801.01.01={birth=yes}
-	1823.01.01={add_spouse=100085970}	# Charlotte Grimstead
-	1834.01.01={death=yes}
+	1801.02.06={birth=yes}
+	1823.12.21={add_spouse=100085970}	# Charlotte Grimstead
+	1834.01.27={death=yes}
 }
-	100063723={ #// A1. Claude (*1824, +1904); m.1854 Frances Dora Smith (*1832, +1922) %%
+	100063723={ #// 3d) Claude, 13th Earl of Strathmore and Kinghorne, Viscount Lyon, Lord Glamis, Tannadyce, Sidlaw and Stradichtie, Lord Lyon, cr 1887 Baron Bowes of Streatlam Castle and of Lunedale (Redbourn 21 Jul 1824-Bordighera 16 Feb 1904); m.Bexley, Kent 28 Sep 1853 Frances Dora Smith (29 Jul 1832-5 Feb 1922)
 		name=Claude
 		dynasty=1009207
 		religion=anglican culture=english
 		father=100063724	# Thomas Bowes-Lyon
 		mother=100085970	# Charlotte Grimstead
-		1824.01.01={birth=yes}
-		1854.01.01={add_spouse=100085081}	# Frances Dora Smith
-		1904.01.01={death=yes}
+		1824.07.21={birth=yes}
+		1853.09.28={add_spouse=100085081}	# Frances Dora Smith
+		1904.02.16={death=yes}
 	}
-		100063722={ #// B1. Claude Bowes-Lyon, 14. Earl of Strathmore and Kinghorne (14 March 1855 – 7 November 1944); m.Petersham, Surrey 16 July 1881 Cecilia Nina Cavendish-Bentinck (*1862, +1938)
+		100063722={ #// 1e) Claude George, 14th Earl of Strathmore and Kinghorne, etc (London 14 Mar 1855-Glamis Castle 7 Nov 1944); m.16 Jul 1881 Nina Cecilia Cavendish-Bentinck (London 11 Sep 1862-London 23 Jun 1938)
 			name=Claude
 			dynasty=1009207
 			religion=anglican culture=english
@@ -890,7 +890,16 @@
 			1881.07.16={add_spouse=100080130}	# Cecilia Nina Cavendish-Bentinck
 			1944.11.07={death=yes}
 		}
-			# Patrick Bowes-Lyon, 15th and 2nd Earl of Strathmore and Kinghorne, DL[a] (22 September 1884 – 25 May 1949)
+			100363722={ #// 3f) Patrick, 15th Earl of Strathmore and Kinghorne, etc (22 Sep 1884-25 May 1949); m.21 Nov 1908 Lady Dorothy Osborne (3 Dec 1888-18 Jun 1946) $$
+				name="Patrick"
+				dynasty=1009207
+				religion=anglican culture=english
+				father=100063722	# Claude Bowes-Lyon
+				mother=100080130	# Cecilia Nina Cavendish-Bentinck
+				1884.01.01={birth=yes}
+				1908.11.21={add_spouse=osborne_0030}	# Dorothy Beatrix Osborne
+				1949.05.25={death=yes}
+			}
 			100063726={ #// C1. Lieutenant The Hon. John Bowes-Lyon (*1 April 1886, +7 February 1930); m.1914 Fenella Hepburn-Stuart-Forbes-Trefusis (*1889, +1966)
 				name=John
 				dynasty=1009207
@@ -2970,7 +2979,7 @@
 			1735.01.01={birth=yes}  # EST.
 			1808.08.01={death=yes}
 		}
-		100063260={ #// 2c) Elizabeth (29 Dec 1737-Pembroke Lodge, Richmond Park, Surrey 30 Apr 1831); m.Langley, Bucks 12/13 Mar 1756 Henry Herbert, 10th Earl of Pembroke and Montgomery (Whitehall 16 Jul 1734-Wilton 26 Jan 1794)
+		100063260={ #// 2c) Elizabeth (29 Dec 1737-Pembroke Lodge, Richmond Park, Surrey 30 Apr 1831); m.Langley, Bucks 12/13 Mar 1756 Henry Herbert, 10th Earl of Pembroke and Montgomery (Whitehall 16 Jul 1734-Wilton 26 Jan 1794) $$
 			name=Elizabeth
 			female=yes
 			dynasty=1009025
@@ -6798,6 +6807,7 @@
 ##  100104750	Gordon-Lennox	1009016
 # https://www.angelfire.com/realm/gotha/gotha/richmond.html
 
+#stuart7
 100061484={ #// Charles Lennox, -cr Duke of Richmond & Lennox, *London 29.7.1672, +Goodwood 27.5.1723; m.ca 8.1.1693 Hon.Anne Brudenell (+Whitehall 9.12.1722)
 	name=Charles
 	dynasty=1009016
@@ -7458,8 +7468,6 @@
 								1923.07.12={add_spouse=100080993}	# Dorothy Browne
 								1928.01.01={remove_spouse=100080993}
 								1932.12.28={add_spouse=100086821}	# Diana Kingsmill
-								1940.01.01={remove_spouse=100086821}
-								1958.05.19={add_spouse=100093708}	# Norah Julia Wensley Schofield
 								1968.01.25={death=yes}
 							}
 								100061546={ #//  1e) Henry George Charles (b.London 24 Sep 1934); m.8 Feb 1958 Odile Steinmann
@@ -7735,6 +7743,8 @@
 					1795.09.30={birth=yes}
 					1891.12.15={death=yes}
 				}
+#stuart7
+
 #1794.09.09={holder=100104750} # CHARLES Lennox
 #1819.08.28={holder=100104752} # 1a) CHARLES Lennox
 #1860.10.21={holder=100104754} # 1b) CHARLES HENRY Gordon-Lennox
@@ -8387,7 +8397,7 @@
 								1950.02.10={birth=yes}
 								1986.01.01={add_spouse=100093796}	# Caroline Wilkinson
 								2000.01.01={remove_spouse=100093796}
-								2000.02.01={add_spouse=100086905}	# Joanna Kolaczinski
+								2000.02.01={add_spouse=100086905}	# Joanna Kolacziński
 							}
 								100060116={ #//  1h) Gianni Emrys (b.1979)
 									name="Gianni Emrys"
@@ -8811,7 +8821,7 @@
 					1806.01.01={birth=yes}
 					1880.01.01={death=yes}
 				}
-			100060161={ #//  2c) Elizabeth (20 Aug 1766-London 25 Mar 1793); m.London 8 Apr 1787 George Augustus Herbert, 11th Earl of Pembroke & Montgomery (10 Sep 1759-26 Oct 1827)
+			100060161={ #//  2c) Elizabeth (20 Aug 1766-London 25 Mar 1793); m.London 8 Apr 1787 George Augustus Herbert, 11th Earl of Pembroke & Montgomery (10 Sep 1759-26 Oct 1827) $$
 				name=Elizabeth
 				female=yes
 				dynasty=1009015
@@ -9159,7 +9169,7 @@
 					1805.01.01={birth=yes}
 					1847.12.25={death=yes}
 				}
-				100060197={ #//  7d) Diana Olivia (21 Jun 1806-9 Feb 1875); m.10 Apr 1823 Bt. Francis Fletcher-Vane (d.15 Feb 1842)
+				100060197={ #//  7d) Diana Olivia (21 Jun 1806-9 Feb 1875); m.10 Apr 1823 Bt. Francis Fletcher-Vane (d.15 Feb 1842) $$
 					name="Diana Olivia"
 					female=yes
 					dynasty=1009015
@@ -24230,7 +24240,8 @@ osborne_0001={ #// Sir Edward Osborne, of Keeton, cr Baronet 1620 (bap 12 Dec 15
 										religion=anglican culture=english
 										father=osborne_0025	# George Osborne
 										mother=lowborn_5890	# HON. Frances Pitt-Rivers
-										0002.01.01={birth=yes}
+										1861.11.04={birth=yes}
+										1861.11.06={death=yes}
 									}
 									osborne_0027={ #// 2i) GEORGE Godolphin Osborne, 10th Duke of Leeds (18 Sep 1862-10 May 1927); m.13 Feb 1884 Lady Katherine Lambton (1862-6 Dec 1952)
 										name=George
@@ -24262,7 +24273,7 @@ osborne_0001={ #// Sir Edward Osborne, of Keeton, cr Baronet 1620 (bap 12 Dec 15
 											1886.10.03={birth=yes}
 											1929.08.09={death=yes}
 										}
-										osborne_0030={ #// 3j) Lady Dorothy Beatrix Osborne (3 Dec 1888-18 Jun 1946); m.21 Nov 1908 Patrick Bowes-Lyon, 15th Earl of Strathmore & Kinghorne (1884-25 May 1949)
+										osborne_0030={ #// 3j) Lady Dorothy Beatrix Osborne (3 Dec 1888-18 Jun 1946); m.21 Nov 1908 Patrick Bowes-Lyon, 15th Earl of Strathmore & Kinghorne (1884-25 May 1949) $$
 											name="Dorothy Beatrix"
 											female=yes
 											dynasty=osborne
@@ -24629,14 +24640,14 @@ osborne_0001={ #// Sir Edward Osborne, of Keeton, cr Baronet 1620 (bap 12 Dec 15
 			1659.01.01={birth=yes}  # EST.
 			1718.05.09={death=yes}
 		}
-		osborne_0072={ #// 7b) Catherine; m.Hon. James Herbert
+		osborne_0072={ #// 7b) Catherine; m.Hon. James Herbert $$
 			name=Catherine
 			female=yes
 			dynasty=osborne
 			religion=anglican culture=english
 			father=osborne_0003	# Thomas Osborne
 			mother=lowborn_2773	# LADY Bridget Bertie
-			1660.01.01={birth=yes}  # EST.
+			1654.01.01={birth=yes}  # EST.
 			1720.01.01={death=yes}  # EST.
 		}
 		osborne_0073={ #// 8b) Martha (d.11 Sep 1689); m.[?1st Edward Bayntun; m.2nd] 22 May 1678 Charles Granville, Lord Granville, later 2nd Earl of Bath (bap 31 Aug 1661-d., having shot himself, 4 Sep 1701)
@@ -25306,7 +25317,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 					mother=lowborn_5956	# LADY Katherine Power of Tyrone
 					1738.03.14={birth=yes}
 					1760.11.12={add_spouse=lowborn_6003}	# Anne Constantia de Ligondes
-					1777.06.04={add_spouse=lowborn_6004}	# Barbara Montgomery Bt.
+					1777.06.04={add_spouse=lowborn_6004}	# BT. Barbara Montgomery
 					1805.11.05={death=yes}
 				}
 					beresford_0072={ #// 1e) Marcus (14 Feb 1764-16 Nov 1797); m.25 Feb 1791 Lady Frances Arabella Leeson (2 Jun 1771-9 May 1840)
@@ -26017,7 +26028,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 						father=beresford_0071	# John de la Poer Beresford
 						mother=lowborn_6003	# Anne Constantia de Ligondes
 						1770.10.02={birth=yes}
-						1795.11.22={add_spouse=lowborn_6066}	# Amelia Montgomery Bt.
+						1795.11.22={add_spouse=lowborn_6066}	# BT. Amelia Montgomery
 						1840.01.01={death=yes}  # EST.
 					}
 						beresford_0146={ #// 1f) Rev. John Isaac (13 Oct 1796-9 Feb 1847); m.13 Jun 1824 Sophia White (d.27 Nov 1858)
@@ -26025,7 +26036,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 							dynasty=beresford
 							religion=catholic culture=irish
 							father=beresford_0145	# Charles de la Poer Beresford
-							mother=lowborn_6066	# Amelia Montgomery Bt.
+							mother=lowborn_6066	# BT. Amelia Montgomery
 							1796.10.13={birth=yes}
 							1824.06.13={add_spouse=lowborn_6067}	# Sophia White
 							1847.02.09={death=yes}
@@ -26065,7 +26076,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 							dynasty=beresford
 							religion=catholic culture=irish
 							father=beresford_0145	# Charles de la Poer Beresford
-							mother=lowborn_6066	# Amelia Montgomery Bt.
+							mother=lowborn_6066	# BT. Amelia Montgomery
 							1802.03.21={birth=yes}
 							1871.09.24={death=yes}
 						}
@@ -26075,7 +26086,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 							dynasty=beresford
 							religion=catholic culture=irish
 							father=beresford_0145	# Charles de la Poer Beresford
-							mother=lowborn_6066	# Amelia Montgomery Bt.
+							mother=lowborn_6066	# BT. Amelia Montgomery
 							1804.12.05={birth=yes}
 							1884.09.06={death=yes}  # Red Lodge Southampton
 						}
@@ -26085,7 +26096,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 							dynasty=beresford
 							religion=catholic culture=irish
 							father=beresford_0145	# Charles de la Poer Beresford
-							mother=lowborn_6066	# Amelia Montgomery Bt.
+							mother=lowborn_6066	# BT. Amelia Montgomery
 							1806.04.01={birth=yes}
 							1866.04.22={death=yes}
 						}
@@ -26094,7 +26105,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 							dynasty=beresford
 							religion=catholic culture=irish
 							father=beresford_0145	# Charles de la Poer Beresford
-							mother=lowborn_6066	# Amelia Montgomery Bt.
+							mother=lowborn_6066	# BT. Amelia Montgomery
 							1807.07.21={birth=yes}
 							1839.12.12={add_spouse=lowborn_6073}	# Jane Charlotte Riall
 							1844.11.15={add_spouse=lowborn_6074}	# Frances Constantia Uniacke
@@ -26166,7 +26177,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 							dynasty=beresford
 							religion=catholic culture=irish
 							father=beresford_0145	# Charles de la Poer Beresford
-							mother=lowborn_6066	# Amelia Montgomery Bt.
+							mother=lowborn_6066	# BT. Amelia Montgomery
 							1808.10.03={birth=yes}
 							1869.11.19={death=yes}
 						}
@@ -26175,7 +26186,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 							dynasty=beresford
 							religion=catholic culture=irish
 							father=beresford_0145	# Charles de la Poer Beresford
-							mother=lowborn_6066	# Amelia Montgomery Bt.
+							mother=lowborn_6066	# BT. Amelia Montgomery
 							1810.12.14={birth=yes}
 							1838.08.08={add_spouse=lowborn_6082}	# Anna Fiztpatrick
 							1848.08.29={death=yes}
@@ -26233,7 +26244,7 @@ beresford_0001={ #// Sir Tristram Beresford, of Coleraine, cr Baronet [I] 1665 (
 							dynasty=beresford
 							religion=catholic culture=irish
 							father=beresford_0145	# Charles de la Poer Beresford
-							mother=lowborn_6066	# Amelia Montgomery Bt.
+							mother=lowborn_6066	# BT. Amelia Montgomery
 							1812.01.14={birth=yes}
 							1890.01.28={death=yes}
 						}
@@ -26358,7 +26369,7 @@ fitzmaurice_0001={ #// Thomas Fitzmaurice, 20th Lord of Kerry and Lixnaw, cr 172
 					father=fitzmaurice_0012	# Henry Petty-Fitzmaurice
 					mother=lowborn_6094	# LADY Louisa Emma Fox-Strangways
 					1816.01.07={birth=yes}  # Lansdowne House
-					1840.08.18={add_spouse=lowborn_6098}	# LADY Georgiana Herbert Herbert
+					1840.08.18={add_spouse=herbert_0070}	# Georgiana Herbert
 					1843.11.01={add_spouse=100069472}	# Emily Jane de Talleyrand-Périgord
 					1866.07.05={death=yes}  # Lansdowne House
 				}
@@ -28907,15 +28918,15 @@ boyle_0001={ #// Roger Boyle m.Jane Patishall and had issue:
 												1923.12.27={add_spouse=lowborn_8229}	# Marjorie Walker
 												1963.12.29={death=yes}
 											}
-												boyle_0210={ #// 1l) Richard Bentinck, 9th Earl of Shannon, b.23 Oct 1924; m.1st 17 Sep 1947 (div 1955) Donna Catarina Imperiali (29 May 1926-20 Mar 2018); m.2d 25 May 1957 (div 1979) Susan Margaret Rogers Hogg (d.15 Dec 2011); m.3d 1994 Almine de Villiers
+												boyle_0210={ #// 1l) Richard Bentinck, 9th Earl of Shannon, b.23 Oct 1924; m.1st 17 Sep 1947 (div 1955) Donna Catarina Imperiali (29 May 1926-20 Mar 2018); m.2d 25 May 1957 (div 1979) Susan Margaret Rogers Hogg (d.15 Dec 2011); m.3d 1994 Almine de Villiers $$
 													name=Richard
 													dynasty=boyle
 													religion=anglican culture=english
 													father=boyle_0209	# Robert Henry Boyle
 													mother=lowborn_8229	# Marjorie Walker
 													1924.10.23={birth=yes}
-													1947.09.17={add_spouse=lowborn_8230}	# DONNA Catarina Imperiali
-													1955.01.01={remove_spouse=lowborn_8230}
+													1947.09.17={add_spouse=100071336}	# Catherine Irene Imperiali
+													1955.01.01={remove_spouse=100071336}
 													1957.05.25={add_spouse=lowborn_8231}	# Susan Margaret Rogers Hogg
 													1979.01.01={remove_spouse=lowborn_8231}
 													1994.01.01={add_spouse=lowborn_8232}	# Almine de Villiers
@@ -29147,6 +29158,7 @@ boyle_0001={ #// Roger Boyle m.Jane Patishall and had issue:
 													1934.01.01={birth=yes}
 													1962.07.28={add_spouse=lowborn_8249}	# LADY Nell Harris
 													1995.01.01={remove_spouse=lowborn_8249}
+													1995.05.01={add_spouse=lowborn_8250}	# MRS Alexandra Mary Seely
 													2004.01.01={death=yes}  # EST.
 												}
 													boyle_0235={ #// 1m) Robert Algernon Radcliffe, b.1963; m.1987 Fiona Elizabeth Maule Ramsay (b.1964)
@@ -29283,7 +29295,7 @@ boyle_0001={ #// Roger Boyle m.Jane Patishall and had issue:
 									father=boyle_0198	# Henry Boyle
 									mother=lowborn_8223	# Sarah Hyde
 									1815.11.10={birth=yes}
-									1841.09.22={add_spouse=lowborn_8254}	# Catherine Jane Sophronia Ede
+									1841.09.22={add_spouse=lowborn_8254}	# Catherine Sophronia Ede
 									1846.04.06={death=yes}
 								}
 								boyle_0250={ #// 10h) Charlotte Anne (Feb 1817-31 Oct 1894)
@@ -29611,3 +29623,3121 @@ boyle_0001={ #// Roger Boyle m.Jane Patishall and had issue:
 #1652.01.01={holder=boyle_0007} # 3c) John; m.Mrs Anne Dodsworth
 #1653.01.01={holder=boyle_0008} # 1d) George
 ## BOYLE | Earl of Cork
+
+
+## EARLS of PEMBROKE | HERBERT
+herbert_0001={ #// Sir William ap Thomas, alias Herbert, of Raglan Castle (d.1446); m.1st Margaret, dau of Thomas ap Griffith; m.2nd Gwladys (d.1454), dau of Sir David Gam, and widow of Sir Roger Vaughan
+	name="William"
+	dynasty=herbert
+	religion=anglican culture=english
+	1405.01.01={birth=yes}  # EST.
+	1422.01.01={add_spouse=lowborn_7534}	# Gwladys Gam
+	1446.01.01={death=yes}
+}
+	herbert_0002={ #// 1a) [1m.] Margaret; m.Sir Henry Woogan
+		name="Margaret"
+		female=yes
+		dynasty=herbert
+		religion=anglican culture=english
+		father=herbert_0001	# William Herbert
+		1420.01.01={birth=yes}  # EST.
+		1486.01.01={death=yes}  # EST.
+	}
+	herbert_0003={ #// 2a) [2m.] William Herbert, summoned as Lord Herbert, cr Earl of Pembroke (ca 1423-beheaded at Northampton 27 Jul 1469); m.ca 1455 Anne Devereux
+		name="William"
+		dynasty=herbert
+		religion=anglican culture=english
+		father=herbert_0001	# William Herbert
+		mother=lowborn_7534	# Gwladys Gam
+		1423.01.01={birth=yes}
+		1455.01.01={add_spouse=lowborn_7540}	# Anne Devereux
+		1469.07.27={death=yes}  # beheaded at Northampton
+	}
+		herbert_0004={ #// 1b) William, 2nd Earl of Pembroke, resigned that title 1479 and was then cr Earl of Huntingdon, with remainder to heirs of the body of his father, confirmed 1484 but with remainder to the heirs male of the body of his father (ca 1455-16 Jul 1491); m.1st Windsor Sep 1466 Lady Mary Wydeville; m.2nd 1484 Katherine, illegitimate dau of King Richard III
+			name=William
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0003	# William Herbert
+			mother=lowborn_7540	# Anne Devereux
+			1455.01.01={birth=yes}
+			1466.09.01={add_spouse=lowborn_7541}	# LADY Mary Wydeville
+			1484.01.01={add_spouse=lowborn_7563}	# Katherine of England
+			1491.07.16={death=yes}
+		}
+			herbert_0005={ #// 1c) Elizabeth; m.1492 Charles Somerset, Earl of Worcester
+				name=Elizabeth
+				female=yes
+				dynasty=herbert
+				religion=anglican culture=english
+				father=herbert_0004	# William Herbert
+				mother=lowborn_7541	# LADY Mary Wydeville
+				1473.01.01={birth=yes}  # EST.
+				1533.01.01={death=yes}  # EST.
+			}
+		herbert_0006={ #// 2b) Sir Walter; m.Anne Stafford, dau of Duke of Buckingham
+			name=Walter
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0003	# William Herbert
+			mother=lowborn_7540	# Anne Devereux
+			1457.01.01={birth=yes}  # EST.
+			1483.01.01={add_spouse=lowborn_7567}	# Anne Stafford
+			1517.01.01={death=yes}  # EST.
+		}
+		herbert_0009={ #// 5b) Maud; m.ca 1476 Henry Percy, Earl of Northumberland (d.28 Apr 1489)
+			name=Maud
+			female=yes
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0003	# William Herbert
+			mother=lowborn_7540	# Anne Devereux
+			1457.01.01={birth=yes}  # EST.
+			1517.01.01={death=yes}  # EST.
+		}
+		herbert_0010={ #// 6b) Katherine; m.George Grey, 2nd Earl of Kent (d.Ampthill 16 Dec 1503)
+			name=Katherine
+			female=yes
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0003	# William Herbert
+			mother=lowborn_7540	# Anne Devereux
+			1461.01.01={birth=yes}  # EST.
+			1521.01.01={death=yes}  # EST.
+		}
+		herbert_0011={ #// 7b) Anne; m.John Grey, 2nd Lord Grey of Powis (d.1494)
+			name=Anne
+			female=yes
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0003	# William Herbert
+			mother=lowborn_7540	# Anne Devereux
+			1463.01.01={birth=yes}  # EST.
+			1523.01.01={death=yes}  # EST.
+		}
+		herbert_0012={ #// 8b) Mabel [Isabel?]; m.Sir Thomas Cokesey
+			name=Mabel
+			female=yes
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0003	# William Herbert
+			mother=lowborn_7540	# Anne Devereux
+			1465.01.01={birth=yes}  # EST.
+			1525.01.01={death=yes}  # EST.
+		}
+		herbert_0013={ #// 9b) Margaret; m.1st Sep 1466 Thomas Talbot, 2nd Viscount Lisle (k.a.20 Mar 1470); m.2nd Sir Henry Bodringham
+			name=Margaret
+			female=yes
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0003	# William Herbert
+			mother=lowborn_7540	# Anne Devereux
+			1453.01.01={birth=yes}  # EST.
+			1513.01.01={death=yes}  # EST.
+		}
+		herbert_0014={ #// 10b) [illegitimate by Maud] Sir Richard Herbert; m.Mrs Margaret Malefant, née Cradock
+			name="Richard"
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0003	# William Herbert
+			trait=bastard
+			1465.01.01={birth=yes}  # EST.
+			1495.01.01={add_spouse=lowborn_7587}	# MRS Margaret Cradock
+			1525.01.01={death=yes}  # EST.
+		}
+			herbert_0015={ #// 1c) William, cr 1551 Earl of Pembroke and Baron Herbert of Cardiff (ca 1506-Hampton Court 17 Mar 1570); m.1st ca 1538 Anne Parr (d.Baynard’s Castle 20 Feb 1552), sister of Queen Catherine; m.2nd ca May 1552 Lady Anne Compton, née Talbot (18 Mar 1524-London 18 Jul 1588)
+				name=William
+				dynasty=herbert
+				religion=anglican culture=english
+				father=herbert_0014	# Richard Herbert
+				mother=lowborn_7587	# MRS Margaret Cradock
+				1506.01.01={birth=yes}
+				1538.01.01={add_spouse=lowborn_7589}	# Anne Parr
+				1552.05.01={add_spouse=lowborn_7590}	# LADY Anne Talbot
+				1570.03.17={death=yes}  # Hampton Court
+			}
+				herbert_0016={ #// 1d) Henry, 2nd Earl of Pembroke (d.Wilton 19 Jan 1601); m.1st Durham House 25 May 1553 (div) Lady Katharine Grey; m.2nd Baynard’s Castle 17 Feb 1563 Lady Katharine Talbot (dsp 1576); m.3rd 21 Apr 1577 Mary Sydney (Ticknell 27 Oct 1561-London 25 Sep 1621)
+					name=Henry
+					dynasty=herbert
+					religion=anglican culture=english
+					father=herbert_0015	# William Herbert
+					mother=lowborn_7589	# Anne Parr
+					1539.01.01={birth=yes}  # EST.
+					1553.05.25={add_spouse=lowborn_7592}	# Katharine Grey
+					1563.02.17={add_spouse=lowborn_7593}	# LADY Katharine Talbot
+					1577.04.21={add_spouse=lowborn_7601}	# Mary Sydney
+					1601.01.19={death=yes}  # Wilton
+				}
+					herbert_0017={ #// 1e) William, 3rd Earl of Pembroke (8 Apr 1580-Baynard’s Castle 10 Apr 1630); m.4 Nov 1604 Lady Mary Talbot (d.Ramsbury House, Wilts 1650)
+						name=William
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0016	# Henry Herbert
+						mother=lowborn_7601	# Mary Sydney
+						1580.04.08={birth=yes}
+						1604.11.04={add_spouse=lowborn_7602}	# LADY Mary Talbot
+						1630.04.10={death=yes}  # Baynard’s Castle
+					}
+					herbert_0019={ #// 2e) Philip, 4th Earl of Pembroke 1630, cr 1605 Earl of Montgomery and Lord Herbert of Shurland (Wilton House 10 Oct 1584-London 23 Jan 1650); m.1st Whitehall 27 Dec 1604 Lady Susan de Vere (26 May 1587-1629); m.2nd Chenies, Bucks 3 Jun 1630 Lady Anne Clifford, de jure 14th Baroness Clifford, Dowager Countess of Dorset (30 Jan 1590-Brougham Castle 22 Mar 1676); issue of 1st m.:
+						name=Philip
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0016	# Henry Herbert
+						mother=lowborn_7601	# Mary Sydney
+						1584.10.10={birth=yes}  # Wilton House
+						1604.12.27={add_spouse=lowborn_7609}	# LADY Susan de Vere
+						1630.06.03={add_spouse=lowborn_7610}	# LADY Anne Clifford
+						1650.01.23={death=yes}  # London
+					}
+						herbert_0022={ #// 3f) Charles, Lord Herbert (1619-Florence Jan 1636); m.Whitehall Jan 1635 Lady Mary Villiers (1622-1685)
+							name=Charles
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0019	# Philip Herbert
+							mother=lowborn_7609	# LADY Susan de Vere
+							1619.01.01={birth=yes}
+							1635.01.01={add_spouse=lowborn_7615}	# LADY Mary Villiers
+							1636.01.01={death=yes}  # Florence
+						}
+						herbert_0023={ #// 4f) Philip, 5th Earl of Pembroke and Montgomery (1621-11 Dec 1669); m.1st 28 Mar 1639 Penelope, Dowager Viscountess Bayning, née Naunton (1620-London ca 1647); m.2nd ca 1649 Katherina Villiers (d.1678)
+							name=Philip
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0019	# Philip Herbert
+							mother=lowborn_7609	# LADY Susan de Vere
+							1621.01.01={birth=yes}
+							1639.03.28={add_spouse=lowborn_7616}	# VSS Penelope Naunton
+							1649.01.01={add_spouse=lowborn_7617}	# Katherina Villiers
+							1669.12.11={death=yes}
+						}
+							herbert_0024={ #// 1g) [1m.] William, 6th Earl of Pembroke and Montgomery (1640-8 Jul 1674)
+								name=William
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0023	# Philip Herbert
+								mother=lowborn_7616	# VSS Penelope Naunton
+								1640.01.01={birth=yes}
+								1674.07.08={death=yes}
+							}
+							herbert_0025={ #// 2g) [2m.] Susan (bap 7 May 1650-    ); m.John Poulett, 3rd Lord Poulett (ca 1642-1679)
+								name=Susan
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0023	# Philip Herbert
+								mother=lowborn_7617	# Katherina Villiers
+								1650.05.07={birth=yes}  # bap
+								1725.01.01={death=yes}  # EST.
+							}
+							herbert_0026={ #// 3g) [2m.] Mary (bap 13 Dec 1651-1686); m.Sir John Posthumus Sydenham, 2nd Bt. (1643-1696)
+								name=Mary
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0023	# Philip Herbert
+								mother=lowborn_7617	# Katherina Villiers
+								1651.12.13={birth=yes}  # bap
+								1686.01.01={death=yes}
+							}
+							herbert_0027={ #// 4g) [2m.] Philip, 7th Earl of Pembroke and Montgomery (1652/3-29 Aug 1683); m.17 Dec 1674 Henriette Mauricette de Penancoet (d.Paris Nov 1728), sister of Dss of Portsmouth
+								name=Philip
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0023	# Philip Herbert
+								mother=lowborn_7617	# Katherina Villiers
+								1652.01.01={birth=yes}
+								1674.12.17={add_spouse=lowborn_7620}	# Henriette Mauricette de Penancoet
+								1683.08.29={death=yes}
+							}
+								herbert_0028={ #// 1h) Charlotte (d.Reigate 13 Nov 1733); m.1st Jul 1688 John Jeffreys, 2nd Lord Jeffreys (16 Jul 1673-London 9 May 1702); m.2nd London 28 Aug 1703 Thomas Windsor, Viscount Windsor (d.Jun 1738)
+									name=Charlotte
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0027	# Philip Herbert
+									mother=lowborn_7620	# Henriette Mauricette de Penancoet
+									1675.01.01={birth=yes}  # EST.
+									1733.11.13={death=yes}  # Reigate
+								}
+							herbert_0029={ #// 5g) Catherine (9 Jun 1654-    ); m.Sir John Williams, 2nd Bt. (d.Nov 1704)
+								name=Catherine
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0023	# Philip Herbert
+								mother=lowborn_7617	# Katherina Villiers
+								1654.06.09={birth=yes}
+								1729.01.01={death=yes}  # EST.
+							}
+							herbert_0030={ #// 6g) Rebecca (18 Jul 1655-9 Dec 1729)
+								name=Rebecca
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0023	# Philip Herbert
+								mother=lowborn_7617	# Katherina Villiers
+								1655.07.18={birth=yes}
+								1729.12.09={death=yes}
+							}
+							herbert_0031={ #// 7g) Thomas, 8th Earl of Pembroke and Montgomery (ca 1656-London 22 Jan 1733); m.1st 26 Jul 1684 Margaret Sawyer (d.Werrington, Devon 17 Nov 1706); m.2nd London 21 Sep 1708 Barbara, dau of Sir Thomas Slingsby, 2nd Bt., and widow of Lord Arundell of Trerice and of Sir Richard Mauleverer, 4th Bt. (d.1 Aug 1721 [per GEC, sub Arundell and Mauleverer, and Collins, sub Pembroke, but 1 Aug 1722, per GEC, sub Pembroke]); m.3rd 14 Jun 1725 Hon. Mary Howe (d.12 Sep 1749)
+								name=Thomas
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0023	# Philip Herbert
+								mother=lowborn_7617	# Katherina Villiers
+								1656.01.01={birth=yes}
+								1684.07.26={add_spouse=lowborn_7624}	# Margaret Sawyer
+								1708.09.21={add_spouse=lowborn_7625}	# BT. Barbara Slingsby
+								1725.06.14={add_spouse=lowborn_7626}	# HON. Mary Howe
+								1733.01.22={death=yes}  # London
+							}
+								herbert_0032={ #// 1h) [1m.] Henry, 9th Earl of Pembroke and Montgomery (d.London 9 Jan 1750); m.28 Aug 1733 Hon. Mary Fitzwilliam (1707-London 13 Feb 1769)
+									name=Henry
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0031	# Thomas Herbert
+									mother=lowborn_7624	# Margaret Sawyer
+									1686.01.01={birth=yes}  # EST.
+									1733.08.28={add_spouse=lowborn_7629}	# HON. Mary Fitzwilliam
+									1750.01.09={death=yes}  # London
+								}
+									herbert_0033={ #// 1i) Henry, 10th Earl of Pembroke and Montgomery (London 16 Jul 1734-26 Jan 1794); m.Langley, Bucks 12/13 Mar 1756 Lady Elizabeth Spencer (29 Dec 1737-Pembroke Lodge, Richmond Park 30 Apr 1831) $$
+										name=Henry
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0032	# Henry Herbert
+										mother=lowborn_7629	# HON. Mary Fitzwilliam
+										1734.07.16={birth=yes}  # London
+										1756.03.12={add_spouse=100063260}	# Elizabeth Spencer
+										1794.01.26={death=yes}  # Wilton
+									}
+										herbert_0034={ #// 1j) George Augustus, 11th Earl of Pembroke and Montgomery (10 Sep 1759-Pembroke House 26 Oct 1827); m.1st London 8 Apr 1787 Elizabeth Beauclerk (20 Aug 1766-London 25 Mar 1793); m.2nd London 25 Jan 1808 Catherine Woronzow (24 Oct 1783-London 27 Mar 1856) $$
+											name="George Augustus"
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0033	# Henry Herbert
+											mother=100063260	# Elizabeth Spencer
+											1759.09.10={birth=yes}
+											1787.04.08={add_spouse=100060161}	# Elizabeth Beauclerk
+											1808.01.25={add_spouse=voroncov_0056}	# Екатерина Семёновна Воронцов
+											1827.10.26={death=yes}  # Pembroke House
+										}
+											herbert_0035={ #// 1k) [1m.] George (26 Mar 1788-12 Jul 1793)
+												name=George
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0034	# George Augustus Herbert
+												mother=100060161	# Elizabeth Beauclerk
+												1788.03.26={birth=yes}
+												1793.07.12={death=yes}
+											}
+											herbert_0036={ #// 2k) [1m.] Diana (5 Feb 1790-Somerley 2 Dec 1841); m.London 17 May 1816 Welbore Ellis Agar, 2d Earl of Normanton (1778-1868)
+												name=Diana
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0034	# George Augustus Herbert
+												mother=100060161	# Elizabeth Beauclerk
+												1790.02.05={birth=yes}
+												1841.12.02={death=yes}  # Somerley
+											}
+											herbert_0037={ #// 3k) [1m.] Robert Henry, 12th Earl of Pembroke & Montgomery (London 19 Sep 1791-Paris 25 Apr 1862); m.Palermo 17 Aug 1814 (annulled 1818) Ottavia Spinelli e Giudice Caracciolo dei Duchi di Laurino (b.ante 1793, d.Dec 1857)
+												name="Robert Henry"
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0034	# George Augustus Herbert
+												mother=100060161	# Elizabeth Beauclerk
+												1791.09.19={birth=yes}  # London
+												1814.08.17={add_spouse=lowborn_7641}	# Ottavia Spinelli e Giudice Caracciolo di Laurino
+												1862.04.25={death=yes}  # Paris
+											}
+											herbert_0039={ #// 5k) Elizabeth (31 Mar 1809-Taynuilt 20 Sep 1858); m.London 5 Jul 1830 Richard Charles Francis Christian Meade, 3rd Earl of Clanwilliam (Dublin 15 Aug 1795-London 7 Oct 1879)
+												name=Elizabeth
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0034	# George Augustus Herbert
+												mother=voroncov_0056	# Екатерина Семёновна Воронцов
+												1809.03.31={birth=yes}
+												1858.09.20={death=yes}  # Taynuilt
+											}
+											herbert_0040={ #// 6k) Sidney, cr 1861 Lord Herbert of Lea (Richmond 16 Sep 1810-Wilton 2 Aug 1861); m.London 12 Aug 1846 Mary Elizabeth A'Court, niece of Lord Heytesbury (21 Jul 1822-Herbert House, London 30 Oct 1911)
+												name=Sidney
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0034	# George Augustus Herbert
+												mother=voroncov_0056	# Екатерина Семёновна Воронцов
+												1810.09.16={birth=yes}  # Richmond
+												1846.08.12={add_spouse=lowborn_7647}	# Mary Elizabeth A'Court
+												1861.08.02={death=yes}  # Wilton
+											}
+												herbert_0041={ #// 1l) Mary Catherine (21 May 1849-2 Dec 1935); m.27 Nov 1873 Friedrich Frhr v. Hügel (May 1852-27 Jan 1925)
+													name="Mary Catherine"
+													female=yes
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0040	# Sidney Herbert
+													mother=lowborn_7647	# Mary Elizabeth A'Court
+													1849.05.21={birth=yes}
+													1935.12.02={death=yes}
+												}
+												herbert_0042={ #// 2l) George Robert Charles, 2nd Lord Herbert of Lea, 13th Earl of Pembroke and Montgomery (London 6 Jul 1850-Frankfurt 3 May 1895); m.Westminster Abbey 19 Aug 1874 Lady Gertrude Frances Talbot (21 Mar 1840-Berkhamsted House 30 Sep 1906)
+													name=George
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0040	# Sidney Herbert
+													mother=lowborn_7647	# Mary Elizabeth A'Court
+													1850.07.06={birth=yes}  # London
+													1874.08.19={add_spouse=lowborn_7659}	# LADY Gertrude Frances Talbot
+													1895.05.03={death=yes}  # Frankfurt
+												}
+												herbert_0043={ #// 3l) Elizabeth Maud (30 Jul 1851-28 Feb 1933); m.25 Jun 1872 Sir Charles Hubert Hastings Parry, Bt. (d.7 Oct 1918)
+													name="Elizabeth Maud"
+													female=yes
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0040	# Sidney Herbert
+													mother=lowborn_7647	# Mary Elizabeth A'Court
+													1851.07.30={birth=yes}
+													1933.02.28={death=yes}
+												}
+												herbert_0044={ #// 4l) Sidney, 14th Earl of Pembroke and Montgomery (London 20 Feb 1853-Rome 30 Mar 1913); m.London 29 Aug 1877 Lady Beatrix Louisa Lambton (29 Mar 1859-12 Mar 1944)
+													name=Sidney
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0040	# Sidney Herbert
+													mother=lowborn_7647	# Mary Elizabeth A'Court
+													1853.02.20={birth=yes}  # London
+													1877.08.29={add_spouse=lowborn_7679}	# LADY Beatrix Louisa Lambton
+													1913.03.30={death=yes}  # Rome
+												}
+													herbert_0045={ #// 1m) Beatrix Frances Gertrude (1878-3 Dec 1957); m.1st 29 Apr 1903 Sir Nevile Rodwell Wilkinson (26 Oct 1869-22 Dec 1940); m.2d 5 Mar 1942 Ralph Francis Howard, 7th Earl of Wicklow (Southsea, Hants 24 Dec 1877-Shelton Abbey 11 Oct 1946)
+														name=Beatrix
+														female=yes
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0044	# Sidney Herbert
+														mother=lowborn_7679	# LADY Beatrix Louisa Lambton
+														1878.01.01={birth=yes}
+														1957.12.03={death=yes}
+													}
+													herbert_0046={ #// 2m) Reginald, 15th Earl of Pembroke and Montgomery (8 Sep 1880-13 Jan 1960); m.21 Jan 1904 Lady Beatrice Eleanor Paget (22 Jun 1883-8 Feb 1973)
+														name=Reginald
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0044	# Sidney Herbert
+														mother=lowborn_7679	# LADY Beatrix Louisa Lambton
+														1880.09.08={birth=yes}
+														1904.01.21={add_spouse=lowborn_7717}	# LADY Beatrice Eleanor Paget
+														1960.01.13={death=yes}
+													}
+														herbert_0047={ #// 1n) Patricia (12 Nov 1904-19 Mar 1994); m.26 Sep 1928 William Henry Smith, 3rd Viscount Hambleden (25 Jul 1903-31 Mar 1948)
+															name=Patricia
+															female=yes
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0046	# Reginald Herbert
+															mother=lowborn_7717	# LADY Beatrice Eleanor Paget
+															1904.11.12={birth=yes}
+															1994.03.19={death=yes}
+														}
+														herbert_0048={ #// 2n) Sidney Charles, 16th Earl of Pembroke and Montgomery (9 Jan 1906-16 Mar 1969); m.27 Jul 1936 Lady Mary Dorothea Hope (31 Dec 1903-16 Jan 1995)
+															name="Sidney Charles"
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0046	# Reginald Herbert
+															mother=lowborn_7717	# LADY Beatrice Eleanor Paget
+															1906.01.09={birth=yes}
+															1936.07.27={add_spouse=lowborn_7728}	# LADY Mary Dorothea Hope
+															1969.03.16={death=yes}
+														}
+															herbert_0049={ #// 1o) Diana Mary (19 Apr 1937-24 Nov 2008)
+																name="Diana Mary"
+																female=yes
+																dynasty=herbert
+																religion=anglican culture=english
+																father=herbert_0048	# Sidney Charles Herbert
+																mother=lowborn_7728	# LADY Mary Dorothea Hope
+																1937.04.19={birth=yes}
+																2008.11.24={death=yes}
+															}
+															herbert_0050={ #// 2o) Henry George Charles Alexander, 17th Earl of Pembroke and Montgomery (19 May 1939-2003); m.1st 20 Jan 1966 (div 1981) Claire Rose Pelly (b.18 Nov 1943); m.2nd 16 Apr 1988 Miranda Juliet Oram (b.18 Jan 1962)
+																name=Henry
+																dynasty=herbert
+																religion=anglican culture=english
+																father=herbert_0048	# Sidney Charles Herbert
+																mother=lowborn_7728	# LADY Mary Dorothea Hope
+																1939.05.19={birth=yes}
+																1966.01.20={add_spouse=lowborn_7729}	# Claire Rose Pelly
+																1981.01.01={remove_spouse=lowborn_7729}
+																1988.04.16={add_spouse=lowborn_7731}	# Miranda Juliet Oram
+																2003.01.01={death=yes}
+															}
+																herbert_0051={ #// 1p) Sophia Elizabeth (b.1966); m.St.Mary & St.Nicholas Church, Wilton 28 Apr 2001 Alexander Patrick Murray Threipland (b.1972)
+																	name="Sophia Elizabeth"
+																	female=yes
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0050	# Henry Herbert
+																	mother=lowborn_7729	# Claire Rose Pelly
+																	1966.11.01={birth=yes}
+																}
+																herbert_0052={ #// 2p) Emma Louise (b.1969); m.2005 Robin C Vickers
+																	name="Emma Louise"
+																	female=yes
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0050	# Henry Herbert
+																	mother=lowborn_7729	# Claire Rose Pelly
+																	1969.01.01={birth=yes}
+																}
+																herbert_0053={ #// 3p) Flora Katinka (b.1970)
+																	name="Flora Katinka"
+																	female=yes
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0050	# Henry Herbert
+																	mother=lowborn_7729	# Claire Rose Pelly
+																	1970.01.01={birth=yes}
+																}
+																herbert_0054={ #// 4p) William Alexander Sidney, 18th Earl of Pembroke and Montgomery (b.18 May 1978); m.2010 Victoria Alexandra Constance Bullough
+																	name=William
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0050	# Henry Herbert
+																	mother=lowborn_7729	# Claire Rose Pelly
+																	1978.05.18={birth=yes}
+																	2010.01.01={add_spouse=lowborn_7737}	# Victoria Alexandra Bullough
+																}
+																	herbert_0055={ #// 1q) Alexandra Eloise Ekaterina (b.2011)
+																		name="Alexandra Ekaterina"
+																		female=yes
+																		dynasty=herbert
+																		religion=anglican culture=english
+																		father=herbert_0054	# William Herbert
+																		mother=lowborn_7737	# Victoria Alexandra Bullough
+																		2011.01.01={birth=yes}
+																	}
+																herbert_0056={ #// 5p) Jemima Juliet (b.1989); m.Wilton House 21 Aug 2021 Hugo Davies
+																	name="Jemima Juliet"
+																	female=yes
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0050	# Henry Herbert
+																	mother=lowborn_7731	# Miranda Juliet Oram
+																	1989.01.01={birth=yes}
+																}
+																herbert_0057={ #// 6p) Alice Mary (b.1991)
+																	name="Alice Mary"
+																	female=yes
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0050	# Henry Herbert
+																	mother=lowborn_7731	# Miranda Juliet Oram
+																	1991.01.01={birth=yes}
+																}
+																herbert_0058={ #// 7p) Katie Ella (b.1997)
+																	name="Katie Ella"
+																	female=yes
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0050	# Henry Herbert
+																	mother=lowborn_7731	# Miranda Juliet Oram
+																	1997.01.01={birth=yes}
+																}
+														herbert_0059={ #// 3n) David Alexander Reginald Herbert (3 Oct 1908-3 Apr 1995)
+															name=David
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0046	# Reginald Herbert
+															mother=lowborn_7717	# LADY Beatrice Eleanor Paget
+															1908.10.03={birth=yes}
+															1995.04.03={death=yes}
+														}
+														herbert_0060={ #// 4n) Anthony Edward George (12 Sep 1911-22 Aug 1971)
+															name=Anthony
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0046	# Reginald Herbert
+															mother=lowborn_7717	# LADY Beatrice Eleanor Paget
+															1911.09.12={birth=yes}
+															1971.08.22={death=yes}
+														}
+													herbert_0061={ #// 3m) Muriel Katherine (Marylebone 29 Apr 1883-13 Feb 1951); m.Wilton Parish Church 5 Aug 1920 Arthur John Jex-Blake (31 Jul 1873-Nairobi Aug 1957)
+														name="Muriel Katherine"
+														female=yes
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0044	# Sidney Herbert
+														mother=lowborn_7679	# LADY Beatrix Louisa Lambton
+														1883.04.29={birth=yes}  # Marylebone
+														1951.02.13={death=yes}
+													}
+													herbert_0062={ #// 4m) Sir George Sidney, cr Baronet 1937 (8 Oct 1886-30 Jan 1942)
+														name="George Sidney"
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0044	# Sidney Herbert
+														mother=lowborn_7679	# LADY Beatrix Louisa Lambton
+														1886.10.08={birth=yes}
+														1942.01.30={death=yes}
+													}
+												herbert_0063={ #// 5l) William Reginald (21 May 1854-lost at sea 6 Sep 1870)
+													name="William Reginald"
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0040	# Sidney Herbert
+													mother=lowborn_7647	# Mary Elizabeth A'Court
+													1854.05.21={birth=yes}
+													1870.09.06={death=yes}  # lost at sea
+												}
+												herbert_0064={ #// 6l) Sir Michael Henry (25 Jun 1857-30 Sep 1903); m.27 Nov 1888 Lelia Wilson (d.19 Nov 1923)
+													name="Michael Henry"
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0040	# Sidney Herbert
+													mother=lowborn_7647	# Mary Elizabeth A'Court
+													1857.06.25={birth=yes}
+													1888.11.27={add_spouse=lowborn_7740}	# Lelia Wilson
+													1903.09.30={death=yes}
+												}
+													herbert_0065={ #// 1m) Sir Sidney, cr Baronet 1936 (29 Jul 1890-22 Mar 1939)
+														name=Sidney
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0064	# Michael Henry Herbert
+														mother=lowborn_7740	# Lelia Wilson
+														1890.07.29={birth=yes}
+														1939.03.22={death=yes}
+													}
+													herbert_0066={ #// 2m) Michael George (1893-26 Sep 1932)
+														name="Michael George"
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0064	# Michael Henry Herbert
+														mother=lowborn_7740	# Lelia Wilson
+														1893.01.01={birth=yes}
+														1932.09.26={death=yes}
+													}
+												herbert_0067={ #// 7l) Constance Gladys (24 Apr 1859-London 27 Oct 1917); m.1st London 6 Jul 1878 George Henry Lowther, 4th Earl of Lonsdale (4 Oct 1855-8 Feb 1882); m.2nd London 7 May 1885 Frederick Oliver Robinson, 2nd Marquess of Ripon (29 Jan 1852-22 Sep 1923)
+													name="Constance Gladys"
+													female=yes
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0040	# Sidney Herbert
+													mother=lowborn_7647	# Mary Elizabeth A'Court
+													1859.04.24={birth=yes}
+													1917.10.27={death=yes}  # London
+												}
+											herbert_0068={ #// 7k) Mary Caroline (22 Mar 1813-London 20 Jan 1892); m.London 11 May 1837 George William Frederick Brudenell-Bruce, 2nd Marquess of Ailesbury (London 20 Nov 1804-Savernake 6 Jan 1878)
+												name="Mary Caroline"
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0034	# George Augustus Herbert
+												mother=voroncov_0056	# Екатерина Семёновна Воронцов
+												1813.03.22={birth=yes}
+												1892.01.20={death=yes}  # London
+											}
+											herbert_0069={ #// 8k) Catherine (London 31 Oct 1814-Carbery Tower, Musselburgh 12 Feb 1886); m.Frankfurt 27 Sep 1836 Alexander Edward Murray, 6th Earl of Dunmore (1 Jun 1804-Streatlam 15 Jul 1845)
+												name=Catherine
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0034	# George Augustus Herbert
+												mother=voroncov_0056	# Екатерина Семёновна Воронцов
+												1814.10.31={birth=yes}  # London
+												1886.02.12={death=yes}  # Carbery Tower Musselburgh
+											}
+											herbert_0070={ #// 9k) Georgiana (Wilton 3 Aug 1817-Wilton 28 Feb 1841); m.Wilton 18 Aug 1840 Henry Petty-Fitzmaurice, 4th Marquess of Lansdowne (Lansdowne House 7 Jan 1816-Lansdowne House 5 Jul 1866) $$
+												name=Georgiana
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0034	# George Augustus Herbert
+												mother=voroncov_0056	# Екатерина Семёновна Воронцов
+												1817.08.03={birth=yes}  # Wilton
+												1841.02.28={death=yes}  # Wilton
+											}
+											herbert_0071={ #// 10k) Emma (23 Aug 1819-Muntham Court, Worthing 10 Oct 1884); m.Wilton 19 Sep 1839 Thomas Vesey, 3rd Viscount de Vesci (Dublin 21 Sep 1803-London 23 Dec 1875)
+												name=Emma
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0034	# George Augustus Herbert
+												mother=voroncov_0056	# Екатерина Семёновна Воронцов
+												1819.08.23={birth=yes}
+												1884.10.10={death=yes}  # Muntham Court Worthing
+											}
+										herbert_0072={ #// 2j) Charlotte (15 Jul 1773-France 21 Apr 1784)
+											name=Charlotte
+											female=yes
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0033	# Henry Herbert
+											mother=100063260	# Elizabeth Spencer
+											1773.07.15={birth=yes}
+											1784.04.21={death=yes}  # France
+										}
+										herbert_0073={ #// 3j) [by Elizabeth Catherine Hunter] Augustus Retnuh Reebkomp (23 Nov 1762-1797); his names were anagrams of “Hunter” and “Pembroke”
+											name=Augustus
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0033	# Henry Herbert
+											trait=bastard
+											1762.11.23={birth=yes}
+											1797.01.01={death=yes}
+										}
+								herbert_0074={ #// 2h) Robert Sawyer (28 Jan 1693-25 Apr 1769); m.Mary Smith (d.27 Mar 1757)
+									name=Robert
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0031	# Thomas Herbert
+									mother=lowborn_7624	# Margaret Sawyer
+									1693.01.28={birth=yes}
+									1719.01.01={add_spouse=lowborn_7747}	# Mary Smith
+									1769.04.25={death=yes}
+								}
+								herbert_0076={ #// 4h) Thomas (ca 1695-25 Dec 1739)
+									name=Thomas
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0031	# Thomas Herbert
+									mother=lowborn_7624	# Margaret Sawyer
+									1695.01.01={birth=yes}
+									1739.12.25={death=yes}
+								}
+								herbert_0077={ #// 5h) William (1696-31 Mar 1757); m.Catherine Elizabeth Tewes (d.28 Aug 1770)
+									name=William
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0031	# Thomas Herbert
+									mother=lowborn_7624	# Margaret Sawyer
+									1696.01.01={birth=yes}
+									1730.01.01={add_spouse=lowborn_7748}	# Catherine Elizabeth Tewes
+									1757.03.31={death=yes}
+								}
+									herbert_0079={ #// 2i) Henry, cr 1793 Earl of Carnarvon and Lord Porchester of High Clere (20 Aug 1741-London 3 Jun 1811); m.London 15 Jul 1771 Lady Elizabeth Alicia Maria Wyndham (London 29 Nov 1752-Petworth 10 Feb 1826)
+										name=Henry
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0077	# William Herbert
+										mother=lowborn_7748	# Catherine Elizabeth Tewes
+										1741.08.20={birth=yes}
+										1771.07.15={add_spouse=lowborn_7749}	# LADY Elizabeth Alicia Wyndham
+										1811.06.03={death=yes}  # London
+									}
+										herbert_0080={ #// 1j) Henry George, 2nd Earl of Carnarvon (London 3 Jun 1772-London 16 Apr 1833); m.London 25 Apr 1796 Elizabeth Kitty Acland (13 Dec 1772-5 Mar 1813)
+											name="Henry George"
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0079	# Henry Herbert
+											mother=lowborn_7749	# LADY Elizabeth Alicia Wyndham
+											1772.06.03={birth=yes}  # London
+											1796.04.25={add_spouse=lowborn_7750}	# Elizabeth Kitty Acland
+											1833.04.16={death=yes}  # London
+										}
+											herbert_0081={ #// 1k) Henrietta Elizabeth (23 Jun 1797-1836); m.21 Apr 1829 Rev John Charles Stapleton
+												name="Henrietta Elizabeth"
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0080	# Henry George Herbert
+												mother=lowborn_7750	# Elizabeth Kitty Acland
+												1797.06.23={birth=yes}
+												1836.01.01={death=yes}
+											}
+											herbert_0082={ #// 2k) Emily Frances Theresa (25 Oct 1798-16 Nov 1854); m.4 Oct 1822 Philip Pusey, of Pusey (25 Jun 1799-9 Jul 1855), of the Earls of Radnor
+												name=Emily
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0080	# Henry George Herbert
+												mother=lowborn_7750	# Elizabeth Kitty Acland
+												1798.10.25={birth=yes}
+												1854.11.16={death=yes}
+											}
+											herbert_0083={ #// 3k) Henry John George, 3rd Earl of Carnarvon (London 8 Jun 1800-Pusey, Berks 10 Dec 1849); m.Aldinbourne, Sussex 4 Aug 1830 Henrietta Anne Howard-Molyneux-Howard (17 Jul 1804-Pixton Park 26 May 1876)
+												name=Henry
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0080	# Henry George Herbert
+												mother=lowborn_7750	# Elizabeth Kitty Acland
+												1800.06.08={birth=yes}  # London
+												1830.08.04={add_spouse=lowborn_7753}	# Henrietta Anne Howard-Molyneux-Howard
+												1849.12.10={death=yes}  # Pusey Berks
+											}
+												herbert_0084={ #// 1l) Henry Howard Molyneux, 4th Earl of Carnarvon (24 Jun 1831-28 Jun 1890); m.1st 5 Sep 1861 Lady Evelyn Stanhope (3 Nov 1834-25 Jan 1875); m.2nd 26 Dec 1878 Elisabeth Catharine Howard (d.1 Feb 1929)
+													name="Henry Howard"
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0083	# Henry Herbert
+													mother=lowborn_7753	# Henrietta Anne Howard-Molyneux-Howard
+													1831.06.24={birth=yes}
+													1861.09.05={add_spouse=lowborn_7754}	# LADY Evelyn Stanhope
+													1878.12.26={add_spouse=lowborn_7755}	# Elisabeth Catharine Howard
+													1890.06.28={death=yes}
+												}
+													herbert_0085={ #// 1m) Winifred Anne Henrietta Christina Herbert (2 Jul 1864-28 Sep 1933); m.1st 10 Jan 1887 Hon Alfred John George Byng (4 May 1851-8 Nov 1887); m.2nd 4 Mar 1890 Herbert Coulstoun Gardner, Lord Burghclere (9 Jun 1846-6 May 1921)
+														name=Winifred
+														female=yes
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0084	# Henry Howard Herbert
+														mother=lowborn_7754	# LADY Evelyn Stanhope
+														1864.07.02={birth=yes}
+														1933.09.28={death=yes}
+													}
+													herbert_0086={ #// 2m) George Edward Stanhope Molyneux, 5th Earl of Carnarvon (26 Jun 1866-5 Apr 1923); m.26 Jun 1895 Almina Victoria Marie Alexandra (dau of Marie, wife of Frederick Charles Wombwell, of the Baronets, but possibly fathered by Alfred Rothschild)
+														name="George Edward"
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0084	# Henry Howard Herbert
+														mother=lowborn_7754	# LADY Evelyn Stanhope
+														1866.06.26={birth=yes}
+														1895.06.26={add_spouse=lowborn_7759}	# Almina Victoria Wombwell
+														1923.04.05={death=yes}
+													}
+														herbert_0087={ #// 1n) Henry George Alfred Marcus Victor Francis, 6th Earl of Carnarvon (7 Nov 1898-1987); m.1st 17 Jul 1922 (div 1936) Anne Catherine Tredick Wendell (d.1977); m.2nd 1 Sep 1939 (div 1947) Ottilie Ethel Losch (d.1975)
+															name=Henry
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0086	# George Edward Herbert
+															mother=lowborn_7759	# Almina Victoria Wombwell
+															1898.11.07={birth=yes}
+															1922.07.17={add_spouse=lowborn_7760}	# Anne Catherine Tredick Wendell
+															1936.01.01={remove_spouse=lowborn_7760}
+															1939.09.01={add_spouse=lowborn_7761}	# Ottilie Ethel Losch
+															1947.01.01={remove_spouse=lowborn_7761}
+															1987.01.01={death=yes}
+														}
+															herbert_0088={ #// 1o) Henry George Reginald Molyneux, 7th Earl of Carnarvon (19 Jan 1924-11 Sep 2001); m.7 Jan 1956 Jean Margaret Wallop (29 Apr 1934-10 Apr 2019)
+																name=Henry
+																dynasty=herbert
+																religion=anglican culture=english
+																father=herbert_0087	# Henry Herbert
+																mother=lowborn_7760	# Anne Catherine Tredick Wendell
+																1924.01.19={birth=yes}
+																1956.01.07={add_spouse=lowborn_7762}	# Jean Margaret Wallop
+																2001.09.11={death=yes}
+															}
+																herbert_0089={ #// 1p) George Reginald Oliver Molyneux, 8th Earl of Carnarvon, b.10 Nov 1956; m.1st 16 Dec 1989 (div Jan 1998) Jayne M Wilby; m.2nd 18 Feb 1999 Fiona Aitken
+																	name=George
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0088	# Henry Herbert
+																	mother=lowborn_7762	# Jean Margaret Wallop
+																	1956.11.10={birth=yes}
+																	1989.12.16={add_spouse=lowborn_7763}	# Jayne Wilby
+																	1998.01.01={remove_spouse=lowborn_7763}
+																	1999.02.18={add_spouse=lowborn_7764}	# Fiona Aitken
+																}
+																	herbert_0090={ #// 1q) Saoirse, b.1991
+																		name=Saoirse
+																		female=yes
+																		dynasty=herbert
+																		religion=anglican culture=english
+																		father=herbert_0089	# George Herbert
+																		mother=lowborn_7763	# Jayne Wilby
+																		1991.01.01={birth=yes}
+																	}
+																	herbert_0091={ #// 2q) George Kenneth Oliver Molyneux, Lord Porchester, b.13 Oct 1992
+																		name="George Oliver"
+																		dynasty=herbert
+																		religion=anglican culture=english
+																		father=herbert_0089	# George Herbert
+																		mother=lowborn_7763	# Jayne Wilby
+																		1992.10.13={birth=yes}
+																	}
+																	herbert_0092={ #// 3q) Edward, b.1999
+																		name=Edward
+																		dynasty=herbert
+																		religion=anglican culture=english
+																		father=herbert_0089	# George Herbert
+																		mother=lowborn_7763	# Jayne Wilby
+																		1999.01.01={birth=yes}
+																	}
+																herbert_0093={ #// 2p) Henry Malcolm, b.1959; m.1992 Francesca "Chica" Bevan
+																	name=Henry
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0088	# Henry Herbert
+																	mother=lowborn_7762	# Jean Margaret Wallop
+																	1959.01.01={birth=yes}
+																	1992.01.01={add_spouse=lowborn_7765}	# Francesca Chica Bevan
+																}
+																	herbert_0094={ #// 1q) Chloe Victoria, b.1994
+																		name="Chloe Victoria"
+																		female=yes
+																		dynasty=herbert
+																		religion=anglican culture=english
+																		father=herbert_0093	# Henry Herbert
+																		mother=lowborn_7765	# Francesca Chica Bevan
+																		1994.01.01={birth=yes}
+																	}
+																	herbert_0095={ #// 2q) Francesca Jeanie, b.1995
+																		name=Francesca
+																		female=yes
+																		dynasty=herbert
+																		religion=anglican culture=english
+																		father=herbert_0093	# Henry Herbert
+																		mother=lowborn_7765	# Francesca Chica Bevan
+																		1995.01.01={birth=yes}
+																	}
+																	herbert_0096={ #// 3q) William Henry, b.1999
+																		name="William Henry"
+																		dynasty=herbert
+																		religion=anglican culture=english
+																		father=herbert_0093	# Henry Herbert
+																		mother=lowborn_7765	# Francesca Chica Bevan
+																		1999.01.01={birth=yes}
+																	}
+																herbert_0097={ #// 3p) Carolyn Penelope, b.1962; m.1985 John Frederick Rufus Warren
+																	name="Carolyn Penelope"
+																	female=yes
+																	dynasty=herbert
+																	religion=anglican culture=english
+																	father=herbert_0088	# Henry Herbert
+																	mother=lowborn_7762	# Jean Margaret Wallop
+																	1962.01.01={birth=yes}
+																}
+															herbert_0098={ #// 2o) Anne Penelope Marian (3 Mar 1925-1990); m.21 Apr 1945 Reinier Gerrit Anton van der Woude
+																name=Anne
+																dynasty=herbert
+																religion=anglican culture=english
+																father=herbert_0087	# Henry Herbert
+																mother=lowborn_7760	# Anne Catherine Tredick Wendell
+																1925.03.03={birth=yes}
+																1945.04.21={add_spouse=lowborn_7767}	# Reinier Anton Gerrit van der Woude
+																1990.01.01={death=yes}
+															}
+														herbert_0099={ #// 2n) Evelyn Leonora Almina (15 Aug 1901-31 Jan 1980); m.8 Oct 1923 Sir Brograve Campbell Beauchamp, 2nd Bt. (5 May 1897-1976)
+															name="Evelyn Almina"
+															female=yes
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0086	# George Edward Herbert
+															mother=lowborn_7759	# Almina Victoria Wombwell
+															1901.08.15={birth=yes}
+															1980.01.31={death=yes}
+														}
+													herbert_0100={ #// 3m) Margaret Leonora Evelyn Selina (18 Sep 1870-13 Sep 1958); m.10 Sep 1904 Sir George Herbert Duckworth (5 Mar 1867-27 Apr 1934)
+														name="Margaret Selina"
+														female=yes
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0084	# Henry Howard Herbert
+														mother=lowborn_7754	# LADY Evelyn Stanhope
+														1870.09.18={birth=yes}
+														1958.09.13={death=yes}
+													}
+													herbert_0101={ #// 4m) Victoria Alexandrina Mary Cecil (31 Dec 1874-15 Nov 1957)
+														name=Victoria
+														female=yes
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0084	# Henry Howard Herbert
+														mother=lowborn_7754	# LADY Evelyn Stanhope
+														1874.12.31={birth=yes}
+														1957.11.15={death=yes}
+													}
+													herbert_0102={ #// 5m) Aubrey Nigel Henry Molyneux (3 Apr 1880-26 Sep 1923); m.20 Oct 1910 Hon Mary Gertrude Vesey (10 Apr 1889-28 Nov 1970)
+														name=Aubrey
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0084	# Henry Howard Herbert
+														mother=lowborn_7755	# Elisabeth Catharine Howard
+														1880.04.03={birth=yes}
+														1910.10.20={add_spouse=lowborn_7770}	# HON Mary Gertrude Vesey
+														1923.09.26={death=yes}
+													}
+														herbert_0103={ #// 1n) Gabriel Mary Hermione (29 Sep 1911-Nov 1987); m.6 Mar 1943 Alexander Dru
+															name="Gabriel Mary"
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0102	# Aubrey Herbert
+															mother=lowborn_7770	# HON Mary Gertrude Vesey
+															1911.09.29={birth=yes}
+															1943.03.06={add_spouse=lowborn_7771}	# Alexander Dru
+															1987.11.01={death=yes}
+														}
+														herbert_0104={ #// 2n) Anne Brigit Dominica (22 Feb 1914-Jul 2005); m.20 Nov 1935 Allister Edward George Grant (d.27 Sep 1947)
+															name="Anne Dominica"
+															female=yes
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0102	# Aubrey Herbert
+															mother=lowborn_7770	# HON Mary Gertrude Vesey
+															1914.02.22={birth=yes}
+															2005.07.01={death=yes}
+														}
+														herbert_0105={ #// 3n) Laura Laetitia Gwendolen Evelyn (21 Jun 1916-1973); m.17 Apr 1937 Evelyn Arthur St.John Waugh (1903-10 Apr 1966)
+															name="Laura Gwendolen"
+															female=yes
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0102	# Aubrey Herbert
+															mother=lowborn_7770	# HON Mary Gertrude Vesey
+															1916.06.21={birth=yes}
+															1973.01.01={death=yes}
+														}
+														herbert_0106={ #// 4n) Auberon Mark Henry Yvo Molyneux, b.25 Apr 1922
+															name=Auberon
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0102	# Aubrey Herbert
+															mother=lowborn_7770	# HON Mary Gertrude Vesey
+															1922.04.25={birth=yes}
+															1992.01.01={death=yes}  # EST.
+														}
+													herbert_0107={ #// 6m) Mervyn Robert Howard Molyneux (2 Dec 1882-26 May 1929); m.1 Jun 1921 Mary Elizabeth Willard (d.1979)
+														name=Mervyn
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0084	# Henry Howard Herbert
+														mother=lowborn_7755	# Elisabeth Catharine Howard
+														1882.12.02={birth=yes}
+														1921.06.01={add_spouse=lowborn_7774}	# Mary Elizabeth Willard
+														1929.05.26={death=yes}
+													}
+														herbert_0108={ #// 1n) Mary Elizabeth Catherine Gwendolen (24 Mar 1922-1999); m.1st 6 Apr 1946 (div 1957) Radu Tilea (d.1999); m.2nd 1970 (div) Ct Denys Halka Ledóchowsky (d.1980)
+															name="Mary Elizabeth"
+															female=yes
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0107	# Mervyn Herbert
+															mother=lowborn_7774	# Mary Elizabeth Willard
+															1922.03.24={birth=yes}
+															1999.01.01={death=yes}
+														}
+														herbert_0109={ #// 2n) Margaret Anne Antonia (13 Aug 1923-1991); m.29 May 1954 Timothy Walter Horn (d.1989)
+															name=Margaret
+															female=yes
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0107	# Mervyn Herbert
+															mother=lowborn_7774	# Mary Elizabeth Willard
+															1923.08.13={birth=yes}
+															1991.01.01={death=yes}
+														}
+														herbert_0110={ #// 3n) Edward Alan Mervyn Henry Molyneux (6 Jul 1926-1994); m.22 Mar 1966 Bridget Anne Hibbert (4 Sep 1939-1976)
+															name=Edward
+															dynasty=herbert
+															religion=anglican culture=english
+															father=herbert_0107	# Mervyn Herbert
+															mother=lowborn_7774	# Mary Elizabeth Willard
+															1926.07.06={birth=yes}
+															1966.03.22={add_spouse=lowborn_7778}	# Bridget Anne Hibbert
+															1994.01.01={death=yes}
+														}
+															herbert_0111={ #// 1o) Alan Mervyn Edward Hugh, b.1971
+																name=Alan
+																dynasty=herbert
+																religion=anglican culture=english
+																father=herbert_0110	# Edward Herbert
+																mother=lowborn_7778	# Bridget Anne Hibbert
+																1971.01.01={birth=yes}
+															}
+															herbert_0112={ #// 2o) Mary Patricia, b.1967
+																name="Mary Patricia"
+																female=yes
+																dynasty=herbert
+																religion=anglican culture=english
+																father=herbert_0110	# Edward Herbert
+																mother=lowborn_7778	# Bridget Anne Hibbert
+																1967.01.01={birth=yes}
+															}
+															herbert_0113={ #// 3o) Elizabeth Anne, b.1968; m.1997 David Colin Buxton Carter
+																name="Elizabeth Anne"
+																female=yes
+																dynasty=herbert
+																religion=anglican culture=english
+																father=herbert_0110	# Edward Herbert
+																mother=lowborn_7778	# Bridget Anne Hibbert
+																1968.01.01={birth=yes}
+															}
+															herbert_0114={ #// 4o) Penelope Gabrielle Serena, b.1969; m.2000 Lawson James Owen
+																name=Penelope
+																female=yes
+																dynasty=herbert
+																religion=anglican culture=english
+																father=herbert_0110	# Edward Herbert
+																mother=lowborn_7778	# Bridget Anne Hibbert
+																1969.01.01={birth=yes}
+															}
+												herbert_0115={ #// 2l) Eveline Alicia Juliana (21 Dec 1834-Over Wallop 30 Sep 1906); m.15 Feb 1855 Isaac Newton Wallop, 5th Earl of Portsmouth (11 Jan 1825-4 Oct 1891)
+													name=Eveline
+													female=yes
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0083	# Henry Herbert
+													mother=lowborn_7753	# Henrietta Anne Howard-Molyneux-Howard
+													1834.12.21={birth=yes}
+													1906.09.30={death=yes}  # Over Wallop
+												}
+												herbert_0116={ #// 3l) Alan Percy Molyneux (21 Nov 1836-    )
+													name="Alan Percy"
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0083	# Henry Herbert
+													mother=lowborn_7753	# Henrietta Anne Howard-Molyneux-Howard
+													1836.11.21={birth=yes}
+													1906.01.01={death=yes}  # EST.
+												}
+												herbert_0117={ #// 4l) Auberon Edward William Molyneux (18 Jun 1838-5 Nov 1906); m.9 Aug 1871 Lady Florence Amabel Cowper (4 Dec 1840-26 Apr 1886)
+													name=Auberon
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0083	# Henry Herbert
+													mother=lowborn_7753	# Henrietta Anne Howard-Molyneux-Howard
+													1838.06.18={birth=yes}
+													1871.08.09={add_spouse=lowborn_7782}	# LADY Florence Amabel Cowper
+													1906.11.05={death=yes}
+												}
+													herbert_0118={ #// 1m) Rolf (23 Jul 1872-13 Apr 1882)
+														name=Rolf
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0117	# Auberon Herbert
+														mother=lowborn_7782	# LADY Florence Amabel Cowper
+														1872.07.23={birth=yes}
+														1882.04.13={death=yes}
+													}
+													herbert_0119={ #// 2m) Clair Mimran (28 Sep 1874-8 Jan 1893)
+														name=Clair
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0117	# Auberon Herbert
+														mother=lowborn_7782	# LADY Florence Amabel Cowper
+														1874.09.28={birth=yes}
+														1893.01.08={death=yes}
+													}
+													herbert_0120={ #// 3m) Auberon Thomas, 8th Lord Lucas of Crudwell, 11th Lord Dingwall, suc. maternal uncle (25 May 1876-k.a.3 Nov 1916)
+														name="Auberon Thomas"
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0117	# Auberon Herbert
+														mother=lowborn_7782	# LADY Florence Amabel Cowper
+														1876.05.25={birth=yes}
+														1916.11.03={death=yes}
+													}
+													herbert_0121={ #// 4m) Nan Ino, 9th Bss Lucas of Crudwell, 12th Bss Dingwall (13 Jun 1880-23 Nov 1953); m.30 Apr 1917 Howard Lister Cooper à issue, inheriting the Baronies of Lucas and Dingwall
+														name=Nan
+														dynasty=herbert
+														religion=anglican culture=english
+														father=herbert_0117	# Auberon Herbert
+														mother=lowborn_7782	# LADY Florence Amabel Cowper
+														1880.06.13={birth=yes}
+														1917.04.30={add_spouse=lowborn_7783}	# Howard Lister Cooper
+														1953.11.23={death=yes}
+													}
+												herbert_0122={ #// 5l) a dau (b.and d.10 Dec 1840)
+													name=dau
+													female=yes
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0083	# Henry Herbert
+													mother=lowborn_7753	# Henrietta Anne Howard-Molyneux-Howard
+													1840.12.10={birth=yes}
+													1915.01.01={death=yes}  # EST.
+												}
+												herbert_0123={ #// 6l) Gwendolen Ondine (18 Aug 1842-23 Oct 1915)
+													name=Gwendolen
+													female=yes
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0083	# Henry Herbert
+													mother=lowborn_7753	# Henrietta Anne Howard-Molyneux-Howard
+													1842.08.18={birth=yes}
+													1915.10.23={death=yes}
+												}
+											herbert_0124={ #// 4k) Edward Charles Hugh (30 Mar 1802-30 May 1852); m.Jun 1833 Elizabeth Escott (d.1840)
+												name=Edward
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0080	# Henry George Herbert
+												mother=lowborn_7750	# Elizabeth Kitty Acland
+												1802.03.30={birth=yes}
+												1833.06.01={add_spouse=lowborn_7784}	# Elizabeth Escott
+												1852.05.30={death=yes}
+											}
+												herbert_0125={ #// 1l) Edward Henry Charles (1 Sep 1837-murdered by brigands in Greece 1870)
+													name=Edward
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0124	# Edward Herbert
+													mother=lowborn_7784	# Elizabeth Escott
+													1837.09.01={birth=yes}
+													1870.01.01={death=yes}  # murdered brigands in Greece
+												}
+												herbert_0126={ #// 2l) Henry Algernon (1839-8 Feb 1847)
+													name="Henry Algernon"
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0124	# Edward Herbert
+													mother=lowborn_7784	# Elizabeth Escott
+													1839.01.01={birth=yes}
+													1847.02.08={death=yes}
+												}
+											herbert_0127={ #// 5k) Theresa (Dec 1803-20 Sep 1815)
+												name=Theresa
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0080	# Henry George Herbert
+												mother=lowborn_7750	# Elizabeth Kitty Acland
+												1803.12.01={birth=yes}
+												1815.09.20={death=yes}
+											}
+										herbert_0128={ #// 2j) Charles (5 Jul 1774-drowned 12 Sep 1808); m.9 Jul 1806 Hon. Bridget Augusta Byng (d.4 Mar 1876)
+											name=Charles
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0079	# Henry Herbert
+											mother=lowborn_7749	# LADY Elizabeth Alicia Wyndham
+											1774.07.05={birth=yes}
+											1806.07.09={add_spouse=lowborn_7785}	# HON. Bridget Augusta Byng
+											1808.09.12={death=yes}  # drowned
+										}
+											herbert_0129={ #// 1k) Augusta Elizabeth (d.3 Apr 1876); m.10 May 1824 Sir Francis Vincent, 10th Bt. (3 Mar 1803-6 Jul 1880)
+												name="Augusta Elizabeth"
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0128	# Charles Herbert
+												mother=lowborn_7785	# HON. Bridget Augusta Byng
+												1808.01.01={birth=yes}  # EST.
+												1876.04.03={death=yes}
+											}
+										herbert_0130={ #// 3j) Frances (12 Jun 1775-22 Aug 1830); m.London 5 Dec 1797 Thomas Reynolds-Moreton, Earl of Ducie (31 Aug 1776-Woodchester Park 22 Jun 1840)
+											name=Frances
+											female=yes
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0079	# Henry Herbert
+											mother=lowborn_7749	# LADY Elizabeth Alicia Wyndham
+											1775.06.12={birth=yes}
+											1830.08.22={death=yes}
+										}
+										herbert_0131={ #// 4j) Very Rev. William, Dean of Manchester (12 Jan 1778-28 May 1847); m.17 May 1806 Hon. Letitia Dorothea Allen (d.14 Jun 1878)
+											name="Very William"
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0079	# Henry Herbert
+											mother=lowborn_7749	# LADY Elizabeth Alicia Wyndham
+											1778.01.12={birth=yes}
+											1806.05.17={add_spouse=lowborn_7788}	# HON. Letitia Dorothea Allen
+											1847.05.28={death=yes}
+										}
+											herbert_0132={ #// 1k) Henry William (7 Apr 1807-New York 2 Sep 1859); m.31 Dec 1839 Sarah Barker (d.Mar 1844)
+												name="Henry William"
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0131	# Very William Herbert
+												mother=lowborn_7788	# HON. Letitia Dorothea Allen
+												1807.04.07={birth=yes}
+												1839.12.31={add_spouse=lowborn_7789}	# Sarah Barker
+												1859.09.02={death=yes}  # New York
+											}
+												herbert_0133={ #// 1l) William George (3 Aug 1841-17 May 1920); m.8 Jan 1867 Emily Eliza Falkiner, dau of Sir Samuel Falkiner, 5th Bt. (d.20 May 1911)
+													name="William George"
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0132	# Henry William Herbert
+													mother=lowborn_7789	# Sarah Barker
+													1841.08.03={birth=yes}
+													1867.01.08={add_spouse=lowborn_7790}	# BT. Emily Eliza Falkiner
+													1920.05.17={death=yes}
+												}
+											herbert_0134={ #// 2k) Louisa Catherine Georgiana (17 Dec 1809-17 Feb 1904); m.6 Jun 1848 Godfrey Charles Mundy (d.10 Jul 1860)
+												name=Louisa
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0131	# Very William Herbert
+												mother=lowborn_7788	# HON. Letitia Dorothea Allen
+												1809.12.17={birth=yes}
+												1904.02.17={death=yes}
+											}
+											herbert_0135={ #// 3k) Frederick Charles (25 Feb 1819-27 May 1868); m.12 Sep 1848 Bessie Newenham Stuart (d.16 Sep 1904)
+												name="Frederick Charles"
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0131	# Very William Herbert
+												mother=lowborn_7788	# HON. Letitia Dorothea Allen
+												1819.02.25={birth=yes}
+												1848.09.12={add_spouse=lowborn_7792}	# Bessie Newenham Stuart
+												1868.05.27={death=yes}
+											}
+												herbert_0136={ #// 1l) St.Leger Algernon (16 Aug 1850-k.a.Sudan 19 Jan 1885)
+													name="Sankt Algernon"
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0135	# Frederick Charles Herbert
+													mother=lowborn_7792	# Bessie Newenham Stuart
+													1850.08.16={birth=yes}
+													1885.01.19={death=yes}  # Sudan
+												}
+												herbert_0137={ #// 2l) Allan William Henry (20 Aug 1852-14 Sep 1897)
+													name=Allan
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0135	# Frederick Charles Herbert
+													mother=lowborn_7792	# Bessie Newenham Stuart
+													1852.08.20={birth=yes}
+													1897.09.14={death=yes}
+												}
+												herbert_0138={ #// 3l) Louisa Emily Julia, d.Jul 1889; m.14 May 1875 Robert Hervey Monro Elwes (d.6 Feb 1893)
+													name=Louisa
+													female=yes
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0135	# Frederick Charles Herbert
+													mother=lowborn_7792	# Bessie Newenham Stuart
+													1856.01.01={birth=yes}  # EST.
+													1889.07.01={death=yes}
+												}
+												herbert_0139={ #// 4l) Hilda Augusta, d.19 May 1946; m.4 Aug 1881 Rev. Frederick Philip Green de Fréville
+													name="Hilda Augusta"
+													female=yes
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0135	# Frederick Charles Herbert
+													mother=lowborn_7792	# Bessie Newenham Stuart
+													1860.01.01={birth=yes}  # EST.
+													1946.05.19={death=yes}
+												}
+												herbert_0140={ #// 5l) George Frederick (23 Oct 1861-3 Jun 1906)
+													name="George Frederick"
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0135	# Frederick Charles Herbert
+													mother=lowborn_7792	# Bessie Newenham Stuart
+													1861.10.23={birth=yes}
+													1906.06.03={death=yes}
+												}
+												herbert_0141={ #// 6l) Beatrice Mary, d.15 Jan 1948
+													name="Beatrice Mary"
+													female=yes
+													dynasty=herbert
+													religion=anglican culture=english
+													father=herbert_0135	# Frederick Charles Herbert
+													mother=lowborn_7792	# Bessie Newenham Stuart
+													1868.01.01={birth=yes}  # EST.
+													1948.01.15={death=yes}
+												}
+											herbert_0142={ #// 4k) Cecilia Augusta Henrietta (28 May 1828-1860); m.1856 A T Ferguson (d.1863)
+												name=Cecilia
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0131	# Very William Herbert
+												mother=lowborn_7788	# HON. Letitia Dorothea Allen
+												1828.05.28={birth=yes}
+												1860.01.01={death=yes}
+											}
+										herbert_0143={ #// 5j) Percy (17 Sep 1780-1 Apr 1784)
+											name=Percy
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0079	# Henry Herbert
+											mother=lowborn_7749	# LADY Elizabeth Alicia Wyndham
+											1780.09.17={birth=yes}
+											1784.04.01={death=yes}
+										}
+										herbert_0144={ #// 6j) Rev. George (21 Feb 1789-27 Mar 1825); m.1 Sep 1806 Frances Head (1780-2 Feb 1862),of the family of the Head Baronets
+											name=George
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0079	# Henry Herbert
+											mother=lowborn_7749	# LADY Elizabeth Alicia Wyndham
+											1789.02.21={birth=yes}
+											1806.09.01={add_spouse=lowborn_7796}	# Frances Head
+											1825.03.27={death=yes}
+										}
+											herbert_0145={ #// 1k) Maria Justina Frances (5 Feb 1808-25 Jan 1872)
+												name="Maria Justina"
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0144	# George Herbert
+												mother=lowborn_7796	# Frances Head
+												1808.02.05={birth=yes}
+												1872.01.25={death=yes}
+											}
+											herbert_0146={ #// 2k) Frances Georgiana Caroline (15 Sep 1809-Aug 1865)
+												name=Frances
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0144	# George Herbert
+												mother=lowborn_7796	# Frances Head
+												1809.09.15={birth=yes}
+												1865.08.01={death=yes}
+											}
+											herbert_0147={ #// 3k) George John (7 Apr 1811-14 Jul 1811)
+												name="George John"
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0144	# George Herbert
+												mother=lowborn_7796	# Frances Head
+												1811.04.07={birth=yes}
+												1811.07.14={death=yes}
+											}
+											herbert_0148={ #// 4k) George (2 Jul 1812-9 Sep 1838)
+												name=George
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0144	# George Herbert
+												mother=lowborn_7796	# Frances Head
+												1812.07.02={birth=yes}
+												1838.09.09={death=yes}
+											}
+											herbert_0149={ #// 5k) Caroline Honoria Louise (11 Oct 1813-16 Mar 1838)
+												name="Caroline Louise"
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0144	# George Herbert
+												mother=lowborn_7796	# Frances Head
+												1813.10.11={birth=yes}
+												1838.03.16={death=yes}
+											}
+											herbert_0150={ #// 6k) Elizabeth Alicia Emily Anne (22 Jan 1816-    )
+												name=Elizabeth
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0144	# George Herbert
+												mother=lowborn_7796	# Frances Head
+												1816.01.22={birth=yes}
+												1891.01.01={death=yes}  # EST.
+											}
+											herbert_0151={ #// 7k) Catherine Stepney (26 Mar 1818-Mar 1886)
+												name=Catherine
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0144	# George Herbert
+												mother=lowborn_7796	# Frances Head
+												1818.03.26={birth=yes}
+												1886.03.01={death=yes}
+											}
+											herbert_0152={ #// 8k) Agnes Katinka (15 Nov 1820-    )
+												name="Agnes Katinka"
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0144	# George Herbert
+												mother=lowborn_7796	# Frances Head
+												1820.11.15={birth=yes}
+												1895.01.01={death=yes}  # EST.
+											}
+										herbert_0153={ #// 7j) Algernon (12 Jul 1792-11 Jun 1855); m.2 Aug 1830 Marianne Lempriere (d.7 Aug 1870)
+											name=Algernon
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0079	# Henry Herbert
+											mother=lowborn_7749	# LADY Elizabeth Alicia Wyndham
+											1792.07.12={birth=yes}
+											1830.08.02={add_spouse=lowborn_7797}	# Marianne Lempriere
+											1855.06.11={death=yes}
+										}
+											herbert_0154={ #// 1k) Sir Robert George Wyndham (12 Jun 1831-6 May 1905)
+												name="Robert George"
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0153	# Algernon Herbert
+												mother=lowborn_7797	# Marianne Lempriere
+												1831.06.12={birth=yes}
+												1905.05.06={death=yes}
+											}
+											herbert_0155={ #// 2k) Elizabeth Alicia Maria (14 Feb 1834-    ); m.31 Dec 1857 Rev. William Lempriere Lewis (d.18 Jan 1872)
+												name=Elizabeth
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0153	# Algernon Herbert
+												mother=lowborn_7797	# Marianne Lempriere
+												1834.02.14={birth=yes}
+												1909.01.01={death=yes}  # EST.
+											}
+											herbert_0156={ #// 3k) Jane Caroline (2 Jun 1837-    )
+												name="Jane Caroline"
+												female=yes
+												dynasty=herbert
+												religion=anglican culture=english
+												father=herbert_0153	# Algernon Herbert
+												mother=lowborn_7797	# Marianne Lempriere
+												1837.06.02={birth=yes}
+												1912.01.01={death=yes}  # EST.
+											}
+									herbert_0158={ #// 3i) Rev. Caroline Robert [son], d.2 Feb 1814
+										name="Caroline Robert"
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0077	# William Herbert
+										mother=lowborn_7748	# Catherine Elizabeth Tewes
+										1742.01.01={birth=yes}  # EST.
+										1814.02.02={death=yes}
+									}
+									herbert_0157={ #// 3i) Charles (1743-5 Sep 1816); m.1775 Lady Caroline Montague
+										name=Charles
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0077	# William Herbert
+										mother=lowborn_7748	# Catherine Elizabeth Tewes
+										1743.01.01={birth=yes}
+										1775.01.01={add_spouse=lowborn_7799}	# LADY Caroline Montague
+										1816.09.05={death=yes}
+									}
+								herbert_0161={ #// 7h) Nicholas (1706-1 Feb 1775); m.19 Jul 1737 Anne North (d.25 Dec 1755)
+									name=Nicholas
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0031	# Thomas Herbert
+									mother=lowborn_7624	# Margaret Sawyer
+									1706.01.01={birth=yes}
+									1737.07.19={add_spouse=lowborn_7800}	# Anne North
+									1775.02.01={death=yes}
+								}
+									herbert_0162={ #// 1i) dau (1738-25 Dec 1751)
+										name=dau
+										female=yes
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0161	# Nicholas Herbert
+										mother=lowborn_7800	# Anne North
+										1738.01.01={birth=yes}
+										1751.12.25={death=yes}
+									}
+									herbert_0163={ #// 2i) Barbara (Jul 1742-11 Apr 1785); m.London 29 Jul 1765 Edward Stratford, 2nd Earl of Aldborough (d.2 Jan 1801)
+										name=Barbara
+										female=yes
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0161	# Nicholas Herbert
+										mother=lowborn_7800	# Anne North
+										1742.07.01={birth=yes}
+										1785.04.11={death=yes}
+									}
+								herbert_0164={ #// 8h) Catherine (bur 18 Sep 1716); m.Sir Nicholas Morice, 2nd Bt. (1681-27 Jan 1726)
+									name=Catherine
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0031	# Thomas Herbert
+									mother=lowborn_7624	# Margaret Sawyer
+									1690.01.01={birth=yes}  # EST.
+									1716.09.18={death=yes}
+								}
+								herbert_0168={ #// 12h) Rebecca (d.Gaddesden, Herts 20 Oct 1758); m.20 May 1731 William Nevill, 16th Lord Abergavenny (d.21 Sep 1744)
+									name=Rebecca
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0031	# Thomas Herbert
+									mother=lowborn_7625	# BT. Barbara Slingsby
+									1710.01.01={birth=yes}  # EST.
+									1758.10.20={death=yes}
+								}
+								herbert_0169={ #// 13h) [2m.] Barbara, d.27 Dec 1752; m.3 Oct 1730 Dudley North, of Glemham Hall
+									name=Barbara
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0031	# Thomas Herbert
+									mother=lowborn_7625	# BT. Barbara Slingsby
+									1711.01.01={birth=yes}  # EST.
+									1752.12.27={death=yes}
+								}
+						herbert_0172={ #// 6f) James; m.1st Lady Catherine Osborne; m.2nd Jane Spiller $$
+							name=James
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0019	# Philip Herbert
+							mother=lowborn_7610	# LADY Susan de Vere
+							1640.01.01={birth=yes}  # EST.
+							1660.01.01={add_spouse=lowborn_7807}	# Jane Spiller
+							1675.01.01={add_spouse=osborne_0072}	# Catherine Osborne
+							1700.01.01={death=yes}  # EST.
+						}
+							herbert_0173={ #// 1g) James, of Tythrop (d.1721); m.Maria Hallett
+								name=James
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0172	# James Herbert
+								mother=osborne_0072	# Catherine Osborne
+								1676.01.01={birth=yes}  # EST.
+								1712.01.01={add_spouse=lowborn_7808}	# Maria Hallett
+								1721.01.01={death=yes}
+							}
+								herbert_0174={ #// 1h) James (1713-1740)
+									name=James
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0173	# James Herbert
+									mother=lowborn_7808	# Maria Hallett
+									1713.01.01={birth=yes}
+									1740.01.01={death=yes}
+								}
+								herbert_0175={ #// 2h) Philip (1716-22 Jul 1749); m.Mary Butler
+									name=Philip
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0173	# James Herbert
+									mother=lowborn_7808	# Maria Hallett
+									1716.01.01={birth=yes}
+									1742.01.01={add_spouse=lowborn_7809}	# Mary Butler
+									1749.07.22={death=yes}
+								}
+								herbert_0176={ #// 3h) Sophia, d.19 Jul 1787; m.13 Jul 1741 Philip Wenman, 3rd Viscount Wenman (23 Nov 1719-16 Aug 1760)
+									name=Sophia
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0173	# James Herbert
+									mother=lowborn_7808	# Maria Hallett
+									1718.01.01={birth=yes}  # EST.
+									1787.07.19={death=yes}
+								}
+							herbert_0177={ #// 2g) Philip; m.Lady Marianne Finch
+								name=Philip
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0172	# James Herbert
+								mother=osborne_0072	# Catherine Osborne
+								1677.01.01={birth=yes}  # EST.
+								1700.01.01={add_spouse=lowborn_7811}	# LADY Marianne Finch
+								1740.01.01={death=yes}  # EST.
+							}
+							herbert_0178={ #// 3g) [ex 1] Elizabeth; m.Sir John Cotton, of Connington, 4th Bt. (d.5 Feb 1731)
+								name=Elizabeth
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0172	# James Herbert
+								mother=osborne_0072	# Catherine Osborne
+								1678.01.01={birth=yes}  # EST.
+								1730.01.01={death=yes}  # EST.
+							}
+							herbert_0179={ #// 4g) [ex 2] Jane, fl 1688, d.by 1691; m.by 1682 Sir Walter Clarges, Bt. (ca 1654-Mar 1706)
+								name=Jane
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0172	# James Herbert
+								mother=lowborn_7807	# Jane Spiller
+								1662.01.01={birth=yes}  # EST.
+								1691.01.01={death=yes}
+							}
+							herbert_0180={ #// 5g) [ex 2] Mary (d.6 Apr 1693); m.1st Sir James Worsley, 3rd Bt. (d.1676); m.2nd London 23 Apr 1683 Edward Noel, Earl of Gainsborough (d.Jan 1689)
+								name=Mary
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0172	# James Herbert
+								mother=lowborn_7807	# Jane Spiller
+								1666.01.01={birth=yes}  # EST.
+								1693.04.06={death=yes}
+							}
+						herbert_0181={ #// 7f) John; m. Hon. Penelope Bayning (3 Nov 1638-bur 1 May 1657)
+							name=John
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0019	# Philip Herbert
+							mother=lowborn_7609	# LADY Susan de Vere
+							1609.01.01={birth=yes}  # EST.
+							1661.01.01={add_spouse=lowborn_7816}	# HON. Penelope Bayning
+							1669.01.01={death=yes}  # EST.
+						}
+						herbert_0182={ #// 8f) Anna Sophia (d.ca 1695); m.27 Feb 1625 Robert Dormer, Earl of Carnarvon (k.a.Newbury 20 Sep 1643)
+							name="Anna Sophia"
+							female=yes
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0019	# Philip Herbert
+							mother=lowborn_7609	# LADY Susan de Vere
+							1611.01.01={birth=yes}  # EST.
+							1695.01.01={death=yes}
+						}
+				herbert_0186={ #// 2d) Sir Edward, of Powis Castle (d.23 Mar 1594); m.Mary Stanley
+					name=Edward
+					dynasty=herbert
+					religion=anglican culture=english
+					father=herbert_0015	# William Herbert
+					mother=lowborn_7589	# Anne Parr
+					1540.01.01={birth=yes}  # EST.
+					1570.01.01={add_spouse=lowborn_7818}	# Mary Stanley
+					1594.03.23={death=yes}
+				}
+					herbert_0187={ #// 1e) William, cr 1629 Lord Powis (1573/4-7 Mar 1656); m.by 1600 Lady Eleanor Percy (d.24 Dec 1650)
+						name=William
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0186	# Edward Herbert
+						mother=lowborn_7818	# Mary Stanley
+						1573.01.01={birth=yes}
+						1600.01.01={add_spouse=lowborn_7819}	# LADY Eleanor Percy Percy
+						1656.03.07={death=yes}
+					}
+						herbert_0188={ #// 1f) Percy, 2nd Lord Powis, cr Baronet 1622 (d.19 Jan 1667); m.London 19 Nov 1622 Elizabeth Craven (d.8 Oct 1662)
+							name=Percy
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0187	# William Herbert
+							mother=lowborn_7819	# LADY Eleanor Percy Percy
+							1601.01.01={birth=yes}  # EST.
+							1622.11.19={add_spouse=lowborn_7820}	# Elizabeth Craven
+							1667.01.19={death=yes}
+						}
+							herbert_0189={ #// 1g) Mary (1623-    ); m.George Talbot, Lord Talbot (ca 1620-7 Mar 1642)
+								name=Mary
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0188	# Percy Herbert
+								mother=lowborn_7820	# Elizabeth Craven
+								1623.01.01={birth=yes}
+								1698.01.01={death=yes}  # EST.
+							}
+							herbert_0190={ #// 2g) William, 3rd Lord Powis, cr 1674 Earl of Powis, cr 1687 Marquess of Powis and Viscount Montgomery, cr 1689 [Jacobite] Duke of Powis and Marquess of Montgomery, outlawed for high treason 1690 (ca 1626-St.Germain-en-Laye 2 Jul 1696); m.London Jul 1654 Lady Elizabeth Somerset (d.St..Germain-en-Laye 11 Mar 1691)
+								name=William
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0188	# Percy Herbert
+								mother=lowborn_7820	# Elizabeth Craven
+								1626.01.01={birth=yes}
+								1654.07.01={add_spouse=lowborn_7823}	# LADY Elizabeth Somerset
+								1696.07.02={death=yes}  # Sankt Germain_en_Laye
+							}
+								herbert_0191={ #// 1h) William, 2nd Marquess [and Jacobite 2nd Duke] of Powis, restored to all but the Jacobite titles in 1722 (ca 1665-22 Oct 1745); m.ca 1695 Mary Preston (d.8 Jan 1724)
+									name=William
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0190	# William Herbert
+									mother=lowborn_7823	# LADY Elizabeth Somerset
+									1665.01.01={birth=yes}
+									1695.01.01={add_spouse=lowborn_7824}	# Mary Preston
+									1745.10.22={death=yes}
+								}
+									herbert_0192={ #// 1i) William, 3rd Marquess [and Jacobite 2nd Duke] of Powis (ca 1698-8 Mar 1748)
+										name=William
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0191	# William Herbert
+										mother=lowborn_7824	# Mary Preston
+										1698.01.01={birth=yes}
+										1748.03.08={death=yes}
+									}
+									herbert_0193={ #// 2i) Edward (d.Nov 1734); m.7 Jul 1734 Lady Henrietta Waldegrave
+										name=Edward
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0191	# William Herbert
+										mother=lowborn_7824	# Mary Preston
+										1698.01.01={birth=yes}  # EST.
+										1734.07.07={add_spouse=lowborn_7825}	# LADY Henrietta Waldegrave
+										1734.11.01={death=yes}
+									}
+										herbert_0194={ #// 1j) Barbara (24 Jun 1735-12 Mar 1786); m.Henry Arthur Herbert, Earl of Powis (below)
+											name=Barbara
+											female=yes
+											dynasty=herbert
+											religion=anglican culture=english
+											father=herbert_0193	# Edward Herbert
+											mother=lowborn_7825	# LADY Henrietta Waldegrave
+											1735.06.24={birth=yes}
+											1786.03.12={death=yes}
+										}
+									herbert_0195={ #// 3i) Mary; m.Joseph, Conde Gage
+										name=Mary
+										female=yes
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0191	# William Herbert
+										mother=lowborn_7824	# Mary Preston
+										1698.01.01={birth=yes}  # EST.
+										1758.01.01={death=yes}  # EST.
+									}
+									herbert_0196={ #// 4i) Anne (d.Salisbury 2 Oct 1757); m.ca 1729 Henry Arundell, 6th Lord Arundell of Wardour (4 Oct 1694-Richmond 30 Jun 1746)
+										name=Anne
+										female=yes
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0191	# William Herbert
+										mother=lowborn_7824	# Mary Preston
+										1700.01.01={birth=yes}  # EST.
+										1757.10.02={death=yes}  # Salisbury
+									}
+									herbert_0197={ #// 5i) Charlotte; m.1st Edward Morris; m.2nd Edward Williams
+										name=Charlotte
+										female=yes
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0191	# William Herbert
+										mother=lowborn_7824	# Mary Preston
+										1700.01.01={birth=yes}  # EST.
+										1760.01.01={death=yes}  # EST.
+									}
+									herbert_0198={ #// 6i) Theresa (d.17 Jun 1723); m.Sir Robert Throckmorton, 4th Bt. (21 Aug 1702-8 Dec 1791)
+										name=Theresa
+										female=yes
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0191	# William Herbert
+										mother=lowborn_7824	# Mary Preston
+										1702.01.01={birth=yes}  # EST.
+										1723.06.17={death=yes}
+									}
+								herbert_0199={ #// 2h) Mary (d.30 Oct 1744); m.1st Hon. Richard Molyneux; m.2nd by 1690 Francis Browne, 4th Viscount Montagu (d.Midhurst Apr 1708); m.3rd by 22 Aug 1716 Sir George Maxwell, 3rd Bt. (d.22 Feb 1720)
+									name=Mary
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0190	# William Herbert
+									mother=lowborn_7823	# LADY Elizabeth Somerset
+									1666.01.01={birth=yes}  # EST.
+									1744.10.30={death=yes}
+								}
+								herbert_0200={ #// 3h) Frances (d.Paris 18 Dec 1732); m.Kenneth Mackenzie, 4th Earl of Seaforth (1661-Paris Jan 1701)
+									name=Frances
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0190	# William Herbert
+									mother=lowborn_7823	# LADY Elizabeth Somerset
+									1666.01.01={birth=yes}  # EST.
+									1732.12.18={death=yes}  # Paris
+								}
+								herbert_0201={ #// 4h) Anne(d.11 May 1748); m.ca 1687 Francis Smith, 2nd Lord Carrington (ca 1621-1701)
+									name=Anne
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0190	# William Herbert
+									mother=lowborn_7823	# LADY Elizabeth Somerset
+									1667.01.01={birth=yes}  # EST.
+									1748.05.11={death=yes}
+								}
+								herbert_0202={ #// 5h) Lucy, an Abbess in Bruges
+									name=Lucy
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0190	# William Herbert
+									mother=lowborn_7823	# LADY Elizabeth Somerset
+									1668.01.01={birth=yes}  # EST.
+									1728.01.01={death=yes}  # EST.
+								}
+								herbert_0203={ #// 6h) Winifred (d.Rome May 1749); m.ca 1699 William Maxwell, 5th Earl of Nithsdale (1676-Rome 20 Mar 1744)
+									name=Winifred
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0190	# William Herbert
+									mother=lowborn_7823	# LADY Elizabeth Somerset
+									1669.01.01={birth=yes}  # EST.
+									1749.05.01={death=yes}  # Rome
+								}
+						herbert_0204={ #// 2f) Katherine; m.1st Sir Robert Vaughan; m.2nd Sir James Palmer
+							name=Katherine
+							female=yes
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0187	# William Herbert
+							mother=lowborn_7819	# LADY Eleanor Percy Percy
+							1603.01.01={birth=yes}  # EST.
+							1663.01.01={death=yes}  # EST.
+						}
+						herbert_0205={ #// 3f) Lucy; m.William Abington
+							name=Lucy
+							female=yes
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0187	# William Herbert
+							mother=lowborn_7819	# LADY Eleanor Percy Percy
+							1605.01.01={birth=yes}  # EST.
+							1665.01.01={death=yes}  # EST.
+						}
+					herbert_0209={ #// 5e) Anne; m.William Stanley
+						name=Anne
+						female=yes
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0186	# Edward Herbert
+						mother=lowborn_7818	# Mary Stanley
+						1581.01.01={birth=yes}  # EST.
+						1641.01.01={death=yes}  # EST.
+					}
+					herbert_0210={ #// 6e) Catherine; m.Sir William Massey
+						name=Catherine
+						female=yes
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0186	# Edward Herbert
+						mother=lowborn_7818	# Mary Stanley
+						1583.01.01={birth=yes}  # EST.
+						1643.01.01={death=yes}  # EST.
+					}
+				herbert_0211={ #// 3d) Anne; m.Francis, Lord Talbot (ca 1550-1582)
+					name=Anne
+					female=yes
+					dynasty=herbert
+					religion=anglican culture=english
+					father=herbert_0015	# William Herbert
+					mother=lowborn_7589	# Anne Parr
+					1545.01.01={birth=yes}  # EST.
+					1593.01.01={death=yes}  # EST.
+				}
+			herbert_0212={ #// 2c) Sir George Herbert; m.Elizabeth Berkeley à issue
+				name="George"
+				dynasty=herbert
+				religion=anglican culture=english
+				father=herbert_0014	# Richard Herbert
+				mother=lowborn_7587	# MRS Margaret Cradock
+				1508.01.01={birth=yes}  # EST.
+				1533.01.01={add_spouse=lowborn_7847}	# Elizabeth Berkeley
+				1568.01.01={death=yes}  # EST.
+			}
+	herbert_0218={ #// 4a) Sir Richard, of Colebrooke (beheaded with his brother 27 Jul 1469); m.Margaret, dau of Sir Thomas Griffith Nicholas
+		name=Richard
+		dynasty=herbert
+		religion=anglican culture=english
+		father=herbert_0001	# William Herbert
+		mother=lowborn_7534	# Gwladys Gam
+		1425.07.27={birth=yes}  # EST.
+		1450.01.01={add_spouse=lowborn_7849}	# Margaret ap Thomas
+		1469.07.27={death=yes}  # beheaded with his brother
+	}
+		herbert_0219={ #// 1b) Sir Richard, of Tefaldwyn; m.1st Margaret, dau of Griffith ap Rhys ap Philip ap David; m.2nd Ann, dau of David ap Evan al Llewellyn Vaughan
+			name=Richard
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0218	# Richard Herbert
+			mother=lowborn_7849	# Margaret ap Thomas
+			1465.01.01={birth=yes}  # EST.
+			1520.01.01={death=yes}  # EST.
+		}
+			herbert_0226={ #// 6c) [1m.] Edward; m.N Price
+				name=Edward
+				dynasty=herbert
+				religion=anglican culture=english
+				father=herbert_0219	# Richard Herbert
+				1500.01.01={birth=yes}  # EST.
+				1575.01.01={death=yes}  # EST.
+			}
+				herbert_0227={ #// 1d) Richard (d.Oct 1596); m.Magdalen Newport (d.1627)
+					name=Richard
+					dynasty=herbert
+					religion=anglican culture=english
+					father=herbert_0226	# Edward Herbert
+					1540.01.01={birth=yes}  # EST.
+					1580.01.01={add_spouse=lowborn_7857}	# Magdalen Newport
+					1596.10.01={death=yes}
+				}
+					herbert_0228={ #// 1e) Sir Edward, cr 1624 Lord Herbert of Castle Island, cr 1629 Lord Herbert of Chirbury (Eyton-on-Severn, Salop 3 Mar 1583-London 5 Aug 1648); m.Eyton 28 Feb 1599 Mary Herbert (d.29 Oct 1634)
+						name=Edward
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0227	# Richard Herbert
+						mother=lowborn_7857	# Magdalen Newport
+						1583.03.03={birth=yes}  # Eyton-on-Severn Salop
+						1599.02.28={add_spouse=lowborn_7858}	# Mary Herbert
+						1648.08.05={death=yes}  # London
+					}
+						herbert_0229={ #// 1f) Richard, 2nd Lord Herbert of Chirbury and of Castle Island (d.13 May 1655); m.Bridgwater House 19 Nov 1627 Lady Mary Egerton (d.1659)
+							name=Richard
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0228	# Edward Herbert
+							mother=lowborn_7858	# Mary Herbert
+							1603.01.01={birth=yes}  # EST.
+							1627.11.19={add_spouse=lowborn_7860}	# LADY Mary Egerton
+							1655.05.13={death=yes}
+						}
+							herbert_0230={ #// 1g) Edward, 3rd Lord Herbert of Chirbury and of Castle Island (ca 1633-9 Dec 1678); m.1st by 1660 Anne Middleton (dsp after 1660); m.2nd 20 Aug 1673 Hon. Elizabeth Brydges (1651-3 Feb 1718)
+								name=Edward
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0229	# Richard Herbert
+								mother=lowborn_7860	# LADY Mary Egerton
+								1633.01.01={birth=yes}
+								1660.01.01={add_spouse=lowborn_7861}	# Anne Middleton
+								1673.08.20={add_spouse=lowborn_7862}	# HON. Elizabeth Brydges
+								1678.12.09={death=yes}
+							}
+							herbert_0232={ #// 3g) Henry, 4th Lord Herbert of Chirbury and of Castle Island (ca 1640-21 Apr 1691); m.1681 Lady Katherine Newport (d.24 Apr 1716)
+								name=Henry
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0229	# Richard Herbert
+								mother=lowborn_7860	# LADY Mary Egerton
+								1640.01.01={birth=yes}
+								1681.01.01={add_spouse=lowborn_7863}	# LADY Katherine Newport
+								1691.04.21={death=yes}
+							}
+							herbert_0234={ #// 5g) Frances; m.William Brown
+								name=Frances
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0229	# Richard Herbert
+								mother=lowborn_7860	# LADY Mary Egerton
+								1643.01.01={birth=yes}  # EST.
+								1703.01.01={death=yes}  # EST.
+							}
+							herbert_0235={ #// 6g) Florence; m.Richard Herbert (below) $$
+								name=Florence
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0229	# Richard Herbert
+								mother=lowborn_7860	# LADY Mary Egerton
+								1646.01.01={birth=yes}  # EST.
+								1706.01.01={death=yes}  # EST.
+							}
+							herbert_0237={ #// 8g) Alicia; m.John Buzzard
+								name=Alicia
+								female=yes
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0229	# Richard Herbert
+								mother=lowborn_7860	# LADY Mary Egerton
+								1647.01.01={birth=yes}  # EST.
+								1707.01.01={death=yes}  # EST.
+							}
+					herbert_0244={ #// 5e) Rev. George (d.Mar 1633)
+						name=George
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0227	# Richard Herbert
+						mother=lowborn_7857	# Magdalen Newport
+						1590.01.01={birth=yes}  # EST.
+						1633.03.01={death=yes}
+					}
+					herbert_0245={ #// 6e) Henry; m.Elizabeth Offley
+						name=Henry
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0227	# Richard Herbert
+						mother=lowborn_7857	# Magdalen Newport
+						1594.01.01={birth=yes}  # EST.
+						1653.01.01={add_spouse=lowborn_7867}	# Elizabeth Offley
+						1656.01.01={death=yes}  # EST.
+					}
+						herbert_0246={ #// 1f) Henry, cr 1694 Lord Herbert of Chirbury (London 24 Jul 1654-22 Jan 1709); m.London 12 Feb 1678 Anne Ramsey
+							name=Henry
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0245	# Henry Herbert
+							mother=lowborn_7867	# Elizabeth Offley
+							1654.07.24={birth=yes}  # London
+							1678.02.12={add_spouse=lowborn_7868}	# Anne Ramsey
+							1709.01.22={death=yes}
+						}
+							herbert_0247={ #// 1g) Henry, 2nd Lord Herbert of Chirbury (suicide at Ribbesford 19 Apr 1738); m.12 Dec 1709 Mary Wallop (d.19 Oct 1770)
+								name=Henry
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0246	# Henry Herbert
+								mother=lowborn_7868	# Anne Ramsey
+								1680.04.19={birth=yes}  # EST.
+								1709.12.12={add_spouse=lowborn_7869}	# Mary Wallop
+								1738.04.19={death=yes}  # suicide at Ribbesford
+							}
+						herbert_0248={ #// 2f) Mary; m.Richard Walker, of Wootton Park
+							name=Mary
+							female=yes
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0245	# Henry Herbert
+							mother=lowborn_7867	# Elizabeth Offley
+							1656.01.01={birth=yes}  # EST.
+							1716.01.01={death=yes}  # EST.
+						}
+					herbert_0249={ #// 7e) Thomas
+						name=Thomas
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0227	# Richard Herbert
+						mother=lowborn_7857	# Magdalen Newport
+						1596.01.01={birth=yes}  # EST.
+						1656.01.01={death=yes}  # EST.
+					}
+					herbert_0250={ #// 8e) Elizabeth; m.Sir Henry Jones, of Albemarles (d.ca 1641)
+						name=Elizabeth
+						female=yes
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0227	# Richard Herbert
+						mother=lowborn_7857	# Magdalen Newport
+						1597.01.01={birth=yes}  # EST.
+						1657.01.01={death=yes}  # EST.
+					}
+					herbert_0251={ #// 9e) Margaret; m.John Vaughan
+						name=Margaret
+						female=yes
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0227	# Richard Herbert
+						mother=lowborn_7857	# Magdalen Newport
+						1597.01.01={birth=yes}  # EST.
+						1657.01.01={death=yes}  # EST.
+					}
+					herbert_0252={ #// 10e) Frances; m.Sir John Browne
+						name=Frances
+						female=yes
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0227	# Richard Herbert
+						mother=lowborn_7857	# Magdalen Newport
+						1597.01.01={birth=yes}  # EST.
+						1657.01.01={death=yes}  # EST.
+					}
+				herbert_0253={ #// 2d) Matthew; m.Margaret/Anne Foxe
+					name=Matthew
+					dynasty=herbert
+					religion=anglican culture=english
+					father=herbert_0226	# Edward Herbert
+					1550.01.01={birth=yes}  # EST.
+					1575.01.01={add_spouse=lowborn_7874}	# Margaret/Anne Foxe
+					1611.01.01={death=yes}  # EST.
+				}
+					herbert_0254={ #// 1e) Francis, of Oakley Park; m.1st Dorothy Parry (dsp); m.2nd Abigail Garton
+						name=Francis
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0253	# Matthew Herbert
+						mother=lowborn_7874	# Margaret/Anne Foxe
+						1576.01.01={birth=yes}  # EST.
+						1600.01.01={add_spouse=lowborn_7875}	# Dorothy Parry
+						1605.01.01={add_spouse=lowborn_7876}	# Abigail Garton
+						1636.01.01={death=yes}  # EST.
+					}
+						herbert_0255={ #// 1f) Sir Matthew, of Broomfield, cr Baronet 1660 (d.1668); m.Mary Lucy (d.14 Feb 1670)
+							name=Matthew
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0254	# Francis Herbert
+							mother=lowborn_7875	# Dorothy Parry
+							1600.01.01={birth=yes}  # EST.
+							1625.01.01={add_spouse=lowborn_7878}	# Mary Lucy
+							1668.01.01={death=yes}
+						}
+						herbert_0256={ #// 2f) Richard, of Oakley Park; m.Hon. Florence Herbert (above) $$
+							name=Richard
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0254	# Francis Herbert
+							mother=lowborn_7875	# Dorothy Parry
+							1614.01.01={birth=yes}  # EST.
+							1665.01.01={add_spouse=herbert_0235}	# Florence Herbert
+							1674.01.01={death=yes}  # EST.
+						}
+							herbert_0257={ #// 1g) Francis, of Oakley Park (1666-27 Feb 1719); m.1702 Dorothy Oldbury
+								name=Francis
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0256	# Richard Herbert
+								mother=herbert_0235	# Florence Herbert
+								1666.01.01={birth=yes}
+								1702.01.01={add_spouse=lowborn_7880}	# Dorothy Oldbury
+								1719.02.27={death=yes}
+							}
+								herbert_0258={ #// 1h) Henry Arthur, cr 1743 Lord Herbert of Chirbury, cr 1748 Earl of Powis, Viscount Ludlow and Lord Powis of Powis Castle, cr 1749 Lord Herbert of Chirbury and Ludlow (ca 1703-Bath 11 Sep 1772); m.30 Mar 1751 Barbara Herbert (above)
+									name="Henry Arthur"
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0257	# Francis Herbert
+									mother=lowborn_7880	# Dorothy Oldbury
+									1703.01.01={birth=yes}
+									1751.03.30={add_spouse=lowborn_7881}	# Barbara Herbert
+									1772.09.11={death=yes}  # Bath
+								}
+									herbert_0259={ #// 1i) George Edward Henry Arthur, 2nd Earl of Powis (7 Jul 1755-London 16 Jan 1801)
+										name=George
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0258	# Henry Arthur Herbert
+										mother=lowborn_7881	# Barbara Herbert
+										1755.07.07={birth=yes}
+										1801.01.16={death=yes}  # London
+									}
+									herbert_0260={ #// 2i) Henrietta Antonia (3 Sep 1758-Walcot 3 Jun 1830); m.London 7 May 1784 Edward Clive, 2nd Lord Clive, cr Earl of Powis (7 Mar 1754-16 May 1839)
+										name="Henrietta Antonia"
+										female=yes
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0258	# Henry Arthur Herbert
+										mother=lowborn_7881	# Barbara Herbert
+										1758.09.03={birth=yes}
+										1830.06.03={death=yes}  # Walcot
+									}
+								herbert_0261={ #// 2h) Richard (bap 13 Dec 1704-17 May 1754)
+									name=Richard
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0257	# Francis Herbert
+									mother=lowborn_7880	# Dorothy Oldbury
+									1704.12.13={birth=yes}  # bap
+									1754.05.17={death=yes}
+								}
+								herbert_0262={ #// 3h) Urania (d.6 Feb 1779); m.20 Apr 1725 Coulson Fellowes (12 Oct 1696-23 Feb 1769)
+									name=Urania
+									female=yes
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0257	# Francis Herbert
+									mother=lowborn_7880	# Dorothy Oldbury
+									1705.01.01={birth=yes}  # EST.
+									1779.02.06={death=yes}
+								}
+							herbert_0263={ #// 2g) George; m.1693 Martha Newton
+								name=George
+								dynasty=herbert
+								religion=anglican culture=english
+								father=herbert_0256	# Richard Herbert
+								mother=herbert_0235	# Florence Herbert
+								1668.01.01={birth=yes}  # EST.
+								1693.01.01={add_spouse=lowborn_7884}	# Martha Newton
+								1728.01.01={death=yes}  # EST.
+							}
+								herbert_0264={ #// 1h) Francis (1696-    ); m.Mary Baugh (d.Nov 1751)
+									name=Francis
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0263	# George Herbert
+									mother=lowborn_7884	# Martha Newton
+									1696.01.01={birth=yes}
+									1722.01.01={add_spouse=lowborn_7886}	# Mary Baugh
+									1766.01.01={death=yes}  # EST.
+								}
+									herbert_0265={ #// 1i) George
+										name=George
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0264	# Francis Herbert
+										mother=lowborn_7886	# Mary Baugh
+										1723.01.01={birth=yes}  # EST.
+										1783.01.01={death=yes}  # EST.
+									}
+									herbert_0266={ #// 2i) Henry
+										name=Henry
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0264	# Francis Herbert
+										mother=lowborn_7886	# Mary Baugh
+										1724.01.01={birth=yes}  # EST.
+										1784.01.01={death=yes}  # EST.
+									}
+									herbert_0267={ #// 3i) Mary; m.Frederick Cornewall
+										name=Mary
+										female=yes
+										dynasty=herbert
+										religion=anglican culture=english
+										father=herbert_0264	# Francis Herbert
+										mother=lowborn_7886	# Mary Baugh
+										1725.01.01={birth=yes}  # EST.
+										1785.01.01={death=yes}  # EST.
+									}
+								herbert_0268={ #// 2h) Henry (d.Mar 1748)
+									name=Henry
+									dynasty=herbert
+									religion=anglican culture=english
+									father=herbert_0263	# George Herbert
+									mother=lowborn_7884	# Martha Newton
+									1698.01.01={birth=yes}  # EST.
+									1748.03.01={death=yes}
+								}
+				herbert_0269={ #// 3d) Charles; m.NN
+					name=Charles
+					dynasty=herbert
+					religion=anglican culture=english
+					father=herbert_0226	# Edward Herbert
+					1551.01.01={birth=yes}  # EST.
+					1611.01.01={death=yes}  # EST.
+				}
+					herbert_0270={ #// 1e) Sir Edward, Attorney General (d.1657); m.Mrs Margaret Carey, née Smith
+						name=Edward
+						dynasty=herbert
+						religion=anglican culture=english
+						father=herbert_0269	# Charles Herbert
+						1590.01.01={birth=yes}  # EST.
+						1631.01.01={add_spouse=lowborn_7889}	# MRS Margaret Smith
+						1657.01.01={death=yes}
+					}
+						herbert_0271={ #// 1f) Arthur, cr 1689 Earl of Torrington and Baron Herbert of Torbay, with remainder to his heirs and to his brother (d.14 Apr 1716); m.1st 1672 Mrs Anne Pheasant, née Hadley; m.2nd ca 1 Aug 1704 Anne, Lady Crew, née Armine (d.2 Apr 1719)
+							name=Arthur
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0270	# Edward Herbert
+							mother=lowborn_7889	# MRS Margaret Smith
+							1647.01.01={birth=yes}  # EST.
+							1672.01.01={add_spouse=lowborn_7890}	# MRS Anne Hadley
+							1704.08.01={add_spouse=lowborn_7891}	# LADY Anne Armine
+							1716.04.14={death=yes}
+						}
+						herbert_0272={ #// 2f) Charles
+							name=Charles
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0270	# Edward Herbert
+							mother=lowborn_7889	# MRS Margaret Smith
+							1646.01.01={birth=yes}  # EST.
+							1706.01.01={death=yes}  # EST.
+						}
+						herbert_0273={ #// 3f) Vera; m.Sir Thomas Lynch, of Esher; their dau Philadelphia Lynch m. Sir Thomas Cotton, 2nd Bt.
+							name=Vera
+							female=yes
+							dynasty=herbert
+							religion=anglican culture=english
+							father=herbert_0270	# Edward Herbert
+							mother=lowborn_7889	# MRS Margaret Smith
+							1649.01.01={birth=yes}  # EST.
+							1709.01.01={death=yes}  # EST.
+						}
+			herbert_0279={ #// 11c) [2m.] Anne; m.Humphrey Vaughan
+				name=Anne
+				female=yes
+				dynasty=herbert
+				religion=anglican culture=english
+				father=herbert_0219	# Richard Herbert
+				1505.01.01={birth=yes}  # EST.
+				1590.01.01={death=yes}  # EST.
+			}
+			herbert_0280={ #// 12c) [2m.] Dorothy; m.1st Thomas Blayney; m.2nd Hugh Jones
+				name=Dorothy
+				female=yes
+				dynasty=herbert
+				religion=anglican culture=english
+				father=herbert_0219	# Richard Herbert
+				1508.01.01={birth=yes}  # EST.
+				1571.01.01={death=yes}  # EST.
+			}
+			herbert_0282={ #// 14c) [2m.] Elizabeth; m.Richard ap John ap Meredith
+				name=Elizabeth
+				female=yes
+				dynasty=herbert
+				religion=anglican culture=english
+				father=herbert_0219	# Richard Herbert
+				1510.01.01={birth=yes}  # EST.
+				1570.01.01={death=yes}  # EST.
+			}
+			herbert_0283={ #// 15c) [2m.] Catherine; m.1st George Beynion; m.2nd George Savage
+				name=Catherine
+				female=yes
+				dynasty=herbert
+				religion=anglican culture=english
+				father=herbert_0219	# Richard Herbert
+				1512.01.01={birth=yes}  # EST.
+				1574.01.01={death=yes}  # EST.
+			}
+		herbert_0284={ #// 2b) Sir William, of Colebrooke; m.Jane, widow of Thomas Mostyn, and dau of Sir William Griffith à issue
+			name=William
+			dynasty=herbert
+			religion=anglican culture=english
+			father=herbert_0218	# Richard Herbert
+			mother=lowborn_7849	# Margaret ap Thomas
+			1452.01.01={birth=yes}  # EST.
+			1480.01.01={add_spouse=lowborn_7901}	# Jane Griffith
+			1520.01.01={death=yes}  # EST.
+		}
+## EARLS of PEMBROKE | HERBERT
+
+
+## VANE
+vane_0001={ #// Sir Henry Vane, of Raby Castle, d.1654; m.1612 Frances D’Arcy (d.2 Aug 1663)
+	name=Henry
+	dynasty=vane
+	religion=anglican culture=english
+	1584.01.01={birth=yes}  # EST.
+	1612.01.01={add_spouse=lowborn_5901}	# Frances D’Arcy
+	1654.01.01={death=yes}
+}
+	vane_0002={ #// 1a) Sir Henry, of Raby Castle, executed 14 Jun 1662; m.1 Jul 1640 Frances Wray; per Collins’ Peerage he had four sons, including Henry, William and Rich; per another source he had a son Thomas, who dsp 1673; per 1914 Burke’s he had the children below; at any rate his youngest son was Christopher, and he had also the daughters listed below:
+		name=Henry
+		dynasty=vane
+		religion=anglican culture=english
+		father=vane_0001	# Henry Vane
+		mother=lowborn_5901	# Frances D’Arcy
+		1613.01.01={birth=yes}  # EST.
+		1640.07.01={add_spouse=lowborn_5955}	# Frances Henry Wray
+		1662.06.14={death=yes}
+	}
+		vane_0076={ #// 2b) Dorothy; m.1677 Sir Thomas Crispe (18 Jan 1641-29 Jul 1714), son of Sir Nicholas Crispe, Bt.
+			name=Dorothy
+			female=yes
+			dynasty=vane
+			religion=anglican culture=english
+			father=vane_0002	# Henry Vane
+			mother=lowborn_5955	# Frances Henry Wray
+			1645.01.01={birth=yes}  # EST.
+			1705.01.01={death=yes}  # EST.
+		}
+		vane_0007={ #// 5b) Thomas, of Raby Castle (ca 1652-1675); m.1675 Frances (d.Nov 1682), dau of Sir Thomas Liddell, 2nd Bt., and later wife of Sir John Bright, Bt.
+			name=Thomas
+			dynasty=vane
+			religion=anglican culture=english
+			father=vane_0002	# Henry Vane
+			mother=lowborn_5955	# Frances Henry Wray
+			1652.01.01={birth=yes}
+			1675.01.01={add_spouse=lowborn_6098}	# Frances Liddell
+			1675.01.01={death=yes}
+		}
+		vane_0009={ #// 7b) Christopher, cr 1698 Baron Barnard of Barnard’s Castle (21 May 1653-28 Oct 1723); m.1676 Lady Elizabeth Holles (d.9 Nov 1725)
+			name=Christopher
+			dynasty=vane
+			religion=anglican culture=english
+			father=vane_0002	# Henry Vane
+			mother=lowborn_5955	# Frances Henry Wray
+			1653.05.21={birth=yes}
+			1676.01.01={add_spouse=lowborn_6124}	# LADY Elizabeth Holles
+			1723.10.28={death=yes}
+		}
+			vane_0011={ #// 2c) Gilbert, 2nd Lord Barnard (bap 17 Apr 1678-27 Apr 1753); m.Jan 1705 Mary Randyll (30 Jan 1682-4 Aug 1728)
+				name=Gilbert
+				dynasty=vane
+				religion=anglican culture=english
+				father=vane_0009	# Christopher Vane
+				mother=lowborn_6124	# LADY Elizabeth Holles
+				1678.04.17={birth=yes}  # bap
+				1705.01.01={add_spouse=lowborn_7613}	# Mary Randyll
+				1753.04.27={death=yes}
+			}
+				vane_0012={ #// 1d) Henry, cr 1754 Earl of Darlington and Viscount Barnard of Barnard’s Castle (ca 1705-6 Mar 1758); m.2 Sep 1725 Lady Grace Fitzroy (28 Mar 1697-29 Sep 1763), dau of Duke of Cleveland
+					name=Henry
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0011	# Gilbert Vane
+					mother=lowborn_7613	# Mary Randyll
+					1705.01.01={birth=yes}
+					1725.09.02={add_spouse=lowborn_7630}	# LADY Grace Fitzroy
+					1758.03.06={death=yes}
+				}
+					vane_0013={ #// 1e) Henry, 2nd Earl of Darlington (1726-Raby Castle 8 Sep 1792); m.London 19 Mar 1757 Margaret Lowther (d.Laneton Grange 4 Sep 1800)
+						name=Henry
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0012	# Henry Vane
+						mother=lowborn_7630	# LADY Grace Fitzroy
+						1726.01.01={birth=yes}
+						1757.03.19={add_spouse=lowborn_7633}	# Margaret Lowther
+						1792.09.08={death=yes}  # Raby Castle
+					}
+						vane_0015={ #// 2f) Elizabeth (28 Apr 1759-1765)
+							name=Elizabeth
+							female=yes
+							dynasty=vane
+							religion=anglican culture=english
+							father=vane_0013	# Henry Vane
+							mother=lowborn_7633	# Margaret Lowther
+							1759.04.28={birth=yes}
+							1765.01.01={death=yes}
+						}
+						vane_0016={ #// 3f) William Harry Vane, cr 1827 Marquess of Cleveland, cr 1833 Duke of Cleveland and Baron Raby of Raby Castle (27 Jul 1766-29 Jan 1842); m.1st Hackwood, Hants 17 Sep 1787 Lady Katherine Powlett (1766-London 17 Jun 1807); m.2nd London 27 Jul 1813 Elizabeth Russell (1776-London 31 Jan 1861)
+							name="William Harry"
+							dynasty=vane
+							religion=anglican culture=english
+							father=vane_0013	# Henry Vane
+							mother=lowborn_7633	# Margaret Lowther
+							1766.07.27={birth=yes}
+							1787.09.17={add_spouse=lowborn_7745}	# LADY Katherine Powlett
+							1813.07.27={add_spouse=lowborn_7806}	# Elizabeth Russell
+							1842.01.29={death=yes}
+						}
+							vane_0017={ #// 1g) Henry, 2nd Duke of Cleveland (6 Aug 1788-Raby Castle 18 Jan 1864); m.London 18 Nov 1809 Lady Sophia Poulett (16 Mar 1785-Raby Castle 9 Jan 1859)
+								name=Henry
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0016	# William Harry Vane
+								mother=lowborn_7745	# LADY Katherine Powlett
+								1788.08.06={birth=yes}
+								1809.11.18={add_spouse=lowborn_7848}	# LADY Sophia Poulett
+								1864.01.18={death=yes}  # Raby Castle
+							}
+							vane_0018={ #// 2g) Louisa Catherine (4 Jan 1791-5 Jan 1821); m.29 Jul 1813 Francis Forester (19 Aug 1774-21 Oct 1861)
+								name="Louisa Catherine"
+								female=yes
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0016	# William Harry Vane
+								mother=lowborn_7745	# LADY Katherine Powlett
+								1791.01.04={birth=yes}
+								1821.01.05={death=yes}
+							}
+							vane_0019={ #// 3g) William John Frederick, 1813 took surname Powlett, 1864 resumed surname Vane, 3rd Duke of Cleveland (3 Apr 1792-Raby Castle 6 Sep 1864); m.London 3 Jul 1815 Lady Grace Lowther (17 Feb 1792-Osterley Park 1 Nov 1883)
+								name=William
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0016	# William Harry Vane
+								mother=lowborn_7745	# LADY Katherine Powlett
+								1792.04.03={birth=yes}
+								1815.07.03={add_spouse=lowborn_7879}	# LADY Grace Lowther
+								1864.09.06={death=yes}  # Raby Castle
+							}
+							vane_0020={ #// 4g) Caroline Mary (8 Feb 1795-11 May 1795)
+								name="Caroline Mary"
+								female=yes
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0016	# William Harry Vane
+								mother=lowborn_7745	# LADY Katherine Powlett
+								1795.02.08={birth=yes}
+								1795.05.11={death=yes}
+							}
+							vane_0021={ #// 5g) Augusta Henrietta (26 Dec 1796-13 Sep 1874); m.2 Jun 1817 Mark Milbank, of Barningham Park (2 May 1795-21 Oct 1881)
+								name="Augusta Henrietta"
+								female=yes
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0016	# William Harry Vane
+								mother=lowborn_7745	# LADY Katherine Powlett
+								1796.12.26={birth=yes}
+								1874.09.13={death=yes}
+							}
+							vane_0022={ #// 6g) Laura (6 Jan 1800-23 Nov 1882); m.24 Feb 1823 William Henry Meyrick (1791-20 Feb 1865)
+								name=Laura
+								female=yes
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0016	# William Harry Vane
+								mother=lowborn_7745	# LADY Katherine Powlett
+								1800.01.06={birth=yes}
+								1882.11.23={death=yes}
+							}
+							vane_0023={ #// 7g) Arabella (2 Jun 1801-26 Nov 1864); m.London 25 Apr 1831 Richard Pepper Arden, 3rd Lord Alvanley (8 Dec 1792-24 Jun 1857)
+								name=Arabella
+								female=yes
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0016	# William Harry Vane
+								mother=lowborn_7745	# LADY Katherine Powlett
+								1801.06.02={birth=yes}
+								1864.11.26={death=yes}
+							}
+							vane_0024={ #// 8g) Harry George, 1864 took surname Powlett, 4th Duke of Cleveland (19 Apr 1803-Cleveland House 21 Aug 1891); m.Chevening 2 Aug 1854 Lady Catherine Stanhope (1 Jun 1819-Wiesbaden 18 May 1901)
+								name="Harry George"
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0016	# William Harry Vane
+								mother=lowborn_7745	# LADY Katherine Powlett
+								1803.04.19={birth=yes}
+								1854.08.02={add_spouse=lowborn_7903}	# LADY Catherine Stanhope
+								1891.08.21={death=yes}  # Cleveland House
+							}
+					vane_0027={ #// 3e) Raby (2 Jan 1736-23 Oct 1769); m.Apr 1763 Elizabeth Sayer
+						name=Raby
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0012	# Henry Vane
+						mother=lowborn_7630	# LADY Grace Fitzroy
+						1736.01.02={birth=yes}
+						1769.10.23={death=yes}
+					}
+					vane_0029={ #// 5e) Mary; m.17 Oct 1753 Ralph Carr (31 May 1728-11 Sep 1788)
+						name=Mary
+						female=yes
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0012	# Henry Vane
+						mother=lowborn_7630	# LADY Grace Fitzroy
+						1730.01.01={birth=yes}  # EST.
+						1790.01.01={death=yes}  # EST.
+					}
+					vane_0030={ #// 6e) Anne (bap 25 Jun 1726-Calcutta 18 Sep 1776); m.1st 20 Mar 1746 (div 1757) Charles Hope-Vere (8 May 1710-30 Dec 1791); m.2nd Brig-Gen George Monson (18 Apr 1730-25 Sep 1776)
+						name=Anne
+						female=yes
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0012	# Henry Vane
+						mother=lowborn_7630	# LADY Grace Fitzroy
+						1726.06.25={birth=yes}  # bap
+						1776.09.18={death=yes}  # Calcutta
+					}
+				vane_0032={ #// 2d) Morgan, of Bilby Hall, d.14 Nov 1779; m.1st 28 Feb 1731 Margaret Knight (d.1 May 1739); m.2nd 19 Feb 1742 Anna Maria Fowler (d.19 Jul 1756); m.3rd 18 Dec 1759 Mary Woodyear (d.11 Jul 1771)
+					name=Morgan
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0011	# Gilbert Vane
+					mother=lowborn_7613	# Mary Randyll
+					1707.01.01={birth=yes}  # EST.
+					1731.02.28={add_spouse=lowborn_7911}	# Margaret Knight
+					1742.02.19={add_spouse=lowborn_7912}	# Anna Fowler
+					1779.11.14={death=yes}
+				}
+					vane_0033={ #// 1e) Morgan, of Bilby Hall (5 Dec 1737-11 Nov 1789); m.1st 4 Jul 1760 Anna Maria Margaret Upton (dsp 15 Jul 1771); m.2nd Sarah Brookes (dsp 1779); m.3rd 9 May 1780 Catherine Brookes (d.5 Sep 1839)
+						name=Morgan
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0032	# Morgan Vane
+						mother=lowborn_7911	# Margaret Knight
+						1737.12.05={birth=yes}
+						1760.07.04={add_spouse=lowborn_7914}	# Anna Upton
+						1772.07.15={add_spouse=lowborn_7915}	# Sarah Brookes
+						1780.05.09={add_spouse=lowborn_7916}	# Catherine Brookes
+						1789.11.11={death=yes}
+					}
+						vane_0035={ #// 2f) Rev. Robert Morgan (4 Oct 1785-27 Aug 1842); m.24 Jul 1832 Sarah Tolson
+							name="Robert Morgan"
+							dynasty=vane
+							religion=anglican culture=english
+							father=vane_0033	# Morgan Vane
+							mother=lowborn_7916	# Catherine Brookes
+							1785.10.04={birth=yes}
+							1832.07.24={add_spouse=lowborn_7917}	# Sarah Tolson
+							1842.08.27={death=yes}
+						}
+							vane_0036={ #// 1g) Morgan (22 May 1833-7 May 1877); m.8 Feb 1865 Alice Elizabeth Booth (d.26 May 1902), of the Baronets
+								name=Morgan
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0035	# Robert Morgan Vane
+								mother=lowborn_7917	# Sarah Tolson
+								1833.05.22={birth=yes}
+								1865.02.08={add_spouse=lowborn_7918}	# Alice Elizabeth Booth
+								1877.05.07={death=yes}
+							}
+						vane_0037={ #// 3f) John Henry (12 Apr 1788-10 Jun 1849); m.15 Apr 1808 Elizabeth Nicholson (d.19 Nov 1865)
+							name="John Henry"
+							dynasty=vane
+							religion=anglican culture=english
+							father=vane_0033	# Morgan Vane
+							mother=lowborn_7916	# Catherine Brookes
+							1788.04.12={birth=yes}
+							1808.04.15={add_spouse=lowborn_7919}	# Elizabeth Nicholson
+							1849.06.10={death=yes}
+						}
+							vane_0038={ #// 1g) Sir Henry Morgan (29 Nov 1808-22 Apr 1886); m.6 Jul 1853 Louisa Farrer (d.16 Dec 1878)
+								name="Henry Morgan"
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0037	# John Henry Vane
+								mother=lowborn_7919	# Elizabeth Nicholson
+								1808.11.29={birth=yes}
+								1853.07.06={add_spouse=lowborn_7920}	# Louisa Farrer
+								1886.04.22={death=yes}
+							}
+								vane_0039={ #// 1h) Henry de Vere, 9th Lord Barnard (10 May 1854-28 Dec 1918); m.28 Jun 1881 Lady Catherine Sarah Cecil (1861-14 Mar 1918)
+									name=Henry
+									dynasty=vane
+									religion=anglican culture=english
+									father=vane_0038	# Henry Morgan Vane
+									mother=lowborn_7920	# Louisa Farrer
+									1854.05.10={birth=yes}
+									1881.06.28={add_spouse=lowborn_7921}	# LADY Catherine Sarah Cecil
+									1918.12.28={death=yes}
+								}
+									vane_0040={ #// 1i) Henry Cecil (19 Sep 1882-9 Oct 1917); m.25 Aug 1914 Lady Enid Victoria Rachel Fane (d.9 Sep 1969)
+										name="Henry Cecil"
+										dynasty=vane
+										religion=anglican culture=english
+										father=vane_0039	# Henry Vane
+										mother=lowborn_7921	# LADY Catherine Sarah Cecil
+										1882.09.19={birth=yes}
+										1914.08.25={add_spouse=lowborn_7922}	# LADY Enid Victoria Fane
+										1917.10.09={death=yes}
+									}
+									vane_0041={ #// 2i) Christopher William, 10th Lord Barnard (28 Oct 1888-19 Oct 1964); m.14 Oct 1920 Sylvia Mary Straker (d.1993)
+										name="Christopher William"
+										dynasty=vane
+										religion=anglican culture=english
+										father=vane_0039	# Henry Vane
+										mother=lowborn_7921	# LADY Catherine Sarah Cecil
+										1888.10.28={birth=yes}
+										1920.10.14={add_spouse=lowborn_7923}	# Sylvia Mary Straker
+										1964.10.19={death=yes}
+									}
+										vane_0042={ #// 1j) Rosemary Myra Vane (4 Nov 1921-31 Dec 1999); m.14 Aug 1948 (div 1954) Angus Josslyn Gore-Booth [later, 8th Bt.] (25 Jun 1920-26 Jan 1996)
+											name=Rosemary
+											female=yes
+											dynasty=vane
+											religion=anglican culture=english
+											father=vane_0041	# Christopher William Vane
+											mother=lowborn_7923	# Sylvia Mary Straker
+											1921.11.04={birth=yes}
+											1999.12.31={death=yes}
+										}
+										vane_0043={ #// 2j) Harry John Neville Vane, 11th Lord Barnard (21 Sep 1923-3 Apr 2016); m.8 Oct 1952 (div 1992) Lady Davina Mary Cecil (b.29 Jun 1931) à issue, including:
+											name="Harry John"
+											dynasty=vane
+											religion=anglican culture=english
+											father=vane_0041	# Christopher William Vane
+											mother=lowborn_7923	# Sylvia Mary Straker
+											1923.09.21={birth=yes}
+											1952.10.08={add_spouse=lowborn_7925}	# LADY Davina Mary Cecil
+											1992.01.01={remove_spouse=lowborn_7925}
+											2016.04.03={death=yes}
+										}
+											vane_0044={ #// 1k) Henry Francis Cecil Vane, 12th Lord Barnard, b.11 Mar 1959; m.Lydia Katherine (Kate) Robson (b.1969) à issue
+												name=Henry
+												dynasty=vane
+												religion=anglican culture=english
+												father=vane_0043	# Harry John Vane
+												mother=lowborn_7925	# LADY Davina Mary Cecil
+												1959.03.11={birth=yes}
+												1992.01.01={add_spouse=lowborn_7926}	# Lydia Katherine Robson
+											}
+										vane_0045={ #// 3j) Gerald Raby, b.2 Dec 1926
+											name=Gerald
+											dynasty=vane
+											religion=anglican culture=english
+											father=vane_0041	# Christopher William Vane
+											mother=lowborn_7923	# Sylvia Mary Straker
+											1926.12.02={birth=yes}
+											1996.01.01={death=yes}  # EST.
+										}
+									vane_0046={ #// 3i) Ralph Frederick Vane (8 Jun 1891-6 Jun 1928); m.5 Jun 1917 Kathleen Airni Mair (d.7 Feb 1965)
+										name="Ralph Frederick"
+										dynasty=vane
+										religion=anglican culture=english
+										father=vane_0039	# Henry Vane
+										mother=lowborn_7921	# LADY Catherine Sarah Cecil
+										1891.06.08={birth=yes}
+										1917.06.05={add_spouse=lowborn_7927}	# Kathleen Airni Mair
+										1928.06.06={death=yes}
+									}
+								vane_0047={ #// 2h) Rev. Gilbert Holles Farrer (26 Sep 1855-27 Jun 1905); m.24 Jun 1891 Mary Steadman (d.29 Jul 1921)
+									name=Gilbert
+									dynasty=vane
+									religion=anglican culture=english
+									father=vane_0038	# Henry Morgan Vane
+									mother=lowborn_7920	# Louisa Farrer
+									1855.09.26={birth=yes}
+									1891.06.24={add_spouse=lowborn_7928}	# Mary Steadman
+									1905.06.27={death=yes}
+								}
+									vane_0048={ #// 1i) Mary Louisa (25 Mar 1892-29 Jun 1909)
+										name="Mary Louisa"
+										female=yes
+										dynasty=vane
+										religion=anglican culture=english
+										father=vane_0047	# Gilbert Vane
+										mother=lowborn_7928	# Mary Steadman
+										1892.03.25={birth=yes}
+										1909.06.29={death=yes}
+									}
+								vane_0049={ #// 3h) Louisa Henrietta (18 Oct 1856-6 Dec 1923); m.10 Nov 1891 William Blackstone Rennell (d.11 Dec 1912)
+									name="Louisa Henrietta"
+									female=yes
+									dynasty=vane
+									religion=anglican culture=english
+									father=vane_0038	# Henry Morgan Vane
+									mother=lowborn_7920	# Louisa Farrer
+									1856.10.18={birth=yes}
+									1923.12.06={death=yes}
+								}
+								vane_0050={ #// 4h) Ralph John (14 Jul 1858-28 Jul 1858)
+									name="Ralph John"
+									dynasty=vane
+									religion=anglican culture=english
+									father=vane_0038	# Henry Morgan Vane
+									mother=lowborn_7920	# Louisa Farrer
+									1858.07.14={birth=yes}
+									1858.07.28={death=yes}
+								}
+								vane_0051={ #// 5h) William Lyonel (30 Aug 1859-23 Jan 1920); m.27 Jan 1904 Lady Katharine Louisa Pakenham (1868-9 Mar 1954)
+									name="William Lyonel"
+									dynasty=vane
+									religion=anglican culture=english
+									father=vane_0038	# Henry Morgan Vane
+									mother=lowborn_7920	# Louisa Farrer
+									1859.08.30={birth=yes}
+									1904.01.27={add_spouse=lowborn_7930}	# LADY Katharine Louisa Pakenham
+									1920.01.23={death=yes}
+								}
+									vane_0052={ #// 1i) Katharine Selina (13 Jul 1906-14 Apr 1992); m.1 Oct 1932 Hugh Bullock Hall (d.17 Jun 1949)
+										name="Katharine Selina"
+										female=yes
+										dynasty=vane
+										religion=anglican culture=english
+										father=vane_0051	# William Lyonel Vane
+										mother=lowborn_7930	# LADY Katharine Louisa Pakenham
+										1906.07.13={birth=yes}
+										1992.04.14={death=yes}
+									}
+									vane_0053={ #// 2i) William Morgan, took surname Fletcher-Vane on inheriting estates of distant cousin (below), cr 1964 Baron Inglewood (12 Apr 1909-1989); m.28 Jul 1949 Mary Proby (d.Jun 1982) à issue, including:
+										name="William Morgan"
+										dynasty=vane
+										religion=anglican culture=english
+										father=vane_0051	# William Lyonel Vane
+										mother=lowborn_7930	# LADY Katharine Louisa Pakenham
+										1909.04.12={birth=yes}
+										1949.07.28={add_spouse=lowborn_7932}	# Mary Proby
+										1989.01.01={death=yes}
+									}
+										vane_0054={ #// 1j) William Richard Fletcher-Vane, 2nd Lord Inglewood, b.31 Jul 1951; m.29 Aug 1986 Cressida Pemberton-Pigott à issue
+											name="William Richard"
+											dynasty=vane
+											religion=anglican culture=english
+											father=vane_0053	# William Morgan Vane
+											mother=lowborn_7932	# Mary Proby
+											1951.07.31={birth=yes}
+											1986.08.29={add_spouse=lowborn_7933}	# Cressida Pemberton-Pigott
+										}
+									vane_0055={ #// 3i) Margaret Cicely (24 Dec 1910-19__)
+										name="Margaret Cicely"
+										female=yes
+										dynasty=vane
+										religion=anglican culture=english
+										father=vane_0051	# William Lyonel Vane
+										mother=lowborn_7930	# LADY Katharine Louisa Pakenham
+										1910.12.24={birth=yes}
+										1985.01.01={death=yes}  # EST.
+									}
+							vane_0056={ #// 2g) Frederick Nicholson (19 Dec 1809-10 Feb 1878)
+								name=Frederick
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0037	# John Henry Vane
+								mother=lowborn_7919	# Elizabeth Nicholson
+								1809.12.19={birth=yes}
+								1878.02.10={death=yes}
+							}
+				vane_0062={ #// 6d) Charles, d.Feb 1796; m.Feb 1776 Elizabeth Wood
+					name=Charles
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0011	# Gilbert Vane
+					mother=lowborn_7613	# Mary Randyll
+					1721.01.01={birth=yes}  # EST.
+					1776.02.01={add_spouse=lowborn_7934}	# Elizabeth Wood
+					1796.02.01={death=yes}
+				}
+					vane_0063={ #// 1e) Henrietta Elizabeth Frederica, d.11 Nov 1809; m.20 Aug 1795 Sir William Langham, 8th Bt. (10 Feb 1771-8 Mar 1812)
+						name="Henrietta Elizabeth"
+						female=yes
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0062	# Charles Vane
+						mother=lowborn_7934	# Elizabeth Wood
+						1777.01.01={birth=yes}  # EST.
+						1809.11.11={death=yes}
+					}
+				vane_0065={ #// 8d) Elizabeth, d.22 Feb 1770; m.Oct 1732 Sir William Humble, 5th Bt, (d.Oct 1742)
+					name=Elizabeth
+					female=yes
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0011	# Gilbert Vane
+					mother=lowborn_7613	# Mary Randyll
+					1713.01.01={birth=yes}  # EST.
+					1770.02.22={death=yes}
+				}
+			vane_0067={ #// 3c) William, cr 1720 Viscount Vane and Baron Vane of Dungannon [I] (ca 1680-20 May 1734); m.1703 Lucy Jolliffe (d.27 Mar 1742)
+				name=William
+				dynasty=vane
+				religion=anglican culture=english
+				father=vane_0009	# Christopher Vane
+				mother=lowborn_6124	# LADY Elizabeth Holles
+				1680.01.01={birth=yes}
+				1703.01.01={add_spouse=lowborn_7939}	# Lucy Jolliffe
+				1734.05.20={death=yes}
+			}
+				vane_0070={ #// 3d) William Holles, 2nd Viscount Vane (4 Feb 1714-5 Apr 1789); m.19 May 1735 Frances, Lady William Hamilton, née Hawes (d.31 Mar 1788)
+					name=William
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0067	# William Vane
+					mother=lowborn_7939	# Lucy Jolliffe
+					1714.02.04={birth=yes}
+					1735.05.19={add_spouse=lowborn_7940}	# LADY Frances Hawes
+					1789.04.05={death=yes}
+				}
+	vane_0084={ #// 3a) Sir George, of Long Newton; m.Elizabeth Maddison
+		name=George
+		dynasty=vane
+		religion=anglican culture=english
+		father=vane_0001	# Henry Vane
+		mother=lowborn_5901	# Frances D’Arcy
+		1617.01.01={birth=yes}  # EST.
+		1640.01.01={add_spouse=lowborn_7946}	# Elizabeth Maddison
+		1677.01.01={death=yes}  # EST.
+	}
+		vane_0085={ #// 1b) Lionel, of Long Newton; m.Catharine Fletcher
+			name=Lionel
+			dynasty=vane
+			religion=anglican culture=english
+			father=vane_0084	# George Vane
+			mother=lowborn_7946	# Elizabeth Maddison
+			1641.01.01={birth=yes}  # EST.
+			1682.01.01={add_spouse=lowborn_7947}	# Catharine Fletcher
+			1705.01.01={death=yes}  # EST.
+		}
+			vane_0086={ #// 1c) George, of Long Newton; m.Anne Bachon
+				name=George
+				dynasty=vane
+				religion=anglican culture=english
+				father=vane_0085	# Lionel Vane
+				mother=lowborn_7947	# Catharine Fletcher
+				1683.01.01={birth=yes}  # EST.
+				1717.01.01={add_spouse=lowborn_7948}	# Anne Bachon
+				1743.01.01={death=yes}  # EST.
+			}
+				vane_0088={ #// 2d) Rev. Sir Henry, cr Baronet 1782 (ca 1725-7 Jun 1794); m.3 Mar 1768 Frances Tempest (d.19 Jan 1795)
+					name=Henry
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0086	# George Vane
+					mother=lowborn_7948	# Anne Bachon
+					1725.01.01={birth=yes}
+					1768.03.03={add_spouse=lowborn_7950}	# Frances Tempest
+					1794.06.07={death=yes}
+				}
+					vane_0089={ #// 1e) Sir Henry, 2nd Bt. (25 Jan 1771-1 Aug 1813); m.25 Apr 1799 Anne MacDonnell, 2nd Countess of Antrim (d.30 Jun 1834); he took the surname VANE-TEMPEST, pursuant to will of his uncle John Tempest, from whom he inherited the Wynyard, Brancepeth Castle, and Old Durham estates
+						name=Henry
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0088	# Henry Vane
+						mother=lowborn_7950	# Frances Tempest
+						1771.01.25={birth=yes}
+						1799.04.25={add_spouse=lowborn_7951}	# CSS Anne MacDonnell
+						1813.08.01={death=yes}
+					}
+						vane_0090={ #// 1f) Frances Anne Emily (7 Feb 1800-20 Jan 1865); m.3 Apr 1819 Charles William Stewart, later Vane, 3rd Marquess of Londonderry, 1st Earl Vane (18 May 1778-6 Mar 1854)
+							name=Frances
+							female=yes
+							dynasty=vane
+							religion=anglican culture=english
+							father=vane_0089	# Henry Vane
+							mother=lowborn_7951	# CSS Anne MacDonnell
+							1800.02.07={birth=yes}
+							1865.01.20={death=yes}
+						}
+					vane_0091={ #// 2e) Frances Anne Vane; m.Michael Angelo Taylor
+						name="Frances Anne"
+						female=yes
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0088	# Henry Vane
+						mother=lowborn_7950	# Frances Tempest
+						1773.01.01={birth=yes}  # EST.
+						1833.01.01={death=yes}  # EST.
+					}
+			vane_0092={ #// 2c) Henry, of Hutton, took surname Vane-Fletcher, d.1761
+				name=Henry
+				dynasty=vane
+				religion=anglican culture=english
+				father=vane_0085	# Lionel Vane
+				mother=lowborn_7947	# Catharine Fletcher
+				1686.01.01={birth=yes}  # EST.
+				1761.01.01={death=yes}
+			}
+			vane_0093={ #// 3c) Walter, of Hutton, 1761 took surname Vane-Fletcher, d.1 Mar 1775; m.1st Mercy Wright; m.2nd NN
+				name=Walter
+				dynasty=vane
+				religion=anglican culture=english
+				father=vane_0085	# Lionel Vane
+				mother=lowborn_7947	# Catharine Fletcher
+				1701.01.01={birth=yes}  # EST.
+				1722.01.01={add_spouse=lowborn_7958}	# Mercy Wright
+				1775.03.01={death=yes}
+			}
+				vane_0094={ #// 1d) [ex 1] Sir Lionel Wright Vane-Fletcher, cr Baronet 27 Jun 1786 (28 Jun 1723-19 Jul 1786); m.Aug 1758 Rachael Griffith (d.Jan 1802)
+					name=Lionel
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0093	# Walter Vane
+					mother=lowborn_7958	# Mercy Wright
+					1723.06.28={birth=yes}
+					1758.08.01={add_spouse=lowborn_7965}	# Rachael Griffith
+					1786.07.19={death=yes}
+				}
+					vane_0095={ #// 1e) Sir Frederick Vane-Fletcher, later Fletcher-Vane, 2nd Bt. (27 Feb 1760-Mar 1832); m.9 Mar 1797 Hannah Bowerbank (d.17 Dec 1861)
+						name=Frederick
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0094	# Lionel Vane
+						mother=lowborn_7965	# Rachael Griffith
+						1760.02.27={birth=yes}
+						1797.03.09={add_spouse=lowborn_7967}	# Hannah Bowerbank
+						1832.03.01={death=yes}
+					}
+						vane_0096={ #// 1f) Walter, d.1814 of wounds received at Bayonne
+							name=Walter
+							dynasty=vane
+							religion=anglican culture=english
+							father=vane_0095	# Frederick Vane
+							mother=lowborn_7967	# Hannah Bowerbank
+							1798.01.01={birth=yes}  # EST.
+							1814.01.01={death=yes}
+						}
+						vane_0097={ #// 2f) Sir Francis Fletcher-Vane, 3rd Bt. (29 Mar 1797-15 Feb 1842); m.10 Apr 1823 Diana Olivia Beauclerk (d.9 Feb 1875) $$
+							name=Francis
+							dynasty=vane
+							religion=anglican culture=english
+							father=vane_0095	# Frederick Vane
+							mother=lowborn_7967	# Hannah Bowerbank
+							1797.03.29={birth=yes}
+							1823.04.10={add_spouse=100060197}	# Diana Olivia Beauclerk
+							1842.02.15={death=yes}
+						}
+							vane_0098={ #// 1g) Sir Henry Ralph Fletcher-Vane, 4th Bt. (13 Jan 1830-1908); m.12 Apr 1871 Margaret Gladstone; he left his estates to his distant cousin, William Morgan Vane (above)
+								name="Henry Ralph"
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0097	# Francis Vane
+								mother=100060197	# Diana Olivia Beauclerk
+								1830.01.13={birth=yes}
+								1871.04.12={add_spouse=lowborn_7971}	# Margaret Gladstone
+								1908.01.01={death=yes}
+							}
+							vane_0099={ #// 2g) Gertrude Elizabeth (29 Jun 1831-21 Aug 1893); m.29 Apr 1857 Vincent Wing (d.30 Sep 1874); her son Frederick m. Mary Fitzclarence
+								name="Gertrude Elizabeth"
+								female=yes
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0097	# Francis Vane
+								mother=100060197	# Diana Olivia Beauclerk
+								1831.06.29={birth=yes}
+								1893.08.21={death=yes}
+							}
+							vane_0100={ #// 3g) Frederick Fletcher (12 Dec 1832-7 Dec 1865)
+								name=Frederick
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0097	# Francis Vane
+								mother=100060197	# Diana Olivia Beauclerk
+								1832.12.12={birth=yes}
+								1865.12.07={death=yes}
+							}
+						vane_0102={ #// 4f) Sophia Mary (18 Mar 1802-16 Oct 1870); m.1 Oct 1839 Rev. Forbes Smith de Heriz
+							name="Sophia Mary"
+							female=yes
+							dynasty=vane
+							religion=anglican culture=english
+							father=vane_0095	# Frederick Vane
+							mother=lowborn_7967	# Hannah Bowerbank
+							1802.03.18={birth=yes}
+							1870.10.16={death=yes}
+						}
+						vane_0103={ #// 5f) Frederick Henry (18 May 1807-13 Dec 1894); m.4 Jun 1839 Rosa Linda Moore (d.1895)
+							name="Frederick Henry"
+							dynasty=vane
+							religion=anglican culture=english
+							father=vane_0095	# Frederick Vane
+							mother=lowborn_7967	# Hannah Bowerbank
+							1807.05.18={birth=yes}
+							1839.06.04={add_spouse=lowborn_7975}	# Rosa Linda Moore
+							1894.12.13={death=yes}
+						}
+							vane_0104={ #// 1g) Sir Francis Patrick Fletcher-Vane, 5th Bt. (16 Oct 1861-10 Jun 1934); m.1888 Anna Oliphant da Costa Ricci
+								name="Francis Patrick"
+								dynasty=vane
+								religion=anglican culture=english
+								father=vane_0103	# Frederick Henry Vane
+								mother=lowborn_7975	# Rosa Linda Moore
+								1861.10.16={birth=yes}
+								1888.01.01={add_spouse=lowborn_7977}	# Anna Oliphant da Costa Ricci
+								1934.06.10={death=yes}
+							}
+					vane_0107={ #// 4e) Catherine, d.8 Dec 1843
+						name=Catherine
+						female=yes
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0094	# Lionel Vane
+						mother=lowborn_7965	# Rachael Griffith
+						1773.01.01={birth=yes}  # EST.
+						1843.12.08={death=yes}
+					}
+					vane_0108={ #// 5e) Rachael, d.8 Jan 1844; m.William Walter Vane, of Canfield Hall
+						name=Rachael
+						female=yes
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0094	# Lionel Vane
+						mother=lowborn_7965	# Rachael Griffith
+						1774.01.01={birth=yes}  # EST.
+						1844.01.08={death=yes}
+					}
+				vane_0109={ #// 2d) [ex 2] Godfrey Woodward, of Twyford; m.Apr 1763 Sarah Birch
+					name=Godfrey
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0093	# Walter Vane
+					mother=lowborn_7958	# Mercy Wright
+					1726.01.01={birth=yes}  # EST.
+					1763.04.01={add_spouse=lowborn_7979}	# Sarah Birch
+					1786.01.01={death=yes}  # EST.
+				}
+					vane_0110={ #// 1e) William Walter
+						name="William Walter"
+						dynasty=vane
+						religion=anglican culture=english
+						father=vane_0109	# Godfrey Vane
+						mother=lowborn_7979	# Sarah Birch
+						1765.01.01={birth=yes}  # EST.
+						1825.01.01={death=yes}  # EST.
+					}
+				vane_0115={ #// 4d) [ex 2] Catharine; m.Sep 1764 Arthur Molesworth (d.20 Aug 1803)
+					name=Catharine
+					female=yes
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0093	# Walter Vane
+					mother=lowborn_7958	# Mercy Wright
+					1726.01.01={birth=yes}  # EST.
+					1786.01.01={death=yes}  # EST.
+				}
+				vane_0116={ #// 5d) [ex 2] Frances, d.21 Aug 1777; m.Apr 1765 Charles Palmer
+					name=Frances
+					female=yes
+					dynasty=vane
+					religion=anglican culture=english
+					father=vane_0093	# Walter Vane
+					mother=lowborn_7958	# Mercy Wright
+					1726.01.01={birth=yes}  # EST.
+					1777.08.21={death=yes}
+				}
+			vane_0118={ #// 4c) Lionel; m.NN à issue
+				name=Lionel
+				dynasty=vane
+				religion=anglican culture=english
+				father=vane_0085	# Lionel Vane
+				mother=lowborn_7947	# Catharine Fletcher
+				1702.01.01={birth=yes}  # EST.
+				1762.01.01={death=yes}  # EST.
+			}
+		vane_0122={ #// 4b) Anne (bap 29 Aug 1653-    ); m.28 Mar 1671 Sir Henry Herbert, of Tinterne, 2nd Bt. (bap 19 Mar 1639-bur 13 Aug 1687)
+			name=Anne
+			female=yes
+			dynasty=vane
+			religion=anglican culture=english
+			father=vane_0084	# George Vane
+			mother=lowborn_7946	# Elizabeth Maddison
+			1653.08.29={birth=yes}  # bap
+			1728.01.01={death=yes}  # EST.
+		}
+	vane_0130={ #// 11a) Margaret; m.3 Jun 1640 Sir Thomas Pelham, 2nd Bt. (1597-1654)
+		name=Margaret
+		female=yes
+		dynasty=vane
+		religion=anglican culture=english
+		father=vane_0001	# Henry Vane
+		mother=lowborn_5901	# Frances D’Arcy
+		1621.01.01={birth=yes}  # EST.
+		1681.01.01={death=yes}  # EST.
+	}
+	vane_0132={ #// 13a) Anne (bap 27 Aug 1623-    ); m.22 Jun 1646 Sir Thomas Liddell, of Ravensworth, 2nd Bt. (d.1697)
+		name=Anne
+		female=yes
+		dynasty=vane
+		religion=anglican culture=english
+		father=vane_0001	# Henry Vane
+		mother=lowborn_5901	# Frances D’Arcy
+		1623.08.27={birth=yes}  # bap
+		1698.01.01={death=yes}  # EST.
+	}
+	vane_0133={ #// 14a) Elizabeth (bap 4 Sep 1624-    ); m.Sir Francis Vincent, 3rd Bt. (ca 1621-ca 1670)
+		name=Elizabeth
+		female=yes
+		dynasty=vane
+		religion=anglican culture=english
+		father=vane_0001	# Henry Vane
+		mother=lowborn_5901	# Frances D’Arcy
+		1624.09.04={birth=yes}  # bap
+		1699.01.01={death=yes}  # EST.
+	}
+
+#######
+## VANE

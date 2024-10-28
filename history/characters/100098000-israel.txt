@@ -105,9 +105,7 @@
 100198088={ #// Yitzhak Rabin (*1.3.1922, +4.11.1995) %%
 	name=Yitzhak
 	dynasty=374146
-	martial=15 diplomacy=11 stewardship=8 intrigue=5 learning=6
 	religion=jewish culture=israeli
-	trait=brilliant_strategist trait=brave trait=kind trait=ambitious trait=diligent
 	1922.03.01={birth=yes}
 	1995.11.04={death={death_reason=death_murder killer=100098089}}
 }
@@ -116,18 +114,15 @@
 		female=yes
 		dynasty=374146
 		religion=jewish culture=israeli
-		martial=8 diplomacy=7 stewardship=5 intrigue=6 learning=5
-		trait=charismatic_negotiator trait=diligent trait=just 	father=100198088	# Yitzhak Rabin
+		father=100198088	# Yitzhak Rabin
 		1950.03.19={birth=yes}
 		#2015.01.01={employer=100098012}
 	}
-		100198091={ #// B1. Noa Rabin (*20.3.1977) %%
+		100198091={ #// B1. Noa Rabin (*20.3.1977); m.2007 Eldad Rotman (*1975) %%
 			name=Noa
 			female=yes
 			dynasty=374146
 			religion=jewish culture=israeli
-			martial=5 diplomacy=8 stewardship=6 intrigue=6 learning=9
-			trait=charismatic_negotiator trait=honest trait=cynical trait=just trait=content
 			mother=100198090	# Dalia Rabin
 			1977.03.20={birth=yes}
 			#2015.01.01={employer=100098012}
@@ -372,7 +367,9 @@
 	1900.01.01={birth=yes}
 	1970.01.01={death=yes}
 }
-100198036={ #// Tzipi Livni (*8.7.1958) %%
+
+## LIVNI
+100198036={ #// Tzipi Livni (*8.7.1958); m.1986 Naftali Shpitzer (*1958) %%
 	name=Tzipi
 	female=yes
 	dynasty=374104
@@ -383,31 +380,30 @@
 	2008.01.01={add_claim=k_israel}
 	#2015.01.01={employer=100098012}
 }
-100094484={ #// Naftali Shpitzer (*1958) %%
+100094484={ #// Naftali Shpitzer (*1958); m.1986 Tzipi Livni (*8.7.1958) %%
 	name="Naftali Shpitzer"
 	#dynasty=370
 	religion=jewish culture=israeli
 	1958.01.01={birth=yes}
-	1986.01.01={add_matrilineal_spouse=100198036}
+	1986.01.01={add_spouse=100198036}	# Tzipi Livni
 }
-100198038={ #// Omri Livni (*1988) %%
-	name=Omri
-	dynasty=374104
-	religion=jewish culture=israeli
-	father=100094484	# Naftali Shpitzer
-	mother=100198036	# Tzipi Livni
-	1988.01.01={birth=yes}
-	#2015.01.01={employer=100098012}
-}
-100198039={ #// Yuval Livni (*1991) %%
-	name=Yuval
-	dynasty=374104
-	religion=jewish culture=israeli
-	father=100094484	# Naftali Shpitzer
-	mother=100198036	# Tzipi Livni
-	1991.01.01={birth=yes}
-	#2015.01.01={employer=100098012}
-}
+	100198038={ #// A1. Omri (*1988) %%
+		name=Omri
+		dynasty=374104
+		religion=jewish culture=israeli
+		father=100094484	# Naftali Shpitzer
+		mother=100198036	# Tzipi Livni
+		1988.01.01={birth=yes}
+	}
+	100198039={ #// A2. Yuval (*1991) %%
+		name=Yuval
+		dynasty=374104
+		religion=jewish culture=israeli
+		father=100094484	# Naftali Shpitzer
+		mother=100198036	# Tzipi Livni
+		1991.01.01={birth=yes}
+	}
+
 100198040={ #// Eitan Livni (*1919, +27.12.1991); m.16.5.1948 Sara Rosenberg (*30.3.1922, +8.10.2007) %%
 	name=Eitan
 	dynasty=374104
@@ -521,6 +517,14 @@
 	mother=100094487	# Gilat
 	2014.01.01={birth=yes}
 }
+100198055={ #// Yaffa Cohen (*1960); m.1981 Arye Machlouf Dery (*17.2.1959) %%
+	name=Yaffa
+	female=yes
+	dynasty=374037
+	religion=jewish culture=israeli
+	1960.01.01={birth=yes}
+}
+
 100198054={ #// Arye Machlouf Dery (*17.2.1959); m.1981 Yaffa Cohen (*1960) %%
 	name="Arye Machlouf"
 	dynasty=374041
@@ -529,80 +533,65 @@
 	1981.01.01={add_spouse=100198055}	# Yaffa Cohen
 	2015.01.01={employer=100113097}
 }
-100198055={ #// Yaffa Cohen (*1960); m.1981 Arye Machlouf Dery (*17.2.1959) %%
-	name=Yaffa
-	female=yes
-	dynasty=374037
-	religion=jewish culture=israeli
-	1960.01.01={birth=yes}
-}
-100198056={ #// Yankee Dery (*1984); m.2005 Elisheva (*1984) %%
-	name=Yankee
-	dynasty=374041
-	religion=jewish culture=israeli
-	father=100198054	# Arye Machlouf Dery
-	mother=100198055	# Yaffa Cohen
-	1984.01.01={birth=yes}
-	2005.01.01={add_spouse=100094488}	# Elisheva
-	2015.01.01={employer=100113097}
-}
-100094488={ #// Elisheva (*1984); m.2005 Yankee Dery (*1984) %%
-	name=Elisheva
-	female=yes# dynasty=37
-	religion=jewish culture=israeli
-	1984.01.01={birth=yes}
-}
-100198058={ #// Arye Machlouf Dery (*2009) %%
-	name="Arye Machlouf"
-	dynasty=374041
-	religion=jewish culture=israeli
-	father=100198056	# Yankee Dery
-	mother=100094488	# Elisheva
-	2009.01.01={birth=yes}
-	2015.01.01={employer=100113097}
-}
-100198059={ #// Noam Dery (*2010) %%
-	name=Noam
-	dynasty=374041
-	religion=jewish culture=israeli
-	father=100198056	# Yankee Dery
-	mother=100094488	# Elisheva
-	2010.01.01={birth=yes}
-	2015.01.01={employer=100113097}
-}
-100198060={ #// Zehava Galon (*4.1.1956) %%
+	100198056={ #// A1. Yanki (*1984) %%
+		name="Yanki"
+		dynasty=374041
+		religion=jewish culture=israeli
+		father=100198054	# Arye Machlouf Dery
+		mother=100198055	# Yaffa Cohen
+		1984.01.01={birth=yes}
+		2005.01.01={add_spouse=100094488}	# Elisheva
+		2015.01.01={employer=100113097}
+	}
+		100198058={ #// B1. Arye Machlouf (*2009) %%
+			name="Arye Machlouf"
+			dynasty=374041
+			religion=jewish culture=israeli
+			father=100198056	# Yanki Dery
+			2009.01.01={birth=yes}
+			2015.01.01={employer=100113097}
+		}
+		100198059={ #// B2. Noam (*2010) %%
+			name=Noam
+			dynasty=374041
+			religion=jewish culture=israeli
+			father=100198056	# Yanki Dery
+			2010.01.01={birth=yes}
+			2015.01.01={employer=100113097}
+		}
+	
+## Zehava Galon
+100198060={ #// Zehava Shnipitsky (*Vilnius 4.1.1956); m.1979 Pesah Galon (*1955) %%
 	name=Zehava
 	female=yes
-	dynasty=374220
+	dynasty=shnipitsky
 	religion=jewish culture=israeli
-	1956.01.04={birth=yes}
-	#2015.01.01={employer=100098012}
+	1956.01.04={birth=yes}	# Vilnius
 }
-100094489={ #// Pesah Srbija (*1955) %%
+100094489={ #// Pesah Galon (*1955); m.1979 Zehava Shnipitsky (*Vilnius 4.1.1956) %%
 	name=Pesah
-	dynasty=37
+	dynasty=374220
 	religion=jewish culture=israeli
 	1955.01.01={birth=yes}
-	#2015.01.01={employer=100098012}
+	1979.01.01={add_spouse=100198060}	# Zehava Shnipitsky
 }
-100198062={ #// Yiftah Galon (*1980) %%
-	name=Yiftah
-	dynasty=374220
-	religion=jewish culture=israeli
-	father=100094489	# Pesah Srbija
-	mother=100198060	# Zehava Galon
-	1980.01.01={birth=yes}
-	#2015.01.01={employer=100098012}
-}
-100198063={ #// Nadav Galon (*1982) %%
-	name=Nadav
-	dynasty=374220
-	religion=jewish culture=israeli
-	father=100094489	# Pesah Srbija
-	mother=100198060	# Zehava Galon
-	1982.01.01={birth=yes}
-	#2015.01.01={employer=100098012}
-}
+	100198062={ #// A1. Yiftah (*1980) %%
+		name=Yiftah
+		dynasty=374220
+		religion=jewish culture=israeli
+		father=100094489	# Pesah Galon
+		mother=100198060	# Zehava Shnipitsky
+		1980.01.01={birth=yes}
+	}
+	100198063={ #// A2. Nadav (*1982) %%
+		name=Nadav
+		dynasty=374220
+		religion=jewish culture=israeli
+		father=100094489	# Pesah Galon
+		mother=100198060	# Zehava Shnipitsky
+		1982.01.01={birth=yes}
+	}
+
 100198064={ #// Israel Katz (*21.9.1955) %%
 	name=Israel
 	dynasty=374085
@@ -730,7 +719,6 @@
 	dynasty=374228
 	religion=jewish culture=israeli
 	1952.12.22={birth=yes}
-	2015.01.01={employer=100098050}
 }
 100198080={ #// Elazar Stern (*25.8.1956) %%
 	name=Elazar
@@ -797,11 +785,12 @@
 	religion=jewish culture=israeli
 	1970.05.03={birth=yes}
 }
-100198092={ #// Eldad Rotman (*1975) %%
+100198092={ #// Eldad Rotman (*1975); m.2007 Noa Rabin (*20.3.1977) %%
 	name=Eldad
 	dynasty=374233
 	religion=jewish culture=israeli
 	1975.01.01={birth=yes}
+	2007.01.01={add_spouse=100198091}	# Noa Rabin
 	#2015.01.01={employer=100098012}
 }
 

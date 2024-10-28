@@ -304,7 +304,7 @@
 	dynasty=1006039
 	religion=catholic culture=sicilian
 	1871.10.24={birth=yes}  # Palermo
-	1897.06.20={add_spouse=100035174}	# Theodolinda Altieri
+	1897.06.20={add_spouse=altieri_0006}	# Theodolinda Altieri
 	1938.11.06={death=yes}  # Polizzi Generosa
 }
 	100072680={ #// 1a) VINCENZO Mariano Raimondo Maria di Napoli-Rampolla, Pr di Resuttano, di Bonfornello, etc (Rome 19 Apr 1898-Rome 5 Feb 1965); m.Siena 23 Sep 1920 Css Teresa di Bulgarini d'Elci (Rome 8 Apr 1900-7 May 1989)
@@ -312,7 +312,7 @@
 		dynasty=1006039
 		religion=catholic culture=italian
 		father=100072679	# Francesco di Napoli
-		mother=100035174	# Theodolinda Altieri
+		mother=altieri_0006	# Theodolinda Altieri
 		1898.04.19={birth=yes}  # Rome
 		1920.09.23={add_spouse=100081576}	# CSS Teresa di Bulgarini d'Elci
 		1965.02.05={death=yes}  # Rome
@@ -504,7 +504,7 @@
 		dynasty=1006039
 		religion=catholic culture=italian
 		father=100072679	# Francesco di Napoli
-		mother=100035174	# Theodolinda Altieri
+		mother=altieri_0006	# Theodolinda Altieri
 		1900.09.06={birth=yes}  # Rome
 		1930.04.30={add_spouse=100081868}	# Elsa Dragoni
 		1974.01.01={death=yes}
@@ -525,7 +525,6 @@
 				father=100072702	# Emilio di Napoli
 				1960.01.01={birth=yes}  # EST.
 			}
-####### 100072704
 #1901.10.24={holder=100072679} # Don FRANCESCO di Paola di Napoli-Rampolla [or
 #1938.11.06={holder=100072680} # 1a) VINCENZO Mariano Raimondo Maria di Napoli-Rampolla
 #1965.02.05={holder=100072682} # 2b) FRANCESCO Paolo Maria
@@ -534,6 +533,1129 @@
 
 
 ##  100072610				Torre							  1002283
+#torre4
+torre_0140={ #// Nicolino Girolamo della Torre, +after 1436; m.Anna, dau.of Odorico Cte Colloredo
+	name="Nicolino Girolamo"
+	dynasty=101849
+	religion=catholic culture=italian
+	1363.01.01={birth=yes}  # EST.
+	1389.01.01={add_spouse=lowbor2_0552}	# Anna Colloredo
+	1437.01.01={death=yes}
+}
+	torre_0141={ #// A1. Raimondo, +1468; m.1456 Caterina, dau.of Cte Rambaldo X di Collalto (+1478)
+		name=Raimondo
+		dynasty=101849
+		religion=catholic culture=italian
+		father=torre_0140	# Nicolino Girolamo della Torre
+		mother=lowbor2_0552	# Anna Colloredo
+		1394.01.01={birth=yes}  # EST.
+		1456.01.01={add_spouse=lowbor2_0562}	# Caterina di Collalto
+		1468.01.01={death=yes}
+	}
+		torre_0142={ #// B1. Maddalena; m.1491 Girolamo Savorgnan Cte di Belgrado
+			name=Maddalena
+			female=yes
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0141	# Raimondo della Torre
+			mother=lowbor2_0562	# Caterina di Collalto
+			1457.01.01={birth=yes}  # EST.
+			1517.01.01={death=yes}  # EST.
+		}
+		torre_0143={ #// B2. Taddea; m.1483 Cte Francesco di Valvasone, Consignore di Cuccagna, Valvasone e Partistagno
+			name=Taddea
+			female=yes
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0141	# Raimondo della Torre
+			mother=lowbor2_0562	# Caterina di Collalto
+			1458.01.01={birth=yes}  # EST.
+			1518.01.01={death=yes}  # EST.
+		}
+		torre_0144={ #// B3. Cassandra, +after 1536; m.1487 Nobile Francesco Arcoloniani
+			name=Cassandra
+			female=yes
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0141	# Raimondo della Torre
+			mother=lowbor2_0562	# Caterina di Collalto
+			1466.01.01={birth=yes}  # EST.
+			1537.01.01={death=yes}
+		}
+		torre_0145={ #// B4. Elisabetta; m.1516 Giovanni Galli
+			name=Elisabetta
+			female=yes
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0141	# Raimondo della Torre
+			mother=lowbor2_0562	# Caterina di Collalto
+			1460.01.01={birth=yes}  # EST.
+			1520.01.01={death=yes}  # EST.
+		}
+	torre_0147={ #// A3. Antonio, Tesoriere e Consigliere del Patriarca di Aquileia, poi monaco ebendettino a Santa Giustina in Padova
+		name=Antonio
+		dynasty=101849
+		religion=catholic culture=italian
+		father=torre_0140	# Nicolino Girolamo della Torre
+		mother=lowbor2_0552	# Anna Colloredo
+		1396.01.01={birth=yes}  # EST.
+		1443.01.01={death=yes}  # EST.
+	}
+	torre_0148={ #// A4. Ottobone, gentiluomo alla corte dell’Imperatore Sigismondo I, +after 1435
+		name=Ottobone
+		dynasty=101849
+		religion=catholic culture=italian
+		father=torre_0140	# Nicolino Girolamo della Torre
+		mother=lowbor2_0552	# Anna Colloredo
+		1397.01.01={birth=yes}  # EST.
+		1436.01.01={death=yes}
+	}
+	torre_0150={ #// A6. Niccolo; m.Ginevra, dau.of Nobile Bertoldo di Spilimbergo
+		name=Niccolo
+		dynasty=101849
+		religion=catholic culture=italian
+		father=torre_0140	# Nicolino Girolamo della Torre
+		mother=lowbor2_0552	# Anna Colloredo
+		1400.01.01={birth=yes}  # EST.
+		1440.01.01={add_spouse=lowbor2_0579}	# Ginevra di Spilimbergo
+		1460.01.01={death=yes}  # EST.
+	}
+		torre_0151={ #// B1. Tranquilla; m.1480 Nobile Agostino Partistagno
+			name=Tranquilla
+			female=yes
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0150	# Niccolo della Torre
+			mother=lowbor2_0579	# Ginevra di Spilimbergo
+			1460.01.01={birth=yes}  # EST.
+			1485.01.01={death=yes}  # EST.
+		}
+		torre_0152={ #// B2. Luigi Alvise, comandante di cavalleria veneta, +murdered Udine 25.2.1511; m.ca 1500 Nobile Taddea Strassoldo (+after 1511)
+			name="Luigi Alvise"
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0150	# Niccolo della Torre
+			mother=lowbor2_0579	# Ginevra di Spilimbergo
+			1450.01.01={birth=yes}  # EST.
+			1500.01.01={add_spouse=lowbor2_0584}	# NOBILE Taddea Strassoldo
+			1511.02.25={death=yes}  # Udine
+		}
+			torre_0153={ #// C1. Giovanni, serve nell’esercito veneziano, +after 1526
+				name=Giovanni
+				dynasty=101849
+				religion=catholic culture=italian
+				father=torre_0152	# Luigi Alvise della Torre
+				mother=lowbor2_0584	# NOBILE Taddea Strassoldo
+				1501.01.01={birth=yes}  # EST.
+				1527.01.01={death=yes}
+			}
+			torre_0154={ #// C2. Girolamo, Chierico della Camera Apostolica e Segretario delle Lettere Apostoliche, ma rinuncia; Conte di Valsasassina del S.R.I., Barone di Vercelli, in Croce e di Leipritz con i fratelli Michele e Luigi e il cugino Niccolo con dipolma datato Barcellona, Nobile Romano, +Venezia 1590; m.1519 Giulia Bembo, dau.of Gianmatteo Bembo, Patrizio Veneto e Senatore della Repubblica di Venezia; Their descendants bore the surname della Torre-Valsassina (von Thurn-Valsassina)
+				name=Girolamo
+				dynasty=101849
+				religion=catholic culture=italian
+				father=torre_0152	# Luigi Alvise della Torre
+				mother=lowbor2_0584	# NOBILE Taddea Strassoldo
+				trait=nun
+				1505.01.01={birth=yes}  # EST.
+				1519.01.01={add_spouse=lowbor2_0586}	# Giulia Bembo
+				1590.01.01={death=yes}  # Venezia
+			}
+				torre_0155={ #// D1. Giulia; m.Aurelio Noala
+					name=Giulia
+					female=yes
+					dynasty=101849
+					religion=catholic culture=italian
+					father=torre_0154	# Girolamo della Torre
+					mother=lowbor2_0586	# Giulia Bembo
+					1526.01.01={birth=yes}  # EST.
+					1586.01.01={death=yes}  # EST.
+				}
+				torre_0156={ #// D2. Giulio, Barone di Vercelli, in Croce e Leipritz dal 1590, Coppiere del Duca di Stiria e Carinzia; in condominio con il fratello e i nipoti nelle terre di Villalta, +castello di Villalta before 1623; m.Caterina Marchesi, dau.of ricco commerciante Antonio Marchesi (+after 1623)
+					name=Giulio
+					dynasty=101849
+					religion=catholic culture=italian
+					father=torre_0154	# Girolamo della Torre
+					mother=lowbor2_0586	# Giulia Bembo
+					1538.01.01={birth=yes}  # EST.
+					1565.01.01={add_spouse=lowbor2_0590}	# Caterina Marchesi
+					1623.01.01={death=yes}  # castello di_Villalta before
+				}
+					torre_0157={ #// E1. Luigi, Barone di Vercelli, in Croce e di Leipritz comandante di compagnia di archibugieri a cavallo nell’esercito veneziano, comandante di corazze venete il 28.1.1627, Tenente colonnello di un reggimento di corazzieri imperiali, +Udine 19.10.1636; m.Nobile Sofonisba Antonini
+						name=Luigi
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0156	# Giulio della Torre
+						mother=lowbor2_0590	# Caterina Marchesi
+						1566.01.01={birth=yes}  # EST.
+						1610.01.01={add_spouse=lowbor2_0593}	# NOBILE Sofonisba Antonini
+						1636.10.19={death=yes}  # Udine
+					}
+						torre_0158={ #// F1. Giulio, Barone di Vercelli, in Croce e di Leipritz, paggio del Principe di Carignano, +in Piemonte 1646
+							name=Giulio
+							dynasty=101849
+							religion=catholic culture=italian
+							father=torre_0157	# Luigi della Torre
+							mother=lowbor2_0593	# NOBILE Sofonisba Antonini
+							1611.01.01={birth=yes}  # EST.
+							1646.01.01={death=yes}
+						}
+						torre_0159={ #// F2. Michele, Barone di Vercelli, in Croce e di Leipritz, paggio alla corte di Francia, +after 1665; m.2.9.1665 Sulpizia, dau.of Cte Palatino Sebastiano Carlo Florio (*1648, +14.6.1729)
+							name=Michele
+							dynasty=101849
+							religion=catholic culture=italian
+							father=torre_0157	# Luigi della Torre
+							mother=lowbor2_0593	# NOBILE Sofonisba Antonini
+							1620.01.01={birth=yes}  # EST.
+							1665.09.02={add_spouse=lowbor2_0595}	# NOBILE Sulpizia Florio
+							1666.01.01={death=yes}
+						}
+						torre_0160={ #// F3. Lucina; m.Cte Marcantonio Locatelli
+							name=Lucina
+							female=yes
+							dynasty=101849
+							religion=catholic culture=italian
+							father=torre_0157	# Luigi della Torre
+							mother=lowbor2_0593	# NOBILE Sofonisba Antonini
+							1622.01.01={birth=yes}  # EST.
+							1648.01.01={death=yes}  # EST.
+						}
+					torre_0165={ #// E3. Ginevra; m.2.6.1620 Ludovico Manin Cte di Polcenigo e Fanna
+						name=Ginevra
+						female=yes
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0156	# Giulio della Torre
+						mother=lowbor2_0590	# Caterina Marchesi
+						1571.01.01={birth=yes}  # EST.
+						1631.01.01={death=yes}  # EST.
+					}
+				torre_0166={ #// D3. Marcella; m.1548 Federico IV di Colloredo Mels, Signore di Colloredo e Mels
+					name=Marcella
+					female=yes
+					dynasty=101849
+					religion=catholic culture=italian
+					father=torre_0154	# Girolamo della Torre
+					mother=lowbor2_0586	# Giulia Bembo
+					1528.01.01={birth=yes}  # EST.
+					1588.01.01={death=yes}  # EST.
+				}
+				torre_0169={ #// D6. Sigismondo, Barone di Vercelli, in Croce e di Leipritz, Coppiere del Duca di Stiria e Carinzia, deputato agli abusi nella contea di Gorizia, Luogotenente della contea di Gorizia, Patrizio di Goriza dal 19.1.1582, *1528, +Isonzo 17.7.1601; 1m: Johanna Frn von Rossau, gia vedova di Adam Saccowitz Cte di Pisino; 2m: Ursula Frn von Thurn-Hofer und Valsassina; 3m: Margherita Gfn von Lenkowitz
+					name=Sigismondo
+					dynasty=101849
+					religion=catholic culture=italian
+					father=torre_0154	# Girolamo della Torre
+					mother=lowbor2_0586	# Giulia Bembo
+					1528.01.01={birth=yes}
+					1552.01.01={add_spouse=lowbor2_0604}	# FRN Johanna vedova di Adam Saccowitz
+					1559.01.01={add_spouse=lowbor2_0605}	# FRN Ursula von Thurn-Hofer
+					1564.01.01={add_spouse=lowbor2_0606}	# GFN Margherita von Lenkowitz
+					1601.07.17={death=yes}  # Isonzo
+				}
+					torre_0170={ #// E1. [1m.] Carlo, Barone di Vercelli, in Croce e di Leipritz, Consigliere del Duca di Stiria e Carinzia, +after 1607; 1m: Paola, dau. and heiress of Lucio Popaiti, Signore di Spessa and Ottavia Mantica; 2m: Maria della Torre (della linea di Duino ???)
+						name=Carlo
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0169	# Sigismondo della Torre
+						mother=lowbor2_0604	# FRN Johanna vedova di Adam Saccowitz
+						1555.01.01={birth=yes}  # EST.
+						1585.01.01={add_spouse=lowbor2_0607}	# Paola Popaiti
+						1600.01.01={add_spouse=lowbor2_0608}	# Maria della Torre di Duino
+						1610.01.01={death=yes}
+					}
+						torre_0171={ #// F1. Giovanni Simone, Barone di Vercelli, in Croce e di Leipritz, Paggio imperiale  1624, Tenente colonnello nell’esercito imperiale, Signore di Spessa, Villalta, Cargnacco, Cicconicco e altre terre, +26.10.1668; 1m: 1638 Cssa Caterina, dau.of Orfeo Strassoldo (*7.7.1619, +30.1.1654); 2m: 1659 Bssa Domitilla, dau.of Rodolfo Coronini di Cronberg (*16.1.1631, +1665), widow by Carlo Varcano
+							name="Giovanni Simone"
+							dynasty=101849
+							religion=catholic culture=italian
+							father=torre_0170	# Carlo della Torre
+							mother=lowbor2_0607	# Paola Popaiti
+							1599.01.01={birth=yes}  # EST.
+							1638.01.01={add_spouse=lowbor2_0609}	# CSSA Caterina Strassoldo
+							1659.01.01={add_spouse=lowbor2_0610}	# BSSA Domitilla dau.of Coronini di Cronberg
+							1668.10.26={death=yes}
+						}
+							torre_0172={ #// G1. [1m.] Johann Michael, Barone di Vercelli, in Croce e di Leipritz, lascia eredi i cugini, *Sepssa 13.2.1639, +after 1705; m.1668 Gfn Johanna Barbara von Attems (*Tauzenberg ca 1650, +Lucinico 29.8.1710) $$
+								name="Johann Michael"
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0171	# Giovanni Simone della Torre
+								mother=lowbor2_0609	# CSSA Caterina Strassoldo
+								1639.02.13={birth=yes}  # Sepssa
+								1668.01.01={add_spouse=attems_0071}	# Johanna Barbara von Attems
+								1706.01.01={death=yes}
+							}
+							torre_0173={ #// G2. [1m.] Giuseppe, monaco cappuccino
+								name=Giuseppe
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0171	# Giovanni Simone della Torre
+								mother=lowbor2_0609	# CSSA Caterina Strassoldo
+								1641.01.01={birth=yes}  # EST.
+								1701.01.01={death=yes}  # EST.
+							}
+							torre_0177={ #// G6. [1m.] Paola; m.1673 Gilles Barone de Fiou
+								name=Paola
+								female=yes
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0171	# Giovanni Simone della Torre
+								mother=lowbor2_0609	# CSSA Caterina Strassoldo
+								1644.01.01={birth=yes}  # EST.
+								1704.01.01={death=yes}  # EST.
+							}
+							torre_0178={ #// G7. [1m.] Barbara; m.1669 Gaspare Barone di Grazia
+								name=Barbara
+								female=yes
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0171	# Giovanni Simone della Torre
+								mother=lowbor2_0609	# CSSA Caterina Strassoldo
+								1645.01.01={birth=yes}  # EST.
+								1705.01.01={death=yes}  # EST.
+							}
+							torre_0180={ #// G9. [2m.] Rodolfo, ecclesiastico, +after 1716
+								name=Rodolfo
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0171	# Giovanni Simone della Torre
+								mother=lowbor2_0610	# BSSA Domitilla dau.of Coronini di Cronberg
+								1661.01.01={birth=yes}  # EST.
+								1717.01.01={death=yes}
+							}
+						torre_0181={ #// F2. Michele, serve nell’esercito imperiale, +k.a.Leipzig 1619
+							name=Michele
+							dynasty=101849
+							religion=catholic culture=italian
+							father=torre_0170	# Carlo della Torre
+							mother=lowbor2_0607	# Paola Popaiti
+							1590.01.01={birth=yes}  # EST.
+							1619.01.01={death=yes}  # Leipzig
+						}
+						torre_0182={ #// F3. Ludovica; 1m: 1632 Barone Giovanni Battista Chiesa; 2m: Görz 22.2.1634 Cte Giacomo Antonio di Polcenigo Fanna
+							name=Ludovica
+							female=yes
+							dynasty=101849
+							religion=catholic culture=italian
+							father=torre_0170	# Carlo della Torre
+							mother=lowbor2_0607	# Paola Popaiti
+							1592.01.01={birth=yes}  # EST.
+							1640.01.01={death=yes}  # EST.
+						}
+						torre_0183={ #// F4. Giovanna; m.1648 Bernardino Cte Lantieri di Paratico
+							name=Giovanna
+							female=yes
+							dynasty=101849
+							religion=catholic culture=italian
+							father=torre_0170	# Carlo della Torre
+							mother=lowbor2_0607	# Paola Popaiti
+							1594.01.01={birth=yes}  # EST.
+							1649.01.01={death=yes}  # EST.
+						}
+						torre_0185={ #// F6. Bartolomea; m.1626 Guido Frhr von Kuenberg
+							name=Bartolomea
+							female=yes
+							dynasty=101849
+							religion=catholic culture=italian
+							father=torre_0170	# Carlo della Torre
+							mother=lowbor2_0607	# Paola Popaiti
+							1596.01.01={birth=yes}  # EST.
+							1640.01.01={death=yes}  # EST.
+						}
+						torre_0187={ #// F8. Sigismondo, +after 1643; 1m: 1619 Marzia, dau.of Scipione Cte Sbroiavacca; 2m: 1638 Anna Maria, dau.of Ettore Cte Savorgnan
+							name=Sigismondo
+							dynasty=101849
+							religion=catholic culture=italian
+							father=torre_0170	# Carlo della Torre
+							mother=lowbor2_0607	# Paola Popaiti
+							1598.01.01={birth=yes}  # EST.
+							1619.01.01={add_spouse=lowbor2_0618}	# Marzia Savorgnan
+							1644.01.01={death=yes}
+						}
+							torre_0188={ #// G1. [1m.] Carlo, Cavaliere della Chiave d’Oro, Consigliere di guerra imperiale, conferma imperiale dei titoli e dei possessi, Barone di Vercelli, in Croce e di Leipritz), Governatore e Capitano di Trieste, Capitano della Contea di Gorizia, Maresciallo supremo ereditario della Contea di Gorizia dal 1664, Maresciallo ereditario della Carniola dal 1665, Credenziere Maggiore ereditario del Ducato di Carinzia, Le cariche ereditarie venivano esercitate da entrambe le linee da lui discendenti, mentre il dominio sui castelli e le terre era diviso a meta per ciascuna linea, +in prison 9.3.1689; m.1647 Eleonora Cssa Colloredo-Mels (+18.3.1693)
+								name=Carlo
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0187	# Sigismondo della Torre
+								mother=lowbor2_0618	# Marzia Savorgnan
+								1620.01.01={birth=yes}  # EST.
+								1647.01.01={add_spouse=lowbor2_0619}	# CSSA Eleonora Colloredo-Mels
+								1689.03.09={death=yes}
+							}
+								torre_0189={ #// H1. Lucio, Maresciallo supremo ereditario della contea di Gorizia, Maresciallo ereditario della Carniola e Credenziere Maggiore ereditario del ducato di Carinzia, Barone di Vercelli, in Croce e Leipritz, Signore di Popaite, Villalta, Spessa, Cargnacco, San Vito di Fagnana, Cicconicco, Gragnago in condominio con i fratelli, +Udine 1691; m.3.2.1686 Gfn Silvia Elena von Rabatta (*Görz 17.10.1670, +20.1.1734)
+									name=Lucio
+									dynasty=101849
+									religion=catholic culture=italian
+									father=torre_0188	# Carlo della Torre
+									mother=lowbor2_0619	# CSSA Eleonora Colloredo-Mels
+									1648.01.01={birth=yes}  # EST.
+									1686.02.03={add_spouse=lowbor2_0620}	# CSSA Silvia Elena Rabatta
+									1691.01.01={death=yes}  # Udine
+								}
+								torre_0190={ #// H2. Anna Giulia; m.ca 1673 Cte Giovanni Battista di Polcenigo Fanna
+									name="Anna Giulia"
+									female=yes
+									dynasty=101849
+									religion=catholic culture=italian
+									father=torre_0188	# Carlo della Torre
+									mother=lowbor2_0619	# CSSA Eleonora Colloredo-Mels
+									1649.01.01={birth=yes}  # EST.
+									1709.01.01={death=yes}  # EST.
+								}
+								torre_0191={ #// H3. Hieronymus (Girolamo), Maresciallo supremo ereditario della contea di Gorizia, Maresciallo ereditario della Carniola e Credenziere Maggiore ereditario del ducato di Carinzia, Barone di Vercelli, in Croce e Leipritz, Signore di Popaite, Villalta, Spessa, Gragnago, Cargnacco e Cicconico in condominio con i fratelli, +Görz 3.5.1720; 1m: 4.9.1680 Gfn Elisabeth Susanna von Starhemberg (*1660 +1683); 2m: 1684 Claudia Cssa Arrigoni $$
+									name=Hieronymus
+									dynasty=101849
+									religion=catholic culture=italian
+									father=torre_0188	# Carlo della Torre
+									mother=lowbor2_0619	# CSSA Eleonora Colloredo-Mels
+									1650.01.01={birth=yes}  # EST.
+									1680.09.04={add_spouse=100023287}	# Elisabeth Susanna von Starhemberg
+									1684.01.01={add_spouse=lowbor2_0623}	# CSSA Claudia Arrigoni
+									1720.05.03={death=yes}  # Görz
+								}
+									torre_0192={ #// I1. [1m.] Ernst, Maresciallo Supremo ereditario della contea di Gorizia, Maresciallo ereditario della Carniola, Credenziere Maggiore ereditario del ducato di Carinzia, Barone di Vercelli, in Croce e di Leipritz, Signore di Popaite, Villalta, Spessa, Cargnacco, San Vito di Fagnana, Gragnago e Cicconico in condominio con i fratelli; Capitano dei granatieri imperiali; uomo violento, subisce numerosi anni di carcere e confische, *1683, +Cargnacco 26.6.1748; m.Maria Leporini (+XI.1748)
+										name=Ernst
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=100023287	# Elisabeth Susanna von Starhemberg
+										1683.01.01={birth=yes}
+										1728.01.01={add_spouse=lowbor2_0624}	# Maria Leporini
+										1748.06.26={death=yes}  # Cargnacco
+									}
+										torre_0193={ #// J1. Matilde, monaca nel monastero dello Spirito Santo a Udine, +1817
+											name=Matilde
+											female=yes
+											dynasty=101849
+											religion=catholic culture=italian
+											father=torre_0192	# Ernst della Torre
+											mother=lowbor2_0624	# Maria Leporini
+											1747.01.01={birth=yes}  # EST.
+											1817.01.01={death=yes}
+										}
+									torre_0194={ #// I2. [2m.] Scipione, monaco benedettino nella congregazione di Monte Cassino e professa a Santa Giustina in Padova
+										name=Scipione
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1685.01.01={birth=yes}  # EST.
+										1745.01.01={death=yes}  # EST.
+									}
+									torre_0195={ #// I3. [2m.] Barbara, Badessa del monastero Maggiore di Cividale
+										name=Barbara
+										female=yes
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1686.01.01={birth=yes}  # EST.
+										1746.01.01={death=yes}  # EST.
+									}
+									torre_0196={ #// I4. [2m.] Eleonora, monaca nel monastero Maggiore di Cividale
+										name=Eleonora
+										female=yes
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1687.01.01={birth=yes}  # EST.
+										1747.01.01={death=yes}  # EST.
+									}
+									torre_0197={ #// I5. [2m.] Bionda, Badessa del monastero Maggiore di Cividale
+										name=Bionda
+										female=yes
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1688.01.01={birth=yes}  # EST.
+										1748.01.01={death=yes}  # EST.
+									}
+									torre_0198={ #// I6. [2m.] Antonio, +Görz after 1742; m.23.11.1727 Maria Anna Cssa Strassoldo, dau.of Cte Marzio Antonio Strassoldo Barone di Villanova (*8.12.1694, +11.9.1772), widow by Cte Marzio Strassoldo di Soffumberg
+										name=Antonio
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1689.01.01={birth=yes}  # EST.
+										1727.11.23={add_spouse=lowbor2_0625}	# CSSA Maria Anna Strassoldo
+										1743.01.01={death=yes}
+									}
+										torre_0201={ #// J3. Germanico, Canonico di Cividale, gesuita, *1737, +1814
+											name=Germanico
+											dynasty=101849
+											religion=catholic culture=italian
+											father=torre_0198	# Antonio della Torre
+											mother=lowbor2_0625	# CSSA Maria Anna Strassoldo
+											1737.01.01={birth=yes}
+											1814.01.01={death=yes}
+										}
+										torre_0202={ #// J4. Guido, Maresciallo Supremo ereditario della contea di Gorizia, Maresciallo ereditario della Carniola, Credenziere Maggiore ereditario del ducato di Carinzia, Barone di Vercelli, in Croce e di Leipritz, Signore di Popaite, Villalta, Spessa, Gragnago, Cargnacco, San Vito di Fagnana e Cicconicco in condominio con i fratelli, *1738, +Görz after 1798; m.1774 Cssa Matilde Penci
+											name=Guido
+											dynasty=101849
+											religion=catholic culture=italian
+											father=torre_0198	# Antonio della Torre
+											mother=lowbor2_0625	# CSSA Maria Anna Strassoldo
+											1738.01.01={birth=yes}
+											1774.01.01={add_spouse=lowbor2_0626}	# CSSA Matilde Penci
+											1799.01.01={death=yes}  # Görz after
+										}
+											torre_0203={ #// K1. Antonio Paolo, Maresciallo Supremo ereditario della contea di Gorizia, Maresciallo ereditario della Carniola, Credenziere Maggiore ereditario del ducato di Carinzia, Barone di Vercelli, in Croce e di Leipritz, Signore di Popaite, Gragnago, Villalta, Spessa, Cargnacco, Cicconicco e San Vito di Fagnana, Ciambellano imperiale; confermato del titolo di Conte dell’Impero Austriaco, *Görz 1774, +Görz 7.7.1846; m.1801 Maria Josefa von Suttner (*Wien 1779, +Wien 15.4.1828)
+												name="Antonio Paolo"
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0202	# Guido della Torre
+												mother=lowbor2_0626	# CSSA Matilde Penci
+												1774.01.01={birth=yes}  # Görz
+												1801.01.01={add_spouse=lowbor2_0627}	# Maria Josefa von Suttner
+												1846.07.07={death=yes}  # Görz
+											}
+												torre_0204={ #// L1. Giuseppina, *1801, +Wien 1818
+													name=Giuseppina
+													female=yes
+													dynasty=101849
+													religion=catholic culture=italian
+													father=torre_0203	# Antonio Paolo della Torre
+													mother=lowbor2_0627	# Maria Josefa von Suttner
+													1801.01.01={birth=yes}
+													1818.01.01={death=yes}  # Wien
+												}
+												torre_0205={ #// L2. Luigi, Marsciallo Supremo ereditario della Contea di Gorizia, Maresciallo ereditario della Carinzia, Credenziere Maggiore ereditario del ducato di Carinzia, Barone di Vercelli, in Croce e di Leipritz, Signore di Popaite, Villalta, Spessa, Cargnacco, Gragnago, Cicconicco e San Vito di Fagnana; milita nel primo reggimento dei cavalleggeri austriaci, *Wien 1805, +?; m.16.11.1850 Francesca Serafica Frn Dreguzin de Podgosdam, dau.of Franz Frhr Dreguzin de Podgosdam and Pss Federica Woroniecka
+													name=Luigi
+													dynasty=101849
+													religion=catholic culture=bavarian
+													father=torre_0203	# Antonio Paolo della Torre
+													mother=lowbor2_0627	# Maria Josefa von Suttner
+													1805.01.01={birth=yes}  # Wien
+													1850.11.16={add_spouse=lowbor2_0628}	# FRN Francesca Serafica Dreguzin de Podgosdam
+													1880.01.01={death=yes}  # EST.
+												}
+											torre_0208={ #// K2. Guido Michele, capitano di granatieri nell’esercito austriaco, *1776, +Mantova 1813
+												name="Guido Michele"
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0202	# Guido della Torre
+												mother=lowbor2_0626	# CSSA Matilde Penci
+												1776.01.01={birth=yes}
+												1813.01.01={death=yes}  # Mantova
+											}
+											torre_0209={ #// K3. Anna Bella, *Görz 1779, +Görz 1848; m.1805 Nobile Giambattista Boselli
+												name="Anna Bella"
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0202	# Guido della Torre
+												mother=lowbor2_0626	# CSSA Matilde Penci
+												1779.01.01={birth=yes}  # Görz
+												1805.01.01={add_spouse=lowbor2_0629}	# NOBILE Giambattista Boselli
+												1848.01.01={death=yes}  # Görz
+											}
+											torre_0210={ #// K4. Paola Ernesta, *1780, +?; 1m: 1814 Barone Enrico Del Mestre; 2m: Cipriani, medico
+												name=Paola
+												female=yes
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0202	# Guido della Torre
+												mother=lowbor2_0626	# CSSA Matilde Penci
+												1780.01.01={birth=yes}
+												1860.01.01={death=yes}  # EST.
+											}
+											torre_0211={ #// K5. Giuseppe, *Görz 1798, +1823
+												name=Giuseppe
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0202	# Guido della Torre
+												mother=lowbor2_0626	# CSSA Matilde Penci
+												1798.01.01={birth=yes}  # Görz
+												1823.01.01={death=yes}
+											}
+										torre_0212={ #// J5. Claudia, *1739, +Medea 1772; m.1767 Girolamo Barone Degrazia
+											name=Claudia
+											female=yes
+											dynasty=101849
+											religion=catholic culture=italian
+											father=torre_0198	# Antonio della Torre
+											mother=lowbor2_0625	# CSSA Maria Anna Strassoldo
+											1739.01.01={birth=yes}
+											1772.01.01={death=yes}  # Medea
+										}
+										torre_0213={ #// J6. Luigi, *1742, +Görz 1794; m.1775 Isabella Cssa di Brazza
+											name=Luigi
+											dynasty=101849
+											religion=catholic culture=italian
+											father=torre_0198	# Antonio della Torre
+											mother=lowbor2_0625	# CSSA Maria Anna Strassoldo
+											1742.01.01={birth=yes}
+											1775.01.01={add_spouse=lowbor2_0633}	# CSSA Isabella di Brazza
+											1794.01.01={death=yes}  # Görz
+										}
+											torre_0214={ #// K1. Leopoldo Antonio, Tenente nell’esercito austriaco, confermato del titolo di Conte dell’Impero Austria, *Görz 1776, +Spessa 11.11.1823; m.1801 Maria Badini
+												name="Leopoldo Antonio"
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0213	# Luigi della Torre
+												mother=lowbor2_0633	# CSSA Isabella di Brazza
+												1776.01.01={birth=yes}  # Görz
+												1801.01.01={add_spouse=lowbor2_0634}	# Maria Badini
+												1823.11.11={death=yes}  # Spessa
+											}
+												torre_0216={ #// L2. Camillo, Ciambellano alla corte di Parma e Maggiore dell’esercito di Parma, comandante di battaglione, *29.4.1811, +?; m.26.2.1840 Isotta Ugolotti
+													name=Camillo
+													dynasty=101849
+													religion=catholic culture=italian
+													father=torre_0214	# Leopoldo Antonio della Torre
+													mother=lowbor2_0634	# Maria Badini
+													1811.04.29={birth=yes}
+													1840.02.26={add_spouse=lowbor2_0635}	# Isotta Ugolotti
+													1886.01.01={death=yes}  # EST.
+												}
+													torre_0218={ #// M2. Leopoldo, *14.4.1842, +?
+														name=Leopoldo
+														dynasty=101849
+														religion=catholic culture=italian
+														father=torre_0216	# Camillo della Torre
+														mother=lowbor2_0635	# Isotta Ugolotti
+														1842.04.14={birth=yes}
+														1917.01.01={death=yes}  # EST.
+													}
+												torre_0221={ #// L5. Isabella, *17.4.1818, +?; m.1840 Antonio di Persa
+													name=Isabella
+													female=yes
+													dynasty=101849
+													religion=catholic culture=italian
+													father=torre_0214	# Leopoldo Antonio della Torre
+													mother=lowbor2_0634	# Maria Badini
+													1818.04.17={birth=yes}
+													1898.01.01={death=yes}  # EST.
+												}
+											torre_0224={ #// K2. Karl Alexander, confermato del titolo di Conte dell’Impero Austriaco, *Görz 1777, +Görz 13.9.1846; m.Görz 20.5.1809 Gfn Isabella von Attems (*Görz 9.12.1780, +Görz 29.4.1873)
+												name="Karl Alexander"
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0213	# Luigi della Torre
+												mother=lowbor2_0633	# CSSA Isabella di Brazza
+												1777.01.01={birth=yes}  # Görz
+												1809.05.20={add_spouse=lowbor2_0637}	# GFN Isabella von Attems
+												1846.09.13={death=yes}  # Görz
+											}
+												torre_0226={ #// L2. Isabella, *21.5.1821, +?
+													name=Isabella
+													female=yes
+													dynasty=101849
+													religion=catholic culture=italian
+													father=torre_0224	# Karl Alexander della Torre
+													mother=lowbor2_0637	# GFN Isabella von Attems
+													1821.05.21={birth=yes}
+													1901.01.01={death=yes}  # EST.
+												}
+									torre_0230={ #// I9. [2m.] Lucio, monaco nella congregazione benedettina di Monte Cassino ma professa a Santa Giustina di Padova
+										name=Lucio
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1692.01.01={birth=yes}  # EST.
+										1752.01.01={death=yes}  # EST.
+									}
+									torre_0231={ #// I10. [2m.] Germanico, +after 1723
+										name=Germanico
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1693.01.01={birth=yes}  # EST.
+										1724.01.01={death=yes}
+									}
+									torre_0233={ #// I12. [2m.] Ludovico, ecclesiastico, +1769
+										name=Ludovico
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1694.01.01={birth=yes}  # EST.
+										1769.01.01={death=yes}
+									}
+									torre_0234={ #// I13. [2m.] Michele, serve nell’esercito imperiale, +k.a.in Hungary 1744
+										name=Michele
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1695.01.01={birth=yes}  # EST.
+										1744.01.01={death=yes}  # k.a. in Hungary
+									}
+									torre_0235={ #// I14. [2m.] Marzia, monaca benedettina a Cividale dal 1713, *1696, +?
+										name=Marzia
+										female=yes
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0191	# Hieronymus della Torre
+										mother=lowbor2_0623	# CSSA Claudia Arrigoni
+										1696.01.01={birth=yes}
+										1776.01.01={death=yes}  # EST.
+									}
+								torre_0236={ #// H4. Sigismondo, gestisce in condominio con i fratelli i feudo di Villalta, Cicconicco, San Vito di Fagagna e Gragnago; le continue liti porteranno alla sua morte; oltre alle terre in comune godeva anche dei titoli ereditari alle corti di Görz, Carniola e Carinzia; subi la confisca dei beni sul territorio veneto. Egli e i suoi discendenti maschi godevano anche dei titoli baronali dinastici (Vercelli, Leipritz e Croce), +castello di Villalta 15.11.1699; m.1691 Cecilia Mocenigo, Patrizia Veneta
+									name=Sigismondo
+									dynasty=101849
+									religion=catholic culture=italian
+									father=torre_0188	# Carlo della Torre
+									mother=lowbor2_0619	# CSSA Eleonora Colloredo-Mels
+									1651.01.01={birth=yes}  # EST.
+									1691.01.01={add_spouse=lowbor2_0638}	# Cecilia Mocenigo
+									1699.11.15={death=yes}
+								}
+									torre_0237={ #// I1. Lucio Antonio, *1695, +Gradisca 3.7.1723; m.29.3.1712 Eleonora Cssa Madrisio, dau. and heiress of Cte Giovanni Enrico and Elisabetta Cssa Strassoldo (+murdered Noale 1722)
+										name="Lucio Antonio"
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0236	# Sigismondo della Torre
+										mother=lowbor2_0638	# Cecilia Mocenigo
+										1695.01.01={birth=yes}
+										1712.03.29={add_spouse=lowbor2_0639}	# CSSA Eleonora dau. Madrisio
+										1723.07.03={death=yes}  # Gradisca
+									}
+										torre_0238={ #// J1. Lucio Sigismondo, Conte di Madrisio e ville annesse, *28.6.1715, +Madrisio 25.12.1804; m.4.11.1742 Nobile Elisabetta di Spilimbergo, dau.of Cte Palatino Giovanni Enrico di Spilimbergo (*Spilimbergo 8.7.1726, +Pordenone 28.1.1799)
+											name="Lucio Sigismondo"
+											dynasty=101849
+											religion=catholic culture=italian
+											father=torre_0237	# Lucio Antonio della Torre
+											mother=lowbor2_0639	# CSSA Eleonora dau. Madrisio
+											1715.06.28={birth=yes}
+											1742.11.04={add_spouse=lowbor2_0640}	# NOBILE Elisabetta di Spilimbergo di Spilimbergo
+											1804.12.25={death=yes}  # Madrisio
+										}
+											torre_0240={ #// K2. Giovanni Enrico, Canonico di Udine, *15.2.1747, +1817
+												name="Giovanni Enrico"
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0238	# Lucio Sigismondo della Torre
+												mother=lowbor2_0640	# NOBILE Elisabetta di Spilimbergo di Spilimbergo
+												1747.02.15={birth=yes}
+												1817.01.01={death=yes}
+											}
+											torre_0241={ #// K3. Eleonora, monaca benedettina a Cividale, *20.2.1748, +1786
+												name=Eleonora
+												female=yes
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0238	# Lucio Sigismondo della Torre
+												mother=lowbor2_0640	# NOBILE Elisabetta di Spilimbergo di Spilimbergo
+												1748.02.20={birth=yes}
+												1786.01.01={death=yes}
+											}
+											torre_0242={ #// K4. Carlo Felice, monaco olivetano, Abate titolare della sua congregazione a Ferrara fino al 1796, *30.5.1749, +Udine 1821
+												name=Carlo
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0238	# Lucio Sigismondo della Torre
+												mother=lowbor2_0640	# NOBILE Elisabetta di Spilimbergo di Spilimbergo
+												1749.05.30={birth=yes}
+												1821.01.01={death=yes}  # Udine
+											}
+											torre_0246={ #// K8. Maria Teresa, Badessa benedettina a Cividale, *12.9.1756, +1829
+												name="Maria Teresa"
+												female=yes
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0238	# Lucio Sigismondo della Torre
+												mother=lowbor2_0640	# NOBILE Elisabetta di Spilimbergo di Spilimbergo
+												1756.09.12={birth=yes}
+												1829.01.01={death=yes}
+											}
+											torre_0247={ #// K9. Michele, nella congregazionie dei chierici regolari di San Paolo, sacerdote dal 1779, Vicerettore della collegio di Longone, Prefetto degli studi a Casalmaggiore, Vicario della Congregazione di San Barnaba, Canonico della collegiata di Cividale, *Pordenone 9.9.1757, +Cividale 27.1.1814
+												name=Michele
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0238	# Lucio Sigismondo della Torre
+												mother=lowbor2_0640	# NOBILE Elisabetta di Spilimbergo di Spilimbergo
+												1757.09.09={birth=yes}  # Pordenone
+												1814.01.27={death=yes}  # Cividale
+											}
+											torre_0248={ #// K10. Antonio Maria, Conte di Madrisio e ville annesse, confermato del titolo di Conte dell’Impero Austriaco assieme ai fratelli, *17.8.1759, +21.1.1842
+												name=Antonio
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0238	# Lucio Sigismondo della Torre
+												mother=lowbor2_0640	# NOBILE Elisabetta di Spilimbergo di Spilimbergo
+												1759.08.17={birth=yes}
+												1842.01.21={death=yes}
+											}
+											torre_0249={ #// K11. Raimondo Antonio, *14.12.1760, +after 1830
+												name="Raimondo Antonio"
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0238	# Lucio Sigismondo della Torre
+												mother=lowbor2_0640	# NOBILE Elisabetta di Spilimbergo di Spilimbergo
+												1760.12.14={birth=yes}
+												1831.01.01={death=yes}
+											}
+											torre_0250={ #// K12. Fabio, Consigliere di Governo a Venezia, Consigliere Aulico, +1812; m.1804 Cssa Teresa, dau.of Cte Nicolo Frangipane (*1768, +1859), widow by Giuseppe di Zucco
+												name=Fabio
+												dynasty=101849
+												religion=catholic culture=italian
+												father=torre_0238	# Lucio Sigismondo della Torre
+												mother=lowbor2_0640	# NOBILE Elisabetta di Spilimbergo di Spilimbergo
+												1761.01.01={birth=yes}  # EST.
+												1804.01.01={add_spouse=lowbor2_0641}	# CSSA Teresa Frangipane
+												1812.01.01={death=yes}
+											}
+												torre_0251={ #// L1. Lucio Giuseppe, *1806, +1808
+													name="Lucio Giuseppe"
+													dynasty=101849
+													religion=catholic culture=italian
+													father=torre_0250	# Fabio della Torre
+													mother=lowbor2_0641	# CSSA Teresa Frangipane
+													1806.01.01={birth=yes}
+													1808.01.01={death=yes}
+												}
+												torre_0252={ #// L2. Lucio Sigismondo, Conte di Madrisio e ville annesse, *26.10.1808, +?; m.1837 Teresa de Boschetti
+													name="Lucio Sigismondo"
+													dynasty=101849
+													religion=catholic culture=italian
+													father=torre_0250	# Fabio della Torre
+													mother=lowbor2_0641	# CSSA Teresa Frangipane
+													1808.10.26={birth=yes}
+													1837.01.01={add_spouse=lowbor2_0642}	# Teresa de Boschetti
+													1883.01.01={death=yes}  # EST.
+												}
+													torre_0253={ #// M1. Teresa, *21.8.1838, +?
+														name=Teresa
+														female=yes
+														dynasty=101849
+														religion=catholic culture=italian
+														father=torre_0252	# Lucio Sigismondo della Torre
+														mother=lowbor2_0642	# Teresa de Boschetti
+														1838.08.21={birth=yes}
+														1918.01.01={death=yes}  # EST.
+													}
+									torre_0255={ #// I2. Eleonora; m.Rizzardo Ungrispach Cte di Madrisio
+										name=Eleonora
+										female=yes
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0236	# Sigismondo della Torre
+										mother=lowbor2_0638	# Cecilia Mocenigo
+										1694.01.01={birth=yes}  # EST.
+										1754.01.01={death=yes}  # EST.
+									}
+									torre_0256={ #// I3. Carlo Emanuele, serve nell’esercito imperiale, +k.a.Bitonto 1734; m.1727 Francesca Felicita Rota
+										name="Carlo Emanuele"
+										dynasty=101849
+										religion=catholic culture=italian
+										father=torre_0236	# Sigismondo della Torre
+										mother=lowbor2_0638	# Cecilia Mocenigo
+										1694.01.01={birth=yes}  # EST.
+										1727.01.01={add_spouse=lowbor2_0644}	# Francesca Felicita Rota
+										1734.01.01={death=yes}  # Bitonto
+									}
+										torre_0257={ #// J1. Antonio, +1735
+											name=Antonio
+											dynasty=101849
+											religion=catholic culture=italian
+											father=torre_0256	# Carlo Emanuele della Torre
+											mother=lowbor2_0644	# Francesca Felicita Rota
+											1728.01.01={birth=yes}  # EST.
+											1735.01.01={death=yes}
+										}
+							torre_0263={ #// G7. Dorotea; m.1657 Leonardo Cte di Manzano
+								name=Dorotea
+								female=yes
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0187	# Sigismondo della Torre
+								mother=lowbor2_0618	# Marzia Savorgnan
+								1623.01.01={birth=yes}  # EST.
+								1683.01.01={death=yes}  # EST.
+							}
+							torre_0264={ #// G8. Paola; m.1643 Girolamo Flangini, Patrizio Veneto
+								name=Paola
+								female=yes
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0187	# Sigismondo della Torre
+								mother=lowbor2_0618	# Marzia Savorgnan
+								1624.01.01={birth=yes}  # EST.
+								1684.01.01={death=yes}  # EST.
+							}
+							torre_0265={ #// G9. Scipione, Cavaliere dell’Ordine di Malta, +25.7.1656
+								name=Scipione
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0187	# Sigismondo della Torre
+								mother=lowbor2_0618	# Marzia Savorgnan
+								1625.01.01={birth=yes}  # EST.
+								1656.07.25={death=yes}
+							}
+							torre_0266={ #// G10. Martino, Capitano nell’esercito imperiale, +k.a.
+								name=Martino
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0187	# Sigismondo della Torre
+								mother=lowbor2_0618	# Marzia Savorgnan
+								1626.01.01={birth=yes}  # EST.
+								1686.01.01={death=yes}  # EST.
+							}
+							torre_0268={ #// G12. Germanico, Canonico di Passau, Prevosto di Novomestre
+								name=Germanico
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0187	# Sigismondo della Torre
+								mother=lowbor2_0618	# Marzia Savorgnan
+								1628.01.01={birth=yes}  # EST.
+								1688.01.01={death=yes}  # EST.
+							}
+							torre_0270={ #// G14. Ettore, Tenente colonnello e Ciambellano imperiale, +Strassbourg 1678
+								name=Ettore
+								dynasty=101849
+								religion=catholic culture=italian
+								father=torre_0187	# Sigismondo della Torre
+								mother=lowbor2_0618	# Marzia Savorgnan
+								1630.01.01={birth=yes}  # EST.
+								1678.01.01={death=yes}  # Strassbourg
+							}
+					torre_0271={ #// E2. [1m.] Dorotea; m.1597 Federico Barone Lantieri di Paratico, Capitano Generale della contea di Gorizia
+						name=Dorotea
+						female=yes
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0169	# Sigismondo della Torre
+						mother=lowbor2_0604	# FRN Johanna vedova di Adam Saccowitz
+						1556.01.01={birth=yes}  # EST.
+						1616.01.01={death=yes}  # EST.
+					}
+					torre_0272={ #// E3. Emilia; m.Giovanni Gaspare Barone von Dornberg
+						name=Emilia
+						female=yes
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0169	# Sigismondo della Torre
+						mother=lowbor2_0604	# FRN Johanna vedova di Adam Saccowitz
+						1554.01.01={birth=yes}  # EST.
+						1614.01.01={death=yes}  # EST.
+					}
+					torre_0273={ #// E4. Taddea; m.1609 Benvenuto Barone Petazzi, Governatore di Trieste
+						name=Taddea
+						female=yes
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0169	# Sigismondo della Torre
+						mother=lowbor2_0604	# FRN Johanna vedova di Adam Saccowitz
+						1553.01.01={birth=yes}  # EST.
+						1613.01.01={death=yes}  # EST.
+					}
+					torre_0274={ #// E5. Laura; m.1626 Stefano Barone della Rovere, Capitano di Fiume
+						name=Laura
+						female=yes
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0169	# Sigismondo della Torre
+						mother=lowbor2_0604	# FRN Johanna vedova di Adam Saccowitz
+						1566.01.01={birth=yes}  # EST.
+						1627.01.01={death=yes}  # EST.
+					}
+					torre_0278={ #// E9. Niccolo, paggio alla corte di Stiria, +Ludenburg 1603
+						name=Niccolo
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0169	# Sigismondo della Torre
+						mother=lowbor2_0604	# FRN Johanna vedova di Adam Saccowitz
+						1553.01.01={birth=yes}  # EST.
+						1603.01.01={death=yes}  # Ludenburg
+					}
+					torre_0279={ #// E10. Torriana, +after 1618; m.Gaspare Barone Lantieri di Paratico
+						name=Torriana
+						female=yes
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0169	# Sigismondo della Torre
+						mother=lowbor2_0604	# FRN Johanna vedova di Adam Saccowitz
+						1554.01.01={birth=yes}  # EST.
+						1619.01.01={death=yes}
+					}
+				torre_0281={ #// D7. Taddea; m.ca 1571 Cte Valenzio di Valvasone, Consignore di Cuccagna, Valvasone e Partistagno
+					name=Taddea
+					female=yes
+					dynasty=101849
+					religion=catholic culture=italian
+					father=torre_0154	# Girolamo della Torre
+					mother=lowbor2_0586	# Giulia Bembo
+					1530.01.01={birth=yes}  # EST.
+					1590.01.01={death=yes}  # EST.
+				}
+				torre_0282={ #// D8. [illegitimate] Ginevra, +after 1626; m.30.9.1578 Cte Orazio di Polcenigo
+					name=Ginevra
+					female=yes
+					dynasty=101849
+					religion=catholic culture=italian
+					father=torre_0154	# Girolamo della Torre
+					trait=bastard
+					1558.01.01={birth=yes}  # EST.
+					1627.01.01={death=yes}
+				}
+			torre_0283={ #// C3. Raimondo, Cavaliere gerosolimitano dal 1523, Cavaliere Aurato dal 1530 per concessione del Doge di Venezia presso il quale militava, +25.11.1532
+				name=Raimondo
+				dynasty=101849
+				religion=catholic culture=italian
+				father=torre_0152	# Luigi Alvise della Torre
+				mother=lowbor2_0584	# NOBILE Taddea Strassoldo
+				1503.01.01={birth=yes}  # EST.
+				1532.11.25={death=yes}
+			}
+			torre_0284={ #// C4. Ginevra; m.Giovanni Battista Cte Colloredo
+				name=Ginevra
+				female=yes
+				dynasty=101849
+				religion=catholic culture=italian
+				father=torre_0152	# Luigi Alvise della Torre
+				mother=lowbor2_0584	# NOBILE Taddea Strassoldo
+				1504.01.01={birth=yes}  # EST.
+				1564.01.01={death=yes}  # EST.
+			}
+			torre_0285={ #// C5. Luigi, cr Conte, Abate, +murdered Luigi 27.8.1549
+				name=Luigi
+				dynasty=101849
+				religion=catholic culture=italian
+				father=torre_0152	# Luigi Alvise della Torre
+				mother=lowbor2_0584	# NOBILE Taddea Strassoldo
+				1506.01.01={birth=yes}  # EST.
+				1549.08.27={death=yes}  # Luigi
+			}
+			torre_0286={ #// C6. Michele, cr Conte, Canonico di Udine, Referedario di ambe le Segnature, Cameriere Segreto del Papa, Vescovo di Ceneda, Nunzio in Francia, Decano del Capitolo di Udine, Vicelegato a Perugia, Maggiordomo dei Sacri Palazzi Apostolici, Cardinale senza titolo, *1510, +Ceneda 21.2.1586
+				name=Michele
+				dynasty=101849
+				religion=catholic culture=italian
+				father=torre_0152	# Luigi Alvise della Torre
+				mother=lowbor2_0584	# NOBILE Taddea Strassoldo
+				1510.01.01={birth=yes}
+				1586.02.21={death=yes}  # Ceneda
+			}
+		torre_0287={ #// B3. Isidoro, +murdered Udine 25.2.1511
+			name=Isidoro
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0150	# Niccolo della Torre
+			mother=lowbor2_0579	# Ginevra di Spilimbergo
+			1451.01.01={birth=yes}  # EST.
+			1511.02.25={death=yes}  # Udine
+		}
+		torre_0288={ #// B4. Anna; m.1471 Nobile Roberto Strassoldo
+			name=Anna
+			female=yes
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0150	# Niccolo della Torre
+			mother=lowbor2_0579	# Ginevra di Spilimbergo
+			1452.01.01={birth=yes}  # EST.
+			1488.01.01={death=yes}  # EST.
+		}
+		torre_0289={ #// B5. Diadema; m.1493 Cte Ludovico Thiene
+			name=Diadema
+			female=yes
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0150	# Niccolo della Torre
+			mother=lowbor2_0579	# Ginevra di Spilimbergo
+			1454.01.01={birth=yes}  # EST.
+			1494.01.01={death=yes}  # EST.
+		}
+		torre_0290={ #// B6. Francesco, +1490; m.1483 Bianca Barisani (+after 1533)
+			name=Francesco
+			dynasty=101849
+			religion=catholic culture=italian
+			father=torre_0150	# Niccolo della Torre
+			mother=lowbor2_0579	# Ginevra di Spilimbergo
+			1455.01.01={birth=yes}  # EST.
+			1483.01.01={add_spouse=lowbor2_0657}	# Bianca Barisani
+			1490.01.01={death=yes}
+		}
+			torre_0292={ #// C2. Niccolo, +Udine 27.2.1511; m.Giacoma dei Signori di Brazza
+				name=Niccolo
+				dynasty=101849
+				religion=catholic culture=italian
+				father=torre_0290	# Francesco della Torre
+				mother=lowbor2_0657	# Bianca Barisani
+				1484.01.01={birth=yes}  # EST.
+				1508.01.01={add_spouse=lowbor2_0658}	# Giacoma di Brazza
+				1511.02.27={death=yes}  # Udine
+			}
+				torre_0293={ #// D1. Niccolo, confermato del titolo di Conte di Valsassina con i cugini nel diploma imperiale; m.1543 Nobile Elena, dau.of Conte e Nobile Enrico di Valvasone
+					name=Niccolo
+					dynasty=101849
+					religion=catholic culture=italian
+					father=torre_0292	# Niccolo della Torre
+					mother=lowbor2_0658	# Giacoma di Brazza
+					1510.01.01={birth=yes}  # EST.
+					1543.01.01={add_spouse=lowbor2_0659}	# NOBILE Elena di Valvasone
+					1570.01.01={death=yes}  # EST.
+				}
+					torre_0295={ #// E2. Guido, Gentiluomo alla corte imperiale, Cavaliere dell’Ordine di Malta, +Villalta 11.12.1586
+						name=Guido
+						dynasty=101849
+						religion=catholic culture=italian
+						father=torre_0293	# Niccolo della Torre
+						mother=lowbor2_0659	# NOBILE Elena di Valvasone
+						1545.01.01={birth=yes}  # EST.
+						1586.12.11={death=yes}  # Villalta
+					}
+			torre_0297={ #// C3. Smeralda; m.ca 1505 Nobile Ettore Strassoldo
+				name=Smeralda
+				female=yes
+				dynasty=101849
+				religion=catholic culture=italian
+				father=torre_0290	# Francesco della Torre
+				mother=lowbor2_0657	# Bianca Barisani
+				1485.01.01={birth=yes}  # EST.
+				1545.01.01={death=yes}  # EST.
+			}
+	torre_0298={ #// A7. Capo, Canonico della chiesa di San Felice e Fortuno ad Aquileia, Canonico di Cividale, Canonico di Santa Maria Maggiore a Udine, Pievano di Santo Stefano a Palazzuolo
+		name=Capo
+		dynasty=101849
+		religion=catholic culture=italian
+		father=torre_0140	# Nicolino Girolamo della Torre
+		mother=lowbor2_0552	# Anna Colloredo
+		1392.01.01={birth=yes}  # EST.
+		1467.01.01={death=yes}  # EST.
+	}
+	torre_0300={ #// A9. Giovanna, monaca nel monastero dello Spirito Santo a Udine
+		name=Giovanna
+		female=yes
+		dynasty=101849
+		religion=catholic culture=italian
+		father=torre_0140	# Nicolino Girolamo della Torre
+		mother=lowbor2_0552	# Anna Colloredo
+		1390.01.01={birth=yes}  # EST.
+		1467.01.01={death=yes}  # EST.
+	}
+	torre_0301={ #// A10. Ludovico, Cavaliere Gerosolimitano dal 1440, Commendatore di San Tommaso di Susana, +1464
+		name=Ludovico
+		dynasty=101849
+		religion=catholic culture=italian
+		father=torre_0140	# Nicolino Girolamo della Torre
+		mother=lowbor2_0552	# Anna Colloredo
+		1391.01.01={birth=yes}  # EST.
+		1464.01.01={death=yes}
+	}
+	torre_0302={ #// A11. Caterina; m.1416 Nobile Niccolo Strassoldo
+		name=Caterina
+		female=yes
+		dynasty=101849
+		religion=catholic culture=italian
+		father=torre_0140	# Nicolino Girolamo della Torre
+		mother=lowbor2_0552	# Anna Colloredo
+		1393.01.01={birth=yes}  # EST.
+		1453.01.01={death=yes}  # EST.
+	}
+	torre_0303={ #// A12. Pomina; m.1434 Guarnieri dei Signori di Zucco
+		name=Pomina
+		female=yes
+		dynasty=101849
+		religion=catholic culture=italian
+		father=torre_0140	# Nicolino Girolamo della Torre
+		mother=lowbor2_0552	# Anna Colloredo
+		1395.01.01={birth=yes}  # EST.
+		1455.01.01={death=yes}  # EST.
+	}
+#torre4
+
+#torre9
 100072619={ #// Raimund IV von Thurn-Valsássina und Hoffer, -cr Reichsgraf 13.6.1572, +Wien 17.8.1623; 1m: Ludovika Hofer (+1607/10); 2m: (con dispensa papale) Maria Clara Hofer
 	name=Raimund
 	dynasty=1002283
@@ -639,7 +1761,7 @@
 			father=100072627	# Johann Philipp von Thurn-Valsássina und Hoffer
 			mother=100087769	# MARCHESA Eleonora Gonzaga di Luzzara
 			1628.01.01={birth=yes}
-			1669.03.02={add_spouse=100091563}	# NOBILE Sulpizia Florio
+			1669.03.02={add_spouse=lowbor2_0595}	# NOBILE Sulpizia Florio
 			1699.04.21={death=yes}  # before
 		}
 		100072630={ #// B4. Franz Ulrich, Austrian ambassador to Venezia 1678, envoy to Poland, Ciambellano imperiale e Consigliere intimo di Stato, *15.10.1629, +Venezia 17.12.1695
@@ -652,7 +1774,7 @@
 			1695.12.17={death=yes}  # Venezia
 		}
 		100072631={ #// B6. Maria Beatrix Regina, *16.3.1631, +4.2.1688; 1m: 2.6.1650 Gf Johann Ambrosius von Thurn und Valsassina-Como-Vercelli (*1616, +30.5.1654); 2m: 27.5.1671 Gf Wolfgang Andreas von Orsini und Rosenberg (*2.2.1626, +21.10.1695) $$
-			name="Maria Beatrix"
+			name="Beatrix Regina"
 			female=yes
 			dynasty=1002283
 			religion=catholic culture=italian
@@ -1024,7 +2146,7 @@
 				father=100072667	# Filippo Giacomo von Thurn-Valsássina und Hoffer
 				mother=100102805	# CSSA Elisabetta Teresa Rabatta
 				1662.06.03={birth=yes}
-				1693.03.12={add_spouse=100102831}	# CSSA Silvia Elena Rabatta
+				1693.03.12={add_spouse=lowbor2_0620}	# CSSA Silvia Elena Rabatta
 				1721.01.17={death=yes}
 			}
 				100072669={ #// D3. Giovanni Giacomo Filippo, *18.3.1698, +21.2.1746; m.Milano 23.7.1723 Donna Costanza Serbelloni, dau.of Don Giovanni Duca di San Gabrio (*Milano 18.1.1700, +Milano 21.9.1772)
@@ -1032,7 +2154,7 @@
 					dynasty=1002283
 					religion=catholic culture=italian
 					father=100072668	# Luigi Antonio von Thurn-Valsássina und Hoffer
-					mother=100102831	# CSSA Silvia Elena Rabatta
+					mother=lowbor2_0620	# CSSA Silvia Elena Rabatta
 					1698.03.18={birth=yes}
 					1723.07.23={add_spouse=100102832}	# DONNA Costanza Serbelloni
 					1746.02.21={death=yes}
@@ -1052,7 +2174,7 @@
 					dynasty=1002283
 					religion=catholic culture=italian
 					father=100072668	# Luigi Antonio von Thurn-Valsássina und Hoffer
-					mother=100102831	# CSSA Silvia Elena Rabatta
+					mother=lowbor2_0620	# CSSA Silvia Elena Rabatta
 					1701.02.02={birth=yes}
 					1769.12.10={death=yes}
 				}
@@ -1061,7 +2183,7 @@
 					dynasty=1002283
 					religion=catholic culture=italian
 					father=100072668	# Luigi Antonio von Thurn-Valsássina und Hoffer
-					mother=100102831	# CSSA Silvia Elena Rabatta
+					mother=lowbor2_0620	# CSSA Silvia Elena Rabatta
 					1709.11.18={birth=yes}
 					1757.04.24={add_spouse=100072638}	# Eleonora Anna von Thurn-Valsássina und Hoffer
 					1769.01.01={add_spouse=100103324}	# CSSA Maria Anna Strassoldo
@@ -1097,7 +2219,7 @@
 		1601.01.01={birth=yes}  # EST.
 		1656.01.10={death=yes}
 	}
-	100072676={ #// A7. [1m.] Lucrezia; m.Gf Johann Vincenzo IV von Arco
+	100072676={ #// A7. [1m.] Lucrezia; m.Gf Johann Vincenzo IV von Arco $$
 		name=Lucrezia
 		female=yes
 		dynasty=1002283
@@ -1117,7 +2239,7 @@
 		1632.01.01={add_spouse=100103386}	# FRN Polixena von Heisenstein
 		1682.01.01={death=yes}  # EST.
 	}
-	100072678={ #// A9. [2m.] Lombarda, *ca 1607, +Gorizia 2.8.1680; m.Castel Duino 1622/26 Gf Ferdinand von Attems (*Gradisca 16.8.1603, +k.a.Liegnitz 16.9.1634)
+	100072678={ #// A9. [2m.] Lombarda, *ca 1607, +Gorizia 2.8.1680; m.Castel Duino 1622/26 Gf Ferdinand von Attems (*Gradisca 16.8.1603, +k.a.Liegnitz 16.9.1634) $$
 		name=Lombarda
 		female=yes
 		dynasty=1002283
@@ -1127,6 +2249,7 @@
 		1607.10.01={birth=yes}
 		1680.08.02={death=yes}  # Gorizia
 	}
+#torre9
 ##  100072610				Torre							  1002283
 
 
@@ -2090,7 +3213,7 @@
 				father=100071819	# Giberto Borromeo
 				mother=100088039	# Maria Elisabetta Cusani
 				1792.11.12={birth=yes}  # Milan
-				1816.01.07={add_spouse=100088040}	# MARCHESA Maria d'Adda dei Marchesi di Pandino
+				1816.01.07={add_spouse=100088040}	# MARCHESA Maria d'Adda di Pandino
 				1874.02.26={death=yes}  # Milan
 			}
 				100071821={ #// 1d) Giberto, Cte di Arona (17 Sep 1815-23 Apr 1885); m.1st 7 Jul 1838 Livia Litta dei Marchesi di Gambolò (7 Aug 1820-6 Jul 1844); m.2nd 1851 Marchesa Maria Durazzo (d.1880)
@@ -2099,7 +3222,7 @@
 					religion=catholic culture=italian
 					trait=legitimized_bastard
 					father=100071820	# Vitaliano Borromeo
-					mother=100088040	# MARCHESA Maria d'Adda dei Marchesi di Pandino
+					mother=100088040	# MARCHESA Maria d'Adda di Pandino
 					1815.09.17={birth=yes}
 					1838.07.07={add_spouse=100088041}	# MARCHESA Livia Litta di Gambolò
 					1851.01.01={add_spouse=100090373}	# MARCHESA Maria Durazzo
@@ -2130,7 +3253,7 @@
 					dynasty=1006036
 					religion=catholic culture=italian
 					father=100071820	# Vitaliano Borromeo
-					mother=100088040	# MARCHESA Maria d'Adda dei Marchesi di Pandino
+					mother=100088040	# MARCHESA Maria d'Adda di Pandino
 					1818.11.21={birth=yes}  # Milan
 					1891.11.25={death=yes}  # Nice
 				}
@@ -2139,7 +3262,7 @@
 					dynasty=1006036
 					religion=catholic culture=italian
 					father=100071820	# Vitaliano Borromeo
-					mother=100088040	# MARCHESA Maria d'Adda dei Marchesi di Pandino
+					mother=100088040	# MARCHESA Maria d'Adda di Pandino
 					1821.03.27={birth=yes}  # Milan
 					1907.02.28={death=yes}
 				}
@@ -2149,7 +3272,7 @@
 					dynasty=1006036
 					religion=catholic culture=italian
 					father=100071820	# Vitaliano Borromeo
-					mother=100088040	# MARCHESA Maria d'Adda dei Marchesi di Pandino
+					mother=100088040	# MARCHESA Maria d'Adda di Pandino
 					1827.06.20={birth=yes}  # Milan
 					1913.10.02={death=yes}  # Turin
 				}
@@ -2158,7 +3281,7 @@
 					dynasty=1006036
 					religion=catholic culture=italian
 					father=100071820	# Vitaliano Borromeo
-					mother=100088040	# MARCHESA Maria d'Adda dei Marchesi di Pandino
+					mother=100088040	# MARCHESA Maria d'Adda di Pandino
 					1829.02.11={birth=yes}
 					1858.07.27={add_spouse=100071822}	# Elisabetta Borromeo
 					1909.09.04={death=yes}
@@ -2465,7 +3588,7 @@
 					dynasty=1006036
 					religion=catholic culture=italian
 					father=100071820	# Vitaliano Borromeo
-					mother=100088040	# MARCHESA Maria d'Adda dei Marchesi di Pandino
+					mother=100088040	# MARCHESA Maria d'Adda di Pandino
 					1833.09.04={birth=yes}  # Milan
 					1901.03.20={death=yes}
 				}
@@ -2852,7 +3975,7 @@
 								father=100071763	# Francesco Ruffo di Bagnara
 								mother=caracciolo_0395	# Margherita Caracciolo
 								1877.01.09={birth=yes}  # Naples
-								1906.11.15={add_spouse=100097409}	# NOBILE Maria dei Conti Pavoncelli
+								1906.11.15={add_spouse=100097409}	# NOBILE Maria Pavoncelli
 								1956.01.21={death=yes}  # Rome
 							}
 						100071769={ #// 5b) Rosa (Naples 14 Jan 1844-Naples 27 Jul 1921); m.Naples 1 Jul 1863 Don Alfonso Caracciolo Duca di Forino (26 Jul 1836-14 Nov 1903) $$
@@ -2970,7 +4093,7 @@
 	dynasty=1006033
 	religion=catholic culture=italian
 	1805.08.13={birth=yes}  # Florence
-	1834.04.30={add_spouse=100100185}	# MARCHESA Eleonora Adelaide Fortunata Gaspera Rinuccini di Baselice
+	1834.04.30={add_spouse=100100185}	# MARCHESA Eleonora Adelaide Rinuccini di Baselice
 	1859.12.01={death=yes}  # London
 }
 	100070395={ #// 1a) Don TOMMASO Bartolommeo Pier Francesco Melchiorre Maria Principe Corsini, Principe Romano, Principe di Sismano, Duca di Civitella, Duca di Casigliano, Marchese di Lajatico e Orciano, Marchese di Castagnetoli, Marchese di Giovagallo e Tresana, etc., suc his uncle 14 Mar 1868 (Florence 28 Feb 1835-Grosseto 22 May 1919); m.Rome 3 Oct 1858 Donna Anna dei Principi Colonna Barberini (Rome 10 Dec 1840-Villa Corsini, Castello near Florence 11 Jul 1911) $$
@@ -2978,7 +4101,7 @@
 		dynasty=1006033
 		religion=catholic culture=italian
 		father=100070385	# Neri Corsini
-		mother=100100185	# MARCHESA Eleonora Adelaide Fortunata Gaspera Rinuccini di Baselice
+		mother=100100185	# MARCHESA Eleonora Adelaide Rinuccini di Baselice
 		1835.02.28={birth=yes}  # Florence
 		1858.10.03={add_spouse=100071644}	# Anna Colonna
 		1919.05.22={death=yes}  # Grosseto
@@ -3198,7 +4321,7 @@
 		dynasty=1006033
 		religion=catholic culture=italian
 		father=100070385	# Neri Corsini
-		mother=100100185	# MARCHESA Eleonora Adelaide Fortunata Gaspera Rinuccini di Baselice
+		mother=100100185	# MARCHESA Eleonora Adelaide Rinuccini di Baselice
 		1837.01.09={birth=yes}  # Florence
 		1863.10.03={add_spouse=100071645}	# Luisa Colonna
 		1916.09.15={death=yes}  # Florence
@@ -3219,7 +4342,7 @@
 		dynasty=1006033
 		religion=catholic culture=italian
 		father=100070385	# Neri Corsini
-		mother=100100185	# MARCHESA Eleonora Adelaide Fortunata Gaspera Rinuccini di Baselice
+		mother=100100185	# MARCHESA Eleonora Adelaide Rinuccini di Baselice
 		1838.12.26={birth=yes}  # Florence
 		1907.04.28={death=yes}  # Florence
 	}
@@ -3229,7 +4352,7 @@
 		dynasty=1006033
 		religion=catholic culture=italian
 		father=100070385	# Neri Corsini
-		mother=100100185	# MARCHESA Eleonora Adelaide Fortunata Gaspera Rinuccini di Baselice
+		mother=100100185	# MARCHESA Eleonora Adelaide Rinuccini di Baselice
 		1840.04.23={birth=yes}  # Florence
 		1882.01.01={death=yes}
 	}
@@ -3238,7 +4361,7 @@
 		dynasty=1006033
 		religion=catholic culture=italian
 		father=100070385	# Neri Corsini
-		mother=100100185	# MARCHESA Eleonora Adelaide Fortunata Gaspera Rinuccini di Baselice
+		mother=100100185	# MARCHESA Eleonora Adelaide Rinuccini di Baselice
 		1843.01.05={birth=yes}
 		1867.10.03={add_spouse=100101648}	# CSS Beatrice Bastogi
 		1895.08.24={death=yes}  # Villa Corsini delle Mozzete San_Piero Sieve
@@ -3397,7 +4520,7 @@
 				father=100071015	# Lorenzo Corsini
 				mother=100101651	# BSS Caterina Lucrezia Ricasoli Firidolfi Zanchini Marsuppini
 				1911.01.18={birth=yes}  # Florence
-				1937.03.27={add_spouse=100101658}	# CSS Ольга Васильевна Олсуфьев
+				1937.03.27={add_spouse=100101658}	# CSS Ольга Васильевна Олсуфьева
 				1977.10.05={add_spouse=100101659}	# NOBILE Barbara Luigia Baldasseroni
 				1988.02.18={death=yes}  # Florence
 			}
@@ -3406,7 +4529,7 @@
 					dynasty=1006033
 					religion=catholic culture=italian
 					father=100071237	# Giovanni Corsini
-					mother=100101658	# CSS Ольга Васильевна Олсуфьев
+					mother=100101658	# CSS Ольга Васильевна Олсуфьева
 					1938.02.15={birth=yes}  # Menton
 					1977.06.24={add_spouse=100101660}	# Inès Lefèvre d'Ormesson
 					2015.01.01={death=yes}  # EST.
@@ -3468,7 +4591,7 @@
 					dynasty=1006033
 					religion=catholic culture=italian
 					father=100071237	# Giovanni Corsini
-					mother=100101658	# CSS Ольга Васильевна Олсуфьев
+					mother=100101658	# CSS Ольга Васильевна Олсуфьева
 					1941.04.03={birth=yes}
 				}
 				100071435={ #// 3d) Vannozza Giuliana (b.Florence 21 Oct 1978)
@@ -3495,7 +4618,7 @@
 		dynasty=1006033
 		religion=catholic culture=italian
 		father=100070385	# Neri Corsini
-		mother=100100185	# MARCHESA Eleonora Adelaide Fortunata Gaspera Rinuccini di Baselice
+		mother=100100185	# MARCHESA Eleonora Adelaide Rinuccini di Baselice
 		1846.11.30={birth=yes}
 		1871.04.24={add_spouse=100101664}	# NOBILE Maria Luisa Fenzi
 		1898.02.28={death=yes}  # Florence
@@ -3666,12 +4789,12 @@
 
 
 ##  100070050				Antici-Mattei    				  1006032
-100070123={ #// Matteo Pr Antici-Mattei, Duca di Giove (Rome 15 Sep 1805-Rome 4 Oct 1883); m.Rome 29 Sep 1843 Donna Chiara Altieri dei Principi di Oriolo (Rome 18 Jan 1824-Rome 12 Feb 1888)
+100070123={ #// Matteo Pr Antici-Mattei, Duca di Giove (Rome 15 Sep 1805-Rome 4 Oct 1883); m.Rome 29 Sep 1843 Donna Chiara Altieri dei Principi di Oriolo (Rome 18 Jan 1824-Rome 12 Feb 1888) $$
 	name=Matteo
 	dynasty=1006032
 	religion=catholic culture=italian
 	1805.09.15={birth=yes}  # Rome
-	1843.09.29={add_spouse=100081866}	# PSS Chiara Altieri di Oriolo
+	1843.09.29={add_spouse=altieri_0018}	# Chiara Altieri
 	1883.10.04={death=yes}  # Rome
 }
 	100070137={ #// 1a) Tommaso Filippo Maria Pr Antici-Mattei, Duca di Giove (Rome 19 Sep 1844-Rome 30 Apr 1915); m.Rome 12 Nov 1868 Donna Carlotta Gallaratti-Scotti dei Principi di Molfetta (Milan 9 Nov 1850-Rome 19 Apr 1930)
@@ -3679,7 +4802,7 @@
 		dynasty=1006032
 		religion=catholic culture=italian
 		father=100070123	# Matteo Antici-Mattei
-		mother=100081866	# PSS Chiara Altieri di Oriolo
+		mother=altieri_0018	# Chiara Altieri
 		1844.09.19={birth=yes}  # Rome
 		1868.11.12={add_spouse=100082842}	# PSS Carlotta Gallarati Scotti di Molfetta
 		1915.04.30={death=yes}  # Rome
@@ -3768,7 +4891,7 @@
 		dynasty=1006032
 		religion=catholic culture=italian
 		father=100070123	# Matteo Antici-Mattei
-		mother=100081866	# PSS Chiara Altieri di Oriolo
+		mother=altieri_0018	# Chiara Altieri
 		1848.12.01={birth=yes}  # Rome
 		1873.01.01={add_spouse=100094049}	# Lorenza Toti
 		1879.08.11={death=yes}  # Rome
@@ -3861,7 +4984,7 @@
 			1878.07.14={add_spouse=100070796}	# Laura Caracciolo
 			1899.11.29={death=yes}
 		}
-			100072554={ #// C1. Mario (*16.10.1867, +16.1.1963); m.25.9.1890 Pauline de Talleyrand-Périgord (*Venice 2.4.1871, +Florence 21.11.1952) %%
+			100072554={ #// C1. [1m.] Mario (*16.10.1867, +16.1.1963); m.25.9.1890 Pauline de Talleyrand-Périgord (*Venice 2.4.1871, +Florence 21.11.1952) %%
 				name=Mario
 				dynasty=1006027
 				religion=catholic culture=italian
@@ -8371,7 +9494,7 @@ gonzaga_0001={ #// Principe Francesco Niccolo, 8th Marchese di Vescovado, *26.12
 										mother=100070533	# Agnese Borghese
 										1856.05.08={birth=yes}  # Rome
 										1877.10.07={add_spouse=100092037}	# DONNA Vittoria Patrizi Naro Montoro
-										1884.07.06={add_spouse=100036201}	# Laura Altieri
+										1884.07.06={add_spouse=altieri_0016}	# Laura Altieri
 										1935.11.09={death=yes}  # Rome
 									}
 										100070173={ #// 1k) Guendalina (Rome 26 Nov 1878-Genoa 25 Nov 1951); m.Rome 25 Nov 1897 Marchese Antonio Malvezzi Campeggi (Bologna 13 Aug 1870-Bologna 8 Apr 1900)
@@ -8400,7 +9523,7 @@ gonzaga_0001={ #// Principe Francesco Niccolo, 8th Marchese di Vescovado, *26.12
 											dynasty=1006022
 											religion=catholic culture=italian
 											father=100070172	# Ugo Boncompagni-Ludovisi
-											mother=100036201	# Laura Altieri
+											mother=altieri_0016	# Laura Altieri
 											1885.04.25={birth=yes}  # Rome
 											1959.03.03={death=yes}  # Rome
 										}
@@ -8409,7 +9532,7 @@ gonzaga_0001={ #// Principe Francesco Niccolo, 8th Marchese di Vescovado, *26.12
 											dynasty=1006022
 											religion=catholic culture=italian
 											father=100070172	# Ugo Boncompagni-Ludovisi
-											mother=100036201	# Laura Altieri
+											mother=altieri_0016	# Laura Altieri
 											1886.10.20={birth=yes}  # Villa La_Quiete
 											1908.02.20={add_spouse=100092049}	# Nicoletta Prinetti Castelletti
 											1955.06.07={death=yes}  # Rome
@@ -8569,7 +9692,7 @@ gonzaga_0001={ #// Principe Francesco Niccolo, 8th Marchese di Vescovado, *26.12
 											dynasty=1006022
 											religion=catholic culture=italian
 											father=100070172	# Ugo Boncompagni-Ludovisi
-											mother=100036201	# Laura Altieri
+											mother=altieri_0016	# Laura Altieri
 											1889.01.24={birth=yes}  # Rome
 											1969.05.01={death=yes}  # Rome
 										}
@@ -10245,7 +11368,7 @@ gonzaga_0001={ #// Principe Francesco Niccolo, 8th Marchese di Vescovado, *26.12
 						mother=100072283	# Maria Capece Minutolo
 						1923.02.13={birth=yes}  # Rome
 						1945.04.14={add_spouse=100089615}	# Marie Roger
-						1998.06.17={add_spouse=100087257}	# CONTI Rosanna Lazzoni Moreschi di Deusi
+						1998.06.17={add_spouse=100087257}	# CSS Rosanna Lazzoni Moreschi di Deusi
 						2008.05.15={death=yes}  # Rome
 					}
 						100071602={ #// 1f) Fabio (b.Rome 26 Feb 1948)
@@ -10643,7 +11766,7 @@ gonzaga_0001={ #// Principe Francesco Niccolo, 8th Marchese di Vescovado, *26.12
 		1474.05.18={birth=yes}  # Ferrara
 		1539.02.13={death=yes}  # Mantova
 	}
-	100071433={ #// A7. Beatrice, *29.6.1475, +2.1.1497; m.18.9.1491 Luigi Moro Sforza Duca di Milano (*1451 +29.3.1508)
+	100071433={ #// A7. Beatrice, *29.6.1475, +2.1.1497; m.18.9.1491 Luigi Moro Sforza Duca di Milano (*1451 +29.3.1508) $$
 		name=Beatrice
 		female=yes
 		dynasty=679
@@ -11237,7 +12360,7 @@ gonzaga_0001={ #// Principe Francesco Niccolo, 8th Marchese di Vescovado, *26.12
 				father=belmonte_0028	# Francesco Malfatti
 				mother=lowborn_4024	# Adonella Brenciaglia
 				1946.10.01={birth=yes}
-				2008.01.01={add_spouse=lowborn_4025}	# Annania Pabilona
+				1968.01.01={add_spouse=lowborn_4025}	# Annania Pabilona
 			}
 				belmonte_0030={ #// 1l) Nilo Pabilona Malfatti (b. 10 Nov 1968 - 4 Dec 2009); m.Lisa Constanzi
 					name=Nilo
@@ -12370,6 +13493,8 @@ belmonte_0001={ #// Don ORAZIO GIOVAN BATTISTA Ravachieri Fieschi, 2nd Baron of 
 
 
 ##  1006013  	Caracciolo				100072450
+#https://www.angelfire.com/realm/gotha/gotha/caracciolo.html
+
 #LINE1
 caracciolo_0010={ #// Marino Francesco Caracciolo (*Naples 28.5.1783, +Naples 4.1.1844); m.25.11.1801 Eugenia Doria-Pamphili-Landi (*Rome 1.6.1786, +Portici 23.7.1841) %%
 	name="Marino Francesco"
@@ -12875,6 +14000,7 @@ caracciolo_0013={ #// Don Ambrogio Caracciolo, 3rd Principe di Torchiarolo, etc 
 				female=yes
 				dynasty=1006013
 				religion=catholic culture=italian
+				trait=legitimized_bastard
 				father=caracciolo_0067	# Filippo Caracciolo
 				mother=lowborn_2451	# Elisa Mohr
 				1853.03.14={birth=yes}
@@ -12885,6 +14011,7 @@ caracciolo_0013={ #// Don Ambrogio Caracciolo, 3rd Principe di Torchiarolo, etc 
 				female=yes
 				dynasty=1006013
 				religion=catholic culture=italian
+				trait=legitimized_bastard
 				father=caracciolo_0067	# Filippo Caracciolo
 				mother=lowborn_2451	# Elisa Mohr
 				1855.03.05={birth=yes}
@@ -13978,7 +15105,7 @@ caracciolo_0013={ #// Don Ambrogio Caracciolo, 3rd Principe di Torchiarolo, etc 
 						father=caracciolo_0203	# Marino Caracciolo
 						mother=lowborn_2537	# Clara de Falco
 						1914.01.28={birth=yes}  # Rome
-						1938.06.06={add_spouse=lowborn_2539}	# Erminia del Tufo dei Marchesi di Chiuppeto
+						1938.06.06={add_spouse=lowborn_2539}	# Erminia del Tufo di Chiuppeto
 						1967.12.11={death=yes}  # Naples
 					}
 						caracciolo_0206={ #// 1f) Eleonora (b.Naples 1 Jan 1939)
@@ -13987,7 +15114,7 @@ caracciolo_0013={ #// Don Ambrogio Caracciolo, 3rd Principe di Torchiarolo, etc 
 							dynasty=1006013
 							religion=catholic culture=italian
 							father=caracciolo_0205	# Sergianni Caracciolo
-							mother=lowborn_2539	# Erminia del Tufo dei Marchesi di Chiuppeto
+							mother=lowborn_2539	# Erminia del Tufo di Chiuppeto
 							1939.01.01={birth=yes}  # Naples
 							2014.01.01={death=yes}  # EST.
 						}
@@ -13996,7 +15123,7 @@ caracciolo_0013={ #// Don Ambrogio Caracciolo, 3rd Principe di Torchiarolo, etc 
 							dynasty=1006013
 							religion=catholic culture=italian
 							father=caracciolo_0205	# Sergianni Caracciolo
-							mother=lowborn_2539	# Erminia del Tufo dei Marchesi di Chiuppeto
+							mother=lowborn_2539	# Erminia del Tufo di Chiuppeto
 							1945.01.21={birth=yes}  # Naples
 							1970.06.18={add_spouse=lowborn_2540}	# Rosanna Caterina Corrado
 							2015.01.01={death=yes}  # EST.
@@ -14402,16 +15529,6 @@ caracciolo_0013={ #// Don Ambrogio Caracciolo, 3rd Principe di Torchiarolo, etc 
 							mother=lowborn_2564	# Adele Maiorano
 							1984.07.21={birth=yes}  # Naples
 						}
-#1785.10.02={holder=caracciolo_0013} # Don Ambrogio Caracciolo
-#1818.01.24={holder=caracciolo_0018} # 5a) Luigi
-#1853.02.15={holder=caracciolo_0024} # 6b) Giovanni
-#1886.02.21={holder=caracciolo_0031} # 7c) Luigi
-#1917.05.03={holder=caracciolo_0032} # 1d) Sergianni
-#1939.11.12={holder=caracciolo_0037} # 6d) Francesco
-#1940.05.09={holder=caracciolo_0039} # 8d) Pietro 
-#1971.01.01={holder=caracciolo_0040} # 9d) Marcello
-#1973.01.01={holder=caracciolo_0042} # 2e) Francesco Sergianni Luigi
-#2014.01.01={holder=caracciolo_0043} # 3e) Sergianni 
 #LINE2
 
 #LINE3
@@ -14560,7 +15677,7 @@ caracciolo_0013={ #// Don Ambrogio Caracciolo, 3rd Principe di Torchiarolo, etc 
 				1897.09.17={birth=yes}  # Naples
 				1972.01.01={death=yes}  # EST.
 			}
-		100070787={ #// 3b) Maria Livia (18 Mar 1841-11 Feb 1865); m.16 Jan 1864 Giuseppe Giudice Caracciolo Pr di Cellamare (1838-1905)
+		100070787={ #// 3b) Maria Livia (18 Mar 1841-11 Feb 1865); m.16 Jan 1864 Giuseppe Giudice Caracciolo Pr di Cellamare (1838-1905) $$
 			name="Maria Livia"
 			female=yes
 			dynasty=1006013
@@ -14976,7 +16093,6 @@ caracciolo_0294={ #// Lelio Caracciolo, Duca di San Vito (Naples 1 Aug 1767-3 Fe
 		father=caracciolo_0294	# Lelio Caracciolo
 		mother=lowborn_2568	# Maria Teresa Revertera della Salandra
 		1799.01.31={birth=yes}  # Naples
-		1825.06.22={add_spouse=lowborn_2575}	# Maria Teresa N
 		1845.06.17={death=yes}
 	}
 	caracciolo_0297={ #// 3a) Giovan Vincenzo, Duca di San Vito, Duca di Flumeri e San Giovanni Rotondo, renounced the title Duca di San Vito in favour of his brother Emanuele 1847 (Naples 8 May 1800-30 Jan 1863); m.Ischia 12 Apr 1831 Maria Carolina de Cesare (d.2 Jul 1837)
@@ -15836,381 +16952,1355 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 	}
 #LINE6
 
-#LINE10
-100070700={ #// Don Gaetano Caracciolo, Pr di Castagneto, etc (Naples 27 Mar 1787-5 Feb 1811); m.9 Jul 1808 Donna Beatrice Caracciolo di Torella (Naples 21 Jun 1878-1 Jun 1872)
-	name=Gaetano
+#LINE7
+caracciolo_0400={ #// Don Domenico Caracciolo, Duca di Vietri, Pr di Crucoli (Vietri 16 Jun 1829-1917); m.Naples 10 Feb 1854 Donna Clotilde Lucchesi Palli (Naples 17 Nov 1835-Naples 19 Oct 1917)
+	name=Domenico
 	dynasty=1006013
 	religion=catholic culture=italian
-	1787.03.27={birth=yes}
-	1808.07.09={add_spouse=100081245}	# Beatrice Caracciolo di Torella
-	1811.02.05={death=yes}
+	1829.06.16={birth=yes}  # Vietri
+	1854.02.10={add_spouse=lowbor2_0611}	# DONNA Clotilde Lucchesi Palli
+	1917.01.01={death=yes}
 }
-	100070701={ #// 1a) Nicola, Pr di Castagneto, etc (Naples 14 Jul 1809-Rome 20 Nov 1869); m.Naples 14 Sep 1834 Donna Emanuela Caracciolo (Naples 12 Oct 1809-Paris 4 Nov 1861)
-		name=Nicola
+	caracciolo_0403={ #// 3a) Maria (1 Jan 1859-Naples 4 Aug 1936); m.26 Nov 1887 Nicola de Ruggiero Barone di Loseto
+		name=Maria
+		female=yes
 		dynasty=1006013
 		religion=catholic culture=italian
-		father=100070700	# Gaetano Caracciolo
-		mother=100081245	# Beatrice Caracciolo di Torella
-		1809.07.14={birth=yes}
-		1834.09.14={add_spouse=100081238}	# DONNA Emanuela Caracciolo
-		1869.11.20={death=yes}
+		father=caracciolo_0400	# Domenico Caracciolo
+		mother=lowbor2_0611	# DONNA Clotilde Lucchesi Palli
+		1859.01.01={birth=yes}
+		1936.08.04={death=yes}  # Naples
 	}
-		100070702={ #// 2b) Gaetano, Pr di Castagneto, etc (18 Dec 1837-20 Mar 1909)
-			name=Gaetano
+	caracciolo_0404={ #// 4a) Marianna (3 Nov 1860-2 Feb 1944); m.24 Nov 1884 Pietro Milano Franco d'Aragona dei Principi d'Ardore
+		name=Marianna
+		female=yes
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0400	# Domenico Caracciolo
+		mother=lowbor2_0611	# DONNA Clotilde Lucchesi Palli
+		1860.11.03={birth=yes}
+		1944.02.02={death=yes}
+	}
+	caracciolo_0406={ #// 6a) Caterina (21 Nov 1864-    ); m.19 Aug 1895 Ernesto Scochero
+		name=Caterina
+		female=yes
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0400	# Domenico Caracciolo
+		mother=lowbor2_0611	# DONNA Clotilde Lucchesi Palli
+		1864.11.21={birth=yes}
+		1944.01.01={death=yes}  # EST.
+	}
+	caracciolo_0407={ #// 7a) Ferdinando, Duca di Vietri, Duca di Casamassina (Naples 6 Aug 1866-9 Mar 1927); m.Naples 22 Feb 1897 Adelaide Sangermano (d.Naples 20 Jun 1952)
+		name=Ferdinando
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0400	# Domenico Caracciolo
+		mother=lowbor2_0611	# DONNA Clotilde Lucchesi Palli
+		1866.08.06={birth=yes}  # Naples
+		1897.02.22={add_spouse=lowbor2_0664}	# Adelaide Sangermano
+		1927.03.09={death=yes}
+	}
+		caracciolo_0408={ #// 1b) Domenico, Duca di Vietri, Duca di Casamassima (Naples 13 May 1898-Rome 23 Feb 1954); m.Palermo 22 Apr 1924 Franca Albanesi Carrelli
+			name=Domenico
 			dynasty=1006013
 			religion=catholic culture=italian
-			father=100070701	# Nicola Caracciolo
-			mother=100081238	# DONNA Emanuela Caracciolo
-			1837.12.18={birth=yes}
-			1909.03.20={death=yes}
+			father=caracciolo_0407	# Ferdinando Caracciolo
+			mother=lowbor2_0664	# Adelaide Sangermano
+			1898.05.13={birth=yes}  # Naples
+			1924.04.22={add_spouse=lowbor2_0665}	# Franca Albanesi Carrelli
+			1954.02.23={death=yes}  # Rome
 		}
-		100070703={ #// 3b) Carlo, Pr di Castagneto, etc (Naples 1 May 1839-Naples 8 Mar 1900); m.Naples 4 Feb 1874 Donna Leopoldina Ruffo di Bagnara (Naples 10 Nov 1844-Naples 30 May 1939) $$
+			caracciolo_0409={ #// 1c) Donatella (b.Palermo 22 Apr 1925); m.Rome 4 Apr 1949 Andrea Francavilla
+				name=Donatella
+				female=yes
+				dynasty=1006013
+				religion=catholic culture=sicilian
+				father=caracciolo_0408	# Domenico Caracciolo
+				mother=lowbor2_0665	# Franca Albanesi Carrelli
+				1925.04.22={birth=yes}  # Palermo
+				2005.01.01={death=yes}  # EST.
+			}
+		caracciolo_0410={ #// 2b) Luigi, Duca di Vietri, Duca di Casamassima (Naples 4 Jun 1900-Rome 15 Jan 1966); m.Rome 15 Jul 1933 Maria Ercoli (d.18 Jul 1962)
+			name=Luigi
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0407	# Ferdinando Caracciolo
+			mother=lowbor2_0664	# Adelaide Sangermano
+			1900.06.04={birth=yes}  # Naples
+			1933.07.15={add_spouse=lowbor2_0667}	# Maria Ercoli
+			1966.01.15={death=yes}  # Rome
+		}
+		caracciolo_0411={ #// 3b) Enrico (Naples 9 Jul 1902-Naples 13 Jun 1965); m.Naples 12 Apr 1928 Rosa Chianese
+			name=Enrico
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0407	# Ferdinando Caracciolo
+			mother=lowbor2_0664	# Adelaide Sangermano
+			1902.07.09={birth=yes}  # Naples
+			1928.04.12={add_spouse=lowbor2_0668}	# Rosa Chianese
+			1965.06.13={death=yes}  # Naples
+		}
+			caracciolo_0412={ #// 1c) Ferdinando, Duca di Vietri, Duca di Casamassima (Naples 6 Feb 1929-Naples 18 Mar 1996); m.Zoagli 1 Oct 1966 Paolitta dei Conti Bruzzo (b.Genoa 3 Oct 1931)
+				name=Ferdinando
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=caracciolo_0411	# Enrico Caracciolo
+				mother=lowbor2_0668	# Rosa Chianese
+				1929.02.06={birth=yes}  # Naples
+				1966.10.01={add_spouse=lowbor2_0669}	# Paolitta Bruzzo
+				1996.03.18={death=yes}  # Naples
+			}
+				caracciolo_0413={ #// 1d) Lorenzo Domenico, Duca di Vietri, Duca di Casamassima (b.Rapallo 27 Sep 1968); m.Chiara Soldati
+					name="Lorenzo Domenico"
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0412	# Ferdinando Caracciolo
+					mother=lowbor2_0669	# Paolitta Bruzzo
+					1968.09.27={birth=yes}  # Rapallo
+					1994.01.01={add_spouse=lowbor2_0670}	# Chiara Soldati
+				}
+					caracciolo_0414={ #// 1e) Ferdinando (b.Genoa 2002)
+						name=Ferdinando
+						dynasty=1006013
+						religion=catholic culture=italian
+						father=caracciolo_0413	# Lorenzo Domenico Caracciolo
+						mother=lowbor2_0670	# Chiara Soldati
+						2002.01.01={birth=yes}  # Genoa
+					}
+				caracciolo_0415={ #// 2d) Gennaro (b.Rapallo 5 Dec 1971); m.Silvia Lapaz (d.7 Sep 2023)
+					name=Gennaro
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0412	# Ferdinando Caracciolo
+					mother=lowbor2_0669	# Paolitta Bruzzo
+					1971.12.05={birth=yes}  # Rapallo
+					1997.01.01={add_spouse=lowbor2_0671}	# Silvia Lapaz
+				}
+	caracciolo_0416={ #// 8a) Francesco Saverio, cr 1929 Pr Caracciolo di Vietri (Naples 6 Aug 1866-Rome 29 Apr 1948); m.1st 5 Feb 1890 Filippa Sardi dei Baroni di Revisondoli (d.22 Dec 1897); m.2nd 14 Jan 1901 Lucrezia Doria dei Marchesi di Colceacqua (d.Naples 31 Aug 1928)
+		name=Francesco
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0400	# Domenico Caracciolo
+		mother=lowbor2_0611	# DONNA Clotilde Lucchesi Palli
+		1866.08.06={birth=yes}  # Naples
+		1890.02.05={add_spouse=lowbor2_0672}	# Filippa Sardi di Revisondoli
+		1901.01.14={add_spouse=lowbor2_0673}	# Lucrezia Doria di Colceacqua
+		1948.04.29={death=yes}  # Rome
+	}
+		caracciolo_0417={ #// 1b) Domenico, Pr Caracciolo di Vietri (Naples 20 Feb 1891-Rome 4 Oct 1970); m.Naples 8 Nov 1919 Donna Maria Lucchesi Palli (Naples 5 Feb 1893-Maples 23 May 1989) $$
+			name=Domenico
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0416	# Francesco Caracciolo
+			mother=lowbor2_0672	# Filippa Sardi di Revisondoli
+			1891.02.20={birth=yes}  # Naples
+			1919.11.08={add_spouse=100071496}	# Maria Rosaria Lucchesi Palli
+			1970.10.04={death=yes}  # Rome
+		}
+		caracciolo_0418={ #// 2b) Giulio (Naples 20 Apr 1892-Venice 26 Apr 1947); m.Rome 24 Oct 1931 Virginia Bernabei
+			name=Giulio
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0416	# Francesco Caracciolo
+			mother=lowbor2_0672	# Filippa Sardi di Revisondoli
+			1892.04.20={birth=yes}  # Naples
+			1931.10.24={add_spouse=lowbor2_0675}	# Virginia Bernabei
+			1947.04.26={death=yes}  # Venice
+		}
+		caracciolo_0419={ #// 3b) Mario (Naples 19 Aug 1893-San Michele di Bari 20 Aug 1918)
+			name=Mario
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0416	# Francesco Caracciolo
+			mother=lowbor2_0672	# Filippa Sardi di Revisondoli
+			1893.08.19={birth=yes}  # Naples
+			1918.08.20={death=yes}  # San_Michele di_Bari
+		}
+		caracciolo_0420={ #// 4b) Enrico, Pr Caracciolo di Vietri (Naples 1 Jul 1895-28 Jan 1972); m.Rome 15 Jan 1923 Giovanna Cenci (d.22 Jun 1968)
+			name=Enrico
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0416	# Francesco Caracciolo
+			mother=lowbor2_0672	# Filippa Sardi di Revisondoli
+			1895.07.01={birth=yes}  # Naples
+			1923.01.15={add_spouse=lowbor2_0676}	# Giovanna Cenci
+			1972.01.28={death=yes}
+		}
+			caracciolo_0421={ #// 1c) Filippa (b.Sam Michele di Bari 17 Jul 1924); m.San Michele di Bari 18 Apr 1947 Ermanno Wolf Belardinelli
+				name=Filippa
+				female=yes
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=caracciolo_0420	# Enrico Caracciolo
+				mother=lowbor2_0676	# Giovanna Cenci
+				1924.07.17={birth=yes}  # Sam Michele di Bari
+				2004.01.01={death=yes}  # EST.
+			}
+			caracciolo_0422={ #// 2c) Giuseppina (b.San Michele di Bari 12 Sep 1925)
+				name=Giuseppina
+				female=yes
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=caracciolo_0420	# Enrico Caracciolo
+				mother=lowbor2_0676	# Giovanna Cenci
+				1925.09.12={birth=yes}
+				2005.01.01={death=yes}  # EST.
+			}
+			caracciolo_0423={ #// 3c) Francesco Saverio, Pr Caracciolo di Vietri (San Michele di Bari 1 Aug 1929-Rome 4 Apr 2010); m.Rome 28 Apr 1958 Donna Maria Pia Flaminia de'Orchi (Como 5 Mar 1932-28 Aug 2009)
+				name=Francesco
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=caracciolo_0420	# Enrico Caracciolo
+				mother=lowbor2_0676	# Giovanna Cenci
+				1929.08.01={birth=yes}  # San Michele di Bari
+				1958.04.28={add_spouse=lowbor2_0678}	# DONNA Maria Pia Flaminia de'Orchi
+				2010.04.04={death=yes}  # Rome
+			}
+				caracciolo_0424={ #// 1d) Enrico, Pr Caracciolo di Vietri (b.Rome 26 Sep 1960)
+					name=Enrico
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0423	# Francesco Caracciolo
+					mother=lowbor2_0678	# DONNA Maria Pia Flaminia de'Orchi
+					1960.09.26={birth=yes}  # Rome
+				}
+					caracciolo_0425={ #// 1e) Marica
+						name=Marica
+						female=yes
+						dynasty=1006013
+						religion=catholic culture=italian
+						father=caracciolo_0424	# Enrico Caracciolo
+						1985.01.01={birth=yes}  # EST.
+					}
+					caracciolo_0426={ #// 2e) Francesco
+						name=Francesco
+						dynasty=1006013
+						religion=catholic culture=italian
+						father=caracciolo_0424	# Enrico Caracciolo
+						1986.01.01={birth=yes}  # EST.
+					}
+				caracciolo_0427={ #// 2d) Elisabetta (b.Rome 3 Jan 1965); m.Rome 20 Apr 1996 Francesco Abeille
+					name=Elisabetta
+					female=yes
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0423	# Francesco Caracciolo
+					mother=lowbor2_0678	# DONNA Maria Pia Flaminia de'Orchi
+					1965.01.03={birth=yes}  # Rome
+				}
+			caracciolo_0428={ #// 4c) Maria Rosaria (b.Rome 21 Apr 1939); m.Rome 25 Jul 1970 Giuseppe Maccagno
+				name=Maria
+				female=yes
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=caracciolo_0420	# Enrico Caracciolo
+				mother=lowbor2_0676	# Giovanna Cenci
+				1939.04.21={birth=yes}  # Rome
+			}
+		caracciolo_0429={ #// 5b) Giovanni Battista (Naples 17 Jul 1897-Rome 4 Jun 1978); m.Rome 2 Aug 1933 Ester Gabrielli Wisemann (Bergamo 20 Jul 1902-3 Jun 1977)
+			name="Giovanni Battista"
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0416	# Francesco Caracciolo
+			mother=lowbor2_0672	# Filippa Sardi di Revisondoli
+			1897.07.17={birth=yes}  # Naples
+			1933.08.02={add_spouse=lowbor2_0681}	# Ester Gabrielli Wisemann
+			1978.06.04={death=yes}  # Rome
+		}
+		caracciolo_0430={ #// 6b) Oberto (Naples 26 Jan 1902-Genoa 23 Mar 1964)
+			name=Oberto
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0416	# Francesco Caracciolo
+			mother=lowbor2_0673	# Lucrezia Doria di Colceacqua
+			1902.01.26={birth=yes}  # Naples
+			1964.03.23={death=yes}  # Genoa
+		}
+		caracciolo_0431={ #// 7b) Marino (Naples 22 Apr 1903-Bologna 9 Sep 1960); m.Palena 5 Aug 1931 Vittoria Spagniuolo
+			name=Marino
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0416	# Francesco Caracciolo
+			mother=lowbor2_0673	# Lucrezia Doria di Colceacqua
+			1903.04.22={birth=yes}  # Naples
+			1931.08.05={add_spouse=lowbor2_0682}	# Vittoria Spagniuolo
+			1960.09.09={death=yes}  # Bologna
+		}
+			caracciolo_0432={ #// 1c) Marina (b.Chieti 28 Jul 1946); m.Naples 18 Jun 1972 Enzo Martella
+				name=Marina
+				female=yes
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=caracciolo_0431	# Marino Caracciolo
+				mother=lowbor2_0682	# Vittoria Spagniuolo
+				1946.07.28={birth=yes}  # Chieti
+			}
+	caracciolo_0433={ #// 9a) Giovanni Battista (Naples 29 Sep 1868-Rome 11 Dec 1947); m.Naples 27 Aug 1900 Maria Viggiani (Naples 30 Jun 1873-Naples 20 Jun 1918)
+		name="Giovanni Battista"
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0400	# Domenico Caracciolo
+		mother=lowbor2_0611	# DONNA Clotilde Lucchesi Palli
+		1868.09.29={birth=yes}  # Naples
+		1900.08.27={add_spouse=lowbor2_0684}	# Maria Viggiani
+		1947.12.11={death=yes}  # Rome
+	}
+		caracciolo_0434={ #// 1b) Domenico (Naples 6 Jun 1901-5 Aug 1980)
+			name=Domenico
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0433	# Giovanni Battista Caracciolo
+			mother=lowbor2_0684	# Maria Viggiani
+			1901.06.06={birth=yes}  # Naples
+			1980.08.05={death=yes}
+		}
+		caracciolo_0435={ #// 2b) Clotilde (Naples 29 Apr 1902-19 Mar 1981); m.Rome 25 Aug 1932 Serafino Dojmi di Delupis
+			name=Clotilde
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0433	# Giovanni Battista Caracciolo
+			mother=lowbor2_0684	# Maria Viggiani
+			1902.04.29={birth=yes}  # Naples
+			1981.03.19={death=yes}
+		}
+		caracciolo_0437={ #// 4b) Francesco (Naples 29 Apr 1906-Rome 27 May 1996); m.Rome 2 Oct 1946 Rachele Nardone
+			name=Francesco
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0433	# Giovanni Battista Caracciolo
+			mother=lowbor2_0684	# Maria Viggiani
+			1906.04.29={birth=yes}  # Naples
+			1946.10.02={add_spouse=lowbor2_0686}	# Rachele Nardone
+			1996.05.27={death=yes}  # Rome
+		}
+			caracciolo_0438={ #// 1c) Giovanni Battista (b.Rome 5 Dec 1947)
+				name="Giovanni Battista"
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=caracciolo_0437	# Francesco Caracciolo
+				mother=lowbor2_0686	# Rachele Nardone
+				1947.12.05={birth=yes}  # Rome
+			}
+			caracciolo_0439={ #// 2c) Maria Teresa (b.Rome 21 Jul 1949); m.Rome 28 Oct 1973 Pierre Arizzoli Clementel
+				name="Maria Teresa"
+				female=yes
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=caracciolo_0437	# Francesco Caracciolo
+				mother=lowbor2_0686	# Rachele Nardone
+				1949.07.21={birth=yes}  # Rome
+			}
+	caracciolo_0443={ #// 12a) Edoardo (Naples 26 Oct 1876-Casamassima 25 Feb 1952); m.Naples 18 Jan 1912 Gisella Bricoli (d.Martina Franca 16 Jun 1957)
+		name=Edoardo
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0400	# Domenico Caracciolo
+		mother=lowbor2_0611	# DONNA Clotilde Lucchesi Palli
+		1876.10.26={birth=yes}  # Naples
+		1912.01.18={add_spouse=lowbor2_0688}	# Gisella Bricoli
+		1952.02.25={death=yes}  # Casamassima
+	}
+		caracciolo_0444={ #// 1b) Clotilde (Naples 28 Oct 1912-Nov 2009); m.Casamassima 30 Oct 1943 Alfonso Motolese
+			name=Clotilde
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0443	# Edoardo Caracciolo
+			mother=lowbor2_0688	# Gisella Bricoli
+			1912.10.28={birth=yes}  # Naples
+			2009.11.01={death=yes}
+		}
+		caracciolo_0445={ #// 2b) Domenico (Naples 2 Nov 1914-k.a.12 Dec 1941)
+			name=Domenico
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0443	# Edoardo Caracciolo
+			mother=lowbor2_0688	# Gisella Bricoli
+			1914.11.02={birth=yes}  # Naples
+			1941.12.12={death=yes}  # k.a.
+		}
+		caracciolo_0446={ #// 3b) Anna (b.Casamassima 11 Aug 1916); m.San Michele di Bari 21 Dec 1939 Nicola Cricelli
+			name=Anna
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0443	# Edoardo Caracciolo
+			mother=lowbor2_0688	# Gisella Bricoli
+			1916.08.11={birth=yes}  # Casamassima
+			1996.01.01={death=yes}  # EST.
+		}
+		caracciolo_0447={ #// 4b) Carlo (Casamassima 27 Feb 1920-Bari 22 May 1935)
 			name=Carlo
 			dynasty=1006013
 			religion=catholic culture=italian
-			father=100070701	# Nicola Caracciolo
-			mother=100081238	# DONNA Emanuela Caracciolo
-			1839.05.01={birth=yes}
-			1874.02.04={add_spouse=100071756}	# Leopoldina Ruffo di Bagnara
-			1900.03.08={death=yes}
+			father=caracciolo_0443	# Edoardo Caracciolo
+			mother=lowbor2_0688	# Gisella Bricoli
+			1920.02.27={birth=yes}  # Casamassima
+			1935.05.22={death=yes}  # Bari
 		}
-			100070704={ #// 1c) Marino (Naples 1 Jan 1871-k.a.Ruaz 15 Jun 1915)
-				name=Marino
-				dynasty=1006013
-				religion=catholic culture=italian
-				trait=legitimized_bastard
-				father=100070703	# Carlo Caracciolo
-				mother=100071756	# Leopoldina Ruffo di Bagnara
-				1871.01.01={birth=yes}
-				1915.06.15={death=yes}
-			}
-			100070705={ #// 2c) Emanuela (Naples 2 Feb 1875-Rome 11 May 1948); m.Naples 15 Nov 1897 Orazio Marchese de Luca Resta (Naples 15 Jul 1879-Rome 23 Mar 1938)
-				name=Emanuela
-				female=yes
-				dynasty=1006013
-				religion=catholic culture=italian
-				father=100070703	# Carlo Caracciolo
-				mother=100071756	# Leopoldina Ruffo di Bagnara
-				1875.02.02={birth=yes}
-				1948.05.11={death=yes}
-			}
-			100070706={ #// 3c) Maria Beatrice (Naples 2 Feb 1875-Naples 17 Sep 1951); m.Naples 27 Feb 1897 Ferdinando Marchese del Carretto (Naples 20 Apr 1865-Naples 21 Feb 1937)
-				name="Maria Beatrice"
-				female=yes
-				dynasty=1006013
-				religion=catholic culture=italian
-				father=100070703	# Carlo Caracciolo
-				mother=100071756	# Leopoldina Ruffo di Bagnara
-				1875.02.02={birth=yes}
-				1951.09.17={death=yes}
-			}
-			100070707={ #// 4c) Matilde (Naples 7 Jul 1876-24 May 1960); m.Naples 2 Jul 1900 Annibale Berlingeri, Marchese di Valle Perrotta (Cotrone 30 Mar 1874-Rome 1947)
-				name=Matilde
-				female=yes
-				dynasty=1006013
-				religion=catholic culture=italian
-				father=100070703	# Carlo Caracciolo
-				mother=100071756	# Leopoldina Ruffo di Bagnara
-				1876.07.07={birth=yes}
-				1960.05.24={death=yes}
-			}
-			100070708={ #// 5c) Gaetano, Pr di Castagneto, etc (Naples 16 Jan 1879-Budapest 12 Dec 1923); m.Naples 2 Jun 1910 Emilia dei Baroni Barracco (Naples 1 May 1891-Freiburg, Switzerland 28 Feb 1928)
-				name=Gaetano
-				dynasty=1006013
-				religion=catholic culture=italian
-				father=100070703	# Carlo Caracciolo
-				mother=100071756	# Leopoldina Ruffo di Bagnara
-				1879.01.16={birth=yes}
-				1910.06.02={add_spouse=100083090}	# BSS Emilia Barracco
-				1923.12.12={death=yes}
-			}
-				100070709={ #// 1d) Carlo Marino Enrico Leopoldo Gaetano Adolfo, Pr di Castagneto, etc (Brussels 27 Feb 1911-Naples 7 Jun 1938)
-					name="Carlo Marino"
-					dynasty=1006013
-					religion=catholic culture=italian
-					father=100070708	# Gaetano Caracciolo
-					mother=100083090	# BSS Emilia Barracco
-					1911.02.27={birth=yes}
-					1938.06.07={death=yes}
-				}
-				100070710={ #// 2d) Leopoldina Livia Maria Carla Enrica (Brussels 23 Jul 1912-Rome 6 Oct 2007); m.Naples 14 Oct 1933 Luigi Marchese Santasilia di Torpino (Rome 15 Apr 1907-Rome 24 Jan 1983)
-					name="Leopoldina Livia"
-					female=yes
-					dynasty=1006013
-					religion=catholic culture=italian
-					father=100070708	# Gaetano Caracciolo
-					mother=100083090	# BSS Emilia Barracco
-					1912.07.23={birth=yes}
-					2007.10.06={death=yes}
-				}
-				100070711={ #// 3d) Maria Vittoria Enrica Leopolda Rosa Francesca (30 Aug 1917-11 Apr 1925)
-					name="Maria Vittoria"
-					female=yes
-					dynasty=1006013
-					religion=catholic culture=italian
-					father=100070708	# Gaetano Caracciolo
-					mother=100083090	# BSS Emilia Barracco
-					1917.08.30={birth=yes}
-					1925.04.11={death=yes}
-				}
-		100070713={ #// 5b) Filippo, cr 1876 Duca di Melito (Naples 7 Jul 1843-Ariano 11 Jul 1904); m.Naples 30 Jun 1875 Emilia Compagna (Naples 28 Dec 1855-Naples 30 Jun 1916)
-			name=Filippo
+#LINE7
+
+#LINE8
+caracciolo_0448={ #// Don Baldassare Caracciolo, Pr di Santabuono, Duca di Castel di Sangro, etc (27 Jul 1768-28 Mar 1828); m.20 Feb 1803 Donna Maria Luisa Carafa dei Duchi d'Andria (27 Apr 1776-16 Jun 1837)
+	name=Baldassare
+	dynasty=1006013
+	religion=catholic culture=italian
+	1768.07.27={birth=yes}
+	1803.02.20={add_spouse=lowbor2_0674}	# DONNA Maria Luisa Carafa d'Andria
+	1828.03.28={death=yes}
+}
+	caracciolo_0449={ #// 1a) Francesco, Pr di Santabuono, etc (Castel di Sangro 23 Nov 1804-20 Oct 1834); m.20 Oct 1825 Marianna Loffredo (10 Aug 1803-1 Jan 1833)
+		name=Francesco
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0448	# Baldassare Caracciolo
+		mother=lowbor2_0674	# DONNA Maria Luisa Carafa d'Andria
+		1804.11.23={birth=yes}  # Castel di Sangro
+		1825.10.20={add_spouse=lowbor2_0691}	# Marianna Loffredo
+		1834.10.20={death=yes}
+	}
+		caracciolo_0450={ #// 1b) Maria Luisa, Pssa di Milgliano, di Viggiano, e di Cardito, etc, by inheritance from her mother (Naples 6 Oct 1816-Naples 23 Aug 1853); m.Naples 11 Sep 1852 Don Francesco Sanfelice dei Duchi di Bagnoli (Naples 12 Oct 1827-Paris 4 Nov 1910)
+			name="Maria Luisa"
+			female=yes
 			dynasty=1006013
 			religion=catholic culture=italian
-			father=100070701	# Nicola Caracciolo
-			mother=100081238	# DONNA Emanuela Caracciolo
-			1843.07.07={birth=yes}
-			1875.06.30={add_spouse=100081593}	# Emilia Compagna
-			1904.07.11={death=yes}
+			father=caracciolo_0449	# Francesco Caracciolo
+			mother=lowbor2_0691	# Marianna Loffredo
+			1826.10.06={birth=yes}  # Naples
+			1853.08.23={death=yes}  # Naples
 		}
-			100070714={ #// 2c) Nicola, Duca de Melito (Naples 4 Mar 1877-Naples 8 Jun 1912); m.Castellamara di Stabia 23 May 1902 Merlada Mele Barese (Bnaples 12 Jan 1879-Frazzano Visconti 10 Aug 1948)
-				name=Nicola
+		caracciolo_0451={ #// 2b) Maria Ginevra (17 Jan 1828-29 Jan 1837)
+			name="Maria Ginevra"
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0449	# Francesco Caracciolo
+			mother=lowbor2_0691	# Marianna Loffredo
+			1828.01.17={birth=yes}
+			1837.01.29={death=yes}
+		}
+		caracciolo_0452={ #// 3b) Maria Francesca (13 Aug 1829-29 Jan 1837)
+			name="Maria Francesca"
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0449	# Francesco Caracciolo
+			mother=lowbor2_0691	# Marianna Loffredo
+			1829.08.13={birth=yes}
+			1837.01.29={death=yes}
+		}
+		caracciolo_0453={ #// 4b) Teresa (26 Nov 1831-31 Mar 1834)
+			name=Teresa
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0449	# Francesco Caracciolo
+			mother=lowbor2_0691	# Marianna Loffredo
+			1831.11.26={birth=yes}
+			1834.03.31={death=yes}
+		}
+	caracciolo_0454={ #// 2a) Gregorio (6 Jun 1806-10 Jan 1860)
+		name=Gregorio
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0448	# Baldassare Caracciolo
+		mother=lowbor2_0674	# DONNA Maria Luisa Carafa d'Andria
+		1806.06.06={birth=yes}
+		1860.01.10={death=yes}
+	}
+	caracciolo_0455={ #// 3a) Riccardo, Pr di Santabuono, etc (Naples 26 Sep 1807-24 Feb 1888); m.15 Aug 1855 Emilia Cito dei Marchesi di Torrecuso
+		name=Riccardo
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0448	# Baldassare Caracciolo
+		mother=lowbor2_0674	# DONNA Maria Luisa Carafa d'Andria
+		1807.09.26={birth=yes}  # Naples
+		1855.08.15={add_spouse=lowbor2_0693}	# Emilia Cito dei Marchesi di Torrecuso
+		1888.02.24={death=yes}
+	}
+		caracciolo_0456={ #// 1b) Baldassare, Pr de Santabuono, etc (28 Jul 1856-12 Nov 1928); m.Virginia de Giovanni (4 Aug 1858-20 Nov 1900)
+			name=Baldassare
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0455	# Riccardo Caracciolo
+			mother=lowbor2_0693	# Emilia Cito dei Marchesi di Torrecuso
+			1856.07.28={birth=yes}
+			1882.01.01={add_spouse=lowbor2_0694}	# Virginia de Giovanni
+			1928.11.12={death=yes}
+		}
+			caracciolo_0457={ #// 1c) Giovan Battista, Pr di Santabuono, etc (Naples 24 Mar 1885-Naples 24 Jan 1943); m.Naples 3 Sep 1903 Maria Cocozza Campanile (Naples 31 Jul 1887-29 Jul 1958)
+				name="Giovan Battista"
 				dynasty=1006013
 				religion=catholic culture=italian
-				father=100070713	# Filippo Caracciolo
-				mother=100081593	# Emilia Compagna
-				1877.03.04={birth=yes}
-				1902.05.23={add_spouse=100087977}	# Merlada Mele Barese
-				1912.06.08={death=yes}
+				father=caracciolo_0456	# Baldassare Caracciolo
+				mother=lowbor2_0694	# Virginia de Giovanni
+				1885.03.24={birth=yes}  # Naples
+				1903.09.03={add_spouse=lowbor2_0695}	# Maria Cocozza Campanile
+				1943.01.24={death=yes}  # Naples
 			}
-				100070715={ #// 1d) Filippo, Pr di Castagneto, Duca de Melito, etc (Naples 4 Mar 1903-Rome 16 Jul 1965); m.Florence 8 Jan 1925 Margaret Clarke (b.Peoria, Illinois 1900-Sirmione 30 Jul 1955)
-					name=Filippo
+				caracciolo_0458={ #// 1d) Margherita (Naples 27 Jul 1904-    )
+					name=Margherita
+					female=yes
 					dynasty=1006013
 					religion=catholic culture=italian
-					father=100070714	# Nicola Caracciolo
-					mother=100087977	# Merlada Mele Barese
-					1903.03.04={birth=yes}
-					1925.01.08={add_spouse=100081522}	# Margaret Clarke
-					1965.07.16={death=yes}
+					father=caracciolo_0457	# Giovan Battista Caracciolo
+					mother=lowbor2_0695	# Maria Cocozza Campanile
+					1904.07.27={birth=yes}  # Naples
+					1984.01.01={death=yes}  # EST.
 				}
-					100070716={ #// 1e) Carlo, Pr di Castagneto, Duca de Melito, etc (Florence 23 Oct 1925-Rome 15 Dec 2008); m.1996 Violante Visconti di Modrone (Milan 12 Jun 1934-New York 25 Mar 2000) $$
-						name=Carlo
-						dynasty=1006013
-						religion=catholic culture=italian
-						father=100070715	# Filippo Caracciolo
-						mother=100081522	# Margaret Clarke
-						1925.10.23={birth=yes}
-						1996.01.01={add_spouse=100072118}	# Violante Visconti
-						2008.12.15={death=yes}
-					}
-						100070717={ #// 1f) Giacaranda Caracciolo Falck; m.Garavicchio 22 Jun 1996 Pr Fabio Borghese Pr di Leonforte $$
-							name=Giacaranda
-							female=yes
-							dynasty=1006013
-							religion=catholic culture=italian
-							father=100070716	# Carlo Caracciolo
-							1970.01.01={birth=yes}
-						}
-					100070718={ #// 2e) Marella (b.Florence 4 May 1927); m.Stoffen, Strasbourg 19 Nov 1953 Giovanni Agnelli (Turin 12 Mar 1921-Turin 24 Jan 2003)
-						name=Marella
-						female=yes
-						dynasty=1006013
-						religion=catholic culture=italian
-						father=100070715	# Filippo Caracciolo
-						mother=100081522	# Margaret Clarke
-						1927.05.04={birth=yes}
-						2004.01.01={death=yes}  # EST.
-					}
-					100070719={ #// 3e) Nicola (b.Florence 19 May 1931); m.1st Montreal 1963 (div 1972) Giuditta Trenholme; m.2d Rossella Sleiter (1974)
-						name=Nicola
-						dynasty=1006013
-						religion=catholic culture=italian
-						father=100070715	# Filippo Caracciolo
-						mother=100081522	# Margaret Clarke
-						1931.05.19={birth=yes}
-						1963.01.01={add_spouse=100091073}	# Giuditta Trenholme
-						1972.01.01={remove_spouse=100091073}
-						1974.01.01={add_spouse=100090318}	# Rossella Sleiter
-					}
-						100070720={ #// 1f) Marella (1966); m.1995 Sandro Chia (b.1952)
-							name=Marella
-							female=yes
-							dynasty=1006013
-							religion=catholic culture=italian
-							father=100070719	# Nicola Caracciolo
-							mother=100091073	# Giuditta Trenholme
-							1966.01.01={birth=yes}
-						}
-						100070721={ #// 2f) Filippo (1975-Pisa 3 Mar 2013); m.3 May 2003 Fabrizia Casagrande
-							name=Filippo
-							dynasty=1006013
-							religion=catholic culture=italian
-							father=100070719	# Nicola Caracciolo
-							mother=100090318	# Rossella Sleiter
-							1975.01.01={birth=yes}
-							2003.05.03={add_spouse=100081298}	# Fabrizia Casagrande
-							2013.03.03={death=yes}
-						}
-							100070723={ #// 1g) Matilde (b.25 Nov 2003)
-								name=Matilde
-								female=yes
-								dynasty=1006013
-								religion=catholic culture=italian
-								father=100070721	# Filippo Caracciolo
-								mother=100081298	# Fabrizia Casagrande
-								2003.11.25={birth=yes}
-							}
-							100070724={ #// 2g) Raimonda
-								name=Raimonda
-								female=yes
-								dynasty=1006013
-								religion=catholic culture=italian
-								father=100070721	# Filippo Caracciolo
-								mother=100081298	# Fabrizia Casagrande
-								2005.01.01={birth=yes}
-							}
-				100070725={ #// 2d) Adolfo (Naples 24 Dec 1905-Rome 8 Jun 1968); m.Grazzano Visconti 2 Jul 1936 Donna Anna Visconti di Modrone (Milan 12 May 1903-Grazzano Visconti 3 Apr 1977) $$
-					name=Adolfo
+				caracciolo_0459={ #// 2d) Riccardo, Pr di Santabuono, etc (Naples 22 Mar 1906-Naples 21 Nov 1967)
+					name=Riccardo
 					dynasty=1006013
 					religion=catholic culture=italian
-					father=100070714	# Nicola Caracciolo
-					mother=100087977	# Merlada Mele Barese
-					1905.12.24={birth=yes}
-					1936.07.02={add_spouse=100072097}	# Anna Visconti
-					1968.06.08={death=yes}
+					father=caracciolo_0457	# Giovan Battista Caracciolo
+					mother=lowbor2_0695	# Maria Cocozza Campanile
+					1906.03.22={birth=yes}  # Naples
+					1967.11.21={death=yes}  # Naples
 				}
-					100070727={ #// 1e) Meralda (b.Rome 30 May 1937); m.Rome 1 Aug 1959 Emanuele Pantanella (d.2014)
-						name=Meralda
-						female=yes
-						dynasty=1006013
-						religion=catholic culture=italian
-						father=100070725	# Adolfo Caracciolo
-						mother=100072097	# Anna Visconti
-						1937.05.30={birth=yes}
-						2014.01.01={death=yes}  # EST.
-					}
-					100070728={ #// 2e) Orsetta (Rome 17 May 1940-Rome 10 Mar 1968); m.Grazzano Visconti 15 Sep 1960 Don Marco Alfonso Torlonia dei Principi Civitella Cesi (b.Rome 2 Jul 1937) $$
-						name=Orsetta
-						female=yes
-						dynasty=1006013
-						religion=catholic culture=italian
-						father=100070725	# Adolfo Caracciolo
-						mother=100072097	# Anna Visconti
-						1940.05.17={birth=yes}
-						1968.03.10={death=yes}
-					}
-					100070729={ #// 3e) Violante (Rome 19 Mar 1943-24 Jan 2003); m.Grazzano Visconti 8 Sep 1962 Gianmaria Visconti di Modrone (b.Rome 7 May 1935) $$
-						name=Violante
-						female=yes
-						dynasty=1006013
-						religion=catholic culture=italian
-						father=100070725	# Adolfo Caracciolo
-						mother=100072097	# Anna Visconti
-						1943.03.19={birth=yes}
-						2003.01.24={death=yes}
-					}
-					100070730={ #// 4e) Allegra (b.Grazzano Visconti 28 Jun 1945); m.Umberto Agnelli (1 Nov 1934-27 May 2004)
-						name=Allegra
-						female=yes
-						dynasty=1006013
-						religion=catholic culture=italian
-						father=100070725	# Adolfo Caracciolo
-						mother=100072097	# Anna Visconti
-						1945.06.28={birth=yes}
-					}
-			100070731={ #// 3c) Giulia (Naples 17 Mar 1878); m.Naples 3 Jun 1925 Arturo Acerra (Caivano 1 Mar 1882)
-				name=Giulia
+				caracciolo_0460={ #// 3d) Beatrice (Naples 29 Jul 1908-    )
+					name=Beatrice
+					female=yes
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0457	# Giovan Battista Caracciolo
+					mother=lowbor2_0695	# Maria Cocozza Campanile
+					1908.07.29={birth=yes}  # Naples
+					1988.01.01={death=yes}  # EST.
+				}
+				caracciolo_0461={ #// 4d) Marino, Pr di Santabuono, etc (Naples 26 Jun 1910-Naples 15 Sep 1971)
+					name=Marino
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0457	# Giovan Battista Caracciolo
+					mother=lowbor2_0695	# Maria Cocozza Campanile
+					1910.06.26={birth=yes}  # Naples
+					1971.09.15={death=yes}  # Naples
+				}
+				caracciolo_0462={ #// 5d) Anna (Naples 9 Apr 1912-    )
+					name=Anna
+					female=yes
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0457	# Giovan Battista Caracciolo
+					mother=lowbor2_0695	# Maria Cocozza Campanile
+					1912.04.09={birth=yes}  # Naples
+					1992.01.01={death=yes}  # EST.
+				}
+				caracciolo_0463={ #// 6d) Carmen (Naples 20 Feb 1914-    )
+					name=Carmen
+					female=yes
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0457	# Giovan Battista Caracciolo
+					mother=lowbor2_0695	# Maria Cocozza Campanile
+					1914.02.20={birth=yes}  # Naples
+					1994.01.01={death=yes}  # EST.
+				}
+				caracciolo_0464={ #// 7d) Virginia (b.Naples 12 Nov 1917); m.Naples 21 Mar 1951 Vincenzo Borruto
+					name=Virginia
+					female=yes
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0457	# Giovan Battista Caracciolo
+					mother=lowbor2_0695	# Maria Cocozza Campanile
+					1917.11.12={birth=yes}  # Naples
+					1997.01.01={death=yes}  # EST.
+				}
+			caracciolo_0465={ #// 2c) Maria (7 Apr 1887-20 Mar 1888)
+				name=Maria
 				female=yes
 				dynasty=1006013
 				religion=catholic culture=italian
-				father=100070713	# Filippo Caracciolo
-				mother=100081593	# Emilia Compagna
-				1878.03.17={birth=yes}
-				1953.01.01={death=yes}  # EST.
+				father=caracciolo_0456	# Baldassare Caracciolo
+				mother=lowbor2_0694	# Virginia de Giovanni
+				1887.04.07={birth=yes}
+				1888.03.20={death=yes}
 			}
-			100070733={ #// 5c) Isabella (Naples 20 Apr 1882); m.Naples 10 Jan 1903 Federico Maresca (Naples 29 Jul 1884-Naples 12 Dec 1918)
-				name=Isabella
-				female=yes
+			caracciolo_0466={ #// 3c) Riccardo (14 Apr 1889-20 Sep 1889)
+				name=Riccardo
 				dynasty=1006013
 				religion=catholic culture=italian
-				father=100070713	# Filippo Caracciolo
-				mother=100081593	# Emilia Compagna
-				1882.04.20={birth=yes}
-				1957.01.01={death=yes}  # EST.
+				father=caracciolo_0456	# Baldassare Caracciolo
+				mother=lowbor2_0694	# Virginia de Giovanni
+				1889.04.14={birth=yes}
+				1889.09.20={death=yes}
 			}
-			100070734={ #// 6c) Mario (Naples 15 May 1883-Rome 3 Dec 1958); m.Naples 3 Jun 1915 Miriam Crosby (New Orleans 1888-Rome 23 Aug 1966)
-				name=Mario
+		caracciolo_0467={ #// 2b) Marino (4 Apr 1861-6 Mar 1861)
+			name=Marino
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0455	# Riccardo Caracciolo
+			mother=lowbor2_0693	# Emilia Cito dei Marchesi di Torrecuso
+			1861.04.04={birth=yes}
+			1861.03.06={death=yes}
+		}
+	caracciolo_0468={ #// 4a) Teresa (ca 1809-5 Jan 1857)
+		name=Teresa
+		female=yes
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0448	# Baldassare Caracciolo
+		mother=lowbor2_0674	# DONNA Maria Luisa Carafa d'Andria
+		1809.01.01={birth=yes}
+		1857.01.05={death=yes}
+	}
+	caracciolo_0469={ #// 5a) Maria Margherita (6 Mar 1811-5 Apr 1878)
+		name="Maria Margherita"
+		female=yes
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0448	# Baldassare Caracciolo
+		mother=lowbor2_0674	# DONNA Maria Luisa Carafa d'Andria
+		1811.03.06={birth=yes}
+		1878.04.05={death=yes}
+	}
+#LINE8
+
+#LINE9
+caracciolo_0470={ #// Don Francesco Giudice Caracciolo, Pr di Cellamare, etc (Naples 2 Dec 1805-Naples 7 Jun 1854); m.Naples 23 Jan 1836 Donna Marianna Muscettola, Pssa di Leporano, Duchessa di Schiavi, etc (Naples 3 Jan 1815-Cava dei Terreni 20 Aug 1887)
+	name=Francesco
+	dynasty=1006013
+	religion=catholic culture=italian
+	1805.12.02={birth=yes}  # Naples
+	1836.01.23={add_spouse=lowbor2_0697}	# DONNA Marianna Muscettola di Schiavi
+	1854.06.07={death=yes}  # Naples
+}
+	caracciolo_0471={ #// 1a) Giuseppe Giudice, Pr di Cellamare, Pr di Villa el di Leporano, etc (Naples 17 Feb 1838-Naples 22 Feb 1905); m.1st Naples 16 Jan 1864 Donna Livia Caracciolo (Naples 18 Mar 1841-Naples 11 Feb 1865); m.2nd Naples 10 Jun 1869 Giulia Brunas Serra (Naples 17 Feb 1851-Naples 9 Apr 1938) $$
+		name=Giuseppe
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0470	# Francesco Caracciolo
+		mother=lowbor2_0697	# DONNA Marianna Muscettola di Schiavi
+		1838.02.17={birth=yes}  # Naples
+		1864.01.16={add_spouse=100070787}	# Maria Livia Caracciolo
+		1869.06.10={add_spouse=lowbor2_0699}	# Giulia Brunas Serra
+		1905.02.22={death=yes}  # Naples
+	}
+		caracciolo_0472={ #// 1b) Anna Maria, Pssa di Villa S. Maria (Naples 29 Mar 1870-2 Apr 1969); m.Naples 3 Jun 1900 Amedeo Ferdinando dei Baroni Acton (Naples 15 Jan 1871-Naples 25 Nov 1938)
+			name=Anna
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0471	# Giuseppe Caracciolo
+			mother=lowbor2_0699	# Giulia Brunas Serra
+			1870.03.29={birth=yes}  # Naples
+			1969.04.02={death=yes}
+		}
+		caracciolo_0473={ #// 2b) Francesco Giudice, Pr di Cellamre, Pr di Leporano, etc (Naples 25 Nov 1871-Nozzano, Lucca 10 Jan 1941)
+			name=Francesco
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0471	# Giuseppe Caracciolo
+			mother=lowbor2_0699	# Giulia Brunas Serra
+			1871.11.25={birth=yes}  # Naples
+			1941.01.10={death=yes}  # Nozzano Lucca
+		}
+		caracciolo_0474={ #// 3b) Luciano (18 Nov 1873-20 Jul 1874)
+			name=Luciano
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0471	# Giuseppe Caracciolo
+			mother=lowbor2_0699	# Giulia Brunas Serra
+			1873.11.18={birth=yes}
+			1874.07.20={death=yes}
+		}
+		caracciolo_0475={ #// 4b) Maria Agata (Naples 21 Jun 1875-Naples 2 Feb 1950); m.Naples 14 Dec 1898 Francesco Filiasi, Marchese di Carapelle (Naples 30 Jun 1869-Rome 25 Jun 1941)
+			name="Maria Agata"
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0471	# Giuseppe Caracciolo
+			mother=lowbor2_0699	# Giulia Brunas Serra
+			1875.06.21={birth=yes}  # Naples
+			1950.02.02={death=yes}  # Naples
+		}
+		caracciolo_0476={ #// 5b) Livia Teresa, Pssa di Leporano (Naples 16 Oct 1878-Naples 24 Mar 1963); m.Naples 23 Oct 1907 Alfredo Barone Acton (Castellamare di Stabia 12 Sep 1867-Naples 26 Mar 1934)
+			name="Livia Teresa"
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0471	# Giuseppe Caracciolo
+			mother=lowbor2_0699	# Giulia Brunas Serra
+			1878.10.16={birth=yes}  # Naples
+			1963.03.24={death=yes}  # Naples
+		}
+			caracciolo_0477={ #// 1c) Ferdinando Amedeo Maria Acton, Pr di Leporano (Naples 27 Sep 1908-Naples 12 Jul 1979); m.Naples 15 Jun 1946 Donna Emilia del Balzo dei Principi de Presenzano (b.Sarno 13 Sep 1926) $$
+				name=Ferdinando
 				dynasty=1006013
 				religion=catholic culture=italian
-				father=100070713	# Filippo Caracciolo
-				mother=100081593	# Emilia Compagna
-				1883.05.15={birth=yes}
-				1915.06.03={add_spouse=100081731}	# Miriam Crosby
-				1958.12.03={death=yes}
+				father=lowbor2_0702	# BARONE Alfredo Acton
+				1908.09.27={birth=yes}  # Naples
+				1946.06.15={add_spouse=100070018}	# Emilia del Balzo
+				1979.07.12={death=yes}  # Naples
 			}
-				100070735={ #// 1d) Ludovico (Washington 11 Jan 1920-13 Dec 1941)
-					name=Ludovico
+				caracciolo_0478={ #// 1d) Giovanni Alfredo Maria Acton, Pr di Leporano (b.Naples 26 Feb 1948)
+					name=Giovanni
 					dynasty=1006013
 					religion=catholic culture=italian
-					father=100070734	# Mario Caracciolo
-					mother=100081731	# Miriam Crosby
-					1920.01.11={birth=yes}
-					1941.12.13={death=yes}
+					father=caracciolo_0477	# Ferdinando Caracciolo
+					mother=100070018	# Emilia del Balzo
+					1948.02.26={birth=yes}  # Naples
 				}
-		100070737={ #// 8b) Maria (Naples 28 Oct 1850); m.Naples 7 Jun 1879 Carlo Caracciolo (1853)
+				caracciolo_0479={ #// 2d) Maria Eleonora Acton (b.Naples 19 Apr 1949); m.Naples 15 Jun 1972 Nobile Pier Luigi Taccone dei Marchesi di Sitizzano, Duca di Spezzano
+					name="Maria Eleonora"
+					female=yes
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0477	# Ferdinando Caracciolo
+					mother=100070018	# Emilia del Balzo
+					1949.04.19={birth=yes}  # Naples
+				}
+			caracciolo_0480={ #// 2c) Francesco Eduardo Maria (Naples 24 Aug 1910-Naples 12 Nov 1997); m.Naples 11 Jun 1941 Maria-Ida dei Conti d'Ameglio
+				name=Francesco
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=lowbor2_0702	# BARONE Alfredo Acton
+				1910.08.24={birth=yes}  # Naples
+				1941.06.11={add_spouse=lowbor2_0705}	# Maria-Ida d'Ameglio
+				1997.11.12={death=yes}  # Naples
+			}
+				caracciolo_0481={ #// 1d) Alfredo (Naples 1 Mar 1942-Naples 29 Apr 1946)
+					name=Alfredo
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0480	# Francesco Caracciolo
+					mother=lowbor2_0705	# Maria-Ida d'Ameglio
+					1942.03.01={birth=yes}  # Naples
+					1946.04.29={death=yes}  # Naples
+				}
+	caracciolo_0482={ #// 2a) Stefania (3 Aug 1839-30 Jul 1902); m.25 Apr 1859 Achille Cte Filo della Torre, Marchese di Montesilvano
+		name=Stefania
+		female=yes
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0470	# Francesco Caracciolo
+		mother=lowbor2_0697	# DONNA Marianna Muscettola di Schiavi
+		1839.08.03={birth=yes}
+		1902.07.30={death=yes}
+	}
+	caracciolo_0483={ #// 3a) Giovanni Giudice (Naples 29 Apr 1841-Capri 25 Feb 1920); m.Capri 4 Mar 1879 Emilia Settanni (Capri 1854-Capri 12 Feb 1947)
+		name=Giovanni
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0470	# Francesco Caracciolo
+		mother=lowbor2_0697	# DONNA Marianna Muscettola di Schiavi
+		1841.04.29={birth=yes}  # Naples
+		1879.03.04={add_spouse=lowbor2_0707}	# Emilia Settanni
+		1920.02.25={death=yes}  # Capri
+	}
+		caracciolo_0485={ #// 2b) Giulia (Capri 24 Jan 1879-1 May 1962)
+			name=Giulia
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			trait=legitimized_bastard
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1879.01.24={birth=yes}  # Capri
+			1962.05.01={death=yes}
+		}
+		caracciolo_0487={ #// 4b) Caterina Angelica (Capri 20 Apr 1881-Capri 1953); m.Naples 21 Apr 1904 Nobile Antonio Palumbo
+			name="Caterina Angelica"
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1881.04.20={birth=yes}  # Capri
+			1953.01.01={death=yes}  # Capri
+		}
+		caracciolo_0488={ #// 5b) Margherita (Naples 12 Jul 1883-19__)
+			name=Margherita
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1883.07.12={birth=yes}  # Naples
+			1963.01.01={death=yes}  # EST.
+		}
+		caracciolo_0489={ #// 6b) Anna (5 Jan 1884-Jan 1892)
+			name=Anna
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1884.01.05={birth=yes}
+			1892.01.01={death=yes}
+		}
+		caracciolo_0490={ #// 7b) Stefano Giudice, Pr di Cellamare, etc (Capri 8 Mar 1885-26 Oct 1965); m.Capri 1923 Dorothy Adriance
+			name=Stefano
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1885.03.08={birth=yes}  # Capri
+			1923.01.01={add_spouse=lowbor2_0709}	# Dorothy Adriance
+			1965.10.26={death=yes}
+		}
+		caracciolo_0491={ #// 8b) Ascanio (21 Aug 1886-1 Mar 1901)
+			name=Ascanio
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1886.08.21={birth=yes}
+			1901.03.01={death=yes}
+		}
+		caracciolo_0493={ #// 10b) Vittorio, Pr di Cellamare, etc (Capri 10 Mar 1890-1968)
+			name=Vittorio
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1890.03.10={birth=yes}  # Capri
+			1968.01.01={death=yes}
+		}
+		caracciolo_0494={ #// 11b) Maria (Capri 27 Jun 1891-19__); m.Capri 20 May 1914 Gino Caivano
 			name=Maria
 			female=yes
 			dynasty=1006013
 			religion=catholic culture=italian
-			father=100070701	# Nicola Caracciolo
-			mother=100081238	# DONNA Emanuela Caracciolo
-			1850.10.28={birth=yes}
-			1924.01.01={death=yes}  # EST.
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1891.06.27={birth=yes}  # Capri
+			1971.01.01={death=yes}  # EST.
 		}
-	100070738={ #// 2a) Giuseppe (Naples 10 Nov 1810-Naples 25 Dec 1900); m.Naples 9 Dec 1841 Donna Giovanna Imperiali, Pssa di Francavilla (Naples 24 Jan 1814-Naples 19 Sep 1903) $$
-		name=Giuseppe
-		dynasty=1006013
-		religion=catholic culture=italian
-		father=100070700	# Gaetano Caracciolo
-		mother=100081245	# Beatrice Caracciolo di Torella
-		1810.11.10={birth=yes}
-		1841.12.09={add_spouse=100071127}	# Giovanna Imperiali
-		1900.12.25={death=yes}
-	}
-		100070739={ #// 1b) Giuseppe, Pr di Francavilla (Mesagne 16 Sep 1842)
-			name=Giuseppe
+		caracciolo_0495={ #// 12b) Bianca (4 Feb 1893-1963)
+			name=Bianca
+			female=yes
 			dynasty=1006013
 			religion=catholic culture=italian
-			father=100070738	# Giuseppe Caracciolo
-			mother=100071127	# Giovanna Imperiali
-			1842.09.16={birth=yes}
-			1915.01.01={death=yes}  # EST.
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1893.02.04={birth=yes}
+			1963.01.01={death=yes}
 		}
-		100070741={ #// 3b) Francesco (Mesagne 25 Aug 1847); m.8 Feb 1882 Maria Clotilde Rocca (d.24 Apr 1885)
+		caracciolo_0496={ #// 13b) Isabella (Capri 22 Aug 1894-    ); m.Capri 20 May 1926 Jack Webber
+			name=Isabella
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1894.08.22={birth=yes}  # Capri
+			1974.01.01={death=yes}  # EST.
+		}
+		caracciolo_0497={ #// 14b) Bianca (22 Aug 1896-    )
+			name=Bianca
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1896.08.22={birth=yes}
+			1976.01.01={death=yes}  # EST.
+		}
+		caracciolo_0498={ #// 15b) Teresa (Capri 15 Sep 1901-    ); m.1920 Maurizio Ascarelli
+			name=Teresa
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0483	# Giovanni Caracciolo
+			mother=lowbor2_0707	# Emilia Settanni
+			1901.09.15={birth=yes}  # Capri
+			1981.01.01={death=yes}  # EST.
+		}
+	caracciolo_0499={ #// 4a) Filippo (Naples 24 Nov 1842-Naples 2 Aug 1890); m.Naples 11 Dec 1878 Laura Cardente (d.Naples 26 Aug 1907)
+		name=Filippo
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0470	# Francesco Caracciolo
+		mother=lowbor2_0697	# DONNA Marianna Muscettola di Schiavi
+		1842.11.24={birth=yes}  # Naples
+		1878.12.11={add_spouse=lowbor2_0713}	# Laura Cardente
+		1890.08.02={death=yes}  # Naples
+	}
+		caracciolo_0500={ #// 1b) Francesco (Naples 26 Aug 1879-San Remo Oct 1947); m.1st Rome 1902 Silvia Sales; m.2nd San Remo Oct 1947 Agata Paternò Castello
 			name=Francesco
 			dynasty=1006013
 			religion=catholic culture=italian
-			father=100070738	# Giuseppe Caracciolo
-			mother=100071127	# Giovanna Imperiali
-			1847.08.25={birth=yes}
-			1882.02.08={add_spouse=100089586}	# Maria Clotilde Rocca
-			1920.01.01={death=yes}  # EST.
+			father=caracciolo_0499	# Filippo Caracciolo
+			mother=lowbor2_0713	# Laura Cardente
+			1879.08.26={birth=yes}  # Naples
+			1902.01.01={add_spouse=lowbor2_0714}	# Silvia Sales
+			1947.10.01={add_spouse=lowbor2_0715}	# Agata Paternò Castello
+			1947.10.01={death=yes}  # San_Remo
 		}
-			100070742={ #// 1c) Giuseppe, became a Benedictine monk and renounced his titles in favour of his cousin, Emanuele Imperiali (25 Oct 1883)
-				name=Giuseppe
-				dynasty=1006013
-				religion=catholic culture=italian
-				father=100070741	# Francesco Caracciolo
-				mother=100089586	# Maria Clotilde Rocca
-				1883.10.25={birth=yes}
-				1958.01.01={death=yes}  # EST.
-			}
-			100070726={ #// 2c) Beatrice (*16 Sep 1884)
-				name=Beatrice
+	caracciolo_0501={ #// 5a) Luigi (26 Sep 1845-15 Jun 1846)
+		name=Luigi
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0470	# Francesco Caracciolo
+		mother=lowbor2_0697	# DONNA Marianna Muscettola di Schiavi
+		1845.09.26={birth=yes}
+		1846.06.15={death=yes}
+	}
+	caracciolo_0502={ #// 6a) Camillo (Naples 18 Nov 1853-Naples 14 Jan 1934); m.Naples 18 Jun 1881 Donna Carolina Pignatelli della Leonessa dei Principi di Monteroduni (Naples 12 Nov 1856-Naples 5 Mar 1931)
+		name=Camillo
+		dynasty=1006013
+		religion=catholic culture=italian
+		father=caracciolo_0470	# Francesco Caracciolo
+		mother=lowbor2_0697	# DONNA Marianna Muscettola di Schiavi
+		1853.11.18={birth=yes}  # Naples
+		1881.06.18={add_spouse=lowbor2_0716}	# DONNA Carolina Pignatelli della Leonessa di Monteroduni
+		1934.01.14={death=yes}  # Naples
+	}
+		caracciolo_0503={ #// 1b) Luisa (b.and d.19 Sep 1882)
+			name=Luisa
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0502	# Camillo Caracciolo
+			mother=lowbor2_0716	# DONNA Carolina Pignatelli della Leonessa di Monteroduni
+			1882.09.19={birth=yes}
+			1962.01.01={death=yes}  # EST.
+		}
+		caracciolo_0504={ #// 2b) Luigi (*Cava dei Terreni 28 Aug 1883)
+			name=Luigi
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0502	# Camillo Caracciolo
+			mother=lowbor2_0716	# DONNA Carolina Pignatelli della Leonessa di Monteroduni
+			1883.08.28={birth=yes}
+			1958.01.01={death=yes}  # EST.
+		}
+		caracciolo_0505={ #// 3b) Vittoria Maria (Naples 17 Oct 1885-Naples 5 Oct 1950); m.Naples 15 Sep 1904 Michele Baldacchini-Gargano (Naples 15 Feb 1883-Naples 17 Sep 1953)
+			name=Vittoria
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0502	# Camillo Caracciolo
+			mother=lowbor2_0716	# DONNA Carolina Pignatelli della Leonessa di Monteroduni
+			1885.10.17={birth=yes}  # Naples
+			1950.10.05={death=yes}  # Naples
+		}
+		caracciolo_0506={ #// 4b) Giulia (Naples 6 Jun 1888-28 Nov 1973); m.Naples 27 Nov 1916 Marino di Marzo
+			name=Giulia
+			female=yes
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0502	# Camillo Caracciolo
+			mother=lowbor2_0716	# DONNA Carolina Pignatelli della Leonessa di Monteroduni
+			1888.06.06={birth=yes}  # Naples
+			1973.11.28={death=yes}
+		}
+		caracciolo_0507={ #// 5b) Filippo, Pr di Cellamare, etc (Naples 27 May 1894-Naples 4 Apr 1979); m.Naples 15 Feb 1930 Vera Miraglia (Naples 3 Mar 1906-    )
+			name=Filippo
+			dynasty=1006013
+			religion=catholic culture=italian
+			father=caracciolo_0502	# Camillo Caracciolo
+			mother=lowbor2_0716	# DONNA Carolina Pignatelli della Leonessa di Monteroduni
+			1894.05.27={birth=yes}  # Naples
+			1930.02.15={add_spouse=lowbor2_0719}	# Vera Miraglia
+			1979.04.04={death=yes}  # Naples
+		}
+			caracciolo_0508={ #// 1c) Maria (b.Naples 25 May 1931); m.Naples 20 Apr 1955 Danilo Guyon (d.Naples 18 Dec 1991)
+				name=Maria
 				female=yes
 				dynasty=1006013
 				religion=catholic culture=italian
-				father=100070741	# Francesco Caracciolo
-				mother=100089586	# Maria Clotilde Rocca
-				1884.09.16={birth=yes}
-				1959.01.01={death=yes}  # EST.
+				father=caracciolo_0507	# Filippo Caracciolo
+				mother=lowbor2_0719	# Vera Miraglia
+				1931.05.25={birth=yes}  # Naples
+				2011.01.01={death=yes}  # EST.
 			}
-#1817.03.27={holder=100072450} # Gaetano Caracciolo
-#1811.02.05={holder=100072452} # 1a) Nicola
-#1869.11.20={holder=100072455} # 2b) Gaetano
-#1909.03.20={holder=100072458} # 1c) Marino 
-#1915.06.15={holder=100072465} # 5c) Gaetano
-#1923.12.12={holder=100072467} # 1d) Carlo Marino Enrico Leopoldo Gaetano Adolfo
+			caracciolo_0509={ #// 2c) Ferrante, Pr di Cellamare, etc (b.Naples 21 Oct 1933); m.Naples 6 Feb 1980 Costanza Theodoli dei Marchesi di San Vito (b.Rome 6 Apr 1956)
+				name=Ferrante
+				dynasty=1006013
+				religion=catholic culture=italian
+				father=caracciolo_0507	# Filippo Caracciolo
+				mother=lowbor2_0719	# Vera Miraglia
+				1933.10.21={birth=yes}  # Naples
+				1980.02.06={add_spouse=lowbor2_0721}	# Costanza Theodoli dei Marchesi di San Vito
+				2008.01.01={death=yes}  # EST.
+			}
+				caracciolo_0510={ #// 1d) Carolina (b.Rome 23 Mar 1981)
+					name=Carolina
+					female=yes
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=caracciolo_0509	# Ferrante Caracciolo
+					mother=lowbor2_0721	# Costanza Theodoli dei Marchesi di San Vito
+					1981.03.23={birth=yes}  # Rome
+				}
+#LINE9
+
+#LINE10
+# Don Francesco Saverio Caracciolo, 1.Principe di Castagneto, b. 16 Apr 1695, d. 6 Jun 174
+	# Don Gaetano Caracciolo, 2.Principe di Castagneto, b. 18 Jan 1726, Chiaiano d. 13 Jun 1800, Chiaiano 
+		# Don Nicola Caracciolo, 3.Principe di Castagneto, b. 24 Jan 1758, Chiaiano, +13 Jun 1800, Chiaiano 
+			100070700={ #// Don Gaetano Caracciolo, 4th Pr di Castagneto, etc (Naples 27 Mar 1787-5 Feb 1811); m.9 Jul 1808 Donna Beatrice Caracciolo di Torella (Naples 21 Jun 1878-1 Jun 1872)
+				name=Gaetano
+				dynasty=1006013
+				religion=catholic culture=italian
+				1787.03.27={birth=yes}
+				1808.07.09={add_spouse=100081245}	# Beatrice Caracciolo di Torella
+				1811.02.05={death=yes}
+			}
+				100070701={ #// 1a) Nicola, Pr di Castagneto, etc (Naples 14 Jul 1809-Rome 20 Nov 1869); m.Naples 14 Sep 1834 Donna Emanuela Caracciolo (Naples 12 Oct 1809-Paris 4 Nov 1861)
+					name=Nicola
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=100070700	# Gaetano Caracciolo
+					mother=100081245	# Beatrice Caracciolo di Torella
+					1809.07.14={birth=yes}
+					1834.09.14={add_spouse=100081238}	# DONNA Emanuela Caracciolo
+					1869.11.20={death=yes}
+				}
+					100070702={ #// 2b) Gaetano, Pr di Castagneto, etc (18 Dec 1837-20 Mar 1909)
+						name=Gaetano
+						dynasty=1006013
+						religion=catholic culture=italian
+						father=100070701	# Nicola Caracciolo
+						mother=100081238	# DONNA Emanuela Caracciolo
+						1837.12.18={birth=yes}
+						1909.03.20={death=yes}
+					}
+					100070703={ #// 3b) Carlo, Pr di Castagneto, etc (Naples 1 May 1839-Naples 8 Mar 1900); m.Naples 4 Feb 1874 Donna Leopoldina Ruffo di Bagnara (Naples 10 Nov 1844-Naples 30 May 1939) $$
+						name=Carlo
+						dynasty=1006013
+						religion=catholic culture=italian
+						father=100070701	# Nicola Caracciolo
+						mother=100081238	# DONNA Emanuela Caracciolo
+						1839.05.01={birth=yes}
+						1874.02.04={add_spouse=100071756}	# Leopoldina Ruffo di Bagnara
+						1900.03.08={death=yes}
+					}
+						100070704={ #// 1c) Marino (Naples 1 Jan 1871-k.a.Ruaz 15 Jun 1915)
+							name=Marino
+							dynasty=1006013
+							religion=catholic culture=italian
+							trait=legitimized_bastard
+							father=100070703	# Carlo Caracciolo
+							mother=100071756	# Leopoldina Ruffo di Bagnara
+							1871.01.01={birth=yes}
+							1915.06.15={death=yes}
+						}
+						100070705={ #// 2c) Emanuela (Naples 2 Feb 1875-Rome 11 May 1948); m.Naples 15 Nov 1897 Orazio Marchese de Luca Resta (Naples 15 Jul 1879-Rome 23 Mar 1938)
+							name=Emanuela
+							female=yes
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070703	# Carlo Caracciolo
+							mother=100071756	# Leopoldina Ruffo di Bagnara
+							1875.02.02={birth=yes}
+							1948.05.11={death=yes}
+						}
+						100070706={ #// 3c) Maria Beatrice (Naples 2 Feb 1875-Naples 17 Sep 1951); m.Naples 27 Feb 1897 Ferdinando Marchese del Carretto (Naples 20 Apr 1865-Naples 21 Feb 1937)
+							name="Maria Beatrice"
+							female=yes
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070703	# Carlo Caracciolo
+							mother=100071756	# Leopoldina Ruffo di Bagnara
+							1875.02.02={birth=yes}
+							1951.09.17={death=yes}
+						}
+						100070707={ #// 4c) Matilde (Naples 7 Jul 1876-24 May 1960); m.Naples 2 Jul 1900 Annibale Berlingeri, Marchese di Valle Perrotta (Cotrone 30 Mar 1874-Rome 1947)
+							name=Matilde
+							female=yes
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070703	# Carlo Caracciolo
+							mother=100071756	# Leopoldina Ruffo di Bagnara
+							1876.07.07={birth=yes}
+							1960.05.24={death=yes}
+						}
+						100070708={ #// 5c) Gaetano, Pr di Castagneto, etc (Naples 16 Jan 1879-Budapest 12 Dec 1923); m.Naples 2 Jun 1910 Emilia dei Baroni Barracco (Naples 1 May 1891-Freiburg, Switzerland 28 Feb 1928)
+							name=Gaetano
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070703	# Carlo Caracciolo
+							mother=100071756	# Leopoldina Ruffo di Bagnara
+							1879.01.16={birth=yes}
+							1910.06.02={add_spouse=100083090}	# BSS Emilia Barracco
+							1923.12.12={death=yes}
+						}
+							100070709={ #// 1d) Carlo Marino Enrico Leopoldo Gaetano Adolfo, Pr di Castagneto, etc (Brussels 27 Feb 1911-Naples 7 Jun 1938)
+								name="Carlo Marino"
+								dynasty=1006013
+								religion=catholic culture=italian
+								father=100070708	# Gaetano Caracciolo
+								mother=100083090	# BSS Emilia Barracco
+								1911.02.27={birth=yes}
+								1938.06.07={death=yes}
+							}
+							100070710={ #// 2d) Leopoldina Livia Maria Carla Enrica (Brussels 23 Jul 1912-Rome 6 Oct 2007); m.Naples 14 Oct 1933 Luigi Marchese Santasilia di Torpino (Rome 15 Apr 1907-Rome 24 Jan 1983)
+								name="Leopoldina Livia"
+								female=yes
+								dynasty=1006013
+								religion=catholic culture=italian
+								father=100070708	# Gaetano Caracciolo
+								mother=100083090	# BSS Emilia Barracco
+								1912.07.23={birth=yes}
+								2007.10.06={death=yes}
+							}
+							100070711={ #// 3d) Maria Vittoria Enrica Leopolda Rosa Francesca (30 Aug 1917-11 Apr 1925)
+								name="Maria Vittoria"
+								female=yes
+								dynasty=1006013
+								religion=catholic culture=italian
+								father=100070708	# Gaetano Caracciolo
+								mother=100083090	# BSS Emilia Barracco
+								1917.08.30={birth=yes}
+								1925.04.11={death=yes}
+							}
+					100070713={ #// 5b) Filippo, cr 1876 Duca di Melito (Naples 7 Jul 1843-Ariano 11 Jul 1904); m.Naples 30 Jun 1875 Emilia Compagna (Naples 28 Dec 1855-Naples 30 Jun 1916)
+						name=Filippo
+						dynasty=1006013
+						religion=catholic culture=italian
+						father=100070701	# Nicola Caracciolo
+						mother=100081238	# DONNA Emanuela Caracciolo
+						1843.07.07={birth=yes}
+						1875.06.30={add_spouse=100081593}	# Emilia Compagna
+						1904.07.11={death=yes}
+					}
+						100070714={ #// 2c) Nicola, Duca de Melito (Naples 4 Mar 1877-Naples 8 Jun 1912); m.Castellamara di Stabia 23 May 1902 Merlada Mele Barese (Bnaples 12 Jan 1879-Frazzano Visconti 10 Aug 1948)
+							name=Nicola
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070713	# Filippo Caracciolo
+							mother=100081593	# Emilia Compagna
+							1877.03.04={birth=yes}
+							1902.05.23={add_spouse=100087977}	# Merlada Mele Barese
+							1912.06.08={death=yes}
+						}
+							100070715={ #// 1d) Filippo, Pr di Castagneto, Duca de Melito, etc (Naples 4 Mar 1903-Rome 16 Jul 1965); m.Florence 8 Jan 1925 Margaret Clarke (b.Peoria, Illinois 1900-Sirmione 30 Jul 1955)
+								name=Filippo
+								dynasty=1006013
+								religion=catholic culture=italian
+								father=100070714	# Nicola Caracciolo
+								mother=100087977	# Merlada Mele Barese
+								1903.03.04={birth=yes}
+								1925.01.08={add_spouse=100081522}	# Margaret Clarke
+								1965.07.16={death=yes}
+							}
+								100070716={ #// 1e) Carlo, Pr di Castagneto, Duca de Melito, etc (Florence 23 Oct 1925-Rome 15 Dec 2008); m.1996 Violante Visconti di Modrone (Milan 12 Jun 1934-New York 25 Mar 2000) $$
+									name=Carlo
+									dynasty=1006013
+									religion=catholic culture=italian
+									father=100070715	# Filippo Caracciolo
+									mother=100081522	# Margaret Clarke
+									1925.10.23={birth=yes}
+									1996.01.01={add_spouse=100072118}	# Violante Visconti
+									2008.12.15={death=yes}
+								}
+									100070717={ #// 1f) Giacaranda Caracciolo Falck; m.Garavicchio 22 Jun 1996 Pr Fabio Borghese Pr di Leonforte $$
+										name=Giacaranda
+										female=yes
+										dynasty=1006013
+										religion=catholic culture=italian
+										father=100070716	# Carlo Caracciolo
+										1970.01.01={birth=yes}
+									}
+								100070718={ #// 2e) Marella (b.Florence 4 May 1927); m.Stoffen, Strasbourg 19 Nov 1953 Giovanni Agnelli (Turin 12 Mar 1921-Turin 24 Jan 2003)
+									name=Marella
+									female=yes
+									dynasty=1006013
+									religion=catholic culture=italian
+									father=100070715	# Filippo Caracciolo
+									mother=100081522	# Margaret Clarke
+									1927.05.04={birth=yes}
+									2004.01.01={death=yes}  # EST.
+								}
+								100070719={ #// 3e) Nicola (b.Florence 19 May 1931); m.1st Montreal 1963 (div 1972) Giuditta Trenholme; m.2d Rossella Sleiter (1974)
+									name=Nicola
+									dynasty=1006013
+									religion=catholic culture=italian
+									father=100070715	# Filippo Caracciolo
+									mother=100081522	# Margaret Clarke
+									1931.05.19={birth=yes}
+									1963.01.01={add_spouse=100091073}	# Giuditta Trenholme
+									1972.01.01={remove_spouse=100091073}
+									1974.01.01={add_spouse=100090318}	# Rossella Sleiter
+								}
+									100070720={ #// 1f) Marella (1966); m.1995 Sandro Chia (b.1952)
+										name=Marella
+										female=yes
+										dynasty=1006013
+										religion=catholic culture=italian
+										father=100070719	# Nicola Caracciolo
+										mother=100091073	# Giuditta Trenholme
+										1966.01.01={birth=yes}
+									}
+									100070721={ #// 2f) Filippo (1975-Pisa 3 Mar 2013); m.3 May 2003 Fabrizia Casagrande
+										name=Filippo
+										dynasty=1006013
+										religion=catholic culture=italian
+										father=100070719	# Nicola Caracciolo
+										mother=100090318	# Rossella Sleiter
+										1975.01.01={birth=yes}
+										2003.05.03={add_spouse=100081298}	# Fabrizia Casagrande
+										2013.03.03={death=yes}
+									}
+										100070723={ #// 1g) Matilde (b.25 Nov 2003)
+											name=Matilde
+											female=yes
+											dynasty=1006013
+											religion=catholic culture=italian
+											father=100070721	# Filippo Caracciolo
+											mother=100081298	# Fabrizia Casagrande
+											2003.11.25={birth=yes}
+										}
+										100070724={ #// 2g) Raimonda
+											name=Raimonda
+											female=yes
+											dynasty=1006013
+											religion=catholic culture=italian
+											father=100070721	# Filippo Caracciolo
+											mother=100081298	# Fabrizia Casagrande
+											2005.01.01={birth=yes}
+										}
+							100070725={ #// 2d) Adolfo (Naples 24 Dec 1905-Rome 8 Jun 1968); m.Grazzano Visconti 2 Jul 1936 Donna Anna Visconti di Modrone (Milan 12 May 1903-Grazzano Visconti 3 Apr 1977) $$
+								name=Adolfo
+								dynasty=1006013
+								religion=catholic culture=italian
+								father=100070714	# Nicola Caracciolo
+								mother=100087977	# Merlada Mele Barese
+								1905.12.24={birth=yes}
+								1936.07.02={add_spouse=100072097}	# Anna Visconti
+								1968.06.08={death=yes}
+							}
+								100070727={ #// 1e) Meralda (b.Rome 30 May 1937); m.Rome 1 Aug 1959 Emanuele Pantanella (d.2014)
+									name=Meralda
+									female=yes
+									dynasty=1006013
+									religion=catholic culture=italian
+									father=100070725	# Adolfo Caracciolo
+									mother=100072097	# Anna Visconti
+									1937.05.30={birth=yes}
+									2014.01.01={death=yes}  # EST.
+								}
+								100070728={ #// 2e) Orsetta (Rome 17 May 1940-Rome 10 Mar 1968); m.Grazzano Visconti 15 Sep 1960 Don Marco Alfonso Torlonia dei Principi Civitella Cesi (b.Rome 2 Jul 1937) $$
+									name=Orsetta
+									female=yes
+									dynasty=1006013
+									religion=catholic culture=italian
+									father=100070725	# Adolfo Caracciolo
+									mother=100072097	# Anna Visconti
+									1940.05.17={birth=yes}
+									1968.03.10={death=yes}
+								}
+								100070729={ #// 3e) Violante (Rome 19 Mar 1943-24 Jan 2003); m.Grazzano Visconti 8 Sep 1962 Gianmaria Visconti di Modrone (b.Rome 7 May 1935) $$
+									name=Violante
+									female=yes
+									dynasty=1006013
+									religion=catholic culture=italian
+									father=100070725	# Adolfo Caracciolo
+									mother=100072097	# Anna Visconti
+									1943.03.19={birth=yes}
+									2003.01.24={death=yes}
+								}
+								100070730={ #// 4e) Allegra (b.Grazzano Visconti 28 Jun 1945); m.Umberto Agnelli (1 Nov 1934-27 May 2004)
+									name=Allegra
+									female=yes
+									dynasty=1006013
+									religion=catholic culture=italian
+									father=100070725	# Adolfo Caracciolo
+									mother=100072097	# Anna Visconti
+									1945.06.28={birth=yes}
+								}
+						100070731={ #// 3c) Giulia (Naples 17 Mar 1878); m.Naples 3 Jun 1925 Arturo Acerra (Caivano 1 Mar 1882)
+							name=Giulia
+							female=yes
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070713	# Filippo Caracciolo
+							mother=100081593	# Emilia Compagna
+							1878.03.17={birth=yes}
+							1953.01.01={death=yes}  # EST.
+						}
+						100070733={ #// 5c) Isabella (Naples 20 Apr 1882); m.Naples 10 Jan 1903 Federico Maresca (Naples 29 Jul 1884-Naples 12 Dec 1918)
+							name=Isabella
+							female=yes
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070713	# Filippo Caracciolo
+							mother=100081593	# Emilia Compagna
+							1882.04.20={birth=yes}
+							1957.01.01={death=yes}  # EST.
+						}
+						100070734={ #// 6c) Mario (Naples 15 May 1883-Rome 3 Dec 1958); m.Naples 3 Jun 1915 Miriam Crosby (New Orleans 1888-Rome 23 Aug 1966)
+							name=Mario
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070713	# Filippo Caracciolo
+							mother=100081593	# Emilia Compagna
+							1883.05.15={birth=yes}
+							1915.06.03={add_spouse=100081731}	# Miriam Crosby
+							1958.12.03={death=yes}
+						}
+							100070735={ #// 1d) Ludovico (Washington 11 Jan 1920-13 Dec 1941)
+								name=Ludovico
+								dynasty=1006013
+								religion=catholic culture=italian
+								father=100070734	# Mario Caracciolo
+								mother=100081731	# Miriam Crosby
+								1920.01.11={birth=yes}
+								1941.12.13={death=yes}
+							}
+					100070737={ #// 8b) Maria (Naples 28 Oct 1850); m.Naples 7 Jun 1879 Carlo Caracciolo (1853)
+						name=Maria
+						female=yes
+						dynasty=1006013
+						religion=catholic culture=italian
+						father=100070701	# Nicola Caracciolo
+						mother=100081238	# DONNA Emanuela Caracciolo
+						1850.10.28={birth=yes}
+						1924.01.01={death=yes}  # EST.
+					}
+				100070738={ #// 2a) Giuseppe (Naples 10 Nov 1810-Naples 25 Dec 1900); m.Naples 9 Dec 1841 Donna Giovanna Imperiali, Pssa di Francavilla (Naples 24 Jan 1814-Naples 19 Sep 1903) $$
+					name=Giuseppe
+					dynasty=1006013
+					religion=catholic culture=italian
+					father=100070700	# Gaetano Caracciolo
+					mother=100081245	# Beatrice Caracciolo di Torella
+					1810.11.10={birth=yes}
+					1841.12.09={add_spouse=100071127}	# Giovanna Imperiali
+					1900.12.25={death=yes}
+				}
+					100070739={ #// 1b) Giuseppe, Pr di Francavilla (Mesagne 16 Sep 1842)
+						name=Giuseppe
+						dynasty=1006013
+						religion=catholic culture=italian
+						father=100070738	# Giuseppe Caracciolo
+						mother=100071127	# Giovanna Imperiali
+						1842.09.16={birth=yes}
+						1915.01.01={death=yes}  # EST.
+					}
+					100070741={ #// 3b) Francesco (Mesagne 25 Aug 1847); m.8 Feb 1882 Maria Clotilde Rocca (d.24 Apr 1885)
+						name=Francesco
+						dynasty=1006013
+						religion=catholic culture=italian
+						father=100070738	# Giuseppe Caracciolo
+						mother=100071127	# Giovanna Imperiali
+						1847.08.25={birth=yes}
+						1882.02.08={add_spouse=100089586}	# Maria Clotilde Rocca
+						1920.01.01={death=yes}  # EST.
+					}
+						100070742={ #// 1c) Giuseppe, became a Benedictine monk and renounced his titles in favour of his cousin, Emanuele Imperiali (25 Oct 1883)
+							name=Giuseppe
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070741	# Francesco Caracciolo
+							mother=100089586	# Maria Clotilde Rocca
+							1883.10.25={birth=yes}
+							1958.01.01={death=yes}  # EST.
+						}
+						100070726={ #// 2c) Beatrice (*16 Sep 1884)
+							name=Beatrice
+							female=yes
+							dynasty=1006013
+							religion=catholic culture=italian
+							father=100070741	# Francesco Caracciolo
+							mother=100089586	# Maria Clotilde Rocca
+							1884.09.16={birth=yes}
+							1959.01.01={death=yes}  # EST.
+						}
 #LINE10
 ##  1006013  	Caracciolo				100072450
 
@@ -16370,7 +18460,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 							1950.06.06={birth=yes}
 							2008.11.18={death=yes}
 						}
-					100070018={ #// 2e) Emilia (b.Sarno 15 Sep 1926); m.Naples 25 Jun 1946 Don Ferdinando Acton, Pr di Leporano, Duca di Spezzano e Conte di Picerno, Barone Acton, Patrizio di Napoli (Naples 27 Sep 1908-Naples 12 Jul 1979)
+					100070018={ #// 2e) Emilia (b.Sarno 15 Sep 1926); m.Naples 25 Jun 1946 Don Ferdinando Acton, Pr di Leporano, Duca di Spezzano e Conte di Picerno, Barone Acton, Patrizio di Napoli (Naples 27 Sep 1908-Naples 12 Jul 1979) $$
 						name=Emilia
 						female=yes
 						dynasty=1006012
@@ -19673,7 +21763,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 			father=100071322	# Carlo Imperiali
 			mother=100087848	# DUCHI Giuseppina Marulli di Ascoli
 			1852.09.03={birth=yes}
-			1877.01.01={add_spouse=urusov_0069}	# Ольга Ивановна Урусов
+			1878.01.01={add_spouse=urusov_0151}	# Екатерина Александровна Урусов
 			1926.01.01={death=yes}  # EST.
 		}
 		100071331={ #// 5b) Enrico (1855-   ) m. Caterina Hvostchenskoy
@@ -19709,7 +21799,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 				1945.01.01={add_spouse=100084084}	# Augusta Galleani
 				1962.01.01={death=yes}
 			}
-				100071336={ #// 1d) Catherine Irene Helen (b.29 May 1929); m.1st 17 Sep 1947 (div 1955) Richard Bentick Boyle, 9th Earl of Shannon (b.23 Oct 1924); m.2nd 1979 Sir Peter Saunders, Kt (23 Nov 1911-6 Feb 2003)
+				100071336={ #// 1d) Catherine Irene Helen (b.29 May 1929); m.1st 17 Sep 1947 (div 1955) Richard Bentick Boyle, 9th Earl of Shannon (b.23 Oct 1924); m.2nd 1979 Sir Peter Saunders, Kt (23 Nov 1911-6 Feb 2003) $$
 					name="Catherine Irene"
 					female=yes
 					dynasty=1006010
@@ -23984,7 +26074,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 							mother=100093233	# DSS Monica Carafa
 							1771.01.01={birth=yes}
 							1803.11.12={add_spouse=100093362}	# DSS Eleonora Serra
-							1839.07.10={add_spouse=100093368}	# COUNTESS Marie Julie Roussel von Rogenber
+							1839.07.10={add_spouse=100093368}	# CSS Marie Julie Roussel von Rogenber
 							1848.11.17={add_spouse=100093690}	# MARQUESA Carolina d'Andrea Pescopagano
 							1849.12.23={death=yes}  # Roma
 						}
@@ -24272,7 +26362,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 		1729.01.01={add_spouse=100080790}	# PSS Agnese Colonna di Paliano
 		1763.01.01={death=yes}
 	}
-		100071747={ #// B2. Livia (*Roma 22.9.1731, +Roma 10.3.1802); m.1759 Emilio Altieri (*1723, +1801) %%
+		100071747={ #// B2. Livia (*Roma 22.9.1731, +Roma 10.3.1802); m.1759 Emilio Altieri (*25.4.1723, +27.1.1801) %%
 			name=Livia
 			female=yes
 			dynasty=1006005
@@ -25549,9 +27639,9 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 					religion=catholic culture=italian
 					father=100070527	# Francesco Borghese
 					mother=100067328	# Adèle de La Rochefoucauld
-					1823.06.23={birth=yes}
-					1847.05.10={add_spouse=100025989}	# Jacqueline Arabella Fitz-James Stuart
-					1892.06.15={death=yes}
+					1823.06.23={birth=yes}  # Paris
+					1847.05.08={add_spouse=fitzjames_0065}	# Jacqueline Fitz-James Stuart
+					1892.06.15={death=yes}  # Rome
 				}
 					100070631={ #// 1b) Isabella Maria Adelaide Margherita Anna Ignazia Pacifica Floriana Gasparina Francesca de Paula Teresa Josefa (Rome 22 Dec 1849-Florence 8 Jan 1918); m.Rome 30 Sep 1871 Gastone Cte Larderel (d.3 May 1895)
 						name="Isabella Maria"
@@ -25559,7 +27649,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 						dynasty_house=borghese_salviati
 						religion=catholic culture=italian
 						father=100070629	# Scipione Salviati
-						mother=100025989	# Jacqueline Arabella Fitz-James Stuart
+						mother=fitzjames_0065	# Jacqueline Fitz-James Stuart
 						1849.12.22={birth=yes}
 						1918.01.08={death=yes}
 					}
@@ -25569,7 +27659,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 						dynasty_house=borghese_salviati
 						religion=catholic culture=italian
 						father=100070629	# Scipione Salviati
-						mother=100025989	# Jacqueline Arabella Fitz-James Stuart
+						mother=fitzjames_0065	# Jacqueline Fitz-James Stuart
 						1855.12.18={birth=yes}
 						1912.08.24={death=yes}
 					}
@@ -25578,7 +27668,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 						dynasty_house=borghese_salviati
 						religion=catholic culture=italian
 						father=100070629	# Scipione Salviati
-						mother=100025989	# Jacqueline Arabella Fitz-James Stuart
+						mother=fitzjames_0065	# Jacqueline Fitz-James Stuart
 						1860.08.05={birth=yes}
 						1885.09.12={add_spouse=100070650}	# Maria Carlotta Aldobrandini
 						1920.01.28={death=yes}
@@ -25708,7 +27798,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 								father=100070657	# Averardo Salviati
 								mother=100083916	# Igieai Costanza Florio
 								1927.09.11={birth=yes}	# Migliarino
-								1956.02.11={add_spouse=100084143}	# Maria Grazia Gawronski
+								1956.02.11={add_spouse=100084143}	# Maria Grazia Gawroński
 								2004.01.01={death=yes}  # EST.
 							}
 								100070667={ #// 1e) Lorenzo (b.Rome 10 Mar 1957); m.1st 1981 (div 1995) Beverly d'Angelo (b.Columbus 15 Nov 1954); m.2nd 1996 Valentina Bonomo (b.Bari 14 Aug 1959)
@@ -25716,7 +27806,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 									dynasty_house=borghese_salviati
 									religion=catholic culture=italian
 									father=100070665	# Forese Antonino Salviati
-									mother=100084143	# Maria Grazia Gawronski
+									mother=100084143	# Maria Grazia Gawroński
 									1957.03.10={birth=yes}
 									1981.01.01={add_spouse=100081816}	# Beverly d'Angelo
 									1995.01.01={remove_spouse=100081816}
@@ -25736,7 +27826,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 									dynasty_house=borghese_salviati
 									religion=catholic culture=italian
 									father=100070665	# Forese Antonino Salviati
-									mother=100084143	# Maria Grazia Gawronski
+									mother=100084143	# Maria Grazia Gawroński
 									1958.05.10={birth=yes}
 								}
 								100070673={ #// 3e) Dianora (b.Rome 8 Sep 1960)
@@ -25745,7 +27835,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 									dynasty_house=borghese_salviati
 									religion=catholic culture=italian
 									father=100070665	# Forese Antonino Salviati
-									mother=100084143	# Maria Grazia Gawronski
+									mother=100084143	# Maria Grazia Gawroński
 									1960.09.08={birth=yes}
 								}
 							100070675={ #// 5d) Leonardo (Migliarino 30 Aug 1935-Bogota 9 Apr 2008); m.Naples 9 Jan 1963 Donna Ottavia Caracciolo-Meoli di Acquara dei Duchi di San Vito (b.Melizzano 30 Aug 1935) $$
@@ -25780,7 +27870,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 						dynasty_house=borghese_salviati
 						religion=catholic culture=italian
 						father=100070629	# Scipione Salviati
-						mother=100025989	# Jacqueline Arabella Fitz-James Stuart
+						mother=fitzjames_0065	# Jacqueline Fitz-James Stuart
 						1862.10.04={birth=yes}
 						1932.01.16={death=yes}
 					}
@@ -26214,7 +28304,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 				1891.07.26={add_spouse=100088558}	# Giuseppina Nunziante
 				1922.10.16={death=yes}
 			}
-				100071496={ #// 1d) Maria Rosaria Giovanna (Naples 5 Feb 1893-Naples 23 May 1989); m.Naples 18 Nov 1919 Don Domenico Pr Caracciolo di Vietri (Naples 20 Feb 1891-Rome 4 Oct 1970)
+				100071496={ #// 1d) Maria Rosaria Giovanna (Naples 5 Feb 1893-Naples 23 May 1989); m.Naples 18 Nov 1919 Don Domenico Pr Caracciolo di Vietri (Naples 20 Feb 1891-Rome 4 Oct 1970) $$
 					name="Maria Rosaria"
 					female=yes
 					dynasty=1006004
@@ -27337,7 +29427,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 					1544.01.01={birth=yes}  # EST.
 					1595.02.11={death=yes}
 				}
-			100070396={ #// C3. Madeleine, *ca 1510, +1586; m.St.Germain-en-Laye 10.1.1527 Duc Anne de Montmorency (*15.3.1492 +12.11.1567)
+			100070396={ #// C3. Madeleine, *ca 1510, +1586; m.St.Germain-en-Laye 10.1.1527 Duc Anne de Montmorency (*15.3.1492 +12.11.1567) $$
 				name=Madeleine
 				female=yes
 				dynasty=240
@@ -28079,7 +30169,17 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 					mother=100001698	# Christine Henriette von Hessen-Rheinfels-Rotenburg
 					1762.04.04={birth=yes}
 					1823.09.04={death=yes}
-				}		
+				}	
+			100372090={ #// C4. Anna Teresa, *1.11.1717, +Paris 5.4.1745; m.Paris 5.12.1741 Charles Julius de Rohan, Pr de Soubise (*16.7.1715 +1.7.1787) $$
+				name="Anna Teresa"
+				female=yes
+				dynasty_house=house_savoy_carignano
+				religion=catholic culture=italian
+				father=100072032	# Vittorio Amedeo di Savoia-Carignano
+				mother=100072026	# Vittoria Francesca de Savoie
+				1717.11.01={birth=yes}
+				1745.04.05={death=yes}	# Paris
+			}
 	100072740={ #// A7. Luisa Cristina, *Paris 1.8.1627, +Paris 7.7.1689; m.Paris 15.3.1654 Mgve Ferdinand Maximilian of Baden-Baden (*23.9.1625 +4.11.1669) $$
 		name="Luisa Cristina"
 		female=yes
@@ -28615,7 +30715,7 @@ caracciolo_0348={ #// Don Agostino Caracciolo, Pr di Forino (Naples 14 Sep 1804-
 				1830.01.01={add_spouse=lazansky_0049}	# Tereza Lažanský von Bukowa
 				1846.01.02={death=yes}  # Wien
 			}
-				montecladerchi_0002={ #// D1. Hugo (*Wien 18.12.1835, +Wien 16.5.1866); m.17.4.1858 Anna Forgách de Ghymes et Gács (*22.11.1828, +Hafnerbach 5.5.1901) %%
+				montecladerchi_0002={ #// D1. [2m.] Hugo (*Wien 18.12.1835, +Wien 16.5.1866); m.17.4.1858 Anna Forgách de Ghymes et Gács (*22.11.1828, +Hafnerbach 5.5.1901) %%
 					name="Hugo Montecuccoli"
 					#dynasty=0
 					religion=catholic culture=german
@@ -30177,7 +32277,6 @@ pozzoborgo_0001={ #// Jérôme Pozzo di Borgo (Alata, Corsica 1735-Palermo Aug 1
 		father=pozzoborgo_0001	# Jérôme Pozzo di Borgo
 		mother=lowborn_3574	# Marie Pompéani
 		1782.09.29={birth=yes}  # Alata, Corse-du-Sud, Corse, France
-		1810.01.01={add_spouse=100048003}	# Theresia-Wilhelmina Wratislav z Mitrowicz
 		1827.09.30={death=yes}  # Ajaccio 
 	}
 	pozzoborgo_0010={ #// 10a) Paul-Félix (Alata 14 Apr 1785-assasinated at Ajaccio 28 May 1838); m.Ajaccio 15 Sep 1824 Pauline Forcioli (Ajaccio 24 Nov 1805-22 Nov 1870)
@@ -30368,7 +32467,7 @@ pozzoborgo_0001={ #// Jérôme Pozzo di Borgo (Alata, Corsica 1735-Palermo Aug 1
 						father=pozzoborgo_0019	# Joseph-Jean-Mathieu-Jérôme Pozzo di Borgo
 						mother=lowborn_3614	# Valérie Norrie
 						1931.01.01={birth=yes}
-						1953.05.09={add_spouse=lowborn_3622}	# Tatiana de Poliakoff-Baidaroff
+						1953.05.09={add_spouse=lowborn_3622}	# Tatiana Поляков-Baidaroff
 						2018.01.04={death=yes}
 					}
 						pozzoborgo_0030={ #// 1f) Barbara; m.28 Sep 1974 Philippe Toussaint (b.1948)
@@ -30377,7 +32476,7 @@ pozzoborgo_0001={ #// Jérôme Pozzo di Borgo (Alata, Corsica 1735-Palermo Aug 1
 							dynasty=pozzoborgo
 							religion=catholic culture=french
 							father=pozzoborgo_0029	# François Pozzo di Borgo
-							mother=lowborn_3622	# Tatiana de Poliakoff-Baidaroff
+							mother=lowborn_3622	# Tatiana Поляков-Baidaroff
 							1955.01.01={birth=yes}  # EST.
 							2015.01.01={death=yes}  # EST.
 						}
@@ -30386,7 +32485,7 @@ pozzoborgo_0001={ #// Jérôme Pozzo di Borgo (Alata, Corsica 1735-Palermo Aug 1
 							dynasty=pozzoborgo
 							religion=catholic culture=french
 							father=pozzoborgo_0029	# François Pozzo di Borgo
-							mother=lowborn_3622	# Tatiana de Poliakoff-Baidaroff
+							mother=lowborn_3622	# Tatiana Поляков-Baidaroff
 							1955.01.01={birth=yes}  # EST.
 							1984.01.01={add_spouse=lowborn_3624}	# Sylvie Chassepot
 							2015.01.01={death=yes}  # EST.
@@ -30412,7 +32511,7 @@ pozzoborgo_0001={ #// Jérôme Pozzo di Borgo (Alata, Corsica 1735-Palermo Aug 1
 							dynasty=pozzoborgo
 							religion=catholic culture=french
 							father=pozzoborgo_0029	# François Pozzo di Borgo
-							mother=lowborn_3622	# Tatiana de Poliakoff-Baidaroff
+							mother=lowborn_3622	# Tatiana Поляков-Baidaroff
 							1957.01.01={birth=yes}
 							1990.09.22={add_spouse=lowborn_3625}	# Nicole-Marie Archambaud
 						}
@@ -30449,7 +32548,7 @@ pozzoborgo_0001={ #// Jérôme Pozzo di Borgo (Alata, Corsica 1735-Palermo Aug 1
 							dynasty=pozzoborgo
 							religion=catholic culture=french
 							father=pozzoborgo_0029	# François Pozzo di Borgo
-							mother=lowborn_3622	# Tatiana de Poliakoff-Baidaroff
+							mother=lowborn_3622	# Tatiana Поляков-Baidaroff
 							1964.01.01={birth=yes}
 						}
 				pozzoborgo_0039={ #// 5d) Reynier-Marie-Joseph-Henri (Cannes 8 Dec 1894-Paris 28 May 1934)
@@ -30772,6 +32871,15 @@ sforza_0001={ #// Muzio Attendolo, called Sforza, Count of Cotignola, Lord of Be
 				1467.01.01={birth=yes}  # Pavia
 				1531.01.01={death=yes}  # Genoa
 			}
+			sforza_0024={ #// C10. [illegitimate] Galeazzo, Count of Melzo 1493, *Milan 1478, +Pavia 1515
+				name=Galeazzo
+				dynasty=sforza
+				religion=catholic culture=italian
+				father=sforza_0008	# Galeazzo Maria Sforza
+				trait=bastard
+				1474.01.01={birth=yes}  # Milan
+				1515.01.01={death=yes}  # Pavia
+			}
 			sforza_0023={ #// C9. [illegitimate] Ottaviano, Bishop of Lodi 1497 and Arezzo 1519, *Milan 1477, +Rome ca 1541
 				name=Ottaviano
 				dynasty=sforza
@@ -30780,15 +32888,6 @@ sforza_0001={ #// Muzio Attendolo, called Sforza, Count of Cotignola, Lord of Be
 				trait=bastard
 				1477.01.01={birth=yes}  # Milan
 				1541.01.01={death=yes}  # Rome
-			}
-			sforza_0024={ #// C10. [illegitimate] Galeazzo, Count of Melzo 1493, *Milan 1478, +Pavia 1515
-				name=Galeazzo
-				dynasty=sforza
-				religion=catholic culture=italian
-				father=sforza_0008	# Galeazzo Maria Sforza
-				trait=bastard
-				1478.01.01={birth=yes}  # Milan
-				1515.01.01={death=yes}  # Pavia
 			}
 		sforza_0025={ #// B2. Ippolita Maria, *Cremona 18.4.1446, +Naples 20.8.1488; m.Milan 14.9.1465 Alfonso d'Aragona, Duke of Calabria [later King Alfonso II of Naples] (*4.11.1448, +Messina 18.12.1495)
 			name=Ippolita
@@ -30818,14 +32917,14 @@ sforza_0001={ #// Muzio Attendolo, called Sforza, Count of Cotignola, Lord of Be
 			1449.01.01={birth=yes}  # Pavia
 			1479.01.01={death=yes}  # Milan
 		}
-		sforza_0028={ #// B5. LUDOVICO MARIA "il Moro", Duke of Bari (1479-99), Duke of Milan (1494-99)+(1500-01), *Vigevano 1452, +Loches,Turenne 29.3.1508; m.18.9.1491 Pss Beatrice d'Este of Ferrara (*Ferrara 29.6.1475, +Milano 2.1.1475)
+		sforza_0028={ #// B5. LUDOVICO MARIA "il Moro", Duke of Bari (1479-99), Duke of Milan (1494-99)+(1500-01), *Vigevano 1452, +Loches,Turenne 29.3.1508; m.18.9.1491 Pss Beatrice d'Este of Ferrara (*Ferrara 29.6.1475, +Milano 2.1.1475) $$
 			name=Ludovico
 			dynasty=sforza
 			religion=catholic culture=italian
 			father=sforza_0007	# Francesco Sforza
 			mother=lowborn_2642	# PSS Bianca Visconti di Milan
 			1452.01.01={birth=yes}  # Vigevano
-			1491.09.18={add_spouse=lowborn_2660}	# PSS Beatrice d'Este di Ferrara
+			1491.09.18={add_spouse=100071433}	# Beatrice d'Este
 			1508.03.29={death=yes}  # Loches Turenne
 		}
 			sforza_0029={ #// C1. Ercole MASSIMILIANO, Duke of Milan (1512-15)+(1529-30), Prince of Pavia, *Milan 25.1.1493, +officially dead in Paris 1530
@@ -30833,7 +32932,7 @@ sforza_0001={ #// Muzio Attendolo, called Sforza, Count of Cotignola, Lord of Be
 				dynasty=sforza
 				religion=catholic culture=italian
 				father=sforza_0028	# Ludovico Sforza
-				mother=lowborn_2660	# PSS Beatrice d'Este di Ferrara
+				mother=100071433	# Beatrice d'Este
 				1493.01.25={birth=yes}  # Milan
 				1530.01.01={death=yes}  # officially dead in Paris
 			}
@@ -30842,7 +32941,7 @@ sforza_0001={ #// Muzio Attendolo, called Sforza, Count of Cotignola, Lord of Be
 				dynasty=sforza
 				religion=catholic culture=italian
 				father=sforza_0028	# Ludovico Sforza
-				mother=lowborn_2660	# PSS Beatrice d'Este di Ferrara
+				mother=100071433	# Beatrice d'Este
 				1495.02.04={birth=yes}  # Vigevano
 				1534.01.01={add_spouse=100013006}	# Christine von Oldenburg
 				1535.01.01={death=yes}  # Milan
@@ -31283,8 +33382,8 @@ caretto_0081={ #// Stefano Caretto-Cavriani di Millesimo, Freiherr von Steck, Vi
 		father=caretto_0081	# Stefano del Caretto
 		mother=lowborn_2731	# Magdalena Kostomlaská z Vřesovic
 		1619.01.01={birth=yes}  # EST.
-		1653.01.01={add_spouse=lowborn_2781}	# Marie Františka Eusebie Žďárský ze Žďáru
-		1669.08.05={add_spouse=lowborn_2800}	# GFN Johana Barbora Žďárský ze Žďáru
+		1653.01.01={add_spouse=lowborn_2781}	# Marie Františka Eusebie Žďárská ze Žďáru
+		1669.08.05={add_spouse=lowborn_2800}	# GFN Johana Barbora Žďárská ze Žďáru
 		1689.01.01={death=yes}
 	}
 		caretto_0087={ #// B1. [1m.] Marie Josefa, *1654, +1740; m.Jan Pavel Harant z Polžic
@@ -31293,7 +33392,7 @@ caretto_0081={ #// Stefano Caretto-Cavriani di Millesimo, Freiherr von Steck, Vi
 			dynasty=caretto
 			religion=catholic culture=czech
 			father=caretto_0086	# Karel Leopold del Caretto
-			mother=lowborn_2781	# Marie Františka Eusebie Žďárský ze Žďáru
+			mother=lowborn_2781	# Marie Františka Eusebie Žďárská ze Žďáru
 			1654.01.01={birth=yes}
 			1740.01.01={death=yes}
 		}
@@ -31302,7 +33401,7 @@ caretto_0081={ #// Stefano Caretto-Cavriani di Millesimo, Freiherr von Steck, Vi
 			dynasty=caretto
 			religion=catholic culture=czech
 			father=caretto_0086	# Karel Leopold del Caretto
-			mother=lowborn_2781	# Marie Františka Eusebie Žďárský ze Žďáru
+			mother=lowborn_2781	# Marie Františka Eusebie Žďárská ze Žďáru
 			1660.01.01={birth=yes}
 			1692.01.01={add_spouse=lowborn_2803}	# Marie Eliška Kustoš ze Zubřího a Lipky
 			1740.01.01={death=yes}
@@ -31373,7 +33472,7 @@ caretto_0081={ #// Stefano Caretto-Cavriani di Millesimo, Freiherr von Steck, Vi
 			religion=catholic culture=czech
 			trait=legitimized_bastard
 			father=caretto_0086	# Karel Leopold del Caretto
-			mother=lowborn_2800	# GFN Johana Barbora Žďárský ze Žďáru
+			mother=lowborn_2800	# GFN Johana Barbora Žďárská ze Žďáru
 			1666.03.14={birth=yes}  # Vilímov
 			1690.01.01={add_spouse=lowborn_2831}	# Johanna Terezie Hrobčický z Hrobčic
 			1724.02.02={death=yes}  # Hostitz
@@ -31484,7 +33583,7 @@ caretto_0081={ #// Stefano Caretto-Cavriani di Millesimo, Freiherr von Steck, Vi
 			dynasty=caretto
 			religion=catholic culture=czech
 			father=caretto_0086	# Karel Leopold del Caretto
-			mother=lowborn_2800	# GFN Johana Barbora Žďárský ze Žďáru
+			mother=lowborn_2800	# GFN Johana Barbora Žďárská ze Žďáru
 			1670.01.01={birth=yes}
 			1700.01.01={add_spouse=lowborn_2847}	# Antonie Františka Planská ze Žeberku
 			1717.06.01={death=yes}  # Praha
@@ -31544,7 +33643,7 @@ caretto_0081={ #// Stefano Caretto-Cavriani di Millesimo, Freiherr von Steck, Vi
 			dynasty=caretto
 			religion=catholic culture=czech
 			father=caretto_0086	# Karel Leopold del Caretto
-			mother=lowborn_2800	# GFN Johana Barbora Žďárský ze Žďáru
+			mother=lowborn_2800	# GFN Johana Barbora Žďárská ze Žďáru
 			1675.01.01={birth=yes}
 			1718.01.01={add_spouse=lowborn_2853}	# Maria Barbora von Metzker
 			1734.01.01={add_spouse=lowborn_2854}	# Katerina Františka Kalhardt von Sternfeld
@@ -31980,7 +34079,7 @@ lodron_0022={ #// G3. Paris Otto VON LODRON, +1439; m.DI Nogarola
 													religion=catholic culture=italian
 													father=lodron_0467	# Kaspar Maria zu Lodron-Laterano u.Castelromano
 													mother=lowborn_3868	# Karoline von Enzenberg zum Freyen- u.Jöchelsthurn
-													1844.07.17={birth=yes}  # Wien, died Oct
+													1844.07.17={birth=yes}
 													1919.01.01={death=yes}  # EST.
 												}
 												lodron_0493={ #// S2. Emma VON LODRON-LATERANO UND CASTELROMANO, *Wien 1846.02.05, +Innsbruck 1906.11.28; m.Graz 18.5.1869 Hubert zu Lodron-Laterano und Castelromano $$
@@ -32908,14 +35007,14 @@ lodron_0022={ #// G3. Paris Otto VON LODRON, +1439; m.DI Nogarola
 									1727.10.29={birth=yes}
 									1777.01.01={death=yes}
 								}
-							lodron_0268={ #// N4. Maximilian LODRON, +1725; m.20.3.1701 Aloisia von Thurn-Valsassina
+							lodron_0268={ #// N4. Maximilian LODRON, +1725; m.20.3.1701 Aloisia von Thurn-Valsassina $$
 								name=Maximilian
 								dynasty=1002214
 								religion=catholic culture=italian
 								father=lodron_0217	# Nikolaus Georg zu Lodron-Laterano u.Castelromano
 								mother=lowborn_3752	# Maria Cecilia von Gabelkoven
 								1685.01.01={birth=yes}  # EST.
-								1701.03.20={add_spouse=lowborn_3783}	# Aloisia von Thurn u.Valsassina
+								1701.03.20={add_spouse=torre_0059}	# Aloisia von Thurn u.Valsassina-Como-Vercelli
 								1725.04.25={death=yes}
 							}
 								lodron_0309={ #// O1. Joseph Siegmund LODRON, +1795
@@ -32923,8 +35022,8 @@ lodron_0022={ #// G3. Paris Otto VON LODRON, +1439; m.DI Nogarola
 									dynasty=1002214
 									religion=catholic culture=italian
 									father=lodron_0268	# Maximilian zu Lodron-Laterano u.Castelromano
-									mother=lowborn_3783	# Aloisia von Thurn u.Valsassina
-									1720.01.01={birth=yes}  # EST.
+									mother=torre_0059	# Aloisia von Thurn u.Valsassina-Como-Vercelli
+									1703.01.01={birth=yes}  # EST.
 									1795.01.01={death=yes}
 								}
 							lodron_0266={ #// N6. Philipp Anton LODRON, +1712; m.Walpurgis von Ludden
@@ -33636,7 +35735,7 @@ lodron_0022={ #// G3. Paris Otto VON LODRON, +1439; m.DI Nogarola
 					dynasty=1002214
 					religion=catholic culture=italian
 					father=lodron_0079	# Sebastian I zu Lodron-Laterano u.Castelromano
-					mother=lowborn_3655	# Domitilla de Griffoni di Sant'angelo
+					mother=lowborn_3654	# Valentine von Freundsberg
 					1495.01.01={birth=yes}  # EST.
 					1515.01.01={add_spouse=lowborn_3691}	# Apollonia Lang von Wellenburg
 					1516.01.01={death=yes}
@@ -33646,7 +35745,7 @@ lodron_0022={ #// G3. Paris Otto VON LODRON, +1439; m.DI Nogarola
 					dynasty=1002214
 					religion=catholic culture=italian
 					father=lodron_0079	# Sebastian I zu Lodron-Laterano u.Castelromano
-					mother=lowborn_3655	# Domitilla de Griffoni di Sant'angelo
+					mother=lowborn_3654	# Valentine von Freundsberg
 					1497.01.01={birth=yes}  # EST.
 					1536.01.01={add_spouse=lowborn_3692}	# Margaretha von Roggendorf
 					1571.01.01={death=yes}  # EST.
@@ -33819,7 +35918,7 @@ lodron_0022={ #// G3. Paris Otto VON LODRON, +1439; m.DI Nogarola
 					father=lodron_0064	# Nikolaus Johann zu Lodron-Laterano u.Castelromano
 					1523.01.01={birth=yes}  # EST.
 					1549.01.01={add_spouse=lowborn_3667}	# Katharina von Hoyos
-					1584.01.01={add_spouse=berka_0070}	# Anna Marie Berka z Dubé
+					1579.01.01={add_spouse=berka_0070}	# Anna Marie Berka z Dubé
 					1585.09.10={death=yes}
 				}
 					lodron_0165={ #// L2. Alfonso DI LODRON, *1580, +1647; m.1st Magdalena von Thun In Castel Brughier (*1615, +16.5.1636); m.2nd Orsola d'Arco (*1609, +1657)
@@ -33827,7 +35926,7 @@ lodron_0022={ #// G3. Paris Otto VON LODRON, +1439; m.DI Nogarola
 						dynasty=1002214
 						religion=catholic culture=italian
 						father=lodron_0094	# Kaspar zu Lodron-Laterano u.Castelromano
-						mother=lowborn_3667	# Katharina von Hoyos
+						mother=berka_0070	# Katharina von Hoyos
 						1580.08.24={birth=yes}
 						1634.01.01={add_spouse=lowborn_3706}	# Magdalena von Thun in Castel Brughier
 						1638.01.01={add_spouse=lowborn_3707}	# Orsola d'Arco
@@ -33838,8 +35937,8 @@ lodron_0022={ #// G3. Paris Otto VON LODRON, +1439; m.DI Nogarola
 						dynasty=1002214
 						religion=catholic culture=italian
 						father=lodron_0094	# Kaspar zu Lodron-Laterano u.Castelromano
-						mother=lowborn_3667	# Katharina von Hoyos
-						1579.01.01={birth=yes}  # EST.
+						mother=berka_0070	# Katharina von Hoyos
+						1581.01.01={birth=yes}  # EST.
 						1602.01.13={add_spouse=100010989}	# Sibylla Fugger
 						1635.05.31={death=yes}
 					}
@@ -33932,14 +36031,14 @@ lodron_0022={ #// G3. Paris Otto VON LODRON, +1439; m.DI Nogarola
 								1629.01.01={birth=yes}  # EST.
 								1688.01.01={death=yes}
 							}
-							lodron_0258={ #// N3. Franz Niklas VON LODRON, +1695; m.2.9.1653 Anna Theresia von Dietrichstein (*1638)
+							lodron_0258={ #// N3. Franz Niklas VON LODRON, +1695; m.2.9.1653 Anna Theresia von Dietrichstein (*1638) $$
 								name="Franz Niklas"
 								dynasty=1002214
 								religion=catholic culture=italian
 								father=lodron_0209	# Christoph zu Lodron-Laterano u.Castelromano
 								mother=lowborn_3744	# Barbara Katharina von Spaur
 								1632.01.01={birth=yes}  # EST.
-								1653.09.02={add_spouse=lowborn_3775}	# Anna Theresia von Dietrichstein
+								1653.09.02={add_spouse=dietrich_0016}	# Anna Theresia von Dietrichstein
 								1695.07.15={death=yes}
 							}
 							lodron_0257={ #// N4. Katharina Klara VON LODRON, +1666; m.22.4.1652 Georg Christian zu Saurau (*1624, +1.11.1686)
@@ -34706,3 +36805,241 @@ appiani_0001={ #// Giulio, Consignore di Castino 1601 e Cortemiglia 1621, *Turin
 		}
 #appiani2
 ## APPIANI
+
+
+## ALTIERI
+# https://www.angelfire.com/realm/gotha/gotha/altieri.html
+altieri_0024={ #// Emilio Carlo Altieri, IV principe di Oriolo (*25.4.1723, +27.1.1801); m.1759 Livia Borghese (*Roma 22.9.1731, +Roma 10.3.1802) $$
+	name=Emilio
+	dynasty=altieri
+	religion=catholic culture=italian
+	1723.04.25={birth=yes}
+	1759.01.01={add_spouse=100071747}	# Livia Borghese
+	1801.01.27={death=yes}
+}
+	altieri_0001={ #// Paluzzo Pr Altieri Pr di Oriolo, Pr di Aviano, etc (Rome 31 Jul 1760-Rome 10 Jan 1834); m.15 Oct 1793 Maria Anna Gfn von der Lausitz (Siena 20 Oct 1770-Rome 24 Dec 1845) $$
+		name=Paluzzo
+		dynasty=altieri
+		religion=catholic culture=italian
+		father=altieri_0024	# Emilio Altieri
+		mother=100071747	# Livia Borghese
+		1760.07.31={birth=yes}  # Rome
+		1793.10.15={add_spouse=100007556}	# Maria Anna von Wettin
+		1834.01.10={death=yes}  # Rome
+	}
+		altieri_0002={ #// 1a) Clemente Pr Altieri, Pr di Oriolo, etc (Rome 6 Aug 1795-Rome 21 Jun 1873); m.Rome 19 Jan 1817 Donna Vittoria Boncompagni-Ludovisi (Rome 10 Jan 1799-Rome 25 Jan 1840) $$
+			name=Clemente
+			dynasty=altieri
+			religion=catholic culture=italian
+			father=altieri_0001	# Paluzzo Altieri
+			mother=100007556	# Maria Anna von Wettin
+			1795.08.06={birth=yes}  # Rome
+			1817.01.19={add_spouse=100070169}	# Vittoria Boncompagni-Ludovisi
+			1873.06.21={death=yes}  # Rome
+		}
+			altieri_0003={ #// 1b) Emilio Pr Altieri Pr di Oriolo, etc (Rome 20 Mar 1819-Rome 13 Jan 1900); m.Milan 1 May 1843 Beatrice Ctsa Archinto (Milan 20 Oct 1823-Rome 3 Jan 1899)
+				name=Emilio
+				dynasty=altieri
+				religion=catholic culture=italian
+				father=altieri_0002	# Clemente Altieri
+				mother=100070169	# Vittoria Boncompagni-Ludovisi
+				1819.03.20={birth=yes}  # Rome
+				1843.05.01={add_spouse=hihborn_7907}	# CTSA Beatrice Archinto
+				1900.01.13={death=yes}  # Rome
+			}
+				altieri_0004={ #// 1c) Vittoria Anna Maria (Rome 20 Mar 1844-30 Oct 1919); m.Rome 25 Apr 1866 Cte Giovanni Revedin Marchese di San Martino (Venice 2 Feb 1837-Florence 24 Jan 1911)
+					name=Vittoria
+					female=yes
+					dynasty=altieri
+					religion=catholic culture=italian
+					father=altieri_0003	# Emilio Altieri
+					mother=hihborn_7907	# CTSA Beatrice Archinto
+					1844.03.20={birth=yes}  # Rome
+					1919.10.30={death=yes}
+				}
+				altieri_0005={ #// 2c) Paolo Giuseppe Ange Pr Altieri Pr di Oriolo, etc (Rome 17 Nov 1849-Rome 4 Jan 1901); m.Monaco 2 Feb 1874 Mathilde Pss von Urach (Stuttgart 14 Jan 1854-Bad Möders 13 Jul 1907) $$
+					name="Paolo Giuseppe"
+					dynasty=altieri
+					religion=catholic culture=italian
+					father=altieri_0003	# Emilio Altieri
+					mother=hihborn_7907	# CTSA Beatrice Archinto
+					1849.11.17={birth=yes}  # Rome
+					1874.02.02={add_spouse=100006704}	# Mathilde Auguste von Urach
+					1901.01.04={death=yes}  # Rome
+				}
+					altieri_0006={ #// 1d) Theodolinda Carlotta Florestina Maria Giuseppina Guglielma (Rome 5 Nov 1876-Rome 21 Sep 1947); m.Rome 20 Jun 1897 Francesco di Napoli-Rampolla [or, Napoli Barresi Bellacera], Pr di Bonfornello (Palermo 24 Oct 1871-Polizzi Generosa 6 Nov 1938) $$
+						name=Theodolinda
+						female=yes
+						dynasty=altieri
+						religion=catholic culture=italian
+						father=altieri_0005	# Paolo Giuseppe Altieri
+						mother=100006704	# Mathilde Auguste von Urach
+						1876.11.05={birth=yes}  # Rome
+						1947.09.21={death=yes}  # Rome
+					}
+					altieri_0007={ #// 2d) Clemente (Rome 9 Dec 1877-Rome 21 Jan 1886)
+						name=Clemente
+						dynasty=altieri
+						religion=catholic culture=italian
+						father=altieri_0005	# Paolo Giuseppe Altieri
+						mother=100006704	# Mathilde Auguste von Urach
+						1877.12.09={birth=yes}  # Rome
+						1886.01.21={death=yes}  # Rome
+					}
+					altieri_0008={ #// 3d) Ludovico Pio Maria Laurentius Giovanni Pr Altieri, Pr di Oriolo, etc (Rome 27 Dec 1878- Rome 6 Jun 1955); m.Rome 18 Sep 1916 Emilia Belestra (Rome 7 Oct 1888-Rome 19 Jul 1967)
+						name=Ludovico
+						dynasty=altieri
+						religion=catholic culture=italian
+						father=altieri_0005	# Paolo Giuseppe Altieri
+						mother=100006704	# Mathilde Auguste von Urach
+						1878.12.27={birth=yes}  # Rome
+						1916.09.18={add_spouse=hihborn_7985}	# Emilia Belestra
+						1955.06.06={death=yes}  # Rome
+					}
+					altieri_0009={ #// 4d) Maria Augusta Guglielma Anna Giuseppina (Rome 31 Oct 1880-193_); m.Rome 10 Jan 1916 Marchese Roberto Pallovicino (Florence 14 Aug 1870-Arezzano 10 Sep 1937)
+						name="Maria Augusta"
+						female=yes
+						dynasty=altieri
+						religion=catholic culture=italian
+						father=altieri_0005	# Paolo Giuseppe Altieri
+						mother=100006704	# Mathilde Auguste von Urach
+						1881.01.01={birth=yes}  # Rome
+						1941.01.01={death=yes}  # EST.
+					}
+					altieri_0010={ #// 5d) Guglielmo Carlo Maria Giuseppe Ignacio (Rome 5 Apr 1884-Strada Arezzo 8 Jun 1894)
+						name=Guglielmo
+						dynasty=altieri
+						religion=catholic culture=italian
+						father=altieri_0005	# Paolo Giuseppe Altieri
+						mother=100006704	# Mathilde Auguste von Urach
+						1884.04.05={birth=yes}  # Rome
+						1894.06.08={death=yes}  # Strada Arezzo
+					}
+					altieri_0011={ #// 6d) Marc'Antonio (Oriolo Romano 5 Oct 1886-Civitavecchio 10 Dec 1886)
+						name=Marc'Antonio
+						dynasty=altieri
+						religion=catholic culture=italian
+						father=altieri_0005	# Paolo Giuseppe Altieri
+						mother=100006704	# Mathilde Auguste von Urach
+						1886.10.05={birth=yes}  # Oriolo Romano
+						1886.12.10={death=yes}  # Civitavecchio
+					}
+					altieri_0012={ #// 7d) Camilla (Rome 3 Dec 1889-Rome 4 Sep 1971); m.Rome 12 Feb 1917 Ct Pasolino Pasolini Dall'Onda (Ravenna 11 Jan 1876-Ravenna 2 Dec 1933)
+						name=Camilla
+						female=yes
+						dynasty=altieri
+						religion=catholic culture=italian
+						father=altieri_0005	# Paolo Giuseppe Altieri
+						mother=100006704	# Mathilde Auguste von Urach
+						1889.12.03={birth=yes}  # Rome
+						1971.09.04={death=yes}  # Rome
+					}
+					altieri_0013={ #// 8d) Marc'Antonio (Rome 2 May 1891-Cecina 7 Jun 1919); m.Frida Gallotti
+						name=Marc'Antonio
+						dynasty=altieri
+						religion=catholic culture=italian
+						father=altieri_0005	# Paolo Giuseppe Altieri
+						mother=100006704	# Mathilde Auguste von Urach
+						1891.05.02={birth=yes}  # Rome
+						1917.01.01={add_spouse=hihborn_1997}	# Frida Gallotti
+						1919.06.07={death=yes}  # Cecina
+					}
+				altieri_0014={ #// 3c) Cristina Anna Maria (Rome 12 Apr 1852-Rome 16 Jun 1930); m.Rome 2 Feb 1873 Girolamo Theodoli Marchese di Sambuci dei Marchesi di San Vito e Pisoniano (Rome 25 Dec 1846-Rome 28 May 1926)
+					name=Cristina
+					female=yes
+					dynasty=altieri
+					religion=catholic culture=italian
+					father=altieri_0003	# Emilio Altieri
+					mother=hihborn_7907	# CTSA Beatrice Archinto
+					1852.04.12={birth=yes}  # Rome
+					1930.06.16={death=yes}  # Rome
+				}
+				altieri_0015={ #// 4c) Maria Anna (Rome 20 Jan 1856-La Sforzesca 5 Dec 1927); m.Rome 6 Oct 1878 Alessandro Cte Rocca Saporiti Marchese della Sforzesca (20 Apr 1850-La Sforzesca 9 Dec 1927)
+					name="Maria Anna"
+					female=yes
+					dynasty=altieri
+					religion=catholic culture=italian
+					father=altieri_0003	# Emilio Altieri
+					mother=hihborn_7907	# CTSA Beatrice Archinto
+					1856.01.20={birth=yes}  # Rome
+					1927.12.05={death=yes}  # La Sforzesca
+				}
+				altieri_0016={ #// 5c) Laura (Rome 29 Jan 1858-Rome 4 May 1892); m.Rome 6 Jul 1884 Ugo Pr Boncompagni-Ludovisi Duca di Sora (1856-1935) $$
+					name=Laura
+					female=yes
+					dynasty=altieri
+					religion=catholic culture=italian
+					father=altieri_0003	# Emilio Altieri
+					mother=hihborn_7907	# CTSA Beatrice Archinto
+					1858.01.29={birth=yes}  # Rome
+					1892.05.04={death=yes}  # Rome
+				}
+			altieri_0017={ #// 2b) Livia (12 Jun 1820-25 Nov 1886); m.24 Nov 1839 Cte Girolamo di Colloredo Mels Marchese di Santa Sofia (Udine 8 Jun 1809-Recanati 20 Sep 1882)
+				name=Livia
+				female=yes
+				dynasty=altieri
+				religion=catholic culture=italian
+				father=altieri_0002	# Clemente Altieri
+				mother=100070169	# Vittoria Boncompagni-Ludovisi
+				1820.06.12={birth=yes}
+				1886.11.25={death=yes}
+			}
+			altieri_0018={ #// 3b) Chiara (Rome 18 Jan 1824-Rome 12 Feb 1888); m.Rome 29 Sep 1843 Pr e Marchese Matteo Antici-Mattei Duca di Giove (Rome 15 Sep 1805-Rome 4 Oct 1883) $$
+				name=Chiara
+				female=yes
+				dynasty=altieri
+				religion=catholic culture=italian
+				father=altieri_0002	# Clemente Altieri
+				mother=100070169	# Vittoria Boncompagni-Ludovisi
+				1824.01.18={birth=yes}  # Rome
+				1888.02.12={death=yes}  # Rome
+			}
+			altieri_0019={ #// 4b) Lorenzo Maria Giuseppe (Rome 28 Mar 1829-Gattaiola 31 Jan 1899); m.Lucca 2 Dec 1876 Pss Olga Cantacuzene (Odessa 25 Nov 1843-Gattaiola Feb 1929) $$
+				name=Lorenzo
+				dynasty=altieri
+				religion=catholic culture=italian
+				father=altieri_0002	# Clemente Altieri
+				mother=100070169	# Vittoria Boncompagni-Ludovisi
+				1829.03.28={birth=yes}  # Rome
+				1876.12.02={add_spouse=100030107}	# Olga Cantacuzino
+				1899.01.31={death=yes}  # Gattaiola
+			}
+				altieri_0020={ #// 1c) Ludovica (Lucca 30 Oct 1877-Gattaiola 6 Oct 1938); m.1st Lucca 1 Apr 1894 (div 1898) Girolamo Codroipo (1865-   ); m.2nd Lucca 31 Jul 1904 Margherito Guidotti (17 Dec 1881-San Remo 17 Mar 1956)
+					name=Ludovica
+					female=yes
+					dynasty=altieri
+					religion=catholic culture=italian
+					father=altieri_0019	# Lorenzo Altieri
+					mother=100030107	# Olga Cantacuzino
+					1877.10.30={birth=yes}  # Lucca
+					1938.10.06={death=yes}  # Gattaiola
+				}
+			altieri_0021={ #// 5b) Teresa (16 Feb 1835-Rome 5 Oct 1887); m.25 Jun 1835 Marchese Francesco Patrizi Naro Montoro (Rome 4 Aug 1826-Nocera Umbra 22 Jul 1905)
+				name=Teresa
+				female=yes
+				dynasty=altieri
+				religion=catholic culture=italian
+				father=altieri_0002	# Clemente Altieri
+				mother=100070169	# Vittoria Boncompagni-Ludovisi
+				1835.02.16={birth=yes}
+				1887.10.05={death=yes}  # Rome
+			}
+		altieri_0022={ #// 2a) Augusto (9 May 1797-12 Oct 1860)
+			name=Augusto
+			dynasty=altieri
+			religion=catholic culture=italian
+			father=altieri_0001	# Paluzzo Altieri
+			mother=100007556	# Maria Anna von Wettin
+			1797.05.09={birth=yes}
+			1860.10.12={death=yes}
+		}
+		altieri_0023={ #// 3a) Ludovico, Cardinal, Archbishop of Albano (Rome 17 Jul 1805-11 Aug 1867)
+			name=Ludovico
+			dynasty=altieri
+			religion=catholic culture=italian
+			father=altieri_0001	# Paluzzo Altieri
+			mother=100007556	# Maria Anna von Wettin
+			1805.07.17={birth=yes}  # Rome
+			1867.08.11={death=yes}
+		}
+## ALTIERI

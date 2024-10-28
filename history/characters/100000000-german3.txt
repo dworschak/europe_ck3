@@ -475,7 +475,7 @@
 					religion=catholic culture=german
 					father=100012694	# Otto von Holstein-Schauenburg
 					mother=100091553	# GFN Elisabeth von Honstein
-					1445.01.01={birth=yes}  # EST.
+					1430.01.01={birth=yes}  # EST.
 					1495.09.23={death=yes}
 				}
 				100012722={ #// E10. Mathilde, *1445, +22.7.1468; 1m: 1463 Duke Bernhard II von Braunschweig-Lüneburg (+9.2.1464); 2m: 1466 Duke Wilhelm von Braunschweig-Wolfenbüttel (*1392 +25.7.1482) $$
@@ -952,6 +952,8 @@
 
 
 ##  100012510- 				Schlitz     	           		  1002273
+# https://www.angelfire.com/realm/gotha/gotha/schlitz.html
+
 100082980={ #// 3c) Maria Anna Amalie Friederike (9 Sep 1778-11 May 1825); m.9 Feb 1797 Aloys Gf von Rechberg (d.1849)
 	name="Maria Anna von Schlitz gt von Görtz"
 	female=yes
@@ -989,14 +991,14 @@
 		1783.07.05={add_spouse=100091028}	# GFN Henriette von Wurmser
 		1826.12.10={death=yes}
 	}
-		100012520={ #// 1d) FRIEDRICH WILHELM Gf und Hr von Schlitz gt von Görtz (15 Feb 1793-31 Dec 1839); m.1st 5 Sep 1820 Juliane Gfn von Giech (5 Sep 1801-16 Dec 1831); m.2nd 12 Aug 1832 Elisabeth Ritz (28 Nov 1807-11 Dec 1889)
+		100012520={ #// 1d) FRIEDRICH WILHELM Gf und Hr von Schlitz gt von Görtz (15 Feb 1793-31 Dec 1839); m.1st 5 Sep 1820 Juliane Gfn von Giech (5 Sep 1801-16 Dec 1831); m.2nd 12 Aug 1832 Elisabeth Ritz (28 Nov 1807-11 Dec 1889) $$
 			name=Friedrich
 			dynasty=1002273
 			religion=catholic culture=german
 			father=100012519	# Karl von Schlitz gt von Görtz
 			mother=100091028	# GFN Henriette von Wurmser
 			1793.02.15={birth=yes}
-			1820.09.05={add_spouse=100091029}	# GFN Juliane von Giech
+			1820.09.05={add_spouse=giech_0022}	# Juliane von Giech
 			1839.12.31={death=yes}
 		}
 			100012521={ #// 1e) CARL Heinrich Wilhelm Hermann Ferdinand (15 Feb 1822-7 Dec 1885); m.7 Apr 1848 Anna Pss zu Sayn-Wittgenstein-Berleburg (5 Jan 1827-6 Nov 1902) $$
@@ -1004,7 +1006,7 @@
 				dynasty=1002273
 				religion=catholic culture=german
 				father=100012520	# Friedrich von Schlitz gt von Görtz
-				mother=100091029	# GFN Juliane von Giech
+				mother=giech_0022	# Juliane von Giech
 				1822.02.15={birth=yes}
 				1848.04.07={add_spouse=100010877}	# Anna von Sayn-Wittgenstein-Berleburg
 				1885.12.07={death=yes}
@@ -4586,7 +4588,7 @@
 			1878.07.16={add_spouse=100011409}	# Marie von Rechberg u.Rothenlöwen zu Hohenrechberg
 			1919.05.28={death=yes}  # Möggingen
 		}
-			100011531={ #// C1. Maria (*Regensburg 28.9.1871, +Bodman 10.1.1958) %%
+			100011531={ #// C1. [1m.] Maria (*Regensburg 28.9.1871, +Bodman 10.1.1958) %%
 				name=Maria
 				female=yes
 				dynasty=1002258
@@ -4596,7 +4598,7 @@
 				1871.09.28={birth=yes}	# Regensburg
 				1958.01.10={death=yes}	# Bodman
 			}
-			100011536={ #// C2. Leopoldine (*Regensburg 15.9.1873, +Neuß 13.11.1950); m.17.5.1894 Leopold von Spee (*Düsseldorf 19.9.1858, +Calcum 3.1.1920) %%
+			100011536={ #// C2. [1m.] Leopoldine (*Regensburg 15.9.1873, +Neuß 13.11.1950); m.17.5.1894 Leopold von Spee (*Düsseldorf 19.9.1858, +Calcum 3.1.1920) %%
 				name=Leopoldine
 				female=yes
 				dynasty=1002258
@@ -5971,7 +5973,7 @@
 										#1920.01.01={remove_spouse=100087044}
 										1930.02.25={death=yes}  # Szekszárd
 									}
-										koenigsegg_0001={ #// J1. Alice Hermine (*1915, +1970) %%
+										koenigsegg_0001={ #// J1. [2m.] Alice Hermine (*1915, +1970) %%
 											name="Alice Hermine"
 											female=yes
 											dynasty_house=koenigsegg_rothenfels
@@ -5981,7 +5983,7 @@
 											1915.01.01={birth=yes}
 											1970.01.01={death=yes}
 										}
-										koenigsegg_0002={ #// J2. Maximilian Hugó (*Wien 15.9.1916, +Siófok 2.8.1997) %%
+										koenigsegg_0002={ #// J2. [2m.] Maximilian Hugó (*Wien 15.9.1916, +Siófok 2.8.1997) %%
 											name="Maximilian Hugó"
 											dynasty_house=koenigsegg_rothenfels
 											religion=catholic culture=swabian
@@ -6290,14 +6292,14 @@
 			1688.09.01={add_spouse=100001985}	# Christina Lucia von Hohenlohe-Waldenburg
 			1692.06.01={death=yes}
 		}
-			100010477={ #// 1c) Franz Maximilian Eusebius (7 May 1669-Vogtja 17 Feb 1710); m.Vienna 22 Feb 1693 Maria Antonia Gfn Bruenner (Vienna 12 Aug 1669-Pruszka 6 May 1740)
+			100010477={ #// 1c) Franz Maximilian Eusebius (7 May 1669-Vogtja 17 Feb 1710); m.Vienna 22 Feb 1693 Maria Antonia Gfn Bruenner (Vienna 12 Aug 1669-Pruszka 6 May 1740) $$
 				name=Franz
 				dynasty_house=koenigsegg_aulendorf
 				religion=catholic culture=swabian
 				father=100010476	# Anton Eusebius von Königsegg-Aulendorf
 				mother=100088124	# GFN Dorothea Genovefa von Thurn
 				1669.05.07={birth=yes}
-				1693.02.22={add_spouse=100089028}	# Maria Breunner
+				1693.02.22={add_spouse=breunner_0104}	# Maria Antonia von Breunner
 				1710.02.17={death=yes}  # Vogtja
 			}
 				100010478={ #// 1d) Karl Seyfried Eusebius Ferdinand (8 May 1695-30 Oct 1765); m.29 Jan 1720 Marie Friederike Karoline Rosalie Gfn zu Oettingen-Spielberg (27 Nov 1699-15 Jan 1759) $$
@@ -6305,7 +6307,7 @@
 					dynasty_house=koenigsegg_aulendorf
 					religion=catholic culture=swabian
 					father=100010477	# Franz von Königsegg-Aulendorf
-					mother=100089028	# Maria Breunner
+					mother=breunner_0104	# Maria Antonia von Breunner
 					1695.05.08={birth=yes}
 					1720.01.29={add_spouse=100012334}	# Marie Friederike zu Oettingen-Spielberg
 					1765.10.30={death=yes}
@@ -6746,7 +6748,7 @@
 					dynasty_house=koenigsegg_aulendorf
 					religion=catholic culture=swabian
 					father=100010477	# Franz von Königsegg-Aulendorf
-					mother=100089028	# Maria Breunner
+					mother=breunner_0104	# Maria Antonia von Breunner
 					1698.04.11={birth=yes}
 					1735.09.17={death=yes}
 				}
@@ -6756,7 +6758,7 @@
 					dynasty_house=koenigsegg_aulendorf
 					religion=catholic culture=swabian
 					father=100010477	# Franz von Königsegg-Aulendorf
-					mother=100089028	# Maria Breunner
+					mother=breunner_0104	# Maria Antonia von Breunner
 					1700.12.20={birth=yes}
 					1760.01.01={death=yes}  # Innsbruck
 				}
@@ -6910,7 +6912,7 @@
 			father=471655	# Bogislaw Gryfita
 			1351.01.01={birth=yes}
 			1366.01.01={add_spouse=jagelo_0123}	# Kenna Jagiełło
-			1369.01.01={add_spouse=100086511}	# Malgorzata of Mazovia
+			1369.01.01={add_spouse=lowborn_9140}	# Malgorzata of Mazovia
 			1377.01.02={death=yes}
 		}
 		100010353={ #// B2. [2m.] Duke Wartislaw VII of Pomerania-Stolp, *ca 1362, +murdered 24.2.1395; m.1380 Maria von Mecklenburg-Schwerin (*1363 +ca 13.5.1402) $$
@@ -7063,7 +7065,7 @@
 							1491.02.02={add_spouse=jagelo_0101}	# Anna Jagiełło
 							1523.10.05={death=yes}  # Stettin
 						}
-							100010399={ #// G6. [2m.] Anna, *1492, +25.4.1550; m.5.6.1515 Duke Georg I of Brieg (*1481, +30.5.1521)
+							100010399={ #// G6. [2m.] Anna, *1492, +25.4.1550; m.5.6.1515 Duke Georg I of Brieg (*1481, +30.5.1521) $$
 								name=Anna
 								female=yes
 								dynasty=177
@@ -7561,14 +7563,14 @@
 				1841.02.22={add_spouse=100086245}	# FRN Julie Karoline von Woellwarth-Lauterburg
 				1876.02.23={death=yes}  # Tambach
 			}
-				100010264={ #// 1d) FRIEDRICH Carl Hermann Albrecht Gf zu Ortenburg (Tambach 13 Dec 1841-Tambach 25 Feb 1894); m.Thurnau 21 Oct 1874 Caroline Gfn von Giech (Thurnau 22 May 1850-Tambach 28 Nov 1923)
+				100010264={ #// 1d) FRIEDRICH Carl Hermann Albrecht Gf zu Ortenburg (Tambach 13 Dec 1841-Tambach 25 Feb 1894); m.Thurnau 21 Oct 1874 Caroline Gfn von Giech (Thurnau 22 May 1850-Tambach 28 Nov 1923) $$
 					name=Friedrich
 					dynasty=1002600
 					religion=catholic culture=german
 					father=100010263	# Franz Karl zu Ortenburg
 					mother=100086245	# FRN Julie Karoline von Woellwarth-Lauterburg
 					1841.12.13={birth=yes}  # Tambach
-					1874.10.21={add_spouse=100086305}	# GFN Caroline von Giech
+					1874.10.21={add_spouse=giech_0020}	# Chrétienne Caroline von Giech
 					1894.02.25={death=yes}  # Tambach
 				}
 					100010265={ #// 1e) FRANZ CARL Julius Gf zu Ortenburg (Tambach 16 Aug 1875-Coburg 3 Dec 1936); m.Budapest 30 Dec 1924 Ily Gfn Semsey de Semse (Semse 16 May 1895-Tambach 16 Oct 1978)
@@ -7576,7 +7578,7 @@
 						dynasty=1002600
 						religion=catholic culture=german
 						father=100010264	# Friedrich zu Ortenburg
-						mother=100086305	# GFN Caroline von Giech
+						mother=giech_0020	# Chrétienne Caroline von Giech
 						1875.08.16={birth=yes}  # Tambach
 						1924.12.30={add_spouse=100086306}	# GFN Ily Semsey de Semse
 						1936.12.03={death=yes}  # Coburg
@@ -9565,8 +9567,8 @@ nostitz_0001={ #// Otto von Nostitz-Rokinitz, Freiherr 18.5.1631, Courtly counse
 				1734.01.01={add_spouse=lowborn_1951}	# GFN Maria Josepha Fuchs von Bimbach und Dornheim
 				1740.04.07={death=yes}
 			}
-			nostitz_0026={ #// C4. [1m.] Maria Elisabeth Amalia, *26.5.1710, +27.10.1736; m.Franz Ferdinand Gf von Schrattenbach (*Graz 29.11.1707 +10.5.1785)
-				name=Maria
+			nostitz_0026={ #// C4. [1m.] Maria Elisabeth Amalia, *26.5.1710, +27.10.1736; m.Franz Ferdinand Gf von Schrattenbach (*Graz 29.11.1707 +10.5.1785) $$
+				name="Maria Elisabeth"
 				female=yes
 				dynasty_house=nostitz_rokitnitz
 				religion=catholic culture=german
@@ -10013,7 +10015,7 @@ nostitz_0001={ #// Otto von Nostitz-Rokinitz, Freiherr 18.5.1631, Courtly counse
 								1887.10.07={birth=yes}  # Bohdanec
 								1946.01.01={death=yes}  # Windisch-Feistritz Yugoslavia
 							}
-							100011313={ #// G3. Elisabeth Maria Henriette, *Lemberg 13.1.1893, +Söllheim 24.9.1983; m.Söllheim 28.10.1922 Gf Karl Ernst Ledóchowski-Thun (*Mödling 1.11.1891, +Salzburg 6.11.1971)
+							100011313={ #// G3. Elisabeth Maria Henriette, *Lemberg 13.1.1893, +Söllheim 24.9.1983; m.Söllheim 28.10.1922 Gf Karl Ernst Ledóchowski-Thun (*Mödling 1.11.1891, +Salzburg 6.11.1971) $$
 								name=Elisabeth
 								female=yes
 								dynasty_house=nostitz_rieneck
@@ -11258,14 +11260,14 @@ nostitz_0001={ #// Otto von Nostitz-Rokinitz, Freiherr 18.5.1631, Courtly counse
 							1728.10.07={birth=yes}  # Gedern
 							1799.05.29={death=yes}  # Mergentheim
 						}
-						100011915={ #// F7. Auguste Friederike, *Gedern 20.3.1730, +Thurnau 5.9.1801; m.Schönberg 13.9.1753 Christian Friedrich Karl Gf von Giech-Thurnau (*Buchau 4.4./6.8.1729, +Thurnau 28.9.1797)
+						100011915={ #// F7. Auguste Friederike, *Gedern 20.3.1730, +Thurnau 5.9.1801; m.Schönberg 13.9.1753 Christian Friedrich Karl Gf von Giech-Thurnau (*Buchau 4.4./6.8.1729, +Thurnau 28.9.1797) $$
 							name="Auguste Friederike"
+							female=yes
 							dynasty=1002300
 							religion=catholic culture=german
 							father=100011908	# Georg August von Erbach
 							mother=100009740	# Ferdinande Henriette von Stolberg
 							1730.03.20={birth=yes}  # Gedern
-							1753.09.13={add_spouse=100094117}	# GF Christian Friedrich von Giech-Thurnau
 							1801.09.05={death=yes}  # Thurnau
 						}
 						100011916={ #// F8. Georg August, French brigadier, *Schönberg 9.3.1731, +König 8.2.1799
@@ -12320,14 +12322,14 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 		1825.11.03={add_spouse=strachwitz_0032}	# Antonia Strachwitz v.Groß-Zauche u.Camminetz
 		1871.05.04={death=yes}  # Gotschdorf
 	}
-		arco_0004={ #// B1. Gf KARL ANTON Heinrich August Leonhard Johann, *Gross-Kunzendorf 29.8.1826, +Troppau 2.1.1895; 1m: Prague 16.9.1865 Gfn Theresia von Kolowrat-Krakowsky (*30.5.1865 +21.5.1885); 2m: Nieder-Seibersdorf 15.6.1886 Camilla Frn von Mattencloit (*Schumbarg 28.7.1862, +Hillersdorf 8.12.1930)
+		arco_0004={ #// B1. Gf KARL ANTON Heinrich August Leonhard Johann, *Gross-Kunzendorf 29.8.1826, +Troppau 2.1.1895; 1m: Prague 16.9.1865 Gfn Theresia von Kolowrat-Krakowsky (*30.5.1865 +21.5.1885); 2m: Nieder-Seibersdorf 15.6.1886 Camilla Frn von Mattencloit (*Schumbarg 28.7.1862, +Hillersdorf 8.12.1930) $$
 			name="Karl Anton"
 			dynasty=1002093
 			religion=catholic culture=german
 			father=arco_0003	# Heinrich von Arco
 			mother=strachwitz_0032	# Antonia Strachwitz v.Groß-Zauche u.Camminetz
 			1826.08.29={birth=yes}  # Gross-Kunzendorf
-			1865.09.16={add_spouse=lowborn_3220}	# GFN Theresia von Kolowrat-Krakowsky
+			1865.09.16={add_spouse=kolowrat_0310}	# Marie Terezie Krakovský z Kolovrat
 			1886.06.15={add_spouse=lowborn_3225}	# FRN Camilla von Mattencloit
 			1895.01.02={death=yes}  # Troppau
 		}
@@ -12336,7 +12338,7 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 				dynasty=1002093
 				religion=catholic culture=german
 				father=arco_0004	# Karl Anton von Arco
-				mother=lowborn_3220	# GFN Theresia von Kolowrat-Krakowsky
+				mother=kolowrat_0310	# Marie Terezie Krakovský z Kolovrat
 				1876.11.13={birth=yes}
 				1912.01.29={death=yes}
 			}
@@ -12346,7 +12348,7 @@ arco_0001={ #// Karl Ferdinand Anton Graf von Arco, *Dralin bei Lubeck 5.6.1776,
 				dynasty=1002093
 				religion=catholic culture=german
 				father=arco_0004	# Karl Anton von Arco
-				mother=lowborn_3220	# GFN Theresia von Kolowrat-Krakowsky
+				mother=kolowrat_0310	# Marie Terezie Krakovský z Kolovrat
 				1879.10.12={birth=yes}
 				1913.11.06={death=yes}
 			}
@@ -12638,14 +12640,14 @@ arco_0034={ #// Massimiliano, Conte d’Arco, +1582; 1m: Clara Ludovica di Lodro
 	1551.01.01={add_spouse=lowborn_1810}	# Olimpia Guerrieri
 	1582.01.01={death=yes}
 }
-	arco_0035={ #// A1. [2m.] Giovanni Vincenzo, Conte d’Arco; 1m: Lucrezia Gfn von Thurn und Valsassina; 2m: Isabella Gonzaga di Luzzara
+	arco_0035={ #// A1. [2m.] Giovanni Vincenzo, Conte d’Arco; 1m: Lucrezia Gfn von Thurn und Valsassina; 2m: Isabella Gonzaga di Luzzara $$
 		name="Giovanni Vincenzo"
 		dynasty=1002093
 		religion=catholic culture=italian
 		father=arco_0034	# Massimiliano von Arco
 		mother=lowborn_1810	# Olimpia Guerrieri
 		1552.01.01={birth=yes}  # EST.
-		1577.01.01={add_spouse=lowborn_4835}	# GFN Lucrezia von Thurn
+		1577.01.01={add_spouse=100072676}	# Lucrezia von Thurn-Valsássina und Hoffer
 		1582.01.01={add_spouse=lowborn_1842}	# Isabella Gonzaga di Luzzara
 		1612.01.01={death=yes}  # EST.
 	}
@@ -12695,7 +12697,7 @@ arco_0034={ #// Massimiliano, Conte d’Arco, +1582; 1m: Clara Ludovica di Lodro
 			dynasty=1002093
 			religion=catholic culture=italian
 			father=arco_0042	# Pirro von Arco
-			mother=lowborn_3508	# Barbara Gonzaga di Luzzara
+			mother=lowborn_3516	# Regina d'Arco
 			1600.01.01={birth=yes}  # EST.
 			1633.01.01={add_spouse=lodron_0216}	# Cecilia zu Lodron-Laterano u.Castelromano
 			1649.01.01={add_spouse=lodron_0169}	# Clara Cecilia zu Lodron-Laterano u.Castelromano
@@ -12737,7 +12739,7 @@ arco_0034={ #// Massimiliano, Conte d’Arco, +1582; 1m: Clara Ludovica di Lodro
 				father=arco_0044	# Massimiliano Prospero von Arco
 				mother=lodron_0216	# Cecilia zu Lodron-Laterano u.Castelromano
 				1639.01.01={birth=yes}  # EST.
-				1664.01.01={add_spouse=lowborn_3560}	# Barbara von Wieznik
+				1664.01.01={add_spouse=lowborn_3560}	# Barbara von Wiežnik
 				1704.01.01={death=yes}
 			}
 				arco_0053={ #// D1. Cssa Maria Giuseppa Teresa; m.Gf Ignaz Felix Joseph von Törring-Jettenbach (*18.11.1682, +Munich 18.8.1763)
@@ -12746,7 +12748,7 @@ arco_0034={ #// Massimiliano, Conte d’Arco, +1582; 1m: Clara Ludovica di Lodro
 					dynasty=1002093
 					religion=catholic culture=italian
 					father=arco_0052	# Filippo von Arco
-					mother=lowborn_3560	# Barbara von Wieznik
+					mother=lowborn_3560	# Barbara von Wiežnik
 					1665.01.01={birth=yes}  # EST.
 					1725.01.01={death=yes}  # EST.
 				}
@@ -12755,7 +12757,7 @@ arco_0034={ #// Massimiliano, Conte d’Arco, +1582; 1m: Clara Ludovica di Lodro
 					dynasty=1002093
 					religion=catholic culture=italian
 					father=arco_0052	# Filippo von Arco
-					mother=lowborn_3560	# Barbara von Wieznik
+					mother=lowborn_3560	# Barbara von Wiežnik
 					1667.01.01={birth=yes}  # EST.
 					1727.01.01={death=yes}  # EST.
 				}
@@ -12764,7 +12766,7 @@ arco_0034={ #// Massimiliano, Conte d’Arco, +1582; 1m: Clara Ludovica di Lodro
 					dynasty=1002093
 					religion=catholic culture=italian
 					father=arco_0052	# Filippo von Arco
-					mother=lowborn_3560	# Barbara von Wieznik
+					mother=lowborn_3560	# Barbara von Wiežnik
 					1668.01.01={birth=yes}  # EST.
 					1717.01.01={death=yes}
 				}
@@ -13464,7 +13466,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 					mother=100185230	# Josephine Popel von Lobkowitz
 					1882.09.10={birth=yes}  # Maxlrain
 					1922.08.15={add_spouse=100025576}	# Maria Angela von Spee
-					1929.10.03={add_spouse=100098678}	# GFN Maria Fugger von Glött
+					1929.10.03={add_spouse=fugger_0027}	# Maria Fugger
 					1940.05.02={death=yes}  # München
 				}
 					100008570={ #// E1. MELANIE Maria Josephine Elisabeth Ernestine Wilhelmine Huberta Kaspar Donata Adleida, *München 8.6.1923
@@ -13500,7 +13502,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 						dynasty=1002093
 						religion=catholic culture=german
 						father=100008569	# Ferdinand von Arco
-						mother=100098678	# GFN Maria Fugger von Glött
+						mother=fugger_0027	# Maria Fugger
 						1931.08.18={birth=yes}  # München
 						1961.03.05={add_spouse=100001284}	# Hedwig Henckel v.Donnersmarck
 						1990.10.06={death=yes}  # Stuttgart
@@ -13546,7 +13548,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 						dynasty=1002093
 						religion=catholic culture=german
 						father=100008569	# Ferdinand von Arco
-						mother=100098678	# GFN Maria Fugger von Glött
+						mother=fugger_0027	# Maria Fugger
 						1932.11.12={birth=yes}  # München
 						1961.05.10={add_spouse=100098683}	# FRN Elisabeth von Hertling
 						2009.01.01={death=yes}  # EST.
@@ -15682,7 +15684,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 		father=100008191	# Carl Philipp von Wrede
 		mother=100080368	# GFN Sofie von Wiser
 		1810.10.08={birth=yes}
-		1836.04.24={add_spouse=100096922}	# Desirée Grabowski
+		1836.04.24={add_spouse=100096922}	# Desirée Grabowska
 		1884.07.27={death=yes}
 	}
 		100008320={ #// 1c) Raoul Josef (25 Nov 1843-19 Oct 1914); m.Marie Gfn Czapska (d.10 Dec 1873)
@@ -15690,7 +15692,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 			dynasty=1002087
 			religion=catholic culture=german
 			father=100008319	# Adolf Wilhelm von Wrede
-			mother=100096922	# Desirée Grabowski
+			mother=100096922	# Desirée Grabowska
 			1843.11.25={birth=yes}
 			1868.01.01={add_spouse=100096923}	# GFN Marie Czapska
 			1914.10.19={death=yes}
@@ -18210,7 +18212,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 								father=oppersdorf_0027	# Jan von Oppersdorff
 								mother=kolowrat_0154	# Anna Eleonora Krakovský z Kolovrat
 								1672.01.01={birth=yes}  # EST.
-								1693.01.01={add_spouse=lowborn_2747}	# Helena Eleonora Tvorkovská z Krawarz
+								1693.01.01={add_spouse=lowborn_2747}	# Helena Eleonora Tvorkovská z Kravař
 								1727.01.01={death=yes}  # Wien
 							}
 								oppersdorf_0030={ #// H1. Jan Rudolf, *1690, +Praha 28.9.1777; 1m: 1718 Anna Marie Barbora Vrabská z Vrabí (+Wien 26.2.1767); 2m: Filipína Rašínová z Rýzmburka (*1732, +Praha 9.6.1781); all children by 1m.
@@ -18218,7 +18220,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 									dynasty=oppersdorf
 									religion=lutheran culture=german
 									father=oppersdorf_0029	# Jan von Oppersdorff
-									mother=lowborn_2747	# Helena Eleonora Tvorkovská z Krawarz
+									mother=lowborn_2747	# Helena Eleonora Tvorkovská z Kravař
 									1690.01.01={birth=yes}
 									1718.01.01={add_spouse=lowborn_2748}	# Anna Vrabská z Vrabí
 									1768.02.26={add_spouse=lowborn_2749}	# Filipína Rašínová z Rýzmburka
@@ -18231,7 +18233,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 										religion=lutheran culture=german
 										father=oppersdorf_0030	# Jan Rudolf von Oppersdorff
 										mother=lowborn_2748	# Anna Vrabská z Vrabí
-										1716.01.01={birth=yes}  # EST.
+										1719.01.01={birth=yes}  # EST.
 										1776.01.01={death=yes}  # EST.
 									}
 									oppersdorf_0032={ #// I2. Jan Ferdinand Josef Viktor, *Praha 15.6.1725, +Praha 12.12.1779; m.Neveklov 11.7.1771 Gfn Marie Anna Rašínová z Rýzmburka (*5.5.1745, +Praha 15.12.1779)
@@ -18241,7 +18243,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 										father=oppersdorf_0030	# Jan Rudolf von Oppersdorff
 										mother=lowborn_2748	# Anna Vrabská z Vrabí
 										1725.06.15={birth=yes}  # Praha
-										1771.07.11={add_spouse=lowborn_2751}	# GFN Marie Anna Rašín z Rýzmburka
+										1771.07.11={add_spouse=lowborn_2751}	# GFN Marie Anna Rašínová z Rýzmburka
 										1779.12.12={death=yes}  # Praha
 									}
 								#oppersdorf2  -->  // H2. Jan František Václav Dominik Hyacint, *1694, +Praha 2.7.1772; 1m: Jetřichovice 2.2.1722 Gfn Anna Maria Eleonora Gabriela Clary von Spärbersbach (*ca 1682, +Jetřichovice 27.4.1757); 2m: Josepha Helena von Burrmann; for their issue see HERE
@@ -18251,7 +18253,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 									dynasty=oppersdorf
 									religion=lutheran culture=german
 									father=oppersdorf_0029	# Jan von Oppersdorff
-									mother=lowborn_2747	# Helena Eleonora Tvorkovská z Krawarz
+									mother=lowborn_2747	# Helena Eleonora Tvorkovská z Kravař
 									1704.02.24={birth=yes}  # Milhostice
 									1779.01.01={death=yes}  # EST.
 								}
@@ -18293,14 +18295,14 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 								1673.01.01={birth=yes}  # EST.
 								1683.01.01={death=yes}
 							}
-					oppersdorf_0039={ #// E5. Jan Bedřich, *ca 1590, +Žampach 18.5.1632; m.29.1.1606 Gfn Kateřina Popelovna z Lobkowicz (*ca 1570, +14.2.1615)
+					oppersdorf_0039={ #// E5. Jan Bedřich, *ca 1590, +Žampach 18.5.1632; m.29.1.1606 Gfn Kateřina Popelovna z Lobkowicz (*ca 1570, +14.2.1615) $$
 						name="Jan Bedřich"
 						dynasty=oppersdorf
 						religion=lutheran culture=german
 						father=oppersdorf_0013	# Bedřich von Oppersdorff
 						mother=lowborn_2736	# BGGFN Magdalena von Dohna
 						1590.01.01={birth=yes}
-						1606.01.29={add_spouse=lowborn_2758}	# GFN Kateřina Popel z Lobkowicz
+						1606.01.29={add_spouse=lobkow_0044}	# Kateřina Popel von Lobkowitz
 						1632.05.18={death=yes}  # Žampach
 					}
 				oppersdorf_0040={ #// D3. Jiří II Maxmilián (Georg II), *after 1547, +15.2.1607, bur Horní Hlohov (Oberglogau); 1m: 1586 Izalda z Valdštejna (+11.3.1597); 2m: 19.10.1598 Anna Popelovna z Lobkowicz; all children by 1m. $$
@@ -18314,7 +18316,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 					1598.10.19={add_spouse=lowborn_2760}	# Anna Popel z Lobkowicz
 					1607.02.15={death=yes}
 				}
-					oppersdorf_0041={ #// E1. Anna; m.Štěpán "starší" Bruntálský z Vrbna (+11.6.1618)
+					oppersdorf_0041={ #// E1. Anna; m.Štěpán "starší" Bruntálský z Vrbna (+11.6.1618) $$
 						name=Anna
 						female=yes
 						dynasty=oppersdorf
@@ -18456,7 +18458,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 								dynasty=oppersdorf
 								religion=lutheran culture=german
 								father=oppersdorf_0054	# Friedrich Leopold von Oppersdorff
-								mother=lowborn_2772	# Anna Helena Jakardovská ze Sudic
+								mother=100024585	# Marie Eleonore von Dietrichstein
 								1672.01.01={birth=yes}  # EST.
 								1698.01.01={add_spouse=100047838}	# Barbora Terezie z Valdštejna
 								1740.01.01={add_spouse=lowborn_2775}	# GFN Franziska Serényi de Kisserény
@@ -18468,7 +18470,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 								religion=lutheran culture=german
 								father=oppersdorf_0054	# Friedrich Leopold von Oppersdorff
 								mother=lowborn_2772	# Anna Helena Jakardovská ze Sudic
-								1657.01.01={birth=yes}  # EST.
+								1656.01.01={birth=yes}  # EST.
 								1683.01.01={add_spouse=100001364}	# Anna Franziska Henckel v.Donnersmarck
 								1714.01.01={death=yes}
 							}
@@ -18552,7 +18554,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 					father=oppersdorf_0064	# Wilhelm von Oppersdorff
 					mother=lowborn_2782	# Ursula von Hake
 					1554.01.01={birth=yes}  # Brieg
-					1576.11.02={add_spouse=lowborn_2783}	# Kateřina Novohradská z Kolowrat
+					1576.11.02={add_spouse=kolowrat_0202}	# Kateřina Novohradský z Kolovrat
 					1586.01.12={add_spouse=hardegg_0031}	# Susanna zu Hardegg auf Glatz u.im Machlande
 					1598.05.04={death=yes}  # Praha
 				}
@@ -18624,7 +18626,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 								religion=lutheran culture=german
 								father=oppersdorf_0071	# Friedrich Wilhelm von Oppersdorff
 								mother=zierotin_0090	# Zuzana Kateřina von Zierotin
-								1652.01.01={birth=yes}  # EST.
+								1660.01.01={birth=yes}  # EST.
 								1668.01.01={death=yes}
 							}
 						oppersdorf_0074={ #// F2. Bernhard Wilhelm, *1628, +1660
@@ -18703,7 +18705,7 @@ oppersdorf_0033={ #// Johann Franz Wenzel Dominik Hyacint Graf von Oppersdorff, 
 	dynasty=oppersdorf
 	religion=lutheran culture=german
 	father=oppersdorf_0029	# Jan von Oppersdorff
-	mother=lowborn_2747	# Helena Eleonora Tvorkovská z Krawarz
+	mother=lowborn_2747	# Helena Eleonora Tvorkovská z Kravař
 	1694.01.01={birth=yes}
 	1722.02.02={add_spouse=lowborn_2700}	# GFN Anna Clary von Spärbersbach
 	1758.04.27={add_spouse=lowborn_2753}	# Josepha Helena von Burrmann
@@ -18728,7 +18730,7 @@ oppersdorf_0033={ #// Johann Franz Wenzel Dominik Hyacint Graf von Oppersdorff, 
 			mother=lowborn_2733	# Renata Anna Schirndinger von Schirnding
 			1761.01.01={birth=yes}  # EST.
 			1777.01.01={add_spouse=lowborn_2759}	# Anna Schirndinger von Schirnding
-			1782.01.01={death=yes}
+			1782.12.01={death=yes}
 		}
 			oppersdorf_0084={ #// C1. Franz Joachym Wenzel, *Kopetzen 29.11.1778, +Berlin 21.1.1818; m.Brno 15.11.1798 Eleonora Franziska Skrbenská z Hříštie (*Schönhof 8.10.1779, +Schloss Schreibersdorf 6.7.1857)
 				name=Franz
@@ -19128,7 +19130,7 @@ oppersdorf_0033={ #// Johann Franz Wenzel Dominik Hyacint Graf von Oppersdorff, 
 								father=oppersdorf_0088	# Hans von Oppersdorff
 								mother=100110885	# Dorothea Radziwiłł
 								1902.01.01={birth=yes}  # Oberglogau
-								1949.02.05={add_spouse=lowborn_2821}	# Jadwiga Dembinska
+								1949.02.05={add_spouse=lowborn_2821}	# Jadwiga Dembińska
 								1970.09.23={death=yes}  # London
 							}
 							oppersdorf_0127={ #// G9. Josef Ludwig Hans Ignatz Anton Franz, *Oberglogau 13.3.1903, +Glogau 30.11.1945
@@ -19140,7 +19142,7 @@ oppersdorf_0033={ #// Johann Franz Wenzel Dominik Hyacint Graf von Oppersdorff, 
 								1903.03.13={birth=yes}  # Oberglogau
 								1945.11.30={death=yes}  # Glogau
 							}
-							oppersdorf_0128={ #// G10. Hedwig Caroline Maria Johanna Rosario Dorothea Candida Antonia Franziska, *Oberglogau 19.10.1904, +Bruxelles 21.3.1980; m.Poznan 16.2.1928 Xaver Drucki-Lubecki (*Baltow 23.3.1898, +Bruxelles 22.4.1960)
+							oppersdorf_0128={ #// G10. Hedwig Caroline Maria Johanna Rosario Dorothea Candida Antonia Franziska, *Oberglogau 19.10.1904, +Bruxelles 21.3.1980; m.Poznan 16.2.1928 Xaver Drucki-Lubecki (*Baltow 23.3.1898, +Bruxelles 22.4.1960) $$
 								name=Hedwig
 								female=yes
 								dynasty=oppersdorf
@@ -19369,7 +19371,7 @@ oppersdorf_0033={ #// Johann Franz Wenzel Dominik Hyacint Graf von Oppersdorff, 
 				religion=lutheran culture=german
 				father=oppersdorf_0083	# Franz Philip von Oppersdorff
 				mother=lowborn_2759	# Anna Schirndinger von Schirnding
-				1788.01.14={birth=yes}
+				1783.01.01={birth=yes}
 				1811.10.01={add_spouse=caretto_0106}	# Marie Anna del Caretto
 				1841.08.25={death=yes}
 			}
@@ -19961,6 +19963,7 @@ galen_0001={ #// Matthias Gf von Galen (Münster 12 Sep 1800-Assen 24 Dec 1880);
 						name="Stephanie Christiane"
 						female=yes
 						dynasty=1002296
+						trait=legitimized_bastard
 						religion=catholic culture=german
 						father=galen_0065	# Franz von Galen
 						mother=lowborn_4400	# Ina Rabius
@@ -20689,6 +20692,8 @@ galen_0001={ #// Matthias Gf von Galen (Münster 12 Sep 1800-Assen 24 Dec 1880);
 
 
 ## FINCK
+# https://www.angelfire.com/realm/gotha/gotha/finck.html
+
 #a_finck1
 finck_0436={ #// Matz Finck von Seewalde, d.by 18 Sep 1525; m.1st Dorothea von Seewalde; m.2nd Barbara N
 	name=Matz
@@ -20738,7 +20743,7 @@ finck_0436={ #// Matz Finck von Seewalde, d.by 18 Sep 1525; m.1st Dorothea von S
 					1654.01.01={add_spouse=lowborn_5529}	# Charlotte Katharina von Obentraut
 					1660.10.01={death=yes}	# Saberau
 				}
-					finck_0451={ #// E1. Juliane Charlotte (*Hasenberg 15.2.1640, +Schönberg 28.3.1693); m.27.11.1660 Ernst Finck von Finckenstein (*Gilgenburg 9.10.1633, +Schönberg 12.8.1717) %%
+					finck_0451={ #// E1. [1m.] Juliane Charlotte (*Hasenberg 15.2.1640, +Schönberg 28.3.1693); m.27.11.1660 Ernst Finck von Finckenstein (*Gilgenburg 9.10.1633, +Schönberg 12.8.1717) %%
 						name="Juliane Charlotte"
 						female=yes
 						dynasty=finck
@@ -20748,7 +20753,7 @@ finck_0436={ #// Matz Finck von Seewalde, d.by 18 Sep 1525; m.1st Dorothea von S
 						1640.02.15={birth=yes}  # Hasenberg
 						1693.03.28={death=yes}  # Schönberg
 					}
-					finck_0178={ #// E2. Christoph Reinhold (*1645, +28.8.1705) %%
+					finck_0178={ #// E2. [1m.] Christoph Reinhold (*1645, +28.8.1705) %%
 						name="Christoph Reinhold"
 						dynasty=finck
 						religion=lutheran culture=german
@@ -20781,7 +20786,7 @@ finck_0436={ #// Matz Finck von Seewalde, d.by 18 Sep 1525; m.1st Dorothea von S
 									1740.02.03={birth=yes}  # Reichertswalde, East Prussia
 									1771.12.15={death=yes}  # Perejaslawl
 								}
-					finck_0450={ #// E3. Karl Wilhelm (*1656, +Johannisburg 24.4.1714); m.1690 Maria Dorothea von Waldburg (+1.8.1733) %%
+					finck_0450={ #// E3. [2m.] Karl Wilhelm (*1656, +Johannisburg 24.4.1714); m.1690 Maria Dorothea von Waldburg (+1.8.1733) %%
 						name="Karl Wilhelm"
 						dynasty=finck
 						religion=lutheran culture=german
@@ -20921,7 +20926,7 @@ finck_0436={ #// Matz Finck von Seewalde, d.by 18 Sep 1525; m.1st Dorothea von S
 							1706.04.23={add_spouse=lowborn_5572}	# Elisabeth Gottliebe Köhn von Jasky
 							1746.10.25={death=yes}  # Gilgenburg
 						}
-							finck_0049={ #// G1. Karl Reinhold (*1694, +7.1.1725) %%
+							finck_0049={ #// G1. [1m.] Karl Reinhold (*1694, +7.1.1725) %%
 								name="Karl Reinhold"
 								dynasty=finck
 								religion=lutheran culture=german
@@ -20949,7 +20954,25 @@ finck_0436={ #// Matz Finck von Seewalde, d.by 18 Sep 1525; m.1st Dorothea von S
 								1739.01.18={add_spouse=lowborn_5574}	# GFN Marie Charlotte von Schlieben
 								1748.09.25={death=yes}
 							}
-								finck_0047={ #// H1. Amalia Friederike (*Gilgenburg 17.4.1745, +4.6.1818); m.1769 Friedrich Leopold von Dohna-Lauck (*Reichterswalde 30.3.1738, +Elbing 7.5.1807) %%
+								finck_0500={ #// H1. Karl Friedrich (*5.9.1743, +28.6.1803) %%
+									name="Karl Friedrich"
+									dynasty=finck
+									religion=lutheran culture=german
+									father=finck_0448	# Friedrich Conrad Finck von Finckenstein
+									mother=lowborn_5574	# GFN Marie Charlotte von Schlieben
+									1743.09.05={birth=yes}
+									1803.06.28={death=yes}
+								}
+									finck_0501={ #// I1. Charlotte Friederike (*5.9.1782, +Wicken 19.8.1812); m.10.7.1801 Heinrich von Eulenburg (*Prassen 15.7.1779, +Wicken 25.2.1842) %%
+										name="Charlotte Friederike"
+										female=yes
+										dynasty=finck
+										religion=lutheran culture=german
+										father=finck_0500	# Karl Friedrich Finck von Finckenstein
+										1782.09.05={birth=yes}
+										1812.08.19={death=yes}  # Wicken
+									}
+								finck_0047={ #// H2. Amalia Friederike (*Gilgenburg 17.4.1745, +4.6.1818); m.1769 Friedrich Leopold von Dohna-Lauck (*Reichterswalde 30.3.1738, +Elbing 7.5.1807) %%
 									name="Amalia Friederike"
 									female=yes
 									dynasty=finck
@@ -22357,14 +22380,14 @@ finck_0122={ #// Karl Wilhelm Gf Finck von Finckenstein (Berlin 11 Feb 1714-Berl
 						1928.09.20={add_spouse=lowborn_4696}	# Juliane Kühl
 						1934.05.31={death=yes}  # Berlin
 					}
-					finck_0278={ #// 3e) Marie Elisabeth (Ober0Eiserdorf 15 Aug 1893-Insterburg 16 Mar 1914); m.Tschistey 16 Sep 1913 Hans Frhr von Stosch (d.17 Mar 1926)
+					finck_0278={ #// 3e) Marie Elisabeth (Ober-Eiserdorf 15 Aug 1893-Insterburg 16 Mar 1914); m.Tschistey 16 Sep 1913 Hans Frhr von Stosch (d.17 Mar 1926)
 						name="Marie Elisabeth"
 						female=yes
 						dynasty=finck
 						religion=lutheran culture=german
 						father=finck_0275	# Heinrich Finck von Finckenstein
 						mother=lowborn_4694	# FRN Sophie von Münchhausen
-						1893.08.15={birth=yes}  # Ober0Eiserdorf
+						1893.08.15={birth=yes}  # Ober-Eiserdorf
 						1914.03.16={death=yes}  # Insterburg
 					}
 					finck_0279={ #// 4e) Heinrich-Georg Wilhelm Werner (Ober-Eisersdorf 22 Nov 1894-Sennestadt 19 Feb 1984)
@@ -22705,6 +22728,7 @@ finck_0122={ #// Karl Wilhelm Gf Finck von Finckenstein (Berlin 11 Feb 1714-Berl
 								name="Steffen Alexander"
 								dynasty=finck
 								religion=lutheran culture=german
+								trait=legitimized_bastard
 								father=finck_0314	# Jan Finck von Finckenstein
 								mother=lowborn_4725	# Christine Sens
 								1985.10.17={birth=yes}  # Volkach
@@ -22945,6 +22969,7 @@ finck_0122={ #// Karl Wilhelm Gf Finck von Finckenstein (Berlin 11 Feb 1714-Berl
 						female=yes
 						dynasty=finck
 						religion=lutheran culture=north_german
+						trait=legitimized_bastard
 						father=finck_0340	# Karl Finck von Finckenstein
 						mother=lowborn_4740	# Marina Wurzel
 						1893.11.15={birth=yes}  # Berlin

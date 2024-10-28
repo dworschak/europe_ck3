@@ -1199,22 +1199,22 @@
 					1742.05.22={birth=yes}
 					1808.05.26={death=yes}
 				}
-		100004180={ #// B3. Heinrich Gabriel Joseph, Wild- und Rheingraf in Kyrburg, *21.7.1674, +Nürnberg 15.10.1714; m.Brussels 2.2.1704 Marie Therese de Croy, Marquisse de Warnecq (*1678 +18.6.1713)
-			name=Heinrich
+		100004180={ #// B3. Heinrich Gabriel Joseph, Wild- und Rheingraf in Kyrburg, *21.7.1674, +Nürnberg 15.10.1714; m.Brussels 2.2.1704 Marie Therese de Croy, Marquisse de Warnecq (*1678 +18.6.1713) $$
+			name="Heinrich Gabriel"
 			dynasty=1002071
 			religion=catholic culture=german
 			father=100004147	# Karl Florentin von Salm
 			mother=100093031	# Marie Gabrielle de Lalaing
 			1674.07.21={birth=yes}
-			1699.01.01={add_spouse=100099336}	# Marie Therese de Croÿ
+			1699.01.01={add_spouse=croy_0028}	# Marie Therese de Croÿ
 			1716.10.15={death=yes}
 		}
 			100004203={ #// C1. Johann XI Dominic Albert, Fst zu Salm-Kyrburg, *26.7.1708, +2.6.1778
 				name="Johann [ominic Albert"
 				dynasty=1002071
 				religion=catholic culture=german
-				father=100004180	# Heinrich von Salm
-				mother=100099336	# Marie Therese de Croÿ
+				father=100004180	# Heinrich Gabriel von Salm
+				mother=croy_0028	# Marie Therese de Croÿ
 				1708.07.26={birth=yes}
 				1778.06.02={death=yes}
 			}
@@ -1222,8 +1222,8 @@
 				name=Philipp
 				dynasty=1002071
 				religion=catholic culture=german
-				father=100004180	# Heinrich von Salm
-				mother=100099336	# Marie Therese de Croÿ
+				father=100004180	# Heinrich Gabriel von Salm
+				mother=croy_0028	# Marie Therese de Croÿ
 				1709.07.21={birth=yes}
 				1742.08.12={add_spouse=100099337}	# PSS Maria Theresia von Hornes
 				1779.06.07={death=yes}  # Paris
@@ -1383,8 +1383,8 @@
 				female=yes
 				dynasty=1002071
 				religion=catholic culture=german
-				father=100004180	# Heinrich von Salm
-				mother=100099336	# Marie Therese de Croÿ
+				father=100004180	# Heinrich Gabriel von Salm
+				mother=croy_0028	# Marie Therese de Croÿ
 				1711.11.05={birth=yes}
 				1751.04.09={death=yes}
 			}
@@ -2120,7 +2120,7 @@
 				1771.07.07={birth=yes}
 				1810.07.19={death=yes}
 			}
-			100004446={ #// C8. Amalie Karoline, *7.6.1786, +27.2.1856; m.1827 Gf Wilhelm zu Bentheim-Tecklenburg-Rheda (*10.8.1799 +17.5.1873)
+			100004446={ #// C8. Amalie Karoline, *7.6.1786, +27.2.1856; m.1827 Gf Wilhelm zu Bentheim-Tecklenburg-Rheda (*10.8.1799 +17.5.1873) $$
 				name="Amalie Karoline"
 				female=yes
 				dynasty=1002071
@@ -2974,7 +2974,7 @@
 						1770.07.23={add_spouse=100026098}	# Maria Anna von Khevenhüller-Metsch
 						1784.05.12={death=yes}  # Olomouc
 					}
-						100004381={ #// F2. Ernestine Gfn von Salm und Neuburg, *Brno 5.8.1771, +Ljubljana 29.1.1809; m.Graz 21.1.1790 Gf Johann von Lamberg-Stein (*17.2.1764 +3.8.1828)
+						100004381={ #// F2. Ernestine Gfn von Salm und Neuburg, *Brno 5.8.1771, +Ljubljana 29.1.1809; m.Graz 21.1.1790 Gf Johann von Lamberg-Stein (*17.2.1764 +3.8.1828) $$
 							name=Ernestine
 							female=yes
 							dynasty=1002264
@@ -3014,7 +3014,7 @@
 					1754.01.01={add_spouse=100094021}	# Marie Wilhelmine Schirndinger von Schirnding
 					1758.01.01={death=yes}
 				}
-		100004385={ #// B6. Isabella Amelia, *1653, +1691; m.1666 Frhr Jaroslaw Swihowsky von Riesenburg (+1716)
+		100004385={ #// B6. Isabella Amelia, *1653, +1691; m.1666 Frhr Jaroslaw Swihowsky von Riesenburg (+1716) $$
 			name="Isabella Amelia"
 			female=yes
 			dynasty=1002264
@@ -3315,7 +3315,7 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 					father=daun_0047	# Maximilian von Daun
 					mother=wilczek_0028	# Antonia Maria von Wilczek
 					1783.07.03={birth=yes}
-					1843.10.08={add_spouse=lowborn_7030}	# Karoline Kapy de Kapyvar
+					1843.10.08={add_spouse=lowborn_7030}	# Karoline Kapy de Kapivár
 					1874.10.17={death=yes}  # Wien
 				}
 				daun_0082={ #// J4. Heinrich VON UND ZU DAUN, *Jemnice 1786.10.18, +Wien 1858.03.24; m.Immendorf 3.5.1825 Emma Locatelli (*Immendorf 27.2.1804, +Wien 7.2.1841)
@@ -3571,14 +3571,14 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 						1771.03.01={birth=yes}
 						1851.03.27={death=yes}  # Salzburg
 					}
-	100299227={ #// A2. Karl Friedrich (*1646, +1727); m.1667 Polyxena von Leiningen (*1617, +8.1.1668) %%
+	100299227={ #// A2. Karl Friedrich (*1646, +14.2.1727); m.1667 Polyxena von Leiningen (*1617, +8.1.1668) %%
 		name="Karl Friedrich"
 		dynasty=1002263
 		religion=catholic culture=german
 		father=daun_0007	# Philipp Ernst von Daun
 		1646.01.01={birth=yes}
 		1667.01.01={add_spouse=100003659}	# Polyxena von Leiningen
-		1727.01.01={death=yes}
+		1727.02.14={death=yes}
 	}
 ## von und zu Daun, Thiano
 
@@ -3623,7 +3623,7 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 				1584.01.01={add_spouse=100036209}	# Elisabeth von Manderscheid-Blankenheim
 				1598.01.01={death=yes}	# Broich
 			}
-				100004325={ #// D1. Walpurgis Anna (*Broich 13.11.1580, +Amberg 29.6.1618); m.13.11.1615 Reinhard von Solms-Braunfels (*Braunfels 27.3.1573, +Hungen 16.5.1630) %%
+				100004325={ #// D1. [1m.] Walpurgis Anna (*Broich 13.11.1580, +Amberg 29.6.1618); m.13.11.1615 Reinhard von Solms-Braunfels (*Braunfels 27.3.1573, +Hungen 16.5.1630) %%
 					name="Walpurgis Anna"
 					female=yes
 					dynasty=1002263
@@ -3633,7 +3633,7 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 					1580.11.13={birth=yes}  # Broich
 					1618.06.29={death=yes}  # Amberg
 				}
-				100004238={ #// D2. Johann Adolf (*1585, +1.5.1653); m.3.2.1611 Anna von Nassau-Siegen (*Dillenburg 3.3.1589, +27.2.1620) %%
+				100004238={ #// D2. [2m.] Johann Adolf (*1585, +1.5.1653); m.3.2.1611 Anna von Nassau-Siegen (*Dillenburg 3.3.1589, +27.2.1620) %%
 					name="Johann Adolf"
 					dynasty=1002263
 					religion=catholic culture=german
@@ -3653,7 +3653,7 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 						1635.01.01={add_spouse=100010634}	# Elisabeth zu Waldeck u.Pyrmont
 						1682.01.01={death=yes}
 					}
-						100004232={ #// F1. Anna Elisabeth (*1636, +4.6.1685); m.1st 26.3.1658 Georg Wilhelm von Leiningen (*8.3.1636, +19.7.1672); m.2nd 1673 Georg Friedrich Wild- und Rheingraf zu Kyrburg (*31.1.1611, +3.8.1681) %%
+						100004232={ #// F1. Anna Elisabeth (*1636, +4.6.1685); m.1st 26.3.1658 Georg Wilhelm von Leiningen (*8.3.1636, +19.7.1672); m.1st 1673 Georg Friedrich Wild- und Rheingraf zu Kyrburg (*31.1.1611, +3.8.1681) %%
 							name="Anna Elisabeth"
 							female=yes
 							dynasty=1002263
@@ -3947,10 +3947,10 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 			religion=catholic culture=german
 			father=100004062	# Erich Adolf von Salm-Reifferscheidt
 			mother=100009570	# Ernestine Barbara von Löwenstein-Wertheim-Rochefort
-			1672.08.14={birth=yes}
-			1692.10.29={add_spouse=100095284}	# GFN Marie Agnes Slavatová z Chlumu Košumberka
+			1672.08.14={birth=yes}  # Bedburg
+			1692.10.29={add_spouse=slavata_0034}	# Marie Anežka Slavata z Chlumu a Košumberka
 			1719.05.14={add_spouse=100022745}	# Maria Anna von Liechtenstein
-			1734.06.04={death=yes}
+			1734.06.04={death=yes}  # Wien
 		}
 			100004066={ #// 1c) Marie Ernestine (16 Jul 1693-25 Jun 1740); m.13 Dec 1719 Johann Adam Gf von Fünfkirchen (d.14 Mar 1748) $$
 				name="Marie Ernestine"
@@ -3958,7 +3958,7 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 				dynasty_house=salm_reiff
 				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
-				mother=100095284	# GFN Marie Agnes Slavatová z Chlumu Košumberka
+				mother=slavata_0034	# Marie Anežka Slavata z Chlumu a Košumberka
 				1693.07.16={birth=yes}
 				1740.06.25={death=yes}
 			}
@@ -3968,7 +3968,7 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 				dynasty_house=salm_reiff
 				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
-				mother=100095284	# GFN Marie Agnes Slavatová z Chlumu Košumberka
+				mother=slavata_0034	# Marie Anežka Slavata z Chlumu a Košumberka
 				1695.06.22={birth=yes}
 				1745.03.04={death=yes}
 			}
@@ -3977,7 +3977,7 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 				dynasty_house=salm_reiff
 				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
-				mother=100095284	# GFN Marie Agnes Slavatová z Chlumu Košumberka
+				mother=slavata_0034	# Marie Anežka Slavata z Chlumu a Košumberka
 				1697.04.06={birth=yes}
 				1720.01.13={add_spouse=100117464}	# Mária Franziska Esterházy de Galántha
 				1755.07.13={death=yes}
@@ -4247,7 +4247,7 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 				dynasty_house=salm_reiff
 				religion=catholic culture=german
 				father=100004065	# Franz Wilhelm von Salm-Reifferscheidt
-				mother=100095284	# GFN Marie Agnes Slavatová z Chlumu Košumberka
+				mother=slavata_0034	# Marie Anežka Slavata z Chlumu a Košumberka
 				1699.07.23={birth=yes}
 				1735.02.17={add_spouse=100022254}	# Maria Anna von Althann
 				1739.02.06={add_spouse=100021875}	# Maria Anna von Auersperg
@@ -4722,7 +4722,7 @@ daun_0007={ #// F1. Philipp Ernst VON DAUN, *1600, +8.1.1671; m.1st Maria Agnes 
 													mother=100095435	# GFN Nathalie von Ballestrem
 													2007.02.04={birth=yes}
 												}
-											100004020={ #// 3k) Sophie Marietta Anna Katharina (b.Linz 30 Apr 1975); m.Steyregg 21 Jun 2003 Wladimir Halka von Ledóchow Gf Ledóchowski (b.Madrid 31 May 1972)
+											100004020={ #// 3k) Sophie Marietta Anna Katharina (b.Linz 30 Apr 1975); m.Steyregg 21 Jun 2003 Wladimir Halka von Ledóchow Gf Ledóchowski (b.Madrid 31 May 1972) $$
 												name=Sophie
 												female=yes
 												dynasty_house=salm_reiff_raitz

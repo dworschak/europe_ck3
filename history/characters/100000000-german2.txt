@@ -7990,7 +7990,9 @@
 ## 100008835	Dohna				1002121	
 
 
-## 100008800	Leyen				1002108	
+## 100008800	Leyen				1002108
+# https://www.angelfire.com/realm/gotha/gotha/leyen.html
+
 100008801={ #// Karl Kaspar (11 Jul 1655-30 Nov 1739); m.28 Dec 1687 Maria Sophie Gfn von Schönborn (11 Sep 1670-16 Sep 1742) $$
 	name=Karl
 	dynasty=1002108
@@ -8259,7 +8261,7 @@
 						1821.02.17={birth=yes}
 						1875.12.08={death=yes}
 					}
-			100008831={ #// 2c) Charlotte Maria Anna Sophie Walpurgis (4 Apr 1768-12 Jan 1832); m.29 Jul 1799 Emmerich Joseph Philipp Gf von Stadion (d.1817)
+			100008831={ #// 2c) Charlotte Maria Anna Sophie Walpurgis (4 Apr 1768-12 Jan 1832); m.29 Jul 1799 Emmerich Joseph Philipp Gf von Stadion (d.1817) $$
 				name=Charlotte
 				female=yes
 				dynasty=1002108
@@ -8317,14 +8319,14 @@
 			1486.01.01={add_spouse=100093206}	# Regina Imhof
 			1506.01.01={death=yes}
 		}
-			100010844={ #// C3. Raymund, *24.10.1489, +3.12.1535; m.16.1.1513 Katharina Thurzó von Bethlenfalva (+31.1.1535)
+			100010844={ #// C3. Raymund, *24.10.1489, +3.12.1535; m.16.1.1513 Katharina Thurzó von Bethlenfalva (+31.1.1535) $$
 				name=Raymund
 				dynasty=1002252
 				religion=catholic culture=german
 				father=100010797	# Georg Fugger
 				mother=100093206	# Regina Imhof
 				1489.10.24={birth=yes}
-				1513.01.16={add_spouse=100100809}	# Katharina Thurzó de Bethlenfalva
+				1513.01.16={add_spouse=thurzo_0061}	# Katalin Thurzó de Bethlenfalva
 				1535.12.03={death=yes}
 			}
 				100010847={ #// D2. Johann Jakob, cr Frhr von Kirchberg und Weissenhorn 6.3.1551, *23.12.1516, +München 14.7.1575, bur Augsburg; 1m: 21.6.1540 Ursula von Harrach (*1522 +18.9.1554); 2m: 1560 Sidonia de Colaus gt Wazler (+1573)
@@ -8332,7 +8334,7 @@
 					dynasty=1002252
 					religion=catholic culture=german
 					father=100010844	# Raymund Fugger
-					mother=100100809	# Katharina Thurzó de Bethlenfalva
+					mother=thurzo_0061	# Katalin Thurzó de Bethlenfalva
 					1516.12.23={birth=yes}
 					1540.06.21={add_spouse=100100811}	# Ursula von Harrach
 					1560.01.01={add_spouse=100100813}	# Sidonia de Colaus gt Wazler
@@ -8432,7 +8434,7 @@
 					dynasty=1002252
 					religion=catholic culture=german
 					father=100010844	# Raymund Fugger
-					mother=100100809	# Katharina Thurzó de Bethlenfalva
+					mother=thurzo_0061	# Katalin Thurzó de Bethlenfalva
 					1518.01.01={birth=yes}
 					1542.01.01={add_spouse=100100870}	# Ursula von Liechtenstein
 					1569.01.01={death=yes}
@@ -8624,7 +8626,7 @@
 					dynasty=1002252
 					religion=catholic culture=german
 					father=100010844	# Raymund Fugger
-					mother=100100809	# Katharina Thurzó de Bethlenfalva
+					mother=thurzo_0061	# Katalin Thurzó de Bethlenfalva
 					1530.01.01={birth=yes}
 					1570.01.01={death=yes}
 				}
@@ -9627,34 +9629,591 @@
 #fugger2
 
 #fugger3
-100011017={ #// Sebastian Xaver Joseph Fugger Graf zu Kirchberg und Weissenhorn, zu Glött, *1715, +1763; m.1742 Elisabeth Gabriele Gfn von Firmian (*1722 +1782)
+fugger_0001={ #// Sebastian Xaver Joseph Fugger Graf zu Kirchberg und Weissenhorn, zu Glött, *1715, +1763; m.1742 Elisabeth Gabriele Gfn von Firmian (*1722 +1782); They had issue:
 	name=Sebastian
 	dynasty=1002252
-	religion=catholic culture=german
+	religion=catholic culture=hungarian
 	father=100011016	# Anton Ernst Fugger
 	mother=trautson_0010	# Marie Elisabeth von Trautson
 	1715.01.01={birth=yes}
-	1742.01.01={add_spouse=100100964}	# GFN Elisabeth Gabriele von Firmian
+	1742.01.01={add_spouse=lowbor2_0001}	# GFN Elisabeth Gabriele von Firmian
 	1763.01.01={death=yes}
 }
-	100101160={ # A3. Joseph Sebastian Eligius, *1749, +1826; m.1784 Maria Aloysia Frn von Waldburg Gfn zu Wolfegg (*1765 +1799)
-		name="Joseph Sebastian"
-		religion=catholic culture=german
-		father=100011017	# Sebastian Fugger
-		mother=100100964	# GFN Elisabeth Gabriele von Firmian
-		1749.12.01={birth=yes}  # Dillingen
-		1784.08.26={add_spouse=100011327}	# Maria von Waldburg zu Wolfegg u.Waldsee
-		1826.09.10={death=yes}  # Oberndorf
+	fugger_0003={ #// A2. Leopold Vitus, *1748, +1804
+		name=Leopold
+		dynasty=1002252
+		religion=catholic culture=hungarian
+		father=fugger_0001	# Sebastian Fugger
+		mother=lowbor2_0001	# GFN Elisabeth Gabriele von Firmian
+		1748.01.01={birth=yes}
+		1804.01.01={death=yes}
 	}
-	100082046={ # A6. Maria Katharina, *Innsbruck 6.6.1744, +Wurzach 4.4.1796, bur Wurzach; m.6.5.1767 Fst Eberhard von Waldburg zu Zeil-Wurzach (*20.12.1730, +23.9.1807)
-		name="Maria Katharina Fugger von Glött"
+	fugger_0004={ #// A3. Joseph Sebastian Eligius, *1749, +1826; m.1784 Maria Aloysia Frn von Waldburg Gfn zu Wolfegg (*1765 +1799) $$
+		name=Joseph
+		dynasty=1002252
+		religion=catholic culture=hungarian
+		father=fugger_0001	# Sebastian Fugger
+		mother=lowbor2_0001	# GFN Elisabeth Gabriele von Firmian
+		1749.01.01={birth=yes}
+		1784.01.01={add_spouse=100011327}	# Maria Aloysia von Waldburg zu Wolfegg u.Waldsee
+		1826.01.01={death=yes}
+	}
+		fugger_0005={ #// B1. Ernst Leopold, *1788, +k.a.Hanau 1813
+			name="Ernst Leopold"
+			dynasty=1002252
+			religion=catholic culture=hungarian
+			father=fugger_0004	# Joseph Fugger
+			mother=100011327	# Maria Aloysia von Waldburg zu Wolfegg u.Waldsee
+			1788.01.01={birth=yes}
+			1813.01.01={death=yes}  # Hanau
+		}
+		fugger_0006={ #// B2. Karl Rasso, *1789, +1855; m.1822 Aloysia Baugger (*1798 +1864); his issue were Grafen Fugger von Glött and Grafen Fugger-Blumenthal after1904
+			name=Karl
+			dynasty=1002252
+			religion=catholic culture=hungarian
+			father=fugger_0004	# Joseph Fugger
+			mother=100011327	# Maria Aloysia von Waldburg zu Wolfegg u.Waldsee
+			1789.01.01={birth=yes}
+			1822.01.01={add_spouse=lowbor2_0003}	# Aloysia Baugger
+			1855.01.01={death=yes}
+		}
+			fugger_0007={ #// C1. Eberhard, *1824, +1902; m.1854 Adelheid Edle von Mayer auf Starzhausen (*1833 +1902)
+				name=Eberhard
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0006	# Karl Fugger
+				mother=lowbor2_0003	# Aloysia Baugger
+				1824.01.01={birth=yes}
+				1854.01.01={add_spouse=lowbor2_0004}	# EDLE Adelheid von Mayer auf Starzhausen
+				1902.01.01={death=yes}
+			}
+				fugger_0008={ #// D1. Karl, *1857, +1910; m.1886 Dagmar von Quist (*1865 +1937)
+					name=Karl
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0007	# Eberhard Fugger
+					mother=lowbor2_0004	# EDLE Adelheid von Mayer auf Starzhausen
+					1857.01.01={birth=yes}
+					1886.01.01={add_spouse=lowbor2_0005}	# Dagmar von Quist
+					1910.01.01={death=yes}
+				}
+					fugger_0009={ #// E1. Hugo, *1886, +1911
+						name=Hugo
+						dynasty=1002252
+						religion=catholic culture=hungarian
+						father=fugger_0008	# Karl Fugger
+						mother=lowbor2_0005	# Dagmar von Quist
+						1886.01.01={birth=yes}
+						1911.01.01={death=yes}
+					}
+					fugger_0010={ #// E2. Sophie, *1890, +1968; m.1912 Wilhelm Frhr von Lamezan (+1939)
+						name=Sophie
+						female=yes
+						dynasty=1002252
+						religion=catholic culture=hungarian
+						father=fugger_0008	# Karl Fugger
+						mother=lowbor2_0005	# Dagmar von Quist
+						1890.01.01={birth=yes}
+						1968.01.01={death=yes}
+					}
+				fugger_0011={ #// D2. Max, *1859, +1909
+					name=Max
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0007	# Eberhard Fugger
+					mother=lowbor2_0004	# EDLE Adelheid von Mayer auf Starzhausen
+					1859.01.01={birth=yes}
+					1909.01.01={death=yes}
+				}
+				fugger_0012={ #// D3. Eberhard, *1866, +1907; m.1901 Hedwig Graf (*1859 +1936)
+					name=Eberhard
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0007	# Eberhard Fugger
+					mother=lowbor2_0004	# EDLE Adelheid von Mayer auf Starzhausen
+					1866.01.01={birth=yes}
+					1901.01.01={add_spouse=lowbor2_0007}	# Hedwig Graf
+					1907.01.01={death=yes}
+				}
+				fugger_0013={ #// D4. Joseph, *1869, +k.a.Marrua, Cameroon 1903
+					name=Joseph
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0007	# Eberhard Fugger
+					mother=lowbor2_0004	# EDLE Adelheid von Mayer auf Starzhausen
+					1869.01.01={birth=yes}
+					1903.01.01={death=yes}  # Marrua Cameroon
+				}
+				fugger_0014={ #// D5. Bertha, *1865, +1936
+					name=Bertha
+					female=yes
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0007	# Eberhard Fugger
+					mother=lowbor2_0004	# EDLE Adelheid von Mayer auf Starzhausen
+					1865.01.01={birth=yes}
+					1936.01.01={death=yes}
+				}
+			fugger_0015={ #// C2. Oskar, *1829, +1906; 1m: 1858 Therese Hamel (*1829 +1859); 2m: 1863 Karoline Frn von Zoller (*1836 +1910)
+				name=Oskar
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0006	# Karl Fugger
+				mother=lowbor2_0003	# Aloysia Baugger
+				1829.01.01={birth=yes}
+				1858.01.01={add_spouse=lowbor2_0008}	# Therese Hamel
+				1863.01.01={add_spouse=lowbor2_0009}	# FRN Karoline von Zoller
+				1906.01.01={death=yes}
+			}
+				fugger_0016={ #// D1. Marie, *1859, +1936
+					name=Marie
+					female=yes
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0015	# Oskar Fugger
+					mother=lowbor2_0008	# Therese Hamel
+					1859.01.01={birth=yes}
+					1936.01.01={death=yes}
+				}
+			fugger_0017={ #// C3. Clotilde, a nun, *1827, +1888
+				name=Clotilde
+				female=yes
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0006	# Karl Fugger
+				mother=lowbor2_0003	# Aloysia Baugger
+				1827.01.01={birth=yes}
+				1888.01.01={death=yes}
+			}
+			fugger_0018={ #// C4. Eleonore, *1831, +1905
+				name=Eleonore
+				female=yes
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0006	# Karl Fugger
+				mother=lowbor2_0003	# Aloysia Baugger
+				1831.01.01={birth=yes}
+				1905.01.01={death=yes}
+			}
+		fugger_0021={ #// B5. FIDELIS Ferdinand Gf Fugger von Glött, *Glött 7.3.1795, +Dillingen 8.1.1876; m.Wildthurn 14.10.1820 Maria Theresia Frn von Pelkhoven (*Straubing 6.1.1799, +Dillingen 26.6.1862)
+			name=Fidelis
+			dynasty=1002252
+			religion=catholic culture=hungarian
+			father=fugger_0004	# Joseph Fugger
+			mother=100011327	# Maria Aloysia von Waldburg zu Wolfegg u.Waldsee
+			1795.03.07={birth=yes}  # Glött
+			1820.10.14={add_spouse=lowbor2_0010}	# FRN Maria Theresia von Pelkhoven
+			1876.01.08={death=yes}  # Dillingen
+		}
+			fugger_0022={ #// C1. ERNST Gf Fugger von Glött, *Glött 14.8.1821, +Oberndorf 11.2.1885; m.Regensburg 31.1.1857 Maria Frn von Künsberg (*Brückenau 5.6.1834, +Oberndorf 9.10.1901)
+				name=Ernst
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1821.08.14={birth=yes}  # Glött
+				1857.01.31={add_spouse=lowbor2_0011}	# FRN Maria von Künsberg
+				1885.02.11={death=yes}  # Oberndorf
+			}
+				fugger_0023={ #// D1. Ernst, *14.2.1858, +22.2.1858
+					name=Ernst
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0022	# Ernst Fugger
+					mother=lowbor2_0011	# FRN Maria von Künsberg
+					1858.02.14={birth=yes}
+					1858.02.22={death=yes}
+				}
+				fugger_0024={ #// D2. CARL ERNST Maria Fidel Alfred Anton, cr Fürst Fugger von Glött 30.12.1913, *Oberndorf 2.7.1859, +Kirchheim 25.4.1940; m.Moos bei Lindau 1.11.1891 Elisabeth Gfn von Quadt zu Wykradt u.Isny (*Hannover 11.9.1862, +Kirchheim 16.8.1940) $$
+					name="Carl Ernst"
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0022	# Ernst Fugger
+					mother=lowbor2_0011	# FRN Maria von Künsberg
+					1859.07.02={birth=yes}  # Oberndorf
+					1891.11.01={add_spouse=quadt_0047}	# Elisabeth von Quadt zu Wykradt u.Isny
+					1940.04.25={death=yes}  # Kirchheim
+				}
+					fugger_0025={ #// E1. JOSEPH ERNST Hermann Theodor Carl Maria Fürst Fugger von Glött, *Kirchheim 26.10.1895, +Miesbach 13.5.1981; 1m: Schloß Namedy 18.5.1920 (div 1943) Stephanie Pss von Hohenzollern (*Potsdam 8.4.1895, +Diessen am Ammersee 7.8.1975); 2m: Kirchheim 7.12.1975 Angela von Kienlin (*Pähl 4.12.1935) $$
+						name="Joseph Ernst"
+						dynasty=1002252
+						religion=catholic culture=hungarian
+						father=fugger_0024	# Carl Ernst Fugger
+						mother=quadt_0047	# Elisabeth von Quadt zu Wykradt u.Isny
+						1895.10.26={birth=yes}  # Kirchheim
+						1920.05.18={add_spouse=100002230}	# Stephanie von Hohenzollern-Sigmaringen
+						1943.01.01={remove_spouse=100002230}
+						1975.12.07={add_spouse=lowbor2_0014}	# Angela von Kienlin
+						1981.05.13={death=yes}  # Miesbach
+					}
+					fugger_0026={ #// E2. Anna Friederike Elisabeth Maria, *Kirchheim 10.2.1893, +Kirchheim 25.12.1962
+						name=Anna
+						female=yes
+						dynasty=1002252
+						religion=catholic culture=hungarian
+						father=fugger_0024	# Carl Ernst Fugger
+						mother=quadt_0047	# Elisabeth von Quadt zu Wykradt u.Isny
+						1893.02.10={birth=yes}  # Kirchheim
+						1962.12.25={death=yes}  # Kirchheim
+					}
+					fugger_0027={ #// E3. Maria, *Kirchheim 29.4.1894, +Munich 13.3.1935; m.Kirchheim 3.10.1929 Gf Ferdinand von Arco-Zinneberg (*10.9.1882 +2.5.1940) $$
+						name=Maria
+						female=yes
+						dynasty=1002252
+						religion=catholic culture=hungarian
+						father=fugger_0024	# Carl Ernst Fugger
+						mother=quadt_0047	# Elisabeth von Quadt zu Wykradt u.Isny
+						1894.04.29={birth=yes}  # Kirchheim
+						1935.03.13={death=yes}  # Munich
+					}
+				fugger_0028={ #// D3. Hermann, *Oberndorf 12.10.1872, +Kiel 20.6.1936
+					name=Hermann
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0022	# Ernst Fugger
+					mother=lowbor2_0011	# FRN Maria von Künsberg
+					1872.10.12={birth=yes}  # Oberndorf
+					1936.06.20={death=yes}  # Kiel
+				}
+				fugger_0029={ #// D4. Wilhelm, *Oberndorf 6.8.1876, +k.a.Lunéville 5.9.1914
+					name=Wilhelm
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0022	# Ernst Fugger
+					mother=lowbor2_0011	# FRN Maria von Künsberg
+					1876.08.06={birth=yes}  # Oberndorf
+					1914.09.05={death=yes}  # Lunéville
+				}
+				fugger_0030={ #// D5. Therese, *Oberndorf 27.5.1860, +Dillingen 10.4.1935
+					name=Therese
+					female=yes
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0022	# Ernst Fugger
+					mother=lowbor2_0011	# FRN Maria von Künsberg
+					1860.05.27={birth=yes}  # Oberndorf
+					1935.04.10={death=yes}  # Dillingen
+				}
+				fugger_0031={ #// D6. Franziska 'Fanny', *Oberndorf 11.11.1861, +Dillingen 22.2.1948
+					name="Franziska 'Fanny'"
+					female=yes
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0022	# Ernst Fugger
+					mother=lowbor2_0011	# FRN Maria von Künsberg
+					1861.11.11={birth=yes}  # Oberndorf
+					1948.02.22={death=yes}  # Dillingen
+				}
+				fugger_0032={ #// D7. Maria, *Oberndorf 9.3.1868, +Dillingen 8.1.1935
+					name=Maria
+					female=yes
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0022	# Ernst Fugger
+					mother=lowbor2_0011	# FRN Maria von Künsberg
+					1868.03.09={birth=yes}  # Oberndorf
+					1935.01.08={death=yes}  # Dillingen
+				}
+			fugger_0033={ #// C2. Alfred, *Glött 25.6.1822, +Banjaluka, Bosnia 23.4.1900; m.Ober-Langenstadt 16.11.1867 Franziska Frn von Künsberg (*Brückenau 28.7.1835, +Banjaluka 20.4.1919)
+				name=Alfred
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1822.06.25={birth=yes}  # Glött
+				1867.11.16={add_spouse=lowbor2_0016}	# FRN Franziska von Künsberg
+				1900.04.23={death=yes}  # Banjaluka Bosnia
+			}
+				fugger_0034={ #// D1. JOSEF Karl Augustin Maria Alfred Franziskus Eduard Ignatius, *St.Margarethen bei Linz 19.3.1874, +Holzhausen am Ammersee 25.4.1944; m.Kappeln 21.10.1915 Maria-Kristine Frn von Loë (*Muffendorf am Rhein 15.9.1889, +Haunstetten bei Augsburg 29.5.1958)
+					name=Josef
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0033	# Alfred Fugger
+					mother=lowbor2_0016	# FRN Franziska von Künsberg
+					1874.03.19={birth=yes}
+					1915.10.21={add_spouse=lowbor2_0017}	# FRN Maria-Kristine von Loë
+					1944.04.25={death=yes}  # Holzhausen_am_Ammersee
+				}
+					fugger_0035={ #// E1. HANSKARL Maria Josef Alfred, *Kappeln 4.8.1916, +k.a.Strumitza, Yugoslavia 6.4.1941
+						name=Hanskarl
+						dynasty=1002252
+						religion=catholic culture=hungarian
+						father=fugger_0034	# Josef Fugger
+						mother=lowbor2_0017	# FRN Maria-Kristine von Loë
+						1916.08.04={birth=yes}  # Kappeln
+						1941.04.06={death=yes}  # Strumitza Yugoslavia
+					}
+					fugger_0036={ #// E2. MARIA-KARLA Josepha Eugenia Franziska Antonia, *Kappeln 2.5.1918, +Augsburg 6.11.2002; m.Saloniki 28.8.1943 (div 1948) Richard Rixrath (*St.Germain 14.5.1912)
+						name=MARIA-KARLA
+						female=yes
+						dynasty=1002252
+						religion=catholic culture=hungarian
+						father=fugger_0034	# Josef Fugger
+						mother=lowbor2_0017	# FRN Maria-Kristine von Loë
+						1918.05.02={birth=yes}  # Kappeln
+						2002.11.06={death=yes}  # Augsburg
+					}
+				fugger_0037={ #// D2. Cornelia, *Glött 3.9.1868, +7.3.1932
+					name=Cornelia
+					female=yes
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0033	# Alfred Fugger
+					mother=lowbor2_0016	# FRN Franziska von Künsberg
+					1868.09.03={birth=yes}  # Glött
+					1932.03.07={death=yes}
+				}
+				fugger_0038={ #// D3. Maria, *St.Margarethen bei Linz 20.7.1871, +Dillingen 5.2.1953
+					name=Maria
+					female=yes
+					dynasty=1002252
+					religion=catholic culture=hungarian
+					father=fugger_0033	# Alfred Fugger
+					mother=lowbor2_0016	# FRN Franziska von Künsberg
+					1871.07.20={birth=yes}
+					1953.02.05={death=yes}  # Dillingen
+				}
+			fugger_0039={ #// C3. Theodor, *Oberndorf 23.7.1823, +Landau 10.3.1850
+				name=Theodor
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1823.07.23={birth=yes}  # Oberndorf
+				1850.03.10={death=yes}  # Landau
+			}
+			fugger_0040={ #// C4. Otto, *Oberndorf 5.10.1825, +Dillingen 28.7.1855
+				name=Otto
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1825.10.05={birth=yes}  # Oberndorf
+				1855.07.28={death=yes}  # Dillingen
+			}
+			fugger_0044={ #// C8. Hermann, *Glött 3.2.1833, +Munich 16.6.1902, a Jesuit
+				name=Hermann
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1833.02.03={birth=yes}  # Glött
+				1902.06.16={death=yes}  # Munich
+			}
+			fugger_0045={ #// C9. Rudolf, *Glött 18.3.1834, +Naples 22.5.1890; m.Rome 22.1.1879 Anna Mobili (*4.10.1859, +1921); he had issue
+				name=Rudolf
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1834.03.18={birth=yes}  # Glött
+				1879.01.22={add_spouse=lowbor2_0019}	# Anna Mobili
+				1890.05.22={death=yes}  # Naples
+			}
+			fugger_0046={ #// C10. Albert, *Glött 18.3.1834, +Rome 21.4.1919; m.1892 Anna Mobili (*4.10.1859, +1921); he had issue
+				name=Albert
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1834.03.18={birth=yes}  # Glött
+				1892.01.01={add_spouse=lowbor2_0019}	# Anna Mobili
+				1919.04.21={death=yes}  # Rome
+			}
+			fugger_0047={ #// C11. Eduard, *Glött 19.2.1835, +from a fall from a horse at Pinka Mindzent, Hungary 23.5.1872
+				name=Eduard
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1835.02.19={birth=yes}  # Glött
+				1872.05.23={death=yes}  # from fall from a horse at Pinka Mindzent Hungary
+			}
+			fugger_0048={ #// C12. Fidelis, *Glött 8.2.1836, +Glött 24.5.1884
+				name=Fidelis
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1836.02.08={birth=yes}  # Glött
+				1884.05.24={death=yes}  # Glött
+			}
+			fugger_0049={ #// C13. Wilhelm, *Glött 14.2.1843, +Dillingen 3.3.1889
+				name=Wilhelm
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1843.02.14={birth=yes}  # Glött
+				1889.03.03={death=yes}  # Dillingen
+			}
+			fugger_0051={ #// C15. Bertha, *Oberndorf 27.5.1830, +Glött 8.1.1887
+				name=Bertha
+				female=yes
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1830.05.27={birth=yes}  # Oberndorf
+				1887.01.08={death=yes}  # Glött
+			}
+			fugger_0052={ #// C16. Ida, *Glött 1.2.1832, +Dillingen 6.10.1919
+				name=Ida
+				female=yes
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1832.02.01={birth=yes}  # Glött
+				1919.10.06={death=yes}  # Dillingen
+			}
+			fugger_0053={ #// C17. Amalia, *Glött 4.5.1837, +Dillingen 5.3.1918
+				name=Amalia
+				female=yes
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1837.05.04={birth=yes}  # Glött
+				1918.03.05={death=yes}  # Dillingen
+			}
+			fugger_0054={ #// C18. Therese, *Glött 2.1.1839, +Dillingen 15.6.1854
+				name=Therese
+				female=yes
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1839.01.02={birth=yes}  # Glött
+				1854.06.15={death=yes}  # Dillingen
+			}
+			fugger_0055={ #// C19. Emma, *Glött 17.7.1840, +Dillingen 11.2.1902
+				name=Emma
+				female=yes
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0021	# Fidelis Fugger
+				mother=lowbor2_0010	# FRN Maria Theresia von Pelkhoven
+				1840.07.17={birth=yes}  # Glött
+				1902.02.11={death=yes}  # Dillingen
+			}
+		fugger_0056={ #// B6. Theodor, *1796, +1816
+			name=Theodor
+			dynasty=1002252
+			religion=catholic culture=hungarian
+			father=fugger_0004	# Joseph Fugger
+			mother=100011327	# Maria Aloysia von Waldburg zu Wolfegg u.Waldsee
+			1796.01.01={birth=yes}
+			1816.01.01={death=yes}
+		}
+		fugger_0057={ #// B7. Leopold Sebastian Ferdinand Joseph, *1797, +1859; 1m: 1828 Maria Frn Rassler von Gamerschwang (*1802 +1833); 2m: 1840 Rosa Frn von Guimppenberg (*1819 +1908)
+			name=Leopold
+			dynasty=1002252
+			religion=catholic culture=hungarian
+			father=fugger_0004	# Joseph Fugger
+			mother=100011327	# Maria Aloysia von Waldburg zu Wolfegg u.Waldsee
+			1797.01.01={birth=yes}
+			1828.01.01={add_spouse=lowbor2_0021}	# FRN Maria Rassler von Gamerschwang
+			1840.01.01={add_spouse=lowbor2_0022}	# FRN Rosa von Guimppenberg
+			1859.01.01={death=yes}
+		}
+			fugger_0058={ #// C1. Rudolf, *1842, +1922
+				name=Rudolf
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0057	# Leopold Fugger
+				mother=lowbor2_0022	# FRN Rosa von Guimppenberg
+				1842.01.01={birth=yes}
+				1922.01.01={death=yes}
+			}
+			fugger_0059={ #// C2. Maximilian, *1849, +1928; m.1883 Amalia Thewalt-Gürtler von Gürtelrain (*1853 +1915)
+				name=Maximilian
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0057	# Leopold Fugger
+				mother=lowbor2_0022	# FRN Rosa von Guimppenberg
+				1849.01.01={birth=yes}
+				1883.01.01={add_spouse=lowbor2_0023}	# Amalia Thewalt-Gürtler von Gürtelrain
+				1928.01.01={death=yes}
+			}
+			fugger_0060={ #// C3. Therese, *1829, +1899; m.1857 Ottmar Gf von Maldeghem (+1860)
+				name=Therese
+				female=yes
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0057	# Leopold Fugger
+				mother=lowbor2_0021	# FRN Maria Rassler von Gamerschwang
+				1829.01.01={birth=yes}
+				1899.01.01={death=yes}
+			}
+			fugger_0061={ #// C4. Charlotte, *1830, +1876
+				name=Charlotte
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0057	# Leopold Fugger
+				mother=lowbor2_0021	# FRN Maria Rassler von Gamerschwang
+				1830.01.01={birth=yes}
+				1876.01.01={death=yes}
+			}
+			fugger_0062={ #// C5. Thekla, *1846, +1876
+				name=Thekla
+				female=yes
+				dynasty=1002252
+				religion=catholic culture=hungarian
+				father=fugger_0057	# Leopold Fugger
+				mother=lowbor2_0022	# FRN Rosa von Guimppenberg
+				1846.01.01={birth=yes}
+				1876.01.01={death=yes}
+			}
+		fugger_0064={ #// B9. Maria Antonia Aloysia, *1799, +1885
+			name="Maria Antonia"
+			female=yes
+			dynasty=1002252
+			religion=catholic culture=hungarian
+			father=fugger_0004	# Joseph Fugger
+			mother=100011327	# Maria Aloysia von Waldburg zu Wolfegg u.Waldsee
+			1799.01.01={birth=yes}
+			1885.01.01={death=yes}
+		}
+	fugger_0065={ #// A4. Theodor Joseph Maria, *1753, +1818
+		name=Theodor
+		dynasty=1002252
+		religion=catholic culture=hungarian
+		father=fugger_0001	# Sebastian Fugger
+		mother=lowbor2_0001	# GFN Elisabeth Gabriele von Firmian
+		1753.01.01={birth=yes}
+		1818.01.01={death=yes}
+	}
+	fugger_0066={ #// A5. Maria Elisabeth, a nun at Buchau, *1743, +1791
+		name="Maria Elisabeth"
 		female=yes
-		religion=catholic culture=german
-		1744.01.01={birth=yes}
-		1796.01.01={death=yes}
+		dynasty=1002252
+		religion=catholic culture=hungarian
+		father=fugger_0001	# Sebastian Fugger
+		mother=lowbor2_0001	# GFN Elisabeth Gabriele von Firmian
+		1743.01.01={birth=yes}
+		1791.01.01={death=yes}
 	}
-
-
+	fugger_0067={ #// A6. Maria Katharina, *Innsbruck 6.6.1744, +Wurzach 4.4.1796, bur Wurzach; m.6.5.1767 Fst Eberhard von Waldburg zu Zeil-Wurzach (*20.12.1730, +23.9.1807) $$
+		name="Maria Katharina"
+		female=yes
+		dynasty=1002252
+		religion=catholic culture=bavarian
+		father=fugger_0001	# Sebastian Fugger
+		mother=lowbor2_0001	# GFN Elisabeth Gabriele von Firmian
+		1744.06.06={birth=yes}  # Innsbruck
+		1796.04.04={death=yes}  # Wurzach
+	}
+	fugger_0068={ #// A7. Maria Anna Theresia, *1746, +1783; m.1780 Maximilian Gf von Taufkirchen (+1800)
+		name="Maria Anna"
+		female=yes
+		dynasty=1002252
+		religion=catholic culture=hungarian
+		father=fugger_0001	# Sebastian Fugger
+		mother=lowbor2_0001	# GFN Elisabeth Gabriele von Firmian
+		1746.01.01={birth=yes}
+		1783.01.01={death=yes}
+	}
 #fugger3
 
 #fugger4
@@ -15150,14 +15709,14 @@
 	1830.01.01={add_spouse=100035886}	# Sophie van Hoensbroech
 	1846.01.01={death=yes}
 }
-	100012836={ #// A1. Friedrich Leopold (*1831, +1913); m.1863 Bss Huberta von Loë (*1843, +1900) %%
+	100012836={ #// A1. Friedrich Leopold (*1831, +1913); m.1863 Bss Huberta Maria von Loë (*Allner an der Sieg 11.6.1843, +Körtlinghausen 30.4.1900) %%
 		name="Friedrich Leopold"
 		dynasty=1002279
 		religion=catholic culture=german
 		father=100012832	# Johann von Fürstenberg
 		mother=100035886	# Sophie van Hoensbroech
 		1831.01.01={birth=yes}
-		1863.01.01={add_spouse=100089001}	# BSS Huberta von Loë
+		1863.01.01={add_spouse=100089001}	# BSS Huberta Maria von Loë
 		1913.01.01={death=yes}
 	}
 		100012835={ #// B1. Rudolf Wolfgang (*1864, +1936); m.1903 Css Pia von Ballestrem (*1869, +1918) %%
@@ -15165,7 +15724,7 @@
 			dynasty=1002279
 			religion=catholic culture=german
 			father=100012836	# Friedrich Leopold von Fürstenberg
-			mother=100089001	# BSS Huberta von Loë
+			mother=100089001	# BSS Huberta Maria von Loë
 			1864.01.01={birth=yes}
 			1903.01.01={add_spouse=100088896}	# CSS Pia von Ballestrem
 			1936.01.01={death=yes}
@@ -15210,7 +15769,7 @@
 			dynasty=1002279
 			religion=catholic culture=german
 			father=100012836	# Friedrich Leopold von Fürstenberg
-			mother=100089001	# BSS Huberta von Loë
+			mother=100089001	# BSS Huberta Maria von Loë
 			1866.02.19={birth=yes}  # Körtlinghausen
 			1905.01.18={add_spouse=100011387}	# Franziska von Rechberg u.Rothenlöwen zu Hohenrechberg
 			1925.12.25={death=yes}  # Echthausen
@@ -15220,7 +15779,7 @@
 			dynasty=1002279
 			religion=catholic culture=german
 			father=100012836	# Friedrich Leopold von Fürstenberg
-			mother=100089001	# BSS Huberta von Loë
+			mother=100089001	# BSS Huberta Maria von Loë
 			1867.01.01={birth=yes}
 			1936.01.01={death=yes}
 		}
@@ -15476,7 +16035,7 @@
 						1578.08.31={add_spouse=100092199}	# FRN Elisabeth von Pernstein
 						1632.01.01={death=yes}  # EST.
 					}
-						# furstenbg3 -> F1. Christoph II, *Blumberg 16.11.1580, +k.in a quarrel with his cousin Wilhelm 5.1.1614; m.1600/01 Frn Dorothea Holicka ze Sternberka (*1570, +12.6.1633); for his descendants see HERE
+						#furstenbg3 --> F1. Christoph II, *Blumberg 16.11.1580, +k.in a quarrel with his cousin Wilhelm 5.1.1614; m.1600/01 Frn Dorothea Holicka ze Sternberka (*1570, +12.6.1633); for his descendants see HERE
 						100010290={ #// F2. Wratislaus I, *Prague 31.1.1584, +Vienna 10.7.1631; 1m: 1608 Marguerite de Croy (*11.10.1568, +1614); 2m: 1615 Katharina Livia de la Vierda Tiera (+1.7.1627); 3m: 17.12.1628 Lavinia Gonzaga (+7.5.1639) $$
 							name=Wratislaus
 							dynasty=1002020
@@ -15587,7 +16146,7 @@
 							father=100010328	# Friedrich von Fürstenberg
 							mother=100101202	# GFN Elisabeth von Sulz
 							1586.02.04={birth=yes}
-							1608.07.24={add_spouse=100047782}	# Polyxena Popel z Lobkowicz
+							1608.07.24={add_spouse=lobkow_0058}	# Polyxena Popel z Lobkowicz
 							1618.11.18={death=yes}
 						}
 						100010330={ #// F3. Ernst Egon VIII von Fürstenberg-Heiligenberg, *Speyer 21.3.1588, +Konstanz 24.8.1655; m.Hechingen 9.6.1619 Gfn Anna Maria von Hohenzollern-Hechingen (*8.9.1603 +23.8.1652) $$
@@ -15962,7 +16521,7 @@
 					1693.12.09={birth=yes}  # Stuhlingen
 					1753.03.21={death=yes}  # Neu Trauchburg
 				}
-				100011503={ #// D5. Maria Augusta, *Günzburg 7.5.1695, +Brno 18.2.1770; m.1714 Gf Wenzel Albrecht von Wrbna und Freudenthal (*1659, +11.9.1732)
+				100011503={ #// D5. Maria Augusta, *Günzburg 7.5.1695, +Brno 18.2.1770; m.1714 Gf Wenzel Albrecht von Wrbna und Freudenthal (*1659, +11.9.1732) $$
 					name="Maria Augusta"
 					female=yes
 					dynasty=1002020
@@ -17954,7 +18513,7 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 					father=strachwitz_0022	# Franz Strachwitz v.Groß-Zauche u.Camminetz
 					mother=lowborn_1978	# Karoline Theresia Hentschel von Gilgenheimb
 					1812.01.06={birth=yes}  # Sacrau
-					1847.08.19={add_spouse=lowborn_2031}	# Maria Henriette von Frankenberg-Ludwigsdorff
+					1847.08.19={add_spouse=lowborn_2031}	# Maria Henriette von Frankenberg u.Ludwigsdorf
 					1888.02.27={death=yes}  # Breslau
 				}
 					strachwitz_0094={ #// 94 Friedrich STRACHWITZ ZU SACRAU, *Sacrau 1852.02.17
@@ -17962,7 +18521,7 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 						dynasty=1002256
 						religion=catholic culture=german
 						father=strachwitz_0042	# Ernst Strachwitz v.Groß-Zauche u.Camminetz
-						mother=lowborn_2031	# Maria Henriette von Frankenberg-Ludwigsdorff
+						mother=lowborn_2031	# Maria Henriette von Frankenberg u.Ludwigsdorf
 						1852.02.17={birth=yes}  # Sacrau
 						1922.01.01={death=yes}  # EST.
 					}
@@ -17972,7 +18531,7 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 						dynasty=1002256
 						religion=catholic culture=german
 						father=strachwitz_0042	# Ernst Strachwitz v.Groß-Zauche u.Camminetz
-						mother=lowborn_2031	# Maria Henriette von Frankenberg-Ludwigsdorff
+						mother=lowborn_2031	# Maria Henriette von Frankenberg u.Ludwigsdorf
 						1852.01.01={birth=yes}  # EST.
 						1912.01.01={death=yes}  # EST.
 					}
@@ -17981,7 +18540,7 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 						dynasty=1002256
 						religion=catholic culture=german
 						father=strachwitz_0042	# Ernst Strachwitz v.Groß-Zauche u.Camminetz
-						mother=lowborn_2031	# Maria Henriette von Frankenberg-Ludwigsdorff
+						mother=lowborn_2031	# Maria Henriette von Frankenberg u.Ludwigsdorf
 						1853.09.13={birth=yes}  # Breslau
 						1923.01.01={death=yes}  # EST.
 					}
@@ -18881,7 +19440,7 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 						religion=catholic culture=german
 						father=strachwitz_0053	# Oskar Strachwitz v.Groß-Zauche u.Camminetz
 						mother=matuschka_0066	# Hedwig Matuschka von Toppolczan u.Spaetgen
-						1855.01.27={birth=yes}  # Ober
+						1855.01.27={birth=yes}  # Ober-Sodow
 						1884.09.16={add_spouse=lowborn_2155}	# Johanna von Saurma
 						1910.12.13={death=yes}  # Hünern
 					}
@@ -19733,14 +20292,14 @@ strachwitz_0011={ #// 11 Johann Friedrich VON STRACHWITZ, *Lublinitz 1679, +Czie
 						1897.01.01={add_spouse=lowborn_2172}	# FRN Valentine Gabriele von Reitzenstein
 						1923.04.04={death=yes}  # Parchwitz
 					}
-						strachwitz_0221={ #// 221 Arthur STRACHWITZ VON GROSS-ZAUCHE UND CAMMINETZ, *Ober 1898, +1976; m.1st Dorothea Güttler (*Reichenstein,France 27.8.1897, +20.5.1965); m.2nd Marie-Theres Schalscha von Ehrenfeld (*14.5.1921)
+						strachwitz_0221={ #// 221 Arthur Ferdinand Curt Valentin Hans-Karl-Maria, *Ober-Sodow 1898, +1976; m.1st Dorothea Güttler (*Reichenstein,France 27.8.1897, +20.5.1965); m.2nd Marie-Theres Schalscha von Ehrenfeld (*14.5.1921)
 							name=Arthur
 							dynasty=1002256
 							religion=catholic culture=german
 							father=strachwitz_0133	# Adolf Strachwitz v.Groß-Zauche u.Camminetz
 							mother=lowborn_2172	# FRN Valentine Gabriele von Reitzenstein
-							1898.03.29={birth=yes}  # Ober
-							1924.01.01={add_spouse=lowborn_2234}	# Dorothea Gertrud Güttler
+							1898.03.29={birth=yes}  # Ober-Sodow
+							1922.01.01={add_spouse=lowborn_2234}	# Dorothea Gertrud Güttler
 							1949.01.01={add_spouse=lowborn_2235}	# Marie-Theres Schalscha von Ehrenfeld
 							1976.07.31={death=yes}
 						}
@@ -20540,23 +21099,23 @@ bruhl_0001={ #// Hans Moritz von Brühl (23 Nov 1655-Gangloffsömmern 24 Sep 172
 				1770.11.07={birth=yes}
 				1841.12.26={death=yes}  # Schwerin
 			}
-	bruhl_0042={ #// 4a) Heinrich, cr Gf von Brühl (13 Aug 1700-28 Oct 1763); m.Schloß Moritzburg 29 Apr 1734 Maria Gfn von Kolowrat-Krakowsky (Prague 2 Apr 1717-Warsaw 5 May 1762)
+	bruhl_0042={ #// 4a) Heinrich, cr Gf von Brühl (13 Aug 1700-28 Oct 1763); m.Schloß Moritzburg 29 Apr 1734 Maria Gfn von Kolowrat-Krakowsky (Prague 2 Apr 1717-Warsaw 5 May 1762) $$
 		name=Heinrich
 		dynasty=1002226
 		religion=catholic culture=german
 		father=bruhl_0001	# Hans Moritz von Brühl
 		mother=lowborn_2276	# Erdmuthe Sophie von der Heydte
-		1700.08.13={birth=yes}
-		1734.04.29={add_spouse=lowborn_4450}	# GFN Maria von Kolowrat-Krakowsky
-		1763.10.28={death=yes}
+		1700.08.13={birth=yes}  # Weissenfels
+		1734.04.29={add_spouse=kolowrat_0338}	# Františka Marie Krakovský z Kolovrat
+		1763.10.27={death=yes}  # Dresden
 	}
-		bruhl_0043={ #// 1b) Amalia Maria (10 Jul 1736-1772); m.14 Jul 1750 Georg August Gf Mniszech
+		bruhl_0043={ #// 1b) Amalia Maria (10 Jul 1736-1772); m.14 Jul 1750 Georg August Gf Mniszech $$
 			name=Amalia
 			female=yes
 			dynasty=1002226
 			religion=catholic culture=german
 			father=bruhl_0042	# Heinrich von Brühl
-			mother=lowborn_4450	# GFN Maria von Kolowrat-Krakowsky
+			mother=kolowrat_0338	# Františka Marie Krakovský z Kolovrat
 			1736.07.10={birth=yes}
 			1772.01.01={death=yes}
 		}
@@ -20565,7 +21124,7 @@ bruhl_0001={ #// Hans Moritz von Brühl (23 Nov 1655-Gangloffsömmern 24 Sep 172
 			dynasty=1002226
 			religion=catholic culture=north_german
 			father=bruhl_0042	# Heinrich von Brühl
-			mother=lowborn_4450	# GFN Maria von Kolowrat-Krakowsky
+			mother=kolowrat_0338	# Františka Marie Krakovský z Kolovrat
 			1739.07.31={birth=yes}  # Dresden
 			1760.02.08={add_spouse=100114105}	# Marianna Klementyna Potocki
 			1780.08.24={add_spouse=potocki_0035}	# Marianna Potocki
@@ -21423,7 +21982,7 @@ bruhl_0001={ #// Hans Moritz von Brühl (23 Nov 1655-Gangloffsömmern 24 Sep 172
 			dynasty=1002226
 			religion=catholic culture=german
 			father=bruhl_0042	# Heinrich von Brühl
-			mother=lowborn_4450	# GFN Maria von Kolowrat-Krakowsky
+			mother=kolowrat_0338	# Františka Marie Krakovský z Kolovrat
 			1742.04.03={birth=yes}
 			1778.08.17={add_spouse=lowborn_4504}	# Sophie Gomm
 			1802.07.04={death=yes}  # Berlin
@@ -21513,7 +22072,7 @@ bruhl_0001={ #// Hans Moritz von Brühl (23 Nov 1655-Gangloffsömmern 24 Sep 172
 			dynasty=1002226
 			religion=catholic culture=north_german
 			father=bruhl_0042	# Heinrich von Brühl
-			mother=lowborn_4450	# GFN Maria von Kolowrat-Krakowsky
+			mother=kolowrat_0338	# Františka Marie Krakovský z Kolovrat
 			1743.07.11={birth=yes}  # Dresden
 			1780.11.11={add_spouse=lowborn_4510}	# GFN Laura Minucci
 			1792.03.30={death=yes}  # Pförten
@@ -21543,7 +22102,7 @@ bruhl_0001={ #// Hans Moritz von Brühl (23 Nov 1655-Gangloffsömmern 24 Sep 172
 			dynasty=1002226
 			religion=catholic culture=german
 			father=bruhl_0042	# Heinrich von Brühl
-			mother=lowborn_4450	# GFN Maria von Kolowrat-Krakowsky
+			mother=kolowrat_0338	# Františka Marie Krakovský z Kolovrat
 			1746.07.26={birth=yes}
 			1771.08.05={add_spouse=lowborn_4513}	# Jeanne Marguerite Schleyerweber von Friedenau
 			1811.01.31={death=yes}  # Seifersdorf
@@ -23591,3 +24150,1021 @@ platen_0017={ #// GEORG Wilhelm Friedrich Graf u.Edler Herr von Platen Hallermun
 		}
 #platen II
 ## PLATEN HALLERMUND
+
+
+## GIECH
+# https://www.angelfire.com/realm/gotha/gotha/giech.html
+giech_0001={ #// Christian Karl von Giech, 1695 Gf von Giech (8 Mar 1641-25 Apr 1695); m.12 Dec 1664 Barbara Frn Praunfalk (1 Jul 1643-5 Feb 1699)
+	name="Christian Karl"
+	dynasty=giech
+	religion=catholic culture=german
+	1641.03.08={birth=yes}
+	1664.12.12={add_spouse=lowborn_7904}	# FRN Barbara Praunfalk
+	1695.04.25={death=yes}
+}
+	giech_0002={ #// 1a) Christian Karl Gf von Giech (7 Sep 1665-22 Oct 1697); m.12 Nov 1694 Maximiliane Karoline Khevenhüller Frn auf Landskron und Wernberg (Vienna 7 Jun 1670-Buchau 19 Nov 1726)
+		name="Christian Karl"
+		dynasty=giech
+		religion=catholic culture=german
+		father=giech_0001	# Christian Karl von Giech
+		mother=lowborn_7904	# FRN Barbara Praunfalk
+		1665.09.07={birth=yes}
+		1694.11.12={add_spouse=lowborn_7905}	# FRN Maximiliane Karoline Khevenhüller auf Landskron
+		1697.10.22={death=yes}
+	}
+		giech_0003={ #// 1b) Karl Maximilian (Buchau 17 Sep 1695-11 Feb 1748; bur Thurnau); m.19 Nov 1727 Henriette Gfn von Wolfstein (Obersulzbürg 3 Nov 1707-Thurnau 30 Jul 1749)
+			name="Karl Maximilian"
+			dynasty=giech
+			religion=catholic culture=german
+			father=giech_0002	# Christian Karl von Giech
+			mother=lowborn_7905	# FRN Maximiliane Karoline Khevenhüller auf Landskron
+			1695.09.17={birth=yes}  # Buchau
+			1727.11.19={add_spouse=lowborn_7906}	# GFN Henriette von Wolfstein
+			1748.02.11={death=yes}
+		}
+			giech_0004={ #// 1c) Christian Friedrich Karl (Buchau 6 Aug 1729-Thurnau 28 Sep 1797); m.Schönberg 13 Sep 1753 Auguste Friederike Gfn zu Erbach-Schönberg (bap Gedern 20 Mar 1730-Thurnau 5 Sep 1801) $$
+				name=Christian
+				dynasty=giech
+				religion=catholic culture=german
+				father=giech_0003	# Karl Maximilian von Giech
+				mother=lowborn_7906	# GFN Henriette von Wolfstein
+				1729.08.06={birth=yes}  # Buchau
+				1753.09.13={add_spouse=100011915}	# Auguste Friederike von Erbach
+				1797.09.28={death=yes}  # Thurnau
+			}
+				giech_0005={ #// 1d) August Friedrich Karl (10 Apr 1755-2 Jul 1782)
+					name=August
+					dynasty=giech
+					religion=catholic culture=german
+					father=giech_0004	# Christian von Giech
+					mother=100011915	# Auguste Friederike von Erbach
+					1755.04.10={birth=yes}
+					1782.07.02={death=yes}
+				}
+				giech_0009={ #// 5d) Karl Christian Ernst Heinrich (Thurnau 20 May 1763-Thurnau 28 Dec 1818); m.Wechselburg 13 Apr 1788 Karoline Wilhelmine Gfn von Schönburg-Wechselburg (Wechselburg 12 Dec 1766-Bayreuth 8 Mar 1836)
+					name=Karl
+					dynasty=giech
+					religion=catholic culture=german
+					father=giech_0004	# Christian von Giech
+					mother=100011915	# Auguste Friederike von Erbach
+					1763.05.20={birth=yes}  # Thurnau
+					1788.04.13={add_spouse=lowborn_7913}	# GFN Karoline Wilhelmine von Schönburg-Wechselburg
+					1818.12.28={death=yes}  # Thurnau
+				}
+					giech_0010={ #// 1e) Auguste Karoline Wilhelmine Luise (24 Jan 1789-6 Feb 1865)
+						name=Auguste
+						female=yes
+						dynasty=giech
+						religion=catholic culture=german
+						father=giech_0009	# Karl von Giech
+						mother=lowborn_7913	# GFN Karoline Wilhelmine von Schönburg-Wechselburg
+						1789.01.24={birth=yes}
+						1865.02.06={death=yes}
+					}
+					giech_0011={ #// 2e) Friederike Henriette Karoline Agnes (7 Mar 1790-20 Apr 1822)
+						name=Friederike
+						female=yes
+						dynasty=giech
+						religion=catholic culture=german
+						father=giech_0009	# Karl von Giech
+						mother=lowborn_7913	# GFN Karoline Wilhelmine von Schönburg-Wechselburg
+						1790.03.07={birth=yes}
+						1822.04.20={death=yes}
+					}
+					giech_0012={ #// 3e) Friedrich Karl Hermann (22 Oct 1791-6 Jul 1846); m.4 Oct 1825 Henriette Luise Frn vom und zum Stein (2 Aug 1796-11 Oct 1855)
+						name=Friedrich
+						dynasty=giech
+						religion=catholic culture=german
+						father=giech_0009	# Karl von Giech
+						mother=lowborn_7913	# GFN Karoline Wilhelmine von Schönburg-Wechselburg
+						1791.10.22={birth=yes}
+						1825.10.04={add_spouse=lowborn_7938}	# FRN Henriette Luise vom und zum Stein
+						1846.07.06={death=yes}
+					}
+						giech_0013={ #// 1f) Ludwig Friedrich Karl Heinrich (11 Jul 1832-27 Dec 1832)
+							name=Ludwig
+							dynasty=giech
+							religion=catholic culture=german
+							father=giech_0012	# Friedrich von Giech
+							mother=lowborn_7938	# FRN Henriette Luise vom und zum Stein
+							1832.07.11={birth=yes}
+							1832.12.27={death=yes}
+						}
+					giech_0014={ #// 4e) Franz Friedrich Karl (Thurnau 29 Oct 1795-Nürnberg 3 Feb 1863); m.Karlsruhe 30 Sep 1830 Franziska Sophie Charlotte Gfn von Bismarck-Schierstein (Biebrich 5 Mar 1813-Thurnau 19 May 1872)
+						name=Franz
+						dynasty=giech
+						religion=catholic culture=german
+						father=giech_0009	# Karl von Giech
+						mother=lowborn_7913	# GFN Karoline Wilhelmine von Schönburg-Wechselburg
+						1795.10.29={birth=yes}  # Thurnau
+						1830.09.30={add_spouse=lowborn_7943}	# GFN Franziska Sophie von Bismarck-Schierstein
+						1863.02.03={death=yes}  # Nürnberg
+					}
+						giech_0015={ #// 1f) Christian Karl-Gottfried Hermann Heinrich (Thurnau 15 Sep 1847-Thurnau 18 May 1914); m.Koschentin 6 Feb 1878 Maria Amalia Gfn von Hegnenberg-Dux (Hofhegnenberg 14 Mar 1853-Munich 3 Apr 1940)
+							name=Christian
+							dynasty=giech
+							religion=catholic culture=german
+							father=giech_0014	# Franz von Giech
+							mother=lowborn_7943	# GFN Franziska Sophie von Bismarck-Schierstein
+							1847.09.15={birth=yes}  # Thurnau
+							1878.02.06={add_spouse=lowborn_7944}	# GFN Maria Amalia von Hegnenberg-Dux
+							1914.05.18={death=yes}  # Thurnau
+						}
+							giech_0016={ #// 1g) Anna Karoline Julie (Thurnau 19 Jan 1881-Thurnau 2 Feb 1968); m.Thurnau 9 Feb 1905 Wilhelm Frhr Hiller von Gaertringen (d.30 Oct 1933)
+								name=Anna
+								female=yes
+								dynasty=giech
+								religion=catholic culture=german
+								father=giech_0015	# Christian von Giech
+								mother=lowborn_7944	# GFN Maria Amalia von Hegnenberg-Dux
+								1881.01.19={birth=yes}  # Thurnau
+								1968.02.02={death=yes}  # Thurnau
+							}
+							giech_0017={ #// 2g) Franz Friedrich Karl Lothar (Thurnau 12 Nov 1883-Bamberg 19 May 1938); m.Nürnberg 18 Sep 1924 Mathilde Siebentritt (Nürnberg 8 Dec 1886-Nürnberg 10 Oct 1956)
+								name=Franz
+								dynasty=giech
+								religion=catholic culture=german
+								father=giech_0015	# Christian von Giech
+								mother=lowborn_7944	# GFN Maria Amalia von Hegnenberg-Dux
+								1883.11.12={birth=yes}  # Thurnau
+								1924.09.18={add_spouse=lowborn_7964}	# Mathilde Siebentritt
+								1938.05.19={death=yes}  # Bamberg
+							}
+							giech_0018={ #// 3g) Agnes Karoline Helene (Thurnau 22 Oct 1887-Munich 17 Oct 1958)
+								name=Agnes
+								female=yes
+								dynasty=giech
+								religion=catholic culture=german
+								father=giech_0015	# Christian von Giech
+								mother=lowborn_7944	# GFN Maria Amalia von Hegnenberg-Dux
+								1887.10.22={birth=yes}  # Thurnau
+								1958.10.17={death=yes}  # Munich
+							}
+						giech_0019={ #// 2f) Anna Caroline Louise Amelie Augustine (Frankfurt 27 Apr 1849-Wiesbaden 14 Mar 1909); m.Meran 4 Apr 1872 Friedrich Wilhelm Pr zu Hohenlohe-Ingelfingen (d.24 Oct 1895) $$
+							name=Anna
+							female=yes
+							dynasty=giech
+							religion=anglican culture=north_german
+							father=giech_0014	# Franz von Giech
+							mother=lowborn_7943	# GFN Franziska Sophie von Bismarck-Schierstein
+							1849.04.27={birth=yes}  # Frankfurt
+							1909.03.14={death=yes}  # Wiesbaden
+						}
+						giech_0020={ #// 3f) Chrétienne Caroline Augustine Mathilde (Thurnau 22 May 1850-Tambach 28 Nov 1923); m.Thurnau 21 Oct 1874 Friedrich Gf zu Ortenburg (d.25 Feb 1894) $$
+							name="Chrétienne Caroline"
+							female=yes
+							dynasty=giech
+							religion=catholic culture=german
+							father=giech_0014	# Franz von Giech
+							mother=lowborn_7943	# GFN Franziska Sophie von Bismarck-Schierstein
+							1850.05.22={birth=yes}  # Thurnau
+							1923.11.28={death=yes}  # Tambach
+						}
+						giech_0021={ #// 4f) Julia Caroline Emilie Augustine Louise Mathilde (Thurnau 2 Mar 1854-Thüngen 16 Sep 1927); m.Thurnau 20 May 1877 Hans-Karl Frhr von Thüngen (d.11 Jan 1926)
+							name=Julia
+							female=yes
+							dynasty=giech
+							religion=catholic culture=german
+							father=giech_0014	# Franz von Giech
+							mother=lowborn_7943	# GFN Franziska Sophie von Bismarck-Schierstein
+							1854.03.02={birth=yes}  # Thurnau
+							1927.09.16={death=yes}  # Thüngen
+						}
+					giech_0022={ #// 5e) Juliane Amalie Karoline Isabelle (Thurnau 5 Sep 1801-Schlitz 16 Dec 1831); m.Thurnau 5 Sep 1820 Friedrich Wilhelm Gf von Schlitz gt von Görtz (d.31 Dec 1839) $$
+						name=Juliane
+						female=yes
+						dynasty=giech
+						religion=catholic culture=german
+						father=giech_0009	# Karl von Giech
+						mother=lowborn_7913	# GFN Karoline Wilhelmine von Schönburg-Wechselburg
+						1801.09.05={birth=yes}  # Thurnau
+						1831.12.16={death=yes}  # Schlitz
+					}
+				giech_0024={ #// 7d) Friederike Antoinette Karoline (7 Sep 1765-Markt Einersheim 8 Jun 1798); m.13 Nov 1783 Friedrich Gf von Rechteren-Limpurg (d.20 Jun 1841) $$
+					name=Friederike
+					female=yes
+					dynasty=giech
+					religion=catholic culture=german
+					father=giech_0004	# Christian von Giech
+					mother=100011915	# Auguste Friederike von Erbach
+					1765.09.07={birth=yes}
+					1798.06.08={death=yes}  # Markt Einersheim
+				}
+				giech_0025={ #// 8d) Friedrich Heinrich Karl (29 Feb 1768-13 Jul 1831)
+					name=Friedrich
+					dynasty=giech
+					religion=catholic culture=german
+					father=giech_0004	# Christian von Giech
+					mother=100011915	# Auguste Friederike von Erbach
+					1768.02.29={birth=yes}
+					1831.07.13={death=yes}
+				}
+			giech_0029={ #// 3c) Karl Ludwig (24 Apr 1732-Braunschweig 11 Jan 1752)
+				name="Karl Ludwig"
+				dynasty=giech
+				religion=catholic culture=german
+				father=giech_0003	# Karl Maximilian von Giech
+				mother=lowborn_7906	# GFN Henriette von Wolfstein
+				1732.04.24={birth=yes}
+				1752.01.11={death=yes}  # Braunschweig
+			}
+			giech_0030={ #// 4c) Karl Wilhelm (13 May 1733-14 Mar 1750)
+				name="Karl Wilhelm"
+				dynasty=giech
+				religion=catholic culture=german
+				father=giech_0003	# Karl Maximilian von Giech
+				mother=lowborn_7906	# GFN Henriette von Wolfstein
+				1733.05.13={birth=yes}
+				1750.03.14={death=yes}
+			}
+			giech_0031={ #// 5c) Karl Heinrich (9 Oct 1734-15 Apr 1759)
+				name="Karl Heinrich"
+				dynasty=giech
+				religion=catholic culture=german
+				father=giech_0003	# Karl Maximilian von Giech
+				mother=lowborn_7906	# GFN Henriette von Wolfstein
+				1734.10.09={birth=yes}
+				1759.04.15={death=yes}
+			}
+		giech_0032={ #// 2b) Charlotte Regina Justina (Thurnau 30 Nov 1696-Tann/Rhön 30 Dec 1761); m.Thurnau 7 Nov 1730 Ernst Ludwig von und zu der Tann (d.27 Sep 1750)
+			name=Charlotte
+			female=yes
+			dynasty=giech
+			religion=catholic culture=german
+			father=giech_0002	# Christian Karl von Giech
+			mother=lowborn_7905	# FRN Maximiliane Karoline Khevenhüller auf Landskron
+			1696.11.30={birth=yes}  # Thurnau
+			1761.12.30={death=yes}  # Tann/Rhön
+		}
+		giech_0033={ #// 3b) Christian Karl (30 Mar 1698-28 Dec 1752)
+			name="Christian Karl"
+			dynasty=giech
+			religion=catholic culture=german
+			father=giech_0002	# Christian Karl von Giech
+			mother=lowborn_7905	# FRN Maximiliane Karoline Khevenhüller auf Landskron
+			1698.03.30={birth=yes}
+			1752.12.28={death=yes}
+		}
+	giech_0035={ #// 3a) Karl Gottfried (30 Jul 1670-24 Aug 1729); m.Nürnberg 17 Mar 1698 Eva Susanna Khevenhüller Frn auf Landskron und Wernberg (Vienna 30 Aug 1674-Thurnau 24 Mar 1714)
+		name="Karl Gottfried"
+		dynasty=giech
+		religion=catholic culture=german
+		father=giech_0001	# Christian Karl von Giech
+		mother=lowborn_7904	# FRN Barbara Praunfalk
+		1670.07.30={birth=yes}
+		1698.03.17={add_spouse=lowborn_7993}	# FRN Eva Susanna Khevenhüller auf Landskron
+		1729.08.24={death=yes}
+	}
+		giech_0036={ #// 1b) Justine Eleonore Sophie (Nürnberg 12 Dec 1698-Gera 1 Feb 1718); m.Thurnau 21 Feb 1717 Heinrich XXV Gf Reuss zu Gera (d.13 Mar 1748) $$
+			name=Justine
+			female=yes
+			dynasty=giech
+			religion=anglican culture=north_german
+			father=giech_0035	# Karl Gottfried von Giech
+			mother=lowborn_7993	# FRN Eva Susanna Khevenhüller auf Landskron
+			1698.12.12={birth=yes}  # Nürnberg
+			1718.02.01={death=yes}  # Gera
+		}
+	giech_0041={ #// 6a) Eleonore Sophie (Thurnau 29 Mar 1677-Saalfeld 31 Dec 1722); m.1st 1699 Heinrich VIII Gf Reuss zu Lobenstein (d.21 Sep 1706); m.2nd 1711 Ernst Ludwig Ritterich gt Bar von Rathmannsburg $$
+		name="Eleonore Sophie"
+		female=yes
+		dynasty=giech
+		religion=catholic culture=german
+		father=giech_0001	# Christian Karl von Giech
+		mother=lowborn_7904	# FRN Barbara Praunfalk
+		1677.03.29={birth=yes}  # Thurnau
+		1722.12.31={death=yes}  # Saalfeld
+	}
+## GIECH
+
+
+## STADION
+# https://www.angelfire.com/realm/gotha/gotha/stadion.html
+
+stadion_0001={ #// Johann Philipp Gf von Stadion (15 Oct 1652-1 Mar 1741); m.1st 6 Oct 1675 Anan Maria Eva Faust von Stromberg (2 Aug 1661-10 Oct 1683); m.2nd 27 Aug 1685 Maria Anna Gfn von Schönborn (25 Sep 1669-16 Nov 1704); m.3rd 16 Oct 1705 Maria Anna Frn Wambolt von Umstadt (1 Jul 1687-12 Aug 1764) $$
+	name="Johann Philipp"
+	dynasty=stadion
+	religion=catholic culture=german
+	1652.10.15={birth=yes}
+	1675.10.06={add_spouse=hihborn_1907}	# Anna Faust von Stromberg
+	1685.08.27={add_spouse=100005281}	# Maria Anna von Schönborn
+	1705.10.16={add_spouse=hihborn_7982}	# FRN Maria Anna Wambolt v.Umstadt
+	1741.03.01={death=yes}
+}
+	stadion_0002={ #// 1a) Marie Esther (6 Jul 1677-13 Dec 1719); m.13 May 1692 Anton Konrad Philipp Frhr von Rosenbach (d.2 Apr 1717)
+		name="Marie Esther"
+		female=yes
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=hihborn_1907	# Anna Faust von Stromberg
+		1677.07.06={birth=yes}
+		1719.12.13={death=yes}
+	}
+	stadion_0004={ #// 3a) Franz Konrad, Bp of Bamberg (29 Aug 1679-6 Mar 1757)
+		name="Franz Konrad"
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=hihborn_1907	# Anna Faust von Stromberg
+		1679.08.29={birth=yes}
+		1757.03.06={death=yes}
+	}
+	stadion_0005={ #// 4a) Maria Maximiliana Augusta (4 Feb 1681-24 Feb 1744); m.16 Oct 1698 Sittig Herbold Gf von Berlepsch (d.30 Mar 1712)
+		name="Maria Maximiliana"
+		female=yes
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=hihborn_1907	# Anna Faust von Stromberg
+		1681.02.04={birth=yes}
+		1744.02.24={death=yes}
+	}
+	stadion_0007={ #// 6a) Gottfried Anselm Christoph, a canon in Mainz, Bamberg & Würzburg (27 Aug 1686-24/25 May 1718)
+		name=Gottfried
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=100005281	# Maria Anna von Schönborn
+		1686.08.27={birth=yes}
+		1718.05.24={death=yes}
+	}
+	stadion_0008={ #// 7a) Maria Sophie (15 Oct 1688-3 Oct 1773); m.13 Jan 1708 Lothar Franz Frhr von Bettendorff (d.21 Feb 1733)
+		name="Maria Sophie"
+		female=yes
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=100005281	# Maria Anna von Schönborn
+		1688.10.15={birth=yes}
+		1773.10.03={death=yes}
+	}
+	stadion_0009={ #// 8a) Anna Charlotte Elisabeth (22 Sep 1689-11 Aug 1763); m.25 Nov 1708 Franz Gf von Gleichen u.Hatzfeldt (d.27 Feb 1738)
+		name=Anna
+		female=yes
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=100005281	# Maria Anna von Schönborn
+		1689.09.22={birth=yes}
+		1763.08.11={death=yes}
+	}
+	stadion_0010={ #// 9a) Anton Heinrich Friedrich Gf von Stadion-Warthausen und Thannhausen (5 Apr 1691-26 Oct 1768); m.27 Jun 1724 Maria Anna Auguste Euphemia Frn von Sickingen (3 Mar 1706-27 Oct 1774)
+		name=Anton
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=100005281	# Maria Anna von Schönborn
+		1691.04.05={birth=yes}
+		1724.06.27={add_spouse=hihborn_7997}	# FRN Maria Anna von Sickingen
+		1768.10.26={death=yes}
+	}
+		stadion_0012={ #// 2b) Maria Anna Karolina Walburga (13 Feb 1727-19 Jul 1770); m.9 Jul 1746 Ferdinand Gf Schall von Bell (d.3 Dec 1783)
+			name="Maria Anna"
+			female=yes
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0010	# Anton von Stadion
+			mother=hihborn_7997	# FRN Maria Anna von Sickingen
+			1727.02.13={birth=yes}
+			1770.07.19={death=yes}
+		}
+		stadion_0013={ #// 3b) Maria Anna Theresia Sophia Walburga (9 May 1729-17 Feb 1773); m.24 May 1754 Franz Joseph Gf von Spaur und Flavon (d.1 Aug 1797)
+			name="Maria Anna"
+			female=yes
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0010	# Anton von Stadion
+			mother=hihborn_7997	# FRN Maria Anna von Sickingen
+			1729.05.09={birth=yes}
+			1773.02.17={death=yes}
+		}
+		stadion_0014={ #// 4b) Franz Ludwig Konrad Dominikus (11 Feb 1731-8 Sep 1731)
+			name=Franz
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0010	# Anton von Stadion
+			mother=hihborn_7997	# FRN Maria Anna von Sickingen
+			1731.02.11={birth=yes}
+			1731.09.08={death=yes}
+		}
+		stadion_0015={ #// 5b) Johann Philipp Karl Franz Kasimir Lothar Dominikus, a canon in Mainz, Würzburg & Bamberg (27 Dec 1733-28 Dec 1800)
+			name=Johann
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0010	# Anton von Stadion
+			mother=hihborn_7997	# FRN Maria Anna von Sickingen
+			1733.12.27={birth=yes}
+			1800.12.28={death=yes}
+		}
+		stadion_0016={ #// 6b) Franz Damian (12 Mar 1736-25 Nov 1787); m.1 May 1759 Maria Johanna Frn von Zobel (6 Jun 1740-16 May 1803)
+			name=Franz
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0010	# Anton von Stadion
+			mother=hihborn_7997	# FRN Maria Anna von Sickingen
+			1736.03.12={birth=yes}
+			1759.05.01={add_spouse=hihborn_8000}	# FRN Maria Johanna von Zobel
+			1787.11.25={death=yes}
+		}
+			stadion_0017={ #// 1c) Friedrich (28 Mar 1760-28 Jun 1760)
+				name=Friedrich
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0016	# Franz von Stadion
+				mother=hihborn_8000	# FRN Maria Johanna von Zobel
+				1760.03.28={birth=yes}
+				1760.06.28={death=yes}
+			}
+			stadion_0018={ #// 2c) Friedrich Lothar Joseph Franz (6 Apr 1761-9 Dec 1811)
+				name=Friedrich
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0016	# Franz von Stadion
+				mother=hihborn_8000	# FRN Maria Johanna von Zobel
+				1761.04.06={birth=yes}
+				1811.12.09={death=yes}
+			}
+			stadion_0019={ #// 3c) Johann Philipp Karl Joseph (18 Jun 1763-15 May 1824); m.22 Jan 1794 Maria Anna Gfn von Stadion-Thannhausen (1775-1841) $$
+				name=Philipp
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0016	# Franz von Stadion
+				mother=hihborn_8000	# FRN Maria Johanna von Zobel
+				1763.06.18={birth=yes}
+				1794.01.22={add_spouse=stadion_0059}	# Maria Anna von Stadion
+				1824.05.15={death=yes}
+			}
+				stadion_0020={ #// 1d) Joseph Philipp Eduard (23 Sep 1797-13 Apr 1844); m.30 Jan 1836 Konstanze Rachowin Edle von Rosenstern (29 Jul 1811-5 Jun 1861)
+					name=Joseph
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0019	# Philipp von Stadion
+					mother=stadion_0059	# Maria Anna von Stadion
+					1797.09.23={birth=yes}
+					1836.01.30={add_spouse=hihborn_8002}	# EDLE Konstanze Rachowin von Rosenstern
+					1844.04.13={death=yes}
+				}
+					stadion_0021={ #// 1e) Felix Joseph Eduard (1 Dec 1832-Aug 1875)
+						name=Felix
+						dynasty=stadion
+						religion=catholic culture=german
+						father=stadion_0020	# Joseph von Stadion
+						mother=hihborn_8002	# EDLE Konstanze Rachowin von Rosenstern
+						1832.12.01={birth=yes}
+						1875.08.01={death=yes}
+					}
+					stadion_0023={ #// 3e) Anna Maria (25 Oct 1837-18 Oct 1909); m.9 Sep 1856 Julius Gf von Lamberg (d.6 Feb 1861) $$
+						name=Anna
+						female=yes
+						dynasty=stadion
+						religion=catholic culture=german
+						father=stadion_0020	# Joseph von Stadion
+						mother=hihborn_8002	# EDLE Konstanze Rachowin von Rosenstern
+						1837.10.25={birth=yes}
+						1909.10.18={death=yes}
+					}
+					stadion_0024={ #// 4e) Karoline (1 Nov 1838-31 Jan 1922); m.23 Jan 1864 Otto Gf von Bellegarde (d.3 Nov 1892)
+						name=Karoline
+						female=yes
+						dynasty=stadion
+						religion=catholic culture=german
+						father=stadion_0020	# Joseph von Stadion
+						mother=hihborn_8002	# EDLE Konstanze Rachowin von Rosenstern
+						1838.11.01={birth=yes}
+						1922.01.31={death=yes}
+					}
+					stadion_0025={ #// 5e) Juliane (28 Oct 1840-12 Dec 1899); m.18 Oct 1856 Thaddäus Gf von Wisniewo-Wisniewski (d.8 Jan 1888)
+						name=Juliane
+						female=yes
+						dynasty=stadion
+						religion=catholic culture=german
+						father=stadion_0020	# Joseph von Stadion
+						mother=hihborn_8002	# EDLE Konstanze Rachowin von Rosenstern
+						1840.10.28={birth=yes}
+						1899.12.12={death=yes}
+					}
+					stadion_0026={ #// 6e) Adolfine (25 Jul 1843-Feb 1917); m.1875 N von Ebner
+						name=Adolfine
+						female=yes
+						dynasty=stadion
+						religion=catholic culture=german
+						father=stadion_0020	# Joseph von Stadion
+						mother=hihborn_8002	# EDLE Konstanze Rachowin von Rosenstern
+						1843.07.25={birth=yes}
+						1917.02.01={death=yes}
+					}
+					stadion_0027={ #// 7e) Georg Franz Edmund Konstantin (Graz 1 Nov 1844-Chodenschloß 18 May 1906); m.Szilágy-Somlyó 20 May 1873 (div 1878) Therese Lazár (Szilágy-Somlyó 18 Sep 1858-Graz 17 Oct 1920)
+						name=Georg
+						dynasty=stadion
+						religion=catholic culture=bavarian
+						father=stadion_0020	# Joseph von Stadion
+						mother=hihborn_8002	# EDLE Konstanze Rachowin von Rosenstern
+						1844.11.01={birth=yes}  # Graz
+						1873.05.20={add_spouse=hihborn_8007}	# Therese Lazár
+						1878.01.01={remove_spouse=hihborn_8007}
+						1906.05.18={death=yes}  # Chodenschloß
+					}
+						stadion_0028={ #// 1f) Paula Helene Isabella (Szilágy-Somlyó 4 Jun 1875-Graz 21 Apr 1955); m.Vienna 11 Sep 1900 Franz Koczynski (Kimpolung, Bukovina 28 Oct 1866-Königgrätz 20 Jan 1919)
+							name=Paula
+							female=yes
+							dynasty=stadion
+							religion=catholic culture=german
+							father=stadion_0027	# Georg von Stadion
+							mother=hihborn_8007	# Therese Lazár
+							1875.06.04={birth=yes}  # Szilágy-Somlyó
+							1955.04.21={death=yes}  # Graz
+						}
+				stadion_0029={ #// 2d) Friedrich Walther Wilderich (22 Nov 1799-13 Feb 1870)
+					name=Friedrich
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0019	# Philipp von Stadion
+					mother=stadion_0059	# Maria Anna von Stadion
+					1799.11.22={birth=yes}
+					1870.02.13={death=yes}
+				}
+				stadion_0030={ #// 3d) Agathe (17 Jul 1801-18 Aug 1802)
+					name=Agathe
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0019	# Philipp von Stadion
+					mother=stadion_0059	# Maria Anna von Stadion
+					1801.07.17={birth=yes}
+					1802.08.18={death=yes}
+				}
+				stadion_0031={ #// 4d) Sophie Luise (12 Dec 1802-24 Mar 1880); m.2 Dec 1820 Anton Gf Magnis (d.6 Feb 1861) $$
+					name="Sophie Luise"
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0019	# Philipp von Stadion
+					mother=stadion_0059	# Maria Anna von Stadion
+					1802.12.12={birth=yes}
+					1880.03.24={death=yes}
+				}
+				stadion_0032={ #// 5d) Marie Charlotte Adelheid (28 Mar 1804-13 Mar 1885);m.1 Dec 1832 Karl Gf Brzezie-Lanckoroński (d.16 May 1863)
+					name="Marie Charlotte"
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0019	# Philipp von Stadion
+					mother=stadion_0059	# Maria Anna von Stadion
+					1804.03.28={birth=yes}
+					1885.03.13={death=yes}
+				}
+				stadion_0033={ #// 6d) Christiane Therese Euphrosyne, a nun (b.13 Mar 1805, d.by 1879)
+					name=Christiane
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0019	# Philipp von Stadion
+					mother=stadion_0059	# Maria Anna von Stadion
+					trait=nun
+					1879.01.01={birth=yes}
+					1954.01.01={death=yes}  # EST.
+				}
+				stadion_0034={ #// 7d) Franz Seraphicus (27 Jun 1806-8 Jun 1853)
+					name="Franz Seraphicus"
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0019	# Philipp von Stadion
+					mother=stadion_0059	# Maria Anna von Stadion
+					1806.06.27={birth=yes}
+					1853.06.08={death=yes}
+				}
+				stadion_0035={ #// 8d) Philipp Joseph Rudolf (23 Feb 1808-25 Apr 1882); m.2 Jul 1850 Gisela Gfn Hadik von Futak (22 Jan 1825-16 Jan 1890) $$
+					name=Rudolf
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0019	# Philipp von Stadion
+					mother=stadion_0059	# Maria Anna von Stadion
+					1808.02.23={birth=yes}
+					1850.07.02={add_spouse=100119521}	# Gizella Hadik de Futak
+					1882.04.25={death=yes}
+				}
+					stadion_0036={ #// 1e) Rudolfine (23 Jul 1851-22 Oct 1936); m.18 Jan 1875 Eugen Gf Csáky (d.11 Jul 1914) $$
+						name=Rudolfine
+						female=yes
+						dynasty=stadion
+						religion=catholic culture=german
+						father=stadion_0035	# Rudolf von Stadion
+						mother=100119521	# Gizella Hadik de Futak
+						1851.07.23={birth=yes}
+						1936.10.22={death=yes}
+					}
+					stadion_0037={ #// 2e) Hugo Karl Joseph Philipp (29 May 1854-31 Mar 1890)
+						name=Hugo
+						dynasty=stadion
+						religion=catholic culture=german
+						father=stadion_0035	# Rudolf von Stadion
+						mother=100119521	# Gizella Hadik de Futak
+						1854.05.29={birth=yes}
+						1890.03.31={death=yes}
+					}
+					stadion_0038={ #// 3e) Gisela (25 Jul 1860-31 Oct 1920); m.1st 21 Apr 1884 Gerolf Gf von Coudenhove (d.22 Dec 1897); m.2nd 26 Apr 1900 (div 1902) Hermann Frhr von Waldegg (1 Mar 1853-29 Dec 1906)
+						name=Gisela
+						female=yes
+						dynasty=stadion
+						religion=catholic culture=german
+						father=stadion_0035	# Rudolf von Stadion
+						mother=100119521	# Gizella Hadik de Futak
+						1860.07.25={birth=yes}
+						1920.10.31={death=yes}
+					}
+			stadion_0039={ #// 4c) Emmerich Joseph (13 Jul 1764-12 Jan 1765)
+				name="Emmerich Joseph"
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0016	# Franz von Stadion
+				mother=hihborn_8000	# FRN Maria Johanna von Zobel
+				1764.07.13={birth=yes}
+				1765.01.12={death=yes}
+			}
+		stadion_0040={ #// 7b) Esther Maximiliana Walburga, Fst-Abbess of Buchau (21 Jul 1737-14 Apr 1813)
+			name=Esther
+			female=yes
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0010	# Anton von Stadion
+			mother=hihborn_7997	# FRN Maria Anna von Sickingen
+			1737.07.21={birth=yes}
+			1813.04.14={death=yes}
+		}
+	stadion_0042={ #// 11a) Maria Anna Rosa, a nun at Würzburg (18 Aug 1694-15 Mar 1752)
+		name="Maria Anna"
+		female=yes
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=100005281	# Maria Anna von Schönborn
+		trait=nun
+		1694.08.18={birth=yes}
+		1752.03.15={death=yes}
+	}
+	stadion_0044={ #// 13a) Maria Theresia (24 Aug 1698-2 Jul 1766); m.1 May 1717 Markward Schenk Frhr von Stauffenberg (d.14 May 1734)
+		name="Maria Theresia"
+		female=yes
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=100005281	# Maria Anna von Schönborn
+		1698.08.24={birth=yes}
+		1766.07.02={death=yes}
+	}
+	stadion_0046={ #// 15a) Lothar Georg Joseph, a canon in Mainz, Bamberg & Trier (26 Nov 1706-26 May 1769)
+		name=Lothar
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=hihborn_7982	# FRN Maria Anna Wambolt v.Umstadt
+		1706.11.26={birth=yes}
+		1769.05.26={death=yes}
+	}
+	stadion_0048={ #// 17a) Sophia Helena, Abebss of Münsterbilsen (13 Sep 1708-28 Mar 1789)
+		name="Sophia Helena"
+		female=yes
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=hihborn_7982	# FRN Maria Anna Wambolt v.Umstadt
+		1708.09.13={birth=yes}
+		1789.03.28={death=yes}
+	}
+	stadion_0052={ #// 21a) Johanna Aloysia Magdalena, a nun at Münsterbilsen (12 Nov 1715-11 Oct 1783)
+		name=Johanna
+		female=yes
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=hihborn_7982	# FRN Maria Anna Wambolt v.Umstadt
+		trait=nun
+		1715.11.12={birth=yes}
+		1783.10.11={death=yes}
+	}
+	stadion_0053={ #// 22a) Maria Anna Philippina (14 Jan 1718-14 Jun 1784); m.18 Nov 1736 Lothar Wilhelm Frhr von Walderdorff (d.14 Jul 1752)
+		name="Maria Anna"
+		female=yes
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=hihborn_7982	# FRN Maria Anna Wambolt v.Umstadt
+		1718.01.14={birth=yes}
+		1784.06.14={death=yes}
+	}
+	stadion_0054={ #// 23a) Johann Anton Kasimir, a canon in Mainz, Konstanz, Trier & Würzburg (15 Jan 1726-12 Jan 1789)
+		name=Johann
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=hihborn_7982	# FRN Maria Anna Wambolt v.Umstadt
+		1726.01.15={birth=yes}
+		1789.01.12={death=yes}
+	}
+	stadion_0055={ #// 24a) Johann Hugo Philipp Gf von Stadion-Stadion u.Thannhausen (25 Nov 1720-30 Dec 1785); m.25 Apr 1745 Anna Maria Thekla Walpurgis Therese Schenk Frn von Stauffenberg (28 Dec 1728-25 Jan 1799)
+		name=Johann
+		dynasty=stadion
+		religion=catholic culture=german
+		father=stadion_0001	# Johann Philipp von Stadion
+		mother=hihborn_7982	# FRN Maria Anna Wambolt v.Umstadt
+		1720.11.25={birth=yes}
+		1745.04.25={add_spouse=hihborn_8017}	# FRN Anna Schenk von Stauffenberg
+		1785.12.30={death=yes}
+	}
+		stadion_0056={ #// 1b) Maria Anna Theresia Johanna Walpurgis (11 Jul 1746-15 Nov 1817); m.27 Jan 1763 Hugo Damian Gf von Schönborn-buchheim (d.29 Mar 1817) $$
+			name="Maria Anna"
+			female=yes
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0055	# Johann von Stadion
+			mother=hihborn_8017	# FRN Anna Schenk von Stauffenberg
+			1746.07.11={birth=yes}
+			1817.11.15={death=yes}
+		}
+		stadion_0057={ #// 2b) Johann George Johann Nepomuck (7 May 1749-17 Sep 1814); m.4 Nov 1773 Sophia Isabella Frn Wambolt von Umstadt (21 Nov 1757-12 Oct 1843)
+			name=Johann
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0055	# Johann von Stadion
+			mother=hihborn_8017	# FRN Anna Schenk von Stauffenberg
+			1749.05.07={birth=yes}
+			1773.11.04={add_spouse=hihborn_8019}	# FRN Sophia Isabella Wambolt v.Umstadt
+			1814.09.17={death=yes}
+		}
+			stadion_0058={ #// 1c) Friedrich Karl Joseph Damian, a canon in Bamberg, Trier & Worms (31 Aug 1774-10 Jan 1820)
+				name=Friedrich
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0057	# Johann von Stadion
+				mother=hihborn_8019	# FRN Sophia Isabella Wambolt v.Umstadt
+				1774.08.31={birth=yes}
+				1820.01.10={death=yes}
+			}
+			stadion_0059={ #// 2c) Maria Anna (7 Jul 1775-1 Apr 1841); m.22 Jan 1794 Philipp Gf von Stadion (d.1824) $$
+				name="Maria Anna"
+				female=yes
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0057	# Johann von Stadion
+				mother=hihborn_8019	# FRN Sophia Isabella Wambolt v.Umstadt
+				1775.07.07={birth=yes}
+				1841.04.01={death=yes}
+			}
+			stadion_0060={ #// 3c) Marie Charlotte Philippine (18 Jun 1776-17 Sep 1804); m.3 May 1804 Joseph Frhr von Reischach (d.17 Jun 1834)
+				name="Marie Charlotte"
+				female=yes
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0057	# Johann von Stadion
+				mother=hihborn_8019	# FRN Sophia Isabella Wambolt v.Umstadt
+				1776.06.18={birth=yes}
+				1804.09.17={death=yes}
+			}
+			stadion_0061={ #// 4c) Maria Anna Philippa Walpurgis (17 Sep 1777-1 Jan 1833); m.15 Sep 1829 Andreas Florimund Gf von Mercy (d.29 Oct 1840)
+				name="Maria Anna"
+				female=yes
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0057	# Johann von Stadion
+				mother=hihborn_8019	# FRN Sophia Isabella Wambolt v.Umstadt
+				1777.09.17={birth=yes}
+				1833.01.01={death=yes}
+			}
+			stadion_0062={ #// 5c) Sophie Walpurgis Theresia (10 Mar 1779-7 Aug 1823); m.28 Apr 1808 Franz de Paula Karl Anton Johann Nepomuk Valentinus Corbinius Vincenz Joseph Calasanctius Adam Gf von Magnis (Straßnitz 23 Dec 1773-Vienna 26 Feb 1848) $$
+				name=Sophie
+				female=yes
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0057	# Johann von Stadion
+				mother=hihborn_8019	# FRN Sophia Isabella Wambolt v.Umstadt
+				1779.03.10={birth=yes}
+				1823.08.07={death=yes}
+			}
+			stadion_0063={ #// 6c) Johann Philipp Franz Joseph (29 Nov 1780-14 Sep 1839); m.6 Aug 1815 Maria Kunigunde Gfn von Kesselstatt (29 Jul 1794-17 May 1872)
+				name=Johann
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0057	# Johann von Stadion
+				mother=hihborn_8019	# FRN Sophia Isabella Wambolt v.Umstadt
+				1780.11.29={birth=yes}
+				1815.08.06={add_spouse=hihborn_8024}	# GFN Maria Kunigunde von Kesselstatt
+				1839.09.14={death=yes}
+			}
+				stadion_0064={ #// 1d) Isabelle Marie Sophie (13 May 1816-15 May 1874); m.7 May 1842 Joseph Gf von Rzyszewo-Rzyszczewski (d.4 Aug 1884)
+					name=Isabelle
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0063	# Johann von Stadion
+					mother=hihborn_8024	# GFN Maria Kunigunde von Kesselstatt
+					1816.05.13={birth=yes}
+					1874.05.15={death=yes}
+				}
+				stadion_0065={ #// 2d) Karl Friedrich (13 Dec 1817-24 May 1898)
+					name="Karl Friedrich"
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0063	# Johann von Stadion
+					mother=hihborn_8024	# GFN Maria Kunigunde von Kesselstatt
+					1817.12.13={birth=yes}
+					1898.05.24={death=yes}
+				}
+				stadion_0066={ #// 3d) Marie Sophie Theresia (3 Feb 1819-2 Feb 1873); m.17 Jul 1845 Zdenko Gf von Sternberg (d.9 Mar 1900) $$
+					name="Marie Sophie"
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0063	# Johann von Stadion
+					mother=hihborn_8024	# GFN Maria Kunigunde von Kesselstatt
+					1819.02.03={birth=yes}
+					1873.02.02={death=yes}
+				}
+				stadion_0067={ #// 4d) Anna Maria, a nun (21 Sep 1820-16 Feb 1870)
+					name=Anna
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0063	# Johann von Stadion
+					mother=hihborn_8024	# GFN Maria Kunigunde von Kesselstatt
+					trait=nun
+					1820.09.21={birth=yes}
+					1870.02.16={death=yes}
+				}
+				stadion_0069={ #// 6d) Pauline Everilde (26 Jun 1824-    )
+					name=Pauline
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0063	# Johann von Stadion
+					mother=hihborn_8024	# GFN Maria Kunigunde von Kesselstatt
+					1824.06.26={birth=yes}
+					1899.01.01={death=yes}  # EST.
+				}
+				stadion_0071={ #// 8d) Maria Joseph Philipp Faulinus Eduard (13 Jun 1833-Sesemitz 5 Nov 1884); m.26 May 1862 Ludwiga Maria Leopoldine Johanna Pss von Lobkowicz (Vienna 15 May 1838-Frischau 14 Oct 1907) $$
+					name=Eduard
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0063	# Johann von Stadion
+					mother=hihborn_8024	# GFN Maria Kunigunde von Kesselstatt
+					1833.06.13={birth=yes}
+					1862.05.26={add_spouse=100185272}	# Ludwiga Popel von Lobkowitz
+					1884.11.05={death=yes}  # Sesemitz
+				}
+		stadion_0072={ #// 3b) Sophie Helene Walpurgis (25 Jun 1753-2 Aug 1811); m.3 Aug 1774 Karl Frhr von Groschlag (d.25 May 1799)
+			name=Sophie
+			female=yes
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0055	# Johann von Stadion
+			mother=hihborn_8017	# FRN Anna Schenk von Stauffenberg
+			1753.06.25={birth=yes}
+			1811.08.02={death=yes}
+		}
+		stadion_0074={ #// 5b) Theresia Franziska Philippine Walpurgis (9 Jun 1763-11 Dec 1805); m.17 Sep 1781 Karl Gf von Kesselstatt (d.23 Jun 1829)
+			name=Theresia
+			female=yes
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0055	# Johann von Stadion
+			mother=hihborn_8017	# FRN Anna Schenk von Stauffenberg
+			1763.06.09={birth=yes}
+			1805.12.11={death=yes}
+		}
+		stadion_0075={ #// 6b) Bernardine Magdalena Rosina (6 Jul 1764-31 May 1835); m.Sep 1790 Philipp Hugo Johann Frhr Wambolt von Umstadt (d.16 Aug 1846)
+			name=Bernardine
+			female=yes
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0055	# Johann von Stadion
+			mother=hihborn_8017	# FRN Anna Schenk von Stauffenberg
+			1764.07.06={birth=yes}
+			1835.05.31={death=yes}
+		}
+		stadion_0076={ #// 7b) Emmerich Joseph Philipp (14 Dec 1766-11 Jan 1817); m.29 Jul 1799 Charlotte Gfn von der Leyen (4 Apr 1768-12 Jan 1832) $$
+			name="Emmerich Joseph"
+			dynasty=stadion
+			religion=catholic culture=german
+			father=stadion_0055	# Johann von Stadion
+			mother=hihborn_8017	# FRN Anna Schenk von Stauffenberg
+			1766.12.14={birth=yes}
+			1799.07.29={add_spouse=100008831}	# Charlotte von der Leyen und zu Hohengeroldseck
+			1817.01.11={death=yes}
+		}
+			stadion_0077={ #// 1c) Philipp Franz Emmerich Karl (9 May 1799-19 Mar 1868)
+				name=Philipp
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0076	# Emmerich Joseph von Stadion
+				mother=100008831	# Charlotte von der Leyen und zu Hohengeroldseck
+				1799.05.09={birth=yes}
+				1868.03.19={death=yes}
+			}
+			stadion_0078={ #// 2c) Karl Theodor Meinrad Anton (31 May 1800-1829)
+				name=Karl
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0076	# Emmerich Joseph von Stadion
+				mother=100008831	# Charlotte von der Leyen und zu Hohengeroldseck
+				1800.05.31={birth=yes}
+				1829.01.01={death=yes}
+			}
+			stadion_0080={ #// 4c) Damian Friedrich Joseph (25 Sep 1802-24 Oct 1864); m.8 Aug 1830 Katharina Gyika (18 Jul 1805-4 Apr 1856)
+				name=Damian
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0076	# Emmerich Joseph von Stadion
+				mother=100008831	# Charlotte von der Leyen und zu Hohengeroldseck
+				1802.09.25={birth=yes}
+				1830.08.08={add_spouse=hihborn_8032}	# Katharina Gyika
+				1864.10.24={death=yes}
+			}
+				stadion_0081={ #// 1d) Joseph (15 Oct 1836-19 Aug 1837)
+					name=Joseph
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0080	# Damian von Stadion
+					mother=hihborn_8032	# Katharina Gyika
+					1836.10.15={birth=yes}
+					1837.08.19={death=yes}
+				}
+				stadion_0082={ #// 2d) Emmerich Simon Damian Joseph (17 Feb 1838-3 Aug 1901)
+					name=Emmerich
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0080	# Damian von Stadion
+					mother=hihborn_8032	# Katharina Gyika
+					1838.02.17={birth=yes}
+					1901.08.03={death=yes}
+				}
+				stadion_0083={ #// 3d) Anastasia Charlotte Josephine Marie Ottilie (13 Jan 1839-8 Apr 1907)
+					name=Anastasia
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0080	# Damian von Stadion
+					mother=hihborn_8032	# Katharina Gyika
+					1839.01.13={birth=yes}
+					1907.04.08={death=yes}
+				}
+				stadion_0084={ #// 4d) Charlotte Katharina Marie Philippine (26 Jul 1840-18 Nov 1883); m.28 Jul 1867 Elemer von Lengyel
+					name=Charlotte
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0080	# Damian von Stadion
+					mother=hihborn_8032	# Katharina Gyika
+					1840.07.26={birth=yes}
+					1883.11.18={death=yes}
+				}
+				stadion_0085={ #// 5d) Ernestine Theodora Eugenie Marie (28 Aug 1841-12 Oct 1917)
+					name=Ernestine
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0080	# Damian von Stadion
+					mother=hihborn_8032	# Katharina Gyika
+					1841.08.28={birth=yes}
+					1917.10.12={death=yes}
+				}
+				stadion_0086={ #// 6d) Maria Johanna Walburga (27 Jun 1843-13 Apr 1921)
+					name="Maria Johanna"
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0080	# Damian von Stadion
+					mother=hihborn_8032	# Katharina Gyika
+					1843.06.27={birth=yes}
+					1921.04.13={death=yes}
+				}
+				stadion_0087={ #// 7d) Friederike (20 Dec 1845-30 Nov 1901); m.9 Jul 1872 Joseph Rasin (d.19 May 1898)
+					name=Friederike
+					female=yes
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0080	# Damian von Stadion
+					mother=hihborn_8032	# Katharina Gyika
+					1845.12.20={birth=yes}
+					1901.11.30={death=yes}
+				}
+				stadion_0088={ #// 8d) Philipp Franz Joseph (6 Oct 1847-13 Sep 1908); m.9 Jul 1874 Marie Cisar (20 Dec 1850-5 Oct 1929)
+					name=Philipp
+					dynasty=stadion
+					religion=catholic culture=german
+					father=stadion_0080	# Damian von Stadion
+					mother=hihborn_8032	# Katharina Gyika
+					1847.10.06={birth=yes}
+					1874.07.09={add_spouse=hihborn_8035}	# Marie Cisar
+					1908.09.13={death=yes}
+				}
+			stadion_0089={ #// 5c) Maria Anna Franzsika Walpurgis (25 Sep 1802-21 Jan 1864)
+				name="Maria Anna"
+				female=yes
+				dynasty=stadion
+				religion=catholic culture=german
+				father=stadion_0076	# Emmerich Joseph von Stadion
+				mother=100008831	# Charlotte von der Leyen und zu Hohengeroldseck
+				1802.09.25={birth=yes}
+				1864.01.21={death=yes}
+			}
+## STADION

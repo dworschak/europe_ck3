@@ -3,106 +3,6 @@
 ##	Parma					1006002				100008300-100008499
 ##	France					100146				100008500-xxx
 #########################################################################
-
-
-100200386={ #// 		   Henriette Marie 		     de Valois 								  (1609-1669)    
-	name="Henriette Marie de Valois"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=french
-	1609.11.25={birth=yes}
-	1669.09.10={death=yes}
-}
-100083015={ #// Dss        Marie                     de Valois-Bourgogne                      (1457-1482)     2
-	name="Marie de Valois-Bourgogne"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1457.02.13={birth=yes}
-	1482.03.27={death=yes}
-}
-100082089={ #//            Antoinette                de Bourbon-Vendôme                       (1493-1583)
-	name="Antoinette de Bourbon-Vendôme"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=french
-	1493.12.25={birth=yes}  # Ham
-	1583.01.22={death=yes}  # Joinville
-}
-100082087={ #//            Renée                     de Bourbon                               (1494-1539)     3
-	name="Renée de Bourbon"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=french
-	1494.01.01={birth=yes}
-	1539.05.26={death=yes}  # Nancy
-}
-100100930={ #//            Marguerite                de Bourbon                               (1438-1483)     2 [SAVOIE]
-	name="Marguerite de Bourbon"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1438.02.05={birth=yes}
-	1483.04.24={death=yes}
-}
-100094224={ #// Css        Jeanne                    de Bourbon                               (1465-1512)     2 [TOUR]
-	name="Jeanne de Bourbon"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=french
-	1465.01.01={birth=yes}
-	1512.01.22={death=yes}
-}
-100082547={ #//            Catherine Henriette       de Bourbon                               (1596-1663)     4 [LORRAINE]
-	name="Catherine Henriette de Bourbon"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=french
-	1596.11.14={birth=yes}
-	1663.06.20={death=yes}
-}
-100101031={ #//            Elizabeth                 de Bourbon                               (1614-1664)     2 [SAVOIE]
-	name="Elizabeth de Bourbon"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=italian
-	1614.08.08={birth=yes}
-	1664.05.19={death=yes}
-}
-100098936={ #//            Charlotte                 de Bourbon-Charolais                     (1754-1839)     5
-	name="Charlotte de Bourbon-Charolais"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=danish
-	1754.08.01={birth=yes}
-	1839.09.12={death=yes}
-}
-100101633={ #// Duc        Louis Antoine             de Bourbon d'Enghien                     (1772-1804)     - [ROHAN]
-	name="Louis Antoine de Bourbon d'Enghien"
-	#dynasty=0
-	religion=catholic culture=french
-	1772.01.01={birth=yes}
-	1804.02.18={add_spouse=100068962}	# Charlotte de Rohan
-	1804.03.21={death=yes}
-}
-100100110={ #// Cte        Charles                   de Bourbon de Roussillon                 (1481-1510)     - [TOUR]
-	name="Charles de Bourbon de Roussillon"
-	#dynasty=0
-	religion=catholic culture=french
-	1481.01.01={birth=yes}  # EST.
-	1506.01.01={add_spouse=100069219}	# Anne de la Tour d’Auvergne
-	1510.01.01={death=yes}
-}
-100101002={ #// Cts        Marie                     de Bourbon de Soissons                   (1606-1692)     1 [SAVOIE]
-	name="Marie de Bourbon de Soissons"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=french
-	1606.05.03={birth=yes}  # Paris
-	1692.06.03={death=yes}  # Paris
-}
-
-
 	
 	
 #capet20
@@ -1264,7 +1164,7 @@
 						father=100208508	# Louis de Bourbon
 						mother=100072045	# Marie Adélaïde de Savoie
 						1710.02.15={birth=yes}
-						1725.08.15={add_spouse=100113108}	# Maria Karolina Leszczynski
+						1725.08.15={add_spouse=leszczyn_0029}	# Maria Karolina Leszczyński
 						1774.05.10={death=yes}
 					}
 						100208514={ #// 1e) Louise Élisabeth (Versailles 14 Aug 1727-Versailles 6 Dec 1759); m.Versailles 26 Aug 1739 Duke Filippo of Spain (Madrid 15 Mar 1720-Alessandria 18 Jul 1765) $$
@@ -1274,7 +1174,7 @@
 							religion=catholic culture=french
 							trait=twin
 							father=100026091	# Louis de Bourbon
-							mother=100113108	# Maria Karolina Leszczynski
+							mother=leszczyn_0029	# Maria Karolina Leszczyński
 							1727.08.14={birth=yes}
 							1759.12.06={death=yes}
 						}
@@ -1285,7 +1185,7 @@
 							religion=catholic culture=french
 							trait=twin
 							father=100026091	# Louis de Bourbon
-							mother=100113108	# Maria Karolina Leszczynski
+							mother=leszczyn_0029	# Maria Karolina Leszczyński
 							1727.08.14={birth=yes}
 							1752.02.10={death=yes}
 						}
@@ -1294,7 +1194,7 @@
 							dynasty_house=house_bourbon
 							religion=catholic culture=french
 							father=100026091	# Louis de Bourbon
-							mother=100113108	# Maria Karolina Leszczynski
+							mother=leszczyn_0029	# Maria Karolina Leszczyński
 							1729.09.04={birth=yes}
 							1744.12.18={add_spouse=100025398}	# María Teresa de Bourbon
 							1747.01.10={add_spouse=100007560}	# Josepha von Wettin
@@ -1480,7 +1380,7 @@
 							dynasty_house=house_bourbon
 							religion=catholic culture=french
 							father=100026091	# Louis de Bourbon
-							mother=100113108	# Maria Karolina Leszczynski
+							mother=leszczyn_0029	# Maria Karolina Leszczyński
 							1732.03.23={birth=yes}
 							1800.02.27={death=yes}
 						}
@@ -1490,7 +1390,7 @@
 							dynasty_house=house_bourbon
 							religion=catholic culture=french
 							father=100026091	# Louis de Bourbon
-							mother=100113108	# Maria Karolina Leszczynski
+							mother=leszczyn_0029	# Maria Karolina Leszczyński
 							1733.05.11={birth=yes}
 							1799.06.07={death=yes}
 						}
@@ -1500,7 +1400,7 @@
 							dynasty_house=house_bourbon
 							religion=catholic culture=french
 							father=100026091	# Louis de Bourbon
-							mother=100113108	# Maria Karolina Leszczynski
+							mother=leszczyn_0029	# Maria Karolina Leszczyński
 							1734.07.27={birth=yes}
 							1782.03.03={death=yes}
 						}
@@ -1509,7 +1409,7 @@
 							dynasty_house=house_bourbon
 							religion=catholic culture=french
 							father=100026091	# Louis de Bourbon
-							mother=100113108	# Maria Karolina Leszczynski
+							mother=leszczyn_0029	# Maria Karolina Leszczyński
 							1737.07.15={birth=yes}
 							1787.12.23={death=yes}
 						}

@@ -938,7 +938,7 @@
 		father=100030078	# Nicolae Cantacuzino
 		mother=100088216	# Ilinca Hunyadi
 		1812.01.01={birth=yes}
-		1837.01.01={add_spouse=100096099}	# Мария Александровна Frolov-Bagreev
+		1837.01.01={add_spouse=100096099}	# Мария Александровна Фролов-Багреев
 		1880.01.01={death=yes}
 	}
 		100030080={ #// B1. Mikhail, head of the department of foreign religions, -cr Ct Speransky 19.5.1872, *St.Petersburg 5.10.1847, +Arcachon 6.4.1894; m.Odessa 12.4.1874 Elisabeth Sicard (*Odessa 11.3.1848, +Mozambique 3.5.1923)
@@ -946,7 +946,7 @@
 			dynasty=1003001
 			religion=orthodox culture=vlach
 			father=100030079	# Rodion Cantacuzino
-			mother=100096099	# Мария Александровна Frolov-Bagreev
+			mother=100096099	# Мария Александровна Фролов-Багреев
 			1847.10.05={birth=yes}
 			1874.04.12={add_spouse=100096100}	# Elisabeth Sicard
 			1894.04.06={death=yes}
@@ -1227,14 +1227,14 @@
 				1880.01.30={birth=yes}  # Odessa
 				1918.07.13={death=yes}  # shot the Bolsheviks
 			}
-			100030115={ #// C2. George, *Odessa 12.7.1881, +Montreux 29.7.1950; m.Geneva 10.8.1921 Css Margarita Petrovna Capnist
+			100030115={ #// C2. George, *Odessa 12.7.1881, +Montreux 29.7.1950; m.Geneva 10.8.1921 Css Margarita Petrovna Capnist $$
 				name=George
 				dynasty=1003001
 				religion=orthodox culture=vlach
 				father=100030113	# Pavel Cantacuzino
 				mother=100036816	# Александра Ивановна Рибопьер
 				1881.07.12={birth=yes}  # Odessa
-				1921.08.10={add_spouse=100096126}	# CSS Маргарита Петровна Капнист
+				1921.08.10={add_spouse=kapnist_0035}	# Маргарита Петровна Капнист
 				1950.07.29={death=yes}  # Montreux
 			}
 				100030116={ #// D1. Pierre, *Lausanne 28.9.1922, +Blonay 18.8.1975; m.Montreux 28.9.1946 Olga Alexeevna Orlova
@@ -1242,7 +1242,7 @@
 					dynasty=1003001
 					religion=orthodox culture=vlach
 					father=100030115	# George Cantacuzino
-					mother=100096126	# CSS Маргарита Петровна Капнист
+					mother=kapnist_0035	# Маргарита Петровна Капнист
 					1922.09.28={birth=yes}  # Lausanne
 					1946.09.28={add_spouse=100096127}	# Ольга Алексеевна Орлов
 					1975.08.18={death=yes}  # Blonay
@@ -1277,7 +1277,7 @@
 					dynasty=1003001
 					religion=orthodox culture=vlach
 					father=100030115	# George Cantacuzino
-					mother=100096126	# CSS Маргарита Петровна Капнист
+					mother=kapnist_0035	# Маргарита Петровна Капнист
 					1926.03.23={birth=yes}
 					2003.01.01={death=yes}  # EST.
 				}
@@ -1839,16 +1839,16 @@ ghika_0001={ #// Gheorghe
 			religion=orthodox culture=greek
 			father=ghika_0002	# Grigore Ghica
 			mother=sturdza_0030	# Maria Sturdza
-			1664.01.01={birth=yes}
-			1708.01.01={death=yes}
+			1664.01.01={birth=yes}	# EST.
+			1708.01.01={death=yes}	# EST.
 		}
 			ghika_0005={ #// Grigore II
 				name=Grigore
 				dynasty=1003003
 				religion=orthodox culture=vlach
 				father=ghika_0004	# Matei Ghica
-				1695.01.01={birth=yes}
-				1752.09.03={death=yes}
+				1695.01.01={birth=yes}	# EST.
+				1752.09.03={death=yes}	# EST.
 			}
 				ghika_0017={ #// PRINCIPE SCARLAT GHIKA VODĂ
 					name=Scarlat
@@ -1862,7 +1862,7 @@ ghika_0001={ #// Gheorghe
 						name=Alexandru
 						dynasty=1003003
 						religion=orthodox culture=vlach
-						father=ghika_0004	# Matei Ghica
+						father=ghika_0017	# Scarlat Ghica
 						1745.01.01={birth=yes}	# EST.
 						1790.09.03={death=yes}	# EST.
 					}
@@ -1898,8 +1898,8 @@ ghika_0001={ #// Gheorghe
 				dynasty=1003003
 				religion=orthodox culture=vlach
 				father=ghika_0004	# Matei Ghica
-				1698.11.25={birth=yes}
-				1741.05.25={death=yes}
+				1698.11.25={birth=yes}	# EST.
+				1741.05.25={death=yes}	# EST.
 			}
 				100096606={ #// Zoe Ghika; m.Ioniţă CANTACUZINO-DELEANU $$
 					name=Zoe
@@ -2733,16 +2733,16 @@ mavrokordatos_0001={ #// Nikolaos Mavrocordatos, *1599, +1649; m.Alexandra Begli
 					religion=orthodox culture=greek
 					father=mavrokordatos_0022	# Ioannes Μαυροκορδάτος Mavrokordatos
 					mother=lowborn_0812	# Sultana Manu
-					1782.01.01={birth=yes}  # EST.
+					1754.07.01={birth=yes}
 					1819.02.08={death=yes}
 				}
-				100096681={ #// D1. Ilinca; m.1755 Radu Cantacuzino (*1740, +1774) %%
+				100096681={ #// D1. [1m.] Ilinca; m.1755 Radu Cantacuzino (*1740, +1774) %%
 					name=Ilinca
 					female=yes
 					dynasty=mavrokordatos
 					religion=orthodox culture=vlach
 					father=mavrokordatos_0022	# Ioannes Μαυροκορδάτος Mavrokordatos
-					mother=lowborn_0812	# Sultana Manu
+					mother=lowborn_0811	# Maria Giuliano
 					1739.01.01={birth=yes}	# EST.
 					1814.01.01={death=yes}	# EST.
 				}
@@ -2767,25 +2767,24 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 	1324.01.01={birth=yes}  # EST.
 	1394.01.01={death=yes}
 }
-	mushati_0002={ #// A1. Io Alexandru "the Good", Hospodar of Moldova [II.1400-I.1432], +1431; 1m: ca 1395 Margit Banffy de Alsolindva, dau.of Istvan Banfi de Alsolindva; 2m: ca 1405 Anna of Podolia (+20.5.1420); 3m: 1419 Ryngajla of Lithuania (+after 23.12.1430); 4m: Marina N
+	mushati_0002={ #// A1. Io Alexandru "the Good", Hospodar of Moldova [II.1400-I.1432], +1431; 1m: ca 1395 Margit Banffy de Alsolindva, dau.of Istvan Banfi de Alsolindva; 2m: ca 1405 Anna of Podolia (+20.5.1420); 3m: 1419 Ryngajla of Lithuania (+after 23.12.1430); 4m: Marina N $$
 		name="Io Alexandru"
 		dynasty=mushati
 		religion=orthodox culture=vlach
 		father=mushati_0001	# Io Roman Mușat
 		1370.01.01={birth=yes}  # EST.
-		1395.01.01={add_spouse=lowborn_1516}	# Margit Banffy de Alsolindva
-		1405.01.01={add_spouse=lowborn_4877}	# Anna of Podolia
-		1419.01.01={add_spouse=lowborn_4897}	# Ryngajla of Lithuania
-		1422.01.01={add_spouse=lowborn_4991}	# Marina N
-		1431.01.01={death=yes}
+		1395.01.01={add_spouse=banffy_0067}	# Margit Bánffy de Losoncz
+		1405.01.01={add_spouse=jagelo_0155}	# Anna Jagiełło
+		1419.01.01={add_spouse=jagelo_0150}	# Rymgajla Jagiełło
+		1432.01.01={death=yes}	# Suceava, Moldavia
 	}
 		mushati_0003={ #// B1. [1m.] Roman, +ca 1432
 			name=Roman
 			dynasty=mushati
 			religion=orthodox culture=vlach
 			father=mushati_0002	# Io Alexandru Mușat
-			mother=lowborn_1516	# Margit Banffy de Alsolindva
-			1408.01.01={birth=yes}  # EST.
+			mother=banffy_0067	# Margit Bánffy de Losoncz
+			1400.01.01={birth=yes}  # EST.
 			1432.01.01={death=yes}
 		}
 		mushati_0004={ #// B2. [1m.] Alexandru, +ca 1432
@@ -2793,8 +2792,8 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 			dynasty=mushati
 			religion=orthodox culture=vlach
 			father=mushati_0002	# Io Alexandru Mușat
-			mother=lowborn_1516	# Margit Banffy de Alsolindva
-			1408.01.01={birth=yes}  # EST.
+			mother=banffy_0067	# Margit Bánffy de Losoncz
+			1402.01.01={birth=yes}  # EST.
 			1432.01.01={death=yes}
 		}
 		mushati_0005={ #// B3. [2m.] Io Ilias, Hospodar of Moldova (I.1432-XI.1433), *20.7.1409, +23.4.1448; m.23.10.1425 Marina Pss Holszanska, dau.of Andrei Pr Holszanski by Aleksandra Pss Drucka
@@ -2802,7 +2801,7 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 			dynasty=mushati
 			religion=orthodox culture=vlach
 			father=mushati_0002	# Io Alexandru Mușat
-			mother=lowborn_4877	# Anna of Podolia
+			mother=jagelo_0155	# Anna Jagiełło
 			1409.07.20={birth=yes}  # I.1432-XI.1433 ) (
 			1425.10.23={add_spouse=lowborn_4996}	# PSS Marina Holszanska
 			1448.04.23={death=yes}
@@ -2841,7 +2840,7 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 			dynasty=mushati
 			religion=orthodox culture=vlach
 			father=mushati_0002	# Io Alexandru Mușat
-			mother=lowborn_4877	# Anna of Podolia
+			mother=jagelo_0155	# Anna Jagiełło
 			1411.01.01={birth=yes}  # EST.
 			1448.01.01={death=yes}
 		}
@@ -2910,7 +2909,6 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 			dynasty=mushati
 			religion=orthodox culture=vlach
 			father=mushati_0002	# Io Alexandru Mușat
-			mother=lowborn_4991	# Marina N
 			1423.01.01={birth=yes}  # EST.
 			1447.01.01={add_spouse=lowborn_5001}	# N Hunyadi
 			1449.01.01={death=yes}
@@ -2921,7 +2919,6 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 			dynasty=mushati
 			religion=orthodox culture=vlach
 			father=mushati_0002	# Io Alexandru Mușat
-			mother=lowborn_4991	# Marina N
 			1424.01.01={birth=yes}  # EST.
 			1480.05.07={death=yes}
 		}
@@ -3004,7 +3001,7 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 					1466.01.01={birth=yes}  # EST.
 					1480.11.21={death=yes}
 				}
-				mushati_0059={ #// D7. [2m.] Ilincu, after her husband's death she was thrown into prison, +there 18.1.1505; m.Moscow 12.1.1483 Great Pr Ivan of Tver (*15.2.1458 +7.3.1490)
+				mushati_0059={ #// D7. [2m.] Ilincu, after her husband's death she was thrown into prison, +there 18.1.1505; m.Moscow 12.1.1483 Great Pr Ivan of Tver (*15.2.1458 +7.3.1490) $$
 					name=Ilincu
 					female=yes
 					dynasty=mushati
@@ -3106,7 +3103,7 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 							religion=orthodox culture=vlach
 							father=mushati_0030	# Alexandru Mușat
 							trait=bastard
-							1562.01.01={birth=yes}  # EST.
+							1558.01.01={birth=yes}  # EST.
 							1594.01.01={add_spouse=100030237}	# Stanca Cantacuzino
 							1597.06.01={death=yes}	# Alba Julia
 						}
@@ -3115,8 +3112,7 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 								dynasty=mushati
 								religion=orthodox culture=vlach
 								father=mushati_0035	# Aron Mușat
-								mother=100030237	# Stanca Cantacuzino
-								1598.01.01={birth=yes}  # EST.
+								1578.01.01={birth=yes}  # EST.
 								1620.10.23={death=yes}
 							}
 					mushati_0037={ #// E2. [illegitimate] Petru, +20.9.1527

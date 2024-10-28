@@ -1758,17 +1758,112 @@
 						religion=lutheran culture=german
 						father=100003204	# Peter von Oldenburg-Gottorf
 						mother=100070099	# Therese von Nassau-Weilburg
-						1850.05.09={birth=yes}
-						1906.03.18={death=yes}
+						1850.05.09={birth=yes}  # St.Petersburg
+						1882.10.20={add_spouse=lwbrnga_0116}	# PSS Agrippina Japaridze
+						1906.03.18={death=yes}  # Nice
 					}
-						100303213={ #// F4. Alexandra, Gfn von Zarnekau, *Koutais 10.5.1883, +Paris 28.5.1957; 1m: Nice 11.2.1900 (div 1908) Pr George Yurievsky (*St.Petersburg 12.5.1872, +Marburg 13.9.1913); 2m: Paris 17.10.1908 Leo Narishkin (*X.1876, +Jean le Pins, France 4.4.1931)
-							name="Александра"
-							female=yes
+						zarnekau_0002={ #// A1. Nicholas, Gf von Zarnekau, *Koutais 7.5.1885, +Cambo-les-Bains 21.1.1976; 1m: Tsarskoie-Selo X.1917 (div 1930) Marianne Pistolkers (*St.Petersburg 30.10.1890, +New York 14.5.1976); 2m: Bellevue, France 8.6.1935 Adrienne Haristay (*Ur, France 18.8.1889, +Biarritz 10.7.1985)
+							name=Nicholas
+							dynasty=zarnekau
 							religion=orthodox culture=russian
 							trait=bastard
 							father=100303212	# Konstantin von Oldenburg-Gottorf
-							1883.05.22={birth=yes}	# Kutais
-							1957.05.28={death=yes}	# Paris
+							mother=lwbrnga_0116	# PSS Agrippina Japaridze
+							1885.05.07={birth=yes}  # Kutaisi
+							1917.10.01={add_spouse=lowborn_1408}	# Marianne Pistolkers
+							1930.01.01={remove_spouse=lowborn_1408}
+							1935.06.08={add_spouse=lowborn_1622}	# Adrienne Haristay
+							1976.01.21={death=yes}  # Cambo-les-Bains
+						}
+						zarnekau_0003={ #// A2. Alexei, Gf von Zarnekau (Koutais 16.7.1887 - murdered by Bolsheviks St.Petersburg 16.9.1918); m.IX.1918 Anna Behrs (*8.8.1892, +New York 21.10.1959)
+							name=Alexei
+							dynasty=zarnekau
+							religion=orthodox culture=russian
+							trait=bastard
+							father=100303212	# Konstantin von Oldenburg-Gottorf
+							mother=lwbrnga_0116	# PSS Agrippina Japaridze
+							1887.07.16={birth=yes}  # Kutaisi
+							1918.09.16={death=yes}  # St.Petersburg
+						}
+						zarnekau_0004={ #// A3. Peter, Gf von Zarnekau, *Koutais 26.5.1889, +Paris 1.11.1961; 1m: St.Petersburg 24.10.1914 Pss Tamara Schervachidze (*Batum, Russia 20.11.1896, +Leysin, Switzerland 27.2.1931); 2m: Paris 8.7.1934 Alexandra Annenkova (*Peterhof 25.6.1905, +Cannes 8.1.1985)
+							name=Peter
+							dynasty=zarnekau
+							religion=orthodox culture=russian
+							trait=bastard
+							father=100303212	# Konstantin von Oldenburg-Gottorf
+							mother=lwbrnga_0116	# PSS Agrippina Japaridze
+							1889.05.26={birth=yes}  # Kutaisi
+							1914.10.24={add_spouse=lowborn_1700}	# PSS Tamara Shervashidze
+							1934.07.08={add_spouse=lowborn_3972}	# Alexandra Анненкова
+							1961.11.01={death=yes}  # Paris
+						}
+							zarnekau_0005={ #// B1. Constantine, Gf von Zarnekau, *St.Petersburg 23.5.1916, +24.5.1977; m.Paris 10.5.1947 Marcelle Tricot (*Sermoyer, France 17.1.1922)
+								name=Константин
+								dynasty=zarnekau
+								religion=orthodox culture=russian
+								father=zarnekau_0004	# Peter von Zarnekau
+								mother=lowborn_1700	# PSS Tamara Shervashidze
+								1916.05.23={birth=yes}  # St.Petersburg
+								1947.05.10={add_spouse=lowborn_5412}	# Marcelle Tricot
+								1977.05.24={death=yes}
+							}
+							zarnekau_0006={ #// B2. Peter, Gf von Zarnekau, *Paris 20.11.1948; 1m: 25.11.1967 (div 1975) Marie Josephine Anastasi (*Tunis 3.11.1951); 2m: 5.3.1977 Anne Caumont (*Paris 12.3.1950)
+								name=Peter
+								dynasty=zarnekau
+								religion=orthodox culture=french
+								father=zarnekau_0004	# Peter von Zarnekau
+								mother=lowborn_3972	# Alexandra Анненкова
+								1948.11.20={birth=yes}  # Paris
+								1967.11.25={add_spouse=lowborn_5413}	# Marie Josephine Anastasi
+							}
+								zarnekau_0007={ #// C1. Nicholas, Gf von Zarnekau, *Villiers-le-Bel 4.6.1968
+									name=Nicholas
+									dynasty=zarnekau
+									religion=orthodox culture=russian
+									father=zarnekau_0006	# Peter von Zarnekau
+									mother=lowborn_5413	# Marie Josephine Anastasi
+									1968.06.04={birth=yes}  # Villiers le Bel
+								}
+							zarnekau_0008={ #// B3. Nina, Gfn von Zarnekau, *Gagry, Russia 16.7.1919
+								name=Nina
+								female=yes
+								dynasty=zarnekau
+								religion=orthodox culture=russian
+								father=zarnekau_0004	# Peter von Zarnekau
+								mother=lowborn_1700	# PSS Tamara Shervashidze
+								1919.07.16={birth=yes}
+								1994.01.01={death=yes}  # EST.
+							}
+						zarnekau_0009={ #// A4. Alexandra, Gfn von Zarnekau, *Koutais 10.5.1883, +Paris 28.5.1957; 1m: Nice 11.2.1900 (div 1908) Pr George Yurievsky (*St.Petersburg 12.5.1872, +Marburg 13.9.1913); 2m: Paris 17.10.1908 Leo Narishkin (*X.1876, +Jean le Pins, France 4.4.1931) $$
+							name=Alexandra
+							female=yes
+							dynasty=zarnekau
+							religion=orthodox culture=russian
+							trait=bastard
+							father=100303212	# Konstantin von Oldenburg-Gottorf
+							mother=lwbrnga_0116	# PSS Agrippina Japaridze
+							1883.05.10={birth=yes}  # Kutaisi
+							1957.05.28={death=yes}  # Paris
+						}
+						zarnekau_0010={ #// A5. Catherine, Gfn von Zarnekau, *Koutais 16.9.1884, +Paris 24.12.1962; 1m: Moscow 1907 Ivan von Ploën (*1878, +Paris 1955); 2m: Alexandre Tonne; 3m: N Chomitchevski
+							name=Catherine
+							female=yes
+							dynasty=zarnekau
+							religion=orthodox culture=russian
+							father=100303212	# Konstantin von Oldenburg-Gottorf
+							mother=lwbrnga_0116	# PSS Agrippina Japaridze
+							1884.09.16={birth=yes}  # Kutaisi
+							1962.12.24={death=yes}  # Paris
+						}
+						zarnekau_0011={ #// A6. Nina, Gfn von Zarnekau, *Koutais 13.8.1892, +Kislovodsk 1922
+							name=Nina
+							female=yes
+							dynasty=zarnekau
+							religion=orthodox culture=russian
+							father=100303212	# Konstantin von Oldenburg-Gottorf
+							mother=lwbrnga_0116	# PSS Agrippina Japaridze
+							1892.08.13={birth=yes}  # Kutaisi
+							1922.01.01={death=yes}  # Kislovodsk
 						}
 					100003264={ #// E8. THERESE Friederike Olga, *St.Petersburg 30.3.1852, +St.Petersburg 19.4.1883; m.Stuttgart 12.5.1879 Herzog George von Leuchtenberg (*29.2.1852, +3.5.1912) $$
 						name=Therese
@@ -2418,7 +2513,7 @@
 		1643.01.01={add_spouse=100086472}	# Dorothea Heshusius
 		1667.09.05={death=yes}  # Tobitschau
 	}
-		100009291={ #// 4b) Marie Sibylle (12 Apr 1650-1714); m.1st by 1694 Ferdinand Oktavian Gf von Wrbna u.Freudenthal (d.21 Dec 1695); m.2d 1711 Ct Karl Anton Gianini (d.Vienna 1742)
+		100009291={ #// 4b) Marie Sibylle (12 Apr 1650-1714); m.1st by 1694 Ferdinand Oktavian Gf von Wrbna u.Freudenthal (d.21 Dec 1695); m.2d 1711 Ct Karl Anton Gianini (d.Vienna 1742) $$
 			name="Marie Sibylle"
 			female=yes
 			dynasty=224
@@ -5403,7 +5498,7 @@
 				1740.02.08={birth=yes}  # Paris
 				1785.10.13={death=yes}  # Paris
 			}
-			100005009={ #// 5j) Benedikta Sophia Antoinette (Jan 1741-d.by 1778); m.29 Sep 1757 Ct Alexander Ossolinski (d.after 1789)
+			100005009={ #// 5j) Benedikta Sophia Antoinette (Jan 1741-d.by 1778); m.29 Sep 1757 Ct Alexander Ossolinski (d.after 1789) $$
 				name=Benedikta
 				female=yes
 				dynasty=1013502

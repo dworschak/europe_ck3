@@ -250,24 +250,24 @@
 	}
 
 #462109 = C11. [3m.] Elector Wenzel von Sachsen (1370-88), +k.a.15.5.1388; m.23.1.1367 Cecilia di Carrara (+Zahna 1427)
-	100004414={ #// D1. Elector Rudolf III von Sachsen (1388-1419), +9.6.1419; 1m: before 30.11.1389 Anna of Thüringen (*1377 +4.7.1395); 2m: 6.3.1396 Barbara of Liegnitz (*1372 +Trebitz 9.5.1436)
+	100004414={ #// D1. Elector Rudolf III von Sachsen (1388-1419), +9.6.1419; 1m: before 30.11.1389 Anna of Thüringen (*1377 +4.7.1395); 2m: 6.3.1396 Barbara of Liegnitz (*1372 +Trebitz 9.5.1436) $$
 		name=Rudolf
 		dynasty_house=house_anhalt_lauenburg
 		religion=catholic culture=german
 		father=462109	# Wenzel von Askanien
 		1369.01.01={birth=yes}  # EST.
 		1389.11.30={add_spouse=100103078}	# Anna von Thüringen
-		1396.03.06={add_spouse=100103079}	# Barbara of Liegnitz
+		1396.03.06={add_spouse=piast_0092}	# Barbara legnicki
 		1419.06.09={death=yes}
 	}
-		100004417={ #// E4. [1m.] Scholastika, +12.5.1463; m.Duke Johann I of Sagan (+12.4.1439)
+		100004417={ #// E4. [1m.] Scholastika, +12.5.1463; m.Duke Johann I of Sagan (+12.4.1439) $$
 			name=Scholastika
 			female=yes
 			dynasty_house=house_anhalt_lauenburg
 			religion=catholic culture=german
 			father=100004414	# Rudolf von Sachsen-Lauenburg
-			mother=100103079	# Barbara of Liegnitz
-			1403.01.01={birth=yes}  # EST.
+			mother=100103078	# Anna von Thüringen
+			1393.01.01={birth=yes}
 			1463.05.12={death=yes}
 		}
 		100006803={ #// E5. [2m.] Barbara, *ca 1405, +Bayreuth 10.10.1465; m.26.5.1416 Mgve Johann IV von Brandenburg (+16.11.1464) $$
@@ -276,16 +276,17 @@
 			dynasty_house=house_anhalt_lauenburg
 			religion=catholic culture=german
 			father=100004414	# Rudolf von Sachsen-Lauenburg
-			mother=100103079	# Barbara of Liegnitz
+			mother=piast_0092	# Barbara legnicki
 			1405.01.01={birth=yes}
 			1465.10.10={death=yes}  # Bayreuth
 		}
-	100006820={ #// D4. Elector Albrecht IV von Sachsen (1419-22), +27.11.1422; m.14.1.1420 Eufemia von Öls (+1444)
+	100006820={ #// D4. Elector Albrecht IV von Sachsen (1419-22), +27.11.1422; m.14.1.1420 Eufemia von Öls (+1444) $$
 		name=Albrecht
 		dynasty_house=house_anhalt_lauenburg
 		religion=catholic culture=german
 		father=462109	# Wenzel von Askanien
 		1371.01.01={birth=yes}  # EST.
+		1420.01.14={add_spouse=piast_0087}	# Eufemia Piast
 		1422.11.27={death=yes}
 	}
 	100006846={ #// D5. Anna, +after 18.4.1426; 1m: 1386 Duke Friedrich von Braunschweig-Lüneburg (+5.6.1400); 2m: Sangerhausen 14.7.1404 Ldgve Balthasar of Thüringen (*1336 +1406) $$
@@ -625,14 +626,14 @@
 		}
 
 #462398 = D6. [2m. ? 3m.] Fst Otto III von Anhalt-Bernburg (1374-1404), +1404/06; 1m: NN; 2m: before 1391 Lutrudis von Mansfeld (+after 2.7.1426)
-	100000060={ #// E1. [1m.] Fst Bernhard VI von Anhalt-Bernburg (1420-68), +2.2.1468; 1m: before 21.10.1419 Mathilde von Querfurt (+1432); 2m: before 11.3.1434 Hedwig of Sagan (+Bernburg 14.5.1497)
+	100000060={ #// E1. [1m.] Fst Bernhard VI von Anhalt-Bernburg (1420-68), +2.2.1468; 1m: before 21.10.1419 Mathilde von Querfurt (+1432); 2m: before 11.3.1434 Hedwig of Sagan (+Bernburg 14.5.1497) $$
 		name=Bernhard
 		dynasty_house=house_anhalt
 		religion=catholic culture=german
 		father=462398	# Otto von Askanien
 		1382.01.01={birth=yes}
 		1418.01.01={add_spouse=100092898}	# Mathilde von Querfurt
-		1434.03.11={add_spouse=100089004}	# Hedwig of Sagan
+		1434.03.11={add_spouse=piast_0055}	# Jadwiga Piast
 		1468.01.01={death=yes}
 	}
 		100000061={ #// F2. [1m.] Mechtild, +1443; m.Fst Siegmund II von Anhalt-Zerbst (+1450)
@@ -833,14 +834,14 @@
 				1494.11.12={birth=yes}
 				1521.10.07={death=yes}  # Weimar
 			}
-		100000104={ #// B2. Ernst, +Dessau 12.6.1516; m.Cottbus 20.1.1494 Margarete von Münsterberg (*Breslau 25.8.1473, +Dessau 28.6.1530)
+		100000104={ #// B2. Ernst, +Dessau 12.6.1516; m.Cottbus 20.1.1494 Margarete von Münsterberg (*Breslau 25.8.1473, +Dessau 28.6.1530) $$
 			name=Ernst
 			dynasty_house=house_anhalt
 			religion=catholic culture=german
 			father=100000065	# Georg von Anhalt
 			mother=100092573	# Anna von Lindau-Ruppin
 			1454.01.01={birth=yes}
-			1494.01.20={add_spouse=100092726}	# Margarete von Münsterberg
+			1494.01.20={add_spouse=podieb_0051}	# Margarete von Podiebrad
 			1516.06.12={death=yes}
 		}
 			100000105={ #// C2. Johann II, *Dessau 4.9.1504, +Zerbst 4.2.1551; m.Dessau 15.2.1534 Pss Margarete von Brandenburg (*29.9.1511 +after 3.12.1577) $$
@@ -848,7 +849,7 @@
 				dynasty_house=house_anhalt
 				religion=catholic culture=german
 				father=100000104	# Ernst von Anhalt
-				mother=100092726	# Margarete von Münsterberg
+				mother=podieb_0051	# Margarete von Podiebrad
 				1504.09.04={birth=yes}  # Dessau
 				1534.02.15={add_spouse=100002434}	# Margareta von Hohenzollern
 				1551.02.04={death=yes}  # Zerbst
@@ -1004,7 +1005,7 @@
 				dynasty_house=house_anhalt
 				religion=catholic culture=german
 				father=100000104	# Ernst von Anhalt
-				mother=100092726	# Margarete von Münsterberg
+				mother=podieb_0051	# Margarete von Podiebrad
 				1507.08.15={birth=yes}  # Dessau
 				1553.10.17={death=yes}  # Dessau
 			}
@@ -1013,7 +1014,7 @@
 				dynasty_house=house_anhalt
 				religion=catholic culture=german
 				father=100000104	# Ernst von Anhalt
-				mother=100092726	# Margarete von Münsterberg
+				mother=podieb_0051	# Margarete von Podiebrad
 				1509.08.07={birth=yes}
 				1561.12.06={death=yes}  # Dessau
 			}

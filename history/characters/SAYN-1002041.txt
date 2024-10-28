@@ -753,7 +753,7 @@
 		mother=100037112	# Maria Juliane von Nassau-Siegen
 		1622.01.01={birth=yes}
 		1647.01.01={add_spouse=100037109}	# Elisabeth Juliane von Nassau-Siegen
-		1666.01.01={add_spouse=100099134}	# GFN Wilhelmina Juliane van Berg s'Heerenberg
+		1666.01.01={add_spouse=lowborn_9501}	# GFN Wilhelmina Juliane van Berg s'Heerenberg
 		1675.01.01={death=yes}
 	}
 #1595.01.01={holder=100008887} # Georg II Graf zu Sayn-Wittgenstein-Berleburg
@@ -1434,22 +1434,22 @@
 					1827.01.05={birth=yes}
 					1902.11.06={death=yes}
 				}
-				100010851={ #// D2. FERDINAND Wilhelm Emil, *Darmstadt 10.11.1834, +Sankt Petersburg 15.3.1888; m.Tiflis 19.4.1868 Paraskewa Pss Dadiani (*Tiflis 16.12.1847, +Monte Carlo 12.4.1919)
-					name=Ferdinand
+				100010851={ #// D2. FERDINAND Wilhelm Emil, *Darmstadt 10.11.1834, +Sankt Petersburg 15.3.1888; m.Tiflis 19.4.1868 Paraskewa Pss Dadiani (*Tiflis 16.12.1847, +Monte Carlo 12.4.1919) $$
+					name="Ferdinand Wilhelm"
 					dynasty=1002041
 					religion=catholic culture=german
 					father=100010848	# August Ludwig von Sayn-Wittgenstein-Berleburg
 					mother=100093100	# Franziska Allesina gt von Schweitzer
 					1834.11.10={birth=yes}  # Darmstadt
-					1868.04.19={add_spouse=100081907}	# PSS Paraskewa Dadiani
+					1868.04.19={add_spouse=dadiani_0021}	# Paraskovia Александровна Dadiani
 					1888.03.15={death=yes}  # Sankt Petersburg
 				}
 					100010852={ #// E1. Alexander, *Tiflis 15.2.1869, +Sankt Petersburg 16.8.1901; m.Sankt Petersburg 16.2.1894 Elisabeth von Dingelstedt (*Sankt Petersburg 10.4.1874, +Aabo 14.8.1964)
 						name=Alexander
 						dynasty=1002041
 						religion=catholic culture=georgian
-						father=100010851	# Ferdinand von Sayn-Wittgenstein-Berleburg
-						mother=100081907	# PSS Paraskewa Dadiani
+						father=100010851	# Ferdinand Wilhelm von Sayn-Wittgenstein-Berleburg
+						mother=dadiani_0021	# Paraskovia Александровна Dadiani
 						1869.02.15={birth=yes}  # Tiflis
 						1894.02.16={add_spouse=100091880}	# Elisabeth von Dingelstedt
 						1901.08.16={death=yes}  # Sankt Petersburg
@@ -2312,14 +2312,14 @@
 		1807.04.04={add_spouse=100081271}	# Luise Langenbach
 		1837.04.08={death=yes}
 	}
-		100004164={ #// B1. ALEXANDER Karl, 2.Fürst zu Sayn-Wittgenstein-Hohenstein, *Wittgenstein 10.8.1801, +Wittgenstein 7.4.1874; m.Rheda 3.6.1828 Amalie Gfn zu Bentheim-Tecklenburg-Rheda (*Rheda 16.2.1802, +Frankfurt a.M. 15.6.1887)
+		100004164={ #// B1. ALEXANDER Karl, 2.Fürst zu Sayn-Wittgenstein-Hohenstein, *Wittgenstein 10.8.1801, +Wittgenstein 7.4.1874; m.Rheda 3.6.1828 Amalie Gfn zu Bentheim-Tecklenburg-Rheda (*Rheda 16.2.1802, +Frankfurt a.M. 15.6.1887) $$
 			name=Alexander
 			dynasty=1002117
 			religion=catholic culture=german
 			father=100004054	# Friedrich Karl von Sayn-Wittgenstein-Hohenstein
 			mother=100009144	# Friederike von Schwarzburg-Sondershausen
 			1801.08.10={birth=yes}  # Wittgenstein
-			1828.06.03={add_spouse=100089325}	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+			1828.06.03={add_spouse=100089325}	# Amalie von Bentheim-Tecklenburg
 			1874.04.07={death=yes}  # Wittgenstein
 		}
 			100004274={ #// 1b) Mathilde (Wittgenstein 2 May 1829-Wittgenstein 26 Sep 1857); m.Wittgenstein 30 Mar 1856 Friedrich Frhr von Vincke (Minden 24 Aug 1830-Wiesbaden 29 Jun 1895)
@@ -2328,7 +2328,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1829.05.02={birth=yes}  # Wittgenstein
 				1857.09.26={death=yes}  # Wittgenstein
 			}
@@ -2337,7 +2337,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1831.11.20={birth=yes}  # Hailer
 				1867.05.16={add_spouse=100000328}	# Marie von Bentheim u.Steinfurt
 				1912.04.06={death=yes}  # Wittgenstein
@@ -2499,7 +2499,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1833.05.29={birth=yes}
 				1907.11.17={death=yes}
 			}
@@ -2509,7 +2509,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1834.04.18={birth=yes}  # Rheda
 				1886.02.18={death=yes}  # Bergheim
 			}
@@ -2518,7 +2518,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1835.07.16={birth=yes}
 				1908.01.26={death=yes}
 			}
@@ -2528,7 +2528,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1837.02.25={birth=yes}  # Laasphe
 				1922.05.07={death=yes}  # Laasphe
 			}
@@ -2537,7 +2537,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1839.01.19={birth=yes}
 				1872.06.30={death=yes}
 			}
@@ -2546,7 +2546,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1839.01.19={birth=yes}
 				1894.01.07={death=yes}
 			}
@@ -2557,7 +2557,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1840.10.18={birth=yes}  # Wittgenstein
 				1876.08.04={add_spouse=100090018}	# Elisa von Manstein
 				1903.03.24={add_spouse=100090019}	# Marie Luise Bertling
@@ -2569,7 +2569,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1842.07.03={birth=yes}
 				1925.01.19={death=yes}
 			}
@@ -2578,7 +2578,7 @@
 				dynasty=1002117
 				religion=catholic culture=german
 				father=100004164	# Alexander von Sayn-Wittgenstein-Hohenstein
-				mother=100089325	# GFN Amalie zu Bentheim-Tecklenburg-Rheda
+				mother=100089325	# Amalie von Bentheim-Tecklenburg
 				1845.06.23={birth=yes}  # Wittgenstein
 				1875.01.25={add_spouse=100090021}	# Gertrude Westenberger
 				1921.10.30={death=yes}  # München
@@ -2798,7 +2798,7 @@
 								father=100004969	# Leon von Sayn-Wittgenstein-Berleburg
 								mother=100030274	# Eva Lucretia Wassilko de Serecki
 								1935.09.09={birth=yes}
-								1965.07.31={add_spouse=100098820}	# Мария Юрьевна Олсуфьев
+								1965.07.31={add_spouse=100098820}	# Мария Юрьевна Олсуфьева
 								2012.01.01={death=yes}  # EST.
 							}
 								100004978={ #// I1. Pr GEORG Michael, *Ottawa 6.9.1966; m.Ottawa 2.10.1993 Audra Maria Blohon (*Ottawa 30.11.1969)), dau.of Rudolf Blohon and Regina Koelmans
@@ -2806,7 +2806,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100004972	# Leo von Sayn-Wittgenstein-Berleburg
-									mother=100098820	# Мария Юрьевна Олсуфьев
+									mother=100098820	# Мария Юрьевна Олсуфьева
 									1966.09.06={birth=yes}  # Ottawa
 									1993.10.02={add_spouse=100099076}	# Audra Blohon
 								}
@@ -2842,7 +2842,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100004972	# Leo von Sayn-Wittgenstein-Berleburg
-									mother=100098820	# Мария Юрьевна Олсуфьев
+									mother=100098820	# Мария Юрьевна Олсуфьева
 									1969.03.14={birth=yes}  # Ottawa
 									1999.04.20={add_spouse=100099077}	# Catherine Bennie
 								}
@@ -2869,7 +2869,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100004972	# Leo von Sayn-Wittgenstein-Berleburg
-									mother=100098820	# Мария Юрьевна Олсуфьев
+									mother=100098820	# Мария Юрьевна Олсуфьева
 									1971.11.29={birth=yes}  # Ottawa
 								}
 								100005146={ #// I3. Pr Peter, Bachelor of Applied Arts, *Ottawa 6.7.1975
@@ -2877,7 +2877,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100004972	# Leo von Sayn-Wittgenstein-Berleburg
-									mother=100098820	# Мария Юрьевна Олсуфьев
+									mother=100098820	# Мария Юрьевна Олсуфьева
 									1975.07.06={birth=yes}  # Ottawa
 								}
 							100005284={ #// H4. Pss Katharina, B.Sc., *Cernauti 10.1.1937; m.Ottawa 24.9.1960 Georg-Heinrich Frhr von Schönberg (*Chemnitz 8.3.1935)
@@ -3332,7 +3332,7 @@
 				father=100004714	# Ludwig von Sayn-Wittgenstein-Berleburg
 				mother=100080608	# Antonia Cäcilie Snarski
 				1803.08.15={birth=yes}  # Riga
-				1824.11.12={add_spouse=100097522}	# София Ивановна Gorgoly
+				1824.11.12={add_spouse=100097522}	# Софья Ивановна Gorgoly
 				1858.05.30={death=yes}  # Wildbad
 			}
 				100006249={ #// E1. Pr Eugen, *Honorovka 12.10.1825, +Wien 18.2.1886; m.St.Petersburg 23.6.1880 Elisabeth Euler (*9.5.1830, +26.5.1896)
@@ -3340,7 +3340,7 @@
 					dynasty=1002041
 					religion=catholic culture=german
 					father=100006248	# Alexander von Sayn-Wittgenstein-Berleburg
-					mother=100097522	# София Ивановна Gorgoly
+					mother=100097522	# Софья Ивановна Gorgoly
 					1825.10.12={birth=yes}  # Honorovka
 					1880.06.23={add_spouse=100097523}	# Elisabeth Euler
 					1886.02.18={death=yes}  # Wien
@@ -3351,7 +3351,7 @@
 					dynasty=1002041
 					religion=catholic culture=german
 					father=100006248	# Alexander von Sayn-Wittgenstein-Berleburg
-					mother=100097522	# София Ивановна Gorgoly
+					mother=100097522	# Софья Ивановна Gorgoly
 					1827.10.29={birth=yes}
 					1849.04.26={death=yes}
 				}
@@ -3360,7 +3360,7 @@
 					dynasty=1002041
 					religion=catholic culture=german
 					father=100006248	# Alexander von Sayn-Wittgenstein-Berleburg
-					mother=100097522	# София Ивановна Gorgoly
+					mother=100097522	# Софья Ивановна Gorgoly
 					1833.10.14={birth=yes}
 					1866.02.11={death=yes}
 				}
@@ -3371,7 +3371,7 @@
 				father=100004714	# Ludwig von Sayn-Wittgenstein-Berleburg
 				mother=100080608	# Antonia Cäcilie Snarski
 				1807.05.26={birth=yes}
-				1835.08.24={add_spouse=100112286}	# Emilia Swiatopelk-Czetwertynski
+				1835.08.24={add_spouse=100112286}	# Emilia Swiatopelk-Czetwertyński
 				1857.03.21={death=yes}
 			}
 				100006466={ #// E1. Pr Ludwig Gottfried Alexander, *30.6.1840, +1870
@@ -3379,7 +3379,7 @@
 					dynasty=1002041
 					religion=catholic culture=german
 					father=100006465	# Georg von Sayn-Wittgenstein-Berleburg
-					mother=100112286	# Emilia Swiatopelk-Czetwertynski
+					mother=100112286	# Emilia Swiatopelk-Czetwertyński
 					1840.06.30={birth=yes}
 					1870.01.01={death=yes}
 				}
@@ -3679,7 +3679,7 @@ kirchberg_0001={ #// Siegmund Burggraf von Kirchberg (1501-3 May 1567); m.1st 15
 		religion=catholic culture=german
 		father=kirchberg_0001	# Siegmund von Kirchberg
 		mother=lowborn_6181	# Margareta Reuß von Plauen
-		1522.01.01={birth=yes}  # EST.
+		1517.01.01={birth=yes}  # EST.
 		1597.01.01={death=yes}
 	}
 	kirchberg_0003={ #// 2a) Sabina, d.after 27 Oct 1600; m.1st Hektor Gf von Gleichen (d.1560/1); m.2nd by 1582 Adam von Kittlitz (d.19 Oct 1608)
@@ -3689,8 +3689,8 @@ kirchberg_0001={ #// Siegmund Burggraf von Kirchberg (1501-3 May 1567); m.1st 15
 		religion=catholic culture=german
 		father=kirchberg_0001	# Siegmund von Kirchberg
 		mother=lowborn_6181	# Margareta Reuß von Plauen
-		1522.01.01={birth=yes}  # EST.
-		1601.10.27={death=yes}
+		1519.01.01={birth=yes}  # EST.
+		1601.01.01={death=yes}
 	}
 	kirchberg_0004={ #// 3a) Magdalena; m.1st 1545 Ruprecht Gf von Beichlingen (murdered 1549); m.2nd N von der Heyde
 		name=Magdalena
@@ -3699,7 +3699,7 @@ kirchberg_0001={ #// Siegmund Burggraf von Kirchberg (1501-3 May 1567); m.1st 15
 		religion=catholic culture=german
 		father=kirchberg_0001	# Siegmund von Kirchberg
 		mother=lowborn_6181	# Margareta Reuß von Plauen
-		1523.01.01={birth=yes}  # EST.
+		1520.01.01={birth=yes}  # EST.
 		1583.01.01={death=yes}  # EST.
 	}
 	kirchberg_0005={ #// 4a) Elisabeth, d.after 3 Sep 1588; m.1st by 1561 Hans Schenk von Tautenberg (d.2 Nov 1569); m.2nd Rudolf von Bünau
@@ -3708,7 +3708,7 @@ kirchberg_0001={ #// Siegmund Burggraf von Kirchberg (1501-3 May 1567); m.1st 15
 		dynasty=kirchberg
 		religion=catholic culture=german
 		father=kirchberg_0001	# Siegmund von Kirchberg
-		mother=lowborn_6181	# Margareta Reuß von Plauen
+		mother=lowborn_6183	# Ludmilla Schenk von Tautenburg
 		1526.01.01={birth=yes}  # EST.
 		1589.09.03={death=yes}
 	}
