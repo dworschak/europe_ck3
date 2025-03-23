@@ -1903,7 +1903,7 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 						father=esterhazy_0082	# Antal Esterházy de Galántha
 						mother=100017446	# Вера Васильевна Трубецкой
 						1853.07.11={birth=yes}  # Bratislava
-						1887.06.07={add_spouse=100117386}	# Antonia Esterházy de Galántha
+						1887.06.07={add_spouse=esterhazy_0147}	# Antonia Esterházy de Galántha
 						1906.04.28={death=yes}  # Budapest
 					}
 						esterhazy_0084={ #// F1. VERA Alexandrine Mária Jozefa, *Cseklész 9.1.1889, +after 1934
@@ -1912,7 +1912,7 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 							dynasty=1011003
 							religion=catholic culture=hungarian
 							father=esterhazy_0083	# Mihály Antal Esterházy de Galántha
-							mother=100117386	# Antonia Esterházy de Galántha
+							mother=esterhazy_0147	# Antonia Esterházy de Galántha
 							1889.01.09={birth=yes}  # Cseklész
 							1935.01.01={death=yes}
 						}
@@ -1922,7 +1922,7 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 							dynasty=1011003
 							religion=catholic culture=hungarian
 							father=esterhazy_0083	# Mihály Antal Esterházy de Galántha
-							mother=100117386	# Antonia Esterházy de Galántha
+							mother=esterhazy_0147	# Antonia Esterházy de Galántha
 							1895.07.16={birth=yes}  # Cseklész
 							1928.09.07={death=yes}  # Venezia
 						}
@@ -1951,7 +1951,7 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 					father=esterhazy_0081	# Károly Esterházy de Galántha
 					mother=lowborn_4211	# BSS Antonia Perényi de Perény
 					1823.10.12={birth=yes}  # Wien
-					1864.01.01={add_spouse=100117378}	# Amália Esterházy de Galántha
+					1864.01.01={add_spouse=esterhazy_0153}	# Amália Esterházy de Galántha
 					1910.08.10={death=yes}  # Cseklész
 				}
 				esterhazy_0089={ #// D4. [1m.] Ernö, *Wien 18.1.1826, +Bratislava 31.12.1904; m.St.Petersburg 15.1.1854 Euphemia de Tengoborska (*14.5.1826, +Abbazia 24.1.1898)
@@ -1988,8 +1988,9 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 					name="Károly István"
 					dynasty=1011003
 					religion=catholic culture=bavarian
+					trait=legitimized_bastard
 					father=esterhazy_0081	# Károly Esterházy de Galántha
-					mother=lowborn_4211	# BSS Antonia Perényi de Perény
+					mother=lowborn_4212	# Wilhelmine Felber
 					1847.11.30={birth=yes}  # Wien
 					1876.06.29={add_spouse=lowborn_4221}	# Paula Stauber
 					1882.11.15={add_spouse=lowborn_4222}	# Mary Evelyn Hamilton Charters
@@ -2140,8 +2141,9 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 					female=yes
 					dynasty=1011003
 					religion=catholic culture=bavarian
+					trait=legitimized_bastard
 					father=esterhazy_0081	# Károly Esterházy de Galántha
-					mother=lowborn_4211	# BSS Antonia Perényi de Perény
+					mother=lowborn_4212	# Wilhelmine Felber
 					1846.12.21={birth=yes}  # Wien
 					1927.09.17={death=yes}  # Lőcse
 				}
@@ -2248,169 +2250,213 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 #esterhazy3
 
 #esterhazy4
-100118495={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 1691, +Bratislava 3.10.1744; m.Bodok 7.7.1720 Borbála Gfn Berenyi de Karancsberény (*Divék 15.6.1698 +Bratislava 3.12.1759)
+esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 1691, +Bratislava 3.10.1744; m.Bodok 7.7.1720 Borbála Gfn Berenyi de Karancsberény (*Divék 15.6.1698 +Bratislava 3.12.1759)
 	name=János
 	dynasty=1011003
 	religion=catholic culture=hungarian
-	father=100118494	# Daniel Esterházy de Galántha
-	mother=100120446	# Katalin Cziráky de Czirák et Dénesfalva
-	1691.09.27={birth=yes}
-	1720.01.01={add_spouse=100080562}	# GFN Borbala Berényi de Karancsberény
-	1744.10.03={death=yes}
+	1691.01.01={birth=yes}  # Bratislava
+	1720.07.07={add_spouse=lowbor2_0798}	# GFN Borbala Berényi de Karancsberény
+	1744.10.03={death=yes}  # Bratislava
 }
-	100117336={ #// A2. Imre, *Peresznye 1.10.1722, +Györ 2.6.1792; m.Wien 31.10.1758 Gfn Anna Maria von Abensberg und Traun (*Wien 28.3.1741, +Bratislava 1807) $$
+	esterhazy_0111={ #// A1. Mihály, *1721, +k.a.Thein a.d.Moldau 9.10.1744
+		name=Mihály
+		dynasty=1011003
+		religion=catholic culture=hungarian
+		father=esterhazy_0024	# János Esterházy de Galántha
+		mother=lowbor2_0798	# GFN Borbala Berényi de Karancsberény
+		1721.01.01={birth=yes}
+		1781.01.01={death=yes}  # k.a. Thein a.d Moldau
+	}
+	esterhazy_0112={ #// A2. Imre, *Peresznye 1.10.1722, +Györ 2.6.1792; m.Wien 31.10.1758 Gfn Anna Maria von Abensberg und Traun (*Wien 28.3.1741, +Bratislava 1807) $$
 		name=Imre
 		dynasty=1011003
 		religion=catholic culture=hungarian
-		father=100118495	# János Esterházy de Galántha
-		mother=100080562	# GFN Borbala Berényi de Karancsberény
-		1722.01.01={birth=yes}
-		1758.01.01={add_spouse=100024121}	# Anna von Abensberg u.Traun
-		1792.01.01={death=yes}
+		father=esterhazy_0024	# János Esterházy de Galántha
+		mother=lowbor2_0798	# GFN Borbala Berényi de Karancsberény
+		1722.10.01={birth=yes}  # Peresznye
+		1758.10.31={add_spouse=100024121}	# Anna von Abensberg u.Traun
+		1792.06.02={death=yes}  # Györ
 	}
-		100218457={ #// B1. József, *Réde 1.11.1760, +Románfalva 22.2.1830; m.Brno (Brünn) 6.12.1792 Gfn Theresia von Zierotin-Lilgenau (*12.11.1773, +31.3.1802) $$
-			name="József"
+		esterhazy_0113={ #// B1. József, *Réde 1.11.1760, +Románfalva 22.2.1830; m.Brünn 6.12.1792 Gfn Theresia von Zierotin-Lilgenau (*12.11.1773, +31.3.1802) $$
+			name=József
 			dynasty=1011003
 			religion=catholic culture=hungarian
-			father=100117336	# Imre Esterházy de Galántha
+			father=esterhazy_0112	# Imre Esterházy de Galántha
 			mother=100024121	# Anna von Abensberg u.Traun
 			1760.11.01={birth=yes}  # Réde
 			1792.12.06={add_spouse=zierotin_0020}	# Theresia von Zierotin
 			1830.02.22={death=yes}  # Románfalva
 		}
-		100118457={ #// B2. Pál, *ca 1761, +committed suicide 1808; m.Jozefa Gfn Csaky (+1841) $$
-			name=Pál
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117336	# Imre Esterházy de Galántha
-			mother=100024121	# Anna von Abensberg u.Traun
-			1761.01.01={birth=yes}
-			1809.01.01={add_spouse=100119093}	# Jozefa Csáky de Körösszeg et Adorján
-			1836.01.01={death=yes}
-		}
-		100117310={ #// B3. Imre, *6.12.1763, +21.5.1838; m.Terezia Pálaghy de Balogvar (*1778 +23.6.1849)
-			name=Imre
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117336	# Imre Esterházy de Galántha
-			mother=100024121	# Anna von Abensberg u.Traun
-			1763.12.06={birth=yes}
-			1788.01.01={add_spouse=100088767}	# Terézia Palaghy de Balogvár
-			1838.05.27={death=yes}
-		}
-			100117330={ #// C2. Pál, *31.1.1806, +Réde 11.5.1857; m.16.3.1835 Gfn Antonia Viczay (*5.2.1812 +6.4.1903) $$
-				name=Pál
+			esterhazy_0121={ #// C1. József, bap Buda 21.2.1799, +Galántha 1.1.1879; m.1823 Rozalia Barthodeiszky de Ratk et Salamonfa (*5.4.1795 +Bratislava 4.12.1879)
+				name=József
 				dynasty=1011003
 				religion=catholic culture=hungarian
-				father=100117310	# Imre Esterházy de Galántha
-				mother=100088767	# Terézia Palaghy de Balogvár
-				1804.01.31={birth=yes}
-				1835.03.16={add_spouse=viczay_0016}	# Antónia Viczay de Loós et Hédervár
-				1857.05.11={death=yes}
+				father=esterhazy_0113	# József Esterházy de Galántha
+				mother=zierotin_0020	# Theresia von Zierotin
+				1799.02.21={birth=yes}  # Buda
+				1823.01.01={add_spouse=lowbor2_0899}	# Rozalia Barthodeiszky de Ratk et Salamonfa
+				1879.01.01={death=yes}  # Galántha
 			}
-				100117378={ #// D3. Amália, *Réde 10.3.1839, +Bratislava 3.11.1925; m.Bratislava 4.10.1864 Ferenc Gf Esterházy de Galántha (*Wien 23.10.1823, +Cseklész 10.8.1910) $$
-					name=Amália
+				esterhazy_0122={ #// D1. Géza, *1834, +1870
+					name=Géza
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0121	# József Esterházy de Galántha
+					mother=lowbor2_0899	# Rozalia Barthodeiszky de Ratk et Salamonfa
+					1834.01.01={birth=yes}
+					1870.01.01={death=yes}
+				}
+				esterhazy_0124={ #// D3. Gizella, *1837, +1852
+					name=Gizella
 					female=yes
 					dynasty=1011003
 					religion=catholic culture=hungarian
-					father=100117330	# Pál Esterházy de Galántha
-					mother=viczay_0016	# Antónia Viczay de Loós et Hédervár
-					1839.03.10={birth=yes}  # Réde
-					1925.11.03={death=yes}  # Pozsony
+					father=esterhazy_0121	# József Esterházy de Galántha
+					mother=lowbor2_0899	# Rozalia Barthodeiszky de Ratk et Salamonfa
+					1837.01.01={birth=yes}
+					1852.01.01={death=yes}
 				}
-				100117381={ #// D2. Imre, *Réde 11.4.1840, +Bratislava 9.5.1918; m.Bratislava 10.8.1867 Alessandrina Cssa Rossi (*Berlin 10.6.1844 +Wien 16.4.1919)
+			esterhazy_0125={ #// C2. Anna Mária, *9.11.1797, +20.6.1846; m.Bab 4.9.1831 Anton Konrad Frhr von Manndorf (*Radom 9.11.1797, +Gurahonc 10.12.1866)
+				name="Anna Mária"
+				female=yes
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0113	# József Esterházy de Galántha
+				mother=zierotin_0020	# Theresia von Zierotin
+				1797.11.09={birth=yes}
+				1846.06.20={death=yes}
+			}
+			esterhazy_0126={ #// C3. Terezia, *1800; m.1825 Károly Barthodeiszky de Ratk et Salamonfa (+1828)
+				name=Terezia
+				female=yes
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0113	# József Esterházy de Galántha
+				mother=zierotin_0020	# Theresia von Zierotin
+				1800.01.01={birth=yes}
+				1880.01.01={death=yes}  # EST.
+			}
+			esterhazy_0127={ #// C4. Karolina, *ca 1802, +ca 1822
+				name=Karolina
+				female=yes
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0113	# József Esterházy de Galántha
+				mother=zierotin_0020	# Theresia von Zierotin
+				1802.01.01={birth=yes}
+				1822.01.01={death=yes}  # ca
+			}
+		esterhazy_0128={ #// B2. Pál, *ca 1761, +committed suicide 1808; m.Jozefa Gfn Csaky (+1841) $$
+			name=Pál
+			dynasty=1011003
+			religion=catholic culture=hungarian
+			father=esterhazy_0112	# Imre Esterházy de Galántha
+			mother=100024121	# Anna von Abensberg u.Traun
+			1761.01.01={birth=yes}
+			1794.01.01={add_spouse=100119093}	# Jozefa Csáky de Körösszeg et Adorján
+			1808.01.01={death=yes}  # committed suicide
+		}
+		esterhazy_0131={ #// B3. Imre, *6.12.1763, +21.5.1838; m.Terezia Pálaghy de Balogvar (*1778 +23.6.1849)
+			name=Imre
+			dynasty=1011003
+			religion=catholic culture=hungarian
+			father=esterhazy_0112	# Imre Esterházy de Galántha
+			mother=100024121	# Anna von Abensberg u.Traun
+			1763.12.06={birth=yes}
+			1798.01.01={add_spouse=lowbor2_0927}	# Terezia Pálaghy de Balogvar
+			1838.05.21={death=yes}
+		}
+			esterhazy_0132={ #// C1. Imre, *28.11.1800, +7.4.1802
+				name=Imre
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0131	# Imre Esterházy de Galántha
+				mother=lowbor2_0927	# Terezia Pálaghy de Balogvar
+				1800.11.28={birth=yes}
+				1802.04.07={death=yes}
+			}
+			esterhazy_0133={ #// C2. Pál, *31.1.1806, +Réde 11.5.1857; m.16.3.1835 Gfn Antonia Viczay (*5.2.1812 +6.4.1903) $$
+				name=Pál
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0131	# Imre Esterházy de Galántha
+				mother=lowbor2_0927	# Terezia Pálaghy de Balogvar
+				1806.01.31={birth=yes}
+				1835.03.16={add_spouse=viczay_0016}	# Antónia Viczay de Loós et Hédervár
+				1857.05.11={death=yes}  # Réde
+			}
+				esterhazy_0134={ #// D1. Lajos, *Bratislava 24.7.1837, +Bratislava 29.5.1857
+					name=Lajos
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0133	# Pál Esterházy de Galántha
+					mother=viczay_0016	# Antónia Viczay de Loós et Hédervár
+					1837.07.24={birth=yes}  # Bratislava
+					1857.05.29={death=yes}  # Bratislava
+				}
+				esterhazy_0135={ #// D2. Imre, *Réde 11.4.1840, +Bratislava 9.5.1918; m.Bratislava 10.8.1867 Alessandrina Cssa Rossi (*Berlin 10.6.1844 +Wien 16.4.1919)
 					name=Imre
 					dynasty=1011003
 					religion=catholic culture=hungarian
-					father=100117330	# Pál Esterházy de Galántha
+					father=esterhazy_0133	# Pál Esterházy de Galántha
 					mother=viczay_0016	# Antónia Viczay de Loós et Hédervár
 					1840.04.11={birth=yes}  # Réde
-					1867.08.10={add_spouse=100095222}	# Alessandrina Rossi
-					1918.05.09={death=yes}  # Pozsony
+					1867.08.10={add_spouse=lowbor2_0930}	# Alessandrina Rossi
+					1918.05.09={death=yes}  # Bratislava
 				}
-					100117386={ #// E3. Antonia Mária Jozefa, *Réde 10.10.1868, +Wien 25.7.1927; m.Bratislava 7.6.1887 Gf Mihály Antal Esterházy de Galántha (*Bratislava 11.7.1853, +Budapest 28.4.1906) $$
-						name=Antonia
-						female=yes
+					esterhazy_0136={ #// E1. Imre, *9.1.1874, +Réde I.1877
+						name=Imre
 						dynasty=1011003
 						religion=catholic culture=hungarian
-						father=100117381	# Imre Esterházy de Galántha
-						mother=100095222	# Alessandrina Rossi
-						1868.10.10={birth=yes}  # Réde
-						1927.07.25={death=yes}  # Vienna
+						father=esterhazy_0135	# Imre Esterházy de Galántha
+						mother=lowbor2_0930	# Alessandrina Rossi
+						1874.01.09={birth=yes}
+						1877.01.01={death=yes}  # Réde
 					}
-					100117392={ #// E4. Mária Angelika Jozefina Emerika, *Réde 14.1.1870, +Budapest 16.3.1962; m.Bratislava 5.1.1889 Gf Sandor Andrássy de Csíkszentkirály et Krasznahorka (*Bratislava 19.6.1863, +Budapest 20.7.1946) $$
-						name=Mária
-						female=yes
-						dynasty=1011003
-						religion=catholic culture=hungarian
-						father=100117381	# Imre Esterházy de Galántha
-						mother=100095222	# Alessandrina Rossi
-						1870.01.14={birth=yes}  # Réde
-						1962.03.16={death=yes}  # Budapest
-					}
-					100117396={ #// E7. Margit Mária Jozefa Éva Gabriella, *Bratislava 14.3.1877, +Glabárpuszta 13.4.1947; m.Bratislava 2.6.1903 Pál Gf Niczky de Niczk (*Ligvánd 23.5.1873, +Sopron 13.11.1932) $$
-						name=Margit
-						female=yes
-						dynasty=1011003
-						religion=catholic culture=hungarian
-						father=100117381	# Imre Esterházy de Galántha
-						mother=100095222	# Alessandrina Rossi
-						1877.03.14={birth=yes}  # Preáburg
-						1947.04.13={death=yes}  # Galabárpuszta
-					}
-					100117401={ #// E2. Pál Mária József, *Réde 17.10.1878, +Réde 15.10.1942; m.Budapest 14.4.1909 Mária Gfn Cziraky de Czirák et Dénesfalva (*Dénesfa 20.6.1881, +Szolnok 20.8.1953) $$
+					esterhazy_0137={ #// E2. Pál Mária József, *Réde 17.10.1878, +Réde 15.10.1942; m.Budapest 14.4.1909 Mária Gfn Cziraky de Czirák et Dénesfalva (*Dénesfa 20.6.1881, +Szolnok 20.8.1953) $$
 						name=Pál
 						dynasty=1011003
 						religion=catholic culture=hungarian
-						father=100117381	# Imre Esterházy de Galántha
-						mother=100095222	# Alessandrina Rossi
+						father=esterhazy_0135	# Imre Esterházy de Galántha
+						mother=lowbor2_0930	# Alessandrina Rossi
 						1878.10.17={birth=yes}  # Réde
 						1909.04.14={add_spouse=100120448}	# Mária Cziráky de Czirák et Dénesfalva
 						1942.10.15={death=yes}  # Réde
 					}
-						100117406={ #// F4. ALICE Mária Amália Desideria Gabriella, *Bratislava 11.2.1910, +shot to death by Russian soldiers 18.3.1945; m.Réde 1.8.1940 Miklós Gf Széchen de Temerin (*Wien 26.11.1899, +killed by Russian soldiers 18.3.1945)
-							name=Alexia
-							female=yes
-							dynasty=1011003
-							religion=catholic culture=hungarian
-							father=100117401	# Pál Esterházy de Galántha
-							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
-							1910.02.11={birth=yes}  # Pozsony
-							1945.03.18={death=yes}  # Mór
-						}
-						100117409={ #// F1. József Antal Vince Hubert, *Bratislava 22.1.1911, +Zürich 27.11.1957; m.Budapest 17.9.1941 Alice Rudnay de Rudnó et Divékújfalu (*Budapest 25.3.1917)
+						esterhazy_0138={ #// F1. József Antal Vince Hubert, *Bratislava 22.1.1911, +Zürich 27.11.1957; m.Budapest 17.9.1941 Alice Rudnay de Rudnó et Divékújfalu (*Budapest 25.3.1917)
 							name=József
 							dynasty=1011003
 							religion=catholic culture=hungarian
-							father=100117401	# Pál Esterházy de Galántha
+							father=esterhazy_0137	# Pál Esterházy de Galántha
 							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
-							1911.01.22={birth=yes}  # Pozsony
-							1941.09.17={add_spouse=100095228}	# Alice Rudnay de Rudnó et Divék-Ujfalu
+							1911.01.22={birth=yes}  # Bratislava
+							1941.09.17={add_spouse=lowbor2_0936}	# Alice Rudnay de Rudnó et Divékújfalu
 							1957.11.27={death=yes}  # Zürich
 						}
-							100117413={ #// G1. Pál, *Budapest 7.6.1942; m.Wörth am Rhein 6.4.1977 Christa Hohn (*Mohelnitz 6.9.1945)
+							esterhazy_0139={ #// G1. Pál, *Budapest 7.6.1942; m.Wörth am Rhein 6.4.1977 Christa Hohn (*Mohelnitz 6.9.1945)
 								name=Pál
 								dynasty=1011003
 								religion=catholic culture=hungarian
-								father=100117409	# József Esterházy de Galántha
-								mother=100095228	# Alice Rudnay de Rudnó et Divék-Ujfalu
-								1942.06.07={birth=yes}
-								1977.04.06={add_spouse=100094930}	# Christa Hohn
+								father=esterhazy_0138	# József Esterházy de Galántha
+								mother=lowbor2_0936	# Alice Rudnay de Rudnó et Divékújfalu
+								1942.06.07={birth=yes}  # Budapest
+								1977.04.06={add_spouse=lowbor2_0937}	# Christa Hohn
+								2017.01.01={death=yes}  # EST.
 							}
-								100117420={ #// H1. Béla István Pál Ferenc József, *Zürich 1.4.1978; m.Vienna 11 Apr 2008 (rel) 12 Apr 2008 Sophie Elisabeth Maria Pasquali Nobile di Campostellato (b.30 May 1980)
+								esterhazy_0140={ #// H1. Béla István Pál Ferenc József, *Zürich 1.4.1978; m.Vienna 11 Apr 2008 (rel) 12 Apr 2008 Sophie Elisabeth Maria Pasquali Nobile di Campostellato (b.30 May 1980)
 									name=Béla
 									dynasty=1011003
 									religion=catholic culture=hungarian
-									father=100117413	# Pál Esterházy de Galántha
-									mother=100094930	# Christa Hohn
-									1978.04.01={birth=yes}
+									father=esterhazy_0139	# Pál Esterházy de Galántha
+									mother=lowbor2_0937	# Christa Hohn
+									1978.04.01={birth=yes}  # Zürich
 									2008.04.11={add_spouse=100095157}	# Sophie Elisabeth Pasquali
 								}
 									100117425={ #// 1g) Imre Anatol Gian Béla Pál Maximilian Maria Hubertus (b.Vienna 17 Jul 2009)
 										name=Imre
 										dynasty=1011003
 										religion=catholic culture=hungarian
-										father=100117420	# Béla Esterházy de Galántha
+										father=esterhazy_0140	# Béla Esterházy de Galántha
 										mother=100095157	# Sophie Elisabeth Pasquali
 										2009.07.17={birth=yes}
 									}
@@ -2418,246 +2464,1009 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 										name=Tibor
 										dynasty=1011003
 										religion=catholic culture=hungarian
-										father=100117420	# Béla Esterházy de Galántha
+										father=esterhazy_0140	# Béla Esterházy de Galántha
 										mother=100095157	# Sophie Elisabeth Pasquali
 										2012.03.03={birth=yes}
 									}
-								100117429={ #// H2. Daniella Izabella Kriszta Sya Mária, *Zürich 1.6.1979; m.Küsnacht 30 Aug 2007 Frederic Gf zu Königsegg-Aulendorf (b.Hamburg 20 Feb 1969) $$
-									name=Daniela
+								esterhazy_0141={ #// H2. Daniella Izabella Kriszta Sya Mária, *Zürich 1.6.1979; m.Küsnacht 30 Aug 2007 Frederic Gf zu Königsegg-Aulendorf (b.Hamburg 20 Feb 1969) $$
+									name=Daniella
 									female=yes
 									dynasty=1011003
 									religion=catholic culture=hungarian
-									father=100117413	# Pál Esterházy de Galántha
-									mother=100094930	# Christa Hohn
-									1979.06.01={birth=yes}
+									father=esterhazy_0139	# Pál Esterházy de Galántha
+									mother=lowbor2_0937	# Christa Hohn
+									1979.06.01={birth=yes}  # Zürich
 								}
-							100117433={ #// G2. József, *Budapest 13.1.1946; m.Zürich 22.6.1973 Claudia Givel (*Arosa 13.10.1940)
+							esterhazy_0142={ #// G2. József, *Budapest 13.1.1946; m.Zürich 22.6.1973 Claudia Givel (*Arosa 13.10.1940)
 								name=József
 								dynasty=1011003
 								religion=catholic culture=hungarian
-								father=100117409	# József Esterházy de Galántha
-								mother=100095228	# Alice Rudnay de Rudnó et Divék-Ujfalu
-								1946.01.13={birth=yes}
-								1973.06.22={add_spouse=100094888}	# Claudia Givel
+								father=esterhazy_0138	# József Esterházy de Galántha
+								mother=lowbor2_0936	# Alice Rudnay de Rudnó et Divékújfalu
+								1946.01.13={birth=yes}  # Budapest
+								1973.06.22={add_spouse=lowbor2_0938}	# Claudia Givel
 							}
-						100117437={ #// F2. András Béla Péter Hubert, *Bratislava 19.10.1913, +Rome 30.7.1984
+						esterhazy_0143={ #// F2. András Béla Péter Hubert, *Bratislava 19.10.1913, +Rome 30.7.1984
 							name=András
 							dynasty=1011003
 							religion=catholic culture=hungarian
-							father=100117401	# Pál Esterházy de Galántha
+							father=esterhazy_0137	# Pál Esterházy de Galántha
 							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
-							1913.10.19={birth=yes}  # Pozsony
+							1913.10.19={birth=yes}  # Bratislava
 							1984.07.30={death=yes}  # Rome
 						}
-						100117443={ #// F3. Lajos Pál Antal Mária Magdolna Hubert, *Réde 22.7.1919
+						esterhazy_0144={ #// F3. Lajos Pál Antal Mária Magdolna Hubert, *Réde 22.7.1919
 							name=Lajos
 							dynasty=1011003
 							religion=catholic culture=hungarian
-							father=100117401	# Pál Esterházy de Galántha
+							father=esterhazy_0137	# Pál Esterházy de Galántha
 							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
 							1919.07.22={birth=yes}  # Réde
-							2012.01.23={death=yes}  # Wallisellen Switzerland
+							1994.01.01={death=yes}  # EST.
 						}
-						100117448={ #// F5. MARGIT Mária Urbana Huberta, *Réde 19.12.1923
+						esterhazy_0145={ #// F4. ALICE Mária Amália Desideria Gabriella, *Bratislava 11.2.1910, +shot to death by Russian soldiers 18.3.1945; m.Réde 1.8.1940 Miklós Gf Széchen de Temerin (*Wien 26.11.1899, +killed by Russian soldiers 18.3.1945)
+							name=Alice
+							female=yes
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0137	# Pál Esterházy de Galántha
+							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
+							1910.02.11={birth=yes}  # Bratislava
+							1945.03.18={death=yes}  # shot to death Russian soldiers
+						}
+						esterhazy_0146={ #// F5. MARGIT Mária Urbana Huberta, *Réde 19.12.1923
 							name=Margit
 							female=yes
 							dynasty=1011003
 							religion=catholic culture=hungarian
-							father=100117401	# Pál Esterházy de Galántha
+							father=esterhazy_0137	# Pál Esterházy de Galántha
 							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
-							1923.12.19={birth=yes}
-							1999.01.01={death=yes}  # EST.
+							1923.12.19={birth=yes}  # Réde
+							2003.01.01={death=yes}  # EST.
 						}
-					100117453={ #// E8. Amália Mária Jozefa Henriette Gabriella Éva, *Réde 21.10.1880, +Hács 26.4.1957; m.Bratislava 30.11.1907 Gf Endre Pejácsevich de Verocze (*9.1.1884 +22.1.1939) $$
+					esterhazy_0147={ #// E3. Antonia Mária Jozefa, *Réde 10.10.1868, +Wien 25.7.1927; m.Bratislava 7.6.1887 Gf Mihály Antal Esterházy de Galántha (*Bratislava 11.7.1853, +Budapest 28.4.1906) $$
+						name=Antonia
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0135	# Imre Esterházy de Galántha
+						mother=lowbor2_0930	# Alessandrina Rossi
+						1868.10.10={birth=yes}  # Réde
+						1927.07.25={death=yes}  # Wien
+					}
+					esterhazy_0148={ #// E4. Mária Angelika Jozefina Emerika, *Réde 14.1.1870, +Budapest 16.3.1962; m.Bratislava 5.1.1889 Gf Sandor Andrássy de Csíkszentkirály et Krasznahorka (*Bratislava 19.6.1863, +Budapest 20.7.1946) $$
+						name=Mária
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0135	# Imre Esterházy de Galántha
+						mother=lowbor2_0930	# Alessandrina Rossi
+						1870.01.14={birth=yes}  # Réde
+						1962.03.16={death=yes}  # Budapest
+					}
+					esterhazy_0149={ #// E5. Alexandra, *Réde 8.5.1871, +Wien 15.2.1877
+						name=Alexandra
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0135	# Imre Esterházy de Galántha
+						mother=lowbor2_0930	# Alessandrina Rossi
+						1871.05.08={birth=yes}  # Réde
+						1877.02.15={death=yes}  # Wien
+					}
+					esterhazy_0150={ #// E6. Gabriella, *23.12.1872, +Réde I.1877
+						name=Gabriella
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0135	# Imre Esterházy de Galántha
+						mother=lowbor2_0930	# Alessandrina Rossi
+						1872.12.23={birth=yes}
+						1877.01.01={death=yes}  # Réde
+					}
+					esterhazy_0151={ #// E7. Margit Mária Jozefa Éva Gabriella, *Bratislava 14.3.1877, +Glabárpuszta 13.4.1947; m.Bratislava 2.6.1903 Pál Gf Niczky de Niczk (*Ligvánd 23.5.1873, +Sopron 13.11.1932) $$
+						name=Margit
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0135	# Imre Esterházy de Galántha
+						mother=lowbor2_0930	# Alessandrina Rossi
+						1877.03.14={birth=yes}  # Bratislava
+						1947.04.13={death=yes}  # Glabárpuszta
+					}
+					esterhazy_0152={ #// E8. Amália Mária Jozefa Henriette Gabriella Éva, *Réde 21.10.1880, +Hács 26.4.1957; m.Bratislava 30.11.1907 Gf Endre Pejácsevich de Verőcze (*9.1.1884 +22.1.1939) $$
 						name=Amália
 						female=yes
 						dynasty=1011003
 						religion=catholic culture=hungarian
-						father=100117381	# Imre Esterházy de Galántha
-						mother=100095222	# Alessandrina Rossi
+						father=esterhazy_0135	# Imre Esterházy de Galántha
+						mother=lowbor2_0930	# Alessandrina Rossi
 						1880.10.21={birth=yes}  # Réde
-						1956.01.01={death=yes}
+						1957.04.26={death=yes}  # Hács
 					}
-				100117458={ #// D5. Angelika, *Réde 20.11.1842, +Baranyasellye 1.7.1921; m.Bratislava 29.9.1860 Gf István Keglevich de Buzin (*18.12.1840 +29.5.1905) $$
+				esterhazy_0153={ #// D3. Amália, *Réde 10.3.1839, +Bratislava 3.11.1925; m.Bratislava 4.10.1864 Ferenc Gf Esterházy de Galántha (*Wien 23.10.1823, +Cseklész 10.8.1910) $$
+					name=Amália
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0133	# Pál Esterházy de Galántha
+					mother=viczay_0016	# Antónia Viczay de Loós et Hédervár
+					1839.03.10={birth=yes}  # Réde
+					1925.11.03={death=yes}  # Bratislava
+				}
+				esterhazy_0154={ #// D4. Antonia, *Réde 6.3.1847, +Bratislava 27.3.1860
+					name=Antonia
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0133	# Pál Esterházy de Galántha
+					mother=viczay_0016	# Antónia Viczay de Loós et Hédervár
+					1847.03.06={birth=yes}  # Réde
+					1860.03.27={death=yes}  # Bratislava
+				}
+				esterhazy_0155={ #// D5. Angelika, *Réde 20.11.1842, +Baranyasellye 1.7.1921; m.Bratislava 29.9.1860 Gf István Keglevich de Buzin (*18.12.1840 +29.5.1905) $$
 					name=Angelika
 					female=yes
 					dynasty=1011003
 					religion=catholic culture=hungarian
-					father=100117330	# Pál Esterházy de Galántha
+					father=esterhazy_0133	# Pál Esterházy de Galántha
 					mother=viczay_0016	# Antónia Viczay de Loós et Hédervár
-					1841.11.20={birth=yes}  # Réde
-					1921.07.01={death=yes}  # Baranya-Sellye
+					1842.11.20={birth=yes}  # Réde
+					1921.07.01={death=yes}  # Baranyasellye
 				}
-			100117461={ #// C3. Imre, *Réde 10.3.1808, +2.10.1891
+			esterhazy_0156={ #// C3. Imre, *Réde 10.3.1808, +2.10.1891
 				name=Imre
 				dynasty=1011003
 				religion=catholic culture=hungarian
-				father=100117310	# Imre Esterházy de Galántha
-				mother=100088767	# Terézia Palaghy de Balogvár
+				father=esterhazy_0131	# Imre Esterházy de Galántha
+				mother=lowbor2_0927	# Terezia Pálaghy de Balogvar
 				1808.03.10={birth=yes}  # Réde
 				1891.10.02={death=yes}
 			}
-			100117463={ #// C5. László, *8.10.1810, +Budapest 22.11.1891; m.9.7.1842 Erzsébet Bss Orczy de Orcz (*23.4.1822 +Sárosd 26.5.1930) $$
+			esterhazy_0157={ #// C4. Sándor, *23.2.1809, +Bakony-Szentlaszló 1.4.1867
+				name=Sándor
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0131	# Imre Esterházy de Galántha
+				mother=lowbor2_0927	# Terezia Pálaghy de Balogvar
+				1809.02.23={birth=yes}
+				1867.04.01={death=yes}  # Bakony-Szentlaszló
+			}
+			esterhazy_0158={ #// C5. László, *8.10.1810, +Budapest 22.11.1891; m.9.7.1842 Erzsébet Bss Orczy de Orcz (*23.4.1822 +Sárosd 26.5.1930) $$
 				name=László
 				dynasty=1011003
 				religion=catholic culture=hungarian
-				father=100117310	# Imre Esterházy de Galántha
-				mother=100088767	# Terézia Palaghy de Balogvár
-				1810.01.01={birth=yes}
+				father=esterhazy_0131	# Imre Esterházy de Galántha
+				mother=lowbor2_0927	# Terezia Pálaghy de Balogvar
+				1810.10.08={birth=yes}
 				1842.07.09={add_spouse=100119954}	# Erzsébet Orczy de Orczi
 				1891.11.22={death=yes}  # Budapest
 			}
-				100117466={ #// D6. Alice, *Sárosd 17.2.1850, +Budapest 21.6.1882; m.Budapest 16.8.1873 Gf Antal Cziraky de Czirak et Denesfalva (*12.6.1850, +11.6.1930) $$
-					name=Alice
-					female=yes
+				esterhazy_0159={ #// D1. Andor, *23.2.1846, +Sárosd 28.4.1892
+					name=Andor
 					dynasty=1011003
 					religion=catholic culture=hungarian
-					father=100117463	# László Esterházy de Galántha
+					father=esterhazy_0158	# László Esterházy de Galántha
 					mother=100119954	# Erzsébet Orczy de Orczi
-					1850.02.17={birth=yes}  # Sárosd
-					1882.06.21={death=yes}  # Budapest
+					1846.02.23={birth=yes}
+					1892.04.28={death=yes}  # Sárosd
 				}
-				100117469={ #// D7. Mária Johanna, *Sárosd 9.5.1856, +Rábakecöl 23.11.1940; m.Budapest 4.6.1878 Gf Béla Cziraky de Czirak et Denesfalva (*23.5.1852 +20.3.1911) $$
-					name="Mária Johanna"
-					female=yes
+				esterhazy_0160={ #// D2. Béla József Angelikus Félix Fidel, *Bratislava 25.2.1854, +Magyarszobathely 4.4.1919
+					name=Béla
 					dynasty=1011003
 					religion=catholic culture=hungarian
-					father=100117463	# László Esterházy de Galántha
+					father=esterhazy_0158	# László Esterházy de Galántha
 					mother=100119954	# Erzsébet Orczy de Orczi
-					1856.05.09={birth=yes}  # Sárosd
-					1940.05.21={death=yes}
+					1854.02.25={birth=yes}  # Bratislava
+					1919.04.04={death=yes}  # Magyarszobathely
 				}
-				100117471={ #// D3. László Pál Mária, *Sárosd 22.6.1857, +Budapest 3.10.1942; m.Gyömro 31.1.1888 Gfn Katalin Teleki de Szék (*30.10.1869 +9.12.1948) $$
+				esterhazy_0161={ #// D3. László Pál Mária, *Sárosd 22.6.1857, +Budapest 3.10.1942; m.Gyömrő 31.1.1888 Gfn Katalin Teleki de Szék (*30.10.1869 +9.12.1948) $$
 					name=László
 					dynasty=1011003
 					religion=catholic culture=hungarian
-					father=100117463	# László Esterházy de Galántha
+					father=esterhazy_0158	# László Esterházy de Galántha
 					mother=100119954	# Erzsébet Orczy de Orczi
 					1857.06.22={birth=yes}  # Sárosd
 					1888.01.31={add_spouse=100115921}	# Katalin Teleki de Szék
 					1942.10.03={death=yes}  # Budapest
 				}
-					100117473={ #// E2. Erzsébet Jozefine Mária Katalin Gabriella, *Gyömro 19.11.1888, +Gárdony 1.12.1977
-						name=Erzsébet
-						female=yes
-						dynasty=1011003
-						religion=catholic culture=hungarian
-						father=100117471	# László Esterházy de Galántha
-						mother=100115921	# Katalin Teleki de Szék
-						1888.11.19={birth=yes}  # Gyömrö
-						1977.12.01={death=yes}  # Nógrádgárdony
-					}
-					100117474={ #// E1. László Sándor Hubert Félix József, *Gyömrö 3.3.1891, +Székesfehérvár 9.4.1966; m.Sárpentele 27.6.1920 Sárolta Gfn Széchenyi de Sárvár-felsovidék (*Budapest 14.6.1900, +Budapest 15.8.1985) $$
+					esterhazy_0162={ #// E1. László Sándor Hubert Félix József, *Gyömrö 3.3.1891, +Székesfehérvár 9.4.1966; m.Sárpentele 27.6.1920 Sárolta Gfn Széchenyi de Sárvár-felsovidék (*Budapest 14.6.1900, +Budapest 15.8.1985) $$
 						name=László
 						dynasty=1011003
 						religion=catholic culture=hungarian
-						father=100117471	# László Esterházy de Galántha
+						father=esterhazy_0161	# László Esterházy de Galántha
 						mother=100115921	# Katalin Teleki de Szék
 						1891.03.03={birth=yes}  # Gyömrö
 						1920.06.27={add_spouse=100116482}	# Sarolta Széchenyi de Sárvár-Felsővidek
 						1966.04.09={death=yes}  # Székesfehérvár
 					}
-						100117476={ #// F2. Ilona Mária Antónia Erzsébet Gabriella Katalin Karolina, *Sárosd 17.5.1921; 1m: Budapest 23.8.1943 Miklós Gf Cziráky de Czirák et Denesfalva (*6.3.1918 +13.9.1944); 2m: Vaduz (civ) 21.12.1976 (rel) 10.1.1977 Pr Constantin von und zu Liechtenstein (*23.12.1911 +28.3.2001) $$
+						esterhazy_0163={ #// F1. Béla Hubert, *Sárosd 14.6.1926; 1m: Budapest 2.10.1950 (div 5.4.1961) Gfn Ilona Teleki de Szék (*30.6.1924); 2m: Budapest 16.11.1971 Katalin Freund (*Budapest 11.4.1944) $$
+							name="Béla Hubert"
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0162	# László Esterházy de Galántha
+							mother=100116482	# Sarolta Széchenyi de Sárvár-Felsővidek
+							1926.06.14={birth=yes}  # Sárosd
+							1950.10.02={add_spouse=100115906}	# Ilona Teleki de Szék
+							1961.04.05={remove_spouse=100115906}
+							1971.11.16={add_spouse=lowbor2_0989}	# Katalin Freund
+							2001.01.01={death=yes}  # EST.
+						}
+							esterhazy_0164={ #// G1. László, *Budapest 29.9.1951
+								name=László
+								dynasty=1011003
+								religion=catholic culture=hungarian
+								father=esterhazy_0163	# Béla Hubert Esterházy de Galántha
+								mother=100115906	# Ilona Teleki de Szék
+								1951.09.29={birth=yes}  # Budapest
+							}
+						esterhazy_0165={ #// F2. Ilona Mária Antónia Erzsébet Gabriella Katalin Karolina, *Sárosd 17.5.1921; 1m: Budapest 23.8.1943 Miklós Gf Cziráky de Czirák et Denesfalva (*6.3.1918 +13.9.1944); 2m: Vaduz (civ) 21.12.1976 (rel) 10.1.1977 Pr Constantin von und zu Liechtenstein (*23.12.1911 +28.3.2001) $$
 							name=Ilona
 							female=yes
 							dynasty=1011003
 							religion=catholic culture=hungarian
-							father=100117474	# László Esterházy de Galántha
+							father=esterhazy_0162	# László Esterházy de Galántha
 							mother=100116482	# Sarolta Széchenyi de Sárvár-Felsővidek
-							1921.05.17={birth=yes}
-							1997.01.01={death=yes}  # EST.
+							1921.05.17={birth=yes}  # Sárosd
+							2001.01.01={death=yes}  # EST.
 						}
-						100117479={ #// F3. Mária Emerika, *Sárosd 26.6.1922; m.Budapest 26.2.1942 Gf Ferenc Batthyany (*4.10.1915 +18.7.1998) $$
-							name=Mária
+						esterhazy_0166={ #// F3. Mária Emerika, *Sárosd 26.6.1922; m.Budapest 26.2.1942 Gf Ferenc Batthyany (*4.10.1915 +18.7.1998) $$
+							name="Mária Emerika"
 							female=yes
 							dynasty=1011003
 							religion=catholic culture=hungarian
-							father=100117474	# László Esterházy de Galántha
+							father=esterhazy_0162	# László Esterházy de Galántha
 							mother=100116482	# Sarolta Széchenyi de Sárvár-Felsővidek
 							1922.06.26={birth=yes}  # Sárosd
-							2009.05.01={death=yes}  # Budapest
+							2002.01.01={death=yes}  # EST.
 						}
-						100117481={ #// F1. Béla Hubert, *Sárosd 14.6.1926; 1m: Budapest 2.10.1950 (div 5.4.1961) Gfn Ilona Teleki de Szék (*30.6.1924); 2m: Budapest 16.11.1971 Katalin Freund (*Budapest 11.4.1944) $$
-							name=Béla
-							dynasty=1011003
-							religion=catholic culture=hungarian
-							father=100117474	# László Esterházy de Galántha
-							mother=100116482	# Sarolta Széchenyi de Sárvár-Felsővidek
-							1926.06.14={birth=yes}
-							1950.10.02={add_spouse=100115906}	# Ilona Teleki de Szék
-							1961.01.01={remove_spouse=100115906}
-							1971.11.16={add_spouse=100094860}	# Katalin Freund
-							2003.01.01={death=yes}  # EST.
-						}
-							100117484={ #// G1. László, *Budapest 29.9.1951
-								name=László
-								dynasty=1011003
-								religion=catholic culture=hungarian
-								father=100117481	# Béla Esterházy de Galántha
-								mother=100115906	# Ilona Teleki de Szék
-								1951.09.29={birth=yes}
-							}
-					100117485={ #// E3. Mária Anna Gabriella, *Sárosd 14.4.1894, +Wien 15.6.1980; m.Budapest 4.7.1914 Lajos Gf Szápáry de Muraszombath, Széchysziget et Szapár (*Abony 3.9.1886, +Dobersberg an der Thaya 28.4.1965) $$
+					esterhazy_0167={ #// E2. Erzsébet Jozefine Mária Katalin Gabriella, *Gyömrő 19.11.1888, +Gárdony 1.12.1977
+						name=Erzsébet
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0161	# László Esterházy de Galántha
+						mother=100115921	# Katalin Teleki de Szék
+						1888.11.19={birth=yes}  # Gyömrő
+						1977.12.01={death=yes}  # Gárdony
+					}
+					esterhazy_0168={ #// E3. Mária Anna Gabriella, *Sárosd 14.4.1894, +Wien 15.6.1980; m.Budapest 4.7.1914 Lajos Gf Szápáry de Muraszombath, Széchysziget et Szapár (*Abony 3.9.1886, +Dobersberg an der Thaya 28.4.1965) $$
 						name=Mária
 						female=yes
 						dynasty=1011003
 						religion=catholic culture=hungarian
-						father=100117471	# László Esterházy de Galántha
+						father=esterhazy_0161	# László Esterházy de Galántha
 						mother=100115921	# Katalin Teleki de Szék
 						1894.04.14={birth=yes}  # Sárosd
-						1980.06.15={death=yes}  # Vienna
+						1980.06.15={death=yes}  # Wien
 					}
-			100117487={ #// C7. Angelika, *3.2.1813, +Bakonyszombathely 2.6.1892; m.7.7.1834 Adalbert Gf Lazansky von Bukowa (*1802 +30.10.1839) $$
+				esterhazy_0170={ #// D5. Georgina, *14.2.1847, +15.12.1852
+					name=Georgina
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0158	# László Esterházy de Galántha
+					mother=100119954	# Erzsébet Orczy de Orczi
+					1847.02.14={birth=yes}
+					1852.12.15={death=yes}
+				}
+				esterhazy_0171={ #// D6. Alice, *Sárosd 17.2.1850, +Budapest 21.6.1882; m.Budapest 16.8.1873 Gf Antal Cziraky de Czirak et Denesfalva (*12.6.1850, +11.6.1930) $$
+					name=Alice
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0158	# László Esterházy de Galántha
+					mother=100119954	# Erzsébet Orczy de Orczi
+					1850.02.17={birth=yes}  # Sárosd
+					1882.06.21={death=yes}  # Budapest
+				}
+				esterhazy_0172={ #// D7. Mária Johanna, *Sárosd 9.5.1856, +Rábakecöl 23.11.1940; m.Budapest 4.6.1878 Gf Béla Cziraky de Czirak et Denesfalva (*23.5.1852 +20.3.1911) $$
+					name="Mária Johanna"
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0158	# László Esterházy de Galántha
+					mother=100119954	# Erzsébet Orczy de Orczi
+					1856.05.09={birth=yes}  # Sárosd
+					1940.11.23={death=yes}  # Rábakecöl
+				}
+			esterhazy_0174={ #// C7. Angelika, *3.2.1813, +Bakonyszombathely 2.6.1892; m.7.7.1834 Adalbert Gf Lazansky von Bukowa (*1802 +30.10.1839) $$
 				name=Angelika
 				female=yes
 				dynasty=1011003
 				religion=catholic culture=hungarian
-				father=100117310	# Imre Esterházy de Galántha
-				mother=100088767	# Terézia Palaghy de Balogvár
+				father=esterhazy_0131	# Imre Esterházy de Galántha
+				mother=lowbor2_0927	# Terezia Pálaghy de Balogvar
 				1813.02.03={birth=yes}
-				1892.06.02={death=yes}  # Baonyszombathely
+				1892.06.02={death=yes}  # Bakonyszombathely
 			}
-			100117489={ #// C8. Karolina, *13.4.1815, +Bratislava 23.1.1869; m.Eduard Gf von Rüdiger (*1809)
+			esterhazy_0175={ #// C8. Karolina, *13.4.1815, +Bratislava 23.1.1869; m.Eduard Gf von Rüdiger (*1809)
 				name=Karolina
 				female=yes
 				dynasty=1011003
 				religion=catholic culture=hungarian
-				father=100117310	# Imre Esterházy de Galántha
-				mother=100088767	# Terézia Palaghy de Balogvár
-				1815.01.01={birth=yes}
-				1869.01.23={death=yes}  # Pozsony
+				father=esterhazy_0131	# Imre Esterházy de Galántha
+				mother=lowbor2_0927	# Terezia Pálaghy de Balogvar
+				1815.04.13={birth=yes}
+				1869.01.23={death=yes}  # Bratislava
 			}
-	100117340={ #// A3. Daniel, *1723, +Bratislava 26.11.1759; 1m: 1749 Gfn Borbala Gyulaffy de Ratoth (*1732 +26.1.1755); 2m: 1756 Anna Mária Gfn Erdödy de Monyorókerék et Monoszló (*17.6.1718, +12.2.1761 / 3.4.1807) $$
-		name=Daniel
-		dynasty=1011003
-		religion=catholic culture=hungarian
-		father=100118495	# János Esterházy de Galántha
-		mother=100080562	# GFN Borbala Berényi de Karancsberény
-		1724.01.01={birth=yes}
-		1749.01.01={add_spouse=100084588}	# GFN Borbala Gyulaffy de Rátóth
-		1756.01.01={add_spouse=100116973}	# Anna Maria Erdődy de Monyorókerék et Monoszló
-		1759.01.01={death=yes}
-	}
-		100118483={ #// B3. Terezia, *17.4.1752, +12.11.1826; m.1769 Baron Lajos Révay de Szklabina et Blatnicza (*1739, +Prekopa 4.2.1781) $$
-			name=Terézia
+		esterhazy_0178={ #// B6. Márianna, *Rédecty Veszprém 31.5.1770, +24.11.1836; m.Ernst Gf Pachta von Rayhofen (*1771 +6.7.1822)
+			name=Márianna
 			female=yes
 			dynasty=1011003
 			religion=catholic culture=hungarian
-			father=100117340	# Daniel Esterházy de Galántha
-			mother=100084588	# GFN Borbala Gyulaffy de Rátóth
+			father=esterhazy_0112	# Imre Esterházy de Galántha
+			mother=100024121	# Anna von Abensberg u.Traun
+			1770.05.31={birth=yes}  # Rédecty Veszprém
+			1836.11.24={death=yes}
+		}
+	esterhazy_0179={ #// A3. Daniel, *1723, +Bratislava 26.11.1759; 1m: 1749 Gfn Borbala Gyulaffy de Ratoth (*1732 +26.1.1755); 2m: 1756 Anna Mária Gfn Erdödy de Monyorókerék et Monoszló (*17.6.1718, +12.2.1761 / 3.4.1807) $$
+		name=Daniel
+		dynasty=1011003
+		religion=catholic culture=hungarian
+		father=esterhazy_0024	# János Esterházy de Galántha
+		mother=lowbor2_0798	# GFN Borbala Berényi de Karancsberény
+		1723.01.01={birth=yes}
+		1749.01.01={add_spouse=lowbor2_0999}	# GFN Borbala Gyulaffy de Ratoth
+		1756.01.01={add_spouse=100116973}	# Anna Maria Erdődy de Monyorókerék et Monoszló
+		1759.11.26={death=yes}  # Bratislava
+	}
+		esterhazy_0180={ #// B1. János, *18.10.1754, +Wien 23.2.1840; m.Penczing 10.6.1777 Gfn Ágnes Banffy de Losonc (*19.4.1756, +Wien 14.9.1831) $$
+			name=János
+			dynasty=1011003
+			religion=catholic culture=hungarian
+			father=esterhazy_0179	# Daniel Esterházy de Galántha
+			mother=lowbor2_0999	# GFN Borbala Gyulaffy de Ratoth
+			1754.10.18={birth=yes}
+			1777.06.10={add_spouse=100117619}	# Ágnes Bánffy de Losoncz
+			1840.02.23={death=yes}  # Wien
+		}
+			esterhazy_0181={ #// C1. Ferenc, *Wien 16.3.1778, +Wien 26.2.1855; 1m: 1811 Gfn Franziska Batthyány (*Bratislava 30.9.1792, +Wien 15.9.1831); 2m: 14.6.1837 Gfn Felicitas Sigray de Alsó- et Felsősurány (*Varasd 1813, +Wien 6.6.1857) $$
+				name=Ferenc
+				dynasty=1011003
+				religion=catholic culture=bavarian
+				father=esterhazy_0180	# János Esterházy de Galántha
+				mother=100117619	# Ágnes Bánffy de Losoncz
+				1778.03.16={birth=yes}  # Wien
+				1811.01.01={add_spouse=100115326}	# Franziska Batthyány de Német-Ujvar
+				1837.06.14={add_spouse=lowbor2_1003}	# GFN Felicitas Sigray de Alsó- et Felsősurány
+				1855.02.26={death=yes}  # Wien
+			}
+			esterhazy_0183={ #// C3. Alajos, *19.2.1780, +Hietzing 8.8.1868; m.20.5.1818 Gfn Johanna Batthyány (*1797 +Wien 8.6.1880) $$
+				name=Alajos
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0180	# János Esterházy de Galántha
+				mother=100117619	# Ágnes Bánffy de Losoncz
+				1780.02.19={birth=yes}
+				1818.05.20={add_spouse=100115325}	# Johanna Batthyány de Német-Ujvar
+				1868.08.08={death=yes}  # Hietzing
+			}
+			esterhazy_0184={ #// C4. György Lajos, *Wien 21.7.1781, +Wien 27.4.1865; m.29.9.1808 Karolina Gfn Praschma (*Niemodlin 17.4.1791, +Wien 2.4.1846) $$
+				name="György Lajos"
+				dynasty=1011003
+				religion=catholic culture=bavarian
+				father=esterhazy_0180	# János Esterházy de Galántha
+				mother=100117619	# Ágnes Bánffy de Losoncz
+				1781.07.21={birth=yes}  # Wien
+				1808.09.29={add_spouse=prazma_0052}	# Karoline Praschma von Bilkau
+				1865.04.27={death=yes}  # Wien
+			}
+				esterhazy_0185={ #// D1. György Sandor, *Bratislava 1.7.1809, +Berlin 24.6.1856; m.Paris 7.10.1846 Louise Anne Francoise de Rohan-Chabot (*Paris 23.6.1824, +Wien 10.5.1868), dau.of Fernand de Rohan-Chabot, 9.Duc de Rohan and Josephine Francoise de Gontaut-Biron $$
+					name="György Sandor"
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0184	# György Lajos Esterházy de Galántha
+					mother=prazma_0052	# Karoline Praschma von Bilkau
+					1809.07.01={birth=yes}  # Bratislava
+					1846.10.07={add_spouse=100067557}	# Louise-Anne de Rohan-Chabot
+					1856.06.24={death=yes}  # Berlin
+				}
+					esterhazy_0186={ #// E1. György Lajos Fortunatus Károly József, *Lisboa, Portugal 20.6.1848, +Bakonyoszlop 7.9.1924; m.Wien 7.5.1884 Amalia Ctsa Mosconi-Fogaroli, dau.of Conte Jacopo Mosconi-Fogaroli and Contessa Christina Albertoni-Macherio (*Verona 12.4.1854, +Bakonyoszlop 17.11.1891)
+						name=György
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0185	# György Sandor Esterházy de Galántha
+						mother=100067557	# Louise-Anne de Rohan-Chabot
+						1848.06.20={birth=yes}  # Lisboa Portugal
+						1884.05.07={add_spouse=lowbor2_1007}	# Amalia Mosconi-Fogaroli
+						1924.09.07={death=yes}  # Bakonyoszlop
+					}
+						esterhazy_0187={ #// F1. György Lajos Hugó Jakab József Ignác Ferenc Henrik Mária, *Bakony-Oszlop 17.3.1885, +Bakonyoszlop 3.3.1906
+							name="György Hugó"
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0186	# György Esterházy de Galántha
+							mother=lowbor2_1007	# Amalia Mosconi-Fogaroli
+							1885.03.17={birth=yes}  # Bakony-Oszlop
+							1906.03.03={death=yes}  # Bakonyoszlop
+						}
+						esterhazy_0188={ #// F2. Alajos, *26.5.1888, +4.4.1889
+							name=Alajos
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0186	# György Esterházy de Galántha
+							mother=lowbor2_1007	# Amalia Mosconi-Fogaroli
+							1888.05.26={birth=yes}
+							1889.04.04={death=yes}
+						}
+					esterhazy_0189={ #// E2. Valentina, *Madrid 16.12.1849, +Wien 11.6.1874; m.Wien 21.11.1871 Gf Hugo von Abensberg und Traun (*20.9.1828 +3.8.1904) $$
+						name=Valentina
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=castilian
+						father=esterhazy_0185	# György Sandor Esterházy de Galántha
+						mother=100067557	# Louise-Anne de Rohan-Chabot
+						1849.12.16={birth=yes}  # Madrid
+						1874.06.11={death=yes}  # Wien
+					}
+					esterhazy_0190={ #// E3. Erzsébet Franciska Karolina Mária, *Madrid 19.5.1853, +Brussels 7.4.1917; m.Paris 11.5.1880 Gaston Louis, Cte de Beurges, Seigneur de Vannes
+						name=Erzsébet
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=castilian
+						father=esterhazy_0185	# György Sandor Esterházy de Galántha
+						mother=100067557	# Louise-Anne de Rohan-Chabot
+						1853.05.19={birth=yes}  # Madrid
+						1917.04.07={death=yes}  # Brussels
+					}
+				esterhazy_0191={ #// D2. Károly, *1.10.1820, +committed suicide Wien 6.9.1873
+					name=Károly
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0184	# György Lajos Esterházy de Galántha
+					mother=prazma_0052	# Karoline Praschma von Bilkau
+					1820.10.01={birth=yes}
+					1873.09.06={death=yes}  # committed suicide Wien
+				}
+				esterhazy_0192={ #// D3. Stefánia, *20.8.1812, +Wien 18.11.1887
+					name=Stefánia
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0184	# György Lajos Esterházy de Galántha
+					mother=prazma_0052	# Karoline Praschma von Bilkau
+					1812.08.20={birth=yes}
+					1887.11.18={death=yes}  # Wien
+				}
+			esterhazy_0193={ #// C5. Mihály, *Nagyszeben 9.2.1783, +Bratislava 4.12.1874; m.Budapest 19.4.1817 Antonia Frn Schröffl von Mannsperg und Schöffenheimb (*Brno 3.4.1797, +Bratislava 15.5.1880)
+				name=Mihály
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0180	# János Esterházy de Galántha
+				mother=100117619	# Ágnes Bánffy de Losoncz
+				1783.02.09={birth=yes}  # Nagyszeben
+				1817.04.19={add_spouse=lowbor2_1010}	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+				1874.12.04={death=yes}  # Bratislava
+			}
+				esterhazy_0194={ #// D1. István, *Bratislava 19.10.1822, +Bratislava 30.12.1899; m.Nyitraújlak 21.6.1860 Gizella Bss Jeszenák de Kiralyfia (*16.5.1842, +Bratislava 2.3.1915)
+					name=István
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0193	# Mihály Esterházy de Galántha
+					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+					1822.10.19={birth=yes}  # Bratislava
+					1860.06.21={add_spouse=lowbor2_1011}	# BSS Gizella Jeszenák de Kiralyfia
+					1899.12.30={death=yes}  # Bratislava
+				}
+					esterhazy_0196={ #// E2. János Mihály, *Bratislava 6.12.1864, +Nyitra-Ujlak 2.9.1905; m.Krakow 8.1.1898 Elisabeth Gfn Tarnow-Tarnowska (*Krakow 19.11.1875, +Montrésor, Indre-et-Loire, France 20.10.1955) $$
+						name="János Mihály"
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0194	# István Esterházy de Galántha
+						mother=lowbor2_1011	# BSS Gizella Jeszenák de Kiralyfia
+						1864.12.06={birth=yes}  # Bratislava
+						1898.01.08={add_spouse=100112081}	# Elżbieta Tarnowski
+						1905.09.02={death=yes}  # Nyitra-Ujlak
+					}
+						esterhazy_0197={ #// F1. János István, *Nyitraújlak 14.3.1901, +as political prisoner in Mirow prison, Slovakia 8.3.1957; m.Budapest 15.10.1924 Livia Gfn Serényi de Kisserény (*Budapest 15.2.1903 +Budapest 5.10.1961) $$
+							name="János István"
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0196	# János Mihály Esterházy de Galántha
+							mother=100112081	# Elżbieta Tarnowski
+							1901.03.14={birth=yes}  # Nyitraújlak
+							1924.10.15={add_spouse=100116846}	# Livia Serényi de Kisserény
+							1957.03.08={death=yes}  # as political prisoner in Mirow prison Slovakia
+						}
+							esterhazy_0198={ #// G1. János Károly Mária Gyula István László Hubert József Expeditus, *Wien 10.4.1929; 1m: Wien-Waehring 22.5.1968 (div 4.2.1970) Ursula Straschil (*15.10.1943); 2m: New Delhi 13.5.1971 Francoise Raymond (*Caudron, Landes, France 17.8.1946)
+								name=János
+								dynasty=1011003
+								religion=catholic culture=bavarian
+								father=esterhazy_0197	# János István Esterházy de Galántha
+								mother=100116846	# Livia Serényi de Kisserény
+								1929.04.10={birth=yes}  # Wien
+								1968.05.22={add_spouse=lowbor2_1014}	# Ursula Straschil
+								1970.02.04={remove_spouse=lowbor2_1014}
+								1971.05.13={add_spouse=lowbor2_1015}	# Françoise Raymond
+								2004.01.01={death=yes}  # EST.
+							}
+								esterhazy_0199={ #// H1. Livia Franciska Alice Lujza Ildikó Janine, *Calcutta 9.11.1973
+									name=Livia
+									female=yes
+									dynasty=1011003
+									religion=catholic culture=hungarian
+									father=esterhazy_0198	# János Esterházy de Galántha
+									mother=lowbor2_1015	# Françoise Raymond
+									1973.11.09={birth=yes}  # Calcutta
+								}
+								esterhazy_0200={ #// H2. Ildikó Mária Erzsébet Nancy, *Bordeaux, France 1.12.1976
+									name=Ildikó
+									female=yes
+									dynasty=1011003
+									religion=catholic culture=hungarian
+									father=esterhazy_0198	# János Esterházy de Galántha
+									mother=lowbor2_1015	# Françoise Raymond
+									1976.12.01={birth=yes}
+								}
+							esterhazy_0201={ #// G2. Alice Livia Mária Erzsébet, *Budapest 1.11.1932; m.Wien 14.3.1970 Gioacchino Baron Malfatti di Montetretto (*Wien 29.2.1924) $$
+								name=Alice
+								female=yes
+								dynasty=1011003
+								religion=catholic culture=hungarian
+								father=esterhazy_0197	# János István Esterházy de Galántha
+								mother=100116846	# Livia Serényi de Kisserény
+								1932.11.01={birth=yes}  # Budapest
+								2012.01.01={death=yes}  # EST.
+							}
+						esterhazy_0202={ #// F2. Lujza, *Nyitra-Ujlak 7.5.1899, +Paris 30.3.1966
+							name=Lujza
+							female=yes
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0196	# János Mihály Esterházy de Galántha
+							mother=100112081	# Elżbieta Tarnowski
+							1899.05.07={birth=yes}  # Nyitra-Ujlak
+							1966.03.30={death=yes}  # Paris
+						}
+						esterhazy_0203={ #// F3. Mária Zsofia, *Nyitra-Ujlak 24.6.1904, +Johannesburg, RSA 2.1.1975; m.Krakow 5.6.1932 Franciszek Gf Mycielski (*Przeworsk 5.9.1899, +?) $$
+							name="Mária Zsofia"
+							female=yes
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0196	# János Mihály Esterházy de Galántha
+							mother=100112081	# Elżbieta Tarnowski
+							1904.06.24={birth=yes}  # Nyitra-Ujlak
+							1975.01.02={death=yes}  # Johannesburg RSA
+						}
+					esterhazy_0204={ #// E3. Elemer Pál, *Nyitraújlak 17.9.1866, +Bratislava 11.2.1871
+						name="Elemer Pál"
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0194	# István Esterházy de Galántha
+						mother=lowbor2_1011	# BSS Gizella Jeszenák de Kiralyfia
+						1866.09.17={birth=yes}  # Nyitraújlak
+						1871.02.11={death=yes}  # Bratislava
+					}
+					esterhazy_0205={ #// E4. Gyula, *Bratislava 22.10.1868, +kia Czernowitz 6.6.1916
+						name=Gyula
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0194	# István Esterházy de Galántha
+						mother=lowbor2_1011	# BSS Gizella Jeszenák de Kiralyfia
+						1868.10.22={birth=yes}  # Bratislava
+						1916.06.06={death=yes}  # kia Czernowitz
+					}
+					esterhazy_0206={ #// E5. Gábor, *Nyitaújlak 6.8.1871, +Bratislava 26.2.1882
+						name=Gábor
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0194	# István Esterházy de Galántha
+						mother=lowbor2_1011	# BSS Gizella Jeszenák de Kiralyfia
+						1871.08.06={birth=yes}  # Nyitaújlak
+						1882.02.26={death=yes}  # Bratislava
+					}
+				esterhazy_0209={ #// D4. Antal, *26.5.1825, +Nizza 28.2.1865
+					name=Antal
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0193	# Mihály Esterházy de Galántha
+					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+					1825.05.26={birth=yes}
+					1865.02.28={death=yes}  # Nizza
+				}
+				esterhazy_0210={ #// D5. Ferenc, *7.5.1828, +Theresienfeld 5.3.1861; m.Gainfahrn 19.5.1856 Alojzia Ross (*22.12.1835 +Wien 12.4.1894)
+					name=Ferenc
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0193	# Mihály Esterházy de Galántha
+					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+					1828.05.07={birth=yes}
+					1856.05.19={add_spouse=lowbor2_1018}	# Alojzia Ross
+					1861.03.05={death=yes}  # Theresienfeld
+				}
+					esterhazy_0211={ #// E1. Gyula, *12.4.1857, +Theresienfeld 4.3.1861
+						name=Gyula
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0210	# Ferenc Esterházy de Galántha
+						mother=lowbor2_1018	# Alojzia Ross
+						1857.04.12={birth=yes}
+						1861.03.04={death=yes}  # Theresienfeld
+					}
+					esterhazy_0212={ #// E2. Ferenc, *Wien 9.9.1861, +Koran, Caspian Sea 17.10.1898
+						name=Ferenc
+						dynasty=1011003
+						religion=catholic culture=bavarian
+						father=esterhazy_0210	# Ferenc Esterházy de Galántha
+						mother=lowbor2_1018	# Alojzia Ross
+						1861.09.09={birth=yes}  # Wien
+						1898.10.17={death=yes}  # Koran Caspian Sea
+					}
+					esterhazy_0213={ #// E3. Mária, *Wien 8.5.1859, +Wien 29.8.1926; m.Bratislava 9.9.1883 August Gf von Wydenbruck (*Baden bei Wien 2.8.1857, +Wien 22.11.1905)
+						name=Mária
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=bavarian
+						father=esterhazy_0210	# Ferenc Esterházy de Galántha
+						mother=lowbor2_1018	# Alojzia Ross
+						1859.05.08={birth=yes}  # Wien
+						1926.08.29={death=yes}  # Wien
+					}
+				esterhazy_0214={ #// D6. Lajos, *1835, +1851
+					name=Lajos
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0193	# Mihály Esterházy de Galántha
+					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+					1835.01.01={birth=yes}
+					1851.01.01={death=yes}
+				}
+				esterhazy_0215={ #// D7. Ágnes, *Nagyseben 19.2.1818, +Terni 5.8.1899; m.Bratislava 6.6.1846 Augusto Ruspoli Pr di Cerveteri (*Viginanello 6.6.1816, +Rome 2.7.1882) $$
+					name=Ágnes
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0193	# Mihály Esterházy de Galántha
+					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+					1818.02.19={birth=yes}  # Nagyseben
+					1899.08.05={death=yes}  # Terni
+				}
+				esterhazy_0216={ #// D8. Gizella, *2.4.1819, +15.8.1839
+					name=Gizella
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0193	# Mihály Esterházy de Galántha
+					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+					1819.04.02={birth=yes}
+					1839.08.15={death=yes}
+				}
+				esterhazy_0217={ #// D9. Szerafin, *8.8.1820, +Bratislava 22.9.1878; m.Bratislava 12.12.1843 Lajos Almos Baron Lo Presti di Fontana d'Anglioli (*25.10.1823, +Hosszúpályi 10.4.1878) $$
+					name=Szerafin
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0193	# Mihály Esterházy de Galántha
+					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+					1820.08.08={birth=yes}
+					1843.12.12={add_spouse=100035054}	# Lajos Álmos Lo Presti di Fontana d'Angioli
+					1878.09.22={death=yes}  # Bratislava
+				}
+				esterhazy_0219={ #// D11. Franziska, *19.1.1831, +Graz 12.7.1925; m.Bratislava 29.4.1865 Gf Albig von Khevenhüller-Metsch (*Talheim 19.11.1814, +Graz 14.9.1896) $$
+					name=Franziska
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0193	# Mihály Esterházy de Galántha
+					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+					1831.01.19={birth=yes}
+					1925.07.12={death=yes}  # Graz
+				}
+				esterhazy_0220={ #// D12. Sarolta, *8.10.1834, +Bratislava 27.6.1890
+					name=Sarolta
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0193	# Mihály Esterházy de Galántha
+					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
+					1834.10.08={birth=yes}
+					1890.06.27={death=yes}  # Bratislava
+				}
+			esterhazy_0221={ #// C6. Dénes, *Nagyszeben 7.3.1789, +Kolozsvár 9.2.1862; m.Dés 2.4.1823 Gfn Cecilia Haller de Hallerkö (*Aranykút 28.10.1797, +Kolozsvár 18.1.1873) $$
+				name=Dénes
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0180	# János Esterházy de Galántha
+				mother=100117619	# Ágnes Bánffy de Losoncz
+				1789.03.07={birth=yes}  # Nagyszeben
+				1823.04.02={add_spouse=100118737}	# Cecilia Haller de Hallerkeö
+				1862.02.09={death=yes}  # Kolozsvár
+			}
+				esterhazy_0222={ #// D1. János Nepomuk, *Kolozsvár 23.3.1824, +Kolozsvár 24.6.1898; m.Kolozsvár 26.5.1856 Gfn Juliana Mikó de Hídvég (*Erzsébetváros 3.4.1834 +Kolozsvár 7.6.1912) $$
+					name="János Nepomuk"
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0221	# Dénes Esterházy de Galántha
+					mother=100118737	# Cecilia Haller de Hallerkeö
+					1824.03.23={birth=yes}  # Kolozsvár
+					1856.05.26={add_spouse=100119632}	# Juliana Mikó de Hídvég
+					1898.06.24={death=yes}  # Kolozsvár
+				}
+					esterhazy_0223={ #// E1. Cecilia, *Kolozsvár 16.4.1857, +Kolozsvár 8.6.1946; m.Kolozsvár 18.7.1876 Ernö Frhr Bánffy de Losonc (*Kolozsvár 30.3.1850, +Kolozsvár 18.2.1916) $$
+						name=Cecilia
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0222	# János Nepomuk Esterházy de Galántha
+						mother=100119632	# Juliana Mikó de Hídvég
+						1857.04.16={birth=yes}  # Kolozsvár
+						1946.06.08={death=yes}  # Kolozsvár
+					}
+				esterhazy_0224={ #// D2. Mihály, *Kolozsvár 26/28.5.1825, +Kolozsvár 22/24.8.1922
+					name=Mihály
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0221	# Dénes Esterházy de Galántha
+					mother=100118737	# Cecilia Haller de Hallerkeö
+					1825.05.28={birth=yes}  # Kolozsvár
+					1922.08.24={death=yes}  # Kolozsvár
+				}
+				esterhazy_0225={ #// D3. Kálmán, *Iklód 7.6.1830, +Kolozsvár 9.2.1916; m.Kolozsvár 1.11.1857 Gfn Paulina Bethlen de Bethlen (*Kerlés 13.12.1833 +Kolozsvár 21.6.1925) $$
+					name=Kálmán
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0221	# Dénes Esterházy de Galántha
+					mother=100118737	# Cecilia Haller de Hallerkeö
+					1830.06.07={birth=yes}  # Iklód
+					1857.11.01={add_spouse=100116931}	# Paulina Bethlen de Bethlen
+					1916.02.09={death=yes}  # Kolozsvár
+				}
+					esterhazy_0226={ #// E1. László, *Kolozsvár 10.12.1860, +Kolozsvár 12.12.1860
+						name=László
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0225	# Kálmán Esterházy de Galántha
+						mother=100116931	# Paulina Bethlen de Bethlen
+						1860.12.10={birth=yes}  # Kolozsvár
+						1860.12.12={death=yes}  # Kolozsvár
+					}
+					esterhazy_0227={ #// E2. Denes, *Kolozsvár 25.2.1862, +Budapest 9.5.1895
+						name=Denes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0225	# Kálmán Esterházy de Galántha
+						mother=100116931	# Paulina Bethlen de Bethlen
+						1862.02.25={birth=yes}  # Kolozsvár
+						1895.05.09={death=yes}  # Budapest
+					}
+					esterhazy_0229={ #// E4. Anna, *Gyalu 31.7.1858, +Gyalu 17.11.1892
+						name=Anna
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0225	# Kálmán Esterházy de Galántha
+						mother=100116931	# Paulina Bethlen de Bethlen
+						1858.07.31={birth=yes}  # Gyalu
+						1892.11.17={death=yes}  # Gyalu
+					}
+					esterhazy_0230={ #// E5. Irma, *Kolarovec 10.12.1859, +Kolozsvár 13.6.1921; m.Kolozsvár 22.5.1891 László Makray de Felpest et Vizszentgyörgy (*Szamosújvár 1854, +Felpest 20.10.1915)
+						name=Irma
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0225	# Kálmán Esterházy de Galántha
+						mother=100116931	# Paulina Bethlen de Bethlen
+						1859.12.10={birth=yes}  # Kolarovec
+						1921.06.13={death=yes}  # Kolozsvár
+					}
+					esterhazy_0231={ #// E6. Ágnes, *Gyalu 26.7.1863, +Kolozsvár 28.7.1934; m.Kolozsvár 26.10.1886 Baron Lajos Josika de Branyicska (*3.4.1853 +12.5.1930) $$
+						name=Ágnes
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0225	# Kálmán Esterházy de Galántha
+						mother=100116931	# Paulina Bethlen de Bethlen
+						1863.07.26={birth=yes}  # Gyalu
+						1934.07.28={death=yes}  # Kolozsvár
+					}
+					esterhazy_0232={ #// E7. Paulina, *Gyalu 20.3.1865, +Wien 27.11.1879
+						name=Paulina
+						female=yes
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0225	# Kálmán Esterházy de Galántha
+						mother=100116931	# Paulina Bethlen de Bethlen
+						1865.03.20={birth=yes}  # Gyalu
+						1879.11.27={death=yes}  # Wien
+					}
+				esterhazy_0233={ #// D4. Géza, *Kolozsvár 31.3.1838, +Kolozsvár 30.5.1897; m.30.5.1897 Roza Tothpataki
+					name=Géza
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0221	# Dénes Esterházy de Galántha
+					mother=100118737	# Cecilia Haller de Hallerkeö
+					1838.03.31={birth=yes}  # Kolozsvár
+					1865.01.01={add_spouse=lowbor2_1029}	# Roza Tothpataki
+					1897.05.30={death=yes}  # Kolozsvár
+				}
+					esterhazy_0234={ #// E1. Sandor, legitimized 1870, *Kolozsvár 19.10.1863, +28.10.1907
+						name=Sandor
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						trait=legitimized_bastard
+						father=esterhazy_0233	# Géza Esterházy de Galántha
+						mother=lowbor2_1029	# Roza Tothpataki
+						1863.10.19={birth=yes}  # Kolozsvár
+						1907.10.28={death=yes}
+					}
+					esterhazy_0235={ #// E2. László Esterházy de Kis-Iklod, *before 1867; m.Gizella Sos
+						name=László
+						dynasty=1011003
+						religion=catholic culture=hungarian
+						father=esterhazy_0233	# Géza Esterházy de Galántha
+						mother=lowbor2_1029	# Roza Tothpataki
+						1867.01.01={birth=yes}  # before
+						1893.01.01={add_spouse=lowbor2_1030}	# Gizella Sos
+						1942.01.01={death=yes}  # EST.
+					}
+						esterhazy_0237={ #// F2. Ágnes, *Kolozsvár 21.1.1902, +München 4.4.1956; m.Berlin 30.6.1923 (div 1926) Heinz Frhr Conrad von Eybesfeld (+5.1.1958)
+							name=Ágnes
+							female=yes
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0235	# László Esterházy de Galántha
+							mother=lowbor2_1030	# Gizella Sos
+							1902.01.21={birth=yes}  # Kolozsvár
+							1956.04.04={death=yes}  # München
+						}
+						esterhazy_0238={ #// F3. Zsofia, +after 1959; m.Louis Ludinszky
+							name=Zsofia
+							female=yes
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0235	# László Esterházy de Galántha
+							mother=lowbor2_1030	# Gizella Sos
+							1895.01.01={birth=yes}  # EST.
+							1960.01.01={death=yes}
+						}
+						esterhazy_0239={ #// F4. Ilona, +ca 1958; m.Antal Babits (+after 1970)
+							name=Ilona
+							female=yes
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=esterhazy_0235	# László Esterházy de Galántha
+							mother=lowbor2_1030	# Gizella Sos
+							1897.01.01={birth=yes}  # EST.
+							1958.01.01={death=yes}
+						}
+				esterhazy_0241={ #// D6. Ágnes, *Kolozsvár 17.7.1827, +Kolozsvár 17.9.1899; m.Kolozsvár 17.7.1846 Baron Albert Banffy de Losonc (*Válaszút 11.5.1818, +Kolozsvár 1.2.1886) $$
+					name=Ágnes
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=esterhazy_0221	# Dénes Esterházy de Galántha
+					mother=100118737	# Cecilia Haller de Hallerkeö
+					1827.07.17={birth=yes}  # Kolozsvár
+					1899.09.17={death=yes}  # Kolozsvár
+				}
+			esterhazy_0242={ #// C7. László, *29.6.1790, +Wien 14.1.1883
+				name=László
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0180	# János Esterházy de Galántha
+				mother=100117619	# Ágnes Bánffy de Losoncz
+				1790.06.29={birth=yes}
+				1883.01.14={death=yes}  # Wien
+			}
+			esterhazy_0244={ #// C9. Márianna, *Nagyszeben 23.1.1786, +11.12.1821; m.Wien 4.6.1805 Don Alessandro Ruspoli Pr di Cerveteri (*5.10.1784 +31.10.1842) $$
+				name=Márianna
+				female=yes
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0180	# János Esterházy de Galántha
+				mother=100117619	# Ágnes Bánffy de Losoncz
+				1786.01.23={birth=yes}  # Nagyszeben
+				1821.12.11={death=yes}
+			}
+			esterhazy_0245={ #// C10. Jozefa, *Nagyszeben 12.7.1787, +Wien 23.12.1866
+				name=Jozefa
+				female=yes
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0180	# János Esterházy de Galántha
+				mother=100117619	# Ágnes Bánffy de Losoncz
+				1787.07.12={birth=yes}  # Nagyszeben
+				1866.12.23={death=yes}  # Wien
+			}
+			esterhazy_0246={ #// C11. Ágnes, *Kolozsvár 19.1.1793, +Wien 12.10.1797
+				name=Ágnes
+				female=yes
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=esterhazy_0180	# János Esterházy de Galántha
+				mother=100117619	# Ágnes Bánffy de Losoncz
+				1793.01.19={birth=yes}  # Kolozsvár
+				1797.10.12={death=yes}  # Wien
+			}
+		esterhazy_0249={ #// B3. Terezia, *17.4.1752, +12.11.1826; m.1769 Baron Lajos Révay de Szklabina et Blatnicza (*1739, +Prekopa 4.2.1781) $$
+			name=Terezia
+			female=yes
+			dynasty=1011003
+			religion=catholic culture=hungarian
+			father=esterhazy_0179	# Daniel Esterházy de Galántha
+			mother=lowbor2_0999	# GFN Borbala Gyulaffy de Ratoth
 			1752.04.17={birth=yes}
 			1826.11.12={death=yes}
 		}
-		# V -> B1. János, *18.10.1754, +Wien 23.2.1840; m.Penczing 10.6.1777 Gfn Ágnes Banffy de Losonc (*19.4.1756, +Wien 14.9.1831)
-	100118458={ #// A5. Borbála, *Peresznye 27.9.1725, +Buda 30.3.1786; m.1747 János Gf Csáky de Körösszeg et Adorján (*22.6.1720 +27.10.1795/4.3.1796) $$
+		esterhazy_0250={ #// B4. Borbála, *1753, +18.2.1798; m.Imre Baron Perényi de Perény (+1796) $$
+			name=Borbála
+			female=yes
+			dynasty=1011003
+			religion=catholic culture=hungarian
+			father=esterhazy_0179	# Daniel Esterházy de Galántha
+			mother=lowbor2_0999	# GFN Borbala Gyulaffy de Ratoth
+			1753.01.01={birth=yes}
+			1798.02.18={death=yes}
+		}
+		esterhazy_0251={ #// B5. Jozefa, *1756, +1840; 1m: 1782 László Frhr Mednyansky de Mednye et Medgyes (+1792); 2m: 1798 Johann Gf Praschma (+1822) $$
+			name=Jozefa
+			female=yes
+			dynasty=1011003
+			religion=catholic culture=hungarian
+			father=esterhazy_0179	# Daniel Esterházy de Galántha
+			mother=100116973	# Anna Maria Erdődy de Monyorókerék et Monoszló
+			1756.12.01={birth=yes}
+			1840.01.01={death=yes}
+		}
+		esterhazy_0252={ #// B6. Antonia, *Bratislava 18.6.1759, +1826; m.Moric Gf Apponyi de Nagyappony
+			name=Antonia
+			female=yes
+			dynasty=1011003
+			religion=catholic culture=hungarian
+			father=esterhazy_0179	# Daniel Esterházy de Galántha
+			mother=100116973	# Anna Maria Erdődy de Monyorókerék et Monoszló
+			1759.06.18={birth=yes}  # Bratislava
+			1826.01.01={death=yes}
+		}
+	esterhazy_0253={ #// A4. Zsigmond, *20.3.1736, +1.2.1747
+		name=Zsigmond
+		dynasty=1011003
+		religion=catholic culture=hungarian
+		father=esterhazy_0024	# János Esterházy de Galántha
+		mother=lowbor2_0798	# GFN Borbala Berényi de Karancsberény
+		1736.03.20={birth=yes}
+		1747.02.01={death=yes}
+	}
+	esterhazy_0254={ #// A5. Borbála, *Peresznye 27.9.1725, +Buda 30.3.1786; m.1747 János Gf Csáky de Körösszeg et Adorján (*22.6.1720, +4.3.1796) $$
 		name=Borbála
 		female=yes
 		dynasty=1011003
 		religion=catholic culture=hungarian
-		father=100118495	# János Esterházy de Galántha
-		mother=100080562	# GFN Borbala Berényi de Karancsberény
+		father=esterhazy_0024	# János Esterházy de Galántha
+		mother=lowbor2_0798	# GFN Borbala Berényi de Karancsberény
 		1725.09.27={birth=yes}  # Peresznye
-		1786.04.30={death=yes}  # Buda
+		1786.03.30={death=yes}  # Buda
+	}
+	esterhazy_0255={ #// A6. Anna Mária, *1727, +3.12.1770; m.1765 Gf Ernst Karl Pachta Frhr von Rayhofen (*XII.1718, +Praha 7.2.1803)
+		name="Anna Mária"
+		female=yes
+		dynasty=1011003
+		religion=catholic culture=hungarian
+		father=esterhazy_0024	# János Esterházy de Galántha
+		mother=lowbor2_0798	# GFN Borbala Berényi de Karancsberény
+		1727.01.01={birth=yes}
+		1770.12.03={death=yes}
+	}
+	esterhazy_0256={ #// A7. Zsofia, *1742, +1778; m.1762 Gf János Szunyogh de Jeszenicze et Budetin (*1724 +1798)
+		name=Zsofia
+		female=yes
+		dynasty=1011003
+		religion=catholic culture=hungarian
+		father=esterhazy_0024	# János Esterházy de Galántha
+		mother=lowbor2_0798	# GFN Borbala Berényi de Karancsberény
+		1742.01.01={birth=yes}
+		1778.01.01={death=yes}
+	}
+	esterhazy_0257={ #// A8. Klára, *10.4.1728/1743, +16.4.1795; m.23.10.1763 Eudemio Gf Castiglione (*21.2.1711 +13.8.1773)
+		name=Klára
+		female=yes
+		dynasty=1011003
+		religion=catholic culture=hungarian
+		father=esterhazy_0024	# János Esterházy de Galántha
+		mother=lowbor2_0798	# GFN Borbala Berényi de Karancsberény
+		1728.04.10={birth=yes}
+		1795.04.16={death=yes}  # EST.
 	}
 #esterhazy4
 
@@ -2794,472 +3603,6 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 		1776.08.27={death=yes}
 	}
 #esterhazy5
-
-
-## V
-100117325={ #// János Gf Esterházy, Baron zu Galántha (18 Oct 1754-Vienna 23 Feb 1840); m.Schloß Schönbrunn 10 Jun 1777 Agnes Gfn Bánffy de Losonc (19 Apr 1754-Vienna 14 Sep 1831) $$
-	name=János
-	dynasty=1011003
-	religion=catholic culture=hungarian
-	father=100117340	# Daniel Esterházy de Galántha
-	mother=100084588	# GFN Borbala Gyulaffy de Rátóth
-	1754.10.18={birth=yes}
-	1777.06.10={add_spouse=100117619}	# Ágnes Bánffy de Losoncz
-	1840.02.23={death=yes}  # Vienna
-}
-	100117380={ #// 1a) Ferenc (Vienna 16 Mar 1778-Vienna 26 Feb 1855); m.1st 1811 Franciska Gfn Batthyány de Német-Ujvar (Pozsony 30 Sep 1792-Vienna 15 Sep 1831); m.2nd 14 Jun 1837 Felicitas Gfn Sigray de Alsó et Felsö-Surány (Warasdin 1813-Vienna 6 Jun 1857) $$
-		name=Ferenc
-		dynasty=1011003
-		religion=catholic culture=german
-		father=100117325	# János Esterházy de Galántha
-		mother=100117619	# Ágnes Bánffy de Losoncz
-		1778.03.16={birth=yes}  # Vienna
-		1811.01.01={add_spouse=100115326}	# Franziska Batthyány de Német-Ujvar
-		1837.06.14={add_spouse=100095273}	# GFN Felicitas Sigray de Alsó- et Felsősurány
-		1855.02.26={death=yes}  # Vienna
-	}
-	100117501={ #// 3a) Alajos (19 Feb 1780-Hietzing 8 Aug 1868); m.20 May 1818 Johanna Gfn Batthyány de Német-Ujvar (1797-Vienna 8 Jun 1880) $$
-		name=Alajos
-		dynasty=1011003
-		religion=catholic culture=hungarian
-		father=100117325	# János Esterházy de Galántha
-		mother=100117619	# Ágnes Bánffy de Losoncz
-		1780.02.19={birth=yes}
-		1818.05.20={add_spouse=100115325}	# Johanna Batthyány de Német-Ujvar
-		1868.08.08={death=yes}  # Hietzing
-	}
-	100117509={ #// 4a) György Lajos (Vienna 21 Jul 1781-Vienna 27 Apr 1865); m.29 Sep 1808 Karolina Gfn v.Praschma (17 Apr 1791-Vienna 2 Apr 1846)
-		name="György Lajos"
-		dynasty=1011003
-		religion=catholic culture=german
-		father=100117325	# János Esterházy de Galántha
-		mother=100117619	# Ágnes Bánffy de Losoncz
-		1781.07.21={birth=yes}  # Vienna
-		1808.09.29={add_spouse=100095666}	# GFN Karolina Pražma
-		1865.04.27={death=yes}  # Vienna
-	}
-		100117524={ #// 1b) György Sándor (Pozsony 1 Jul 1809-Berlin 24 Jun 1856); m.Paris 7 Oct 1846 Louise Anne Françoise de Rohan-Chabot (Paris 23 Jun 1824-Vienna 16 May 1868) $$
-			name="György Sándor"
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117509	# György Lajos Esterházy de Galántha
-			mother=100095666	# GFN Karolina Pražma
-			1809.07.01={birth=yes}  # Pozsony
-			1846.10.07={add_spouse=100067557}	# Louise-Anne de Rohan-Chabot
-			1856.06.24={death=yes}  # Berlin
-		}
-			100117547={ #// 1c) György Lajos (Lisbon 20 Jun 1848-8 Sep 1924); m.Vienna 7 May 1884 Amalia Ctsa Mosconi-Fogaroli (Verona 12 Apr 1854-17 Nov 1891)
-				name="György Lajos"
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117524	# György Sándor Esterházy de Galántha
-				mother=100067557	# Louise-Anne de Rohan-Chabot
-				1848.06.20={birth=yes}  # Lisbon
-				1884.05.07={add_spouse=100095094}	# Amalia Mosconi-Fogaroli
-				1924.09.08={death=yes}
-			}
-				100117549={ #// 1d) György Hugo (17 Mar 1885-1924)
-					name="György Hugo"
-					dynasty=1011003
-					religion=catholic culture=hungarian
-					father=100117547	# György Lajos Esterházy de Galántha
-					mother=100095094	# Amalia Mosconi-Fogaroli
-					1885.03.17={birth=yes}
-					1924.01.01={death=yes}
-				}
-			100117550={ #// 2c) Valentina (Madrid 16 Dec 1849-Vienna 11 Jun 1874); m.Vienna 21 Nov 1871 Hugo Gf von Abensperg und Traun (d.Maissau 3 Aug 1904) $$
-				name=Valentina
-				female=yes
-				dynasty=1011003
-				religion=catholic culture=castilian
-				father=100117524	# György Sándor Esterházy de Galántha
-				mother=100067557	# Louise-Anne de Rohan-Chabot
-				1849.12.16={birth=yes}  # Madrid
-				1874.06.11={death=yes}  # Vienna
-			}
-			100117552={ #// 3c) Erzsébet (Madrid 19 May 1853-Brussels 7 Apr 1917); m.Paris 11 May 1880 Gaston Louis Cte de Beurges
-				name=Erzsébet
-				female=yes
-				dynasty=1011003
-				religion=catholic culture=castilian
-				father=100117524	# György Sándor Esterházy de Galántha
-				mother=100067557	# Louise-Anne de Rohan-Chabot
-				1853.05.19={birth=yes}  # Madrid
-				1917.04.07={death=yes}  # Brussels
-			}
-		100117554={ #// 2b) Stefánia (20 Aug 1812-Vienna 18 Nov 1887)
-			name=Stefánia
-			female=yes
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117509	# György Lajos Esterházy de Galántha
-			mother=100095666	# GFN Karolina Pražma
-			1812.08.20={birth=yes}
-			1887.11.18={death=yes}  # Vienna
-		}
-		100117555={ #// 3b) Károly (1 Oct 1820-committed suicide at Vienna 6 Sep 1873)
-			name=Károly
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117509	# György Lajos Esterházy de Galántha
-			mother=100095666	# GFN Karolina Pražma
-			1820.10.01={birth=yes}
-			1873.09.06={death=yes}  # committed suicide at Vienna
-		}
-	100117556={ #// 5a) Mihály (Nagyszeben 9 Feb 1783-Pozsony 4 Dec 1874); m.19 Apr 1817 Antonia Frn Schröffl von Mannsperg und Schöffenheimb (Brünn 3 Apr 1797-Pozsony 15 May 1880)
-		name=Mihály
-		dynasty=1011003
-		religion=catholic culture=hungarian
-		father=100117325	# János Esterházy de Galántha
-		mother=100117619	# Ágnes Bánffy de Losoncz
-		1783.02.09={birth=yes}  # Nagyszeben
-		1817.04.19={add_spouse=100095253}	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
-		1874.12.04={death=yes}  # Pozsony
-	}
-		100117558={ #// 1b) Agnes (19 Feb 1818-Terni 5 Aug 1899); m.Pozsony 6 Jun 1846 Augusto Ruspoli Pr di Cerveteri (d.Rome 2 Jul 1882) $$
-			name=Agnes
-			female=yes
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117556	# Mihály Esterházy de Galántha
-			mother=100095253	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
-			1818.02.19={birth=yes}
-			1899.08.05={death=yes}  # Terni
-		}
-		100117561={ #// 3b) Szerafin (8 Aug 1820-Pozsony 22 Sep 1878); m.Pozsony 12 Dec 1843 Lajos Almos Baron LoPresti di Fontana d'Anglioli (d.10 Apr 1878) $$
-			name=Szerafin
-			female=yes
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117556	# Mihály Esterházy de Galántha
-			mother=100095253	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
-			1820.08.08={birth=yes}
-			1878.09.22={death=yes}  # Pozsony
-		}
-		100117563={ #// 4b) István (19 Oct 1822-Pozsony 30 Dec 1899); m.Nyitra-Ujlak 21 Jun 1860 Gizella Bss Jeszenák de Királyfia (16 May 1842-Pozsony 2 Mar 1915)
-			name=István
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117556	# Mihály Esterházy de Galántha
-			mother=100095253	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
-			1822.10.19={birth=yes}
-			1860.06.21={add_spouse=100094960}	# BSS Gizella Jeszenák de Királyfia
-			1899.12.30={death=yes}  # Pozsony
-		}
-			100117565={ #// 2c) János Mihály (Pozsony 6 Dec 1864-Nyitra-Ujlak 2 Sep 1905); m.Krakow 8 Jan 1898 Elisabeth Gfn Tarnow-Tarnowska (Krakow 19 Nov 1875-Montrésor 28 Oct 1955) $$
-				name=János
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117563	# István Esterházy de Galántha
-				mother=100094960	# BSS Gizella Jeszenák de Királyfia
-				1864.12.06={birth=yes}  # Pozsony
-				1898.01.08={add_spouse=100112081}	# Elzbieta Tarnowski
-				1905.09.02={death=yes}  # Nyitra
-			}
-				100117567={ #// 1d) Lujza (Nyitra-Ujlak 7 May 1899-Paris 30 Mar 1966)
-					name=Lujza
-					female=yes
-					dynasty=1011003
-					religion=catholic culture=hungarian
-					father=100117565	# János Esterházy de Galántha
-					mother=100112081	# Elzbieta Tarnowski
-					1899.05.07={birth=yes}  # Nyitra-Ujlak
-					1966.03.30={death=yes}  # Paris
-				}
-				100117568={ #// 2d) János István (Nyitra-Ujlak 14 Mar 1901-d.as political prisoner in Mirow, Chechoslovakia 8 Mar 1957); m.Budpapest 15 Aug 1924 Livia Gfn Sérényi de Kis-Serény (Budapest 15 Feb 1903-Budapest 5 Oct 1961) $$
-					name=János
-					dynasty=1011003
-					religion=catholic culture=hungarian
-					father=100117565	# János Esterházy de Galántha
-					mother=100112081	# Elzbieta Tarnowski
-					1901.03.14={birth=yes}  # Nyitra-Ujlak
-					1924.08.15={add_spouse=100116846}	# Livia Serényi de Kisserény
-					1957.03.08={death=yes}
-				}
-					100117570={ #// 1e) János Károly (b.Vienna 10 Apr 1929); m.1st Vienna 22 May 1968 (div 1970) Ursula Straschil (b.15 Oct 1943); m.2nd New Delhi 13 May 1971 Françoise Raymond (b.Cauderon 17 Sep 1946)
-						name="János Károly"
-						dynasty=1011003
-						religion=catholic culture=hungarian
-						father=100117568	# János Esterházy de Galántha
-						mother=100116846	# Livia Serényi de Kisserény
-						1929.04.10={birth=yes}
-						1968.05.22={add_spouse=100095308}	# Ursula Straschil
-						1970.01.01={remove_spouse=100095308}
-						1971.05.13={add_spouse=100095205}	# Françoise Raymond
-						2006.01.01={death=yes}  # EST.
-					}
-						100117573={ #// 1f) Livia Françoise (b.Calcutta 9 Nov 1973)
-							name="Livia Françoise"
-							female=yes
-							dynasty=1011003
-							religion=catholic culture=hungarian
-							father=100117570	# János Károly Esterházy de Galántha
-							mother=100095205	# Françoise Raymond
-							1973.11.09={birth=yes}
-						}
-						100117574={ #// 2f) Ildiko Nancy (b.Bordeaux 1 Dec 1976)
-							name="Ildiko Nancy"
-							dynasty=1011003
-							religion=catholic culture=hungarian
-							father=100117570	# János Károly Esterházy de Galántha
-							mother=100095205	# Françoise Raymond
-							1976.12.01={birth=yes}
-						}
-					100117575={ #// 2e) Alice Livia (b.Budapest 1 Nov 1932); m.Vienna 14 Mar 1970 Gioacchino Baron Malfatti di Montetretto $$
-						name=Alice
-						female=yes
-						dynasty=1011003
-						religion=catholic culture=hungarian
-						father=100117568	# János Esterházy de Galántha
-						mother=100116846	# Livia Serényi de Kisserény
-						1932.11.01={birth=yes}
-					}
-				100117577={ #// 3d) Mária Zsofia (Nyitra-Ujlak 24 Jun 1904-2 Jan 1975); m.Krakow 2 Jun 1932 Franciszek Gf Mycielski (Przeworsk 5 Sep 1899-20 Jun 1977) $$
-					name="Mária Zsofia"
-					female=yes
-					dynasty=1011003
-					religion=catholic culture=hungarian
-					father=100117565	# János Esterházy de Galántha
-					mother=100112081	# Elzbieta Tarnowski
-					1904.06.24={birth=yes}  # Nyitra-Ujlak
-					1975.01.02={death=yes}
-				}
-			100117579={ #// 4c) Gyula (Pozsony 22 Oct 1868-Czernowitz 6 Jun 1916)
-				name=Gyula
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117563	# István Esterházy de Galántha
-				mother=100094960	# BSS Gizella Jeszenák de Királyfia
-				1868.10.22={birth=yes}  # Pozsony
-				1916.06.06={death=yes}  # Czernowitz
-			}
-		100117581={ #// 9b) Ferenc (7 May 1828-Theresienfeld nr Vienna 5 Mar 1861); m.Gainfahrn 19 May 1856 Alojzia Ross (22 Dec 1835-Vienna 12 Apr 1894)
-			name=Ferenc
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117556	# Mihály Esterházy de Galántha
-			mother=100095253	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
-			1828.05.07={birth=yes}
-			1856.05.19={add_spouse=100095221}	# Alojzia Ross
-			1861.03.05={death=yes}  # Theresienfeld nr Vienna
-		}
-			100117583={ #// 2c) Mária (Pozsony 8 May 1859-Vienna 29 Aug 1926); m.Pozsony 9 Sep 1883 August Gf von Wydenbruck (d.Vienna 22 Nov 1905)
-				name=Mária
-				female=yes
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117581	# Ferenc Esterházy de Galántha
-				mother=100095221	# Alojzia Ross
-				1859.05.08={birth=yes}  # Pozsony
-				1926.08.29={death=yes}  # Vienna
-			}
-			100117585={ #// 3c) Ferenc (Vienna 9 Sep 1861-Koran, Caspian Sea 17 Oct 1898)
-				name=Ferenc
-				dynasty=1011003
-				religion=catholic culture=german
-				father=100117581	# Ferenc Esterházy de Galántha
-				mother=100095221	# Alojzia Ross
-				1861.09.09={birth=yes}  # Vienna
-				1898.10.17={death=yes}  # Koran Caspian Sea
-			}
-		100117586={ #// 10b) Franziska (19 Jan 1831-12 Jul 1925); m.Pozsony 29 Apr 1865 Albig Gf von Khevenhüller-Metsch (d.Graz 14 Sep 1896) $$
-			name=Franziska
-			female=yes
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117556	# Mihály Esterházy de Galántha
-			mother=100095253	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
-			1831.01.19={birth=yes}
-			1925.07.12={death=yes}
-		}
-		100117588={ #// 11b) Sarolta (8 Oct 1834-Pozsony 27 Jun 1890)
-			name=Sarolta
-			female=yes
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117556	# Mihály Esterházy de Galántha
-			mother=100095253	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
-			1834.10.08={birth=yes}
-			1890.06.27={death=yes}  # Pozsony
-		}
-	100117589={ #// 6a) Marianna (Nagyszeben 23 Jan 1786-11 Dec 1821); m.Vienna 4 Jun 1805 Don Alessandro Ruspoli Pr di Cerveteri (d.31 Oct 1842) $$
-		name=Marianna
-		female=yes
-		dynasty=1011003
-		religion=catholic culture=hungarian
-		father=100117325	# János Esterházy de Galántha
-		mother=100117619	# Ágnes Bánffy de Losoncz
-		1786.01.23={birth=yes}  # Nagyszeben
-		1821.12.11={death=yes}
-	}
-	100117591={ #// 7a) Jozsefa (Nagyszeben 12 Jul 1787-Vienna 23 Dec 1866)
-		name=Jozsefa
-		female=yes
-		dynasty=1011003
-		religion=catholic culture=hungarian
-		father=100117325	# János Esterházy de Galántha
-		mother=100117619	# Ágnes Bánffy de Losoncz
-		1787.07.12={birth=yes}  # Nagyszeben
-		1866.12.23={death=yes}  # Vienna
-	}
-	100117592={ #// 8a) Dénes (Nagyszeben 7 Mar 1789-Kolozsvár 9 Feb 1862); m.Dés 2 Apr 1823 Cecilia Gfn Haller de Hallerkö (Aranykut 28 Oct 1797-Kolozsvár 18 Jan 1873) $$
-		name=Dénes
-		dynasty=1011003
-		religion=catholic culture=hungarian
-		father=100117325	# János Esterházy de Galántha
-		mother=100117619	# Ágnes Bánffy de Losoncz
-		1789.03.07={birth=yes}  # Nagyszeben
-		1823.04.02={add_spouse=100118737}	# Cecilia Haller de Hallerkeö
-		1862.02.09={death=yes}  # Kolozsvár
-	}
-		100117594={ #// 1b) János (Kolozsvár 23 Mar 1824-Kolozsvár 24 Jun 1898); m.Kolozsvár 26 May 1856 Juliana Gfn Mikó de Hidvég (Erzsébetváros 3 Apr 1834-Kolozsvár 7 Jun 1912) $$
-			name=János
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117592	# Dénes Esterházy de Galántha
-			mother=100118737	# Cecilia Haller de Hallerkeö
-			1824.03.23={birth=yes}  # Kolozsvár
-			1856.05.26={add_spouse=100119632}	# Juliana Mikó de Hídvég
-			1898.06.24={death=yes}  # Kolozsvár
-		}
-			100117596={ #// 1c) Cecilia (Kolozsvár 16 Apr 1857-Kolozsvár 8 Jun 1946); m.Kolozsvár 18 Jul 1876 Ernő Frhr Bánffy de Losonc (d.Kolozsvár 17 Feb 1916) $$
-				name=Cecília
-				female=yes
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117594	# János Esterházy de Galántha
-				mother=100119632	# Juliana Mikó de Hídvég
-				1857.04.16={birth=yes}  # Kolozsvár
-				1946.06.08={death=yes}  # Kolozsvár
-			}
-		100117598={ #// 2b) Mihály (Kolozsvár 28 May 1825-Kolozsvár 22 Aug 1922)
-			name=Mihály
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117592	# Dénes Esterházy de Galántha
-			mother=100118737	# Cecilia Haller de Hallerkeö
-			1825.05.28={birth=yes}  # Kolozsvár
-			1922.08.22={death=yes}  # Kolozsvár
-		}
-		100117599={ #// 4b) Agnes (Kolozsvár 17 Jul 1827-Kolozsvár 17 Sep 1899); m.Kolozsvár 7 Jul 1846 Albert Frhr Banffy de Losonc (d.Kolozsvár 1 Feb 1886) $$
-			name=Agnes
-			female=yes
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117592	# Dénes Esterházy de Galántha
-			mother=100118737	# Cecilia Haller de Hallerkeö
-			1827.07.17={birth=yes}  # Kolozsvár
-			1899.09.17={death=yes}  # Kolozsvár
-		}
-		100117601={ #// 5b) Kálmán (Nagy-Iklód 7 Jun 1830-Kolozsvár 9 Feb 1916); m.Kerlés 1 Nov 1857 Paulina Gfn Bethlen de Bethlen (Kerlés 13 Dec 1833-Kolozsvár 21 Jun 1925) $$
-			name=Kálmán
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117592	# Dénes Esterházy de Galántha
-			mother=100118737	# Cecilia Haller de Hallerkeö
-			1830.06.07={birth=yes}  # Nagy-Iklód
-			1857.11.01={add_spouse=100116931}	# Paulina Bethlen de Bethlen
-			1916.02.09={death=yes}  # Kolozsvár
-		}
-			100117603={ #// 1c) Anna (Gyalu 31 Jul 1858-Gyalu 17 Nov 1892)
-				name=Anna
-				female=yes
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117601	# Kálmán Esterházy de Galántha
-				mother=100116931	# Paulina Bethlen de Bethlen
-				1858.07.31={birth=yes}  # Gyalu
-				1892.11.17={death=yes}  # Gyalu
-			}
-			100117604={ #// 2c) Irma (Kolozsvár 10 Dec 1859-Kolozsvár 13 Jun 1921); m.Kolozsvár 19 May 1891 László Makray de Felpestes et Vizi-Szentgyörgy
-				name=Irma
-				female=yes
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117601	# Kálmán Esterházy de Galántha
-				mother=100116931	# Paulina Bethlen de Bethlen
-				1859.12.10={birth=yes}  # Kolozsvár
-				1921.06.13={death=yes}  # Kolozsvár
-			}
-			100117606={ #// 4c) Dénes (Kolozsvár 25 Feb 1862-Byudapest 9 May 1895)
-				name=Dénes
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117601	# Kálmán Esterházy de Galántha
-				mother=100116931	# Paulina Bethlen de Bethlen
-				1862.02.25={birth=yes}  # Kolozsvár
-				1895.05.09={death=yes}  # Byudapest
-			}
-			100117607={ #// 5c) Agnes (Gyalu 28 Jul 1866-Kolozsvár 28 Jul 1934); m.Kolozsvár 26 Oct 1886 Lajos Baron Jósika de Branyicska (d.Kolozsvár 12 May 1930) $$
-				name=Ágnes
-				female=yes
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117601	# Kálmán Esterházy de Galántha
-				mother=100116931	# Paulina Bethlen de Bethlen
-				1866.07.28={birth=yes}  # Gyalu
-				1934.07.28={death=yes}  # Kolozsvár
-			}
-		100117609={ #// 6b) Géza (Kolozsvár 31 Mar 1838-Kolozsvár 30 May 1897); m.30 May 1897 Roza Tothpataki
-			name=Géza
-			dynasty=1011003
-			religion=catholic culture=hungarian
-			father=100117592	# Dénes Esterházy de Galántha
-			mother=100118737	# Cecilia Haller de Hallerkeö
-			1838.03.31={birth=yes}  # Kolozsvár
-			1865.01.01={add_spouse=100095352}	# Roza Tothpataki
-			1897.05.30={death=yes}  # Kolozsvár
-		}
-			100117611={ #// 1c) Sándor, legitimized 1870 (Kolozsvár 19 Oct 1863-28 Oct 1907)
-				name=Sándor
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				trait=legitimized_bastard
-				father=100117609	# Géza Esterházy de Galántha
-				1863.10.19={birth=yes}  # Kolozsvár
-				1907.10.28={death=yes}
-			}
-			100117612={ #// 2c) László Esterházy de Kis-Iklód (b.before 1867); m.Gizella Sós
-				name=László
-				dynasty=1011003
-				religion=catholic culture=hungarian
-				father=100117609	# Géza Esterházy de Galántha
-				mother=100095352	# Roza Tothpataki
-				1867.01.01={birth=yes}
-				1941.01.01={death=yes}  # EST.
-			}
-				100117614={ #// 1d) Agnes (Kolozsvár 21 Jan 1902-München 4 Apr 1956); m.Berlin 30 Jun 1923 (div 1926) Heinz Frhr Conrad von Eybesfeld (d.5 Jan 1958)
-					name=Agnes
-					female=yes
-					dynasty=1011003
-					religion=catholic culture=hungarian
-					father=100117612	# László Esterházy de Galántha
-					1902.01.21={birth=yes}  # Kolozsvár
-					1956.04.04={death=yes}  # München
-				}
-				100117616={ #// 3d) Zsófia (d.Zürich after 1959); m.Louis Ludinszky
-					name=Zsófia
-					female=yes
-					dynasty=1011003
-					religion=catholic culture=hungarian
-					father=100117612	# László Esterházy de Galántha
-					1904.01.01={birth=yes}
-					1960.01.01={death=yes}
-				}
-				100117618={ #// 4d) Ilona (d.ca 1958); m.Antal Babits (d.after 1970)
-					name=Ilona
-					female=yes
-					dynasty=1011003
-					religion=catholic culture=hungarian
-					father=100117612	# László Esterházy de Galántha
-					1906.01.01={birth=yes}
-					1958.01.01={death=yes}
-				}
-#1784.10.18={holder=100117325} # János Gf Esterházy
-#1840.02.23={holder=100117380} # 1a) Ferenc 
-#1855.02.26={holder=100117501} # 3a) Alajos 
-#1868.08.08={holder=100117547} # 1c) György Lajos 
-## V
 
 
 ## VI

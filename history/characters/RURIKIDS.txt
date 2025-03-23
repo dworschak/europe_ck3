@@ -816,6 +816,14 @@
 									1370.01.01={birth=yes}  # EST.
 									1440.01.01={death=yes}
 								}
+									rurik_1306={ #// I2. ANNA Semënovna (-1 Dec 1411).  m (1408) as his first wife, IAROSLAV Vladimirovich Prince of Iaroslavich, son of VLADIMIR Andreievich "Khrobry/the Brave" Prince of Sierpukhov & his wife Ielena of Lithuania (-16 Aug 1426). 
+										name="Анна Семёновна of Novlensk"
+										female=yes
+										religion=orthodox culture=russian
+										father=rurik_0306
+										1390.01.01={birth=yes}  # EST.
+										1411.12.01={death=yes}
+									}
 								rurik_0307={ #// H3. Dmitriy "Меньшой", Pr of Zaozersk, fl 1434
 									name=Дмитрий
 									dynasty=70
@@ -1541,7 +1549,7 @@
 						father=rurik_0234	# Владимир Рюрикович
 						mother=jagelo_0122	# Helena Jagiełło
 						1389.01.18={birth=yes}
-						1408.01.01={add_spouse=lowborn_9658}	# Анна Семёновна of Novlensk
+						1408.01.01={add_spouse=rurik_1306}	# Анна Семёновна of Novlensk
 						1415.01.01={add_spouse=romanov_0073}	# Мария Фёдоровна Romanov
 						1426.01.01={death=yes}  # of plague
 					}
@@ -3564,7 +3572,7 @@ odoevsky_0070={ #// Pr Ivan, +after 1527
 							dynasty_house=rurik_odoevsky
 							religion=orthodox culture=russian
 							father=odoevsky_0056	# Алексей Никитич Одоевский
-							mother=lowborn_0628	# Ульяна Ивановна Голицын
+							mother=lowborn_0628	# PSS Ульяна Ивановна Ромодановский
 							1646.01.01={birth=yes}  # EST.
 							1677.08.25={death=yes}
 						}
@@ -4901,7 +4909,7 @@ barjat_0001={ # Дмитрий Всеволодович Торусский
 								father=100019953	# Юрий Никитич Барятинский
 								mother=100094176	# Степанида Васильевна Грязново
 								1655.01.01={birth=yes}
-								1677.01.01={add_spouse=100094570}	# Анна Владимировна Злобин
+								1677.01.01={add_spouse=100094570}	# Анна Владимировна Злобина
 								1685.01.01={add_spouse=100094607}	# PSS Анна Даниловна Велико-Гагин
 								1696.01.01={death=yes}
 							}
@@ -4911,7 +4919,7 @@ barjat_0001={ # Дмитрий Всеволодович Торусский
 									dynasty_house=rurik_barjatinskij
 									religion=orthodox culture=russian
 									father=100019952	# Фёдор Юрьевич Барятинский
-									mother=100094570	# Анна Владимировна Злобин
+									mother=100094570	# Анна Владимировна Злобина
 									1678.01.01={birth=yes}
 									1753.01.01={death=yes}  # EST.
 								}
@@ -6408,7 +6416,7 @@ barjat_0001={ # Дмитрий Всеволодович Торусский
 												father=100019872	# Пётр Петрович Барятинский
 												mother=100102286	# PSS Мария Петровна Волконский
 												1790.01.01={birth=yes}
-												1809.01.01={add_spouse=100102287}	# Ксения Александровна Sunbulov
+												1809.01.01={add_spouse=100102287}	# Ксения Александровна Сунбулова
 												1861.01.01={death=yes}  # EST.
 											}
 												100019874={ #// 1l) Nikolai (Rjasan 8 Mar 1809-d.after 1870); m.Pss Ljubow Bariatisky (d.1858) $$
@@ -6416,7 +6424,7 @@ barjat_0001={ # Дмитрий Всеволодович Торусский
 													dynasty_house=rurik_barjatinskij
 													religion=orthodox culture=russian
 													father=100019873	# Андрей Петрович Барятинский
-													mother=100102287	# Ксения Александровна Sunbulov
+													mother=100102287	# Ксения Александровна Сунбулова
 													1809.03.08={birth=yes}  # Rjasan
 													1834.01.01={add_spouse=100019831}	# Любовь Степановна Барятинский
 													1871.01.01={death=yes}
@@ -6467,7 +6475,7 @@ barjat_0001={ # Дмитрий Всеволодович Торусский
 													dynasty_house=rurik_barjatinskij
 													religion=orthodox culture=russian
 													father=100019873	# Андрей Петрович Барятинский
-													mother=100102287	# Ксения Александровна Sunbulov
+													mother=100102287	# Ксения Александровна Сунбулова
 													1816.12.04={birth=yes}
 													1871.05.30={death=yes}
 												}
@@ -6811,7 +6819,7 @@ obolensky_0001={ #// Prince Ivan Konstantinovich of Obolensk (fl 1380)
 									1683.01.01={add_spouse=lowborn_1514}	# Анна Темкин
 									1692.12.01={death=yes}  # EST.
 								}
-									obolensky_0085={ #// 1i) Aleksei (20 May 1684-2 Jan 1760); m.Anna Wassilievna Priklonsky (2 Feb 1690-30 Mar 1759)
+									obolensky_0085={ #// 1i) Aleksei Obolensky-Bely (20 May 1684-2 Jan 1760); m.Anna Wassilievna Priklonsky (2 Feb 1690-30 Mar 1759)
 										name=Алексей
 										dynasty_house=rurik_obolensky
 										religion=orthodox culture=russian
@@ -11493,12 +11501,12 @@ obolensky_0001={ #// Prince Ivan Konstantinovich of Obolensk (fl 1380)
 }
 					100016887={ #// 4e) Vera (1815-5 Feb 1854); m.Nikolai Matweievich Dashkov (1797-    )
 						name=Вера
+						female=yes
 						dynasty_house=rurik_obolensky
 						religion=orthodox culture=russian
 						father=100016659	# Дмитрий Николаевич Оболенский
 						mother=100081948	# Елизавета Дмитриевна Дашкова
 						1815.01.01={birth=yes}
-						1840.01.01={add_spouse=100081949}	# Николай Матвеевна Дашков
 						1854.02.05={death=yes}
 					}
 				100016790={ #// 6d) Maria; m.1775 Pr Alexei Galitzine $$
@@ -12259,7 +12267,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 											father=100015509	# Михаил Иванович Долгорукий
 											mother=100015189	# Анна Николаевна Строганов
 											1764.04.07={birth=yes}  # Moskwa
-											1787.01.31={add_spouse=100090329}	# Евгения Сергеевна Смирнов
+											1787.01.31={add_spouse=100090329}	# Евгения Сергеевна Смирнова
 											1807.01.13={add_spouse=100080631}	# Аграфена Алексеевна Безобразова
 											1823.12.04={death=yes}  # Moskwa
 										}
@@ -12268,7 +12276,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 												dynasty_house=rurik_dolgoruky
 												religion=orthodox culture=russian
 												father=100015508	# Иван Михайлович Долгорукий
-												mother=100090329	# Евгения Сергеевна Смирнов
+												mother=100090329	# Евгения Сергеевна Смирнова
 												1787.02.21={birth=yes}
 												1812.01.01={add_spouse=100016067}	# Елизавета Петровна Голицын
 												1845.02.08={death=yes}
@@ -12278,7 +12286,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 												dynasty_house=rurik_dolgoruky
 												religion=orthodox culture=russian
 												father=100015508	# Иван Михайлович Долгорукий
-												mother=100090329	# Евгения Сергеевна Смирнов
+												mother=100090329	# Евгения Сергеевна Смирнова
 												1793.06.07={birth=yes}
 												1818.01.01={add_spouse=100086913}	# Елена Ивановна Koloshin
 												1851.01.01={add_spouse=100080756}	# BSS Анна Лвовна Bode
@@ -12290,7 +12298,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 												dynasty_house=rurik_dolgoruky
 												religion=orthodox culture=russian
 												father=100015508	# Иван Михайлович Долгорукий
-												mother=100090329	# Евгения Сергеевна Смирнов
+												mother=100090329	# Евгения Сергеевна Смирнова
 												1794.08.11={birth=yes}  # Moskwa
 												1877.12.22={death=yes}
 											}
@@ -12299,7 +12307,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 												dynasty_house=rurik_dolgoruky
 												religion=orthodox culture=russian
 												father=100015508	# Иван Михайлович Долгорукий
-												mother=100090329	# Евгения Сергеевна Смирнов
+												mother=100090329	# Евгения Сергеевна Смирнова
 												1797.08.10={birth=yes}
 												1844.01.09={add_spouse=100083242}	# Мария Ивановна Des-Wort-Selt-Romel
 												1854.01.01={add_spouse=100035476}	# Софья Никаноровна Хитрово
@@ -12341,7 +12349,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 												dynasty_house=rurik_dolgoruky
 												religion=orthodox culture=russian
 												father=100015508	# Иван Михайлович Долгорукий
-												mother=100090329	# Евгения Сергеевна Смирнов
+												mother=100090329	# Евгения Сергеевна Смирнова
 												1800.06.18={birth=yes}
 												1819.11.16={death=yes}
 											}
@@ -12350,7 +12358,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 												dynasty_house=rurik_dolgoruky
 												religion=orthodox culture=russian
 												father=100015508	# Иван Михайлович Долгорукий
-												mother=100090329	# Евгения Сергеевна Смирнов
+												mother=100090329	# Евгения Сергеевна Смирнова
 												1802.05.19={birth=yes}
 												1826.09.19={death=yes}  # Livorno
 											}
@@ -12636,7 +12644,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 										religion=orthodox culture=russian
 										father=100015217	# Алексей Алексеевич Долгорукий
 										1755.01.01={birth=yes}
-										1780.01.01={add_spouse=100091069}	# Екатерина Степановна Tregubov
+										1780.01.01={add_spouse=100091069}	# Екатерина Степановна Трегубов
 										1825.01.01={death=yes}  # EST.
 									}
 										100015236={ #// 1j) Aleksander (1787); m.1810 Css Anastasia Alekseievna Sheremetev (19 Apr 1784-31 Mar 1823) $$
@@ -12644,7 +12652,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 											dynasty_house=rurik_dolgoruky
 											religion=orthodox culture=russian
 											father=100015235	# Павел Алексеевич Долгорукий
-											mother=100091069	# Екатерина Степановна Tregubov
+											mother=100091069	# Екатерина Степановна Трегубов
 											1787.01.01={birth=yes}
 											1810.01.01={add_spouse=100016429}	# Анастасия Алексеевна Шереметев
 											1858.01.01={death=yes}  # EST.
@@ -12694,7 +12702,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 											dynasty_house=rurik_dolgoruky
 											religion=orthodox culture=russian
 											father=100015235	# Павел Алексеевич Долгорукий
-											mother=100091069	# Екатерина Степановна Tregubov
+											mother=100091069	# Екатерина Степановна Трегубов
 											1794.01.01={birth=yes}
 											1820.01.09={add_spouse=100090579}	# Александра Петровна Степанов
 											1836.11.21={death=yes}
@@ -13529,7 +13537,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 													father=100015320	# Михаил Михайлович Долгорукий
 													mother=100093841	# Вера Гавриловна Vishnuevsky
 													1844.02.24={birth=yes}
-													1867.01.01={add_spouse=100090284}	# Мария Ивановна Sinyelnikov
+													1867.01.01={add_spouse=100090284}	# Мария Ивановна Синельников
 													1882.01.01={remove_spouse=100090284}
 													1883.08.21={add_spouse=100091126}	# Мария Яковлевна Tutkevich
 													1915.01.01={add_spouse=100080970}	# Степанида Семёновна Broido
@@ -13541,7 +13549,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 														dynasty_house=rurik_dolgoruky
 														religion=orthodox culture=russian
 														father=100015329	# Анатолий Михайлович Долгорукий
-														mother=100090284	# Мария Ивановна Sinyelnikov
+														mother=100090284	# Мария Ивановна Синельников
 														1868.01.01={birth=yes}
 														1927.01.01={death=yes}
 													}
@@ -13551,7 +13559,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 														dynasty_house=rurik_dolgoruky
 														religion=orthodox culture=russian
 														father=100015329	# Анатолий Михайлович Долгорукий
-														mother=100090284	# Мария Ивановна Sinyelnikov
+														mother=100090284	# Мария Ивановна Синельников
 														1875.01.07={birth=yes}
 														1948.12.26={death=yes}  # Perugia
 													}
@@ -13561,7 +13569,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 														dynasty_house=rurik_dolgoruky
 														religion=orthodox culture=russian
 														father=100015329	# Анатолий Михайлович Долгорукий
-														mother=100090284	# Мария Ивановна Sinyelnikov
+														mother=100090284	# Мария Ивановна Синельников
 														1881.01.01={birth=yes}
 														1956.01.01={death=yes}  # EST.
 													}
@@ -14137,7 +14145,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 												father=100015395	# Сергей Николаевич Долгорукий
 												mother=100093644	# CSS Екатерина Васильев
 												1809.05.23={birth=yes}
-												1831.01.20={add_spouse=100081063}	# Ольга Александровна Bulgakov
+												1831.01.20={add_spouse=100081063}	# Ольга Александровна Булгакова
 												1873.12.04={death=yes}
 											}
 												100015397={ #// 1l) Aleksandra (Moskwa 9 Nov 1831); m.3 Jun 1878 Nikolai Lvov (d.1890)
@@ -14146,7 +14154,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 													dynasty_house=rurik_dolgoruky
 													religion=orthodox culture=russian
 													father=100015396	# Александр Сергеевич Долгорукий
-													mother=100081063	# Ольга Александровна Bulgakov
+													mother=100081063	# Ольга Александровна Булгакова
 													1831.11.09={birth=yes}  # Moskwa
 													1904.01.01={death=yes}  # EST.
 												}
@@ -14155,9 +14163,9 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 													dynasty_house=rurik_dolgoruky
 													religion=orthodox culture=russian
 													father=100015396	# Александр Сергеевич Долгорукий
-													mother=100081063	# Ольга Александровна Bulgakov
-													1835.01.01={birth=yes}
-													1860.01.01={add_spouse=100080429}	# Мария Ивановна Базилевский
+													mother=100081063	# Ольга Александровна Булгакова
+													1833.02.26={birth=yes}
+													1860.01.01={add_spouse=100080429}	# Мария Ивановна Базилевская
 													1873.01.01={death=yes}
 												}
 											100015399={ #// 2k) Nadezhda (8 Sep 1811-16 Feb 1880); m.Sergei Pashkov (d.1883)
@@ -14354,7 +14362,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 									father=100015392	# Пётр Михайлович Долгорукий
 									mother=100020506	# Анна Ивановна Бутурлин
 									1698.01.01={birth=yes}
-									1730.01.01={add_spouse=100086811}	# Екатерина Александровна Kikin
+									1730.01.01={add_spouse=100086811}	# Екатерина Александровна Кикин
 									1777.01.01={death=yes}  # EST.
 								}
 									100015419={ #// 1i) Natalia (24 Aug 1731-21 Jan 1802); m.2 Feb 1747 Pr Boris Golizyn (d.14 Feb 1761) $$
@@ -14363,7 +14371,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 										dynasty_house=rurik_dolgoruky
 										religion=orthodox culture=russian
 										father=100015418	# Александр Петрович Долгорукий
-										mother=100086811	# Екатерина Александровна Kikin
+										mother=100086811	# Екатерина Александровна Кикин
 										1731.08.24={birth=yes}
 										1802.01.21={death=yes}
 									}
@@ -14612,7 +14620,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 								mother=100089293	# Мария Васильевна Пушкина
 								1667.01.01={birth=yes}
 								1690.01.01={add_spouse=kurakin_0017}	# Мария Фёдоровна Куракин
-								1696.01.01={add_spouse=100094054}	# Анна Ивановна Злобин
+								1696.01.01={add_spouse=100094054}	# Анна Ивановна Злобина
 								1715.01.01={add_spouse=100016409}	# Анна Петровна Шереметев
 								1746.02.11={death=yes}
 							}
@@ -15289,7 +15297,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 							father=100017940	# Дмитрий Фёдорович Щербатов
 							mother=100018998	# Прасковья Фёдоровна Волконский
 							1641.01.01={birth=yes}
-							1687.01.01={add_spouse=100097596}	# Ксения Борисовна Змеев
+							1687.01.01={add_spouse=100097596}	# Ксения Борисовна Змеева
 							1692.01.01={add_spouse=100097597}	# Дарья Васильевна Панина
 							1711.01.01={death=yes}
 						}
@@ -15298,7 +15306,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 								dynasty_house=rurik_shcherbatov
 								religion=orthodox culture=russian
 								father=100017941	# Андрей Дмитриевич Щербатов
-								mother=100097596	# Ксения Борисовна Змеев
+								mother=100097596	# Ксения Борисовна Змеева
 								1688.01.01={birth=yes}
 								1727.01.01={add_spouse=100019995}	# Аграфена Александровна Прозоровский
 								1762.12.24={death=yes}
@@ -15430,7 +15438,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 								dynasty_house=rurik_shcherbatov
 								religion=orthodox culture=russian
 								father=100017941	# Андрей Дмитриевич Щербатов
-								mother=100097596	# Ксения Борисовна Змеев
+								mother=100097596	# Ксения Борисовна Змеева
 								1689.01.01={birth=yes}
 								1764.01.01={death=yes}	# EST.
 							}
@@ -16496,7 +16504,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 											father=100017967	# Александр Петрович Щербатов
 											mother=100097626	# Елизавета Михайловна Сафонов
 											1776.01.01={birth=yes}
-											1798.01.01={add_spouse=100097629}	# Мария Петровна Bulgakov
+											1798.01.01={add_spouse=100097629}	# Мария Петровна Булгакова
 											1801.01.01={add_spouse=odoevsky_0043}	# Прасковья Сергеевна Одоевский
 											1834.08.16={death=yes}
 										}
@@ -16505,7 +16513,7 @@ obolensky_0012={ #// 4b) Ivan Repnja, d.1526; his sons took the name Repnin-Obol
 												dynasty_house=rurik_shcherbatov
 												religion=orthodox culture=russian
 												father=100017970	# Александр Александрович Щербатов
-												mother=100097629	# Мария Петровна Bulgakov
+												mother=100097629	# Мария Петровна Булгакова
 												1800.03.23={birth=yes}  # Kiev
 												1832.01.01={add_spouse=100016105}	# Зинаида Павловна Голицын
 												1863.02.05={death=yes}
@@ -19587,7 +19595,7 @@ mystchetsky_0001={ #// Prince Ivan Ivanovich Mystchetzky
 												father=100018961	# Григорий Иванович Волконский
 												mother=100100830	# Екатерина Платоновна Сумароков
 												1803.01.01={birth=yes}
-												1828.01.01={add_spouse=100101030}	# Екатерина Михайловна Shishmarev
+												1828.01.01={add_spouse=100101030}	# Екатерина Михайловна Шишмарёва
 												1857.01.14={death=yes}
 											}
 												100018982={ #// 2l) Nikolai (1842-ca 1896); m.1st Jelisaveta Constantinovna Uschakov; m.2nd Aleksandra Apollovna Markovich
@@ -19595,7 +19603,7 @@ mystchetsky_0001={ #// Prince Ivan Ivanovich Mystchetzky
 													dynasty_house=rurik_volkonsky
 													religion=orthodox culture=russian
 													father=100018980	# Пётр Григорьевич Волконский
-													mother=100101030	# Екатерина Михайловна Shishmarev
+													mother=100101030	# Екатерина Михайловна Шишмарёва
 													1842.01.01={birth=yes}
 													1867.01.01={add_spouse=100101055}	# Елизавета Константиновна Ушакова
 													1880.01.01={add_spouse=100101112}	# Александра Apollovna Markovich
@@ -19646,7 +19654,7 @@ mystchetsky_0001={ #// Prince Ivan Ivanovich Mystchetzky
 													dynasty_house=rurik_volkonsky
 													religion=orthodox culture=russian
 													father=100018980	# Пётр Григорьевич Волконский
-													mother=100101030	# Екатерина Михайловна Shishmarev
+													mother=100101030	# Екатерина Михайловна Шишмарёва
 													1846.01.01={birth=yes}  # EST.
 													1937.10.05={death=yes}  # Mentone
 												}
@@ -24081,7 +24089,7 @@ putiatin_0001={ #// Prince Ivan Semjonovich Drutzkoi-Putjata (fl 1466)
 																father=putiatin_0080	# Павел Арсеньевич Путятин
 																mother=lowborn_0850	# Ольга Ивановна Шабельский
 																1870.05.21={birth=yes}
-																1896.01.01={add_spouse=lowborn_0852}	# Екатерина Павловна Zelenoj
+																1896.01.01={add_spouse=lowborn_0852}	# Екатерина Павловна Зеленой
 																1936.05.14={death=yes}  # Malta
 															}
 															putiatin_0082={ #// 2o) Pawel (17 Jun 1872-Paris 20 Sep 1943); m.1898 Olga Pavlovna Zelenoj (d.after 1909)
@@ -24091,7 +24099,7 @@ putiatin_0001={ #// Prince Ivan Semjonovich Drutzkoi-Putjata (fl 1466)
 																father=putiatin_0080	# Павел Арсеньевич Путятин
 																mother=lowborn_0850	# Ольга Ивановна Шабельский
 																1872.06.17={birth=yes}
-																1898.01.01={add_spouse=lowborn_0853}	# Ольга Павловна Zelenoj
+																1898.01.01={add_spouse=lowborn_0853}	# Ольга Павловна Зеленой
 																1943.09.20={death=yes}  # Paris
 															}
 																putiatin_0083={ #// 1p) Nadezhda (29 Dec 1903-    )
@@ -24100,7 +24108,7 @@ putiatin_0001={ #// Prince Ivan Semjonovich Drutzkoi-Putjata (fl 1466)
 																	dynasty=1010063
 																	religion=orthodox culture=russian
 																	father=putiatin_0082	# Павел Павлович Путятин
-																	mother=lowborn_0853	# Ольга Павловна Zelenoj
+																	mother=lowborn_0853	# Ольга Павловна Зеленой
 																	1903.12.29={birth=yes}
 																	1973.12.01={death=yes}  # EST.
 																}
@@ -26772,7 +26780,7 @@ kropotkin_0001={ #// Prince Pjotr Nikolaevich Kropotkin (23 Dec 1771-12 Jul 1826
 					mother=lowborn_1145	# Мария Александровна Vechinin
 					1893.08.15={birth=yes}  # Nikolskoie
 					1917.01.01={add_spouse=lowborn_1148}	# Александровна Dejanov
-					1925.02.22={add_spouse=lowborn_1149}	# Александра Яковлевна Kusnetsov
+					1925.02.22={add_spouse=lowborn_1149}	# Александра Яковлевна Кузнецов
 					1958.11.28={death=yes}  # Montmorency
 				}
 					kropotkin_0030={ #// 1e) Dmitri (Nice 22 Feb 1927-Paris 18 Apr 1987); m.New York 1960 (div) Doris Barbara Worsley
@@ -26780,7 +26788,7 @@ kropotkin_0001={ #// Prince Pjotr Nikolaevich Kropotkin (23 Dec 1771-12 Jul 1826
 						dynasty=1010071
 						religion=orthodox culture=french
 						father=kropotkin_0029	# Николай Дмитриевич Кропоткин
-						mother=lowborn_1149	# Александра Яковлевна Kusnetsov
+						mother=lowborn_1149	# Александра Яковлевна Кузнецов
 						1927.02.22={birth=yes}  # Nice
 						1960.01.01={add_spouse=lowborn_1150}	# Барбара Worsley
 						1987.04.18={death=yes}  # Paris
@@ -29352,7 +29360,7 @@ shakhovsk_0001={ #// Prince Aleksander Schemjaka Andreievich Shakhovsky
 													father=100018636	# Дмитрий Николаевич Шаховской
 													mother=100100050	# Мария Дмитриевна Оленин
 													1910.09.11={birth=yes}  # Moscow
-													1933.04.15={add_spouse=100100052}	# Мария Дмитриевна Pastukhov
+													1933.04.15={add_spouse=100100052}	# Мария Дмитриевна Пастухов
 													1995.10.24={death=yes}  # Asnières
 												}
 													100018639={ #// 1m) Dmitri, b.Courbevoie 15 Feb 1934; m.1st Moscow 21 Nov 1967 Natalia Aleksandrovna Egorov (Moscow 4 Oct 1944-Asnières 26 Jan 1989); m.2nd Paris 1997 (rel) 1998 Tamara Tkhorgevsky (b.New York 1948)
@@ -29360,7 +29368,7 @@ shakhovsk_0001={ #// Prince Aleksander Schemjaka Andreievich Shakhovsky
 														dynasty=1010026
 														religion=orthodox culture=russian
 														father=100018638	# Михаил Дмитриевич Шаховской
-														mother=100100052	# Мария Дмитриевна Pastukhov
+														mother=100100052	# Мария Дмитриевна Пастухов
 														1934.02.15={birth=yes}  # Courbevoie
 														1967.11.21={add_spouse=100100053}	# Наталья Александровна Egorov
 														1997.01.01={add_spouse=100100054}	# Тамара Tkhorgevsky
@@ -29397,7 +29405,7 @@ shakhovsk_0001={ #// Prince Aleksander Schemjaka Andreievich Shakhovsky
 														dynasty=1010026
 														religion=orthodox culture=russian
 														father=100018638	# Михаил Дмитриевич Шаховской
-														mother=100100052	# Мария Дмитриевна Pastukhov
+														mother=100100052	# Мария Дмитриевна Пастухов
 														1937.05.06={birth=yes}  # Courbevoie
 													}
 						# 2f) Pankrati fl 1697
@@ -31727,7 +31735,7 @@ kassatkin_0001={ #// Prince Lev Ossipovich Kassatkin-Rostovsky (fl 1658/1712)
 		dynasty_house=rurik_kasatkin
 		religion=orthodox culture=russian
 		father=kassatkin_0001	# Лев Осипович Касаткин-Ростовский
-		1657.01.01={birth=yes}  # EST.
+		1675.01.01={birth=yes}  # EST.
 		1696.01.01={add_spouse=lowborn_1032}	# Наталья Ладыженский
 		1718.01.01={death=yes}
 	}
@@ -31804,15 +31812,15 @@ kassatkin_0001={ #// Prince Lev Ossipovich Kassatkin-Rostovsky (fl 1658/1712)
 		dynasty_house=rurik_kasatkin
 		religion=orthodox culture=russian
 		father=kassatkin_0001	# Лев Осипович Касаткин-Ростовский
-		1639.01.01={birth=yes}  # EST.
-		1714.12.01={death=yes}  # EST.
+		1680.01.01={birth=yes}  # EST.
+		1730.12.01={death=yes}  # EST.
 	}
 		kassatkin_0011={ #// 1b) Fjodor
 			name=Фёдор
 			dynasty_house=rurik_kasatkin
 			religion=orthodox culture=russian
 			father=kassatkin_0010	# Михаил Лвович Касаткин-Ростовский
-			1664.01.01={birth=yes}  # EST.
+			1710.01.01={birth=yes}  # EST.
 			1724.12.01={death=yes}  # EST.
 		}
 			kassatkin_0012={ #// 1c) Ivan, d.12 Sep 1812; m.Warwara Urusov $$
@@ -32001,7 +32009,7 @@ kassatkin_0001={ #// Prince Lev Ossipovich Kassatkin-Rostovsky (fl 1658/1712)
 								father=kassatkin_0021	# Николай Фёдорович Касаткин-Ростовский
 								mother=lowborn_1111	# Надежда de Montrésor
 								1886.01.01={birth=yes}
-								1906.01.01={add_spouse=lowborn_1120}	# Марфа Фёдоровна Каменский
+								1906.01.01={add_spouse=lowborn_1120}	# Марфа Фёдоровна Каменская
 								1918.01.01={death=yes}  # k.by Bolsheviks
 							}
 								kassatkin_0031={ #// 1h) Irina (1907-    )
@@ -32010,7 +32018,7 @@ kassatkin_0001={ #// Prince Lev Ossipovich Kassatkin-Rostovsky (fl 1658/1712)
 									dynasty_house=rurik_kasatkin
 									religion=orthodox culture=russian
 									father=kassatkin_0030	# Николай Николаевич Касаткин-Ростовский
-									mother=lowborn_1120	# Марфа Фёдоровна Каменский
+									mother=lowborn_1120	# Марфа Фёдоровна Каменская
 									1907.01.01={birth=yes}
 									1977.12.01={death=yes}  # EST.
 								}
@@ -32145,7 +32153,7 @@ kassatkin_0001={ #// Prince Lev Ossipovich Kassatkin-Rostovsky (fl 1658/1712)
 					father=kassatkin_0012	# Иван Фёдорович Касаткин-Ростовский
 					mother=urusov_0310	# Варвара Алексеевна Урусов
 					1795.01.01={birth=yes}
-					1821.01.01={add_spouse=lowborn_1126}	# Мария Фёдоровна Каменский
+					1821.01.01={add_spouse=lowborn_1126}	# Мария Фёдоровна Каменская
 					1867.01.01={death=yes}
 				}
 					kassatkin_0046={ #// 1e) Warwara
@@ -32154,7 +32162,7 @@ kassatkin_0001={ #// Prince Lev Ossipovich Kassatkin-Rostovsky (fl 1658/1712)
 						dynasty_house=rurik_kasatkin
 						religion=orthodox culture=russian
 						father=kassatkin_0045	# Алексей Иванович Касаткин-Ростовский
-						mother=lowborn_1126	# Мария Фёдоровна Каменский
+						mother=lowborn_1126	# Мария Фёдоровна Каменская
 						1822.01.01={birth=yes}  # EST.
 						1882.12.01={death=yes}  # EST.
 					}
@@ -32355,7 +32363,7 @@ beloselsky_0011={ #// 2a) Mikhail Andreevich (1 Dec 1702-19 Jan 1755); m.2nd Css
 				father=100019725	# Эспер Александрович Белосельский-Белозерский
 				mother=100084709	# Елена Павловна Бибикова
 				1843.06.16={birth=yes}  # Paris
-				1865.01.01={add_spouse=100086196}	# Надежда Дмитриевна Skobolev
+				1865.01.01={add_spouse=100086196}	# Надежда Дмитриевна Скобелева
 				1920.05.26={death=yes}  # Neuilly
 			}
 				100019729={ #// 1e) Sergei (St.Petersburg 13 Jul 1867-Tonbridge, Kent 20 Apr 1951); m. St.Petersburg 1894 Susan Tucker Whittier (Boston, Mass. 18 Jun 1874-Tonbridge 7 Dec 1934)
@@ -32363,7 +32371,7 @@ beloselsky_0011={ #// 2a) Mikhail Andreevich (1 Dec 1702-19 Jan 1755); m.2nd Css
 					dynasty_house=rurik_beloselsky
 					religion=orthodox culture=russian
 					father=100019728	# Константин Эсперович Белосельский-Белозерский
-					mother=100086196	# Надежда Дмитриевна Skobolev
+					mother=100086196	# Надежда Дмитриевна Скобелева
 					1867.07.13={birth=yes}  # St.Petersburg
 					1894.01.01={add_spouse=100088382}	# Susan Tucker Whittier
 					1951.04.20={death=yes}  # Tonbridge Kent
@@ -32413,7 +32421,7 @@ beloselsky_0011={ #// 2a) Mikhail Andreevich (1 Dec 1702-19 Jan 1755); m.2nd Css
 					dynasty_house=rurik_beloselsky
 					religion=orthodox culture=russian
 					father=100019728	# Константин Эсперович Белосельский-Белозерский
-					mother=100086196	# Надежда Дмитриевна Skobolev
+					mother=100086196	# Надежда Дмитриевна Скобелева
 					1869.08.05={birth=yes}
 					1944.01.23={death=yes}  # Paris
 				}
@@ -32422,9 +32430,9 @@ beloselsky_0011={ #// 2a) Mikhail Andreevich (1 Dec 1702-19 Jan 1755); m.2nd Css
 					dynasty_house=rurik_beloselsky
 					religion=orthodox culture=russian
 					father=100019728	# Константин Эсперович Белосельский-Белозерский
-					mother=100086196	# Надежда Дмитриевна Skobolev
+					mother=100086196	# Надежда Дмитриевна Скобелева
 					1871.10.08={birth=yes}  # St.Petersburg
-					1898.01.01={add_spouse=100088392}	# Ольга Александровна Базилевский
+					1898.01.01={add_spouse=100088392}	# Ольга Александровна Базилевская
 					1910.01.01={remove_spouse=100088392}
 					1913.01.01={add_spouse=100088393}	# Madeleine Julie Moulin
 					1921.01.05={death=yes}  # Paris
@@ -32434,7 +32442,7 @@ beloselsky_0011={ #// 2a) Mikhail Andreevich (1 Dec 1702-19 Jan 1755); m.2nd Css
 						dynasty_house=rurik_beloselsky
 						religion=orthodox culture=russian
 						father=100019758	# Эспер Константинович Белосельский-Белозерский
-						mother=100088392	# Ольга Александровна Базилевский
+						mother=100088392	# Ольга Александровна Базилевская
 						1899.01.25={birth=yes}  # St.Petersburg
 						1918.01.05={death=yes}  # k.by Soviets at Kiev
 					}
@@ -32444,7 +32452,7 @@ beloselsky_0011={ #// 2a) Mikhail Andreevich (1 Dec 1702-19 Jan 1755); m.2nd Css
 						dynasty_house=rurik_beloselsky
 						religion=orthodox culture=russian
 						father=100019758	# Эспер Константинович Белосельский-Белозерский
-						mother=100088392	# Ольга Александровна Базилевский
+						mother=100088392	# Ольга Александровна Базилевская
 						1901.02.28={birth=yes}  # St.Petersburg
 						1998.01.25={death=yes}  # Lourdes
 					}
@@ -32627,7 +32635,7 @@ beloselsky_0011={ #// 2a) Mikhail Andreevich (1 Dec 1702-19 Jan 1755); m.2nd Css
 					dynasty_house=rurik_beloselsky
 					religion=orthodox culture=russian
 					father=100019728	# Константин Эсперович Белосельский-Белозерский
-					mother=100086196	# Надежда Дмитриевна Skobolev
+					mother=100086196	# Надежда Дмитриевна Скобелева
 					1874.11.12={birth=yes}  # St.Petersburg
 					1923.10.26={death=yes}  # Paros
 				}
@@ -32637,7 +32645,7 @@ beloselsky_0011={ #// 2a) Mikhail Andreevich (1 Dec 1702-19 Jan 1755); m.2nd Css
 					dynasty_house=rurik_beloselsky
 					religion=orthodox culture=russian
 					father=100019728	# Константин Эсперович Белосельский-Белозерский
-					mother=100086196	# Надежда Дмитриевна Skobolev
+					mother=100086196	# Надежда Дмитриевна Скобелева
 					1883.02.28={birth=yes}  # St.Petersburg
 					1931.03.06={death=yes}  # Brussels
 				}
@@ -34046,7 +34054,7 @@ gagarin_0001={ # Фёдор Андреевич Стародубский f:125202
 															mother=100090392	# CSS Мария Александровна Sołłohub
 															1881.11.08={birth=yes}
 															1909.09.02={add_spouse=raevsky_0007}	# Софья Михайловна Раевский
-															1950.05.29={add_spouse=100095277}	# Ольга Алексеевна Sinyelnikov
+															1950.05.29={add_spouse=100095277}	# Ольга Алексеевна Синельников
 															1964.05.24={death=yes}
 														}
 														100015762={ #// 8l) Georgi (Odessa 27 Jun 1887- St.Petersburg 25 Feb 1900)

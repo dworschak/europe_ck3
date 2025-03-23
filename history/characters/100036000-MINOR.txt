@@ -973,24 +973,23 @@
 					1877.10.28={add_spouse=100022532}	# Eleonore von Windisch-Graetz
 					1922.02.13={death=yes}
 				}
-					100035871={ #// E2. Franz-Lothar (*Kellenberg 27.3.1889, +Linnich 8.1.1951); m.17.5.1947 Gabriele von Spee (*Wesel 5.8.1902, +Rottweil 15.8.1976) %%
-						name=Franz-Lothar
+					100035871={ #// E1. Franz-Lothar (*Kellenberg 29.4.1880, +Linnich 1.12.1948) %%
+						name="Franz-Lothar"
 						dynasty=1008340
 						religion=catholic culture=german
 						father=100035872	# Wilhelm van Hoensbroech
 						mother=100022532	# Eleonore von Windisch-Graetz
-						1889.03.27={birth=yes}  # Kellenberg
-						1947.05.17={add_spouse=100025591}	# Gabriele von Spee
-						1951.01.08={death=yes}  # Linnich
+						1880.04.29={birth=yes}  # Kellenberg
+						1948.12.01={death=yes}  # Linnich
 					}
-						100035870={ #// F1. Wilhelm (*1908, +1973); m.1936 Felicitas von Montgelas (*1912) %%
+						100035870={ #// F1. Wilhelm (*Münster 20.5.1908, +Geldern 29.10.1973); m.1936 Felicitas von Montgelas (*1912) %%
 							name=Wilhelm
 							dynasty=1008340
 							religion=catholic culture=german
 							father=100035871	# Franz-Lothar van Hoensbroech
-							1908.01.01={birth=yes}
+							1908.05.20={birth=yes}	# Münster
 							1936.01.01={add_spouse=100035885}	# Felicitas von Montgelas
-							1973.01.01={death=yes}
+							1973.10.29={death=yes}	# Geldern
 						}
 							100035869={ #// G1. Lothar Franz (*1937) %%
 								name="Lothar Franz"
@@ -1019,7 +1018,7 @@
 							1939.10.19={add_spouse=100012551}	# Margarete zu Lynar
 							1941.07.17={death=yes}  # Narwik
 						}
-					100035876={ #// E1. Ferdinand (*1882, +1959); m.1917 Gfn Wilhelmine von Westerholt u.Gysenberg (*1889, +1980) %%
+					100035876={ #// E2. Ferdinand (*1882, +1959); m.1917 Gfn Wilhelmine von Westerholt u.Gysenberg (*1889, +1980) %%
 						name=Ferdinand
 						dynasty=1008340
 						religion=catholic culture=german
@@ -1077,21 +1076,22 @@
 					1888.01.01={add_spouse=100091216}	# FRN Kunigunde Raitz von Frentz
 					1914.01.01={death=yes}
 				}
-					100035877={ #// E1. Franz (*1889, +1951); m.1925 Helene van Loë (*1896, +1933) %%
-						name=Franz
+					100035877={ #// E1. Franz Lothar (*Kellenberg 27.3.1889, +Linnich 8.1.1951); m.1st 24.7.1919 Helene van Loë (*1896, +1933); m.2nd 17.5.1947 Gabriele von Spee (*Wesel 5.8.1902, +Rottweil 15.8.1976) %%
+						name="Franz Lothar"
 						dynasty=1008340
 						religion=catholic culture=german
 						father=100035878	# Klemens Wenzeslaus van Hoensbroech
 						mother=100091216	# FRN Kunigunde Raitz von Frentz
-						1889.01.01={birth=yes}
-						1925.01.01={add_spouse=100086028}	# Helene van Loë
-						1951.01.01={death=yes}
+						1889.03.27={birth=yes}  # Kellenberg
+						1919.07.24={add_spouse=100086028}	# Helene van Loë
+						1947.05.17={add_spouse=100025591}	# Gabriele von Spee
+						1951.01.08={death=yes}  # Linnich
 					}
-						100035863={ #// F1. Reinhart (*15.10.1926, +8.6.2005); m.9.6.1959 Maria Immakulata von Österreich-Toskana (*7.12.1933) %%
+						100035863={ #// F1. [1m.] Reinhart (*15.10.1926, +8.6.2005); m.9.6.1959 Maria Immakulata von Österreich-Toskana (*7.12.1933) %%
 							name=Reinhart
 							dynasty=1008340
 							religion=catholic culture=german
-							father=100035877	# Franz van Hoensbroech
+							father=100035877	# Franz Lothar van Hoensbroech
 							mother=100086028	# Helene van Loë
 							1926.10.15={birth=yes}
 							1959.06.09={add_spouse=100020967}	# Maria Immakulata von Österreich-Toskana
@@ -4419,7 +4419,7 @@ lwbrnga_0392={ # Pss        Maria Alexandrovna        Nicolay                   
 				1866.01.23={birth=yes}	# Biebrich-Mosbach
 				1916.09.25={death=yes}	# Stuttgart
 			}
-				100035885={ #// D1. Felicitas (*1912); m.1936 Wilhelm van Hoensbroech (*1908, +1973) %%
+				100035885={ #// D1. Felicitas (*1912); m.1936 Wilhelm van Hoensbroech (*Münster 20.5.1908, +Geldern 29.10.1973) %%
 					name=Felicitas
 					female=yes
 					dynasty=1002200
@@ -6883,7 +6883,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	}
 #berchtold2
 
-#berchtold3
+#berchtold3 FRAGMENT
 100036715={ #// Maria ANTON Nikolaus Peter Ferdinand Heinrich Graf Berchtold, Freiherr von und zu Ungarschitz, *1754, +25.3.1819; m.1792 Maria Anna Franziska Huszár de Szent-Kereszt (*Trnava 12.7.1771, +10.11.1847)
 	name=Anton
 	dynasty=1011382
@@ -6946,8 +6946,8 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			father=100036717	# Joseph von Berchtold
 			mother=100119196	# Ottilia Forgách de Ghymes et Gács
 			1829.02.16={birth=yes}	# Gacz
-			1853.03.29={add_spouse=100086754}	# Anna Török de Szendrő
-			1866.11.17={add_spouse=100089135}	# Josephine Török de Szendrő
+			1853.03.29={add_spouse=torok_0012}	# Anna Török de Szendrő
+			1866.11.17={add_spouse=torok_0011}	# Jozefine Török de Szendrő
 			1885.04.12={death=yes}  # Budapest
 		}
 			100036711={ #// C5. [1m.] Rose, *5.4.1856, +1933; m.Nagy-Surány 25.9.1881 Frhr Julius Georg Révay de Réva (*1853 +1911) $$
@@ -6956,7 +6956,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011382
 				religion=catholic culture=german
 				father=100036614	# Ladislaus von Berchtold
-				mother=100086754	# Anna Török de Szendrő
+				mother=torok_0012	# Anna Török de Szendrő
 				1856.04.05={birth=yes}  # Buda-Pest
 				1933.06.19={death=yes}  # Necpál
 			}
@@ -6965,7 +6965,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011382
 				religion=catholic culture=german
 				father=100036614	# Ladislaus von Berchtold
-				mother=100089135	# Josephine Török de Szendrő
+				mother=torok_0011	# Jozefine Török de Szendrő
 				1877.04.14={birth=yes}
 				1905.04.29={add_spouse=100115880}	# Ilona Teleki de Szék
 				1946.10.14={death=yes}
@@ -7000,7 +7000,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			1831.01.01={birth=yes}
 			1872.01.22={death=yes}
 		}
-#berchtold3
+#berchtold3 FRAGMENT
 ## BERCHTOLD 1011382
 
 # HALEM
@@ -7495,8 +7495,8 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	1937.11.20={birth=yes}
 	1967.12.12={add_spouse=100110800}	# Krystyna Radziwiłł
 }
-	100036361={ #// A1. Elzbieta (*11.7.1975); m.19.9.1998 Dominik Radziwiłł (*1.11.1964) %%
-		name=Elzbieta
+	100036361={ #// A1. Elżbieta (*11.7.1975); m.19.9.1998 Dominik Radziwiłł (*1.11.1964) %%
+		name="Elżbieta"
 		female=yes
 		dynasty=1012300
 		religion=catholic culture=polish
@@ -9672,13 +9672,13 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			1817.01.01={birth=yes}	# Mercyfalva
 			1898.03.26={death=yes}	# Wien
 		}
-		100035054={ #// B2. Lajos Álmos (*1818, +1.4.1878); m.12.12.1843 Szerafin Esterházy de Galántha (*8.8.1820, +Pozsony 22.9.1878) %%
+		100035054={ #// B2. Lajos Álmos (*1818, +1.4.1878); m.12.12.1843 Szerafin Esterházy de Galántha (*8.8.1820, +Bratislava 22.9.1878) %%
 			name="Lajos Álmos"
 			dynasty=1011820
 			religion=catholic culture=hungarian
 			father=100035041	# Lajos Lo Presti di Fontana d'Angioli
 			1818.01.01={birth=yes}
-			1843.12.12={add_spouse=100117561}	# Szerafin Esterházy de Galántha
+			1843.12.12={add_spouse=esterhazy_0217}	# Szerafin Esterházy de Galántha
 			1878.04.01={death=yes}
 		}
 			100035053={ #// C1. Eugenie (*1.12.1845, +Szolcsány 23.6.1866); m.27.8.1862 Arturo Odescalchi (*21.7.1836, +9.1.1924) %%
@@ -9687,7 +9687,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011820
 				religion=catholic culture=hungarian
 				father=100035054	# Lajos Álmos Lo Presti di Fontana d'Angioli
-				mother=100117561	# Szerafin Esterházy de Galántha
+				mother=esterhazy_0217	# Szerafin Esterházy de Galántha
 				1845.12.01={birth=yes}
 				1866.06.23={death=yes}	# Szolcsány
 			}
@@ -9697,7 +9697,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011820
 				religion=catholic culture=italian
 				father=100035054	# Lajos Álmos Lo Presti di Fontana d'Angioli
-				mother=100117561	# Szerafin Esterházy de Galántha
+				mother=esterhazy_0217	# Szerafin Esterházy de Galántha
 				1847.06.07={birth=yes}	# Pressburg
 				1901.04.01={death=yes}	# Bern
 			}
@@ -9707,7 +9707,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				dynasty=1011820
 				religion=catholic culture=italian
 				father=100035054	# Lajos Álmos Lo Presti di Fontana d'Angioli
-				mother=100117561	# Szerafin Esterházy de Galántha
+				mother=esterhazy_0217	# Szerafin Esterházy de Galántha
 				1855.11.27={birth=yes}  # Budapest
 				1929.11.11={death=yes}  # Göd
 			}
@@ -11223,8 +11223,8 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 		1871.04.30={add_spouse=100114127}	# Pelagia Potocki
 		1941.04.19={death=yes}  # Kowalewo
 	}
-		100036289={ #// B1. Elzbieta (*Sokolowka 23.1.1872, +Warsaw 9.11.1939); m.23.6.1891 Wladislaw Michał Potocki (*Moskorzew 1862, +Czestochowa 5.2.1924) %%
-			name=Elzbieta
+		100036289={ #// B1. Elżbieta (*Sokolowka 23.1.1872, +Warsaw 9.11.1939); m.23.6.1891 Wladislaw Michał Potocki (*Moskorzew 1862, +Czestochowa 5.2.1924) %%
+			name="Elżbieta"
 			female=yes
 			dynasty=1012020
 			religion=catholic culture=polish

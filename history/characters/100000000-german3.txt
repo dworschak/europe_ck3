@@ -6612,7 +6612,7 @@
 													father=100010509	# Maximilian von Königsegg-Aulendorf
 													mother=100089895	# Nessrin Touba
 													1969.02.20={birth=yes}  # Hamburg
-													2007.08.30={add_spouse=100117429}	# Daniela Esterházy de Galántha
+													2007.08.30={add_spouse=esterhazy_0141}	# Daniella Esterházy de Galántha
 												}
 													100010511={ #// 1m) Cecilia Isabella Marie Jela Eusebia (b.Zürich 24 May 2008)
 														name=Cecilia
@@ -6620,7 +6620,7 @@
 														dynasty_house=koenigsegg_aulendorf
 														religion=catholic culture=swabian
 														father=100010510	# Frederic von Königsegg-Aulendorf
-														mother=100117429	# Daniela Esterházy de Galántha
+														mother=esterhazy_0141	# Daniella Esterházy de Galántha
 														2008.05.24={birth=yes}  # Zürich
 													}
 											100010512={ #// 7k) Veronika Franz de Paula Lucia Eusebia (b.München 7 Jun 1938); m.Königseggwald 3 Aug 1968 (rel) 3 Sep 1968 Helmut Brand (b.Düsseldorf 10 Jul 1932)
@@ -6912,7 +6912,7 @@
 			father=471655	# Bogislaw Gryfita
 			1351.01.01={birth=yes}
 			1366.01.01={add_spouse=jagelo_0123}	# Kenna Jagiełło
-			1369.01.01={add_spouse=lowborn_9140}	# Malgorzata of Mazovia
+			1369.01.01={add_spouse=piast_0217}	# Malgorzata Piast
 			1377.01.02={death=yes}
 		}
 		100010353={ #// B2. [2m.] Duke Wartislaw VII of Pomerania-Stolp, *ca 1362, +murdered 24.2.1395; m.1380 Maria von Mecklenburg-Schwerin (*1363 +ca 13.5.1402) $$
@@ -6955,14 +6955,14 @@
 			1398.01.01={add_spouse=100012773}	# Sofie von Holstein-Schauenburg
 			1418.02.11={death=yes}
 		}
-			100010357={ #// C1. Duke Bogislaw IX of Pomerania-Stargard, *Stolp 1407, +Stolp 7.12.1446; m.Posen 16.5.1433 Maria of Poland (*ca 1410 +18.2.1454)
+			100010357={ #// C1. Duke Bogislaw IX of Pomerania-Stargard, *Stolp 1407, +Stolp 7.12.1446; m.Posen 16.5.1433 Maria of Poland (*ca 1410 +18.2.1454) $$
 				name=Bogislaw
 				dynasty=177
 				religion=catholic culture=pommeranian
 				father=100010356	# Bogislaw Gryfita
 				mother=100012773	# Sofie von Holstein-Schauenburg
 				1407.01.01={birth=yes}  # Stolp
-				1433.05.16={add_spouse=100086537}	# Maria of Poland
+				1433.05.16={add_spouse=piast_0214}	# Maria Piast
 				1446.12.07={death=yes}  # Stolp
 			}
 				100010358={ #// D1. Sophia, *1435, +ca 1497; m.Duke Erik II of Pomerania (*ca 1425-5.7.1474) $$
@@ -6971,7 +6971,7 @@
 					dynasty=177
 					religion=catholic culture=pommeranian
 					father=100010357	# Bogislaw Gryfita
-					mother=100086537	# Maria of Poland
+					mother=piast_0214	# Maria Piast
 					1435.01.01={birth=yes}
 					1497.01.01={death=yes}
 				}
@@ -7405,23 +7405,6 @@
 						1475.11.25={add_spouse=100009205}	# Magdalene Niklotid
 						1478.12.17={death=yes}
 					}
-				100010411={ #// D2. Duke Barnim VIII, of Pomerania-Wolgast, *1403, +20.12.1451
-					name=Barnim
-					dynasty=177
-					religion=catholic culture=pommeranian
-					father=100010366	# Barnim Gryfita
-					1403.01.01={birth=yes}
-					1451.12.20={death=yes}
-				}
-					100010412={ #// E1. Agnes, *1434, +Bernburg 9.5.1512; 1m: Tangermuende 9.2.1449 Friedrich I von Altmark-Priegnitz (*ca 1425, +Tangermünde 6.10.1463); 2m: 1479 Georg II von Anhalt-Zerbst (*1456 +25.4.1509) $$
-						name=Agnes
-						female=yes
-						dynasty=177
-						religion=catholic culture=pommeranian
-						father=100010411	# Barnim Gryfita
-						1434.01.01={birth=yes}
-						1512.05.09={death=yes}  # Bernburg
-					}
 			100010419={ #// C3. Sofie, *ca 1365, +28.6.1400; m.11.11.1388 Duke Heinrich II of Braunschweig-Lüneburg (*ca 1365, +14.10.1416) $$
 				name=Sofie
 				female=yes
@@ -7442,7 +7425,7 @@
 				1398.01.01={add_spouse=100086767}	# Agnes von Sachsen-Lauenburg-Ratzeburg
 				1415.08.20={death=yes}
 			}
-				100010415={ #// D2. Duke Barnim VIII, of Pomerania-Rügen, *1405, +15.12.1451; m.Agnes von Wunstorf (+ca 1451)
+				100010415={ #// D2. Duke Barnim VIII, of Pomerania-Wolgast, *1405, +15.12.1451; m.Agnes von Wunstorf (+ca 1451)
 					name=Barnim
 					dynasty=177
 					religion=catholic culture=pommeranian
@@ -7452,7 +7435,7 @@
 					1424.01.01={add_spouse=100086769}	# Agnes von Wunstorf
 					1451.12.15={death=yes}
 				}
-					100011344={ #// E1. Agnes, *ca 1425, +9.5.1512; m.Mkgf Friedrich von Brandenburg (*ca 1424, +6.10.1463) $$
+					100010412={ #// E1. Agnes, *ca 1425, +9.5.1512; m.Mkgf Friedrich von Brandenburg (*ca 1424, +6.10.1463) $$
 						name=Agnes
 						female=yes
 						dynasty=177
@@ -14124,7 +14107,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 											father=100008666	# Günther von Schwarzburg-Blankenburg
 											mother=100011807	# Elisabeth zu Ysenburg und Büdingen
 											1534.10.04={birth=yes}  # Sondershausen
-											1567.01.01={add_spouse=100099178}	# Elisabeth Schlik
+											1567.01.01={add_spouse=schlick_0118}	# Elisabeth von Schlik zu Bassano u.Weißkirchen
 											1593.05.06={add_spouse=100012182}	# Klara von Braunschweig-Lüneburg
 											1597.09.30={death=yes}  # Straussberg
 										}
@@ -18261,11 +18244,12 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 								name=Jan
 								dynasty=oppersdorf
 								religion=lutheran culture=german
+								trait=legitimized_bastard
 								father=oppersdorf_0027	# Jan von Oppersdorff
 								mother=kolowrat_0154	# Anna Eleonora Krakovský z Kolovrat
-								1664.01.01={birth=yes}  # EST.
-								1684.01.01={add_spouse=lowborn_2756}	# GFN Anna Františka Zárubová z Hustířan
-								1684.01.01={death=yes}
+								1666.01.01={birth=yes}  # EST.
+								1683.01.01={add_spouse=lowborn_2756}	# GFN Anna Františka Zárubová z Hustířan
+								1686.12.01={death=yes}
 							}
 								oppersdorf_0036={ #// H1. Leopold, +1728
 									name=Leopold
@@ -18306,14 +18290,14 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						1632.05.18={death=yes}  # Žampach
 					}
 				oppersdorf_0040={ #// D3. Jiří II Maxmilián (Georg II), *after 1547, +15.2.1607, bur Horní Hlohov (Oberglogau); 1m: 1586 Izalda z Valdštejna (+11.3.1597); 2m: 19.10.1598 Anna Popelovna z Lobkowicz; all children by 1m. $$
-					name=Jiří
+					name="Georg Maximilian"
 					dynasty=oppersdorf
 					religion=lutheran culture=german
 					father=oppersdorf_0011	# Jiří von Oppersdorff
 					mother=lowborn_2734	# Hedvika Kolchreitrová z Lobšic
-					1548.01.01={birth=yes}  # Georg II ) (
+					1548.01.01={birth=yes}
 					1586.01.01={add_spouse=100047607}	# Izalda z Valdštejna
-					1598.10.19={add_spouse=lowborn_2760}	# Anna Popel z Lobkowicz
+					1598.10.19={add_spouse=lobkow_0047}	# Anna Popel von Lobkowitz
 					1607.02.15={death=yes}
 				}
 					oppersdorf_0041={ #// E1. Anna; m.Štěpán "starší" Bruntálský z Vrbna (+11.6.1618) $$
@@ -18321,16 +18305,16 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						female=yes
 						dynasty=oppersdorf
 						religion=lutheran culture=german
-						father=oppersdorf_0040	# Jiří von Oppersdorff
+						father=oppersdorf_0040	# Georg Maximilian von Oppersdorff
 						mother=100047607	# Izalda z Valdštejna
-						1580.01.01={birth=yes}  # EST.
+						1587.01.01={birth=yes}  # EST.
 						1640.01.01={death=yes}  # EST.
 					}
 					oppersdorf_0042={ #// E2. Georg III, Reichsgraf, *1588, +16.5.1651; 1m: Benigna Polyxena von Promnitz (+1631); 2m: Gfn Esther Barbara von Meggau; 3m: Elisabeth Konstantia von Pöttingen; all children by 1m.
 						name=Georg
 						dynasty=oppersdorf
 						religion=lutheran culture=german
-						father=oppersdorf_0040	# Jiří von Oppersdorff
+						father=oppersdorf_0040	# Georg Maximilian von Oppersdorff
 						mother=100047607	# Izalda z Valdštejna
 						1588.01.01={birth=yes}
 						1614.01.01={add_spouse=lowborn_2762}	# Benigna Polyxena von Promnitz
@@ -18367,7 +18351,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 								1674.01.01={add_spouse=lowborn_2766}	# GFN Marie Anna von Brandis
 								1693.11.23={death=yes}  # Ratibořice
 							}
-							oppersdorf_0046={ #// G2. Ludovika Marie, +1708; m.Gf Karel Štěpán Josef Pražma z Bílkova
+							oppersdorf_0046={ #// G2. Ludovika Marie, +1708; m.Gf Karel Štěpán Josef Pražma z Bílkova $$
 								name=Ludovika
 								female=yes
 								dynasty=oppersdorf
@@ -18381,7 +18365,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						name=Wenzel
 						dynasty=oppersdorf
 						religion=lutheran culture=german
-						father=oppersdorf_0040	# Jiří von Oppersdorff
+						father=oppersdorf_0040	# Georg Maximilian von Oppersdorff
 						mother=100047607	# Izalda z Valdštejna
 						1590.01.01={birth=yes}
 						1615.01.01={add_spouse=lowborn_2768}	# BGGFN Paula von Dohna
@@ -18438,7 +18422,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						name=Friedrich
 						dynasty=oppersdorf
 						religion=lutheran culture=german
-						father=oppersdorf_0040	# Jiří von Oppersdorff
+						father=oppersdorf_0040	# Georg Maximilian von Oppersdorff
 						mother=100047607	# Izalda z Valdštejna
 						1592.01.01={birth=yes}
 						1650.01.01={death=yes}
@@ -18522,7 +18506,7 @@ oppersdorf_0001={ #// Hans Rolle von Uprichsdorf, *ca 1388, +Wroclaw 1445, bur H
 						name=Rudolf
 						dynasty=oppersdorf
 						religion=lutheran culture=german
-						father=oppersdorf_0040	# Jiří von Oppersdorff
+						father=oppersdorf_0040	# Georg Maximilian von Oppersdorff
 						mother=100047607	# Izalda z Valdštejna
 						1594.01.01={birth=yes}
 						1664.01.01={death=yes}  # EST.

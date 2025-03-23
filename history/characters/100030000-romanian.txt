@@ -1511,14 +1511,14 @@
 			1830.01.01={add_spouse=100082519}	# GFN Sophie von Armansberg
 			1841.01.01={death=yes}  # Athens
 		}
-			100030057={ #// C1. Constantin; m.6.2.1869 Viktoria Frn Nadherny von Borutin (*after 1841)
+			100030057={ #// C1. Constantin; m.6.2.1869 Viktoria Frn Nadherny von Borutin (*after 1841) $$
 				name=Constantin
 				dynasty=1003001
 				religion=orthodox culture=vlach
 				father=100030056	# Alexandru Cantacuzino
 				mother=100082519	# GFN Sophie von Armansberg
 				1832.01.01={birth=yes}
-				1869.02.06={add_spouse=100082520}	# FRN Viktoria Nádherný v.Borutin
+				1869.02.06={add_spouse=nadherny_0021}	# Viktoria Nádherný z Borutína
 				1905.01.01={death=yes}  # EST.
 			}
 				100030058={ #// D1. Sofie, *Loham 11.10.1871, +Bad Tolz 7.12.1959; m.Prague 21.5.1898 Friedrich Karl Gf von Schönborn (*Malesitz 4.10.1865, +Vienna 23.8.1919) $$
@@ -1527,7 +1527,7 @@
 					dynasty=1003001
 					religion=orthodox culture=vlach
 					father=100030057	# Constantin Cantacuzino
-					mother=100082520	# FRN Viktoria Nádherný v.Borutin
+					mother=nadherny_0021	# Viktoria Nádherný z Borutína
 					1871.10.11={birth=yes}  # Loham
 					1959.12.07={death=yes}  # Bad Tolz
 				}
@@ -2851,7 +2851,6 @@ mushati_0001={ #// Io Roman I, Hospodar of Moldova (1392-94), +k.a.1394; m.Anast
 			father=mushati_0002	# Io Alexandru Mușat
 			trait=bastard
 			1411.01.01={birth=yes}  # EST.
-			1436.01.01={add_spouse=lowborn_5000}	# Maria N
 			1447.07.13={death=yes}
 		}
 		mushati_0011={ #// B6. [illegitimate] Io Petru III Aron, Hospodar of Moldova (1451-52)+(1454-55)+(1455-57), +1469
