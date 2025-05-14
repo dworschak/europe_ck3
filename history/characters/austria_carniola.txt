@@ -35,7 +35,7 @@
 				father=100021455	# Georg von Auersperg
 				mother=100094571	# Katharine von Kuenburg
 				1480.01.01={birth=yes}
-				1505.01.01={add_spouse=100094941}	# Kunigunde von Boskowitz und Czernahora
+				1505.01.01={add_spouse=100094941}	# Kunigunde von Czernahora und Boskowicz
 				1529.01.01={death=yes}
 			}
 				100021460={ #// D3. Wolfgang-Engelbert, +1557; 1m: Felizitas von Kentschach
@@ -43,7 +43,7 @@
 					dynasty=1004007
 					religion=catholic culture=hungarian
 					father=100021457	# Johann von Auersperg
-					mother=100094941	# Kunigunde von Boskowitz und Czernahora
+					mother=100094941	# Kunigunde von Czernahora und Boskowicz
 					1505.01.01={birth=yes}  # EST.
 					1529.01.01={add_spouse=100095577}	# Felizitas von Kentschach
 					1557.01.01={death=yes}
@@ -118,14 +118,14 @@
 		1440.02.01={add_spouse=100099159}	# Scholastika von Königsberg
 		1466.01.01={death=yes}
 	}
-		100021485={ #// B1. Pankraz II, *1441, +16.4.1496; m.St.Veit am Pflaum 30.6.1479 Anne Frangepan (+1498)
+		100021485={ #// B1. Pankraz II, *1441, +16.4.1496; m.St.Veit am Pflaum 30.6.1479 Anne Frangepan (+1498) $$
 			name=Pankraz
 			dynasty=1004007
 			religion=catholic culture=hungarian
 			father=100021483	# Engelhard von Auersperg
 			mother=100099159	# Scholastika von Königsberg
 			1441.01.01={birth=yes}
-			1479.06.30={add_spouse=100099270}	# Anne de Frangepan
+			1479.06.30={add_spouse=frangepan_0070}	# Anna Frangepán
 			1496.04.16={death=yes}
 		}
 			100021487={ #// C6. Trajan, -cr Reichsfreiherr 1531, *1495, +Vienna 8.9.1541; m.1520 Anna von Egkh (*1502, +after 1539)
@@ -133,7 +133,7 @@
 				dynasty=1004007
 				religion=catholic culture=hungarian
 				father=100021485	# Pankraz von Auersperg
-				mother=100099270	# Anne de Frangepan
+				mother=frangepan_0070	# Anna Frangepán
 				1495.01.01={birth=yes}
 				1520.01.01={add_spouse=100097032}	# Anna von Egkh und Hungersbach
 				1541.09.08={death=yes}  # Vienna
@@ -243,7 +243,7 @@
 					1591.01.01={death=yes}
 				}
 					#auersperg6 -> E1. [1m.] Wolfgang Siegmund, *1543, +18.11.1598; m.Graz 20.4.1578 Frn Felizitas von Windisch-Grätz (*1560 +31.12.1615); for his descendants see HERE
-					100021522={ #// E9. [1m.] Marie, *1552, +20.2.1594; m.18.1.1569 Johann Bernhard von Traun (*1546 +1583)
+					100021522={ #// E9. [1m.] Marie, *1552, +20.2.1594; m.18.1.1569 Johann Bernhard von Traun (*1546 +1583) $$
 						name=Marie
 						female=yes
 						dynasty=1004007
@@ -253,14 +253,14 @@
 						1552.01.01={birth=yes}
 						1594.02.20={death=yes}
 					}
-				100021527={ #// D7. Kyburgis; m.Frhr Christoph von Traun (+1550)
+				100021527={ #// D7. Kyburgis; m.Frhr Christoph von Traun (+1550) $$
 					name=Kyburgis
 					female=yes
 					dynasty=1004007
 					religion=catholic culture=hungarian
 					father=100021517	# Siegmund von Auersperg
 					mother=100099473	# FRN Sabie von Rauber
-					1524.01.01={birth=yes}  # EST.
+					1512.01.01={birth=yes}  # EST.
 					1599.01.01={death=yes}  # EST.
 				}
 #auersperg1
@@ -1696,17 +1696,17 @@
 #1796.06.25={holder=100021845} # D6. Johann Nepomuzen Franz Erasmus Josef
 #1811.01.01={holder=100021877} # E4. RAIMUND Karl Jakob
 #1823.01.01={holder=100021881} # E5. Karl Josef
-## auersperg4
+#auersperg4
 
 #auersperg6
-100021401={ #// Frhr Wolfgang Siegmund von Auersperg, *1543, +18.11.1598; m.Graz 20.4.1578 Frn Felizitas von Windisch-Grätz (*1560 +31.12.1615)
+100021401={ #// Frhr Wolfgang Siegmund von Auersperg, *1543, +18.11.1598; m.Graz 20.4.1578 Frn Felizitas von Windisch-Grätz (*1560 +31.12.1615) $$
 	name="Wolfgang Siegmund"
 	dynasty=1004007
 	religion=catholic culture=hungarian
 	father=100021518	# Siegmund Nikolaus von Auersperg
 	mother=100099474	# FRN Sophie von Volkenstorf
 	1543.01.01={birth=yes}
-	1578.04.20={add_spouse=100080919}	# Felizitas von Windisch-Graetz
+	1578.04.20={add_spouse=wgraetz_0119}	# Felicitas von Windisch-Graetz
 	1598.11.18={death=yes}
 }
 	100021413={ #// A1. Wolfgang Nikolaus, Frhr von Auersperg auf Peilenstein, *1579, +3.4.1632; m.23.1.1611 Anna Justina von Stubenberg (*4.4.1594 +26.3.1630)
@@ -1714,7 +1714,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021401	# Wolfgang Siegmund von Auersperg
-		mother=100080919	# Felizitas von Windisch-Graetz
+		mother=wgraetz_0119	# Felicitas von Windisch-Graetz
 		1579.01.01={birth=yes}
 		1611.01.23={add_spouse=100092679}	# Anna Justina von Stubenberg
 		1632.04.03={death=yes}
@@ -1854,7 +1854,7 @@
 		dynasty=1004007
 		religion=catholic culture=hungarian
 		father=100021401	# Wolfgang Siegmund von Auersperg
-		mother=100080919	# Felizitas von Windisch-Graetz
+		mother=wgraetz_0119	# Felicitas von Windisch-Graetz
 		1583.01.01={birth=yes}
 		1626.02.17={add_spouse=100085314}	# FRN Anna Sezimová z Ústí
 		1666.04.24={death=yes}
@@ -1887,7 +1887,7 @@
 					father=100021407	# Wolfgang Engelbert von Auersperg
 					mother=dietrich_0060	# Margareta Constantina von Dietrichstein
 					1689.01.01={birth=yes}
-					1717.07.01={add_spouse=100085319}	# Eberhardine von Neipperg
+					1717.07.01={add_spouse=neipperg_0088}	# Eberhardine Dorothea von Neipperg
 					1717.08.24={death=yes}
 				}
 				100021411={ #// D2. [1m.] Gf Wolfgang Augustin, *1700, +1731; m.1725 Susanne Elisabeth Gfn von Auersperg (*1709 +1773) $$
@@ -2208,22 +2208,22 @@
 				1718.01.01={add_spouse=100099491}	# FRN Maria Johanna von Haagen
 				1756.01.01={death=yes}
 			}
-				100021570={ #// D1. Wolfgang Moritz Ludwig, Frhr von Schonberg und Seisenberg, *29.12.1707, +23.5.1756; m.6.9.1739 Gfn Maria Christiane von Windisch-Grätz (*20.3.1717 +26.2.1777)
-					name=Wolfgang
+				100021570={ #// D1. Wolfgang Moritz Ludwig, Frhr von Schonberg und Seisenberg, *29.12.1707, +23.5.1756; m.6.9.1739 Gfn Maria Christiane von Windisch-Grätz (*20.3.1717 +26.2.1777) $$
+					name="Wolfgang Moritz"
 					dynasty=1004007
 					religion=catholic culture=hungarian
 					father=100021567	# Wolfgang Augustin von Auersperg
 					mother=100099490	# GFN Marie Eleonore von Kornfail und Weinfelden
 					1707.12.29={birth=yes}
-					1739.09.06={add_spouse=100099492}	# Maria Christiane von Windisch-Graetz
+					1739.09.06={add_spouse=wgraetz_0041}	# Maria Christina von Windisch-Graetz
 					1756.05.23={death=yes}
 				}
 					100021573={ #// E1. WOLFGANG AUGUST Christian Gottfried, Frhr von Schonberg und Seisenberg, *23.10.1741, +Purgstall 9.10.1821; m.Kirchberg 12.6.1764 Anne Karoline von Gemmingen-Steinegg (*Muhlhausen 20.12.1738, +Linz 30.1.1794)
 						name="Wolfgang August"
 						dynasty=1004007
 						religion=catholic culture=hungarian
-						father=100021570	# Wolfgang von Auersperg
-						mother=100099492	# Maria Christiane von Windisch-Graetz
+						father=100021570	# Wolfgang Moritz von Auersperg
+						mother=wgraetz_0041	# Maria Christina von Windisch-Graetz
 						1741.10.23={birth=yes}
 						1764.06.12={add_spouse=100099493}	# Anne Karoline von Gemmingen-Steinegg
 						1821.10.09={death=yes}  # Purgstall
@@ -2369,7 +2369,7 @@
 					1743.01.01={add_spouse=100099510}	# FRN Maria Franziska von Reissing
 					1774.01.01={death=yes}
 				}
-					100021611={ #// E4. Maria Anna, *2.9.1744, +13.12.1765; m.1762 Baron Peter Zay de Csömör (*29.6.1735 +4.10.1788)
+					100021611={ #// E4. Maria Anna, *2.9.1744, +13.12.1765; m.1762 Baron Peter Zay de Csömör (*29.6.1735 +4.10.1788) $$
 						name="Maria Anna"
 						female=yes
 						dynasty=1004007
@@ -2409,7 +2409,7 @@
 					1729.01.01={birth=yes}
 					1753.12.14={death=yes}  # Gotha
 				}
-			100021633={ #// C12. Anna Christiana, *15.7.1682, +22.2.1735; m.14.8.1712 Gf Christoph von Windischgrätz (+12.2.1732)
+			100021633={ #// C12. Anna Christiana, *15.7.1682, +22.2.1735; m.14.8.1712 Gf Christoph von Windischgrätz (+12.2.1732) $$
 				name="Anna Christiana"
 				female=yes
 				dynasty=1004007
@@ -2446,7 +2446,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021401	# Wolfgang Siegmund von Auersperg
-		mother=100080919	# Felizitas von Windisch-Graetz
+		mother=wgraetz_0119	# Felicitas von Windisch-Graetz
 		1580.01.01={birth=yes}
 		1610.01.01={death=yes}
 	}
@@ -2456,7 +2456,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021401	# Wolfgang Siegmund von Auersperg
-		mother=100080919	# Felizitas von Windisch-Graetz
+		mother=wgraetz_0119	# Felicitas von Windisch-Graetz
 		1585.01.01={birth=yes}
 		1649.02.17={death=yes}
 	}
@@ -2465,7 +2465,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021401	# Wolfgang Siegmund von Auersperg
-		mother=100080919	# Felizitas von Windisch-Graetz
+		mother=wgraetz_0119	# Felicitas von Windisch-Graetz
 		1586.01.01={birth=yes}
 		1618.01.01={add_spouse=100093140}	# Elisabeth von Schärffenberg
 		1649.01.01={death=yes}
@@ -2476,7 +2476,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021401	# Wolfgang Siegmund von Auersperg
-		mother=100080919	# Felizitas von Windisch-Graetz
+		mother=wgraetz_0119	# Felicitas von Windisch-Graetz
 		1589.01.01={birth=yes}
 		1636.01.01={death=yes}
 	}
@@ -2485,7 +2485,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021401	# Wolfgang Siegmund von Auersperg
-		mother=100080919	# Felizitas von Windisch-Graetz
+		mother=wgraetz_0119	# Felicitas von Windisch-Graetz
 		1597.01.01={birth=yes}
 		1623.01.01={add_spouse=herberstein_0226}	# Barbara von Herberstein
 		1632.01.01={death=yes}
@@ -2640,7 +2640,7 @@
 				}
 #auersperg6
 	
-## FÜRSTEN AUERSPERG
+#auersperg5
 100021924={ #// 6b) HEINRICH Fst von Auersperg (24 Jun 1697-9 Feb 1783); m.1st 21 May 1719 Marie Dominika Pss von und zu Leichtenstein (5 Aug 1698-2 Jun 1724); m.2nd 7 May 1726 Marie Franziska Trautson Gfn von Falkenstein (11 Aug 1708-2 Apr 1761) $$
 	name=Heinrich
 	dynasty=1004007
@@ -2648,7 +2648,7 @@
 	father=100021923	# Franz Karl von Auersperg
 	mother=100092914	# GFN Marie Therese von Rappach
 	1697.06.24={birth=yes}
-	1719.05.21={add_spouse=100022909}	# Maria Dominika von Liechtenstein
+	1719.05.21={add_spouse=liecht_0056}	# Maria Dominika von Liechtenstein
 	1726.05.07={add_spouse=trautson_0004}	# Marie Franziska von Trautson
 	1783.02.09={death=yes}
 }
@@ -2657,7 +2657,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021924	# Heinrich von Auersperg
-		mother=100022909	# Maria Dominika von Liechtenstein
+		mother=liecht_0056	# Maria Dominika von Liechtenstein
 		1720.02.17={birth=yes}
 		1744.05.31={add_spouse=trautson_0005}	# Maria Josepha Rosalia von Trautson
 		1800.10.02={death=yes}
@@ -2792,7 +2792,7 @@
 								mother=clam_0051	# Gabrielle von Clam u.Gallas
 								1915.03.13={birth=yes}
 								1937.02.03={add_spouse=100115183}	# Margit Batthyány de Német-Ujvar
-								1961.10.06={add_spouse=100005705}	# Feodora von  Solms-Baruth
+								1961.10.06={add_spouse=100005705}	# Feodora von Solms-Baruth
 								2006.12.17={death=yes}
 							}
 								100021454={ #// 1j) ADOLF Karl Gobertus Fst von Auersperg, etc (b.Vienna 30 Oct 1937); m.Montevideo 17 Aug 1961 Maria de las Mercedes Tournier (b.Carrasco, Uruguay 22 Apr 1941)
@@ -2986,7 +2986,7 @@
 									dynasty=1004007
 									religion=catholic culture=german
 									father=100021451	# Karl Adolf von Auersperg
-									mother=100005705	# Feodora von  Solms-Baruth
+									mother=100005705	# Feodora von Solms-Baruth
 									1962.05.24={birth=yes}
 								}
 							100021490={ #// 2i) Agathe Eleonore Marie Gobertina (Goldegg 25 Sep 1916-Cascais, Portugal 13 Jan 1983); m.Goldegg 14 Apr 1943 Johann Georg von Radey (Pardubitz 24 Jan 1908-k.a.in Russia 12 Jan 1944) $$
@@ -4718,10 +4718,10 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021924	# Heinrich von Auersperg
-		mother=100022909	# Maria Dominika von Liechtenstein
+		mother=liecht_0056	# Maria Dominika von Liechtenstein
 		1721.08.27={birth=yes}
 		1746.01.17={add_spouse=100093123}	# GFN Katharina von Schönfeld
-		1755.04.10={add_spouse=100192766}	# Marie Wilhelmine von Neipperg
+		1755.04.10={add_spouse=neipperg_0082}	# Marie Wilhelmine von Neipperg
 		1795.11.11={death=yes}
 	}
 		100021813={ #// 2d) Joseph (19 Mar 1749-23 May 1772)
@@ -4834,7 +4834,7 @@
 			1827.08.15={add_spouse=100082305}	# BARON Jean de Fin
 			1872.12.03={death=yes}
 		}
-## FÜRSTEN AUERSPERG
+#auersperg5
 ##	Auersperg	1004007
 
 

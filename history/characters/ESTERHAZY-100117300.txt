@@ -383,14 +383,14 @@
 				1625.12.20={birth=yes}  # Beczko
 				1652.08.26={death=yes}  # Vezekeny
 			}
-			100118485={ #// C3. Zsigmond, *Kismarton 30.12.1626, +Nagyszombat 1692; m.1651 Bss Emerencia Balassa de Gyarmat et Kékkeö (*1630, +after 1699)
+			100118485={ #// C3. Zsigmond, *Kismarton 30.12.1626, +Nagyszombat 1692; m.1651 Bss Emerencia Balassa de Gyarmat et Kékkeö (*1630, +after 1699) $$
 				name=Zsigmond
 				dynasty=1011003
 				religion=catholic culture=hungarian
 				father=100118481	# Daniel Esterházy de Galántha
 				mother=100089741	# Judit Rumy de Rum et Rábadoroszló
 				1626.12.30={birth=yes}  # Kismarton
-				1651.01.01={add_spouse=100100737}	# BSS Emerencia Balassa de Gyarmat et Kékkeö
+				1651.01.01={add_spouse=balassa_0047}	# Emerentia Balassa de Gyarmat
 				1692.01.01={death=yes}  # Nagyszombat
 			}
 				100118487={ #// D2. Peter, Gf Esterházy von Galántha, *1659, +1741; m.Krisztina Török de Telekes (+1697)
@@ -398,7 +398,7 @@
 					dynasty=1011003
 					religion=catholic culture=hungarian
 					father=100118485	# Zsigmond Esterházy de Galántha
-					mother=100100737	# BSS Emerencia Balassa de Gyarmat et Kékkeö
+					mother=balassa_0047	# Emerentia Balassa de Gyarmat
 					1659.01.01={birth=yes}
 					1681.01.01={add_spouse=100100739}	# Krisztina Török de Telekes
 					1741.01.01={death=yes}
@@ -423,7 +423,7 @@
 						1687.09.01={birth=yes}
 						1739.01.01={death=yes}
 					}
-					100118490={ #// E7. Julia; m.1708 Gf László Szunyogh de Jeszenicze et Budethin (+2.11.1727)
+					100118490={ #// E7. Julia; m.1708 Gf László Szunyogh de Jeszenicze et Budethin (+2.11.1727) $$
 						name=Julia
 						female=yes
 						dynasty=1011003
@@ -679,7 +679,7 @@
 					1656.01.01={birth=yes}
 					1683.01.01={death=yes}
 				}
-				100118536={ #// D4. Katalin, +1716; 1m: 1678 Baron Peter Balassa de Gyarmath; 2m: 1698 János Baron Pinnyey de Pinnye (+1705); 3m: 1712 István Ruttkay
+				100118536={ #// D4. Katalin, +1716; 1m: 1678 Baron Peter Balassa de Gyarmath; 2m: 1698 János Baron Pinnyey de Pinnye (+1705); 3m: 1712 István Ruttkay $$
 					name=Katalin
 					female=yes
 					dynasty=1011003
@@ -861,7 +861,7 @@
 							father=100024661	# Pál Antal Esterházy de Galántha
 							mother=100023384	# Maria von Trauttmansdorff-Weinsberg
 							1869.07.05={birth=yes}
-							1898.11.16={add_spouse=100120445}	# Margit Cziráky de Czirák et Dénesfalva
+							1898.11.16={add_spouse=csiraky_0008}	# Margit Cziráky de Czirák et Dénesfalva
 							1920.04.06={death=yes}
 						}
 							100024666={ #// 1g) Mária Róza (Kis-Marton 25 Jan 1900-Bernstein, Burgenland 30 Nov 1971); m.Schloß Gyüleviz 1 Jun 1929 János Almásy von Zsadány u.Török-Szent-Miklós (7 Sep 1893-Bernstein 21 Aug 1968) $$
@@ -870,7 +870,7 @@
 								dynasty_house=house_esterhazy_paul
 								religion=catholic culture=hungarian
 								father=100024664	# Miklós Esterházy de Galántha
-								mother=100120445	# Margit Cziráky de Czirák et Dénesfalva
+								mother=csiraky_0008	# Margit Cziráky de Czirák et Dénesfalva
 								1900.01.25={birth=yes}
 								1971.11.30={death=yes}
 							}
@@ -879,7 +879,7 @@
 								dynasty_house=house_esterhazy_paul
 								religion=catholic culture=hungarian
 								father=100024664	# Miklós Esterházy de Galántha
-								mother=100120445	# Margit Cziráky de Czirák et Dénesfalva
+								mother=csiraky_0008	# Margit Cziráky de Czirák et Dénesfalva
 								1901.03.23={birth=yes}
 								1946.08.03={add_spouse=100088726}	# Melinda Ottrubay
 								1989.05.25={death=yes}
@@ -889,7 +889,7 @@
 								dynasty_house=house_esterhazy_paul
 								religion=catholic culture=hungarian
 								father=100024664	# Miklós Esterházy de Galántha
-								mother=100120445	# Margit Cziráky de Czirák et Dénesfalva
+								mother=csiraky_0008	# Margit Cziráky de Czirák et Dénesfalva
 								1903.07.22={birth=yes}
 								1935.10.22={add_spouse=100117278}	# Gabriella Apponyi de Nagy-Apponyi
 								1944.12.31={death=yes}
@@ -916,7 +916,7 @@
 								dynasty_house=house_esterhazy_paul
 								religion=catholic culture=german
 								father=100024664	# Miklós Esterházy de Galántha
-								mother=100120445	# Margit Cziráky de Czirák et Dénesfalva
+								mother=csiraky_0008	# Margit Cziráky de Czirák et Dénesfalva
 								1905.06.04={birth=yes}
 								1929.11.17={add_spouse=100116956}	# Marietta Erdődy de Monyorókerék et Monoszló
 								2000.01.05={death=yes}
@@ -973,7 +973,7 @@
 								dynasty_house=house_esterhazy_paul
 								religion=catholic culture=german
 								father=100024664	# Miklós Esterházy de Galántha
-								mother=100120445	# Margit Cziráky de Czirák et Dénesfalva
+								mother=csiraky_0008	# Margit Cziráky de Czirák et Dénesfalva
 								1910.07.17={birth=yes}
 								1974.04.18={death=yes}
 							}
@@ -2207,7 +2207,7 @@ esterhazy_0001={ #// Ferenc Graf Esterházy von Galántha zu Sempte und Pápa, *
 		1723.01.01={birth=yes}
 		1797.06.17={death=yes}
 	}
-	esterhazy_0117={ #// A9. Mária Jozefa, *1728, +26.6.1795; m.Wien 29.12.1749 Gf Josef zu Windisch-Gratz (+1790)
+	esterhazy_0117={ #// A9. Mária Jozefa, *1728, +26.6.1795; m.Wien 29.12.1749 Gf Josef zu Windisch-Gratz (+1790) $$
 		name="Mária Jozefa"
 		female=yes
 		dynasty=1011003
@@ -2420,7 +2420,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 						father=esterhazy_0135	# Imre Esterházy de Galántha
 						mother=lowbor2_0930	# Alessandrina Rossi
 						1878.10.17={birth=yes}  # Réde
-						1909.04.14={add_spouse=100120448}	# Mária Cziráky de Czirák et Dénesfalva
+						1909.04.14={add_spouse=csiraky_0016}	# Mária Cziráky de Czirák et Dénesfalva
 						1942.10.15={death=yes}  # Réde
 					}
 						esterhazy_0138={ #// F1. József Antal Vince Hubert, *Bratislava 22.1.1911, +Zürich 27.11.1957; m.Budapest 17.9.1941 Alice Rudnay de Rudnó et Divékújfalu (*Budapest 25.3.1917)
@@ -2428,9 +2428,9 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 							dynasty=1011003
 							religion=catholic culture=hungarian
 							father=esterhazy_0137	# Pál Esterházy de Galántha
-							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
+							mother=csiraky_0016	# Mária Cziráky de Czirák et Dénesfalva
 							1911.01.22={birth=yes}  # Bratislava
-							1941.09.17={add_spouse=lowbor2_0936}	# Alice Rudnay de Rudnó et Divékújfalu
+							1941.09.17={add_spouse=lowbor2_0936}	# Alice Rudnay de Rudnó et Divék-Ujfalu
 							1957.11.27={death=yes}  # Zürich
 						}
 							esterhazy_0139={ #// G1. Pál, *Budapest 7.6.1942; m.Wörth am Rhein 6.4.1977 Christa Hohn (*Mohelnitz 6.9.1945)
@@ -2438,7 +2438,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 								dynasty=1011003
 								religion=catholic culture=hungarian
 								father=esterhazy_0138	# József Esterházy de Galántha
-								mother=lowbor2_0936	# Alice Rudnay de Rudnó et Divékújfalu
+								mother=lowbor2_0936	# Alice Rudnay de Rudnó et Divék-Ujfalu
 								1942.06.07={birth=yes}  # Budapest
 								1977.04.06={add_spouse=lowbor2_0937}	# Christa Hohn
 								2017.01.01={death=yes}  # EST.
@@ -2482,7 +2482,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 								dynasty=1011003
 								religion=catholic culture=hungarian
 								father=esterhazy_0138	# József Esterházy de Galántha
-								mother=lowbor2_0936	# Alice Rudnay de Rudnó et Divékújfalu
+								mother=lowbor2_0936	# Alice Rudnay de Rudnó et Divék-Ujfalu
 								1946.01.13={birth=yes}  # Budapest
 								1973.06.22={add_spouse=lowbor2_0938}	# Claudia Givel
 							}
@@ -2491,7 +2491,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 							dynasty=1011003
 							religion=catholic culture=hungarian
 							father=esterhazy_0137	# Pál Esterházy de Galántha
-							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
+							mother=csiraky_0016	# Mária Cziráky de Czirák et Dénesfalva
 							1913.10.19={birth=yes}  # Bratislava
 							1984.07.30={death=yes}  # Rome
 						}
@@ -2500,7 +2500,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 							dynasty=1011003
 							religion=catholic culture=hungarian
 							father=esterhazy_0137	# Pál Esterházy de Galántha
-							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
+							mother=csiraky_0016	# Mária Cziráky de Czirák et Dénesfalva
 							1919.07.22={birth=yes}  # Réde
 							1994.01.01={death=yes}  # EST.
 						}
@@ -2510,7 +2510,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 							dynasty=1011003
 							religion=catholic culture=hungarian
 							father=esterhazy_0137	# Pál Esterházy de Galántha
-							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
+							mother=csiraky_0016	# Mária Cziráky de Czirák et Dénesfalva
 							1910.02.11={birth=yes}  # Bratislava
 							1945.03.18={death=yes}  # shot to death Russian soldiers
 						}
@@ -2520,7 +2520,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 							dynasty=1011003
 							religion=catholic culture=hungarian
 							father=esterhazy_0137	# Pál Esterházy de Galántha
-							mother=100120448	# Mária Cziráky de Czirák et Dénesfalva
+							mother=csiraky_0016	# Mária Cziráky de Czirák et Dénesfalva
 							1923.12.19={birth=yes}  # Réde
 							2003.01.01={death=yes}  # EST.
 						}
@@ -2700,7 +2700,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 								mother=100115906	# Ilona Teleki de Szék
 								1951.09.29={birth=yes}  # Budapest
 							}
-						esterhazy_0165={ #// F2. Ilona Mária Antónia Erzsébet Gabriella Katalin Karolina, *Sárosd 17.5.1921; 1m: Budapest 23.8.1943 Miklós Gf Cziráky de Czirák et Denesfalva (*6.3.1918 +13.9.1944); 2m: Vaduz (civ) 21.12.1976 (rel) 10.1.1977 Pr Constantin von und zu Liechtenstein (*23.12.1911 +28.3.2001) $$
+						esterhazy_0165={ #// F2. Ilona Mária Antónia Erzsébet Gabriella Katalin Karolina, *Sárosd 17.5.1921, +2.8.2019; 1m: Budapest 23.8.1943 Miklós Gf Cziráky de Czirák et Denesfalva (*6.3.1918 +13.9.1944); 2m: Vaduz (civ) 21.12.1976 (rel) 10.1.1977 Pr Constantin von und zu Liechtenstein (*23.12.1911 +28.3.2001) $$
 							name=Ilona
 							female=yes
 							dynasty=1011003
@@ -2708,7 +2708,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 							father=esterhazy_0162	# László Esterházy de Galántha
 							mother=100116482	# Sarolta Széchenyi de Sárvár-Felsővidek
 							1921.05.17={birth=yes}  # Sárosd
-							2001.01.01={death=yes}  # EST.
+							2019.08.02={death=yes}
 						}
 						esterhazy_0166={ #// F3. Mária Emerika, *Sárosd 26.6.1922; m.Budapest 26.2.1942 Gf Ferenc Batthyany (*4.10.1915 +18.7.1998) $$
 							name="Mária Emerika"
@@ -2761,7 +2761,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 					1882.06.21={death=yes}  # Budapest
 				}
 				esterhazy_0172={ #// D7. Mária Johanna, *Sárosd 9.5.1856, +Rábakecöl 23.11.1940; m.Budapest 4.6.1878 Gf Béla Cziraky de Czirak et Denesfalva (*23.5.1852 +20.3.1911) $$
-					name="Mária Johanna"
+					name="Mária"
 					female=yes
 					dynasty=1011003
 					religion=catholic culture=hungarian
@@ -3140,7 +3140,6 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 					father=esterhazy_0193	# Mihály Esterházy de Galántha
 					mother=lowbor2_1010	# FRN Antonia Schröffl von Mannsperg und Schöffenheimb
 					1820.08.08={birth=yes}
-					1843.12.12={add_spouse=100035054}	# Lajos Álmos Lo Presti di Fontana d'Angioli
 					1878.09.22={death=yes}  # Bratislava
 				}
 				esterhazy_0219={ #// D11. Franziska, *19.1.1831, +Graz 12.7.1925; m.Bratislava 29.4.1865 Gf Albig von Khevenhüller-Metsch (*Talheim 19.11.1814, +Graz 14.9.1896) $$
@@ -3448,7 +3447,7 @@ esterhazy_0024={ #// János Esterházy von Galántha, cr Graf 1721, *Bratislava 
 		1727.01.01={birth=yes}
 		1770.12.03={death=yes}
 	}
-	esterhazy_0256={ #// A7. Zsofia, *1742, +1778; m.1762 Gf János Szunyogh de Jeszenicze et Budetin (*1724 +1798)
+	esterhazy_0256={ #// A7. Zsofia, *1742, +1778; m.1762 Gf János Szunyogh de Jeszenicze et Budetin (*1724 +1798) $$
 		name=Zsofia
 		female=yes
 		dynasty=1011003

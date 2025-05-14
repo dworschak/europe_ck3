@@ -940,7 +940,7 @@
 		1804.01.21={death=yes}  # Kirchberg
 	}
 	100008406={ #//  F7. [3m.] Friedrich Karl Ludwig, *Kirchberg 19.3.1751, +Weikersheim 12.9.1791; 1m: Wertheim 14.8.1778 (div 1785) Gfn Friederike Karoline zu Löwenstein-Wertheim-Virneburg (*17.3.1757 +19.12.1839); 2m: Laubach 19.12.1787 Gfn Christiane Luise zu Solms-Laubach (*7.8.1754, +3.3.1815) $$
-		name=Friedrich
+		name="Friedrich Karl"
 		dynasty_house=house_hohenlohe_kirchberg
 		religion=catholic culture=german
 		father=100003181	# Karl August zu Hohenlohe-Kirchberg
@@ -948,14 +948,14 @@
 		1751.03.19={birth=yes}  # Kirchberg
 		1778.08.14={add_spouse=100394229}	# Friederike Karoline von Löwenstein-Wertheim-Virneburg
 		1785.01.01={remove_spouse=100394229}
-		1787.12.19={add_spouse=100099169}	# GFN Christiane Luise zu Solms-Laubach
+		1787.12.19={add_spouse=solms_0019}	# Christiane Luise von Solms-Sonnenwalde
 		1791.09.12={death=yes}  # Weikersheim
 	}
 		100008748={ #//  G1. [1m.] Karl Friedrich Ludwig Heinrich Fürst zu Hohenlohe-Kirchberg, *Kirchberg 2.11.1780, +Kirchberg 16.12.1861; m.Ulm 26.5.1821 Gfn Maria von Urach (*Berlin 17.12.1802, +Kirchberg 28.1.1882) $$
 			name=Karl-Ludwig
 			dynasty_house=house_hohenlohe_kirchberg
 			religion=catholic culture=german
-			father=100008406	# Friedrich zu Hohenlohe-Kirchberg
+			father=100008406	# Friedrich Karl zu Hohenlohe-Kirchberg
 			mother=100394229	# Friederike Karoline von Löwenstein-Wertheim-Virneburg
 			1780.11.02={birth=yes}  # Kirchberg
 			1821.05.26={add_spouse=100008091}	# Marie von WU rttemberg
@@ -967,8 +967,8 @@
 			name=Christian
 			dynasty_house=house_hohenlohe_kirchberg
 			religion=catholic culture=german
-			father=100008406	# Friedrich zu Hohenlohe-Kirchberg
-			mother=100099169	# GFN Christiane Luise zu Solms-Laubach
+			father=100008406	# Friedrich Karl zu Hohenlohe-Kirchberg
+			mother=solms_0019	# Christiane Luise von Solms-Sonnenwalde
 			1788.12.22={birth=yes}  # Weikersheim
 			1833.01.01={add_spouse=100099171}	# CSS Екатерина Ивановна Голубцов
 			1856.01.01={add_spouse=100099437}	# Anna Therese Landzert
@@ -979,8 +979,8 @@
 			female=yes
 			dynasty_house=house_hohenlohe_kirchberg
 			religion=catholic culture=german
-			father=100008406	# Friedrich zu Hohenlohe-Kirchberg
-			mother=100099169	# GFN Christiane Luise zu Solms-Laubach
+			father=100008406	# Friedrich Karl zu Hohenlohe-Kirchberg
+			mother=solms_0019	# Christiane Luise von Solms-Sonnenwalde
 			1790.01.27={birth=yes}
 			1868.02.13={death=yes}  # Schloß Künzelsau
 		}
@@ -1020,7 +1020,7 @@
 			father=100001703	# Christian zu Hohenlohe-Langenburg
 			mother=100009732	# Karoline von Stolberg
 			1762.09.10={birth=yes}
-			1789.01.30={add_spouse=100005754}	# Amalie von  Solms-Baruth
+			1789.01.30={add_spouse=100005754}	# Amalie von Solms-Baruth
 			1825.04.04={death=yes}
 		}
 			100001705={ #//  2c) Elise Eleonore Charlotte (Langenburg 22 Nov 1790-Holitsch, Hungary 6 Oct 1830); m.Langenburg 10 Sep 1812 Viktor Amadeus, Landgrave of Hesse-Rotenburg (d.Schloß Zembowitz 12 Nov 1834) $$
@@ -1029,7 +1029,7 @@
 				dynasty_house=hohenlohe_langenburg
 				religion=catholic culture=german
 				father=100001704	# Carl Ludwig zu Hohenlohe-Langenburg
-				mother=100005754	# Amalie von  Solms-Baruth
+				mother=100005754	# Amalie von Solms-Baruth
 				1790.11.22={birth=yes}
 				1830.10.06={death=yes}
 			}
@@ -1039,7 +1039,7 @@
 				dynasty_house=hohenlohe_langenburg
 				religion=catholic culture=german
 				father=100001704	# Carl Ludwig zu Hohenlohe-Langenburg
-				mother=100005754	# Amalie von  Solms-Baruth
+				mother=100005754	# Amalie von Solms-Baruth
 				1792.02.23={birth=yes}
 				1847.07.25={death=yes}
 			}
@@ -1049,7 +1049,7 @@
 				dynasty_house=hohenlohe_langenburg
 				religion=catholic culture=german
 				father=100001704	# Carl Ludwig zu Hohenlohe-Langenburg
-				mother=100005754	# Amalie von  Solms-Baruth
+				mother=100005754	# Amalie von Solms-Baruth
 				1793.01.27={birth=yes}
 				1859.07.20={death=yes}
 			}
@@ -1058,7 +1058,7 @@
 				dynasty_house=hohenlohe_langenburg
 				religion=catholic culture=german
 				father=100001704	# Carl Ludwig zu Hohenlohe-Langenburg
-				mother=100005754	# Amalie von  Solms-Baruth
+				mother=100005754	# Amalie von Solms-Baruth
 				1794.05.07={birth=yes}
 				1828.02.18={add_spouse=100002474}	# Anna Feodora von Leiningen
 				1860.04.12={death=yes}
@@ -1458,7 +1458,7 @@
 				dynasty_house=hohenlohe_langenburg
 				religion=catholic culture=german
 				father=100001704	# Carl Ludwig zu Hohenlohe-Langenburg
-				mother=100005754	# Amalie von  Solms-Baruth
+				mother=100005754	# Amalie von Solms-Baruth
 				1799.08.22={birth=yes}
 				1881.01.17={death=yes}
 			}
@@ -1468,7 +1468,7 @@
 				dynasty_house=hohenlohe_langenburg
 				religion=catholic culture=german
 				father=100001704	# Carl Ludwig zu Hohenlohe-Langenburg
-				mother=100005754	# Amalie von  Solms-Baruth
+				mother=100005754	# Amalie von Solms-Baruth
 				1800.11.08={birth=yes}
 				1877.07.12={death=yes}
 			}
@@ -1477,7 +1477,7 @@
 				dynasty_house=hohenlohe_langenburg
 				religion=catholic culture=german
 				father=100001704	# Carl Ludwig zu Hohenlohe-Langenburg
-				mother=100005754	# Amalie von  Solms-Baruth
+				mother=100005754	# Amalie von Solms-Baruth
 				1806.10.09={birth=yes}
 				1881.11.16={death=yes}
 			}
@@ -1487,7 +1487,7 @@
 				dynasty_house=hohenlohe_langenburg
 				religion=catholic culture=german
 				father=100001704	# Carl Ludwig zu Hohenlohe-Langenburg
-				mother=100005754	# Amalie von  Solms-Baruth
+				mother=100005754	# Amalie von Solms-Baruth
 				1804.12.05={birth=yes}
 				1835.09.09={death=yes}
 			}
@@ -1497,7 +1497,7 @@
 				dynasty_house=hohenlohe_langenburg
 				religion=catholic culture=german
 				father=100001704	# Carl Ludwig zu Hohenlohe-Langenburg
-				mother=100005754	# Amalie von  Solms-Baruth
+				mother=100005754	# Amalie von Solms-Baruth
 				1807.11.22={birth=yes}
 				1880.09.05={death=yes}
 			}
@@ -4779,7 +4779,7 @@
 				father=100001950	# Viktor von Hohenlohe-Waldenburg-Schillingsfürst
 				mother=100001057	# Amalie von Fürstenberg
 				1849.04.06={birth=yes}  # Rauden
-				1911.01.05={add_spouse=100005737}	# Marie-Agnes von  Solms-Baruth
+				1911.01.05={add_spouse=100005737}	# Marie-Agnes von Solms-Baruth
 				1925.05.27={death=yes}
 			}
 			100001812={ #//  4c) Elisabeth (Rauden 27 Feb 1851-Münster 5 Oct 1928)
@@ -5398,7 +5398,7 @@
 							father=100001867	# Tassilo von Hohenlohe-Waldenburg-Schillingsfürst
 							mother=100022410	# Antoinette von Seilern u.Aspang
 							1960.08.27={birth=yes}
-							1988.04.16={add_spouse=100091733}	# GFN Marie-Teresa von Bulgarini
+							1988.04.16={add_spouse=100091733}	# GFN Marie-Teresa von Bulgarini d'Elci
 							2001.06.21={remove_spouse=100091733}
 							2004.10.01={add_spouse=100087738}	# Martina Malle
 						}
@@ -5408,7 +5408,7 @@
 								dynasty_house=house_hohenlohe_waldenburg_schilling
 								religion=catholic culture=german
 								father=100001876	# Karl-Albrecht Hubertus von Hohenlohe-Waldenburg-Schillingsfürst
-								mother=100091733	# GFN Marie-Teresa von Bulgarini
+								mother=100091733	# GFN Marie-Teresa von Bulgarini d'Elci
 								1990.05.31={birth=yes}
 							}
 							100001878={ #//  2g) Franziska Johanna Viktoria Christina Gina Maria (b.Vienna 15 May 1999)
@@ -5417,7 +5417,7 @@
 								dynasty_house=house_hohenlohe_waldenburg_schilling
 								religion=catholic culture=german
 								father=100001876	# Karl-Albrecht Hubertus von Hohenlohe-Waldenburg-Schillingsfürst
-								mother=100091733	# GFN Marie-Teresa von Bulgarini
+								mother=100091733	# GFN Marie-Teresa von Bulgarini d'Elci
 								1999.05.15={birth=yes}
 							}
 							100001879={ #//  3g) Lilliane Maria Carola Johanna Monika (b.Vienna 31 Mar 2007)

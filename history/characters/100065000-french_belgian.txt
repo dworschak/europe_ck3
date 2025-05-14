@@ -5371,7 +5371,7 @@
 	1469.01.04={death=yes}
 }
 	# ligne2 -> K1. Jean III, sn de Roubaix, chevalier de la Toison d'Or, +15.5.1491; m.16.5.1472 Jacqueline de Croy (+25.10.1486); for their issue see HERE
-	# ligne2 -> K2. Guillaume, sn de Barbancon, +bef 30.6.1519; m.ca 1475 Anne Adrianne van Halewyn (+1543); for their issue see HERE
+	# ligne4 -> K2. Guillaume, sn de Barbancon, +bef 30.6.1519; m.ca 1475 Anne Adrianne van Halewyn (+1543); for their issue see HERE
 #ligne1
 
 #ligne2
@@ -5523,7 +5523,7 @@
 										1730.05.23={birth=yes}
 										1783.01.02={death=yes}  # Mons
 									}
-									# ligne3  ->  I1. Charles-Joseph, , Pr d'Amblise et d'Epinoy, imperial field marshal, ambassador in Russia, correspondent of Voltaire and Rousseau, author of memoirs, *Brussels 23.5.1735, +Vienna 13.12.1814; m.Feldsberg 6.8.1755 Pss Maria Franziska von und zu Liechtenstein (*27.11.1739 +17.5.1821); for their issue see HERE
+									#ligne3   -->   I1. Charles-Joseph, , Pr d'Amblise et d'Epinoy, imperial field marshal, ambassador in Russia, correspondent of Voltaire and Rousseau, author of memoirs, *Brussels 23.5.1735, +Vienna 13.12.1814; m.Feldsberg 6.8.1755 Pss Maria Franziska von und zu Liechtenstein (*27.11.1739 +17.5.1821); for their issue see HERE
 								100069757={ #// H3. Pr Ferdinand, sn de Silly, *7.8.1686, +9.5.1757
 									name="Ferdinand [sn de Silly"
 									dynasty=1007002
@@ -6227,144 +6227,561 @@
 #ligne3
 
 #ligne4
-100397061={ #// Guillaume de Ligne, sn de Barbançon, +bef 30.6.1519; m.ca 1475 Anne Adriane van Halewyn (+1543)
+ligne_0001={ #// Guillaume de Ligne, sn de Barbançon, +bef 30.6.1519; m.Anne Adriane van Halewyn (+1543); They had issue:
 	name=Guillaume
 	dynasty=1007002
 	religion=catholic culture=french
 	father=100367061	# Michel de Ligne
 	1450.01.01={birth=yes}  # EST.
-	1519.01.01={death=yes}  # EST.
+	1475.01.01={add_spouse=lowbor2_0907}	# Anne Adriane van Halewyn
+	1519.01.01={death=yes}
 }
-	100397062={ #// A1. Louis de Ligne, sn de Barbançon, +ca 1559; m.27.2.1513 Marie de Glymes (+after 24.5.1566)
-		name=Guillaume
+	ligne_0002={ #// A1. Louis de Ligne, sn de Barbançon, +ca 1559; m.27.2.1513 Marie de Glymes (+after 24.5.1566)
+		name=Louis
 		dynasty=1007002
 		religion=catholic culture=french
-		father=100397061	# Guillaume de Ligne
-		1483.01.01={birth=yes}  # EST.
+		father=ligne_0001	# Guillaume de Ligne
+		mother=lowbor2_0907	# Anne Adriane van Halewyn
+		1489.01.01={birth=yes}  # EST.
+		1513.02.27={add_spouse=lowbor2_1589}	# Marie de Glymes
 		1559.01.01={death=yes}
 	}
-		100295885={ #// B1. Jean de Ligne, comte d'Arenberg, baron de Barbançon, heer van Zevenbergen, stadholder of Groningen and Friesland, *1528, +k.a.Heiligerlee 23.5.1568; m.Grave 18.10.1547 Gfn Margarethe von der Marck, Css d'Arenberg (*15.2.1527 +18.2.1599)
+		ligne_0003={ #// B1. Jean de Ligne, comte d'Arenberg, baron de Barbançon, heer van Zevenbergen, stadholder of Groningen and Friesland, *1528, +k.a.Heiligerlee 23.5.1568; m.Grave 18.10.1547 Gfn Margarethe von der Marck, Css d'Arenberg (*15.2.1527 +18.2.1599)
 			name=Jean
-			dynasty=1002040
+			dynasty=1007002
 			religion=catholic culture=french
-			father=100397062	# Guillaume de Ligne
+			father=ligne_0002	# Louis de Ligne
+			mother=lowbor2_1589	# Marie de Glymes
 			1528.01.01={birth=yes}
-			1549.01.01={add_spouse=100093355}	# GFN Margarethe von der Marck
-			1568.05.23={death=yes}
+			1547.10.18={add_spouse=lowbor2_1620}	# GFN Margarethe von der Marck
+			1568.05.23={death=yes}  # Heiligerlee
 		}
-			100295886={ #// C1. Charles de Ligne, Prince d'Arenberg, Duc d'Aerschot, *Vollenhove 22.2.1550, +Enghien 18.1.1616; m.Beaumont 4.1.1587 Anne de Croy, Dss d'Aerschot (*4.1.1564 +26.2.1635) $$
+			ligne_0004={ #// C1. Charles de Ligne, Prince d'Arenberg, Duc d'Aerschot, *Vollenhove 22.2.1550, +Enghien 18.1.1616; m.Beaumont 4.1.1587 Anne de Croy, Dss d'Aerschot (*4.1.1564 +26.2.1635) $$
 				name=Charles
-				dynasty=1002040
+				dynasty=1007002
 				religion=catholic culture=french
-				father=100295885	# Jean von Arenberg
-				mother=100093355	# GFN Margarethe von der Marck
-				1550.02.22={birth=yes}
+				father=ligne_0003	# Jean de Ligne
+				mother=lowbor2_1620	# GFN Margarethe von der Marck
+				1550.02.22={birth=yes}  # Vollenhove
 				1587.01.04={add_spouse=100012841}	# Anne de Croÿ
-				1616.01.18={death=yes}
+				1616.01.18={death=yes}  # Enghien
 			}
-				100295887={ #// D1. Philippe-Charles, Prince d'Arenberg, Duc d'Aerschot, *Barbançon 28.10.1587, +Madrid 25.9.1640; 1m: 21.9.1610 Pierre Hippolyte Anne de Melun, Bsse de Caumont (+16.2.1615); 2m: 28.6.1620 Isabelle Claire de Berlaymont, Css de Lalaing (*18.8.1602, +9.8.1630); 3m: Köln 29.3.1632 Gfn Maria Cleopha von Hohenzollern-Sigmaringen (*11.6.1599 +26.2.1685) $$
+				ligne_0005={ #// D1. Philippe-Charles, Prince d'Arenberg, Duc d'Aerschot, *Barbançon 28.10.1587, +Madrid 25.9.1640; 1m: 21.9.1610 Pierre Hippolyte Anne de Melun, Bsse de Caumont (+16.2.1615); 2m: 28.6.1620 Isabelle Claire de Berlaymont, Css de Lalaing (*18.8.1602, +9.8.1630); 3m: Köln 29.3.1632 Gfn Maria Cleopha von Hohenzollern-Sigmaringen (*11.6.1599 +26.2.1685) $$
 					name=Philippe-Charles
-					dynasty=1002040
+					dynasty=1007002
 					religion=catholic culture=french
-					father=100295886	# Charles von Arenberg
+					father=ligne_0004	# Charles de Ligne
 					mother=100012841	# Anne de Croÿ
-					1587.10.28={birth=yes}
+					1587.10.28={birth=yes}  # Barbançon
+					1610.09.21={add_spouse=lowbor2_1632}	# BSSE Pierre Anne Hippolyte de Melun de Caumont
+					1620.06.28={add_spouse=lowbor2_1637}	# CSS Isabelle Claire de Berlaymont de Lalaing
 					1632.03.29={add_spouse=100002300}	# Maria Cleopha von Hohenzollern-Sigmaringen
-					1640.09.25={death=yes}
+					1640.09.25={death=yes}  # Madrid
 				}
-					100295888={ #// E1. [1m.] Pss Claire Eugenie, Bsse de Caumont, *Brussels 23.10.1611, +24.12.1660; m.Enghien 8.11.1635 her cousin Albert de Ligne, Pr de Chimay et de Croy d'Arenberg (*15.2.1618, +16.11.1643) $$
-						name=Claire
+					ligne_0006={ #// E1. [1m.] Pss Claire Eugenie, Bsse de Caumont, *Brussels 23.10.1611, +24.12.1660; m.Enghien 8.11.1635 her cousin Albert de Ligne, Pr de Chimay et de Croy d'Arenberg (*15.2.1618, +16.11.1643) $$
+						name="Claire Eugenie"
 						female=yes
-						dynasty=1002040
+						dynasty=1007002
 						religion=catholic culture=french
-						father=100295887	# Philippe-Charles von Arenberg
+						father=ligne_0005	# Philippe-Charles de Ligne
+						mother=lowbor2_1632	# BSSE Pierre Anne Hippolyte de Melun de Caumont
+						1611.10.23={birth=yes}  # Brussels
+						1660.12.24={death=yes}
+					}
+					ligne_0007={ #// E2. [1m.] Pss Anne Marie, *1613, +1626
+						name=Anne
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0005	# Philippe-Charles de Ligne
+						mother=lowbor2_1632	# BSSE Pierre Anne Hippolyte de Melun de Caumont
+						1613.01.01={birth=yes}
+						1626.01.01={death=yes}
+					}
+					ligne_0008={ #// E3. [2m.] Philippe Francois, Prince d'Arenberg, Duc d'Aerschot, -cr Duc d'Arenberg 1645, *Brussels 30.7.1625, +Brussels 17.12.1674; m.14.7.1642 Dona Magdalena Francisca de Borja y Doria (*16.12.1627, +21.6.1700)
+						name="Philippe Francois"
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0005	# Philippe-Charles de Ligne
+						mother=lowbor2_1637	# CSS Isabelle Claire de Berlaymont de Lalaing
+						1625.07.30={birth=yes}  # Brussels
+						1642.07.14={add_spouse=lowbor2_1669}	# DONA Magdalena de Borja y Doria
+						1674.12.17={death=yes}  # Brussels
+					}
+						ligne_0010={ #// F2. Pss Isabelle, *12.7.1644, +5.10.1655
+							name=Isabelle
+							female=yes
+							dynasty=1007002
+							religion=catholic culture=french
+							father=ligne_0008	# Philippe Francois de Ligne
+							mother=lowbor2_1669	# DONA Magdalena de Borja y Doria
+							1644.07.12={birth=yes}
+							1655.10.05={death=yes}
+						}
+					ligne_0012={ #// E5. [2m.] Pss Marguerite Alexandrine, bap Brussels 3.11.1626, +Saint-Omer 18.7.1651; m.28.4.1649 Eugene de Montmorency, Pr de Robecq (+I.1683) $$
+						name="Marguerite Alexandrine"
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0005	# Philippe-Charles de Ligne
+						mother=lowbor2_1637	# CSS Isabelle Claire de Berlaymont de Lalaing
+						1626.11.03={birth=yes}  # Brussels
+						1651.07.18={death=yes}
+					}
+					ligne_0013={ #// E6. [2m.] Pss Jeanne Ernestine, *Brussels 9.4.1628, +Brussels 12.10.1663; m.Brussels 3/4.5.1656 Alexander Hyppolite de Henin-Lietard, Duc et Pr de Bournonville, Vice-roi of Catalonia and Navarre (*5.1.1616, +Pamplona 20.8.1690)
+						name="Jeanne Ernestine"
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0005	# Philippe-Charles de Ligne
+						mother=lowbor2_1637	# CSS Isabelle Claire de Berlaymont de Lalaing
+						1628.04.09={birth=yes}  # Brussels
+						1663.10.12={death=yes}  # Brussels
+					}
+					ligne_0014={ #// E7. [2m.] Pss Clare Isabelle, *Brussels 2.11.1629, +Messkirch 7.9.1670, bur Wolfegg; m.Lindau am Bodensee 26.12.1670 Gf Maximilian Willibald von Waldburg zu Wolfegg (*Wolfegg 18.9.1604, +Amberg 30.1.1667) $$
+						name="Clare Isabelle"
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0005	# Philippe-Charles de Ligne
+						mother=lowbor2_1637	# CSS Isabelle Claire de Berlaymont de Lalaing
 						1629.11.02={birth=yes}  # Brussels
 						1670.09.07={death=yes}  # Messkirch
 					}
-					100295889={ #// E9. [3m.] Pss Marie Thérese, *Madrid 2/22.4.1639, +Messkirch 18.1.1705; m.Brussels 4.1.1660 Gf Franz Christof von Fürstenberg (*28.7.1625 +22.9.1671) $$
-						name="Maria Theresia"
-						female=yes
-						dynasty=1002040
-						religion=catholic culture=french
-						father=100295887	# Philippe-Charles von Arenberg
-						mother=100002300	# Maria Cleopha von Hohenzollern-Sigmaringen
-						1639.04.22={birth=yes}	# Madrid
-						1705.01.18={death=yes}	# Messkirch
-					}
-					100295432={ #// E8. [3m.] Charles Eugene, 2.Duc d'Arenberg, 8.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Brussels 8.5.1633, +Mons 25.6.1681; m.Dole 19.6.1660 Marie Henriette de Cusance et de Vergy, Marquise de Varambon, Css de Champlitte (*Sancey 1.5.1624, +Leuven 8.5.1701)
+					ligne_0015={ #// E8. [3m.] Charles Eugene, 2.Duc d'Arenberg, 8.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Brussels 8.5.1633, +Mons 25.6.1681; m.Dole 19.6.1660 Marie Henriette de Cusance et de Vergy, Marquise de Varambon, Css de Champlitte (*Sancey 1.5.1624, +Leuven 8.5.1701)
 						name="Charles Eugene"
-						dynasty=1002040
+						dynasty=1007002
 						religion=catholic culture=french
-						father=100295887	# Philippe-Charles von Arenberg
+						father=ligne_0005	# Philippe-Charles de Ligne
 						mother=100002300	# Maria Cleopha von Hohenzollern-Sigmaringen
-						1633.05.03={birth=yes}	# Brussel
-						1681.06.25={death=yes}	# Mons
+						1633.05.08={birth=yes}  # Brussels
+						1660.06.19={add_spouse=lowbor2_1673}	# MARQUISE Marie Henriette de Cusance et de Vergy de Champlitte
+						1681.06.25={death=yes}  # Mons
 					}
-						100295433={ #// F1. Philippe Charles François, 3.Duc d'Arenberg, 9.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *14.5.1663, +k.a.Peterwardein 25.8.1691; m.Brussels 12.2.1684 Donna Maria Enrietta del Caretto, Marchesa di Savona y Grana (*20.9.1671 +22.2.1744)
-							name="Philippe Charles François"
-							dynasty=1002040
+						ligne_0016={ #// F1. Philippe Charles François, 3.Duc d'Arenberg, 9.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *14.5.1663, +k.a.Peterwardein 25.8.1691; m.Brussels 12.2.1684 Donna Maria Enrietta del Caretto, Marchesa di Savona y Grana (*20.9.1671 +22.2.1744) $$
+							name=Philippe
+							dynasty=1007002
 							religion=catholic culture=french
-							father=100295432	# Charles Eugene von Arenberg
-							1663.01.01={birth=yes}
-							1691.01.01={death=yes}
+							father=ligne_0015	# Charles Eugene de Ligne
+							mother=lowbor2_1673	# MARQUISE Marie Henriette de Cusance et de Vergy de Champlitte
+							1663.05.14={birth=yes}
+							1684.02.12={add_spouse=delcarreto_0035}	# Maria Enrichetta del Carretto
+							1691.08.25={death=yes}  # Peterwardein
 						}
-							100000368={ #// G1. Pss Marie Anne, *30.8.1689, +Utrecht 24.4.1736; m.Brussels 20.11.1707 Francois Egon de La Tour Cte d'Auvergne (*15.12.1675 +26.7.1710) $$
+							ligne_0017={ #// G1. Pss Marie Anne, *30.8.1689, +Utrecht 24.4.1736; m.Brussels 20.11.1707 Francois Egon de La Tour Cte d'Auvergne (*15.12.1675 +26.7.1710) $$
 								name="Marie Anne"
 								female=yes
-								dynasty=1002040
+								dynasty=1007002
 								religion=catholic culture=french
-								father=100295433	# Philippe Charles François von Arenberg
+								father=ligne_0016	# Philippe de Ligne
+								mother=delcarreto_0035	# Maria Enrichetta del Carretto
 								1689.08.30={birth=yes}
 								1736.04.24={death=yes}  # Utrecht
 							}
-							100200203={ #// G2. Léopold-Philippe, 4.Duc d'Arenberg, 10.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Brussels 14.10.1690, +Heverlee 4.3.1754; m.Brussels 29.3.1711 Donna Maria Francesca Pignatelli, Dssa di Bisaccia, Css van Egmond (*Brussels 4.6.1696, +Brussels 3.5.1766)
-								name="Leopold Philippe"
-								dynasty=1002040
+							ligne_0018={ #// G2. Léopold-Philippe, 4.Duc d'Arenberg, 10.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Brussels 14.10.1690, +Heverlee 4.3.1754; m.Brussels 29.3.1711 Donna Maria Francesca Pignatelli, Dssa di Bisaccia, Css van Egmond (*Brussels 4.6.1696, +Brussels 3.5.1766)
+								name=Léopold-Philippe
+								dynasty=1007002
 								religion=catholic culture=french
-								father=100295433	# Philippe Charles François von Arenberg
-								1690.10.14={birth=yes}
-								1754.03.04={death=yes}
+								father=ligne_0016	# Philippe de Ligne
+								mother=delcarreto_0035	# Maria Enrichetta del Carretto
+								1690.10.14={birth=yes}  # Brussels
+								1711.03.29={add_spouse=lowbor2_1676}	# DSSA Maria Francesca Pignatelli di Bisaccia
+								1754.03.04={death=yes}  # Heverlee
 							}
-								100189304={ #// H5. Pss Marie Flore, *Enghien 23.10.1722, +Brussels 10.2.1776; m.Heverlee 12.1.1744 Jean Charles Joseph Cte de Merode-Montfort (*3.12.1719, +10.8.1774) $$
-									name="Marie Flore"
-									female=yes
-									dynasty=1002040
+								#ligne5   -->    H1. Charles Marie Raymond, 5.Duc d'Arenberg, 11.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Enghien 1.4.1721, +Enghien 17.8.1778; m.Paris 18.6.1748 Louise Marguerite von der Marck, Css de La Marck, Gfn van Schleiden (*10.7.1730 +18.8.1820); for their issue see HERE
+								ligne_0020={ #// H2. Pr Leopold Charles, *13.9.1726, +14.12.1745
+									name="Leopold Charles"
+									dynasty=1007002
 									religion=catholic culture=french
-									father=100200203	# Leopold Philippe von Arenberg
+									father=ligne_0018	# Léopold-Philippe de Ligne
+									mother=lowbor2_1676	# DSSA Maria Francesca Pignatelli di Bisaccia
+									1726.09.13={birth=yes}
+									1745.12.14={death=yes}
+								}
+								ligne_0021={ #// H3. Pss Marie Victoire Pauline, *Brussels 26.10.1714, +Strasbourg 13.4.1793; m.Neuhaus 7.12.1735 Markgraf August Georg von Baden-Baden (*14.1.1706 +21.10.1771) $$
+									name="Marie Victoire"
+									female=yes
+									dynasty=1007002
+									religion=catholic culture=french
+									father=ligne_0018	# Léopold-Philippe de Ligne
+									mother=lowbor2_1676	# DSSA Maria Francesca Pignatelli di Bisaccia
+									1714.10.26={birth=yes}  # Brussels
+									1793.04.13={death=yes}  # Strasbourg
+								}
+								ligne_0022={ #// H4. Pss Marie Adelaide, *30.9.1719, +23.2.1792
+									name="Marie Adelaide"
+									female=yes
+									dynasty=1007002
+									religion=catholic culture=french
+									father=ligne_0018	# Léopold-Philippe de Ligne
+									mother=lowbor2_1676	# DSSA Maria Francesca Pignatelli di Bisaccia
+									1719.09.30={birth=yes}
+									1792.02.23={death=yes}
+								}
+								ligne_0023={ #// H5. Pss Marie Flore, *Enghien 23.10.1722, +Brussels 10.2.1776; m.Heverlee 12.1.1744 Jean Charles Joseph Cte de Merode-Montfort (*3.12.1719, +10.8.1774) $$
+									name=Marie
+									female=yes
+									dynasty=1007002
+									religion=catholic culture=french
+									father=ligne_0018	# Léopold-Philippe de Ligne
+									mother=lowbor2_1676	# DSSA Maria Francesca Pignatelli di Bisaccia
 									1722.10.23={birth=yes}  # Enghien
 									1776.02.10={death=yes}  # Brussels
 								}
-								#ligne5   -->   H1. Charles Marie Raymond, 5.Duc d'Arenberg, 11.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Enghien 1.4.1721, +Enghien 17.8.1778; m.Paris 18.6.1748 Louise Marguerite von der Marck, Css de La Marck, Gfn van Schleiden (*10.7.1730 +18.8.1820); for their issue see HERE
-			100062015={ #// C4. Pr Robert d'Arenberg, -cr Pr de Barbançon 8.2.1614, *11.11.1564, +2.3.1614; m.VI.1588 Gfn Claudia zu Salm (*12.11.1569, +II.1632) $$
+								ligne_0024={ #// H6. Pss Marie Eulalie, *30.10.1726, +14.12.1745
+									name=Marie
+									female=yes
+									dynasty=1007002
+									religion=catholic culture=french
+									father=ligne_0018	# Léopold-Philippe de Ligne
+									mother=lowbor2_1676	# DSSA Maria Francesca Pignatelli di Bisaccia
+									1726.10.30={birth=yes}
+									1745.12.14={death=yes}
+								}
+						ligne_0025={ #// F2. Pr Alexander Joseph, *24.5.1664, +7.7.1683
+							name="Alexander Joseph"
+							dynasty=1007002
+							religion=catholic culture=french
+							father=ligne_0015	# Charles Eugene de Ligne
+							mother=lowbor2_1673	# MARQUISE Marie Henriette de Cusance et de Vergy de Champlitte
+							1664.05.24={birth=yes}
+							1683.07.07={death=yes}
+						}
+						ligne_0026={ #// F3. Pss Marie-Thérese, *Brussels 25.7.1666, +Brussels 31.5.1716; 1m: 10.6.1683 Don Ottone Enrico del Caretto, Marchese di Savona y Grana (*1639 +25.6.1685); 2m: Brussels 10.2.1687 Gf Lodewijk Ernst van Egmond (*1666 +17.9.1693) $$
+							name=Marie-Thérese
+							female=yes
+							dynasty=1007002
+							religion=catholic culture=french
+							father=ligne_0015	# Charles Eugene de Ligne
+							mother=lowbor2_1673	# MARQUISE Marie Henriette de Cusance et de Vergy de Champlitte
+							1666.07.25={birth=yes}  # Brussels
+							1716.05.31={death=yes}  # Brussels
+						}
+					ligne_0027={ #// E9. [3m.] Pss Marie Thérese, *Madrid 2/22.4.1639, +Messkirch 18.1.1705; m.Brussels 4.1.1660 Gf Franz Christof von Fürstenberg (*28.7.1625 +22.9.1671) $$
+						name="Marie Thérese"
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=castilian
+						father=ligne_0005	# Philippe-Charles de Ligne
+						mother=100002300	# Maria Cleopha von Hohenzollern-Sigmaringen
+						1639.04.22={birth=yes}  # Madrid
+						1705.01.18={death=yes}  # Messkirch
+					}
+				ligne_0028={ #// D2. Pr Alexander, inherited from his uncle the titles of Duc de Croy and Prince de Chimay in 1613, Cte de Beaumont, Heer van Avesnes, *Brussels 15.9.1590, +k.a.Wesel 16.8.1629; m.21.11.1613 Pss Magdalena van Egmond (*1596 +Köln 7.11.1663)
+					name=Alexander
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1590.09.15={birth=yes}  # Brussels
+					1613.11.21={add_spouse=lowbor2_1683}	# PSS Magdalena van Egmond
+					1629.08.16={death=yes}  # Wesel
+				}
+					ligne_0029={ #// E1. Pss Isabelle Francoise, *1.4.1615, +16.1.1677; m.5.7.1636 Lodovico Gonzaga Marchese of Mantua (*1599 +1660)
+						name="Isabelle Francoise"
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0028	# Alexander de Ligne
+						mother=lowbor2_1683	# PSS Magdalena van Egmond
+						1615.04.01={birth=yes}
+						1677.01.16={death=yes}
+					}
+					ligne_0030={ #// E2. Pss Anna Isabelle, *1616, +1658; m.Brussels 8.10.1641 Eugene de Henin-Lietard, Cte de Boussu (*2.5.1614 +18.12.1656)
+						name="Anna Isabelle"
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0028	# Alexander de Ligne
+						mother=lowbor2_1683	# PSS Magdalena van Egmond
+						1616.01.01={birth=yes}
+						1658.01.01={death=yes}
+					}
+					ligne_0031={ #// E3. Albert, 7.Pr de Chimay et de Croy d'Arenberg, *Brussels 15.2.1618, +Brussels 16.11.1643; m.Enghien 8.11.1635 his cousin Pss Claire Eugenie d'Arenberg (*23.10.1611, +24.12.1660) $$
+						name=Albert
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0028	# Alexander de Ligne
+						mother=lowbor2_1683	# PSS Magdalena van Egmond
+						1618.02.15={birth=yes}  # Brussels
+						1635.11.08={add_spouse=ligne_0006}	# Claire Eugenie de Ligne
+						1643.11.16={death=yes}  # Brussels
+					}
+					ligne_0032={ #// E4. Philippe, 8.Pr de Chimay et de Croy d'Arenberg, *Brussels 8.5.1619, +Luxembourg 12.1.1675; m.Brussels 24.2.1642 Theodore Maximilienne de Gavre, (+XI.1676)
+						name=Philippe
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0028	# Alexander de Ligne
+						mother=lowbor2_1683	# PSS Magdalena van Egmond
+						1619.05.08={birth=yes}  # Brussels
+						1642.02.24={add_spouse=lowbor2_1687}	# Theodore Maximilienne de Gavre
+						1675.01.12={death=yes}  # Luxembourg
+					}
+						ligne_0033={ #// F1. Ernest Alexandre Dominique de Ligne-Arenberg, 9.Pr de Chimay et de Croy d'Arenberg, *26.12.1643, +Pamplona 3.6.1686; m.19.10.1675 Maria Antonia de Cardenas (+28.8.1691)
+							name=Ernest
+							dynasty=1007002
+							religion=catholic culture=french
+							father=ligne_0032	# Philippe de Ligne
+							mother=lowbor2_1687	# Theodore Maximilienne de Gavre
+							1643.12.26={birth=yes}
+							1675.10.19={add_spouse=lowbor2_1688}	# Maria Antonia de Cardenas
+							1686.06.03={death=yes}  # Pamplona
+						}
+				ligne_0034={ #// D3. Pr Charles d'Arenberg, *Barbancon 13.11.1588, +Rome 21.4.1613
+					name=Charles
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1588.11.13={birth=yes}  # Barbancon
+					1613.04.21={death=yes}  # Rome
+				}
+				ligne_0035={ #// D4. Pr Salentin d'Arenberg, *Brussels 16.12.1591, +Brussels 15.8.1592
+					name=Salentin
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1591.12.16={birth=yes}  # Brussels
+					1592.08.15={death=yes}  # Brussels
+				}
+				ligne_0036={ #// D5. Pr Antoine, Cte de Seneghem, *21.2.1593, +5.6.1669
+					name=Antoine
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1593.02.21={birth=yes}
+					1669.06.05={death=yes}
+				}
+				ligne_0037={ #// D6. Pr Eugene Charles, Cte de Seneghem, *12.7.1600, +Saragossa 19.9.1635
+					name="Eugene Charles"
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1600.07.12={birth=yes}
+					1635.09.19={death=yes}  # Saragossa
+				}
+				ligne_0038={ #// D7. Pss Ernestine, *Brussels 31.10.1589, +Abbeville 12.6.1653; m.Brussels 3/13.11.1615 Guillaume de Melun, Pr d'Epinoy (*8.3.1588, +8.9.1635)
+					name=Ernestine
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1589.10.31={birth=yes}  # Brussels
+					1653.06.12={death=yes}  # Abbeville
+				}
+				ligne_0039={ #// D8. Pss Claude, *20.8.1594, +1670; 1m: 10.5.1609 Bertin Spinola, Cte de Bruay; 2m: 25.2.1622 Ottavio Visconti, Cte de Gamalerio
+					name=Claude
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1594.08.20={birth=yes}
+					1670.01.01={death=yes}
+				}
+				ligne_0040={ #// D9. Pss Albertine, *Brussels 28.5.1596, +19.7.1652; m.10.12.1617 Frhr Hermann Philip von Merode-Houffalize, Marquis de Trélon, Cte de Bocarme (*Argenteau 20.6.1590, +Chateau de Trelon 3.4.1627)
+					name=Albertine
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1596.05.28={birth=yes}  # Brussels
+					1652.07.19={death=yes}
+				}
+				ligne_0041={ #// D10. Pss Dorothée, *Gent 26.11.1601, +Gent 1665; m.Enghien 15.4.1628 Philippe Lamoral de Hornes, Cte de Houtekercke et Herlies (*25.5.1602, +18.2.1654)
+					name=Dorothée
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1601.11.26={birth=yes}  # Gent
+					1665.01.01={death=yes}  # Gent
+				}
+				ligne_0042={ #// D11. Pss Caroline Ernestine, *Brussels 6.9.1606, +Enghien 12.9.1630; m.château d'Enghien 1.9.1625 Gf Ernst von Isenburg-Grenzau (*1584 +30.5.1664)
+					name="Caroline Ernestine"
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0004	# Charles de Ligne
+					mother=100012841	# Anne de Croÿ
+					1606.09.06={birth=yes}  # Brussels
+					1630.09.12={death=yes}  # Enghien
+				}
+			ligne_0045={ #// C4. Pr Robert d'Arenberg, -cr Pr de Barbançon 8.2.1614, *11.11.1564, +2.3.1614; m.VI.1588 Gfn Claudia zu Salm (*12.11.1569, +II.1632) $$
 				name=Robert
-				dynasty=1002040
+				dynasty=1007002
 				religion=catholic culture=french
-				father=100295885	# Jean von Arenberg
-				mother=100093355	# GFN Margarethe von der Marck
-				1564.01.01={birth=yes}
+				father=ligne_0003	# Jean de Ligne
+				mother=lowbor2_1620	# GFN Margarethe von der Marck
+				1564.11.11={birth=yes}
 				1588.06.01={add_spouse=100004053}	# Claudia von Salm
 				1614.03.02={death=yes}
 			}
-				100062014={ #// D1. Albert Francois Pr et Duc d'Arenberg, 2.Prince de Barbançon, Gouverneur de Namur, *22.7.1600, +Madrid 8.4.1674; m.8.5.1616 Css Marie de Ligne Barbançon, vicomtesse de Dave (*20.4.1602, +after 1675)
-					name=Albert
-					dynasty=1002040
+				ligne_0046={ #// D1. Albert Francois Pr et Duc d'Arenberg, 2.Prince de Barbançon, Gouverneur de Namur, *22.7.1600, +Madrid 8.4.1674; m.8.5.1616 Css Marie de Ligne Barbançon, vicomtesse de Dave (*20.4.1602, +after 1675) $$
+					name="Albert Francois"
+					dynasty=1007002
 					religion=catholic culture=french
-					father=100062015	# Robert von Arenberg
+					father=ligne_0045	# Robert de Ligne
 					mother=100004053	# Claudia von Salm
-					1600.01.01={birth=yes}
-					1622.01.01={add_spouse=100092731}	# VCSS Marie de Barbançon
-					1674.01.01={death=yes}
+					1600.07.22={birth=yes}
+					1616.05.08={add_spouse=ligne_0054}	# Marie de Ligne
+					1674.04.08={death=yes}  # Madrid
 				}
-					100062013={ #// E3. Pss Isabelle Madeleine, Dss d'Arenberg, *Barbançon 1623, +Paris 17.8.1678, bur Barbançon; 1m: Antwerpen 4.11.1637 Cte Albert Francois de Lalaing, Cte de Hoogstraeten (*1610 +1643); 2m: Brussels 15.5.1651 Duke Ulrich von Württemberg-Neuenburg (*15.5.1617 +5.12.1671) $$
+					ligne_0047={ #// E1. Octave Ignace Pr et Duc d'Arenberg, 3.Prince de Barbançon, *12.3.1643, +k.a.Neerwinden 29.7.1693; m.17.1.1672 Teresa Maria Cssa Manrique de Lara (+1.8.1696)
+						name=Octave
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0046	# Albert Francois de Ligne
+						mother=ligne_0054	# Marie de Ligne
+						1643.03.12={birth=yes}
+						1672.01.17={add_spouse=lowbor2_1697}	# CSSA Teresa Manrique de Lara
+						1693.07.29={death=yes}  # Neerwinden
+					}
+						ligne_0048={ #// F1. Pss María Teresa Joaquina, *12.3.1673, +10.7.1738; m.14.12.1714 Henri de Wignacourt, Cte de Lannoy
+							name="María Teresa"
+							female=yes
+							dynasty=1007002
+							religion=catholic culture=french
+							father=ligne_0047	# Octave de Ligne
+							mother=lowbor2_1697	# CSSA Teresa Manrique de Lara
+							1673.03.12={birth=yes}
+							1738.07.10={death=yes}
+						}
+						ligne_0049={ #// F2. Pss Manuela Maria, *28.12.1675, +28.6.1742
+							name=Manuela
+							female=yes
+							dynasty=1007002
+							religion=catholic culture=french
+							father=ligne_0047	# Octave de Ligne
+							mother=lowbor2_1697	# CSSA Teresa Manrique de Lara
+							1675.12.28={birth=yes}
+							1742.06.28={death=yes}
+						}
+					ligne_0050={ #// E2. Pr Jacques Claude, *13.3.1624, +1644
+						name=Jacques
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0046	# Albert Francois de Ligne
+						mother=ligne_0054	# Marie de Ligne
+						1624.03.13={birth=yes}
+						1644.01.01={death=yes}
+					}
+					ligne_0051={ #// E3. Pss Isabelle Madeleine, Dss d'Arenberg, *Barbançon 1623, +Paris 17.8.1678, bur Barbançon; 1m: Antwerpen 4.11.1637 Cte Albert Francois de Lalaing, Cte de Hoogstraeten (*1610 +1643); 2m: Brussels 15.5.1651 Duke Ulrich von Württemberg-Neuenburg (*15.5.1617 +5.12.1671) $$
 						name="Isabelle Madeleine"
 						female=yes
-						dynasty=1002040
+						dynasty=1007002
 						religion=catholic culture=french
-						father=100062014	# Albert von Arenberg
-						mother=100092731	# VCSS Marie de Barbançon
-						1623.01.01={birth=yes}	# Barbançon
-						1678.08.17={death=yes}	# Paris
+						father=ligne_0046	# Albert Francois de Ligne
+						mother=ligne_0054	# Marie de Ligne
+						1623.01.01={birth=yes}  # Barbançon
+						1678.08.17={death=yes}  # Paris
 					}
+					ligne_0052={ #// E4. Pss Dorothee Caroline, +7.5.1642
+						name="Dorothee Caroline"
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=french
+						father=ligne_0046	# Albert Francois de Ligne
+						mother=ligne_0054	# Marie de Ligne
+						1625.01.01={birth=yes}  # EST.
+						1642.05.07={death=yes}
+					}
+			ligne_0053={ #// C5. Everhard, Baron de Barbaçon, *ca 1565, +31.12.1608; m.5.5.1601 Louise von Ostfriesland (+16.10.1607) $$
+				name=Everhard
+				dynasty=1007002
+				religion=catholic culture=french
+				father=ligne_0003	# Jean de Ligne
+				mother=lowbor2_1620	# GFN Margarethe von der Marck
+				1565.01.01={birth=yes}
+				1601.05.05={add_spouse=cirksena_0035}	# Louise Cirksena
+				1608.12.31={death=yes}
+			}
+				ligne_0054={ #// D1. Marie, vicomtesse de Dave, *20.4.1602, +after 1675; m.8.5.1616 Pr et Duc Albert Francois d'Arenberg, Pr de Barbançon (*22.7.1600 +8.4.1674) $$
+					name=Marie
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=french
+					father=ligne_0053	# Everhard de Ligne
+					mother=cirksena_0035	# Louise Cirksena
+					1602.04.20={birth=yes}
+					1676.01.01={death=yes}
+				}
+			ligne_0055={ #// C6. Pss Marguerite, *24.2.1552, +24.2.1611; m.7.6.1569 Cte Philippe de Lalaing, baron d'Escornaix (*1537 +24.5.1582)
+				name=Marguerite
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=french
+				father=ligne_0003	# Jean de Ligne
+				mother=lowbor2_1620	# GFN Margarethe von der Marck
+				1552.02.24={birth=yes}
+				1611.02.24={death=yes}
+			}
+			ligne_0056={ #// C7. Pss Antonia Wilhelmina, *1.3.1557, +26.2.1626; m.Bonn 10.12.1577 Gf Salentin IX von Isenburg-Grenzau (*1532 +19.3.1610)
+				name="Antonia Wilhelmina"
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=french
+				father=ligne_0003	# Jean de Ligne
+				mother=lowbor2_1620	# GFN Margarethe von der Marck
+				1557.03.01={birth=yes}
+				1626.02.26={death=yes}
+			}
+		ligne_0057={ #// B2. Adriane, +1563; m.Cte Charle de Berlaymont (*1510, +4.6.1578)
+			name=Adriane
+			female=yes
+			dynasty=1007002
+			religion=catholic culture=french
+			father=ligne_0002	# Louis de Ligne
+			mother=lowbor2_1589	# Marie de Glymes
+			1516.01.01={birth=yes}  # EST.
+			1563.01.01={death=yes}
+		}
+		ligne_0058={ #// B3. Jeanne, +24.9.1569; m.13.9.1530 Jean de Lannoy, sn de Molembais de Soire-le-Chateau (+31.10.1559)
+			name=Jeanne
+			female=yes
+			dynasty=1007002
+			religion=catholic culture=french
+			father=ligne_0002	# Louis de Ligne
+			mother=lowbor2_1589	# Marie de Glymes
+			1515.01.01={birth=yes}  # EST.
+			1569.09.24={death=yes}
+		}
+	ligne_0060={ #// A2. Catherine, *20.10.1477; m.bef 21.4.1497 Philippe de Hénin-Liétard, sn de Boussu (*27.6.1464, +k.a.Venlo 1511)
+		name=Catherine
+		female=yes
+		dynasty=1007002
+		religion=catholic culture=french
+		father=ligne_0001	# Guillaume de Ligne
+		mother=lowbor2_0907	# Anne Adriane van Halewyn
+		1477.10.20={birth=yes}
+		1557.01.01={death=yes}  # EST.
+	}
+	ligne_0061={ #// A3. Jacqueline, +6.7.1527; m.Jacques de Lille, sire d'Aines (+1525)
+		name=Jacqueline
+		female=yes
+		dynasty=1007002
+		religion=catholic culture=french
+		father=ligne_0001	# Guillaume de Ligne
+		mother=lowbor2_0907	# Anne Adriane van Halewyn
+		1495.01.01={birth=yes}  # EST.
+		1527.07.06={death=yes}
+	}
+	ligne_0062={ #// A4. Jeanne, +Glageon 1543; 1m: ca 1500 Louis de Blois, sn de Trélon (+1506); 2m: ca 1507 Joost van Stavele, heer van Glageon en Chaumont (*15.4.1478 +7.11.1521)
+		name=Jeanne
+		female=yes
+		dynasty=1007002
+		religion=catholic culture=french
+		father=ligne_0001	# Guillaume de Ligne
+		mother=lowbor2_0907	# Anne Adriane van Halewyn
+		1483.01.01={birth=yes}  # EST.
+		1543.01.01={death=yes}  # Glageon
+	}
 #ligne4
 
 #ligne5
@@ -6386,19 +6803,21 @@
 		1941.09.02={birth=yes}
 	}
 
-100000203={ #// CHARLES Marie Raymond Prince de Ligne, Duc d'Arenberg, Duc d'Aerschot, *Enghien 1.4.1721, +Enghien 17.8.1778; m.Paris 18.6.1748 Gfn Louise Marguerite von der Marck, Gfn van Schleiden (*10.7.1730 +18.8.1820)
+ligne_0019={ #// CHARLES Marie Raymond Prince de Ligne, Duc d'Arenberg, Duc d'Aerschot, *Enghien 1.4.1721, +Enghien 17.8.1778; m.Paris 18.6.1748 Gfn Louise Marguerite von der Marck, Gfn van Schleiden (*10.7.1730 +18.8.1820)
 	name=Charles
 	dynasty=1002040
 	religion=catholic culture=french
-	father=100200203	# Leopold Philippe von Arenberg
-	1721.04.01={birth=yes}	# Enghien
-	1778.08.17={death=yes}	# Enghien
+	father=ligne_0018	# Léopold-Philippe de Ligne
+	mother=lowbor2_1676	# DSSA Maria Francesca Pignatelli di Bisaccia
+	1721.04.01={birth=yes}  # Enghien
+	1748.06.18={add_spouse=lowbor2_1677}	# CSS Louise Marguerite von der Marck van Schleiden
+	1778.08.17={death=yes}  # Enghien
 }
 	100000200={ #// A2. LOUIS ENGELBERT Pierre Marie Joseph Augustin, Duc d'Arenberg, Duc d'Aerschot, -cr Herzog von Meppen 1803, -cr Fst von Recklinghausen 1803, Golden Fleece Order, *Brussels 3.8.1750, +Brussels 7.3.1820; m.Paris 19.1.1773 Louise Antoinette de Brancas-Villars, Css de Lauraguais (*Paris 23.11.1755, +Paris 10.8.1812)
 		name="Louis Engelbert"
 		dynasty=1002040
 		religion=catholic culture=french
-		father=100000203	# Charles von Arenberg
+		father=ligne_0019	# Charles von Arenberg
 		1750.08.03={birth=yes}
 		1773.01.19={add_spouse=100082530}	# CTE Louise de Lauraguais
 		1820.03.07={death=yes}
@@ -7066,7 +7485,7 @@
 		female=yes
 		dynasty=1002040
 		religion=catholic culture=french
-		father=100000203	# Charles von Arenberg
+		father=ligne_0019	# Charles von Arenberg
 		1751.07.31={birth=yes}
 		1812.08.26={death=yes}
 	}
@@ -7075,7 +7494,7 @@
 		female=yes
 		dynasty=1002040
 		religion=catholic culture=french
-		father=100000203	# Charles von Arenberg
+		father=ligne_0019	# Charles von Arenberg
 		1752.06.25={birth=yes}
 		1832.04.15={death=yes}
 	}
@@ -7083,7 +7502,7 @@
 		name="Auguste Marie"
 		dynasty=1002040
 		religion=catholic culture=french
-		father=100000203	# Charles von Arenberg
+		father=ligne_0019	# Charles von Arenberg
 		1753.01.01={birth=yes}
 		1833.01.01={death=yes}
 	}
@@ -7111,7 +7530,7 @@
 		name=Louis
 		dynasty=1002040
 		religion=catholic culture=french
-		father=100000203	# Charles von Arenberg
+		father=ligne_0019	# Charles von Arenberg
 		1757.01.01={birth=yes}
 		1792.02.04={add_spouse=100018676}	# Елизавета Борисовна Шаховской
 		1795.01.01={remove_spouse=100018676}
@@ -7131,7 +7550,7 @@
 		female=yes
 		dynasty=1002040
 		religion=catholic culture=french
-		father=100000203	# Charles von Arenberg
+		father=ligne_0019	# Charles von Arenberg
 		1764.01.29={birth=yes}
 		1835.03.01={death=yes}
 	}	

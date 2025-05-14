@@ -1,3 +1,1482 @@
+#sponh2 ORTENBURG
+ortenbg_0050={ #// Heinrich IV Graf von Ortenburg, +8.4.1400; m.before 1346 Agnes von Hals (+before 1404)
+	name=Heinrich
+	dynasty=ortenbg
+	religion=catholic culture=german
+	1325.01.01={birth=yes}  # EST.
+	1346.01.01={add_spouse=lowbor2_1395}	# Agnes von Hals
+	1400.04.08={death=yes}
+}
+	ortenbg_0051={ #// A1. Erasmus, fl 1358
+		name=Erasmus
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0050	# Heinrich von Ortenburg
+		mother=lowbor2_1395	# Agnes von Hals
+		1353.01.01={birth=yes}  # EST.
+		1393.01.01={death=yes}  # EST.
+	}
+	ortenbg_0054={ #// A2. Alram I, +ca 1411; 1m: N von Chamerau; 2m: Barbara von Rottau (+ca 1388); 3m: Anna N
+		name=Alram
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0050	# Heinrich von Ortenburg
+		mother=lowbor2_1395	# Agnes von Hals
+		1354.01.01={birth=yes}  # EST.
+		1379.01.01={add_spouse=lowbor2_1398}	# N von Chamerau
+		1384.01.01={add_spouse=lowbor2_1400}	# Barbara von Rottau
+		1411.01.01={death=yes}
+	}
+		ortenbg_0055={ #// B1. Ulrich I, a canon in Passau and Mattsee, +1455
+			name=Ulrich
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0054	# Alram von Ortenburg
+			mother=lowbor2_1398	# N von Chamerau
+			trait=monk
+			1385.01.01={birth=yes}  # EST.
+			1455.01.01={death=yes}
+		}
+		ortenbg_0058={ #// B2. Alram II Gf von Ortenberg-Dorfbach, +before 4.6.1462; m.Kadolzburg 8.9.1428 Gfn Agnes von Waldburg (+1454/60)
+			name=Alram
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0054	# Alram von Ortenburg
+			mother=lowbor2_1398	# N von Chamerau
+			1392.01.01={birth=yes}  # EST.
+			1428.09.08={add_spouse=lowbor2_1408}	# GFN Agnes von Waldburg
+			1462.06.04={death=yes}  # before
+		}
+			ortenbg_0069={ #// C1. Veronika, +31.10.1461; m.Wolfgang V von Walsee (+4.10.1470)
+				name=Veronika
+				female=yes
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0058	# Alram von Ortenburg
+				mother=lowbor2_1408	# GFN Agnes von Waldburg
+				1430.01.01={birth=yes}  # EST.
+				1461.10.31={death=yes}
+			}
+		ortenbg_0070={ #// B3. Amalia, +1457/64; m.N de Moy (+ca 1423)
+			name=Amalia
+			female=yes
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0054	# Alram von Ortenburg
+			mother=lowbor2_1398	# N von Chamerau
+			1392.01.01={birth=yes}  # EST.
+			1461.01.01={death=yes}
+		}
+		ortenbg_0071={ #// B4. Elisabeth, a nun in Passau, +after 2.10.1447
+			name=Elisabeth
+			female=yes
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0054	# Alram von Ortenburg
+			mother=lowbor2_1398	# N von Chamerau
+			trait=nun
+			1378.01.01={birth=yes}  # EST.
+			1448.10.02={death=yes}
+		}
+	ortenbg_0074={ #// A3. Georg I in Neu-Ortenburg, +before 4.3.1422; m.Sigaun N
+		name=Georg
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0050	# Heinrich von Ortenburg
+		mother=lowbor2_1395	# Agnes von Hals
+		1354.01.01={birth=yes}  # EST.
+		1422.03.04={death=yes}  # before
+	}
+		ortenbg_0078={ #// B1. Heinrich V, +1449; 1m: before I.1422 Ursula Ecker zu Saldenburg (+1436); 2m: Elisabeth von Toerring zu Neudeck (+after 1471)
+			name=Heinrich
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0074	# Georg von Ortenburg
+			1384.01.01={birth=yes}  # EST.
+			1422.01.01={add_spouse=lowbor2_1462}	# Ursula Ecker zu Saldenburg
+			1431.01.01={add_spouse=lowbor2_1463}	# Elisabeth von Toerring zu Neudeck
+			1449.01.01={death=yes}
+		}
+			ortenbg_0083={ #// C1. [1m.] Georg II, +1488/89; m.Anastasia von Fraunberg
+				name=Georg
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0078	# Heinrich von Ortenburg
+				mother=lowbor2_1462	# Ursula Ecker zu Saldenburg
+				1424.01.01={birth=yes}  # EST.
+				1449.01.01={add_spouse=lowbor2_1464}	# Anastasia von Fraunberg
+				1489.01.01={death=yes}
+			}
+				ortenbg_0085={ #// D1. Wolfgang, +1519
+					name=Wolfgang
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0083	# Georg von Ortenburg
+					mother=lowbor2_1464	# Anastasia von Fraunberg
+					1450.01.01={birth=yes}  # EST.
+					1519.01.01={death=yes}
+				}
+				ortenbg_0088={ #// D2. Heinrich VI, +after 11.6.1494
+					name=Heinrich
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0083	# Georg von Ortenburg
+					mother=lowbor2_1464	# Anastasia von Fraunberg
+					1451.01.01={birth=yes}  # EST.
+					1495.06.11={death=yes}
+				}
+				ortenbg_0091={ #// D3. Barbara, +1498/1502; 1m: Gotthard von Starhemberg (+ca 1493); 2m: Veit von Eberstorf (+1502)
+					name=Barbara
+					female=yes
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0083	# Georg von Ortenburg
+					mother=lowbor2_1464	# Anastasia von Fraunberg
+					1451.01.01={birth=yes}  # EST.
+					1500.01.01={death=yes}
+				}
+				ortenbg_0093={ #// D4. Sibylle, a nun in Munich, +after 11.12.1522
+					name=Sibylle
+					female=yes
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0083	# Georg von Ortenburg
+					mother=lowbor2_1464	# Anastasia von Fraunberg
+					trait=nun
+					1453.01.01={birth=yes}  # EST.
+					1523.12.11={death=yes}
+				}
+			ortenbg_0096={ #// C2. [1m.] Sibylle, +1475; m.Konrad II von Heydeck
+				name=Sibylle
+				female=yes
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0078	# Heinrich von Ortenburg
+				mother=lowbor2_1462	# Ursula Ecker zu Saldenburg
+				1425.01.01={birth=yes}  # EST.
+				1475.01.01={death=yes}
+			}
+			ortenbg_0097={ #// C3. [2m.] Sebastian I, +1490/91; m.1467 Maria von Rohrbach, Gfn von Neuburg am Inn (+after 8.5.1496)
+				name=Sebastian
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0078	# Heinrich von Ortenburg
+				mother=lowbor2_1463	# Elisabeth von Toerring zu Neudeck
+				1432.01.01={birth=yes}  # EST.
+				1467.01.01={add_spouse=lowbor2_1468}	# GFN Maria von Rohrbach von Neuburg am Inn
+				1491.01.01={death=yes}
+			}
+				ortenbg_0098={ #// D1. Ulrich II, +1524; 1m: 21.10.1500 Veronika von Aichberg (+1517); 2m: 1518 Barbara von Starhemberg (*ca 1470, +1519); all children were by 1m. $$
+					name=Ulrich
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0097	# Sebastian von Ortenburg
+					mother=lowbor2_1468	# GFN Maria von Rohrbach von Neuburg am Inn
+					1468.01.01={birth=yes}  # EST.
+					1500.10.21={add_spouse=lowbor2_1469}	# Veronika von Aichberg
+					1518.01.01={add_spouse=100023073}	# Barbara von Starhemberg
+					1524.01.01={death=yes}
+				}
+					ortenbg_0099={ #// E1. Alexander, *1501, +1548; m.1518 Regina Bianca von Wolkenstein (+1539)
+						name=Alexander
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0098	# Ulrich von Ortenburg
+						mother=lowbor2_1469	# Veronika von Aichberg
+						1501.01.01={birth=yes}
+						1518.01.01={add_spouse=lowbor2_1472}	# Regina Bianca von Wolkenstein
+						1548.01.01={death=yes}
+					}
+						ortenbg_0100={ #// F1. Johann III, *1529, +22.2.1568; m.1553 Euphemie zu Spaur (+1581)
+							name=Johann
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0099	# Alexander von Ortenburg
+							mother=lowbor2_1472	# Regina Bianca von Wolkenstein
+							1529.01.01={birth=yes}
+							1553.01.01={add_spouse=lowbor2_1473}	# Euphemie zu Spaur
+							1568.02.22={death=yes}
+						}
+							ortenbg_0101={ #// G1. Heinrich VIII, *Soeldenau 6.11.1556, +30.7.1603; 1m: Amberg 1585 Anna Jakobäa Fugger, Gfn von Kirchberg und Weissenhorn (*1547 +1587); 2m: 1588 Frn Jeannette von Winneburg und Beilstein (*17.9.1565 +2.4.1625) $$
+								name=Heinrich
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0100	# Johann von Ortenburg
+								mother=lowbor2_1473	# Euphemie zu Spaur
+								1556.11.06={birth=yes}  # Soeldenau
+								1585.01.01={add_spouse=100010982}	# Anna Jakobäa Fugger
+								1588.01.01={add_spouse=lowbor2_1475}	# FRN Jeannette von Winneburg und Beilstein
+								1603.07.30={death=yes}
+							}
+								ortenbg_0102={ #// H1. Friedrich Kasimir, *Burg Waldeck 23.1.1591, +2.3.1658
+									name="Friedrich Kasimir"
+									dynasty=ortenbg
+									religion=catholic culture=german
+									father=ortenbg_0101	# Heinrich von Ortenburg
+									mother=lowbor2_1475	# FRN Jeannette von Winneburg und Beilstein
+									1591.01.23={birth=yes}
+									1658.03.02={death=yes}
+								}
+								ortenbg_0103={ #// H2. Johann Philipp, *14.10.1592, +Berlin 20.6.1631
+									name="Johann Philipp"
+									dynasty=ortenbg
+									religion=catholic culture=german
+									father=ortenbg_0101	# Heinrich von Ortenburg
+									mother=lowbor2_1475	# FRN Jeannette von Winneburg und Beilstein
+									1592.10.14={birth=yes}
+									1631.06.20={death=yes}  # Berlin
+								}
+								ortenbg_0104={ #// H3. Heinrich X, *19.8.1594, +k.a.Fleury 19.8.1622
+									name=Heinrich
+									dynasty=ortenbg
+									religion=catholic culture=german
+									father=ortenbg_0101	# Heinrich von Ortenburg
+									mother=lowbor2_1475	# FRN Jeannette von Winneburg und Beilstein
+									1594.08.19={birth=yes}
+									1622.08.19={death=yes}  # Fleury
+								}
+								ortenbg_0106={ #// H5. Luise Euphemia, *22.6.1586, +after IV.1646
+									name="Luise Euphemia"
+									female=yes
+									dynasty=ortenbg
+									religion=catholic culture=german
+									father=ortenbg_0101	# Heinrich von Ortenburg
+									mother=100010982	# Anna Jakobäa Fugger
+									1586.06.22={birth=yes}
+									1647.04.01={death=yes}
+								}
+							ortenbg_0107={ #// G2. Katharina Regina Bianca, *6.7.1554, +Klausen 4.1.1607
+								name=Katharina
+								female=yes
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0100	# Johann von Ortenburg
+								mother=lowbor2_1473	# Euphemie zu Spaur
+								1554.07.06={birth=yes}
+								1607.01.04={death=yes}  # Klausen
+							}
+							ortenbg_0108={ #// G3. Sidonia, *2.10.1557, +27.9.1589; m.1588 Herkules von Thun-Castel Thun (*ca 1568, +20.12.1615) $$
+								name=Sidonia
+								female=yes
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0100	# Johann von Ortenburg
+								mother=lowbor2_1473	# Euphemie zu Spaur
+								1557.10.02={birth=yes}
+								1589.09.27={death=yes}
+							}
+							ortenbg_0109={ #// G4. Katharina, *Klausen 1.8.1562, +22.1.1635
+								name=Katharina
+								female=yes
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0100	# Johann von Ortenburg
+								mother=lowbor2_1473	# Euphemie zu Spaur
+								1562.08.01={birth=yes}  # Klausen
+								1635.01.22={death=yes}
+							}
+						ortenbg_0111={ #// F3. Ulrich II, *1532, +Söldenau 14.7.1586; 1m: Katharina von Degenberg (+Söldenau 1570); 2m: 1571 Katharina von Waldburg zu Wolfegg und Zeil (*6.6.1545, +12.11.1590) $$
+							name=Ulrich
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0099	# Alexander von Ortenburg
+							mother=lowbor2_1472	# Regina Bianca von Wolkenstein
+							1532.01.01={birth=yes}
+							1558.01.01={add_spouse=lowbor2_1477}	# Katharina von Degenberg
+							1571.01.01={add_spouse=100011293}	# Katharina von Waldburg zu Wolfegg u.Waldsee
+							1586.07.14={death=yes}  # Söldenau
+						}
+							ortenbg_0122={ #// G4. Katharina, *1561, +Vienna 1598; m.1584 Frhr Wolfgang von Jörger (+1613)
+								name=Katharina
+								female=yes
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0111	# Ulrich von Ortenburg
+								mother=lowbor2_1477	# Katharina von Degenberg
+								1561.01.01={birth=yes}
+								1598.01.01={death=yes}  # Vienna
+							}
+							ortenbg_0113={ #// G2. Karl II, *1572, +8.11.1591, bur Padua
+								name=Karl
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0111	# Ulrich von Ortenburg
+								mother=100011293	# Katharina von Waldburg zu Wolfegg u.Waldsee
+								1572.01.01={birth=yes}
+								1591.11.08={death=yes}
+							}
+							ortenbg_0114={ #// G3. Georg IV, *7.10.1573, +Burghausen 12.4.1627; m.26.9.1602 Gfn Anna Maria von Leiningen-Dagsburg (+after 1631) $$
+								name=Georg
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0111	# Ulrich von Ortenburg
+								mother=100011293	# Katharina von Waldburg zu Wolfegg u.Waldsee
+								1573.10.07={birth=yes}
+								1602.09.26={add_spouse=100003666}	# Anna von Leiningen
+								1627.04.12={death=yes}  # Burghausen
+							}
+								#sponh3     -->    H3. Georg Reinhard, *28.8.1607, +4.9.1666; m.7.11.1644 Gfn Esther Dorothea von Criechingen (*ca 1617, +8.2.1713); for their descendants see HERE
+								ortenbg_0118={ #// H4. Christian, *28.11.1616, +11.9.1684; m.1640 Gfn Katharina Fugger von Kirchberg und Weissenhorn (*25.1.1609 +9.7.1685) $$
+									name=Christian
+									dynasty=ortenbg
+									religion=catholic culture=german
+									father=ortenbg_0114	# Georg von Ortenburg
+									mother=100003666	# Anna von Leiningen
+									1616.11.28={birth=yes}
+									1640.01.01={add_spouse=100011049}	# Maria Katharina Fugger
+									1684.09.11={death=yes}
+								}
+								ortenbg_0120={ #// H6. Anna Johanna, *13.7.1606, +19.3.1661; m.Heinrich Herkules von Milchling auf Burgmilchling
+									name="Anna Johanna"
+									female=yes
+									dynasty=ortenbg
+									religion=catholic culture=german
+									father=ortenbg_0114	# Georg von Ortenburg
+									mother=100003666	# Anna von Leiningen
+									1606.07.13={birth=yes}
+									1661.03.19={death=yes}
+								}
+								ortenbg_0121={ #// H7. Anna Sophia, *5.2.1609, +9.8.1686; m.1625 Georg von Wolfstein, Frhr von Sulzbürg (*26.4.1600, +25.3.1658)
+									name="Anna Sophia"
+									female=yes
+									dynasty=ortenbg
+									religion=catholic culture=german
+									father=ortenbg_0114	# Georg von Ortenburg
+									mother=100003666	# Anna von Leiningen
+									1609.02.05={birth=yes}
+									1686.08.09={death=yes}
+								}
+							ortenbg_0123={ #// G5. Johanna, *11.7.1575, +Wels 2.10.1628
+								name=Johanna
+								female=yes
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0111	# Ulrich von Ortenburg
+								mother=100011293	# Katharina von Waldburg zu Wolfegg u.Waldsee
+								1575.07.11={birth=yes}
+								1628.10.02={death=yes}  # Wels
+							}
+						ortenbg_0124={ #// F4. Paula, *1530, +16.9.1560; m.1551 Paul Jakob von Starhemberg (+1560)
+							name=Paula
+							female=yes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0099	# Alexander von Ortenburg
+							mother=lowbor2_1472	# Regina Bianca von Wolkenstein
+							1530.01.01={birth=yes}
+							1560.09.16={death=yes}
+						}
+					ortenbg_0125={ #// E2. Karl I, *1501, +15.10.1552; m.Mattighofen 6.9.1538 Maximiliana von Fraunberg zum Haag (+14.9.1559)
+						name=Karl
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0098	# Ulrich von Ortenburg
+						mother=lowbor2_1469	# Veronika von Aichberg
+						1501.01.01={birth=yes}
+						1538.09.06={add_spouse=lowbor2_1486}	# Maximiliana von Fraunberg zum Haag
+						1552.10.15={death=yes}
+					}
+						ortenbg_0127={ #// F2. Leonhard, *1542, +Verona 12.7.1561
+							name=Leonhard
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0125	# Karl von Ortenburg
+							mother=lowbor2_1486	# Maximiliana von Fraunberg zum Haag
+							1542.01.01={birth=yes}
+							1561.07.12={death=yes}  # Verona
+						}
+						ortenbg_0128={ #// F3. Jakobaea, +Ortenburg 1550
+							name=Jakobaea
+							female=yes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0125	# Karl von Ortenburg
+							mother=lowbor2_1486	# Maximiliana von Fraunberg zum Haag
+							1541.01.01={birth=yes}  # EST.
+							1550.01.01={death=yes}  # Ortenburg
+						}
+						ortenbg_0129={ #// F4. Veronika, +23.3.1573, bur Hechingen; m.22.6.1568 Gf Eitel Friedrich von Hohenzollern-Hechingen (*7.9.1545 +16.1.1605) $$
+							name=Veronika
+							female=yes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0125	# Karl von Ortenburg
+							mother=lowbor2_1486	# Maximiliana von Fraunberg zum Haag
+							1542.01.01={birth=yes}  # EST.
+							1573.03.23={death=yes}
+						}
+						ortenbg_0130={ #// F5. Anna Maria, *1547, +16.12.1601; m.Neu-Ortenburg 28.10.1568 Gf Georg Hartmann IV von Liechtenstein (+1585) $$
+							name=Anna
+							female=yes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0125	# Karl von Ortenburg
+							mother=lowbor2_1486	# Maximiliana von Fraunberg zum Haag
+							1547.01.01={birth=yes}
+							1601.12.16={death=yes}
+						}
+					ortenbg_0131={ #// E3. Moritz, +bur Munich 6.7.1551
+						name=Moritz
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0098	# Ulrich von Ortenburg
+						mother=lowbor2_1469	# Veronika von Aichberg
+						1493.01.01={birth=yes}  # EST.
+						1553.01.01={death=yes}  # EST.
+					}
+					ortenbg_0132={ #// E4. Sidonia, +12.3.1563; m.1534 Melchior Colonna von Völs (+1543/51)
+						name=Sidonia
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0098	# Ulrich von Ortenburg
+						mother=lowbor2_1469	# Veronika von Aichberg
+						1493.01.01={birth=yes}  # EST.
+						1563.03.12={death=yes}
+					}
+					ortenbg_0133={ #// E5. Barbara, +1518
+						name=Barbara
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0098	# Ulrich von Ortenburg
+						mother=lowbor2_1469	# Veronika von Aichberg
+						1493.01.01={birth=yes}  # EST.
+						1518.01.01={death=yes}
+					}
+				ortenbg_0134={ #// D2. Johann II, +k.a.nr Basel 1499
+					name=Johann
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0097	# Sebastian von Ortenburg
+					mother=lowbor2_1468	# GFN Maria von Rohrbach von Neuburg am Inn
+					1469.01.01={birth=yes}  # EST.
+					1499.01.01={death=yes}  # k.a. nr Basel
+				}
+				ortenbg_0136={ #// D4. Georg III, a canon in Salzburg and Augsburg, +1553
+					name=Georg
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0097	# Sebastian von Ortenburg
+					mother=lowbor2_1468	# GFN Maria von Rohrbach von Neuburg am Inn
+					trait=monk
+					1484.01.01={birth=yes}  # EST.
+					1553.01.01={death=yes}
+				}
+				ortenbg_0137={ #// D5. Sigmund, a canon in Salzburg and Eichstädt, +1547
+					name=Sigmund
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0097	# Sebastian von Ortenburg
+					mother=lowbor2_1468	# GFN Maria von Rohrbach von Neuburg am Inn
+					trait=monk
+					1477.01.01={birth=yes}  # EST.
+					1547.01.01={death=yes}
+				}
+				ortenbg_0138={ #// D6. Sebastian II, *1479, +1559
+					name=Sebastian
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0097	# Sebastian von Ortenburg
+					mother=lowbor2_1468	# GFN Maria von Rohrbach von Neuburg am Inn
+					1479.01.01={birth=yes}
+					1559.01.01={death=yes}
+				}
+				ortenbg_0139={ #// D7. Christoph, *1480, +1551; 1m: before 1515 Anna von Hollup (+1525); 2m: 1526 Anna von Firmian (+1543)
+					name=Christoph
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0097	# Sebastian von Ortenburg
+					mother=lowbor2_1468	# GFN Maria von Rohrbach von Neuburg am Inn
+					1480.01.01={birth=yes}
+					1512.01.01={add_spouse=lowbor2_1490}	# Anna von Hollup
+					1526.01.01={add_spouse=lowbor2_1491}	# Anna von Firmian
+					1551.01.01={death=yes}
+				}
+					ortenbg_0140={ #// E1. Johann, +1515
+						name=Johann
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0139	# Christoph von Ortenburg
+						mother=lowbor2_1490	# Anna von Hollup
+						1513.01.01={birth=yes}  # EST.
+						1515.01.01={death=yes}
+					}
+					ortenbg_0141={ #// E2. Joachim, *Mattighofen 1530, +Nürnberg 1600; 1m: Mickhausen 19.3.1549 Frn Ursula Fugger zu Kirchberg und Weissenhorn (*13.6.1530 +7.9.1570); 2m: 1572 Lucia Schenkin von Limpurg (+1626) $$
+						name=Joachim
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0139	# Christoph von Ortenburg
+						mother=lowbor2_1491	# Anna von Firmian
+						1530.01.01={birth=yes}  # Mattighofen
+						1549.03.19={add_spouse=100010983}	# Ursula Fugger
+						1572.01.01={add_spouse=limpurg_0103}	# Lucia Schenk von Limpurg
+						1600.01.01={death=yes}  # Nürnberg
+					}
+						ortenbg_0142={ #// F1. Anton, *5.9.1550, +23.5.1573; m.Alt-Ortenburg 15.6.1571 Gfn Dorothea von Hanau-Münzenberg (*4.2.1556 +5.9.1638) $$
+							name=Anton
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0141	# Joachim von Ortenburg
+							mother=100010983	# Ursula Fugger
+							1550.09.05={birth=yes}
+							1571.06.15={add_spouse=100012737}	# Dorothea von Hanau
+							1573.05.23={death=yes}
+						}
+							ortenbg_0143={ #// G1. Friedrich, *1.12.1573, +1573/74
+								name=Friedrich
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0142	# Anton von Ortenburg
+								mother=100012737	# Dorothea von Hanau
+								1573.12.01={birth=yes}
+								1574.01.01={death=yes}
+							}
+				ortenbg_0145={ #// D9. Wilhelm, +1523; m.NN
+					name=Wilhelm
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0097	# Sebastian von Ortenburg
+					mother=lowbor2_1468	# GFN Maria von Rohrbach von Neuburg am Inn
+					1475.01.01={birth=yes}  # EST.
+					1523.01.01={death=yes}
+				}
+					ortenbg_0146={ #// E1. Friedrich, +k.a.Carmagnole 1544
+						name=Friedrich
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0145	# Wilhelm von Ortenburg
+						1501.01.01={birth=yes}  # EST.
+						1544.01.01={death=yes}  # Carmagnole
+					}
+					ortenbg_0147={ #// E2. Sebastian, +k.a.Siena 1557
+						name=Sebastian
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0145	# Wilhelm von Ortenburg
+						1502.01.01={birth=yes}  # EST.
+						1557.01.01={death=yes}  # Siena
+					}
+				ortenbg_0148={ #// D10. Margarete, +25.2.1550; m.before 24.5.1521 Veit von Rechberg (+after 1539)
+					name=Margarete
+					female=yes
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0097	# Sebastian von Ortenburg
+					mother=lowbor2_1468	# GFN Maria von Rohrbach von Neuburg am Inn
+					1480.01.01={birth=yes}  # EST.
+					1550.02.25={death=yes}
+				}
+				ortenbg_0149={ #// D11. Helene, +1530; m.1517 Wilhelm von Paulstorf (+1523)
+					name=Helene
+					female=yes
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0097	# Sebastian von Ortenburg
+					mother=lowbor2_1468	# GFN Maria von Rohrbach von Neuburg am Inn
+					1476.01.01={birth=yes}  # EST.
+					1530.01.01={death=yes}
+				}
+			ortenbg_0150={ #// C4. [2m.] Magdalena, +ca 1508; m.Ulrich I von Starhemberg (+ca 1478)
+				name=Magdalena
+				female=yes
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0078	# Heinrich von Ortenburg
+				mother=lowbor2_1463	# Elisabeth von Toerring zu Neudeck
+				1439.01.01={birth=yes}  # EST.
+				1508.01.01={death=yes}
+			}
+			ortenbg_0151={ #// C5. [2m.] Sigaun, +after 1493; m.Burian von Guttennstein (+1489)
+				name=Sigaun
+				female=yes
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0078	# Heinrich von Ortenburg
+				mother=lowbor2_1463	# Elisabeth von Toerring zu Neudeck
+				1434.01.01={birth=yes}  # EST.
+				1494.01.01={death=yes}
+			}
+		ortenbg_0152={ #// B2. Oswald, Dean and Vicar General of the archbishopric of Salzburg, +1450
+			name=Oswald
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0074	# Georg von Ortenburg
+			trait=monk
+			1381.01.01={birth=yes}  # EST.
+			1450.01.01={death=yes}
+		}
+	ortenbg_0153={ #// A4. Johann I, +1393/96
+		name=Johann
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0050	# Heinrich von Ortenburg
+		mother=lowbor2_1395	# Agnes von Hals
+		1353.01.01={birth=yes}  # EST.
+		1395.01.01={death=yes}
+	}
+	ortenbg_0154={ #// A5. Etzel, +1446; 1m: Catherine d'Ancerville (+ca 1401); 2m: ca 1405 Sigaun von Rohrbach
+		name=Etzel
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0050	# Heinrich von Ortenburg
+		mother=lowbor2_1395	# Agnes von Hals
+		1371.01.01={birth=yes}  # EST.
+		1392.01.01={add_spouse=lowbor2_1500}	# Catherine d'Ancerville
+		1405.01.01={add_spouse=lowbor2_1501}	# Sigaun von Rohrbach
+		1446.01.01={death=yes}
+	}
+		ortenbg_0155={ #// B1. Margarete, +1448; m.before 6.2.1413 Heinrich III Notthaft zu Wernberg
+			name=Margarete
+			female=yes
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0154	# Etzel von Ortenburg
+			mother=lowbor2_1500	# Catherine d'Ancerville
+			1393.01.01={birth=yes}  # EST.
+			1448.01.01={death=yes}
+		}
+	ortenbg_0156={ #// A6. Hadwig, +ca 1394; m.Teseres I von Frauenhofen (+ca 1392)
+		name=Hadwig
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0050	# Heinrich von Ortenburg
+		mother=lowbor2_1395	# Agnes von Hals
+		1354.01.01={birth=yes}  # EST.
+		1379.01.01={add_spouse=lowbor2_1503}	# Teseres von Frauenhofen
+		1394.01.01={death=yes}
+	}
+#sponh2 ORTENBURG
+
+#sponh3 ORTENBURG
+ortenbg_0048={ #// Georg Reinhard Graf von Ortenburg, *28.8.1607, +4.9.1666; m.7.11.1644 Frn Esther Dorothea von Criechingen (*1617, +9.12.1713)
+	name="Georg Reinhard"
+	dynasty=ortenbg
+	religion=catholic culture=german
+	father=ortenbg_0114	# Georg von Ortenburg
+	mother=100003666	# Anna von Leiningen
+	1607.08.28={birth=yes}
+	1644.11.07={add_spouse=lowbor2_1248}	# FRN Esther Dorothea von Criechingen
+	1666.09.04={death=yes}
+}
+	ortenbg_0052={ #// A3. Georg Philipp Graf zu Ortenburg, *10.9.1655, +Ortenburg 5.2.1702; m.Nürnberg 1.6.1685 Gfn Anna Regina von Zinzendorf und Pottendorf (*Regensburg 12.12.1663, +Ortenburg 15.4.1709)
+		name="Georg Philipp"
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0048	# Georg Reinhard von Ortenburg
+		mother=lowbor2_1248	# FRN Esther Dorothea von Criechingen
+		1655.09.10={birth=yes}
+		1685.06.01={add_spouse=lowbor2_1382}	# GFN Anna Regina von Zinzendorf und Pottendorf
+		1702.02.05={death=yes}  # Ortenburg
+	}
+		ortenbg_0053={ #// B1. Johann Georg Graf zu Ortenburg, *14.12.1686, +4.12.1725; 1m: 4.10.1707 Gfn Susanna Maria Luise von Zinzendorf und Pottendorf (*3.10.1690, +Ortenburg 3.3.1709); 2m: Usingen 30.4.1710 Pss Marie Albertine of Nassau-Saarbrücken (*8.5.1686 +14.1.1768) $$
+			name="Johann Georg"
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0052	# Georg Philipp von Ortenburg
+			mother=lowbor2_1382	# GFN Anna Regina von Zinzendorf und Pottendorf
+			1686.12.14={birth=yes}
+			1707.10.04={add_spouse=lowbor2_1394}	# GFN Susanna von Zinzendorf und Pottendorf
+			1710.04.30={add_spouse=100037382}	# Marie Albertine von Nassau-Weilburg
+			1725.12.04={death=yes}
+		}
+			ortenbg_0056={ #// C3. Karl III Graf zu Ortenburg, *2.2.1715, +1.3.1776; m.16.10.1741 Luise Sophie, Wild- und Rheingrafen in Gaugrehweiler (*2.4.1719 +2.12.1766) $$
+				name=Karl
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0053	# Johann Georg von Ortenburg
+				mother=100037382	# Marie Albertine von Nassau-Weilburg
+				1715.02.02={birth=yes}
+				1741.10.16={add_spouse=100007567}	# Luise Sophie von Salm
+				1776.03.01={death=yes}
+			}
+				ortenbg_0057={ #// D1. Karl Albrecht Graf zu Ortenburg, *30.6.1743, +5.2.1787; m.8.10.1779 Christiane Luise, Wild- und Rheingrafen in Gaugrehweiler (*21.12.1753, +27.10.1826) $$
+					name="Karl Albrecht"
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0056	# Karl von Ortenburg
+					mother=100007567	# Luise Sophie von Salm
+					1743.06.30={birth=yes}
+					1779.10.08={add_spouse=100007523}	# Christiane Luise von Salm
+					1787.02.05={death=yes}
+				}
+					#sponh4     -->    E1. JOSEPH KARL Leopold Friedrich Ludwig Graf zu Ortenburg, Graf und Herr zu Tambach, Herr zu Birkenfeld, etc., *Ortenburg 30.8.1780, +Tambach 28.3.1831; m.Erbach 6.10.1799 Karoline zu Erbach-Erbach (*Erbach 21.11.1779, +Tambach 6.12.1825); for his descendants see HERE
+					ortenbg_0059={ #// E2. Luise Karoline, *Ortenburg 15.11.1782, +Augsburg 15.12.1847; 1m: Rüdenhausen 25.6.1804 (div Würzburg 29.9.1811) Gf Christian Friedrich zu Castell-Rüdenhausen (*21.4.1772, +28.3.1850); 2m: 1814 Gf Franz Anton von Tauffkirchen (*16.8.1782, +Augsburg 1857) $$
+						name="Luise Karoline"
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0057	# Karl Albrecht von Ortenburg
+						mother=100007523	# Christiane Luise von Salm
+						1782.11.15={birth=yes}  # Ortenburg
+						1847.12.15={death=yes}  # Augsburg
+					}
+					ortenbg_0060={ #// E3. Sophie Marie Wilhelmine, *16.11.1784, +Schloss Kleeberg 31.1.1854; m.1802 Gf Leopold Ernst von Tauffkirchen (*21.8.1781, +12.3.1860)
+						name=Sophie
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0057	# Karl Albrecht von Ortenburg
+						mother=100007523	# Christiane Luise von Salm
+						1784.11.16={birth=yes}
+						1854.01.31={death=yes}  # Schloss Kleeberg
+					}
+					ortenbg_0061={ #// E4. Auguste Friederike, *22.4.1786, +8.10.1857; m.9.10.1806 (div 1824) Gf Karl Alexander von Pückler und Limpurg (*11.10.1782, +28.11.1843) $$
+						name="Auguste Friederike"
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0057	# Karl Albrecht von Ortenburg
+						mother=100007523	# Christiane Luise von Salm
+						1786.04.22={birth=yes}
+						1857.10.08={death=yes}
+					}
+				ortenbg_0062={ #// D2. Ludwig Emanuel, *30.11.1744, +Ortenburg 20.11.1798
+					name="Ludwig Emanuel"
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0056	# Karl von Ortenburg
+					mother=100007567	# Luise Sophie von Salm
+					1744.11.30={birth=yes}
+					1798.11.20={death=yes}  # Ortenburg
+				}
+				ortenbg_0063={ #// D3. Christian Friedrich, *30.11.1745, +Burghausen 15.12.1821; m.(morganatic) 1778 Johanna Friederike Happe (*1746, +?)
+					name="Christian Friedrich"
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0056	# Karl von Ortenburg
+					mother=100007567	# Luise Sophie von Salm
+					1745.11.30={birth=yes}
+					1778.01.01={add_spouse=lowbor2_1442}	# Johanna Friederike Happe
+					1821.12.15={death=yes}  # Burghausen
+				}
+					ortenbg_0064={ #// E1. Karl Ludwig, *Berlin 1778, +Burghausen 1824; m.1816 Frn Rosalie von Reisach (*1793, +Burghausen 1828)
+						name="Karl Ludwig"
+						dynasty=ortenbg
+						religion=catholic culture=north_german
+						father=ortenbg_0063	# Christian Friedrich von Ortenburg
+						mother=lowbor2_1442	# Johanna Friederike Happe
+						1778.01.01={birth=yes}  # Berlin
+						1816.01.01={add_spouse=lowbor2_1443}	# FRN Rosalie von Reisach
+						1824.01.01={death=yes}  # Burghausen
+					}
+						ortenbg_0065={ #// F1. Heinrich -cr Graf von Orttenburg 1830, *Burghausen 1821, +Munich 1869; m.Manau 1849 Frn Bertha Truchsess von Wetzhausen (*Meiningen 1818, +Prien 1876)
+							name=Heinrich-cr
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0064	# Karl Ludwig von Ortenburg
+							mother=lowbor2_1443	# FRN Rosalie von Reisach
+							1821.01.01={birth=yes}  # Burghausen
+							1849.01.01={add_spouse=lowbor2_1445}	# FRN Bertha von Wetzhausen
+							1869.01.01={death=yes}  # Munich
+						}
+							ortenbg_0066={ #// G1. Arthur, *Bayreuth 1851, +Obersteisendorf 1886; m.Stuttgart 1883 Therese Gentner (*Laufen 1856, +Munich 1928)
+								name=Arthur
+								dynasty=ortenbg
+								religion=catholic culture=german
+								father=ortenbg_0065	# Heinrich-cr von Ortenburg
+								mother=lowbor2_1445	# FRN Bertha von Wetzhausen
+								1851.01.01={birth=yes}  # Bayreuth
+								1883.01.01={add_spouse=lowbor2_1454}	# Therese Gentner
+								1886.01.01={death=yes}  # Obersteisendorf
+							}
+								ortenbg_0067={ #// H1. Arthur, *Obersteisendorf 1886, +Munich 1957; 1m: Munich 1919 (div 1922) Sophie Krug; 2m: Munich 1925 Elise Vanhauten (*Aachen 1902, +1970)
+									name=Arthur
+									dynasty=ortenbg
+									religion=catholic culture=german
+									father=ortenbg_0066	# Arthur von Ortenburg
+									mother=lowbor2_1454	# Therese Gentner
+									1886.01.01={birth=yes}  # Obersteisendorf
+									1919.01.01={add_spouse=lowbor2_1455}	# Sophie Krug
+									1922.01.01={remove_spouse=lowbor2_1455}
+									1925.01.01={add_spouse=lowbor2_1456}	# Elise Vanhauten
+									1957.01.01={death=yes}  # Munich
+								}
+									ortenbg_0068={ #// I1. Elisabeth, *Munich 1919; m.The Hague 1942 Julius Kellner
+										name=Elisabeth
+										female=yes
+										dynasty=ortenbg
+										religion=catholic culture=north_german
+										father=ortenbg_0067	# Arthur von Ortenburg
+										mother=lowbor2_1455	# Sophie Krug
+										1919.01.01={birth=yes}  # Munich
+										1999.01.01={death=yes}  # EST.
+									}
+								ortenbg_0072={ #// H2. Josepha, *Stuttgart 1885; m.Munich 1912 Moritz Büttner (+Munich 1953)
+									name=Josepha
+									female=yes
+									dynasty=ortenbg
+									religion=catholic culture=north_german
+									father=ortenbg_0066	# Arthur von Ortenburg
+									mother=lowbor2_1454	# Therese Gentner
+									1885.01.01={birth=yes}  # Stuttgart
+									1965.01.01={death=yes}  # EST.
+								}
+					ortenbg_0073={ #// E2. Franziska, *1779/80, +Munich 1811; m.Spielberg 1809 Frhr Joseph von Lerchenfeld (+Munich 1838)
+						name=Franziska
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0063	# Christian Friedrich von Ortenburg
+						mother=lowbor2_1442	# Johanna Friederike Happe
+						1780.01.01={birth=yes}
+						1811.01.01={death=yes}  # Munich
+					}
+				ortenbg_0075={ #// D5. Georg Gustav, *1748, +1789
+					name="Georg Gustav"
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0056	# Karl von Ortenburg
+					mother=100007567	# Luise Sophie von Salm
+					1748.01.01={birth=yes}
+					1789.01.01={death=yes}
+				}
+				ortenbg_0077={ #// D7. Adolf Ferdinand, *13.10.1751, +Passau 21.2.1787
+					name="Adolf Ferdinand"
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0056	# Karl von Ortenburg
+					mother=100007567	# Luise Sophie von Salm
+					1751.10.13={birth=yes}
+					1787.02.21={death=yes}  # Passau
+				}
+				ortenbg_0079={ #// D9. Johann Rudolf, *27.11.1756, +Ortenburg 7.9.1802
+					name="Johann Rudolf"
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0056	# Karl von Ortenburg
+					mother=100007567	# Luise Sophie von Salm
+					1756.11.27={birth=yes}
+					1802.09.07={death=yes}  # Ortenburg
+				}
+				ortenbg_0081={ #// D11. Luise Johannette, *1750, +1783
+					name="Luise Johannette"
+					female=yes
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0056	# Karl von Ortenburg
+					mother=100007567	# Luise Sophie von Salm
+					1750.01.01={birth=yes}
+					1783.01.01={death=yes}
+				}
+				ortenbg_0082={ #// D12. Friederike Karoline, a nun in Gandersheim, *17.11.1752, +VI.1834
+					name="Friederike Karoline"
+					female=yes
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0056	# Karl von Ortenburg
+					mother=100007567	# Luise Sophie von Salm
+					1752.11.17={birth=yes}
+					1834.11.17={death=yes}
+				}
+				ortenbg_0084={ #// D14. Christiane Alexandrine, a nun in Wallenstein, *27.9.1755, +Prague 1812
+					name="Christiane Alexandrine"
+					female=yes
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0056	# Karl von Ortenburg
+					mother=100007567	# Luise Sophie von Salm
+					1755.09.27={birth=yes}
+					1812.01.01={death=yes}  # Prague
+				}
+			ortenbg_0086={ #// C5. Charlotte Wilhelmine, *4.1.1711, +29.3.1778
+				name="Charlotte Wilhelmine"
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0053	# Johann Georg von Ortenburg
+				mother=100037382	# Marie Albertine von Nassau-Weilburg
+				1711.01.04={birth=yes}
+				1778.03.29={death=yes}
+			}
+			ortenbg_0087={ #// C6. Friederike Charlotte, *1.2.1712, +Castell 23.5.1758; m.27.3.1727 Gf Wolfgang Georg II zu Castell-Remlingen (*20.9.1694 +22.9.1736) $$
+				name="Friederike Charlotte"
+				female=yes
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0053	# Johann Georg von Ortenburg
+				mother=100037382	# Marie Albertine von Nassau-Weilburg
+				1712.02.01={birth=yes}
+				1758.05.23={death=yes}  # Castell
+			}
+			ortenbg_0089={ #// C8. Henriette Albertine, *21.1.1716, +24.4.1784
+				name="Henriette Albertine"
+				female=yes
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0053	# Johann Georg von Ortenburg
+				mother=100037382	# Marie Albertine von Nassau-Weilburg
+				1716.01.21={birth=yes}
+				1784.04.24={death=yes}
+			}
+			ortenbg_0090={ #// C9. Sophie Marie, *11.3.1717, +1790
+				name=Sophie
+				female=yes
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0053	# Johann Georg von Ortenburg
+				mother=100037382	# Marie Albertine von Nassau-Weilburg
+				1717.03.11={birth=yes}
+				1790.01.01={death=yes}
+			}
+			ortenbg_0092={ #// C11. Augusta Johannetta, *1721, +1735
+				name="Augusta Johannetta"
+				female=yes
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0053	# Johann Georg von Ortenburg
+				mother=100037382	# Marie Albertine von Nassau-Weilburg
+				1721.01.01={birth=yes}
+				1735.01.01={death=yes}
+			}
+	ortenbg_0094={ #// A4. Anna Sibylle, *30.6.1648, +Greifenstein 1672
+		name="Anna Sibylle"
+		female=yes
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0048	# Georg Reinhard von Ortenburg
+		mother=lowbor2_1248	# FRN Esther Dorothea von Criechingen
+		1648.06.30={birth=yes}
+		1672.01.01={death=yes}  # Greifenstein
+	}
+	ortenbg_0095={ #// A5. Anna Elisabeth, *23.5.1649, +Bayreuth 1673
+		name="Anna Elisabeth"
+		female=yes
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0048	# Georg Reinhard von Ortenburg
+		mother=lowbor2_1248	# FRN Esther Dorothea von Criechingen
+		1649.05.23={birth=yes}
+		1673.01.01={death=yes}  # Bayreuth
+	}
+#sponh3 ORTENBURG
+
+#sponh4 ORTENBURG
+ortenbg_0001={ #// JOSEPH KARL Leopold Friedrich Ludwig, Graf zu Ortenburg, Graf und Herr zu Tambach, Herr zu Birkenfeld, etc., *Ortenburg 30.8.1780, +Tambach 28.3.1831; m.Erbach 6.10.1799 Gfn Karoline zu Erbach-Erbach (*Erbach 21.11.1779, +Tambach 6.12.1825) $$
+	name="Joseph Karl"
+	dynasty=ortenbg
+	religion=catholic culture=german
+	father=ortenbg_0057	# Karl Albrecht von Ortenburg
+	mother=100007523	# Christiane Luise von Salm
+	1780.08.30={birth=yes}  # Ortenburg
+	1799.10.06={add_spouse=100009071}	# Karoline von Erbach-Erbach
+	1831.03.28={death=yes}  # Tambach
+}
+	ortenbg_0002={ #// A1. FRANZ KARL Rudolf Graf zu Ortenburg, *Ortenburg 4.8.1801, +Tambach 23.2.1876; m.Birkenfeld 22.2.1841 Frn Julie von Woellwarth-Lauterburg (*Stuttgart 20.12.1819, +Tambach 13.1.1883)
+		name="Franz Karl"
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0001	# Joseph Karl von Ortenburg
+		mother=100009071	# Karoline von Erbach-Erbach
+		1801.08.04={birth=yes}  # Ortenburg
+		1841.02.22={add_spouse=lowbor2_1366}	# FRN Julie Karoline von Woellwarth-Lauterburg
+		1876.02.23={death=yes}  # Tambach
+	}
+		ortenbg_0003={ #// B1. FRIEDRICH Carl Hermann Albrecht Graf zu Ortenburg, *Tambach 13.12.1841, +Tambach 25.2.1894; m.Thurnau 21.10.1874 Gfn Karoline von Giech (*Thurnau 22.5.1850, +Tambach 28.11.1923) $$
+			name=Friedrich
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0002	# Franz Karl von Ortenburg
+			mother=lowbor2_1366	# FRN Julie Karoline von Woellwarth-Lauterburg
+			1841.12.13={birth=yes}  # Tambach
+			1874.10.21={add_spouse=giech_0020}	# Caroline von Giech
+			1894.02.25={death=yes}  # Tambach
+		}
+			ortenbg_0004={ #// C1. FRANZ CARL Julius Albrecht Graf zu Ortenburg, *Tambach 16.8.1875, +Coburg 3.12.1936; m.Budapest 30.12.1924 Gfn Ilona Semsey de Semse (*Semse 16.5.1895, +Tambach 16.10.1978)
+				name="Franz Carl"
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0003	# Friedrich von Ortenburg
+				mother=giech_0020	# Caroline von Giech
+				1875.08.16={birth=yes}  # Tambach
+				1924.12.30={add_spouse=lowbor2_1393}	# GFN Ily Semsey de Semse
+				1936.12.03={death=yes}  # Coburg
+			}
+				ortenbg_0005={ #// D1. ALRAM Karl Gottfried Hans Ladislaus Graf zu Ortenburg, *Budapest 23.10.1925; m.Tannheim 21.10.1954 Gfn Agathe von Schaesberg (*Mainz 14.5.1925) $$
+					name=Alram
+					dynasty=ortenbg
+					religion=catholic culture=hungarian
+					father=ortenbg_0004	# Franz Carl von Ortenburg
+					mother=lowbor2_1393	# GFN Ily Semsey de Semse
+					1925.10.23={birth=yes}  # Budapest
+					1954.10.21={add_spouse=100036629}	# Agathe von Schaesberg
+					2000.01.01={death=yes}  # EST.
+				}
+					ortenbg_0006={ #// E1. HEINRICH Franz Josef Georg Maria Erbgraf zu Ortenburg, *Bamberg 11.10.1956; 1m: (civ) Weitramsdorf 21.9.1990 (rel) Hechingen 6.10.1990 (div 2002) Pss Désirée von Hohenzollern (*München 27.11.1963); 2m: Weitramsdorf 9.2.2004 Annette Müller (*Giessen 16.9.1962) $$
+						name=Heinrich
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0005	# Alram von Ortenburg
+						mother=100036629	# Agathe von Schaesberg
+						1956.10.11={birth=yes}  # Bamberg
+						1990.09.21={add_spouse=100002329}	# Désirée von Hohenzollern-Sigmaringen
+						2002.01.01={remove_spouse=100002329}
+						2004.02.09={add_spouse=100007567}	# Luise Sophie von Salm
+					}
+						ortenbg_0007={ #// F1. Carl-Theodor, *Lichtenfels 21.2.1992
+							name=Carl-Theodor
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0006	# Heinrich von Ortenburg
+							mother=100002329	# Désirée von Hohenzollern-Sigmaringen
+							1992.02.21={birth=yes}  # Lichtenfels
+						}
+						ortenbg_0008={ #// F2. Friedrich-Hubertus, *Lichtenfels 7.2.1995
+							name=Friedrich-Hubertus
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0006	# Heinrich von Ortenburg
+							mother=100002329	# Désirée von Hohenzollern-Sigmaringen
+							1995.02.07={birth=yes}  # Lichtenfels
+						}
+						ortenbg_0009={ #// F3. Carolina, *Lichtenfels 23.3.1997
+							name=Carolina
+							female=yes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0006	# Heinrich von Ortenburg
+							mother=100002329	# Désirée von Hohenzollern-Sigmaringen
+							1997.03.23={birth=yes}  # Lichtenfels
+						}
+					ortenbg_0010={ #// 4g) Karl Johannes Ghislain Maria (b.Bamberg 17 Jul 1960); m.Coburg 3 Nov 2004 (rel) Tambach 4 Nov 2004 Corinna Stürmer (b.Wiesbaden 17 Jan 1965)
+						name=Karl
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0005	# Alram von Ortenburg
+						mother=100036629	# Agathe von Schaesberg
+						1960.07.17={birth=yes}  # Bamberg
+						2004.11.04={add_spouse=100086332}	# Corinna Stürmer
+					}
+						100010274={ #// 1h) Victor Casimir Aurel Maria (b.London 19 Apr 2005)
+							name=Victor
+							dynasty=1002600
+							religion=catholic culture=english
+							father=ortenbg_0010	# Karl von Ortenburg
+							mother=100086332	# Corinna Stürmer
+							2005.04.19={birth=yes}  # London
+						}
+						100010275={ #// 2h) Julius Theodor Ulrich Maria (b.London 21 Feb 2007)
+							name=Julius
+							dynasty=1002600
+							religion=catholic culture=english
+							father=ortenbg_0010	# Karl von Ortenburg
+							mother=100086332	# Corinna Stürmer
+							2007.02.21={birth=yes}  # London
+						}
+					ortenbg_0011={ #// E3. Marie-Isabell Ily Ghislaine, *Bamberg 1.9.1955; m.Tambach 22.4.1978 Antonius Frhr von Boeselager adopted Frhr von Salis-Soglio (*Wimbern 12.9.1948)
+						name=Marie-Isabell
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0005	# Alram von Ortenburg
+						mother=100036629	# Agathe von Schaesberg
+						1955.09.01={birth=yes}  # Bamberg
+					}
+					ortenbg_0012={ #// E4. Stephanie Hildegard Philippa Maria, *Bamberg 12.4.1958
+						name=Stephanie
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0005	# Alram von Ortenburg
+						mother=100036629	# Agathe von Schaesberg
+						1958.04.12={birth=yes}  # Bamberg
+					}
+				ortenbg_0013={ #// D2. AUREL Ladislaus Franz Heinrich Ernst, *Budapest 30.8.1927, +Middachten, nr Arnhem 13.10.2001; m.Schloss Middachten 20.12.1951 Gfn Isabelle van Aldenbrug-Bentinck (*Middachten 3.7.1925) $$
+					name=Aurel
+					dynasty=ortenbg
+					religion=catholic culture=hungarian
+					father=ortenbg_0004	# Franz Carl von Ortenburg
+					mother=lowbor2_1393	# GFN Ily Semsey de Semse
+					1927.08.30={birth=yes}  # Budapest
+					1951.12.20={add_spouse=100038042}	# Isabelle Bentinck
+					2001.10.13={death=yes}  # Middachten nr Arnhem
+				}
+					ortenbg_0014={ #// E1. FRANZ Wilhelm Friedrich Ladislaus, *Coburg 12.6.1953; m.(civ) Wrestedt 3.6.1993 (rel) Nettelkamp 5.6.1993 Gfn Gustava Grote a.d.H. Breese (*Bevensen 18.10.1955)
+						name=Franz
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0013	# Aurel von Ortenburg
+						mother=100038042	# Isabelle Bentinck
+						1953.06.12={birth=yes}  # Coburg
+						1993.06.03={add_spouse=lowbor2_1401}	# GFN Gustava Grote
+					}
+						ortenbg_0015={ #// F1. Vincent, *Frankfurt a.M. 7.8.1995
+							name=Vincent
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0014	# Franz von Ortenburg
+							mother=lowbor2_1401	# GFN Gustava Grote
+							1995.08.07={birth=yes}
+						}
+						ortenbg_0016={ #// F2. Alexander, *Frankfurt a.M. 16.10.1997
+							name=Alexander
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0014	# Franz von Ortenburg
+							mother=lowbor2_1401	# GFN Gustava Grote
+							1997.10.16={birth=yes}
+						}
+						ortenbg_0017={ #// F3. CASPAR Franz Maximilian, *Frankfurt a.M. 16.1.2001
+							name=Caspar
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0014	# Franz von Ortenburg
+							mother=lowbor2_1401	# GFN Gustava Grote
+							2001.01.16={birth=yes}
+						}
+					ortenbg_0018={ #// E2. Philipp Wilhelm, *Bamberg 9.4.1955; m.(civ) Maroldsweisach 17.9.1988 (rel) Ellecom 1.10.1988 Mirjam Kalf (*Haarlem 16.3.1958)
+						name="Philipp Wilhelm"
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0013	# Aurel von Ortenburg
+						mother=100038042	# Isabelle Bentinck
+						1955.04.09={birth=yes}  # Bamberg
+						1988.09.17={add_spouse=lowbor2_1403}	# Mirjam Kalf
+					}
+						ortenbg_0019={ #// F1. Julia Sophie Rebecca, *Münster 11.2.1991
+							name=Julia
+							female=yes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0018	# Philipp Wilhelm von Ortenburg
+							mother=lowbor2_1403	# Mirjam Kalf
+							1991.02.11={birth=yes}  # Münster
+						}
+						ortenbg_0020={ #// F2. Felix Christian David, *Münster 1.4.1992
+							name=Felix
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0018	# Philipp Wilhelm von Ortenburg
+							mother=lowbor2_1403	# Mirjam Kalf
+							1992.04.01={birth=yes}  # Münster
+						}
+						ortenbg_0021={ #// F3. Marie-Therese Serah, *Lichtenfels 22.8.1994
+							name="Marie-Therese Serah"
+							female=yes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0018	# Philipp Wilhelm von Ortenburg
+							mother=lowbor2_1403	# Mirjam Kalf
+							1994.08.22={birth=yes}  # Lichtenfels
+						}
+						ortenbg_0022={ #// F4. Johannes Casper Daniel, *Lichtenfels 4.5.1997
+							name=Johannes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0018	# Philipp Wilhelm von Ortenburg
+							mother=lowbor2_1403	# Mirjam Kalf
+							1997.05.04={birth=yes}  # Lichtenfels
+						}
+					ortenbg_0023={ #// E3. Nadine Marie Elisabeth, *Bamberg 1.5.1957; m.Ermershausen 27.6.1981 Albrecht Gf von Brandenstein-Zeppelin (*Biberach an der Riss 5.8.1950) $$
+						name=Nadine
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=german
+						father=ortenbg_0013	# Aurel von Ortenburg
+						mother=100038042	# Isabelle Bentinck
+						1957.05.01={birth=yes}  # Bamberg
+					}
+	ortenbg_0024={ #// A2. Friedrich Karl Ludwig, *Erbach 14.1.1805, +Mühlhausen 10.11.1860; m.Mühlhausen 10.9.1830 Ernestine Johanne Bentz (*Mühlhausen 9.12.1807, +Coburg 23.1.1891)
+		name=Friedrich
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0001	# Joseph Karl von Ortenburg
+		mother=100009071	# Karoline von Erbach-Erbach
+		1805.01.14={birth=yes}  # Erbach
+		1830.09.10={add_spouse=lowbor4_1408}	# Ernestine Johanne Bentz
+		1860.11.10={death=yes}  # Mühlhausen
+	}
+		ortenbg_0025={ #// B1. Friedrich Albrecht Ludwig Franz, *Mühlhausen 3.10.1831, +Coburg 28.8.1904; m.Graz 30.5.1870 Fstn Anastasia von Wrede (*Carlenkow, Russia 12.8.1840, +Wiener Neustadt 28.12.1912) $$
+			name=Friedrich
+			dynasty=ortenbg
+			religion=catholic culture=german
+			father=ortenbg_0024	# Friedrich von Ortenburg
+			mother=lowbor4_1408	# Ernestine Johanne Bentz
+			1831.10.03={birth=yes}  # Mühlhausen
+			1870.05.30={add_spouse=100008303}	# Anastasia von Wrede
+			1904.08.28={death=yes}  # Coburg
+		}
+			ortenbg_0026={ #// C1. FRIEDRICH Joseph Franz Emanuel, *Coburg 23.7.1871, +Bayerhof 4.5.1940; m.Langenzell 26.7.1905 Pss Ilka zu Löwenstein-Wertheim-Freudenberg (*Langenzell 9.1.1887, +Schweinfurt 31.3.1971) $$
+				name=Friedrich
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0025	# Friedrich von Ortenburg
+				mother=100008303	# Anastasia von Wrede
+				1871.07.23={birth=yes}  # Coburg
+				1905.07.26={add_spouse=100003824}	# Ilka von Löwenstein-Wertheim-Freudenberg
+				1940.05.04={death=yes}  # Bayerhof
+			}
+				ortenbg_0027={ #// D1. ALFRED FRIEDRICH Franz Otto Hugo Amelung, *Berlin 12.5.1906, +Schweinfurt 3.9.1973; m.Berlin 28.5.1936 Jutta von Lücken (*Danzig [Gdansk] 21.6.1906, +Schweinfurt 23.12.1991)
+					name="Alfred Friedrich"
+					dynasty=ortenbg
+					religion=catholic culture=north_german
+					father=ortenbg_0026	# Friedrich von Ortenburg
+					mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
+					1906.05.12={birth=yes}  # Berlin
+					1936.05.28={add_spouse=lowbor2_1417}	# Jutta von Lücken
+					1973.09.03={death=yes}  # Schweinfurt
+				}
+					ortenbg_0028={ #// E1. BOTHO Friedrich Leopold Harald Manfred Otto Wolf, *Würzburg 21.4.1937; m.Molzen 9.1.1971 Frn Ilse von dem Bussche-Haddenhausen (*Bevensen 16.4.1943)
+						name=Botho
+						dynasty=ortenbg
+						religion=catholic culture=north_german
+						father=ortenbg_0027	# Alfred Friedrich von Ortenburg
+						mother=lowbor2_1417	# Jutta von Lücken
+						1937.04.21={birth=yes}  # Würzburg
+						1971.01.09={add_spouse=lowbor2_1418}	# FRN Ilse von dem Bussche-Haddenhausen
+						2012.01.01={death=yes}  # EST.
+					}
+						ortenbg_0029={ #// F1. Anna-Madeline, *Lübeck 28.10.1971; m.(civ) Berlin 13.12.1999 (rel) Wülfinghausen 6.5.2000 Hervé-Alexander Perrin de Nelle (*München 1.7.1971)
+							name=Anna-Madeline
+							female=yes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0028	# Botho von Ortenburg
+							mother=lowbor2_1418	# FRN Ilse von dem Bussche-Haddenhausen
+							1971.10.28={birth=yes}  # Lübeck
+						}
+						ortenbg_0030={ #// F2. Friedrich, *Oldenburg 11.1.1974; m.Potsdam 27.8.2005 Christine Frn von Wangenheim (*Köln 11.9.1978)
+							name=Friedrich
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0028	# Botho von Ortenburg
+							mother=lowbor2_1418	# FRN Ilse von dem Bussche-Haddenhausen
+							1974.01.11={birth=yes}  # Oldenburg
+							2005.08.27={add_spouse=lowbor2_1429}	# FRN Christine von Wangenheim
+						}
+							100010295={ #// 1i) Alexei Friedrich Julius (b.Hannover 3 Dec 2008)
+								name=Alexei
+								dynasty=1002600
+								religion=catholic culture=german
+								father=ortenbg_0030	# Friedrich von Ortenburg
+								mother=lowbor2_1429	# FRN Christine von Wangenheim
+								2008.12.03={birth=yes}  # Hannover
+							}
+							100010296={ #// 2i) Maximilian Casimir Yorck (b.Hannover 19 Apr 2010)
+								name=Maximilian
+								dynasty=1002600
+								religion=catholic culture=german
+								father=ortenbg_0030	# Friedrich von Ortenburg
+								mother=lowbor2_1429	# FRN Christine von Wangenheim
+								2010.04.19={birth=yes}  # Hannover
+							}
+							100010297={ #// 3i) Albert Felix Constantin (b.29 Dec 2013)
+								name=Albert
+								dynasty=1002600
+								religion=catholic culture=german
+								father=ortenbg_0030	# Friedrich von Ortenburg
+								mother=lowbor2_1429	# FRN Christine von Wangenheim
+								2013.12.29={birth=yes}
+							}
+							100010298={ #// 4i) Teresa Julie Elisabeth (b.9 Feb 2016)
+								name=Teresa
+								female=yes
+								dynasty=1002600
+								religion=catholic culture=german
+								father=ortenbg_0030	# Friedrich von Ortenburg
+								mother=lowbor2_1429	# FRN Christine von Wangenheim
+								2016.02.09={birth=yes}
+							}
+						ortenbg_0031={ #// F3. Christiane, *Oldenburg 10.4.1975; m.Schonungen 18.9.2004 Fabio Nicolo Drago (*1964)
+							name=Christiane
+							female=yes
+							dynasty=ortenbg
+							religion=catholic culture=german
+							father=ortenbg_0028	# Botho von Ortenburg
+							mother=lowbor2_1418	# FRN Ilse von dem Bussche-Haddenhausen
+							1975.04.10={birth=yes}  # Oldenburg
+						}
+					ortenbg_0032={ #// E2. ENGELBERT Wilhelm Udo Heinrich, *Würzburg 11.3.1939; m.Montreal, Quebec 6.3.1965 Margot Pöllmann (*Berlin 5.8.1942)
+						name=Engelbert
+						dynasty=ortenbg
+						religion=catholic culture=north_german
+						father=ortenbg_0027	# Alfred Friedrich von Ortenburg
+						mother=lowbor2_1417	# Jutta von Lücken
+						1939.03.11={birth=yes}  # Würzburg
+						1965.03.06={add_spouse=lowbor2_1431}	# Margot Pöllmann
+						2014.01.01={death=yes}  # EST.
+					}
+						ortenbg_0033={ #// 1h) Peter (b.Montreal 1 Mar 1970); m.Oakville, Ontario 24 Jun 2006 Nancy Sladich (b.Oakville 7 Mar 1970)
+							name=Peter
+							dynasty=1002600
+							religion=catholic culture=german
+							father=ortenbg_0032	# Engelbert von Ortenburg
+							mother=lowbor2_1431	# Margot Pöllmann
+							1970.03.01={birth=yes}  # Montreal
+							2006.06.24={add_spouse=100086400}	# Nancy Sladich
+						}
+							100010302={ #// 1i) Charlotte (b.Oakville 29 Jan 2008)
+								name=Charlotte
+								female=yes
+								dynasty=1002600
+								religion=catholic culture=german
+								father=ortenbg_0033	# Peter zu Ortenburg
+								mother=100086400	# Nancy Sladich
+								2008.01.29={birth=yes}  # Oakville
+							}
+							100010303={ #// 2i) Matthew (b.12 Dec 2009)
+								name=Matthew
+								dynasty=1002600
+								religion=catholic culture=german
+								father=ortenbg_0033	# Peter zu Ortenburg
+								mother=100086400	# Nancy Sladich
+								2009.12.12={birth=yes}
+							}
+					ortenbg_0034={ #// E3. JOACHIM Christian Manfred Gustav-Albrecht, *Würzburg 26.4.1944; m.Bodenwerder 28.8.1970 Ilsabe von Brünneck (*Hamburg 28.9.1945)
+						name=Joachim
+						dynasty=ortenbg
+						religion=catholic culture=north_german
+						father=ortenbg_0027	# Alfred Friedrich von Ortenburg
+						mother=lowbor2_1417	# Jutta von Lücken
+						1944.04.26={birth=yes}  # Würzburg
+						1970.08.28={add_spouse=lowbor2_1433}	# Ilsabe von Brünneck
+					}
+						ortenbg_0035={ #// 1h) Moritz Friedrich Carl (b.Bonn 25 May 1975); m.Darmstadt 28 Dec 2002 (rel) 10 May 2003 Regina Frn v.Ledebur (b.Bad Homburg 17 Nov 1975)
+							name=Moritz
+							dynasty=1002600
+							religion=catholic culture=german
+							father=ortenbg_0034	# Joachim von Ortenburg
+							mother=lowbor2_1433	# Ilsabe von Brünneck
+							1975.05.25={birth=yes}  # Bonn
+							2002.12.28={add_spouse=100086411}	# FRN Regina von Ledebur
+						}
+							100010307={ #// 1i) Philippa Anastasia Dorothea Cecilia, b.München 4 Aug 2005
+								name=Philippa
+								female=yes
+								dynasty=1002600
+								religion=catholic culture=german
+								father=ortenbg_0035	# Moritz zu Ortenburg
+								mother=100086411	# FRN Regina von Ledebur
+								2005.08.04={birth=yes}  # München
+							}
+							100010308={ #// 2i) Donata Ilsabe Alix (b.München 17 Aug 2007)
+								name=Donata
+								female=yes
+								dynasty=1002600
+								religion=catholic culture=german
+								father=ortenbg_0035	# Moritz zu Ortenburg
+								mother=100086411	# FRN Regina von Ledebur
+								2007.08.17={birth=yes}  # München
+							}
+						ortenbg_0036={ #// F2. CHRISTIAN Joachim, *Bonn 28.5.1977
+							name=Christian
+							dynasty=ortenbg
+							religion=catholic culture=north_german
+							father=ortenbg_0034	# Joachim von Ortenburg
+							mother=lowbor2_1433	# Ilsabe von Brünneck
+							1977.05.28={birth=yes}  # Bonn
+						}
+						ortenbg_0037={ #// F3. RUPPRECHT Georg Botho Aurel, *Bonn 23.11.1979
+							name=Rupprecht
+							dynasty=ortenbg
+							religion=catholic culture=north_german
+							father=ortenbg_0034	# Joachim von Ortenburg
+							mother=lowbor2_1433	# Ilsabe von Brünneck
+							1979.11.23={birth=yes}  # Bonn
+						}
+					ortenbg_0038={ #// E4. ILKA Irmgard Pauline Hanna Lili Harriet, *Würzburg 29.6.1942; m.Schonungen am Main 9.10.1971 Herzog Johann von Oldenburg (*Lehnsahn 3.1.1940) $$
+						name=Ilka
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=north_german
+						father=ortenbg_0027	# Alfred Friedrich von Ortenburg
+						mother=lowbor2_1417	# Jutta von Lücken
+						1942.06.29={birth=yes}  # Würzburg
+					}
+					ortenbg_0039={ #// E5. YVONNE Elisabeth Amélie Marie-Luise, *Würzburg 2.1.1948; m.Schonungen am Mainz 27.6.1970 Ludwig von Breitenbuch (*Ranis 23.9.1935)
+						name=Yvonne
+						female=yes
+						dynasty=ortenbg
+						religion=catholic culture=north_german
+						father=ortenbg_0027	# Alfred Friedrich von Ortenburg
+						mother=lowbor2_1417	# Jutta von Lücken
+						1948.01.02={birth=yes}  # Würzburg
+					}
+				ortenbg_0040={ #// D2. AROIBO Paul Karl Wilhelm Ulrich, *Paris 31.3.1908, +Kiel 18.5.1934
+					name=Aroibo
+					dynasty=ortenbg
+					religion=catholic culture=french
+					father=ortenbg_0026	# Friedrich von Ortenburg
+					mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
+					1908.03.31={birth=yes}  # Paris
+					1934.05.18={death=yes}  # Kiel
+				}
+				ortenbg_0041={ #// D2. Udo-Wilhelm Richard Ernst, *Bayerhof 20.5.1915, +k.a.Charkow 11.6.1942
+					name=Udo-Wilhelm
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0026	# Friedrich von Ortenburg
+					mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
+					1915.05.20={birth=yes}  # Bayerhof
+					1942.06.11={death=yes}  # Charkow
+				}
+				ortenbg_0042={ #// D3. JOACHIM Friedrich-Karl Wendt, *Würzburg 10.10.1918, +k.a.on the Dniepr 1.9.1941
+					name=Joachim
+					dynasty=ortenbg
+					religion=catholic culture=north_german
+					father=ortenbg_0026	# Friedrich von Ortenburg
+					mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
+					1918.10.10={birth=yes}  # Würzburg
+					1941.09.01={death=yes}  # k.a. on the_Dniepr
+				}
+				ortenbg_0043={ #// D4. GEORG Friedrich Karl, *Bayerhof 14.2.1922, +mising in action nr Wolle, Netherlands 30.1.1944
+					name=Georg
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0026	# Friedrich von Ortenburg
+					mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
+					1922.02.14={birth=yes}  # Bayerhof
+					1944.01.30={death=yes}
+				}
+				ortenbg_0044={ #// D5. AMÉLIE Anastasia Pauline Madeleine Elisabeth, *Langenzell 19.12.1909; m.Bayerhof 10.4.1934 Heinrich Bggf und Gf zu Dohna-Schlobitten (*Potsdam 24.4.1907, +k.a.Maubeuge 22.5.1940) $$
+					name=Amélie
+					female=yes
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0026	# Friedrich von Ortenburg
+					mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
+					1909.12.19={birth=yes}  # Langenzell
+					1989.01.01={death=yes}  # EST.
+				}
+				ortenbg_0045={ #// D6. PAULINE Amélie, *Bayerhof 3.12.1913, +Bischofsheim 5.3.2002; m.Bayerhof 17.10.1935 Pr Christian zur Lippe-Weissenfeld (*12.8.1907 +24.10.1996) $$
+					name=Pauline
+					female=yes
+					dynasty=ortenbg
+					religion=catholic culture=german
+					father=ortenbg_0026	# Friedrich von Ortenburg
+					mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
+					1913.12.03={birth=yes}  # Bayerhof
+					2002.03.05={death=yes}  # Bischofsheim
+				}
+			ortenbg_0046={ #// C2. EBERHARD Ernst Emanuel, *Coburg 12.10.1873, +Vienna 16.7.1944
+				name=Eberhard
+				dynasty=ortenbg
+				religion=catholic culture=german
+				father=ortenbg_0025	# Friedrich von Ortenburg
+				mother=100008303	# Anastasia von Wrede
+				1873.10.12={birth=yes}  # Coburg
+				1944.07.16={death=yes}  # Vienna
+			}
+	ortenbg_0047={ #// A3. Hermann, *Tambach 4.1.1807, +25.12.1858
+		name=Hermann
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0001	# Joseph Karl von Ortenburg
+		mother=100009071	# Karoline von Erbach-Erbach
+		1807.01.04={birth=yes}  # Tambach
+		1858.12.25={death=yes}
+	}
+	ortenbg_0049={ #// A5. Christiane CHARLOTTE Wilhelmine, *Ortenburg 18.8.1802, +1.10.1854; m.Ortenburg 18.8.1830 Fst Albrecht zu Sayn-Wittgenstein-Berleburg (*Berleburg 12.5.1777, +Berleburg 11.11.1851) $$
+		name=Charlotte
+		female=yes
+		dynasty=ortenbg
+		religion=catholic culture=german
+		father=ortenbg_0001	# Joseph Karl von Ortenburg
+		mother=100009071	# Karoline von Erbach-Erbach
+		1802.08.18={birth=yes}  # Ortenburg
+		1854.10.01={death=yes}
+	}
+#sponh4 ORTENBURG
+
 #sponh7
 100006767={ #// Gerhard I von Sayn Graf zu Sayn, +1419; 2m: before 6.6.1409 Anna von Solms (+1433)
 	name=Gerhard
@@ -815,7 +2294,7 @@
 				father=100004351	# Christian Heinrich von Sayn-Wittgenstein-Berleburg
 				mother=100009184	# Charlotte Friederike von Leiningen-Westerburg
 				1777.05.12={birth=yes}  # Berleburg
-				1830.08.18={add_spouse=100010287}	# Charlotte zu Ortenburg
+				1830.08.18={add_spouse=ortenbg_0049}	# Charlotte von Ortenburg
 				1851.11.11={death=yes}  # Berleburg
 			}
 				100010843={ #// D4. LUISE Charlotte Franziska Friederike Caroline, *24.9.1832, +10.11.1899
@@ -824,7 +2303,7 @@
 					dynasty=1002041
 					religion=catholic culture=german
 					father=100004985	# Albrecht von Sayn-Wittgenstein-Berleburg
-					mother=100010287	# Charlotte zu Ortenburg
+					mother=ortenbg_0049	# Charlotte von Ortenburg
 					1832.09.24={birth=yes}
 					1899.11.10={death=yes}
 				}
@@ -833,7 +2312,7 @@
 					dynasty=1002041
 					religion=catholic culture=german
 					father=100004985	# Albrecht von Sayn-Wittgenstein-Berleburg
-					mother=100010287	# Charlotte zu Ortenburg
+					mother=ortenbg_0049	# Charlotte von Ortenburg
 					1834.03.16={birth=yes}
 					1904.11.09={death=yes}
 				}
@@ -842,7 +2321,7 @@
 					dynasty=1002041
 					religion=catholic culture=german
 					father=100004985	# Albrecht von Sayn-Wittgenstein-Berleburg
-					mother=100010287	# Charlotte zu Ortenburg
+					mother=ortenbg_0049	# Charlotte von Ortenburg
 					1837.05.20={birth=yes}  # Berleburg
 					1878.09.24={add_spouse=100092062}	# FRN Marie von Gemmingen-Hornberg
 					1889.04.01={death=yes}  # Berleburg
@@ -1296,14 +2775,14 @@
 								father=100010828	# Karl-Heinrich von Sayn-Wittgenstein-Berleburg
 								mother=100035540	# Monica Wolff-Metternich zur Gracht
 								1948.12.21={birth=yes}  # Bonn
-								1973.07.08={add_spouse=100005721}	# Irina von  Solms-Baruth
+								1973.07.08={add_spouse=100005721}	# Irina von Solms-Baruth
 							}
 								100010830={ #// H1. CHRISTIAN-ALBRECHT Paul Hubertus Maria, *Bergisch-Gladbach 8.5.1974
 									name=Christian-Albrecht
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100010829	# Hubertus von Sayn-Wittgenstein-Berleburg
-									mother=100005721	# Irina von  Solms-Baruth
+									mother=100005721	# Irina von Solms-Baruth
 									1974.05.08={birth=yes}
 								}
 								100010831={ #// H2. NICOLAUS Heinrich Franz Johannes Hubertus Maria, *Bergisch-Gladbach 19.8.1975
@@ -1311,7 +2790,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100010829	# Hubertus von Sayn-Wittgenstein-Berleburg
-									mother=100005721	# Irina von  Solms-Baruth
+									mother=100005721	# Irina von Solms-Baruth
 									1975.08.19={birth=yes}
 								}
 								100010833={ #// H4. MARIE-CHARLOTTE Oda Stephanie Hildegard, *Bergisch-Gladbach 28.7.1979
@@ -1320,7 +2799,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100010829	# Hubertus von Sayn-Wittgenstein-Berleburg
-									mother=100005721	# Irina von  Solms-Baruth
+									mother=100005721	# Irina von Solms-Baruth
 									1979.07.28={birth=yes}
 								}
 								100010834={ #// H5. MARIA-ELISABETH Gabrielle Christine Caroline Andrea Jutta, *Bergisch-Gladbach 30.10.1982
@@ -1329,7 +2808,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100010829	# Hubertus von Sayn-Wittgenstein-Berleburg
-									mother=100005721	# Irina von  Solms-Baruth
+									mother=100005721	# Irina von Solms-Baruth
 									1982.10.30={birth=yes}
 								}
 								100010835={ #// H6. MARIA-CATHARINA Renata Alexandra Dorothea Theresa Ferdinanda, *Bergisch-Gladbach 22.7.1985
@@ -1338,7 +2817,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100010829	# Hubertus von Sayn-Wittgenstein-Berleburg
-									mother=100005721	# Irina von  Solms-Baruth
+									mother=100005721	# Irina von Solms-Baruth
 									1985.07.22={birth=yes}
 								}
 								100010832={ #// H3. LUDWIG-FERDINAND Botho Michael Eugen Hubertus Maria, *Bergisch-Gladbach 24.12.1986
@@ -1346,7 +2825,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100010829	# Hubertus von Sayn-Wittgenstein-Berleburg
-									mother=100005721	# Irina von  Solms-Baruth
+									mother=100005721	# Irina von Solms-Baruth
 									1986.12.24={birth=yes}
 								}
 								100010836={ #// H7. MARIE-SOPHIE Dorothee Larissa Leonille, *Bergisch-Gladbach 9.11.1988
@@ -1355,7 +2834,7 @@
 									dynasty=1002041
 									religion=catholic culture=german
 									father=100010829	# Hubertus von Sayn-Wittgenstein-Berleburg
-									mother=100005721	# Irina von  Solms-Baruth
+									mother=100005721	# Irina von Solms-Baruth
 									1988.11.09={birth=yes}
 								}
 							100010838={ #// G3. STEPHANIE Maria, *Bonn 3.6.1950; m.Odenthal (civ) 2.2.1973 (rel) 3.2.1973 Stephan von Watzdorf (*Berlin 3.5.1942)
@@ -1389,7 +2868,7 @@
 					dynasty=1002041
 					religion=catholic culture=german
 					father=100004985	# Albrecht von Sayn-Wittgenstein-Berleburg
-					mother=100010287	# Charlotte zu Ortenburg
+					mother=ortenbg_0049	# Charlotte von Ortenburg
 					1839.06.12={birth=yes}
 					1887.03.29={death=yes}
 				}
@@ -2683,7 +4162,7 @@
 	father=100004429	# Ludwig Franz von Sayn-Wittgenstein-Berleburg
 	mother=100002865	# Hedwig Sophia zur  Lippe-Brake
 	1694.12.13={birth=yes}  # Berleburg
-	1722.03.17={add_spouse=100005759}	# Helene Emilie von  Solms-Baruth
+	1722.03.17={add_spouse=100005759}	# Helene Emilie von Solms-Baruth
 	1750.02.24={death=yes}  # Berleburg
 }
 	100004664={ #// B1. Christian Ludwig Casimir Graf zu Sayn-Wittgenstein-Berleburg in Ludwigsburg, *Ludwigsburg 13.7.1725, +Rheda 6.5.1797; 1m: Danzig 13.7.1763 Amalie Ludowika Gfn Finck von Finckenstein (*Reichertswalde, East Prussia 3.2.1740, +Perejaslawl 15.12.1771); 2m: 14.2.1774 Anna Petrovna Pss Dolgoruki (*1742, +8.7.1789) $$
@@ -2691,7 +4170,7 @@
 		dynasty=1002041
 		religion=catholic culture=german
 		father=100004662	# Ludwig Franz von Sayn-Wittgenstein-Berleburg
-		mother=100005759	# Helene Emilie von  Solms-Baruth
+		mother=100005759	# Helene Emilie von Solms-Baruth
 		1725.07.13={birth=yes}  # Ludwigsburg
 		1763.07.13={add_spouse=finck_0221}	# Amalie Ludowika
 		1774.02.14={add_spouse=100015405}	# Анна Петровна Долгорукий
@@ -3407,7 +4886,7 @@
 		dynasty=1002041
 		religion=catholic culture=german
 		father=100004662	# Ludwig Franz von Sayn-Wittgenstein-Berleburg
-		mother=100005759	# Helene Emilie von  Solms-Baruth
+		mother=100005759	# Helene Emilie von Solms-Baruth
 		1726.08.25={birth=yes}
 		1781.04.04={death=yes}
 	}
@@ -3417,7 +4896,7 @@
 		dynasty=1002041
 		religion=catholic culture=german
 		father=100004662	# Ludwig Franz von Sayn-Wittgenstein-Berleburg
-		mother=100005759	# Helene Emilie von  Solms-Baruth
+		mother=100005759	# Helene Emilie von Solms-Baruth
 		1731.09.24={birth=yes}  # Berleburg
 		1791.06.05={death=yes}  # Frankfurt
 	}
@@ -3427,7 +4906,7 @@
 		dynasty=1002041
 		religion=catholic culture=german
 		father=100004662	# Ludwig Franz von Sayn-Wittgenstein-Berleburg
-		mother=100005759	# Helene Emilie von  Solms-Baruth
+		mother=100005759	# Helene Emilie von Solms-Baruth
 		1733.04.11={birth=yes}  # Berleburg
 		1776.01.08={death=yes}  # Philippseich
 	}
@@ -3436,7 +4915,7 @@
 		dynasty=1002041
 		religion=catholic culture=german
 		father=100004662	# Ludwig Franz von Sayn-Wittgenstein-Berleburg
-		mother=100005759	# Helene Emilie von  Solms-Baruth
+		mother=100005759	# Helene Emilie von Solms-Baruth
 		1735.09.22={birth=yes}  # Berleburg
 		1775.05.14={add_spouse=100097539}	# Caroline Joséphine de Kaempfer
 		1792.09.02={death=yes}  # Paris
@@ -3644,7 +5123,7 @@
 		dynasty=1002041
 		religion=catholic culture=german
 		father=100004662	# Ludwig Franz von Sayn-Wittgenstein-Berleburg
-		mother=100005759	# Helene Emilie von  Solms-Baruth
+		mother=100005759	# Helene Emilie von Solms-Baruth
 		1739.12.08={birth=yes}  # Berleburg
 		1805.11.03={death=yes}  # Rheda
 	}

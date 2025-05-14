@@ -1253,7 +1253,7 @@
 					1634.10.06={birth=yes}  # Gross-Rosenberg
 					1681.05.02={death=yes}  # Sondershausen
 				}
-				100035793={ #// D2. Justine Sophie (*14.4.1636, +12.8.1677); m.7.11.1656 Enno Ludwig Cirksena (*29.10.1632, +4.4.1660) %%
+				100035793={ #// D2. Justine Sophie (*14.4.1636, +12.8.1677); m.3.11.1656 Enno Ludwig Cirksena (*29.10.1632, +4.4.1660) %%
 					name="Justine Sophie"
 					female=yes
 					dynasty=1002286
@@ -1768,11 +1768,12 @@
 ## WESTPHALEN 1002284
 
 ## ZINZENDORF 1002282
-100035724={ #// Johann Joachim von Zinzendorf u.Pottendorf (*27.12.1570, +Karlsbach 29.1.1626) %%
+100035724={ #// Johann Joachim von Zinzendorf u.Pottendorf (*27.12.1570, +Karlsbach 29.1.1626); m.1595 Judith von Liechtenstein (*1575, +1621) %%
 	name="Johann Joachim"
 	dynasty=1002282
 	religion=catholic culture=german
 	1570.12.27={birth=yes}
+	1595.01.01={add_spouse=liecht_0072}	# Judith von Liechtenstein
 	1626.01.29={death=yes}  # Karlsbach
 }
 	100035725={ #// A1. Georg Hartmann (*1603, +Ingolstadt 24.8.1632); m.29.1.1626 Sabine von Solms-Braunfels (*9.7.1606) %%
@@ -1780,16 +1781,19 @@
 		dynasty=1002282
 		religion=catholic culture=german
 		father=100035724	# Johann Joachim von Zinzendorf u.Pottendorf
+		mother=liecht_0072	# Judith von Liechtenstein
 		1603.01.01={birth=yes}
 		1626.01.29={add_spouse=100005893}	# Sabine von Solms-Braunfels
 		1632.08.24={death=yes}  # Ingolstadt
 	}
-	100035002={ #// A2. Otto Heinrich (*1605, +Wien 28.3.1655) %%
+	100035002={ #// A2. Otto Heinrich (*1605, +Wien 28.3.1655); m.1652 Maximiliane von Abensberg u.Traun (*1613, +1679) %%
 		name="Otto Heinrich"
 		dynasty=1002282
 		religion=catholic culture=german
 		father=100035724	# Johann Joachim von Zinzendorf u.Pottendorf
+		mother=liecht_0072	# Judith von Liechtenstein
 		1605.01.01={birth=yes}
+		1652.01.01={add_spouse=traun_0101}	# Maximiliane von Abensberg u.Traun
 		1655.03.28={death=yes}	# Wien
 	}
 		100035797={ #// B1. Maximilian Erasmus (*Wien 29.6.1633, +Nürnberg 21.7.1672); m.16.8.1659 Anna Amalia von Dietrichstein (*Nürnberg 20.10.1638, +Nürnberg 15.8.1696) %%
@@ -1834,6 +1838,7 @@
 		dynasty=1002282
 		religion=catholic culture=german
 		father=100035724	# Johann Joachim von Zinzendorf u.Pottendorf
+		mother=liecht_0072	# Judith von Liechtenstein
 		1608.01.01={birth=yes}
 		1659.09.28={death=yes}
 	}
@@ -1958,12 +1963,12 @@
 ## SINZENDORF 1002268
 
 # REICHENBACH-GOSCHÜTZ
-100035705={ #// Heinrich Leopold von Reichenbach-Goschütz (*Klein Peterwitz 19.3.1705, +Goschütz 9.4.1775); m.1st 1729 Gfn Helene Agnes zu Solms-Wildenfels (*1707, +1735); m.2nd 1737 Friederike Charlotte von Schoenaich-Carolath (*1720, +1741); m.3rd 1742 Amalie Mariana von Schoenaich-Carolath (*1718, +1790) %%
+100035705={ #// Heinrich Leopold von Reichenbach-Goschütz (*Klein Peterwitz 19.3.1705, +Goschütz 9.4.1775); m.1st 1729 Helene Agnes von Solms-Sonnenwalde (*Königsberg 28.5.1707, +Goschütz 13.10.1735); m.2nd 1737 Friederike Charlotte von Schoenaich-Carolath (*1720, +1741); m.3rd 1742 Amalie Mariana von Schoenaich-Carolath (*1718, +1790) %%
 	name="Heinrich Leopold"
 	dynasty=1002281
 	religion=catholic culture=german
 	1705.03.19={birth=yes}	# Klein Peterwitz
-	1729.01.01={add_spouse=100085979}	# GFN Helene Agnes zu Solms-Wildenfels
+	1729.01.01={add_spouse=solms_0082}	# Helene Agnes von Solms-Sonnenwalde
 	1737.01.01={add_spouse=100005063}	# Friederike Charlotte von Schoenaich-Carolath
 	1742.01.01={add_spouse=100005062}	# Amalie Mariana von Schoenaich-Carolath
 	1775.04.09={death=yes}	# Goschütz
@@ -1973,7 +1978,7 @@
 		dynasty=1002281
 		religion=catholic culture=german
 		father=100035705	# Heinrich Leopold von Reichenbach-Goschütz
-		mother=100085979	# GFN Helene Agnes zu Solms-Wildenfels
+		mother=solms_0082	# Helene Agnes von Solms-Sonnenwalde
 		1731.11.06={birth=yes}  # Goschütz
 		1754.06.30={add_spouse=100009120}	# Charlotte von Schwarzburg-Sondershausen
 		1777.01.01={add_spouse=100006821}	# Karoline von Schönburg-Glauchau
@@ -1989,14 +1994,14 @@
 			1755.04.09={birth=yes}	# Festenberg 
 			1797.01.31={death=yes}	# Kaiserswaldau
 		}
-		100035708={ #// B2. [1m.] Heinrich Leopold (*Festenberg 23.12.1768, +Goschütz 20.5.1816); m.28.6.1793 Johanna Franziska von  Solms-Baruth (*11.6.1776, +3.7.1840) %%
+		100035708={ #// B2. [1m.] Heinrich Leopold (*Festenberg 23.12.1768, +Goschütz 20.5.1816); m.28.6.1793 Johanna Franziska von Solms-Baruth (*11.6.1776, +3.7.1840) %%
 			name="Heinrich Leopold"
 			dynasty=1002281
 			religion=catholic culture=german
 			father=100035710	# Heinrich Gustav von Reichenbach-Goschütz
 			mother=100009120	# Charlotte von Schwarzburg-Sondershausen
 			1768.12.23={birth=yes}	# Festenberg
-			1793.06.28={add_spouse=100005756}	# Johanna Franziska von  Solms-Baruth
+			1793.06.28={add_spouse=100005756}	# Johanna Franziska von Solms-Baruth
 			1816.05.20={death=yes}	# Goschütz
 		}
 			100035706={ #// C1. Charlotte Henriette (*1795, +1871); m.1825 Heinrich von Reichenbach-Goschütz (*1772, +1845) %%
@@ -2005,7 +2010,7 @@
 				dynasty=1002281
 				religion=catholic culture=german
 				father=100035708	# Heinrich Leopold von Reichenbach-Goschütz
-				mother=100005756	# Johanna Franziska von  Solms-Baruth
+				mother=100005756	# Johanna Franziska von Solms-Baruth
 				1795.01.01={birth=yes}
 				1871.01.01={death=yes}
 			}
@@ -2015,7 +2020,7 @@
 				dynasty=1002281
 				religion=catholic culture=german
 				father=100035708	# Heinrich Leopold von Reichenbach-Goschütz
-				mother=100005756	# Johanna Franziska von  Solms-Baruth
+				mother=100005756	# Johanna Franziska von Solms-Baruth
 				1799.02.15={birth=yes}	# Goschütz
 				1858.04.10={death=yes}  # Prag
 			}
@@ -2024,7 +2029,7 @@
 				dynasty=1002281
 				religion=catholic culture=german
 				father=100035708	# Heinrich Leopold von Reichenbach-Goschütz
-				mother=100005756	# Johanna Franziska von  Solms-Baruth
+				mother=100005756	# Johanna Franziska von Solms-Baruth
 				1801.01.01={birth=yes}
 				1869.01.01={death=yes}
 			}
@@ -2080,7 +2085,7 @@
 		dynasty=1002281
 		religion=catholic culture=german
 		father=100035705	# Heinrich Leopold von Reichenbach-Goschütz
-		mother=100085979	# GFN Helene Agnes zu Solms-Wildenfels
+		mother=solms_0082	# Helene Agnes von Solms-Sonnenwalde
 		1733.03.28={birth=yes}  # Goschütz
 		1772.01.01={add_spouse=100035707}	# Sophie Amalie von Reichenbach-Goschütz
 		1805.02.25={death=yes}  # Sohrau
@@ -2125,7 +2130,7 @@
 			1798.02.20={add_spouse=100009916}	# Amalie zu Dohna-Schlodien
 			1804.05.08={death=yes}  # Kaiserswaldau
 		}
-		100035719={ #// B3. Charlotte Emilie (*11.11.1776, +7.1.1851); m.20.10.1797 Johann von  Solms-Baruth (*18.4.1770, +1.2.1810) %%
+		100035719={ #// B3. Charlotte Emilie (*11.11.1776, +7.1.1851); m.20.10.1797 Johann von Solms-Baruth (*18.4.1770, +1.2.1810) %%
 			name="Charlotte Emilie"
 			female=yes
 			dynasty=1002281
@@ -2135,14 +2140,14 @@
 			1776.11.11={birth=yes}
 			1851.01.07={death=yes}
 		}
-		100035709={ #// B4. Friedrich Wilhelm (*23.10.1779, +1857); m.9.10.1815 Friederike von  Solms-Baruth (*Baruth 24.12.1788, +12.5.1818) %%
+		100035709={ #// B4. Friedrich Wilhelm (*23.10.1779, +1857); m.9.10.1815 Friederike von Solms-Baruth (*Baruth 24.12.1788, +12.5.1818) %%
 			name="Friedrich Wilhelm"
 			dynasty=1002281
 			religion=catholic culture=german
 			father=100035704	# Heinrich Leopold von Reichenbach-Goschütz
 			mother=100035707	# Sophie Amalie von Reichenbach-Goschütz
 			1779.10.23={birth=yes}
-			1815.10.09={add_spouse=100005745}	# Friederike von  Solms-Baruth
+			1815.10.09={add_spouse=100005745}	# Friederike von Solms-Baruth
 			1857.01.01={death=yes}
 		}
 	100035714={ #// A3. [2m.] Helene (*Goschütz 16.5.1738, +Halbau 16.4.1817); m.1754 Johann Friedrich von Dohna-Lauck (*Reichterswalde 16.12.1716, +Torgau 7.2.1761) %%
@@ -2676,7 +2681,16 @@
 							1939.10.19={add_spouse=100047269}	# Anna Dobržensky z Dobrženitz
 							1995.01.18={death=yes}  # Bad Radkersburg
 						}
-		100035344={ #// B2. Maria Anna (*5.8.1745, +8.4.1810); m.29.8.1767 Philipp von Wurmbrand-Stuppach (*24.4.1744, +18.4.1813) %%
+		100090464={ #// B2. Anna Juliane (*13.1.1742, +4.4.1812); m.9.1.1764 Johann Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (*22.6.1732, +30.1.1808) %%
+			name="Anna Juliane"
+			female=yes
+			dynasty=1002262
+			religion=catholic culture=german
+			father=100035356	# Leopold von Stubenberg
+			1742.01.13={birth=yes}
+			1812.04.04={death=yes}
+		}
+		100035344={ #// B3. Maria Anna (*5.8.1745, +8.4.1810); m.29.8.1767 Philipp von Wurmbrand-Stuppach (*24.4.1744, +18.4.1813) %%
 			name="Maria Anna"
 			female=yes
 			dynasty=1002262
@@ -2685,20 +2699,20 @@
 			1745.08.05={birth=yes}
 			1810.04.08={death=yes}
 		}
-		
-100035360={ #// Leopold von Stubenberg (*1673, +Graz 1708) %%
+	
+100035360={ #// Leopold von Stubenberg (*Graz 11.4.1673, +Graz 1708) %%
 	name=Leopold
 	dynasty=1002262
 	religion=catholic culture=german
-	1673.01.01={birth=yes}
+	1673.04.11={birth=yes}  # Graz
 	1708.01.01={death=yes}  # Graz
 }
-	100035358={ #// A1. Johann Georg (*Graz 1704, +Graz 9.8.1766) %%
+	100035358={ #// A1. Johann Georg (*Graz 1705, +Graz 9.8.1766) %%
 		name="Johann Georg"
 		dynasty=1002262
 		religion=catholic culture=german
 		father=100035360	# Leopold von Stubenberg
-		1704.01.01={birth=yes}  # Graz
+		1705.01.01={birth=yes}  # Graz
 		1766.08.09={death=yes}  # Graz
 	}
 		100035333={ #// B1. Marie Cäcilie (*Graz 13.1.1725, +Oroszvár 22.10.1763); m.26.12.1745 István Zichy de Zich et Vásonkeő (*16.7.1715, +13.2.1769) %%
@@ -2783,7 +2797,7 @@
 	1650.01.01={birth=yes}  # Riegersdorf
 	1711.01.01={death=yes}
 }
-	100035310={ #// A1. Antoni Józef (*1680, +8.7.1746) %%
+	100035310={ #// A1. Antoni Józef Poniński h. Łodzia (*1680, +8.7.1746)
 		name="Antoni Józef"
 		dynasty=1012030
 		religion=catholic culture=polish
@@ -2847,8 +2861,8 @@
 					1876.05.05={death=yes}  # Breslau
 				}
 
-100035309={ #// Michal Poniński (*1660, +1703) %%
-	name=Michal
+100035309={ #// Michał Poniński (*1660, +1703) %%
+	name=Michał
 	dynasty=1012030
 	religion=catholic culture=polish
 	1660.01.01={birth=yes}
@@ -2858,11 +2872,11 @@
 		name=Walenty
 		dynasty=1012030
 		religion=catholic culture=polish
-		father=100035309	# Michal Poniński
+		father=100035309	# Michał Poniński
 		1700.01.01={birth=yes}	# EST.
 		1780.01.01={death=yes}	# EST.
 	}
-		100035307={ #// B1. Marceli (*6.1.1749, +10.9.1817) %%
+		100035307={ #// B1. Marceli Poniński z Wrześni h. Łodzia (*6.1.1749, +10.9.1817)
 			name=Marceli
 			dynasty=1012030
 			religion=catholic culture=polish
@@ -2894,7 +2908,16 @@
 						1855.05.19={birth=yes}	# Koscielec
 						1932.08.23={death=yes}	# Inowroclaw
 					}
-						100035286={ #// F1. Edward Juliusz (*Koscielec 1.7.1887, +Inowroclaw 23.10.1939) %%
+						100235286={ #// F1. Rozalia (*Żerniki 29.5.1881, +Kraków 25.12.1971); m.1902 Zygmunt Żółtowski (*1877, +1919) %%
+							name="Rozalia"
+							female=yes
+							dynasty=1012030
+							religion=catholic culture=polish
+							father=100035285	# Adolf Poniński
+							1881.05.29={birth=yes}	# Żerniki
+							1971.12.25={death=yes}	# Kraków
+						}
+						100035286={ #// F2. Edward Juliusz (*Koscielec 1.7.1887, +Inowroclaw 23.10.1939) %%
 							name="Edward Juliusz"
 							dynasty=1012030
 							religion=catholic culture=polish
@@ -2928,13 +2951,22 @@
 								1940.04.16={birth=yes}	# Tarnobrzeg
 								1970.06.27={add_spouse=100110325}	# Maria Roza Zamoyski
 							}
-						
-100035302={ #// Maciej Poniński (*1700, +Wrzesnia 19.12.1768) %%
+				100235305={ #// D2. Seweryna (*Września 31.10.1818, +Nekla 18.11.1899); m.1841 Stanisław Franciszek Żółtowski (*1810, +1867) %%
+					name="Seweryna"
+					female=yes
+					dynasty=1012030
+					religion=catholic culture=polish
+					father=100035308	# Stanisław Poniński
+					1818.10.31={birth=yes}	# Września
+					1899.11.18={death=yes}	# Nekla
+				}
+				
+100035302={ #// Maciej Poniński (*1700, +Wrzesnia 19.12.1758) %%
 	name=Maciej
 	dynasty=1012030
 	religion=catholic culture=polish
 	1700.01.01={birth=yes}
-	1768.12.19={death=yes}	# Wrzesnia
+	1758.12.19={death=yes}	# Wrzesnia
 }
 	100035289={ #// A1. Adam (*Kraków 1732, +23.7.1798); m.24.5.1759 Jozefa Lubomirski %%
 		name=Adam
@@ -2979,6 +3011,15 @@
 						1885.09.08={add_spouse=100008293}	# Olga von Wrede
 						1915.10.24={death=yes}	# Lwów
 					}
+					100235294={ #// E2. Felicja Kaliksta (*Tarnów 15.11.1871, +1954); m.19.5.1900 August Wodzicki (*1870, +1926) %%
+						name="Felicja Kaliksta"
+						female=yes
+						dynasty=1012030
+						religion=catholic culture=german
+						father=100035297	# Ludwik Nikodem Poniński
+						1871.11.15={birth=yes}	# Tarnów
+						1954.01.01={death=yes}
+					}
 		100035069={ #// B2. Karol (*Warszawa 5.11.1789, +12.5.1830) %%
 			name=Karol
 			dynasty=1012030
@@ -3019,8 +3060,8 @@
 
 
 # WIELHORSKI
-100035234={ #// Michal Maciej Wielohorsky (*Petersburg 11.11.1788, +Moskwa 28.7.1856); m.1st 1812 Catharina Biron (*15.9.1792, +31.1.1813); m.2nd 23.4.1816 Luise Biron (*25.7.1791, +8.3.1853) %%
-	name="Michal Maciej"
+100035234={ #// Michał Maciej Wielohorsky (*Petersburg 11.11.1788, +Moskwa 28.7.1856); m.1st 1812 Catharina Biron (*15.9.1792, +31.1.1813); m.2nd 23.4.1816 Luise Biron (*25.7.1791, +8.3.1853) %%
+	name="Michał Maciej"
 	dynasty=1012302
 	religion=catholic culture=polish
 	1788.11.11={birth=yes}	# Petersburg
@@ -3033,7 +3074,7 @@
 		female=yes
 		dynasty=1012302
 		religion=catholic culture=polish
-		father=100035234	# Michal Maciej Wielohorsky
+		father=100035234	# Michał Maciej Wielohorsky
 		mother=100000403	# Luise Biron
 		1823.11.15={birth=yes}
 		1861.09.04={death=yes}
@@ -3905,255 +3946,7 @@ lwbrnga_0392={ # Pss        Maria Alexandrovna        Nicolay                   
 		}
 # Thyssen-Bornemisza de Kászon
 	
-# CIRKSENA
-100094216={ #// E1. Maria Ernestine FRANZISKA, Gräfin von Rietberg, *Rietberg 1.8.1686, +Brno 1.1.1758, bur Rietberg; m.Vienna 6.8.1699 Gf Maximilian Ulrich von Kaunitz (*22.3.1679, +10.9.1746) $$
-	name="Franziska von Ostfriesland"
-	female=yes
-	#dynasty=0
-	religion=lutheran culture=frisian
-	1686.08.01={birth=yes}
-	1758.01.01={death=yes}
-}
-
-100095770={ #// 1h) Christiane Luise, heiress of Criechingen (Norden 1 Feb 1710-12 May 1732); m.Aurich 14 Aug 1726 Johann Adolf Gf zu Wied (d.18 May 1762) $$
-	name="Christina Luise von Ostfriesland"
-	female=yes
-	#dynasty=0
-	religion=catholic culture=german
-	1710.02.01={birth=yes}
-	1732.05.12={death=yes}
-}
-						
-100035759={ #// Ulrich, 1464 Gf zu Norden, usw, in Ostfriesland [Gf von Ostfriesland], d.1466; bur Kl Marienthal in Norden; m.1st Folke (d.1452), dau of Wibet von Esens; m.2nd 1453 Theda (ca 1434-Greetsiel 16 Sep 1494; bur Kl Marienthal, then 1548 Emden), dau of Uko Ukena
-	name=Edzard
-	dynasty=1008026
-	religion=catholic culture=german
-	1430.01.01={birth=yes}	# EST.
-	1466.01.01={death=yes}
-}
-	100035757={ #// 1a) Hebe (18 Nov 1457-1476; bur Kl Marienthal); m.1476 Erich Gf von Holstein-Schaumburg (d.25 Mar 1492) $$
-		name=Hebe
-		female=yes
-		dynasty=1008026
-		religion=catholic culture=german
-		father=100035759	# Edzard Cirksena
-		1457.11.18={birth=yes}
-		1476.01.01={death=yes}
-	}
-	100036460={ #// 4a) Edzard I Gf von Ostfriesland (Greetsiel 15 Jan 1462-Emden 16 Feb 1528); m.8 Jul 1498 Elisabeth Gfn von Rietberg (d.Emden 13 Jul 1512)
-		name=Edzard
-		dynasty=1008026
-		religion=lutheran culture=frisian
-		father=100035759	# Edzard Cirksena
-		1462.01.01={birth=yes}
-		1528.03.01={death=yes}
-	}
-		100036728={ #// 2b) Margarethe (1500-Altwildungen 5 Jul 1537); m.Emden 1523 Philipp Gf von Waldeck (d.30 Nov 1574) $$
-			name=Margarethe
-			female=yes
-			dynasty=1008026
-			religion=lutheran culture=frisian
-			father=100036460	# Edzard Cirksena
-			1500.01.01={birth=yes}
-			1537.07.15={death=yes}
-		}
-		100036461={ #// 4b) Enno II (1505-Emden 24 Sep 1540); m.Oldenburg 7 Mar 1530 Anna Gfn von Oldenburg-Delmenhorst (14 Nov 1505-Greetsiel 10 Nov 1575) $$
-			name=Enno
-			dynasty=1008026
-			religion=lutheran culture=frisian
-			father=100036460	# Edzard Cirksena
-			1505.01.01={birth=yes}
-			1530.03.06={add_spouse=100013100}	# Anna von Oldenburg
-			1540.03.01={death=yes}
-		}
-			100035758={ #// 1c) Elisabeth (10 Jan 1531-5 Sep 1558; bur Möllenbeck); m.Aurich 23 May 1555 Johann Gf von Holstein-Schauenburg (d.10 Jan 1560) $$
-				name=Elisabeth
-				female=yes
-				dynasty=1008026
-				religion=lutheran culture=frisian
-				father=100036461	# Enno Cirksena
-				mother=100013100	# Anna von Oldenburg
-				1531.01.10={birth=yes}
-				1558.09.06={death=yes}
-			}
-			100036729={ #// 2c) Edzard II (24 Jun 1532-Aurich 27 Feb/1 Mar 1599); m.Stockholm 1 Oct 1559 Pss Catharina of Sweden (6 Jun 1539-Berum 21 Dec 1610) $$
-				name=Edzard
-				dynasty=1008026
-				religion=lutheran culture=frisian
-				father=100036461	# Enno Cirksena
-				mother=100013100	# Anna von Oldenburg
-				1532.01.01={birth=yes}
-				1559.10.01={add_spouse=100012312}	# Katharina Vasa
-				1599.03.01={death=yes}
-			}
-				100036731={ #// 2d) Anna (Aurich 26 Jun 1562-Neuhaus/Elbe 27 Apr 1621); m.1st Heidelberg 12 Aug 1583 Ludwig VI Kfst von der Pfalz (d.12 Oct 1583); m.2nd 17 Nov 1585 Ernst Friedrich Mgve of Baden-Durlach (d.14 Apr 1604); m.3rd Graben bei Karlsruhe 7 Mar 1617 Julius Heinrich, Duke of Saxe-Lauenburg (d.16 Nov 1665) $$
-					name=Anna
-					female=yes
-					dynasty=1008026
-					religion=catholic culture=frisian
-					father=100036729	# Edzard Cirksena
-					mother=100012312	# Katharina Vasa
-					1562.06.26={birth=yes}  # Aurich
-					1621.04.27={death=yes}  # Neuhaus, Bohemia
-				}
-				100036730={ #// 3d) Enno III (30 Sep 1563-Leerort 19 Aug 1625); m.1st Esens 29 Jan 1581 Walpurgis Gfn von Rietberg, heiress of Esens and Rietberg (1555-Esens 26 May 1586); m.2nd Esens 25 Jun 1598 Pss Anna von Holstein-Gottorp (27 Feb 1573-Leerort 14 Apr 1610) $$
-					name=Enno
-					dynasty=1008026
-					religion=catholic culture=frisian
-					father=100036729	# Edzard Cirksena
-					mother=100012312	# Katharina Vasa
-					1563.09.30={birth=yes}  # Aurich
-					1598.06.25={add_spouse=100213057}	# Anna von Oldenburg-Gottorf
-					1625.08.19={death=yes}  # Neuhaus, Bohemia
-				}
-					100035860={ #// 2e) Agnes, heiress of Esens and Wittmund (1 Jan 1584-24 Jan 1616); m.1604 Gundakar Gf [later, Fst] von Liechtenstein (d.5 Aug 1658) $$
-						name=Agnes
-						female=yes
-						dynasty=1008026
-						religion=catholic culture=frisian
-						father=100036730	# Enno Cirksena
-						1584.01.01={birth=yes}
-						1616.02.28={death=yes}
-					}
-					100036727={ #// 6e) Anna Maria (23 Jun 1601-5 Feb 1634); m.Vörde 4 Sep 1622 Adolf Friedrich, Duke von Mecklenburg-Schwerin (d.27 Feb 1658) $$
-						name=Anna
-						female=yes
-						dynasty=1008026
-						religion=catholic culture=frisian
-						father=100036730	# Enno Cirksena
-						mother=100213057	# Anna von Oldenburg-Gottorf
-						1601.06.23={birth=yes}
-						1634.09.04={death=yes}
-					}
-					100035056={ #// 7e) Rudolf Christian (bap 25 Jun 1602-k.a.Berum 17 Apr 1628)
-						name="Rudolf Christian"
-						dynasty=1008026
-						religion=catholic culture=frisian
-						father=100036730	# Enno Cirksena
-						mother=100213057	# Anna von Oldenburg-Gottorf
-						1602.06.02={birth=yes}
-						1628.04.16={death=yes}
-					}
-					100035055={ #// 8e) Ulrich II (6 Jul 1605-Aurich 1 Nov 1648); m.Aurich 5 Mar 1631 Juliane Ldgvne von Hessen-Darmstadt (Darmstadt 14 Apr 1606-Westerhof 15 Jan 1659)
-						name=Ulric
-						dynasty=1008026
-						religion=catholic culture=frisian
-						father=100036730	# Enno Cirksena
-						mother=100213057	# Anna von Oldenburg-Gottorf
-						1605.01.01={birth=yes}
-						1648.11.01={death=yes}
-					}
-						100035057={ #// 1f) Enno Ludwig, cr Fst von Ostfriesland 1654 (Aurich 29 Oct 1632-Aurich 4 Apr 1660); m.Aurich 7 Nov 1656 Justina Gfn von Barby (Rudolstadt 14 Apr 1636-Berum 12 Aug 1677) $$
-							name="Enno Ludwig"
-							dynasty=1008026
-							religion=catholic culture=frisian
-							father=100035055	# Ulric Cirksena
-							1632.10.29={birth=yes}
-							1656.11.07={add_spouse=100035793}	# Justine Sophie von Barby
-							1660.04.04={death=yes}
-						}
-							100035049={ #// 2g) Sophie Wilhelmine, cr Fstn 1678 (Aurich 17 Oct 1659-Bernstadt 4 Feb 1698); m.Hamburg 7 Dec 1695 Christian Ulrich Duke von Württemberg-Öls (d.1704) $$
-								name="Sophie Wilhelmine"
-								female=yes
-								dynasty=1008026
-								religion=catholic culture=german
-								father=100035057	# Enno Ludwig Cirksena
-								mother=100035793	# Justine Sophie von Barby
-								1659.10.17={birth=yes}  # Aurich
-								1698.06.13={death=yes}  # Bernstadt
-							}
-						100035058={ #// 2f) Georg Christian, cr Fst von Ostfriesland 1662 (Aurich 6 Feb 1634-Aurich 6 Jun 1665); m.Stuttgart 8 May 1662 Christina Charlotte Dss von Württemberg (Stuttgart 21 Oct 1645-Bruchhausen-Vilsen 16 May 1699) $$
-							name="Georg Christian"
-							dynasty=1008026
-							religion=catholic culture=frisian
-							father=100035055	# Ulric Cirksena
-							1634.02.06={birth=yes}
-							1662.05.08={add_spouse=100009535}	# Christine Charlotte von WU rttemberg
-							1665.06.06={death=yes}
-						}
-							100035068={ #// 3g) Christian Eberhard, Fst von Ostfriesland (Esens 1 Oct 1665-Aurich 30 Jun 1708); m.1st Bayreuth 3 May 1685 Pss Eberhardine Sophie zu Oettingen (Öttingen 16 Aug 1666-Aurich 30 Oct 1700); m.2nd Berum 2 Sep 1701 Anna Juliane von Kleinau (Strelitz 29 Sep 1674-Aurich 23 Sep 1727) $$
-								name="Christian Eberhard"
-								dynasty=1008026
-								religion=catholic culture=frisian
-								father=100035058	# Georg Christian Cirksena
-								mother=100009535	# Christine Charlotte von WU rttemberg
-								1665.10.01={birth=yes}
-								1685.05.03={add_spouse=100012947}	# Eberhardine Sophie zu Oettingen-Oettingen
-								1708.06.30={death=yes}
-							}
-								100036814={ #// 2h) Christine Sophie (Bayreuth 16 Mar 1688-Rudolstadt 31 Mar 1750); m.Stadtilm 6 Jan 1729 Friedrich Anton Fst von Schwarzburg-Rudolstadt (d.1 Sep 1744) $$
-									name=Christine
-									female=yes
-									dynasty=1008026
-									religion=catholic culture=frisian
-									father=100035068	# Christian Eberhard Cirksena
-									mother=100012947	# Eberhardine Sophie zu Oettingen-Oettingen
-									1688.03.16={birth=yes}  # Bayreuth
-									1750.03.31={death=yes}  # Rudolstadt
-								}
-								100035061={ #// 4h) Georg Albrecht, Fst von Ostfriesland (Aurich 13 Jun 1690-Sandhorst 12 Jun 1734); m.1st Idstein 23 Sep 1709 Pss Christine Luise von Nassau (Idstein 31 Mar 1691-Aurch 13 Apr 1723); m.2nd Schloß Pretsch 8 Dec 1723 Sophie Karoline Mgvne of Brandenburg-Kulmbach (Weferlingen 31 Mar 1707-Sorgenfri 7 Jun 1764) $$
-									name="Georg Albrecht"
-									dynasty=1008026
-									religion=catholic culture=frisian
-									father=100035068	# Christian Eberhard Cirksena
-									mother=100012947	# Eberhardine Sophie zu Oettingen-Oettingen
-									1690.06.13={birth=yes}
-									1709.09.23={add_spouse=100037392}	# Christiane Luise von Nassau-Weilburg
-									1723.12.08={add_spouse=100002497}	# Sophie Karoline von Hohenzollern
-									1734.06.12={death=yes}
-								}
-									100035062={ #// 4i) Karl Edzard, Fst von Ostfriesland (Aurich 15 Feb 1716-Aurich 8 Jun 1744); m.Berum 25 May 1734 Wilhelmine Mgvne von Brandenburg-Bayreuth (Weferlingen 8 Jul 1714-Aurich 7 Sep 1749) $$
-										name="Karl Edzard"
-										dynasty=1008026
-										religion=catholic culture=frisian
-										father=100035061	# Georg Albrecht Cirksena
-										mother=100037392	# Christiane Luise von Nassau-Weilburg
-										1716.06.18={birth=yes}
-										1734.05.25={add_spouse=100002492}	# Wilhelmine Sophie von Hohenzollern
-										1744.05.25={death=yes}
-									}
-								100035050={ #// 9h) Juliane Luise (Aurich 13 Jun 1698-Ahrensbök 6 Feb 1740); m.Braunschweig 17 Feb 1721 Joachim Friedrich, Duke of Holstein-Plön (d.1722) $$
-									name="Juliane Luise"
-									female=yes
-									dynasty=1008026
-									religion=catholic culture=german
-									father=100035068	# Christian Eberhard Cirksena
-									mother=100012947	# Eberhardine Sophie zu Oettingen-Oettingen
-									1698.06.13={birth=yes}  # Aurich
-									1740.02.06={death=yes}  # Ahrensbök
-								}
-				100035772={ #// 6d) Christoph (1569-Luxemburg 1636); m.Lambertine de Ligne (22 Jun 1593-14 Feb 1651; bur Spontin) $$
-					name=Christoph
-					dynasty=1008026
-					religion=lutheran culture=frisian
-					father=100036729	# Edzard Cirksena
-					mother=100012312	# Katharina Vasa
-					1569.01.01={birth=yes}
-					1613.08.13={add_spouse=100069764}	# Lambertine de Ligne
-					1636.01.01={death=yes}	# Luxemburg
-				}
-				100036726={ #// 11d) Maria (25 Apr 1582-Dannenberg 9 Jul 1616); m.Dannenberg 25 Apr 1613 Julius Ernst, Duke von Braunschweig-Dannenberg (d.26 Oct 1636) $$
-					name=Marie
-					female=yes
-					dynasty=1008026
-					religion=lutheran culture=frisian
-					father=100036729	# Edzard Cirksena
-					mother=100012312	# Katharina Vasa
-					1582.04.25={birth=yes}
-					1616.07.09={death=yes}  # Dannenberg
-				}
-			100035522={ #// 4c) Hedwig (29 Jun 1535-Harburg 4 Dec 1616; bur Harburg Stadtkirche); m.8 Nov 1562 Otto II, Duke of Braunschweig (d.20 Oct 1603) $$
-				name=Hedwig
-				female=yes
-				dynasty=1008026
-				religion=lutheran culture=frisian
-				father=100036461	# Enno Cirksena
-				mother=100013100	# Anna von Oldenburg
-				1535.06.29={birth=yes}
-				1616.11.04={death=yes}
-			}
-# CIRKSENA
-
+	
 ## OSTASENKO 1010011
 100035074={ #// Pr Jurij Ostasenko-Bogdanov (b.28 Jan 1928); m.29 Aug 1949 Maria Krakovský z Kolovrat (b.1911) $$
 	name="Юрий"
@@ -4296,7 +4089,6 @@ lwbrnga_0392={ # Pss        Maria Alexandrovna        Nicolay                   
 # CHOISEUL
 	
 # MONTGELAS
-
 100036165={ #// Maximilian Karl von Montgelas (*1759, +1838); m.1806 Fanny Ernestine von Arco (*5.7.1779, +1820) %%
 	name="Maximilian Karl"
 	dynasty=1002200
@@ -6221,788 +6013,6 @@ lwbrnga_0392={ # Pss        Maria Alexandrovna        Nicolay                   
 # DOUGLAS-PENNANT
 
 
-## BERCHTOLD 1011382
-#berchtold1		
-100036706={ #// Johann Jacob -cr Freiherr Berchtold von und zu Ungarschitz, Fratting und Pullitz in Wien 25.4.1633, *before 1585, +Wien 28.5.1641; 1m: after 12.3.1613 Dorothea Susanna (+1620), widow of Veit Siess; 2m: 1629 Maria Magdalena Hegenmüller (*ca 1601, +1655); 3m: Regina Catharine Nütz von Grüb (*ca 1601, +1655); he had issue, apparently all by 3m.
-	name="Johann Jacob"
-	dynasty=1011382
-	religion=catholic culture=german
-	1600.01.01={birth=yes}	# EST.
-	1641.05.28={death=yes}
-}
-	100036238={ #// A2. Frhr Matthias Ernst, *Vienna 26.2.1632, +Vienna 7.7.1678; 1m: 1660 Amabilia Anna Ludmilla Swihowska z Ryzmberka (+1661); 2m: Vienna 11.6.1662 Gfn Susanna Polyxena von Mansfeld (+1693) $$
-		name="Matthias Ernst"
-		dynasty=1011382
-		religion=catholic culture=german
-		father=100036706	# Johann Jacob von Berchtold
-		1632.02.26={birth=yes}
-		1662.06.11={add_spouse=100010677}	# Susanne von Mansfeld
-		1678.07.07={death=yes}
-	}
-		100036237={ #// B1. Franz Karl, Graf Berchtold, Freiherr von und zu Ungarschitz, bap 24.5.1665, +Pulice 19.8.1720, bur Budkov, Moravia; 1m: 1686 Esther Elisabeth Gfn Praschma von Bilkau (+1708); 2m: 31.3.1710 Gfn Maria Antonia Krakowská z Kolowrat (bap 8.5.1680 +4.9.1757) $$
-			name="Franz Karl"
-			dynasty=1011382
-			religion=catholic culture=czech
-			father=100036238	# Matthias Ernst von Berchtold
-			mother=100010677	# Susanne von Mansfeld
-			1664.01.01={birth=yes}
-			1710.03.31={add_spouse=100047036}	# Marie Antonie Krakovský z Kolovrat
-			1720.08.19={death=yes}
-		}
-			100036236={ #// C1. Franz Anton, *1691, +1746; 1m: 1715 Maria Esther Elisabeth Gfn von Sinzendorf (+ca 1736); 2m: 1736 Maria Johanna Gfn von Sinzendorf (*1716, +1758)
-				name=Franz
-				dynasty=1011382
-				religion=catholic culture=czech
-				father=100036237	# Franz Karl von Berchtold
-				1691.02.10={birth=yes}
-				1715.01.01={add_spouse=100082306}	# Maria Esther von Sinzendorf
-				1746.01.01={death=yes}
-			}
-				#berchtold2  -->  D1. [1m.] Prosper Anton, *ca 1720, +1807; 1m: 31.5.1744 Maria Theresa Frn Petrzwaldska z Petrzwaldu (*14.1.1727, +Buchlov 1768); 2m: 1768 Eleonore Thekla Gottlieb (+1776/77); 3m: ca 1779 Maria Anna Weiser (*1763 +1843)
-			100036710={ #// C5. [1m.] Adam Ignaz, *27.3.1701, +1786/90; 1m: 1723 Maria Anna Gfn von Aichpichl (*1706 +1774); 2m: 1776 Gfn Maria Katharina von und zu Trauttmansdorff (*1738); all kids by 1m: $$
-				name="Adam Ignaz"
-				dynasty=1011382
-				religion=catholic culture=czech
-				father=100036237	# Franz Karl von Berchtold
-				religion=catholic culture=german
-				1701.03.27={birth=yes}
-				1776.01.01={add_spouse=100024318}	# Maria Katharina von Trauttmansdorff-Weinsberg
-				1786.01.01={death=yes}
-			}
-	100036709={ #// A3. Jacob-Philipp Gf Berchtold, *1634, +1679; m.Katharina Dorothea Frn z Rican (+1708)
-		name=Jacob-Philipp
-		dynasty=1011382
-		religion=catholic culture=german
-		father=100036706	# Johann Jacob von Berchtold
-		1634.01.01={birth=yes}
-		1679.01.01={death=yes}
-	}
-		100036718={ #// B1. Johann FRANZ FERDINAND, *Merklín 1657, +Praha 10.9.1720; 1m: 1688 Elisabeth Regina Gfn Notthaft von Wernberg; 2m: Klatovy 24.2.1691 Gfn Uršula Barbora z Wrtby (*29.10.1659 +22.10.1720)
-			name="Franz Ferdinand"
-			dynasty=1011382
-			religion=catholic culture=german
-			father=100036709	# Jacob-Philipp von Berchtold
-			1657.01.01={birth=yes}
-			1720.09.10={death=yes}
-		}
-			100036713={ #// C1. Johann ANTON FRANZ Josef Ignaz, *Merklín 15.3.1693, +k.a.Grocka, Serbia 22.7.1739; m.1724 Sophie Elisabeth Eyerl von Eyerlsberg (*Bratislava 22.1.1704, +Trnava 18.5.1759)
-				name="Anton Franz"
-				dynasty=1011382
-				religion=catholic culture=german
-				father=100036718	# Franz Ferdinand von Berchtold
-				1693.03.15={birth=yes}
-				1739.07.22={death=yes}
-			}
-				100036712={ #// D1. ANTON Paul Johann Nepomuck Kajetan, *Trnava 10.12.1725/Nagyszombat 12.6.1728, +Wien 17.6.1795; m.9.2.1752 Maria Anna Reviczky von Revisnye (*1735, +Wien 2.8.1755); 2m: Szobotiszt 7.8.1770 Gfn Terézia Nyáry de Bedegh et Berencs (*Szobotiszt 19.9.1749) $$
-					name=Anton
-					dynasty=1011382
-					religion=catholic culture=german
-					father=100036713	# Anton Franz von Berchtold
-					1728.06.12={birth=yes}  # Nagyszombat
-					1770.08.07={add_spouse=nyary_0088}	# Terézia Nyáry de Bedegh
-					1795.06.17={death=yes}  # Wien
-				}
-					#berchtold3 -> E1. [1m.] Maria ANTON Nikolaus Peter Ferdinand Heinrich, Graf Berchtold, Freiherr zu Ungarschitz, Fratting und Pullitz, *Trnava 12.7.1754, +Wien 25.3.1819; m.Šurany 28.11.1792 Maria Anna Franziska Huszár de Szent-Baráth (*Kemencze 12.7.1771, +Wien 10.11.1847); for his issue see HERE
-		100035122={ #// B4. Anton Ferdinand, *1667, +1709; m.Anna Juliana N
-			name="Anton Ferdinand"
-			dynasty=1011382
-			religion=catholic culture=german
-			father=100036709	# Jacob-Philipp von Berchtold
-			1667.01.01={birth=yes}
-			1709.03.01={death=yes}
-		}
-			100035124={ #// C1. Petronilla Katharina ( ca.1689-1 Mar 1725); m.20 Mar 1709 Karl Heinrich von Waldburg (10 Mar 1686-9 Oct 1721) $$
-				name="Katharina Petronella"
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				1689.01.01={birth=yes}  # EST.
-				1725.03.01={death=yes}
-			}
-#berchtold1
-
-#berchtold2
-berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschitz, *ca 1720, +1807; 1m: 31.5.1744 Maria Theresa Frn Petrzwaldska z Petrzwaldu (*14.1.1727, +1768); 2m: 1768 Eleonore Thekla Gottlieb (+1776/77); 3m: ca 1779 Maria Anna Weiser (*1763, +1843)
-	name="Prosper Anton"
-	dynasty=1011382
-	religion=catholic culture=german
-	father=100036236	# Franz von Berchtold
-	mother=100082306	# Maria Esther von Sinzendorf
-	1720.01.01={birth=yes}
-	1744.05.31={add_spouse=lowborn_0542}	# FRN Maria Theresa Petrzwaldska z Petrzwaldu
-	1768.04.01={add_spouse=lowborn_0586}	# Eleonore Thekla Gottlieb
-	1779.01.01={add_spouse=lowborn_0597}	# Maria Anna Weiser
-	1807.01.01={death=yes}
-}
-	berchtold_0002={ #// A1. [1m.] Leopold, *1759, +Stráž 21.5.1809; m.1796 Maria Johanna Gfn von Magnis (*1772 +Brno 1814) $$
-		name=Leopold
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0542	# FRN Maria Theresa Petrzwaldska z Petrzwaldu
-		1759.01.01={birth=yes}
-		1796.01.01={add_spouse=magnis_0029}	# Marie Johanna von Magnis
-		1809.05.21={death=yes}  # Stráž
-	}
-		berchtold_0003={ #// B1. Gf SIGISMUND Andreas Corsinus, *4.2.1799, +Buchlau, Moravia 26.11.1869; m.Konopiště 23.10.1828 Gfn Ludmilla Wratislaw von Mitrowicz und Schönfeld (*Praha 26.7.1808, +Buchlov 2.8.1869) $$
-			name=Sigismund
-			dynasty=1011382
-			religion=catholic culture=german
-			father=berchtold_0002	# Leopold von Berchtold
-			mother=magnis_0029	# Marie Johanna von Magnis
-			1799.02.04={birth=yes}
-			1828.10.23={add_spouse=100047995}	# Ludmilla Wratislav z Mitrowicz
-			1869.11.26={death=yes}  # Buchlau Moravia
-		}
-			berchtold_0004={ #// C1. Gf SIGISMUND Samuel Koloman, *Buchlov 6.2.1834, +Bergudi 19.3.1900; m.Obristvi 8.7.1860 Gfn Josephine Gabriela von und zu Trauttmansdorff (*13.6.1835, +Wien 28.3.1894) $$
-				name=Sigismund
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0003	# Sigismund von Berchtold
-				mother=100047995	# Ludmilla Wratislav z Mitrowicz
-				1834.02.06={birth=yes}  # Buchlov
-				1860.07.08={add_spouse=100023499}	# Josephine von Trauttmansdorff-Weinsberg
-				1900.03.19={death=yes}  # Bergudi
-			}
-				berchtold_0005={ #// D1. Gf LEOPOLD Anton Johann Sigismund Joseph Corsinus Ferdinand, *Wien 18.4.1863, +Peresznye 21.11.1942; m.Budapest 25.1.1893 Gfn Ferdinande Károlyi de Nagy-Károly (*4.9.1868, +26.8.1955) $$
-					name=Leopold
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0004	# Sigismund von Berchtold
-					mother=100023499	# Josephine von Trauttmansdorff-Weinsberg
-					1863.04.18={birth=yes}  # Wien
-					1893.01.25={add_spouse=100116144}	# Ferdinandine Johanna Károlyi de Nagykároly
-					1942.11.21={death=yes}  # Peresznye
-				}
-					berchtold_0006={ #// E1. ALOYS Sigismund Leopold Jakob Wenzeslaus Anselm Korsinus, *Buchlov 24.4.1894, +after 1901
-						name=Aloys
-						dynasty=1011382
-						religion=catholic culture=german
-						father=berchtold_0005	# Leopold von Berchtold
-						mother=100116144	# Ferdinandine Johanna Károlyi de Nagykároly
-						1894.04.24={birth=yes}  # Buchlov
-						1902.01.01={death=yes}
-					}
-					berchtold_0007={ #// E2. ADALBERT (Béla) Sigismund Leopold Matthias Georg Servatius Korsinus, *Paris 13.5.1895, +1906
-						name=Adalbert
-						dynasty=1011382
-						religion=catholic culture=null
-						father=berchtold_0005	# Leopold von Berchtold
-						mother=100116144	# Ferdinandine Johanna Károlyi de Nagykároly
-						1895.05.13={birth=yes}  # Béla ) Sigismund Leopold Matthias Georg Servatius Korsinus ( Paris
-						1906.01.01={death=yes}
-					}
-					berchtold_0008={ #// E3. SIGISMUND (Zsiga) Alexander Leopold Corsitz Otto Tiburtius Korsinus, *Buchlov 14.4.1900, +Wien 20.7.1979; 1m: Sopron 20.9.1944 (div 14.10.1949) Gfn Maria Anna von Wurmbrand-Stuppach (*Wien 3.2.1914, +Monte Carlo 29.4.2003); 2m: 1953 (div 1956) Emilie de Gosztonyi (*Budapest 19.4.1914, +Monte Carlo 9.7.1993); (3m: Wien 7.6.1967 Eva Machan (*Wien 19.7.1920), dau.of Dr.Hans Machan and Wilhelmine Werner) $$
-						name=Sigismund
-						dynasty=1011382
-						religion=catholic culture=german
-						father=berchtold_0005	# Leopold von Berchtold
-						mother=100116144	# Ferdinandine Johanna Károlyi de Nagykároly
-						1900.04.14={birth=yes}  # Zsiga ) Alexander Leopold Corsitz Otto Tiburtius Korsinus ( Buchlov
-						1944.09.20={add_spouse=100023764}	# Maria von Wurmbrand-Stuppach
-						1949.10.14={remove_spouse=100023764}
-						1953.01.01={add_spouse=lowborn_0620}	# Emilia Gosztonyi de Gosztony
-						1956.01.01={remove_spouse=lowborn_0620}
-						1967.06.07={add_spouse=lowborn_0621}	# Eva Machan
-						1979.07.20={death=yes}  # Wien
-					}
-				berchtold_0009={ #// D2. Josephine, *Buchlov 4.3.1862, +Luhačovice 9.9.1888; m.1887 Otto Gf Serényi ab Kis-Serény (*Luhačovice 21.9.1855, +Brno 27.12.1927) $$
-					name=Josephine
-					female=yes
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0004	# Sigismund von Berchtold
-					mother=100023499	# Josephine von Trauttmansdorff-Weinsberg
-					1862.03.04={birth=yes}  # Buchlov
-					1888.09.09={death=yes}  # Luhačovice
-				}
-			berchtold_0010={ #// C2. Walpurgis, *Buchlovice 13.8.1829, +Buchlovice 21.2.1856; m.Wien 27.6.1852 Friedrich Gf Hartig (*Wien 3.11.1818, +Klobenstein am Ritten 5.8.1877) $$
-				name=Walpurgis
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0003	# Sigismund von Berchtold
-				mother=100047995	# Ludmilla Wratislav z Mitrowicz
-				1829.08.13={birth=yes}  # Buchlovice
-				1856.02.21={death=yes}  # Buchlovice
-			}
-			berchtold_0011={ #// C3. LUDMILLA Gizella Theresia, *Buchlov 20.4.1831, +Wien 5.6.1915; m.Buchlov 20.2.1848 Hubert Heinrich Gf de la Fontaine und d'Harnoncourt-Unverzagt (*Hrotovice 5.12.1827, +Wien 28.12.1897) $$
-				name=Ludmilla
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0003	# Sigismund von Berchtold
-				mother=100047995	# Ludmilla Wratislav z Mitrowicz
-				1831.04.20={birth=yes}  # Buchlov
-				1915.06.05={death=yes}  # Wien
-			}
-		berchtold_0012={ #// B2. Anton, *1801, +1863
-			name=Anton
-			dynasty=1011382
-			religion=catholic culture=german
-			father=berchtold_0002	# Leopold von Berchtold
-			mother=magnis_0029	# Marie Johanna von Magnis
-			1801.01.01={birth=yes}
-			1863.01.01={death=yes}
-		}
-	berchtold_0013={ #// A2. [1m.] Franz Moritz, *1756, +Brno 1799
-		name="Franz Moritz"
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0542	# FRN Maria Theresa Petrzwaldska z Petrzwaldu
-		1756.01.01={birth=yes}
-		1799.01.01={death=yes}  # Brno
-	}
-	berchtold_0014={ #// A3. [1m.] Karl Gustav Graf Berchtold, Freiherr von und zu Ungarschitz, *Platz 29.6.1761, +Nezdašov 16.5.1813; 1m: Wien 26.7.1792 Maria Anna Gfn von Edling (*Wien 17.7.1773, +Wien 8.2.1802); 2m: 17.7.1804 Emily Frn Schell von Bauschlott (*Wien 18.5.1786, +Nezdašov 7.1.1812)
-		name="Karl Gustav"
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0542	# FRN Maria Theresa Petrzwaldska z Petrzwaldu
-		1761.06.29={birth=yes}  # Platz
-		1792.07.26={add_spouse=lowborn_0636}	# GFN Maria Anna von Edling
-		1804.07.17={add_spouse=lowborn_0641}	# FRN Emily Schell von Bauschlott
-		1813.05.16={death=yes}  # Nezdašov
-	}
-		berchtold_0015={ #// B1. [1m.] Karl Philipp Simon, *1795, +1870; 1m: 1820 Cecilie Gfn zu Lodron-Laterano (*1794 +1859); 2m: 1860 Anna S...; all kids by 1m. $$
-			name=Karl
-			dynasty=1011382
-			religion=catholic culture=german
-			father=berchtold_0014	# Karl Gustav von Berchtold
-			mother=lowborn_0636	# GFN Maria Anna von Edling
-			1795.01.01={birth=yes}
-			1820.01.01={add_spouse=lodron_0443}	# Cäcilia zu Lodron-Laterano u.Castelromano
-			1870.01.01={death=yes}
-		}
-			berchtold_0016={ #// C1. Alphons Karl, *1822, +1849
-				name="Alphons Karl"
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0015	# Karl von Berchtold
-				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
-				1822.01.01={birth=yes}
-				1849.01.01={death=yes}
-			}
-			berchtold_0017={ #// C2. Constance, *1826, +1855; m.1845 Ferdinand Vincent Frhr von Merode (*1803 +1868)
-				name=Constance
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0015	# Karl von Berchtold
-				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
-				1826.01.01={birth=yes}
-				1855.01.01={death=yes}
-			}
-			berchtold_0018={ #// C3. Amelia Juliana Cecilia, *1828, +1830
-				name=Amelia
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0015	# Karl von Berchtold
-				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
-				1828.01.01={birth=yes}
-				1830.01.01={death=yes}
-			}
-			berchtold_0019={ #// C4. Eleonore Josepha, *1830, +1861; m.1845 Casimir Inkey von Pallin (+1882)
-				name="Eleonore Josepha"
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0015	# Karl von Berchtold
-				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
-				1830.01.01={birth=yes}
-				1861.01.01={death=yes}
-			}
-			berchtold_0020={ #// C5. Cecilia Josepha, *1832, +1842
-				name="Cecilia Josepha"
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0015	# Karl von Berchtold
-				mother=lodron_0443	# Cäcilia zu Lodron-Laterano u.Castelromano
-				1832.01.01={birth=yes}
-				1842.01.01={death=yes}
-			}
-		berchtold_0021={ #// B2. [2m.] PROSPER Karl, *Nezdašov 8.4.1807, +České Budějovice 19.4.1866; 1m: 11.9.1831 Marie Emilie Gfn Wratislaw von Mitrowicz und Schönfeld (*Kaladey 21.9.1807, +Prague 1.12.1832); 2m: IV.1833 Sophie Edler Zollmann von Zollendorf (*Prague 6.12.1813, +České Budějovice 12.3.1883) $$
-			name="Prosper Karl"
-			dynasty=1011382
-			religion=catholic culture=german
-			father=berchtold_0014	# Karl Gustav von Berchtold
-			mother=lowborn_0641	# FRN Emily Schell von Bauschlott
-			1807.04.08={birth=yes}  # Nezdašov
-			1831.09.11={add_spouse=100048033}	# Marie Emilie Wratislav z Mitrowicz
-			1833.04.01={add_spouse=lowborn_0648}	# EDLER София Zollmann von Zollendorf
-			1866.04.19={death=yes}  # České Budějovice
-		}
-			berchtold_0022={ #// C1. [2m.] Jaromir, *1833, +1847
-				name=Jaromir
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0021	# Prosper Karl von Berchtold
-				mother=lowborn_0648	# EDLER София Zollmann von Zollendorf
-				1833.01.01={birth=yes}
-				1847.01.01={death=yes}
-			}
-			berchtold_0023={ #// C2. [2m.] Bohuslav-Pravomil Franz Leo, *7.10.1841, +7.5.1884; m.Chotoviny 20.1.1869 Giulietta Gfn Bulgarini (*16.2.1850, +1927)
-				name=Bohuslav-Pravomil
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0021	# Prosper Karl von Berchtold
-				mother=lowborn_0648	# EDLER София Zollmann von Zollendorf
-				1841.10.07={birth=yes}
-				1869.01.20={add_spouse=lowborn_0649}	# GFN Giulietta Bulgarini
-				1884.05.07={death=yes}
-			}
-				berchtold_0024={ #// D1. Ottokar-Prosper Karl, *19.4.1874, +k.a.1918; m.1898 Katharine Süser (*1878)
-					name="Ottokar-Prosper Karl"
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0023	# Bohuslav-Pravomil von Berchtold
-					mother=lowborn_0649	# GFN Giulietta Bulgarini
-					1874.04.19={birth=yes}
-					1898.01.01={add_spouse=lowborn_0650}	# Katharine Süser
-					1918.01.01={death=yes}
-				}
-					berchtold_0025={ #// E1. Giulietta Maria, *1899, +?; m.1919 Emil Schobling (+1936)
-						name=Giulietta
-						female=yes
-						dynasty=1011382
-						religion=catholic culture=german
-						father=berchtold_0024	# Ottokar-Prosper Karl von Berchtold
-						mother=lowborn_0650	# Katharine Süser
-						1899.01.01={birth=yes}
-						1969.12.01={death=yes}  # EST.
-					}
-				berchtold_0026={ #// D2. Karl Maria, *13.11.1876, +after 1901; m.1899 (div 1905) Josephine Helene von Fodermayer (*1883)
-					name=Karl
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0023	# Bohuslav-Pravomil von Berchtold
-					mother=lowborn_0649	# GFN Giulietta Bulgarini
-					1876.11.13={birth=yes}
-					1899.01.01={add_spouse=lowborn_0652}	# Josephine Helene von Fodermayer
-					1905.01.01={remove_spouse=lowborn_0652}
-					1920.01.01={death=yes}	# EST.
-				}
-				berchtold_0027={ #// D3. Maria Vincentia Pauline Sophie, *Nezdašov 16.11.1869, +Praha-Vinohrady 26.8.1919; m.Wien 16.4.1890 Gf Zdenko von Waldstein-Wartenberg (*1.7.1862 +7.2.1936) $$
-					name="Maria Vincentia"
-					female=yes
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0023	# Bohuslav-Pravomil von Berchtold
-					mother=lowborn_0649	# GFN Giulietta Bulgarini
-					1869.11.16={birth=yes}  # Nezdašov
-					1919.08.26={death=yes}  # Praha-Vinohrady
-				}
-				berchtold_0028={ #// D4. Gisela, *7.2.1882, +1951
-					name=Gisela
-					female=yes
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0023	# Bohuslav-Pravomil von Berchtold
-					mother=lowborn_0649	# GFN Giulietta Bulgarini
-					1882.02.07={birth=yes}
-					1951.01.01={death=yes}
-				}
-			berchtold_0029={ #// C3. [2m.] Ottocar-Vincenz Klemens, *1845, +1886
-				name="Ottocar-Vincenz Klemens"
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0021	# Prosper Karl von Berchtold
-				mother=lowborn_0648	# EDLER София Zollmann von Zollendorf
-				1845.01.01={birth=yes}
-				1886.01.01={death=yes}
-			}
-			berchtold_0030={ #// C4. [1m.] ZDENKA Feodorovna Anna, *9.11.1832; m.15.2.1849 Aloys Gf von Montalban zu Cornigliano
-				name=Zdenka
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0021	# Prosper Karl von Berchtold
-				mother=100048033	# Marie Emilie Wratislav z Mitrowicz
-				1832.11.09={birth=yes}
-				1902.12.01={death=yes}  # EST.
-			}
-			berchtold_0031={ #// C5. [2m.] Miloslawa, *1834, +1874; m.1857 Franz Zahn
-				name=Miloslawa
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0021	# Prosper Karl von Berchtold
-				mother=lowborn_0648	# EDLER София Zollmann von Zollendorf
-				1834.01.01={birth=yes}
-				1874.01.01={death=yes}
-			}
-			berchtold_0032={ #// C6. [2m.] Bohumila, *1836, +1838
-				name=Bohumila
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0021	# Prosper Karl von Berchtold
-				mother=lowborn_0648	# EDLER София Zollmann von Zollendorf
-				1836.01.01={birth=yes}
-				1838.01.01={death=yes}
-			}
-		berchtold_0033={ #// B3. [2m.] Anton Johann, *2.6.1809, +19.10.1841; m.23.1.1833 Maria Frn Henniger von Seeberg (*4.9.1810 +31.5.1883)
-			name="Anton Johann"
-			dynasty=1011382
-			religion=catholic culture=german
-			father=berchtold_0014	# Karl Gustav von Berchtold
-			mother=lowborn_0641	# FRN Emily Schell von Bauschlott
-			1809.06.02={birth=yes}
-			1833.01.23={add_spouse=lowborn_0656}	# FRN Maria Henniger von Seeberg
-			1841.10.19={death=yes}
-		}
-			berchtold_0034={ #// C1. Karl, *1835, +19.4.1873; m.1860 Marie Gabrielle Morbitzer von Morgenstern (+1915)
-				name=Karl
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0033	# Anton Johann von Berchtold
-				mother=lowborn_0656	# FRN Maria Henniger von Seeberg
-				1835.01.01={birth=yes}
-				1860.01.01={add_spouse=lowborn_0657}	# Marie Gabrielle Morbitzer von Morgenstern
-				1873.04.19={death=yes}
-			}
-				berchtold_0035={ #// D1. Anton Franz, *1860, +1933; m.1895 Christine Hollrieder (*31.8.1870, +1948)
-					name="Anton Franz"
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0034	# Karl von Berchtold
-					mother=lowborn_0657	# Marie Gabrielle Morbitzer von Morgenstern
-					1860.01.01={birth=yes}
-					1895.01.01={add_spouse=lowborn_0658}	# Christine Hollrieder
-					1933.01.01={death=yes}
-				}
-					berchtold_0036={ #// E1. Karl, *19.11.1896, +?; 1m: 1822 (div 1937) Friederike Zellmann (*1898); 2m: 1951 Sophie Smolenitz (*1892 +1961)
-						name=Karl
-						dynasty=1011382
-						religion=catholic culture=german
-						father=berchtold_0035	# Anton Franz von Berchtold
-						mother=lowborn_0658	# Christine Hollrieder
-						1896.11.19={birth=yes}
-						1922.01.01={add_spouse=lowborn_0659}	# Friederike Zellmann
-						1937.01.01={remove_spouse=lowborn_0659}
-						1951.01.01={add_spouse=lowborn_0660}	# Sophie Smolenitz
-						1961.12.01={death=yes}  # EST.
-					}
-					berchtold_0037={ #// E2. Ferdinand Karl, *25.3.1898, +k.a.1915
-						name="Ferdinand Karl"
-						dynasty=1011382
-						religion=catholic culture=german
-						father=berchtold_0035	# Anton Franz von Berchtold
-						mother=lowborn_0658	# Christine Hollrieder
-						1898.03.25={birth=yes}
-						1915.01.01={death=yes}
-					}
-				berchtold_0038={ #// D2. Karl Friedrich, *1862, +1915; m.1906 Eugenia Heger Gasser
-					name="Karl Friedrich"
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0034	# Karl von Berchtold
-					mother=lowborn_0657	# Marie Gabrielle Morbitzer von Morgenstern
-					1862.01.01={birth=yes}
-					1906.01.01={add_spouse=lowborn_0661}	# Eugenia Heger Gasser
-					1915.01.01={death=yes}
-				}
-				berchtold_0039={ #// D3. Friedrich Josef, *1864, +1917
-					name="Friedrich Josef"
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0034	# Karl von Berchtold
-					mother=lowborn_0657	# Marie Gabrielle Morbitzer von Morgenstern
-					1864.01.01={birth=yes}
-					1917.01.01={death=yes}
-				}
-				berchtold_0040={ #// D4. Joseph Leopold, *1870, +1916
-					name="Joseph Leopold"
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0034	# Karl von Berchtold
-					mother=lowborn_0657	# Marie Gabrielle Morbitzer von Morgenstern
-					1870.01.01={birth=yes}
-					1916.01.01={death=yes}
-				}
-				berchtold_0041={ #// D5. Maria, *1865, +1921
-					name=Maria
-					female=yes
-					dynasty=1011382
-					religion=catholic culture=german
-					father=berchtold_0034	# Karl von Berchtold
-					mother=lowborn_0657	# Marie Gabrielle Morbitzer von Morgenstern
-					1865.01.01={birth=yes}
-					1921.01.01={death=yes}
-				}
-			berchtold_0042={ #// C2. Maria Vincentia, *1834, +1881; m.1856 N Morbitzer von Morgenstern
-				name="Maria Vincentia"
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0033	# Anton Johann von Berchtold
-				mother=lowborn_0656	# FRN Maria Henniger von Seeberg
-				1834.01.01={birth=yes}
-				1881.01.01={death=yes}
-			}
-			berchtold_0043={ #// C3. Franziska, *2.10.1838, +1902; 1m: 1864 Rudolf Fiedler (+1876); 2m: 1877 Karl Schwab (+1878)
-				name=Franziska
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=berchtold_0033	# Anton Johann von Berchtold
-				mother=lowborn_0656	# FRN Maria Henniger von Seeberg
-				1838.10.02={birth=yes}
-				1902.01.01={death=yes}
-			}
-		berchtold_0045={ #// B5. [1m.] Marie Eleonore Josepha, *1794, +1840; m.1816 Karl Heinrich Ghislain Boot de Sombeeck Gf von Veltheim (+1828)
-			name=Marie
-			female=yes
-			dynasty=1011382
-			religion=catholic culture=german
-			father=berchtold_0014	# Karl Gustav von Berchtold
-			mother=lowborn_0636	# GFN Maria Anna von Edling
-			1794.01.01={birth=yes}
-			1840.01.01={death=yes}
-		}
-		berchtold_0046={ #// B6. [2m.] Vincentia, *2.5.1805, +Enzersdorf 27.9.1871; m.29.5.1838 Gf Philipp Philibert von Spangen von Uyternesse (*4.6.1810, +Enzersdorf 26.1.1886)
-			name=Vincentia
-			female=yes
-			dynasty=1011382
-			religion=catholic culture=german
-			father=berchtold_0014	# Karl Gustav von Berchtold
-			mother=lowborn_0641	# FRN Emily Schell von Bauschlott
-			1805.05.02={birth=yes}
-			1871.09.27={death=yes}  # Enzersdorf
-		}
-	berchtold_0051={ #//  A8. [1m.] Crescentia Anna, *1745, +1795; m.1766 Franz Gf zu Stubenberg (*1732 +1796)
-		name="Crescentia Anna"
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0542	# FRN Maria Theresa Petrzwaldska z Petrzwaldu
-		1745.01.01={birth=yes}
-		1795.01.01={death=yes}
-	}
-	berchtold_0052={ #//  A9. [1m.] Cajetana, *1763, +1815; 1m: Johann Gf von Stomm (+1790); 2m: 1793 Karl Frhr von Königsbrunn (*1770 +1801)
-		name=Cajetana
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0542	# FRN Maria Theresa Petrzwaldska z Petrzwaldu
-		1763.01.01={birth=yes}
-		1815.01.01={death=yes}
-	}
-	berchtold_0053={ #// A10. [2m.] Maria Josepha, *1770
-		name="Maria Josepha"
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0586	# Eleonore Thekla Gottlieb
-		1770.01.01={birth=yes}
-		1840.12.01={death=yes}  # EST.
-	}
-	berchtold_0047={ #//  A4. [2m.] Alois, *1773, +k.a.1794
-		name=Alois
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0586	# Eleonore Thekla Gottlieb
-		1773.01.01={birth=yes}
-		1794.01.01={death=yes}
-	}
-	berchtold_0048={ #//  A5. [2m.] Ernst, *1775, +after 1799; m.Caroline Laszhoff
-		name=Ernst
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0586	# Eleonore Thekla Gottlieb
-		1775.01.01={birth=yes}
-		1799.01.01={add_spouse=lowborn_0667}	# Caroline Laszhoff
-		1800.01.01={death=yes}
-	}
-	berchtold_0054={ #// A11. [2m.] Marie Eleonore, *1772, +1848; m.1793 Joseph Friedrich Ghislain von der Trenck (+1835)
-		name="Marie Eleonore"
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0586	# Eleonore Thekla Gottlieb
-		1772.01.01={birth=yes}
-		1848.01.01={death=yes}
-	}
-	berchtold_0055={ #// A12. [2m.] Franziska, *1777, +1795
-		name=Franziska
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0586	# Eleonore Thekla Gottlieb
-		1777.01.01={birth=yes}
-		1795.01.01={death=yes}
-	}
-	berchtold_0050={ #//  A7. [3m.] Friedrich (Všemír), doctor, traveller and natural scientist, *1781, +1876
-		name=Friedrich
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0597	# Maria Anna Weiser
-		1781.01.01={birth=yes}  # Všemír ) doctor traveller and natural scientist (
-		1876.01.01={death=yes}
-	}
-	berchtold_0056={ #// A13. [3m.] Anna, *19.7.1780, +18.3.1826; m.1803 Gf Peter Prokop Morzin (*1770, +13.11.1855) $$
-		name=Anna
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0597	# Maria Anna Weiser
-		1780.07.19={birth=yes}
-		1826.03.18={death=yes}
-	}
-	berchtold_0058={ #// A15. [3m.] Maria Anna, *1786, +1873; m.1812 Franz Gf von Stomm (+1849)
-		name="Maria Anna"
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0597	# Maria Anna Weiser
-		1786.01.01={birth=yes}
-		1873.01.01={death=yes}
-	}
-	berchtold_0060={ #// A17. [3m.] Johanna Antonia, *1791, +1849; m.1812 Anton Johann Novak
-		name="Johanna Antonia"
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=berchtold_0001	# Prosper Anton von Berchtold
-		mother=lowborn_0597	# Maria Anna Weiser
-		1791.01.01={birth=yes}
-		1849.01.01={death=yes}
-	}
-#berchtold2
-
-#berchtold3 FRAGMENT
-100036715={ #// Maria ANTON Nikolaus Peter Ferdinand Heinrich Graf Berchtold, Freiherr von und zu Ungarschitz, *1754, +25.3.1819; m.1792 Maria Anna Franziska Huszár de Szent-Kereszt (*Trnava 12.7.1771, +10.11.1847)
-	name=Anton
-	dynasty=1011382
-	religion=catholic culture=german
-	father=100036712	# Anton von Berchtold
-	1754.01.01={birth=yes}
-	1819.01.01={death=yes}
-}
-	100035325={ #// A4. Marie Karoline, *Wien 21.5.1791, +Kolozsvár 6.4.1870; m.1821 Gf Johann Nemes von Hidvég u.Oltszem (*1792 +6.8.1868) $$
-		name=Maria
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=100036715	# Anton von Berchtold
-		1791.05.21={birth=yes}  # Wien
-		1870.04.06={death=yes}  # Kolozsvár
-	}
-	100036707={ #// A3. Maria Sophia, *Wien 21.1.1794, +Wien 18.2.1878; m.Wien 9.6.1817 Gf Karel Chotek (*23.7.1783 +28.12.1868) $$
-		name="Maria Sophia"
-		female=yes
-		dynasty=1011382
-		religion=catholic culture=german
-		father=100036715	# Anton von Berchtold
-		1794.01.21={birth=yes}	# Wien
-		1878.02.18={death=yes}	# Wien
-	}
-	100036714={ #// A1. Anton Maria, *Wien 18.11.1796, +Wien 4.6.1875; m.Praha 1833 Mathilde Strachan (*London 12.5.1813, +Venice 25.8.1899)
-		name=Anton
-		dynasty=1011382
-		religion=catholic culture=german
-		father=100036715	# Anton von Berchtold
-		1796.01.01={birth=yes}
-		1875.01.01={death=yes}
-	}
-		100036708={ #// B1. RICHARD Karl Emanuel, *Fülek 23.1.1837/Milano 18.11.1837, +Budapest 2.4.1906; m.Budapest 23.1.1862 Gfn Elisabeth Bánffy de Losoncz (*12.4.1841, +15.1.1913) $$
-			name=Richard
-			dynasty=1011382
-			religion=catholic culture=german
-			father=100036714	# Anton von Berchtold
-			1837.11.18={birth=yes}  # Fülek/Milano
-			1862.01.23={add_spouse=100117863}	# Erzsébet Bánffy de Losoncz
-			1906.04.02={death=yes}  # Budapest
-		}
-	100036717={ #// A2. Joseph, *1799, +5.2.1840; 1m: 1823 Franziska Romana Gfn Radetzky von Radetz (*15.4.1806, +15.2.1825); 2m: 1826 Gfn Ottilie Forgach von Ghymes (*1810 +21.10.1860) $$
-		name=Joseph
-		dynasty=1011382
-		religion=catholic culture=german
-		father=100036715	# Anton von Berchtold
-		1799.01.01={birth=yes}
-		1823.01.01={add_spouse=radetzky_0035}	# Franziska Romana Radetzky von Radetz
-		1826.01.01={add_spouse=100119196}	# Ottilia Forgách de Ghymes et Gács
-		1840.02.05={death=yes}  # Hegy
-	}
-		100036614={ #// B2. [2m.] Ladislaus, *Gács 16.2.1829, +Budapest 12.4.1885;  $$
-					# 1m: 29.3.1853 Anna Gfn Török de Szendrö (*15.4.1836, +28.4.1865); 
-					# 2m: Nagy-Surány 17.11.1866 Josephine Gfn Török de Szendrö (*8.12.1834, +2.3.1909)
-			name=Ladislaus
-			dynasty=1011382
-			religion=catholic culture=german
-			father=100036717	# Joseph von Berchtold
-			mother=100119196	# Ottilia Forgách de Ghymes et Gács
-			1829.02.16={birth=yes}	# Gacz
-			1853.03.29={add_spouse=torok_0012}	# Anna Török de Szendrő
-			1866.11.17={add_spouse=torok_0011}	# Jozefine Török de Szendrő
-			1885.04.12={death=yes}  # Budapest
-		}
-			100036711={ #// C5. [1m.] Rose, *5.4.1856, +1933; m.Nagy-Surány 25.9.1881 Frhr Julius Georg Révay de Réva (*1853 +1911) $$
-				name=Rose
-				female=yes
-				dynasty=1011382
-				religion=catholic culture=german
-				father=100036614	# Ladislaus von Berchtold
-				mother=torok_0012	# Anna Török de Szendrő
-				1856.04.05={birth=yes}  # Buda-Pest
-				1933.06.19={death=yes}  # Necpál
-			}
-			100036716={ #// C2. [2m.] Kázmér, *Nagykázmér 14.4.1877, +Bánréve 14.10.1946; m.Budapest 29.4.1905 Helene Josephine Gfn Teleki de Szék (*23.10.1884, +1.10.1967) $$
-				name=Kázmér
-				dynasty=1011382
-				religion=catholic culture=german
-				father=100036614	# Ladislaus von Berchtold
-				mother=torok_0011	# Jozefine Török de Szendrő
-				1877.04.14={birth=yes}
-				1905.04.29={add_spouse=100115880}	# Ilona Teleki de Szék
-				1946.10.14={death=yes}
-			}
-				100036719={ #// D1. Ladislaus, *Nagy-Kázmér 19.4.1906, +New York 27.4.1987; m.Budapest 16.11.1928 Margarete Helene Auguste Friederike Gfn von Degenfeld-Schönburg (*Szirák 18.7.1909, +Csörgö 8.10.1929) $$
-					name=László
-					dynasty=1011382
-					religion=catholic culture=german
-					father=100036716	# Kázmér von Berchtold
-					mother=100115880	# Ilona Teleki de Szék
-					1906.04.19={birth=yes}  # Nagy-Kázmér
-					1928.11.16={add_spouse=100010089}	# Margarete von Degenfeld-Schonburg
-					1987.04.27={death=yes}  # New York
-				}
-				100035774={ #// D2. Maria, *Nagy-Kázmér 22.8.1908; m.Budapest 11.9.1926 Johann Nepomuk Gf Serényi de Kis-Serény (*Bukovecz 13.7.1899, +Budapest 14.9.1946) $$
-					name=Mária
-					female=yes
-					dynasty=1011382
-					religion=catholic culture=german
-					father=100036716	# Kázmér von Berchtold
-					mother=100115880	# Ilona Teleki de Szék
-					1908.02.22={birth=yes}  # Nagykázmér
-					1984.11.24={death=yes}  # Ózd
-				}
-		100035327={ #// B3. [2m.] Johanna-Eugenie, *1831, +22.1.1872; m.1854 Gf Miklós Wass von Szent-Egyed (+20.5.1887) $$
-			name=Johanna-Eugenie
-			female=yes
-			dynasty=1011382
-			religion=catholic culture=german
-			father=100036717	# Joseph von Berchtold
-			mother=100119196	# Ottilia Forgách de Ghymes et Gács
-			1831.01.01={birth=yes}
-			1872.01.22={death=yes}
-		}
-#berchtold3 FRAGMENT
-## BERCHTOLD 1011382
-
 # HALEM
 100036388={ #// Hanno von Halem (*Schwetz 11.6.1906, +Schaan/Liechtenstein 13.2.1994); m.Ascherode 4.6.1935 Eugenie von Stolberg-Stolberg (*Ascherode 22.6.1914, +3.11.2002) $$
 	name=Hanno
@@ -7428,6 +6438,9 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	1867.11.28={add_spouse=100024028}	# Leontine von Paar
 	1896.09.24={death=yes}  # Schrattenau
 }
+	# Julie (* 1868), Hofdame der Herzogin von Cumberland
+	# Ida (* 1877), die Maximilian Freiherr von Vittinghoff (1845–1926) heiratete
+	# Karl (1871–1953), dessen Beziehung zur Tänzerin Ninan Conti 1896 einen Skandal auslöste
 	100036407={ #// A1. Eduard (*Vienna 17.2.1874, +Walshausen 10.2.1941); m.27.4.1907 Gabrielle von Wrede (*Graz 5.5.1880, +Lugano-Massagno 18.5.1966) %%
 		name=Eduard
 		dynasty=1002224
@@ -7448,6 +6461,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			1940.05.15={add_spouse=100000819}	# Eveline de Croÿ
 			2002.02.12={death=yes}
 		}				
+	#  Alois (1879–1969), Ministerialbeamter, zuletzt Sektionschef und im Ruhestand Leiter der welfischen Privatbibliothek des Gesamthauses Braunschweig-Lüneburg in Gmunden.
 ## KIELMANSEGG
 
 ## SCHLABRENDORF
@@ -7639,7 +6653,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 ## SCHIMMELMANN 1002228
 
 	
-## BLACKENSTEIN 1002230
+## BLANCKENSTEIN 1002230
 100036414={ #// Ludwig Heinrich von Blanckenstein (*1780, +1855); m.1805 Karolina Wenckheim (*1.7.1780, +1855) %%
 	name="Ludwig Heinrich"
 	dynasty=1002230
@@ -7739,9 +6753,11 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 				1937.08.28={add_spouse=100136098}	# Gabriella Pejačević
 				1945.02.26={death=yes}  # killed by Russian soldiers in Budapest
 			}
-## BLACKENSTEIN 1002230
+## BLANCKENSTEIN 1002230
 			
 ## WALDBOTT 1004601
+# https://www.angelfire.com/realm/gotha/gotha/waldbott.html
+
 100035008={ #// Ferdinand Waldbott von Bassenheim (*1631) %%
 	name=Ferdinand
 	dynasty=1004601
@@ -8639,13 +7655,13 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	1915.03.09={birth=yes}  # Stuttgart
 	1979.12.06={death=yes}
 }
-	100036303={ #// A1. Albrecht (*Biberach an der Riss 5.8.1950); m.27.6.1981 Nadine zu Ortenburg (*Bamberg 1.5.1957) %%
+	100036303={ #// A1. Albrecht (*Biberach an der Riss 5.8.1950); m.27.6.1981 Nadine von Ortenburg (*Bamberg 1.5.1957) %%
 		name=Albrecht
 		dynasty=1002231
 		religion=catholic culture=german
 		father=100036300	# Wolf Siegfried von Brandenstein-Zeppelin
 		1950.08.05={birth=yes}  # Biberach an der Riss
-		1981.06.27={add_spouse=100010286}	# Nadine zu Ortenburg
+		1981.06.27={add_spouse=ortenbg_0023}	# Nadine von Ortenburg
 	}
 	100036302={ #// A2. Constantin (*Biberach an der Riss 22.6.1953); m.5.5.1978 Ameli von Löwenstein-Wertheim-Freudenberg (*Kreuzwertheim 20.2.1953) %%
 		name=Constantin
@@ -8980,18 +7996,20 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 
 
 ## SAURMA 1002236
-100036644={ #// Johann Franz von Saurma-Jeltsch (*30.6.1774, +14.8.1817) %%
+100036644={ #// Johann Franz von Saurma-Jeltsch (*Breslau 21.4.1774, +Breslau 31.3.1817); m.7.2.1796 Maria Anna von Nostitz-Rokitnitz (*Lobris 25.2.1768, +Wroclaw 6.2.1837) %%
 	name="Johann Franz"
 	dynasty=1002236
 	religion=lutheran culture=german
-	1774.06.30={birth=yes}
-	1817.08.14={death=yes}
+	1774.04.21={birth=yes}  # Breslau
+	1796.02.07={add_spouse=nostitz_0020}	# Maria Anna von Nostitz-Rokitnitz
+	1817.03.31={death=yes}  # Breslau
 }
-	100036645={ #// A1. Gustav (*Breslau 30.6.1797, +Tworkau 14.8.1879); m.12.7.1820 Maria Anna Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (*Maiwaldau 5.9.1800, +Tworkau 17.9.1859) %%
-		name=Gustav
+	100036645={ #// A1. Johann Gustav (*Breslau 30.6.1797, +Tworkau 14.8.1879); m.12.7.1820 Maria Anna Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (*Maiwaldau 5.9.1800, +Tworkau 17.9.1859) %%
+		name="Johann Gustav"
 		dynasty=1002236
 		religion=lutheran culture=german
 		father=100036644	# Johann Franz von Saurma-Jeltsch
+		mother=nostitz_0020	# Maria Anna von Nostitz-Rokitnitz
 		1797.06.30={birth=yes}  # Breslau
 		1820.07.12={add_spouse=100004605}	# Maria Anna Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 		1879.08.14={death=yes}  # Tworkau
@@ -9000,7 +8018,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			name="Johann Gustav"
 			dynasty=1002236
 			religion=catholic culture=german
-			father=100036645	# Gustav von Saurma-Jeltsch
+			father=100036645	# Johann Gustav von Saurma-Jeltsch
 			mother=100004605	# Maria Anna Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 			1824.01.01={birth=yes}	# Breslau
 			1850.01.01={add_spouse=100086258}	# GFN Anna von Ballestrem
@@ -9035,14 +8053,14 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 						1906.05.10={birth=yes}	# Breslau
 						1945.08.29={death=yes}	# Wispenstein b. Alfeld, Leine
 					}
-					100036638={ #// E2. Johannes-Heinrich (*Franzdorf 28.5.1909, +Graz 1.9.1977); m.29.7.1943 Marie-Agnes von  Solms-Baruth (*Potsdam 31.12.1916, +6.1.2010) %%
+					100036638={ #// E2. Johannes-Heinrich (*Franzdorf 28.5.1909, +Graz 1.9.1977); m.29.7.1943 Marie-Agnes von Solms-Baruth (*Potsdam 31.12.1916, +6.1.2010) %%
 						name=Johannes-Heinrich
 						dynasty=1002236
 						religion=catholic culture=german
 						father=100035014	# Johann-Ernst von Saurma-Jeltsch
 						mother=100084744	# GFN Margareta von Francken-Sierstorpff
 						1909.05.28={birth=yes}  # Franzdorf
-						1943.07.29={add_spouse=100005716}	# Marie-Agnes von  Solms-Baruth
+						1943.07.29={add_spouse=100005716}	# Marie-Agnes von Solms-Baruth
 						1948.01.01={remove_spouse=100005716}
 						1977.09.01={death=yes}  # Graz
 					}
@@ -9085,7 +8103,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 			name=Karl
 			dynasty=1002236
 			religion=lutheran culture=german
-			father=100036645	# Gustav von Saurma-Jeltsch
+			father=100036645	# Johann Gustav von Saurma-Jeltsch
 			mother=100004605	# Maria Anna Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 			1830.12.24={birth=yes}  # Breslau
 			1856.10.14={add_spouse=100004454}	# Hedwig Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
@@ -9114,6 +8132,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 		dynasty=1002236
 		religion=catholic culture=german
 		father=100036644	# Johann Franz von Saurma-Jeltsch
+		mother=nostitz_0020	# Maria Anna von Nostitz-Rokitnitz
 		1802.04.26={birth=yes}	# Breslau
 		1876.09.18={death=yes}	# Laskowitz
 	}
@@ -9276,6 +8295,15 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 	1639.05.20={birth=yes}
 	1698.03.16={death=yes}
 }
+	100236417={ #// 4a) Juliane Charlotte (19 Nov 1672-13 Jan 1731); m.31 Mar 1693 Julius Gottlieb Gf von Sunnegk (13 Jan 1665-26 Aug 1724) $$
+		name="Juliane"
+		female=yes
+		dynasty=1002237
+		religion=lutheran culture=german
+		father=100035898	# Hans Heinrich von Hochberg
+		1672.11.19={birth=yes}
+		1731.01.13={death=yes}
+	}
 	100036417={ #// 5a) Hans Heinrich III (Fürstenstein 6 May 1675-Rohnstock 9 Jul 1743); m.1st 25 Nov 1700 Anna Elisabeth Frn von Zedlitz u.Neukirch (2 Apr 1685-3 Apr 1724); m.2nd Tarnowitz 9 Nov 1729 Karoline Elisabeth Gfn Henckel von Donnersmarck (Neudeck 28 Jan 1693-Liegnitz 11 Oct 1757) $$
 		name="Hans Heinrich"
 		dynasty=1002237
@@ -11005,7 +10033,7 @@ berchtold_0001={ #// Prosper Anton Graf Berchtold, Freiherr von und zu Ungarschi
 								1654.04.11={birth=yes}  # Hachenburg
 								1692.04.23={death=yes}  # Hadamar
 							}
-							100036211={ #// G2. [2m.] Johannetta Franziska (*26.9.1663, +29.4.1704); m.28.12.1692 Arnold von Bentheim-Tecklenburg (*Steinfurt 21.1.1663, +29.4.1701) %%
+							100036211={ #// G2. [2m.] Johannetta Franziska (*26.9.1663, +29.4.1704); m.1st 4.10.1685 Ferdinand Maximilian Cirksena (*8.5.1653, +10.6.1687); m.1st 28.12.1692 Arnold von Bentheim-Tecklenburg (*Steinfurt 21.1.1663, +29.4.1701) %%
 								name="Johannetta Franziska"
 								female=yes
 								dynasty=1002248

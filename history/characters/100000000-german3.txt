@@ -9,7 +9,7 @@
 ##  100008647-100009100		Erbach-Erbach                     1002124	  32		 12/ 24 = 50,00%
 ##  100011287-100008730		Nostitz-Rieneck                   1002100	  30		 13/ 23 = 56,52%
 ##  100010001-100010136		Degenfeld-Schonburg               1002128	 131		 28/100 = 28,00%
-##  100010260-100196491		Ortenburg                         1002600	  62		 13/ 34 = 38,24%
+##  ortenbg_0056-100196491		Ortenburg                         1002600	  62		 13/ 34 = 38,24%
 ##  100010424-100310412		Pommern                               177	  67		 34/ 69 = 49,28%
 ##  100010431-100010531		Königsegg-Aulendorf               1002602	 100		 34/ 92 = 36,96%
 ##  100010605-100010633		Hanau in Babenhausen              1002219	  29		 15/ 32 = 46,88%
@@ -445,7 +445,7 @@
 					father=100012694	# Otto von Holstein-Schauenburg
 					mother=100091553	# GFN Elisabeth von Honstein
 					1420.01.01={birth=yes}
-					1476.01.01={add_spouse=100035757}	# Hebe Cirksena
+					1476.01.01={add_spouse=cirksena_0022}	# Hebe Cirksena
 					1492.03.25={death=yes}
 				}
 				100012697={ #// E3. Gf Otto III von Holstein-Schauenburg (1492-1510), *1426, +1510
@@ -515,7 +515,7 @@
 							father=100012700	# Jobst von Holstein-Schauenburg
 							mother=100037272	# Marie von Nassau
 							1512.01.01={birth=yes}
-							1555.05.23={add_spouse=100035758}	# Elisabeth Cirksena
+							1555.05.23={add_spouse=cirksena_0051}	# Elisabeth Cirksena
 							1560.01.10={death=yes}  # Bückeburg
 						}
 						100012702={ #// G3. Gf Otto IV von Holstein-Schauenburg (1533-76), *1517, +Bückeburg 21/22.12.1576; 1m: 16.6.1544 Maria of Pomerania (*2.2.1527, +19.2.1554); 2m: Celle 5.6.1558 Elisabeth Ursula von Braunschweig-Wolfenbüttel (*1539 +3.9.1586) $$
@@ -683,7 +683,7 @@
 	name="Maximilian zu Lynar"
 	religion=catholic culture=german
 	1825.04.24={birth=yes}  # Berlin
-	1853.10.26={add_spouse=100005739}	# Bertha von  Solms-Baruth
+	1853.10.26={add_spouse=100005739}	# Bertha von Solms-Baruth
 	1914.08.19={death=yes}  # Lübbenau
 }
 	100086430={ #// 2e) Rochus Friedrich (Berlin 18 Jan 1857-Lübbenau 5 Mar 1928); m.1st Berlin 3 May 1898 Elma Gfn von Klinkowstroem (Semlow 1 Aug 1876-Arosa 7 Apr 1919); m.2nd Dresden 10 Mar 1921 Elisabeth Gfn zu Solms-Wildenfels (Berlin 23 Oct 1863-Lübbenau 6 Oct 1946) 
@@ -691,7 +691,7 @@
 		#dynasty=0
 		religion=catholic culture=german
 		father=100094204	# Maximilian zu Lynar
-		mother=100005739	# Bertha von  Solms-Baruth
+		mother=100005739	# Bertha von Solms-Baruth
 		1857.01.18={birth=yes}  # Berlin
 		1921.03.10={add_spouse=100008273}	# Elisabeth von Solms-Wildenfels
 		1928.03.05={death=yes}  # Lübbenau
@@ -701,7 +701,7 @@
 		#dynasty=0
 		religion=catholic culture=german
 		father=100094204	# Maximilian zu Lynar
-		mother=100005739	# Bertha von  Solms-Baruth
+		mother=100005739	# Bertha von Solms-Baruth
 		1859.12.03={birth=yes}  # Groß-Beuchow
 		1889.09.28={add_spouse=100005812}	# Anna Elisabeth von Solms-Hohensolms-Lich
 		1934.06.30={death=yes}  # Dresden
@@ -712,7 +712,7 @@
 		#dynasty=0
 		religion=catholic culture=german
 		father=100094204	# Maximilian zu Lynar
-		mother=100005739	# Bertha von  Solms-Baruth
+		mother=100005739	# Bertha von Solms-Baruth
 		1864.10.10={birth=yes}  # Groß-Beuchow
 		1943.12.03={death=yes}  # Lich
 	}
@@ -1763,8 +1763,8 @@
 			father=100011959	# Friedrich von Pückler-Limpurg
 			mother=100085152	# FRN Luise Ernestine von Gaisberg-Helfenberg
 			1782.10.11={birth=yes}
-			1806.10.09={add_spouse=100010323}	# Friederike Auguste zu Ortenburg
-			1824.01.01={remove_spouse=100010323}
+			1806.10.09={add_spouse=ortenbg_0061}	# Auguste Friederike von Ortenburg
+			1824.01.01={remove_spouse=ortenbg_0061}
 			1843.12.28={death=yes}
 		}
 			100011962={ #// 1b) Gustav (14 Jul 1807-20 Apr 1833)
@@ -1772,7 +1772,7 @@
 				dynasty=1002271
 				religion=catholic culture=german
 				father=100011961	# Karl Alexander von Pückler-Limpurg
-				mother=100010323	# Friederike Auguste zu Ortenburg
+				mother=ortenbg_0061	# Auguste Friederike von Ortenburg
 				1807.07.14={birth=yes}
 				1833.04.20={death=yes}
 			}
@@ -5271,7 +5271,6 @@
 			1837.07.21={birth=yes}  # Würzburg
 			1869.02.01={death=yes}  # Salzburg
 		}
-####### 100011448
 #1766.08.09={holder=100011346} # MAXIMILIAN EMANUEL Johann Nepomuk Ignaz Dominik Eustach Adam
 #1819.03.19={holder=100011355} # A2. ALOYS Franz Xaver Maximilian Franz de Paula
 #1849.03.10={holder=100011380} # B3. ALBRECHT Ulrich Maximilian Eustach Kaspar Bernhard
@@ -5485,7 +5484,7 @@
 								1617.01.15={birth=yes}  # Schwarzenfels
 								1643.10.28={death=yes}	# Hanau
 							}
-					100012737={ #// E4. Dorothea, *1556, +1638; 1m: Alt-Ortenburg 1571 Anton Gf von Ortenburg (+1573); 2m: ca 1585 (div 1596) Vollrath Gf von Gleichen (+1627)
+					100012737={ #// E4. Dorothea, *1556, +1638; 1m: Alt-Ortenburg 1571 Anton Gf von Ortenburg (+1573); 2m: ca 1585 (div 1596) Vollrath Gf von Gleichen (+1627) $$
 						name=Dorothea
 						female=yes
 						dynasty=1002219
@@ -7507,577 +7506,6 @@
 ##  100010424				Pommern 									177
 
 
-##  100006675				Ortenburg									1002600
-100010260={ #// KARL III Gf zu Ortenburg, Gf u.Hr zu Tambach, Hr zu Birkenfeld, etc (2 Feb 1715-1 Mar 1776); m.16 Oct 1741 Luise Sophie, Wild- und Rheingräfin in Gaugrehweiler (2 Apr 1719-2 Dec 1766) $$
-	name=Karl
-	dynasty=1002600
-	religion=catholic culture=german
-	1715.02.02={birth=yes}
-	1741.10.16={add_spouse=100007567}	# Luise Sophie von Salm
-	1776.03.01={death=yes}
-}
-	100010261={ #// 1a) KARL ALBRECHT Gf zu Ortenburg (30 Jun 1743-Neuburg am Inn 5 Feb 1787); m.8 Oct 1779 Christiane Luise, Wild- und Rheingräfin in Gaugrehweiler (21 Dec 1753-27 Oct 1826) $$
-		name="Karl Albrecht"
-		dynasty=1002600
-		religion=catholic culture=german
-		father=100010260	# Karl zu Ortenburg
-		mother=100007567	# Luise Sophie von Salm
-		1743.06.30={birth=yes}
-		1779.10.08={add_spouse=100007523}	# Christiane Luise von Salm
-		1787.02.05={death=yes}  # Neuburg_am_Inn
-	}
-		100010262={ #// 1b) JOSEPH KARL Leopold Friedrich Ludwig Gf zu Ortenburg, Gf u.Hr zu Tambach, Hr zu Birkenfeld, etc (Ortenburg 30 Aug 1780-Tambach 28 Mar 1831); m.Erbach 6 Oct 1799 Karoline Gfn zu Erbach-Erbach (Erbach 21 Nov 1779-Tambach 6 Dec 1825) $$
-			name="Joseph Karl"
-			dynasty=1002600
-			religion=catholic culture=german
-			father=100010261	# Karl Albrecht zu Ortenburg
-			mother=100007523	# Christiane Luise von Salm
-			1780.08.30={birth=yes}  # Ortenburg
-			1799.10.06={add_spouse=100009071}	# Karoline von Erbach-Erbach
-			1831.03.28={death=yes}  # Tambach
-		}
-			100010263={ #// 2c) FRANZ KARL Rudolf Gf zu Ortenburg (Ortenburg 4 Aug 1801-Tambach 23 Feb 1876); m.Birkenfeld 22 Feb 1841 Julie Karoline Wilhelmine Luise Sophie Frn von Woellwarth-Lauterburg (Stuttgart 20 Dec 1819-Tambach 13 Jan 1883)
-				name="Franz Karl"
-				dynasty=1002600
-				religion=catholic culture=german
-				father=100010262	# Joseph Karl zu Ortenburg
-				mother=100009071	# Karoline von Erbach-Erbach
-				1801.08.04={birth=yes}  # Ortenburg
-				1841.02.22={add_spouse=100086245}	# FRN Julie Karoline von Woellwarth-Lauterburg
-				1876.02.23={death=yes}  # Tambach
-			}
-				100010264={ #// 1d) FRIEDRICH Carl Hermann Albrecht Gf zu Ortenburg (Tambach 13 Dec 1841-Tambach 25 Feb 1894); m.Thurnau 21 Oct 1874 Caroline Gfn von Giech (Thurnau 22 May 1850-Tambach 28 Nov 1923) $$
-					name=Friedrich
-					dynasty=1002600
-					religion=catholic culture=german
-					father=100010263	# Franz Karl zu Ortenburg
-					mother=100086245	# FRN Julie Karoline von Woellwarth-Lauterburg
-					1841.12.13={birth=yes}  # Tambach
-					1874.10.21={add_spouse=giech_0020}	# Chrétienne Caroline von Giech
-					1894.02.25={death=yes}  # Tambach
-				}
-					100010265={ #// 1e) FRANZ CARL Julius Gf zu Ortenburg (Tambach 16 Aug 1875-Coburg 3 Dec 1936); m.Budapest 30 Dec 1924 Ily Gfn Semsey de Semse (Semse 16 May 1895-Tambach 16 Oct 1978)
-						name="Franz Carl"
-						dynasty=1002600
-						religion=catholic culture=german
-						father=100010264	# Friedrich zu Ortenburg
-						mother=giech_0020	# Chrétienne Caroline von Giech
-						1875.08.16={birth=yes}  # Tambach
-						1924.12.30={add_spouse=100086306}	# GFN Ily Semsey de Semse
-						1936.12.03={death=yes}  # Coburg
-					}
-						100010266={ #// 1f) ALRAM Karl Gottfried Hans Ladislaus Gf zu Ortenburg (Budapest 23 Oct 1925-Tambach 6 Aug 2007); m.Tannheim, Württemberg 21 Oct 1954 Agathe Gfn von Schaesberg (Mainz 14 May 1925-Coburg 20 Dec 2011) $$
-							name=Alram
-							dynasty=1002600
-							religion=catholic culture=hungarian
-							father=100010265	# Franz Carl zu Ortenburg
-							mother=100086306	# GFN Ily Semsey de Semse
-							1925.10.23={birth=yes}  # Budapest
-							1954.10.21={add_spouse=100036629}	# Agathe von Schaesberg
-							2007.08.06={death=yes}  # Tambach
-						}
-							100010267={ #// 1g) Marie-Isabell Ily Ghislaine (b.Bamberg 1 Sep 1955); m.(civ) Weitramsdorf 17 Apr 1978 (rel) Tambach 22 Apr 1978 Antonius Frhr von Salis-Soglio (b.Wimberg 12 Sep 1948)
-								name=Marie-Isabell
-								female=yes
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010266	# Alram zu Ortenburg
-								mother=100036629	# Agathe von Schaesberg
-								1955.09.01={birth=yes}  # Bamberg
-							}
-							100010268={ #// 2g) HEINRICH Franz Josef Georg Maria Gf zu Ortenburg (b.Bamberg 11 Oct 1956); m.1st (civ) Weitramsdorf 21 Sep 1990 (rel) Hechingen 6 Oct 1990 (div 2002) Désirée Pss von Hohenzollern (b.München 27 Nov 1963); m.2nd Weitramsdorf 9 Sep 2004 Annette Müller (b.Gießen 16 Sep 1962) $$
-								name=Heinrich
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010266	# Alram zu Ortenburg
-								mother=100036629	# Agathe von Schaesberg
-								1956.10.11={birth=yes}  # Bamberg
-								1990.09.21={add_spouse=100002329}	# Désirée von Hohenzollern-Sigmaringen
-							}
-								100010269={ #// 1h) Carl-Theodor Philipp Georg Maria Erbgf zu Ortenburg (b.Lichtenfels 21 Feb 1992)
-									name=Carl-Theodor
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010268	# Heinrich zu Ortenburg
-									mother=100002329	# Désirée von Hohenzollern-Sigmaringen
-									1992.02.21={birth=yes}  # Lichtenfels
-								}
-								100010270={ #// 2h) Frederik Hubertus Ferdinand Maria (b.Lichtenfels 7 Feb 1995)
-									name=Frederik
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010268	# Heinrich zu Ortenburg
-									mother=100002329	# Désirée von Hohenzollern-Sigmaringen
-									1995.02.07={birth=yes}  # Lichtenfels
-								}
-								100010271={ #// 3h) Carolina Maria Franziska Christina Stephanie (b.Lichtenfels 23 Mar 1997)
-									name=Carolina
-									female=yes
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010268	# Heinrich zu Ortenburg
-									mother=100002329	# Désirée von Hohenzollern-Sigmaringen
-									1997.03.23={birth=yes}  # Lichtenfels
-								}
-							100010272={ #// 3g) Stephanie Hildegard Philippa Maria (b.Bamberg 12 Apr 1958)
-								name=Stephanie
-								female=yes
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010266	# Alram zu Ortenburg
-								mother=100036629	# Agathe von Schaesberg
-								1958.04.12={birth=yes}  # Bamberg
-							}
-							100010273={ #// 4g) Karl Johannes Ghislain Maria (b.Bamberg 17 Jul 1960); m.Coburg 3 Nov 2004 (rel) Tambach 4 Nov 2004 Corinna Stürmer (b.Wiesbaden 17 Jan 1965)
-								name=Karl
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010266	# Alram zu Ortenburg
-								mother=100036629	# Agathe von Schaesberg
-								1960.07.17={birth=yes}  # Bamberg
-								2004.11.03={add_spouse=100086332}	# Corinna Stürmer
-							}
-								100010274={ #// 1h) Victor Casimir Aurel Maria (b.London 19 Apr 2005)
-									name=Victor
-									dynasty=1002600
-									religion=catholic culture=english
-									father=100010273	# Karl zu Ortenburg
-									mother=100086332	# Corinna Stürmer
-									2005.04.19={birth=yes}  # London
-								}
-								100010275={ #// 2h) Julius Theodor Ulrich Maria (b.London 21 Feb 2007)
-									name=Julius
-									dynasty=1002600
-									religion=catholic culture=english
-									father=100010273	# Karl zu Ortenburg
-									mother=100086332	# Corinna Stürmer
-									2007.02.21={birth=yes}  # London
-								}
-						100010276={ #// 2f) Aurel Ladislaus Franz Heinrich Ernst (Budapest 30 Aug 1927-Middachten 13 Oct 2001); m.Middachten 20 Dec 1951 Isabelle Gfn von Bentinck (Middachten 3 Jul 1925-8 Mar 2013) $$
-							name=Aurel
-							dynasty=1002600
-							religion=catholic culture=hungarian
-							father=100010265	# Franz Carl zu Ortenburg
-							mother=100086306	# GFN Ily Semsey de Semse
-							1927.08.30={birth=yes}  # Budapest
-							1951.12.20={add_spouse=100038042}	# Isabelle Bentinck
-							2001.10.13={death=yes}  # Middachten
-						}
-							100010277={ #// 1g) Franz Wilhelm Friedrich Ladislaus (b.Coburg 12 Jun 1953); m.Wrestedt 3 Jun 1993 Gustava Gfn Grote (b.Bevensen 18 Oct 1955)
-								name=Franz
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010276	# Aurel zu Ortenburg
-								mother=100038042	# Isabelle Bentinck
-								1953.06.12={birth=yes}  # Coburg
-								1993.06.03={add_spouse=100086339}	# GFN Gustava Grote
-							}
-								100010278={ #// 1h) Vincent Carl Wilhelm (b.Frankfurt 17 Aug 1995)
-									name=Vincent
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010277	# Franz zu Ortenburg
-									mother=100086339	# GFN Gustava Grote
-									1995.08.17={birth=yes}  # Frankfurt
-								}
-								100010279={ #// 2h) Cecil Alexander Aurel (b.Frankfurt 16 Oct 1997)
-									name=Cecil
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010277	# Franz zu Ortenburg
-									mother=100086339	# GFN Gustava Grote
-									1997.10.16={birth=yes}  # Frankfurt
-								}
-								100010280={ #// 3h) Caspar Franz Maximilian (b.Frankfurt 16 Jan 2001)
-									name=Caspar
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010277	# Franz zu Ortenburg
-									mother=100086339	# GFN Gustava Grote
-									2001.01.16={birth=yes}  # Frankfurt
-								}
-							100010281={ #// 2g) Philipp Wilhelm (b.Bamberg 9 Apr 1955); m.(civ) Maroldsweisach 17 Sep 1988 (rel) Ellecom 1 Oct 1988 Mirjam Kalf (b.Haarlem, Netherlands 16 Mar 1958)
-								name="Philipp Wilhelm"
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010276	# Aurel zu Ortenburg
-								mother=100038042	# Isabelle Bentinck
-								1955.04.09={birth=yes}  # Bamberg
-								1988.09.17={add_spouse=100086364}	# Mirjam Kalf
-							}
-								100010282={ #// 1h) Julia Sophie Rebecca (b.Münster 11 Feb 1991)
-									name=Julia
-									female=yes
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010281	# Philipp Wilhelm zu Ortenburg
-									mother=100086364	# Mirjam Kalf
-									1991.02.11={birth=yes}  # Münster
-								}
-								100010283={ #// 2h) Felix Christian David (b.Münster 1 Apr 1992)
-									name=Felix
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010281	# Philipp Wilhelm zu Ortenburg
-									mother=100086364	# Mirjam Kalf
-									1992.04.01={birth=yes}  # Münster
-								}
-								100010284={ #// 3h) Marie-Thérèse Savah (b.Lichtenfels 22 Aug 1994)
-									name="Marie-Thérèse Savah"
-									female=yes
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010281	# Philipp Wilhelm zu Ortenburg
-									mother=100086364	# Mirjam Kalf
-									1994.08.22={birth=yes}  # Lichtenfels
-								}
-								100010285={ #// 4h) Johannes Caspar Daniel (b.Lichtenfels 4 May 1997)
-									name=Johannes
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010281	# Philipp Wilhelm zu Ortenburg
-									mother=100086364	# Mirjam Kalf
-									1997.05.04={birth=yes}  # Lichtenfels
-								}
-							100010286={ #// 3g) Nadine Marie Elisabeth (b.Bamberg 1 May 1957); m.Ermershausen 27 Jun 1981 Albrecht Gf von Brandenstein-Zeppelin (b.Biberach an der Riß 5 Aug 1950) $$
-								name=Nadine
-								female=yes
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010276	# Aurel zu Ortenburg
-								mother=100038042	# Isabelle Bentinck
-								1957.05.01={birth=yes}  # Bamberg
-							}
-			100010287={ #// 3c) Christiane Charlotte Wilhelmine (Ortenburg 18 Aug 1802-Oct 1854); m.Ortenburg 18 Aug 1830 Albrecht Fst zu Sayn-Wittgenstein-Berleburg (Berleburg 12 May 1777-Berleburg 11 Nov 1851) $$
-				name=Charlotte
-				female=yes
-				dynasty=1002600
-				religion=catholic culture=german
-				father=100010262	# Joseph Karl zu Ortenburg
-				mother=100009071	# Karoline von Erbach-Erbach
-				1802.08.18={birth=yes}  # Ortenburg
-				1854.10.01={death=yes}
-			}
-			100010288={ #// 4c) Friedrich Karl Ludwig (Erbach 14 Jan 1805-Mühlhausen, Thuringia 10 Nov 1860); m.Mühlhausen 10 Sep 1830 Ernestine Rentz (Mühlhausen 9 Dec 1807-Coburg 23 Jan 1891)
-				name=Friedrich
-				dynasty=1002600
-				religion=catholic culture=german
-				father=100010262	# Joseph Karl zu Ortenburg
-				mother=100009071	# Karoline von Erbach-Erbach
-				1805.01.14={birth=yes}  # Erbach
-				1860.11.10={death=yes}  # Mühlhausen, Thuringia
-			}
-				100011316={ #// 1d) Friedrich Albrecht Ludwig Franz (Mühlhausen 3 Oct 1831-Coburg 28 Aug 1904); m.Graz 30 May 1870 Anastasia Fstn von Wrede (Cerlenkow, Russia 12 Aug 1840-Wiener Neustadt 28 Dec 1912) $$
-					name=Friedrich
-					dynasty=1002600
-					religion=catholic culture=german
-					father=100010288	# Friedrich zu Ortenburg
-					1831.10.03={birth=yes}  # Mühlhausen
-					1870.05.30={add_spouse=100008303}	# Anastasia von Wrede
-					1904.08.28={death=yes}  # Coburg
-				}
-					100194236={ #// 1e) Friedrich Joseph Franz Emanuel (Coburg 23 Jul 1871-Bayerhof 4 Mar 1940); m.Langenzell 26 Jul 1905 Ilka Pss zu Löwenstein-Wertheim-Freudenberg (Langenzell 9 Jan 1887-Schweinfurt 31 Mar 1971) $$
-						name=Friedrich
-						dynasty=1002600
-						religion=catholic culture=german
-						father=100011316	# Friedrich zu Ortenburg
-						mother=100008303	# Anastasia von Wrede
-						1871.07.23={birth=yes}  # Coburg
-						1905.07.26={add_spouse=100003824}	# Ilka von Löwenstein-Wertheim-Freudenberg
-						1940.03.04={death=yes}  # Bayerhof
-					}
-						100010291={ #// 1f) Alfred Friedrich Franz Otto Hugo Amelung (Berlin 12 May 1906-Schweinfurt 3 Sep 1973); m.Berlin 28 May 1936 Jutta von Lücken (Danzig 21 Jun 1906-Schweinfurt 23 Dec 1991)
-							name="Alfred Friedrich"
-							dynasty=1002600
-							religion=catholic culture=german
-							father=100194236	# Friedrich zu Ortenburg
-							mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
-							1906.05.12={birth=yes}  # Berlin
-							1936.05.28={add_spouse=100086389}	# Jutta von Lücken
-							1973.09.03={death=yes}  # Schweinfurt
-						}
-							100010292={ #// 1g) Botho Friedrich Leopold Harald Manfred Otto Wolf (b.Würzburg 21 Apr 1937); m.(civ) Bevensen 23 Oct 1970 (rel) Molzen 9 Jan 1971 Ilse Frn von dem Bussche-Haddenhausen (b.Bevensen 16 Apr 1943)
-								name=Botho
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010291	# Alfred Friedrich zu Ortenburg
-								mother=100086389	# Jutta von Lücken
-								1937.04.21={birth=yes}  # Würzburg
-								1970.10.23={add_spouse=100086390}	# FRN Ilse von dem Bussche-Haddenhausen
-								2014.01.01={death=yes}  # EST.
-							}
-								100010293={ #// 1h) Anna-Madeleine (b.Lübeck 28 Oct 1971); m.(civ) Berlin 13 Dec 1999 (rel) Wülfingshausen 6 May 2000 Herve-Alexander Perrin de Nelle (b.München 1 Jul 1971)
-									name=Anna-Madeleine
-									female=yes
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010292	# Botho zu Ortenburg
-									mother=100086390	# FRN Ilse von dem Bussche-Haddenhausen
-									1971.10.28={birth=yes}  # Lübeck
-								}
-								100010294={ #// 2h) Friedrich (b.Oldenburg 11 Jan 1974); m.Schonungen 24 Jun 2005 (rel) Potsdam 27 Aug 2005 Christine Frn v.Wangenheim (b.Köln 11 Sep 1978)
-									name=Friedrich
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010292	# Botho zu Ortenburg
-									mother=100086390	# FRN Ilse von dem Bussche-Haddenhausen
-									1974.01.11={birth=yes}  # Oldenburg
-									2005.06.24={add_spouse=100086392}	# FRN Christine von Wangenheim
-								}
-									100010295={ #// 1i) Alexei Friedrich Julius (b.Hannover 3 Dec 2008)
-										name=Alexei
-										dynasty=1002600
-										religion=catholic culture=german
-										father=100010294	# Friedrich zu Ortenburg
-										mother=100086392	# FRN Christine von Wangenheim
-										2008.12.03={birth=yes}  # Hannover
-									}
-									100010296={ #// 2i) Maximilian Casimir Yorck (b.Hannover 19 Apr 2010)
-										name=Maximilian
-										dynasty=1002600
-										religion=catholic culture=german
-										father=100010294	# Friedrich zu Ortenburg
-										mother=100086392	# FRN Christine von Wangenheim
-										2010.04.19={birth=yes}  # Hannover
-									}
-									100010297={ #// 3i) Albert Felix Constantin (b.29 Dec 2013)
-										name=Albert
-										dynasty=1002600
-										religion=catholic culture=german
-										father=100010294	# Friedrich zu Ortenburg
-										mother=100086392	# FRN Christine von Wangenheim
-										2013.12.29={birth=yes}
-									}
-									100010298={ #// 4i) Teresa Julie Elisabeth (b.9 Feb 2016)
-										name=Teresa
-										female=yes
-										dynasty=1002600
-										religion=catholic culture=german
-										father=100010294	# Friedrich zu Ortenburg
-										mother=100086392	# FRN Christine von Wangenheim
-										2016.02.09={birth=yes}
-									}
-								100010299={ #// 3h) Christiane (b.Oldenburg 10 Apr 1975); m.Schonungen 16 Sep 2004 (rel) 18 Sep 2004 Fabio Nicolò Drago (b.Palermo 30 Apr 1964)
-									name=Christiane
-									female=yes
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010292	# Botho zu Ortenburg
-									mother=100086390	# FRN Ilse von dem Bussche-Haddenhausen
-									1975.04.10={birth=yes}  # Oldenburg
-								}
-							100010300={ #// 2g) Engelbert Wilhelm Udo Heinrich (b.Würzburg 11 Mar 1939); m.Montreal 6 Mar 1965 Margot Pöllmann (b.Berlin 5 Aug 1942)
-								name=Engelbert
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010291	# Alfred Friedrich zu Ortenburg
-								mother=100086389	# Jutta von Lücken
-								1939.03.11={birth=yes}  # Würzburg
-								1965.03.06={add_spouse=100086396}	# Margot Pöllmann
-								2016.01.01={death=yes}  # EST.
-							}
-								100010301={ #// 1h) Peter (b.Montreal 1 Mar 1970); m.Oakville, Ontario 24 Jun 2006 Nancy Sladich (b.Oakville 7 Mar 1970)
-									name=Peter
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010300	# Engelbert zu Ortenburg
-									mother=100086396	# Margot Pöllmann
-									1970.03.01={birth=yes}  # Montreal
-									2006.06.24={add_spouse=100086400}	# Nancy Sladich
-								}
-									100010302={ #// 1i) Charlotte (b.Oakville 29 Jan 2008)
-										name=Charlotte
-										female=yes
-										dynasty=1002600
-										religion=catholic culture=german
-										father=100010301	# Peter zu Ortenburg
-										mother=100086400	# Nancy Sladich
-										2008.01.29={birth=yes}  # Oakville
-									}
-									100010303={ #// 2i) Matthew (b.12 Dec 2009)
-										name=Matthew
-										dynasty=1002600
-										religion=catholic culture=german
-										father=100010301	# Peter zu Ortenburg
-										mother=100086400	# Nancy Sladich
-										2009.12.12={birth=yes}
-									}
-							100194240={ #// 3g) Ilka Irmgard Pauline Hanna Lili Harriet (b.Würzburg 29 Jun 1942); m.(civ) Waldsachsen (rel) Schonungen 9 Oct 1971 Johann, Duke of Oldenburg (b.Lensahn 3 Jan 1940) $$
-								name=Ilka
-								female=yes
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010291	# Alfred Friedrich zu Ortenburg
-								mother=100086389	# Jutta von Lücken
-								1942.06.29={birth=yes}  # Würzburg
-							}
-							100010305={ #// 4g) Joachim Christian Manfred Gustav-Albrecht (b.Würzburg 26 May 1944); m.Bodenwerder (civ) 28 Aug 1970 (rel) 10 Oct 1970 Ilsabe von Brünneck (b.Hamburg 28 Sep 1945)
-								name=Joachim
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010291	# Alfred Friedrich zu Ortenburg
-								mother=100086389	# Jutta von Lücken
-								1944.05.26={birth=yes}  # Würzburg
-								1970.08.28={add_spouse=100086404}	# Ilsabe von Brünneck
-							}
-								100010306={ #// 1h) Moritz Friedrich Carl (b.Bonn 25 May 1975); m.Darmstadt 28 Dec 2002 (rel) 10 May 2003 Regina Frn v.Ledebur (b.Bad Homburg 17 Nov 1975)
-									name=Moritz
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010305	# Joachim zu Ortenburg
-									mother=100086404	# Ilsabe von Brünneck
-									1975.05.25={birth=yes}  # Bonn
-									2002.12.28={add_spouse=100086411}	# FRN Regina von Ledebur
-								}
-									100010307={ #// 1i) Philippa Anastasia Dorothea Cecilia, b.München 4 Aug 2005
-										name=Philippa
-										female=yes
-										dynasty=1002600
-										religion=catholic culture=german
-										father=100010306	# Moritz zu Ortenburg
-										mother=100086411	# FRN Regina von Ledebur
-										2005.08.04={birth=yes}  # München
-									}
-									100010308={ #// 2i) Donata Ilsabe Alix (b.München 17 Aug 2007)
-										name=Donata
-										female=yes
-										dynasty=1002600
-										religion=catholic culture=german
-										father=100010306	# Moritz zu Ortenburg
-										mother=100086411	# FRN Regina von Ledebur
-										2007.08.17={birth=yes}  # München
-									}
-								100010309={ #// 2h) Christian Joachim (b.Bonn 28 May 1977)
-									name="Christian Joachim"
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010305	# Joachim zu Ortenburg
-									mother=100086404	# Ilsabe von Brünneck
-									1977.05.28={birth=yes}  # Bonn
-								}
-								100010310={ #// 3h) Rupprecht Georg Botho Aurel (b.Bonn 23 Nov 1979)
-									name=Rupprecht
-									dynasty=1002600
-									religion=catholic culture=german
-									father=100010305	# Joachim zu Ortenburg
-									mother=100086404	# Ilsabe von Brünneck
-									1979.11.23={birth=yes}  # Bonn
-								}
-							100010311={ #// 1g) Yvonne Elisabeth Amélie Marie-Luise (b.Würzburg 2 Jan 1948); m.(civ) Parensen, Hannover 27 Jun 1970 (rel) Schonungen am Main 27 Jun 1970 Ludwig von Breitenbuch (b.Ranis, Thuringia 23 Sep 1935)
-								name=Yvonne
-								female=yes
-								dynasty=1002600
-								religion=catholic culture=german
-								father=100010291	# Alfred Friedrich zu Ortenburg
-								mother=100086389	# Jutta von Lücken
-								1948.01.02={birth=yes}  # Würzburg
-							}
-						100010312={ #// 2f) Aribo (Paris 31 Mar 1908-Kiel 18 May 1934)
-							name=Aribo
-							dynasty=1002600
-							religion=catholic culture=french
-							father=100194236	# Friedrich zu Ortenburg
-							mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
-							1908.03.31={birth=yes}  # Paris
-							1934.05.18={death=yes}  # Kiel
-						}
-						100010313={ #// 3f) Amélie Anastasia Pauline Madeleine Elisabeth (Langenzell 19 Dec 1909-11 Sep 2011); m.Bayerhof 10 Apr 1934 Heinrich Bggf zu Dohna-Schlobitten (Potsdam 24 Apr 1907-k.a.Maubeuge 22 May 1940) $$
-							name=Amélie
-							female=yes
-							dynasty=1002600
-							religion=catholic culture=german
-							father=100194236	# Friedrich zu Ortenburg
-							mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
-							1909.12.19={birth=yes}  # Langenzell
-							2011.09.11={death=yes}
-						}
-						100194237={ #// 4f) Pauline Amélie (Bayerhof 3 Dec 1913-Bischofsheim 5 Mar 2002); m.Bayerhof 17 Oct 1935 Christian Pr zur Lippe-Weissenfeld (Döberkitz 12 Aug 1907-Bischofsheim 24 Oct 1996) $$
-							name="Pauline Amélie"
-							female=yes
-							dynasty=1002600
-							religion=catholic culture=german
-							father=100194236	# Friedrich zu Ortenburg
-							mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
-							1913.12.03={birth=yes}  # Bayerhof
-							2002.03.05={death=yes}  # Bischofsheim
-						}
-						100010315={ #// 5f) Udo-Wilhelm Richard Ernst (Bayerhof 20 May 1915-k.a.Charkow 11 Jun 1942)
-							name=Udo-Wilhelm
-							dynasty=1002600
-							religion=catholic culture=german
-							father=100194236	# Friedrich zu Ortenburg
-							mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
-							1915.05.20={birth=yes}  # Bayerhof
-							1942.06.11={death=yes}  # Charkow
-						}
-						100010316={ #// 6f) Joachim Friedrich-Karl Wendt (Würzburg 10 Oct 1918-k.a.on the Dnieper 1 Sep 1941)
-							name=Joachim
-							dynasty=1002600
-							religion=catholic culture=german
-							father=100194236	# Friedrich zu Ortenburg
-							mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
-							1918.10.10={birth=yes}  # Würzburg
-							1941.09.01={death=yes}  # on the Dnieper
-						}
-						100010317={ #// 7f) Georg Friedrich Karl (Bayerhof 14 Feb 1922-Wolle, Netherlands 30 Jan 1944)
-							name=Georg
-							dynasty=1002600
-							religion=catholic culture=german
-							father=100194236	# Friedrich zu Ortenburg
-							mother=100003824	# Ilka von Löwenstein-Wertheim-Freudenberg
-							1922.02.14={birth=yes}  # Bayerhof
-							1944.01.30={death=yes}  # Wolle Netherlands
-						}
-					100010318={ #// 2e) Eberhard (Coburg 12 Oct 1873-Vienna 16 Jul 1944)
-						name=Eberhard
-						dynasty=1002600
-						religion=catholic culture=german
-						father=100011316	# Friedrich zu Ortenburg
-						mother=100008303	# Anastasia von Wrede
-						1873.10.12={birth=yes}  # Coburg
-						1944.07.16={death=yes}  # Vienna
-					}
-		100010321={ #// 2b) Luise Karoline (15 Jan 1782-15 Dec 1847); m.1st 25 Jan 1804 (div 1811) Christian Friedrich Gf zu Castell-Rüdenhausen; m.2d 1814 Anton Gf von Tauffkirchen (d.Augsburg 1 Oct 1857) $$
-			name="Luise Karoline"
-			female=yes
-			dynasty=1002600
-			religion=catholic culture=german
-			father=100010261	# Karl Albrecht zu Ortenburg
-			mother=100007523	# Christiane Luise von Salm
-			1782.01.15={birth=yes}
-			1847.12.15={death=yes}
-		}
-		100010322={ #// 3b) Sophie Marie Wilhelmine (16 Nov 1784-Schloß Kleeberg 31 Jan 1854); m.21 Jun 1802 Leopold Ernst Gf von Tauffkirchen (d.Kleeberg 12 Mar 1860)
-			name=Sophie
-			female=yes
-			dynasty=1002600
-			religion=catholic culture=german
-			father=100010261	# Karl Albrecht zu Ortenburg
-			mother=100007523	# Christiane Luise von Salm
-			1784.11.16={birth=yes}
-			1854.01.31={death=yes}  # Schloß Kleeberg
-		}
-		100010323={ #// 4b) Auguste Friederike (22 Apr 1786-8 Oct 1857); m.9 Oct 1806 (div 1824) Karl Alexander Gf von Pückler und Limpurg (d.28 Dec 1843) $$
-			name="Friederike Auguste"
-			female=yes
-			dynasty=1002600
-			religion=catholic culture=german
-			father=100010261	# Karl Albrecht zu Ortenburg
-			mother=100007523	# Christiane Luise von Salm
-			1786.04.22={birth=yes}
-			1857.10.08={death=yes}
-		}
-#1745.02.02={holder=100010260} # KARL III Gf zu Ortenburg
-#1776.03.01={holder=100010261} # 1a) KARL ALBRECHT Gf zu Ortenburg 
-#1787.02.05={holder=100010262} # 1b) JOSEPH KARL Leopold Friedrich Ludwig Gf zu Ortenburg
-#1831.03.28={holder=100010263} # 2c) FRANZ KARL Rudolf Gf zu Ortenburg 
-#1876.02.23={holder=100010264} # 1d) FRIEDRICH Carl Hermann Albrecht Gf zu Ortenburg 
-#1894.02.25={holder=100010265} # 1e) FRANZ CARL Julius Gf zu Ortenburg 
-#1936.12.03={holder=100010266} # 1f) ALRAM Karl Gottfried Hans Ladislaus Gf zu Ortenburg 
-#2007.08.06={holder=100010268} # 2g) HEINRICH Franz Josef Georg Maria Gf zu Ortenburg 
-##  100006675				Ortenburg									1002600
-
-
 ##  100010000				Degenfeld-Schonburg		  					1002128
 # https://www.angelfire.com/realm/gotha/gotha/degenfeld.html
 
@@ -8786,7 +8214,7 @@
 					father=100010075	# Ludwig von Degenfeld-Schonburg
 					mother=100086131	# Ilona Dessewffy de Csernek et Tarkeő
 					1881.08.22={birth=yes}  # Szirák
-					1907.04.27={add_spouse=gerli_016}	# Margit Gerliczy
+					1907.04.27={add_spouse=gerliczy_0026}	# Margit Gerliczy de Arany et Szentgerlistye
 					1947.05.28={death=yes}  # Neumarkt
 				}
 					100010079={ #// 1e) Anna Margarete Helene Gisela Luise Isabella Maria (Szirák 25 Mar 1908-Caracas 12 Dec 1973)
@@ -8795,7 +8223,7 @@
 						dynasty=1002128
 						religion=catholic culture=german
 						father=100010078	# Christoph von Degenfeld-Schonburg
-						mother=gerli_016	# Margit Gerliczy
+						mother=gerliczy_0026	# Margit Gerliczy de Arany et Szentgerlistye
 						1908.03.25={birth=yes}  # Szirák
 						1973.12.12={death=yes}  # Caracas
 					}
@@ -8805,7 +8233,7 @@
 						dynasty=1002128
 						religion=catholic culture=german
 						father=100010078	# Christoph von Degenfeld-Schonburg
-						mother=gerli_016	# Margit Gerliczy
+						mother=gerliczy_0026	# Margit Gerliczy de Arany et Szentgerlistye
 						1912.09.10={birth=yes}  # Kutyfalva
 						1987.01.01={death=yes}  # EST.
 					}
@@ -8814,7 +8242,7 @@
 						dynasty=1002128
 						religion=catholic culture=german
 						father=100010078	# Christoph von Degenfeld-Schonburg
-						mother=gerli_016	# Margit Gerliczy
+						mother=gerliczy_0026	# Margit Gerliczy de Arany et Szentgerlistye
 						1916.07.23={birth=yes}  # Kutyfalva
 						1944.06.17={add_spouse=100086142}	# Eva István
 						1995.10.12={death=yes}  # Mikháza
@@ -8870,7 +8298,7 @@
 						dynasty=1002128
 						religion=catholic culture=german
 						father=100010078	# Christoph von Degenfeld-Schonburg
-						mother=gerli_016	# Margit Gerliczy
+						mother=gerliczy_0026	# Margit Gerliczy de Arany et Szentgerlistye
 						1921.01.20={birth=yes}  # Klausenburg
 						1944.12.01={death=yes}  # nr Tokaj Hungary
 					}
@@ -8887,7 +8315,7 @@
 					1955.08.04={death=yes}  # Eybach
 				}
 					100010089={ #// 1e) Margarete Helene Auguste Friederike (Szirák 18 Jul 1909-Csörgö 8 Oct 1929); m.Budapest 16 Nov 1928 Ladislaus Gf Berchtold (Nagy-Kázmér 19 Apr 1906-New York 27 Apr 1987) $$
-						name=Margarete
+						name="Margarete Helene"
 						female=yes
 						dynasty=1002128
 						religion=catholic culture=german
@@ -9520,7 +8948,7 @@ nostitz_0001={ #// Otto von Nostitz-Rokinitz, Freiherr 18.5.1631, Courtly counse
 						1767.05.20={birth=yes}
 						1828.01.17={death=yes}
 					}
-					nostitz_0020={ #// E4. Maria Anna, *Lobris 25.2.1768, +Wroclaw 6.2.1837; m.Neuland nr Löwenberg 7.2.1796 Johann Franz Gf von Saurma, Frhr von und zu der Jeltsch (*Wroclaw 21.4.1774, +Wroclaw 31.3.1817)
+					nostitz_0020={ #// E4. Maria Anna, *Lobris 25.2.1768, +Wroclaw 6.2.1837; m.Neuland nr Löwenberg 7.2.1796 Johann Franz Gf von Saurma, Frhr von und zu der Jeltsch (*Wroclaw 21.4.1774, +Wroclaw 31.3.1817) $$
 						name="Maria Anna"
 						female=yes
 						dynasty_house=nostitz_rokitnitz
@@ -14864,7 +14292,7 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 					mother=100007430	# Anna Sophie von Wettin
 					1692.08.14={birth=yes}  # Rudolstadt
 					1720.02.08={add_spouse=100007474}	# Sophie Wilhelmine von Wettin
-					1729.01.06={add_spouse=100036814}	# Christine Cirksena
+					1729.01.06={add_spouse=cirksena_0073}	# Christina Sophia Cirksena
 					1744.09.01={death=yes}  # Rudolstadt
 				}
 					100008354={ #// E1. [1m.] Johann Friedrich I, Fürst von Schwarzburg-Rudolstadt, Graf von Hohnstein, Herr von Blankenburg, Leutenberg, Ebeleben, Sondershausen etc. (1744-67), *Rudolstadt 8.1.1721, +Rudolstadt 10.7.1767; m.Eisenach 19.11.1744 Bernhardine Duchess of Sachsen-Weimar-Eisenach (+1757) $$
@@ -16212,8 +15640,9 @@ arco_0076={ #// Graf IGNAZ JOSEPH Philipp Neri Johann Baptist von Arco auf Valle
 					religion=catholic culture=german
 					father=100006614	# Maximilian Anton von Thurn und Taxis
 					mother=100007936	# Helene von Pfalz-Zweibrücken-Birkenfeld
-					1867.05.08={birth=yes}	# Margarethe v. Habsburg-Lothringen
-					1952.01.22={death=yes}
+					1867.05.08={birth=yes}	# Regensburg
+					1890.07.15={add_spouse=100020328}
+					1952.01.22={death=yes}	# Regensburg
 				}
 					100006619={ #// 1f) FRANZ JOSEF Maximilian Maria Antonius Ignatius Lamoral Fst von Thurn und Taxis (Regensburg 21 Dec 1893-Regensburg 13 Jul 1971); m.Schloß Bronnbach 23 Nov 1920 Elizabeth, Infanta of Portugal (Kleinheubach 19 Nov 1894-Regensburg 12 Jan 1970) $$
 						name="Franz Josef"
@@ -19356,7 +18785,7 @@ oppersdorf_0033={ #// Johann Franz Wenzel Dominik Hyacint Graf von Oppersdorff, 
 				father=oppersdorf_0083	# Franz Philip von Oppersdorff
 				mother=lowborn_2759	# Anna Schirndinger von Schirnding
 				1783.01.01={birth=yes}
-				1811.10.01={add_spouse=caretto_0106}	# Marie Anna del Caretto
+				1811.10.01={add_spouse=caretto_0106}	# Marie Anna del Carretto
 				1841.08.25={death=yes}
 			}
 				oppersdorf_0152={ #// D1. Marie, *11.1.1815, +29.12.1877; m.20.9.1847 Karl Barth von Barthenheim
@@ -19365,7 +18794,7 @@ oppersdorf_0033={ #// Johann Franz Wenzel Dominik Hyacint Graf von Oppersdorff, 
 					dynasty=oppersdorf
 					religion=lutheran culture=german
 					father=oppersdorf_0151	# Georg von Oppersdorff
-					mother=caretto_0106	# Marie Anna del Caretto
+					mother=caretto_0106	# Marie Anna del Carretto
 					1815.01.11={birth=yes}
 					1877.12.29={death=yes}
 				}

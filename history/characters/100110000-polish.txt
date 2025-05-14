@@ -2472,7 +2472,7 @@ chodkiew_0001={ #// Chodko Juriewicz, fl 1431, +after 1447
 					dynasty=1012033
 					religion=catholic culture=polish
 					father=chodkiew_0034	# Jerzy Chodkiewicz
-					mother=lowborn_8764	# Eugenia Hornostaj
+					mother=olelko_0016	# Zofia Olelkowicz
 					1562.01.01={birth=yes}  # EST.
 					1622.01.01={death=yes}  # EST.
 				}
@@ -3015,6 +3015,7 @@ poniatow_0001={ #// Jan Poniatowski, +before 1676
 					female=yes
 					dynasty=1012032
 					religion=catholic culture=polish
+					trait=legitimized_bastard
 					father=poniatow_0019	# Andrzej Poniatowski
 					mother=100185878	# Maria Terezie Kinsky von Wchinitz u.Tettau
 					1760.11.28={birth=yes}
@@ -5670,7 +5671,7 @@ plater_0001={ #// Jan Ludwik von dem Broel gt Plater, d.1736 (see Part 1, above)
 									religion=catholic culture=polish
 									father=plater_0299	# Józafat Plater-Zyberk
 									mother=lowborn_9444	# Elaine Gregory Blair
-									1976.01.01={birth=yes}
+									1976.12.01={birth=yes}
 								}
 								plater_0301={ #// 2h) Maria Krystyna Joyce (b.1978)
 									name="Maria Krystyna"
@@ -8988,7 +8989,25 @@ tyszkiewicz_0001={ #// Jozef Tyszkiewicz-Łohojski (*1590, +1635) %%
 											1938.01.01={add_spouse=100111059}	# Eleonore Radziwiłł
 											1956.02.06={death=yes}	# Lódz
 										}
-									100412670={ #// I2. Elżbieta Maria (*Funchal 2.11.1882, +Valduc, Belgium 2.10.1969); m.3.2.1903 Stanislaw Plater-Zyberk (*Passy 10.1.1875, +Skotnicki 10.8.1911) %%
+									100412769={ #// I2. Edward (*Paris 23.4.1880, +Kraków 10.7.1951) %%
+										name="Edward"
+										dynasty=1012023
+										religion=catholic culture=polish
+										father=100112668	# Benedykt Henryk Tyszkiewicz-Łohojski
+										mother=100094552	# Klara Elzbieta Bancroft
+										1880.04.23={birth=yes}  # Paris
+										1951.07.10={death=yes}  # Kraków
+									}
+										100412669={ #// J1. Adela Elżbieta (*Paris 3.10.1908, +Brussels 29.3.1960); m.29.4.1930 Tadeusz Plater-Zyberk (*Brixen 15.2.1906, +Valduc 1.8.1978) %%
+											name="Adela Elżbieta"
+											female=yes
+											dynasty=1012023
+											religion=catholic culture=polish
+											father=100412769	# Edward Tyszkiewicz-Łohojski
+											1908.10.03={birth=yes}  # Paris
+											1960.03.29={death=yes}  # Brussels
+										}
+									100412670={ #// I3. Elżbieta Maria (*Funchal 2.11.1882, +Valduc, Belgium 2.10.1969); m.3.2.1903 Stanislaw Plater-Zyberk (*Passy 10.1.1875, +Skotnicki 10.8.1911) %%
 										name="Elżbieta Maria"
 										female=yes
 										dynasty=1012023
@@ -8997,16 +9016,6 @@ tyszkiewicz_0001={ #// Jozef Tyszkiewicz-Łohojski (*1590, +1635) %%
 										mother=100094552	# Klara Elzbieta Bancroft
 										1882.11.02={birth=yes}  # Funchal
 										1969.10.02={death=yes}  # Valduc, Belgium
-									}
-									100412669={ #// I3. Adela Elżbieta (*Paris 3.10.1908, +Brussels 29.3.1960); m.29.4.1930 Tadeusz Plater-Zyberk (*Brixen 15.2.1906, +Valduc 1.8.1978) %%
-										name="Adela Elżbieta"
-										female=yes
-										dynasty=1012023
-										religion=catholic culture=polish
-										father=100112668	# Benedykt Henryk Tyszkiewicz-Łohojski
-										mother=100094552	# Klara Elzbieta Bancroft
-										1908.10.03={birth=yes}  # Paris
-										1960.03.29={death=yes}  # Brussels
 									}
 							tyszkiewicz_0020={ #// G2. Stanisław Tadeusz (*1822, +1872); m.1846 Helena Denis-Kołyszko %%
 								name="Stanisław Tadeusz"
@@ -9940,8 +9949,8 @@ tyszkiewicz_0001={ #// Jozef Tyszkiewicz-Łohojski (*1590, +1635) %%
 						dynasty=1012018
 						religion=catholic culture=polish
 						father=100112599	# Dymitr Jabłonowski
-						mother=100098022	# Józefa Mycielska
-						1755.01.01={birth=yes}  # EST.
+						mother=100098009	# Józefa Mycielska
+						1738.01.01={birth=yes}  # EST.
 						1830.01.01={death=yes}  # EST.
 					}
 					# UNTEN -> E3. [2m.] Pr Maciej, rotmistrz kawalerii narodowej 1785, *16.6.1757, +19.2.1844; m.1784 Marianna Szeptycka; for his issue see HERE
@@ -18708,7 +18717,7 @@ sanguszko_0001={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno, +after 1454
 			religion=catholic culture=lithuanian
 			father=473508	# Késtutis
 			1347.01.01={birth=yes}
-			1387.01.01={add_spouse=rurik_0384}	# Анна Святославововна Sormella
+			1387.01.01={add_spouse=rurik_0384}	# Анна Святославововна Рюрикович
 			1418.11.19={add_spouse=lowborn_1649}	# PSS Juliana Holszańska
 			1419.12.01={death=yes}  # Lutzk
 		}
@@ -18718,7 +18727,7 @@ sanguszko_0001={ #// Alexander (Sanguszko) Feodorovich, Pr of Ratno, +after 1454
 				dynasty=1012037
 				religion=catholic culture=lithuanian
 				father=jagelo_0142	# Vytautas Jagiełło
-				mother=rurik_0384	# Анна Святославововна Sormella
+				mother=rurik_0384	# Анна Святославововна Рюрикович
 				1370.01.01={birth=yes}
 				1453.06.15={death=yes}
 			}
@@ -21775,7 +21784,7 @@ sapieha_0081={ #// Fryderyk Sapieha, podkomorzy wlodzimierski, +1626; m.1616 Ewa
 						religion=catholic culture=polish
 						father=100111805	# Aleksander Michał Lubomirski
 						mother=100111547	# Katarzyna Anna Sapieha
-						1666.01.01={birth=yes}  # Nowy Sącz
+						1669.01.01={birth=yes}  # Nowy Sącz
 						1690.01.01={add_spouse=100097781}	# FRN Johanna von Starzhausen
 						1735.11.14={death=yes}	# Warszawa
 					}
@@ -27295,8 +27304,8 @@ zamoyski_0001={ #// Tomasz z Laznina i Zamoscia, +ca 1473; m.Malgorzata N
 					father=zamoyski_0020	# Jan Zamoyski
 					mother=lowborn_8765	# N Gorzkowska
 					1578.01.01={birth=yes}  # EST.
-					1637.01.01={add_spouse=lowborn_8769}	# Zofia z Babina Pszonczanka
-					1650.01.01={death=yes}
+					1610.01.01={add_spouse=lowborn_8769}	# Zofia z Babina Pszonczanka
+					1651.05.27={death=yes}
 				}
 					zamoyski_0022={ #// E1. Anna; m.Aleksander Cetner, kasztelan halicki
 						name=Anna
@@ -27305,7 +27314,7 @@ zamoyski_0001={ #// Tomasz z Laznina i Zamoscia, +ca 1473; m.Malgorzata N
 						religion=catholic culture=polish
 						father=zamoyski_0021	# Waclaw Jan Zamoyski
 						mother=lowborn_8769	# Zofia z Babina Pszonczanka
-						1610.01.01={birth=yes}  # EST.
+						1613.01.01={birth=yes}  # EST.
 						1670.01.01={death=yes}  # EST.
 					}
 					zamoyski_0023={ #// E2. Stefan, kasztelan kijowski 1662, +1682; m.before 1662 Dorota Leszczkowska (+after 1695)
@@ -27314,7 +27323,7 @@ zamoyski_0001={ #// Tomasz z Laznina i Zamoscia, +ca 1473; m.Malgorzata N
 						religion=catholic culture=polish
 						father=zamoyski_0021	# Waclaw Jan Zamoyski
 						mother=lowborn_8769	# Zofia z Babina Pszonczanka
-						1610.01.01={birth=yes}  # EST.
+						1620.01.01={birth=yes}  # EST.
 						1662.01.01={add_spouse=lowborn_8783}	# Dorota Leszczkowska
 						1682.01.01={death=yes}
 					}
@@ -32445,7 +32454,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 								dynasty_house=wisniowiecki
 								religion=catholic culture=polish
 								father=wisniow_0067	# Konstanty Wiśniowiecki
-								mother=lowborn_3005	# Anna Zahorowska
+								mother=lowborn_3005	# Urszula Marina Mniszek z Bużenina
 								1608.01.01={birth=yes}  # EST.
 								1664.01.01={death=yes}  # EST.
 							}
@@ -32484,7 +32493,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 						dynasty_house=wisniowiecki
 						religion=catholic culture=polish
 						father=wisniow_0056	# Iwan Wiśniowiecki
-						mother=lowborn_2991	# Nastazja Olizarowicz
+						mother=lowborn_2991	# PSS Magdalena Despotowna Branković
 						1539.01.01={birth=yes}  # EST.
 						1599.01.01={death=yes}  # EST.
 					}
@@ -32573,6 +32582,8 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 
 
 ## SULKOWSKI 1012009
+# https://www.angelfire.com/realm/gotha/gotha/sulkowski.html
+
 100103770={ #// Pss        Alexandra                 Sulkowski                                (1925-2002)     0 [LUZENSZKY] $$
 	name="Alexandra Sulkowski"
 	female=yes
@@ -35519,7 +35530,7 @@ malachow_0001={ #// Mikolaj Malachowski, dworzanin królewski 1558, sekretarz kr
 						dynasty=malachowski
 						religion=catholic culture=polish
 						father=malachow_0010	# Stanisław Małachowski
-						mother=lowborn_6752	# Aleksandra Zelecka
+						mother=100111302	# Anna Konstnacja Lubomirski
 						1698.01.01={birth=yes}
 						1727.01.01={add_spouse=lowborn_6763}	# Izabela Humiecka
 						1762.01.01={death=yes}
@@ -36650,14 +36661,14 @@ wodzicki_0010={ #// Piotr Wodzicki (*1700, +1770); m.1729 Konstancja Dembińska 
 					1868.01.01={add_spouse=100111502}	# Tereza Potocki
 					1893.07.13={death=yes}
 				}
-					wodzicki_0015={ #// E1. August (*1870, +1926); m.1896 Dss Felicja Kaliksta Ponińska z Horyńca (*1871, +1954) %%
+					wodzicki_0015={ #// E1. August (*1870, +1926); m.19.5.1900 Felicja Kaliksta Poniński (*Tarnów 15.11.1871, +1954) %%
 						name=August
 						dynasty=1012025
 						religion=catholic culture=polish
 						father=wodzicki_0014	# Roman Wodzicki
 						mother=100111502	# Tereza Potocki
 						1870.01.01={birth=yes}
-						1896.01.01={add_spouse=lowborn_9216}	# DSS Felicja Kaliksta Ponińska z Horyńca
+						1900.05.19={add_spouse=100235294}	# Felicja Kaliksta Poniński
 						1926.01.01={death=yes}
 					}
 					wodzicki_0016={ #// E2. Taida Maria Konstancja Eugenia Teresa (*1871, +1937); m.1894 Antoni Julian Tomasz Horodyski (*1858, +1902) %%
@@ -37683,14 +37694,14 @@ zoltow_0010={ #// Jan Gaudenty Walenty Żółtowski (*1778, +1854); m.1817 Józe
 	1817.01.01={add_spouse=100089823}	# Józefa Zbijewski
 	1854.01.01={death=yes}
 }
-	zoltow_0001={ #// A1. Stanisław Franciszek (*1810, +1867); m.1841 Ct Seweryna Ponińska z Wrześni (*1818, +1899) %%
+	zoltow_0001={ #// A1. Stanisław Franciszek (*1810, +1867); m.1841 Seweryna Poniński (*Września 31.10.1818, +Nekla 18.11.1899) %%
 		name="Stanisław Franciszek"
 		dynasty=1012038
 		religion=catholic culture=polish
 		father=zoltow_0010	# Jan Gaudenty Walenty Żółtowski
 		mother=100089823	# Józefa Zbijewski
 		1810.01.01={birth=yes}
-		1841.01.01={add_spouse=lowborn_4188}	# CT Seweryna Ponińska z Wrześni
+		1841.01.01={add_spouse=100235305}	# Seweryna Poniński
 		1867.01.01={death=yes}
 	}
 		zoltow_0002={ #// B1. Teodor (*1842, +1915); m.1876 Franciszka Niemojowska (*1849, +1893) %%
@@ -37698,19 +37709,19 @@ zoltow_0010={ #// Jan Gaudenty Walenty Żółtowski (*1778, +1854); m.1817 Józe
 			dynasty=1012038
 			religion=catholic culture=polish
 			father=zoltow_0001	# Stanisław Franciszek Żółtowski
-			mother=lowborn_4188	# CT Seweryna Ponińska z Wrześni
+			mother=100235305	# Seweryna Poniński
 			1842.01.01={birth=yes}
 			1876.01.01={add_spouse=lowborn_9460}	# Franciszka Niemojowska
 			1915.01.01={death=yes}
 		}
-			zoltow_0003={ #// C1. Zygmunt (*1877, +1919); m.1902 Ct Rozalia Ponińska z Wrześni (*1881, +1971) %%
+			zoltow_0003={ #// C1. Zygmunt (*1877, +1919); m.1902 Rozalia Poniński (*Żerniki 29.5.1881, +Kraków 25.12.1971) %%
 				name=Zygmunt
 				dynasty=1012038
 				religion=catholic culture=polish
 				father=zoltow_0002	# Teodor Żółtowski
 				mother=lowborn_9460	# Franciszka Niemojowska
 				1877.01.01={birth=yes}
-				1902.01.01={add_spouse=lowborn_9469}	# CT Rozalia Ponińska z Wrześni
+				1902.01.01={add_spouse=100235286}	# Rozalia Poniński
 				1919.01.01={death=yes}
 			}
 				zoltow_0004={ #// D1. Franciszek Antoni (*Nekla 31.5.1903, +Londyn? 1983); m.27.12.1934 Antonina Aniela Sobańska z Żytnik (*1908, +2000) %%
@@ -37718,7 +37729,7 @@ zoltow_0010={ #// Jan Gaudenty Walenty Żółtowski (*1778, +1854); m.1817 Józe
 					dynasty=1012038
 					religion=catholic culture=polish
 					father=zoltow_0003	# Zygmunt Żółtowski
-					mother=lowborn_9469	# CT Rozalia Ponińska z Wrześni
+					mother=100235286	# Rozalia Poniński
 					1903.05.31={birth=yes}  # Nekla
 					1934.12.27={add_spouse=lowborn_9471}	# Antonina Aniela Sobańska z Żytnik
 					1983.01.01={death=yes}  # Londyn?
