@@ -1204,12 +1204,13 @@ lowborn_7241={ # Gf         Erich                     von Holck                 
 	1867.07.24={birth=yes}  # Ølstedgaard
 	1943.10.23={death=yes}  # Vallø
 }
-100087182={ #    Baron      Peder                     Langenskiöld                             (1950-    )     0 [BERNADOTE]
+100087182={ #    Baron      Peder                     Langenskiöld                             (1950-    )     - [BERNADOTE]
 	name="Peder Langenskiöld"
-	female=yes
 	#dynasty=0
 	religion=lutheran culture=swedish
 	1950.03.13={birth=yes}
+	1977.06.18={add_spouse=100012035} 	# Kristina Bernadotte
+	1982.01.01={remove_spouse=100012035}
 }
 100087411={ #    Bss        Софья                     Liljencrantz                             (1934-2014)     3 [OBOLENSKI]
 	name="Софья Liljencrantz"

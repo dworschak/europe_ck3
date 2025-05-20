@@ -640,7 +640,7 @@ nyary_0001={ #// István Nyáry
 							1544.01.01={birth=yes}  # EST.
 							1572.01.01={death=yes}
 						}
-						nyary_0023={ #// F6. [1m.] Sára, +after 1613; 1m: Miklós Detkowyth; 2m: 1569 Tamás Pálffy de Erdőd (*1534, +20.8.1581); 3m: 1592 István Tardy de Bozók (+before 1613)
+						nyary_0023={ #// F6. [1m.] Sára, +after 1613; 1m: Miklós Detkowyth; 2m: 1569 Tamás Pálffy de Erdőd (*1534, +20.8.1581); 3m: 1592 István Tardy de Bozók (+before 1613) $$
 							name=Sára
 							female=yes
 							dynasty=1011658
@@ -8970,12 +8970,12 @@ petrich_0001={ #// Ferenc Petrichevich-Horváth de Széplak, +Széplak 3.5.1746;
 					}
 					100119965={	#// E6. Szerafin, *Gyöngyös 18.8.1852, +Tarnaörs 29.3.1888; m.Diósjeno 23.4.1885 Bss Eugenia Piret de Bihain (*Erdokövesd 29.11.1858, +Budapest 1935)
 						name=Szerafin
-						female=yes
 						dynasty=1011667
 						religion=catholic culture=hungarian
 						father=100119986	# László Orczy de Orczi
 						mother=100094574	# Magdolna Müller
 						1852.08.18={birth=yes}  # Gyöngyös
+						1885.04.23={add_spouse=100100115}	# BSS Eugenia Piret de Bihain
 						1888.03.29={death=yes}  # Tarnaörs
 					}
 				100119964={	#// D5. György, *27.8.1788, +Ujszász 13.6.1871; m.15.10.1814 Gfn Erzsébet Berényi de Karancsberény (*17.11.1792, +Budapest 18.1.1883)
@@ -11226,7 +11226,7 @@ petrich_0001={ #// Ferenc Petrichevich-Horváth de Széplak, +Széplak 3.5.1746;
 							father=100119867	# Pál Tholdalagi de Nagyertse et Gelencze
 							mother=100117784	# Eszter Bánffy de Losoncz
 							1751.01.01={birth=yes}  # EST.
-							1776.01.01={add_spouse=100102708}	# BARON Borbála Bánffy de Losoncz
+							1776.01.01={add_spouse=100102708}	# BSS Borbála Bánffy de Losoncz
 							1826.01.01={death=yes}  # EST.
 						}
 				100119863={	#// D3. Krisztina; m.János Ugron de Ábránfalva
@@ -12298,12 +12298,12 @@ barcsay_0001={ #// Pál Barcsay de Nagybarcsa, fl 1667-1707; m.Ágnes Felvinczy
 						}
 						barcsay_0012={ #// F2. Malvin; m.Baron Henrik Splényi
 							name=Malvin
+							female=yes
 							dynasty=barcsay
 							religion=catholic culture=hungarian
 							father=barcsay_0010	# Albert Barcsay de Nagybarcsa
 							mother=barcsay_0102	# Jozefin Barcsay de Nagybarcsa
 							1850.01.01={birth=yes}  # EST.
-							1876.01.01={add_spouse=lowborn_3857}	# BARON Henrik Splényi
 							1910.01.01={death=yes}  # EST.
 						}
 						barcsay_0013={ #// F3. Klementin; m.György Tornyos de Tornyosnémet
@@ -20014,7 +20014,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 	dynasty=1011715
 	religion=catholic culture=hungarian
 	1522.01.01={birth=yes}
-	1555.01.01={add_spouse=100118430}	# Erzsébet Pálffy ab Erdöd
+	1555.01.01={add_spouse=palffy_0009}	# Erzsébet Pálffy ab Erdöd
 	1576.11.25={add_spouse=frangepan_0049}	# Orsolya Frangepán
 	1592.03.03={death=yes}  # Trebosztó
 }
@@ -20023,7 +20023,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 		dynasty=1011715
 		religion=catholic culture=hungarian
 		father=100115041	# Laszlo Révay de Szklabina et Blatnicza
-		mother=100118430	# Erzsébet Pálffy ab Erdöd
+		mother=palffy_0009	# Erzsébet Pálffy ab Erdöd
 		1557.01.01={birth=yes}
 		1608.09.18={death=yes}
 	}
@@ -20051,7 +20051,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 		dynasty=1011715
 		religion=catholic culture=hungarian
 		father=100115041	# Laszlo Révay de Szklabina et Blatnicza
-		mother=100118430	# Erzsébet Pálffy ab Erdöd
+		mother=palffy_0009	# Erzsébet Pálffy ab Erdöd
 		1558.01.01={birth=yes}
 		1633.01.01={death=yes}  # EST.
 	}
@@ -20060,7 +20060,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 		dynasty=1011715
 		religion=catholic culture=hungarian
 		father=100115041	# Laszlo Révay de Szklabina et Blatnicza
-		mother=100118430	# Erzsébet Pálffy ab Erdöd
+		mother=palffy_0009	# Erzsébet Pálffy ab Erdöd
 		1565.01.01={birth=yes}
 		1599.02.14={add_spouse=100118572}	# Zsofia Esterházy de Galántha
 		1630.09.20={death=yes}  # Trebosztó
@@ -20578,7 +20578,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 					religion=catholic culture=hungarian
 					father=100115045	# Ferenc Révay de Szklabina et Blatnicza
 					1620.01.01={birth=yes}
-					1640.01.01={add_spouse=100118199}	# Franziska Pálffy ab Erdöd
+					1640.01.01={add_spouse=palffy_0060}	# Franciska Pálffy ab Erdöd
 					1701.01.01={death=yes}  # EST.
 				}
 					100115036={	#// E3. Emerencia, +1703; m.Baron Elek Révay de Trebosztó (*1636, +?) $$
@@ -20587,7 +20587,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 						dynasty=1011715
 						religion=catholic culture=hungarian
 						father=100115037	# Miklós Révay de Szklabina et Blatnicza
-						mother=100118199	# Franziska Pálffy ab Erdöd
+						mother=palffy_0060	# Franciska Pálffy ab Erdöd
 						1648.01.01={birth=yes}
 						1703.01.01={death=yes}
 					}
@@ -20597,7 +20597,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 						dynasty=1011715
 						religion=catholic culture=hungarian
 						father=100115037	# Miklós Révay de Szklabina et Blatnicza
-						mother=100118199	# Franziska Pálffy ab Erdöd
+						mother=palffy_0060	# Franciska Pálffy ab Erdöd
 						1651.01.01={birth=yes}  # EST.
 						1726.01.01={death=yes}  # EST.
 					}
@@ -20607,7 +20607,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 						dynasty=1011715
 						religion=catholic culture=hungarian
 						father=100115037	# Miklós Révay de Szklabina et Blatnicza
-						mother=100118199	# Franziska Pálffy ab Erdöd
+						mother=palffy_0060	# Franciska Pálffy ab Erdöd
 						1666.01.01={birth=yes}  # EST.
 						1741.01.01={death=yes}  # EST.
 					}
@@ -21882,7 +21882,7 @@ forgach_0030={ #// András Forgách de Ghymes et Gács, cr Graf 1676 (*1645, +Va
 				mother=100100998	# Orsolya Pempflinger
 				1560.01.01={birth=yes}
 				1598.04.19={add_spouse=thurzo_0048}	# Zsuzsanna Thurzó de Bethlenfalva
-				1609.01.01={add_spouse=100101085}	# Katalin Pálffy ab Erdöd
+				1609.01.01={add_spouse=palffy_0071}	# Katalin Pálffy ab Erdöd
 				1621.06.30={death=yes}  # Nagyszombat
 			}
 				100119226={	#// D1. [2m.] Ádám, -cr Graf Forgách de Ghymes et Gács 1640, Országbíró, *1601, +1681; 1m: 1637 Gfn Borbála Széchy de Rimaszécs (+1637); 2m: Bss Judit Révay de Sklabina et Blathnicza (+1643); 3m: Wien 22.11.1648 Gfn Anna Katharina von Rechberg (*1626 +1686) $$
@@ -22045,7 +22045,7 @@ forgach_0030={ #// András Forgách de Ghymes et Gács, cr Graf 1676 (*1645, +Va
 					dynasty=1011500
 					religion=catholic culture=hungarian
 					father=100119263	# Zsigmond Forgách de Ghymes et Gács
-					mother=100101085	# Katalin Pálffy ab Erdöd
+					mother=palffy_0071	# Katalin Pálffy ab Erdöd
 					1613.01.01={birth=yes}
 					1639.04.24={death=yes}  # Szepesvár
 				}
@@ -23226,7 +23226,7 @@ forgach_0001={ #// Graf Zsigmond Forgách de Ghymes et Gács, *Gács 19.2.1729, 
 				father=100119025	# Tamás Nádasdy de Nádasd et Fogarasföld
 				mother=100096805	# GFN Josefa von Lichtenberg
 				1792.06.24={birth=yes}
-				1813.05.06={add_spouse=100096806}	# GF Jacobine Grovestein
+				1813.05.06={add_spouse=100096806}	# GFN Jacobine Grovestein
 				1860.08.02={death=yes}
 			}
 			100119019={	#// C2. Mária Alojzia, *31.10.1794, +14.1.1875; m.29.9.1815 Gf Paul von Brigido (*18.11.1782 +23.1.1848)
@@ -32519,7 +32519,7 @@ bthln_iktar_0001={ #// Domokos Bethlen de Iktár, Bán of Szörény, +1480; 1m: 
 										father=bthln_iktar_0027	# Sámuel Bethlen de Iktár
 										mother=lowborn_6660	# GFN Borbála Keresztes de Várhegy
 										1728.01.01={birth=yes}  # EST.
-										1753.01.01={add_spouse=lowborn_6663}	# GF Zsuzsanna Korda de Borosjenő
+										1753.01.01={add_spouse=lowborn_6663}	# GFN Zsuzsanna Korda de Borosjenő
 										1788.01.01={death=yes}  # EST.
 									}
 										bthln_iktar_0031={ #// J1. Sámuel; m.Klára Simén
@@ -32527,7 +32527,7 @@ bthln_iktar_0001={ #// Domokos Bethlen de Iktár, Bán of Szörény, +1480; 1m: 
 											dynasty=1011390
 											religion=catholic culture=hungarian
 											father=bthln_iktar_0030	# Sámuel Bethlen de Iktár
-											mother=lowborn_6663	# GF Zsuzsanna Korda de Borosjenő
+											mother=lowborn_6663	# GFN Zsuzsanna Korda de Borosjenő
 											1759.01.01={birth=yes}  # EST.
 											1803.01.01={add_spouse=lowborn_6664}	# Klára Simén
 											1819.01.01={death=yes}  # EST.
@@ -36124,7 +36124,7 @@ bethlen_0083={	#// Elek Bethlen de Bethlen, Országbíró, *1643, +Gyulafehérv�
 
 
 ##  100116250	Lonyay  						1011621
-#lonyay2
+#lonyay2 FRAGMENT
 lonyay_0023={ #// B1. István, +1616; m.Katalin Báthori de Somlyó (Báthori Szaniszlófi)
 	name="István"
 	dynasty=1011621
@@ -36397,16 +36397,6 @@ lonyay_0023={ #// B1. István, +1616; m.Katalin Báthori de Somlyó (Báthori Sz
 			mother=lowborn_5082	# Erzsébet Perneszy de Osztopán
 			1590.01.01={birth=yes}  # EST.
 			1640.01.01={death=yes}  # EST.
-		}
-		lonyay_0074={ #// B2. Erzsébet, +after 1587; m.Józsa Kardos de Debrecen
-			name=Erzsébet
-			female=yes
-			dynasty=1011621
-			religion=catholic culture=hungarian
-			father=lonyay_0070	# András Lónyay de Nagylónya et Vásárosnamény
-			mother=lowborn_5082	# Erzsébet Perneszy de Osztopán
-			1573.01.01={birth=yes}  # EST.
-			1590.01.01={death=yes}  # EST.
 		}
 #lonyay2
 
@@ -46281,7 +46271,7 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 			mother=lowbor2_1282	# GFN Lujza Erzsébet Dezasse de Petit-Verneuil
 			1854.01.16={birth=yes}  # Buda-Pest
 			1878.10.12={add_spouse=100116046}	# Erzsébet Almásy de Zsadány et Törökszentmiklós
-			1939.12.28={add_spouse=lowbor2_1348}	# BSS Mária Harkányi de Taktaharkány
+			1900.01.01={add_spouse=lowbor2_1348}	# BSS Mária Harkányi de Taktaharkány
 			1927.10.03={death=yes}  # Budapest
 		}
 			csiraky_0033={ #// C1. [1m.] Jeanne "Janka" Mária Andrea Erzsébet Stefánia Amália, *Lovasberény 10.7.1879, +Rákospalota 16.3.1901; m.Budapest 10.6.1900 Gf Albert Pejacsevich de Verőce (*24.10.1875 +4.5.1941) $$
@@ -46869,376 +46859,886 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 ##  100118000	Pálffy 							1011692
 
 #palffy1
-100118433={	#// Pál Konth, fl 1383; m.Katalin Illés
-	name=Pal         # 1818673/pal-konth-de-hedervara/
+palffy_0001={ #// Pál Konth, fl 1383; m.Katalin Illés
+	name=Pál
 	dynasty=1011692
 	religion=catholic culture=hungarian
-	1381.01.01={birth=yes}
-	1456.01.01={death=yes}
+	1324.01.01={birth=yes}  # EST.
+	1349.01.01={add_spouse=lowbor2_0070}	# Katalin Illés
+	1384.01.01={death=yes}  # EST.
 }
-	100118432={	#// A1. Pál Pálffy, fl 1425; m.Anna Geréb de Vingárt
-		name=Pal         # 1818675/pal-Pálffy/
+	palffy_0002={ #// A1. Pál Pálffy, fl 1425; m.Anna Geréb de Vingárt
+		name=Pál
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118433	# Pal Pálffy ab Erdöd
-		1406.01.01={birth=yes}
-		1481.01.01={death=yes}
+		father=palffy_0001	# Pál Pálffy ab Erdöd
+		mother=lowbor2_0070	# Katalin Illés
+		1366.01.01={birth=yes}  # EST.
+		1401.01.01={add_spouse=lowbor2_1409}	# Anna Geréb de Vingárt
+		1426.01.01={death=yes}  # EST.
 	}
-		100118137={	#// B1. Miklós Pálffy de Dericska et Ráró, fl 1480; m.Katalin Kinizsi
-			name=Miklos      # 1818677/miklos-Pálffy/
+		palffy_0003={ #// B1. Miklós Pálffy de Dericska et Ráró, fl 1480; m.Katalin Kinizsi
+			name=Miklós
 			dynasty=1011692
 			religion=catholic culture=hungarian
-			father=100118432	# Pal Pálffy ab Erdöd
-			1431.01.01={birth=yes}
-			1506.01.01={death=yes}
+			father=palffy_0002	# Pál Pálffy ab Erdöd
+			mother=lowbor2_1409	# Anna Geréb de Vingárt
+			1419.01.01={birth=yes}  # EST.
+			1446.01.01={add_spouse=lowbor2_1591}	# Katalin Kinizsi
+			1480.01.01={death=yes}  # EST.
 		}
-			100118136={	#// C1. Lőrinc Pálffy de Kápolna et Cseleszto, +k.a.Mohács 29.8.1526; m.Anna Bánffy de Újlak, dau.of János Bánffy de Újlak
-				name=Lőrinc      # 1818679/loerinc-Pálffy/
+			palffy_0004={ #// C1. Lőrinc Pálffy de Kápolna et Cselesztő, +k.a.Mohács 29.8.1526; m.Anna Bánffy de Újlak, dau.of János Bánffy de Újlak
+				name=Lőrinc
 				dynasty=1011692
 				religion=catholic culture=hungarian
-				father=100118137	# Miklos Pálffy ab Erdöd
-				1456.01.01={birth=yes}
-				1481.01.01={add_spouse=100082362}	# Anna Bánffy de Újlak
-				1526.08.29={death=yes}	# Mohács
+				father=palffy_0003	# Miklós Pálffy ab Erdöd
+				mother=lowbor2_1591	# Katalin Kinizsi
+				1457.01.01={birth=yes}  # EST.
+				1482.01.01={add_spouse=lowbor2_1794}	# Anna Bánffy de Újlak
+				1526.08.29={death=yes}  # Mohács
 			}
-				100118429={	#// D1. Pál Pálffy de Dericska et Ráró, +k.a.Kocsina; m.Klára Bakócz de Erdod; from 1517 their issue bear surname Pálffy de Erdod
-					name=Pal         # 1818681/pal-iii-erdoedi-Pálffy/
+				palffy_0005={ #// D1. Pál Pálffy de Dericska et Ráró, +k.a.Kocsina; m.Klára Bakócz de Erdőd; from 1517 their issue bear surname Pálffy de Erdőd
+					name=Pál
 					dynasty=1011692
 					religion=catholic culture=hungarian
-					father=100118136	# Lőrinc Pálffy ab Erdöd
-					mother=100082362	# Anna Bánffy de Újlak
-					1488.01.01={birth=yes}
-					1513.01.01={add_spouse=100081909}	# Judith Klara Bakocz de Erdőd
-					1563.01.01={death=yes}
+					father=palffy_0004	# Lőrinc Pálffy ab Erdöd
+					mother=lowbor2_1794	# Anna Bánffy de Újlak
+					1483.01.01={birth=yes}  # EST.
+					1517.01.01={add_spouse=lowbor2_1848}	# Judith Klara Bakocz de Erdőd
+					1543.01.01={death=yes}  # EST.
 				}
-					100118139={	#// E1. Péter I Pálffy de Zelina, Csábrágh, Ráró, Kápolna et Erdod, +k.a.Belica 1568; m.Zsófia Dersffy de Szerdahely (+1569), dau.of Miklós Dersffy de Szerdahely and Perpetua Batthyány
-						name=Peter       # 137278/peter-erdoedi-baron-Pálffy/
+					palffy_0006={ #// E1. Péter I Pálffy de Zelina, Csábrágh, Ráró, Kápolna et Erdőd, +k.a.Belica 1568; m.Zsófia Dersffy de Szerdahely (+1569), dau.of Miklós Dersffy de Szerdahely and Perpetua Batthyány
+						name=Péter
 						dynasty=1011692
 						religion=catholic culture=hungarian
-						father=100118429	# Pal Pálffy ab Erdöd
-						mother=100081909	# Judith Klara Bakocz de Erdőd
-						1515.01.01={birth=yes}
-						1537.01.01={add_spouse=100095827}	# Zsofia Dersffy de Szerdahely
-						1568.01.01={death=yes}
+						father=palffy_0005	# Pál Pálffy ab Erdöd
+						mother=lowbor2_1848	# Judith Klara Bakocz de Erdőd
+						1518.01.01={birth=yes}  # EST.
+						1532.01.01={add_spouse=lowbor2_1892}	# Zsofia Dersffy de Szerdahely
+						1568.01.01={death=yes}  # Belica
 					}
-						100118430={	#// F2. Erzsébet, *Erdod 1538, +Trebosztó 1575/1592; m.1555 Baron László Révay de Trebosztó (+Trebosztó 2.3.1592) $$
-							name=Erzsébet 		# 1818687/elisabeth-erdoedi-baro-Pálffy/
-							female=yes
+						palffy_0007={ #// F1. Tamás I Pálffy de Erdőd, -cr Baron 25.4.1581, Zólyom vármegye, Palotai várkapitány, *1534, +20.8.1581; 1m: Sára Nyáry de Bedegh, dau.of Lajos Nyáry de Bedegh and Ilona Kondakory de Kondakor; 2m: Anna Pogány de Cseb $$
+							name=Tamás
 							dynasty=1011692
 							religion=catholic culture=hungarian
-							father=100118139	# Peter Pálffy ab Erdöd
-							mother=100095827	# Zsofia Dersffy de Szerdahely
-							1538.01.01={birth=yes}
-							1613.01.01={death=yes}
+							father=palffy_0006	# Péter Pálffy ab Erdöd
+							mother=lowbor2_1892	# Zsofia Dersffy de Szerdahely
+							1534.01.01={birth=yes}
+							1560.01.01={add_spouse=nyary_0023}	# Sára Nyáry de Bedegh
+							1565.01.01={add_spouse=lowbor2_1898}	# Anna Pogány de Cseb
+							1581.08.20={death=yes}
 						}
-						100118149={	#// F4. Katalin, *Erdod 1542, +1616; 1m: Péter Krusich de Lepoglava (+1581); 2m: 1582 Baron István Illésházy de Illésháza, Palatine (*1541, +Wien 5.5.1609) $$
-							name=Katalin # 1818690/katalin-erdoedi-baro-Pálffy/
-							female=yes
-							dynasty=1011692
-							religion=catholic culture=hungarian
-							father=100118139	# Peter Pálffy ab Erdöd
-							mother=100095827	# Zsofia Dersffy de Szerdahely
-							1542.01.01={birth=yes}
-							1616.01.01={death=yes}
-						}
-						100118382={	#// F5. Mária Anna Magdolna, *Erdod 14.7.1546, +4.2.1623; 1m: Rudolf Frhr von Khuen und Belasi (*Lichtenberg 27.5.1533, +Wien 29.6.1588); 2m: János Balassa de Gyarmat $$
-							name="Maria Anna Magdalena" # 141893/maria-anna-magdalena-erdoedi-baro-Pálffy/
-							female=yes
-							dynasty=1011692
-							religion=catholic culture=hungarian
-							father=100118139	# Peter Pálffy ab Erdöd
-							mother=100095827	# Zsofia Dersffy de Szerdahely
-							1546.07.14={birth=yes}
-							1623.02.04={death=yes}
-						}
-						100118425={	#// F6. János I Pálffy de Erdod, cr Baron 24.4.1581, Tata és Léva várak fokapitánya, *Erdod 1548, +k.a.Somosko ca 1581; m.Katalin Korössy
-							name=Janos # 1818695/janos-erdoedi-baro-Pálffy/
-							dynasty=1011692
-							religion=catholic culture=hungarian
-							father=100118139	# Peter Pálffy ab Erdöd
-							mother=100095827	# Zsofia Dersffy de Szerdahely
-							1548.01.01={birth=yes}
-							1623.01.01={death=yes}
-						}
-							100118145={	#// G4. Tamás III; m.Bss Katalin Svieczkova (+Szakolcza XI.1640)
-								name=Tamas       # 1818708/tamas-Pálffy-de-erdoed/
+							palffy_0008={ #// G1. [2m.] Tamás II, +1583
+								name=Tamás
 								dynasty=1011692
 								religion=catholic culture=hungarian
-								father=100118425	# Janos Pálffy ab Erdöd
-								1563.01.01={birth=yes}
-								1638.01.01={death=yes}
+								father=palffy_0007	# Tamás Pálffy ab Erdöd
+								mother=lowbor2_1898	# Anna Pogány de Cseb
+								1566.01.01={birth=yes}  # EST.
+								1583.01.01={death=yes}
 							}
-								100118316={	#// H2. András, +Szakolcza 10.10.1649; m.Ilona N
-									name=Andras      # 1818734/andras-Pálffy-de-erdoed/
-									dynasty=1011692
-									religion=catholic culture=hungarian
-									father=100118145	# Tamas Pálffy ab Erdöd
-									1579.01.01={birth=yes}
-									1649.10.10={death=yes}
-								}
-								100118192={	#// H1. Péter II, +1646; m.Eusebia Benigna von Kaunitz
-									name=Peter       # 1818733/peter-Pálffy-de-erdoed/
-									dynasty=1011692
-									religion=catholic culture=hungarian
-									father=100118145	# Tamas Pálffy ab Erdöd
-									1576.01.01={birth=yes}
-									1601.01.01={add_spouse=100095597}	# Eusebia Benigna von Kaunitz
-									1646.01.01={death=yes}
-								}
-									100118423={	#// I1. Katalin, +1658
-										name=Katalin   # 1818750/katharina-Pálffy-de-erdoed/
-										female=yes
-										dynasty=1011692
-										religion=catholic culture=hungarian
-										father=100118192	# Peter Pálffy ab Erdöd
-										mother=100095597	# Eusebia Benigna von Kaunitz
-										1601.01.01={birth=yes}
-										1676.01.01={death=yes}
-									}
-						100118148={	#// F7. István I Pálffy de Erdod, cr Baron 24.4.1581, Gyor, Csábrágh és Szitnya várak fokapitánya, *Erdod 2.4.1550, +ca 1596; m.Márta Bogacsóczy (+after 1596)
-							name=István			# 1818697/johann-stephan-erdoedi-baro-Pálffy/
+						palffy_0009={ #// F2. Erzsébet, *Erdőd 1538, +Trebosztó 1575/1592; m.1555 Baron László Révay de Trebosztó (+Trebosztó 2.3.1592) $$
+							name=Erzsébet
+							female=yes
 							dynasty=1011692
 							religion=catholic culture=hungarian
-							father=100118139	# Peter Pálffy ab Erdöd
-							mother=100095827	# Zsofia Dersffy de Szerdahely
-							1550.01.01={birth=yes}
-							1596.01.01={death=yes}
+							father=palffy_0006	# Péter Pálffy ab Erdöd
+							mother=lowbor2_1892	# Zsofia Dersffy de Szerdahely
+							1538.01.01={birth=yes}  # Erdőd
+							1575.01.01={death=yes}  # Trebosztó
 						}
-						100118138={	#// F8. Gf Miklós, cr Baron 24.4.1581, cr Reichsgraf 24.7.1599, Országbíró, Pozsonyi főispán (Comes of Pozsony County), Komáromi főispán (Comes of Komárom County), Fokamarásmester, Komáromi, Érsekújvári és Esztergomi fokapitány, *Csábrág 4.12.1552, +Vörösko 23.4.1600; m.Augsburg 4.6.1583 Gfn Maria Fugger zu Kirchberg und Weissenhorn (*Augsburg 30.4.1566, +Vörösko 29.5.1646) $$
-							name=Miklós      # 137268/miklos-baron-Pálffy/
+						palffy_0010={ #// F3. György I Pálffy de Erdőd, *Erdőd 1540, +Újvár 1562
+							name=György
 							dynasty=1011692
 							religion=catholic culture=hungarian
-							father=100118139	# Peter Pálffy ab Erdöd
-							mother=100095827	# Zsofia Dersffy de Szerdahely
-							1552.09.10={birth=yes}
-							1583.06.05={add_spouse=100011003}	# Maria Magdalene Fugger
-							1600.04.23={death=yes}
+							father=palffy_0006	# Péter Pálffy ab Erdöd
+							mother=lowbor2_1892	# Zsofia Dersffy de Szerdahely
+							1540.01.01={birth=yes}  # Erdőd
+							1562.01.01={death=yes}  # Újvár
 						}
-							100118170={	#// G6. Katalin, +after 1621; m.1608 Gf Zsigmond Forgách de Ghymes et Gács (+31.6.1621)
-								name=Katalin     # 1818721/katalin-Pálffy-de-erdoed/
+						palffy_0011={ #// F4. Katalin, *Erdőd 1542, +1616; 1m: Péter Krusich de Lepoglava (+1581); 2m: 1582 Baron István Illésházy de Illésháza, Palatine (*1541, +Wien 5.5.1609) $$
+							name=Katalin
+							female=yes
+							dynasty=1011692
+							religion=catholic culture=hungarian
+							father=palffy_0006	# Péter Pálffy ab Erdöd
+							mother=lowbor2_1892	# Zsofia Dersffy de Szerdahely
+							1542.01.01={birth=yes}  # Erdőd
+							1616.01.01={death=yes}
+						}
+						palffy_0012={ #// F5. Mária Anna Magdolna, *Erdőd 14.7.1546, +4.2.1623; 1m: Rudolf Frhr von Khuen und Belasi (*Lichtenberg 27.5.1533, +Wien 29.6.1588); 2m: János Balassa de Gyarmat $$
+							name=Mária
+							female=yes
+							dynasty=1011692
+							religion=catholic culture=hungarian
+							father=palffy_0006	# Péter Pálffy ab Erdöd
+							mother=lowbor2_1892	# Zsofia Dersffy de Szerdahely
+							1546.07.14={birth=yes}  # Erdőd
+							1623.02.04={death=yes}
+						}
+						palffy_0013={ #// F6. János I Pálffy de Erdőd, -cr Baron 24.4.1581, Tata és Léva várak főkapitánya, *Erdőd 1548, +k.a.Somoskő ca 1581; m.Katalin Kőrössy
+							name=János
+							dynasty=1011692
+							religion=catholic culture=hungarian
+							father=palffy_0006	# Péter Pálffy ab Erdöd
+							mother=lowbor2_1892	# Zsofia Dersffy de Szerdahely
+							1548.01.01={birth=yes}  # Erdőd
+							1568.01.01={add_spouse=lowbor2_1985}	# Katalin Kőrössy
+							1581.01.01={death=yes}  # Somoskő
+						}
+							palffy_0014={ #// G1. Mihály, fl 1609; m.NN
+								name=Mihály
+								dynasty=1011692
+								religion=catholic culture=hungarian
+								father=palffy_0013	# János Pálffy ab Erdöd
+								mother=lowbor2_1985	# Katalin Kőrössy
+								1574.01.01={birth=yes}  # EST.
+								1634.01.01={death=yes}  # EST.
+							}
+								palffy_0015={ #// H1. Tamás IV, Bp of Eger, Bp of Nitra, +Wien 7.5.1679
+									name=Tamás
+									dynasty=1011692
+									religion=catholic culture=hungarian
+									father=palffy_0014	# Mihály Pálffy ab Erdöd
+									1609.01.01={birth=yes}  # EST.
+									1679.05.07={death=yes}  # Wien
+								}
+								palffy_0016={ #// H2. István, +1637
+									name=István
+									dynasty=1011692
+									religion=catholic culture=hungarian
+									father=palffy_0014	# Mihály Pálffy ab Erdöd
+									1601.01.01={birth=yes}  # EST.
+									1637.01.01={death=yes}
+								}
+							palffy_0017={ #// G2. Fruzsina, +1622; 1m: Léva 1589 Mátyás Andrássy de Csíkszentkirály et Krasznahorka (*Krasznahorka 1566, +1595); 2m: Zsigmond Rátkay de Nagytábor
+								name=Fruzsina
 								female=yes
 								dynasty=1011692
 								religion=catholic culture=hungarian
-								father=100118138	# Miklós Pálffy ab Erdöd
-								mother=100011003	# Maria Magdalene Fugger
-								1586.01.01={birth=yes}
-								1661.01.01={death=yes}
+								father=palffy_0013	# János Pálffy ab Erdöd
+								mother=lowbor2_1985	# Katalin Kőrössy
+								1569.01.01={birth=yes}  # EST.
+								1622.01.01={death=yes}
 							}
-							100118141={	#// G3. János II, Gf 1636, Comes of Komárom County, +Zuha 29.5.1646; 1m: Gfn Anna Luczia Julianna von Mansfeld (*28.2.1599, +1630); 2m: Judit Amade de Várkony (+1672) $$
-								name=Janos       # 1818716/janos-Pálffy-de-erdoed/
+							palffy_0018={ #// G3. Borbála, fl 1623; m.Zdenko Frhr Zampach ze Zampachu (von Schampach auf Rottenstein)
+								name=Borbála
+								female=yes
 								dynasty=1011692
 								religion=catholic culture=hungarian
-								father=100118138	# Miklós Pálffy ab Erdöd
-								mother=100011003	# Maria Magdalene Fugger
-								1588.01.01={birth=yes}
-								1617.01.01={add_spouse=100010694}	# Anna Juliane von Mansfeld
-								1663.01.01={death=yes}
+								father=palffy_0013	# János Pálffy ab Erdöd
+								mother=lowbor2_1985	# Katalin Kőrössy
+								1574.01.01={birth=yes}  # EST.
+								1634.01.01={death=yes}  # EST.
 							}
-								100118199={	#// H2. [1m.] Franciska; m.Bratislava 1637 Baron Miklós Révay de Szklabina et Blatnicza (*Blatnicza 1620) $$
-									name=Franziska   # 1818740/franziska-Pálffy-de-erdoed/
+							palffy_0019={ #// G4. Tamás III; m.Bss Katalin Svieczkova (+Szakolcza XI.1640)
+								name="Tamás"
+								dynasty=1011692
+								religion=catholic culture=hungarian
+								father=palffy_0013	# János Pálffy ab Erdöd
+								mother=lowbor2_1985	# Katalin Kőrössy
+								1574.01.01={birth=yes}  # EST.
+								1599.01.01={add_spouse=lowbor2_1999}	# BSS Katalin Svieczkova
+								1634.01.01={death=yes}  # EST.
+							}
+								palffy_0020={ #// H1. Péter II, +1646; m.Eusebia Benigna von Kaunitz
+									name=Péter
+									dynasty=1011692
+									religion=catholic culture=hungarian
+									father=palffy_0019	# Tamás Pálffy ab Erdöd
+									mother=lowbor2_1999	# BSS Katalin Svieczkova
+									1599.01.01={birth=yes}  # EST.
+									1624.01.01={add_spouse=lowbor2_2000}	# Eusebia Benigna von Kaunitz
+									1646.01.01={death=yes}
+								}
+									palffy_0021={ #// I1. Katalin, +1658
+										name=Katalin
+										female=yes
+										dynasty=1011692
+										religion=catholic culture=hungarian
+										father=palffy_0020	# Péter Pálffy ab Erdöd
+										mother=lowbor2_2000	# Eusebia Benigna von Kaunitz
+										1625.01.01={birth=yes}  # EST.
+										1658.01.01={death=yes}
+									}
+									palffy_0022={ #// I2. Franciska, fl 1682; m.Márton Cziskay
+										name=Franciska
+										female=yes
+										dynasty=1011692
+										religion=catholic culture=hungarian
+										father=palffy_0020	# Péter Pálffy ab Erdöd
+										mother=lowbor2_2000	# Eusebia Benigna von Kaunitz
+										1626.01.01={birth=yes}  # EST.
+										1686.01.01={death=yes}  # EST.
+									}
+								palffy_0023={ #// H2. András, +Szakolcza 10.10.1649; m.Ilona N
+									name=András
+									dynasty=1011692
+									religion=catholic culture=hungarian
+									father=palffy_0019	# Tamás Pálffy ab Erdöd
+									mother=lowbor2_1999	# BSS Katalin Svieczkova
+									1600.01.01={birth=yes}  # EST.
+									1649.10.10={death=yes}  # Szakolcza
+								}
+								palffy_0024={ #// H3. Szabina, fl 1649-50; m.Baron Szaniszló Recsiczky de Recsicze
+									name=Szabina
 									female=yes
 									dynasty=1011692
 									religion=catholic culture=hungarian
-									father=100118141	# Janos Pálffy ab Erdöd
-									mother=100010694	# Anna Juliane von Mansfeld
-									1617.12.01={birth=yes}
-									1688.01.01={death=yes}
+									father=palffy_0019	# Tamás Pálffy ab Erdöd
+									mother=lowbor2_1999	# BSS Katalin Svieczkova
+									1601.01.01={birth=yes}  # EST.
+									1661.01.01={death=yes}  # EST.
 								}
-							100118353={	#// G2. István II, Comes of Pozsony County, Pozsonyi, érsekújvári és bányavidéki fokapitány, Koronaor, *Bratislava (Pozsony) 1585/86, +Wien 29.5.1646; m.17.4.1618 Gfn Eva Susanne Puchhaim von Göllersdorf (+Wien 12.11.1640)
-								name=Istvan      # 141779/istvan-ii-erdoedi-graf-Pálffy/
+							palffy_0025={ #// G5. Anna
+								name=Anna
+								female=yes
 								dynasty=1011692
 								religion=catholic culture=hungarian
-								father=100118138	# Miklós Pálffy ab Erdöd
-								mother=100011003	# Maria Magdalene Fugger
-								1587.01.01={birth=yes}
-								1618.04.17={add_spouse=100095672}	# GFN Eva Susanna von Püchheim
-								1646.03.06={death=yes}
+								father=palffy_0013	# János Pálffy ab Erdöd
+								mother=lowbor2_1985	# Katalin Kőrössy
+								1575.01.01={birth=yes}  # EST.
+								1635.01.01={death=yes}  # EST.
 							}
-								100118344={	#// H1. Miklós IV, Foajtónálló, Pohárnokmester, Pozsony vármegye főispánja, *Bratislava (Pozsony) 12.8.1619, +Bratislava (Pozsony) 12.8.1679; m.1649 Gfn Maria Eleonora von Harrach zu Rohrau (*1634, +Wien 1.12.1693) $$
-									name=Miklós # 141755/miklos-iii-erdoedi-graf-Pálffy/
+						palffy_0026={ #// F7. István I Pálffy de Erdőd, cr Baron 24.4.1581, Győr, Csábrágh és Szitnya várak főkapitánya, *Erdőd 2.4.1550, +ca 1596; m.Márta Bogacsóczy (+after 1596)
+							name=István
+							dynasty=1011692
+							religion=catholic culture=hungarian
+							father=palffy_0006	# Péter Pálffy ab Erdöd
+							mother=lowbor2_1892	# Zsofia Dersffy de Szerdahely
+							1550.04.02={birth=yes}  # Erdőd
+							1576.01.01={add_spouse=lowbor2_2004}	# Márta Bogacsóczy
+							1596.01.01={death=yes}
+						}
+							palffy_0027={ #// G1. Erzsébet, fl 1611; m.Ferenc Daróczy de Deregnyő (fl 1611)
+								name=Erzsébet
+								female=yes
+								dynasty=1011692
+								religion=catholic culture=hungarian
+								father=palffy_0026	# István Pálffy ab Erdöd
+								mother=lowbor2_2004	# Márta Bogacsóczy
+								1577.01.01={birth=yes}  # EST.
+								1637.01.01={death=yes}  # EST.
+							}
+						palffy_0028={ #// F8. Gf Miklós, -cr Baron 24.4.1581, -cr Reichsgraf 24.7.1599, Országbíró, Pozsonyi főispán, Komáromi főispán, Főkamarásmester, Komáromi, Érsekújvári és Esztergomi főkapitány, *Csábrág 4.12.1552, +Vöröskő 23.4.1600; m.Augsburg 4.6.1583 Gfn Maria Fugger zu Kirchberg und Weissenhorn (*Augsburg 30.4.1566, +Vöröskő 29.5.1646); he was ancestor of Pálffy de Erdőd family $$
+							name=Miklós
+							dynasty=1011692
+							religion=catholic culture=hungarian
+							father=palffy_0006	# Péter Pálffy ab Erdöd
+							mother=lowbor2_1892	# Zsofia Dersffy de Szerdahely
+							1552.12.04={birth=yes}  # Csábrág
+							1583.06.04={add_spouse=100011003}	# Maria Magdalene Fugger
+							1600.04.23={death=yes}  # Vöröskő
+						}
+							palffy_0029={ #// G1. Márk, *Komárom 1584, +Komárom 1586
+								name=Márk
+								dynasty=1011692
+								religion=catholic culture=hungarian
+								father=palffy_0028	# Miklós Pálffy ab Erdöd
+								mother=100011003	# Maria Magdalene Fugger
+								1584.01.01={birth=yes}  # Komárom
+								1586.01.01={death=yes}  # Komárom
+							}
+							palffy_0030={ #// G2. István II, Pozsonyi főispán, Pozsonyi, érsekújvári és bányavidéki főkapitány, Koronaőr, *Pozsony 1586, +Wien 29.5.1646; m.17.4.1618 Eva Susanne Puchhaim von Göllersdorf (+Wien 12.11.1640), dau.of Gf Johann Christoph Puchheim von Göllersdorf and Frn Susanne von Hofkirchen
+								name=István
+								dynasty=1011692
+								religion=catholic culture=hungarian
+								father=palffy_0028	# Miklós Pálffy ab Erdöd
+								mother=100011003	# Maria Magdalene Fugger
+								1586.01.01={birth=yes}  # Pozsony
+								1618.04.17={add_spouse=lowbor2_2007}	# GFN Eva Susanna von Püchheim
+								1646.05.29={death=yes}  # Wien
+							}
+								palffy_0031={ #// H1. Miklós IV, Főajtónálló, Pohárnokmester, Pozsony vármegye főispánja, *Pozsony 12.8.1619, +Pozsony 12.8.1679; m.1649 Gfn Maria Eleonora von Harrach zu Rohrau (*1634, +Wien 1.12.1693) $$
+									name=Miklós
 									dynasty=1011692
 									religion=catholic culture=hungarian
-									father=100118353	# Istvan Pálffy ab Erdöd
-									mother=100095672	# GFN Eva Susanna von Püchheim
-									1619.08.12={birth=yes}
+									father=palffy_0030	# István Pálffy ab Erdöd
+									mother=lowbor2_2007	# GFN Eva Susanna von Püchheim
+									1619.08.12={birth=yes}  # Pozsony
 									1649.01.01={add_spouse=100022110}	# Maria Eleonora von Harrach zu Rohrau u.Thannhausen
-									1679.08.12={death=yes}
+									1679.08.12={death=yes}  # Pozsony
 								}
-									100118217={	#// I2. Mária Zsuzsanna; m.28.2.1672 Gf Kristóf Erdody de Monyorókerék et Monoszló (*1649, +Bratislava (Pozsony) 21.3.1704) $$
-										name="Maria Zsuzsanna" # 1818755/maria-susanna-Pálffy-de-erdoed/
-										female=yes
+									palffy_0032={ #// I1. Miklós V, Fieldmarshal, Országbíró, Palatine, Pozsonyi főispán, *1.5.1657, +Bratislava 20.2.1732; m.Linz 24.10.1680 Katharina Elisabeth Frn von und zu Weichs (+Bratislava 5.6.1724)
+										name=Miklós
 										dynasty=1011692
 										religion=catholic culture=hungarian
-										father=100118344	# Miklós Pálffy ab Erdöd
+										father=palffy_0031	# Miklós Pálffy ab Erdöd
 										mother=100022110	# Maria Eleonora von Harrach zu Rohrau u.Thannhausen
-										1649.01.01={birth=yes}
-										1704.03.21={death=yes}
+										1657.05.01={birth=yes}
+										1680.10.24={add_spouse=lowbor2_2009}	# FRN Katharina Elisabeth von Weichs
+										1732.02.20={death=yes}  # Bratislava
 									}
-									100118398={	#// I4. Mária Eleonóra, *22.9.1651/2.9.1654, +26.12.1699; m.Wien 17.3.1672 Gf Maximilian Adam von Waldstein (*1627, +Wien 26.11.1706) $$
-										name="Maria Eleonore" # 107304/maria-eleonore-erdoedi-graefin-Pálffy-de-erdoed/
+										palffy_0033={ #// J1. Lipót I József Ignác Kálmán, Austrian General, *15.10.1681, +Wien 27.3.1720; m.Wien 18.6.1708 Gfn Maria Antonia Ratuit de Souches (*13.1.1683, +Wien 18.8.1750), dau.of Karl Gf Ratuit von Souches and Anna Gfn von Puchhaim
+											name=Lipót
+											dynasty=1011692
+											religion=catholic culture=hungarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1681.10.15={birth=yes}
+											1708.06.18={add_spouse=lowbor2_2010}	# GFN Maria Antonia Raduit de Souches
+											1720.03.27={death=yes}  # Wien
+										}
+											palffy_0034={ #// K1. Mária Franciska Jozefa Antónia, *5.3.1709, +26.6.1709
+												name=Mária
+												female=yes
+												dynasty=1011692
+												religion=catholic culture=hungarian
+												father=palffy_0033	# Lipót Pálffy ab Erdöd
+												mother=lowbor2_2010	# GFN Maria Antonia Raduit de Souches
+												1709.03.05={birth=yes}
+												1709.06.26={death=yes}
+											}
+											#palffy2    -->   K2. Miklós VII József Mária Domokos Tádé, Országbíró, Fokancellár, Foudvarmester, *Wien 4.9.1710, +Wien 6.2.1773; m.Wien 12.1.1733 Gfn Maria Anna Sidonia von Althann (*Wien 11.5.1715 +Wien 4.10.1790); for their issue see HERE
+											palffy_0036={ #// K3. Mária Jozefa, *1712, +1721
+												name="Mária Jozefa"
+												female=yes
+												dynasty=1011692
+												religion=catholic culture=hungarian
+												father=palffy_0033	# Lipót Pálffy ab Erdöd
+												mother=lowbor2_2010	# GFN Maria Antonia Raduit de Souches
+												1712.01.01={birth=yes}
+												1721.01.01={death=yes}
+											}
+											palffy_0037={ #// K4. Mária Antónia Johanna Jozefa, *Malacky 27.5.1713
+												name=Mária
+												female=yes
+												dynasty=1011692
+												religion=catholic culture=hungarian
+												father=palffy_0033	# Lipót Pálffy ab Erdöd
+												mother=lowbor2_2010	# GFN Maria Antonia Raduit de Souches
+												1713.05.27={birth=yes}  # Malacky
+												1793.01.01={death=yes}  # EST.
+											}
+											palffy_0038={ #// K5. Mária Augusztina Jozefa Johanna Franciska, *Wien 28.8.1714, +3.3.1739/59; m.10.4.1730 Gf Franz Ferdinand Kinsky z Vchynic a Tetova (*1.1.1678, +13.9.1741) $$
+												name=Mária
+												female=yes
+												dynasty=1011692
+												religion=catholic culture=bavarian
+												father=palffy_0033	# Lipót Pálffy ab Erdöd
+												mother=lowbor2_2010	# GFN Maria Antonia Raduit de Souches
+												1714.08.28={birth=yes}  # Wien
+												1759.03.03={death=yes}
+											}
+											palffy_0039={ #// K6. Pál V Henrik János József Ignác Judás Tádé, *23.10.1715, +19.2.1716
+												name=Pál
+												dynasty=1011692
+												religion=catholic culture=hungarian
+												father=palffy_0033	# Lipót Pálffy ab Erdöd
+												mother=lowbor2_2010	# GFN Maria Antonia Raduit de Souches
+												1715.10.23={birth=yes}
+												1716.02.19={death=yes}
+											}
+											#palffy3    -->   K7. LIPÓT II István József János Judás Tádé Antal, Pozsony vármegye örökös főispánja, Pozsony örökös várkapitánya, *Wien 14.12.1716, +Bratislava 9.4.1773; 1m: Wien 21.1.1738 Gfn Maria Josefa von Waldstein (*25.2.1720, +29.3.1763); 2m: Wien 15.4.1765 Gfn Wilhelmina (Vilma) Ogilvy (*Wien 15.9.1728, +30.6.1804); for their issue see HERE
+											palffy_0041={ #// K8. Lipót Emanuel Tamás József János Vilibald, *22.12.1717, +10.6.1718
+												name=Lipót
+												dynasty=1011692
+												religion=catholic culture=hungarian
+												father=palffy_0033	# Lipót Pálffy ab Erdöd
+												mother=lowbor2_2010	# GFN Maria Antonia Raduit de Souches
+												1717.12.22={birth=yes}
+												1718.06.10={death=yes}
+											}
+											#palffy4    -->   K9. Rudolf I József Joachim János Vilibald Adorján Judás, Fieldmarshal, *Wien 4.3.1719, +Bratislava 1.4.1768; m.Brno (Brünn) 24.11.1742 Gfn Maria Eleonora von Kaunitz-Rietberg (*Wien 8.4.1723, +Vörösko 7.5.1776); for their issue see HERE
+										palffy_0043={ #// J2. Mária Erzsébet Filippina Borbála, *25.11.1681, +Wien 5.11.1732; m.6.7.1700 Gf Karl Cajetan de Longueval, Gf von Bouquoy (*25.8.1676, +2.9.1750) $$
+											name="Filipina Erzsébet"
+											female=yes
+											dynasty=1011692
+											religion=catholic culture=hungarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1681.11.25={birth=yes}
+											1732.11.05={death=yes}  # Wien
+										}
+										palffy_0044={ #// J3. Eleonóra Mária Teréz Bonaventura, *7.11.1682, +Nagytapolcsány 7.9.1729; m.Wien 29.8.1700 Gf Franz Anton von Abensberg und Traun (*4.6.1674, +12.9.1745) $$
+											name=Eleonóra
+											female=yes
+											dynasty=1011692
+											religion=catholic culture=hungarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1682.11.07={birth=yes}
+											1729.09.07={death=yes}  # Nagytapolcsány
+										}
+										palffy_0045={ #// J4. János VI József Antal Prosper, *25.6.1685, +k.a.Pétervárad 5.8.1716
+											name=János
+											dynasty=1011692
+											religion=catholic culture=hungarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1685.06.25={birth=yes}
+											1716.08.05={death=yes}  # Pétervárad
+										}
+										palffy_0046={ #// J5. Ferenc III Rudolf Lőrinc, *Wien 11.8.1686, +Stomfa 24.3.1735
+											name=Ferenc
+											dynasty=1011692
+											religion=catholic culture=bavarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1686.08.11={birth=yes}  # Wien
+											1735.03.24={death=yes}  # Stomfa
+										}
+										palffy_0047={ #// J6. Károly II József Miklós Rochus, *16.8.1687, +Pest 13.2.1720
+											name=Károly
+											dynasty=1011692
+											religion=catholic culture=hungarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1687.08.16={birth=yes}
+											1720.02.13={death=yes}  # Pest
+										}
+										palffy_0048={ #// J7. Ferenc IV Henrik Antal, *Wien 17.8.1688, +Wien 17.5.1689
+											name=Ferenc
+											dynasty=1011692
+											religion=catholic culture=bavarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1688.08.17={birth=yes}  # Wien
+											1689.05.17={death=yes}  # Wien
+										}
+										palffy_0049={ #// J8. Karolina Anna Dorottya, *Wien 19.9.1689, +19.12.1759; m.Gf Karl Ludwig von Roggendorf (*25.5.1685, +1738)
+											name=Karolina
+											female=yes
+											dynasty=1011692
+											religion=catholic culture=bavarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1689.09.19={birth=yes}  # Wien
+											1759.12.19={death=yes}
+										}
+										palffy_0050={ #// J9. Ferdinand II Vilmos Zsigmond, *Wien 17.12.1690, +Wien 23.2.1694
+											name=Ferdinand
+											dynasty=1011692
+											religion=catholic culture=bavarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1690.12.17={birth=yes}  # Wien
+											1694.02.23={death=yes}  # Wien
+										}
+										palffy_0051={ #// J10. Lajos I, *17.5.1692, +17.5.1693
+											name=Lajos
+											dynasty=1011692
+											religion=catholic culture=hungarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1692.05.17={birth=yes}
+											1693.05.17={death=yes}
+										}
+										palffy_0052={ #// J11. Mária Anna Ernesztina Karolina, *Wien 4.11.1693, +Linz 6.3.1761; m.Wien 11.8.1717 Gf Joseph Johann Franz Anton Ungnad, Gf von Weissenwolf (*9.7.1695, +Steyregg 25.9.1759) $$
+											name=Mária
+											female=yes
+											dynasty=1011692
+											religion=catholic culture=bavarian
+											father=palffy_0032	# Miklós Pálffy ab Erdöd
+											mother=lowbor2_2009	# FRN Katharina Elisabeth von Weichs
+											1693.11.04={birth=yes}  # Wien
+											1761.03.06={death=yes}  # Linz
+										}
+									palffy_0053={ #// I2. Mária Zsuzsanna; m.28.2.1672 Gf Kristóf Erdődy de Monyorókerék et Monoszló (*1649, +Pozsony 21.3.1704) $$
+										name="Mária Zsuzsanna"
 										female=yes
 										dynasty=1011692
 										religion=catholic culture=hungarian
-										father=100118344	# Miklós Pálffy ab Erdöd
+										father=palffy_0031	# Miklós Pálffy ab Erdöd
+										mother=100022110	# Maria Eleonora von Harrach zu Rohrau u.Thannhausen
+										1658.01.01={birth=yes}  # EST.
+										1718.01.01={death=yes}  # EST.
+									}
+									palffy_0054={ #// I3. Ferenc I, *3.8.1660, +k.a.Eszék VIII.1687; m.27.4.1687 Gfn Krisztina Drugeth de Homonna (*11.3.1655, +Tavarnok 17.3.1691) $$
+										name=Ferenc
+										dynasty=1011692
+										religion=catholic culture=hungarian
+										father=palffy_0031	# Miklós Pálffy ab Erdöd
+										mother=100022110	# Maria Eleonora von Harrach zu Rohrau u.Thannhausen
+										1660.08.03={birth=yes}
+										1687.04.27={add_spouse=drugeth_0023}	# Krisztina Drugeth de Homonna
+										1687.08.01={death=yes}  # Eszék
+									}
+									palffy_0055={ #// I4. Mária Eleonóra, *22.9.1651/2.9.1654, +26.12.1699; m.Wien 17.3.1672 Gf Maximilian Adam von Waldstein (*1627, +Wien 26.11.1706) $$
+										name="Mária Eleonóra"
+										female=yes
+										dynasty=1011692
+										religion=catholic culture=hungarian
+										father=palffy_0031	# Miklós Pálffy ab Erdöd
 										mother=100022110	# Maria Eleonora von Harrach zu Rohrau u.Thannhausen
 										1651.09.22={birth=yes}
 										1699.12.26={death=yes}
 									}
-									100118351={	#// I1. Miklós V, Fieldmarshal, Országbíró, Palatine (Nádor) 1714, Pozsonyi főispán (Comes of Pozsony County), *1.5.1657, +Bratislava 20.2.1732; m.Linz 24.10.1680 Katharina Elisabeth Frn von und zu Weichs (+Bratislava 5.6.1724)
-										name=Miklós      # 305615/miklos-Pálffy-de-erdoed/
-										dynasty=1011692
-										religion=catholic culture=hungarian
-										father=100118344	# Miklós Pálffy ab Erdöd
-										mother=100022110	# Maria Eleonora von Harrach zu Rohrau u.Thannhausen
-										1657.05.01={birth=yes}
-										1680.10.24={add_spouse=100095773}	# Katharina Elisabeth von Weichs
-										1732.02.20={death=yes}
-									}
-										100118359={	#// J1. Lipót I József Ignác Kálmán, Austrian General, *15.10.1681, +Wien 27.3.1720; m.Wien 18.6.1708 Gfn Maria Antonia Ratuit de Souches (*13.1.1683, +Wien 18.8.1750), dau.of Karl Gf Ratuit von Souches and Anna Gfn von Puchhaim
-											name="Lipót Joseph" # 305617/lipot-joseph-Pálffy-de-erdoed/
-											dynasty=1011692
-											religion=catholic culture=hungarian
-											father=100118351	# Miklós Pálffy ab Erdöd
-											mother=100095773	# Katharina Elisabeth von Weichs
-											1681.12.14={birth=yes}
-											1706.01.01={add_spouse=100095204}	# Maria Antonia Raduit de Souches
-											1720.03.27={death=yes}
-										}
-											#palffy2  ->  K2. Miklós VII József Mária Domokos Tádé, Országbíró, Fokancellár, Foudvarmester, *Wien 4.9.1710, +Wien 6.2.1773; m.Wien 12.1.1733 Gfn Maria Anna Sidonia von Althann (*Wien 11.5.1715 +Wien 4.10.1790); for their issue see HERE
-											100118434={	#// K5. Mária Augusztina Jozefa Johanna Franciska, *Wien 28.8.1714, +3.3.1739/59; m.10.4.1730 Gf Franz Ferdinand Kinsky z Vchynic a Tetova (*1.1.1678, +13.9.1741) $$
-												name="Maria Augusztina" # 1818786/maria-augusta-Pálffy-de-erdoed/
-												female=yes
-												dynasty=1011692
-												religion=catholic culture=hungarian
-												father=100118359	# Lipót Joseph Pálffy ab Erdöd
-												mother=100095204	# Maria Antonia Raduit de Souches
-												1714.08.28={birth=yes}
-												1759.01.01={death=yes}
-											}
-											#palffy3  ->  K7. LIPÓT II István József János Judás Tádé Antal, Pozsony vármegye örökös főispánja, Pozsony örökös várkapitánya, *Wien 14.12.1716, +Bratislava 9.4.1773; 1m: Wien 21.1.1738 Gfn Maria Josefa von Waldstein (*25.2.1720, +29.3.1763); 2m: Wien 15.4.1765 Gfn Wilhelmina (Vilma) Ogilvy (*Wien 15.9.1728, +30.6.1804); for their issue see HERE
-											#palffy4  ->  K9. Rudolf I József Joachim János Vilibald Adorján Judás, Fieldmarshal, *Wien 4.3.1719, +Bratislava 1.4.1768; m.Brno (Brünn) 24.11.1742 Gfn Maria Eleonora von Kaunitz-Rietberg (*Wien 8.4.1723, +Vörösko 7.5.1776); for their issue see HERE
-										100118222={	#// J2. Mária Erzsébet Filippina Borbála, *25.11.1681, +Wien 5.11.1732; m.6.7.1700 Gf Karl Cajetan de Longueval, Gf von Bouquoy (*25.8.1676, +2.9.1750) $$
-											name="Philippina Elisabeth Barbara" # 981278/philippina-elisabeth-barbara-Pálffy/
-											female=yes
-											dynasty=1011692
-											religion=catholic culture=hungarian
-											father=100118351	# Miklós Pálffy ab Erdöd
-											mother=100095773	# Katharina Elisabeth von Weichs
-											1681.11.25={birth=yes}
-											1732.08.05={death=yes}
-										}
-										100118399={	#// J3. Eleonóra Mária Teréz Bonaventura, *7.11.1682, +Nagytapolcsány 7.9.1729; m.Wien 29.8.1700 Gf Franz Anton von Abensberg und Traun (*4.6.1674, +12.9.1745) $$
-											name="Mária Eleonóra"
-											female=yes
-											dynasty=1011692
-											religion=catholic culture=hungarian
-											father=100118351	# Miklós Pálffy ab Erdöd
-											mother=100095773	# Katharina Elisabeth von Weichs
-											1682.11.07={birth=yes}
-											1729.09.07={death=yes}
-										}
-									100118323={	#// I3. Ferenc I, *3.8.1660, +k.a.Eszék VIII.1687; m.27.4.1687 Gfn Krisztina Drugeth de Homonna (*11.3.1655, +Tavarnok 17.3.1691) $$
-										name=Ferenc      # 1818757/ferenc-Pálffy-de-erdoed/
-										dynasty=1011692
-										religion=catholic culture=hungarian
-										father=100118344	# Miklós Pálffy ab Erdöd
-										mother=100022110	# Maria Eleonora von Harrach zu Rohrau u.Thannhausen
-										1660.08.03={birth=yes}
-										1685.01.01={add_spouse=drugeth_0023}	# Krisztina Drugeth de Homonna
-										1687.08.01={death=yes}
-									}
-									#palffy5 -> I5. János V, Ban of Croatia 1704, Fieldmarshal 1709, Palatin 1741, *Vöröskö 20.8.1663, +Bratislava 24.3.1751; 1m: 4.10.1687 Gfn Teréz Czobor de Czoborszentmihály (*1.5.1669, +Bratislava (Pozsony) 3.10.1733); 2m: Gfn Maria Julia von Stubenberg; for their issue see HERE
-								100100677={	#// H2. Mária, +18.3.1643; m.25.8.1635 Gf Gábor Erdody de Monyorókerék et Monoszló (*1615, +13.7.1650) $$
+									#palffy5    -->   I5. János V, Ban of Croatia 1704, Fieldmarshal 1709, Palatin 1741, *Vöröskö 20.8.1663, +Bratislava 24.3.1751; 1m: 4.10.1687 Gfn Teréz Czobor de Czoborszentmihály (*1.5.1669, +Bratislava (Pozsony) 3.10.1733); 2m: Gfn Maria Julia von Stubenberg; for their issue see HERE
+								palffy_0057={ #// H2. Mária, +18.3.1643; m.25.8.1635 Gf Gábor Erdődy de Monyorókerék et Monoszló (*1615, +13.7.1650) $$
 									name=Mária
 									female=yes
 									dynasty=1011692
 									religion=catholic culture=hungarian
-									father=100118353	# Istvan Pálffy ab Erdöd
-									mother=100095672	# GFN Eva Susanna von Püchheim
+									father=palffy_0030	# István Pálffy ab Erdöd
+									mother=lowbor2_2007	# GFN Eva Susanna von Püchheim
 									1620.01.01={birth=yes}  # EST.
 									1643.03.18={death=yes}
 								}
-							100118431={	#// G4. Pál IV, Nádor (Palatine) 1646, Fopohárnokmester, Pozsony vármegye örökös főispánja (hereditary obergespan / Comes of Pozsony County), *Vörösko 1589, +Bratislava 26.11.1653; m.26.7.1629 Gfn Franziska Khuen von Belasi (+9.5.1672)
-								name=Pal         # 520369/pal-graf-Pálffy-de-detrekeoe/
+							palffy_0058={ #// G3. János II, -cr Gf 1636, Komáromi főispán, +Zuha 29.5.1646; 1m: Gfn Anna Luczia Julianna von Mansfeld (*28.2.1599, +1630); 2m: Judit Amade de Várkony (+1672) $$
+								name=János
 								dynasty=1011692
 								religion=catholic culture=hungarian
-								father=100118138	# Miklós Pálffy ab Erdöd
+								father=palffy_0028	# Miklós Pálffy ab Erdöd
 								mother=100011003	# Maria Magdalene Fugger
-								1589.01.01={birth=yes}
-								1629.07.26={add_spouse=100095977}	# Maria Franziska Khuen von Belasi
-								1653.11.26={death=yes}
+								1587.01.01={birth=yes}  # EST.
+								1618.01.01={add_spouse=100010694}	# Anna Juliane von Mansfeld
+								1630.01.01={add_spouse=lowbor2_2027}	# Judit Amade de Várkony
+								1646.05.29={death=yes}  # Zuha
 							}
-								100118424={	#// H1. János III Antal, Pozsonyi főispán (Comes of Pozsony County), Pozsony örökös várkapitánya, *1642, +Bratislava 29.11.1694; 1m: 1668 Gfn Anna Terézia Nádasdy de Nádasd et Fogarasföld (+Wien 22.3.1683); 2m: Wien 12.3.1685 Gfn Eleonora de Mollart, Frn von Gumpendorf
-									name="Janos Antal" # 1818745/janos-antal-erdoedi-grof-Pálffy/
+								palffy_0059={ #// H1. [1m.] Ferdinand, a Jesuit, Bp of Eger, *1620, +Košice (Kassa) 31.10.1680
+									name=Ferdinand
 									dynasty=1011692
 									religion=catholic culture=hungarian
-									father=100118431	# Pal Pálffy ab Erdöd
-									mother=100095977	# Maria Franziska Khuen von Belasi
-									1642.01.01={birth=yes}
-									1670.01.01={add_spouse=100095641}	# GF Anna Maria Eleonora von Mollart
-									1694.11.01={death=yes}
+									father=palffy_0058	# János Pálffy ab Erdöd
+									mother=100010694	# Anna Juliane von Mansfeld
+									1620.01.01={birth=yes}
+									1680.10.31={death=yes}  # Košice
 								}
-									100118195={	#// I1. [2m.] Mária Borbála, *5.12.1694, +Praha 12.1.1769; m.1712 Gf Johann Wenzel von Waldstein (*15.6.1685, +6.5.1731) $$
-										name="Maria Barbara" # 1818763/maria-barbara-erdoedi-graefin-Pálffy/
+								palffy_0060={ #// H2. [1m.] Franciska; m.Bratislava 1637 Baron Miklós Révay de Szklabina et Blatnicza (*Blatnicza 1620) $$
+									name=Franciska
+									female=yes
+									dynasty=1011692
+									religion=catholic culture=hungarian
+									father=palffy_0058	# János Pálffy ab Erdöd
+									mother=100010694	# Anna Juliane von Mansfeld
+									1619.01.01={birth=yes}  # EST.
+									1679.01.01={death=yes}  # EST.
+								}
+								palffy_0061={ #// H3. [2m.] Teréz
+									name=Teréz
+									female=yes
+									dynasty=1011692
+									religion=catholic culture=hungarian
+									father=palffy_0058	# János Pálffy ab Erdöd
+									mother=lowbor2_2027	# Judit Amade de Várkony
+									1631.01.01={birth=yes}  # EST.
+									1680.01.01={death=yes}  # EST.
+								}
+							palffy_0062={ #// G4. Pál IV, Palatine, Főpohárnokmester, Pozsony vármegye örökös főispánja, *Vöröskő 1589, +Bratislava 26.11.1653; m.26.7.1629 Gfn Franziska Khuen von Belasi (+9.5.1672)
+								name=Pál
+								dynasty=1011692
+								religion=catholic culture=hungarian
+								father=palffy_0028	# Miklós Pálffy ab Erdöd
+								mother=100011003	# Maria Magdalene Fugger
+								1589.01.01={birth=yes}  # Vöröskő
+								1629.07.26={add_spouse=lowbor2_2029}	# GFN Maria Franziska Khuen von Belasi
+								1653.11.26={death=yes}  # Bratislava
+							}
+								palffy_0063={ #// H1. János III Antal, Pozsonyi főispán, Pozsony örökös várkapitánya, *1642, +Bratislava 29.11.1694; 1m: 1668 Gfn Anna Terézia Nádasdy de Nádasd et Fogarasföld (+Wien 22.3.1683); 2m: Wien 12.3.1685 Gfn Eleonora de Mollart, Frn von Gumpendorf
+									name="János Antal"
+									dynasty=1011692
+									religion=catholic culture=hungarian
+									father=palffy_0062	# Pál Pálffy ab Erdöd
+									mother=lowbor2_2029	# GFN Maria Franziska Khuen von Belasi
+									1642.01.01={birth=yes}
+									1668.01.01={add_spouse=lowbor2_2030}	# GFN Anna Terézia Nádasdy de Nádasd et Fogarasföld
+									1685.03.12={add_spouse=lowbor2_2031}	# GFN Anna Maria Eleonora von Mollart
+									1694.11.29={death=yes}  # Bratislava
+								}
+									palffy_0064={ #// I1. [2m.] Mária Borbála, *5.12.1694, +Praha 12.1.1769; m.1712 Gf Johann Wenzel von Waldstein (*15.6.1685, +6.5.1731) $$
+										name="Mária Borbála"
 										female=yes
 										dynasty=1011692
 										religion=catholic culture=hungarian
-										father=100118424	# Janos Antal Pálffy ab Erdöd
-										mother=100095641	# GF Anna Maria Eleonora von Mollart
-										1694.12.03={birth=yes}
-										1769.01.01={death=yes}
+										father=palffy_0063	# János Antal Pálffy ab Erdöd
+										mother=lowbor2_2031	# GFN Anna Maria Eleonora von Mollart
+										1694.12.05={birth=yes}
+										1769.01.12={death=yes}  # Praha
 									}
-								100118412={	#// H2. János IV Károly, Fieldmarshal in Milano, *4.12.1645, +Milano 3.11.1694; m.3.3.1669 Pss Sidonia Agnes von Liechtenstein (*1645, +Wien 20.3.1721) $$
-									name="Janos Adam Karoly" # 11767/janos-adam-karoly-erdoedi-graf-Pálffy/
+								palffy_0065={ #// H2. János IV Károly, Fieldmarshal in Milano, *4.12.1645, +Milano 3.11.1694; m.3.3.1669 Pss Sidonia Agnes von Liechtenstein (*1645, +Wien 20.3.1721) $$
+									name="János Károly"
 									dynasty=1011692
 									religion=catholic culture=hungarian
-									father=100118431	# Pal Pálffy ab Erdöd
-									mother=100095977	# Maria Franziska Khuen von Belasi
+									father=palffy_0062	# Pál Pálffy ab Erdöd
+									mother=lowbor2_2029	# GFN Maria Franziska Khuen von Belasi
 									1645.12.04={birth=yes}
-									1667.01.01={add_spouse=100022821}	# Sidonia Agnes von Liechtenstein
-									1694.11.03={death=yes}
+									1669.03.03={add_spouse=100022821}	# Sidonia Agnes von Liechtenstein
+									1694.11.03={death=yes}  # Milano
 								}
-									100118240={	#// I1. Miklós VI József, *1671, +Carpi 10.8.1706; m.Wien V.1693 Gfn Julianna Drugeth de Homonna (*1679 +1726) $$
-										name="Miklos József" # 239911/miklos-joseph-Pálffy-de-detrekeoe/
+									palffy_0066={ #// I1. Miklós VI József, *1671, +Carpi 10.8.1706; m.Wien V.1693 Gfn Julianna Drugeth de Homonna (*1679 +1726) $$
+										name="Miklós József"
 										dynasty=1011692
 										religion=catholic culture=hungarian
-										father=100118412	# Janos Adam Karoly Pálffy ab Erdöd
+										father=palffy_0065	# János Károly Pálffy ab Erdöd
 										mother=100022821	# Sidonia Agnes von Liechtenstein
-										1672.01.01={birth=yes}
-										1696.01.01={add_spouse=drugeth_0022}	# Julianna Therese Drugeth de Homonna
-										1746.01.01={death=yes}
+										1671.01.01={birth=yes}
+										1693.05.01={add_spouse=drugeth_0022}	# Julianna Therese Drugeth de Homonna
+										1706.08.10={death=yes}  # Carpi
 									}
-							100101085={	#// G6. Katalin, +after 1621; m.1608 Gf Zsigmond Forgách de Ghymes et Gács (+31.6.1621) $$
+										palffy_0067={ #// J1. József Károly, *Wien 7.1.1695, +1695
+											name="József Károly"
+											dynasty=1011692
+											religion=catholic culture=bavarian
+											father=palffy_0066	# Miklós József Pálffy ab Erdöd
+											mother=drugeth_0022	# Julianna Therese Drugeth de Homonna
+											1695.01.07={birth=yes}  # Wien
+											1695.01.01={death=yes}
+										}
+									palffy_0068={ #// I2. Ferenc II, +k.a.Pignarola 4.10.1693
+										name=Ferenc
+										dynasty=1011692
+										religion=catholic culture=hungarian
+										father=palffy_0065	# János Károly Pálffy ab Erdöd
+										mother=100022821	# Sidonia Agnes von Liechtenstein
+										1673.01.01={birth=yes}  # EST.
+										1693.10.04={death=yes}  # Pignarola
+									}
+								palffy_0069={ #// H3. Mária Magdolna, +Wien 20.11.1684; 1m: Gf August von Zinzendorf; 2m: Fernando degli Obizzi, Marchese di Orciano (*1640, +1710)
+									name="Mária Magdolna"
+									female=yes
+									dynasty=1011692
+									religion=catholic culture=hungarian
+									father=palffy_0062	# Pál Pálffy ab Erdöd
+									mother=lowbor2_2029	# GFN Maria Franziska Khuen von Belasi
+									1646.01.01={birth=yes}  # EST.
+									1684.11.20={death=yes}  # Wien
+								}
+							palffy_0070={ #// G5. Miklós III, *1599, +1621
+								name=Miklós
+								dynasty=1011692
+								religion=catholic culture=hungarian
+								father=palffy_0028	# Miklós Pálffy ab Erdöd
+								mother=100011003	# Maria Magdalene Fugger
+								1599.01.01={birth=yes}
+								1621.01.01={death=yes}
+							}
+							palffy_0071={ #// G6. Katalin, +after 1621; m.1608 Gf Zsigmond Forgách de Ghymes et Gács (+31.6.1621) $$
 								name=Katalin
 								female=yes
 								dynasty=1011692
 								religion=catholic culture=hungarian
-								father=100118138	# Miklós Pálffy ab Erdöd
+								father=palffy_0028	# Miklós Pálffy ab Erdöd
 								mother=100011003	# Maria Magdalene Fugger
-								1590.01.01={birth=yes}  # EST.
-								1639.01.01={death=yes}  # EST.
+								1589.01.01={birth=yes}  # EST.
+								1622.01.01={death=yes}
 							}
-							100118385={	#// G7. Zsófia, *1596, +22.3.1667/68; m.11.1.1650 Gf Johann Maximilian von und zu Trauttmansdorff-Weinsberg (*Graz 23.5.1584, +Wien 7.6.1650) $$
-								name="Sophie Maria" # 107208/sophie-maria-erdoedi-graefin-Pálffy/
+							palffy_0072={ #// G7. Zsófia, *1595, +22.3.1667/68; m.11.1.1650 Gf Johann Maximilian von und zu Trauttmansdorff-Weinsberg (*Graz 23.5.1584, +Wien 7.6.1650) $$
+								name=Zsófia
 								female=yes
 								dynasty=1011692
 								religion=catholic culture=hungarian
-								father=100118138	# Miklós Pálffy ab Erdöd
+								father=palffy_0028	# Miklós Pálffy ab Erdöd
 								mother=100011003	# Maria Magdalene Fugger
-								1596.01.01={birth=yes}
-								1668.03.22={death=yes}
+								1595.01.01={birth=yes}
+								1667.03.22={death=yes}
 							}
+							palffy_0073={ #// G8. Magdolna, *14.7.1596, +Torna 18.10.1629; 1m: Péter Balassa de Gyarmat (+1621); 2m: Márton Móricz de Sövényház; 3m: Baron György Perényi de Perény $$
+								name=Magdolna
+								female=yes
+								dynasty=1011692
+								religion=catholic culture=hungarian
+								father=palffy_0028	# Miklós Pálffy ab Erdöd
+								mother=100011003	# Maria Magdalene Fugger
+								1596.07.14={birth=yes}
+								1629.10.18={death=yes}  # Torna
+							}
+					palffy_0074={ #// E2. Lőrinc Pálffy de Kápolna et Erdőd, fl 1539, +1559
+						name=Lőrinc
+						dynasty=1011692
+						religion=catholic culture=hungarian
+						father=palffy_0005	# Pál Pálffy ab Erdöd
+						mother=lowbor2_1848	# Judith Klara Bakocz de Erdőd
+						1519.01.01={birth=yes}  # EST.
+						1559.01.01={death=yes}
+					}
+
+#######
+lowbor2_2030={ # Gfn        Anna Terézia              Nádasdy de Nádasd et Fogarasföld         (1647-1683)     0 [X]
+	name="Anna Terézia Nádasdy de Nádasd et Fogarasföld"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1647.01.01={birth=yes}  # EST.
+	1683.03.22={death=yes}  # Wien
+}
+lowbor2_2014={ # Gfn        Wilhelmina                Ogilvy                                   (1728-1804)     0 [X]
+	name="Wilhelmina Ogilvy"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=bavarian
+	1728.09.15={birth=yes}  # Wien
+	1804.06.30={death=yes}
+}
+lowbor2_2036={ # Marchese   Fernando                  degli Obizzi di Orciano                  (1640-1710)     - [X]
+	name="Fernando degli Obizzi di Orciano"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1640.01.01={birth=yes}
+	1674.01.01={add_spouse=palffy_0069}	# Mária Magdolna Pálffy ab Erdöd
+	1710.01.01={death=yes}
+}
+lowbor2_2018={ # Gf         Karl Ludwig               von Roggendorf                           (1685-1738)     - [X]
+	name="Karl Ludwig von Roggendorf"
+	#dynasty=0
+	religion=catholic culture=german
+	1685.05.25={birth=yes}
+	1712.01.01={add_spouse=palffy_0049}	# Karolina Pálffy ab Erdöd
+	1738.01.01={death=yes}
+}
+lowbor2_2035={ # Gf         August                    von Zinzendorf                           (    -    )     - [X]
+	name="August von Zinzendorf"
+	#dynasty=0
+	religion=catholic culture=german
+	1645.01.01={birth=yes}  # EST.
+	1669.01.01={add_spouse=palffy_0069}	# Mária Magdolna Pálffy ab Erdöd
+	1670.01.01={death=yes}  # EST.
+}
+lowbor2_2003={ # Baron      Szaniszló                 Recsiczky de Recsicze                    (    -    )     - [X]
+	name="Szaniszló Recsiczky de Recsicze"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1599.01.01={birth=yes}  # EST.
+	1623.01.01={add_spouse=palffy_0024}	# Szabina Pálffy ab Erdöd
+	1659.01.01={death=yes}  # EST.
+}
+lowbor2_1999={ # Bss        Katalin                   Svieczkova                               (    -1640)     3 [II]
+	name="Katalin Svieczkova"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1577.01.01={birth=yes}  # EST.
+	1640.11.01={death=yes}  # Szakolcza
+}
+lowbor2_1998={ # Frhr       Zdenko                    Zampach ze Zampachu                      (    -    )     - [X]
+	name="Zdenko Zampach ze Zampachu ( von Schampach auf Rottenstein"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1572.01.01={birth=yes}  # EST.
+	1596.01.01={add_spouse=palffy_0018}	# Borbála Pálffy ab Erdöd
+	1632.01.01={death=yes}  # EST.
+}
+lowbor2_2027={ #            Judit                     Amade de Várkony                         (    -1672)     1 [X]
+	name="Judit Amade de Várkony"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1609.01.01={birth=yes}  # EST.
+	1672.01.01={death=yes}
+}
+lowbor2_1996={ #            Mátyás                    Andrássy de Csíkszentkirály et Krasznahorka (1566-1595)     - [X]
+	name="Mátyás Andrássy de Csíkszentkirály et Krasznahorka"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1566.01.01={birth=yes}  # Krasznahorka
+	1589.01.01={add_spouse=palffy_0017}	# Fruzsina Pálffy ab Erdöd
+	1595.01.01={death=yes}
+}
+lowbor2_1981={ #            János                     Balassa de Gyarmat                       (1565-1625)     - [X]
+	name="János Balassa de Gyarmat"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1565.01.01={birth=yes}  # EST.
+	1589.06.29={add_spouse=palffy_0012}	# Mária Pálffy ab Erdöd
+	1625.01.01={death=yes}  # EST.
+}
+lowbor2_2004={ #            Márta                     Bogacsóczy                               (    -1598)     1 [X]
+	name="Márta Bogacsóczy"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1555.01.01={birth=yes}  # EST.
+	1598.01.01={death=yes}
+}
+lowbor2_1794={ #            Anna                      Bánffy de Újlak                          (    -    )     1 [X]
+	name="Anna Bánffy de Újlak"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1461.01.01={birth=yes}  # EST.
+	1521.01.01={death=yes}  # EST.
+}
+lowbor2_2001={ #            Márton                    Cziskay                                  (    -    )     - [X]
+	name="Márton Cziskay"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1623.01.01={birth=yes}  # EST.
+	1647.01.01={add_spouse=palffy_0022}	# Franciska Pálffy ab Erdöd
+	1683.01.01={death=yes}  # EST.
+}
+lowbor2_2005={ #            Ferenc                    Daróczy de Deregnyő                      (    -    )     - [X]
+	name="Ferenc Daróczy de Deregnyő"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1574.01.01={birth=yes}  # EST.
+	1598.01.01={add_spouse=palffy_0027}	# Erzsébet Pálffy ab Erdöd
+	1634.01.01={death=yes}  # EST.
+}
+lowbor2_1409={ #            Anna                      Geréb de Vingárt                         (    -    )     1 [X]
+	name="Anna Geréb de Vingárt"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1379.01.01={birth=yes}  # EST.
+	1439.01.01={death=yes}  # EST.
+}
+lowbor2_0070={ #            Katalin                   Illés                                    (    -    )     1 [X]
+	name="Katalin Illés They had issue:"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1328.01.01={birth=yes}  # EST.
+	1388.01.01={death=yes}  # EST.
+}
+lowbor2_1591={ #            Katalin                   Kinizsi                                  (    -    )     1 [X]
+	name="Katalin Kinizsi"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1425.01.01={birth=yes}  # EST.
+	1485.01.01={death=yes}  # EST.
+}
+lowbor2_1969={ #            Péter                     Krusich de Lepoglava                     (    -1581)     - [X]
+	name="Péter Krusich de Lepoglava"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1541.01.01={birth=yes}  # EST.
+	1565.01.01={add_spouse=palffy_0011}	# Katalin Pálffy ab Erdöd
+	1581.01.01={death=yes}
+}
+lowbor2_1985={ #            Katalin                   Kőrössy                                  (    -    )     5 [X]
+	name="Katalin Kőrössy"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1547.01.01={birth=yes}  # EST.
+	1607.01.01={death=yes}  # EST.
+}
+lowbor2_1898={ #            Anna                      Pogány de Cseb                           (    -    )     1 [X]
+	name="Anna Pogány de Cseb"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1544.01.01={birth=yes}  # EST.
+	1604.01.01={death=yes}  # EST.
+}
+lowbor2_1997={ #            Zsigmond                  Rátkay de Nagytábor                      (    -    )     - [X]
+	name="Zsigmond Rátkay de Nagytábor"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1573.01.01={birth=yes}  # EST.
+	1597.01.01={add_spouse=palffy_0017}	# Fruzsina Pálffy ab Erdöd
+	1633.01.01={death=yes}  # EST.
+}
+lowbor2_2040={ #            Márton                    Móricz de Sövényház                      (1598-1623)     - [X]
+	name="Márton Móricz de Sövényház"
+	#dynasty=0
+	religion=catholic culture=hungarian
+	1598.01.01={birth=yes}  # EST.
+	1622.01.01={add_spouse=palffy_0073}	# Magdolna Pálffy ab Erdöd
+	1623.01.01={death=yes}  # EST.
+}
 #palffy1
 
 #palffy2
-100118142={	#// Miklós VIII Gf Pálffy de Erdod, Chancellor of Hungary, Országbíró, Pozsony vármegye örökös főispánja, Pozsony örökös várkapitánya, *Wien 4.9.1710, +Wien 6.2.1773; m.Wien 12.1.1733 Gfn Maria Anna Sidonia von Althann (*Wien 11.5.1715, +Wien 4.10.1790) $$
+palffy_0035={	#// Miklós VIII Gf Pálffy de Erdod, Chancellor of Hungary, Országbíró, Pozsony vármegye örökös főispánja, Pozsony örökös várkapitánya, *Wien 4.9.1710, +Wien 6.2.1773; m.Wien 12.1.1733 Gfn Maria Anna Sidonia von Althann (*Wien 11.5.1715, +Wien 4.10.1790) $$
 	name=Miklos      	# 1818783/miklos-v-erdoedi-grof-Pálffy/
 	dynasty=1011692
 	religion=catholic culture=hungarian
-	father=100118359	# Lipót Joseph Pálffy ab Erdöd
-	mother=100095204	# Maria Antonia Raduit de Souches
+	father=palffy_0033	# Lipót Pálffy ab Erdöd
+	mother=lowbor2_2010	# GFN Maria Antonia Raduit de Souches
 	1710.09.04={birth=yes}
-	1733.01.12={add_spouse=100022293}	# Maria von Althann
+	1733.01.12={add_spouse=100022293}	# Maria Anna von Althann
 	1773.02.06={death=yes}
 }
 	100118427={	#// A1. Mária Antónia Jozefa Janka, *Wien 22.11.1733, +Wien 8.3.1806; m.Franz Marquis de Los Rios (+19.6.1772)
@@ -47246,8 +47746,8 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118142	# Miklos Pálffy ab Erdöd
-		mother=100022293	# Maria von Althann
+		father=palffy_0035	# Miklos Pálffy ab Erdöd
+		mother=100022293	# Maria Anna von Althann
 		1733.11.22={birth=yes}
 		1806.03.08={death=yes}
 	}
@@ -47255,8 +47755,8 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		name="Karl Hieronymus" # 1818794/karl-hieronymus-erdoedi-fuerst-Pálffy/
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118142	# Miklos Pálffy ab Erdöd
-		mother=100022293	# Maria von Althann
+		father=palffy_0035	# Miklos Pálffy ab Erdöd
+		mother=100022293	# Maria Anna von Althann
 		1735.09.30={birth=yes}
 		1760.01.01={add_spouse=100022836}	# Maria Theresia Anna von Liechtenstein
 		1816.05.25={death=yes}
@@ -47434,8 +47934,8 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118142	# Miklos Pálffy ab Erdöd
-		mother=100022293	# Maria von Althann
+		father=palffy_0035	# Miklos Pálffy ab Erdöd
+		mother=100022293	# Maria Anna von Althann
 		1747.12.28={birth=yes}
 		1799.06.03={death=yes}
 	}
@@ -47444,8 +47944,8 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118142	# Miklos Pálffy ab Erdöd
-		mother=100022293	# Maria von Althann
+		father=palffy_0035	# Miklos Pálffy ab Erdöd
+		mother=100022293	# Maria Anna von Althann
 		1753.10.20={birth=yes}
 		1778.07.02={death=yes}
 	}
@@ -47454,29 +47954,30 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118142	# Miklos Pálffy ab Erdöd
-		mother=100022293	# Maria von Althann
+		father=palffy_0035	# Miklos Pálffy ab Erdöd
+		mother=100022293	# Maria Anna von Althann
 		1760.01.12={birth=yes}
 		1835.01.01={death=yes}
 	}
 #palffy2
 
 #palffy3
-100118140={	#// Gf LIPÓT II István József János Júdás Tádé Antal Pálffy de Erdod, Pozsony vármegye örökös főispánja, Pozsony örökös várkapitánya, *Wien 14.12.1716, +Bratislava 9.4.1773; 1m: Wien 21.1.1738 Gfn Maria Josefa von Waldstein (*Rozdialowitz 25.2.1720, +Bratislava 29.3.1763); 2m: Wien 15.4.1765 Gfn Wilhelmina Ogilvy (*Wien 15.9.1728, +30.6.1804) $$
+palffy_0040={	#// Gf LIPÓT II István József János Júdás Tádé Antal Pálffy de Erdod, Pozsony vármegye örökös főispánja, Pozsony örökös várkapitánya, *Wien 14.12.1716, +Bratislava 9.4.1773; 1m: Wien 21.1.1738 Gfn Maria Josefa von Waldstein (*Rozdialowitz 25.2.1720, +Bratislava 29.3.1763); 2m: Wien 15.4.1765 Gfn Wilhelmina Ogilvy (*Wien 15.9.1728, +30.6.1804) $$
 	name=Lipót # 1818788/leopold-stephan-erdoedi-grof-Pálffy/
 	dynasty=1011692
 	religion=catholic culture=hungarian
-	father=100118359	# Lipót Joseph Pálffy ab Erdöd
-	mother=100095204	# Maria Antonia Raduit de Souches
+	father=palffy_0033	# Lipót Pálffy ab Erdöd
+	mother=lowbor2_2010	# GFN Maria Antonia Raduit de Souches
 	1716.12.14={birth=yes}
 	1738.01.01={add_spouse=100047874}	# Maria Josepha z Valdštejna
+	1765.04.15={add_spouse=lowbor2_2014}	# GFN Wilhelmina Ogilvy
 	1773.04.09={death=yes}
 }
 	100118348={	#// A2. Lipót III, Foudvarmester, Csongrádi főispán (Comes of Csongrád County), *Stomfa 24.10.1739, +Wien 4.10.1799; m.Wien 12.12.1762 Gfn Maria Theresia von und zu Daun (*Wien 25.11.1745, +19.10.1777) $$
 		name=Lipót     # 1818805/leopold-erdoedi-grof-Pálffy/
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118140	# Lipót Pálffy ab Erdöd
+		father=palffy_0040	# Lipót Pálffy ab Erdöd
 		mother=100047874	# Maria Josepha z Valdštejna
 		1739.10.29={birth=yes}
 		1764.01.01={add_spouse=daun_0066}	# Maria Theresia von Daun
@@ -47654,7 +48155,7 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118140	# Lipót Pálffy ab Erdöd
+		father=palffy_0040	# Lipót Pálffy ab Erdöd
 		mother=100047874	# Maria Josepha z Valdštejna
 		1741.06.05={birth=yes}
 		1799.04.22={death=yes}
@@ -47664,7 +48165,7 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118140	# Lipót Pálffy ab Erdöd
+		father=palffy_0040	# Lipót Pálffy ab Erdöd
 		mother=100047874	# Maria Josepha z Valdštejna
 		1746.01.25={birth=yes}
 		1768.03.16={death=yes}
@@ -47672,12 +48173,12 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 #palffy3
 
 #palffy4
-100118342={	#// Rudolf Gf Pálffy de Erdod, Field Marshal, *Wien 4.3.1719, +Bratislava 1.4.1768; m.Brno (Brünn) 24.11.1742 Gfn Maria Eleonora von Kaunitz-Rietberg (*Wien 8.4.1723, +Vörösko 7.5.1776) $$
+palffy_0042={	#// Rudolf Gf Pálffy de Erdod, Field Marshal, *Wien 4.3.1719, +Bratislava 1.4.1768; m.Brno (Brünn) 24.11.1742 Gfn Maria Eleonora von Kaunitz-Rietberg (*Wien 8.4.1723, +Vörösko 7.5.1776) $$
 	name=Rudolf # 1327522/reszoe-karl-graf-Pálffy-ab-erdoed/
 	dynasty=1011692
 	religion=catholic culture=hungarian
-	father=100118359	# Lipót Joseph Pálffy ab Erdöd
-	mother=100095204	# Maria Antonia Raduit de Souches
+	father=palffy_0033	# Lipót Pálffy ab Erdöd
+	mother=lowbor2_2010	# GFN Maria Antonia Raduit de Souches
 	1719.03.04={birth=yes}
 	1742.11.24={add_spouse=100047793}	# Maria Eleonora von Kaunitz
 	1768.04.01={death=yes}
@@ -47687,7 +48188,7 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118342	# Rudolf Pálffy ab Erdöd
+		father=palffy_0042	# Rudolf Pálffy ab Erdöd
 		mother=100047793	# Maria Eleonora von Kaunitz
 		1743.09.08={birth=yes}
 		1776.04.29={death=yes}
@@ -47696,7 +48197,7 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		name=Janos       # 1818812/janos-erdoedi-grof-Pálffy/
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118342	# Rudolf Pálffy ab Erdöd
+		father=palffy_0042	# Rudolf Pálffy ab Erdöd
 		mother=100047793	# Maria Eleonora von Kaunitz
 		1744.10.28={birth=yes}
 		1769.01.01={add_spouse=100118144}	# Marianna Esterházy de Galántha
@@ -47747,7 +48248,7 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118342	# Rudolf Pálffy ab Erdöd
+		father=palffy_0042	# Rudolf Pálffy ab Erdöd
 		mother=100047793	# Maria Eleonora von Kaunitz
 		1746.01.05={birth=yes}
 		1773.07.07={death=yes}
@@ -47756,7 +48257,7 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		name="Rudolph Karl" # 305621/rudolph-karl-erdoedi-graf-Pálffy/
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118342	# Rudolf Pálffy ab Erdöd
+		father=palffy_0042	# Rudolf Pálffy ab Erdöd
 		mother=100047793	# Maria Eleonora von Kaunitz
 		1750.02.11={birth=yes}
 		1782.01.30={add_spouse=100047028}	# Maria Antonia Krakovský z Kolovrat
@@ -48635,7 +49136,7 @@ csiraky_0001={ #// Gf Antal Cziráky de Czirák et Dénesfalva, *Sopron 8.9.1772
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118342	# Rudolf Pálffy ab Erdöd
+		father=palffy_0042	# Rudolf Pálffy ab Erdöd
 		mother=100047793	# Maria Eleonora von Kaunitz
 		1752.07.27={birth=yes}
 		1802.02.08={death=yes}
@@ -48645,7 +49146,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118342	# Rudolf Pálffy ab Erdöd
+		father=palffy_0042	# Rudolf Pálffy ab Erdöd
 		mother=100047793	# Maria Eleonora von Kaunitz
 		1753.07.17={birth=yes}
 		1795.01.01={death=yes}
@@ -48655,7 +49156,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		female=yes	  # 1819044/maria-terez-Pálffy-de-erdoed/
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118342	# Rudolf Pálffy ab Erdöd
+		father=palffy_0042	# Rudolf Pálffy ab Erdöd
 		mother=100047793	# Maria Eleonora von Kaunitz
 		1754.09.14={birth=yes}
 		1829.01.01={death=yes}
@@ -48665,7 +49166,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118342	# Rudolf Pálffy ab Erdöd
+		father=palffy_0042	# Rudolf Pálffy ab Erdöd
 		mother=100047793	# Maria Eleonora von Kaunitz
 		1764.08.29={birth=yes}
 		1839.01.01={death=yes}
@@ -48673,15 +49174,15 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 #palffy4
 
 #palffy5
-100118410={	#// János V, Ban of Croatia 1704, Fieldmarshal 1709, Palatin 1741, *Vörösko 20.8.1663, +Pozsony 24.3.1751; 1m: 4.10.1687 Gfn Teréz Czobor de Czoborszentmihály (*1.5.1669, +Pozsony 3.10.1733); 2m: 28.8.1741 Gfn Maria Julia von Stubenberg (+Pozsony 20.4.1756)
+palffy_0056={	#// János V, Ban of Croatia 1704, Fieldmarshal 1709, Palatin 1741, *Vörösko 20.8.1663, +Pozsony 24.3.1751; 1m: 4.10.1687 Gfn Teréz Czobor de Czoborszentmihály (*1.5.1669, +Pozsony 3.10.1733); 2m: 28.8.1741 Gfn Maria Julia von Stubenberg (+Pozsony 20.4.1756)
 	name=János			# 343473/janos-graf-Pálffy-de-erdoed/
 	dynasty=1011692
 	religion=catholic culture=hungarian
-	father=100118344	# Miklós Pálffy ab Erdöd
+	father=palffy_0031	# Miklós Pálffy ab Erdöd
 	mother=100022110	# Maria Eleonora von Harrach zu Rohrau u.Thannhausen
 	1663.08.20={birth=yes}  # Vörösko
-	1687.10.04={add_spouse=100084403}	# CSS Teréz Czobor de Czoborszentmihály
-	1741.08.28={add_spouse=100086189}	# GFN Maria Julia von Stubenberg
+	1687.10.04={add_spouse=lowbor2_2023}	# CSS Teréz Czobor de Czoborszentmihály
+	1741.08.28={add_spouse=lowbor2_2024}	# GFN Maria Julia von Stubenberg
 	1751.03.24={death=yes}  # Pozsony
 }
 	100118426={	#// A1. [1m.] Mária Anna Franziska, +1756; m.1711 Gf František Karel Prehorovský z Kvasejovic (*1645, +Praha 6.11.1723)
@@ -48689,8 +49190,8 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118410	# János Pálffy ab Erdöd
-		mother=100084403	# CSS Teréz Czobor de Czoborszentmihály
+		father=palffy_0056	# János Pálffy ab Erdöd
+		mother=lowbor2_2023	# CSS Teréz Czobor de Czoborszentmihály
 		1688.01.01={birth=yes}  # EST.
 		1756.01.01={death=yes}
 	}
@@ -48699,8 +49200,8 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118410	# János Pálffy ab Erdöd
-		mother=100084403	# CSS Teréz Czobor de Czoborszentmihály
+		father=palffy_0056	# János Pálffy ab Erdöd
+		mother=lowbor2_2023	# CSS Teréz Czobor de Czoborszentmihály
 		1690.04.01={birth=yes}
 		1743.01.03={death=yes}  # Bratislava
 	}
@@ -48708,8 +49209,8 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		name=János			# # 559661/janos-antal-graf-Pálffy-ab-erdoed/
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118410	# János Pálffy ab Erdöd
-		mother=100084403	# CSS Teréz Czobor de Czoborszentmihály
+		father=palffy_0056	# János Pálffy ab Erdöd
+		mother=lowbor2_2023	# CSS Teréz Czobor de Czoborszentmihály
 		1696.02.02={birth=yes}  # Vörösko
 		1717.05.12={add_spouse=100118454}	# Amalia Eleonora Esterházy de Galántha
 		1717.08.16={death=yes}  # Belgrad
@@ -48732,8 +49233,8 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		name=Károly
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118410	# János Pálffy ab Erdöd
-		mother=100084403	# CSS Teréz Czobor de Czoborszentmihály
+		father=palffy_0056	# János Pálffy ab Erdöd
+		mother=lowbor2_2023	# CSS Teréz Czobor de Czoborszentmihály
 		1697.10.28={birth=yes}  # Bratislava
 		1718.11.23={add_spouse=100091871}	# GFN Maria Margaretha von Stubenberg
 		1734.01.01={add_spouse=100088889}	# GFN Josepha von Proskau
@@ -48764,8 +49265,8 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		name=Miklós
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118410	# János Pálffy ab Erdöd
-		mother=100084403	# CSS Teréz Czobor de Czoborszentmihály
+		father=palffy_0056	# János Pálffy ab Erdöd
+		mother=lowbor2_2023	# CSS Teréz Czobor de Czoborszentmihály
 		1699.10.24={birth=yes}  # Pozsony
 		1726.04.29={add_spouse=100047915}	# Marie Josepha Filipina von Schlik zu Bassano u.Weißkirchen
 		1734.01.29={death=yes}  # Parma
@@ -48845,8 +49346,8 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 		female=yes
 		dynasty=1011692
 		religion=catholic culture=hungarian
-		father=100118410	# János Pálffy ab Erdöd
-		mother=100084403	# CSS Teréz Czobor de Czoborszentmihály
+		father=palffy_0056	# János Pálffy ab Erdöd
+		mother=lowbor2_2023	# CSS Teréz Czobor de Czoborszentmihály
 		1708.01.01={birth=yes}  # Bratislava
 		1740.01.01={death=yes}
 	}
@@ -50292,7 +50793,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 				father=100117496	# Kristóf Erdődy de Monyorókerék et Monoszló
 				mother=thurzo_0082	# Borbála Thurzó de Bethlenfalva
 				1615.01.01={birth=yes}
-				1635.08.25={add_spouse=100100677}	# Mária Pálffy ab Erdöd
+				1635.08.25={add_spouse=palffy_0057}	# Mária Pálffy ab Erdöd
 				1647.01.01={add_spouse=amade_0013}	# Judit Amade de Várkony
 				1650.07.13={death=yes}
 			}
@@ -50324,7 +50825,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 					father=100117363	# Gábor Erdődy de Monyorókerék et Monoszló
 					mother=amade_0013	# Judit Amade de Várkony
 					1649.01.01={birth=yes}
-					1672.02.28={add_spouse=100118217}	# Maria Zsuzsanna Pálffy ab Erdöd
+					1672.02.28={add_spouse=palffy_0053}	# Mária Zsuzsanna Pálffy ab Erdöd
 					1704.03.21={death=yes}  # Pozsony
 				}
 					100117411={	#// E4. György Lipót, Barsi főispán, *1676, +12.8.1759; m.12.2.1703 Pss Mária Terézia Esterházy de Galántha (*Kismarton 7.6.1684, +Pazony 18.12.1755) $$
@@ -50332,7 +50833,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 						dynasty=1011008
 						religion=catholic culture=hungarian
 						father=100117388	# Kristóf Erdődy de Monyorókerék et Monoszló
-						mother=100118217	# Maria Zsuzsanna Pálffy ab Erdöd
+						mother=palffy_0053	# Mária Zsuzsanna Pálffy ab Erdöd
 						1676.01.01={birth=yes}
 						1703.02.12={add_spouse=100118464}	# Mária Terézia Esterházy de Galántha
 						1759.08.12={death=yes}
@@ -50433,7 +50934,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 						dynasty=1011008
 						religion=catholic culture=hungarian
 						father=100117388	# Kristóf Erdődy de Monyorókerék et Monoszló
-						mother=100118217	# Maria Zsuzsanna Pálffy ab Erdöd
+						mother=palffy_0053	# Mária Zsuzsanna Pálffy ab Erdöd
 						1678.01.01={birth=yes}  # EST.
 						1717.01.01={add_spouse=100100699}	# GFN Teréz Berényi de Karancsberény
 						1733.01.01={death=yes}
@@ -50464,7 +50965,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 						dynasty=1011008
 						religion=catholic culture=hungarian
 						father=100117388	# Kristóf Erdődy de Monyorókerék et Monoszló
-						mother=100118217	# Maria Zsuzsanna Pálffy ab Erdöd
+						mother=palffy_0053	# Mária Zsuzsanna Pálffy ab Erdöd
 						1679.01.01={birth=yes}
 						1750.01.01={death=yes}
 					}
@@ -50474,7 +50975,7 @@ name="Mária Jozefa" # 1818819/josepha-Pálffy-de-erdoed/
 						dynasty=1011008
 						religion=catholic culture=hungarian
 						father=100117388	# Kristóf Erdődy de Monyorókerék et Monoszló
-						mother=100118217	# Maria Zsuzsanna Pálffy ab Erdöd
+						mother=palffy_0053	# Mária Zsuzsanna Pálffy ab Erdöd
 						1682.01.01={birth=yes}
 						1752.09.07={death=yes}  # Wien
 					}
@@ -62400,7 +62901,7 @@ illeshazy_0001={ #// Illés Illésházy, fl 1400
 											religion=catholic culture=hungarian
 											father=illeshazy_0021	# János Illésházy de Illésháza
 											mother=100415321	# Szidónia Batthyány de Német-Ujvar
-											1755.01.01={birth=yes}  # EST.
+											1765.01.01={birth=yes}  # EST.
 											1830.12.01={death=yes}  # EST.
 										}
 										illeshazy_0025={ #// J4. Júlia; m.Gf Antal Cziráky de Czirák et Dénesfalva (*1772 +1852) $$
@@ -62410,7 +62911,7 @@ illeshazy_0001={ #// Illés Illésházy, fl 1400
 											religion=catholic culture=hungarian
 											father=illeshazy_0021	# János Illésházy de Illésháza
 											mother=100415321	# Szidónia Batthyány de Német-Ujvar
-											1775.01.01={birth=yes}  # EST.
+											1770.01.01={birth=yes}  # EST.
 											1850.12.01={death=yes}  # EST.
 										}
 									illeshazy_0026={ #// I3. Júlia; m.Gf János Balassa de Gyarmat (+1772) $$
@@ -62470,7 +62971,7 @@ illeshazy_0001={ #// Illés Illésházy, fl 1400
 								religion=catholic culture=hungarian
 								father=illeshazy_0030	# István Illésházy de Illésháza
 								mother=lowborn_0111	# Erzsébet Lengyel
-								1628.01.01={birth=yes}  # EST.
+								1636.01.01={birth=yes}  # EST.
 								1703.12.01={death=yes}  # EST.
 							}
 						illeshazy_0032={ #// F2. Gábor; 1m: Éva Ujfalussy de Divék-Újfalu; 2m: Zsófia Tarnowska; 3m: Gfn Éva Széchy de Rimaszécs
@@ -62560,7 +63061,7 @@ illeshazy_0001={ #// Illés Illésházy, fl 1400
 					father=illeshazy_0011	# Tamás Illésházy de Illésháza
 					mother=lowborn_0022	# Zsófia Földes
 					1546.01.01={birth=yes}
-					1582.01.01={add_spouse=100118149}	# Katalin Pálffy ab Erdöd
+					1582.01.01={add_spouse=palffy_0011}	# Katalin Pálffy ab Erdöd
 					1609.05.05={death=yes}  # Wien
 				}
 				illeshazy_0042={ #// D6. [2m.] Zsófia, *1547, +Galántha 1599; m.1566 Ferenc Esterházy de Galántha (*1533 +1604) $$
@@ -62728,14 +63229,14 @@ perenyi_0104={ #// István Perényi de Perény, Asztalnokmester, +1523; 1m: NN; 
 				1632.08.20={add_spouse=lowborn_9860}	# Katalin Bornemissza-Hegedűs de Devecser et Rozvágy
 				1638.02.05={death=yes}  # Nyalábvár
 			}
-				perenyi_0121={ #// D1. György; 1m: Magdolna Pálffy de Erdőd; 2m: Judit Závody
+				perenyi_0121={ #// D1. György; 1m: Magdolna Pálffy de Erdőd; 2m: Judit Závody $$
 					name=György
 					dynasty=1011679
 					religion=catholic culture=hungarian
 					father=perenyi_0105	# György Perényi de Perény
 					mother=lowborn_9859	# Zsuzsanna Melith de Bribir
 					1606.01.01={birth=yes}  # EST.
-					1631.01.01={add_spouse=lowborn_9861}	# Magdolna Pálffy de Erdőd
+					1627.01.01={add_spouse=palffy_0073}	# Magdolna Pálffy ab Erdöd
 					1636.01.01={add_spouse=lowborn_9862}	# Judit Závody
 					1666.01.01={death=yes}  # EST.
 				}
@@ -67237,7 +67738,7 @@ bruckenthal_0001={ #// Michael Broeckner (Mihály Bruckenthal), fl 1724; m.Susan
 			religion=lutheran culture=german
 			father=bruckenthal_0002	# Mihály Bruckenthal
 			1746.03.03={birth=yes}
-			1768.01.01={add_spouse=lowborn_0303}	# RR Zsuzsanna von Rittern
+			1768.01.01={add_spouse=lowborn_0303}	# Zsuzsanna Ritter von Rittern
 			1796.01.01={add_spouse=lowborn_0304}	# GFN Krisztina Teleki de Szék
 			1813.09.18={death=yes}
 		}
@@ -67247,7 +67748,7 @@ bruckenthal_0001={ #// Michael Broeckner (Mihály Bruckenthal), fl 1724; m.Susan
 				dynasty=1011440
 				religion=lutheran culture=german
 				father=bruckenthal_0003	# Michael Bruckenthal
-				mother=lowborn_0303	# RR Zsuzsanna von Rittern
+				mother=lowborn_0303	# Zsuzsanna Ritter von Rittern
 				1769.10.12={birth=yes}  # Nagyszeben
 				1814.03.06={death=yes}  # Algyógy
 			}
@@ -76774,14 +77275,14 @@ balassa_0004={ #// Gf Miklós Balassa de Gyarmat, Honti főispán, fl 1389-1435,
 						1590.01.01={add_spouse=lowbor2_1847}	# Margit Bakics de Lak
 						1645.01.01={death=yes}  # EST.
 					}
-						balassa_0084={ #// F1. Péter, +1621; m.Gfn Magdolna Pálffy de Erdőd (*14.7.1546, +Torna 18.10.1629)
+						balassa_0084={ #// F1. Péter, +1621; m.Gfn Magdolna Pálffy de Erdőd (*14.7.1546, +Torna 18.10.1629) $$
 							name=Péter
 							dynasty=balassa
 							religion=catholic culture=hungarian
 							father=balassa_0083	# Menyhért Balassa de Gyarmat
 							mother=lowbor2_1847	# Margit Bakics de Lak
 							1591.01.01={birth=yes}  # EST.
-							1602.01.01={add_spouse=lowbor2_1848}	# GFN Magdolna Pálffy de Erdőd
+							1602.01.01={add_spouse=palffy_0073}	# Magdolna Pálffy ab Erdöd
 							1621.01.01={death=yes}
 						}
 						balassa_0085={ #// F2. Ferenc, +1621
@@ -78814,7 +79315,7 @@ karatsonyi_0001={ #// Gratián Karátsonyi de Beodra, *1655; m.NN; They had issu
 			father=karatsonyi_0002	# Kristóf Karátsonyi de Karátsonyfalva et Beodra
 			mother=lowbor2_0897	# Mária Muhály
 			1720.01.01={birth=yes}  # EST.
-			1750.01.01={add_spouse=lowbor2_1091}	# Mária Lázár
+			1742.01.01={add_spouse=lowbor2_1091}	# Mária Lázár
 			1790.01.01={death=yes}  # EST.
 		}
 			karatsonyi_0004={ #// C1. Lázár; m.Teréz Bohus
@@ -81849,7 +82350,7 @@ beldi_0057={ #// Pál Béldi de Uzon (*1621, +Istanbul 1679); m.Zsuzsanna Vitéz
 					father=beldi_0051	# István Béldi de Uzon
 					mother=100119439	# Anna Bornemisza de Kászon
 					1819.08.30={birth=yes}  # Brassó
-					1845.09.18={add_spouse=lowbor2_1808}	# GF Ferenc Nemes
+					1845.09.18={add_spouse=lowbor2_1808}	# GFN Franciska Nemes
 					1890.10.08={add_spouse=lowbor2_1809}	# Katalin Osváth de Hadad
 					1904.01.01={death=yes}
 				}
@@ -81858,7 +82359,7 @@ beldi_0057={ #// Pál Béldi de Uzon (*1621, +Istanbul 1679); m.Zsuzsanna Vitéz
 						dynasty=beldi
 						religion=catholic culture=hungarian
 						father=beldi_0053	# István Béldi de Uzon
-						mother=lowbor2_1808	# GF Ferenc Nemes
+						mother=lowbor2_1808	# GFN Franciska Nemes
 						1847.03.21={birth=yes}
 						1873.06.21={add_spouse=100117149}	# Polyxena Bethlen de Bethlen
 						1874.08.01={death=yes}
