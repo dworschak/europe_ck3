@@ -68,26 +68,26 @@ husarzewski_0001={ #// Józef Husarzewski (*5.10.1840, +Kraków 19.2.1892); m.6.
 
 
 ## KRASICKI 1012021
-100211367={ #// Jan Wincenty Krasicki (*1704, +Dubiecko 26.9.1751) %%
+krasicki_0010={ #// Jan Wincenty Krasicki (*1704, +Dubiecko 26.9.1751) %%
 	name="Jan Wincenty"
 	dynasty=1012021
 	religion=catholic culture=polish
 	1704.01.01={birth=yes}
 	1751.09.26={death=yes}  # Dubiecko
 }
-	100201367={ #// A1. Antoni (*Wielicku 14.3.1736, +Dubiecko 21.7.1800) %%
+	krasicki_0011={ #// A1. Antoni (*Wielicku 14.3.1736, +Dubiecko 21.7.1800) %%
 		name=Antoni
 		dynasty=1012021
 		religion=catholic culture=polish
-		father=100211367	# Jan Wincenty Krasicki
+		father=krasicki_0010	# Jan Wincenty Krasicki
 		1736.03.14={birth=yes}	# Wielicku
 		1800.07.21={death=yes}  # Dubiecko
 	}
-		100101367={ #// B1. Jan (*Dubiecko 1763, +Baranów 19.1.1830); m.1789 Maria Anna Potocki (*1.8.1767, +20.5.1829) %%
+		krasicki_0009={ #// B1. Jan (*Dubiecko 1763, +Baranów 19.1.1830); m.1789 Maria Anna Potocki (*1.8.1767, +20.5.1829) %%
 			name=Jan				# http://www.sejm-wielki.pl/b/12.270.428
 			dynasty=1012021
 			religion=catholic culture=polish
-			father=100201367	# Antoni Krasicki
+			father=krasicki_0011	# Antoni Krasicki
 			1763.01.01={birth=yes}	# Dubiecko
 			1789.01.01={add_spouse=100114028}	# Maria Anna Potocki
 			1830.01.19={death=yes}  # Baranów
@@ -96,8 +96,7 @@ husarzewski_0001={ #// Józef Husarzewski (*5.10.1840, +Kraków 19.2.1892); m.6.
 			name="Ksawery Franciszek"
 			dynasty=1012021
 			religion=catholic culture=polish
-			religion=catholic culture=polish
-			father=100201367	# Antoni Krasicki
+			father=krasicki_0011	# Antoni Krasicki
 			1774.01.01={birth=yes}	# Ksawerów
 			1807.01.01={add_spouse=lowborn_3133}	# CSS Julia Teresa Wandalin-Mniszech z Wielkich Kończyc
 			1844.04.25={death=yes}	# Posada Leska
@@ -359,15 +358,15 @@ krasinski_0020={ #// Jakub Korwin-Krasiński (*1658, +1737); m.1692 Barbara Kukl
 		1724.01.01={add_spouse=lowborn_6371}	# Barbara Zielińska z Zielonej
 		1762.01.01={death=yes}
 	}
-		krasinski_0022={ #// B1. Kazimierz Kazmierz Jan (*1725, +Zegrzu 26.9.1802); m.1st 1773 Eustachia Potocki (+Zegrzu 10.6.1781); m.2nd 1781 Elżbieta Potocki; m.3rd 1782 Anna Ossoliński (*1759, +25.6.1809) %%
+		krasinski_0022={ #// B1. Kazimierz Kazmierz Jan (*1725, +Zegrzu 26.9.1802); m.1st 1760 Eustachia Potocki (+Zegrzu 10.6.1781); m.2nd 1770 Elżbieta Potocki (+10.6.1781); m.3rd 1782 Anna Ossoliński (*1759, +25.6.1809) %%
 			name="Kazimierz Kazmierz Jan"
 			dynasty=1012024
 			religion=catholic culture=polish
 			father=krasinski_0021	# Antoni Korwin-Krasiński
 			mother=lowborn_6371	# Barbara Zielińska z Zielonej
 			1725.01.01={birth=yes}
-			1773.01.01={add_spouse=100114070}	# Eustachia Potocki
-			1781.01.01={add_spouse=100114068}	# Elżbieta Potocki
+			1760.01.01={add_spouse=100114070}	# Eustachia Potocki
+			1770.01.01={add_spouse=100114068}	# Elżbieta Potocki
 			1782.01.01={add_spouse=ossolinski_0022}	# Anna Ossoliński
 			1802.09.26={death=yes}	# Zegrzu
 		}
@@ -381,14 +380,14 @@ krasinski_0020={ #// Jakub Korwin-Krasiński (*1658, +1737); m.1692 Barbara Kukl
 				1810.09.27={add_spouse=lowborn_9179}	# Emilia Anna Marianna Ossolińska z Balic
 				1845.10.14={death=yes}  # Kraków
 			}
-				krasinski_0024={ #// D1. Marianna (*1810, +1862); m.1832 Ct Kazimierz Łubieński z Łubnej (*1801, +1870) %%
+				krasinski_0024={ #// D1. Marianna (*1.12.1810, +1862); m.1832 Ct Kazimierz Łubieński z Łubnej (*1801, +1870) %%
 					name=Marianna
 					female=yes
 					dynasty=1012024
 					religion=catholic culture=polish
 					father=krasinski_0023	# Józef Wawrzyniec Maciej Korwin-Krasiński
 					mother=lowborn_9179	# Emilia Anna Marianna Ossolińska z Balic
-					1810.01.01={birth=yes}
+					1810.12.01={birth=yes}
 					1862.01.01={death=yes}
 				}
 				krasinski_0026={ #// D2. Stanisław Kostka (*Warszawa 16.7.1811, +Zegrze 25.6.1848); m.25.4.1841 Dorota Jabłonowski (*5.8.1820) %%
@@ -14559,7 +14558,7 @@ piast_0001={ #// Duke Bolko I of Auschwitz and Teschen, *1363, +6.5.1431; 1m: 14
 						father=100112341	# Seweryn Swiatopelk-Czetwertyński
 						mother=przezdziecki_0023	# Zofia Barbara Przezdziecki
 						1910.03.17={birth=yes}
-						1958.04.08={add_spouse=100084427}	# Marie Greindl
+						1958.04.08={add_spouse=100084427}	# BSS Marie Greindl
 						1978.10.17={death=yes}
 					}
 					100112364={ #// E7. Pss Krystyna, *Suchowola 10.9.1918
@@ -24566,7 +24565,7 @@ radziwill_0007={ #// Pr Aleksander Ludwik Radziwill, ordynat na Nieswiezu, stoln
 					dynasty=1012003
 					religion=catholic culture=polish
 					father=radziwill_0031	# Michał Kazimierz Radziwiłł
-					mother=wisniow_0075	# Urszula Franciszka Wiśniowiecki
+					mother=lowborn_6325	# Anna Ludwika Mycielska
 					1763.01.01={birth=yes}  # EST.
 					1823.01.01={death=yes}  # EST.
 				}
@@ -27116,7 +27115,7 @@ zamoyski_0001={ #// Tomasz z Laznina i Zamoscia, +ca 1473; m.Malgorzata N
 		father=zamoyski_0001	# Tomasz Zamoyski
 		1441.01.01={birth=yes}  # EST.
 		1466.01.01={add_spouse=lowborn_2746}	# Anna Komorowska
-		1471.01.01={add_spouse=lowborn_2913}	# Jadwiga Uhrynowska
+		1490.01.01={add_spouse=lowborn_2913}	# Jadwiga Uhrynowska
 		1510.01.01={death=yes}
 	}
 		zamoyski_0003={ #// B1. [1m.] Mikolaj, kanonik, wikary i oficjal chelmski, proboszcz chelmski till 1511, sekretarz królewski 1515, proboszcz tarnowski 1517, kanonik krakowski 1517, referendarz dworu 1519, kantor sandomierski 1530, scholastyk leczycki 1531, proboszcz gorajski i wojnicki, *1472, +1532
@@ -27256,7 +27255,7 @@ zamoyski_0001={ #// Tomasz z Laznina i Zamoscia, +ca 1473; m.Malgorzata N
 			religion=catholic culture=polish
 			father=zamoyski_0002	# Florian Zamoyski
 			mother=lowborn_2746	# Anna Komorowska
-			1466.01.01={birth=yes}  # EST.
+			1467.01.01={birth=yes}  # EST.
 			1526.01.01={death=yes}  # EST.
 		}
 	zamoyski_0017={ #// A2. Maciej, rotmistrz królewski, fl 1471; m.Beata z Obrowców
@@ -29620,7 +29619,7 @@ czartor_0002={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 		father=czartor_0002	# Vasiliy Czartoryski
 		mother=lowborn_1577	# Hanna N
 		1412.01.01={birth=yes}  # EST.
-		1443.01.01={add_spouse=lowborn_8891}	# Maria of Москва
+		1443.01.01={add_spouse=lowborn_8891}	# Мария of Москва
 		1477.01.01={death=yes}
 	}
 		czartor_0030={ #// B1. Michal
@@ -29628,7 +29627,7 @@ czartor_0002={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 			dynasty=1012000
 			religion=catholic culture=polish
 			father=czartor_0029	# Aleksander Czartoryski
-			mother=lowborn_8891	# Maria of Москва
+			mother=lowborn_8891	# Мария of Москва
 			1444.01.01={birth=yes}  # EST.
 			1504.01.01={death=yes}  # EST.
 		}
@@ -29637,7 +29636,7 @@ czartor_0002={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 			dynasty=1012000
 			religion=catholic culture=polish
 			father=czartor_0029	# Aleksander Czartoryski
-			mother=lowborn_8891	# Maria of Москва
+			mother=lowborn_8891	# Мария of Москва
 			1445.01.01={birth=yes}  # EST.
 			1505.01.01={death=yes}  # EST.
 		}
@@ -29646,7 +29645,7 @@ czartor_0002={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 			dynasty=1012000
 			religion=catholic culture=polish
 			father=czartor_0029	# Aleksander Czartoryski
-			mother=lowborn_8891	# Maria of Москва
+			mother=lowborn_8891	# Мария of Москва
 			1455.01.01={birth=yes}  # EST.
 			1524.01.01={death=yes}
 		}
@@ -29674,7 +29673,7 @@ czartor_0002={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 			dynasty=1012000
 			religion=catholic culture=polish
 			father=czartor_0029	# Aleksander Czartoryski
-			mother=lowborn_8891	# Maria of Москва
+			mother=lowborn_8891	# Мария of Москва
 			1455.01.01={birth=yes}  # EST.
 			1529.01.01={death=yes}
 		}
@@ -29684,7 +29683,7 @@ czartor_0002={ #// Vasiliy Konstantinovich Pr Czartoryski, +1416; m.Hanna N
 			dynasty=1012000
 			religion=catholic culture=polish
 			father=czartor_0029	# Aleksander Czartoryski
-			mother=lowborn_8891	# Maria of Москва
+			mother=lowborn_8891	# Мария of Москва
 			1456.01.01={birth=yes}  # EST.
 			1516.01.01={death=yes}  # EST.
 		}
@@ -32153,7 +32152,7 @@ wisniow_0001={ #// Feodor, Pr of Nieswicz and Zbarazh, starost podolski, fl 1422
 					mother=lowborn_2902	# PSS N Połubińska
 					1479.01.01={birth=yes}  # EST.
 					1530.01.01={add_spouse=lowborn_2977}	# PSS Bohdana Holszańska Dubrowicka
-					1534.01.01={add_spouse=lowborn_2979}	# PSS Maria Путятин
+					1534.01.01={add_spouse=lowborn_2979}	# PSS Мария Путятин
 					1549.01.01={death=yes}
 				}
 				wisniow_0056={ #// D4. [1m.] Pr Iwan Wisniowiecki, dworzanin królewski 1522, dzierzawca ejszyski, wornianski, czeczerski i propojski, +ca 1542; 1m: after 1516 Nastazja Olizarowiczowna (+ca 1536), dau.of Semen Olizarowicz; 2m: ca 1538 Pss Magdalena Despotowna Brankovic (+13.7.1575)
@@ -35074,7 +35073,7 @@ ostrog_0001={ #// Daniel, Pr of Ostrog, +after 1366; m.Vasilisa N
 								religion=catholic culture=polish
 								father=ostrog_0016	# Alexander Ostrogski
 								mother=lowborn_6765	# Anna Kostczanka
-								1590.01.01={birth=yes}
+								1593.01.01={birth=yes}
 								1622.01.01={death=yes}
 							}
 							ostrog_0020={ #// G4. Pss Katarzyna, +6.10.1642; m.II.1620 Tomasz Zamoyski (*Zamosc IV.1594, +Zamosc 8.1.1638), Great Crown Chancellor of Poland $$
@@ -35159,7 +35158,7 @@ ostrog_0001={ #// Daniel, Pr of Ostrog, +after 1366; m.Vasilisa N
 						father=ostrog_0027	# Iwan Ostrogski
 						mother=lowborn_6774	# Olena Fedorowna
 						1500.01.01={birth=yes}  # EST.
-						1529.01.01={add_spouse=lowborn_6775}	# PSS Nastazja Holszańska-Dubrowiecka
+						1528.01.01={add_spouse=lowborn_6775}	# PSS Nastazja Holszańska-Dubrowiecka
 						1556.01.01={death=yes}
 					}
 						ostrog_0029={ #// F1. Pr Janusz Zaslawski; m.N Kierdejowna
@@ -35168,7 +35167,7 @@ ostrog_0001={ #// Daniel, Pr of Ostrog, +after 1366; m.Vasilisa N
 							religion=catholic culture=polish
 							father=ostrog_0028	# Kuzma Ostrogski
 							mother=lowborn_6775	# PSS Nastazja Holszańska-Dubrowiecka
-							1528.01.01={birth=yes}  # EST.
+							1529.01.01={birth=yes}  # EST.
 							1548.01.01={add_spouse=lowborn_6776}	# N Kierdej
 							1588.01.01={death=yes}  # EST.
 						}
@@ -37231,7 +37230,7 @@ woroniecki_0001={ #// Mieczysław Woroniecki (*Skurowa 1848, +Rapallo 5.4.1908);
 		1878.01.01={birth=yes}
 		1949.01.01={death=yes}
 	}
-	woroniecki_0008={ #// A3. Jan (*1880, +1960); m.1906 Adina Ionescu %%
+	woroniecki_0008={ #// A3. Jan (*1880, +1960) %%
 		name=Jan
 		dynasty=woroniecki
 		religion=catholic culture=polish

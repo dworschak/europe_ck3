@@ -14,12 +14,13 @@
 	1646.02.14={birth=yes}
 	1723.02.04={death=yes}  # Praha
 }
-100094582={ #    Gf         Ferdinand Robert          d'Aspremont-Lynden                       (1655-1708)     - [ORANE]
+lowbor2_2145={ # Gf         Ferdinand Robert          d'Aspremont-Lynden                       (1643-1708)  2  - [ORANE, RAKOCSI]
 	name="Ferdinand Robert d'Aspremont-Lynden"
 	#dynasty=0
 	religion=catholic culture=german
-	1655.01.01={birth=yes}  # EST.
+	1643.01.01={birth=yes}
 	1680.01.01={add_spouse=100037143}	# Elisabeth Charlotte von Nassau-Siegen
+	1691.06.24={add_spouse=rakoczi_0030}	# Julianna Borbála Rákóczi de Felsővadász
 	1708.02.01={death=yes}
 }
 lowborn_1954={ # Gf         Ferdinand Karl            d'Aspremont-Lynden                       (1689-1772)  2  - [ESTERHASI, NOSTIC]
@@ -1944,6 +1945,15 @@ lowborn_9501={ # Gfn        Wilhelmina Juliane        van Berg s'Heerenberg     
 	1638.01.01={birth=yes}
 	1714.01.01={death=yes}
 }
+lowbor2_2057={ # Gfn        Elisabeth                 van Berg-'s-Heerenberg                   (1629-1689)     1 [RECBERG]
+	name="Elisabeth van Berg-'s-Heerenberg"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=bavarian
+	1629.01.01={birth=yes}  # Venlo
+	1689.01.01={death=yes}  # Illeraichen
+}
+
 100095383={ #    Gf         Johann Jakob              van Bronckhorst                          (1582-1630)     - [HOHENSOLERN]
 	name="Johann Jakob van Bronckhorst"
 	#dynasty=0
@@ -1975,6 +1985,14 @@ lowborn_9501={ # Gfn        Wilhelmina Juliane        van Berg s'Heerenberg     
 	1652.01.01={birth=yes}  # EST.
 	1677.01.01={add_spouse=100010333}	# Eleonore Philippine von Fürstenberg
 	1719.04.08={death=yes}
+}
+lowborn_9500={ # Gfn        Johanna                   van Bronckhorst-Batenburg                (1627-1685)     5 [CRI]
+	name="Johanna von Bronckhorst-Batenburg"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=german
+	1627.03.28={birth=yes}
+	1685.01.01={death=yes}  # aft
 }
 100094642={ #               Otto                      von Bronckhorst                          (1419-1458)     - [ORANE]
 	name="Otto von Bronckhorst"
@@ -2124,4 +2142,36 @@ lowborn_7767={ #            Reinier Anton Gerrit      van der Woude             
 	religion=anglican culture=english
 	1920.01.01={birth=yes}  # EST.
 	1995.01.01={death=yes}  # EST.
+}
+lowborn_9635={ # sn         Joachim                   van Hangest de Moyencourt                (1504-1574)     - [MONTMORENCI]
+	name="Joachim van Hangest de Moyencourt"
+	#dynasty=0
+	religion=catholic culture=dutch
+	1504.01.01={birth=yes}  # EST.
+	1529.01.01={add_spouse=morency_0123}	# Isabeau de Montmorency
+	1574.01.01={death=yes}  # EST.
+}
+lowborn_9600={ # Dame       Maria                     van Hoorne de Montigny                   (1476-1558)     6 [MONTMORENCI]
+	name="Maria van Hoorne de Montigny"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=dutch
+	1476.01.01={birth=yes}
+	1558.06.07={death=yes}
+}
+lowborn_8343={ # Vrouwe     Gudula Vilain             van Liederkerke                          (1422-1485)     4 [MONTMORENCI]
+	name="Gudula Vilain van Liederkerke"
+	female=yes
+	#dynasty=0
+	religion=catholic culture=french
+	1422.01.01={birth=yes}  # EST.
+	1485.01.01={death=yes}
+}
+lowbor2_1670={ # heer       Affo Beninga              van Pirsum heer van Bersum               (1333-1402)     - [OSTFRIESLAND]
+	name="Affo Beninga van Pirsum heer van Bersum"
+	#dynasty=0
+	religion=catholic culture=frisian
+	1333.01.01={birth=yes}  # EST.
+	1358.01.01={add_spouse=cirksena_0007}	# daughter Cirksena
+	1402.01.01={death=yes}
 }

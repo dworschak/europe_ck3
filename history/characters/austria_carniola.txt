@@ -2419,14 +2419,14 @@
 				1682.07.15={birth=yes}
 				1735.02.22={death=yes}
 			}
-			100021626={ #// C7. Wolfgang Gottfried, *1689, +1747; 1m: 1714 Frn Esther Elisabeth von Rogendorf Gfn von Guntersdorf (*1671, +1733); 2m: 1735 Franziska Gfn von Kornfail
+			100021626={ #// C7. Wolfgang Gottfried, *1689, +1747; 1m: 1714 Frn Esther Elisabeth von Rogendorf Gfn von Guntersdorf (*1671, +1733); 2m: 1735 Franziska Gfn von Kornfail $$
 				name="Wolfgang Gottfried"
 				dynasty=1004007
 				religion=catholic culture=hungarian
 				father=100021466	# Wolfgang Maximilian von Auersperg
 				mother=100092902	# FRN Susanne Elisabeth von Polheim
 				1689.01.01={birth=yes}
-				1714.01.01={add_spouse=100099518}	# FRN Esther Elisabeth von Rogendorf
+				1714.01.01={add_spouse=rogendorf_0040}	# Esther Elisabeth von Rogendorf
 				1735.01.01={add_spouse=100099519}	# GFN Franziska von Kornfail
 				1747.01.01={death=yes}
 			}
@@ -4836,11 +4836,51 @@
 
 
 ## Blagay-Ursini	blagay
+#blagai1
+blagay_0045={ #// G2. István, fl 1470-93; m.Gfn Dorottya Frangepán (fl 1489) $$
+	name="István"
+	dynasty=blagay
+	religion=catholic culture=croatian
+	1445.01.01={birth=yes}  # EST.
+	1464.01.01={add_spouse=frangepan_0068}	# Dorottya Frangepán
+	1500.01.01={death=yes}  # EST.
+}
+	blagay_0044={ #// H1. Gergely, fl 1486-1507
+		name="Gergely"
+		dynasty=blagay
+		religion=catholic culture=croatian
+		father=blagay_0045	# István Ursini von Blagay
+		1465.01.01={birth=yes}  # EST.
+		1515.01.01={death=yes}  # EST.
+	}
+		blagay_0042={ #// I1. István Ursinus Gf Blagai, fl 1523-42; m.Gfn Dorottya Frangepán (fl 1531-75) $$
+			name="István"
+			dynasty=blagay
+			religion=catholic culture=croatian
+			father=blagay_0044	# Gergely Ursini von Blagay
+			1489.01.01={birth=yes}  # EST.
+			1519.01.01={add_spouse=frangepan_0078}	# Dorottya Frangepán
+			1550.01.01={death=yes}  # EST.
+		}
+			#blagai2  -->   J1. Ferenc, fl 1547, +1.8.1576; m.Frn Maria Magdalena von Lamberg; for his issue see HERE
+		blagay_0043={ #// I3. Anna; m.Gf György Frangepán (+1553) $$
+			name="Anna"
+			female=yes
+			dynasty=blagay
+			father=blagay_0044	# Gergely Ursini von Blagay
+			religion=catholic culture=croatian
+			1491.01.01={birth=yes}  # EST.
+			1530.01.01={death=yes}  # EST.
+		}
+#blagai1
+
 #blagai2
 blagay_0001={ #// Gf Ferenc (Franz) Blagay (Ursinus de Blagai), +1.8.1576; m.Frn Maria Magdalena von Lamberg $$
 	name=Ferenc
 	dynasty=blagay
-	religion=catholic culture=german
+	religion=catholic culture=croatian
+	father=blagay_0042	# István Ursini von Blagay
+	mother=frangepan_0068	# Dorottya Frangepán
 	1520.01.01={birth=yes}  # EST.
 	1554.01.01={add_spouse=100024723}	# Maria Magdalena von Lamberg
 	1576.08.01={death=yes}
@@ -4848,7 +4888,7 @@ blagay_0001={ #// Gf Ferenc (Franz) Blagay (Ursinus de Blagai), +1.8.1576; m.Frn
 	blagay_0002={ #// A1. Georg, +1590; m.Frn Felizitas von Auersperg $$
 		name=Georg
 		dynasty=blagay
-		religion=catholic culture=german
+		religion=catholic culture=croatian
 		father=blagay_0001	# Ferenc Ursini von Blagay
 		mother=100024723	# Maria Magdalena von Lamberg
 		1555.01.01={birth=yes}  # EST.
@@ -5211,17 +5251,5 @@ blagay_0001={ #// Gf Ferenc (Franz) Blagay (Ursinus de Blagai), +1.8.1576; m.Frn
 		1564.01.01={birth=yes}  # EST.
 		1595.01.01={death=yes}  # EST.
 	}
-#1536.01.01={holder=blagay_0001} # Gf Ferenc 
-#1576.08.01={holder=blagay_0002} # A1. Georg
-#1590.01.01={holder=blagay_0003} # B1. Johann Weikhard
-#1617.01.01={holder=blagay_0005} # C2. Eberhard Leopold
-#1680.03.30={holder=blagay_0007} # D2. Franz Adam
-#1716.01.01={holder=blagay_0008} # E1. Weikhard Leopold
-#1719.01.01={holder=blagay_0009} # F1. Kaspar
-#1758.01.01={holder=blagay_0015} # F2. Johann
-#1810.03.11={holder=blagay_0018} # G3. Joseph Franz Ursinus Gf Blagay
-#1831.09.25={holder=blagay_0020} # H2. Richard
-#1858.03.14={holder=blagay_0022} # H4. Jodok
-#1862.01.01={holder=blagay_0026} # I3. Ludwig
 #blagai2
 ## Blagay-Ursini	blagay

@@ -3751,7 +3751,25 @@
 			1864.01.01={birth=yes}	# EST.
 			1923.01.01={death=yes}	# EST.
 		}
-
+	100435264={ #// A4. Alexander (*1821, +1899) %%
+		name=Alexander 
+		dynasty=1007050
+		religion=catholic culture=french
+		father=100035224	# Paul de Nicolaï
+		mother=100065289	# Alexandrine de Broglie
+		1821.01.01={birth=yes}
+		1899.01.01={death=yes}
+	}
+		100435265={ #// B1. Maria (*1859, +1919); m.1873 Giorgi Shervashidze (*1847) %%
+			name="Maria"
+			female=yes
+			#dynasty=1007050
+			religion=orthodox culture=french
+			father=100435264	# Alexander de Nicolaï
+			1859.01.01={birth=yes}
+			1919.01.01={death=yes}
+		}
+	
 100035213={ #// Gérard de Nicolaï (*Paris 9.7.1929) %%
 	name=Gérard
 	dynasty=1007050
@@ -3817,15 +3835,7 @@
 	1868.11.18={birth=yes}
 	1893.06.13={death=yes}  # Paris
 }
-lwbrnga_0392={ # Pss        Maria Alexandrovna        Nicolay                                  (1852-1912)     1
-	name="Maria Alexandrovna Nicolay"
-	female=yes
-	#dynasty=0
-	religion=orthodox culture=georgian
-	1852.01.01={birth=yes}  # EST.
-	1912.01.01={death=yes}  # EST.
-}
-100335225={ #               Marie Thérèse             de Nicolay                               (1852-1902)     3 [ROUGE]
+100335225={ #//            Marie Thérèse             de Nicolay                               (1852-1902)     3 [ROUGE]
 	name="Marie Thérèse de Nicolay"
 	female=yes
 	#dynasty=0
@@ -3901,6 +3911,17 @@ lwbrnga_0392={ # Pss        Maria Alexandrovna        Nicolay                   
 # TULLE
 
 # Thyssen-Bornemisza de Kászon
+# https://genealogy.euweb.cz/hung/thyssen.html
+
+#thyssen
+100436720={ #// F1. Anna, *Bonn 13.5.1909, +Munich 20.8.1990; m.Mülheim an der Ruhr 6.8.1936 (div) Ödön Gf Zichy de Zich et Vásonkeö (*Graz 1.5.1910, +Buenos Aires 25.5.1974)
+	name="Anita Thyssen"
+	female=yes
+	religion=catholic culture=german
+	1909.05.13={birth=yes}	# Bonn
+	1990.08.20={death=yes}	# Munich
+}
+
 100036720={ #// E3. Heinrich Baron Thyssen-Bornemisza de Kászon, adopted by Gábor Baron Bornemisza de Kászon (Wien 22.6.1907), *Mülheim an der Ruhr 31.10.1875, +Lugano-Castagnola 26.6.1947; 1m: Wien 4.1.1906 (div) Margit Bss Bornemisza de Kászon (*Csetény 23.7.1887, +Locarno 17.4.1971); 2m: Bruxelles 29.8.1932 (div) Else (Maud) Zarske (Feller), (*Thorn 17.4.1909, +?); 3m: Berlin 15.11.1937 Gunhild von Fabrice (*Magdeburg 5.3.1908) $$
 	name="Heinrich Thyssen"
 	dynasty=0
@@ -3944,6 +3965,7 @@ lwbrnga_0392={ # Pss        Maria Alexandrovna        Nicolay                   
 			father=100036893	# Heinrich Thyssen-Bornemisza de Kászon et Impérfalva
 			1958.06.07={birth=yes}
 		}
+#thyssen
 # Thyssen-Bornemisza de Kászon
 	
 	
@@ -8643,6 +8665,15 @@ lwbrnga_0392={ # Pss        Maria Alexandrovna        Nicolay                   
 							1911.08.16={birth=yes}  # Deutenhofen
 							1946.07.03={add_spouse=geldernegmond_0051}	# Maria von Geldern-Egmond
 							1984.01.26={death=yes}  # Pfarrkirchen Rottal
+						}
+						100436179={ #// F3. Otto (*Thurnstein 15.1.1952); m.24.9.1977 Helene Strachwitz v.Groß-Zauche u.Camminetz (*Buenos Aires 2.6.1951) %%
+							name="Otto"
+							dynasty=1007063
+							religion=catholic culture=czech
+							father=100036178	# Theodor Basselet de la Rosée
+							mother=100012377	# Marie Franziska zu Oettingen-Spielberg
+							1952.01.15={birth=yes}  # Thurnstein
+							1977.09.24={add_spouse=strachwitz_0240}	# Helene Strachwitz v.Groß-Zauche u.Camminetz
 						}
 		100036177={ #// B2. Agnes (*München 8.1.1779, +15.10.1821); m.2.2.1802 Maximilian Franz von Lamberg (*25.11.1775, +21.11.1837) %%
 			name=Agnes
