@@ -896,14 +896,14 @@ nyary_0001={ #// István Nyáry
 									1623.01.01={birth=yes}
 									1693.01.01={death=yes}  # EST.
 								}
-								nyary_0051={ #// H6. [2m.] Miklós, *1625, +1657; m.1647 Judit Károlyi de Szentimre
+								nyary_0051={ #// H6. [2m.] Miklós, *1625, +1657; m.1647 Judit Károlyi de Szentimre $$
 									name=Miklós
 									dynasty=1011658
 									religion=catholic culture=hungarian
 									father=nyary_0039	# Miklós Nyáry de Bedegh
 									mother=banffy_0109	# Judit Bánffy de Losoncz
 									1625.01.01={birth=yes}
-									1647.01.01={add_spouse=lowbor2_0094}	# Judit Károlyi de Szentimre
+									1647.01.01={add_spouse=karolyi_0028}	# Judit Károlyi de Nagykároly
 									1657.01.01={death=yes}
 								}
 									nyary_0052={ #// I1. Mária, +1694; m.1668 Imre Huszár de Regőcz et Krpellán (+1710)
@@ -912,7 +912,7 @@ nyary_0001={ #// István Nyáry
 										dynasty=1011658
 										religion=catholic culture=hungarian
 										father=nyary_0051	# Miklós Nyáry de Bedegh
-										mother=lowbor2_0094	# Judit Károlyi de Szentimre
+										mother=karolyi_0028	# Judit Károlyi de Nagykároly
 										1648.01.01={birth=yes}  # EST.
 										1694.01.01={death=yes}
 									}
@@ -922,7 +922,7 @@ nyary_0001={ #// István Nyáry
 										dynasty=1011658
 										religion=catholic culture=hungarian
 										father=nyary_0051	# Miklós Nyáry de Bedegh
-										mother=lowbor2_0094	# Judit Károlyi de Szentimre
+										mother=karolyi_0028	# Judit Károlyi de Nagykároly
 										trait=nun
 										1650.01.01={birth=yes}  # EST.
 										1714.01.01={death=yes}
@@ -5245,7 +5245,7 @@ lazar_0001={ #// Bálint Nagy-Lázár de Csíkszenttamás; m.N Sylvester de Csí
 							mother=lowbor2_0513	# Katalin Kornis de Homoródszentpál
 							1572.01.01={birth=yes}  # EST.
 							1597.01.01={add_spouse=lowbor2_0515}	# Ilona Székely
-							1525.01.01={add_spouse=lowbor2_0516}	# Zsuzsanna Kovachóczy
+							1625.01.01={add_spouse=lowbor2_0516}	# Zsuzsanna Kovachóczy
 							1632.01.01={death=yes}  # EST.
 						}
 							lazar_0045={ #// G1. István, *1626, +1679; 1m: Katalin Petky de Királyhalom (fl 1676); 2m: Krisztina Keresztúri
@@ -5596,7 +5596,7 @@ lazar_0048={	#// Ferenc Lázár de Szárhegy, cr Graf 9.3.1702, *1675, +1742; 1m
 							1869.08.25={add_spouse=100103598}	# BSS Rudolfine Emanuela Bors de Borsod
 							1900.12.10={death=yes}  # Meggyesfalva
 						}
-							100120129={	#// G1. Eleonóra, *Meggyesfalva 23.2.1871, +Marosvásárhely 2.4.1952; m.Budapest 25.8.1895 Gf Otto von Bissingen-Nippenburg (*Jám 25.9.1860, +Kecskemét 21.4.1900)
+							100120129={	#// G1. Eleonóra, *Meggyesfalva 23.2.1871, +Marosvásárhely 2.4.1952; m.Budapest 25.8.1895 Gf Otto von Bissingen-Nippenburg (*Jám 25.9.1860, +Kecskemét 21.4.1900) $$
 								name=Eleonóra
 								female=yes
 								dynasty=lazar
@@ -12395,7 +12395,7 @@ barcsay_0001={ #// Pál Barcsay de Nagybarcsa, fl 1667-1707; m.Ágnes Felvinczy
 								1955.01.01={death=yes}  # EST.
 							}
 							barcsay_0022={ #// G5. [adopted by Kálmán Barcsay de Nagybarcsa] Adorján, *4.11.1887
-								name="[adopted Kálmán"
+								name="Adorján"
 								dynasty=barcsay
 								religion=catholic culture=hungarian
 								father=barcsay_0017	# Ádám Barcsay de Nagybarcsa
@@ -17098,15 +17098,15 @@ nemes_0013={	#// Ádám Nemes de Hídvég et Oltszem, Graf; m.Zsuzsanna Tordai d
 			1906.09.28={add_spouse=100072181}	# Stephanie Pallavicini
 			1912.03.07={death=yes}  # Budapest
 		}
-			100119515={	#// C1. MIHÁLY Mária Endre Eduárd, *Mosdós 10.8.1907, +London 22.11.1970; 1m: Budapest 26.11.1931 (div 1945) Gfn Eleonóra von Bissingen-Nippenburg (*Kecskemét 28.5.1896, +Bruxelles 15.2.1978); 2m: Frankfurt am Main 16.11.1953 Edina Maria Conelly (*Sabin, Minnesota, USA 19.7.1912, +London 23.6.1977)
+			100119515={	#// C1. MIHÁLY Mária Endre Eduárd, *Mosdós 10.8.1907, +London 22.11.1970; 1m: Budapest 26.11.1931 (div 1945) Gfn Eleonóra von Bissingen-Nippenburg (*Kecskemét 28.5.1896, +Bruxelles 15.2.1978); 2m: Frankfurt am Main 16.11.1953 Edina Maria Conelly (*Sabin, Minnesota, USA 19.7.1912, +London 23.6.1977) $$
 				name=Mihály
 				dynasty=1011527
 				religion=catholic culture=hungarian
 				father=100119514	# Béla Hadik de Futak
 				mother=100072181	# Stephanie Pallavicini
 				1907.08.10={birth=yes}  # Mosdós
-				1931.11.26={add_spouse=100098613}	# GFN Eleonóra von Bissingen u.Nippenburg
-				1945.01.01={remove_spouse=100098613}
+				1931.11.26={add_spouse=bissingen_0037}	# Mária von Bissingen
+				1945.01.01={remove_spouse=bissingen_0037}
 				1953.11.16={add_spouse=100098636}	# Edina Conelly
 				1970.11.22={death=yes}  # London
 			}
@@ -17116,7 +17116,7 @@ nemes_0013={	#// Ádám Nemes de Hídvég et Oltszem, Graf; m.Zsuzsanna Tordai d
 					dynasty=1011527
 					religion=catholic culture=hungarian
 					father=100119515	# Mihály Hadik de Futak
-					mother=100098613	# GFN Eleonóra von Bissingen u.Nippenburg
+					mother=bissingen_0037	# Mária von Bissingen
 					1933.04.13={birth=yes}  # Budapest
 					2010.01.01={death=yes}  # EST.
 				}
@@ -19230,7 +19230,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 				religion=catholic culture=hungarian
 				father=100119289	# Ferenc Kornis de Gönczruszka
 				mother=100098318	# GFN Zsuzsanna Petky de Királyhalom
-				1733.01.01={birth=yes}  # EST.
+				1750.01.01={birth=yes}  # EST.
 				1808.01.01={death=yes}  # EST.
 			}
 			100119293={	#// C4. Krisztina; m.Gf István Haller de Hallerkeö (+1756) $$
@@ -20281,7 +20281,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 						father=100115008	# János Révay de Szklabina et Blatnicza
 						mother=100118524	# Zsófia Esterházy de Galántha
 						1726.01.01={birth=yes}  # EST.
-						1743.01.01={add_spouse=100102596}	# BSS Borbála Anna Minkwitz
+						1743.01.01={add_spouse=100102596}	# BSS Borbála Anna Minckwitz
 						1801.01.01={death=yes}  # EST.
 					}
 						100115001={	#// F2. Karolina, *Verbó 3.10.1744, +Gimes 22.1.1767; m.Verbó 5.1.1764 Gf László Forgách de Ghymes et Gács (*Csejte 2.9.1699, +Gimes 25.2.1778) $$
@@ -20290,7 +20290,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 							dynasty=1011715
 							religion=catholic culture=hungarian
 							father=100115003	# Károly Révay de Szklabina et Blatnicza
-							mother=100102596	# BSS Borbála Anna Minkwitz
+							mother=100102596	# BSS Borbála Anna Minckwitz
 							1744.10.03={birth=yes}  # Verbó
 							1767.01.22={death=yes}  # Gimes
 						}
@@ -20299,7 +20299,7 @@ thorocz_0001={ #// János Thoroczkay de Toroczkószentgyörgy, fl 1652; m.Borbá
 							dynasty=1011715
 							religion=catholic culture=hungarian
 							father=100115003	# Károly Révay de Szklabina et Blatnicza
-							mother=100102596	# BSS Borbála Anna Minkwitz
+							mother=100102596	# BSS Borbála Anna Minckwitz
 							1752.08.04={birth=yes}  # Vágújhely
 							1775.08.30={add_spouse=100102689}	# GFN Antónia Berényi de Karancsberény
 							1818.04.01={death=yes}  # Beckó
@@ -22795,7 +22795,7 @@ forgach_0001={ #// Graf Zsigmond Forgách de Ghymes et Gács, *Gács 19.2.1729, 
 			1769.01.07={add_spouse=100022419}	# Theresia von Colloredo-Waldsee
 			1826.06.09={death=yes}
 		}
-			100118979={	#// C2. LIPÓT Ádám József Ignác Ferenc Xavér Alajos Mihály Kajetán János Nepomuk Candidus, főispán of Komárom, *3.10.1772, +24.9.1836; m.9.9.1799 Gfn Mária Terézia Pálffy de Erdod (*1.9.1768, +Felsolendva 26.8.1829) $$
+			100118979={	#// C2. LIPÓT Ádám József Ignác Ferenc Xavér Alajos Mihály Kajetán János Nepomuk Candidus, főispán of Komárom, *3.10.1772, +24.9.1836; m.9.9.1799 Gfn Mária Terézia Pálffy de Erdod (*1.9.1768, +Felsőlendva 26.8.1829) $$
 				name="Lipot Adam"
 				dynasty=1011659
 				religion=catholic culture=hungarian
@@ -23147,13 +23147,13 @@ forgach_0001={ #// Graf Zsigmond Forgách de Ghymes et Gács, *Gács 19.2.1729, 
 			1744.01.16={birth=yes}  # Pápa
 			1814.06.04={death=yes}
 		}
-	100119016={	#// A4. Ferenc, Ban of Croatia, *Felsolendva 27.10.1708, +Varasd 22.3.1783; 1m: Nagyszombat 8.2.1745 Gfn Maximiliana Eleonore von Rottal (*21.2.1722, +1756); 2m: Bss Maria Terézia Malatinszky de Felso- et Alsómalatin (*1717 +1786), widow of Gf Kazimir Draskovich $$
+	100119016={	#// A4. Ferenc, Ban of Croatia, *Felsőlendva 27.10.1708, +Varasd 22.3.1783; 1m: Nagyszombat 8.2.1745 Gfn Maximiliana Eleonore von Rottal (*21.2.1722, +1756); 2m: Bss Maria Terézia Malatinszky de Felso- et Alsómalatin (*1717 +1786), widow of Gf Kazimir Draskovich $$
 		name=Ferenc
 		dynasty=1011659
 		religion=catholic culture=hungarian
 		father=100119021	# Ferenc Nádasdy de Nádasd et Fogarasföld
 		mother=100081087	# FRN Rozalia Rebeca von Schrattenbach
-		1708.10.27={birth=yes}  # Felsolendva
+		1708.10.27={birth=yes}  # Felsőlendva
 		1745.02.08={add_spouse=rottal_0050}	# Maximiliana Eleonore Theresia von Rottal
 		1757.01.01={add_spouse=100094750}	# BSS Maria Terézia Malatinszky de Felső- et Alsómalatin
 		1783.03.22={death=yes}  # Varasd
@@ -24673,7 +24673,7 @@ forgach_0001={ #// Graf Zsigmond Forgách de Ghymes et Gács, *Gács 19.2.1729, 
 									1859.03.25={birth=yes}  # Székelykeresztúr
 									1925.04.25={death=yes}  # Budapest
 								}
-								100118245={	#// H5. Róza, *Székelykeresztúr 3.9.1861, +1940; m.Székelykeresztúr 14.5.1889 Frhr Joseph von Rothenthal (*Greiz 1.8.1859, +Marosvásárhely 12.8.1928)
+								100118245={	#// H5. Róza, *Székelykeresztúr 3.9.1861, +1940; m.Székelykeresztúr 14.5.1889 Frhr Joseph von Rothenthal (*Greiz 1.8.1859, +Marosvásárhely 12.8.1928) $$
 									name=Róza
 									female=yes
 									dynasty=1011529
@@ -27132,7 +27132,7 @@ wessel_0001={ #// László Wesselényi de Gyeke; m.Anna Barla de Szászfalva
 						1860.07.26={birth=yes}  # Kolozsvár
 						1928.01.23={death=yes}  # Kolozsvár
 					}
-					100118801={	#// E2. Margit, *1866, +Kolozsvár 20.11.1918; m.Kolozsvár 20.3.1891 Frhr Heinrich von Rothenthal (*Egerszeg 11.12.1862, +Szokefalva 13.12.1907)
+					100118801={	#// E2. Margit, *1866, +Kolozsvár 20.11.1918; m.Kolozsvár 20.3.1891 Frhr Heinrich von Rothenthal (*Egerszeg 11.12.1862, +Szokefalva 13.12.1907) $$
 						name=Margit
 						female=yes
 						dynasty=1011802
@@ -28159,7 +28159,7 @@ wessel_0001={ #// László Wesselényi de Gyeke; m.Anna Barla de Szászfalva
 					1890.04.26={birth=yes}  # Tiszalök
 					1914.03.19={add_spouse=solymosy_0003}	# Ilona Solymosy de Loós et Egervár
 					1926.01.01={remove_spouse=solymosy_0003}
-					1928.07.01={add_spouse=100091541}	# GFN Mária Margit von Bissingen u.Nippenburg
+					1928.07.01={add_spouse=bissingen_0038}	# Margit von Bissingen
 					1966.03.18={death=yes}  # Vicente Lopez, Argentina
 				}
 					100117911={	#// E1. [1m.] Johanna Alice, *Budapest 14.1.1915, +Budapest 5.6.1991; 1m: Budapest 15.3.1938 (div 1943) József Schiller (*Tolna 15.9.1905); 2m: Budapest 10.9.1944 Miklós Cséry de Csér et SzentLőrinc (*Budapest 22.2.1897, +Budapest 9.7.1979)
@@ -28207,7 +28207,7 @@ wessel_0001={ #// László Wesselényi de Gyeke; m.Anna Barla de Szászfalva
 						dynasty=1011793
 						religion=catholic culture=hungarian
 						father=100117914	# László Vay de Vaja
-						mother=100091541	# GFN Mária Margit von Bissingen u.Nippenburg
+						mother=bissingen_0038	# Margit von Bissingen
 						1932.05.11={birth=yes}  # Debrecen
 						1993.09.02={death=yes}  # Prov. Santiago del_Estero Argentina
 					}
@@ -32580,7 +32580,7 @@ bthln_iktar_0001={ #// Domokos Bethlen de Iktár, Bán of Szörény, +1480; 1m: 
 								religion=catholic culture=hungarian
 								father=bthln_iktar_0025	# Domokos Bethlen de Iktár
 								mother=lowborn_6658	# Katalin Baldai
-								1625.01.01={birth=yes}  # EST.
+								1629.01.01={birth=yes}  # EST.
 								1685.01.01={death=yes}  # EST.
 							}
 		bthln_iktar_0039={ #// B3. Anna; m.László Apafi de Apanagyfalu (fl 1510-46)
@@ -39113,7 +39113,7 @@ almasy_0091={	#// Imre IGNÁC Almásy de Zsadány et Törökszentmiklós, , cr G
 					1890.05.26={birth=yes}  # Békésgyula
 					1950.10.04={death=yes}  # Budapest
 				}
-				100116038={	#// D3. GABRIELLA Emília Jozefine Georgina Mária, *Békésgyula 22.3.1892, +Kajdacs 27.2.1958; m.Budapest 8.1.1913 Gf Johann Woracziczky von Pabienitz (*Temesmonostor 14.3.1886, +k.a.Kolki 9.10.1915)
+				100116038={	#// D3. GABRIELLA Emília Jozefine Georgina Mária, *Békésgyula 22.3.1892, +Kajdacs 27.2.1958; m.Budapest 8.1.1913 Gf Johann Woracziczky von Pabienitz (*Temesmonostor 14.3.1886, +k.a.Kolki 9.10.1915) $$
 					name=Gabriella
 					female=yes
 					dynasty=1011310
@@ -39221,7 +39221,7 @@ almasy_0091={	#// Imre IGNÁC Almásy de Zsadány et Törökszentmiklós, , cr G
 						1918.08.26={birth=yes}  # Budapest
 						1993.01.01={death=yes}
 					}
-				100116017={	#// D4. JACQUELINE Erzsébet Mária, *Kétegyháza 9.4.1895, +New York 1951; 1m: Budapest 10.10.1917 Gf Karl von Bissingen und Nippenburg (*12.9.1891, +Termine 6.7.1918); 2m: 1927 Louis Cartier (*1875 +1942)
+				100116017={	#// D4. JACQUELINE Erzsébet Mária, *Kétegyháza 9.4.1895, +New York 1951; 1m: Budapest 10.10.1917 Gf Karl von Bissingen und Nippenburg (*12.9.1891, +Termine 6.7.1918); 2m: 1927 Louis Cartier (*1875 +1942) $$
 					name=Jacqueline
 					female=yes
 					dynasty=1011310
@@ -42844,7 +42844,7 @@ almasy_0001={ #// ANTAL Ferenc Almásy de Zsadány et Törökszentmiklós, *Gyö
 					1817.01.01={birth=yes}
 					1892.01.01={death=yes}
 				}
-		100115335={	#// B7. Maria Anna, *Graz 14.1.1750, +Praha 26.1.1796; m.Graz 11.4.1779 Antal Heinrich Gf Woracziczky z Pabienitz (+9.1.1795)
+		100115335={	#// B7. Maria Anna, *Graz 14.1.1750, +Praha 26.1.1796; m.Graz 11.4.1779 Antal Heinrich Gf Woracziczky z Pabienitz (+9.1.1795) $$
 			name="Maria Anna"
 			female=yes
 			dynasty=1011000
@@ -47957,7 +47957,7 @@ palffy_0040={	#// Gf LIPÓT II István József János Júdás Tádé Antal Pálf
 			1792.01.01={add_spouse=100023230}	# Ernestine von Hoyos
 			1823.01.01={death=yes}
 		}
-		100118163={	#// B5. Mária Terézia Jozefa Karolina Franciska de Paula Johanna Baptista Anna, *Wien 1.9.1768, +Felsolendva 26.8.1829; m.Wien 9.9.1799 Gf Lipót Nádasdy de Nádasd et Fogarasföld (*3.10.1772, +14.9.1836) $$
+		100118163={	#// B5. Mária Terézia Jozefa Karolina Franciska de Paula Johanna Baptista Anna, *Wien 1.9.1768, +Felsőlendva 26.8.1829; m.Wien 9.9.1799 Gf Lipót Nádasdy de Nádasd et Fogarasföld (*3.10.1772, +14.9.1836) $$
 			name="Mária Terézia" # 1818831/maria-terezia-jozefa-karolina-franciska-de-paula-johanna-baptista-anna-Pálffy-ab-erdoed/
 			female=yes
 			dynasty=1011692
@@ -55994,12 +55994,12 @@ festetics_0001={ #// Antal József Festetics de Tolna, *Kaposvár 13.11.1764, +S
 
 ##  100116207	Károlyi							1011005
 #karolyi1 FRAGMENT
-karolyi_0004={ #// I4. Mihály, *1554, +1595; m.Erzsébet Perényi de Perény
+karolyi_0004={ #// I4. Mihály, *1554, +1595; m.Erzsébet Perényi de Perény $$
 	name=Mihály
 	dynasty=1011005
 	religion=catholic culture=bavarian
 	1554.01.01={birth=yes}
-	1580.01.01={add_spouse=lowbor2_0295}	# Erzsébet Perényi de Perény
+	1580.01.01={add_spouse=perenyi_0116}	# Erzsébet Perényi de Perény
 	1595.01.01={death=yes}
 }
 	karolyi_0007={ #// J3. Mihály, -cr Baron Mihály Károlyi de Nagykároly 1609, Obergespan of Szatmár, *1585, +1626; m.Borbála Segnyey de Lapispatak
@@ -56007,7 +56007,7 @@ karolyi_0004={ #// I4. Mihály, *1554, +1595; m.Erzsébet Perényi de Perény
 		dynasty=1011005
 		religion=catholic culture=bavarian
 		father=karolyi_0004	# Mihály Károlyi de Nagykároly
-		mother=lowbor2_0295	# Erzsébet Perényi de Perény
+		mother=perenyi_0116	# Erzsébet Perényi de Perény
 		1585.01.01={birth=yes}
 		1611.01.01={add_spouse=lowbor2_0443}	# Borbála Segnyey de Lapispatak
 		1626.01.01={death=yes}
@@ -56180,7 +56180,7 @@ karolyi_0004={ #// I4. Mihály, *1554, +1595; m.Erzsébet Perényi de Perény
 			1617.01.01={birth=yes}  # EST.
 			1677.01.01={death=yes}  # EST.
 		}
-		karolyi_0028={ #// K7. Judit; m.Miklós Nyáry de Bedegh
+		karolyi_0028={ #// K7. Judit; m.Miklós Nyáry de Bedegh $$
 			name=Judit
 			female=yes
 			dynasty=1011005
@@ -56196,7 +56196,7 @@ karolyi_0004={ #// I4. Mihály, *1554, +1595; m.Erzsébet Perényi de Perény
 		dynasty=1011005
 		religion=catholic culture=bavarian
 		father=karolyi_0004	# Mihály Károlyi de Nagykároly
-		mother=lowbor2_0295	# Erzsébet Perényi de Perény
+		mother=perenyi_0116	# Erzsébet Perényi de Perény
 		1590.01.01={birth=yes}
 		1621.01.01={death=yes}
 	}
@@ -56206,7 +56206,7 @@ karolyi_0004={ #// I4. Mihály, *1554, +1595; m.Erzsébet Perényi de Perény
 		dynasty=1011005
 		religion=catholic culture=bavarian
 		father=karolyi_0004	# Mihály Károlyi de Nagykároly
-		mother=lowbor2_0295	# Erzsébet Perényi de Perény
+		mother=perenyi_0116	# Erzsébet Perényi de Perény
 		1590.01.01={birth=yes}
 		1626.01.01={death=yes}
 	}
@@ -58806,15 +58806,15 @@ karolyi_0001={ #// Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Oberges
 					1875.10.29={birth=yes}
 					1944.05.31={death=yes}
 				}
-				100115590={	#// 4f) Géza (Budapest 3 Nov 1882-Budapest 26 Jul 1941); m.Budapest 3 Jun 1908 Maria Theresia Gfn von Bissingen u.Nippenburg (Budapest 19 May 1885-Budapest 20 Apr 1957)
+				100115590={	#// 4f) Géza (Budapest 3 Nov 1882-Budapest 26 Jul 1941); m.Budapest 3 Jun 1908 Maria Theresia Gfn von Bissingen u.Nippenburg (Budapest 19 May 1885-Budapest 20 Apr 1957) $$
 					name=Géza
 					dynasty=1011004
 					religion=catholic culture=hungarian
 					father=100115583	# Géza Zichy de Zich et Vásonkeő
 					mother=karatsonyi_0009	# Melanie Karátsonyi de Karátsonyfalva et Beodra
-					1882.11.03={birth=yes}
-					1908.06.03={add_spouse=100091652}	# GFN Maria Theresia von Bissingen u.Nippenburg
-					1941.07.26={death=yes}
+					1882.11.03={birth=yes}	# Budapest
+					1908.06.03={add_spouse=bissingen_0013}	# Maria-Theresia von Bissingen
+					1941.07.26={death=yes}	# Budapest
 				}
 					100115592={	#// 1g) Erzsébet-Mária Martha Victoria Melanie Ernestine Susanna Ilona (Tátralomnicz 11 Aug 1910-Mád 22 Sep 1960)
 						name=Erzsébet-Mária
@@ -58822,7 +58822,7 @@ karolyi_0001={ #// Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Oberges
 						dynasty=1011004
 						religion=catholic culture=hungarian
 						father=100115590	# Géza Zichy de Zich et Vásonkeő
-						mother=100091652	# GFN Maria Theresia von Bissingen u.Nippenburg
+						mother=bissingen_0013	# Maria-Theresia von Bissingen
 						1910.08.11={birth=yes}
 						1960.09.22={death=yes}
 					}
@@ -58832,7 +58832,7 @@ karolyi_0001={ #// Gf Sándor Károlyi de Nagykároly, cr Graf 5.4.1712, Oberges
 						dynasty=1011004
 						religion=catholic culture=hungarian
 						father=100115590	# Géza Zichy de Zich et Vásonkeő
-						mother=100091652	# GFN Maria Theresia von Bissingen u.Nippenburg
+						mother=bissingen_0013	# Maria-Theresia von Bissingen
 						1913.09.03={birth=yes}
 						1989.01.01={death=yes}  # EST.
 					}
@@ -63224,7 +63224,7 @@ perenyi_0104={ #// István Perényi de Perény, Asztalnokmester, +1523; 1m: NN; 
 					1600.01.01={birth=yes}  # EST.
 					1660.01.01={death=yes}  # EST.
 				}
-			perenyi_0116={ #// C3. Erzsébet; m.Mihály Károlyi de Nagykároly
+			perenyi_0116={ #// C3. Erzsébet; m.Mihály Károlyi de Nagykároly $$
 				name=Erzsébet
 				female=yes
 				dynasty=1011679
@@ -64916,7 +64916,7 @@ dory_0001={ #// László Dőry de Jobaháza, *ca 1674, +Wien 5.4.1720; m.21.8.17
 		father=dory_0001	# László Dőry de Jobaháza
 		mother=lowborn_0195	# Róza Kisfaludy de Kisfalud
 		1713.08.24={birth=yes}  # Bécsújhely
-		1739.01.01={add_spouse=lowborn_0209}	# Júlia Bezerédj de Bezeréd
+		1738.01.01={add_spouse=lowborn_0209}	# Júlia Bezerédj de Bezeréd
 		1753.11.20={add_spouse=lowborn_0261}	# Magdolna Zeke de Petőháza
 		1766.04.03={add_spouse=lowborn_0268}	# Katalin Filczky
 		1780.04.18={death=yes}  # Tevel
@@ -66614,7 +66614,7 @@ dory_0001={ #// László Dőry de Jobaháza, *ca 1674, +Wien 5.4.1720; m.21.8.17
 						religion=catholic culture=hungarian
 						father=dory_0179	# József Dőry de Jobaháza
 						mother=lowborn_0429	# Maria Geist
-						1874.01.01={birth=yes}
+						1874.12.01={birth=yes}
 						1876.05.18={death=yes}  # Budapest
 					}
 				dory_0181={ #// E4. Vilmos, *Zomba 2.2.1843, +Lepesd 23.11.1899; m.6.7.1878 Erzsébet Karácsonyi (+10.9.1854)
@@ -70730,14 +70730,14 @@ viczay_0001={ #// Sándor Viczay de Loós; m.Orsolya Hagymássy de Szentgiróth 
 							1871.08.28={add_spouse=100092286}	# Irén Muratty
 							1913.09.27={death=yes}  # Budapest
 						}
-							100116235={ #// G1. Pál, Prime Minister of Hungary, *Budapest 1.11.1879, +Budapest 3.4.1941; m.Budapest 25.11.1908 Gfn Johanna von Bissingen-Nippenburg (*Budapest 1.3.1889, +7.7.1942)
+							100116235={ #// G1. Pál, Prime Minister of Hungary, *Budapest 1.11.1879, +Budapest 3.4.1941; m.Budapest 25.11.1908 Gfn Johanna von Bissingen-Nippenburg (*Budapest 1.3.1889, +7.7.1942) $$
 								name=Pál
 								dynasty=1011774
 								religion=catholic culture=hungarian
 								father=100116205	# Géza Teleki de Szék
 								mother=100092286	# Irén Muratty
 								1879.11.01={birth=yes}  # Budapest
-								1908.11.25={add_spouse=100092289}	# GFN Johanna von Bissingen u.Nippenburg
+								1908.11.25={add_spouse=bissingen_0031}	# Johanna von Bissingen
 								1941.04.03={death=yes}  # Budapest
 							}
 								100116237={ #// H1. MÁRIA Irén Georgina Johanna Ilona Cecília, *Budapest 3.3.1910, +Estoril 30.1.1962; 1m: (div 1943) Budapest 30.4.1932 Gf Ferdinánd Zichy de Zich et Vásonkeö (*22.8.1907); 2m: 28.6.1945 Jacques Ijssel-Muiden (*Arnhem 20.9.1914, +30.3.1981) $$
@@ -70746,7 +70746,7 @@ viczay_0001={ #// Sándor Viczay de Loós; m.Orsolya Hagymássy de Szentgiróth 
 									dynasty=1011774
 									religion=catholic culture=hungarian
 									father=100116235	# Pál Teleki de Szék
-									mother=100092289	# GFN Johanna von Bissingen u.Nippenburg
+									mother=bissingen_0031	# Johanna von Bissingen
 									1910.03.03={birth=yes}  # Budapest
 									1962.01.30={death=yes}  # Estoril
 								}
@@ -70755,7 +70755,7 @@ viczay_0001={ #// Sándor Viczay de Loós; m.Orsolya Hagymássy de Szentgiróth 
 									dynasty=1011774
 									religion=catholic culture=hungarian
 									father=100116235	# Pál Teleki de Szék
-									mother=100092289	# GFN Johanna von Bissingen u.Nippenburg
+									mother=bissingen_0031	# Johanna von Bissingen
 									1911.11.27={birth=yes}  # Budapest
 									1935.07.09={add_spouse=100092623}	# Jolán Darányi de Pusztaszentgyörgy et Tetétlen
 									1943.01.01={remove_spouse=100092623}
@@ -77831,7 +77831,7 @@ hunyadi_0001={ #// Şerban
 				mother=lowborn_2884	# Erzsébet Szilágyi de Horogszeg
 				1443.02.23={birth=yes}  # Kolozsvár
 				1461.01.01={add_spouse=podieb_0063}	# Kunhuta Katharina von Podiebrad
-				1476.01.01={add_spouse=lowborn_5789}	# Beatrix of Naples
+				1476.01.01={add_spouse=lowborn_5789}	# Beatrix di Napoli
 				1490.04.06={death=yes}  # Vienna
 			}
 				hunyadi_0008={ #// D1. [1m.] a child, +1464
@@ -82088,7 +82088,7 @@ beldi_0057={ #// Pál Béldi de Uzon (*1621, +Istanbul 1679); m.Zsuzsanna Vitéz
 						father=beldi_0028	# Ferencz Béldi de Uzon
 						mother=100120078	# Zsófia Daniel de Vargyas
 						1851.06.30={birth=yes}	# Klausenburg, Rumänien
-						1879.01.01={add_spouse=lowbor2_1799}	# FRN Erzsébet Huszár de Mezőkövesd
+						1876.05.15={add_spouse=lowbor2_1799}	# FRN Erzsébet Huszár de Mezőkövesd
 						1929.10.29={death=yes}	# Balda
 					}
 						beldi_0039={ #// E1. Erzsébet, *VII.1877

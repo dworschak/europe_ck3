@@ -88,7 +88,7 @@
 							1550.01.01={birth=yes}  # EST.
 							1610.01.01={death=yes}  # EST.
 						}
-					100021478={ #// E4. [1m.] Anna, *1553; m.1574 Johann Wilhelm von Lamberg (+1581)
+					100021478={ #// E4. [1m.] Anna, *1553; m.1574 Johann Wilhelm von Lamberg (+1581) $$
 						name=Anna
 						female=yes
 						dynasty=1004007
@@ -178,7 +178,7 @@
 							religion=catholic culture=hungarian
 							father=100021442	# Christoph von Auersperg
 							mother=100095627	# Anna von Maltzan
-							1579.01.01={birth=yes}  # EST.
+							1575.12.01={birth=yes}  # EST.
 							1655.01.01={death=yes}  # EST.
 						}
 						100021507={ #// F8. Dorothea, +1611; m.Siegmund Kazianer von Katzenstein
@@ -266,14 +266,14 @@
 #auersperg1
 
 #auersperg2		
-100021499={ #// Johann Andreas II, Graf von Auersperg 11.9.1630, *16.7.1615, +8.10.1664; m.Laibach 6.9.1639 Frn Anna Elisabeth von Lamberg (*1621, +Laibach 8.9.1668);
+100021499={ #// Johann Andreas II, Graf von Auersperg 11.9.1630, *16.7.1615, +8.10.1664; m.Laibach 6.9.1639 Frn Anna Elisabeth von Lamberg (*1621, +Laibach 8.9.1668); $$
 	name="Johann Andreas"
 	dynasty=1004007
 	religion=catholic culture=german
 	father=100021495	# Herward von Auersperg
 	mother=100094975	# FRN Felizitas Katzianer v.Katzenstein
 	1615.07.16={birth=yes}
-	1639.09.06={add_spouse=100091873}	# Anna Elisabeth von Lamberg
+	1639.09.06={add_spouse=lamberg_0066}	# Anna Elisabeth von Lamberg
 	1664.10.08={death=yes}
 }
 	100021520={ #// A2. Wolfgang Engelbert, *1641, +1696; m. 1669 Anne Katharine Elisabeth Gfn von Trilleck (*1647, +1724)
@@ -281,7 +281,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021499	# Johann Andreas von Auersperg
-		mother=100091873	# Anna Elisabeth von Lamberg
+		mother=lamberg_0066	# Anna Elisabeth von Lamberg
 		1641.11.08={birth=yes}
 		1669.01.01={add_spouse=100091875}	# GFN Anne Katharine Elisabeth von Trilleck
 		1696.11.05={death=yes}
@@ -430,7 +430,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021499	# Johann Andreas von Auersperg
-		mother=100091873	# Anna Elisabeth von Lamberg
+		mother=lamberg_0066	# Anna Elisabeth von Lamberg
 		1643.09.18={birth=yes}
 		1670.04.29={add_spouse=100025070}	# Maria Constantia von Trauttmansdorff-Weinsberg
 		1701.08.31={death=yes}
@@ -762,7 +762,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021499	# Johann Andreas von Auersperg
-		mother=100091873	# Anna Elisabeth von Lamberg
+		mother=lamberg_0066	# Anna Elisabeth von Lamberg
 		1649.04.13={birth=yes}  # Laibach
 		1693.09.04={death=yes}  # Laibach
 	}
@@ -772,7 +772,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021499	# Johann Andreas von Auersperg
-		mother=100091873	# Anna Elisabeth von Lamberg
+		mother=lamberg_0066	# Anna Elisabeth von Lamberg
 		1650.05.21={birth=yes}
 		1702.01.01={death=yes}
 	}
@@ -782,7 +782,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021499	# Johann Andreas von Auersperg
-		mother=100091873	# Anna Elisabeth von Lamberg
+		mother=lamberg_0066	# Anna Elisabeth von Lamberg
 		1652.01.01={birth=yes}
 		1703.01.01={death=yes}
 	}
@@ -792,7 +792,7 @@
 		dynasty=1004007
 		religion=catholic culture=german
 		father=100021499	# Johann Andreas von Auersperg
-		mother=100091873	# Anna Elisabeth von Lamberg
+		mother=lamberg_0066	# Anna Elisabeth von Lamberg
 		1656.01.01={birth=yes}
 		1710.01.01={death=yes}
 	}
@@ -4880,7 +4880,7 @@ blagay_0001={ #// Gf Ferenc (Franz) Blagay (Ursinus de Blagai), +1.8.1576; m.Frn
 	dynasty=blagay
 	religion=catholic culture=croatian
 	father=blagay_0042	# István Ursini von Blagay
-	mother=frangepan_0068	# Dorottya Frangepán
+	mother=frangepan_0078	# Dorottya Frangepán
 	1520.01.01={birth=yes}  # EST.
 	1554.01.01={add_spouse=100024723}	# Maria Magdalena von Lamberg
 	1576.08.01={death=yes}
@@ -4905,8 +4905,8 @@ blagay_0001={ #// Gf Ferenc (Franz) Blagay (Ursinus de Blagai), +1.8.1576; m.Frn
 			1596.01.01={add_spouse=lowborn_5407}	# Felizitas Cvetkovich
 			1617.01.01={death=yes}
 		}
-			blagay_0004={ #// C1. Elisabeth; m.Gf Johann Eustach von Althann (+1652)
-				name=Elisabeth
+			blagay_0004={ #// C1. Elisabeth Eleonore; m.Gf Johann Eustach von Althann (+1652) $$
+				name="Elisabeth Eleonore"
 				female=yes
 				dynasty=blagay
 				religion=catholic culture=german
@@ -5241,7 +5241,7 @@ blagay_0001={ #// Gf Ferenc (Franz) Blagay (Ursinus de Blagai), +1.8.1576; m.Frn
 				1604.01.01={birth=yes}  # EST.
 				1643.01.01={death=yes}  # EST.
 			}
-	blagay_0041={ #// A3. Katharina; m.1589 Frhr Johann Friedrich von Dietrichstein (+after 1606)
+	blagay_0041={ #// A3. Katharina; m.1589 Frhr Johann Friedrich von Dietrichstein (+after 1606) $$
 		name=Katharina
 		female=yes
 		dynasty=blagay

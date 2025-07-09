@@ -63,7 +63,7 @@
 		2011.01.01={birth=yes}
 	}
 
-100200396={ #// Anne Hyde (*12.3.1637, +31.3.1671); m.1660 James Stewart (*14.10.1633, +6.9.1701) %%
+100200396={ #// Anne Hyde (*12.3.1637, +31.3.1671); m.24.11.1659 James Stuart (*St.James' Palace 14.10.1633, +St.Germain-en-Laye 6.9.1701) %%
 	name=Anne
 	dynasty=10088
 	female=yes
@@ -1120,13 +1120,15 @@
 			1433.01.01={add_spouse=100200280}	# Jacquetta von Luxembourg
 			1435.09.14={death=yes}
 		}
-		100200281={ #// B5. [1m.] Humphrey, Duke of Gloucester, *IX.1390, +Bury, St.Edmunds 1447; 1m: 1422 (annulled 1425/28) Jacqueline of Bavaria, Css of Holland, Hainault, etc; 2m: before 1431 Eleanor Cobham (+1454)
+		100200281={ #// B5. [1m.] Humphrey, Duke of Gloucester, *IX.1390, +Bury, St.Edmunds 1447; 1m: 1422 (annulled 1425/28) Jacqueline of Bavaria, Css of Holland, Hainault, etc; 2m: before 1431 Eleanor Cobham (+1454) $$
 			name=Humphrey
 			dynasty=100058
 			religion=catholic culture=english
 			father=100200013	# Henry of Lancaster
 			mother=100200275	# Mary de Bohun
 			1390.10.03={birth=yes}
+			1422.01.01={add_spouse=100011809}	# Jakobäa von Wittelsbach
+			1425.01.01={remove_spouse=100011809}
 			1447.02.23={death=yes}
 		}
 		100200282={ #// B6. [1m.] Blanche, *Peterborough Castle 1392, +Hagenau 21.5.1409; m.Heidelberg 1402 Kfst Ludwig III von der Pfalz (*1378 +1436)
@@ -1837,24 +1839,6 @@
 	1352.01.30={death=yes}
 }
 
-100200677={ #// James Hepburn (*1534, +14.4.1578); m.15.5.1567 Mary Stewart (*8.12.1542, +8.2.1587) %%
-	name=James
-	dynasty=10145
-	religion=catholic culture=scottish
-	1534.01.01={birth=yes}
-	1567.05.15={add_spouse=100200377}	# Mary Stewart
-	1578.04.14={death=yes}
-}
-
-100200666={ #// Mary of Egmond (*1434, +1.12.1463); m.1.6.1449 James Stewart (*16.10.1430, +3.8.1460) %%
-	name=Mary
-	dynasty=10143
-	religion=catholic culture=dutch
-	female=yes
-	1434.01.01={birth=yes}
-	1463.12.01={death=yes}
-}
-
 100201673={ #// Valdemar Estrid (*9.5.1170, +28.3.1241) %%
 	name=Valdemar
 	dynasty=487
@@ -2030,15 +2014,6 @@
 	religion=catholic culture=french
 	1270.01.01={birth=yes}
 	1332.01.01={death=yes}
-}
-
-100200652={ #// Anabella Drummond (*1350, +1.10.1401); m.1367 Robert Stewart (*14.8.1337, +4.4.1406) %%
-	name=Anabella
-	dynasty=10142
-	female=yes
-	religion=catholic culture=scottish
-	1350.01.01={birth=yes}
-	1401.10.01={death=yes}
 }
 
 100201662={ #// Eric Estrid (*1060, +10.7.1103) %%

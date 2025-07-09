@@ -1,6 +1,6 @@
 ###########################################################
 ##  100025000	Bourbon				100146		e_espana
-##  100025500	Fitz-James			1009003		d_la_mancha
+##  100025500	Fitz-James			fitzjames		d_la_mancha
 ##  100025600	Fernandez de Cord.	1001500		d_castilla, d_leon	
 ##  100025900	Baena				1001501		d_sevilla
 ##  100025950	Franco				1001502		c_toledo
@@ -3964,30 +3964,31 @@
 
 ##  100025500	Fitz-James		100146	
 # https://www.angelfire.com/realm/gotha/gotha/berwick.html
-
+#stuart8
 fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xérica, Grandee of Spain, etc, illegitimate son of King James II & VII of England and Scotland, by Arabella Churchill (21 Aug 1670-k.a.Philippsburg 12 Jun 1734); m.1st St.Germain-en-Laye 26 Mar 1695 Lady Honora de Burgh, Dowager Css of Lucan (d.Pezénas 16 Jan 1698); m.2nd Paris 18 Apr 1700 Anne Bulkeley (d.12 Jun 1751), gdau of 1st Viscount Bulkeley
 	name=James
-	dynasty=1009003
-	religion=catholic culture=castilian
+	dynasty=fitzjames
+	religion=catholic culture=scottish
+	father=stuart_0119	# James Stuart
 	trait=bastard
 	1670.08.21={birth=yes}
-	1695.03.26={add_spouse=lowborn_0530}	# CSS Honora de Burgh
-	1700.04.18={add_spouse=lowborn_1369}	# Anne Bulkeley
+	1695.03.26={add_spouse=lowbor2_3385}	# CSS Honora de Burgh
+	1700.04.18={add_spouse=lowbor2_3386}	# Anne Bulkeley
 	1734.06.12={death=yes}  # Philippsburg
 }
 	fitzjames_0002={ #// 1a) James Francis Stuart-Fitzjames-Stuart, Duke of Berwick, Duque de Liria y Xérica (21 Oct 1696-Naples 2 Jun 1738); m.31 Dec 1716 Catalina Ventura Colón de Portugal, Duquesa de Veraguas y de la Vega (14 Jul 1690-3 Oct 1739)
 		name=James
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_0530	# CSS Honora de Burgh
+		mother=lowbor2_3385	# CSS Honora de Burgh
 		1696.10.21={birth=yes}
 		1716.12.31={add_spouse=lowborn_1404}	# Catalina Colón de Portugal y Ayala
 		1738.06.02={death=yes}  # Naples
 	}
 		fitzjames_0003={ #// 1b) Jacopo Fitzjames-Stuart y Colón (11 Oct 1717-    )
 			name=Jacopo
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0002	# James Fitz-James Stuart
 			mother=lowborn_1404	# Catalina Colón de Portugal y Ayala
@@ -3996,7 +3997,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		}
 		fitzjames_0004={ #// 2b) Jacopo Francisco Eduardo Fitzjames-Stuart, Duke of Berwick, Duque de Liria y Xérica (Madrid 28 Dec 1718-Valencia 30 Sep 1785); m.Alba de Tormes 26 Jul 1738 Maria Teresa de Silva y Alvarez de Toledo (6 Jan 1716-5 May 1790)
 			name=Jacopo
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0002	# James Fitz-James Stuart
 			mother=lowborn_1404	# Catalina Colón de Portugal y Ayala
@@ -4006,7 +4007,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		}
 			fitzjames_0005={ #// 1c) Carlos Fernando Pascal Januario Fitzjames-Stuart, Duke of Berwick, Duque de Liria y Xérica (Liria 25 Mar 1752-Madrid 7 Sep 1787); m.Oct 1771 Carolina Augusta Pss zu Stolberg-Gedern (10 Feb 1755-St.Gratien 15 Apr 1828) $$
 				name=Carlos
-				dynasty=1009003
+				dynasty=fitzjames
 				religion=catholic culture=castilian
 				father=fitzjames_0004	# Jacopo Fitz-James Stuart
 				mother=lowborn_7456	# María Teresa de Silva y Alvarez de Toledo
@@ -4016,7 +4017,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 			}
 				fitzjames_0006={ #// 1d) Jacopo Felipe Carlos Pascual Cayetano Vicente Fitzjames-Stuart, Duke of Berwick, Duque de Liria y Xérica (Paris 25 Feb 1773-3 Apr 1794); m.24 Jan 1790 Maria Teresa Fernandez de Silva y de Palafóx (10 Mar 1772-Florence 29 Apr 1818)
 					name="Jacopo Felipe"
-					dynasty=1009003
+					dynasty=fitzjames
 					religion=catholic culture=castilian
 					father=fitzjames_0005	# Carlos Fitz-James Stuart
 					mother=100009727	# Karoline Auguste von Stolberg
@@ -4026,7 +4027,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 				}
 					fitzjames_0007={ #// 1e) Jacopo José Maria Fitzjames-Stuart, Duke of Berwick, Duque de Liria y Xérica (3 Jan 1792-5 Jan 1795)
 						name=Jacopo
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0006	# Jacopo Felipe Fitz-James Stuart
 						mother=lowborn_7850	# Maria Teresa Fernandez de Silva y de Palafóx
@@ -4035,7 +4036,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 					fitzjames_0008={ #// 2e) Carlos Miguel Fitzjames-Stuart, Duke of Berwick, Duque de Liria y Xérica, Duque de Alba de Tormes (Madrid 19 May 1794-Sion, Switzerland 7 Oct 1835); m.Rome 15 Feb 1817 Rosalia de Ventimiglia (Palermo 16 Aug 1798-Madrid 4 Mar 1868)
 						name=Carlos
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0006	# Jacopo Felipe Fitz-James Stuart
 						mother=lowborn_7850	# Maria Teresa Fernandez de Silva y de Palafóx
@@ -4045,7 +4046,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 						fitzjames_0009={ #// 1f) Jacopo Luis Francesco Pablo Rafael Fitzjames-Stuart, Duke of Berwick, Duque de Alba de Tormes (Palermo 3 Jun 1821-10 Jul 1881); m.Madrid 14 Feb 1844 Maria Francesca de Sales Palafox y Kirkpatrick de Closburn Duquesa de Penaranda, etc (29 Jan 1825-Paris 16 Sep 1860)
 							name=Jacopo
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=sicilian
 							father=fitzjames_0008	# Carlos Fitz-James Stuart
 							mother=lowborn_7851	# Rosalía Ventimiglia di Grammonte
@@ -4055,7 +4056,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 						}
 							fitzjames_0010={ #// 1g) Carlos Maria Isabel Fitzjames-Stuart, Duke of Berwick, Duque de Alba de Tormes (Madrid 4 Dec 1849-d.aboard a yacht at New York 15 Oct 1901); m.Madrid 10 Dec 1877 Maria del Rosario Falcó (Pau 3 Oct 1854-Paris 27 Mar 1904)
 								name=Carlos
-								dynasty=1009003
+								dynasty=fitzjames
 								religion=catholic culture=castilian
 								father=fitzjames_0009	# Jacopo Fitz-James Stuart
 								mother=lowborn_7852	# DUQUESA Maria Francesca Palafox y Kirkpatrick de Closburn
@@ -4065,7 +4066,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 							}
 								fitzjames_0011={ #// 1h) Jacobo Maria del Pilar Carlos Manuel Fitzjames-Stuart, Duke of Berwick, 17th Duque de Alba de Tormes (Madrid 17 Oct 1878- Lausanne 24 Sep 1953); m.London 7 Oct 1920 Maria del Rosario de Silva y Gurtubay Marquesa de San Vicente del Barco (Madrid 4 Apr 1900-Madrid 11 Jan 1934)
 									name=Jacobo
-									dynasty=1009003
+									dynasty=fitzjames
 									religion=catholic culture=castilian
 									father=fitzjames_0010	# Carlos Fitz-James Stuart
 									mother=lowborn_7853	# Maria del Rosario Falcó
@@ -4079,7 +4080,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 													 # m.3rd Seville 5 Oct 2011 Alfonso Diez Carabantes (b.Palencia 15 Nov 1950)
 										name="Cayetana"
 										female=yes
-										dynasty=1009003
+										dynasty=fitzjames
 										religion=catholic culture=castilian
 										father=fitzjames_0011	# Jacobo Fitz-James Stuart
 										mother=lowborn_7854	# MARQUESA Maria del Rosario de Silva y Gurtubay
@@ -4088,7 +4089,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 									}
 										fitzjames_0013={ #// 1j) Carlos Martinez de Irujo y Fitzjames-Stuart, Duque de Huescar, 2015 Duque de Alba de Tormes, Duque de Berwick, etc (b.Madrid 2 Oct 1949); m.Seville 18 Jun 1988 (div 1999) Matilda de Solis y Martinez de Campos (b.Seville 13 Jun 1963)
 											name="Carlos"
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=lowborn_7856	# Pedro Luis Martinez de Irujo
 											mother=fitzjames_0012	# Cayetana Fitz-James Stuart
@@ -4098,7 +4099,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										}
 											fitzjames_0014={ #// 1k) Fernando Fitzjames-Stuart y de Solis, Duque de Huescar (b.Madrid 14 Sep 1990); m.Madrid 6 Oct 2018 Sofia Palazuelo Barroso
 												name=Fernando
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0013	# Carlos Fitz-James Stuart
 												mother=lowborn_8005	# Matilda de Solis y Martinez de Campos
@@ -4107,7 +4108,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											}
 												fitzjames_0015={ #// 1l) Rosario, b.2020
 													name=Rosario
-													dynasty=1009003
+													dynasty=fitzjames
 													religion=catholic culture=castilian
 													father=fitzjames_0014	# Fernando Fitz-James Stuart
 													mother=lowborn_8008	# Sofia Palazuelo Barroso
@@ -4116,7 +4117,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 												fitzjames_0016={ #// 2l) Sofia, b.2023
 													name=Sofia
 													female=yes
-													dynasty=1009003
+													dynasty=fitzjames
 													religion=catholic culture=castilian
 													father=fitzjames_0014	# Fernando Fitz-James Stuart
 													mother=lowborn_8008	# Sofia Palazuelo Barroso
@@ -4124,7 +4125,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 												}
 											fitzjames_0017={ #// 2k) Carlos Fitzjames-Stuart y de Solis (b.Madrid 30 Nov 1991)
 												name=Carlos
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0013	# Carlos Fitz-James Stuart
 												mother=lowborn_8005	# Matilda de Solis y Martinez de Campos
@@ -4132,7 +4133,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											}
 										fitzjames_0018={ #// 2j) Alfonso Martinez de Irujo y Fitzjames-Stuart Duque de Aliaga (b.Madrid 22 Oct 1950); m.Marbella 4 Jul 1977 (div) Maria Pss zu Hohenlohe-Langenburg (b.Madrid 8 Apr 1957) $$
 											name="Alfonso"
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=lowborn_7856	# Pedro Luis Martinez de Irujo
 											mother=fitzjames_0012	# Cayetana Fitz-James Stuart
@@ -4141,7 +4142,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										}
 											fitzjames_0019={ #// 1k) Luis Martinez de Irujo y Hohenlohe-Langenburg (b.26 May 1978)
 												name=Luis
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0018	# Alfonso Fitz-James Stuart
 												mother=100001672	# Maria de la Santisima zu Hohenlohe-Langenburg
@@ -4149,7 +4150,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											}
 											fitzjames_0020={ #// 2k) Javier Martinez de Irujo y Hohenlohe-Langenburg (b.Jan 1981); m.20 Sep 2008 Ines Domecq Fernández (b.1983)
 												name=Javier
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0018	# Alfonso Fitz-James Stuart
 												mother=100001672	# Maria de la Santisima zu Hohenlohe-Langenburg
@@ -4159,7 +4160,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 												fitzjames_0021={ #// 1l) Sol Martinez de Irujo y Domecq (b.2011)
 													name=Sol
 													female=yes
-													dynasty=1009003
+													dynasty=fitzjames
 													religion=catholic culture=castilian
 													father=fitzjames_0020	# Javier Fitz-James Stuart
 													mother=lowborn_8010	# Ines Domecq
@@ -4167,7 +4168,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 												}
 												fitzjames_0022={ #// 2l) Alfonso Martinez de Irujo y Domecq (b.2013)
 													name=Alfonso
-													dynasty=1009003
+													dynasty=fitzjames
 													religion=catholic culture=castilian
 													father=fitzjames_0020	# Javier Fitz-James Stuart
 													mother=lowborn_8010	# Ines Domecq
@@ -4175,7 +4176,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 												}
 										fitzjames_0023={ #// 3j) Jacobo Martinez de Irujo y Fitzjames-Stuart Cde de Siruela (b.Madrid 15 Jul 1954); m.1st Madrid 1 Nov 1980 (div 1998) Maria Eugenia Fernandez de Castro y Fernandez Shaw (b.Madrid 15 Oct 1954); m.2nd Venice 13 Mar 2004 Inka Martí y Kiemann (b.Barcelona 6 Jan 1964)
 											name="Jacobo de_Irujo_y_Fitzjames-Stuart"
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=lowborn_7856	# Pedro Luis Martinez de Irujo
 											mother=fitzjames_0012	# Cayetana Fitz-James Stuart
@@ -4186,7 +4187,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										}
 											fitzjames_0024={ #// 1k) Jacobo Martinez de Irujo y Fernandez de Castro (b.Madrid 23 Mar 1981); m.Madrid 14 May 2011 Asela Perez Becerril
 												name=Jacobo
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0023	# Jacobo de Irujo y Fitzjames-Stuart Fitz-James Stuart
 												mother=lowborn_8011	# Maria Eugenia Fernandez de Castro y Fernandez Shaw
@@ -4195,7 +4196,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											}
 												fitzjames_0025={ #// 1l) Asela Martinez de Irujo y Perez (b.Madrid 2012)
 													name=Asela
-													dynasty=1009003
+													dynasty=fitzjames
 													religion=catholic culture=castilian
 													father=fitzjames_0024	# Jacobo Fitz-James Stuart
 													mother=lowborn_8013	# Asela Pérez
@@ -4204,7 +4205,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											fitzjames_0026={ #// 2k) Brianda Eugenia Martinez de Irujo y Fernandez de Castro (b.Madrid 11 Apr 1984)
 												name="Brianda Eugenia"
 												female=yes
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0023	# Jacobo de Irujo y Fitzjames-Stuart Fitz-James Stuart
 												mother=lowborn_8011	# Maria Eugenia Fernandez de Castro y Fernandez Shaw
@@ -4212,7 +4213,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											}
 										fitzjames_0027={ #// 4j) Fernando Martinez de Irujo y Fitzjames-Stuart Marques de San Vicente del Barco (b.Madrid 11 Jul 1959)
 											name="Fernando"
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=lowborn_7856	# Pedro Luis Martinez de Irujo
 											mother=fitzjames_0012	# Cayetana Fitz-James Stuart
@@ -4220,7 +4221,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										}
 										fitzjames_0028={ #// 5j) Cayetano Martinez de Irujo y Fitzjames-Stuart, Cde de Salvatierra (b.Madrid 4 Apr 1963); m.Seville 15 Oct 2005 (div) Genoveva Casanova y Gonzales (b.Cuernavaca, Mexico 30 Nov 1976)
 											name="Cayetano"
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=lowborn_7856	# Pedro Luis Martinez de Irujo
 											mother=fitzjames_0012	# Cayetana Fitz-James Stuart
@@ -4229,7 +4230,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										}
 											fitzjames_0029={ #// 1k) Luis Martinez de Irujo y Casanova, b.Mexico 25 Jul 2001
 												name=Luis
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0028	# Cayetano Fitz-James Stuart
 												mother=lowborn_8014	# Genoveva Casanova
@@ -4239,7 +4240,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											fitzjames_0030={ #// 2k) Amina Martinez de Irujo y Casanova, b.Mexico 25 Jul 2001
 												name=Amina
 												female=yes
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0028	# Cayetano Fitz-James Stuart
 												mother=lowborn_8014	# Genoveva Casanova
@@ -4249,7 +4250,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										fitzjames_0031={ #// 6j) Eugenia Martinez de Irujo y Fitzjames-Stuart, Duquesa de Montoro (b.26 Nov 1968); m.Seville 23 Oct 1998 (div 2005) Francisco Rivera Ordoñez (b.Madrid 3 Jan 1974)
 											name="Eugenia"
 											female=yes
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=lowborn_7856	# Pedro Luis Martinez de Irujo
 											mother=fitzjames_0012	# Cayetana Fitz-James Stuart
@@ -4258,7 +4259,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											fitzjames_0032={ #// 1k) Cayetana Rivera y Martinez de Irujo (b.Seville 16 Oct 1999)
 												name=Cayetana
 												female=yes
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=lowborn_8015	# Francisco Rivera
 												mother=fitzjames_0031	# Eugenia Fitz-James Stuart
@@ -4267,7 +4268,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 								fitzjames_0033={ #// 2h) Eugenia Sol Maria del Pilar Fitzjames-Stuart y Falcó Cdsa de Tera (Madrid 8 Jan 1880-Madrid 4 Mar 1962); m.Madrid 2 Jul 1906 Juan Manuel Mitjans y Mancanedo Duque de Santona (Santona 8 Aug 1865-10 Sep 1929)
 									name=Eugenia
 									female=yes
-									dynasty=1009003
+									dynasty=fitzjames
 									religion=catholic culture=castilian
 									father=fitzjames_0010	# Carlos Fitz-James Stuart
 									mother=lowborn_7853	# Maria del Rosario Falcó
@@ -4276,7 +4277,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 								}
 								fitzjames_0034={ #// 3h) Hernando Carlos Maria Teresa Fitzjames-Stuart Duque de Penaranda del Duero, etc (*Madrid 3 Nov 1882, +murdered at Madrid Nov 1936); m.Cordoba 20 Mar 1920 Maria del Carmen Saavedra y Collada Marquesa de Villaviciosa (Madrid 21 Jul 1889-Seville 23 Apr 1967)
 									name=Hernando
-									dynasty=1009003
+									dynasty=fitzjames
 									religion=catholic culture=castilian
 									father=fitzjames_0010	# Carlos Fitz-James Stuart
 									mother=lowborn_7853	# Maria del Rosario Falcó
@@ -4286,7 +4287,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 								}
 									fitzjames_0035={ #// 1i) Hernando Alfonso Fitzjames-Stuart y Saavedra, Duque de Penaranda, Duke of Berwick [insofar as the original British Dukedom of Berwick may still exist after its forfeiture; the title as recognized by the Spanish Crown is apparently descendable through female lines and is held by the Duquesa de Alba], etc (Guadalperal 24 Jan 1922-Guadalperal 20 Jul 1970); m.1944 Isabel Gomez y Ruiz (Cadiz 5 Nov 1923-Cadiz 14 Jan 1994)
 										name="Hernando Alfonso"
-										dynasty=1009003
+										dynasty=fitzjames
 										religion=catholic culture=castilian
 										father=fitzjames_0034	# Hernando Fitz-James Stuart
 										mother=lowborn_8017	# MARQUESA Maria del Carmen Saavedra y Collada
@@ -4297,7 +4298,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										fitzjames_0036={ #// 1j) Maria del Carmen Fitzjames-Stuart y Gomez Marquesa de Valle de Paloma (b.28 Feb 1945); m.1964 Javier de Soto y Lopez-Doriga (b.1936)
 											name="Maria del Carmen"
 											female=yes
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=fitzjames_0035	# Hernando Alfonso Fitz-James Stuart
 											mother=lowborn_8018	# Isabel Gomez y Ruiz
@@ -4306,7 +4307,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										fitzjames_0037={ #// 2j) Maria Eugenia Fitzjames-Stuart y Gomez Cdsa de Castroponce (b.1 Mar 1946); m.Juan Carlos de las Barcenas y von Franz
 											name="Maria Eugenia"
 											female=yes
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=fitzjames_0035	# Hernando Alfonso Fitz-James Stuart
 											mother=lowborn_8018	# Isabel Gomez y Ruiz
@@ -4314,7 +4315,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										}
 										fitzjames_0038={ #// 3j) Jacobo Hernando Fitzjames-Stuart y Gomez Duque de Penaranda (b.Nov 1947)
 											name=Jacobo
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=fitzjames_0035	# Hernando Alfonso Fitz-James Stuart
 											mother=lowborn_8018	# Isabel Gomez y Ruiz
@@ -4323,7 +4324,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 										}
 										fitzjames_0039={ #// 4j) Luis Esteban Fitzjames-Stuart y Gomez Marques de Valderrabanos (b.1950); m.1st 1968 Gertrudis Berlanga y Pérez de Andujar (b.1953); m.2nd Maria Calleja y Cervantes (b.1951)
 											name="Luis Esteban"
-											dynasty=1009003
+											dynasty=fitzjames
 											religion=catholic culture=castilian
 											father=fitzjames_0035	# Hernando Alfonso Fitz-James Stuart
 											mother=lowborn_8018	# Isabel Gomez y Ruiz
@@ -4334,7 +4335,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											fitzjames_0040={ #// 1k) Maria Iraida Fitzjames-Stuart y Berlanga, b.1968; m.1st 1989 Ludovic Simon; m.2nd Adam Komorowski
 												name=Maria
 												female=yes
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0039	# Luis Esteban Fitz-James Stuart
 												mother=lowborn_8021	# Gertrudis Berlanga y Pérez de Andujar
@@ -4343,7 +4344,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											fitzjames_0041={ #// 2k) Maria Fitzjames-Stuart y Calleja, b.1974
 												name=Maria
 												female=yes
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0039	# Luis Esteban Fitz-James Stuart
 												mother=lowborn_8021	# Gertrudis Berlanga y Pérez de Andujar
@@ -4352,7 +4353,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 											fitzjames_0042={ #// 3k) Dafne Cloé Fitzjames-Stuart y Calleja, b.1977
 												name=Dafne
 												female=yes
-												dynasty=1009003
+												dynasty=fitzjames
 												religion=catholic culture=castilian
 												father=fitzjames_0039	# Luis Esteban Fitz-James Stuart
 												mother=lowborn_8021	# Gertrudis Berlanga y Pérez de Andujar
@@ -4361,7 +4362,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 							fitzjames_0043={ #// 2g) Maria de la Asuncion Rosalia Joaquina Fitzjames-Stuart y Palafox Duquesa de Calisteo (Paris 17 Aug 1851-14 Sep 1927); m.Madrid 20 Oct 1873 José Mesia y Cayesa de los Cobos Duque de Tamames (Madrid 16 May 1853-Madrid 25 May 1917)
 								name=Maria
 								female=yes
-								dynasty=1009003
+								dynasty=fitzjames
 								religion=catholic culture=castilian
 								father=fitzjames_0009	# Jacopo Fitz-James Stuart
 								mother=lowborn_7852	# DUQUESA Maria Francesca Palafox y Kirkpatrick de Closburn
@@ -4371,7 +4372,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 							fitzjames_0044={ #// 3g) Maria Luisa Fitzjames-Stuart y Palafox (19 Oct 1853-9 Feb 1876); m.2 Oct 1875 Luis Fernandez de Cordoba y Perez de Barrados Duque de Medinaceli (d.14 May 1879) $$
 								name="Maria Luisa"
 								female=yes
-								dynasty=1009003
+								dynasty=fitzjames
 								religion=catholic culture=castilian
 								father=fitzjames_0009	# Jacopo Fitz-James Stuart
 								mother=lowborn_7852	# DUQUESA Maria Francesca Palafox y Kirkpatrick de Closburn
@@ -4380,7 +4381,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 							}
 						fitzjames_0045={ #// 2f) Enrique Fitzjames-Stuart y Ventimiglia Cde de Galve (5 Oct 1826-28 Apr 1882); m.4 Nov 1871 Adelaide Basilewskya (18 Nov 1842-    )
 							name=Enrique
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=castilian
 							father=fitzjames_0008	# Carlos Fitz-James Stuart
 							mother=lowborn_7851	# Rosalía Ventimiglia di Grammonte
@@ -4390,7 +4391,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 						}
 						fitzjames_0046={ #// 3f) Luis Fernando Fitzjames-Stuart y Ventimiglia (4 Oct 1833-3 May 1836)
 							name="Luis Fernando"
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=castilian
 							father=fitzjames_0008	# Carlos Fitz-James Stuart
 							mother=lowborn_7851	# Rosalía Ventimiglia di Grammonte
@@ -4400,7 +4401,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 				fitzjames_0047={ #// 2d) Maria Francisca Ferdinanda Teresa Anna Fitzjames-Stuart y Stolberg-Gedern (22 Mar 1775-22 Sep 1852)
 					name="Maria Francisca"
 					female=yes
-					dynasty=1009003
+					dynasty=fitzjames
 					religion=catholic culture=castilian
 					father=fitzjames_0005	# Carlos Fitz-James Stuart
 					mother=100009727	# Karoline Auguste von Stolberg
@@ -4409,7 +4410,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 				}
 		fitzjames_0048={ #// 3b) Pedro Fitzjames-Stuart y Colón de Portugal Marques de San Leonardo (6 Nov 1720-23 Jul 1791)
 			name=Pedro
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0002	# James Fitz-James Stuart
 			mother=lowborn_1404	# Catalina Colón de Portugal y Ayala
@@ -4419,7 +4420,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		fitzjames_0049={ #// 4b) Catalina Fitzjames-Stuart y Colón de Portugal (21 Apr 1723-1724)
 			name=Catalina
 			female=yes
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0002	# James Fitz-James Stuart
 			mother=lowborn_1404	# Catalina Colón de Portugal y Ayala
@@ -4428,7 +4429,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		}
 		fitzjames_0050={ #// 5b) Ventura Fitzjames-Stuart y Colón de Portugal (21 Apr 1724-    ); m.Maria Josefa Gagigal Monserrat
 			name=Ventura
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0002	# James Fitz-James Stuart
 			mother=lowborn_1404	# Catalina Colón de Portugal y Ayala
@@ -4438,7 +4439,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		}
 			fitzjames_0051={ #// 1c) Mariano Jacobo Fitzjames-Stuart y Gagigal (8 Sep 1765-    )
 				name=Jacobo
-				dynasty=1009003
+				dynasty=fitzjames
 				religion=catholic culture=castilian
 				father=fitzjames_0050	# Ventura Fitz-James Stuart
 				mother=lowborn_8028	# Maria Josefa Gagigal Monserrat
@@ -4448,7 +4449,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		fitzjames_0052={ #// 6b) Maria Guadalupe Fitzjames-Stuart y Colón de Portugal (3 May 1725-11 Dec 1750); m.11 Oct 1740 Francesco Maria Pico Duca di Mirandola (1688-1747)
 			name=Maria
 			female=yes
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0002	# James Fitz-James Stuart
 			mother=lowborn_1404	# Catalina Colón de Portugal y Ayala
@@ -4457,10 +4458,10 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		}
 	fitzjames_0053={ #// 2a) Henry James Fitzjames Duc de Fitzjames (15 Nov 1702-13 Oct 1721); m.10 Feb 1720 Victoire Félicité de Durfort (1706-17 Oct 1753)
 		name="Henry James"
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_1369	# Anne Bulkeley
+		mother=lowbor2_3386	# Anne Bulkeley
 		1702.11.15={birth=yes}
 		1720.02.10={add_spouse=lowborn_8030}	# Victoire Félicité de Durfort
 		1721.10.13={death=yes}
@@ -4468,37 +4469,37 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 	fitzjames_0054={ #// 3a) Henriette de Fitzjames (16 Sep 1705-3 Jul 1739); m.7 Nov 1722 Louis de Clermont d'Amboise Marquis de Reynel et de Montglas (Paris 12 Oct 1702-Paris 18 Sep 1761)
 		name=Henriette
 		female=yes
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_1369	# Anne Bulkeley
+		mother=lowbor2_3386	# Anne Bulkeley
 		1705.09.16={birth=yes}
 		1739.07.03={death=yes}
 	}
 	fitzjames_0055={ #// 4a) François Fitzjames, Bp of Soissons (9 Jun 1709-19 Jul 1764)
 		name=François
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_1369	# Anne Bulkeley
+		mother=lowbor2_3386	# Anne Bulkeley
 		1709.06.09={birth=yes}
 		1764.07.19={death=yes}
 	}
 	fitzjames_0056={ #// 5a) Henry Fitzjames, Gov of Limousin (8 Sep 1711-1731)
 		name=Henry
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_1369	# Anne Bulkeley
+		mother=lowbor2_3386	# Anne Bulkeley
 		1711.09.08={birth=yes}
 		1731.01.01={death=yes}
 	}
 	fitzjames_0057={ #// 6a) Charles de Fitzjames Duc de Fitzjames, Gov of Limousin, etc (4 Nov 1712-22 Mar 1787); m.1 Feb 1741 Victoire Louise Josèphe Gouyon de Matignon de Gace (9 Aug 1722-2 Aug 1777)
 		name=Charles
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_1369	# Anne Bulkeley
+		mother=lowbor2_3386	# Anne Bulkeley
 		1712.11.04={birth=yes}
 		1741.02.01={add_spouse=lowborn_8032}	# Victoire Louise Gouyon de Matignon de Gace
 		1787.03.22={death=yes}
@@ -4506,7 +4507,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		fitzjames_0058={ #// 1b) Anne Marie Félicité Josèphe de Fitzjames (Dec 1741-21 Feb 1742)
 			name=Anne
 			female=yes
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0057	# Charles Fitz-James Stuart
 			mother=lowborn_8032	# Victoire Louise Gouyon de Matignon de Gace
@@ -4515,7 +4516,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		}
 		fitzjames_0059={ #// 2b) Jacques Charles de Fitzjames Duc de Fitzjames (26 Nov 1743-11 Aug 1805); m.10 Jan 1769 Marie Claudine Silvie de Thiard de Bisey (1752/3-10 Jun 1812)
 			name="Jacques Charles"
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0057	# Charles Fitz-James Stuart
 			mother=lowborn_8032	# Victoire Louise Gouyon de Matignon de Gace
@@ -4526,7 +4527,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 			fitzjames_0060={ #// 1c) Henriette Victoire de Fitzjames (11 Oct 1770-26 Jul 1809); m.23 Aug 1784 Charles François Armand de Maillé de La Tour Landry Duc de Maillé (d.5 Jan 1837) $$
 				name="Henriette Victoire"
 				female=yes
-				dynasty=1009003
+				dynasty=fitzjames
 				religion=catholic culture=castilian
 				father=fitzjames_0059	# Jacques Charles Fitz-James Stuart
 				mother=lowborn_8033	# Marie Silvie Claudine de Thiard de Bisey
@@ -4535,7 +4536,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 			}
 			fitzjames_0061={ #// 2c) Charles Jean de Fitzjames (25 Jun 1773-    )
 				name="Charles Jean"
-				dynasty=1009003
+				dynasty=fitzjames
 				religion=catholic culture=castilian
 				father=fitzjames_0059	# Jacques Charles Fitz-James Stuart
 				mother=lowborn_8033	# Marie Silvie Claudine de Thiard de Bisey
@@ -4544,7 +4545,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 			}
 			fitzjames_0062={ #// 3c) Edoaurd de Fitzjames, Duc de Fitzjames (10 Jan 1776-15 Nov 1838); m.1st 2 May 1797 Elisabeth Alexandrine Le Vassor de la Touche de Longpré (1775-1816); m.2nd 6 Dec 1819 Antoinette Françoise Sidonie de Choiseul (13 Nov 1777-4 Mar 1862)
 				name=Edouard
-				dynasty=1009003
+				dynasty=fitzjames
 				religion=catholic culture=castilian
 				father=fitzjames_0059	# Jacques Charles Fitz-James Stuart
 				mother=lowborn_8033	# Marie Silvie Claudine de Thiard de Bisey
@@ -4556,7 +4557,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 				fitzjames_0063={ #// 1d) Antoinette Alexandrine Claudine de Fitzjames (b.6 Oct 1799, d.after 4 Nov 1837)
 					name="Antoinette Alexandrine"
 					female=yes
-					dynasty=1009003
+					dynasty=fitzjames
 					religion=catholic culture=castilian
 					father=fitzjames_0062	# Edouard Fitz-James Stuart
 					mother=lowborn_8035	# Elisabeth Alexandrine Le Vassor de la Touche de Longpré
@@ -4565,7 +4566,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 				}
 				fitzjames_0064={ #// 2d) Jacques Marie Emanuel de Fitzjames, Duc de Fitzjames (18 Apr 1803-10 Jun 1846); m.18 May 1826 Marguerite de Marmier (1807-15 Oct 1888)
 					name=Jacques
-					dynasty=1009003
+					dynasty=fitzjames
 					religion=catholic culture=castilian
 					father=fitzjames_0062	# Edouard Fitz-James Stuart
 					mother=lowborn_8035	# Elisabeth Alexandrine Le Vassor de la Touche de Longpré
@@ -4576,7 +4577,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					fitzjames_0065={ #// 1e) Jacqueline Arabelle de Fitzjames (Paris 25 Feb 1827-22 Jan 1903); m.8 May 1847 Scipione Pr Borghese Duca Salviati (Paris 23 Jun 1823-Rome 15 Jun 1892) $$
 						name=Jacqueline
 						female=yes
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0064	# Jacques Fitz-James Stuart
 						mother=lowborn_8037	# DSS Marguerite Claire de Marmier
@@ -4585,7 +4586,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 					fitzjames_0066={ #// 2e) Edouard Antoine Sidoine de Fitzjames, Duc de Fitzjames (Paris 20 Jun 1828-Montjustin 24 Sep 1906); m.Paris 14 May 1851 Augusta Marie Marguerite Löwenhielm (Paris 27 Jul 1830-Montjustin 19 Mar 1915)
 						name="Edouard Antoine"
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0064	# Jacques Fitz-James Stuart
 						mother=lowborn_8037	# DSS Marguerite Claire de Marmier
@@ -4595,7 +4596,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 						fitzjames_0067={ #// 1f) Jacques Gustave Sidoine de Fitzjames, Duc de Fitzjames (Paris 10 Feb 1852- Guizy 12 Mar 1944); m.Marseille 15 Jan 1902 Emma Maria Gandouard de Magny (Toulon 8 Nov 1846-Marseille 27 Feb 1919)
 							name=Jacques
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=castilian
 							father=fitzjames_0066	# Edouard Antoine Fitz-James Stuart
 							mother=lowborn_8039	# Augusta Löwenhielm
@@ -4606,7 +4607,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 						fitzjames_0068={ #// 2f) Françoise de Fitzjames (22 Aug 1853-16 Dec 1907); m.14 Oct 1873 Eléonor de Turenne d'Aynac (d.10 Nov 1913)
 							name=Françoise
 							female=yes
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=castilian
 							father=fitzjames_0066	# Edouard Antoine Fitz-James Stuart
 							mother=lowborn_8039	# Augusta Löwenhielm
@@ -4616,7 +4617,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 						fitzjames_0069={ #// 3f) Marie Yolande de Fitzjames (Paris 28 May 1855-Montjustin 16 Aug 1925); m.1st Paris 23 Jun 1874 Henri de Cassaigne de Beaufort de Miramon (Paris 17 Nov 1851-Saint-Germain-en-Laye 24 Jun 1887); m.2nd St.Antonin 12 Jan 1890 Géorges de Vaulchier (Besançon 24 Jan 1859-St.Antonin 28 Jun 1894)
 							name="Marie Yolande"
 							female=yes
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=castilian
 							father=fitzjames_0066	# Edouard Antoine Fitz-James Stuart
 							mother=lowborn_8039	# Augusta Löwenhielm
@@ -4625,7 +4626,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 						}
 						fitzjames_0070={ #// 4f) Henri Marie de Fitzjames (Paris 25 Jan 1857-Geneva 29 Aug 1924); m.1st Paris 15 May 1884 (div 1897) Adèle Marie Viane de Gontaut-Biron (Paris 8 Jun 1864-Versailles 3 Nov 1902); m.2nd Paris 8 Oct 1907 Jeanne Carolibe Henriette Collignon (*Nancy 11 Jun 1862)
 							name=Henri
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=castilian
 							father=fitzjames_0066	# Edouard Antoine Fitz-James Stuart
 							mother=lowborn_8039	# Augusta Löwenhielm
@@ -4638,7 +4639,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					fitzjames_0071={ #// 3e) Gabrielle Lara de Fitzjames (20 Feb 1830-    )
 						name=Gabrielle
 						female=yes
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0064	# Jacques Fitz-James Stuart
 						mother=lowborn_8037	# DSS Marguerite Claire de Marmier
@@ -4648,7 +4649,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					fitzjames_0072={ #// 4e) Charlotte Marie de Fitzjames (5 Mar 1831-3 Feb 1905); m.7 May 1849 Etienne Charles de Gontaut-Biron (5 Jul 1818-9 Jan 1871) $$
 						name=Charlotte
 						female=yes
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0064	# Jacques Fitz-James Stuart
 						mother=lowborn_8037	# DSS Marguerite Claire de Marmier
@@ -4657,7 +4658,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 					fitzjames_0073={ #// 5e) Henri de Fitzjames (19 Aug 1834-    )
 						name=Henri
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0064	# Jacques Fitz-James Stuart
 						mother=lowborn_8037	# DSS Marguerite Claire de Marmier
@@ -4667,7 +4668,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					fitzjames_0074={ #// 6e) Marie Antoinette de Fitzjames (8 Jun 1837-22 Jan 1865); m.17 Jul 1862 Athanase de Charette de la Contrie Baron de Charette (Nantes 18 Sep 1832-9 Oct 1911)
 						name="Marie Antoinette"
 						female=yes
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0064	# Jacques Fitz-James Stuart
 						mother=lowborn_8037	# DSS Marguerite Claire de Marmier
@@ -4676,7 +4677,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 					fitzjames_0075={ #// 7e) Charles de Fitzjames (Paris 13 Apr 1840-Paris 18 Nov 1894); m.21 Apr 1885 Fanny Marie Barron (Horley 17 Jul 1862-Paris 31 Jan 1896)
 						name=Charles
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0064	# Jacques Fitz-James Stuart
 						mother=lowborn_8037	# DSS Marguerite Claire de Marmier
@@ -4686,7 +4687,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 						fitzjames_0076={ #// 1f) Jacques de Fitzjames, Duc de Fitzjames (Paris 3 Apr 1886-Trouville 19 Jan 1967); m.Trouville 18 Jan 1928 Charlotte Lebedel (Villers-sur-Mer 12 Feb 1881- Trouville 24 May 1971)
 							name=Jacques
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=castilian
 							father=fitzjames_0075	# Charles Fitz-James Stuart
 							mother=lowborn_8048	# Fanny Barron
@@ -4696,7 +4697,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 						}
 					fitzjames_0077={ #// 8e) Louis de Fitzjames (d.6 Sep 1846)
 						name=Louis
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0064	# Jacques Fitz-James Stuart
 						mother=lowborn_8037	# DSS Marguerite Claire de Marmier
@@ -4705,7 +4706,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 				fitzjames_0078={ #// 3d) Henri Charles François de Fitzjames (7 Mar 1805-Paris 28 Mar 1883); m.Rome 12 Mar 1833 Cécile de Poilly (15 Oct 1814-22 Oct 1856)
 					name=Henri
-					dynasty=1009003
+					dynasty=fitzjames
 					religion=catholic culture=castilian
 					father=fitzjames_0062	# Edouard Fitz-James Stuart
 					mother=lowborn_8035	# Elisabeth Alexandrine Le Vassor de la Touche de Longpré
@@ -4715,7 +4716,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 				}
 					fitzjames_0079={ #// 1e) Jacques Charles Edouard de Fitzjames (Paris 3 Feb 1834-Château Cannes-Ecluse 30 Nov 1913); m.Paris 25 Apr 1866 Madeleine Dulong de Rosnay (25 Jun 1845-Château Cannes-Ecluse 1 Nov 1913)
 						name=Jacques
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0078	# Henri Fitz-James Stuart
 						mother=lowborn_8050	# Cécile de Poilly
@@ -4725,7 +4726,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 						fitzjames_0080={ #// 1f) Etienne de Fitzjames (24 Dec 1878-27 Aug 1908)
 							name=Etienne
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=castilian
 							father=fitzjames_0079	# Jacques Fitz-James Stuart
 							mother=lowborn_8051	# Madeleine Dulong de Rosnay
@@ -4734,7 +4735,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 						}
 						fitzjames_0081={ #// 2f) Edouard de Fitzjames (Paris 8 Oct 1880-Nice 26 Mar 1914); m.Paris 6 Jul 1904 Sylviane Finot (Paris 28 Feb 1884-Paris 9 May 1913)
 							name=Edouard
-							dynasty=1009003
+							dynasty=fitzjames
 							religion=catholic culture=castilian
 							father=fitzjames_0079	# Jacques Fitz-James Stuart
 							mother=lowborn_8051	# Madeleine Dulong de Rosnay
@@ -4745,7 +4746,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 							fitzjames_0082={ #// 1g) Hélène Marie Madeleine Arabelle de Fitzjames (Arcachon 25 Apr 1906-18 May 1998); m.Paris 26 Apr 1927 Louis de Cassaigne de Beaufort de Miramon-Pesteils (Paris 24 Apr 1901-Hyères 16 Aug 1941)
 								name=Hélène
 								female=yes
-								dynasty=1009003
+								dynasty=fitzjames
 								religion=catholic culture=castilian
 								father=fitzjames_0081	# Edouard Fitz-James Stuart
 								mother=lowborn_8052	# Sylviane Finot
@@ -4754,7 +4755,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 							}
 					fitzjames_0083={ #// 2e) Robert Charles Henri de Fitzjames (25 Jun 1835-23 Sep 1900); m.15 May 1886 Rosalie von Gutmann (20 Feb 1862-25 Sep 1923)
 						name=Robert
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0078	# Henri Fitz-James Stuart
 						mother=lowborn_8050	# Cécile de Poilly
@@ -4765,7 +4766,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					fitzjames_0084={ #// 3e) Elisabeth Marie de Fitzjames (1836/7-6 Jun 1866); m.22 Jan 1859 Charles de Biéncourt (d.2 Sep 1914)
 						name=Elisabeth
 						female=yes
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0078	# Henri Fitz-James Stuart
 						mother=lowborn_8050	# Cécile de Poilly
@@ -4774,7 +4775,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 					fitzjames_0085={ #// 4e) David Henri de Fitzjames (1 Feb 1840-20 Jun 1891); m.29 Dec 1886 Emmeline Doyen (16 Feb 1828-Sep 1902)
 						name="David Henri"
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0078	# Henri Fitz-James Stuart
 						mother=lowborn_8050	# Cécile de Poilly
@@ -4784,7 +4785,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 					}
 					fitzjames_0086={ #// 5e) François de Fitzjames (2 May 1842-28 Oct 1880)
 						name=François
-						dynasty=1009003
+						dynasty=fitzjames
 						religion=catholic culture=castilian
 						father=fitzjames_0078	# Henri Fitz-James Stuart
 						mother=lowborn_8050	# Cécile de Poilly
@@ -4794,7 +4795,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		fitzjames_0087={ #// 3b) Laure Auguste de Fitzjames (Paris 7 Dec 1744-Paris 26 Sep 1814); m.28 Sep 1762 Philippe Gabriel Maurice d'Alsace de Hénin-Liétard Pr de Chimay (12 Sep 1736-24 Jul 1804) $$
 			name="Laure Auguste"
 			female=yes
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0057	# Charles Fitz-James Stuart
 			mother=lowborn_8032	# Victoire Louise Gouyon de Matignon de Gace
@@ -4803,7 +4804,7 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 		}
 		fitzjames_0090={ #// 6b) Edouard Henri de Fitzjames (30 Sep 1750-1 Dec 1823)
 			name="Edouard Henri"
-			dynasty=1009003
+			dynasty=fitzjames
 			religion=catholic culture=castilian
 			father=fitzjames_0057	# Charles Fitz-James Stuart
 			mother=lowborn_8032	# Victoire Louise Gouyon de Matignon de Gace
@@ -4813,40 +4814,41 @@ fitzjames_0001={ #// James Fitzjames, Duke of Berwick, etc, Duque de Liria y Xé
 	fitzjames_0092={ #// 7a) Laure Anne de Fitzjames (1713-6 Dec 1766); m.11 Mar 1732 Timoléon Joachim Louis de Montagu Beaune Marquis de Bouzols (d.29 Apr 1747)
 		name="Laure Anne"
 		female=yes
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_1369	# Anne Bulkeley
+		mother=lowbor2_3386	# Anne Bulkeley
 		1713.01.01={birth=yes}
 		1766.12.06={death=yes}
 	}
 	fitzjames_0093={ #// 8a) Marie Emilie de Fitzjames (9 Oct 1715-3 Jan 1770); m.4 Sep 1736 François Marie de Perusse Cte des Cars (d.1759)
 		name="Marie Emilie"
 		female=yes
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_1369	# Anne Bulkeley
+		mother=lowbor2_3386	# Anne Bulkeley
 		1715.10.09={birth=yes}
 		1770.01.03={death=yes}
 	}
 	fitzjames_0094={ #// 9a) Edouard de Fitzjames (17 Oct 1716-Köln 5 May 1758)
 		name=Edouard
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_1369	# Anne Bulkeley
+		mother=lowbor2_3386	# Anne Bulkeley
 		1716.10.17={birth=yes}
 		1758.05.05={death=yes}  # Köln
 	}
 	fitzjames_0095={ #// 10a) Anne Sophie de Fitzjames (1717/8-25 Apr 1763)
 		name="Anne Sophie"
 		female=yes
-		dynasty=1009003
+		dynasty=fitzjames
 		religion=catholic culture=castilian
 		father=fitzjames_0001	# James Fitz-James Stuart
-		mother=lowborn_1369	# Anne Bulkeley
+		mother=lowbor2_3386	# Anne Bulkeley
 		1717.01.01={birth=yes}
 		1763.04.25={death=yes}
 	}
+#stuart8
 ##  100025500	Fitz-James		100146

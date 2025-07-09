@@ -12,368 +12,2110 @@
 
 
 ## Stuart	3134
-100200651={ #// Robert Stewart (*14.8.1337, +4.4.1406); m.1367 Anabella Drummond (*1350, +1.10.1401) %%
-	name=Robert
-	dynasty=3134
-	religion=catholic culture=scottish
-	father=453034	# Robert Stewart
-	mother=453035	# Margaret
-	1337.08.14={birth=yes}
-	1367.01.01={add_spouse=100200652}	# Anabella Drummond
-	1406.04.04={death=yes}
-}			
-	100200653={ #// A1. David (*24.10.1378, +26.3.1402) %%
-		name=David
+#stuart1					
+#453034={ // B1. King ROBERT II of Scots (1371-90), 7th High Stewart of Scotland, *Paisley, Renfrewshire, Scotland, 2.3.1316, +Dundonald Castle, Ayrshire 19.4.1390, bur Scone Island, Perthshire; 1m: Elisabeth Mure, dau.of Sir Adam Mure of Rowallan; 2m: after 2.5.1355 Css Euphemia of Ross
+	stuart_0004={ #// C1. [1m.] Alexander, Earl, *ca 1343
+		name="Alexander"
 		dynasty=3134
 		religion=catholic culture=scottish
-		father=100200651	# Robert Stewart
-		mother=100200652	# Anabella Drummond
-		1378.10.24={birth=yes}
-		1402.03.26={death=yes}
+		father=453034	# Robert
+		1343.01.01={birth=yes}
+		1418.01.01={death=yes}  # EST.
 	}
-	100200657={ #// A2. James (*25.7.1394, +21.2.1437); m.2.2.1424 Joan Beaufort (*1404, +15.7.1445) %%
-		name=James
+	stuart_0005={ #// C2. [1m.] Margaret; m.after 14.6.1350 John Mac Donald, Lord of Isles (*ca 1326)
+		name="Margaret"
+		female=yes
 		dynasty=3134
 		religion=catholic culture=scottish
-		father=100200651	# Robert Stewart
-		mother=100200652	# Anabella Drummond
-		1394.07.25={birth=yes}
-		1424.02.02={add_spouse=100200236}	# Joan Beaufort
-		1437.02.21={death=yes}
+		father=453034	# Robert
+		1337.01.01={birth=yes}  # EST.
+		1397.01.01={death=yes}  # EST.
 	}
-		100200659={ #// B1. Isabella (*1.10.1426, +13.10.1494) %%
-			name=Isabella
-			dynasty=3134
+	stuart_0006={ #// C3. [1m.] John, became ROBERT III King of Scots (1390-1406), *1337, +Rothsay Castle 4.4.1406, bur Paisley Abbey, England; m.1367 Anabella Drummond (*ca 1350, +Scone Palace, Perthshire X.1401, bur Dunfermline) dau.of Sir John Drummond of Stobhall
+		name="Robert"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1337.01.01={birth=yes}
+		1367.01.01={add_spouse=lowbor2_4258}	# Anabella Drummond
+		1406.04.04={death=yes}  # Rothsay Castle
+	}
+		stuart_0007={ #// D1. Elizabeth, +before 1411; m.ca 1387 James Douglas, Lord of Dalkeith (+1441)
+			name="Elizabeth"
 			female=yes
-			religion=catholic culture=scottish
-			father=100200657	# James Stewart
-			mother=100200236	# Joan Beaufort
-			1426.10.01={birth=yes}
-			1494.10.13={death=yes}
-		}
-		100200660={ #// B2. Mary (*1427, +20.3.1465) %%
-			name=Mary
 			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0006	# Robert Stewart
+			mother=lowbor2_4258	# Anabella Drummond
+			1368.01.01={birth=yes}  # EST.
+			1411.01.01={death=yes}  # before
+		}
+		stuart_0008={ #// D2. Margaret, +before IX.1456; m.before 1390 Archibald Tyneman, Earl of Douglas (*ca 1370, +Verneuil 17.8.1424, bur Tours Cathedral)
+			name="Margaret"
 			female=yes
-			religion=catholic culture=scottish
-			father=100200657	# James Stewart
-			mother=100200236	# Joan Beaufort
-			1427.01.01={birth=yes}
-			1465.03.20={death=yes}
-		}
-		100200661={ #// B3. Joan (*1428, +16.10.1486) %%
-			name=Joan
 			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0006	# Robert Stewart
+			mother=lowbor2_4258	# Anabella Drummond
+			1370.01.01={birth=yes}  # EST.
+			1456.09.01={death=yes}  # before
+		}
+		stuart_0009={ #// D3. Lady Mary Stewart, +about 1458, bur Scotland; 1m: 24.5.1387/97 Earl George Douglas, Duke of Angus; 2m: Sir James Kennedy, Earl of Dunure (+8.11.1408); 3m: VII.1409 Sir William Cunningham; 4m: 13.11.1413 Lord William of Kincardine Graham; 5m: 1425 William of Duntreath Edmonstone
+			name="Mary"
 			female=yes
-			religion=catholic culture=scottish
-			father=100200657	# James Stewart
-			mother=100200236	# Joan Beaufort
-			1428.01.01={birth=yes}
-			1486.10.16={death=yes}
-		}
-		100200663={ #// B5. Annabella (*1433, +1509) %%
-			name=Annabella
 			dynasty=3134
 			religion=catholic culture=scottish
-			female=yes
-			father=100200657	# James Stewart
-			mother=100200236	# Joan Beaufort
-			1433.01.01={birth=yes}
-			1509.01.01={death=yes}
+			father=stuart_0006	# Robert Stewart
+			mother=lowbor2_4258	# Anabella Drummond
+			1378.01.01={birth=yes}  # EST.
+			1458.01.01={death=yes}
 		}
-		100200664={ #// B6. Eleanor (*1433, +20.11.1480) %%
-			name=Eleanor
-			dynasty=3134
-			female=yes
-			religion=catholic culture=scottish
-			father=100200657	# James Stewart
-			mother=100200236	# Joan Beaufort
-			1433.01.01={birth=yes}
-			1480.11.20={death=yes}
-		}
-		100200665={ #// B4. James (*16.10.1430, +3.8.1460); m.1.6.1449 Mary of Egmond (*1434, +1.12.1463) %%
-			name=James
+		stuart_0010={ #// D4. Duke David Stuart, Duke of Rothesay, *24.10.1378, +Falkland Palace, Fife 27.3.1402, bur Lindores Abbey, Fife; m.II.1400 Marjory Douglas
+			name="David"
 			dynasty=3134
 			religion=catholic culture=scottish
-			trait=twin
-			father=100200657	# James Stewart
-			mother=100200236	# Joan Beaufort
-			1430.10.16={birth=yes}
-			1449.06.01={add_spouse=100200666}	# Mary of Egmond
-			1460.08.03={death=yes}
+			father=stuart_0006	# Robert Stewart
+			mother=lowbor2_4258	# Anabella Drummond
+			1378.10.24={birth=yes}
+			1400.02.01={add_spouse=lowbor2_3258}	# Marjory Douglas
+			1402.03.27={death=yes}  # Falkland Palace Fife
 		}
-			100192326={ #// C1. James (*10.7.1451, +11.6.1488); m.1.7.1469 Margarete von Oldenburg (*23.6.1456, +Stirling Castle 14.7.1486) %%
-				name=James
+		stuart_0013={ #// D7. JAMES I Stuart, King of Scots (1424-37), *Dunfermline Palace, Fife 25.7.1394, +Perth 21.5.1437, bur there; m.Southwark 2/13.2.1423 Css Joan Beaufort (*1405 +15.7.1445) dau.of Duke John Beaufort, Marquess of Dorset and Somerset $$
+			name="James"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0006	# Robert Stewart
+			mother=lowbor2_4258	# Anabella Drummond
+			1394.07.25={birth=yes}  # Dunfermline Palace Fife
+			1423.02.13={add_spouse=100200236}	# Joan Beaufort
+			1437.05.21={death=yes}  # Perth
+		}
+			stuart_0014={ #// E1. Margaret, *25.12.1424, +Chalons-sur-Marne 16.8.1445, bur Thouars; m.Tours Cathedral 24.6.1436 King Louis XI of France (*3.7.1434, +30.8.1483)
+				name="Margaret"
+				female=yes
 				dynasty=3134
 				religion=catholic culture=scottish
-				father=100200665	# James Stewart
-				mother=100200666	# Mary of Egmond
-				1451.07.10={birth=yes}
-				1469.07.01={add_spouse=100013062}	# Margarete von Oldenburg
-				1488.06.11={death=yes}
+				father=stuart_0013	# James Stewart
+				mother=100200236	# Joan Beaufort
+				1424.12.25={birth=yes}
+				1445.08.16={death=yes}  # Chalons-sur-Marne
 			}
-				100200369={ #// D1. James (*17.3.1473, +9.9.1513); m.8.8.1503 Margaret Tudor (*28.11.1489, +18.10.1541) %%
-					name=James
+			stuart_0015={ #// E2. Isabella, *1426, +1494; m.Château d'Auray 30.10.1442 François I de Dreux, Duc de Bretagne (*1414 +1450)
+				name="Isabella"
+				female=yes
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0013	# James Stewart
+				mother=100200236	# Joan Beaufort
+				1426.01.01={birth=yes}
+				1494.01.01={death=yes}
+			}
+			stuart_0016={ #// E3. Eleanor, *Dunfermline 26.10.1427, +Innsbruck 3.8.1460/80, bur Stams; m.12.2.1449 Sigismund von Habsburg (*1427 +1496) $$
+				name="Eleanor"
+				female=yes
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0013	# James Stewart
+				mother=100200236	# Joan Beaufort
+				1427.10.26={birth=yes}  # Dunfermline
+				1460.08.03={death=yes}  # Innsbruck
+			}
+			stuart_0017={ #// E4. Joan "the Dumb Lady", +after 16.10.1486; 1m: 18.10.1440 James Douglas, Ct of Angus (+1446); 2m: before 1459 James Douglas, Ct of Morton (+1493)
+				name="Joan"
+				female=yes
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0013	# James Stewart
+				mother=100200236	# Joan Beaufort
+				1425.01.01={birth=yes}  # EST.
+				1487.10.16={death=yes}
+			}
+			stuart_0018={ #// E5. Alexander, Duke of Rothesay, *Holyrood 16.10.1430
+				name="Alexander"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0013	# James Stewart
+				mother=100200236	# Joan Beaufort
+				1430.10.16={birth=yes}  # Holyrood
+				1505.01.01={death=yes}  # EST.
+			}
+			stuart_0019={ #// E6. JAMES II, King of Scots (1437/52-60), *Holyrood Palace, Edinburgh 16.10.1430, +Roxburgh Castle 3.8.1460, bur Holyrood Abbey, Edinburgh; m.Holyrood Abbey 3.7.1449 Mary of Guelders (*1432 +1.12.1463)
+				name="James"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0013	# James Stewart
+				mother=100200236	# Joan Beaufort
+				1429.01.01={birth=yes}  # EST.
+				1449.07.03={add_spouse=lowbor2_4330}	# Mary of Guelders
+				1489.01.01={death=yes}  # Roxburgh Castle
+			}
+				stuart_0020={ #// F1. Stuart, *19.5.1450
+					name="Stuart"
 					dynasty=3134
 					religion=catholic culture=scottish
-					father=100192326	# James Stewart
-					mother=100013062	# Margarete von Oldenburg
-					1473.03.17={birth=yes}
-					1503.08.08={add_spouse=100200339}	# Margaret Tudor
-					1513.09.09={death=yes}
+					father=stuart_0019	# James Stewart
+					mother=lowbor2_4330	# Mary of Guelders
+					1450.05.19={birth=yes}
+					1525.01.01={death=yes}  # EST.
 				}
-					100200372={ #// E1. James (*10.4.1512, +14.12.1542); m.1st 1537 Madeleine de Valois (*10.8.1520, +7.7.1537); m.2nd 18.5.1538 Marie de Lorraine (*Bar le Duc 22.11.1515, +Edinburgh Castle 10.6.1560) %%
-						name=James
+				stuart_0021={ #// F2. Pss Mary, *ca 1451, +V.1488; 1m: 26.4.1467 (anuled 1473) Thomas Boyd, Earl of Arran (+ca 1474); 2m: IV.1474 (?) James Hamilton, 1st Lord Hamilton (*1415 +6/12.11.1479)
+					name="Mary"
+					female=yes
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0019	# James Stewart
+					mother=lowbor2_4330	# Mary of Guelders
+					1451.01.01={birth=yes}
+					1488.05.01={death=yes}
+				}
+				stuart_0022={ #// F3. JAMES III, King of Scots (1460-88), *Stirling 10.7.1453, +Milltown 11.6.1488, bur Cambuskenneth Abbey, Stirlingshire; m.13.7.1469 Margarethe of Denmark (*23.6.1456 +14.7.1486) $$
+					name="James"
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0019	# James Stewart
+					mother=lowbor2_4330	# Mary of Guelders
+					1453.07.10={birth=yes}  # Stirling
+					1469.07.13={add_spouse=100013062}	# Margarete von Oldenburg
+					1488.06.11={death=yes}  # Milltown
+				}
+					stuart_0023={ #// G1. JAMES IV, King of Scots (1488-1513), *17.3.1473, +k.a.Flodden Field, Northumberland 9.9.1513; 1m: Holyrood Abbey, Edinburgh 8.8.1503 Margaret Tudor, Queen of England (*29.11.1489 +24.11.1542); 2m: Lady Isabel Agnes Stewart (+ca 1557) $$
+						name="James"
 						dynasty=3134
 						religion=catholic culture=scottish
-						father=100200369	# James Stewart
-						mother=100200339	# Margaret Tudor
-						1512.04.10={birth=yes}
-						1537.01.01={add_spouse=100200374}	# Madeleine de Valois
-						1538.05.18={add_spouse=100066643}	# Marie de Lorraine
-						1542.12.14={death=yes}
+						father=stuart_0022	# James Stewart
+						mother=100013062	# Margarete von Oldenburg
+						1473.03.17={birth=yes}
+						1503.08.08={add_spouse=100200339}	# Margaret Tudor
+						1508.01.01={add_spouse=lowbor2_3270}	# LADY Isabel Agnes Stewart
+						1513.09.09={death=yes}
 					}
-						100200377={ #// F1. [2m.] Mary (*8.12.1542, +8.2.1587); m.1st 24.4.1558 François de Valois (*19.1.1544, +5.12.1560); m.2nd 29.7.1565 Henry Stuart (*7.12.1545, +10.2.1567); m.3rd 15.5.1567 James Hepburn (*1534, +14.4.1578) %%
-							name=Mary
+						stuart_0024={ #// H1. [1m.] James, Duke of Rothesay, *Holyrood 21.2.1507, +Stirling 27.2.1508
+							name="James"
 							dynasty=3134
-							female=yes
 							religion=catholic culture=scottish
-							father=100200372	# James Stewart
-							mother=100066643	# Marie de Lorraine
-							1542.12.08={birth=yes}
-							1587.02.08={death=yes}
+							father=stuart_0023	# James Stewart
+							mother=100200339	# Margaret Tudor
+							1507.02.21={birth=yes}  # Holyrood
+							1508.02.27={death=yes}  # Stirling
 						}
-				100200673={ #// D2. James (*1.5.1476, +1504) %%
-					name=James
+						stuart_0025={ #// H2. [1m.] a daughter, *15.7.1508
+							name="daughter"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0023	# James Stewart
+							mother=100200339	# Margaret Tudor
+							1508.07.15={birth=yes}
+							1588.01.01={death=yes}  # EST.
+						}
+						stuart_0026={ #// H3. [1m.] Arthur, Duke of Rothesay, *Holyrod 20.10.1509, +Edinburgh 14.7.1510
+							name="Arthur"
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0023	# James Stewart
+							mother=100200339	# Margaret Tudor
+							1509.10.20={birth=yes}  # Holyrod
+							1510.07.14={death=yes}  # Edinburgh
+						}
+						stuart_0027={ #// H4. [1m.] King JAMES V of Scots (1513-42), *Linlithgow Palace 15.4.1512, +Falkland Palace, Fife 14.12.1542, bur Holyrood Abbey, Edinburgh; 1m: 1.1.1537 Madeleine of France (*1520 +1537); 2m: 9.5.1538 Pss Marie de Lorraine-Guise (*22.11.1515 +10.6.1560) $$
+							name="James"
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0023	# James Stewart
+							mother=100200339	# Margaret Tudor
+							1512.04.15={birth=yes}  # Linlithgow Palace
+							1537.01.01={add_spouse=100200374}	# Madeleine de Valois
+							1538.05.09={add_spouse=100066643}	# Marie de Lorraine
+							1542.12.14={death=yes}  # Falkland Palace, Fife
+						}
+							stuart_0028={ #// I1. [2m.] James, Duke of Rothesay, *St.Andrew's 22.5.1540, +St.Andrew's IV.1541
+								name="James"
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0027	# James Stewart
+								mother=100066643	# Marie de Lorraine
+								1540.05.22={birth=yes}  # St.Andrew's
+								1541.04.01={death=yes}  # St.Andrew's
+							}
+							stuart_0029={ #// I2. [2m.] Robert, Duke of Rothesay and Albany, *IV.1541, +Fife IV.1541
+								name="Robert"
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0027	# James Stewart
+								mother=100066643	# Marie de Lorraine
+								1541.04.01={birth=yes}
+								1541.04.01={death=yes}  # Fife
+							}
+							stuart_0030={ #// I3. [2m.] Queen MARY of Scots (1542-67), *Linlithgow Palace 7.12.1542, +executed at Fotheringhay Palace, Northampton 8.2.1587; 1m: Notre Dame, Paris 24.4.1558 King François II of France (*19.1.1544, +5.12.1560); 2m: Holyrood Palace, Edinburgh 29.7.1565 Lord Henry Stuart, Lord Danley (*7.12.1545 +10.2.1567); 3m: 14.5.1567 James Hepburn, Ct of Bothwell (*1536 +1578) $$
+								name="Mary"
+								female=yes
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0027	# James Stewart
+								mother=100066643	# Marie de Lorraine
+								1542.12.07={birth=yes}  # Linlithgow Palace
+								1587.02.08={death=yes}	# Fotheringhay Palace, Northampton
+							}
+							stuart_0031={ #// I4. [illegitimate] James, Abbe of Kelso and Melrose, *before 1529, +1558
+								name="James"
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0027	# James Stewart
+								trait=bastard
+								1529.01.01={birth=yes}  # before
+								1558.01.01={death=yes}
+							}
+							stuart_0032={ #// I5. [illegitimate] James, Ct of Moray, *before 1531, +murdered Linlithgow 21.1.1569; m.10.2.1561 Agnes Keith
+								name="James"
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0027	# James Stewart
+								trait=bastard
+								1531.01.01={birth=yes}  # before
+								1561.02.10={add_spouse=lowbor2_3276}	# Agnes Keith
+								1569.01.21={death=yes}  # murdered Linlithgow
+							}
+								stuart_0033={ #// J1. Elisabeth; m.1580 James Stuart, Ct of Moray
+									name="Elisabeth"
+									female=yes
+									dynasty=3134
+									religion=catholic culture=scottish
+									father=stuart_0032	# James Stewart
+									mother=lowbor2_3276	# Agnes Keith
+									1563.01.01={birth=yes}  # EST.
+									1621.01.01={death=yes}  # EST.
+								}
+								stuart_0034={ #// J2. Margaret; m.1584 Francis Hay, Ct of Errol
+									name="Margaret"
+									female=yes
+									dynasty=3134
+									religion=catholic culture=scottish
+									father=stuart_0032	# James Stewart
+									mother=lowbor2_3276	# Agnes Keith
+									1565.01.01={birth=yes}  # EST.
+									1624.01.01={death=yes}  # EST.
+								}
+							stuart_0035={ #// I6. [illegitimate] Robert, Ct of Orkney, *1533, +1591; m.Janet Kennedy
+								name="Robert"
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0027	# James Stewart
+								trait=bastard
+								1533.01.01={birth=yes}
+								1559.01.01={add_spouse=lowbor2_3279}	# Janet Kennedy
+								1591.01.01={death=yes}
+							}
+							stuart_0036={ #// I7. [illegitimate by Elizabeth Katherine Carmichael] John, +before 1531, +1563; m.Jean Hepburn
+								name="John"
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0027	# James Stewart
+								trait=bastard
+								1530.01.01={birth=yes}  # EST.
+								1555.01.01={add_spouse=lowbor2_3280}	# Jean Hepburn
+								1562.01.01={death=yes}  # before
+							}
+								stuart_0037={ #// J1. Francis, Ct of Bothwell
+									name="Francis"
+									dynasty=3134
+									religion=catholic culture=scottish
+									father=stuart_0036	# John Stewart
+									mother=lowbor2_3280	# Jean Hepburn
+									1560.01.01={birth=yes}  # EST.
+									1600.01.01={death=yes}  # EST.
+								}
+							stuart_0038={ #// I8. [illegitimate by d'Elizabeth Stewart] Adam, +1606; m.Janet Ruthven
+								name="Adam"
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0027	# James Stewart
+								trait=bastard
+								1531.01.01={birth=yes}  # EST.
+								1557.01.01={add_spouse=lowbor2_3281}	# Janet Ruthven
+								1606.01.01={death=yes}
+							}
+								stuart_0039={ #// J1. Mary; m.David King
+									name="Mary"
+									female=yes
+									dynasty=3134
+									religion=catholic culture=scottish
+									father=stuart_0038	# Adam Stewart
+									mother=lowbor2_3281	# Janet Ruthven
+									1558.01.01={birth=yes}  # EST.
+									1618.01.01={death=yes}  # EST.
+								}
+							stuart_0040={ #// I9. [illegitimate by Elisabeth Bethune] Jean; m.(div) Archibald Cambell, Ct of Argyll
+								name="Jean"
+								female=yes
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0027	# James Stewart
+								trait=bastard
+								1532.01.01={birth=yes}  # EST.
+								1592.01.01={death=yes}  # EST.
+							}
+						stuart_0041={ #// H5. [1m.] Duke Alexander of Ross, *Stirling 30.4.1514, +Stirling 18.12.1515
+							name="Alexander"
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0023	# James Stewart
+							mother=100200339	# Margaret Tudor
+							1514.04.30={birth=yes}  # Stirling
+							1515.12.18={death=yes}  # Stirling
+						}
+						stuart_0042={ #// H6. [illegitimate by Marion Boyd] Alexander, Archbp of St.Andrew's, *before 1493, +9.9.1513
+							name="Alexander"
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0023	# James Stewart
+							trait=bastard
+							1493.01.01={birth=yes}  # before
+							1513.09.09={death=yes}
+						}
+						stuart_0043={ #// H7. [illegitimate by Marion Boyd] Catherine; m.James Douglas, Ct of Morton
+							name="Catherine"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0023	# James Stewart
+							trait=bastard
+							1495.01.01={birth=yes}  # EST.
+							1555.01.01={death=yes}  # EST.
+						}
+						stuart_0044={ #// H8. [illegitimate by Janet Kennedy] James, Ct of Moray, *before 1499, +1544; m.Elizabeth Campbell
+							name="James"
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0023	# James Stewart
+							trait=bastard
+							1499.01.01={birth=yes}  # before
+							1525.01.01={add_spouse=lowbor2_3285}	# Elizabeth Campbell
+							1544.01.01={death=yes}
+						}
+							stuart_0045={ #// I1. Mary; m.John of Buchan
+								name="Mary"
+								female=yes
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=stuart_0044	# James Stewart
+								mother=lowbor2_3285	# Elizabeth Campbell
+								1526.01.01={birth=yes}  # EST.
+								1586.01.01={death=yes}  # EST.
+							}
+						stuart_0046={ #// H9. [2m. OR illegitimate by Margaret Drummond] Margaret, *before 1497; 1m: III.1512 John Gordon; 2m: Sir John Drummond
+							name="Margaret"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0023	# James Stewart
+							trait=bastard
+							1497.01.01={birth=yes}  # before
+							1577.01.01={death=yes}  # EST.
+						}
+						stuart_0047={ #// H10. [2m.] Jean (Janet), *before 1510, +before 20.2.1562; m.Lord Malcolm, 3rd Baron Fleming (*ca 1497 +10.9.1547); she had illegitimate child by King Henri II of France, see here
+							name="Jean"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0023	# James Stewart
+							mother=lowbor2_3270	# LADY Isabel Agnes Stewart
+							1509.01.01={birth=yes}
+							1562.02.20={death=yes}  # before
+						}
+					stuart_0048={ #// G2. James, Duke of Ross, *III.1476, +Edinburgh 12.1.1504
+						name="James"
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=stuart_0022	# James Stewart
+						mother=100013062	# Margarete von Oldenburg
+						1476.03.01={birth=yes}
+						1504.01.12={death=yes}  # Edinburgh
+					}
+					stuart_0049={ #// G3. John, Ct of Mar, *XII.1479, +11.3.1503
+						name="John"
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=stuart_0022	# James Stewart
+						mother=100013062	# Margarete von Oldenburg
+						1479.12.01={birth=yes}
+						1503.03.11={death=yes}
+					}
+				stuart_0050={ #// F4. Margaret; m. (div 1520) William, Lord Crichton
+					name="Margaret"
+					female=yes
 					dynasty=3134
 					religion=catholic culture=scottish
-					father=100192326	# James Stewart
-					mother=100013062	# Margarete von Oldenburg
-					1476.05.01={birth=yes}
-					1504.01.01={death=yes}
+					father=stuart_0019	# James Stewart
+					mother=lowbor2_4330	# Mary of Guelders
+					1453.01.01={birth=yes}  # EST.
+					1513.01.01={death=yes}  # EST.
 				}
-				100192327={ #// D3. John (*1.12.1479, +11.3.1503) %%
-					name=John
+				stuart_0051={ #// F5. Alexander, Duke of Albany, *ca 1454, +Paris 1485; 1m: before 1475 (div 1477) Catherine Sinclair, Dss of Albany; 2m: 16.2.1479 Anne de La Tour d'Auvergne (+13.10.1512) $$
+					name="Alexander"
 					dynasty=3134
 					religion=catholic culture=scottish
-					father=100192326	# James Stewart
-					mother=100013062	# Margarete von Oldenburg
-					1479.12.01={birth=yes}
-					1503.03.11={death=yes}
-				}		
-			100200667={ #// C2. Mary (*13.5.1453, +1.5.1488) %%
-				name=Mary
-				dynasty=3134
+					father=stuart_0019	# James Stewart
+					mother=lowbor2_4330	# Mary of Guelders
+					1454.01.01={birth=yes}
+					1474.01.01={add_spouse=lowbor2_3291}	# DSS Catherine Sinclair of Albany
+					1477.01.01={remove_spouse=lowbor2_3291}
+					1479.02.16={add_spouse=100069214}	# Anne de la Tour d’Auvergne
+					1485.01.01={death=yes}  # Paris
+				}
+					stuart_0052={ #// G1. Alexander, Bp of Moray, *before 1477, +9.12.1537
+						name="Alexander"
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=stuart_0051	# Alexander Stewart
+						mother=lowbor2_3291	# DSS Catherine Sinclair of Albany
+						1475.01.01={birth=yes}  # before
+						1537.12.09={death=yes}
+					}
+						stuart_0053={ #// H1. Alexander, legitimized 1550
+							name="Alexander"
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0052	# Alexander Stewart
+							1502.01.01={birth=yes}  # EST.
+							1562.01.01={death=yes}  # EST.
+						}
+						stuart_0054={ #// H2. Margaret; 1m: Patrick Graham; 2m: Colin Campbell
+							name="Margaret"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0052	# Alexander Stewart
+							1503.01.01={birth=yes}  # EST.
+							1563.01.01={death=yes}  # EST.
+						}
+					stuart_0055={ #// G2. Margaret Catherine; m.Sir Patrick Hamilton of Kincavil (+30.4.1520)
+						name="Margaret Catherine"
+						female=yes
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=stuart_0051	# Alexander Stewart
+						mother=100069214	# Anne de la Tour d’Auvergne
+						1480.01.01={birth=yes}  # EST.
+						1540.01.01={death=yes}  # EST.
+					}
+					stuart_0056={ #// G3. John, Duke of Albany, Earl of March, *1484, +Mirefleur, France 2.7.1536; m.8.7.1505 Anne de La Tour, Css d'Auvergne (+1524) $$
+						name="John"
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=stuart_0051	# Alexander Stewart
+						mother=100069214	# Anne de la Tour d’Auvergne
+						1484.01.01={birth=yes}
+						1505.07.08={add_spouse=100069210}	# Anne de la Tour d’Auvergne
+						1536.07.02={death=yes}  # Mirefleur France
+					}
+						stuart_0057={ #// H1. [illegitimate] Eleanor; m.Jean de L'Hopital, Ct de Choisy
+							name="Eleanor"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0056	# John Stewart
+							trait=bastard
+							1510.01.01={birth=yes}  # EST.
+							1570.01.01={death=yes}  # EST.
+						}
+				stuart_0058={ #// F6. David, Earl of Moray, *about 1455, +18.7.1457
+					name="David"
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0019	# James Stewart
+					mother=lowbor2_4330	# Mary of Guelders
+					1455.01.01={birth=yes}  # about
+					1457.07.18={death=yes}
+				}
+				stuart_0059={ #// F7. John, Earl of Mar and Garioch, *about 1459, +Craigmillar 9.7.1479
+					name="John"
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0019	# James Stewart
+					mother=lowbor2_4330	# Mary of Guelders
+					1459.01.01={birth=yes}  # about
+					1479.07.09={death=yes}  # Craigmillar
+				}
+			stuart_0060={ #// E7. Mary, Css of Buchan, +20.3.1465; m.Veere 1444 Jean de Borsele, sn de Campvere
+				name="Mary"
 				female=yes
-				religion=catholic culture=scottish
-				father=100200665	# James Stewart
-				mother=100200666	# Mary of Egmond
-				1453.05.13={birth=yes}
-				1488.05.01={death=yes}
-			}
-			100200668={ #// C3. Alexander (*1454, +7.8.1485) %%
-				name=Alexander
 				dynasty=3134
 				religion=catholic culture=scottish
-				father=100200665	# James Stewart
-				mother=100200666	# Mary of Egmond
-				1454.01.01={birth=yes}
-				1485.08.07={death=yes}
+				father=stuart_0013	# James Stewart
+				mother=100200236	# Joan Beaufort
+				1430.01.01={birth=yes}  # EST.
+				1465.03.20={death=yes}
 			}
-			100200670={ #// C4. John (*1456, +1479) %%
-				name=John
+			stuart_0061={ #// E8. Annabella; 1m: 14.12.1447 (div 1458) Louis of Savoy, Ct of Geneve (*5.6.1436 +VIII.1482); 2m: George Gordon, Ct of Huntly $$
+				name="Annabella"
+				female=yes
 				dynasty=3134
 				religion=catholic culture=scottish
-				father=100200665	# James Stewart
-				mother=100200666	# Mary of Egmond
-				1456.01.01={birth=yes}
-				1479.01.01={death=yes}
+				father=stuart_0013	# James Stewart
+				mother=100200236	# Joan Beaufort
+				1432.01.01={birth=yes}  # EST.
+				1492.01.01={death=yes}  # EST.
 			}
-100200654={ #// Walter Stewart (*1338, +1362) %%
-	name=Walter
-	dynasty=3134
-	religion=catholic culture=scottish
-	father=453034	# Robert Stewart
-	mother=453035	# Margaret
-	1338.01.01={birth=yes}
-	1362.01.01={death=yes}
-}
-100200655={ #// Robert Stewart (*1340, +3.9.1420) %%
-	name=Robert
-	dynasty=3134
-	religion=catholic culture=scottish
-	father=453034	# Robert Stewart
-	mother=453035	# Margaret
-	1340.01.01={birth=yes}
-	1420.09.03={death=yes}
-}
-100200656={ #// Alexander Stewart (*1343, +20.6.1405) %%
-	name=Alexander
-	dynasty=3134
-	religion=catholic culture=scottish
-	father=453034	# Robert Stewart
-	mother=453035	# Margaret
-	1343.01.01={birth=yes}
-	1405.06.20={death=yes}
-}
+		stuart_0062={ #// D8. John, *about 1362, +31.5.1445
+			name="John"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0006	# Robert Stewart
+			mother=lowbor2_4258	# Anabella Drummond
+			1369.01.01={birth=yes}  # about
+			1445.05.31={death=yes}
+		}
+	stuart_0063={ #// C4. [1m.] Walter, Earl of Fife, +1363; m.Isabel Elisabeth Macduff, Css of Fife
+		name="Walter"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1341.01.01={birth=yes}  # EST.
+		1361.01.01={add_spouse=lowbor2_3301}	# CSS Isabel Elisabeth Macduff of Fife
+		1363.01.01={death=yes}
+	}
+	stuart_0064={ #// C5. [1m.] Robert, 1st Duke of Albany, *1339, +Stirling Castle, 3.9.1420, bur Dunfermline Abbey, Fife; 1m: ca 1361 Css Mary Margaret Graham, Css of Menteith (*before 1334 +1380, bur Inchmahome Priory, Perthshire) dau.of Sir John Graham of Abercorn; 2m: after 4.5.1380 Muriella de Keith
+		name="Robert"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1339.01.01={birth=yes}
+		1361.01.01={add_spouse=lowbor2_3302}	# CSS Mary Margaret of Menteith
+		1381.05.04={add_spouse=lowbor2_3303}	# Muriella de Keith
+		1420.09.03={death=yes}  # Stirling Castle
+	}
+		stuart_0065={ #// D1. [1m.] Murdoch Stuart, 2nd Duke of Albany, *ca 1362, +Stirling 25.5.1425; m.17.2.1391 Isabel Lennox, Css of Lennox
+			name="Murdoch"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3302	# CSS Mary Margaret of Menteith
+			1362.01.01={birth=yes}
+			1391.02.17={add_spouse=lowbor2_3304}	# CSS Isabel Lennox of Lennox
+			1425.05.25={death=yes}  # Stirling
+		}
+			stuart_0066={ #// E1. Robert, +1421
+				name="Robert"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0065	# Murdoch Stewart
+				mother=lowbor2_3304	# CSS Isabel Lennox of Lennox
+				1392.01.01={birth=yes}  # EST.
+				1421.01.01={death=yes}
+			}
+			stuart_0067={ #// E2. Walter, Lord of Fife, +k.a.Stirling 24.5.1425; m.24.4.1424 Janet Erskine
+				name="Walter"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0065	# Murdoch Stewart
+				mother=lowbor2_3304	# CSS Isabel Lennox of Lennox
+				1393.01.01={birth=yes}  # EST.
+				1424.04.24={add_spouse=lowbor2_3305}	# Janet Erskine
+				1425.05.24={death=yes}  # Stirling
+			}
+				stuart_0068={ #// F1. Walter
+					name="Walter"
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0067	# Walter Stewart
+					mother=lowbor2_3305	# Janet Erskine
+					1425.01.01={birth=yes}  # EST.
+					1485.01.01={death=yes}  # EST.
+				}
+				stuart_0069={ #// F2. Alexander, Lord of Avondale, +1488/89
+					name="Alexander"
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0067	# Walter Stewart
+					mother=lowbor2_3305	# Janet Erskine
+					1425.01.01={birth=yes}  # EST.
+					1489.01.01={death=yes}
+				}
+					stuart_0070={ #// G1. Andrew, Lord Avondale, +k.a.Flodden 1513; m.Margaret Kennedy
+						name="Andrew"
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=stuart_0069	# Alexander Stewart
+						1450.01.01={birth=yes}  # EST.
+						1486.01.01={add_spouse=lowbor2_3306}	# Margaret Kennedy
+						1513.01.01={death=yes}  # Flodden
+					}
+						stuart_0071={ #// H1. Sir James of Beath, conetable of Doune, +k.a.1547; m.Margaret Lindsay of Byres; They had issue
+							name="James"
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=stuart_0070	# Andrew Stewart
+							mother=lowbor2_3306	# Margaret Kennedy
+							1487.01.01={birth=yes}  # EST.
+							1511.01.01={add_spouse=lowbor2_3307}	# Margaret Lindsay of Byres
+							1547.01.01={death=yes}
+						}
+				stuart_0072={ #// F3. Mariott; m.Colin Campbell, Ct of Argyll
+					name="Mariott"
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0067	# Walter Stewart
+					mother=lowbor2_3305	# Janet Erskine
+					1425.01.01={birth=yes}  # EST.
+					1451.01.01={add_spouse=lowbor2_3308}	# CT Colin Campbell of Argyll
+					1485.01.01={death=yes}  # EST.
+				}
+			stuart_0073={ #// E3. Alexander, +k.a.Stirling 24.5.1425
+				name="Alexander"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0065	# Murdoch Stewart
+				mother=lowbor2_3304	# CSS Isabel Lennox of Lennox
+				1394.01.01={birth=yes}  # EST.
+				1425.05.24={death=yes}  # Stirling
+			}
+			stuart_0074={ #// E4. James; he had 5 illegitimate children
+				name="James"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0065	# Murdoch Stewart
+				mother=lowbor2_3304	# CSS Isabel Lennox of Lennox
+				1395.01.01={birth=yes}  # EST.
+				1455.01.01={death=yes}  # EST.
+			}
+				stuart_0075={ #// F2. Matilda; m.William Edmonstone
+					name="Matilda"
+					female=yes
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0074	# James Stewart
+					1421.01.01={birth=yes}  # EST.
+					1481.01.01={death=yes}  # EST.
+				}
+			stuart_0076={ #// E5. Isabella; m.Sir Walter Buchanan
+				name="Isabella"
+				female=yes
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0065	# Murdoch Stewart
+				mother=lowbor2_3304	# CSS Isabel Lennox of Lennox
+				1397.01.01={birth=yes}  # EST.
+				1457.01.01={death=yes}  # EST.
+			}
+		stuart_0077={ #// D2. [1m.] Isabel Stuart; 1m: before 1398 Alexander Leslie, Ct of Ross; 2m: about 1405 Walter, Lord Haliburton
+			name="Isabel"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3302	# CSS Mary Margaret of Menteith
+			1364.01.01={birth=yes}  # EST.
+			1398.01.01={add_spouse=lowbor2_3311}	# CT Alexander Leslie of Ross
+			1405.01.01={add_spouse=lowbor2_3312}	# LORD Walter Haliburton
+			1424.01.01={death=yes}  # EST.
+		}
+		stuart_0078={ #// D3. [1m.] Joan; m.Robert Stewart, Lord Lorn
+			name="Joan"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3302	# CSS Mary Margaret of Menteith
+			1365.01.01={birth=yes}  # EST.
+			1425.01.01={death=yes}  # EST.
+		}
+		stuart_0079={ #// D4. [1m.] Beatrix, +before 1424; m.James Douglas, Ct of Douglas
+			name="Beatrix"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3302	# CSS Mary Margaret of Menteith
+			1366.01.01={birth=yes}  # EST.
+			1424.01.01={death=yes}  # before
+		}
+		stuart_0080={ #// D5. [1m.] Mary; m.Sir William George Abernethy
+			name="Mary"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3302	# CSS Mary Margaret of Menteith
+			1367.01.01={birth=yes}  # EST.
+			1427.01.01={death=yes}  # EST.
+		}
+		stuart_0081={ #// D6. [1m.] Janet; m.20.7.1372 David de Leon
+			name="Janet"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3302	# CSS Mary Margaret of Menteith
+			1362.01.01={birth=yes}  # EST.
+			1422.01.01={death=yes}  # EST.
+		}
+		stuart_0082={ #// D7. [1m.] Margaret of Albany; 1m: 1392 Sir John of Swinton; ? (2m: Robert Stewart of Innermeath, Lord of Lorne (+1448))
+			name="Margaret"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3302	# CSS Mary Margaret of Menteith
+			1368.01.01={birth=yes}  # EST.
+			1428.01.01={death=yes}  # EST.
+		}
+		stuart_0083={ #// D8. [2m.] John Stuart, Earl of Buchan, *about 1381, +k.a.Verneuil 17.8.1424; m.XI.1413 Lady Elisabeth Douglas
+			name="John"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3303	# Muriella de Keith
+			1382.01.01={birth=yes}
+			1413.11.01={add_spouse=lowbor2_3319}	# LADY Elisabeth Douglas
+			1424.08.17={death=yes}  # Verneuil
+		}
+			stuart_0084={ #// E1. Margaret; m.1436 George, Lord Seton
+				name="Margaret"
+				female=yes
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0083	# John Stewart
+				mother=lowbor2_3319	# LADY Elisabeth Douglas
+				1414.01.01={birth=yes}  # EST.
+				1474.01.01={death=yes}  # EST.
+			}
+		stuart_0085={ #// D9. [2m.] Andrew, +1413
+			name="Andrew"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3303	# Muriella de Keith
+			1383.01.01={birth=yes}  # EST.
+			1413.01.01={death=yes}
+		}
+		stuart_0086={ #// D10. [2m.] Robert, Earl of Ross, +k.a.Verneuil 17.8.1424
+			name="Robert"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3303	# Muriella de Keith
+			1384.01.01={birth=yes}  # EST.
+			1424.08.17={death=yes}  # Verneuil
+		}
+		stuart_0087={ #// D11. [2m.] Elizabeth; m.Sir Malcolm Fleming
+			name="Elizabeth"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3303	# Muriella de Keith
+			1386.01.01={birth=yes}  # EST.
+			1446.01.01={death=yes}  # EST.
+		}
+		stuart_0088={ #// D12. [2m.] Marjory; m.Duncan Campbell, Lord Campbell of Lochow
+			name="Marjory"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0064	# Robert Stewart
+			mother=lowbor2_3303	# Muriella de Keith
+			1387.01.01={birth=yes}  # EST.
+			1447.01.01={death=yes}  # EST.
+		}
+	stuart_0089={ #// C6. [1m.] Marjory; 1m: John Dunbar, Ct of Moray; 2m: Alexander Keith
+		name="Marjory"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1343.01.01={birth=yes}  # EST.
+		1403.01.01={death=yes}  # EST.
+	}
+	stuart_0090={ #// C7. [1m.] Lady Jean; 1m: 1373 Sir John Keith; 2m: 1379 Sir John Lyon; 3m: 1384 Sir James Sandilands
+		name="Jean"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1343.01.01={birth=yes}  # EST.
+		1403.01.01={death=yes}  # EST.
+	}
+	stuart_0091={ #// C8. [1m.] Isabella, +before 1410; 1m: James Douglas, Ct of Doouglas; 2m: before 1389 David John Edmonstone
+		name="Isabella"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1345.01.01={birth=yes}  # EST.
+		1410.01.01={death=yes}  # before
+	}
+	stuart_0092={ #// C9. [1m.] Kathrine
+		name="Kathrine"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1345.01.01={birth=yes}  # EST.
+		1405.01.01={death=yes}  # EST.
+	}
+	stuart_0093={ #// C10. [1m.] Elizabeth; m.Constable Thomas of Erroll Hay (*Erroloo, Perthshire about 1342 +ca VII.1406)
+		name="Elizabeth"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1347.01.01={birth=yes}  # EST.
+		1407.01.01={death=yes}  # EST.
+	}
+	stuart_0094={ #// C11. [2m.] David, Ct of Caithness, *ca 1356; m.N Lindsay
+		name="David"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1356.01.01={birth=yes}
+		1382.01.01={add_spouse=lowbor2_3331}	# N Lindsay
+		1431.01.01={death=yes}  # EST.
+	}
+		stuart_0095={ #// D1. Euphemia, Css of Strathearn; 1m: 1406 Sir Patrick Graham; 2m: Sir Patrick Dunbar
+			name="Euphemia"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0094	# David Stewart
+			mother=lowbor2_3331	# N Lindsay
+			1384.01.01={birth=yes}  # EST.
+			1444.01.01={death=yes}  # EST.
+		}
+	stuart_0096={ #// C12. [2m.] Walter, Ct of Atholl, *ca 1360, +beheaded Edinburgh 1437; 1m: Margaret de Barclay; 2m: 1404 Elisabeth Graham
+		name="Walter"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1360.01.01={birth=yes}
+		1386.01.01={add_spouse=lowbor2_3334}	# Margaret de Barclay
+		1404.01.01={add_spouse=lowbor2_3335}	# Elisabeth Graham
+		1437.01.01={death=yes}  # beheaded Edinburgh
+	}
+		stuart_0097={ #// D1. David James, +1437
+			name="David James"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0096	# Walter Stewart
+			mother=lowbor2_3334	# Margaret de Barclay
+			1387.01.01={birth=yes}  # EST.
+			1437.01.01={death=yes}
+		}
+			stuart_0098={ #// E1. Sir Robert Stewart, +Edinburgh 1437; m.1428 Margaret Ogilvy
+				name="Robert"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0097	# David James Stewart
+				1403.01.01={birth=yes}  # EST.
+				1428.01.01={add_spouse=lowbor2_3336}	# Margaret Ogilvy
+				1437.01.01={death=yes}  # Edinburgh
+			}
+		stuart_0099={ #// D2. Allan, Ct of Caithness, +Inverlochy 1431
+			name="Allan"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0096	# Walter Stewart
+			mother=lowbor2_3334	# Margaret de Barclay
+			1390.01.01={birth=yes}  # EST.
+			1431.01.01={death=yes}  # Inverlochy
+		}
+	stuart_0100={ #// C13. [2m.] Margaret
+		name="Margaret"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1359.01.01={birth=yes}  # EST.
+		1419.01.01={death=yes}  # EST.
+	}
+	stuart_0101={ #// C14. [2m.] Elizabeth Catherine; m.1380 David Lindsay, Ct of Crawford
+		name="Elizabeth Catherine"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1360.01.01={birth=yes}  # EST.
+		1420.01.01={death=yes}  # EST.
+	}
+	stuart_0102={ #// C15. [2m.] Egidia; m.1387 William Douglas, Lord of Galloway and Nithdale
+		name="Egidia"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1361.01.01={birth=yes}  # EST.
+		1421.01.01={death=yes}  # EST.
+	}
+	stuart_0103={ #// C16. [illegitimate by Moira Leitch] John, Sherrif of Butte; 1m: Janet Sympil; 2m: 1407 Elisabeth Graham
+		name="John"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1342.01.01={birth=yes}  # EST.
+		1367.01.01={add_spouse=lowbor2_3339}	# Janet Sympil
+		1407.01.01={add_spouse=lowbor2_3335}	# Elisabeth Graham
+		1408.01.01={death=yes}  # EST.
+	}
+	stuart_0104={ #// C17. [illegitimate by Marion Cardny] Alex, a canon
+		name="Alex"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		trait=bastard
+		1341.01.01={birth=yes}  # EST.
+		1401.01.01={death=yes}  # EST.
+	}
+	stuart_0105={ #// C18. John of Arntullie
+		name="John"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1341.01.01={birth=yes}  # EST.
+		1401.01.01={death=yes}  # EST.
+	}
+	stuart_0106={ #// C19. James of Kinfauns
+		name="James"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1341.01.01={birth=yes}  # EST.
+		1401.01.01={death=yes}  # EST.
+	}
+	stuart_0107={ #// C20. Walter
+		name="Walter"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1341.01.01={birth=yes}  # EST.
+		1401.01.01={death=yes}  # EST.
+	}
+	stuart_0108={ #// C21. [illegitimate by Marion Cardny] John, Lord of Burnley, +ca 1425
+		name="John"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		trait=bastard
+		1355.01.01={birth=yes}  # EST.
+		1425.01.01={death=yes}
+	}
+	stuart_0109={ #// C22. Sir John
+		name="John"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1341.01.01={birth=yes}  # EST.
+		1401.01.01={death=yes}  # EST.
+	}
+	stuart_0110={ #// C23. Alexander, Ct of Buchan, *before 1343, +1394; m.Euphemia, Css of Ross
+		name="Alexander"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1343.01.01={birth=yes}  # before
+		1369.01.01={add_spouse=lowbor2_3341}	# CSS Euphemia of Ross
+		1394.01.01={death=yes}
+	}
+		stuart_0111={ #// D1. [illegitimate by Margaret Atheyn] Alexander, Earl of Marr and Garioch, *before 1375, +26.7.1435; 1m: XII.1404 Lady Isabel/Elisabeth Douglas, Css of Mar; 2m: 1409/10 Marie van Horne (+1434)
+			name="Alexander"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0110	# Alexander Stewart
+			trait=bastard
+			1375.01.01={birth=yes}  # before
+			1404.12.01={add_spouse=lowbor2_3342}	# LADY Isabel Elisabeth Douglas
+			1409.01.01={add_spouse=lowbor2_3343}	# Marie van Horne
+			1435.07.26={death=yes}
+		}
+		stuart_0112={ #// D2. [illegitimate by Margaret Atheyn] Margaret; m.Robert Earl of Sutherland
+			name="Margaret"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0110	# Alexander Stewart
+			trait=bastard
+			1377.01.01={birth=yes}  # EST.
+			1437.01.01={death=yes}  # EST.
+		}
+	stuart_0113={ #// C24. Thomas, Dean
+		name="Thomas"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=453034	# Robert
+		1341.01.01={birth=yes}  # EST.
+		1401.01.01={death=yes}  # EST.
+	}
+#stuart1
 
 #stuart2
-100200676={ #// A1. Henry Stuart, Lord Darnley, Duke of Albany and Earl of Ross, *Temple, Newsham 7.12.1545, +Edinburgh 10.2.1567, bur Holyrood Abbey, Edinburgh; m.Edinburgh 29.7.1565 Queen Mary Stuart of Scots (*8.12.1542 +8.8.1587) $$
-	name=Henry
+stuart_0002={ #// Matthew Stewart, 4th Earl of Lennox, *Dunbarton Castle 21.9.1516, +Stirling 4.9.1571; m.St.James Palace, London 29.6.1544 Lady Margaret Douglas (*Harbottle Castle, Northumberland 8.10.1515, +Hackney, London 9.3.1578, bur Westminster Abbey), dau.of Earl Archibald Douglas and Margaret Tudor
+	name="Matthew"
 	dynasty=10144
 	religion=catholic culture=scottish
-	1545.12.07={birth=yes}
-	1565.07.29={add_spouse=100200377}	# Mary Stewart
-	1567.02.10={death=yes}
+	1516.09.21={birth=yes}  # Dunbarton Castle
+	1544.06.29={add_spouse=lowbor2_3165}	# LADY Margaret Douglas
+	1571.09.04={death=yes}  # Stirling
 }
-	100200662={ #// B1. JAMES I, King of Scots (1567-1625) -as James VI, King of England (1603-25), *Edinburgh Castle 19.6.1566, +Theobalds Park, Hertfordshire 27.3.1625, bur Westminster Abbey; m.Oslo 23.11.1589 Pss Anne of Denmark (*14.10.1574 +4.3.1619) $$
-		name=James
-		dynasty=3134
-		religion=anglican culture=scottish
-		father=100200676	# Henry Stuart
-		mother=100200377	# Mary Stewart
-		1566.06.19={birth=yes}
-		1589.08.20={add_spouse=100013021}	# Anna von Oldenburg
-		1625.03.27={death=yes}
+	stuart_0011={ #// A1. Henry Stuart, Lord Darnley, Duke of Albany and Earl of Ross, *Temple, Newsham 7.12.1545, +Edinburgh 10.2.1567, bur Holyrood Abbey, Edinburgh; m.Edinburgh 29.7.1565 Queen Mary Stuart of Scots (*8.12.1542 +8.8.1587) $$
+		name="Henry"
+		dynasty=10144
+		religion=catholic culture=scottish
+		father=stuart_0002	# Matthew Stuart
+		mother=lowbor2_3165	# LADY Margaret Douglas
+		1545.12.07={birth=yes}  # Temple Newsham
+		1565.07.29={add_spouse=stuart_0030}	# Mary Stewart
+		1567.02.10={death=yes}  # Edinburgh
 	}
-		100200381={ #// C4. Pss Elizabeth Stuart of England and Scotland, Queen of Bohemia cr 7.11.1619, *Dunfermline 19.8.1596, +Leicester House, London 13.2.1662, bur Westminster Abbey; m.Chapel Royal, Whitehall, London 14.2.1613 Kfst Friedrich V von der Pfalz, King of Bohemia (*16.8.1596 +29.11.1632) $$
-			name=Elizabeth
-			dynasty=3134
+		stuart_0012={ #// B1. JAMES I, King of Scots (1567-1625) -as James VI, King of England (1603-25), *Edinburgh Castle 19.6.1566, +Theobalds Park, Hertfordshire 27.3.1625, bur Westminster Abbey; m.Oslo 23.11.1589 Pss Anne of Denmark (*14.10.1574 +4.3.1619) $$
+			name="James"
+			dynasty=10144
+			religion=catholic culture=english
+			father=stuart_0011	# Henry Stuart
+			mother=stuart_0030	# Mary Stewart
+			1566.06.19={birth=yes}  # Edinburgh Castle
+			1589.11.23={add_spouse=100013021}	# Anna von Oldenburg
+			1625.03.27={death=yes}  # Theobalds Park Hertfordshire
+		}
+			stuart_0114={ #// C1. Henry Frederick, Pr of Wales, *Stirling Castle 19.2.1594, +St.James's Palace 6.11.1612
+				name="Henry Frederick"
+				dynasty=10144
+				religion=catholic culture=scottish
+				father=stuart_0012	# James Stuart
+				mother=100013021	# Anna von Oldenburg
+				1594.02.19={birth=yes}
+				1612.11.06={death=yes}
+			}
+			stuart_0116={ #// C2. King CHARLES I of England and Scotland, *Dunfermline 19.11.1600, +executed at Whitehall 30.1.1649, bur Chapel Royal, Windsor; m.Canterbury 13.6.1625 Henriette Marie of France (*25.11.1609 +31.8.1669)
+				name="Charles"
+				dynasty=10144
+				religion=catholic culture=scottish
+				father=stuart_0012	# James Stuart
+				mother=100013021	# Anna von Oldenburg
+				1600.11.19={birth=yes}  # Dunfermline
+				1625.06.13={add_spouse=lowbor2_3362}	# Henriette Marie de Valois
+				1649.01.30={death=yes}
+			}
+				stuart_0117={ #// D1. Charles James, Duke of Cornwall & Rothesay, *and +Greenwich Palace 13.5.1629
+					name="Charles James"
+					dynasty=10144
+					religion=catholic culture=scottish
+					father=stuart_0116	# Charles Stuart
+					mother=lowbor2_3362	# Henriette Marie de Valois
+					1629.05.13={birth=yes}
+					1704.01.01={death=yes}  # EST.
+				}
+				#stuart3    -->   D2. King CHARLES II of England and Scotland (29.5.1660-1685), *St.James's Palace, London 29.5.1630, +Whitehall 6.2.1685; m.Portsmouth 21.5.1662 Infanta Catherine of Portugal (*25.11.1638 +31.12.1705); for his illegitimate issue see HERE
+				stuart_0119={ #// D3. King JAMES II of England and Scotland (=James VII) (1685-88), Duke of York 1643, *St.James' Palace 14.10.1633, +St.Germain-en-Laye 6.9.1701; 1m: Breda 24.11.1659 Lady Anne Hyde (*Cranbourne Lodge 12.3.1638, +St.James's Palace 31.3.1671); 2m: Dover 21.11.1673 Maria Beatrice Eleonora d'Este, Pss of Modena (*25.9.1658 +7.5.1718) $$
+					name="James"
+					dynasty=10144
+					religion=catholic culture=scottish
+					father=stuart_0116	# Charles Stuart
+					mother=lowbor2_3362	# Henriette Marie de Valois
+					1633.10.14={birth=yes}  # St.James' Palace
+					1659.11.24={add_spouse=100200396}	# Anne Hyde
+					1673.11.21={add_spouse=100071121}	# Maria Beatrice d'Este
+					1701.09.06={death=yes}  # St.Germain-en-Laye
+				}
+					stuart_0120={ #// E1. Pr Charles of England and Scotland, Duke of Cambridge, *Worcester House 22.10.1660, +Whitehall 5.5.1661
+						name="Charles"
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100200396	# Anne Hyde
+						1660.10.22={birth=yes}
+						1661.05.05={death=yes}  # Whitehall
+					}
+					stuart_0177={ #// E7. Queen MARY II of England and Scotland (1689-94), *St.James's Palace 30.4.1662, +Kensington Palace 28.12.1694; m.St.James's Palace 4.11.1677 Pr Willem III of Orange, King of England and Scotland, etc. (*4.11.1650 +8.3.1702) $$
+						name="Mary"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100200396	# Maria Beatrice d'Este
+						1662.04.30={birth=yes}	# St.James's Palace
+						1694.12.28={death=yes}	# Kensington Palace
+					}
+					stuart_0121={ #// E2. Pr James of England and Scotland, Duke of Cambridge, *St.James's Palace 12.7.1663, +Richmond Palace 20.6.1667
+						name="James"
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100200396	# Anne Hyde
+						1663.07.12={birth=yes}
+						1667.06.20={death=yes}
+					}
+					stuart_0178={ #// E8. Queen ANNE of Great Britain (1702-14), *St.James's Palace 6.2.1665, +Kensington Palace 1.8.1714; m.Chapel Royal, St.James's Palace 28.7.1683 Pr George of Denmark (*Copenhagen 2.4.1653, +Kensington Palace 28.10.1708) $$
+						name="Anne"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100200396	# Maria Beatrice d'Este
+						1665.02.06={birth=yes}	# St.James's Palace
+						1714.08.01={death=yes}	# Kensington Palace
+					}
+					stuart_0122={ #// E3. Pr Charles of England and Scotland, Duke of Kendal, *St.James's Palace 4.7.1666, +there 22.5.1667
+						name="Charles"
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100200396	# Anne Hyde
+						1666.07.04={birth=yes}
+						1667.05.22={death=yes}  # there
+					}
+					stuart_0123={ #// E4. Pr Edgar of England and Scotland, Duke of Cambridge, *St.James's Palace 14.9.1667, +Richmond Palace 8.6.1671
+						name="Edgar"
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100200396	# Anne Hyde
+						1667.09.14={birth=yes}
+						1671.06.08={death=yes}
+					}
+					stuart_0179={ #// E9. Pss Henrietta of England and Scotland, *Whitehall 13.1.1669, +St.James's Palace 15.11.1669
+						name="Henrietta"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100200396	# Anne Hyde
+						1669.01.13={birth=yes}  # Whitehall
+						1669.11.15={death=yes}
+					}
+					stuart_0188={ #// E17. [illegitimate by Arabella Churchill] Henrietta Fitzjames, *1670, +3.4.1730; 1m: 29.11.1683 Henry, Lord Waldegrave (1661-1690); 2m: 1695 Piers Butler, Viscount Galmoyle (1652-1697)
+						name="Henrietta"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						trait=bastard
+						1670.01.01={birth=yes}
+						1730.04.03={death=yes}
+					}
+					#stuart8   -->    E15. [illegitimate by Arabella Churchill] James Fitzjames, Duke of Berwick, *21.8.1670, +k.a. Philippsburg 12.6.1734; 1m: St.Germian 26.3.1695 Lady Honora de Burgh, Dowager Css of Lucan (+Pezénas 16.1.1698); 2m: Paris 18.4.1700 Anne Bulkeley (+12.6.1751); for his descendants see HERE
+					stuart_0180={ #// E10. Pss Catherine of England and Scotland, *Whitehall 9.2.1671, +St.James's Palace 5.12.1671
+						name="Catherine"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100200396	# Anne Hyde
+						1671.02.09={birth=yes}  # Whitehall
+						1671.12.05={death=yes}
+					}
+					stuart_0186={ #// E16. [illegitimate by Arabella Churchill] Henry Fitzjames, Duke of Albemarle, *6.8.1673, +Bagnols XII.1702; m.20.7.1700 Marie Gabrielle d'Audibert (*ca 1675, +St. Germain 15.5.1741)
+						name="Henry"
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						trait=bastard
+						1673.08.06={birth=yes}
+						1700.07.20={add_spouse=lowbor2_3387}	# Marie Gabrielle d'Audibert
+						1702.12.01={death=yes}  # Bagnols
+					}
+						stuart_0187={ #// F1. Marie de Fitzjames, a nun, fl 20.6.1707
+							name="Marie"
+							female=yes
+							dynasty=10144
+							religion=catholic culture=scottish
+							father=stuart_0186	# Henry Stuart
+							mother=lowbor2_3387	# Marie Gabrielle d'Audibert
+							1702.01.01={birth=yes}  # EST.
+							1730.01.01={death=yes}  # EST.
+						}
+					stuart_0189={ #// E18. [illegitimate by Arabella Churchill] Arabella Fitzjames, a nun, *1674, +7.11.1704
+						name="Arabella"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100071121	# Maria Beatrice d'Este
+						1674.01.01={birth=yes}
+						1704.11.07={death=yes}
+					}
+					stuart_0181={ #// E11. Pss Catherine Laura of England and Scotland, *St.James's Palace 10.1.1675, +there 3.10.1675
+						name="Catherine Laura"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100071121	# Maria Beatrice d'Este
+						1675.01.10={birth=yes}
+						1675.10.03={death=yes}  # there
+					}
+					stuart_0182={ #// E12. Pss Isabella of England and Scotland, *St.James's Palace 18.8.1676, +there 2.3.1681
+						name="Isabella"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100071121	# Maria Beatrice d'Este
+						1676.08.18={birth=yes}
+						1681.03.02={death=yes}  # there
+					}
+					stuart_0183={ #// E13. Pss Charlotte Maria of England and Scotland, *St.James's Palace 16.8.1682, +there 6.10.1682
+						name="Charlotte"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100071121	# Maria Beatrice d'Este
+						1682.08.16={birth=yes}
+						1682.10.06={death=yes}  # there
+					}
+					stuart_0124={ #// E5. Pr Charles of England and Scotland, Duke of Cambridge, *and +St.James's Palace 1677
+						name="Charles"
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100071121	# Maria Beatrice d'Este
+						1677.01.01={birth=yes}
+						1677.01.02={death=yes}
+					}
+					stuart_0190={ #// E19. [illegitimate by Catherine Sedley] Catherine Darnley, +14.3.1743; 1m: Westminster Abbey 28.10.1699 James Annesley, 3d Earl of Anglesey (+1702); 2m: 16.3.1706 John Sheffield, Duke of Buckingham (+1721)
+						name="Catherine"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						trait=bastard
+						1678.01.01={birth=yes}  # EST.
+						1743.03.14={death=yes}
+					}
+					stuart_0125={ #// E6. Pr James Francis Edward of England and Scotland, Pr of Wales, *St.James's Palace 10.6.1688, +Rome 1.1.1766; m.Monte Fiascone Cathedral 3.9.1719 Marie Clementine Sobieska (*18.7.1702 +18.1.1735) $$
+						name="James"
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100071121	# Maria Beatrice d'Este
+						1688.06.10={birth=yes}
+						1719.09.03={add_spouse=sobieski_0015}	# Maria Klementyna Sobieski
+						1766.01.01={death=yes}  # Rome
+					}
+						stuart_0126={ #// F1. Pr Charles Edward Louis Philippe Casimir of England and Scotland, Earl of Albany, cr King of Scots 22.9.1745 -as Charles III, assumed title King of Scotland, *Rome 31.12.1720, +Rome 31.1.1788; 1m: Macerata 17.4.1772 (div 1784) Pss Luise zu Stolberg-Gedern (*20.9.1752 +29.1.1824); 2m: XII.1785 Margarette O'Dea d'Audibert de Lussan, Comtess de Massillan (*1749 +1820) $$
+							name="Charles"
+							dynasty=10144
+							religion=catholic culture=italian
+							father=stuart_0125	# James Stuart
+							mother=sobieski_0015	# Maria Klementyna Sobieski
+							1720.12.31={birth=yes}  # Rome
+							1772.04.17={add_spouse=100009726}	# Louise von Stolberg
+							1784.01.01={remove_spouse=100009726}
+							1785.12.01={add_spouse=lowbor2_3382}	# CSS Margarette O'Dea d'Audibert de Lussan de Massillan
+							1788.01.31={death=yes}  # Rome
+						}
+							stuart_0143={ #// G2. [illegitimate by his first cousin, Marie Louise de La Tour d'Auvergne (+1793)] Charles Stuart of Airdroch, *28.7.1748, +1820; Marie Louise's husband, Duc de Montbazon, gave him his name, so he was known officially as Charles Godefroi Sophie Jules de Rohan. He married a rich Scottish heiress and had two children, called Sobieski-Stuart brothers. (Some authorities however claim that the child with Marie Louise was supposed to have died within 6 months and Sobieski-Stuart brothers had no Stuart ancestry.)
+								name="Charles"
+								dynasty=10144
+								religion=catholic culture=scottish
+								father=stuart_0126	# Charles Stuart
+								trait=bastard
+								1748.07.28={birth=yes}
+								1820.01.01={death=yes}
+							}
+							stuart_0129={ #// G1. [illegitimate by Clementina Walkinshaw] Charlotte Stuart, titular Duchess of Albany, *Liége 1753, +Bologna 17.11.1789; she apparently had illegitimate issue by Ferdinand Maximilien Meriadec de Rohan-Guéméné
+								name="Charlotte"
+								dynasty=10144
+								religion=catholic culture=scottish
+								father=stuart_0126	# Charles Stuart
+								trait=bastard
+								1753.01.01={birth=yes}  # Liége
+								1789.11.17={death=yes}  # Bologna
+							}
+						stuart_0176={ #// F2. Pr Henry Benedict Maria Klement Thomas Francis Xaver of England and Scotland, Cardinal, titular Duke of York, *Rome 6.3.1725, +Frascati 13.7.1807
+							name="Henry"
+							dynasty=10144
+							religion=catholic culture=italian
+							father=stuart_0125	# James Stuart
+							mother=sobieski_0015	# Maria Klementyna Sobieski
+							1725.03.06={birth=yes}  # Rome
+							1807.07.13={death=yes}  # Frascati
+						}
+					stuart_0184={ #// E14. Pss Louisa Maria Theresa of England and Scotland, *St.Germain-en-Laye 28.6.1692, +there 8.4.1712
+						name="Louisa"
+						female=yes
+						dynasty=10144
+						religion=catholic culture=scottish
+						father=stuart_0119	# James Stuart
+						mother=100071121	# Maria Beatrice d'Este
+						1692.06.28={birth=yes}  # St.Germain en Laye
+						1712.04.08={death=yes}  # there
+					}
+				stuart_0191={ #// D4. Pr Henry of England and Scotland, Duke of Gloucester, *Oatlands, Surrey 8.7.1640, +Whitehall 13.9.1660
+					name="Henry"
+					dynasty=10144
+					religion=catholic culture=scottish
+					father=stuart_0116	# Charles Stuart
+					mother=lowbor2_3362	# Henriette Marie de Valois
+					1640.07.08={birth=yes}
+					1660.09.13={death=yes}  # Whitehall
+				}
+				stuart_0192={ #// D5. Mary, Pss Royal of England and Scotland, *St.James's Palace 4.11.1631, +Whitehall, London 24.12.1660; m.Chapel Royal, Whitehall 2.5.1641 Pr Willem II of Orange, Ct of Nassau, Stattholder of the Netherlands (*1626 +27.10.1650) $$
+					name="Mary"
+					female=yes
+					dynasty=10144
+					religion=catholic culture=scottish
+					father=stuart_0116	# Charles Stuart
+					mother=lowbor2_3362	# Henriette Marie de Valois
+					1631.11.04={birth=yes}
+					1660.12.24={death=yes}
+				}
+				stuart_0193={ #// D6. Pss Elizabeth of England and Scotland, *St.James's Palace 29.12.1635, +Carisbrooke Castle 8.9.1650
+					name="Elizabeth"
+					female=yes
+					dynasty=10144
+					religion=catholic culture=scottish
+					father=stuart_0116	# Charles Stuart
+					mother=lowbor2_3362	# Henriette Marie de Valois
+					1635.12.29={birth=yes}
+					1650.09.08={death=yes}
+				}
+				stuart_0194={ #// D7. Pss Anne of England and Scotland, *St.James's Palace 17.3.1637, +Richmond Palace 5.11.1640
+					name="Anne"
+					female=yes
+					dynasty=10144
+					religion=catholic culture=scottish
+					father=stuart_0116	# Charles Stuart
+					mother=lowbor2_3362	# Henriette Marie de Valois
+					1637.03.17={birth=yes}
+					1640.11.05={death=yes}
+				}
+				stuart_0195={ #// D8. Pss Catherine of England and Scotland, *and +Whitehall 29.6.1639
+					name="Catherine"
+					female=yes
+					dynasty=10144
+					religion=catholic culture=scottish
+					father=stuart_0116	# Charles Stuart
+					mother=lowbor2_3362	# Henriette Marie de Valois
+					1639.06.29={birth=yes}
+					1719.01.01={death=yes}  # Whitehall
+				}
+				stuart_0196={ #// D9. Pss Henrietta Anne of England and Scotland, *Bedford House, Exeter 16.6.1644, +St.Cloud 30.6.1670; m.Paris 31.3.1661 Philippe Duc d'Orléans (+1701) $$
+					name="Henrietta Anne"
+					female=yes
+					dynasty=10144
+					religion=catholic culture=scottish
+					father=stuart_0116	# Charles Stuart
+					mother=lowbor2_3362	# Henriette Marie de Valois
+					1644.06.16={birth=yes}
+					1670.06.30={death=yes}  # St.Cloud
+				}
+			stuart_0197={ #// C3. Pr Robert of Scotland, Duke of Kintyre, *Dunfermline 18.1.1602, +there 27.5.1602
+				name="Robert"
+				dynasty=10144
+				religion=catholic culture=scottish
+				father=stuart_0012	# James Stuart
+				mother=100013021	# Anna von Oldenburg
+				1602.01.18={birth=yes}  # Dunfermline
+				1602.05.27={death=yes}  # there
+			}
+			stuart_0198={ #// C4. Pss Elizabeth Stuart of England and Scotland, Queen of Bohemia, *Dunfermline 19.8.1596, +Leicester House, London 13.2.1662, bur Westminster Abbey; m.Chapel Royal, Whitehall, London 14.2.1613 Kfst Friedrich V von der Pfalz, King of Bohemia (*16.8.1596 +29.11.1632) $$
+				name="Elizabeth"
+				female=yes
+				dynasty=10144
+				religion=catholic culture=scottish
+				father=stuart_0012	# James Stuart
+				mother=100013021	# Anna von Oldenburg
+				1596.08.19={birth=yes}  # Dunfermline
+				1662.02.13={death=yes}  # Leicester House London
+			}
+			stuart_0199={ #// C5. Pss Margaret of Scotland, *Dalkeith Palace 24.12.1598, +Linlithgow III.1600
+				name="Margaret"
+				female=yes
+				dynasty=10144
+				religion=catholic culture=scottish
+				father=stuart_0012	# James Stuart
+				mother=100013021	# Anna von Oldenburg
+				1598.12.24={birth=yes}
+				1600.03.01={death=yes}  # Linlithgow
+			}
+			stuart_0200={ #// C6. Pss Mary of Scotland and England, *Greenwich Palace 8.4.1605, +Stanwell Park 16.9.1607
+				name="Mary"
+				female=yes
+				dynasty=10144
+				religion=catholic culture=scottish
+				father=stuart_0012	# James Stuart
+				mother=100013021	# Anna von Oldenburg
+				1605.04.08={birth=yes}
+				1607.09.16={death=yes}
+			}
+			stuart_0201={ #// C7. Pss Sophia of Scotland and England, *Greenwich Palace VI.1606, +Greenwich Palace VI.1606
+				name="Sophia"
+				female=yes
+				dynasty=10144
+				religion=catholic culture=scottish
+				father=stuart_0012	# James Stuart
+				mother=100013021	# Anna von Oldenburg
+				1606.06.01={birth=yes}
+				1606.06.01={death=yes}
+			}
+	stuart_0202={ #// A2. Earl Charles Stuart, Earl of Lennox, *Rufford, Nottinghamshire 1555, +London 1576, bur Westminster Abbey; m.1574 Elisabeth Cavendish
+		name="Charles"
+		dynasty=10144
+		religion=catholic culture=scottish
+		father=stuart_0002	# Matthew Stuart
+		mother=lowbor2_3165	# LADY Margaret Douglas
+		1555.01.01={birth=yes}  # Rufford Nottinghamshire
+		1574.01.01={add_spouse=lowbor2_3395}	# Elisabeth Cavendish
+		1576.01.01={death=yes}  # London
+	}
+		stuart_0203={ #// B1. Lady Arabella Stuart, *ca 1575, +Tower of London 27.9.1615; m.secretly 22.6.1610 Duke William Seymour, Duke of Somerset (*1588 +24.10.1660)
+			name="Arabella"
 			female=yes
-			religion=anglican culture=scottish
-			father=100200662	# James Stewart
-			mother=100013021	# Anna von Oldenburg
-			1596.08.19={birth=yes}
-			1662.02.13={death=yes}
+			dynasty=10144
+			religion=catholic culture=scottish
+			father=stuart_0202	# Charles Stuart
+			mother=lowbor2_3395	# Elisabeth Cavendish
+			1575.01.01={birth=yes}
+			1615.09.27={death=yes}  # Tower of_London
 		}
-		100200026={ #// C2. King CHARLES I of England and Scotland (1625-49), *Dunfermline 19.11.1600, +executed at Whitehall 30.1.1649, bur Chapel Royal, Windsor; m.Canterbury 13.6.1625 Henriette Marie of France (*25.11.1609 +31.8.1669) $$
-			name=Charles
-			dynasty=3134
-			religion=anglican culture=scottish
-			father=100200662	# James Stewart
-			mother=100013021	# Anna von Oldenburg
-			1600.11.19={birth=yes}
-			1624.01.01={add_spouse=100200386}	# Henriette Marie de Valois
-			1649.01.30={death=yes}
-		}
-			# stuart3  -> D2. King CHARLES II of England and Scotland (29.5.1660-1685), *St.James's Palace, London 29.5.1630, +Whitehall 6.2.1685; m.Portsmouth 21.5.1662 Infanta Catherine of Portugal (*25.11.1638 +31.12.1705); for his illegitimate issue see HERE
-			100200028={ #// D3. King JAMES II of England and Scotland (=James VII) (1685-88), Duke of York 1643, *St.James' Palace 14.10.1633, +St.Germain-en-Laye 6.9.1701; 1m: Breda 24.11.1659 Lady Anne Hyde (*Cranbourne Lodge 12.3.1638, +St.James's Palace 31.3.1671); 2m: Dover 21.11.1673 Maria Beatrice Eleonora d'Este, Pss of Modena (*25.9.1658 +7.5.1718) $$
-				name=James
-				dynasty=3134
-				religion=catholic culture=scottish
-				father=100200026	# Charles Stewart
-				mother=100200386	# Henriette Marie de Valois
-				1633.10.14={birth=yes}
-				1660.01.01={add_spouse=100200396}	# Anne Hyde
-				1673.11.21={add_spouse=100071121}	# Maria d'Este
-				1701.09.06={death=yes}
-			}
-				100200029={ #// E7. Queen MARY II of England and Scotland (1689-94), *St.James's Palace 30.4.1662, +Kensington Palace 28.12.1694;  $$
-							# m.St.James's Palace 4.11.1677 Pr Willem III of Orange, King of England and Scotland, etc. (*4.11.1650 +8.3.1702) $$
-					name=Mary
-					female=yes
-					dynasty=3134
-					religion=anglican culture=scottish
-					father=100200028	# James Stewart
-					mother=100200396	# Anne Hyde
-					1662.05.10={birth=yes}  # London
-					1695.01.07={death=yes}  # Kensington Palace
-				}
-				100200031={ #// E8. Queen ANNE of Great Britain (1702-14), *St.James's Palace 6.2.1665, +Kensington Palace 1.8.1714; m.Chapel Royal, St.James's Palace 28.7.1683 Pr George of Denmark (*Copenhagen 2.4.1653, +Kensington Palace 28.10.1708) $$
-					name=Anne
-					dynasty=3134
-					female=yes
-					religion=anglican culture=scottish
-					father=100200028	# James Stewart
-					mother=100200396	# Anne Hyde
-					1665.02.06={birth=yes}
-					1714.08.24={death=yes}
-				}
-				100200409={ #// E6. Pr James Francis Edward of England and Scotland, Pr of Wales, *St.James's Palace 10.6.1688, +Rome 1.1.1766; m.Monte Fiascone Cathedral 3.9.1719 Marie Clementine Sobieska (*18.7.1702 +18.1.1735) $$
-					name=James
-					dynasty=3134
-					religion=catholic culture=scottish
-					father=100200028	# James Stewart
-					mother=100071121	# Maria d'Este
-					1688.06.10={birth=yes}
-					1719.09.03={add_spouse=sobieski_0015}	# Maria Klementyna Sobieski
-					1766.01.01={death=yes}
-				}
-					100200658={ #// F1. Pr Charles Edward Louis Philippe Casimir of England and Scotland, Earl of Albany, cr King of Scots 22.9.1745 -as Charles III, assumed title King of Scotland de iure 1766, *Rome 31.12.1720, +Rome 31.1.1788; 1m: Macerata 17.4.1772 (div 1784) Pss Luise zu Stolberg-Gedern (*20.9.1752 +29.1.1824); 2m: XII.1785 Margarette O'Dea d'Audibert de Lussan, Comtess de Massillan (*1749 +1820) $$
-						name="Charles Edward"
-						dynasty=3134
-						religion=catholic culture=scottish
-						father=100200409	# James Stewart
-						mother=sobieski_0015	# Maria Klementyna Sobieski
-						1720.12.31={birth=yes}
-						1772.04.17={add_spouse=100009726}	# Louise von Stolberg
-						1784.01.01={remove_spouse=100009726}
-						1788.01.31={death=yes}
-					}
-					100200413={ #// F2. Pr Henry Benedict Maria Klement Thomas Francis Xaver of England and Scotland, Cardinal, titular Duke of York, *Rome 6.3.1725, +Frascati 13.7.1807
-						name=Henry
-						dynasty=3134
-						religion=catholic culture=scottish
-						father=100200409	# James Stewart
-						mother=sobieski_0015	# Maria Klementyna Sobieski
-						1725.03.06={birth=yes}
-						1807.07.13={death=yes}
-					}
-				100200410={ #// E14. Pss Louisa Maria Theresa of England and Scotland, *St.Germain-en-Laye 28.6.1692, +there 8.4.1712
-					name=Louisa
-					dynasty=3134
-					female=yes
-					religion=catholic culture=scottish
-					father=100200028	# James Stewart
-					mother=100071121	# Maria d'Este
-					1692.06.28={birth=yes}
-					1712.04.18={death=yes}
-				}
-			100200388={ #// D5. Mary, Pss Royal of England and Scotland, *St.James's Palace 4.11.1631, +Whitehall, London 24.12.1660; m.Chapel Royal, Whitehall 2.5.1641 Pr Willem II of Orange, Ct of Nassau, Stattholder of the Netherlands (*1626 +27.10.1650) $$
-				name=Mary
-				female=yes
-				dynasty=3134
-				religion=anglican culture=scottish
-				father=100200026	# Charles Stewart
-				mother=100200386	# Henriette Marie de Valois
-				1631.05.04={birth=yes}  # London
-				1661.12.24={death=yes}  # London
-			}
-			100200390={ #// D6. Pss Elizabeth of England and Scotland, *St.James's Palace 29.12.1635, +Carisbrooke Castle 8.9.1650
-				name=Elizabeth
-				dynasty=3134
-				female=yes
-				religion=anglican culture=scottish
-				father=100200026	# Charles Stewart
-				mother=100200386	# Henriette Marie de Valois
-				1635.12.28={birth=yes}
-				1650.09.08={death=yes}
-			}
-			100200032={ #// D9. Pss Henrietta Anne of England and Scotland, *Bedford House, Exeter 16.6.1644, +St.Cloud 30.6.1670; m.Paris 31.3.1661 Philippe Duc d'Orléans (+1701) $$
-				name=Henrietta
-				female=yes
-				dynasty=3134
-				religion=catholic culture=scottish
-				father=100200026	# Charles Stewart
-				mother=100200386	# Henriette Marie de Valois
-				1644.06.16={birth=yes}
-				1670.06.30={death=yes}
-			}
+	stuart_0204={ #// A3. Margaret; m.Sir Hugh Campbell
+		name="Margaret"
+		female=yes
+		dynasty=10144
+		religion=catholic culture=scottish
+		father=stuart_0002	# Matthew Stuart
+		mother=lowbor2_3165	# LADY Margaret Douglas
+		1556.01.01={birth=yes}  # EST.
+		1616.01.01={death=yes}  # EST.
+	}
 #stuart2
 
 #stuart3
-100200027={ #// King CHARLES II of England and Scotland (1660-85), *St.James's Palace 29.5.1630, +Whitehall 6.2.1685; m.Portsmouth 21.5.1662 Infanta Catherine of Portugal (*Vila Vicosa 25.11.1638, +Lisbon 31.12.1705) $$
-	name=Charles
+stuart_0001={ #// King CHARLES II of England and Scotland (1660-85), *St.James's Palace 29.5.1630, +Whitehall 6.2.1685; m.Portsmouth 21.5.1662 Infanta Catherine of Portugal (*Vila Vicosa 25.11.1638, +Lisbon 31.12.1705) $$
+	name="Charles"
 	dynasty=3134
-	religion=anglican culture=scottish
-	father=100200026	# Charles Stewart
-	mother=100200386	# Henriette Marie de Valois
-	1630.05.29={birth=yes}
-	1662.04.23={add_spouse=100200395}	# Catarina de BraganC a
-	1685.02.06={death=yes}
+	religion=catholic culture=scottish
+	father=stuart_0116	# Charles Stuart
+	mother=lowbor2_3362	# Henriette Marie de Valois
+	1630.01.01={birth=yes}
+	1662.05.21={add_spouse=100200395}	# Catarina de BraganC a
+	1685.01.01={death=yes}  # Whitehall
 }
-	# A12. [illegitimate by Eleanor [Nell] Gwynne] Charles Beauclerk, Duke of St.Albans, *London 8.5.1670, +Bath 10.5.1726; m.17.4.1694 Lady Diana de Vere (+15.1.1742); for his descendants see HERE
-	# A15. [illegitimate by Louise de Kéroualle Dss of Portsmouth] Charles Lennox, Duke of Richmond & Lennox, *London 29.7.1672, +Goodwood 27.5.1723; m.ca 8.1.1693 Hon.Anne Brudenell (+Whitehall 9.12.1722); for his descendants see HERE
+	modosco_0001={ #// A1. [illegitimate] James Crofts "Scott", -cr Duke of Monmouth and Buccleuch, *9.3.1649, +beheaded at Tower of London 15.7.1685; m.20.4.1663 Anne Scott, Css of Buccleuch (*11.2.1651, +6.2.1732)
+		name="James"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1649.03.09={birth=yes}
+		1663.04.20={add_spouse=lowbor2_3175}	# CSS Anne Scott of Buccleuch
+		1685.07.15={death=yes}  # London
+	}
+		modosco_0002={ #// B1. Charles Scott, Earl of Doncaster, *24.8.1672, +10.2.1674
+			name="Charles"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=modosco_0001	# James Stewart
+			mother=lowbor2_3175	# CSS Anne Scott of Buccleuch
+			1672.08.24={birth=yes}
+			1674.02.10={death=yes}
+		}
+		modosco_0003={ #// B2. James Scott, Earl of Dalkeith, *23.5.1674, +London 19.3.1705; m.2.1.1694 Lady Henrietta Hyde (+30.5.1730)
+			name="James"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=modosco_0001	# James Stewart
+			mother=lowbor2_3175	# CSS Anne Scott of Buccleuch
+			1674.05.23={birth=yes}
+			1694.01.02={add_spouse=lowbor2_3177}	# LADY Henrietta Hyde
+			1705.03.19={death=yes}  # London
+		}
+			modosco_0004={ #// C1. Francis Scott, 2d Duke of Buccleuch, *11.1.1695, +22.4.1751; 1m: London 5.4.1720 Lady Jean Douglas (+Langley 31.8.1729); 2m: London 4.9.1744 Alice Powell (+5.12.1765)
+				name="Francis"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=modosco_0003	# James Stewart
+				mother=lowbor2_3177	# LADY Henrietta Hyde
+				1695.01.11={birth=yes}
+				1720.04.05={add_spouse=lowbor2_3182}	# LADY Jean Douglas
+				1744.09.04={add_spouse=lowbor2_3193}	# Alice Powell
+				1751.04.22={death=yes}
+			}
+				modosco_0005={ #// D1. Francis Scott, Earl of Dalkeith, *19.2.1721, +Adderbury, Oxon 1.4.1750; m.London 2.10.1742 Lady Caroline Campbell (*Sudbrooke, Surrey 17.11.1717, +Sudbrooke 11.1.1794) $$
+					name="Francis"
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=modosco_0004	# Francis Stewart
+					mother=lowbor2_3182	# LADY Jean Douglas
+					1721.02.19={birth=yes}
+					1742.10.02={add_spouse=100060229}	# Caroline Campbell
+					1750.04.01={death=yes}  # Adderbury, Oxon
+				}
+					stuart_0115={ #// E1. John Scott, Lord Scott of Whitchester, *3.6.1745, +31.1.1749
+						name="John"
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=modosco_0005	# Francis Stewart
+						mother=100060229	# Caroline Campbell
+						1745.06.03={birth=yes}
+						1749.01.31={death=yes}
+					}
+					modosco_0008={ #// E2. Henry Scott, 3d Duke of Buccleuch & Queensberry, *29.9.1746, +Dalkeith 11.1.1812; m.Montagu House 2.5.1767 Lady Elizabeth Montagu (*29.5.1743, +Richmond, Surrey 21.11.1827)
+						name="Henry"
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=modosco_0005	# Francis Stewart
+						mother=100060229	# Caroline Campbell
+						1746.09.29={birth=yes}
+						1767.05.02={add_spouse=lowbor2_3259}	# LADY Elizabeth Montagu
+						1812.01.11={death=yes}  # Dalkeith
+					}
+						modosco_0009={ #// F1. George Scott, Earl of Dalkeith, *25.3.1768, +29.5.1768
+							name="George"
+							dynasty=3134
+							religion=catholic culture=scottish
+							father=modosco_0008	# Henry Stewart
+							mother=lowbor2_3259	# LADY Elizabeth Montagu
+							1768.03.25={birth=yes}
+							1768.05.29={death=yes}
+						}
+						#stuart4    -->    F2. Charles William Henry Montagu Scott, 4th Duke of Buccleuch & Queensberry, *London 24.5.1772, +Lisbon 20.4.1819; m.London 24.3.1795 Hon.Catharine Townshend (*29.11.1773, +Dalkeith House 24.8.1814); for his descendants see HERE
+						modosco_0022={ #// F3. Henry James Montagu-Scott, 2nd Lord Montagu of Boughton, *London 16.12.1776, +London 30.10.1845; m.Dalkeith House 22.11.1804 Hon.Jane Margaret Douglas (*21.12.1779, +Ditton Park 8.1.1859)
+							name="Henry James"
+							dynasty=3134
+							religion=catholic culture=english
+							father=modosco_0008	# Henry Stewart
+							mother=lowbor2_3259	# LADY Elizabeth Montagu
+							1776.12.16={birth=yes}  # London
+							1804.11.22={add_spouse=lowbor2_3265}	# HON. Jane Margaret Douglas
+							1845.10.30={death=yes}  # London
+						}
+							modosco_0023={ #// G1. Hon. Lucy Elizabeth Montagu-Scott, *14.11.1805, +the Hirsel 15.5.1877; m.Ditton Park 4.12.1832 Cospatrick Alexander Home, 11th Earl of Home (*1799 +1881)
+								name="Lucy Elizabeth"
+								female=yes
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=modosco_0022	# Henry James Stewart
+								mother=lowbor2_3265	# HON. Jane Margaret Douglas
+								1805.11.14={birth=yes}
+								1877.05.15={death=yes}  # the Hirsel
+							}
+							modosco_0026={ #// G2. Hon. Caroline Georgiana Montagu-Scott, +5.12.1891; m.5.3.1836 George William Hope, of Luffness (*1808 +1863)
+								name="Caroline Georgiana"
+								female=yes
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=modosco_0022	# Henry James Stewart
+								mother=lowbor2_3265	# HON. Jane Margaret Douglas
+								1806.01.01={birth=yes}  # EST.
+								1891.12.05={death=yes}
+							}
+							modosco_0024={ #// G3. Hon. Mary Margaret Scott-Montagu, *1807, +1885; m.Frederick Clinton (*1804 +1870)
+								name="Mary Margaret"
+								female=yes
+								dynasty=3134
+								religion=catholic culture=scottish
+								father=modosco_0022	# Henry James Stewart
+								mother=lowbor2_3265	# HON. Jane Margaret Douglas
+								1807.01.01={birth=yes}
+								1885.01.01={death=yes}
+							}
+							modosco_0025={ #// 3f) Hon. Jane Caroline Montagu-Scott (2 Aug 1808-16 Jun 1846)
+								name="Jane Caroline"
+								female=yes
+								dynasty=1009032
+								religion=lutheran culture=scottish
+								father=modosco_0022	# Henry James Stewart
+								mother=lowbor2_3265	# HON. Jane Margaret Douglas
+								1808.08.02={birth=yes}
+								1846.06.16={death=yes}
+							}
+						modosco_0019={ #// F4. Lady Mary Scott, *London 21.5.1769, +Courtown House 21.4.1823; m.London 29.1.1791 James George Stopford, 3rd Earl of Courtown (*1765 +1835)
+							name="Mary"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=english
+							father=modosco_0008	# Henry Stewart
+							mother=lowbor2_3259	# LADY Elizabeth Montagu
+							1769.05.21={birth=yes}  # London
+							1823.04.21={death=yes}  # Courtown House
+						}
+						modosco_0020={ #// F5. Lady Elizabeth Scott, *London 10.10.1770, +the Hirsel 29.6.1837; m.Dalkeith House 9.11.1798 Alexander Home, 10th Earl of Home (*1769 +1841)
+							name="Elizabeth"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=english
+							father=modosco_0008	# Henry Stewart
+							mother=lowbor2_3259	# LADY Elizabeth Montagu
+							1770.10.10={birth=yes}  # London
+							1837.06.29={death=yes}  # the Hirsel
+						}
+						modosco_0021={ #// F6. Lady Caroline Scott, *London 6.7.1774, +Bute House, Petersham 29.4.1854; m.Richmond 13.8.1803 Charles Douglas, 6th Marquess of Queensberry (*1777 +1837)
+							name="Caroline"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=english
+							father=modosco_0008	# Henry Stewart
+							mother=lowbor2_3259	# LADY Elizabeth Montagu
+							1774.07.06={birth=yes}  # London
+							1854.04.29={death=yes}  # Bute House Petersham
+						}
+						modosco_0027={ #// F7. Lady Harriet Scott, *London 1.12.1780, +London 18.4.1833; m.Dalkeith House 1.12.1806 William Kerr, 6th Marquess of Lothian (*1763 +1824)
+							name="Harriet"
+							female=yes
+							dynasty=3134
+							religion=catholic culture=english
+							father=modosco_0008	# Henry Stewart
+							mother=lowbor2_3259	# LADY Elizabeth Montagu
+							1780.12.01={birth=yes}  # London
+							1833.04.18={death=yes}  # London
+						}
+					stuart_0127={ #// E3. Lord James Scott, *1.3.1749
+						name="James"
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=modosco_0005	# Francis Stewart
+						mother=100060229	# Caroline Campbell
+						1749.03.01={birth=yes}
+						1824.01.01={death=yes}  # EST.
+					}
+					stuart_0128={ #// E4. Lady Caroline Scott, *29.9.1743
+						name="Caroline"
+						female=yes
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=modosco_0005	# Francis Stewart
+						mother=100060229	# Caroline Campbell
+						1743.09.29={birth=yes}
+						1823.01.01={death=yes}  # EST.
+					}
+					modosco_0030={ #// E5. Lady Frances Scott, *26.7.1750, +V.1817; m.London 13.5.1783 Archibald James Edward Douglas, Lord Douglas of Douglas (*1748 +1827)
+						name="Frances"
+						female=yes
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=modosco_0005	# Francis Stewart
+						mother=100060229	# Caroline Campbell
+						1750.07.26={birth=yes}
+						1817.05.01={death=yes}
+					}
+		stuart_0130={ #// B3. Henry Scott, Lord Deloraine, *1676, +25.12.1730; 1m: 1693 Anne Duncombe (+22.10.1720); 2m: 14.3.1726 Mary Howard (*Winchester 1700, +London 12.11.1744)
+			name="Henry"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=modosco_0001	# James Stewart
+			mother=lowbor2_3175	# CSS Anne Scott of Buccleuch
+			1676.01.01={birth=yes}
+			1693.01.01={add_spouse=lowbor2_3296}	# Anne Duncombe
+			1726.03.14={add_spouse=lowbor2_3299}	# Mary Howard
+			1730.12.25={death=yes}
+		}
+			stuart_0131={ #// C1. Francis Scott, 2nd Earl of Deloraine, *5.10.1710, +Bath 11.5.1739; 1m: 29.10.1732 Mary Lister (+16.6.1737); 2m: Cockerington 6.7.1737 Mary Scrope (*15.6.1713, +Lincoln 11.3.1767)
+				name="Francis"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0130	# Henry Stewart
+				mother=lowbor2_3296	# Anne Duncombe
+				1710.10.05={birth=yes}
+				1732.10.29={add_spouse=lowbor2_3340}	# Mary Lister
+				1737.07.06={add_spouse=lowbor2_3345}	# Mary Scrope
+				1739.05.11={death=yes}  # Bath
+			}
+				stuart_0132={ #// D1. Lady Mary Scott; m.Joshua Scrope
+					name="Mary"
+					female=yes
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0131	# Francis Stewart
+					mother=lowbor2_3340	# Mary Lister
+					1736.01.01={birth=yes}  # EST.
+					1796.01.01={death=yes}  # EST.
+				}
+			stuart_0133={ #// C2. Henry Scott, 3rd Earl of Deloraine, *11.2.1712, +Acton 31.1.1740; m.Elizabeth Fenwick
+				name="Henry"
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0130	# Henry Stewart
+				mother=lowbor2_3296	# Anne Duncombe
+				1712.02.11={birth=yes}
+				1736.01.01={add_spouse=lowbor2_3348}	# Elizabeth Fenwick
+				1740.01.31={death=yes}  # Acton
+			}
+				stuart_0134={ #// D1. Henry Scott, 4th Earl of Deloraine, *8.2.1737, +London 10.9.1807; m.London 16.11.1763 Frances Heath (+in a convent in France 1782)
+					name="Henry"
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0133	# Henry Stewart
+					mother=lowbor2_3348	# Elizabeth Fenwick
+					1737.02.08={birth=yes}
+					1763.11.16={add_spouse=lowbor2_3349}	# Frances Heath
+					1807.09.10={death=yes}  # London
+				}
+				stuart_0135={ #// D2. Hon. John Scott, *6.10.1738, +London 31.12.1788; m.1757 Isabella Young (+17.8.1791)
+					name="John"
+					dynasty=3134
+					religion=catholic culture=scottish
+					father=stuart_0133	# Henry Stewart
+					mother=lowbor2_3348	# Elizabeth Fenwick
+					1738.10.06={birth=yes}
+					1757.01.01={add_spouse=lowbor2_3350}	# Isabella Young
+					1788.12.31={death=yes}  # London
+				}
+					stuart_0136={ #// E1. John Scott, +in America 1799
+						name="John"
+						dynasty=3134
+						religion=catholic culture=scottish
+						father=stuart_0135	# John Stewart
+						mother=lowbor2_3350	# Isabella Young
+						1763.01.01={birth=yes}  # EST.
+						1799.01.01={death=yes}
+					}
+			stuart_0137={ #// C3. Lady Georgiana Scott, *Feb 1727, +London 13.10.1809; m.19.8.1747 James Peachey, Lord Selsey (+1808)
+				name="Georgiana"
+				female=yes
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0130	# Henry Stewart
+				mother=lowbor2_3299	# Mary Howard
+				1727.01.01={birth=yes}  # Feb
+				1809.10.13={death=yes}  # London
+			}
+			stuart_0138={ #// C4. Lady Henrietta Scott, *1728; m.Nicholas Boyce
+				name="Henrietta"
+				female=yes
+				dynasty=3134
+				religion=catholic culture=scottish
+				father=stuart_0130	# Henry Stewart
+				mother=lowbor2_3299	# Mary Howard
+				1728.01.01={birth=yes}
+				1808.01.01={death=yes}  # EST.
+			}
+		stuart_0139={ #// B4. Lord Francis Scott, *1678, +1679
+			name="Francis"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=modosco_0001	# James Stewart
+			mother=lowbor2_3175	# CSS Anne Scott of Buccleuch
+			1678.01.01={birth=yes}
+			1679.01.01={death=yes}
+		}
+		stuart_0140={ #// B5. Lady Anne Scott, *17.2.1675, +13.8.1685
+			name="Anne"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=modosco_0001	# James Stewart
+			mother=lowbor2_3175	# CSS Anne Scott of Buccleuch
+			1675.02.17={birth=yes}
+			1685.08.13={death=yes}
+		}
+		stuart_0141={ #// B6. Lady Isabella Scott, +18.2.1748
+			name="Isabella"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=modosco_0001	# James Stewart
+			mother=lowbor2_3175	# CSS Anne Scott of Buccleuch
+			1678.01.01={birth=yes}  # EST.
+			1748.02.18={death=yes}
+		}
+		stuart_0142={ #// B7. Lady Charlotte Scott, +5.9.1683
+			name="Charlotte"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=modosco_0001	# James Stewart
+			mother=lowbor2_3175	# CSS Anne Scott of Buccleuch
+			1674.01.01={birth=yes}  # EST.
+			1683.09.05={death=yes}
+		}
+		stuart_0144={ #// B9. [illegitimate] Henriette
+			name="Henriette"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=modosco_0001	# James Stewart
+			mother=lowbor2_3175	# CSS Anne Scott of Buccleuch
+			1674.01.01={birth=yes}  # EST.
+			1734.01.01={death=yes}  # EST.
+		}
+		stuart_0145={ #// B10. [illegitimate] Isabel Crofts
+			name="Isabel"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=modosco_0001	# James Stewart
+			mother=lowbor2_3175	# CSS Anne Scott of Buccleuch
+			1674.01.01={birth=yes}  # EST.
+			1734.01.01={death=yes}  # EST.
+		}
+	stuart_0146={ #// A2. [illegitimate by Lucy Walter] Mary, +1693; 1m: William Sarsfield; 2m: William Fanshaw
+		name="Mary"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1676.01.01={birth=yes}  # EST.
+		1693.01.01={death=yes}
+	}
+	stuart_0147={ #// A3. [illegitimate by Elizabeth Killegrew (*1622 +1681)] Charlotte Jemima Henrietta Maria Boyle, *1650, +1684; 1m: James Howard; 2m: 17.7.1672 William Paston, 2d Earl of Yarmouth (+1732)
+		name="Charlotte"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1650.01.01={birth=yes}
+		1684.01.01={death=yes}
+	}
+	stuart_0148={ #// A4. [illegitimate by Catherine Pegge (+1678)] Charles Fitzcharles, Earl of Plymouth, *1657, +Tangier 17.10.1680; m.Wimbledon 19.9.1678 Lady Bridget Osborne (+1718) $$
+		name="Charles"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1657.01.01={birth=yes}
+		1678.09.19={add_spouse=osborne_0071}	# Bridget Osborne
+		1680.10.17={death=yes}  # Tangier
+	}
+	stuart_0149={ #// A5. [illegitimate by Catherine Pegge (+1678)] Catherine Fitzcharles, a nun as Sister Cecilia in Dunkirk, +1759
+		name="Catherine Cecilia"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		mother=100200395	# Catarina de BraganC a
+		1682.01.01={birth=yes}  # EST.
+		1759.01.01={death=yes}
+	}
+	stuart_0150={ #// A6. [illegitimate by Barbara Villiers, Dss of Cleveland (*1641 +1709)] Charles Fitzroy, 2nd Duke of Cleveland and Southampton, *London 18.6.1662, +London 9.9.1730; 1m: 1671 Mary Wood (+15.11.1680); 2m: 1694 Anne Pulteney (*25.11.1663, +20.2.1746)
+		name="Charles"
+		dynasty=3134
+		religion=catholic culture=english
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1662.06.18={birth=yes}  # London
+		1671.01.01={add_spouse=lowbor2_3358}	# Mary Wood
+		1694.01.01={add_spouse=lowbor2_3359}	# Anne Pulteney
+		1730.09.09={death=yes}  # London
+	}
+		stuart_0151={ #// B1. William Fitzroy, 3rd Duke of Cleveland & Southampton, *19.2.1698, +Raby Castle 18.5.1774; m.22.1.1732 Lady Henrietta Finch (+14.4.1742)
+			name="William"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0150	# Charles Stewart
+			mother=lowbor2_3359	# Anne Pulteney
+			1698.02.19={birth=yes}
+			1732.01.22={add_spouse=lowbor2_3360}	# LADY Henrietta Finch
+			1774.05.18={death=yes}  # Raby Castle
+		}
+		stuart_0152={ #// B2. Lord Charles Fitzroy, *1699, +1723
+			name="Charles"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0150	# Charles Stewart
+			mother=lowbor2_3359	# Anne Pulteney
+			1699.01.01={birth=yes}
+			1723.01.01={death=yes}
+		}
+		stuart_0153={ #// B3. Lord Henry Fitzcharles, *1701, +1708
+			name="Henry"
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0150	# Charles Stewart
+			mother=lowbor2_3359	# Anne Pulteney
+			1701.01.01={birth=yes}
+			1708.01.01={death=yes}
+		}
+		stuart_0154={ #// B4. Lady Barbara Fitzroy
+			name="Barbara"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0150	# Charles Stewart
+			mother=lowbor2_3359	# Anne Pulteney
+			1702.01.01={birth=yes}  # EST.
+			1759.01.01={death=yes}  # EST.
+		}
+		stuart_0155={ #// B5. Lady Anne Fitzroy; m.Francis Paddy
+			name="Anne"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0150	# Charles Stewart
+			mother=lowbor2_3359	# Anne Pulteney
+			1703.01.01={birth=yes}  # EST.
+			1748.01.01={death=yes}  # EST.
+		}
+		stuart_0156={ #// B6. Lady Grace Fitzroy, *28.3.1697, +29.9.1763; m.2.9.1725 Henry Vane, Earl of Darlington (*1705 +1758) $$
+			name="Grace"
+			female=yes
+			dynasty=3134
+			religion=catholic culture=scottish
+			father=stuart_0150	# Charles Stewart
+			mother=lowbor2_3359	# Anne Pulteney
+			1697.03.28={birth=yes}
+			1763.09.29={death=yes}
+		}
+	stuart_0157={ #// A7. [illegitimate by Barbara Villiers, Dss of Cleveland] Henry Fitzroy, -cr Duke of Grafton, *2.9.1663, +k.a.Cork 9.10.1690; m.Goring House 1.8.1672 Lady Isabella Bennett, Css of Arlington (+Euston 7.2.1723)
+		name="Henry"
+		dynasty=1009012
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1663.09.02={birth=yes}
+		1672.08.01={add_spouse=lowbor2_3363}	# LADY Isabella Bennett
+		1690.10.09={death=yes}  # Cork
+	}
+		stuart_0158={ #// B1. Charles Fitzroy, 2nd Duke of Grafton, *Arlington House 25.10.1683, +6.5.1757; m.Chelsea 30.4.1713 Lady Henrietta Somerset (*27.8.1690, +London 9.8.1726)
+			name="Charles"
+			dynasty=1009012
+			religion=catholic culture=scottish
+			father=stuart_0157	# Henry Stewart
+			mother=lowbor2_3363	# LADY Isabella Bennett
+			1683.10.25={birth=yes}  # Arlington House
+			1713.04.30={add_spouse=lowbor2_3364}	# LADY Henrietta Somerset
+			1757.05.06={death=yes}
+		}
+			stuart_0159={ #// C1. Charles Henry Fitzroy, Earl of Euston, *13.4.1714, +18.12.1715
+				name="Charles Henry"
+				dynasty=1009012
+				religion=catholic culture=scottish
+				father=stuart_0158	# Charles Stewart
+				mother=lowbor2_3364	# LADY Henrietta Somerset
+				1714.04.13={birth=yes}
+				1715.12.18={death=yes}
+			}
+			stuart_0160={ #// C2. George Fitzroy, Earl of Euston, *24.8.1715, +Bath 7.7.1747; m.10.10.1741 Lady Dorothy Boyle (*14.5.1724, +2.5.1742) $$
+				name="George"
+				dynasty=1009012
+				religion=catholic culture=scottish
+				father=stuart_0158	# Charles Stewart
+				mother=lowbor2_3364	# LADY Henrietta Somerset
+				1715.08.24={birth=yes}
+				1741.10.10={add_spouse=boyle_0024}	# Dorothy Boyle
+				1747.07.07={death=yes}  # Bath
+			}
+			#stuart5   -->    C3. Lord Augustus Fitzroy, *16.10.1716, +28.5.1741; m.III.1734 Elizabeth Cosby (+21.12.1788); for his descendants see HERE
+			stuart_0162={ #// C4. Lord Charles Fitzroy, *23.4.1718, +29.7.1739
+				name="Charles"
+				dynasty=1009012
+				religion=catholic culture=scottish
+				father=stuart_0158	# Charles Stewart
+				mother=lowbor2_3364	# LADY Henrietta Somerset
+				1718.04.23={birth=yes}
+				1739.07.29={death=yes}
+			}
+			stuart_0163={ #// C5. Lady Caroline Fitzroy, *8.4.1722, +28.6.1784; m.11.8.1746 William Stanhope, 2nd Earl of Harrington (*1719 +1779)
+				name="Caroline"
+				female=yes
+				dynasty=1009012
+				religion=catholic culture=scottish
+				father=stuart_0158	# Charles Stewart
+				mother=lowbor2_3364	# LADY Henrietta Somerset
+				1722.04.08={birth=yes}
+				1784.06.28={death=yes}
+			}
+			stuart_0164={ #// C6. Lady Isabella Fitzroy, *19.7.1726, +London 10.11.1782; m.29.5.1741 Francis Seymour-Conway, Marquess of Hertford (*1718 +1794) $$
+				name="Isabella"
+				female=yes
+				dynasty=1009012
+				religion=catholic culture=scottish
+				father=stuart_0158	# Charles Stewart
+				mother=lowbor2_3364	# LADY Henrietta Somerset
+				1726.07.19={birth=yes}
+				1782.11.10={death=yes}  # London
+			}
+			stuart_0165={ #// C7. Lady Harriet Fitzroy, *8.6.1723, +Aug 1735
+				name="Harriet"
+				female=yes
+				dynasty=1009012
+				religion=catholic culture=scottish
+				father=stuart_0158	# Charles Stewart
+				mother=lowbor2_3364	# LADY Henrietta Somerset
+				1723.06.08={birth=yes}
+				1735.01.01={death=yes}  # Aug
+			}
+			stuart_0166={ #// C8. [illegitimate] Charles Fitzroy Scudamore, *1713, +1782; m.Hon.Frances Scudamore (*1711 +1750)
+				name="Charles"
+				dynasty=1009012
+				religion=catholic culture=scottish
+				father=stuart_0158	# Charles Stewart
+				trait=bastard
+				1713.01.01={birth=yes}
+				1745.01.01={add_spouse=lowbor2_3369}	# HON. Frances Scudamore
+				1782.01.01={death=yes}
+			}
+				stuart_0167={ #// D1. Frances Scudamore, *London 10.2.1750, +Holme Lacy 22.10.1820; m.London 2.4.1771 Charles Howard, 11th Duke of Norfolk (*1746 +1815) $$
+					name="Frances"
+					female=yes
+					dynasty=1009012
+					religion=catholic culture=english
+					father=stuart_0166	# Charles Stewart
+					mother=lowbor2_3369	# HON. Frances Scudamore
+					1750.02.10={birth=yes}  # London
+					1820.10.22={death=yes}  # Holme Lacy
+				}
+	stuart_0168={ #// A8. [illegitimate by Barbara Villiers, Dss of Cleveland] George Fitzroy, Duke of Northampton, *London 28.12.1665, +Epsom 28.6.1716; 1m: 1686 Catherine Wheatley (+25.5.1714); 2m: 1715 Mary Dutton (+Frogmore 27.8.1738)
+		name="George"
+		dynasty=3134
+		religion=catholic culture=english
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1665.12.28={birth=yes}  # London
+		1686.01.01={add_spouse=lowbor2_3371}	# Catherine Wheatley
+		1715.01.01={add_spouse=lowbor2_3372}	# Mary Dutton
+		1716.06.28={death=yes}  # Epsom
+	}
+	stuart_0169={ #// A9. [illegitimate by Barbara Villiers, Dss of Cleveland] Anne Fitzroy, *25.2.1662, +16.5.1722; m.16.5.1674 (separated 1688) Thomas Lennard, Earl of Sussex (+1715)
+		name="Anne"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1662.02.25={birth=yes}
+		1722.05.16={death=yes}
+	}
+	stuart_0170={ #// A10. [illegitimate by Barbara Villers, Dss of Cleveland] Charlotte Fitzroy, *5.9.1664, +London 17.2.1718; m.6.2.1677 Edward Henry Lee, Earl of Lichfield
+		name="Charlotte"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1664.09.05={birth=yes}
+		1718.02.17={death=yes}  # London
+	}
+	stuart_0171={ #// A11. [illegitimate by Barbara Villiers, Dss of Cleveland] Barbara Fitzroy, a nun, *16.7.1672, +6.5.1737; she had an illegitimate son with James, Duke of Hamilton; see here
+		name="Barbara"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		mother=100200395	# Catarina de BraganC a
+		1672.07.16={birth=yes}
+		1737.05.06={death=yes}
+	}
+	#stuart6   -->    A12. [illegitimate by Eleanor [Nell] Gwynne] Charles Beauclerk, Duke of St.Albans, *London 8.5.1670, +Bath 10.5.1726; m.17.4.1694 Lady Diana de Vere (+15.1.1742); for his descendants see HERE
+	stuart_0173={ #// A13. [illegitimate by Eleanor Gwynne] James Beauclerk, *25.12.1671, +in France IX.1680
+		name="James"
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		mother=100200395	# Catarina de BraganC a
+		1671.12.25={birth=yes}
+		1680.09.01={death=yes}
+	}
+	stuart_0174={ #// A14. [illegitimate by Mary Davis] Mary Tudor, *16.10.1673, +Paris 5.11.1726; 1m: 18.8.1687 Edward Radclyffe, 2nd Earl of Derwentwater (+1705); 2m: 23.5.1705 Henry Graham (+7.1.1707); 3m: 26.8.1707 James Rooke
+		name="Mary"
+		female=yes
+		dynasty=3134
+		religion=catholic culture=scottish
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1673.10.16={birth=yes}
+		1726.11.05={death=yes}  # Paris
+	}
+	stuart_0175={ #// A15. [illegitimate by Louise de Kéroualle Dss of Portsmouth] Charles Lennox, Duke of Richmond & Lennox, *London 29.7.1672, +Goodwood 27.5.1723; m.ca 8.1.1693 Hon.Anne Brudenell (+Whitehall 9.12.1722); for his descendants see HERE
+		name="Charles"
+		dynasty=3134
+		religion=catholic culture=english
+		father=stuart_0001	# Charles Stewart
+		trait=bastard
+		1672.07.29={birth=yes}  # London
+		1693.01.08={add_spouse=lowbor2_3379}	# HON. Anne Brudenell
+		1723.05.27={death=yes}  # Goodwood
+	}
 #stuart3
 ## Stuart	3134
 
@@ -919,7 +2661,7 @@
 			father=100060528	# James Douglas-Hamilton
 			mother=100090467	# Anne Spencer
 			1740.07.15={birth=yes}
-			1765.05.25={add_spouse=100090605}	# LADY Harriet Stewart Stewart
+			1765.05.25={add_spouse=100090605}	# LADY Harriet Stewart
 			1819.02.16={death=yes}  # Ashton Hall
 		}
 			100060537={ #// 1c) ALEXANDER, 10th Duke of Hamilton and Brandon, etc (London 3 Oct 1767-London 18 Aug 1852); m.London 26 Apr 1810 Susan Euphemia Beckford (Vevy 14 May 1786-London 27 May 1859)
@@ -927,7 +2669,7 @@
 				dynasty=1009018
 				religion=lutheran culture=scottish
 				father=100060536	# Archibald Douglas-Hamilton
-				mother=100090605	# LADY Harriet Stewart Stewart
+				mother=100090605	# LADY Harriet Stewart
 				1767.10.03={birth=yes}  # London
 				1810.04.26={add_spouse=100080503}	# Susan Euphemia Beckford
 				1852.08.18={death=yes}  # London
@@ -997,7 +2739,7 @@
 				dynasty=1009018
 				religion=lutheran culture=scottish
 				father=100060536	# Archibald Douglas-Hamilton
-				mother=100090605	# LADY Harriet Stewart Stewart
+				mother=100090605	# LADY Harriet Stewart
 				1772.04.06={birth=yes}
 				1827.06.10={death=yes}  # Somerset House
 			}
@@ -1007,7 +2749,7 @@
 				dynasty=1009018
 				religion=lutheran culture=scottish
 				father=100060536	# Archibald Douglas-Hamilton
-				mother=100090605	# LADY Harriet Stewart Stewart
+				mother=100090605	# LADY Harriet Stewart
 				1774.08.03={birth=yes}
 				1846.05.24={death=yes}  # Surrey
 			}
@@ -2102,884 +3844,723 @@
 
 ## BUCCLEUCH	1009032
 # https://www.angelfire.com/realm/gotha/gotha/buccleuch.html
-
-# <-- King CHARLES II of England and Scotland (1660-85)
-modosco_0001={ #// JAMES Crofts "Scott" (9 Mar 1649-beheaded at Tower of London 15 Jul 1685), natural son of King Charles II; cr 1663 Duke of Monmouth, Earl of Doncaster and Baron Scott of Tindall [E], cr later in 1663 Duke of Buccleuch, Earl of Dalkeith and Lord Scott of Whitchester and Eskdale [S]; m.20 Apr 1663 Anne Scott, 4th Css of Buccleuch (11 Feb 1651-6 Feb 1732; see above); in 1666 he and his wife were granted a new charter whereby his Scots titles were jointly held, with right of survivorship, so that the Buccleuch titles, not affected by his forfeiture, continued with his wife and were eventually inherited by their grandson; on his attainder his English titles were forfeited
-	name=James
+					
+#stuart4
+modosco_0010={ #// 2e) Charles William Henry Montagu Scott, 4th Duke of Buccleuch & Queensberry, b.London 24 May 1772, d.Lisbon 20 Apr 1819; m.London 24 Mar 1795 Hon.Catharine Townshend (b.29 Nov 1773, d.Dalkeith House 24 Aug 1814)
+	name=Charles
 	dynasty=1009032
-	religion=lutheran culture=scottish
-	1649.03.09={birth=yes}
-	1663.04.20={add_spouse=lowborn_5967}	# CSS Anne Scott of Buccleuch
-	1685.07.15={death=yes}  # beheaded at Tower of London
+	religion=lutheran culture=english
+	father=modosco_0008	# Henry Stewart
+	mother=lowbor2_3259	# LADY Elizabeth Montagu
+	1772.05.24={birth=yes}  # London
+	1795.03.24={add_spouse=lowbor2_3264}	# HON. Catharine Townshend
+	1819.04.20={death=yes}  # Lisbon
 }
-	modosco_0003={ #// 2a) James Scott, Earl of Dalkeith, b.23 May 1674, d.London 19 Mar 1705; m.2 Jan 1694 Lady Henrietta Hyde (d.30 May 1730)
-		name=James
+	modosco_0011={ #// 1f) Lady Anne Elizabeth (17 Aug 1796-13 Aug 1844)
+		name="Anne Elizabeth"
+		female=yes
 		dynasty=1009032
 		religion=lutheran culture=scottish
-		father=modosco_0001	# James Montagu-Douglas-Scott
-		mother=lowborn_5967	# CSS Anne Scott of Buccleuch
-		1674.05.23={birth=yes}
-		1694.01.02={add_spouse=lowborn_6099}	# LADY Henrietta Hyde
-		1705.03.19={death=yes}  # London
+		father=modosco_0010	# Charles Montagu-Douglas-Scott
+		mother=lowbor2_3264	# HON. Catharine Townshend
+		1796.08.17={birth=yes}
+		1844.08.13={death=yes}
 	}
-		modosco_0004={ #// 1b) Francis Scott (11 Jan 1695-22 Apr 1751), 2nd Duke of Buccleuch, Earl of Dalkeith and Lord Scott of Whitchester and Eskdaile; in 1743 he was restored as Earl of Doncaster and Baron Scott of Tindall [but not as Duke of Monmouth]; m.1st London 5 Apr 1720 Lady Jean Douglas (d.Langley 31 Aug 1729); m.2nd London 4 Sep 1744 Alice Powell (d.5 Dec 1765)
-			name=Francis
+	modosco_0012={ #// 2f) George Henry Scott, Lord Scott of Whitchester, b.Dalkeith House 2 Jan 1798, d.there 11 Mar 1808
+		name="George Henry"
+		dynasty=1009032
+		religion=lutheran culture=scottish
+		father=modosco_0010	# Charles Montagu-Douglas-Scott
+		mother=lowbor2_3264	# HON. Catharine Townshend
+		1798.01.02={birth=yes}
+		1808.03.11={death=yes}  # there
+	}
+	modosco_0013={ #// 3f) Lady Charlotte Albinia Montagu-Scott (Dalkeith House 16 Jul 1799-Rome 29 Feb 1828); m.Montagu House 4 Jul 1822 James Thomas Stopford, Viscount Stopford [later, 4th Earl of Courtown] (1794-1858)
+		name="Charlotte Albinia"
+		female=yes
+		dynasty=1009032
+		religion=lutheran culture=scottish
+		father=modosco_0010	# Charles Montagu-Douglas-Scott
+		mother=lowbor2_3264	# HON. Catharine Townshend
+		1799.07.16={birth=yes}  # Dalkeith House
+		1828.02.29={death=yes}  # Rome
+	}
+	modosco_0014={ #// 4f) Lady Isabella Mary Montagu-Scott (24 Oct 1800-9 Oct 1829); m.9 Oct 1823 Hon.Peregrine Francis Cust (13 Aug 1791-1873)
+		name="Isabella Mary"
+		female=yes
+		dynasty=1009032
+		religion=lutheran culture=scottish
+		father=modosco_0010	# Charles Montagu-Douglas-Scott
+		mother=lowbor2_3264	# HON. Catharine Townshend
+		1800.10.24={birth=yes}
+		1829.10.09={death=yes}
+	}
+	modosco_0015={ #// 5f) Lady Katherine Frances (4 Dec 1803-6 Jun 1814)
+		name="Katherine Frances"
+		female=yes
+		dynasty=1009032
+		religion=lutheran culture=scottish
+		father=modosco_0010	# Charles Montagu-Douglas-Scott
+		mother=lowbor2_3264	# HON. Catharine Townshend
+		1803.12.04={birth=yes}
+		1814.06.06={death=yes}
+	}
+	100063812={ #// WALTER Francis Montagu-Douglas-Scott, 5th Duke of Buccleuch & Queensberry, etc (Dalkeith House 25 Nov 1806-Bowhill 16 Apr 1884); m.London 13 Aug 1829 Lady Charlotte Thynne (10 Apr 1811-Ditton Park, Bucks 18 Mar 1895)
+		name=Walter
+		dynasty=1009032
+		religion=lutheran culture=scottish
+		father=modosco_0010	# Charles Montagu-Douglas-Scott
+		mother=lowbor2_3264	# HON. Catharine Townshend
+		1806.11.25={birth=yes}  # Dalkeith House
+		1829.08.13={add_spouse=100087399}	# LADY Charlotte Thynne
+		1884.04.16={death=yes}  # Bowhill
+	}
+		100063813={ #// 1a) WILLIAM Henry Walter Montagu-Douglas-Scott, 6th Duke of Buccleuch & Queensberry (Montagu House 9 Sep 1831-Montagu House 5 Nov 1914); m.London 22 Nov 1859 Lady Louisa Hamilton (Brighton 26 Aug 1836-Dalkeith 16 Mar 1912) $$
+			name=William
 			dynasty=1009032
 			religion=lutheran culture=scottish
-			father=modosco_0003	# James Montagu-Douglas-Scott
-			mother=lowborn_6099	# LADY Henrietta Hyde
-			1695.01.11={birth=yes}
-			1720.04.05={add_spouse=lowborn_6100}	# LADY Jean Douglas
-			1744.09.04={add_spouse=lowborn_6101}	# Alice Powell
-			1751.04.22={death=yes}
+			father=100063812	# Walter Montagu-Douglas-Scott
+			mother=100087399	# LADY Charlotte Thynne
+			1831.09.09={birth=yes}  # Montagu House
+			1859.11.22={add_spouse=100063370}	# Louisa Hamilton
+			1914.11.05={death=yes}  # Montagu House
 		}
-			modosco_0005={ #// 1c) Francis Scott, Earl of Dalkeith, b.19 Feb 1721, d.Adderbury, Oxon 1 Apr 1750; m.London 2 Oct 1742 Lady Caroline Campbell (b.Sudbrooke, Surrey 17 Nov 1717, d.Sudbrooke 11 Jan 1794), later, as wife of Charles Townshend, cr Baroness Greenwich $$
-				name=Francis
+			100063814={ #// 1b) Walter Henry Montagu-Douglas-Scott, Earl of Dalkeith (London 17 Jan 1861-Achnacarry Forest 18 Sep 1886)
+				name=Walter
 				dynasty=1009032
 				religion=lutheran culture=scottish
-				father=modosco_0004	# Francis Montagu-Douglas-Scott
-				mother=lowborn_6100	# LADY Jean Douglas
-				1721.02.19={birth=yes}
-				1742.10.02={add_spouse=100060229}	# Caroline Campbell
-				1750.04.01={death=yes}	# Adderbury, Oxon
+				father=100063813	# William Montagu-Douglas-Scott
+				mother=100063370	# Louisa Hamilton
+				1861.01.17={birth=yes}  # London
+				1886.09.18={death=yes}  # Achnacarry Forest
 			}
-				modosco_0008={ #// 3d) Henry Scott, 3rd Duke of Buccleuch & Queensberry, b.29 Sep 1746, d.Dalkeith 11 Jan 1812; m.Montagu House 2 May 1767 Lady Elizabeth Montagu (b.29 May 1743, d.Richmond, Surrey 21 Nov 1827)
-					name=Henry
+			100063815={ #// 2b) JOHN Charles Montagu-Douglas-Scott, 7th Duke of Buccleuch & Queensberry (London 30 Mar 1864- 18 Oct 1935); m.London 30 Jan 1893 Lady Margaret Bridgeman (Bromwich 20 Jan 1872-7 Aug 1954)
+				name=John
+				dynasty=1009032
+				religion=lutheran culture=scottish
+				father=100063813	# William Montagu-Douglas-Scott
+				mother=100063370	# Louisa Hamilton
+				1864.03.30={birth=yes}  # London
+				1893.01.30={add_spouse=100091217}	# LADY Margaret Bridgeman
+				1935.10.18={death=yes}
+			}
+				100063816={ #// 1c) Lady Margaret Montagu-Douglas-Scott (Dalkeith House 13 Nov 1893-Grafton Underwood 17 Dec 1976); m.St.George's Cathedral, Cape Town 16 Feb 1926 Adm.Sir Geoffrey Hawkins (St.Fenton's 13 Jul 1895-Grafton Underwood 5 Oct 1980)
+					name=Margaret
+					female=yes
 					dynasty=1009032
 					religion=lutheran culture=scottish
-					father=modosco_0005	# Francis Montagu-Douglas-Scott
-					mother=100060229	# Caroline Campbell
-					1746.09.29={birth=yes}
-					1767.05.02={add_spouse=lowborn_6147}	# LADY Elizabeth Montagu
-					1812.01.11={death=yes}  # Dalkeith
+					father=100063815	# John Montagu-Douglas-Scott
+					mother=100091217	# LADY Margaret Bridgeman
+					1893.11.13={birth=yes}  # Dalkeith House
+					1976.12.17={death=yes}  # Grafton Underwood
 				}
-					modosco_0009={ #// 1e) George Scott, Earl of Dalkeith, b.25 Mar 1768, d.29 May 1768
-						name=George
+				100063817={ #// 2c) WALTER John Montagu-Douglas-Scott, 8th Duke of Buccleuch & Queensberry (Dalkeith 30 Dec 1894-4 Oct 1973); m.21 Apr 1921 Vreda Esther Mary Lascelles (17 Sep 1900-Boughton House 10 Feb 1993)
+					name=Walter
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063815	# John Montagu-Douglas-Scott
+					mother=100091217	# LADY Margaret Bridgeman
+					1894.12.30={birth=yes}  # Dalkeith
+					1921.04.21={add_spouse=100091539}	# Vreda Esther Lascelles
+					1973.10.04={death=yes}
+				}
+					100063818={ #// 1d) Lady Elizabeth Diana Montagu-Douglas-Scott (London 20 Jan 1922-19 Sep 2012); m.12 Jun 1946 Hugh Algernon Percy, 10th Duke of Northumberland (London 6 Apr 1914-Syon House 11 Oct 1988) $$
+						name=Elizabeth
+						female=yes
 						dynasty=1009032
 						religion=lutheran culture=scottish
-						father=modosco_0008	# Henry Montagu-Douglas-Scott
-						mother=lowborn_6147	# LADY Elizabeth Montagu
-						1768.05.29={birth=yes}
-						1838.01.01={death=yes}  # EST.
+						father=100063817	# Walter Montagu-Douglas-Scott
+						mother=100091539	# Vreda Esther Lascelles
+						1922.01.20={birth=yes}  # London
+						2012.09.19={death=yes}
 					}
-					modosco_0010={ #// 2e) Charles William Henry Montagu Scott, 4th Duke of Buccleuch & Queensberry, b.London 24 May 1772, d.Lisbon 20 Apr 1819; m.London 24 Mar 1795 Hon.Catharine Townshend (b.29 Nov 1773, d.Dalkeith House 24 Aug 1814)
-						name=Charles
+					100063819={ #// 2d) WALTER Francis John Montagu-Douglas-Scott, 9th Duke of Buccleuch & Queensberry (London 28 Sep 1923-4 Sep 2007); m.Edinburgh 10 Jan 1953 Jane McNeill (Shanghai 19 Dec 1929-London 18 Apr 2011)
+						name=Walter
 						dynasty=1009032
-						religion=lutheran culture=english
-						father=modosco_0008	# Henry Montagu-Douglas-Scott
-						mother=lowborn_6147	# LADY Elizabeth Montagu
-						1772.05.24={birth=yes}  # London
-						1795.03.24={add_spouse=lowborn_6161}	# HON. Catharine Townshend
-						1819.04.20={death=yes}  # Lisbon
+						religion=lutheran culture=scottish
+						father=100063817	# Walter Montagu-Douglas-Scott
+						mother=100091539	# Vreda Esther Lascelles
+						1923.09.28={birth=yes}  # London
+						1953.01.10={add_spouse=100098694}	# Jane McNeill
+						2007.09.04={death=yes}
 					}
-						modosco_0011={ #// 1f) Lady Anne Elizabeth (17 Aug 1796-13 Aug 1844)
-							name="Anne Elizabeth"
+						100063820={ #// 1e) RICHARD Walter John Montagu-Douglas-Scott, 10th Duke of Buccleuch & Queensberry (b.Edinburgh 14 Feb 1954); m.Dalkeith House 31 Oct 1981 Lady Elizabeth Marian Frances Kerr (b.Melbourne Hall 8 Jun 1954)
+							name=Richard
+							dynasty=1009032
+							religion=lutheran culture=scottish
+							father=100063819	# Walter Montagu-Douglas-Scott
+							mother=100098694	# Jane McNeill
+							1954.02.14={birth=yes}  # Edinburgh
+							1981.10.31={add_spouse=100099516}	# LADY Elizabeth Marian Kerr
+						}
+							100063821={ #// 1f) Lady Louisa Jane Therese Montagu-Douglas-Scott (b.London 1982); m.2011 Rupert James Trotter (b.1977)
+								name=Louisa
+								female=yes
+								dynasty=1009032
+								religion=lutheran culture=scottish
+								father=100063820	# Richard Montagu-Douglas-Scott
+								mother=100099516	# LADY Elizabeth Marian Kerr
+								1982.01.01={birth=yes}  # London
+							}
+							100063822={ #// 2f) Walter John Francis Montagu-Douglas-Scott, Earl of Dalkeith (b.London 2 Aug 1984); m.22 Nov 2014 Elizabeth Honor Cobbe (b.18 Jan 1986)
+								name=Walter
+								dynasty=1009032
+								religion=lutheran culture=scottish
+								father=100063820	# Richard Montagu-Douglas-Scott
+								mother=100099516	# LADY Elizabeth Marian Kerr
+								1984.08.02={birth=yes}  # London
+								2014.11.22={add_spouse=100100296}	# Elizabeth Honor Cobbe
+							}
+							100063823={ #// 3f) Lord Charles David Peter Montagu-Douglas-Scott (b.London 1987)
+								name=Charles
+								dynasty=1009032
+								religion=lutheran culture=scottish
+								father=100063820	# Richard Montagu-Douglas-Scott
+								mother=100099516	# LADY Elizabeth Marian Kerr
+								1987.01.01={birth=yes}  # London
+							}
+							100063824={ #// 4f) Lady Amabel Claire Alice Montagu-Douglas-Scott (b.Lindo Wing, St Mary's Hospital, Paddington, London 1992)
+								name=Amabel
+								female=yes
+								dynasty=1009032
+								religion=lutheran culture=scottish
+								father=100063820	# Richard Montagu-Douglas-Scott
+								mother=100099516	# LADY Elizabeth Marian Kerr
+								1992.01.01={birth=yes}  # Lindo Wing St Mary's Hospital Paddington London
+							}
+						100063825={ #// 2e) Lord William Henry John Montagu-Douglas-Scott (b.1957); m.1990 Hafize Berrin Torolsan
+							name=William
+							dynasty=1009032
+							religion=lutheran culture=scottish
+							father=100063819	# Walter Montagu-Douglas-Scott
+							mother=100098694	# Jane McNeill
+							1957.01.01={birth=yes}
+							1990.01.01={add_spouse=100100355}	# Hafize Berrin Torolsan
+						}
+						100063826={ #// 3e) Lady Charlotte Anne Montagu-Douglas-Scott (b.Edinburgh 1966); m.Melrose 1991 Cte Bernard de Castellane (b.Ixelles 1959)
+							name=Charlotte
 							female=yes
 							dynasty=1009032
 							religion=lutheran culture=scottish
-							father=modosco_0010	# Charles Montagu-Douglas-Scott
-							mother=lowborn_6161	# HON. Catharine Townshend
-							1796.08.17={birth=yes}
-							1844.08.13={death=yes}
+							father=100063819	# Walter Montagu-Douglas-Scott
+							mother=100098694	# Jane McNeill
+							1966.01.01={birth=yes}  # Edinburgh
 						}
-						modosco_0012={ #// 2f) George Henry Scott, Lord Scott of Whitchester, b.Dalkeith House 2 Jan 1798, d.there 11 Mar 1808
-							name="George Henry"
+						100063827={ #// 4e) Lord Damian Torquil Francis Charles Montagu-Douglas-Scott (b.Edinburgh 1970); m.Geddington, Northants 2001 Elizabeth Powis
+							name=Damian
 							dynasty=1009032
 							religion=lutheran culture=scottish
-							father=modosco_0010	# Charles Montagu-Douglas-Scott
-							mother=lowborn_6161	# HON. Catharine Townshend
-							1798.01.02={birth=yes}
-							1808.03.11={death=yes}  # there
+							father=100063819	# Walter Montagu-Douglas-Scott
+							mother=100098694	# Jane McNeill
+							1970.01.01={birth=yes}  # Edinburgh
+							2001.01.01={add_spouse=100101011}	# Elizabeth Powis
 						}
-						modosco_0013={ #// 3f) Lady Charlotte Albinia Montagu-Scott (Dalkeith House 16 Jul 1799-Rome 29 Feb 1828); m.Montagu House 4 Jul 1822 James Thomas Stopford, Viscount Stopford [later, 4th Earl of Courtown] (1794-1858)
-							name="Charlotte Albinia"
-							female=yes
+							100063828={ #// 1f) Alexander Edward James (b.2002)
+								name=Alexander
+								dynasty=1009032
+								religion=lutheran culture=scottish
+								father=100063827	# Damian Montagu-Douglas-Scott
+								mother=100101011	# Elizabeth Powis
+								2002.01.01={birth=yes}
+							}
+							100063829={ #// 2f) Georgia Lucy Alice (b.2006)
+								name=Georgia
+								female=yes
+								dynasty=1009032
+								religion=lutheran culture=scottish
+								father=100063827	# Damian Montagu-Douglas-Scott
+								mother=100101011	# Elizabeth Powis
+								2006.01.01={birth=yes}
+							}
+							100063830={ #// 3f) Orlando John Sebastian (b.2009)
+								name=Orlando
+								dynasty=1009032
+								religion=lutheran culture=scottish
+								father=100063827	# Damian Montagu-Douglas-Scott
+								mother=100101011	# Elizabeth Powis
+								2009.01.01={birth=yes}
+							}
+					100063831={ #// 3d) Lady Caroline Margaret Montagu-Douglas-Scott (London 7 Nov 1927-17 Oct 2004); m.Westminster Abbey 10 Jul 1951 Sir Ian Hedworth John Little Gilmour, 3d Bt., Lord Gilmour of Craigmillar (b.London 8 Jul 1926)
+						name=Caroline
+						female=yes
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063817	# Walter Montagu-Douglas-Scott
+						mother=100091539	# Vreda Esther Lascelles
+						1927.11.07={birth=yes}  # London
+						2004.10.17={death=yes}
+					}
+				100063832={ #// 3c) Lord William Walter Montagu-Douglas-Scott (London 17 Jan 1896-Eildon Hall, Melrose 30 Jan 1958); m.London 27 Apr 1937 Lady Rachel Douglas-Home (Edinburgh 10 Apr 1910-4 Apr 1996)
+					name=William
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063815	# John Montagu-Douglas-Scott
+					mother=100091217	# LADY Margaret Bridgeman
+					1896.01.17={birth=yes}  # London
+					1937.04.27={add_spouse=100101171}	# LADY Rachel Douglas-Home Douglas-Home
+					1958.01.30={death=yes}  # Eildon Hall Melrose
+				}
+					100063833={ #// 1d) Margaret Elizabeth Montagu-Douglas-Scott (b.London 19 Apr 1938)
+						name=Margaret
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063832	# William Montagu-Douglas-Scott
+						mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
+						1938.04.19={birth=yes}  # London
+						2015.01.01={death=yes}  # EST.
+					}
+					100063834={ #// 2d) Frances Henrietta Montagu-Douglas-Scott (Eildon Hall 3 Aug 1940-21 Aug 2000); m.London 18 Jan 1968 Philip Bertram Gurdon, 3d Lord Cranworth (b.London 24 May 1940)
+						name=Frances
+						female=yes
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063832	# William Montagu-Douglas-Scott
+						mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
+						1940.08.03={birth=yes}  # Eildon Hall
+						2000.08.21={death=yes}
+					}
+					100063835={ #// 3d) Rosemary Alice Montagu-Douglas-Scott (Eildon Hall 3 Aug 1940-10 Jul 2015); m.London 22 Feb 1978 Samuel Alexander Mark Collins (b.London 3 Jun 1935)
+						name=Rosemary
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063832	# William Montagu-Douglas-Scott
+						mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
+						1940.08.03={birth=yes}  # Eildon Hall
+						1978.02.22={add_spouse=100102837}	# Samuel Alexander Collins
+						2015.07.10={death=yes}
+					}
+					100063836={ #// 4d) Jean Louise Montagu-Douglas-Scott (b.Eildon Hall 6 Jun 1943); m.London 14 Mar 1968 Sir George Christopher Cadafael Tapps-Gervis-Meyrick, 7th Bt. (b.10 Mar 1941)
+						name=Jean
+						female=yes
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063832	# William Montagu-Douglas-Scott
+						mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
+						1943.06.06={birth=yes}
+					}
+					100063837={ #// 5d) Walter William Montagu-Douglas-Scott (b.Eildon Hall 24 Jun 1946); m.Scotland 16 Sep 1991     Teresa Fisher, née Urbaniak
+						name=Walter
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063832	# William Montagu-Douglas-Scott
+						mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
+						1946.06.24={birth=yes}
+						1991.09.16={add_spouse=100103490}	# Teresa Urbaniak
+					}
+				100063838={ #// 4c) Lady Sybil Montagu-Douglas-Scott (London 14 Jul 1899-1 Nov 1990); m.London 14 May 1919 Charles Bathurst Hele Phipps (Westbury, Wilts 8 Feb 1889-12 Jan 1960)
+					name="Sybil"
+					female=yes
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063815	# John Montagu-Douglas-Scott
+					mother=100091217	# LADY Margaret Bridgeman
+					1899.07.14={birth=yes}  # London
+					1990.11.01={death=yes}
+				}
+				100063839={ #// 5c) Lady Alice Christabel Montagu-Douglas-Scott (Montagu House, London 25 Dec 1901-Kensington Palace 29 Oct 2004); m.Buckingham Palace 6 Nov 1935 Henry Pr of Great Britain, etc, Duke of Gloucester (Sandringham 31 Mar 1900-Barnwell, Northants 10 Jun 1974) $$
+					name="Alice Christabel"
+					female=yes
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063815	# John Montagu-Douglas-Scott
+					mother=100091217	# LADY Margaret Bridgeman
+					1901.12.25={birth=yes}  # Montagu House London
+					2004.10.29={death=yes}  # Kensington Palace
+				}
+				100063840={ #// 6c) Lady Mary Theresa Montagu-Douglas-Scott (London 4 Mar 1904-London 1 Jun 1984); m.London 10 Jan 1929 (div 1946) David George Brownlow Cecil, 6th Marquess of Exeter (1905-1981)
+					name=Mary
+					female=yes
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063815	# John Montagu-Douglas-Scott
+					mother=100091217	# LADY Margaret Bridgeman
+					1904.03.04={birth=yes}  # London
+					1984.06.01={death=yes}  # London
+				}
+				100063841={ #// 7c) Lady Angela Christine Rose Montagu-Douglas-Scott (Dalkeith 26 Dec 1906-28 Sep 2000); m.London 28 Apr 1936 Vice-Adm Sir Peter Dawnay (Paddington 14 Aug 1904-1 Jul 1989)
+					name=Angela
+					female=yes
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063815	# John Montagu-Douglas-Scott
+					mother=100091217	# LADY Margaret Bridgeman
+					1906.12.26={birth=yes}  # Dalkeith
+					2000.09.28={death=yes}
+				}
+				100063842={ #// 8c) Lord George Francis John Montagu-Douglas-Scott (Dalkeith 8 Jul 1911-8 Jun 1999); m.London 16 Dec 1938 Mary Winona Mannin Bishop (Multan, Pakistan 12 Dec 1911-1 Nov 1998)
+					name=George
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063815	# John Montagu-Douglas-Scott
+					mother=100091217	# LADY Margaret Bridgeman
+					1911.07.08={birth=yes}  # Dalkeith
+					1938.12.16={add_spouse=100103691}	# Mary Winona Mannin Bishop
+					1999.06.08={death=yes}
+				}
+					100063843={ #// 1d) Georgina Mary Montagu-Douglas-Scott (b.Healdye, Hants 28 Nov 1940); m.London 10 Jun 1963 Raymond Arthur Clanaboy O'Neill, 4th Lord O'Neill (b.London 1 Sep 1933)
+						name=Georgina
+						female=yes
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063842	# George Montagu-Douglas-Scott
+						mother=100103691	# Mary Winona Mannin Bishop
+						1940.11.28={birth=yes}
+					}
+					100063844={ #// 2d) Charmian Rachel Montagu-Douglas-Scott (Selkirk 18 Jul 1942-5 Apr 2009); m.1st London 11 Nov 1964 (div 1977) Archibald Stirling (b.18 Sep 1941); m.2d London 26 Mar 1987 Colin Guy Napier Campbell (b.14 Jul 1930)
+						name=Charmian
+						female=yes
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063842	# George Montagu-Douglas-Scott
+						mother=100103691	# Mary Winona Mannin Bishop
+						1942.07.18={birth=yes}  # Selkirk
+						2009.04.05={death=yes}
+					}
+					100063845={ #// 3d) David Henry George Montagu-Douglas-Scott (Selkirk 29 Jan 1945-24 Dec 2001); m.London 10 Jun 1967 Laura Jane Harmsworth (Church Oakley, Hants 24 Oct 1944-15 Apr 2009)
+						name=David
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063842	# George Montagu-Douglas-Scott
+						mother=100103691	# Mary Winona Mannin Bishop
+						1945.01.29={birth=yes}  # Selkirk
+						1967.06.10={add_spouse=100103699}	# Laura Jane Harmsworth
+						2001.12.24={death=yes}
+					}
+						100063846={ #// 1e) Lucy Rose Montagu-Douglas-Scott (b.London 1969)
+							name=Lucy
 							dynasty=1009032
 							religion=lutheran culture=scottish
-							father=modosco_0010	# Charles Montagu-Douglas-Scott
-							mother=lowborn_6161	# HON. Catharine Townshend
-							1799.07.16={birth=yes}  # Dalkeith House
-							1828.02.29={death=yes}  # Rome
+							father=100063845	# David Montagu-Douglas-Scott
+							mother=100103699	# Laura Jane Harmsworth
+							1969.01.01={birth=yes}  # London
 						}
-						modosco_0014={ #// 4f) Lady Isabella Mary Montagu-Scott (24 Oct 1800-9 Oct 1829); m.9 Oct 1823 Hon.Peregrine Francis Cust (13 Aug 1791-1873)
-							name="Isabella Mary"
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=modosco_0010	# Charles Montagu-Douglas-Scott
-							mother=lowborn_6161	# HON. Catharine Townshend
-							1800.10.24={birth=yes}
-							1829.10.09={death=yes}
-						}
-						modosco_0015={ #// 5f) Lady Katherine Frances (4 Dec 1803-6 Jun 1814)
-							name="Katherine Frances"
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=modosco_0010	# Charles Montagu-Douglas-Scott
-							mother=lowborn_6161	# HON. Catharine Townshend
-							1803.12.04={birth=yes}
-							1814.06.06={death=yes}
-						}
-						# 6f) WALTER Francis Montagu-Douglas-Scott, 5th Duke of Buccleuch & Queensberry, etc (Dalkeith House 25 Nov 1806-Bowhill 16 Apr 1884); m.London 13 Aug 1829 Lady Charlotte Thynne (10 Apr 1811-Ditton Park, Bucks 18 Mar 1895)
-						modosco_0016={ #// 7f) Lord John Douglas Montagu-Scott, b.13 Jul 1809, d.3 Jan 1860; m.11 Mar 1836 Alice Anne Spottiswoode (24 Jun 1810-12 Mar 1900)
-							name=John
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=modosco_0010	# Charles Montagu-Douglas-Scott
-							mother=lowborn_6161	# HON. Catharine Townshend
-							1809.07.13={birth=yes}
-							1836.03.11={add_spouse=lowborn_6165}	# Alice Anne Spottiswoode
-							1860.01.03={death=yes}
-						}
-						modosco_0017={ #// 8f) Lady Margaret Harriet Montagu-Scott (12 Jun 1811-London 5 Jun 1846); m.London 7 Feb 1832 Charles Marsham, 3d Earl of Romney (1808-1874)
-							name="Margaret Harriet"
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=modosco_0010	# Charles Montagu-Douglas-Scott
-							mother=lowborn_6161	# HON. Catharine Townshend
-							1811.06.12={birth=yes}
-							1846.06.05={death=yes}  # London
-						}
-						modosco_0018={ #// 9f) Lady Harriet Janet Sarah Montagu-Scott (13 Aug 1814-16 Feb 1870); m.29 Mar 1842 Rev.Edward Moore (1814-1889)
+						100063847={ #// 2e) Harriet Mary Montagu-Douglas-Scott (b.1972); m.2006 Edward Luke John Daniel James
 							name=Harriet
 							female=yes
 							dynasty=1009032
 							religion=lutheran culture=scottish
-							father=modosco_0010	# Charles Montagu-Douglas-Scott
-							mother=lowborn_6161	# HON. Catharine Townshend
-							1814.08.13={birth=yes}
-							1870.02.16={death=yes}
+							father=100063845	# David Montagu-Douglas-Scott
+							mother=100103699	# Laura Jane Harmsworth
+							1972.01.01={birth=yes}
 						}
-					modosco_0019={ #// 3e) Lady Mary Scott (London 21 May 1769-Courtown House 21 Apr 1823); m.London 29 Jan 1791 James George Stopford, 3rd Earl of Courtown (London 15 Aug 1765-Windsor Castle 15 Jun 1835)
-						name=Mary
-						female=yes
-						dynasty=1009032
-						religion=lutheran culture=english
-						father=modosco_0008	# Henry Montagu-Douglas-Scott
-						mother=lowborn_6147	# LADY Elizabeth Montagu
-						1769.05.21={birth=yes}  # London
-						1823.04.21={death=yes}  # Courtown House
-					}
-					modosco_0020={ #// 4e) Lady Elizabeth Scott, b.London 10 Oct 1770, d.the Hirsel 29 Jun 1837; m.Dalkeith House 9 Nov 1798 Alexander Home, 10th Earl of Home (1769-1841)
-						name=Elizabeth
-						female=yes
-						dynasty=1009032
-						religion=lutheran culture=english
-						father=modosco_0008	# Henry Montagu-Douglas-Scott
-						mother=lowborn_6147	# LADY Elizabeth Montagu
-						1770.10.10={birth=yes}  # London
-						1837.06.29={death=yes}
-					}
-					modosco_0021={ #// 5e) Lady Caroline Scott, b.London 6 Jul 1774, d.Bute House, Petersham 29 Apr 1854; m.Richmond 13 Aug 1803 Charles Douglas, 6th Marquess of Queensberry (1777-1837)
-						name=Caroline
-						female=yes
-						dynasty=1009032
-						religion=lutheran culture=english
-						father=modosco_0008	# Henry Montagu-Douglas-Scott
-						mother=lowborn_6147	# LADY Elizabeth Montagu
-						1774.07.06={birth=yes}  # London
-						1854.04.29={death=yes}  # Bute House Petersham
-					}
-					modosco_0022={ #// 6e) Henry James Montagu-Scott, 2nd Lord Montagu of Boughton, b.London 16 Dec 1776, d.London 30 Oct 1845; m.Dalkeith House 22 Nov 1804 Hon.Jane Margaret Douglas (b.21 Dec 1779, d.Ditton Park 8 Jan 1859)
-						name="Henry James"
-						dynasty=1009032
-						religion=lutheran culture=english
-						father=modosco_0008	# Henry Montagu-Douglas-Scott
-						mother=lowborn_6147	# LADY Elizabeth Montagu
-						1776.12.16={birth=yes}  # London
-						1804.11.22={add_spouse=lowborn_6171}	# HON. Jane Margaret Douglas
-						1845.10.30={death=yes}  # London
-					}
-						modosco_0023={ #// 1f) Hon. Lucy Elizabeth Montagu-Scott (14 Nov 1805-the Hirsel 15 May 1877); m.Ditton Park 4 Dec 1832 Cospatrick Alexander Home, 11th Earl of Home (1799-1881)
-							name="Lucy Elizabeth"
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=modosco_0022	# Henry James Montagu-Douglas-Scott
-							mother=lowborn_6171	# HON. Jane Margaret Douglas
-							1805.11.14={birth=yes}
-							1877.05.15={death=yes}  # the Hirsel
-						}
-						modosco_0024={ #// 2f) Hon.Mary Margaret Scott-Montagu (8 Feb 1807-30 Jul 1885); m.9 Jul 1840 Frederick Clinton (28 Aug 1804-9 Nov 1870)
-							name="Hon.Mary Margaret"
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=modosco_0022	# Henry James Montagu-Douglas-Scott
-							mother=lowborn_6171	# HON. Jane Margaret Douglas
-							1807.02.08={birth=yes}
-							1885.07.30={death=yes}
-						}
-						modosco_0025={ #// 3f) Hon. Jane Caroline Montagu-Scott (2 Aug 1808-16 Jun 1846)
-							name="Jane Caroline"
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=modosco_0022	# Henry James Montagu-Douglas-Scott
-							mother=lowborn_6171	# HON. Jane Margaret Douglas
-							1808.08.02={birth=yes}
-							1846.06.16={death=yes}
-						}
-						modosco_0026={ #// 4f) Hon.Caroline Georgiana Montagu-Scott (Stoke Poges 3 Mar 1811-5 Dec 1891); m.5 Mar 1836 George William Hope, of Luffness (1808-1863)
-							name="Hon.Caroline Georgiana"
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=modosco_0022	# Henry James Montagu-Douglas-Scott
-							mother=lowborn_6171	# HON. Jane Margaret Douglas
-							1811.03.03={birth=yes}  # Stoke Poges
-							1891.12.05={death=yes}
-						}
-					modosco_0027={ #// 7e) Lady Harriet Scott (London 1 Dec 1780-London 18 Apr 1833); m.Dalkeith House 1 Dec 1806 William Kerr, 6th Marquess of Lothian (1763-1824)
-						name=Harriet
-						female=yes
-						dynasty=1009032
-						religion=lutheran culture=english
-						father=modosco_0008	# Henry Montagu-Douglas-Scott
-						mother=lowborn_6147	# LADY Elizabeth Montagu
-						1780.12.01={birth=yes}  # London
-						1833.04.18={death=yes}  # London
-					}
-				modosco_0030={ #// 6d) Lady Frances Scott (26 Jul 1750-May 1817); m.London 13 May 1783 Archibald James Edward Douglas, Lord Douglas of Douglas (Paris 10 Jul 1748-Bothwell Castle 26 Dec 1827)
-					name=Frances
-					female=yes
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=modosco_0005	# Francis Montagu-Douglas-Scott
-					mother=100060229	# Caroline Campbell
-					1750.07.26={birth=yes}
-					1817.05.01={death=yes}
-				}
-
-#stuart4
-100063812={ #// WALTER Francis Montagu-Douglas-Scott, 5th Duke of Buccleuch & Queensberry, etc (Dalkeith House 25 Nov 1806-Bowhill 16 Apr 1884); m.London 13 Aug 1829 Lady Charlotte Thynne (10 Apr 1811-Ditton Park, Bucks 18 Mar 1895)
-	name=Walter
-	dynasty=1009032
-	religion=lutheran culture=scottish
-	father=modosco_0010	# Charles Montagu-Douglas-Scott
-	mother=lowborn_6161	# HON. Catharine Townshend
-	1806.11.25={birth=yes}  # Dalkeith House
-	1829.08.13={add_spouse=100087399}	# LADY Charlotte Thynne
-	1884.04.16={death=yes}  # Bowhill
-}
-	100063813={ #// 1a) WILLIAM Henry Walter Montagu-Douglas-Scott, 6th Duke of Buccleuch & Queensberry (Montagu House 9 Sep 1831-Montagu House 5 Nov 1914); m.London 22 Nov 1859 Lady Louisa Hamilton (Brighton 26 Aug 1836-Dalkeith 16 Mar 1912) $$
-		name=William
-		dynasty=1009032
-		religion=lutheran culture=scottish
-		father=100063812	# Walter Montagu-Douglas-Scott
-		mother=100087399	# LADY Charlotte Thynne
-		1831.09.09={birth=yes}  # Montagu House
-		1859.11.22={add_spouse=100063370}	# Louisa Hamilton
-		1914.11.05={death=yes}  # Montagu House
-	}
-		100063814={ #// 1b) Walter Henry Montagu-Douglas-Scott, Earl of Dalkeith (London 17 Jan 1861-Achnacarry Forest 18 Sep 1886)
-			name=Walter
-			dynasty=1009032
-			religion=lutheran culture=scottish
-			father=100063813	# William Montagu-Douglas-Scott
-			mother=100063370	# Louisa Hamilton
-			1861.01.17={birth=yes}  # London
-			1886.09.18={death=yes}  # Achnacarry Forest
-		}
-		100063815={ #// 2b) JOHN Charles Montagu-Douglas-Scott, 7th Duke of Buccleuch & Queensberry (London 30 Mar 1864- 18 Oct 1935); m.London 30 Jan 1893 Lady Margaret Bridgeman (Bromwich 20 Jan 1872-7 Aug 1954)
-			name=John
-			dynasty=1009032
-			religion=lutheran culture=scottish
-			father=100063813	# William Montagu-Douglas-Scott
-			mother=100063370	# Louisa Hamilton
-			1864.03.30={birth=yes}  # London
-			1893.01.30={add_spouse=100091217}	# LADY Margaret Bridgeman
-			1935.10.18={death=yes}
-		}
-			100063816={ #// 1c) Lady Margaret Montagu-Douglas-Scott (Dalkeith House 13 Nov 1893-Grafton Underwood 17 Dec 1976); m.St.George's Cathedral, Cape Town 16 Feb 1926 Adm.Sir Geoffrey Hawkins (St.Fenton's 13 Jul 1895-Grafton Underwood 5 Oct 1980)
-				name=Margaret
-				female=yes
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063815	# John Montagu-Douglas-Scott
-				mother=100091217	# LADY Margaret Bridgeman
-				1893.11.13={birth=yes}  # Dalkeith House
-				1976.12.17={death=yes}  # Grafton Underwood
-			}
-			100063817={ #// 2c) WALTER John Montagu-Douglas-Scott, 8th Duke of Buccleuch & Queensberry (Dalkeith 30 Dec 1894-4 Oct 1973); m.21 Apr 1921 Vreda Esther Mary Lascelles (17 Sep 1900-Boughton House 10 Feb 1993)
-				name=Walter
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063815	# John Montagu-Douglas-Scott
-				mother=100091217	# LADY Margaret Bridgeman
-				1894.12.30={birth=yes}  # Dalkeith
-				1921.04.21={add_spouse=100091539}	# Vreda Esther Lascelles
-				1973.10.04={death=yes}
-			}
-				100063818={ #// 1d) Lady Elizabeth Diana Montagu-Douglas-Scott (London 20 Jan 1922-19 Sep 2012); m.12 Jun 1946 Hugh Algernon Percy, 10th Duke of Northumberland (London 6 Apr 1914-Syon House 11 Oct 1988) $$
-					name=Elizabeth
-					female=yes
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063817	# Walter Montagu-Douglas-Scott
-					mother=100091539	# Vreda Esther Lascelles
-					1922.01.20={birth=yes}  # London
-					2012.09.19={death=yes}
-				}
-				100063819={ #// 2d) WALTER Francis John Montagu-Douglas-Scott, 9th Duke of Buccleuch & Queensberry (London 28 Sep 1923-4 Sep 2007); m.Edinburgh 10 Jan 1953 Jane McNeill (Shanghai 19 Dec 1929-London 18 Apr 2011)
-					name=Walter
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063817	# Walter Montagu-Douglas-Scott
-					mother=100091539	# Vreda Esther Lascelles
-					1923.09.28={birth=yes}  # London
-					1953.01.10={add_spouse=100098694}	# Jane McNeill
-					2007.09.04={death=yes}
-				}
-					100063820={ #// 1e) RICHARD Walter John Montagu-Douglas-Scott, 10th Duke of Buccleuch & Queensberry (b.Edinburgh 14 Feb 1954); m.Dalkeith House 31 Oct 1981 Lady Elizabeth Marian Frances Kerr (b.Melbourne Hall 8 Jun 1954)
-						name=Richard
-						dynasty=1009032
-						religion=lutheran culture=scottish
-						father=100063819	# Walter Montagu-Douglas-Scott
-						mother=100098694	# Jane McNeill
-						1954.02.14={birth=yes}  # Edinburgh
-						1981.10.31={add_spouse=100099516}	# LADY Elizabeth Marian Kerr
-					}
-						100063821={ #// 1f) Lady Louisa Jane Therese Montagu-Douglas-Scott (b.London 1982); m.2011 Rupert James Trotter (b.1977)
-							name=Louisa
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=100063820	# Richard Montagu-Douglas-Scott
-							mother=100099516	# LADY Elizabeth Marian Kerr
-							1982.01.01={birth=yes}  # London
-						}
-						100063822={ #// 2f) Walter John Francis Montagu-Douglas-Scott, Earl of Dalkeith (b.London 2 Aug 1984); m.22 Nov 2014 Elizabeth Honor Cobbe (b.18 Jan 1986)
-							name=Walter
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=100063820	# Richard Montagu-Douglas-Scott
-							mother=100099516	# LADY Elizabeth Marian Kerr
-							1984.08.02={birth=yes}  # London
-							2014.11.22={add_spouse=100100296}	# Elizabeth Honor Cobbe
-						}
-						100063823={ #// 3f) Lord Charles David Peter Montagu-Douglas-Scott (b.London 1987)
-							name=Charles
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=100063820	# Richard Montagu-Douglas-Scott
-							mother=100099516	# LADY Elizabeth Marian Kerr
-							1987.01.01={birth=yes}  # London
-						}
-						100063824={ #// 4f) Lady Amabel Claire Alice Montagu-Douglas-Scott (b.Lindo Wing, St Mary's Hospital, Paddington, London 1992)
-							name=Amabel
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=100063820	# Richard Montagu-Douglas-Scott
-							mother=100099516	# LADY Elizabeth Marian Kerr
-							1992.01.01={birth=yes}  # Lindo Wing St Mary's Hospital Paddington London
-						}
-					100063825={ #// 2e) Lord William Henry John Montagu-Douglas-Scott (b.1957); m.1990 Hafize Berrin Torolsan
-						name=William
-						dynasty=1009032
-						religion=lutheran culture=scottish
-						father=100063819	# Walter Montagu-Douglas-Scott
-						mother=100098694	# Jane McNeill
-						1957.01.01={birth=yes}
-						1990.01.01={add_spouse=100100355}	# Hafize Berrin Torolsan
-					}
-					100063826={ #// 3e) Lady Charlotte Anne Montagu-Douglas-Scott (b.Edinburgh 1966); m.Melrose 1991 Cte Bernard de Castellane (b.Ixelles 1959)
-						name=Charlotte
-						female=yes
-						dynasty=1009032
-						religion=lutheran culture=scottish
-						father=100063819	# Walter Montagu-Douglas-Scott
-						mother=100098694	# Jane McNeill
-						1966.01.01={birth=yes}  # Edinburgh
-					}
-					100063827={ #// 4e) Lord Damian Torquil Francis Charles Montagu-Douglas-Scott (b.Edinburgh 1970); m.Geddington, Northants 2001 Elizabeth Powis
-						name=Damian
-						dynasty=1009032
-						religion=lutheran culture=scottish
-						father=100063819	# Walter Montagu-Douglas-Scott
-						mother=100098694	# Jane McNeill
-						1970.01.01={birth=yes}  # Edinburgh
-						2001.01.01={add_spouse=100101011}	# Elizabeth Powis
-					}
-						100063828={ #// 1f) Alexander Edward James (b.2002)
-							name=Alexander
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=100063827	# Damian Montagu-Douglas-Scott
-							mother=100101011	# Elizabeth Powis
-							2002.01.01={birth=yes}
-						}
-						100063829={ #// 2f) Georgia Lucy Alice (b.2006)
-							name=Georgia
-							female=yes
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=100063827	# Damian Montagu-Douglas-Scott
-							mother=100101011	# Elizabeth Powis
-							2006.01.01={birth=yes}
-						}
-						100063830={ #// 3f) Orlando John Sebastian (b.2009)
-							name=Orlando
-							dynasty=1009032
-							religion=lutheran culture=scottish
-							father=100063827	# Damian Montagu-Douglas-Scott
-							mother=100101011	# Elizabeth Powis
-							2009.01.01={birth=yes}
-						}
-				100063831={ #// 3d) Lady Caroline Margaret Montagu-Douglas-Scott (London 7 Nov 1927-17 Oct 2004); m.Westminster Abbey 10 Jul 1951 Sir Ian Hedworth John Little Gilmour, 3d Bt., Lord Gilmour of Craigmillar (b.London 8 Jul 1926)
-					name=Caroline
-					female=yes
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063817	# Walter Montagu-Douglas-Scott
-					mother=100091539	# Vreda Esther Lascelles
-					1927.11.07={birth=yes}  # London
-					2004.10.17={death=yes}
-				}
-			100063832={ #// 3c) Lord William Walter Montagu-Douglas-Scott (London 17 Jan 1896-Eildon Hall, Melrose 30 Jan 1958); m.London 27 Apr 1937 Lady Rachel Douglas-Home (Edinburgh 10 Apr 1910-4 Apr 1996)
-				name=William
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063815	# John Montagu-Douglas-Scott
-				mother=100091217	# LADY Margaret Bridgeman
-				1896.01.17={birth=yes}  # London
-				1937.04.27={add_spouse=100101171}	# LADY Rachel Douglas-Home Douglas-Home
-				1958.01.30={death=yes}  # Eildon Hall Melrose
-			}
-				100063833={ #// 1d) Margaret Elizabeth Montagu-Douglas-Scott (b.London 19 Apr 1938)
-					name=Margaret
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063832	# William Montagu-Douglas-Scott
-					mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
-					1938.04.19={birth=yes}  # London
-					2015.01.01={death=yes}  # EST.
-				}
-				100063834={ #// 2d) Frances Henrietta Montagu-Douglas-Scott (Eildon Hall 3 Aug 1940-21 Aug 2000); m.London 18 Jan 1968 Philip Bertram Gurdon, 3d Lord Cranworth (b.London 24 May 1940)
-					name=Frances
-					female=yes
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063832	# William Montagu-Douglas-Scott
-					mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
-					1940.08.03={birth=yes}  # Eildon Hall
-					2000.08.21={death=yes}
-				}
-				100063835={ #// 3d) Rosemary Alice Montagu-Douglas-Scott (Eildon Hall 3 Aug 1940-10 Jul 2015); m.London 22 Feb 1978 Samuel Alexander Mark Collins (b.London 3 Jun 1935)
-					name=Rosemary
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063832	# William Montagu-Douglas-Scott
-					mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
-					1940.08.03={birth=yes}  # Eildon Hall
-					1978.02.22={add_spouse=100102837}	# Samuel Alexander Collins
-					2015.07.10={death=yes}
-				}
-				100063836={ #// 4d) Jean Louise Montagu-Douglas-Scott (b.Eildon Hall 6 Jun 1943); m.London 14 Mar 1968 Sir George Christopher Cadafael Tapps-Gervis-Meyrick, 7th Bt. (b.10 Mar 1941)
-					name=Jean
-					female=yes
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063832	# William Montagu-Douglas-Scott
-					mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
-					1943.06.06={birth=yes}
-				}
-				100063837={ #// 5d) Walter William Montagu-Douglas-Scott (b.Eildon Hall 24 Jun 1946); m.Scotland 16 Sep 1991     Teresa Fisher, née Urbaniak
-					name=Walter
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063832	# William Montagu-Douglas-Scott
-					mother=100101171	# LADY Rachel Douglas-Home Douglas-Home
-					1946.06.24={birth=yes}
-					1991.09.16={add_spouse=100103490}	# Teresa Urbaniak
-				}
-			100063838={ #// 4c) Lady Sybil Montagu-Douglas-Scott (London 14 Jul 1899-1 Nov 1990); m.London 14 May 1919 Charles Bathurst Hele Phipps (Westbury, Wilts 8 Feb 1889-12 Jan 1960)
-				name="Sybil"
-				female=yes
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063815	# John Montagu-Douglas-Scott
-				mother=100091217	# LADY Margaret Bridgeman
-				1899.07.14={birth=yes}  # London
-				1990.11.01={death=yes}
-			}
-			100063839={ #// 5c) Lady Alice Christabel Montagu-Douglas-Scott (Montagu House, London 25 Dec 1901-Kensington Palace 29 Oct 2004); m.Buckingham Palace 6 Nov 1935 Henry Pr of Great Britain, etc, Duke of Gloucester (Sandringham 31 Mar 1900-Barnwell, Northants 10 Jun 1974) $$
-				name="Alice Christabel"
-				female=yes
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063815	# John Montagu-Douglas-Scott
-				mother=100091217	# LADY Margaret Bridgeman
-				1901.12.25={birth=yes}  # Montagu House London
-				2004.10.29={death=yes}  # Kensington Palace
-			}
-			100063840={ #// 6c) Lady Mary Theresa Montagu-Douglas-Scott (London 4 Mar 1904-London 1 Jun 1984); m.London 10 Jan 1929 (div 1946) David George Brownlow Cecil, 6th Marquess of Exeter (1905-1981)
-				name=Mary
-				female=yes
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063815	# John Montagu-Douglas-Scott
-				mother=100091217	# LADY Margaret Bridgeman
-				1904.03.04={birth=yes}  # London
-				1984.06.01={death=yes}  # London
-			}
-			100063841={ #// 7c) Lady Angela Christine Rose Montagu-Douglas-Scott (Dalkeith 26 Dec 1906-28 Sep 2000); m.London 28 Apr 1936 Vice-Adm Sir Peter Dawnay (Paddington 14 Aug 1904-1 Jul 1989)
-				name=Angela
-				female=yes
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063815	# John Montagu-Douglas-Scott
-				mother=100091217	# LADY Margaret Bridgeman
-				1906.12.26={birth=yes}  # Dalkeith
-				2000.09.28={death=yes}
-			}
-			100063842={ #// 8c) Lord George Francis John Montagu-Douglas-Scott (Dalkeith 8 Jul 1911-8 Jun 1999); m.London 16 Dec 1938 Mary Winona Mannin Bishop (Multan, Pakistan 12 Dec 1911-1 Nov 1998)
+			100063848={ #// 3b) Lord George Montagu-Douglas-Scott (Bowhill 31 Aug 1866-Melrose 23 Feb 1947); m.Belvoir Castle 30 Apr 1903 Lady Elizabeth Manners (London 6 Feb 1878-Edinburgh 22 Jul 1924) $$
 				name=George
 				dynasty=1009032
 				religion=lutheran culture=scottish
-				father=100063815	# John Montagu-Douglas-Scott
-				mother=100091217	# LADY Margaret Bridgeman
-				1911.07.08={birth=yes}  # Dalkeith
-				1938.12.16={add_spouse=100103691}	# Mary Winona Mannin Bishop
-				1999.06.08={death=yes}
+				father=100063813	# William Montagu-Douglas-Scott
+				mother=100063370	# Louisa Hamilton
+				1866.08.31={birth=yes}  # Bowhill
+				1903.04.30={add_spouse=100063776}	# Elizabeth Manners
+				1947.02.23={death=yes}  # Melrose
 			}
-				100063843={ #// 1d) Georgina Mary Montagu-Douglas-Scott (b.Healdye, Hants 28 Nov 1940); m.London 10 Jun 1963 Raymond Arthur Clanaboy O'Neill, 4th Lord O'Neill (b.London 1 Sep 1933)
-					name=Georgina
+				100063849={ #// 1c) Phyllis Anne Montagu-Douglas-Scott (London 3 Mar 1904-9 Mar 1978); m.London 14 Jun 1924 (div 1944) Thomas Pitt Hamilton Cholmondeley, 4th Lord Delamere (19 Aug 1900-13 Apr 1979)
+					name=Phyllis
 					female=yes
 					dynasty=1009032
 					religion=lutheran culture=scottish
-					father=100063842	# George Montagu-Douglas-Scott
-					mother=100103691	# Mary Winona Mannin Bishop
-					1940.11.28={birth=yes}
+					father=100063848	# George Montagu-Douglas-Scott
+					mother=100063776	# Elizabeth Manners
+					1904.03.03={birth=yes}  # London
+					1978.03.09={death=yes}
 				}
-				100063844={ #// 2d) Charmian Rachel Montagu-Douglas-Scott (Selkirk 18 Jul 1942-5 Apr 2009); m.1st London 11 Nov 1964 (div 1977) Archibald Stirling (b.18 Sep 1941); m.2d London 26 Mar 1987 Colin Guy Napier Campbell (b.14 Jul 1930)
-					name=Charmian
-					female=yes
+				100063850={ #// 2c) Jeanetta Ruth Montagu-Douglas-Scott (Huntleyburn, Melrose 19 Nov 1906-6 Sep 1997); m.Melrose 20 Jan 1937 James William Stirling-Home-Drummond-Moray (b.8 Nov 1900)
+					name=Jeanetta
 					dynasty=1009032
 					religion=lutheran culture=scottish
-					father=100063842	# George Montagu-Douglas-Scott
-					mother=100103691	# Mary Winona Mannin Bishop
-					1942.07.18={birth=yes}  # Selkirk
-					2009.04.05={death=yes}
+					father=100063848	# George Montagu-Douglas-Scott
+					mother=100063776	# Elizabeth Manners
+					1906.11.19={birth=yes}  # Huntleyburn Melrose
+					1937.01.20={add_spouse=100103715}	# James William Stirling-Home-Drummond-Moray
+					1997.09.06={death=yes}
 				}
-				100063845={ #// 3d) David Henry George Montagu-Douglas-Scott (Selkirk 29 Jan 1945-24 Dec 2001); m.London 10 Jun 1967 Laura Jane Harmsworth (Church Oakley, Hants 24 Oct 1944-15 Apr 2009)
-					name=David
+				100063851={ #// 3c) Marjorie Katharine Montagu-Douglas-Scott (Melrose 19 Nov 1906-1994); m.1st Melrose 21 Mar 1935 Thomas Archibald Hacket-Pain (London 10 Oct 1899-k.a.Norway 15 May 1940); m.2d London 4 Dec 1943 Adam Bell (21 Mar 1914-24 Aug 1966)
+					name=Marjorie
 					dynasty=1009032
 					religion=lutheran culture=scottish
-					father=100063842	# George Montagu-Douglas-Scott
-					mother=100103691	# Mary Winona Mannin Bishop
-					1945.01.29={birth=yes}  # Selkirk
-					1967.06.10={add_spouse=100103699}	# Laura Jane Harmsworth
-					2001.12.24={death=yes}
+					father=100063848	# George Montagu-Douglas-Scott
+					mother=100063776	# Elizabeth Manners
+					1906.11.19={birth=yes}  # Melrose
+					1935.03.21={add_spouse=100103716}	# Thomas Archibald Hacket-Pain
+					1943.12.04={add_spouse=100103717}	# Adam Bell
+					1994.01.01={death=yes}
 				}
-					100063846={ #// 1e) Lucy Rose Montagu-Douglas-Scott (b.London 1969)
-						name=Lucy
-						dynasty=1009032
-						religion=lutheran culture=scottish
-						father=100063845	# David Montagu-Douglas-Scott
-						mother=100103699	# Laura Jane Harmsworth
-						1969.01.01={birth=yes}  # London
-					}
-					100063847={ #// 2e) Harriet Mary Montagu-Douglas-Scott (b.1972); m.2006 Edward Luke John Daniel James
-						name=Harriet
-						female=yes
-						dynasty=1009032
-						religion=lutheran culture=scottish
-						father=100063845	# David Montagu-Douglas-Scott
-						mother=100103699	# Laura Jane Harmsworth
-						1972.01.01={birth=yes}
-					}
-		100063848={ #// 3b) Lord George Montagu-Douglas-Scott (Bowhill 31 Aug 1866-Melrose 23 Feb 1947); m.Belvoir Castle 30 Apr 1903 Lady Elizabeth Manners (London 6 Feb 1878-Edinburgh 22 Jul 1924) $$
-			name=George
-			dynasty=1009032
-			religion=lutheran culture=scottish
-			father=100063813	# William Montagu-Douglas-Scott
-			mother=100063370	# Louisa Hamilton
-			1866.08.31={birth=yes}  # Bowhill
-			1903.04.30={add_spouse=100063776}	# Elizabeth Manners
-			1947.02.23={death=yes}  # Melrose
-		}
-			100063849={ #// 1c) Phyllis Anne Montagu-Douglas-Scott (London 3 Mar 1904-9 Mar 1978); m.London 14 Jun 1924 (div 1944) Thomas Pitt Hamilton Cholmondeley, 4th Lord Delamere (19 Aug 1900-13 Apr 1979)
-				name=Phyllis
-				female=yes
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063848	# George Montagu-Douglas-Scott
-				mother=100063776	# Elizabeth Manners
-				1904.03.03={birth=yes}  # London
-				1978.03.09={death=yes}
-			}
-			100063850={ #// 2c) Jeanetta Ruth Montagu-Douglas-Scott (Huntleyburn, Melrose 19 Nov 1906-6 Sep 1997); m.Melrose 20 Jan 1937 James William Stirling-Home-Drummond-Moray (b.8 Nov 1900)
-				name=Jeanetta
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063848	# George Montagu-Douglas-Scott
-				mother=100063776	# Elizabeth Manners
-				1906.11.19={birth=yes}  # Huntleyburn Melrose
-				1937.01.20={add_spouse=100103715}	# James William Stirling-Home-Drummond-Moray
-				1997.09.06={death=yes}
-			}
-			100063851={ #// 3c) Marjorie Katharine Montagu-Douglas-Scott (Melrose 19 Nov 1906-1994); m.1st Melrose 21 Mar 1935 Thomas Archibald Hacket-Pain (London 10 Oct 1899-k.a.Norway 15 May 1940); m.2d London 4 Dec 1943 Adam Bell (21 Mar 1914-24 Aug 1966)
-				name=Marjorie
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063848	# George Montagu-Douglas-Scott
-				mother=100063776	# Elizabeth Manners
-				1906.11.19={birth=yes}  # Melrose
-				1935.03.21={add_spouse=100103716}	# Thomas Archibald Hacket-Pain
-				1943.12.04={add_spouse=100103717}	# Adam Bell
-				1994.01.01={death=yes}
-			}
-			100063852={ #// 4c) John Henry Montagu-Douglas-Scott (Dalkeith 12 Apr 1911-1991); m.London 3 Feb 1954 Anne Peace Arabella Mackintosh (Cartierville, Montreal 24 Sep 1918-2002)
-				name=John
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063848	# George Montagu-Douglas-Scott
-				mother=100063776	# Elizabeth Manners
-				1911.04.12={birth=yes}  # Dalkeith
-				1954.02.03={add_spouse=100103718}	# Anne Arabella Peace Mackintosh
-				1991.01.01={death=yes}
-			}
-				100063853={ #// 1d) Elizabeth Arabella Montagu-Douglas-Scott (b.Kirklands, Ancrum 1956); m.1987 Peregrine J. Lewis
-					name=Elizabeth
+				100063852={ #// 4c) John Henry Montagu-Douglas-Scott (Dalkeith 12 Apr 1911-1991); m.London 3 Feb 1954 Anne Peace Arabella Mackintosh (Cartierville, Montreal 24 Sep 1918-2002)
+					name=John
 					dynasty=1009032
 					religion=lutheran culture=scottish
-					father=100063852	# John Montagu-Douglas-Scott
-					mother=100103718	# Anne Arabella Peace Mackintosh
-					1956.01.01={birth=yes}
-					1987.01.01={add_spouse=100103719}	# Peregrine J. Lewis
+					father=100063848	# George Montagu-Douglas-Scott
+					mother=100063776	# Elizabeth Manners
+					1911.04.12={birth=yes}  # Dalkeith
+					1954.02.03={add_spouse=100103718}	# Anne Arabella Peace Mackintosh
+					1991.01.01={death=yes}
 				}
-				100063854={ #// 2d) James George Montagu-Douglas-Scott (b.Kirklands 1959); m.2005 Hon. Sophia Mary Maxwell
-					name=James
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063852	# John Montagu-Douglas-Scott
-					mother=100103718	# Anne Arabella Peace Mackintosh
-					1959.01.01={birth=yes}  # Kirklands
-					2005.01.01={add_spouse=100103720}	# HON. Sophia Mary Maxwell
-				}
-					100063855={ #// 1e) Elizabeth Diana Montagu-Douglas-Scott (b.2006)
+					100063853={ #// 1d) Elizabeth Arabella Montagu-Douglas-Scott (b.Kirklands, Ancrum 1956); m.1987 Peregrine J. Lewis
 						name=Elizabeth
 						dynasty=1009032
 						religion=lutheran culture=scottish
-						father=100063854	# James Montagu-Douglas-Scott
-						mother=100103720	# HON. Sophia Mary Maxwell
-						2006.01.01={birth=yes}
+						father=100063852	# John Montagu-Douglas-Scott
+						mother=100103718	# Anne Arabella Peace Mackintosh
+						1956.01.01={birth=yes}
+						1987.01.01={add_spouse=100103719}	# Peregrine J. Lewis
 					}
-					100063856={ #// 2e) Celia Mary Montagu-Douglas-Scott (b.2008)
-						name=Celia
+					100063854={ #// 2d) James George Montagu-Douglas-Scott (b.Kirklands 1959); m.2005 Hon. Sophia Mary Maxwell
+						name=James
 						dynasty=1009032
 						religion=lutheran culture=scottish
-						father=100063854	# James Montagu-Douglas-Scott
-						mother=100103720	# HON. Sophia Mary Maxwell
-						2008.01.01={birth=yes}
+						father=100063852	# John Montagu-Douglas-Scott
+						mother=100103718	# Anne Arabella Peace Mackintosh
+						1959.01.01={birth=yes}  # Kirklands
+						2005.01.01={add_spouse=100103720}	# HON. Sophia Mary Maxwell
 					}
-			100063857={ #// 5c) Claud Everard Walter Montagu-Douglas-Scott (Kirklands, Ancrum 12 Oct 1915-4 Nov 1994); m.London 23 Aug 1941 Margaret Frances Philips (Bembridge, Isle of Wight 17 Sep 1917-17 Mar 2000)
-				name=Claud
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063848	# George Montagu-Douglas-Scott
-				mother=100063776	# Elizabeth Manners
-				1915.10.12={birth=yes}  # Kirklands Ancrum
-				1941.08.23={add_spouse=100103721}	# Margaret Frances Philips
-				1994.11.04={death=yes}
-			}
-				100063858={ #// 1d) Thomas Walter Montagu-Douglas-Scott (b.London 1 Jul 1943); m.Chichester 9 Jun 1973 (div 1985) Hon. Marion Miranda Phillimore (b.London 9 May 1946)
-					name=Thomas
+						100063855={ #// 1e) Elizabeth Diana Montagu-Douglas-Scott (b.2006)
+							name=Elizabeth
+							dynasty=1009032
+							religion=lutheran culture=scottish
+							father=100063854	# James Montagu-Douglas-Scott
+							mother=100103720	# HON. Sophia Mary Maxwell
+							2006.01.01={birth=yes}
+						}
+						100063856={ #// 2e) Celia Mary Montagu-Douglas-Scott (b.2008)
+							name=Celia
+							dynasty=1009032
+							religion=lutheran culture=scottish
+							father=100063854	# James Montagu-Douglas-Scott
+							mother=100103720	# HON. Sophia Mary Maxwell
+							2008.01.01={birth=yes}
+						}
+				100063857={ #// 5c) Claud Everard Walter Montagu-Douglas-Scott (Kirklands, Ancrum 12 Oct 1915-4 Nov 1994); m.London 23 Aug 1941 Margaret Frances Philips (Bembridge, Isle of Wight 17 Sep 1917-17 Mar 2000)
+					name=Claud
 					dynasty=1009032
 					religion=lutheran culture=scottish
-					father=100063857	# Claud Montagu-Douglas-Scott
-					mother=100103721	# Margaret Frances Philips
-					1943.07.01={birth=yes}  # London
-					1973.06.09={add_spouse=100103722}	# HON. Marion Miranda Phillimore
-					1985.01.01={remove_spouse=100103722}
+					father=100063848	# George Montagu-Douglas-Scott
+					mother=100063776	# Elizabeth Manners
+					1915.10.12={birth=yes}  # Kirklands Ancrum
+					1941.08.23={add_spouse=100103721}	# Margaret Frances Philips
+					1994.11.04={death=yes}
 				}
-					100063859={ #// 1e) Alice Amaryllis Montagu-Douglas-Scott (1978-20 Nov 2012); m.2005 Anthony David Gibson-Watt (b.1975)
-						name=Alice
+					100063858={ #// 1d) Thomas Walter Montagu-Douglas-Scott (b.London 1 Jul 1943); m.Chichester 9 Jun 1973 (div 1985) Hon. Marion Miranda Phillimore (b.London 9 May 1946)
+						name=Thomas
 						dynasty=1009032
 						religion=lutheran culture=scottish
-						father=100063858	# Thomas Montagu-Douglas-Scott
-						mother=100103722	# HON. Marion Miranda Phillimore
-						1978.01.01={birth=yes}
-						2005.01.01={add_spouse=100103723}	# Anthony David Gibson-Watt
-						2012.11.20={death=yes}
+						father=100063857	# Claud Montagu-Douglas-Scott
+						mother=100103721	# Margaret Frances Philips
+						1943.07.01={birth=yes}  # London
+						1973.06.09={add_spouse=100103722}	# HON. Marion Miranda Phillimore
+						1985.01.01={remove_spouse=100103722}
 					}
-				100063860={ #// 2d) Katherine Margaret Montagu-Douglas-Scott (London 12 Jan 1946-1 Nov 2008); m.12 Apr 1975 (div 2003) Robert Vere Spencer Bernard (b.1 Dec 1944) $$
-					name=Katherine
-					female=yes
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063857	# Claud Montagu-Douglas-Scott
-					mother=100103721	# Margaret Frances Philips
-					1946.01.12={birth=yes}  # London
-					2008.11.01={death=yes}
-				}
-		100063861={ #// 4b) Lord Henry Montagu-Douglas-Scott (Bowhill 15 Jan 1868-Edinburgh 19 Apr 1945)
-			name="Henry"
-			dynasty=1009032
-			religion=lutheran culture=scottish
-			father=100063813	# William Montagu-Douglas-Scott
-			mother=100063370	# Louisa Hamilton
-			1868.01.15={birth=yes}  # Bowhill
-			1945.04.19={death=yes}  # Edinburgh
-		}
-		100063862={ #// 5b) Lord Herbert Montagu-Douglas-Scott (London 30 Nov 1872-London 17 Jun 1944); m.London 26 Apr 1905 Marie Josephine Edwards (London 19 Dec 1882-15 Feb 1965)
-			name="Herbert"
-			dynasty=1009032
-			religion=lutheran culture=scottish
-			father=100063813	# William Montagu-Douglas-Scott
-			mother=100063370	# Louisa Hamilton
-			1872.11.30={birth=yes}  # London
-			1905.04.26={add_spouse=100103725}	# Marie Josephine Edwards
-			1944.06.17={death=yes}  # London
-		}
-			100063863={ #// 1c) Claud Andrew Montagu-Douglas-Scott (Caterham 13 Jul 1906-24 Jan 1971); m.1st Mertoun 10 Aug 1929 (div 1951) Lady Victoria Haig (Farnborough 7 Nov 1908-1993); m.2d London 4 May 1951 Zalia Snagge (1915-1986)
-				name=Claud
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063862	# Herbert Montagu-Douglas-Scott
-				mother=100103725	# Marie Josephine Edwards
-				1906.07.13={birth=yes}  # Caterham
-				1929.08.10={add_spouse=100103727}	# LADY Victoria Haig
-				1951.01.01={remove_spouse=100103727}
-				1951.05.04={add_spouse=100103728}	# Zalia Snagge
-				1971.01.24={death=yes}
-			}
-				100063864={ #// 1d) Douglas Andrew Montagu-Douglas-Scott (21 Jun 1930-30 Jun 2010); m.1st Adelaide, Australia 12 Oct 1954 (div 1977) Bridget Elizabeth George (b.5 Feb 1931); m.2d 1977 (div 2000) Daphne Maureen Short; m.3d 20 Oct 2005 Monica, Lady Bernard, née Hudson
-					name=Douglas
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063863	# Claud Montagu-Douglas-Scott
-					mother=100103727	# LADY Victoria Haig
-					1930.06.21={birth=yes}
-					1954.10.12={add_spouse=100103729}	# Bridget Elizabeth George
-					1977.01.01={remove_spouse=100103729}
-					1977.02.01={add_spouse=100103731}	# Daphne Maureen Short
-					2000.01.01={remove_spouse=100103731}
-					2005.10.20={add_spouse=100103734}	# LADY Monica Bernard
-					2010.06.30={death=yes}
-				}
-				100063865={ #// 2d) Henrietta Montagu-Douglas-Scott (London 9 Dec 1934-20 Feb 2008); m.Kew Green 1 May 1962 Sir Arthur John Stewart Griffin (20 Feb 1924-1 Apr 2009)
-					name="Henrietta"
-					female=yes
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063863	# Claud Montagu-Douglas-Scott
-					mother=100103727	# LADY Victoria Haig
-					1934.12.09={birth=yes}  # London
-					2008.02.20={death=yes}
-				}
-				100063866={ #// 3d) Nicholas Herbert Montagu-Douglas-Scott (b.1954); m.2001 Slavka Brdar
-					name=Nicholas
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100063863	# Claud Montagu-Douglas-Scott
-					mother=100103728	# Zalia Snagge
-					1954.01.01={birth=yes}
-					2001.01.01={add_spouse=100103736}	# Slavka Brdar
-				}
-					100063867={ #// 1e) Mila Montagu-Douglas-Scott (b.2004)
-						name="Mila"
-						dynasty=1009032
-						religion=lutheran culture=scottish
-						father=100063866	# Nicholas Montagu-Douglas-Scott
-						mother=100103736	# Slavka Brdar
-						2004.01.01={birth=yes}
-					}
-			100063868={ #// 2c) Marian Louisa Montagu-Douglas-Scott (Bridgefoot, Barnet 16 Jun 1908-The Cottage, Dummer, Basingstoke, Hants 11 Dec 1996); 
-						# m.1st London 1 Nov 1927 Andrew Henry Ferguson (10 Oct 1899-Winchester 4 Aug 1966); 
-						# m.2d 30 Oct 1968 Air Marshal Sir Thomas Walker Elmhirst (Laxton, Howden, Yorks 15 Dec 1895-Dummer, Hants 6 Nov 1982); she had issue, among others:
-				name=Marian
-				female=yes
-				dynasty=1009032
-				religion=lutheran culture=scottish
-				father=100063862	# Herbert Montagu-Douglas-Scott
-				mother=100103725	# Marie Josephine Edwards
-				1908.06.16={birth=yes}  # Bridgefoot Barnet
-				1996.12.11={death=yes}  # The Cottage Dummer Basingstoke Hants
-			}
-				100063869={ #// 1d) Ronald Ivor Ferguson (London 10 Oct 1931-16 Mar 2003); m.1st Westminster 17 Jan 1956 (div 1974) Susan Wright (Nottingham 9 Jun 1937-k.in car wreck nr Tres Lomas, Argentina 19 Sep 1998); m.2d London 19 Nov 1976 Susan Deptford
-					name=Ronald
-					dynasty=1009032
-					religion=lutheran culture=scottish
-					father=100103737	# Andrew Henry Ferguson
-					mother=100063868	# Marian Montagu-Douglas-Scott
-					1931.10.10={birth=yes}  # London
-					1956.01.17={add_spouse=100103739}	# Susan Wright
-					2003.03.16={death=yes}
-				}
-					100063870={ #// 1e) Sarah Margaret Ferguson (b.London 15 Oct 1959); m.Westminster Abbey 23 Jul 1986 (div 1996) Andrew Pr of Great Britain, etc, Duke of York $$
-						name=Sarah
+						100063859={ #// 1e) Alice Amaryllis Montagu-Douglas-Scott (1978-20 Nov 2012); m.2005 Anthony David Gibson-Watt (b.1975)
+							name=Alice
+							dynasty=1009032
+							religion=lutheran culture=scottish
+							father=100063858	# Thomas Montagu-Douglas-Scott
+							mother=100103722	# HON. Marion Miranda Phillimore
+							1978.01.01={birth=yes}
+							2005.01.01={add_spouse=100103723}	# Anthony David Gibson-Watt
+							2012.11.20={death=yes}
+						}
+					100063860={ #// 2d) Katherine Margaret Montagu-Douglas-Scott (London 12 Jan 1946-1 Nov 2008); m.12 Apr 1975 (div 2003) Robert Vere Spencer Bernard (b.1 Dec 1944) $$
+						name=Katherine
 						female=yes
 						dynasty=1009032
 						religion=lutheran culture=scottish
-						father=100063869	# Ronald Montagu-Douglas-Scott
-						mother=100103739	# Susan Wright
-						1959.10.15={birth=yes}  # London
+						father=100063857	# Claud Montagu-Douglas-Scott
+						mother=100103721	# Margaret Frances Philips
+						1946.01.12={birth=yes}  # London
+						2008.11.01={death=yes}
 					}
-			100063871={ #// 3c) Patricia Katharine Montagu-Douglas-Scott (Bridgefoot, Barnet 9 Oct 1910-Birkhill 3 Dec 2012); m.1st London 8 Jul 1931 Walter Douglas Faulkner (1904-k.a.Norway 14 May 1940); m.2d London 9 Sep 1940 Hon David Scrymgeour-Wedderburn (Kingennie, Forfar 2 Apr 1912-k.a.Anzio 1 Mar 1944); m.3d London 30 Oct 1946 Henry James Scrymgeour-Wedderburn, 11th Earl of Dundee (Edinburgh 3 May 1902-1983)
-				name=Patricia
+			100063861={ #// 4b) Lord Henry Montagu-Douglas-Scott (Bowhill 15 Jan 1868-Edinburgh 19 Apr 1945)
+				name="Henry"
+				dynasty=1009032
+				religion=lutheran culture=scottish
+				father=100063813	# William Montagu-Douglas-Scott
+				mother=100063370	# Louisa Hamilton
+				1868.01.15={birth=yes}  # Bowhill
+				1945.04.19={death=yes}  # Edinburgh
+			}
+			100063862={ #// 5b) Lord Herbert Montagu-Douglas-Scott (London 30 Nov 1872-London 17 Jun 1944); m.London 26 Apr 1905 Marie Josephine Edwards (London 19 Dec 1882-15 Feb 1965)
+				name="Herbert"
+				dynasty=1009032
+				religion=lutheran culture=scottish
+				father=100063813	# William Montagu-Douglas-Scott
+				mother=100063370	# Louisa Hamilton
+				1872.11.30={birth=yes}  # London
+				1905.04.26={add_spouse=100103725}	# Marie Josephine Edwards
+				1944.06.17={death=yes}  # London
+			}
+				100063863={ #// 1c) Claud Andrew Montagu-Douglas-Scott (Caterham 13 Jul 1906-24 Jan 1971); m.1st Mertoun 10 Aug 1929 (div 1951) Lady Victoria Haig (Farnborough 7 Nov 1908-1993); m.2d London 4 May 1951 Zalia Snagge (1915-1986)
+					name=Claud
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063862	# Herbert Montagu-Douglas-Scott
+					mother=100103725	# Marie Josephine Edwards
+					1906.07.13={birth=yes}  # Caterham
+					1929.08.10={add_spouse=100103727}	# LADY Victoria Haig
+					1951.01.01={remove_spouse=100103727}
+					1951.05.04={add_spouse=100103728}	# Zalia Snagge
+					1971.01.24={death=yes}
+				}
+					100063864={ #// 1d) Douglas Andrew Montagu-Douglas-Scott (21 Jun 1930-30 Jun 2010); m.1st Adelaide, Australia 12 Oct 1954 (div 1977) Bridget Elizabeth George (b.5 Feb 1931); m.2d 1977 (div 2000) Daphne Maureen Short; m.3d 20 Oct 2005 Monica, Lady Bernard, née Hudson
+						name=Douglas
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063863	# Claud Montagu-Douglas-Scott
+						mother=100103727	# LADY Victoria Haig
+						1930.06.21={birth=yes}
+						1954.10.12={add_spouse=100103729}	# Bridget Elizabeth George
+						1977.01.01={remove_spouse=100103729}
+						1977.02.01={add_spouse=100103731}	# Daphne Maureen Short
+						2000.01.01={remove_spouse=100103731}
+						2005.10.20={add_spouse=100103734}	# LADY Monica Bernard
+						2010.06.30={death=yes}
+					}
+					100063865={ #// 2d) Henrietta Montagu-Douglas-Scott (London 9 Dec 1934-20 Feb 2008); m.Kew Green 1 May 1962 Sir Arthur John Stewart Griffin (20 Feb 1924-1 Apr 2009)
+						name="Henrietta"
+						female=yes
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063863	# Claud Montagu-Douglas-Scott
+						mother=100103727	# LADY Victoria Haig
+						1934.12.09={birth=yes}  # London
+						2008.02.20={death=yes}
+					}
+					100063866={ #// 3d) Nicholas Herbert Montagu-Douglas-Scott (b.1954); m.2001 Slavka Brdar
+						name=Nicholas
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100063863	# Claud Montagu-Douglas-Scott
+						mother=100103728	# Zalia Snagge
+						1954.01.01={birth=yes}
+						2001.01.01={add_spouse=100103736}	# Slavka Brdar
+					}
+						100063867={ #// 1e) Mila Montagu-Douglas-Scott (b.2004)
+							name="Mila"
+							dynasty=1009032
+							religion=lutheran culture=scottish
+							father=100063866	# Nicholas Montagu-Douglas-Scott
+							mother=100103736	# Slavka Brdar
+							2004.01.01={birth=yes}
+						}
+				100063868={ #// 2c) Marian Louisa Montagu-Douglas-Scott (Bridgefoot, Barnet 16 Jun 1908-The Cottage, Dummer, Basingstoke, Hants 11 Dec 1996); 
+							# m.1st London 1 Nov 1927 Andrew Henry Ferguson (10 Oct 1899-Winchester 4 Aug 1966); 
+							# m.2d 30 Oct 1968 Air Marshal Sir Thomas Walker Elmhirst (Laxton, Howden, Yorks 15 Dec 1895-Dummer, Hants 6 Nov 1982); she had issue, among others:
+					name=Marian
+					female=yes
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063862	# Herbert Montagu-Douglas-Scott
+					mother=100103725	# Marie Josephine Edwards
+					1908.06.16={birth=yes}  # Bridgefoot Barnet
+					1996.12.11={death=yes}  # The Cottage Dummer Basingstoke Hants
+				}
+					100063869={ #// 1d) Ronald Ivor Ferguson (London 10 Oct 1931-16 Mar 2003); m.1st Westminster 17 Jan 1956 (div 1974) Susan Wright (Nottingham 9 Jun 1937-k.in car wreck nr Tres Lomas, Argentina 19 Sep 1998); m.2d London 19 Nov 1976 Susan Deptford
+						name=Ronald
+						dynasty=1009032
+						religion=lutheran culture=scottish
+						father=100103737	# Andrew Henry Ferguson
+						mother=100063868	# Marian Montagu-Douglas-Scott
+						1931.10.10={birth=yes}  # London
+						1956.01.17={add_spouse=100103739}	# Susan Wright
+						2003.03.16={death=yes}
+					}
+						100063870={ #// 1e) Sarah Margaret Ferguson (b.London 15 Oct 1959); m.Westminster Abbey 23 Jul 1986 (div 1996) Andrew Pr of Great Britain, etc, Duke of York $$
+							name=Sarah
+							female=yes
+							dynasty=1009032
+							religion=lutheran culture=scottish
+							father=100063869	# Ronald Montagu-Douglas-Scott
+							mother=100103739	# Susan Wright
+							1959.10.15={birth=yes}  # London
+						}
+				100063871={ #// 3c) Patricia Katharine Montagu-Douglas-Scott (Bridgefoot, Barnet 9 Oct 1910-Birkhill 3 Dec 2012); m.1st London 8 Jul 1931 Walter Douglas Faulkner (1904-k.a.Norway 14 May 1940); m.2d London 9 Sep 1940 Hon David Scrymgeour-Wedderburn (Kingennie, Forfar 2 Apr 1912-k.a.Anzio 1 Mar 1944); m.3d London 30 Oct 1946 Henry James Scrymgeour-Wedderburn, 11th Earl of Dundee (Edinburgh 3 May 1902-1983)
+					name=Patricia
+					female=yes
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063862	# Herbert Montagu-Douglas-Scott
+					mother=100103725	# Marie Josephine Edwards
+					1910.10.09={birth=yes}  # Bridgefoot Barnet
+					2012.12.03={death=yes}  # Birkhill
+				}
+			100063872={ #// 6b) Lady Katharine Mary Montagu-Douglas-Scott (London 25 Mar 1875-Hitchin 7 Mar 1951); m.London 29 Apr 1899 Thomas Walter Brand, 3d Viscount Hampden (London 29 Jan 1869-4 Sep 1958)
+				name=Katharine
 				female=yes
 				dynasty=1009032
 				religion=lutheran culture=scottish
-				father=100063862	# Herbert Montagu-Douglas-Scott
-				mother=100103725	# Marie Josephine Edwards
-				1910.10.09={birth=yes}  # Bridgefoot Barnet
-				2012.12.03={death=yes}  # Birkhill
+				father=100063813	# William Montagu-Douglas-Scott
+				mother=100063370	# Louisa Hamilton
+				1875.03.25={birth=yes}  # London
+				1951.03.07={death=yes}  # Hitchin
 			}
-		100063872={ #// 6b) Lady Katharine Mary Montagu-Douglas-Scott (London 25 Mar 1875-Hitchin 7 Mar 1951); m.London 29 Apr 1899 Thomas Walter Brand, 3d Viscount Hampden (London 29 Jan 1869-4 Sep 1958)
-			name=Katharine
-			female=yes
-			dynasty=1009032
-			religion=lutheran culture=scottish
-			father=100063813	# William Montagu-Douglas-Scott
-			mother=100063370	# Louisa Hamilton
-			1875.03.25={birth=yes}  # London
-			1951.03.07={death=yes}  # Hitchin
-		}
-		100063873={ #// 7b) Lady Constance Anne Montagu-Douglas-Scott (London 10 Mar 1877-7 May 1970); m.Dalkeith 21 Jan 1908 Hon Douglas Halyburton Cairns (Dunkeld 5 Sep 1867- Nairn 6 Mar 1936)
-			name=Constance
-			female=yes
-			dynasty=1009032
-			religion=lutheran culture=scottish
-			father=100063813	# William Montagu-Douglas-Scott
-			mother=100063370	# Louisa Hamilton
-			1877.03.10={birth=yes}  # London
-			1970.05.07={death=yes}
-		}
-		100063874={ #// 8b) Lord Francis George Montagu-Douglas-Scott (Dalkeith 1 Nov 1879-London 26 Jul 1952); m.London 11 Feb 1915 Lady Eileen Elliot (18 Dec 1884-London 29 May 1938)
-			name=Francis
-			dynasty=1009032
-			religion=lutheran culture=scottish
-			father=100063813	# William Montagu-Douglas-Scott
-			mother=100063370	# Louisa Hamilton
-			1879.11.01={birth=yes}  # Dalkeith
-			1915.02.11={add_spouse=100103747}	# LADY Eileen Elliot
-			1952.07.26={death=yes}  # London
-		}
-			100063875={ #// 1c) Pamela Violet Montagu-Douglas-Scott (6 Jul 1916-Deloraine, Rongai, Kenya 5 Feb 1992)
-				name=Pamela
+			100063873={ #// 7b) Lady Constance Anne Montagu-Douglas-Scott (London 10 Mar 1877-7 May 1970); m.Dalkeith 21 Jan 1908 Hon Douglas Halyburton Cairns (Dunkeld 5 Sep 1867- Nairn 6 Mar 1936)
+				name=Constance
+				female=yes
 				dynasty=1009032
 				religion=lutheran culture=scottish
-				father=100063874	# Francis Montagu-Douglas-Scott
-				mother=100103747	# LADY Eileen Elliot
-				1916.07.06={birth=yes}
-				1992.02.05={death=yes}  # Deloraine Rongai Kenya
+				father=100063813	# William Montagu-Douglas-Scott
+				mother=100063370	# Louisa Hamilton
+				1877.03.10={birth=yes}  # London
+				1970.05.07={death=yes}
 			}
-			100063876={ #// 2c) Moyra Eileen Montagu-Douglas-Scott (15 Mar 1919-London 4 Jan 2011); m.1st 28 Feb 1942 Hugo Douglas Tweedie (k.a.Apr 1945); m.2d London 28 Apr 1947 David de Crespigny Smiley (London 1 Apr 1916-8 Jan 2009)
-				name=Moyra
+			100063874={ #// 8b) Lord Francis George Montagu-Douglas-Scott (Dalkeith 1 Nov 1879-London 26 Jul 1952); m.London 11 Feb 1915 Lady Eileen Elliot (18 Dec 1884-London 29 May 1938)
+				name=Francis
 				dynasty=1009032
 				religion=lutheran culture=scottish
-				father=100063874	# Francis Montagu-Douglas-Scott
-				mother=100103747	# LADY Eileen Elliot
-				1919.03.15={birth=yes}
-				1942.02.28={add_spouse=100103748}	# Hugo Douglas Tweedie
-				1947.04.28={add_spouse=100103749}	# David de Crespigny Smiley
-				2011.01.04={death=yes}  # London
+				father=100063813	# William Montagu-Douglas-Scott
+				mother=100063370	# Louisa Hamilton
+				1879.11.01={birth=yes}  # Dalkeith
+				1915.02.11={add_spouse=100103747}	# LADY Eileen Elliot
+				1952.07.26={death=yes}  # London
 			}
+				100063875={ #// 1c) Pamela Violet Montagu-Douglas-Scott (6 Jul 1916-Deloraine, Rongai, Kenya 5 Feb 1992)
+					name=Pamela
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063874	# Francis Montagu-Douglas-Scott
+					mother=100103747	# LADY Eileen Elliot
+					1916.07.06={birth=yes}
+					1992.02.05={death=yes}  # Deloraine Rongai Kenya
+				}
+				100063876={ #// 2c) Moyra Eileen Montagu-Douglas-Scott (15 Mar 1919-London 4 Jan 2011); m.1st 28 Feb 1942 Hugo Douglas Tweedie (k.a.Apr 1945); m.2d London 28 Apr 1947 David de Crespigny Smiley (London 1 Apr 1916-8 Jan 2009)
+					name=Moyra
+					dynasty=1009032
+					religion=lutheran culture=scottish
+					father=100063874	# Francis Montagu-Douglas-Scott
+					mother=100103747	# LADY Eileen Elliot
+					1919.03.15={birth=yes}
+					1942.02.28={add_spouse=100103748}	# Hugo Douglas Tweedie
+					1947.04.28={add_spouse=100103749}	# David de Crespigny Smiley
+					2011.01.04={death=yes}  # London
+				}
+	modosco_0016={ #// 7f) Lord John Douglas Montagu-Scott, b.13 Jul 1809, d.3 Jan 1860; m.11 Mar 1836 Alice Anne Spottiswoode (24 Jun 1810-12 Mar 1900)
+		name=John
+		dynasty=1009032
+		religion=lutheran culture=scottish
+		father=modosco_0010	# Charles Montagu-Douglas-Scott
+		mother=lowbor2_3264	# HON. Catharine Townshend
+		1809.07.13={birth=yes}
+		1836.03.11={add_spouse=lowborn_6165}	# Alice Anne Spottiswoode
+		1860.01.03={death=yes}
+	}
+	modosco_0017={ #// 8f) Lady Margaret Harriet Montagu-Scott (12 Jun 1811-London 5 Jun 1846); m.London 7 Feb 1832 Charles Marsham, 3d Earl of Romney (1808-1874)
+		name="Margaret Harriet"
+		female=yes
+		dynasty=1009032
+		religion=lutheran culture=scottish
+		father=modosco_0010	# Charles Montagu-Douglas-Scott
+		mother=lowbor2_3264	# HON. Catharine Townshend
+		1811.06.12={birth=yes}
+		1846.06.05={death=yes}  # London
+	}
+	modosco_0018={ #// 9f) Lady Harriet Janet Sarah Montagu-Scott (13 Aug 1814-16 Feb 1870); m.29 Mar 1842 Rev.Edward Moore (1814-1889)
+		name=Harriet
+		female=yes
+		dynasty=1009032
+		religion=lutheran culture=scottish
+		father=modosco_0010	# Charles Montagu-Douglas-Scott
+		mother=lowbor2_3264	# HON. Catharine Townshend
+		1814.08.13={birth=yes}
+		1870.02.16={death=yes}
+	}
 #stuart4
 
 #1836.11.25={holder=100063812} # WALTER Francis Montagu-Douglas-Scott
@@ -3570,7 +5151,7 @@ murray_0001={ #// JOHN Murray [see Part 1, above], cr vp 1696 [Life] Earl of Tul
 								1996.01.01={death=yes}
 							}
 						murray_0070={ #// 4f) Douglas Stuart (Southfleet 28 May 1853-London 19 Mar 1920); m.Wigan 22 Apr 1879 Harriet Georgina Isabel Bridgeman (Brighton 7 Dec 1853-London 11 Nov 1921)
-							name="Douglas Stuart"
+							name="Douglas"
 							dynasty=100040
 							religion=lutheran culture=scottish
 							father=murray_0053	# George Edward Murray
@@ -3583,14 +5164,14 @@ murray_0001={ #// JOHN Murray [see Part 1, above], cr vp 1696 [Life] Earl of Tul
 								name=Walter
 								dynasty=100040
 								religion=lutheran culture=scottish
-								father=murray_0070	# Douglas Stuart Murray
+								father=murray_0070	# Douglas Murray
 								mother=lowborn_6220	# Harriet Georgina Bridgeman
 								1882.08.13={birth=yes}  # Blithfield
 								1911.08.15={add_spouse=lowborn_6221}	# Evelyn Adie
 								1945.11.08={death=yes}
 							}
 								murray_0072={ #// 1h) Donald Stuart (Edgbaston 13 Nov 1917-1985); m.12 Jun 1948 Margaret Ann Simmons (d.16 May 2007)
-									name="Donald Stuart"
+									name="Donald"
 									dynasty=100040
 									religion=lutheran culture=scottish
 									father=murray_0071	# Walter Murray
@@ -3604,7 +5185,7 @@ murray_0001={ #// JOHN Murray [see Part 1, above], cr vp 1696 [Life] Earl of Tul
 										female=yes
 										dynasty=100040
 										religion=lutheran culture=scottish
-										father=murray_0072	# Donald Stuart Murray
+										father=murray_0072	# Donald Murray
 										mother=lowborn_6222	# Margaret Ann Simmons
 										1949.01.01={birth=yes}
 									}
@@ -3612,7 +5193,7 @@ murray_0001={ #// JOHN Murray [see Part 1, above], cr vp 1696 [Life] Earl of Tul
 										name="Jean Margaret"
 										dynasty=100040
 										religion=lutheran culture=scottish
-										father=murray_0072	# Donald Stuart Murray
+										father=murray_0072	# Donald Murray
 										mother=lowborn_6222	# Margaret Ann Simmons
 										1951.01.01={birth=yes}
 										1975.01.01={add_spouse=lowborn_6224}	# Nils Bertil Eidestedt
@@ -3631,7 +5212,7 @@ murray_0001={ #// JOHN Murray [see Part 1, above], cr vp 1696 [Life] Earl of Tul
 								name=George
 								dynasty=100040
 								religion=lutheran culture=scottish
-								father=murray_0070	# Douglas Stuart Murray
+								father=murray_0070	# Douglas Murray
 								mother=lowborn_6220	# Harriet Georgina Bridgeman
 								1884.11.20={birth=yes}  # Blithfield
 								1928.01.17={add_spouse=lowborn_6226}	# Joan Eastwood
@@ -3722,7 +5303,7 @@ murray_0001={ #// JOHN Murray [see Part 1, above], cr vp 1696 [Life] Earl of Tul
 								female=yes
 								dynasty=100040
 								religion=lutheran culture=scottish
-								father=murray_0070	# Douglas Stuart Murray
+								father=murray_0070	# Douglas Murray
 								mother=lowborn_6220	# Harriet Georgina Bridgeman
 								1888.11.04={birth=yes}  # Blithfield
 								1949.10.13={death=yes}
@@ -3732,7 +5313,7 @@ murray_0001={ #// JOHN Murray [see Part 1, above], cr vp 1696 [Life] Earl of Tul
 								female=yes
 								dynasty=100040
 								religion=lutheran culture=scottish
-								father=murray_0070	# Douglas Stuart Murray
+								father=murray_0070	# Douglas Murray
 								mother=lowborn_6220	# Harriet Georgina Bridgeman
 								1894.01.29={birth=yes}  # Blithfield
 								1969.01.01={death=yes}  # EST.
@@ -3741,7 +5322,7 @@ murray_0001={ #// JOHN Murray [see Part 1, above], cr vp 1696 [Life] Earl of Tul
 								name=Leonard
 								dynasty=100040
 								religion=lutheran culture=scottish
-								father=murray_0070	# Douglas Stuart Murray
+								father=murray_0070	# Douglas Murray
 								mother=lowborn_6220	# Harriet Georgina Bridgeman
 								1896.12.31={birth=yes}
 								1917.03.13={death=yes}
@@ -3750,7 +5331,7 @@ murray_0001={ #// JOHN Murray [see Part 1, above], cr vp 1696 [Life] Earl of Tul
 								name=Edward
 								dynasty=100040
 								religion=lutheran culture=scottish
-								father=murray_0070	# Douglas Stuart Murray
+								father=murray_0070	# Douglas Murray
 								mother=lowborn_6220	# Harriet Georgina Bridgeman
 								1899.01.08={birth=yes}  # Blithfield
 								1936.04.23={add_spouse=lowborn_6232}	# Irma Kubálek

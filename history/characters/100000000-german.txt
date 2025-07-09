@@ -30,7 +30,7 @@
 ##  100003181-100008796		HOHENLOHE-KIRCHBERG               1002109	  15	 13/ 21 = 61,90%	 5601	[]
 ##  100003300-100003636		PILATI VON THASSUL ZU DAXBERG     1002055	  11	  4/  7 = 57,14%	  326	[]
 ##  100003325-100003352		PUTBUS                            1002042	  28	  3/ 24 = 12,50%	    0	[c_greifswald, c_stralsund]
-##  100003400-100299916		REUSS                             1002037	 312	155/275 = 56,36%	296205	[b_greiz, c_reuss, e_the_united_kingdom]
+##  100003400-reuss_0097		REUSS                             1002037	 312	155/275 = 56,36%	296205	[b_greiz, c_reuss, e_the_united_kingdom]
 ##  100003675-100003823		SACHSEN-COBURG U.GOTHA            1002015	 122	 66/111 = 59,46%	   27	[c_brussel, c_gotha, c_liegnitz, d_flanders, d_wallonie, k_belgium]
 ##  100003825-100003838		SACHSEN-GESSAPHE                  1002010	  14	  3/  4 = 75,00%	    0	[c_oberlausitz]
 ##  100003850-100003881		SACHSEN-ALTENBURG                 1002031	  32	 26/ 29 = 89,66%	    0	[c_altenburg]
@@ -65,7 +65,7 @@
 ##  100006688-100205736		SOLMS-SONNENWALDE                 1002110	  88	 34/ 78 = 43,59%	198961	[]
 ##  100006700-100006733		URACH                             1002017	  32	 10/ 20 = 50,00%	    2	[c_vilnius, d_lithuania, k_lithuania]
 ##  100006752-100011184		WALDBURG ZU ZEIL U.TRAUCHBU       1002069	 136	 50/ 92 = 54,35%	 4297	[c_vorarlberg]
-##  100006794-100207285		SCHÖNBURG-GLAUCHAU                1002038	  67	 34/ 69 = 49,28%	200425	[c_salzburg, d_salzburg]
+##  schonburg_0041-100207285		SCHÖNBURG-GLAUCHAU                1002038	  67	 34/ 69 = 49,28%	200425	[c_salzburg, d_salzburg]
 ##  100006900-100007018		WALDBURG ZU WOLFEGG U.WALDS       1002068	 114	 28/ 65 = 43,08%	    5	[c_ulm]
 ##  100006947-100011382		WALDBURG ZU WOLFEGG UND ZEI       1002254	  71	 37/ 77 = 48,05%	 4365	[]
 ##  100007038-100010964		WALDBURG                          1002067	  73	 30/ 75 = 40,00%	 3854	[]
@@ -665,14 +665,14 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 						mother=100086694	# Gioia von Hochberg
 						1964.07.30={birth=yes}  # München
 					}
-				100013221={ #// D5. Klemens Anton, *Amerdingen 13.8.1929, +Bielefeld 30.12.1987; m.Vinsebeck bei Steinheim, Westphalen 4.8.1959 Clementine Gfn Wolff-Metternich zur Gracht (*München 5.8.1937)
+				100013221={ #// D5. Klemens Anton, *Amerdingen 13.8.1929, +Bielefeld 30.12.1987; m.Vinsebeck bei Steinheim, Westphalen 4.8.1959 Clementine Gfn Wolff-Metternich zur Gracht (*München 5.8.1937) $$
 					name="Klemens Anton"
 					dynasty=1002239
 					religion=catholic culture=german
 					father=100013210	# Markwart Schenk von Stauffenberg
 					mother=100085790	# Olga Böhl de Liagre
 					1929.08.13={birth=yes}  # Amerdingen
-					1959.08.04={add_spouse=100086829}	# GFN Clementine Wolff-Metternich zur Gracht
+					1959.08.04={add_spouse=100086829}	# Clementine Wolff-Metternich zur Gracht
 					1987.12.30={death=yes}  # Bielefeld
 				}
 					100013222={ #// E1. Alexandra Petra Sofie, *Detmold 25.5.1960; m.(civ) 17.5.1985 (rel) Beuron 16.6.1985 Erbprinz Karl Friedrich von Hohenzollern (*20.4.1952) $$
@@ -681,7 +681,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 						dynasty=1002239
 						religion=catholic culture=german
 						father=100013221	# Klemens Anton Schenk von Stauffenberg
-						mother=100086829	# GFN Clementine Wolff-Metternich zur Gracht
+						mother=100086829	# Clementine Wolff-Metternich zur Gracht
 						1960.05.25={birth=yes}  # Detmold
 					}
 					100013223={ #// E2. Claus Dominik Georg, *28.4.1964
@@ -689,7 +689,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 						dynasty=1002239
 						religion=catholic culture=german
 						father=100013221	# Klemens Anton Schenk von Stauffenberg
-						mother=100086829	# GFN Clementine Wolff-Metternich zur Gracht
+						mother=100086829	# Clementine Wolff-Metternich zur Gracht
 						1964.04.28={birth=yes}
 					}
 					100013224={ #// E3. Clarissa Henrietta Franciska, *Sorengo 30.6.1965; m.Amerdingen 8.7.1990 Friedrich-Christian Frhr von Elverfeldt-Ulm (*Frankfurt am Main 27.12.1960)
@@ -698,7 +698,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 						dynasty=1002239
 						religion=catholic culture=german
 						father=100013221	# Klemens Anton Schenk von Stauffenberg
-						mother=100086829	# GFN Clementine Wolff-Metternich zur Gracht
+						mother=100086829	# Clementine Wolff-Metternich zur Gracht
 						1965.06.30={birth=yes}  # Sorengo
 					}
 			100013225={ #// C4. Irma Anna Regina Josephina, *Würzburg 13.4.1898, +Würzburg 28.9.1932; m.Greifenstein 20.4.1921 Otto Frhr Gross von Trockau (*Würzburg 10.11.1890, +Trockau 21.2.1957)
@@ -1067,14 +1067,14 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 		1381.01.01={add_spouse=100081793}	# Elisabeth von Honstein-Klettenberg
 		1412.03.04={death=yes}
 	}
-		100010639={ #// B1. Gebhard V, *ca 1391, +25.7.1433; m.Ursula von Schwarzburg-Wachsenburg (*ca 1410 +1461)
+		100010639={ #// B1. Gebhard V, *ca 1391, +25.7.1433; m.Ursula von Schwarzburg-Wachsenburg (*ca 1410 +1461) $$
 			name=Gebhard
 			dynasty=12403
 			religion=catholic culture=german
 			father=100010638	# Günther von Mansfeld
 			mother=100081793	# Elisabeth von Honstein-Klettenberg
 			1391.01.01={birth=yes}
-			1417.01.01={add_spouse=100083561}	# Ursula von Schwarzburg-Wachsenburg
+			1417.01.01={add_spouse=schwburg_0054}	# Ursula von Schwarzburg-Blankenburg
 			1433.07.25={death=yes}
 		}
 			100010640={ #// C1. Elisabeth, +1477; m.Bernhard IV von Regenstein und Blankenburg (+12.5.1458)
@@ -1083,7 +1083,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 				dynasty=12403
 				religion=catholic culture=german
 				father=100010639	# Gebhard von Mansfeld
-				mother=100083561	# Ursula von Schwarzburg-Wachsenburg
+				mother=schwburg_0054	# Ursula von Schwarzburg-Blankenburg
 				1428.01.01={birth=yes}  # EST.
 				1477.01.01={death=yes}
 			}
@@ -1092,7 +1092,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 				dynasty=12403
 				religion=catholic culture=german
 				father=100010639	# Gebhard von Mansfeld
-				mother=100083561	# Ursula von Schwarzburg-Wachsenburg
+				mother=schwburg_0054	# Ursula von Schwarzburg-Blankenburg
 				1429.01.01={birth=yes}
 				1457.05.14={add_spouse=100013106}	# Adelheid von Oldenburg
 				1492.09.20={death=yes}
@@ -1191,7 +1191,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 						father=100010649	# Ernst von Mansfeld
 						mother=100098102	# Barbara von Querfurt
 						1502.01.01={birth=yes}
-						1536.02.24={add_spouse=100098216}	# BGGFN Amalie von Leising
+						1536.02.24={add_spouse=lowbor2_2339}	# BGGFN Amalie von Leising
 						1546.07.09={death=yes}
 					}
 						100010652={ #// F4. Bruno II, Gf von Mansfeld-Vorderort zu Bornstädt, *17.11.1545, +14.4.1615; m.1571 Christine Gfn von Barby-Mühlingen (*Dresden II.1551, +Mansfeld 9.4.1605) $$
@@ -1199,7 +1199,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 							dynasty=12403
 							religion=catholic culture=german
 							father=100010651	# Philipp von Mansfeld
-							mother=100098216	# BGGFN Amalie von Leising
+							mother=lowbor2_2339	# BGGFN Amalie von Leising
 							1545.11.17={birth=yes}
 							1571.01.01={add_spouse=100035786}	# Christine von Barby
 							1615.04.14={death=yes}
@@ -1316,7 +1316,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 											mother=100010671	# Maria Eleonore von Mansfeld
 											1712.07.06={birth=yes}
 											1735.01.01={add_spouse=100023947}	# Maria Josepha von Thun u.Hohenstein
-											1741.04.09={add_spouse=100295906}	# Marie Josefa Anna Czernin v.u.zu Chudenitz
+											1741.04.09={add_spouse=czernin_0068}	# Marie Josefa Czernin v.u.zu Chudenitz
 											1780.02.15={death=yes}
 										}
 											100010662={ #// K1. [1m.] Joseph Wenzel Johann Nepomuk Gf von Mansfeld, Fürst von Fondi, *12.9.1735, +31.3.1780; m.9.2.1764 Elisabeth von Regal (*21.2.1742)
@@ -1335,7 +1335,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 												dynasty=12403
 												religion=catholic culture=german
 												father=100010661	# Heinrich von Mansfeld
-												mother=100295906	# Marie Josefa Anna Czernin v.u.zu Chudenitz
+												mother=czernin_0068	# Marie Josefa Czernin v.u.zu Chudenitz
 												1750.08.29={birth=yes}  # Praha
 												1794.10.21={death=yes}  # Wien
 											}
@@ -1345,7 +1345,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 												dynasty=12403
 												religion=catholic culture=german
 												father=100010661	# Heinrich von Mansfeld
-												mother=100295906	# Marie Josefa Anna Czernin v.u.zu Chudenitz
+												mother=czernin_0068	# Marie Josefa Czernin v.u.zu Chudenitz
 												1754.11.01={birth=yes}
 												1780.01.30={death=yes}
 											}
@@ -1355,7 +1355,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 												dynasty=12403
 												religion=catholic culture=german
 												father=100010661	# Heinrich von Mansfeld
-												mother=100295906	# Marie Josefa Anna Czernin v.u.zu Chudenitz
+												mother=czernin_0068	# Marie Josefa Czernin v.u.zu Chudenitz
 												1756.05.11={birth=yes}
 												1815.02.26={death=yes}
 											}
@@ -1711,7 +1711,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 							1564.01.01={birth=yes}  # EST.
 							1592.09.17={death=yes}
 						}
-					100010703={ #// E12. [2m.] Dorothea, *1519, +23.4.1550; m.25.12.1547 Georg I von Schönburg-Glauchau (*1529 +13.9.1585)
+					100010703={ #// E12. [2m.] Dorothea, *1519, +23.4.1550; m.25.12.1547 Georg I von Schönburg-Glauchau (*1529 +13.9.1585) $$
 						name=Dorothea
 						female=yes
 						dynasty=12403
@@ -2004,7 +2004,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 						father=100010722	# Albrecht von Mansfeld
 						mother=100099623	# GFN Anna von Honstein-Klettenberg
 						1520.03.11={birth=yes}
-						1556.11.22={add_spouse=100003581}	# Barbara Reuß
+						1556.11.22={add_spouse=reuss_0109}	# Barbara Reuß
 						1578.12.30={death=yes}
 					}
 						100010725={ #// F1. Johann Caspar, *ca 1560, +1586; m.Sophie Schenk von Tautenburg
@@ -2012,7 +2012,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 							dynasty=12403
 							religion=catholic culture=german
 							father=100010724	# Vollrad von Mansfeld
-							mother=100003581	# Barbara Reuß
+							mother=reuss_0109	# Barbara Reuß
 							1560.01.01={birth=yes}
 							1585.01.01={add_spouse=100098249}	# Sophie Schenk von Tautenburg
 							1586.01.01={death=yes}
@@ -2023,7 +2023,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 							dynasty=12403
 							religion=catholic culture=german
 							father=100010724	# Vollrad von Mansfeld
-							mother=100003581	# Barbara Reuß
+							mother=reuss_0109	# Barbara Reuß
 							1563.01.01={birth=yes}
 							1591.12.18={death=yes}  # Schloss Hohnstein
 						}
@@ -2032,7 +2032,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 							dynasty=12403
 							religion=catholic culture=german
 							father=100010724	# Vollrad von Mansfeld
-							mother=100003581	# Barbara Reuß
+							mother=reuss_0109	# Barbara Reuß
 							1573.07.12={birth=yes}
 							1602.01.01={add_spouse=100010753}	# Agnes Sibille von Mansfeld
 							1614.10.09={add_spouse=100009688}	# Juliane Reuß
@@ -2123,7 +2123,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 							mother=100012187	# Margarete von Braunschweig-Lüneburg
 							1561.07.28={birth=yes}
 							1589.01.01={add_spouse=100005003}	# Juliane Wild- und Rheingraf zu Kyrburg
-							1608.09.22={add_spouse=waldstein_0020}	# Anna Sybilla z Vartemberka
+							1608.09.22={add_spouse=waldstein_0020}	# Anna Sybilla von Wartenberg
 							1609.04.07={death=yes}  # Hergisdorf
 						}
 							100010735={ #// G1. [1m.] Anna Juliana, *5.4.1591, +after 1616; m.3.7.1609 Johann Wildgf von Salm-Grumbach (*1582 +19.1.1630) $$
@@ -2266,7 +2266,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 		1435.01.01={add_spouse=piast_0056}	# Malgorzata Piast
 		1451.08.16={death=yes}
 	}
-		100010763={ #// B4. [2m.] Hedwig, *ca 1441, +1527; m.Heinrich XII von Gera (*1438 +26.8.1500)
+		100010763={ #// B4. [2m.] Hedwig, *ca 1441, +1527; m.Heinrich XII von Gera (*1438 +26.8.1500) $$
 			name=Hedwig
 			female=yes
 			dynasty=12403
@@ -5117,7 +5117,7 @@ kalnein_0007={ #// Friedrich Stanislaus von Kalnein (*2.10.1737, +8.6.1818) %%
 									1801.02.22={death=yes}
 								}
 								# 1h) Johann Ernst, zu Kundschütz u.Sadowa (1742-1825); m.1st 1779 Maria Anna Gfn von Khevenhüller (1752-1789); m.2nd 1790 Johanna Nepomucena Gfn von Blümegen (1765-1811); for him and his issue see Part 1, below
-							100005059={ #// G3. Maria Barbara (*11.5.1721, +11.11.1789); m.4.11.1736 Franz Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (*23.4.1711, +3.5.1738) %%
+							100005059={ #// G3. Maria Barbara (*11.5.1721, +11.11.1789); m.1st 4.11.1736 Franz Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (*23.4.1711, +3.5.1738); m.2nd 1.7.1747 Heřman Jakub Czernin v.u.zu Chudenitz (*1711, +15.11.1784) %%
 								name="Maria Barbara"
 								female=yes
 								dynasty=1002078
@@ -11679,7 +11679,7 @@ neipperg_0001={ #// ADAM ADALBERT, Graf und Herr von Neipperg, *Wien 8.4.1775, +
 	father=100012856	# Antoine de Croÿ
 	mother=100085980	# DAME Margaret de Lorraine-Vaudémont
 	1436.01.01={birth=yes}  # EST.
-	1455.01.01={add_spouse=100104251}	# Jacqueline de Luxemburg
+	1455.01.01={add_spouse=100104251}	# Jacqueline de Luxembourg
 	1511.01.01={death=yes}
 }
 	100012825={ #// A1. Henri de Croy, Cte de Porcean, +1514; m.Charlotte de Chateaubriand (+1509)
@@ -11687,7 +11687,7 @@ neipperg_0001={ #// ADAM ADALBERT, Graf und Herr von Neipperg, *Wien 8.4.1775, +
 		dynasty=1002044
 		religion=catholic culture=french
 		father=100002926	# Philippe de Croÿ
-		mother=100104251	# Jacqueline de Luxemburg
+		mother=100104251	# Jacqueline de Luxembourg
 		1457.01.01={birth=yes}  # EST.
 		1495.01.01={add_spouse=100099287}	# Charlotte de Chateaubriand
 		1514.01.01={death=yes}
@@ -12150,7 +12150,7 @@ neipperg_0001={ #// ADAM ADALBERT, Graf und Herr von Neipperg, *Wien 8.4.1775, +
 				1750.01.01={death=yes}
 			}
 	100008127={ #// A2. Marie Philippina Guillemette, +23.9.1676; m.5.2.1634 Charles Maximilien de Longueval, Gf von Buquoy (*1607 +29.3.1663) $$
-		name=Marie
+		name="Marie Guillemette
 		female=yes
 		dynasty=1002044
 		religion=catholic culture=french
@@ -15085,7 +15085,7 @@ croy_0001={ #// Jean III de Croy, sn de Roeulx, *1436, +1505; m.Hesdin 24.5.1489
 			mother=100103437	# GFN Walburga von Mörs u.Saarwerden
 			1457.01.01={birth=yes}  # EST.
 			1507.01.01={add_spouse=100103447}	# VCTS Anna von der Gracht de Furnes
-			1507.12.01={add_spouse=100103446}	# Louise de Luxemburg
+			1507.12.01={add_spouse=100103446}	# Louise de Luxembourg
 			1546.01.01={death=yes}
 		}
 			100012869={ #// D1. [1m.] Jacques III, sn de Sempy, *1508, +7.2.1587; 1m: 1.II.1532 Anne d'Henin (+5.1.1535); 2m: Gaasbeek 25.2.1538 Anna von Horn, Dame de Dilbeck (+by 1561); 3m: 18.2.1561 Yolande de Lannoy, Dame de Molembais (+5.7.1610)
@@ -15093,7 +15093,7 @@ croy_0001={ #// Jean III de Croy, sn de Roeulx, *1436, +1505; m.Hesdin 24.5.1489
 				dynasty=1002044
 				religion=catholic culture=french
 				father=100012868	# Antoine de Croÿ
-				mother=100103446	# Louise de Luxemburg
+				mother=100103446	# Louise de Luxembourg
 				1508.01.01={birth=yes}
 				1532.02.01={add_spouse=100103451}	# Anne d'Henin
 				1538.02.25={add_spouse=100103453}	# DAME Anna von Horn de Dilbeck
@@ -18722,6 +18722,7 @@ limpurg_0001={ #// Friedrich Schenk von Limpurg (d.7 Nov 1414; bur Komburg); m.1
 				mother=lowborn_3493	# Margareta von Hohenberg
 				1474.06.01={birth=yes}
 				1497.01.01={add_spouse=schlick_0124}	# Margareta von Schlik zu Bassano u.Weißkirchen
+				#1497.01.01={add_spouse=schlick_0022}
 				1530.04.09={death=yes}
 			}
 				limpurg_0091={ #// 1d) KARL, Schenk von Limpurg zu Speckfeld (Schloß Limpurg 7 Mar 1498-2 Sep 1558; bur Markt Einersheim); m.1st 7 Jun 1523 Ottilie (11 Sep 1491-20 Jun 1542), dau of Günther Gf von Schwarzburg; m.2nd 1543 Adelheid (d.Schloß Ortenburg 12 Oct 1580), dau of Johann Wild- u.Rheingf, Gf zu Salm-Kyrburg $$
@@ -21520,7 +21521,7 @@ larisch_0005={ #// D1. Johann Friedrich VON LARISCH, *1631, +1698; m.Klara von G
 										1943.12.29={add_spouse=100186250}	# Alexia Emma Czernin v.u.zu Chudenitz
 										1956.01.01={remove_spouse=100186250}
 										1957.09.04={add_spouse=lowborn_6551}	# Rudolfine Emmerstorfer
-										1987.07.31={death=yes}  # Palfau,Steiermark
+										1987.07.31={death=yes}  # Palfau, Steiermark
 									}
 										larisch_0061={ #// N1. Karl LARISCH VON MÖNNICH, *Praha 1938.12.03; m.1st 1.1.1962 Ludmila BEF Kopecká (*16.4.1941); m.2nd 15.4.1972 Olga Ježková (*Rychnov nad Kněžnou 22.11.1943)
 											name=Karl

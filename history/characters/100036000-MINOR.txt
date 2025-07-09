@@ -422,6 +422,15 @@
 					religion=catholic culture=french
 					1940.10.05={birth=yes}
 				}	
+		# Olivier Peter Maria Eugene Graaf Rességuier van Miremont (1877-1936); m.Helena van Zedtwitz (1874-1935)
+			lowbor2_2520={ # Cts        Anna Sophia               Rességuier de Miremont                   (1912-1992)     3 [REUS]
+				name="Anna Sophia Resseguier de Mieremont"
+				female=yes
+				#dynasty=0
+				religion=lutheran culture=bavarian
+				1912.07.03={birth=yes}  # Wien
+				1992.01.01={death=yes}  # EST.
+			}
 		# Alexander Nisko 1883-Innsbruck 1954
 			# Alexander Kielce 1918-Oerbke 1955
 				resseguier_0001={ #            Alexander Maria           Rességuier de Miremont                   (1951-    )     - [CHORINSKY]
@@ -629,7 +638,7 @@
 		1469.01.01={add_spouse=100008659}	# Katharina von Schwarzburg-Blankenburg
 		1494.03.08={death=yes}  # Tonna
 	}
-		100035922={ #// B1. Siegmund (*1470, +10.5.1525); m.27.1.1482 Elisabeth zu Ysenburg und Büdingen (*before 23.6.1460, +1543) %%
+		100035922={ #// B1. Siegmund (*1470, +Gräfentonna 10.5.1525); m.27.1.1482 Elisabeth zu Ysenburg und Büdingen (*before 23.6.1460, +1543) %%
 			name=Siegmund
 			dynasty=gleichen
 			religion=catholic culture=german
@@ -637,24 +646,24 @@
 			mother=100008659	# Katharina von Schwarzburg-Blankenburg
 			1470.01.01={birth=yes}
 			1482.01.27={add_spouse=100011847}	# Elisabeth zu Ysenburg und Büdingen
-			1525.05.10={death=yes}
+			1525.05.10={death=yes}	# Gräfentonna
 		}
-			100035921={ #// C1. Philipp (*1483, +1549); m.1508 Margarete von Schönburg-Waldenburg (*1487, +1535) %%
-				name=Philipp
+			100035921={ #// C1. Philipp Hektor (*1483, +1549); m.1508 Margarete von Schönburg (*1487, +1535) %%
+				name="Philipp Hektor"
 				dynasty=gleichen
 				religion=catholic culture=german
 				father=100035922	# Siegmund von Gleichen
 				mother=100011847	# Elisabeth zu Ysenburg und Büdingen
 				1483.01.01={birth=yes}
-				1508.01.01={add_spouse=100087486}	# Margarete von Schönburg-Waldenburg
+				1508.01.01={add_spouse=schonburg_0043}	# Margarete von Schönburg
 				1549.01.01={death=yes}
 			}
 				100035920={ #// D1. Georg (*1509, +1570); m.1553 Walburga von Pyrmont und Spiegelberg (*1520, +1599) %%
 					name=Georg
 					dynasty=gleichen
 					religion=catholic culture=german
-					father=100035921	# Philipp von Gleichen
-					mother=100087486	# Margarete von Schönburg-Waldenburg
+					father=100035921	# Philipp Hektor von Gleichen
+					mother=schonburg_0043	# Margarete von Schönburg
 					1509.01.01={birth=yes}
 					1553.01.01={add_spouse=100085745}	# Walburga von Pyrmont und Spiegelberg
 					1570.01.01={death=yes}
@@ -1356,6 +1365,7 @@
 		}
 ## WOLKENSTEIN 1004565
 
+
 # CHABANNES
 100035763={ #// Victor de Chabannes (*1815, +1880); m.1839 Simone Petitier (*1815, +1880) %%
 	name=Victor
@@ -1452,7 +1462,8 @@
 			}
 # CHABANNES
 
-# DU PRE
+
+## DU PRE
 100035768={ #// Rene du Pre de Saint-Maur (+1919); m.1874 Josephine de Bourbon-Busset (*Paris 1846, +there 1940) %%
 	name=Rene
 	dynasty=1007092
@@ -1471,7 +1482,8 @@
 		1920.02.04={add_spouse=100067953}	# Elisabeth Marie d'Ursel
 		1973.10.30={death=yes}
 	}
-# DU PRE
+## DU PRE
+
 
 ## WESTPHALEN 1002284
 100035756={ #// Klemens August von Westphalen zu Fürstenberg (*Paderborn 12.1.1753, +Frankfurt 26.12.1818); m.16.7.1778 Marie Waldbott von Bassenheim (*20.11.1757, +1.10.1786) %%
@@ -1767,6 +1779,7 @@
 	}
 ## WESTPHALEN 1002284
 
+
 ## ZINZENDORF 1002282
 100035724={ #// Johann Joachim von Zinzendorf u.Pottendorf (*27.12.1570, +Karlsbach 29.1.1626); m.1595 Judith von Liechtenstein (*1575, +1621) %%
 	name="Johann Joachim"
@@ -1844,6 +1857,7 @@
 	}
 ## ZINZENDORF 1002282
 
+
 ## SINZENDORF 1002268
 100035504={ #// Pilgram von Sinzendorf-Neuburg (*1579, +Pöggstall 14.3.1632); m.1608 Susanna von Trauttmansdorff-Weinsberg (+15.5.1619) %%
 	name=Pilgram
@@ -1873,7 +1887,15 @@
 			1666.04.11={birth=yes}
 			1709.05.18={death=yes}  # Wien
 		}
-
+		# Philipp Ludwig Wenzel Graf von Sinzendorf (*26. Dec 1671 in Wien; +8. Feb 1742 ebenda) 
+		# Johann Wilhelm Edmund (1697–1766), Träger des Ordens vom Goldenen Vlies; 1m: 1716 Bianca Sforza Visconti (*1. Apr 1697, +Dez 1717); 2m: 1724 Maria Josefa Amalia Antonia von Eggenberg (*24. Jan 1709; +7. May 1755)
+			# [1m.] Bianca Maria (* 13. November 1717; † 1783) ⚭ 1736 Filippo Domenico Doria (1710–1768)[1]
+			# [2m.] "Rosina" Veremund Josefa (* 13. Oktober 1725; † 14. Mai 1796) ⚭ 1748 Franz Josef von Sinzendorf-Ernstbrunn (* 28. Juli 1724; † 29. März 1792)
+		# Philipp Ludwig (1699–1747)
+		# Octavian Karl Nicolaus (1702–1767)
+		# Josepha Maria (1700–1762); m.1717 Graf Franz Wenzel von Sinzendorf
+		# Joseph Bernhard (1708–1758)
+		
 100036916={ #// Augustin von Sinzendorf-Ernstbrunn (*1590, +1.12.1642); m.1610 Elisabeth von Trauttmansdorff-Weinsberg (*5.5.1587, +29.5.1653) %%
 	name=Augustin
 	dynasty=1002267
@@ -1960,9 +1982,79 @@
 				1722.01.01={add_spouse=100118639}	# Rozália Franciska Draskovich de Trakostyán
 				1738.07.11={death=yes}
 			}
+		100085709={ #// B3. Michael Johann (*31.5.1665, +28.2.1697); m.1693 Anna Franziska Kinsky von Wchinitz u.Tettau (*1672, +24.7.1738) %%
+			name="Michael Johann"
+			dynasty=1002267
+			religion=catholic culture=german
+			father=100035955	# Johann Joachim von Sinzendorf-Ernstbrunn
+			mother=100022245	# Maria von Althann
+			1665.05.31={birth=yes}
+			1693.01.01={add_spouse=100185708}	# Anna Franziska Kinsky von Wchinitz u.Tettau
+			1697.02.28={death=yes}
+		}
+	100435955={ #// A2. Rudolf (*29.3.1636, +29.11.1677) %%
+		name="Rudolf"
+		dynasty=1002267
+		religion=catholic culture=german
+		father=100036916	# Augustin von Sinzendorf-Ernstbrunn
+		mother=100025050	# Elisabeth von Trauttmansdorff-Weinsberg
+		1636.03.29={birth=yes}
+		1677.11.29={death=yes}
+	}
+		100096990={ #// B1. Anna Elisabeth (*Pozsony 12.5.1659, +Schleiz 8.10.1683); m.16.5.1680 Heinrich Reuß (*Schleiz 26.3.1639, +Köstritz 18.3.1692) %%
+			name="Anna Elisabeth"
+			female=yes
+			dynasty=1002267
+			religion=catholic culture=german
+			father=100435955	# Rudolf von Sinzendorf-Ernstbrunn
+			1659.05.12={birth=yes}  # Pozsony
+			1683.10.08={death=yes}  # Schleiz
+		}
+		100535955={ #// B2. Sigmund Rudolph (*1670, +Wien 8.1.1747); m.1st 3.10.1709 Johanna von Nostitz-Rokitnitz (*1685, +Wien 25.4.1735); m.2nd 20.6.1735 Eleonora zu Hardegg auf Glatz u.im Machlande (*29.7.1713, +25.1.1767) %%
+			name="Sigmund Rudolph"
+			dynasty=1002267
+			religion=catholic culture=german
+			father=100435955	# Rudolf von Sinzendorf-Ernstbrunn
+			1670.01.01={birth=yes}
+			1709.10.03={add_spouse=nostitz_0037}	# Johanna von Nostitz-Rokitnitz
+			1735.06.20={add_spouse=hardegg_0055}	# Eleonora zu Hardegg auf Glatz u.im Machlande
+			1747.01.08={death=yes}  # Wien
+		}
+			100098268={ #// C1. [1m.] Maria Apollonia (*17.11.1711, +Wien 20.2.1771); m.6.10.1727 Johann Adam von Abensberg u.Traun (*Wien 30.4.1705, +Wien 13.12.1786) %%
+				name="Maria Apollonia"
+				female=yes
+				dynasty=1002267
+				religion=catholic culture=german
+				father=100535955	# Sigmund Rudolph von Sinzendorf-Ernstbrunn
+				mother=nostitz_0037	# Johanna von Nostitz-Rokitnitz
+				1711.11.17={birth=yes}
+				1771.02.20={death=yes}  # Wien
+			}
+			# Anton Friedrich (1713–1713)
+			100535055={ #// C2. [1m.] Maria Elisabeth (*5.4.1714, +27.1.1772); m.2.4.1731 Johann Karl zu Hardegg auf Glatz u.im Machlande (*2.9.1703, +26.1.1752) %%
+				name="Maria Elisabeth"
+				female=yes
+				dynasty=1002267
+				religion=catholic culture=german
+				father=100535955	# Sigmund Rudolph von Sinzendorf-Ernstbrunn
+				mother=nostitz_0037	# Johanna von Nostitz-Rokitnitz
+				1714.04.05={birth=yes}
+				1772.01.27={death=yes}
+			}
+			# Maria Franziska (1717–1778) ⚭ Graf Johann Ernst Hendrik Cajetan Ludwig Hoyos von Sprinzenstein (1718–1781)
+		100535155={ #// B3. Maria Maximiliana (*2.11.1675, +Wien 6.10.1718); m.2.9.1705 Johann von Nostitz-Rokitnitz (*1673, +Wien 17.4.1740) %%
+			name="Maria Maximiliana"
+			female=yes
+			dynasty=1002267
+			religion=catholic culture=german
+			father=100435955	# Rudolf von Sinzendorf-Ernstbrunn
+			1675.11.02={birth=yes}
+			1718.10.06={death=yes}  # Wien
+		}
 ## SINZENDORF 1002268
 
-# REICHENBACH-GOSCHÜTZ
+
+## REICHENBACH-GOSCHÜTZ
 100035705={ #// Heinrich Leopold von Reichenbach-Goschütz (*Klein Peterwitz 19.3.1705, +Goschütz 9.4.1775); m.1st 1729 Helene Agnes von Solms-Sonnenwalde (*Königsberg 28.5.1707, +Goschütz 13.10.1735); m.2nd 1737 Friederike Charlotte von Schoenaich-Carolath (*1720, +1741); m.3rd 1742 Amalie Mariana von Schoenaich-Carolath (*1718, +1790) %%
 	name="Heinrich Leopold"
 	dynasty=1002281
@@ -2216,7 +2308,7 @@
 			1785.02.14={birth=yes}  # Bodland
 			1839.02.14={death=yes}  # Berlin
 		}
-# REICHENBACH-GOSCHÜTZ
+## REICHENBACH-GOSCHÜTZ
 
 
 ## MONTFORT 1002278
@@ -2453,7 +2545,7 @@
 						1947.10.07={birth=yes}
 						1978.03.14={add_spouse=100011079}	# Monika von Waldburg zu Zeil u.Trauchburg
 					}
-	100035537={ #// A2. Friedrich (*1817, +1863) %%
+	100035537={ #// A3. Friedrich (*1817, +1863) %%
 		name=Friedrich
 		dynasty=1002270
 		religion=lutheran culture=german
@@ -2513,6 +2605,31 @@
 					1930.08.12={birth=yes}  # Göttingen
 					2007.01.01={death=yes}  # EST.
 				}
+				100086829={ #// D3. Clementine (*München 5.8.1937); m.4.8.1959 Klemens Anton Schenk von Stauffenberg (*Amerdingen 13.8.1929, +Bielefeld 30.12.1987) %%
+					name="Clementine"
+					female=yes
+					dynasty=1002270
+					religion=lutheran culture=german
+					father=100035536	# Wolfgang Wolff-Metternich zur Gracht
+					1937.08.05={birth=yes}  # München
+				}
+	100135551={ #// A2. Maximilian Felix (*1814, +1871) %%
+		name="Maximilian Felix"
+		dynasty=1002270
+		religion=catholic culture=german
+		father=100035552	# Max Werner Wolff-Metternich zur Gracht
+		1814.01.01={birth=yes}
+		1871.01.01={death=yes}
+	}
+		100095530={ #// B1. "Antoinette (*Gymnich 12.6.1846, +Münster 24.7.1902); m.16.4.1874 Maximilian von Korff gt Schmising-Kerssenbrock (*Münster 23.11.1840, +Westerwinkel 1.8.1884) %%
+			name="Antoinette
+			female=yes
+			dynasty=1002270
+			religion=catholic culture=german
+			father=100135551	# Maximilian Felix Wolff-Metternich zur Gracht
+			1846.06.12={birth=yes}  # Gymnich
+			1902.07.24={death=yes}  # Münster
+		}
 # WOLFF-METTERNICH
 
 # CESCHI
@@ -2534,6 +2651,16 @@
 		1922.06.13={add_spouse=100117705}	# Terézia Hunyady de Kéthely
 		1958.01.28={death=yes}  # Baden bei Wien
 	}
+		100035165={ #// B1. Johann (*Kunzendorf, Silesia 15.8.1895, +Solbad Hall, Tirol 6.9.1970); m.19.10.1918 Johanna von Herberstein (*Blansko 11.7.1897, +Wien 16.11.1981) %%
+			name="Johann"
+			dynasty=1006034
+			religion=catholic culture=italian
+			father=100035365	# Antonio Ceschi a Santa Croce
+			mother=100117705	# Terézia Hunyady de Kéthely
+			1895.08.15={birth=yes}  # Kunzendorf, Silesia
+			1918.10.19={add_spouse=herberstein_0601}	# Johanna von Herberstein
+			1970.09.06={death=yes}  # Solbad Hall, Tirol
+		}
 	100035787={ #// A2. Maria Annunziata (*Gries 29.7.1866, +Innsbruck 5.6.1922); m.8.6.1896 Heinrich Christian von Attems (*Sopron 13.10.1858, +Salzburg 12.1.1937) %%
 		name="Maria Annunziata"
 		female=yes
@@ -3047,13 +3174,13 @@
 		1780.12.01={add_spouse=100111321}	# Barbara Lubomirski
 		1817.06.13={death=yes}	# Poninka kolo Polonnego
 	}
-	100035298={ #// A3. Apollonia (*we Wrzesni 4.2.1760, +Petersburg 24.7.1800); m.18.2.1778 Carl Ernst Biron (*11.10.1728, +16.10.1801) %%
+	100035298={ #// A3. Apollonia (*Września 4.2.1759, +Petersburg 24.7.1800); m.18.2.1778 Carl Ernst Biron (*11.10.1728, +16.10.1801) %%
 		name=Apollonia
 		female=yes
 		dynasty=1012030
 		religion=catholic culture=polish
 		father=100035302	# Maciej Poniński
-		1760.02.04={birth=yes}	# we Wrzesni
+		1759.02.04={birth=yes}	# Września
 		1800.07.24={death=yes}	# Petersburg
 	}
 # PONINSKI
@@ -4002,25 +4129,34 @@
 ## OSTASENKO 1010011
 
 # HOENNING
-100036569={ #// Emil von Hoenning-O'Carroll (+15.9.1894); m.1st 25.11.1856 Maria Anna Deym ze Stríteže (*Praha 20.1.1835, +Vászka 19.8.1870); m.2nd 28.3.1876 Hermine von Hatzfeldt (*13.5.1852, +Venice 22.3.1906) %%
+100036569={ #// Emil von Hoenning-O'Carroll (*Hildesheim 12.11.1833, +Puchó, Trencsén 15.9.1894); m.1st 25.11.1856 Maria Anna Deym ze Stríteže (*Praha 20.1.1835, +Vászka 19.8.1870); m.2nd 28.3.1876 Hermine von Hatzfeldt (*13.5.1852, +Venice 22.3.1906) %%
 	name=Emil
 	dynasty=1000003
 	religion=catholic culture=german
-	1834.01.01={birth=yes}  # EST.
+	1833.11.12={birth=yes}  # Hildesheim
 	1856.11.25={add_spouse=deym_0096}	# Maria Anna Deym ze Stríteže
 	1876.03.28={add_spouse=100010595}	# Hermine von Hatzfeldt
-	1894.09.15={death=yes}
+	1894.09.15={death=yes}	# Puchó, Trencsén
 }
-	100036948={ #// A1. [1m.] Johann Ludwig (*Väszka 1864, +Sünching 1.2.1954) %%
+	100036948={ #// A1. [1m.] Johann Ludwig (*Szlavnicvaszka 3.8.1864, +Sünching 1.2.1954) %%
 		name="Johann Ludwig"
 		dynasty=1000003
 		religion=catholic culture=german
-		mother=deym_0096	# Maria Anna Deym ze Stríteže
 		father=100036569	# Emil von Hoenning-O'Carroll
-		1864.01.01={birth=yes}	# Väszka
+		mother=deym_0096	# Maria Anna Deym ze Stríteže
+		1864.08.03={birth=yes}	# Szlavnicvaszka
 		1954.02.01={death=yes}	# Sünching
 	}	
-		100036949={ #// B1. Zdenko (*6.8.1906, +8.5.1996); m.1st 16.5.1934 Margarete Popel von Lobkowitz (*4.7.1913, +13.2.1946); m.2nd 23.5.1948 Adelgunde Maria von Pfalz-Zweibrücken-Birkenfeld (*9.6.1917, +20.9.2004) %%
+		100035485={ #// B1. Sophie Zoë (*Sünching 25.8.1895); m.1919 Ivo Sedlnitzky-Odrowąż v.Choltitz (*Ering am Inn 11.6.1889, +Ering am Inn 5.1.1946) %%
+			name="Sophie Zoë"
+			female=yes
+			dynasty=1000003
+			religion=catholic culture=german
+			father=100036948	# Johann Ludwig von Hoenning-O'Carroll
+			1895.08.25={birth=yes}  # Sünching
+			1970.01.01={death=yes}  # EST.
+		}
+		100036949={ #// B2. Zdenko (*6.8.1906, +8.5.1996); m.1st 16.5.1934 Margarete Popel von Lobkowitz (*4.7.1913, +13.2.1946); m.2nd 23.5.1948 Adelgunde Maria von Pfalz-Zweibrücken-Birkenfeld (*9.6.1917, +20.9.2004) %%
 			name=Zdenko
 			dynasty=1000003
 			religion=catholic culture=german
@@ -4058,6 +4194,15 @@
 				1940.01.12={birth=yes}
 				1966.07.23={add_spouse=100115691}	# Katalin Zichy de Zich et Vásonkeő
 			}
+				100084237={ #// D1. Antoinette (*München 18.1.1968); m.15.4.1994 Johannes von Schaesberg (*München 22.10.1960) %%
+					name="Antoinette"
+					female=yes
+					dynasty=1000003
+					religion=catholic culture=german
+					father=100036947	# Johann Carl von Hoenning-O'Carroll
+					mother=100115691	# Katalin Zichy de Zich et Vásonkeő
+					1968.01.18={birth=yes}  # München
+				}
 			100035076={ #// C4. [1m.] Eleonora (*14.7.1942); m.2.10.1971 Hans Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (*24.12.1949) %%
 				name=Eleonora
 				female=yes
@@ -4076,7 +4221,7 @@
 				mother=100007848	# Adelgunde Maria von Pfalz-Zweibrücken-Birkenfeld
 				1956.05.19={birth=yes}
 			}
-		100035085={ #// B2. Christine (*Wien 20.12.1908, +1983); m.10.6.1931 Elemér Jankovich de Pribér et Vuchin (*Gic 24.11.1908, +1983) %%
+		100035085={ #// B3. Christine (*Wien 20.12.1908, +1983); m.10.6.1931 Elemér Jankovich de Pribér et Vuchin (*Gic 24.11.1908, +1983) %%
 			name=Christine
 			female=yes
 			dynasty=1000003
@@ -4775,12 +4920,12 @@
 # CAMPAGNA
 	
 # EPANCHIN
-100036450={ #// Vladimir Epančin (*19.1.1899, +29.6.1976); m.3.8.1935 Nadejda Miklachevsky Il'inična Bobrinskij (*5.2.1910, +11.5.1988) %%
+100036450={ #// Vladimir Epančin (*19.1.1899, +29.6.1976); m.3.8.1935 Nadežda Il'inična Miklaševskij (*5.2.1910, +11.5.1988) %%
 	name=Владимир
 	dynasty=1010202
 	religion=orthodox culture=russian
 	1899.01.19={birth=yes}
-	1935.08.03={add_spouse=100015030}	# Nadejda Miklachevsky Ильинична Бобринский
+	1935.08.03={add_spouse=100015030}	# Надежда Ильинична Миклашевский
 	1976.06.29={death=yes}
 }
 	100036451={ #// G1. Nicolas Epanchin, *Nice 1939; m.Elbow Lake, Minn 1968 Nancy Noelk Hensviik (*1944)
@@ -4788,7 +4933,7 @@
 		dynasty=1010202
 		religion=orthodox culture=russian
 		father=100036450	# Владимир Епанчин
-		mother=100015030	# Nadejda Miklachevsky Ильинична Бобринский
+		mother=100015030	# Надежда Ильинична Миклашевский
 		1939.01.01={birth=yes}
 		1964.01.01={add_spouse=100095013}	# Elbow Lake
 	}
@@ -4814,7 +4959,7 @@
 		dynasty=1010202
 		religion=orthodox culture=russian
 		father=100036450	# Владимир Епанчин
-		mother=100015030	# Nadejda Miklachevsky Ильинична Бобринский
+		mother=100015030	# Надежда Ильинична Миклашевский
 		1942.01.01={birth=yes}
 		1970.01.01={add_spouse=100095173}	# Betty Philips Cooper
 	}
@@ -4832,7 +4977,7 @@
 		dynasty=1010202
 		religion=orthodox culture=russian
 		father=100036450	# Владимир Епанчин
-		mother=100015030	# Nadejda Miklachevsky Ильинична Бобринский
+		mother=100015030	# Надежда Ильинична Миклашевский
 		1945.01.01={birth=yes}
 		1975.01.01={add_spouse=100095815}	# Junell Woleslagle
 	}
@@ -8666,15 +8811,15 @@
 							1946.07.03={add_spouse=geldernegmond_0051}	# Maria von Geldern-Egmond
 							1984.01.26={death=yes}  # Pfarrkirchen Rottal
 						}
-						100436179={ #// F3. Otto (*Thurnstein 15.1.1952); m.24.9.1977 Helene Strachwitz v.Groß-Zauche u.Camminetz (*Buenos Aires 2.6.1951) %%
-							name="Otto"
-							dynasty=1007063
-							religion=catholic culture=czech
-							father=100036178	# Theodor Basselet de la Rosée
-							mother=100012377	# Marie Franziska zu Oettingen-Spielberg
-							1952.01.15={birth=yes}  # Thurnstein
-							1977.09.24={add_spouse=strachwitz_0240}	# Helene Strachwitz v.Groß-Zauche u.Camminetz
-						}
+							100436179={ #// G1. Otto (*Thurnstein 15.1.1952); m.24.9.1977 Helene Strachwitz v.Groß-Zauche u.Camminetz (*Buenos Aires 2.6.1951) %%
+								name="Otto"			# todo: guesswork here
+								dynasty=1007063
+								religion=catholic culture=czech
+								father=100236179	# Karl Rudolf Basselet de la Rosée
+								mother=geldernegmond_0051	# Maria von Geldern-Egmond
+								1952.01.15={birth=yes}  # Thurnstein
+								1977.09.24={add_spouse=strachwitz_0240}	# Helene Strachwitz v.Groß-Zauche u.Camminetz
+							}
 		100036177={ #// B2. Agnes (*München 8.1.1779, +15.10.1821); m.2.2.1802 Maximilian Franz von Lamberg (*25.11.1775, +21.11.1837) %%
 			name=Agnes
 			female=yes
@@ -8905,14 +9050,14 @@
 					1881.01.18={birth=yes}
 					1949.09.26={death=yes}	# Brünn
 				}
-				100036031={ #// D2. [2m.] Hubert (*Wien 15.1.1891, +Wien 28.9.1924); m.1917 Gfn Maria Isabella von Bissingen u.Nippenburg (*1894) %%
+				100036031={ #// D2. [2m.] Hubert (*Wien 15.1.1891, +Wien 28.9.1924); m.1917 Isabella von Bissingen (*Trieste 10.2.1894, +1967) %%
 					name=Hubert
 					dynasty=1007065
 					religion=catholic culture=german
 					father=100036028	# Hubert Karl de la Fontaine u.d'Harnoncourt-Unverzagt
 					mother=mitrovsky_0033	# Juliana Mittrowsky von Mittrowitz
 					1891.01.15={birth=yes}	# Wien
-					1917.01.01={add_spouse=100082449}	# GFN Maria Isabella von Bissingen u.Nippenburg
+					1917.01.01={add_spouse=bissingen_0044}	# Isabella von Bissingen
 					1924.09.28={death=yes}	# Wien
 				}
 					100036030={ #// E1. Hubert (*1918, +2012); m.1952 Frn Margret Wucherer v.Huldenfeld (*1922, +2011) %%
@@ -8920,7 +9065,7 @@
 						dynasty=1007065
 						religion=catholic culture=german
 						father=100036031	# Hubert de la Fontaine u.d'Harnoncourt-Unverzagt
-						mother=100082449	# GFN Maria Isabella von Bissingen u.Nippenburg
+						mother=bissingen_0044	# Isabella von Bissingen
 						1918.01.01={birth=yes}
 						1952.01.01={add_spouse=100082448}	# FRN Margret Wucherer v.Huldenfeld
 						2012.01.01={death=yes}
@@ -11449,3 +11594,26 @@ doenhoff_0001={ #// Gf Boleslaus Ernst Magnus von Dönhoff, *10.12.1581, +18.1.1
 			1742.12.24={death=yes}  # Donhoffstadt
 		}
 ## DÖNHOFF
+
+
+## DES ENFFANS D'AVERNAS
+enffans_0004={ #// Adrian des Enffans d’Avernas (*Tournay 3.5.1771, +Neuschloss, Steiermark 28.4.1863); m.4.4.1809 Maria Karoline von Wilczek (*Wien 28.11.1782, +Neuschloss 14.5.1864) %%
+	name="Adrian"
+	dynasty=enffans
+	religion=catholic culture=french
+	1771.05.03={birth=yes}  # Tournay
+	1809.04.04={add_spouse=wilczek_0036}	# Maria Karoline von Wilczek
+	1863.04.28={death=yes}  # Neuschloss, Steiermark
+}
+	enffans_0005={ #// A1. Heinrich (*Graz 28.12.1814, +Neuschloss, Steiermark 13.8.1901); m.1st 15.8.1850 Henriette Karoline von Wilczek (*Wien 15.9.1826, +Venezia 19.4.1853); m.2nd 6.10.1864 Marie Josephine von Wilczek (*Wien 3.10.1828, +Neuschloss, Steiermark 8.6.1895) %%
+		name="Heinrich"
+		dynasty=enffans
+		religion=catholic culture=french
+		father=enffans_0004	# Adrian des Enffans d’Avernas
+		mother=wilczek_0036	# Maria Karoline von Wilczek
+		1814.12.28={birth=yes}  # Graz
+		1850.08.15={add_spouse=wilczek_0056}	# Henriette Karoline von Wilczek
+		1864.10.06={add_spouse=wilczek_0057}	# Marie Josephine von Wilczek
+		1901.08.13={death=yes}  # Neuschloss, Steiermark
+	}
+## DES ENFFANS D'AVERNAS
